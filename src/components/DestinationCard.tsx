@@ -3,24 +3,22 @@ import { Calendar, MapPin } from "lucide-react";
 import { motion } from "framer-motion";
 import { Destination } from "@/lib/types";
 import { getTagsByIds } from "@/lib/types";
+import { getDestinationImage } from "@/lib/destinationImages";
 
 interface DestinationCardProps {
   destination: Destination;
   index?: number;
 }
 
-// Default images for destinations without overrides
-const defaultImages: Record<string, string> = {
-  "brasil-amazonia-anavilhanas": "/hero-amazon.jpg",
-  "africa-tanzania-serengeti": "/hero-serengeti.jpg",
-  "america-do-sul-patagonia": "/hero-patagonia.jpg",
-};
+const FALLBACK = `https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800&h=600&fit=crop`;
 
 export const DestinationCard = ({ destination, index = 0 }: DestinationCardProps) => {
   const tags = getTagsByIds(destination.tags.slice(0, 3));
-  
-  // For now, use a placeholder or the AI prompt description for alt text
-  const imageUrl = destination.imageOverrideUrl || defaultImages[destination.id] || `https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800&h=600&fit=crop`;
+
+  const imageUrl =
+    destination.imageOverrideUrl ||
+    getDestinationImage(destination.id) ||
+    FALLBACK;
   
   return (
     <motion.article
