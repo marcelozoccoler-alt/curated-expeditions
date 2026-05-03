@@ -8,8 +8,10 @@ import { WhatsAppButton } from "@/components/WhatsAppButton";
 import { DestinationCard } from "@/components/DestinationCard";
 import { TagFilter } from "@/components/TagFilter";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
+import { SEO } from "@/components/SEO";
 import { destinations, getFeaturedDestinations } from "@/lib/destinations";
 import { CONTINENTS, Destination } from "@/lib/types";
+import { getDestinosSEO } from "@/lib/seo";
 import {
   Select,
   SelectContent,
@@ -179,8 +181,35 @@ const Destinos = () => {
 
   const pageRange = buildPageRange(currentPage, totalPages);
 
+  const seo = getDestinosSEO(
+    { continent, tags, query, sort, page: currentPage },
+    totalPages
+  );
+
+  const itemListLd = {
+    "@context": "https://schema.org",
+    "@type": "ItemList",
+    name: seo.title,
+    numberOfItems: sorted.length,
+    itemListElement: paginated.map((d, i) => ({
+      "@type": "ListItem",
+      position: start + i + 1,
+      url: `${window.location.origin}/destinos/${d.slug}`,
+      name: d.name,
+    })),
+  };
+
   return (
     <div className="min-h-screen flex flex-col">
+      <SEO
+        title={seo.title}
+        description={seo.description}
+        canonicalPath={seo.canonicalPath}
+        noindex={seo.noindex}
+        prevPath={seo.prevPath}
+        nextPath={seo.nextPath}
+        jsonLd={itemListLd}
+      />
       <Header />
       <WhatsAppButton variant="float" />
 
