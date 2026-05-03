@@ -8,6 +8,7 @@ import { WhatsAppButton } from "@/components/WhatsAppButton";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
 import { FAQSection } from "@/components/FAQSection";
 import { StayCard } from "@/components/StayCard";
+import { SEO } from "@/components/SEO";
 import { getDestinationBySlug, destinations } from "@/lib/destinations";
 import { stays as allStays } from "@/lib/stays";
 import { getTagsByIds } from "@/lib/types";
@@ -20,14 +21,6 @@ const DestinoDetail = () => {
   useEffect(() => {
     window.scrollTo({ top: 0, behavior: "instant" as ScrollBehavior });
   }, [slug]);
-
-  useEffect(() => {
-    if (destination) {
-      document.title = `${destination.name} — Create Travel`;
-      const desc = document.querySelector('meta[name="description"]');
-      if (desc) desc.setAttribute("content", destination.intro.slice(0, 155));
-    }
-  }, [destination]);
 
   if (!destination) return <Navigate to="/destinos" replace />;
 
@@ -55,10 +48,16 @@ const DestinoDetail = () => {
 
   return (
     <div className="min-h-screen flex flex-col">
+      <SEO
+        title={`${destination.name} — Create Travel`}
+        description={destination.intro.slice(0, 155)}
+        canonicalPath={`/destinos/${destination.slug}`}
+        ogImage={heroImage.startsWith("http") ? heroImage : undefined}
+        ogType="article"
+        jsonLd={faqSchema}
+      />
       <Header />
       <WhatsAppButton variant="float" />
-
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
 
       {/* Hero */}
       <section className="relative h-[70vh] min-h-[500px] flex items-end overflow-hidden">

@@ -6,6 +6,7 @@ import { Footer } from "@/components/Footer";
 import { WhatsAppButton } from "@/components/WhatsAppButton";
 import { DestinationCard } from "@/components/DestinationCard";
 import { StayCard } from "@/components/StayCard";
+import { SEO } from "@/components/SEO";
 import { TAGS } from "@/lib/types";
 import { getFeaturedDestinations } from "@/lib/destinations";
 import { getFeaturedStays } from "@/lib/stays";
@@ -17,6 +18,11 @@ const Index = () => {
 
   return (
     <div className="min-h-screen">
+      <SEO
+        title="Create Travel — Curadoria de viagens com propósito"
+        description="Portal premium de curadoria de destinos e hospedagens. Experiências autênticas, exclusivas e com propósito — luxo discreto pela Create Travel."
+        canonicalPath="/"
+      />
       <Header />
       <WhatsAppButton variant="float" />
 
