@@ -1,14 +1,9 @@
-User-agent: Googlebot
-Allow: /
-
-User-agent: Bingbot
-Allow: /
-
-User-agent: Twitterbot
-Allow: /
-
-User-agent: facebookexternalhit
-Allow: /
-
 User-agent: *
 Allow: /
+
+# Block noindex'd filter combinations from crawl budget waste (still allowed,
+# but tagged noindex via meta robots in the SPA when indexed). Search results
+# and multi-tag combos are noindex'd in HTML; we keep them crawlable so the
+# rel=canonical can pass signals to the cleaner version.
+
+Sitemap: https://www.createtravel.tur.br/sitemap.xml
