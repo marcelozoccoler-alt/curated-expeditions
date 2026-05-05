@@ -1,0 +1,261 @@
+import { useEffect, useMemo, useRef } from "react";
+import { useParams, useSearchParams, Navigate, Link } from "react-router-dom";
+import { motion } from "framer-motion";
+import { Header } from "@/components/Header";
+import { Footer } from "@/components/Footer";
+import { WhatsAppButton } from "@/components/WhatsAppButton";
+import { DestinationCard } from "@/components/DestinationCard";
+import { Breadcrumbs } from "@/components/Breadcrumbs";
+import { SEO } from "@/components/SEO";
+import { destinations } from "@/lib/destinations";
+import { TAGS, getTagLabel, CONTACT } from "@/lib/types";
+import { getExperienciasSEO } from "@/lib/seo";
+import {
+  Pagination,
+  PaginationContent,
+  PaginationEllipsis,
+  PaginationItem,
+  PaginationLink,
+  PaginationNext,
+  PaginationPrevious,
+} from "@/components/ui/pagination";
+
+const PAGE_SIZE = 12;
+const DOMAIN = CONTACT.domain.replace(/\/$/, "");
+
+const buildPageRange = (current: number, total: number): (number | "…")[] => {
+  if (total <= 7) return Array.from({ length: total }, (_, i) => i + 1);
+  const pages: (number | "…")[] = [1];
+  const start = Math.max(2, current - 1);
+  const end = Math.min(total - 1, current + 1);
+  if (start > 2) pages.push("…");
+  for (let i = start; i <= end; i++) pages.push(i);
+  if (end < total - 1) pages.push("…");
+  pages.push(total);
+  return pages;
+};
+
+const ExperienciaTag = () => {
+  const { tagId } = useParams<{ tagId: string }>();
+  const [searchParams, setSearchParams] = useSearchParams();
+  const resultsRef = useRef<HTMLDivElement>(null);
+
+  const tag = TAGS.find((t) => t.id === tagId);
+
+  const sort = searchParams.get("sort") || "curadoria";
+  const query = searchParams.get("q") || "";
+  const page = Math.max(1, parseInt(searchParams.get("page") || "1", 10) || 1);
+
+  const filtered = useMemo(
+    () => (tagId && tag ? destinations.filter((d) => d.tags.includes(tagId)) : []),
+    [tagId, tag]
+  );
+
+  const totalPages = Math.max(1, Math.ceil(filtered.length / PAGE_SIZE));
+  const currentPage = Math.min(page, totalPages);
+  const start = (currentPage - 1) * PAGE_SIZE;
+  const paginated = filtered.slice(start, start + PAGE_SIZE);
+  const showFrom = filtered.length === 0 ? 0 : start + 1;
+  const showTo = Math.min(start + PAGE_SIZE, filtered.length);
+
+  useEffect(() => {
+    if (page > totalPages) {
+      const next = new URLSearchParams(searchParams);
+      next.set("page", String(totalPages));
+      setSearchParams(next, { replace: true });
+    }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [totalPages]);
+
+  const goToPage = (p: number) => {
+    if (p < 1 || p > totalPages || p === currentPage) return;
+    const next = new URLSearchParams(searchParams);
+    if (p === 1) next.delete("page");
+    else next.set("page", String(p));
+    setSearchParams(next, { replace: false });
+    requestAnimationFrame(() => {
+      resultsRef.current?.scrollIntoView({ behavior: "smooth", block: "start" });
+    });
+  };
+
+  if (!tagId || !tag) return <Navigate to="/experiencias" replace />;
+
+  const seo = getExperienciasSEO(
+    { tagId, query, sort, page: currentPage },
+    totalPages
+  );
+
+  const itemListLd = {
+    "@context": "https://schema.org",
+    "@type": "ItemList",
+    name: seo.title,
+    numberOfItems: filtered.length,
+    itemListElement: paginated.map((d, i) => ({
+      "@type": "ListItem",
+      position: start + i + 1,
+      url: `${DOMAIN}/destinos/${d.slug}`,
+      name: d.name,
+    })),
+  };
+
+  const breadcrumbLd = {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: [
+      { "@type": "ListItem", position: 1, name: "Início", item: `${DOMAIN}/` },
+      { "@type": "ListItem", position: 2, name: "Experiências", item: `${DOMAIN}/experiencias` },
+      { "@type": "ListItem", position: 3, name: tag.label, item: `${DOMAIN}/experiencias/${tag.id}` },
+    ],
+  };
+
+  const pageRange = buildPageRange(currentPage, totalPages);
+
+  return (
+    <div className="min-h-screen flex flex-col">
+      <SEO
+        title={seo.title}
+        description={seo.description}
+        canonicalPath={seo.canonicalPath}
+        noindex={seo.noindex}
+        prevPath={seo.prevPath}
+        nextPath={seo.nextPath}
+        jsonLd={[itemListLd, breadcrumbLd]}
+      />
+      <Header />
+      <WhatsAppButton variant="float" />
+
+      <section className="relative pt-32 pb-12 bg-gradient-hero text-primary-foreground">
+        <div className="container-editorial">
+          <Breadcrumbs
+            items={[
+              { label: "Experiências", href: "/experiencias" },
+              { label: tag.label },
+            ]}
+          />
+          <div className="max-w-3xl mt-4">
+            <div className="gold-line mb-6" />
+            <h1 className="heading-hero mb-4">{tag.label}</h1>
+            <p className="text-lg md:text-xl text-primary-foreground/85 font-light">
+              Destinos selecionados pela Create Travel para experiências de{" "}
+              {tag.label.toLowerCase()}.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section ref={resultsRef} className="section-padding flex-1 scroll-mt-32">
+        <div className="container-editorial">
+          <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4 mb-8">
+            <p className="text-muted-foreground">
+              <span className="font-semibold text-foreground">{filtered.length}</span>{" "}
+              {filtered.length === 1 ? "destino encontrado" : "destinos encontrados"}
+              {filtered.length > 0 && (
+                <span className="hidden sm:inline">
+                  {" "}· mostrando{" "}
+                  <span className="text-foreground font-medium">
+                    {showFrom}–{showTo}
+                  </span>
+                </span>
+              )}
+            </p>
+            <Link
+              to="/experiencias"
+              className="text-sm text-gold hover:text-gold-light transition-colors font-medium"
+            >
+              ← Todas as experiências
+            </Link>
+          </div>
+
+          {paginated.length > 0 ? (
+            <>
+              <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+                {paginated.map((d, i) => (
+                  <DestinationCard key={d.id} destination={d} index={i % 6} />
+                ))}
+              </div>
+
+              {totalPages > 1 && (
+                <div className="mt-12 flex flex-col sm:flex-row items-center justify-between gap-4">
+                  <p className="text-sm text-muted-foreground">
+                    Mostrando{" "}
+                    <span className="text-foreground font-medium">
+                      {showFrom}–{showTo}
+                    </span>{" "}
+                    de{" "}
+                    <span className="text-foreground font-medium">{filtered.length}</span>
+                  </p>
+                  <Pagination className="mx-0 w-auto justify-end">
+                    <PaginationContent>
+                      <PaginationItem>
+                        <PaginationPrevious
+                          href="#"
+                          onClick={(e) => {
+                            e.preventDefault();
+                            goToPage(currentPage - 1);
+                          }}
+                          aria-disabled={currentPage === 1}
+                          className={currentPage === 1 ? "pointer-events-none opacity-50" : ""}
+                        />
+                      </PaginationItem>
+                      {pageRange.map((p, idx) =>
+                        p === "…" ? (
+                          <PaginationItem key={`e-${idx}`}>
+                            <PaginationEllipsis />
+                          </PaginationItem>
+                        ) : (
+                          <PaginationItem key={p}>
+                            <PaginationLink
+                              href="#"
+                              isActive={p === currentPage}
+                              onClick={(e) => {
+                                e.preventDefault();
+                                goToPage(p);
+                              }}
+                            >
+                              {p}
+                            </PaginationLink>
+                          </PaginationItem>
+                        )
+                      )}
+                      <PaginationItem>
+                        <PaginationNext
+                          href="#"
+                          onClick={(e) => {
+                            e.preventDefault();
+                            goToPage(currentPage + 1);
+                          }}
+                          aria-disabled={currentPage === totalPages}
+                          className={
+                            currentPage === totalPages ? "pointer-events-none opacity-50" : ""
+                          }
+                        />
+                      </PaginationItem>
+                    </PaginationContent>
+                  </Pagination>
+                </div>
+              )}
+            </>
+          ) : (
+            <motion.div
+              initial={{ opacity: 0 }}
+              animate={{ opacity: 1 }}
+              className="text-center py-16"
+            >
+              <p className="text-xl font-serif mb-4">
+                Ainda não há destinos publicados para essa experiência.
+              </p>
+              <p className="text-muted-foreground mb-8">
+                Podemos criar um roteiro sob medida diretamente com você.
+              </p>
+              <WhatsAppButton variant="cta" label="Falar com consultor" />
+            </motion.div>
+          )}
+        </div>
+      </section>
+
+      <Footer />
+    </div>
+  );
+};
+
+export default ExperienciaTag;

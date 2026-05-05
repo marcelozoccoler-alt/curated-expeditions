@@ -65,6 +65,16 @@ for (const d of destinations) {
   push(`/destinos/${d.slug}`, 0.8, "monthly");
 }
 
+// Experiências index + per tag (with pagination)
+push("/experiencias", 0.8, "weekly");
+for (const t of TAGS) {
+  const count = destinations.filter((d) => d.tags.includes(t.id)).length;
+  if (count === 0) continue;
+  const pages = Math.max(1, Math.ceil(count / PAGE_SIZE));
+  push(`/experiencias/${t.id}`, 0.7);
+  for (let p = 2; p <= pages; p++) push(`/experiencias/${t.id}?page=${p}`, 0.4);
+}
+
 const xml = `<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 ${urls
