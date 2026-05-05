@@ -329,7 +329,7 @@ const ExperienciaTag = () => {
                       {showFrom}–{showTo}
                     </span>{" "}
                     de{" "}
-                    <span className="text-foreground font-medium">{filtered.length}</span>
+                    <span className="text-foreground font-medium">{sorted.length}</span>
                   </p>
                   <Pagination className="mx-0 w-auto justify-end">
                     <PaginationContent>
