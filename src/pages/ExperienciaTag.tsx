@@ -1,15 +1,23 @@
 import { useEffect, useMemo, useRef } from "react";
 import { useParams, useSearchParams, Navigate, Link } from "react-router-dom";
 import { motion } from "framer-motion";
+import { Search, X } from "lucide-react";
 import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
 import { WhatsAppButton } from "@/components/WhatsAppButton";
 import { DestinationCard } from "@/components/DestinationCard";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
 import { SEO } from "@/components/SEO";
-import { destinations } from "@/lib/destinations";
-import { TAGS, getTagLabel, CONTACT } from "@/lib/types";
+import { destinations, getFeaturedDestinations } from "@/lib/destinations";
+import { TAGS, CONTACT, Destination } from "@/lib/types";
 import { getExperienciasSEO } from "@/lib/seo";
+import {
+  Select,
+  SelectContent,
+  SelectItem,
+  SelectTrigger,
+  SelectValue,
+} from "@/components/ui/select";
 import {
   Pagination,
   PaginationContent,
@@ -20,8 +28,54 @@ import {
   PaginationPrevious,
 } from "@/components/ui/pagination";
 
+type SortKey = "curadoria" | "popularidade" | "melhor-epoca";
+
 const PAGE_SIZE = 12;
 const DOMAIN = CONTACT.domain.replace(/\/$/, "");
+
+const MONTHS_PT: Record<string, number> = {
+  jan: 1, fev: 2, mar: 3, abr: 4, mai: 5, jun: 6,
+  jul: 7, ago: 8, set: 9, out: 10, nov: 11, dez: 12,
+};
+
+const extractMonths = (s: string): number[] => {
+  const found = new Set<number>();
+  const re = /\b(jan|fev|mar|abr|mai|jun|jul|ago|set|out|nov|dez)/gi;
+  let m: RegExpExecArray | null;
+  while ((m = re.exec(s)) !== null) {
+    const n = MONTHS_PT[m[1].toLowerCase()];
+    if (n) found.add(n);
+  }
+  return Array.from(found);
+};
+
+const monthDistance = (target: number, now: number): number => {
+  const d = Math.abs(target - now);
+  return Math.min(d, 12 - d);
+};
+
+const sortDestinations = (list: Destination[], sort: SortKey): Destination[] => {
+  if (sort === "curadoria") return list;
+  if (sort === "popularidade") {
+    const featuredIds = new Set(getFeaturedDestinations().map((d) => d.id));
+    return [...list].sort((a, b) => {
+      const af = featuredIds.has(a.id) ? 0 : 1;
+      const bf = featuredIds.has(b.id) ? 0 : 1;
+      return af - bf;
+    });
+  }
+  const now = new Date().getMonth() + 1;
+  return [...list]
+    .map((d, idx) => {
+      const months = extractMonths(d.bestTime);
+      const score = months.length
+        ? Math.min(...months.map((m) => monthDistance(m, now)))
+        : 99;
+      return { d, idx, score };
+    })
+    .sort((a, b) => a.score - b.score || a.idx - b.idx)
+    .map((x) => x.d);
+};
 
 const buildPageRange = (current: number, total: number): (number | "…")[] => {
   if (total <= 7) return Array.from({ length: total }, (_, i) => i + 1);
@@ -42,21 +96,51 @@ const ExperienciaTag = () => {
 
   const tag = TAGS.find((t) => t.id === tagId);
 
-  const sort = searchParams.get("sort") || "curadoria";
+  const sort = (searchParams.get("sort") as SortKey) || "curadoria";
   const query = searchParams.get("q") || "";
   const page = Math.max(1, parseInt(searchParams.get("page") || "1", 10) || 1);
 
-  const filtered = useMemo(
-    () => (tagId && tag ? destinations.filter((d) => d.tags.includes(tagId)) : []),
-    [tagId, tag]
-  );
+  const updateParams = (patch: Record<string, string | null>) => {
+    const next = new URLSearchParams(searchParams);
+    Object.entries(patch).forEach(([k, v]) => {
+      if (
+        v === null ||
+        v === "" ||
+        (k === "sort" && v === "curadoria") ||
+        (k === "page" && v === "1")
+      ) {
+        next.delete(k);
+      } else {
+        next.set(k, v);
+      }
+    });
+    setSearchParams(next, { replace: false });
+  };
 
-  const totalPages = Math.max(1, Math.ceil(filtered.length / PAGE_SIZE));
+  const setQuery = (q: string) => updateParams({ q, page: "1" });
+  const setSort = (s: SortKey) => updateParams({ sort: s, page: "1" });
+
+  const filtered = useMemo(() => {
+    if (!tagId || !tag) return [];
+    const base = destinations.filter((d) => d.tags.includes(tagId));
+    if (!query) return base;
+    const q = query.toLowerCase();
+    return base.filter(
+      (d) =>
+        d.name.toLowerCase().includes(q) ||
+        d.country.toLowerCase().includes(q) ||
+        d.region.toLowerCase().includes(q)
+    );
+  }, [tagId, tag, query]);
+
+  const sorted = useMemo(() => sortDestinations(filtered, sort), [filtered, sort]);
+
+  const totalPages = Math.max(1, Math.ceil(sorted.length / PAGE_SIZE));
   const currentPage = Math.min(page, totalPages);
   const start = (currentPage - 1) * PAGE_SIZE;
-  const paginated = filtered.slice(start, start + PAGE_SIZE);
-  const showFrom = filtered.length === 0 ? 0 : start + 1;
-  const showTo = Math.min(start + PAGE_SIZE, filtered.length);
+  const paginated = sorted.slice(start, start + PAGE_SIZE);
+  const showFrom = sorted.length === 0 ? 0 : start + 1;
+  const showTo = Math.min(start + PAGE_SIZE, sorted.length);
 
   useEffect(() => {
     if (page > totalPages) {
@@ -89,13 +173,22 @@ const ExperienciaTag = () => {
     "@context": "https://schema.org",
     "@type": "ItemList",
     name: seo.title,
-    numberOfItems: filtered.length,
+    numberOfItems: sorted.length,
     itemListElement: paginated.map((d, i) => ({
       "@type": "ListItem",
       position: start + i + 1,
       url: `${DOMAIN}/destinos/${d.slug}`,
       name: d.name,
     })),
+  };
+
+  const hasFilters = !!query || sort !== "curadoria";
+  const clearFilters = () => {
+    const next = new URLSearchParams(searchParams);
+    next.delete("q");
+    next.delete("sort");
+    next.delete("page");
+    setSearchParams(next, { replace: false });
   };
 
   const breadcrumbLd = {
@@ -143,13 +236,41 @@ const ExperienciaTag = () => {
         </div>
       </section>
 
+      {/* Filters */}
+      <section className="border-b border-border bg-card sticky top-20 z-30 backdrop-blur-md bg-card/95">
+        <div className="container-editorial py-5 space-y-4">
+          <div className="relative max-w-xl">
+            <Search
+              size={18}
+              className="absolute left-4 top-1/2 -translate-y-1/2 text-muted-foreground"
+            />
+            <input
+              type="text"
+              value={query}
+              onChange={(e) => setQuery(e.target.value)}
+              placeholder="Buscar nesta experiência por nome, país ou região…"
+              className="w-full pl-11 pr-10 py-3 rounded-full border border-border bg-background text-foreground placeholder:text-muted-foreground focus:outline-none focus:ring-2 focus:ring-primary/40"
+            />
+            {query && (
+              <button
+                onClick={() => setQuery("")}
+                className="absolute right-3 top-1/2 -translate-y-1/2 p-1 text-muted-foreground hover:text-foreground"
+                aria-label="Limpar busca"
+              >
+                <X size={16} />
+              </button>
+            )}
+          </div>
+        </div>
+      </section>
+
       <section ref={resultsRef} className="section-padding flex-1 scroll-mt-32">
         <div className="container-editorial">
           <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4 mb-8">
             <p className="text-muted-foreground">
-              <span className="font-semibold text-foreground">{filtered.length}</span>{" "}
-              {filtered.length === 1 ? "destino encontrado" : "destinos encontrados"}
-              {filtered.length > 0 && (
+              <span className="font-semibold text-foreground">{sorted.length}</span>{" "}
+              {sorted.length === 1 ? "destino encontrado" : "destinos encontrados"}
+              {sorted.length > 0 && (
                 <span className="hidden sm:inline">
                   {" "}· mostrando{" "}
                   <span className="text-foreground font-medium">
@@ -158,12 +279,38 @@ const ExperienciaTag = () => {
                 </span>
               )}
             </p>
-            <Link
-              to="/experiencias"
-              className="text-sm text-gold hover:text-gold-light transition-colors font-medium"
-            >
-              ← Todas as experiências
-            </Link>
+
+            <div className="flex items-center gap-4">
+              <div className="flex items-center gap-2">
+                <label className="text-sm text-muted-foreground hidden md:inline">
+                  Ordenar por
+                </label>
+                <Select value={sort} onValueChange={(v) => setSort(v as SortKey)}>
+                  <SelectTrigger className="w-[220px]">
+                    <SelectValue />
+                  </SelectTrigger>
+                  <SelectContent>
+                    <SelectItem value="curadoria">Curadoria Create Travel</SelectItem>
+                    <SelectItem value="popularidade">Popularidade</SelectItem>
+                    <SelectItem value="melhor-epoca">Melhor época para ir</SelectItem>
+                  </SelectContent>
+                </Select>
+              </div>
+              {hasFilters && (
+                <button
+                  onClick={clearFilters}
+                  className="text-sm text-gold hover:text-gold-light transition-colors font-medium whitespace-nowrap"
+                >
+                  Limpar
+                </button>
+              )}
+              <Link
+                to="/experiencias"
+                className="text-sm text-muted-foreground hover:text-foreground transition-colors font-medium whitespace-nowrap hidden lg:inline"
+              >
+                ← Todas
+              </Link>
+            </div>
           </div>
 
           {paginated.length > 0 ? (
@@ -182,7 +329,7 @@ const ExperienciaTag = () => {
                       {showFrom}–{showTo}
                     </span>{" "}
                     de{" "}
-                    <span className="text-foreground font-medium">{filtered.length}</span>
+                    <span className="text-foreground font-medium">{sorted.length}</span>
                   </p>
                   <Pagination className="mx-0 w-auto justify-end">
                     <PaginationContent>
