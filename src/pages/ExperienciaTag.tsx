@@ -173,13 +173,22 @@ const ExperienciaTag = () => {
     "@context": "https://schema.org",
     "@type": "ItemList",
     name: seo.title,
-    numberOfItems: filtered.length,
+    numberOfItems: sorted.length,
     itemListElement: paginated.map((d, i) => ({
       "@type": "ListItem",
       position: start + i + 1,
       url: `${DOMAIN}/destinos/${d.slug}`,
       name: d.name,
     })),
+  };
+
+  const hasFilters = !!query || sort !== "curadoria";
+  const clearFilters = () => {
+    const next = new URLSearchParams(searchParams);
+    next.delete("q");
+    next.delete("sort");
+    next.delete("page");
+    setSearchParams(next, { replace: false });
   };
 
   const breadcrumbLd = {
