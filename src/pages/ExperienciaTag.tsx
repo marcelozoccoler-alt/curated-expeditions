@@ -41,15 +41,14 @@ const ExperienciaTag = () => {
   const resultsRef = useRef<HTMLDivElement>(null);
 
   const tag = TAGS.find((t) => t.id === tagId);
-  if (!tagId || !tag) return <Navigate to="/experiencias" replace />;
 
   const sort = searchParams.get("sort") || "curadoria";
   const query = searchParams.get("q") || "";
   const page = Math.max(1, parseInt(searchParams.get("page") || "1", 10) || 1);
 
   const filtered = useMemo(
-    () => destinations.filter((d) => d.tags.includes(tagId)),
-    [tagId]
+    () => (tagId && tag ? destinations.filter((d) => d.tags.includes(tagId)) : []),
+    [tagId, tag]
   );
 
   const totalPages = Math.max(1, Math.ceil(filtered.length / PAGE_SIZE));
