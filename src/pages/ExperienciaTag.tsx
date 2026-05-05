@@ -1,15 +1,23 @@
 import { useEffect, useMemo, useRef } from "react";
 import { useParams, useSearchParams, Navigate, Link } from "react-router-dom";
 import { motion } from "framer-motion";
+import { Search, X } from "lucide-react";
 import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
 import { WhatsAppButton } from "@/components/WhatsAppButton";
 import { DestinationCard } from "@/components/DestinationCard";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
 import { SEO } from "@/components/SEO";
-import { destinations } from "@/lib/destinations";
-import { TAGS, getTagLabel, CONTACT } from "@/lib/types";
+import { destinations, getFeaturedDestinations } from "@/lib/destinations";
+import { TAGS, CONTACT, Destination } from "@/lib/types";
 import { getExperienciasSEO } from "@/lib/seo";
+import {
+  Select,
+  SelectContent,
+  SelectItem,
+  SelectTrigger,
+  SelectValue,
+} from "@/components/ui/select";
 import {
   Pagination,
   PaginationContent,
@@ -20,8 +28,54 @@ import {
   PaginationPrevious,
 } from "@/components/ui/pagination";
 
+type SortKey = "curadoria" | "popularidade" | "melhor-epoca";
+
 const PAGE_SIZE = 12;
 const DOMAIN = CONTACT.domain.replace(/\/$/, "");
+
+const MONTHS_PT: Record<string, number> = {
+  jan: 1, fev: 2, mar: 3, abr: 4, mai: 5, jun: 6,
+  jul: 7, ago: 8, set: 9, out: 10, nov: 11, dez: 12,
+};
+
+const extractMonths = (s: string): number[] => {
+  const found = new Set<number>();
+  const re = /\b(jan|fev|mar|abr|mai|jun|jul|ago|set|out|nov|dez)/gi;
+  let m: RegExpExecArray | null;
+  while ((m = re.exec(s)) !== null) {
+    const n = MONTHS_PT[m[1].toLowerCase()];
+    if (n) found.add(n);
+  }
+  return Array.from(found);
+};
+
+const monthDistance = (target: number, now: number): number => {
+  const d = Math.abs(target - now);
+  return Math.min(d, 12 - d);
+};
+
+const sortDestinations = (list: Destination[], sort: SortKey): Destination[] => {
+  if (sort === "curadoria") return list;
+  if (sort === "popularidade") {
+    const featuredIds = new Set(getFeaturedDestinations().map((d) => d.id));
+    return [...list].sort((a, b) => {
+      const af = featuredIds.has(a.id) ? 0 : 1;
+      const bf = featuredIds.has(b.id) ? 0 : 1;
+      return af - bf;
+    });
+  }
+  const now = new Date().getMonth() + 1;
+  return [...list]
+    .map((d, idx) => {
+      const months = extractMonths(d.bestTime);
+      const score = months.length
+        ? Math.min(...months.map((m) => monthDistance(m, now)))
+        : 99;
+      return { d, idx, score };
+    })
+    .sort((a, b) => a.score - b.score || a.idx - b.idx)
+    .map((x) => x.d);
+};
 
 const buildPageRange = (current: number, total: number): (number | "…")[] => {
   if (total <= 7) return Array.from({ length: total }, (_, i) => i + 1);
