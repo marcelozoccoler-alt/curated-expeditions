@@ -1,5 +1,4 @@
 import { CONTINENTS, TAGS, getTagLabel } from "./types";
-import { destinations } from "./destinations";
 
 /**
  * SEO rules for /destinos:
