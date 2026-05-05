@@ -236,13 +236,41 @@ const ExperienciaTag = () => {
         </div>
       </section>
 
+      {/* Filters */}
+      <section className="border-b border-border bg-card sticky top-20 z-30 backdrop-blur-md bg-card/95">
+        <div className="container-editorial py-5 space-y-4">
+          <div className="relative max-w-xl">
+            <Search
+              size={18}
+              className="absolute left-4 top-1/2 -translate-y-1/2 text-muted-foreground"
+            />
+            <input
+              type="text"
+              value={query}
+              onChange={(e) => setQuery(e.target.value)}
+              placeholder="Buscar nesta experiência por nome, país ou região…"
+              className="w-full pl-11 pr-10 py-3 rounded-full border border-border bg-background text-foreground placeholder:text-muted-foreground focus:outline-none focus:ring-2 focus:ring-primary/40"
+            />
+            {query && (
+              <button
+                onClick={() => setQuery("")}
+                className="absolute right-3 top-1/2 -translate-y-1/2 p-1 text-muted-foreground hover:text-foreground"
+                aria-label="Limpar busca"
+              >
+                <X size={16} />
+              </button>
+            )}
+          </div>
+        </div>
+      </section>
+
       <section ref={resultsRef} className="section-padding flex-1 scroll-mt-32">
         <div className="container-editorial">
           <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4 mb-8">
             <p className="text-muted-foreground">
-              <span className="font-semibold text-foreground">{filtered.length}</span>{" "}
-              {filtered.length === 1 ? "destino encontrado" : "destinos encontrados"}
-              {filtered.length > 0 && (
+              <span className="font-semibold text-foreground">{sorted.length}</span>{" "}
+              {sorted.length === 1 ? "destino encontrado" : "destinos encontrados"}
+              {sorted.length > 0 && (
                 <span className="hidden sm:inline">
                   {" "}· mostrando{" "}
                   <span className="text-foreground font-medium">
@@ -251,12 +279,38 @@ const ExperienciaTag = () => {
                 </span>
               )}
             </p>
-            <Link
-              to="/experiencias"
-              className="text-sm text-gold hover:text-gold-light transition-colors font-medium"
-            >
-              ← Todas as experiências
-            </Link>
+
+            <div className="flex items-center gap-4">
+              <div className="flex items-center gap-2">
+                <label className="text-sm text-muted-foreground hidden md:inline">
+                  Ordenar por
+                </label>
+                <Select value={sort} onValueChange={(v) => setSort(v as SortKey)}>
+                  <SelectTrigger className="w-[220px]">
+                    <SelectValue />
+                  </SelectTrigger>
+                  <SelectContent>
+                    <SelectItem value="curadoria">Curadoria Create Travel</SelectItem>
+                    <SelectItem value="popularidade">Popularidade</SelectItem>
+                    <SelectItem value="melhor-epoca">Melhor época para ir</SelectItem>
+                  </SelectContent>
+                </Select>
+              </div>
+              {hasFilters && (
+                <button
+                  onClick={clearFilters}
+                  className="text-sm text-gold hover:text-gold-light transition-colors font-medium whitespace-nowrap"
+                >
+                  Limpar
+                </button>
+              )}
+              <Link
+                to="/experiencias"
+                className="text-sm text-muted-foreground hover:text-foreground transition-colors font-medium whitespace-nowrap hidden lg:inline"
+              >
+                ← Todas
+              </Link>
+            </div>
           </div>
 
           {paginated.length > 0 ? (
