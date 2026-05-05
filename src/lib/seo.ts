@@ -139,3 +139,72 @@ export const getDestinosIndexablePaths = (perFilterPages: (key: string) => numbe
 
   return paths;
 };
+
+/**
+ * SEO rules for /experiencias:
+ *  - /experiencias (root, indexable)
+ *  - /experiencias/:tagId (indexable, paginated via ?page=N)
+ *  - Other variations (search, multi-tag, non-default sort) → noindex
+ *    with canonical pointing to the cleanest version.
+ */
+
+export type ExperienciasSearchState = {
+  tagId: string | null; // null = root index
+  query: string;
+  sort: string;
+  page: number;
+};
+
+export const parseExperienciasParams = (
+  sp: URLSearchParams,
+  tagId: string | null
+): ExperienciasSearchState => ({
+  tagId,
+  query: sp.get("q") || "",
+  sort: sp.get("sort") || "curadoria",
+  page: Math.max(1, parseInt(sp.get("page") || "1", 10) || 1),
+});
+
+const buildExpPath = (tagId: string | null, page = 1, extra?: { sort?: string; q?: string }) => {
+  const base = tagId ? `/experiencias/${tagId}` : "/experiencias";
+  const sp = new URLSearchParams();
+  if (extra?.q) sp.set("q", extra.q);
+  if (extra?.sort && extra.sort !== "curadoria") sp.set("sort", extra.sort);
+  if (page > 1) sp.set("page", String(page));
+  const q = sp.toString();
+  return `${base}${q ? `?${q}` : ""}`;
+};
+
+export const getExperienciasSEO = (state: ExperienciasSearchState, totalPages: number) => {
+  const { tagId, query, sort, page } = state;
+  const tagLabel = tagId ? getTagLabel(tagId) : null;
+
+  const isIndexable = sort === "curadoria" && !query;
+
+  const canonicalPath = isIndexable
+    ? buildExpPath(tagId, page)
+    : buildExpPath(tagId, 1);
+
+  let title: string;
+  let description: string;
+
+  if (!tagId) {
+    title = "Experiências de viagem — Create Travel";
+    description =
+      "Explore experiências de viagem com curadoria Create Travel: safári, trekking, gastronomia, lua de mel, cultura e mais. Encontre destinos por tipo de experiência.";
+  } else {
+    title = `${tagLabel} — Experiências Create Travel`;
+    description = `Destinos selecionados pela Create Travel para ${tagLabel?.toLowerCase()}. Curadoria de viagens autênticas, exclusivas e com propósito.`;
+  }
+
+  if (page > 1) title = `${title} — Página ${page}`;
+
+  const prevPath =
+    isIndexable && page > 1 ? buildExpPath(tagId, page - 1) : undefined;
+  const nextPath =
+    isIndexable && page < totalPages ? buildExpPath(tagId, page + 1) : undefined;
+
+  return { title, description, canonicalPath, noindex: !isIndexable, prevPath, nextPath };
+};
+
+export const EXPERIENCIAS_TAG_IDS = TAGS.map((t) => t.id);
