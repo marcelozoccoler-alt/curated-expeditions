@@ -78,6 +78,8 @@ const ExperienciaTag = () => {
     });
   };
 
+  if (!tagId || !tag) return <Navigate to="/experiencias" replace />;
+
   const seo = getExperienciasSEO(
     { tagId, query, sort, page: currentPage },
     totalPages
