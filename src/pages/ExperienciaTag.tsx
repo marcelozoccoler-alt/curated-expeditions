@@ -96,21 +96,51 @@ const ExperienciaTag = () => {
 
   const tag = TAGS.find((t) => t.id === tagId);
 
-  const sort = searchParams.get("sort") || "curadoria";
+  const sort = (searchParams.get("sort") as SortKey) || "curadoria";
   const query = searchParams.get("q") || "";
   const page = Math.max(1, parseInt(searchParams.get("page") || "1", 10) || 1);
 
-  const filtered = useMemo(
-    () => (tagId && tag ? destinations.filter((d) => d.tags.includes(tagId)) : []),
-    [tagId, tag]
-  );
+  const updateParams = (patch: Record<string, string | null>) => {
+    const next = new URLSearchParams(searchParams);
+    Object.entries(patch).forEach(([k, v]) => {
+      if (
+        v === null ||
+        v === "" ||
+        (k === "sort" && v === "curadoria") ||
+        (k === "page" && v === "1")
+      ) {
+        next.delete(k);
+      } else {
+        next.set(k, v);
+      }
+    });
+    setSearchParams(next, { replace: false });
+  };
 
-  const totalPages = Math.max(1, Math.ceil(filtered.length / PAGE_SIZE));
+  const setQuery = (q: string) => updateParams({ q, page: "1" });
+  const setSort = (s: SortKey) => updateParams({ sort: s, page: "1" });
+
+  const filtered = useMemo(() => {
+    if (!tagId || !tag) return [];
+    const base = destinations.filter((d) => d.tags.includes(tagId));
+    if (!query) return base;
+    const q = query.toLowerCase();
+    return base.filter(
+      (d) =>
+        d.name.toLowerCase().includes(q) ||
+        d.country.toLowerCase().includes(q) ||
+        d.region.toLowerCase().includes(q)
+    );
+  }, [tagId, tag, query]);
+
+  const sorted = useMemo(() => sortDestinations(filtered, sort), [filtered, sort]);
+
+  const totalPages = Math.max(1, Math.ceil(sorted.length / PAGE_SIZE));
   const currentPage = Math.min(page, totalPages);
   const start = (currentPage - 1) * PAGE_SIZE;
-  const paginated = filtered.slice(start, start + PAGE_SIZE);
-  const showFrom = filtered.length === 0 ? 0 : start + 1;
-  const showTo = Math.min(start + PAGE_SIZE, filtered.length);
+  const paginated = sorted.slice(start, start + PAGE_SIZE);
+  const showFrom = sorted.length === 0 ? 0 : start + 1;
+  const showTo = Math.min(start + PAGE_SIZE, sorted.length);
 
   useEffect(() => {
     if (page > totalPages) {
