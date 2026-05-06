@@ -1,3 +1,4 @@
+import { memo } from "react";
 import { Link } from "react-router-dom";
 import { Calendar, MapPin } from "lucide-react";
 import { motion } from "framer-motion";
@@ -12,7 +13,7 @@ interface DestinationCardProps {
 
 const FALLBACK = `https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800&h=600&fit=crop`;
 
-export const DestinationCard = ({ destination, index = 0 }: DestinationCardProps) => {
+export const DestinationCard = memo(({ destination, index = 0 }: DestinationCardProps) => {
   const tags = getTagsByIds(destination.tags.slice(0, 3));
 
   const imageUrl =
@@ -70,4 +71,5 @@ export const DestinationCard = ({ destination, index = 0 }: DestinationCardProps
       </Link>
     </motion.article>
   );
-};
+});
+DestinationCard.displayName = "DestinationCard";
