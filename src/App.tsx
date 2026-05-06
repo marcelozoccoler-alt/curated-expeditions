@@ -8,6 +8,7 @@ import Destinos from "./pages/Destinos";
 import DestinoDetail from "./pages/DestinoDetail";
 import Experiencias from "./pages/Experiencias";
 import ExperienciaTag from "./pages/ExperienciaTag";
+import Sobre from "./pages/Sobre";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
