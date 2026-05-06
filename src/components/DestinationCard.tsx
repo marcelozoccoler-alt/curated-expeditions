@@ -71,4 +71,5 @@ export const DestinationCard = memo(({ destination, index = 0 }: DestinationCard
       </Link>
     </motion.article>
   );
-};
+});
+DestinationCard.displayName = "DestinationCard";
