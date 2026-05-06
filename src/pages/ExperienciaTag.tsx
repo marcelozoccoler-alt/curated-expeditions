@@ -1,4 +1,4 @@
-import { useEffect, useMemo, useRef } from "react";
+import { useEffect, useMemo, useRef, useState } from "react";
 import { useParams, useSearchParams, Navigate, Link } from "react-router-dom";
 import { motion } from "framer-motion";
 import { Search, X } from "lucide-react";
