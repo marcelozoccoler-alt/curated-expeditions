@@ -117,8 +117,21 @@ const ExperienciaTag = () => {
     setSearchParams(next, { replace: false });
   };
 
-  const setQuery = (q: string) => updateParams({ q, page: "1" });
   const setSort = (s: SortKey) => updateParams({ sort: s, page: "1" });
+
+  // Debounced search input: local state mirrors URL, syncs after pause.
+  const [queryInput, setQueryInput] = useState(query);
+  useEffect(() => {
+    setQueryInput(query);
+  }, [query]);
+  useEffect(() => {
+    if (queryInput === query) return;
+    const t = setTimeout(() => {
+      updateParams({ q: queryInput, page: "1" });
+    }, 350);
+    return () => clearTimeout(t);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [queryInput]);
 
   const filtered = useMemo(() => {
     if (!tagId || !tag) return [];
