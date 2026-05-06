@@ -1,4 +1,4 @@
-import { useEffect, useMemo, useRef } from "react";
+import { useEffect, useMemo, useRef, useState } from "react";
 import { useSearchParams } from "react-router-dom";
 import { Search, X } from "lucide-react";
 import { motion } from "framer-motion";
@@ -123,9 +123,22 @@ const Destinos = () => {
   const setContinent = (c: string) => updateParams({ c, page: "1" });
   const setTags = (t: string[]) =>
     updateParams({ tags: t.join(","), page: "1" });
-  const setQuery = (q: string) => updateParams({ q, page: "1" });
   const setSort = (s: SortKey) => updateParams({ sort: s, page: "1" });
   const setPage = (p: number) => updateParams({ page: String(p) });
+
+  // Debounced search input: local state mirrors URL, syncs after pause.
+  const [queryInput, setQueryInput] = useState(query);
+  useEffect(() => {
+    setQueryInput(query);
+  }, [query]);
+  useEffect(() => {
+    if (queryInput === query) return;
+    const t = setTimeout(() => {
+      updateParams({ q: queryInput, page: "1" });
+    }, 350);
+    return () => clearTimeout(t);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [queryInput]);
 
   const filtered = useMemo(() => {
     return destinations.filter((d) => {
@@ -239,14 +252,14 @@ const Destinos = () => {
             />
             <input
               type="text"
-              value={query}
-              onChange={(e) => setQuery(e.target.value)}
+              value={queryInput}
+              onChange={(e) => setQueryInput(e.target.value)}
               placeholder="Buscar por nome, país ou região…"
               className="w-full pl-11 pr-10 py-3 rounded-full border border-border bg-background text-foreground placeholder:text-muted-foreground focus:outline-none focus:ring-2 focus:ring-primary/40"
             />
-            {query && (
+            {queryInput && (
               <button
-                onClick={() => setQuery("")}
+                onClick={() => setQueryInput("")}
                 className="absolute right-3 top-1/2 -translate-y-1/2 p-1 text-muted-foreground hover:text-foreground"
                 aria-label="Limpar busca"
               >
