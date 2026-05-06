@@ -123,9 +123,22 @@ const Destinos = () => {
   const setContinent = (c: string) => updateParams({ c, page: "1" });
   const setTags = (t: string[]) =>
     updateParams({ tags: t.join(","), page: "1" });
-  const setQuery = (q: string) => updateParams({ q, page: "1" });
   const setSort = (s: SortKey) => updateParams({ sort: s, page: "1" });
   const setPage = (p: number) => updateParams({ page: String(p) });
+
+  // Debounced search input: local state mirrors URL, syncs after pause.
+  const [queryInput, setQueryInput] = useState(query);
+  useEffect(() => {
+    setQueryInput(query);
+  }, [query]);
+  useEffect(() => {
+    if (queryInput === query) return;
+    const t = setTimeout(() => {
+      updateParams({ q: queryInput, page: "1" });
+    }, 350);
+    return () => clearTimeout(t);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [queryInput]);
 
   const filtered = useMemo(() => {
     return destinations.filter((d) => {
