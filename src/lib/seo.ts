@@ -208,3 +208,63 @@ export const getExperienciasSEO = (state: ExperienciasSearchState, totalPages: n
 };
 
 export const EXPERIENCIAS_TAG_IDS = TAGS.map((t) => t.id);
+
+/**
+ * SEO rules for /hospedagens:
+ *  - /hospedagens (root) e ?tags=<single-tag> são indexáveis (com paginação).
+ *  - Multi-tag, busca, sort não-padrão → noindex,follow com canonical limpo.
+ */
+
+export type HospedagensSearchState = {
+  tags: string[];
+  query: string;
+  sort: string;
+  page: number;
+};
+
+export const parseHospedagensParams = (sp: URLSearchParams): HospedagensSearchState => ({
+  tags: (sp.get("tags") || "").split(",").map((t) => t.trim()).filter(Boolean),
+  query: sp.get("q") || "",
+  sort: sp.get("sort") || "curadoria",
+  page: Math.max(1, parseInt(sp.get("page") || "1", 10) || 1),
+});
+
+const buildHospPath = (params: Partial<{ tags: string; q: string; sort: string; page: number }>) => {
+  const sp = new URLSearchParams();
+  if (params.tags) sp.set("tags", params.tags);
+  if (params.q) sp.set("q", params.q);
+  if (params.sort && params.sort !== "curadoria") sp.set("sort", params.sort);
+  if (params.page && params.page > 1) sp.set("page", String(params.page));
+  const q = sp.toString();
+  return `/hospedagens${q ? `?${q}` : ""}`;
+};
+
+export const getHospedagensSEO = (state: HospedagensSearchState, totalPages: number) => {
+  const { tags, query, sort, page } = state;
+  const singleTag = tags.length === 1 ? tags[0] : null;
+  const singleTagLabel = singleTag ? getTagLabel(singleTag) : null;
+
+  const isIndexable = sort === "curadoria" && !query && tags.length <= 1;
+
+  const canonicalPath = isIndexable
+    ? buildHospPath({ tags: singleTag || undefined, page })
+    : buildHospPath({ tags: singleTag || undefined });
+
+  let title: string;
+  let description: string;
+
+  if (!singleTagLabel) {
+    title = "Hospedagens com curadoria — Create Travel";
+    description =
+      "Seleção Create Travel de hospedagens autorais pelo mundo: lodges, refúgios e hotéis com luxo discreto, ética e propósito.";
+  } else {
+    title = `Hospedagens para ${singleTagLabel} — Create Travel`;
+    description = `Hospedagens selecionadas pela Create Travel para ${singleTagLabel.toLowerCase()}: experiências autênticas, luxo discreto e curadoria.`;
+  }
+  if (page > 1) title = `${title} — Página ${page}`;
+
+  const prevPath = isIndexable && page > 1 ? buildHospPath({ tags: singleTag || undefined, page: page - 1 }) : undefined;
+  const nextPath = isIndexable && page < totalPages ? buildHospPath({ tags: singleTag || undefined, page: page + 1 }) : undefined;
+
+  return { title, description, canonicalPath, noindex: !isIndexable, prevPath, nextPath };
+};
