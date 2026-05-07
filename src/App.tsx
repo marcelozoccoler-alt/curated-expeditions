@@ -8,6 +8,8 @@ import Destinos from "./pages/Destinos";
 import DestinoDetail from "./pages/DestinoDetail";
 import Experiencias from "./pages/Experiencias";
 import ExperienciaTag from "./pages/ExperienciaTag";
+import Hospedagens from "./pages/Hospedagens";
+import HospedagemDetail from "./pages/HospedagemDetail";
 import Sobre from "./pages/Sobre";
 import NotFound from "./pages/NotFound";
 
@@ -25,6 +27,8 @@ const App = () => (
         <Route path="/destinos/*" element={<DestinoDetail />} />
         <Route path="/experiencias" element={<Experiencias />} />
         <Route path="/experiencias/:tagId" element={<ExperienciaTag />} />
+        <Route path="/hospedagens" element={<Hospedagens />} />
+        <Route path="/hospedagens/:slug" element={<HospedagemDetail />} />
         <Route path="/sobre" element={<Sobre />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
           <Route path="*" element={<NotFound />} />
