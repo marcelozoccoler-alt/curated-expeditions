@@ -9,7 +9,7 @@ export const stays: Stay[] = [
     bestTime: "Jun–Nov (seca) para trilhas e praias de rio; Dez–Mai (cheia) para igapós e navegação.",
     tags: ["navegacao", "conservacao", "bem-estar", "fotografia", "familia", "remoto"],
     imageAiPrompt: "Ultra realistic editorial travel photo of a luxury jungle lodge in the Amazon on the riverbank, warm sunrise light, wooden architecture integrated with rainforest, natural colors, no people.",
-    imageOverrideUrl: "https://images.unsplash.com/photo-1518684079-3c830dcef090?w=1600&h=1000&fit=crop",
+    imageOverrideUrl: "https://cdn.prod.website-files.com/5f52a9ce6de4e1539299fac5/61af8fd572651e23ed11b42a_anavilhanas-home-960.jpg",
     whySelected: "Luxo discreto e imersão real no Rio Negro: serviço cuidadoso, guias fortes e experiências que valorizam silêncio, ética e profundidade.",
     beyondUsual: [
       "Canoagem silenciosa ao amanhecer com leitura de sons e rastros.",
@@ -32,7 +32,7 @@ export const stays: Stay[] = [
     bestTime: "Jun–Nov para trilhas e praias de rio; Dez–Mai para floresta alagada.",
     tags: ["navegacao", "bem-estar", "conservacao", "fotografia", "remoto"],
     imageAiPrompt: "Ultra realistic photo of an Amazon lodge with modern rustic architecture, deck overlooking a wide river at sunset, lush rainforest background, cinematic light, no people.",
-    imageOverrideUrl: "https://images.unsplash.com/photo-1540541338287-41700207dee6?w=1600&h=1000&fit=crop",
+    imageOverrideUrl: "https://mirantedogaviao.com.br/br/wp-content/uploads/2021/08/luxo.jpg",
     whySelected: "Arquitetura e paisagem se encontram com naturalidade. Um lugar para desacelerar e observar a Amazônia com conforto e estética.",
     beyondUsual: [
       "Rotas de canoa focadas em observação de aves.",
@@ -55,7 +55,7 @@ export const stays: Stay[] = [
     bestTime: "Mai–Out (seca) para máxima observação de fauna; Nov–Mar (cheia) para paisagens alagadas e aves.",
     tags: ["safari", "fotografia", "conservacao", "familia", "cavalgadas", "bem-estar"],
     imageAiPrompt: "Ultra realistic editorial photo of a high-end safari lodge in the Pantanal, open landscape, golden hour, tasteful architecture, no people.",
-    imageOverrideUrl: "https://images.unsplash.com/photo-1571896349842-33c89424de2d?w=1600&h=1000&fit=crop",
+    imageOverrideUrl: "https://www.caiman.com.br/wp-content/uploads/2022/07/caiman_pantanal_acomodacoes_baiazinha.png",
     whySelected: "Referência no Pantanal com bom padrão de serviço e vínculo com conservação. Ideal para observação ética e fotografia.",
     beyondUsual: [
       "Saídas focadas em comportamento animal (não em perseguição).",
@@ -78,7 +78,7 @@ export const stays: Stay[] = [
     bestTime: "Ago–Fev para mar mais calmo e visibilidade; Mar–Jul para surfe e céus dramáticos.",
     tags: ["praia", "lua-de-mel", "mergulho", "bem-estar", "remoto", "conservacao"],
     imageAiPrompt: "Ultra realistic editorial photo of a barefoot luxury beach villa in Fernando de Noronha, ocean view, sunset, no people.",
-    imageOverrideUrl: "https://images.unsplash.com/photo-1582719508461-905c673771fd?w=1600&h=1000&fit=crop",
+    imageOverrideUrl: "https://www.txairesorts.com/upload/banner/slide-home-bangalo2-64b1a26e5edd2.webp",
     whySelected: "O encontro raro entre estética contemporânea e ilha protegida: privacidade, mar e curadoria gastronômica em sintonia com Noronha.",
     beyondUsual: [
       "Mergulhos guiados em pontos menos visitados.",
@@ -125,7 +125,7 @@ export const stays: Stay[] = [
     bestTime: "Jun–Out para grande migração; Dez–Mar para nascimentos no sul.",
     tags: ["safari", "fotografia", "conservacao", "lua-de-mel", "remoto", "expedicao"],
     imageAiPrompt: "Ultra realistic editorial photo of a luxury safari camp in the Serengeti at golden hour, vast savannah, acacia trees, no people.",
-    imageOverrideUrl: "https://images.unsplash.com/photo-1516026672322-bc52d61a55d5?w=1600&h=1000&fit=crop",
+    imageOverrideUrl: "https://images.ctfassets.net/wds1hqrprqxb/4hnY4KdHWy79v2VcLIVwa7/5d22b195364e4d476cc282d41cddd8cb/DSC2803-Edit-1400x700.jpg",
     whySelected: "Reserva privada de grande escala com baixíssima densidade de hóspedes, conservação real e serviço impecável.",
     beyondUsual: [
       "Safári a pé com guias mestres.",
@@ -148,7 +148,7 @@ export const stays: Stay[] = [
     bestTime: "Jul–Out para grande migração no Mara; Jan–Mar para fauna residente.",
     tags: ["safari", "fotografia", "conservacao", "cultura", "lua-de-mel"],
     imageAiPrompt: "Ultra realistic editorial photo of a classic 1920s style safari tent camp in Masai Mara, golden grass, acacia, no people.",
-    imageOverrideUrl: "https://images.unsplash.com/photo-1547471080-7cc2caa01a7e?w=1600&h=1000&fit=crop",
+    imageOverrideUrl: "https://www.andbeyond.com/wp-content/uploads/sites/5/suite-at-andbeyond-bateleur-camp-overlooking-the-masai-mara.jpg",
     whySelected: "Tendas clássicas em localização privilegiada na Mara Triangle, com guias excepcionais e ética de fauna sólida.",
     beyondUsual: [
       "Travessias de rio do Mara em janelas certas.",
@@ -171,7 +171,7 @@ export const stays: Stay[] = [
     bestTime: "Mai–Out (seca) para céus limpos e luz cinematográfica.",
     tags: ["deserto", "fotografia", "lua-de-mel", "remoto", "expedicao", "bem-estar"],
     imageAiPrompt: "Ultra realistic editorial photo of a contemporary desert lodge in Namibia, glass walls facing red dunes, dramatic sunrise, no people.",
-    imageOverrideUrl: "https://images.unsplash.com/photo-1547234935-80c7145ec969?w=1600&h=1000&fit=crop",
+    imageOverrideUrl: "https://www.andbeyond.com/wp-content/uploads/sites/5/Namibia-Sossusvlei-Desert-Lodge-Aerial-showing-lodge-and-sunset.jpg",
     whySelected: "Arquitetura contemporânea em diálogo com o deserto mais antigo do mundo. Silêncio, escala e céus extraordinários.",
     beyondUsual: [
       "Observação astronômica com telescópio próprio.",
@@ -195,7 +195,7 @@ export const stays: Stay[] = [
     bestTime: "Nov–Mar (verão austral) para trilhas e estabilidade.",
     tags: ["trekking", "montanha", "fotografia", "bem-estar", "expedicao"],
     imageAiPrompt: "Ultra realistic editorial photo of a remote luxury lodge in Torres del Paine with mountain backdrop and lake, dramatic light, no people.",
-    imageOverrideUrl: "https://images.unsplash.com/photo-1531425300797-d5dc8b021c84?w=1600&h=1000&fit=crop",
+    imageOverrideUrl: "https://assets.explora.com/app/uploads/2020/07/Why-Explora-Patagonia.jpg",
     whySelected: "Localização única dentro do Parque Torres del Paine com saídas guiadas todos os dias e arquitetura integrada à paisagem.",
     beyondUsual: [
       "Cavalgada com baqueanos pela estepe.",
@@ -218,7 +218,7 @@ export const stays: Stay[] = [
     bestTime: "Ano todo; Mar–Mai e Set–Nov mais estáveis.",
     tags: ["deserto", "bem-estar", "fotografia", "lua-de-mel", "cultura"],
     imageAiPrompt: "Ultra realistic editorial photo of a contemporary desert hotel in Atacama, adobe walls and pool facing volcano, no people.",
-    imageOverrideUrl: "https://images.unsplash.com/photo-1500673922987-e212871fec22?w=1600&h=1000&fit=crop",
+    imageOverrideUrl: "https://tierraatacama.com/wp-content/uploads/2025/04/Gallery-Banner.jpg",
     whySelected: "Estética sóbria, spa de referência e excursões guiadas com excelente leitura de paisagem do Atacama.",
     beyondUsual: [
       "Astronomia com telescópio em céu Bortle 1.",
@@ -242,7 +242,7 @@ export const stays: Stay[] = [
     bestTime: "Set–Mar para aurora boreal; Mai–Ago para luz infinita.",
     tags: ["aurora", "remoto", "bem-estar", "expedicao", "fotografia"],
     imageAiPrompt: "Ultra realistic editorial photo of a remote turf-roof lodge in northern Iceland, snow, fjord backdrop, aurora, no people.",
-    imageOverrideUrl: "https://images.unsplash.com/photo-1531366936337-7c912a4589a7?w=1600&h=1000&fit=crop",
+    imageOverrideUrl: "https://elevenexperience.com/media/atpoazb5/deplar-farm-iceland-exterior-summer.jpg",
     whySelected: "Refúgio remoto na Península Troll: heli-ski, surf nas águas árticas, sauna flutuante e silêncio absoluto.",
     beyondUsual: [
       "Heli-ski guiado entre fiordes.",
@@ -266,7 +266,7 @@ export const stays: Stay[] = [
     bestTime: "Mar–Mai (cerejeiras) e Out–Nov (bordos).",
     tags: ["cultura", "gastronomia", "bem-estar", "lua-de-mel"],
     imageAiPrompt: "Ultra realistic editorial photo of a luxury minimal hotel suite in Tokyo with floor-to-ceiling window overlooking the city, refined natural materials, no people.",
-    imageOverrideUrl: "https://images.unsplash.com/photo-1540541338287-41700207dee6?w=1600&h=1000&fit=crop",
+    imageOverrideUrl: "https://www.aman.com/sites/default/files/2021-02/Aman-Tokyo_Wellness_1.jpg",
     whySelected: "Calma profunda no centro de Tóquio: spa monumental, vistas e estética Aman como porta de entrada do Japão.",
     beyondUsual: [
       "Cerimônia do chá guiada.",
