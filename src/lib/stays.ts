@@ -32,7 +32,7 @@ export const stays: Stay[] = [
     bestTime: "Jun–Nov para trilhas e praias de rio; Dez–Mai para floresta alagada.",
     tags: ["navegacao", "bem-estar", "conservacao", "fotografia", "remoto"],
     imageAiPrompt: "Ultra realistic photo of an Amazon lodge with modern rustic architecture, deck overlooking a wide river at sunset, lush rainforest background, cinematic light, no people.",
-    imageOverrideUrl: "https://images.unsplash.com/photo-1540541338287-41700207dee6?w=1600&h=1000&fit=crop",
+    imageOverrideUrl: "https://mirantedogaviao.com.br/br/wp-content/uploads/2021/08/luxo.jpg",
     whySelected: "Arquitetura e paisagem se encontram com naturalidade. Um lugar para desacelerar e observar a Amazônia com conforto e estética.",
     beyondUsual: [
       "Rotas de canoa focadas em observação de aves.",
@@ -266,7 +266,7 @@ export const stays: Stay[] = [
     bestTime: "Mar–Mai (cerejeiras) e Out–Nov (bordos).",
     tags: ["cultura", "gastronomia", "bem-estar", "lua-de-mel"],
     imageAiPrompt: "Ultra realistic editorial photo of a luxury minimal hotel suite in Tokyo with floor-to-ceiling window overlooking the city, refined natural materials, no people.",
-    imageOverrideUrl: "https://images.unsplash.com/photo-1540541338287-41700207dee6?w=1600&h=1000&fit=crop",
+    imageOverrideUrl: "https://www.aman.com/sites/default/files/2021-02/Aman-Tokyo_Wellness_1.jpg",
     whySelected: "Calma profunda no centro de Tóquio: spa monumental, vistas e estética Aman como porta de entrada do Japão.",
     beyondUsual: [
       "Cerimônia do chá guiada.",
