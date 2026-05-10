@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
 import { Mail, MapPin, Phone, Instagram, Facebook, Linkedin } from "lucide-react";
 import { CONTACT, CONTINENTS } from "@/lib/types";
+import logo from "@/assets/logo.jpg";
 
 export const Footer = () => {
   return (
@@ -10,9 +11,11 @@ export const Footer = () => {
           {/* Brand */}
           <div className="space-y-4">
             <div className="flex items-center gap-3">
-              <div className="w-10 h-10 rounded-full bg-gradient-gold flex items-center justify-center">
-                <span className="text-xl font-serif font-bold text-primary-foreground">C</span>
-              </div>
+              <img
+                src={logo}
+                alt="Create Travel"
+                className="h-12 w-12 rounded-full object-cover bg-white"
+              />
               <span className="text-xl font-serif font-semibold">Create Travel</span>
             </div>
             <p className="text-primary-foreground/80 text-sm leading-relaxed">
