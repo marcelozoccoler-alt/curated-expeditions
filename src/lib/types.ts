@@ -81,6 +81,7 @@ export const CONTACT = {
   email: "contato@createtravel.tur.br",
   address: "Rua José Libero, 80 - Planalto Paulista, São Paulo - SP, Brasil",
   domain: "https://www.createtravel.tur.br",
+  cadastur: "21.030.190/0001-60",
 };
 
 // WhatsApp link generator
