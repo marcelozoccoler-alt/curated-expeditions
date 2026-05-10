@@ -457,7 +457,11 @@ const GrupoMarrocos2026 = () => {
       </section>
 
       {/* FAQ */}
-      <FAQSection faqs={faqs} />
+      <section className="section-padding bg-muted">
+        <div className="container-editorial max-w-3xl">
+          <FAQSection faqs={faqs} />
+        </div>
+      </section>
 
       {/* Final CTA */}
       <section className="section-padding">
