@@ -156,7 +156,7 @@ const Contato = () => {
                   <p className="font-serif text-lg text-foreground mt-2 group-hover:text-gold transition-colors">
                     {c.value}
                   </p>
-                  <p className="text-sm text-muted-foreground mt-3">{c.helper}</p>
+                  {c.helper && <p className="text-sm text-muted-foreground mt-3">{c.helper}</p>}
                 </motion.a>
               ))}
             </div>
