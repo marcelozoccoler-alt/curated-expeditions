@@ -11,6 +11,7 @@ import ExperienciaTag from "./pages/ExperienciaTag";
 import Hospedagens from "./pages/Hospedagens";
 import HospedagemDetail from "./pages/HospedagemDetail";
 import Sobre from "./pages/Sobre";
+import Contato from "./pages/Contato";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
