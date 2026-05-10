@@ -33,7 +33,7 @@ export const Footer = () => {
                 <Instagram size={20} />
               </a>
               <a
-                href="https://www.facebook.com/createtravel.tur"
+                href="https://www.facebook.com/share/1J4E3VRW65/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-primary-foreground/70 hover:text-gold transition-colors"
