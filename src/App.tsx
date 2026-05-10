@@ -33,6 +33,8 @@ const App = () => (
         <Route path="/hospedagens/:slug" element={<HospedagemDetail />} />
         <Route path="/sobre" element={<Sobre />} />
         <Route path="/contato" element={<Contato />} />
+        <Route path="/guias" element={<GuiasIndex />} />
+        <Route path="/guias/:slug" element={<Guia />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
           <Route path="*" element={<NotFound />} />
         </Routes>
