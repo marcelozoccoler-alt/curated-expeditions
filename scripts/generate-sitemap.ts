@@ -78,6 +78,21 @@ for (const t of TAGS) {
   for (let p = 2; p <= pages; p++) push(`/experiencias/${t.id}?page=${p}`, 0.4);
 }
 
+// Hospedagens
+push("/hospedagens", 0.8, "weekly");
+for (const s of stays) push(`/hospedagens/${s.slug}`, 0.7, "monthly");
+
+// Guias autorais
+push("/guias", 0.8, "weekly");
+for (const n of niches) push(`/guias/${n.slug}`, 0.8, "monthly");
+
+// Short SEO regional landings (/:regionSlug)
+for (const r of regions) push(`/${r.slug}`, 0.9, "weekly");
+
+// Static pages
+push("/sobre", 0.5, "monthly");
+push("/contato", 0.5, "monthly");
+
 const xml = `<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 ${urls
