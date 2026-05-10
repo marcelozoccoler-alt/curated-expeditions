@@ -81,6 +81,27 @@ const Index = () => {
         </motion.div>
       </section>
 
+      {/* Promo: Grupo Marrocos 2026 */}
+      <section className="bg-gold/10 border-y border-gold/30">
+        <div className="container-editorial py-6 flex flex-col md:flex-row items-center justify-between gap-4">
+          <div className="flex items-center gap-3 text-center md:text-left">
+            <span className="px-3 py-1 rounded-full bg-gold text-navy text-xs font-semibold uppercase tracking-wider">
+              Saída promocional
+            </span>
+            <p className="text-foreground">
+              <strong className="font-serif">Grupo Marrocos 2026</strong> — saída 18/11, grupo exclusivo e pequeno.{" "}
+              <span className="text-muted-foreground">A partir de R$ 18.295/pessoa.</span>
+            </p>
+          </div>
+          <Link
+            to="/grupos/marrocos-2026"
+            className="btn-accent flex items-center gap-2 whitespace-nowrap"
+          >
+            Saiba mais <ArrowRight size={18} />
+          </Link>
+        </div>
+      </section>
+
       {/* How We Work */}
       <section className="section-padding bg-muted">
         <div className="container-editorial">
