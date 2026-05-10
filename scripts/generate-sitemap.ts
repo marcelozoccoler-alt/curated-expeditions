@@ -15,6 +15,9 @@ import { fileURLToPath } from "node:url";
 
 import { destinations } from "../src/lib/destinations";
 import { CONTINENTS, TAGS, CONTACT } from "../src/lib/types";
+import { regions } from "../src/lib/regions";
+import { stays } from "../src/lib/stays";
+import { niches } from "../src/lib/niches";
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const PAGE_SIZE = 12;
