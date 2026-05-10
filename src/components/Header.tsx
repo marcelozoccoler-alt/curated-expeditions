@@ -3,6 +3,7 @@ import { useState, useEffect } from "react";
 import { Menu, X, MessageCircle } from "lucide-react";
 import { motion, AnimatePresence } from "framer-motion";
 import { generateWhatsAppLink } from "@/lib/types";
+import logo from "@/assets/logo.jpg";
 
 const navItems = [
   { label: "Destinos", href: "/destinos" },
@@ -43,10 +44,14 @@ export const Header = () => {
       <div className="container-editorial">
         <div className="flex items-center justify-between h-20">
           {/* Logo */}
-          <Link to="/" className="flex items-center gap-3">
-            <div className="w-10 h-10 rounded-full bg-gradient-hero flex items-center justify-center">
-              <span className="text-xl font-serif font-bold text-primary-foreground">C</span>
-            </div>
+          <Link to="/" className="flex items-center gap-3" aria-label="Create Travel - Início">
+            <img
+              src={logo}
+              alt="Create Travel"
+              className={`h-12 w-12 rounded-full object-cover transition-all ${
+                isScrolled ? "" : "ring-2 ring-primary-foreground/30"
+              }`}
+            />
             <span className={`text-xl font-serif font-semibold transition-colors ${
               isScrolled ? "text-foreground" : "text-primary-foreground"
             }`}>
