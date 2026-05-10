@@ -161,7 +161,7 @@ export const Footer = () => {
             © {new Date().getFullYear()} Create Travel. Todos os direitos reservados.
           </p>
           <p className="text-xs text-primary-foreground/60">
-            CADASTUR: 00.000.000/0000-00
+            CADASTUR: {CONTACT.cadastur}
           </p>
         </div>
       </div>
