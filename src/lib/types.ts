@@ -97,7 +97,7 @@ export interface WhatsAppParams {
 export const generateWhatsAppLink = (params: WhatsAppParams): string => {
   const { type, name = "", tags = [], period = "", duration = "", budget = "" } = params;
   
-  let message = `Olá, Create Travel! Quero criar um roteiro em parceria.`;
+  let message = `Olá, Create Travel! Quero criar um roteiro sob medida.`;
   
   if (type !== "Geral") {
     message += ` Interesse: ${type}`;

@@ -23,7 +23,6 @@ const channels = [
     label: "WhatsApp",
     value: CONTACT.whatsapp,
     href: generateWhatsAppLink({ type: "Geral" }),
-    helper: "Resposta em até 1 dia útil",
     accent: "text-emerald",
   },
   {
@@ -157,7 +156,7 @@ const Contato = () => {
                   <p className="font-serif text-lg text-foreground mt-2 group-hover:text-gold transition-colors">
                     {c.value}
                   </p>
-                  <p className="text-sm text-muted-foreground mt-3">{c.helper}</p>
+                  {c.helper && <p className="text-sm text-muted-foreground mt-3">{c.helper}</p>}
                 </motion.a>
               ))}
             </div>
@@ -186,10 +185,6 @@ const Contato = () => {
                 que quer levar para casa.
               </p>
               <ul className="mt-8 space-y-3 text-sm text-muted-foreground">
-                <li className="flex gap-3">
-                  <span className="text-gold">—</span>
-                  Resposta em até 1 dia útil.
-                </li>
                 <li className="flex gap-3">
                   <span className="text-gold">—</span>
                   Atendimento em português, inglês e espanhol.

@@ -83,7 +83,7 @@ export const Header = () => {
               className="btn-accent flex items-center gap-2"
             >
               <MessageCircle size={18} />
-              <span>Criar roteiro em parceria</span>
+              <span>Criar roteiro sob medida</span>
             </a>
           </div>
 
@@ -130,7 +130,7 @@ export const Header = () => {
                 className="btn-accent mt-4 justify-center"
               >
                 <MessageCircle size={18} />
-                <span>Criar roteiro em parceria</span>
+                <span>Criar roteiro sob medida</span>
               </a>
             </nav>
           </motion.div>

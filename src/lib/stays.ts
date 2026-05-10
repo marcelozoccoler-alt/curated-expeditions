@@ -43,7 +43,7 @@ export const stays: Stay[] = [
       { q: "É bom para quem quer descanso?", a: "Sim, é uma excelente base de slow travel na Amazônia." },
       { q: "A experiência muda entre seca e cheia?", a: "Sim: cheia favorece navegação; seca favorece trilhas e praias de rio." },
       { q: "Dá para combinar com Anavilhanas?", a: "Sim, como duas camadas complementares do Rio Negro." },
-      { q: "Como reservar com a Create Travel?", a: "Via WhatsApp no botão Criar roteiro em parceria." },
+      { q: "Como reservar com a Create Travel?", a: "Via WhatsApp no botão Criar roteiro sob medida." },
       { q: "É focado em natureza?", a: "Sim, com curadoria para vivências autênticas." },
       { q: "Posso personalizar atividades?", a: "Sim, conforme seu perfil e ritmo." },
     ],
@@ -68,7 +68,7 @@ export const stays: Stay[] = [
       { q: "Dá para combinar com Bonito?", a: "Sim, é uma combinação excelente." },
       { q: "O que é luxo discreto?", a: "Conforto real e serviço excelente sem ostentação." },
       { q: "Como funciona a curadoria Create Travel?", a: "Definimos base, dias, horários e foco (foto/aves/família)." },
-      { q: "Como falar com consultor?", a: "Clique em Criar roteiro em parceria." },
+      { q: "Como falar com consultor?", a: "Clique em Criar roteiro sob medida." },
     ],
   },
   {
