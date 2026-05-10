@@ -8,6 +8,7 @@ const navItems = [
   { label: "Destinos", href: "/destinos" },
   { label: "Experiências", href: "/experiencias" },
   { label: "Hospedagens", href: "/hospedagens" },
+  { label: "Guias", href: "/guias" },
   { label: "Sobre", href: "/sobre" },
   { label: "Contato", href: "/contato" },
 ];
