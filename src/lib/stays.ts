@@ -101,7 +101,7 @@ export const stays: Stay[] = [
     bestTime: "Abr–Out para clima mais seco; Nov–Mar com mais chuvas curtas.",
     tags: ["lua-de-mel", "bem-estar", "praia", "cultura", "gastronomia"],
     imageAiPrompt: "Ultra realistic editorial photo of a charming hotel in Trancoso, colorful colonial architecture, garden, soft natural light, no people.",
-    imageOverrideUrl: "https://images.unsplash.com/photo-1455587734955-081b22074882?w=1600&h=1000&fit=crop",
+    imageOverrideUrl: "https://www.plansouthamerica.com/wp-content/uploads/2024/01/UXUA-beach-lounge-and-pool-bar-1440x960.webp",
     whySelected: "Estilo, alma local e serviço caloroso em torno do Quadrado. Um caso de luxo discreto que respeita o lugar.",
     beyondUsual: [
       "Spa com banhos rituais brasileiros.",
