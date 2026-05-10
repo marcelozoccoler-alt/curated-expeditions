@@ -163,7 +163,7 @@ const Regiao = () => {
                 className="btn-accent inline-flex items-center gap-2 justify-center"
               >
                 <MessageCircle size={18} />
-                Criar roteiro em parceria
+                Criar roteiro sob medida
               </a>
               <Link
                 to="/contato"

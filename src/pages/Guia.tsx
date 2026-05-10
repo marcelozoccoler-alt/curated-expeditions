@@ -164,7 +164,7 @@ const Guia = () => {
                   className="btn-accent w-full justify-center mt-6 inline-flex items-center gap-2"
                 >
                   <MessageCircle size={18} />
-                  Criar roteiro em parceria
+                  Criar roteiro sob medida
                 </a>
                 <Link
                   to="/contato"
@@ -292,7 +292,7 @@ const Guia = () => {
                 className="btn-accent inline-flex items-center gap-2 justify-center"
               >
                 <MessageCircle size={18} />
-                Criar roteiro em parceria
+                Criar roteiro sob medida
               </a>
               <Link
                 to="/contato"

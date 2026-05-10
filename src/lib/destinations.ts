@@ -33,7 +33,7 @@ export const destinations: Destination[] = [
       { q: "É adequado para iniciantes em Amazônia?", a: "Sim, com logística bem estruturada e bom nível de conforto." },
       { q: "Dá para ir com crianças?", a: "Sim, com atividades ajustadas ao ritmo da família." },
       { q: "Como evitar experiências muito turísticas?", a: "Com horários, rotas e guias certos — base da curadoria Create Travel." },
-      { q: "Como criar meu roteiro?", a: "Clique em Criar roteiro em parceria e conte período e preferências." }
+      { q: "Como criar meu roteiro?", a: "Clique em Criar roteiro sob medida e conte período e preferências." }
     ]
   },
   {
@@ -67,7 +67,7 @@ export const destinations: Destination[] = [
       { q: "Qual período é melhor?", a: "Depende do seu foco: seca para trilhas; cheia para navegação em igapós." },
       { q: "É bom para fotografia?", a: "Muito — luz, água e floresta rendem imagens únicas." },
       { q: "Pode ser uma primeira viagem à Amazônia?", a: "Sim, excelente para começar com conforto." },
-      { q: "Como falar com consultor?", a: "Via WhatsApp no botão Criar roteiro em parceria." }
+      { q: "Como falar com consultor?", a: "Via WhatsApp no botão Criar roteiro sob medida." }
     ]
   },
   {
@@ -101,7 +101,7 @@ export const destinations: Destination[] = [
       { q: "Precisa de preparo físico?", a: "Não necessariamente; dá para equilibrar conforto e atividade." },
       { q: "Dá para combinar com Bonito?", a: "Sim, combinação clássica e excelente." },
       { q: "Como evitar 'turismo de corrida'?", a: "Com base bem escolhida e horários curados." },
-      { q: "Como criar roteiro?", a: "Clique em Criar roteiro em parceria." }
+      { q: "Como criar roteiro?", a: "Clique em Criar roteiro sob medida." }
     ]
   },
   {
@@ -135,7 +135,7 @@ export const destinations: Destination[] = [
       { q: "É bom para lua de mel?", a: "Sim, se você busca natureza e charme com tranquilidade." },
       { q: "Como fugir das multidões?", a: "Com base, horários e rotas certas." },
       { q: "Quantos dias?", a: "Em geral 5 a 8 noites, dependendo das bases escolhidas." },
-      { q: "Como montar roteiro?", a: "Clique em Criar roteiro em parceria." }
+      { q: "Como montar roteiro?", a: "Clique em Criar roteiro sob medida." }
     ]
   },
   {
@@ -169,7 +169,7 @@ export const destinations: Destination[] = [
       { q: "Dá para combinar com outros destinos amazônicos?", a: "Sim, Santarém e conexões para outras regiões." },
       { q: "Quantos dias ficar?", a: "4 a 6 noites permitem aproveitar bem o ritmo local." },
       { q: "É muito turístico?", a: "Pode ser em alta temporada; a curadoria ajuda a encontrar o equilíbrio." },
-      { q: "Como criar roteiro?", a: "Clique em Criar roteiro em parceria." }
+      { q: "Como criar roteiro?", a: "Clique em Criar roteiro sob medida." }
     ]
   },
   {
@@ -203,7 +203,7 @@ export const destinations: Destination[] = [
       { q: "É bom para crianças?", a: "Sim, com atividades adaptadas ao ritmo familiar." },
       { q: "Quantos dias são ideais?", a: "3 a 5 noites, podendo combinar com Bonito." },
       { q: "Como funciona a pesca?", a: "Pesca esportiva com devolução, respeitando conservação." },
-      { q: "Como criar roteiro?", a: "Clique em Criar roteiro em parceria." }
+      { q: "Como criar roteiro?", a: "Clique em Criar roteiro sob medida." }
     ]
   },
   {
@@ -237,7 +237,7 @@ export const destinations: Destination[] = [
       { q: "Quantos dias são necessários?", a: "Mínimo 5 noites para ver os principais atrativos." },
       { q: "É indicado para crianças?", a: "Depende da idade e disposição para deslocamentos." },
       { q: "O que são fervedouros?", a: "Nascentes de água cristalina onde não se afunda." },
-      { q: "Como criar roteiro?", a: "Clique em Criar roteiro em parceria." }
+      { q: "Como criar roteiro?", a: "Clique em Criar roteiro sob medida." }
     ]
   },
   {
@@ -271,7 +271,7 @@ export const destinations: Destination[] = [
       { q: "Vale a pena fazer o Vale do Pati?", a: "É uma das melhores travessias do Brasil para quem curte trekking." },
       { q: "Quantos dias ficar?", a: "5 a 7 noites permitem bom equilíbrio." },
       { q: "Dá para ir com crianças?", a: "Sim, escolhendo trilhas adequadas." },
-      { q: "Como criar roteiro?", a: "Clique em Criar roteiro em parceria." }
+      { q: "Como criar roteiro?", a: "Clique em Criar roteiro sob medida." }
     ]
   },
   {
@@ -305,7 +305,7 @@ export const destinations: Destination[] = [
       { q: "É bom para casais?", a: "Sim, muitas opções românticas e de relaxamento." },
       { q: "Quantos dias ficar?", a: "4 a 6 noites para aproveitar bem." },
       { q: "Tem boa gastronomia?", a: "Sim, Alto Paraíso surpreende positivamente." },
-      { q: "Como criar roteiro?", a: "Clique em Criar roteiro em parceria." }
+      { q: "Como criar roteiro?", a: "Clique em Criar roteiro sob medida." }
     ]
   },
   {
@@ -339,7 +339,7 @@ export const destinations: Destination[] = [
       { q: "Precisa reservar com antecedência?", a: "Sim, especialmente para pousadas e mergulhos." },
       { q: "É bom para lua de mel?", a: "Perfeito para casais que amam natureza." },
       { q: "Verei golfinhos?", a: "Muito provável, especialmente na Baía dos Golfinhos." },
-      { q: "Como criar roteiro?", a: "Clique em Criar roteiro em parceria." }
+      { q: "Como criar roteiro?", a: "Clique em Criar roteiro sob medida." }
     ]
   },
   {
@@ -373,7 +373,7 @@ export const destinations: Destination[] = [
       { q: "Quantos dias ficar?", a: "4 a 6 noites para os principais atrativos." },
       { q: "Posso combinar com Pantanal?", a: "Sim, é uma das melhores combinações do Brasil." },
       { q: "Os passeios são muito cheios?", a: "O sistema de vouchers controla, mas alta temporada exige planejamento." },
-      { q: "Como criar roteiro?", a: "Clique em Criar roteiro em parceria." }
+      { q: "Como criar roteiro?", a: "Clique em Criar roteiro sob medida." }
     ]
   },
   {
@@ -407,7 +407,7 @@ export const destinations: Destination[] = [
       { q: "É bom para kitesurf?", a: "Um dos melhores do Brasil de julho a dezembro." },
       { q: "Quantos dias ficar?", a: "4 a 6 noites para curtir sem pressa." },
       { q: "Dá para combinar com outros destinos?", a: "Sim, Rota das Emoções inclui Jeri, Delta e Lençóis." },
-      { q: "Como criar roteiro?", a: "Clique em Criar roteiro em parceria." }
+      { q: "Como criar roteiro?", a: "Clique em Criar roteiro sob medida." }
     ]
   },
 
@@ -443,7 +443,7 @@ export const destinations: Destination[] = [
       { q: "É bom para lua de mel?", a: "Sim, para casais que buscam emoção e contemplação." },
       { q: "Dá para combinar com praia?", a: "Sim, Zanzibar pode ser uma extensão (bem curada)." },
       { q: "Como é a ética de observação?", a: "Priorizamos boas práticas: distância, respeito e baixo impacto." },
-      { q: "Como falar com consultor?", a: "Clique em Criar roteiro em parceria." }
+      { q: "Como falar com consultor?", a: "Clique em Criar roteiro sob medida." }
     ]
   },
   {
@@ -477,7 +477,7 @@ export const destinations: Destination[] = [
       { q: "Quantos dias ficar?", a: "1 a 2 noites na área, combinando com Serengeti." },
       { q: "Fica muito cheio de veículos?", a: "Pode ficar; a curadoria de horários ajuda." },
       { q: "É bom para fotografia?", a: "Muito, especialmente ao amanhecer." },
-      { q: "Como criar roteiro?", a: "Clique em Criar roteiro em parceria." }
+      { q: "Como criar roteiro?", a: "Clique em Criar roteiro sob medida." }
     ]
   },
   {
@@ -511,7 +511,7 @@ export const destinations: Destination[] = [
       { q: "Vale combinar com safári?", a: "Sim, uma das melhores combinações." },
       { q: "É seguro?", a: "Sim, com os cuidados normais de viagem." },
       { q: "Qual a melhor praia?", a: "Depende do que você busca — curamos pela sua preferência." },
-      { q: "Como criar roteiro?", a: "Clique em Criar roteiro em parceria." }
+      { q: "Como criar roteiro?", a: "Clique em Criar roteiro sob medida." }
     ]
   },
   {
@@ -545,7 +545,7 @@ export const destinations: Destination[] = [
       { q: "Quantos dias de safári?", a: "4 a 6 noites para boa imersão." },
       { q: "Vale fazer balão?", a: "É uma experiência única, mas cara — curamos pela prioridade." },
       { q: "É bom para lua de mel?", a: "Sim, especialmente em lodges de conservancies." },
-      { q: "Como criar roteiro?", a: "Clique em Criar roteiro em parceria." }
+      { q: "Como criar roteiro?", a: "Clique em Criar roteiro sob medida." }
     ]
   },
   {
@@ -579,7 +579,7 @@ export const destinations: Destination[] = [
       { q: "É seguro?", a: "Sim, com planejamento e áreas adequadas." },
       { q: "A Garden Route vale a pena?", a: "Muito, especialmente para quem gosta de dirigir e paisagens." },
       { q: "Qual melhor época?", a: "Depende da prioridade: safári ou costa." },
-      { q: "Como criar roteiro?", a: "Clique em Criar roteiro em parceria." }
+      { q: "Como criar roteiro?", a: "Clique em Criar roteiro sob medida." }
     ]
   },
   {
@@ -613,7 +613,7 @@ export const destinations: Destination[] = [
       { q: "Quantos dias são ideais?", a: "10 a 14 dias para cobrir os highlights." },
       { q: "É bom para fotografia?", a: "Um dos melhores destinos do mundo." },
       { q: "Tem safári de verdade?", a: "Sim, Etosha é excelente para Big 5." },
-      { q: "Como criar roteiro?", a: "Clique em Criar roteiro em parceria." }
+      { q: "Como criar roteiro?", a: "Clique em Criar roteiro sob medida." }
     ]
   },
   {
@@ -647,7 +647,7 @@ export const destinations: Destination[] = [
       { q: "Qual a diferença para outros safáris?", a: "A dimensão aquática e a exclusividade dos camps." },
       { q: "É bom para lua de mel?", a: "Um dos melhores destinos românticos de safári." },
       { q: "Tem malária?", a: "É área de risco; profilaxia recomendada." },
-      { q: "Como criar roteiro?", a: "Clique em Criar roteiro em parceria." }
+      { q: "Como criar roteiro?", a: "Clique em Criar roteiro sob medida." }
     ]
   },
   {
@@ -681,7 +681,7 @@ export const destinations: Destination[] = [
       { q: "É seguro em Ruanda?", a: "Sim, é um dos países mais seguros da África." },
       { q: "O permit de gorila é caro?", a: "Sim, mas financia diretamente a conservação." },
       { q: "Posso combinar com safári tradicional?", a: "Sim, Tanzânia ou Quênia são boas extensões." },
-      { q: "Como criar roteiro?", a: "Clique em Criar roteiro em parceria." }
+      { q: "Como criar roteiro?", a: "Clique em Criar roteiro sob medida." }
     ]
   },
   {
@@ -715,7 +715,7 @@ export const destinations: Destination[] = [
       { q: "Precisa de guia?", a: "Recomendado para medinas e deserto." },
       { q: "É bom para casais?", a: "Sim, especialmente em riads românticos." },
       { q: "Qual a melhor base?", a: "Marrakech para explorar o sul; Fez para o norte." },
-      { q: "Como criar roteiro?", a: "Clique em Criar roteiro em parceria." }
+      { q: "Como criar roteiro?", a: "Clique em Criar roteiro sob medida." }
     ]
   },
 
@@ -751,7 +751,7 @@ export const destinations: Destination[] = [
       { q: "Quantos dias ficar?", a: "7 a 12 dias para combinar os highlights." },
       { q: "O clima é muito imprevisível?", a: "Sim, mas faz parte da experiência." },
       { q: "É caro?", a: "Região de custo moderado a alto, dependendo do estilo." },
-      { q: "Como criar roteiro?", a: "Clique em Criar roteiro em parceria." }
+      { q: "Como criar roteiro?", a: "Clique em Criar roteiro sob medida." }
     ]
   },
   {
@@ -785,7 +785,7 @@ export const destinations: Destination[] = [
       { q: "Dá para combinar com outros destinos?", a: "Sim, Patagônia ou Ilha de Páscoa." },
       { q: "O que levar?", a: "Roupas em camadas — amplitude térmica alta." },
       { q: "É bom para fotografia?", a: "Excepcional, especialmente ao nascer e pôr do sol." },
-      { q: "Como criar roteiro?", a: "Clique em Criar roteiro em parceria." }
+      { q: "Como criar roteiro?", a: "Clique em Criar roteiro sob medida." }
     ]
   },
   {
@@ -819,7 +819,7 @@ export const destinations: Destination[] = [
       { q: "É caro?", a: "Sim, mas financia conservação extraordinária." },
       { q: "Precisa saber nadar?", a: "Ajuda para aproveitar o snorkel." },
       { q: "Os animais têm medo?", a: "Não, a aproximação é surreal." },
-      { q: "Como criar roteiro?", a: "Clique em Criar roteiro em parceria." }
+      { q: "Como criar roteiro?", a: "Clique em Criar roteiro sob medida." }
     ]
   },
   {
@@ -853,7 +853,7 @@ export const destinations: Destination[] = [
       { q: "Quantos dias ficar?", a: "5 a 8 noites para Vale Sagrado e Machu Picchu." },
       { q: "A gastronomia é boa?", a: "Extraordinária — uma das melhores do mundo." },
       { q: "É muito turístico?", a: "Pode ser — a curadoria de horários e locais faz diferença." },
-      { q: "Como criar roteiro?", a: "Clique em Criar roteiro em parceria." }
+      { q: "Como criar roteiro?", a: "Clique em Criar roteiro sob medida." }
     ]
   },
   {
@@ -887,7 +887,7 @@ export const destinations: Destination[] = [
       { q: "Quantos dias são necessários?", a: "2 a 4 dias para o salar e lagoas." },
       { q: "Dá para combinar com Atacama?", a: "Sim, travessia clássica entre os dois." },
       { q: "Precisa de 4x4?", a: "Sim, sempre com guia local." },
-      { q: "Como criar roteiro?", a: "Clique em Criar roteiro em parceria." }
+      { q: "Como criar roteiro?", a: "Clique em Criar roteiro sob medida." }
     ]
   },
 
@@ -923,7 +923,7 @@ export const destinations: Destination[] = [
       { q: "É muito caro?", a: "Sim, é um dos destinos mais caros da Europa." },
       { q: "Qual época para aurora?", a: "Set–Mar, com melhor chance em noites claras." },
       { q: "O clima é muito extremo?", a: "Imprevisível, mas faz parte da aventura." },
-      { q: "Como criar roteiro?", a: "Clique em Criar roteiro em parceria." }
+      { q: "Como criar roteiro?", a: "Clique em Criar roteiro sob medida." }
     ]
   },
   {
@@ -957,7 +957,7 @@ export const destinations: Destination[] = [
       { q: "Quantos dias ficar?", a: "7 a 12 dias para combinar região dos fiordes e Lofoten." },
       { q: "É muito caro?", a: "Sim, Noruega é um dos países mais caros." },
       { q: "Tem aurora boreal?", a: "No norte (Lofoten, Tromsø), de set a mar." },
-      { q: "Como criar roteiro?", a: "Clique em Criar roteiro em parceria." }
+      { q: "Como criar roteiro?", a: "Clique em Criar roteiro sob medida." }
     ]
   },
   {
@@ -991,7 +991,7 @@ export const destinations: Destination[] = [
       { q: "É bom para lua de mel?", a: "Um dos destinos mais românticos do mundo." },
       { q: "Qual a melhor época para vinhos?", a: "Set–out para colheita; primavera para paisagens verdes." },
       { q: "Florença é muito cheia?", a: "Pode ser — a curadoria de horários ajuda." },
-      { q: "Como criar roteiro?", a: "Clique em Criar roteiro em parceria." }
+      { q: "Como criar roteiro?", a: "Clique em Criar roteiro sob medida." }
     ]
   },
   {
@@ -1025,7 +1025,7 @@ export const destinations: Destination[] = [
       { q: "É bom para trekking?", a: "Excelente — trilhas bem sinalizadas em paisagens únicas." },
       { q: "Verei baleias?", a: "Muito provável na temporada (primavera/verão)." },
       { q: "O clima é muito instável?", a: "Pode mudar rápido, mas raramente estraga o dia todo." },
-      { q: "Como criar roteiro?", a: "Clique em Criar roteiro em parceria." }
+      { q: "Como criar roteiro?", a: "Clique em Criar roteiro sob medida." }
     ]
   },
   {
@@ -1059,7 +1059,7 @@ export const destinations: Destination[] = [
       { q: "É bom para lua de mel?", a: "Perfeito, especialmente Santorini." },
       { q: "Como se locomover entre ilhas?", a: "Ferries e voos domésticos." },
       { q: "Qual a melhor ilha para praias?", a: "Milos e Naxos surpreendem." },
-      { q: "Como criar roteiro?", a: "Clique em Criar roteiro em parceria." }
+      { q: "Como criar roteiro?", a: "Clique em Criar roteiro sob medida." }
     ]
   },
 
@@ -1095,7 +1095,7 @@ export const destinations: Destination[] = [
       { q: "Precisa falar japonês?", a: "Não, mas algumas frases ajudam fora das grandes cidades." },
       { q: "É muito caro?", a: "Custo médio a alto, mas há opções variadas." },
       { q: "O que é ryokan?", a: "Hospedagem tradicional com tatami, futon e onsens." },
-      { q: "Como criar roteiro?", a: "Clique em Criar roteiro em parceria." }
+      { q: "Como criar roteiro?", a: "Clique em Criar roteiro sob medida." }
     ]
   },
   {
@@ -1129,7 +1129,7 @@ export const destinations: Destination[] = [
       { q: "É seguro?", a: "Sim, com os cuidados normais de viagem." },
       { q: "Vale ficar em palácios?", a: "Uma das melhores experiências do destino." },
       { q: "A comida é muito apimentada?", a: "Pode-se ajustar — há opções para todos os paladares." },
-      { q: "Como criar roteiro?", a: "Clique em Criar roteiro em parceria." }
+      { q: "Como criar roteiro?", a: "Clique em Criar roteiro sob medida." }
     ]
   },
   {
@@ -1163,7 +1163,7 @@ export const destinations: Destination[] = [
       { q: "É bom para lua de mel?", a: "Excelente, especialmente em Ubud e ilhas próximas." },
       { q: "Dá para combinar com outras ilhas?", a: "Sim, Gili, Komodo e Flores." },
       { q: "Qual a melhor área para ficar?", a: "Depende do que você busca — curamos pela experiência." },
-      { q: "Como criar roteiro?", a: "Clique em Criar roteiro em parceria." }
+      { q: "Como criar roteiro?", a: "Clique em Criar roteiro sob medida." }
     ]
   },
 
@@ -1199,7 +1199,7 @@ export const destinations: Destination[] = [
       { q: "Precisa de carro?", a: "Altamente recomendado para flexibilidade." },
       { q: "É seguro dirigir?", a: "Sim, excelente infraestrutura." },
       { q: "É muito caro?", a: "Custo médio a alto, mas vale cada centavo." },
-      { q: "Como criar roteiro?", a: "Clique em Criar roteiro em parceria." }
+      { q: "Como criar roteiro?", a: "Clique em Criar roteiro sob medida." }
     ]
   },
   {
@@ -1233,7 +1233,7 @@ export const destinations: Destination[] = [
       { q: "Quantos dias ficar?", a: "7 a 12 dias para combinar 2 ou 3 ilhas." },
       { q: "É bom para lua de mel?", a: "O sonho de lua de mel para muitos casais." },
       { q: "Precisa saber nadar?", a: "Ajuda para snorkel e atividades aquáticas." },
-      { q: "Como criar roteiro?", a: "Clique em Criar roteiro em parceria." }
+      { q: "Como criar roteiro?", a: "Clique em Criar roteiro sob medida." }
     ]
   },
   {
@@ -1267,7 +1267,7 @@ export const destinations: Destination[] = [
       { q: "Precisa de carro?", a: "Para roteiros de roadtrip sim; nas cidades não." },
       { q: "A Barreira de Corais está bem?", a: "Áreas protegidas ainda são extraordinárias." },
       { q: "É seguro?", a: "Muito, apesar da fama da fauna perigosa." },
-      { q: "Como criar roteiro?", a: "Clique em Criar roteiro em parceria." }
+      { q: "Como criar roteiro?", a: "Clique em Criar roteiro sob medida." }
     ]
   }
 ];

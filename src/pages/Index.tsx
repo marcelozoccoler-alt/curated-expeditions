@@ -55,7 +55,7 @@ const Index = () => {
             <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
               <WhatsAppButton
                 variant="cta"
-                label="Criar roteiro em parceria"
+                label="Criar roteiro sob medida"
                 className="text-lg px-8 py-4"
               />
               <Link

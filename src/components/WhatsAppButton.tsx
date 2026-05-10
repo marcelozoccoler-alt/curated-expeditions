@@ -11,7 +11,7 @@ interface WhatsAppButtonProps {
 export const WhatsAppButton = ({
   params = { type: "Geral" },
   variant = "inline",
-  label = "Criar roteiro em parceria",
+  label = "Criar roteiro sob medida",
   className = "",
 }: WhatsAppButtonProps) => {
   const link = generateWhatsAppLink(params);

@@ -184,7 +184,7 @@ const HospedagemDetail = () => {
               </p>
               <WhatsAppButton
                 variant="cta"
-                label="Criar roteiro em parceria"
+                label="Criar roteiro sob medida"
                 params={{
                   type: "Hospedagem",
                   name: stay.name,
