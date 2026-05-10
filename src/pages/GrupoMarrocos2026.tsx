@@ -16,6 +16,7 @@ import { Footer } from "@/components/Footer";
 import { WhatsAppButton } from "@/components/WhatsAppButton";
 import { SEO } from "@/components/SEO";
 import { FAQSection } from "@/components/FAQSection";
+import { MarrocosLeadForm } from "@/components/MarrocosLeadForm";
 import { CONTACT, generateWhatsAppLink } from "@/lib/types";
 import heroImg from "@/assets/grupo-marrocos-2026.jpg";
 
@@ -453,6 +454,19 @@ const GrupoMarrocos2026 = () => {
             params={whatsappParams}
             className="text-lg px-10 py-5"
           />
+        </div>
+      </section>
+
+      {/* Lead capture */}
+      <section className="section-padding">
+        <div className="container-editorial">
+          <div className="text-center mb-10 max-w-2xl mx-auto">
+            <p className="text-caption text-gold mb-4">Pré-reserva</p>
+            <h2 className="heading-section text-foreground">
+              Garanta sua vaga em poucos cliques
+            </h2>
+          </div>
+          <MarrocosLeadForm />
         </div>
       </section>
 
