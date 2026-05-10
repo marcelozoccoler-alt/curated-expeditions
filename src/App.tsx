@@ -36,6 +36,8 @@ const App = () => (
         <Route path="/contato" element={<Contato />} />
         <Route path="/guias" element={<GuiasIndex />} />
         <Route path="/guias/:slug" element={<Guia />} />
+          {/* SEO short-URL regional landings — keep as last specific dynamic route before catch-all */}
+          <Route path="/:regionSlug" element={<Regiao />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
           <Route path="*" element={<NotFound />} />
         </Routes>
