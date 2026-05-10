@@ -13,6 +13,7 @@ import HospedagemDetail from "./pages/HospedagemDetail";
 import Sobre from "./pages/Sobre";
 import Contato from "./pages/Contato";
 import Guia, { GuiasIndex } from "./pages/Guia";
+import Regiao from "./pages/Regiao";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
