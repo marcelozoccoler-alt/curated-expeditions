@@ -100,6 +100,7 @@ export const Footer = () => {
                 >
                   Grupo Marrocos 2026
                 </Link>
+              </li>
               <li>
                 <Link
                   to="/criar-roteiro"
