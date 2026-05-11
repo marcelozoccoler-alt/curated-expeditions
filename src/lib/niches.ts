@@ -1,4 +1,5 @@
 import { FAQ } from "./types";
+import amazoniaHero from "@/assets/guia-amazonia.jpg";
 
 export interface NicheSection {
   heading: string;
