@@ -1,0 +1,4 @@
+project_id = "ryggijbtauktypcbqbvc"
+
+[functions.regenerate-destination-image]
+verify_jwt = false
