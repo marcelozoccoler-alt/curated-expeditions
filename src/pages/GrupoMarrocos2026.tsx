@@ -51,114 +51,115 @@ const benefits = [
 const itinerary = [
   {
     day: "Dia 1 — 18/11 (qua)",
-    title: "Brasil → Marrocos (Casablanca)",
+    title: "Chegada a Casablanca → Rabat",
     points: [
-      "Embarque em São Paulo (GRU)",
-      "Chegada em Casablanca",
-      "Recepção, assistência e transfer para o hotel",
-      "Noite para descanso / primeiro contato com a cidade",
+      "Chegada ao Aeroporto Mohammed V (Casablanca)",
+      "Recepção e saída rumo a Rabat",
+      "Visita panorâmica: Torre Hassan e Mausoléu de Mohammed V (conforme logística)",
+      "Hospedagem em Rabat",
     ],
   },
   {
     day: "Dia 2 — 19/11 (qui)",
-    title: "Casablanca + Rabat",
+    title: "Rabat → Chefchaouen",
     points: [
-      "Visita panorâmica por Casablanca",
-      "Possibilidade de visita à Mesquita Hassan II (ingresso local)",
-      "Saída para Rabat — Torre Hassan, Mausoléu Mohammed V, Kasbah dos Oudayas",
-      "Pernoite em Rabat",
+      "Café da manhã e viagem para Chefchaouen, a cidade azul do Rif",
+      "Chegada no final da tarde",
+      "Tempo livre para primeiras fotos e passeio leve",
+      "Hospedagem em Chefchaouen",
     ],
   },
   {
     day: "Dia 3 — 20/11 (sex)",
-    title: "Rabat → Meknès/Volubilis → Fez",
+    title: "Chefchaouen (manhã livre) → Fez",
     points: [
-      "Saída rumo a Fez",
-      "Paradas em Meknès (cidade imperial)",
-      "Volubilis (sítio arqueológico romano – UNESCO)",
-      "Chegada em Fez e pernoite",
+      "Manhã livre para explorar Chefchaouen no seu ritmo",
+      "Saída no início da tarde rumo a Fez",
+      "Chegada e acomodação",
+      "Hospedagem em Fez",
     ],
   },
   {
     day: "Dia 4 — 21/11 (sáb)",
-    title: "Fez (City Tour)",
+    title: "Fez (visita guiada)",
     points: [
-      "Dia completo de visita guiada em Fez",
-      "Medina histórica e souks",
-      "Bairros de artesãos e mercados tradicionais",
-      "Tempo para compras, fotos e experiências locais",
+      "Dia inteiro de visita guiada em Fez",
+      "Medina medieval e souks tradicionais",
+      "Universidade Al Qarawiyyin, madraças e construções históricas",
+      "Curtumes típicos de Fez · Hospedagem em Fez",
     ],
   },
   {
     day: "Dia 5 — 22/11 (dom)",
-    title: "Fez → Saara (Merzouga/Erg Chebbi)",
+    title: "Fez → Ifrane → Azrou → Vale do Ziz → Merzouga (Saara)",
     points: [
-      "Viagem rumo ao Deserto do Saara",
-      "Chegada à região das dunas",
-      "Passeio de camelo ao pôr do sol",
-      "Pernoite em acampamento no deserto",
+      "Saída cedo atravessando o Médio Atlas",
+      "Parada em Ifrane e bosques de cedros em Azrou",
+      "Travessia pelo Vale do Ziz até Merzouga",
+      "Passeio de camelo nas dunas de Erg Chebbi ao pôr do sol",
+      "Pernoite em acampamento de tendas no deserto",
     ],
   },
   {
     day: "Dia 6 — 23/11 (seg)",
-    title: "Saara → Gargantas de Todra → Ouarzazate",
+    title: "Merzouga → Gargantas do Todra → Vale do Dades",
     points: [
-      "Amanhecer no deserto",
-      "Saída por cenários de vales e formações rochosas",
-      "Gargantas de Todra e Vale do Dades",
-      "Pernoite em Ouarzazate (ou região)",
+      "Amanhecer no deserto e retorno do acampamento",
+      "Visita às Gargantas do Todra",
+      "Continuação até o Vale do Dades, com paradas para fotos",
+      "Hospedagem no Vale do Dades",
     ],
   },
   {
     day: "Dia 7 — 24/11 (ter)",
-    title: "Aït Ben Haddou → Marrakech",
+    title: "Vale do Dades → Vale das Rosas → Ouarzazate → Marrakech",
     points: [
-      "Visita à icônica Kasbah Aït Ben Haddou (UNESCO)",
-      "Continuação para Marrakech",
-      "Chegada e noite livre para curtir a cidade",
+      "Saída pela manhã pelo Vale das Rosas",
+      "Passagem por Ouarzazate, com clima cinematográfico",
+      "Travessia do Alto Atlas pelo passo de Tizi n’Tichka",
+      "Chegada a Marrakech no final da tarde · Hospedagem em Marrakech",
     ],
   },
   {
     day: "Dia 8 — 25/11 (qua)",
-    title: "Marrakech (City Tour)",
+    title: "Marrakech (visita guiada) → Casablanca",
     points: [
-      "Medina e souks",
-      "Praça Jemaa el-Fna",
-      "Palácios e jardins (Bahia, Majorelle — ingressos locais)",
-      "Tempo livre para explorar e relaxar",
+      "Visita guiada em Marrakech: bairros históricos, souks e áreas culturais",
+      "Após o almoço, viagem para Casablanca",
+      "Visita à Mesquita Hassan II (conforme horário/condições locais)",
+      "Hospedagem em Casablanca",
     ],
   },
   {
     day: "Dia 9 — 26/11 (qui)",
-    title: "Marrakech → Casablanca → Brasil",
+    title: "Casablanca → Aeroporto",
     points: [
-      "Check-out e transfer para Casablanca",
+      "Traslado ao aeroporto conforme horário do voo",
       "Embarque de retorno ao Brasil",
-      "Chegada em São Paulo (GRU)",
+      "Chegada em São Paulo (GRU) às 22:25",
+      "Fim dos nossos serviços",
     ],
   },
 ];
 
 const included = [
-  "Passagens aéreas ida e volta (Royal Air Maroc, voos diretos)",
-  "Classe econômica + 1 bagagem despachada de 23 kg",
-  "8 noites de hospedagem em riads e hotéis 3★ selecionados",
-  "Café da manhã diário",
-  "Transfers e transporte interno durante o roteiro",
-  "Passeios e visitas previstos no roteiro",
-  "Passeio de camelo no Saara",
-  "1 pernoite no deserto (acampamento)",
-  "Acompanhamento em português e serviço personalizado Create Travel",
+  "Passagens aéreas (Royal Air Maroc, voo direto, classe econômica, 1 mala de 23 kg)",
+  "Transfers de chegada e saída",
+  "Transporte terrestre em veículo confortável com ar-condicionado (conforme roteiro)",
+  "Motorista/guia profissional com fluência em português e espanhol",
+  "8 noites de hospedagem com café da manhã (riads + hotéis 3★)",
+  "Passeio de camelo ao pôr do sol nas dunas de Erg Chebbi",
+  "1 pernoite em acampamento de tendas no Saara",
+  "Visitas guiadas em Fez e Marrakech",
+  "Assistência de viagem",
 ];
 
 const notIncluded = [
-  "Seguro viagem (recomendado/obrigatório)",
-  "Gorjetas (guias, motoristas, carregadores e serviços)",
-  "Refeições não mencionadas",
   "Bebidas",
-  "Ingressos e taxas locais em atrações específicas (quando aplicável)",
-  "Despesas pessoais, compras, lavanderia",
-  "Qualquer item não descrito em “Incluído”",
+  "Almoços e jantares (exceto quando o pacote indicar inclusão)",
+  "Despesas pessoais",
+  "Entradas em monumentos e atrações (quando aplicável)",
+  "Gorjetas (guias, motoristas e serviços)",
 ];
 
 const faqs = [
@@ -230,7 +231,7 @@ const GrupoMarrocos2026 = () => {
     <div className="min-h-screen">
       <SEO
         title="Grupo Marrocos 2026 — Saída 18/11 | Create Travel"
-        description="Viva o Marrocos em grupo exclusivo e pequeno: 9 dias por Casablanca, Fez, Saara e Marrakech. Saída 18/11/2026, a partir de R$ 18.295 por pessoa."
+        description="Cidades imperiais, Chefchaouen azul e noite no Saara em grupo exclusivo: 9 dias por Rabat, Fez, Merzouga e Marrakech. Saída 18/11/2026, a partir de R$ 18.295."
         canonicalPath="/grupos/marrocos-2026"
         ogImage={heroImg}
         ogType="article"
@@ -266,8 +267,9 @@ const GrupoMarrocos2026 = () => {
               Grupo Marrocos 2026
             </h1>
             <p className="text-xl md:text-2xl text-white/90 mb-8 font-light">
-              9 dias por Casablanca, Fez, Saara e Marrakech — em grupo pequeno,
-              com acompanhamento em português e curadoria Create Travel.
+              Cidades imperiais, Chefchaouen azul e noite no Saara — 9 dias por
+              Rabat, Fez, Merzouga, Vale do Dades e Marrakech, em grupo pequeno
+              com curadoria Create Travel.
             </p>
             <div className="flex flex-col sm:flex-row items-start sm:items-center gap-4">
               <WhatsAppButton
