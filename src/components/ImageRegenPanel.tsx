@@ -25,6 +25,26 @@ export const ImageRegenPanel = ({
   const [prompt, setPrompt] = useState(defaultPrompt);
   const [loading, setLoading] = useState(false);
   const [preview, setPreview] = useState<string | null>(null);
+  const [previewSource, setPreviewSource] = useState<"ai" | "upload" | null>(null);
+  const fileInputRef = useRef<HTMLInputElement>(null);
+
+  const handleUpload = (file: File) => {
+    if (!file.type.startsWith("image/")) {
+      toast.error("Selecione um arquivo de imagem.");
+      return;
+    }
+    if (file.size > 8 * 1024 * 1024) {
+      toast.error("Imagem muito grande (máx. 8MB).");
+      return;
+    }
+    const reader = new FileReader();
+    reader.onload = () => {
+      setPreview(reader.result as string);
+      setPreviewSource("upload");
+    };
+    reader.onerror = () => toast.error("Falha ao ler o arquivo.");
+    reader.readAsDataURL(file);
+  };
 
   const handleGenerate = async () => {
     if (!prompt.trim()) {
