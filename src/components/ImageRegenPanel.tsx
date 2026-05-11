@@ -168,6 +168,24 @@ export const ImageRegenPanel = ({
                     {loading ? "Gerando..." : preview ? "Gerar outra" : "Gerar imagem"}
                   </button>
                   <button
+                    onClick={() => fileInputRef.current?.click()}
+                    disabled={loading}
+                    className="flex items-center gap-2 px-4 py-2 rounded-lg border border-border text-foreground text-sm hover:bg-muted disabled:opacity-50"
+                  >
+                    <Upload size={16} /> Enviar imagem
+                  </button>
+                  <input
+                    ref={fileInputRef}
+                    type="file"
+                    accept="image/*"
+                    className="hidden"
+                    onChange={(e) => {
+                      const f = e.target.files?.[0];
+                      if (f) handleUpload(f);
+                      e.target.value = "";
+                    }}
+                  />
+                  <button
                     onClick={handleApply}
                     disabled={!preview || loading}
                     className="flex items-center gap-2 px-4 py-2 rounded-lg bg-gold text-primary text-sm font-medium hover:bg-gold-light disabled:opacity-50"
