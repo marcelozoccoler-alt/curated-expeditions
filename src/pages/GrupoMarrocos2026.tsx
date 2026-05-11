@@ -231,7 +231,7 @@ const GrupoMarrocos2026 = () => {
     <div className="min-h-screen">
       <SEO
         title="Grupo Marrocos 2026 — Saída 18/11 | Create Travel"
-        description="Viva o Marrocos em grupo exclusivo e pequeno: 9 dias por Casablanca, Fez, Saara e Marrakech. Saída 18/11/2026, a partir de R$ 18.295 por pessoa."
+        description="Cidades imperiais, Chefchaouen azul e noite no Saara em grupo exclusivo: 9 dias por Rabat, Fez, Merzouga e Marrakech. Saída 18/11/2026, a partir de R$ 18.295."
         canonicalPath="/grupos/marrocos-2026"
         ogImage={heroImg}
         ogType="article"
