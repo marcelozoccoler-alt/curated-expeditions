@@ -191,7 +191,7 @@ export const niches: Niche[] = [
     intro:
       "A Amazônia não se entrega ao apressado. Ela se revela em lentidão — em canoas, escutas e silêncios. Selecionamos lodges no Rio Negro e em Anavilhanas que entregam imersão verdadeira, com ética ambiental e respeito às comunidades.",
     heroImageUrl:
-      "https://images.unsplash.com/photo-1518002171953-a080ee817e1f?w=1920&h=1080&fit=crop",
+      "https://images.unsplash.com/photo-1601581875309-fafbf2d3ed3a?w=1920&h=1080&fit=crop",
     bestTime: "Jun–Nov (seca) para trilhas e praias de rio; Dez–Mai (cheia) para igapós e navegação na floresta alagada.",
     idealDuration: "4 a 6 noites por base; combinar Anavilhanas + Manaus para uma narrativa completa.",
     pullQuote:
