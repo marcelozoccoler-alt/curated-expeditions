@@ -10,7 +10,7 @@ import { FAQSection } from "@/components/FAQSection";
 import { getNicheBySlug, getAllNiches } from "@/lib/niches";
 import { getDestinationBySlug } from "@/lib/destinations";
 import { stays } from "@/lib/stays";
-import { generateWhatsAppLink } from "@/lib/types";
+import { generateWhatsAppLink, buildWhatsAppMessage } from "@/lib/types";
 
 const Guia = () => {
   const { slug } = useParams<{ slug: string }>();
