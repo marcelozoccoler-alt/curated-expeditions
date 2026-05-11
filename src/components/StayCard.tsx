@@ -3,6 +3,7 @@ import { Star } from "lucide-react";
 import { motion } from "framer-motion";
 import { Stay } from "@/lib/types";
 import { getTagsByIds } from "@/lib/types";
+import { getStayImage } from "@/lib/stayImages";
 
 interface StayCardProps {
   stay: Stay;
@@ -12,7 +13,10 @@ interface StayCardProps {
 export const StayCard = ({ stay, index = 0 }: StayCardProps) => {
   const tags = getTagsByIds(stay.tags.slice(0, 2));
   
-  const imageUrl = stay.imageOverrideUrl || `https://images.unsplash.com/photo-1566073771259-6a8506099945?w=800&h=600&fit=crop`;
+  const imageUrl =
+    getStayImage(stay.slug) ||
+    stay.imageOverrideUrl ||
+    `https://images.unsplash.com/photo-1566073771259-6a8506099945?w=800&h=600&fit=crop`;
   
   return (
     <motion.article
