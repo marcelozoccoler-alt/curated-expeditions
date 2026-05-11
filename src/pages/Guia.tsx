@@ -23,12 +23,14 @@ const Guia = () => {
     .filter(Boolean) as ReturnType<typeof getDestinationBySlug>[];
   const recommendedStays = stays.filter((s) => niche.staySlugs.includes(s.slug));
 
-  const whatsappLink = generateWhatsAppLink({
-    type: "Roteiro",
+  const whatsappParams = {
+    type: "Roteiro" as const,
     name: `Guia da ${niche.h1}`,
     period: niche.bestTime,
     duration: niche.idealDuration,
-  });
+  };
+  const whatsappLink = generateWhatsAppLink(whatsappParams);
+  const whatsappPreview = buildWhatsAppMessage(whatsappParams);
 
   const faqLd = {
     "@context": "https://schema.org",
