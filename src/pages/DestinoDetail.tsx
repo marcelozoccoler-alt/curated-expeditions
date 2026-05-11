@@ -1,4 +1,4 @@
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
 import { useParams, Link, Navigate } from "react-router-dom";
 import { motion } from "framer-motion";
 import { Calendar, MapPin, Compass, Sparkles, ArrowRight } from "lucide-react";
@@ -13,19 +13,28 @@ import { getDestinationBySlug, destinations } from "@/lib/destinations";
 import { stays as allStays } from "@/lib/stays";
 import { getTagsByIds } from "@/lib/types";
 import { getDestinationImage } from "@/lib/destinationImages";
+import {
+  ImageRegenPanel,
+  getStoredOverride,
+  setStoredOverride,
+  clearStoredOverride,
+} from "@/components/ImageRegenPanel";
 
 const DestinoDetail = () => {
   const { "*": slug } = useParams();
   const destination = slug ? getDestinationBySlug(slug) : undefined;
+  const [override, setOverride] = useState<string | null>(null);
 
   useEffect(() => {
     window.scrollTo({ top: 0, behavior: "instant" as ScrollBehavior });
-  }, [slug]);
+    if (destination) setOverride(getStoredOverride(destination.id));
+  }, [slug, destination?.id]);
 
   if (!destination) return <Navigate to="/destinos" replace />;
 
   const tags = getTagsByIds(destination.tags);
   const heroImage =
+    override ||
     destination.imageOverrideUrl ||
     getDestinationImage(destination.id) ||
     `https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=1600&h=900&fit=crop`;
