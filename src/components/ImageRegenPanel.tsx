@@ -143,7 +143,9 @@ export const ImageRegenPanel = ({
                     <img src={currentImage} alt="Atual" className="w-full aspect-[4/3] object-cover rounded-lg" />
                   </div>
                   <div>
-                    <p className="text-xs uppercase tracking-wider text-muted-foreground mb-2">Prévia gerada</p>
+                    <p className="text-xs uppercase tracking-wider text-muted-foreground mb-2">
+                      {previewSource === "upload" ? "Enviada" : "Prévia gerada"}
+                    </p>
                     <div className="w-full aspect-[4/3] rounded-lg bg-muted flex items-center justify-center overflow-hidden">
                       {loading ? (
                         <Loader2 className="animate-spin text-gold" size={28} />
@@ -151,7 +153,7 @@ export const ImageRegenPanel = ({
                         <img src={preview} alt="Prévia" className="w-full h-full object-cover" />
                       ) : (
                         <span className="text-xs text-muted-foreground px-3 text-center">
-                          Clique em "Gerar" para criar uma nova versão
+                          Gere com IA ou envie uma imagem do seu computador
                         </span>
                       )}
                     </div>
