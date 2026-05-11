@@ -117,7 +117,7 @@ const Index = () => {
               {
                 icon: Compass,
                 title: "Curadoria profunda",
-                description: "Conhecemos cada destino pessoalmente. Selecionamos experiências que valorizam autenticidade, ética e profundidade.",
+                description: "Conhecemos cada destino. Selecionamos experiências que valorizam autenticidade, ética e profundidade.",
               },
               {
                 icon: Users,
