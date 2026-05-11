@@ -62,6 +62,7 @@ export const ImageRegenPanel = ({
       if (data?.error) throw new Error(data.error);
       if (!data?.imageUrl) throw new Error("Sem imagem na resposta");
       setPreview(data.imageUrl);
+      setPreviewSource("ai");
     } catch (e: any) {
       toast.error(e?.message || "Falha ao gerar imagem");
     } finally {
