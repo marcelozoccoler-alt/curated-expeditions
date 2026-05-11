@@ -1,6 +1,6 @@
-import { useState } from "react";
+import { useRef, useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
-import { Wand2, Loader2, X, Download, RotateCcw } from "lucide-react";
+import { Wand2, Loader2, X, Download, RotateCcw, Upload } from "lucide-react";
 import { supabase } from "@/integrations/supabase/client";
 import { toast } from "sonner";
 
@@ -25,6 +25,26 @@ export const ImageRegenPanel = ({
   const [prompt, setPrompt] = useState(defaultPrompt);
   const [loading, setLoading] = useState(false);
   const [preview, setPreview] = useState<string | null>(null);
+  const [previewSource, setPreviewSource] = useState<"ai" | "upload" | null>(null);
+  const fileInputRef = useRef<HTMLInputElement>(null);
+
+  const handleUpload = (file: File) => {
+    if (!file.type.startsWith("image/")) {
+      toast.error("Selecione um arquivo de imagem.");
+      return;
+    }
+    if (file.size > 8 * 1024 * 1024) {
+      toast.error("Imagem muito grande (máx. 8MB).");
+      return;
+    }
+    const reader = new FileReader();
+    reader.onload = () => {
+      setPreview(reader.result as string);
+      setPreviewSource("upload");
+    };
+    reader.onerror = () => toast.error("Falha ao ler o arquivo.");
+    reader.readAsDataURL(file);
+  };
 
   const handleGenerate = async () => {
     if (!prompt.trim()) {
@@ -42,6 +62,7 @@ export const ImageRegenPanel = ({
       if (data?.error) throw new Error(data.error);
       if (!data?.imageUrl) throw new Error("Sem imagem na resposta");
       setPreview(data.imageUrl);
+      setPreviewSource("ai");
     } catch (e: any) {
       toast.error(e?.message || "Falha ao gerar imagem");
     } finally {
@@ -122,7 +143,9 @@ export const ImageRegenPanel = ({
                     <img src={currentImage} alt="Atual" className="w-full aspect-[4/3] object-cover rounded-lg" />
                   </div>
                   <div>
-                    <p className="text-xs uppercase tracking-wider text-muted-foreground mb-2">Prévia gerada</p>
+                    <p className="text-xs uppercase tracking-wider text-muted-foreground mb-2">
+                      {previewSource === "upload" ? "Enviada" : "Prévia gerada"}
+                    </p>
                     <div className="w-full aspect-[4/3] rounded-lg bg-muted flex items-center justify-center overflow-hidden">
                       {loading ? (
                         <Loader2 className="animate-spin text-gold" size={28} />
@@ -130,7 +153,7 @@ export const ImageRegenPanel = ({
                         <img src={preview} alt="Prévia" className="w-full h-full object-cover" />
                       ) : (
                         <span className="text-xs text-muted-foreground px-3 text-center">
-                          Clique em "Gerar" para criar uma nova versão
+                          Gere com IA ou envie uma imagem do seu computador
                         </span>
                       )}
                     </div>
@@ -146,6 +169,24 @@ export const ImageRegenPanel = ({
                     {loading ? <Loader2 className="animate-spin" size={16} /> : <Wand2 size={16} />}
                     {loading ? "Gerando..." : preview ? "Gerar outra" : "Gerar imagem"}
                   </button>
+                  <button
+                    onClick={() => fileInputRef.current?.click()}
+                    disabled={loading}
+                    className="flex items-center gap-2 px-4 py-2 rounded-lg border border-border text-foreground text-sm hover:bg-muted disabled:opacity-50"
+                  >
+                    <Upload size={16} /> Enviar imagem
+                  </button>
+                  <input
+                    ref={fileInputRef}
+                    type="file"
+                    accept="image/*"
+                    className="hidden"
+                    onChange={(e) => {
+                      const f = e.target.files?.[0];
+                      if (f) handleUpload(f);
+                      e.target.value = "";
+                    }}
+                  />
                   <button
                     onClick={handleApply}
                     disabled={!preview || loading}
