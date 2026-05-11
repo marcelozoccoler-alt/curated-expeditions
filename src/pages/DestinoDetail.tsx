@@ -67,6 +67,20 @@ const DestinoDetail = () => {
       />
       <Header />
       <WhatsAppButton variant="float" />
+      <ImageRegenPanel
+        destinationId={destination.id}
+        defaultPrompt={destination.imageAiPrompt || `Ultra realistic editorial travel photo of ${destination.name}, ${destination.country}, golden hour, cinematic, no people.`}
+        currentImage={heroImage}
+        hasOverride={!!override}
+        onApply={(url) => {
+          setStoredOverride(destination.id, url);
+          setOverride(url);
+        }}
+        onReset={() => {
+          clearStoredOverride(destination.id);
+          setOverride(null);
+        }}
+      />
 
       {/* Hero */}
       <section className="relative h-[70vh] min-h-[500px] flex items-end overflow-hidden">
