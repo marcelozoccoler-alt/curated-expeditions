@@ -25,7 +25,9 @@ const Guia = () => {
 
   const whatsappLink = generateWhatsAppLink({
     type: "Roteiro",
-    name: niche.h1,
+    name: `Guia da ${niche.h1}`,
+    period: niche.bestTime,
+    duration: niche.idealDuration,
   });
 
   const faqLd = {
