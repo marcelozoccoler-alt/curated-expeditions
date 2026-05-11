@@ -307,7 +307,7 @@ const Guia = () => {
         </section>
       </main>
 
-      <WhatsAppButton variant="float" params={{ type: "Roteiro", name: niche.h1 }} />
+      <WhatsAppButton variant="float" params={{ type: "Roteiro", name: `Guia da ${niche.h1}`, period: niche.bestTime, duration: niche.idealDuration }} />
       <Footer />
     </>
   );
