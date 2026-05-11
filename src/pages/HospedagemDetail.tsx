@@ -10,6 +10,7 @@ import { FAQSection } from "@/components/FAQSection";
 import { StayCard } from "@/components/StayCard";
 import { SEO } from "@/components/SEO";
 import { getStayBySlug, stays as allStays } from "@/lib/stays";
+import { getStayImage } from "@/lib/stayImages";
 import { getDestinationBySlug, destinations } from "@/lib/destinations";
 import { getTagsByIds, CONTACT } from "@/lib/types";
 
@@ -32,6 +33,7 @@ const HospedagemDetail = () => {
 
   const tags = getTagsByIds(stay.tags);
   const heroImage =
+    getStayImage(stay.slug) ||
     stay.imageOverrideUrl ||
     `https://images.unsplash.com/photo-1566073771259-6a8506099945?w=1600&h=1000&fit=crop`;
 
