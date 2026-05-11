@@ -10,7 +10,7 @@ import { FAQSection } from "@/components/FAQSection";
 import { getNicheBySlug, getAllNiches } from "@/lib/niches";
 import { getDestinationBySlug } from "@/lib/destinations";
 import { stays } from "@/lib/stays";
-import { generateWhatsAppLink } from "@/lib/types";
+import { generateWhatsAppLink, buildWhatsAppMessage } from "@/lib/types";
 
 const Guia = () => {
   const { slug } = useParams<{ slug: string }>();
@@ -23,12 +23,14 @@ const Guia = () => {
     .filter(Boolean) as ReturnType<typeof getDestinationBySlug>[];
   const recommendedStays = stays.filter((s) => niche.staySlugs.includes(s.slug));
 
-  const whatsappLink = generateWhatsAppLink({
-    type: "Roteiro",
+  const whatsappParams = {
+    type: "Roteiro" as const,
     name: `Guia da ${niche.h1}`,
     period: niche.bestTime,
     duration: niche.idealDuration,
-  });
+  };
+  const whatsappLink = generateWhatsAppLink(whatsappParams);
+  const whatsappPreview = buildWhatsAppMessage(whatsappParams);
 
   const faqLd = {
     "@context": "https://schema.org",
@@ -159,6 +161,16 @@ const Guia = () => {
                   Cada roteiro nasce de uma conversa. Conte o período, quem viaja
                   e o que busca — desenhamos a partir daí.
                 </p>
+
+                <div className="mt-5 rounded-md border border-border bg-muted/40 p-4">
+                  <p className="text-[10px] uppercase tracking-[0.2em] text-muted-foreground mb-2">
+                    Prévia da mensagem
+                  </p>
+                  <p className="text-sm text-foreground/80 leading-relaxed font-light italic whitespace-pre-line">
+                    “{whatsappPreview}”
+                  </p>
+                </div>
+
                 <a
                   href={whatsappLink}
                   target="_blank"
@@ -166,7 +178,7 @@ const Guia = () => {
                   className="btn-accent w-full justify-center mt-6 inline-flex items-center gap-2"
                 >
                   <MessageCircle size={18} />
-                  Criar roteiro sob medida
+                  Criar roteiro em parceria
                 </a>
                 <Link
                   to="/contato"

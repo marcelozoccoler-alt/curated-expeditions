@@ -94,27 +94,31 @@ export interface WhatsAppParams {
   budget?: string;
 }
 
-export const generateWhatsAppLink = (params: WhatsAppParams): string => {
+export const buildWhatsAppMessage = (params: WhatsAppParams): string => {
   const { type, name = "", tags = [], period = "", duration = "", budget = "" } = params;
-  
+
   let message = `Olá, Create Travel! Quero criar um roteiro sob medida.`;
-  
+
   if (type !== "Geral") {
     message += ` Interesse: ${type}`;
     if (name) message += ` — ${name}`;
     message += ".";
   }
-  
+
   if (tags.length > 0) {
     const tagLabels = tags.map(getTagLabel).join(", ");
     message += ` Tags: ${tagLabels}.`;
   }
-  
+
   if (period) message += ` Período: ${period}.`;
   if (duration) message += ` Duração: ${duration}.`;
   if (budget) message += ` Orçamento estimado: ${budget}.`;
-  
-  const encodedMessage = encodeURIComponent(message.trim());
+
+  return message.trim();
+};
+
+export const generateWhatsAppLink = (params: WhatsAppParams): string => {
+  const encodedMessage = encodeURIComponent(buildWhatsAppMessage(params));
   return `https://wa.me/${CONTACT.whatsappNumber}?text=${encodedMessage}`;
 };
 
