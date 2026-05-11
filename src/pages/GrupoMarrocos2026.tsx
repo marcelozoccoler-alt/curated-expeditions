@@ -267,8 +267,9 @@ const GrupoMarrocos2026 = () => {
               Grupo Marrocos 2026
             </h1>
             <p className="text-xl md:text-2xl text-white/90 mb-8 font-light">
-              9 dias por Casablanca, Fez, Saara e Marrakech — em grupo pequeno,
-              com acompanhamento em português e curadoria Create Travel.
+              Cidades imperiais, Chefchaouen azul e noite no Saara — 9 dias por
+              Rabat, Fez, Merzouga, Vale do Dades e Marrakech, em grupo pequeno
+              com curadoria Create Travel.
             </p>
             <div className="flex flex-col sm:flex-row items-start sm:items-center gap-4">
               <WhatsAppButton
