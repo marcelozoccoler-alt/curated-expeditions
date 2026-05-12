@@ -38,13 +38,13 @@ Deno.serve(async (req) => {
       const text = await resp.text();
       console.error("AI gateway error", resp.status, text);
       if (resp.status === 429) {
-        return new Response(JSON.stringify({ error: "Limite de requisições atingido. Tente novamente em instantes." }), {
-          status: 429, headers: { ...corsHeaders, "Content-Type": "application/json" },
+        return new Response(JSON.stringify({ ok: false, reason: "rate_limited", error: "Limite de requisições atingido. Tente novamente em instantes." }), {
+          headers: { ...corsHeaders, "Content-Type": "application/json" },
         });
       }
       if (resp.status === 402) {
-        return new Response(JSON.stringify({ error: "Créditos esgotados no workspace Lovable AI." }), {
-          status: 402, headers: { ...corsHeaders, "Content-Type": "application/json" },
+        return new Response(JSON.stringify({ ok: false, reason: "credits_exhausted", error: "Créditos de IA esgotados. Você ainda pode enviar uma imagem do seu computador." }), {
+          headers: { ...corsHeaders, "Content-Type": "application/json" },
         });
       }
       return new Response(JSON.stringify({ error: "Falha ao gerar imagem." }), {

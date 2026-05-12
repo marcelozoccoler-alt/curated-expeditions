@@ -59,6 +59,10 @@ export const ImageRegenPanel = ({
         { body: { prompt } }
       );
       if (error) throw error;
+      if (data?.ok === false) {
+        toast.error(data.error || "Não foi possível gerar a imagem agora.");
+        return;
+      }
       if (data?.error) throw new Error(data.error);
       if (!data?.imageUrl) throw new Error("Sem imagem na resposta");
       setPreview(data.imageUrl);
