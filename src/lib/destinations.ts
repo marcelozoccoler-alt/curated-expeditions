@@ -444,6 +444,40 @@ export const destinations: Destination[] = [
       { q: "Como criar meu roteiro?", a: "Clique em Criar roteiro sob medida e conte período e preferências." }
     ]
   },
+  {
+    id: "brasil-cristalino",
+    continent: "Brasil",
+    country: "Brasil",
+    region: "Amazônia",
+    slug: "brasil/amazonia/cristalino",
+    name: "Cristalino (Alta Floresta, MT)",
+    bestTime: "Mai–Set (seca) para trilhas e observação de aves; Out–Abr para floresta exuberante e cheia de vida.",
+    tags: ["conservacao", "fotografia", "remoto", "trekking", "navegacao", "bem-estar"],
+    imageAiPrompt: "Ultra realistic aerial photo of the Cristalino River and pristine southern Amazon rainforest with canopy observation tower at golden hour, mist, editorial travel style, no people.",
+    imageOverrideUrl: "",
+    intro: "No sul da Amazônia mato-grossense, a Reserva Particular do Patrimônio Natural Cristalino guarda uma das florestas mais bem preservadas do bioma. Rio de águas escuras, biodiversidade rara e torres de observação acima da copa: uma das experiências de natureza mais profundas do Brasil.",
+    highlights: [
+      "Torres de observação a 50m acima da copa da floresta",
+      "Navegação pelo Rio Cristalino e seus afluentes",
+      "Trilhas interpretativas com guias naturalistas",
+      "Observação de aves raras (mais de 600 espécies)",
+      "Avistamento de primatas e fauna amazônica"
+    ],
+    beyondUsual: [
+      "Amanhecer no topo da torre, com a floresta despertando em camadas de som.",
+      "Saídas dedicadas à fotografia de fauna com guias especializados.",
+      "Imersão em projeto de conservação ativo — viagem com propósito real."
+    ],
+    stays: [],
+    faq: [
+      { q: "Qual a melhor época para visitar?", a: "Maio a setembro (seca) facilita trilhas e observação; a estação chuvosa traz floresta mais exuberante." },
+      { q: "Quantos dias devo ficar?", a: "Mínimo de 4 noites para aproveitar trilhas, rio e torres com tranquilidade." },
+      { q: "Como chegar?", a: "Voo até Alta Floresta (MT) e transfer terrestre + barco até o lodge." },
+      { q: "É indicado para birdwatchers?", a: "Sim, é um dos destinos mais cobiçados do mundo para observação de aves." },
+      { q: "Dá para ir com crianças?", a: "Sim, com atividades ajustadas à idade e ritmo familiar." },
+      { q: "Como criar meu roteiro?", a: "Clique em Criar roteiro sob medida e conte período e preferências." }
+    ]
+  },
 
   // ===== ÁFRICA =====
   {
