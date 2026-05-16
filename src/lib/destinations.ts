@@ -1,6 +1,7 @@
 import { Destination } from "./types";
 import monteRoraimaImg from "@/assets/destinations/brasil-monte-roraima.jpg";
 import festivalParintinsImg from "@/assets/destinations/brasil-amazonia-festival-parintins.jpg";
+import manausRioNegroImg from "@/assets/destinations/brasil-amazonia-manaus-rio-negro.jpg";
 
 export const destinations: Destination[] = [
   // ===== BRASIL =====
@@ -48,7 +49,7 @@ export const destinations: Destination[] = [
     bestTime: "Jun–Nov (seca) para trilhas e praias de rio; Dez–Mai (cheia) para igapós e grandes navegadas.",
     tags: ["navegacao", "cultura", "gastronomia", "fotografia", "bem-estar"],
     imageAiPrompt: "Ultra realistic photo of Rio Negro at sunset with calm waters and rainforest horizon, cinematic editorial travel style, no people.",
-    imageOverrideUrl: "",
+    imageOverrideUrl: manausRioNegroImg,
     intro: "A porta de entrada para uma Amazônia com camadas: cidade, rio e floresta. A Create Travel equilibra cultura e natureza com logística suave e experiências de verdade.",
     highlights: [
       "Encontro das Águas",
