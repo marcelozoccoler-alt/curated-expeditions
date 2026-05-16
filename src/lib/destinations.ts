@@ -410,6 +410,40 @@ export const destinations: Destination[] = [
       { q: "Como criar roteiro?", a: "Clique em Criar roteiro sob medida." }
     ]
   },
+  {
+    id: "brasil-serra-da-capivara",
+    continent: "Brasil",
+    country: "Brasil",
+    region: "Nordeste",
+    slug: "brasil/nordeste/serra-da-capivara",
+    name: "Serra da Capivara (PI)",
+    bestTime: "Mai–Set (seca) para trilhas confortáveis e luz cinematográfica nos paredões.",
+    tags: ["cultura", "fotografia", "trekking", "remoto", "conservacao"],
+    imageAiPrompt: "Ultra realistic editorial photo of Serra da Capivara National Park in Piauí, Brazil, sandstone cliffs at golden hour with prehistoric rock paintings, caatinga landscape, cinematic light, no people.",
+    imageOverrideUrl: "",
+    intro: "Serra da Capivara é um dos sítios arqueológicos mais importantes do mundo: paredões de arenito esculpidos pelo tempo guardam pinturas rupestres com mais de 25 mil anos. Uma viagem rara, de profundidade histórica e paisagens de cinema na caatinga piauiense.",
+    highlights: [
+      "Pinturas rupestres milenares em sítios ao ar livre",
+      "Trilhas pelos cânions e boqueirões de arenito",
+      "Museu do Homem Americano em São Raimundo Nonato",
+      "Pôr do sol no Desfiladeiro da Capivara",
+      "Visita ao Museu da Natureza"
+    ],
+    beyondUsual: [
+      "Guia local com leitura aprofundada das pinturas e contexto arqueológico.",
+      "Saídas fotográficas ao amanhecer e ao entardecer, quando a luz revela texturas.",
+      "Encontro com ceramistas da Cerâmica Serra da Capivara — design contemporâneo com raízes ancestrais."
+    ],
+    stays: [],
+    faq: [
+      { q: "Qual a melhor época para visitar?", a: "Entre maio e setembro, na seca, com clima mais ameno e trilhas confortáveis." },
+      { q: "Quantos dias devo ficar?", a: "3 a 4 noites permitem visitar os principais sítios sem pressa." },
+      { q: "Como chegar?", a: "Voo até Teresina (PI) ou Petrolina (PE) e transfer rodoviário até São Raimundo Nonato." },
+      { q: "É adequado para crianças?", a: "Sim, com trilhas selecionadas conforme idade e ritmo." },
+      { q: "Preciso de guia?", a: "Sim, a entrada nos sítios é obrigatoriamente acompanhada por guia credenciado." },
+      { q: "Como criar meu roteiro?", a: "Clique em Criar roteiro sob medida e conte período e preferências." }
+    ]
+  },
 
   // ===== ÁFRICA =====
   {
