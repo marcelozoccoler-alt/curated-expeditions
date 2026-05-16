@@ -1,4 +1,5 @@
 import { Destination } from "./types";
+import monteRoraimaImg from "@/assets/destinations/brasil-monte-roraima.jpg";
 
 export const destinations: Destination[] = [
   // ===== BRASIL =====
@@ -284,7 +285,7 @@ export const destinations: Destination[] = [
     bestTime: "Dez–Mar (estação seca) — trilhas mais seguras e vistas abertas.",
     tags: ["trekking", "remoto", "fotografia", "expedicao", "natureza"],
     imageAiPrompt: "Ultra realistic photo of Monte Roraima tepui plateau, dramatic flat-topped sandstone mountain rising from cloud forest, mist, golden hour, no people.",
-    imageOverrideUrl: "",
+    imageOverrideUrl: monteRoraimaImg,
     intro: "O tepui mais icônico da América do Sul: um platô pré-cambriano suspenso entre nuvens, com formações rochosas e ecossistemas únicos no planeta.",
     highlights: [
       "Travessia de 6 a 8 dias até o platô",
