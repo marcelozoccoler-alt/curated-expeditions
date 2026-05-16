@@ -241,6 +241,40 @@ export const destinations: Destination[] = [
     ]
   },
   {
+    id: "brasil-monte-roraima",
+    continent: "Brasil",
+    country: "Brasil",
+    region: "Roraima",
+    slug: "brasil/monte-roraima",
+    name: "Monte Roraima",
+    bestTime: "Dez–Mar (estação seca) — trilhas mais seguras e vistas abertas.",
+    tags: ["trekking", "remoto", "fotografia", "expedicao", "natureza"],
+    imageAiPrompt: "Ultra realistic photo of Monte Roraima tepui plateau, dramatic flat-topped sandstone mountain rising from cloud forest, mist, golden hour, no people.",
+    imageOverrideUrl: "",
+    intro: "O tepui mais icônico da América do Sul: um platô pré-cambriano suspenso entre nuvens, com formações rochosas e ecossistemas únicos no planeta.",
+    highlights: [
+      "Travessia de 6 a 8 dias até o platô",
+      "Vale dos Cristais e jacuzzis naturais",
+      "Vistas para a tríplice fronteira",
+      "Flora endêmica e formações rochosas surreais",
+      "Acampamentos sob paredões de 400m"
+    ],
+    beyondUsual: [
+      "Saída pelo lado brasileiro com guias indígenas Pemón.",
+      "Extensão para a Gran Sabana venezuelana.",
+      "Sessões de astrofotografia no platô."
+    ],
+    stays: [],
+    faq: [
+      { q: "É uma expedição difícil?", a: "Sim, exige bom condicionamento físico e disposição para acampar." },
+      { q: "Quantos dias dura a travessia?", a: "Em média 6 a 8 dias completos com guia." },
+      { q: "Precisa de equipamento técnico?", a: "Não é escalada, mas requer equipamento de trekking completo." },
+      { q: "Qual é o ponto de partida?", a: "Pacaraima (RR) no lado brasileiro ou Santa Elena (Venezuela)." },
+      { q: "É indicado para iniciantes?", a: "Não. Recomendamos experiência prévia em trekkings longos." },
+      { q: "Como criar roteiro?", a: "Clique em Criar roteiro sob medida." }
+    ]
+  },
+  {
     id: "brasil-chapada-diamantina",
     continent: "Brasil",
     country: "Brasil",
