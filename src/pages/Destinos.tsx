@@ -280,7 +280,13 @@ const Destinos = () => {
             {CONTINENTS.map((c) => (
               <button
                 key={c.id}
-                onClick={() => setContinent(c.id)}
+                onClick={() => {
+                  if (c.id === "brasil") {
+                    navigate("/brasil");
+                  } else {
+                    setContinent(c.id);
+                  }
+                }}
                 className={`tag ${continent === c.id ? "tag-active" : ""}`}
               >
                 {c.name}
