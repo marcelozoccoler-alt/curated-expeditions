@@ -15,6 +15,8 @@ import Contato from "./pages/Contato";
 import Guia, { GuiasIndex } from "./pages/Guia";
 import Regiao from "./pages/Regiao";
 import GrupoMarrocos2026 from "./pages/GrupoMarrocos2026";
+import BrasilEstados from "./pages/BrasilEstados";
+import BrasilEstado from "./pages/BrasilEstado";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
@@ -38,6 +40,9 @@ const App = () => (
         <Route path="/guias" element={<GuiasIndex />} />
         <Route path="/guias/:slug" element={<Guia />} />
         <Route path="/grupos/marrocos-2026" element={<GrupoMarrocos2026 />} />
+          {/* Brasil hierarchical navigation — must come before /:regionSlug */}
+          <Route path="/brasil" element={<BrasilEstados />} />
+          <Route path="/brasil/:estadoSlug" element={<BrasilEstado />} />
           {/* SEO short-URL regional landings — keep as last specific dynamic route before catch-all */}
           <Route path="/:regionSlug" element={<Regiao />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}

@@ -1,5 +1,5 @@
 import { useEffect, useMemo, useRef, useState } from "react";
-import { useSearchParams } from "react-router-dom";
+import { useNavigate, useSearchParams } from "react-router-dom";
 import { Search, X } from "lucide-react";
 import { motion } from "framer-motion";
 import { Header } from "@/components/Header";
@@ -97,6 +97,7 @@ const buildPageRange = (current: number, total: number): (number | "…")[] => {
 
 const Destinos = () => {
   const [searchParams, setSearchParams] = useSearchParams();
+  const navigate = useNavigate();
   const resultsRef = useRef<HTMLDivElement>(null);
 
   const continent = searchParams.get("c") || "todos";
@@ -279,7 +280,13 @@ const Destinos = () => {
             {CONTINENTS.map((c) => (
               <button
                 key={c.id}
-                onClick={() => setContinent(c.id)}
+                onClick={() => {
+                  if (c.id === "brasil") {
+                    navigate("/brasil");
+                  } else {
+                    setContinent(c.id);
+                  }
+                }}
                 className={`tag ${continent === c.id ? "tag-active" : ""}`}
               >
                 {c.name}

@@ -1,58 +1,59 @@
-# Paginação e ordenação em /destinos
+## Objetivo
 
-Adicionar ordenação (popularidade, melhor época, ordem editorial) e paginação à página de listagem de destinos, sem alterar os filtros atuais (continente, tags, busca).
-
-## O que muda
-
-**Página afetada:** `src/pages/Destinos.tsx` (única página tocada)
-
-### 1. Ordenação
-
-Novo seletor "Ordenar por" ao lado dos contadores de resultados, com 3 opções:
-
-- **Curadoria Create Travel** (padrão) — mantém a ordem editorial atual do arquivo `destinations.ts` (Brasil → América do Sul → África → …)
-- **Popularidade** — destinos em destaque (`getFeaturedDestinations`) primeiro, depois os demais na ordem editorial
-- **Melhor época para ir** — agrupa por mês inicial mencionado em `bestTime`, priorizando destinos cuja melhor janela inclui o mês atual; os demais seguem em ordem cronológica do calendário
-
-A ordenação é aplicada **depois** dos filtros, então sempre reflete o resultado atual.
-
-### 2. Paginação
-
-- **12 destinos por página** (4 linhas no grid de 3 colunas no desktop)
-- Controles na base da grade: botões "Anterior / Próxima" + numeração (com elipses para muitas páginas, ex: `1 … 4 5 [6] 7 8 … 12`)
-- Indicador textual: "Mostrando 1–12 de 37"
-- Ao trocar página, scroll suave volta ao topo da seção de resultados
-- Página atual reseta para 1 sempre que filtros, busca ou ordenação mudam
-- Quando há ≤12 resultados, os controles ficam ocultos
-
-### 3. Estado sincronizado com a URL (query string)
-
-Para permitir compartilhar links e voltar/avançar no navegador:
-
-- `?page=2&sort=popularidade&c=brasil&tags=safari,trekking&q=anavilhanas`
-- Lê os parâmetros ao montar e mantém em sincronia com `useSearchParams`
-
-## Layout
+Quando o usuário clicar em **Brasil**, ao invés de ver todos os destinos brasileiros de uma vez, ele verá uma navegação em camadas:
 
 ```text
-┌─────────────────────────────────────────────────────────┐
-│ 24 destinos encontrados        [Ordenar por: Curadoria▾]│
-├─────────────────────────────────────────────────────────┤
-│  [card] [card] [card]                                   │
-│  [card] [card] [card]                                   │
-│  [card] [card] [card]                                   │
-│  [card] [card] [card]                                   │
-├─────────────────────────────────────────────────────────┤
-│ Mostrando 1–12 de 24      ‹ 1 [2] ›                     │
-└─────────────────────────────────────────────────────────┘
+Brasil  →  Estados  →  Destinos do estado  →  Roteiro / detalhe do destino
 ```
+
+Isso reduz a sobrecarga visual da seção Brasil (que hoje tem ~20 destinos listados de uma só vez).
+
+## Como vai funcionar
+
+### 1. Clique em "Brasil"
+Nova página `/destinos/brasil` mostrando um **grid de estados** (cards visuais), agrupados por macro-região para facilitar a leitura:
+
+- **Norte**: Amazonas, Pará, Tocantins
+- **Nordeste**: Bahia, Ceará, Pernambuco, Piauí, Maranhão
+- **Centro-Oeste**: Mato Grosso, Mato Grosso do Sul, Goiás
+- **Sudeste**: Rio de Janeiro
+- **Sul**: Paraná, Rio Grande do Sul
+
+Cada card de estado mostra: imagem representativa, nome do estado, nº de destinos disponíveis.
+
+### 2. Clique em um estado (ex: "Bahia")
+Nova página `/destinos/brasil/:estado` listando apenas os destinos daquele estado:
+- Bahia → Chapada Diamantina, Salvador, Boipeba, Maraú
+- Amazonas → Anavilhanas, Manaus & Rio Negro
+- etc.
+
+### 3. Clique em um destino
+Vai para a página de detalhe já existente (`/destinos/:slug`), que já mostra o roteiro, FAQ, CTA de WhatsApp, etc. **Sem alteração** nesta camada.
+
+### Onde entra na navegação
+
+Na página principal `/destinos`, o filtro "Brasil" no topo passa a levar para `/destinos/brasil` (grid de estados) em vez de filtrar a lista direta. Os demais continentes (Europa, Ásia etc.) continuam funcionando como filtro normal — a mudança é exclusiva do Brasil.
 
 ## Detalhes técnicos
 
-- Usar `useSearchParams` do `react-router-dom` (já instalado) para persistir estado na URL
-- Ordenação implementada em um `useMemo` separado, encadeado após o `useMemo` de filtros
-- Paginação puramente cliente — `slice(start, end)` sobre o array ordenado
-- Reaproveitar `Select` de `@/components/ui/select` (shadcn) para o dropdown de ordenação
-- Reaproveitar `Pagination` de `@/components/ui/pagination` (shadcn) para os controles
-- Para "melhor época": parser simples mapeia abreviações PT (`Jan, Fev, Mar, Abr, Mai, Jun, Jul, Ago, Set, Out, Nov, Dez`) presentes no campo `bestTime` para o número do mês; destinos sem match caem no fim com ordem editorial preservada
-- Nenhuma mudança em `destinations.ts`, tipos, ou outras páginas
+**Dados**
+- Adicionar campo opcional `state` em cada destino brasileiro em `src/lib/destinations.ts` (já temos `region` mas é misto — alguns usam macrorregião "Nordeste", outros estado "Bahia"). Preencher para cada um dos ~20 destinos.
+- Criar `src/lib/brazilStates.ts` com a lista de estados (slug, nome, macrorregião, imagem hero, kicker).
+
+**Rotas (em `App.tsx`)**
+- `/destinos/brasil` → nova página `BrasilEstados.tsx` (grid de estados agrupado por macrorregião)
+- `/destinos/brasil/:estadoSlug` → nova página `BrasilEstado.tsx` (destinos do estado)
+- Breadcrumbs: Home › Destinos › Brasil › Bahia › Chapada Diamantina
+
+**Componentes**
+- Reaproveitar o estilo de card já usado em `Regiao.tsx` e `DestinationCard.tsx`.
+- Header, Footer, SEO, WhatsApp CTA seguem padrão atual.
+
+**Página `/destinos`**
+- Pequeno ajuste no filtro de continente: clicando em "Brasil", navegar para `/destinos/brasil` em vez de aplicar filtro inline.
+
+## Fora do escopo
+
+- Não mexer em destinos de outros continentes.
+- Não alterar página de detalhe do destino (`DestinoDetail.tsx`).
+- Não alterar hospedagens nem páginas de região existentes (Amazônia, Pantanal etc. continuam funcionando como hoje em `/amazonia`, `/pantanal`).
