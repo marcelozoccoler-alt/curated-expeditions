@@ -139,6 +139,40 @@ export const destinations: Destination[] = [
     ]
   },
   {
+    id: "brasil-chapada-das-mesas",
+    continent: "Brasil",
+    country: "Brasil",
+    region: "Maranhão",
+    slug: "brasil/chapada-das-mesas",
+    name: "Chapada das Mesas",
+    bestTime: "Jun–Set (seca) para trilhas e estradas; cachoeiras cheias entre Dez–Mar.",
+    tags: ["natureza", "trekking", "fotografia", "remoto", "aventura"],
+    imageAiPrompt: "Ultra realistic photo of Chapada das Mesas in Maranhão, Brazil: dramatic flat-topped mesas at sunset, golden light, cerrado vegetation, waterfalls, cinematic landscape, no people.",
+    imageOverrideUrl: "",
+    intro: "Mesas de arenito recortando o cerrado, cachoeiras escondidas e um silêncio quase irreal. Um Maranhão alternativo aos Lençóis — ainda pouco explorado.",
+    highlights: [
+      "Mirante do Portal da Chapada ao pôr do sol",
+      "Cachoeira do Santuário e Encanto Azul",
+      "Poço Azul e suas águas translúcidas",
+      "Cachoeira de São Romão, uma das maiores do Brasil",
+      "Trilhas e mirantes com vistas cinematográficas"
+    ],
+    beyondUsual: [
+      "Pernoites em pousadas de charme em Carolina (MA).",
+      "Combinação com Jalapão por estrada cênica.",
+      "Saídas privativas com guias locais em horários sem fluxo."
+    ],
+    stays: [],
+    faq: [
+      { q: "Qual a melhor época?", a: "Jun–Set para trilhas secas; Dez–Mar para cachoeiras mais cheias." },
+      { q: "Onde se hospedar?", a: "Carolina (MA) é a base principal, com pousadas charmosas." },
+      { q: "Dá para combinar com Lençóis Maranhenses?", a: "Sim, mas exige logística — orientamos sobre voos e traslados." },
+      { q: "Dá para combinar com Jalapão?", a: "Sim, é uma das combinações mais ricas do Brasil." },
+      { q: "Precisa de preparo físico?", a: "Trilhas variam de leves a moderadas; adaptamos ao seu ritmo." },
+      { q: "Como criar roteiro?", a: "Clique em Criar roteiro sob medida." }
+    ]
+  },
+  {
     id: "brasil-amazonia-alter-do-chao",
     continent: "Brasil",
     country: "Brasil",
