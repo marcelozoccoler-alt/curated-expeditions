@@ -38,6 +38,9 @@ export const brazilStates: BrazilState[] = [
     destinationSlugs: [
       "brasil/amazonia/anavilhanas",
       "brasil/amazonia/manaus-rio-negro",
+      "brasil/amazonia/mamiraua-uacari",
+      "brasil/amazonia/katerre",
+      "brasil/amazonia/festival-parintins",
     ],
   },
   {
@@ -55,6 +58,8 @@ export const brazilStates: BrazilState[] = [
     destinationSlugs: [
       "brasil/amazonia/alter-do-chao",
       "brasil/amazonia/belem-marajo",
+      "brasil/amazonia/kaiara-alter-do-chao",
+      "brasil/amazonia/festival-caire",
     ],
   },
   {
@@ -131,6 +136,7 @@ export const brazilStates: BrazilState[] = [
       "brasil/litoral-cearense",
       "brasil/jericoacoara",
       "brasil/nordeste/rota-das-emocoes",
+      "brasil/nordeste/rota-falesias-fortaleza-natal",
     ],
   },
   {
@@ -145,7 +151,10 @@ export const brazilStates: BrazilState[] = [
       "Rio Grande do Norte com curadoria Create Travel: Pipa, Galinhos e litoral potiguar.",
     heroImageUrl:
       "https://images.unsplash.com/photo-1582719471327-19657df0ff67?w=1920&h=1080&fit=crop",
-    destinationSlugs: ["brasil/litoral-rio-grande-do-norte"],
+    destinationSlugs: [
+      "brasil/litoral-rio-grande-do-norte",
+      "brasil/nordeste/rota-falesias-fortaleza-natal",
+    ],
   },
   {
     slug: "paraiba",
@@ -210,6 +219,8 @@ export const brazilStates: BrazilState[] = [
       "brasil/nordeste/boipeba",
       "brasil/nordeste/marau",
       "brasil/litoral-baiano",
+      "brasil/bahia/abrolhos-costa-descobrimento",
+      "brasil/nordeste/canyons-xingo",
     ],
   },
 
@@ -229,6 +240,8 @@ export const brazilStates: BrazilState[] = [
     destinationSlugs: [
       "brasil/pantanal/norte",
       "brasil/amazonia/cristalino",
+      "brasil/mato-grosso/tres-ecossistemas",
+      "brasil/mato-grosso/serra-do-roncador",
     ],
   },
   {
@@ -257,7 +270,10 @@ export const brazilStates: BrazilState[] = [
       "Goiás com curadoria Create Travel: Chapada dos Veadeiros.",
     heroImageUrl:
       "https://images.unsplash.com/photo-1582719471327-19657df0ff67?w=1920&h=1080&fit=crop",
-    destinationSlugs: ["brasil/chapada-dos-veadeiros"],
+    destinationSlugs: [
+      "brasil/chapada-dos-veadeiros",
+      "brasil/goias/pirenopolis",
+    ],
   },
 
   // ===== SUDESTE =====
