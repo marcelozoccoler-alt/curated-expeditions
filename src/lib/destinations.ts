@@ -1130,6 +1130,40 @@ export const destinations: Destination[] = [
       { q: "Como criar roteiro?", a: "Clique em Criar roteiro sob medida." }
     ]
   },
+  {
+    id: "europa-turquia",
+    continent: "Europa",
+    country: "Turquia",
+    region: "Istambul & Capadócia",
+    slug: "europa/turquia/istambul-capadocia",
+    name: "Turquia (Istambul & Capadócia)",
+    bestTime: "Abr–Jun e Set–Out, com clima ameno e luz ideal para balonismo na Capadócia.",
+    tags: ["cultura", "gastronomia", "fotografia", "bem-estar"],
+    imageAiPrompt: "Ultra realistic editorial photo of Cappadocia at sunrise with hot air balloons floating over fairy chimney rock formations, pastel sky, cinematic light, no people.",
+    imageOverrideUrl: "",
+    intro: "Encontro entre Oriente e Ocidente: Istambul pulsa com mercados, mesquitas e o Bósforo, enquanto a Capadócia revela paisagens surreais de chaminés de fada e voos de balão ao amanhecer. Uma viagem de história, arte e atmosfera.",
+    highlights: [
+      "Hagia Sophia, Mesquita Azul e Topkapi em Istambul",
+      "Grande Bazar e Bazar das Especiarias",
+      "Cruzeiro pelo Bósforo",
+      "Voo de balão sobre a Capadócia ao amanhecer",
+      "Cidades subterrâneas e hotéis-caverna"
+    ],
+    beyondUsual: [
+      "Roteiro gastronômico em Istambul com chef local, fora dos circuitos turísticos.",
+      "Visita a ateliê de cerâmica em Avanos com mestre ceramista.",
+      "Caminhada privada pelos vales da Capadócia ao pôr do sol."
+    ],
+    stays: [],
+    faq: [
+      { q: "Qual a melhor época para o balão na Capadócia?", a: "Abril a outubro têm maior frequência de voos; o clima de primavera e outono é o mais confortável." },
+      { q: "Quantos dias devo ficar?", a: "8 a 10 noites para combinar Istambul, Capadócia e uma extensão (Éfeso ou Costa Turquesa)." },
+      { q: "Preciso de visto?", a: "Brasileiros não precisam de visto para turismo de curta duração." },
+      { q: "Como me deslocar entre cidades?", a: "Voos domésticos curtos e frequentes, com transfers privados na chegada." },
+      { q: "Dá para ir com crianças?", a: "Sim, com atividades selecionadas — hotéis-caverna e balões encantam." },
+      { q: "Como criar meu roteiro?", a: "Clique em Criar roteiro sob medida." }
+    ]
+  },
 
   // ===== ÁSIA =====
   {
