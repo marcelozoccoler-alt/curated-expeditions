@@ -1744,40 +1744,6 @@ export const destinations: Destination[] = [
       { q: "Como criar meu roteiro?", a: "Clique em Criar roteiro sob medida." }
     ]
   },
-  {
-    id: "asia-dubai",
-    continent: "Ásia",
-    country: "Emirados Árabes Unidos",
-    region: "Golfo Pérsico",
-    slug: "asia/emirados/dubai",
-    name: "Dubai",
-    bestTime: "Nov–Mar, com clima ameno para cidade, deserto e praia.",
-    tags: ["gastronomia", "cultura", "praia", "deserto", "familia", "fotografia"],
-    imageAiPrompt: "Ultra realistic aerial photo of Dubai at golden hour with Burj Khalifa rising from desert, Palm Jumeirah and turquoise gulf waters, warm amber light, editorial travel style, no people.",
-    imageOverrideUrl: "",
-    intro: "Onde o deserto encontra o futuro: arranha-céus icônicos, dunas douradas, gastronomia globalmente premiada e hospitalidade de outro patamar. Dubai é destino completo — e excelente porta de entrada ou stopover para Ásia e África.",
-    highlights: [
-      "Burj Khalifa e vista do Observation Deck",
-      "Safári no deserto com jantar beduíno",
-      "Souks de ouro e especiarias em Deira",
-      "Palm Jumeirah e praias do Golfo",
-      "Cena gastronômica com chefs renomados"
-    ],
-    beyondUsual: [
-      "Voo de balão sobre o deserto ao amanhecer, com café da manhã na areia.",
-      "Visita privada ao Museum of the Future com curador.",
-      "Experiência gastronômica omakase em rooftop com vista para o Burj Khalifa."
-    ],
-    stays: [],
-    faq: [
-      { q: "Qual a melhor época para visitar?", a: "Novembro a março, com clima ameno; evite jun–ago pelo calor extremo." },
-      { q: "Quantos dias devo ficar?", a: "4 a 6 noites para cidade, deserto e praia; ideal como destino único ou stopover." },
-      { q: "Preciso de visto?", a: "Brasileiros recebem visto na chegada para turismo." },
-      { q: "Dá para combinar com outros destinos?", a: "Sim, é stopover natural para Maldivas, Sudeste Asiático ou África Oriental." },
-      { q: "É bom para famílias?", a: "Sim, com excelente infraestrutura, parques e atividades para todas as idades." },
-      { q: "Como criar meu roteiro?", a: "Clique em Criar roteiro sob medida." }
-    ]
-  },
 
   // ===== OCEANIA =====
   {
