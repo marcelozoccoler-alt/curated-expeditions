@@ -38,6 +38,9 @@ export const brazilStates: BrazilState[] = [
     destinationSlugs: [
       "brasil/amazonia/anavilhanas",
       "brasil/amazonia/manaus-rio-negro",
+      "brasil/amazonia/mamiraua-uacari",
+      "brasil/amazonia/katerre",
+      "brasil/amazonia/festival-parintins",
     ],
   },
   {
@@ -55,6 +58,8 @@ export const brazilStates: BrazilState[] = [
     destinationSlugs: [
       "brasil/amazonia/alter-do-chao",
       "brasil/amazonia/belem-marajo",
+      "brasil/amazonia/kaiara-alter-do-chao",
+      "brasil/amazonia/festival-caire",
     ],
   },
   {
@@ -64,12 +69,12 @@ export const brazilStates: BrazilState[] = [
     macroregion: "Norte",
     kicker: "Norte • Brasil",
     intro:
-      "Cerrado dramático com cachoeiras, fervedouros e dunas alaranjadas no coração do Jalapão.",
+      "Cerrado dramático com cachoeiras, fervedouros e dunas alaranjadas no Jalapão — e o Parque do Cantão, onde Amazônia, Cerrado e Pantanal se encontram.",
     metaDescription:
-      "Tocantins com curadoria Create Travel: Jalapão, fervedouros e cachoeiras.",
+      "Tocantins com curadoria Create Travel: Jalapão e Parque Estadual do Cantão.",
     heroImageUrl:
       "https://images.unsplash.com/photo-1605649461784-edc01e9b2d1f?w=1920&h=1080&fit=crop",
-    destinationSlugs: ["brasil/jalapao"],
+    destinationSlugs: ["brasil/jalapao", "brasil/tocantins/parque-cantao"],
   },
   {
     slug: "roraima",
@@ -131,6 +136,7 @@ export const brazilStates: BrazilState[] = [
       "brasil/litoral-cearense",
       "brasil/jericoacoara",
       "brasil/nordeste/rota-das-emocoes",
+      "brasil/nordeste/rota-falesias-fortaleza-natal",
     ],
   },
   {
@@ -145,7 +151,10 @@ export const brazilStates: BrazilState[] = [
       "Rio Grande do Norte com curadoria Create Travel: Pipa, Galinhos e litoral potiguar.",
     heroImageUrl:
       "https://images.unsplash.com/photo-1582719471327-19657df0ff67?w=1920&h=1080&fit=crop",
-    destinationSlugs: ["brasil/litoral-rio-grande-do-norte"],
+    destinationSlugs: [
+      "brasil/litoral-rio-grande-do-norte",
+      "brasil/nordeste/rota-falesias-fortaleza-natal",
+    ],
   },
   {
     slug: "paraiba",
@@ -210,7 +219,23 @@ export const brazilStates: BrazilState[] = [
       "brasil/nordeste/boipeba",
       "brasil/nordeste/marau",
       "brasil/litoral-baiano",
+      "brasil/bahia/abrolhos-costa-descobrimento",
+      "brasil/nordeste/canyons-xingo",
     ],
+  },
+  {
+    slug: "sergipe",
+    uf: "SE",
+    name: "Sergipe",
+    macroregion: "Nordeste",
+    kicker: "Nordeste • Brasil",
+    intro:
+      "O São Francisco em sua forma mais cinematográfica: paredões de até 80 metros nos Cânions do Xingó.",
+    metaDescription:
+      "Sergipe com curadoria Create Travel: Cânions do Xingó e São Francisco.",
+    heroImageUrl:
+      "https://images.unsplash.com/photo-1582719471327-19657df0ff67?w=1920&h=1080&fit=crop",
+    destinationSlugs: ["brasil/nordeste/canyons-xingo"],
   },
 
   // ===== CENTRO-OESTE =====
@@ -229,6 +254,8 @@ export const brazilStates: BrazilState[] = [
     destinationSlugs: [
       "brasil/pantanal/norte",
       "brasil/amazonia/cristalino",
+      "brasil/mato-grosso/tres-ecossistemas",
+      "brasil/mato-grosso/serra-do-roncador",
     ],
   },
   {
@@ -257,7 +284,10 @@ export const brazilStates: BrazilState[] = [
       "Goiás com curadoria Create Travel: Chapada dos Veadeiros.",
     heroImageUrl:
       "https://images.unsplash.com/photo-1582719471327-19657df0ff67?w=1920&h=1080&fit=crop",
-    destinationSlugs: ["brasil/chapada-dos-veadeiros"],
+    destinationSlugs: [
+      "brasil/chapada-dos-veadeiros",
+      "brasil/goias/pirenopolis",
+    ],
   },
 
   // ===== SUDESTE =====
@@ -305,6 +335,26 @@ export const brazilStates: BrazilState[] = [
     heroImageUrl:
       "https://images.unsplash.com/photo-1559128010-7c1ad6e1b6a5?w=1920&h=1080&fit=crop",
     destinationSlugs: ["brasil/litoral-espirito-santo"],
+  },
+  {
+    slug: "minas-gerais",
+    uf: "MG",
+    name: "Minas Gerais",
+    macroregion: "Sudeste",
+    kicker: "Sudeste • Brasil",
+    intro:
+      "Barroco mineiro, cerrado dramático, cavernas catedrais e a melhor gastronomia do Brasil. Da Estrada Real ao Peruaçu, com tempo para sentir.",
+    metaDescription:
+      "Minas Gerais com curadoria Create Travel: Estrada Real, Serra do Cipó, Canastra, Peruaçu, Cidades Históricas e Inhotim.",
+    heroImageUrl:
+      "https://images.unsplash.com/photo-1558981852-426c6c22a060?w=1920&h=1080&fit=crop",
+    destinationSlugs: [
+      "brasil/minas-gerais/estrada-real",
+      "brasil/minas-gerais/cidades-historicas-inhotim",
+      "brasil/minas-gerais/serra-do-cipo",
+      "brasil/minas-gerais/serra-da-canastra",
+      "brasil/minas-gerais/cavernas-do-peruacu",
+    ],
   },
 
   // ===== SUL =====
