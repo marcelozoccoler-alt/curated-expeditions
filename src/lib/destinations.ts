@@ -786,6 +786,40 @@ export const destinations: Destination[] = [
       { q: "Como criar roteiro?", a: "Clique em Criar roteiro sob medida." }
     ]
   },
+  {
+    id: "africa-egito",
+    continent: "África",
+    country: "Egito",
+    region: "Cairo, Luxor & Nilo",
+    slug: "africa/egito/nilo",
+    name: "Egito (Nilo, Cairo & Luxor)",
+    bestTime: "Out–Abr, com clima ameno para visitar templos, pirâmides e navegar o Nilo.",
+    tags: ["cultura", "navegacao", "fotografia", "deserto", "familia"],
+    imageAiPrompt: "Ultra realistic editorial photo of the Pyramids of Giza at golden hour with warm desert sands and painterly sky, cinematic depth, no identifiable people.",
+    imageOverrideUrl: "",
+    intro: "Civilização que atravessa milênios: pirâmides, templos colossais e o Nilo como fio condutor. Uma viagem de profundidade histórica, com cruzeiros entre Luxor e Aswan e bases urbanas no Cairo.",
+    highlights: [
+      "Pirâmides de Gizé e Esfinge",
+      "Museu Egípcio e Grand Egyptian Museum",
+      "Cruzeiro pelo Nilo entre Luxor e Aswan",
+      "Vale dos Reis e Templo de Karnak",
+      "Templos de Abu Simbel"
+    ],
+    beyondUsual: [
+      "Visita privada às pirâmides ao amanhecer, antes da abertura ao público.",
+      "Dahabiya (veleiro tradicional) em vez de cruzeiro convencional — ritmo lento e exclusivo.",
+      "Encontro com egiptólogo para leitura aprofundada dos hieróglifos no Vale dos Reis."
+    ],
+    stays: [],
+    faq: [
+      { q: "Qual a melhor época para visitar?", a: "Outubro a abril, com temperaturas amenas; evite o verão (jun–ago)." },
+      { q: "Quantos dias devo ficar?", a: "10 a 12 noites para combinar Cairo, cruzeiro no Nilo e Abu Simbel." },
+      { q: "Cruzeiro ou dahabiya?", a: "Dahabiyas oferecem experiência mais íntima e cuidada; cruzeiros têm logística mais simples." },
+      { q: "Preciso de visto?", a: "Sim, mas o e-visa é simples e rápido para brasileiros." },
+      { q: "É seguro?", a: "Sim, com itinerários bem estruturados e guias credenciados — acompanhamos a situação em tempo real." },
+      { q: "Como criar meu roteiro?", a: "Clique em Criar roteiro sob medida." }
+    ]
+  },
 
   // ===== AMÉRICA DO SUL =====
   {
@@ -1130,6 +1164,40 @@ export const destinations: Destination[] = [
       { q: "Como criar roteiro?", a: "Clique em Criar roteiro sob medida." }
     ]
   },
+  {
+    id: "europa-turquia",
+    continent: "Europa",
+    country: "Turquia",
+    region: "Istambul & Capadócia",
+    slug: "europa/turquia/istambul-capadocia",
+    name: "Turquia (Istambul & Capadócia)",
+    bestTime: "Abr–Jun e Set–Out, com clima ameno e luz ideal para balonismo na Capadócia.",
+    tags: ["cultura", "gastronomia", "fotografia", "bem-estar"],
+    imageAiPrompt: "Ultra realistic editorial photo of Cappadocia at sunrise with hot air balloons floating over fairy chimney rock formations, pastel sky, cinematic light, no people.",
+    imageOverrideUrl: "",
+    intro: "Encontro entre Oriente e Ocidente: Istambul pulsa com mercados, mesquitas e o Bósforo, enquanto a Capadócia revela paisagens surreais de chaminés de fada e voos de balão ao amanhecer. Uma viagem de história, arte e atmosfera.",
+    highlights: [
+      "Hagia Sophia, Mesquita Azul e Topkapi em Istambul",
+      "Grande Bazar e Bazar das Especiarias",
+      "Cruzeiro pelo Bósforo",
+      "Voo de balão sobre a Capadócia ao amanhecer",
+      "Cidades subterrâneas e hotéis-caverna"
+    ],
+    beyondUsual: [
+      "Roteiro gastronômico em Istambul com chef local, fora dos circuitos turísticos.",
+      "Visita a ateliê de cerâmica em Avanos com mestre ceramista.",
+      "Caminhada privada pelos vales da Capadócia ao pôr do sol."
+    ],
+    stays: [],
+    faq: [
+      { q: "Qual a melhor época para o balão na Capadócia?", a: "Abril a outubro têm maior frequência de voos; o clima de primavera e outono é o mais confortável." },
+      { q: "Quantos dias devo ficar?", a: "8 a 10 noites para combinar Istambul, Capadócia e uma extensão (Éfeso ou Costa Turquesa)." },
+      { q: "Preciso de visto?", a: "Brasileiros não precisam de visto para turismo de curta duração." },
+      { q: "Como me deslocar entre cidades?", a: "Voos domésticos curtos e frequentes, com transfers privados na chegada." },
+      { q: "Dá para ir com crianças?", a: "Sim, com atividades selecionadas — hotéis-caverna e balões encantam." },
+      { q: "Como criar meu roteiro?", a: "Clique em Criar roteiro sob medida." }
+    ]
+  },
 
   // ===== ÁSIA =====
   {
@@ -1232,6 +1300,40 @@ export const destinations: Destination[] = [
       { q: "Dá para combinar com outras ilhas?", a: "Sim, Gili, Komodo e Flores." },
       { q: "Qual a melhor área para ficar?", a: "Depende do que você busca — curamos pela experiência." },
       { q: "Como criar roteiro?", a: "Clique em Criar roteiro sob medida." }
+    ]
+  },
+  {
+    id: "asia-israel",
+    continent: "Ásia",
+    country: "Israel",
+    region: "Jerusalém, Tel Aviv & Mar Morto",
+    slug: "asia/israel/terra-santa",
+    name: "Israel (Terra Santa)",
+    bestTime: "Mar–Mai e Set–Nov, com clima ameno para caminhadas em Jerusalém e no deserto.",
+    tags: ["cultura", "gastronomia", "fotografia", "bem-estar"],
+    imageAiPrompt: "Ultra realistic editorial photo of Jerusalem Old City at golden hour with Dome of the Rock glowing and honey-colored ancient walls, cinematic Mediterranean light, no people.",
+    imageOverrideUrl: "",
+    intro: "Camadas milenares entre Jerusalém, Tel Aviv, o Mar Morto e o deserto do Negev. Israel é uma viagem de espiritualidade, arquitetura, vinhos e gastronomia contemporânea — densa em significado e em sabor.",
+    highlights: [
+      "Cidade Antiga de Jerusalém e seus quarteirões",
+      "Tel Aviv: Bauhaus, praia e cena gastronômica",
+      "Mar Morto e suas paisagens lunares",
+      "Massada ao amanhecer",
+      "Vinícolas e mercados (Mahane Yehuda, Carmel)"
+    ],
+    beyondUsual: [
+      "Tour gastronômico noturno em Tel Aviv com chef local.",
+      "Caminhada interpretativa pelos quatro quarteirões da Cidade Antiga com historiador.",
+      "Imersão no deserto do Negev com astronomia e silêncio."
+    ],
+    stays: [],
+    faq: [
+      { q: "É seguro viajar para Israel?", a: "Avaliamos a situação em tempo real e ajustamos roteiro conforme orientações oficiais." },
+      { q: "Qual a melhor base?", a: "Combinação de Jerusalém + Tel Aviv + deserto cobre o essencial." },
+      { q: "Quantos dias devo ficar?", a: "8 a 12 noites para um roteiro com profundidade." },
+      { q: "Preciso de visto?", a: "Brasileiros não precisam de visto para turismo de curta duração." },
+      { q: "Posso combinar com Jordânia ou Egito?", a: "Sim, montamos extensões para Petra ou Cairo." },
+      { q: "Como criar meu roteiro?", a: "Clique em Criar roteiro sob medida." }
     ]
   },
 
