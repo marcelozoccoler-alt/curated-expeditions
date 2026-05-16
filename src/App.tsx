@@ -8,11 +8,8 @@ import Destinos from "./pages/Destinos";
 import DestinoDetail from "./pages/DestinoDetail";
 import Experiencias from "./pages/Experiencias";
 import ExperienciaTag from "./pages/ExperienciaTag";
-import Hospedagens from "./pages/Hospedagens";
-import HospedagemDetail from "./pages/HospedagemDetail";
 import Sobre from "./pages/Sobre";
 import Contato from "./pages/Contato";
-import Guia, { GuiasIndex } from "./pages/Guia";
 import Regiao from "./pages/Regiao";
 import GrupoMarrocos2026 from "./pages/GrupoMarrocos2026";
 import BrasilEstados from "./pages/BrasilEstados";
@@ -33,12 +30,8 @@ const App = () => (
         <Route path="/destinos/*" element={<DestinoDetail />} />
         <Route path="/experiencias" element={<Experiencias />} />
         <Route path="/experiencias/:tagId" element={<ExperienciaTag />} />
-        <Route path="/hospedagens" element={<Hospedagens />} />
-        <Route path="/hospedagens/:slug" element={<HospedagemDetail />} />
         <Route path="/sobre" element={<Sobre />} />
         <Route path="/contato" element={<Contato />} />
-        <Route path="/guias" element={<GuiasIndex />} />
-        <Route path="/guias/:slug" element={<Guia />} />
         <Route path="/grupos/marrocos-2026" element={<GrupoMarrocos2026 />} />
           {/* Brasil hierarchical navigation — must come before /:regionSlug */}
           <Route path="/brasil" element={<BrasilEstados />} />

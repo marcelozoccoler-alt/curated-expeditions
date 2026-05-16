@@ -77,21 +77,6 @@ export const Footer = () => {
                   Experiências
                 </Link>
               </li>
-              <li>
-                <Link
-                  to="/hospedagens"
-                  className="text-sm text-primary-foreground/70 hover:text-gold transition-colors"
-                >
-                  Hospedagens
-                </Link>
-              </li>
-              <li>
-                <Link
-                  to="/guias"
-                  className="text-sm text-primary-foreground/70 hover:text-gold transition-colors"
-                >
-                  Guias
-                </Link>
               </li>
               <li>
                 <Link
