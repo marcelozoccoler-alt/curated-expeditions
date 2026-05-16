@@ -478,6 +478,278 @@ export const destinations: Destination[] = [
       { q: "Como criar meu roteiro?", a: "Clique em Criar roteiro sob medida e conte período e preferências." }
     ]
   },
+  {
+    id: "brasil-rio-de-janeiro",
+    continent: "Brasil",
+    country: "Brasil",
+    region: "Sudeste",
+    slug: "brasil/sudeste/rio-de-janeiro",
+    name: "Rio de Janeiro",
+    bestTime: "Abr–Jun e Set–Nov, com clima ameno, menos chuva e luz dourada nas montanhas.",
+    tags: ["cultura", "gastronomia", "praia", "fotografia", "bem-estar", "familia"],
+    imageAiPrompt: "Ultra realistic aerial photo of Rio de Janeiro at golden hour with Sugarloaf, Christ the Redeemer and Copacabana beach, lush green mountains meeting turquoise sea, cinematic light, no people.",
+    imageOverrideUrl: "",
+    intro: "Cidade-paisagem onde montanha, mata e mar se encontram em escala dramática. O Rio é cultura viva, gastronomia em ascensão e mirantes inesquecíveis — uma das cidades mais cenográficas do planeta, com camadas para muito além do óbvio.",
+    highlights: [
+      "Cristo Redentor e Pão de Açúcar",
+      "Praias de Ipanema, Leblon e Copacabana",
+      "Centro histórico e Boulevard Olímpico",
+      "Floresta da Tijuca e mirantes",
+      "Cena gastronômica e cultural contemporânea"
+    ],
+    beyondUsual: [
+      "Trilha guiada até o topo do Morro Dois Irmãos ao amanhecer.",
+      "Roteiro privado de samba de raiz no Centro com curador musical.",
+      "Helicóptero ao pôr do sol sobre a Baía de Guanabara."
+    ],
+    stays: [],
+    faq: [
+      { q: "Qual a melhor época para visitar?", a: "Abril–junho e setembro–novembro: clima ameno, menos chuva e cidade mais tranquila." },
+      { q: "Quantos dias devo ficar?", a: "5 a 7 noites para curtir cidade, praias e excursões com calma." },
+      { q: "Onde se hospedar?", a: "Ipanema e Leblon para praia; Santa Teresa para charme histórico; Copacabana para clássico." },
+      { q: "Vale a pena ir no Réveillon ou Carnaval?", a: "Sim, mas com planejamento antecipado e curadoria de logística — montamos roteiros sob medida." },
+      { q: "Dá para combinar com outros destinos?", a: "Sim, conjugados com Búzios, Paraty ou Costa Verde funcionam muito bem." },
+      { q: "Como criar meu roteiro?", a: "Clique em Criar roteiro sob medida." }
+    ]
+  },
+  {
+    id: "brasil-cataratas-iguacu",
+    continent: "Brasil",
+    country: "Brasil",
+    region: "Sul",
+    slug: "brasil/sul/cataratas-iguacu",
+    name: "Cataratas do Iguaçu",
+    bestTime: "Abr–Jun e Set–Out, com clima ameno e vazão equilibrada nas quedas.",
+    tags: ["fotografia", "familia", "conservacao", "trekking"],
+    imageAiPrompt: "Ultra realistic aerial photo of Iguaçu Falls at golden hour with rainbow over the horseshoe falls, surrounded by emerald rainforest, mist rising, cinematic depth, no people.",
+    imageOverrideUrl: "",
+    intro: "Uma das maiores maravilhas naturais do planeta: 275 quedas espalhadas em ferradura, cercadas pela Mata Atlântica preservada. Iguaçu é potência sensorial — som, água e luz em escala monumental — e merece curadoria de tempo e ritmo.",
+    highlights: [
+      "Trilha das Cataratas no lado brasileiro",
+      "Garganta do Diabo no lado argentino",
+      "Macuco Safari (passeio de barco até as quedas)",
+      "Voo de helicóptero sobre as Cataratas",
+      "Parque das Aves e Itaipu Binacional"
+    ],
+    beyondUsual: [
+      "Café da manhã no Belmond Hotel das Cataratas, com acesso exclusivo ao parque antes da abertura.",
+      "Jantar ao luar com vista para as quedas em noites de lua cheia.",
+      "Visita guiada a projeto de conservação da Mata Atlântica na região."
+    ],
+    stays: [],
+    faq: [
+      { q: "Quantos dias devo ficar?", a: "3 a 4 noites para visitar os dois lados e atividades complementares." },
+      { q: "Lado brasileiro ou argentino?", a: "Os dois — perspectivas completamente diferentes e complementares." },
+      { q: "Qual a melhor época para visitar?", a: "Abril–junho e setembro–outubro: clima ameno e vazão equilibrada." },
+      { q: "É bom para crianças?", a: "Sim, com infraestrutura excelente e atividades para todas as idades." },
+      { q: "Dá para combinar com outros destinos?", a: "Sim, conjugados com Bonito ou Buenos Aires funcionam bem." },
+      { q: "Como criar meu roteiro?", a: "Clique em Criar roteiro sob medida." }
+    ]
+  },
+  {
+    id: "brasil-canions-do-sul",
+    continent: "Brasil",
+    country: "Brasil",
+    region: "Sul",
+    slug: "brasil/sul/canions-do-sul",
+    name: "Cânions do Sul (Aparados da Serra)",
+    bestTime: "Abr–Jun e Set–Nov, com céu limpo, luz dourada e paisagens nítidas; inverno traz névoa e drama.",
+    tags: ["trekking", "fotografia", "remoto", "conservacao", "montanha"],
+    imageAiPrompt: "Ultra realistic editorial photo of Itaimbezinho canyon in Aparados da Serra Brazil with vertical basalt cliffs covered in araucaria pines and mist at golden hour, cinematic depth, no people.",
+    imageOverrideUrl: "",
+    intro: "Paredões verticais de basalto que cortam o planalto entre Santa Catarina e Rio Grande do Sul. Os cânions do sul são uma das paisagens mais imponentes do Brasil — silêncio, araucárias e abismos que se revelam entre névoas e luz dourada.",
+    highlights: [
+      "Cânion Itaimbezinho e Trilha do Vértice",
+      "Cânion Fortaleza com seus mirantes",
+      "Cascata do Tigre Preto",
+      "Vilarejo de Cambará do Sul",
+      "Trilha do Rio do Boi (no fundo do cânion)"
+    ],
+    beyondUsual: [
+      "Saída fotográfica ao amanhecer no Fortaleza, quando a névoa se levanta dos paredões.",
+      "Visita a produtores de vinho e queijo da serra gaúcha com curadoria.",
+      "Caminhada interpretativa com guia naturalista pelos campos de cima da serra."
+    ],
+    stays: [],
+    faq: [
+      { q: "Qual a melhor época para visitar?", a: "Abril–junho e setembro–novembro têm céu mais limpo; inverno (jun–ago) traz drama com névoa e frio." },
+      { q: "Quantos dias devo ficar?", a: "3 a 5 noites para conhecer os principais cânions com calma." },
+      { q: "Como chegar?", a: "Voo até Porto Alegre ou Caxias do Sul e transfer terrestre até Cambará do Sul." },
+      { q: "É bom para crianças?", a: "Sim, com trilhas selecionadas conforme idade." },
+      { q: "Dá para combinar com a Serra Gaúcha?", a: "Sim, é um conjugado natural e muito recomendado." },
+      { q: "Como criar meu roteiro?", a: "Clique em Criar roteiro sob medida." }
+    ]
+  },
+  {
+    id: "brasil-rota-das-emocoes",
+    continent: "Brasil",
+    country: "Brasil",
+    region: "Nordeste",
+    slug: "brasil/nordeste/rota-das-emocoes",
+    name: "Rota das Emoções (Jeri, Delta & Lençóis)",
+    bestTime: "Jul–Set para lagoas cheias nos Lençóis; Jun–Dez para ventos em Jeri.",
+    tags: ["roadtrip", "fotografia", "praia", "remoto", "navegacao", "familia"],
+    imageAiPrompt: "Ultra realistic aerial photo of Lençóis Maranhenses with endless white dunes and turquoise freshwater lagoons at golden hour, cinematic depth, no people.",
+    imageOverrideUrl: "",
+    intro: "Três paisagens brasileiras singulares ligadas por uma rota cênica entre Ceará, Piauí e Maranhão: Jericoacoara com seu vento e dunas, o labiríntico Delta do Parnaíba e os irreais Lençóis Maranhenses. Uma das jornadas mais sensoriais do Brasil.",
+    highlights: [
+      "Pôr do sol na Duna do Pôr do Sol em Jericoacoara",
+      "Navegação pelos furos do Delta do Parnaíba",
+      "Lagoas Azul e Bonita nos Lençóis Maranhenses",
+      "Vilarejo de Atins e Caburé",
+      "Travessia 4x4 entre as três paisagens"
+    ],
+    beyondUsual: [
+      "Voo panorâmico de teco-teco sobre os Lençóis ao amanhecer.",
+      "Pernoite em casa de farol no Delta com astronomia.",
+      "Travessia de barco-charter privado pelo Parnaíba com chef a bordo."
+    ],
+    stays: [],
+    faq: [
+      { q: "Qual a melhor época para visitar?", a: "Julho a setembro para lagoas cheias nos Lençóis; junho a dezembro para ventos em Jeri." },
+      { q: "Quantos dias devo ficar?", a: "10 a 14 noites para fazer a rota completa sem pressa." },
+      { q: "Como chegar?", a: "Voo até Fortaleza (entrada) e saída por São Luís — ou o contrário." },
+      { q: "É bom para crianças?", a: "Sim, com logística bem estruturada e ritmo ajustado." },
+      { q: "Posso fazer só uma parte?", a: "Sim — Lençóis isolado também funciona muito bem." },
+      { q: "Como criar meu roteiro?", a: "Clique em Criar roteiro sob medida." }
+    ]
+  },
+  {
+    id: "brasil-belem-marajo",
+    continent: "Brasil",
+    country: "Brasil",
+    region: "Amazônia",
+    slug: "brasil/amazonia/belem-marajo",
+    name: "Belém & Ilha de Marajó",
+    bestTime: "Jul–Dez (menos chuva), com clima mais ameno para cidade e ilha.",
+    tags: ["cultura", "gastronomia", "navegacao", "fotografia", "conservacao", "remoto"],
+    imageAiPrompt: "Ultra realistic aerial photo of Belém Ver-o-Peso market at the Amazon river at golden hour with traditional boats and mangroves of Marajó in the distance, cinematic depth, no people.",
+    imageOverrideUrl: "",
+    intro: "Belém é a Amazônia urbana em sua forma mais saborosa: mercados centenários, cena gastronômica em ebulição e arquitetura belle époque banhada pelo rio. A poucas horas, a Ilha de Marajó revela búfalos, manguezais e um modo de vida ribeirinho único.",
+    highlights: [
+      "Mercado Ver-o-Peso ao amanhecer",
+      "Estação das Docas e cena gastronômica paraense",
+      "Forte do Presépio e Cidade Velha",
+      "Travessia para Marajó e fazendas de búfalo",
+      "Praias de água doce e manguezais"
+    ],
+    beyondUsual: [
+      "Roteiro gastronômico com chef paraense entre mercados e bistrôs autorais.",
+      "Vivência em fazenda de búfalos em Marajó com queijaria artesanal.",
+      "Saída de barco ao pôr do sol pela Baía do Guajará com cuias e tucupi."
+    ],
+    stays: [],
+    faq: [
+      { q: "Qual a melhor época para visitar?", a: "Julho a dezembro, com menos chuva." },
+      { q: "Quantos dias devo ficar?", a: "5 a 7 noites para combinar Belém e Marajó com calma." },
+      { q: "Como chegar a Marajó?", a: "Travessia de balsa ou lancha rápida saindo de Belém." },
+      { q: "Belém vale a pena pela gastronomia?", a: "Sim — é uma das cidades gastronômicas mais relevantes do Brasil hoje." },
+      { q: "Dá para combinar com outros destinos amazônicos?", a: "Sim, conjugados com Alter do Chão funcionam muito bem." },
+      { q: "Como criar meu roteiro?", a: "Clique em Criar roteiro sob medida." }
+    ]
+  },
+  {
+    id: "brasil-salvador",
+    continent: "Brasil",
+    country: "Brasil",
+    region: "Nordeste",
+    slug: "brasil/nordeste/salvador",
+    name: "Salvador",
+    bestTime: "Set–Mar para sol e praia; o ano todo para cultura e gastronomia.",
+    tags: ["cultura", "gastronomia", "fotografia", "praia", "bem-estar"],
+    imageAiPrompt: "Ultra realistic editorial photo of Salvador Pelourinho with colorful baroque facades in pastel tones at golden hour, ancient cobblestone streets, cinematic depth, no people.",
+    imageOverrideUrl: "",
+    intro: "Primeira capital do Brasil, Salvador é cultura em estado bruto: arquitetura colonial em tons vibrantes, ritmo afro-brasileiro pulsando nas ruas e uma das culinárias mais ricas do país. Cidade de camadas históricas e energia única.",
+    highlights: [
+      "Pelourinho e Centro Histórico (Patrimônio UNESCO)",
+      "Igreja e Convento de São Francisco",
+      "Elevador Lacerda e Mercado Modelo",
+      "Igreja do Senhor do Bonfim",
+      "Praias da Barra, Itapuã e Stella Maris"
+    ],
+    beyondUsual: [
+      "Roda de capoeira angola privada com mestre tradicional.",
+      "Aula de cozinha baiana com chef em terreiro contemporâneo.",
+      "Visita curada a ateliês de artistas afro-brasileiros no Pelourinho."
+    ],
+    stays: [],
+    faq: [
+      { q: "Qual a melhor época para visitar?", a: "Setembro a março para sol e praia; o ano todo para cultura." },
+      { q: "Quantos dias devo ficar?", a: "4 a 5 noites para Salvador; 7 a 10 se combinar com litoral baiano." },
+      { q: "Onde se hospedar?", a: "Pelourinho para imersão histórica; Barra ou Rio Vermelho para praia e gastronomia." },
+      { q: "É bom para famílias?", a: "Sim, com roteiro bem desenhado e atividades selecionadas." },
+      { q: "Dá para combinar com Boipeba ou Marau?", a: "Sim, é um conjugado natural e muito recomendado." },
+      { q: "Como criar meu roteiro?", a: "Clique em Criar roteiro sob medida." }
+    ]
+  },
+  {
+    id: "brasil-boipeba",
+    continent: "Brasil",
+    country: "Brasil",
+    region: "Nordeste",
+    slug: "brasil/nordeste/boipeba",
+    name: "Ilha de Boipeba",
+    bestTime: "Set–Mar, com sol, mar calmo e visibilidade ideal para snorkel nas piscinas naturais.",
+    tags: ["praia", "lua-de-mel", "bem-estar", "remoto", "mergulho", "familia"],
+    imageAiPrompt: "Ultra realistic aerial photo of Boipeba Island Bahia with deserted white sand beach, turquoise sea and coral reef tidal pools, coconut palms, golden hour, cinematic depth, no people.",
+    imageOverrideUrl: "",
+    intro: "Ilha sem carros, sem multidão e com algumas das praias mais preservadas do Brasil. Boipeba é o refúgio baiano para quem busca lentidão, mar calmo e a sofisticação do simples — pés na areia, peixe fresco e silêncio.",
+    highlights: [
+      "Praia de Moreré e suas piscinas naturais",
+      "Praia da Cueira e Tassimirim",
+      "Travessia a pé pela orla até Cova da Onça",
+      "Pôr do sol no Rio das Garças",
+      "Snorkel nos recifes de coral"
+    ],
+    beyondUsual: [
+      "Charter privado de barco entre praias desertas, com chef e almoço a bordo.",
+      "Massagem ao som do mar em deck reservado de pousada-boutique.",
+      "Jantar autoral com peixes locais em pé na areia, sob estrelas."
+    ],
+    stays: [],
+    faq: [
+      { q: "Qual a melhor época para visitar?", a: "Setembro a março, com sol e mar calmo." },
+      { q: "Quantos dias devo ficar?", a: "4 a 6 noites para desacelerar de verdade." },
+      { q: "Como chegar?", a: "Voo até Salvador + transfer terrestre + travessia de lancha (ou direto de Salvador por catamarã)." },
+      { q: "Tem internet e estrutura?", a: "Sim, com boas pousadas-boutique; mas o charme está justamente em desconectar." },
+      { q: "Dá para combinar com Marau ou Salvador?", a: "Sim, é um dos melhores conjugados do litoral baiano." },
+      { q: "Como criar meu roteiro?", a: "Clique em Criar roteiro sob medida." }
+    ]
+  },
+  {
+    id: "brasil-marau",
+    continent: "Brasil",
+    country: "Brasil",
+    region: "Nordeste",
+    slug: "brasil/nordeste/marau",
+    name: "Península de Maraú",
+    bestTime: "Set–Mar, com sol pleno, mar calmo e dias longos.",
+    tags: ["praia", "lua-de-mel", "bem-estar", "remoto", "mergulho", "familia"],
+    imageAiPrompt: "Ultra realistic aerial photo of Península de Maraú Bahia with deserted white sand beach, coconut palms, mangroves and Taipus de Fora natural pool reef, golden hour, cinematic depth, no people.",
+    imageOverrideUrl: "",
+    intro: "Faixa de terra entre o Atlântico e a Baía de Camamu, Maraú reúne algumas das praias mais sofisticadas do Nordeste brasileiro — areia branca, manguezais e piscinas naturais formadas por recifes. Um refúgio para descanso de alto padrão.",
+    highlights: [
+      "Praia de Taipus de Fora e suas piscinas naturais",
+      "Praia do Cassange e Algodões",
+      "Barra Grande e seu pôr do sol",
+      "Travessia pela Baía de Camamu",
+      "Trilhas costeiras e mangues"
+    ],
+    beyondUsual: [
+      "Charter privado pela Baía de Camamu com paradas em ilhas desertas.",
+      "Aula de stand-up paddle ao amanhecer em águas calmas.",
+      "Jantar de frutos do mar à beira-mar com chef autoral."
+    ],
+    stays: [],
+    faq: [
+      { q: "Qual a melhor época para visitar?", a: "Setembro a março, com sol pleno e mar calmo." },
+      { q: "Quantos dias devo ficar?", a: "5 a 7 noites para curtir sem pressa." },
+      { q: "Como chegar?", a: "Voo até Salvador + transfer terrestre + travessia, ou voo direto a Ilhéus + transfer terrestre." },
+      { q: "Maraú ou Boipeba?", a: "Maraú tem mais infraestrutura de pousadas-boutique; Boipeba é mais rústica e isolada." },
+      { q: "É bom para famílias?", a: "Sim, com mar calmo e atividades para todas as idades." },
+      { q: "Como criar meu roteiro?", a: "Clique em Criar roteiro sob medida." }
+    ]
+  },
 
   // ===== ÁFRICA =====
   {
