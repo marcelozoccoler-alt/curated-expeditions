@@ -819,6 +819,356 @@ export const destinations: Destination[] = [
     ]
   },
 
+  // ===== LITORAIS BRASILEIROS (curadoria por estado) =====
+  {
+    id: "brasil-litoral-alagoano",
+    continent: "Brasil",
+    country: "Brasil",
+    region: "Alagoas",
+    slug: "brasil/litoral-alagoano",
+    name: "Litoral Alagoano",
+    bestTime: "Set–Mar (mar mais calmo e visibilidade nas piscinas naturais).",
+    tags: ["praia", "mergulho", "lua-de-mel", "familia", "bem-estar"],
+    imageAiPrompt: "Ultra realistic aerial photo of Maragogi natural pools in Alagoas, Brazil, turquoise sea, white sand, coconut trees, no people.",
+    imageOverrideUrl: "",
+    intro: "Águas tranquilas, piscinas naturais e pequenas vilas litorâneas: o Litoral Alagoano é o Caribe brasileiro em sua versão mais sofisticada e silenciosa.",
+    highlights: [
+      "Maragogi e as Galés — piscinas naturais a 6 km da costa",
+      "São Miguel dos Milagres e a Rota Ecológica",
+      "Praia do Patacho e Lagoa Azeda",
+      "Praia do Gunga e falésias coloridas",
+      "Maceió, Pajuçara e jangadas para as piscinas naturais"
+    ],
+    beyondUsual: [
+      "Pousadas-boutique pé na areia na Rota Ecológica.",
+      "Saídas privativas para piscinas naturais antes da multidão.",
+      "Jantares em casas de praia com chefs locais."
+    ],
+    stays: [],
+    faq: [
+      { q: "Qual a melhor base?", a: "São Miguel dos Milagres para sofisticação; Maragogi para acesso às Galés; Maceió para infraestrutura urbana." },
+      { q: "Quando o mar fica mais calmo?", a: "Entre setembro e março, com melhor visibilidade nas piscinas naturais." },
+      { q: "É bom para lua de mel?", a: "Sim, especialmente a Rota Ecológica dos Milagres." },
+      { q: "Dá para combinar com Pernambuco?", a: "Sim, Porto de Galinhas e Recife são vizinhos." },
+      { q: "Quantos dias?", a: "5 a 7 noites permitem combinar 2 bases." },
+      { q: "Como criar roteiro?", a: "Clique em Criar roteiro sob medida." }
+    ]
+  },
+  {
+    id: "brasil-litoral-pernambucano",
+    continent: "Brasil",
+    country: "Brasil",
+    region: "Pernambuco",
+    slug: "brasil/litoral-pernambucano",
+    name: "Litoral Pernambucano",
+    bestTime: "Set–Mar (menos chuva, mar calmo e melhor visibilidade).",
+    tags: ["praia", "mergulho", "cultura", "lua-de-mel", "familia"],
+    imageAiPrompt: "Ultra realistic aerial photo of Porto de Galinhas natural pools with jangadas, Pernambuco, turquoise water, no people.",
+    imageOverrideUrl: "",
+    intro: "De Porto de Galinhas a Tamandaré, o litoral de Pernambuco combina mar transparente, piscinas naturais, jangadas e vilas charmosas — com curadoria que foge do óbvio.",
+    highlights: [
+      "Porto de Galinhas e suas piscinas naturais",
+      "Praia dos Carneiros e a capela à beira-mar",
+      "Tamandaré e Praia do Cupe",
+      "Maracaípe — surfe e ‘pôr do sol do rio’",
+      "Recife Antigo e Olinda como complemento cultural"
+    ],
+    beyondUsual: [
+      "Pousadas-boutique em Serrambi e Carneiros.",
+      "Passeios de catamarã privativo em Carneiros ao entardecer.",
+      "Rota gastronômica em Olinda e Recife."
+    ],
+    stays: [],
+    faq: [
+      { q: "Carneiros ou Porto de Galinhas?", a: "Carneiros é mais bucólica; Porto tem mais infraestrutura." },
+      { q: "Qual a melhor época?", a: "Setembro a março, com mar mais calmo." },
+      { q: "Dá para combinar com Fernando de Noronha?", a: "Sim, voos diretos do Recife." },
+      { q: "É bom para famílias?", a: "Sim, mar calmo e atividades leves." },
+      { q: "Quantos dias?", a: "5 a 7 noites permitem combinar praia + Recife/Olinda." },
+      { q: "Como criar roteiro?", a: "Clique em Criar roteiro sob medida." }
+    ]
+  },
+  {
+    id: "brasil-litoral-baiano",
+    continent: "Brasil",
+    country: "Brasil",
+    region: "Bahia",
+    slug: "brasil/litoral-baiano",
+    name: "Litoral Baiano",
+    bestTime: "Set–Mar para sol; Abr–Ago tem clima mais ameno e baixa temporada elegante.",
+    tags: ["praia", "cultura", "gastronomia", "lua-de-mel", "bem-estar"],
+    imageAiPrompt: "Ultra realistic aerial photo of the Bahia coastline, Brazil, deep blue sea, palm trees, Atlantic forest, no people.",
+    imageOverrideUrl: "",
+    intro: "Mais de 1.000 km de costa: do norte sofisticado da Praia do Forte ao sul rústico de Trancoso, passando por Itacaré, Maraú e Boipeba. A Bahia tem praia para todo tipo de viajante.",
+    highlights: [
+      "Praia do Forte e Costa do Sauípe — resorts e Projeto Tamar",
+      "Itacaré — surfe, cachoeiras e Mata Atlântica",
+      "Península de Maraú — Barra Grande e Taipus de Fora",
+      "Boipeba — vila isolada e mar transparente",
+      "Trancoso, Caraíva e Espelho — sul da Bahia atemporal",
+      "Morro de São Paulo — base clássica para 1ª viagem"
+    ],
+    beyondUsual: [
+      "Casas privativas em Trancoso e Espelho com chef à disposição.",
+      "Travessias de barco entre Boipeba e Morro de São Paulo.",
+      "Jantares à beira-mar em Caraíva sem energia elétrica."
+    ],
+    stays: [],
+    faq: [
+      { q: "Qual região escolher?", a: "Norte (Praia do Forte) para resorts; Itacaré para natureza ativa; Maraú/Boipeba para isolamento; Trancoso/Caraíva para charme atemporal." },
+      { q: "Quando ir?", a: "Setembro a março para sol firme; abril a agosto para baixa temporada elegante." },
+      { q: "Dá para combinar várias bases?", a: "Sim, é o ideal — recomendamos 2 ou 3 bases distintas." },
+      { q: "É bom para lua de mel?", a: "Excelente, especialmente Trancoso, Espelho e Maraú." },
+      { q: "Quantos dias?", a: "7 a 12 noites para combinar mais de uma base." },
+      { q: "Como criar roteiro?", a: "Clique em Criar roteiro sob medida." }
+    ]
+  },
+  {
+    id: "brasil-litoral-cearense",
+    continent: "Brasil",
+    country: "Brasil",
+    region: "Ceará",
+    slug: "brasil/litoral-cearense",
+    name: "Litoral Cearense",
+    bestTime: "Jul–Fev (sol firme e ventos para kite); Mar–Jun tem chuvas mais frequentes.",
+    tags: ["praia", "kitesurf", "fotografia", "lua-de-mel", "remoto"],
+    imageAiPrompt: "Ultra realistic photo of Jericoacoara coast in Ceará, dunes, sunset, lone palm tree, no people.",
+    imageOverrideUrl: "",
+    intro: "Dunas que invadem o mar, lagoas azuis e vilas de pescadores. O Ceará tem o litoral mais cinematográfico do Brasil — e a curadoria certa transforma a viagem.",
+    highlights: [
+      "Jericoacoara — pôr do sol na duna e Pedra Furada",
+      "Lagoa do Paraíso e Lagoa Azul",
+      "Atins, Caburé e o ‘Litoral Pequenos Lençóis’ (transição com MA)",
+      "Praia de Tatajuba e Guriú",
+      "Canoa Quebrada, falésias e dunas coloridas",
+      "Cumbuco — kitesurf e dunas"
+    ],
+    beyondUsual: [
+      "Pousadas-boutique pé na areia em Jericoacoara.",
+      "Travessia 4x4 Jeri → Atins → Lençóis Maranhenses.",
+      "Saídas de buggy privativo em horários sem fluxo."
+    ],
+    stays: [],
+    faq: [
+      { q: "Qual a melhor base?", a: "Jericoacoara concentra o melhor; complemente com Canoa Quebrada ou Atins." },
+      { q: "Quando ir para kitesurf?", a: "Julho a janeiro tem vento constante." },
+      { q: "Dá para combinar com Lençóis Maranhenses?", a: "Sim, pela Rota das Emoções (4x4)." },
+      { q: "É bom para famílias?", a: "Sim, com bases certas — Jeri pode ser mais animada à noite." },
+      { q: "Quantos dias?", a: "5 a 8 noites, dependendo das bases." },
+      { q: "Como criar roteiro?", a: "Clique em Criar roteiro sob medida." }
+    ]
+  },
+  {
+    id: "brasil-litoral-rio-grande-do-norte",
+    continent: "Brasil",
+    country: "Brasil",
+    region: "Rio Grande do Norte",
+    slug: "brasil/litoral-rio-grande-do-norte",
+    name: "Litoral do Rio Grande do Norte",
+    bestTime: "Set–Mar (sol firme, mar calmo); Abr–Ago pode ter chuvas pontuais.",
+    tags: ["praia", "lua-de-mel", "kitesurf", "familia", "bem-estar"],
+    imageAiPrompt: "Ultra realistic aerial photo of Pipa beach in Rio Grande do Norte, red cliffs, turquoise sea, no people.",
+    imageOverrideUrl: "",
+    intro: "Falésias avermelhadas, mar verde-azulado e ventos constantes. O litoral potiguar reúne charme bucólico (Pipa) e natureza dramática (Maracajaú, Galinhos).",
+    highlights: [
+      "Pipa — falésias, Baía dos Golfinhos e vida boêmia",
+      "Praia do Madeiro e Chapadão",
+      "Maracajaú — parrachos e mergulho",
+      "Galinhos — vila isolada com travessia de barco",
+      "São Miguel do Gostoso — kitesurf e vento constante",
+      "Natal e Genipabu — buggy nas dunas"
+    ],
+    beyondUsual: [
+      "Pousadas-boutique no alto das falésias em Pipa.",
+      "Passeios privativos a Galinhos para um dia sem turistas.",
+      "Mergulho com guia certificado nos parrachos de Maracajaú."
+    ],
+    stays: [],
+    faq: [
+      { q: "Pipa ou São Miguel do Gostoso?", a: "Pipa para charme/vida noturna; Gostoso para vento e silêncio." },
+      { q: "Qual a melhor época?", a: "Setembro a março para sol firme." },
+      { q: "Dá para combinar com Ceará?", a: "Sim, voos curtos e estradas conectadas." },
+      { q: "É bom para lua de mel?", a: "Sim, Pipa e seu entorno têm pousadas românticas." },
+      { q: "Quantos dias?", a: "5 a 7 noites com 1 ou 2 bases." },
+      { q: "Como criar roteiro?", a: "Clique em Criar roteiro sob medida." }
+    ]
+  },
+  {
+    id: "brasil-litoral-paraibano",
+    continent: "Brasil",
+    country: "Brasil",
+    region: "Paraíba",
+    slug: "brasil/litoral-paraibano",
+    name: "Litoral Paraibano",
+    bestTime: "Set–Mar (sol firme e mar calmo).",
+    tags: ["praia", "natureza", "lua-de-mel", "familia", "remoto"],
+    imageAiPrompt: "Ultra realistic aerial photo of Coqueirinho beach in Paraíba, red cliffs, palm trees, turquoise sea, no people.",
+    imageOverrideUrl: "",
+    intro: "Pequeno, charmoso e ainda pouco conhecido. O litoral paraibano combina o Ponto Mais Oriental das Américas, falésias coloridas e vilas tranquilas.",
+    highlights: [
+      "Praia do Coqueirinho — falésias multicoloridas",
+      "Tambaba — primeira praia naturista oficial do Brasil",
+      "Praia de Tabatinga e os mirantes",
+      "João Pessoa, Tambaú e o Pôr do Sol no Jacaré",
+      "Ponta do Seixas — ponto mais oriental das Américas",
+      "Areia Vermelha — banco de areia em alto-mar"
+    ],
+    beyondUsual: [
+      "Pousadas-boutique no Conde, fora do circuito de massa.",
+      "Saídas de catamarã privativo a Areia Vermelha.",
+      "Roteiros gastronômicos em João Pessoa."
+    ],
+    stays: [],
+    faq: [
+      { q: "Qual a melhor base?", a: "Conde (litoral sul) para charme e Coqueirinho; João Pessoa para infraestrutura." },
+      { q: "É bom para famílias?", a: "Sim, com mar calmo na maior parte do litoral." },
+      { q: "Dá para combinar com Pernambuco e RN?", a: "Sim, distâncias curtas por estrada." },
+      { q: "Quando ir?", a: "Setembro a março para sol firme." },
+      { q: "Quantos dias?", a: "4 a 6 noites." },
+      { q: "Como criar roteiro?", a: "Clique em Criar roteiro sob medida." }
+    ]
+  },
+  {
+    id: "brasil-litoral-santa-catarina",
+    continent: "Brasil",
+    country: "Brasil",
+    region: "Santa Catarina",
+    slug: "brasil/litoral-santa-catarina",
+    name: "Litoral de Santa Catarina",
+    bestTime: "Dez–Mar (alta temporada, calor); Out–Nov e Abr–Mai com clima ameno e menos gente.",
+    tags: ["praia", "surfe", "bem-estar", "gastronomia", "natureza"],
+    imageAiPrompt: "Ultra realistic aerial photo of Praia do Rosa in Santa Catarina, crescent bay, green hills, Atlantic forest, no people.",
+    imageOverrideUrl: "",
+    intro: "Mata Atlântica encontrando o mar, baías em forma de meia-lua e gastronomia de origem açoriana. Um litoral mais frio, mais verde e cheio de personalidade.",
+    highlights: [
+      "Praia do Rosa — baía cinematográfica e baleias-franca (jul–nov)",
+      "Florianópolis — Lagoinha do Leste, Joaquina e Mole",
+      "Bombinhas e a Reserva Biológica do Arvoredo",
+      "Garopaba e Silveira para surfe",
+      "Guarda do Embaú — Vila e rio que encontra o mar",
+      "Praia do Forte e Jurerê Internacional para sofisticação"
+    ],
+    beyondUsual: [
+      "Avistamento de baleias-franca-austral em Imbituba (jul–nov).",
+      "Pousadas-boutique nos morros do Rosa com vista da baía.",
+      "Rota gastronômica de ostras em Floripa."
+    ],
+    stays: [],
+    faq: [
+      { q: "Rosa ou Floripa?", a: "Rosa é mais charmosa e bucólica; Floripa tem mais variedade de praias e infraestrutura." },
+      { q: "Quando ver baleias?", a: "Entre julho e novembro, em Imbituba/Rosa." },
+      { q: "Quando ir para sol e mar?", a: "Dezembro a março, mas chove eventualmente." },
+      { q: "É bom para famílias?", a: "Sim, com praias calmas no norte da ilha." },
+      { q: "Quantos dias?", a: "5 a 8 noites." },
+      { q: "Como criar roteiro?", a: "Clique em Criar roteiro sob medida." }
+    ]
+  },
+  {
+    id: "brasil-litoral-rio-de-janeiro",
+    continent: "Brasil",
+    country: "Brasil",
+    region: "Rio de Janeiro",
+    slug: "brasil/litoral-rio-de-janeiro",
+    name: "Litoral do Rio de Janeiro",
+    bestTime: "Dez–Mar para sol e mar; Abr–Set ameno, com Búzios e Paraty agradáveis o ano todo.",
+    tags: ["praia", "navegacao", "lua-de-mel", "gastronomia", "cultura"],
+    imageAiPrompt: "Ultra realistic aerial photo of Angra dos Reis tropical islands and turquoise sea in Rio de Janeiro, sailboats, no people.",
+    imageOverrideUrl: "",
+    intro: "Da Costa Verde à Região dos Lagos: o estado do Rio tem 600 km de costa, com ilhas, vilas coloniais, praias paradisíacas e sofisticação à beira-mar.",
+    highlights: [
+      "Búzios — praias e vida boêmia internacional",
+      "Arraial do Cabo — ‘Caribe brasileiro’ e mar transparente",
+      "Cabo Frio e Praia do Forte",
+      "Angra dos Reis — 365 ilhas e Ilha Grande",
+      "Paraty — centro histórico colonial e Saco do Mamanguá",
+      "Trindade — praias selvagens dentro da Mata Atlântica"
+    ],
+    beyondUsual: [
+      "Veleiros privativos em Angra e Paraty.",
+      "Pousadas-boutique em Paraty e na Ilha Grande.",
+      "Trilha do Saco do Mamanguá com pernoite em barco."
+    ],
+    stays: [],
+    faq: [
+      { q: "Búzios ou Paraty?", a: "Búzios é mais sofisticada/social; Paraty é histórica e cercada de natureza." },
+      { q: "Vale combinar com a cidade do Rio?", a: "Sim, é a combinação clássica — cidade + 2 bases litorâneas." },
+      { q: "Quando ir?", a: "Dezembro a março para sol; ano inteiro para Búzios e Paraty." },
+      { q: "É bom para lua de mel?", a: "Sim, especialmente Angra, Paraty e Búzios." },
+      { q: "Quantos dias?", a: "7 a 10 noites com 2 ou 3 bases." },
+      { q: "Como criar roteiro?", a: "Clique em Criar roteiro sob medida." }
+    ]
+  },
+  {
+    id: "brasil-litoral-sao-paulo",
+    continent: "Brasil",
+    country: "Brasil",
+    region: "São Paulo",
+    slug: "brasil/litoral-sao-paulo",
+    name: "Litoral de São Paulo",
+    bestTime: "Dez–Mar para sol firme; Abr–Out com clima mais ameno e menos fluxo.",
+    tags: ["praia", "natureza", "surfe", "navegacao", "bem-estar"],
+    imageAiPrompt: "Ultra realistic aerial photo of Ilhabela coast in São Paulo, lush Atlantic forest meeting the sea, secluded beach, no people.",
+    imageOverrideUrl: "",
+    intro: "Do litoral norte com Mata Atlântica selvagem ao sul de pequenas vilas: o litoral paulista esconde praias-cinema a poucas horas da capital.",
+    highlights: [
+      "Ilhabela — arquipélago com 40+ praias e cachoeiras",
+      "São Sebastião — Maresias, Camburi e Barra do Una",
+      "Ubatuba — Praia do Félix, Lagoinha e Trindade",
+      "Paraty Mirim e Picinguaba (Parque Estadual da Serra do Mar)",
+      "Juquehy e Barra do Sahy para famílias",
+      "Ilha do Cardoso e Ilha Comprida (litoral sul selvagem)"
+    ],
+    beyondUsual: [
+      "Casas de praia privativas com chef em Barra do Una.",
+      "Travessias de veleiro em Ilhabela.",
+      "Trilhas costeiras na Serra do Mar com guia local."
+    ],
+    stays: [],
+    faq: [
+      { q: "Ubatuba ou Ilhabela?", a: "Ilhabela é mais sofisticada e contemplativa; Ubatuba tem mais variedade de praias." },
+      { q: "Quando ir?", a: "Dezembro a março para sol; abril a outubro para silêncio." },
+      { q: "Dá para combinar com o Rio?", a: "Sim, pela estrada costeira até Paraty." },
+      { q: "É bom para famílias?", a: "Sim, com bases certas (Juquehy, Barra do Sahy)." },
+      { q: "Quantos dias?", a: "4 a 7 noites." },
+      { q: "Como criar roteiro?", a: "Clique em Criar roteiro sob medida." }
+    ]
+  },
+  {
+    id: "brasil-litoral-espirito-santo",
+    continent: "Brasil",
+    country: "Brasil",
+    region: "Espírito Santo",
+    slug: "brasil/litoral-espirito-santo",
+    name: "Litoral do Espírito Santo",
+    bestTime: "Set–Mar (sol firme e mar calmo).",
+    tags: ["praia", "natureza", "gastronomia", "familia", "remoto"],
+    imageAiPrompt: "Ultra realistic aerial photo of Itaúnas coast in Espírito Santo, white sand dunes meeting the sea, palm trees, no people.",
+    imageOverrideUrl: "",
+    intro: "Pouco explorado e cheio de surpresas: dunas, vilas pesqueiras e gastronomia de moqueca capixaba. Um dos litorais mais autênticos do Sudeste.",
+    highlights: [
+      "Itaúnas — dunas gigantes e vila de forró",
+      "Guarapari e Praia do Morro",
+      "Anchieta e Castelhanos",
+      "Praia do Forno (Reserva Biológica de Comboios)",
+      "Vitória e Vila Velha — cultura e moqueca capixaba",
+      "Conceição da Barra e suas praias desertas"
+    ],
+    beyondUsual: [
+      "Pousadas-boutique em Itaúnas, próximas ao Parque Estadual.",
+      "Roteiros gastronômicos de moqueca capixaba.",
+      "Avistamento de tartarugas em Comboios (TAMAR)."
+    ],
+    stays: [],
+    faq: [
+      { q: "Qual a melhor base?", a: "Itaúnas para natureza/dunas; Guarapari para infraestrutura familiar." },
+      { q: "Quando ir?", a: "Setembro a março para sol firme." },
+      { q: "Dá para combinar com a Bahia?", a: "Sim, Itaúnas é fronteiriço a Caraíva/Trancoso." },
+      { q: "É bom para famílias?", a: "Sim, com praias calmas em Guarapari e Anchieta." },
+      { q: "Quantos dias?", a: "4 a 6 noites." },
+      { q: "Como criar roteiro?", a: "Clique em Criar roteiro sob medida." }
+    ]
+  },
+
   // ===== ÁFRICA =====
   {
     id: "africa-tanzania-serengeti",
