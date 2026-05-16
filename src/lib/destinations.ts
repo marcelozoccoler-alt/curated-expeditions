@@ -1404,6 +1404,40 @@ export const destinations: Destination[] = [
       { q: "Como criar meu roteiro?", a: "Clique em Criar roteiro sob medida." }
     ]
   },
+  {
+    id: "asia-tailandia-camboja",
+    continent: "Ásia",
+    country: "Tailândia & Camboja",
+    region: "Sudeste Asiático",
+    slug: "asia/conjugado/tailandia-camboja",
+    name: "Tailândia & Camboja (conjugado)",
+    bestTime: "Nov–Mar (estação seca), com clima ameno e luz ideal para templos e praias.",
+    tags: ["cultura", "gastronomia", "fotografia", "praia", "bem-estar", "familia"],
+    imageAiPrompt: "Ultra realistic editorial photo of Angkor Wat at sunrise reflected in lotus pond, ancient stone towers with golden light, misty tropical atmosphere, cinematic depth, no people.",
+    imageOverrideUrl: "",
+    intro: "Dois universos que se completam: a Tailândia vibrante com Bangkok, Chiang Mai e suas praias paradisíacas, e o Camboja sagrado com a grandiosidade milenar de Angkor. Um conjugado que combina contraste, espiritualidade, gastronomia e descanso à beira-mar.",
+    highlights: [
+      "Templos e mercados de Bangkok",
+      "Chiang Mai e o norte com cultura lana",
+      "Phuket, Krabi ou Koh Samui para descanso",
+      "Amanhecer em Angkor Wat",
+      "Templos de Ta Prohm e Bayon em Siem Reap"
+    ],
+    beyondUsual: [
+      "Aula de culinária tailandesa com chef em casa de família em Chiang Mai.",
+      "Visita privada a templos secundários de Angkor com arqueólogo local.",
+      "Jantar khmer contemporâneo em Siem Reap com produtores locais."
+    ],
+    stays: [],
+    faq: [
+      { q: "Qual a melhor ordem entre os países?", a: "Geralmente Tailândia primeiro (Bangkok → norte ou praias) e Camboja ao final, com voo curto até Siem Reap." },
+      { q: "Quantos dias devo ficar?", a: "12 a 16 noites para combinar cidades, cultura, templos e praias com tranquilidade." },
+      { q: "Preciso de visto?", a: "Tailândia: brasileiros não precisam para turismo curto. Camboja: e-visa simples e rápido." },
+      { q: "Qual a melhor época?", a: "Novembro a março, com clima seco e temperaturas amenas." },
+      { q: "Dá para ir com crianças?", a: "Sim, é um dos melhores conjugados da Ásia para famílias — variedade de experiências e bom conforto." },
+      { q: "Como criar meu roteiro?", a: "Clique em Criar roteiro sob medida." }
+    ]
+  },
 
   // ===== OCEANIA =====
   {
