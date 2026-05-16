@@ -1234,6 +1234,40 @@ export const destinations: Destination[] = [
       { q: "Como criar roteiro?", a: "Clique em Criar roteiro sob medida." }
     ]
   },
+  {
+    id: "asia-israel",
+    continent: "Ásia",
+    country: "Israel",
+    region: "Jerusalém, Tel Aviv & Mar Morto",
+    slug: "asia/israel/terra-santa",
+    name: "Israel (Terra Santa)",
+    bestTime: "Mar–Mai e Set–Nov, com clima ameno para caminhadas em Jerusalém e no deserto.",
+    tags: ["cultura", "gastronomia", "fotografia", "bem-estar"],
+    imageAiPrompt: "Ultra realistic editorial photo of Jerusalem Old City at golden hour with Dome of the Rock glowing and honey-colored ancient walls, cinematic Mediterranean light, no people.",
+    imageOverrideUrl: "",
+    intro: "Camadas milenares entre Jerusalém, Tel Aviv, o Mar Morto e o deserto do Negev. Israel é uma viagem de espiritualidade, arquitetura, vinhos e gastronomia contemporânea — densa em significado e em sabor.",
+    highlights: [
+      "Cidade Antiga de Jerusalém e seus quarteirões",
+      "Tel Aviv: Bauhaus, praia e cena gastronômica",
+      "Mar Morto e suas paisagens lunares",
+      "Massada ao amanhecer",
+      "Vinícolas e mercados (Mahane Yehuda, Carmel)"
+    ],
+    beyondUsual: [
+      "Tour gastronômico noturno em Tel Aviv com chef local.",
+      "Caminhada interpretativa pelos quatro quarteirões da Cidade Antiga com historiador.",
+      "Imersão no deserto do Negev com astronomia e silêncio."
+    ],
+    stays: [],
+    faq: [
+      { q: "É seguro viajar para Israel?", a: "Avaliamos a situação em tempo real e ajustamos roteiro conforme orientações oficiais." },
+      { q: "Qual a melhor base?", a: "Combinação de Jerusalém + Tel Aviv + deserto cobre o essencial." },
+      { q: "Quantos dias devo ficar?", a: "8 a 12 noites para um roteiro com profundidade." },
+      { q: "Preciso de visto?", a: "Brasileiros não precisam de visto para turismo de curta duração." },
+      { q: "Posso combinar com Jordânia ou Egito?", a: "Sim, montamos extensões para Petra ou Cairo." },
+      { q: "Como criar meu roteiro?", a: "Clique em Criar roteiro sob medida." }
+    ]
+  },
 
   // ===== OCEANIA =====
   {
