@@ -77,7 +77,6 @@ export const Footer = () => {
                   Experiências
                 </Link>
               </li>
-              </li>
               <li>
                 <Link
                   to="/grupos/marrocos-2026"
