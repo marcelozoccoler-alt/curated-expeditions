@@ -786,6 +786,40 @@ export const destinations: Destination[] = [
       { q: "Como criar roteiro?", a: "Clique em Criar roteiro sob medida." }
     ]
   },
+  {
+    id: "africa-egito",
+    continent: "África",
+    country: "Egito",
+    region: "Cairo, Luxor & Nilo",
+    slug: "africa/egito/nilo",
+    name: "Egito (Nilo, Cairo & Luxor)",
+    bestTime: "Out–Abr, com clima ameno para visitar templos, pirâmides e navegar o Nilo.",
+    tags: ["cultura", "navegacao", "fotografia", "deserto", "familia"],
+    imageAiPrompt: "Ultra realistic editorial photo of the Pyramids of Giza at golden hour with warm desert sands and painterly sky, cinematic depth, no identifiable people.",
+    imageOverrideUrl: "",
+    intro: "Civilização que atravessa milênios: pirâmides, templos colossais e o Nilo como fio condutor. Uma viagem de profundidade histórica, com cruzeiros entre Luxor e Aswan e bases urbanas no Cairo.",
+    highlights: [
+      "Pirâmides de Gizé e Esfinge",
+      "Museu Egípcio e Grand Egyptian Museum",
+      "Cruzeiro pelo Nilo entre Luxor e Aswan",
+      "Vale dos Reis e Templo de Karnak",
+      "Templos de Abu Simbel"
+    ],
+    beyondUsual: [
+      "Visita privada às pirâmides ao amanhecer, antes da abertura ao público.",
+      "Dahabiya (veleiro tradicional) em vez de cruzeiro convencional — ritmo lento e exclusivo.",
+      "Encontro com egiptólogo para leitura aprofundada dos hieróglifos no Vale dos Reis."
+    ],
+    stays: [],
+    faq: [
+      { q: "Qual a melhor época para visitar?", a: "Outubro a abril, com temperaturas amenas; evite o verão (jun–ago)." },
+      { q: "Quantos dias devo ficar?", a: "10 a 12 noites para combinar Cairo, cruzeiro no Nilo e Abu Simbel." },
+      { q: "Cruzeiro ou dahabiya?", a: "Dahabiyas oferecem experiência mais íntima e cuidada; cruzeiros têm logística mais simples." },
+      { q: "Preciso de visto?", a: "Sim, mas o e-visa é simples e rápido para brasileiros." },
+      { q: "É seguro?", a: "Sim, com itinerários bem estruturados e guias credenciados — acompanhamos a situação em tempo real." },
+      { q: "Como criar meu roteiro?", a: "Clique em Criar roteiro sob medida." }
+    ]
+  },
 
   // ===== AMÉRICA DO SUL =====
   {
