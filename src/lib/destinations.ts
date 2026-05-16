@@ -1,4 +1,5 @@
 import { Destination } from "./types";
+import monteRoraimaImg from "@/assets/destinations/brasil-monte-roraima.jpg";
 
 export const destinations: Destination[] = [
   // ===== BRASIL =====
