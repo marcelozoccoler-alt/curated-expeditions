@@ -64,12 +64,12 @@ export const brazilStates: BrazilState[] = [
     macroregion: "Norte",
     kicker: "Norte • Brasil",
     intro:
-      "Cerrado dramático com cachoeiras, fervedouros e dunas alaranjadas no coração do Jalapão.",
+      "Cerrado dramático com cachoeiras, fervedouros e dunas alaranjadas no Jalapão — e o Parque do Cantão, onde Amazônia, Cerrado e Pantanal se encontram.",
     metaDescription:
-      "Tocantins com curadoria Create Travel: Jalapão, fervedouros e cachoeiras.",
+      "Tocantins com curadoria Create Travel: Jalapão e Parque Estadual do Cantão.",
     heroImageUrl:
       "https://images.unsplash.com/photo-1605649461784-edc01e9b2d1f?w=1920&h=1080&fit=crop",
-    destinationSlugs: ["brasil/jalapao"],
+    destinationSlugs: ["brasil/jalapao", "brasil/tocantins/parque-cantao"],
   },
   {
     slug: "roraima",
