@@ -71,6 +71,20 @@ export const brazilStates: BrazilState[] = [
       "https://images.unsplash.com/photo-1605649461784-edc01e9b2d1f?w=1920&h=1080&fit=crop",
     destinationSlugs: ["brasil/jalapao"],
   },
+  {
+    slug: "roraima",
+    uf: "RR",
+    name: "Roraima",
+    macroregion: "Norte",
+    kicker: "Norte • Brasil",
+    intro:
+      "Tepuis pré-cambrianos, savana aberta e o icônico Monte Roraima — um dos trekkings mais espetaculares da América do Sul.",
+    metaDescription:
+      "Roraima com curadoria Create Travel: Monte Roraima e travessia de tepuis.",
+    heroImageUrl:
+      "https://images.unsplash.com/photo-1518684079-3c830dcef090?w=1920&h=1080&fit=crop",
+    destinationSlugs: ["brasil/monte-roraima"],
+  },
 
   // ===== NORDESTE =====
   {
