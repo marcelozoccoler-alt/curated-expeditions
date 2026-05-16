@@ -1198,6 +1198,40 @@ export const destinations: Destination[] = [
       { q: "Como criar meu roteiro?", a: "Clique em Criar roteiro sob medida." }
     ]
   },
+  {
+    id: "europa-viena-budapeste-praga",
+    continent: "Europa",
+    country: "Áustria, Hungria & República Tcheca",
+    region: "Europa Central",
+    slug: "europa/conjugado/viena-budapeste-praga",
+    name: "Viena, Budapeste & Praga (de trem)",
+    bestTime: "Abr–Jun e Set–Out, com clima ameno e luz dourada nas cidades imperiais.",
+    tags: ["cultura", "gastronomia", "fotografia", "bem-estar", "familia"],
+    imageAiPrompt: "Ultra realistic editorial photo of Charles Bridge in Prague at golden hour with Prague Castle and baroque spires in the distance, warm honey light, cinematic depth, no people.",
+    imageOverrideUrl: "",
+    intro: "Três capitais imperiais conectadas por trens confortáveis e cênicos: Viena com sua elegância musical, Budapeste banhada pelo Danúbio e suas termas, e Praga com seus telhados vermelhos e ruas medievais. Um roteiro fluido, sem aeroportos, com o ritmo de uma viagem europeia clássica.",
+    highlights: [
+      "Ópera, palácios e cafés históricos em Viena",
+      "Termas e cruzeiro pelo Danúbio em Budapeste",
+      "Castelo de Praga, Ponte Carlos e Cidade Velha",
+      "Trens diurnos em primeira classe entre as capitais",
+      "Gastronomia centro-europeia com curadoria contemporânea"
+    ],
+    beyondUsual: [
+      "Concerto privado em palácio vienense, fora dos circuitos de turistas.",
+      "Banho noturno nas termas Széchenyi em Budapeste com transfer privado.",
+      "Caminhada ao amanhecer pela Ponte Carlos em Praga, antes da cidade acordar."
+    ],
+    stays: [],
+    faq: [
+      { q: "Qual a melhor ordem entre as cidades?", a: "Viena → Budapeste → Praga (ou o inverso) — trajetos curtos e cênicos de trem." },
+      { q: "Quanto tempo de trem entre as cidades?", a: "Viena–Budapeste em ~2h40; Viena–Praga em ~4h, ambos em trens modernos e confortáveis." },
+      { q: "Quantos dias devo ficar?", a: "10 a 14 noites para curtir cada capital com profundidade." },
+      { q: "Preciso de visto?", a: "Brasileiros não precisam de visto para turismo até 90 dias no espaço Schengen (com ETIAS a partir de 2026)." },
+      { q: "Dá para ir com crianças?", a: "Sim, é um dos melhores conjugados europeus para famílias — distâncias curtas e cidades caminháveis." },
+      { q: "Como criar meu roteiro?", a: "Clique em Criar roteiro sob medida e conte período e preferências." }
+    ]
+  },
 
   // ===== ÁSIA =====
   {
