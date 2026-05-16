@@ -223,6 +223,20 @@ export const brazilStates: BrazilState[] = [
       "brasil/nordeste/canyons-xingo",
     ],
   },
+  {
+    slug: "sergipe",
+    uf: "SE",
+    name: "Sergipe",
+    macroregion: "Nordeste",
+    kicker: "Nordeste • Brasil",
+    intro:
+      "O São Francisco em sua forma mais cinematográfica: paredões de até 80 metros nos Cânions do Xingó.",
+    metaDescription:
+      "Sergipe com curadoria Create Travel: Cânions do Xingó e São Francisco.",
+    heroImageUrl:
+      "https://images.unsplash.com/photo-1582719471327-19657df0ff67?w=1920&h=1080&fit=crop",
+    destinationSlugs: ["brasil/nordeste/canyons-xingo"],
+  },
 
   // ===== CENTRO-OESTE =====
   {
