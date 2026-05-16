@@ -1232,6 +1232,40 @@ export const destinations: Destination[] = [
       { q: "Como criar meu roteiro?", a: "Clique em Criar roteiro sob medida e conte período e preferências." }
     ]
   },
+  {
+    id: "europa-croacia",
+    continent: "Europa",
+    country: "Croácia",
+    region: "Costa Dálmata & Ilhas",
+    slug: "europa/croacia/dalmacia",
+    name: "Croácia (Costa Dálmata)",
+    bestTime: "Mai–Jun e Set–Out, com mar quente, menos multidão e luz mediterrânea perfeita.",
+    tags: ["navegacao", "praia", "cultura", "gastronomia", "fotografia", "familia"],
+    imageAiPrompt: "Ultra realistic editorial aerial photo of Dubrovnik old town walled city with terracotta rooftops over turquoise Adriatic sea at golden hour, sailboats, cinematic Mediterranean light, no people.",
+    imageOverrideUrl: "",
+    intro: "Mar Adriático em tons de turquesa, cidades muradas de pedra clara e ilhas que se sucedem como pérolas. Da elegância de Dubrovnik ao charme de Hvar e Split, a Croácia é uma das viagens mais sensoriais do Mediterrâneo — ainda mais quando explorada de veleiro.",
+    highlights: [
+      "Cidade Velha murada de Dubrovnik",
+      "Palácio de Diocleciano em Split",
+      "Ilhas de Hvar, Brač e Vis",
+      "Parque Nacional dos Lagos de Plitvice",
+      "Navegação privada pela Costa Dálmata"
+    ],
+    beyondUsual: [
+      "Charter privado de veleiro ou catamarã entre as ilhas, com tripulação e chef a bordo.",
+      "Jantar em konoba familiar em Hvar, longe dos circuitos turísticos.",
+      "Visita a produtor de azeite e vinho na ilha de Brač com degustação privada."
+    ],
+    stays: [],
+    faq: [
+      { q: "Qual a melhor época para visitar?", a: "Maio–junho e setembro–outubro: mar quente, clima ameno e menos multidão." },
+      { q: "Quantos dias devo ficar?", a: "10 a 14 noites para combinar costa, ilhas e Plitvice." },
+      { q: "Vale a pena alugar veleiro?", a: "Sim — é a maneira mais autêntica e fluida de explorar as ilhas dálmatas." },
+      { q: "Preciso de visto?", a: "Brasileiros não precisam de visto para turismo até 90 dias (Schengen, com ETIAS a partir de 2026)." },
+      { q: "Dá para combinar com outros destinos?", a: "Sim, conjugados com Itália, Eslovênia ou Montenegro funcionam muito bem." },
+      { q: "Como criar meu roteiro?", a: "Clique em Criar roteiro sob medida." }
+    ]
+  },
 
   // ===== ÁSIA =====
   {
