@@ -124,13 +124,42 @@ export const brazilStates: BrazilState[] = [
     intro:
       "Vento, dunas e o azul das lagoas. Jericoacoara e a Rota das Emoções definem um Nordeste autêntico e contemplativo.",
     metaDescription:
-      "Ceará com curadoria Create Travel: Jericoacoara e Rota das Emoções.",
+      "Ceará com curadoria Create Travel: Jericoacoara, Rota das Emoções e curadoria do litoral cearense.",
     heroImageUrl:
       "https://images.unsplash.com/photo-1583003860004-bc4ddb53a8eb?w=1920&h=1080&fit=crop",
     destinationSlugs: [
+      "brasil/litoral-cearense",
       "brasil/jericoacoara",
       "brasil/nordeste/rota-das-emocoes",
     ],
+  },
+  {
+    slug: "rio-grande-do-norte",
+    uf: "RN",
+    name: "Rio Grande do Norte",
+    macroregion: "Nordeste",
+    kicker: "Nordeste • Brasil",
+    intro:
+      "Pipa, Maracajaú e Galinhos: falésias avermelhadas, mar verde e vilas isoladas no Nordeste mais ventoso.",
+    metaDescription:
+      "Rio Grande do Norte com curadoria Create Travel: Pipa, Galinhos e litoral potiguar.",
+    heroImageUrl:
+      "https://images.unsplash.com/photo-1582719471327-19657df0ff67?w=1920&h=1080&fit=crop",
+    destinationSlugs: ["brasil/litoral-rio-grande-do-norte"],
+  },
+  {
+    slug: "paraiba",
+    uf: "PB",
+    name: "Paraíba",
+    macroregion: "Nordeste",
+    kicker: "Nordeste • Brasil",
+    intro:
+      "Coqueirinho, Tambaba e o ponto mais oriental das Américas: um litoral pequeno, charmoso e ainda discreto.",
+    metaDescription:
+      "Paraíba com curadoria Create Travel: Coqueirinho, Tambaba e litoral paraibano.",
+    heroImageUrl:
+      "https://images.unsplash.com/photo-1583003860004-bc4ddb53a8eb?w=1920&h=1080&fit=crop",
+    destinationSlugs: ["brasil/litoral-paraibano"],
   },
   {
     slug: "pernambuco",
@@ -139,12 +168,29 @@ export const brazilStates: BrazilState[] = [
     macroregion: "Nordeste",
     kicker: "Nordeste • Brasil",
     intro:
-      "Fernando de Noronha — arquipélago protegido, mergulhos icônicos e o mar mais bonito do Brasil.",
+      "De Fernando de Noronha ao litoral sul com Porto de Galinhas e Carneiros — mar transparente e história.",
     metaDescription:
-      "Pernambuco com curadoria Create Travel: Fernando de Noronha.",
+      "Pernambuco com curadoria Create Travel: Fernando de Noronha e litoral pernambucano.",
     heroImageUrl:
       "https://images.unsplash.com/photo-1516815231560-8f41ec531527?w=1920&h=1080&fit=crop",
-    destinationSlugs: ["brasil/fernando-de-noronha"],
+    destinationSlugs: [
+      "brasil/fernando-de-noronha",
+      "brasil/litoral-pernambucano",
+    ],
+  },
+  {
+    slug: "alagoas",
+    uf: "AL",
+    name: "Alagoas",
+    macroregion: "Nordeste",
+    kicker: "Nordeste • Brasil",
+    intro:
+      "Maragogi, Milagres e Patacho: piscinas naturais e vilas charmosas no Caribe brasileiro.",
+    metaDescription:
+      "Alagoas com curadoria Create Travel: Maragogi, São Miguel dos Milagres e litoral alagoano.",
+    heroImageUrl:
+      "https://images.unsplash.com/photo-1568550064743-3f3e4b15bf63?w=1920&h=1080&fit=crop",
+    destinationSlugs: ["brasil/litoral-alagoano"],
   },
   {
     slug: "bahia",
@@ -153,9 +199,9 @@ export const brazilStates: BrazilState[] = [
     macroregion: "Nordeste",
     kicker: "Nordeste • Brasil",
     intro:
-      "Da Chapada Diamantina à península de Maraú, passando por Salvador e Boipeba: a Bahia tem destinos para todos os ritmos.",
+      "Da Chapada Diamantina à península de Maraú, passando por Salvador, Boipeba e todo o litoral baiano.",
     metaDescription:
-      "Bahia com curadoria Create Travel: Chapada Diamantina, Salvador, Boipeba e Maraú.",
+      "Bahia com curadoria Create Travel: Chapada Diamantina, Salvador, Boipeba, Maraú e litoral baiano.",
     heroImageUrl:
       "https://images.unsplash.com/photo-1534430480872-3498386e7856?w=1920&h=1080&fit=crop",
     destinationSlugs: [
@@ -163,6 +209,7 @@ export const brazilStates: BrazilState[] = [
       "brasil/nordeste/salvador",
       "brasil/nordeste/boipeba",
       "brasil/nordeste/marau",
+      "brasil/litoral-baiano",
     ],
   },
 
@@ -221,12 +268,43 @@ export const brazilStates: BrazilState[] = [
     macroregion: "Sudeste",
     kicker: "Sudeste • Brasil",
     intro:
-      "A cidade maravilhosa em curadoria autoral: vistas, gastronomia, praia e bairros vivos — sem clichês.",
+      "A cidade maravilhosa e seu litoral: Búzios, Angra, Paraty e Trindade — sofisticação e natureza.",
     metaDescription:
-      "Rio de Janeiro com curadoria Create Travel: roteiros autorais na cidade maravilhosa.",
+      "Rio de Janeiro com curadoria Create Travel: cidade do Rio e litoral fluminense.",
     heroImageUrl:
       "https://images.unsplash.com/photo-1483729558449-99ef09a8c325?w=1920&h=1080&fit=crop",
-    destinationSlugs: ["brasil/sudeste/rio-de-janeiro"],
+    destinationSlugs: [
+      "brasil/sudeste/rio-de-janeiro",
+      "brasil/litoral-rio-de-janeiro",
+    ],
+  },
+  {
+    slug: "sao-paulo",
+    uf: "SP",
+    name: "São Paulo",
+    macroregion: "Sudeste",
+    kicker: "Sudeste • Brasil",
+    intro:
+      "Ilhabela, Ubatuba, São Sebastião e o litoral norte: Mata Atlântica e praias-cinema a poucas horas da capital.",
+    metaDescription:
+      "São Paulo com curadoria Create Travel: litoral paulista, Ilhabela e Ubatuba.",
+    heroImageUrl:
+      "https://images.unsplash.com/photo-1544413164-5f1b295eb435?w=1920&h=1080&fit=crop",
+    destinationSlugs: ["brasil/litoral-sao-paulo"],
+  },
+  {
+    slug: "espirito-santo",
+    uf: "ES",
+    name: "Espírito Santo",
+    macroregion: "Sudeste",
+    kicker: "Sudeste • Brasil",
+    intro:
+      "Itaúnas, Guarapari e a moqueca capixaba: um litoral pouco explorado e cheio de personalidade.",
+    metaDescription:
+      "Espírito Santo com curadoria Create Travel: Itaúnas, Guarapari e litoral capixaba.",
+    heroImageUrl:
+      "https://images.unsplash.com/photo-1559128010-7c1ad6e1b6a5?w=1920&h=1080&fit=crop",
+    destinationSlugs: ["brasil/litoral-espirito-santo"],
   },
 
   // ===== SUL =====
@@ -243,6 +321,20 @@ export const brazilStates: BrazilState[] = [
     heroImageUrl:
       "https://images.unsplash.com/photo-1547471080-7cc2caa01a7e?w=1920&h=1080&fit=crop",
     destinationSlugs: ["brasil/sul/cataratas-iguacu"],
+  },
+  {
+    slug: "santa-catarina",
+    uf: "SC",
+    name: "Santa Catarina",
+    macroregion: "Sul",
+    kicker: "Sul • Brasil",
+    intro:
+      "Praia do Rosa, Florianópolis e Bombinhas: Mata Atlântica encontrando o mar com gastronomia açoriana.",
+    metaDescription:
+      "Santa Catarina com curadoria Create Travel: Praia do Rosa, Floripa e litoral catarinense.",
+    heroImageUrl:
+      "https://images.unsplash.com/photo-1551845728-6820a30c64e1?w=1920&h=1080&fit=crop",
+    destinationSlugs: ["brasil/litoral-santa-catarina"],
   },
   {
     slug: "rio-grande-do-sul",
