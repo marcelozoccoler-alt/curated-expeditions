@@ -99,7 +99,7 @@ export const brazilStates: BrazilState[] = [
       "Maranhão com curadoria Create Travel: Lençóis Maranhenses, Atins e Caburé.",
     heroImageUrl:
       "https://images.unsplash.com/photo-1611348586804-61bf6c080437?w=1920&h=1080&fit=crop",
-    destinationSlugs: ["brasil/lencois-maranhenses"],
+    destinationSlugs: ["brasil/lencois-maranhenses", "brasil/chapada-das-mesas"],
   },
   {
     slug: "piaui",
