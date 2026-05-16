@@ -1,6 +1,30 @@
 // Brazilian states with destination mapping for hierarchical navigation:
 // Brasil → Estados → Destinos do estado → Roteiro
 
+import amazonasImg from "@/assets/states/amazonas.jpg";
+import paraImg from "@/assets/states/para.jpg";
+import roraimaImg from "@/assets/states/roraima.jpg";
+import tocantinsImg from "@/assets/states/tocantins.jpg";
+import maranhaoImg from "@/assets/states/maranhao.jpg";
+import piauiImg from "@/assets/states/piaui.jpg";
+import cearaImg from "@/assets/states/ceara.jpg";
+import rioGrandeDoNorteImg from "@/assets/states/rio-grande-do-norte.jpg";
+import paraibaImg from "@/assets/states/paraiba.jpg";
+import pernambucoImg from "@/assets/states/pernambuco.jpg";
+import alagoasImg from "@/assets/states/alagoas.jpg";
+import bahiaImg from "@/assets/states/bahia.jpg";
+import sergipeImg from "@/assets/states/sergipe.jpg";
+import matoGrossoImg from "@/assets/states/mato-grosso.jpg";
+import matoGrossoDoSulImg from "@/assets/states/mato-grosso-do-sul.jpg";
+import goiasImg from "@/assets/states/goias.jpg";
+import rioDeJaneiroImg from "@/assets/states/rio-de-janeiro.jpg";
+import saoPauloImg from "@/assets/states/sao-paulo.jpg";
+import espiritoSantoImg from "@/assets/states/espirito-santo.jpg";
+import minasGeraisImg from "@/assets/states/minas-gerais.jpg";
+import paranaImg from "@/assets/states/parana.jpg";
+import santaCatarinaImg from "@/assets/states/santa-catarina.jpg";
+import rioGrandeDoSulImg from "@/assets/states/rio-grande-do-sul.jpg";
+
 export type Macroregion =
   | "Norte"
   | "Nordeste"
