@@ -336,6 +336,26 @@ export const brazilStates: BrazilState[] = [
       "https://images.unsplash.com/photo-1559128010-7c1ad6e1b6a5?w=1920&h=1080&fit=crop",
     destinationSlugs: ["brasil/litoral-espirito-santo"],
   },
+  {
+    slug: "minas-gerais",
+    uf: "MG",
+    name: "Minas Gerais",
+    macroregion: "Sudeste",
+    kicker: "Sudeste • Brasil",
+    intro:
+      "Barroco mineiro, cerrado dramático, cavernas catedrais e a melhor gastronomia do Brasil. Da Estrada Real ao Peruaçu, com tempo para sentir.",
+    metaDescription:
+      "Minas Gerais com curadoria Create Travel: Estrada Real, Serra do Cipó, Canastra, Peruaçu, Cidades Históricas e Inhotim.",
+    heroImageUrl:
+      "https://images.unsplash.com/photo-1558981852-426c6c22a060?w=1920&h=1080&fit=crop",
+    destinationSlugs: [
+      "brasil/minas-gerais/estrada-real",
+      "brasil/minas-gerais/cidades-historicas-inhotim",
+      "brasil/minas-gerais/serra-do-cipo",
+      "brasil/minas-gerais/serra-da-canastra",
+      "brasil/minas-gerais/cavernas-do-peruacu",
+    ],
+  },
 
   // ===== SUL =====
   {
