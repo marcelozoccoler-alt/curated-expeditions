@@ -1,5 +1,6 @@
 import { Destination } from "./types";
 import monteRoraimaImg from "@/assets/destinations/brasil-monte-roraima.jpg";
+import festivalParintinsImg from "@/assets/destinations/brasil-amazonia-festival-parintins.jpg";
 
 export const destinations: Destination[] = [
   // ===== BRASIL =====
@@ -2650,7 +2651,7 @@ export const destinations: Destination[] = [
     bestTime: "Últimos 3 dias de junho (datas oficiais variam).",
     tags: ["cultura", "fotografia", "expedicao", "navegacao"],
     imageAiPrompt: "Ultra realistic photo of Parintins Folklore Festival arena, vibrant Boi Bumbá costumes in red and blue, fireworks above river island, evening, festive Amazonian atmosphere.",
-    imageOverrideUrl: "",
+    imageOverrideUrl: festivalParintinsImg,
     intro: "Um dos maiores espetáculos folclóricos do mundo: a disputa entre Bois Garantido e Caprichoso, em Parintins, no meio do Rio Amazonas. Logística cuidada e ingressos garantidos.",
     highlights: [
       "Três noites de apresentação no Bumbódromo",
