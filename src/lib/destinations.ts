@@ -2265,6 +2265,583 @@ export const destinations: Destination[] = [
       { q: "É seguro?", a: "Muito, apesar da fama da fauna perigosa." },
       { q: "Como criar roteiro?", a: "Clique em Criar roteiro sob medida." }
     ]
+  },
+
+  // ===== MINAS GERAIS =====
+  {
+    id: "brasil-minas-gerais-serra-do-cipo",
+    continent: "Brasil",
+    country: "Brasil",
+    region: "Minas Gerais",
+    slug: "brasil/minas-gerais/serra-do-cipo",
+    name: "Serra do Cipó",
+    bestTime: "Abr–Set (seca) para trilhas; Out–Mar para cachoeiras cheias.",
+    tags: ["natureza", "trekking", "fotografia", "aventura", "bem-estar"],
+    imageAiPrompt: "Ultra realistic photo of Serra do Cipó, cerrado plateau with quartzite cliffs and waterfall, golden hour, no people.",
+    imageOverrideUrl: "",
+    intro: "Cachoeiras, cânions e cerrado de altitude a poucas horas de Belo Horizonte. Trilhas com curadoria e pousadas-charme para desacelerar.",
+    highlights: [
+      "Cachoeira da Farofa e Cânion das Bandeirinhas",
+      "Cachoeira do Tabuleiro (vizinhança)",
+      "Trilhas pelo Parque Nacional",
+      "Pôr do sol no alto do Cipó",
+      "Gastronomia mineira em pousadas-fazenda"
+    ],
+    beyondUsual: [
+      "Trilhas guiadas com curadoria fora dos circuitos massificados.",
+      "Banho de cachoeira em horários silenciosos.",
+      "Combinações com Inhotim e Cidades Históricas."
+    ],
+    stays: [],
+    faq: [
+      { q: "Quantos dias ficar?", a: "3 a 4 noites para conhecer com tempo." },
+      { q: "Vai bem com crianças?", a: "Sim, com trilhas mais curtas e cachoeiras acessíveis." },
+      { q: "Combina com Inhotim?", a: "Sim, ótima dupla em poucos dias." },
+      { q: "Precisa de guia?", a: "Recomendado para as trilhas mais longas." },
+      { q: "Como criar roteiro?", a: "Clique em Criar roteiro sob medida." }
+    ]
+  },
+  {
+    id: "brasil-minas-gerais-serra-da-canastra",
+    continent: "Brasil",
+    country: "Brasil",
+    region: "Minas Gerais",
+    slug: "brasil/minas-gerais/serra-da-canastra",
+    name: "Serra da Canastra",
+    bestTime: "Mai–Set (seca) para trilhas e estradas; Out–Mar para cachoeiras cheias.",
+    tags: ["natureza", "trekking", "gastronomia", "remoto", "fotografia"],
+    imageAiPrompt: "Ultra realistic photo of Casca d'Anta waterfall in Serra da Canastra, vast plateau, soft morning light, no people.",
+    imageOverrideUrl: "",
+    intro: "Berço do Rio São Francisco e do melhor queijo do Brasil. Paisagem aberta, cachoeiras imensas e fazendas centenárias com curadoria.",
+    highlights: [
+      "Cachoeira Casca d'Anta (alto e baixo)",
+      "Nascente do Rio São Francisco",
+      "Rota do Queijo Canastra com produtores selecionados",
+      "Trilhas e cânions do parque nacional",
+      "Pôr do sol no alto da chapada"
+    ],
+    beyondUsual: [
+      "Visitas privativas a queijarias premiadas.",
+      "Cavalgadas em fazendas históricas.",
+      "Fotografia de cerrado com guias naturalistas."
+    ],
+    stays: [],
+    faq: [
+      { q: "Como chegar?", a: "Voo para Belo Horizonte ou Ribeirão Preto e road trip." },
+      { q: "Quantos dias?", a: "4 a 5 noites é o ideal." },
+      { q: "Tem queijo o ano inteiro?", a: "Sim, mas a estação seca facilita as visitas em estrada de terra." },
+      { q: "É bom para fotografia?", a: "Excelente: paisagens abertas, fauna e cachoeiras." },
+      { q: "Como criar roteiro?", a: "Clique em Criar roteiro sob medida." }
+    ]
+  },
+  {
+    id: "brasil-minas-gerais-estrada-real",
+    continent: "Brasil",
+    country: "Brasil",
+    region: "Minas Gerais",
+    slug: "brasil/minas-gerais/estrada-real",
+    name: "Estrada Real",
+    bestTime: "O ano inteiro; Abr–Set tem clima mais ameno e seco.",
+    tags: ["cultura", "gastronomia", "natureza", "fotografia", "bem-estar"],
+    imageAiPrompt: "Ultra realistic photo of a cobblestone street in Tiradentes, Minas Gerais, baroque church, warm afternoon light, no people.",
+    imageOverrideUrl: "",
+    intro: "A rota colonial do ouro: Tiradentes, São João del-Rei, Ouro Preto, Diamantina e mais. Roteiros lentos por cidades-museu com pousadas autorais.",
+    highlights: [
+      "Tiradentes e São João del-Rei",
+      "Ouro Preto e Mariana",
+      "Diamantina e Serro",
+      "Gastronomia mineira e cachaçarias",
+      "Trem da Maria Fumaça e ateliês de arte"
+    ],
+    beyondUsual: [
+      "Acesso a casas históricas particulares.",
+      "Jantares com chefs mineiros premiados.",
+      "Trilhas curtas conectando vilarejos."
+    ],
+    stays: [],
+    faq: [
+      { q: "Quantos dias para Estrada Real?", a: "5 a 8 noites combinando 3 a 4 cidades." },
+      { q: "Precisa de carro?", a: "Sim, ou transfer privativo entre cidades." },
+      { q: "Vai bem com casais?", a: "Sim, é um dos roteiros mais charmosos do Brasil." },
+      { q: "Combina com Serra do Cipó/Inhotim?", a: "Perfeitamente." },
+      { q: "Como criar roteiro?", a: "Clique em Criar roteiro sob medida." }
+    ]
+  },
+  {
+    id: "brasil-minas-gerais-cavernas-do-peruacu",
+    continent: "Brasil",
+    country: "Brasil",
+    region: "Minas Gerais",
+    slug: "brasil/minas-gerais/cavernas-do-peruacu",
+    name: "Parque Nacional Cavernas do Peruaçu",
+    bestTime: "Mai–Set (seca) para acesso pleno; chuvas dificultam estradas.",
+    tags: ["natureza", "expedicao", "fotografia", "remoto", "aventura"],
+    imageAiPrompt: "Ultra realistic photo of enormous limestone cave entrance at Peruaçu, dramatic light beams, no people.",
+    imageOverrideUrl: "",
+    intro: "Cavernas catedrais, arte rupestre e o cerrado mineiro mais selvagem. Patrimônio natural pouco visitado e absolutamente cinematográfico.",
+    highlights: [
+      "Gruta do Janelão (clarabóias gigantes)",
+      "Lapa do Boquete (arte rupestre)",
+      "Gruta dos Brejões",
+      "Cânion do Peruaçu",
+      "Cerrado e fauna do Norte de Minas"
+    ],
+    beyondUsual: [
+      "Guias especializados em arqueologia.",
+      "Saídas fotográficas dedicadas à luz das clarabóias.",
+      "Combinação com Grande Sertão Veredas."
+    ],
+    stays: [],
+    faq: [
+      { q: "Como chegar?", a: "Voo até Montes Claros e road trip de cerca de 3h." },
+      { q: "Precisa estar em forma?", a: "Condicionamento médio; trilhas até 3h." },
+      { q: "Quantos dias?", a: "3 a 4 noites." },
+      { q: "Tem boa hospedagem?", a: "Pousadas-charme em Januária e Itacarambi." },
+      { q: "Como criar roteiro?", a: "Clique em Criar roteiro sob medida." }
+    ]
+  },
+  {
+    id: "brasil-minas-gerais-cidades-historicas-inhotim",
+    continent: "Brasil",
+    country: "Brasil",
+    region: "Minas Gerais",
+    slug: "brasil/minas-gerais/cidades-historicas-inhotim",
+    name: "Cidades Históricas & Inhotim",
+    bestTime: "O ano inteiro; Abr–Set é mais seco.",
+    tags: ["cultura", "gastronomia", "fotografia", "bem-estar"],
+    imageAiPrompt: "Ultra realistic photo of Ouro Preto colonial baroque town and contemporary art pavilion in tropical garden (Inhotim mood), warm light, no people.",
+    imageOverrideUrl: "",
+    intro: "Barroco mineiro e arte contemporânea no mesmo roteiro: Ouro Preto, Mariana e o Instituto Inhotim, um dos maiores museus a céu aberto do mundo.",
+    highlights: [
+      "Inhotim: pavilhões de arte em jardim botânico",
+      "Ouro Preto e Mariana",
+      "Congonhas e os Profetas de Aleijadinho",
+      "Gastronomia mineira premiada",
+      "Pousadas-boutique em casarões coloniais"
+    ],
+    beyondUsual: [
+      "Visitas guiadas privativas em Inhotim.",
+      "Encontros com artistas em ateliês de Ouro Preto.",
+      "Jantares autorais com vinhos mineiros."
+    ],
+    stays: [],
+    faq: [
+      { q: "Inhotim merece quantos dias?", a: "2 dias é o ideal para curtir sem pressa." },
+      { q: "Quantos dias no total?", a: "5 a 7 noites combinando arte e história." },
+      { q: "Pode ir com crianças?", a: "Sim, Inhotim é encantador para todas as idades." },
+      { q: "Combina com Estrada Real?", a: "É parte dela — perfeito." },
+      { q: "Como criar roteiro?", a: "Clique em Criar roteiro sob medida." }
+    ]
+  },
+
+  // ===== TOCANTINS — CANTÃO =====
+  {
+    id: "brasil-tocantins-parque-cantao",
+    continent: "Brasil",
+    country: "Brasil",
+    region: "Tocantins",
+    slug: "brasil/tocantins/parque-cantao",
+    name: "Parque Estadual do Cantão",
+    bestTime: "Jun–Out (seca) para praias de rio e fauna; Nov–Mai (cheia) para igapós.",
+    tags: ["natureza", "navegacao", "fotografia", "remoto", "conservacao"],
+    imageAiPrompt: "Ultra realistic photo of Parque do Cantão, flooded forest with pink dolphin and mirror waters at sunset, no people.",
+    imageOverrideUrl: "",
+    intro: "Encontro entre Amazônia, Cerrado e Pantanal: lagos, igapós e fauna abundante em um dos parques mais bem preservados do Brasil.",
+    highlights: [
+      "Navegação em lagos e furos",
+      "Observação de botos cor-de-rosa",
+      "Pesca esportiva responsável (pirarucu, tucunaré)",
+      "Aves e jacarés em alta densidade",
+      "Praias de rio na seca"
+    ],
+    beyondUsual: [
+      "Pousada de selva com guias locais.",
+      "Saídas noturnas para focagem de fauna.",
+      "Roteiros fotográficos dedicados."
+    ],
+    stays: [],
+    faq: [
+      { q: "Como chegar?", a: "Voo a Palmas ou Araguaína e transfer a Caseara." },
+      { q: "Quantos dias?", a: "3 a 5 noites." },
+      { q: "Vai bem para famílias?", a: "Sim, com guias e logística cuidada." },
+      { q: "Combina com Jalapão?", a: "Sim, é o complemento perfeito." },
+      { q: "Como criar roteiro?", a: "Clique em Criar roteiro sob medida." }
+    ]
+  },
+
+  // ===== MATO GROSSO — extras =====
+  {
+    id: "brasil-mato-grosso-tres-ecossistemas",
+    continent: "Brasil",
+    country: "Brasil",
+    region: "Mato Grosso",
+    slug: "brasil/mato-grosso/tres-ecossistemas",
+    name: "Roteiro dos Três Ecossistemas",
+    bestTime: "Mai–Out (seca) para fauna no Pantanal e estradas; Nov–Mar para paisagens verdes.",
+    tags: ["safari", "fotografia", "natureza", "expedicao", "conservacao"],
+    imageAiPrompt: "Photo composition of Pantanal wetlands, Cerrado plateau and Amazon rainforest river, Mato Grosso, golden hour, no people.",
+    imageOverrideUrl: "",
+    intro: "Em uma só viagem, três Brasis: o cerrado da Chapada dos Guimarães, o Pantanal Norte (Porto Jofre) e a Amazônia meridional do Cristalino. Itinerário-assinatura da Create Travel.",
+    highlights: [
+      "Chapada dos Guimarães: cerrado e mirantes",
+      "Pantanal Norte: safáris de onça",
+      "Cristalino: Amazônia primária",
+      "Voos internos curtos e logística cuidada",
+      "Fotografia de fauna e paisagem"
+    ],
+    beyondUsual: [
+      "Guia naturalista acompanhando todo o roteiro.",
+      "Saídas privativas para fotografia.",
+      "Imersão cultural com comunidades locais."
+    ],
+    stays: ["caiman-pantanal"],
+    faq: [
+      { q: "Quantos dias preciso?", a: "Mínimo 10 a 12 noites." },
+      { q: "Qual a melhor época?", a: "Jul–Out para fauna no Pantanal." },
+      { q: "Vai bem para fotógrafos?", a: "É um dos melhores roteiros do mundo para safári." },
+      { q: "Tem conforto?", a: "Sim, lodges de referência em cada bioma." },
+      { q: "Como criar roteiro?", a: "Clique em Criar roteiro sob medida." }
+    ]
+  },
+  {
+    id: "brasil-mato-grosso-serra-do-roncador",
+    continent: "Brasil",
+    country: "Brasil",
+    region: "Mato Grosso",
+    slug: "brasil/mato-grosso/serra-do-roncador",
+    name: "Serra do Roncador",
+    bestTime: "Mai–Set (seca) para trilhas e estradas; Nov–Mar para cachoeiras cheias.",
+    tags: ["natureza", "expedicao", "remoto", "trekking", "fotografia"],
+    imageAiPrompt: "Ultra realistic photo of Serra do Roncador, dramatic red rocky mountains over cerrado plains, mystical atmosphere, no people.",
+    imageOverrideUrl: "",
+    intro: "Cerrado dramático, cachoeiras isoladas e energia única na fronteira entre Mato Grosso e Goiás. Aldeia Velha, Vale do Sol Nascente e mistérios indígenas Xavante.",
+    highlights: [
+      "Cachoeira do Segredo e Vale do Sol Nascente",
+      "Mirantes da Serra Azul",
+      "Trilhas no cerrado",
+      "Vivências respeitosas com cultura Xavante",
+      "Céu noturno extraordinário"
+    ],
+    beyondUsual: [
+      "Roteiros com guias locais experientes.",
+      "Combinação com Chapada dos Veadeiros.",
+      "Saídas fotográficas dedicadas."
+    ],
+    stays: [],
+    faq: [
+      { q: "Como chegar?", a: "Voo a Brasília ou Cuiabá e road trip até Aragarças/Barra do Garças." },
+      { q: "Quantos dias?", a: "5 a 7 noites." },
+      { q: "É para iniciantes?", a: "Trilhas leves a moderadas." },
+      { q: "Tem boa hospedagem?", a: "Pousadas-charme em Aragarças e cidades vizinhas." },
+      { q: "Como criar roteiro?", a: "Clique em Criar roteiro sob medida." }
+    ]
+  },
+
+  // ===== AMAZÔNIA — extras =====
+  {
+    id: "brasil-amazonia-mamiraua-uacari",
+    continent: "Brasil",
+    country: "Brasil",
+    region: "Amazônia",
+    slug: "brasil/amazonia/mamiraua-uacari",
+    name: "Mamirauá & Pousada Uacari",
+    bestTime: "Mai–Jul (cheia) para canoagem em igapós; Set–Nov (seca) para trilhas e fauna concentrada.",
+    tags: ["conservacao", "fotografia", "navegacao", "remoto", "expedicao"],
+    imageAiPrompt: "Ultra realistic photo of Mamirauá floating lodge on stilts over a black water river in flooded Amazon at sunrise, no people.",
+    imageOverrideUrl: "",
+    intro: "A Reserva de Mamirauá é a maior unidade de conservação de várzea do mundo. A Pousada Uacari, flutuante, é referência em ecoturismo, pesquisa e observação de fauna — incluindo onça, primatas raros e centenas de aves.",
+    highlights: [
+      "Roteiro de ecoturismo (4–5 noites)",
+      "Observação de aves com guias especializados",
+      "Observação de onças-pintadas em copas de árvores",
+      "Expedição fotográfica dedicada (luz e fauna)",
+      "Canoagem silenciosa em igapós"
+    ],
+    beyondUsual: [
+      "Encontros com pesquisadores do Instituto Mamirauá.",
+      "Vivências com comunidades ribeirinhas parceiras.",
+      "Saídas noturnas para fauna e céu amazônico."
+    ],
+    stays: [],
+    faq: [
+      { q: "Como chegar?", a: "Voo a Tefé (via Manaus) e voadeira até a pousada." },
+      { q: "Quantos dias?", a: "4 a 7 noites conforme foco." },
+      { q: "Vejo onça-pintada?", a: "Na cheia, a chance de avistamento em árvores é alta — sem garantias." },
+      { q: "Tem conforto?", a: "Sim, bangalôs flutuantes simples e charmosos, com energia solar." },
+      { q: "Como criar roteiro?", a: "Clique em Criar roteiro sob medida." }
+    ]
+  },
+  {
+    id: "brasil-amazonia-katerre",
+    continent: "Brasil",
+    country: "Brasil",
+    region: "Amazônia",
+    slug: "brasil/amazonia/katerre",
+    name: "Expedições Katerre (barco no Amazonas)",
+    bestTime: "O ano inteiro; cada estação revela um rio diferente.",
+    tags: ["navegacao", "expedicao", "fotografia", "conservacao", "remoto"],
+    imageAiPrompt: "Ultra realistic photo of traditional wooden Amazon riverboat with multiple decks navigating Rio Negro at sunset, no people visible.",
+    imageOverrideUrl: "",
+    intro: "O barco Katerre é uma forma de viver a Amazônia em movimento: cabines confortáveis, navegação por Rio Negro, Anavilhanas e afluentes pouco visitados — com curadoria e ritmo lento.",
+    highlights: [
+      "Navegações por Rio Negro e Anavilhanas",
+      "Roteiros de 4 a 8 noites a bordo",
+      "Trilhas, focagem noturna e canoagem",
+      "Encontros com comunidades ribeirinhas",
+      "Gastronomia regional em alto nível"
+    ],
+    beyondUsual: [
+      "Saídas exclusivas para fotografia.",
+      "Programas temáticos (aves, etnografia, conservação).",
+      "Charters privativos para grupos pequenos."
+    ],
+    stays: [],
+    faq: [
+      { q: "É indicado para famílias?", a: "Sim, com cabines amplas e atividades para diferentes idades." },
+      { q: "Quantos dias?", a: "Mínimo 4 noites a bordo." },
+      { q: "Posso combinar com lodge?", a: "Sim, Anavilhanas é o par ideal." },
+      { q: "Pega muito mosquito?", a: "No Rio Negro (águas pretas) é baixíssima a incidência." },
+      { q: "Como criar roteiro?", a: "Clique em Criar roteiro sob medida." }
+    ]
+  },
+  {
+    id: "brasil-amazonia-kaiara-alter-do-chao",
+    continent: "Brasil",
+    country: "Brasil",
+    region: "Amazônia",
+    slug: "brasil/amazonia/kaiara-alter-do-chao",
+    name: "Expedição Kaiara — Alter do Chão",
+    bestTime: "Ago–Jan (águas baixas) para praias de rio do Tapajós.",
+    tags: ["navegacao", "expedicao", "fotografia", "bem-estar", "remoto"],
+    imageAiPrompt: "Ultra realistic photo of expedition boat anchored near Alter do Chão white sand beaches and turquoise Tapajós river, no people.",
+    imageOverrideUrl: "",
+    intro: "A bordo do Kaiara, navegamos por Tapajós e Arapiuns: praias desertas, comunidades ribeirinhas, florestas e o melhor pôr do sol da Amazônia.",
+    highlights: [
+      "Navegação Tapajós–Arapiuns (4 a 6 noites)",
+      "Ilha do Amor e praias desertas",
+      "Floresta Nacional do Tapajós",
+      "Comunidades ribeirinhas com vivências autênticas",
+      "Pôr do sol e luas no rio"
+    ],
+    beyondUsual: [
+      "Saídas em canoa nas comunidades.",
+      "Yoga e bem-estar a bordo.",
+      "Roteiros fotográficos privativos."
+    ],
+    stays: [],
+    faq: [
+      { q: "Como chegar?", a: "Voo a Santarém e transfer para Alter do Chão." },
+      { q: "Quando é melhor?", a: "Set–Dez para praias e águas mais transparentes." },
+      { q: "Posso fazer só passeio diário?", a: "Sim, mas o melhor é embarcar por algumas noites." },
+      { q: "Combina com Mamirauá ou Anavilhanas?", a: "Sim, com voos internos." },
+      { q: "Como criar roteiro?", a: "Clique em Criar roteiro sob medida." }
+    ]
+  },
+
+  // ===== NORTE — FESTIVAIS FOLCLÓRICOS =====
+  {
+    id: "brasil-amazonia-festival-parintins",
+    continent: "Brasil",
+    country: "Brasil",
+    region: "Amazonas",
+    slug: "brasil/amazonia/festival-parintins",
+    name: "Festival Folclórico de Parintins",
+    bestTime: "Últimos 3 dias de junho (datas oficiais variam).",
+    tags: ["cultura", "fotografia", "expedicao", "navegacao"],
+    imageAiPrompt: "Ultra realistic photo of Parintins Folklore Festival arena, vibrant Boi Bumbá costumes in red and blue, fireworks above river island, evening, festive Amazonian atmosphere.",
+    imageOverrideUrl: "",
+    intro: "Um dos maiores espetáculos folclóricos do mundo: a disputa entre Bois Garantido e Caprichoso, em Parintins, no meio do Rio Amazonas. Logística cuidada e ingressos garantidos.",
+    highlights: [
+      "Três noites de apresentação no Bumbódromo",
+      "Hospedagem em barcos-hotel ou casas selecionadas",
+      "Vivências com brincantes e bastidores",
+      "Navegação pelo Rio Amazonas",
+      "Combinação com Manaus e Anavilhanas"
+    ],
+    beyondUsual: [
+      "Bastidores dos currais Garantido e Caprichoso.",
+      "Camarotes e ingressos premium.",
+      "Pacote fotográfico oficial."
+    ],
+    stays: [],
+    faq: [
+      { q: "Quando acontece?", a: "Nos últimos 3 dias de junho — datas oficiais variam." },
+      { q: "Como chegar?", a: "Voo a Manaus e fretado/cruzeiro a Parintins." },
+      { q: "Preciso reservar com antecedência?", a: "Sim, com no mínimo 6 a 9 meses de antecedência." },
+      { q: "Tem alternativa de hospedagem?", a: "Barcos-hotel, casas privativas e hotéis locais (limitados)." },
+      { q: "Como criar roteiro?", a: "Clique em Criar roteiro sob medida." }
+    ]
+  },
+  {
+    id: "brasil-amazonia-festival-caire",
+    continent: "Brasil",
+    country: "Brasil",
+    region: "Pará",
+    slug: "brasil/amazonia/festival-caire",
+    name: "Festival do Çairé — Alter do Chão",
+    bestTime: "Segunda quinzena de setembro (datas oficiais variam).",
+    tags: ["cultura", "fotografia", "navegacao", "bem-estar"],
+    imageAiPrompt: "Ultra realistic photo of Çairé folkloric festival in Alter do Chão, decorated symbolic mast, river beach at sunset, vibrant Amazonian cultural atmosphere.",
+    imageOverrideUrl: "",
+    intro: "Tradicional festa religiosa e folclórica de Alter do Chão, com procissões no rio, disputa entre os botos Tucuxi e Cor-de-Rosa e a beleza inigualável do Tapajós.",
+    highlights: [
+      "Procissão fluvial do Çairé",
+      "Apresentações dos botos Tucuxi e Cor-de-Rosa",
+      "Praias do Tapajós em alta temporada cultural",
+      "Gastronomia ribeirinha",
+      "Combinação com Expedição Kaiara"
+    ],
+    beyondUsual: [
+      "Hospedagem-boutique selecionada.",
+      "Acesso a comunidades e brincantes.",
+      "Saídas privativas de barco durante o festival."
+    ],
+    stays: [],
+    faq: [
+      { q: "Quando acontece?", a: "Geralmente na segunda quinzena de setembro." },
+      { q: "Como chegar?", a: "Voo a Santarém e transfer a Alter do Chão." },
+      { q: "Quantos dias?", a: "4 a 6 noites para vivenciar bem." },
+      { q: "Combina com Parintins?", a: "Não no mesmo período, mas como roteiros distintos no ano." },
+      { q: "Como criar roteiro?", a: "Clique em Criar roteiro sob medida." }
+    ]
+  },
+
+  // ===== BAHIA — ABROLHOS E COSTA DO DESCOBRIMENTO =====
+  {
+    id: "brasil-bahia-abrolhos-costa-descobrimento",
+    continent: "Brasil",
+    country: "Brasil",
+    region: "Bahia",
+    slug: "brasil/bahia/abrolhos-costa-descobrimento",
+    name: "Abrolhos & Costa do Descobrimento",
+    bestTime: "Jul–Nov para baleias-jubarte; Dez–Mar para mergulho e mar calmo.",
+    tags: ["navegacao", "conservacao", "fotografia", "expedicao", "natureza"],
+    imageAiPrompt: "Ultra realistic aerial photo of Abrolhos archipelago, turquoise waters, coral reefs, lighthouse on island, humpback whale silhouette below, no people.",
+    imageOverrideUrl: "",
+    intro: "O primeiro parque marinho do Brasil: ilhas vulcânicas, corais únicos no Atlântico Sul e o berço das baleias-jubarte. Roteiros combinam Abrolhos, Caraíva, Trancoso e os parques nacionais da Costa do Descobrimento.",
+    highlights: [
+      "Avistamento de baleias-jubarte (Jul–Nov)",
+      "Mergulho e snorkel nos chapeirões de coral",
+      "Arquipélago de Abrolhos e Farol de Santa Bárbara",
+      "Parques Nacionais Pau Brasil e Monte Pascoal",
+      "Trancoso, Caraíva e Corumbau"
+    ],
+    beyondUsual: [
+      "Embarcações de expedição com pernoite em Abrolhos.",
+      "Mergulhos guiados por biólogos.",
+      "Visitas a comunidades indígenas Pataxó."
+    ],
+    stays: [],
+    faq: [
+      { q: "Como se chega a Abrolhos?", a: "De Caravelas, em embarcações de bate-volta ou expedição." },
+      { q: "Vejo baleias garantido?", a: "Na temporada (Jul–Nov), a probabilidade é altíssima." },
+      { q: "Quantos dias?", a: "7 a 10 noites combinando Abrolhos e Costa do Descobrimento." },
+      { q: "Combina com Trancoso?", a: "Sim, é a combinação clássica da curadoria." },
+      { q: "Como criar roteiro?", a: "Clique em Criar roteiro sob medida." }
+    ]
+  },
+
+  // ===== NORDESTE — CANYONS E ROTA DAS FALÉSIAS =====
+  {
+    id: "brasil-nordeste-canyons-xingo",
+    continent: "Brasil",
+    country: "Brasil",
+    region: "Sergipe/Alagoas/Bahia",
+    slug: "brasil/nordeste/canyons-xingo",
+    name: "Cânions do Xingó",
+    bestTime: "O ano inteiro; Mai–Set tem clima mais ameno.",
+    tags: ["natureza", "navegacao", "fotografia", "aventura"],
+    imageAiPrompt: "Ultra realistic photo of Xingó canyons, São Francisco river through dramatic ochre red rock walls, calm green water, no people.",
+    imageOverrideUrl: "",
+    intro: "O São Francisco em sua forma mais cinematográfica: paredões avermelhados de até 80 metros, águas esverdeadas e silêncio. Acesso por Canindé do São Francisco (SE), Piranhas (AL) e Paulo Afonso (BA).",
+    highlights: [
+      "Navegação por catamarã ou lancha rápida",
+      "Banho nas águas verde-jade do São Francisco",
+      "Mirantes panorâmicos dos paredões",
+      "Vila histórica de Piranhas (AL)",
+      "Museu de Arqueologia de Xingó"
+    ],
+    beyondUsual: [
+      "Saídas privativas em horário silencioso.",
+      "Combinação com litoral alagoano e sergipano.",
+      "Fotografia dedicada à luz do entardecer."
+    ],
+    stays: [],
+    faq: [
+      { q: "Quantos dias?", a: "2 a 3 noites são suficientes." },
+      { q: "Como combinar?", a: "Com Maragogi, Aracaju ou Salvador." },
+      { q: "Tem boa hospedagem?", a: "Pousadas-charme em Piranhas e Canindé." },
+      { q: "É bom para crianças?", a: "Sim, passeios tranquilos de barco." },
+      { q: "Como criar roteiro?", a: "Clique em Criar roteiro sob medida." }
+    ]
+  },
+  {
+    id: "brasil-nordeste-rota-falesias-fortaleza-natal",
+    continent: "Brasil",
+    country: "Brasil",
+    region: "Ceará/Rio Grande do Norte",
+    slug: "brasil/nordeste/rota-falesias-fortaleza-natal",
+    name: "Rota das Falésias — Fortaleza a Natal",
+    bestTime: "Ago–Fev (sol e ventos) para a rota completa.",
+    tags: ["aventura", "fotografia", "natureza", "expedicao"],
+    imageAiPrompt: "Ultra realistic aerial photo of red sea cliffs and dunes along northeastern Brazilian coast, turquoise ocean, golden hour, no people.",
+    imageOverrideUrl: "",
+    intro: "Uma road trip pelo litoral mais cinematográfico do Brasil: falésias avermelhadas, dunas e vilas autênticas entre Fortaleza, Canoa Quebrada, Pipa e Natal, com travessias em buggy 4×4.",
+    highlights: [
+      "Canoa Quebrada e Praia das Fontes (CE)",
+      "Travessia de buggy por dunas e praias",
+      "Praia de Pipa (RN) e o Chapadão",
+      "Galinhos e Maracajaú",
+      "Pôr do sol em falésias coloridas"
+    ],
+    beyondUsual: [
+      "Bugueiros credenciados pela curadoria.",
+      "Pousadas-boutique selecionadas em cada parada.",
+      "Saídas fotográficas dedicadas ao amanhecer."
+    ],
+    stays: [],
+    faq: [
+      { q: "Quantos dias?", a: "7 a 10 noites para fazer com calma." },
+      { q: "Travessia de buggy é segura?", a: "Sim, com bugueiros credenciados." },
+      { q: "Posso fazer o caminho inverso?", a: "Sim, Natal → Fortaleza também funciona muito bem." },
+      { q: "Vai bem para casais?", a: "Sim, é um dos roteiros mais românticos do Nordeste." },
+      { q: "Como criar roteiro?", a: "Clique em Criar roteiro sob medida." }
+    ]
+  },
+
+  // ===== GOIÁS — PIRENÓPOLIS =====
+  {
+    id: "brasil-goias-pirenopolis",
+    continent: "Brasil",
+    country: "Brasil",
+    region: "Goiás",
+    slug: "brasil/goias/pirenopolis",
+    name: "Pirenópolis",
+    bestTime: "Abr–Set (seca) para trilhas; Out–Mar para cachoeiras cheias.",
+    tags: ["cultura", "natureza", "gastronomia", "bem-estar", "fotografia"],
+    imageAiPrompt: "Ultra realistic photo of Pirenópolis colonial church and cobblestone street with cerrado mountains in background, warm light, no people.",
+    imageOverrideUrl: "",
+    intro: "Cidade colonial preservada no cerrado goiano, com cachoeiras, vida cultural intensa e gastronomia premiada. Excelente complemento para Chapada dos Veadeiros ou Brasília.",
+    highlights: [
+      "Centro histórico (séc. XVIII) e Igreja Matriz",
+      "Cachoeiras do Abade, Bonsucesso e Santuário Vagafogo",
+      "Trilhas no Parque dos Pireneus",
+      "Festa do Divino e Cavalhadas",
+      "Restaurantes e ateliês de arte"
+    ],
+    beyondUsual: [
+      "Cachoeiras privativas com acesso curado.",
+      "Jantares-degustação com chefs locais.",
+      "Combinação com Chapada dos Veadeiros."
+    ],
+    stays: [],
+    faq: [
+      { q: "Quantos dias?", a: "3 a 4 noites." },
+      { q: "Como chegar?", a: "Voo a Brasília ou Goiânia e road trip (cerca de 2h)." },
+      { q: "É bom para famílias?", a: "Sim, com cachoeiras acessíveis." },
+      { q: "Combina com Chapada dos Veadeiros?", a: "Sim, é a combinação clássica." },
+      { q: "Como criar roteiro?", a: "Clique em Criar roteiro sob medida." }
+    ]
   }
 ];
 
