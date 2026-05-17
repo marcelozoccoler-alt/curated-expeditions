@@ -7,7 +7,7 @@ import { generateWhatsAppLink } from "@/lib/types";
 import { generateIncomingWhatsAppLink } from "@/lib/whatsappI18n";
 import { LanguageSwitcher } from "@/components/LanguageSwitcher";
 import { useLang } from "@/hooks/useLang";
-import logo from "@/assets/logo.jpg";
+import logo from "@/assets/logo.png";
 
 export const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
