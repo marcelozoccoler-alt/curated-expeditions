@@ -698,11 +698,11 @@ export const destinations: Destination[] = [
     imageOverrideUrl: "",
     intro: "Belém é a Amazônia urbana em sua forma mais saborosa: mercados centenários, cena gastronômica em ebulição e arquitetura belle époque banhada pelo rio. A poucas horas, a Ilha de Marajó revela búfalos, manguezais e um modo de vida ribeirinho único.",
     highlights: [
-      "Mercado Ver-o-Peso ao amanhecer",
-      "Estação das Docas e cena gastronômica paraense",
-      "Forte do Presépio e Cidade Velha",
-      "Travessia para Marajó e fazendas de búfalo",
-      "Praias de água doce e manguezais"
+      { title: "Mercado Ver-o-Peso ao amanhecer", story: "Quando o sol nasce sobre a Baía do Guajará, o maior mercado a céu aberto da América Latina já fervilha: pescadores descarregam pirarucu, tambaqui e filhote ainda úmidos, erveiras anunciam plantas medicinais com nomes que parecem encantamento — japana, marupazinho, mucuracaá — e o cheiro de tucupi, jambu e açaí fresco preenche o ar. Tomar um caldo de cumaru de pé, no balcão, é ritual de iniciação." },
+      { title: "Estação das Docas e cena gastronômica paraense", story: "Antigos galpões portuários viraram um dos polos gastronômicos mais vibrantes do Brasil. Restaurantes como Remanso do Bosque, Lá em Casa e Cozinha das Manas reinventam o tacacá, o pato no tucupi e o filhote na folha de bananeira com técnica contemporânea. Jantar diante do rio, com o som de aparelhagens de carimbó ao fundo, é Amazônia urbana em seu melhor estilo." },
+      { title: "Forte do Presépio e Cidade Velha", story: "É no Forte que Belém nasceu em 1616. Caminhar pela Cidade Velha ao entardecer, passando pela Catedral da Sé, Casa das Onze Janelas e ruelas de paralelepípedo, é folhear quatro séculos de história. Os casarões coloniais em tons pastel, mangueiras centenárias e o eco distante do sino da igreja compõem um cenário de tempo suspenso." },
+      { title: "Travessia para Marajó e fazendas de búfalo", story: "A maior ilha fluvial-marítima do mundo é território de búfalos — eles são tantos que viraram parte da paisagem, atravessando estradas, banhando-se em igarapés e produzindo um dos melhores queijos do Brasil. Hospedar-se em uma fazenda tradicional, andar a cavalo entre campos alagados e provar o filé de búfalo grelhado é viver a Amazônia mais surpreendente." },
+      { title: "Praias de água doce e manguezais", story: "Em Soure e Salvaterra, praias de areia clara são banhadas pelo encontro do rio com o mar — sem ondas, com água morna e jacarés-marrons à distância. Ao entardecer, passeios pelos manguezais revelam guarás-vermelhos voltando aos ninhos em revoadas que tingem o céu — uma das visões mais impactantes da Amazônia." }
     ],
     beyondUsual: [
       "Roteiro gastronômico com chef paraense entre mercados e bistrôs autorais.",
@@ -732,11 +732,11 @@ export const destinations: Destination[] = [
     imageOverrideUrl: "",
     intro: "Primeira capital do Brasil, Salvador é cultura em estado bruto: arquitetura colonial em tons vibrantes, ritmo afro-brasileiro pulsando nas ruas e uma das culinárias mais ricas do país. Cidade de camadas históricas e energia única.",
     highlights: [
-      "Pelourinho e Centro Histórico (Patrimônio UNESCO)",
-      "Igreja e Convento de São Francisco",
-      "Elevador Lacerda e Mercado Modelo",
-      "Igreja do Senhor do Bonfim",
-      "Praias da Barra, Itapuã e Stella Maris"
+      { title: "Pelourinho e Centro Histórico (Patrimônio UNESCO)", story: "Subir a ladeira do Pelourinho ao entardecer é caminhar por uma aquarela viva: casarões em ocre, lilás, turquesa e amarelo-ovo se inclinam sobre ruas de pedra, janelas se abrem com cortinas balançando, e a qualquer esquina pode surgir uma roda de samba ou um cortejo de bloco afro. O som dos tambores ecoa pelas paredes e parece sair do próprio chão." },
+      { title: "Igreja e Convento de São Francisco", story: "Por fora, fachada barroca discreta. Por dentro, uma explosão de quase uma tonelada de ouro cobrindo cada centímetro: altares, anjos, colunas torcidas, tetos esculpidos. Uma das obras-primas do barroco mundial — entrar é experimentar um silêncio reverencial diante de tanto excesso transformado em devoção." },
+      { title: "Elevador Lacerda e Mercado Modelo", story: "Construído em 1873, o Elevador Lacerda liga a Cidade Alta à Cidade Baixa em 30 segundos, com vista panorâmica para a Baía de Todos-os-Santos. Lá embaixo, o Mercado Modelo oferece artesanato baiano, instrumentos de capoeira, biojoias e o melhor acarajé na mão da Dinha — uma imersão sensorial completa." },
+      { title: "Igreja do Senhor do Bonfim", story: "Subir a colina sagrada do Bonfim, amarrar a fitinha colorida com três nós e três pedidos, e entrar na Sala dos Milagres — com centenas de fotos, próteses e cartas de gratidão — é vivenciar o sincretismo afro-católico que faz Salvador única. Devoção pulsante, pé descalço e fé visível por todos os cantos." },
+      { title: "Praias da Barra, Itapuã e Stella Maris", story: "Da Praia do Porto da Barra — eleita uma das melhores do mundo pelo The Guardian — até Stella Maris, Salvador tem 50 km de praias com piscinas naturais, coqueirais, barracas que servem moqueca e cerveja gelada. Ver o sol mergulhar atrás do Farol da Barra, com o céu tingido de laranja, é despedida obrigatória do dia." }
     ],
     beyondUsual: [
       "Roda de capoeira angola privada com mestre tradicional.",
@@ -766,11 +766,11 @@ export const destinations: Destination[] = [
     imageOverrideUrl: "",
     intro: "Ilha sem carros, sem multidão e com algumas das praias mais preservadas do Brasil. Boipeba é o refúgio baiano para quem busca lentidão, mar calmo e a sofisticação do simples — pés na areia, peixe fresco e silêncio.",
     highlights: [
-      "Praia de Moreré e suas piscinas naturais",
-      "Praia da Cueira e Tassimirim",
-      "Travessia a pé pela orla até Cova da Onça",
-      "Pôr do sol no Rio das Garças",
-      "Snorkel nos recifes de coral"
+      { title: "Praia de Moreré e suas piscinas naturais", story: "Na maré baixa, o oceano recua e revela piscinas de coral com água cristalina e morna, onde peixes coloridos se aproximam sem medo. Um quiosque rústico serve moqueca de peixe à beira-mar, redes balançam entre coqueiros, e o tempo desaparece — Moreré é definição perfeita do paraíso baiano." },
+      { title: "Praia da Cueira e Tassimirim", story: "Areia branca compactada perfeita para caminhadas, coqueirais inclinados sobre o mar e quase nenhuma construção à vista. Em Cueira e Tassimirim, é possível andar quilômetros sem cruzar com alguém — apenas o som das ondas, o vento nas palmeiras e a sensação rara de estar em um Brasil que ainda existe." },
+      { title: "Travessia a pé pela orla até Cova da Onça", story: "Caminhar pela areia firme da maré baixa por mais de 8 km, atravessando rios que desaguam no mar, vendo carangueijos correrem laterais e pescadores puxando redes, é uma das caminhadas mais bonitas do litoral brasileiro. Em Cova da Onça, o almoço com peixe na brasa é a recompensa perfeita." },
+      { title: "Pôr do sol no Rio das Garças", story: "Ao entardecer, barcos levam aos manguezais do Rio das Garças, onde guarás-vermelhos voltam aos ninhos em revoadas que tingem as árvores de escarlate. Com um drink na mão e o céu virando rosa, é um dos espetáculos mais cinematográficos da Bahia — silencioso, selvagem, inesquecível." },
+      { title: "Snorkel nos recifes de coral", story: "Os recifes de Moreré e Bainema abrigam peixes-borboleta, donzelas, peixes-papagaio e ouriços em águas mornas e calmas. Mesmo iniciantes podem flutuar com máscara e snorkel e mergulhar em um aquário natural — Boipeba é uma das melhores experiências de mergulho livre do nordeste." }
     ],
     beyondUsual: [
       "Charter privado de barco entre praias desertas, com chef e almoço a bordo.",
@@ -800,11 +800,11 @@ export const destinations: Destination[] = [
     imageOverrideUrl: "",
     intro: "Faixa de terra entre o Atlântico e a Baía de Camamu, Maraú reúne algumas das praias mais sofisticadas do Nordeste brasileiro — areia branca, manguezais e piscinas naturais formadas por recifes. Um refúgio para descanso de alto padrão.",
     highlights: [
-      "Praia de Taipus de Fora e suas piscinas naturais",
-      "Praia do Cassange e Algodões",
-      "Barra Grande e seu pôr do sol",
-      "Travessia pela Baía de Camamu",
-      "Trilhas costeiras e mangues"
+      { title: "Praia de Taipus de Fora e suas piscinas naturais", story: "Considerada uma das praias mais bonitas do Brasil: areia branca finíssima, coqueirais densos e, na maré baixa, piscinas naturais de coral com águas cor de aquamarine. Flutuar entre peixes coloridos, com o sol filtrando pela água translúcida, é experiência hipnótica — Taipus é razão suficiente para vir a Maraú." },
+      { title: "Praia do Cassange e Algodões", story: "Cassange tem 14 km de areia branca quase deserta, falésias avermelhadas e a Lagoa do Cassange (água doce) a poucos metros do mar — combinação rara no mundo. Algodões, ao lado, oferece pousadas-boutique sofisticadas com pé na areia, deck sobre o mar e jantares à luz de velas." },
+      { title: "Barra Grande e seu pôr do sol", story: "Vila de pescadores que virou refúgio sofisticado mantendo o charme rústico — ruas de areia, casas baixas, gente cumprimentando na rua. Ao entardecer, todos se reúnem no píer para ver o sol se pôr atrás da Ilha de Tinharé, com drinks de cajá e o som dos barcos balançando." },
+      { title: "Travessia pela Baía de Camamu", story: "A terceira maior baía do Brasil é um labirinto de ilhas, manguezais e águas calmas onde golfinhos cruzam o caminho do barco. Em escunas ou lanchas privativas, é possível parar em ilhas desertas, banhar em fontes de água doce e almoçar peixe fresco em pousadas-restaurante isoladas — dia inteiro em paraíso navegável." },
+      { title: "Trilhas costeiras e mangues", story: "Caminhar entre coqueirais até praias secretas como Saquaíra e Bombaça, ou explorar os manguezais de canoa nos rios que cortam a península, revela uma Maraú mais selvagem — guarás-vermelhos ao entardecer, raízes aéreas formando catedrais verdes, silêncio interrompido apenas pelo som da maré." }
     ],
     beyondUsual: [
       "Charter privado pela Baía de Camamu com paradas em ilhas desertas.",
@@ -836,11 +836,11 @@ export const destinations: Destination[] = [
     imageOverrideUrl: "",
     intro: "Águas tranquilas, piscinas naturais e pequenas vilas litorâneas: o Litoral Alagoano é o Caribe brasileiro em sua versão mais sofisticada e silenciosa.",
     highlights: [
-      "Maragogi e as Galés — piscinas naturais a 6 km da costa",
-      "São Miguel dos Milagres e a Rota Ecológica",
-      "Praia do Patacho e Lagoa Azeda",
-      "Praia do Gunga e falésias coloridas",
-      "Maceió, Pajuçara e jangadas para as piscinas naturais"
+      { title: "Maragogi e as Galés — piscinas naturais a 6 km da costa", story: "Catamarãs levam até as Galés, formações coralíneas em mar aberto onde a água tem 1,5m de profundidade e visibilidade infinita. Saltar com snorkel e ver peixes-papagaio, donzelas e ouriços em águas color aquamarine, a quilômetros da costa, com apenas o azul ao redor, é uma das experiências mais surreais do nordeste brasileiro." },
+      { title: "São Miguel dos Milagres e a Rota Ecológica", story: "Os 28 km da Rota Ecológica concentram pousadas-boutique de altíssimo nível pé na areia — sem cadeia hoteleira, sem barulho, sem multidão. Areia clara, mar verde-jade calmo, peixes-boi em projeto de preservação e jantares autorais à luz de velas. É o nordeste mais sofisticado e silencioso do Brasil." },
+      { title: "Praia do Patacho e Lagoa Azeda", story: "Patacho tem 4 km de areia branca, coqueirais cerrados e quase nenhuma construção — apenas pousadas escondidas na mata. A Lagoa Azeda, formada pelo encontro do rio com o mar, tem águas mornas em tons de verde-esmeralda perfeitas para boiar. Combinação de praia e lagoa rara no litoral brasileiro." },
+      { title: "Praia do Gunga e falésias coloridas", story: "Falésias listradas em tons de ocre, vermelho e branco descem dramaticamente até um mar transparente onde o rio Roteiro encontra o oceano. Subir o mirante para a vista panorâmica é parada obrigatória — e descer para passear de jangada entre coqueirais é completar o quadro de paraíso." },
+      { title: "Maceió, Pajuçara e jangadas para as piscinas naturais", story: "Da praia urbana de Pajuçara, jangadas coloridas levam a 2 km da costa onde, na maré baixa, surgem piscinas naturais de água cristalina. Saltar do barco, ver cardumes circulando os pés e tomar uma cerveja com o som do violão do jangadeiro é um dos rituais mais charmosos de Maceió." }
     ],
     beyondUsual: [
       "Pousadas-boutique pé na areia na Rota Ecológica.",
@@ -870,11 +870,11 @@ export const destinations: Destination[] = [
     imageOverrideUrl: "",
     intro: "De Porto de Galinhas a Tamandaré, o litoral de Pernambuco combina mar transparente, piscinas naturais, jangadas e vilas charmosas — com curadoria que foge do óbvio.",
     highlights: [
-      "Porto de Galinhas e suas piscinas naturais",
-      "Praia dos Carneiros e a capela à beira-mar",
-      "Tamandaré e Praia do Cupe",
-      "Maracaípe — surfe e ‘pôr do sol do rio’",
-      "Recife Antigo e Olinda como complemento cultural"
+      { title: "Porto de Galinhas e suas piscinas naturais", story: "Na maré baixa, jangadas coloridas levam até as piscinas naturais formadas pelos arrecifes a 100m da costa. Água cristalina, peixinhos circulando os tornozelos e o jangadeiro contando histórias do mar — um dos cartões-postais mais democráticos e charmosos do nordeste brasileiro." },
+      { title: "Praia dos Carneiros e a capela à beira-mar", story: "A icônica Capelinha de São Benedito ergue-se sobre a areia, com coqueirais inclinados e mar verde-jade ao fundo — uma das imagens mais fotografadas do Brasil. Catamarãs passam o dia ancorados em águas mornas e rasas, com bares flutuantes, peixe na brasa e sensação de paraíso desenhado." },
+      { title: "Tamandaré e Praia do Cupe", story: "Tamandaré tem mar tranquilo e fortaleza histórica de Santo Inácio com vista panorâmica. O Cupe, com seus 7 km de areia clara e palmeiras, abriga resorts elegantes e pousadas-boutique — refúgio sofisticado para quem busca conforto com mar bonito ao lado." },
+      { title: "Maracaípe — surfe e 'pôr do sol do rio'", story: "Pôr do sol no encontro do Rio Maracaípe com o mar é tradição: jangadeiros levam ao banco de areia onde se senta com pés na água doce-salgada vendo o sol mergulhar atrás dos manguezais. Crianças, cavalos, drinks de coco e o céu virando fogo — um dos finais de tarde mais bonitos de Pernambuco." },
+      { title: "Recife Antigo e Olinda como complemento cultural", story: "Recife Antigo recuperou casarões coloridos e ganhou bares de coquetelaria, livrarias e cena artística vibrante. Olinda, a poucos minutos, é Patrimônio UNESCO: ladeiras com igrejas barrocas, ateliês, frevo nas esquinas e mirantes para o mar. Cultura pernambucana em estado puro." }
     ],
     beyondUsual: [
       "Pousadas-boutique em Serrambi e Carneiros.",
@@ -904,12 +904,12 @@ export const destinations: Destination[] = [
     imageOverrideUrl: "",
     intro: "Mais de 1.000 km de costa: do norte sofisticado da Praia do Forte ao sul rústico de Trancoso, passando por Itacaré, Maraú e Boipeba. A Bahia tem praia para todo tipo de viajante.",
     highlights: [
-      "Praia do Forte e Costa do Sauípe — resorts e Projeto Tamar",
-      "Itacaré — surfe, cachoeiras e Mata Atlântica",
-      "Península de Maraú — Barra Grande e Taipus de Fora",
-      "Boipeba — vila isolada e mar transparente",
-      "Trancoso, Caraíva e Espelho — sul da Bahia atemporal",
-      "Morro de São Paulo — base clássica para 1ª viagem"
+      { title: "Praia do Forte e Costa do Sauípe — resorts e Projeto Tamar", story: "Vila charmosa de ruas de pedra, com a sede do Projeto Tamar onde se vê tartarugas marinhas em tanques de pesquisa e, na temporada, desovas na praia. Resorts pé na areia oferecem conforto familiar de alto padrão, e o Castelo Garcia D'Ávila, mais antiga construção militar das Américas, remete ao século XVI." },
+      { title: "Itacaré — surfe, cachoeiras e Mata Atlântica", story: "Praias selvagens cercadas por mata densa — Engenhoca, Havaizinho, Itacarezinho — com ondas perfeitas para surfe e trilhas curtas que terminam em areia branca. À noite, a Rua Pedro Longo vira polo gastronômico vibrante, com restaurantes autorais, música ao vivo e energia jovem e cosmopolita." },
+      { title: "Península de Maraú — Barra Grande e Taipus de Fora", story: "Vila de pescadores virada destino sofisticado mantendo o charme rústico. Taipus de Fora forma piscinas naturais de coral consideradas das mais bonitas do Brasil. Pousadas-boutique pé na areia, jantares à luz de velas e isolamento elegante — o melhor de Maraú é o tempo desacelerado." },
+      { title: "Boipeba — vila isolada e mar transparente", story: "Sem carros, sem estrada asfaltada, com mar transparente e praias quase desertas. Boipeba é a Bahia que ainda existe: ruas de areia, pescadores na rede, peixe fresco na brasa e silêncio. Para quem quer desconectar de verdade, sem abrir mão de pousadas-boutique de altíssimo nível." },
+      { title: "Trancoso, Caraíva e Espelho — sul da Bahia atemporal", story: "Trancoso e seu Quadrado em estilo colonial guardam restaurantes premiados e lojas de design autoral. Espelho tem 5 km de areia branca com piscinas naturais ao entardecer. Caraíva, sem energia elétrica nas ruas, mantém o ritmo de vila pesqueira — três tempos diferentes em 30 km de costa." },
+      { title: "Morro de São Paulo — base clássica para 1ª viagem", story: "Sem carros, com 4 praias numeradas que vão da animada à isolada, Morro reúne pousadas-boutique, escolas de mergulho, vida noturna na 2ª praia e piscinas naturais na 3ª e 4ª. Porta de entrada perfeita para quem visita o litoral baiano pela primeira vez e quer combinar conforto, charme e diversão." }
     ],
     beyondUsual: [
       "Casas privativas em Trancoso e Espelho com chef à disposição.",
@@ -939,12 +939,12 @@ export const destinations: Destination[] = [
     imageOverrideUrl: "",
     intro: "Dunas que invadem o mar, lagoas azuis e vilas de pescadores. O Ceará tem o litoral mais cinematográfico do Brasil — e a curadoria certa transforma a viagem.",
     highlights: [
-      "Jericoacoara — pôr do sol na duna e Pedra Furada",
-      "Lagoa do Paraíso e Lagoa Azul",
-      "Atins, Caburé e o ‘Litoral Pequenos Lençóis’ (transição com MA)",
-      "Praia de Tatajuba e Guriú",
-      "Canoa Quebrada, falésias e dunas coloridas",
-      "Cumbuco — kitesurf e dunas"
+      { title: "Jericoacoara — pôr do sol na duna e Pedra Furada", story: "Toda tarde, uma procissão silenciosa sobe a duna gigante para ver o sol mergulhar no Atlântico em um espetáculo de laranjas e violetas. A Pedra Furada, monumento natural esculpido pelo mar, vira moldura perfeita para fotos ao amanhecer. Jeri é cinematográfico em cada esquina." },
+      { title: "Lagoa do Paraíso e Lagoa Azul", story: "Águas mornas, transparentes e tão calmas que parecem espelhos. Redes amarradas dentro d'água, tábuas de madeira e barzinhos rústicos onde se passa a tarde inteira boiando, lendo e tomando água de coco. Lentidão organizada — uma das melhores invenções do litoral cearense." },
+      { title: "Atins, Caburé e o 'Litoral Pequenos Lençóis' (transição com MA)", story: "Saindo de Jeri rumo ao oeste, começam dunas e lagoas que prenunciam os Lençóis Maranhenses. Atins é vilarejo de pescadores com pousadas charmosas, kitesurf em águas planas e acesso direto às lagoas do Lençóis. Caburé, no encontro do Rio Preguiças com o mar, oferece pôr do sol duplo." },
+      { title: "Praia de Tatajuba e Guriú", story: "A leste de Jeri, dunas avançam sobre o mar formando paisagens lunares. A Lagoa da Torta tem rede dentro d'água e tirolesa, e o vilarejo de Guriú, atravessado pelo Rio Guriú, é refúgio rústico com cavalos-marinhos no manguezal e pôr do sol entre coqueiros e barcos." },
+      { title: "Canoa Quebrada, falésias e dunas coloridas", story: "Falésias vermelhas e ocre se erguem dramaticamente sobre o mar verde, e a Broadway concentra restaurantes, bares e lojas em ruas de areia. Passeios de buggy revelam o Labirinto das Falésias, dunas onde se desce de skibunda e mirantes com vista para as escarpas mais cinematográficas do Ceará." },
+      { title: "Cumbuco — kitesurf e dunas", story: "A 30 minutos de Fortaleza, Cumbuco virou meca mundial do kitesurf — ventos constantes, lagoas planas como espelhos e escolas de altíssimo nível. Buggy nas dunas, descidas em skibunda na Duna do Banana e o caju maduro vendido por crianças nas estradas completam a experiência." }
     ],
     beyondUsual: [
       "Pousadas-boutique pé na areia em Jericoacoara.",
@@ -974,12 +974,12 @@ export const destinations: Destination[] = [
     imageOverrideUrl: "",
     intro: "Falésias avermelhadas, mar verde-azulado e ventos constantes. O litoral potiguar reúne charme bucólico (Pipa) e natureza dramática (Maracajaú, Galinhos).",
     highlights: [
-      "Pipa — falésias, Baía dos Golfinhos e vida boêmia",
-      "Praia do Madeiro e Chapadão",
-      "Maracajaú — parrachos e mergulho",
-      "Galinhos — vila isolada com travessia de barco",
-      "São Miguel do Gostoso — kitesurf e vento constante",
-      "Natal e Genipabu — buggy nas dunas"
+      { title: "Pipa — falésias, Baía dos Golfinhos e vida boêmia", story: "Falésias avermelhadas se erguem sobre praias quase desertas, e na Baía dos Golfinhos é comum ver, do alto, dezenas de golfinhos brincando nas ondas próximas à costa. À noite, a Avenida Baía dos Golfinhos vira polo gastronômico vibrante — restaurantes autorais, drinks de frutas tropicais e ambiente cosmopolita." },
+      { title: "Praia do Madeiro e Chapadão", story: "Madeiro é meia-lua de areia clara abraçada por falésias verdes, com mar calmo perfeito para surf iniciante e SUP. O Chapadão, mirante natural no topo das falésias, oferece uma das vistas mais cinematográficas do litoral brasileiro — especialmente ao entardecer, com o sol tingindo as escarpas de cobre." },
+      { title: "Maracajaú — parrachos e mergulho", story: "Catamarãs levam até os parrachos a 7 km da costa: formações coralíneas em mar aberto onde se mergulha com snorkel ou cilindro entre peixes coloridos, raias e até pequenos tubarões inofensivos. Visibilidade excepcional — é o 'Caribe potiguar' em sua versão mais autêntica." },
+      { title: "Galinhos — vila isolada com travessia de barco", story: "Pequena península sem carros, acessível apenas de barco, onde se anda de charrete pelas ruas de areia. Salinas tingem a paisagem de rosa e branco, dunas se estendem até o horizonte, e o silêncio é absoluto. Refúgio para quem quer desaparecer do mundo por alguns dias." },
+      { title: "São Miguel do Gostoso — kitesurf e vento constante", story: "Vilarejo de pescadores virado destino de kitesurfistas do mundo inteiro — vento constante de 25 nós entre julho e janeiro, águas planas e pousadas charmosas. Atmosfera relaxada, cosmopolita e ainda preservada, com pôr do sol espetacular no Cajueiro." },
+      { title: "Natal e Genipabu — buggy nas dunas", story: "Em Genipabu, dunas vivas mudam de forma com o vento, e os bugueiros oferecem 'emoção, por favor!' — descidas em queda livre na areia, travessias de lagoas com buggy boiando e descida de esquibunda em encostas íngremes. Adrenalina pura, com o mar de fundo cinematográfico." }
     ],
     beyondUsual: [
       "Pousadas-boutique no alto das falésias em Pipa.",
@@ -1009,12 +1009,12 @@ export const destinations: Destination[] = [
     imageOverrideUrl: "",
     intro: "Pequeno, charmoso e ainda pouco conhecido. O litoral paraibano combina o Ponto Mais Oriental das Américas, falésias coloridas e vilas tranquilas.",
     highlights: [
-      "Praia do Coqueirinho — falésias multicoloridas",
-      "Tambaba — primeira praia naturista oficial do Brasil",
-      "Praia de Tabatinga e os mirantes",
-      "João Pessoa, Tambaú e o Pôr do Sol no Jacaré",
-      "Ponta do Seixas — ponto mais oriental das Américas",
-      "Areia Vermelha — banco de areia em alto-mar"
+      { title: "Praia do Coqueirinho — falésias multicoloridas", story: "Falésias listradas em vermelho, ocre, branco e amarelo descem sobre uma praia de areia clara e mar verde-jade. Cavernas naturais escavadas pelo mar, coqueirais inclinados e quase nenhuma estrutura — Coqueirinho é uma das praias mais belas e ainda pouco descobertas do nordeste brasileiro." },
+      { title: "Tambaba — primeira praia naturista oficial do Brasil", story: "Enseada protegida por falésias, com mar calmo e área dividida entre praia tradicional e zona naturista. A natureza preservada, o silêncio e o ambiente respeitoso fazem de Tambaba uma curiosidade cultural única no litoral brasileiro — visitar é experimentar uma praia onde o tempo parou em outra dimensão." },
+      { title: "Praia de Tabatinga e os mirantes", story: "Falésias vermelhas avançam sobre o mar formando enseadas dramáticas. Do alto dos mirantes, é comum avistar golfinhos cruzando as ondas próximos à costa e tartarugas nadando em águas cristalinas. Caminhar pelas falésias ao entardecer, com o céu tingindo o paredão de fogo, é momento inesquecível." },
+      { title: "João Pessoa, Tambaú e o Pôr do Sol no Jacaré", story: "Toda tarde, no Rio Paraíba, um saxofonista toca o Bolero de Ravel em um barco enquanto o sol mergulha no horizonte. Centenas de pessoas se reúnem em barcos e na margem para o ritual mais charmoso de João Pessoa — música, céu rosa e sensação de pertencimento coletivo." },
+      { title: "Ponta do Seixas — ponto mais oriental das Américas", story: "É aqui que o sol nasce primeiro nas Américas. Um marco geográfico, um farol e a sensação simbólica de estar no extremo leste de um continente inteiro. Ao amanhecer, ver os primeiros raios tocarem a terra com o oceano Atlântico se abrindo à frente é experiência de profundidade rara." },
+      { title: "Areia Vermelha — banco de areia em alto-mar", story: "Na maré baixa, um banco de areia surge a 3 km da costa em meio ao mar verde-azulado. Catamarãs levam dezenas de pessoas que passam o dia em piscinas naturais cristalinas, com música, drinks e a sensação surreal de estar em uma 'ilha' que aparece e desaparece com a maré." }
     ],
     beyondUsual: [
       "Pousadas-boutique no Conde, fora do circuito de massa.",
