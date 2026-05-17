@@ -70,7 +70,7 @@ export const Header = () => {
             <img
               src={logo}
               alt="Create Travel — balão"
-              className="h-16 md:h-20 w-auto object-contain transition-all"
+              className="h-20 md:h-24 w-auto object-contain transition-all"
             />
           </Link>
 
