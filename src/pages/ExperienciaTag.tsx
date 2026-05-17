@@ -241,7 +241,12 @@ const ExperienciaTag = () => {
           <div className="max-w-3xl mt-4">
             <div className="gold-line mb-6" />
             <h1 className="heading-hero mb-4">{tag.label}</h1>
-            <p className="text-lg md:text-xl text-primary-foreground/85 font-light">
+            {tag.pitch && (
+              <p className="text-xl md:text-2xl text-gold-light/90 font-serif italic leading-snug mb-4">
+                “{tag.pitch}”
+              </p>
+            )}
+            <p className="text-base md:text-lg text-primary-foreground/75 font-light">
               Destinos selecionados pela Create Travel para experiências de{" "}
               {tag.label.toLowerCase()}.
             </p>

@@ -2,30 +2,32 @@
 export interface Tag {
   id: string;
   label: string;
+  /** Chamada arrebatadora — desperta o desejo de viver a experiência. */
+  pitch?: string;
 }
 
 export const TAGS: Tag[] = [
-  { id: "safari", label: "Safári & vida selvagem" },
-  { id: "trekking", label: "Trekking & trilhas" },
-  { id: "lua-de-mel", label: "Lua de mel" },
-  { id: "cavalgadas", label: "Cavalgadas" },
-  { id: "mergulho", label: "Mergulho & snorkel" },
-  { id: "navegacao", label: "Navegação, rios & lagos" },
-  { id: "roadtrip", label: "Roadtrip cênica" },
-  { id: "gastronomia", label: "Gastronomia & vinhos" },
-  { id: "cultura", label: "Cultura & história" },
-  { id: "bem-estar", label: "Bem-estar & slow travel" },
-  { id: "fotografia", label: "Fotografia" },
-  { id: "familia", label: "Viagem em família" },
-  { id: "remoto", label: "Remoto & raro" },
-  { id: "conservacao", label: "Conservação & propósito" },
-  { id: "deserto", label: "Deserto" },
-  { id: "montanha", label: "Montanhas" },
-  { id: "praia", label: "Praias & ilhas" },
-  { id: "aurora", label: "Aurora boreal" },
-  { id: "expedicao", label: "Expedições" },
-  { id: "birdwatching", label: "Birdwatching" },
-  { id: "festivais-folcloricos", label: "Festivais folclóricos" },
+  { id: "safari", label: "Safári & vida selvagem", pitch: "O rugido distante ao amanhecer, a poeira dourada subindo atrás de uma manada — o safári é a viagem que devolve ao ser humano o sentido de pertencimento ao planeta vivo." },
+  { id: "trekking", label: "Trekking & trilhas", pitch: "Cada passo conquistado em altitude muda o que você acredita ser capaz. A montanha não devolve o mesmo viajante que a procurou." },
+  { id: "lua-de-mel", label: "Lua de mel", pitch: "O primeiro capítulo a dois merece um cenário à altura: silêncio, luxo discreto e memórias que vocês recontarão pelo resto da vida." },
+  { id: "cavalgadas", label: "Cavalgadas", pitch: "Sentir o galope sob o corpo e a planície abrindo-se no horizonte é redescobrir uma forma ancestral de liberdade." },
+  { id: "mergulho", label: "Mergulho & snorkel", pitch: "Abaixo da linha d'água existe um planeta paralelo: corais que respiram cor, cardumes em coreografia e a quietude que só o oceano sabe oferecer." },
+  { id: "navegacao", label: "Navegação, rios & lagos", pitch: "Deixar-se levar pela correnteza é uma forma de meditação. Cada curva do rio é um capítulo novo do mesmo livro." },
+  { id: "roadtrip", label: "Roadtrip cênica", pitch: "A estrada certa não é destino — é convite. Janela aberta, paisagem se reescrevendo a cada quilômetro e a sensação rara de ter o tempo nas mãos." },
+  { id: "gastronomia", label: "Gastronomia & vinhos", pitch: "Comer é a forma mais íntima de conhecer um lugar. Cada garfada conta a geografia, a história e o afeto de quem te recebe." },
+  { id: "cultura", label: "Cultura & história", pitch: "Caminhar onde séculos foram escritos é deixar-se atravessar pelas vidas que vieram antes — e voltar para casa um pouco mais inteiro." },
+  { id: "bem-estar", label: "Bem-estar & slow travel", pitch: "Existe um luxo maior do que tempo lento, silêncio verdadeiro e o direito de não ter pressa? É disso que se trata." },
+  { id: "fotografia", label: "Fotografia", pitch: "A luz certa só acontece uma vez. Viajar para fotografar é treinar o olhar para enxergar a beleza que escapa a todos os outros." },
+  { id: "familia", label: "Viagem em família", pitch: "As lembranças que seus filhos vão guardar para a vida toda não nascem em casa — nascem nas viagens em que vocês foram, juntos, descobrir o mundo." },
+  { id: "remoto", label: "Remoto & raro", pitch: "Há lugares onde menos de mil pessoas pisam por ano. Estar entre elas é a forma mais pura de privilégio que uma viagem pode oferecer." },
+  { id: "conservacao", label: "Conservação & propósito", pitch: "Viajar com propósito é deixar o lugar melhor do que você encontrou — e voltar para casa com a certeza de que sua presença importou." },
+  { id: "deserto", label: "Deserto", pitch: "O deserto não tem nada para te dar, exceto silêncio absoluto, estrelas que não cabem no céu e a versão mais essencial de si mesmo." },
+  { id: "montanha", label: "Montanhas", pitch: "No alto, o ar é mais raro, o pensamento mais limpo e a perspectiva muda para sempre. Subir é a forma mais antiga de oração." },
+  { id: "praia", label: "Praias & ilhas", pitch: "Areia clara, água que parece inventada, o tempo medido apenas pela maré. A ilha certa é o reset que o ano inteiro estava pedindo." },
+  { id: "aurora", label: "Aurora boreal", pitch: "Ver o céu dançar em verde e violeta sobre a neve é uma daquelas experiências que dividem a vida em antes e depois." },
+  { id: "expedicao", label: "Expedições", pitch: "Não é viagem — é travessia. Cada dia traz desafio, recompensa e a história que você vai contar pelo resto da vida." },
+  { id: "birdwatching", label: "Birdwatching", pitch: "Há mais de mil espécies esperando paciência e bons olhos. Quem aprende a observar aves nunca mais olha o mundo do mesmo jeito." },
+  { id: "festivais-folcloricos", label: "Festivais folclóricos", pitch: "Cor, tambor, dança e fé num único pulsar coletivo: presenciar um festival é entrar dentro da alma de um povo." },
 ];
 
 export const getTagLabel = (id: string): string => {
@@ -43,6 +45,20 @@ export interface FAQ {
   a: string;
 }
 
+// Highlight rico: pode ser apenas string (compat) ou {title, story}
+export interface HighlightDetail {
+  title: string;
+  /** Texto sensorial e arrebatador que desperta o desejo de vivenciar o destaque. */
+  story: string;
+}
+
+export type Highlight = string | HighlightDetail;
+
+export const getHighlightParts = (h: Highlight): { title: string; story?: string } => {
+  if (typeof h === "string") return { title: h };
+  return { title: h.title, story: h.story };
+};
+
 // Destination interface
 export interface Destination {
   id: string;
@@ -56,7 +72,7 @@ export interface Destination {
   imageAiPrompt: string;
   imageOverrideUrl: string;
   intro: string;
-  highlights: string[];
+  highlights: Highlight[];
   beyondUsual: string[];
   stays: string[];
   faq: FAQ[];

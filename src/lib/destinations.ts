@@ -1149,12 +1149,12 @@ export const destinations: Destination[] = [
     imageOverrideUrl: "",
     intro: "A serra paulista por excelência: araucárias centenárias, chalés de pedra, gastronomia de inverno e estradas cênicas a 3h de São Paulo.",
     highlights: [
-      "Campos do Jordão — Capivari, Horto Florestal e Pedra do Baú",
-      "Santo Antônio do Pinhal — vilarejo bucólico com vista para a serra",
-      "São Bento do Sapucaí — escalada na Pedra do Baú e cachoeiras",
-      "Monte Verde (divisa MG) — combinável em road trip",
-      "Ciclovia e Maria Fumaça entre Pindamonhangaba e Campos",
-      "Cervejarias artesanais e cafés de altitude"
+      { title: "Campos do Jordão — Capivari, Horto Florestal e Pedra do Baú", story: "É o entardecer no Capivari quando o ar fica azul e cheira a lenha queimando nas lareiras das padarias. Você caminha entre chalés enxaimel com fondue na vitrine, sobe ao Horto Florestal para se perder num bosque de araucárias centenárias e termina o dia com chocolate quente artesanal enquanto a serra escurece — a Suíça brasileira não é apelido publicitário, é experiência sensorial." },
+      { title: "Santo Antônio do Pinhal — vilarejo bucólico com vista para a serra", story: "A 1.400 m de altitude, a 25 min de Campos, este vilarejo é o segredo dos que querem o frio sem a multidão. Vacas pastando, fazendas de truticultura, ateliês de queijo artesanal, pôr do sol no Pico Agudo com parapente colorindo o céu e jantares íntimos em pousadas de oito quartos. É a Mantiqueira sem filtro de Instagram." },
+      { title: "São Bento do Sapucaí — escalada na Pedra do Baú e cachoeiras", story: "A silhueta da Pedra do Baú irrompe do horizonte como um monolito de Patagônia paulista. Aqui se escala via ferrata até o cume com guia, almoça-se pastel de feira numa praça pacata e se descobre cachoeiras escondidas entre bananais — a aventura de verdade está a duas horas e meia de São Paulo." },
+      { title: "Monte Verde (divisa MG) — combinável em road trip", story: "Cruzar para Minas pela serra é entrar em outra atmosfera: pinheiros, vento gelado, fogões a lenha e cervejarias artesanais a 1.500 m. Combinado com a Mantiqueira paulista, vira o road trip de inverno mais romântico do país — paradas curtas, sempre uma lareira esperando." },
+      { title: "Ciclovia e Maria Fumaça entre Pindamonhangaba e Campos", story: "O trem centenário ainda sopra fumaça subindo a serra como há 100 anos, atravessando viadutos e túneis cavados na pedra. Quem prefere pedal encara a ciclovia panorâmica entre vales de araucárias — duas formas analógicas e raras de sentir o relevo." },
+      { title: "Cervejarias artesanais e cafés de altitude", story: "A altitude mudou o terroir paulista: cervejarias premiadas como Baden Baden, microcafés de fazenda com grãos cultivados acima dos 1.200 m e harmonizações com truta defumada da casa. É a gastronomia de montanha brasileira no auge — e ninguém ainda descobriu direito." }
     ],
     beyondUsual: [
       "Jantar harmonizado em vinícolas de altitude da Mantiqueira.",
@@ -1184,12 +1184,12 @@ export const destinations: Destination[] = [
     imageOverrideUrl: "",
     intro: "Capital paulista da aventura: rafting, cachoeiras, tirolesa e canoagem no coração do cerrado, a 4h da capital — perfeito para famílias ativas.",
     highlights: [
-      "Rafting no Rio Jacaré-Pepira",
-      "Cachoeira Três Quedas e Cassorova",
-      "Tirolesas, rapel e arvorismo no Parque dos Saltos",
-      "Bóia-cross e canoagem para iniciantes",
-      "Analândia e a Cuesta de Itaqueri (mirantes geológicos)",
-      "Torrinha — grutas e cavernas pouco visitadas"
+      { title: "Rafting no Rio Jacaré-Pepira", story: "Cinco quilômetros de corredeiras nível 3 e 4 que misturam adrenalina e mata atlântica intocada. O bote sobe na crista, água espirra na cara, todo mundo grita junto — e na próxima curva o rio acalma e revela uma cachoeira escondida. É o batismo mais democrático na aventura: dos 10 aos 70 anos." },
+      { title: "Cachoeira Três Quedas e Cassorova", story: "A Cassorova despenca de 40 metros num poço verde-esmeralda cercado por floresta — você atravessa atrás da cortina d'água sentindo o vapor frio na pele. Na Três Quedas, três tobogãs naturais convidam ao rapel de cascata, equipamento completo, instrutor experiente, a memória de uma vida." },
+      { title: "Tirolesas, rapel e arvorismo no Parque dos Saltos", story: "300 metros de tirolesa cruzando o desfiladeiro do Jacaré-Pepira a 60 m de altura. O coração para na largada, o vento corta o rosto, e por 20 segundos você é uma ave sobre o cânion. Embaixo, arvorismo entre figueiras centenárias para encerrar com gosto de quero mais." },
+      { title: "Bóia-cross e canoagem para iniciantes", story: "Para quem prefere começar leve: deitar numa bóia e descer trechos cristalinos do Jacaré, vendo lambaris passando entre as pernas. É o tipo de experiência que crianças relembram a vida inteira — e os pais, também." },
+      { title: "Analândia e a Cuesta de Itaqueri (mirantes geológicos)", story: "Pedras vermelhas que parecem desenhadas a mão erguem-se sobre o cerrado como esculturas. O Morro do Camelo ao pôr do sol é cinema: o sol some atrás da Cuesta e o céu fica laranja-violeta. Pouca gente sabe que existe — e por isso continua mágico." },
+      { title: "Torrinha — grutas e cavernas pouco visitadas", story: "Espeleologia leve em cavernas de calcário com salões catedralescos, lagos subterrâneos e estalactites milenares. Visita técnica com guia local, capacete, lanterna — o tipo de descoberta que faz você se sentir explorador de verdade, sem sair do estado." }
     ],
     beyondUsual: [
       "Expedição de 2 dias descendo o Jacaré-Pepira com pernoite acampado.",
@@ -1219,12 +1219,12 @@ export const destinations: Destination[] = [
     imageOverrideUrl: "",
     intro: "Águas termais, ar de montanha e charme de cidades pequenas: o circuito reúne Serra Negra, Lindóia, Socorro, Águas de São Pedro e Holambra em road trip caipira.",
     highlights: [
-      "Serra Negra — bondinho, malharias e cafés de fazenda",
-      "Águas de Lindóia e Lindóia — fontes termais e parques",
-      "Socorro — turismo de aventura no Rio do Peixe",
-      "Águas de São Pedro — SPA termal e arquitetura art déco",
-      "Holambra — herança holandesa, tulipas e Expoflora",
-      "Amparo — centro histórico tombado e gastronomia rural"
+      { title: "Serra Negra — bondinho, malharias e cafés de fazenda", story: "Sobe-se de bondinho ao Cristo no topo da serra e a paisagem se abre 360°: vales de café, telhados coloniais, ar perfumado de eucalipto. Desce-se para vitrines de malhas finas feitas há gerações e termina o dia num café de fazenda que torra o próprio grão à vista — turismo lento, do jeito que era para ser." },
+      { title: "Águas de Lindóia e Lindóia — fontes termais e parques", story: "Águas medicinais brotando da rocha desde 1900, parques arborizados com bondes elétricos antigos, hotéis-fonte com piscinas termais aquecidas naturalmente. É o spa brasileiro do começo do século XX preservado intacto — banho de imersão num ritual centenário." },
+      { title: "Socorro — turismo de aventura no Rio do Peixe", story: "A surpresa do circuito: a cidade pequena tem uma das infraestruturas de aventura acessível mais avançadas do país, com tirolesa, rafting e arvorismo adaptados para PCDs. Inclusão de verdade, água cristalina, gente acolhedora — e ainda dá tempo de um chocolate quente na praça." },
+      { title: "Águas de São Pedro — SPA termal e arquitetura art déco", story: "Uma das menores cidades do Brasil, planejada nos anos 1940 como estância hidromineral, ainda preserva sua arquitetura art déco impecável. Fontes sulfurosas, hotéis com tratamentos termais, um centrinho onde se anda a pé — relíquia do turismo paulista que parece parar o tempo." },
+      { title: "Holambra — herança holandesa, tulipas e Expoflora", story: "Em setembro o município vira mar de tulipas, girassóis e moinhos de vento de verdade — não é cenografia. Pratos holandeses servidos em restaurantes administrados por descendentes, bicicletas pelas ruas, a maior feira de flores da América Latina. Um pedaço da Holanda no interior caipira." },
+      { title: "Amparo — centro histórico tombado e gastronomia rural", story: "Casario colonial preservado, igreja imperial, cafés numa praça com araucárias, fazendas-restaurante onde se almoça em mesa de tábua corrida — galinhada na panela de ferro, doces caseiros, vinho mineiro. O interior paulista no que ele tem de mais autêntico." }
     ],
     beyondUsual: [
       "Banhos termais privativos em hotel-fonte histórico.",
@@ -1254,12 +1254,12 @@ export const destinations: Destination[] = [
     imageOverrideUrl: "",
     intro: "A São Paulo profunda: vilarejos coloniais, ateliês de cerâmica, fazendas de café do ciclo imperial e a cultura caipira viva entre a Mantiqueira e a Serra do Mar.",
     highlights: [
-      "Cunha — capital paulista da cerâmica de alta temperatura (noborigamas)",
-      "São Luiz do Paraitinga — casario colonial e Carnaval de Marchinhas",
-      "Bananal — fazendas históricas do ciclo do café",
-      "Parque Nacional da Serra da Bocaina (acesso por Cunha)",
-      "Cachoeira do Pimenta e Mata Atlântica preservada",
-      "Roteiro de cachaças artesanais e queijos do Vale do Paraíba"
+      { title: "Cunha — capital paulista da cerâmica de alta temperatura (noborigamas)", story: "Mestres ceramistas mantêm fornos noborigama japoneses queimando lenha por 50 horas seguidas, produzindo peças únicas que estão em coleções de museus em Tóquio e Nova York. Visitar os ateliês é assistir a um ritual: barro, fogo, paciência e a beleza intencionalmente imperfeita do wabi-sabi nascendo nas mãos do artesão." },
+      { title: "São Luiz do Paraitinga — casario colonial e Carnaval de Marchinhas", story: "Reconstruída pedra por pedra após a enchente de 2010, a cidade é um dos casarios coloniais mais íntegros do estado. Em fevereiro, o Carnaval de Marchinhas reúne 50 mil pessoas cantando sambas antigos ao vivo, sem trio elétrico, sem violência — pura memória afetiva brasileira, vivida nas ruas." },
+      { title: "Bananal — fazendas históricas do ciclo do café", story: "Casarões imperiais do auge do café preservam senzalas, capelas, escadarias de pedra portuguesa e mobiliário do século XIX. Algumas viraram pousadas onde se dorme em quartos onde já passou D. Pedro II. Café da manhã servido em prata, vista para o cafezal — o luxo de habitar a história." },
+      { title: "Parque Nacional da Serra da Bocaina (acesso por Cunha)", story: "Uma das maiores áreas de Mata Atlântica preservada do país: araucárias, micos-leões-pretos, cachoeiras gigantes e a trilha do Ouro descendo de 1.500 m até Paraty pelos caminhos coloniais originais. Travessia épica em 3 dias com mulas, guia e bivaque." },
+      { title: "Cachoeira do Pimenta e Mata Atlântica preservada", story: "Vinte minutos de trilha leve entre samambaias gigantes levam a um poço de água gelada e cristalina com queda de 15 metros. Sem multidão, sem quiosque, sem rede — só você, a mata e o som da água. É o que sobra de uma natureza que quase perdemos." },
+      { title: "Roteiro de cachaças artesanais e queijos do Vale do Paraíba", story: "Alambiques familiares destilam cachaças envelhecidas em jequitibá e bálsamo enquanto queijarias produzem reblochon e camembert brasileiros premiados internacionalmente. Visita guiada com degustação, conversa com produtores, almoço caipira contemporâneo — gastronomia rural no nível dos melhores roteiros europeus." }
     ],
     beyondUsual: [
       "Visita guiada a ateliês de cerâmica com mestres-artesãos em Cunha.",
