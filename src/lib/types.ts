@@ -45,6 +45,20 @@ export interface FAQ {
   a: string;
 }
 
+// Highlight rico: pode ser apenas string (compat) ou {title, story}
+export interface HighlightDetail {
+  title: string;
+  /** Texto sensorial e arrebatador que desperta o desejo de vivenciar o destaque. */
+  story: string;
+}
+
+export type Highlight = string | HighlightDetail;
+
+export const getHighlightParts = (h: Highlight): { title: string; story?: string } => {
+  if (typeof h === "string") return { title: h };
+  return { title: h.title, story: h.story };
+};
+
 // Destination interface
 export interface Destination {
   id: string;
@@ -58,7 +72,7 @@ export interface Destination {
   imageAiPrompt: string;
   imageOverrideUrl: string;
   intro: string;
-  highlights: string[];
+  highlights: Highlight[];
   beyondUsual: string[];
   stays: string[];
   faq: FAQ[];
