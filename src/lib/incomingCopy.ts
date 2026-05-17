@@ -99,6 +99,13 @@ export const INCOMING_COPY: Record<Exclude<Lang, "pt">, IncomingCopy> = {
         "Private guides and 24/7 in-country support",
       ],
     },
+    expertise: {
+      heading: "Brazil on the palm of our hand",
+      lead: "We customise and combine one, two, three or more destinations into a single seamless journey — fly-and-drive, river boats, charter flights, scenic trains, bespoke transfers. Whatever it takes to make the country flow for you.",
+      destinationsLabel: "Destinations we design across Brazil",
+      destinations: "Amazônia (Manaus, Rio Negro, Anavilhanas, Mamirauá) · Alter do Chão · Belém & Ilha de Marajó · Monte Roraima · Lençóis Maranhenses · Chapada das Mesas · Jalapão · Chapada dos Veadeiros · Pirenópolis · Pantanal Norte (MT) · Pantanal Sul (MS) · Bonito & Serra da Bodoquena · Cristalino · Serra do Roncador · Chapada Diamantina · Salvador · Ilha de Boipeba · Península de Maraú · Abrolhos & Costa do Descobrimento · Fernando de Noronha · Litoral Pernambucano · Litoral Alagoano · Maragogi · Cânions do Xingó · Jericoacoara · Rota das Emoções · Rota das Falésias · Serra da Capivara · Rio de Janeiro · Cataratas do Iguaçu · Cânions do Sul · Florianópolis · Serra do Cipó · Serra da Canastra · Cidades Históricas & Inhotim · Estrada Real · Campos do Jordão",
+      biomes: "Local expertise across Brazil's 7 biomes — Amazon, Cerrado, Caatinga, Atlantic Forest, Pampa, Pantanal and Coastal-Marine — with trusted contacts in each one.",
+    },
     cta: {
       heading: "Ready to design your Brazil?",
       subheading:
