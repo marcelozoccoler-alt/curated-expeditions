@@ -2683,7 +2683,7 @@ export const destinations: Destination[] = [
     slug: "brasil/amazonia/festival-caire",
     name: "Festival do Çairé — Alter do Chão",
     bestTime: "Segunda quinzena de setembro (datas oficiais variam).",
-    tags: ["cultura", "fotografia", "navegacao", "bem-estar"],
+    tags: ["cultura", "fotografia", "navegacao", "bem-estar", "festivais-folcloricos"],
     imageAiPrompt: "Ultra realistic photo of Çairé folkloric festival in Alter do Chão, decorated symbolic mast, river beach at sunset, vibrant Amazonian cultural atmosphere.",
     imageOverrideUrl: "",
     intro: "Tradicional festa religiosa e folclórica de Alter do Chão, com procissões no rio, disputa entre os botos Tucuxi e Cor-de-Rosa e a beleza inigualável do Tapajós.",
