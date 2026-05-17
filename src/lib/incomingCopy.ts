@@ -275,7 +275,6 @@ export const INCOMING_COPY: Record<Exclude<Lang, "pt">, IncomingCopy> = {
       items: [
         "Brasilianische Agentur, vollständig lizenziert (Cadastur 21.030.190/0001-60)",
         "Direkte Beziehungen zu den Lodges, keine Wiederverkäufer",
-        "Concierge auf Englisch, Spanisch, Italienisch und Deutsch",
         "Private Guides und 24/7-Betreuung vor Ort",
       ],
     },
