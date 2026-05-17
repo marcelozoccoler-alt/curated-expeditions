@@ -2320,11 +2320,11 @@ export const destinations: Destination[] = [
     imageOverrideUrl: "",
     intro: "Paisagens que parecem cenário de filme: fiordes, montanhas e florestas intocadas. Nova Zelândia é aventura e contemplação em perfeito equilíbrio.",
     highlights: [
-      "Milford Sound e fiordes",
-      "Queenstown (capital da aventura)",
-      "Rotorua e cultura Maori",
-      "Trilhas Great Walks",
-      "Hobbiton e cenários de cinema"
+      { title: "Milford Sound e fiordes", story: "Atravessa-se a estrada Milford Road por florestas tropicais de selva neozelandesa, túneis cavados na rocha e mirantes de cascatas até desembocar no fiorde mais espetacular do planeta: Milford Sound, com paredes verticais de granito de 1.200m mergulhando direto no mar negro, cascatas como Stirling Falls (146m) caindo do nada e focas-de-pelo descansando em rochas. Em dias chuvosos — frequentes — milhares de cachoeiras temporárias surgem nas paredes simultaneamente." },
+      { title: "Queenstown (capital da aventura)", story: "Cravada às margens do Lago Wakatipu com vista para o cordão The Remarkables, Queenstown é onde se inventou o bungee jumping em 1988 (Kawarau Bridge, 43m). Lança-se em jet boats por cânions estreitos a 80 km/h, salta-se de paraquedas vendo Aoraki/Mount Cook ao fundo, ou simplesmente toma-se vinho Pinot Noir de Central Otago num terraço com vista do lago glacial — adrenalina e paisagem em equilíbrio raro." },
+      { title: "Rotorua e cultura Maori", story: "Cheira a enxofre na cidade inteira por causa da atividade geotérmica — gêiseres como o Pohutu disparam 30m no ar a cada hora em Te Puia, piscinas borbulhantes em Wai-O-Tapu pintam o chão com tons fluorescentes de laranja, verde e amarelo. À noite, hangi tradicional Maori — refeição cozida durante horas em buracos com pedras vulcânicas aquecidas, seguida de danças haka que estremecem o chão e a alma." },
+      { title: "Trilhas Great Walks", story: "A Routeburn Track atravessa em 3 dias o coração dos Alpes do Sul entre Mount Aspiring e Fiordland National Park, com vista de vales glaciais e camas em hut de montanha com fogão a lenha. A Milford Track de 4 dias é a 'finest walk in the world' segundo o Spectator de 1908; a Kepler e a Abel Tasman completam o quinteto dos sonhos para trekkers — paisagens variando de florestas subtropicais a campos alpinos em poucas horas." },
+      { title: "Hobbiton e cenários de cinema", story: "Em Matamata, na Ilha Norte, o set original do Condado de Hobbit foi mantido permanente após Peter Jackson rodar O Hobbit — caminha-se entre 44 buracos coloridos de hobbit com chaminés fumegantes, jardins floridos cuidadosamente mantidos e termina-se com cerveja no Green Dragon Inn com fogo crepitante na lareira. Para fãs, é peregrinação; para qualquer um, é a paisagem rural mais encantadora da Nova Zelândia." }
     ],
     beyondUsual: [
       "Great Walks menos conhecidas.",
