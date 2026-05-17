@@ -151,7 +151,6 @@ export const INCOMING_COPY: Record<Exclude<Lang, "pt">, IncomingCopy> = {
       items: [
         "Agencia brasileña con licencia (Cadastur 21.030.190/0001-60)",
         "Relación directa con los lodges, sin revendedores",
-        "Atención en inglés, español, italiano y alemán",
         "Guías privados y soporte 24/7 en destino",
       ],
     },
