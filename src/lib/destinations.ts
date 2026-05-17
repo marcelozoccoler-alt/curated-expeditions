@@ -1908,11 +1908,11 @@ export const destinations: Destination[] = [
     imageOverrideUrl: "",
     intro: "Colinas onduladas, ciprestes, vinhos e arte em cada esquina. A Toscana é a Itália em sua forma mais romântica e atemporal.",
     highlights: [
-      "Florença e seus tesouros",
-      "Siena e San Gimignano",
-      "Vinhos do Chianti e Montalcino",
-      "Colinas do Val d'Orcia",
-      "Gastronomia regional"
+      { title: "Florença e seus tesouros", story: "A Galleria degli Uffizi guarda Botticelli, Leonardo e Caravaggio numa sequência que rearranja a história da arte ocidental, mas é a Galleria dell'Accademia, com o David de Michelangelo no fim de um corredor longo e branco, que paralisa: aos 5,17 metros de mármore vivo, com veias visíveis no antebraço, entende-se de uma vez por que o Renascimento mudou o mundo. À noite, atravessa-se o Ponte Vecchio iluminado e janta-se bistecca alla fiorentina num bistrô em Oltrarno." },
+      { title: "Siena e San Gimignano", story: "A Piazza del Campo de Siena é uma concha medieval inclinada onde o Palio acontece duas vezes por ano — sentado num café às 18h, vê-se os locais conversarem em italiano cantado sob a torre del Mangia. San Gimignano é a 'Manhattan medieval', com 14 torres de pedra ainda em pé contra o céu toscano, e seus gelatos de saffron e gorgonzola na Gelateria Dondoli são considerados os melhores do mundo." },
+      { title: "Vinhos do Chianti e Montalcino", story: "Entre Florença e Siena, estradas brancas serpenteiam por vinhedos geométricos e cipestres em fila como soldados. Visita-se vinícolas familiares como Castello di Ama ou Felsina onde se desce em adegas seculares, prova-se Chianti Classico Riserva direto do barril e almoça-se debaixo de pérgulas com pasta artesanal e azeite recém-prensado. Em Montalcino, prova-se Brunello em terraços com vista do Val d'Orcia." },
+      { title: "Colinas do Val d'Orcia", story: "Patrimônio UNESCO de paisagem cultural, o Val d'Orcia é a Toscana das fotografias — cipestres alinhados em colinas onduladas, fazendas pintadas de ocre no fim de estradas brancas, ovelhas pastando sob luz dourada de fim de tarde. Dirige-se com janelas abertas entre Pienza (capital do pecorino), Montepulciano (Vino Nobile) e San Quirico d'Orcia, parando em qualquer trattoria para pici al ragù e Vino Nobile." },
+      { title: "Gastronomia regional", story: "A Toscana é austera na cozinha: pão sem sal porque historicamente custava caro, ribollita feita com pão duro e couve toscana, pappa al pomodoro grossa de pão e tomate, bistecca alla fiorentina assada apenas com sal e azeite. Faz-se cooking class em fattorias com a nonna, aprende-se a fazer pici à mão e janta-se à mesa coletiva tudo regado a Chianti da casa — três horas de almoço sem pressa nenhuma." }
     ],
     beyondUsual: [
       "Vinícolas boutique com degustações privadas.",
