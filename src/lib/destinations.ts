@@ -358,11 +358,11 @@ export const destinations: Destination[] = [
     imageOverrideUrl: "",
     intro: "Energia, natureza e misticismo no coração do cerrado. Cachoeiras de tirar o fôlego e uma comunidade vibrante em Alto Paraíso.",
     highlights: [
-      "Cachoeiras dentro e fora do parque",
-      "Trilhas no Parque Nacional",
-      "Vale da Lua e formações rochosas",
-      "Comunidades alternativas e bem-estar",
-      "Céu estrelado intenso"
+      { title: "Cachoeiras dentro e fora do parque", story: "Águas cristalinas despencam por paredões de quartzito e formam piscinas naturais cor de esmeralda. Em Almécegas, Loquinhas, Santa Bárbara e São Bento, cada cachoeira tem um ritmo: umas convidam ao banho contemplativo, outras ao salto adrenalínico. O som constante da água preenche o silêncio do cerrado." },
+      { title: "Trilhas no Parque Nacional", story: "Caminhar pelos Saltos do Rio Preto ou pelos Cânions é mergulhar no coração geológico mais antigo do Brasil — rochas com 1,8 bilhão de anos sob seus pés. A vegetação rasteira do cerrado se abre em mirantes vertiginosos, e o vento traz o perfume seco das ervas medicinais que tingem o ar de eucalipto e capim-limão." },
+      { title: "Vale da Lua e formações rochosas", story: "A água esculpiu a rocha por milênios até criar piscinas circulares, fendas profundas e superfícies lisas como porcelana. Caminhar pelo Vale da Lua ao entardecer é sentir-se em outro planeta — a luz dourada se reflete nas curvas minerais e o céu se prepara para um espetáculo de estrelas." },
+      { title: "Comunidades alternativas e bem-estar", story: "Alto Paraíso e São Jorge pulsam com retiros de yoga, terapeutas, músicos e cozinheiros que fizeram do cerrado seu refúgio. Cafés orgânicos, jantares vegetarianos à luz de vela e cerimônias de cura compõem uma atmosfera leve, onde o ritmo do corpo desacelera naturalmente." },
+      { title: "Céu estrelado intenso", story: "Longe das luzes urbanas e a 1.200 metros de altitude, o céu da Chapada se abre em uma cúpula de Via Láctea visível a olho nu. Deitar em uma esteira no Mirante da Janela e ver estrelas cadentes riscarem o firmamento é uma das experiências mais místicas que o Brasil oferece." }
     ],
     beyondUsual: [
       "Cachoeiras menos conhecidas fora do circuito turístico.",
@@ -392,11 +392,11 @@ export const destinations: Destination[] = [
     imageOverrideUrl: "",
     intro: "O arquipélago mais exclusivo do Brasil: águas cristalinas, vida marinha abundante e controle de visitação que preserva a magia.",
     highlights: [
-      "Praias paradisíacas e enseadas",
-      "Mergulho com tartarugas e golfinhos",
-      "Trilhas com vistas cinematográficas",
-      "Pôr do sol no Forte",
-      "Vida marinha única"
+      { title: "Praias paradisíacas e enseadas", story: "A Praia do Sancho — eleita várias vezes a mais bela do mundo — se revela apenas após descer uma escada cravada na falésia: areia clara, água em três tons de azul e peixes coloridos a poucos metros da margem. Baía dos Porcos, Cacimba do Padre e Atalaia compõem um colar de enseadas onde cada chegada é um espanto." },
+      { title: "Mergulho com tartarugas e golfinhos", story: "As águas de Noronha têm visibilidade que ultrapassa 40 metros e abrigam mais de 200 espécies de peixes, tartarugas-verdes que se alimentam calmamente nos corais e golfinhos-rotadores que executam saltos acrobáticos ao amanhecer na Baía dos Golfinhos. Mergulhar aqui é flutuar dentro de um aquário vivo." },
+      { title: "Trilhas com vistas cinematográficas", story: "A Trilha do Atalaia, do Capim-Açu e do Piquinho levam a mirantes onde o oceano Atlântico se estende em curvas dramáticas, com o Morro do Pico se elevando como uma escultura vulcânica. Cada ponto revela uma Noronha diferente — selvagem, vertical, esculpida pelo vento e pelo tempo." },
+      { title: "Pôr do sol no Forte", story: "No Forte Nossa Senhora dos Remédios, o sol mergulha no mar tingindo o céu de laranja, rosa e violeta enquanto a brisa traz o som das ondas batendo nas pedras. Um drink de cajá na mão, conversa baixa e a sensação rara de estar testemunhando um dos finais de tarde mais bonitos do planeta." },
+      { title: "Vida marinha única", story: "Tubarões-lixa repousam em fendas, arraias deslizam silenciosas, tartarugas-verdes pastam tranquilas e cardumes de peixes-cirurgião cintilam como prata em movimento. Noronha é santuário marinho preservado — cada mergulho é um privilégio raro de testemunhar a vida oceânica em equilíbrio." }
     ],
     beyondUsual: [
       "Mergulho em pontos menos frequentados com operadoras selecionadas.",
@@ -426,11 +426,11 @@ export const destinations: Destination[] = [
     imageOverrideUrl: "",
     intro: "Águas tão claras que parecem irreais. Bonito é ecoturismo referência: flutuação, grutas e natureza preservada pelo modelo sustentável.",
     highlights: [
-      "Flutuação em rios cristalinos",
-      "Gruta do Lago Azul",
-      "Cachoeiras e trilhas",
-      "Mergulho em abismos",
-      "Observação de fauna aquática"
+      { title: "Flutuação em rios cristalinos", story: "Vestir roupa de neoprene, máscara e snorkel e deixar-se levar pela correnteza suave do Rio Sucuri ou do Rio da Prata é entrar em um aquário vivo. Cardumes de dourados, piraputangas e curimbás passam a centímetros do seu rosto, enquanto a vegetação submersa balança como cabelos verdes na água translúcida." },
+      { title: "Gruta do Lago Azul", story: "Após descer 100 metros entre estalactites milenares, abre-se um lago de azul impossivelmente intenso, iluminado por um raio de sol que entra pela abertura da caverna entre setembro e fevereiro. O silêncio é absoluto, interrompido apenas pelo eco dos passos — uma das cenas mais surreais do Brasil." },
+      { title: "Cachoeiras e trilhas", story: "A Estância Mimosa e a Boca da Onça revelam um circuito de quedas escondidas na mata, onde se pode nadar em piscinas naturais sob cascatas espumantes. Trilhas leves entre o cerrado e a Mata Atlântica conduzem a tirolesas, rapéis e a piscinas naturais de água azul-turquesa." },
+      { title: "Mergulho em abismos", story: "O Abismo Anhumas é uma das experiências mais intensas do ecoturismo mundial: rapel de 72 metros até um lago subterrâneo cristalino onde se mergulha entre formações cônicas submersas que parecem catedrais de pedra. Um privilégio para poucos — limite diário rigoroso de visitantes." },
+      { title: "Observação de fauna aquática", story: "Sentar à beira do Rio Formoso e ver piraputangas saltarem para pegar frutos caídos é puro espetáculo. Aves aquáticas como o tuiuiú, lontras brincalhonas e jacarés ao entardecer compõem um cenário de vida abundante — Bonito é uma das melhores janelas para a fauna pantaneira sem entrar no Pantanal." }
     ],
     beyondUsual: [
       "Flutuações em rios menos visitados.",
@@ -460,11 +460,11 @@ export const destinations: Destination[] = [
     imageOverrideUrl: "",
     intro: "Vila de pescadores que virou ícone: dunas, lagoas e pôr do sol perfeito. Jeri equilibra rusticidade e conforto para quem busca o litoral brasileiro autêntico.",
     highlights: [
-      "Pôr do sol na Duna do Pôr do Sol",
-      "Lagoas de água doce",
-      "Kitesurf e windsurf",
-      "Passeios de buggy",
-      "Ruas de areia e vida noturna"
+      { title: "Pôr do sol na Duna do Pôr do Sol", story: "Toda tarde, uma procissão silenciosa sobe a duna gigante que abraça a vila. No topo, dezenas de pessoas se sentam na areia ainda morna, esperando o ritual: o sol mergulhando no Atlântico em um espetáculo de laranjas, rosas e violetas. Quando o último raio desaparece, vem o aplauso — uma das tradições mais bonitas do litoral brasileiro." },
+      { title: "Lagoas de água doce", story: "A Lagoa do Paraíso e a Lagoa Azul têm águas mornas, transparentes e tão calmas que parecem espelhos. Redes amarradas dentro d'água, tábuas de madeira e barzinhos rústicos compõem um cenário onde o tempo para — passar uma tarde inteira boiando, lendo e tomando água de coco é o programa." },
+      { title: "Kitesurf e windsurf", story: "Entre julho e dezembro, ventos constantes de 25 nós transformam Jeri em meca mundial do kite. Dezenas de velas coloridas cortam o céu sobre as ondas, atletas saltam metros no ar e a Lagoa do Cauípe oferece águas planas perfeitas para iniciantes. Pegar uma aula aqui é entrar em um ritual coletivo." },
+      { title: "Passeios de buggy", story: "Saltar em um buggy com 'emoção, por favor!' e cruzar dunas alaranjadas, atravessar rios com a água batendo nas portas e descer ladeiras de areia em queda livre é assinatura de Jeri. O motorista vira anfitrião, contando lendas locais e mostrando lagoas escondidas que só os iniciados conhecem." },
+      { title: "Ruas de areia e vida noturna", story: "Jeri não tem asfalto nem postes de luz — as ruas são tapetes de areia branca e à noite as estrelas brilham sobre a Rua Principal. Bares com música ao vivo, capoeira na praça, mesas na areia, drinks de frutas tropicais e encontros que se estendem até o amanhecer. Um charme rústico e cosmopolita ao mesmo tempo." }
     ],
     beyondUsual: [
       "Passeios a lagoas menos conhecidas fora do circuito.",
@@ -494,11 +494,11 @@ export const destinations: Destination[] = [
     imageOverrideUrl: "",
     intro: "Serra da Capivara é um dos sítios arqueológicos mais importantes do mundo: paredões de arenito esculpidos pelo tempo guardam pinturas rupestres com mais de 25 mil anos. Uma viagem rara, de profundidade histórica e paisagens de cinema na caatinga piauiense.",
     highlights: [
-      "Pinturas rupestres milenares em sítios ao ar livre",
-      "Trilhas pelos cânions e boqueirões de arenito",
-      "Museu do Homem Americano em São Raimundo Nonato",
-      "Pôr do sol no Desfiladeiro da Capivara",
-      "Visita ao Museu da Natureza"
+      { title: "Pinturas rupestres milenares em sítios ao ar livre", story: "Caminhar sob paredões de arenito ocre e ver cenas pintadas há mais de 25 mil anos — caçadas, danças, partos, rituais — é um arrepio raro. Os pigmentos vermelhos, amarelos e brancos resistiram ao tempo e contam histórias de povos que viveram aqui muito antes do que se imaginava possível nas Américas. Cada figura é um sussurro ancestral." },
+      { title: "Trilhas pelos cânions e boqueirões de arenito", story: "Os boqueirões da Pedra Furada e da Capivara abrem fendas dramáticas na caatinga, com paredões verticais avermelhados e silêncio absoluto. Caminhar entre eles ao amanhecer, quando a luz tangencial revela texturas e cores que à tarde desaparecem, é entrar em uma catedral natural esculpida pelo tempo geológico." },
+      { title: "Museu do Homem Americano em São Raimundo Nonato", story: "Um museu de nível internacional no sertão piauiense apresenta o trabalho da arqueóloga Niède Guidon, que provou a presença humana nas Américas há mais de 50 mil anos. Crânios, ferramentas, reconstituições e narrativas envolventes recolocam o Brasil no centro da história da humanidade." },
+      { title: "Pôr do sol no Desfiladeiro da Capivara", story: "No fim da tarde, os paredões de arenito ficam incandescentes, como se a pedra guardasse o sol dentro de si. Sentar-se em uma laje quente, ouvir o canto das araras-canindé voltando aos ninhos e ver o céu virar fogo é um dos finais de tarde mais cinematográficos do Brasil profundo." },
+      { title: "Visita ao Museu da Natureza", story: "Projeto arquitetônico contemporâneo de Niemeyer dialoga com a paisagem da caatinga e conta a história natural do bioma — sua fauna, flora, formação geológica e a vida dos primeiros habitantes. Uma experiência imersiva que prepara o olhar para enxergar a caatinga como rica, complexa e única no planeta." }
     ],
     beyondUsual: [
       "Guia local com leitura aprofundada das pinturas e contexto arqueológico.",
@@ -528,11 +528,11 @@ export const destinations: Destination[] = [
     imageOverrideUrl: "",
     intro: "No sul da Amazônia mato-grossense, a Reserva Particular do Patrimônio Natural Cristalino guarda uma das florestas mais bem preservadas do bioma. Rio de águas escuras, biodiversidade rara e torres de observação acima da copa: uma das experiências de natureza mais profundas do Brasil.",
     highlights: [
-      "Torres de observação a 50m acima da copa da floresta",
-      "Navegação pelo Rio Cristalino e seus afluentes",
-      "Trilhas interpretativas com guias naturalistas",
-      "Observação de aves raras (mais de 600 espécies)",
-      "Avistamento de primatas e fauna amazônica"
+      { title: "Torres de observação a 50m acima da copa da floresta", story: "Subir os 50 metros da torre antes do amanhecer é viver um privilégio raro: estar acima do dossel da Amazônia enquanto a floresta desperta. Bandos de araras vermelhas cruzam o céu rosado, tucanos cantam, macacos-aranha pulam entre galhos e a neblina se levanta como um lençol — uma das experiências de natureza mais profundas do Brasil." },
+      { title: "Navegação pelo Rio Cristalino e seus afluentes", story: "O Cristalino é um rio de águas escuras e límpidas que serpenteia entre paredões de floresta intocada. Em barcos silenciosos ao entardecer, é possível ver onças-pintadas descansando nas margens, ariranhas pescando, capivaras em famílias e o reflexo perfeito da mata na superfície imóvel da água." },
+      { title: "Trilhas interpretativas com guias naturalistas", story: "Os guias do Cristalino Lodge são entre os mais qualificados da Amazônia — biólogos que decifram pegadas, sons, plantas medicinais e cantos de aves com precisão de cientistas. Cada caminhada se transforma em aula viva sobre o bioma mais complexo do planeta." },
+      { title: "Observação de aves raras (mais de 600 espécies)", story: "Para birdwatchers, Cristalino é destino de peregrinação mundial: mais de 600 espécies catalogadas, incluindo o gavião-real, o uirapuru, o galo-da-serra e dezenas de espécies endêmicas. Cada saída ao amanhecer é uma nova lista, novos cantos, novas plumagens deslumbrantes." },
+      { title: "Avistamento de primatas e fauna amazônica", story: "Macacos-aranha, macacos-prego, micos-de-cheiro e o raro zogue-zogue habitam a reserva. Em silêncio, é possível ver antas atravessando trilhas, queixadas em bandos, jaguatiricas e até, com sorte, a sombra de uma onça-pintada — a maior densidade de fauna acessível ao visitante na Amazônia brasileira." }
     ],
     beyondUsual: [
       "Amanhecer no topo da torre, com a floresta despertando em camadas de som.",
@@ -562,11 +562,11 @@ export const destinations: Destination[] = [
     imageOverrideUrl: "",
     intro: "Cidade-paisagem onde montanha, mata e mar se encontram em escala dramática. O Rio é cultura viva, gastronomia em ascensão e mirantes inesquecíveis — uma das cidades mais cenográficas do planeta, com camadas para muito além do óbvio.",
     highlights: [
-      "Cristo Redentor e Pão de Açúcar",
-      "Praias de Ipanema, Leblon e Copacabana",
-      "Centro histórico e Boulevard Olímpico",
-      "Floresta da Tijuca e mirantes",
-      "Cena gastronômica e cultural contemporânea"
+      { title: "Cristo Redentor e Pão de Açúcar", story: "Subir ao Corcovado ao amanhecer, quando o Rio ainda dorme sob uma neblina dourada e o Cristo se ergue contra o céu rosa, é um momento de quase silêncio espiritual. Do Pão de Açúcar, ao entardecer, a cidade se acende em luzes enquanto a baía vira espelho — duas perspectivas que mostram por que o Rio é considerado uma das paisagens mais belas do planeta." },
+      { title: "Praias de Ipanema, Leblon e Copacabana", story: "Cada praia tem sua tribo, seu ritmo e seu posto. Em Ipanema, o pôr do sol no Arpoador é aplaudido coletivamente todos os dias. No Leblon, a brisa traz o cheiro de água de coco e protetor solar. Em Copacabana, o calçadão de Burle Marx é palco de futevôlei, samba e encontros — a praia carioca é cultura viva." },
+      { title: "Centro histórico e Boulevard Olímpico", story: "Caminhar pelo Largo da Carioca, Confeitaria Colombo, Igreja da Candelária e Theatro Municipal é folhear séculos de história brasileira. No Boulevard Olímpico, o Museu do Amanhã e o MAR convivem com murais gigantes de Kobra — um Rio contemporâneo, vibrante e em reinvenção constante." },
+      { title: "Floresta da Tijuca e mirantes", story: "A maior floresta urbana do mundo guarda cachoeiras escondidas, trilhas para o Pico da Tijuca, e mirantes como o Vista Chinesa e a Mesa do Imperador, com vistas panorâmicas da cidade abraçada pela mata. Uma cidade onde, em 30 minutos, você sai do asfalto e entra na Mata Atlântica intacta." },
+      { title: "Cena gastronômica e cultural contemporânea", story: "Restaurantes como Oro, Lasai e Olympe figuram entre os melhores do mundo, e a nova geração de chefs reinventa a cozinha carioca com ingredientes da Mata Atlântica e do mar. Bares de música ao vivo em Santa Teresa, samba na Pedra do Sal e MPB no Beco das Garrafas compõem uma trilha sonora inesquecível." }
     ],
     beyondUsual: [
       "Trilha guiada até o topo do Morro Dois Irmãos ao amanhecer.",
@@ -596,11 +596,11 @@ export const destinations: Destination[] = [
     imageOverrideUrl: "",
     intro: "Uma das maiores maravilhas naturais do planeta: 275 quedas espalhadas em ferradura, cercadas pela Mata Atlântica preservada. Iguaçu é potência sensorial — som, água e luz em escala monumental — e merece curadoria de tempo e ritmo.",
     highlights: [
-      "Trilha das Cataratas no lado brasileiro",
-      "Garganta do Diabo no lado argentino",
-      "Macuco Safari (passeio de barco até as quedas)",
-      "Voo de helicóptero sobre as Cataratas",
-      "Parque das Aves e Itaipu Binacional"
+      { title: "Trilha das Cataratas no lado brasileiro", story: "A trilha panorâmica revela as cataratas em camadas — primeiro como sussurro distante, depois como rugido. No fim, uma passarela avança sobre o rio em meio à Garganta do Diabo, e a água cai com tamanha força que o vapor sobe em jatos verticais, criando arco-íris duplos que parecem dançar. Sair molhado faz parte do ritual." },
+      { title: "Garganta do Diabo no lado argentino", story: "Pelo lado argentino, um trenzinho leva até passarelas que avançam sobre o rio até o exato ponto onde 1.500 m³ de água por segundo despencam 80 metros em uma fenda em U. O barulho é ensurdecedor, o vapor encobre o corpo, e a sensação é de estar à beira do fim do mundo — visceral e inesquecível." },
+      { title: "Macuco Safari (passeio de barco até as quedas)", story: "Lanchas potentes sobem o rio Iguaçu até entrar literalmente embaixo das quedas. A água golpeia o rosto, o barco balança e o coração dispara — uma das experiências mais adrenalínicas e refrescantes do Brasil. Sair encharcado, rindo e com a alma lavada é garantido." },
+      { title: "Voo de helicóptero sobre as Cataratas", story: "Vistas do alto, as cataratas revelam sua escala monumental — uma ferradura de 2,7 km de extensão com 275 quedas separadas, cercada de floresta verde-esmeralda até onde a vista alcança. Em 10 minutos de voo, a perspectiva muda para sempre: a magnitude do espetáculo só se compreende do céu." },
+      { title: "Parque das Aves e Itaipu Binacional", story: "O Parque das Aves abriga tucanos, araras, harpias e flamingos em recintos imersivos onde se caminha dentro dos viveiros — uma das melhores experiências de educação ambiental do país. Itaipu, ao lado, impressiona pela engenharia: uma das maiores hidrelétricas do mundo, com tour iluminado à noite que vira espetáculo." }
     ],
     beyondUsual: [
       "Café da manhã no Belmond Hotel das Cataratas, com acesso exclusivo ao parque antes da abertura.",
@@ -630,11 +630,11 @@ export const destinations: Destination[] = [
     imageOverrideUrl: "",
     intro: "Paredões verticais de basalto que cortam o planalto entre Santa Catarina e Rio Grande do Sul. Os cânions do sul são uma das paisagens mais imponentes do Brasil — silêncio, araucárias e abismos que se revelam entre névoas e luz dourada.",
     highlights: [
-      "Cânion Itaimbezinho e Trilha do Vértice",
-      "Cânion Fortaleza com seus mirantes",
-      "Cascata do Tigre Preto",
-      "Vilarejo de Cambará do Sul",
-      "Trilha do Rio do Boi (no fundo do cânion)"
+      { title: "Cânion Itaimbezinho e Trilha do Vértice", story: "A Trilha do Vértice leva ao mirante onde o Itaimbezinho se abre como uma ferida na terra — 720 metros de profundidade, paredões verticais de basalto e a Cascata das Andorinhas caindo em fios prateados. Em dias de neblina, as nuvens entram pelo cânion como rios de algodão, e a vista vira pintura abstrata." },
+      { title: "Cânion Fortaleza com seus mirantes", story: "Maior e mais imponente que o Itaimbezinho, o Fortaleza tem 7,5 km de extensão e 900 metros de profundidade. Caminhar pela borda, com araucárias se silhuetando contra o céu e o vento gelado trazendo o som distante de uma cascata, é uma experiência de pequenez diante da escala geológica." },
+      { title: "Cascata do Tigre Preto", story: "No fundo do Cânion Itaimbezinho, escondida entre paredões cobertos de bromélias e samambaias gigantes, está uma cascata de 350 metros que cai em queda livre. Avistá-la do mirante exclusivo é uma das visões mais dramáticas do sul do Brasil — a natureza em estado bruto." },
+      { title: "Vilarejo de Cambará do Sul", story: "Cambará é a base perfeita: vilarejo serrano com lareiras crepitando, fondues, vinhos da serra gaúcha e queijos artesanais. As pousadas têm aquela hospitalidade gaúcha quente, e em noites de inverno é comum geada cobrir os campos — uma raridade no Brasil que vale a viagem." },
+      { title: "Trilha do Rio do Boi (no fundo do cânion)", story: "Caminhar pelo leito do Rio do Boi, com paredões de 700 metros se erguendo dos dois lados, é entrar em uma catedral natural. A trilha exige guia, atravessa o rio várias vezes e leva a poços de água gelada cristalina — uma das aventuras mais visceralmente bonitas do Brasil." }
     ],
     beyondUsual: [
       "Saída fotográfica ao amanhecer no Fortaleza, quando a névoa se levanta dos paredões.",
@@ -664,11 +664,11 @@ export const destinations: Destination[] = [
     imageOverrideUrl: "",
     intro: "Três paisagens brasileiras singulares ligadas por uma rota cênica entre Ceará, Piauí e Maranhão: Jericoacoara com seu vento e dunas, o labiríntico Delta do Parnaíba e os irreais Lençóis Maranhenses. Uma das jornadas mais sensoriais do Brasil.",
     highlights: [
-      "Pôr do sol na Duna do Pôr do Sol em Jericoacoara",
-      "Navegação pelos furos do Delta do Parnaíba",
-      "Lagoas Azul e Bonita nos Lençóis Maranhenses",
-      "Vilarejo de Atins e Caburé",
-      "Travessia 4x4 entre as três paisagens"
+      { title: "Pôr do sol na Duna do Pôr do Sol em Jericoacoara", story: "Toda tarde, uma procissão silenciosa sobe a duna gigante. No topo, dezenas de pessoas se sentam na areia ainda morna, esperando o sol mergulhar no Atlântico em um espetáculo de laranjas e violetas. Quando o último raio desaparece, vem o aplauso coletivo — uma das tradições mais bonitas do litoral brasileiro." },
+      { title: "Navegação pelos furos do Delta do Parnaíba", story: "O único delta em mar aberto das Américas é um labirinto de 75 ilhas, mangues densos e canais espelhados onde a luz dourada se reflete na água. Navegar de catamarã ou barco regional, ver guarás-vermelhos voltarem aos ninhos ao entardecer e ouvir o silêncio absoluto do mangue é mágico." },
+      { title: "Lagoas Azul e Bonita nos Lençóis Maranhenses", story: "Entre julho e setembro, as dunas brancas guardam centenas de lagoas de água doce em tons impossíveis de turquesa e esmeralda. Caminhar descalço pela areia fina e morna até mergulhar em uma lagoa cercada apenas por dunas é uma das sensações mais purificantes que o Brasil oferece." },
+      { title: "Vilarejo de Atins e Caburé", story: "Atins é a porta de entrada dos Lençóis pelo lado mais autêntico — vilarejo de pescadores com ruas de areia, pousadas charmosas e jantares à base de peixes frescos. Caburé, entre o rio e o mar, oferece pôr do sol duplo: o Atlântico de um lado, o Rio Preguiças do outro." },
+      { title: "Travessia 4x4 entre as três paisagens", story: "A Rota das Emoções é feita de travessias inesquecíveis: 4x4 cruzando dunas e rios, balsas atravessando o Delta, lanchas singrando o Parnaíba. Cada deslocamento é parte do espetáculo, e a paisagem muda diante dos olhos — do verde do mangue ao ocre das falésias e ao branco absoluto dos Lençóis." }
     ],
     beyondUsual: [
       "Voo panorâmico de teco-teco sobre os Lençóis ao amanhecer.",
