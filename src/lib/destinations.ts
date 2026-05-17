@@ -1770,11 +1770,11 @@ export const destinations: Destination[] = [
     imageOverrideUrl: "",
     intro: "O coração do império Inca: Machu Picchu, vale fértil e tradições vivas. Peru é história, gastronomia e paisagens andinas em uma viagem.",
     highlights: [
-      "Machu Picchu ao amanhecer",
-      "Vale Sagrado dos Incas",
-      "Cusco colonial e pré-colombiano",
-      "Mercados e gastronomia peruana",
-      "Trilhas incas (Salkantay, Lares)"
+      { title: "Machu Picchu ao amanhecer", story: "Entrar pelo Inti Punku (Portal do Sol) às 6h da manhã e ver a cidadela emergir lentamente da neblina, com o Huayna Picchu recortando o céu atrás, é uma experiência que reorganiza qualquer ideia preconcebida sobre o que humanos foram capazes de construir em 1450. O silêncio dos primeiros 20 minutos — antes da chegada dos trens — é o luxo absoluto desta visita." },
+      { title: "Vale Sagrado dos Incas", story: "Entre Pisac e Ollantaytambo o rio Urubamba serpenteia por um vale fértil onde os Incas plantavam milho cerimonial em terraços que ainda funcionam hoje. Visita-se Moray, onde anfiteatros circulares concêntricos criavam microclimas para experimentação agrícola, e as salinas de Maras — 4.500 poças brancas escalonadas no flanco da montanha desde antes do Império Inca." },
+      { title: "Cusco colonial e pré-colombiano", story: "A capital inca é uma sobreposição arquitetônica única no mundo: igrejas barrocas espanholas construídas literalmente sobre paredes incas de pedras poliédricas que se encaixam sem argamassa há 600 anos. Caminha-se pela rua Loreto à noite, encosta-se a mão na pedra dos doze ângulos e sente-se a precisão impossível de uma civilização que não conhecia a roda." },
+      { title: "Mercados e gastronomia peruana", story: "No mercado de San Pedro, vendedoras com tranças e polleras coloridas oferecem 3.800 variedades de batata, suco de rã (sim, viva), milho gigante de Urubamba e queijos andinos. À noite, restaurantes como Cicciolina ou MIL (de Virgilio Martínez, a 3.680m em Moray) servem cozinha andina contemporânea que faz da viagem também uma peregrinação gastronômica." },
+      { title: "Trilhas incas (Salkantay, Lares)", story: "Para quem quer chegar a Machu Picchu pelos pés, a clássica Inca Trail de 4 dias atravessa três passes a 4.200m com ruínas a cada curva; a Salkantay é mais selvagem, contornando uma montanha sagrada de 6.271m; a Lares mistura caminhada com visitas a comunidades quéchuas onde se dorme com famílias e se aprende a tecer com lã de alpaca tingida em raízes." }
     ],
     beyondUsual: [
       "Acessos alternativos a Machu Picchu menos lotados.",
