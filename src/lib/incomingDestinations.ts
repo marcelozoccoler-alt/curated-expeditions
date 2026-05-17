@@ -245,24 +245,6 @@ export const INCOMING_DESTINATIONS: IncomingDestination[] = [
     },
   },
   {
-    slug: "ouro-preto",
-    image: ouroPretoImg,
-    name: {
-      pt: "Ouro Preto",
-      en: "Ouro Preto",
-      es: "Ouro Preto",
-      it: "Ouro Preto",
-      de: "Ouro Preto",
-    },
-    blurb: {
-      pt: "Cidade barroca de Minas, igrejas douradas e a estrada do café e do queijo de altitude.",
-      en: "Minas baroque town, gilded churches and the highland coffee-and-cheese road.",
-      es: "Ciudad barroca de Minas, iglesias doradas y la ruta del café y queso de altura.",
-      it: "Città barocca del Minas, chiese dorate e la strada del caffè e del formaggio d'altura.",
-      de: "Barockstadt in Minas, vergoldete Kirchen und die Kaffee- und Käsestraße der Höhen.",
-    },
-  },
-  {
     slug: "jalapao",
     image: jalapaoImg,
     name: {
