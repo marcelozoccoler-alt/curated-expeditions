@@ -523,7 +523,7 @@ export const destinations: Destination[] = [
     slug: "brasil/amazonia/cristalino",
     name: "Cristalino (Alta Floresta, MT)",
     bestTime: "Mai–Set (seca) para trilhas e observação de aves; Out–Abr para floresta exuberante e cheia de vida.",
-    tags: ["conservacao", "fotografia", "remoto", "trekking", "navegacao", "bem-estar"],
+    tags: ["conservacao", "fotografia", "remoto", "trekking", "navegacao", "bem-estar", "birdwatching"],
     imageAiPrompt: "Ultra realistic aerial photo of the Cristalino River and pristine southern Amazon rainforest with canopy observation tower at golden hour, mist, editorial travel style, no people.",
     imageOverrideUrl: "",
     intro: "No sul da Amazônia mato-grossense, a Reserva Particular do Patrimônio Natural Cristalino guarda uma das florestas mais bem preservadas do bioma. Rio de águas escuras, biodiversidade rara e torres de observação acima da copa: uma das experiências de natureza mais profundas do Brasil.",
