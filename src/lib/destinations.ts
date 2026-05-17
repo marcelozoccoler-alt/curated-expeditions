@@ -1976,11 +1976,11 @@ export const destinations: Destination[] = [
     imageOverrideUrl: "",
     intro: "Cicládicas brancas sobre o azul do Egeu: Santorini, Mykonos e dezenas de ilhas menos conhecidas. Grécia é história, beleza e sabor mediterrâneo.",
     highlights: [
-      "Santorini e sua caldeira vulcânica",
-      "Mykonos e vida noturna",
-      "Ilhas menos turísticas (Milos, Naxos, Paros)",
-      "Gastronomia grega autêntica",
-      "Ruínas e história antiga"
+      { title: "Santorini e sua caldeira vulcânica", story: "Santorini é o resquício da maior erupção vulcânica registrada na história — uma cratera afundada onde os vilarejos brancos de Oia e Imerovigli se equilibram em penhascos de 300m sobre o Egeu azul-marinho. O pôr do sol em Oia é tão concorrido que se reserva mesa em tavernas com 24h de antecedência; a alternativa é alugar uma villa com piscina infinita no flanco da caldeira e ver o sol descer em paz com vinho Assyrtiko local." },
+      { title: "Mykonos e vida noturna", story: "De dia, Mykonos é vilarejo cubista de paredes caiadas e janelas azul-marinho, com pelicanos vagando entre as ruelas estreitas de Little Venice e moinhos de vento contra o mar. À noite, vira a capital glamourosa do Mediterrâneo: clubes à beira-mar como Scorpios e Nammos com DJs internacionais, jantares pieds-dans-l'eau até 3h da manhã e atmosfera entre Ibiza e Saint-Tropez sob estrelas gregas." },
+      { title: "Ilhas menos turísticas (Milos, Naxos, Paros)", story: "Milos guarda Sarakiniko — formações rochosas brancas vulcânicas que parecem uma paisagem lunar à beira-mar — e dezenas de praias só acessíveis de barco. Naxos tem o maior vilarejo das Cíclades e cordilheira interior com aldeias de montanha; Paros é o equilíbrio perfeito entre Mykonos e Milos, com a vila de Naoussa, porto pesqueiro de tavernas de polvo seco no varal e camas brancas sob videiras." },
+      { title: "Gastronomia grega autêntica", story: "Saladas de tomate maduro com queijo feta inteiro por cima regado em azeite ainda verde-novo, polvo grelhado batido na pedra antes de assar para ficar tenro, moussaka de berinjela com canela e cordeiro, peixe-do-dia grelhado inteiro com limão e orégano selvagem. Termina-se com loukoumades — bolinhos de massa frita banhados em mel de tomilho — e ouzo gelado que se enturva com gelo, à beira do mar." },
+      { title: "Ruínas e história antiga", story: "Em Atenas, sobe-se a Acrópole ao amanhecer (abertura 8h) para ter o Parthenon quase deserto, com luz dourada nas colunas dóricas perfeitas; o Museu da Acrópole abriga as esculturas originais com vista direta para o monumento. Em Delos (de Mykonos), passeia-se entre ruínas inteiras de uma cidade-santuário do século VII a.C.; em Knossos (Creta), os afrescos minoicos restaurados contam 3.500 anos." }
     ],
     beyondUsual: [
       "Ilhas menos visitadas como Folegandros e Sifnos.",
