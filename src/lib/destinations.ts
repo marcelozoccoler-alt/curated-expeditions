@@ -1702,11 +1702,11 @@ export const destinations: Destination[] = [
     imageOverrideUrl: "",
     intro: "O deserto mais seco do mundo: paisagens marcianas, céu estrelado perfeito para astronomia e silêncio que convida à introspecção.",
     highlights: [
-      "Valle de la Luna",
-      "Geysers del Tatio ao amanhecer",
-      "Salares e lagoas altiplânicas",
-      "Astronomia e céu estrelado",
-      "Oásis de San Pedro"
+      { title: "Valle de la Luna", story: "A 13 km de San Pedro, dunas, anfiteatros de sal e formações de gesso esculpidas pelo vento se incendeiam ao pôr do sol — primeiro dourado, depois laranja, finalmente um violeta improvável. Sobe-se a duna mayor com sapatos cheios de areia, senta-se em silêncio com 50 outros estranhos e, quando o sol desaparece atrás da cordilheira de sal, ouve-se o deserto estalar enquanto a temperatura despenca." },
+      { title: "Geysers del Tatio ao amanhecer", story: "Sai-se do hotel às 4h30 da madrugada e sobe-se a 4.320 metros no escuro, vendo as estrelas ainda intactas. Quando o sol nasce, as fumarolas de água a 86°C ganham forma — colunas brancas que sobem 10 metros no ar gelado de -10°C, criando o terceiro maior campo geotermal do mundo. Toma-se café e ovos cozidos na própria nascente vulcânica, e nada do dia seguinte se compara." },
+      { title: "Salares e lagoas altiplânicas", story: "A 4.300 metros, as Lagunas Miscanti e Miñiques exibem um azul-cobalto contra vulcões cônicos cobertos de neve, com flamingos rosados em primeiro plano que parecem absurdos diante daquele cenário. No Salar de Atacama, a Laguna Chaxa abriga três espécies de flamingos andinos pescando em poças cor-de-rosa enquanto o vulcão Licancabur observa em silêncio." },
+      { title: "Astronomia e céu estrelado", story: "Atacama é o lugar mais transparente do planeta para olhar o universo — é por isso que ALMA, o maior observatório do mundo, está aqui. Em tours noturnos privados com astrônomos, deita-se em espreguiçadeiras a 2.500m, vê-se a Via Láctea atravessar o céu como um rio de leite e olha-se Saturno num telescópio de 16 polegadas até reconhecer os anéis com nitidez de fotografia." },
+      { title: "Oásis de San Pedro", story: "San Pedro é um vilarejo de barro caiado de branco com igreja do século XVII, ruas de terra e bicicletas alugadas em cada esquina. Almoça-se quinoa e cordeiro em pátios sombreados por pimenteiras, compra-se lã de alpaca tingida com plantas do deserto e, à noite, janta-se à luz de velas porque é regra municipal: nada de poluição luminosa para não atrapalhar o céu." }
     ],
     beyondUsual: [
       "Tours astronômicos privados com observatórios.",
