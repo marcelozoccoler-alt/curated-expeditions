@@ -1804,11 +1804,11 @@ export const destinations: Destination[] = [
     imageOverrideUrl: "",
     intro: "O maior deserto de sal do mundo: paisagens surrealistas que brincam com perspectiva e proporção. Um portal para outro planeta.",
     highlights: [
-      "Salar infinito com efeito espelho",
-      "Ilha Incahuasi com cactos gigantes",
-      "Lagoas coloridas e flamingos",
-      "Formações rochosas únicas",
-      "Nascer e pôr do sol no sal"
+      { title: "Salar infinito com efeito espelho", story: "Na estação chuvosa, uma lâmina de 5 centímetros de água cobre os 10.582 km² do salar e transforma o chão na maior superfície refletora do planeta — o céu se duplica de tal forma que perde-se a noção de cima e baixo, e caminhar parece flutuar entre duas atmosferas. Ao pôr do sol, as nuvens incendiadas aparecem em estéreo, e o silêncio absoluto da altitude amplifica a sensação de irrealidade." },
+      { title: "Ilha Incahuasi com cactos gigantes", story: "No meio do nada branco emerge uma ilha de coral fóssil coberta por cactos Trichocereus de até 10 metros de altura e mil anos de idade — vestígios de quando ali existia um lago pré-histórico. Sobe-se a trilha de pedra vulcânica até o topo, vê-se o horizonte branco de 360° e entende-se em silêncio que se está no leito seco de um oceano de sal." },
+      { title: "Lagoas coloridas e flamingos", story: "Na Reserva Eduardo Avaroa, a Laguna Colorada é vermelha-sangue por causa de algas e sedimentos, com centenas de flamingos andinos rosados pescando contra esse fundo cinematográfico; a Laguna Verde é esmeralda por arsênico dissolvido, refletindo o vulcão Licancabur perfeito como um cone de neve. Cada lagoa parece pintada por um expressionista com paleta proibida." },
+      { title: "Formações rochosas únicas", story: "No deserto Siloli, a Árbol de Piedra é um monólito de 7 metros esculpido pelo vento durante milênios até virar uma escultura abstrata que parece flutuar sobre a base estreita. Ao redor, o deserto Dalí — assim batizado porque os surrealismos das rochas e cores fazem pensar nas paisagens do pintor — completa um cenário que não pertence a este planeta." },
+      { title: "Nascer e pôr do sol no sal", story: "Sair do hotel de sal às 5h da manhã, dirigir 40 minutos no escuro absoluto e parar no meio do nada para ver o sol nascer atrás dos Andes refletido no espelho infinito — o silêncio é tão denso que se ouvem os próprios batimentos. À noite, sem nenhuma luz num raio de 200 km, a Via Láctea desce até tocar o horizonte e se reflete duplicada no chão de água." }
     ],
     beyondUsual: [
       "Pernoite em hotel de sal dentro do salar.",
