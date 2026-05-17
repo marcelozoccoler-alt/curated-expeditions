@@ -11,8 +11,14 @@ import { StayCard } from "@/components/StayCard";
 import { SEO } from "@/components/SEO";
 import { getDestinationBySlug, destinations } from "@/lib/destinations";
 import { stays as allStays } from "@/lib/stays";
-import { getTagsByIds } from "@/lib/types";
+import { getTagsByIds, getHighlightParts } from "@/lib/types";
 import { getDestinationImage } from "@/lib/destinationImages";
+import {
+  Accordion,
+  AccordionContent,
+  AccordionItem,
+  AccordionTrigger,
+} from "@/components/ui/accordion";
 import {
   ImageRegenPanel,
   getStoredOverride,
