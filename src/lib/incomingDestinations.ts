@@ -2,20 +2,21 @@ import type { Lang } from "@/i18n/config";
 
 import amazonasImg from "@/assets/states/amazonas.jpg";
 import matoGrossoImg from "@/assets/states/mato-grosso.jpg";
-import maranhaoImg from "@/assets/states/maranhao.jpg";
-import bahiaImg from "@/assets/states/bahia.jpg";
-import rioImg from "@/assets/states/rio-de-janeiro.jpg";
-import paranaImg from "@/assets/states/parana.jpg";
-import goiasImg from "@/assets/states/goias.jpg";
-import pernambucoImg from "@/assets/states/pernambuco.jpg";
-import cearaImg from "@/assets/states/ceara.jpg";
-import msImg from "@/assets/states/mato-grosso-do-sul.jpg";
-import paraImg from "@/assets/states/para.jpg";
-import minasImg from "@/assets/states/minas-gerais.jpg";
-import alagoasImg from "@/assets/states/alagoas.jpg";
-import tocantinsImg from "@/assets/states/tocantins.jpg";
-import scImg from "@/assets/states/santa-catarina.jpg";
-import rnImg from "@/assets/states/rio-grande-do-norte.jpg";
+import maranhaoImg from "@/assets/destinations/brasil-lencois-maranhenses.jpg";
+import salvadorImg from "@/assets/destinations/brasil-salvador.jpg";
+import rioImg from "@/assets/destinations/brasil-rio-de-janeiro.jpg";
+import iguacuImg from "@/assets/destinations/brasil-cataratas-iguacu.jpg";
+import veadeirosImg from "@/assets/destinations/brasil-chapada-dos-veadeiros.jpg";
+import noronhaImg from "@/assets/destinations/brasil-fernando-de-noronha.jpg";
+import chapadaDiamantinaImg from "@/assets/destinations/brasil-chapada-diamantina.jpg";
+import jericoacoaraImg from "@/assets/destinations/brasil-jericoacoara.jpg";
+import bonitoImg from "@/assets/destinations/brasil-bonito.jpg";
+import alterDoChaoImg from "@/assets/destinations/brasil-alter-do-chao.jpg";
+import ouroPretoImg from "@/assets/destinations/brasil-minas-gerais-cidades-historicas-inhotim.jpg";
+import jalapaoImg from "@/assets/destinations/brasil-jalapao.jpg";
+import maragogiImg from "@/assets/destinations/brasil-litoral-alagoano.jpg";
+import floripaImg from "@/assets/destinations/brasil-litoral-santa-catarina.jpg";
+import rotaEmocoesImg from "@/assets/destinations/brasil-rota-das-emocoes.jpg";
 
 export interface IncomingDestination {
   slug: string;
