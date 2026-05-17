@@ -80,7 +80,7 @@ const Experiencias = () => {
               >
                 <Link
                   to={`/experiencias/${tag.id}`}
-                  className="group block p-6 rounded-lg border border-border bg-card hover:border-gold transition-colors h-full"
+                  className="group block p-6 rounded-lg border border-border bg-card hover:border-gold transition-colors h-full space-y-4"
                 >
                   <div className="flex items-start justify-between gap-4">
                     <div>
