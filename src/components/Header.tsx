@@ -60,7 +60,7 @@ export const Header = () => {
       }`}
     >
       <div className="container-editorial">
-        <div className="flex items-center justify-between h-20">
+        <div className="flex items-center justify-between h-24">
           {/* Logo */}
           <Link
             to={lang === "pt" ? "/" : `/${lang}/incoming`}
@@ -69,10 +69,8 @@ export const Header = () => {
           >
             <img
               src={logo}
-              alt="Create Travel"
-              className={`h-12 w-12 rounded-full object-cover transition-all ${
-                isScrolled ? "" : "ring-2 ring-primary-foreground/30"
-              }`}
+              alt="Create Travel — balão"
+              className="h-20 w-20 md:h-24 md:w-24 object-contain transition-all"
             />
             <span
               className={`text-xl font-serif font-semibold transition-colors ${
