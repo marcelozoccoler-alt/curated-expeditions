@@ -1942,11 +1942,11 @@ export const destinations: Destination[] = [
     imageOverrideUrl: "",
     intro: "Vulcões, lagoas em crateras e o Atlântico selvagem. Os Açores são a Europa remota: natureza exuberante, ritmo lento e poucas multidões.",
     highlights: [
-      "Lagoa das Sete Cidades",
-      "Observação de baleias e golfinhos",
-      "Trilhas vulcânicas",
-      "Termas naturais",
-      "Gastronomia atlântica"
+      { title: "Lagoa das Sete Cidades", story: "No miradouro Vista do Rei, em São Miguel, abre-se aos pés uma cratera vulcânica de 12 km de circunferência abrigando duas lagoas conectadas — uma verde-esmeralda e outra azul-cobalto, separadas apenas por uma ponte estreita. A lenda diz que são as lágrimas de uma princesa e um pastor proibidos de se casar; vista do alto, a explicação geológica é menos comovente, mas o efeito é igualmente irreal." },
+      { title: "Observação de baleias e golfinhos", story: "Os Açores estão entre os melhores lugares do mundo para cetáceos: cachalotes residentes o ano todo, baleias-azuis e comuns na migração de Abril-Junho, e golfinhos-roazes saltando em vagas ao redor do barco. Embarca-se em zodiacs com biólogos marinhos que escutam os cantos em hidrofones, e quando uma baleia de 15 metros emerge a 10 metros do barco, fica-se em silêncio total." },
+      { title: "Trilhas vulcânicas", story: "Caminhar pela cratera do Vulcão dos Capelinhos no Faial é pisar em areia preta de uma erupção de 1957 que ainda parece quente — o farol antigo está semienterrado em cinzas. Em São Jorge, a trilha da Fajã dos Cubres desce 600m de zigue-zague por penhascos verdes até vilarejos isolados que só se acessa a pé, com lagoas costeiras e galinhas ciscando entre as casas." },
+      { title: "Termas naturais", story: "Em Furnas, a Poça da Dona Beija oferece tanques termais a 39°C de água laranja-ferrugem cercados por vegetação subtropical iluminada à noite — relaxar ali sob garoa morna açoriana é uma das experiências mais sensoriais do arquipélago. Almoça-se Cozido das Furnas: ensopado de carnes e legumes cozido por 7 horas em buracos vulcânicos no chão da própria caldeira, com sabor terroso único." },
+      { title: "Gastronomia atlântica", story: "Queijo São Jorge envelhecido em caves de pedra com sabor picante de pastagens ricas em iodo, atum açoriano grelhado ainda meio rosa, lapas grelhadas com manteiga e alho colhidas das poças da maré pela manhã, ananás cultivado em estufas de vidro e bolo lêvedo no café da manhã. Em pousadas convertidas de antigas adegas, janta-se com vista de cratera enquanto se bebe vinho de Pico — feito em vinhas plantadas em quadrados de pedra vulcânica." }
     ],
     beyondUsual: [
       "Ilhas menos visitadas (Flores, Corvo) para remoto real.",
