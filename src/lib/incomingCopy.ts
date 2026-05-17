@@ -29,6 +29,13 @@ export interface IncomingCopy {
     heading: string;
     items: string[];
   };
+  expertise: {
+    heading: string;
+    lead: string;
+    destinationsLabel: string;
+    destinations: string;
+    biomes: string;
+  };
   cta: {
     heading: string;
     subheading: string;
