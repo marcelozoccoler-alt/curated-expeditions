@@ -2650,7 +2650,7 @@ export const destinations: Destination[] = [
     slug: "brasil/amazonia/festival-parintins",
     name: "Festival Folclórico de Parintins",
     bestTime: "Últimos 3 dias de junho (datas oficiais variam).",
-    tags: ["cultura", "fotografia", "expedicao", "navegacao"],
+    tags: ["cultura", "fotografia", "expedicao", "navegacao", "festivais-folcloricos"],
     imageAiPrompt: "Ultra realistic photo of Parintins Folklore Festival arena, vibrant Boi Bumbá costumes in red and blue, fireworks above river island, evening, festive Amazonian atmosphere.",
     imageOverrideUrl: festivalParintinsImg,
     intro: "Um dos maiores espetáculos folclóricos do mundo: a disputa entre Bois Garantido e Caprichoso, em Parintins, no meio do Rio Amazonas. Logística cuidada e ingressos garantidos.",
