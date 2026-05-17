@@ -1,0 +1,33 @@
+{
+  "nav": {
+    "destinos": "Destinos",
+    "experiencias": "Experiencias",
+    "sobre": "Nosotros",
+    "contato": "Contacto",
+    "incoming": "Brasil para viajeros",
+    "menu_open": "Abrir menú",
+    "menu_close": "Cerrar menú"
+  },
+  "cta": {
+    "create_itinerary": "Diseñar mi viaje a medida",
+    "request_quote": "Solicitar presupuesto",
+    "talk_to_us": "Habla con nosotros",
+    "discover_brazil": "Descubre Brasil"
+  },
+  "footer": {
+    "tagline": "Curaduría de viajes con propósito.",
+    "contact": "Contacto",
+    "follow": "Síguenos",
+    "rights": "Todos los derechos reservados.",
+    "cadastur": "Cadastur"
+  },
+  "language": {
+    "switch": "Idioma",
+    "current": "Idioma actual"
+  },
+  "common": {
+    "loading": "Cargando…",
+    "see_more": "Ver más",
+    "back": "Volver"
+  }
+}

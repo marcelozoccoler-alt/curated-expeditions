@@ -1,0 +1,33 @@
+{
+  "nav": {
+    "destinos": "Destinations",
+    "experiencias": "Experiences",
+    "sobre": "About",
+    "contato": "Contact",
+    "incoming": "Brazil for travelers",
+    "menu_open": "Open menu",
+    "menu_close": "Close menu"
+  },
+  "cta": {
+    "create_itinerary": "Design my custom trip",
+    "request_quote": "Request a quote",
+    "talk_to_us": "Talk to us",
+    "discover_brazil": "Discover Brazil"
+  },
+  "footer": {
+    "tagline": "Curated travel with purpose.",
+    "contact": "Contact",
+    "follow": "Follow us",
+    "rights": "All rights reserved.",
+    "cadastur": "Cadastur"
+  },
+  "language": {
+    "switch": "Language",
+    "current": "Current language"
+  },
+  "common": {
+    "loading": "Loading…",
+    "see_more": "See more",
+    "back": "Back"
+  }
+}
