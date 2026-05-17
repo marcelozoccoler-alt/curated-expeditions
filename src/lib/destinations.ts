@@ -1840,11 +1840,11 @@ export const destinations: Destination[] = [
     imageOverrideUrl: "",
     intro: "Fogo e gelo em uma ilha vulcânica: cascatas monumentais, geleiras, gêiseres e a aurora boreal. Islândia é natureza em estado bruto.",
     highlights: [
-      "Círculo Dourado (Geysir, Gullfoss, Þingvellir)",
-      "Costa Sul (praias negras, glaciais)",
-      "Lagoa glacial Jökulsárlón",
-      "Aurora boreal (inverno)",
-      "Banhos termais naturais"
+      { title: "Círculo Dourado (Geysir, Gullfoss, Þingvellir)", story: "Em poucas horas atravessa-se três cenários geológicos imperdíveis: Þingvellir é a fenda visível entre as placas tectônicas euroasiática e norte-americana, onde se caminha literalmente entre dois continentes que se afastam 2 cm por ano; Geysir borbulha em silêncio até explodir 20 metros de água a 100°C a cada 6 minutos; e Gullfoss desaba em duas quedas escalonadas dentro de um cânion de basalto, lançando névoa que desenha arco-íris ao meio-dia." },
+      { title: "Costa Sul (praias negras, glaciais)", story: "Reynisfjara é uma praia de areia preta vulcânica com colunas de basalto hexagonal perfeitas — formação geológica que parece feita à mão. O Atlântico bate com ondas-sneaker imprevisíveis, e a poucos minutos vê-se Skógafoss desabar 60 metros num véu denso de água gelada que se atravessa de moto-aquática até a base, ouvindo o trovão da queda multiplicado pelo penhasco." },
+      { title: "Lagoa glacial Jökulsárlón", story: "Icebergs azul-elétrico do tamanho de carros se desprendem do glaciar Breiðamerkurjökull e flutuam lentamente até o mar, encalhando na Praia de Diamante — areia preta polvilhada de gelo translúcido que brilha sob o sol como cristal. Faz-se passeio de zodiac entre os blocos, escuta-se o gelo estalar e, com sorte, focas curiosas se aproximam do barco." },
+      { title: "Aurora boreal (inverno)", story: "De setembro a março, em noites de céu limpo longe das luzes de Reykjavík, espera-se em silêncio até o céu começar a vibrar em verde-pálido, depois rosa, depois roxo — cortinas que dançam horizonte a horizonte com a leveza de tecido ao vento. A primeira vez é um soco no peito; mesmo cientes do fenômeno, o cérebro insiste que aquilo não pode ser real." },
+      { title: "Banhos termais naturais", story: "Para além da Blue Lagoon — bonita mas turística — há lagoas escondidas como Reykjadalur, onde se caminha 1 hora montanha acima até um rio quente onde o corpo se afunda em água a 38°C com vista de vale verde e fumarolas saindo do chão. Sky Lagoon, à beira do Atlântico, é o luxo contemporâneo: ritual de 7 passos termais com vista para o oceano gelado." }
     ],
     beyondUsual: [
       "Fiordes do Oeste menos visitados.",
