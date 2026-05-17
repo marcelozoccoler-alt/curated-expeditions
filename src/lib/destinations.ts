@@ -2284,11 +2284,11 @@ export const destinations: Destination[] = [
     imageOverrideUrl: "",
     intro: "Atóis de areia branca sobre lagoas de turquesa irreal, bangalôs sobre as águas e silêncio absoluto. Maldivas é o destino-ícone do descanso de luxo — perfeito para luas de mel, retiros e imersões em vida marinha.",
     highlights: [
-      "Bangalôs sobre as águas em resorts privados",
-      "Mergulho e snorkel em recifes de coral",
-      "Encontros com tubarões-baleia e mantas",
-      "Spas com curadoria over-water",
-      "Jantares privados em ilhotas desertas"
+      { title: "Bangalôs sobre as águas em resorts privados", story: "Acorda-se com a luz refletida do oceano dançando no teto de madeira, abre-se a porta corrediça do quarto para uma plataforma privada e desce-se a escada direto na laguna turquesa onde se vê o próprio fundo. Resorts como Soneka Jani, Cheval Blanc Randheli ou Velaa oferecem mordomo 24h, jantar romântico na praia com mesa iluminada por velas na areia e villa pieds-dans-l'eau que define o luxo tropical contemporâneo." },
+      { title: "Mergulho e snorkel em recifes de coral", story: "As Maldivas têm 26 atóis com 2.000 recifes — basta sair da escada do bangalô e nadar 20 metros para ver tartarugas-verdes pastando, peixe-papagaio coloridos, moréias e cardumes de jacks. Sites como Banana Reef em North Malé ou Maaya Thila têm visibilidade de 30m+ e biodiversidade rivalizando com Galápagos; cruzeiros de mergulho de uma semana percorrem manta points, swim-throughs em paredes verticais e mergulhos noturnos com tubarões-de-recife." },
+      { title: "Encontros com tubarões-baleia e mantas", story: "No Atol Baa (UNESCO), a baía de Hanifaru concentra plâncton em correntes específicas atraindo dezenas de mantas oceânicas com até 7m de envergadura — nada-se ao lado delas em snorkel enquanto fazem barrel rolls para se alimentar. De agosto a novembro, tubarões-baleia de 12 metros aparecem para se alimentar do mesmo plâncton; nadar ao lado do maior peixe do mundo, completamente inofensivo, é desconcertante e inesquecível." },
+      { title: "Spas com curadoria over-water", story: "Spas como o COMO Shambhala em Maalifushi ou o spa do Six Senses Laamu são pavilhões de madeira sobre a laguna com piso de vidro através do qual se vê corais e peixes durante a massagem. Tratamentos com óleos balineses, terapias ayurvédicas com médicos indianos residentes, yoga ao amanhecer em decks com vista de 360° de oceano — bem-estar elevado ao luxo absoluto." },
+      { title: "Jantares privados em ilhotas desertas", story: "Resorts levam casais de speedboat até bancos de areia desertos no meio do oceano — uma ilhota que aparece e desaparece com a maré, onde aguarda mesa para dois iluminada por lanternas, champagne no balde, chef preparando lagosta na grelha sob estrelas. Sem outras pessoas em raio de quilômetros, apenas o som de ondas batendo na areia branca; experiência cinematográfica de uma vida só." }
     ],
     beyondUsual: [
       "Charter de iate privado entre atóis remotos, fora do circuito de resorts.",
