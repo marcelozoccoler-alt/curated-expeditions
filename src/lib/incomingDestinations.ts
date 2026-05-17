@@ -2,20 +2,21 @@ import type { Lang } from "@/i18n/config";
 
 import amazonasImg from "@/assets/states/amazonas.jpg";
 import matoGrossoImg from "@/assets/states/mato-grosso.jpg";
-import maranhaoImg from "@/assets/states/maranhao.jpg";
-import bahiaImg from "@/assets/states/bahia.jpg";
-import rioImg from "@/assets/states/rio-de-janeiro.jpg";
-import paranaImg from "@/assets/states/parana.jpg";
-import goiasImg from "@/assets/states/goias.jpg";
-import pernambucoImg from "@/assets/states/pernambuco.jpg";
-import cearaImg from "@/assets/states/ceara.jpg";
-import msImg from "@/assets/states/mato-grosso-do-sul.jpg";
-import paraImg from "@/assets/states/para.jpg";
-import minasImg from "@/assets/states/minas-gerais.jpg";
-import alagoasImg from "@/assets/states/alagoas.jpg";
-import tocantinsImg from "@/assets/states/tocantins.jpg";
-import scImg from "@/assets/states/santa-catarina.jpg";
-import rnImg from "@/assets/states/rio-grande-do-norte.jpg";
+import maranhaoImg from "@/assets/destinations/brasil-lencois-maranhenses.jpg";
+import salvadorImg from "@/assets/destinations/brasil-salvador.jpg";
+import rioImg from "@/assets/destinations/brasil-rio-de-janeiro.jpg";
+import iguacuImg from "@/assets/destinations/brasil-cataratas-iguacu.jpg";
+import veadeirosImg from "@/assets/destinations/brasil-chapada-dos-veadeiros.jpg";
+import noronhaImg from "@/assets/destinations/brasil-fernando-de-noronha.jpg";
+import chapadaDiamantinaImg from "@/assets/destinations/brasil-chapada-diamantina.jpg";
+import jericoacoaraImg from "@/assets/destinations/brasil-jericoacoara.jpg";
+import bonitoImg from "@/assets/destinations/brasil-bonito.jpg";
+import alterDoChaoImg from "@/assets/destinations/brasil-alter-do-chao.jpg";
+import ouroPretoImg from "@/assets/destinations/brasil-minas-gerais-cidades-historicas-inhotim.jpg";
+import jalapaoImg from "@/assets/destinations/brasil-jalapao.jpg";
+import maragogiImg from "@/assets/destinations/brasil-litoral-alagoano.jpg";
+import floripaImg from "@/assets/destinations/brasil-litoral-santa-catarina.jpg";
+import rotaEmocoesImg from "@/assets/destinations/brasil-rota-das-emocoes.jpg";
 
 export interface IncomingDestination {
   slug: string;
@@ -83,7 +84,7 @@ export const INCOMING_DESTINATIONS: IncomingDestination[] = [
   },
   {
     slug: "bahia",
-    image: bahiaImg,
+    image: salvadorImg,
     name: {
       pt: "Bahia",
       en: "Bahia",
@@ -119,7 +120,7 @@ export const INCOMING_DESTINATIONS: IncomingDestination[] = [
   },
   {
     slug: "iguazu",
-    image: paranaImg,
+    image: iguacuImg,
     name: {
       pt: "Foz do Iguaçu",
       en: "Iguazu Falls",
@@ -137,7 +138,7 @@ export const INCOMING_DESTINATIONS: IncomingDestination[] = [
   },
   {
     slug: "chapada-dos-veadeiros",
-    image: goiasImg,
+    image: veadeirosImg,
     name: {
       pt: "Chapada dos Veadeiros",
       en: "Chapada dos Veadeiros",
@@ -155,7 +156,7 @@ export const INCOMING_DESTINATIONS: IncomingDestination[] = [
   },
   {
     slug: "fernando-de-noronha",
-    image: pernambucoImg,
+    image: noronhaImg,
     name: {
       pt: "Fernando de Noronha",
       en: "Fernando de Noronha",
@@ -173,7 +174,7 @@ export const INCOMING_DESTINATIONS: IncomingDestination[] = [
   },
   {
     slug: "chapada-diamantina",
-    image: bahiaImg,
+    image: chapadaDiamantinaImg,
     name: {
       pt: "Chapada Diamantina",
       en: "Chapada Diamantina",
@@ -191,7 +192,7 @@ export const INCOMING_DESTINATIONS: IncomingDestination[] = [
   },
   {
     slug: "jericoacoara",
-    image: cearaImg,
+    image: jericoacoaraImg,
     name: {
       pt: "Jericoacoara",
       en: "Jericoacoara",
@@ -209,7 +210,7 @@ export const INCOMING_DESTINATIONS: IncomingDestination[] = [
   },
   {
     slug: "bonito",
-    image: msImg,
+    image: bonitoImg,
     name: {
       pt: "Bonito",
       en: "Bonito",
@@ -227,7 +228,7 @@ export const INCOMING_DESTINATIONS: IncomingDestination[] = [
   },
   {
     slug: "alter-do-chao",
-    image: paraImg,
+    image: alterDoChaoImg,
     name: {
       pt: "Alter do Chão",
       en: "Alter do Chão",
@@ -245,7 +246,7 @@ export const INCOMING_DESTINATIONS: IncomingDestination[] = [
   },
   {
     slug: "ouro-preto",
-    image: minasImg,
+    image: ouroPretoImg,
     name: {
       pt: "Ouro Preto",
       en: "Ouro Preto",
@@ -263,7 +264,7 @@ export const INCOMING_DESTINATIONS: IncomingDestination[] = [
   },
   {
     slug: "jalapao",
-    image: tocantinsImg,
+    image: jalapaoImg,
     name: {
       pt: "Jalapão",
       en: "Jalapão",
@@ -281,7 +282,7 @@ export const INCOMING_DESTINATIONS: IncomingDestination[] = [
   },
   {
     slug: "maragogi",
-    image: alagoasImg,
+    image: maragogiImg,
     name: {
       pt: "Maragogi",
       en: "Maragogi",
@@ -299,7 +300,7 @@ export const INCOMING_DESTINATIONS: IncomingDestination[] = [
   },
   {
     slug: "florianopolis",
-    image: scImg,
+    image: floripaImg,
     name: {
       pt: "Florianópolis",
       en: "Florianópolis",
@@ -317,7 +318,7 @@ export const INCOMING_DESTINATIONS: IncomingDestination[] = [
   },
   {
     slug: "rota-emocoes",
-    image: rnImg,
+    image: rotaEmocoesImg,
     name: {
       pt: "Rota das Emoções",
       en: "Route of Emotions",
