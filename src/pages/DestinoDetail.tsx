@@ -151,17 +151,35 @@ const DestinoDetail = () => {
                 <Compass className="text-gold" size={28} />
                 Destaques
               </h2>
-              <ul className="grid sm:grid-cols-2 gap-3">
-                {destination.highlights.map((h, i) => (
-                  <li
-                    key={i}
-                    className="flex gap-3 p-4 rounded-lg bg-muted/60 border border-border/50"
-                  >
-                    <span className="text-gold font-semibold">0{i + 1}</span>
-                    <span className="text-foreground">{h}</span>
-                  </li>
-                ))}
-              </ul>
+              <p className="text-sm text-muted-foreground -mt-2">
+                Clique em cada destaque para sentir como é vivenciá-lo.
+              </p>
+              <Accordion type="multiple" className="grid sm:grid-cols-2 gap-3">
+                {destination.highlights.map((h, i) => {
+                  const { title, story } = getHighlightParts(h);
+                  return (
+                    <AccordionItem
+                      key={i}
+                      value={`h-${i}`}
+                      className="rounded-lg bg-muted/60 border border-border/50 px-4 data-[state=open]:border-gold/60 data-[state=open]:bg-card transition-colors"
+                    >
+                      <AccordionTrigger className="hover:no-underline py-4 text-left">
+                        <span className="flex gap-3 items-start pr-2">
+                          <span className="text-gold font-semibold shrink-0">0{i + 1}</span>
+                          <span className="text-foreground font-medium">{title}</span>
+                        </span>
+                      </AccordionTrigger>
+                      <AccordionContent className="pb-5 pl-9 pr-1 text-foreground/85 leading-relaxed text-[15px]">
+                        {story || (
+                          <span className="text-muted-foreground italic">
+                            Em breve abrimos os bastidores deste destaque. Quer antecipar? Fale com um consultor Create Travel.
+                          </span>
+                        )}
+                      </AccordionContent>
+                    </AccordionItem>
+                  );
+                })}
+              </Accordion>
             </div>
 
             {/* Beyond usual */}
