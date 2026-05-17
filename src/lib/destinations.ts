@@ -2078,11 +2078,11 @@ export const destinations: Destination[] = [
     imageOverrideUrl: "",
     intro: "Mar Adriático em tons de turquesa, cidades muradas de pedra clara e ilhas que se sucedem como pérolas. Da elegância de Dubrovnik ao charme de Hvar e Split, a Croácia é uma das viagens mais sensoriais do Mediterrâneo — ainda mais quando explorada de veleiro.",
     highlights: [
-      "Cidade Velha murada de Dubrovnik",
-      "Palácio de Diocleciano em Split",
-      "Ilhas de Hvar, Brač e Vis",
-      "Parque Nacional dos Lagos de Plitvice",
-      "Navegação privada pela Costa Dálmata"
+      { title: "Cidade Velha murada de Dubrovnik", story: "Caminhar os 2 km de muralhas medievais de Dubrovnik no entardecer — quando o sol bate de lado nos telhados de cerâmica laranja contra o Adriático azul-marinho — é uma das experiências mais cinematográficas da Europa (não à toa virou Porto Real em Game of Thrones). Stradun, a rua principal de mármore polido por séculos de pés, brilha à noite quando a iluminação dourada toma conta e turistas dão lugar a moradores em pizzarias escondidas." },
+      { title: "Palácio de Diocleciano em Split", story: "Diferente de outras ruínas, o Palácio de Diocleciano (305 d.C.) é uma cidade viva — pessoas moram dentro das paredes romanas, há cafés nos peristilos, lojas em arcos do século IV e a Catedral é o antigo mausoléu do imperador. Toma-se café da manhã num pátio que tem 1.700 anos, ouve-se cantos klapa (canto a cappella croata) ressoando nas abóbadas e janta-se em konobas onde só se serve peixe pescado pela manhã." },
+      { title: "Ilhas de Hvar, Brač e Vis", story: "Hvar é a capital glamourosa com lavandas no interior, bares de cocktails à beira-mar e o forte espanhol no topo com vista da cidade laranja contra ilhas Pakleni. Brač esconde a Praia Zlatni Rat (Chifre Dourado), língua de seixos brancos que muda de forma com o vento. Vis, ex-base militar fechada até 1989, oferece a Gruta Azul — caverna onde a luz refrata um azul-fluorescente que parece artificial." },
+      { title: "Parque Nacional dos Lagos de Plitvice", story: "16 lagos turquesa em escadaria, conectados por 90 cachoeiras travertinas que mudam de cor conforme o ângulo do sol — do esmeralda ao azul-cobalto. Caminha-se 8 km em passarelas de madeira a centímetros da água cristalina onde se vê cardumes de truta nadando devagar entre algas verde-fluorescente. No outono, as folhagens vermelhas refletidas no espelho dos lagos fazem do parque um quadro impressionista." },
+      { title: "Navegação privada pela Costa Dálmata", story: "Charter de 7 dias num catamarã com tripulação e chef, partindo de Split em direção sul, ancorando a cada noite numa baía diferente — Stari Grad em Hvar, Vis para mergulho no submarino afundado, ilhas Kornati selvagens sem habitantes. Almoça-se grelhado fresco no convés, banha-se em águas onde se vê o fundo a 20m, e janta-se em konobas escondidas onde só se chega de barco." }
     ],
     beyondUsual: [
       "Charter privado de veleiro ou catamarã entre as ilhas, com tripulação e chef a bordo.",
