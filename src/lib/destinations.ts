@@ -18,11 +18,11 @@ export const destinations: Destination[] = [
     imageOverrideUrl: "",
     intro: "Anavilhanas é Amazônia em estado de contemplação: ilhas, canais e silêncio com profundidade. Uma viagem para desacelerar, observar e sentir a floresta como um organismo vivo — com curadoria e conforto.",
     highlights: [
-      "Navegação por canais do Rio Negro",
-      "Trilhas interpretativas com guia naturalista",
-      "Observação de fauna (aves, primatas, botos)",
-      "Pôr do sol no rio com leitura de paisagem",
-      "Focagem noturna interpretativa"
+      { title: "Navegação por canais do Rio Negro", story: "A voadeira corta a água preta como espelho e o barulho do motor desaparece dentro do verde. De um lado, um igapó submerso revela troncos centenários; do outro, uma família de macacos atravessa a copa. O guia desliga o motor — e a Amazônia inteira começa a falar baixo no seu ouvido." },
+      { title: "Trilhas interpretativas com guia naturalista", story: "Cada passo é uma aula viva: o cheiro doce de uma resina, a marca de unha de uma anta no barro, o canto que anuncia chuva. Você sai da trilha sem perceber que andou três horas — e voltando ao lodge entende que floresta não é cenário, é organismo respirando junto com você." },
+      { title: "Observação de fauna (aves, primatas, botos)", story: "Um boto-cor-de-rosa emerge a três metros do barco e te encara. Lá em cima, um casal de araras risca o céu em vermelho e azul. Os primatas se anunciam antes de aparecerem. Aqui, a vida selvagem não é fotografia de revista — é encontro, presente, irrepetível." },
+      { title: "Pôr do sol no rio com leitura de paisagem", story: "O céu vira fogo refletido na água escura e tudo fica em silêncio cerimonial. Uma taça nas mãos, o guia explicando por que o Rio Negro é negro, e a sensação rara de estar testemunhando algo que acontece desde antes do ser humano existir." },
+      { title: "Focagem noturna interpretativa", story: "Lanterna apontada na margem, um par de olhos brilha de volta — jacaré. Mais adiante, uma cobra-papagaio enrolada num galho, uma rã do tamanho de uma moeda cantando alto. A floresta noturna é outro planeta e você está, oficialmente, dentro dele." }
     ],
     beyondUsual: [
       "Canoagem de escuta ao amanhecer (sons, rastros, luz).",
@@ -52,11 +52,11 @@ export const destinations: Destination[] = [
     imageOverrideUrl: manausRioNegroImg,
     intro: "A porta de entrada para uma Amazônia com camadas: cidade, rio e floresta. A Create Travel equilibra cultura e natureza com logística suave e experiências de verdade.",
     highlights: [
-      "Encontro das Águas",
-      "Arquitetura e história de Manaus",
-      "Navegação no Rio Negro",
-      "Trilhas e observação de fauna",
-      "Sabores amazônicos com curadoria"
+      { title: "Encontro das Águas", story: "Duas correntezas correm lado a lado por seis quilômetros sem se misturar: o Negro escuro como café e o Solimões barrento como areia. Ver isso de perto é entender, no corpo, por que os ribeirinhos chamam os rios de gente — cada um com seu temperamento, sua temperatura, sua história." },
+      { title: "Arquitetura e história de Manaus", story: "O Teatro Amazonas surge da floresta como uma alucinação belle époque: mármore italiano, ferro escocês, cúpula em mosaico tropical. Caminhar por ali é tocar com a ponta dos dedos o auge febril do ciclo da borracha — e entender de onde veio tanta ópera no meio da selva." },
+      { title: "Navegação no Rio Negro", story: "O barco desliza por entre arquipélagos sem nome e o horizonte se abre infinito. Em algumas curvas o rio tem 20 km de largura — você está em água doce, mas parece mar. O vento bate no rosto e o tempo, finalmente, desacelera." },
+      { title: "Trilhas e observação de fauna", story: "Saída ao amanhecer, antes que o calor suba: o guia mostra o primeiro tucano da manhã, o rastro fresco de uma cutia, uma orquídea suspensa que ninguém veria sem ele. A floresta se revela em camadas — quanto mais você olha, mais ela aparece." },
+      { title: "Sabores amazônicos com curadoria", story: "Tucupi servido em prato fundo, jambu fazendo formigar a boca, tambaqui na brasa derretendo na faca. Cada garfada conta a geografia do rio: o que o solo dá, o que o ribeirinho pesca, o que a avó ensinou. Você nunca mais vai comer 'peixe' da mesma forma." }
     ],
     beyondUsual: [
       "Roteiro urbano-curado em Manaus (história + mercados + sabores).",
@@ -86,11 +86,11 @@ export const destinations: Destination[] = [
     imageOverrideUrl: "",
     intro: "O Pantanal Norte é o Brasil em forma de safári: vida selvagem, luz dourada e encontros que marcam. A diferença está na curadoria de ritmo e ética.",
     highlights: [
-      "Safáris em áreas de alta densidade de fauna",
-      "Observação de aves",
-      "Passeios de barco/voadeira",
-      "Cavalgadas pantaneiras",
-      "Saídas ao amanhecer e entardecer"
+      { title: "Safáris em áreas de alta densidade de fauna", story: "O guia aponta para a margem e seu coração para: uma onça-pintada de 90 kg, deitada à sombra, te olhando com indiferença régia. Você não respira. Nenhum filme te preparou para a escala disso. Por alguns segundos, vocês dois compartilham o mesmo silêncio — e você sai dali outra pessoa." },
+      { title: "Observação de aves", story: "São 650 espécies catalogadas e o céu nunca está vazio. Tuiuiús de dois metros pousam como bailarinas, araras-azuis cruzam em casais para a vida toda, um martim-pescador mergulha bem na sua frente. Mesmo quem nunca olhou um pássaro sai dali com binóculo na mochila." },
+      { title: "Passeios de barco/voadeira", story: "O rio Cuiabá é uma autoestrada de vida selvagem: capivaras tomando sol em família, jacarés deslizando como troncos, ariranhas brincando em bando. Cada curva entrega uma cena nova — e você passa o dia inteiro com a câmera no colo, pronto." },
+      { title: "Cavalgadas pantaneiras", story: "Em cima de um cavalo crioulo, no ritmo lento de quem nasceu para a planície, você atravessa campos alagados onde carros não chegam. O peão canta baixinho à frente, garças levantam voo ao seu lado — e a paisagem se abre de um jeito que só a montaria permite ver." },
+      { title: "Saídas ao amanhecer e entardecer", story: "O Pantanal pertence a essas duas horas mágicas. No nascer, a neblina sobe do rio em fumaça dourada e a fauna desperta numa orquestra. No pôr, o céu inteiro vira chama e os bandos voltam para o ninho riscando o vermelho. Levantar cedo aqui é sempre o melhor negócio do dia." }
     ],
     beyondUsual: [
       "Fotografia com foco em comportamento animal e narrativa.",
@@ -120,11 +120,11 @@ export const destinations: Destination[] = [
     imageOverrideUrl: "",
     intro: "Lençóis é beleza em estado bruto. A curadoria Create Travel está no timing: bases certas, horários vazios e deslocamentos inteligentes.",
     highlights: [
-      "Lagoas e dunas em diferentes bases",
-      "Pôr do sol nas dunas",
-      "Rotas cênicas selecionadas",
-      "Vento, mar e rio em uma mesma viagem",
-      "Gastronomia regional com personalidade"
+      { title: "Lagoas e dunas em diferentes bases", story: "Você sobe uma duna branca em silêncio e, do alto, o impossível: centenas de lagoas turquesa espalhadas no horizonte como peças de um colar. Desce correndo, mergulha numa água morna e doce, e percebe que está nadando dentro de um deserto. Pouca coisa no mundo dá esse tipo de espanto." },
+      { title: "Pôr do sol nas dunas", story: "O sol se dissolve atrás da areia e tudo vira ouro líquido — duna, lagoa, seu rosto. Por dez minutos, o lugar inteiro brilha de um jeito que nenhuma câmera consegue capturar direito. É um daqueles momentos em que você guarda o celular e simplesmente fica." },
+      { title: "Rotas cênicas selecionadas", story: "Atalhos de 4x4 por estradas de areia, paradas em comunidades pesqueiras esquecidas, travessia de rio em balsa antiga. Em vez de chegar rápido, você chega devagar — e o caminho vira parte da viagem, com cada parada revelando uma camada diferente do Maranhão profundo." },
+      { title: "Vento, mar e rio em uma mesma viagem", story: "Da imensidão das dunas ao encontro do Rio Preguiças com o Atlântico em Atins. Você sai de uma lagoa de água doce pela manhã e mergulha no mar aberto à tarde — e entende por que essa região é chamada de paraíso anfíbio do Brasil." },
+      { title: "Gastronomia regional com personalidade", story: "Camarão no bafo, peixe na folha de bananeira, arroz de cuxá com gosto de mato verde. Numa mesa rústica em Atins, ao som do vento, você prova receitas que atravessam séculos sem perder nenhum sabor. Comer aqui é tão paisagem quanto a duna." }
     ],
     beyondUsual: [
       "Travessias leves com pernoites de charme e logística suave.",
@@ -154,11 +154,11 @@ export const destinations: Destination[] = [
     imageOverrideUrl: "",
     intro: "Mesas de arenito recortando o cerrado, cachoeiras escondidas e um silêncio quase irreal. Um Maranhão alternativo aos Lençóis — ainda pouco explorado.",
     highlights: [
-      "Mirante do Portal da Chapada ao pôr do sol",
-      "Cachoeira do Santuário e Encanto Azul",
-      "Poço Azul e suas águas translúcidas",
-      "Cachoeira de São Romão, uma das maiores do Brasil",
-      "Trilhas e mirantes com vistas cinematográficas"
+      { title: "Mirante do Portal da Chapada ao pôr do sol", story: "Você senta na beira da rocha, pés balançando sobre 300 metros de nada, e assiste o sol mergulhar entre duas mesas de arenito como num cinema sem teto. O cerrado embaixo vira vermelho-cobre, o silêncio é absoluto — e parece que esse mirante existe só para você naquele instante." },
+      { title: "Cachoeira do Santuário e Encanto Azul", story: "Um corredor de pedra úmida e, no fim, uma cortina d'água caindo num poço esmeralda escondido na floresta. Você nada até o pé da queda, sente a massagem natural nos ombros, e entende por que essa cachoeira ganhou esse nome — é mesmo um pequeno templo encantado." },
+      { title: "Poço Azul e suas águas translúcidas", story: "Quando o feixe de sol entra pela fenda na hora exata, o poço inteiro acende em azul-cobalto fluorescente. Você flutua de bruços de máscara e snorkel, o fundo a oito metros abaixo, e tem a sensação rara de estar suspenso dentro de uma pedra preciosa." },
+      { title: "Cachoeira de São Romão, uma das maiores do Brasil", story: "Cento e cinquenta metros de queda livre, espuma branca caindo em paredões vermelhos, arco-íris se formando no respingo da tarde. De cima, você sente o trovão na barriga. De baixo, mergulha na piscina natural ao pé da queda — e fica pequenininho do jeito mais bonito do mundo." },
+      { title: "Trilhas e mirantes com vistas cinematográficas", story: "Cada caminhada termina em uma varanda natural sobre o vazio: vales infinitos, mesas geológicas, o rio Tocantins serpenteando lá longe. Sem multidão, sem fila, sem cerca — só você, o vento quente do cerrado e a sensação rara de descobrir um Brasil que pouca gente conhece." }
     ],
     beyondUsual: [
       "Pernoites em pousadas de charme em Carolina (MA).",
@@ -188,11 +188,11 @@ export const destinations: Destination[] = [
     imageOverrideUrl: "",
     intro: "O Caribe amazônico em sua versão mais autêntica: praias de águas claras, floresta ao redor e ritmo de vila. Uma pausa sofisticada na imensidão.",
     highlights: [
-      "Praias de rio com águas cristalinas",
-      "Floresta Nacional do Tapajós",
-      "Cultura ribeirinha e artesanato",
-      "Pôr do sol no Rio Tapajós",
-      "Gastronomia amazônica local"
+      { title: "Praias de rio com águas cristalinas", story: "Na Ilha do Amor, você atravessa um braço raso de água verde-turquesa caminhando — sim, é Amazônia, e sim, parece Caribe. A areia é branca, a água é doce e morna, e ao fundo a floresta densa lembra que você está, na verdade, no meio do maior rio de águas claras do planeta." },
+      { title: "Floresta Nacional do Tapajós", story: "Uma trilha guiada entre sumaúmas de 50 metros, lianas grossas como braços e o cheiro inconfundível de chão vivo. O guia ribeirinho mostra a árvore que cura, a folha que perfuma, o cipó que dá água potável. Você sai de lá com a certeza de que floresta em pé vale infinitamente mais." },
+      { title: "Cultura ribeirinha e artesanato", story: "Numa comunidade de palafitas, mulheres tecem cestos de tucumã enquanto contam histórias de cobra grande e da Iara. Você almoça peixe assado na folha, bebe suco de cupuaçu, leva para casa uma peça feita a mão — e uma versão da Amazônia que TV nenhuma mostra." },
+      { title: "Pôr do sol no Rio Tapajós", story: "De canoa, no meio do rio largo como mar, o sol despenca atrás da floresta e o céu inteiro pega fogo em rosa e laranja. O barqueiro desliga o motor. Só o som da água batendo no casco. É o tipo de silêncio que reseta o ano inteiro." },
+      { title: "Gastronomia amazônica local", story: "Tacacá fumegante numa cuia, açaí grosso e roxo servido com farinha, peixe pirarucu desfiado no tucupi. Em mesas simples à beira do rio, você prova ingredientes que nasceram a poucos metros dali — e descobre uma cozinha que é, ao mesmo tempo, ancestral e modernista." }
     ],
     beyondUsual: [
       "Expedição às comunidades tradicionais do Tapajós.",
@@ -222,11 +222,11 @@ export const destinations: Destination[] = [
     imageOverrideUrl: "",
     intro: "A versão mais acessível do Pantanal, com fazendas históricas e rica biodiversidade. Base perfeita para combinar com Bonito.",
     highlights: [
-      "Safáris de observação de fauna",
-      "Cavalgadas em fazendas históricas",
-      "Observação de aves e jacarés",
-      "Pesca esportiva (catch and release)",
-      "Cultura pantaneira autêntica"
+      { title: "Safáris de observação de fauna", story: "Você sai numa caminhonete aberta antes do amanhecer e em poucos minutos: tatu, veado-campeiro, cervo-do-pantanal de chifres imponentes, bandos de queixadas atravessando a estrada. A cada parada, o guia explica comportamento e ecologia — você não está vendo bichos, está lendo um livro vivo." },
+      { title: "Cavalgadas em fazendas históricas", story: "Sela de couro gasto, cavalo manso, peão à frente cantando uma toada. Você atravessa campos alagados que pertencem à mesma família há cinco gerações, passa por porteira centenária, almoça à sombra de uma figueira gigantesca. É o Pantanal contado por dentro, no ritmo de quem vive ali." },
+      { title: "Observação de aves e jacarés", story: "Numa única lagoa: 200 jacarés tomando sol em fila como esculturas, garças brancas pousadas nas costas deles como num quadro, jaburus de 1,5m dando bote em peixe. Você fica três horas só olhando, e mesmo assim sai com a impressão de não ter visto nem metade." },
+      { title: "Pesca esportiva (catch and release)", story: "O dourado morde e a vara verga em dois — quinze minutos de luta no calor da tarde até trazer ao barco um peixe dourado de 8 kg que parece feito de luz. Foto, beijo, devolução. Você não levou nada para casa, mas a história fica para sempre." },
+      { title: "Cultura pantaneira autêntica", story: "À noite, viola de cocho na varanda, comitiva de peão chegando do campo, churrasco lento na brasa, causos contados pelo dono da fazenda. Aqui você não visita o Pantanal — você é recebido por ele, com gente que fala devagar e te trata como se já conhecesse há anos." }
     ],
     beyondUsual: [
       "Imersão em fazendas com história e tradição.",
@@ -256,11 +256,11 @@ export const destinations: Destination[] = [
     imageOverrideUrl: "",
     intro: "O cerrado em sua forma mais dramática: dunas douradas, nascentes cristalinas e vastidão silenciosa. Uma expedição para quem busca o Brasil remoto.",
     highlights: [
-      "Fervedouros de águas cristalinas",
-      "Dunas e formações rochosas únicas",
-      "Cachoeiras do cerrado",
-      "Comunidades quilombolas",
-      "Céu estrelado intenso"
+      { title: "Fervedouros de águas cristalinas", story: "Você se deita numa nascente de água tão pura e pressurizada que é literalmente impossível afundar — o corpo flutua sozinho como em mágica. Olha para cima e vê o céu azul recortado por buritizais. A água borbulha do fundo de areia branca como se a terra estivesse respirando." },
+      { title: "Dunas e formações rochosas únicas", story: "Você sobe a Duna do Jalapão descalço, a areia laranja escorrendo entre os dedos, e do topo enxerga o cerrado se estendendo até onde a vista acaba. Não há fila, não há cerca, não há nada além do vento. É o tipo de paisagem que dá vontade de chorar de tão limpa." },
+      { title: "Cachoeiras do cerrado", story: "A Cachoeira da Velha despenca 15 metros num paredão de 100 de largura, formando uma piscina cor de chá. Você nada até a base, sente a massagem da queda nos ombros, sai com a pele cheirando a barro doce do cerrado. Pouca gente conhece — quase ninguém esquece." },
+      { title: "Comunidades quilombolas", story: "Em Mumbuca, dona Miúda mostra como o capim dourado vira fio, depois cesto, depois joia. Você senta no chão de terra batida, almoça galinha caipira na panela de ferro, escuta histórias de resistência que vêm dos avós dos avós. Leva para casa uma peça única — e uma lição inteira." },
+      { title: "Céu estrelado intenso", story: "Sem cidade num raio de 100 km, a noite no Jalapão é absurda: a Via Láctea atravessa o céu como uma estrada de luz, estrelas cadentes cortam o silêncio. Você se deita numa rede ao lado do acampamento, e por horas o universo inteiro fica acessível, vivo, próximo." }
     ],
     beyondUsual: [
       "Roteiros fora do circuito principal com menos veículos.",
@@ -290,11 +290,11 @@ export const destinations: Destination[] = [
     imageOverrideUrl: monteRoraimaImg,
     intro: "O tepui mais icônico da América do Sul: um platô pré-cambriano suspenso entre nuvens, com formações rochosas e ecossistemas únicos no planeta.",
     highlights: [
-      "Travessia de 6 a 8 dias até o platô",
-      "Vale dos Cristais e jacuzzis naturais",
-      "Vistas para a tríplice fronteira",
-      "Flora endêmica e formações rochosas surreais",
-      "Acampamentos sob paredões de 400m"
+      { title: "Travessia de 6 a 8 dias até o platô", story: "Você atravessa savana, sobe rampa de pedra úmida, passa entre nuvens — e no terceiro dia chega ao topo de uma montanha pré-histórica que serviu de inspiração para 'O Mundo Perdido'. Cada passo da subida é conquista, e quando você finalmente pisa no platô, sente fisicamente que está num lugar que poucos humanos conhecem." },
+      { title: "Vale dos Cristais e jacuzzis naturais", story: "Andando pelo platô, você encontra um vale inteiro coberto de quartzos brilhando ao sol como se alguém tivesse derramado diamantes no chão. Adiante, piscinas naturais escavadas na pedra negra, água gelada e cristalina, banho gelado a 2.800 m de altitude. Surreal não é exagero — é descrição." },
+      { title: "Vistas para a tríplice fronteira", story: "Do mirante chamado La Proa, três países se abrem aos seus pés: Brasil, Venezuela e Guiana. Lá embaixo, a Gran Sabana se estende em verde infinito, atravessada por rios de chocolate. Acima, só céu. O vento bate forte, e você entende por que os indígenas Pemón chamam esse lugar de 'casa dos deuses'." },
+      { title: "Flora endêmica e formações rochosas surreais", story: "Esculturas de pedra erguidas pelo vento ao longo de bilhões de anos: tartarugas gigantes, navios, rostos. Entre elas, plantas carnívoras endêmicas e flores que só existem aqui, no topo deste tepui. Cada metro é um museu de história natural a céu aberto." },
+      { title: "Acampamentos sob paredões de 400m", story: "Sua barraca é montada na base de uma muralha vermelha que sobe vertical, sumindo nas nuvens. A noite cai, a fogueira estala, o guia indígena conta lendas Pemón em voz baixa. Você dorme com o som do vento riscando a pedra — uma das melhores noites de sono da sua vida." }
     ],
     beyondUsual: [
       "Saída pelo lado brasileiro com guias indígenas Pemón.",
@@ -324,11 +324,11 @@ export const destinations: Destination[] = [
     imageOverrideUrl: "",
     intro: "Montanhas, cânions e cachoeiras em meio à caatinga e ao cerrado baiano. Uma Chapada para caminhar, contemplar e se reconectar.",
     highlights: [
-      "Cachoeira da Fumaça e outras quedas monumentais",
-      "Trilhas no Vale do Pati",
-      "Morro do Pai Inácio",
-      "Grutas e poços azuis",
-      "Vilas históricas de mineração"
+      { title: "Cachoeira da Fumaça e outras quedas monumentais", story: "São 380 metros de queda livre — tão alta que a água se desfaz em neblina antes de tocar o chão. Você se deita na borda do paredão, cabeça para fora do precipício, e vê o vento empurrando a cachoeira para cima. É vertigem, beleza e adrenalina misturadas num único minuto inesquecível." },
+      { title: "Trilhas no Vale do Pati", story: "Três a seis dias de travessia pelo coração da Chapada, dormindo em casas de moradores que cozinham para você no fogão a lenha. Cada dia: um vale novo, uma cachoeira escondida, um mirante que parece pintado. Você termina cansado, em paz e com a sensação de ter feito uma das melhores caminhadas da América do Sul." },
+      { title: "Morro do Pai Inácio", story: "Trinta minutos de subida e, no topo, 360 graus do mundo se abrindo: serras roxas no horizonte, vales verdes, ruínas de fazendas de garimpo. O pôr do sol pinta tudo de cor-de-rosa, o vento é forte, e por meia hora você tem certeza de que esse é um dos lugares mais bonitos do Brasil." },
+      { title: "Grutas e poços azuis", story: "Você desce uma escada de pedra e entra na caverna do Poço Azul. Cinco metros abaixo, a água é tão transparente que parece feita de ar. Coloca máscara, flutua, vê o feixe de luz mergulhando até o fundo num azul-elétrico — e tem a impressão estranha de estar suspenso no vazio." },
+      { title: "Vilas históricas de mineração", story: "Lençóis, Mucugê, Igatu — casarios coloridos do século XIX, igrejinhas brancas, ladeiras de pedra polida pelos passos do garimpo. Você toma café num antigo armazém, ouve história de aventureiro de diamante, dorme em pousada de janelões azuis. O passado aqui não é museu, é vizinho." }
     ],
     beyondUsual: [
       "Travessia do Vale do Pati com pernoites em casas locais.",
