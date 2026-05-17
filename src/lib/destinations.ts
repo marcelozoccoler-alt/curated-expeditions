@@ -1137,6 +1137,146 @@ export const destinations: Destination[] = [
     ]
   },
   {
+    id: "brasil-mantiqueira-paulista",
+    continent: "Brasil",
+    country: "Brasil",
+    region: "São Paulo",
+    slug: "brasil/mantiqueira-paulista",
+    name: "Mantiqueira Paulista — Campos do Jordão",
+    bestTime: "Jun–Ago para inverno e lareira; Set–Nov para flores e clima ameno.",
+    tags: ["montanha", "gastronomia", "bem-estar", "roadtrip", "familia"],
+    imageAiPrompt: "Ultra realistic photo of Campos do Jordão landscape, Mantiqueira mountains in São Paulo, araucária pine trees, alpine-style chalet, golden hour, no people.",
+    imageOverrideUrl: "",
+    intro: "A serra paulista por excelência: araucárias centenárias, chalés de pedra, gastronomia de inverno e estradas cênicas a 3h de São Paulo.",
+    highlights: [
+      "Campos do Jordão — Capivari, Horto Florestal e Pedra do Baú",
+      "Santo Antônio do Pinhal — vilarejo bucólico com vista para a serra",
+      "São Bento do Sapucaí — escalada na Pedra do Baú e cachoeiras",
+      "Monte Verde (divisa MG) — combinável em road trip",
+      "Ciclovia e Maria Fumaça entre Pindamonhangaba e Campos",
+      "Cervejarias artesanais e cafés de altitude"
+    ],
+    beyondUsual: [
+      "Jantar harmonizado em vinícolas de altitude da Mantiqueira.",
+      "Trilha guiada à Pedra do Baú ao amanhecer.",
+      "Retiros de bem-estar em pousadas-boutique escondidas em Santo Antônio do Pinhal."
+    ],
+    stays: [],
+    faq: [
+      { q: "Quando ir?", a: "Inverno (jun–ago) para clima de serra; primavera para flores e menos fluxo." },
+      { q: "Quantos dias?", a: "3 a 5 noites, ideal para combinar 2 bases." },
+      { q: "Vai de carro?", a: "Sim, 2h30 a 3h de São Paulo pela Carvalho Pinto + Floriano Rodrigues Pinheiro." },
+      { q: "É bom para famílias?", a: "Excelente — trens, parques e atividades ao ar livre." },
+      { q: "Dá para combinar com o litoral?", a: "Sim, descendo a serra até Ubatuba ou São Sebastião." },
+      { q: "Como criar roteiro?", a: "Clique em Criar roteiro sob medida." }
+    ]
+  },
+  {
+    id: "brasil-brotas-aventura",
+    continent: "Brasil",
+    country: "Brasil",
+    region: "São Paulo",
+    slug: "brasil/brotas-aventura",
+    name: "Brotas & Vale do Jacaré — Aventura Paulista",
+    bestTime: "Abr–Out (águas mais claras); Nov–Mar com mais volume nos rios.",
+    tags: ["natureza", "expedicao", "familia", "bem-estar", "roadtrip"],
+    imageAiPrompt: "Ultra realistic photo of rafting on Rio Jacaré-Pepira in Brotas, São Paulo, lush cerrado vegetation, blue sky, no people identifiable.",
+    imageOverrideUrl: "",
+    intro: "Capital paulista da aventura: rafting, cachoeiras, tirolesa e canoagem no coração do cerrado, a 4h da capital — perfeito para famílias ativas.",
+    highlights: [
+      "Rafting no Rio Jacaré-Pepira",
+      "Cachoeira Três Quedas e Cassorova",
+      "Tirolesas, rapel e arvorismo no Parque dos Saltos",
+      "Bóia-cross e canoagem para iniciantes",
+      "Analândia e a Cuesta de Itaqueri (mirantes geológicos)",
+      "Torrinha — grutas e cavernas pouco visitadas"
+    ],
+    beyondUsual: [
+      "Expedição de 2 dias descendo o Jacaré-Pepira com pernoite acampado.",
+      "Voo de balão sobre o Vale do Jacaré ao amanhecer.",
+      "Eco-lodges com SPA e gastronomia caipira contemporânea."
+    ],
+    stays: [],
+    faq: [
+      { q: "É bom para crianças?", a: "Sim, há opções leves de rafting e arvorismo desde 6 anos." },
+      { q: "Quantos dias?", a: "3 a 4 noites para aproveitar as principais atividades." },
+      { q: "Quando ir?", a: "Abril a outubro para águas mais cristalinas." },
+      { q: "Como chegar?", a: "4h de carro de São Paulo via Bandeirantes." },
+      { q: "Combina com outros destinos?", a: "Sim, com Analândia, São Pedro e Circuito das Águas." },
+      { q: "Como criar roteiro?", a: "Clique em Criar roteiro sob medida." }
+    ]
+  },
+  {
+    id: "brasil-circuito-aguas-paulistas",
+    continent: "Brasil",
+    country: "Brasil",
+    region: "São Paulo",
+    slug: "brasil/circuito-aguas-paulistas",
+    name: "Circuito das Águas Paulistas",
+    bestTime: "Abr–Set (clima ameno e seco); evite feriadões.",
+    tags: ["bem-estar", "gastronomia", "familia", "roadtrip", "cultura"],
+    imageAiPrompt: "Ultra realistic photo of Serra Negra hills in São Paulo countryside, colonial architecture, rolling green coffee plantations, late afternoon light, no people.",
+    imageOverrideUrl: "",
+    intro: "Águas termais, ar de montanha e charme de cidades pequenas: o circuito reúne Serra Negra, Lindóia, Socorro, Águas de São Pedro e Holambra em road trip caipira.",
+    highlights: [
+      "Serra Negra — bondinho, malharias e cafés de fazenda",
+      "Águas de Lindóia e Lindóia — fontes termais e parques",
+      "Socorro — turismo de aventura no Rio do Peixe",
+      "Águas de São Pedro — SPA termal e arquitetura art déco",
+      "Holambra — herança holandesa, tulipas e Expoflora",
+      "Amparo — centro histórico tombado e gastronomia rural"
+    ],
+    beyondUsual: [
+      "Banhos termais privativos em hotel-fonte histórico.",
+      "Almoço autoral em fazendas-restaurante com ingredientes do terroir paulista.",
+      "Roteiro de bondinhos, antiquários e cafés de especialidade em Serra Negra."
+    ],
+    stays: [],
+    faq: [
+      { q: "Quantos dias?", a: "4 a 6 noites para um circuito completo." },
+      { q: "Como se desloca?", a: "De carro — distâncias curtas entre as cidades." },
+      { q: "Quando ir?", a: "Outono e inverno (abr–set) para clima seco e ameno." },
+      { q: "É bom para casais?", a: "Sim, ideal para bem-estar e gastronomia." },
+      { q: "Combina com Campos do Jordão?", a: "Sim, em road trip serrana mais longa." },
+      { q: "Como criar roteiro?", a: "Clique em Criar roteiro sob medida." }
+    ]
+  },
+  {
+    id: "brasil-vale-historico-caipira",
+    continent: "Brasil",
+    country: "Brasil",
+    region: "São Paulo",
+    slug: "brasil/vale-historico-caipira",
+    name: "Vale Histórico & Cultura Caipira — Cunha, São Luiz do Paraitinga e Bananal",
+    bestTime: "Maio–Set (clima seco); Fev para o Carnaval de Marchinhas em São Luiz.",
+    tags: ["cultura", "gastronomia", "bem-estar", "roadtrip", "fotografia"],
+    imageAiPrompt: "Ultra realistic photo of colonial baroque church in São Luiz do Paraitinga, São Paulo, colorful colonial houses, mountains of Serra do Mar in background, no people.",
+    imageOverrideUrl: "",
+    intro: "A São Paulo profunda: vilarejos coloniais, ateliês de cerâmica, fazendas de café do ciclo imperial e a cultura caipira viva entre a Mantiqueira e a Serra do Mar.",
+    highlights: [
+      "Cunha — capital paulista da cerâmica de alta temperatura (noborigamas)",
+      "São Luiz do Paraitinga — casario colonial e Carnaval de Marchinhas",
+      "Bananal — fazendas históricas do ciclo do café",
+      "Parque Nacional da Serra da Bocaina (acesso por Cunha)",
+      "Cachoeira do Pimenta e Mata Atlântica preservada",
+      "Roteiro de cachaças artesanais e queijos do Vale do Paraíba"
+    ],
+    beyondUsual: [
+      "Visita guiada a ateliês de cerâmica com mestres-artesãos em Cunha.",
+      "Hospedagem em fazenda histórica do café com café da manhã caipira.",
+      "Travessia de jipe até Paraty pela Estrada Real (Cunha–Paraty)."
+    ],
+    stays: [],
+    faq: [
+      { q: "Quantos dias?", a: "3 a 5 noites combinando 2 bases." },
+      { q: "Combina com Paraty?", a: "Sim, Cunha fica a 50 km de Paraty pela serra." },
+      { q: "Quando ir?", a: "Inverno seco (maio–set); fevereiro para o Carnaval de São Luiz." },
+      { q: "É bom para casais?", a: "Sim, perfeito para slow travel e gastronomia rural." },
+      { q: "Tem trilhas?", a: "Sim, na Serra da Bocaina e em torno de Cunha." },
+      { q: "Como criar roteiro?", a: "Clique em Criar roteiro sob medida." }
+    ]
+  },
+  {
     id: "brasil-litoral-espirito-santo",
     continent: "Brasil",
     country: "Brasil",
