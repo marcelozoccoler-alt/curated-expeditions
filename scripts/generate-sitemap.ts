@@ -93,6 +93,13 @@ for (const r of regions) push(`/${r.slug}`, 0.9, "weekly");
 push("/sobre", 0.5, "monthly");
 push("/contato", 0.5, "monthly");
 
+// Multilingual incoming landing pages (target foreigners searching Brazil)
+const INCOMING_LANGS = ["en", "es", "it", "de"] as const;
+for (const lang of INCOMING_LANGS) {
+  push(`/${lang}/incoming`, 0.9, "weekly");
+  push(`/${lang}`, 0.85, "weekly");
+}
+
 const xml = `<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 ${urls
