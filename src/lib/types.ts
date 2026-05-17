@@ -24,6 +24,8 @@ export const TAGS: Tag[] = [
   { id: "praia", label: "Praias & ilhas" },
   { id: "aurora", label: "Aurora boreal" },
   { id: "expedicao", label: "Expedições" },
+  { id: "birdwatching", label: "Birdwatching" },
+  { id: "festivais-folcloricos", label: "Festivais folclóricos" },
 ];
 
 export const getTagLabel = (id: string): string => {
