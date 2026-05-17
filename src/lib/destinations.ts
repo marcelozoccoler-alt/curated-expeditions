@@ -2148,11 +2148,11 @@ export const destinations: Destination[] = [
     imageOverrideUrl: "",
     intro: "Palácios de marajás, cores vibrantes e hospitalidade ancestral. O Rajastão é a Índia em sua versão mais cinematográfica e intensa.",
     highlights: [
-      "Jaipur (Cidade Rosa)",
-      "Udaipur (Cidade dos Lagos)",
-      "Jodhpur (Cidade Azul)",
-      "Jaisalmer e o deserto do Thar",
-      "Palácios convertidos em hotéis"
+      { title: "Jaipur (Cidade Rosa)", story: "Toda Jaipur foi pintada de rosa-terracota em 1876 para receber o Príncipe de Gales — caminhar pelo Bazar Johari ao entardecer é mergulhar em tecidos de seda bordados a ouro, joias de pedra colorida e elefantes pintados a mão para festivais. O Hawa Mahal, palácio de fachada de favo de mel com 953 janelas, foi construído para as mulheres reais observarem a rua sem serem vistas; o Forte Amber, no alto, exige subida de elefante por escadarias seculares." },
+      { title: "Udaipur (Cidade dos Lagos)", story: "Sete lagos artificiais conectados refletem o Lake Palace, hotel branco de mármore que parece flutuar sobre a água do Lago Pichola — chega-se de barco, janta-se no terraço com músicos de sitar e dorme-se em suítes onde marajás viviam. Ao entardecer, do Sajjangarh Monsoon Palace nos morros, vê-se Udaipur inteira dourada com o reflexo das luzes do palácio na água — talvez a cidade mais romântica da Índia." },
+      { title: "Jodhpur (Cidade Azul)", story: "Do alto do Mehrangarh Fort, fortaleza de pedra vermelha que se eleva 122m da rocha, vê-se Jodhpur em câmera fotográfica: milhares de casas pintadas de azul-índigo (originalmente cor da casta brâmane, depois adotada por todos por refletir calor e repelir insetos). Desce-se a pé pelas vielas labirínticas até a Sardar Market, onde se compra especiarias, prova-se mirchi vada apimentado e ouve-se o muezzin misturado a sinos hindus." },
+      { title: "Jaisalmer e o deserto do Thar", story: "Jaisalmer é a 'Cidade Dourada' — uma fortaleza viva inteira esculpida em arenito amarelo onde 3.000 pessoas ainda moram dentro das muralhas medievais. Sai-se de jipe ao entardecer pelo deserto do Thar, troca-se para camelos nas dunas Sam, vê-se o sol se pôr sobre areia rosada infinita e dorme-se em camp de luxo com tendas de tecido bordado, jantar com música rajastani e céu de estrelas absoluto." },
+      { title: "Palácios convertidos em hotéis", story: "Heritage hotels permitem dormir literalmente nos palácios da realeza: Taj Lake Palace flutuando em Udaipur, Rambagh Palace em Jaipur (residência do Marajá Sawai Man Singh II), Umaid Bhawan em Jodhpur (último grande palácio construído na Índia, ainda parte residência real). Aposentos com afrescos originais, jardins mughal, banhos turcos privados e serviço de mordomo de turbante — viagem no tempo com conforto contemporâneo." }
     ],
     beyondUsual: [
       "Estadias em heritage hotels fora do circuito óbvio.",
