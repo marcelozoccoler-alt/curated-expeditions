@@ -306,6 +306,13 @@ export const INCOMING_COPY: Record<Exclude<Lang, "pt">, IncomingCopy> = {
         "Private Guides und 24/7-Betreuung vor Ort",
       ],
     },
+    expertise: {
+      heading: "Brasilien in der Handfläche",
+      lead: "Wir kombinieren ein, zwei, drei oder mehr Reiseziele zu einer einzigen nahtlosen Reise — Inlandsflüge, Flussboote, Charter, Panoramazüge und private Transfers. Was auch immer nötig ist, damit das Land für dich fließt.",
+      destinationsLabel: "Reiseziele, die wir in ganz Brasilien gestalten",
+      destinations: "Amazônia (Manaus, Rio Negro, Anavilhanas, Mamirauá) · Alter do Chão · Belém & Ilha de Marajó · Monte Roraima · Lençóis Maranhenses · Chapada das Mesas · Jalapão · Chapada dos Veadeiros · Pirenópolis · Pantanal Norte (MT) · Pantanal Sul (MS) · Bonito & Serra da Bodoquena · Cristalino · Serra do Roncador · Chapada Diamantina · Salvador · Ilha de Boipeba · Península de Maraú · Abrolhos & Costa do Descobrimento · Fernando de Noronha · Litoral Pernambucano · Litoral Alagoano · Maragogi · Cânions do Xingó · Jericoacoara · Rota das Emoções · Rota das Falésias · Serra da Capivara · Rio de Janeiro · Cataratas do Iguaçu · Cânions do Sul · Florianópolis · Serra do Cipó · Serra da Canastra · Cidades Históricas & Inhotim · Estrada Real · Campos do Jordão",
+      biomes: "Lokale Expertise in Brasiliens 7 Biomen — Amazonas, Cerrado, Caatinga, Atlantischer Regenwald, Pampa, Pantanal und Küsten-/Meeresgebiet — mit vertrauenswürdigen Kontakten in jedem davon.",
+    },
     cta: {
       heading: "Bereit, dein Brasilien zu gestalten?",
       subheading:
