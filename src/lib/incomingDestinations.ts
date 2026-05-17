@@ -12,7 +12,7 @@ import chapadaDiamantinaImg from "@/assets/destinations/brasil-chapada-diamantin
 import jericoacoaraImg from "@/assets/destinations/brasil-jericoacoara.jpg";
 import bonitoImg from "@/assets/destinations/brasil-bonito.jpg";
 import alterDoChaoImg from "@/assets/destinations/brasil-amazonia-kaiara-alter-do-chao.jpg";
-import ouroPretoImg from "@/assets/destinations/brasil-minas-gerais-cidades-historicas-inhotim.jpg";
+
 import jalapaoImg from "@/assets/destinations/brasil-jalapao.jpg";
 import maragogiImg from "@/assets/destinations/brasil-litoral-alagoano.jpg";
 import floripaImg from "@/assets/destinations/brasil-litoral-santa-catarina.jpg";
@@ -242,24 +242,6 @@ export const INCOMING_DESTINATIONS: IncomingDestination[] = [
       es: "El 'Caribe amazónico': playas de río con arena blanca y selva justo detrás.",
       it: "I 'Caraibi amazzonici': spiagge fluviali di sabbia bianca con la foresta alle spalle.",
       de: "Die 'Karibik des Amazonas': weiße Flussstrände mit Regenwald direkt dahinter.",
-    },
-  },
-  {
-    slug: "ouro-preto",
-    image: ouroPretoImg,
-    name: {
-      pt: "Ouro Preto",
-      en: "Ouro Preto",
-      es: "Ouro Preto",
-      it: "Ouro Preto",
-      de: "Ouro Preto",
-    },
-    blurb: {
-      pt: "Cidade barroca de Minas, igrejas douradas e a estrada do café e do queijo de altitude.",
-      en: "Minas baroque town, gilded churches and the highland coffee-and-cheese road.",
-      es: "Ciudad barroca de Minas, iglesias doradas y la ruta del café y queso de altura.",
-      it: "Città barocca del Minas, chiese dorate e la strada del caffè e del formaggio d'altura.",
-      de: "Barockstadt in Minas, vergoldete Kirchen und die Kaffee- und Käsestraße der Höhen.",
     },
   },
   {
