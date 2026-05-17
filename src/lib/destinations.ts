@@ -1736,11 +1736,11 @@ export const destinations: Destination[] = [
     imageOverrideUrl: "",
     intro: "O laboratório da evolução: fauna sem medo, vulcões ativos e experiências que Darwin imortalizou. Galápagos é único no planeta.",
     highlights: [
-      "Tartarugas gigantes em seu habitat",
-      "Snorkel com leões-marinhos e pinguins",
-      "Iguanas marinhas e terrestres",
-      "Cruzeiros entre as ilhas",
-      "Blue-footed boobies e fragatas"
+      { title: "Tartarugas gigantes em seu habitat", story: "Na reserva de Santa Cruz, caminha-se entre tartarugas de 250 kg e 150 anos pastando capim em câmera lenta como se o tempo não passasse — porque para elas, não passa mesmo. O som é apenas o roçar das carapaças contra a vegetação e respirações pesadas; aproximar-se a dois metros sem que se mexam é a primeira lição de que aqui o humano é apenas mais um animal." },
+      { title: "Snorkel com leões-marinhos e pinguins", story: "Em Punta Pitt ou Los Túneles, leões-marinhos juvenis nadam em volta dos snorkelistas em espirais brincalhonas, soprando bolhas no rosto e fazendo loopings de 360° a centímetros da máscara. Em poucas horas se nada também com pinguins de Galápagos — os únicos do mundo a viver na linha do equador — tubarões de recife e tartarugas verdes que cruzam tranquilas pelo lado." },
+      { title: "Iguanas marinhas e terrestres", story: "São os únicos lagartos do planeta que mergulham no mar para comer algas — descem a 10 metros, ficam imóveis no fundo gelado e voltam à superfície para se aquecer em rochas pretas vulcânicas em massas de dezenas, espirrando sal pelas narinas. Vistas de perto, parecem dragões em miniatura, e sua imobilidade total a 30 cm dos pés é desconcertante." },
+      { title: "Cruzeiros entre as ilhas", story: "Os melhores roteiros são em embarcações de 16 cabines que navegam à noite enquanto se janta e dorme — acorda-se a cada manhã em uma ilha diferente, com fauna distinta, lava distinta, lições distintas de evolução. Naturalistas certificados guiam dois desembarques por dia, contam histórias de Darwin no convés ao pôr do sol e fazem da viagem uma sala de aula flutuante de altíssimo nível." },
+      { title: "Blue-footed boobies e fragatas", story: "Os atobás-de-patas-azuis fazem a dança de acasalamento mais cômica da natureza — levantam alternadamente os pés azul-turquesa, abrem as asas e assoviam para a fêmea com seriedade absoluta. A poucos metros, fragatas-magníficas inflam o papo escarlate até o tamanho de uma bola de basquete e ficam horas assim, parecendo balões abandonados num galho." }
     ],
     beyondUsual: [
       "Mergulho em Wolf e Darwin para tubarões-martelo.",
