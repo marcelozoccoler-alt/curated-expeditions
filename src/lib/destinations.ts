@@ -2044,11 +2044,11 @@ export const destinations: Destination[] = [
     imageOverrideUrl: "",
     intro: "Três capitais imperiais conectadas por trens confortáveis e cênicos: Viena com sua elegância musical, Budapeste banhada pelo Danúbio e suas termas, e Praga com seus telhados vermelhos e ruas medievais. Um roteiro fluido, sem aeroportos, com o ritmo de uma viagem europeia clássica.",
     highlights: [
-      "Ópera, palácios e cafés históricos em Viena",
-      "Termas e cruzeiro pelo Danúbio em Budapeste",
-      "Castelo de Praga, Ponte Carlos e Cidade Velha",
-      "Trens diurnos em primeira classe entre as capitais",
-      "Gastronomia centro-europeia com curadoria contemporânea"
+      { title: "Ópera, palácios e cafés históricos em Viena", story: "Uma noite na Wiener Staatsoper, com camarote de veludo vermelho e dourado e orquestra interpretando Mozart em sua cidade natal, é viver a Viena imperial em alta definição. De dia, percorrem-se Schönbrunn e seus jardins barrocos, depois prova-se Sachertorte original no Café Sacher e Apfelstrudel no Café Central — cafés do século XIX onde Freud e Trotsky tomavam melange entre debates intelectuais." },
+      { title: "Termas e cruzeiro pelo Danúbio em Budapeste", story: "Budapeste é a capital das termas: Széchenyi com piscinas amarelas neobarrocas ao ar livre onde se joga xadrez em tabuleiros flutuantes mesmo na neve, Gellért com mosaicos art nouveau num palácio termal. À noite, cruzeiro pelo Danúbio com o Parlamento iluminado em dourado, a Ponte das Correntes refletida na água e janta-se goulash autêntico em barcos-restaurante deslizando lentamente entre as duas margens." },
+      { title: "Castelo de Praga, Ponte Carlos e Cidade Velha", story: "O Castelo de Praga é o maior complexo de castelo do mundo, com a Catedral de São Vito gótica de torres pretas afiadas e o Beco Dourado de casas miniatura coloridas onde Kafka morou. Atravessa-se a Ponte Carlos ao amanhecer (única hora vazia), entre estátuas barrocas de santos enegrecidas pelo tempo, até a Cidade Velha onde o Relógio Astronômico do século XV ainda marca as horas com procissão de apóstolos." },
+      { title: "Trens diurnos em primeira classe entre as capitais", story: "Viena-Budapeste (2h30) e Budapeste-Praga (7h) em trens RegioJet ou Railjet em primeira classe — poltronas de couro reclináveis, refeições servidas no lugar, paisagens da Europa Central deslizando pela janela panorâmica: vinhedos morávios, florestas eslovacas, planícies húngaras com cegonhas em ninhos no topo de postes. Chegada direto no centro de cada capital, sem aeroporto." },
+      { title: "Gastronomia centro-europeia com curadoria contemporânea", story: "Para além de Wiener Schnitzel e goulash, há restaurantes com estrela Michelin reinventando a tradição: Tian em Viena (vegetariano de alta cozinha), Costes em Budapeste (cozinha húngara contemporânea), Field em Praga (a estrela Michelin da Cidade Velha). Combina-se com tabernas seculares como Plzeňská Restaurace em Praga onde o pilsner é tirado direto do barril como há 180 anos." }
     ],
     beyondUsual: [
       "Concerto privado em palácio vienense, fora dos circuitos de turistas.",
