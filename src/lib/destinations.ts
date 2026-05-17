@@ -2182,11 +2182,11 @@ export const destinations: Destination[] = [
     imageOverrideUrl: "",
     intro: "Espiritualidade, arrozais e praias: Bali equilibra introspecção e aventura. Um destino para quem busca reconexão com cuidado e estética.",
     highlights: [
-      "Ubud e seus arrozais",
-      "Templos hindus icônicos",
-      "Praias e surf no sul",
-      "Vulcões e trilhas",
-      "Bem-estar e retiros"
+      { title: "Ubud e seus arrozais", story: "Os terraços de Tegallalang descem em escadaria verde-fluorescente esculpida há mais de mil anos pelo sistema subak (irrigação coletiva sagrada, patrimônio UNESCO). Caminha-se por trilhas estreitas entre os campos enquanto camponeses de chapéu cônico plantam mudas e patos correm livres comendo insetos; ao entardecer, janta-se em restaurantes suspensos sobre arrozais ouvindo gamelão balinês ao fundo." },
+      { title: "Templos hindus icônicos", story: "Tanah Lot é um templo do século XVI sobre uma rocha cercada pelo mar — só se atravessa na maré baixa, e ao pôr do sol a silhueta contra o céu laranja é a foto-cartão de Bali. Uluwatu, sobre penhascos de 70m, oferece a dança kecak ao entardecer com 100 homens entoando 'cak cak cak' em transe. Em Besakih, o Templo Mãe nas encostas do vulcão Agung, descalço entre fiéis em sarong com oferendas." },
+      { title: "Praias e surf no sul", story: "Uluwatu, Padang Padang e Bingin têm algumas das melhores ondas direitas do planeta — surfistas de elite voam de todo lugar para encarar tubos perfeitos sobre coral raso. Quem não surfa, observa de beach clubs cravados em penhascos (Single Fin, Ulu Cliffhouse) com cocktails ao pôr do sol; em Canggu, ambiente mais hipster com cafés de specialty coffee, surfistas casuais e festas até o amanhecer." },
+      { title: "Vulcões e trilhas", story: "Sobe-se o Monte Batur (1.717m) começando às 3h da manhã com lanternas de cabeça, em fila silenciosa de 200 trekkers, para chegar ao cume no minuto em que o sol nasce atrás do Monte Agung — toma-se café da manhã com ovos cozidos no vapor das fumarolas vulcânicas. Para mais selvagem, o Monte Agung exige guia espiritual hindu, 7 horas de subida e descida no escuro com vista de Lombok ao amanhecer." },
+      { title: "Bem-estar e retiros", story: "Ubud é o epicentro mundial do bem-estar — retiros de yoga 5 dias, terapias balinesas com flores frescas, cerimônias de purificação (melukat) em fontes sagradas com sacerdotes hindus, healers tradicionais (balian) que diagnosticam pelo pulso, jejum com sucos verdes e meditação ao amanhecer em pavilhões sobre o rio. Spas como Como Shambhala oferecem ayurveda em open-air pavilions cercados por selva e cantos de pássaros." }
     ],
     beyondUsual: [
       "Áreas menos turísticas no norte e leste.",
