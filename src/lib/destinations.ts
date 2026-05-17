@@ -2388,11 +2388,11 @@ export const destinations: Destination[] = [
     imageOverrideUrl: "",
     intro: "Um continente em um país: recifes de corais, outback vermelho e cidades cosmopolitas. Austrália é diversidade em escala continental.",
     highlights: [
-      "Grande Barreira de Corais",
-      "Sydney e Melbourne",
-      "Uluru e Outback",
-      "Great Ocean Road",
-      "Fauna única (cangurus, coalas)"
+      { title: "Grande Barreira de Corais", story: "Maior estrutura viva do planeta, visível do espaço — 2.300 km de recifes que abrigam 1.500 espécies de peixes, 400 tipos de coral e 6 das 7 tartarugas marinhas do mundo. Mergulha-se em locais como Cod Hole onde garoupas-batatas de 2 metros se aproximam curiosas, faz-se snorkel em Heart Reef visto de helicóptero antes, e dorme-se em pontões flutuantes no meio do recife com céu estrelado absoluto sem qualquer poluição luminosa." },
+      { title: "Sydney e Melbourne", story: "Sydney exibe a Opera House com suas velas de cerâmica brancas refletindo no porto, atravessada pela ponte Harbour Bridge cuja subida (BridgeClimb) leva a 134m com vista de 360° da baía. Bondi Beach para surf e brunch contemporâneo. Melbourne é o oposto: laneways escondidos com grafites de artistas globais, melhor cena de café do mundo, restaurantes étnicos em Fitzroy e Brunswick — capital cultural australiana com clima europeu." },
+      { title: "Uluru e Outback", story: "Uluru é um monolito sagrado de arenito vermelho de 348m no meio do nada — sai-se do hotel às 5h da manhã e caminha-se com guia aborígine Anangu pela base (10 km) ouvindo histórias do Dreamtime gravadas em pinturas rupestres há 30 mil anos. Ao pôr do sol, a rocha passa do laranja-terra para vermelho-sangue e finalmente roxo-escuro em 40 minutos, com champanhe servido sob estrelas do hemisfério sul." },
+      { title: "Great Ocean Road", story: "243 km de estrada cinematográfica entre Torquay e Allansford na costa de Victoria, com os 12 Apóstolos — pilares de calcário de 45m esculpidos pelo oceano emergindo do mar do Sul. Para em Loch Ard Gorge para descer escadarias até praia escondida, observa coalas selvagens dormindo em eucaliptos no Great Otway National Park e termina em vinícolas da região com Pinot Noir de clima frio premiado mundialmente." },
+      { title: "Fauna única (cangurus, coalas)", story: "Em Kangaroo Island (SA), cangurus e wallabies pastam livres ao pôr do sol em campos abertos; em Magnetic Island (QLD), faz-se trilha curta e encontra-se coalas dormindo em galhos baixos a 2m do chão. Wombats em Cradle Mountain (TAS), demônios-da-tasmânia em santuários éticos, ornitorrincos selvagens em rios da Eungella — a Austrália isolou-se geneticamente há 50 milhões de anos e a fauna resultante não existe em mais lugar nenhum." }
     ],
     beyondUsual: [
       "Kimberley e norte remoto.",
