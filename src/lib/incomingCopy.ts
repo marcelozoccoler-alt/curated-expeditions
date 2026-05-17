@@ -64,7 +64,7 @@ export const INCOMING_COPY: Record<Exclude<Lang, "pt">, IncomingCopy> = {
     destinations: {
       heading: "The Brazil we love to design",
       subheading:
-        "Eight starting points. Combine them, deepen them, or let us suggest something you've never heard of.",
+        "A curated selection of starting points. Combine them, deepen them, or let us suggest something you've never heard of.",
     },
     process: {
       heading: "How we work",
@@ -89,7 +89,6 @@ export const INCOMING_COPY: Record<Exclude<Lang, "pt">, IncomingCopy> = {
       items: [
         "Brazilian agency, fully licensed (Cadastur 21.030.190/0001-60)",
         "Direct relationships with the lodges, not third-party resellers",
-        "English, Spanish, Italian and German speaking concierge",
         "Private guides and 24/7 in-country support",
       ],
     },
@@ -127,7 +126,7 @@ export const INCOMING_COPY: Record<Exclude<Lang, "pt">, IncomingCopy> = {
     destinations: {
       heading: "El Brasil que amamos diseñar",
       subheading:
-        "Ocho puntos de partida. Combínalos, profundízalos o déjanos sugerirte algo que nunca habías escuchado.",
+        "Una selección curada de puntos de partida. Combínalos, profundízalos o déjanos sugerirte algo que nunca habías escuchado.",
     },
     process: {
       heading: "Cómo trabajamos",
@@ -152,7 +151,6 @@ export const INCOMING_COPY: Record<Exclude<Lang, "pt">, IncomingCopy> = {
       items: [
         "Agencia brasileña con licencia (Cadastur 21.030.190/0001-60)",
         "Relación directa con los lodges, sin revendedores",
-        "Atención en inglés, español, italiano y alemán",
         "Guías privados y soporte 24/7 en destino",
       ],
     },
@@ -190,7 +188,7 @@ export const INCOMING_COPY: Record<Exclude<Lang, "pt">, IncomingCopy> = {
     destinations: {
       heading: "Il Brasile che amiamo disegnare",
       subheading:
-        "Otto punti di partenza. Combinali, approfondiscili o lascia che ti suggeriamo qualcosa che non avevi mai sentito nominare.",
+        "Una selezione curata di punti di partenza. Combinali, approfondiscili o lascia che ti suggeriamo qualcosa che non avevi mai sentito nominare.",
     },
     process: {
       heading: "Come lavoriamo",
@@ -215,7 +213,6 @@ export const INCOMING_COPY: Record<Exclude<Lang, "pt">, IncomingCopy> = {
       items: [
         "Agenzia brasiliana, regolarmente registrata (Cadastur 21.030.190/0001-60)",
         "Rapporto diretto con i lodge, senza intermediari",
-        "Concierge in inglese, spagnolo, italiano e tedesco",
         "Guide private e supporto 24/7 sul posto",
       ],
     },
@@ -253,7 +250,7 @@ export const INCOMING_COPY: Record<Exclude<Lang, "pt">, IncomingCopy> = {
     destinations: {
       heading: "Das Brasilien, das wir lieben zu gestalten",
       subheading:
-        "Acht Ausgangspunkte. Kombiniere sie, vertiefe sie oder lass uns dir etwas vorschlagen, von dem du noch nie gehört hast.",
+        "Eine kuratierte Auswahl von Ausgangspunkten. Kombiniere sie, vertiefe sie oder lass uns dir etwas vorschlagen, von dem du noch nie gehört hast.",
     },
     process: {
       heading: "So arbeiten wir",
@@ -278,7 +275,6 @@ export const INCOMING_COPY: Record<Exclude<Lang, "pt">, IncomingCopy> = {
       items: [
         "Brasilianische Agentur, vollständig lizenziert (Cadastur 21.030.190/0001-60)",
         "Direkte Beziehungen zu den Lodges, keine Wiederverkäufer",
-        "Concierge auf Englisch, Spanisch, Italienisch und Deutsch",
         "Private Guides und 24/7-Betreuung vor Ort",
       ],
     },

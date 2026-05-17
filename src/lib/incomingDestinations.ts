@@ -8,6 +8,14 @@ import rioImg from "@/assets/states/rio-de-janeiro.jpg";
 import paranaImg from "@/assets/states/parana.jpg";
 import goiasImg from "@/assets/states/goias.jpg";
 import pernambucoImg from "@/assets/states/pernambuco.jpg";
+import cearaImg from "@/assets/states/ceara.jpg";
+import msImg from "@/assets/states/mato-grosso-do-sul.jpg";
+import paraImg from "@/assets/states/para.jpg";
+import minasImg from "@/assets/states/minas-gerais.jpg";
+import alagoasImg from "@/assets/states/alagoas.jpg";
+import tocantinsImg from "@/assets/states/tocantins.jpg";
+import scImg from "@/assets/states/santa-catarina.jpg";
+import rnImg from "@/assets/states/rio-grande-do-norte.jpg";
 
 export interface IncomingDestination {
   slug: string;
@@ -161,6 +169,168 @@ export const INCOMING_DESTINATIONS: IncomingDestination[] = [
       es: "Archipiélago volcánico, buceo entre delfines y tortugas — el paraíso preservado del Atlántico Sur.",
       it: "Arcipelago vulcanico, immersioni tra delfini e tartarughe — il paradiso protetto dell'Atlantico del Sud.",
       de: "Vulkanarchipel, Tauchen mit Delfinen und Schildkröten — das geschützte Paradies des Südatlantiks.",
+    },
+  },
+  {
+    slug: "chapada-diamantina",
+    image: bahiaImg,
+    name: {
+      pt: "Chapada Diamantina",
+      en: "Chapada Diamantina",
+      es: "Chapada Diamantina",
+      it: "Chapada Diamantina",
+      de: "Chapada Diamantina",
+    },
+    blurb: {
+      pt: "Vales, grutas azuis e cachoeiras gigantes no coração da Bahia — trekking e silêncio.",
+      en: "Valleys, blue caves and towering waterfalls in the heart of Bahia — trekking and silence.",
+      es: "Valles, grutas azules y cascadas gigantes en el corazón de Bahía — trekking y silencio.",
+      it: "Valli, grotte azzurre e cascate giganti nel cuore di Bahia — trekking e silenzio.",
+      de: "Täler, blaue Grotten und gewaltige Wasserfälle im Herzen Bahias — Trekking und Stille.",
+    },
+  },
+  {
+    slug: "jericoacoara",
+    image: cearaImg,
+    name: {
+      pt: "Jericoacoara",
+      en: "Jericoacoara",
+      es: "Jericoacoara",
+      it: "Jericoacoara",
+      de: "Jericoacoara",
+    },
+    blurb: {
+      pt: "Vila de pescadores entre dunas e mar — pôr do sol no alto da duna e ruas de areia.",
+      en: "A fishing village between dunes and sea — sunset from the dune and sandy streets.",
+      es: "Pueblo de pescadores entre dunas y mar — atardecer en la duna y calles de arena.",
+      it: "Villaggio di pescatori tra dune e mare — tramonto sulla duna e strade di sabbia.",
+      de: "Fischerdorf zwischen Dünen und Meer — Sonnenuntergang auf der Düne und Sandstraßen.",
+    },
+  },
+  {
+    slug: "bonito",
+    image: msImg,
+    name: {
+      pt: "Bonito",
+      en: "Bonito",
+      es: "Bonito",
+      it: "Bonito",
+      de: "Bonito",
+    },
+    blurb: {
+      pt: "Rios transparentes para flutuar entre peixes, grutas submersas e cavernas de água azul.",
+      en: "Crystal-clear rivers to float among fish, submerged grottoes and blue-water caves.",
+      es: "Ríos transparentes para flotar entre peces, grutas sumergidas y cavernas de agua azul.",
+      it: "Fiumi trasparenti per galleggiare tra i pesci, grotte sommerse e caverne d'acqua azzurra.",
+      de: "Glasklare Flüsse zum Treiben zwischen Fischen, versunkene Grotten und blaue Wasserhöhlen.",
+    },
+  },
+  {
+    slug: "alter-do-chao",
+    image: paraImg,
+    name: {
+      pt: "Alter do Chão",
+      en: "Alter do Chão",
+      es: "Alter do Chão",
+      it: "Alter do Chão",
+      de: "Alter do Chão",
+    },
+    blurb: {
+      pt: "O 'Caribe amazônico': praias de rio com areia branca e floresta logo atrás.",
+      en: "The 'Caribbean of the Amazon': white-sand river beaches with the rainforest behind.",
+      es: "El 'Caribe amazónico': playas de río con arena blanca y selva justo detrás.",
+      it: "I 'Caraibi amazzonici': spiagge fluviali di sabbia bianca con la foresta alle spalle.",
+      de: "Die 'Karibik des Amazonas': weiße Flussstrände mit Regenwald direkt dahinter.",
+    },
+  },
+  {
+    slug: "ouro-preto",
+    image: minasImg,
+    name: {
+      pt: "Ouro Preto",
+      en: "Ouro Preto",
+      es: "Ouro Preto",
+      it: "Ouro Preto",
+      de: "Ouro Preto",
+    },
+    blurb: {
+      pt: "Cidade barroca de Minas, igrejas douradas e a estrada do café e do queijo de altitude.",
+      en: "Minas baroque town, gilded churches and the highland coffee-and-cheese road.",
+      es: "Ciudad barroca de Minas, iglesias doradas y la ruta del café y queso de altura.",
+      it: "Città barocca del Minas, chiese dorate e la strada del caffè e del formaggio d'altura.",
+      de: "Barockstadt in Minas, vergoldete Kirchen und die Kaffee- und Käsestraße der Höhen.",
+    },
+  },
+  {
+    slug: "jalapao",
+    image: tocantinsImg,
+    name: {
+      pt: "Jalapão",
+      en: "Jalapão",
+      es: "Jalapão",
+      it: "Jalapão",
+      de: "Jalapão",
+    },
+    blurb: {
+      pt: "Dunas alaranjadas, fervedouros e cachoeiras escondidas no cerrado mais remoto do Brasil.",
+      en: "Orange dunes, natural springs and hidden waterfalls in Brazil's remotest savanna.",
+      es: "Dunas anaranjadas, manantiales naturales y cascadas escondidas en el cerrado más remoto.",
+      it: "Dune arancioni, sorgenti naturali e cascate nascoste nel cerrado più remoto del Brasile.",
+      de: "Orangefarbene Dünen, natürliche Quellen und versteckte Wasserfälle in Brasiliens entlegenster Savanne.",
+    },
+  },
+  {
+    slug: "maragogi",
+    image: alagoasImg,
+    name: {
+      pt: "Maragogi",
+      en: "Maragogi",
+      es: "Maragogi",
+      it: "Maragogi",
+      de: "Maragogi",
+    },
+    blurb: {
+      pt: "Piscinas naturais de águas cristalinas e recifes de coral no litoral de Alagoas.",
+      en: "Crystal-clear natural pools and coral reefs along the coast of Alagoas.",
+      es: "Piscinas naturales de aguas cristalinas y arrecifes de coral en la costa de Alagoas.",
+      it: "Piscine naturali di acque cristalline e barriere coralline sulla costa di Alagoas.",
+      de: "Kristallklare Naturpools und Korallenriffe an der Küste von Alagoas.",
+    },
+  },
+  {
+    slug: "florianopolis",
+    image: scImg,
+    name: {
+      pt: "Florianópolis",
+      en: "Florianópolis",
+      es: "Florianópolis",
+      it: "Florianópolis",
+      de: "Florianópolis",
+    },
+    blurb: {
+      pt: "Ilha de 42 praias, lagoas e trilhas — surf, ostras e o sul brasileiro mais leve.",
+      en: "An island of 42 beaches, lagoons and trails — surf, oysters and Brazil's lightest south.",
+      es: "Isla de 42 playas, lagunas y senderos — surf, ostras y el sur brasileño más ligero.",
+      it: "Un'isola di 42 spiagge, lagune e sentieri — surf, ostriche e il sud brasiliano più leggero.",
+      de: "Eine Insel mit 42 Stränden, Lagunen und Wegen — Surfen, Austern und der leichteste Süden Brasiliens.",
+    },
+  },
+  {
+    slug: "rota-emocoes",
+    image: rnImg,
+    name: {
+      pt: "Rota das Emoções",
+      en: "Route of Emotions",
+      es: "Ruta de las Emociones",
+      it: "Rotta delle Emozioni",
+      de: "Route der Emotionen",
+    },
+    blurb: {
+      pt: "De Jericoacoara aos Lençóis passando pelo Delta do Parnaíba — três estados, uma travessia mítica.",
+      en: "From Jericoacoara to Lençóis via the Parnaíba Delta — three states, one mythic crossing.",
+      es: "De Jericoacoara a los Lençóis pasando por el Delta del Parnaíba — tres estados, una travesía mítica.",
+      it: "Da Jericoacoara ai Lençóis passando per il Delta del Parnaíba — tre stati, una traversata mitica.",
+      de: "Von Jericoacoara zu den Lençóis über das Parnaíba-Delta — drei Bundesstaaten, eine mythische Reise.",
     },
   },
 ];
