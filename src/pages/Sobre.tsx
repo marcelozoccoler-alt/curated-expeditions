@@ -79,7 +79,7 @@ const Sobre = () => {
               Viagens pensadas como obras autorais
             </h1>
             <p className="text-lg md:text-xl text-primary-foreground/85 font-light leading-relaxed">
-              A Create Travel nasceu de uma inquietação: a de que viajar bem é,
+              A Create Travel nasceu de uma convicção: a de que viajar bem é,
               antes de tudo, viajar com intenção. Cada roteiro é construído à
               mão, em conversa, com profundidade — para que você volte
               transformado, não apenas fotografado.
