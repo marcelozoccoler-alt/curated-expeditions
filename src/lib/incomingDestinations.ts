@@ -84,7 +84,7 @@ export const INCOMING_DESTINATIONS: IncomingDestination[] = [
   },
   {
     slug: "bahia",
-    image: bahiaImg,
+    image: salvadorImg,
     name: {
       pt: "Bahia",
       en: "Bahia",
@@ -120,7 +120,7 @@ export const INCOMING_DESTINATIONS: IncomingDestination[] = [
   },
   {
     slug: "iguazu",
-    image: paranaImg,
+    image: iguacuImg,
     name: {
       pt: "Foz do Iguaçu",
       en: "Iguazu Falls",
@@ -138,7 +138,7 @@ export const INCOMING_DESTINATIONS: IncomingDestination[] = [
   },
   {
     slug: "chapada-dos-veadeiros",
-    image: goiasImg,
+    image: veadeirosImg,
     name: {
       pt: "Chapada dos Veadeiros",
       en: "Chapada dos Veadeiros",
@@ -156,7 +156,7 @@ export const INCOMING_DESTINATIONS: IncomingDestination[] = [
   },
   {
     slug: "fernando-de-noronha",
-    image: pernambucoImg,
+    image: noronhaImg,
     name: {
       pt: "Fernando de Noronha",
       en: "Fernando de Noronha",
@@ -174,7 +174,7 @@ export const INCOMING_DESTINATIONS: IncomingDestination[] = [
   },
   {
     slug: "chapada-diamantina",
-    image: bahiaImg,
+    image: salvadorImg,
     name: {
       pt: "Chapada Diamantina",
       en: "Chapada Diamantina",
@@ -192,7 +192,7 @@ export const INCOMING_DESTINATIONS: IncomingDestination[] = [
   },
   {
     slug: "jericoacoara",
-    image: cearaImg,
+    image: jericoacoaraImg,
     name: {
       pt: "Jericoacoara",
       en: "Jericoacoara",
@@ -210,7 +210,7 @@ export const INCOMING_DESTINATIONS: IncomingDestination[] = [
   },
   {
     slug: "bonito",
-    image: msImg,
+    image: bonitoImg,
     name: {
       pt: "Bonito",
       en: "Bonito",
@@ -228,7 +228,7 @@ export const INCOMING_DESTINATIONS: IncomingDestination[] = [
   },
   {
     slug: "alter-do-chao",
-    image: paraImg,
+    image: alterDoChaoImg,
     name: {
       pt: "Alter do Chão",
       en: "Alter do Chão",
@@ -246,7 +246,7 @@ export const INCOMING_DESTINATIONS: IncomingDestination[] = [
   },
   {
     slug: "ouro-preto",
-    image: minasImg,
+    image: ouroPretoImg,
     name: {
       pt: "Ouro Preto",
       en: "Ouro Preto",
@@ -264,7 +264,7 @@ export const INCOMING_DESTINATIONS: IncomingDestination[] = [
   },
   {
     slug: "jalapao",
-    image: tocantinsImg,
+    image: jalapaoImg,
     name: {
       pt: "Jalapão",
       en: "Jalapão",
@@ -282,7 +282,7 @@ export const INCOMING_DESTINATIONS: IncomingDestination[] = [
   },
   {
     slug: "maragogi",
-    image: alagoasImg,
+    image: maragogiImg,
     name: {
       pt: "Maragogi",
       en: "Maragogi",
@@ -300,7 +300,7 @@ export const INCOMING_DESTINATIONS: IncomingDestination[] = [
   },
   {
     slug: "florianopolis",
-    image: scImg,
+    image: floripaImg,
     name: {
       pt: "Florianópolis",
       en: "Florianópolis",
@@ -318,7 +318,7 @@ export const INCOMING_DESTINATIONS: IncomingDestination[] = [
   },
   {
     slug: "rota-emocoes",
-    image: rnImg,
+    image: rotaEmocoesImg,
     name: {
       pt: "Rota das Emoções",
       en: "Route of Emotions",
