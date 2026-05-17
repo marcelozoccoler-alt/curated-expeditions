@@ -12,7 +12,7 @@ import chapadaDiamantinaImg from "@/assets/destinations/brasil-chapada-diamantin
 import jericoacoaraImg from "@/assets/destinations/brasil-jericoacoara.jpg";
 import bonitoImg from "@/assets/destinations/brasil-bonito.jpg";
 import alterDoChaoImg from "@/assets/destinations/brasil-amazonia-kaiara-alter-do-chao.jpg";
-import ouroPretoImg from "@/assets/destinations/brasil-minas-gerais-cidades-historicas-inhotim.jpg";
+
 import jalapaoImg from "@/assets/destinations/brasil-jalapao.jpg";
 import maragogiImg from "@/assets/destinations/brasil-litoral-alagoano.jpg";
 import floripaImg from "@/assets/destinations/brasil-litoral-santa-catarina.jpg";
