@@ -6,7 +6,7 @@ import { motion, AnimatePresence } from "framer-motion";
 import { generateWhatsAppLink } from "@/lib/types";
 import { generateIncomingWhatsAppLink } from "@/lib/whatsappI18n";
 import { LanguageSwitcher } from "@/components/LanguageSwitcher";
-import { useLang, useLocalizedPath } from "@/hooks/useLang";
+import { useLang } from "@/hooks/useLang";
 import logo from "@/assets/logo.jpg";
 
 export const Header = () => {
@@ -15,7 +15,7 @@ export const Header = () => {
   const location = useLocation();
   const { t } = useTranslation();
   const lang = useLang();
-  const lp = useLocalizedPath();
+  
 
   useEffect(() => {
     const handleScroll = () => setIsScrolled(window.scrollY > 50);
