@@ -250,7 +250,7 @@ export const INCOMING_COPY: Record<Exclude<Lang, "pt">, IncomingCopy> = {
     destinations: {
       heading: "Das Brasilien, das wir lieben zu gestalten",
       subheading:
-        "Acht Ausgangspunkte. Kombiniere sie, vertiefe sie oder lass uns dir etwas vorschlagen, von dem du noch nie gehört hast.",
+        "Eine kuratierte Auswahl von Ausgangspunkten. Kombiniere sie, vertiefe sie oder lass uns dir etwas vorschlagen, von dem du noch nie gehört hast.",
     },
     process: {
       heading: "So arbeiten wir",
