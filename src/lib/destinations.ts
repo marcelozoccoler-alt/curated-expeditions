@@ -1840,11 +1840,11 @@ export const destinations: Destination[] = [
     imageOverrideUrl: "",
     intro: "Fogo e gelo em uma ilha vulcânica: cascatas monumentais, geleiras, gêiseres e a aurora boreal. Islândia é natureza em estado bruto.",
     highlights: [
-      "Círculo Dourado (Geysir, Gullfoss, Þingvellir)",
-      "Costa Sul (praias negras, glaciais)",
-      "Lagoa glacial Jökulsárlón",
-      "Aurora boreal (inverno)",
-      "Banhos termais naturais"
+      { title: "Círculo Dourado (Geysir, Gullfoss, Þingvellir)", story: "Em poucas horas atravessa-se três cenários geológicos imperdíveis: Þingvellir é a fenda visível entre as placas tectônicas euroasiática e norte-americana, onde se caminha literalmente entre dois continentes que se afastam 2 cm por ano; Geysir borbulha em silêncio até explodir 20 metros de água a 100°C a cada 6 minutos; e Gullfoss desaba em duas quedas escalonadas dentro de um cânion de basalto, lançando névoa que desenha arco-íris ao meio-dia." },
+      { title: "Costa Sul (praias negras, glaciais)", story: "Reynisfjara é uma praia de areia preta vulcânica com colunas de basalto hexagonal perfeitas — formação geológica que parece feita à mão. O Atlântico bate com ondas-sneaker imprevisíveis, e a poucos minutos vê-se Skógafoss desabar 60 metros num véu denso de água gelada que se atravessa de moto-aquática até a base, ouvindo o trovão da queda multiplicado pelo penhasco." },
+      { title: "Lagoa glacial Jökulsárlón", story: "Icebergs azul-elétrico do tamanho de carros se desprendem do glaciar Breiðamerkurjökull e flutuam lentamente até o mar, encalhando na Praia de Diamante — areia preta polvilhada de gelo translúcido que brilha sob o sol como cristal. Faz-se passeio de zodiac entre os blocos, escuta-se o gelo estalar e, com sorte, focas curiosas se aproximam do barco." },
+      { title: "Aurora boreal (inverno)", story: "De setembro a março, em noites de céu limpo longe das luzes de Reykjavík, espera-se em silêncio até o céu começar a vibrar em verde-pálido, depois rosa, depois roxo — cortinas que dançam horizonte a horizonte com a leveza de tecido ao vento. A primeira vez é um soco no peito; mesmo cientes do fenômeno, o cérebro insiste que aquilo não pode ser real." },
+      { title: "Banhos termais naturais", story: "Para além da Blue Lagoon — bonita mas turística — há lagoas escondidas como Reykjadalur, onde se caminha 1 hora montanha acima até um rio quente onde o corpo se afunda em água a 38°C com vista de vale verde e fumarolas saindo do chão. Sky Lagoon, à beira do Atlântico, é o luxo contemporâneo: ritual de 7 passos termais com vista para o oceano gelado." }
     ],
     beyondUsual: [
       "Fiordes do Oeste menos visitados.",
@@ -1874,11 +1874,11 @@ export const destinations: Destination[] = [
     imageOverrideUrl: "",
     intro: "Fiordes esculpidos por geleiras, vilarejos que parecem miniaturas e uma natureza que impõe respeito. Noruega é silêncio e grandiosidade.",
     highlights: [
-      "Geirangerfjord e Nærøyfjord (UNESCO)",
-      "Preikestolen e Trolltunga",
-      "Ilhas Lofoten",
-      "Bergen e vilarejos de madeira",
-      "Estradas cênicas nacionais"
+      { title: "Geirangerfjord e Nærøyfjord (UNESCO)", story: "Dois braços de mar penetram 15 km montanha adentro entre paredes verticais de 1.500 metros, com cachoeiras como as Sete Irmãs caindo em véus diretamente na água escura. Navega-se em ferries silenciosos ou kayaks, e o eco do remo bate nas paredes como dentro de uma catedral líquida — fazendas verticais ainda habitadas se equilibram em saliências impossíveis, alcançadas apenas por escadas de corda." },
+      { title: "Preikestolen e Trolltunga", story: "Preikestolen é uma plataforma de granito perfeitamente plana de 25 x 25 metros suspensa 604 m acima do Lysefjord — caminha-se 4 horas montanha acima e o último passo até a borda exige coragem porque não há corrimão e o vazio é absoluto. Trolltunga é mais brutal: 28 km ida e volta para se sentar numa língua de pedra que se projeta 700m sobre o vazio, foto que define uma vida." },
+      { title: "Ilhas Lofoten", story: "Acima do Círculo Polar Ártico, picos de granito negro mergulham direto no mar verde-esmeralda, e vilarejos de cabanas vermelhas de pescadores (rorbu) se penduram em pontes minúsculas entre ilhas. No verão, sol da meia-noite ilumina trilhas até as 2h da manhã; no inverno, aurora boreal e neve fresca cobrindo barcos. Pesca-se bacalhau, dorme-se em rorbu sobre estacas e janta-se peixe pescado horas antes." },
+      { title: "Bergen e vilarejos de madeira", story: "Bryggen é o cais hanseático de Bergen — fileira de casas de madeira inclinadas, coloridas e estreitas, do século XIV, agora abrigando lojas de artesanato e cafés com bolinhos de cardamomo. Sobe-se o funicular Fløibanen até o topo do monte Fløyen para ver a cidade entre os sete fiordes, e à noite janta-se peixe fresco no Fish Market sob luz dourada de verão." },
+      { title: "Estradas cênicas nacionais", story: "A Atlanterhavsveien (Estrada do Atlântico) serpenteia 8 km sobre pontes que parecem cascatas de pedra entre ilhotas batidas por tempestades — dirige-se com música baixa porque o cenário pede silêncio. A Trollstigen sobe 11 curvas em zigue-zague entre cachoeiras com mirantes vertiginosos, e a Geiranger-Trollstigen oferece talvez o roadtrip mais cinematográfico da Europa." }
     ],
     beyondUsual: [
       "Ilhas Lofoten para paisagens árticas e cabanas de pescadores.",
@@ -1908,11 +1908,11 @@ export const destinations: Destination[] = [
     imageOverrideUrl: "",
     intro: "Colinas onduladas, ciprestes, vinhos e arte em cada esquina. A Toscana é a Itália em sua forma mais romântica e atemporal.",
     highlights: [
-      "Florença e seus tesouros",
-      "Siena e San Gimignano",
-      "Vinhos do Chianti e Montalcino",
-      "Colinas do Val d'Orcia",
-      "Gastronomia regional"
+      { title: "Florença e seus tesouros", story: "A Galleria degli Uffizi guarda Botticelli, Leonardo e Caravaggio numa sequência que rearranja a história da arte ocidental, mas é a Galleria dell'Accademia, com o David de Michelangelo no fim de um corredor longo e branco, que paralisa: aos 5,17 metros de mármore vivo, com veias visíveis no antebraço, entende-se de uma vez por que o Renascimento mudou o mundo. À noite, atravessa-se o Ponte Vecchio iluminado e janta-se bistecca alla fiorentina num bistrô em Oltrarno." },
+      { title: "Siena e San Gimignano", story: "A Piazza del Campo de Siena é uma concha medieval inclinada onde o Palio acontece duas vezes por ano — sentado num café às 18h, vê-se os locais conversarem em italiano cantado sob a torre del Mangia. San Gimignano é a 'Manhattan medieval', com 14 torres de pedra ainda em pé contra o céu toscano, e seus gelatos de saffron e gorgonzola na Gelateria Dondoli são considerados os melhores do mundo." },
+      { title: "Vinhos do Chianti e Montalcino", story: "Entre Florença e Siena, estradas brancas serpenteiam por vinhedos geométricos e cipestres em fila como soldados. Visita-se vinícolas familiares como Castello di Ama ou Felsina onde se desce em adegas seculares, prova-se Chianti Classico Riserva direto do barril e almoça-se debaixo de pérgulas com pasta artesanal e azeite recém-prensado. Em Montalcino, prova-se Brunello em terraços com vista do Val d'Orcia." },
+      { title: "Colinas do Val d'Orcia", story: "Patrimônio UNESCO de paisagem cultural, o Val d'Orcia é a Toscana das fotografias — cipestres alinhados em colinas onduladas, fazendas pintadas de ocre no fim de estradas brancas, ovelhas pastando sob luz dourada de fim de tarde. Dirige-se com janelas abertas entre Pienza (capital do pecorino), Montepulciano (Vino Nobile) e San Quirico d'Orcia, parando em qualquer trattoria para pici al ragù e Vino Nobile." },
+      { title: "Gastronomia regional", story: "A Toscana é austera na cozinha: pão sem sal porque historicamente custava caro, ribollita feita com pão duro e couve toscana, pappa al pomodoro grossa de pão e tomate, bistecca alla fiorentina assada apenas com sal e azeite. Faz-se cooking class em fattorias com a nonna, aprende-se a fazer pici à mão e janta-se à mesa coletiva tudo regado a Chianti da casa — três horas de almoço sem pressa nenhuma." }
     ],
     beyondUsual: [
       "Vinícolas boutique com degustações privadas.",
@@ -1942,11 +1942,11 @@ export const destinations: Destination[] = [
     imageOverrideUrl: "",
     intro: "Vulcões, lagoas em crateras e o Atlântico selvagem. Os Açores são a Europa remota: natureza exuberante, ritmo lento e poucas multidões.",
     highlights: [
-      "Lagoa das Sete Cidades",
-      "Observação de baleias e golfinhos",
-      "Trilhas vulcânicas",
-      "Termas naturais",
-      "Gastronomia atlântica"
+      { title: "Lagoa das Sete Cidades", story: "No miradouro Vista do Rei, em São Miguel, abre-se aos pés uma cratera vulcânica de 12 km de circunferência abrigando duas lagoas conectadas — uma verde-esmeralda e outra azul-cobalto, separadas apenas por uma ponte estreita. A lenda diz que são as lágrimas de uma princesa e um pastor proibidos de se casar; vista do alto, a explicação geológica é menos comovente, mas o efeito é igualmente irreal." },
+      { title: "Observação de baleias e golfinhos", story: "Os Açores estão entre os melhores lugares do mundo para cetáceos: cachalotes residentes o ano todo, baleias-azuis e comuns na migração de Abril-Junho, e golfinhos-roazes saltando em vagas ao redor do barco. Embarca-se em zodiacs com biólogos marinhos que escutam os cantos em hidrofones, e quando uma baleia de 15 metros emerge a 10 metros do barco, fica-se em silêncio total." },
+      { title: "Trilhas vulcânicas", story: "Caminhar pela cratera do Vulcão dos Capelinhos no Faial é pisar em areia preta de uma erupção de 1957 que ainda parece quente — o farol antigo está semienterrado em cinzas. Em São Jorge, a trilha da Fajã dos Cubres desce 600m de zigue-zague por penhascos verdes até vilarejos isolados que só se acessa a pé, com lagoas costeiras e galinhas ciscando entre as casas." },
+      { title: "Termas naturais", story: "Em Furnas, a Poça da Dona Beija oferece tanques termais a 39°C de água laranja-ferrugem cercados por vegetação subtropical iluminada à noite — relaxar ali sob garoa morna açoriana é uma das experiências mais sensoriais do arquipélago. Almoça-se Cozido das Furnas: ensopado de carnes e legumes cozido por 7 horas em buracos vulcânicos no chão da própria caldeira, com sabor terroso único." },
+      { title: "Gastronomia atlântica", story: "Queijo São Jorge envelhecido em caves de pedra com sabor picante de pastagens ricas em iodo, atum açoriano grelhado ainda meio rosa, lapas grelhadas com manteiga e alho colhidas das poças da maré pela manhã, ananás cultivado em estufas de vidro e bolo lêvedo no café da manhã. Em pousadas convertidas de antigas adegas, janta-se com vista de cratera enquanto se bebe vinho de Pico — feito em vinhas plantadas em quadrados de pedra vulcânica." }
     ],
     beyondUsual: [
       "Ilhas menos visitadas (Flores, Corvo) para remoto real.",
@@ -1976,11 +1976,11 @@ export const destinations: Destination[] = [
     imageOverrideUrl: "",
     intro: "Cicládicas brancas sobre o azul do Egeu: Santorini, Mykonos e dezenas de ilhas menos conhecidas. Grécia é história, beleza e sabor mediterrâneo.",
     highlights: [
-      "Santorini e sua caldeira vulcânica",
-      "Mykonos e vida noturna",
-      "Ilhas menos turísticas (Milos, Naxos, Paros)",
-      "Gastronomia grega autêntica",
-      "Ruínas e história antiga"
+      { title: "Santorini e sua caldeira vulcânica", story: "Santorini é o resquício da maior erupção vulcânica registrada na história — uma cratera afundada onde os vilarejos brancos de Oia e Imerovigli se equilibram em penhascos de 300m sobre o Egeu azul-marinho. O pôr do sol em Oia é tão concorrido que se reserva mesa em tavernas com 24h de antecedência; a alternativa é alugar uma villa com piscina infinita no flanco da caldeira e ver o sol descer em paz com vinho Assyrtiko local." },
+      { title: "Mykonos e vida noturna", story: "De dia, Mykonos é vilarejo cubista de paredes caiadas e janelas azul-marinho, com pelicanos vagando entre as ruelas estreitas de Little Venice e moinhos de vento contra o mar. À noite, vira a capital glamourosa do Mediterrâneo: clubes à beira-mar como Scorpios e Nammos com DJs internacionais, jantares pieds-dans-l'eau até 3h da manhã e atmosfera entre Ibiza e Saint-Tropez sob estrelas gregas." },
+      { title: "Ilhas menos turísticas (Milos, Naxos, Paros)", story: "Milos guarda Sarakiniko — formações rochosas brancas vulcânicas que parecem uma paisagem lunar à beira-mar — e dezenas de praias só acessíveis de barco. Naxos tem o maior vilarejo das Cíclades e cordilheira interior com aldeias de montanha; Paros é o equilíbrio perfeito entre Mykonos e Milos, com a vila de Naoussa, porto pesqueiro de tavernas de polvo seco no varal e camas brancas sob videiras." },
+      { title: "Gastronomia grega autêntica", story: "Saladas de tomate maduro com queijo feta inteiro por cima regado em azeite ainda verde-novo, polvo grelhado batido na pedra antes de assar para ficar tenro, moussaka de berinjela com canela e cordeiro, peixe-do-dia grelhado inteiro com limão e orégano selvagem. Termina-se com loukoumades — bolinhos de massa frita banhados em mel de tomilho — e ouzo gelado que se enturva com gelo, à beira do mar." },
+      { title: "Ruínas e história antiga", story: "Em Atenas, sobe-se a Acrópole ao amanhecer (abertura 8h) para ter o Parthenon quase deserto, com luz dourada nas colunas dóricas perfeitas; o Museu da Acrópole abriga as esculturas originais com vista direta para o monumento. Em Delos (de Mykonos), passeia-se entre ruínas inteiras de uma cidade-santuário do século VII a.C.; em Knossos (Creta), os afrescos minoicos restaurados contam 3.500 anos." }
     ],
     beyondUsual: [
       "Ilhas menos visitadas como Folegandros e Sifnos.",
@@ -2010,11 +2010,11 @@ export const destinations: Destination[] = [
     imageOverrideUrl: "",
     intro: "Encontro entre Oriente e Ocidente: Istambul pulsa com mercados, mesquitas e o Bósforo, enquanto a Capadócia revela paisagens surreais de chaminés de fada e voos de balão ao amanhecer. Uma viagem de história, arte e atmosfera.",
     highlights: [
-      "Hagia Sophia, Mesquita Azul e Topkapi em Istambul",
-      "Grande Bazar e Bazar das Especiarias",
-      "Cruzeiro pelo Bósforo",
-      "Voo de balão sobre a Capadócia ao amanhecer",
-      "Cidades subterrâneas e hotéis-caverna"
+      { title: "Hagia Sophia, Mesquita Azul e Topkapi em Istambul", story: "Entrar na Hagia Sophia é atravessar 1.500 anos de história em silêncio — basílica bizantina do século VI convertida em mesquita, museu e mesquita de novo, com mosaicos dourados de Cristo Pantocrator coexistindo com caligrafia árabe gigante nos discos. A poucos metros, a Mesquita Azul exibe seus seis minaretes e 20 mil azulejos de Iznik; o Topkapi guarda joias dos sultões e vista do Bósforo do harém imperial." },
+      { title: "Grande Bazar e Bazar das Especiarias", story: "São 4 mil lojas em 64 ruas cobertas desde 1461, e perde-se mesmo com GPS — tapetes anatólios pendurados em camadas, lojas de ouro com peças tradicionais, cerâmica iznik azul-cobalto, lâmpadas de mosaico que filtram luz colorida. No Bazar das Especiarias, montanhas piramidais de açafrão, sumagre, pétalas de rosa secas e baklavas escorrendo mel — toma-se çay (chá turco) no copinho-tulipa entre uma compra e outra." },
+      { title: "Cruzeiro pelo Bósforo", story: "Embarca-se ao entardecer e navega-se entre a Europa e a Ásia em poucos minutos — palacetes otomanos de madeira (yalı) pintados de pastéis se equilibram à beira d'água, fortalezas medievais guardam estreitos onde golfinhos saltam nas hélices. Cruzar sob a Ponte do Bósforo ao pôr do sol enquanto o muezzin chama à oração de 3.000 minaretes simultaneamente é puro cinema." },
+      { title: "Voo de balão sobre a Capadócia ao amanhecer", story: "Acorda-se às 4h da manhã, embarca-se num cesto de vime ainda no escuro e, conforme as queimadores aquecem o ar, sobe-se em silêncio com outros 200 balões coloridos ao redor — todos flutuando sobre vales lunares de chaminés de fada esculpidas por erosão. Quando o sol nasce atrás do Monte Erciyes e ilumina o cenário em rosa e dourado, o piloto serve champagne; é a fotografia que define a viagem." },
+      { title: "Cidades subterrâneas e hotéis-caverna", story: "Em Derinkuyu, desce-se 8 andares debaixo do chão pelos túneis estreitos de uma cidade subterrânea do século VIII a.C. que abrigava 20 mil pessoas, com igrejas, escolas e adegas — fugindo de perseguições religiosas. À noite, dorme-se em hotéis escavados em rocha vulcânica em Göreme ou Uçhisar, com paredes de pedra esculpida, lareiras e janelas com vista para vales de tons rosa, amarelo e cinza." }
     ],
     beyondUsual: [
       "Roteiro gastronômico em Istambul com chef local, fora dos circuitos turísticos.",
@@ -2044,11 +2044,11 @@ export const destinations: Destination[] = [
     imageOverrideUrl: "",
     intro: "Três capitais imperiais conectadas por trens confortáveis e cênicos: Viena com sua elegância musical, Budapeste banhada pelo Danúbio e suas termas, e Praga com seus telhados vermelhos e ruas medievais. Um roteiro fluido, sem aeroportos, com o ritmo de uma viagem europeia clássica.",
     highlights: [
-      "Ópera, palácios e cafés históricos em Viena",
-      "Termas e cruzeiro pelo Danúbio em Budapeste",
-      "Castelo de Praga, Ponte Carlos e Cidade Velha",
-      "Trens diurnos em primeira classe entre as capitais",
-      "Gastronomia centro-europeia com curadoria contemporânea"
+      { title: "Ópera, palácios e cafés históricos em Viena", story: "Uma noite na Wiener Staatsoper, com camarote de veludo vermelho e dourado e orquestra interpretando Mozart em sua cidade natal, é viver a Viena imperial em alta definição. De dia, percorrem-se Schönbrunn e seus jardins barrocos, depois prova-se Sachertorte original no Café Sacher e Apfelstrudel no Café Central — cafés do século XIX onde Freud e Trotsky tomavam melange entre debates intelectuais." },
+      { title: "Termas e cruzeiro pelo Danúbio em Budapeste", story: "Budapeste é a capital das termas: Széchenyi com piscinas amarelas neobarrocas ao ar livre onde se joga xadrez em tabuleiros flutuantes mesmo na neve, Gellért com mosaicos art nouveau num palácio termal. À noite, cruzeiro pelo Danúbio com o Parlamento iluminado em dourado, a Ponte das Correntes refletida na água e janta-se goulash autêntico em barcos-restaurante deslizando lentamente entre as duas margens." },
+      { title: "Castelo de Praga, Ponte Carlos e Cidade Velha", story: "O Castelo de Praga é o maior complexo de castelo do mundo, com a Catedral de São Vito gótica de torres pretas afiadas e o Beco Dourado de casas miniatura coloridas onde Kafka morou. Atravessa-se a Ponte Carlos ao amanhecer (única hora vazia), entre estátuas barrocas de santos enegrecidas pelo tempo, até a Cidade Velha onde o Relógio Astronômico do século XV ainda marca as horas com procissão de apóstolos." },
+      { title: "Trens diurnos em primeira classe entre as capitais", story: "Viena-Budapeste (2h30) e Budapeste-Praga (7h) em trens RegioJet ou Railjet em primeira classe — poltronas de couro reclináveis, refeições servidas no lugar, paisagens da Europa Central deslizando pela janela panorâmica: vinhedos morávios, florestas eslovacas, planícies húngaras com cegonhas em ninhos no topo de postes. Chegada direto no centro de cada capital, sem aeroporto." },
+      { title: "Gastronomia centro-europeia com curadoria contemporânea", story: "Para além de Wiener Schnitzel e goulash, há restaurantes com estrela Michelin reinventando a tradição: Tian em Viena (vegetariano de alta cozinha), Costes em Budapeste (cozinha húngara contemporânea), Field em Praga (a estrela Michelin da Cidade Velha). Combina-se com tabernas seculares como Plzeňská Restaurace em Praga onde o pilsner é tirado direto do barril como há 180 anos." }
     ],
     beyondUsual: [
       "Concerto privado em palácio vienense, fora dos circuitos de turistas.",
@@ -2078,11 +2078,11 @@ export const destinations: Destination[] = [
     imageOverrideUrl: "",
     intro: "Mar Adriático em tons de turquesa, cidades muradas de pedra clara e ilhas que se sucedem como pérolas. Da elegância de Dubrovnik ao charme de Hvar e Split, a Croácia é uma das viagens mais sensoriais do Mediterrâneo — ainda mais quando explorada de veleiro.",
     highlights: [
-      "Cidade Velha murada de Dubrovnik",
-      "Palácio de Diocleciano em Split",
-      "Ilhas de Hvar, Brač e Vis",
-      "Parque Nacional dos Lagos de Plitvice",
-      "Navegação privada pela Costa Dálmata"
+      { title: "Cidade Velha murada de Dubrovnik", story: "Caminhar os 2 km de muralhas medievais de Dubrovnik no entardecer — quando o sol bate de lado nos telhados de cerâmica laranja contra o Adriático azul-marinho — é uma das experiências mais cinematográficas da Europa (não à toa virou Porto Real em Game of Thrones). Stradun, a rua principal de mármore polido por séculos de pés, brilha à noite quando a iluminação dourada toma conta e turistas dão lugar a moradores em pizzarias escondidas." },
+      { title: "Palácio de Diocleciano em Split", story: "Diferente de outras ruínas, o Palácio de Diocleciano (305 d.C.) é uma cidade viva — pessoas moram dentro das paredes romanas, há cafés nos peristilos, lojas em arcos do século IV e a Catedral é o antigo mausoléu do imperador. Toma-se café da manhã num pátio que tem 1.700 anos, ouve-se cantos klapa (canto a cappella croata) ressoando nas abóbadas e janta-se em konobas onde só se serve peixe pescado pela manhã." },
+      { title: "Ilhas de Hvar, Brač e Vis", story: "Hvar é a capital glamourosa com lavandas no interior, bares de cocktails à beira-mar e o forte espanhol no topo com vista da cidade laranja contra ilhas Pakleni. Brač esconde a Praia Zlatni Rat (Chifre Dourado), língua de seixos brancos que muda de forma com o vento. Vis, ex-base militar fechada até 1989, oferece a Gruta Azul — caverna onde a luz refrata um azul-fluorescente que parece artificial." },
+      { title: "Parque Nacional dos Lagos de Plitvice", story: "16 lagos turquesa em escadaria, conectados por 90 cachoeiras travertinas que mudam de cor conforme o ângulo do sol — do esmeralda ao azul-cobalto. Caminha-se 8 km em passarelas de madeira a centímetros da água cristalina onde se vê cardumes de truta nadando devagar entre algas verde-fluorescente. No outono, as folhagens vermelhas refletidas no espelho dos lagos fazem do parque um quadro impressionista." },
+      { title: "Navegação privada pela Costa Dálmata", story: "Charter de 7 dias num catamarã com tripulação e chef, partindo de Split em direção sul, ancorando a cada noite numa baía diferente — Stari Grad em Hvar, Vis para mergulho no submarino afundado, ilhas Kornati selvagens sem habitantes. Almoça-se grelhado fresco no convés, banha-se em águas onde se vê o fundo a 20m, e janta-se em konobas escondidas onde só se chega de barco." }
     ],
     beyondUsual: [
       "Charter privado de veleiro ou catamarã entre as ilhas, com tripulação e chef a bordo.",
