@@ -33,8 +33,8 @@ const pillars = [
 ];
 
 const stats = [
-  { value: "60+", label: "Destinos curados" },
-  { value: "12", label: "Estilos de experiência" },
+  { value: "85+", label: "Destinos curados" },
+  { value: "13", label: "Hospedagens selecionadas" },
   { value: "100%", label: "Roteiros sob medida" },
 ];
 
