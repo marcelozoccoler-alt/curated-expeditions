@@ -1044,12 +1044,12 @@ export const destinations: Destination[] = [
     imageOverrideUrl: "",
     intro: "Mata Atlântica encontrando o mar, baías em forma de meia-lua e gastronomia de origem açoriana. Um litoral mais frio, mais verde e cheio de personalidade.",
     highlights: [
-      "Praia do Rosa — baía cinematográfica e baleias-franca (jul–nov)",
-      "Florianópolis — Lagoinha do Leste, Joaquina e Mole",
-      "Bombinhas e a Reserva Biológica do Arvoredo",
-      "Garopaba e Silveira para surfe",
-      "Guarda do Embaú — Vila e rio que encontra o mar",
-      "Praia do Forte e Jurerê Internacional para sofisticação"
+      { title: "Praia do Rosa — baía cinematográfica e baleias-franca (jul–nov)", story: "Considerada uma das praias mais bonitas do Brasil pela revista Travel + Leisure: meia-lua de areia clara abraçada por morros cobertos de mata atlântica, com pousadas charmosas escondidas no alto. Entre julho e novembro, baleias-franca-austral vêm parir junto à costa e podem ser vistas saltando da areia mesmo — espetáculo raro e profundamente emocionante." },
+      { title: "Florianópolis — Lagoinha do Leste, Joaquina e Mole", story: "A Lagoinha do Leste exige trilha de 1h30 e recompensa com uma das praias mais selvagens do sul do Brasil. A Joaquina é palco dos campeonatos de surfe e tem dunas onde se desce de sandboard. A Praia Mole reúne a galera jovem em barracas com música ao vivo até o sol se pôr atrás dos morros." },
+      { title: "Bombinhas e a Reserva Biológica do Arvoredo", story: "Águas das mais transparentes do litoral sul brasileiro — Bombinhas tem praias pequenas em formato de enseada com mar verde-jade e mergulho com snorkel acessível. O Arvoredo, a 11 milhas da costa, é santuário marinho com visibilidade de 20m e mergulho cilindro entre cardumes, raias e tartarugas." },
+      { title: "Garopaba e Silveira para surfe", story: "Praias para surfistas de todos os níveis, com ondas constantes e escolas de altíssimo nível. Garopaba mantém charme de vila pesqueira açoriana, com pousadas-boutique sustentáveis e cena vegetariana inesperada. A Silveira é point de surfistas profissionais — assistir a uma sessão ao amanhecer é puro espetáculo." },
+      { title: "Guarda do Embaú — Vila e rio que encontra o mar", story: "Para chegar à praia atravessa-se o Rio da Madre em uma canoa puxada por corda — ritual charmoso que filtra a multidão. Do outro lado, areia branca, ondas perfeitas e quase nenhuma construção. Surfistas, hippies modernos e vegetarianos compõem a tribo local em um dos pedaços mais autênticos do litoral catarinense." },
+      { title: "Praia do Forte e Jurerê Internacional para sofisticação", story: "Jurerê Internacional é o pedaço mais sofisticado de Floripa — beach clubs de altíssimo padrão, pôr do sol com champagne e música eletrônica, restaurantes premiados e clima cosmopolita. Praia do Forte, com sua fortaleza histórica de São José da Ponta Grossa, oferece mar calmo perfeito para famílias." }
     ],
     beyondUsual: [
       "Avistamento de baleias-franca-austral em Imbituba (jul–nov).",
@@ -1079,12 +1079,12 @@ export const destinations: Destination[] = [
     imageOverrideUrl: "",
     intro: "Da Costa Verde à Região dos Lagos: o estado do Rio tem 600 km de costa, com ilhas, vilas coloniais, praias paradisíacas e sofisticação à beira-mar.",
     highlights: [
-      "Búzios — praias e vida boêmia internacional",
-      "Arraial do Cabo — ‘Caribe brasileiro’ e mar transparente",
-      "Cabo Frio e Praia do Forte",
-      "Angra dos Reis — 365 ilhas e Ilha Grande",
-      "Paraty — centro histórico colonial e Saco do Mamanguá",
-      "Trindade — praias selvagens dentro da Mata Atlântica"
+      { title: "Búzios — praias e vida boêmia internacional", story: "Descoberta por Brigitte Bardot nos anos 60, Búzios mantém o charme cosmopolita das ruas de pedra, mas sua alma está nas 23 praias — Geribá para juventude e ondas, Ferradura para mar calmo e família, João Fernandes para piscinas naturais e Azeda para refúgio íntimo. À noite, a Rua das Pedras vira cenário de jantares à luz de velas e pôr do sol no Mirante." },
+      { title: "Arraial do Cabo — 'Caribe brasileiro' e mar transparente", story: "A Praia do Farol — só acessível de barco — tem areia tão branca que parece talco e água com visibilidade de 20 metros. Saltar do escuna em meio à enseada, ver tartarugas e cardumes a olho nu e almoçar peixe na brasa em barracas rústicas é viver o Caribe sem sair do Sudeste brasileiro." },
+      { title: "Cabo Frio e Praia do Forte", story: "Areia branca finíssima, mar gelado e cristalino e a Fortaleza de São Mateus do século XVII de frente para o oceano. O Centro Histórico de Cabo Frio guarda o Convento Nossa Senhora dos Anjos e ladeiras coloniais que descem para o canal — combinação rara de história e praia caribenha." },
+      { title: "Angra dos Reis — 365 ilhas e Ilha Grande", story: "Uma ilha para cada dia do ano — algumas habitadas, outras desertas, todas cercadas de água verde-azul. Em escunas privativas, passa-se o dia ancorando em piscinas naturais, mergulhando em naufrágios e almoçando em restaurantes ilhados. Na Ilha Grande, sem carros, trilhas de mata atlântica levam a Lopes Mendes — eleita uma das praias mais bonitas do mundo." },
+      { title: "Paraty — centro histórico colonial e Saco do Mamanguá", story: "Patrimônio UNESCO, Paraty preserva ruas de pedra do século XVII inundadas pela maré cheia, casarões coloniais em cal e pedra, igrejas barrocas brancas. O Saco do Mamanguá, único fiorde tropical do Brasil, é navegado em barcos para praias desertas cercadas por mata atlântica em paredões verdes." },
+      { title: "Trindade — praias selvagens dentro da Mata Atlântica", story: "A 30 minutos de Paraty, Trindade é vilarejo de pescadores com 6 praias de areia clara cercadas por mata densa. A Piscina Natural, formada por blocos de pedra, é um aquário de águas calmas onde se mergulha entre peixes coloridos. Rústica, sem ostentação, autêntica — refúgio para quem busca natureza pura." }
     ],
     beyondUsual: [
       "Veleiros privativos em Angra e Paraty.",
@@ -1114,12 +1114,12 @@ export const destinations: Destination[] = [
     imageOverrideUrl: "",
     intro: "Do litoral norte com Mata Atlântica selvagem ao sul de pequenas vilas: o litoral paulista esconde praias-cinema a poucas horas da capital.",
     highlights: [
-      "Ilhabela — arquipélago com 40+ praias e cachoeiras",
-      "São Sebastião — Maresias, Camburi e Barra do Una",
-      "Ubatuba — Praia do Félix, Lagoinha e Trindade",
-      "Paraty Mirim e Picinguaba (Parque Estadual da Serra do Mar)",
-      "Juquehy e Barra do Sahy para famílias",
-      "Ilha do Cardoso e Ilha Comprida (litoral sul selvagem)"
+      { title: "Ilhabela — arquipélago com 40+ praias e cachoeiras", story: "85% da ilha é Parque Estadual com Mata Atlântica intocada, cachoeiras escondidas (Toca, Friagem, Gato) e praias selvagens acessíveis apenas de 4x4 ou barco — Bonete, Castelhanos, Saco do Eustáquio. Para os mais sofisticados, as praias do norte (Pinto, Curral, Engenho) oferecem pousadas-boutique pé na areia e cena gastronômica de altíssimo nível." },
+      { title: "São Sebastião — Maresias, Camburi e Barra do Una", story: "Maresias tem as ondas mais consistentes do litoral norte e vida noturna jovem e cosmopolita. Camburi e Camburizinho são mais sofisticados, com restaurantes premiados e pousadas-boutique. Barra do Una é refúgio íntimo, onde o rio encontra o mar formando enseada calma — ideal para famílias e SUP." },
+      { title: "Ubatuba — Praia do Félix, Lagoinha e Trindade", story: "Mais de 100 praias e a maior concentração de quedas d'água do litoral paulista. Praia do Félix tem coqueirais e mar calmo, Lagoinha é meia-lua perfeita, Trindade (em Paraty) e Picinguaba revelam Mata Atlântica selvagem chegando até o mar — algumas das praias mais cinematográficas do Sudeste." },
+      { title: "Paraty Mirim e Picinguaba (Parque Estadual da Serra do Mar)", story: "Entre São Paulo e Rio, a costa entra em zona de Parque Estadual: praias quase desertas, vilas de caiçaras tradicionais, manguezais e cachoeiras escondidas na mata. Picinguaba é uma das vilas mais autênticas do litoral — pescadores, canoas de pau-só, peixe na brasa servido na areia ao pôr do sol." },
+      { title: "Juquehy e Barra do Sahy para famílias", story: "Mar calmo, areia firme perfeita para caminhadas, infraestrutura completa de restaurantes e quiosques e atmosfera familiar acolhedora. Juquehy é referência para casais com filhos pequenos no litoral paulista, com pousadas charmosas e o famoso bar/restaurante Marakuthai com gastronomia premiada." },
+      { title: "Ilha do Cardoso e Ilha Comprida (litoral sul selvagem)", story: "Patrimônio natural quase desconhecido: a Ilha do Cardoso tem 22.500 hectares de Mata Atlântica preservada, vilas caiçaras tradicionais (Marujá), trilhas para cachoeiras escondidas e praias desertas de areia branca. Refúgio para quem busca um litoral paulista completamente fora do circuito turístico." }
     ],
     beyondUsual: [
       "Casas de praia privativas com chef em Barra do Una.",
@@ -1289,12 +1289,12 @@ export const destinations: Destination[] = [
     imageOverrideUrl: "",
     intro: "Pouco explorado e cheio de surpresas: dunas, vilas pesqueiras e gastronomia de moqueca capixaba. Um dos litorais mais autênticos do Sudeste.",
     highlights: [
-      "Itaúnas — dunas gigantes e vila de forró",
-      "Guarapari e Praia do Morro",
-      "Anchieta e Castelhanos",
-      "Praia do Forno (Reserva Biológica de Comboios)",
-      "Vitória e Vila Velha — cultura e moqueca capixaba",
-      "Conceição da Barra e suas praias desertas"
+      { title: "Itaúnas — dunas gigantes e vila de forró", story: "Dunas brancas de até 30 metros avançaram sobre a antiga vila e hoje formam uma paisagem quase saariana à beira do Atlântico. À noite, Itaúnas vira capital nacional do forró pé de serra — três fóruns simultâneos com sanfona, zabumba e gente dançando agarrada até o amanhecer. Energia única no litoral brasileiro." },
+      { title: "Guarapari e Praia do Morro", story: "Praias urbanas de areia monazítica (com propriedades terapêuticas) e mar verde-jade. A Praia do Morro tem 6 km de extensão com calçadão arborizado, quiosques de moqueca capixaba e pôr do sol que tinge o mar de rosa. Infraestrutura completa para famílias, com hotéis pé na areia e atmosfera relaxada." },
+      { title: "Anchieta e Castelhanos", story: "Vila pesqueira histórica fundada em 1565, com igreja matriz do século XVI e centro tombado de paralelepípedos. As praias de Castelhanos, Iriri e Ubu têm mar tranquilo, areia clara e quase nenhuma multidão — o Espírito Santo silencioso e autêntico, longe dos roteiros óbvios." },
+      { title: "Praia do Forno (Reserva Biológica de Comboios)", story: "Acesso por trilha leve em meio à restinga, e a recompensa é uma praia selvagem onde tartarugas-marinhas desovam entre setembro e março. O Projeto TAMAR mantém base em Comboios e oferece visitas guiadas para ver filhotes sendo soltos ao mar — experiência educativa profundamente tocante." },
+      { title: "Vitória e Vila Velha — cultura e moqueca capixaba", story: "Vitória surpreende: arquitetura contemporânea, Terceira Ponte com vista cinematográfica, Convento da Penha no alto da serra. A moqueca capixaba (sem dendê, com urucum, cozida em panela de barro) é servida em restaurantes premiados onde o ritual da panela borbulhando à mesa é parte do espetáculo." },
+      { title: "Conceição da Barra e suas praias desertas", story: "Norte capixaba, fronteira com Bahia, com 30 km de praias quase desertas, falésias coloridas em Itaúnas e dunas que descem direto até o mar. Vilarejo tranquilo, gastronomia simples de peixe fresco e a sensação rara de ter quilômetros de areia branca só para si — refúgio absoluto." }
     ],
     beyondUsual: [
       "Pousadas-boutique em Itaúnas, próximas ao Parque Estadual.",
