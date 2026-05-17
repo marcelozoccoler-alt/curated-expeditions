@@ -70,15 +70,8 @@ export const Header = () => {
             <img
               src={logo}
               alt="Create Travel — balão"
-              className="h-20 w-20 md:h-24 md:w-24 object-contain transition-all"
+              className="h-16 md:h-20 w-auto object-contain transition-all"
             />
-            <span
-              className={`text-xl font-serif font-semibold transition-colors ${
-                isScrolled ? "text-foreground" : "text-primary-foreground"
-              }`}
-            >
-              Create Travel
-            </span>
           </Link>
 
           {/* Desktop Navigation */}
