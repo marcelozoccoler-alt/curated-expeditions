@@ -2010,11 +2010,11 @@ export const destinations: Destination[] = [
     imageOverrideUrl: "",
     intro: "Encontro entre Oriente e Ocidente: Istambul pulsa com mercados, mesquitas e o Bósforo, enquanto a Capadócia revela paisagens surreais de chaminés de fada e voos de balão ao amanhecer. Uma viagem de história, arte e atmosfera.",
     highlights: [
-      "Hagia Sophia, Mesquita Azul e Topkapi em Istambul",
-      "Grande Bazar e Bazar das Especiarias",
-      "Cruzeiro pelo Bósforo",
-      "Voo de balão sobre a Capadócia ao amanhecer",
-      "Cidades subterrâneas e hotéis-caverna"
+      { title: "Hagia Sophia, Mesquita Azul e Topkapi em Istambul", story: "Entrar na Hagia Sophia é atravessar 1.500 anos de história em silêncio — basílica bizantina do século VI convertida em mesquita, museu e mesquita de novo, com mosaicos dourados de Cristo Pantocrator coexistindo com caligrafia árabe gigante nos discos. A poucos metros, a Mesquita Azul exibe seus seis minaretes e 20 mil azulejos de Iznik; o Topkapi guarda joias dos sultões e vista do Bósforo do harém imperial." },
+      { title: "Grande Bazar e Bazar das Especiarias", story: "São 4 mil lojas em 64 ruas cobertas desde 1461, e perde-se mesmo com GPS — tapetes anatólios pendurados em camadas, lojas de ouro com peças tradicionais, cerâmica iznik azul-cobalto, lâmpadas de mosaico que filtram luz colorida. No Bazar das Especiarias, montanhas piramidais de açafrão, sumagre, pétalas de rosa secas e baklavas escorrendo mel — toma-se çay (chá turco) no copinho-tulipa entre uma compra e outra." },
+      { title: "Cruzeiro pelo Bósforo", story: "Embarca-se ao entardecer e navega-se entre a Europa e a Ásia em poucos minutos — palacetes otomanos de madeira (yalı) pintados de pastéis se equilibram à beira d'água, fortalezas medievais guardam estreitos onde golfinhos saltam nas hélices. Cruzar sob a Ponte do Bósforo ao pôr do sol enquanto o muezzin chama à oração de 3.000 minaretes simultaneamente é puro cinema." },
+      { title: "Voo de balão sobre a Capadócia ao amanhecer", story: "Acorda-se às 4h da manhã, embarca-se num cesto de vime ainda no escuro e, conforme as queimadores aquecem o ar, sobe-se em silêncio com outros 200 balões coloridos ao redor — todos flutuando sobre vales lunares de chaminés de fada esculpidas por erosão. Quando o sol nasce atrás do Monte Erciyes e ilumina o cenário em rosa e dourado, o piloto serve champagne; é a fotografia que define a viagem." },
+      { title: "Cidades subterrâneas e hotéis-caverna", story: "Em Derinkuyu, desce-se 8 andares debaixo do chão pelos túneis estreitos de uma cidade subterrânea do século VIII a.C. que abrigava 20 mil pessoas, com igrejas, escolas e adegas — fugindo de perseguições religiosas. À noite, dorme-se em hotéis escavados em rocha vulcânica em Göreme ou Uçhisar, com paredes de pedra esculpida, lareiras e janelas com vista para vales de tons rosa, amarelo e cinza." }
     ],
     beyondUsual: [
       "Roteiro gastronômico em Istambul com chef local, fora dos circuitos turísticos.",
