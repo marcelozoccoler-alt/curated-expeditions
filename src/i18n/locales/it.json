@@ -1,0 +1,33 @@
+{
+  "nav": {
+    "destinos": "Destinazioni",
+    "experiencias": "Esperienze",
+    "sobre": "Chi siamo",
+    "contato": "Contatti",
+    "incoming": "Brasile per viaggiatori",
+    "menu_open": "Apri menu",
+    "menu_close": "Chiudi menu"
+  },
+  "cta": {
+    "create_itinerary": "Progetta il mio viaggio su misura",
+    "request_quote": "Richiedi un preventivo",
+    "talk_to_us": "Scrivici",
+    "discover_brazil": "Scopri il Brasile"
+  },
+  "footer": {
+    "tagline": "Viaggi curati con uno scopo.",
+    "contact": "Contatti",
+    "follow": "Seguici",
+    "rights": "Tutti i diritti riservati.",
+    "cadastur": "Cadastur"
+  },
+  "language": {
+    "switch": "Lingua",
+    "current": "Lingua attuale"
+  },
+  "common": {
+    "loading": "Caricamento…",
+    "see_more": "Scopri di più",
+    "back": "Indietro"
+  }
+}

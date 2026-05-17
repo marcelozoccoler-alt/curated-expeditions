@@ -1,0 +1,33 @@
+{
+  "nav": {
+    "destinos": "Reiseziele",
+    "experiencias": "Erlebnisse",
+    "sobre": "Über uns",
+    "contato": "Kontakt",
+    "incoming": "Brasilien für Reisende",
+    "menu_open": "Menü öffnen",
+    "menu_close": "Menü schließen"
+  },
+  "cta": {
+    "create_itinerary": "Meine Maßreise gestalten",
+    "request_quote": "Angebot anfordern",
+    "talk_to_us": "Schreib uns",
+    "discover_brazil": "Entdecke Brasilien"
+  },
+  "footer": {
+    "tagline": "Kuratierte Reisen mit Sinn.",
+    "contact": "Kontakt",
+    "follow": "Folge uns",
+    "rights": "Alle Rechte vorbehalten.",
+    "cadastur": "Cadastur"
+  },
+  "language": {
+    "switch": "Sprache",
+    "current": "Aktuelle Sprache"
+  },
+  "common": {
+    "loading": "Lädt…",
+    "see_more": "Mehr erfahren",
+    "back": "Zurück"
+  }
+}

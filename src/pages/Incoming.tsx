@@ -1,0 +1,263 @@
+import { useParams, Navigate, Link } from "react-router-dom";
+import { Helmet } from "react-helmet-async";
+import { motion } from "framer-motion";
+import { MessageCircle, ArrowLeft, MapPin } from "lucide-react";
+import { Header } from "@/components/Header";
+import { Footer } from "@/components/Footer";
+import { HreflangTags } from "@/components/HreflangTags";
+import { SUPPORTED_LANGS, type Lang } from "@/i18n/config";
+import { INCOMING_COPY } from "@/lib/incomingCopy";
+import { INCOMING_DESTINATIONS } from "@/lib/incomingDestinations";
+import { generateIncomingWhatsAppLink } from "@/lib/whatsappI18n";
+import { CONTACT } from "@/lib/types";
+import { useLang } from "@/hooks/useLang";
+
+const SITE_URL = "https://www.createtravel.tur.br";
+
+const Incoming = () => {
+  // The route is mounted at /:lang/incoming; useLang reads the prefix.
+  const lang = useLang();
+  const { lang: paramLang } = useParams<{ lang: string }>();
+
+  // Defensive: if URL lang is not a foreign one, redirect.
+  if (paramLang && !(SUPPORTED_LANGS as readonly string[]).includes(paramLang)) {
+    return <Navigate to="/" replace />;
+  }
+  if (lang === "pt") {
+    return <Navigate to="/" replace />;
+  }
+
+  const copy = INCOMING_COPY[lang as Exclude<Lang, "pt">];
+  const whatsappLink = generateIncomingWhatsAppLink({ lang });
+
+  const jsonLd = {
+    "@context": "https://schema.org",
+    "@type": "TravelAgency",
+    name: "Create Travel",
+    url: `${SITE_URL}/${lang}/incoming`,
+    description: copy.meta.description,
+    address: {
+      "@type": "PostalAddress",
+      streetAddress: "Rua José Libero, 80 - Planalto Paulista",
+      addressLocality: "São Paulo",
+      addressRegion: "SP",
+      addressCountry: "BR",
+    },
+    telephone: CONTACT.whatsapp,
+    email: CONTACT.email,
+    areaServed: "Brazil",
+    knowsLanguage: ["pt-BR", "en", "es", "it", "de"],
+  };
+
+  return (
+    <div className="min-h-screen bg-background">
+      <Helmet>
+        <title>{copy.meta.title}</title>
+        <meta name="description" content={copy.meta.description} />
+        <meta name="keywords" content={copy.meta.keywords} />
+        <link rel="canonical" href={`${SITE_URL}/${lang}/incoming`} />
+        <meta property="og:title" content={copy.meta.title} />
+        <meta property="og:description" content={copy.meta.description} />
+        <meta property="og:url" content={`${SITE_URL}/${lang}/incoming`} />
+        <meta property="og:type" content="website" />
+        <script type="application/ld+json">{JSON.stringify(jsonLd)}</script>
+      </Helmet>
+      <HreflangTags basePath="/incoming" />
+
+      <Header />
+
+      {/* Hero */}
+      <section className="relative pt-32 pb-20 lg:pt-40 lg:pb-28 overflow-hidden">
+        <div
+          className="absolute inset-0 -z-10 bg-cover bg-center"
+          style={{
+            backgroundImage: `linear-gradient(to bottom, hsl(var(--primary) / 0.85), hsl(var(--primary) / 0.7)), url(${INCOMING_DESTINATIONS[0].image})`,
+          }}
+        />
+        <div className="container-editorial relative text-primary-foreground">
+          <motion.p
+            initial={{ opacity: 0, y: 12 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.6 }}
+            className="text-sm uppercase tracking-[0.3em] text-gold mb-6"
+          >
+            {copy.hero.eyebrow}
+          </motion.p>
+          <motion.h1
+            initial={{ opacity: 0, y: 16 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.7, delay: 0.1 }}
+            className="font-serif text-4xl md:text-6xl lg:text-7xl leading-tight max-w-4xl mb-6"
+          >
+            {copy.hero.title}
+          </motion.h1>
+          <motion.p
+            initial={{ opacity: 0, y: 16 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.7, delay: 0.2 }}
+            className="text-lg md:text-xl max-w-2xl text-primary-foreground/85 mb-10"
+          >
+            {copy.hero.subtitle}
+          </motion.p>
+          <motion.a
+            initial={{ opacity: 0, y: 16 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.7, delay: 0.3 }}
+            href={whatsappLink}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="btn-accent inline-flex items-center gap-2"
+          >
+            <MessageCircle size={18} />
+            <span>{copy.hero.cta}</span>
+          </motion.a>
+        </div>
+      </section>
+
+      {/* Intro */}
+      <section className="py-20 lg:py-28">
+        <div className="container-editorial max-w-3xl">
+          <h2 className="font-serif text-3xl md:text-4xl mb-8 text-foreground">
+            {copy.intro.heading}
+          </h2>
+          <div className="space-y-6">
+            {copy.intro.paragraphs.map((p, i) => (
+              <p key={i} className="text-lg leading-relaxed text-muted-foreground">
+                {p}
+              </p>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Destinations grid */}
+      <section className="py-20 lg:py-28 bg-muted/30">
+        <div className="container-editorial">
+          <div className="max-w-2xl mb-12">
+            <h2 className="font-serif text-3xl md:text-4xl mb-4 text-foreground">
+              {copy.destinations.heading}
+            </h2>
+            <p className="text-muted-foreground text-lg">
+              {copy.destinations.subheading}
+            </p>
+          </div>
+
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+            {INCOMING_DESTINATIONS.map((d, i) => (
+              <motion.article
+                key={d.slug}
+                initial={{ opacity: 0, y: 20 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true, margin: "-50px" }}
+                transition={{ duration: 0.5, delay: i * 0.05 }}
+                className="group rounded-lg overflow-hidden bg-card shadow-sm hover:shadow-xl transition-shadow"
+              >
+                <div className="aspect-[4/5] overflow-hidden">
+                  <img
+                    src={d.image}
+                    alt={d.name[lang]}
+                    loading="lazy"
+                    className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700"
+                  />
+                </div>
+                <div className="p-5">
+                  <div className="flex items-center gap-1 text-xs text-gold uppercase tracking-wider mb-2">
+                    <MapPin size={12} />
+                    <span>Brasil</span>
+                  </div>
+                  <h3 className="font-serif text-xl mb-2 text-foreground">
+                    {d.name[lang]}
+                  </h3>
+                  <p className="text-sm text-muted-foreground leading-relaxed">
+                    {d.blurb[lang]}
+                  </p>
+                </div>
+              </motion.article>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Process */}
+      <section className="py-20 lg:py-28">
+        <div className="container-editorial">
+          <div className="max-w-2xl mb-12">
+            <h2 className="font-serif text-3xl md:text-4xl mb-4 text-foreground">
+              {copy.process.heading}
+            </h2>
+            <p className="text-muted-foreground text-lg">
+              {copy.process.subheading}
+            </p>
+          </div>
+
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+            {copy.process.steps.map((step) => (
+              <div
+                key={step.title}
+                className="border-l-2 border-gold pl-6 py-2"
+              >
+                <h3 className="font-serif text-xl mb-3 text-foreground">
+                  {step.title}
+                </h3>
+                <p className="text-muted-foreground leading-relaxed">
+                  {step.text}
+                </p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Trust */}
+      <section className="py-20 lg:py-28 bg-primary text-primary-foreground">
+        <div className="container-editorial max-w-3xl">
+          <h2 className="font-serif text-3xl md:text-4xl mb-10">
+            {copy.trust.heading}
+          </h2>
+          <ul className="space-y-4">
+            {copy.trust.items.map((item) => (
+              <li key={item} className="flex gap-3 items-start text-lg">
+                <span className="text-gold mt-1.5">✦</span>
+                <span className="text-primary-foreground/90">{item}</span>
+              </li>
+            ))}
+          </ul>
+        </div>
+      </section>
+
+      {/* Final CTA */}
+      <section className="py-20 lg:py-28">
+        <div className="container-editorial max-w-2xl text-center">
+          <h2 className="font-serif text-3xl md:text-5xl mb-6 text-foreground">
+            {copy.cta.heading}
+          </h2>
+          <p className="text-lg text-muted-foreground mb-10">
+            {copy.cta.subheading}
+          </p>
+          <a
+            href={whatsappLink}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="btn-accent inline-flex items-center gap-2"
+          >
+            <MessageCircle size={20} />
+            <span>{copy.cta.button}</span>
+          </a>
+          <div className="mt-10">
+            <Link
+              to="/"
+              className="inline-flex items-center gap-2 text-sm text-muted-foreground hover:text-gold transition-colors"
+            >
+              <ArrowLeft size={14} />
+              <span>{copy.back}</span>
+            </Link>
+          </div>
+        </div>
+      </section>
+
+      <Footer />
+    </div>
+  );
+};
+
+export default Incoming;

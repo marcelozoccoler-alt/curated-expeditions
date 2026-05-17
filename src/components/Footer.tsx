@@ -109,6 +109,17 @@ export const Footer = () => {
                   Contato
                 </Link>
               </li>
+              <li className="pt-3 mt-3 border-t border-primary-foreground/10">
+                <span className="block text-xs uppercase tracking-wider text-gold/80 mb-2">
+                  International
+                </span>
+                <div className="flex flex-wrap gap-x-3 gap-y-1">
+                  <Link to="/en/incoming" className="text-sm text-primary-foreground/70 hover:text-gold transition-colors">🇬🇧 English</Link>
+                  <Link to="/es/incoming" className="text-sm text-primary-foreground/70 hover:text-gold transition-colors">🇪🇸 Español</Link>
+                  <Link to="/it/incoming" className="text-sm text-primary-foreground/70 hover:text-gold transition-colors">🇮🇹 Italiano</Link>
+                  <Link to="/de/incoming" className="text-sm text-primary-foreground/70 hover:text-gold transition-colors">🇩🇪 Deutsch</Link>
+                </div>
+              </li>
             </ul>
           </div>
 

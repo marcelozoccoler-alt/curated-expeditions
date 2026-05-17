@@ -1,0 +1,33 @@
+{
+  "nav": {
+    "destinos": "Destinos",
+    "experiencias": "Experiências",
+    "sobre": "Sobre",
+    "contato": "Contato",
+    "incoming": "Brasil para estrangeiros",
+    "menu_open": "Abrir menu",
+    "menu_close": "Fechar menu"
+  },
+  "cta": {
+    "create_itinerary": "Criar roteiro sob medida",
+    "request_quote": "Pedir orçamento",
+    "talk_to_us": "Fale com a gente",
+    "discover_brazil": "Descubra o Brasil"
+  },
+  "footer": {
+    "tagline": "Curadoria de viagens com propósito.",
+    "contact": "Contato",
+    "follow": "Siga-nos",
+    "rights": "Todos os direitos reservados.",
+    "cadastur": "Cadastur"
+  },
+  "language": {
+    "switch": "Idioma",
+    "current": "Idioma atual"
+  },
+  "common": {
+    "loading": "Carregando…",
+    "see_more": "Ver mais",
+    "back": "Voltar"
+  }
+}
