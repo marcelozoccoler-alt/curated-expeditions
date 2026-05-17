@@ -8,6 +8,14 @@ import rioImg from "@/assets/states/rio-de-janeiro.jpg";
 import paranaImg from "@/assets/states/parana.jpg";
 import goiasImg from "@/assets/states/goias.jpg";
 import pernambucoImg from "@/assets/states/pernambuco.jpg";
+import cearaImg from "@/assets/states/ceara.jpg";
+import msImg from "@/assets/states/mato-grosso-do-sul.jpg";
+import paraImg from "@/assets/states/para.jpg";
+import minasImg from "@/assets/states/minas-gerais.jpg";
+import alagoasImg from "@/assets/states/alagoas.jpg";
+import tocantinsImg from "@/assets/states/tocantins.jpg";
+import scImg from "@/assets/states/santa-catarina.jpg";
+import rnImg from "@/assets/states/rio-grande-do-norte.jpg";
 
 export interface IncomingDestination {
   slug: string;
