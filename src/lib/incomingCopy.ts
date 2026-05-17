@@ -168,6 +168,13 @@ export const INCOMING_COPY: Record<Exclude<Lang, "pt">, IncomingCopy> = {
         "Guías privados y soporte 24/7 en destino",
       ],
     },
+    expertise: {
+      heading: "Brasil en la palma de la mano",
+      lead: "Personalizamos y combinamos uno, dos, tres o más destinos en un único viaje fluido — vuelos internos, barcos por los ríos, charters, trenes panorámicos y traslados privados. Lo que haga falta para que el país fluya para ti.",
+      destinationsLabel: "Destinos que diseñamos por todo Brasil",
+      destinations: "Amazônia (Manaus, Rio Negro, Anavilhanas, Mamirauá) · Alter do Chão · Belém & Ilha de Marajó · Monte Roraima · Lençóis Maranhenses · Chapada das Mesas · Jalapão · Chapada dos Veadeiros · Pirenópolis · Pantanal Norte (MT) · Pantanal Sul (MS) · Bonito & Serra da Bodoquena · Cristalino · Serra do Roncador · Chapada Diamantina · Salvador · Ilha de Boipeba · Península de Maraú · Abrolhos & Costa do Descobrimento · Fernando de Noronha · Litoral Pernambucano · Litoral Alagoano · Maragogi · Cânions do Xingó · Jericoacoara · Rota das Emoções · Rota das Falésias · Serra da Capivara · Rio de Janeiro · Cataratas do Iguaçu · Cânions do Sul · Florianópolis · Serra do Cipó · Serra da Canastra · Cidades Históricas & Inhotim · Estrada Real · Campos do Jordão",
+      biomes: "Expertise local en los 7 biomas de Brasil — Amazonía, Cerrado, Caatinga, Mata Atlántica, Pampa, Pantanal y Costero-Marino — con contactos de confianza en cada uno.",
+    },
     cta: {
       heading: "¿Listo para diseñar tu Brasil?",
       subheading:
