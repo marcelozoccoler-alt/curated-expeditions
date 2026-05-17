@@ -2320,11 +2320,11 @@ export const destinations: Destination[] = [
     imageOverrideUrl: "",
     intro: "Paisagens que parecem cenário de filme: fiordes, montanhas e florestas intocadas. Nova Zelândia é aventura e contemplação em perfeito equilíbrio.",
     highlights: [
-      "Milford Sound e fiordes",
-      "Queenstown (capital da aventura)",
-      "Rotorua e cultura Maori",
-      "Trilhas Great Walks",
-      "Hobbiton e cenários de cinema"
+      { title: "Milford Sound e fiordes", story: "Atravessa-se a estrada Milford Road por florestas tropicais de selva neozelandesa, túneis cavados na rocha e mirantes de cascatas até desembocar no fiorde mais espetacular do planeta: Milford Sound, com paredes verticais de granito de 1.200m mergulhando direto no mar negro, cascatas como Stirling Falls (146m) caindo do nada e focas-de-pelo descansando em rochas. Em dias chuvosos — frequentes — milhares de cachoeiras temporárias surgem nas paredes simultaneamente." },
+      { title: "Queenstown (capital da aventura)", story: "Cravada às margens do Lago Wakatipu com vista para o cordão The Remarkables, Queenstown é onde se inventou o bungee jumping em 1988 (Kawarau Bridge, 43m). Lança-se em jet boats por cânions estreitos a 80 km/h, salta-se de paraquedas vendo Aoraki/Mount Cook ao fundo, ou simplesmente toma-se vinho Pinot Noir de Central Otago num terraço com vista do lago glacial — adrenalina e paisagem em equilíbrio raro." },
+      { title: "Rotorua e cultura Maori", story: "Cheira a enxofre na cidade inteira por causa da atividade geotérmica — gêiseres como o Pohutu disparam 30m no ar a cada hora em Te Puia, piscinas borbulhantes em Wai-O-Tapu pintam o chão com tons fluorescentes de laranja, verde e amarelo. À noite, hangi tradicional Maori — refeição cozida durante horas em buracos com pedras vulcânicas aquecidas, seguida de danças haka que estremecem o chão e a alma." },
+      { title: "Trilhas Great Walks", story: "A Routeburn Track atravessa em 3 dias o coração dos Alpes do Sul entre Mount Aspiring e Fiordland National Park, com vista de vales glaciais e camas em hut de montanha com fogão a lenha. A Milford Track de 4 dias é a 'finest walk in the world' segundo o Spectator de 1908; a Kepler e a Abel Tasman completam o quinteto dos sonhos para trekkers — paisagens variando de florestas subtropicais a campos alpinos em poucas horas." },
+      { title: "Hobbiton e cenários de cinema", story: "Em Matamata, na Ilha Norte, o set original do Condado de Hobbit foi mantido permanente após Peter Jackson rodar O Hobbit — caminha-se entre 44 buracos coloridos de hobbit com chaminés fumegantes, jardins floridos cuidadosamente mantidos e termina-se com cerveja no Green Dragon Inn com fogo crepitante na lareira. Para fãs, é peregrinação; para qualquer um, é a paisagem rural mais encantadora da Nova Zelândia." }
     ],
     beyondUsual: [
       "Great Walks menos conhecidas.",
@@ -2354,11 +2354,11 @@ export const destinations: Destination[] = [
     imageOverrideUrl: "",
     intro: "O paraíso em sua forma mais icônica: bangalôs sobre águas cristalinas, vulcões emersos e o ritmo mana. Polinésia é o sonho que se realiza.",
     highlights: [
-      "Bora Bora e sua lagoa",
-      "Moorea selvagem e autêntica",
-      "Cultura polinésia",
-      "Mergulho e vida marinha",
-      "Pores do sol sobre o Pacífico"
+      { title: "Bora Bora e sua lagoa", story: "Bora Bora é uma cratera vulcânica afundada cercada por anel de coral que forma uma lagoa de azul-turquesa impossível, com o pico Otemanu de basalto negro emergindo do centro. Dos overwater bungalows do Four Seasons ou St. Regis vê-se peixes coloridos pelo chão de vidro do quarto; faz-se piquenique em motu (ilhota privada de coral) com lagosta grelhada e dá-se a volta na lagoa de jet ski parando para nadar com arraias e tubarões mansos." },
+      { title: "Moorea selvagem e autêntica", story: "30 minutos de balsa de Papeete, Moorea é a Polinésia menos polida — duas baías em forma de coração (Opunohu e Cook's Bay) emolduradas por picos verticais cobertos de selva, plantações de ananás e baunilha no interior. De julho a novembro, baleias-jubarte vêm parir nas águas mornas — nada-se com elas em snorkel a poucos metros, ouvindo os cantos submarinos ressoarem no peito." },
+      { title: "Cultura polinésia", story: "Em jantares tradicionais ma'a Tahiti, porco inteiro cozinha por horas em forno subterrâneo (ahima'a) com folhas de bananeira, e prova-se poisson cru (peixe cru em leite de coco e limão), uru assado e pudim de tapioca. Dançarinos de tamure se apresentam em saia de palha ao som de tambores tahitianos que ecoam pela praia, e tatuagens polinésias geométricas — origem da palavra tattoo — ainda são feitas tradicionalmente por mestres locais." },
+      { title: "Mergulho e vida marinha", story: "Rangiroa, segundo maior atol do mundo, oferece o Tiputa Pass — mergulho de corrente onde se vê centenas de tubarões-cinzentos, golfinhos brincando com mergulhadores e mantas em formação. Fakarava (UNESCO) tem o muro de tubarões em South Pass: 700 cinzentos pairando em formação no mesmo lugar todas as tardes. Para quem prefere snorkel: lagoas de Moorea com tubarões-de-pontas-pretas inofensivos e arraias mansas." },
+      { title: "Pores do sol sobre o Pacífico", story: "Não há pores do sol como os polinésios — a luz dourada incendeia o céu sobre o Pacífico azul-profundo enquanto silhuetas de pirogues outrigger atravessam a lagoa em direção a casa. Em bares pieds-dans-l'eau, ukulele toca ao vivo, mai tai feito com rum local e suco fresco de ananás, brisa morna de 27°C — a definição visual exata de paraíso, sem retoque necessário." }
     ],
     beyondUsual: [
       "Ilhas menos visitadas como Huahine e Rangiroa.",
@@ -2388,11 +2388,11 @@ export const destinations: Destination[] = [
     imageOverrideUrl: "",
     intro: "Um continente em um país: recifes de corais, outback vermelho e cidades cosmopolitas. Austrália é diversidade em escala continental.",
     highlights: [
-      "Grande Barreira de Corais",
-      "Sydney e Melbourne",
-      "Uluru e Outback",
-      "Great Ocean Road",
-      "Fauna única (cangurus, coalas)"
+      { title: "Grande Barreira de Corais", story: "Maior estrutura viva do planeta, visível do espaço — 2.300 km de recifes que abrigam 1.500 espécies de peixes, 400 tipos de coral e 6 das 7 tartarugas marinhas do mundo. Mergulha-se em locais como Cod Hole onde garoupas-batatas de 2 metros se aproximam curiosas, faz-se snorkel em Heart Reef visto de helicóptero antes, e dorme-se em pontões flutuantes no meio do recife com céu estrelado absoluto sem qualquer poluição luminosa." },
+      { title: "Sydney e Melbourne", story: "Sydney exibe a Opera House com suas velas de cerâmica brancas refletindo no porto, atravessada pela ponte Harbour Bridge cuja subida (BridgeClimb) leva a 134m com vista de 360° da baía. Bondi Beach para surf e brunch contemporâneo. Melbourne é o oposto: laneways escondidos com grafites de artistas globais, melhor cena de café do mundo, restaurantes étnicos em Fitzroy e Brunswick — capital cultural australiana com clima europeu." },
+      { title: "Uluru e Outback", story: "Uluru é um monolito sagrado de arenito vermelho de 348m no meio do nada — sai-se do hotel às 5h da manhã e caminha-se com guia aborígine Anangu pela base (10 km) ouvindo histórias do Dreamtime gravadas em pinturas rupestres há 30 mil anos. Ao pôr do sol, a rocha passa do laranja-terra para vermelho-sangue e finalmente roxo-escuro em 40 minutos, com champanhe servido sob estrelas do hemisfério sul." },
+      { title: "Great Ocean Road", story: "243 km de estrada cinematográfica entre Torquay e Allansford na costa de Victoria, com os 12 Apóstolos — pilares de calcário de 45m esculpidos pelo oceano emergindo do mar do Sul. Para em Loch Ard Gorge para descer escadarias até praia escondida, observa coalas selvagens dormindo em eucaliptos no Great Otway National Park e termina em vinícolas da região com Pinot Noir de clima frio premiado mundialmente." },
+      { title: "Fauna única (cangurus, coalas)", story: "Em Kangaroo Island (SA), cangurus e wallabies pastam livres ao pôr do sol em campos abertos; em Magnetic Island (QLD), faz-se trilha curta e encontra-se coalas dormindo em galhos baixos a 2m do chão. Wombats em Cradle Mountain (TAS), demônios-da-tasmânia em santuários éticos, ornitorrincos selvagens em rios da Eungella — a Austrália isolou-se geneticamente há 50 milhões de anos e a fauna resultante não existe em mais lugar nenhum." }
     ],
     beyondUsual: [
       "Kimberley e norte remoto.",
