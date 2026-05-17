@@ -7,7 +7,7 @@ import { generateWhatsAppLink } from "@/lib/types";
 import { generateIncomingWhatsAppLink } from "@/lib/whatsappI18n";
 import { LanguageSwitcher } from "@/components/LanguageSwitcher";
 import { useLang } from "@/hooks/useLang";
-import logo from "@/assets/logo.png";
+import logo from "@/assets/logo.jpg";
 
 export const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -60,7 +60,7 @@ export const Header = () => {
       }`}
     >
       <div className="container-editorial">
-        <div className="flex items-center justify-between h-24">
+        <div className="flex items-center justify-between h-20">
           {/* Logo */}
           <Link
             to={lang === "pt" ? "/" : `/${lang}/incoming`}
@@ -69,9 +69,18 @@ export const Header = () => {
           >
             <img
               src={logo}
-              alt="Create Travel — balão"
-              className="h-20 md:h-24 w-auto object-contain transition-all"
+              alt="Create Travel"
+              className={`h-12 w-12 rounded-full object-cover transition-all ${
+                isScrolled ? "" : "ring-2 ring-primary-foreground/30"
+              }`}
             />
+            <span
+              className={`text-xl font-serif font-semibold transition-colors ${
+                isScrolled ? "text-foreground" : "text-primary-foreground"
+              }`}
+            >
+              Create Travel
+            </span>
           </Link>
 
           {/* Desktop Navigation */}
