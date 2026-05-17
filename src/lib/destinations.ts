@@ -2354,11 +2354,11 @@ export const destinations: Destination[] = [
     imageOverrideUrl: "",
     intro: "O paraíso em sua forma mais icônica: bangalôs sobre águas cristalinas, vulcões emersos e o ritmo mana. Polinésia é o sonho que se realiza.",
     highlights: [
-      "Bora Bora e sua lagoa",
-      "Moorea selvagem e autêntica",
-      "Cultura polinésia",
-      "Mergulho e vida marinha",
-      "Pores do sol sobre o Pacífico"
+      { title: "Bora Bora e sua lagoa", story: "Bora Bora é uma cratera vulcânica afundada cercada por anel de coral que forma uma lagoa de azul-turquesa impossível, com o pico Otemanu de basalto negro emergindo do centro. Dos overwater bungalows do Four Seasons ou St. Regis vê-se peixes coloridos pelo chão de vidro do quarto; faz-se piquenique em motu (ilhota privada de coral) com lagosta grelhada e dá-se a volta na lagoa de jet ski parando para nadar com arraias e tubarões mansos." },
+      { title: "Moorea selvagem e autêntica", story: "30 minutos de balsa de Papeete, Moorea é a Polinésia menos polida — duas baías em forma de coração (Opunohu e Cook's Bay) emolduradas por picos verticais cobertos de selva, plantações de ananás e baunilha no interior. De julho a novembro, baleias-jubarte vêm parir nas águas mornas — nada-se com elas em snorkel a poucos metros, ouvindo os cantos submarinos ressoarem no peito." },
+      { title: "Cultura polinésia", story: "Em jantares tradicionais ma'a Tahiti, porco inteiro cozinha por horas em forno subterrâneo (ahima'a) com folhas de bananeira, e prova-se poisson cru (peixe cru em leite de coco e limão), uru assado e pudim de tapioca. Dançarinos de tamure se apresentam em saia de palha ao som de tambores tahitianos que ecoam pela praia, e tatuagens polinésias geométricas — origem da palavra tattoo — ainda são feitas tradicionalmente por mestres locais." },
+      { title: "Mergulho e vida marinha", story: "Rangiroa, segundo maior atol do mundo, oferece o Tiputa Pass — mergulho de corrente onde se vê centenas de tubarões-cinzentos, golfinhos brincando com mergulhadores e mantas em formação. Fakarava (UNESCO) tem o muro de tubarões em South Pass: 700 cinzentos pairando em formação no mesmo lugar todas as tardes. Para quem prefere snorkel: lagoas de Moorea com tubarões-de-pontas-pretas inofensivos e arraias mansas." },
+      { title: "Pores do sol sobre o Pacífico", story: "Não há pores do sol como os polinésios — a luz dourada incendeia o céu sobre o Pacífico azul-profundo enquanto silhuetas de pirogues outrigger atravessam a lagoa em direção a casa. Em bares pieds-dans-l'eau, ukulele toca ao vivo, mai tai feito com rum local e suco fresco de ananás, brisa morna de 27°C — a definição visual exata de paraíso, sem retoque necessário." }
     ],
     beyondUsual: [
       "Ilhas menos visitadas como Huahine e Rangiroa.",
