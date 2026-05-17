@@ -2250,11 +2250,11 @@ export const destinations: Destination[] = [
     imageOverrideUrl: "",
     intro: "Dois universos que se completam: a Tailândia vibrante com Bangkok, Chiang Mai e suas praias paradisíacas, e o Camboja sagrado com a grandiosidade milenar de Angkor. Um conjugado que combina contraste, espiritualidade, gastronomia e descanso à beira-mar.",
     highlights: [
-      "Templos e mercados de Bangkok",
-      "Chiang Mai e o norte com cultura lana",
-      "Phuket, Krabi ou Koh Samui para descanso",
-      "Amanhecer em Angkor Wat",
-      "Templos de Ta Prohm e Bayon em Siem Reap"
+      { title: "Templos e mercados de Bangkok", story: "O Wat Pho abriga um Buda Reclinado de 46 metros coberto em folha de ouro com olhos e pés em madrepérola; ao lado, o Grand Palace deslumbra com telhados pontudos em mosaico de vidro colorido que reflete o sol como diamantes. À noite, Chatuchak ou os mercados flutuantes de Damnoen Saduak — sampans cheias de mangostões, durians, pad thai feito na hora num wok sobre o barco — completam o caos sensorial perfeito de Bangkok." },
+      { title: "Chiang Mai e o norte com cultura lana", story: "Cercada por 117 templos, Chiang Mai tem ritmo lento que a capital perdeu. O Doi Suthep dourado oferece vista da cidade entre montanhas verdes; santuários éticos de elefantes (Elephant Nature Park) permitem alimentar e banhar paquidermes resgatados sem montaria. À noite, Sunday Walking Street fecha o centro histórico para artesanato hill-tribe, massagem por monges cegos e khao soi (curry noodle do norte) numa banca de plástico." },
+      { title: "Phuket, Krabi ou Koh Samui para descanso", story: "Krabi e suas baías Phang Nga — penhascos verticais de calcário cobertos de selva emergindo de águas verde-jade onde se navega de longtail boat entre grutas escondidas com praias só acessíveis na maré certa. Koh Phi Phi para festas e Maya Bay; Koh Samui para resorts mais sofisticados. Koh Lipe é a 'Maldivas tailandesa' — água tão transparente que se vê os pés a 5 metros de profundidade." },
+      { title: "Amanhecer em Angkor Wat", story: "Chega-se às 5h da manhã ainda escuro, atravessa-se a ponte de pedra sobre o fosso de 200m e senta-se diante do espelho d'água — quando o sol nasce atrás dos cinco torres de Angkor Wat (1113 d.C., maior estrutura religiosa do mundo), a silhueta se duplica no reflexo perfeito enquanto o céu passa do azul ao laranja em 20 minutos. Depois entra-se nos baixo-relevos de 800m que narram batalhas hindus em pedra esculpida." },
+      { title: "Templos de Ta Prohm e Bayon em Siem Reap", story: "Ta Prohm é o templo onde a selva venceu — raízes gigantes de sumaúmas centenárias abraçam, esmagam e atravessam as paredes de arenito esculpido, criando o cenário que inspirou Tomb Raider. Bayon, no centro de Angkor Thom, exibe 216 rostos colossais sorrindo do alto de 54 torres em todas as direções — caminhar entre eles ao entardecer com poucos turistas é uma das experiências mais místicas do Sudeste Asiático." }
     ],
     beyondUsual: [
       "Aula de culinária tailandesa com chef em casa de família em Chiang Mai.",
