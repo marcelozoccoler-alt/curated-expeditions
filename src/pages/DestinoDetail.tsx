@@ -151,12 +151,25 @@ const DestinoDetail = () => {
                 <Compass className="text-gold" size={28} />
                 Destaques
               </h2>
-              <p className="text-sm text-muted-foreground -mt-2">
-                Clique em cada destaque para sentir como é vivenciá-lo.
-              </p>
+              {destination.highlights.some((h) => getHighlightParts(h).story) && (
+                <p className="text-sm text-muted-foreground -mt-2">
+                  Clique nos destaques com seta para sentir como é vivenciá-los.
+                </p>
+              )}
               <Accordion type="multiple" className="grid sm:grid-cols-2 gap-3">
                 {destination.highlights.map((h, i) => {
                   const { title, story } = getHighlightParts(h);
+                  if (!story) {
+                    return (
+                      <div
+                        key={i}
+                        className="rounded-lg bg-muted/60 border border-border/50 px-4 py-4 flex gap-3 items-start"
+                      >
+                        <span className="text-gold font-semibold shrink-0">0{i + 1}</span>
+                        <span className="text-foreground font-medium">{title}</span>
+                      </div>
+                    );
+                  }
                   return (
                     <AccordionItem
                       key={i}
@@ -170,11 +183,7 @@ const DestinoDetail = () => {
                         </span>
                       </AccordionTrigger>
                       <AccordionContent className="pb-5 pl-9 pr-1 text-foreground/85 leading-relaxed text-[15px]">
-                        {story || (
-                          <span className="text-muted-foreground italic">
-                            Em breve abrimos os bastidores deste destaque. Quer antecipar? Fale com um consultor Create Travel.
-                          </span>
-                        )}
+                        {story}
                       </AccordionContent>
                     </AccordionItem>
                   );
