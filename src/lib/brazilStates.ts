@@ -322,11 +322,17 @@ export const brazilStates: BrazilState[] = [
     macroregion: "Sudeste",
     kicker: "Sudeste • Brasil",
     intro:
-      "Ilhabela, Ubatuba, São Sebastião e o litoral norte: Mata Atlântica e praias-cinema a poucas horas da capital.",
+      "Muito além do litoral: a Mantiqueira de Campos do Jordão, a aventura de Brotas, o Circuito das Águas e o Vale Histórico caipira de Cunha e São Luiz do Paraitinga.",
     metaDescription:
-      "São Paulo com curadoria Create Travel: litoral paulista, Ilhabela e Ubatuba.",
+      "São Paulo com curadoria Create Travel: litoral paulista, Campos do Jordão, Brotas, Circuito das Águas e Vale Histórico caipira.",
     heroImageUrl: saoPauloImg,
-    destinationSlugs: ["brasil/litoral-sao-paulo"],
+    destinationSlugs: [
+      "brasil/litoral-sao-paulo",
+      "brasil/mantiqueira-paulista",
+      "brasil/brotas-aventura",
+      "brasil/circuito-aguas-paulistas",
+      "brasil/vale-historico-caipira",
+    ],
   },
   {
     slug: "espirito-santo",
