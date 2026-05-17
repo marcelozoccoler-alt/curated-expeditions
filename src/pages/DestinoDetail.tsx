@@ -11,7 +11,7 @@ import { StayCard } from "@/components/StayCard";
 import { SEO } from "@/components/SEO";
 import { getDestinationBySlug, destinations } from "@/lib/destinations";
 import { stays as allStays } from "@/lib/stays";
-import { getTagsByIds, getHighlightParts } from "@/lib/types";
+import { getTagsByIds, getHighlightParts, CONTACT } from "@/lib/types";
 import { getDestinationImage } from "@/lib/destinationImages";
 import {
   Accordion,
@@ -50,6 +50,25 @@ const DestinoDetail = () => {
     .filter((d) => d.continent === destination.continent && d.id !== destination.id)
     .slice(0, 3);
 
+  // Absolute URL for og:image and JSON-LD (crawlers/AI need absolute URLs)
+  const domain = CONTACT.domain.replace(/\/$/, "");
+  const absoluteImage = heroImage.startsWith("http")
+    ? heroImage
+    : `${domain}${heroImage.startsWith("/") ? "" : "/"}${heroImage}`;
+  const pageUrl = `${domain}/destinos/${destination.slug}`;
+  const tagLabels = tags.map((t) => t.label);
+
+  // SEO title com country + region (palavras-chave para Google e IA)
+  const seoTitle = `${destination.name}, ${destination.country} — Roteiro com curadoria | Create Travel`;
+  const tagsForDesc = tagLabels.slice(0, 3).join(", ").toLowerCase();
+  const introClean = destination.intro.replace(/\s+/g, " ").trim();
+  const baseDesc =
+    introClean.length > 110
+      ? introClean.slice(0, 110).replace(/[,.;:]\s*\S*$/, "") + "…"
+      : introClean;
+  const seoDescription =
+    `${baseDesc} Melhor época: ${destination.bestTime.split(";")[0]}. Ideal para ${tagsForDesc}.`.slice(0, 300);
+
   // FAQ JSON-LD
   const faqSchema = {
     "@context": "https://schema.org",
@@ -61,15 +80,86 @@ const DestinoDetail = () => {
     })),
   };
 
+  // TouristDestination — sinaliza para Google e IA (ChatGPT, Perplexity, Gemini)
+  const touristSchema = {
+    "@context": "https://schema.org",
+    "@type": "TouristDestination",
+    name: destination.name,
+    description: introClean.slice(0, 500),
+    url: pageUrl,
+    image: absoluteImage,
+    touristType: tagLabels,
+    address: {
+      "@type": "PostalAddress",
+      addressCountry: destination.country,
+      addressRegion: destination.region,
+    },
+    includesAttraction: destination.highlights.slice(0, 8).map((h) => {
+      const { title, story } = getHighlightParts(h);
+      return {
+        "@type": "TouristAttraction",
+        name: title,
+        ...(story ? { description: story.slice(0, 280) } : {}),
+      };
+    }),
+  };
+
+  // BreadcrumbList — breadcrumb visual no Google
+  const breadcrumbSchema = {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: [
+      { "@type": "ListItem", position: 1, name: "Início", item: `${domain}/` },
+      { "@type": "ListItem", position: 2, name: "Destinos", item: `${domain}/destinos` },
+      {
+        "@type": "ListItem",
+        position: 3,
+        name: destination.continent,
+        item: `${domain}/destinos?c=${destination.continent}`,
+      },
+      { "@type": "ListItem", position: 4, name: destination.name, item: pageUrl },
+    ],
+  };
+
+  // Trip + TravelAgency provider — sinaliza que a Create Travel oferece este roteiro
+  const tripSchema = {
+    "@context": "https://schema.org",
+    "@type": "Trip",
+    name: `Roteiro sob medida: ${destination.name}`,
+    description: `Roteiro com curadoria Create Travel em ${destination.name}, ${destination.country}.`,
+    url: pageUrl,
+    image: absoluteImage,
+    itinerary: {
+      "@type": "ItemList",
+      itemListElement: destination.highlights.slice(0, 6).map((h, i) => ({
+        "@type": "ListItem",
+        position: i + 1,
+        item: { "@type": "TouristAttraction", name: getHighlightParts(h).title },
+      })),
+    },
+    provider: {
+      "@type": "TravelAgency",
+      name: "Create Travel",
+      url: domain,
+      telephone: CONTACT.whatsapp,
+      email: CONTACT.email,
+      address: {
+        "@type": "PostalAddress",
+        streetAddress: CONTACT.address,
+        addressCountry: "BR",
+      },
+    },
+  };
+
   return (
     <div className="min-h-screen flex flex-col">
       <SEO
-        title={`${destination.name} — Create Travel`}
-        description={destination.intro.slice(0, 155)}
+        title={seoTitle}
+        description={seoDescription}
         canonicalPath={`/destinos/${destination.slug}`}
-        ogImage={heroImage.startsWith("http") ? heroImage : undefined}
+        ogImage={absoluteImage}
         ogType="article"
-        jsonLd={faqSchema}
+        jsonLd={[faqSchema, touristSchema, breadcrumbSchema, tripSchema]}
       />
       <Header />
       <WhatsAppButton variant="float" />

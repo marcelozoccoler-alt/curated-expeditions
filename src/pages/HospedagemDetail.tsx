@@ -44,6 +44,20 @@ const HospedagemDetail = () => {
     )
     .slice(0, 3);
 
+  const domain = CONTACT.domain.replace(/\/$/, "");
+  const pageUrl = `${domain}/hospedagens/${stay.slug}`;
+  const absoluteImage = heroImage.startsWith("http")
+    ? heroImage
+    : `${domain}${heroImage.startsWith("/") ? "" : "/"}${heroImage}`;
+  const tagLabels = tags.map((t) => t.label);
+
+  const seoTitle = dest
+    ? `${stay.name} — Hospedagem em ${dest.region}, ${dest.country} | Create Travel`
+    : `${stay.name} — Hospedagem com curadoria | Create Travel`;
+  const whyClean = stay.whySelected.replace(/\s+/g, " ").trim();
+  const seoDescription =
+    `${whyClean.slice(0, 130)} Curadoria Create Travel. Ideal para ${tagLabels.slice(0, 3).join(", ").toLowerCase()}.`.slice(0, 300);
+
   const faqSchema = {
     "@context": "https://schema.org",
     "@type": "FAQPage",
@@ -58,21 +72,38 @@ const HospedagemDetail = () => {
     "@context": "https://schema.org",
     "@type": "LodgingBusiness",
     name: stay.name,
-    description: stay.whySelected,
-    image: heroImage,
-    url: `${CONTACT.domain}/hospedagens/${stay.slug}`,
-    address: dest?.country ? { "@type": "PostalAddress", addressCountry: dest.country } : undefined,
+    description: whyClean,
+    image: absoluteImage,
+    url: pageUrl,
+    amenityFeature: tagLabels.map((t) => ({ "@type": "LocationFeatureSpecification", name: t })),
+    address: dest?.country
+      ? {
+          "@type": "PostalAddress",
+          addressCountry: dest.country,
+          ...(dest.region ? { addressRegion: dest.region } : {}),
+        }
+      : undefined,
+  };
+
+  const breadcrumbSchema = {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: [
+      { "@type": "ListItem", position: 1, name: "Início", item: `${domain}/` },
+      { "@type": "ListItem", position: 2, name: "Hospedagens", item: `${domain}/hospedagens` },
+      { "@type": "ListItem", position: 3, name: stay.name, item: pageUrl },
+    ],
   };
 
   return (
     <div className="min-h-screen flex flex-col">
       <SEO
-        title={`${stay.name} — Hospedagens Create Travel`}
-        description={stay.whySelected.slice(0, 155)}
+        title={seoTitle}
+        description={seoDescription}
         canonicalPath={`/hospedagens/${stay.slug}`}
-        ogImage={heroImage.startsWith("http") ? heroImage : undefined}
+        ogImage={absoluteImage}
         ogType="article"
-        jsonLd={[faqSchema, lodgeSchema]}
+        jsonLd={[faqSchema, lodgeSchema, breadcrumbSchema]}
       />
       <Header />
       <WhatsAppButton variant="float" />
