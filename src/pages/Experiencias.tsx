@@ -87,15 +87,20 @@ const Experiencias = () => {
                       <h2 className="text-xl font-serif text-foreground mb-1 group-hover:text-gold transition-colors">
                         {tag.label}
                       </h2>
-                      <p className="text-sm text-muted-foreground">
+                      <p className="text-xs text-muted-foreground uppercase tracking-wider mb-3">
                         {count} {count === 1 ? "destino" : "destinos"} com curadoria
                       </p>
                     </div>
                     <ArrowRight
                       size={20}
-                      className="text-muted-foreground group-hover:text-gold group-hover:translate-x-1 transition-all"
+                      className="shrink-0 text-muted-foreground group-hover:text-gold group-hover:translate-x-1 transition-all"
                     />
                   </div>
+                  {tag.pitch && (
+                    <p className="text-[15px] text-foreground/80 leading-relaxed italic font-serif">
+                      “{tag.pitch}”
+                    </p>
+                  )}
                 </Link>
               </motion.div>
             ))}
