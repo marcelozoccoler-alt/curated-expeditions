@@ -1874,11 +1874,11 @@ export const destinations: Destination[] = [
     imageOverrideUrl: "",
     intro: "Fiordes esculpidos por geleiras, vilarejos que parecem miniaturas e uma natureza que impõe respeito. Noruega é silêncio e grandiosidade.",
     highlights: [
-      "Geirangerfjord e Nærøyfjord (UNESCO)",
-      "Preikestolen e Trolltunga",
-      "Ilhas Lofoten",
-      "Bergen e vilarejos de madeira",
-      "Estradas cênicas nacionais"
+      { title: "Geirangerfjord e Nærøyfjord (UNESCO)", story: "Dois braços de mar penetram 15 km montanha adentro entre paredes verticais de 1.500 metros, com cachoeiras como as Sete Irmãs caindo em véus diretamente na água escura. Navega-se em ferries silenciosos ou kayaks, e o eco do remo bate nas paredes como dentro de uma catedral líquida — fazendas verticais ainda habitadas se equilibram em saliências impossíveis, alcançadas apenas por escadas de corda." },
+      { title: "Preikestolen e Trolltunga", story: "Preikestolen é uma plataforma de granito perfeitamente plana de 25 x 25 metros suspensa 604 m acima do Lysefjord — caminha-se 4 horas montanha acima e o último passo até a borda exige coragem porque não há corrimão e o vazio é absoluto. Trolltunga é mais brutal: 28 km ida e volta para se sentar numa língua de pedra que se projeta 700m sobre o vazio, foto que define uma vida." },
+      { title: "Ilhas Lofoten", story: "Acima do Círculo Polar Ártico, picos de granito negro mergulham direto no mar verde-esmeralda, e vilarejos de cabanas vermelhas de pescadores (rorbu) se penduram em pontes minúsculas entre ilhas. No verão, sol da meia-noite ilumina trilhas até as 2h da manhã; no inverno, aurora boreal e neve fresca cobrindo barcos. Pesca-se bacalhau, dorme-se em rorbu sobre estacas e janta-se peixe pescado horas antes." },
+      { title: "Bergen e vilarejos de madeira", story: "Bryggen é o cais hanseático de Bergen — fileira de casas de madeira inclinadas, coloridas e estreitas, do século XIV, agora abrigando lojas de artesanato e cafés com bolinhos de cardamomo. Sobe-se o funicular Fløibanen até o topo do monte Fløyen para ver a cidade entre os sete fiordes, e à noite janta-se peixe fresco no Fish Market sob luz dourada de verão." },
+      { title: "Estradas cênicas nacionais", story: "A Atlanterhavsveien (Estrada do Atlântico) serpenteia 8 km sobre pontes que parecem cascatas de pedra entre ilhotas batidas por tempestades — dirige-se com música baixa porque o cenário pede silêncio. A Trollstigen sobe 11 curvas em zigue-zague entre cachoeiras com mirantes vertiginosos, e a Geiranger-Trollstigen oferece talvez o roadtrip mais cinematográfico da Europa." }
     ],
     beyondUsual: [
       "Ilhas Lofoten para paisagens árticas e cabanas de pescadores.",
