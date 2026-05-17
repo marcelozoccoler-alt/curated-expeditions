@@ -1668,11 +1668,11 @@ export const destinations: Destination[] = [
     imageOverrideUrl: "",
     intro: "O fim do mundo em sua versão mais dramática: torres de granito, geleiras azuis e silêncio que transforma. Patagônia é para quem busca grandeza.",
     highlights: [
-      "Torres del Paine (Chile)",
-      "El Chaltén e Fitz Roy (Argentina)",
-      "Geleira Perito Moreno",
-      "Trilhas épicas (W, O, Circuito)",
-      "Navegação por fiordes e geleiras"
+      { title: "Torres del Paine (Chile)", story: "As três torres de granito se erguem como catedrais geológicas talhadas por geleiras há 12 milhões de anos. O vento patagônico cala qualquer conversa, e quando o sol nasce atrás delas pintando o granito de cor-de-rosa fluorescente, entende-se por que tantos viajantes choram em silêncio diante do Mirador Base — o vento, o frio nas mãos e a luz se combinam num único instante que reorganiza prioridades." },
+      { title: "El Chaltén e Fitz Roy (Argentina)", story: "El Chaltén é uma vila de quatro ruas onde todos calçam botas e ninguém tem pressa — e o Fitz Roy é a razão. A caminhada até a Laguna de los Tres começa no café da manhã e termina diante de um anfiteatro de água glacial turquesa cercado por agulhas de granito que parecem desenhadas com régua. O último quilômetro é uma subida brutal de pedras soltas; o que se vê no topo dispensa fotografia." },
+      { title: "Geleira Perito Moreno", story: "São 5 quilômetros de frente glacial com 70 metros de altura — um muro azul vivo que respira, range e desaba em pedaços do tamanho de prédios dentro do Lago Argentino. Caminha-se em passarelas de madeira por horas só ouvindo: o estalo distante anuncia o desabamento minutos antes de acontecer, e o som do gelo batendo na água parece um trovão subaquático." },
+      { title: "Trilhas épicas (W, O, Circuito)", story: "O W são 5 dias clássicos entre vento, refúgios e três vales que cortam o maciço de Paine; o Circuito O acrescenta 4 dias pelo lado selvagem, atravessando o Passo John Gardner com vista aérea do Glaciar Grey. Carregar a própria mochila, dormir em barraca sob céu austral e acordar ao som do gelo é uma das experiências mais transformadoras que a montanha oferece no planeta." },
+      { title: "Navegação por fiordes e geleiras", story: "De Punta Arenas ou Puerto Natales, embarcações pequenas levam por fiordes onde só passam navios e baleias — Balmaceda, Serrano, Pío XI. Vê-se a geleira de proa, ouve-se o silêncio que só existe a 54° de latitude sul e, com sorte, condores cruzam por cima do barco como se inspecionassem a visita." }
     ],
     beyondUsual: [
       "Trekking em áreas menos visitadas da região.",
@@ -1702,11 +1702,11 @@ export const destinations: Destination[] = [
     imageOverrideUrl: "",
     intro: "O deserto mais seco do mundo: paisagens marcianas, céu estrelado perfeito para astronomia e silêncio que convida à introspecção.",
     highlights: [
-      "Valle de la Luna",
-      "Geysers del Tatio ao amanhecer",
-      "Salares e lagoas altiplânicas",
-      "Astronomia e céu estrelado",
-      "Oásis de San Pedro"
+      { title: "Valle de la Luna", story: "A 13 km de San Pedro, dunas, anfiteatros de sal e formações de gesso esculpidas pelo vento se incendeiam ao pôr do sol — primeiro dourado, depois laranja, finalmente um violeta improvável. Sobe-se a duna mayor com sapatos cheios de areia, senta-se em silêncio com 50 outros estranhos e, quando o sol desaparece atrás da cordilheira de sal, ouve-se o deserto estalar enquanto a temperatura despenca." },
+      { title: "Geysers del Tatio ao amanhecer", story: "Sai-se do hotel às 4h30 da madrugada e sobe-se a 4.320 metros no escuro, vendo as estrelas ainda intactas. Quando o sol nasce, as fumarolas de água a 86°C ganham forma — colunas brancas que sobem 10 metros no ar gelado de -10°C, criando o terceiro maior campo geotermal do mundo. Toma-se café e ovos cozidos na própria nascente vulcânica, e nada do dia seguinte se compara." },
+      { title: "Salares e lagoas altiplânicas", story: "A 4.300 metros, as Lagunas Miscanti e Miñiques exibem um azul-cobalto contra vulcões cônicos cobertos de neve, com flamingos rosados em primeiro plano que parecem absurdos diante daquele cenário. No Salar de Atacama, a Laguna Chaxa abriga três espécies de flamingos andinos pescando em poças cor-de-rosa enquanto o vulcão Licancabur observa em silêncio." },
+      { title: "Astronomia e céu estrelado", story: "Atacama é o lugar mais transparente do planeta para olhar o universo — é por isso que ALMA, o maior observatório do mundo, está aqui. Em tours noturnos privados com astrônomos, deita-se em espreguiçadeiras a 2.500m, vê-se a Via Láctea atravessar o céu como um rio de leite e olha-se Saturno num telescópio de 16 polegadas até reconhecer os anéis com nitidez de fotografia." },
+      { title: "Oásis de San Pedro", story: "San Pedro é um vilarejo de barro caiado de branco com igreja do século XVII, ruas de terra e bicicletas alugadas em cada esquina. Almoça-se quinoa e cordeiro em pátios sombreados por pimenteiras, compra-se lã de alpaca tingida com plantas do deserto e, à noite, janta-se à luz de velas porque é regra municipal: nada de poluição luminosa para não atrapalhar o céu." }
     ],
     beyondUsual: [
       "Tours astronômicos privados com observatórios.",
@@ -1736,11 +1736,11 @@ export const destinations: Destination[] = [
     imageOverrideUrl: "",
     intro: "O laboratório da evolução: fauna sem medo, vulcões ativos e experiências que Darwin imortalizou. Galápagos é único no planeta.",
     highlights: [
-      "Tartarugas gigantes em seu habitat",
-      "Snorkel com leões-marinhos e pinguins",
-      "Iguanas marinhas e terrestres",
-      "Cruzeiros entre as ilhas",
-      "Blue-footed boobies e fragatas"
+      { title: "Tartarugas gigantes em seu habitat", story: "Na reserva de Santa Cruz, caminha-se entre tartarugas de 250 kg e 150 anos pastando capim em câmera lenta como se o tempo não passasse — porque para elas, não passa mesmo. O som é apenas o roçar das carapaças contra a vegetação e respirações pesadas; aproximar-se a dois metros sem que se mexam é a primeira lição de que aqui o humano é apenas mais um animal." },
+      { title: "Snorkel com leões-marinhos e pinguins", story: "Em Punta Pitt ou Los Túneles, leões-marinhos juvenis nadam em volta dos snorkelistas em espirais brincalhonas, soprando bolhas no rosto e fazendo loopings de 360° a centímetros da máscara. Em poucas horas se nada também com pinguins de Galápagos — os únicos do mundo a viver na linha do equador — tubarões de recife e tartarugas verdes que cruzam tranquilas pelo lado." },
+      { title: "Iguanas marinhas e terrestres", story: "São os únicos lagartos do planeta que mergulham no mar para comer algas — descem a 10 metros, ficam imóveis no fundo gelado e voltam à superfície para se aquecer em rochas pretas vulcânicas em massas de dezenas, espirrando sal pelas narinas. Vistas de perto, parecem dragões em miniatura, e sua imobilidade total a 30 cm dos pés é desconcertante." },
+      { title: "Cruzeiros entre as ilhas", story: "Os melhores roteiros são em embarcações de 16 cabines que navegam à noite enquanto se janta e dorme — acorda-se a cada manhã em uma ilha diferente, com fauna distinta, lava distinta, lições distintas de evolução. Naturalistas certificados guiam dois desembarques por dia, contam histórias de Darwin no convés ao pôr do sol e fazem da viagem uma sala de aula flutuante de altíssimo nível." },
+      { title: "Blue-footed boobies e fragatas", story: "Os atobás-de-patas-azuis fazem a dança de acasalamento mais cômica da natureza — levantam alternadamente os pés azul-turquesa, abrem as asas e assoviam para a fêmea com seriedade absoluta. A poucos metros, fragatas-magníficas inflam o papo escarlate até o tamanho de uma bola de basquete e ficam horas assim, parecendo balões abandonados num galho." }
     ],
     beyondUsual: [
       "Mergulho em Wolf e Darwin para tubarões-martelo.",
@@ -1770,11 +1770,11 @@ export const destinations: Destination[] = [
     imageOverrideUrl: "",
     intro: "O coração do império Inca: Machu Picchu, vale fértil e tradições vivas. Peru é história, gastronomia e paisagens andinas em uma viagem.",
     highlights: [
-      "Machu Picchu ao amanhecer",
-      "Vale Sagrado dos Incas",
-      "Cusco colonial e pré-colombiano",
-      "Mercados e gastronomia peruana",
-      "Trilhas incas (Salkantay, Lares)"
+      { title: "Machu Picchu ao amanhecer", story: "Entrar pelo Inti Punku (Portal do Sol) às 6h da manhã e ver a cidadela emergir lentamente da neblina, com o Huayna Picchu recortando o céu atrás, é uma experiência que reorganiza qualquer ideia preconcebida sobre o que humanos foram capazes de construir em 1450. O silêncio dos primeiros 20 minutos — antes da chegada dos trens — é o luxo absoluto desta visita." },
+      { title: "Vale Sagrado dos Incas", story: "Entre Pisac e Ollantaytambo o rio Urubamba serpenteia por um vale fértil onde os Incas plantavam milho cerimonial em terraços que ainda funcionam hoje. Visita-se Moray, onde anfiteatros circulares concêntricos criavam microclimas para experimentação agrícola, e as salinas de Maras — 4.500 poças brancas escalonadas no flanco da montanha desde antes do Império Inca." },
+      { title: "Cusco colonial e pré-colombiano", story: "A capital inca é uma sobreposição arquitetônica única no mundo: igrejas barrocas espanholas construídas literalmente sobre paredes incas de pedras poliédricas que se encaixam sem argamassa há 600 anos. Caminha-se pela rua Loreto à noite, encosta-se a mão na pedra dos doze ângulos e sente-se a precisão impossível de uma civilização que não conhecia a roda." },
+      { title: "Mercados e gastronomia peruana", story: "No mercado de San Pedro, vendedoras com tranças e polleras coloridas oferecem 3.800 variedades de batata, suco de rã (sim, viva), milho gigante de Urubamba e queijos andinos. À noite, restaurantes como Cicciolina ou MIL (de Virgilio Martínez, a 3.680m em Moray) servem cozinha andina contemporânea que faz da viagem também uma peregrinação gastronômica." },
+      { title: "Trilhas incas (Salkantay, Lares)", story: "Para quem quer chegar a Machu Picchu pelos pés, a clássica Inca Trail de 4 dias atravessa três passes a 4.200m com ruínas a cada curva; a Salkantay é mais selvagem, contornando uma montanha sagrada de 6.271m; a Lares mistura caminhada com visitas a comunidades quéchuas onde se dorme com famílias e se aprende a tecer com lã de alpaca tingida em raízes." }
     ],
     beyondUsual: [
       "Acessos alternativos a Machu Picchu menos lotados.",
@@ -1804,11 +1804,11 @@ export const destinations: Destination[] = [
     imageOverrideUrl: "",
     intro: "O maior deserto de sal do mundo: paisagens surrealistas que brincam com perspectiva e proporção. Um portal para outro planeta.",
     highlights: [
-      "Salar infinito com efeito espelho",
-      "Ilha Incahuasi com cactos gigantes",
-      "Lagoas coloridas e flamingos",
-      "Formações rochosas únicas",
-      "Nascer e pôr do sol no sal"
+      { title: "Salar infinito com efeito espelho", story: "Na estação chuvosa, uma lâmina de 5 centímetros de água cobre os 10.582 km² do salar e transforma o chão na maior superfície refletora do planeta — o céu se duplica de tal forma que perde-se a noção de cima e baixo, e caminhar parece flutuar entre duas atmosferas. Ao pôr do sol, as nuvens incendiadas aparecem em estéreo, e o silêncio absoluto da altitude amplifica a sensação de irrealidade." },
+      { title: "Ilha Incahuasi com cactos gigantes", story: "No meio do nada branco emerge uma ilha de coral fóssil coberta por cactos Trichocereus de até 10 metros de altura e mil anos de idade — vestígios de quando ali existia um lago pré-histórico. Sobe-se a trilha de pedra vulcânica até o topo, vê-se o horizonte branco de 360° e entende-se em silêncio que se está no leito seco de um oceano de sal." },
+      { title: "Lagoas coloridas e flamingos", story: "Na Reserva Eduardo Avaroa, a Laguna Colorada é vermelha-sangue por causa de algas e sedimentos, com centenas de flamingos andinos rosados pescando contra esse fundo cinematográfico; a Laguna Verde é esmeralda por arsênico dissolvido, refletindo o vulcão Licancabur perfeito como um cone de neve. Cada lagoa parece pintada por um expressionista com paleta proibida." },
+      { title: "Formações rochosas únicas", story: "No deserto Siloli, a Árbol de Piedra é um monólito de 7 metros esculpido pelo vento durante milênios até virar uma escultura abstrata que parece flutuar sobre a base estreita. Ao redor, o deserto Dalí — assim batizado porque os surrealismos das rochas e cores fazem pensar nas paisagens do pintor — completa um cenário que não pertence a este planeta." },
+      { title: "Nascer e pôr do sol no sal", story: "Sair do hotel de sal às 5h da manhã, dirigir 40 minutos no escuro absoluto e parar no meio do nada para ver o sol nascer atrás dos Andes refletido no espelho infinito — o silêncio é tão denso que se ouvem os próprios batimentos. À noite, sem nenhuma luz num raio de 200 km, a Via Láctea desce até tocar o horizonte e se reflete duplicada no chão de água." }
     ],
     beyondUsual: [
       "Pernoite em hotel de sal dentro do salar.",
