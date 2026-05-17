@@ -2114,11 +2114,11 @@ export const destinations: Destination[] = [
     imageOverrideUrl: "",
     intro: "Tradição e futuro convivem em harmonia: templos zen, gastronomia precisa e natureza reverenciada. Japão é sensorial em cada detalhe.",
     highlights: [
-      "Tóquio contemporânea",
-      "Kyoto tradicional e templos",
-      "Alpes japoneses e onsens",
-      "Gastronomia japonesa autêntica",
-      "Cerejeiras ou outono colorido"
+      { title: "Tóquio contemporânea", story: "Shibuya Crossing às 18h é o cruzamento mais movimentado do mundo — 3 mil pessoas atravessam em 30 segundos com sincronia coreográfica que parece ensaiada. Em Shinjuku, becos minúsculos do Omoide Yokocho servem yakitori grelhado em fumaça de carvão japonês com cerveja gelada; em Ginza, sushiya de oito lugares com chefs de avental branco preparam nigiri silenciosamente diante do cliente; e teamLab Planets transforma o corpo em parte de uma instalação digital imersiva inesquecível." },
+      { title: "Kyoto tradicional e templos", story: "O templo Fushimi Inari ao amanhecer (6h) é um corredor infinito de 10 mil torii vermelho-vivo subindo a montanha em curvas — caminha-se sozinho com o som apenas dos próprios passos e cigarras. O Kinkaku-ji dourado se reflete num espelho d'água perfeito; em Arashiyama, o bambuzal sussurra no vento; e em Gion, ao entardecer, gueixas atravessam ruas de pedra em direção a chá-de-cerimônia — o Japão eterno em três horas." },
+      { title: "Alpes japoneses e onsens", story: "Em Takayama e Shirakawa-go, casas de telhado triangular gassho-zukuri (mãos em oração) cobertas de neve no inverno parecem cenário de conto. Dorme-se em ryokan com tatami, futon e robe yukata, janta-se kaiseki de 10 pratos servidos no quarto pela okami e mergulha-se em onsen ao ar livre (rotenburo) com flocos de neve caindo nos ombros enquanto a água termal a 42°C aquece os ossos." },
+      { title: "Gastronomia japonesa autêntica", story: "Sushi omakase no Tsukiji externo onde o itamae corta o atum vendido horas antes; ramen de tonkotsu de Hakata cremoso e cheio de umami num balcão de 8 lugares em Fukuoka; okonomiyaki montado pelo cliente sobre teppan em Osaka; kaiseki em Kyoto onde a louça muda 12 vezes ao longo do jantar para combinar com a estação. Termina-se com matchá batido por um mestre num chá-de-cerimônia silencioso de 90 minutos." },
+      { title: "Cerejeiras ou outono colorido", story: "Hanami é o ritual de sentar sob as sakuras em flor (final de março a início de abril) com bentô e saquê — em Maruyama Park em Kyoto, lanternas iluminam as árvores à noite e milhares de pessoas celebram em silêncio respeitoso. No outono (novembro), os bordos do Tofuku-ji e os ginkgos amarelos do Meiji Jingu Gaien explodem em vermelho, laranja e amarelo — cinema natural que dura apenas duas semanas por ano." }
     ],
     beyondUsual: [
       "Ryokans em vilarejos remotos.",
