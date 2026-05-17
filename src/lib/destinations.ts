@@ -1326,11 +1326,11 @@ export const destinations: Destination[] = [
     imageOverrideUrl: "",
     intro: "Serengeti é o grande teatro da vida selvagem. A Create Travel cura a experiência para ser ética, silenciosa e intensa — menos corrida, mais presença.",
     highlights: [
-      "Safáris ao amanhecer e entardecer",
-      "Grandes manadas e predadores",
-      "Céu estrelado na savana",
-      "Extensão estratégica para Ngorongoro",
-      "Contato cultural com respeito e contexto"
+      { title: "Safáris ao amanhecer e entardecer", story: "Antes do sol nascer, o jipe corta a savana ainda azulada. O ar é frio, o cheiro de capim molhado entra forte e, à distância, leões começam a rugir reivindicando território. Quando a luz dourada finalmente toca a planície, ela revela cenas que parecem coreografadas — uma chita observando, elefantes em fila, búfalos levantando poeira. Cada saída é teatro." },
+      { title: "Grandes manadas e predadores", story: "Centenas de milhares de gnus e zebras se movem como um único organismo pela savana, perseguidos por leões, leopardos e hienas que esperam o momento certo. Ver uma chita em caça plena, com 110 km/h em segundos, ou um leopardo descendo da árvore com a presa, é privilégio raro — o ciclo da vida acontecendo a poucos metros do veículo." },
+      { title: "Céu estrelado na savana", story: "Sem luzes artificiais por centenas de quilômetros, a noite do Serengeti revela uma Via Láctea de tirar o fôlego. Deitar em uma esteira no deck do lodge, ouvir o som distante das hienas e ver estrelas cadentes riscarem o céu enquanto se toma um drink é uma das experiências mais espirituais que a África oferece." },
+      { title: "Extensão estratégica para Ngorongoro", story: "A combinação clássica e por bom motivo: enquanto o Serengeti oferece as planícies infinitas da migração, o Ngorongoro concentra fauna em uma caldeira vulcânica de 20 km de diâmetro — incluindo rinocerontes-negros raros. Curamos a rota para reduzir deslocamentos e maximizar tempo de observação." },
+      { title: "Contato cultural com respeito e contexto", story: "Visitas a comunidades Maasai vão muito além da foto de turista — incluem conversas com anciãos, demonstrações de rituais ancestrais, dança guerreira do adumu e contexto sobre os desafios contemporâneos do povo. Antropólogos locais acompanham para garantir uma experiência ética e profunda." }
     ],
     beyondUsual: [
       "Safári com foco em comportamento animal (ética acima do 'clique').",
@@ -1360,11 +1360,11 @@ export const destinations: Destination[] = [
     imageOverrideUrl: "",
     intro: "A maior caldeira intacta do mundo: um anfiteatro natural onde a vida selvagem se concentra. Complemento perfeito ao Serengeti.",
     highlights: [
-      "Descida à cratera ao amanhecer",
-      "Concentração de grandes mamíferos",
-      "Rinocerontes negros (um dos poucos locais)",
-      "Povos Maasai no entorno",
-      "Paisagens vulcânicas dramáticas"
+      { title: "Descida à cratera ao amanhecer", story: "A estrada serpenteia pela borda do vulcão extinto, e quando o jipe começa a descer os 600 metros até o fundo, a neblina ainda preenche a caldeira como um lago de algodão. À medida que o sol sobe, a névoa se dissipa e revela um anfiteatro natural de 260 km² com fauna concentrada como em nenhum outro lugar do planeta — sensação de estar entrando no Éden." },
+      { title: "Concentração de grandes mamíferos", story: "Mais de 25.000 grandes mamíferos vivem dentro da cratera: leões com juba escura, manadas de elefantes-tusker (com presas enormes), búfalos em milhares, hipopótamos boiando nas lagoas, flamingos rosados tingindo o lago Magadi. A densidade é tamanha que se vê os Big Five em uma única manhã." },
+      { title: "Rinocerontes negros (um dos poucos locais)", story: "Restam menos de 5.500 rinocerontes-negros em toda a África, e a cratera abriga uma das populações mais protegidas. Avistar essa silhueta pré-histórica caminhando lentamente pela planície, com a vista da borda da cratera ao fundo, é um momento de privilégio e responsabilidade — testemunhar uma espécie em recuperação." },
+      { title: "Povos Maasai no entorno", story: "Os Maasai mantêm direito ancestral de pastorear o gado nas planícies do Ngorongoro Conservation Area — uma das poucas convivências bem-sucedidas entre cultura tradicional e conservação. Encontros com anciãos, visitas a bomas (aldeias) e mercados semanais revelam uma cultura que resiste ao tempo com dignidade." },
+      { title: "Paisagens vulcânicas dramáticas", story: "Cones vulcânicos, lagos alcalinos cor-de-rosa, escarpas vertiginosas e a Garganta de Olduvai — berço da humanidade, onde Mary e Louis Leakey encontraram fósseis de 1,8 milhão de anos. A geologia conta uma história tão profunda quanto a fauna — viagem ao princípio do tempo." }
     ],
     beyondUsual: [
       "Visita cultural com comunidades Maasai (respeitosa e com contexto).",
@@ -1394,11 +1394,11 @@ export const destinations: Destination[] = [
     imageOverrideUrl: "",
     intro: "Praias paradisíacas encontram história e especiarias. Zanzibar é a extensão perfeita após o safári — ou um destino por si só.",
     highlights: [
-      "Praias de areia branca e águas turquesa",
-      "Stone Town (Patrimônio UNESCO)",
-      "Rota das especiarias",
-      "Mergulho e snorkel",
-      "Gastronomia de influências árabes e africanas"
+      { title: "Praias de areia branca e águas turquesa", story: "Nungwi, Kendwa, Paje, Matemwe — nomes que viraram sinônimo de paraíso. Areia branca quase translúcida, mar em três tons de azul e dhows tradicionais com velas triangulares deslizando ao entardecer. Em Paje, a maré baixa revela bancos de areia que se estendem por quilômetros, e caminhar até o horizonte com pés na água é hipnótico." },
+      { title: "Stone Town (Patrimônio UNESCO)", story: "Labirinto de ruelas estreitas com portas talhadas em madeira de mais de 200 anos, mesquitas, templos hindus, igrejas e bazares — Stone Town é o encontro de África, Arábia, Índia e Europa em arquitetura viva. À noite, o mercado Forodhani serve frutos do mar grelhados na hora sob luz de lampiões, com vista para o oceano Índico." },
+      { title: "Rota das especiarias", story: "Zanzibar foi por séculos a 'Ilha das Especiarias' — cravo, baunilha, cardamomo, pimenta-do-reino e noz-moscada cresciam aqui em escala global. Visitar uma fazenda de especiarias é fazer um tour sensorial: cheirar folhas, mascar raízes, descobrir aromas que mudaram a história da humanidade. Almoço com curry zanzibarense fecha a experiência." },
+      { title: "Mergulho e snorkel", story: "As águas ao redor de Mnemba Island têm visibilidade de 30 metros e abrigam tartarugas-verdes, golfinhos-rotadores, peixes-palhaço e corais coloridos. Mergulhar em Pemba ou nas Mnemba Atoll é encontrar um dos ecossistemas marinhos mais ricos do oceano Índico — com a sorte de ver, em meses certos, tubarões-baleia." },
+      { title: "Gastronomia de influências árabes e africanas", story: "Curries aromáticos, urojo (sopa azeda zanzibarense), pweza wa nazi (polvo no leite de coco), mishkaki (espetinhos), todos perfumados com especiarias da ilha. Jantar em um rooftop de Stone Town ao chamado do muezzin, com o pôr do sol tingindo o Índico, é uma das experiências mais memoráveis da África Oriental." }
     ],
     beyondUsual: [
       "Praias menos visitadas no norte e leste da ilha.",
@@ -1428,11 +1428,11 @@ export const destinations: Destination[] = [
     imageOverrideUrl: "",
     intro: "A continuação do Serengeti em solo queniano: palco da travessia do rio Mara e lar de leões, leopardos e guepardos o ano todo.",
     highlights: [
-      "Travessia do Rio Mara (quando a migração cruza)",
-      "Grandes felinos em alta densidade",
-      "Balões sobre a savana",
-      "Cultura Maasai",
-      "Conservancies privadas com menos veículos"
+      { title: "Travessia do Rio Mara (quando a migração cruza)", story: "Milhares de gnus e zebras se acumulam na margem do rio, hesitando — sabem que abaixo há crocodilos de 5 metros esperando. De repente, um animal salta e a manada inteira se atira em êxodo desesperado. A água ferve em água, poeira e morte; ao mesmo tempo, é renascimento — uma das cenas mais visceralmente impressionantes da natureza, narrada por documentaristas há décadas." },
+      { title: "Grandes felinos em alta densidade", story: "Masai Mara tem uma das maiores concentrações de leões, leopardos e chitas do mundo. É comum, em um único safári, ver bandos de leoas caçando, leopardos descansando em galhos de acácia e chitas com filhotes brincando ao sol. Cada saída ao amanhecer é potencial para testemunhar uma caçada inteira do início ao fim." },
+      { title: "Balões sobre a savana", story: "Antes do sol nascer, o balão se ergue silenciosamente sobre a Mara. De 300 metros de altura, a planície se revela em escala épica — manadas se movendo como rios escuros, leões caminhando ao longo de trilhas, elefantes em famílias. Ao final do voo, café da manhã com champagne servido na savana, com girafas observando à distância. Sem palavras." },
+      { title: "Cultura Maasai", story: "Os Maasai mantêm vida tradicional pastoral em bomas (aldeias) cercadas de espinhos para proteger o gado dos leões. Visitas curadas incluem dança guerreira do adumu (saltos altíssimos), conversas com anciãos sobre rituais de passagem, demonstrações de medicina herbal e a oportunidade rara de entender uma cultura ancestral em primeira mão." },
+      { title: "Conservancies privadas com menos veículos", story: "Áreas adjacentes ao parque nacional, gerenciadas por comunidades Maasai, oferecem experiência mais exclusiva: limite de veículos por avistamento, safári a pé permitido, drives noturnos e maior conforto nos lodges. A receita dos turistas vai diretamente para as comunidades — turismo regenerativo de verdade." }
     ],
     beyondUsual: [
       "Safáris em conservancies para experiência mais exclusiva.",
@@ -1462,11 +1462,11 @@ export const destinations: Destination[] = [
     imageOverrideUrl: "",
     intro: "Do safári ao vinho, da cidade cosmopolita às paisagens dramáticas. A África do Sul é um país inteiro em experiências.",
     highlights: [
-      "Safári no Kruger ou reservas privadas",
-      "Rota dos Vinhos (Stellenbosch, Franschhoek)",
-      "Cidade do Cabo e Table Mountain",
-      "Garden Route cênica",
-      "Cultura e história complexa"
+      { title: "Safári no Kruger ou reservas privadas", story: "O Kruger é um dos maiores parques nacionais da África com os Big Five (leão, leopardo, elefante, búfalo, rinoceronte) em alta densidade. Em reservas privadas adjacentes como Sabi Sands, é permitido sair da estrada para acompanhar predadores em ação — encontros próximos com leopardos relaxando em árvores marula são especialidade da região." },
+      { title: "Rota dos Vinhos (Stellenbosch, Franschhoek)", story: "Vales de vinhedos cercados por montanhas dramáticas, vinícolas em arquitetura cape dutch do século XVII, restaurantes premiados com estrelas Michelin e degustações de chenin blanc, pinotage e syrah. Franschhoek tem um trenzinho-bonde que percorre 8 vinícolas em um dia — gastronomia e enologia em nível mundial." },
+      { title: "Cidade do Cabo e Table Mountain", story: "Uma das cidades mais belas do mundo, abraçada pela Table Mountain (acessível por teleférico ou trilha) com vista panorâmica do oceano Atlântico encontrando o Índico. O bairro Bo-Kaap com casinhas em cores vibrantes, o V&A Waterfront, a Ilha de Robben (onde Mandela foi preso) — cada esquina é história e beleza." },
+      { title: "Garden Route cênica", story: "750 km de estrada costeira entre Cape Town e Port Elizabeth, com Knysna e suas lagoas, Plettenberg Bay e suas baleias-franca, Tsitsikamma com florestas indígenas e pontes suspensas, Oudtshoorn e suas fazendas de avestruz. Road trip clássico que combina natureza, gastronomia e charme de vilarejos costeiros." },
+      { title: "Cultura e história complexa", story: "Robben Island, Apartheid Museum em Joanesburgo, township de Soweto com visitas guiadas pela casa de Mandela — entender a história sul-africana é parte essencial da viagem. Encontros com guias locais que viveram o apartheid trazem profundidade emocional rara, transformando o turismo em testemunho histórico." }
     ],
     beyondUsual: [
       "Reservas privadas adjacentes ao Kruger para experiência exclusiva.",
@@ -1496,11 +1496,11 @@ export const destinations: Destination[] = [
     imageOverrideUrl: "",
     intro: "Paisagens que parecem de outro planeta: dunas vermelhas, desertos costeiros e vida selvagem adaptada. A Namíbia é para quem busca o extraordinário.",
     highlights: [
-      "Dunas de Sossusvlei e Deadvlei",
-      "Safári em Etosha",
-      "Costa do Esqueleto",
-      "Tribos Himba (com respeito)",
-      "Céu estrelado mais escuro do mundo"
+      { title: "Dunas de Sossusvlei e Deadvlei", story: "As dunas de Sossusvlei são as mais altas do mundo — algumas com 325 metros, vermelhas como sangue ao amanhecer. Subir a Big Daddy ao nascer do sol, sentir o vento gelado e ver o vale se acender em tons de fogo é experiência transcendental. No Deadvlei, árvores fossilizadas há 900 anos se erguem como esculturas em um lago seco branco — uma das imagens mais surreais do planeta." },
+      { title: "Safári em Etosha", story: "Em volta do enorme salar Etosha Pan, os waterholes atraem fauna em concentrações espetaculares — especialmente na seca. Elefantes brancos cobertos pela poeira do salar, rinocerontes-negros, leões e girafas se revezam em um teatro contínuo. Lodges com waterholes iluminados permitem observar a fauna durante a noite com bebidas em mão." },
+      { title: "Costa do Esqueleto", story: "Onde o deserto do Namib encontra o Atlântico em uma das costas mais inóspitas e cinematográficas do mundo. Naufrágios enferrujados emergem da areia, neblinas espessas envolvem leões-marinhos e flamingos, e a sensação é estar no fim do mundo. Em Cape Cross, milhares de focas-do-cabo se reúnem em colônias barulhentas — espetáculo único." },
+      { title: "Tribos Himba (com respeito)", story: "No norte da Namíbia, o povo Himba mantém vida seminômade com mulheres cobrindo a pele com pasta de ocre vermelho misturado a gordura — proteção contra o sol e marca cultural milenar. Visitas curadas, com guias locais e em troca justa, permitem entender uma cultura que escolheu manter suas tradições contra o tempo." },
+      { title: "Céu estrelado mais escuro do mundo", story: "A NamibRand Nature Reserve é uma das primeiras Reservas Internacionais de Céu Escuro do mundo — visibilidade noturna sem precedentes, com a Via Láctea projetando sombras no chão. Astrônomos amadores e profissionais peregrinam para observar nebulosas a olho nu, e os lodges oferecem decks com telescópios para noites inesquecíveis." }
     ],
     beyondUsual: [
       "Regiões menos visitadas do Damaraland.",
@@ -1530,11 +1530,11 @@ export const destinations: Destination[] = [
     imageOverrideUrl: "",
     intro: "O maior delta interior do mundo: safári aquático, vida selvagem extraordinária e exclusividade em meio à natureza intocada.",
     highlights: [
-      "Safári de mokoro (canoa tradicional)",
-      "Game drives em ilhas remotas",
-      "Concentração de elefantes e predadores",
-      "Lodges e camps de luxo exclusivos",
-      "Paisagens alagadas únicas"
+      { title: "Safári de mokoro (canoa tradicional)", story: "Deslizar silenciosamente em uma canoa de madeira escavada por um remador local, atravessando canais de água cristalina entre lírios e papiros, com elefantes pastando a poucos metros, é uma das experiências de safári mais íntimas do planeta. O silêncio é absoluto, interrompido apenas pelo bater das asas de uma garça ou pelo bufo distante de um hipopótamo." },
+      { title: "Game drives em ilhas remotas", story: "O delta é um arquipélago de centenas de ilhas formadas por sedimentos e termiteiros gigantes. Cada ilha vira plataforma de safári com fauna abundante — leões adaptados a caçar em águas rasas, cães-selvagens raros, leopardos noturnos e os famosos elefantes do Okavango, conhecidos por suas presas longas." },
+      { title: "Concentração de elefantes e predadores", story: "Botsuana abriga a maior população de elefantes da África (mais de 130.000), e muitos passam pelo Okavango. Ver manadas de 50+ elefantes atravessando canais a nado, ou um leopardo levando uma presa para o alto de uma árvore-salsicha, é cotidiano aqui. A densidade e qualidade das observações é mundialmente reconhecida." },
+      { title: "Lodges e camps de luxo exclusivos", story: "Botsuana adota modelo de turismo de baixo volume e alto valor: poucos lodges, poucas unidades, máxima privacidade e mínimo impacto. Lodges como Mombo, Vumbura Plains e Jao oferecem suítes com decks privativos sobre o delta, jantares à luz de lampiões na savana e serviço personalíssimo — luxo no sentido mais profundo." },
+      { title: "Paisagens alagadas únicas", story: "O Okavango é o maior delta interior do mundo — um rio que não chega ao mar, evaporando em milhares de canais no meio do deserto do Kalahari. Vista do helicóptero, é uma escultura líquida verde-azulada cercada de areia, com manadas de búfalos atravessando ilhas e revoadas de pelicanos sobrevoando — pura poesia geográfica." }
     ],
     beyondUsual: [
       "Camps pequenos com poucas unidades para máxima privacidade.",
@@ -1564,11 +1564,11 @@ export const destinations: Destination[] = [
     imageOverrideUrl: "",
     intro: "Encontrar gorilas das montanhas é uma das experiências mais transformadoras do planeta. Ruanda oferece o cenário mais acessível para esse encontro raro.",
     highlights: [
-      "Trekking até famílias de gorilas",
-      "Vulcões e florestas de altitude",
-      "Golden monkeys",
-      "Kigali e sua história de resiliência",
-      "Conservação como modelo"
+      { title: "Trekking até famílias de gorilas", story: "Após horas subindo trilhas íngremes em floresta densa de bambu e samambaias gigantes, o rastreador para e silencia. À sua frente, a apenas 7 metros, uma família inteira de gorilas-das-montanhas — um silverback pesando 250 kg, fêmeas com filhotes nas costas, jovens brincando entre galhos. Por uma hora você compartilha o espaço deles, olhos nos olhos. Transformador é palavra pequena." },
+      { title: "Vulcões e florestas de altitude", story: "O Parque Nacional dos Vulcões abriga 5 vulcões adormecidos da cordilheira Virunga, cobertos por floresta de altitude perpetuamente envolta em neblina. Caminhar entre samambaias arborescentes de 4 metros, com sons de pássaros endêmicos ecoando, é entrar em um mundo pré-histórico — cenário do filme 'Nas Montanhas dos Gorilas'." },
+      { title: "Golden monkeys", story: "Endêmicos das florestas de bambu de Virunga, os macacos-dourados são pequenos primatas com pelagem cor de ouro brilhante e olhos âmbar. Trekking mais leve que o dos gorilas leva a bandos brincando entre os bambus — alternativa econômica e igualmente encantadora, ideal para quem quer mais um dia na floresta de altitude." },
+      { title: "Kigali e sua história de resiliência", story: "Kigali é uma das capitais mais limpas, seguras e organizadas da África. O Memorial do Genocídio, onde 250.000 vítimas estão enterradas, é visita densa mas essencial — entender a tragédia de 1994 e a reconstrução do país em apenas 30 anos é uma das histórias mais inspiradoras do mundo contemporâneo." },
+      { title: "Conservação como modelo", story: "Ruanda transformou os gorilas em pilar de identidade nacional — cada permit de trekking financia diretamente a conservação e as comunidades locais. A população de gorilas-das-montanhas saiu de 250 nos anos 80 para mais de 1.000 hoje. Viajar aqui é apoiar uma das maiores histórias de sucesso de conservação do planeta." }
     ],
     beyondUsual: [
       "Experiência de habituação para mais tempo com os gorilas.",
@@ -1598,11 +1598,11 @@ export const destinations: Destination[] = [
     imageOverrideUrl: "",
     intro: "Cores, aromas e história em cada medina. Marrocos é sensorial: das montanhas ao deserto, das cidades imperiais aos riads escondidos.",
     highlights: [
-      "Medinas de Marrakech e Fez",
-      "Deserto do Saara (Merzouga e Zagora)",
-      "Atlas e vales berberes",
-      "Arquitetura e artesanato",
-      "Gastronomia marroquina"
+      { title: "Medinas de Marrakech e Fez", story: "Entrar na medina de Fez — labirinto de 9.000 ruelas onde o tempo parou no século XIV — é experiência sensorial total. Tinturarias de couro com tanques coloridos vistos do alto, ferreiros martelando bronze, padeiros assando pão em fornos comunitários, perfumistas misturando essências em pequenos frascos. Em Marrakech, a Praça Jemaa el-Fnaa explode à noite com encantadores de serpentes, contadores de histórias e barracas de comida fumegante." },
+      { title: "Deserto do Saara (Merzouga e Zagora)", story: "Cavalgando um camelo pelas dunas alaranjadas de Erg Chebbi ao pôr do sol, com a sombra do animal projetada longa na areia, é viver imagem de cartão-postal mil vezes vista — agora real. À noite, no camp de tendas berberes, jantar tagine sob estrelas com tambores tocando ao redor da fogueira, e dormir ouvindo apenas o silêncio do deserto. Ao amanhecer, subir a duna mais alta para ver o sol nascer transforma a vida." },
+      { title: "Atlas e vales berberes", story: "A Cordilheira do Atlas separa o Marrocos verde do Marrocos saariano com picos de 4.000 metros, vilarejos berberes pendurados em encostas e vales como Ourika, Imlil e o vale do Dadès com gargantas avermelhadas espetaculares. Cavalgar por trilhas onde caravanas passavam há séculos, almoçar tagine em casa berbere e dormir em kasbah de barro é viver o Marrocos profundo." },
+      { title: "Arquitetura e artesanato", story: "Madrassas com mosaicos zellige perfeitos, palácios com tetos esculpidos em cedro, riads com pátios centrais e fontes — a arquitetura marroquina é poesia geométrica. Tapetes berberes, lâmpadas de bronze perfuradas, cerâmica azul de Fez, tecidos de seda e couros tingidos compõem o paraíso dos compradores de design no Suk de Marrakech." },
+      { title: "Gastronomia marroquina", story: "Tagines cozinhando em fogo lento por horas, cuscuz de sexta-feira em famílias, pastilla doce e salgada ao mesmo tempo, chá de menta servido com cerimônia, pães rasgados na mão. Jantares em riads boutique com música andaluza ao vivo, e workshops de culinária em cozinhas de mulheres locais — gastronomia que conta a história das rotas das caravanas." }
     ],
     beyondUsual: [
       "Riads boutique fora do circuito óbvio.",
@@ -1632,11 +1632,11 @@ export const destinations: Destination[] = [
     imageOverrideUrl: "",
     intro: "Civilização que atravessa milênios: pirâmides, templos colossais e o Nilo como fio condutor. Uma viagem de profundidade histórica, com cruzeiros entre Luxor e Aswan e bases urbanas no Cairo.",
     highlights: [
-      "Pirâmides de Gizé e Esfinge",
-      "Museu Egípcio e Grand Egyptian Museum",
-      "Cruzeiro pelo Nilo entre Luxor e Aswan",
-      "Vale dos Reis e Templo de Karnak",
-      "Templos de Abu Simbel"
+      { title: "Pirâmides de Gizé e Esfinge", story: "Vê-las pela primeira vez do alto de um camelo, com a poeira dourada do deserto subindo no ar, é confrontar 4.500 anos de história em um único olhar. A Grande Pirâmide de Quéops — única das Sete Maravilhas do Mundo Antigo ainda de pé — tem 146 metros e blocos de 2,5 toneladas. Entrar na câmara funerária, descendo corredores estreitos, é tocar o mistério dos faraós com as próprias mãos." },
+      { title: "Museu Egípcio e Grand Egyptian Museum", story: "O novo Grand Egyptian Museum em Gizé, inaugurado em 2024, é o maior museu arqueológico do mundo — abriga os 5.000 objetos do tesouro de Tutankamon expostos pela primeira vez juntos, incluindo a icônica máscara dourada. Caminhar entre múmias reais, sarcófagos esculpidos e estátuas colossais é mergulho de profundidade rara na civilização que inventou a eternidade." },
+      { title: "Cruzeiro pelo Nilo entre Luxor e Aswan", story: "A bordo de uma dahabiya (veleiro tradicional de duas velas) ou cruzeiro convencional, navegar pelo Nilo é deslizar pela mesma paisagem que faraós viram: campos verdes intensos cortando o deserto, fellahin lavando roupas na margem, ibis voando ao entardecer. Templos surgem em curvas do rio como em sonho — Edfu, Kom Ombo, Esna — cada parada uma viagem no tempo." },
+      { title: "Vale dos Reis e Templo de Karnak", story: "No Vale dos Reis, descer aos hipogeus de Tutankamon, Ramsés VI e Seti I, com paredes cobertas por hieróglifos e cenas do Livro dos Mortos em cores ainda vivas, é experiência mística. Karnak, em Luxor, é o maior templo religioso já construído — a Sala Hipostila com 134 colunas gigantes faz qualquer visitante se sentir formiga diante do divino." },
+      { title: "Templos de Abu Simbel", story: "Os dois templos colossais esculpidos na rocha por Ramsés II em 1264 a.C. foram realocados pedra por pedra nos anos 60 para escapar das águas da represa de Aswan. Duas vezes por ano (22/fev e 22/out), o sol nasce alinhado e ilumina por minutos a estátua de Ramsés no fundo do templo — engenharia astronômica milenar. Voo curto de Aswan ou estrada com escolta torna a visita acessível." }
     ],
     beyondUsual: [
       "Visita privada às pirâmides ao amanhecer, antes da abertura ao público.",
