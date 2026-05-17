@@ -2216,11 +2216,11 @@ export const destinations: Destination[] = [
     imageOverrideUrl: "",
     intro: "Camadas milenares entre Jerusalém, Tel Aviv, o Mar Morto e o deserto do Negev. Israel é uma viagem de espiritualidade, arquitetura, vinhos e gastronomia contemporânea — densa em significado e em sabor.",
     highlights: [
-      "Cidade Antiga de Jerusalém e seus quarteirões",
-      "Tel Aviv: Bauhaus, praia e cena gastronômica",
-      "Mar Morto e suas paisagens lunares",
-      "Massada ao amanhecer",
-      "Vinícolas e mercados (Mahane Yehuda, Carmel)"
+      { title: "Cidade Antiga de Jerusalém e seus quarteirões", story: "Dentro das muralhas otomanas de 1538, quatro quarteirões (judeu, cristão, muçulmano e armênio) coexistem em 1 km². Toca-se a pedra do Muro das Lamentações sentindo bilhetes de orações entre as fendas; segue-se a Via Dolorosa pelos 14 estações da Paixão até a Igreja do Santo Sepulcro, onde gregos, católicos e armênios partilham o mesmo altar; escuta-se o muezzin do Domo da Rocha dourado e o sino das igrejas simultaneamente — sobrepostos por 3 mil anos." },
+      { title: "Tel Aviv: Bauhaus, praia e cena gastronômica", story: "Tel Aviv tem 4.000 edifícios Bauhaus dos anos 30 (a 'Cidade Branca', UNESCO) — passeia-se de bicicleta pelo Boulevard Rothschild entre cafés sob ficus e janta-se hummus no Abu Hassan em Jaffa, considerado o melhor do mundo. À noite, o Carmel Market vira street food com chefs israelenses contemporâneos (Eyal Shani, Assaf Granit), e o Mediterrâneo banha 14 km de praia urbana com vôlei até a meia-noite." },
+      { title: "Mar Morto e suas paisagens lunares", story: "A 430m abaixo do nível do mar — ponto mais baixo da Terra — flutua-se sem esforço sobre água tão salgada (33%) que se lê jornal sentado, pingando para baixo. Cobre-se o corpo com lama negra rica em minerais que vendem por dezenas em spas no mundo todo, deixa-se secar ao sol e enxágua-se em águas terapêuticas que tratam psoríase e artrite. Ao redor, montanhas de calcário com tons rosa e amarelo formam paisagem de outro planeta." },
+      { title: "Massada ao amanhecer", story: "Sobe-se a fortaleza herodiana de Massada (450m sobre o deserto) pelo Snake Path em 45 min no escuro absoluto, chegando ao topo no momento exato em que o sol explode atrás das montanhas da Jordânia, iluminando o Mar Morto abaixo em prata derretida. Caminha-se entre as ruínas dos palácios de Herodes e da última resistência judaica contra Roma (73 d.C.) com guia israelense que conta a história em silêncio quase místico." },
+      { title: "Vinícolas e mercados (Mahane Yehuda, Carmel)", story: "Mahane Yehuda em Jerusalém, ao entardecer de sexta-feira, é um furacão sensorial: vendedores gritando preços de halva fresco, montanhas de tâmaras Medjool, peixe do dia, especiarias amontoadas em tons terra. À noite vira bar-hopping de pubs nas mesmas barracas. As vinícolas da Galileia (Galil Mountain, Tabor) e do Judean Hills produzem cabernet e syrah premiados — visita-se com almoço de queijo de cabra e azeite local." }
     ],
     beyondUsual: [
       "Tour gastronômico noturno em Tel Aviv com chef local.",
