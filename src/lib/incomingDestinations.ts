@@ -174,7 +174,7 @@ export const INCOMING_DESTINATIONS: IncomingDestination[] = [
   },
   {
     slug: "chapada-diamantina",
-    image: salvadorImg,
+    image: chapadaDiamantinaImg,
     name: {
       pt: "Chapada Diamantina",
       en: "Chapada Diamantina",
