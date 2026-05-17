@@ -2549,7 +2549,7 @@ export const destinations: Destination[] = [
     slug: "brasil/amazonia/mamiraua-uacari",
     name: "Mamirauá & Pousada Uacari",
     bestTime: "Mai–Jul (cheia) para canoagem em igapós; Set–Nov (seca) para trilhas e fauna concentrada.",
-    tags: ["conservacao", "fotografia", "navegacao", "remoto", "expedicao"],
+    tags: ["conservacao", "fotografia", "navegacao", "remoto", "expedicao", "birdwatching"],
     imageAiPrompt: "Ultra realistic photo of Mamirauá floating lodge on stilts over a black water river in flooded Amazon at sunrise, no people.",
     imageOverrideUrl: "",
     intro: "A Reserva de Mamirauá é a maior unidade de conservação de várzea do mundo. A Pousada Uacari, flutuante, é referência em ecoturismo, pesquisa e observação de fauna — incluindo onça, primatas raros e centenas de aves.",
