@@ -1668,11 +1668,11 @@ export const destinations: Destination[] = [
     imageOverrideUrl: "",
     intro: "O fim do mundo em sua versão mais dramática: torres de granito, geleiras azuis e silêncio que transforma. Patagônia é para quem busca grandeza.",
     highlights: [
-      "Torres del Paine (Chile)",
-      "El Chaltén e Fitz Roy (Argentina)",
-      "Geleira Perito Moreno",
-      "Trilhas épicas (W, O, Circuito)",
-      "Navegação por fiordes e geleiras"
+      { title: "Torres del Paine (Chile)", story: "As três torres de granito se erguem como catedrais geológicas talhadas por geleiras há 12 milhões de anos. O vento patagônico cala qualquer conversa, e quando o sol nasce atrás delas pintando o granito de cor-de-rosa fluorescente, entende-se por que tantos viajantes choram em silêncio diante do Mirador Base — o vento, o frio nas mãos e a luz se combinam num único instante que reorganiza prioridades." },
+      { title: "El Chaltén e Fitz Roy (Argentina)", story: "El Chaltén é uma vila de quatro ruas onde todos calçam botas e ninguém tem pressa — e o Fitz Roy é a razão. A caminhada até a Laguna de los Tres começa no café da manhã e termina diante de um anfiteatro de água glacial turquesa cercado por agulhas de granito que parecem desenhadas com régua. O último quilômetro é uma subida brutal de pedras soltas; o que se vê no topo dispensa fotografia." },
+      { title: "Geleira Perito Moreno", story: "São 5 quilômetros de frente glacial com 70 metros de altura — um muro azul vivo que respira, range e desaba em pedaços do tamanho de prédios dentro do Lago Argentino. Caminha-se em passarelas de madeira por horas só ouvindo: o estalo distante anuncia o desabamento minutos antes de acontecer, e o som do gelo batendo na água parece um trovão subaquático." },
+      { title: "Trilhas épicas (W, O, Circuito)", story: "O W são 5 dias clássicos entre vento, refúgios e três vales que cortam o maciço de Paine; o Circuito O acrescenta 4 dias pelo lado selvagem, atravessando o Passo John Gardner com vista aérea do Glaciar Grey. Carregar a própria mochila, dormir em barraca sob céu austral e acordar ao som do gelo é uma das experiências mais transformadoras que a montanha oferece no planeta." },
+      { title: "Navegação por fiordes e geleiras", story: "De Punta Arenas ou Puerto Natales, embarcações pequenas levam por fiordes onde só passam navios e baleias — Balmaceda, Serrano, Pío XI. Vê-se a geleira de proa, ouve-se o silêncio que só existe a 54° de latitude sul e, com sorte, condores cruzam por cima do barco como se inspecionassem a visita." }
     ],
     beyondUsual: [
       "Trekking em áreas menos visitadas da região.",
