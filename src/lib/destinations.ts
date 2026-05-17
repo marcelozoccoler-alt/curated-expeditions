@@ -81,7 +81,7 @@ export const destinations: Destination[] = [
     slug: "brasil/pantanal/norte",
     name: "Pantanal Norte (MT)",
     bestTime: "Mai–Out (seca) para avistamento de fauna; Nov–Mar (cheia) para paisagens alagadas e aves.",
-    tags: ["safari", "fotografia", "conservacao", "cavalgadas", "familia", "bem-estar"],
+    tags: ["safari", "fotografia", "conservacao", "cavalgadas", "familia", "bem-estar", "birdwatching"],
     imageAiPrompt: "Ultra realistic wildlife photo of a jaguar in the Pantanal wetlands at golden hour, professional telephoto look, no people.",
     imageOverrideUrl: "",
     intro: "O Pantanal Norte é o Brasil em forma de safári: vida selvagem, luz dourada e encontros que marcam. A diferença está na curadoria de ritmo e ética.",
