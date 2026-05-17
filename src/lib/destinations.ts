@@ -2114,11 +2114,11 @@ export const destinations: Destination[] = [
     imageOverrideUrl: "",
     intro: "Tradição e futuro convivem em harmonia: templos zen, gastronomia precisa e natureza reverenciada. Japão é sensorial em cada detalhe.",
     highlights: [
-      "Tóquio contemporânea",
-      "Kyoto tradicional e templos",
-      "Alpes japoneses e onsens",
-      "Gastronomia japonesa autêntica",
-      "Cerejeiras ou outono colorido"
+      { title: "Tóquio contemporânea", story: "Shibuya Crossing às 18h é o cruzamento mais movimentado do mundo — 3 mil pessoas atravessam em 30 segundos com sincronia coreográfica que parece ensaiada. Em Shinjuku, becos minúsculos do Omoide Yokocho servem yakitori grelhado em fumaça de carvão japonês com cerveja gelada; em Ginza, sushiya de oito lugares com chefs de avental branco preparam nigiri silenciosamente diante do cliente; e teamLab Planets transforma o corpo em parte de uma instalação digital imersiva inesquecível." },
+      { title: "Kyoto tradicional e templos", story: "O templo Fushimi Inari ao amanhecer (6h) é um corredor infinito de 10 mil torii vermelho-vivo subindo a montanha em curvas — caminha-se sozinho com o som apenas dos próprios passos e cigarras. O Kinkaku-ji dourado se reflete num espelho d'água perfeito; em Arashiyama, o bambuzal sussurra no vento; e em Gion, ao entardecer, gueixas atravessam ruas de pedra em direção a chá-de-cerimônia — o Japão eterno em três horas." },
+      { title: "Alpes japoneses e onsens", story: "Em Takayama e Shirakawa-go, casas de telhado triangular gassho-zukuri (mãos em oração) cobertas de neve no inverno parecem cenário de conto. Dorme-se em ryokan com tatami, futon e robe yukata, janta-se kaiseki de 10 pratos servidos no quarto pela okami e mergulha-se em onsen ao ar livre (rotenburo) com flocos de neve caindo nos ombros enquanto a água termal a 42°C aquece os ossos." },
+      { title: "Gastronomia japonesa autêntica", story: "Sushi omakase no Tsukiji externo onde o itamae corta o atum vendido horas antes; ramen de tonkotsu de Hakata cremoso e cheio de umami num balcão de 8 lugares em Fukuoka; okonomiyaki montado pelo cliente sobre teppan em Osaka; kaiseki em Kyoto onde a louça muda 12 vezes ao longo do jantar para combinar com a estação. Termina-se com matchá batido por um mestre num chá-de-cerimônia silencioso de 90 minutos." },
+      { title: "Cerejeiras ou outono colorido", story: "Hanami é o ritual de sentar sob as sakuras em flor (final de março a início de abril) com bentô e saquê — em Maruyama Park em Kyoto, lanternas iluminam as árvores à noite e milhares de pessoas celebram em silêncio respeitoso. No outono (novembro), os bordos do Tofuku-ji e os ginkgos amarelos do Meiji Jingu Gaien explodem em vermelho, laranja e amarelo — cinema natural que dura apenas duas semanas por ano." }
     ],
     beyondUsual: [
       "Ryokans em vilarejos remotos.",
@@ -2148,11 +2148,11 @@ export const destinations: Destination[] = [
     imageOverrideUrl: "",
     intro: "Palácios de marajás, cores vibrantes e hospitalidade ancestral. O Rajastão é a Índia em sua versão mais cinematográfica e intensa.",
     highlights: [
-      "Jaipur (Cidade Rosa)",
-      "Udaipur (Cidade dos Lagos)",
-      "Jodhpur (Cidade Azul)",
-      "Jaisalmer e o deserto do Thar",
-      "Palácios convertidos em hotéis"
+      { title: "Jaipur (Cidade Rosa)", story: "Toda Jaipur foi pintada de rosa-terracota em 1876 para receber o Príncipe de Gales — caminhar pelo Bazar Johari ao entardecer é mergulhar em tecidos de seda bordados a ouro, joias de pedra colorida e elefantes pintados a mão para festivais. O Hawa Mahal, palácio de fachada de favo de mel com 953 janelas, foi construído para as mulheres reais observarem a rua sem serem vistas; o Forte Amber, no alto, exige subida de elefante por escadarias seculares." },
+      { title: "Udaipur (Cidade dos Lagos)", story: "Sete lagos artificiais conectados refletem o Lake Palace, hotel branco de mármore que parece flutuar sobre a água do Lago Pichola — chega-se de barco, janta-se no terraço com músicos de sitar e dorme-se em suítes onde marajás viviam. Ao entardecer, do Sajjangarh Monsoon Palace nos morros, vê-se Udaipur inteira dourada com o reflexo das luzes do palácio na água — talvez a cidade mais romântica da Índia." },
+      { title: "Jodhpur (Cidade Azul)", story: "Do alto do Mehrangarh Fort, fortaleza de pedra vermelha que se eleva 122m da rocha, vê-se Jodhpur em câmera fotográfica: milhares de casas pintadas de azul-índigo (originalmente cor da casta brâmane, depois adotada por todos por refletir calor e repelir insetos). Desce-se a pé pelas vielas labirínticas até a Sardar Market, onde se compra especiarias, prova-se mirchi vada apimentado e ouve-se o muezzin misturado a sinos hindus." },
+      { title: "Jaisalmer e o deserto do Thar", story: "Jaisalmer é a 'Cidade Dourada' — uma fortaleza viva inteira esculpida em arenito amarelo onde 3.000 pessoas ainda moram dentro das muralhas medievais. Sai-se de jipe ao entardecer pelo deserto do Thar, troca-se para camelos nas dunas Sam, vê-se o sol se pôr sobre areia rosada infinita e dorme-se em camp de luxo com tendas de tecido bordado, jantar com música rajastani e céu de estrelas absoluto." },
+      { title: "Palácios convertidos em hotéis", story: "Heritage hotels permitem dormir literalmente nos palácios da realeza: Taj Lake Palace flutuando em Udaipur, Rambagh Palace em Jaipur (residência do Marajá Sawai Man Singh II), Umaid Bhawan em Jodhpur (último grande palácio construído na Índia, ainda parte residência real). Aposentos com afrescos originais, jardins mughal, banhos turcos privados e serviço de mordomo de turbante — viagem no tempo com conforto contemporâneo." }
     ],
     beyondUsual: [
       "Estadias em heritage hotels fora do circuito óbvio.",
@@ -2182,11 +2182,11 @@ export const destinations: Destination[] = [
     imageOverrideUrl: "",
     intro: "Espiritualidade, arrozais e praias: Bali equilibra introspecção e aventura. Um destino para quem busca reconexão com cuidado e estética.",
     highlights: [
-      "Ubud e seus arrozais",
-      "Templos hindus icônicos",
-      "Praias e surf no sul",
-      "Vulcões e trilhas",
-      "Bem-estar e retiros"
+      { title: "Ubud e seus arrozais", story: "Os terraços de Tegallalang descem em escadaria verde-fluorescente esculpida há mais de mil anos pelo sistema subak (irrigação coletiva sagrada, patrimônio UNESCO). Caminha-se por trilhas estreitas entre os campos enquanto camponeses de chapéu cônico plantam mudas e patos correm livres comendo insetos; ao entardecer, janta-se em restaurantes suspensos sobre arrozais ouvindo gamelão balinês ao fundo." },
+      { title: "Templos hindus icônicos", story: "Tanah Lot é um templo do século XVI sobre uma rocha cercada pelo mar — só se atravessa na maré baixa, e ao pôr do sol a silhueta contra o céu laranja é a foto-cartão de Bali. Uluwatu, sobre penhascos de 70m, oferece a dança kecak ao entardecer com 100 homens entoando 'cak cak cak' em transe. Em Besakih, o Templo Mãe nas encostas do vulcão Agung, descalço entre fiéis em sarong com oferendas." },
+      { title: "Praias e surf no sul", story: "Uluwatu, Padang Padang e Bingin têm algumas das melhores ondas direitas do planeta — surfistas de elite voam de todo lugar para encarar tubos perfeitos sobre coral raso. Quem não surfa, observa de beach clubs cravados em penhascos (Single Fin, Ulu Cliffhouse) com cocktails ao pôr do sol; em Canggu, ambiente mais hipster com cafés de specialty coffee, surfistas casuais e festas até o amanhecer." },
+      { title: "Vulcões e trilhas", story: "Sobe-se o Monte Batur (1.717m) começando às 3h da manhã com lanternas de cabeça, em fila silenciosa de 200 trekkers, para chegar ao cume no minuto em que o sol nasce atrás do Monte Agung — toma-se café da manhã com ovos cozidos no vapor das fumarolas vulcânicas. Para mais selvagem, o Monte Agung exige guia espiritual hindu, 7 horas de subida e descida no escuro com vista de Lombok ao amanhecer." },
+      { title: "Bem-estar e retiros", story: "Ubud é o epicentro mundial do bem-estar — retiros de yoga 5 dias, terapias balinesas com flores frescas, cerimônias de purificação (melukat) em fontes sagradas com sacerdotes hindus, healers tradicionais (balian) que diagnosticam pelo pulso, jejum com sucos verdes e meditação ao amanhecer em pavilhões sobre o rio. Spas como Como Shambhala oferecem ayurveda em open-air pavilions cercados por selva e cantos de pássaros." }
     ],
     beyondUsual: [
       "Áreas menos turísticas no norte e leste.",
@@ -2216,11 +2216,11 @@ export const destinations: Destination[] = [
     imageOverrideUrl: "",
     intro: "Camadas milenares entre Jerusalém, Tel Aviv, o Mar Morto e o deserto do Negev. Israel é uma viagem de espiritualidade, arquitetura, vinhos e gastronomia contemporânea — densa em significado e em sabor.",
     highlights: [
-      "Cidade Antiga de Jerusalém e seus quarteirões",
-      "Tel Aviv: Bauhaus, praia e cena gastronômica",
-      "Mar Morto e suas paisagens lunares",
-      "Massada ao amanhecer",
-      "Vinícolas e mercados (Mahane Yehuda, Carmel)"
+      { title: "Cidade Antiga de Jerusalém e seus quarteirões", story: "Dentro das muralhas otomanas de 1538, quatro quarteirões (judeu, cristão, muçulmano e armênio) coexistem em 1 km². Toca-se a pedra do Muro das Lamentações sentindo bilhetes de orações entre as fendas; segue-se a Via Dolorosa pelos 14 estações da Paixão até a Igreja do Santo Sepulcro, onde gregos, católicos e armênios partilham o mesmo altar; escuta-se o muezzin do Domo da Rocha dourado e o sino das igrejas simultaneamente — sobrepostos por 3 mil anos." },
+      { title: "Tel Aviv: Bauhaus, praia e cena gastronômica", story: "Tel Aviv tem 4.000 edifícios Bauhaus dos anos 30 (a 'Cidade Branca', UNESCO) — passeia-se de bicicleta pelo Boulevard Rothschild entre cafés sob ficus e janta-se hummus no Abu Hassan em Jaffa, considerado o melhor do mundo. À noite, o Carmel Market vira street food com chefs israelenses contemporâneos (Eyal Shani, Assaf Granit), e o Mediterrâneo banha 14 km de praia urbana com vôlei até a meia-noite." },
+      { title: "Mar Morto e suas paisagens lunares", story: "A 430m abaixo do nível do mar — ponto mais baixo da Terra — flutua-se sem esforço sobre água tão salgada (33%) que se lê jornal sentado, pingando para baixo. Cobre-se o corpo com lama negra rica em minerais que vendem por dezenas em spas no mundo todo, deixa-se secar ao sol e enxágua-se em águas terapêuticas que tratam psoríase e artrite. Ao redor, montanhas de calcário com tons rosa e amarelo formam paisagem de outro planeta." },
+      { title: "Massada ao amanhecer", story: "Sobe-se a fortaleza herodiana de Massada (450m sobre o deserto) pelo Snake Path em 45 min no escuro absoluto, chegando ao topo no momento exato em que o sol explode atrás das montanhas da Jordânia, iluminando o Mar Morto abaixo em prata derretida. Caminha-se entre as ruínas dos palácios de Herodes e da última resistência judaica contra Roma (73 d.C.) com guia israelense que conta a história em silêncio quase místico." },
+      { title: "Vinícolas e mercados (Mahane Yehuda, Carmel)", story: "Mahane Yehuda em Jerusalém, ao entardecer de sexta-feira, é um furacão sensorial: vendedores gritando preços de halva fresco, montanhas de tâmaras Medjool, peixe do dia, especiarias amontoadas em tons terra. À noite vira bar-hopping de pubs nas mesmas barracas. As vinícolas da Galileia (Galil Mountain, Tabor) e do Judean Hills produzem cabernet e syrah premiados — visita-se com almoço de queijo de cabra e azeite local." }
     ],
     beyondUsual: [
       "Tour gastronômico noturno em Tel Aviv com chef local.",
@@ -2250,11 +2250,11 @@ export const destinations: Destination[] = [
     imageOverrideUrl: "",
     intro: "Dois universos que se completam: a Tailândia vibrante com Bangkok, Chiang Mai e suas praias paradisíacas, e o Camboja sagrado com a grandiosidade milenar de Angkor. Um conjugado que combina contraste, espiritualidade, gastronomia e descanso à beira-mar.",
     highlights: [
-      "Templos e mercados de Bangkok",
-      "Chiang Mai e o norte com cultura lana",
-      "Phuket, Krabi ou Koh Samui para descanso",
-      "Amanhecer em Angkor Wat",
-      "Templos de Ta Prohm e Bayon em Siem Reap"
+      { title: "Templos e mercados de Bangkok", story: "O Wat Pho abriga um Buda Reclinado de 46 metros coberto em folha de ouro com olhos e pés em madrepérola; ao lado, o Grand Palace deslumbra com telhados pontudos em mosaico de vidro colorido que reflete o sol como diamantes. À noite, Chatuchak ou os mercados flutuantes de Damnoen Saduak — sampans cheias de mangostões, durians, pad thai feito na hora num wok sobre o barco — completam o caos sensorial perfeito de Bangkok." },
+      { title: "Chiang Mai e o norte com cultura lana", story: "Cercada por 117 templos, Chiang Mai tem ritmo lento que a capital perdeu. O Doi Suthep dourado oferece vista da cidade entre montanhas verdes; santuários éticos de elefantes (Elephant Nature Park) permitem alimentar e banhar paquidermes resgatados sem montaria. À noite, Sunday Walking Street fecha o centro histórico para artesanato hill-tribe, massagem por monges cegos e khao soi (curry noodle do norte) numa banca de plástico." },
+      { title: "Phuket, Krabi ou Koh Samui para descanso", story: "Krabi e suas baías Phang Nga — penhascos verticais de calcário cobertos de selva emergindo de águas verde-jade onde se navega de longtail boat entre grutas escondidas com praias só acessíveis na maré certa. Koh Phi Phi para festas e Maya Bay; Koh Samui para resorts mais sofisticados. Koh Lipe é a 'Maldivas tailandesa' — água tão transparente que se vê os pés a 5 metros de profundidade." },
+      { title: "Amanhecer em Angkor Wat", story: "Chega-se às 5h da manhã ainda escuro, atravessa-se a ponte de pedra sobre o fosso de 200m e senta-se diante do espelho d'água — quando o sol nasce atrás dos cinco torres de Angkor Wat (1113 d.C., maior estrutura religiosa do mundo), a silhueta se duplica no reflexo perfeito enquanto o céu passa do azul ao laranja em 20 minutos. Depois entra-se nos baixo-relevos de 800m que narram batalhas hindus em pedra esculpida." },
+      { title: "Templos de Ta Prohm e Bayon em Siem Reap", story: "Ta Prohm é o templo onde a selva venceu — raízes gigantes de sumaúmas centenárias abraçam, esmagam e atravessam as paredes de arenito esculpido, criando o cenário que inspirou Tomb Raider. Bayon, no centro de Angkor Thom, exibe 216 rostos colossais sorrindo do alto de 54 torres em todas as direções — caminhar entre eles ao entardecer com poucos turistas é uma das experiências mais místicas do Sudeste Asiático." }
     ],
     beyondUsual: [
       "Aula de culinária tailandesa com chef em casa de família em Chiang Mai.",
@@ -2284,11 +2284,11 @@ export const destinations: Destination[] = [
     imageOverrideUrl: "",
     intro: "Atóis de areia branca sobre lagoas de turquesa irreal, bangalôs sobre as águas e silêncio absoluto. Maldivas é o destino-ícone do descanso de luxo — perfeito para luas de mel, retiros e imersões em vida marinha.",
     highlights: [
-      "Bangalôs sobre as águas em resorts privados",
-      "Mergulho e snorkel em recifes de coral",
-      "Encontros com tubarões-baleia e mantas",
-      "Spas com curadoria over-water",
-      "Jantares privados em ilhotas desertas"
+      { title: "Bangalôs sobre as águas em resorts privados", story: "Acorda-se com a luz refletida do oceano dançando no teto de madeira, abre-se a porta corrediça do quarto para uma plataforma privada e desce-se a escada direto na laguna turquesa onde se vê o próprio fundo. Resorts como Soneka Jani, Cheval Blanc Randheli ou Velaa oferecem mordomo 24h, jantar romântico na praia com mesa iluminada por velas na areia e villa pieds-dans-l'eau que define o luxo tropical contemporâneo." },
+      { title: "Mergulho e snorkel em recifes de coral", story: "As Maldivas têm 26 atóis com 2.000 recifes — basta sair da escada do bangalô e nadar 20 metros para ver tartarugas-verdes pastando, peixe-papagaio coloridos, moréias e cardumes de jacks. Sites como Banana Reef em North Malé ou Maaya Thila têm visibilidade de 30m+ e biodiversidade rivalizando com Galápagos; cruzeiros de mergulho de uma semana percorrem manta points, swim-throughs em paredes verticais e mergulhos noturnos com tubarões-de-recife." },
+      { title: "Encontros com tubarões-baleia e mantas", story: "No Atol Baa (UNESCO), a baía de Hanifaru concentra plâncton em correntes específicas atraindo dezenas de mantas oceânicas com até 7m de envergadura — nada-se ao lado delas em snorkel enquanto fazem barrel rolls para se alimentar. De agosto a novembro, tubarões-baleia de 12 metros aparecem para se alimentar do mesmo plâncton; nadar ao lado do maior peixe do mundo, completamente inofensivo, é desconcertante e inesquecível." },
+      { title: "Spas com curadoria over-water", story: "Spas como o COMO Shambhala em Maalifushi ou o spa do Six Senses Laamu são pavilhões de madeira sobre a laguna com piso de vidro através do qual se vê corais e peixes durante a massagem. Tratamentos com óleos balineses, terapias ayurvédicas com médicos indianos residentes, yoga ao amanhecer em decks com vista de 360° de oceano — bem-estar elevado ao luxo absoluto." },
+      { title: "Jantares privados em ilhotas desertas", story: "Resorts levam casais de speedboat até bancos de areia desertos no meio do oceano — uma ilhota que aparece e desaparece com a maré, onde aguarda mesa para dois iluminada por lanternas, champagne no balde, chef preparando lagosta na grelha sob estrelas. Sem outras pessoas em raio de quilômetros, apenas o som de ondas batendo na areia branca; experiência cinematográfica de uma vida só." }
     ],
     beyondUsual: [
       "Charter de iate privado entre atóis remotos, fora do circuito de resorts.",
