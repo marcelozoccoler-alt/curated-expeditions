@@ -225,6 +225,29 @@ const Incoming = () => {
         </div>
       </section>
 
+      {/* Expertise — full Brazil coverage */}
+      <section className="py-20 lg:py-28 bg-muted/30">
+        <div className="container-editorial max-w-4xl">
+          <h2 className="font-serif text-3xl md:text-4xl mb-6 text-foreground">
+            {copy.expertise.heading}
+          </h2>
+          <p className="text-lg leading-relaxed text-muted-foreground mb-10">
+            {copy.expertise.lead}
+          </p>
+          <p className="text-xs uppercase tracking-[0.25em] text-gold mb-4">
+            {copy.expertise.destinationsLabel}
+          </p>
+          <p className="text-base leading-relaxed text-foreground/90 mb-10">
+            {copy.expertise.destinations}
+          </p>
+          <div className="border-l-2 border-gold pl-6 py-2">
+            <p className="text-base md:text-lg leading-relaxed text-muted-foreground italic">
+              {copy.expertise.biomes}
+            </p>
+          </div>
+        </div>
+      </section>
+
       {/* Final CTA */}
       <section className="py-20 lg:py-28">
         <div className="container-editorial max-w-2xl text-center">
