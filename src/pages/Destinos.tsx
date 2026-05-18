@@ -214,6 +214,10 @@ const Destinos = () => {
     })),
   };
 
+  // BreadcrumbList: sempre canônico — não inclui ?page=, ?continent=, ?tags=
+  // nem qualquer filtro. Google recomenda apontar para a categoria raiz
+  // independentemente da paginação/filtros ativos. Paginação é sinalizada
+  // separadamente via rel=prev/next no <SEO/>.
   const breadcrumbLd = {
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",
