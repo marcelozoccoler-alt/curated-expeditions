@@ -67,22 +67,22 @@ export const getDestinosSEO = (state: DestinosSearchState, totalPages: number) =
   let description: string;
 
   if (continent === "todos" && tags.length === 0) {
-    title = "Destinos com curadoria — Create Travel";
+    title = "Pacotes de viagem com curadoria — Create Travel";
     description =
-      "Biblioteca de destinos selecionados pela Create Travel. Brasil, América do Sul, África, Europa e mais — viagens autênticas e com propósito.";
+      "Pacotes de viagem selecionados pela Create Travel. Brasil, América do Sul, África, Europa e mais — roteiros autênticos e com propósito.";
   } else if (continentName && tags.length === 0) {
-    title = `Destinos em ${continentName} — Create Travel`;
-    description = `Curadoria de destinos em ${continentName}: roteiros autênticos, exclusivos e com propósito. Inspire-se e crie sua próxima viagem com a Create Travel.`;
+    title = `Pacotes de viagem para ${continentName} — Create Travel`;
+    description = `Curadoria de pacotes de viagem em ${continentName}: roteiros autênticos, exclusivos e com propósito. Inspire-se e crie sua próxima viagem com a Create Travel.`;
   } else if (singleTagLabel && continent === "todos") {
-    title = `${singleTagLabel} — Destinos selecionados — Create Travel`;
-    description = `Destinos ideais para ${singleTagLabel.toLowerCase()}, com curadoria Create Travel. Viagens com profundidade, ética e luxo discreto.`;
+    title = `${singleTagLabel} — Pacotes de viagem selecionados — Create Travel`;
+    description = `Pacotes de viagem ideais para ${singleTagLabel.toLowerCase()}, com curadoria Create Travel. Viagens com profundidade, ética e luxo discreto.`;
   } else if (continentName && singleTagLabel) {
-    title = `${singleTagLabel} em ${continentName} — Create Travel`;
-    description = `Destinos em ${continentName} com foco em ${singleTagLabel.toLowerCase()}. Curadoria Create Travel para viagens com propósito.`;
+    title = `${singleTagLabel} em ${continentName} — Pacotes Create Travel`;
+    description = `Pacotes de viagem em ${continentName} com foco em ${singleTagLabel.toLowerCase()}. Curadoria Create Travel para viagens com propósito.`;
   } else {
-    title = "Destinos — Create Travel";
+    title = "Pacotes de viagem — Create Travel";
     description =
-      "Resultados filtrados na biblioteca de destinos Create Travel. Curadoria de viagens autênticas e exclusivas.";
+      "Resultados filtrados na biblioteca de pacotes de viagem Create Travel. Curadoria de viagens autênticas e exclusivas.";
   }
 
   if (page > 1) {
