@@ -18,9 +18,10 @@ const Guia = () => {
 
   if (!niche) return <Navigate to="/" replace />;
 
-  const destinations = niche.destinationSlugs
+  const destinations = (niche.destinationSlugs
     .map((s) => getDestinationBySlug(s))
-    .filter(Boolean) as ReturnType<typeof getDestinationBySlug>[];
+    .filter(Boolean) as ReturnType<typeof getDestinationBySlug>[])
+    .sort((a, b) => a!.name.localeCompare(b!.name, "pt-BR"));
   const recommendedStays = stays.filter((s) => niche.staySlugs.includes(s.slug));
 
   const whatsappParams = {
