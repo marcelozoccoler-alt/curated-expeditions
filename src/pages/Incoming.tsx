@@ -72,6 +72,7 @@ const Incoming = () => {
         <meta property="og:url" content={`${SITE_URL}/${lang}/incoming`} />
         <meta property="og:type" content="website" />
         <script type="application/ld+json">{JSON.stringify(jsonLd)}</script>
+        <script type="application/ld+json">{JSON.stringify(faqJsonLd)}</script>
       </Helmet>
       <HreflangTags basePath="/incoming" />
 
