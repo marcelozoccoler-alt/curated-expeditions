@@ -1,15 +1,15 @@
-import { useState } from "react";
+import { useState, useMemo } from "react";
 import { motion, AnimatePresence } from "framer-motion";
-import { MapPin, X } from "lucide-react";
+import { MapPin, X, ChevronRight } from "lucide-react";
 import type { Lang } from "@/i18n/config";
 import { BIOMES, BIOMES_BY_ID, type BiomeId } from "@/lib/biomes";
 import { INCOMING_DESTINATIONS } from "@/lib/incomingDestinations";
-import { BRAZIL_OUTLINE, BIOME_REGION_PATHS, DEST_COORDS, PANTANAL_PATH } from "@/lib/brazilGeo";
+import { BRAZIL_OUTLINE, BIOME_REGION_PATHS, PANTANAL_PATH } from "@/lib/brazilGeo";
 
 /**
- * Brazil map by biomes — built from real GeoJSON (Brazilian state borders)
- * projected into a 600×700 viewBox via equirectangular projection.
- * Biome regions are state-grouped (editorial, not survey-grade).
+ * Brazil map by biomes — biome regions are labeled directly on the map.
+ * Destinations live inside each biome's expanded legend card with a
+ * sensory blurb that entices the traveler.
  */
 const BIOME_PATHS: Record<BiomeId, string> = {
   amazonia: BIOME_REGION_PATHS["amazonia"],
@@ -18,8 +18,18 @@ const BIOME_PATHS: Record<BiomeId, string> = {
   "mata-atlantica": BIOME_REGION_PATHS["mata-atlantica"],
   pantanal: PANTANAL_PATH,
   pampa: BIOME_REGION_PATHS["pampa"],
-  // Costa is implicit along the coastline (no fill region)
   costa: "",
+};
+
+/** Map-label centroid per biome (viewBox 600x700). */
+const BIOME_LABEL_POS: Record<BiomeId, { x: number; y: number; anchor?: "start" | "middle" | "end" }> = {
+  amazonia: { x: 215, y: 215 },
+  cerrado: { x: 380, y: 360 },
+  "mata-atlantica": { x: 470, y: 495 },
+  caatinga: { x: 490, y: 280 },
+  pantanal: { x: 252, y: 410 },
+  pampa: { x: 318, y: 615 },
+  costa: { x: 580, y: 380, anchor: "end" },
 };
 
 interface Props {
@@ -34,12 +44,24 @@ export const BrazilBiomeMap = ({ lang }: Props) => {
     ? INCOMING_DESTINATIONS.find((d) => d.slug === activeDestSlug) || null
     : null;
 
-  const labels: Record<Lang, { fauna: string; flora: string; wow: string; tap: string; close: string }> = {
-    pt: { fauna: "Fauna", flora: "Flora", wow: "O uau do lugar", tap: "Toque um destino para descobrir", close: "Fechar" },
-    en: { fauna: "Wildlife", flora: "Flora", wow: "The wow of the place", tap: "Tap a destination to discover it", close: "Close" },
-    es: { fauna: "Fauna", flora: "Flora", wow: "El asombro del lugar", tap: "Toca un destino para descubrir", close: "Cerrar" },
-    it: { fauna: "Fauna", flora: "Flora", wow: "La meraviglia del luogo", tap: "Tocca una destinazione per scoprirla", close: "Chiudi" },
-    de: { fauna: "Tierwelt", flora: "Flora", wow: "Das Wow des Ortes", tap: "Tippe ein Reiseziel an, um es zu entdecken", close: "Schließen" },
+  const destsByBiome = useMemo(() => {
+    const map: Record<BiomeId, typeof INCOMING_DESTINATIONS> = {
+      amazonia: [], cerrado: [], "mata-atlantica": [], caatinga: [],
+      pantanal: [], pampa: [], costa: [],
+    };
+    for (const d of INCOMING_DESTINATIONS) map[d.biome].push(d);
+    return map;
+  }, []);
+
+  const labels: Record<Lang, {
+    fauna: string; flora: string; wow: string; tap: string; close: string;
+    destinations: string; discover: string;
+  }> = {
+    pt: { fauna: "Fauna", flora: "Flora", wow: "O uau do lugar", tap: "Toque um bioma no mapa ou na legenda", close: "Fechar", destinations: "Destinos deste bioma", discover: "Descobrir" },
+    en: { fauna: "Wildlife", flora: "Flora", wow: "The wow of the place", tap: "Tap a biome on the map or in the legend", close: "Close", destinations: "Destinations in this biome", discover: "Discover" },
+    es: { fauna: "Fauna", flora: "Flora", wow: "El asombro del lugar", tap: "Toca un bioma en el mapa o en la leyenda", close: "Cerrar", destinations: "Destinos de este bioma", discover: "Descubrir" },
+    it: { fauna: "Fauna", flora: "Flora", wow: "La meraviglia del luogo", tap: "Tocca un bioma sulla mappa o nella legenda", close: "Chiudi", destinations: "Destinazioni in questo bioma", discover: "Scopri" },
+    de: { fauna: "Tierwelt", flora: "Flora", wow: "Das Wow des Ortes", tap: "Tippe ein Biom auf der Karte oder in der Legende an", close: "Schließen", destinations: "Reiseziele in diesem Biom", discover: "Entdecken" },
   };
   const L = labels[lang];
 
@@ -75,6 +97,7 @@ export const BrazilBiomeMap = ({ lang }: Props) => {
             {/* Biome regions, clipped to Brazil */}
             <g clipPath="url(#brazil-clip)">
               {BIOMES.map((b) => {
+                if (!BIOME_PATHS[b.id]) return null;
                 const isActive = activeBiome === b.id;
                 const isDimmed = activeBiome !== null && !isActive;
                 return (
@@ -82,7 +105,7 @@ export const BrazilBiomeMap = ({ lang }: Props) => {
                     key={b.id}
                     d={BIOME_PATHS[b.id]}
                     fill={b.color}
-                    opacity={isDimmed ? 0.25 : 0.78}
+                    opacity={isDimmed ? 0.2 : 0.82}
                     onMouseEnter={() => setActiveBiome(b.id)}
                     onMouseLeave={() => setActiveBiome(null)}
                     onClick={() => setActiveBiome(isActive ? null : b.id)}
@@ -101,65 +124,41 @@ export const BrazilBiomeMap = ({ lang }: Props) => {
               strokeLinejoin="round"
             />
 
-            {/* Destination pins. Per-slug label placement avoids NE/Noronha collisions. */}
-            {(() => {
-              const LABEL_OVERRIDES: Record<string, { dx: number; dy: number; anchor: "start" | "end" | "middle" }> = {
-                "fernando-de-noronha": { dx: -10, dy: 4, anchor: "end" },
-                "jericoacoara": { dx: 10, dy: -6, anchor: "start" },
-                "lencois-maranhenses": { dx: 10, dy: 4, anchor: "start" },
-                "rota-emocoes": { dx: -10, dy: 14, anchor: "end" },
-                "alter-do-chao": { dx: 10, dy: -6, anchor: "start" },
-                "amazon": { dx: -10, dy: 4, anchor: "end" },
-                "maragogi": { dx: 10, dy: 4, anchor: "start" },
-                "chapada-diamantina": { dx: -10, dy: -6, anchor: "end" },
-                "bahia": { dx: 10, dy: 8, anchor: "start" },
-                "chapada-dos-veadeiros": { dx: -10, dy: 4, anchor: "end" },
-                "jalapao": { dx: -10, dy: 4, anchor: "end" },
-              };
-              const DEFAULT_LABEL = { dx: 10, dy: 4, anchor: "start" as const };
-              return INCOMING_DESTINATIONS.map((d) => {
-                const biome = BIOMES_BY_ID[d.biome];
-                const isActive = activeDestSlug === d.slug;
-                const isHighlighted = activeBiome === null || activeBiome === d.biome;
-                const pos = DEST_COORDS[d.slug] ?? d.map;
-                const label = LABEL_OVERRIDES[d.slug] ?? DEFAULT_LABEL;
-                return (
-                  <g
-                    key={d.slug}
-                    transform={`translate(${pos.x} ${pos.y})`}
-                    onClick={(e) => {
-                      e.stopPropagation();
-                      setActiveDestSlug(d.slug);
+            {/* Biome name labels on the map */}
+            {BIOMES.map((b) => {
+              const pos = BIOME_LABEL_POS[b.id];
+              if (!pos) return null;
+              const isActive = activeBiome === b.id;
+              const isDimmed = activeBiome !== null && !isActive;
+              return (
+                <g
+                  key={`label-${b.id}`}
+                  transform={`translate(${pos.x} ${pos.y})`}
+                  onMouseEnter={() => setActiveBiome(b.id)}
+                  onMouseLeave={() => setActiveBiome(null)}
+                  onClick={() => setActiveBiome(isActive ? null : b.id)}
+                  className="cursor-pointer transition-opacity duration-300"
+                  opacity={isDimmed ? 0.35 : 1}
+                >
+                  <text
+                    textAnchor={pos.anchor ?? "middle"}
+                    fontSize={isActive ? 15 : 13}
+                    fontFamily="'Playfair Display', serif"
+                    fontWeight={600}
+                    fill="hsl(var(--foreground))"
+                    style={{
+                      paintOrder: "stroke",
+                      stroke: "hsl(var(--background))",
+                      strokeWidth: 4,
+                      strokeLinejoin: "round",
+                      letterSpacing: "0.02em",
                     }}
-                    onMouseEnter={() => setActiveBiome(d.biome)}
-                    onMouseLeave={() => setActiveBiome(null)}
-                    className="cursor-pointer"
-                    opacity={isHighlighted ? 1 : 0.3}
                   >
-                    <circle
-                      r={isActive ? 9 : 6}
-                      fill="hsl(var(--gold))"
-                      stroke={biome.color}
-                      strokeWidth="2"
-                      className="transition-all duration-200"
-                    />
-                    <circle r={2.5} fill="hsl(var(--primary))" />
-                    <text
-                      x={label.dx}
-                      y={label.dy}
-                      textAnchor={label.anchor}
-                      fontSize="11"
-                      fontFamily="Inter, sans-serif"
-                      fontWeight={isActive ? 600 : 500}
-                      fill="hsl(var(--foreground))"
-                      style={{ paintOrder: "stroke", stroke: "hsl(var(--background))", strokeWidth: 3, strokeLinejoin: "round" }}
-                    >
-                      {d.name[lang]}
-                    </text>
-                  </g>
-                );
-              });
-            })()}
+                    {b.name[lang]}
+                  </text>
+                </g>
+              );
+            })}
           </svg>
         </div>
 
@@ -205,26 +204,33 @@ export const BrazilBiomeMap = ({ lang }: Props) => {
         <div className="space-y-2">
           {BIOMES.map((b) => {
             const isActive = activeBiome === b.id;
+            const biomeDests = destsByBiome[b.id];
             return (
-              <button
+              <div
                 key={b.id}
-                onMouseEnter={() => setActiveBiome(b.id)}
-                onMouseLeave={() => setActiveBiome(null)}
-                onClick={() => setActiveBiome(isActive ? null : b.id)}
-                className={`w-full text-left rounded-md border transition-all overflow-hidden ${
-                  isActive ? "border-gold shadow-md" : "border-border hover:border-foreground/30"
+                className={`w-full rounded-md border transition-all overflow-hidden ${
+                  isActive ? "border-gold shadow-md" : "border-border"
                 }`}
               >
-                <div className="flex items-center gap-3 p-3">
-                  <span
-                    className="w-5 h-5 rounded-sm flex-shrink-0"
-                    style={{ backgroundColor: b.color }}
-                    aria-hidden
-                  />
-                  <span className="font-serif text-base text-foreground flex-1">
-                    {b.name[lang]}
-                  </span>
-                </div>
+                <button
+                  onMouseEnter={() => setActiveBiome(b.id)}
+                  onClick={() => setActiveBiome(isActive ? null : b.id)}
+                  className="w-full text-left hover:bg-muted/40 transition-colors"
+                >
+                  <div className="flex items-center gap-3 p-3">
+                    <span
+                      className="w-5 h-5 rounded-sm flex-shrink-0"
+                      style={{ backgroundColor: b.color }}
+                      aria-hidden
+                    />
+                    <span className="font-serif text-base text-foreground flex-1">
+                      {b.name[lang]}
+                    </span>
+                    <span className="text-[10px] uppercase tracking-wider text-muted-foreground">
+                      {biomeDests.length}
+                    </span>
+                  </div>
+                </button>
                 <AnimatePresence initial={false}>
                   {isActive && (
                     <motion.div
@@ -256,11 +262,52 @@ export const BrazilBiomeMap = ({ lang }: Props) => {
                           </p>
                           <p className="text-foreground leading-relaxed">{b.wow[lang]}</p>
                         </div>
+
+                        {biomeDests.length > 0 && (
+                          <div className="pt-2 border-t border-border/60">
+                            <p className="text-[10px] uppercase tracking-[0.2em] text-muted-foreground mb-2">
+                              {L.destinations}
+                            </p>
+                            <ul className="space-y-1.5">
+                              {biomeDests.map((d) => (
+                                <li key={d.slug}>
+                                  <button
+                                    onClick={(e) => {
+                                      e.stopPropagation();
+                                      setActiveDestSlug(d.slug);
+                                    }}
+                                    className="group w-full flex items-start gap-3 text-left rounded-md p-2 -mx-2 hover:bg-muted/60 transition-colors"
+                                  >
+                                    <img
+                                      src={d.image}
+                                      alt={d.name[lang]}
+                                      className="w-12 h-12 object-cover rounded-sm flex-shrink-0"
+                                      loading="lazy"
+                                    />
+                                    <span className="flex-1 min-w-0">
+                                      <span className="block font-serif text-sm text-foreground leading-tight">
+                                        {d.name[lang]}
+                                      </span>
+                                      <span className="block text-xs text-muted-foreground leading-snug line-clamp-2 mt-0.5">
+                                        {d.blurb[lang]}
+                                      </span>
+                                    </span>
+                                    <ChevronRight
+                                      size={14}
+                                      className="text-muted-foreground group-hover:text-gold transition-colors mt-1 flex-shrink-0"
+                                      aria-label={L.discover}
+                                    />
+                                  </button>
+                                </li>
+                              ))}
+                            </ul>
+                          </div>
+                        )}
                       </div>
                     </motion.div>
                   )}
                 </AnimatePresence>
-              </button>
+              </div>
             );
           })}
         </div>
