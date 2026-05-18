@@ -58,8 +58,8 @@ const BrasilEstado = () => {
   return (
     <>
       <SEO
-        title={`${state.name} | Destinos e roteiros Create Travel`}
-        description={state.metaDescription}
+        title={`Pacote de viagem para ${state.name} — Roteiros Create Travel`}
+        description={`Pacote de viagem para ${state.name} com curadoria Create Travel. ${state.metaDescription}`.slice(0, 300)}
         canonicalPath={`/brasil/${state.slug}`}
         ogImage={state.heroImageUrl}
         ogType="article"

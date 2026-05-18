@@ -53,11 +53,11 @@ const HospedagemDetail = () => {
   const tagLabels = tags.map((t) => t.label);
 
   const seoTitle = dest
-    ? `${stay.name} — Hospedagem em ${dest.region}, ${dest.country} | Create Travel`
-    : `${stay.name} — Hospedagem com curadoria | Create Travel`;
+    ? `Pacote de viagem com hospedagem no ${stay.name} — ${dest.region}, ${dest.country} | Create Travel`
+    : `Pacote de viagem com hospedagem no ${stay.name} — Curadoria Create Travel`;
   const whyClean = stay.whySelected.replace(/\s+/g, " ").trim();
   const seoDescription =
-    `${whyClean.slice(0, 130)} Curadoria Create Travel. Ideal para ${tagLabels.slice(0, 3).join(", ").toLowerCase()}.`.slice(0, 300);
+    `Pacote de viagem com hospedagem no ${stay.name}${dest ? `, ${dest.country}` : ""}. ${whyClean.slice(0, 110)} Roteiro Create Travel ideal para ${tagLabels.slice(0, 3).join(", ").toLowerCase()}.`.slice(0, 300);
 
   const faqSchema = {
     "@context": "https://schema.org",
