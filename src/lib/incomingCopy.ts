@@ -20,6 +20,11 @@ export interface IncomingCopy {
     heading: string;
     subheading: string;
   };
+  biomesMap: {
+    eyebrow: string;
+    heading: string;
+    subheading: string;
+  };
   process: {
     heading: string;
     subheading: string;
