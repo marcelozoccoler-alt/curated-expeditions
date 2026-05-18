@@ -117,6 +117,32 @@ export const INCOMING_COPY: Record<Exclude<Lang, "pt">, IncomingCopy> = {
         "Tell us when you'd like to come and we'll come back with a proposal in 48 hours.",
       button: "Start on WhatsApp",
     },
+    faqs: {
+      heading: "Brazil trip planning — your questions answered",
+      subheading: "Honest answers from the team that builds your trip.",
+      items: [
+        {
+          q: "How much does a tailor-made Brazil trip cost with Create Travel?",
+          a: "We don't sell off-the-shelf packages, so there's no fixed list price. Cost depends on season, length of stay, hotel category, internal flights, private guides and experiences. Most of our custom Brazil trips start around USD 350–500 per person per day for boutique-level travel with private transfers and curated experiences — premium lodges and remote destinations (Amazon, Pantanal, Fernando de Noronha) sit higher. Tell us your dates and dream and we send a detailed, transparent quote within 48 hours.",
+        },
+        {
+          q: "Why book Brazil with Create Travel instead of a big online agency?",
+          a: "We are a Brazilian boutique agency (Cadastur 21.030.190/0001-60) based in São Paulo. You speak with one travel designer, not a call center. We have direct relationships with the lodges, guides and operators — no resellers, no markup chains. Every itinerary is built by hand around your pace and obsessions, and a real person is on WhatsApp 24/7 during your trip.",
+        },
+        {
+          q: "When is the best time to travel to Brazil?",
+          a: "Brazil is a year-round destination thanks to its size. May–September is dry season for the Amazon and Pantanal (best for wildlife). June–September is ideal for Lençóis Maranhenses (lagoons full). December–March is high season for beaches (Bahia, Northeast, Rio). We tune the itinerary to the best regions for your dates.",
+        },
+        {
+          q: "Do you handle the whole trip — flights, hotels, guides, transfers?",
+          a: "Yes. We design the full journey end-to-end: international and domestic flights, boutique hotels and lodges, private bilingual guides, transfers, charter flights when needed, restaurant reservations and special experiences. One trip, one team, one WhatsApp.",
+        },
+        {
+          q: "Is it safe to travel in Brazil?",
+          a: "With local knowledge, yes. We choose the safest neighborhoods, vetted drivers and trusted guides, and brief you on common-sense practices. Our 24/7 in-country support is always one message away.",
+        },
+      ],
+    },
     back: "Back to homepage",
   },
   es: {
