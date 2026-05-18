@@ -215,7 +215,14 @@ export const buildDestinationIntentFAQs = (
       q: `Onde ficar em ${name}?`,
       a: `Selecionamos hospedagens autorais em ${name} — lodges, pousadas-boutique e hotéis com luxo discreto, sempre alinhados ao ritmo do destino e ao perfil do viajante. A Create Travel sugere as melhores opções dentro do seu briefing.`,
     },
-  ];
+    {
+      q: `Quanto custa um pacote de viagem para ${name}?`,
+      a: `O valor de um pacote de viagem para ${name}, ${country} varia conforme período, perfil de hospedagem, número de viajantes, experiências privativas e voos. Como cada roteiro é sob medida, não trabalhamos com preço de tabela: você nos conta o briefing pelo WhatsApp e em até 48h recebe uma proposta detalhada e transparente, com tudo incluso — hospedagem, transfers, guias e experiências.`,
+    },
+    {
+      q: `Por que comprar um pacote para ${name} com a Create Travel?`,
+      a: `Somos uma agência de viagens brasileira boutique (Cadastur 21.030.190/0001-60) com curadoria própria em ${name} e relação direta com lodges, guias e operadores locais — sem intermediários. Você fala com um único travel designer, recebe um roteiro 100% sob medida, com suporte real em WhatsApp 24/7 durante toda a viagem. Não vendemos pacotes prontos: compomos a sua viagem.`,
+    },
 };
 
 /**
