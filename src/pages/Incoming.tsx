@@ -72,10 +72,10 @@ const Incoming = () => {
         <div
           className="absolute inset-0 -z-10 bg-cover bg-center"
           style={{
-            backgroundImage: `linear-gradient(to bottom, hsl(var(--primary) / 0.55) 0%, hsl(var(--primary) / 0.45) 50%, hsl(var(--primary) / 0.85) 100%), url(${biomesHero})`,
+            backgroundImage: `linear-gradient(to right, hsl(var(--primary) / 0.85) 0%, hsl(var(--primary) / 0.7) 45%, hsl(var(--primary) / 0.45) 100%), linear-gradient(to bottom, hsl(var(--primary) / 0.4) 0%, transparent 40%, hsl(var(--primary) / 0.85) 100%), url(${biomesHero})`,
           }}
         />
-        <div className="container-editorial relative text-primary-foreground">
+        <div className="container-editorial relative text-primary-foreground [text-shadow:0_2px_16px_hsl(var(--primary)/0.6)]">
           <motion.p
             initial={{ opacity: 0, y: 12 }}
             animate={{ opacity: 1, y: 0 }}
