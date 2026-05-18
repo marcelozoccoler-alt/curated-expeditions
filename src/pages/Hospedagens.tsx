@@ -11,7 +11,7 @@ import { Breadcrumbs } from "@/components/Breadcrumbs";
 import { SEO } from "@/components/SEO";
 import { stays } from "@/lib/stays";
 import { destinations } from "@/lib/destinations";
-import { Stay } from "@/lib/types";
+import { Stay, CONTACT } from "@/lib/types";
 import { getHospedagensSEO } from "@/lib/seo";
 import {
   Select,
