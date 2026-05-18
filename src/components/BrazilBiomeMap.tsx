@@ -4,7 +4,7 @@ import { MapPin, X } from "lucide-react";
 import type { Lang } from "@/i18n/config";
 import { BIOMES, BIOMES_BY_ID, type BiomeId } from "@/lib/biomes";
 import { INCOMING_DESTINATIONS } from "@/lib/incomingDestinations";
-import { BRAZIL_OUTLINE, BIOME_REGION_PATHS, DEST_COORDS } from "@/lib/brazilGeo";
+import { BRAZIL_OUTLINE, BIOME_REGION_PATHS, DEST_COORDS, PANTANAL_PATH } from "@/lib/brazilGeo";
 
 /**
  * Brazil map by biomes — built from real GeoJSON (Brazilian state borders)
@@ -16,9 +16,9 @@ const BIOME_PATHS: Record<BiomeId, string> = {
   cerrado: BIOME_REGION_PATHS["cerrado"],
   caatinga: BIOME_REGION_PATHS["caatinga"],
   "mata-atlantica": BIOME_REGION_PATHS["mata-atlantica"],
-  pantanal: BIOME_REGION_PATHS["pantanal"] ?? "",
+  pantanal: PANTANAL_PATH,
   pampa: BIOME_REGION_PATHS["pampa"],
-  // Costa is rendered as a coastal accent stroke, not a region
+  // Costa is implicit along the coastline (no fill region)
   costa: "",
 };
 
