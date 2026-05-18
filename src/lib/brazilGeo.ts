@@ -27,3 +27,11 @@ export const DEST_COORDS: Record<string, { x: number; y: number }> = {
   "florianopolis": { x: 363.1, y: 529.8 },
   "rota-emocoes": { x: 453.3, y: 196.0 },
 };
+
+// Hand-drawn Pantanal polygon (a biome inside MS/MT, not a state)
+// Approximate bounds: lat -20 to -16, lon -58 to -55
+export const PANTANAL_PATH =
+  "M 243 375 L 286 375 L 290 405 L 282 430 L 260 437 L 240 430 L 234 405 Z";
+
+// Coastal accent (NE → E) for Costa & Litoral biome
+export const COSTA_PATH = "";
