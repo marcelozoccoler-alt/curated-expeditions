@@ -10,7 +10,7 @@ import { TagFilter } from "@/components/TagFilter";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
 import { SEO } from "@/components/SEO";
 import { destinations, getFeaturedDestinations } from "@/lib/destinations";
-import { CONTINENTS, Destination } from "@/lib/types";
+import { CONTINENTS, CONTACT, Destination } from "@/lib/types";
 import { getDestinosSEO } from "@/lib/seo";
 import {
   Select,
@@ -200,6 +200,7 @@ const Destinos = () => {
     totalPages
   );
 
+  const domain = CONTACT.domain.replace(/\/$/, "");
   const itemListLd = {
     "@context": "https://schema.org",
     "@type": "ItemList",
@@ -208,9 +209,18 @@ const Destinos = () => {
     itemListElement: paginated.map((d, i) => ({
       "@type": "ListItem",
       position: start + i + 1,
-      url: `${window.location.origin}/destinos/${d.slug}`,
+      url: `${domain}/destinos/${d.slug}`,
       name: d.name,
     })),
+  };
+
+  const breadcrumbLd = {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: [
+      { "@type": "ListItem", position: 1, name: "Início", item: `${domain}/` },
+      { "@type": "ListItem", position: 2, name: "Destinos", item: `${domain}/destinos` },
+    ],
   };
 
   return (
@@ -222,7 +232,7 @@ const Destinos = () => {
         noindex={seo.noindex}
         prevPath={seo.prevPath}
         nextPath={seo.nextPath}
-        jsonLd={itemListLd}
+        jsonLd={[itemListLd, breadcrumbLd]}
       />
       <Header />
       <WhatsAppButton variant="float" />
