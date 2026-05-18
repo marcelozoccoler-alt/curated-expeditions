@@ -96,7 +96,7 @@ const Incoming = () => {
             initial={{ opacity: 0, y: 16 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.7, delay: 0.2 }}
-            className="text-lg md:text-xl max-w-2xl text-primary-foreground/85 mb-10"
+            className="font-serif italic text-xl md:text-2xl lg:text-3xl max-w-2xl text-gold/90 mb-10"
           >
             {copy.hero.subtitle}
           </motion.p>
