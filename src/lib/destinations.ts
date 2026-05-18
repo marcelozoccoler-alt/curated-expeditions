@@ -2795,11 +2795,26 @@ export const destinations: Destination[] = [
     imageOverrideUrl: festivalParintinsImg,
     intro: "Um dos maiores espetáculos folclóricos do mundo: a disputa entre Bois Garantido e Caprichoso, em Parintins, no meio do Rio Amazonas. Logística cuidada e ingressos garantidos.",
     highlights: [
-      "Três noites de apresentação no Bumbódromo",
-      "Hospedagem em barcos-hotel ou casas selecionadas",
-      "Vivências com brincantes e bastidores",
-      "Navegação pelo Rio Amazonas",
-      "Combinação com Manaus e Anavilhanas"
+      {
+        title: "Três noites de apresentação no Bumbódromo",
+        story: "A arena explode em vermelho e azul, fogos riscam o céu sobre o Amazonas e 35 mil vozes cantam em uníssono. Cada toada faz o chão vibrar e arrepia da nuca aos pés — é folclore vivido em escala de espetáculo mundial."
+      },
+      {
+        title: "Hospedagem em barcos-hotel ou casas selecionadas",
+        story: "Dormir embalado pelo rio, com o som das águas batendo no casco, e acordar para o café da manhã no convés enquanto Parintins desperta. Casas privativas curadas oferecem o conforto raro de uma cidade tomada pelo festival."
+      },
+      {
+        title: "Vivências com brincantes e bastidores",
+        story: "Entrar nos currais do Garantido e do Caprichoso antes do show, ver as alegorias de perto, conversar com artistas e sentir o cheiro de tinta fresca e suor — o lado humano e artesanal do maior boi-bumbá do mundo."
+      },
+      {
+        title: "Navegação pelo Rio Amazonas",
+        story: "Travessias de barco entre Manaus e a ilha de Tupinambarana, com pôr do sol no encontro das águas e noites estreladas sobre a maior bacia hidrográfica do planeta. O caminho até o festival já é parte do espetáculo."
+      },
+      {
+        title: "Combinação com Manaus e Anavilhanas",
+        story: "Estender a viagem para o arquipélago de Anavilhanas, dormir em lodges sobre as águas escuras e nadar com botos-cor-de-rosa. Uma imersão completa entre cultura, floresta e rio."
+      }
     ],
     beyondUsual: [
       "Bastidores dos currais Garantido e Caprichoso.",
