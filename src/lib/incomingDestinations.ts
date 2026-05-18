@@ -18,6 +18,8 @@ import maragogiImg from "@/assets/destinations/brasil-litoral-alagoano.jpg";
 import floripaImg from "@/assets/destinations/brasil-litoral-santa-catarina.jpg";
 import rotaEmocoesImg from "@/assets/destinations/brasil-rota-das-emocoes.jpg";
 
+import type { BiomeId } from "./biomes";
+
 export interface IncomingDestination {
   slug: string;
   image: string;
@@ -25,11 +27,17 @@ export interface IncomingDestination {
   name: Record<Lang, string>;
   /** One-line editorial blurb in each language */
   blurb: Record<Lang, string>;
+  /** Primary biome this destination belongs to */
+  biome: BiomeId;
+  /** Approximate position on the stylized Brazil SVG (viewBox 0 0 600 700) */
+  map: { x: number; y: number };
 }
 
 export const INCOMING_DESTINATIONS: IncomingDestination[] = [
   {
     slug: "amazon",
+    biome: "amazonia",
+    map: { x: 210, y: 145 },
     image: amazonasImg,
     name: {
       pt: "Amazônia",
@@ -48,6 +56,8 @@ export const INCOMING_DESTINATIONS: IncomingDestination[] = [
   },
   {
     slug: "pantanal",
+    biome: "pantanal",
+    map: { x: 262, y: 386 },
     image: matoGrossoImg,
     name: {
       pt: "Pantanal",
@@ -66,6 +76,8 @@ export const INCOMING_DESTINATIONS: IncomingDestination[] = [
   },
   {
     slug: "lencois-maranhenses",
+    biome: "costa",
+    map: { x: 465, y: 135 },
     image: maranhaoImg,
     name: {
       pt: "Lençóis Maranhenses",
@@ -84,6 +96,8 @@ export const INCOMING_DESTINATIONS: IncomingDestination[] = [
   },
   {
     slug: "bahia",
+    biome: "mata-atlantica",
+    map: { x: 532, y: 323 },
     image: salvadorImg,
     name: {
       pt: "Bahia",
@@ -102,6 +116,8 @@ export const INCOMING_DESTINATIONS: IncomingDestination[] = [
   },
   {
     slug: "rio-de-janeiro",
+    biome: "mata-atlantica",
+    map: { x: 462, y: 501 },
     image: rioImg,
     name: {
       pt: "Rio de Janeiro",
@@ -120,6 +136,8 @@ export const INCOMING_DESTINATIONS: IncomingDestination[] = [
   },
   {
     slug: "iguazu",
+    biome: "mata-atlantica",
+    map: { x: 292, y: 549 },
     image: iguacuImg,
     name: {
       pt: "Foz do Iguaçu",
@@ -138,6 +156,8 @@ export const INCOMING_DESTINATIONS: IncomingDestination[] = [
   },
   {
     slug: "chapada-dos-veadeiros",
+    biome: "cerrado",
+    map: { x: 397, y: 343 },
     image: veadeirosImg,
     name: {
       pt: "Chapada dos Veadeiros",
@@ -156,6 +176,8 @@ export const INCOMING_DESTINATIONS: IncomingDestination[] = [
   },
   {
     slug: "fernando-de-noronha",
+    biome: "costa",
+    map: { x: 590, y: 175 },
     image: noronhaImg,
     name: {
       pt: "Fernando de Noronha",
@@ -174,6 +196,8 @@ export const INCOMING_DESTINATIONS: IncomingDestination[] = [
   },
   {
     slug: "chapada-diamantina",
+    biome: "caatinga",
+    map: { x: 487, y: 314 },
     image: chapadaDiamantinaImg,
     name: {
       pt: "Chapada Diamantina",
@@ -192,6 +216,8 @@ export const INCOMING_DESTINATIONS: IncomingDestination[] = [
   },
   {
     slug: "jericoacoara",
+    biome: "costa",
+    map: { x: 502, y: 140 },
     image: jericoacoaraImg,
     name: {
       pt: "Jericoacoara",
@@ -210,6 +236,8 @@ export const INCOMING_DESTINATIONS: IncomingDestination[] = [
   },
   {
     slug: "bonito",
+    biome: "pantanal",
+    map: { x: 262, y: 468 },
     image: bonitoImg,
     name: {
       pt: "Bonito",
@@ -228,6 +256,8 @@ export const INCOMING_DESTINATIONS: IncomingDestination[] = [
   },
   {
     slug: "alter-do-chao",
+    biome: "amazonia",
+    map: { x: 286, y: 135 },
     image: alterDoChaoImg,
     name: {
       pt: "Alter do Chão",
@@ -246,6 +276,8 @@ export const INCOMING_DESTINATIONS: IncomingDestination[] = [
   },
   {
     slug: "jalapao",
+    biome: "cerrado",
+    map: { x: 414, y: 269 },
     image: jalapaoImg,
     name: {
       pt: "Jalapão",
@@ -264,6 +296,8 @@ export const INCOMING_DESTINATIONS: IncomingDestination[] = [
   },
   {
     slug: "maragogi",
+    biome: "costa",
+    map: { x: 568, y: 251 },
     image: maragogiImg,
     name: {
       pt: "Maragogi",
@@ -282,6 +316,8 @@ export const INCOMING_DESTINATIONS: IncomingDestination[] = [
   },
   {
     slug: "florianopolis",
+    biome: "mata-atlantica",
+    map: { x: 382, y: 585 },
     image: floripaImg,
     name: {
       pt: "Florianópolis",
@@ -300,6 +336,8 @@ export const INCOMING_DESTINATIONS: IncomingDestination[] = [
   },
   {
     slug: "rota-emocoes",
+    biome: "costa",
+    map: { x: 483, y: 140 },
     image: rotaEmocoesImg,
     name: {
       pt: "Rota das Emoções",

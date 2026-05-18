@@ -20,6 +20,11 @@ export interface IncomingCopy {
     heading: string;
     subheading: string;
   };
+  biomesMap: {
+    eyebrow: string;
+    heading: string;
+    subheading: string;
+  };
   process: {
     heading: string;
     subheading: string;
@@ -77,6 +82,11 @@ export const INCOMING_COPY: Record<Exclude<Lang, "pt">, IncomingCopy> = {
       heading: "The Brazil we love to design",
       subheading:
         "A curated selection of starting points. Combine them, deepen them, or let us suggest something you've never heard of.",
+    },
+    biomesMap: {
+      eyebrow: "Brazil by biomes",
+      heading: "Choose Brazil the way nature drew it",
+      subheading: "Six biomes plus 7,491 km of coast. Tap a region to discover its wildlife, plants and the natural wonders that make travellers gasp.",
     },
     process: {
       heading: "How we work",
@@ -173,6 +183,11 @@ export const INCOMING_COPY: Record<Exclude<Lang, "pt">, IncomingCopy> = {
       subheading:
         "Una selección curada de puntos de partida. Combínalos, profundízalos o déjanos sugerirte algo que nunca habías escuchado.",
     },
+    biomesMap: {
+      eyebrow: "Brasil por biomas",
+      heading: "Elige Brasil tal como lo dibujó la naturaleza",
+      subheading: "Seis biomas más 7.491 km de costa. Toca una región para descubrir su fauna, su flora y las maravillas naturales que hacen suspirar a los viajeros.",
+    },
     process: {
       heading: "Cómo trabajamos",
       subheading: "Tres pasos entre una conversación y tu viaje.",
@@ -268,6 +283,11 @@ export const INCOMING_COPY: Record<Exclude<Lang, "pt">, IncomingCopy> = {
       subheading:
         "Una selezione curata di punti di partenza. Combinali, approfondiscili o lascia che ti suggeriamo qualcosa che non avevi mai sentito nominare.",
     },
+    biomesMap: {
+      eyebrow: "Brasile per biomi",
+      heading: "Scegli il Brasile come l'ha disegnato la natura",
+      subheading: "Sei biomi più 7.491 km di costa. Tocca una regione per scoprirne fauna, flora e le meraviglie naturali che fanno trattenere il respiro.",
+    },
     process: {
       heading: "Come lavoriamo",
       subheading: "Tre passi tra una conversazione e il tuo viaggio.",
@@ -362,6 +382,11 @@ export const INCOMING_COPY: Record<Exclude<Lang, "pt">, IncomingCopy> = {
       heading: "Das Brasilien, das wir lieben zu gestalten",
       subheading:
         "Eine kuratierte Auswahl von Ausgangspunkten. Kombiniere sie, vertiefe sie oder lass uns dir etwas vorschlagen, von dem du noch nie gehört hast.",
+    },
+    biomesMap: {
+      eyebrow: "Brasilien nach Biomen",
+      heading: "Erlebe Brasilien, wie die Natur es gezeichnet hat",
+      subheading: "Sechs Biome plus 7.491 km Küste. Tippe eine Region an und entdecke Tierwelt, Pflanzen und Naturwunder, die jeden Reisenden staunen lassen.",
     },
     process: {
       heading: "So arbeiten wir",
