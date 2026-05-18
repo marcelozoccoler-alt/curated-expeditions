@@ -41,6 +41,11 @@ export interface IncomingCopy {
     subheading: string;
     button: string;
   };
+  faqs: {
+    heading: string;
+    subheading: string;
+    items: { q: string; a: string }[];
+  };
   back: string;
 }
 
