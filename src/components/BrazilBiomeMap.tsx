@@ -109,7 +109,7 @@ export const BrazilBiomeMap = ({ lang }: Props) => {
               return (
                 <g
                   key={d.slug}
-                  transform={`translate(${d.map.x} ${d.map.y})`}
+                  transform={`translate(${(DEST_COORDS[d.slug] ?? d.map).x} ${(DEST_COORDS[d.slug] ?? d.map).y})`}
                   onClick={(e) => {
                     e.stopPropagation();
                     setActiveDestSlug(d.slug);
