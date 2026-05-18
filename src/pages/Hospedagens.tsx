@@ -142,6 +142,7 @@ const Hospedagens = () => {
 
   const seo = getHospedagensSEO({ tags, query, sort, page: currentPage }, totalPages);
 
+  const domain = CONTACT.domain.replace(/\/$/, "");
   const itemListLd = {
     "@context": "https://schema.org",
     "@type": "ItemList",
@@ -150,9 +151,18 @@ const Hospedagens = () => {
     itemListElement: paginated.map((s, i) => ({
       "@type": "ListItem",
       position: start + i + 1,
-      url: `${window.location.origin}/hospedagens/${s.slug}`,
+      url: `${domain}/hospedagens/${s.slug}`,
       name: s.name,
     })),
+  };
+
+  const breadcrumbLd = {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: [
+      { "@type": "ListItem", position: 1, name: "Início", item: `${domain}/` },
+      { "@type": "ListItem", position: 2, name: "Hospedagens", item: `${domain}/hospedagens` },
+    ],
   };
 
   return (
@@ -164,7 +174,7 @@ const Hospedagens = () => {
         noindex={seo.noindex}
         prevPath={seo.prevPath}
         nextPath={seo.nextPath}
-        jsonLd={itemListLd}
+        jsonLd={[itemListLd, breadcrumbLd]}
       />
       <Header />
       <WhatsAppButton variant="float" />
