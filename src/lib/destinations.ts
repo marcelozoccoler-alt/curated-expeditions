@@ -2795,11 +2795,26 @@ export const destinations: Destination[] = [
     imageOverrideUrl: festivalParintinsImg,
     intro: "Um dos maiores espetáculos folclóricos do mundo: a disputa entre Bois Garantido e Caprichoso, em Parintins, no meio do Rio Amazonas. Logística cuidada e ingressos garantidos.",
     highlights: [
-      "Três noites de apresentação no Bumbódromo",
-      "Hospedagem em barcos-hotel ou casas selecionadas",
-      "Vivências com brincantes e bastidores",
-      "Navegação pelo Rio Amazonas",
-      "Combinação com Manaus e Anavilhanas"
+      {
+        title: "Três noites de apresentação no Bumbódromo",
+        story: "A arena explode em vermelho e azul, fogos riscam o céu sobre o Amazonas e 35 mil vozes cantam em uníssono. Cada toada faz o chão vibrar e arrepia da nuca aos pés — é folclore vivido em escala de espetáculo mundial."
+      },
+      {
+        title: "Hospedagem em barcos-hotel ou casas selecionadas",
+        story: "Dormir embalado pelo rio, com o som das águas batendo no casco, e acordar para o café da manhã no convés enquanto Parintins desperta. Casas privativas curadas oferecem o conforto raro de uma cidade tomada pelo festival."
+      },
+      {
+        title: "Vivências com brincantes e bastidores",
+        story: "Entrar nos currais do Garantido e do Caprichoso antes do show, ver as alegorias de perto, conversar com artistas e sentir o cheiro de tinta fresca e suor — o lado humano e artesanal do maior boi-bumbá do mundo."
+      },
+      {
+        title: "Navegação pelo Rio Amazonas",
+        story: "Travessias de barco entre Manaus e a ilha de Tupinambarana, com pôr do sol no encontro das águas e noites estreladas sobre a maior bacia hidrográfica do planeta. O caminho até o festival já é parte do espetáculo."
+      },
+      {
+        title: "Combinação com Manaus e Anavilhanas",
+        story: "Estender a viagem para o arquipélago de Anavilhanas, dormir em lodges sobre as águas escuras e nadar com botos-cor-de-rosa. Uma imersão completa entre cultura, floresta e rio."
+      }
     ],
     beyondUsual: [
       "Bastidores dos currais Garantido e Caprichoso.",
@@ -2828,11 +2843,26 @@ export const destinations: Destination[] = [
     imageOverrideUrl: "",
     intro: "Tradicional festa religiosa e folclórica de Alter do Chão, com procissões no rio, disputa entre os botos Tucuxi e Cor-de-Rosa e a beleza inigualável do Tapajós.",
     highlights: [
-      "Procissão fluvial do Çairé",
-      "Apresentações dos botos Tucuxi e Cor-de-Rosa",
-      "Praias do Tapajós em alta temporada cultural",
-      "Gastronomia ribeirinha",
-      "Combinação com Expedição Kaiara"
+      {
+        title: "Procissão fluvial do Çairé",
+        story: "Dezenas de barcos enfeitados deslizam pelas águas verdes do Tapajós ao som de cânticos e tambores, conduzindo o mastro sagrado. Uma cena de fé, cor e poesia que parece suspensa no tempo amazônico."
+      },
+      {
+        title: "Apresentações dos botos Tucuxi e Cor-de-Rosa",
+        story: "Na arena à beira-rio, dois botos disputam o coração do público em coreografias com luz, fumaça e mitologia amazônica. É a versão tapajônica do boi-bumbá — íntima, vibrante e profundamente autêntica."
+      },
+      {
+        title: "Praias do Tapajós em alta temporada cultural",
+        story: "Areia branca, água doce cor de esmeralda e a Ilha do Amor ao fundo. Banhos de rio entre uma apresentação e outra, redes balançando sob ingazeiras e o céu rosa de setembro sobre o maior afluente do Amazonas."
+      },
+      {
+        title: "Gastronomia ribeirinha",
+        story: "Tucunaré na brasa, tacacá fumegante servido em cuia, açaí grosso da floresta e farinha de Bragança crocante. Sabores que contam a história do povo do rio, em mesas pé na areia."
+      },
+      {
+        title: "Combinação com Expedição Kaiara",
+        story: "Estender a viagem rio adentro a bordo da Kaiara, dormindo em barco-charme entre comunidades ribeirinhas, praias desertas e florestas alagadas. O festival como abertura de uma imersão amazônica completa."
+      }
     ],
     beyondUsual: [
       "Hospedagem-boutique selecionada.",
