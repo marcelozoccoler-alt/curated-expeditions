@@ -70,6 +70,29 @@ export const buildDestinationKeywords = (destination: Destination): string => {
     `${t} ${country}`,
   ]);
 
+  // Variações reais de busca (Semrush BR, brasileiros buscam de forma encurtada)
+  const popularShortForms = [
+    `pacote ${name}`,
+    `pacotes ${name}`,
+    `viagem ${name}`,
+    `viagem para ${name}`,
+    `viagens ${name}`,
+    `passagem para ${name}`,
+    `passagens para ${name}`,
+    `voos para ${name}`,
+    `hotel em ${name}`,
+    `hospedagem em ${name}`,
+    `quanto custa viagem para ${name}`,
+    `quanto custa pacote para ${name}`,
+    `quanto custa pacote de viagem para ${name}`,
+    `${name} tudo incluso`,
+    `pacote ${name} tudo incluso`,
+    `melhor site para pacote de viagem`,
+    `onde comprar pacote de viagem`,
+    `roteiro ${name}`,
+    `roteiro ${name} ${country}`,
+  ];
+
   return dedupe([
     name,
     `${name}, ${country}`,
@@ -78,6 +101,7 @@ export const buildDestinationKeywords = (destination: Destination): string => {
     `${region}, ${country}`,
     country,
     ...intents,
+    ...popularShortForms,
     ...tagLabels,
     ...tagIntents,
     "Create Travel",
