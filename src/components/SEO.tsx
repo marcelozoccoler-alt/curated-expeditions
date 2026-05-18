@@ -4,11 +4,9 @@ import { CONTACT } from "@/lib/types";
 interface SEOProps {
   title: string;
   description: string;
-  /** Path + query to be appended to the canonical domain. Should be the
-   *  canonical version of the URL (no duplicate-content variants). */
+  /** Path + query to be appended to the canonical domain. */
   canonicalPath: string;
-  /** When true, emits noindex,follow. Use for filter combinations that
-   *  shouldn't be indexed (e.g. multi-tag, search queries). */
+  /** When true, emits noindex,follow. */
   noindex?: boolean;
   /** Optional rel=prev / rel=next for paginated series. */
   prevPath?: string;
@@ -17,6 +15,8 @@ interface SEOProps {
   jsonLd?: Record<string, unknown> | Record<string, unknown>[];
   ogImage?: string;
   ogType?: "website" | "article";
+  /** Comma-separated keywords for semantic / AI search. */
+  keywords?: string;
 }
 
 const DOMAIN = CONTACT.domain.replace(/\/$/, "");
@@ -31,6 +31,7 @@ export const SEO = ({
   jsonLd,
   ogImage,
   ogType = "website",
+  keywords,
 }: SEOProps) => {
   const canonical = `${DOMAIN}${canonicalPath.startsWith("/") ? "" : "/"}${canonicalPath}`;
   const prev = prevPath ? `${DOMAIN}${prevPath.startsWith("/") ? "" : "/"}${prevPath}` : null;
@@ -43,6 +44,7 @@ export const SEO = ({
     <Helmet>
       <title>{title}</title>
       <meta name="description" content={description} />
+      {keywords && <meta name="keywords" content={keywords} />}
       <meta name="robots" content={robots} />
       <link rel="canonical" href={canonical} />
       {prev && <link rel="prev" href={prev} />}
