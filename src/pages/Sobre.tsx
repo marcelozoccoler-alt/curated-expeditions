@@ -34,7 +34,6 @@ const pillars = [
 
 const stats = [
   { value: "85+", label: "Destinos curados" },
-  { value: "13", label: "Hospedagens selecionadas" },
   { value: "100%", label: "Roteiros sob medida" },
 ];
 
@@ -153,7 +152,7 @@ const Sobre = () => {
       {/* Stats */}
       <section className="section-padding">
         <div className="container-editorial">
-          <div className="grid md:grid-cols-3 gap-8 text-center">
+          <div className="grid md:grid-cols-2 gap-8 text-center">
             {stats.map((s) => (
               <div key={s.label} className="flex flex-col items-center">
                 <span className="font-serif text-5xl md:text-6xl text-primary mb-2">
