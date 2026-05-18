@@ -212,6 +212,32 @@ export const INCOMING_COPY: Record<Exclude<Lang, "pt">, IncomingCopy> = {
         "Cuéntanos cuándo te gustaría venir y te enviaremos una propuesta en 48 horas.",
       button: "Empezar por WhatsApp",
     },
+    faqs: {
+      heading: "Viajar a Brasil — tus preguntas resueltas",
+      subheading: "Respuestas honestas del equipo que diseña tu viaje.",
+      items: [
+        {
+          q: "¿Cuánto cuesta un viaje a medida por Brasil con Create Travel?",
+          a: "No vendemos paquetes cerrados, así que no hay precio de tabla. El costo depende de la temporada, duración, categoría de hotel, vuelos internos, guías privados y experiencias. La mayoría de nuestros viajes a medida arrancan en torno a USD 350–500 por persona/día en nivel boutique con traslados privados y experiencias curadas — lodges premium y destinos remotos (Amazonía, Pantanal, Fernando de Noronha) están por encima. Cuéntanos fechas y sueños y enviamos un presupuesto detallado y transparente en 48 horas.",
+        },
+        {
+          q: "¿Por qué reservar Brasil con Create Travel y no con una gran OTA?",
+          a: "Somos una agencia brasileña boutique (Cadastur 21.030.190/0001-60) con sede en São Paulo. Hablas con un único diseñador de viajes, no con un call center. Tenemos relación directa con los lodges, guías y operadores — sin reventas, sin cadenas de comisión. Cada itinerario se construye a mano y una persona real está en WhatsApp 24/7 durante tu viaje.",
+        },
+        {
+          q: "¿Cuál es la mejor época para viajar a Brasil?",
+          a: "Brasil es destino de todo el año por su tamaño. Mayo–septiembre es estación seca en Amazonía y Pantanal (ideal para fauna). Junio–septiembre es ideal para Lençóis Maranhenses (lagunas llenas). Diciembre–marzo es temporada alta de playas (Bahía, Nordeste, Río). Afinamos el itinerario según tus fechas.",
+        },
+        {
+          q: "¿Organizan todo el viaje — vuelos, hoteles, guías, traslados?",
+          a: "Sí. Diseñamos el viaje de principio a fin: vuelos internacionales e internos, hoteles boutique y lodges, guías privados bilingües, traslados, vuelos charter cuando hacen falta, reservas de restaurantes y experiencias especiales. Un viaje, un equipo, un WhatsApp.",
+        },
+        {
+          q: "¿Es seguro viajar por Brasil?",
+          a: "Con conocimiento local, sí. Elegimos los barrios más seguros, conductores y guías de confianza, y te orientamos con buenas prácticas. Nuestro soporte 24/7 en destino siempre está a un mensaje de distancia.",
+        },
+      ],
+    },
     back: "Volver al inicio",
   },
   it: {
