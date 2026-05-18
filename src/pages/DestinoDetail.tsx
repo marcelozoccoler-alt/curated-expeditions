@@ -11,7 +11,7 @@ import { StayCard } from "@/components/StayCard";
 import { SEO } from "@/components/SEO";
 import { getDestinationBySlug, destinations } from "@/lib/destinations";
 import { stays as allStays } from "@/lib/stays";
-import { getTagsByIds, getHighlightParts, CONTACT } from "@/lib/types";
+import { getTagsByIds, getHighlightParts, getBeyondUsualParts, CONTACT } from "@/lib/types";
 import { getDestinationImage } from "@/lib/destinationImages";
 import {
   Accordion,
