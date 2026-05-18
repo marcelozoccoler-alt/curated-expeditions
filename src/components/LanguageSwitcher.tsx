@@ -18,11 +18,18 @@ export const LanguageSwitcher = ({ variant = "dark" }: Props) => {
 
   const handleSelect = (lang: Lang) => {
     const cleanPath = stripLangPrefix(location.pathname);
-    // For incoming page: PT redirects to home
-    const target =
-      cleanPath === "/incoming" && lang === "pt"
-        ? "/"
-        : localizePath(lang, cleanPath);
+
+    // Only the Incoming landing is fully translated to non-PT languages.
+    // For any non-PT choice, always send the user to that language's landing
+    // to avoid 404s on pages that don't have a localized route (e.g. /sobre).
+    // For PT, return to the equivalent PT path (or home if coming from /incoming).
+    let target: string;
+    if (lang === "pt") {
+      target = cleanPath === "/incoming" ? "/" : cleanPath;
+    } else {
+      target = `/${lang}`;
+    }
+
     navigate(target);
     setOpen(false);
   };
