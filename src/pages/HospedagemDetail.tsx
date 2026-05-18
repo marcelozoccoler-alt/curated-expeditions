@@ -103,9 +103,10 @@ const HospedagemDetail = () => {
         title={seoTitle}
         description={seoDescription}
         canonicalPath={`/hospedagens/${stay.slug}`}
+        keywords={buildStayKeywords(stay, dest?.name, dest?.country)}
         ogImage={absoluteImage}
         ogType="article"
-        jsonLd={[faqSchema, lodgeSchema, breadcrumbSchema]}
+        jsonLd={[faqSchema, lodgeSchema, breadcrumbSchema, buildSpeakableSchema(pageUrl)]}
       />
       <Header />
       <WhatsAppButton variant="float" />

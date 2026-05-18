@@ -10,6 +10,8 @@ import { getBrazilStateBySlug } from "@/lib/brazilStates";
 import { getDestinationBySlug } from "@/lib/destinations";
 import { getDestinationImage } from "@/lib/destinationImages";
 import { generateWhatsAppLink } from "@/lib/types";
+import { buildPlaceKeywords, buildSpeakableSchema } from "@/lib/seoIntents";
+import { CONTACT } from "@/lib/types";
 import NotFound from "./NotFound";
 
 const FALLBACK_IMG =
@@ -58,12 +60,13 @@ const BrasilEstado = () => {
   return (
     <>
       <SEO
-        title={`Pacote de viagem para ${state.name} — Roteiros Create Travel`}
-        description={`Pacote de viagem para ${state.name} com curadoria Create Travel. ${state.metaDescription}`.slice(0, 300)}
+        title={`Pacote de viagem para ${state.name} — O que fazer, melhor época e roteiros | Create Travel`}
+        description={`Pacote de viagem para ${state.name}, Brasil com curadoria Create Travel. O que fazer, melhor época, onde ficar e roteiros sob medida. ${state.metaDescription}`.slice(0, 300)}
         canonicalPath={`/brasil/${state.slug}`}
+        keywords={buildPlaceKeywords(state.name, "Brasil", [`turismo ${state.name}`, `viagem ${state.name} Brasil`])}
         ogImage={state.heroImageUrl}
         ogType="article"
-        jsonLd={[placeLd, breadcrumbLd]}
+        jsonLd={[placeLd, breadcrumbLd, buildSpeakableSchema(`${CONTACT.domain.replace(/\/$/, "")}/brasil/${state.slug}`)]}
       />
       <Header />
 
