@@ -2843,11 +2843,26 @@ export const destinations: Destination[] = [
     imageOverrideUrl: "",
     intro: "Tradicional festa religiosa e folclórica de Alter do Chão, com procissões no rio, disputa entre os botos Tucuxi e Cor-de-Rosa e a beleza inigualável do Tapajós.",
     highlights: [
-      "Procissão fluvial do Çairé",
-      "Apresentações dos botos Tucuxi e Cor-de-Rosa",
-      "Praias do Tapajós em alta temporada cultural",
-      "Gastronomia ribeirinha",
-      "Combinação com Expedição Kaiara"
+      {
+        title: "Procissão fluvial do Çairé",
+        story: "Dezenas de barcos enfeitados deslizam pelas águas verdes do Tapajós ao som de cânticos e tambores, conduzindo o mastro sagrado. Uma cena de fé, cor e poesia que parece suspensa no tempo amazônico."
+      },
+      {
+        title: "Apresentações dos botos Tucuxi e Cor-de-Rosa",
+        story: "Na arena à beira-rio, dois botos disputam o coração do público em coreografias com luz, fumaça e mitologia amazônica. É a versão tapajônica do boi-bumbá — íntima, vibrante e profundamente autêntica."
+      },
+      {
+        title: "Praias do Tapajós em alta temporada cultural",
+        story: "Areia branca, água doce cor de esmeralda e a Ilha do Amor ao fundo. Banhos de rio entre uma apresentação e outra, redes balançando sob ingazeiras e o céu rosa de setembro sobre o maior afluente do Amazonas."
+      },
+      {
+        title: "Gastronomia ribeirinha",
+        story: "Tucunaré na brasa, tacacá fumegante servido em cuia, açaí grosso da floresta e farinha de Bragança crocante. Sabores que contam a história do povo do rio, em mesas pé na areia."
+      },
+      {
+        title: "Combinação com Expedição Kaiara",
+        story: "Estender a viagem rio adentro a bordo da Kaiara, dormindo em barco-charme entre comunidades ribeirinhas, praias desertas e florestas alagadas. O festival como abertura de uma imersão amazônica completa."
+      }
     ],
     beyondUsual: [
       "Hospedagem-boutique selecionada.",
