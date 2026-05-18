@@ -19,7 +19,8 @@ const Regiao = () => {
 
   const destinations = region.destinationSlugs
     .map((s) => getDestinationBySlug(s))
-    .filter(Boolean);
+    .filter(Boolean)
+    .sort((a, b) => a!.name.localeCompare(b!.name, "pt-BR"));
 
   const whatsappLink = generateWhatsAppLink({
     type: "Destino",
