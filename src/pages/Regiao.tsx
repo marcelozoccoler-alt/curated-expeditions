@@ -48,12 +48,13 @@ const Regiao = () => {
   return (
     <>
       <SEO
-        title={`Pacote de viagem para ${region.label} — Roteiros Create Travel`}
-        description={`Pacote de viagem para ${region.label} com curadoria Create Travel. ${region.metaDescription}`.slice(0, 300)}
+        title={`Pacote de viagem para ${region.label} — O que fazer, melhor época e roteiros | Create Travel`}
+        description={`Pacote de viagem para ${region.label} com curadoria Create Travel. O que fazer, melhor época, onde ficar e roteiros sob medida. ${region.metaDescription}`.slice(0, 300)}
         canonicalPath={`/${region.slug}`}
+        keywords={buildPlaceKeywords(region.label, undefined, [`turismo ${region.label}`, `roteiro ${region.label}`])}
         ogImage={region.heroImageUrl}
         ogType="article"
-        jsonLd={[placeLd, breadcrumbLd]}
+        jsonLd={[placeLd, breadcrumbLd, buildSpeakableSchema(`${CONTACT.domain.replace(/\/$/, "")}/${region.slug}`)]}
       />
       <Header />
 
