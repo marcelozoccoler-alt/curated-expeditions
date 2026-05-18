@@ -50,6 +50,16 @@ const Incoming = () => {
     knowsLanguage: ["pt-BR", "en", "es", "it", "de"],
   };
 
+  const faqJsonLd = {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    mainEntity: copy.faqs.items.map((item) => ({
+      "@type": "Question",
+      name: item.q,
+      acceptedAnswer: { "@type": "Answer", text: item.a },
+    })),
+  };
+
   return (
     <div className="min-h-screen bg-background">
       <Helmet>
