@@ -156,6 +156,9 @@ const Hospedagens = () => {
     })),
   };
 
+  // BreadcrumbList: sempre canônico — não inclui ?page=, ?tags= nem filtros.
+  // Google recomenda apontar para a categoria raiz independentemente da
+  // paginação. Paginação é sinalizada via rel=prev/next no <SEO/>.
   const breadcrumbLd = {
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",
