@@ -282,6 +282,24 @@ describe("JSON-LD — Incoming (/:lang/incoming) in 4 languages", () => {
   });
 });
 
+describe("JSON-LD — Listagens (/destinos e /hospedagens)", () => {
+  it("/destinos — BreadcrumbList is valid", () => {
+    const bc = buildBreadcrumb([
+      { name: "Início", path: "/" },
+      { name: "Destinos", path: "/destinos" },
+    ]);
+    expect(validateJsonLd(bc, "destinos/Breadcrumb")).toEqual([]);
+  });
+
+  it("/hospedagens — BreadcrumbList is valid", () => {
+    const bc = buildBreadcrumb([
+      { name: "Início", path: "/" },
+      { name: "Hospedagens", path: "/hospedagens" },
+    ]);
+    expect(validateJsonLd(bc, "hospedagens/Breadcrumb")).toEqual([]);
+  });
+});
+
 describe("JSON-LD — generic validator self-tests", () => {
   it("rejects FAQPage with empty mainEntity", () => {
     const errs = validateJsonLd(
