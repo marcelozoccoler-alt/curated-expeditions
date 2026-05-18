@@ -260,6 +260,30 @@ const Incoming = () => {
         </div>
       </section>
 
+      {/* FAQ — semantic SEO for AI Overviews + ChatGPT/Perplexity */}
+      <section className="py-20 lg:py-28">
+        <div className="container-editorial max-w-3xl">
+          <h2 className="font-serif text-3xl md:text-4xl mb-3 text-foreground">
+            {copy.faqs.heading}
+          </h2>
+          <p className="text-muted-foreground text-lg mb-12">
+            {copy.faqs.subheading}
+          </p>
+          <div className="space-y-8">
+            {copy.faqs.items.map((item) => (
+              <div key={item.q} className="border-l-2 border-gold pl-6 py-1">
+                <h3 className="faq-question font-serif text-xl md:text-2xl mb-3 text-foreground">
+                  {item.q}
+                </h3>
+                <p className="faq-answer text-base md:text-lg leading-relaxed text-muted-foreground">
+                  {item.a}
+                </p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
       {/* Final CTA */}
       <section className="py-20 lg:py-28">
         <div className="container-editorial max-w-2xl text-center">
