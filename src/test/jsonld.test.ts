@@ -298,6 +298,47 @@ describe("JSON-LD — Listagens (/destinos e /hospedagens)", () => {
     ]);
     expect(validateJsonLd(bc, "hospedagens/Breadcrumb")).toEqual([]);
   });
+
+  // Regressão: o BreadcrumbList das listagens NUNCA pode incluir paginação
+  // (?page=) ou filtros (?continent=, ?tags=, ?q=, ?sort=). Google exige
+  // breadcrumb canônico apontando para a categoria raiz, independentemente
+  // da página/filtro ativo. Lê o código-fonte e garante que o objeto
+  // breadcrumbLd só usa literais estáticas.
+  it.each([
+    ["src/pages/Destinos.tsx", "/destinos"],
+    ["src/pages/Hospedagens.tsx", "/hospedagens"],
+  ])("%s — breadcrumb URLs são canônicas (sem ?page=/filtros)", async (file, basePath) => {
+    const fs = await import("node:fs/promises");
+    const path = await import("node:path");
+    const src = await fs.readFile(path.resolve(process.cwd(), file), "utf-8");
+
+    // Extrai o bloco `const breadcrumbLd = { ... };`
+    const match = src.match(/const breadcrumbLd\s*=\s*\{[\s\S]*?\n\s*\};/);
+    expect(match, `breadcrumbLd não encontrado em ${file}`).toBeTruthy();
+    const block = match![0];
+
+    // Não pode referenciar variáveis dinâmicas de paginação/filtro
+    for (const forbidden of [
+      "currentPage",
+      "page:",
+      "searchParams",
+      "?page",
+      "?continent",
+      "?tags",
+      "?sort",
+      "?q=",
+      "start +",
+      "paginated",
+    ]) {
+      expect(
+        block.includes(forbidden),
+        `breadcrumbLd em ${file} não pode referenciar "${forbidden}"`
+      ).toBe(false);
+    }
+
+    // O item de categoria deve ser a URL canônica exata
+    expect(block).toContain(`${basePath}\``);
+  });
 });
 
 describe("JSON-LD — generic validator self-tests", () => {
