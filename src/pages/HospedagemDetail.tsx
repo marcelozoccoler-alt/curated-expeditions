@@ -14,6 +14,7 @@ import { getStayBySlug, stays as allStays } from "@/lib/stays";
 import { getStayImage } from "@/lib/stayImages";
 import { getDestinationBySlug, destinations } from "@/lib/destinations";
 import { getTagsByIds, getBeyondUsualParts, CONTACT } from "@/lib/types";
+import { buildStayKeywords, buildSpeakableSchema } from "@/lib/seoIntents";
 
 const HospedagemDetail = () => {
   const { slug } = useParams();
@@ -102,9 +103,10 @@ const HospedagemDetail = () => {
         title={seoTitle}
         description={seoDescription}
         canonicalPath={`/hospedagens/${stay.slug}`}
+        keywords={buildStayKeywords(stay, dest?.name, dest?.country)}
         ogImage={absoluteImage}
         ogType="article"
-        jsonLd={[faqSchema, lodgeSchema, breadcrumbSchema]}
+        jsonLd={[faqSchema, lodgeSchema, breadcrumbSchema, buildSpeakableSchema(pageUrl)]}
       />
       <Header />
       <WhatsAppButton variant="float" />

@@ -14,6 +14,12 @@ import { stays as allStays } from "@/lib/stays";
 import { getTagsByIds, getHighlightParts, getBeyondUsualParts, CONTACT } from "@/lib/types";
 import { getDestinationImage } from "@/lib/destinationImages";
 import {
+  buildDestinationKeywords,
+  buildDestinationIntentFAQs,
+  mergeFAQs,
+  buildSpeakableSchema,
+} from "@/lib/seoIntents";
+import {
   Accordion,
   AccordionContent,
   AccordionItem,
@@ -58,8 +64,8 @@ const DestinoDetail = () => {
   const pageUrl = `${domain}/destinos/${destination.slug}`;
   const tagLabels = tags.map((t) => t.label);
 
-  // SEO title com country + region + "pacote de viagem" (palavras-chave de busca)
-  const seoTitle = `Pacote de viagem para ${destination.name}, ${destination.country} — Roteiro com curadoria | Create Travel`;
+  // SEO title com country + region + "pacote de viagem" + intent ("o que fazer")
+  const seoTitle = `Pacote de viagem para ${destination.name}, ${destination.country} — O que fazer, melhor época e roteiro | Create Travel`;
   const tagsForDesc = tagLabels.slice(0, 3).join(", ").toLowerCase();
   const introClean = destination.intro.replace(/\s+/g, " ").trim();
   const baseDesc =
@@ -67,18 +73,27 @@ const DestinoDetail = () => {
       ? introClean.slice(0, 110).replace(/[,.;:]\s*\S*$/, "") + "…"
       : introClean;
   const seoDescription =
-    `Pacote de viagem para ${destination.name}: ${baseDesc} Melhor época: ${destination.bestTime.split(";")[0]}. Ideal para ${tagsForDesc}.`.slice(0, 300);
+    `Pacote de viagem para ${destination.name}, ${destination.country}: ${baseDesc} O que fazer, melhor época (${destination.bestTime.split(";")[0]}), onde ficar e roteiros sob medida. Ideal para ${tagsForDesc}.`.slice(0, 300);
+
+  // Keywords semânticas para Google + IAs (ChatGPT, Perplexity, Gemini, AI Overviews)
+  const seoKeywords = buildDestinationKeywords(destination);
+
+  // FAQ expandido: une o autoral com perguntas-intent universais
+  const allFaqs = mergeFAQs(destination.faq, buildDestinationIntentFAQs(destination));
 
   // FAQ JSON-LD
   const faqSchema = {
     "@context": "https://schema.org",
     "@type": "FAQPage",
-    mainEntity: destination.faq.map((f) => ({
+    mainEntity: allFaqs.map((f) => ({
       "@type": "Question",
       name: f.q,
       acceptedAnswer: { "@type": "Answer", text: f.a },
     })),
   };
+
+  // Speakable (assistentes de voz + LLMs)
+  const speakableSchema = buildSpeakableSchema(pageUrl);
 
   // TouristDestination — sinaliza para Google e IA (ChatGPT, Perplexity, Gemini)
   const touristSchema = {
@@ -157,9 +172,10 @@ const DestinoDetail = () => {
         title={seoTitle}
         description={seoDescription}
         canonicalPath={`/destinos/${destination.slug}`}
+        keywords={seoKeywords}
         ogImage={absoluteImage}
         ogType="article"
-        jsonLd={[faqSchema, touristSchema, breadcrumbSchema, tripSchema]}
+        jsonLd={[faqSchema, touristSchema, breadcrumbSchema, tripSchema, speakableSchema]}
       />
       <Header />
       <WhatsAppButton variant="float" />
@@ -375,10 +391,14 @@ const DestinoDetail = () => {
         </section>
       )}
 
-      {/* FAQ */}
+      {/* FAQ — perguntas + intents conversacionais para Google e IAs */}
       <section className="section-padding">
         <div className="container-editorial max-w-4xl">
-          <FAQSection faqs={destination.faq} />
+          <p className="text-caption text-gold mb-3">Perguntas frequentes</p>
+          <h2 className="heading-section mb-8">
+            Perguntas frequentes sobre {destination.name}, {destination.country}
+          </h2>
+          <FAQSection faqs={allFaqs} />
         </div>
       </section>
 
