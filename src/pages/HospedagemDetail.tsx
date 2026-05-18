@@ -14,6 +14,7 @@ import { getStayBySlug, stays as allStays } from "@/lib/stays";
 import { getStayImage } from "@/lib/stayImages";
 import { getDestinationBySlug, destinations } from "@/lib/destinations";
 import { getTagsByIds, getBeyondUsualParts, CONTACT } from "@/lib/types";
+import { buildStayKeywords, buildSpeakableSchema } from "@/lib/seoIntents";
 
 const HospedagemDetail = () => {
   const { slug } = useParams();
