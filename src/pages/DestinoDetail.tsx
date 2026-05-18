@@ -391,10 +391,14 @@ const DestinoDetail = () => {
         </section>
       )}
 
-      {/* FAQ */}
+      {/* FAQ — perguntas + intents conversacionais para Google e IAs */}
       <section className="section-padding">
         <div className="container-editorial max-w-4xl">
-          <FAQSection faqs={destination.faq} />
+          <p className="text-caption text-gold mb-3">Perguntas frequentes</p>
+          <h2 className="heading-section mb-8">
+            Perguntas frequentes sobre {destination.name}, {destination.country}
+          </h2>
+          <FAQSection faqs={allFaqs} />
         </div>
       </section>
 
