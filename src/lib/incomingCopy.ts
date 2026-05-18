@@ -402,6 +402,32 @@ export const INCOMING_COPY: Record<Exclude<Lang, "pt">, IncomingCopy> = {
         "Sag uns, wann du kommen möchtest, und wir melden uns innerhalb von 48 Stunden mit einem Vorschlag.",
       button: "Auf WhatsApp starten",
     },
+    faqs: {
+      heading: "Brasilien-Reise planen — deine Fragen beantwortet",
+      subheading: "Ehrliche Antworten vom Team, das deine Reise gestaltet.",
+      items: [
+        {
+          q: "Was kostet eine maßgeschneiderte Brasilien-Reise mit Create Travel?",
+          a: "Wir verkaufen keine Pauschalreisen, deshalb gibt es keinen Listenpreis. Die Kosten hängen von Saison, Dauer, Hotelkategorie, Inlandsflügen, privaten Guides und Erlebnissen ab. Die meisten unserer maßgeschneiderten Reisen beginnen bei etwa USD 350–500 pro Person/Tag im Boutique-Niveau mit privaten Transfers und kuratierten Erlebnissen — Premium-Lodges und abgelegene Ziele (Amazonas, Pantanal, Fernando de Noronha) liegen darüber. Erzähle uns deine Daten und Träume — du bekommst innerhalb von 48 Stunden ein detailliertes, transparentes Angebot.",
+        },
+        {
+          q: "Warum Brasilien mit Create Travel statt mit einer großen OTA buchen?",
+          a: "Wir sind eine brasilianische Boutique-Agentur (Cadastur 21.030.190/0001-60) mit Sitz in São Paulo. Du sprichst mit einer Reisedesignerin, nicht mit einem Call-Center. Wir haben direkte Beziehungen zu Lodges, Guides und Anbietern — keine Wiederverkäufer, keine Provisionsketten. Jede Reise wird von Hand gestaltet, und eine echte Person ist während der gesamten Reise 24/7 auf WhatsApp erreichbar.",
+        },
+        {
+          q: "Wann ist die beste Reisezeit für Brasilien?",
+          a: "Brasilien ist dank seiner Größe ganzjährig bereisbar. Mai–September ist Trockenzeit im Amazonas und Pantanal (ideal für Tierbeobachtung). Juni–September ist perfekt für die Lençóis Maranhenses (Lagunen voll). Dezember–März ist Hochsaison für Strände (Bahia, Nordosten, Rio). Wir stimmen die Route auf deine Daten ab.",
+        },
+        {
+          q: "Organisiert ihr die gesamte Reise — Flüge, Hotels, Guides, Transfers?",
+          a: "Ja. Wir gestalten die Reise von Anfang bis Ende: internationale und Inlandsflüge, Boutique-Hotels und Lodges, private zweisprachige Guides, Transfers, Charterflüge bei Bedarf, Restaurantreservierungen und besondere Erlebnisse. Eine Reise, ein Team, ein WhatsApp.",
+        },
+        {
+          q: "Ist Brasilien sicher zu bereisen?",
+          a: "Mit lokalem Wissen — ja. Wir wählen die sichersten Viertel, geprüfte Fahrer und vertrauenswürdige Guides und geben dir vernünftige Verhaltensregeln. Unser 24/7-Support vor Ort ist immer nur eine Nachricht entfernt.",
+        },
+      ],
+    },
     back: "Zurück zur Startseite",
   },
 };
