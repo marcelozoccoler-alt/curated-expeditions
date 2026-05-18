@@ -189,12 +189,12 @@ export const getExperienciasSEO = (state: ExperienciasSearchState, totalPages: n
   let description: string;
 
   if (!tagId) {
-    title = "Experiências de viagem — Create Travel";
+    title = "Pacotes de viagem por experiência — Create Travel";
     description =
-      "Explore experiências de viagem com curadoria Create Travel: safári, trekking, gastronomia, lua de mel, cultura e mais. Encontre destinos por tipo de experiência.";
+      "Pacotes de viagem por experiência com curadoria Create Travel: safári, trekking, gastronomia, lua de mel, cultura e mais. Encontre seu roteiro ideal.";
   } else {
-    title = `${tagLabel} — Experiências Create Travel`;
-    description = `Destinos selecionados pela Create Travel para ${tagLabel?.toLowerCase()}. Curadoria de viagens autênticas, exclusivas e com propósito.`;
+    title = `Pacotes de viagem para ${tagLabel} — Create Travel`;
+    description = `Pacotes de viagem selecionados pela Create Travel para ${tagLabel?.toLowerCase()}. Roteiros autênticos, exclusivos e com propósito.`;
   }
 
   if (page > 1) title = `${title} — Página ${page}`;
@@ -254,12 +254,12 @@ export const getHospedagensSEO = (state: HospedagensSearchState, totalPages: num
   let description: string;
 
   if (!singleTagLabel) {
-    title = "Hospedagens com curadoria — Create Travel";
+    title = "Pacotes de viagem com hospedagens selecionadas — Create Travel";
     description =
-      "Seleção Create Travel de hospedagens autorais pelo mundo: lodges, refúgios e hotéis com luxo discreto, ética e propósito.";
+      "Pacotes de viagem com hospedagens autorais selecionadas pela Create Travel: lodges, refúgios e hotéis com luxo discreto, ética e propósito.";
   } else {
-    title = `Hospedagens para ${singleTagLabel} — Create Travel`;
-    description = `Hospedagens selecionadas pela Create Travel para ${singleTagLabel.toLowerCase()}: experiências autênticas, luxo discreto e curadoria.`;
+    title = `Pacotes de viagem com hospedagens para ${singleTagLabel} — Create Travel`;
+    description = `Pacotes de viagem com hospedagens selecionadas pela Create Travel para ${singleTagLabel.toLowerCase()}: experiências autênticas, luxo discreto e curadoria.`;
   }
   if (page > 1) title = `${title} — Página ${page}`;
 

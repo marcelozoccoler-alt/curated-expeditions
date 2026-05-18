@@ -47,8 +47,8 @@ const Regiao = () => {
   return (
     <>
       <SEO
-        title={`${region.label} | Roteiros e curadoria Create Travel`}
-        description={region.metaDescription}
+        title={`Pacote de viagem para ${region.label} — Roteiros Create Travel`}
+        description={`Pacote de viagem para ${region.label} com curadoria Create Travel. ${region.metaDescription}`.slice(0, 300)}
         canonicalPath={`/${region.slug}`}
         ogImage={region.heroImageUrl}
         ogType="article"
