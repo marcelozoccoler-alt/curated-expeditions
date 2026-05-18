@@ -28,7 +28,7 @@ export interface Biome {
 export const BIOMES: Biome[] = [
   {
     id: "amazonia",
-    color: "#0B5D3B",
+    color: "#0E7C4A",
     name: {
       pt: "Amazônia",
       en: "Amazon Rainforest",
@@ -67,7 +67,7 @@ export const BIOMES: Biome[] = [
   },
   {
     id: "cerrado",
-    color: "#C68E3D",
+    color: "#E9A23B",
     name: {
       pt: "Cerrado",
       en: "Cerrado (Brazilian Savanna)",
@@ -106,7 +106,7 @@ export const BIOMES: Biome[] = [
   },
   {
     id: "mata-atlantica",
-    color: "#16653A",
+    color: "#1F8F66",
     name: {
       pt: "Mata Atlântica",
       en: "Atlantic Forest",
@@ -145,7 +145,7 @@ export const BIOMES: Biome[] = [
   },
   {
     id: "caatinga",
-    color: "#D4A574",
+    color: "#C7572B",
     name: {
       pt: "Caatinga",
       en: "Caatinga (Dry Forest)",
@@ -184,7 +184,7 @@ export const BIOMES: Biome[] = [
   },
   {
     id: "pantanal",
-    color: "#3D8A78",
+    color: "#B0913A",
     name: {
       pt: "Pantanal",
       en: "Pantanal Wetlands",
@@ -223,7 +223,7 @@ export const BIOMES: Biome[] = [
   },
   {
     id: "pampa",
-    color: "#88A87A",
+    color: "#8B6FB7",
     name: {
       pt: "Pampa",
       en: "Pampas Grasslands",
@@ -262,7 +262,7 @@ export const BIOMES: Biome[] = [
   },
   {
     id: "costa",
-    color: "#3B85B8",
+    color: "#1E6FB8",
     name: {
       pt: "Costa & Litoral",
       en: "Coast & Islands",
