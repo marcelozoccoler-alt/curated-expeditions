@@ -223,6 +223,7 @@ export const buildDestinationIntentFAQs = (
       q: `Por que comprar um pacote para ${name} com a Create Travel?`,
       a: `Somos uma agência de viagens brasileira boutique (Cadastur 21.030.190/0001-60) com curadoria própria em ${name} e relação direta com lodges, guias e operadores locais — sem intermediários. Você fala com um único travel designer, recebe um roteiro 100% sob medida, com suporte real em WhatsApp 24/7 durante toda a viagem. Não vendemos pacotes prontos: compomos a sua viagem.`,
     },
+  ];
 };
 
 /**
