@@ -12,7 +12,7 @@ import { SEO } from "@/components/SEO";
 import { getStayBySlug, stays as allStays } from "@/lib/stays";
 import { getStayImage } from "@/lib/stayImages";
 import { getDestinationBySlug, destinations } from "@/lib/destinations";
-import { getTagsByIds, CONTACT } from "@/lib/types";
+import { getTagsByIds, getBeyondUsualParts, CONTACT } from "@/lib/types";
 
 const HospedagemDetail = () => {
   const { slug } = useParams();
