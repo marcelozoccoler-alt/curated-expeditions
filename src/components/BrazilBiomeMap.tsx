@@ -101,46 +101,65 @@ export const BrazilBiomeMap = ({ lang }: Props) => {
               strokeLinejoin="round"
             />
 
-            {/* Destination pins */}
-            {INCOMING_DESTINATIONS.map((d) => {
-              const biome = BIOMES_BY_ID[d.biome];
-              const isActive = activeDestSlug === d.slug;
-              const isHighlighted = activeBiome === null || activeBiome === d.biome;
-              return (
-                <g
-                  key={d.slug}
-                  transform={`translate(${(DEST_COORDS[d.slug] ?? d.map).x} ${(DEST_COORDS[d.slug] ?? d.map).y})`}
-                  onClick={(e) => {
-                    e.stopPropagation();
-                    setActiveDestSlug(d.slug);
-                  }}
-                  onMouseEnter={() => setActiveBiome(d.biome)}
-                  onMouseLeave={() => setActiveBiome(null)}
-                  className="cursor-pointer"
-                  opacity={isHighlighted ? 1 : 0.3}
-                >
-                  <circle
-                    r={isActive ? 9 : 6}
-                    fill="hsl(var(--gold))"
-                    stroke={biome.color}
-                    strokeWidth="2"
-                    className="transition-all duration-200"
-                  />
-                  <circle r={2.5} fill="hsl(var(--primary))" />
-                  <text
-                    x={10}
-                    y={4}
-                    fontSize="11"
-                    fontFamily="Inter, sans-serif"
-                    fontWeight={isActive ? 600 : 500}
-                    fill="hsl(var(--foreground))"
-                    style={{ paintOrder: "stroke", stroke: "hsl(var(--background))", strokeWidth: 3, strokeLinejoin: "round" }}
+            {/* Destination pins. Per-slug label placement avoids NE/Noronha collisions. */}
+            {(() => {
+              const LABEL_OVERRIDES: Record<string, { dx: number; dy: number; anchor: "start" | "end" | "middle" }> = {
+                "fernando-de-noronha": { dx: -10, dy: 4, anchor: "end" },
+                "jericoacoara": { dx: 10, dy: -6, anchor: "start" },
+                "lencois-maranhenses": { dx: 10, dy: 4, anchor: "start" },
+                "rota-emocoes": { dx: -10, dy: 14, anchor: "end" },
+                "alter-do-chao": { dx: 10, dy: -6, anchor: "start" },
+                "amazon": { dx: -10, dy: 4, anchor: "end" },
+                "maragogi": { dx: 10, dy: 4, anchor: "start" },
+                "chapada-diamantina": { dx: -10, dy: -6, anchor: "end" },
+                "bahia": { dx: 10, dy: 8, anchor: "start" },
+                "chapada-dos-veadeiros": { dx: -10, dy: 4, anchor: "end" },
+                "jalapao": { dx: -10, dy: 4, anchor: "end" },
+              };
+              const DEFAULT_LABEL = { dx: 10, dy: 4, anchor: "start" as const };
+              return INCOMING_DESTINATIONS.map((d) => {
+                const biome = BIOMES_BY_ID[d.biome];
+                const isActive = activeDestSlug === d.slug;
+                const isHighlighted = activeBiome === null || activeBiome === d.biome;
+                const pos = DEST_COORDS[d.slug] ?? d.map;
+                const label = LABEL_OVERRIDES[d.slug] ?? DEFAULT_LABEL;
+                return (
+                  <g
+                    key={d.slug}
+                    transform={`translate(${pos.x} ${pos.y})`}
+                    onClick={(e) => {
+                      e.stopPropagation();
+                      setActiveDestSlug(d.slug);
+                    }}
+                    onMouseEnter={() => setActiveBiome(d.biome)}
+                    onMouseLeave={() => setActiveBiome(null)}
+                    className="cursor-pointer"
+                    opacity={isHighlighted ? 1 : 0.3}
                   >
-                    {d.name[lang]}
-                  </text>
-                </g>
-              );
-            })}
+                    <circle
+                      r={isActive ? 9 : 6}
+                      fill="hsl(var(--gold))"
+                      stroke={biome.color}
+                      strokeWidth="2"
+                      className="transition-all duration-200"
+                    />
+                    <circle r={2.5} fill="hsl(var(--primary))" />
+                    <text
+                      x={label.dx}
+                      y={label.dy}
+                      textAnchor={label.anchor}
+                      fontSize="11"
+                      fontFamily="Inter, sans-serif"
+                      fontWeight={isActive ? 600 : 500}
+                      fill="hsl(var(--foreground))"
+                      style={{ paintOrder: "stroke", stroke: "hsl(var(--background))", strokeWidth: 3, strokeLinejoin: "round" }}
+                    >
+                      {d.name[lang]}
+                    </text>
+                  </g>
+                );
+              });
+            })()}
           </svg>
         </div>
 
