@@ -143,6 +143,24 @@ const Incoming = () => {
         </div>
       </section>
 
+      {/* Brazil by biomes — interactive map */}
+      <section className="py-20 lg:py-28 bg-muted/20">
+        <div className="container-editorial">
+          <div className="max-w-2xl mb-12">
+            <p className="text-xs uppercase tracking-[0.25em] text-gold mb-3">
+              {copy.biomesMap.eyebrow}
+            </p>
+            <h2 className="font-serif text-3xl md:text-4xl mb-4 text-foreground">
+              {copy.biomesMap.heading}
+            </h2>
+            <p className="text-muted-foreground text-lg">
+              {copy.biomesMap.subheading}
+            </p>
+          </div>
+          <BrazilBiomeMap lang={lang} />
+        </div>
+      </section>
+
       {/* Destinations grid */}
       <section className="py-20 lg:py-28 bg-muted/30">
         <div className="container-editorial">
