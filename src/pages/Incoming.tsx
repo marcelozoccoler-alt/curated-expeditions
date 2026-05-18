@@ -68,11 +68,11 @@ const Incoming = () => {
       <Header />
 
       {/* Hero */}
-      <section className="relative pt-32 pb-20 lg:pt-40 lg:pb-28 overflow-hidden">
+      <section className="relative pt-32 pb-20 lg:pt-40 lg:pb-28 overflow-hidden min-h-[80vh] flex items-center">
         <div
           className="absolute inset-0 -z-10 bg-cover bg-center"
           style={{
-            backgroundImage: `linear-gradient(to bottom, hsl(var(--primary) / 0.85), hsl(var(--primary) / 0.7)), url(${INCOMING_DESTINATIONS[0].image})`,
+            backgroundImage: `linear-gradient(to bottom, hsl(var(--primary) / 0.55) 0%, hsl(var(--primary) / 0.45) 50%, hsl(var(--primary) / 0.85) 100%), url(${biomesHero})`,
           }}
         />
         <div className="container-editorial relative text-primary-foreground">
