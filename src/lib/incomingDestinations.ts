@@ -18,6 +18,8 @@ import maragogiImg from "@/assets/destinations/brasil-litoral-alagoano.jpg";
 import floripaImg from "@/assets/destinations/brasil-litoral-santa-catarina.jpg";
 import rotaEmocoesImg from "@/assets/destinations/brasil-rota-das-emocoes.jpg";
 
+import type { BiomeId } from "./biomes";
+
 export interface IncomingDestination {
   slug: string;
   image: string;
@@ -25,6 +27,10 @@ export interface IncomingDestination {
   name: Record<Lang, string>;
   /** One-line editorial blurb in each language */
   blurb: Record<Lang, string>;
+  /** Primary biome this destination belongs to */
+  biome: BiomeId;
+  /** Approximate position on the stylized Brazil SVG (viewBox 0 0 600 700) */
+  map: { x: number; y: number };
 }
 
 export const INCOMING_DESTINATIONS: IncomingDestination[] = [
