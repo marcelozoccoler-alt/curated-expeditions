@@ -4,35 +4,22 @@ import { MapPin, X } from "lucide-react";
 import type { Lang } from "@/i18n/config";
 import { BIOMES, BIOMES_BY_ID, type BiomeId } from "@/lib/biomes";
 import { INCOMING_DESTINATIONS } from "@/lib/incomingDestinations";
+import { BRAZIL_OUTLINE, BIOME_REGION_PATHS, DEST_COORDS, PANTANAL_PATH } from "@/lib/brazilGeo";
 
 /**
- * Stylized Brazil silhouette + biome zones — editorial, not cartographic.
- * Coordinates use a 600 × 700 viewBox roughly aligned with lon/lat:
- *   x = (lon + 74) * 15      y = (5 − lat) * 17.95
- * The shapes are hand-crafted to evoke each biome's footprint without
- * pretending to be a survey map.
+ * Brazil map by biomes — built from real GeoJSON (Brazilian state borders)
+ * projected into a 600×700 viewBox via equirectangular projection.
+ * Biome regions are state-grouped (editorial, not survey-grade).
  */
-
-// Simplified Brazil outline (clip-path for biome regions)
-const BRAZIL_OUTLINE =
-  "M 337 17 L 380 25 L 430 35 L 460 60 L 500 90 L 540 115 L 580 150 L 595 200 L 590 250 L 575 300 L 555 340 L 540 380 L 525 420 L 500 460 L 470 500 L 445 540 L 415 575 L 385 605 L 365 640 L 340 670 L 310 690 L 270 685 L 240 650 L 245 600 L 235 545 L 210 500 L 195 460 L 165 430 L 130 395 L 100 360 L 70 320 L 45 280 L 25 240 L 15 195 L 18 150 L 30 110 L 60 75 L 100 50 L 145 30 L 200 15 L 260 8 L 310 12 Z";
-
-// Biome region paths — stylized, designed to read at a glance
 const BIOME_PATHS: Record<BiomeId, string> = {
-  amazonia:
-    "M 18 150 L 30 110 L 60 75 L 100 50 L 145 30 L 200 15 L 260 8 L 310 12 L 337 17 L 350 80 L 360 150 L 340 220 L 310 270 L 270 290 L 220 295 L 170 280 L 130 260 L 90 230 L 55 200 L 25 180 Z",
-  cerrado:
-    "M 350 80 L 430 35 L 470 80 L 490 140 L 500 200 L 495 270 L 480 340 L 450 400 L 410 430 L 370 425 L 335 395 L 320 340 L 315 280 L 320 220 L 335 150 Z",
-  caatinga:
-    "M 470 80 L 540 115 L 580 150 L 595 200 L 590 250 L 575 300 L 555 340 L 525 380 L 490 380 L 460 350 L 445 300 L 450 240 L 470 180 L 480 130 Z",
-  "mata-atlantica":
-    "M 525 380 L 555 340 L 540 380 L 525 420 L 500 460 L 470 500 L 445 540 L 415 575 L 385 605 L 360 590 L 360 540 L 380 490 L 410 450 L 445 410 L 485 390 Z",
-  pantanal:
-    "M 220 295 L 270 290 L 310 320 L 320 370 L 305 420 L 275 450 L 240 460 L 215 430 L 205 380 L 210 330 Z",
-  pampa:
-    "M 240 650 L 245 600 L 270 580 L 320 580 L 360 590 L 385 605 L 365 640 L 340 670 L 310 690 L 270 685 Z",
-  costa:
-    "M 337 17 L 380 25 L 430 35 L 470 80 L 480 130 L 510 110 L 555 130 L 590 175 L 600 220 L 595 200 L 580 150 L 540 115 L 500 90 L 460 60 Z",
+  amazonia: BIOME_REGION_PATHS["amazonia"],
+  cerrado: BIOME_REGION_PATHS["cerrado"],
+  caatinga: BIOME_REGION_PATHS["caatinga"],
+  "mata-atlantica": BIOME_REGION_PATHS["mata-atlantica"],
+  pantanal: PANTANAL_PATH,
+  pampa: BIOME_REGION_PATHS["pampa"],
+  // Costa is implicit along the coastline (no fill region)
+  costa: "",
 };
 
 interface Props {
@@ -114,46 +101,65 @@ export const BrazilBiomeMap = ({ lang }: Props) => {
               strokeLinejoin="round"
             />
 
-            {/* Destination pins */}
-            {INCOMING_DESTINATIONS.map((d) => {
-              const biome = BIOMES_BY_ID[d.biome];
-              const isActive = activeDestSlug === d.slug;
-              const isHighlighted = activeBiome === null || activeBiome === d.biome;
-              return (
-                <g
-                  key={d.slug}
-                  transform={`translate(${d.map.x} ${d.map.y})`}
-                  onClick={(e) => {
-                    e.stopPropagation();
-                    setActiveDestSlug(d.slug);
-                  }}
-                  onMouseEnter={() => setActiveBiome(d.biome)}
-                  onMouseLeave={() => setActiveBiome(null)}
-                  className="cursor-pointer"
-                  opacity={isHighlighted ? 1 : 0.3}
-                >
-                  <circle
-                    r={isActive ? 9 : 6}
-                    fill="hsl(var(--gold))"
-                    stroke={biome.color}
-                    strokeWidth="2"
-                    className="transition-all duration-200"
-                  />
-                  <circle r={2.5} fill="hsl(var(--primary))" />
-                  <text
-                    x={10}
-                    y={4}
-                    fontSize="11"
-                    fontFamily="Inter, sans-serif"
-                    fontWeight={isActive ? 600 : 500}
-                    fill="hsl(var(--foreground))"
-                    style={{ paintOrder: "stroke", stroke: "hsl(var(--background))", strokeWidth: 3, strokeLinejoin: "round" }}
+            {/* Destination pins. Per-slug label placement avoids NE/Noronha collisions. */}
+            {(() => {
+              const LABEL_OVERRIDES: Record<string, { dx: number; dy: number; anchor: "start" | "end" | "middle" }> = {
+                "fernando-de-noronha": { dx: -10, dy: 4, anchor: "end" },
+                "jericoacoara": { dx: 10, dy: -6, anchor: "start" },
+                "lencois-maranhenses": { dx: 10, dy: 4, anchor: "start" },
+                "rota-emocoes": { dx: -10, dy: 14, anchor: "end" },
+                "alter-do-chao": { dx: 10, dy: -6, anchor: "start" },
+                "amazon": { dx: -10, dy: 4, anchor: "end" },
+                "maragogi": { dx: 10, dy: 4, anchor: "start" },
+                "chapada-diamantina": { dx: -10, dy: -6, anchor: "end" },
+                "bahia": { dx: 10, dy: 8, anchor: "start" },
+                "chapada-dos-veadeiros": { dx: -10, dy: 4, anchor: "end" },
+                "jalapao": { dx: -10, dy: 4, anchor: "end" },
+              };
+              const DEFAULT_LABEL = { dx: 10, dy: 4, anchor: "start" as const };
+              return INCOMING_DESTINATIONS.map((d) => {
+                const biome = BIOMES_BY_ID[d.biome];
+                const isActive = activeDestSlug === d.slug;
+                const isHighlighted = activeBiome === null || activeBiome === d.biome;
+                const pos = DEST_COORDS[d.slug] ?? d.map;
+                const label = LABEL_OVERRIDES[d.slug] ?? DEFAULT_LABEL;
+                return (
+                  <g
+                    key={d.slug}
+                    transform={`translate(${pos.x} ${pos.y})`}
+                    onClick={(e) => {
+                      e.stopPropagation();
+                      setActiveDestSlug(d.slug);
+                    }}
+                    onMouseEnter={() => setActiveBiome(d.biome)}
+                    onMouseLeave={() => setActiveBiome(null)}
+                    className="cursor-pointer"
+                    opacity={isHighlighted ? 1 : 0.3}
                   >
-                    {d.name[lang]}
-                  </text>
-                </g>
-              );
-            })}
+                    <circle
+                      r={isActive ? 9 : 6}
+                      fill="hsl(var(--gold))"
+                      stroke={biome.color}
+                      strokeWidth="2"
+                      className="transition-all duration-200"
+                    />
+                    <circle r={2.5} fill="hsl(var(--primary))" />
+                    <text
+                      x={label.dx}
+                      y={label.dy}
+                      textAnchor={label.anchor}
+                      fontSize="11"
+                      fontFamily="Inter, sans-serif"
+                      fontWeight={isActive ? 600 : 500}
+                      fill="hsl(var(--foreground))"
+                      style={{ paintOrder: "stroke", stroke: "hsl(var(--background))", strokeWidth: 3, strokeLinejoin: "round" }}
+                    >
+                      {d.name[lang]}
+                    </text>
+                  </g>
+                );
+              });
+            })()}
           </svg>
         </div>
 
