@@ -58,8 +58,8 @@ const DestinoDetail = () => {
   const pageUrl = `${domain}/destinos/${destination.slug}`;
   const tagLabels = tags.map((t) => t.label);
 
-  // SEO title com country + region (palavras-chave para Google e IA)
-  const seoTitle = `${destination.name}, ${destination.country} — Roteiro com curadoria | Create Travel`;
+  // SEO title com country + region + "pacote de viagem" (palavras-chave de busca)
+  const seoTitle = `Pacote de viagem para ${destination.name}, ${destination.country} — Roteiro com curadoria | Create Travel`;
   const tagsForDesc = tagLabels.slice(0, 3).join(", ").toLowerCase();
   const introClean = destination.intro.replace(/\s+/g, " ").trim();
   const baseDesc =
@@ -67,7 +67,7 @@ const DestinoDetail = () => {
       ? introClean.slice(0, 110).replace(/[,.;:]\s*\S*$/, "") + "…"
       : introClean;
   const seoDescription =
-    `${baseDesc} Melhor época: ${destination.bestTime.split(";")[0]}. Ideal para ${tagsForDesc}.`.slice(0, 300);
+    `Pacote de viagem para ${destination.name}: ${baseDesc} Melhor época: ${destination.bestTime.split(";")[0]}. Ideal para ${tagsForDesc}.`.slice(0, 300);
 
   // FAQ JSON-LD
   const faqSchema = {
