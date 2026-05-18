@@ -50,6 +50,16 @@ const Incoming = () => {
     knowsLanguage: ["pt-BR", "en", "es", "it", "de"],
   };
 
+  const faqJsonLd = {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    mainEntity: copy.faqs.items.map((item) => ({
+      "@type": "Question",
+      name: item.q,
+      acceptedAnswer: { "@type": "Answer", text: item.a },
+    })),
+  };
+
   return (
     <div className="min-h-screen bg-background">
       <Helmet>
@@ -62,6 +72,7 @@ const Incoming = () => {
         <meta property="og:url" content={`${SITE_URL}/${lang}/incoming`} />
         <meta property="og:type" content="website" />
         <script type="application/ld+json">{JSON.stringify(jsonLd)}</script>
+        <script type="application/ld+json">{JSON.stringify(faqJsonLd)}</script>
       </Helmet>
       <HreflangTags basePath="/incoming" />
 
@@ -245,6 +256,30 @@ const Incoming = () => {
             <p className="text-base md:text-lg leading-relaxed text-muted-foreground italic">
               {copy.expertise.biomes}
             </p>
+          </div>
+        </div>
+      </section>
+
+      {/* FAQ — semantic SEO for AI Overviews + ChatGPT/Perplexity */}
+      <section className="py-20 lg:py-28">
+        <div className="container-editorial max-w-3xl">
+          <h2 className="font-serif text-3xl md:text-4xl mb-3 text-foreground">
+            {copy.faqs.heading}
+          </h2>
+          <p className="text-muted-foreground text-lg mb-12">
+            {copy.faqs.subheading}
+          </p>
+          <div className="space-y-8">
+            {copy.faqs.items.map((item) => (
+              <div key={item.q} className="border-l-2 border-gold pl-6 py-1">
+                <h3 className="faq-question font-serif text-xl md:text-2xl mb-3 text-foreground">
+                  {item.q}
+                </h3>
+                <p className="faq-answer text-base md:text-lg leading-relaxed text-muted-foreground">
+                  {item.a}
+                </p>
+              </div>
+            ))}
           </div>
         </div>
       </section>

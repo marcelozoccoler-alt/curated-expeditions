@@ -70,6 +70,29 @@ export const buildDestinationKeywords = (destination: Destination): string => {
     `${t} ${country}`,
   ]);
 
+  // Variações reais de busca (Semrush BR, brasileiros buscam de forma encurtada)
+  const popularShortForms = [
+    `pacote ${name}`,
+    `pacotes ${name}`,
+    `viagem ${name}`,
+    `viagem para ${name}`,
+    `viagens ${name}`,
+    `passagem para ${name}`,
+    `passagens para ${name}`,
+    `voos para ${name}`,
+    `hotel em ${name}`,
+    `hospedagem em ${name}`,
+    `quanto custa viagem para ${name}`,
+    `quanto custa pacote para ${name}`,
+    `quanto custa pacote de viagem para ${name}`,
+    `${name} tudo incluso`,
+    `pacote ${name} tudo incluso`,
+    `melhor site para pacote de viagem`,
+    `onde comprar pacote de viagem`,
+    `roteiro ${name}`,
+    `roteiro ${name} ${country}`,
+  ];
+
   return dedupe([
     name,
     `${name}, ${country}`,
@@ -78,6 +101,7 @@ export const buildDestinationKeywords = (destination: Destination): string => {
     `${region}, ${country}`,
     country,
     ...intents,
+    ...popularShortForms,
     ...tagLabels,
     ...tagIntents,
     "Create Travel",
@@ -121,9 +145,20 @@ export const buildPlaceKeywords = (
   return dedupe([
     placeName,
     `${placeName}${ctx}`,
+    `pacote ${placeName}`,
+    `pacotes ${placeName}`,
     `pacote de viagem ${placeName}`,
     `pacote de viagem para ${placeName}`,
+    `viagem ${placeName}`,
+    `viagem para ${placeName}`,
+    `passagem para ${placeName}`,
+    `voos para ${placeName}`,
+    `hotel em ${placeName}`,
+    `hospedagem em ${placeName}`,
+    `quanto custa viagem para ${placeName}`,
+    `quanto custa pacote de viagem para ${placeName}`,
     `roteiro de viagem ${placeName}`,
+    `roteiro ${placeName}`,
     `o que fazer em ${placeName}`,
     `o que fazer em ${placeName}${ctx}`,
     `melhor época para visitar ${placeName}`,
@@ -132,8 +167,9 @@ export const buildPlaceKeywords = (
     `turismo ${placeName}`,
     `pontos turísticos ${placeName}`,
     `atrações em ${placeName}`,
-    `viagem ${placeName}`,
     `viagem sob medida ${placeName}`,
+    `${placeName} tudo incluso`,
+    `melhor site para pacote de viagem`,
     ...extraTerms,
     "Create Travel",
   ]).join(", ");
@@ -178,6 +214,14 @@ export const buildDestinationIntentFAQs = (
     {
       q: `Onde ficar em ${name}?`,
       a: `Selecionamos hospedagens autorais em ${name} — lodges, pousadas-boutique e hotéis com luxo discreto, sempre alinhados ao ritmo do destino e ao perfil do viajante. A Create Travel sugere as melhores opções dentro do seu briefing.`,
+    },
+    {
+      q: `Quanto custa um pacote de viagem para ${name}?`,
+      a: `O valor de um pacote de viagem para ${name}, ${country} varia conforme período, perfil de hospedagem, número de viajantes, experiências privativas e voos. Como cada roteiro é sob medida, não trabalhamos com preço de tabela: você nos conta o briefing pelo WhatsApp e em até 48h recebe uma proposta detalhada e transparente, com tudo incluso — hospedagem, transfers, guias e experiências.`,
+    },
+    {
+      q: `Por que comprar um pacote para ${name} com a Create Travel?`,
+      a: `Somos uma agência de viagens brasileira boutique (Cadastur 21.030.190/0001-60) com curadoria própria em ${name} e relação direta com lodges, guias e operadores locais — sem intermediários. Você fala com um único travel designer, recebe um roteiro 100% sob medida, com suporte real em WhatsApp 24/7 durante toda a viagem. Não vendemos pacotes prontos: compomos a sua viagem.`,
     },
   ];
 };
