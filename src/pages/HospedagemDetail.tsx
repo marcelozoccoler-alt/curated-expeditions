@@ -9,10 +9,11 @@ import { Breadcrumbs } from "@/components/Breadcrumbs";
 import { FAQSection } from "@/components/FAQSection";
 import { StayCard } from "@/components/StayCard";
 import { SEO } from "@/components/SEO";
+import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion";
 import { getStayBySlug, stays as allStays } from "@/lib/stays";
 import { getStayImage } from "@/lib/stayImages";
 import { getDestinationBySlug, destinations } from "@/lib/destinations";
-import { getTagsByIds, CONTACT } from "@/lib/types";
+import { getTagsByIds, getBeyondUsualParts, CONTACT } from "@/lib/types";
 
 const HospedagemDetail = () => {
   const { slug } = useParams();
@@ -183,16 +184,40 @@ const HospedagemDetail = () => {
                 <Sparkles className="text-gold" size={28} />
                 Além do óbvio
               </h2>
-              <div className="space-y-3">
-                {stay.beyondUsual.map((b, i) => (
-                  <div
-                    key={i}
-                    className="p-5 md:p-6 rounded-lg border border-border bg-card shadow-sm"
-                  >
-                    <p className="text-foreground leading-relaxed">{b}</p>
-                  </div>
-                ))}
-              </div>
+              {stay.beyondUsual.some((b) => getBeyondUsualParts(b).story) && (
+                <p className="text-sm text-muted-foreground -mt-2">
+                  Clique em cada item para sentir o que torna a experiência única.
+                </p>
+              )}
+              <Accordion type="multiple" className="space-y-3">
+                {stay.beyondUsual.map((b, i) => {
+                  const { title, story } = getBeyondUsualParts(b);
+                  if (!story) {
+                    return (
+                      <div
+                        key={i}
+                        className="p-5 md:p-6 rounded-lg border border-border bg-card shadow-sm"
+                      >
+                        <p className="text-foreground leading-relaxed">{title}</p>
+                      </div>
+                    );
+                  }
+                  return (
+                    <AccordionItem
+                      key={i}
+                      value={`b-${i}`}
+                      className="rounded-lg border border-border bg-card shadow-sm px-5"
+                    >
+                      <AccordionTrigger className="hover:no-underline py-4 text-left">
+                        <span className="text-foreground font-medium pr-2">{title}</span>
+                      </AccordionTrigger>
+                      <AccordionContent className="pb-5 pr-1 text-foreground/85 leading-relaxed text-[15px]">
+                        {story}
+                      </AccordionContent>
+                    </AccordionItem>
+                  );
+                })}
+              </Accordion>
             </div>
 
             {/* Best time card */}

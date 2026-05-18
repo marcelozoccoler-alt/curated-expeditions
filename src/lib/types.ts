@@ -59,6 +59,20 @@ export const getHighlightParts = (h: Highlight): { title: string; story?: string
   return { title: h.title, story: h.story };
 };
 
+// BeyondUsual rico: pode ser apenas string (compat) ou {title, story}
+export interface BeyondUsualDetail {
+  title: string;
+  /** Texto sensorial e inspirador que desperta o desejo de viver a experiência. */
+  story: string;
+}
+
+export type BeyondUsualItem = string | BeyondUsualDetail;
+
+export const getBeyondUsualParts = (b: BeyondUsualItem): { title: string; story?: string } => {
+  if (typeof b === "string") return { title: b };
+  return { title: b.title, story: b.story };
+};
+
 // Destination interface
 export interface Destination {
   id: string;
@@ -73,7 +87,7 @@ export interface Destination {
   imageOverrideUrl: string;
   intro: string;
   highlights: Highlight[];
-  beyondUsual: string[];
+  beyondUsual: BeyondUsualItem[];
   stays: string[];
   faq: FAQ[];
 }
@@ -88,7 +102,7 @@ export interface Stay {
   imageAiPrompt: string;
   imageOverrideUrl: string;
   whySelected: string;
-  beyondUsual: string[];
+  beyondUsual: BeyondUsualItem[];
   faq: FAQ[];
 }
 
