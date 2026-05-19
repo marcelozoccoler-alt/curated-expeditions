@@ -15,6 +15,7 @@ import { getStayImage } from "@/lib/stayImages";
 import { getDestinationBySlug, destinations } from "@/lib/destinations";
 import { getTagsByIds, getBeyondUsualParts, CONTACT } from "@/lib/types";
 import { buildStayKeywords, buildSpeakableSchema } from "@/lib/seoIntents";
+import { enrichBeyondUsualStory } from "@/lib/beyondUsualEnricher";
 
 const HospedagemDetail = () => {
   const { slug } = useParams();
@@ -186,24 +187,23 @@ const HospedagemDetail = () => {
                 <Sparkles className="text-gold" size={28} />
                 Além do óbvio
               </h2>
-              {stay.beyondUsual.some((b) => getBeyondUsualParts(b).story) && (
+              {stay.beyondUsual.length > 0 && (
                 <p className="text-sm text-muted-foreground -mt-2">
-                  Clique em cada item para sentir o que torna a experiência única.
+                  Clique em cada item para sentir o que torna a experiência única — e por que ela só existe assim com a curadoria Create Travel.
                 </p>
               )}
               <Accordion type="multiple" className="space-y-3">
                 {stay.beyondUsual.map((b, i) => {
                   const { title, story } = getBeyondUsualParts(b);
-                  if (!story) {
-                    return (
-                      <div
-                        key={i}
-                        className="p-5 md:p-6 rounded-lg border border-border bg-card shadow-sm"
-                      >
-                        <p className="text-foreground leading-relaxed">{title}</p>
-                      </div>
-                    );
-                  }
+                  const cleanTitle = title.replace(/\.$/, "");
+                  const finalStory =
+                    story ||
+                    enrichBeyondUsualStory(cleanTitle, {
+                      placeName: dest?.name || stay.name,
+                      region: dest?.region,
+                      country: dest?.country,
+                      kind: "hospedagem",
+                    });
                   return (
                     <AccordionItem
                       key={i}
@@ -211,10 +211,10 @@ const HospedagemDetail = () => {
                       className="rounded-lg border border-border bg-card shadow-sm px-5"
                     >
                       <AccordionTrigger className="hover:no-underline py-4 text-left">
-                        <span className="text-foreground font-medium pr-2">{title}</span>
+                        <span className="text-foreground font-medium pr-2">{cleanTitle}</span>
                       </AccordionTrigger>
                       <AccordionContent className="pb-5 pr-1 text-foreground/85 leading-relaxed text-[15px]">
-                        {story}
+                        {finalStory}
                       </AccordionContent>
                     </AccordionItem>
                   );
