@@ -1,3 +1,4 @@
+import { ChevronDown } from "lucide-react";
 import { Link } from "react-router-dom";
 import { destinations } from "@/lib/destinations";
 import {
@@ -80,36 +81,65 @@ export const PortfolioIndex = () => {
               Viagens Nacionais
             </h3>
 
-            <div className="grid sm:grid-cols-2 gap-x-8 gap-y-10">
-              {brByMacro.map(({ macro, states }) => (
-                <div key={macro} className="space-y-4 break-inside-avoid">
-                  <h4 className="text-xs uppercase tracking-[0.18em] text-gold font-semibold">
-                    {macro}
-                  </h4>
-                  {states.map((s) => (
-                    <div key={s.slug} className="text-sm">
-                      <Link
-                        to={`/brasil/${s.slug}`}
-                        className="block font-medium text-foreground hover:text-gold transition-colors"
-                      >
-                        {s.name}
-                      </Link>
-                      <ul className="mt-1.5 ml-3 space-y-1 border-l border-border/70 pl-3">
-                        {s.dests.map((d) => (
-                          <li key={d.id}>
+            <div className="grid sm:grid-cols-2 gap-x-8 gap-y-6">
+              {brByMacro.map(({ macro, states }, idx) => (
+                <details
+                  key={macro}
+                  open={idx < 2}
+                  className="group break-inside-avoid border-b border-border/60 pb-4"
+                >
+                  <summary className="flex items-center justify-between cursor-pointer list-none text-xs uppercase tracking-[0.18em] text-gold font-semibold py-2">
+                    <span>
+                      {macro}
+                      <span className="ml-2 text-muted-foreground/70 normal-case tracking-normal font-normal">
+                        ({states.reduce((n, s) => n + s.dests.length, 0)})
+                      </span>
+                    </span>
+                    <ChevronDown
+                      size={14}
+                      className="transition-transform group-open:rotate-180 text-muted-foreground"
+                    />
+                  </summary>
+                  <div className="mt-3 space-y-3">
+                    {states.map((s) => (
+                      <details key={s.slug} className="group/state text-sm">
+                        <summary className="flex items-center justify-between cursor-pointer list-none font-medium text-foreground hover:text-gold transition-colors py-1">
+                          <span>
+                            {s.name}
+                            <span className="ml-2 text-xs text-muted-foreground/70 font-normal">
+                              ({s.dests.length})
+                            </span>
+                          </span>
+                          <ChevronDown
+                            size={12}
+                            className="transition-transform group-open/state:rotate-180 text-muted-foreground"
+                          />
+                        </summary>
+                        <ul className="mt-1.5 ml-3 space-y-1 border-l border-border/70 pl-3">
+                          <li>
                             <Link
-                              to={`/destinos/${d.slug}`}
-                              className="text-muted-foreground hover:text-gold transition-colors"
+                              to={`/brasil/${s.slug}`}
+                              className="text-xs uppercase tracking-wider text-gold/80 hover:text-gold"
                             >
-                              <span className="text-gold/60 mr-1">•</span>
-                              {d.name}
+                              Ver estado →
                             </Link>
                           </li>
-                        ))}
-                      </ul>
-                    </div>
-                  ))}
-                </div>
+                          {s.dests.map((d) => (
+                            <li key={d.id}>
+                              <Link
+                                to={`/destinos/${d.slug}`}
+                                className="text-muted-foreground hover:text-gold transition-colors"
+                              >
+                                <span className="text-gold/60 mr-1">•</span>
+                                {d.name}
+                              </Link>
+                            </li>
+                          ))}
+                        </ul>
+                      </details>
+                    ))}
+                  </div>
+                </details>
               ))}
             </div>
           </div>
@@ -120,31 +150,57 @@ export const PortfolioIndex = () => {
               Viagens Internacionais
             </h3>
 
-            <div className="grid sm:grid-cols-2 gap-x-8 gap-y-10">
-              {intlByContinent.map(({ continent, countries }) => (
-                <div key={continent} className="space-y-4 break-inside-avoid">
-                  <h4 className="text-xs uppercase tracking-[0.18em] text-gold font-semibold">
-                    {continent}
-                  </h4>
-                  {countries.map(({ country, dests }) => (
-                    <div key={country} className="text-sm">
-                      <p className="font-medium text-foreground">{country}</p>
-                      <ul className="mt-1.5 ml-3 space-y-1 border-l border-border/70 pl-3">
-                        {dests.map((d) => (
-                          <li key={d.id}>
-                            <Link
-                              to={`/destinos/${d.slug}`}
-                              className="text-muted-foreground hover:text-gold transition-colors"
-                            >
-                              <span className="text-gold/60 mr-1">•</span>
-                              {d.name}
-                            </Link>
-                          </li>
-                        ))}
-                      </ul>
-                    </div>
-                  ))}
-                </div>
+            <div className="grid sm:grid-cols-2 gap-x-8 gap-y-6">
+              {intlByContinent.map(({ continent, countries }, idx) => (
+                <details
+                  key={continent}
+                  open={idx < 2}
+                  className="group break-inside-avoid border-b border-border/60 pb-4"
+                >
+                  <summary className="flex items-center justify-between cursor-pointer list-none text-xs uppercase tracking-[0.18em] text-gold font-semibold py-2">
+                    <span>
+                      {continent}
+                      <span className="ml-2 text-muted-foreground/70 normal-case tracking-normal font-normal">
+                        ({countries.reduce((n, c) => n + c.dests.length, 0)})
+                      </span>
+                    </span>
+                    <ChevronDown
+                      size={14}
+                      className="transition-transform group-open:rotate-180 text-muted-foreground"
+                    />
+                  </summary>
+                  <div className="mt-3 space-y-3">
+                    {countries.map(({ country, dests }) => (
+                      <details key={country} className="group/country text-sm">
+                        <summary className="flex items-center justify-between cursor-pointer list-none font-medium text-foreground hover:text-gold transition-colors py-1">
+                          <span>
+                            {country}
+                            <span className="ml-2 text-xs text-muted-foreground/70 font-normal">
+                              ({dests.length})
+                            </span>
+                          </span>
+                          <ChevronDown
+                            size={12}
+                            className="transition-transform group-open/country:rotate-180 text-muted-foreground"
+                          />
+                        </summary>
+                        <ul className="mt-1.5 ml-3 space-y-1 border-l border-border/70 pl-3">
+                          {dests.map((d) => (
+                            <li key={d.id}>
+                              <Link
+                                to={`/destinos/${d.slug}`}
+                                className="text-muted-foreground hover:text-gold transition-colors"
+                              >
+                                <span className="text-gold/60 mr-1">•</span>
+                                {d.name}
+                              </Link>
+                            </li>
+                          ))}
+                        </ul>
+                      </details>
+                    ))}
+                  </div>
+                </details>
               ))}
             </div>
           </div>
