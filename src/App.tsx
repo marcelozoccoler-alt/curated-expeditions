@@ -15,6 +15,7 @@ import GrupoMarrocos2026 from "./pages/GrupoMarrocos2026";
 import BrasilEstados from "./pages/BrasilEstados";
 import BrasilEstado from "./pages/BrasilEstado";
 import Incoming from "./pages/Incoming";
+import BrasilVivo from "./pages/BrasilVivo";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
@@ -35,6 +36,7 @@ const App = () => (
         <Route path="/contato" element={<Contato />} />
         <Route path="/grupos/marrocos-2026" element={<GrupoMarrocos2026 />} />
           {/* Brasil hierarchical navigation — must come before /:regionSlug */}
+          <Route path="/brasil-vivo" element={<BrasilVivo />} />
           <Route path="/brasil" element={<BrasilEstados />} />
           <Route path="/brasil/:estadoSlug" element={<BrasilEstado />} />
           {/* Multilingual incoming landing pages */}
