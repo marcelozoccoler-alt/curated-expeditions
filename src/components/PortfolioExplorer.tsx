@@ -47,7 +47,19 @@ const CONTINENT_ORDER = [
 export const PortfolioExplorer = ({ trigger }: PortfolioExplorerProps) => {
   const [open, setOpen] = useState(false);
   const [query, setQuery] = useState("");
+  const [selectedTags, setSelectedTags] = useState<string[]>([]);
+  const [showAllTags, setShowAllTags] = useState(false);
   const q = norm(query.trim());
+  const hasFilter = q.length > 0 || selectedTags.length > 0;
+
+  const toggleTag = (id: string) =>
+    setSelectedTags((prev) =>
+      prev.includes(id) ? prev.filter((t) => t !== id) : [...prev, id]
+    );
+
+  // Destination passes the tag filter when it has ALL selected tags.
+  const passesTags = (tags: string[]) =>
+    selectedTags.length === 0 || selectedTags.every((t) => tags.includes(t));
 
   // Build Brazil tree
   const bySlug = useMemo(
@@ -91,20 +103,26 @@ export const PortfolioExplorer = ({ trigger }: PortfolioExplorerProps) => {
     }[];
   }, []);
 
-  // Filter helpers — when searching, hide non-matching nodes and auto-open.
+  // Filter helpers — search + tags. Branches auto-open when there's any filter.
   const matches = (s: string) => !q || norm(s).includes(q);
 
   const filteredBr = brTree
     .map(({ macro, states }) => ({
       macro,
-      macroOpen: matches(macro),
       states: states
         .map((s) => {
-          const dests = s.dests.filter((d) => matches(d.name));
+          // First narrow by selected tags (always applied).
+          const tagPool = s.dests.filter((d) => passesTags(d.tags));
+          if (!tagPool.length) return null;
+
+          if (!q) {
+            return { ...s, _dests: tagPool, _open: hasFilter };
+          }
           const stateMatches = matches(s.name) || matches(s.macroregion);
-          if (!q) return { ...s, _dests: s.dests, _open: false };
-          if (stateMatches) return { ...s, _dests: s.dests, _open: true };
-          if (dests.length) return { ...s, _dests: dests, _open: true };
+          if (stateMatches) return { ...s, _dests: tagPool, _open: true };
+          const nameMatches = tagPool.filter((d) => matches(d.name));
+          if (nameMatches.length)
+            return { ...s, _dests: nameMatches, _open: true };
           return null;
         })
         .filter(Boolean) as Array<
@@ -115,18 +133,22 @@ export const PortfolioExplorer = ({ trigger }: PortfolioExplorerProps) => {
         }
       >,
     }))
-    .filter((g) => g.states.length > 0 || (q && matches(g.macro)));
+    .filter((g) => g.states.length > 0);
 
   const filteredIntl = intlTree
     .map(({ continent, countries }) => ({
       continent,
       countries: countries
         .map((c) => {
-          const dests = c.dests.filter((d) => matches(d.name));
+          const tagPool = c.dests.filter((d) => passesTags(d.tags));
+          if (!tagPool.length) return null;
+
+          if (!q) return { ...c, _dests: tagPool, _open: hasFilter };
           const countryMatches = matches(c.country) || matches(continent);
-          if (!q) return { ...c, _dests: c.dests, _open: false };
-          if (countryMatches) return { ...c, _dests: c.dests, _open: true };
-          if (dests.length) return { ...c, _dests: dests, _open: true };
+          if (countryMatches) return { ...c, _dests: tagPool, _open: true };
+          const nameMatches = tagPool.filter((d) => matches(d.name));
+          if (nameMatches.length)
+            return { ...c, _dests: nameMatches, _open: true };
           return null;
         })
         .filter(Boolean) as Array<{
