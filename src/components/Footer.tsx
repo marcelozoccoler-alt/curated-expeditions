@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import { Mail, MapPin, Phone, Instagram, Facebook } from "lucide-react";
-import { CONTACT, CONTINENTS } from "@/lib/types";
+import { CONTACT, CONTINENTS, generateWhatsAppLink } from "@/lib/types";
 import logo from "@/assets/logo.jpg";
 
 export const Footer = () => {
@@ -86,12 +86,14 @@ export const Footer = () => {
                 </Link>
               </li>
               <li>
-                <Link
-                  to="/criar-roteiro"
+                <a
+                  href={generateWhatsAppLink({ type: "Geral" })}
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="text-sm text-primary-foreground/70 hover:text-gold transition-colors"
                 >
                   Criar Roteiro
-                </Link>
+                </a>
               </li>
               <li>
                 <Link
