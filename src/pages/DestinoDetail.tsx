@@ -12,6 +12,7 @@ import { SEO } from "@/components/SEO";
 import { getDestinationBySlug, destinations } from "@/lib/destinations";
 import { stays as allStays } from "@/lib/stays";
 import { getTagsByIds, getHighlightParts, getBeyondUsualParts, CONTACT } from "@/lib/types";
+import { enrichBeyondUsualStory } from "@/lib/beyondUsualEnricher";
 import { getDestinationImage } from "@/lib/destinationImages";
 import {
   buildDestinationKeywords,
