@@ -1,11 +1,12 @@
 import { Link, useLocation } from "react-router-dom";
 import { useState, useEffect } from "react";
 import { useTranslation } from "react-i18next";
-import { Menu, X, MessageCircle } from "lucide-react";
+import { Menu, X, MessageCircle, Compass } from "lucide-react";
 import { motion, AnimatePresence } from "framer-motion";
 import { generateWhatsAppLink } from "@/lib/types";
 import { generateIncomingWhatsAppLink } from "@/lib/whatsappI18n";
 import { LanguageSwitcher } from "@/components/LanguageSwitcher";
+import { PortfolioExplorer } from "@/components/PortfolioExplorer";
 import { useLang } from "@/hooks/useLang";
 import logo from "@/assets/logo.jpg";
 
@@ -93,6 +94,22 @@ export const Header = () => {
 
           {/* CTA + Language */}
           <div className="hidden lg:flex items-center gap-5">
+            {lang === "pt" && (
+              <PortfolioExplorer
+                trigger={
+                  <button
+                    type="button"
+                    className={`text-sm font-medium flex items-center gap-1.5 transition-colors hover:text-gold ${
+                      isScrolled ? "text-foreground" : "text-primary-foreground"
+                    }`}
+                    aria-label="Explorar portfólio completo"
+                  >
+                    <Compass size={16} />
+                    <span>Explorar</span>
+                  </button>
+                }
+              />
+            )}
             <LanguageSwitcher variant={isScrolled ? "light" : "dark"} />
             <a
               href={whatsappLink}
@@ -106,7 +123,22 @@ export const Header = () => {
           </div>
 
           {/* Mobile actions */}
-          <div className="lg:hidden flex items-center gap-3">
+          <div className="lg:hidden flex items-center gap-2">
+            {lang === "pt" && (
+              <PortfolioExplorer
+                trigger={
+                  <button
+                    type="button"
+                    className={`p-2 transition-colors ${
+                      isScrolled ? "text-foreground" : "text-primary-foreground"
+                    }`}
+                    aria-label="Explorar portfólio"
+                  >
+                    <Compass size={22} />
+                  </button>
+                }
+              />
+            )}
             <LanguageSwitcher variant={isScrolled ? "light" : "dark"} />
             <button
               onClick={() => setIsOpen(!isOpen)}
