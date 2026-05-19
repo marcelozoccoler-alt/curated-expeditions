@@ -12,6 +12,8 @@ import { generateIncomingWhatsAppLink } from "@/lib/whatsappI18n";
 import { CONTACT } from "@/lib/types";
 import { useLang } from "@/hooks/useLang";
 import { BrazilBiomeMap } from "@/components/BrazilBiomeMap";
+import { BRASIL_VIVO_UI } from "@/lib/brasilVivoCopy";
+import { Leaf } from "lucide-react";
 import biomesHero from "@/assets/incoming-biomes-hero.jpg";
 
 const SITE_URL = "https://www.createtravel.tur.br";
@@ -162,6 +164,35 @@ const Incoming = () => {
           </div>
         </section>
       )}
+
+      {/* Brasil Vivo CTA — link to translated conservation hub */}
+      {(() => {
+        const bv = BRASIL_VIVO_UI[lang];
+        return (
+          <section className="py-16 lg:py-20 bg-primary text-primary-foreground">
+            <div className="container-editorial grid md:grid-cols-[1fr_auto] gap-8 items-center">
+              <div className="max-w-2xl">
+                <p className="text-xs uppercase tracking-[0.25em] text-gold mb-3 flex items-center gap-2">
+                  <Leaf size={14} /> {bv.hero.eyebrow}
+                </p>
+                <h2 className="font-serif text-3xl md:text-4xl mb-4">
+                  {bv.hero.title}
+                </h2>
+                <p className="text-primary-foreground/85 leading-relaxed">
+                  {bv.hero.subtitle}
+                </p>
+              </div>
+              <Link
+                to={`/${lang}/brasil-vivo`}
+                className="btn-accent inline-flex items-center gap-2 justify-self-start md:justify-self-end whitespace-nowrap"
+              >
+                {bv.hero.cta}
+              </Link>
+            </div>
+          </section>
+        );
+      })()}
+
 
       {/* Destinations grid */}
       <section className="py-20 lg:py-28 bg-muted/30">

@@ -42,6 +42,7 @@ export const Header = () => {
         ]
       : [
           { label: t("nav.incoming"), href: `/${lang}/incoming` },
+          { label: "Brasil Vivo", href: `/${lang}/brasil-vivo` },
           { label: t("nav.destinos"), href: "/brasil" },
           { label: t("nav.sobre"), href: "/sobre" },
         ];
