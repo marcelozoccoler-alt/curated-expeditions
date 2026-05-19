@@ -15,6 +15,7 @@ import {
   MACROREGION_ORDER,
   type Macroregion,
 } from "@/lib/brazilStates";
+import { TAGS } from "@/lib/types";
 
 interface PortfolioExplorerProps {
   trigger: ReactNode;
@@ -46,7 +47,19 @@ const CONTINENT_ORDER = [
 export const PortfolioExplorer = ({ trigger }: PortfolioExplorerProps) => {
   const [open, setOpen] = useState(false);
   const [query, setQuery] = useState("");
+  const [selectedTags, setSelectedTags] = useState<string[]>([]);
+  const [showAllTags, setShowAllTags] = useState(false);
   const q = norm(query.trim());
+  const hasFilter = q.length > 0 || selectedTags.length > 0;
+
+  const toggleTag = (id: string) =>
+    setSelectedTags((prev) =>
+      prev.includes(id) ? prev.filter((t) => t !== id) : [...prev, id]
+    );
+
+  // Destination passes the tag filter when it has ALL selected tags.
+  const passesTags = (tags: string[]) =>
+    selectedTags.length === 0 || selectedTags.every((t) => tags.includes(t));
 
   // Build Brazil tree
   const bySlug = useMemo(
@@ -90,20 +103,26 @@ export const PortfolioExplorer = ({ trigger }: PortfolioExplorerProps) => {
     }[];
   }, []);
 
-  // Filter helpers — when searching, hide non-matching nodes and auto-open.
+  // Filter helpers — search + tags. Branches auto-open when there's any filter.
   const matches = (s: string) => !q || norm(s).includes(q);
 
   const filteredBr = brTree
     .map(({ macro, states }) => ({
       macro,
-      macroOpen: matches(macro),
       states: states
         .map((s) => {
-          const dests = s.dests.filter((d) => matches(d.name));
+          // First narrow by selected tags (always applied).
+          const tagPool = s.dests.filter((d) => passesTags(d.tags));
+          if (!tagPool.length) return null;
+
+          if (!q) {
+            return { ...s, _dests: tagPool, _open: hasFilter };
+          }
           const stateMatches = matches(s.name) || matches(s.macroregion);
-          if (!q) return { ...s, _dests: s.dests, _open: false };
-          if (stateMatches) return { ...s, _dests: s.dests, _open: true };
-          if (dests.length) return { ...s, _dests: dests, _open: true };
+          if (stateMatches) return { ...s, _dests: tagPool, _open: true };
+          const nameMatches = tagPool.filter((d) => matches(d.name));
+          if (nameMatches.length)
+            return { ...s, _dests: nameMatches, _open: true };
           return null;
         })
         .filter(Boolean) as Array<
@@ -114,18 +133,22 @@ export const PortfolioExplorer = ({ trigger }: PortfolioExplorerProps) => {
         }
       >,
     }))
-    .filter((g) => g.states.length > 0 || (q && matches(g.macro)));
+    .filter((g) => g.states.length > 0);
 
   const filteredIntl = intlTree
     .map(({ continent, countries }) => ({
       continent,
       countries: countries
         .map((c) => {
-          const dests = c.dests.filter((d) => matches(d.name));
+          const tagPool = c.dests.filter((d) => passesTags(d.tags));
+          if (!tagPool.length) return null;
+
+          if (!q) return { ...c, _dests: tagPool, _open: hasFilter };
           const countryMatches = matches(c.country) || matches(continent);
-          if (!q) return { ...c, _dests: c.dests, _open: false };
-          if (countryMatches) return { ...c, _dests: c.dests, _open: true };
-          if (dests.length) return { ...c, _dests: dests, _open: true };
+          if (countryMatches) return { ...c, _dests: tagPool, _open: true };
+          const nameMatches = tagPool.filter((d) => matches(d.name));
+          if (nameMatches.length)
+            return { ...c, _dests: nameMatches, _open: true };
           return null;
         })
         .filter(Boolean) as Array<{
@@ -138,6 +161,7 @@ export const PortfolioExplorer = ({ trigger }: PortfolioExplorerProps) => {
     .filter((g) => g.countries.length > 0);
 
   const totalCount = useMemo(() => destinations.length, []);
+  const filterSig = `${q}|${selectedTags.join(",")}`;
 
   return (
     <Sheet open={open} onOpenChange={setOpen}>
@@ -178,6 +202,52 @@ export const PortfolioExplorer = ({ trigger }: PortfolioExplorerProps) => {
               </button>
             )}
           </div>
+
+          {/* Tag filter — filtrar por experiência */}
+          <div className="mt-4 space-y-2">
+            <div className="flex items-center justify-between">
+              <span className="text-[11px] uppercase tracking-[0.18em] font-semibold text-muted-foreground">
+                Filtrar por experiência
+              </span>
+              {selectedTags.length > 0 && (
+                <button
+                  type="button"
+                  onClick={() => setSelectedTags([])}
+                  className="text-xs text-gold hover:text-gold-light"
+                >
+                  Limpar
+                </button>
+              )}
+            </div>
+            <div className="flex flex-wrap gap-1.5">
+              {(showAllTags ? TAGS : TAGS.slice(0, 6)).map((tag) => {
+                const active = selectedTags.includes(tag.id);
+                return (
+                  <button
+                    key={tag.id}
+                    type="button"
+                    onClick={() => toggleTag(tag.id)}
+                    className={`text-xs px-2.5 py-1 rounded-full border transition-colors ${
+                      active
+                        ? "bg-gold text-primary-foreground border-gold"
+                        : "border-border text-muted-foreground hover:text-foreground hover:border-foreground/40"
+                    }`}
+                  >
+                    {tag.label}
+                  </button>
+                );
+              })}
+              {TAGS.length > 6 && (
+                <button
+                  type="button"
+                  onClick={() => setShowAllTags((v) => !v)}
+                  className="text-xs px-2.5 py-1 rounded-full border border-gold/30 text-gold hover:bg-gold/10"
+                >
+                  {showAllTags ? "Ver menos" : `+${TAGS.length - 6}`}
+                </button>
+              )}
+            </div>
+          </div>
         </SheetHeader>
 
         <div className="flex-1 overflow-y-auto px-6 py-5 space-y-8">
@@ -190,14 +260,14 @@ export const PortfolioExplorer = ({ trigger }: PortfolioExplorerProps) => {
               <div className="space-y-1">
                 {filteredBr.map(({ macro, states }) => (
                   <TreeGroup
-                    key={macro}
+                    key={`${macro}-${filterSig}`}
                     label={macro}
                     count={states.reduce((n, s) => n + s._dests.length, 0)}
-                    defaultOpen={!!q}
+                    defaultOpen={hasFilter}
                   >
                     {states.map((s) => (
                       <TreeBranch
-                        key={s.slug}
+                        key={`${s.slug}-${filterSig}`}
                         label={s.name}
                         href={`/brasil/${s.slug}`}
                         count={s._dests.length}
@@ -229,17 +299,17 @@ export const PortfolioExplorer = ({ trigger }: PortfolioExplorerProps) => {
               <div className="space-y-1">
                 {filteredIntl.map(({ continent, countries }) => (
                   <TreeGroup
-                    key={continent}
+                    key={`${continent}-${filterSig}`}
                     label={continent}
                     count={countries.reduce(
                       (n, c) => n + c._dests.length,
                       0
                     )}
-                    defaultOpen={!!q}
+                    defaultOpen={hasFilter}
                   >
                     {countries.map((c) => (
                       <TreeBranch
-                        key={c.country}
+                        key={`${c.country}-${filterSig}`}
                         label={c.country}
                         count={c._dests.length}
                         defaultOpen={c._open}
