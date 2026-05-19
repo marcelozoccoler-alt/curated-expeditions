@@ -201,6 +201,52 @@ export const PortfolioExplorer = ({ trigger }: PortfolioExplorerProps) => {
               </button>
             )}
           </div>
+
+          {/* Tag filter — filtrar por experiência */}
+          <div className="mt-4 space-y-2">
+            <div className="flex items-center justify-between">
+              <span className="text-[11px] uppercase tracking-[0.18em] font-semibold text-muted-foreground">
+                Filtrar por experiência
+              </span>
+              {selectedTags.length > 0 && (
+                <button
+                  type="button"
+                  onClick={() => setSelectedTags([])}
+                  className="text-xs text-gold hover:text-gold-light"
+                >
+                  Limpar
+                </button>
+              )}
+            </div>
+            <div className="flex flex-wrap gap-1.5">
+              {(showAllTags ? TAGS : TAGS.slice(0, 6)).map((tag) => {
+                const active = selectedTags.includes(tag.id);
+                return (
+                  <button
+                    key={tag.id}
+                    type="button"
+                    onClick={() => toggleTag(tag.id)}
+                    className={`text-xs px-2.5 py-1 rounded-full border transition-colors ${
+                      active
+                        ? "bg-gold text-primary-foreground border-gold"
+                        : "border-border text-muted-foreground hover:text-foreground hover:border-foreground/40"
+                    }`}
+                  >
+                    {tag.label}
+                  </button>
+                );
+              })}
+              {TAGS.length > 6 && (
+                <button
+                  type="button"
+                  onClick={() => setShowAllTags((v) => !v)}
+                  className="text-xs px-2.5 py-1 rounded-full border border-gold/30 text-gold hover:bg-gold/10"
+                >
+                  {showAllTags ? "Ver menos" : `+${TAGS.length - 6}`}
+                </button>
+              )}
+            </div>
+          </div>
         </SheetHeader>
 
         <div className="flex-1 overflow-y-auto px-6 py-5 space-y-8">
