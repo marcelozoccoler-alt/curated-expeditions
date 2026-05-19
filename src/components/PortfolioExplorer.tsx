@@ -161,6 +161,7 @@ export const PortfolioExplorer = ({ trigger }: PortfolioExplorerProps) => {
     .filter((g) => g.countries.length > 0);
 
   const totalCount = useMemo(() => destinations.length, []);
+  const filterSig = `${q}|${selectedTags.join(",")}`;
 
   return (
     <Sheet open={open} onOpenChange={setOpen}>
