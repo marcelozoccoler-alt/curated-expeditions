@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import { Mail, MapPin, Phone, Instagram, Facebook } from "lucide-react";
-import { CONTACT, CONTINENTS } from "@/lib/types";
+import { CONTACT, CONTINENTS, generateWhatsAppLink } from "@/lib/types";
 import logo from "@/assets/logo.jpg";
 
 export const Footer = () => {
