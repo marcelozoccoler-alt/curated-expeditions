@@ -12,6 +12,8 @@ import { generateIncomingWhatsAppLink } from "@/lib/whatsappI18n";
 import { CONTACT } from "@/lib/types";
 import { useLang } from "@/hooks/useLang";
 import { BrazilBiomeMap } from "@/components/BrazilBiomeMap";
+import { BRASIL_VIVO_UI } from "@/lib/brasilVivoCopy";
+import { Leaf } from "lucide-react";
 import biomesHero from "@/assets/incoming-biomes-hero.jpg";
 
 const SITE_URL = "https://www.createtravel.tur.br";
