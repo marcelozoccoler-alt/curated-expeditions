@@ -260,14 +260,14 @@ export const PortfolioExplorer = ({ trigger }: PortfolioExplorerProps) => {
               <div className="space-y-1">
                 {filteredBr.map(({ macro, states }) => (
                   <TreeGroup
-                    key={macro}
+                    key={`${macro}-${filterSig}`}
                     label={macro}
                     count={states.reduce((n, s) => n + s._dests.length, 0)}
-                    defaultOpen={!!q}
+                    defaultOpen={hasFilter}
                   >
                     {states.map((s) => (
                       <TreeBranch
-                        key={s.slug}
+                        key={`${s.slug}-${filterSig}`}
                         label={s.name}
                         href={`/brasil/${s.slug}`}
                         count={s._dests.length}
@@ -299,17 +299,17 @@ export const PortfolioExplorer = ({ trigger }: PortfolioExplorerProps) => {
               <div className="space-y-1">
                 {filteredIntl.map(({ continent, countries }) => (
                   <TreeGroup
-                    key={continent}
+                    key={`${continent}-${filterSig}`}
                     label={continent}
                     count={countries.reduce(
                       (n, c) => n + c._dests.length,
                       0
                     )}
-                    defaultOpen={!!q}
+                    defaultOpen={hasFilter}
                   >
                     {countries.map((c) => (
                       <TreeBranch
-                        key={c.country}
+                        key={`${c.country}-${filterSig}`}
                         label={c.country}
                         count={c._dests.length}
                         defaultOpen={c._open}
