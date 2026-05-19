@@ -15,6 +15,7 @@ import {
   MACROREGION_ORDER,
   type Macroregion,
 } from "@/lib/brazilStates";
+import { TAGS } from "@/lib/types";
 
 interface PortfolioExplorerProps {
   trigger: ReactNode;
