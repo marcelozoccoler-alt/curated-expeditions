@@ -79,6 +79,14 @@ export const Footer = () => {
               </li>
               <li>
                 <Link
+                  to="/brasil-vivo"
+                  className="text-sm text-primary-foreground/70 hover:text-gold transition-colors"
+                >
+                  Brasil Vivo · Biomas & Conservação
+                </Link>
+              </li>
+              <li>
+                <Link
                   to="/grupos/marrocos-2026"
                   className="text-sm text-gold hover:text-gold-light transition-colors font-medium"
                 >

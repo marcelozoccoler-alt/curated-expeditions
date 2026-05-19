@@ -1,113 +1,76 @@
-# Plano: Site Multilíngue (PT/EN/ES/IT/DE)
+## Nova página: "Brasil Vivo — Biomas & Conservação"
 
-Foco: capturar estrangeiros buscando Brasil no Google/IA e levá-los até o pedido de orçamento via WhatsApp no próprio idioma.
+Uma página editorial dedicada aos biomas brasileiros, projetos de conservação idôneos, espécies ameaçadas e à filosofia da Create Travel de viajar com autenticidade e preservar. Pensada para SEO (buscas como "turismo de conservação Brasil", "viagem sustentável Pantanal", "projetos de proteção onça-pintada") e para atrair viajeros conscientes que conectem com nossa marca.
 
-## 1. Estrutura de rotas (URLs com idioma no path)
+### Rota
+- `/brasil-vivo` (PT, principal)
+- Link no header (entre "Destinos" e "Experiências") e no footer
 
-```
-/                          → Português (padrão, mantém tudo como está)
-/en  /en/destinos/...      → Inglês
-/es  /es/destinos/...      → Espanhol
-/it  /it/destinos/...      → Italiano
-/de  /de/destinos/...      → Alemão
-/en/incoming               → Landing especial "Discover Brazil with Create Travel"
-/es/incoming               (e equivalentes em cada idioma)
-/it/incoming
-/de/incoming
-```
+### Estrutura da página
 
-URLs com idioma no path é o que Google entende melhor para indexar e ranquear regionalmente (melhor que subdomínio ou querystring).
+**1. Hero editorial**
+- H1: "Brasil Vivo — viajar é também preservar"
+- Subtítulo curto sobre a filosofia: experiência autêntica + impacto positivo
+- Imagem ampla (Pantanal/Amazônia) com overlay sutil
 
-## 2. Stack de tradução
+**2. Nossa filosofia (Manifesto)**
+- 3-4 parágrafos curtos, tom editorial
+- Pilares visuais (ícones + título + frase):
+  - Autenticidade — pessoas, cultura, território
+  - Baixo impacto — grupos pequenos, operadores locais
+  - Conservação ativa — parte do investimento apoia projetos
+  - Conhecimento — guias-naturalistas e cientistas em campo
 
-- `react-i18next` + `i18next-browser-languagedetector` para textos de UI (Header, Footer, Home, Sobre, botões, labels).
-- 5 arquivos JSON: `src/i18n/locales/{pt,en,es,it,de}.json` com todas as strings da UI.
-- Hook `useI18nNavigate()` para prefixar links com o idioma atual.
-- Seletor de idioma no Header (bandeiras/códigos PT · EN · ES · IT · DE).
+**3. Os 6 biomas do Brasil**
+Reaproveita os dados de `src/lib/biomes.ts` (já temos fauna, flora, "wow"). Apresenta em formato de cards editoriais grandes (um por bioma): imagem, nome, descrição, fauna icônica, flora, beleza cênica. Cada card linka para destinos relacionados do bioma (via `INCOMING_DESTINATIONS`).
 
-## 3. Tradução do conteúdo (destinos e hospedagens)
+**4. Espécies ameaçadas que protegemos vendo**
+Grid de 6-8 espécies icônicas com:
+- Nome + nome científico
+- Status IUCN (Vulnerável / Em perigo / Criticamente ameaçada)
+- Bioma e onde vê-las eticamente
+- Por que importam
 
-Os 87 destinos e 13 hospedagens recebem campos multilíngues:
+Espécies: Onça-pintada, Ararinha-azul, Mico-leão-dourado, Lobo-guará, Peixe-boi-da-Amazônia, Tamanduá-bandeira, Tatu-canastra, Tartaruga-de-pente.
 
-```ts
-translations: {
-  en: { name, shortDescription, longDescription, keywords[] },
-  es: { ... }, it: { ... }, de: { ... }
-}
-```
+**5. Projetos de conservação parceiros / idôneos**
+Cards com nome real, foco, bioma, link oficial. Apenas instituições reconhecidas:
+- **Instituto Onça-Pintada** (Cerrado/Pantanal)
+- **Projeto Tamar** (costa)
+- **Instituto Arara Azul** (Pantanal)
+- **AMLD — Mico-leão-dourado** (Mata Atlântica)
+- **Instituto Mamirauá** (Amazônia)
+- **SOS Mata Atlântica**
+- **ICAS — Instituto de Conservação de Animais Silvestres** (Tatu-canastra, Pantanal)
+- **Fundação Grupo Boticário** (multi-bioma)
 
-Gerarei tudo via script Lovable AI (Gemini 3 Flash) em batch, em uma única passada por destino pedindo os 4 idiomas + keywords SEO locais (ex: "Pantanal safari tours", "viaggio in Amazzonia", "Reise nach Bahia", "viaje a Iguazú"). Saída gravada em `src/lib/translations/destinations.ts` e `stays.ts`. PT permanece como está.
+Cada card descreve em 2-3 linhas o que fazem e como o viajante apoia ao viajar com curadoria responsável. Link "Saber mais" abre site oficial.
 
-Estimativa: ~100 chamadas IA, alguns minutos de execução.
+**6. Como sua viagem preserva (CTA)**
+Bloco final mostrando concretamente o ciclo: você viaja → contrata operadores locais → eles geram renda comunitária → comunidades protegem o território.
+CTA: "Criar roteiro sob medida" (WhatsApp contextual com `type: "Geral"` + mensagem mencionando interesse em turismo de conservação).
 
-## 4. Página "Incoming" (uma por idioma)
+**7. FAQ SEO**
+4-6 perguntas com Schema.org FAQPage para captação em busca:
+- "O que é turismo de conservação?"
+- "Quais biomas brasileiros posso visitar?"
+- "Como saber se uma viagem é realmente sustentável?"
+- "Posso ver onça-pintada eticamente?"
+- "Que projetos de preservação a Create Travel apoia?"
 
-Landing dedicada para o estrangeiro que pesquisou "Brazil travel agency", "tour operator Brazil", "viaggi su misura Brasile", etc.
+### Detalhes técnicos
 
-Conteúdo (gerado pela IA em cada idioma, tom editorial):
-- Introdução autoral: por que escolher a Create Travel para descobrir o Brasil (curadoria, autenticidade, ritmo, sem turistão).
-- Grid dos principais destinos brasileiros (Amazônia, Pantanal, Chapada, Lençóis, Iguaçu, Bahia, Rio, etc.) com cards traduzidos.
-- Seção "How we work" / "Cómo trabajamos" / "Come lavoriamo" / "So arbeiten wir".
-- CTA WhatsApp com mensagem pré-formatada NO IDIOMA do visitante:
-  - EN: "Hi Create Travel, I'd like a custom Brazil trip quote…"
-  - ES: "Hola Create Travel, me gustaría un presupuesto…"
-  - IT: "Ciao Create Travel, vorrei un preventivo…"
-  - DE: "Hallo Create Travel, ich hätte gerne ein Angebot…"
+- Nova página `src/pages/BrasilVivo.tsx`
+- Novo arquivo de dados `src/lib/conservation.ts` com: `ENDANGERED_SPECIES[]` e `CONSERVATION_PROJECTS[]` (apenas dados públicos verificáveis; links para sites oficiais com `rel="noopener noreferrer"`)
+- Rota em `src/App.tsx`: `/brasil-vivo` antes do catch-all
+- Link no `Header.tsx` (desktop + mobile) e `Footer.tsx`
+- SEO: title/description otimizados, JSON-LD (`WebPage` + `FAQPage`), entrada no `sitemap.xml`
+- Reusa `BIOMES` de `src/lib/biomes.ts` (já tem fauna/flora/wow multilíngue)
+- Imagens: 2-3 hero/section novas geradas (paisagens) + reuso de imagens existentes de destinos
+- WhatsApp: usa `generateWhatsAppLink` com mensagem contextual ("Quero um roteiro que apoie a conservação")
+- Sem mudanças de backend
 
-## 5. SEO técnico (essencial para ser achado)
-
-Para cada rota traduzida, via `react-helmet-async`:
-- `<title>` e `<meta name="description">` no idioma da página com keywords nativas.
-- `<meta name="keywords">` com termos de busca locais por destino.
-- `<html lang="...">` dinâmico.
-- **Tags `hreflang`** ligando as 5 versões da mesma página (crítico para Google entender que são variantes do mesmo conteúdo):
-  ```html
-  <link rel="alternate" hreflang="pt-BR" href="…/destinos/amazonia" />
-  <link rel="alternate" hreflang="en"    href="…/en/destinations/amazon" />
-  <link rel="alternate" hreflang="es"    href="…/es/destinos/amazonia" />
-  <link rel="alternate" hreflang="it"    href="…/it/destinazioni/amazzonia" />
-  <link rel="alternate" hreflang="de"    href="…/de/reiseziele/amazonas" />
-  <link rel="alternate" hreflang="x-default" href="…/destinos/amazonia" />
-  ```
-- JSON-LD `TravelAgency` + `TouristDestination` em cada idioma.
-- `sitemap.xml` regenerado com todas as 5 versões e atributos `xhtml:link` hreflang.
-- `robots.txt` permitindo tudo.
-
-## 6. WhatsApp contextual multilíngue
-
-Atualizar o helper de WhatsApp para gerar a mensagem no idioma ativo, mantendo o contexto da página (destino/hospedagem/quiz) já existente.
-
-## 7. Entregáveis
-
-```
-src/i18n/
-  config.ts
-  locales/{pt,en,es,it,de}.json
-src/lib/translations/
-  destinations.ts        ← gerado por IA
-  stays.ts               ← gerado por IA
-src/pages/
-  Incoming.tsx           ← landing /en /es /it /de
-  + ajustes em Index, Sobre, Destinos, DestinoDetail, Hospedagens, HospedagemDetail, Header, Footer
-src/components/
-  LanguageSwitcher.tsx
-  HreflangTags.tsx
-public/sitemap.xml       ← regenerado
-```
-
-## 8. Ordem de execução
-
-1. Instalar i18n, montar config e estrutura de rotas com prefixo de idioma.
-2. Language switcher no Header + persistência da escolha.
-3. Traduzir UI (Header/Footer/Home/Sobre/listagens) nos 5 idiomas.
-4. Rodar script IA para traduzir os 87 destinos + 13 hospedagens.
-5. Criar página Incoming nos 4 idiomas com intro autoral.
-6. Helmet + hreflang + JSON-LD + sitemap.
-7. WhatsApp multilíngue.
-8. QA: navegar em cada idioma, conferir links, hreflang e mensagens.
-
-## Notas técnicas
-
-- O site é SPA, então o crawler do Google (que executa JS) lê o conteúdo traduzido normalmente. LinkedIn/Slack/Facebook só veem o `index.html` estático — para previews sociais perfeitos por idioma precisaria SSR, que está fora deste escopo.
-- PT continua como idioma padrão (`/`), sem quebrar URLs/SEO existentes.
-- Nenhum texto antigo em português é apagado — apenas adicionados os campos `translations`.
+### Fora de escopo
+- Versões i18n da página (só PT nesta primeira entrega; estrutura já preparada para expandir depois)
+- Sistema de doação direta / pagamento a projetos
+- Blog/conteúdo recorrente
