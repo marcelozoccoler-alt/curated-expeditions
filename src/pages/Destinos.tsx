@@ -8,7 +8,6 @@ import { WhatsAppButton } from "@/components/WhatsAppButton";
 import { DestinationCard } from "@/components/DestinationCard";
 import { TagFilter } from "@/components/TagFilter";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
-import { PortfolioIndex } from "@/components/PortfolioIndex";
 import { SEO } from "@/components/SEO";
 import { destinations, getFeaturedDestinations } from "@/lib/destinations";
 import { CONTINENTS, CONTACT, Destination } from "@/lib/types";
@@ -452,8 +451,6 @@ const Destinos = () => {
           )}
         </div>
       </section>
-
-      <PortfolioIndex />
 
       <Footer />
     </div>
