@@ -15,7 +15,7 @@ import { getStayImage } from "@/lib/stayImages";
 import { getDestinationBySlug, destinations } from "@/lib/destinations";
 import { getTagsByIds, getBeyondUsualParts, CONTACT } from "@/lib/types";
 import { buildStayKeywords, buildSpeakableSchema } from "@/lib/seoIntents";
-import { enrichBeyondUsualStory } from "@/lib/beyondUsualEnricher";
+
 
 const HospedagemDetail = () => {
   const { slug } = useParams();
@@ -187,39 +187,20 @@ const HospedagemDetail = () => {
                 <Sparkles className="text-gold" size={28} />
                 Além do óbvio
               </h2>
-              {stay.beyondUsual.length > 0 && (
-                <p className="text-sm text-muted-foreground -mt-2">
-                  Clique em cada item para sentir o que torna a experiência única — e por que ela só existe assim com a curadoria Create Travel.
-                </p>
-              )}
-              <Accordion type="multiple" className="space-y-3">
+              <ul className="space-y-3">
                 {stay.beyondUsual.map((b, i) => {
-                  const { title, story } = getBeyondUsualParts(b);
+                  const { title } = getBeyondUsualParts(b);
                   const cleanTitle = title.replace(/\.$/, "");
-                  const finalStory =
-                    story ||
-                    enrichBeyondUsualStory(cleanTitle, {
-                      placeName: dest?.name || stay.name,
-                      region: dest?.region,
-                      country: dest?.country,
-                      kind: "hospedagem",
-                    });
                   return (
-                    <AccordionItem
+                    <li
                       key={i}
-                      value={`b-${i}`}
-                      className="rounded-lg border border-border bg-card shadow-sm px-5"
+                      className="rounded-lg border border-border bg-card shadow-sm px-5 py-4 text-foreground"
                     >
-                      <AccordionTrigger className="hover:no-underline py-4 text-left">
-                        <span className="text-foreground font-medium pr-2">{cleanTitle}</span>
-                      </AccordionTrigger>
-                      <AccordionContent className="pb-5 pr-1 text-foreground/85 leading-relaxed text-[15px]">
-                        {finalStory}
-                      </AccordionContent>
-                    </AccordionItem>
+                      {cleanTitle}
+                    </li>
                   );
                 })}
-              </Accordion>
+              </ul>
             </div>
 
             {/* Best time card */}
