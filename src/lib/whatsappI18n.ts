@@ -25,11 +25,19 @@ const TEMPLATES: Record<Lang, (name?: string) => string> = {
     }. Potete inviarmi un preventivo personalizzato?`,
   de: (name) =>
     `Hallo Create Travel! Ich möchte eine maßgeschneiderte Brasilien-Reise planen${
+  de: (name) =>
+    `Hallo Create Travel! Ich möchte eine maßgeschneiderte Brasilien-Reise planen${
       name ? ` — Interesse: ${name}` : ""
     }. Können Sie mir ein individuelles Angebot zusenden?`,
-};
+  fr: (name) =>
+    `Bonjour Create Travel ! J'aimerais organiser un voyage sur mesure au Brésil${
+      name ? ` — intérêt : ${name}` : ""
+    }. Pourriez-vous m'envoyer un devis personnalisé ?`,
+  he: (name) =>
+    `שלום Create Travel! אשמח לתכנן טיול מותאם אישית בברזיל${
+      name ? ` — תחום עניין: ${name}` : ""
+    }. אפשר לקבל הצעת מחיר אישית?`,
 
-export const buildIncomingWhatsAppMessage = ({
   lang,
   destination,
 }: IncomingWhatsAppParams): string => TEMPLATES[lang](destination);

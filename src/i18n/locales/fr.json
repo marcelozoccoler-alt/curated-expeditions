@@ -1,0 +1,33 @@
+{
+  "nav": {
+    "destinos": "Destinations",
+    "experiencias": "Expériences",
+    "sobre": "À propos",
+    "contato": "Contact",
+    "incoming": "Le Brésil pour voyageurs",
+    "menu_open": "Ouvrir le menu",
+    "menu_close": "Fermer le menu"
+  },
+  "cta": {
+    "create_itinerary": "Concevoir mon voyage sur mesure",
+    "request_quote": "Demander un devis",
+    "talk_to_us": "Nous parler",
+    "discover_brazil": "Découvrir le Brésil"
+  },
+  "footer": {
+    "tagline": "Voyages d'auteur, avec sens.",
+    "contact": "Contact",
+    "follow": "Suivez-nous",
+    "rights": "Tous droits réservés.",
+    "cadastur": "Cadastur"
+  },
+  "language": {
+    "switch": "Langue",
+    "current": "Langue actuelle"
+  },
+  "common": {
+    "loading": "Chargement…",
+    "see_more": "Voir plus",
+    "back": "Retour"
+  }
+}
