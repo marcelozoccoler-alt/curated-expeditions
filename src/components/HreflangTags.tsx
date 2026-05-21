@@ -10,9 +10,8 @@ const HREFLANG_MAP: Record<Lang, string> = {
   es: "es",
   it: "it",
   de: "de",
-  fr: "fr",
-  he: "he",
 };
+
 
 
 interface Props {
