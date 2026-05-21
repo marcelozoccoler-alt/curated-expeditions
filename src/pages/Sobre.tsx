@@ -334,7 +334,7 @@ const Sobre = () => {
             </p>
             <h2 className="heading-section">Um portfólio construído viagem a viagem</h2>
           </div>
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
+          <div className="grid grid-cols-1 sm:grid-cols-3 gap-8 text-center">
             {stats.map((s) => (
               <div key={s.label} className="flex flex-col items-center">
                 <span className="font-serif text-5xl md:text-6xl text-primary mb-2">
