@@ -1,7 +1,8 @@
 import { useState } from "react";
 import { useNavigate, useLocation } from "react-router-dom";
 import { Globe, Check } from "lucide-react";
-import { SUPPORTED_LANGS, LANG_LABELS, LANG_FLAGS, type Lang } from "@/i18n/config";
+import { SUPPORTED_LANGS, LANG_LABELS, LANG_FLAGS, UI_EXTRA_LANGS, type Lang } from "@/i18n/config";
+
 import { useLang, stripLangPrefix, localizePath } from "@/hooks/useLang";
 import { useTranslation } from "react-i18next";
 
@@ -79,6 +80,25 @@ export const LanguageSwitcher = ({ variant = "dark" }: Props) => {
                 </button>
               </li>
             ))}
+            {UI_EXTRA_LANGS.map((opt) => (
+              <li key={opt.id}>
+                <button
+                  role="option"
+                  onClick={() => {
+                    navigate(opt.routeTo);
+                    setOpen(false);
+                  }}
+                  className="w-full flex items-center justify-between gap-2 px-4 py-2 text-sm text-foreground hover:bg-muted transition-colors"
+                  dir={opt.id === "he" ? "rtl" : "ltr"}
+                >
+                  <span className="flex items-center gap-2">
+                    <span>{opt.flag}</span>
+                    <span>{opt.label}</span>
+                  </span>
+                </button>
+              </li>
+            ))}
+
           </ul>
         </>
       )}
