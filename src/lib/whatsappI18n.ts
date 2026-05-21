@@ -3,7 +3,7 @@ import type { Lang } from "@/i18n/config";
 
 export interface IncomingWhatsAppParams {
   lang: Lang;
-  destination?: string; // e.g. "Amazon", "Pantanal"
+  destination?: string;
 }
 
 const TEMPLATES: Record<Lang, (name?: string) => string> = {

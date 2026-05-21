@@ -27,6 +27,16 @@ export const LANG_FLAGS: Record<Lang, string> = {
   de: "🇩🇪",
 };
 
+/**
+ * Extra UI-only language options shown in the LanguageSwitcher.
+ * These do not have a full content translation yet and route the user
+ * to the English Incoming page (best international fallback).
+ */
+export const UI_EXTRA_LANGS = [
+  { id: "fr", label: "Français", flag: "🇫🇷", routeTo: "/en" },
+  { id: "he", label: "עברית", flag: "🇮🇱", routeTo: "/en" },
+] as const;
+
 i18n
   .use(LanguageDetector)
   .use(initReactI18next)

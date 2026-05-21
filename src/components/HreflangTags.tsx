@@ -12,6 +12,8 @@ const HREFLANG_MAP: Record<Lang, string> = {
   de: "de",
 };
 
+
+
 interface Props {
   /** Path without language prefix, e.g. "/", "/sobre", "/destinos" */
   basePath: string;

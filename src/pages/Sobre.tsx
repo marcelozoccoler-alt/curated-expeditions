@@ -22,7 +22,7 @@ import { FAQSection } from "@/components/FAQSection";
 import { SEO } from "@/components/SEO";
 import { CONTACT } from "@/lib/types";
 import { destinations } from "@/lib/destinations";
-import { stays } from "@/lib/stays";
+
 
 const DOMAIN = CONTACT.domain.replace(/\/$/, "");
 
@@ -135,7 +135,6 @@ const faqs = [
 
 const Sobre = () => {
   const destCount = destinations.length;
-  const stayCount = stays.length;
   const countryCount = new Set(destinations.map((d) => d.country)).size;
   const continentCount = new Set(destinations.map((d) => d.continent)).size;
 
@@ -143,8 +142,8 @@ const Sobre = () => {
     { value: `${destCount}+`, label: "Destinos curados" },
     { value: `${countryCount}`, label: "Países no portfólio" },
     { value: `${continentCount}`, label: "Continentes" },
-    { value: `${stayCount}+`, label: "Hospedagens selecionadas" },
   ];
+
 
   const orgLd = {
     "@context": "https://schema.org",
@@ -335,7 +334,7 @@ const Sobre = () => {
             </p>
             <h2 className="heading-section">Um portfólio construído viagem a viagem</h2>
           </div>
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
+          <div className="grid grid-cols-1 sm:grid-cols-3 gap-8 text-center">
             {stats.map((s) => (
               <div key={s.label} className="flex flex-col items-center">
                 <span className="font-serif text-5xl md:text-6xl text-primary mb-2">
