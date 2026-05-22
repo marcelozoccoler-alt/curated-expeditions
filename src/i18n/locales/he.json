@@ -1,0 +1,33 @@
+{
+  "nav": {
+    "destinos": "יעדים",
+    "experiencias": "חוויות",
+    "sobre": "אודות",
+    "contato": "צור קשר",
+    "incoming": "ברזיל לנוסעים",
+    "menu_open": "פתח תפריט",
+    "menu_close": "סגור תפריט"
+  },
+  "cta": {
+    "create_itinerary": "תכננו לי מסלול אישי",
+    "request_quote": "בקשת הצעת מחיר",
+    "talk_to_us": "דברו איתנו",
+    "discover_brazil": "גלו את ברזיל"
+  },
+  "footer": {
+    "tagline": "תכנון מסעות עם משמעות.",
+    "contact": "צור קשר",
+    "follow": "עקבו אחרינו",
+    "rights": "כל הזכויות שמורות.",
+    "cadastur": "Cadastur"
+  },
+  "language": {
+    "switch": "שפה",
+    "current": "שפה נוכחית"
+  },
+  "common": {
+    "loading": "טוען…",
+    "see_more": "ראו עוד",
+    "back": "חזרה"
+  }
+}
