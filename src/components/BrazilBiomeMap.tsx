@@ -1,7 +1,7 @@
 import { useState, useMemo } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { MapPin, X, ChevronRight } from "lucide-react";
-import type { Lang } from "@/i18n/config";
+import { type Lang, type ContentLang, toContentLang } from "@/i18n/config";
 import { BIOMES, BIOMES_BY_ID, type BiomeId } from "@/lib/biomes";
 import { INCOMING_DESTINATIONS } from "@/lib/incomingDestinations";
 import { BRAZIL_OUTLINE, BIOME_REGION_PATHS, PANTANAL_PATH } from "@/lib/brazilGeo";
@@ -37,6 +37,7 @@ interface Props {
 }
 
 export const BrazilBiomeMap = ({ lang }: Props) => {
+  const cLang = toContentLang(lang);
   const [activeBiome, setActiveBiome] = useState<BiomeId | null>(null);
   const [activeDestSlug, setActiveDestSlug] = useState<string | null>(null);
 
@@ -53,7 +54,7 @@ export const BrazilBiomeMap = ({ lang }: Props) => {
     return map;
   }, []);
 
-  const labels: Record<Lang, {
+  const labels: Record<ContentLang, {
     fauna: string; flora: string; wow: string; tap: string; close: string;
     destinations: string; discover: string;
   }> = {
@@ -63,7 +64,7 @@ export const BrazilBiomeMap = ({ lang }: Props) => {
     it: { fauna: "Fauna", flora: "Flora", wow: "La meraviglia del luogo", tap: "Tocca un bioma sulla mappa o nella legenda", close: "Chiudi", destinations: "Destinazioni in questo bioma", discover: "Scopri" },
     de: { fauna: "Tierwelt", flora: "Flora", wow: "Das Wow des Ortes", tap: "Tippe ein Biom auf der Karte oder in der Legende an", close: "Schließen", destinations: "Reiseziele in diesem Biom", discover: "Entdecken" },
   };
-  const L = labels[lang];
+  const L = labels[cLang];
 
   return (
     <div className="grid grid-cols-1 lg:grid-cols-[1.2fr_1fr] gap-10 lg:gap-14 items-start">
