@@ -33,6 +33,7 @@ import {
   PROJECTS_I18N,
 } from "@/lib/brasilVivoCopy";
 import { useLang, useLocalizedPath } from "@/hooks/useLang";
+import { toContentLang } from "@/i18n/config";
 
 import heroImg from "@/assets/incoming-biomes-hero.jpg";
 import amazoniaImg from "@/assets/destinations/brasil-amazonia-anavilhanas.jpg";

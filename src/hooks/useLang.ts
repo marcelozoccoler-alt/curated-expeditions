@@ -42,6 +42,7 @@ export const useLang = (): Lang => {
     }
     document.documentElement.lang =
       lang === "pt" ? "pt-BR" : lang === "en" ? "en" : lang;
+    document.documentElement.dir = lang === "he" ? "rtl" : "ltr";
   }, [lang, i18n]);
 
   return lang;
