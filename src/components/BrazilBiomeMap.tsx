@@ -155,7 +155,7 @@ export const BrazilBiomeMap = ({ lang }: Props) => {
                       letterSpacing: "0.02em",
                     }}
                   >
-                    {b.name[lang]}
+                    {b.name[cLang]}
                   </text>
                 </g>
               );
@@ -176,7 +176,7 @@ export const BrazilBiomeMap = ({ lang }: Props) => {
               <div className="flex gap-4">
                 <img
                   src={activeDest.image}
-                  alt={activeDest.name[lang]}
+                  alt={activeDest.name[cLang]}
                   className="w-28 h-28 object-cover flex-shrink-0"
                 />
                 <div className="flex-1 p-4 pr-10 relative">
@@ -189,10 +189,10 @@ export const BrazilBiomeMap = ({ lang }: Props) => {
                   </button>
                   <div className="flex items-center gap-1 text-[10px] uppercase tracking-wider mb-1" style={{ color: BIOMES_BY_ID[activeDest.biome].color }}>
                     <MapPin size={10} />
-                    <span>{BIOMES_BY_ID[activeDest.biome].name[lang]}</span>
+                    <span>{BIOMES_BY_ID[activeDest.biome].name[cLang]}</span>
                   </div>
-                  <h4 className="font-serif text-lg text-foreground mb-1">{activeDest.name[lang]}</h4>
-                  <p className="text-xs text-muted-foreground leading-relaxed line-clamp-3">{activeDest.blurb[lang]}</p>
+                  <h4 className="font-serif text-lg text-foreground mb-1">{activeDest.name[cLang]}</h4>
+                  <p className="text-xs text-muted-foreground leading-relaxed line-clamp-3">{activeDest.blurb[cLang]}</p>
                 </div>
               </div>
             </motion.div>
@@ -225,7 +225,7 @@ export const BrazilBiomeMap = ({ lang }: Props) => {
                       aria-hidden
                     />
                     <span className="font-serif text-base text-foreground flex-1">
-                      {b.name[lang]}
+                      {b.name[cLang]}
                     </span>
                     <span className="text-[10px] uppercase tracking-wider text-muted-foreground">
                       {biomeDests.length}
@@ -243,25 +243,25 @@ export const BrazilBiomeMap = ({ lang }: Props) => {
                     >
                       <div className="px-3 pb-4 pt-1 space-y-3 text-sm">
                         <p className="text-muted-foreground leading-relaxed italic">
-                          {b.description[lang]}
+                          {b.description[cLang]}
                         </p>
                         <div>
                           <p className="text-[10px] uppercase tracking-[0.2em] text-gold mb-1">
                             {L.fauna}
                           </p>
-                          <p className="text-foreground/85 leading-relaxed">{b.fauna[lang]}</p>
+                          <p className="text-foreground/85 leading-relaxed">{b.fauna[cLang]}</p>
                         </div>
                         <div>
                           <p className="text-[10px] uppercase tracking-[0.2em] text-gold mb-1">
                             {L.flora}
                           </p>
-                          <p className="text-foreground/85 leading-relaxed">{b.flora[lang]}</p>
+                          <p className="text-foreground/85 leading-relaxed">{b.flora[cLang]}</p>
                         </div>
                         <div className="border-l-2 pl-3" style={{ borderColor: b.color }}>
                           <p className="text-[10px] uppercase tracking-[0.2em] mb-1" style={{ color: b.color }}>
                             {L.wow}
                           </p>
-                          <p className="text-foreground leading-relaxed">{b.wow[lang]}</p>
+                          <p className="text-foreground leading-relaxed">{b.wow[cLang]}</p>
                         </div>
 
                         {biomeDests.length > 0 && (
@@ -281,16 +281,16 @@ export const BrazilBiomeMap = ({ lang }: Props) => {
                                   >
                                     <img
                                       src={d.image}
-                                      alt={d.name[lang]}
+                                      alt={d.name[cLang]}
                                       className="w-12 h-12 object-cover rounded-sm flex-shrink-0"
                                       loading="lazy"
                                     />
                                     <span className="flex-1 min-w-0">
                                       <span className="block font-serif text-sm text-foreground leading-tight">
-                                        {d.name[lang]}
+                                        {d.name[cLang]}
                                       </span>
                                       <span className="block text-xs text-muted-foreground leading-snug line-clamp-2 mt-0.5">
-                                        {d.blurb[lang]}
+                                        {d.blurb[cLang]}
                                       </span>
                                     </span>
                                     <ChevronRight
