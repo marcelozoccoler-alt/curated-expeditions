@@ -5,7 +5,7 @@ import { MessageCircle, ArrowLeft, MapPin } from "lucide-react";
 import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
 import { HreflangTags } from "@/components/HreflangTags";
-import { SUPPORTED_LANGS, type Lang } from "@/i18n/config";
+import { SUPPORTED_LANGS, toContentLang, type ContentLang } from "@/i18n/config";
 import { INCOMING_COPY } from "@/lib/incomingCopy";
 import { INCOMING_DESTINATIONS } from "@/lib/incomingDestinations";
 import { generateIncomingWhatsAppLink } from "@/lib/whatsappI18n";
@@ -31,7 +31,8 @@ const Incoming = () => {
     return <Navigate to="/" replace />;
   }
 
-  const copy = INCOMING_COPY[lang as Exclude<Lang, "pt">];
+  const cLang = toContentLang(lang) as Exclude<ContentLang, "pt">;
+  const copy = INCOMING_COPY[cLang];
   const whatsappLink = generateIncomingWhatsAppLink({ lang });
 
   const jsonLd = {
