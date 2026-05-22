@@ -1,4 +1,4 @@
-import type { Lang } from "@/i18n/config";
+import type { ContentLang } from "@/i18n/config";
 import type { IucnStatus } from "./conservation";
 
 export interface BrasilVivoUI {
@@ -491,7 +491,7 @@ const DE: BrasilVivoUI = {
   },
 };
 
-export const BRASIL_VIVO_UI: Record<Lang, BrasilVivoUI> = {
+export const BRASIL_VIVO_UI: Record<ContentLang, BrasilVivoUI> = {
   pt: PT,
   en: EN,
   es: ES,
@@ -502,7 +502,7 @@ export const BRASIL_VIVO_UI: Record<Lang, BrasilVivoUI> = {
 /** Translations for the 8 endangered species by id */
 export const SPECIES_I18N: Record<
   string,
-  Record<Lang, { commonName: string; whereToSee: string; whyItMatters: string }>
+  Record<ContentLang, { commonName: string; whereToSee: string; whyItMatters: string }>
 > = {
   "onca-pintada": {
     pt: { commonName: "Onça-pintada", whereToSee: "Porto Jofre e Transpantaneira (Pantanal Norte), em safáris fluviais com guias-naturalistas locais.", whyItMatters: "Predador de topo: sua presença indica florestas saudáveis. Ápice do turismo de fauna nas Américas." },
@@ -565,7 +565,7 @@ export const SPECIES_I18N: Record<
 /** Translations for the 8 conservation projects by id */
 export const PROJECTS_I18N: Record<
   string,
-  Record<Lang, { focus: string; description: string; travelerLink: string }>
+  Record<ContentLang, { focus: string; description: string; travelerLink: string }>
 > = {
   "instituto-onca-pintada": {
     pt: { focus: "Pesquisa e proteção da onça-pintada no Cerrado e Pantanal", description: "Há mais de 20 anos monitora populações de onças, capacita fazendeiros para coexistência e cria protocolos de manejo de referência internacional.", travelerLink: "Hospedar-se em fazendas-parceiras do Pantanal que adotam manejo coexistente garante renda à conservação e reduz retaliação contra a espécie." },

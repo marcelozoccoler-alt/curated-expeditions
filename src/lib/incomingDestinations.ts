@@ -1,4 +1,4 @@
-import type { Lang } from "@/i18n/config";
+import type { ContentLang } from "@/i18n/config";
 
 import amazonasImg from "@/assets/states/amazonas.jpg";
 import matoGrossoImg from "@/assets/states/mato-grosso.jpg";
@@ -24,9 +24,9 @@ export interface IncomingDestination {
   slug: string;
   image: string;
   /** Native, search-friendly name in each language */
-  name: Record<Lang, string>;
+  name: Record<ContentLang, string>;
   /** One-line editorial blurb in each language */
-  blurb: Record<Lang, string>;
+  blurb: Record<ContentLang, string>;
   /** Primary biome this destination belongs to */
   biome: BiomeId;
   /** Approximate position on the stylized Brazil SVG (viewBox 0 0 600 700) */
