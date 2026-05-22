@@ -60,6 +60,7 @@ const PHILOSOPHY_ICONS = [Leaf, Footprints, HandHeart, Microscope];
 
 const BrasilVivo = () => {
   const lang = useLang();
+  const cLang = toContentLang(lang);
   const localize = useLocalizedPath();
   const ui = BRASIL_VIVO_UI[cLang];
 
