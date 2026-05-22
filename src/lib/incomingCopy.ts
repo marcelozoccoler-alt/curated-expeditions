@@ -1,4 +1,4 @@
-import type { Lang } from "@/i18n/config";
+import type { ContentLang } from "@/i18n/config";
 
 export interface IncomingCopy {
   meta: {
@@ -54,7 +54,7 @@ export interface IncomingCopy {
   back: string;
 }
 
-export const INCOMING_COPY: Record<Exclude<Lang, "pt">, IncomingCopy> = {
+export const INCOMING_COPY: Record<Exclude<ContentLang, "pt">, IncomingCopy> = {
   en: {
     meta: {
       title: "Brazil Travel — Tailor-Made Trips by Create Travel",

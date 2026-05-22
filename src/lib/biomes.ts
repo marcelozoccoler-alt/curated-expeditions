@@ -1,4 +1,4 @@
-import type { Lang } from "@/i18n/config";
+import type { ContentLang } from "@/i18n/config";
 
 export type BiomeId =
   | "amazonia"
@@ -14,15 +14,15 @@ export interface Biome {
   /** Brand-aligned palette color (hex) */
   color: string;
   /** Display name per language */
-  name: Record<Lang, string>;
+  name: Record<ContentLang, string>;
   /** Short editorial description per language */
-  description: Record<Lang, string>;
+  description: Record<ContentLang, string>;
   /** Signature fauna highlights per language */
-  fauna: Record<Lang, string>;
+  fauna: Record<ContentLang, string>;
   /** Signature flora highlights per language */
-  flora: Record<Lang, string>;
+  flora: Record<ContentLang, string>;
   /** "Wow" natural attractions per language */
-  wow: Record<Lang, string>;
+  wow: Record<ContentLang, string>;
 }
 
 export const BIOMES: Biome[] = [

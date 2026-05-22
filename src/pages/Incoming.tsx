@@ -5,7 +5,7 @@ import { MessageCircle, ArrowLeft, MapPin } from "lucide-react";
 import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
 import { HreflangTags } from "@/components/HreflangTags";
-import { SUPPORTED_LANGS, type Lang } from "@/i18n/config";
+import { SUPPORTED_LANGS, toContentLang, type ContentLang } from "@/i18n/config";
 import { INCOMING_COPY } from "@/lib/incomingCopy";
 import { INCOMING_DESTINATIONS } from "@/lib/incomingDestinations";
 import { generateIncomingWhatsAppLink } from "@/lib/whatsappI18n";
@@ -31,7 +31,8 @@ const Incoming = () => {
     return <Navigate to="/" replace />;
   }
 
-  const copy = INCOMING_COPY[lang as Exclude<Lang, "pt">];
+  const cLang = toContentLang(lang) as Exclude<ContentLang, "pt">;
+  const copy = INCOMING_COPY[cLang];
   const whatsappLink = generateIncomingWhatsAppLink({ lang });
 
   const jsonLd = {
@@ -167,7 +168,7 @@ const Incoming = () => {
 
       {/* Brasil Vivo CTA — link to translated conservation hub */}
       {(() => {
-        const bv = BRASIL_VIVO_UI[lang];
+        const bv = BRASIL_VIVO_UI[cLang];
         return (
           <section className="py-16 lg:py-20 bg-primary text-primary-foreground">
             <div className="container-editorial grid md:grid-cols-[1fr_auto] gap-8 items-center">
@@ -219,7 +220,7 @@ const Incoming = () => {
                 <div className="aspect-[4/5] overflow-hidden">
                   <img
                     src={d.image}
-                    alt={d.name[lang]}
+                    alt={d.name[cLang]}
                     loading="lazy"
                     className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700"
                   />
@@ -230,10 +231,10 @@ const Incoming = () => {
                     <span>Brasil</span>
                   </div>
                   <h3 className="font-serif text-xl mb-2 text-foreground">
-                    {d.name[lang]}
+                    {d.name[cLang]}
                   </h3>
                   <p className="text-sm text-muted-foreground leading-relaxed">
-                    {d.blurb[lang]}
+                    {d.blurb[cLang]}
                   </p>
                 </div>
               </motion.article>

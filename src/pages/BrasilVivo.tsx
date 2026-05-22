@@ -33,6 +33,7 @@ import {
   PROJECTS_I18N,
 } from "@/lib/brasilVivoCopy";
 import { useLang, useLocalizedPath } from "@/hooks/useLang";
+import { toContentLang } from "@/i18n/config";
 
 import heroImg from "@/assets/incoming-biomes-hero.jpg";
 import amazoniaImg from "@/assets/destinations/brasil-amazonia-anavilhanas.jpg";
@@ -59,8 +60,9 @@ const PHILOSOPHY_ICONS = [Leaf, Footprints, HandHeart, Microscope];
 
 const BrasilVivo = () => {
   const lang = useLang();
+  const cLang = toContentLang(lang);
   const localize = useLocalizedPath();
-  const ui = BRASIL_VIVO_UI[lang];
+  const ui = BRASIL_VIVO_UI[cLang];
 
   const conservationWhatsApp = `https://wa.me/${
     CONTACT.whatsappNumber
@@ -205,7 +207,7 @@ const BrasilVivo = () => {
                 <div className="relative aspect-[4/3] overflow-hidden rounded-lg">
                   <img
                     src={BIOME_IMAGE[b.id]}
-                    alt={b.name[lang]}
+                    alt={b.name[cLang]}
                     className="w-full h-full object-cover"
                     loading="lazy"
                   />
@@ -213,15 +215,15 @@ const BrasilVivo = () => {
                     className="absolute top-4 left-4 px-3 py-1 rounded-sm text-xs uppercase tracking-wider text-white"
                     style={{ backgroundColor: b.color }}
                   >
-                    {b.name[lang]}
+                    {b.name[cLang]}
                   </div>
                 </div>
                 <div>
                   <h3 className="font-serif text-3xl md:text-4xl text-foreground mb-4">
-                    {b.name[lang]}
+                    {b.name[cLang]}
                   </h3>
                   <p className="text-foreground/85 leading-relaxed mb-5">
-                    {b.description[lang]}
+                    {b.description[cLang]}
                   </p>
                   <div className="space-y-3 text-sm">
                     <div>
@@ -232,7 +234,7 @@ const BrasilVivo = () => {
                         {ui.biomes.faunaLabel}
                       </span>
                       <p className="text-foreground/80 leading-relaxed">
-                        {b.fauna[lang]}
+                        {b.fauna[cLang]}
                       </p>
                     </div>
                     <div>
@@ -243,7 +245,7 @@ const BrasilVivo = () => {
                         {ui.biomes.floraLabel}
                       </span>
                       <p className="text-foreground/80 leading-relaxed">
-                        {b.flora[lang]}
+                        {b.flora[cLang]}
                       </p>
                     </div>
                     <div className="border-l-2 pl-3" style={{ borderColor: b.color }}>
@@ -254,7 +256,7 @@ const BrasilVivo = () => {
                         {ui.biomes.wowLabel}
                       </span>
                       <p className="text-foreground leading-relaxed">
-                        {b.wow[lang]}
+                        {b.wow[cLang]}
                       </p>
                     </div>
                   </div>
@@ -280,7 +282,7 @@ const BrasilVivo = () => {
 
           <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
             {ENDANGERED_SPECIES.map((s) => {
-              const tr = SPECIES_I18N[s.id]?.[lang];
+              const tr = SPECIES_I18N[s.id]?.[cLang];
               return (
                 <motion.article
                   key={s.id}
@@ -336,7 +338,7 @@ const BrasilVivo = () => {
 
           <div className="grid md:grid-cols-2 gap-6">
             {CONSERVATION_PROJECTS.map((p) => {
-              const tr = PROJECTS_I18N[p.id]?.[lang];
+              const tr = PROJECTS_I18N[p.id]?.[cLang];
               return (
                 <motion.article
                   key={p.id}
