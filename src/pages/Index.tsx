@@ -5,14 +5,7 @@ import {
   Compass,
   Users,
   Heart,
-  MessageCircle,
-  Sparkles,
-  PartyPopper,
-  Briefcase,
-  Flower2,
-  GraduationCap,
   Gem,
-  Mountain,
 } from "lucide-react";
 import { generateWhatsAppLink } from "@/lib/types";
 import { Header } from "@/components/Header";
