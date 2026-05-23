@@ -30,14 +30,17 @@ const Index = () => {
       {/* Hero Section */}
       <section className="relative h-screen flex items-center justify-center overflow-hidden">
         <div className="absolute inset-0">
-          <img
-            src={heroAmazon}
-            alt="Paisagem amazônica ao amanhecer"
-            className="w-full h-full object-cover"
-            loading="eager"
-            fetchPriority="high"
-            decoding="async"
-          />
+          <picture>
+            <source srcSet={heroAmazonWebp} type="image/webp" />
+            <img
+              src={heroAmazon}
+              alt="Paisagem amazônica ao amanhecer"
+              className="w-full h-full object-cover"
+              loading="eager"
+              fetchPriority="high"
+              decoding="async"
+            />
+          </picture>
           <div className="absolute inset-0 hero-overlay" />
         </div>
 
