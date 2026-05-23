@@ -18,6 +18,7 @@ import { CONTINENTS, TAGS, CONTACT } from "../src/lib/types";
 import { regions } from "../src/lib/regions";
 import { stays } from "../src/lib/stays";
 import { niches } from "../src/lib/niches";
+import { brazilStates } from "../src/lib/brazilStates";
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const PAGE_SIZE = 12;
@@ -92,6 +93,16 @@ for (const r of regions) push(`/${r.slug}`, 0.9, "weekly");
 // Static pages
 push("/sobre", 0.5, "monthly");
 push("/contato", 0.5, "monthly");
+
+// Brasil — landings temáticas + estados
+push("/brasil-aventura", 0.85, "weekly");
+push("/brasil-vivo", 0.85, "weekly");
+push("/crie-seu-grupo", 0.85, "weekly");
+push("/brasil", 0.85, "weekly");
+for (const s of brazilStates) push(`/brasil/${s.slug}`, 0.7, "monthly");
+
+// Grupos específicos
+push("/grupos/marrocos-2026", 0.8, "monthly");
 
 // Multilingual incoming landing pages (target foreigners searching Brazil)
 const INCOMING_LANGS = ["en", "es", "it", "de"] as const;
