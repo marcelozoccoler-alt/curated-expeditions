@@ -56,7 +56,7 @@ const PT: BrasilAventuraUI = {
   meta: {
     title: "Brasil Aventura — Atividades outdoor e turismo de natureza | Create Travel",
     description:
-      "Boia-cross, rapel, rafting, tree climbing, balonismo, SUP, canoagem e mais: 12 atividades outdoor curadas em destinos selvagens do Brasil.",
+      "Boia-cross, rapel, rafting, tree climbing, balonismo, SUP, canoagem e mais: 20 atividades outdoor curadas em destinos selvagens do Brasil.",
     keywords:
       "turismo de aventura Brasil, rafting Brotas, boia cross Bonito, rapel Chapada Diamantina, tree climbing Amazônia, balonismo Praia Grande, canoagem Pantanal, atividades outdoor Brasil",
   },
@@ -80,7 +80,7 @@ const PT: BrasilAventuraUI = {
     ],
   },
   activities: {
-    eyebrow: "12 maneiras de sentir o Brasil",
+    eyebrow: "20 maneiras de sentir o Brasil",
     title: "O cardápio outdoor",
     lead: "Cada atividade abaixo tem uma curva de adrenalina e uma janela de melhor época. Combine duas, três, quantas couberem no seu sonho — desenhamos a logística.",
     intensityLabel: "Intensidade",
@@ -126,7 +126,7 @@ const EN: BrasilAventuraUI = {
   meta: {
     title: "Adventure Brazil — Outdoor activities & nature travel | Create Travel",
     description:
-      "Tubing, rappel, rafting, tree climbing, ballooning, SUP, canoeing and more: 12 outdoor activities curated in Brazil's wildest landscapes.",
+      "Tubing, rappel, rafting, tree climbing, ballooning, SUP, canoeing and more: 20 outdoor activities curated in Brazil's wildest landscapes.",
     keywords:
       "Brazil adventure travel, Brotas rafting, Bonito river tubing, Chapada Diamantina rappel, Amazon tree climbing, hot air balloon Brazil, Pantanal canoeing, outdoor activities Brazil",
   },
@@ -150,7 +150,7 @@ const EN: BrasilAventuraUI = {
     ],
   },
   activities: {
-    eyebrow: "12 ways to feel Brazil",
+    eyebrow: "20 ways to feel Brazil",
     title: "The outdoor menu",
     lead: "Each activity below has its adrenaline curve and its best season. Combine two, three, as many as fit your dream — we sort the logistics.",
     intensityLabel: "Intensity",
@@ -196,7 +196,7 @@ const ES: BrasilAventuraUI = {
   meta: {
     title: "Brasil Aventura — Actividades outdoor y turismo de naturaleza | Create Travel",
     description:
-      "Boya-cross, rapel, rafting, tree climbing, globo, SUP, canotaje y más: 12 actividades outdoor curadas en los paisajes más salvajes de Brasil.",
+      "Boya-cross, rapel, rafting, tree climbing, globo, SUP, canotaje y más: 20 actividades outdoor curadas en los paisajes más salvajes de Brasil.",
     keywords:
       "turismo de aventura Brasil, rafting Brotas, boya cross Bonito, rapel Chapada Diamantina, tree climbing Amazonía, globo aerostático Brasil, canotaje Pantanal",
   },
@@ -220,7 +220,7 @@ const ES: BrasilAventuraUI = {
     ],
   },
   activities: {
-    eyebrow: "12 formas de sentir Brasil",
+    eyebrow: "20 formas de sentir Brasil",
     title: "El menú outdoor",
     lead: "Cada actividad tiene su curva de adrenalina y su mejor época. Combina dos, tres, las que quepan en tu sueño — nosotros armamos la logística.",
     intensityLabel: "Intensidad",
@@ -266,7 +266,7 @@ const IT: BrasilAventuraUI = {
   meta: {
     title: "Brasile Avventura — Attività outdoor e turismo di natura | Create Travel",
     description:
-      "Tubing, corda doppia, rafting, tree climbing, mongolfiera, SUP, canoa e altro: 12 attività outdoor curate nei paesaggi più selvaggi del Brasile.",
+      "Tubing, corda doppia, rafting, tree climbing, mongolfiera, SUP, canoa e altro: 20 attività outdoor curate nei paesaggi più selvaggi del Brasile.",
     keywords:
       "turismo avventura Brasile, rafting Brotas, tubing Bonito, corda doppia Chapada Diamantina, tree climbing Amazzonia, mongolfiera Brasile, canoa Pantanal",
   },
@@ -290,7 +290,7 @@ const IT: BrasilAventuraUI = {
     ],
   },
   activities: {
-    eyebrow: "12 modi di sentire il Brasile",
+    eyebrow: "20 modi di sentire il Brasile",
     title: "Il menu outdoor",
     lead: "Ogni attività ha la sua curva di adrenalina e la sua stagione. Combinane due, tre, quante ne entrano nel tuo sogno — la logistica la curiamo noi.",
     intensityLabel: "Intensità",
@@ -336,7 +336,7 @@ const DE: BrasilAventuraUI = {
   meta: {
     title: "Brasilien Abenteuer — Outdoor-Aktivitäten und Naturreisen | Create Travel",
     description:
-      "Tubing, Abseilen, Rafting, Tree Climbing, Heißluftballon, SUP, Kanu und mehr: 12 kuratierte Outdoor-Aktivitäten in Brasiliens wildesten Landschaften.",
+      "Tubing, Abseilen, Rafting, Tree Climbing, Heißluftballon, SUP, Kanu und mehr: 20 kuratierte Outdoor-Aktivitäten in Brasiliens wildesten Landschaften.",
     keywords:
       "Abenteuerreisen Brasilien, Rafting Brotas, Tubing Bonito, Abseilen Chapada Diamantina, Tree Climbing Amazonas, Heißluftballon Brasilien, Kanu Pantanal",
   },
@@ -360,7 +360,7 @@ const DE: BrasilAventuraUI = {
     ],
   },
   activities: {
-    eyebrow: "12 Wege, Brasilien zu fühlen",
+    eyebrow: "20 Wege, Brasilien zu fühlen",
     title: "Die Outdoor-Karte",
     lead: "Jede Aktivität hat ihre Adrenalinkurve und ihre Saison. Kombiniere zwei, drei, so viele wie in deinen Traum passen — wir kümmern uns um die Logistik.",
     intensityLabel: "Intensität",
@@ -407,7 +407,7 @@ export const BRASIL_AVENTURA_UI: Record<ContentLang, BrasilAventuraUI> = {
 };
 
 /* ============================================================== */
-/* Activities catalog (12 curated outdoor experiences)            */
+/* Activities catalog (20 curated outdoor experiences)            */
 /* ============================================================== */
 
 import boiaCrossImg from "@/assets/destinations/brasil-bonito.jpg";
