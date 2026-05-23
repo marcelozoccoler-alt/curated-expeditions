@@ -11,6 +11,7 @@ import {
   Mountain,
   GraduationCap,
   Gem,
+  Plane,
   ShieldCheck,
   CalendarCheck,
   HeartHandshake,
