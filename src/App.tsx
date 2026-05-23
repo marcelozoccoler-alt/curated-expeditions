@@ -17,6 +17,7 @@ import BrasilEstado from "./pages/BrasilEstado";
 import Incoming from "./pages/Incoming";
 import BrasilVivo from "./pages/BrasilVivo";
 import BrasilAventura from "./pages/BrasilAventura";
+import CrieSeuGrupo from "./pages/CrieSeuGrupo";
 import ScrollToTop from "./components/ScrollToTop";
 import NotFound from "./pages/NotFound";
 
