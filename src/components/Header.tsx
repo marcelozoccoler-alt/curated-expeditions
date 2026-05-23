@@ -38,6 +38,7 @@ export const Header = () => {
           { label: t("nav.experiencias"), href: "/experiencias" },
           { label: "Brasil Vivo", href: "/brasil-vivo" },
           { label: "Brasil Aventura", href: "/brasil-aventura" },
+          { label: "Crie seu grupo", href: "/crie-seu-grupo" },
           { label: t("nav.sobre"), href: "/sobre" },
           { label: t("nav.contato"), href: "/contato" },
         ]
