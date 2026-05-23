@@ -169,7 +169,7 @@ const CrieSeuGrupo = () => {
       <div className="container-editorial pt-8">
         <Breadcrumbs
           items={[
-            { label: "Início", to: "/" },
+            { label: "Início", href: "/" },
             { label: "Crie seu grupo" },
           ]}
         />
