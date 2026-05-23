@@ -1,0 +1,30 @@
+# Create Travel
+
+> Operadora brasileira de viagens com curadoria autoral: roteiros sob medida, expedições e hospedagens selecionadas no Brasil e no mundo, com luxo discreto, ética e propósito.
+
+A Create Travel desenha viagens personalizadas para viajantes exigentes — famílias, casais, grupos e empresas. Sede em São Paulo (Cadastur 21.030.190/0001-60). Atendimento humano via WhatsApp +55 11 96369-3159.
+
+## Páginas principais
+
+- [Início](/): visão geral da curadoria Create Travel.
+- [Destinos](/destinos): biblioteca de pacotes de viagem por continente e tipo de experiência.
+- [Experiências](/experiencias): roteiros por interesse — safári, trekking, gastronomia, lua de mel, cultura, bem-estar.
+- [Hospedagens](/hospedagens): lodges, refúgios e hotéis autorais selecionados.
+- [Guias autorais](/guias): conteúdos verticais por nicho de viagem.
+- [Brasil Aventura](/brasil-aventura): expedições e aventura outdoor no Brasil.
+- [Brasil Vivo](/brasil-vivo): imersões culturais e naturais no Brasil.
+- [Brasil por estado](/brasil): roteiros organizados pelos 27 estados brasileiros.
+- [Crie seu grupo](/crie-seu-grupo): curadoria de grupos privados — família, amigos, casamento, incentivo, espiritualidade.
+- [Sobre](/sobre): metodologia, valores e equipe.
+- [Contato](/contato): formulário e WhatsApp.
+
+## Mercado internacional (incoming)
+
+- [Brazil for travelers (EN)](/en/incoming)
+- [Brasil para viajeros (ES)](/es/incoming)
+- [Brasile per viaggiatori (IT)](/it/incoming)
+- [Brasilien für Reisende (DE)](/de/incoming)
+
+## Optional
+
+- [Grupo Marrocos 2026](/grupos/marrocos-2026): saída em grupo guiada do Brasil.
