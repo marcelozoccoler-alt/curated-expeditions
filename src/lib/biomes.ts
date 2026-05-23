@@ -1,4 +1,4 @@
-import type { ContentLang } from "@/i18n/config";
+import type { ContentLang } from "@/i18n/config\";
 
 export type BiomeId =
   | "amazonia"
@@ -7,7 +7,7 @@ export type BiomeId =
   | "caatinga"
   | "pantanal"
   | "pampa"
-  | "costa";
+  | "costa\";
 
 export interface Biome {
   id: BiomeId;
@@ -21,7 +21,7 @@ export interface Biome {
   fauna: Record<ContentLang, string>;
   /** Signature flora highlights per language */
   flora: Record<ContentLang, string>;
-  /** "Wow" natural attractions per language */
+  /** "Wow\" natural attractions per language */
   wow: Record<ContentLang, string>;
 }
 

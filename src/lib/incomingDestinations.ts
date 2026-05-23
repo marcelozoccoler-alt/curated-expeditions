@@ -1,24 +1,24 @@
-import type { ContentLang } from "@/i18n/config";
+import type { ContentLang } from "@/i18n/config\";
 
-import amazonasImg from "@/assets/states/amazonas.jpg";
-import matoGrossoImg from "@/assets/states/mato-grosso.jpg";
-import maranhaoImg from "@/assets/destinations/brasil-lencois-maranhenses.jpg";
-import salvadorImg from "@/assets/destinations/brasil-salvador.jpg";
-import rioImg from "@/assets/destinations/brasil-rio-de-janeiro.jpg";
-import iguacuImg from "@/assets/destinations/brasil-cataratas-iguacu.jpg";
-import veadeirosImg from "@/assets/destinations/brasil-chapada-dos-veadeiros.jpg";
-import noronhaImg from "@/assets/destinations/brasil-fernando-de-noronha.jpg";
-import chapadaDiamantinaImg from "@/assets/destinations/brasil-chapada-diamantina.jpg";
-import jericoacoaraImg from "@/assets/destinations/brasil-jericoacoara.jpg";
-import bonitoImg from "@/assets/destinations/brasil-bonito.jpg";
-import alterDoChaoImg from "@/assets/destinations/brasil-amazonia-kaiara-alter-do-chao.jpg";
+import amazonasImg from "@/assets/states/amazonas.jpg\";
+import matoGrossoImg from "@/assets/states/mato-grosso.jpg\";
+import maranhaoImg from "@/assets/destinations/brasil-lencois-maranhenses.jpg\";
+import salvadorImg from "@/assets/destinations/brasil-salvador.jpg\";
+import rioImg from "@/assets/destinations/brasil-rio-de-janeiro.jpg\";
+import iguacuImg from "@/assets/destinations/brasil-cataratas-iguacu.jpg\";
+import veadeirosImg from "@/assets/destinations/brasil-chapada-dos-veadeiros.jpg\";
+import noronhaImg from "@/assets/destinations/brasil-fernando-de-noronha.jpg\";
+import chapadaDiamantinaImg from "@/assets/destinations/brasil-chapada-diamantina.jpg\";
+import jericoacoaraImg from "@/assets/destinations/brasil-jericoacoara.jpg\";
+import bonitoImg from "@/assets/destinations/brasil-bonito.jpg\";
+import alterDoChaoImg from "@/assets/destinations/brasil-amazonia-kaiara-alter-do-chao.jpg\";
 
-import jalapaoImg from "@/assets/destinations/brasil-jalapao.jpg";
-import maragogiImg from "@/assets/destinations/brasil-litoral-alagoano.jpg";
-import floripaImg from "@/assets/destinations/brasil-litoral-santa-catarina.jpg";
-import rotaEmocoesImg from "@/assets/destinations/brasil-rota-das-emocoes.jpg";
+import jalapaoImg from "@/assets/destinations/brasil-jalapao.jpg\";
+import maragogiImg from "@/assets/destinations/brasil-litoral-alagoano.jpg\";
+import floripaImg from "@/assets/destinations/brasil-litoral-santa-catarina.jpg\";
+import rotaEmocoesImg from "@/assets/destinations/brasil-rota-das-emocoes.jpg\";
 
-import type { BiomeId } from "./biomes";
+import type { BiomeId } from "./biomes\";
 
 export interface IncomingDestination {
   slug: string;
