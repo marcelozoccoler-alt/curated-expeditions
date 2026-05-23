@@ -238,14 +238,7 @@ const Hospedagens = () => {
         <div className="container-editorial">
           <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4 mb-10">
             <p className="text-muted-foreground">
-              <span className="font-semibold text-foreground">{sorted.length}</span>{" "}
-              {sorted.length === 1 ? "hospedagem encontrada" : "hospedagens encontradas"}
-              {sorted.length > 0 && (
-                <span className="hidden sm:inline">
-                  {" "}· mostrando{" "}
-                  <span className="text-foreground font-medium">{showFrom}–{showTo}</span>
-                </span>
-              )}
+              Hospedagens selecionadas pela curadoria Create Travel
             </p>
 
             <div className="flex items-center gap-4">
