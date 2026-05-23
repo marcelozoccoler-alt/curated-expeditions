@@ -68,7 +68,7 @@ export const LanguageSwitcher = ({ variant = "dark" }: Props) => {
                   role="option"
                   aria-selected={lang === current}
                   onClick={() => handleSelect(lang)}
-                  dir={lang === "he" ? "rtl" : "ltr"}
+                  dir="ltr"
                   className={`w-full flex items-center justify-between gap-2 px-4 py-2 text-sm text-foreground hover:bg-muted transition-colors ${
                     lang === current ? "bg-muted/50" : ""
                   }`}

@@ -27,14 +27,6 @@ const TEMPLATES: Record<Lang, (name?: string) => string> = {
     `Hallo Create Travel! Ich möchte eine maßgeschneiderte Brasilien-Reise planen${
       name ? ` — Interesse: ${name}` : ""
     }. Können Sie mir ein individuelles Angebot zusenden?`,
-  fr: (name) =>
-    `Bonjour Create Travel ! J'aimerais organiser un voyage sur mesure au Brésil${
-      name ? ` — intérêt : ${name}` : ""
-    }. Pourriez-vous m'envoyer un devis personnalisé ?`,
-  he: (name) =>
-    `שלום Create Travel! אשמח לתכנן טיול אישי בברזיל${
-      name ? ` — תחום עניין: ${name}` : ""
-    }. תוכלו לשלוח לי הצעת מחיר מותאמת?`,
 };
 
 export const buildIncomingWhatsAppMessage = ({
