@@ -1,6 +1,20 @@
 import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
-import { ArrowRight, Compass, Users, Heart, MessageCircle } from "lucide-react";
+import {
+  ArrowRight,
+  Compass,
+  Users,
+  Heart,
+  MessageCircle,
+  Sparkles,
+  PartyPopper,
+  Briefcase,
+  Flower2,
+  GraduationCap,
+  Gem,
+  Mountain,
+} from "lucide-react";
+import { generateWhatsAppLink } from "@/lib/types";
 import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
 import { WhatsAppButton } from "@/components/WhatsAppButton";
