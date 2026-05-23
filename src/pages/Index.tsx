@@ -33,6 +33,9 @@ const Index = () => {
             src={heroAmazon}
             alt="Paisagem amazônica ao amanhecer"
             className="w-full h-full object-cover"
+            loading="eager"
+            fetchPriority="high"
+            decoding="async"
           />
           <div className="absolute inset-0 hero-overlay" />
         </div>
