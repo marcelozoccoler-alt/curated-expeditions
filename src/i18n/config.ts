@@ -7,10 +7,8 @@ import en from "./locales/en.json";
 import es from "./locales/es.json";
 import it from "./locales/it.json";
 import de from "./locales/de.json";
-import fr from "./locales/fr.json";
-import he from "./locales/he.json";
 
-export const SUPPORTED_LANGS = ["pt", "en", "es", "it", "de", "fr", "he"] as const;
+export const SUPPORTED_LANGS = ["pt", "en", "es", "it", "de"] as const;
 export type Lang = (typeof SUPPORTED_LANGS)[number];
 
 /**
@@ -18,10 +16,10 @@ export type Lang = (typeof SUPPORTED_LANGS)[number];
  * conservation copy, incoming hero, etc.). Newer UI-supported languages
  * without their own translations fall back to English at the content layer.
  */
-export const CONTENT_LANGS = ["pt", "en", "es", "it", "de", "fr", "he"] as const;
+export const CONTENT_LANGS = ["pt", "en", "es", "it", "de"] as const;
 export type ContentLang = (typeof CONTENT_LANGS)[number];
 
-/** Map any UI Lang to a ContentLang (currently identity — all UI langs have content). */
+/** Map any UI Lang to a ContentLang. */
 export const toContentLang = (lang: Lang): ContentLang =>
   (CONTENT_LANGS as readonly string[]).includes(lang)
     ? (lang as ContentLang)
@@ -33,8 +31,6 @@ export const LANG_LABELS: Record<Lang, string> = {
   es: "Español",
   it: "Italiano",
   de: "Deutsch",
-  fr: "Français",
-  he: "עברית",
 };
 
 export const LANG_FLAGS: Record<Lang, string> = {
@@ -43,14 +39,12 @@ export const LANG_FLAGS: Record<Lang, string> = {
   es: "🇪🇸",
   it: "🇮🇹",
   de: "🇩🇪",
-  fr: "🇫🇷",
-  he: "🇮🇱",
 };
 
 /** Right-to-left languages */
-export const RTL_LANGS: readonly Lang[] = ["he"];
+export const RTL_LANGS: readonly Lang[] = [];
 
-/** @deprecated Kept for backward compat. fr/he are now full SUPPORTED_LANGS. */
+/** @deprecated Kept for backward compatibility. */
 export const UI_EXTRA_LANGS: readonly { id: string; label: string; flag: string; routeTo: string }[] = [];
 
 i18n
@@ -63,8 +57,6 @@ i18n
       es: { translation: es },
       it: { translation: it },
       de: { translation: de },
-      fr: { translation: fr },
-      he: { translation: he },
     },
     fallbackLng: "pt",
     supportedLngs: SUPPORTED_LANGS as unknown as string[],
