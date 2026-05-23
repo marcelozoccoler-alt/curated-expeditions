@@ -422,6 +422,14 @@ import flutuacaoImg from "@/assets/destinations/brasil-bonito.jpg";
 import tirolesaImg from "@/assets/destinations/brasil-brotas-aventura.jpg";
 import surfImg from "@/assets/destinations/brasil-fernando-de-noronha.jpg";
 import kitesurfImg from "@/assets/destinations/brasil-jericoacoara.jpg";
+import quadricicloImg from "@/assets/destinations/brasil-lencois-maranhenses.jpg";
+import cavalgadaImg from "@/assets/destinations/brasil-pantanal-sul.jpg";
+import canionismoImg from "@/assets/destinations/brasil-chapada-das-mesas.jpg";
+import mergulhoImg from "@/assets/destinations/brasil-bahia-abrolhos-costa-descobrimento.jpg";
+import bikeImg from "@/assets/destinations/brasil-minas-gerais-estrada-real.jpg";
+import caiaqueOceanicoImg from "@/assets/destinations/brasil-marau.jpg";
+import parapenteImg from "@/assets/destinations/brasil-rio-de-janeiro.jpg";
+import espeleologiaImg from "@/assets/destinations/brasil-minas-gerais-cavernas-do-peruacu.jpg";
 
 export const ADVENTURE_ACTIVITIES: AdventureActivity[] = [
   {
