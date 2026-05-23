@@ -339,7 +339,7 @@ export const BIOMES: Biome[] = [
       it: "7.491 km di costa atlantica: piscine naturali, dune bianche, arcipelaghi vulcanici e la più grande barriera corallina dell'Atlantico Meridionale.",
       de: "7.491 km Atlantikküste: Naturpools, weiße Dünen, Vulkanarchipele und das größte Korallenriff des Südatlantiks.",
       fr: "7 491 km de côte atlantique : piscines naturelles, dunes blanches, archipels volcaniques et le plus grand récif corallien de l'Atlantique Sud.",
-      he: "7,491 ק"מ של חוף אטלנטי: בריכות טבעיות, דיונות לבנות, ארכיפלגים געשיים ושונית האלמוגים הגדולה ביותר בדרום האוקיינוס האטלנטי.",
+      he: "7,491 ק\"מ של חוף אטלנטי: בריכות טבעיות, דיונות לבנות, ארכיפלגים געשיים ושונית האלמוגים הגדולה ביותר בדרום האוקיינוס האטלנטי.",
     },
     fauna: {
       pt: "Tartarugas marinhas, golfinhos-rotadores, baleias-jubarte, peixe-boi-marinho, recifes vivos e aves migratórias.",

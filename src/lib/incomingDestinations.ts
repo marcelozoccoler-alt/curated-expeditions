@@ -199,7 +199,7 @@ export const INCOMING_DESTINATIONS: IncomingDestination[] = [
       it: "Canyon, cascate cristalline e la savana più antica del mondo — patrimonio UNESCO.",
       de: "Canyons, kristallklare Wasserfälle und die älteste Savanne der Welt — UNESCO-Welterbe.",
       fr: "Des canyons, des chutes d'eau cristallines et la plus ancienne savane du monde — un site classé au patrimoine mondial de l'UNESCO.",
-      he: "קניונים, מפלי מים כחולים והסוואנה הוותיקה בעולם — אתר מורשת עולמית של אונסק"ו.",
+      he: "קניונים, מפלי מים כחולים והסוואנה הוותיקה בעולם — אתר מורשת עולמית של אונסק\"ו.",
     },
   },
   {
