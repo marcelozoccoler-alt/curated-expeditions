@@ -18,10 +18,10 @@ export type Lang = (typeof SUPPORTED_LANGS)[number];
  * conservation copy, incoming hero, etc.). Newer UI-supported languages
  * without their own translations fall back to English at the content layer.
  */
-export const CONTENT_LANGS = ["pt", "en", "es", "it", "de"] as const;
+export const CONTENT_LANGS = ["pt", "en", "es", "it", "de", "fr", "he"] as const;
 export type ContentLang = (typeof CONTENT_LANGS)[number];
 
-/** Map any UI Lang to a ContentLang. fr/he fall back to English content until translated. */
+/** Map any UI Lang to a ContentLang (currently identity — all UI langs have content). */
 export const toContentLang = (lang: Lang): ContentLang =>
   (CONTENT_LANGS as readonly string[]).includes(lang)
     ? (lang as ContentLang)
