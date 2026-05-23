@@ -26,6 +26,13 @@ import heroImg from "@/assets/grupo-marrocos-2026.jpg";
 
 const GROUPS = [
   {
+    icon: Plane,
+    title: "Saídas em grupo com guia do Brasil",
+    description:
+      "Para quem quer viajar acompanhado: grupos pequenos com guia Create Travel saindo do Brasil junto com você, do embarque ao retorno. Mais segurança, conexões verdadeiras e zero preocupação com logística.",
+    whatsappName: "Saída em grupo com guia do Brasil",
+  },
+  {
     icon: Users,
     title: "Família & multigeracional",
     description:
@@ -41,10 +48,10 @@ const GROUPS = [
   },
   {
     icon: Heart,
-    title: "Casamento & lua de mel em grupo",
+    title: "Casamento em destino",
     description:
       "Destination wedding, elopement ou celebração íntima com os convidados mais próximos. Cuidamos da hospedagem do grupo, traslados e experiências para todos.",
-    whatsappName: "Casamento ou celebração em destino",
+    whatsappName: "Casamento em destino",
   },
   {
     icon: PartyPopper,
