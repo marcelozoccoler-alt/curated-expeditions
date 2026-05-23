@@ -13,7 +13,8 @@ import { CONTACT } from "@/lib/types";
 import { useLang } from "@/hooks/useLang";
 import { BrazilBiomeMap } from "@/components/BrazilBiomeMap";
 import { BRASIL_VIVO_UI } from "@/lib/brasilVivoCopy";
-import { Leaf } from "lucide-react";
+import { BRASIL_AVENTURA_UI } from "@/lib/brasilAventuraCopy";
+import { Leaf, Mountain } from "lucide-react";
 import biomesHero from "@/assets/incoming-biomes-hero.jpg";
 
 const SITE_URL = "https://www.createtravel.tur.br";
