@@ -37,12 +37,14 @@ export const Header = () => {
           { label: t("nav.destinos"), href: "/destinos" },
           { label: t("nav.experiencias"), href: "/experiencias" },
           { label: "Brasil Vivo", href: "/brasil-vivo" },
+          { label: "Brasil Aventura", href: "/brasil-aventura" },
           { label: t("nav.sobre"), href: "/sobre" },
           { label: t("nav.contato"), href: "/contato" },
         ]
       : [
           { label: t("nav.incoming"), href: `/${lang}/incoming` },
           { label: "Brasil Vivo", href: `/${lang}/brasil-vivo` },
+          { label: "Brasil Aventura", href: `/${lang}/brasil-aventura` },
           { label: t("nav.destinos"), href: "/brasil" },
           { label: t("nav.sobre"), href: "/sobre" },
         ];
