@@ -17,6 +17,7 @@ import BrasilEstado from "./pages/BrasilEstado";
 import Incoming from "./pages/Incoming";
 import BrasilVivo from "./pages/BrasilVivo";
 import BrasilAventura from "./pages/BrasilAventura";
+import CrieSeuGrupo from "./pages/CrieSeuGrupo";
 import ScrollToTop from "./components/ScrollToTop";
 import NotFound from "./pages/NotFound";
 
@@ -43,6 +44,8 @@ const App = () => (
           <Route path="/:lang/brasil-vivo" element={<BrasilVivo />} />
           <Route path="/brasil-aventura" element={<BrasilAventura />} />
           <Route path="/:lang/brasil-aventura" element={<BrasilAventura />} />
+          <Route path="/crie-seu-grupo" element={<CrieSeuGrupo />} />
+          <Route path="/:lang/crie-seu-grupo" element={<CrieSeuGrupo />} />
           <Route path="/brasil" element={<BrasilEstados />} />
           <Route path="/brasil/:estadoSlug" element={<BrasilEstado />} />
           {/* Multilingual incoming landing pages */}

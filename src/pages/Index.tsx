@@ -5,16 +5,9 @@ import {
   Compass,
   Users,
   Heart,
-  MessageCircle,
-  Sparkles,
-  PartyPopper,
-  Briefcase,
-  Flower2,
-  GraduationCap,
   Gem,
-  Mountain,
 } from "lucide-react";
-import { generateWhatsAppLink } from "@/lib/types";
+
 import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
 import { WhatsAppButton } from "@/components/WhatsAppButton";
@@ -249,137 +242,28 @@ const Index = () => {
         </div>
       </section>
 
-      {/* Crie seu grupo */}
+      {/* Crie seu grupo — teaser */}
       <section className="section-padding bg-muted">
         <div className="container-editorial">
-          <div className="text-center mb-14 max-w-3xl mx-auto">
-            <p className="text-caption text-gold mb-4">Curadoria de grupos</p>
-            <h2 className="heading-section text-foreground mb-5">
+          <div className="max-w-4xl mx-auto bg-card border border-border rounded-xl p-8 md:p-12 text-center">
+            <Gem size={32} className="text-gold mx-auto mb-5" />
+            <p className="text-caption text-gold mb-3">Curadoria de grupos</p>
+            <h2 className="heading-section text-foreground mb-4">
               Crie seu grupo, viaje à sua maneira
             </h2>
-            <p className="text-lg text-muted-foreground font-light">
-              Família, amigos, casamento, retiro espiritual ou incentivo corporativo —
-              desenhamos a viagem do seu grupo com a mesma curadoria autoral, do briefing
-              ao último brinde. Logística, hospedagens privativas, experiências exclusivas
-              e um anfitrião Create Travel ao seu lado.
+            <p className="text-lg text-muted-foreground mb-8 max-w-2xl mx-auto font-light">
+              Família, amigos, casamento, incentivo corporativo ou retiro
+              espiritual — desenhamos viagens privativas com curadoria autoral
+              e suporte 24/7.
             </p>
-          </div>
-
-          <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-5">
-            {[
-              {
-                icon: Users,
-                title: "Família & multigeracional",
-                description:
-                  "Roteiros que equilibram aventura, conforto e ritmo para avós, pais e crianças — com quartos conectados, atividades sob medida e momentos memoráveis para todos.",
-                whatsappName: "Grupo de família — viagem multigeracional",
-              },
-              {
-                icon: Compass,
-                title: "Entre amigos",
-                description:
-                  "Expedições autorais para grupos fechados: safári, Patagônia, Marrocos, Lençóis. Itinerário, hospedagens icônicas e experiências privativas pensadas para o grupo.",
-                whatsappName: "Grupo de amigos — expedição privativa",
-              },
-              {
-                icon: Heart,
-                title: "Casamento & lua de mel em grupo",
-                description:
-                  "Destination wedding, elopement ou celebração íntima com os convidados mais próximos. Cuidamos da hospedagem do grupo, traslados e experiências para todos.",
-                whatsappName: "Casamento ou celebração em destino",
-              },
-              {
-                icon: PartyPopper,
-                title: "Aniversários & comemorações",
-                description:
-                  "60 anos, bodas, formatura, despedida. Uma viagem-marco com jantares privativos, brindes ao pôr do sol e momentos que ficam para sempre na memória do grupo.",
-                whatsappName: "Comemoração especial em grupo",
-              },
-              {
-                icon: Briefcase,
-                title: "Incentivo & corporativo",
-                description:
-                  "Viagens de incentivo, off-sites e retiros de liderança. Logística impecável, hospedagens com identidade e experiências que aproximam o time de verdade.",
-                whatsappName: "Viagem de incentivo corporativo",
-              },
-              {
-                icon: Flower2,
-                title: "Retiros de meditação & bem-estar",
-                description:
-                  "Yoga, silêncio, breathwork, ayurveda. Locais de força — Bali, Açores, Chapada — com facilitadores de confiança e hospedagem que sustenta a prática.",
-                whatsappName: "Retiro de meditação e bem-estar",
-              },
-              {
-                icon: Sparkles,
-                title: "Espiritualidade & propósito",
-                description:
-                  "Caminhos xamânicos na Amazônia, peregrinações em Israel, mosteiros no Butão, deserto marroquino. Jornadas internas com guias e mestres locais.",
-                whatsappName: "Jornada espiritual em grupo",
-              },
-              {
-                icon: Mountain,
-                title: "Aventura & expedição",
-                description:
-                  "Trekking no Himalaia, kayak no Mamanguá, escalada na Patagônia, mergulho em Noronha. Grupos pequenos com guias técnicos e estrutura premium.",
-                whatsappName: "Expedição de aventura em grupo",
-              },
-              {
-                icon: GraduationCap,
-                title: "Educacional & cultural",
-                description:
-                  "Imersões para escolas, alumni, clubes de arte, gastronomia ou vinhos. Visitas privadas, especialistas locais e roteiro com curadoria temática.",
-                whatsappName: "Viagem educacional ou cultural em grupo",
-              },
-            ].map((group, index) => (
-              <motion.a
-                key={group.title}
-                href={generateWhatsAppLink({
-                  type: "Roteiro",
-                  name: group.whatsappName,
-                })}
-                target="_blank"
-                rel="noopener noreferrer"
-                initial={{ opacity: 0, y: 16 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                viewport={{ once: true }}
-                transition={{ delay: (index % 6) * 0.05 }}
-                className="group block p-7 rounded-xl border border-border bg-card hover:border-gold hover:shadow-card transition-all h-full"
-              >
-                <div className="w-12 h-12 rounded-full bg-gradient-hero flex items-center justify-center mb-5">
-                  <group.icon size={22} className="text-white" />
-                </div>
-                <h3 className="text-xl font-serif font-semibold text-foreground mb-3 group-hover:text-gold transition-colors">
-                  {group.title}
-                </h3>
-                <p className="text-[15px] text-muted-foreground leading-relaxed mb-5">
-                  {group.description}
-                </p>
-                <span className="inline-flex items-center gap-2 text-sm font-medium text-gold group-hover:gap-3 transition-all">
-                  Falar com a curadoria
-                  <ArrowRight size={16} />
-                </span>
-              </motion.a>
-            ))}
-          </div>
-
-          <div className="mt-14 max-w-4xl mx-auto bg-card border border-border rounded-xl p-8 md:p-10 text-center">
-            <Gem size={28} className="text-gold mx-auto mb-4" />
-            <h3 className="text-2xl md:text-3xl font-serif text-foreground mb-3">
-              Expertise Create Travel em grupos
-            </h3>
-            <p className="text-muted-foreground mb-6 max-w-2xl mx-auto">
-              Mais de uma década desenhando viagens privativas para grupos de 6 a 60
-              pessoas. Briefing dedicado, contratos transparentes, fornecedores testados
-              pessoalmente e suporte 24/7 durante a viagem.
-            </p>
-            <WhatsAppButton
-              variant="cta"
-              label="Começar a curadoria do meu grupo"
-              params={{ type: "Roteiro", name: "Curadoria de viagem em grupo" }}
-            />
+            <Link to="/crie-seu-grupo" className="btn-accent inline-flex items-center gap-2">
+              Conhecer a curadoria de grupos
+              <ArrowRight size={18} />
+            </Link>
           </div>
         </div>
       </section>
+
 
       {/* Final CTA */}
       <section className="section-padding bg-gradient-hero text-white">
