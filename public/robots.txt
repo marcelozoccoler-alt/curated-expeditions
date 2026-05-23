@@ -1,9 +1,7 @@
 User-agent: *
 Allow: /
 
-# Block noindex'd filter combinations from crawl budget waste (still allowed,
-# but tagged noindex via meta robots in the SPA when indexed). Search results
-# and multi-tag combos are noindex'd in HTML; we keep them crawlable so the
-# rel=canonical can pass signals to the cleaner version.
+# Filtros multi-tag e buscas internas são noindex via meta robots no SPA;
+# mantemos crawlable para o rel=canonical passar sinais.
 
-Sitemap: https://www.createtravel.tur.br/sitemap.xml
+Sitemap: https://createtravel.tur.br/sitemap.xml
