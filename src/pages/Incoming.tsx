@@ -13,7 +13,8 @@ import { CONTACT } from "@/lib/types";
 import { useLang } from "@/hooks/useLang";
 import { BrazilBiomeMap } from "@/components/BrazilBiomeMap";
 import { BRASIL_VIVO_UI } from "@/lib/brasilVivoCopy";
-import { Leaf } from "lucide-react";
+import { BRASIL_AVENTURA_UI } from "@/lib/brasilAventuraCopy";
+import { Leaf, Mountain } from "lucide-react";
 import biomesHero from "@/assets/incoming-biomes-hero.jpg";
 
 const SITE_URL = "https://www.createtravel.tur.br";
@@ -193,6 +194,36 @@ const Incoming = () => {
           </section>
         );
       })()}
+
+      {/* Brasil Aventura CTA — link to translated outdoor adventure hub */}
+      {(() => {
+        const ba = BRASIL_AVENTURA_UI[cLang];
+        return (
+          <section className="py-16 lg:py-20 bg-card border-y border-border">
+            <div className="container-editorial grid md:grid-cols-[1fr_auto] gap-8 items-center">
+              <div className="max-w-2xl">
+                <p className="text-xs uppercase tracking-[0.25em] text-gold mb-3 flex items-center gap-2">
+                  <Mountain size={14} /> {ba.hero.eyebrow}
+                </p>
+                <h2 className="font-serif text-3xl md:text-4xl mb-4 text-foreground">
+                  {ba.hero.title}
+                </h2>
+                <p className="text-muted-foreground leading-relaxed">
+                  {ba.hero.subtitle}
+                </p>
+              </div>
+              <Link
+                to={`/${lang}/brasil-aventura`}
+                className="btn-accent inline-flex items-center gap-2 justify-self-start md:justify-self-end whitespace-nowrap"
+              >
+                {ba.hero.cta}
+              </Link>
+            </div>
+          </section>
+        );
+      })()}
+
+
 
 
       {/* Destinations grid */}
