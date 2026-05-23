@@ -11,6 +11,7 @@ import { TAGS } from "@/lib/types";
 import { getFeaturedDestinations } from "@/lib/destinations";
 import { getFeaturedStays } from "@/lib/stays";
 import heroAmazon from "@/assets/hero-amazon.jpg";
+import heroAmazonWebp from "@/assets/hero-amazon.webp";
 
 const Index = () => {
   const featuredDestinations = getFeaturedDestinations();
