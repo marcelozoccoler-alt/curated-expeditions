@@ -41,6 +41,8 @@ const App = () => (
           {/* Brasil hierarchical navigation — must come before /:regionSlug */}
           <Route path="/brasil-vivo" element={<BrasilVivo />} />
           <Route path="/:lang/brasil-vivo" element={<BrasilVivo />} />
+          <Route path="/brasil-aventura" element={<BrasilAventura />} />
+          <Route path="/:lang/brasil-aventura" element={<BrasilAventura />} />
           <Route path="/brasil" element={<BrasilEstados />} />
           <Route path="/brasil/:estadoSlug" element={<BrasilEstado />} />
           {/* Multilingual incoming landing pages */}
