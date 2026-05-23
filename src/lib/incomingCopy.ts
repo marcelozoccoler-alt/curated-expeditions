@@ -54,7 +54,7 @@ export interface IncomingCopy {
   back: string;
 }
 
-export const INCOMING_COPY: Record<Exclude<ContentLang, "pt">, IncomingCopy> = {
+export const INCOMING_COPY: Record<Exclude<ContentLang, "pt\">, IncomingCopy> = {
   en: {
     meta: {
       title: "Brazil Travel — Tailor-Made Trips by Create Travel",
@@ -454,5 +454,205 @@ export const INCOMING_COPY: Record<Exclude<ContentLang, "pt">, IncomingCopy> = {
       ],
     },
     back: "Zurück zur Startseite",
+  },
+  fr: {
+    meta: {
+      title: "Voyage au Brésil — Séjours sur mesure par Create Travel",
+      description:
+        "Organisez votre voyage sur mesure au Brésil avec Create Travel : Amazonie, Pantanal, Lençóis, Bahia, Rio, Iguazu et Fernando de Noronha. Hôtels de charme, guides privés, expériences authentiques.",
+      keywords:
+        "agence de voyage Brésil, voyage sur mesure Brésil, circuits Amazonie, safari Pantanal, Lençóis Maranhenses, voyage de luxe Brésil, itinéraire sur mesure Brésil, circuits Rio de Janeiro, voyage Chutes d'Iguazu, voyage Bahia, vacances Fernando de Noronha",
+    },
+    hero: {
+      eyebrow: "Le Brésil, conçu pour vous",
+      title: "Découvrez le Brésil avec ceux qui y vivent.",
+      subtitle:
+        "Voyages sur mesure à travers le Brésil — de l'Amazonie à la Forêt Atlantique, de Rio à Lençóis. Pas de tourisme de masse, pas d'itinéraires copier-coller.",
+      cta: "Demander mon devis personnalisé",
+    },
+    intro: {
+      heading: "Une agence réceptive qui voyage d'abord au Brésil.",
+      paragraphs: [
+        "Create Travel est une agence brésilienne basée à São Paulo, qui conçoit des voyages privés pour les voyageurs qui arrivent curieux et repartent transformés. Nous ne vendons pas de forfaits — nous composons des itinéraires.",
+        "Nous travaillons avec les petites auberges que personne ne répertorie, les guides locaux devenus amis, les cuisiniers qui ouvrent leurs cuisines, et les bateliers qui savent quel méandre de la rivière les dauphins roses adorent. Le Brésil à travers les gens qui y vivent.",
+        "Chaque devis est construit sur mesure en fonction de vos dates, de votre rythme et de vos obsessions. Vous obtenez un seul concepteur de voyage, un seul numéro WhatsApp, un seul voyage qui n'appartient qu'à vous.",
+      ],
+    },
+    destinations: {
+      heading: "Le Brésil que nous aimons concevoir",
+      subheading:
+        "Une sélectionT d'expériences. Combinez-les, approfondissez-les ou laissez-nous vous suggérer quelque chose dont vous n'avez jamais entendu parler.",
+    },
+    biomesMap: {
+      eyebrow: "Le Brésil par biomes",
+      heading: "Choisissez le Brésil tel que la nature l'a dessiné",
+      subheading: "Six biomes plus 7 491 km de côte. Touchez une région pour découvrir sa faune, sa flore et les merveilles naturelles qui émerveillent les voyageurs.",
+    },
+    process: {
+      heading: "Comment nous travaillons",
+      subheading: "Trois étapes, de la conversation à votre voyage.",
+      steps: [
+        {
+          title: "1. Racontez-nous votre histoire",
+          text: "Dates, rêves, impératifs. Un court appel ou un message suffit.",
+        },
+        {
+          title: "2. Recevez un itinéraire conçu",
+          text: "Une proposition personnalisée avec hôtels, guides, transferts et un prix clair — que vous pourrez affiner.",
+        },
+        {
+          title: "3. Voyagez avec un soutien complet",
+          text: "Une personne réelle sur WhatsApp dès votre arrivée et jusqu'à votre retour chez vous.",
+        },
+      ],
+    },
+    trust: {
+      heading: "Pourquoi les voyageurs nous choisissent",
+      items: [
+        "Agence brésilienne, entièrement agréée (Cadastur 21.030.190/0001-60)",
+        "Relations directes avec les lodges, pas de revendeurs tiers",
+        "Guides privés et assistance 24h/24 et 7j/7 dans le pays",
+      ],
+    },
+    expertise: {
+      heading: "Le Brésil au bout de nos doigts",
+      lead: "Nous personnalisons et combinons une, deux, trois destinations ou plus en un seul voyage fluide — fly-and-drive, bateaux fluviaux, vols charters, trains panoramiques, transferts sur mesure. Tout ce qu'il faut pour que le pays vous convienne.",
+      destinationsLabel: "Destinations que nous concevons à travers le Brésil",
+      destinations: "Amazonie (Manaus, Rio Negro, Anavilhanas, Mamirauá) · Alter do Chão · Belém & Ilha de Marajó · Monte Roraima · Lençóis Maranhenses · Chapada das Mesas · Jalapão · Chapada dos Veadeiros · Pirenópolis · Pantanal Norte (MT) · Pantanal Sul (MS) · Bonito & Serra da Bodoquena · Cristalino · Serra do Roncador · Chapada Diamantina · Salvador · Ilha de Boipeba · Península de Maraú · Abrolhos & Costa do Descobrimento · Fernando de Noronha · Litoral Pernambucano · Litoral Alagoano · Maragogi · Cânions do Xingó · Jericoacoara · Rota das Emoções · Rota das Falésias · Serra da Capivara · Rio de Janeiro · Cataratas do Iguaçu · Cânions do Sul · Florianópolis · Serra do Cipó · Serra da Canastra · Cidades Históricas & Inhotim · Estrada Real · Campos do Jordão",
+      biomes: "Expertise locale dans les 7 biomes du Brésil — Amazonie, Cerrado, Caatinga, Forêt Atlantique, Pampa, Pantanal et Côtier-Marin — avec des contacts fiables dans chacun d'eux.",
+    },
+    cta: {
+      heading: "Prêt à concevoir votre Brésil ?",
+      subheading:
+        "Dites-nous quand vous souhaitez venir et nous vous ferons une proposition sous 48 heures.",
+      button: "Commencer sur WhatsApp",
+    },
+    faqs: {
+      heading: "Préparation de voyage au Brésil — vos questions, nos réponses",
+      subheading: "Des réponses honnêtes de l'équipe qui construit votre voyage.",
+      items: [
+        {
+          q: "Combien coûte un voyage sur mesure au Brésil avec Create Travel ?",
+          a: "Nous ne vendons pas de forfaits standard, il n'y a donc pas de prix fixe. Le coût dépend de la saison, de la durée du séjour, de la catégorie d'hôtel, des vols intérieurs, des guides privés et des expériences. La plupart de nos voyages sur mesure au Brésil commencent autour de 350 à 500 USD par personne et par jour pour un voyage de type boutique avec transferts privés et expériences organisées — les lodges haut de gamme et les destinations isolées (Amazonie, Pantanal, Fernando de Noronha) sont plus chers. Dites-nous vos dates et votre rêve et nous vous envoyons un devis détaillé et transparent sous 48 heures.",
+        },
+        {
+          q: "Pourquoi réserver le Brésil avec Create Travel plutôt qu'une grande agence en ligne ?",
+          a: "Nous sommes une agence de charme brésilienne (Cadastur 21.030.190/0001-60) basée à São Paulo. Vous parlez à un seul concepteur de voyage, pas à un centre d'appels. Nous avons des relations directes avec les lodges, les guides et les opérateurs — pas de revendeurs, pas de chaînes de majoration. Chaque itinéraire est construit à la main en fonction de votre rythme et de vos obsessions, et une personne réelle est sur WhatsApp 24h/24 et 7j/7 pendant votre voyage.",
+        },
+        {
+          q: "Quelle est la meilleure période pour voyager au Brésil ?",
+          a: "Le Brésil est une destination toute l'année. Mai-septembre est la saison sèche pour l'Amazonie et le Pantanal (idéal pour la faune). Juin-septembre est idéal pour Lençóis Maranhenses (lacs pleins). Décembre-mars est la haute saison pour les plages (Bahia, Nord-Est, Rio). Nous ajustons l'itinéraire aux meilleures régions pour vos dates.",
+        },
+        {
+          q: "Vous occupez-vous de tout le voyage — vols, hôtels, guides, transferts ?",
+          a: "Oui. Nous concevons l'intégralité du voyage de bout en bout : vols internationaux et intérieurs, hôtels de charme et lodges, guides bilingues privés, transferts, vols charters si nécessaires, réservations de restaurants et expériences spéciales. Un seul voyage, une seule équipe, un seul WhatsApp.",
+        },
+        {
+          q: "Est-il sûr de voyager au Brésil ?",
+          a: "Avec une connaissance locale, oui. Nous choisissons les quartiers les plus sûrs, les chauffeurs vérifiés et les guides de confiance, et vous informons des pratiques de bon sens. Notre assistance 24h/24 et 7j/7 dans le pays n'est qu'à un message.",
+        },
+      ],
+    },
+    back: "Retour à la page d'accueil",
+  },
+  he: {
+    meta: {
+      title: "טיולים לברזיל — טיולים בהתאמה אישית על ידי Create Travel",
+      description:
+        "תכננו את הטיול המותאם אישית שלכם לברזיל עם Create Travel: אמזונס, פנטנל, לנצ'ויס, באהיה, ריו, איגואסו ופרננדו דה נורוניה. מלונות בוטיק, מדריכים פרטיים, חוויות אותנטיות.",
+      keywords:
+        "סוכנות נסיעות ברזיל, טיול מותאם אישית לברזיל, טיולי אמזונס, ספארי פנטנל, לנצ'ויס מרניינסס, טיולי יוקרה לברזיל, מסלול טיול מותאם אישית לברזיל, טיולים בריו דה ז'ניירו, טיול למפלי איגואסו, טיול לבאהיה, חופשה בפרננדו דה נורוניה",
+    },
+    hero: {
+      eyebrow: "ברזיל, עוצב עבורכם",
+      title: "גלו את ברזיל עם האנשים שבאמת חיים בה.",
+      subtitle:
+        "טיולים בהתאמה אישית ברחבי ברזיל — מהאמזונס ועד יער האטלנטי, מריו ללנצ'ויס. ללא תיירות המונית, ללא מסלולים משוכפלים.",
+      cta: "בקשו הצעת מחיר בהתאמה אישית",
+    },
+    intro: {
+      heading: "סוכנות נכנסת שקודם כל נוסעת בברזיל.",
+      paragraphs: [
+        "Create Travel היא סוכנות בוטיק ברזילאית שבסיסה בסאו פאולו, המעצבת טיולים פרטיים למטיילים שמגיעים סקרנים ועוזבים עם שינוי. אנחנו לא מוכרים חבילות — אנחנו מרכיבים מסלולים.",
+        "אנחנו עובדים עם הלודג'ים הקטנים שאיש לא מפרסם, המדריכים המקומיים שהפכו לחברים, הטבחים שפותחים את מטבחיהם, וספני הסירות שיודעים באיזו עיקול בנהר הדולפינים הוורודים אוהבים. ברזיל דרך האנשים שבאמת חיים בה.",
+        "כל הצעת מחיר בנויה בעבודת יד סביב התאריכים, הקצב והאובססיות שלכם. אתם מקבלים מעצב טיולים אחד, מספר וואטסאפ אחד, טיול אחד ששייך רק לכם.",
+      ],
+    },
+    destinations: {
+      heading: "הברזיל שאנו אוהבים לעצב",
+      subheading:
+        "מבחר מוקפד של נקודות מוצא. שלבו אותן, העמיקו אותן, או תנו לנו להציע לכם משהו שמעולם לא שמעתם עליו.",
+    },
+    biomesMap: {
+      eyebrow: "ברזיל לפי ביומות",
+      heading: "בחרו את ברזיל כפי שהטבע צייר אותה",
+      subheading: "שישה ביומות בתוספת 7,491 ק\"מ של חוף. הקישו על אזור כדי לגלות את חיות הבר, הצמחים ופלאי הטבע שגורמים למטיילים להתפעם.",
+    },
+    process: {
+      heading: "איך אנחנו עובדים",
+      subheading: "שלושה שלבים משיחה ועד הטיול שלכם.",
+      steps: [
+        {
+          title: "1. ספרו לנו את הסיפור שלכם",
+          text: "תאריכים, חלומות, איסורים. מספיקה שיחה קצרה או הודעה.",
+        },
+        {
+          title: "2. קבלו מסלול מעוצב",
+          text: "הצעה מותאמת אישית עם מלונות, מדריכים, העברות ומחיר ברור — שלכם לליטוש.",
+        },
+        {
+          title: "3. טוסו עם תמיכה מלאה",
+          text: "אדם אמיתי בוואטסאפ מרגע נחיתתכם ועד חזרתכם הביתה.",
+        },
+      ],
+    },
+    trust: {
+      heading: "מדוע מטיילים בוחרים בנו",
+      items: [
+        "סוכנות ברזילאית, מורשית במלואה (Cadastur 21.030.190/0001-60)",
+        "קשרים ישירים עם הלודג'ים, לא משווקים צד שלישי",
+        "מדריכים פרטיים ותמיכה 24/7 בתוך המדינה",
+      ],
+    },
+    expertise: {
+      heading: "ברזיל בכף ידינו",
+      lead: "אנו מתאימים ומשלבים יעד אחד, שניים, שלושה או יותר, למסע חלק אחד — טיסות ונהיגה עצמית, סירות נהר, טיסות שכר, רכבות נוף, העברות בהזמנה אישית. כל מה שצריך כדי שהמדינה תתאים לכם.",
+      destinationsLabel: "יעדים שאנו מעצבים ברחבי ברזיל",
+      destinations: "אמזונס (מנאוס, ריו נגרו, אנאויהיאנס, ממירואא) · אלטר דו צ'או · בלם ואיליה דה מאראז'ו · מונטה רוריימה · לנצ'ויס מרניינסס · צ'פדה דאס מזס · ג'לפאו · צ'פדה דוס ויאדיירוס · פירנופוליס · פנטנל נורטה (MT) · פנטנל סול (MS) · בוניטו וסרה דה בודוקנה · קריסטלינו · סרה דו רונקדור · צ'פדה דיאמנטינה · סלבדור · איליה דה בויפבה · פנינסולה דה מאראו · אברולוס וקוסטה דו דסקוברימנטו · פרננדו דה נורוניה · ליטורל פרנמבוקנו · ליטורל אלגואנו · מאראגוג'י · קניונס דו שינגו · ז'ריקוקוארה · רוטה דאס אמוסיונס · רוטה דאס פאלסייאס · סרה דה קפיברה · ריו דה ז'ניירו · קטרטס דו איגואסו · קניונס דו סול · פלוריאנופוליס · סרה דו סיפו · סרה דה קנסטרה · סידדס היסטוריקס ואניוטין · אסטרדה ריאל · קמפוס דו ז'ורדאו",
+      biomes: "מומחיות מקומית על פני 7 הביומות של ברזיל — אמזונס, סראדו, קאטינגה, יער האטלנטי, פמפה, פנטנל וחוף-ימי — עם אנשי קשר מהימנים בכל אחת.",
+    },
+    cta: {
+      heading: "מוכנים לעצב את ברזיל שלכם?",
+      subheading:
+        "ספרו לנו מתי תרצו להגיע ונחזור אליכם עם הצעה בתוך 48 שעות.",
+      button: "התחילו בוואטסאפ",
+    },
+    faqs: {
+      heading: "תכנון טיול לברזיל — שאלותיכם נענות",
+      subheading: "תשובות כנות מהצוות שבונה את הטיול שלכם.",
+      items: [
+        {
+          q: "כמה עולה טיול בהתאמה אישית לברזיל עם Create Travel?",
+          a: "אנחנו לא מוכרים חבילות מהמדף, ולכן אין מחירון קבוע. העלות תלויה בעונה, משך השהייה, קטגוריית המלון, טיסות פנימיות, מדריכים פרטיים וחוויות. רוב הטיולים המותאמים אישית שלנו לברזיל מתחילים בסביבות 350-500 דולר ארה\"ב לאדם ליום עבור טיול ברמת בוטיק עם העברות פרטיות וחוויות מותאמות אישית — לודג'ים יוקרתיים ויעדים מרוחקים (אמזונס, פנטנל, פרננדו דה נורוניה) יקרים יותר. ספרו לנו את התאריכים והחלום שלכם ואנו נשלח הצעת מחיר מפורטת ושקופה תוך 48 שעות.",
+        },
+        {
+          q: "למה להזמין טיול לברזיל עם Create Travel במקום סוכנות מקוונת גדולה?",
+          a: "אנחנו סוכנות בוטיק ברזילאית (Cadastur 21.030.190/0001-60) שבסיסה בסאו פאולו. אתם מדברים עם מעצב טיולים אחד, לא עם מוקד שירות. יש לנו קשרים ישירים עם הלודג'ים, המדריכים והמפעילים — ללא משווקים, ללא שרשראות תיווך. כל מסלול נבנה בעבודת יד סביב הקצב והאובססיות שלכם, ואדם אמיתי נמצא בוואטסאפ 24/7 במהלך הטיול שלכם.",
+        },
+        {
+          q: "מתי הזמן הטוב ביותר לטייל בברזיל?",
+          a: "ברזיל היא יעד לכל אורך השנה בזכות גודלה. מאי-ספטמבר היא העונה היבשה עבור האמזונס והפנטנל (הטוב ביותר לחיות בר). יוני-ספטמבר אידיאלי ללנצ'ויס מרניינסס (לגונות מלאות). דצמבר-מרץ היא העונה הגבוהה לחופים (באהיה, צפון מזרח, ריו). אנו מתאימים את המסלול לאזורים הטובים ביותר עבור התאריכים שלכם.",
+        },
+        {
+          q: "האם אתם מטפלים בכל הטיול — טיסות, מלונות, מדריכים, העברות?",
+          a: "כן. אנחנו מתכננים את כל המסע מקצה לקצה: טיסות בינלאומיות ופנימיות, מלונות בוטיק ולודג'ים, מדריכים דו-לשוניים פרטיים, העברות, טיסות שכר במידת הצורך, הזמנות מסעדות וחוויות מיוחדות. טיול אחד, צוות אחד, וואטסאפ אחד.",
+        },
+        {
+          q: "האם בטוח לטייל בברזיל?",
+          a: "עם ידע מקומי, כן. אנו בוחרים את השכונות הבטוחות ביותר, נהגים מאומתים ומדריכים מהימנים, ומדריכים אתכם על נוהלי היגיון בריא. התמיכה שלנו 24/7 בתוך המדינה נמצאת תמיד במרחק הודעה.",
+        },
+      ],
+    },
+    back: "חזרה לדף הבית",
   },
 };
