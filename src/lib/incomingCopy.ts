@@ -1,4 +1,4 @@
-import type { ContentLang } from "@/i18n/config\";
+import type { ContentLang } from "@/i18n/config";
 
 export interface IncomingCopy {
   meta: {

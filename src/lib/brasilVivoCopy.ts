@@ -1,5 +1,5 @@
-import type { ContentLang } from "@/i18n/config\";
-import type { IucnStatus } from "./conservation\";
+import type { ContentLang } from "@/i18n/config";
+import type { IucnStatus } from "./conservation";
 
 export interface BrasilVivoUI {
   meta: { title: string; description: string; keywords: string };
