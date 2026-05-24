@@ -39,6 +39,7 @@ export const Header = () => {
           { label: "Brasil Vivo", href: "/brasil-vivo" },
           { label: "Brasil Aventura", href: "/brasil-aventura" },
           { label: "Crie seu grupo", href: "/crie-seu-grupo" },
+          { label: "Diário", href: "/diario" },
           { label: t("nav.sobre"), href: "/sobre" },
           { label: t("nav.contato"), href: "/contato" },
         ]
