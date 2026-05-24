@@ -392,12 +392,11 @@ export const pacotes: Pacote[] = [
         a: "Sim, se houver 10+ dias. Travessia 4x4 de 1 dia entre Carolina e Mateiros. Roteiros combinados são clássicos.",
       },
     ],
-    relatedDestinations: [],
     imageAiPrompt:
       "Chapada das Mesas Brazil, dramatic flat-topped mesa rock formation at sunset glowing orange, vast cerrado plains, cinematic editorial painterly, no people, ultra detailed",
     precoEstimado: "a partir de R$ 5.800 por pessoa",
     whatsappName: "Pacote Chapada das Mesas",
-  } as Pacote,
+  },
   {
     slug: "alter-do-chao",
     destinationName: "Alter do Chão",
