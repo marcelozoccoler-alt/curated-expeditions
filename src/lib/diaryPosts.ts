@@ -171,7 +171,7 @@ export const diaryPosts: DiaryPost[] = [
   },
   {
     slug: "namibia-cultura-e-vida-selvagem",
-    title: "Namíbia: cultura, vida selvagem e o deserto mais antigo do mundo",
+    title: "Namíbia: cultura, vida selvagem e o deserto mais antigo",
     h1: "Namíbia: o silêncio que se ouve do alto de uma duna",
     metaDescription:
       "Cultura himba, dunas de Sossusvlei, costa dos esqueletos e roteiros autorais Create Travel pelo deserto mais antigo do planeta.",
@@ -424,7 +424,7 @@ export const diaryPosts: DiaryPost[] = [
   },
   {
     slug: "paises-africanos-imperdiveis",
-    title: "10 países africanos imperdíveis para amantes da natureza e cultura",
+    title: "10 países africanos imperdíveis para natureza e cultura",
     h1: "10 países africanos que mudam quem viaja",
     metaDescription:
       "Da Namíbia ao Quênia, do Marrocos a Madagascar — seleção autoral Create Travel dos 10 países africanos imperdíveis.",
@@ -710,7 +710,7 @@ export const diaryPosts: DiaryPost[] = [
   },
   {
     slug: "cidades-historicas-de-minas-gerais",
-    title: "Cidades históricas de Minas Gerais: roteiro autoral pelos 7 essenciais",
+    title: "Cidades históricas de Minas Gerais: roteiro pelos 7 essenciais",
     h1: "Cidades históricas de Minas: sete tesouros do barroco brasileiro",
     metaDescription:
       "Ouro Preto, Tiradentes, Diamantina, Mariana, Congonhas, São João del-Rei e Sabará. Roteiro Create Travel pelo barroco mineiro.",
@@ -859,7 +859,7 @@ export const diaryPosts: DiaryPost[] = [
   },
   {
     slug: "ilhas-do-brasil-imperdiveis",
-    title: "Ilhas do Brasil: as 7 imperdíveis para quem busca beleza rara",
+    title: "Ilhas do Brasil: 7 imperdíveis para beleza rara",
     h1: "Sete ilhas brasileiras que valem a viagem inteira",
     metaDescription:
       "Fernando de Noronha, Ilha Grande, Boipeba, Tinharé, Marajó, Lençóis, Mel — curadoria autoral Create Travel das ilhas mais belas do Brasil.",
