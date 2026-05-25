@@ -34,7 +34,7 @@ export const pacotes: Pacote[] = [
   {
     slug: "chapada-dos-veadeiros",
     destinationName: "Chapada dos Veadeiros",
-    title: "Pacote de viagem para Chapada dos Veadeiros — Roteiro autoral",
+    title: "Pacote Chapada dos Veadeiros — Roteiro autoral Create",
     h1: "Pacote de viagem para Chapada dos Veadeiros",
     metaDescription:
       "Roteiro autoral Create Travel para a Chapada dos Veadeiros: cachoeiras, vale da lua, pousadas selecionadas e guias locais. 5 a 8 dias.",
@@ -134,7 +134,7 @@ export const pacotes: Pacote[] = [
   {
     slug: "amazonia",
     destinationName: "Amazônia",
-    title: "Pacote de viagem para Amazônia — Expedição autoral Create Travel",
+    title: "Pacote Amazônia — Expedição autoral Create Travel",
     h1: "Pacote de viagem para a Amazônia",
     metaDescription:
       "Expedição privativa pela Amazônia brasileira: lodges flutuantes, encontro com botos, comunidades ribeirinhas e fauna intocada. 5 a 9 dias.",
