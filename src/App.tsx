@@ -21,7 +21,7 @@ import CrieSeuGrupo from "./pages/CrieSeuGrupo";
 import Diario from "./pages/Diario";
 import DiarioPost from "./pages/DiarioPost";
 import Pacote from "./pages/Pacote";
-import AgenciaSaoPaulo from "./pages/AgenciaSaoPaulo";
+
 import ScrollToTop from "./components/ScrollToTop";
 import NotFound from "./pages/NotFound";
 
@@ -53,7 +53,7 @@ const App = () => (
           <Route path="/diario" element={<Diario />} />
           <Route path="/diario/:slug" element={<DiarioPost />} />
           <Route path="/pacote/:slug" element={<Pacote />} />
-          <Route path="/agencia-de-viagens-sao-paulo" element={<AgenciaSaoPaulo />} />
+          
           <Route path="/brasil" element={<BrasilEstados />} />
           <Route path="/brasil/:estadoSlug" element={<BrasilEstado />} />
           {/* Multilingual incoming landing pages */}

@@ -113,8 +113,6 @@ for (const p of diaryPosts) push(`/diario/${p.slug}`, 0.8, "monthly");
 // Pacotes comerciais (alta intenção)
 for (const p of pacotes) push(`/pacote/${p.slug}`, 0.9, "monthly");
 
-// Landing geo-comercial São Paulo
-push("/agencia-de-viagens-sao-paulo", 0.9, "monthly");
 
 
 // Multilingual incoming landing pages (target foreigners searching Brazil)
