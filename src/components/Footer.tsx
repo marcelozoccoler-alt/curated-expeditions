@@ -1,13 +1,16 @@
 import { Link } from "react-router-dom";
 import { Mail, MapPin, Phone, Instagram, Facebook } from "lucide-react";
 import { CONTACT, CONTINENTS, generateWhatsAppLink } from "@/lib/types";
+import { diaryPosts } from "@/lib/diaryPosts";
 import logo from "@/assets/logo.jpg";
 
 export const Footer = () => {
+  const topPosts = diaryPosts.slice(0, 5);
   return (
     <footer className="bg-navy text-primary-foreground">
       <div className="container-editorial py-16">
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-12">
+
           {/* Brand */}
           <div className="space-y-4">
             <div className="flex items-center gap-3">
@@ -63,44 +66,27 @@ export const Footer = () => {
             </ul>
           </div>
 
-          {/* Links */}
+          {/* Explorar */}
           <div className="space-y-4">
             <h4 className="text-sm font-semibold uppercase tracking-wider text-gold">
-              Links
+              Explorar
             </h4>
             <ul className="space-y-2">
+              <li><Link to="/destinos" className="text-sm text-primary-foreground/70 hover:text-gold transition-colors">Destinos</Link></li>
+              <li><Link to="/experiencias" className="text-sm text-primary-foreground/70 hover:text-gold transition-colors">Experiências</Link></li>
+              <li><Link to="/hospedagens" className="text-sm text-primary-foreground/70 hover:text-gold transition-colors">Hospedagens</Link></li>
+              <li><Link to="/guias" className="text-sm text-primary-foreground/70 hover:text-gold transition-colors">Guias autorais</Link></li>
+              <li><Link to="/brasil" className="text-sm text-primary-foreground/70 hover:text-gold transition-colors">Brasil por estado</Link></li>
+              <li><Link to="/brasil-vivo" className="text-sm text-primary-foreground/70 hover:text-gold transition-colors">Brasil Vivo</Link></li>
+              <li><Link to="/brasil-aventura" className="text-sm text-primary-foreground/70 hover:text-gold transition-colors">Brasil Aventura</Link></li>
+              <li><Link to="/crie-seu-grupo" className="text-sm text-primary-foreground/70 hover:text-gold transition-colors">Crie seu grupo</Link></li>
               <li>
-                <Link
-                  to="/experiencias"
-                  className="text-sm text-primary-foreground/70 hover:text-gold transition-colors"
-                >
-                  Experiências
-                </Link>
-              </li>
-              <li>
-                <Link
-                  to="/brasil-vivo"
-                  className="text-sm text-primary-foreground/70 hover:text-gold transition-colors"
-                >
-                  Brasil Vivo · Biomas & Conservação
-                </Link>
-              </li>
-              <li>
-                <Link
-                  to="/brasil-aventura"
-                  className="text-sm text-primary-foreground/70 hover:text-gold transition-colors"
-                >
-                  Brasil Aventura · Outdoor & Natureza
-                </Link>
-              </li>
-              <li>
-                <Link
-                  to="/grupos/marrocos-2026"
-                  className="text-sm text-gold hover:text-gold-light transition-colors font-medium"
-                >
+                <Link to="/grupos/marrocos-2026" className="text-sm text-gold hover:text-gold-light transition-colors font-medium">
                   Grupo Marrocos 2026
                 </Link>
               </li>
+              <li><Link to="/sobre" className="text-sm text-primary-foreground/70 hover:text-gold transition-colors">Sobre</Link></li>
+              <li><Link to="/contato" className="text-sm text-primary-foreground/70 hover:text-gold transition-colors">Contato</Link></li>
               <li>
                 <a
                   href={generateWhatsAppLink({ type: "Geral" })}
@@ -108,23 +94,31 @@ export const Footer = () => {
                   rel="noopener noreferrer"
                   className="text-sm text-primary-foreground/70 hover:text-gold transition-colors"
                 >
-                  Criar Roteiro
+                  Criar roteiro no WhatsApp
                 </a>
               </li>
-              <li>
-                <Link
-                  to="/sobre"
-                  className="text-sm text-primary-foreground/70 hover:text-gold transition-colors"
-                >
-                  Sobre
-                </Link>
-              </li>
-              <li>
-                <Link
-                  to="/contato"
-                  className="text-sm text-primary-foreground/70 hover:text-gold transition-colors"
-                >
-                  Contato
+            </ul>
+          </div>
+
+          {/* Diário */}
+          <div className="space-y-4">
+            <h4 className="text-sm font-semibold uppercase tracking-wider text-gold">
+              Diário
+            </h4>
+            <ul className="space-y-2">
+              {topPosts.map((p) => (
+                <li key={p.slug}>
+                  <Link
+                    to={`/diario/${p.slug}`}
+                    className="text-sm text-primary-foreground/70 hover:text-gold transition-colors line-clamp-2"
+                  >
+                    {p.h1}
+                  </Link>
+                </li>
+              ))}
+              <li className="pt-2">
+                <Link to="/diario" className="text-sm text-gold hover:text-gold-light transition-colors font-medium">
+                  Ver todos os artigos →
                 </Link>
               </li>
               <li className="pt-3 mt-3 border-t border-primary-foreground/10">
@@ -132,14 +126,15 @@ export const Footer = () => {
                   International
                 </span>
                 <div className="flex flex-wrap gap-x-3 gap-y-1">
-                  <Link to="/en/incoming" className="text-sm text-primary-foreground/70 hover:text-gold transition-colors">🇬🇧 English</Link>
-                  <Link to="/es/incoming" className="text-sm text-primary-foreground/70 hover:text-gold transition-colors">🇪🇸 Español</Link>
-                  <Link to="/it/incoming" className="text-sm text-primary-foreground/70 hover:text-gold transition-colors">🇮🇹 Italiano</Link>
-                  <Link to="/de/incoming" className="text-sm text-primary-foreground/70 hover:text-gold transition-colors">🇩🇪 Deutsch</Link>
+                  <Link to="/en/incoming" className="text-sm text-primary-foreground/70 hover:text-gold transition-colors">🇬🇧 EN</Link>
+                  <Link to="/es/incoming" className="text-sm text-primary-foreground/70 hover:text-gold transition-colors">🇪🇸 ES</Link>
+                  <Link to="/it/incoming" className="text-sm text-primary-foreground/70 hover:text-gold transition-colors">🇮🇹 IT</Link>
+                  <Link to="/de/incoming" className="text-sm text-primary-foreground/70 hover:text-gold transition-colors">🇩🇪 DE</Link>
                 </div>
               </li>
             </ul>
           </div>
+
 
           {/* Contact */}
           <div className="space-y-4">
