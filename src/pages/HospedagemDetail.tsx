@@ -15,6 +15,7 @@ import { getStayImage } from "@/lib/stayImages";
 import { getDestinationBySlug, destinations } from "@/lib/destinations";
 import { getTagsByIds, getBeyondUsualParts, CONTACT } from "@/lib/types";
 import { buildStayKeywords, buildSpeakableSchema } from "@/lib/seoIntents";
+import { getRelatedDiaryForStay } from "@/lib/relatedDiary";
 
 
 const HospedagemDetail = () => {
