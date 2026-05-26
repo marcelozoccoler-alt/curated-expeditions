@@ -11,6 +11,7 @@ import { SEO } from "@/components/SEO";
 import { destinations, getFeaturedDestinations } from "@/lib/destinations";
 import { TAGS, CONTACT, Destination } from "@/lib/types";
 import { getExperienciasSEO } from "@/lib/seo";
+import { getRelatedDiaryForKeywords } from "@/lib/relatedDiary";
 import {
   Select,
   SelectContent,
