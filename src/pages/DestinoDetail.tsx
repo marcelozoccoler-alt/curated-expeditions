@@ -57,6 +57,7 @@ const DestinoDetail = () => {
   const otherInContinent = destinations
     .filter((d) => d.continent === destination.continent && d.id !== destination.id)
     .slice(0, 3);
+  const relatedDiary = getRelatedDiaryForDestination(destination, 3);
 
   // Absolute URL for og:image and JSON-LD (crawlers/AI need absolute URLs)
   const domain = CONTACT.domain.replace(/\/$/, "");
