@@ -52,6 +52,8 @@ const DiarioPost = () => {
     : null;
 
   const related = diaryPosts.filter((p) => p.slug !== post.slug).slice(0, 3);
+  const relatedDestinos = getRelatedDestinationsForPost(post, 3);
+  const relatedStays = getRelatedStaysForPost(post, 3);
 
   return (
     <div className="min-h-screen">
