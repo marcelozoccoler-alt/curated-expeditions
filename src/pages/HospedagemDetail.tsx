@@ -291,6 +291,33 @@ const HospedagemDetail = () => {
         </section>
       )}
 
+      {relatedDiary.length > 0 && (
+        <section className="section-padding bg-muted">
+          <div className="container-editorial">
+            <p className="text-caption text-gold mb-3">Do Diário Create Travel</p>
+            <h2 className="heading-section mb-8">
+              Aprofunde-se no destino antes de viajar
+            </h2>
+            <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
+              {relatedDiary.map((p) => (
+                <Link
+                  key={p.slug}
+                  to={`/diario/${p.slug}`}
+                  className="group block p-5 border border-border rounded-xl hover:border-gold transition-colors bg-card"
+                >
+                  <div className="text-xs text-gold font-semibold tracking-wider mb-2">
+                    {p.category.toUpperCase()} · {p.readingMinutes} MIN
+                  </div>
+                  <div className="text-base font-serif text-foreground group-hover:text-gold transition-colors line-clamp-3">
+                    {p.h1}
+                  </div>
+                </Link>
+              ))}
+            </div>
+          </div>
+        </section>
+      )}
+
       <Footer />
     </div>
   );
