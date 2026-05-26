@@ -8,6 +8,8 @@ import { Breadcrumbs } from "@/components/Breadcrumbs";
 import { FAQSection } from "@/components/FAQSection";
 import { WhatsAppButton } from "@/components/WhatsAppButton";
 import { getDiaryPost, diaryPosts } from "@/lib/diaryPosts";
+import { getRelatedDestinationsForPost, getRelatedStaysForPost } from "@/lib/relatedDiary";
+import { getDestinationImage } from "@/lib/destinationImages";
 import { CONTACT } from "@/lib/types";
 
 const DiarioPost = () => {
