@@ -47,6 +47,7 @@ const HospedagemDetail = () => {
       dest ? s.destinationRef === stay.destinationRef : s.tags.some((t) => stay.tags.includes(t))
     )
     .slice(0, 3);
+  const relatedDiary = getRelatedDiaryForStay(stay, 3);
 
   const domain = CONTACT.domain.replace(/\/$/, "");
   const pageUrl = `${domain}/hospedagens/${stay.slug}`;
