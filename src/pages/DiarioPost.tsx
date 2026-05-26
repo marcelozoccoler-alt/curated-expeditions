@@ -139,6 +139,64 @@ const DiarioPost = () => {
             </div>
           )}
 
+          {relatedDestinos.length > 0 && (
+            <div className="my-16">
+              <h3 className="text-xl font-serif text-foreground mb-6">
+                Destinos relacionados
+              </h3>
+              <div className="grid sm:grid-cols-3 gap-4">
+                {relatedDestinos.map((d) => (
+                  <Link
+                    key={d.id}
+                    to={`/destinos/${d.slug}`}
+                    className="group block rounded-xl overflow-hidden bg-card border border-border hover:border-gold transition-colors"
+                  >
+                    <div className="aspect-[4/3] overflow-hidden">
+                      <img
+                        src={
+                          getDestinationImage(d.id) ||
+                          d.imageOverrideUrl ||
+                          `https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=600&h=400&fit=crop`
+                        }
+                        alt={d.name}
+                        loading="lazy"
+                        className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
+                      />
+                    </div>
+                    <div className="p-4">
+                      <p className="text-xs text-muted-foreground uppercase tracking-wider">
+                        {d.region}
+                      </p>
+                      <div className="text-base font-serif text-foreground group-hover:text-gold transition-colors">
+                        {d.name}
+                      </div>
+                    </div>
+                  </Link>
+                ))}
+              </div>
+            </div>
+          )}
+
+          {relatedStays.length > 0 && (
+            <div className="my-16">
+              <h3 className="text-xl font-serif text-foreground mb-6">
+                Hospedagens selecionadas para este destino
+              </h3>
+              <ul className="space-y-2">
+                {relatedStays.map((s) => (
+                  <li key={s.slug}>
+                    <Link
+                      to={`/hospedagens/${s.slug}`}
+                      className="text-gold hover:underline inline-flex items-center gap-2"
+                    >
+                      {s.name} <ArrowRight size={14} />
+                    </Link>
+                  </li>
+                ))}
+              </ul>
+            </div>
+          )}
+
           <div className="my-16">
             <h3 className="text-xl font-serif text-foreground mb-6">Leituras relacionadas</h3>
             <div className="grid sm:grid-cols-3 gap-4">
