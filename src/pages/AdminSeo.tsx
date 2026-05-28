@@ -70,7 +70,7 @@ export default function AdminSeo() {
 
   return (
     <>
-      <SEO title="Admin · SEO | Create Travel" description="Painel interno." canonical="/admin/seo" noindex />
+      <SEO title="Admin · SEO | Create Travel" description="Painel interno." canonicalPath="/admin/seo" noindex />
       <div className="min-h-screen bg-background">
         <header className="border-b border-border">
           <div className="container mx-auto px-4 py-4 flex items-center justify-between">

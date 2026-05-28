@@ -21,6 +21,9 @@ import CrieSeuGrupo from "./pages/CrieSeuGrupo";
 import Diario from "./pages/Diario";
 import DiarioPost from "./pages/DiarioPost";
 import Pacote from "./pages/Pacote";
+import Auth from "./pages/Auth";
+import AdminSeo from "./pages/AdminSeo";
+
 
 import ScrollToTop from "./components/ScrollToTop";
 import NotFound from "./pages/NotFound";
@@ -53,6 +56,9 @@ const App = () => (
           <Route path="/diario" element={<Diario />} />
           <Route path="/diario/:slug" element={<DiarioPost />} />
           <Route path="/pacote/:slug" element={<Pacote />} />
+          <Route path="/auth" element={<Auth />} />
+          <Route path="/admin/seo" element={<AdminSeo />} />
+
           
           <Route path="/brasil" element={<BrasilEstados />} />
           <Route path="/brasil/:estadoSlug" element={<BrasilEstado />} />

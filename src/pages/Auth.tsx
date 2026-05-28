@@ -50,7 +50,7 @@ export default function Auth() {
 
   return (
     <>
-      <SEO title="Acesso restrito | Create Travel" description="Área administrativa." canonical="/auth" noindex />
+      <SEO title="Acesso restrito | Create Travel" description="Área administrativa." canonicalPath="/auth" noindex />
       <div className="min-h-screen flex items-center justify-center bg-background p-4">
         <Card className="w-full max-w-md">
           <CardHeader>
