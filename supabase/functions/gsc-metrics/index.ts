@@ -6,7 +6,7 @@ const corsHeaders = {
 };
 
 const GATEWAY_URL = "https://connector-gateway.lovable.dev/google_search_console";
-const SITE = "https://createtravel.tur.br/";
+const SITE = "sc-domain:createtravel.tur.br";
 const SITE_ENC = encodeURIComponent(SITE);
 
 Deno.serve(async (req) => {
