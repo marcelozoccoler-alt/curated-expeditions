@@ -766,53 +766,6 @@ export const diaryPosts: DiaryPost[] = [
     whatsappName: "Roteiro Cidades Históricas Minas",
   },
   {
-    slug: "30-destinos-america-do-sul",
-    title: "30 destinos imperdíveis da América do Sul — seleção autoral",
-    h1: "30 destinos que definem a América do Sul",
-    metaDescription:
-      "De Galápagos à Patagônia, de Cartagena a Salar de Uyuni — seleção Create Travel dos 30 destinos imperdíveis na América do Sul.",
-    keywords: "destinos america do sul, melhores destinos america do sul, america do sul viagem",
-    intro:
-      "A América do Sul tem doze países e uma diversidade de paisagens e culturas que poucos continentes do mundo igualam. Esta seleção combina ícones absolutos e jóias menos conhecidas — tudo testado pela curadoria Create Travel.",
-    sections: [
-      {
-        heading: "Os 30 destinos",
-        paragraphs: [
-          "Argentina: 1. Buenos Aires · 2. Patagônia (El Calafate + El Chaltén) · 3. Salta e Cafayate · 4. Mendoza · 5. Bariloche.",
-          "Chile: 6. Torres del Paine · 7. Atacama · 8. Ilha de Páscoa · 9. Vale do Colchagua · 10. Chiloé.",
-          "Peru: 11. Machu Picchu + Vale Sagrado · 12. Amazônia peruana (Tambopata) · 13. Arequipa e Cañón del Colca · 14. Lima gastronomia.",
-          "Bolívia: 15. Salar de Uyuni · 16. La Paz e Vale da Lua.",
-          "Equador: 17. Galápagos · 18. Quito + Otavalo.",
-          "Colômbia: 19. Cartagena · 20. Eixo cafeteiro · 21. Tayrona + Ciudad Perdida.",
-          "Brasil: 22. Lençóis Maranhenses · 23. Fernando de Noronha · 24. Chapada Diamantina · 25. Amazônia · 26. Pantanal · 27. Rio de Janeiro · 28. Bonito.",
-          "Uruguai: 29. José Ignacio + Garzón.",
-          "Venezuela (quando estável): 30. Roraima/Salto Angel.",
-        ],
-      },
-      {
-        heading: "Combinações sugeridas",
-        paragraphs: [
-          "Patagônia argentina + chilena (12-15 dias). Peru + Bolívia (Machu Picchu + Uyuni, 10-12 dias). Colômbia capital + Cartagena (10 dias). Galápagos solo (8 dias). Brasil norte-nordeste (Lençóis + Noronha, 10 dias).",
-        ],
-      },
-    ],
-    faq: [
-      {
-        q: "Qual destino para primeira viagem à América do Sul?",
-        a: "Patagônia (argentina ou chilena), Peru ou Colômbia. Infraestrutura turística madura e roteiros fluidos.",
-      },
-    ],
-    relatedDestinations: [
-      { label: "Destinos na América do Sul", href: "/destinos?c=america-do-sul" },
-    ],
-    imageAiPrompt:
-      "Salar de Uyuni Bolivia at sunrise, mirror-like salt flats reflecting sky perfectly, soft pink and gold colors, cinematic editorial painterly, no people, ultra detailed",
-    publishedAt: "2026-05-24",
-    readingMinutes: 6,
-    category: "Roteiro",
-    whatsappName: "Roteiro América do Sul",
-  },
-  {
     slug: "lugares-mais-frios-do-mundo",
     title: "Os lugares mais frios do mundo que você pode visitar",
     h1: "Os lugares mais frios do mundo — e por que vale conhecer",
@@ -902,6 +855,655 @@ export const diaryPosts: DiaryPost[] = [
     readingMinutes: 5,
     category: "Destino",
     whatsappName: "Roteiro Ilhas do Brasil",
+  },
+  {
+    slug: "brasil-alem-do-litoral-guia-completo",
+    title: "Descobrindo o Brasil além do litoral — guia completo Create Travel",
+    h1: "O Brasil que começa onde a praia termina",
+    metaDescription:
+      "Amazônia, Pantanal, Lençóis, Jalapão, Chapadas, Marajó e Roraima. Guia autoral Create Travel para descobrir o Brasil além do litoral.",
+    keywords: "brasil alem do litoral, brasil interior, ecoturismo brasil, brasil natureza, viagem brasil interior",
+    intro:
+      "O Brasil tem 7.491 km de costa — e quase nove milhões de quilômetros quadrados de tudo o que não é praia. É no interior que o país guarda suas paisagens mais improváveis: um deserto branco com lagoas turquesa, savanas alagadas com a maior concentração de fauna das Américas, chapadas com cânions e cachoeiras de água preta, ilhas fluviais maiores que países inteiros e uma montanha-mesa pré-cambriana que inspirou Conan Doyle.",
+    sections: [
+      {
+        heading: "Por que ir além do litoral",
+        paragraphs: [
+          "A maioria dos brasileiros conhece o Brasil pela orla. Mas a alma do país está no Cerrado, na Amazônia, no Pantanal e nas chapadas — biomas únicos no planeta, com biodiversidade e paisagens que rivalizam com qualquer destino africano ou asiático em termos de impacto visual.",
+          "O viajante autoral encontra aqui o que procurava lá fora: silêncio absoluto, fauna selvagem em estado puro, comunidades tradicionais vivas, gastronomia regional sofisticada e hospedagens pé-na-areia substituídas por lodges ribeirinhos e pousadas-fazenda de altíssimo nível.",
+        ],
+      },
+      {
+        heading: "Os 10 destinos que definem o Brasil interior",
+        paragraphs: [
+          "1. Amazônia — a maior floresta tropical do planeta, com lodges flutuantes e encontros com botos cor-de-rosa.",
+          "2. Pantanal e Bonito — a maior planície alagada do mundo + as águas mais transparentes do Brasil.",
+          "3. Lençóis Maranhenses — dunas brancas e lagoas turquesa que aparecem entre maio e setembro.",
+          "4. Jalapão — fervedouros, cachoeiras e dunas alaranjadas no coração do Tocantins.",
+          "5. Chapada das Mesas — Maranhão profundo, com cachoeiras e formações rochosas pouco visitadas.",
+          "6. Chapada Diamantina — Bahia interior: cânions, grutas com lagos azuis e trilhas clássicas.",
+          "7. Chapada dos Guimarães — pôr-do-sol mais famoso do Centro-Oeste, a 1h de Cuiabá.",
+          "8. Pantanal Norte e Nobres — Transpantaneira, onça-pintada e flutuação em águas cristalinas.",
+          "9. Belém, Marajó e Alter do Chão — Pará triplo: gastronomia, búfalos e a 'praia caribenha' do rio Tapajós.",
+          "10. Monte Roraima — o tepui que parece outro planeta, na tríplice fronteira Brasil-Venezuela-Guiana.",
+        ],
+      },
+      {
+        heading: "Como a Create Travel desenha estas viagens",
+        paragraphs: [
+          "Cada destino do interior brasileiro exige logística cirúrgica — voos regionais, transfers 4x4, guias locais credenciados e hospedagens com poucos quartos que esgotam meses antes. Nossa curadoria combina os melhores lodges (Anavilhanas, Cristalino, Caiman, Refúgio Ecológico do Pantanal), guias-naturalistas que falam o idioma do bioma e roteiros que respeitam a janela climática certa de cada região.",
+        ],
+      },
+    ],
+    faq: [
+      {
+        q: "Qual a melhor época para viajar pelo interior do Brasil?",
+        a: "Depende do bioma. Lençóis: maio a setembro (lagoas cheias). Pantanal: julho a outubro (seca, fauna concentrada). Amazônia: ano todo, com nuances. Jalapão e Chapadas: maio a setembro (estiagem).",
+      },
+      {
+        q: "É seguro viajar pelo interior do Brasil?",
+        a: "Sim, com curadoria. Operamos com receptivos locais credenciados, hospedagens selecionadas e logística testada — exatamente como fazemos para Madagascar ou Namíbia.",
+      },
+      {
+        q: "Posso combinar mais de um destino na mesma viagem?",
+        a: "Sim. Combinações clássicas: Lençóis + Jalapão (10-12 dias), Pantanal + Bonito (8-10 dias), Chapada Diamantina + Salvador (8 dias), Belém + Marajó + Alter do Chão (10 dias).",
+      },
+    ],
+    relatedDestinations: [
+      { label: "Destinos no Brasil", href: "/brasil" },
+      { label: "Brasil Aventura", href: "/brasil-aventura" },
+      { label: "Brasil Vivo", href: "/brasil-vivo" },
+    ],
+    imageAiPrompt:
+      "Aerial editorial shot of Lençóis Maranhenses Brazil, endless white sand dunes with turquoise freshwater lagoons between them, soft late afternoon light, painterly cinematic, no people, ultra detailed",
+    publishedAt: "2026-05-31",
+    readingMinutes: 7,
+    category: "Roteiro",
+    whatsappName: "Roteiro Brasil além do litoral",
+  },
+  {
+    slug: "amazonia-guia-completo-de-viagem",
+    title: "Amazônia: guia completo de viagem, lodges e melhor época",
+    h1: "Amazônia: navegar o maior rio do mundo dentro da maior floresta do mundo",
+    metaDescription:
+      "Quando ir à Amazônia, melhores lodges, encontro das águas, Anavilhanas, Mamirauá e roteiros autorais Create Travel.",
+    keywords: "amazonia, viagem amazonia, lodge amazonia, manaus, anavilhanas, mamiraua",
+    intro:
+      "A Amazônia ocupa 60% do território brasileiro, abriga 10% de toda a biodiversidade do planeta e produz, sozinha, parte do oxigênio que você respira agora. Visitá-la é entrar no maior sistema vivo da Terra — e descobrir que o silêncio da floresta tem trilha sonora própria: bugios ao amanhecer, chuva sobre o dossel, motor à diesel cruzando o rio à noite.",
+    sections: [
+      {
+        heading: "Por onde começar: Manaus, Belém ou Santarém",
+        paragraphs: [
+          "Manaus é a porta de entrada clássica — voos diretos do Brasil inteiro, encontro das águas (Rio Negro × Solimões), acesso ao arquipélago de Anavilhanas e à Reserva Mamirauá. É a base ideal para quem quer lodges flutuantes ou cruzeiros expedicionários pelo Rio Negro.",
+          "Belém abre a Amazônia oriental: Ver-o-Peso, gastronomia paraense (Casa do Saulo, Remanso do Bosque), Ilha de Marajó e conexão para Alter do Chão.",
+          "Santarém, no Pará, é a base para Alter do Chão e a Floresta Nacional do Tapajós — uma das águas mais limpas da bacia amazônica.",
+        ],
+      },
+      {
+        heading: "Os melhores lodges e cruzeiros",
+        paragraphs: [
+          "Anavilhanas Jungle Lodge (Rio Negro) e Mirante do Gavião combinam arquitetura premiada com excursões guiadas no maior arquipélago fluvial do mundo.",
+          "Cristalino Lodge, no sul do Amazonas, é referência mundial em birdwatching — mais de 600 espécies catalogadas.",
+          "Uakari Floating Lodge, em Mamirauá (AM), opera dentro de reserva sustentável com avistamento quase garantido de macaco-uacari e botos-cor-de-rosa.",
+          "Cruzeiros de expedição (Tucano, Jacaré-Açu) permitem dormir flutuando e acordar todo dia em um igarapé diferente.",
+        ],
+      },
+      {
+        heading: "Cheia × seca: quando ir",
+        paragraphs: [
+          "Cheia (fevereiro a junho): rios transbordam, a floresta inunda, canoas entram entre árvores — paisagem dos sonhos, mas trilhas curtas.",
+          "Seca (julho a novembro): praias fluviais aparecem, trilhas longas, melhor para fauna e pesca esportiva.",
+          "Para Mamirauá e Anavilhanas, a janela de transição (maio-junho e setembro-outubro) costuma oferecer o melhor dos dois mundos.",
+        ],
+      },
+      {
+        heading: "Roteiro autoral Create Travel",
+        paragraphs: [
+          "Combinamos 5 a 7 noites em lodge selecionado + extensão a Alter do Chão ou Mamirauá. Voos internos curados, transfers em voadeira privativa, guia-naturalista bilíngue e jantares com chefs amazônicos. De 7 a 12 dias.",
+        ],
+      },
+    ],
+    faq: [
+      {
+        q: "É seguro visitar a Amazônia?",
+        a: "Sim, dentro das regiões turísticas e com operação selecionada. Hospedagens credenciadas, transfers privativos e equipe local treinada — a Amazônia turística é uma das experiências mais seguras do Brasil.",
+      },
+      {
+        q: "Preciso de vacina para visitar a Amazônia?",
+        a: "Sim. Febre amarela é obrigatória (mínimo 10 dias antes da viagem). Recomendamos também repelente forte e medicação para profilaxia se for área de malária — coordenamos orientação médica completa.",
+      },
+      {
+        q: "Quantos dias preciso na Amazônia?",
+        a: "Mínimo 4 noites em lodge para sentir o ritmo da floresta. Ideal: 6 a 8 noites, combinando dois ecossistemas (igarapé + várzea ou Rio Negro + Tapajós).",
+      },
+    ],
+    relatedDestinations: [
+      { label: "Brasil — Amazonas", href: "/brasil/amazonas" },
+      { label: "Brasil — Pará", href: "/brasil/para" },
+      { label: "Experiência: Natureza", href: "/experiencias/natureza" },
+    ],
+    imageAiPrompt:
+      "Aerial editorial view of Amazon rainforest at sunrise, mist rising over endless green canopy with winding dark river, soft golden light, cinematic painterly, no people, ultra detailed",
+    publishedAt: "2026-05-31",
+    readingMinutes: 7,
+    category: "Destino",
+    whatsappName: "Roteiro Amazônia",
+  },
+  {
+    slug: "pantanal-e-bonito-guia-de-viagem",
+    title: "Pantanal e Bonito: guia de viagem, melhor época e roteiros",
+    h1: "Pantanal e Bonito: a dupla que ninguém deveria separar",
+    metaDescription:
+      "Como combinar Pantanal e Bonito, melhor época, onça-pintada, flutuação em rios cristalinos e roteiros autorais Create Travel.",
+    keywords: "pantanal, bonito ms, pantanal e bonito, viagem pantanal, onca pintada, gruta lago azul",
+    intro:
+      "Pantanal e Bonito ficam no mesmo estado (Mato Grosso do Sul), partilham o aeroporto de Campo Grande e oferecem experiências complementares: o Pantanal é a maior planície alagada do mundo, com a maior concentração de fauna das Américas; Bonito é o santuário das águas cristalinas, com mais visibilidade subaquática que muito mar de Caribe.",
+    sections: [
+      {
+        heading: "Pantanal: onça-pintada, jacarés e safári brasileiro",
+        paragraphs: [
+          "O Pantanal cobre 150 mil km² entre Brasil, Bolívia e Paraguai. Na seca (julho a outubro), a fauna se concentra nas baías remanescentes e o avistamento é quase garantido: jacarés aos milhares, capivaras, tuiuiús, ariranhas e — a estrela absoluta — a onça-pintada, com mais de 80% de probabilidade de avistamento na região de Porto Jofre.",
+          "Hospedagens de referência: Caiman Ecological Refuge (sul, base do Projeto Onçafari), Pousada Aguapé, Refúgio Ecológico Caiman e os flotéis de Porto Jofre para safári de onça pelo Rio Cuiabá.",
+        ],
+      },
+      {
+        heading: "Bonito: flutuação em água cristalina",
+        paragraphs: [
+          "Bonito é o destino brasileiro mais maduro em ecoturismo — todas as atividades são reguladas, com voucher individual e número limitado diário. Os imperdíveis: flutuação no Rio Sucuri ou Prata (visibilidade de até 50 metros), Gruta do Lago Azul (caverna com lago de azul ultramarino), Buraco das Araras (sumidouro com araras-vermelhas) e Abismo Anhumas (rapel de 72m até um lago subterrâneo).",
+        ],
+      },
+      {
+        heading: "Como combinar os dois",
+        paragraphs: [
+          "Roteiro clássico de 8 a 10 dias: voo a Campo Grande, transfer ao sul do Pantanal (3 noites em Caiman), traslado terrestre a Bonito (3-4 noites), retorno por Campo Grande. Alternativa: incluir Pantanal Norte (Porto Jofre) via Cuiabá em alta temporada de onça.",
+        ],
+      },
+      {
+        heading: "Melhor época",
+        paragraphs: [
+          "Pantanal: junho a outubro (seca, fauna concentrada, melhor avistamento de onça). Bonito: ano todo, mas abril a setembro tem rios mais cristalinos. A janela junho-setembro é perfeita para combinar ambos.",
+        ],
+      },
+    ],
+    faq: [
+      {
+        q: "Vale a pena combinar Pantanal e Bonito?",
+        a: "Sim. São complementares — fauna selvagem + águas cristalinas — e ficam no mesmo estado, com transfer terrestre viável.",
+      },
+      {
+        q: "Qual a chance de ver onça-pintada?",
+        a: "Em Porto Jofre, no Pantanal Norte, durante a seca (julho a outubro), a taxa de avistamento ultrapassa 80% em 3 noites de safári fluvial.",
+      },
+      {
+        q: "Bonito é bom para crianças?",
+        a: "Sim, é um dos destinos mais família-friendly do Brasil — atividades reguladas, guias treinados e infraestrutura impecável.",
+      },
+    ],
+    relatedDestinations: [
+      { label: "Brasil — Mato Grosso do Sul", href: "/brasil/mato-grosso-do-sul" },
+      { label: "Experiência: Safári & vida selvagem", href: "/experiencias/safari" },
+    ],
+    imageAiPrompt:
+      "Editorial close-up of jaguar resting on Pantanal riverbank at golden hour, dramatic warm light, lush tropical wetland background, cinematic painterly, no people, ultra detailed",
+    publishedAt: "2026-05-31",
+    readingMinutes: 6,
+    category: "Natureza",
+    whatsappName: "Roteiro Pantanal e Bonito",
+  },
+  {
+    slug: "lencois-maranhenses-guia-completo",
+    title: "Lençóis Maranhenses: melhor época, lagoas e como visitar",
+    h1: "Lençóis Maranhenses: o deserto brasileiro que vira espelho d'água",
+    metaDescription:
+      "Quando ir aos Lençóis Maranhenses, lagoas Azul e Bonita, Barreirinhas, Atins e Santo Amaro — guia autoral Create Travel.",
+    keywords: "lencois maranhenses, quando ir lencois maranhenses, barreirinhas, atins, santo amaro",
+    intro:
+      "Os Lençóis Maranhenses são um paradoxo geográfico que só existe aqui: 1.500 km² de dunas brancas alimentadas pelo vento atlântico, intercaladas por milhares de lagoas de água doce que se formam entre maio e setembro, quando a chuva enche as depressões entre as dunas. O resultado é a paisagem mais cinematográfica do Brasil — e uma das mais incomuns do mundo.",
+    sections: [
+      {
+        heading: "A janela mágica: maio a setembro",
+        paragraphs: [
+          "As lagoas dependem de chuva acumulada entre janeiro e maio. Visitar em junho, julho e agosto garante o pico — lagoas cheias, água turquesa, dunas brancas em contraste absoluto. Em setembro ainda há água, mas começam a secar. Fora dessa janela, o parque vira deserto seco — bonito, mas sem o cartão-postal.",
+        ],
+      },
+      {
+        heading: "Bases de acesso: Barreirinhas, Atins e Santo Amaro",
+        paragraphs: [
+          "Barreirinhas é a porta principal — voos via São Luís, infraestrutura completa, acesso aos circuitos Lagoa Azul e Lagoa Bonita por toyota.",
+          "Atins é a vila pé-na-areia, na foz do rio Preguiças — pousadas charmosas, kitesurf, jantares à luz de vela e acesso à Lagoa da Esmeralda e Pequenos Lençóis.",
+          "Santo Amaro é a base oeste, mais isolada e selvagem — acesso à Lagoa da Gaivota e ao circuito Emendadas, com pernoite de barraca para quem busca aventura.",
+        ],
+      },
+      {
+        heading: "Roteiro autoral Create Travel",
+        paragraphs: [
+          "7 a 10 dias combinando São Luís (gastronomia e centro histórico Patrimônio Unesco), Barreirinhas (Lagoa Azul + Bonita + descida do rio Preguiças), Atins (Pequenos Lençóis, kite, jantar privativo) e extensão opcional ao Delta do Parnaíba. Hospedagens curadas, transfers privativos e guias locais.",
+        ],
+      },
+    ],
+    faq: [
+      {
+        q: "Qual o melhor mês para ir aos Lençóis Maranhenses?",
+        a: "Julho e agosto — lagoas no pico, sol confiável e dunas brancas em contraste perfeito. Junho e setembro também são excelentes.",
+      },
+      {
+        q: "Dá para combinar Lençóis com Jericoacoara?",
+        a: "Sim. A clássica Rota das Emoções vai de Jericoacoara (CE) a São Luís (MA) passando por Delta do Parnaíba e Lençóis — 8 a 10 dias.",
+      },
+      {
+        q: "É difícil chegar?",
+        a: "Não. Voos diários a São Luís + 4h de transfer a Barreirinhas (ou voo fretado de 40 min para Atins). Operamos a logística completa.",
+      },
+    ],
+    relatedDestinations: [
+      { label: "Brasil — Maranhão", href: "/brasil/maranhao" },
+      { label: "Experiência: Praias & ilhas", href: "/experiencias/praia" },
+    ],
+    imageAiPrompt:
+      "Aerial editorial photograph of Lençóis Maranhenses dunes with turquoise freshwater lagoons in between, soft late afternoon light, no people, cinematic painterly, ultra detailed",
+    publishedAt: "2026-05-31",
+    readingMinutes: 5,
+    category: "Destino",
+    whatsappName: "Roteiro Lençóis Maranhenses",
+  },
+  {
+    slug: "jalapao-guia-completo-tocantins",
+    title: "Jalapão: fervedouros, cachoeiras e dunas no Tocantins",
+    h1: "Jalapão: o sertão de água cristalina no coração do Brasil",
+    metaDescription:
+      "Roteiro Jalapão: Fervedouros, Cachoeira da Velha, Dunas do Jalapão, capim dourado e melhor época — Create Travel.",
+    keywords: "jalapao, tocantins, fervedouro jalapao, cachoeira da velha, dunas do jalapao",
+    intro:
+      "O Jalapão é a paisagem cerrada brasileira em estado bruto: dunas alaranjadas em meio à savana, cachoeiras de águas escuras, rios encaixados em paredões de arenito e — a marca registrada — os fervedouros, nascentes de areia branca que jorram de baixo para cima com tanta pressão que é impossível afundar. É flutuar sem esforço, em água a 24°C, no meio do sertão tocantinense.",
+    sections: [
+      {
+        heading: "Os imperdíveis",
+        paragraphs: [
+          "Fervedouros (Bela Vista, Buritizinho, Macacos): cada um com tom de azul próprio, todos com regulamentação de visitação.",
+          "Cachoeira da Velha (Rio Novo): queda em meia-lua de 15 m, com prainha e descida de bote pelo cânion.",
+          "Dunas do Jalapão: dunas de 30 m em meio à vegetação do cerrado — pôr do sol icônico.",
+          "Cachoeira do Formiga: lagoa interior em verde-fluorescente, uma das águas mais fotogênicas do Brasil.",
+          "Serra do Espírito Santo e Cânion Sussuapara: paredões e mata úmida em meio à seca cerrada.",
+        ],
+      },
+      {
+        heading: "Capim dourado e cultura quilombola",
+        paragraphs: [
+          "O capim dourado é colhido entre setembro e novembro nas comunidades de Mumbuca e Boa Esperança, e transformado em peças artesanais que viraram patrimônio cultural do Brasil. Visitar essas comunidades — com mediação — é parte essencial do roteiro.",
+        ],
+      },
+      {
+        heading: "Quando ir e como chegar",
+        paragraphs: [
+          "Maio a setembro é a janela perfeita: seca, sol confiável e estradas trafegáveis. Acesso por voo a Palmas (TO) + 4 a 6 horas de 4x4 até Mateiros ou Ponte Alta do Tocantins, bases tradicionais.",
+        ],
+      },
+      {
+        heading: "Roteiro autoral Create Travel",
+        paragraphs: [
+          "6 a 8 dias em pousadas selecionadas, com 4x4 privativo, guia local e logística inclusa — pode ser combinado com Lençóis Maranhenses (extensão de 4 dias) ou Chapada das Mesas.",
+        ],
+      },
+    ],
+    faq: [
+      {
+        q: "Qual a melhor época para o Jalapão?",
+        a: "Maio a setembro. Junho e julho são ideais — seco, frio à noite, dias limpos.",
+      },
+      {
+        q: "Dá para ir sem 4x4?",
+        a: "Não. As estradas internas exigem tração e altura. Sempre operamos com 4x4 e motorista experiente.",
+      },
+      {
+        q: "Posso combinar Jalapão com Lençóis?",
+        a: "Sim — combinação clássica de 10 a 12 dias via Palmas-Imperatriz-Barreirinhas.",
+      },
+    ],
+    relatedDestinations: [
+      { label: "Brasil — Tocantins", href: "/brasil/tocantins" },
+      { label: "Brasil Aventura", href: "/brasil-aventura" },
+    ],
+    imageAiPrompt:
+      "Editorial view of Dunas do Jalapão Brazil at golden hour, orange sand dunes rising from cerrado vegetation, soft warm light, painterly cinematic, no people, ultra detailed",
+    publishedAt: "2026-05-31",
+    readingMinutes: 5,
+    category: "Destino",
+    whatsappName: "Roteiro Jalapão",
+  },
+  {
+    slug: "chapada-das-mesas-guia-maranhao",
+    title: "Chapada das Mesas: cachoeiras e mesetas no sul do Maranhão",
+    h1: "Chapada das Mesas: o Maranhão profundo que poucos conhecem",
+    metaDescription:
+      "Guia da Chapada das Mesas: Cachoeira de Santa Bárbara, Pedra Caída, Encanto Azul e melhor época — Create Travel.",
+    keywords: "chapada das mesas, carolina maranhao, pedra caida, santa barbara, encanto azul",
+    intro:
+      "A Chapada das Mesas, no sul do Maranhão, é o segredo melhor guardado do cerrado brasileiro. Mesetas de arenito vermelho de até 850 metros se erguem sobre vales verdes cortados por rios de água cristalina, cachoeiras de até 100 metros e poços azul-elétrico. Sem aglomeração, com pousadas charmosas e preço civilizado — é o que a Chapada Diamantina era há 20 anos.",
+    sections: [
+      {
+        heading: "Os imperdíveis",
+        paragraphs: [
+          "Cachoeira de Santa Bárbara: queda esmeralda em meio à mata, acessível por trilha curta — talvez a mais bonita do Maranhão.",
+          "Complexo Pedra Caída: três cachoeiras (Caverna, Capelão, Santuário) acessíveis por trilha guiada — fim espetacular num cânion vermelho.",
+          "Encanto Azul: poço de água azul-fluorescente alimentado por nascente — flutuação imperdível.",
+          "Morro do Chapéu: mesa icônica e mirante do pôr do sol da chapada.",
+          "Cachoeira São Romão: 35 metros de largura — a 'Iguaçu maranhense' em escala íntima.",
+        ],
+      },
+      {
+        heading: "Como chegar e onde ficar",
+        paragraphs: [
+          "Base em Carolina (MA), com voos a Imperatriz (MA) + 2h de transfer ou voo a Palmas (TO) + 4h. Pousadas: Pedra Caída e Serra Verde são as melhores opções da região, com estrutura ecológica.",
+        ],
+      },
+      {
+        heading: "Quando ir",
+        paragraphs: [
+          "Maio a setembro — estiagem, cachoeiras ainda cheias e estradas trafegáveis. Junho e julho são especialmente confortáveis (temperaturas amenas).",
+        ],
+      },
+      {
+        heading: "Roteiro autoral Create Travel",
+        paragraphs: [
+          "4 a 6 dias na Chapada das Mesas, ideal para combinar com Jalapão (TO) ou Lençóis Maranhenses formando uma rota cerrado-litoral de 10 a 12 dias.",
+        ],
+      },
+    ],
+    faq: [
+      {
+        q: "Vale a pena ir à Chapada das Mesas?",
+        a: "Sim, especialmente para quem já conhece Diamantina e Veadeiros — paisagem comparável, com infraestrutura turística menos saturada.",
+      },
+      {
+        q: "É possível combinar com Jalapão?",
+        a: "Sim. Carolina (MA) está a 4h de Mateiros (TO) — combinação natural de 10-12 dias.",
+      },
+    ],
+    relatedDestinations: [
+      { label: "Brasil — Maranhão", href: "/brasil/maranhao" },
+      { label: "Brasil Aventura", href: "/brasil-aventura" },
+    ],
+    imageAiPrompt:
+      "Editorial view of Cachoeira de Santa Bárbara in Chapada das Mesas Brazil, emerald green waterfall plunging into pool surrounded by sandstone, soft tropical light, painterly cinematic, no people, ultra detailed",
+    publishedAt: "2026-05-31",
+    readingMinutes: 5,
+    category: "Destino",
+    whatsappName: "Roteiro Chapada das Mesas",
+  },
+  {
+    slug: "chapada-diamantina-guia-completo-bahia",
+    title: "Chapada Diamantina: roteiro, trilhas e melhor época",
+    h1: "Chapada Diamantina: o coração de pedra e água da Bahia",
+    metaDescription:
+      "Guia da Chapada Diamantina: Vale do Pati, Cachoeira da Fumaça, Poço Azul, Lençóis e roteiros autorais Create Travel.",
+    keywords: "chapada diamantina, bahia, vale do pati, cachoeira da fumaca, poco azul, lencois bahia",
+    intro:
+      "A Chapada Diamantina é a Bahia que ninguém imagina ao pensar em Bahia. No coração do estado, longe da orla, ergue-se um maciço serrano com cânions de 400 metros, cachoeiras que despencam em queda livre, grutas com lagos azul-piscina e o vale considerado por muitos como a trilha mais bonita do Brasil — o Pati.",
+    sections: [
+      {
+        heading: "Os imperdíveis",
+        paragraphs: [
+          "Vale do Pati: 3 a 5 dias de trekking entre vilas isoladas, hospedagem em casas de moradores, paisagem épica em todos os ângulos — para muitos, a maior travessia do Brasil.",
+          "Cachoeira da Fumaça: 340 m de queda livre — a água vira névoa antes de chegar ao chão. Mirante por cima (trilha 6h) ou pela base (trilha 2 dias).",
+          "Poço Azul e Poço Encantado: cavernas inundadas com luz solar entrando em ângulo perfeito (abril a setembro) — flutuação imperdível.",
+          "Cachoeira do Buracão: cânion estreito de 85 m, descida com guia obrigatório.",
+          "Morro do Pai Inácio: pôr do sol icônico — cartão-postal absoluto da Chapada.",
+        ],
+      },
+      {
+        heading: "Lençóis: base e charme",
+        paragraphs: [
+          "Lençóis é a base ideal — vila colonial preservada, pousadas charmosas (Canto das Águas, Vila Serrano), gastronomia surpreendente e operação de trekkings consolidada. Outras bases: Mucugê, Igatu (a 'cidade de pedra') e Capão (para a Fumaça).",
+        ],
+      },
+      {
+        heading: "Roteiro autoral Create Travel",
+        paragraphs: [
+          "6 a 8 dias em Lençóis com excursões diárias + Vale do Pati (3 dias de travessia com mochileiros e guia). Pode ser combinado com Salvador / Praia do Forte (8-10 dias totais).",
+        ],
+      },
+    ],
+    faq: [
+      {
+        q: "Qual a melhor época para a Chapada Diamantina?",
+        a: "Abril a outubro. Abril-junho: tudo verde e cachoeiras cheias. Julho-setembro: poços azuis no ângulo perfeito de luz. Evite novembro-fevereiro (chuvas fortes).",
+      },
+      {
+        q: "Vale o Vale do Pati?",
+        a: "Para quem tem fôlego, é a melhor experiência de trekking do Brasil. Operamos com guia local e logística completa.",
+      },
+      {
+        q: "Como chegar?",
+        a: "Voo a Salvador + 6h de van/carro a Lençóis, ou voo direto Salvador-Lençóis (sazonal).",
+      },
+    ],
+    relatedDestinations: [
+      { label: "Brasil — Bahia", href: "/brasil/bahia" },
+      { label: "Brasil Aventura", href: "/brasil-aventura" },
+    ],
+    imageAiPrompt:
+      "Editorial view of Vale do Pati Chapada Diamantina Brazil, dramatic table mountains and green valley at sunrise, mist in valley, painterly cinematic, no people, ultra detailed",
+    publishedAt: "2026-05-31",
+    readingMinutes: 6,
+    category: "Destino",
+    whatsappName: "Roteiro Chapada Diamantina",
+  },
+  {
+    slug: "chapada-dos-guimaraes-guia-mato-grosso",
+    title: "Chapada dos Guimarães: o que fazer, trilhas e roteiro",
+    h1: "Chapada dos Guimarães: o cerrado dramático a uma hora de Cuiabá",
+    metaDescription:
+      "Roteiro Chapada dos Guimarães: Véu de Noiva, Mirante, Cidade de Pedra, Caverna Aroe Jari — Create Travel.",
+    keywords: "chapada dos guimaraes, mato grosso, veu de noiva, cidade de pedra, mirante chapada",
+    intro:
+      "A Chapada dos Guimarães está a apenas 65 km de Cuiabá, mas parece outro planeta. Paredões vermelhos, vegetação do cerrado, cachoeiras e o famoso 'Mirante' — onde o cerrado se abre para o vazio em uma das vistas mais dramáticas do Brasil. É também a antessala perfeita para o Pantanal Norte.",
+    sections: [
+      {
+        heading: "Os imperdíveis",
+        paragraphs: [
+          "Véu de Noiva: cartão-postal absoluto da Chapada — cachoeira de 86 m vista de mirante a curta caminhada.",
+          "Mirante / Centro Geodésico: ponto considerado o centro geográfico da América do Sul, com vista de 360° sobre o cerrado e Cuiabá ao fundo.",
+          "Cidade de Pedra: formações rochosas de arenito esculpidas pelo vento, no topo da serra — visual sci-fi.",
+          "Caverna Aroe Jari: a maior caverna de arenito da América do Sul + Lagoa Azul interna.",
+          "Circuito das Cachoeiras (Andorinhas, Independência, Pulo, Sete de Setembro): meia trilha + banhos em sequência.",
+        ],
+      },
+      {
+        heading: "Como combinar com o Pantanal",
+        paragraphs: [
+          "A combinação ideal: 2-3 dias na Chapada dos Guimarães + 4-5 dias no Pantanal Norte (Transpantaneira até Porto Jofre, para safári de onça). Total de 7 a 9 dias, base e regresso por Cuiabá.",
+        ],
+      },
+      {
+        heading: "Quando ir",
+        paragraphs: [
+          "Maio a setembro — estiagem, mirantes limpos e cachoeiras ainda boas. Junho e julho são especialmente bons (temperaturas amenas).",
+        ],
+      },
+    ],
+    faq: [
+      {
+        q: "Vale ir só à Chapada dos Guimarães?",
+        a: "É excelente combinada com Pantanal Norte e/ou Nobres. Como destino solo, 3 dias bastam.",
+      },
+      {
+        q: "É possível ir num bate-volta de Cuiabá?",
+        a: "Tecnicamente sim, mas perde-se quase tudo. Recomendamos mínimo 2 noites na pousada.",
+      },
+    ],
+    relatedDestinations: [
+      { label: "Brasil — Mato Grosso", href: "/brasil/mato-grosso" },
+      { label: "Diário: Pantanal Norte e Nobres", href: "/diario/pantanal-norte-e-nobres-guia" },
+    ],
+    imageAiPrompt:
+      "Editorial wide view of Véu de Noiva waterfall Chapada dos Guimarães Brazil, tall waterfall plunging into red canyon at golden hour, painterly cinematic, no people, ultra detailed",
+    publishedAt: "2026-05-31",
+    readingMinutes: 5,
+    category: "Destino",
+    whatsappName: "Roteiro Chapada dos Guimarães",
+  },
+  {
+    slug: "pantanal-norte-e-nobres-guia",
+    title: "Pantanal Norte e Nobres: onça, Transpantaneira e flutuação",
+    h1: "Pantanal Norte e Nobres: safári brasileiro com flutuação cristalina",
+    metaDescription:
+      "Como combinar Pantanal Norte (Porto Jofre / Transpantaneira) com Nobres — flutuação e safári de onça. Create Travel.",
+    keywords: "pantanal norte, transpantaneira, porto jofre, nobres mt, onca pintada",
+    intro:
+      "Para quem busca a maior chance de avistamento de onça-pintada do mundo, o destino é Porto Jofre, no fim da rodovia Transpantaneira (MT). Combine com Nobres, a 'Bonito mato-grossense', e você tem em uma única viagem o melhor safári da América + flutuação em águas cristalinas — sem precisar trocar de estado.",
+    sections: [
+      {
+        heading: "Pantanal Norte: a Transpantaneira",
+        paragraphs: [
+          "São 145 km de estrada de chão entre Poconé e Porto Jofre, com 122 pontes de madeira, atravessando o coração do Pantanal Norte. A própria estrada já é o safári: jacarés, capivaras, tuiuiús e antas a qualquer momento.",
+          "Em Porto Jofre, no Rio Cuiabá, opera-se safári fluvial em busca da onça-pintada — entre julho e outubro, a taxa de avistamento supera 85% em 3 noites. Hospedagem em flotéis (Jaguar Suites, Jaguar Flotel) ou em lodge clássico (Hotel Pantanal Norte).",
+        ],
+      },
+      {
+        heading: "Nobres: a 'Bonito mato-grossense'",
+        paragraphs: [
+          "A 150 km de Cuiabá, Nobres oferece flutuação em rios cristalinos com peixes coloridos (Aquário Encantado, Reino Encantado), Lagoa das Araras (raras araras-azuis ao amanhecer) e cachoeiras curtas. Menos saturada e mais íntima que Bonito.",
+        ],
+      },
+      {
+        heading: "Roteiro autoral Create Travel",
+        paragraphs: [
+          "8 a 10 dias: Cuiabá → Chapada dos Guimarães (2 noites) → Nobres (2 noites) → Pantanal Norte / Transpantaneira / Porto Jofre (3-4 noites para safári de onça). Operação 4x4, transfers privativos, guias-naturalistas.",
+        ],
+      },
+    ],
+    faq: [
+      {
+        q: "Quando ir para ver onça-pintada?",
+        a: "Julho a outubro — estiagem, fauna concentrada nas margens. Setembro é o pico estatístico de avistamento.",
+      },
+      {
+        q: "Pantanal Norte ou Sul?",
+        a: "Norte (Porto Jofre): melhor para onça. Sul (Caiman): melhor para fauna em geral, paisagem aberta e lodges de luxo. Os dois são ótimos com objetivos diferentes.",
+      },
+    ],
+    relatedDestinations: [
+      { label: "Brasil — Mato Grosso", href: "/brasil/mato-grosso" },
+      { label: "Diário: Pantanal e Bonito", href: "/diario/pantanal-e-bonito-guia-de-viagem" },
+    ],
+    imageAiPrompt:
+      "Editorial photograph of jaguar on Cuiaba river bank in Pantanal Norte, golden hour light, tropical wetland background, painterly cinematic, no people, ultra detailed",
+    publishedAt: "2026-05-31",
+    readingMinutes: 5,
+    category: "Natureza",
+    whatsappName: "Roteiro Pantanal Norte e Nobres",
+  },
+  {
+    slug: "belem-marajo-e-alter-do-chao-para",
+    title: "Belém, Ilha de Marajó e Alter do Chão: roteiro pelo Pará",
+    h1: "Belém, Marajó e Alter do Chão: a tríade que define a Amazônia oriental",
+    metaDescription:
+      "Roteiro pelo Pará: gastronomia em Belém, búfalos em Marajó e o 'Caribe amazônico' em Alter do Chão. Create Travel.",
+    keywords: "belem, ilha de marajo, alter do chao, para, ver-o-peso, tapajos",
+    intro:
+      "O Pará é três destinos em um. Belém entrega a Amazônia urbana mais sofisticada do Brasil, com gastronomia premiada e arquitetura da Belle Époque. A Ilha de Marajó — maior ilha fluviomarinha do mundo — guarda búfalos, manguezais e uma cultura única. E Alter do Chão, do outro lado do estado, oferece a chamada 'Caribe amazônica' com praias de água doce e areia branca no Rio Tapajós.",
+    sections: [
+      {
+        heading: "Belém: a cidade que come bem",
+        paragraphs: [
+          "Ver-o-Peso é o maior mercado a céu aberto da América Latina e o melhor briefing sobre a cozinha amazônica em duas horas: tucupi, jambu, açaí puro, peixes de água doce, ervas que ninguém conhece.",
+          "A nova geração de chefs reinventou tudo: Casa do Saulo, Remanso do Bosque (estrela Michelin verde), Manjar das Garças. Hospedagem: Atrio Reverso, Casa Apuí, Boutique Hotel Soft Inn.",
+        ],
+      },
+      {
+        heading: "Marajó: búfalos, tacacá e silêncio",
+        paragraphs: [
+          "Travessia de barco/lancha de Belém (3-4h) à Soure ou Salvaterra. Praias paradisíacas (Pesqueiro, Joanes, Barra Velha), búfalos pastando à beira-mar, doce de leite de búfala, queijo do Marajó, pororoca no Rio Araguari (sazonal). Pousadas: Casarão da Amazônia, Marajó Park.",
+        ],
+      },
+      {
+        heading: "Alter do Chão: a Caribe amazônica",
+        paragraphs: [
+          "Acesso via Santarém (voos via Manaus ou Belém). A Ilha do Amor, em frente à vila, vira praia de areia branca entre agosto e janeiro (estiagem do Tapajós). Passeios à Floresta Nacional do Tapajós, comunidades ribeirinhas e lagos amazônicos. Pousadas charmosas e jantares à beira-rio.",
+        ],
+      },
+      {
+        heading: "Roteiro autoral Create Travel",
+        paragraphs: [
+          "10 a 12 dias: Belém (3 noites — gastronomia + Ver-o-Peso + Estação das Docas) + Marajó (3 noites — Soure / Salvaterra) + Alter do Chão (3-4 noites — Tapajós + Flona). Voos internos, transfers privativos, jantares curados.",
+        ],
+      },
+    ],
+    faq: [
+      {
+        q: "Qual a melhor época para Alter do Chão?",
+        a: "Agosto a janeiro — Tapajós no nível baixo, praias largas. Fora dessa janela, é Amazônia clássica (rio cheio).",
+      },
+      {
+        q: "Vale combinar Belém e Marajó?",
+        a: "Sim, são complementares — Belém é Amazônia urbana, Marajó é Amazônia rural. Travessia operada.",
+      },
+    ],
+    relatedDestinations: [
+      { label: "Brasil — Pará", href: "/brasil/para" },
+      { label: "Diário: Amazônia — guia completo", href: "/diario/amazonia-guia-completo-de-viagem" },
+    ],
+    imageAiPrompt:
+      "Editorial photograph of Alter do Chão Brazil at golden hour, white sand beach extending into turquoise Tapajós river with Amazon forest backdrop, painterly cinematic, no people, ultra detailed",
+    publishedAt: "2026-05-31",
+    readingMinutes: 6,
+    category: "Destino",
+    whatsappName: "Roteiro Belém, Marajó e Alter do Chão",
+  },
+  {
+    slug: "monte-roraima-guia-completo",
+    title: "Monte Roraima: como visitar o tepui mais famoso do Brasil",
+    h1: "Monte Roraima: o platô que inspirou 'Mundo Perdido'",
+    metaDescription:
+      "Como subir o Monte Roraima — trilha clássica via Venezuela, duração, melhor época e roteiro autoral Create Travel.",
+    keywords: "monte roraima, tepui, paraitepuy, gran sabana, roraima brasil",
+    intro:
+      "O Monte Roraima é um tepui — uma montanha-mesa com topo plano formada há cerca de 1,8 bilhão de anos, quando a Pangea ainda nem existia. Seus 2.810 metros se erguem como uma cidadela rochosa na tríplice fronteira Brasil-Venezuela-Guiana, inspirando o 'Mundo Perdido' de Conan Doyle e oferecendo uma das trekking expedicionários mais espetaculares do continente.",
+    sections: [
+      {
+        heading: "A trilha clássica",
+        paragraphs: [
+          "A subida tradicional parte de Paraitepuy (Venezuela) — atualmente o acesso mais consolidado. São 6 a 8 dias de expedição com acampamento, guia indígena pemón, porteiros e logística completa: travessia da Gran Sabana, subida pela 'rampa' (única forma natural de chegar ao topo), 2 a 3 dias explorando o platô (Vale dos Cristais, Jacuzzis, Ponto Triplo Brasil-Venezuela-Guiana) e descida pelo mesmo caminho.",
+          "Pelo lado brasileiro, em Roraima, o acesso é mais restrito (terras indígenas Yanomami / Ingarikó). A Create Travel opera apenas via Venezuela, com fronteira por Pacaraima (RR) → Santa Elena de Uairén (VE) → Paraitepuy.",
+        ],
+      },
+      {
+        heading: "Quando ir e nível de exigência",
+        paragraphs: [
+          "Dezembro a abril é a janela mais seca. Junho a agosto é viável, mas com chances de chuva. A expedição é exigente fisicamente — caminhadas de 6 a 8 horas por dia com mochila leve (porteiros levam o pesado), altitudes até 2.810 m, temperaturas que variam de 25°C ao sol a 5°C à noite no topo.",
+        ],
+      },
+      {
+        heading: "Roteiro autoral Create Travel",
+        paragraphs: [
+          "10 a 12 dias totais: voo Manaus / Boa Vista, transfer a Pacaraima, travessia para Santa Elena (VE), expedição de 6-7 dias ao Roraima com guia, porteiros e cozinheiro, retorno e dia em Boa Vista. Logística delicada — operamos com receptivo venezuelano credenciado e seguros específicos.",
+        ],
+      },
+    ],
+    faq: [
+      {
+        q: "É possível subir o Roraima pelo Brasil?",
+        a: "O acesso pelo Brasil cruza terras indígenas com regras próprias e logística complexa. A operação consolidada é via Venezuela.",
+      },
+      {
+        q: "Preciso de muito preparo físico?",
+        a: "Sim. É uma expedição séria. Recomendamos 3 meses de preparo cardiovascular (caminhada com mochila / corrida) antes da viagem.",
+      },
+      {
+        q: "É seguro?",
+        a: "Com operação correta, sim. Cruzamos a fronteira com transfer privativo, hospedagem em Santa Elena, guia oficial e roteiro consolidado há décadas.",
+      },
+    ],
+    relatedDestinations: [
+      { label: "Brasil — Roraima", href: "/brasil/roraima" },
+      { label: "Brasil Aventura", href: "/brasil-aventura" },
+    ],
+    imageAiPrompt:
+      "Editorial view of Mount Roraima tepui at sunrise, dramatic flat-top sandstone plateau rising from Gran Sabana, mist around base, painterly cinematic, no people, ultra detailed",
+    publishedAt: "2026-05-31",
+    readingMinutes: 6,
+    category: "Destino",
+    whatsappName: "Roteiro Monte Roraima",
   },
 ];
 
