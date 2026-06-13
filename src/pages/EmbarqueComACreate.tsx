@@ -29,6 +29,7 @@ import grupoCroaciaImg from "@/assets/grupo-croacia-balcas-2026.jpg";
 import grupoAfricaImg from "@/assets/grupo-africa-do-sul-2026.jpg";
 import grupoEgitoImg from "@/assets/grupo-egito-2026.jpg";
 import grupoIslandiaImg from "@/assets/grupo-islandia-2026.jpg";
+import grupoCoreiaJapaoImg from "@/assets/grupo-coreia-japao-2026.jpg";
 
 const DEPARTURES = [
   {
@@ -49,6 +50,16 @@ const DEPARTURES = [
     subtitle: "Cairo · GEM · Luxor · Cruzeiro pelo Nilo · Sharm El Sheikh",
     desc: "Pirâmides de Gizé, o novíssimo Grande Museu Egípcio, cruzeiro pelo Nilo até Assuã e descanso no Mar Vermelho. Voos Turkish Airlines e guia desde o Brasil.",
     fromPrice: "A partir de US$ 4.598 por pessoa (apto duplo)",
+    status: "Saída confirmada",
+  },
+  {
+    href: "/grupos/coreia-japao-2026",
+    img: grupoCoreiaJapaoImg,
+    tag: "13 a 27/10/2026 · 15 dias",
+    title: "Coreia & Japão",
+    subtitle: "Seul · DMZ · Osaka · Kyoto · Hakone · Tóquio",
+    desc: "Outono em sua melhor forma: palácios de Seul, a Zona Desmilitarizada, Fushimi Inari, Monte Fuji e Tóquio. Voos Turkish Airlines e guia desde o Brasil.",
+    fromPrice: "A partir de US$ 8.998 por pessoa (apto duplo)",
     status: "Saída confirmada",
   },
   {
