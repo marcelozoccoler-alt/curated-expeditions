@@ -31,8 +31,19 @@ import grupoEgitoImg from "@/assets/grupo-egito-2026.jpg";
 import grupoIslandiaImg from "@/assets/grupo-islandia-2026.jpg";
 import grupoCoreiaJapaoImg from "@/assets/grupo-coreia-japao-2026.jpg";
 import grupoSulItaliaImg from "@/assets/grupo-sul-italia-2026.jpg";
+import grupoJordaniaImg from "@/assets/grupo-jordania-2026.jpg";
 
 const DEPARTURES = [
+  {
+    href: "/grupos/jordania-2026",
+    img: grupoJordaniaImg,
+    tag: "09 a 19/09/2026 · 11 dias",
+    title: "Jordânia Completa",
+    subtitle: "Amã · Jerash · Petra · Wadi Rum · Aqaba · Mar Morto",
+    desc: "Petra rosa, noite beduína em Wadi Rum, snorkel em Aqaba, o sítio do batismo no Rio Jordão e o banho mais singular do planeta. Voos Ethiopian e guia desde o Brasil.",
+    fromPrice: "A partir de US$ 4.173 por pessoa (apto duplo)",
+    status: "Saída confirmada",
+  },
   {
     href: "/grupos/africa-do-sul-2026",
     img: grupoAfricaImg,
