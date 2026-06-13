@@ -13,6 +13,7 @@ import Contato from "./pages/Contato";
 import Regiao from "./pages/Regiao";
 import GrupoMarrocos2026 from "./pages/GrupoMarrocos2026";
 import GrupoGrecia2026 from "./pages/GrupoGrecia2026";
+import GrupoPatagoniaChilena2026 from "./pages/GrupoPatagoniaChilena2026";
 import BrasilEstados from "./pages/BrasilEstados";
 import BrasilEstado from "./pages/BrasilEstado";
 import Incoming from "./pages/Incoming";
@@ -49,6 +50,7 @@ const App = () => (
         <Route path="/contato" element={<Contato />} />
         <Route path="/grupos/marrocos-2026" element={<GrupoMarrocos2026 />} />
         <Route path="/grupos/grecia-2026" element={<GrupoGrecia2026 />} />
+        <Route path="/grupos/patagonia-chilena-2026" element={<GrupoPatagoniaChilena2026 />} />
           {/* Brasil hierarchical navigation — must come before /:regionSlug */}
           <Route path="/brasil-vivo" element={<BrasilVivo />} />
           <Route path="/:lang/brasil-vivo" element={<BrasilVivo />} />
