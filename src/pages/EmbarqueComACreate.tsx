@@ -155,6 +155,16 @@ const DEPARTURES = [
     fromPrice: "A partir de R$ 18.295 por pessoa (apto duplo)",
     status: "Vagas limitadas",
   },
+  {
+    href: "/grupos/nepal-butao-2027",
+    img: grupoNepalButaoImg,
+    tag: "01 a 15/02/2027 · 15 dias · Carnaval",
+    title: "Nepal & Butão",
+    subtitle: "Kathmandu · Bhaktapur · Nagarkot · Thimphu · Punakha · Paro",
+    desc: "Carnaval 2027 no reino do Himalaia: vale de Kathmandu, amanhecer em Nagarkot, Punakha Dzong e a subida ao Tiger's Nest. Voos Turkish e guia desde o Brasil.",
+    fromPrice: "A partir de US$ 7.998 por pessoa (apto duplo)",
+    status: "Saída confirmada",
+  },
 ];
 
 const BENEFITS = [
