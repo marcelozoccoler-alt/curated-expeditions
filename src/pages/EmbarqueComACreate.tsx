@@ -22,8 +22,19 @@ import { FAQSection } from "@/components/FAQSection";
 import { CONTACT, generateWhatsAppLink } from "@/lib/types";
 import grupoGreciaImg from "@/assets/grupo-grecia-2026.jpg";
 import grupoMarrocosImg from "@/assets/grupo-marrocos-2026.jpg";
+import grupoPatagoniaImg from "@/assets/grupo-patagonia-chilena-2026.jpg";
 
 const DEPARTURES = [
+  {
+    href: "/grupos/patagonia-chilena-2026",
+    img: grupoPatagoniaImg,
+    tag: "04 a 11/10/2026 · 8 dias",
+    title: "Patagônia Chilena",
+    subtitle: "Santiago · Punta Arenas · Torres del Paine · Glaciares",
+    desc: "Primavera no fim do mundo: granito, gelo e estepes patagônicas com voos LATAM e guia desde o Brasil.",
+    fromPrice: "A partir de US$ 3.498 por pessoa (apto duplo)",
+    status: "Saída confirmada",
+  },
   {
     href: "/grupos/grecia-2026",
     img: grupoGreciaImg,
