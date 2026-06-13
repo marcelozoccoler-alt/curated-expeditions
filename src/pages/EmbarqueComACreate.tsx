@@ -32,6 +32,7 @@ import grupoIslandiaImg from "@/assets/grupo-islandia-2026.jpg";
 import grupoCoreiaJapaoImg from "@/assets/grupo-coreia-japao-2026.jpg";
 import grupoSulItaliaImg from "@/assets/grupo-sul-italia-2026.jpg";
 import grupoJordaniaImg from "@/assets/grupo-jordania-2026.jpg";
+import grupoNepalButaoImg from "@/assets/grupo-nepal-butao-2027.jpg";
 
 const DEPARTURES = [
   {
