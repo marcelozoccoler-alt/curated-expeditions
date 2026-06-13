@@ -53,6 +53,16 @@ const DEPARTURES = [
     status: "Saída confirmada",
   },
   {
+    href: "/grupos/coreia-japao-2026",
+    img: grupoCoreiaJapaoImg,
+    tag: "13 a 27/10/2026 · 15 dias",
+    title: "Coreia & Japão",
+    subtitle: "Seul · DMZ · Osaka · Kyoto · Hakone · Tóquio",
+    desc: "Outono em sua melhor forma: palácios de Seul, a Zona Desmilitarizada, Fushimi Inari, Monte Fuji e Tóquio. Voos Turkish Airlines e guia desde o Brasil.",
+    fromPrice: "A partir de US$ 8.998 por pessoa (apto duplo)",
+    status: "Saída confirmada",
+  },
+  {
     href: "/grupos/islandia-2026",
     img: grupoIslandiaImg,
     tag: "12 a 22/11/2026 · 11 dias",
