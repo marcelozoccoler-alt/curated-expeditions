@@ -15,6 +15,7 @@ import GrupoMarrocos2026 from "./pages/GrupoMarrocos2026";
 import GrupoGrecia2026 from "./pages/GrupoGrecia2026";
 import GrupoPatagoniaChilena2026 from "./pages/GrupoPatagoniaChilena2026";
 import GrupoEquadorGalapagos2026 from "./pages/GrupoEquadorGalapagos2026";
+import GrupoTailandia2026 from "./pages/GrupoTailandia2026";
 import BrasilEstados from "./pages/BrasilEstados";
 import BrasilEstado from "./pages/BrasilEstado";
 import Incoming from "./pages/Incoming";
