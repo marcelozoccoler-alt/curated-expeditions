@@ -1,4 +1,5 @@
 import { motion } from "framer-motion";
+import { Link } from "react-router-dom";
 import {
   ArrowRight,
   Users,
@@ -23,6 +24,8 @@ import { Breadcrumbs } from "@/components/Breadcrumbs";
 import { SEO } from "@/components/SEO";
 import { generateWhatsAppLink } from "@/lib/types";
 import heroImg from "@/assets/grupo-marrocos-2026.jpg";
+import grupoGreciaImg from "@/assets/grupo-grecia-2026.jpg";
+import grupoMarrocosImg from "@/assets/grupo-marrocos-2026.jpg";
 
 const GROUPS = [
   {
