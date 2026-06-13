@@ -49,6 +49,16 @@ const DEPARTURES = [
     status: "Saída confirmada",
   },
   {
+    href: "/grupos/croacia-balcas-2026",
+    img: grupoCroaciaImg,
+    tag: "11 a 22/10/2026 · 12 dias",
+    title: "Croácia, Bósnia & Montenegro",
+    subtitle: "Zagreb · Plitvice · Split · Hvar · Mostar · Dubrovnik · Kotor",
+    desc: "Outono dourado nos Bálcãs: lagos da UNESCO, muralhas medievais e o único fiorde do Mediterrâneo, com voos Turkish e guia desde o Brasil.",
+    fromPrice: "A partir de € 4.338 por pessoa (apto duplo)",
+    status: "Saída confirmada",
+  },
+  {
     href: "/grupos/patagonia-chilena-2026",
     img: grupoPatagoniaImg,
     tag: "04 a 11/10/2026 · 8 dias",
