@@ -30,6 +30,7 @@ import grupoAfricaImg from "@/assets/grupo-africa-do-sul-2026.jpg";
 import grupoEgitoImg from "@/assets/grupo-egito-2026.jpg";
 import grupoIslandiaImg from "@/assets/grupo-islandia-2026.jpg";
 import grupoCoreiaJapaoImg from "@/assets/grupo-coreia-japao-2026.jpg";
+import grupoSulItaliaImg from "@/assets/grupo-sul-italia-2026.jpg";
 
 const DEPARTURES = [
   {
@@ -60,6 +61,16 @@ const DEPARTURES = [
     subtitle: "Seul · DMZ · Osaka · Kyoto · Hakone · Tóquio",
     desc: "Outono em sua melhor forma: palácios de Seul, a Zona Desmilitarizada, Fushimi Inari, Monte Fuji e Tóquio. Voos Turkish Airlines e guia desde o Brasil.",
     fromPrice: "A partir de US$ 8.998 por pessoa (apto duplo)",
+    status: "Saída confirmada",
+  },
+  {
+    href: "/grupos/sul-italia-2026",
+    img: grupoSulItaliaImg,
+    tag: "27/10 a 07/11/2026 · 12 dias",
+    title: "Sul da Itália",
+    subtitle: "Sorrento · Amalfi · Pompeia · Matera · Bari · Alberobello · Lecce",
+    desc: "Outono italiano: Costa Amalfitana, Sassi de Matera, trulli da Puglia e o encontro do Adriático com o Jônico em Santa Maria di Leuca. Voos ITA Airways e guia desde o Brasil.",
+    fromPrice: "A partir de € 4.757 por pessoa (apto duplo)",
     status: "Saída confirmada",
   },
   {
