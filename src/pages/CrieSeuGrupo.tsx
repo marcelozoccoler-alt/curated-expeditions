@@ -183,6 +183,70 @@ const CrieSeuGrupo = () => {
         />
       </div>
 
+      {/* Próximas saídas em grupo */}
+      <section className="section-padding">
+        <div className="container-editorial">
+          <div className="text-center mb-12 max-w-2xl mx-auto">
+            <p className="text-caption text-gold mb-4">Próximas saídas</p>
+            <h2 className="heading-section text-foreground mb-4">
+              Grupos com guia do Brasil — 2026
+            </h2>
+            <p className="text-lg text-muted-foreground font-light">
+              Saídas confirmadas, vagas limitadas. Entrada de 25% + saldo em 9x
+              sem juros no cartão de crédito.
+            </p>
+          </div>
+          <div className="grid md:grid-cols-2 gap-6">
+            {[
+              {
+                href: "/grupos/grecia-2026",
+                img: "/src/assets/grupo-grecia-2026.jpg",
+                tag: "27/09 a 09/10/2026 · 13 dias",
+                title: "Grécia Eterna",
+                desc: "Atenas, Delfos, Meteora, Santorini e Mykonos com guia acompanhante desde São Paulo.",
+              },
+              {
+                href: "/grupos/marrocos-2026",
+                img: "/src/assets/grupo-marrocos-2026.jpg",
+                tag: "18 a 26/11/2026 · 9 dias",
+                title: "Marrocos Imperial",
+                desc: "Rabat, Chefchaouen, Fez, Saara, Vale do Dades e Marrakech em grupo pequeno.",
+              },
+            ].map((g) => (
+              <Link
+                key={g.href}
+                to={g.href}
+                className="group block bg-card border border-border rounded-xl overflow-hidden shadow-card hover:border-gold transition-all"
+              >
+                <div className="relative h-56 overflow-hidden">
+                  <img
+                    src={g.img}
+                    alt={g.title}
+                    className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700"
+                    loading="lazy"
+                  />
+                </div>
+                <div className="p-7">
+                  <p className="text-xs uppercase tracking-wider text-gold font-semibold mb-2">
+                    {g.tag}
+                  </p>
+                  <h3 className="font-serif text-2xl font-semibold text-foreground mb-2 group-hover:text-gold transition-colors">
+                    {g.title}
+                  </h3>
+                  <p className="text-muted-foreground text-[15px] leading-relaxed mb-4">
+                    {g.desc}
+                  </p>
+                  <span className="inline-flex items-center gap-2 text-sm font-medium text-gold group-hover:gap-3 transition-all">
+                    Ver detalhes da saída
+                    <ArrowRight size={16} />
+                  </span>
+                </div>
+              </Link>
+            ))}
+          </div>
+        </div>
+      </section>
+
       {/* Tipos de grupo */}
       <section className="section-padding">
         <div className="container-editorial">
