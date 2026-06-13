@@ -19,6 +19,7 @@ import Incoming from "./pages/Incoming";
 import BrasilVivo from "./pages/BrasilVivo";
 import BrasilAventura from "./pages/BrasilAventura";
 import CrieSeuGrupo from "./pages/CrieSeuGrupo";
+import EmbarqueComACreate from "./pages/EmbarqueComACreate";
 import Diario from "./pages/Diario";
 import DiarioPost from "./pages/DiarioPost";
 import Pacote from "./pages/Pacote";
