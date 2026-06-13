@@ -28,6 +28,7 @@ import grupoTailandiaImg from "@/assets/grupo-tailandia-2026.jpg";
 import grupoCroaciaImg from "@/assets/grupo-croacia-balcas-2026.jpg";
 import grupoAfricaImg from "@/assets/grupo-africa-do-sul-2026.jpg";
 import grupoEgitoImg from "@/assets/grupo-egito-2026.jpg";
+import grupoIslandiaImg from "@/assets/grupo-islandia-2026.jpg";
 
 const DEPARTURES = [
   {
