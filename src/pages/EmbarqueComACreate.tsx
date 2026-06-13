@@ -33,6 +33,7 @@ import grupoCoreiaJapaoImg from "@/assets/grupo-coreia-japao-2026.jpg";
 import grupoSulItaliaImg from "@/assets/grupo-sul-italia-2026.jpg";
 import grupoJordaniaImg from "@/assets/grupo-jordania-2026.jpg";
 import grupoNepalButaoImg from "@/assets/grupo-nepal-butao-2027.jpg";
+import grupoVietnaLaosCambojaImg from "@/assets/grupo-vietna-laos-camboja-2027.jpg";
 
 const DEPARTURES = [
   {
@@ -163,6 +164,16 @@ const DEPARTURES = [
     subtitle: "Kathmandu · Bhaktapur · Nagarkot · Thimphu · Punakha · Paro",
     desc: "Carnaval 2027 no reino do Himalaia: vale de Kathmandu, amanhecer em Nagarkot, Punakha Dzong e a subida ao Tiger's Nest. Voos Turkish e guia desde o Brasil.",
     fromPrice: "A partir de US$ 7.998 por pessoa (apto duplo)",
+    status: "Saída confirmada",
+  },
+  {
+    href: "/grupos/vietna-laos-camboja-2027",
+    img: grupoVietnaLaosCambojaImg,
+    tag: "01 a 17/02/2027 · 17 dias · Carnaval",
+    title: "Vietnã, Laos & Camboja",
+    subtitle: "Hanói · Halong · Luang Prabang · Angkor · Hoi An · Hue · Saigon",
+    desc: "Carnaval 2027 no Sudeste Asiático: cruzeiro em Halong, Tak Bat em Luang Prabang, templos de Angkor e lanternas de Hoi An. Voos Turkish e guia desde o Brasil.",
+    fromPrice: "A partir de US$ 6.798 por pessoa (apto duplo)",
     status: "Saída confirmada",
   },
 ];
