@@ -32,6 +32,7 @@ import grupoIslandiaImg from "@/assets/grupo-islandia-2026.jpg";
 import grupoCoreiaJapaoImg from "@/assets/grupo-coreia-japao-2026.jpg";
 import grupoSulItaliaImg from "@/assets/grupo-sul-italia-2026.jpg";
 import grupoJordaniaImg from "@/assets/grupo-jordania-2026.jpg";
+import grupoNepalButaoImg from "@/assets/grupo-nepal-butao-2027.jpg";
 
 const DEPARTURES = [
   {
@@ -153,6 +154,16 @@ const DEPARTURES = [
     desc: "Cidades imperiais, a cidade azul e uma noite nas dunas de Erg Chebbi. Grupo pequeno com curadoria Create Travel.",
     fromPrice: "A partir de R$ 18.295 por pessoa (apto duplo)",
     status: "Vagas limitadas",
+  },
+  {
+    href: "/grupos/nepal-butao-2027",
+    img: grupoNepalButaoImg,
+    tag: "01 a 15/02/2027 · 15 dias · Carnaval",
+    title: "Nepal & Butão",
+    subtitle: "Kathmandu · Bhaktapur · Nagarkot · Thimphu · Punakha · Paro",
+    desc: "Carnaval 2027 no reino do Himalaia: vale de Kathmandu, amanhecer em Nagarkot, Punakha Dzong e a subida ao Tiger's Nest. Voos Turkish e guia desde o Brasil.",
+    fromPrice: "A partir de US$ 7.998 por pessoa (apto duplo)",
+    status: "Saída confirmada",
   },
 ];
 
