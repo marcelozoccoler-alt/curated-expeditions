@@ -54,6 +54,7 @@ const App = () => (
         <Route path="/grupos/grecia-2026" element={<GrupoGrecia2026 />} />
         <Route path="/grupos/patagonia-chilena-2026" element={<GrupoPatagoniaChilena2026 />} />
         <Route path="/grupos/equador-galapagos-2026" element={<GrupoEquadorGalapagos2026 />} />
+        <Route path="/grupos/tailandia-2026" element={<GrupoTailandia2026 />} />
           {/* Brasil hierarchical navigation — must come before /:regionSlug */}
           <Route path="/brasil-vivo" element={<BrasilVivo />} />
           <Route path="/:lang/brasil-vivo" element={<BrasilVivo />} />
