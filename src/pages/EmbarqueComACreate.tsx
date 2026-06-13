@@ -27,6 +27,7 @@ import grupoEquadorImg from "@/assets/grupo-equador-galapagos-2026.jpg";
 import grupoTailandiaImg from "@/assets/grupo-tailandia-2026.jpg";
 import grupoCroaciaImg from "@/assets/grupo-croacia-balcas-2026.jpg";
 import grupoAfricaImg from "@/assets/grupo-africa-do-sul-2026.jpg";
+import grupoEgitoImg from "@/assets/grupo-egito-2026.jpg";
 
 const DEPARTURES = [
   {
@@ -37,6 +38,16 @@ const DEPARTURES = [
     subtitle: "Johanesburgo · Soweto · Kruger · Cape Town",
     desc: "Safári em reserva privada no Kruger, Soweto e o legado de Mandela, Table Mountain e o Cabo da Boa Esperança. Voos South African Airways e guia desde o Brasil.",
     fromPrice: "A partir de US$ 5.298 por pessoa (apto duplo)",
+    status: "Saída confirmada",
+  },
+  {
+    href: "/grupos/egito-2026",
+    img: grupoEgitoImg,
+    tag: "29/09 a 12/10/2026 · 14 dias",
+    title: "Egito",
+    subtitle: "Cairo · GEM · Luxor · Cruzeiro pelo Nilo · Sharm El Sheikh",
+    desc: "Pirâmides de Gizé, o novíssimo Grande Museu Egípcio, cruzeiro pelo Nilo até Assuã e descanso no Mar Vermelho. Voos Turkish Airlines e guia desde o Brasil.",
+    fromPrice: "A partir de US$ 4.598 por pessoa (apto duplo)",
     status: "Saída confirmada",
   },
   {
