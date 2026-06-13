@@ -23,8 +23,19 @@ import { CONTACT, generateWhatsAppLink } from "@/lib/types";
 import grupoGreciaImg from "@/assets/grupo-grecia-2026.jpg";
 import grupoMarrocosImg from "@/assets/grupo-marrocos-2026.jpg";
 import grupoPatagoniaImg from "@/assets/grupo-patagonia-chilena-2026.jpg";
+import grupoEquadorImg from "@/assets/grupo-equador-galapagos-2026.jpg";
 
 const DEPARTURES = [
+  {
+    href: "/grupos/equador-galapagos-2026",
+    img: grupoEquadorImg,
+    tag: "12 a 22/10/2026 · 11 dias",
+    title: "Equador & Galápagos",
+    subtitle: "Quito · Cotopaxi · Galápagos · Guayaquil",
+    desc: "Dos Andes ao Pacífico: tartarugas gigantes, iguanas marinhas e a Avenida dos Vulcões com voos LATAM e guia desde o Brasil.",
+    fromPrice: "A partir de US$ 3.997 por pessoa (apto duplo)",
+    status: "Saída confirmada",
+  },
   {
     href: "/grupos/patagonia-chilena-2026",
     img: grupoPatagoniaImg,
