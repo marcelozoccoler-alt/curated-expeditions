@@ -26,8 +26,19 @@ import grupoPatagoniaImg from "@/assets/grupo-patagonia-chilena-2026.jpg";
 import grupoEquadorImg from "@/assets/grupo-equador-galapagos-2026.jpg";
 import grupoTailandiaImg from "@/assets/grupo-tailandia-2026.jpg";
 import grupoCroaciaImg from "@/assets/grupo-croacia-balcas-2026.jpg";
+import grupoAfricaImg from "@/assets/grupo-africa-do-sul-2026.jpg";
 
 const DEPARTURES = [
+  {
+    href: "/grupos/africa-do-sul-2026",
+    img: grupoAfricaImg,
+    tag: "07 a 15/09/2026 · 9 dias",
+    title: "África do Sul",
+    subtitle: "Johanesburgo · Soweto · Kruger · Cape Town",
+    desc: "Safári em reserva privada no Kruger, Soweto e o legado de Mandela, Table Mountain e o Cabo da Boa Esperança. Voos South African Airways e guia desde o Brasil.",
+    fromPrice: "A partir de US$ 5.298 por pessoa (apto duplo)",
+    status: "Saída confirmada",
+  },
   {
     href: "/grupos/tailandia-2026",
     img: grupoTailandiaImg,
