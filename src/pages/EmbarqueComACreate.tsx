@@ -28,6 +28,7 @@ import grupoTailandiaImg from "@/assets/grupo-tailandia-2026.jpg";
 import grupoCroaciaImg from "@/assets/grupo-croacia-balcas-2026.jpg";
 import grupoAfricaImg from "@/assets/grupo-africa-do-sul-2026.jpg";
 import grupoEgitoImg from "@/assets/grupo-egito-2026.jpg";
+import grupoIslandiaImg from "@/assets/grupo-islandia-2026.jpg";
 
 const DEPARTURES = [
   {
@@ -48,6 +49,16 @@ const DEPARTURES = [
     subtitle: "Cairo · GEM · Luxor · Cruzeiro pelo Nilo · Sharm El Sheikh",
     desc: "Pirâmides de Gizé, o novíssimo Grande Museu Egípcio, cruzeiro pelo Nilo até Assuã e descanso no Mar Vermelho. Voos Turkish Airlines e guia desde o Brasil.",
     fromPrice: "A partir de US$ 4.598 por pessoa (apto duplo)",
+    status: "Saída confirmada",
+  },
+  {
+    href: "/grupos/islandia-2026",
+    img: grupoIslandiaImg,
+    tag: "12 a 22/11/2026 · 11 dias",
+    title: "Islândia · Aurora Boreal",
+    subtitle: "Reykjavík · Círculo Dourado · Jökulsárlón · Blue Lagoon",
+    desc: "Caça à aurora boreal, Crystal Ice Cave em Vatnajökull, costa sul e cruzeiro noturno em Reykjavík. Voos Lufthansa e guia desde o Brasil.",
+    fromPrice: "A partir de € 5.996 por pessoa (apto duplo)",
     status: "Saída confirmada",
   },
   {
