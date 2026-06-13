@@ -25,6 +25,7 @@ import grupoMarrocosImg from "@/assets/grupo-marrocos-2026.jpg";
 import grupoPatagoniaImg from "@/assets/grupo-patagonia-chilena-2026.jpg";
 import grupoEquadorImg from "@/assets/grupo-equador-galapagos-2026.jpg";
 import grupoTailandiaImg from "@/assets/grupo-tailandia-2026.jpg";
+import grupoCroaciaImg from "@/assets/grupo-croacia-balcas-2026.jpg";
 
 const DEPARTURES = [
   {
