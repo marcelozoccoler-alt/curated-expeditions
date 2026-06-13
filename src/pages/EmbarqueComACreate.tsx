@@ -34,6 +34,7 @@ import grupoSulItaliaImg from "@/assets/grupo-sul-italia-2026.jpg";
 import grupoJordaniaImg from "@/assets/grupo-jordania-2026.jpg";
 import grupoNepalButaoImg from "@/assets/grupo-nepal-butao-2027.jpg";
 import grupoVietnaLaosCambojaImg from "@/assets/grupo-vietna-laos-camboja-2027.jpg";
+import grupoMexicoImg from "@/assets/grupo-mexico-2026.jpg";
 
 const DEPARTURES = [
   {
@@ -144,6 +145,16 @@ const DEPARTURES = [
     subtitle: "Atenas · Delfos · Meteora · Santorini · Mykonos",
     desc: "Entre deuses, ilhas e história. Voos Iberia via Madri, hotéis 1ª categoria e guia acompanhante desde São Paulo.",
     fromPrice: "A partir de € 4.998 por pessoa (apto duplo)",
+    status: "Saída confirmada",
+  },
+  {
+    href: "/grupos/mexico-2026",
+    img: grupoMexicoImg,
+    tag: "12 a 22/11/2026 · 11 dias",
+    title: "México · Cidades históricas e Pacífico",
+    subtitle: "Cidade do México · Teotihuacán · San Miguel · Guanajuato · Guadalajara · Puerto Vallarta",
+    desc: "Centro histórico, Teotihuacán, cidades coloniais Patrimônio UNESCO, mariachi em Guadalajara e Puerto Vallarta All Inclusive. Voos Aeroméxico e guia desde o Brasil.",
+    fromPrice: "A partir de US$ 4.398 por pessoa (apto duplo)",
     status: "Saída confirmada",
   },
   {
