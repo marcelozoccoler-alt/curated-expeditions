@@ -148,6 +148,16 @@ const DEPARTURES = [
     status: "Saída confirmada",
   },
   {
+    href: "/grupos/mexico-2026",
+    img: grupoMexicoImg,
+    tag: "12 a 22/11/2026 · 11 dias",
+    title: "México · Cidades históricas e Pacífico",
+    subtitle: "Cidade do México · Teotihuacán · San Miguel · Guanajuato · Guadalajara · Puerto Vallarta",
+    desc: "Centro histórico, Teotihuacán, cidades coloniais Patrimônio UNESCO, mariachi em Guadalajara e Puerto Vallarta All Inclusive. Voos Aeroméxico e guia desde o Brasil.",
+    fromPrice: "A partir de US$ 4.398 por pessoa (apto duplo)",
+    status: "Saída confirmada",
+  },
+  {
     href: "/grupos/marrocos-2026",
     img: grupoMarrocosImg,
     tag: "18 a 26/11/2026 · 9 dias",
