@@ -25,6 +25,7 @@ import grupoMarrocosImg from "@/assets/grupo-marrocos-2026.jpg";
 import grupoPatagoniaImg from "@/assets/grupo-patagonia-chilena-2026.jpg";
 import grupoEquadorImg from "@/assets/grupo-equador-galapagos-2026.jpg";
 import grupoTailandiaImg from "@/assets/grupo-tailandia-2026.jpg";
+import grupoCroaciaImg from "@/assets/grupo-croacia-balcas-2026.jpg";
 
 const DEPARTURES = [
   {
@@ -45,6 +46,16 @@ const DEPARTURES = [
     subtitle: "Quito · Cotopaxi · Galápagos · Guayaquil",
     desc: "Dos Andes ao Pacífico: tartarugas gigantes, iguanas marinhas e a Avenida dos Vulcões com voos LATAM e guia desde o Brasil.",
     fromPrice: "A partir de US$ 3.997 por pessoa (apto duplo)",
+    status: "Saída confirmada",
+  },
+  {
+    href: "/grupos/croacia-balcas-2026",
+    img: grupoCroaciaImg,
+    tag: "11 a 22/10/2026 · 12 dias",
+    title: "Croácia, Bósnia & Montenegro",
+    subtitle: "Zagreb · Plitvice · Split · Hvar · Mostar · Dubrovnik · Kotor",
+    desc: "Outono dourado nos Bálcãs: lagos da UNESCO, muralhas medievais e o único fiorde do Mediterrâneo, com voos Turkish e guia desde o Brasil.",
+    fromPrice: "A partir de € 4.338 por pessoa (apto duplo)",
     status: "Saída confirmada",
   },
   {
