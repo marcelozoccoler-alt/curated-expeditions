@@ -203,14 +203,14 @@ const CrieSeuGrupo = () => {
             {[
               {
                 href: "/grupos/grecia-2026",
-                img: "/src/assets/grupo-grecia-2026.jpg",
+                img: grupoGreciaImg,
                 tag: "27/09 a 09/10/2026 · 13 dias",
                 title: "Grécia Eterna",
                 desc: "Atenas, Delfos, Meteora, Santorini e Mykonos com guia acompanhante desde São Paulo.",
               },
               {
                 href: "/grupos/marrocos-2026",
-                img: "/src/assets/grupo-marrocos-2026.jpg",
+                img: grupoMarrocosImg,
                 tag: "18 a 26/11/2026 · 9 dias",
                 title: "Marrocos Imperial",
                 desc: "Rabat, Chefchaouen, Fez, Saara, Vale do Dades e Marrakech em grupo pequeno.",
