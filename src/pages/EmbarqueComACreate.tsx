@@ -24,8 +24,19 @@ import grupoGreciaImg from "@/assets/grupo-grecia-2026.jpg";
 import grupoMarrocosImg from "@/assets/grupo-marrocos-2026.jpg";
 import grupoPatagoniaImg from "@/assets/grupo-patagonia-chilena-2026.jpg";
 import grupoEquadorImg from "@/assets/grupo-equador-galapagos-2026.jpg";
+import grupoTailandiaImg from "@/assets/grupo-tailandia-2026.jpg";
 
 const DEPARTURES = [
+  {
+    href: "/grupos/tailandia-2026",
+    img: grupoTailandiaImg,
+    tag: "12 a 26/11/2026 · 15 dias",
+    title: "Tailândia · Festival das Lanternas",
+    subtitle: "Phuket · Phi Phi · Bangkok · Ayutthaya · Sukhothai · Chiang Mai",
+    desc: "Praias do Mar de Andaman, templos milenares e a noite mágica do Yi Peng em Chiang Mai. Voos Emirates e guia desde o Brasil.",
+    fromPrice: "A partir de US$ 5.978 por pessoa (apto duplo)",
+    status: "Saída confirmada",
+  },
   {
     href: "/grupos/equador-galapagos-2026",
     img: grupoEquadorImg,
