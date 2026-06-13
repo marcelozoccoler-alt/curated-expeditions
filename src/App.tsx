@@ -20,6 +20,7 @@ import GrupoCroaciaBalcas2026 from "./pages/GrupoCroaciaBalcas2026";
 import GrupoAfricaDoSul2026 from "./pages/GrupoAfricaDoSul2026";
 import GrupoEgito2026 from "./pages/GrupoEgito2026";
 import GrupoIslandia2026 from "./pages/GrupoIslandia2026";
+import GrupoCoreiaJapao2026 from "./pages/GrupoCoreiaJapao2026";
 import BrasilEstados from "./pages/BrasilEstados";
 import BrasilEstado from "./pages/BrasilEstado";
 import Incoming from "./pages/Incoming";
