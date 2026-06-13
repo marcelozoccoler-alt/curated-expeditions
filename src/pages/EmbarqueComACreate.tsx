@@ -52,6 +52,16 @@ const DEPARTURES = [
     status: "Saída confirmada",
   },
   {
+    href: "/grupos/islandia-2026",
+    img: grupoIslandiaImg,
+    tag: "12 a 22/11/2026 · 11 dias",
+    title: "Islândia · Aurora Boreal",
+    subtitle: "Reykjavík · Círculo Dourado · Jökulsárlón · Blue Lagoon",
+    desc: "Caça à aurora boreal, Crystal Ice Cave em Vatnajökull, costa sul e cruzeiro noturno em Reykjavík. Voos Lufthansa e guia desde o Brasil.",
+    fromPrice: "A partir de € 5.996 por pessoa (apto duplo)",
+    status: "Saída confirmada",
+  },
+  {
     href: "/grupos/tailandia-2026",
     img: grupoTailandiaImg,
     tag: "12 a 26/11/2026 · 15 dias",
