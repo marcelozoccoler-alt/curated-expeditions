@@ -49,7 +49,7 @@ const BrasilEstados = () => {
         <section className="relative h-[55vh] min-h-[420px] flex items-end overflow-hidden">
           <img
             src={HERO_IMAGE}
-            alt="Brasil"
+            alt="Paisagens do Brasil — curadoria de destinos pela Create Travel"
             className="absolute inset-0 w-full h-full object-cover"
             loading="eager"
           />
