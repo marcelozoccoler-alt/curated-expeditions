@@ -6,6 +6,9 @@ import {
   Users,
   Heart,
   Gem,
+  Calendar,
+  MapPin,
+  Plane,
 } from "lucide-react";
 
 import { Header } from "@/components/Header";
@@ -17,8 +20,12 @@ import { SEO } from "@/components/SEO";
 import { TAGS } from "@/lib/types";
 import { getFeaturedDestinations } from "@/lib/destinations";
 import { getFeaturedStays } from "@/lib/stays";
+import { DEPARTURES } from "@/pages/EmbarqueComACreate";
 import heroAmazon from "@/assets/hero-amazon.jpg";
 import heroAmazonWebp from "@/assets/hero-amazon.webp";
+
+const MONTHS_SHORT_PT = ["jan", "fev", "mar", "abr", "mai", "jun", "jul", "ago", "set", "out", "nov", "dez"];
+
 
 const Index = () => {
   const featuredDestinations = getFeaturedDestinations();
@@ -95,26 +102,91 @@ const Index = () => {
         </motion.div>
       </section>
 
-      {/* Promo: Grupo Marrocos 2026 */}
-      <section className="bg-gold/10 border-y border-gold/30">
-        <div className="container-editorial py-6 flex flex-col md:flex-row items-center justify-between gap-4">
-          <div className="flex items-center gap-3 text-center md:text-left">
-            <span className="px-3 py-1 rounded-full bg-gold text-navy text-xs font-semibold uppercase tracking-wider">
-              Saída promocional
-            </span>
-            <p className="text-foreground">
-              <strong className="font-serif">Grupo Marrocos 2026</strong> — saída 18/11, grupo exclusivo e pequeno.{" "}
-              <span className="text-muted-foreground">A partir de R$ 18.295/pessoa.</span>
+      {/* Featured: Grupos com Guia Brasileiro — cardápio cronológico em destaque */}
+      <section className="section-padding bg-gradient-to-b from-navy to-navy/95 text-white relative overflow-hidden">
+        <div className="absolute inset-0 opacity-10 pointer-events-none">
+          <div className="absolute top-20 left-10 w-72 h-72 rounded-full bg-gold blur-3xl" />
+          <div className="absolute bottom-20 right-10 w-96 h-96 rounded-full bg-emerald blur-3xl" />
+        </div>
+        <div className="container-editorial relative z-10">
+          <div className="text-center mb-12 max-w-3xl mx-auto">
+            <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-gold/20 border border-gold/40 text-gold text-xs font-semibold uppercase tracking-[0.3em] mb-6">
+              <Plane size={14} /> Portfólio em destaque
+            </div>
+            <h2 className="font-serif text-4xl md:text-6xl font-bold text-white mb-5 leading-tight">
+              Grupos com <span className="text-gold italic">Guia Brasileiro</span>
+            </h2>
+            <p className="text-lg md:text-xl text-white/85 font-light mb-3">
+              {DEPARTURES.length} saídas internacionais 2026 · 2027 com coordenador acompanhante embarcando do Brasil. Tudo em português, do check-in em Guarulhos ao último brinde.
+            </p>
+            <p className="text-sm text-gold/90 uppercase tracking-[0.2em]">
+              Em ordem cronológica de embarque
             </p>
           </div>
-          <Link
-            to="/grupos/marrocos-2026"
-            className="btn-accent flex items-center gap-2 whitespace-nowrap"
-          >
-            Saiba mais <ArrowRight size={18} />
-          </Link>
+
+          {/* Mini-cardápio: 4 próximas saídas */}
+          <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-4 mb-10">
+            {DEPARTURES.slice(0, 4).map((d, i) => {
+              const day = String(d.departureDate.getDate()).padStart(2, "0");
+              const month = MONTHS_SHORT_PT[d.departureDate.getMonth()];
+              const year = String(d.departureDate.getFullYear()).slice(-2);
+              return (
+                <motion.div
+                  key={d.href}
+                  initial={{ opacity: 0, y: 20 }}
+                  whileInView={{ opacity: 1, y: 0 }}
+                  viewport={{ once: true }}
+                  transition={{ delay: i * 0.08 }}
+                >
+                  <Link
+                    to={d.href}
+                    className="group block bg-white/5 border border-white/10 rounded-xl overflow-hidden hover:border-gold hover:bg-white/10 transition-all h-full"
+                  >
+                    <div className="relative h-40 overflow-hidden">
+                      <img
+                        src={d.img}
+                        alt={d.title}
+                        className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700"
+                        loading="lazy"
+                      />
+                      <div className="absolute inset-0 bg-gradient-to-t from-navy/80 via-navy/20 to-transparent" />
+                      <div className="absolute top-3 right-3 bg-white/95 text-navy rounded-lg px-2.5 py-1.5 text-center shadow-elegant min-w-[54px]">
+                        <div className="text-[9px] uppercase tracking-wider text-gold font-semibold">
+                          {month}/{year}
+                        </div>
+                        <div className="font-serif text-xl font-bold leading-none">{day}</div>
+                      </div>
+                    </div>
+                    <div className="p-4">
+                      <div className="text-[10px] uppercase tracking-wider text-gold font-semibold mb-1.5">
+                        {d.tag}
+                      </div>
+                      <h3 className="font-serif text-lg font-semibold text-white mb-1 group-hover:text-gold transition-colors leading-snug">
+                        {d.title}
+                      </h3>
+                      <p className="text-xs text-white/60 line-clamp-2">{d.subtitle}</p>
+                    </div>
+                  </Link>
+                </motion.div>
+              );
+            })}
+          </div>
+
+          <div className="text-center">
+            <Link
+              to="/embarque-com-a-create"
+              className="btn-accent inline-flex items-center gap-2 text-base px-8 py-4"
+            >
+              Ver cardápio completo de saídas
+              <ArrowRight size={18} />
+            </Link>
+            <p className="text-xs text-white/50 mt-4 uppercase tracking-[0.2em]">
+              Filtro por mês · Ordem cronológica · Entrada 25% + 9x sem juros
+            </p>
+          </div>
         </div>
       </section>
+
 
       {/* How We Work */}
       <section className="section-padding bg-muted">
