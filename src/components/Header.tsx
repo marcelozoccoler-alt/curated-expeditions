@@ -38,7 +38,7 @@ export const Header = () => {
           { label: t("nav.experiencias"), href: "/experiencias" },
           { label: "Brasil Vivo", href: "/brasil-vivo" },
           { label: "Brasil Aventura", href: "/brasil-aventura" },
-          { label: "Embarque com a Create", href: "/embarque-com-a-create" },
+          { label: "Grupos com Guia Brasileiro", href: "/embarque-com-a-create" },
           { label: "Crie seu grupo", href: "/crie-seu-grupo" },
           { label: "Diário", href: "/diario" },
           { label: t("nav.sobre"), href: "/sobre" },
