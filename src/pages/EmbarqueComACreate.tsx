@@ -37,6 +37,7 @@ import grupoVietnaLaosCambojaImg from "@/assets/grupo-vietna-laos-camboja-2027.j
 import grupoMexicoImg from "@/assets/grupo-mexico-2026.jpg";
 import grupoAfricaReveillonImg from "@/assets/grupo-africa-do-sul-reveillon-2027.jpg";
 import grupoTurquiaReveillonImg from "@/assets/grupo-turquia-reveillon-2027.jpg";
+import grupoAfricaPrimaveraImg from "@/assets/grupo-africa-do-sul-primavera-2026.jpg";
 
 const DEPARTURES = [
   {
@@ -207,6 +208,16 @@ const DEPARTURES = [
     subtitle: "Istambul · Ancara · Capadócia · Pamukkale · Éfeso · Kusadasi · Bursa",
     desc: "Virada do ano em Istambul, Capadócia no inverno com balões ao amanhecer, piscinas brancas de Pamukkale e ruínas de Éfeso. Voos Turkish Airlines e guia desde o Brasil.",
     fromPrice: "A partir de € 3.998 por pessoa (apto duplo)",
+    status: "Saída confirmada",
+  },
+  {
+    href: "/grupos/africa-do-sul-primavera-2026",
+    img: grupoAfricaPrimaveraImg,
+    tag: "16 a 24/11/2026 · 9 dias",
+    title: "África do Sul · Primavera",
+    subtitle: "Johanesburgo · Soweto · Pilanesberg · Pretória · Cape Town",
+    desc: "Safári no Pilanesberg (área livre de malária) em lodge 5 estrelas Shepherd's Tree, Soweto, Pretória, Table Mountain e Cabo da Boa Esperança. Voos South African Airways e guia desde o Brasil.",
+    fromPrice: "A partir de US$ 4.998 por pessoa (apto duplo)",
     status: "Saída confirmada",
   },
 ];
