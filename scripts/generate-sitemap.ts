@@ -135,7 +135,6 @@ const GRUPOS = [
   "turquia-reveillon-2027",
   "vietna-laos-camboja-2027",
 ];
-push("/grupos", 0.9, "weekly");
 push("/embarque-com-a-create", 0.9, "weekly");
 for (const g of GRUPOS) push(`/grupos/${g}`, 0.85, "monthly");
 
