@@ -23,7 +23,7 @@ export const Footer = () => {
             </div>
             <p className="text-primary-foreground/80 text-sm leading-relaxed">
               Curadoria de viagens autênticas, exclusivas e com propósito. 
-              Luxo discreto para experiências que transformam.
+              Curadoria autoral para experiências que transformam.
             </p>
             <div className="flex items-center gap-4">
               <a

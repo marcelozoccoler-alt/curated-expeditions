@@ -34,7 +34,7 @@ const pillars = [
   },
   {
     icon: Gem,
-    title: "Luxo discreto",
+    title: "Curadoria autoral",
     text: "Refinamento sem ostentação: acomodações com alma, experiências raras e um ritmo que respeita o lugar.",
   },
   {

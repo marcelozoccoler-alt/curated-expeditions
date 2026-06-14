@@ -20,7 +20,7 @@ export const regions: Region[] = [
     intro:
       "Amazônia em estado de contemplação: ilhas, canais e silêncio com profundidade. A Create Travel desenha imersões com ética ambiental, conforto real e guias que sabem ler a floresta.",
     metaDescription:
-      "Roteiros e lodges na Amazônia com curadoria de luxo discreto da Create Travel. Anavilhanas, Manaus, Alter do Chão.",
+      "Roteiros e lodges na Amazônia com curadoria de curadoria autoral da Create Travel. Anavilhanas, Manaus, Alter do Chão.",
     heroImageUrl:
       "https://images.unsplash.com/photo-1518002171953-a080ee817e1f?w=1920&h=1080&fit=crop",
     destinationSlugs: [

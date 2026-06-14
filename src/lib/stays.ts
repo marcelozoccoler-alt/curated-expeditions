@@ -10,7 +10,7 @@ export const stays: Stay[] = [
     tags: ["navegacao", "conservacao", "bem-estar", "fotografia", "familia", "remoto"],
     imageAiPrompt: "Ultra realistic editorial travel photo of a luxury jungle lodge in the Amazon on the riverbank, warm sunrise light, wooden architecture integrated with rainforest, natural colors, no people.",
     imageOverrideUrl: "https://cdn.prod.website-files.com/5f52a9ce6de4e1539299fac5/61af8fd572651e23ed11b42a_anavilhanas-home-960.jpg",
-    whySelected: "Luxo discreto e imersão real no Rio Negro: serviço cuidadoso, guias fortes e experiências que valorizam silêncio, ética e profundidade.",
+    whySelected: "Curadoria autoral e imersão real no Rio Negro: serviço cuidadoso, guias fortes e experiências que valorizam silêncio, ética e profundidade.",
     beyondUsual: [
       "Canoagem silenciosa ao amanhecer com leitura de sons e rastros.",
       "Focagem noturna interpretativa (ética, sem perturbar fauna).",
@@ -66,7 +66,7 @@ export const stays: Stay[] = [
       { q: "Quando é melhor para ver onça?", a: "Em geral na seca (mai–out), quando as condições favorecem observação." },
       { q: "É indicado para famílias?", a: "Sim, com ajustes de ritmo." },
       { q: "Dá para combinar com Bonito?", a: "Sim, é uma combinação excelente." },
-      { q: "O que é luxo discreto?", a: "Conforto real e serviço excelente sem ostentação." },
+      { q: "O que é curadoria autoral?", a: "Conforto real e serviço excelente sem ostentação." },
       { q: "Como funciona a curadoria Create Travel?", a: "Definimos base, dias, horários e foco (foto/aves/família)." },
       { q: "Como falar com consultor?", a: "Clique em Criar roteiro sob medida." },
     ],
@@ -102,7 +102,7 @@ export const stays: Stay[] = [
     tags: ["lua-de-mel", "bem-estar", "praia", "cultura", "gastronomia"],
     imageAiPrompt: "Ultra realistic editorial photo of a charming hotel in Trancoso, colorful colonial architecture, garden, soft natural light, no people.",
     imageOverrideUrl: "https://www.plansouthamerica.com/wp-content/uploads/2024/01/UXUA-beach-lounge-and-pool-bar-1440x960.webp",
-    whySelected: "Estilo, alma local e serviço caloroso em torno do Quadrado. Um caso de luxo discreto que respeita o lugar.",
+    whySelected: "Estilo, alma local e serviço caloroso em torno do Quadrado. Um caso de curadoria autoral que respeita o lugar.",
     beyondUsual: [
       "Spa com banhos rituais brasileiros.",
       "Mesa autoral com ingredientes baianos.",

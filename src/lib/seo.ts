@@ -75,7 +75,7 @@ export const getDestinosSEO = (state: DestinosSearchState, totalPages: number) =
     description = `Curadoria de pacotes de viagem em ${continentName}: roteiros autênticos, exclusivos e com propósito. Inspire-se e crie sua próxima viagem com a Create Travel.`;
   } else if (singleTagLabel && continent === "todos") {
     title = `${singleTagLabel} — Pacotes de viagem selecionados — Create Travel`;
-    description = `Pacotes de viagem ideais para ${singleTagLabel.toLowerCase()}, com curadoria Create Travel. Viagens com profundidade, ética e luxo discreto.`;
+    description = `Pacotes de viagem ideais para ${singleTagLabel.toLowerCase()}, com curadoria Create Travel. Viagens com profundidade, ética e curadoria autoral.`;
   } else if (continentName && singleTagLabel) {
     title = `${singleTagLabel} em ${continentName} — Pacotes Create Travel`;
     description = `Pacotes de viagem em ${continentName} com foco em ${singleTagLabel.toLowerCase()}. Curadoria Create Travel para viagens com propósito.`;
@@ -256,10 +256,10 @@ export const getHospedagensSEO = (state: HospedagensSearchState, totalPages: num
   if (!singleTagLabel) {
     title = "Pacotes de viagem com hospedagens selecionadas — Create Travel";
     description =
-      "Pacotes de viagem com hospedagens autorais selecionadas pela Create Travel: lodges, refúgios e hotéis com luxo discreto, ética e propósito.";
+      "Pacotes de viagem com hospedagens autorais selecionadas pela Create Travel: lodges, refúgios e hotéis com curadoria autoral, ética e propósito.";
   } else {
     title = `Pacotes de viagem com hospedagens para ${singleTagLabel} — Create Travel`;
-    description = `Pacotes de viagem com hospedagens selecionadas pela Create Travel para ${singleTagLabel.toLowerCase()}: experiências autênticas, luxo discreto e curadoria.`;
+    description = `Pacotes de viagem com hospedagens selecionadas pela Create Travel para ${singleTagLabel.toLowerCase()}: experiências autênticas, curadoria autoral e curadoria.`;
   }
   if (page > 1) title = `${title} — Página ${page}`;
 
