@@ -34,8 +34,8 @@ const pillars = [
   },
   {
     icon: Gem,
-    title: "Curadoria autoral",
-    text: "Refinamento sem ostentação: acomodações com alma, experiências raras e um ritmo que respeita o lugar.",
+    title: "Refinamento sem ostentação",
+    text: "Acomodações com alma, experiências raras e um ritmo que respeita o lugar — sem excessos nem clichês.",
   },
   {
     icon: HeartHandshake,
