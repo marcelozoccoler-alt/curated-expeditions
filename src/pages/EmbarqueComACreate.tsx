@@ -35,6 +35,7 @@ import grupoJordaniaImg from "@/assets/grupo-jordania-2026.jpg";
 import grupoNepalButaoImg from "@/assets/grupo-nepal-butao-2027.jpg";
 import grupoVietnaLaosCambojaImg from "@/assets/grupo-vietna-laos-camboja-2027.jpg";
 import grupoMexicoImg from "@/assets/grupo-mexico-2026.jpg";
+import grupoAfricaReveillonImg from "@/assets/grupo-africa-do-sul-reveillon-2027.jpg";
 
 const DEPARTURES = [
   {
@@ -185,6 +186,16 @@ const DEPARTURES = [
     subtitle: "Hanói · Halong · Luang Prabang · Angkor · Hoi An · Hue · Saigon",
     desc: "Carnaval 2027 no Sudeste Asiático: cruzeiro em Halong, Tak Bat em Luang Prabang, templos de Angkor e lanternas de Hoi An. Voos Turkish e guia desde o Brasil.",
     fromPrice: "A partir de US$ 6.798 por pessoa (apto duplo)",
+    status: "Saída confirmada",
+  },
+  {
+    href: "/grupos/africa-do-sul-reveillon-2027",
+    img: grupoAfricaReveillonImg,
+    tag: "28/12/2026 a 05/01/2027 · 9 dias · Réveillon",
+    title: "África do Sul · Réveillon 2027",
+    subtitle: "Johanesburgo · Soweto · Kruger · Cape Town",
+    desc: "Virada do ano em reserva privada no Kruger, Soweto e o legado de Mandela, Table Mountain e o Cabo da Boa Esperança. Voos South African Airways e guia desde o Brasil.",
+    fromPrice: "A partir de US$ 5.487 por pessoa (apto duplo)",
     status: "Saída confirmada",
   },
 ];
