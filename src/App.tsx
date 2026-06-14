@@ -26,6 +26,7 @@ import GrupoJordania2026 from "./pages/GrupoJordania2026";
 import GrupoNepalButao2027 from "./pages/GrupoNepalButao2027";
 import GrupoVietnaLaosCamboja2027 from "./pages/GrupoVietnaLaosCamboja2027";
 import GrupoMexico2026 from "./pages/GrupoMexico2026";
+import GrupoAfricaDoSulReveillon2027 from "./pages/GrupoAfricaDoSulReveillon2027";
 import BrasilEstados from "./pages/BrasilEstados";
 import BrasilEstado from "./pages/BrasilEstado";
 import Incoming from "./pages/Incoming";
