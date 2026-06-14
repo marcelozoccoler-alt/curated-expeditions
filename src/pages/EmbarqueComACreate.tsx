@@ -46,6 +46,7 @@ import grupoAfricaDoSulOutubroImg from "@/assets/grupo-africa-do-sul-outubro-202
 import grupoPortugalAldeiasImg from "@/assets/grupo-portugal-aldeias-2026.jpg";
 import grupoSulItaliaOutubroImg from "@/assets/grupo-sul-italia-outubro-2026.jpg";
 import grupoChinaImg from "@/assets/grupo-china-2026.jpg";
+import grupoSuicaNorteItaliaImg from "@/assets/grupo-suica-norte-italia-2026.jpg";
 
 const DEPARTURES = [
   {
@@ -306,6 +307,16 @@ const DEPARTURES = [
     subtitle: "Beijing · Grande Muralha · Xi'an · Zhangjiajie · Shanghai",
     desc: "Cidade Proibida, Grande Muralha, Guerreiros de Terracota, Zhangjiajie (cenário de Avatar) e Shanghai futurista. Voos Ethiopian Airlines e guia desde o Brasil.",
     fromPrice: "A partir de US$ 5.998 por pessoa (apto duplo)",
+    status: "Saída confirmada",
+  },
+  {
+    href: "/grupos/suica-norte-italia-2026",
+    img: grupoSuicaNorteItaliaImg,
+    tag: "01 a 13/10/2026 · 13 dias",
+    title: "Suíça & Norte da Itália · Outono",
+    subtitle: "Zurique · Lucerna · Titlis · Jungfrau · Glacier Express · Como · Cinque Terre · Piemonte · Milão",
+    desc: "Alpes dourados, Lindt em Zurique, Glacier Express até St. Moritz, Lago de Como, Riviera Italiana, vinhos do Piemonte e Milão. Voos TAP Air Portugal e guia desde o Brasil.",
+    fromPrice: "A partir de € 6.498 por pessoa (apto duplo)",
     status: "Saída confirmada",
   },
 ];
