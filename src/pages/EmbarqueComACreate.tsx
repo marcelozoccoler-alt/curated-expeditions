@@ -43,6 +43,7 @@ import grupoColombiaImg from "@/assets/grupo-colombia-2026.jpg";
 import grupoBeneluxImg from "@/assets/grupo-benelux-2026.jpg";
 import grupoBalcasAutenticosImg from "@/assets/grupo-balcas-autenticos-2026.jpg";
 import grupoAfricaDoSulOutubroImg from "@/assets/grupo-africa-do-sul-outubro-2026.jpg";
+import grupoPortugalAldeiasImg from "@/assets/grupo-portugal-aldeias-2026.jpg";
 
 const DEPARTURES = [
   {
@@ -273,6 +274,16 @@ const DEPARTURES = [
     subtitle: "Johanesburgo · Soweto · Blyde River Canyon · Kruger · Cape Town",
     desc: "Safári em reserva privada no Mdluli Safari Lodge, Soweto e legado de Mandela, Blyde River Canyon, Table Mountain e Cabo da Boa Esperança. Voos South African Airways e guia desde o Brasil.",
     fromPrice: "A partir de US$ 4.998 por pessoa (apto duplo)",
+    status: "Saída confirmada",
+  },
+  {
+    href: "/grupos/portugal-aldeias-historicas-2026",
+    img: grupoPortugalAldeiasImg,
+    tag: "12 a 22/10/2026 · 11 dias",
+    title: "Portugal com Aldeias Históricas",
+    subtitle: "Fátima · Piódão · Marvão · Monsanto · Belmonte · Sortelha · Almeida · Guarda · Trancoso · Viseu · Coimbra · Lisboa",
+    desc: "Procissão das Velas em Fátima no dia 13/10, 12 Aldeias Históricas medievais, vinhos do Dão e Belém. Voos TAP Air Portugal e guia desde o Brasil.",
+    fromPrice: "A partir de € 4.149 por pessoa (apto duplo)",
     status: "Saída confirmada",
   },
 ];
