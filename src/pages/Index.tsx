@@ -35,7 +35,7 @@ const Index = () => {
     <div className="min-h-screen">
       <SEO
         title="Create Travel — Curadoria de viagens com propósito"
-        description="Portal premium de curadoria de destinos e hospedagens. Experiências autênticas, exclusivas e com propósito — luxo discreto pela Create Travel."
+        description="Portal premium de curadoria de destinos e hospedagens. Experiências autênticas, exclusivas e com propósito — curadoria autoral pela Create Travel."
         canonicalPath="/"
       />
       <Header />
@@ -71,7 +71,7 @@ const Index = () => {
             </h1>
             <p className="text-xl md:text-2xl text-white/90 mb-10 max-w-2xl mx-auto font-light">
               Curadoria de experiências autênticas, exclusivas e com propósito. 
-              Luxo discreto para quem busca profundidade.
+              Curadoria autoral para quem busca profundidade.
             </p>
             <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
               <WhatsAppButton

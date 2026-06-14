@@ -9,7 +9,7 @@ export interface Tag {
 export const TAGS: Tag[] = [
   { id: "safari", label: "Safári & vida selvagem", pitch: "O rugido distante ao amanhecer, a poeira dourada subindo atrás de uma manada — o safári é a viagem que devolve ao ser humano o sentido de pertencimento ao planeta vivo." },
   { id: "trekking", label: "Trekking & trilhas", pitch: "Cada passo conquistado em altitude muda o que você acredita ser capaz. A montanha não devolve o mesmo viajante que a procurou." },
-  { id: "lua-de-mel", label: "Lua de mel", pitch: "O primeiro capítulo a dois merece um cenário à altura: silêncio, luxo discreto e memórias que vocês recontarão pelo resto da vida." },
+  { id: "lua-de-mel", label: "Lua de mel", pitch: "O primeiro capítulo a dois merece um cenário à altura: silêncio, curadoria autoral e memórias que vocês recontarão pelo resto da vida." },
   { id: "cavalgadas", label: "Cavalgadas", pitch: "Sentir o galope sob o corpo e a planície abrindo-se no horizonte é redescobrir uma forma ancestral de liberdade." },
   { id: "mergulho", label: "Mergulho & snorkel", pitch: "Abaixo da linha d'água existe um planeta paralelo: corais que respiram cor, cardumes em coreografia e a quietude que só o oceano sabe oferecer." },
   { id: "navegacao", label: "Navegação, rios & lagos", pitch: "Deixar-se levar pela correnteza é uma forma de meditação. Cada curva do rio é um capítulo novo do mesmo livro." },

@@ -100,7 +100,7 @@ const Contato = () => {
     <>
       <SEO
         title="Contato | Create Travel — Roteiros sob medida"
-        description="Fale com a Create Travel para criar um roteiro de luxo discreto sob medida. WhatsApp, e-mail e atelier em São Paulo."
+        description="Fale com a Create Travel para criar um roteiro de curadoria autoral sob medida. WhatsApp, e-mail e atelier em São Paulo."
         canonicalPath="/contato"
         jsonLd={jsonLd}
       />

@@ -26,7 +26,7 @@ export interface Niche {
 export const niches: Niche[] = [
   {
     slug: "safari-africa",
-    title: "Safári na África: guia editorial de luxo discreto | Create Travel",
+    title: "Safári na África: guia editorial de curadoria autoral | Create Travel",
     metaDescription:
       "Como planejar um safári autoral e ético na África: melhores meses, países, lodges e roteiros desenhados pela Create Travel.",
     h1: "Safári na África",
@@ -48,7 +48,7 @@ export const niches: Niche[] = [
       {
         heading: "Como escolher o lodge certo",
         body:
-          "Privilegiamos reservas privadas (não parques públicos) por densidade controlada de veículos, guias experientes e atuação real em conservação. Tendas com luxo discreto superam resorts grandiosos: a experiência acontece fora do quarto.",
+          "Privilegiamos reservas privadas (não parques públicos) por densidade controlada de veículos, guias experientes e atuação real em conservação. Tendas com curadoria autoral superam resorts grandiosos: a experiência acontece fora do quarto.",
       },
       {
         heading: "Ética animal: o que importa",
@@ -83,7 +83,7 @@ export const niches: Niche[] = [
     slug: "lua-de-mel",
     title: "Lua de mel autoral: destinos, hotéis e roteiros sob medida | Create Travel",
     metaDescription:
-      "Lua de mel sob medida com curadoria de luxo discreto: melhores destinos, hospedagens e combinações para o seu momento.",
+      "Lua de mel sob medida com curadoria de curadoria autoral: melhores destinos, hospedagens e combinações para o seu momento.",
     h1: "Lua de mel autoral",
     kicker: "Para casais",
     intro:
@@ -138,7 +138,7 @@ export const niches: Niche[] = [
     slug: "patagonia",
     title: "Patagônia: como planejar uma viagem autoral | Create Travel",
     metaDescription:
-      "Guia editorial da Create Travel para Patagônia: melhor época, base ideal, trekkings clássicos e luxo discreto na ponta sul do continente.",
+      "Guia editorial da Create Travel para Patagônia: melhor época, base ideal, trekkings clássicos e curadoria autoral na ponta sul do continente.",
     h1: "Patagônia",
     kicker: "Fim do mundo, com curadoria",
     intro:
@@ -184,7 +184,7 @@ export const niches: Niche[] = [
   },
   {
     slug: "amazonia",
-    title: "Amazônia de luxo discreto: lodges, navegações e curadoria | Create Travel",
+    title: "Amazônia de curadoria autoral: lodges, navegações e curadoria | Create Travel",
     metaDescription:
       "Como visitar a Amazônia com profundidade, ética e conforto. Lodges, melhor época e roteiros desenhados pela Create Travel.",
     h1: "Amazônia",

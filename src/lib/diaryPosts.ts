@@ -103,7 +103,7 @@ export const diaryPosts: DiaryPost[] = [
     title: "Islândia: guia completo, melhor época e curiosidades",
     h1: "Islândia: a ilha de fogo, gelo e silêncio absoluto",
     metaDescription:
-      "Tudo sobre a Islândia: quando ir, ring road, aurora boreal, geleiras e roteiro autoral Create Travel — luxo discreto na ilha mais cinematográfica do planeta.",
+      "Tudo sobre a Islândia: quando ir, ring road, aurora boreal, geleiras e roteiro autoral Create Travel — curadoria autoral na ilha mais cinematográfica do planeta.",
     keywords: "islandia, curiosidades islandia, quando ir islandia, roteiro islandia",
     intro:
       "A Islândia é o lugar onde o planeta ainda está se inventando. Vulcões ativos, geleiras milenares, gêiseres que disparam a cada poucos minutos, campos de lava cobertos de musgo verde-luminescente e auroras boreais que dançam por horas em silêncio absoluto. Nenhum outro país oferece tanta paisagem em tão pouco espaço.",

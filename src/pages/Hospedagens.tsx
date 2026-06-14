@@ -201,7 +201,7 @@ const Hospedagens = () => {
             </h1>
             <p className="text-lg md:text-xl text-primary-foreground/85 font-light leading-relaxed">
               Lodges, refúgios e hotéis escolhidos por arquitetura, serviço e relação real
-              com o território. Luxo discreto, sem pressa, com propósito.
+              com o território. Curadoria autoral, sem pressa, com propósito.
             </p>
           </div>
         </div>

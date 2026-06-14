@@ -213,7 +213,7 @@ export const buildDestinationIntentFAQs = (
     },
     {
       q: `Onde ficar em ${name}?`,
-      a: `Selecionamos hospedagens autorais em ${name} — lodges, pousadas-boutique e hotéis com luxo discreto, sempre alinhados ao ritmo do destino e ao perfil do viajante. A Create Travel sugere as melhores opções dentro do seu briefing.`,
+      a: `Selecionamos hospedagens autorais em ${name} — lodges, pousadas-boutique e hotéis com curadoria autoral, sempre alinhados ao ritmo do destino e ao perfil do viajante. A Create Travel sugere as melhores opções dentro do seu briefing.`,
     },
     {
       q: `Quanto custa um pacote de viagem para ${name}?`,
