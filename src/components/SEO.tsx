@@ -21,6 +21,15 @@ interface SEOProps {
 
 const DOMAIN = CONTACT.domain.replace(/\/$/, "");
 
+/** Clamp on word boundary, never exceeding `max` chars (incl. ellipsis). */
+const clampMeta = (text: string, max: number) => {
+  const t = (text || "").replace(/\s+/g, " ").trim();
+  if (t.length <= max) return t;
+  const slice = t.slice(0, max - 1);
+  const cut = slice.replace(/[\s,.;:—–-]+\S*$/, "");
+  return (cut || slice).trimEnd() + "…";
+};
+
 export const SEO = ({
   title,
   description,
@@ -33,6 +42,8 @@ export const SEO = ({
   ogType = "website",
   keywords,
 }: SEOProps) => {
+  const safeTitle = clampMeta(title, 60);
+  const safeDescription = clampMeta(description, 160);
   const canonical = `${DOMAIN}${canonicalPath.startsWith("/") ? "" : "/"}${canonicalPath}`;
   const prev = prevPath ? `${DOMAIN}${prevPath.startsWith("/") ? "" : "/"}${prevPath}` : null;
   const next = nextPath ? `${DOMAIN}${nextPath.startsWith("/") ? "" : "/"}${nextPath}` : null;
