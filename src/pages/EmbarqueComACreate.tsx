@@ -380,8 +380,8 @@ export type Departure = typeof DEPARTURES[number];
 const BENEFITS = [
   {
     icon: Plane,
-    title: "Coordenador Create do check-in ao retorno",
-    desc: "Você embarca em Guarulhos acompanhado de um coordenador Create Travel que segue com o grupo até a volta — recepção no aeroporto, briefings diários e suporte em todas as conexões.",
+    title: "Coordenador do check-in ao retorno",
+    desc: "Você embarca em Guarulhos acompanhado de um coordenador que segue com o grupo até a volta — recepção no aeroporto, briefings diários e suporte em todas as conexões e traslados.",
   },
   {
     icon: Languages,
@@ -389,14 +389,14 @@ const BENEFITS = [
     desc: "Guias locais em português (ou espanhol com domínio do português), traslados privados e assistência permanente em português — você só se preocupa em viver a experiência.",
   },
   {
-    icon: Users,
-    title: "Grupos enxutos, ritmo equilibrado",
-    desc: "Saídas com número reduzido de viajantes brasileiros de perfil compatível. Roteiro com profundidade cultural, conforto real e tempo livre para descansar e respirar cada destino.",
+    icon: Sparkles,
+    title: "Experiências autorais em cada destino",
+    desc: "Não é roteiro de ônibus turístico. São jantares em vinícolas no Douro, balão sobre a Capadócia, safári no Kruger, cruzeiro pelo Nilo no Radamis 1, círculo dourado da Islândia, templos de Angkor ao amanhecer e jeep nas dunas do Wadi Rum — visitas privativas com especialistas locais.",
   },
   {
-    icon: Sparkles,
-    title: "Hotéis de primeira categoria com curadoria",
-    desc: "Hospedagens 4★/5★ testadas pessoalmente, sempre com café da manhã incluso e bem localizadas. Mesma exigência de conforto em todos os trechos do roteiro.",
+    icon: MapPin,
+    title: "Hotéis de primeira categoria, bem localizados",
+    desc: "Hospedagens 4★/5★ testadas pessoalmente, sempre com café da manhã incluso e bem posicionadas — perto dos pontos de visita e dos transportes — para reduzir tempo perdido em deslocamentos.",
   },
   {
     icon: ShieldCheck,
@@ -409,6 +409,7 @@ const BENEFITS = [
     desc: "Reserve com 25% de entrada e parcele o saldo em até 9 vezes sem juros no cartão de crédito. Tudo incluso, sem letras miúdas: voos, hotéis, traslados, visitas e refeições previstas.",
   },
 ];
+
 
 
 
