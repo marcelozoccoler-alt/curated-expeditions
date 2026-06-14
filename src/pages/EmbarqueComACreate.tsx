@@ -391,7 +391,7 @@ const BENEFITS = [
   {
     icon: Sparkles,
     title: "Experiências autorais em cada destino",
-    desc: "Não é roteiro de ônibus turístico. São jantares em vinícolas no Douro, balão sobre a Capadócia, safári no Kruger, cruzeiro pelo Nilo no Radamis 1, círculo dourado da Islândia, templos de Angkor ao amanhecer e jeep nas dunas do Wadi Rum — visitas privativas com especialistas locais.",
+    desc: "Balão ao amanhecer sobre a Capadócia, safári no Kruger, cruzeiro pelo Nilo a bordo do Radamis 1, jeep nas dunas do Wadi Rum, cerimônia do chá em Kyoto com trem-bala até Hakone, jantar em quinta de Vinho do Porto no Douro, templos de Angkor ao amanhecer, aurora boreal em cruzeiro na Islândia com Crystal Ice Cave e Blue Lagoon, Salto Grande e geleira do Lago Grey na Patagônia, tartarugas gigantes nas Galápagos, santuário de elefantes em Chiang Mai, Festival das Lanternas, fado em Lisboa, trem panorâmico Andermatt → St. Moritz e cruzeiro pelas ilhas de calcário em Ha Long — visitas privativas para o grupo com especialistas locais.",
   },
   {
     icon: MapPin,
