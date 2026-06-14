@@ -1,32 +1,21 @@
-## Novo grupo: Tailândia com Festival das Lanternas — Saída 12/11/2026
+## Passo 1 — Verificar o site no Google Search Console
 
-Vou seguir exatamente o mesmo padrão das saídas já publicadas (Equador & Galápagos, Patagônia Chilena, Grécia, Marrocos).
+Já gerei o código de verificação único do Google para o domínio **createtravel.tur.br**. Agora preciso colar esse código no `index.html` do site.
 
-### Arquivos a criar/editar
+### O que vai acontecer
 
-1. **Imagem hero** — `src/assets/grupo-tailandia-2026.jpg`
-   Gerada via imagegen: cena cinematográfica do Festival das Lanternas (Yi Peng) em Chiang Mai, com milhares de lanternas no céu noturno, templo iluminado ao fundo, paleta dourada/âmbar, estilo editorial luxo — sem rostos identificáveis.
+Vou adicionar **uma linha** dentro do `<head>` do `index.html`:
 
-2. **Nova página** — `src/pages/GrupoTailandia2026.tsx`
-   - Roteiro de 15 dias (12 a 26/11/2026): São Paulo → Dubai → Phuket → Phi Phi → Bangkok → Ayutthaya → Angthong → Phitsanulok → Sukhothai → Chiang Rai → Chiang Mai (Festival das Lanternas + Eco Valley) → retorno.
-   - Voos Emirates (EK 262 / EK 378).
-   - Hotéis: Graceland (Phuket), Ramada Riverside (Bangkok), Classic Kameo (Ayuthaya), Pattara (Phitsanulok), The Heritage (Chiang Rai), Kantary Hills / Centara Riverside (Chiang Mai).
-   - Preços em USD: Triplo 5.946 | Duplo 5.978 | Individual 6.789 + IOF + taxas USD 639.
-   - Inclui/Não inclui conforme PDF.
-   - **Forma de pagamento: 25% de entrada + saldo em 9 parcelas sem juros no cartão.**
-   - Seções: Hero, breadcrumbs, destaques (Festival das Lanternas, Ilhas Phi Phi, Eco Valley, gastronomia), roteiro dia a dia, hotéis, valores, o que inclui/não inclui, documentos, FAQ, CTA WhatsApp.
-   - SEO otimizado: title, description, keywords ("viagem em grupo Tailândia 2026", "Festival das Lanternas Chiang Mai", "Yi Peng Loi Krathong com guia do Brasil"), JSON-LD TouristTrip + FAQPage, OG image.
+```html
+<meta name="google-site-verification" content="vCQERIakVknxDtAkPlOq9HEQGp1Nqrw97ap7ORvI8o4" />
+```
 
-3. **Rota** — editar `src/App.tsx`
-   Adicionar `/grupos/tailandia-2026` apontando para `GrupoTailandia2026`.
+Essa linha é **invisível** para quem visita o site — ela serve só para o Google confirmar que você é o dono do domínio.
 
-4. **Listagem** — editar `src/pages/EmbarqueComACreate.tsx`
-   Inserir Tailândia como **primeiro card** do array `DEPARTURES` (saída mais próxima em destaque), com tag "12 a 26/11/2026 · 15 dias", status "Saída confirmada", preço "A partir de US$ 5.978 por pessoa (apto duplo)". Atualizar também o `ogImage` se fizer sentido manter Grécia (mantenho Grécia para não quebrar share atual).
+### Depois que você aprovar este plano
 
-### Padrão visual
-Reaproveita os tokens do design system (navy/emerald/gold, Playfair + Inter), componentes `Header`, `Footer`, `WhatsAppButton`, `Breadcrumbs`, `SEO`, `FAQSection` — idêntico às outras landings de grupo.
-
-### WhatsApp
-Links contextuais usando `generateWhatsAppLink({ type: "Roteiro", name: "Tailândia com Festival das Lanternas — Saída 12/11/2026" })`.
-
-Confirma que posso seguir?
+1. Eu colo a linha no `index.html`
+2. **Você clica em "Publish" → "Update"** (botão azul no canto superior direito do Lovable) para o código ir ao ar no createtravel.tur.br
+3. Você me responde aqui: **"publiquei"**
+4. Eu peço ao Google para verificar → propriedade verificada ✅
+5. Seguimos para o passo 2 (submeter o sitemap)
