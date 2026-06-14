@@ -41,6 +41,7 @@ import grupoAfricaPrimaveraImg from "@/assets/grupo-africa-do-sul-primavera-2026
 import grupoTurquia2026Img from "@/assets/grupo-turquia-2026.jpg";
 import grupoColombiaImg from "@/assets/grupo-colombia-2026.jpg";
 import grupoBeneluxImg from "@/assets/grupo-benelux-2026.jpg";
+import grupoBalcasAutenticosImg from "@/assets/grupo-balcas-autenticos-2026.jpg";
 
 const DEPARTURES = [
   {
@@ -251,6 +252,16 @@ const DEPARTURES = [
     subtitle: "Amsterdã · Giethoorn · Roterdã · Kinderdijk · Bruges · Gante · Bruxelas · Luxemburgo",
     desc: "Grand Tour do Benelux no outono: canais de Amsterdã, vila de Giethoorn, moinhos de Kinderdijk, cervejaria trapista e Grand Place. Voos Iberia e guia desde o Brasil.",
     fromPrice: "A partir de € 4.989 por pessoa (apto duplo)",
+    status: "Saída confirmada",
+  },
+  {
+    href: "/grupos/balcas-autenticos-2026",
+    img: grupoBalcasAutenticosImg,
+    tag: "13 a 25/10/2026 · 13 dias",
+    title: "Bálcãs Autênticos · Albânia, Kosovo & Macedônia do Norte",
+    subtitle: "Krujë · Prizren · Dečani · Skopje · Ohrid · Berat · Gjirokastër · Butrint · Tirana",
+    desc: "Outono dourado nos Bálcãs mais autênticos: cidadela de Skanderbeg, Mosteiro de Dečani (UNESCO), Lago de Ohrid, Berat e Gjirokastër, Riviera Albanesa e Butrint. Voos ITA Airways e guia desde o Brasil.",
+    fromPrice: "A partir de € 4.759 por pessoa (apto duplo)",
     status: "Saída confirmada",
   },
 ];
