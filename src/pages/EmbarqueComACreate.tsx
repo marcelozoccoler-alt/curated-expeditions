@@ -188,6 +188,16 @@ const DEPARTURES = [
     fromPrice: "A partir de US$ 6.798 por pessoa (apto duplo)",
     status: "Saída confirmada",
   },
+  {
+    href: "/grupos/africa-do-sul-reveillon-2027",
+    img: grupoAfricaReveillonImg,
+    tag: "28/12/2026 a 05/01/2027 · 9 dias · Réveillon",
+    title: "África do Sul · Réveillon 2027",
+    subtitle: "Johanesburgo · Soweto · Kruger · Cape Town",
+    desc: "Virada do ano em reserva privada no Kruger, Soweto e o legado de Mandela, Table Mountain e o Cabo da Boa Esperança. Voos South African Airways e guia desde o Brasil.",
+    fromPrice: "A partir de US$ 5.487 por pessoa (apto duplo)",
+    status: "Saída confirmada",
+  },
 ];
 
 const BENEFITS = [
