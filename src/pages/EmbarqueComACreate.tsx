@@ -719,7 +719,7 @@ const EmbarqueComACreate = () => {
         <Breadcrumbs
           items={[
             { label: "Início", href: "/" },
-            { label: "Embarque com a Create" },
+            { label: "Grupos com Guia Brasileiro" },
           ]}
         />
       </div>
