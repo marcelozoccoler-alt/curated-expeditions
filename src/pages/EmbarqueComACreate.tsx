@@ -320,6 +320,16 @@ const DEPARTURES = [
     fromPrice: "A partir de € 6.498 por pessoa (apto duplo)",
     status: "Saída confirmada",
   },
+  {
+    href: "/grupos/portugal-norte-sul-2026",
+    img: grupoPortugalNorteSulImg,
+    tag: "28/09 a 11/10/2026 · 14 dias",
+    title: "Portugal de Norte a Sul · Outono",
+    subtitle: "Porto · Aveiro · Braga · Douro · Serra da Estrela · Fátima · Óbidos · Lisboa · Sintra · Évora · Algarve",
+    desc: "Do Porto ao Algarve no auge do outono: cruzeiro no Douro, queijos da Serra, ginjinha em Óbidos, palácios de Sintra, Évora e praias douradas. Voos Iberia e guia desde o Brasil.",
+    fromPrice: "A partir de € 4.498 por pessoa (apto duplo)",
+    status: "Saída confirmada",
+  },
 ];
 
 const BENEFITS = [
