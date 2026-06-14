@@ -78,6 +78,7 @@ const App = () => (
         <Route path="/grupos/vietna-laos-camboja-2027" element={<GrupoVietnaLaosCamboja2027 />} />
         <Route path="/grupos/mexico-2026" element={<GrupoMexico2026 />} />
         <Route path="/grupos/africa-do-sul-reveillon-2027" element={<GrupoAfricaDoSulReveillon2027 />} />
+        <Route path="/grupos/turquia-reveillon-2027" element={<GrupoTurquiaReveillon2027 />} />
           {/* Brasil hierarchical navigation — must come before /:regionSlug */}
           <Route path="/brasil-vivo" element={<BrasilVivo />} />
           <Route path="/:lang/brasil-vivo" element={<BrasilVivo />} />
