@@ -37,6 +37,7 @@ import grupoVietnaLaosCambojaImg from "@/assets/grupo-vietna-laos-camboja-2027.j
 import grupoMexicoImg from "@/assets/grupo-mexico-2026.jpg";
 import grupoAfricaReveillonImg from "@/assets/grupo-africa-do-sul-reveillon-2027.jpg";
 import grupoTurquiaReveillonImg from "@/assets/grupo-turquia-reveillon-2027.jpg";
+import grupoAfricaPrimaveraImg from "@/assets/grupo-africa-do-sul-primavera-2026.jpg";
 
 const DEPARTURES = [
   {
