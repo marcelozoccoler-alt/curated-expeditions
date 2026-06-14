@@ -701,7 +701,7 @@ const EmbarqueComACreate = () => {
               Grupos com Guia Brasileiro
             </h1>
             <p className="text-xl md:text-2xl text-white/90 mb-8 font-light max-w-2xl">
-              O portfólio <strong className="font-medium text-gold">Grupos com Guia Brasileiro</strong> reúne saídas internacionais com coordenador acompanhante do Brasil — tudo em português, em grupos enxutos e sem preocupação com logística.
+              O portfólio <strong className="font-medium text-gold">Grupos com Guia Brasileiro</strong> reúne saídas internacionais com coordenador acompanhante do Brasil — tudo em português e sem preocupação com logística.
             </p>
             <div className="flex flex-col sm:flex-row items-start sm:items-center gap-4">
               <a href="#saidas" className="btn-accent text-lg px-8 py-4">
