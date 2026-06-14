@@ -75,7 +75,7 @@ const BrasilEstado = () => {
         <section className="relative h-[55vh] min-h-[420px] flex items-end overflow-hidden">
           <img
             src={state.heroImageUrl}
-            alt={state.name}
+            alt={`Paisagens de ${state.name}, Brasil`}
             className="absolute inset-0 w-full h-full object-cover"
             loading="eager"
           />
@@ -149,7 +149,7 @@ const BrasilEstado = () => {
                       <div className="aspect-[3/2] overflow-hidden">
                         <img
                           src={img}
-                          alt={d!.name}
+                          alt={`Destino ${d!.name} — ${state.name}, Brasil`}
                           loading="lazy"
                           className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
                         />

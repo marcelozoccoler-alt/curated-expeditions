@@ -314,8 +314,9 @@ const Destinos = () => {
       </section>
 
       {/* Results */}
-      <section ref={resultsRef} className="section-padding flex-1 scroll-mt-32">
+      <section ref={resultsRef} className="section-padding flex-1 scroll-mt-32" aria-labelledby="resultados-heading">
         <div className="container-editorial">
+          <h2 id="resultados-heading" className="sr-only">Roteiros selecionados pela Create Travel</h2>
           <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4 mb-8">
             <p className="text-muted-foreground">
               <span className="font-semibold text-foreground">{sorted.length}</span>{" "}
