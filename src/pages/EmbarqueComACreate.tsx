@@ -692,10 +692,10 @@ const EmbarqueComACreate = () => {
               <Plane size={14} /> Portfólio Create · Saídas 2026 · 2027
             </div>
             <p className="text-caption text-gold mb-4 tracking-[0.3em]">
-              GRUPOS COM GUIA BRASILEIRO
+              PORTFÓLIO CREATE
             </p>
             <h1 className="heading-hero text-white mb-6">
-              Embarque com a Create
+              Grupos com Guia Brasileiro
             </h1>
             <p className="text-xl md:text-2xl text-white/90 mb-8 font-light max-w-2xl">
               O portfólio <strong className="font-medium text-gold">Grupos com Guia Brasileiro</strong> reúne saídas internacionais com coordenador acompanhante do Brasil — tudo em português, sem solidão e sem preocupação com logística.
@@ -719,7 +719,7 @@ const EmbarqueComACreate = () => {
         <Breadcrumbs
           items={[
             { label: "Início", href: "/" },
-            { label: "Embarque com a Create" },
+            { label: "Grupos com Guia Brasileiro" },
           ]}
         />
       </div>
