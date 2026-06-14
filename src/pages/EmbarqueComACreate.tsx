@@ -45,6 +45,7 @@ import grupoBalcasAutenticosImg from "@/assets/grupo-balcas-autenticos-2026.jpg"
 import grupoAfricaDoSulOutubroImg from "@/assets/grupo-africa-do-sul-outubro-2026.jpg";
 import grupoPortugalAldeiasImg from "@/assets/grupo-portugal-aldeias-2026.jpg";
 import grupoSulItaliaOutubroImg from "@/assets/grupo-sul-italia-outubro-2026.jpg";
+import grupoChinaImg from "@/assets/grupo-china-2026.jpg";
 
 const DEPARTURES = [
   {
