@@ -18,7 +18,7 @@ import { SEO } from "@/components/SEO";
 import { FAQSection } from "@/components/FAQSection";
 import { CONTACT, generateWhatsAppLink } from "@/lib/types";
 import heroImg from "@/assets/grupo-tailandia-2026.jpg";
-import { getHotelUrl } from "@/lib/groupHotels";
+import { getHotelUrl, buildHotelsJsonLd, buildHotelsFAQs, buildHotelsKeywords } from "@/lib/groupHotels";
 
 const whatsappParams = {
   type: "Roteiro" as const,
@@ -241,6 +241,16 @@ const faqs = [
   },
 ];
 
+const hotelsForSeo = [{ city: "Phuket", hotel: "Graceland & Spa" },
+              { city: "Bangkok", hotel: "Ramada Riverside" },
+              { city: "Ayutthaya", hotel: "Classic Kameo Ayutthaya" },
+              { city: "Phitsanulok", hotel: "Pattara Phitsanulok" },
+              { city: "Chiang Rai", hotel: "The Heritage" },
+              { city: "Chiang Mai", hotel: "Kantary Hills / Centara Riverside" }];
+const hotelsSeoJsonLd = buildHotelsJsonLd(hotelsForSeo, "Grupo Tailândia 2026 com Festival das Lanternas — Create Travel", "/grupos/tailandia-2026");
+const hotelsSeoFaqs = buildHotelsFAQs(hotelsForSeo, "Grupo Tailândia 2026 com Festival das Lanternas — Create Travel", "/grupos/tailandia-2026");
+const hotelsSeoKeywords = buildHotelsKeywords(hotelsForSeo);
+
 const jsonLd = {
   "@context": "https://schema.org",
   "@type": "TouristTrip",
@@ -279,8 +289,8 @@ const GrupoTailandia2026 = () => {
         canonicalPath="/grupos/tailandia-2026"
         ogImage={heroImg}
         ogType="article"
-        jsonLd={jsonLd}
-        keywords="viagem em grupo Tailândia 2026, Festival das Lanternas Chiang Mai, Yi Peng Loi Krathong, grupo com guia do Brasil, Phuket Phi Phi Bangkok, Sukhothai Ayutthaya, Create Travel Tailândia"
+        jsonLd={[jsonLd, ...hotelsSeoJsonLd]}
+        keywords={`viagem em grupo Tailândia 2026, Festival das Lanternas Chiang Mai, Yi Peng Loi Krathong, grupo com guia do Brasil, Phuket Phi Phi Bangkok, Sukhothai Ayutthaya, Create Travel Tailândia, ${hotelsSeoKeywords}`}
       />
       <Header />
       <WhatsAppButton variant="float" params={whatsappParams} />
@@ -635,7 +645,7 @@ const GrupoTailandia2026 = () => {
       {/* FAQ */}
       <section className="section-padding bg-muted">
         <div className="container-editorial max-w-3xl">
-          <FAQSection faqs={faqs} />
+          <FAQSection faqs={[...faqs, ...hotelsSeoFaqs]} />
         </div>
       </section>
 

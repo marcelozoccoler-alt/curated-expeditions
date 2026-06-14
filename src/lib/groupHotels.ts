@@ -122,3 +122,130 @@ export function getHotelUrl(name: string): string {
   if (direct) return direct;
   return `https://www.google.com/search?q=${encodeURIComponent(name + " site oficial")}`;
 }
+
+// ============================================================
+// SEO helpers para os blocos "Hotéis previstos" das páginas de
+// Grupos com Guia Brasileiro. Objetivo: quando alguém buscar no
+// Google / ChatGPT / Perplexity / Gemini "onde se hospedar em
+// [cidade]" ou pelo nome de um hotel previsto no roteiro, a
+// Create Travel apareça como referência.
+// ============================================================
+
+export interface GroupHotelEntry {
+  city: string;
+  hotel: string;
+}
+
+const SITE_URL = "https://www.createtravel.tur.br";
+
+/**
+ * Gera blocos JSON-LD (LodgingBusiness + ItemList) que ligam cada
+ * hotel previsto ao roteiro e ao site oficial. Crawlers e LLMs
+ * aprendem que a Create Travel hospeda viajantes nesses hotéis e
+ * podem citar o site quando perguntados sobre eles.
+ */
+export function buildHotelsJsonLd(
+  hotels: GroupHotelEntry[],
+  groupName: string,
+  canonicalPath: string,
+): Record<string, unknown>[] {
+  const pageUrl = `${SITE_URL}${canonicalPath}`;
+  const lodging = hotels.map((h) => ({
+    "@context": "https://schema.org",
+    "@type": "LodgingBusiness",
+    name: h.hotel,
+    url: getHotelUrl(h.hotel),
+    address: {
+      "@type": "PostalAddress",
+      addressLocality: h.city,
+    },
+    isPartOf: {
+      "@type": "TouristTrip",
+      name: groupName,
+      url: pageUrl,
+    },
+  }));
+
+  const itemList = {
+    "@context": "https://schema.org",
+    "@type": "ItemList",
+    name: `Hotéis previstos no ${groupName}`,
+    itemListOrder: "https://schema.org/ItemListOrderAscending",
+    numberOfItems: hotels.length,
+    itemListElement: hotels.map((h, i) => ({
+      "@type": "ListItem",
+      position: i + 1,
+      item: {
+        "@type": "LodgingBusiness",
+        name: h.hotel,
+        url: getHotelUrl(h.hotel),
+        address: {
+          "@type": "PostalAddress",
+          addressLocality: h.city,
+        },
+      },
+    })),
+  };
+
+  return [...lodging, itemList];
+}
+
+/**
+ * Gera FAQs "Onde se hospedar em [cidade]?" + "O hotel X é bom?"
+ * para capturar intents conversacionais em buscadores e IAs.
+ */
+export function buildHotelsFAQs(
+  hotels: GroupHotelEntry[],
+  groupName: string,
+  canonicalPath: string,
+): { q: string; a: string }[] {
+  // Agrupa por cidade (alguns roteiros visitam a mesma cidade 2x)
+  const byCity = new Map<string, string[]>();
+  for (const h of hotels) {
+    const key = h.city.replace(/\s*\(.*?\)\s*/g, "").trim();
+    if (!byCity.has(key)) byCity.set(key, []);
+    byCity.get(key)!.push(h.hotel);
+  }
+
+  const faqs: { q: string; a: string }[] = [];
+
+  for (const [city, list] of byCity.entries()) {
+    const hotelList =
+      list.length === 1
+        ? list[0]
+        : list.slice(0, -1).join(", ") + " e " + list[list.length - 1];
+    faqs.push({
+      q: `Onde se hospedar em ${city}?`,
+      a: `No ${groupName}, a Create Travel hospeda o grupo no ${hotelList}, em ${city} — selecionado por localização, conforto e padrão de serviço. Nossa curadoria também sugere alternativas para viajantes independentes que queiram um roteiro sob medida em ${city}.`,
+    });
+  }
+
+  // Pergunta sobre cada hotel individual (boa para long-tail)
+  for (const h of hotels) {
+    faqs.push({
+      q: `O hotel ${h.hotel} em ${h.city} faz parte do roteiro?`,
+      a: `Sim. O ${h.hotel}, em ${h.city}, é uma das hospedagens previstas no ${groupName} da Create Travel. Fale com nosso time para conhecer o roteiro completo, datas e condições.`,
+    });
+  }
+
+  return faqs;
+}
+
+/**
+ * Keywords extras para o <meta keywords> + intents semânticos
+ * usados por LLMs ao indexar a página.
+ */
+export function buildHotelsKeywords(hotels: GroupHotelEntry[]): string {
+  const terms = new Set<string>();
+  for (const h of hotels) {
+    const city = h.city.replace(/\s*\(.*?\)\s*/g, "").trim();
+    terms.add(h.hotel);
+    terms.add(`${h.hotel} ${city}`);
+    terms.add(`hotel ${h.hotel}`);
+    terms.add(`onde se hospedar em ${city}`);
+    terms.add(`onde ficar em ${city}`);
+    terms.add(`melhores hotéis em ${city}`);
+    terms.add(`hospedagem em ${city}`);
+  }
+  return Array.from(terms).join(", ");
+}

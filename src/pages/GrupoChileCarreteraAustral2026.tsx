@@ -16,7 +16,7 @@ import { SEO } from "@/components/SEO";
 import { FAQSection } from "@/components/FAQSection";
 import { CONTACT, generateWhatsAppLink } from "@/lib/types";
 import heroImg from "@/assets/grupo-chile-carretera-austral-2026.jpg";
-import { getHotelUrl } from "@/lib/groupHotels";
+import { getHotelUrl, buildHotelsJsonLd, buildHotelsFAQs, buildHotelsKeywords } from "@/lib/groupHotels";
 
 const whatsappParams = {
   type: "Roteiro" as const,
@@ -173,6 +173,13 @@ const faqs = [
   },
 ];
 
+const hotelsForSeo = [{ city: "Santiago", hotel: "Almacruz" },
+              { city: "Puerto Tranquilo", hotel: "Apart Hotel y Cabañas Valle Exploradores" },
+              { city: "Puerto Chacabuco", hotel: "Loberías del Sur" }];
+const hotelsSeoJsonLd = buildHotelsJsonLd(hotelsForSeo, "Grupo Chile com Carretera Austral · Primavera 2026 — Create Travel", "/grupos/chile-carretera-austral-2026");
+const hotelsSeoFaqs = buildHotelsFAQs(hotelsForSeo, "Grupo Chile com Carretera Austral · Primavera 2026 — Create Travel", "/grupos/chile-carretera-austral-2026");
+const hotelsSeoKeywords = buildHotelsKeywords(hotelsForSeo);
+
 const jsonLd = {
   "@context": "https://schema.org",
   "@type": "TouristTrip",
@@ -211,8 +218,8 @@ const GrupoChileCarreteraAustral2026 = () => {
         canonicalPath="/grupos/chile-carretera-austral-2026"
         ogImage={heroImg}
         ogType="article"
-        jsonLd={jsonLd}
-        keywords="viagem em grupo Chile 2026, Carretera Austral, Capelas de Mármore, Glaciar San Rafael, Patagônia chilena, Create Travel LATAM"
+        jsonLd={[jsonLd, ...hotelsSeoJsonLd]}
+        keywords={`viagem em grupo Chile 2026, Carretera Austral, Capelas de Mármore, Glaciar San Rafael, Patagônia chilena, Create Travel LATAM, ${hotelsSeoKeywords}`}
       />
       <Header />
       <WhatsAppButton variant="float" params={whatsappParams} />
@@ -509,7 +516,7 @@ const GrupoChileCarreteraAustral2026 = () => {
         </div>
       </section>
 
-      <FAQSection faqs={faqs} />
+      <FAQSection faqs={[...faqs, ...hotelsSeoFaqs]} />
 
       <Footer />
     </div>

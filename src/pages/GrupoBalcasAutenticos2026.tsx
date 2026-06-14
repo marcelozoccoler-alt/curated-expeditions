@@ -18,7 +18,7 @@ import { SEO } from "@/components/SEO";
 import { FAQSection } from "@/components/FAQSection";
 import { CONTACT, generateWhatsAppLink } from "@/lib/types";
 import heroImg from "@/assets/grupo-balcas-autenticos-2026.jpg";
-import { getHotelUrl } from "@/lib/groupHotels";
+import { getHotelUrl, buildHotelsJsonLd, buildHotelsFAQs, buildHotelsKeywords } from "@/lib/groupHotels";
 
 const whatsappParams = {
   type: "Roteiro" as const,
@@ -215,6 +215,17 @@ const faqs = [
   },
 ];
 
+const hotelsForSeo = [{ city: "Krujë", hotel: "Panorama ou Dior" },
+              { city: "Prizren", hotel: "Prizren Classic" },
+              { city: "Skopje", hotel: "Holiday Inn Skopje" },
+              { city: "Ohrid", hotel: "Metropol" },
+              { city: "Berat", hotel: "Colombo Berat" },
+              { city: "Saranda", hotel: "Toer" },
+              { city: "Tirana", hotel: "Rogner Tirana" }];
+const hotelsSeoJsonLd = buildHotelsJsonLd(hotelsForSeo, "Grupo Bálcãs Autênticos 2026 — Albânia, Kosovo e Macedônia do Norte — Create Travel", "/grupos/balcas-autenticos-2026");
+const hotelsSeoFaqs = buildHotelsFAQs(hotelsForSeo, "Grupo Bálcãs Autênticos 2026 — Albânia, Kosovo e Macedônia do Norte — Create Travel", "/grupos/balcas-autenticos-2026");
+const hotelsSeoKeywords = buildHotelsKeywords(hotelsForSeo);
+
 const jsonLd = {
   "@context": "https://schema.org",
   "@type": "TouristTrip",
@@ -253,8 +264,8 @@ const GrupoBalcasAutenticos2026 = () => {
         canonicalPath="/grupos/balcas-autenticos-2026"
         ogImage={heroImg}
         ogType="article"
-        jsonLd={jsonLd}
-        keywords="viagem em grupo Bálcãs 2026, Albânia Kosovo Macedônia do Norte, Berat Gjirokastër, Ohrid Skopje, grupo Bálcãs com guia do Brasil, Create Travel ITA Airways"
+        jsonLd={[jsonLd, ...hotelsSeoJsonLd]}
+        keywords={`viagem em grupo Bálcãs 2026, Albânia Kosovo Macedônia do Norte, Berat Gjirokastër, Ohrid Skopje, grupo Bálcãs com guia do Brasil, Create Travel ITA Airways, ${hotelsSeoKeywords}`}
       />
       <Header />
       <WhatsAppButton variant="float" params={whatsappParams} />
@@ -604,7 +615,7 @@ const GrupoBalcasAutenticos2026 = () => {
       {/* FAQ */}
       <section className="section-padding bg-muted">
         <div className="container-editorial max-w-3xl">
-          <FAQSection faqs={faqs} />
+          <FAQSection faqs={[...faqs, ...hotelsSeoFaqs]} />
         </div>
       </section>
 

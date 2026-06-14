@@ -16,7 +16,7 @@ import { SEO } from "@/components/SEO";
 import { FAQSection } from "@/components/FAQSection";
 import { CONTACT, generateWhatsAppLink } from "@/lib/types";
 import heroImg from "@/assets/grupo-china-2026.jpg";
-import { getHotelUrl } from "@/lib/groupHotels";
+import { getHotelUrl, buildHotelsJsonLd, buildHotelsFAQs, buildHotelsKeywords } from "@/lib/groupHotels";
 
 const whatsappParams = {
   type: "Roteiro" as const,
@@ -209,6 +209,14 @@ const faqs = [
   },
 ];
 
+const hotelsForSeo = [{ city: "Beijing", hotel: "New Otani" },
+              { city: "Xi'an", hotel: "Sheraton North City" },
+              { city: "Zhangjiajie", hotel: "Pullman Hotel" },
+              { city: "Shanghai", hotel: "Amara Signature" }];
+const hotelsSeoJsonLd = buildHotelsJsonLd(hotelsForSeo, "Grupo China Dourada · Outono 2026 — Create Travel", "/grupos/china-2026");
+const hotelsSeoFaqs = buildHotelsFAQs(hotelsForSeo, "Grupo China Dourada · Outono 2026 — Create Travel", "/grupos/china-2026");
+const hotelsSeoKeywords = buildHotelsKeywords(hotelsForSeo);
+
 const jsonLd = {
   "@context": "https://schema.org",
   "@type": "TouristTrip",
@@ -247,8 +255,8 @@ const GrupoChina2026 = () => {
         canonicalPath="/grupos/china-2026"
         ogImage={heroImg}
         ogType="article"
-        jsonLd={jsonLd}
-        keywords="viagem em grupo China 2026, Grande Muralha outono, Guerreiros Terracota Xi'an, Zhangjiajie Avatar, Shanghai Pudong, grupo China com guia do Brasil, Create Travel Ethiopian Airlines"
+        jsonLd={[jsonLd, ...hotelsSeoJsonLd]}
+        keywords={`viagem em grupo China 2026, Grande Muralha outono, Guerreiros Terracota Xi'an, Zhangjiajie Avatar, Shanghai Pudong, grupo China com guia do Brasil, Create Travel Ethiopian Airlines, ${hotelsSeoKeywords}`}
       />
       <Header />
       <WhatsAppButton variant="float" params={whatsappParams} />
@@ -546,7 +554,7 @@ const GrupoChina2026 = () => {
         </div>
       </section>
 
-      <FAQSection faqs={faqs} />
+      <FAQSection faqs={[...faqs, ...hotelsSeoFaqs]} />
 
       <Footer />
     </div>

@@ -18,7 +18,7 @@ import { SEO } from "@/components/SEO";
 import { FAQSection } from "@/components/FAQSection";
 import { CONTACT, generateWhatsAppLink } from "@/lib/types";
 import heroImg from "@/assets/grupo-africa-do-sul-reveillon-2027.jpg";
-import { getHotelUrl } from "@/lib/groupHotels";
+import { getHotelUrl, buildHotelsJsonLd, buildHotelsFAQs, buildHotelsKeywords } from "@/lib/groupHotels";
 
 const whatsappParams = {
   type: "Roteiro" as const,
@@ -186,6 +186,13 @@ const faqs = [
   },
 ];
 
+const hotelsForSeo = [{ city: "Johanesburgo", hotel: "Onomo Sandton" },
+              { city: "Área do Kruger", hotel: "Mdluli Safari Lodge" },
+              { city: "Cidade do Cabo", hotel: "Southern Sun Waterfront" }];
+const hotelsSeoJsonLd = buildHotelsJsonLd(hotelsForSeo, "Grupo África do Sul — Réveillon 2027 — Create Travel", "/grupos/africa-do-sul-reveillon-2027");
+const hotelsSeoFaqs = buildHotelsFAQs(hotelsForSeo, "Grupo África do Sul — Réveillon 2027 — Create Travel", "/grupos/africa-do-sul-reveillon-2027");
+const hotelsSeoKeywords = buildHotelsKeywords(hotelsForSeo);
+
 const jsonLd = {
   "@context": "https://schema.org",
   "@type": "TouristTrip",
@@ -224,8 +231,8 @@ const GrupoAfricaDoSulReveillon2027 = () => {
         canonicalPath="/grupos/africa-do-sul-reveillon-2027"
         ogImage={heroImg}
         ogType="article"
-        jsonLd={jsonLd}
-        keywords="viagem em grupo África do Sul Réveillon 2027, safári Kruger Ano Novo, Cape Town Réveillon, virada do ano África com guia do Brasil, Create Travel safári"
+        jsonLd={[jsonLd, ...hotelsSeoJsonLd]}
+        keywords={`viagem em grupo África do Sul Réveillon 2027, safári Kruger Ano Novo, Cape Town Réveillon, virada do ano África com guia do Brasil, Create Travel safári, ${hotelsSeoKeywords}`}
       />
       <Header />
       <WhatsAppButton variant="float" params={whatsappParams} />
@@ -586,7 +593,7 @@ const GrupoAfricaDoSulReveillon2027 = () => {
       {/* FAQ */}
       <section className="section-padding bg-muted">
         <div className="container-editorial max-w-3xl">
-          <FAQSection faqs={faqs} />
+          <FAQSection faqs={[...faqs, ...hotelsSeoFaqs]} />
         </div>
       </section>
 
