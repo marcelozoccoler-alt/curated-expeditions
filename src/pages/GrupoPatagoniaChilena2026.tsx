@@ -232,6 +232,7 @@ const GrupoPatagoniaChilena2026 = () => {
         ogImage={heroImg}
         ogType="article"
         jsonLd={[jsonLd, ...hotelsSeoJsonLd]}
+        keywords={hotelsSeoKeywords}
       />
       <Header />
       <WhatsAppButton variant="float" params={whatsappParams} />
