@@ -128,8 +128,8 @@ const CrieSeuGrupo = () => {
   return (
     <div className="min-h-screen">
       <SEO
-        title="Crie seu grupo — Curadoria de viagens em grupo | Create Travel"
-        description="Família, amigos, casamento, incentivo, retiro espiritual ou expedição: desenhamos viagens privativas em grupo com curadoria autoral, logística impecável e suporte 24/7."
+        title="Crie seu grupo — Viagens privativas sob medida | Create"
+        description="Família, amigos, casamento, incentivo ou expedição: viagens privativas em grupo com curadoria autoral e logística impecável."
         canonicalPath="/crie-seu-grupo"
       />
       <Header />
