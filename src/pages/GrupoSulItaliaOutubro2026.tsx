@@ -534,7 +534,7 @@ const GrupoSulItaliaOutubro2026 = () => {
         </div>
       </section>
 
-      <FAQSection items={faqs} />
+      <FAQSection faqs={faqs} />
 
       <Footer />
     </div>
