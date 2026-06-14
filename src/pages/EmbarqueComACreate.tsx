@@ -199,6 +199,16 @@ const DEPARTURES = [
     fromPrice: "A partir de US$ 5.487 por pessoa (apto duplo)",
     status: "Saída confirmada",
   },
+  {
+    href: "/grupos/turquia-reveillon-2027",
+    img: grupoTurquiaReveillonImg,
+    tag: "28/12/2026 a 09/01/2027 · 13 dias · Réveillon",
+    title: "Turquia · Réveillon 2027",
+    subtitle: "Istambul · Ancara · Capadócia · Pamukkale · Éfeso · Kusadasi · Bursa",
+    desc: "Virada do ano em Istambul, Capadócia no inverno com balões ao amanhecer, piscinas brancas de Pamukkale e ruínas de Éfeso. Voos Turkish Airlines e guia desde o Brasil.",
+    fromPrice: "A partir de € 3.998 por pessoa (apto duplo)",
+    status: "Saída confirmada",
+  },
 ];
 
 const BENEFITS = [
