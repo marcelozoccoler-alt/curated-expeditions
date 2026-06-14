@@ -210,6 +210,16 @@ const DEPARTURES = [
     fromPrice: "A partir de € 3.998 por pessoa (apto duplo)",
     status: "Saída confirmada",
   },
+  {
+    href: "/grupos/africa-do-sul-primavera-2026",
+    img: grupoAfricaPrimaveraImg,
+    tag: "16 a 24/11/2026 · 9 dias",
+    title: "África do Sul · Primavera",
+    subtitle: "Johanesburgo · Soweto · Pilanesberg · Pretória · Cape Town",
+    desc: "Safári no Pilanesberg (área livre de malária) em lodge 5 estrelas Shepherd's Tree, Soweto, Pretória, Table Mountain e Cabo da Boa Esperança. Voos South African Airways e guia desde o Brasil.",
+    fromPrice: "A partir de US$ 4.998 por pessoa (apto duplo)",
+    status: "Saída confirmada",
+  },
 ];
 
 const BENEFITS = [
