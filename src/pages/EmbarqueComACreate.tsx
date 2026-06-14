@@ -525,18 +525,16 @@ const EmbarqueComACreate = () => {
             className="max-w-3xl"
           >
             <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-gold/90 text-navy text-xs font-semibold uppercase tracking-wider mb-6">
-              <Plane size={14} /> Saídas confirmadas · Vagas limitadas
+              <Plane size={14} /> Portfólio Create · Saídas 2026 · 2027
             </div>
-            <p className="text-caption text-gold mb-4">
-              Grupos com guia desde o Brasil
+            <p className="text-caption text-gold mb-4 tracking-[0.3em]">
+              GRUPOS COM GUIA BRASILEIRO
             </p>
             <h1 className="heading-hero text-white mb-6">
               Embarque com a Create
             </h1>
             <p className="text-xl md:text-2xl text-white/90 mb-8 font-light max-w-2xl">
-              Saídas internacionais em grupo, com guia acompanhante embarcando
-              junto com você no Brasil. Tudo em português, sem solidão, sem
-              preocupação com logística — só a viagem.
+              O portfólio <strong className="font-medium text-gold">Grupos com Guia Brasileiro</strong> reúne saídas internacionais com coordenador acompanhante do Brasil — tudo em português, sem solidão e sem preocupação com logística.
             </p>
             <div className="flex flex-col sm:flex-row items-start sm:items-center gap-4">
               <a href="#saidas" className="btn-accent text-lg px-8 py-4">
@@ -604,76 +602,9 @@ const EmbarqueComACreate = () => {
         </div>
       </section>
 
-      {/* Próximas saídas */}
-      <section id="saidas" className="section-padding bg-muted">
-        <div className="container-editorial">
-          <div className="text-center mb-12 max-w-2xl mx-auto">
-            <p className="text-caption text-gold mb-4">Próximas saídas</p>
-            <h2 className="heading-section text-foreground mb-4">
-              Grupos com guia do Brasil · 2026
-            </h2>
-            <p className="text-lg text-muted-foreground font-light">
-              Saídas confirmadas com vagas limitadas. Entrada de 25% e saldo em
-              até 9 parcelas sem juros no cartão de crédito.
-            </p>
-          </div>
+      {/* Próximas saídas — cardápio cronológico */}
+      <DeparturesCatalog />
 
-          <div className="grid md:grid-cols-2 gap-6">
-            {DEPARTURES.map((d) => (
-              <Link
-                key={d.href}
-                to={d.href}
-                className="group block bg-card border border-border rounded-xl overflow-hidden shadow-card hover:border-gold hover:shadow-xl transition-all"
-              >
-                <div className="relative h-64 overflow-hidden">
-                  <img
-                    src={d.img}
-                    alt={d.title}
-                    className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700"
-                    loading="lazy"
-                  />
-                  <div className="absolute top-4 left-4 bg-emerald/95 text-white text-xs font-semibold uppercase tracking-wider px-3 py-1.5 rounded-full">
-                    {d.status}
-                  </div>
-                </div>
-                <div className="p-7">
-                  <div className="flex items-center gap-2 text-gold text-xs uppercase tracking-wider font-semibold mb-3">
-                    <Calendar size={14} /> {d.tag}
-                  </div>
-                  <h3 className="font-serif text-2xl font-semibold text-foreground mb-2 group-hover:text-gold transition-colors">
-                    {d.title}
-                  </h3>
-                  <p className="flex items-center gap-2 text-sm text-muted-foreground mb-3">
-                    <MapPin size={14} className="text-gold" />
-                    {d.subtitle}
-                  </p>
-                  <p className="text-[15px] text-muted-foreground leading-relaxed mb-4">
-                    {d.desc}
-                  </p>
-                  <p className="text-sm font-semibold text-foreground mb-4">
-                    {d.fromPrice}
-                  </p>
-                  <span className="inline-flex items-center gap-2 text-sm font-medium text-gold group-hover:gap-3 transition-all">
-                    Ver detalhes da saída
-                    <ArrowRight size={16} />
-                  </span>
-                </div>
-              </Link>
-            ))}
-          </div>
-
-          <div className="text-center mt-10">
-            <p className="text-muted-foreground mb-4">
-              Quer ser avisado(a) das próximas saídas em primeira mão?
-            </p>
-            <WhatsAppButton
-              variant="cta"
-              label="Quero receber as próximas saídas"
-              params={{ type: "Roteiro", name: "Quero receber as próximas saídas em grupo com guia do Brasil" }}
-            />
-          </div>
-        </div>
-      </section>
 
       {/* Como funciona */}
       <section className="section-padding">
