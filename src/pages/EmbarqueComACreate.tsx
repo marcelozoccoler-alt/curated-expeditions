@@ -380,35 +380,37 @@ export type Departure = typeof DEPARTURES[number];
 const BENEFITS = [
   {
     icon: Plane,
-    title: "Guia acompanhante desde o Brasil",
-    desc: "Você embarca em Guarulhos com a equipe Create Travel e segue acompanhado do check-in à volta. Nada de chegar sozinho no destino.",
+    title: "Coordenador Create do check-in ao retorno",
+    desc: "Você embarca em Guarulhos acompanhado de um coordenador Create Travel que segue com o grupo até a volta — recepção no aeroporto, briefings diários e suporte em todas as conexões.",
   },
   {
     icon: Languages,
-    title: "Tudo em português",
-    desc: "Guias, traslados, briefings e assistência em português durante toda a viagem — para você só se preocupar em viver a experiência.",
+    title: "100% em português no destino",
+    desc: "Guias locais em português (ou espanhol com domínio do português), traslados privados e assistência permanente em português — você só se preocupa em viver a experiência.",
   },
   {
     icon: Users,
-    title: "Companhia em português",
-    desc: "Você viaja com outros brasileiros, com perfil compatível, e mantém o ritmo equilibrado entre cultura, conforto e tempo livre.",
-  },
-  {
-    icon: ShieldCheck,
-    title: "Segurança e suporte 24/7",
-    desc: "Seguro médico internacional, seguro cancelamento e suporte da equipe Create Travel antes, durante e depois da viagem.",
-  },
-  {
-    icon: CreditCard,
-    title: "Pagamento facilitado",
-    desc: "Entrada de 25% e saldo em até 9 parcelas sem juros no cartão de crédito. Sem surpresas e sem letras miúdas.",
+    title: "Grupos enxutos, ritmo equilibrado",
+    desc: "Saídas com número reduzido de viajantes brasileiros de perfil compatível. Roteiro com profundidade cultural, conforto real e tempo livre para descansar e respirar cada destino.",
   },
   {
     icon: Sparkles,
-    title: "Curadoria autoral",
-    desc: "Hotéis testados pessoalmente, visitas guiadas com especialistas locais e experiências que vão além do óbvio em cada destino.",
+    title: "Hotéis de primeira categoria com curadoria",
+    desc: "Hospedagens 4★/5★ testadas pessoalmente, sempre com café da manhã incluso e bem localizadas. Mesma exigência de conforto em todos os trechos do roteiro.",
+  },
+  {
+    icon: ShieldCheck,
+    title: "Seguro médico US$ 75.000 + cancelamento",
+    desc: "Cartão de assistência GTA FLOT 75 com cobertura médica internacional de US$ 75.000 e seguro cancelamento Plus Reason até 85 anos (US$ 3.000) já inclusos no pacote.",
+  },
+  {
+    icon: CreditCard,
+    title: "25% de entrada + 9× sem juros",
+    desc: "Reserve com 25% de entrada e parcele o saldo em até 9 vezes sem juros no cartão de crédito. Tudo incluso, sem letras miúdas: voos, hotéis, traslados, visitas e refeições previstas.",
   },
 ];
+
+
 
 const HOW = [
   {
