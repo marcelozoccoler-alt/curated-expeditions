@@ -490,6 +490,170 @@ const faqJsonLd = {
   })),
 };
 
+const MONTH_FILTERS = (() => {
+  const seen = new Map<string, { key: string; label: string; count: number; sortKey: number }>();
+  for (const d of DEPARTURES) {
+    const existing = seen.get(d.monthKey);
+    if (existing) {
+      existing.count += 1;
+    } else {
+      const date = d.departureDate;
+      const label = `${MONTH_LABELS_PT[date.getMonth()]}/${String(date.getFullYear()).slice(-2)}`;
+      seen.set(d.monthKey, {
+        key: d.monthKey,
+        label,
+        count: 1,
+        sortKey: date.getFullYear() * 12 + date.getMonth(),
+      });
+    }
+  }
+  return Array.from(seen.values()).sort((a, b) => a.sortKey - b.sortKey);
+})();
+
+const DeparturesCatalog = () => {
+  const [activeMonth, setActiveMonth] = useState<string>("all");
+
+  const filtered = useMemo(
+    () => (activeMonth === "all" ? DEPARTURES : DEPARTURES.filter((d) => d.monthKey === activeMonth)),
+    [activeMonth],
+  );
+
+  return (
+    <section id="saidas" className="section-padding bg-muted">
+      <div className="container-editorial">
+        <div className="text-center mb-10 max-w-2xl mx-auto">
+          <p className="text-caption text-gold mb-4 tracking-[0.3em]">
+            CARDÁPIO DE SAÍDAS · ORDEM CRONOLÓGICA
+          </p>
+          <h2 className="heading-section text-foreground mb-4">
+            Grupos com Guia Brasileiro
+          </h2>
+          <p className="text-lg text-muted-foreground font-light">
+            {DEPARTURES.length} saídas confirmadas em ordem de embarque. Entrada de 25% e saldo em até 9 parcelas sem juros no cartão de crédito.
+          </p>
+        </div>
+
+        {/* Filtro visual cronológico */}
+        <div className="mb-10">
+          <div className="flex items-center justify-center gap-2 mb-4 text-xs uppercase tracking-[0.2em] text-muted-foreground">
+            <Calendar size={14} className="text-gold" />
+            <span>Filtre por mês de embarque</span>
+          </div>
+          <div className="flex flex-wrap justify-center gap-2">
+            <button
+              type="button"
+              onClick={() => setActiveMonth("all")}
+              className={`px-4 py-2 rounded-full text-sm font-medium border transition-all ${
+                activeMonth === "all"
+                  ? "bg-navy text-white border-navy shadow-elegant"
+                  : "bg-card text-foreground border-border hover:border-gold"
+              }`}
+            >
+              Todas <span className="ml-1 opacity-70">({DEPARTURES.length})</span>
+            </button>
+            {MONTH_FILTERS.map((m) => (
+              <button
+                key={m.key}
+                type="button"
+                onClick={() => setActiveMonth(m.key)}
+                className={`px-4 py-2 rounded-full text-sm font-medium border transition-all capitalize ${
+                  activeMonth === m.key
+                    ? "bg-gold text-navy border-gold shadow-elegant"
+                    : "bg-card text-foreground border-border hover:border-gold"
+                }`}
+              >
+                {m.label} <span className="ml-1 opacity-70">({m.count})</span>
+              </button>
+            ))}
+          </div>
+        </div>
+
+        {/* Linha do tempo cronológica */}
+        <ol className="grid md:grid-cols-2 gap-6">
+          {filtered.map((d, i) => {
+            const dayPart = String(d.departureDate.getDate()).padStart(2, "0");
+            const monthShort = MONTH_LABELS_PT[d.departureDate.getMonth()];
+            return (
+              <motion.li
+                key={d.href}
+                initial={{ opacity: 0, y: 16 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true }}
+                transition={{ delay: Math.min(i * 0.04, 0.3) }}
+              >
+                <Link
+                  to={d.href}
+                  className="group block bg-card border border-border rounded-xl overflow-hidden shadow-card hover:border-gold hover:shadow-xl transition-all h-full"
+                >
+                  <div className="relative h-56 overflow-hidden">
+                    <img
+                      src={d.img}
+                      alt={d.title}
+                      className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700"
+                      loading="lazy"
+                    />
+                    <div className="absolute top-4 left-4 bg-emerald/95 text-white text-xs font-semibold uppercase tracking-wider px-3 py-1.5 rounded-full">
+                      {d.status}
+                    </div>
+                    {/* Date stamp */}
+                    <div className="absolute top-4 right-4 bg-white/95 text-navy rounded-lg px-3 py-2 text-center shadow-elegant min-w-[64px]">
+                      <div className="text-[10px] uppercase tracking-wider text-gold font-semibold">
+                        {monthShort}/{String(d.departureDate.getFullYear()).slice(-2)}
+                      </div>
+                      <div className="font-serif text-2xl font-bold leading-none mt-0.5">
+                        {dayPart}
+                      </div>
+                    </div>
+                  </div>
+                  <div className="p-6">
+                    <div className="flex items-center gap-2 text-gold text-xs uppercase tracking-wider font-semibold mb-3">
+                      <Calendar size={14} /> {d.tag}
+                    </div>
+                    <h3 className="font-serif text-2xl font-semibold text-foreground mb-2 group-hover:text-gold transition-colors">
+                      {d.title}
+                    </h3>
+                    <p className="flex items-start gap-2 text-sm text-muted-foreground mb-3">
+                      <MapPin size={14} className="text-gold mt-0.5 flex-shrink-0" />
+                      <span>{d.subtitle}</span>
+                    </p>
+                    <p className="text-[15px] text-muted-foreground leading-relaxed mb-4">
+                      {d.desc}
+                    </p>
+                    <p className="text-sm font-semibold text-foreground mb-4">
+                      {d.fromPrice}
+                    </p>
+                    <span className="inline-flex items-center gap-2 text-sm font-medium text-gold group-hover:gap-3 transition-all">
+                      Ver detalhes da saída
+                      <ArrowRight size={16} />
+                    </span>
+                  </div>
+                </Link>
+              </motion.li>
+            );
+          })}
+        </ol>
+
+        {filtered.length === 0 && (
+          <p className="text-center text-muted-foreground py-10">
+            Nenhuma saída neste mês. Selecione outro período.
+          </p>
+        )}
+
+        <div className="text-center mt-12">
+          <p className="text-muted-foreground mb-4">
+            Quer ser avisado(a) das próximas saídas em primeira mão?
+          </p>
+          <WhatsAppButton
+            variant="cta"
+            label="Quero receber as próximas saídas"
+            params={{ type: "Roteiro", name: "Quero receber as próximas saídas em grupo com guia brasileiro" }}
+          />
+        </div>
+      </div>
+    </section>
+  );
+};
+
 const EmbarqueComACreate = () => {
   return (
     <div className="min-h-screen">
