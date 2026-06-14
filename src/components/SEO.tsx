@@ -53,8 +53,8 @@ export const SEO = ({
 
   return (
     <Helmet>
-      <title>{title}</title>
-      <meta name="description" content={description} />
+      <title>{safeTitle}</title>
+      <meta name="description" content={safeDescription} />
       {keywords && <meta name="keywords" content={keywords} />}
       <meta name="robots" content={robots} />
       <link rel="canonical" href={canonical} />
@@ -62,16 +62,16 @@ export const SEO = ({
       {next && <link rel="next" href={next} />}
 
       {/* Open Graph */}
-      <meta property="og:title" content={title} />
-      <meta property="og:description" content={description} />
+      <meta property="og:title" content={safeTitle} />
+      <meta property="og:description" content={safeDescription} />
       <meta property="og:url" content={canonical} />
       <meta property="og:type" content={ogType} />
       {ogImage && <meta property="og:image" content={ogImage} />}
 
       {/* Twitter */}
       <meta name="twitter:card" content="summary_large_image" />
-      <meta name="twitter:title" content={title} />
-      <meta name="twitter:description" content={description} />
+      <meta name="twitter:title" content={safeTitle} />
+      <meta name="twitter:description" content={safeDescription} />
       {ogImage && <meta name="twitter:image" content={ogImage} />}
 
       {ldArray.map((ld, i) => (
