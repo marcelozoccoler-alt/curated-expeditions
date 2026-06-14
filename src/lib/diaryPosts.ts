@@ -1505,6 +1505,105 @@ export const diaryPosts: DiaryPost[] = [
     category: "Destino",
     whatsappName: "Roteiro Monte Roraima",
   },
+  {
+    slug: "safari-africa-do-sul-kruger-vs-reservas-privadas",
+    title: "Safari África do Sul: Kruger ou Reservas Privadas (Sabi Sands, Madikwe)?",
+    h1: "Safari na África do Sul: Kruger vs Sabi Sands e Madikwe — qual escolher",
+    metaDescription:
+      "Comparativo autoral entre Parque Kruger e reservas privadas (Sabi Sands, Madikwe, Timbavati): preços, experiência, fauna e qual escolher para seu safári na África do Sul.",
+    keywords:
+      "safari africa do sul, safari kruger, sabi sands, madikwe, reservas privadas africa do sul, kruger ou sabi sands",
+    intro:
+      "Fazer safari na África do Sul é uma das experiências mais transformadoras que uma viagem oferece — mas a primeira decisão é também a mais determinante: ir ao Parque Nacional Kruger ou entrar em uma reserva privada como Sabi Sands, Madikwe ou Timbavati? São dois universos diferentes, com preços, ritmo, fauna e atmosfera distintos. Este guia é o comparativo honesto que usamos com nossos viajantes.",
+    sections: [
+      {
+        heading: "Parque Kruger: a grande clássica sul-africana",
+        paragraphs: [
+          "O Kruger é um dos maiores parques nacionais do mundo: 19.485 km², do tamanho de Israel. Foi criado em 1898 e abriga os Big Five (leão, leopardo, elefante, rinoceronte e búfalo) em densidades altas, além de mais de 500 espécies de aves.",
+          "É um parque público — você pode entrar de carro alugado, dirigir por estradas asfaltadas e dormir em rest camps administrados pelo governo (SANParks). Existem também lodges privados dentro do parque, com game drives operados por guias.",
+          "Pontos fortes: escala épica, custo mais acessível, autonomia de horários e a sensação de estar em um parque-mito. Pontos fracos: você não pode sair da estrada (off-road é proibido), não há game drives noturnos para o público geral e o avistamento depende de sorte e tráfego de carros.",
+        ],
+      },
+      {
+        heading: "Sabi Sands: a reserva privada mais famosa do planeta",
+        paragraphs: [
+          "Sabi Sands faz fronteira direta com o Kruger — não há cerca entre os dois, então a fauna circula livremente. A diferença é jurídica: é uma reserva privada, com lodges-boutique de altíssimo padrão e regras próprias.",
+          "Aqui os guias podem sair da estrada, perseguir um leopardo dentro da mata fechada, fazer game drives noturnos com holofote e levar no máximo 6 hóspedes por veículo. Sabi Sands é mundialmente reconhecida como o melhor lugar do planeta para fotografar leopardos — eles estão habituados aos veículos e permitem aproximações impensáveis em qualquer outro lugar.",
+          "Lodges como Singita, Londolozi, Lion Sands, Sabi Sabi e Mala Mala são referência absoluta em safari de luxo. O preço reflete: diárias geralmente entre USD 1.500 e USD 4.500 por pessoa, com pensão completa, bebidas, dois game drives diários e guia privativo em alguns casos.",
+        ],
+      },
+      {
+        heading: "Madikwe: a reserva sem malária, ideal para famílias",
+        paragraphs: [
+          "Madikwe fica no noroeste da África do Sul, fronteira com Botsuana, em zona livre de malária — fator decisivo para famílias com crianças pequenas e viajantes que querem evitar profilaxia.",
+          "É uma reserva grande (750 km²), com Big Five e uma das melhores populações de cães-selvagens-africanos do continente — uma espécie raríssima e fascinante de observar em caçada. Lodges como Tswalu (próxima, no Kalahari), Royal Madikwe, Jamala e Molori oferecem experiência de altíssimo nível com preços geralmente 20-30% abaixo de Sabi Sands.",
+          "O perfil é mais íntimo, com menos veículos por avistamento. Ideal para quem busca exclusividade absoluta sem o nome de marquise de Sabi Sands.",
+        ],
+      },
+      {
+        heading: "Timbavati e Klaserie: o coração da Greater Kruger",
+        paragraphs: [
+          "Assim como Sabi Sands, Timbavati e Klaserie fazem parte do ecossistema Greater Kruger, sem cercas. Timbavati é famosa por seus leões brancos — uma variação genética rara que aparece naturalmente na região.",
+          "Os lodges costumam ser um degrau abaixo de Sabi Sands em preço (USD 800-1.800 por pessoa) e oferecem a mesma liberdade de off-road e game drive noturno. Tanda Tula, Kings Camp e Ngala são referências.",
+        ],
+      },
+      {
+        heading: "Comparativo direto: qual escolher?",
+        paragraphs: [
+          "Escolha Kruger se: orçamento mais enxuto (a partir de USD 200/dia em rest camps), gosta de autonomia, topa dirigir e quer a sensação de aventura em um parque clássico. Bom para quem já fez safari antes e quer outra perspectiva.",
+          "Escolha Sabi Sands se: é seu primeiro safari, busca o melhor avistamento de leopardo do mundo, quer luxo absoluto e fotografia próxima. Investimento mais alto, mas a curva de experiência é incomparável.",
+          "Escolha Madikwe se: viaja com crianças, quer evitar malária, busca cães-selvagens e prefere ambiente mais íntimo e exclusivo, com preço mais racional que Sabi Sands.",
+          "Escolha Timbavati se: quer experiência de reserva privada com off-road e game drive noturno, mas com orçamento um pouco mais flexível que Sabi Sands.",
+        ],
+      },
+      {
+        heading: "Quando ir: melhor época para safari na África do Sul",
+        paragraphs: [
+          "Maio a setembro é a estação seca — vegetação rala, animais concentrados em pontos de água e visibilidade máxima. É o pico do safari, e também o período mais frio (manhãs entre 5 e 10°C nos game drives).",
+          "Outubro e novembro são meses de transição, ainda excelentes para avistamento e com clima mais ameno. Dezembro a março é estação chuvosa: paisagem verde-luminescente, filhotes nascendo, aves migratórias — mas vegetação densa dificulta avistamento.",
+        ],
+      },
+      {
+        heading: "Como combinamos isso em um roteiro autoral",
+        paragraphs: [
+          "Nossa proposta clássica para primeira viagem combina 3 a 4 noites em reserva privada (Sabi Sands ou Madikwe) com Cape Town e a Rota dos Jardins — totalizando 12 a 14 dias. Para viajantes que querem aprofundar, montamos extensões para Cataratas Vitória, Botsuana (Delta do Okavango) ou Moçambique (Bazaruto).",
+          "A logística usa voos internos pequenos (Federal Air, Airlink) ligando Joanesburgo aos lodges diretamente — uma única viagem operada com transferências, voos charter, lodges selecionados e guia falando português quando disponível.",
+        ],
+      },
+    ],
+    faq: [
+      {
+        q: "Qual é a diferença prática entre Kruger e Sabi Sands?",
+        a: "Kruger é parque público (você dirige, dorme em camp e segue estradas asfaltadas). Sabi Sands é reserva privada anexa, sem cerca entre as duas, onde guias podem fazer off-road, game drive noturno e levar no máximo 6 pessoas por veículo. A fauna circula entre as duas áreas.",
+      },
+      {
+        q: "Madikwe vale a pena para quem viaja com crianças?",
+        a: "Sim. É zona livre de malária e vários lodges aceitam crianças a partir de 6 anos, com programas dedicados. É a melhor escolha para safári em família na África do Sul.",
+      },
+      {
+        q: "Quantos dias de safari são ideais?",
+        a: "Mínimo 3 noites em uma reserva (você faz 6 game drives, suficiente para ver os Big Five com calma). Ideal 4 noites — ou combinar 2 reservas diferentes em 5-6 noites para variar o ecossistema.",
+      },
+      {
+        q: "Brasileiros precisam de visto para a África do Sul?",
+        a: "Não, brasileiros têm isenção de visto por até 90 dias. Passaporte com validade mínima de 30 dias após o retorno e 2 páginas em branco.",
+      },
+      {
+        q: "Quanto custa um safari de luxo em Sabi Sands?",
+        a: "Diárias variam de USD 1.500 a USD 4.500 por pessoa, com pensão completa, bebidas, dois game drives diários e guia. O ticket médio inclui também voos internos charter e transferências.",
+      },
+    ],
+    relatedDestinations: [
+      { label: "Destinos na África", href: "/destinos?c=africa" },
+      { label: "Experiência: Safári & vida selvagem", href: "/experiencias/safari" },
+    ],
+    imageAiPrompt:
+      "Editorial wide shot of an African leopard resting on a marula tree branch at golden hour in Sabi Sands South Africa, dramatic warm light, cinematic shallow depth of field, painterly, no people, ultra high detail",
+    publishedAt: "2026-06-14",
+    readingMinutes: 8,
+    category: "Destino",
+    whatsappName: "Safari África do Sul",
+  },
 ];
 
 export const getDiaryPost = (slug: string): DiaryPost | undefined =>
