@@ -47,6 +47,7 @@ import grupoPortugalAldeiasImg from "@/assets/grupo-portugal-aldeias-2026.jpg";
 import grupoSulItaliaOutubroImg from "@/assets/grupo-sul-italia-outubro-2026.jpg";
 import grupoChinaImg from "@/assets/grupo-china-2026.jpg";
 import grupoSuicaNorteItaliaImg from "@/assets/grupo-suica-norte-italia-2026.jpg";
+import grupoPortugalNorteSulImg from "@/assets/grupo-portugal-norte-sul-2026.jpg";
 
 const DEPARTURES = [
   {
@@ -317,6 +318,16 @@ const DEPARTURES = [
     subtitle: "Zurique · Lucerna · Titlis · Jungfrau · Glacier Express · Como · Cinque Terre · Piemonte · Milão",
     desc: "Alpes dourados, Lindt em Zurique, Glacier Express até St. Moritz, Lago de Como, Riviera Italiana, vinhos do Piemonte e Milão. Voos TAP Air Portugal e guia desde o Brasil.",
     fromPrice: "A partir de € 6.498 por pessoa (apto duplo)",
+    status: "Saída confirmada",
+  },
+  {
+    href: "/grupos/portugal-norte-sul-2026",
+    img: grupoPortugalNorteSulImg,
+    tag: "28/09 a 11/10/2026 · 14 dias",
+    title: "Portugal de Norte a Sul · Outono",
+    subtitle: "Porto · Aveiro · Braga · Douro · Serra da Estrela · Fátima · Óbidos · Lisboa · Sintra · Évora · Algarve",
+    desc: "Do Porto ao Algarve no auge do outono: cruzeiro no Douro, queijos da Serra, ginjinha em Óbidos, palácios de Sintra, Évora e praias douradas. Voos Iberia e guia desde o Brasil.",
+    fromPrice: "A partir de € 4.498 por pessoa (apto duplo)",
     status: "Saída confirmada",
   },
 ];
