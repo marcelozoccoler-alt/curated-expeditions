@@ -1604,6 +1604,114 @@ export const diaryPosts: DiaryPost[] = [
     category: "Destino",
     whatsappName: "Safari África do Sul",
   },
+  {
+    slug: "viajar-sozinha-aos-50-em-grupo-com-guia-brasileiro",
+    title: "Viajar sozinha aos 50+: por que ir em grupo com guia brasileiro muda tudo",
+    h1: "Viajar sozinha aos 50+: a liberdade de ir só, com a segurança de estar acompanhada",
+    metaDescription:
+      "Guia honesto para mulheres 50+ que querem viajar sozinhas mas têm medo: como funciona um grupo com guia brasileiro saindo de Guarulhos, sem solidão e sem turma de 200 pessoas.",
+    keywords:
+      "viajar sozinha, viagem em grupo, mulher 50 anos viajar, viagem em grupo com guia brasileiro, viajar sozinha aos 50, grupo saindo de guarulhos",
+    intro:
+      "Você quer viajar. Quer conhecer Patagônia, Grécia, Tailândia, Croácia. Mas o marido não quer, a amiga desistiu, os filhos têm a vida deles — e a ideia de pegar um voo internacional sozinha aperta o peito. Esse texto é para você. Não é sobre ser corajosa. É sobre descobrir que existe uma terceira via entre 'viajar sozinha de verdade' e 'desistir da viagem' — uma forma em que você vai só, mas nunca está sozinha.",
+    sections: [
+      {
+        heading: "A dor que ninguém nomeia no setor de viagens",
+        paragraphs: [
+          "O Google registra mil mulheres por mês buscando 'viajar sozinha' no Brasil — boa parte delas acima dos 50 anos. Elas têm tempo, têm condição financeira, têm desejo. Mas têm também medo de aeroporto internacional, medo de jantar sozinha no exterior, medo de não saber a língua, medo de adoecer longe e não ter ninguém. Esse medo não é exagero. É legítimo.",
+          "O setor responde com dois extremos: ou pacotes individuais (você se vira sozinha do check-in ao retorno) ou excursões enormes, onde você é um número entre 200 pessoas, com guia que mal lembra seu nome. Falta uma opção no meio.",
+        ],
+      },
+      {
+        heading: "A terceira via: grupo com guia brasileiro saindo de Guarulhos",
+        paragraphs: [
+          "Existe uma forma de viajar em que você embarca em Guarulhos e, do momento do check-in até o desembarque de volta, está acompanhada por um guia brasileiro que fala sua língua, conhece seus medos e cuida da logística inteira. Você dorme no quarto que escolher (individual ou compartilhado), janta com quem quiser jantar e tem tempo livre todos os dias — sem se sentir presa nem perdida.",
+          "É o que oferecemos nos Grupos Create Travel: viagens com até 40 pessoas, sempre com guia brasileiro embarcando junto em Guarulhos, roteiros autorais que furam o circuito de massa, e horários que respeitam o ritmo de quem viaja para viver, não para correr.",
+        ],
+      },
+      {
+        heading: "Solo supplement: a taxa silenciosa que muda o jogo",
+        paragraphs: [
+          "Quase ninguém fala sobre isso publicamente, mas é o grande motivo pelo qual mulheres sozinhas pagam mais caro: o 'solo supplement' — taxa de quarto individual cobrada pela hotelaria internacional, que pode chegar a 30-50% do valor da viagem. É a punição financeira por não ter um par.",
+          "Em grupos curados, há duas saídas honestas. Primeira: combinar quarto compartilhado com outra viajante solo do grupo (conhecemos perfis antes, ninguém divide quarto às cegas). Segunda: assumir o quarto individual com transparência, sabendo o valor exato antes — sem surpresa. Tratamos isso abertamente desde a primeira conversa.",
+        ],
+      },
+      {
+        heading: "Comparativo honesto: cruzeiro, excursão tradicional e grupo curado",
+        paragraphs: [
+          "Cruzeiro: ótimo se você quer várias cidades em um único pacote, mas você dorme no navio, não na cidade. A experiência cultural é superficial — 6 horas por porto, voltando para janta a bordo. Bom para primeira viagem internacional, limitado para quem quer profundidade.",
+          "Excursão tradicional (CVC, Schultz, Queensberry): ônibus grandes, 40 a 50 pessoas, roteiros padronizados de circuito clássico, hotéis 3-4 estrelas funcionais, agenda apertada. Funciona para quem quer ver muito em pouco tempo e tem orçamento mais enxuto.",
+          "Grupo curado autoral (nosso modelo): grupos de até 40 pessoas, sempre com guia brasileiro desde Guarulhos, hotéis selecionados por charme e localização (não só estrela), roteiros que incluem experiências fora do circuito de ônibus (jantares com chefs locais, vinícolas pequenas, ateliês), e tempo livre real. Para quem entende que viajar é vivência, não checklist.",
+          "Para quem busca exclusividade ainda maior, oferecemos o programa 'Crie seu Grupo': formato personalizado com menos de 20 pessoas, datas e roteiro desenhados sob medida — ideal para grupos de amigas, famílias estendidas ou clubes que querem viajar juntos com privacidade.",
+        ],
+      },
+      {
+        heading: "O perfil real de quem viaja conosco em grupo",
+        paragraphs: [
+          "A maior parte dos nossos viajantes em grupo está entre 50 e 75 anos. Muitas são mulheres viajando sozinhas — viúvas, divorciadas, solteiras por escolha, ou casadas com cônjuges que não compartilham a paixão por viagem. Outras são duplas de amigas, mães e filhas adultas, irmãs.",
+          "São pessoas que valorizam conversa boa no jantar, vinho com calma, não topam acordar 5h da manhã todo dia, querem entender a cultura local em vez de só fotografar pontos turísticos. Isso muda completamente quem você encontra no grupo — e por que nossos viajantes voltam, viagem após viagem.",
+        ],
+      },
+      {
+        heading: "Medos comuns — e o que respondemos com honestidade",
+        paragraphs: [
+          "'E se eu não me der com o grupo?' — Os jantares são em grupo, mas você não é obrigada a sentar com ninguém específico, e tem várias horas livres por dia. Ninguém fica isolada porque o guia conhece todo mundo e faz pontes naturais nos primeiros dois dias.",
+          "'E se eu adoecer durante a viagem?' — Todos os roteiros incluem seguro-viagem robusto (cobertura mínima de USD 60 mil), guia 24h e parceria com hotéis que já sabem acionar atendimento médico para grupos. Quem viaja conosco aos 70+ viaja tranquila porque o sistema está montado.",
+          "'E o ritmo? Vou conseguir acompanhar?' — Nossos roteiros 50+ têm caminhadas opcionais, sempre com alternativa de transporte. Indicamos o nível físico de cada dia com transparência no documento de viagem. Ninguém é deixada para trás.",
+        ],
+      },
+      {
+        heading: "Por que sair de Guarulhos com guia brasileiro muda tudo",
+        paragraphs: [
+          "Guarulhos é o principal aeroporto internacional do Brasil — e também onde a maior parte da ansiedade aparece. Conexões, despacho de bagagem, imigração no destino, primeiro táxi em país estrangeiro. Quando o guia embarca junto, em GRU, tudo isso vira problema dele, não seu.",
+          "Você só precisa chegar no portão, identificar o guia, e a partir dali está em fluxo até o desembarque de volta. Para mulheres que estão fazendo a primeira viagem internacional sozinhas, ou retomando viagens depois de uma transição de vida, esse detalhe é o que destrava a decisão.",
+        ],
+      },
+      {
+        heading: "Destinos que mais recebem mulheres 50+ viajando sozinhas",
+        paragraphs: [
+          "Itália (Toscana, Sicília, Sul), Grécia (Atenas, Santorini, Cíclades), Portugal (Lisboa, Douro), Croácia e Eslovênia, França (Provença, Paris), Tailândia, Japão, Patagônia (chilena e argentina), Marrocos e Equador-Galápagos são os destinos onde mais recebemos mulheres viajando sozinhas em grupo.",
+          "Cada um tem temperamento próprio. Itália e Portugal são os mais acolhedores para primeira viagem internacional solo. Tailândia e Marrocos pedem grupo bem amarrado para fluir sem desgaste. Patagônia é para quem quer paisagem épica com ritmo cuidado. Conversamos isso na curadoria antes de você decidir.",
+        ],
+      },
+    ],
+    faq: [
+      {
+        q: "Qual o tamanho médio dos grupos da Create Travel?",
+        a: "Nossos grupos abertos vão até 40 pessoas, sempre com guia brasileiro embarcando junto em Guarulhos. Para quem busca mais privacidade, o programa 'Crie seu Grupo' opera com menos de 20 pessoas em formato personalizado.",
+      },
+      {
+        q: "Posso ir sozinha mesmo sem conhecer ninguém do grupo?",
+        a: "Sim, é o caso da maior parte das nossas viajantes. Fazemos conexão prévia com o grupo via WhatsApp antes do embarque, e o guia é o ponto de referência desde o aeroporto. Você embarca conhecendo nomes e voltando com amizades.",
+      },
+      {
+        q: "Como funciona o quarto individual? Tem taxa extra?",
+        a: "Sim, hotéis internacionais cobram suplemento para quarto individual (entre 30% e 50% do valor da hospedagem). Mostramos o valor com transparência no orçamento. A outra opção é dividir quarto com outra viajante solo do grupo — fazemos a combinação com perfil afim, nunca às cegas.",
+      },
+      {
+        q: "E se eu não falar inglês?",
+        a: "Não precisa. O guia brasileiro acompanha todas as interações — check-in de hotel, restaurantes, ingressos, museus, transferências. Você só precisa do português.",
+      },
+      {
+        q: "Qual o perfil de idade dos grupos?",
+        a: "A maior parte dos nossos viajantes está entre 50 e 75 anos. Recebemos muitas mulheres viajando sozinhas, duplas de amigas, mães e filhas, e casais maduros. O ritmo dos roteiros respeita esse perfil.",
+      },
+      {
+        q: "É seguro para mulher viajar sozinha em grupo?",
+        a: "Sim. Trabalhamos com hotéis em regiões seguras, transferências privativas grupo a grupo, guia 24h em WhatsApp e seguro-viagem com cobertura mínima de USD 60 mil. Mulheres viajando sozinhas representam a maior parte do nosso público de grupos.",
+      },
+    ],
+    relatedDestinations: [
+      { label: "Próximas saídas em grupo com guia brasileiro", href: "/embarque-com-a-create" },
+      { label: "Crie seu próprio grupo", href: "/crie-seu-grupo" },
+    ],
+    imageAiPrompt:
+      "Editorial wide shot of a small group of stylish mature women, ages 55-70, walking through a sunlit Mediterranean coastal village in golden hour, viewed from behind so faces are not identifiable, linen outfits, warm painterly light, cinematic, no logos, ultra detailed",
+    publishedAt: "2026-06-14",
+    readingMinutes: 9,
+    category: "Curiosidades",
+    whatsappName: "Viagem em grupo 50+",
+  },
 ];
 
 export const getDiaryPost = (slug: string): DiaryPost | undefined =>
