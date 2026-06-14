@@ -178,7 +178,7 @@ const RAW_DEPARTURES = [
     tag: "18 a 26/11/2026 · 9 dias",
     title: "Marrocos Imperial",
     subtitle: "Rabat · Chefchaouen · Fez · Saara · Marrakech",
-    desc: "Cidades imperiais, a cidade azul e uma noite nas dunas de Erg Chebbi. Grupo pequeno com curadoria Create Travel.",
+    desc: "Cidades imperiais, a cidade azul e uma noite nas dunas de Erg Chebbi. Curadoria autoral Create Travel com guia desde o Brasil.",
     fromPrice: "A partir de R$ 18.295 por pessoa (apto duplo)",
     status: "Vagas limitadas",
   },
