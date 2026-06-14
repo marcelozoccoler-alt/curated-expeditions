@@ -185,8 +185,8 @@ const Sobre = () => {
   return (
     <div className="min-h-screen flex flex-col">
       <SEO
-        title="Sobre a Create Travel — Consultoria autoral de viagens com propósito"
-        description="Curadoria de viagens internacionais, incoming Brasil e turismo de conservação. Conheça a filosofia, os pilares e o método Create Travel."
+        title="Sobre a Create Travel — Viagens autorais com propósito"
+        description="Curadoria de viagens internacionais, incoming Brasil e turismo de conservação. Conheça a filosofia e o método Create Travel."
         canonicalPath="/sobre"
         jsonLd={[orgLd, faqLd]}
       />
