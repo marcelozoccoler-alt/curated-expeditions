@@ -1702,7 +1702,7 @@ export const diaryPosts: DiaryPost[] = [
       },
     ],
     relatedDestinations: [
-      { label: "Próximas saídas em grupo", href: "/grupos" },
+      { label: "Próximas saídas em grupo com guia brasileiro", href: "/embarque-com-a-create" },
       { label: "Crie seu próprio grupo", href: "/crie-seu-grupo" },
     ],
     imageAiPrompt:
