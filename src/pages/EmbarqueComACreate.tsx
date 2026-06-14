@@ -45,6 +45,7 @@ import grupoBalcasAutenticosImg from "@/assets/grupo-balcas-autenticos-2026.jpg"
 import grupoAfricaDoSulOutubroImg from "@/assets/grupo-africa-do-sul-outubro-2026.jpg";
 import grupoPortugalAldeiasImg from "@/assets/grupo-portugal-aldeias-2026.jpg";
 import grupoSulItaliaOutubroImg from "@/assets/grupo-sul-italia-outubro-2026.jpg";
+import grupoChinaImg from "@/assets/grupo-china-2026.jpg";
 
 const DEPARTURES = [
   {
@@ -295,6 +296,16 @@ const DEPARTURES = [
     subtitle: "Sorrento · Positano · Amalfi · Pompeia · Matera · Alberobello · Bari · Polignano · Lecce · Otranto · Santa Maria di Leuca",
     desc: "Outono italiano: Costa Amalfitana, Sassi de Matera, trulli da Puglia e o encontro do Adriático com o Jônico em Santa Maria di Leuca. Voos ITA Airways e guia desde o Brasil.",
     fromPrice: "A partir de € 4.757 por pessoa (apto duplo)",
+    status: "Saída confirmada",
+  },
+  {
+    href: "/grupos/china-2026",
+    img: grupoChinaImg,
+    tag: "08 a 21/10/2026 · 14 dias",
+    title: "China Dourada · Outono",
+    subtitle: "Beijing · Grande Muralha · Xi'an · Zhangjiajie · Shanghai",
+    desc: "Cidade Proibida, Grande Muralha, Guerreiros de Terracota, Zhangjiajie (cenário de Avatar) e Shanghai futurista. Voos Ethiopian Airlines e guia desde o Brasil.",
+    fromPrice: "A partir de US$ 5.998 por pessoa (apto duplo)",
     status: "Saída confirmada",
   },
 ];
