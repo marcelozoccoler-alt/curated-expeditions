@@ -16,7 +16,7 @@ import { SEO } from "@/components/SEO";
 import { FAQSection } from "@/components/FAQSection";
 import { CONTACT, generateWhatsAppLink } from "@/lib/types";
 import heroImg from "@/assets/grupo-portugal-norte-sul-2026.jpg";
-import { getHotelUrl } from "@/lib/groupHotels";
+import { getHotelUrl, buildHotelsJsonLd, buildHotelsFAQs, buildHotelsKeywords } from "@/lib/groupHotels";
 
 const whatsappParams = {
   type: "Roteiro" as const,
@@ -217,6 +217,16 @@ const faqs = [
   },
 ];
 
+const hotelsForSeo = [{ city: "Porto", hotel: "Fénix Porto ou Ipanema" },
+              { city: "Régua", hotel: "Régua Douro" },
+              { city: "Covilhã", hotel: "Puralã Wool Valley" },
+              { city: "Fátima", hotel: "Estrela de Fátima" },
+              { city: "Lisboa", hotel: "Vip Arts" },
+              { city: "Évora", hotel: "Évora Hotel" }];
+const hotelsSeoJsonLd = buildHotelsJsonLd(hotelsForSeo, "Grupo Portugal de Norte a Sul · Outono 2026 — Create Travel", "/grupos/portugal-norte-sul-2026");
+const hotelsSeoFaqs = buildHotelsFAQs(hotelsForSeo, "Grupo Portugal de Norte a Sul · Outono 2026 — Create Travel", "/grupos/portugal-norte-sul-2026");
+const hotelsSeoKeywords = buildHotelsKeywords(hotelsForSeo);
+
 const jsonLd = {
   "@context": "https://schema.org",
   "@type": "TouristTrip",
@@ -255,8 +265,8 @@ const GrupoPortugalNorteSul2026 = () => {
         canonicalPath="/grupos/portugal-norte-sul-2026"
         ogImage={heroImg}
         ogType="article"
-        jsonLd={jsonLd}
-        keywords="viagem em grupo Portugal 2026, Vale do Douro outono, Porto Lisboa Algarve, Serra da Estrela queijos, Fátima Óbidos, Create Travel Iberia"
+        jsonLd={[jsonLd, ...hotelsSeoJsonLd]}
+        keywords={`viagem em grupo Portugal 2026, Vale do Douro outono, Porto Lisboa Algarve, Serra da Estrela queijos, Fátima Óbidos, Create Travel Iberia, ${hotelsSeoKeywords}`}
       />
       <Header />
       <WhatsAppButton variant="float" params={whatsappParams} />
@@ -556,7 +566,7 @@ const GrupoPortugalNorteSul2026 = () => {
         </div>
       </section>
 
-      <FAQSection faqs={faqs} />
+      <FAQSection faqs={[...faqs, ...hotelsSeoFaqs]} />
 
       <Footer />
     </div>

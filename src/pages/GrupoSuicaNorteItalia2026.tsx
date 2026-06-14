@@ -16,7 +16,7 @@ import { SEO } from "@/components/SEO";
 import { FAQSection } from "@/components/FAQSection";
 import { CONTACT, generateWhatsAppLink } from "@/lib/types";
 import heroImg from "@/assets/grupo-suica-norte-italia-2026.jpg";
-import { getHotelUrl } from "@/lib/groupHotels";
+import { getHotelUrl, buildHotelsJsonLd, buildHotelsFAQs, buildHotelsKeywords } from "@/lib/groupHotels";
 
 const whatsappParams = {
   type: "Roteiro" as const,
@@ -211,6 +211,16 @@ const faqs = [
   },
 ];
 
+const hotelsForSeo = [{ city: "Zurique", hotel: "Mercure Zurich City" },
+              { city: "Lucerna", hotel: "Gran Europe" },
+              { city: "Interlaken", hotel: "The Hey" },
+              { city: "St. Moritz", hotel: "Europa St. Moritz" },
+              { city: "Gênova", hotel: "AC Genova Centro" },
+              { city: "Milão", hotel: "Duo Milano Porta Nuova" }];
+const hotelsSeoJsonLd = buildHotelsJsonLd(hotelsForSeo, "Grupo Suíça & Norte da Itália · Outono 2026 — Create Travel", "/grupos/suica-norte-italia-2026");
+const hotelsSeoFaqs = buildHotelsFAQs(hotelsForSeo, "Grupo Suíça & Norte da Itália · Outono 2026 — Create Travel", "/grupos/suica-norte-italia-2026");
+const hotelsSeoKeywords = buildHotelsKeywords(hotelsForSeo);
+
 const jsonLd = {
   "@context": "https://schema.org",
   "@type": "TouristTrip",
@@ -249,8 +259,8 @@ const GrupoSuicaNorteItalia2026 = () => {
         canonicalPath="/grupos/suica-norte-italia-2026"
         ogImage={heroImg}
         ogType="article"
-        jsonLd={jsonLd}
-        keywords="viagem em grupo Suíça 2026, Norte da Itália outono, Glacier Express, Monte Titlis Jungfrau, Cinque Terre Portofino, Lago de Como, Create Travel TAP"
+        jsonLd={[jsonLd, ...hotelsSeoJsonLd]}
+        keywords={`viagem em grupo Suíça 2026, Norte da Itália outono, Glacier Express, Monte Titlis Jungfrau, Cinque Terre Portofino, Lago de Como, Create Travel TAP, ${hotelsSeoKeywords}`}
       />
       <Header />
       <WhatsAppButton variant="float" params={whatsappParams} />
@@ -550,7 +560,7 @@ const GrupoSuicaNorteItalia2026 = () => {
         </div>
       </section>
 
-      <FAQSection faqs={faqs} />
+      <FAQSection faqs={[...faqs, ...hotelsSeoFaqs]} />
 
       <Footer />
     </div>

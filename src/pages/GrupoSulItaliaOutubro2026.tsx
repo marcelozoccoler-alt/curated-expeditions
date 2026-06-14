@@ -16,7 +16,7 @@ import { SEO } from "@/components/SEO";
 import { FAQSection } from "@/components/FAQSection";
 import { CONTACT, generateWhatsAppLink } from "@/lib/types";
 import heroImg from "@/assets/grupo-sul-italia-outubro-2026.jpg";
-import { getHotelUrl } from "@/lib/groupHotels";
+import { getHotelUrl, buildHotelsJsonLd, buildHotelsFAQs, buildHotelsKeywords } from "@/lib/groupHotels";
 
 const whatsappParams = {
   type: "Roteiro" as const,
@@ -198,6 +198,14 @@ const faqs = [
   },
 ];
 
+const hotelsForSeo = [{ city: "Sorrento", hotel: "Grand Hotel Vesuvio" },
+              { city: "Matera", hotel: "San Domenico" },
+              { city: "Bari", hotel: "Unahotel Regina" },
+              { city: "Lecce", hotel: "Hilton Garden Inn" }];
+const hotelsSeoJsonLd = buildHotelsJsonLd(hotelsForSeo, "Grupo Sul da Itália · Outono 2026 — Create Travel", "/grupos/sul-italia-outubro-2026");
+const hotelsSeoFaqs = buildHotelsFAQs(hotelsForSeo, "Grupo Sul da Itália · Outono 2026 — Create Travel", "/grupos/sul-italia-outubro-2026");
+const hotelsSeoKeywords = buildHotelsKeywords(hotelsForSeo);
+
 const jsonLd = {
   "@context": "https://schema.org",
   "@type": "TouristTrip",
@@ -236,8 +244,8 @@ const GrupoSulItaliaOutubro2026 = () => {
         canonicalPath="/grupos/sul-italia-outubro-2026"
         ogImage={heroImg}
         ogType="article"
-        jsonLd={jsonLd}
-        keywords="viagem em grupo sul da Itália 2026, Costa Amalfitana outono, Matera Puglia, Alberobello trulli, Lecce barroco, grupo Itália com guia do Brasil, Create Travel ITA Airways"
+        jsonLd={[jsonLd, ...hotelsSeoJsonLd]}
+        keywords={`viagem em grupo sul da Itália 2026, Costa Amalfitana outono, Matera Puglia, Alberobello trulli, Lecce barroco, grupo Itália com guia do Brasil, Create Travel ITA Airways, ${hotelsSeoKeywords}`}
       />
       <Header />
       <WhatsAppButton variant="float" params={whatsappParams} />
@@ -535,7 +543,7 @@ const GrupoSulItaliaOutubro2026 = () => {
         </div>
       </section>
 
-      <FAQSection faqs={faqs} />
+      <FAQSection faqs={[...faqs, ...hotelsSeoFaqs]} />
 
       <Footer />
     </div>
