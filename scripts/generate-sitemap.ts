@@ -103,8 +103,41 @@ push("/crie-seu-grupo", 0.85, "weekly");
 push("/brasil", 0.85, "weekly");
 for (const s of brazilStates) push(`/brasil/${s.slug}`, 0.7, "monthly");
 
-// Grupos específicos
-push("/grupos/marrocos-2026", 0.8, "monthly");
+// Grupos com guia brasileiro — roteiros 2026/2027
+const GRUPOS = [
+  "africa-do-sul-2026",
+  "africa-do-sul-outubro-2026",
+  "africa-do-sul-primavera-2026",
+  "africa-do-sul-reveillon-2027",
+  "balcas-autenticos-2026",
+  "benelux-2026",
+  "chile-carretera-austral-2026",
+  "china-2026",
+  "colombia-2026",
+  "coreia-japao-2026",
+  "croacia-balcas-2026",
+  "egito-2026",
+  "equador-galapagos-2026",
+  "grecia-2026",
+  "islandia-2026",
+  "jordania-2026",
+  "marrocos-2026",
+  "mexico-2026",
+  "nepal-butao-2027",
+  "patagonia-chilena-2026",
+  "portugal-aldeias-historicas-2026",
+  "portugal-norte-sul-2026",
+  "suica-norte-italia-2026",
+  "sul-italia-2026",
+  "sul-italia-outubro-2026",
+  "tailandia-2026",
+  "turquia-2026",
+  "turquia-reveillon-2027",
+  "vietna-laos-camboja-2027",
+];
+push("/grupos", 0.9, "weekly");
+push("/embarque-com-a-create", 0.9, "weekly");
+for (const g of GRUPOS) push(`/grupos/${g}`, 0.85, "monthly");
 
 // Diário editorial
 push("/diario", 0.9, "weekly");
