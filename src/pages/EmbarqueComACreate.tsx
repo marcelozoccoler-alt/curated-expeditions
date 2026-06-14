@@ -1,3 +1,4 @@
+import { useMemo, useState } from "react";
 import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
 import {
@@ -50,7 +51,7 @@ import grupoSuicaNorteItaliaImg from "@/assets/grupo-suica-norte-italia-2026.jpg
 import grupoPortugalNorteSulImg from "@/assets/grupo-portugal-norte-sul-2026.jpg";
 import grupoChileCarreteraImg from "@/assets/grupo-chile-carretera-austral-2026.jpg";
 
-const DEPARTURES = [
+const RAW_DEPARTURES = [
   {
     href: "/grupos/jordania-2026",
     img: grupoJordaniaImg,
@@ -343,6 +344,39 @@ const DEPARTURES = [
   },
 ];
 
+// Parse departure date from tag like "07 a 15/09/2026 · 9 dias" or "29/09 a 12/10/2026 · 14 dias"
+// or "28/12/2026 a 05/01/2027 · 9 dias · Réveillon"
+function parseDepartureDate(tag: string): Date {
+  const m = tag.match(/^(\d{1,2})(?:\/(\d{1,2}))?(?:\/(\d{4}))?\s*a\s*(\d{1,2})\/(\d{1,2})\/(\d{4})/);
+  if (!m) return new Date(9999, 0, 1);
+  const day = parseInt(m[1], 10);
+  const endMonth = parseInt(m[5], 10);
+  const startMonth = m[2] ? parseInt(m[2], 10) : endMonth;
+  const endYear = parseInt(m[6], 10);
+  const startYear = m[3] ? parseInt(m[3], 10) : startMonth > endMonth ? endYear - 1 : endYear;
+  return new Date(startYear, startMonth - 1, day);
+}
+
+const MONTH_LABELS_PT = [
+  "jan", "fev", "mar", "abr", "mai", "jun",
+  "jul", "ago", "set", "out", "nov", "dez",
+];
+
+export const DEPARTURES = RAW_DEPARTURES
+  .map((d) => {
+    const date = parseDepartureDate(d.tag);
+    return {
+      ...d,
+      departureDate: date,
+      monthKey: `${date.getFullYear()}-${String(date.getMonth() + 1).padStart(2, "0")}`,
+      monthLabel: `${MONTH_LABELS_PT[date.getMonth()]}/${String(date.getFullYear()).slice(-2)}`,
+    };
+  })
+  .sort((a, b) => a.departureDate.getTime() - b.departureDate.getTime());
+
+export type Departure = typeof DEPARTURES[number];
+
+
 const BENEFITS = [
   {
     icon: Plane,
@@ -356,8 +390,8 @@ const BENEFITS = [
   },
   {
     icon: Users,
-    title: "Grupos pequenos e selecionados",
-    desc: "Saídas com número limitado de viajantes, perfil compatível e ritmo equilibrado entre cultura, conforto e tempo livre.",
+    title: "Companhia em português",
+    desc: "Você viaja com outros brasileiros, com perfil compatível, e mantém o ritmo equilibrado entre cultura, conforto e tempo livre.",
   },
   {
     icon: ShieldCheck,
@@ -418,7 +452,7 @@ const FAQS = [
   },
   {
     q: "Quantas pessoas viajam por grupo?",
-    a: "Grupos pequenos, normalmente entre 12 e 25 viajantes. O número exato varia por saída — sempre pensado para garantir agilidade, atenção e experiências mais próximas do destino.",
+    a: "O número varia por saída, sempre pensado para garantir agilidade nos passeios, atenção do coordenador e experiências mais próximas do destino. Cada saída tem capacidade definida e vagas limitadas.",
   },
   {
     q: "E se eu quiser uma saída privativa, só com o meu grupo?",
