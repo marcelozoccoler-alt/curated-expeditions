@@ -457,7 +457,7 @@ const GrupoColombia2026 = () => {
                   {h.city}
                 </p>
                 <p className="font-serif text-base font-semibold text-foreground">
-                  {h.hotel}
+                  <a href={`https://www.google.com/search?q=${encodeURIComponent(h.hotel + " site oficial")}`} target="_blank" rel="noopener noreferrer" className="hover:text-gold underline-offset-4 hover:underline transition-colors">{h.hotel}</a>
                 </p>
               </div>
             ))}
