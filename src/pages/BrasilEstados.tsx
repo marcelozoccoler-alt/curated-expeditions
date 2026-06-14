@@ -99,7 +99,7 @@ const BrasilEstados = () => {
                         <div className="aspect-[3/2] overflow-hidden">
                           <img
                             src={state.heroImageUrl}
-                            alt={state.name}
+                            alt={`Destinos em ${state.name}, Brasil`}
                             loading="lazy"
                             className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
                           />
