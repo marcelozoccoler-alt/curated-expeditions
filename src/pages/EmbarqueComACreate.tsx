@@ -38,6 +38,7 @@ import grupoMexicoImg from "@/assets/grupo-mexico-2026.jpg";
 import grupoAfricaReveillonImg from "@/assets/grupo-africa-do-sul-reveillon-2027.jpg";
 import grupoTurquiaReveillonImg from "@/assets/grupo-turquia-reveillon-2027.jpg";
 import grupoAfricaPrimaveraImg from "@/assets/grupo-africa-do-sul-primavera-2026.jpg";
+import grupoTurquia2026Img from "@/assets/grupo-turquia-2026.jpg";
 
 const DEPARTURES = [
   {
@@ -218,6 +219,16 @@ const DEPARTURES = [
     subtitle: "Johanesburgo · Soweto · Pilanesberg · Pretória · Cape Town",
     desc: "Safári no Pilanesberg (área livre de malária) em lodge 5 estrelas Shepherd's Tree, Soweto, Pretória, Table Mountain e Cabo da Boa Esperança. Voos South African Airways e guia desde o Brasil.",
     fromPrice: "A partir de US$ 4.998 por pessoa (apto duplo)",
+    status: "Saída confirmada",
+  },
+  {
+    href: "/grupos/turquia-2026",
+    img: grupoTurquia2026Img,
+    tag: "21/10 a 01/11/2026 · 12 dias",
+    title: "Turquia Dourada · Outono",
+    subtitle: "Istambul · Ancara · Capadócia · Pamukkale · Éfeso · Kusadasi · Bursa",
+    desc: "Outono cinematográfico: cúpulas e Bósforo em Istambul, balões na Capadócia, piscinas brancas de Pamukkale e ruínas de Éfeso. Voos Turkish Airlines e guia desde o Brasil.",
+    fromPrice: "A partir de € 3.698 por pessoa (apto duplo)",
     status: "Saída confirmada",
   },
 ];
