@@ -44,6 +44,7 @@ import grupoBeneluxImg from "@/assets/grupo-benelux-2026.jpg";
 import grupoBalcasAutenticosImg from "@/assets/grupo-balcas-autenticos-2026.jpg";
 import grupoAfricaDoSulOutubroImg from "@/assets/grupo-africa-do-sul-outubro-2026.jpg";
 import grupoPortugalAldeiasImg from "@/assets/grupo-portugal-aldeias-2026.jpg";
+import grupoSulItaliaOutubroImg from "@/assets/grupo-sul-italia-outubro-2026.jpg";
 
 const DEPARTURES = [
   {
@@ -284,6 +285,16 @@ const DEPARTURES = [
     subtitle: "Fátima · Piódão · Marvão · Monsanto · Belmonte · Sortelha · Almeida · Guarda · Trancoso · Viseu · Coimbra · Lisboa",
     desc: "Procissão das Velas em Fátima no dia 13/10, 12 Aldeias Históricas medievais, vinhos do Dão e Belém. Voos TAP Air Portugal e guia desde o Brasil.",
     fromPrice: "A partir de € 4.149 por pessoa (apto duplo)",
+    status: "Saída confirmada",
+  },
+  {
+    href: "/grupos/sul-italia-outubro-2026",
+    img: grupoSulItaliaOutubroImg,
+    tag: "11 a 22/10/2026 · 12 dias",
+    title: "Sul da Itália · Outono",
+    subtitle: "Sorrento · Positano · Amalfi · Pompeia · Matera · Alberobello · Bari · Polignano · Lecce · Otranto · Santa Maria di Leuca",
+    desc: "Outono italiano: Costa Amalfitana, Sassi de Matera, trulli da Puglia e o encontro do Adriático com o Jônico em Santa Maria di Leuca. Voos ITA Airways e guia desde o Brasil.",
+    fromPrice: "A partir de € 4.757 por pessoa (apto duplo)",
     status: "Saída confirmada",
   },
 ];

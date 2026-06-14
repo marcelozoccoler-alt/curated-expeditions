@@ -35,6 +35,7 @@ import GrupoBenelux2026 from "./pages/GrupoBenelux2026";
 import GrupoBalcasAutenticos2026 from "./pages/GrupoBalcasAutenticos2026";
 import GrupoAfricaDoSulOutubro2026 from "./pages/GrupoAfricaDoSulOutubro2026";
 import GrupoPortugalAldeias2026 from "./pages/GrupoPortugalAldeias2026";
+import GrupoSulItaliaOutubro2026 from "./pages/GrupoSulItaliaOutubro2026";
 import BrasilEstados from "./pages/BrasilEstados";
 import BrasilEstado from "./pages/BrasilEstado";
 import Incoming from "./pages/Incoming";
@@ -93,6 +94,7 @@ const App = () => (
         <Route path="/grupos/balcas-autenticos-2026" element={<GrupoBalcasAutenticos2026 />} />
         <Route path="/grupos/africa-do-sul-outubro-2026" element={<GrupoAfricaDoSulOutubro2026 />} />
         <Route path="/grupos/portugal-aldeias-historicas-2026" element={<GrupoPortugalAldeias2026 />} />
+        <Route path="/grupos/sul-italia-outubro-2026" element={<GrupoSulItaliaOutubro2026 />} />
           {/* Brasil hierarchical navigation — must come before /:regionSlug */}
           <Route path="/brasil-vivo" element={<BrasilVivo />} />
           <Route path="/:lang/brasil-vivo" element={<BrasilVivo />} />
