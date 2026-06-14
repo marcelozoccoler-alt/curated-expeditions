@@ -48,6 +48,7 @@ import grupoSulItaliaOutubroImg from "@/assets/grupo-sul-italia-outubro-2026.jpg
 import grupoChinaImg from "@/assets/grupo-china-2026.jpg";
 import grupoSuicaNorteItaliaImg from "@/assets/grupo-suica-norte-italia-2026.jpg";
 import grupoPortugalNorteSulImg from "@/assets/grupo-portugal-norte-sul-2026.jpg";
+import grupoChileCarreteraImg from "@/assets/grupo-chile-carretera-austral-2026.jpg";
 
 const DEPARTURES = [
   {
@@ -328,6 +329,16 @@ const DEPARTURES = [
     subtitle: "Porto · Aveiro · Braga · Douro · Serra da Estrela · Fátima · Óbidos · Lisboa · Sintra · Évora · Algarve",
     desc: "Do Porto ao Algarve no auge do outono: cruzeiro no Douro, queijos da Serra, ginjinha em Óbidos, palácios de Sintra, Évora e praias douradas. Voos Iberia e guia desde o Brasil.",
     fromPrice: "A partir de € 4.498 por pessoa (apto duplo)",
+    status: "Saída confirmada",
+  },
+  {
+    href: "/grupos/chile-carretera-austral-2026",
+    img: grupoChileCarreteraImg,
+    tag: "28/09 a 05/10/2026 · 8 dias",
+    title: "Chile com Carretera Austral · Primavera",
+    subtitle: "Santiago · Balmaceda · Carretera Austral · Capelas de Mármore · Glaciar San Rafael · Enseada Pérez",
+    desc: "Primavera patagônica: a rota mais cênica do Chile, navegação às Capelas de Mármore, Glaciar San Rafael, cordeiro ao Palo e termas naturais. Voos LATAM e guia desde o Brasil.",
+    fromPrice: "A partir de US$ 3.396 por pessoa (apto duplo)",
     status: "Saída confirmada",
   },
 ];
