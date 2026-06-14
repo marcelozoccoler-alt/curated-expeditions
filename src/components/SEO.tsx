@@ -21,6 +21,15 @@ interface SEOProps {
 
 const DOMAIN = CONTACT.domain.replace(/\/$/, "");
 
+/** Clamp on word boundary, never exceeding `max` chars (incl. ellipsis). */
+const clampMeta = (text: string, max: number) => {
+  const t = (text || "").replace(/\s+/g, " ").trim();
+  if (t.length <= max) return t;
+  const slice = t.slice(0, max - 1);
+  const cut = slice.replace(/[\s,.;:—–-]+\S*$/, "");
+  return (cut || slice).trimEnd() + "…";
+};
+
 export const SEO = ({
   title,
   description,
@@ -33,6 +42,8 @@ export const SEO = ({
   ogType = "website",
   keywords,
 }: SEOProps) => {
+  const safeTitle = clampMeta(title, 60);
+  const safeDescription = clampMeta(description, 160);
   const canonical = `${DOMAIN}${canonicalPath.startsWith("/") ? "" : "/"}${canonicalPath}`;
   const prev = prevPath ? `${DOMAIN}${prevPath.startsWith("/") ? "" : "/"}${prevPath}` : null;
   const next = nextPath ? `${DOMAIN}${nextPath.startsWith("/") ? "" : "/"}${nextPath}` : null;
@@ -42,8 +53,8 @@ export const SEO = ({
 
   return (
     <Helmet>
-      <title>{title}</title>
-      <meta name="description" content={description} />
+      <title>{safeTitle}</title>
+      <meta name="description" content={safeDescription} />
       {keywords && <meta name="keywords" content={keywords} />}
       <meta name="robots" content={robots} />
       <link rel="canonical" href={canonical} />
@@ -51,16 +62,16 @@ export const SEO = ({
       {next && <link rel="next" href={next} />}
 
       {/* Open Graph */}
-      <meta property="og:title" content={title} />
-      <meta property="og:description" content={description} />
+      <meta property="og:title" content={safeTitle} />
+      <meta property="og:description" content={safeDescription} />
       <meta property="og:url" content={canonical} />
       <meta property="og:type" content={ogType} />
       {ogImage && <meta property="og:image" content={ogImage} />}
 
       {/* Twitter */}
       <meta name="twitter:card" content="summary_large_image" />
-      <meta name="twitter:title" content={title} />
-      <meta name="twitter:description" content={description} />
+      <meta name="twitter:title" content={safeTitle} />
+      <meta name="twitter:description" content={safeDescription} />
       {ogImage && <meta name="twitter:image" content={ogImage} />}
 
       {ldArray.map((ld, i) => (
