@@ -298,6 +298,16 @@ const DEPARTURES = [
     fromPrice: "A partir de € 4.757 por pessoa (apto duplo)",
     status: "Saída confirmada",
   },
+  {
+    href: "/grupos/china-2026",
+    img: grupoChinaImg,
+    tag: "08 a 21/10/2026 · 14 dias",
+    title: "China Dourada · Outono",
+    subtitle: "Beijing · Grande Muralha · Xi'an · Zhangjiajie · Shanghai",
+    desc: "Cidade Proibida, Grande Muralha, Guerreiros de Terracota, Zhangjiajie (cenário de Avatar) e Shanghai futurista. Voos Ethiopian Airlines e guia desde o Brasil.",
+    fromPrice: "A partir de US$ 5.998 por pessoa (apto duplo)",
+    status: "Saída confirmada",
+  },
 ];
 
 const BENEFITS = [
