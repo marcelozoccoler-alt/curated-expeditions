@@ -67,16 +67,16 @@ const DestinoDetail = () => {
   const pageUrl = `${domain}/destinos/${destination.slug}`;
   const tagLabels = tags.map((t) => t.label);
 
-  // SEO title com country + region + "pacote de viagem" + intent ("o que fazer")
-  const seoTitle = `Pacote de viagem para ${destination.name}, ${destination.country} — O que fazer, melhor época e roteiro | Create Travel`;
+  // SEO title ≤60 chars: destino, país + intent + marca
+  const seoTitle = `${destination.name}, ${destination.country} — Pacote e roteiro | Create`;
   const tagsForDesc = tagLabels.slice(0, 3).join(", ").toLowerCase();
   const introClean = destination.intro.replace(/\s+/g, " ").trim();
   const baseDesc =
-    introClean.length > 110
-      ? introClean.slice(0, 110).replace(/[,.;:]\s*\S*$/, "") + "…"
+    introClean.length > 70
+      ? introClean.slice(0, 70).replace(/[,.;:]\s*\S*$/, "") + "…"
       : introClean;
   const seoDescription =
-    `Pacote de viagem para ${destination.name}, ${destination.country}: ${baseDesc} O que fazer, melhor época (${destination.bestTime.split(";")[0]}), onde ficar e roteiros sob medida. Ideal para ${tagsForDesc}.`.slice(0, 300);
+    `Pacote para ${destination.name}, ${destination.country}: ${baseDesc} Melhor época, o que fazer e roteiros sob medida.`;
 
   // Keywords semânticas para Google + IAs (ChatGPT, Perplexity, Gemini, AI Overviews)
   const seoKeywords = buildDestinationKeywords(destination);
