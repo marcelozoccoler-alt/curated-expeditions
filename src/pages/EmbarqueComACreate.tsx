@@ -40,6 +40,7 @@ import grupoTurquiaReveillonImg from "@/assets/grupo-turquia-reveillon-2027.jpg"
 import grupoAfricaPrimaveraImg from "@/assets/grupo-africa-do-sul-primavera-2026.jpg";
 import grupoTurquia2026Img from "@/assets/grupo-turquia-2026.jpg";
 import grupoColombiaImg from "@/assets/grupo-colombia-2026.jpg";
+import grupoBeneluxImg from "@/assets/grupo-benelux-2026.jpg";
 
 const DEPARTURES = [
   {
@@ -240,6 +241,16 @@ const DEPARTURES = [
     subtitle: "Bogotá · Zipaquirá · Villa de Leyva · Ráquira · Cartagena",
     desc: "Catedral de Sal de Zipaquirá, Villa de Leyva colonial, Cartagena das Índias amuralhada e a alegria da Chiva Rumbera. Voos LATAM e guia desde o Brasil.",
     fromPrice: "A partir de US$ 2.698 por pessoa (apto duplo)",
+    status: "Saída confirmada",
+  },
+  {
+    href: "/grupos/benelux-2026",
+    img: grupoBeneluxImg,
+    tag: "13 a 23/10/2026 · 11 dias",
+    title: "Países Baixos, Bélgica & Luxemburgo",
+    subtitle: "Amsterdã · Giethoorn · Roterdã · Kinderdijk · Bruges · Gante · Bruxelas · Luxemburgo",
+    desc: "Grand Tour do Benelux no outono: canais de Amsterdã, vila de Giethoorn, moinhos de Kinderdijk, cervejaria trapista e Grand Place. Voos Iberia e guia desde o Brasil.",
+    fromPrice: "A partir de € 4.989 por pessoa (apto duplo)",
     status: "Saída confirmada",
   },
 ];
