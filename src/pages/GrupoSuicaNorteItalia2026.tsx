@@ -467,7 +467,7 @@ const GrupoSuicaNorteItalia2026 = () => {
                 <p className="text-xs uppercase tracking-wider text-muted-foreground mb-1">
                   {h.city}
                 </p>
-                <p className="font-serif font-semibold">{h.hotel}</p>
+                <p className="font-serif font-semibold"><a href={`https://www.google.com/search?q=${encodeURIComponent(h.hotel + " site oficial")}`} target="_blank" rel="noopener noreferrer" className="hover:text-gold underline-offset-4 hover:underline transition-colors">{h.hotel}</a></p>
               </div>
             ))}
           </div>
