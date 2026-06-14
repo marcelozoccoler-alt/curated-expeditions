@@ -42,6 +42,7 @@ import grupoTurquia2026Img from "@/assets/grupo-turquia-2026.jpg";
 import grupoColombiaImg from "@/assets/grupo-colombia-2026.jpg";
 import grupoBeneluxImg from "@/assets/grupo-benelux-2026.jpg";
 import grupoBalcasAutenticosImg from "@/assets/grupo-balcas-autenticos-2026.jpg";
+import grupoAfricaDoSulOutubroImg from "@/assets/grupo-africa-do-sul-outubro-2026.jpg";
 
 const DEPARTURES = [
   {
@@ -262,6 +263,16 @@ const DEPARTURES = [
     subtitle: "Krujë · Prizren · Dečani · Skopje · Ohrid · Berat · Gjirokastër · Butrint · Tirana",
     desc: "Outono dourado nos Bálcãs mais autênticos: cidadela de Skanderbeg, Mosteiro de Dečani (UNESCO), Lago de Ohrid, Berat e Gjirokastër, Riviera Albanesa e Butrint. Voos ITA Airways e guia desde o Brasil.",
     fromPrice: "A partir de € 4.759 por pessoa (apto duplo)",
+    status: "Saída confirmada",
+  },
+  {
+    href: "/grupos/africa-do-sul-outubro-2026",
+    img: grupoAfricaDoSulOutubroImg,
+    tag: "12 a 20/10/2026 · 9 dias",
+    title: "África do Sul · Kruger & Cape Town",
+    subtitle: "Johanesburgo · Soweto · Blyde River Canyon · Kruger · Cape Town",
+    desc: "Safári em reserva privada no Mdluli Safari Lodge, Soweto e legado de Mandela, Blyde River Canyon, Table Mountain e Cabo da Boa Esperança. Voos South African Airways e guia desde o Brasil.",
+    fromPrice: "A partir de US$ 4.998 por pessoa (apto duplo)",
     status: "Saída confirmada",
   },
 ];
