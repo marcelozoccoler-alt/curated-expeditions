@@ -47,6 +47,7 @@ import grupoPortugalAldeiasImg from "@/assets/grupo-portugal-aldeias-2026.jpg";
 import grupoSulItaliaOutubroImg from "@/assets/grupo-sul-italia-outubro-2026.jpg";
 import grupoChinaImg from "@/assets/grupo-china-2026.jpg";
 import grupoSuicaNorteItaliaImg from "@/assets/grupo-suica-norte-italia-2026.jpg";
+import grupoPortugalNorteSulImg from "@/assets/grupo-portugal-norte-sul-2026.jpg";
 
 const DEPARTURES = [
   {
