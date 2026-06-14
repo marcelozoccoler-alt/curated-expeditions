@@ -18,7 +18,7 @@ import { SEO } from "@/components/SEO";
 import { FAQSection } from "@/components/FAQSection";
 import { CONTACT, generateWhatsAppLink } from "@/lib/types";
 import heroImg from "@/assets/grupo-vietna-laos-camboja-2027.jpg";
-import { getHotelUrl } from "@/lib/groupHotels";
+import { getHotelUrl, buildHotelsJsonLd, buildHotelsFAQs, buildHotelsKeywords } from "@/lib/groupHotels";
 
 const whatsappParams = {
   type: "Roteiro" as const,
@@ -252,6 +252,17 @@ const faqs = [
   },
 ];
 
+const hotelsForSeo = [{ city: "Hanói", hotel: "Le Jardin Haute Couture" },
+              { city: "Halong", hotel: "L'Amour Cruise" },
+              { city: "Luang Prabang", hotel: "Choasis" },
+              { city: "Siem Reap", hotel: "Prince D'Angkor" },
+              { city: "Hoi An", hotel: "Historic Hoi An" },
+              { city: "Hue", hotel: "White Lotus Hue" },
+              { city: "Saigon", hotel: "Harmony Saigon" }];
+const hotelsSeoJsonLd = buildHotelsJsonLd(hotelsForSeo, "Grupo Vietnã, Laos & Camboja 2027 — Carnaval — Create Travel", "/grupos/vietna-laos-camboja-2027");
+const hotelsSeoFaqs = buildHotelsFAQs(hotelsForSeo, "Grupo Vietnã, Laos & Camboja 2027 — Carnaval — Create Travel", "/grupos/vietna-laos-camboja-2027");
+const hotelsSeoKeywords = buildHotelsKeywords(hotelsForSeo);
+
 const jsonLd = {
   "@context": "https://schema.org",
   "@type": "TouristTrip",
@@ -290,8 +301,8 @@ const GrupoVietnaLaosCamboja2027 = () => {
         canonicalPath="/grupos/vietna-laos-camboja-2027"
         ogImage={heroImg}
         ogType="article"
-        jsonLd={jsonLd}
-        keywords="viagem em grupo Vietnã Laos Camboja 2027, Carnaval Sudeste Asiático, Angkor Wat com guia do Brasil, Halong Bay Hoi An Luang Prabang, Create Travel Ásia"
+        jsonLd={[jsonLd, ...hotelsSeoJsonLd]}
+        keywords={`viagem em grupo Vietnã Laos Camboja 2027, Carnaval Sudeste Asiático, Angkor Wat com guia do Brasil, Halong Bay Hoi An Luang Prabang, Create Travel Ásia, ${hotelsSeoKeywords}`}
       />
       <Header />
       <WhatsAppButton variant="float" params={whatsappParams} />
@@ -655,7 +666,7 @@ const GrupoVietnaLaosCamboja2027 = () => {
       {/* FAQ */}
       <section className="section-padding bg-muted">
         <div className="container-editorial max-w-3xl">
-          <FAQSection faqs={faqs} />
+          <FAQSection faqs={[...faqs, ...hotelsSeoFaqs]} />
         </div>
       </section>
 

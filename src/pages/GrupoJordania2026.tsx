@@ -18,7 +18,7 @@ import { SEO } from "@/components/SEO";
 import { FAQSection } from "@/components/FAQSection";
 import { CONTACT, generateWhatsAppLink } from "@/lib/types";
 import heroImg from "@/assets/grupo-jordania-2026.jpg";
-import { getHotelUrl } from "@/lib/groupHotels";
+import { getHotelUrl, buildHotelsJsonLd, buildHotelsFAQs, buildHotelsKeywords } from "@/lib/groupHotels";
 
 const whatsappParams = {
   type: "Roteiro" as const,
@@ -204,6 +204,15 @@ const faqs = [
   },
 ];
 
+const hotelsForSeo = [{ city: "Amã", hotel: "Golden Tulip Amman" },
+              { city: "Petra", hotel: "Petra Palace" },
+              { city: "Wadi Rum", hotel: "Mazayen Camp" },
+              { city: "Aqaba", hotel: "Oryx Aqaba" },
+              { city: "Mar Morto", hotel: "Holiday Inn Resort Dead Sea" }];
+const hotelsSeoJsonLd = buildHotelsJsonLd(hotelsForSeo, "Grupo Jordânia Completa 2026 — Create Travel", "/grupos/jordania-2026");
+const hotelsSeoFaqs = buildHotelsFAQs(hotelsForSeo, "Grupo Jordânia Completa 2026 — Create Travel", "/grupos/jordania-2026");
+const hotelsSeoKeywords = buildHotelsKeywords(hotelsForSeo);
+
 const jsonLd = {
   "@context": "https://schema.org",
   "@type": "TouristTrip",
@@ -242,8 +251,8 @@ const GrupoJordania2026 = () => {
         canonicalPath="/grupos/jordania-2026"
         ogImage={heroImg}
         ogType="article"
-        jsonLd={jsonLd}
-        keywords="viagem em grupo Jordânia 2026, Petra com guia do Brasil, Wadi Rum acampamento beduíno, Mar Morto, Create Travel Oriente Médio"
+        jsonLd={[jsonLd, ...hotelsSeoJsonLd]}
+        keywords={`viagem em grupo Jordânia 2026, Petra com guia do Brasil, Wadi Rum acampamento beduíno, Mar Morto, Create Travel Oriente Médio, ${hotelsSeoKeywords}`}
       />
       <Header />
       <WhatsAppButton variant="float" params={whatsappParams} />
@@ -591,7 +600,7 @@ const GrupoJordania2026 = () => {
       {/* FAQ */}
       <section className="section-padding bg-muted">
         <div className="container-editorial max-w-3xl">
-          <FAQSection faqs={faqs} />
+          <FAQSection faqs={[...faqs, ...hotelsSeoFaqs]} />
         </div>
       </section>
 

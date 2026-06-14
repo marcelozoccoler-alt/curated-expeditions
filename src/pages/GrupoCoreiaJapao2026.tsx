@@ -18,7 +18,7 @@ import { SEO } from "@/components/SEO";
 import { FAQSection } from "@/components/FAQSection";
 import { CONTACT, generateWhatsAppLink } from "@/lib/types";
 import heroImg from "@/assets/grupo-coreia-japao-2026.jpg";
-import { getHotelUrl } from "@/lib/groupHotels";
+import { getHotelUrl, buildHotelsJsonLd, buildHotelsFAQs, buildHotelsKeywords } from "@/lib/groupHotels";
 
 const whatsappParams = {
   type: "Roteiro" as const,
@@ -238,6 +238,15 @@ const faqs = [
   },
 ];
 
+const hotelsForSeo = [{ city: "Seul", hotel: "Sotetsu Splaisir Myeongdong" },
+              { city: "Osaka", hotel: "Citadines Namba Osaka" },
+              { city: "Kyoto", hotel: "Nikko Princess Kyoto" },
+              { city: "Hakone", hotel: "Hakone Kowakien" },
+              { city: "Tóquio", hotel: "Hotel Groove Shinjuku" }];
+const hotelsSeoJsonLd = buildHotelsJsonLd(hotelsForSeo, "Grupo Coreia & Japão 2026 — Create Travel", "/grupos/coreia-japao-2026");
+const hotelsSeoFaqs = buildHotelsFAQs(hotelsForSeo, "Grupo Coreia & Japão 2026 — Create Travel", "/grupos/coreia-japao-2026");
+const hotelsSeoKeywords = buildHotelsKeywords(hotelsForSeo);
+
 const jsonLd = {
   "@context": "https://schema.org",
   "@type": "TouristTrip",
@@ -276,8 +285,8 @@ const GrupoCoreiaJapao2026 = () => {
         canonicalPath="/grupos/coreia-japao-2026"
         ogImage={heroImg}
         ogType="article"
-        jsonLd={jsonLd}
-        keywords="viagem em grupo Coreia Japão 2026, outono em Kyoto, DMZ com guia do Brasil, Fushimi Inari, Monte Fuji Hakone, Create Travel Ásia"
+        jsonLd={[jsonLd, ...hotelsSeoJsonLd]}
+        keywords={`viagem em grupo Coreia Japão 2026, outono em Kyoto, DMZ com guia do Brasil, Fushimi Inari, Monte Fuji Hakone, Create Travel Ásia, ${hotelsSeoKeywords}`}
       />
       <Header />
       <WhatsAppButton variant="float" params={whatsappParams} />
@@ -634,7 +643,7 @@ const GrupoCoreiaJapao2026 = () => {
       {/* FAQ */}
       <section className="section-padding bg-muted">
         <div className="container-editorial max-w-3xl">
-          <FAQSection faqs={faqs} />
+          <FAQSection faqs={[...faqs, ...hotelsSeoFaqs]} />
         </div>
       </section>
 

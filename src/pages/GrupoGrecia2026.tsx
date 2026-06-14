@@ -18,7 +18,7 @@ import { SEO } from "@/components/SEO";
 import { FAQSection } from "@/components/FAQSection";
 import { CONTACT, generateWhatsAppLink } from "@/lib/types";
 import heroImg from "@/assets/grupo-grecia-2026.jpg";
-import { getHotelUrl } from "@/lib/groupHotels";
+import { getHotelUrl, buildHotelsJsonLd, buildHotelsFAQs, buildHotelsKeywords } from "@/lib/groupHotels";
 
 const whatsappParams = {
   type: "Roteiro" as const,
@@ -232,6 +232,14 @@ const faqs = [
   },
 ];
 
+const hotelsForSeo = [{ city: "Atenas", hotel: "Stanley" },
+              { city: "Kalambaka", hotel: "Amalia" },
+              { city: "Santorini", hotel: "El Greco" },
+              { city: "Mykonos", hotel: "Myconian Ambassador" }];
+const hotelsSeoJsonLd = buildHotelsJsonLd(hotelsForSeo, "Grupo Grécia 2026 — Create Travel", "/grupos/grecia-2026");
+const hotelsSeoFaqs = buildHotelsFAQs(hotelsForSeo, "Grupo Grécia 2026 — Create Travel", "/grupos/grecia-2026");
+const hotelsSeoKeywords = buildHotelsKeywords(hotelsForSeo);
+
 const jsonLd = {
   "@context": "https://schema.org",
   "@type": "TouristTrip",
@@ -270,7 +278,7 @@ const GrupoGrecia2026 = () => {
         canonicalPath="/grupos/grecia-2026"
         ogImage={heroImg}
         ogType="article"
-        jsonLd={jsonLd}
+        jsonLd={[jsonLd, ...hotelsSeoJsonLd]}
       />
       <Header />
       <WhatsAppButton variant="float" params={whatsappParams} />
@@ -621,7 +629,7 @@ const GrupoGrecia2026 = () => {
       {/* FAQ */}
       <section className="section-padding bg-muted">
         <div className="container-editorial max-w-3xl">
-          <FAQSection faqs={faqs} />
+          <FAQSection faqs={[...faqs, ...hotelsSeoFaqs]} />
         </div>
       </section>
 

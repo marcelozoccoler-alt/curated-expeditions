@@ -18,7 +18,7 @@ import { SEO } from "@/components/SEO";
 import { FAQSection } from "@/components/FAQSection";
 import { CONTACT, generateWhatsAppLink } from "@/lib/types";
 import heroImg from "@/assets/grupo-portugal-aldeias-2026.jpg";
-import { getHotelUrl } from "@/lib/groupHotels";
+import { getHotelUrl, buildHotelsJsonLd, buildHotelsFAQs, buildHotelsKeywords } from "@/lib/groupHotels";
 
 const whatsappParams = {
   type: "Roteiro" as const,
@@ -202,6 +202,16 @@ const faqs = [
   },
 ];
 
+const hotelsForSeo = [{ city: "Fátima", hotel: "Estrela de Fátima" },
+              { city: "Castelo Branco", hotel: "Meliá Castelo Branco" },
+              { city: "Covilhã", hotel: "Puralã – Wool Valley" },
+              { city: "Guarda", hotel: "Versatile" },
+              { city: "Viseu", hotel: "Grão Vasco" },
+              { city: "Lisboa", hotel: "VIP Artes" }];
+const hotelsSeoJsonLd = buildHotelsJsonLd(hotelsForSeo, "Grupo Portugal com Aldeias Históricas 2026 — Outono — Create Travel", "/grupos/portugal-aldeias-historicas-2026");
+const hotelsSeoFaqs = buildHotelsFAQs(hotelsForSeo, "Grupo Portugal com Aldeias Históricas 2026 — Outono — Create Travel", "/grupos/portugal-aldeias-historicas-2026");
+const hotelsSeoKeywords = buildHotelsKeywords(hotelsForSeo);
+
 const jsonLd = {
   "@context": "https://schema.org",
   "@type": "TouristTrip",
@@ -240,8 +250,8 @@ const GrupoPortugalAldeias2026 = () => {
         canonicalPath="/grupos/portugal-aldeias-historicas-2026"
         ogImage={heroImg}
         ogType="article"
-        jsonLd={jsonLd}
-        keywords="viagem em grupo Portugal 2026, Aldeias Históricas de Portugal, Fátima 13 de outubro, Monsanto Marvão, grupo Portugal com guia do Brasil, Create Travel TAP"
+        jsonLd={[jsonLd, ...hotelsSeoJsonLd]}
+        keywords={`viagem em grupo Portugal 2026, Aldeias Históricas de Portugal, Fátima 13 de outubro, Monsanto Marvão, grupo Portugal com guia do Brasil, Create Travel TAP, ${hotelsSeoKeywords}`}
       />
       <Header />
       <WhatsAppButton variant="float" params={whatsappParams} />
@@ -591,7 +601,7 @@ const GrupoPortugalAldeias2026 = () => {
       {/* FAQ */}
       <section className="section-padding bg-muted">
         <div className="container-editorial max-w-3xl">
-          <FAQSection faqs={faqs} />
+          <FAQSection faqs={[...faqs, ...hotelsSeoFaqs]} />
         </div>
       </section>
 

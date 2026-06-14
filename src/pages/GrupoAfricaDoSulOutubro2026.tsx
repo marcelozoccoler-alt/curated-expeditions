@@ -18,7 +18,7 @@ import { SEO } from "@/components/SEO";
 import { FAQSection } from "@/components/FAQSection";
 import { CONTACT, generateWhatsAppLink } from "@/lib/types";
 import heroImg from "@/assets/grupo-africa-do-sul-outubro-2026.jpg";
-import { getHotelUrl } from "@/lib/groupHotels";
+import { getHotelUrl, buildHotelsJsonLd, buildHotelsFAQs, buildHotelsKeywords } from "@/lib/groupHotels";
 
 const whatsappParams = {
   type: "Roteiro" as const,
@@ -184,6 +184,13 @@ const faqs = [
   },
 ];
 
+const hotelsForSeo = [{ city: "Johanesburgo", hotel: "Onomo Sandton" },
+              { city: "Área do Kruger", hotel: "Mdluli Safari Lodge" },
+              { city: "Cidade do Cabo", hotel: "Southern Sun Waterfront" }];
+const hotelsSeoJsonLd = buildHotelsJsonLd(hotelsForSeo, "Grupo África do Sul Outubro 2026 — Kruger e Cape Town — Create Travel", "/grupos/africa-do-sul-outubro-2026");
+const hotelsSeoFaqs = buildHotelsFAQs(hotelsForSeo, "Grupo África do Sul Outubro 2026 — Kruger e Cape Town — Create Travel", "/grupos/africa-do-sul-outubro-2026");
+const hotelsSeoKeywords = buildHotelsKeywords(hotelsForSeo);
+
 const jsonLd = {
   "@context": "https://schema.org",
   "@type": "TouristTrip",
@@ -222,8 +229,8 @@ const GrupoAfricaDoSulOutubro2026 = () => {
         canonicalPath="/grupos/africa-do-sul-outubro-2026"
         ogImage={heroImg}
         ogType="article"
-        jsonLd={jsonLd}
-        keywords="viagem em grupo África do Sul outubro 2026, safári Kruger, Mdluli Safari Lodge, Cape Town, Blyde River Canyon, grupo África do Sul com guia do Brasil, Create Travel SAA"
+        jsonLd={[jsonLd, ...hotelsSeoJsonLd]}
+        keywords={`viagem em grupo África do Sul outubro 2026, safári Kruger, Mdluli Safari Lodge, Cape Town, Blyde River Canyon, grupo África do Sul com guia do Brasil, Create Travel SAA, ${hotelsSeoKeywords}`}
       />
       <Header />
       <WhatsAppButton variant="float" params={whatsappParams} />
@@ -580,7 +587,7 @@ const GrupoAfricaDoSulOutubro2026 = () => {
       {/* FAQ */}
       <section className="section-padding bg-muted">
         <div className="container-editorial max-w-3xl">
-          <FAQSection faqs={faqs} />
+          <FAQSection faqs={[...faqs, ...hotelsSeoFaqs]} />
         </div>
       </section>
 

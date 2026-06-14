@@ -18,7 +18,7 @@ import { SEO } from "@/components/SEO";
 import { FAQSection } from "@/components/FAQSection";
 import { CONTACT, generateWhatsAppLink } from "@/lib/types";
 import heroImg from "@/assets/grupo-nepal-butao-2027.jpg";
-import { getHotelUrl } from "@/lib/groupHotels";
+import { getHotelUrl, buildHotelsJsonLd, buildHotelsFAQs, buildHotelsKeywords } from "@/lib/groupHotels";
 
 const whatsappParams = {
   type: "Roteiro" as const,
@@ -241,6 +241,15 @@ const faqs = [
   },
 ];
 
+const hotelsForSeo = [{ city: "Katmandu", hotel: "Hotel Himalaya" },
+              { city: "Nagarkot", hotel: "Club Himalaya Resort" },
+              { city: "Thimphu", hotel: "Lemon Tree Taba" },
+              { city: "Punakha", hotel: "Lobesa Boutique" },
+              { city: "Paro", hotel: "Hotel previsto 1ª categoria" }];
+const hotelsSeoJsonLd = buildHotelsJsonLd(hotelsForSeo, "Grupo Nepal & Butão 2027 — Carnaval — Create Travel", "/grupos/nepal-butao-2027");
+const hotelsSeoFaqs = buildHotelsFAQs(hotelsForSeo, "Grupo Nepal & Butão 2027 — Carnaval — Create Travel", "/grupos/nepal-butao-2027");
+const hotelsSeoKeywords = buildHotelsKeywords(hotelsForSeo);
+
 const jsonLd = {
   "@context": "https://schema.org",
   "@type": "TouristTrip",
@@ -279,8 +288,8 @@ const GrupoNepalButao2027 = () => {
         canonicalPath="/grupos/nepal-butao-2027"
         ogImage={heroImg}
         ogType="article"
-        jsonLd={jsonLd}
-        keywords="viagem em grupo Nepal Butão 2027, Carnaval Himalaia, Tiger's Nest com guia do Brasil, Kathmandu Punakha Paro, Create Travel Ásia"
+        jsonLd={[jsonLd, ...hotelsSeoJsonLd]}
+        keywords={`viagem em grupo Nepal Butão 2027, Carnaval Himalaia, Tiger's Nest com guia do Brasil, Kathmandu Punakha Paro, Create Travel Ásia, ${hotelsSeoKeywords}`}
       />
       <Header />
       <WhatsAppButton variant="float" params={whatsappParams} />
@@ -638,7 +647,7 @@ const GrupoNepalButao2027 = () => {
       {/* FAQ */}
       <section className="section-padding bg-muted">
         <div className="container-editorial max-w-3xl">
-          <FAQSection faqs={faqs} />
+          <FAQSection faqs={[...faqs, ...hotelsSeoFaqs]} />
         </div>
       </section>
 

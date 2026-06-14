@@ -18,7 +18,7 @@ import { SEO } from "@/components/SEO";
 import { FAQSection } from "@/components/FAQSection";
 import { CONTACT, generateWhatsAppLink } from "@/lib/types";
 import heroImg from "@/assets/grupo-egito-2026.jpg";
-import { getHotelUrl } from "@/lib/groupHotels";
+import { getHotelUrl, buildHotelsJsonLd, buildHotelsFAQs, buildHotelsKeywords } from "@/lib/groupHotels";
 
 const whatsappParams = {
   type: "Roteiro" as const,
@@ -222,6 +222,14 @@ const faqs = [
   },
 ];
 
+const hotelsForSeo = [{ city: "Cairo", hotel: "Intercontinental Semiramis" },
+              { city: "Cruzeiro no Nilo", hotel: "Radamis 1" },
+              { city: "Sharm El Sheikh", hotel: "Renaissance Sharm" },
+              { city: "Cairo (retorno)", hotel: "Intercontinental City Stars" }];
+const hotelsSeoJsonLd = buildHotelsJsonLd(hotelsForSeo, "Grupo Egito 2026 — Create Travel", "/grupos/egito-2026");
+const hotelsSeoFaqs = buildHotelsFAQs(hotelsForSeo, "Grupo Egito 2026 — Create Travel", "/grupos/egito-2026");
+const hotelsSeoKeywords = buildHotelsKeywords(hotelsForSeo);
+
 const jsonLd = {
   "@context": "https://schema.org",
   "@type": "TouristTrip",
@@ -260,8 +268,8 @@ const GrupoEgito2026 = () => {
         canonicalPath="/grupos/egito-2026"
         ogImage={heroImg}
         ogType="article"
-        jsonLd={jsonLd}
-        keywords="viagem em grupo Egito 2026, pirâmides Gizé com guia do Brasil, cruzeiro Nilo em português, Grande Museu Egípcio GEM, Sharm El Sheikh Mar Vermelho, Create Travel Egito"
+        jsonLd={[jsonLd, ...hotelsSeoJsonLd]}
+        keywords={`viagem em grupo Egito 2026, pirâmides Gizé com guia do Brasil, cruzeiro Nilo em português, Grande Museu Egípcio GEM, Sharm El Sheikh Mar Vermelho, Create Travel Egito, ${hotelsSeoKeywords}`}
       />
       <Header />
       <WhatsAppButton variant="float" params={whatsappParams} />
@@ -621,7 +629,7 @@ const GrupoEgito2026 = () => {
       {/* FAQ */}
       <section className="section-padding bg-muted">
         <div className="container-editorial max-w-3xl">
-          <FAQSection faqs={faqs} />
+          <FAQSection faqs={[...faqs, ...hotelsSeoFaqs]} />
         </div>
       </section>
 

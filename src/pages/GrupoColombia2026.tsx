@@ -18,7 +18,7 @@ import { SEO } from "@/components/SEO";
 import { FAQSection } from "@/components/FAQSection";
 import { CONTACT, generateWhatsAppLink } from "@/lib/types";
 import heroImg from "@/assets/grupo-colombia-2026.jpg";
-import { getHotelUrl } from "@/lib/groupHotels";
+import { getHotelUrl, buildHotelsJsonLd, buildHotelsFAQs, buildHotelsKeywords } from "@/lib/groupHotels";
 
 const whatsappParams = {
   type: "Roteiro" as const,
@@ -191,6 +191,13 @@ const faqs = [
   },
 ];
 
+const hotelsForSeo = [{ city: "Bogotá", hotel: "Wyndham Bogotá Art" },
+              { city: "Villa de Leyva", hotel: "Hotel Campanário" },
+              { city: "Cartagena", hotel: "Dann Cartagena" }];
+const hotelsSeoJsonLd = buildHotelsJsonLd(hotelsForSeo, "Grupo Colômbia 2026 — Create Travel", "/grupos/colombia-2026");
+const hotelsSeoFaqs = buildHotelsFAQs(hotelsForSeo, "Grupo Colômbia 2026 — Create Travel", "/grupos/colombia-2026");
+const hotelsSeoKeywords = buildHotelsKeywords(hotelsForSeo);
+
 const jsonLd = {
   "@context": "https://schema.org",
   "@type": "TouristTrip",
@@ -229,8 +236,8 @@ const GrupoColombia2026 = () => {
         canonicalPath="/grupos/colombia-2026"
         ogImage={heroImg}
         ogType="article"
-        jsonLd={jsonLd}
-        keywords="viagem em grupo Colômbia 2026, Cartagena das Índias, Bogotá, Villa de Leyva, Catedral de Sal, grupo Colômbia com guia do Brasil, Create Travel LATAM"
+        jsonLd={[jsonLd, ...hotelsSeoJsonLd]}
+        keywords={`viagem em grupo Colômbia 2026, Cartagena das Índias, Bogotá, Villa de Leyva, Catedral de Sal, grupo Colômbia com guia do Brasil, Create Travel LATAM, ${hotelsSeoKeywords}`}
       />
       <Header />
       <WhatsAppButton variant="float" params={whatsappParams} />
@@ -584,7 +591,7 @@ const GrupoColombia2026 = () => {
       {/* FAQ */}
       <section className="section-padding bg-muted">
         <div className="container-editorial max-w-3xl">
-          <FAQSection faqs={faqs} />
+          <FAQSection faqs={[...faqs, ...hotelsSeoFaqs]} />
         </div>
       </section>
 

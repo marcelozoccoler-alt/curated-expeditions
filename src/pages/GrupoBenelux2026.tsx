@@ -18,7 +18,7 @@ import { SEO } from "@/components/SEO";
 import { FAQSection } from "@/components/FAQSection";
 import { CONTACT, generateWhatsAppLink } from "@/lib/types";
 import heroImg from "@/assets/grupo-benelux-2026.jpg";
-import { getHotelUrl } from "@/lib/groupHotels";
+import { getHotelUrl, buildHotelsJsonLd, buildHotelsFAQs, buildHotelsKeywords } from "@/lib/groupHotels";
 
 const whatsappParams = {
   type: "Roteiro" as const,
@@ -200,6 +200,14 @@ const faqs = [
   },
 ];
 
+const hotelsForSeo = [{ city: "Amsterdã", hotel: "Four Elements" },
+              { city: "Roterdã", hotel: "Holiday Inn Express Central Station" },
+              { city: "Bruges", hotel: "Le Bois de Bruges" },
+              { city: "Bruxelas", hotel: "Novotel Brussels City Centre" }];
+const hotelsSeoJsonLd = buildHotelsJsonLd(hotelsForSeo, "Grupo Benelux 2026 — Países Baixos, Bélgica e Luxemburgo — Create Travel", "/grupos/benelux-2026");
+const hotelsSeoFaqs = buildHotelsFAQs(hotelsForSeo, "Grupo Benelux 2026 — Países Baixos, Bélgica e Luxemburgo — Create Travel", "/grupos/benelux-2026");
+const hotelsSeoKeywords = buildHotelsKeywords(hotelsForSeo);
+
 const jsonLd = {
   "@context": "https://schema.org",
   "@type": "TouristTrip",
@@ -238,8 +246,8 @@ const GrupoBenelux2026 = () => {
         canonicalPath="/grupos/benelux-2026"
         ogImage={heroImg}
         ogType="article"
-        jsonLd={jsonLd}
-        keywords="viagem em grupo Benelux 2026, Países Baixos Bélgica Luxemburgo, Amsterdã outono, Bruges, grupo Benelux com guia do Brasil, Create Travel Iberia"
+        jsonLd={[jsonLd, ...hotelsSeoJsonLd]}
+        keywords={`viagem em grupo Benelux 2026, Países Baixos Bélgica Luxemburgo, Amsterdã outono, Bruges, grupo Benelux com guia do Brasil, Create Travel Iberia, ${hotelsSeoKeywords}`}
       />
       <Header />
       <WhatsAppButton variant="float" params={whatsappParams} />
@@ -586,7 +594,7 @@ const GrupoBenelux2026 = () => {
       {/* FAQ */}
       <section className="section-padding bg-muted">
         <div className="container-editorial max-w-3xl">
-          <FAQSection faqs={faqs} />
+          <FAQSection faqs={[...faqs, ...hotelsSeoFaqs]} />
         </div>
       </section>
 

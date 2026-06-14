@@ -18,7 +18,7 @@ import { SEO } from "@/components/SEO";
 import { FAQSection } from "@/components/FAQSection";
 import { CONTACT, generateWhatsAppLink } from "@/lib/types";
 import heroImg from "@/assets/grupo-croacia-balcas-2026.jpg";
-import { getHotelUrl } from "@/lib/groupHotels";
+import { getHotelUrl, buildHotelsJsonLd, buildHotelsFAQs, buildHotelsKeywords } from "@/lib/groupHotels";
 
 const whatsappParams = {
   type: "Roteiro" as const,
@@ -215,6 +215,15 @@ const faqs = [
   },
 ];
 
+const hotelsForSeo = [{ city: "Zagreb", hotel: "Sheraton Zagreb" },
+              { city: "Zadar", hotel: "Kolovare" },
+              { city: "Split", hotel: "Radisson Blu Resort" },
+              { city: "Mostar", hotel: "City Hotel" },
+              { city: "Dubrovnik", hotel: "Lero" }];
+const hotelsSeoJsonLd = buildHotelsJsonLd(hotelsForSeo, "Grupo Croácia, Bósnia & Montenegro 2026 — Create Travel", "/grupos/croacia-balcas-2026");
+const hotelsSeoFaqs = buildHotelsFAQs(hotelsForSeo, "Grupo Croácia, Bósnia & Montenegro 2026 — Create Travel", "/grupos/croacia-balcas-2026");
+const hotelsSeoKeywords = buildHotelsKeywords(hotelsForSeo);
+
 const jsonLd = {
   "@context": "https://schema.org",
   "@type": "TouristTrip",
@@ -253,8 +262,8 @@ const GrupoCroaciaBalcas2026 = () => {
         canonicalPath="/grupos/croacia-balcas-2026"
         ogImage={heroImg}
         ogType="article"
-        jsonLd={jsonLd}
-        keywords="viagem em grupo Croácia 2026, Bálcãs com guia do Brasil, Plitvice Dubrovnik Kotor, Mostar Medjugorje, Bósnia Montenegro grupo, Create Travel Croácia, outono nos Bálcãs"
+        jsonLd={[jsonLd, ...hotelsSeoJsonLd]}
+        keywords={`viagem em grupo Croácia 2026, Bálcãs com guia do Brasil, Plitvice Dubrovnik Kotor, Mostar Medjugorje, Bósnia Montenegro grupo, Create Travel Croácia, outono nos Bálcãs, ${hotelsSeoKeywords}`}
       />
       <Header />
       <WhatsAppButton variant="float" params={whatsappParams} />
@@ -608,7 +617,7 @@ const GrupoCroaciaBalcas2026 = () => {
       {/* FAQ */}
       <section className="section-padding bg-muted">
         <div className="container-editorial max-w-3xl">
-          <FAQSection faqs={faqs} />
+          <FAQSection faqs={[...faqs, ...hotelsSeoFaqs]} />
         </div>
       </section>
 

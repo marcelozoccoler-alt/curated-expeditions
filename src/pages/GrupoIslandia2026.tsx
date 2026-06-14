@@ -18,7 +18,7 @@ import { SEO } from "@/components/SEO";
 import { FAQSection } from "@/components/FAQSection";
 import { CONTACT, generateWhatsAppLink } from "@/lib/types";
 import heroImg from "@/assets/grupo-islandia-2026.jpg";
-import { getHotelUrl } from "@/lib/groupHotels";
+import { getHotelUrl, buildHotelsJsonLd, buildHotelsFAQs, buildHotelsKeywords } from "@/lib/groupHotels";
 
 const whatsappParams = {
   type: "Roteiro" as const,
@@ -204,6 +204,15 @@ const faqs = [
   },
 ];
 
+const hotelsForSeo = [{ city: "Frankfurt", hotel: "Holiday Inn Frankfurt Alte Oper" },
+              { city: "Reykjavík", hotel: "Midgardur by Center" },
+              { city: "Reykholt", hotel: "Fosshotel Reykholt" },
+              { city: "Hella", hotel: "Hotel Stracta" },
+              { city: "Núpar", hotel: "Fosshotel Núpar" }];
+const hotelsSeoJsonLd = buildHotelsJsonLd(hotelsForSeo, "Grupo Islândia 2026 — Create Travel", "/grupos/islandia-2026");
+const hotelsSeoFaqs = buildHotelsFAQs(hotelsForSeo, "Grupo Islândia 2026 — Create Travel", "/grupos/islandia-2026");
+const hotelsSeoKeywords = buildHotelsKeywords(hotelsForSeo);
+
 const jsonLd = {
   "@context": "https://schema.org",
   "@type": "TouristTrip",
@@ -242,8 +251,8 @@ const GrupoIslandia2026 = () => {
         canonicalPath="/grupos/islandia-2026"
         ogImage={heroImg}
         ogType="article"
-        jsonLd={jsonLd}
-        keywords="viagem em grupo Islândia 2026, aurora boreal com guia do Brasil, Crystal Ice Cave em português, Círculo Dourado Islândia, Blue Lagoon Reykjavík, Create Travel Islândia"
+        jsonLd={[jsonLd, ...hotelsSeoJsonLd]}
+        keywords={`viagem em grupo Islândia 2026, aurora boreal com guia do Brasil, Crystal Ice Cave em português, Círculo Dourado Islândia, Blue Lagoon Reykjavík, Create Travel Islândia, ${hotelsSeoKeywords}`}
       />
       <Header />
       <WhatsAppButton variant="float" params={whatsappParams} />
@@ -599,7 +608,7 @@ const GrupoIslandia2026 = () => {
       {/* FAQ */}
       <section className="section-padding bg-muted">
         <div className="container-editorial max-w-3xl">
-          <FAQSection faqs={faqs} />
+          <FAQSection faqs={[...faqs, ...hotelsSeoFaqs]} />
         </div>
       </section>
 
