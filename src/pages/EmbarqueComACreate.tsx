@@ -39,6 +39,7 @@ import grupoAfricaReveillonImg from "@/assets/grupo-africa-do-sul-reveillon-2027
 import grupoTurquiaReveillonImg from "@/assets/grupo-turquia-reveillon-2027.jpg";
 import grupoAfricaPrimaveraImg from "@/assets/grupo-africa-do-sul-primavera-2026.jpg";
 import grupoTurquia2026Img from "@/assets/grupo-turquia-2026.jpg";
+import grupoColombiaImg from "@/assets/grupo-colombia-2026.jpg";
 
 const DEPARTURES = [
   {
@@ -229,6 +230,16 @@ const DEPARTURES = [
     subtitle: "Istambul · Ancara · Capadócia · Pamukkale · Éfeso · Kusadasi · Bursa",
     desc: "Outono cinematográfico: cúpulas e Bósforo em Istambul, balões na Capadócia, piscinas brancas de Pamukkale e ruínas de Éfeso. Voos Turkish Airlines e guia desde o Brasil.",
     fromPrice: "A partir de € 3.698 por pessoa (apto duplo)",
+    status: "Saída confirmada",
+  },
+  {
+    href: "/grupos/colombia-2026",
+    img: grupoColombiaImg,
+    tag: "13 a 22/10/2026 · 10 dias",
+    title: "Colômbia · Entre montanhas e Caribe",
+    subtitle: "Bogotá · Zipaquirá · Villa de Leyva · Ráquira · Cartagena",
+    desc: "Catedral de Sal de Zipaquirá, Villa de Leyva colonial, Cartagena das Índias amuralhada e a alegria da Chiva Rumbera. Voos LATAM e guia desde o Brasil.",
+    fromPrice: "A partir de US$ 2.698 por pessoa (apto duplo)",
     status: "Saída confirmada",
   },
 ];
