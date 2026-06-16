@@ -50,6 +50,7 @@ import grupoChinaImg from "@/assets/grupo-china-2026.jpg";
 import grupoSuicaNorteItaliaImg from "@/assets/grupo-suica-norte-italia-2026.jpg";
 import grupoPortugalNorteSulImg from "@/assets/grupo-portugal-norte-sul-2026.jpg";
 import grupoChileCarreteraImg from "@/assets/grupo-chile-carretera-austral-2026.jpg";
+import grupoEuropaLesteTurquiaImg from "@/assets/grupo-europa-leste-turquia-2026.jpg";
 
 const RAW_DEPARTURES = [
   {
@@ -270,6 +271,16 @@ const RAW_DEPARTURES = [
     subtitle: "Krujë · Prizren · Dečani · Skopje · Ohrid · Berat · Gjirokastër · Butrint · Tirana",
     desc: "Outono dourado nos Bálcãs mais autênticos: cidadela de Skanderbeg, Mosteiro de Dečani (UNESCO), Lago de Ohrid, Berat e Gjirokastër, Riviera Albanesa e Butrint. Voos ITA Airways e guia desde o Brasil.",
     fromPrice: "A partir de € 4.759 por pessoa (apto duplo)",
+    status: "Saída confirmada",
+  },
+  {
+    href: "/grupos/europa-do-leste-turquia-2026",
+    img: grupoEuropaLesteTurquiaImg,
+    tag: "02 a 16/10/2026 · 15 dias",
+    title: "Europa do Leste & Turquia",
+    subtitle: "Budapeste · Viena · Praga · Istambul",
+    desc: "Grupo exclusivo de até 12 pessoas por quatro capitais icónicas: cruzeiro pelo Danúbio, concerto clássico em Schönbrunn, jantar medieval em Praga e o encontro entre Europa e Ásia. Voos Turkish Airlines.",
+    fromPrice: "A partir de R$ 23.850 por pessoa (apto duplo)",
     status: "Saída confirmada",
   },
   {
