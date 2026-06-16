@@ -274,6 +274,16 @@ const RAW_DEPARTURES = [
     status: "Saída confirmada",
   },
   {
+    href: "/grupos/europa-do-leste-turquia-2026",
+    img: grupoEuropaLesteTurquiaImg,
+    tag: "02 a 16/10/2026 · 15 dias",
+    title: "Europa do Leste & Turquia",
+    subtitle: "Budapeste · Viena · Praga · Istambul",
+    desc: "Grupo exclusivo de até 12 pessoas por quatro capitais icónicas: cruzeiro pelo Danúbio, concerto clássico em Schönbrunn, jantar medieval em Praga e o encontro entre Europa e Ásia. Voos Turkish Airlines.",
+    fromPrice: "A partir de R$ 23.850 por pessoa (apto duplo)",
+    status: "Saída confirmada",
+  },
+  {
     href: "/grupos/africa-do-sul-outubro-2026",
     img: grupoAfricaDoSulOutubroImg,
     tag: "12 a 20/10/2026 · 9 dias",
