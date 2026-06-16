@@ -29,7 +29,11 @@ export const ShareTripFloating = () => {
       typeof document !== "undefined" ? document.title : "Create Travel";
     const cleanTitle = pageTitle.split("|")[0].trim();
 
-    const message = `Olha que viagem incrível encontrei na Create Travel:\n\n*${cleanTitle}*\n\n${url}`;
+    const intro = isDiarioPost
+      ? "Achei essa leitura incrível no Diário da Create Travel:"
+      : "Olha que viagem incrível encontrei na Create Travel:";
+    const message = `${intro}\n\n*${cleanTitle}*\n\n${url}`;
+
 
     // Share API nativa (mobile) — abre o seletor de apps com WhatsApp pré-selecionado
     if (navigator.share) {
