@@ -1757,6 +1757,20 @@ export const diaryPosts: DiaryPost[] = [
         ],
       },
       {
+        heading: "Castelos, palácios, parlamentos e óperas: o cenário imperial",
+        paragraphs: [
+          "Se as catedrais e mesquitas guardam a alma religiosa do roteiro, são os castelos, palácios e parlamentos que guardam o poder. Praga abriga o maior complexo de castelo do mundo segundo o Guinness — o Castelo de Praga, fundado no século IX, com mais de 70.000 m² sobre o Moldava. Viena responde com dois palácios imperiais: o Hofburg, residência de inverno dos Habsburgos por seis séculos, e o Schönbrunn, com seus 1.441 cômodos e os jardins barrocos onde Mozart, aos seis anos, tocou para Maria Teresa. Em Budapeste, o Palácio Real de Buda domina a colina, e em Istambul os palácios Topkapi e Dolmabahçe contam a transição entre o Império Otomano clássico e sua versão final, afrancesada e à beira do Bósforo.",
+          "Os parlamentos completam o cenário: o Parlamento Húngaro, de frente para o Danúbio, é o terceiro maior do mundo e talvez o mais fotogênico — neogótico, com 691 cômodos e uma cúpula de 96 metros. O Parlamento austríaco em Viena, neoclássico com sua estátua de Atena, dialoga com a Ringstrasse. E as óperas costuram o eixo: a Staatsoper de Viena (uma das mais importantes do mundo), a Ópera Estatal Húngara em Budapeste (recém-restaurada, no estilo neorrenascentista), o Teatro Nacional e o Teatro dos Estados em Praga (onde Mozart estreou o Don Giovanni em 1787) e o Teatro Süreyya em Istambul. Em poucas viagens é possível assistir a uma temporada lírica em quatro casas históricas diferentes.",
+        ],
+      },
+      {
+        heading: "Cidades medievais e quatro línguas em duas semanas",
+        paragraphs: [
+          "Por baixo do verniz imperial existe uma camada anterior, medieval, que ainda estrutura essas cidades. A Cidade Velha de Praga, com suas ruelas de pedra, o Relógio Astronômico de 1410 e a Ponte Carlos de 1357, é o conjunto medieval mais íntegro da Europa Central. Budapeste guarda o Bairro do Castelo em Buda, com a Igreja de Matias e o Bastião dos Pescadores. Viena tem o centro histórico ao redor da Stephansplatz, com vielas que sobreviveram a séculos de reformas. E Istambul tem suas muralhas teodosianas do século V, a Cisterna da Basílica e o emaranhado do Grande Bazar, em funcionamento ininterrupto desde 1461.",
+          "São também quatro línguas em duas semanas — tcheco eslavo, alemão austríaco, húngaro fino-úgrico (sem parentesco com nenhuma das outras europeias) e turco. Mais o iídiche, o ladino sefardita e o grego bizantino ecoando nos bairros históricos. Pouca gente percebe, mas atravessar esse eixo é atravessar quatro famílias linguísticas distintas em poucos dias de viagem — um luxo intelectual que nenhum outro trecho do continente entrega.",
+        ],
+      },
+      {
         heading: "O Danúbio como fio condutor",
         paragraphs: [
           "Viena e Budapeste estão fisicamente ligadas pelo Danúbio — o segundo maior rio da Europa, que nasce na Floresta Negra alemã e desemboca no Mar Negro. Em ambas as cidades, ele é mais que paisagem: é a razão de existirem. O Parlamento húngaro foi construído de frente para a água; o centro histórico de Viena se organiza em torno do canal. Praga não toca o Danúbio, mas pertence à mesma bacia cultural — o Moldava deságua no Elba, e a sensação de cidade fluvial centro-europeia é a mesma.",
