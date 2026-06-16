@@ -1705,20 +1705,34 @@ export const diaryPosts: DiaryPost[] = [
   },
   {
     slug: "budapeste-viena-praga-istambul-conexoes-imperiais",
-    title: "Budapeste, Viena, Praga e Istambul: a rota dos impérios que moldaram a Europa",
+    title: "Budapeste, Viena, Praga e Istambul: a rota dos três impérios que moldaram a Europa",
     h1: "Budapeste, Viena, Praga e Istambul: quatro capitais, três impérios, uma mesma história",
     metaDescription:
-      "Por que Budapeste, Viena, Praga e Istambul se conectam: Habsburgos, Otomanos e o eixo do Danúbio que ainda hoje desenha a Europa Central e do Leste.",
+      "Por que Budapeste, Viena, Praga e Istambul se conectam: Habsburgos, Bizantinos e Otomanos, o Danúbio, a herança judaica e as catedrais, sinagogas e mesquitas mais belas do mundo.",
     keywords:
-      "budapeste viena praga istambul, europa central e leste, império austro-húngaro, império otomano, danúbio, roteiro europa leste e turquia",
+      "budapeste viena praga istambul, europa central e leste, império austro-húngaro, império otomano, império bizantino, danúbio, sinagogas europa, catedrais e mesquitas, renascimento, roteiro europa leste e turquia",
     intro:
-      "Olhadas no mapa, parecem quatro cidades distantes. Vividas em sequência, são uma única narrativa: a do continente que foi disputado, esculpido e estilizado por dois impérios gigantes — o Austro-Húngaro dos Habsburgos e o Otomano dos sultões — encontrando-se exatamente onde o Ocidente vira Oriente. Budapeste, Viena, Praga e Istambul não são paradas independentes em um roteiro: são capítulos do mesmo livro.",
+      "Olhadas no mapa, parecem quatro cidades distantes. Vividas em sequência, são uma única narrativa: a do continente que foi disputado, esculpido e estilizado por três impérios gigantes — o Bizantino, o Otomano e o Austro-Húngaro dos Habsburgos — encontrando-se exatamente onde o Ocidente vira Oriente. Budapeste, Viena, Praga e Istambul não são paradas independentes em um roteiro: são capítulos do mesmo livro, atravessados por um fio condutor de fé, música, renascimento cultural e convivência entre cristãos, judeus e muçulmanos.",
     sections: [
+      {
+        heading: "Três impérios, um mesmo território",
+        paragraphs: [
+          "Istambul foi capital de três impérios — Romano, Bizantino e Otomano — e por mais de mil anos comandou a cristandade oriental antes de se tornar o coração do mundo islâmico. Os Habsburgos, do outro lado, ergueram a partir de Viena um império católico que, em sua versão dual a partir de 1867, governou Praga, Budapeste e boa parte da Europa Central. Entre os dois polos, a fronteira foi se movendo durante séculos — e é essa fricção que explica praticamente tudo o que se vê hoje nessas quatro cidades.",
+          "Budapeste viveu sob domínio otomano por quase 150 anos (1541–1686) e ainda guarda banhos turcos em funcionamento, como o Rudas e o Király. Viena foi sitiada pelos otomanos em 1529 e 1683, e a derrota turca aos portões da cidade redesenhou o mapa do continente. Praga, mais ao norte, foi o palco do Renascimento centro-europeu sob Rodolfo II, que transformou o Castelo numa corte de astrônomos, alquimistas e artistas vindos de toda a Europa.",
+        ],
+      },
       {
         heading: "O eixo Habsburgo: Viena, Praga e Budapeste",
         paragraphs: [
-          "Por quase quatro séculos, a família Habsburgo governou um território que ia dos Alpes aos Cárpatos. Viena era a capital política e musical, Praga o coração boêmio e intelectual, Budapeste a parceira húngara que, a partir de 1867, dividiu com Viena a soberania do império dual. O resultado é uma estética compartilhada — cafés com espelhos altos, óperas douradas, palácios pastel, ruas largas pensadas para carruagens imperiais — que se reconhece imediatamente nas três cidades, mesmo séculos depois da queda da monarquia em 1918.",
+          "Por quase quatro séculos, a família Habsburgo governou um território que ia dos Alpes aos Cárpatos. Viena era a capital política e musical, Praga o coração boêmio e intelectual, Budapeste a parceira húngara que dividiu com Viena a soberania do império dual. O resultado é uma estética compartilhada — cafés com espelhos altos, óperas douradas, palácios pastel, ruas largas pensadas para carruagens imperiais — que se reconhece imediatamente nas três cidades, mesmo séculos depois da queda da monarquia em 1918.",
           "Caminhar por Viena depois de Budapeste é uma sensação de déjà-vu organizado: a Ringstrasse vienense conversa com a Avenida Andrássy húngara, o Hofburg dialoga com o Palácio Real de Buda, e o ritual do café — Sachertorte em Viena, Dobos em Budapeste — é o mesmo gesto cultural em duas línguas.",
+        ],
+      },
+      {
+        heading: "Música, Renascimento e o fio cultural",
+        paragraphs: [
+          "Poucos lugares do mundo concentram tanta história musical em tão pouco espaço. Viena é a cidade de Mozart, Beethoven, Haydn, Schubert, Brahms, Mahler e Strauss — todos viveram, compuseram ou estrearam suas obras a poucas quadras umas das outras. Budapeste devolve a resposta com Liszt e Bartók; Praga, com Smetana, Dvořák e o jovem Mozart, que estreou o Don Giovanni no Teatro dos Estados em 1787. Istambul fecha o eixo com a música clássica otomana, os dervixes rodopiantes e as tradições do Mevlevi.",
+          "No Renascimento, Praga foi capital do Sacro Império Romano-Germânico sob Rodolfo II e atraiu Kepler, Tycho Brahe e Arcimboldo. Viena se tornou epicentro do Barroco e, depois, do Renascimento intelectual fin-de-siècle, com Klimt, Schiele, Freud e a Secessão. Istambul viveu seu próprio renascimento sob Solimão, o Magnífico, e o gênio do arquiteto Sinan, autor das mesquitas que ainda hoje definem o horizonte da cidade.",
         ],
       },
       {
@@ -1726,6 +1740,20 @@ export const diaryPosts: DiaryPost[] = [
         paragraphs: [
           "Enquanto Viena e Budapeste foram bombardeadas durante a Segunda Guerra, Praga atravessou o século 20 quase sem cicatrizes arquitetônicas. É por isso que andar pela Cidade Velha é andar dentro de um conjunto medieval, gótico, renascentista e barroco preservado em camadas — a Ponte Carlos, o Relógio Astronômico, o Castelo erguido sobre o rio Moldava. Tudo parece cenográfico porque, na verdade, é original.",
           "A herança Habsburgo aqui se mistura com a tradição tcheca de boemia intelectual: Kafka, Smetana, Dvořák, a Revolução de Veludo. Praga é o elo cultural mais delicado do trio centro-europeu — mais introspectiva que Viena, menos imperial que Budapeste, mais literária que ambas.",
+        ],
+      },
+      {
+        heading: "A herança judaica: a outra história, em paralelo",
+        paragraphs: [
+          "Ao lado da narrativa imperial corre uma segunda história, igualmente decisiva: a das comunidades judaicas que viveram, prosperaram e foram perseguidas nessas quatro cidades durante mais de mil anos. Praga abriga o bairro judeu mais bem preservado da Europa — Josefov — com seis sinagogas históricas, incluindo a Sinagoga Velha-Nova (de 1270, a mais antiga ainda em uso no continente) e o cemitério judeu medieval, com lápides empilhadas em camadas por falta de espaço. É um dos lugares mais comoventes da Europa Central.",
+          "Budapeste tem a maior sinagoga da Europa e a segunda maior do mundo — a Grande Sinagoga da Rua Dohány, em estilo mourisco, com capacidade para 3.000 pessoas. Viena, antes de 1938, era um dos centros judaicos mais vibrantes do continente, lar de Freud, Mahler, Schoenberg, Zweig e Wittgenstein, e ainda hoje preserva sinagogas, museus e o monumento de Rachel Whiteread na Judenplatz. Istambul guarda a herança sefardita dos judeus expulsos da Espanha em 1492 e acolhidos pelo sultão Bayezid II — a Sinagoga Neve Shalom e a Ahrida, no bairro de Balat, ainda estão em funcionamento.",
+        ],
+      },
+      {
+        heading: "Catedrais, sinagogas e mesquitas: três fés, um itinerário",
+        paragraphs: [
+          "Talvez nenhum outro roteiro do mundo permita visitar, em uma só viagem, alguns dos templos mais importantes e arquitetonicamente impressionantes das três grandes tradições monoteístas. Catedrais: a Catedral de São Vito em Praga (gótica, sobre o Castelo), a Catedral de Santo Estêvão em Viena (com seu telhado de azulejos coloridos), a Basílica de Santo Estêvão em Budapeste (que abriga a relíquia da mão direita do primeiro rei húngaro) e a Hagia Sophia em Istambul — durante mil anos a maior catedral da cristandade, depois mesquita, depois museu, hoje novamente mesquita.",
+          "Sinagogas: Velha-Nova e Espanhola em Praga, Dohány em Budapeste, Stadttempel em Viena, Ahrida em Istambul. Mesquitas: a Mesquita Azul, a Süleymaniye e a Rüstem Pasha em Istambul, todas obras-primas de Sinan e do auge otomano, com interiores forrados de azulejos de Iznik. Em duas semanas, é possível percorrer um arco de fé e de arte que vai do gótico boêmio aos azulejos turcos, passando pelo barroco austríaco e pelo estilo mourisco húngaro. Poucas viagens entregam algo tão denso em significado.",
         ],
       },
       {
@@ -1738,14 +1766,14 @@ export const diaryPosts: DiaryPost[] = [
       {
         heading: "Istambul: onde o Ocidente encontra o Oriente",
         paragraphs: [
-          "E é exatamente aí que entra Istambul. Por mais de 150 anos, os exércitos otomanos pressionaram a Europa Central — chegaram a sitiar Viena em 1529 e novamente em 1683, quando foram contidos a poucos quilômetros do Hofburg. Budapeste viveu sob domínio otomano por quase 150 anos (1541–1686), e ainda guarda banhos turcos em funcionamento, como o Rudas e o Király, que são a marca mais visível dessa convivência.",
-          "Istambul é o outro lado dessa equação. Capital de três impérios — Romano, Bizantino e Otomano — é a única cidade do mundo construída sobre dois continentes. A Hagia Sophia, a Mesquita Azul, o Grande Bazar e o Bósforo contam a história do poder que entrou pela Europa pela porta do Sudeste. Visitar Istambul depois das três capitais centro-europeias é fechar o círculo: você finalmente vê de onde vinha a pressão imperial que moldou Viena e Budapeste — e o sofisticadíssimo mundo cultural que se desenhou do outro lado dessa fronteira.",
+          "Istambul é o outro lado da equação. Capital de três impérios — Romano, Bizantino e Otomano — é a única cidade do mundo construída sobre dois continentes. A Hagia Sophia, a Mesquita Azul, a Süleymaniye, o Grande Bazar e o Bósforo contam a história do poder que entrou pela Europa pela porta do Sudeste. Visitar Istambul depois das três capitais centro-europeias é fechar o círculo: você finalmente vê de onde vinha a pressão imperial que moldou Viena e Budapeste — e o sofisticadíssimo mundo cultural que se desenhou do outro lado dessa fronteira.",
+          "É também onde as três fés convivem mais densamente no espaço urbano: minaretes, campanários e sinagogas a poucas quadras uns dos outros, num tecido que sobreviveu séculos de tensões e ainda hoje é uma das experiências urbanas mais fascinantes do planeta.",
         ],
       },
       {
         heading: "Por que esse roteiro funciona tão bem juntos",
         paragraphs: [
-          "Combinar essas quatro cidades em uma só viagem entrega algo raro: a sensação de entender a Europa em vez de apenas visitá-la. Em duas semanas, você atravessa três tradições imperiais, dois alfabetos (latino e árabe), duas grandes religiões institucionais (cristandade católica/ortodoxa e islã) e três cozinhas que se influenciaram mutuamente — strudel veniense, gulasch húngaro, knedlíky tcheco, meze turco — todas convivendo no mesmo eixo histórico.",
+          "Combinar essas quatro cidades em uma só viagem entrega algo raro: a sensação de entender a Europa em vez de apenas visitá-la. Em duas semanas, você atravessa três tradições imperiais, dois alfabetos (latino e árabe), três grandes religiões (cristandade católica e ortodoxa, judaísmo e islã) e três cozinhas que se influenciaram mutuamente — strudel veniense, gulasch húngaro, knedlíky tcheco, meze turco — todas convivendo no mesmo eixo histórico.",
           "É também um roteiro logisticamente generoso: distâncias curtas entre Praga, Viena e Budapeste (voos ou trens rápidos), e um único voo um pouco mais longo até Istambul para fechar com o contraste mais dramático. Em grupo curado, com guia brasileiro, a sequência narrativa fica ainda mais clara — cada cidade prepara o terreno para a próxima.",
         ],
       },
@@ -1759,8 +1787,8 @@ export const diaryPosts: DiaryPost[] = [
       {
         heading: "Como a Create Travel monta esse roteiro",
         paragraphs: [
-          "Nossa expedição Europa do Leste e Turquia 2026 conecta Praga, Viena, Budapeste e Istambul em uma única narrativa, com guia brasileiro embarcando junto desde o Brasil, hospedagens selecionadas em endereços com história (ibis Praha Old Town, ibis Wien Mariahilf, Mercure Budapest Castle Hill e Mövenpick Istanbul Golden Horn), trens panorâmicos entre as capitais centro-europeias e voo direto para Istambul para fechar com o contraste oriental.",
-          "Mais do que uma sequência de cidades bonitas, é um roteiro pensado para que a viagem faça sentido como um todo — você desembarca com a sensação de ter entendido como esse pedaço do mundo se formou.",
+          "Nossa expedição Europa do Leste e Turquia 2026 conecta Praga, Viena, Budapeste e Istambul em uma única narrativa, com guia brasileiro embarcando junto desde o Brasil, hospedagens selecionadas em endereços com história, trens panorâmicos entre as capitais centro-europeias e voo direto para Istambul para fechar com o contraste oriental.",
+          "Mais do que uma sequência de cidades bonitas, é um roteiro pensado para que a viagem faça sentido como um todo — música, fé, renascimento, herança judaica e disputa imperial costurados num único fio. Você desembarca com a sensação de ter entendido como esse pedaço do mundo se formou.",
         ],
       },
     ],
