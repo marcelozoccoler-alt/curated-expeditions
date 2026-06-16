@@ -1703,6 +1703,100 @@ export const diaryPosts: DiaryPost[] = [
     category: "Curiosidades",
     whatsappName: "Viagem em grupo com guia brasileiro",
   },
+  {
+    slug: "budapeste-viena-praga-istambul-conexoes-imperiais",
+    title: "Budapeste, Viena, Praga e Istambul: a rota dos impérios que moldaram a Europa",
+    h1: "Budapeste, Viena, Praga e Istambul: quatro capitais, três impérios, uma mesma história",
+    metaDescription:
+      "Por que Budapeste, Viena, Praga e Istambul se conectam: Habsburgos, Otomanos e o eixo do Danúbio que ainda hoje desenha a Europa Central e do Leste.",
+    keywords:
+      "budapeste viena praga istambul, europa central e leste, império austro-húngaro, império otomano, danúbio, roteiro europa leste e turquia",
+    intro:
+      "Olhadas no mapa, parecem quatro cidades distantes. Vividas em sequência, são uma única narrativa: a do continente que foi disputado, esculpido e estilizado por dois impérios gigantes — o Austro-Húngaro dos Habsburgos e o Otomano dos sultões — encontrando-se exatamente onde o Ocidente vira Oriente. Budapeste, Viena, Praga e Istambul não são paradas independentes em um roteiro: são capítulos do mesmo livro.",
+    sections: [
+      {
+        heading: "O eixo Habsburgo: Viena, Praga e Budapeste",
+        paragraphs: [
+          "Por quase quatro séculos, a família Habsburgo governou um território que ia dos Alpes aos Cárpatos. Viena era a capital política e musical, Praga o coração boêmio e intelectual, Budapeste a parceira húngara que, a partir de 1867, dividiu com Viena a soberania do império dual. O resultado é uma estética compartilhada — cafés com espelhos altos, óperas douradas, palácios pastel, ruas largas pensadas para carruagens imperiais — que se reconhece imediatamente nas três cidades, mesmo séculos depois da queda da monarquia em 1918.",
+          "Caminhar por Viena depois de Budapeste é uma sensação de déjà-vu organizado: a Ringstrasse vienense conversa com a Avenida Andrássy húngara, o Hofburg dialoga com o Palácio Real de Buda, e o ritual do café — Sachertorte em Viena, Dobos em Budapeste — é o mesmo gesto cultural em duas línguas.",
+        ],
+      },
+      {
+        heading: "Praga, a joia que escapou intacta",
+        paragraphs: [
+          "Enquanto Viena e Budapeste foram bombardeadas durante a Segunda Guerra, Praga atravessou o século 20 quase sem cicatrizes arquitetônicas. É por isso que andar pela Cidade Velha é andar dentro de um conjunto medieval, gótico, renascentista e barroco preservado em camadas — a Ponte Carlos, o Relógio Astronômico, o Castelo erguido sobre o rio Moldava. Tudo parece cenográfico porque, na verdade, é original.",
+          "A herança Habsburgo aqui se mistura com a tradição tcheca de boemia intelectual: Kafka, Smetana, Dvořák, a Revolução de Veludo. Praga é o elo cultural mais delicado do trio centro-europeu — mais introspectiva que Viena, menos imperial que Budapeste, mais literária que ambas.",
+        ],
+      },
+      {
+        heading: "O Danúbio como fio condutor",
+        paragraphs: [
+          "Viena e Budapeste estão fisicamente ligadas pelo Danúbio — o segundo maior rio da Europa, que nasce na Floresta Negra alemã e desemboca no Mar Negro. Em ambas as cidades, ele é mais que paisagem: é a razão de existirem. O Parlamento húngaro foi construído de frente para a água; o centro histórico de Viena se organiza em torno do canal. Praga não toca o Danúbio, mas pertence à mesma bacia cultural — o Moldava deságua no Elba, e a sensação de cidade fluvial centro-europeia é a mesma.",
+          "Hoje, o trajeto Viena–Budapeste pode ser feito de trem em pouco mais de duas horas, atravessando planícies que durante séculos foram zona de fronteira entre o império cristão e o avanço otomano. Geografia e história se sobrepõem.",
+        ],
+      },
+      {
+        heading: "Istambul: onde o Ocidente encontra o Oriente",
+        paragraphs: [
+          "E é exatamente aí que entra Istambul. Por mais de 150 anos, os exércitos otomanos pressionaram a Europa Central — chegaram a sitiar Viena em 1529 e novamente em 1683, quando foram contidos a poucos quilômetros do Hofburg. Budapeste viveu sob domínio otomano por quase 150 anos (1541–1686), e ainda guarda banhos turcos em funcionamento, como o Rudas e o Király, que são a marca mais visível dessa convivência.",
+          "Istambul é o outro lado dessa equação. Capital de três impérios — Romano, Bizantino e Otomano — é a única cidade do mundo construída sobre dois continentes. A Hagia Sophia, a Mesquita Azul, o Grande Bazar e o Bósforo contam a história do poder que entrou pela Europa pela porta do Sudeste. Visitar Istambul depois das três capitais centro-europeias é fechar o círculo: você finalmente vê de onde vinha a pressão imperial que moldou Viena e Budapeste — e o sofisticadíssimo mundo cultural que se desenhou do outro lado dessa fronteira.",
+        ],
+      },
+      {
+        heading: "Por que esse roteiro funciona tão bem juntos",
+        paragraphs: [
+          "Combinar essas quatro cidades em uma só viagem entrega algo raro: a sensação de entender a Europa em vez de apenas visitá-la. Em duas semanas, você atravessa três tradições imperiais, dois alfabetos (latino e árabe), duas grandes religiões institucionais (cristandade católica/ortodoxa e islã) e três cozinhas que se influenciaram mutuamente — strudel veniense, gulasch húngaro, knedlíky tcheco, meze turco — todas convivendo no mesmo eixo histórico.",
+          "É também um roteiro logisticamente generoso: distâncias curtas entre Praga, Viena e Budapeste (voos ou trens rápidos), e um único voo um pouco mais longo até Istambul para fechar com o contraste mais dramático. Em grupo curado, com guia brasileiro, a sequência narrativa fica ainda mais clara — cada cidade prepara o terreno para a próxima.",
+        ],
+      },
+      {
+        heading: "Melhor época para combinar as quatro cidades",
+        paragraphs: [
+          "Maio, junho e setembro são as janelas ideais: temperaturas amenas em toda a região, dias longos para passeios a pé, esplanadas de café cheias e Istambul ainda confortável antes do calor de julho-agosto. Outubro também é generoso, com tons outonais nos parques de Viena e Praga e um Bósforo ainda navegável com clima agradável.",
+          "Em dezembro, o eixo centro-europeu se transforma com os mercados de Natal — Viena, Praga e Budapeste são três das capitais mais bonitas do mundo nessa época — e Istambul oferece o contraponto mais quente, com ar limpo de inverno e bazares em ritmo cheio.",
+        ],
+      },
+      {
+        heading: "Como a Create Travel monta esse roteiro",
+        paragraphs: [
+          "Nossa expedição Europa do Leste e Turquia 2026 conecta Praga, Viena, Budapeste e Istambul em uma única narrativa, com guia brasileiro embarcando junto desde o Brasil, hospedagens selecionadas em endereços com história (ibis Praha Old Town, ibis Wien Mariahilf, Mercure Budapest Castle Hill e Mövenpick Istanbul Golden Horn), trens panorâmicos entre as capitais centro-europeias e voo direto para Istambul para fechar com o contraste oriental.",
+          "Mais do que uma sequência de cidades bonitas, é um roteiro pensado para que a viagem faça sentido como um todo — você desembarca com a sensação de ter entendido como esse pedaço do mundo se formou.",
+        ],
+      },
+    ],
+    faq: [
+      {
+        q: "Por que combinar Budapeste, Viena, Praga e Istambul em uma única viagem?",
+        a: "Porque as três cidades centro-europeias compartilham a herança do Império Austro-Húngaro (Habsburgos) e Istambul é o centro do Império Otomano, que disputou e influenciou toda essa região por séculos. Visitadas em sequência, contam uma história contínua em vez de quatro histórias soltas.",
+      },
+      {
+        q: "Qual a melhor ordem para visitar as quatro cidades?",
+        a: "O fluxo mais natural é Praga → Viena → Budapeste → Istambul. As três primeiras estão conectadas por trens rápidos e compartilham estética Habsburgo, e Istambul fecha como contraponto oriental ao final, num voo direto a partir de Budapeste.",
+      },
+      {
+        q: "Quantos dias são ideais para esse roteiro?",
+        a: "Entre 12 e 15 dias é o intervalo ideal — cerca de 3 noites em cada capital centro-europeia e 3 a 4 noites em Istambul, que pede mais tempo por ser geograficamente maior e culturalmente mais densa.",
+      },
+      {
+        q: "Qual é a melhor época para fazer esse roteiro?",
+        a: "Maio, junho, setembro e início de outubro entregam clima ameno nas quatro cidades. Dezembro é mágico nas três centro-europeias pelos mercados de Natal, e Istambul fica confortável e fotogênica no inverno seco.",
+      },
+      {
+        q: "É um roteiro complicado para fazer por conta?",
+        a: "É possível, mas é onde uma viagem em grupo com guia brasileiro mais agrega valor: idiomas diferentes, transferências entre países, ingressos antecipados, contexto histórico para amarrar a narrativa e logística entre Schengen e Turquia ficam resolvidos do início ao fim.",
+      },
+    ],
+    relatedDestinations: [
+      { label: "Grupo Europa do Leste e Turquia 2026", href: "/grupos/europa-leste-turquia-2026" },
+      { label: "Próximas saídas em grupo com guia brasileiro", href: "/embarque-com-a-create" },
+    ],
+    imageAiPrompt:
+      "Editorial cinematic split landscape collage of four iconic European capitals at golden hour: the Hungarian Parliament on the Danube in Budapest, the Vienna State Opera facade, the Charles Bridge and Prague Castle skyline, and the Hagia Sophia with the Bosphorus in Istanbul, painterly warm light, rich textures, no people in foreground, ultra detailed, magazine cover quality, no text no logos",
+    publishedAt: "2026-06-16",
+    readingMinutes: 9,
+    category: "Cultura",
+    whatsappName: "Budapeste, Viena, Praga e Istambul: a rota dos impérios",
+  },
 ];
 
 export const getDiaryPost = (slug: string): DiaryPost | undefined =>
