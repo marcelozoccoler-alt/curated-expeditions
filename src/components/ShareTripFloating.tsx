@@ -3,15 +3,21 @@ import { useLocation } from "react-router-dom";
 import { useState } from "react";
 
 /**
- * Botão flutuante de "compartilhar pelo WhatsApp" exibido apenas nas
- * páginas de Grupos com Guia Brasileiro (/grupos/*). Posicionado acima
- * do botão flutuante padrão de WhatsApp.
+ * Botão flutuante de "compartilhar pelo WhatsApp" exibido nas páginas
+ * de Grupos com Guia Brasileiro (/grupos/*) e nas leituras autorais
+ * do Diário (/diario/:slug). Posicionado acima do botão flutuante
+ * padrão de WhatsApp.
  */
 export const ShareTripFloating = () => {
   const { pathname } = useLocation();
   const [copied, setCopied] = useState(false);
 
-  if (!pathname.startsWith("/grupos/")) return null;
+  const isGrupo = pathname.startsWith("/grupos/");
+  const isDiarioPost =
+    pathname.startsWith("/diario/") && pathname.replace("/diario/", "").length > 0;
+
+  if (!isGrupo && !isDiarioPost) return null;
+
 
   const handleShare = async () => {
     const url =
@@ -23,7 +29,11 @@ export const ShareTripFloating = () => {
       typeof document !== "undefined" ? document.title : "Create Travel";
     const cleanTitle = pageTitle.split("|")[0].trim();
 
-    const message = `Olha que viagem incrível encontrei na Create Travel:\n\n*${cleanTitle}*\n\n${url}`;
+    const intro = isDiarioPost
+      ? "Achei essa leitura incrível no Diário da Create Travel:"
+      : "Olha que viagem incrível encontrei na Create Travel:";
+    const message = `${intro}\n\n*${cleanTitle}*\n\n${url}`;
+
 
     // Share API nativa (mobile) — abre o seletor de apps com WhatsApp pré-selecionado
     if (navigator.share) {
