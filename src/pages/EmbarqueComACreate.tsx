@@ -50,6 +50,7 @@ import grupoChinaImg from "@/assets/grupo-china-2026.jpg";
 import grupoSuicaNorteItaliaImg from "@/assets/grupo-suica-norte-italia-2026.jpg";
 import grupoPortugalNorteSulImg from "@/assets/grupo-portugal-norte-sul-2026.jpg";
 import grupoChileCarreteraImg from "@/assets/grupo-chile-carretera-austral-2026.jpg";
+import grupoEuropaLesteTurquiaImg from "@/assets/grupo-europa-leste-turquia-2026.jpg";
 
 const RAW_DEPARTURES = [
   {
