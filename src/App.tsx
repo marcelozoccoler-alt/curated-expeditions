@@ -56,6 +56,7 @@ import AdminSeo from "./pages/AdminSeo";
 
 
 import ScrollToTop from "./components/ScrollToTop";
+import ShareTripFloating from "./components/ShareTripFloating";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
@@ -67,6 +68,7 @@ const App = () => (
       <Sonner />
       <BrowserRouter>
         <ScrollToTop />
+        <ShareTripFloating />
         <Routes>
           <Route path="/" element={<Index />} />
         <Route path="/destinos" element={<Destinos />} />
