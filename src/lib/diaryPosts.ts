@@ -1839,7 +1839,105 @@ export const diaryPosts: DiaryPost[] = [
     category: "Cultura",
     whatsappName: "Budapeste, Viena, Praga e Istambul: a rota dos impérios",
   },
+  {
+    slug: "albania-por-que-visitar-cultura-natureza",
+    title: "Albânia: por que visitar, experiências, cultura, gastronomia e natureza",
+    h1: "Albânia: o último segredo do Mediterrâneo que arrebata o coração",
+    metaDescription:
+      "Por que visitar a Albânia: praias da Riviera, montanhas dos Bálcãs, cultura otomano-bizantina, gastronomia mediterrânea e histórias que emocionam.",
+    keywords: "albania, viagem albania, riviera albanesa, balcas, tirana, berat, gjirokastra, alpes albaneses",
+    intro:
+      "Existe um país no Mediterrâneo onde o mar é tão azul quanto o de Capri, as montanhas lembram a Suíça, as cidades têm a alma de Marrocos e os preços ainda são de outra década. Esse país é a Albânia — e talvez seja o último segredo de verdade da Europa. Fechada ao mundo por quase 50 anos durante a ditadura de Enver Hoxha, ela acordou recentemente, generosa, intacta e com uma hospitalidade que arrebata.",
+    sections: [
+      {
+        heading: "Por que visitar a Albânia agora",
+        paragraphs: [
+          "A Albânia entrega o que a Grécia, a Croácia e a Itália entregavam há trinta anos: praias semivazias de areia branca e água translúcida, vilas medievais sem multidões, comida feita com ingredientes do próprio quintal e preços que fazem qualquer viajante se perguntar por que demorou tanto a chegar aqui.",
+          "É um país do tamanho de Sergipe que reúne, num único roteiro, ruínas gregas e romanas, mosteiros bizantinos, cidades-museu otomanas Patrimônio da Humanidade, alpes selvagens e mais de 450 km de costa no Adriático e no Jônico. Tudo isso com uma cena gastronômica em ebulição e uma juventude que fala inglês, italiano e celebra a abertura ao mundo com entusiasmo contagiante.",
+        ],
+      },
+      {
+        heading: "Experiências que ficam para sempre",
+        paragraphs: [
+          "Atravessar de barco o Lago Koman, encaixado entre paredões verticais — o trajeto é chamado de 'fiorde dos Bálcãs' e leva ao coração dos Alpes Albaneses. Caminhar entre Theth e Valbona, uma das travessias mais belas da Europa, dormindo em casas de família nas aldeias de pedra.",
+          "Subir ao Castelo de Berat ao pôr do sol e descobrir que dentro das muralhas ainda vive gente, em casas brancas empilhadas que rendem à cidade o apelido de 'cidade das mil janelas'. Perder-se nas vielas de Gjirokastra, terra natal do escritor Ismail Kadaré, com seus telhados de ardósia cinza e bazar otomano restaurado.",
+          "Mergulhar nas águas do Mar Jônico em Ksamil, Dhërmi e Himara — a Riviera Albanesa entrega praias que rivalizam com as melhores das Cíclades. Visitar Butrint, sítio arqueológico Patrimônio da Humanidade onde gregos, romanos, bizantinos e venezianos deixaram camadas sobrepostas de história.",
+        ],
+      },
+      {
+        heading: "Cultura: o cruzamento de civilizações",
+        paragraphs: [
+          "A Albânia é uma das culturas mais singulares da Europa. O idioma albanês não pertence a nenhuma família linguística próxima — é um ramo isolado do indo-europeu, falado há mais de 3.000 anos. A população convive em harmonia rara: muçulmanos sunitas, bektashis (uma vertente sufi mística com sede mundial em Tirana), católicos e ortodoxos vivem lado a lado, frequentemente na mesma família.",
+          "Tirana, a capital, é um laboratório a céu aberto. Os prédios da era comunista foram pintados em cores vibrantes por iniciativa do ex-prefeito e atual primeiro-ministro Edi Rama, ele mesmo artista plástico. O Bunk'Art, instalado num bunker antinuclear de Hoxha, é um dos museus mais perturbadores e poéticos da Europa contemporânea.",
+          "O kanun, código de honra medieval transmitido oralmente, ainda ecoa no norte do país e moldou conceitos como a 'besa' — a palavra empenhada, a hospitalidade sagrada que levou famílias albanesas a esconderem judeus durante a Segunda Guerra. A Albânia foi um dos pouquíssimos países europeus onde havia mais judeus no fim da guerra do que no início.",
+        ],
+      },
+      {
+        heading: "Gastronomia: mediterrâneo puro, ainda artesanal",
+        paragraphs: [
+          "A comida albanesa é o Mediterrâneo antes da industrialização: azeite extra-virgem das próprias oliveiras, queijos de cabra curados em casa, tomates de verdade, ervas selvagens, peixe pescado pela manhã. Tudo regado com raki caseiro e vinhos de uvas autóctones como Kallmet e Shesh — uma cena enológica em redescoberta.",
+          "Provar o byrek (torta folhada de espinafre, queijo ou abóbora) num café de Tirana. Comer tavë kosi — cordeiro assado com iogurte e ovos — num konak de Elbasan. Cordeiro no espeto nas montanhas de Korçë. Peixe grelhado com legumes da horta num chiringuito de Himara, olhando o pôr do sol cair no Jônico. A conta raramente passa de 15 euros por pessoa, vinho incluso.",
+          "Korçë, no leste, é considerada a capital gastronômica do país, com cervejaria artesanal centenária e o melhor lakror (torta rústica) da região. Permet é berço do raki mais celebrado. E nas aldeias dos Alpes, o café da manhã ainda chega à mesa direto do estábulo, da horta e do forno a lenha.",
+        ],
+      },
+      {
+        heading: "Natureza: alpes, lagos e duas costas",
+        paragraphs: [
+          "Os Alpes Albaneses, no norte, abrigam os parques nacionais de Theth e Valbona — paredões calcários, cascatas, lagos glaciais e aldeias de pedra onde o tempo parou. O Vjosa, no sul, foi declarado em 2023 o primeiro Parque Nacional de Rio Selvagem da Europa: 270 km de águas correndo livres, sem uma única represa.",
+          "Três grandes lagos guardam fronteiras com vizinhos: o Lago Ohrid (com a Macedônia do Norte), um dos mais antigos do planeta e Patrimônio da Humanidade; o Lago Prespa, refúgio de pelicanos-crespos; e o Lago Shkodër, o maior dos Bálcãs.",
+          "E há as duas costas: o Adriático, ao norte, com praias longas de areia clara; e o Jônico, ao sul, da Riviera Albanesa, com enseadas de águas cristalinas escondidas entre montanhas que descem direto no mar. A estrada do Llogara Pass, que serpenteia da montanha até a praia de Dhërmi, é uma das mais cinematográficas da Europa.",
+        ],
+      },
+      {
+        heading: "Histórias que arrebatam o coração",
+        paragraphs: [
+          "A Albânia é um país de histórias que parecem ficção. Madre Teresa de Calcutá nasceu albanesa, em Skopje, de família de Shkodër — o aeroporto internacional de Tirana leva seu nome. Ismail Kadaré, eterno candidato ao Nobel, transformou a paisagem de Gjirokastra em literatura universal. Lord Byron viajou pelo país em 1809 e escreveu que ali encontrou a hospitalidade mais nobre que conhecera na vida.",
+          "Há a história da besa, que fez aldeias inteiras se mobilizarem para proteger judeus durante o nazismo — gesto reconhecido pelo Yad Vashem em Jerusalém. Há a história dos mais de 170 mil bunkers construídos por Hoxha por paranoia, hoje virados em cafés, hotéis-cápsula e museus. E há a história silenciosa que se repete em cada vilarejo: a do estrangeiro convidado a entrar, sentar à mesa e provar o raki da casa, sem nunca ter sido apresentado.",
+          "Talvez seja por isso que tantos viajantes voltam da Albânia com a sensação de ter conhecido um país que ainda sabe receber — e que a Europa, em algum lugar do caminho, esqueceu de ser.",
+        ],
+      },
+      {
+        heading: "Roteiro autoral Create Travel",
+        paragraphs: [
+          "Nossa expedição clássica combina Tirana (cultura e história contemporânea), Berat e Gjirokastra (cidades-museu otomanas), a Riviera Albanesa (Himara, Dhërmi, Ksamil e Butrint), o Lago Ohrid e os Alpes Albaneses com a travessia Koman–Valbona–Theth. De 10 a 14 dias, com guia brasileiro, hospedagens selecionadas entre boutique hotels urbanos e casas de família nas montanhas, e a possibilidade de combinar com Macedônia do Norte, Kosovo e Montenegro num grande circuito dos Bálcãs.",
+        ],
+      },
+    ],
+    faq: [
+      {
+        q: "A Albânia é segura para turistas brasileiros?",
+        a: "Sim. A Albânia é hoje um dos países mais seguros dos Bálcãs, com índice de criminalidade baixo e hospitalidade lendária. Brasileiros não precisam de visto para estadias de até 90 dias.",
+      },
+      {
+        q: "Qual a melhor época para visitar a Albânia?",
+        a: "Maio, junho, setembro e início de outubro são ideais: clima ameno, praias ainda vazias e montanhas acessíveis. Julho e agosto são quentes e mais cheios na Riviera. Para a travessia dos Alpes, mire entre junho e outubro.",
+      },
+      {
+        q: "Quantos dias preciso para conhecer a Albânia?",
+        a: "Um roteiro completo pede entre 10 e 14 dias para combinar cidades históricas, Riviera e Alpes. Em 7 dias dá para fazer um recorte sul (Tirana, Berat, Gjirokastra e Riviera) muito consistente.",
+      },
+      {
+        q: "Vale combinar a Albânia com outros países dos Bálcãs?",
+        a: "Sim, e é uma das combinações mais ricas da Europa. Macedônia do Norte, Kosovo, Montenegro e Grécia fazem fronteira direta e somam camadas culturais que se conversam — todas com guia brasileiro e logística resolvida pela Create Travel.",
+      },
+      {
+        q: "Qual é o idioma e a moeda?",
+        a: "O idioma oficial é o albanês, mas inglês e italiano são amplamente falados, especialmente pelos mais jovens. A moeda é o lek albanês, e euros são aceitos em muitos estabelecimentos turísticos.",
+      },
+    ],
+    relatedDestinations: [
+      { label: "Destinos na Europa", href: "/destinos?c=europa" },
+      { label: "Diário Create Travel", href: "/diario" },
+    ],
+    imageAiPrompt:
+      "Editorial cinematic landscape of the Albanian Riviera at golden hour, turquoise Ionian Sea bay seen from a cliffside road, white-stone village perched above with terracotta roofs, distant Albanian Alps on the horizon, painterly warm light, magazine cover quality, no people in foreground, ultra detailed, no text no logos",
+    publishedAt: "2026-06-17",
+    readingMinutes: 8,
+    category: "Destino",
+    whatsappName: "Roteiro Albânia",
+  },
 ];
+
 
 export const getDiaryPost = (slug: string): DiaryPost | undefined =>
   diaryPosts.find((p) => p.slug === slug);
