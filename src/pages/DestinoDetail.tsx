@@ -375,6 +375,17 @@ const DestinoDetail = () => {
         </section>
       )}
 
+      {/* Itineraries with pricing */}
+      {destination.itineraries && destination.itineraries.length > 0 && (
+        <ItinerariesSection
+          itineraries={destination.itineraries}
+          destinationName={destination.name}
+          destinationTags={destination.tags}
+        />
+      )}
+
+
+
       {/* FAQ — perguntas + intents conversacionais para Google e IAs */}
       <section className="section-padding">
         <div className="container-editorial max-w-4xl">
