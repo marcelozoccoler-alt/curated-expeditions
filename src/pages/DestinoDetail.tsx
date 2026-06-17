@@ -8,6 +8,7 @@ import { WhatsAppButton } from "@/components/WhatsAppButton";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
 import { FAQSection } from "@/components/FAQSection";
 import { StayCard } from "@/components/StayCard";
+import { ItinerariesSection } from "@/components/ItinerariesSection";
 import { SEO } from "@/components/SEO";
 import { getDestinationBySlug, destinations } from "@/lib/destinations";
 import { stays as allStays } from "@/lib/stays";
@@ -373,6 +374,17 @@ const DestinoDetail = () => {
           </div>
         </section>
       )}
+
+      {/* Itineraries with pricing */}
+      {destination.itineraries && destination.itineraries.length > 0 && (
+        <ItinerariesSection
+          itineraries={destination.itineraries}
+          destinationName={destination.name}
+          destinationTags={destination.tags}
+        />
+      )}
+
+
 
       {/* FAQ — perguntas + intents conversacionais para Google e IAs */}
       <section className="section-padding">

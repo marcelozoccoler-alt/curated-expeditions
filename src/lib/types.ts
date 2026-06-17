@@ -73,6 +73,51 @@ export const getBeyondUsualParts = (b: BeyondUsualItem): { title: string; story?
   return { title: b.title, story: b.story };
 };
 
+// Itinerary (Roteiro) — optional curated trip with pricing per destination
+export interface ItineraryDay {
+  day: string;
+  date?: string;
+  location: string;
+  description: string;
+}
+
+export interface ItineraryHotel {
+  city: string;
+  hotel: string;
+  nights: number;
+  category?: string;
+  room?: string;
+  includes?: string;
+}
+
+export interface ItineraryFlight {
+  airline: string;
+  flight?: string;
+  date: string;
+  from: string;
+  to: string;
+  departure: string;
+  arrival: string;
+  arrivalDate?: string;
+}
+
+export interface Itinerary {
+  title: string;
+  duration: string;
+  pricePerPerson: string;
+  currency?: string;
+  priceBasis?: string;
+  taxes?: string;
+  summary?: string;
+  flights?: ItineraryFlight[];
+  airTicketNote?: string;
+  days: ItineraryDay[];
+  hotels?: ItineraryHotel[];
+  includes?: string[];
+  excludes?: string[];
+  notes?: string[];
+}
+
 // Destination interface
 export interface Destination {
   id: string;
@@ -90,7 +135,9 @@ export interface Destination {
   beyondUsual: BeyondUsualItem[];
   stays: string[];
   faq: FAQ[];
+  itineraries?: Itinerary[];
 }
+
 
 // Stay (Hospedagem) interface
 export interface Stay {
