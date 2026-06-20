@@ -1788,7 +1788,7 @@ export const diaryPosts: DiaryPost[] = [
         heading: "Por que esse roteiro funciona tão bem juntos",
         paragraphs: [
           "Combinar essas quatro cidades em uma só viagem entrega algo raro: a sensação de entender a Europa em vez de apenas visitá-la. Em duas semanas, você atravessa três tradições imperiais, dois alfabetos (latino e árabe), três grandes religiões (cristandade católica e ortodoxa, judaísmo e islã) e três cozinhas que se influenciaram mutuamente — strudel veniense, gulasch húngaro, knedlíky tcheco, meze turco — todas convivendo no mesmo eixo histórico.",
-          "É também um roteiro logisticamente generoso: distâncias curtas entre Praga, Viena e Budapeste (voos ou trens rápidos), e um único voo um pouco mais longo até Istambul para fechar com o contraste mais dramático. Em grupo curado, com guia brasileiro, a sequência narrativa fica ainda mais clara — cada cidade prepara o terreno para a próxima.",
+          "É também um roteiro logisticamente generoso: distâncias curtas entre Praga, Viena e Budapeste (voos ou trens rápidos), e um único voo um pouco mais longo até Istambul para fechar com o contraste mais dramático. Em grupo curado, com coordenador do grupo acompanhante desde o Brasil, a sequência narrativa fica ainda mais clara — cada cidade prepara o terreno para a próxima.",
         ],
       },
       {
@@ -1801,7 +1801,7 @@ export const diaryPosts: DiaryPost[] = [
       {
         heading: "Como a Create Travel monta esse roteiro",
         paragraphs: [
-          "Nossa expedição Europa do Leste e Turquia 2026 conecta Praga, Viena, Budapeste e Istambul em uma única narrativa, com guia brasileiro embarcando junto desde o Brasil, hospedagens selecionadas em endereços com história, trens panorâmicos entre as capitais centro-europeias e voo direto para Istambul para fechar com o contraste oriental.",
+          "Nossa expedição Europa do Leste e Turquia 2026 conecta Praga, Viena, Budapeste e Istambul em uma única narrativa, com coordenador do grupo acompanhante desde o Brasil, hospedagens selecionadas em endereços com história, trens panorâmicos entre as capitais centro-europeias e voo direto para Istambul para fechar com o contraste oriental.",
           "Mais do que uma sequência de cidades bonitas, é um roteiro pensado para que a viagem faça sentido como um todo — música, fé, renascimento, herança judaica e disputa imperial costurados num único fio. Você desembarca com a sensação de ter entendido como esse pedaço do mundo se formou.",
         ],
       },
@@ -1825,12 +1825,12 @@ export const diaryPosts: DiaryPost[] = [
       },
       {
         q: "É um roteiro complicado para fazer por conta?",
-        a: "É possível, mas é onde uma viagem em grupo com guia brasileiro mais agrega valor: idiomas diferentes, transferências entre países, ingressos antecipados, contexto histórico para amarrar a narrativa e logística entre Schengen e Turquia ficam resolvidos do início ao fim.",
+        a: "É possível, mas é onde uma viagem em grupo com coordenador do grupo acompanhante desde o Brasil mais agrega valor: idiomas diferentes, transferências entre países, ingressos antecipados, contexto histórico para amarrar a narrativa e logística entre Schengen e Turquia ficam resolvidos do início ao fim.",
       },
     ],
     relatedDestinations: [
       { label: "Grupo Europa do Leste e Turquia 2026", href: "/grupos/europa-leste-turquia-2026" },
-      { label: "Próximas saídas em grupo com guia brasileiro", href: "/embarque-com-a-create" },
+      { label: "Próximas saídas em grupo com coordenador do grupo acompanhante desde o Brasil", href: "/embarque-com-a-create" },
     ],
     imageAiPrompt:
       "Editorial cinematic split landscape collage of four iconic European capitals at golden hour: the Hungarian Parliament on the Danube in Budapest, the Vienna State Opera facade, the Charles Bridge and Prague Castle skyline, and the Hagia Sophia with the Bosphorus in Istanbul, painterly warm light, rich textures, no people in foreground, ultra detailed, magazine cover quality, no text no logos",
