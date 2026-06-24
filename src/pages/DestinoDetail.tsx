@@ -153,7 +153,11 @@ const DestinoDetail = () => {
       itemListElement: destination.highlights.slice(0, 6).map((h, i) => ({
         "@type": "ListItem",
         position: i + 1,
-        item: { "@type": "TouristAttraction", name: getHighlightParts(h).title },
+        item: {
+          "@type": "TouristAttraction",
+          "@id": `${pageUrl}#highlight-${i + 1}`,
+          name: getHighlightParts(h).title,
+        },
       })),
     },
     provider: {

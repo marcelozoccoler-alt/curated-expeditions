@@ -181,6 +181,7 @@ export function buildHotelsJsonLd(
       position: i + 1,
       item: {
         "@type": "LodgingBusiness",
+        "@id": getHotelUrl(h.hotel),
         name: h.hotel,
         url: getHotelUrl(h.hotel),
         address: {
