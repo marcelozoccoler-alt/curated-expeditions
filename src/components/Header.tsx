@@ -13,6 +13,7 @@ export const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
   const [isScrolled, setIsScrolled] = useState(false);
   const [brasilOpen, setBrasilOpen] = useState(false);
+  const [gruposOpen, setGruposOpen] = useState(false);
   const location = useLocation();
   const { t } = useTranslation();
   const lang = useLang();
@@ -33,8 +34,6 @@ export const Header = () => {
       ? [
           { label: t("nav.destinos"), href: "/destinos" },
           { label: t("nav.experiencias"), href: "/experiencias" },
-          { label: "Grupos com Guia", href: "/embarque-com-a-create" },
-          { label: "Crie seu grupo", href: "/crie-seu-grupo" },
         ]
       : [
           { label: t("nav.incoming"), href: `/${lang}/incoming` },
@@ -64,11 +63,20 @@ export const Header = () => {
           { label: "Brasil Aventura", href: `/${lang}/brasil-aventura` },
         ];
 
+  const gruposSubItems =
+    lang === "pt"
+      ? [
+          { label: "Grupos com Guia", href: "/embarque-com-a-create" },
+          { label: "Crie seu grupo", href: "/crie-seu-grupo" },
+        ]
+      : [];
+
   const allNavItems =
     lang === "pt"
       ? [
           ...primaryNavItems,
           ...brasilSubItems,
+          ...gruposSubItems,
           ...secondaryNavItems.map((i) => ({ label: i.label, href: i.href })),
         ]
       : [...primaryNavItems, ...brasilSubItems];
@@ -179,6 +187,55 @@ export const Header = () => {
                       className="absolute top-full left-0 mt-2 py-2 px-3 rounded-lg bg-background/95 backdrop-blur-md shadow-lg border border-border min-w-[10rem]"
                     >
                       {brasilSubItems.map((item) => (
+                        <Link
+                          key={item.href}
+                          to={item.href}
+                          className={`block py-1.5 text-sm font-medium transition-colors hover:text-gold ${
+                            location.pathname.startsWith(item.href)
+                              ? "text-gold"
+                              : "text-foreground"
+                          }`}
+                        >
+                          {item.label}
+                        </Link>
+                      ))}
+                    </motion.div>
+                  )}
+                </AnimatePresence>
+              </div>
+            )}
+
+            {/* Grupos dropdown */}
+            {lang === "pt" && (
+              <div
+                className="relative"
+                onMouseEnter={() => setGruposOpen(true)}
+                onMouseLeave={() => setGruposOpen(false)}
+              >
+                <button
+                  className={`flex items-center gap-1 text-sm font-medium transition-colors hover:text-gold whitespace-nowrap ${
+                    isScrolled ? "text-foreground" : "text-primary-foreground"
+                  } ${
+                    gruposSubItems.some((i) =>
+                      location.pathname.startsWith(i.href)
+                    )
+                      ? "text-gold"
+                      : ""
+                  }`}
+                >
+                  <span>Grupos</span>
+                  <ChevronDown size={14} />
+                </button>
+                <AnimatePresence>
+                  {gruposOpen && (
+                    <motion.div
+                      initial={{ opacity: 0, y: -4 }}
+                      animate={{ opacity: 1, y: 0 }}
+                      exit={{ opacity: 0, y: -4 }}
+                      transition={{ duration: 0.15 }}
+                      className="absolute top-full left-0 mt-2 py-2 px-3 rounded-lg bg-background/95 backdrop-blur-md shadow-lg border border-border min-w-[10rem]"
+                    >
+                      {gruposSubItems.map((item) => (
                         <Link
                           key={item.href}
                           to={item.href}
