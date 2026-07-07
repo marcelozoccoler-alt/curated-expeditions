@@ -1,7 +1,7 @@
 import { Link, useLocation } from "react-router-dom";
 import { useState, useEffect } from "react";
 import { useTranslation } from "react-i18next";
-import { Menu, X, MessageCircle } from "lucide-react";
+import { Menu, X, MessageCircle, Info, Mail, BookOpen, ChevronDown } from "lucide-react";
 import { motion, AnimatePresence } from "framer-motion";
 import { generateWhatsAppLink } from "@/lib/types";
 import { generateIncomingWhatsAppLink } from "@/lib/whatsappI18n";
