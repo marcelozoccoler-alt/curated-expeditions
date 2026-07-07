@@ -691,7 +691,7 @@ const EmbarqueComACreate = () => {
             alt="Grupo de viajantes em Santorini ao pôr do sol"
             className="w-full h-full object-cover"
             loading="eager"
-            fetchPriority="high"
+            fetchpriority="high"
           />
           <div className="absolute inset-0 hero-overlay" />
         </div>
