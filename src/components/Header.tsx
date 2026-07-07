@@ -1,7 +1,7 @@
 import { Link, useLocation } from "react-router-dom";
 import { useState, useEffect } from "react";
 import { useTranslation } from "react-i18next";
-import { Menu, X, MessageCircle } from "lucide-react";
+import { Menu, X, MessageCircle, Info, Mail, BookOpen, ChevronDown } from "lucide-react";
 import { motion, AnimatePresence } from "framer-motion";
 import { generateWhatsAppLink } from "@/lib/types";
 import { generateIncomingWhatsAppLink } from "@/lib/whatsappI18n";
@@ -12,6 +12,7 @@ import logo from "@/assets/logo.jpg";
 export const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
   const [isScrolled, setIsScrolled] = useState(false);
+  const [brasilOpen, setBrasilOpen] = useState(false);
   const location = useLocation();
   const { t } = useTranslation();
   const lang = useLang();
@@ -32,15 +33,11 @@ export const Header = () => {
       ? [
           { label: t("nav.destinos"), href: "/destinos" },
           { label: t("nav.experiencias"), href: "/experiencias" },
-          { label: "Brasil Vivo", href: "/brasil-vivo" },
-          { label: "Brasil Aventura", href: "/brasil-aventura" },
           { label: "Grupos com Guia", href: "/embarque-com-a-create" },
           { label: "Crie seu grupo", href: "/crie-seu-grupo" },
         ]
       : [
           { label: t("nav.incoming"), href: `/${lang}/incoming` },
-          { label: "Brasil Vivo", href: `/${lang}/brasil-vivo` },
-          { label: "Brasil Aventura", href: `/${lang}/brasil-aventura` },
           { label: "Crie seu grupo", href: `/${lang}/crie-seu-grupo` },
           { label: t("nav.destinos"), href: "/brasil" },
           { label: t("nav.sobre"), href: "/sobre" },
@@ -50,14 +47,31 @@ export const Header = () => {
   const secondaryNavItems =
     lang === "pt"
       ? [
-          { label: t("nav.sobre"), href: "/sobre" },
-          { label: "Diário", href: "/diario" },
-          { label: t("nav.contato"), href: "/contato" },
+          { label: t("nav.sobre"), href: "/sobre", icon: Info },
+          { label: "Diário", href: "/diario", icon: BookOpen },
+          { label: t("nav.contato"), href: "/contato", icon: Mail },
         ]
       : [];
 
+  const brasilSubItems =
+    lang === "pt"
+      ? [
+          { label: "Brasil Vivo", href: "/brasil-vivo" },
+          { label: "Brasil Aventura", href: "/brasil-aventura" },
+        ]
+      : [
+          { label: "Brasil Vivo", href: `/${lang}/brasil-vivo` },
+          { label: "Brasil Aventura", href: `/${lang}/brasil-aventura` },
+        ];
+
   const allNavItems =
-    lang === "pt" ? [...primaryNavItems, ...secondaryNavItems] : primaryNavItems;
+    lang === "pt"
+      ? [
+          ...primaryNavItems,
+          ...brasilSubItems,
+          ...secondaryNavItems.map((i) => ({ label: i.label, href: i.href })),
+        ]
+      : [...primaryNavItems, ...brasilSubItems];
 
   const whatsappLink =
     lang === "pt"
@@ -92,24 +106,28 @@ export const Header = () => {
 
             {/* Secondary vertical nav — PT only, desktop only */}
             {lang === "pt" && (
-              <nav className="hidden lg:flex flex-col gap-0">
-                {secondaryNavItems.map((item) => (
-                  <Link
-                    key={item.href}
-                    to={item.href}
-                    className={`text-[11px] leading-[1.35] font-medium transition-colors hover:text-gold ${
-                      isScrolled
-                        ? "text-foreground/70"
-                        : "text-primary-foreground/80"
-                    } ${
-                      location.pathname.startsWith(item.href)
-                        ? "text-gold"
-                        : ""
-                    }`}
-                  >
-                    {item.label}
-                  </Link>
-                ))}
+              <nav className="hidden lg:flex flex-col gap-1">
+                {secondaryNavItems.map((item) => {
+                  const Icon = item.icon;
+                  return (
+                    <Link
+                      key={item.href}
+                      to={item.href}
+                      className={`flex items-center gap-1.5 text-xs font-semibold tracking-wide transition-colors hover:text-gold ${
+                        isScrolled
+                          ? "text-foreground/80"
+                          : "text-primary-foreground/90"
+                      } ${
+                        location.pathname.startsWith(item.href)
+                          ? "text-gold"
+                          : ""
+                      }`}
+                    >
+                      <Icon size={14} />
+                      <span>{item.label}</span>
+                    </Link>
+                  );
+                })}
               </nav>
             )}
           </div>
@@ -129,6 +147,55 @@ export const Header = () => {
                 {item.label}
               </Link>
             ))}
+
+            {/* Brasil dropdown */}
+            {lang === "pt" && (
+              <div
+                className="relative"
+                onMouseEnter={() => setBrasilOpen(true)}
+                onMouseLeave={() => setBrasilOpen(false)}
+              >
+                <button
+                  className={`flex items-center gap-1 text-sm font-medium transition-colors hover:text-gold whitespace-nowrap ${
+                    isScrolled ? "text-foreground" : "text-primary-foreground"
+                  } ${
+                    brasilSubItems.some((i) =>
+                      location.pathname.startsWith(i.href)
+                    )
+                      ? "text-gold"
+                      : ""
+                  }`}
+                >
+                  <span>Brasil</span>
+                  <ChevronDown size={14} />
+                </button>
+                <AnimatePresence>
+                  {brasilOpen && (
+                    <motion.div
+                      initial={{ opacity: 0, y: -4 }}
+                      animate={{ opacity: 1, y: 0 }}
+                      exit={{ opacity: 0, y: -4 }}
+                      transition={{ duration: 0.15 }}
+                      className="absolute top-full left-0 mt-2 py-2 px-3 rounded-lg bg-background/95 backdrop-blur-md shadow-lg border border-border min-w-[10rem]"
+                    >
+                      {brasilSubItems.map((item) => (
+                        <Link
+                          key={item.href}
+                          to={item.href}
+                          className={`block py-1.5 text-sm font-medium transition-colors hover:text-gold ${
+                            location.pathname.startsWith(item.href)
+                              ? "text-gold"
+                              : "text-foreground"
+                          }`}
+                        >
+                          {item.label}
+                        </Link>
+                      ))}
+                    </motion.div>
+                  )}
+                </AnimatePresence>
+              </div>
+            )}
           </nav>
 
           {/* CTA + Language */}
