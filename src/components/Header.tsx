@@ -32,6 +32,7 @@ export const Header = () => {
   const primaryNavItems =
     lang === "pt"
       ? [
+          { label: t("nav.sobre"), href: "/sobre" },
           { label: t("nav.destinos"), href: "/destinos" },
           { label: t("nav.experiencias"), href: "/experiencias" },
         ]
@@ -41,16 +42,6 @@ export const Header = () => {
           { label: t("nav.destinos"), href: "/brasil" },
           { label: t("nav.sobre"), href: "/sobre" },
         ];
-
-  // Secondary vertical nav — institutional pages, PT only
-  const secondaryNavItems =
-    lang === "pt"
-      ? [
-          { label: t("nav.sobre"), href: "/sobre", icon: Info },
-          { label: "Diário", href: "/diario", icon: BookOpen },
-          { label: t("nav.contato"), href: "/contato", icon: Mail },
-        ]
-      : [];
 
   const brasilSubItems =
     lang === "pt"
