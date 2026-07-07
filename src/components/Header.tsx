@@ -106,24 +106,28 @@ export const Header = () => {
 
             {/* Secondary vertical nav — PT only, desktop only */}
             {lang === "pt" && (
-              <nav className="hidden lg:flex flex-col gap-0">
-                {secondaryNavItems.map((item) => (
-                  <Link
-                    key={item.href}
-                    to={item.href}
-                    className={`text-[11px] leading-[1.35] font-medium transition-colors hover:text-gold ${
-                      isScrolled
-                        ? "text-foreground/70"
-                        : "text-primary-foreground/80"
-                    } ${
-                      location.pathname.startsWith(item.href)
-                        ? "text-gold"
-                        : ""
-                    }`}
-                  >
-                    {item.label}
-                  </Link>
-                ))}
+              <nav className="hidden lg:flex flex-col gap-1">
+                {secondaryNavItems.map((item) => {
+                  const Icon = item.icon;
+                  return (
+                    <Link
+                      key={item.href}
+                      to={item.href}
+                      className={`flex items-center gap-1.5 text-xs font-semibold tracking-wide transition-colors hover:text-gold ${
+                        isScrolled
+                          ? "text-foreground/80"
+                          : "text-primary-foreground/90"
+                      } ${
+                        location.pathname.startsWith(item.href)
+                          ? "text-gold"
+                          : ""
+                      }`}
+                    >
+                      <Icon size={14} />
+                      <span>{item.label}</span>
+                    </Link>
+                  );
+                })}
               </nav>
             )}
           </div>
