@@ -13,6 +13,7 @@ export const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
   const [isScrolled, setIsScrolled] = useState(false);
   const [brasilOpen, setBrasilOpen] = useState(false);
+  const [gruposOpen, setGruposOpen] = useState(false);
   const location = useLocation();
   const { t } = useTranslation();
   const lang = useLang();
@@ -33,8 +34,6 @@ export const Header = () => {
       ? [
           { label: t("nav.destinos"), href: "/destinos" },
           { label: t("nav.experiencias"), href: "/experiencias" },
-          { label: "Grupos com Guia", href: "/embarque-com-a-create" },
-          { label: "Crie seu grupo", href: "/crie-seu-grupo" },
         ]
       : [
           { label: t("nav.incoming"), href: `/${lang}/incoming` },
