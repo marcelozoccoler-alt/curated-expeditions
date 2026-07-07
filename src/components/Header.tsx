@@ -32,6 +32,7 @@ export const Header = () => {
   const primaryNavItems =
     lang === "pt"
       ? [
+          { label: t("nav.sobre"), href: "/sobre" },
           { label: t("nav.destinos"), href: "/destinos" },
           { label: t("nav.experiencias"), href: "/experiencias" },
         ]
@@ -41,16 +42,6 @@ export const Header = () => {
           { label: t("nav.destinos"), href: "/brasil" },
           { label: t("nav.sobre"), href: "/sobre" },
         ];
-
-  // Secondary vertical nav — institutional pages, PT only
-  const secondaryNavItems =
-    lang === "pt"
-      ? [
-          { label: t("nav.sobre"), href: "/sobre", icon: Info },
-          { label: "Diário", href: "/diario", icon: BookOpen },
-          { label: t("nav.contato"), href: "/contato", icon: Mail },
-        ]
-      : [];
 
   const brasilSubItems =
     lang === "pt"
@@ -77,7 +68,8 @@ export const Header = () => {
           ...primaryNavItems,
           ...brasilSubItems,
           ...gruposSubItems,
-          ...secondaryNavItems.map((i) => ({ label: i.label, href: i.href })),
+          { label: "Diário", href: "/diario" },
+          { label: t("nav.contato"), href: "/contato" },
         ]
       : [...primaryNavItems, ...brasilSubItems];
 
@@ -112,54 +104,8 @@ export const Header = () => {
               />
             </Link>
 
-            {/* Secondary nav — PT only, desktop only */}
-            {lang === "pt" && (
-              <nav className="hidden lg:flex flex-col gap-1">
-                {/* Sobre — first, full width */}
-                <Link
-                  to="/sobre"
-                  className={`flex items-center gap-1.5 text-xs font-semibold tracking-wide transition-colors hover:text-gold ${
-                    isScrolled
-                      ? "text-foreground/80"
-                      : "text-primary-foreground/90"
-                  } ${
-                    location.pathname.startsWith("/sobre") ? "text-gold" : ""
-                  }`}
-                >
-                  <Info size={14} />
-                  <span>{t("nav.sobre")}</span>
-                </Link>
-                {/* Diário + Contato — same row */}
-                <div className="flex items-center gap-3">
-                  <Link
-                    to="/diario"
-                    className={`flex items-center gap-1.5 text-xs font-semibold tracking-wide transition-colors hover:text-gold ${
-                      isScrolled
-                        ? "text-foreground/80"
-                        : "text-primary-foreground/90"
-                    } ${
-                      location.pathname.startsWith("/diario") ? "text-gold" : ""
-                    }`}
-                  >
-                    <BookOpen size={14} />
-                    <span>Diário</span>
-                  </Link>
-                  <Link
-                    to="/contato"
-                    className={`flex items-center gap-1.5 text-xs font-semibold tracking-wide transition-colors hover:text-gold ${
-                      isScrolled
-                        ? "text-foreground/80"
-                        : "text-primary-foreground/90"
-                    } ${
-                      location.pathname.startsWith("/contato") ? "text-gold" : ""
-                    }`}
-                  >
-                    <Mail size={14} />
-                    <span>{t("nav.contato")}</span>
-                  </Link>
-                </div>
-              </nav>
-            )}
+            {/* Secondary nav removed — Sobre, Diário and Contato moved to primary horizontal nav */}
+            {}
           </div>
 
           {/* Desktop Primary Navigation */}
@@ -274,6 +220,32 @@ export const Header = () => {
                   )}
                 </AnimatePresence>
               </div>
+            )}
+
+            {/* Diário & Contato — same style as other primary links */}
+            {lang === "pt" && (
+              <>
+                <Link
+                  to="/diario"
+                  className={`text-sm font-medium transition-colors hover:text-gold whitespace-nowrap ${
+                    isScrolled ? "text-foreground" : "text-primary-foreground"
+                  } ${
+                    location.pathname.startsWith("/diario") ? "text-gold" : ""
+                  }`}
+                >
+                  Diário
+                </Link>
+                <Link
+                  to="/contato"
+                  className={`text-sm font-medium transition-colors hover:text-gold whitespace-nowrap ${
+                    isScrolled ? "text-foreground" : "text-primary-foreground"
+                  } ${
+                    location.pathname.startsWith("/contato") ? "text-gold" : ""
+                  }`}
+                >
+                  {t("nav.contato")}
+                </Link>
+              </>
             )}
           </nav>
 
