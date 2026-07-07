@@ -76,6 +76,7 @@ export const Header = () => {
       ? [
           ...primaryNavItems,
           ...brasilSubItems,
+          ...gruposSubItems,
           ...secondaryNavItems.map((i) => ({ label: i.label, href: i.href })),
         ]
       : [...primaryNavItems, ...brasilSubItems];
