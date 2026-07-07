@@ -112,30 +112,52 @@ export const Header = () => {
               />
             </Link>
 
-            {/* Secondary vertical nav — PT only, desktop only */}
+            {/* Secondary nav — PT only, desktop only */}
             {lang === "pt" && (
               <nav className="hidden lg:flex flex-col gap-1">
-                {secondaryNavItems.map((item) => {
-                  const Icon = item.icon;
-                  return (
-                    <Link
-                      key={item.href}
-                      to={item.href}
-                      className={`flex items-center gap-1.5 text-xs font-semibold tracking-wide transition-colors hover:text-gold ${
-                        isScrolled
-                          ? "text-foreground/80"
-                          : "text-primary-foreground/90"
-                      } ${
-                        location.pathname.startsWith(item.href)
-                          ? "text-gold"
-                          : ""
-                      }`}
-                    >
-                      <Icon size={14} />
-                      <span>{item.label}</span>
-                    </Link>
-                  );
-                })}
+                {/* Sobre — first, full width */}
+                <Link
+                  to="/sobre"
+                  className={`flex items-center gap-1.5 text-xs font-semibold tracking-wide transition-colors hover:text-gold ${
+                    isScrolled
+                      ? "text-foreground/80"
+                      : "text-primary-foreground/90"
+                  } ${
+                    location.pathname.startsWith("/sobre") ? "text-gold" : ""
+                  }`}
+                >
+                  <Info size={14} />
+                  <span>{t("nav.sobre")}</span>
+                </Link>
+                {/* Diário + Contato — same row */}
+                <div className="flex items-center gap-3">
+                  <Link
+                    to="/diario"
+                    className={`flex items-center gap-1.5 text-xs font-semibold tracking-wide transition-colors hover:text-gold ${
+                      isScrolled
+                        ? "text-foreground/80"
+                        : "text-primary-foreground/90"
+                    } ${
+                      location.pathname.startsWith("/diario") ? "text-gold" : ""
+                    }`}
+                  >
+                    <BookOpen size={14} />
+                    <span>Diário</span>
+                  </Link>
+                  <Link
+                    to="/contato"
+                    className={`flex items-center gap-1.5 text-xs font-semibold tracking-wide transition-colors hover:text-gold ${
+                      isScrolled
+                        ? "text-foreground/80"
+                        : "text-primary-foreground/90"
+                    } ${
+                      location.pathname.startsWith("/contato") ? "text-gold" : ""
+                    }`}
+                  >
+                    <Mail size={14} />
+                    <span>{t("nav.contato")}</span>
+                  </Link>
+                </div>
               </nav>
             )}
           </div>
