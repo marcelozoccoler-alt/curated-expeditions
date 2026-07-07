@@ -104,54 +104,8 @@ export const Header = () => {
               />
             </Link>
 
-            {/* Secondary nav — PT only, desktop only */}
-            {lang === "pt" && (
-              <nav className="hidden lg:flex flex-col gap-1">
-                {/* Sobre — first, full width */}
-                <Link
-                  to="/sobre"
-                  className={`flex items-center gap-1.5 text-xs font-semibold tracking-wide transition-colors hover:text-gold ${
-                    isScrolled
-                      ? "text-foreground/80"
-                      : "text-primary-foreground/90"
-                  } ${
-                    location.pathname.startsWith("/sobre") ? "text-gold" : ""
-                  }`}
-                >
-                  <Info size={14} />
-                  <span>{t("nav.sobre")}</span>
-                </Link>
-                {/* Diário + Contato — same row */}
-                <div className="flex items-center gap-3">
-                  <Link
-                    to="/diario"
-                    className={`flex items-center gap-1.5 text-xs font-semibold tracking-wide transition-colors hover:text-gold ${
-                      isScrolled
-                        ? "text-foreground/80"
-                        : "text-primary-foreground/90"
-                    } ${
-                      location.pathname.startsWith("/diario") ? "text-gold" : ""
-                    }`}
-                  >
-                    <BookOpen size={14} />
-                    <span>Diário</span>
-                  </Link>
-                  <Link
-                    to="/contato"
-                    className={`flex items-center gap-1.5 text-xs font-semibold tracking-wide transition-colors hover:text-gold ${
-                      isScrolled
-                        ? "text-foreground/80"
-                        : "text-primary-foreground/90"
-                    } ${
-                      location.pathname.startsWith("/contato") ? "text-gold" : ""
-                    }`}
-                  >
-                    <Mail size={14} />
-                    <span>{t("nav.contato")}</span>
-                  </Link>
-                </div>
-              </nav>
-            )}
+            {/* Secondary nav removed — Sobre, Diário and Contato moved to primary horizontal nav */}
+            {}
           </div>
 
           {/* Desktop Primary Navigation */}
