@@ -63,6 +63,14 @@ export const Header = () => {
           { label: "Brasil Aventura", href: `/${lang}/brasil-aventura` },
         ];
 
+  const gruposSubItems =
+    lang === "pt"
+      ? [
+          { label: "Grupos com Guia", href: "/embarque-com-a-create" },
+          { label: "Crie seu grupo", href: "/crie-seu-grupo" },
+        ]
+      : [];
+
   const allNavItems =
     lang === "pt"
       ? [
