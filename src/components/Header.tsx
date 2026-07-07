@@ -221,6 +221,32 @@ export const Header = () => {
                 </AnimatePresence>
               </div>
             )}
+
+            {/* Diário & Contato — same style as other primary links */}
+            {lang === "pt" && (
+              <>
+                <Link
+                  to="/diario"
+                  className={`text-sm font-medium transition-colors hover:text-gold whitespace-nowrap ${
+                    isScrolled ? "text-foreground" : "text-primary-foreground"
+                  } ${
+                    location.pathname.startsWith("/diario") ? "text-gold" : ""
+                  }`}
+                >
+                  Diário
+                </Link>
+                <Link
+                  to="/contato"
+                  className={`text-sm font-medium transition-colors hover:text-gold whitespace-nowrap ${
+                    isScrolled ? "text-foreground" : "text-primary-foreground"
+                  } ${
+                    location.pathname.startsWith("/contato") ? "text-gold" : ""
+                  }`}
+                >
+                  {t("nav.contato")}
+                </Link>
+              </>
+            )}
           </nav>
 
           {/* CTA + Language */}
