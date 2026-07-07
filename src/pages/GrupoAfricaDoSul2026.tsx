@@ -249,7 +249,7 @@ const GrupoAfricaDoSul2026 = () => {
             className="w-full h-full object-cover"
             width={1600}
             height={900}
-            fetchPriority="high"
+            fetchpriority="high"
           />
           <div className="absolute inset-0 hero-overlay" />
         </div>
