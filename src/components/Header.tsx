@@ -147,6 +147,55 @@ export const Header = () => {
                 {item.label}
               </Link>
             ))}
+
+            {/* Brasil dropdown */}
+            {lang === "pt" && (
+              <div
+                className="relative"
+                onMouseEnter={() => setBrasilOpen(true)}
+                onMouseLeave={() => setBrasilOpen(false)}
+              >
+                <button
+                  className={`flex items-center gap-1 text-sm font-medium transition-colors hover:text-gold whitespace-nowrap ${
+                    isScrolled ? "text-foreground" : "text-primary-foreground"
+                  } ${
+                    brasilSubItems.some((i) =>
+                      location.pathname.startsWith(i.href)
+                    )
+                      ? "text-gold"
+                      : ""
+                  }`}
+                >
+                  <span>Brasil</span>
+                  <ChevronDown size={14} />
+                </button>
+                <AnimatePresence>
+                  {brasilOpen && (
+                    <motion.div
+                      initial={{ opacity: 0, y: -4 }}
+                      animate={{ opacity: 1, y: 0 }}
+                      exit={{ opacity: 0, y: -4 }}
+                      transition={{ duration: 0.15 }}
+                      className="absolute top-full left-0 mt-2 py-2 px-3 rounded-lg bg-background/95 backdrop-blur-md shadow-lg border border-border min-w-[10rem]"
+                    >
+                      {brasilSubItems.map((item) => (
+                        <Link
+                          key={item.href}
+                          to={item.href}
+                          className={`block py-1.5 text-sm font-medium transition-colors hover:text-gold ${
+                            location.pathname.startsWith(item.href)
+                              ? "text-gold"
+                              : "text-foreground"
+                          }`}
+                        >
+                          {item.label}
+                        </Link>
+                      ))}
+                    </motion.div>
+                  )}
+                </AnimatePresence>
+              </div>
+            )}
           </nav>
 
           {/* CTA + Language */}
