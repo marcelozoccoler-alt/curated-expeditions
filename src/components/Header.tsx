@@ -12,6 +12,7 @@ import logo from "@/assets/logo.jpg";
 export const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
   const [isScrolled, setIsScrolled] = useState(false);
+  const [brasilOpen, setBrasilOpen] = useState(false);
   const location = useLocation();
   const { t } = useTranslation();
   const lang = useLang();
@@ -32,15 +33,11 @@ export const Header = () => {
       ? [
           { label: t("nav.destinos"), href: "/destinos" },
           { label: t("nav.experiencias"), href: "/experiencias" },
-          { label: "Brasil Vivo", href: "/brasil-vivo" },
-          { label: "Brasil Aventura", href: "/brasil-aventura" },
           { label: "Grupos com Guia", href: "/embarque-com-a-create" },
           { label: "Crie seu grupo", href: "/crie-seu-grupo" },
         ]
       : [
           { label: t("nav.incoming"), href: `/${lang}/incoming` },
-          { label: "Brasil Vivo", href: `/${lang}/brasil-vivo` },
-          { label: "Brasil Aventura", href: `/${lang}/brasil-aventura` },
           { label: "Crie seu grupo", href: `/${lang}/crie-seu-grupo` },
           { label: t("nav.destinos"), href: "/brasil" },
           { label: t("nav.sobre"), href: "/sobre" },
@@ -50,14 +47,31 @@ export const Header = () => {
   const secondaryNavItems =
     lang === "pt"
       ? [
-          { label: t("nav.sobre"), href: "/sobre" },
-          { label: "Diário", href: "/diario" },
-          { label: t("nav.contato"), href: "/contato" },
+          { label: t("nav.sobre"), href: "/sobre", icon: Info },
+          { label: "Diário", href: "/diario", icon: BookOpen },
+          { label: t("nav.contato"), href: "/contato", icon: Mail },
         ]
       : [];
 
+  const brasilSubItems =
+    lang === "pt"
+      ? [
+          { label: "Brasil Vivo", href: "/brasil-vivo" },
+          { label: "Brasil Aventura", href: "/brasil-aventura" },
+        ]
+      : [
+          { label: "Brasil Vivo", href: `/${lang}/brasil-vivo` },
+          { label: "Brasil Aventura", href: `/${lang}/brasil-aventura` },
+        ];
+
   const allNavItems =
-    lang === "pt" ? [...primaryNavItems, ...secondaryNavItems] : primaryNavItems;
+    lang === "pt"
+      ? [
+          ...primaryNavItems,
+          ...brasilSubItems,
+          ...secondaryNavItems.map((i) => ({ label: i.label, href: i.href })),
+        ]
+      : [...primaryNavItems, ...brasilSubItems];
 
   const whatsappLink =
     lang === "pt"
