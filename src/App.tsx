@@ -122,6 +122,8 @@ const App = () => (
           <Route path="/pacote/:slug" element={<Pacote />} />
           <Route path="/auth" element={<Auth />} />
           <Route path="/admin/seo" element={<AdminSeo />} />
+          <Route path="/guias" element={<GuiasIndex />} />
+          <Route path="/guias/:slug" element={<Guia />} />
 
           
           <Route path="/brasil" element={<BrasilEstados />} />
