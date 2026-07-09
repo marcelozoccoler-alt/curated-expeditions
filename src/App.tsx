@@ -53,6 +53,7 @@ import DiarioPost from "./pages/DiarioPost";
 import Pacote from "./pages/Pacote";
 import Auth from "./pages/Auth";
 import AdminSeo from "./pages/AdminSeo";
+import Guia, { GuiasIndex } from "./pages/Guia";
 
 
 import ScrollToTop from "./components/ScrollToTop";
