@@ -154,6 +154,18 @@ for (const lang of INCOMING_LANGS) {
   push(`/${lang}`, 0.85, "weekly");
 }
 
+// Multilingual variants of key landing pages
+const LOCALIZED_PATHS = [
+  "brasil-vivo",
+  "brasil-aventura",
+  "crie-seu-grupo",
+  "embarque-com-a-create",
+] as const;
+for (const lang of INCOMING_LANGS) {
+  for (const p of LOCALIZED_PATHS) push(`/${lang}/${p}`, 0.75, "weekly");
+}
+
+
 const xml = `<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 ${urls
