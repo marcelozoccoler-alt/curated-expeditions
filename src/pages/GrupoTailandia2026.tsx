@@ -304,7 +304,7 @@ const GrupoTailandia2026 = () => {
             className="w-full h-full object-cover"
             width={1600}
             height={900}
-            fetchpriority="high"
+            fetchPriority="high"
           />
           <div className="absolute inset-0 hero-overlay" />
         </div>

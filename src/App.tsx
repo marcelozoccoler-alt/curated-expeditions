@@ -53,6 +53,7 @@ import DiarioPost from "./pages/DiarioPost";
 import Pacote from "./pages/Pacote";
 import Auth from "./pages/Auth";
 import AdminSeo from "./pages/AdminSeo";
+import Guia, { GuiasIndex } from "./pages/Guia";
 
 
 import ScrollToTop from "./components/ScrollToTop";
@@ -121,6 +122,8 @@ const App = () => (
           <Route path="/pacote/:slug" element={<Pacote />} />
           <Route path="/auth" element={<Auth />} />
           <Route path="/admin/seo" element={<AdminSeo />} />
+          <Route path="/guias" element={<GuiasIndex />} />
+          <Route path="/guias/:slug" element={<Guia />} />
 
           
           <Route path="/brasil" element={<BrasilEstados />} />
