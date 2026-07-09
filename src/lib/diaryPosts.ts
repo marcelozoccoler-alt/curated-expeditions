@@ -29,6 +29,102 @@ export interface DiaryPost {
 
 export const diaryPosts: DiaryPost[] = [
   {
+    slug: "gastronomia-na-turquia-alem-do-kebab",
+    title: "Gastronomia na Turquia: sabores e culturas além do kebab",
+    h1: "Gastronomia na Turquia: sabores e culturas além do kebab",
+    metaDescription:
+      "Comida na Turquia vai muito além do kebab: mezes, café-da-manhã turco, doces de Gaziantep e street food em Istambul. Guia autoral Create Travel.",
+    keywords:
+      "comida na turquia, gastronomia turca, comida turca, o que comer na turquia, kebab, meze, café da manhã turco",
+    intro:
+      "Falar em comida na Turquia é falar de três impérios sobrepostos — bizantino, seljúcida e otomano — que temperaram o mesmo território com influências do Mediterrâneo, dos Bálcãs, do Cáucaso e da rota da seda. O resultado é uma das cozinhas mais complexas do mundo, onde o kebab é apenas o começo. De Istambul à Capadócia, cada região oferece um vocabulário próprio de sabores, e comer bem é a maneira mais direta de entender por que a Turquia é, ao mesmo tempo, Europa, Ásia e Oriente Médio.",
+    sections: [
+      {
+        heading: "O kahvaltı: por que o café-da-manhã turco é o mais rico do mundo",
+        paragraphs: [
+          "Antes de qualquer kebab, o primeiro contato de todo viajante com a gastronomia turca acontece no kahvaltı — o café-da-manhã. Não é uma refeição, é um ritual: mesa coberta por dez a vinte pratinhos com queijos brancos (beyaz peynir), azeitonas verdes e pretas, tomate, pepino, mel com kaymak (creme de leite espesso), geleias caseiras, ovos cozidos, embutidos de cordeiro (sucuk), pão fresco e chá preto servido em copinhos de vidro em formato de tulipa.",
+          "Em Istambul, o bairro de Beşiktaş e a orla de Beyoğlu concentram os melhores kahvaltı salonları — restaurantes especializados que abrem cedo e recebem famílias inteiras aos domingos. Reservar mesa de kahvaltı em uma manhã de fim de semana é observar a Turquia contemporânea em seu momento mais civil.",
+        ],
+      },
+      {
+        heading: "Mezes: a arte turca de comer em pequenos pratos",
+        paragraphs: [
+          "Meze é o coração da mesa turca do almoço em diante. São dezenas de entradinhas frias e quentes servidas simultaneamente para compartilhar, acompanhadas de rakı — aguardente de anis que se toma com gelo e água, ficando leitoso (por isso apelidado de aslan sütü, leite do leão).",
+          "Entre os clássicos: haydari (iogurte espesso com alho e hortelã), acılı ezme (pasta apimentada de tomate e pimentão), patlıcan salatası (berinjela defumada), fava (creme de fava), dolma (folhas de uva recheadas), sigara böreği (rolinhos crocantes de queijo) e midye dolma (mexilhões recheados com arroz e especiarias — street food obrigatório em Istambul).",
+          "Uma refeição de meze bem conduzida dura horas. Não é acúmulo — é conversa. E é onde a Turquia mostra sua alma mediterrânea.",
+        ],
+      },
+      {
+        heading: "O universo do kebab: muito além do que se conhece no Brasil",
+        paragraphs: [
+          "O que chamamos de \"kebab\" no Brasil é apenas uma variação — o döner, cortado em fatias finas de um espeto vertical. Na Turquia, a palavra abrange centenas de preparações regionais.",
+          "Em Adana, o Adana kebabı é feito de cordeiro moído com pimenta vermelha e grelhado em espetos largos. Em Urfa, a versão homônima é menos apimentada. Em Bursa, o İskender kebab combina döner sobre pão pide amanteigado, coberto por molho de tomate quente, iogurte e manteiga derretida — inventado ali no século XIX.",
+          "Fora dos espetos, há o testi kebabı da Capadócia (cozido lentamente em jarro de barro selado, quebrado à mesa), o çöp şiş de Selçuk (mini-espetinhos de cordeiro grelhados no carvão) e o beyti sarma de Istambul (kebab enrolado em pão fino com molho de tomate).",
+        ],
+      },
+      {
+        heading: "Gaziantep: a capital gastronômica da Turquia e do baklava",
+        paragraphs: [
+          "Gaziantep, no sudeste da Anatólia, foi reconhecida pela UNESCO como Cidade Criativa da Gastronomia em 2015 — a única da Turquia. É onde se produz o melhor baklava do mundo, feito com pistache verde local (fıstık de Antep), massa filo em 40 camadas ultrafinas e xarope de açúcar sem mel — receita rigorosamente protegida.",
+          "Além do baklava, Gaziantep é a origem do lahmacun (pizza fina turca com carne moída, tomate e especiarias), do katmer (crepe crocante com pistache e kaymak, servido no café-da-manhã) e de dezenas de kebabs regionais.",
+          "Para o viajante gastronômico, uma extensão de dois ou três dias em Gaziantep vale mais do que muitos museus. Recomendamos combinar com Şanlıurfa e Mardin em roteiros autorais da Anatólia oriental.",
+        ],
+      },
+      {
+        heading: "Street food em Istambul: o que provar caminhando",
+        paragraphs: [
+          "Istambul come na rua com elegância. O simit — rosquinha de sergelim vendida por ambulantes com carrinhos vermelhos — é o pão informal da cidade, comido a qualquer hora com chá.",
+          "No Eminönü, à beira do Corno de Ouro, os balık ekmek (sanduíches de cavala grelhada com cebola e limão) são vendidos direto de barcos coloridos ancorados no cais — uma das experiências mais fotografadas da cidade, e uma das melhores refeições rápidas do mundo.",
+          "Nas ruas de Kadıköy, na margem asiática, prove kokoreç (tripas de cordeiro grelhadas e temperadas — não se assuste, é delicioso), midye dolma vendidos por ambulantes com bandejas, e boza (bebida fermentada de painço servida no inverno com canela e grão-de-bico torrado).",
+          "Feche com um lokum (delícia turca) da Hacı Bekir — casa fundada em 1777, ainda em funcionamento no bairro de Eminönü.",
+        ],
+      },
+      {
+        heading: "Chá, café turco e a cultura da mesa",
+        paragraphs: [
+          "A Turquia é o maior consumidor de chá per capita do mundo — mais do que Reino Unido, Índia ou China. O çay é servido do amanhecer à meia-noite, em copinhos de vidro sem alça, sempre acompanhado de dois cubos de açúcar.",
+          "O café turco (türk kahvesi), reconhecido pela UNESCO como Patrimônio Cultural Imaterial da Humanidade em 2013, é preparado em cezve — um pequeno bule de cobre — e servido não filtrado, com a borra assentando no fundo da xícara. A tradição de \"ler a borra\" após tomar o café segue viva em casas mais tradicionais.",
+        ],
+      },
+      {
+        heading: "Roteiro gastronômico autoral Create Travel",
+        paragraphs: [
+          "Nossa curadoria para a Turquia combina Istambul (3 a 4 dias), Capadócia (3 dias) e Gaziantep (2 dias) em roteiros de 10 a 12 dias, com aulas de culinária em famílias locais, tour privativo pelos mercados de especiarias (Mısır Çarşısı), degustação de mezes com sommelier de rakı e jantar em restaurantes autorais como Neolokal (Istambul) e Ciya Sofrası (Kadıköy) — este último referência mundial em cozinha regional turca.",
+        ],
+      },
+    ],
+    faq: [
+      {
+        q: "Qual é a melhor cidade da Turquia para experiência gastronômica?",
+        a: "Istambul é a mais completa pela variedade, mas Gaziantep é a capital gastronômica reconhecida pela UNESCO — é onde nasce o baklava e onde a cozinha anatólia atinge seu ápice. Idealmente, combine as duas.",
+      },
+      {
+        q: "Comida turca é muito apimentada?",
+        a: "Não. A cozinha turca usa temperos com sofisticação — cominho, sumac, pimenta-doce, hortelã seca —, mas é menos ardida que a indiana ou a tailandesa. Alguns kebabs de Adana têm mais pimenta, mas quase tudo é palatável para o brasileiro.",
+      },
+      {
+        q: "Vegetarianos comem bem na Turquia?",
+        a: "Muito bem. Boa parte dos mezes é vegetariana, os pratos com berinjela são numerosos (o clássico imam bayıldı), e há sopas de lentilha (mercimek çorbası) em qualquer restaurante. Peixe e frutos do mar são abundantes na costa.",
+      },
+      {
+        q: "Vale fazer aula de culinária na Turquia?",
+        a: "Sim. Uma aula de culinária em Istambul ou na Capadócia — em casas de família ou cozinhas autorais — é uma das experiências mais memoráveis da viagem. Combinamos isso em nossos roteiros sob medida.",
+      },
+    ],
+    relatedDestinations: [
+      { label: "Grupo Turquia 2026", href: "/grupos/turquia-2026" },
+      { label: "Grupo Turquia Réveillon 2027", href: "/grupos/turquia-reveillon-2027" },
+      { label: "Experiência: Gastronomia", href: "/experiencias/gastronomia" },
+    ],
+    imageAiPrompt:
+      "Editorial overhead shot of a traditional Turkish meze table in Istanbul at golden hour: dozens of small ceramic dishes with olives, white cheese, stuffed grape leaves, hummus, roasted red pepper paste, warm flatbread, glass tulip cups of black tea, brass rakı carafe, natural window light, painterly, cinematic, no people, ultra high detail",
+    publishedAt: "2026-07-09",
+    readingMinutes: 8,
+    category: "Cultura",
+    whatsappName: "Roteiro Gastronômico Turquia",
+  },
+
+  {
     slug: "madagascar-onde-fica-e-curiosidades",
     title: "Madagascar: onde fica, o que ver e curiosidades essenciais",
     h1: "Madagascar: a ilha que evoluiu sozinha por 88 milhões de anos",
