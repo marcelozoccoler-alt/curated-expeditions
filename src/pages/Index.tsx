@@ -51,7 +51,7 @@ const Index = () => {
               alt="Paisagem amazônica ao amanhecer"
               className="w-full h-full object-cover"
               loading="eager"
-              fetchpriority="high"
+              fetchPriority="high"
               decoding="async"
             />
           </picture>
