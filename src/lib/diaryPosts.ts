@@ -2032,6 +2032,197 @@ export const diaryPosts: DiaryPost[] = [
     category: "Destino",
     whatsappName: "Roteiro Albânia",
   },
+  {
+    slug: "gastronomia-na-china-alem-do-frango-xadrez",
+    title: "Gastronomia na China: 8 cozinhas regionais além do frango xadrez",
+    h1: "Gastronomia na China: 8 cozinhas regionais além do frango xadrez",
+    metaDescription:
+      "Comida chinesa vai muito além do que se serve no Brasil: cantonesa, sichuanesa, hunanesa, uigur, dim sum, hot pot, chá e street food. Guia autoral Create.",
+    keywords:
+      "comida chinesa, gastronomia china, culinária chinesa, dim sum, hot pot sichuan, pato laqueado pequim, o que comer na china, cozinha cantonesa",
+    intro:
+      "Falar em comida chinesa no Brasil é falar de um menu curto — frango xadrez, yakisoba, rolinho primavera. Na China, esse menu não existe. O que existe é um continente gastronômico de oito grandes cozinhas regionais reconhecidas oficialmente pelo governo (as 'Ba Da Cai Xi'), cada uma com técnicas próprias, ingredientes locais e séculos de refinamento. Comer na China é a maneira mais direta de entender por que ela é, ao mesmo tempo, deserto, mar tropical, planalto tibetano e delta industrial — tudo isso em um único passaporte.",
+    sections: [
+      {
+        heading: "As oito cozinhas regionais da China (Ba Da Cai Xi)",
+        paragraphs: [
+          "A gastronomia chinesa é organizada oficialmente em oito escolas regionais: Shandong (Lu), Sichuan (Chuan), Cantonesa (Yue), Fujian (Min), Jiangsu (Su), Zhejiang (Zhe), Hunan (Xiang) e Anhui (Hui). Cada uma reflete o clima, o solo e a história de sua região — a de Sichuan é pungente por causa da umidade que exige especiarias que abrem o apetite; a cantonesa é suave para preservar o frescor dos ingredientes do delta subtropical; a de Shandong é salgada e frita porque nasceu na corte imperial de Beijing.",
+          "Nenhum restaurante chinês no Brasil, por mais autêntico, cobre mais que duas dessas escolas. Ir à China é finalmente comer as outras seis.",
+        ],
+      },
+      {
+        heading: "Sichuan: o mala que dorme na língua",
+        paragraphs: [
+          "A cozinha de Sichuan (capital Chengdu) é conhecida pelo sabor 'mala' (麻辣) — a combinação da pimenta-vermelha ardida com a pimenta-de-sichuan (huajiao), que anestesia levemente a boca em vez de queimar. É uma sensação sensorial única no mundo, impossível de reproduzir com pimenta comum.",
+          "O hot pot de Chongqing — panela dupla dividida com caldo picante vermelho de um lado e caldo suave de galinha e goji do outro — é a experiência gastronômica social por excelência: cada mesa cozinha os próprios ingredientes (carnes fatiadas, vegetais, tofu, cogumelos) por horas, entre cerveja Tsingtao e conversa alta. Outros clássicos: mapo tofu (o original em Chengdu é uma revelação), kung pao chicken (nada a ver com a versão americana), dan dan mian (macarrão apimentado com pasta de sésamo).",
+        ],
+      },
+      {
+        heading: "Cantonesa: dim sum, dim sum, dim sum",
+        paragraphs: [
+          "A cozinha cantonesa (Guangzhou, Hong Kong, Macau) é a mais delicada e a mais internacional das oito — foi a que os imigrantes chineses levaram para o mundo no século XIX, dando origem aos 'chineses de bairro' em todo o Ocidente.",
+          "Sua expressão máxima é o yum cha ('beber chá') com dim sum: brunches longos de fim de semana onde carrinhos passam entre as mesas oferecendo dezenas de pratinhos cozidos no vapor em cestas de bambu — har gow (dumpling de camarão translúcido), siu mai (bolinho aberto de porco e camarão), char siu bao (pão fofinho de porco laqueado doce), cheung fun (rolinhos de arroz), egg tarts portugueses de Macau. Em Hong Kong, restaurantes como Lung King Heen (o primeiro dim sum com três estrelas Michelin) elevaram a tradição a arte contemporânea.",
+          "Outros marcos cantoneses: pato assado de Guangzhou, sopa de barbatana (hoje polêmica), congee (mingau de arroz) no café-da-manhã, cha siu (porco laqueado vermelho) e o inigualável arroz claypot cozido em panela de barro.",
+        ],
+      },
+      {
+        heading: "Pato Laqueado de Beijing: o teatro da mesa",
+        paragraphs: [
+          "O Pato Laqueado (Peking Duck) é a cozinha imperial em sua forma mais icônica — receita da dinastia Ming (século XV) que se preservou intacta. Casas centenárias como Quanjude (fundada em 1864) e as contemporâneas Da Dong e Duck de Chine servem o pato inteiro em três momentos: primeiro a pele crocante caramelizada em fatias finas para comer com açúcar; depois as fatias de carne e pele enroladas em panquecas mandarim com molho hoisin, alho-poró e pepino; por fim, os ossos viram sopa clara servida no final.",
+          "O ritual dura duas horas. O chef fatia o pato à mesa em 108 pedaços (número simbólico), com técnica de faca herdada dos cozinheiros da corte Qing. É uma refeição que justifica um voo internacional — literalmente.",
+        ],
+      },
+      {
+        heading: "Xi'an e Uigur: a cozinha da Rota da Seda",
+        paragraphs: [
+          "Xi'an, o ponto de partida da antiga Rota da Seda, tem uma cozinha própria misturando influências chinesas Han com muçulmanos huí e uigures do noroeste. O bairro muçulmano de Xi'an (perto da Grande Mesquita) fica aberto até tarde e é uma explosão sensorial: espetos de cordeiro grelhados sobre carvão com cominho e pimenta, roujiamo (o 'hambúrguer chinês' de porco desfiado num pãozinho branco assado no forno — considerado por historiadores o hambúrguer mais antigo do mundo, do século II a.C.), yangrou paomo (sopa de cordeiro com pão amassado à mão pelo próprio cliente na tigela).",
+          "Nas províncias uigures de Xinjiang (Kashgar, Urumqi), a comida é praticamente turca ou uzbeque: laghman (macarrão puxado à mão em fio único de metros com molho de cordeiro e pimentões), polo (arroz com cordeiro e cenoura), naan em forno tandoor, chá com leite salgado. Uma China que a maioria dos brasileiros não sabe que existe.",
+        ],
+      },
+      {
+        heading: "Street food chinesa: o que provar caminhando",
+        paragraphs: [
+          "Em qualquer cidade chinesa, a rua alimenta melhor que muito restaurante. Em Shanghai, os xiao long bao (dumplings de sopa) do Din Tai Fung ou do humilde Jia Jia Tang Bao explodem caldo escaldante ao primeiro furo — técnica: coloque na colher, morda na lateral, sopre, tome o caldo, coma o resto. Em Beijing, jianbing (crepe de trigo com ovo, coentro e molho apimentado) é o café-da-manhã de rua obrigatório, feito em chapas quentes nas calçadas das 6h às 9h.",
+          "Em Chengdu, dan dan noodles vendidos por ambulantes com balanças de bambu nos ombros; em Xi'an, biang biang mian (macarrão largo puxado à mão, cujo caractere tem 58 traços — o mais complexo do mandarim); em Guangzhou, congee com peixe cru e amendoim; em Kunming (Yunnan), rice noodles 'over the bridge' servidos em caldo tão quente que cozinha os ingredientes na tigela do cliente.",
+        ],
+      },
+      {
+        heading: "Chá chinês: o berço de tudo",
+        paragraphs: [
+          "A China é o berço mundial do chá — cultivado há 4.700 anos, exportado para o mundo pela Rota da Seda, base de todas as culturas do chá (japonesa, indiana, inglesa, russa). A cerimônia gongfu do sudeste chinês serve chá em xícaras minúsculas de porcelana em múltiplas infusões curtas, cada uma revelando uma faceta diferente da mesma folha.",
+          "Yunnan produz o Pu'er (chá fermentado que envelhece como vinho — discos de 20 anos podem custar milhares de dólares), Fujian produz os oolongs Tie Guan Yin e Da Hong Pao (chá das rochas dos Wuyi), Zhejiang produz o Longjing (chá verde 'Poço do Dragão' de Hangzhou, servido ao presidente Nixon em 1972). Uma cerimônia com mestre em um clube de chá de Chengdu ou Kunming é uma das experiências culturais mais silenciosas e transformadoras que existe.",
+        ],
+      },
+      {
+        heading: "Roteiro gastronômico autoral Create Travel",
+        paragraphs: [
+          "Nossa curadoria gastronômica pela China combina: Beijing (3 dias — Pato Laqueado no Da Dong, jianbing de rua, jantar imperial em hutong), Chengdu (2 dias — hot pot mala, aula de culinária sichuanesa, cerimônia de chá em clube tradicional), Xi'an (2 dias — bairro muçulmano à noite com guia local, roujiamo, biang biang mian), Shanghai (3 dias — xiao long bao no Din Tai Fung, cantonesa em Yong Foo Elite, coquetel no Bund).",
+          "Para viajantes que já conhecem a China clássica, oferecemos extensão gastronômica em Yunnan (5 dias — chá pu'er nas montanhas de origem, cozinha das minorias étnicas Bai e Naxi, mercados de especiarias em Kunming) ou Guangzhou–Hong Kong (5 dias — imersão cantonesa completa com dim sum em três estrelas Michelin).",
+        ],
+      },
+    ],
+    faq: [
+      {
+        q: "A comida chinesa autêntica é muito diferente da servida no Brasil?",
+        a: "Radicalmente. O que se serve no Brasil (yakisoba, frango xadrez, rolinho primavera) é uma versão adaptada da cozinha cantonesa levada por imigrantes há um século. A comida real na China varia por província com a mesma diversidade que a europeia — cantonesa, sichuanesa e uigur não têm quase nada em comum.",
+      },
+      {
+        q: "É muito apimentada?",
+        a: "Depende da região. Sichuan e Hunan são famosas pelo picante. Cantonesa e Jiangsu são suaves. Beijing tem sabores intermediários. Guias e restaurantes ajustam pratos ao paladar ocidental sob demanda — mas experimentar o mala autêntico de Sichuan uma vez é obrigatório.",
+      },
+      {
+        q: "Tem opções vegetarianas?",
+        a: "Sim, especialmente perto de templos budistas (tofu, cogumelos, vegetais fermentados). A cozinha vegetariana budista chinesa é milenar. Vegano é mais difícil (muitos pratos usam banha ou molho de peixe fermentado); avise sempre 'wo chi su' (sou vegetariano).",
+      },
+      {
+        q: "Vale fazer uma aula de culinária?",
+        a: "Fortemente recomendado, especialmente em Chengdu (sichuanesa) e Yangshuo (cantonesa rural). Aulas de 4h com mercado de manhã e almoço do que se cozinhou são um dos melhores investimentos culturais da viagem.",
+      },
+    ],
+    relatedDestinations: [
+      { label: "China Clássica — Beijing, Xi'an e Shanghai", href: "/destinos/asia/china/classica" },
+      { label: "Yunnan — a China que ninguém conta", href: "/destinos/asia/china/yunnan" },
+      { label: "Grupo China Dourada · Outono 2026", href: "/grupos/china-2026" },
+    ],
+    imageAiPrompt:
+      "Overhead flat lay editorial photo of a Chinese banquet table with dim sum bamboo steamers, Sichuan hot pot bubbling red oil, Peking duck sliced on white plate, hand-pulled noodles, tea in porcelain gaiwan, chopsticks, dark rustic wood table, moody warm cinematic light, magazine food photography, no text.",
+    imageOverrideUrl: "/src/assets/diary/gastronomia-china.jpg",
+    publishedAt: "2026-07-10",
+    readingMinutes: 10,
+    category: "Cultura",
+    whatsappName: "Roteiro gastronômico China",
+  },
+  {
+    slug: "china-alem-do-obvio-yunnan-guizhou-etnias",
+    title: "China além do óbvio: Yunnan, Guizhou e as 55 etnias esquecidas",
+    h1: "China além do óbvio: Yunnan, Guizhou e as 55 etnias esquecidas",
+    metaDescription:
+      "A China que quase nenhum brasileiro conhece: arrozais de Yuanyang, aldeias Miao e Dong em Guizhou, Shangri-La tibetana. Roteiro autoral Create Travel.",
+    keywords:
+      "china alternativa, yunnan turismo, guizhou china, arrozais yuanyang, minorias étnicas china, lijiang shangri-la, china fora do óbvio, aldeias miao dong",
+    intro:
+      "Quando um brasileiro pensa em China, pensa em Beijing, na Grande Muralha, em Xangai. Só que a China tem 9,6 milhões de km² — quase o dobro do Brasil — e 56 etnias oficialmente reconhecidas, das quais 55 são minorias com línguas, arquiteturas, religiões e culinárias próprias. A maioria vive no sudoeste do país, em duas províncias que quase nenhum roteiro comercial visita: Yunnan e Guizhou. É lá que está a China mais fotogênica, mais lenta, mais autêntica — e que quase nenhum viajante brasileiro sabe que existe.",
+    sections: [
+      {
+        heading: "Por que Yunnan é um dos destinos mais subestimados do planeta",
+        paragraphs: [
+          "Yunnan (literalmente 'ao sul das nuvens') faz fronteira com Vietnã, Laos e Myanmar. Tem 25 das 55 etnias minoritárias chinesas, cinco cordilheiras (incluindo o Himalaia oriental), lagos alpinos, florestas tropicais no sul, chá cultivado há 1.700 anos e cidades antigas que a UNESCO listou repetidamente.",
+          "Enquanto a China oriental industrial recebe 90% dos turistas, Yunnan continua um mundo à parte — trekking sério na Garganta do Salto do Tigre, arrozais mundialmente fotografados em Yuanyang, cidade antiga Naxi em Lijiang ao pé da Montanha do Dragão de Jade nevada, mosteiros tibetanos autênticos em Shangri-La (a 3.200m). Um único voo doméstico de 3h a partir de Shanghai muda de mundo.",
+        ],
+      },
+      {
+        heading: "Yuanyang: os arrozais mais fotografados do mundo",
+        paragraphs: [
+          "No sul de Yunnan, o povo Hani vem esculpindo montanhas inteiras em terraços de arroz há 1.300 anos. Em 2013 a UNESCO declarou o sistema patrimônio mundial pela engenhosidade hidráulica (canais que descem da floresta no cume irrigando cada terraço) e pela integração cultural (aldeias inteiras vivem exclusivamente dessa cultura).",
+          "Entre fevereiro e março, quando os terraços estão cheios de água antes do plantio, o amanhecer sobre Duoyishu ou Bada é um dos espetáculos naturais mais cinematográficos do planeta: cada nível reflete o céu rosa e dourado em espelhos que descem a montanha em curvas orgânicas por 3.000 hectares. Sebastião Salgado fotografou aqui para Genesis. Michael Kenna dedicou uma série inteira. National Geographic voltou três vezes.",
+        ],
+      },
+      {
+        heading: "Lijiang e Shangri-La: China tibetana",
+        paragraphs: [
+          "A cidade antiga de Lijiang (2.400m) é patrimônio UNESCO desde 1997 — 800 anos de história Naxi (etnia matriarcal com escrita pictográfica dongba, a última escrita pictográfica do mundo ainda em uso religioso), casas de madeira em canais, restaurantes com músicos tocando composições ancestrais em instrumentos da dinastia Tang. Ao fundo, a Montanha do Dragão de Jade (5.596m) coberta de neve o ano inteiro.",
+          "Três horas ao norte, subindo por vales cada vez mais tibetanos, chega-se a Shangri-La (3.200m). A cidade foi oficialmente rebatizada em 2001 (antes se chamava Zhongdian) — o governo chinês reivindicou ser esta a inspiração do romance 'Horizonte Perdido' (1933) de James Hilton. Verdadeira ou não, a atmosfera é tibetana pura: Mosteiro Songzanlin (réplica menor do Palácio de Potala em Lhasa) com 700 monges lamas, maior roda de oração do mundo (21m de altura) e pastagens de iaques no verão.",
+        ],
+      },
+      {
+        heading: "Guizhou: a China que nem os chineses conhecem",
+        paragraphs: [
+          "Guizhou, ao leste de Yunnan, é a província com o maior número de minorias étnicas por km² da China — 18 etnias oficialmente reconhecidas, com destaque para os Miao (que os brasileiros chamam de Hmong, a mesma etnia que vive no norte do Laos e Vietnã) e os Dong.",
+          "Xijiang, a maior aldeia Miao do mundo, tem mil casas de madeira em palafitas empilhadas em anfiteatro natural na encosta. À noite, todas as luzes acendem simultaneamente como constelação. Mulheres ainda usam trajes bordados à mão e toucas de prata pesando 3kg em cerimônias — cada peça é dote familiar passado por gerações.",
+          "Os Dong constroem torres de tambor de até 9 andares e pontes cobertas sem usar um único prego — só encaixes, patrimônio imaterial UNESCO. Zhaoxing tem cinco torres num único vilarejo. Ao entardecer, mulheres cantam polifonia dong (também UNESCO) em harmonias impossíveis que só existem ali.",
+        ],
+      },
+      {
+        heading: "Festivais étnicos: mais de 400 por ano",
+        paragraphs: [
+          "Guizhou tem mais de 400 festivais tradicionais anuais — um a cada dia em algum vilarejo. Os principais: Sisters' Meal Festival dos Miao (abril, o mais antigo festival de amor do mundo — mulheres oferecem bolinhos coloridos aos pretendentes com fio de linha dentro para dizer sim ou espinho de pinheiro para dizer não), Festival Lusheng (setembro — aldeias inteiras dançando com flautas de bambu de 3m), Ano Novo Miao (novembro–dezembro — lutas de touros, ópera de máscaras, banquetes comunais que duram dias).",
+          "Yunnan tem os seus: Festival dos Baldes de Água dos Dai (abril, no sul tropical de Xishuangbanna — herança budista theravada, praticamente igual ao Songkran tailandês), Festival da Tocha Yi (julho — tochas de fogo iluminam vilarejos inteiros por três noites), Festival das Flores Bai (março, em Dali).",
+        ],
+      },
+      {
+        heading: "Como combinar Yunnan e Guizhou num roteiro de 15 dias",
+        paragraphs: [
+          "Nossa proposta autoral: Kunming (1 dia — capital de Yunnan, cerimônia de chá pu'er e mercado de especiarias) → Yuanyang (2 dias — arrozais UNESCO, amanhecer em Duoyishu, aldeia Hani com almoço familiar) → Lijiang (2 dias — cidade antiga Naxi, Garganta do Salto do Tigre por 1 dia) → Shangri-La (2 dias — Mosteiro Songzanlin, pastagens de iaques) → voo interno para Guizhou → Guiyang (1 dia) → aldeia Miao de Xijiang (2 dias com pernoite em guesthouse familiar) → aldeia Dong de Zhaoxing (2 dias, polifonia e torres de tambor) → cachoeira Huangguoshu (1 dia) → volta.",
+          "Esse itinerário é fisicamente ativo (altitude em Shangri-La, trilhas, estradas de montanha), fotograficamente inesquecível e etnograficamente denso. Recomendamos para viajantes que já conhecem China clássica, ou para quem quer começar pela China menos óbvia — deixando Beijing para uma segunda viagem.",
+        ],
+      },
+    ],
+    faq: [
+      {
+        q: "Precisa fazer a China clássica antes de ir para Yunnan e Guizhou?",
+        a: "Não. Muitos clientes nossos começam direto pelo sudoeste chinês, especialmente quem já viajou por Sudeste Asiático (Vietnã, Laos, Tailândia). O choque cultural é mais suave e as paisagens são mais surpreendentes. A China clássica pode virar uma segunda viagem.",
+      },
+      {
+        q: "É muito difícil logisticamente?",
+        a: "Sem curadoria, é praticamente impossível para brasileiros — quase ninguém fala inglês, aplicativos são bloqueados (Google, WhatsApp), motoristas e guesthouses só aceitam WeChat Pay e Alipay. Com guia da Create Travel em cada trecho e traslados privativos, é confortável.",
+      },
+      {
+        q: "Tem hospedagem boa?",
+        a: "Em Kunming, Lijiang e Guiyang há hotéis 4–5 estrelas internacionais. Em Yuanyang e nas aldeias Miao e Dong, guesthouses charmosas de madeira com aquecimento, banheiro privativo e boa comida caseira. Não espere resort — espere autenticidade com conforto.",
+      },
+      {
+        q: "Quando é a melhor época?",
+        a: "Fevereiro–março para arrozais de Yuanyang cheios de água (foto icônica), setembro–novembro para colheita, clima seco e festivais Miao. Evite julho–agosto (chuva intensa) e o feriado nacional chinês (01–07/10 — lotação máxima).",
+      },
+      {
+        q: "Combina com Vietnã ou Laos?",
+        a: "Perfeitamente. Yunnan faz fronteira com Vietnã e Laos, e voos entre Kunming e Hanói ou Luang Prabang são baratos e rápidos. Muitos clientes fazem 15 dias sudoeste chinês + 10 dias Vietnã norte, com fronteira terrestre pelo cume Hekou.",
+      },
+    ],
+    relatedDestinations: [
+      { label: "Yunnan — a China que ninguém conta", href: "/destinos/asia/china/yunnan" },
+      { label: "Guizhou — aldeias Miao e Dong", href: "/destinos/asia/china/guizhou" },
+      { label: "China Clássica — Beijing, Xi'an e Shanghai", href: "/destinos/asia/china/classica" },
+      { label: "Pacote China Autoral — Yunnan e Guizhou", href: "/pacote/china-yunnan-guizhou" },
+    ],
+    imageAiPrompt:
+      "Ultra realistic editorial photo of Lijiang old town in Yunnan China at dusk, cobblestone streets with red lanterns glowing, wooden Naxi architecture, Jade Dragon Snow Mountain in distance, cinematic warm light, no people, magazine travel cover.",
+    imageOverrideUrl: "/src/assets/diary/china-alternativa.jpg",
+    publishedAt: "2026-07-10",
+    readingMinutes: 11,
+    category: "Destino",
+    whatsappName: "Roteiro China Yunnan e Guizhou",
+  },
 ];
 
 
