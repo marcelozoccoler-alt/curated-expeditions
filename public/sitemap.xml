@@ -109,6 +109,12 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://createtravel.tur.br/destinos?c=oriente-medio</loc>
+    <lastmod>2026-07-10</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://createtravel.tur.br/destinos?c=oceania</loc>
     <lastmod>2026-07-10</lastmod>
     <changefreq>weekly</changefreq>
@@ -296,6 +302,12 @@
   </url>
   <url>
     <loc>https://createtravel.tur.br/destinos?tags=familia&amp;page=2</loc>
+    <lastmod>2026-07-10</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.4</priority>
+  </url>
+  <url>
+    <loc>https://createtravel.tur.br/destinos?tags=familia&amp;page=3</loc>
     <lastmod>2026-07-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.4</priority>
@@ -805,6 +817,30 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://createtravel.tur.br/destinos/oriente-medio/jordania/petra-wadi-rum</loc>
+    <lastmod>2026-07-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://createtravel.tur.br/destinos/asia/coreia-do-sul/seul-busan</loc>
+    <lastmod>2026-07-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://createtravel.tur.br/destinos/oriente-medio/emirados-arabes/dubai-abu-dhabi</loc>
+    <lastmod>2026-07-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://createtravel.tur.br/destinos/asia/singapura/marina-bay</loc>
+    <lastmod>2026-07-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://createtravel.tur.br/destinos/asia/conjugado/tailandia-camboja</loc>
     <lastmod>2026-07-10</lastmod>
     <changefreq>monthly</changefreq>
@@ -1124,6 +1160,12 @@
   </url>
   <url>
     <loc>https://createtravel.tur.br/experiencias/familia?page=2</loc>
+    <lastmod>2026-07-10</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.4</priority>
+  </url>
+  <url>
+    <loc>https://createtravel.tur.br/experiencias/familia?page=3</loc>
     <lastmod>2026-07-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.4</priority>
