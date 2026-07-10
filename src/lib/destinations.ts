@@ -2,6 +2,9 @@ import { Destination } from "./types";
 import monteRoraimaImg from "@/assets/destinations/brasil-monte-roraima.jpg";
 import festivalParintinsImg from "@/assets/destinations/brasil-amazonia-festival-parintins.jpg";
 import manausRioNegroImg from "@/assets/destinations/brasil-amazonia-manaus-rio-negro.jpg";
+import chinaClassicaImg from "@/assets/destinations/asia-china-classica.jpg";
+import chinaYunnanImg from "@/assets/destinations/asia-china-yunnan.jpg";
+import chinaGuizhouImg from "@/assets/destinations/asia-china-guizhou.jpg";
 
 export const destinations: Destination[] = [
   // ===== BRASIL =====
