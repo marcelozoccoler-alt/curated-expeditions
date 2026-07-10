@@ -5,6 +5,10 @@ import manausRioNegroImg from "@/assets/destinations/brasil-amazonia-manaus-rio-
 import chinaClassicaImg from "@/assets/destinations/asia-china-classica.jpg";
 import chinaYunnanImg from "@/assets/destinations/asia-china-yunnan.jpg";
 import chinaGuizhouImg from "@/assets/destinations/asia-china-guizhou.jpg";
+import jordaniaImg from "@/assets/destinations/oriente-medio-jordania.jpg";
+import coreiaDoSulImg from "@/assets/destinations/asia-coreia-do-sul.jpg";
+import emiradosImg from "@/assets/destinations/oriente-medio-emirados.jpg";
+import singapuraImg from "@/assets/destinations/asia-singapura.jpg";
 
 export const destinations: Destination[] = [
   // ===== BRASIL =====
