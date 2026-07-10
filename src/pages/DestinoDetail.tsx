@@ -39,11 +39,20 @@ const DestinoDetail = () => {
   const { "*": slug } = useParams();
   const destination = slug ? getDestinationBySlug(slug) : undefined;
   const [override, setOverride] = useState<string | null>(null);
+  const [isAuthed, setIsAuthed] = useState(false);
 
   useEffect(() => {
     window.scrollTo({ top: 0, behavior: "instant" as ScrollBehavior });
     if (destination) setOverride(getStoredOverride(destination.id));
   }, [slug, destination?.id]);
+
+  useEffect(() => {
+    import("@/integrations/supabase/client").then(({ supabase }) => {
+      supabase.auth.getSession().then(({ data }) => setIsAuthed(!!data.session));
+      const { data: sub } = supabase.auth.onAuthStateChange((_e, s) => setIsAuthed(!!s));
+      return () => sub.subscription.unsubscribe();
+    });
+  }, []);
 
   if (!destination) return <Navigate to="/destinos" replace />;
 
