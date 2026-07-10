@@ -2311,7 +2311,7 @@ export const destinations: Destination[] = [
 
   {
     id: "asia-israel",
-    continent: "Ásia",
+    continent: "Oriente Médio",
     country: "Israel",
     region: "Jerusalém, Tel Aviv & Mar Morto",
     slug: "asia/israel/terra-santa",
