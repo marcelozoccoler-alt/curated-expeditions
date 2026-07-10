@@ -208,5 +208,6 @@ export const CONTINENTS = [
   { id: "africa", name: "África" },
   { id: "europa", name: "Europa" },
   { id: "asia", name: "Ásia" },
+  { id: "oriente-medio", name: "Oriente Médio" },
   { id: "oceania", name: "Oceania" },
 ];
