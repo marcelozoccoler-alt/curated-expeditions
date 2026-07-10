@@ -645,6 +645,172 @@ export const pacotes: Pacote[] = [
     precoEstimado: "a partir de R$ 32.000 por pessoa",
     whatsappName: "Pacote Maldivas",
   },
+  {
+    slug: "china-yunnan-guizhou",
+    destinationName: "China Autoral — Yunnan & Guizhou",
+    title: "Pacote China Autoral — Yunnan e Guizhou | Create Travel",
+    h1: "Pacote de viagem para China — Yunnan e Guizhou (fora do óbvio)",
+    metaDescription:
+      "Roteiro autoral Create Travel pela China menos turística: arrozais UNESCO de Yuanyang, Lijiang, Shangri-La tibetana, aldeias Miao e Dong em Guizhou. 15 dias privativos.",
+    keywords:
+      "pacote china, viagem china yunnan, roteiro china guizhou, china alternativa, arrozais yuanyang, lijiang shangri-la, aldeias miao dong",
+    intro:
+      "Esqueça o circuito ônibus Beijing–Xi'an–Xangai. Este é o pacote para viajantes que já rodaram Ásia e querem a China que quase nenhum brasileiro conhece: 15 dias privativos pelo sudoeste chinês entre arrozais UNESCO, cidades antigas de madeira, mosteiros tibetanos e aldeias das minorias étnicas Miao, Dong, Naxi e Hani. Guia falando português ou espanhol em cada trecho, hotéis-boutique e voos internos incluídos.",
+    porqueCreate: [
+      "Roteiro 100% privativo — nada de grupo padronizado com 40 pessoas de ônibus",
+      "Guias falando português ou espanhol em Yunnan e Guizhou (raridade absoluta na China)",
+      "Hospedagem em hotéis-boutique e guesthouses selecionadas em cada aldeia",
+      "Fotografia guiada nos arrozais de Yuanyang ao amanhecer",
+      "Encontro exclusivo com famílias Miao com jantar caseiro e canto polifônico",
+      "Suporte 24/7 em português durante toda a viagem (WhatsApp via VPN)",
+    ],
+    duracoes: ["12 dias", "15 dias", "18 dias"],
+    melhorEpoca:
+      "Fev–Mar (arrozais de Yuanyang cheios de água refletindo o céu, foto icônica). Set–Nov (colheita, festivais Miao e clima seco). Evite Jul–Ago (chuvas de monção) e feriado nacional 01–07/10 (lotação total).",
+    roteiro: [
+      {
+        dias: "Dia 1-2",
+        titulo: "Kunming — chegada a Yunnan",
+        highlights: [
+          "Voo internacional São Paulo → Kunming via Doha ou Addis Abeba",
+          "Traslado privativo ao hotel-boutique no centro histórico",
+          "Cerimônia de chá pu'er com mestre local",
+          "Jantar de boas-vindas em restaurante Yunnan tradicional",
+        ],
+      },
+      {
+        dias: "Dia 3-4",
+        titulo: "Yuanyang — arrozais UNESCO",
+        highlights: [
+          "Estrada cênica de 5h a Yuanyang com paradas fotográficas",
+          "Amanhecer em Duoyishu com fotógrafo local (privativo)",
+          "Almoço com família Hani em aldeia tradicional",
+          "Pôr do sol em Bada com terraços dourados",
+        ],
+      },
+      {
+        dias: "Dia 5-6",
+        titulo: "Lijiang antiga (Naxi)",
+        highlights: [
+          "Voo interno Yuanyang → Lijiang",
+          "Cidade antiga UNESCO (800 anos) com guia local Naxi",
+          "Jantar-concerto de música ancestral naxi (instrumentos Tang)",
+          "Excursão à Montanha do Dragão de Jade (5.596m) por teleférico",
+        ],
+      },
+      {
+        dias: "Dia 7-8",
+        titulo: "Shangri-La — China tibetana",
+        highlights: [
+          "Estrada cênica de 4h pela Garganta do Salto do Tigre",
+          "Trek leve de 2h no ponto alto da garganta",
+          "Chegada a Shangri-La (3.200m) — aclimatação",
+          "Mosteiro Songzanlin ao amanhecer com 700 monges lamas",
+          "Almoço tibetano com família local em Nixi",
+        ],
+      },
+      {
+        dias: "Dia 9",
+        titulo: "Voo Yunnan → Guizhou",
+        highlights: [
+          "Traslado a Kunming e voo interno a Guiyang",
+          "Check-in em hotel 5 estrelas em Guiyang",
+          "Jantar Guizhou (cozinha ácida-picante com peixe de arroz)",
+        ],
+      },
+      {
+        dias: "Dia 10-11",
+        titulo: "Aldeia Miao de Xijiang",
+        highlights: [
+          "Traslado privativo de 3h a Xijiang (mil famílias Miao)",
+          "Pernoite em guesthouse de família Miao selecionada",
+          "Cerimônia de recepção com licor caseiro em chifre de búfalo",
+          "Visita ao ateliê de prateiro tradicional (dote das mulheres Miao)",
+          "Anoitecer no mirante com aldeia inteira iluminada",
+        ],
+      },
+      {
+        dias: "Dia 12-13",
+        titulo: "Aldeia Dong de Zhaoxing",
+        highlights: [
+          "Traslado de 4h atravessando montanhas cársticas",
+          "Chegada a Zhaoxing (cinco torres de tambor Dong UNESCO)",
+          "Concerto privativo de polifonia dong (patrimônio UNESCO)",
+          "Visita a ponte coberta 'wind-and-rain' construída sem pregos",
+          "Jantar comunal com moradores locais",
+        ],
+      },
+      {
+        dias: "Dia 14",
+        titulo: "Cachoeira Huangguoshu + retorno",
+        highlights: [
+          "Estrada cênica a Huangguoshu (maior cachoeira da Ásia)",
+          "Trilha por trás da cortina d'água",
+          "Retorno a Guiyang para voo internacional",
+        ],
+      },
+      {
+        dias: "Dia 15",
+        titulo: "Voo de retorno ao Brasil",
+        highlights: [
+          "Traslado ao aeroporto de Guiyang",
+          "Voo internacional com conexão em Doha ou Addis Abeba",
+        ],
+      },
+    ],
+    hospedagens: [
+      {
+        nome: "InterContinental Kunming",
+        descricao: "Hotel 5 estrelas no centro com spa e vista para o Lago Dianchi.",
+      },
+      {
+        nome: "Yunnan Country Retreat (Yuanyang)",
+        descricao: "Guesthouse-boutique de madeira com vista frontal para os arrozais UNESCO.",
+      },
+      {
+        nome: "Amandayan Lijiang",
+        descricao: "Resort Aman no coração da cidade antiga Naxi, arquitetura tradicional restaurada.",
+      },
+      {
+        nome: "Songtsam Shangri-La",
+        descricao: "Boutique tibetano em Shangri-La com decoração autêntica e vista para o Mosteiro Songzanlin.",
+      },
+      {
+        nome: "Kempinski Guiyang",
+        descricao: "5 estrelas internacional em Guiyang como base para as aldeias Miao e Dong.",
+      },
+    ],
+    faq: [
+      {
+        q: "Brasileiros precisam de visto para a China?",
+        a: "Não. Desde 2024, brasileiros têm isenção de visto para estadias turísticas até 30 dias. Passaporte válido por 6 meses após o retorno é obrigatório.",
+      },
+      {
+        q: "Quanto custa?",
+        a: "A partir de R$ 42.000 por pessoa (15 dias privativos, sem aéreo internacional). Inclui voos internos, hotéis 4–5 estrelas, guesthouses selecionadas, guias em português/espanhol, traslados privativos e refeições indicadas.",
+      },
+      {
+        q: "É seguro?",
+        a: "Sim, extremamente seguro. A China tem um dos menores índices de crime contra turistas do mundo. Yunnan e Guizhou são especialmente tranquilos.",
+      },
+      {
+        q: "Como funciona a internet?",
+        a: "Google, WhatsApp e Instagram são bloqueados. Enviamos instruções para instalar VPN antes de embarcar e fornecemos e-SIM internacional. Nossa equipe fica em contato 24/7 via WhatsApp funcionando pela VPN.",
+      },
+      {
+        q: "Tem altitude?",
+        a: "Sim, Shangri-La está a 3.200m. Chegamos por Lijiang (2.400m) para aclimatação gradual. Contra-indicado para quem tem problemas cardíacos graves — consulte médico antes.",
+      },
+      {
+        q: "Combina com China clássica ou outros países?",
+        a: "Sim. Podemos incluir extensão de 5 dias em Xangai antes ou depois, ou fronteira terrestre com Vietnã para roteiro combinado sudeste asiático + sudoeste chinês.",
+      },
+    ],
+    imageAiPrompt:
+      "Yunnan rice terraces at sunrise with mist rising between flooded fields reflecting pink and gold sky, layered karst mountains, cinematic editorial painterly, no people, ultra detailed magazine cover.",
+    precoEstimado: "a partir de R$ 42.000 por pessoa (15 dias)",
+    whatsappName: "Pacote China Yunnan e Guizhou",
+  },
 ];
 
 export const getPacote = (slug: string): Pacote | undefined =>
