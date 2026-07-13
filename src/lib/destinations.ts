@@ -3264,6 +3264,7 @@ export const destinations: Destination[] = [
       { q: "É bom para famílias?", a: "Sim, com cachoeiras acessíveis." },
       { q: "Combina com Chapada dos Veadeiros?", a: "Sim, é a combinação clássica." },
       { q: "Como criar roteiro?", a: "Clique em Criar roteiro sob medida." }
+    ]
   },
   {
     id: "asia-butao",
