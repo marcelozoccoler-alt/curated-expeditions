@@ -9,6 +9,10 @@ import jordaniaImg from "@/assets/destinations/oriente-medio-jordania.jpg";
 import coreiaDoSulImg from "@/assets/destinations/asia-coreia-do-sul.jpg";
 import emiradosImg from "@/assets/destinations/oriente-medio-emirados.jpg";
 import singapuraImg from "@/assets/destinations/asia-singapura.jpg";
+import butaoImg from "@/assets/destinations/asia-butao.jpg";
+import hongKongImg from "@/assets/destinations/asia-hong-kong.jpg";
+import malasiaImg from "@/assets/destinations/asia-malasia.jpg";
+import taiwanImg from "@/assets/destinations/asia-taiwan.jpg";
 
 export const destinations: Destination[] = [
   // ===== BRASIL =====
