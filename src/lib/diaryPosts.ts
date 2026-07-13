@@ -2223,6 +2223,367 @@ export const diaryPosts: DiaryPost[] = [
     category: "Destino",
     whatsappName: "Roteiro China Yunnan e Guizhou",
   },
+  {
+    slug: "grande-rota-indochina-vietna-camboja-laos",
+    title: "Grande Rota da Indochina: Vietnã, Camboja e Laos numa só viagem",
+    h1: "Grande Rota da Indochina: Vietnã, Camboja e Laos numa só viagem",
+    metaDescription:
+      "Roteiro integrado de 21 dias pela antiga Indochina francesa: Hanói, Halong, Hoi An, Angkor, Luang Prabang e o Mekong. Guia autoral Create Travel.",
+    keywords:
+      "roteiro indochina, viagem vietnã camboja laos, indochina francesa, angkor luang prabang halong, mekong roteiro, sudeste asiático integrado",
+    intro:
+      "Vietnã, Camboja e Laos foram, por 70 anos, uma só entidade política — a Indochina Francesa. Compartilham o rio Mekong, a herança budista theravada (Laos e Camboja) e mahayana (Vietnã), a arquitetura colonial em amarelo-mostarda das capitais e uma culinária que troca receitas nas fronteiras. Fazer os três num único roteiro não é acumular carimbos: é entender como uma mesma região produziu a delicadeza dos templos khmer, a energia caótica de Hanói e o silêncio monástico de Luang Prabang. Vinte e um dias bem desenhados fazem essa viagem caber sem correria.",
+    sections: [
+      {
+        heading: "Por que combinar os três — e não fazer um por vez",
+        paragraphs: [
+          "Os três países são complementares em ritmo. O Vietnã é intenso, cinematográfico, urbano; o Camboja concentra a experiência espiritual em Angkor e a melancolia histórica em Phnom Penh; o Laos é o desacelerador, o país onde monges caminham descalços ao amanhecer e o tempo se dilata no Mekong. Fazer os três em sequência cria um arco emocional que nenhum deles isolado entrega.",
+          "Geograficamente também faz sentido: voos internos curtos (1h–1h30) e cruzamentos terrestres viáveis conectam Hanói → Luang Prabang → Siem Reap → Ho Chi Minh sem grandes deslocamentos. É um dos raros roteiros multi-país da Ásia que não exige logística acrobática.",
+        ],
+      },
+      {
+        heading: "Vietnã — do norte cárstico ao delta do Mekong",
+        paragraphs: [
+          "Comece por Hanói: cidade velha de 36 ruas de artesãos, cafés franceses do início do século XX, ópera colonial, pho ao amanhecer em tigelas fumegantes e o Templo da Literatura (1070, a primeira universidade do Vietnã). Duas noites são mínimas.",
+          "Depois, a Baía de Halong ou a menos turística Bai Tu Long em cruzeiro de dois dias — 1.600 ilhas de calcário emergindo de água esmeralda, cavernas iluminadas, jantar no convés sob estrelas. Voo para Hue (cidade imperial dos Nguyen) ou trem noturno para Hoi An — a cidade-postal do Vietnã, lanternas de seda em cada esquina, alfaiates que fazem terno sob medida em 24h, praia An Bang a 4km.",
+          "Fechamento em Ho Chi Minh City (antiga Saigon) — pulsação econômica, catedral Notre-Dame de tijolos vermelhos, mercado Ben Thanh, jantar de banh xeo em ruelas e um dia no delta do Mekong (Ben Tre ou Can Tho) navegando entre plantações de coco, casas flutuantes e mercados aquáticos.",
+        ],
+      },
+      {
+        heading: "Camboja — Angkor e a alma khmer",
+        paragraphs: [
+          "Voo curto de Ho Chi Minh (ou de Hanói via Bangkok) para Siem Reap. Angkor merece três dias inteiros, não um passe rápido. Dia 1: pequeno circuito (Angkor Wat ao amanhecer, Angkor Thom com os 216 rostos de Bayon, Ta Prohm engolido pelas raízes de figueira). Dia 2: grande circuito com Preah Khan e Neak Pean. Dia 3: templos periféricos — Banteay Srei (o mais delicadamente esculpido, em arenito rosa) e Beng Mealea semi-selvagem, 60km ao leste.",
+          "Extensão possível para Battambang (cidade colonial francesa preservada, teatro de circo social Phare Ponleu Selpak) ou para as ilhas do sul (Koh Rong Samloem) para descompressão de 3 dias em praias de areia branca ainda pouco desenvolvidas.",
+          "Phnom Penh vale duas noites para quem quer a camada histórica completa: Palácio Real, museu nacional com a maior coleção de arte khmer do mundo e o par Tuol Sleng / Choeung Ek — memoriais do genocídio Khmer Rouge (1975–79). Não é fácil, mas é essencial para entender o Camboja contemporâneo.",
+        ],
+      },
+      {
+        heading: "Laos — o silêncio que faltava",
+        paragraphs: [
+          "Voo Siem Reap → Luang Prabang (via Vientiane) coloca o viajante num outro tempo. Luang Prabang é patrimônio UNESCO integral — a cidade inteira. 33 templos budistas ativos, arquitetura colonial francesa em madeira e estuque, confluência do Mekong com o Nam Khan, montanhas ao redor.",
+          "Amanhecer com a cerimônia do tak bat — mais de 200 monges de túnica laranja recebendo esmolas de arroz de moradores ajoelhados nas calçadas em silêncio absoluto. É uma das cenas mais fotografadas do sudeste asiático, mas quem participa com respeito (sem flash, mantendo distância, vestindo-se com decoro) leva memória para vida inteira.",
+          "Excursões a partir de Luang Prabang: cachoeiras Kuang Si (águas turquesa em piscinas naturais escalonadas), grutas de Pak Ou (4.000 estátuas de Buda em duas cavernas sagradas sobre o Mekong), aldeias Hmong e Khmu. Extensão para Vang Vieng (paisagens cársticas em vales de arroz — o Halong terrestre do Laos) e Vientiane, a capital mais tranquila do sudeste asiático.",
+        ],
+      },
+      {
+        heading: "O Mekong como fio condutor",
+        paragraphs: [
+          "O rio Mekong nasce no Tibete e atravessa Yunnan, Mianmar, Laos, Tailândia, Camboja e Vietnã antes de se abrir num delta gigante. Nos três países desta rota ele é personagem constante — cruzeiro de dois dias entre Huay Xai e Luang Prabang em barco tradicional de madeira, jantares às margens em Phnom Penh, mercados flutuantes no delta vietnamita ao amanhecer.",
+          "Para quem quer aprofundar o Mekong como experiência única, cruzeiros de luxo (Aqua Mekong, Aman Mekong) fazem trechos de 4 a 7 noites entre Siem Reap e Ho Chi Minh com paradas em vilarejos khmer, aulas de culinária a bordo e naturalistas explicando ecossistemas ribeirinhos.",
+        ],
+      },
+      {
+        heading: "Estrutura sugerida de 21 dias",
+        paragraphs: [
+          "Vietnã (10 dias): Hanói 3 + cruzeiro Halong 2 + Hoi An/Hue 3 + Ho Chi Minh e Mekong 2. Camboja (6 dias): Siem Reap/Angkor 4 + Phnom Penh 2. Laos (5 dias): Luang Prabang 4 + Vientiane 1. Voos internos: 4 (Hanói–Da Nang, Ho Chi Minh–Siem Reap, Siem Reap–Luang Prabang, Vientiane–Bangkok saída).",
+          "Extensões premiadas: cruzeiro Mekong de luxo substituindo dias soltos entre Siem Reap e Ho Chi Minh; norte remoto do Vietnã (Ha Giang, Sapa) para quem tem 5 dias extras; ilhas cambojanas para descanso final.",
+        ],
+      },
+      {
+        heading: "Quando ir e o que evitar",
+        paragraphs: [
+          "Novembro a março é a melhor janela: seca em todos os três países, temperaturas amenas no norte do Vietnã (14°–22°C), quentes mas sem chuva em Angkor e Luang Prabang. Abril é quentíssimo (40°C no Camboja), com Ano Novo Budista (Songkran/Bunpimay/Chol Chnam Thmay) — festivo, mas com estradas cheias e hotéis caros. Maio a outubro é temporada de chuvas (não impede viagem, mas exige flexibilidade).",
+          "Evite os feriados nacionais: Tet vietnamita (janeiro/fevereiro), Ano Novo Chinês (fecha muita coisa em Hanói e Ho Chi Minh) e feriado do trabalho (30/04–01/05 no Vietnã) por conta de lotação e preços altos.",
+        ],
+      },
+    ],
+    faq: [
+      {
+        q: "É seguro fazer os três países numa viagem só?",
+        a: "Sim. Vietnã, Camboja e Laos estão entre os países mais seguros do sudeste asiático para turistas — crime violento contra estrangeiros é raro. Cuidados usuais com carteira em multidões (Hanói e Ho Chi Minh) e trânsito caótico são suficientes.",
+      },
+      {
+        q: "Preciso de vistos para os três?",
+        a: "Brasileiros não precisam de visto para o Vietnã (isenção até 45 dias desde 2023). Camboja e Laos oferecem e-visa online rápida (US$ 30–50). Todo o processo é feito em casa antes da viagem — a Create Travel envia o checklist com prazos.",
+      },
+      {
+        q: "Dá para fazer com filhos?",
+        a: "Sim, a partir de 10 anos idealmente. Angkor pode ser cansativo no calor; adaptamos o roteiro com pausas em piscina, cruzeiro Mekong (adoram) e aulas de culinária em família. Para famílias com crianças menores, sugerimos versão de 14 dias focada em Vietnã e Camboja.",
+      },
+      {
+        q: "Qual é o gasto médio por pessoa em curadoria Create Travel?",
+        a: "Depende de padrão de hospedagem e sazonalidade. Trabalhamos com hotéis boutique 4–5 estrelas, guias privativos falando português ou inglês em cada trecho e traslados em veículo particular. Solicite proposta detalhada pelo WhatsApp com as datas em mente.",
+      },
+    ],
+    relatedDestinations: [
+      { label: "Vietnã — norte, centro e sul", href: "/destinos/asia/vietna" },
+      { label: "Camboja — Angkor e além", href: "/destinos/asia/camboja" },
+      { label: "Laos — Luang Prabang e Mekong", href: "/destinos/asia/laos" },
+    ],
+    imageAiPrompt:
+      "Editorial travel photo Mekong river at sunset with traditional wooden longtail boat, karst mountains reflection, warm golden light, misty atmosphere, magazine cover style, cinematic.",
+    imageOverrideUrl: "/src/assets/diary/indochina-integrada.jpg",
+    publishedAt: "2026-07-13",
+    readingMinutes: 12,
+    category: "Roteiro",
+    whatsappName: "Grande Rota da Indochina",
+  },
+  {
+    slug: "japao-coreia-do-sul-dois-imperios-uma-viagem",
+    title: "Japão e Coreia do Sul: dois impérios asiáticos em uma viagem",
+    h1: "Japão e Coreia do Sul: dois impérios asiáticos em uma viagem",
+    metaDescription:
+      "Como combinar Japão e Coreia do Sul em 18 dias: Tokyo, Kyoto, Seul e Busan com voos curtos, cultura milenar e vanguarda urbana. Curadoria Create Travel.",
+    keywords:
+      "japão coreia do sul roteiro, viagem ásia oriental, tokyo seul, kyoto busan, roteiro combinado japão coreia, cultura asiática",
+    intro:
+      "Japão e Coreia do Sul dividem 1.500 anos de história compartilhada — budismo chegou à Coreia pela China e à Coreia pelo Japão, a caligrafia sino-coreana moldou a japonesa, o chá veio pelo mesmo caminho. Mas as diferenças são radicais: onde o Japão cultiva silêncio, minimalismo e ritual, a Coreia moderna vibra em ritmo acelerado, cores fortes e reinvenção constante. Fazer os dois na mesma viagem é entender como duas culturas próximas produziram estéticas quase opostas — e isso é um dos exercícios comparativos mais ricos que a Ásia oferece.",
+    sections: [
+      {
+        heading: "Por que combinar — e não escolher entre eles",
+        paragraphs: [
+          "Voar de Tokyo para Seul leva 2h30. De Osaka para Busan, 1h30. Existe até balsa noturna (Fukuoka–Busan, 6h) para quem quer a experiência marítima. O custo logístico de somar Coreia ao Japão (ou vice-versa) é baixíssimo.",
+          "Culturalmente, o ganho é enorme. Depois de dez dias no Japão, chegar em Seul é choque sensorial: neons, K-pop nas ruas, comida picante, gente falando alto, moda ousada. Depois de dez dias na Coreia, chegar em Kyoto é o oposto — silêncio, jardins secos, chá cerimonial. Um contexto amplifica o outro.",
+        ],
+      },
+      {
+        heading: "Japão — do neon de Tokyo ao musgo de Kyoto",
+        paragraphs: [
+          "Comece por Tokyo (4 noites): Shibuya scramble, Meiji Shrine ao amanhecer, Tsukiji Outer Market, teamLab Planets, izakayas em Golden Gai. Extensão de dia para Kamakura ou Hakone (vista do Fuji, onsen).",
+          "Shinkansen para Kyoto (2h20) — capital imperial por mil anos, 1.600 templos budistas, 400 santuários xintoístas, 17 patrimônios UNESCO na cidade. Quatro noites permitem cerimônia do chá em Ura-senke, Fushimi Inari nas primeiras horas do dia, Arashiyama com bambuzal e templo Tenryu-ji, Kinkaku-ji dourado, Ryoan-ji com jardim seco e um dia inteiro em Nara (cervos livres em Nara Park, Todai-ji com o grande Buda de bronze).",
+          "Osaka (2 noites) como base gastronômica — takoyaki, okonomiyaki, kaiseki, izakaya em Dotonbori. Ou substituição por Hakone/Kanazawa para quem prefere ryokan clássico com onsen.",
+        ],
+      },
+      {
+        heading: "Coreia do Sul — Seul, Busan e as ilhas",
+        paragraphs: [
+          "Voo Osaka → Seul (1h30). Seul (4 noites): Palácio Gyeongbokgung com troca da guarda, aldeia hanok de Bukchon com casas tradicionais de telhado curvo entre arranha-céus, mercado noturno de Gwangjang (comida de rua histórica), Myeongdong para cosmética, Hongdae para vida noturna estudantil, DMZ com almoço na fronteira (o único lugar do mundo onde ainda se atravessa a Guerra Fria a pé).",
+          "KTX (trem-bala coreano) para Busan (2h20) — segunda cidade, praia de Haeundae, mercado de peixe Jagalchi, templo Haedong Yonggungsa esculpido no penhasco sobre o mar, aldeia de Gamcheon (colinas cobertas de casas coloridas escalonadas — apelidada de Machu Picchu coreano). Duas noites.",
+          "Extensão para Jeju (ilha vulcânica ao sul, patrimônio natural UNESCO, cachoeiras e crateras) ou Andong (aldeia hanok viva, cerimônias confucianas) para quem tem mais 3 dias.",
+        ],
+      },
+      {
+        heading: "Diferenças que só se percebem fazendo os dois",
+        paragraphs: [
+          "Comida: japonesa é sobre pureza — poucos ingredientes, sabores individualizados, apresentação minimal. Coreana é sobre profundidade — banchan (dezenas de acompanhamentos), fermentação (kimchi, gochujang), churrasco na mesa. Ambas geniais, filosoficamente opostas.",
+          "Templos: budistas em ambos, mas japoneses tendem ao vazio contemplativo (jardim seco de Ryoan-ji), coreanos ao colorido narrativo (Haedong Yonggungsa em Busan, templo Bulguksa em Gyeongju com pinturas dancheong).",
+          "Cidades: Tokyo é ordem obsessiva; Seul é criatividade caótica. Preservação arquitetônica é maior no Japão (Kyoto sobreviveu à guerra); Coreia foi reconstruída após 1953, então tudo é novo — palácios foram remontados peça a peça.",
+        ],
+      },
+      {
+        heading: "Estrutura sugerida de 18 dias",
+        paragraphs: [
+          "Japão (11 dias): Tokyo 4 + Kyoto 4 + Osaka 2 + traslado 1. Coreia do Sul (7 dias): Seul 4 + Busan 2 + Jeju ou Andong 1. Voo interno Osaka–Seul no meio.",
+          "Versão curta (14 dias): Tokyo 3 + Kyoto 3 + Osaka 2 + Seul 4 + Busan 2. Versão longa (24 dias): acrescentar Hakone/Kanazawa no Japão, DMZ em profundidade e Jeju completo na Coreia.",
+        ],
+      },
+      {
+        heading: "Melhor época e considerações práticas",
+        paragraphs: [
+          "Cerejeiras (sakura): última semana de março a segunda de abril no Japão; primeira e segunda semana de abril na Coreia. Fazendo os dois países em sequência, é possível pegar florada em ambos com timing certo — começar por Tokyo/Kyoto em fim de março e chegar em Seul na primeira semana de abril.",
+          "Outono (kouyou): última semana de outubro a segunda de novembro no Japão; primeira quinzena de novembro na Coreia. Cores igualmente espetaculares e menos multidões que sakura.",
+          "Evite Golden Week japonesa (29/04–05/05) e Chuseok coreano (setembro/outubro variável) — feriados nacionais com trens lotados, hotéis caros e turistas domésticos em massa.",
+        ],
+      },
+    ],
+    faq: [
+      {
+        q: "Vale mesmo somar Coreia ao Japão, ou é melhor esticar tempo no Japão?",
+        a: "Se é sua primeira vez na Ásia oriental, dez dias só de Japão bastam. Mas se você já foi ao Japão ou tem 15+ dias, somar Coreia multiplica a experiência em vez de diluí-la. Depoimentos de clientes: 'os dois melhores países da vida em três semanas'.",
+      },
+      {
+        q: "É difícil sem falar japonês/coreano?",
+        a: "Tokyo, Kyoto, Osaka e Seul têm sinalização em inglês razoável. Fora dos eixos turísticos, praticamente ninguém fala inglês em nenhum dos dois. Com guia da Create Travel em cada trecho, deixa de ser problema.",
+      },
+      {
+        q: "JR Pass ainda vale a pena?",
+        a: "Depende. Após o reajuste de 2023 (preço subiu 70%), só vale se você fizer trecho longo (Tokyo–Hiroshima ida e volta, por exemplo). Para roteiros Tokyo–Kyoto–Osaka, comprar bilhetes avulsos hoje sai mais barato. Simulamos para cada cliente.",
+      },
+      {
+        q: "É caro?",
+        a: "Ambos são países desenvolvidos, então o custo é comparável a Europa ocidental. Japão está mais barato desde 2022 pelo iene fraco. Coreia é 15–20% mais barata que Japão em média. Curadoria Create Travel: nem barata nem cara — precisa e bem escolhida.",
+      },
+    ],
+    relatedDestinations: [
+      { label: "Japão — do Fuji às ilhas do sul", href: "/destinos/asia/japao" },
+      { label: "Coreia do Sul — Seul, Busan e Jeju", href: "/destinos/asia/coreia-do-sul" },
+    ],
+    imageAiPrompt:
+      "Editorial split composition Kyoto bamboo forest and Seoul hanok village at dusk, cinematic warm light, magazine travel cover.",
+    imageOverrideUrl: "/src/assets/diary/japao-coreia.jpg",
+    publishedAt: "2026-07-13",
+    readingMinutes: 11,
+    category: "Roteiro",
+    whatsappName: "Roteiro Japão e Coreia do Sul",
+  },
+  {
+    slug: "sudeste-asiatico-luxo-tailandia-camboja-vietna",
+    title: "Sudeste Asiático de luxo: Tailândia, Camboja e Vietnã combinados",
+    h1: "Sudeste Asiático de luxo: Tailândia, Camboja e Vietnã combinados",
+    metaDescription:
+      "Como fazer Tailândia, Camboja e Vietnã em 18 dias com curadoria de luxo: Bangkok, Chiang Mai, Angkor, Hoi An e ilhas do sul. Create Travel autoral.",
+    keywords:
+      "sudeste asiático luxo, tailândia camboja vietnã roteiro, angkor hoi an chiang mai, viagem sudeste asiático premium, ásia autoral",
+    intro:
+      "O sudeste asiático virou, nos últimos dez anos, um dos destinos de luxo mais interessantes do mundo. Não pelo brilho ostensivo — é pelo oposto: hotéis boutique instalados em templos restaurados, resorts de praia em ilhas quase privativas, cruzeiros de madeira artesanal no Mekong e a possibilidade de ter Angkor Wat quase só para você ao amanhecer, com o preparo certo. Tailândia, Camboja e Vietnã em sequência entregam três atmosferas radicalmente distintas dentro de uma mesma viagem — e é essa progressão que faz o roteiro funcionar.",
+    sections: [
+      {
+        heading: "A lógica do trio",
+        paragraphs: [
+          "Tailândia é a porta de entrada natural — infraestrutura impecável, voos diretos, hotelaria de padrão mundial em Bangkok e nas ilhas. Camboja é o coração espiritual — Angkor concentra em três dias a experiência arqueológica mais impactante da região. Vietnã é o encerramento cinematográfico — paisagens dramáticas (Halong, Hoi An, delta do Mekong) e uma culinária que muitos consideram a mais refinada da Ásia.",
+          "A ordem importa. Começar por Bangkok dá tempo de aclimatação (fuso, calor). Emendar Camboja no meio traz o peso histórico. Terminar no Vietnã, especialmente com noites finais em Hoi An ou nas ilhas do sul (Con Dao, Phu Quoc), transforma a viagem numa curva ascendente em vez de descendente.",
+        ],
+      },
+      {
+        heading: "Tailândia — Bangkok, norte e ilhas",
+        paragraphs: [
+          "Bangkok (3 noites): Grand Palace com Wat Phra Kaew, mercado flutuante de Damnoen Saduak, jantar no rio Chao Phraya em iate privativo, spa tailandês em hotel de bandeira (Mandarin Oriental, Peninsula, Four Seasons) e uma noite em rooftop (Vertigo no Banyan Tree, Sirocco no Lebua) para o skyline mais vertical do sudeste asiático.",
+          "Chiang Mai (3 noites) no norte: cidade antiga murada com 30 templos budistas ativos, aula de culinária em cozinha de fazenda orgânica, Doi Suthep no alto da montanha, santuário ético de elefantes (Elephant Nature Park — só reabilitação, sem passeios nas costas) e artesanato de prata em San Kamphaeng.",
+          "Encerramento tailandês nas ilhas: Phuket para conforto e voos, Krabi para calcários dramáticos, Koh Samui para praia branca, Koh Yao Noi para exclusividade quase privativa. Três noites em resort premiado (Six Senses Yao Noi, Rosewood Phuket, Four Seasons Koh Samui) são suficientes se você fizer o Vietnã depois; sete noites se for encerramento.",
+        ],
+      },
+      {
+        heading: "Camboja — Angkor sem multidões",
+        paragraphs: [
+          "Voo Bangkok → Siem Reap (1h). Três dias de Angkor em ritmo curatorial: chegar ao Angkor Wat às 4h30 (portões abrem às 5h) para amanhecer com pouquíssima gente, retornar ao hotel para café e descanso, voltar às 15h para Angkor Thom quando o calor cede, luzes douradas nos rostos de Bayon.",
+          "Dia 2: Banteay Srei em arenito rosa (60km a nordeste, o mais delicadamente esculpido de todos), almoço em restaurante de fazenda orgânica no caminho, Ta Prohm à tarde (raízes de figueira engolindo o templo, cenário de Tomb Raider).",
+          "Dia 3: templos remotos — Beng Mealea semi-selvagem, aldeia de artesãos em Kampong Kleang no lago Tonlé Sap, jantar em restaurante de chef premiado em Siem Reap (Cuisine Wat Damnak, Malis). Hospedagem: Amansara (ex-residência do rei), Belmond La Résidence d'Angkor, Raffles Grand Hotel d'Angkor.",
+        ],
+      },
+      {
+        heading: "Vietnã — do centro cultural às praias secretas",
+        paragraphs: [
+          "Voo Siem Reap → Da Nang (1h30). Hoi An (3 noites): cidade velha patrimônio UNESCO, lanternas de seda em cada esquina, alfaiates para terno sob medida, praia An Bang a 4km. Hospedagem: Four Seasons Nam Hai (villas com piscina privativa de frente para o mar), Anantara Hoi An (colonial francês restaurado no rio).",
+          "Voo interno para Hanói (1h20) + cruzeiro de luxo na Baía de Halong (2 noites em barco de madeira artesanal — Paradise Elegance, Heritage Bình Chuẩn, Ylang by Emperor). Depois duas noites em Hanói em hotel colonial (Sofitel Metropole, 1901).",
+          "Encerramento nas ilhas do sul: Con Dao (arquipélago intocado no mar do sul da China, Six Senses Con Dao com 50 villas em 1,7km de praia privativa) ou Phu Quoc (JW Marriott Emerald Bay assinado por Bill Bensley, InterContinental Long Beach). Três a cinco noites de descompressão total antes do voo de volta.",
+        ],
+      },
+      {
+        heading: "Experiências únicas que só a curadoria oferece",
+        paragraphs: [
+          "Angkor Wat privativo ao amanhecer com arqueólogo francês da EFEO (École Française d'Extrême-Orient). Cerimônia de bênção com monges em templo tailandês fora do circuito. Jantar particular na muralha da cidade velha de Hoi An após fechar ao público. Cruzeiro Mekong de 4 noites no Aqua Mekong (barco de 40 hóspedes com naturalistas, aulas de culinária e paradas em vilarejos khmer). Aula de culinária com chef Luke Nguyen em Ho Chi Minh City.",
+          "Todas essas experiências dependem de rede local construída em anos — não estão em nenhum booking online. É o que diferencia curadoria autoral de agência convencional.",
+        ],
+      },
+      {
+        heading: "Estrutura sugerida de 18 dias",
+        paragraphs: [
+          "Tailândia 8 (Bangkok 3 + Chiang Mai 2 + ilhas 3) + Camboja 4 (Siem Reap/Angkor 4) + Vietnã 6 (Hoi An 3 + Halong 2 + Hanói 1). Voos internos: 4.",
+          "Versão premium alongada (24 dias): +3 dias nas ilhas tailandesas, +3 no encerramento em Con Dao ou Phu Quoc. Versão familiar (14 dias): concentrar em Bangkok, Siem Reap e Hoi An com base fixa em resort de praia para 4 noites finais.",
+        ],
+      },
+    ],
+    faq: [
+      {
+        q: "Qual é o padrão de hospedagem que a Create Travel opera nesse roteiro?",
+        a: "Trabalhamos com Aman, Six Senses, Four Seasons, Belmond, Rosewood, Anantara, Sofitel Legend, InterContinental, Raffles e boutiques independentes premiadas. A escolha depende do perfil do cliente, do orçamento e da atmosfera desejada para cada trecho.",
+      },
+      {
+        q: "Preciso reservar com quanta antecedência?",
+        a: "Para viagens em alta temporada (novembro–fevereiro), 6 a 8 meses de antecedência é o ideal. Hotéis top (Amansara em Siem Reap tem só 24 suítes, Nam Hai em Hoi An esgota) fecham cedo. Para maio–setembro, 3 a 4 meses bastam.",
+      },
+      {
+        q: "É viagem para casais, famílias ou grupos de amigos?",
+        a: "Funciona para os três formatos com adaptações. Casais tendem a preferir mais Halong e ilhas; famílias com filhos adultos gostam do balanço cultural pesado; grupos de amigos (4–6 pessoas) conseguem villas privativas de 3–4 quartos em Bali-style layouts.",
+      },
+      {
+        q: "Tem risco de instabilidade política?",
+        a: "Os três países estão estáveis do ponto de vista turístico. Tailândia teve tensões pontuais em Bangkok em anos anteriores, sempre restritas e sem afetar viajantes. Camboja e Vietnã são seguros. Monitoramos a situação em tempo real e ajustamos qualquer trecho conforme necessário.",
+      },
+    ],
+    relatedDestinations: [
+      { label: "Tailândia — Bangkok, Chiang Mai e ilhas", href: "/destinos/asia/tailandia" },
+      { label: "Camboja — Angkor e além", href: "/destinos/asia/camboja" },
+      { label: "Vietnã — norte, centro e sul", href: "/destinos/asia/vietna" },
+    ],
+    imageAiPrompt:
+      "Editorial photo Angkor Wat silhouette at sunrise reflected in lotus pond, warm pink and gold sky, cinematic magazine travel.",
+    imageOverrideUrl: "/src/assets/diary/sudeste-asiatico-luxo.jpg",
+    publishedAt: "2026-07-13",
+    readingMinutes: 12,
+    category: "Roteiro",
+    whatsappName: "Sudeste Asiático de Luxo",
+  },
+  {
+    slug: "cidades-estado-asia-singapura-hong-kong-taipei",
+    title: "Cidades-estado da Ásia: Singapura, Hong Kong e Taipei em 12 dias",
+    h1: "Cidades-estado da Ásia: Singapura, Hong Kong e Taipei em 12 dias",
+    metaDescription:
+      "Roteiro curatorial pelas três metrópoles asiáticas mais interessantes: Singapura, Hong Kong e Taipei. Arquitetura, gastronomia e mercados noturnos. Create Travel.",
+    keywords:
+      "singapura hong kong taipei roteiro, cidades ásia, gastronomia asiática urbana, marina bay victoria peak taipei 101, viagem urbana ásia",
+    intro:
+      "Singapura, Hong Kong e Taipei não são cidades — são civilizações em escala urbana. As três nasceram como pontos de encontro entre a China e o Ocidente, cresceram como capitais financeiras e hoje operam como laboratórios culturais onde tradição chinesa, arquitetura contemporânea, gastronomia obsessiva e vida noturna cosmopolita coexistem em poucas dezenas de km². Fazer as três em sequência, num roteiro de 12 dias com voos curtos entre elas, é entender a Ásia oriental fora do escopo de país — na escala da cidade que virou mundo.",
+    sections: [
+      {
+        heading: "Por que essas três, juntas",
+        paragraphs: [
+          "As três compartilham origem chinesa (Hokkien e cantonesa em Singapura, cantonesa em Hong Kong, mandarim e taiwanês em Taipei), passado colonial (britânico em Hong Kong e Singapura, japonês em Taiwan até 1945), e hoje operam como sociedades híbridas onde budismo, taoísmo, cristianismo e islã convivem sem atrito visível.",
+          "Voos entre elas: Singapura–Hong Kong 4h, Hong Kong–Taipei 1h40. Um único roteiro cobre três estéticas urbanas quase opostas: Singapura futurista e ultra-organizada, Hong Kong vertical e caótica, Taipei descontraída e criativa.",
+        ],
+      },
+      {
+        heading: "Singapura — cidade-jardim vertical",
+        paragraphs: [
+          "Quatro noites permitem cobrir bem. Dia 1: Gardens by the Bay ao entardecer com show de luzes das Supertrees, jantar em restaurante étnico em Kampong Glam (bairro malaio-árabe). Dia 2: Chinatown com Buddha Tooth Relic Temple, food court Maxwell (Michelin Bib Gourmand em barraca de frango-arroz), tarde no ArtScience Museum, coquetel no rooftop do Marina Bay Sands.",
+          "Dia 3: Little India com templo hindu Sri Veeramakaliamman e almoço em folha de bananeira, tarde em Tiong Bahru (bairro Art Déco reformado com cafés independentes), noite em Clarke Quay ou Boat Quay à beira do rio.",
+          "Dia 4: Sentosa (praia urbana, S.E.A. Aquarium) OU excursão de dia para Pulau Ubin (ilha rústica a 15min de balsa — Singapura como era nos anos 60). Hospedagem: Raffles Singapore (colonial 1887), Marina Bay Sands (icônico), Capella (villa boutique em Sentosa).",
+        ],
+      },
+      {
+        heading: "Hong Kong — vertical, contraditória, essencial",
+        paragraphs: [
+          "Voo direto de Singapura (4h). Quatro noites. Dia 1: Victoria Peak ao entardecer (pico com vista de 360° das duas margens iluminadas), jantar em Central com dim sum de fim de tarde. Dia 2: Star Ferry cruzando o porto (US$ 0,30, uma das travessias mais icônicas do mundo), Kowloon, mercado noturno de Temple Street, jantar peking duck em restaurante centenário.",
+          "Dia 3: escapada para Lantau Island (Big Buddha de bronze com 34m, mosteiro Po Lin, teleférico Ngong Ping 360 sobre o mar), tarde em Tai O (vilarejo de pescadores em palafitas). Dia 4: Ilhas mais remotas (Lamma, Cheung Chau) OU dia de compras curadas em Sheung Wan (antiquários, PMQ com designers locais) e tarde no M+ Museum (arquitetura de Herzog & de Meuron, maior museu de cultura visual asiática contemporânea).",
+          "Hospedagem: The Peninsula (1928, lendário), Rosewood Hong Kong (2019, vista imbatível do porto), Upper House (design boutique).",
+        ],
+      },
+      {
+        heading: "Taipei — a Ásia mais descontraída",
+        paragraphs: [
+          "Voo Hong Kong → Taipei (1h40). Quatro noites. Dia 1: Chiang Kai-shek Memorial Hall, National Palace Museum (maior coleção de arte chinesa imperial do mundo — os melhores tesouros da Cidade Proibida foram trazidos por Chiang em 1949), jantar em Din Tai Fung original (xiao long bao — a casa nasceu aqui).",
+          "Dia 2: Longshan Temple (o mais movimentado da cidade), mercado noturno de Raohe ou Shilin (os dois melhores — comida de rua de nível gastronômico: stinky tofu, oyster omelette, bubble tea), Elephant Mountain para ver o Taipei 101 iluminado.",
+          "Dia 3: excursão a Jiufen (vilarejo de mineração de ouro nas montanhas, inspiração para 'A Viagem de Chihiro' de Miyazaki, casas de chá com vista do mar), Shifen para soltar lanternas voadoras com desejos escritos. Dia 4: Beitou (bairro termal a 20min de metrô — onsen japonês herdado da ocupação) ou dia inteiro em Taroko Gorge (voo curto para Hualien, um dos desfiladeiros de mármore mais espetaculares do mundo).",
+          "Hospedagem: Mandarin Oriental Taipei, Grand Hyatt Taipei, hoteis boutique em Ximending.",
+        ],
+      },
+      {
+        heading: "Como as três se diferenciam gastronomicamente",
+        paragraphs: [
+          "Singapura é fusão explícita — cozinha peranakana (chinês + malaio), indiana do sul, chinesa hokkien e cantonesa, malaia, ocidental, tudo num único food court Michelin. Comer em hawker center é experiência antropológica.",
+          "Hong Kong é excelência técnica cantonesa levada ao extremo — dim sum, roast goose, wonton noodles, e a maior densidade de estrelas Michelin por km² do mundo. É a cidade onde a cozinha chinesa moderna se profissionalizou.",
+          "Taipei é criatividade descontraída — mercados noturnos são o coração da vida gastronômica, chefs jovens reinventam clássicos sem cerimônia, e é o berço mundial do bubble tea (Chun Shui Tang, Taichung, 1988). Comer em Taipei é mais barato e mais divertido que nas outras duas.",
+        ],
+      },
+      {
+        heading: "Estrutura sugerida de 12 dias",
+        paragraphs: [
+          "Singapura 4 + Hong Kong 4 + Taipei 4. Voos internos: 2 (Cingapura–Hong Kong 4h, Hong Kong–Taipei 1h40). Pode ser feito na ordem inversa se voos mais baratos assim configurarem.",
+          "Extensões possíveis: +3 dias na Malásia (Kuala Lumpur ou Penang) partindo de Singapura; +3 dias em Macau (30min de balsa de Hong Kong — patrimônio UNESCO português + cassinos); +3 dias em Kyoto ou Taroko em Taiwan.",
+        ],
+      },
+    ],
+    faq: [
+      {
+        q: "É seguro nas três?",
+        a: "As três estão entre as cidades mais seguras do mundo — Singapura tem uma das menores taxas de crime globais, Hong Kong é segura para turistas 24h, Taipei é conhecida pela cordialidade dos taiwaneses. Cuidados normais de metrópole são suficientes.",
+      },
+      {
+        q: "Hong Kong ainda vale depois das mudanças políticas de 2020?",
+        a: "Sim. O turismo funciona normalmente, hotéis e restaurantes seguem operando com padrão internacional. Do ponto de vista de viagem, mudou pouco. Discussões políticas em locais públicos são desaconselhadas — no mais, a cidade que impressionou o mundo continua ali.",
+      },
+      {
+        q: "Preciso de visto?",
+        a: "Brasileiros não precisam de visto para nenhum dos três (permanência de 30 a 90 dias). É um dos raros roteiros multi-país da Ásia sem burocracia de vistos.",
+      },
+      {
+        q: "Melhor época?",
+        a: "Outubro a abril: temperaturas agradáveis (18°–25°C) e menos chuva nas três. Evite julho e agosto (calor extremo, umidade alta, temporada de tufões em Hong Kong e Taipei). Ano Novo Chinês (janeiro/fevereiro) tem clima festivo mas hotéis lotam e muitas lojas fecham.",
+      },
+    ],
+    relatedDestinations: [
+      { label: "Singapura — cidade-jardim vertical", href: "/destinos/asia/singapura" },
+      { label: "Hong Kong — skyline e dim sum", href: "/destinos/asia/hong-kong" },
+      { label: "Taiwan — Taipei, Taroko e chá oolong", href: "/destinos/asia/taiwan" },
+    ],
+    imageAiPrompt:
+      "Editorial night skyline of Singapore Marina Bay with illuminated skyscrapers and Supertrees glowing purple, reflections on water, cinematic long exposure.",
+    imageOverrideUrl: "/src/assets/diary/cidades-estado-asia.jpg",
+    publishedAt: "2026-07-13",
+    readingMinutes: 11,
+    category: "Roteiro",
+    whatsappName: "Cidades-estado da Ásia",
+  },
 ];
 
 
