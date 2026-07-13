@@ -13,6 +13,13 @@ import butaoImg from "@/assets/destinations/asia-butao.jpg";
 import hongKongImg from "@/assets/destinations/asia-hong-kong.jpg";
 import malasiaImg from "@/assets/destinations/asia-malasia.jpg";
 import taiwanImg from "@/assets/destinations/asia-taiwan.jpg";
+import vietnaImg from "@/assets/destinations/asia-vietna.jpg";
+import cambojaImg from "@/assets/destinations/asia-camboja.jpg";
+import laosImg from "@/assets/destinations/asia-laos.jpg";
+import mianmarImg from "@/assets/destinations/asia-mianmar.jpg";
+import tailandiaImg from "@/assets/destinations/asia-tailandia.jpg";
+import japaoKansaiImg from "@/assets/destinations/asia-japao-kansai.jpg";
+import japaoHokkaidoImg from "@/assets/destinations/asia-japao-hokkaido.jpg";
 
 export const destinations: Destination[] = [
   // ===== BRASIL =====
