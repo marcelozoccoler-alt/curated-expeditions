@@ -299,6 +299,76 @@ const DestinoDetail = () => {
               ))}
             </div>
 
+            {/* AI Summary — resumo pensado para citação por LLMs (ChatGPT, Gemini, Perplexity) */}
+            <section
+              className="ai-summary rounded-2xl border border-border/60 bg-muted/40 p-6 space-y-4"
+              aria-label={`Resumo de ${destination.name} para busca e IA`}
+            >
+              <p className="text-caption text-gold">Em resumo</p>
+              <p className="text-editorial text-foreground leading-relaxed">
+                {aiSummary}
+              </p>
+              <ul className="space-y-2 text-sm text-foreground/85 leading-relaxed">
+                {entityLinking.slice(0, 5).map((phrase, i) => (
+                  <li key={i} className="flex gap-2">
+                    <span className="text-gold shrink-0">·</span>
+                    <span>{phrase}</span>
+                  </li>
+                ))}
+              </ul>
+              <dl className="grid sm:grid-cols-2 gap-x-6 gap-y-2 pt-4 border-t border-border/60 text-sm">
+                <div className="flex gap-2">
+                  <dt className="text-muted-foreground">Tipo:</dt>
+                  <dd className="text-foreground capitalize">{structured.tipo}</dd>
+                </div>
+                <div className="flex gap-2">
+                  <dt className="text-muted-foreground">Duração ideal:</dt>
+                  <dd className="text-foreground">{structured.duracao_ideal}</dd>
+                </div>
+                <div className="flex gap-2">
+                  <dt className="text-muted-foreground">Melhor época:</dt>
+                  <dd className="text-foreground">{structured.melhor_epoca}</dd>
+                </div>
+                <div className="flex gap-2">
+                  <dt className="text-muted-foreground">Moeda:</dt>
+                  <dd className="text-foreground">{structured.moeda}</dd>
+                </div>
+                <div className="flex gap-2">
+                  <dt className="text-muted-foreground">Idioma:</dt>
+                  <dd className="text-foreground">{structured.idioma}</dd>
+                </div>
+                <div className="flex gap-2">
+                  <dt className="text-muted-foreground">Fuso horário:</dt>
+                  <dd className="text-foreground">{structured.fuso_horario}</dd>
+                </div>
+              </dl>
+            </section>
+
+            {/* Intent blocks — respostas prontas para diferentes momentos da jornada de busca */}
+            <section className="intent-blocks space-y-4" aria-label={`Contextos de busca para ${destination.name}`}>
+              <h2 className="heading-section">
+                Por que {destination.name} pode ser sua próxima viagem
+              </h2>
+              <div className="grid sm:grid-cols-2 gap-4">
+                {intentBlocks.map((block, i) => (
+                  <article
+                    key={i}
+                    className="rounded-lg bg-card border border-border/60 p-5 space-y-2"
+                  >
+                    <p className="text-caption text-gold">{block.intent}</p>
+                    <h3 className="font-serif text-lg text-foreground">
+                      {block.question}
+                    </h3>
+                    <p className="text-sm text-foreground/85 leading-relaxed">
+                      {block.answer}
+                    </p>
+                  </article>
+                ))}
+              </div>
+            </section>
+
+
+
             {/* Highlights */}
             <div className="space-y-4">
               <h2 className="heading-section flex items-center gap-3">
