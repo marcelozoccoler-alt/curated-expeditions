@@ -23,6 +23,13 @@ import {
   buildSpeakableSchema,
 } from "@/lib/seoIntents";
 import {
+  buildAiSummary,
+  buildExpandedIntentFAQs,
+  buildEntityLinkingPhrases,
+  buildIntentMicroContexts,
+  buildDestinationStructured,
+} from "@/lib/geoContext";
+import {
   Accordion,
   AccordionContent,
   AccordionItem,
