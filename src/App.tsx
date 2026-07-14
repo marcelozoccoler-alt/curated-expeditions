@@ -41,6 +41,10 @@ import GrupoSuicaNorteItalia2026 from "./pages/GrupoSuicaNorteItalia2026";
 import GrupoPortugalNorteSul2026 from "./pages/GrupoPortugalNorteSul2026";
 import GrupoChileCarreteraAustral2026 from "./pages/GrupoChileCarreteraAustral2026";
 import GrupoEuropaLesteTurquia2026 from "./pages/GrupoEuropaLesteTurquia2026";
+import GrupoEquadorGalapagosCarnaval2027 from "./pages/GrupoEquadorGalapagosCarnaval2027";
+import GrupoIndiaSriLankaHoli2027 from "./pages/GrupoIndiaSriLankaHoli2027";
+import GrupoCoreiaJapaoCerejeiras2027 from "./pages/GrupoCoreiaJapaoCerejeiras2027";
+import GrupoChinaPrimavera2027 from "./pages/GrupoChinaPrimavera2027";
 import BrasilEstados from "./pages/BrasilEstados";
 import BrasilEstado from "./pages/BrasilEstado";
 import Incoming from "./pages/Incoming";
@@ -108,6 +112,10 @@ const App = () => (
         <Route path="/grupos/portugal-norte-sul-2026" element={<GrupoPortugalNorteSul2026 />} />
         <Route path="/grupos/chile-carretera-austral-2026" element={<GrupoChileCarreteraAustral2026 />} />
         <Route path="/grupos/europa-do-leste-turquia-2026" element={<GrupoEuropaLesteTurquia2026 />} />
+        <Route path="/grupos/equador-galapagos-carnaval-2027" element={<GrupoEquadorGalapagosCarnaval2027 />} />
+        <Route path="/grupos/india-sri-lanka-holi-2027" element={<GrupoIndiaSriLankaHoli2027 />} />
+        <Route path="/grupos/coreia-japao-cerejeiras-2027" element={<GrupoCoreiaJapaoCerejeiras2027 />} />
+        <Route path="/grupos/china-primavera-2027" element={<GrupoChinaPrimavera2027 />} />
           {/* Brasil hierarchical navigation — must come before /:regionSlug */}
           <Route path="/brasil-vivo" element={<BrasilVivo />} />
           <Route path="/:lang/brasil-vivo" element={<BrasilVivo />} />
