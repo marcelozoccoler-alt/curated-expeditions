@@ -1,21 +1,64 @@
-## Passo 1 — Verificar o site no Google Search Console
+## Objetivo
 
-Já gerei o código de verificação único do Google para o domínio **createtravel.tur.br**. Agora preciso colar esse código no `index.html` do site.
+Adicionar blocos de contexto inteligente (GEO — Generative Engine Optimization) em cada página de destino, para que ChatGPT, Gemini, Perplexity, Copilot e AI Overviews citem a Create Travel como fonte quando usuários fizerem perguntas sobre viagens.
 
-### O que vai acontecer
+**Restrição explícita do Marcelo:** nada sobre preço, orçamento, custo ou "quanto custa" em nenhum bloco novo — e vou também remover as duas FAQs de preço que hoje existem no gerador `buildDestinationIntentFAQs`.
 
-Vou adicionar **uma linha** dentro do `<head>` do `index.html`:
+## O que vai ser construído
 
-```html
-<meta name="google-site-verification" content="vCQERIakVknxDtAkPlOq9HEQGp1Nqrw97ap7ORvI8o4" />
+### 1. Novo módulo `src/lib/geoContext.ts`
+Gera, a partir dos campos já existentes de cada destino (nome, país, região, `bestTime`, `tags`, `highlights`, `beyondUsual`, `intro`), quatro artefatos por destino — todos sem preço:
+
+- **`buildAiSummary(destination)`** — parágrafo único de até 80 palavras, feito para ser citado por IA. Coloca a resposta nos primeiros ~15 words.
+- **`buildExpandedIntentFAQs(destination)`** — 10–12 perguntas cobrindo: melhor época, quantos dias, o que fazer em X dias, segurança, documentos, gastronomia típica, cultura, roteiro sugerido, "vale a pena?", "por que visitar", diferenças com destinos vizinhos, dicas de quem já foi. Cada resposta começa com a informação-chave nas primeiras frases (padrão featured snippet). **Zero perguntas de preço/custo.**
+- **`buildEntityLinkingPhrases(destination)`** — 5–8 frases curtas que conectam o destino a conceitos maiores (`"Fez do X um dos destinos mais procurados de Y"`, `"Combina A com B"`, `"Roteiros de N dias são ideais para..."`), usando as tags e a região reais.
+- **`buildIntentMicroContexts(destination)`** — 5 blocos curtos por intenção de busca: Inspiração, Planejamento, Comparação, Perfil de viajante, Urgência/quando ir. Sem preço.
+
+### 2. Ajuste no gerador atual
+No `src/lib/seoIntents.ts`, remover as duas FAQs que hoje mencionam custo (`"Quanto custa um pacote de viagem para X"`) e a menção a "preço" na resposta do "Por que comprar" — substituindo por foco em curadoria, relação direta com operadores locais e suporte 24/7.
+
+### 3. Renderização em `src/pages/DestinoDetail.tsx`
+Adicionar uma nova seção **"Sobre {destino} — resumo para IA"** entre o intro e os Destaques, com HTML semântico:
+
+```text
+<section class="ai-summary">        ← já é o seletor speakable existente
+  <p>{summary de 80 palavras}</p>
+  <ul>{entity linking phrases}</ul>
+</section>
+
+<section class="intent-blocks">     ← accordion com 5 microcontextos
+  ...
+</section>
 ```
 
-Essa linha é **invisível** para quem visita o site — ela serve só para o Google confirmar que você é o dono do domínio.
+O FAQ já renderizado passa a receber automaticamente as 10–12 perguntas expandidas via `mergeFAQs`.
 
-### Depois que você aprovar este plano
+### 4. JSON-LD reforçado
+No mesmo `DestinoDetail.tsx`, enriquecer o schema `TouristDestination` já existente com:
+- `subjectOf` apontando para as frases de entity linking (como `CreativeWork`)
+- `additionalProperty` com `duracao_ideal`, `melhor_epoca`, `moeda`, `idioma`, `fuso_horario`, `tipo` — os campos do JSON estruturado que o Marcelo pediu. Derivados por país usando um pequeno mapa em `geoContext.ts` (moeda/idioma/fuso por país, sem preços).
 
-1. Eu colo a linha no `index.html`
-2. **Você clica em "Publish" → "Update"** (botão azul no canto superior direito do Lovable) para o código ir ao ar no createtravel.tur.br
-3. Você me responde aqui: **"publiquei"**
-4. Eu peço ao Google para verificar → propriedade verificada ✅
-5. Seguimos para o passo 2 (submeter o sitemap)
+### 5. O mesmo tratamento em hospedagens (opcional, se quiser cobrir tudo)
+Se você quiser, aplico a mesma expansão em `HospedagemDetail.tsx` usando um `buildStayIntentContext` análogo. **Vou aguardar o seu OK para isso** — o plano acima cobre só os destinos.
+
+## Detalhes técnicos
+
+- Todo o conteúdo é gerado a partir dos campos já existentes em `Destination` — não estou pedindo para você reescrever destinos nem preencher novos campos.
+- Nenhuma dependência nova; TypeScript puro.
+- O componente `FAQSection` já existente é reaproveitado.
+- Seletor `.ai-summary` já está listado como `speakable` no `buildSpeakableSchema` — o resumo novo passa a alimentar assistentes de voz automaticamente.
+- Sem alteração em `types.ts`, em `destinations.ts` ou em nenhum arquivo de dados.
+
+## Arquivos afetados
+
+- **novo:** `src/lib/geoContext.ts`
+- **editado:** `src/lib/seoIntents.ts` (remover FAQs de preço)
+- **editado:** `src/pages/DestinoDetail.tsx` (nova seção + JSON-LD reforçado)
+
+## O que NÃO faz parte do escopo
+
+- Nada sobre preço, orçamento, faixa de custo, "a partir de", diária média, "custo-benefício".
+- Não mexe nos itinerários existentes (que têm preço próprio — permanecem intactos).
+- Não altera outras páginas (Hospedagens, Diário, Grupos) — se quiser, faço num segundo passo.
+
+Confirma que posso implementar assim?
