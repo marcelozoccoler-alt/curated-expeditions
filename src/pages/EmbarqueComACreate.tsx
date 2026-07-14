@@ -51,6 +51,10 @@ import grupoSuicaNorteItaliaImg from "@/assets/grupo-suica-norte-italia-2026.jpg
 import grupoPortugalNorteSulImg from "@/assets/grupo-portugal-norte-sul-2026.jpg";
 import grupoChileCarreteraImg from "@/assets/grupo-chile-carretera-austral-2026.jpg";
 import grupoEuropaLesteTurquiaImg from "@/assets/grupo-europa-leste-turquia-2026.jpg";
+import grupoEquadorGalapagosCarnavalImg from "@/assets/grupo-equador-galapagos-carnaval-2027.jpg";
+import grupoIndiaSriLankaHoliImg from "@/assets/grupo-india-sri-lanka-holi-2027.jpg";
+import grupoCoreiaJapaoCerejeirasImg from "@/assets/grupo-coreia-japao-cerejeiras-2027.jpg";
+import grupoChinaPrimaveraImg from "@/assets/grupo-china-primavera-2027.jpg";
 
 const RAW_DEPARTURES = [
   {
@@ -351,6 +355,46 @@ const RAW_DEPARTURES = [
     subtitle: "Santiago · Balmaceda · Carretera Austral · Capelas de Mármore · Glaciar San Rafael · Enseada Pérez",
     desc: "Primavera patagônica: a rota mais cênica do Chile, navegação às Capelas de Mármore, Glaciar San Rafael, cordeiro ao Palo e termas naturais. Voos LATAM e guia desde o Brasil.",
     fromPrice: "A partir de US$ 3.396 por pessoa (apto duplo)",
+    status: "Saída confirmada",
+  },
+  {
+    href: "/grupos/equador-galapagos-carnaval-2027",
+    img: grupoEquadorGalapagosCarnavalImg,
+    tag: "05 a 15/02/2027 · 11 dias · Carnaval",
+    title: "Equador & Galápagos · Carnaval",
+    subtitle: "Quito · Cotopaxi · Ilhas Galápagos · Guayaquil",
+    desc: "Carnaval entre Andes e Pacífico: Quito colonial, Avenida dos Vulcões, duas navegações por Galápagos com tartarugas gigantes e leões-marinhos, e Guayaquil. Voos LATAM e guia desde o Brasil.",
+    fromPrice: "A partir de US$ 3.998 por pessoa (apto duplo)",
+    status: "Saída confirmada",
+  },
+  {
+    href: "/grupos/india-sri-lanka-holi-2027",
+    img: grupoIndiaSriLankaHoliImg,
+    tag: "16/03 a 02/04/2027 · 18 dias · Festival Holi",
+    title: "Índia & Sri Lanka · Festival Holi",
+    subtitle: "Delhi · Jaipur · Abhaneri · Agra · Sigiriya · Nuwara Eliya · Yala · Bentota",
+    desc: "Festival Holi privativo em Jaipur, Taj Mahal ao amanhecer, Rocha de Sigiriya, jardins de chá e safári no Yala. Voos Turkish Airlines e guia desde o Brasil.",
+    fromPrice: "A partir de US$ 6.998 por pessoa (apto duplo)",
+    status: "Saída confirmada",
+  },
+  {
+    href: "/grupos/coreia-japao-cerejeiras-2027",
+    img: grupoCoreiaJapaoCerejeirasImg,
+    tag: "19/03 a 03/04/2027 · 16 dias · Cerejeiras",
+    title: "Coreia & Japão · Cerejeiras",
+    subtitle: "Seul · DMZ · Osaka · Nara · Kyoto · Alpes Japoneses · Hakone · Tóquio",
+    desc: "Sakura em sua época perfeita: Seul, DMZ, Kyoto imperial, Shirakawa-go, Lago Ashi com Monte Fuji e Tóquio. Voos Emirates e guia desde o Brasil.",
+    fromPrice: "A partir de US$ 8.985 por pessoa (apto duplo)",
+    status: "Saída confirmada",
+  },
+  {
+    href: "/grupos/china-primavera-2027",
+    img: grupoChinaPrimaveraImg,
+    tag: "13 a 27/05/2027 · 15 dias · Primavera",
+    title: "China · Primavera",
+    subtitle: "Beijing · Grande Muralha · Xi'an · Zhangjiajie · Shanghai",
+    desc: "Cidade Proibida, Grande Muralha, Guerreiros de Terracota, Zhangjiajie (cenário de Avatar) e Shanghai futurista. Voos Ethiopian e guia desde o Brasil.",
+    fromPrice: "A partir de US$ 5.998 por pessoa (apto duplo)",
     status: "Saída confirmada",
   },
 ];
