@@ -98,8 +98,17 @@ const DestinoDetail = () => {
   // Keywords semânticas para Google + IAs (ChatGPT, Perplexity, Gemini, AI Overviews)
   const seoKeywords = buildDestinationKeywords(destination);
 
-  // FAQ expandido: une o autoral com perguntas-intent universais
-  const allFaqs = mergeFAQs(destination.faq, buildDestinationIntentFAQs(destination));
+  // FAQ expandido: autoral + intents universais + intents GEO (sem preço)
+  const allFaqs = mergeFAQs(
+    mergeFAQs(destination.faq, buildDestinationIntentFAQs(destination)),
+    buildExpandedIntentFAQs(destination)
+  );
+
+  // Blocos GEO (Generative Engine Optimization) — feitos para ChatGPT, Gemini, Perplexity
+  const aiSummary = buildAiSummary(destination);
+  const entityLinking = buildEntityLinkingPhrases(destination);
+  const intentBlocks = buildIntentMicroContexts(destination);
+  const structured = buildDestinationStructured(destination);
 
   // FAQ JSON-LD
   const faqSchema = {
@@ -120,7 +129,7 @@ const DestinoDetail = () => {
     "@context": "https://schema.org",
     "@type": "TouristDestination",
     name: destination.name,
-    description: introClean.slice(0, 500),
+    description: aiSummary,
     url: pageUrl,
     image: absoluteImage,
     touristType: tagLabels,
@@ -137,6 +146,19 @@ const DestinoDetail = () => {
         ...(story ? { description: story.slice(0, 280) } : {}),
       };
     }),
+    additionalProperty: [
+      { "@type": "PropertyValue", name: "Tipo de destino", value: structured.tipo },
+      { "@type": "PropertyValue", name: "Duração ideal", value: structured.duracao_ideal },
+      { "@type": "PropertyValue", name: "Melhor época", value: structured.melhor_epoca },
+      { "@type": "PropertyValue", name: "Moeda local", value: structured.moeda },
+      { "@type": "PropertyValue", name: "Idioma", value: structured.idioma },
+      { "@type": "PropertyValue", name: "Fuso horário", value: structured.fuso_horario },
+    ],
+    subjectOf: entityLinking.map((text) => ({
+      "@type": "CreativeWork",
+      about: destination.name,
+      text,
+    })),
   };
 
   // BreadcrumbList — breadcrumb visual no Google
