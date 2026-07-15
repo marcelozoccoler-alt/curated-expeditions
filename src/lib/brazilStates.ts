@@ -32,6 +32,16 @@ export type Macroregion =
   | "Sudeste"
   | "Sul";
 
+export interface BrazilStateFAQ {
+  q: string;
+  a: string;
+}
+
+export interface BrazilStateSection {
+  title: string;
+  body: string;
+}
+
 export interface BrazilState {
   slug: string;
   uf: string; // sigla
@@ -43,6 +53,13 @@ export interface BrazilState {
   heroImageUrl: string;
   /** Destination slugs (from destinations.ts) that belong to this state */
   destinationSlugs: string[];
+  /** Optional long-form SEO content — rendered only when present. */
+  longIntro?: string;
+  whatToDo?: BrazilStateSection[];
+  bestTime?: string;
+  howToGet?: string;
+  whereToStay?: string;
+  faqs?: BrazilStateFAQ[];
 }
 
 export const brazilStates: BrazilState[] = [
@@ -306,13 +323,73 @@ export const brazilStates: BrazilState[] = [
     macroregion: "Sudeste",
     kicker: "Sudeste • Brasil",
     intro:
-      "A cidade maravilhosa e seu litoral: Búzios, Angra, Paraty e Trindade — sofisticação e natureza.",
+      "A Cidade Maravilhosa e seu litoral: Búzios, Angra dos Reis, Paraty e Trindade. Sofisticação, natureza atlântica e cultura brasileira em um só estado.",
     metaDescription:
-      "Rio de Janeiro com curadoria Create Travel: cidade do Rio e litoral fluminense.",
+      "Pacote de viagem para o Rio de Janeiro com curadoria Create Travel: cidade do Rio, Búzios, Angra, Paraty e o litoral fluminense. Roteiros sob medida, hospedagens autorais e suporte 24/7.",
     heroImageUrl: rioDeJaneiroImg,
     destinationSlugs: [
       "brasil/sudeste/rio-de-janeiro",
       "brasil/litoral-rio-de-janeiro",
+    ],
+    longIntro:
+      "Um pacote de viagem para o Rio de Janeiro pode ser muito mais do que Copacabana e Cristo Redentor. O estado combina a energia da capital carioca com dois litorais distintos — a Costa do Sol (Búzios, Arraial do Cabo, Cabo Frio) e a Costa Verde (Angra dos Reis, Ilha Grande, Paraty e Trindade) — além da Serra Fluminense, com Petrópolis, Itaipava e Teresópolis. Na Create Travel desenhamos roteiros pelo Rio de Janeiro sob medida, unindo cidade, praia e serra no ritmo certo para o seu perfil: casais em lua de mel, famílias com crianças, grupos de amigos ou viagens de comemoração.",
+    whatToDo: [
+      {
+        title: "Cidade do Rio de Janeiro",
+        body: "Cristo Redentor, Pão de Açúcar, Jardim Botânico, bairros de Santa Teresa e Lapa, praias de Ipanema e Leblon, museus como o MAR e o Museu do Amanhã, e experiências gastronômicas do casual ao autoral. Reservamos passeios sem fila e guias particulares.",
+      },
+      {
+        title: "Búzios e Costa do Sol",
+        body: "Pousadas-boutique, praias de águas cristalinas (Ferradura, João Fernandes, Azeda), passeios de escuna e a badalada Rua das Pedras. Ideal como extensão de 3 a 5 noites depois da cidade.",
+      },
+      {
+        title: "Angra dos Reis e Ilha Grande",
+        body: "365 ilhas na Costa Verde, day-charters em lanchas privativas, hospedagens pé-na-areia e a Lagoa Azul. Um contraste calmo em relação à intensidade do Rio.",
+      },
+      {
+        title: "Paraty e Trindade",
+        body: "Centro histórico colonial tombado pela UNESCO, cachoeiras da Serra da Bocaina, praias selvagens de Trindade e a rota do cachaça. Perfeito para quem busca cultura, natureza e ritmo lento.",
+      },
+      {
+        title: "Serra Fluminense",
+        body: "Petrópolis imperial, hotéis-fazenda em Itaipava e o Parque Nacional da Serra dos Órgãos em Teresópolis. Extensão elegante para o inverno.",
+      },
+    ],
+    bestTime:
+      "A melhor época para visitar o Rio de Janeiro depende do que você busca. De maio a outubro (outono e inverno) o clima é seco, temperaturas amenas (18–28 °C) e o mar mais calmo — ideal para trilhas, cidade e Serra Fluminense. De dezembro a março o verão é intenso (calor, praia cheia, chuvas rápidas de fim de tarde) e concentra Réveillon em Copacabana e o Carnaval carioca — reserve com 6 a 9 meses de antecedência. Junho e julho pegam o Festival Literário de Paraty (FLIP), e agosto tende a ser o mês mais estável para combinar cidade + Costa Verde.",
+    howToGet:
+      "O principal portão de entrada é o Aeroporto Internacional do Galeão (GIG), com voos diretos de todas as capitais brasileiras e conexões internacionais. O Aeroporto Santos Dumont (SDU) atende voos domésticos e fica no centro. Para o litoral: Búzios está a 2h30 de carro do Rio; Angra dos Reis a 2h30–3h; Paraty a 4h. Organizamos transfers privativos, aluguel de carro e, para grupos, deslocamentos rodoviários com motorista.",
+    whereToStay:
+      "No Rio, indicamos hotéis autorais em Ipanema, Leblon, Copacabana e Santa Teresa — do clássico de frente para o mar ao boutique urbano. Em Búzios, pousadas de charme na Ferradura e João Fernandes. Em Angra, resorts pé-na-areia e ilhas privativas. Em Paraty, casarões restaurados no centro histórico ou refúgios na mata atlântica. Toda a curadoria é feita a partir do briefing — não trabalhamos com hotéis de cadeia genérica.",
+    faqs: [
+      {
+        q: "Quanto tempo ficar no Rio de Janeiro?",
+        a: "Para a cidade, o ideal são 4 a 5 noites. Combinações comuns: Rio + Búzios (7–8 noites), Rio + Paraty (7 noites), Rio + Angra + Paraty (10 noites). Roteiros com Serra Fluminense pedem 1 ou 2 noites extras.",
+      },
+      {
+        q: "Qual a melhor época para um pacote no Rio de Janeiro?",
+        a: "Maio a outubro para clima seco, temperaturas amenas e mar calmo. Dezembro a março para verão pleno, Réveillon e Carnaval — nesses períodos reserve com 6 a 9 meses de antecedência. Agosto é o mês mais equilibrado para quem quer combinar cidade e litoral.",
+      },
+      {
+        q: "O Rio de Janeiro é seguro para turistas?",
+        a: "Sim, com os cuidados de qualquer grande cidade. Nos roteiros Create Travel usamos motoristas privativos, guias credenciados, hospedagens em bairros seguros (Zona Sul, Santa Teresa, Barra) e suporte 24/7 por WhatsApp durante toda a viagem.",
+      },
+      {
+        q: "Vale a pena combinar o Rio com o litoral fluminense?",
+        a: "Sim — é o formato mais pedido. A cidade entrega cultura, gastronomia e ícones; o litoral (Búzios, Angra, Paraty) entrega descanso, natureza e um ritmo diferente. A combinação faz a viagem parecer duas em uma.",
+      },
+      {
+        q: "Como funciona um pacote de viagem para o Rio de Janeiro na Create Travel?",
+        a: "Não vendemos pacotes prontos. A partir de uma conversa por WhatsApp levantamos período, perfil dos viajantes, ritmo e experiências desejadas. Enviamos uma proposta sob medida com hospedagens, transfers, passeios privativos e suporte durante a viagem. Você fala com um único travel designer do briefing ao pós-viagem.",
+      },
+      {
+        q: "É melhor ficar em Copacabana, Ipanema ou Leblon?",
+        a: "Leblon é o bairro mais tranquilo e sofisticado, com boa gastronomia. Ipanema equilibra praia, vida noturna e conveniência — nossa recomendação padrão. Copacabana tem mais opções de hotéis clássicos frente-mar e é ideal para primeira viagem. Santa Teresa entrega charme boêmio para quem prefere pousadas.",
+      },
+      {
+        q: "Precisa de guia particular no Rio?",
+        a: "Recomendamos para os primeiros dias — evita filas em Cristo/Pão de Açúcar, dá contexto histórico real (Santa Teresa, centro, favela pacificada) e libera você para aproveitar. Para praia e restaurantes, o guia deixa de ser necessário.",
+      },
     ],
   },
   {
