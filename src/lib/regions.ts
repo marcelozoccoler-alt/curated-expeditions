@@ -37,13 +37,61 @@ export const regions: Region[] = [
     intro:
       "Amazônia em estado de contemplação: ilhas, canais e silêncio com profundidade. A Create Travel desenha imersões com ética ambiental, conforto real e guias que sabem ler a floresta.",
     metaDescription:
-      "Roteiros e lodges na Amazônia com curadoria de curadoria autoral da Create Travel. Anavilhanas, Manaus, Alter do Chão.",
+      "Pacote de viagem para a Amazônia com curadoria Create Travel: lodges em Anavilhanas, Manaus, Rio Negro e Alter do Chão. Roteiros sob medida, ética ambiental e suporte 24/7.",
     heroImageUrl:
       "https://images.unsplash.com/photo-1518002171953-a080ee817e1f?w=1920&h=1080&fit=crop",
     destinationSlugs: [
       "brasil/amazonia/anavilhanas",
       "brasil/amazonia/manaus-rio-negro",
       "brasil/amazonia/alter-do-chao",
+    ],
+    longIntro:
+      "Um pacote de viagem para a Amazônia pode ser muito mais do que um passeio de barco em Manaus. O bioma abriga alguns dos ecossistemas mais ricos do planeta — o arquipélago de Anavilhanas no Rio Negro, o Encontro das Águas, as praias fluviais de Alter do Chão no Tapajós e comunidades ribeirinhas que só podem ser visitadas com operadores credenciados. Na Create Travel desenhamos roteiros pela Amazônia brasileira sob medida, hospedando em lodges com estrutura real e ética ambiental, com guias naturalistas de nascença. Trabalhamos com Anavilhanas, Manaus e Rio Negro, Alter do Chão (PA) e extensões pela Amazônia peruana quando faz sentido.",
+    whatToDo: [
+      {
+        title: "Lodges no Rio Negro e Anavilhanas",
+        body: "Hospedagens sobre palafitas ou barcos-hotel em meio ao maior arquipélago fluvial do mundo. Focagem noturna de jacarés, trilhas na mata, pesca esportiva de tucunaré (temporada) e visitas éticas a comunidades ribeirinhas.",
+      },
+      {
+        title: "Manaus e Encontro das Águas",
+        body: "Base logística com voos diretos das capitais. Teatro Amazonas, mercado municipal, gastronomia amazônica autoral e o clássico Encontro das Águas entre Rio Negro e Solimões.",
+      },
+      {
+        title: "Alter do Chão e Rio Tapajós",
+        body: "As praias fluviais mais bonitas do Brasil (a 'Caribe amazônico'), Floresta Nacional do Tapajós, comunidades quilombolas e ipês em flor entre agosto e outubro.",
+      },
+      {
+        title: "Observação de fauna e botos-cor-de-rosa",
+        body: "Passeios em canoa silenciosa ao amanhecer, safári fotográfico de macacos, preguiças, jacarés e mais de 400 espécies de aves. Interação ética com botos-cor-de-rosa em áreas selecionadas.",
+      },
+    ],
+    bestTime:
+      "A melhor época depende da experiência. De junho a novembro é o período de águas baixas: praias fluviais em Alter do Chão, trilhas terrestres mais acessíveis, melhor observação de fauna em terra. De dezembro a maio é a cheia: florestas alagadas navegáveis de canoa, silêncio absoluto e a paisagem amazônica clássica dos igapós. Setembro e outubro combinam bem: águas baixas no Tapajós + Encontro das Águas ainda visível.",
+    howToGet:
+      "O acesso principal é pelo Aeroporto Internacional Eduardo Gomes (MAO) em Manaus, com voos diretos de todas as capitais. Para Alter do Chão, voo até Santarém (STM) e transfer terrestre de 30 min. De Manaus para os lodges de Anavilhanas, transfer terrestre + fluvial (2–3h) organizado pelo próprio lodge. Coordenamos todo o encadeamento aéreo-terrestre-fluvial.",
+    whereToStay:
+      "Selecionamos lodges premium sobre o Rio Negro (bangalôs com varanda para a floresta), barcos-hotel para roteiros itinerantes, e pousadas-charme em Alter do Chão pé-na-areia do rio. Em Manaus, hotéis-base para 1 noite de conexão. Só trabalhamos com operações que praticam turismo de baixo impacto e remuneram comunidades locais.",
+    faqs: [
+      {
+        q: "Quantos dias ficar na Amazônia?",
+        a: "Para uma experiência real de lodge no Rio Negro, mínimo 4 noites. Roteiro combinando Manaus + Anavilhanas + Alter do Chão pede 8 a 10 noites. Extensões para a Amazônia peruana (Iquitos, Puerto Maldonado) somam mais 4 a 5 noites.",
+      },
+      {
+        q: "Qual a melhor época para um pacote de viagem para a Amazônia?",
+        a: "Junho a novembro para praias fluviais, trilhas e observação de fauna em terra (águas baixas). Dezembro a maio para florestas alagadas navegáveis e silêncio absoluto (cheia). Setembro e outubro são o meio-termo ideal.",
+      },
+      {
+        q: "É seguro viajar para a Amazônia com crianças?",
+        a: "Sim, desde que hospedado em lodges estruturados. Trabalhamos com operações que têm equipe médica de plantão, atividades adaptadas por idade e rota de evacuação para Manaus em caso de necessidade. Vacina de febre amarela é obrigatória (10 dias antes da viagem).",
+      },
+      {
+        q: "Como funciona um pacote para a Amazônia na Create Travel?",
+        a: "Não vendemos pacotes prontos. A partir de uma conversa por WhatsApp levantamos período, perfil, apetite por conforto vs. aventura. Enviamos uma proposta sob medida com lodge selecionado, voos, transfers fluviais, guias privativos e suporte 24/7 — com um único travel designer do briefing ao pós-viagem.",
+      },
+      {
+        q: "Precisa de guia para visitar a Amazônia?",
+        a: "Sim, obrigatoriamente. Toda a experiência acontece com guias naturalistas locais dos lodges — não é um destino para explorar por conta. É justamente o guia que transforma a floresta em algo compreensível.",
+      },
     ],
   },
   {
