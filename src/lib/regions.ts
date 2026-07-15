@@ -173,10 +173,62 @@ export const regions: Region[] = [
     intro:
       "Dunas brancas e lagoas azuis em janelas curtas do ano. Roteiros que combinam o encanto único dos Lençóis com extensão para Atins, Caburé e o Delta do Parnaíba.",
     metaDescription:
-      "Lençóis Maranhenses com curadoria Create Travel: melhor época para as lagoas, Atins, Caburé e Delta do Parnaíba.",
+      "Pacote de viagem para os Lençóis Maranhenses com curadoria Create Travel: melhor época para as lagoas, Barreirinhas, Atins, Caburé e Delta do Parnaíba. Roteiros sob medida e suporte 24/7.",
     heroImageUrl:
       "https://images.unsplash.com/photo-1611348586804-61bf6c080437?w=1920&h=1080&fit=crop",
     destinationSlugs: ["brasil/lencois-maranhenses"],
+    longIntro:
+      "Um pacote de viagem para os Lençóis Maranhenses precisa acertar uma janela curta e específica do ano — de junho a setembro, quando as chuvas de janeiro-maio enchem as milhares de lagoas azuis e cristalinas entre as dunas brancas. É a paisagem mais fotografada do Nordeste brasileiro e um dos poucos lugares no mundo com esse fenômeno. Na Create Travel desenhamos roteiros sob medida pelos Lençóis unindo Barreirinhas (base logística e Circuito das Lagoas), Atins (vilarejo pé-na-areia sem asfalto, ideal para casais) e Caburé (língua de areia entre o Rio Preguiças e o mar). Extensões naturais: Delta do Parnaíba, Jericoacoara e a Rota das Emoções (roteiro clássico de 7–10 noites entre 3 estados).",
+    whatToDo: [
+      {
+        title: "Circuito das Lagoas Azul e Bonita",
+        body: "O clássico passeio saindo de Barreirinhas em 4x4: travessia de balsa, subida pelas dunas ao pôr do sol e mergulho nas duas lagoas mais famosas do parque nacional. Ideal para primeira visita e famílias.",
+      },
+      {
+        title: "Lagoa da Esperança e Circuito Sul",
+        body: "Passeio menos turístico, com dunas mais altas e lagoas maiores. Requer 4x4 confortável e guia — organizamos operação privativa para casais e grupos que buscam menos gente.",
+      },
+      {
+        title: "Descida do Rio Preguiças até Caburé",
+        body: "Passeio de lancha voadeira por 4 horas com paradas em Vassouras (macacos-prego), Mandacaru (farol) e Caburé (língua de areia entre rio e mar). Um dos passeios mais icônicos do parque.",
+      },
+      {
+        title: "Atins — hospedagem pé-na-areia",
+        body: "Vilarejo sem asfalto acessado por lancha ou 4x4 desde Barreirinhas. Pousadas-boutique, kitesurf, jantares à luz de lampião e trilhas até o parque pelas Emendadas — ideal para casais.",
+      },
+      {
+        title: "Rota das Emoções (extensão)",
+        body: "Roteiro clássico de 7–10 noites unindo Lençóis Maranhenses + Delta do Parnaíba (PI) + Jericoacoara (CE) por travessia terrestre e fluvial. Organizamos com motorista privativo bilíngue.",
+      },
+    ],
+    bestTime:
+      "A melhor época para visitar os Lençóis Maranhenses é de junho a setembro — as lagoas estão cheias, azuis e cristalinas. Julho e agosto são o pico visual (também alta temporada brasileira, reserve com 4–6 meses de antecedência). Setembro combina lagoas ainda cheias com menos turistas. De outubro a dezembro as lagoas começam a secar. De janeiro a maio é a temporada de chuvas: as lagoas se formam, mas ainda são rasas e nem todos os passeios operam.",
+    howToGet:
+      "O acesso é pelo Aeroporto Internacional Marechal Cunha Machado (SLZ), em São Luís, com voos diretos das principais capitais. De São Luís, transfer terrestre de 4h até Barreirinhas (ou voos fretados de 45 min). De Barreirinhas para Atins, lancha voadeira (1h30) ou 4x4 (3h). Organizamos todo o encadeamento aéreo-terrestre-fluvial.",
+    whereToStay:
+      "Em Barreirinhas, hotéis-boutique com piscina e boa gastronomia — base logística ideal para famílias. Em Atins, pousadas pé-na-areia com estrutura para kitesurf e desconexão total (nossa recomendação para casais). Em São Luís, hotel-boutique no Centro Histórico (patrimônio UNESCO) para 1 noite de chegada. Toda a curadoria é feita a partir do briefing.",
+    faqs: [
+      {
+        q: "Quantos dias ficar nos Lençóis Maranhenses?",
+        a: "Para o parque, 4 a 5 noites. Combinando Barreirinhas + Atins, 6 a 7 noites. Rota das Emoções completa (Lençóis + Delta + Jericoacoara), 10 a 12 noites. Primeira viagem geralmente pede 6 a 7 noites.",
+      },
+      {
+        q: "Qual a melhor época para os Lençóis Maranhenses?",
+        a: "Junho a setembro, com pico em julho-agosto. Setembro é o equilíbrio ideal: lagoas ainda cheias, menos turistas. Evite outubro a maio (lagoas secas ou temporada de chuvas). Reserve com 4–6 meses de antecedência para julho e agosto.",
+      },
+      {
+        q: "É melhor ficar em Barreirinhas ou em Atins?",
+        a: "Barreirinhas: base logística, estrutura completa, ideal para famílias e primeira visita. Atins: vilarejo pé-na-areia, sem asfalto, ideal para casais em desconexão e kitesurf. Roteiros de 6+ noites geralmente combinam as duas.",
+      },
+      {
+        q: "Precisa de guia nos Lençóis Maranhenses?",
+        a: "Sim, obrigatório. Todos os passeios dentro do Parque Nacional dos Lençóis são feitos com veículos 4x4 e guias credenciados pelo ICMBio. Organizamos operação privativa para grupos e casais que preferem sair fora do horário coletivo.",
+      },
+      {
+        q: "Como funciona um pacote de viagem para os Lençóis Maranhenses na Create Travel?",
+        a: "Não vendemos pacotes prontos. A partir de uma conversa por WhatsApp levantamos período, perfil, apetite por conforto vs. rusticidade. Enviamos proposta sob medida com hospedagem, transfers, voos, passeios privativos e suporte 24/7 — com um único travel designer do briefing ao pós-viagem.",
+      },
+    ],
   },
   {
     slug: "jalapao",
