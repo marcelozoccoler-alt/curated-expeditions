@@ -1,6 +1,16 @@
 // Short SEO landing pages for regions and places — mapped to destinations.
 // Each entry produces a /:regionSlug page (e.g. /amazonia, /pantanal, /japao).
 
+export interface RegionFAQ {
+  q: string;
+  a: string;
+}
+
+export interface RegionSection {
+  title: string;
+  body: string;
+}
+
 export interface Region {
   slug: string;
   label: string;
@@ -9,6 +19,13 @@ export interface Region {
   metaDescription: string;
   heroImageUrl: string;
   destinationSlugs: string[]; // refers to destinations.ts slug field
+  /** Optional long-form SEO content — rendered only when present. */
+  longIntro?: string;
+  whatToDo?: RegionSection[];
+  bestTime?: string;
+  howToGet?: string;
+  whereToStay?: string;
+  faqs?: RegionFAQ[];
 }
 
 export const regions: Region[] = [
