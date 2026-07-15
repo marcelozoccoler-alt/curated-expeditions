@@ -57,6 +57,25 @@ const BrasilEstado = () => {
     ],
   };
 
+  const faqLd = state.faqs && state.faqs.length > 0
+    ? {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        mainEntity: state.faqs.map((f) => ({
+          "@type": "Question",
+          name: f.q,
+          acceptedAnswer: { "@type": "Answer", text: f.a },
+        })),
+      }
+    : null;
+
+  const jsonLd = [
+    placeLd,
+    breadcrumbLd,
+    buildSpeakableSchema(`${CONTACT.domain.replace(/\/$/, "")}/brasil/${state.slug}`),
+    ...(faqLd ? [faqLd] : []),
+  ];
+
   return (
     <>
       <SEO
@@ -66,7 +85,7 @@ const BrasilEstado = () => {
         keywords={buildPlaceKeywords(state.name, "Brasil", [`turismo ${state.name}`, `viagem ${state.name} Brasil`])}
         ogImage={state.heroImageUrl}
         ogType="article"
-        jsonLd={[placeLd, breadcrumbLd, buildSpeakableSchema(`${CONTACT.domain.replace(/\/$/, "")}/brasil/${state.slug}`)]}
+        jsonLd={jsonLd}
       />
       <Header />
 
