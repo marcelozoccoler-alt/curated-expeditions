@@ -294,9 +294,9 @@ export const brazilStates: BrazilState[] = [
     macroregion: "Nordeste",
     kicker: "Nordeste • Brasil",
     intro:
-      "Da Chapada Diamantina à península de Maraú, passando por Salvador, Boipeba e todo o litoral baiano.",
+      "Da Chapada Diamantina à península de Maraú, passando por Salvador, Boipeba, Trancoso e todo o litoral baiano. Cultura afro-brasileira, praias intocadas e sertão dramático.",
     metaDescription:
-      "Bahia com curadoria Create Travel: Chapada Diamantina, Salvador, Boipeba, Maraú e litoral baiano.",
+      "Pacote de viagem para a Bahia com curadoria Create Travel: Salvador, Chapada Diamantina, Boipeba, Maraú, Trancoso, Abrolhos e litoral baiano. Roteiros sob medida e suporte 24/7.",
     heroImageUrl: bahiaImg,
     destinationSlugs: [
       "brasil/chapada-diamantina",
@@ -306,6 +306,66 @@ export const brazilStates: BrazilState[] = [
       "brasil/litoral-baiano",
       "brasil/bahia/abrolhos-costa-descobrimento",
       "brasil/nordeste/canyons-xingo",
+    ],
+    longIntro:
+      "Um pacote de viagem para a Bahia é a viagem mais culturalmente rica do Brasil. O maior estado do Nordeste concentra Salvador — coração da cultura afro-brasileira e patrimônio mundial UNESCO —, a Chapada Diamantina com cachoeiras e cavernas no sertão, o litoral sul de Trancoso e Caraíva (as praias mais desejadas do país), a península de Maraú com Barra Grande e Taipu de Fora, a ilha de Boipeba (a mais preservada do arquipélago de Tinharé) e o santuário marinho de Abrolhos para observação de baleias-jubarte. Na Create Travel desenhamos roteiros sob medida pela Bahia unindo cidade + cultura + praia + natureza no ritmo certo — do casal em lua de mel em Trancoso ao grupo de amigos em safári de baleias.",
+    whatToDo: [
+      {
+        title: "Salvador e Pelourinho",
+        body: "Centro Histórico UNESCO, capoeira, culinária afro-baiana, Elevador Lacerda, Igreja de São Francisco (interior em ouro) e a energia da Cidade Baixa. Ideal como base de 2–3 noites de chegada.",
+      },
+      {
+        title: "Chapada Diamantina",
+        body: "Cachoeira da Fumaça (380 m), Poço Azul e Poço Encantado, Vale do Pati (o melhor trekking do Brasil), Morro do Pai Inácio e a Gruta da Lapa Doce. Base em Lençóis, Vale do Capão ou Igatu.",
+      },
+      {
+        title: "Trancoso, Caraíva e Costa do Descobrimento",
+        body: "O Quadrado de Trancoso, praias do Espelho e do Rio Verde, o rústico Caraíva pé-na-areia e a energia contida de Arraial d'Ajuda. Casarões coloniais convertidos em hotéis-boutique.",
+      },
+      {
+        title: "Península de Maraú e Barra Grande",
+        body: "Praia de Taipu de Fora (a maior piscina natural do Brasil), Ponta do Mutá, passeios de lancha pelas ilhas do Camamu. Ideal para casais em desconexão.",
+      },
+      {
+        title: "Boipeba e Morro de São Paulo",
+        body: "Ilha de Boipeba (sem carros, sem asfalto — a mais autêntica do arquipélago) e a mais estruturada Morro de São Paulo. Boa combinação de 4–6 noites com Salvador.",
+      },
+      {
+        title: "Abrolhos e observação de baleias-jubarte",
+        body: "Único arquipélago oceânico marinho do Brasil, com temporada de baleias-jubarte de julho a outubro. Cruzeiros de 4 dias em veleiro. Uma das experiências de fauna mais impressionantes do país.",
+      },
+    ],
+    bestTime:
+      "A Bahia tem clima tropical o ano inteiro. Setembro a março: alta temporada no litoral (Trancoso, Boipeba, Maraú), com dezembro-fevereiro no pico — reserve com 4–6 meses de antecedência. Abril a agosto: baixa temporada no litoral (chuvas rápidas, ainda 25–30 °C), preços melhores. Julho a outubro é a temporada de baleias-jubarte em Abrolhos. Chapada Diamantina funciona o ano inteiro; melhor de abril a outubro (seca, cachoeiras cheias sem risco de trombas d'água).",
+    howToGet:
+      "Os principais aeroportos são Salvador (SSA) — voos diretos das capitais e conexões internacionais — e Porto Seguro (BPS) para o sul da Bahia (Trancoso, Caraíva). Para Chapada Diamantina, transfer terrestre de 6h de Salvador ou voo até Lençóis (LEC). Para Maraú, voo até Salvador + transfer terrestre + travessia de balsa. Coordenamos todo o encadeamento aéreo-terrestre-fluvial.",
+    whereToStay:
+      "Em Salvador, hotéis-boutique no Pelourinho ou na Barra frente-mar. Em Trancoso, pousadas no Quadrado ou hotéis-boutique de frente para as praias do Espelho e Rio Verde. Em Boipeba, pousadas pé-na-areia geridas por famílias locais. Em Maraú, resorts autorais em Barra Grande e Taipu de Fora. Na Chapada, pousadas de charme em Lençóis e Vale do Capão. Toda a curadoria é feita a partir do briefing.",
+    faqs: [
+      {
+        q: "Quantos dias ficar na Bahia?",
+        a: "Para Salvador + uma extensão (Chapada OU litoral sul), 7 a 9 noites. Para roteiro completo (Salvador + Chapada + Trancoso), 12 a 14 noites. Roteiros de lua de mel em Trancoso/Boipeba, 8 a 10 noites.",
+      },
+      {
+        q: "Qual a melhor época para um pacote de viagem para a Bahia?",
+        a: "Setembro a março para litoral (dezembro-fevereiro no pico, reserve com antecedência). Abril a outubro para Chapada Diamantina (estação seca, cachoeiras seguras). Julho a outubro para Abrolhos e baleias-jubarte.",
+      },
+      {
+        q: "É melhor visitar Trancoso, Boipeba ou Maraú?",
+        a: "Trancoso: sofisticação, gastronomia, Quadrado, para casais e famílias que querem estrutura. Boipeba: ilha sem carros, mais autêntica e rústica, para casais desconectados. Maraú: piscinas naturais gigantes, para casais que buscam praia + natureza. Roteiros longos combinam duas.",
+      },
+      {
+        q: "Salvador é seguro para turistas?",
+        a: "Sim, com os cuidados de qualquer capital brasileira. Nos roteiros Create Travel usamos motoristas privativos, guias credenciados, hospedagens em bairros seguros (Pelourinho, Barra, Rio Vermelho) e suporte 24/7 por WhatsApp durante toda a viagem.",
+      },
+      {
+        q: "Como funciona um pacote de viagem para a Bahia na Create Travel?",
+        a: "Não vendemos pacotes prontos. A partir de uma conversa por WhatsApp levantamos período, perfil e ritmo desejado. Enviamos proposta sob medida com hospedagens, voos domésticos, transfers privativos, passeios exclusivos e suporte 24/7 — com um único travel designer do briefing ao pós-viagem.",
+      },
+      {
+        q: "Vale a pena combinar Salvador com Chapada Diamantina?",
+        a: "Sim — é uma das combinações mais completas do Brasil. Salvador entrega cultura, gastronomia e história; Chapada entrega natureza, trilhas e cachoeiras. 3 noites Salvador + 4 noites Chapada é o formato clássico de 8 noites.",
+      },
     ],
   },
   {
@@ -508,11 +568,67 @@ export const brazilStates: BrazilState[] = [
     macroregion: "Sul",
     kicker: "Sul • Brasil",
     intro:
-      "Cataratas do Iguaçu — uma das maravilhas naturais do planeta, com hospedagens dentro do parque nacional.",
+      "Cataratas do Iguaçu — uma das maravilhas naturais do planeta, com hospedagens dentro do Parque Nacional e combinação natural com o lado argentino.",
     metaDescription:
-      "Paraná com curadoria Create Travel: Cataratas do Iguaçu.",
+      "Pacote de viagem para Foz do Iguaçu (PR) com curadoria Create Travel: Cataratas, Parque Nacional, Itaipu e combinação com o lado argentino. Roteiros sob medida e suporte 24/7.",
     heroImageUrl: paranaImg,
     destinationSlugs: ["brasil/sul/cataratas-iguacu"],
+    longIntro:
+      "Um pacote de viagem para Foz do Iguaçu é a única forma de ver, em uma única viagem, uma das 7 Maravilhas Naturais do Mundo por dois ângulos — o brasileiro, panorâmico, e o argentino, imersivo. As Cataratas do Iguaçu formam o maior conjunto de quedas d'água em volume do planeta (275 saltos, 2,7 km de extensão), protegido por dois parques nacionais (Brasil e Argentina) reconhecidos como Patrimônio Natural pela UNESCO. Na Create Travel desenhamos roteiros sob medida para Foz unindo o Parque Nacional brasileiro (trilha panorâmica + Macuco Safari), o argentino (Garganta do Diabo por passarelas), a Usina de Itaipu e o Marco das Três Fronteiras — com opção de hospedagem dentro do parque no icônico Belmond Hotel das Cataratas.",
+    whatToDo: [
+      {
+        title: "Cataratas do Iguaçu — lado brasileiro",
+        body: "Trilha panorâmica de 1,2 km com vista frontal das quedas, passarela suspensa até a Garganta do Diabo pelo Brasil e Macuco Safari (barco que entra debaixo das cataratas). Meio-período; ideal começar por aqui.",
+      },
+      {
+        title: "Cataratas do Iguaçu — lado argentino",
+        body: "Passarelas superiores e inferiores + trem ecológico até a Garganta do Diabo, o mirante mais impressionante do parque. Requer 1 dia inteiro e travessia de fronteira (organizamos com motorista bilíngue).",
+      },
+      {
+        title: "Parque das Aves",
+        body: "Único no mundo em contato direto com a fauna da Mata Atlântica: viveiros de imersão com tucanos, araras e beija-flores. Complementa perfeitamente o lado brasileiro em meio dia.",
+      },
+      {
+        title: "Usina de Itaipu e Marco das Três Fronteiras",
+        body: "Maior geradora de energia limpa do mundo, com passeio panorâmico ou visita técnica. Marco das Três Fronteiras (Brasil, Argentina, Paraguai) para pôr do sol com show de luzes.",
+      },
+      {
+        title: "Rota das Aves e passeio de helicóptero",
+        body: "Sobrevoo de 10 min sobre as Cataratas (única forma de ver os 275 saltos de cima), rafting no Rio Iguaçu e observação de aves na Mata Atlântica preservada.",
+      },
+    ],
+    bestTime:
+      "Foz do Iguaçu funciona o ano inteiro. A melhor época é de abril a outubro — clima ameno, menos chuvas, cataratas com vazão média-alta consistente. Novembro a março é o verão brasileiro: mais quente e úmido, cataratas com vazão máxima após chuvas (mais espetaculares), mas dias podem alternar com sol forte. Julho é alta temporada (férias escolares), reserve com 4 meses de antecedência. Setembro combina clima seco e menos turistas.",
+    howToGet:
+      "Voos diretos para o Aeroporto Internacional de Foz do Iguaçu (IGU) das principais capitais brasileiras (SP, RJ, POA, BSB, CWB) — 1h30 a 2h de voo. Do aeroporto, transfer privativo de 15 min até a cidade e 25 min até os hotéis dentro do parque. Coordenamos aéreo, transfers privativos e a travessia de fronteira para o lado argentino.",
+    whereToStay:
+      "A hospedagem premium é o Belmond Hotel das Cataratas, único dentro do Parque Nacional brasileiro — acesso privilegiado às quedas ao amanhecer e ao entardecer, quando o parque fecha para o público. Alternativas: resorts com estrutura completa em Foz e hotéis-boutique próximos ao parque. Toda a curadoria é feita a partir do briefing.",
+    faqs: [
+      {
+        q: "Quantos dias ficar em Foz do Iguaçu?",
+        a: "Para ver os dois lados das Cataratas (Brasil e Argentina) com calma, mínimo 3 noites. Incluindo Itaipu, Parque das Aves e Três Fronteiras, 4 noites. Roteiros com sobrevoo de helicóptero e experiências extras, 5 noites.",
+      },
+      {
+        q: "Qual a melhor época para visitar as Cataratas do Iguaçu?",
+        a: "Abril a outubro para clima ameno e vazão média-alta consistente. Setembro é o equilíbrio ideal: seco, menos turistas, boa vazão. Janeiro-fevereiro têm vazão máxima (espetacular) mas mais calor e umidade. Evite julho na alta temporada escolar.",
+      },
+      {
+        q: "É melhor ver as Cataratas do lado brasileiro ou argentino?",
+        a: "Os dois. Brasileiro entrega vista panorâmica frontal (as fotos icônicas) em meio período. Argentino entrega imersão pelas passarelas até a Garganta do Diabo em 1 dia inteiro. Roteiros Create Travel sempre incluem ambos.",
+      },
+      {
+        q: "Preciso de passaporte para o lado argentino?",
+        a: "Não. Brasileiros podem entrar na Argentina pela fronteira de Foz apenas com RG (foto atualizada, em bom estado) ou passaporte. Organizamos motorista privativo bilíngue que cuida da travessia.",
+      },
+      {
+        q: "Vale a pena ficar dentro do Parque Nacional (Belmond)?",
+        a: "Sim, se a estadia for de 2 ou 3 noites com foco nas Cataratas. Você tem acesso ao parque antes da abertura (6h30) e depois do fechamento (17h30), quando praticamente não há turistas. É a única forma de fotografar as quedas sem multidão.",
+      },
+      {
+        q: "Como funciona um pacote de viagem para Foz do Iguaçu na Create Travel?",
+        a: "Não vendemos pacotes prontos. A partir de uma conversa por WhatsApp levantamos período, perfil e apetite por experiências extras. Enviamos proposta sob medida com hospedagem, voos, transfers privativos, ingressos pré-reservados dos dois lados e suporte 24/7 — com um único travel designer do briefing ao pós-viagem.",
+      },
+    ],
   },
   {
     slug: "santa-catarina",

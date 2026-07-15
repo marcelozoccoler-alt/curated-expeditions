@@ -101,10 +101,58 @@ export const regions: Region[] = [
     intro:
       "A maior planície alagável do planeta — paisagens abertas, fauna abundante e a melhor janela do Brasil para fotografar onças. Selecionamos lodges com saídas guiadas e ética animal sólida.",
     metaDescription:
-      "Pantanal Norte e Sul com curadoria Create Travel: melhores lodges, época para onças e roteiros sob medida.",
+      "Pacote de viagem para o Pantanal com curadoria Create Travel: Pantanal Norte (MT) e Pantanal Sul (MS), melhores lodges, época para onças e roteiros sob medida.",
     heroImageUrl:
       "https://images.unsplash.com/photo-1535338454770-8be927b5a00b?w=1920&h=1080&fit=crop",
     destinationSlugs: ["brasil/pantanal/norte", "brasil/pantanal/sul"],
+    longIntro:
+      "Um pacote de viagem para o Pantanal é o roteiro de vida silvestre mais completo do Brasil. A maior planície alagável do planeta se divide em duas frentes: o Pantanal Norte, no Mato Grosso, com base em Porto Jofre e a Transpantaneira — a melhor janela do mundo para avistar onças-pintadas em liberdade —, e o Pantanal Sul, no Mato Grosso do Sul, com fazendas históricas convertidas em lodges, cavalgadas, focagens noturnas e a combinação natural com Bonito. Na Create Travel desenhamos roteiros sob medida pelo Pantanal com operadores éticos, guias naturalistas experientes e hospedagens escolhidas para cada perfil — do fotógrafo de fauna ao casal em primeira imersão.",
+    whatToDo: [
+      {
+        title: "Safári de onças-pintadas em Porto Jofre",
+        body: "Base do Pantanal Norte, com saídas de barco pelo Rio Cuiabá em busca de onças. Julho a outubro é a temporada de pico, com taxa de avistamento acima de 90% em 3 dias. Lodges flutuantes ou terrestres com guias fotógrafos.",
+      },
+      {
+        title: "Transpantaneira e fazendas-hotel",
+        body: "Estrada de 145 km atravessando o coração do Pantanal Norte, com paradas em fazendas históricas convertidas em pousadas. Focagem noturna, cavalgadas, safáris de veículo aberto e observação de mais de 650 espécies de aves.",
+      },
+      {
+        title: "Pantanal Sul e Fazenda San Francisco",
+        body: "Base em fazendas do MS com boa estrutura para famílias e primeira visita ao Pantanal. Trilhas, safári fotográfico e a combinação clássica com Bonito (3h de estrada).",
+      },
+      {
+        title: "Observação de aves e fotografia de fauna",
+        body: "O Pantanal abriga mais espécies de aves que toda a Europa — tuiuiús, araras-azuis, jaburu, colhereiros. Roteiros dedicados a birdwatchers com guias especializados e hides fotográficos.",
+      },
+    ],
+    bestTime:
+      "A melhor época para o Pantanal é a estação seca, de maio a outubro. Julho a setembro é o pico para avistar onças-pintadas no Pantanal Norte — água baixa concentra a fauna nas margens dos rios. De novembro a abril é a cheia: paisagens espelhadas, muito verde, aves nidificando, mas mais difícil para safári de onça. Setembro e outubro combinam tempo seco, calor e maior chance de fauna concentrada.",
+    howToGet:
+      "Pantanal Norte: voo até Cuiabá (CGB) + transfer de 4h ou voo fretado direto para Porto Jofre. Pantanal Sul: voo até Campo Grande (CGR) + transfer de 4h para fazendas ou até Bonito. Organizamos aéreo doméstico, transfers privativos e conexões diretas entre Pantanal + Bonito quando o roteiro pede.",
+    whereToStay:
+      "No Pantanal Norte: lodges flutuantes em Porto Jofre para safári intensivo de onça, ou fazendas históricas ao longo da Transpantaneira. No Pantanal Sul: fazendas-hotel com estrutura para famílias, cavalgada e observação de fauna. Toda a curadoria prioriza operações com ética animal — sem alimentação de fauna, sem interferência, guias credenciados.",
+    faqs: [
+      {
+        q: "Quantos dias ficar no Pantanal?",
+        a: "Para safári de onças em Porto Jofre, mínimo 3 noites (idealmente 4). Roteiro completo Pantanal Norte, 5 a 6 noites. Combinação Pantanal Sul + Bonito, 6 a 8 noites. Para roteiro fotográfico dedicado, 7 a 10 noites.",
+      },
+      {
+        q: "Qual a melhor época para ver onças no Pantanal?",
+        a: "Julho a outubro, com pico em agosto-setembro. Nesse período a água baixa concentra a fauna nas margens dos rios e a taxa de avistamento de onças em 3 dias em Porto Jofre é superior a 90%.",
+      },
+      {
+        q: "Pantanal Norte ou Pantanal Sul: qual escolher?",
+        a: "Pantanal Norte (MT) para safári de onças em barco — foco em fauna, mais intenso. Pantanal Sul (MS) para fazendas históricas, cavalgada, ritmo mais lento e combinação com Bonito. Roteiros completos fazem os dois.",
+      },
+      {
+        q: "É seguro levar crianças ao Pantanal?",
+        a: "Sim, especialmente no Pantanal Sul, onde as fazendas-hotel têm estrutura pensada para famílias — piscina, atividades adaptadas, refeições no horário. Vacina de febre amarela obrigatória (10 dias antes) e repelente é essencial.",
+      },
+      {
+        q: "Como funciona um pacote para o Pantanal na Create Travel?",
+        a: "Não vendemos pacotes prontos. A partir de uma conversa por WhatsApp levantamos período, foco (onças, aves, família), perfil de conforto. Enviamos proposta sob medida com lodge, aéreo doméstico, transfers, guias e suporte 24/7 — com um único travel designer do briefing ao pós-viagem.",
+      },
+    ],
   },
   {
     slug: "fernando-de-noronha",
@@ -125,10 +173,62 @@ export const regions: Region[] = [
     intro:
       "Dunas brancas e lagoas azuis em janelas curtas do ano. Roteiros que combinam o encanto único dos Lençóis com extensão para Atins, Caburé e o Delta do Parnaíba.",
     metaDescription:
-      "Lençóis Maranhenses com curadoria Create Travel: melhor época para as lagoas, Atins, Caburé e Delta do Parnaíba.",
+      "Pacote de viagem para os Lençóis Maranhenses com curadoria Create Travel: melhor época para as lagoas, Barreirinhas, Atins, Caburé e Delta do Parnaíba. Roteiros sob medida e suporte 24/7.",
     heroImageUrl:
       "https://images.unsplash.com/photo-1611348586804-61bf6c080437?w=1920&h=1080&fit=crop",
     destinationSlugs: ["brasil/lencois-maranhenses"],
+    longIntro:
+      "Um pacote de viagem para os Lençóis Maranhenses precisa acertar uma janela curta e específica do ano — de junho a setembro, quando as chuvas de janeiro-maio enchem as milhares de lagoas azuis e cristalinas entre as dunas brancas. É a paisagem mais fotografada do Nordeste brasileiro e um dos poucos lugares no mundo com esse fenômeno. Na Create Travel desenhamos roteiros sob medida pelos Lençóis unindo Barreirinhas (base logística e Circuito das Lagoas), Atins (vilarejo pé-na-areia sem asfalto, ideal para casais) e Caburé (língua de areia entre o Rio Preguiças e o mar). Extensões naturais: Delta do Parnaíba, Jericoacoara e a Rota das Emoções (roteiro clássico de 7–10 noites entre 3 estados).",
+    whatToDo: [
+      {
+        title: "Circuito das Lagoas Azul e Bonita",
+        body: "O clássico passeio saindo de Barreirinhas em 4x4: travessia de balsa, subida pelas dunas ao pôr do sol e mergulho nas duas lagoas mais famosas do parque nacional. Ideal para primeira visita e famílias.",
+      },
+      {
+        title: "Lagoa da Esperança e Circuito Sul",
+        body: "Passeio menos turístico, com dunas mais altas e lagoas maiores. Requer 4x4 confortável e guia — organizamos operação privativa para casais e grupos que buscam menos gente.",
+      },
+      {
+        title: "Descida do Rio Preguiças até Caburé",
+        body: "Passeio de lancha voadeira por 4 horas com paradas em Vassouras (macacos-prego), Mandacaru (farol) e Caburé (língua de areia entre rio e mar). Um dos passeios mais icônicos do parque.",
+      },
+      {
+        title: "Atins — hospedagem pé-na-areia",
+        body: "Vilarejo sem asfalto acessado por lancha ou 4x4 desde Barreirinhas. Pousadas-boutique, kitesurf, jantares à luz de lampião e trilhas até o parque pelas Emendadas — ideal para casais.",
+      },
+      {
+        title: "Rota das Emoções (extensão)",
+        body: "Roteiro clássico de 7–10 noites unindo Lençóis Maranhenses + Delta do Parnaíba (PI) + Jericoacoara (CE) por travessia terrestre e fluvial. Organizamos com motorista privativo bilíngue.",
+      },
+    ],
+    bestTime:
+      "A melhor época para visitar os Lençóis Maranhenses é de junho a setembro — as lagoas estão cheias, azuis e cristalinas. Julho e agosto são o pico visual (também alta temporada brasileira, reserve com 4–6 meses de antecedência). Setembro combina lagoas ainda cheias com menos turistas. De outubro a dezembro as lagoas começam a secar. De janeiro a maio é a temporada de chuvas: as lagoas se formam, mas ainda são rasas e nem todos os passeios operam.",
+    howToGet:
+      "O acesso é pelo Aeroporto Internacional Marechal Cunha Machado (SLZ), em São Luís, com voos diretos das principais capitais. De São Luís, transfer terrestre de 4h até Barreirinhas (ou voos fretados de 45 min). De Barreirinhas para Atins, lancha voadeira (1h30) ou 4x4 (3h). Organizamos todo o encadeamento aéreo-terrestre-fluvial.",
+    whereToStay:
+      "Em Barreirinhas, hotéis-boutique com piscina e boa gastronomia — base logística ideal para famílias. Em Atins, pousadas pé-na-areia com estrutura para kitesurf e desconexão total (nossa recomendação para casais). Em São Luís, hotel-boutique no Centro Histórico (patrimônio UNESCO) para 1 noite de chegada. Toda a curadoria é feita a partir do briefing.",
+    faqs: [
+      {
+        q: "Quantos dias ficar nos Lençóis Maranhenses?",
+        a: "Para o parque, 4 a 5 noites. Combinando Barreirinhas + Atins, 6 a 7 noites. Rota das Emoções completa (Lençóis + Delta + Jericoacoara), 10 a 12 noites. Primeira viagem geralmente pede 6 a 7 noites.",
+      },
+      {
+        q: "Qual a melhor época para os Lençóis Maranhenses?",
+        a: "Junho a setembro, com pico em julho-agosto. Setembro é o equilíbrio ideal: lagoas ainda cheias, menos turistas. Evite outubro a maio (lagoas secas ou temporada de chuvas). Reserve com 4–6 meses de antecedência para julho e agosto.",
+      },
+      {
+        q: "É melhor ficar em Barreirinhas ou em Atins?",
+        a: "Barreirinhas: base logística, estrutura completa, ideal para famílias e primeira visita. Atins: vilarejo pé-na-areia, sem asfalto, ideal para casais em desconexão e kitesurf. Roteiros de 6+ noites geralmente combinam as duas.",
+      },
+      {
+        q: "Precisa de guia nos Lençóis Maranhenses?",
+        a: "Sim, obrigatório. Todos os passeios dentro do Parque Nacional dos Lençóis são feitos com veículos 4x4 e guias credenciados pelo ICMBio. Organizamos operação privativa para grupos e casais que preferem sair fora do horário coletivo.",
+      },
+      {
+        q: "Como funciona um pacote de viagem para os Lençóis Maranhenses na Create Travel?",
+        a: "Não vendemos pacotes prontos. A partir de uma conversa por WhatsApp levantamos período, perfil, apetite por conforto vs. rusticidade. Enviamos proposta sob medida com hospedagem, transfers, voos, passeios privativos e suporte 24/7 — com um único travel designer do briefing ao pós-viagem.",
+      },
+    ],
   },
   {
     slug: "jalapao",
@@ -171,12 +271,60 @@ export const regions: Region[] = [
     label: "Bonito",
     kicker: "Brasil",
     intro:
-      "Águas cristalinas, flutuações inesquecíveis e cavernas. Combinamos Bonito com Pantanal Sul para uma narrativa Brasil profunda.",
+      "Águas cristalinas, flutuações inesquecíveis e cavernas. Combinamos Bonito com Pantanal Sul para uma narrativa Brasil profunda no coração do Mato Grosso do Sul.",
     metaDescription:
-      "Bonito (MS) com curadoria Create Travel: flutuações, grutas e combinação com Pantanal Sul.",
+      "Pacote de viagem para Bonito (MS) com curadoria Create Travel: flutuações no Rio Sucuri, Gruta do Lago Azul, Buraco das Araras e combinação com Pantanal Sul. Roteiros sob medida e suporte 24/7.",
     heroImageUrl:
       "https://images.unsplash.com/photo-1583244532610-2a234e0d0f10?w=1920&h=1080&fit=crop",
     destinationSlugs: ["brasil/bonito"],
+    longIntro:
+      "Um pacote de viagem para Bonito é a porta de entrada para o ecoturismo brasileiro em alta qualidade. A cidade no Mato Grosso do Sul é reconhecida mundialmente pelas águas mais transparentes do país — resultado da filtragem natural do calcário — e por um modelo turístico invejável: número limitado de visitantes por atrativo, guias credenciados obrigatórios, preservação rigorosa. Na Create Travel desenhamos roteiros sob medida para Bonito unindo flutuações no Rio Sucuri e Rio da Prata, Gruta do Lago Azul, Buraco das Araras, Boca da Onça e a combinação natural com o Pantanal Sul (3h de estrada) para roteiros de vida silvestre + águas cristalinas.",
+    whatToDo: [
+      {
+        title: "Flutuação no Rio Sucuri e Rio da Prata",
+        body: "As duas flutuações mais icônicas de Bonito. Água a 24 °C, visibilidade de até 50 metros, peixes coloridos e vegetação subaquática. Sucuri é mais curto e fácil (famílias); Rio da Prata pede caminhada de 20 min antes e é mais completo.",
+      },
+      {
+        title: "Gruta do Lago Azul e Gruta do Mimoso",
+        body: "Duas cavernas com lagos internos de azul-turquesa. A Gruta do Lago Azul (patrimônio nacional) é visita cultural clássica; a do Mimoso permite mergulho técnico. Reserve com antecedência — vagas limitadas.",
+      },
+      {
+        title: "Buraco das Araras e Boca da Onça",
+        body: "Uma das maiores dolinas do mundo, com casal de araras-vermelhas residentes. Boca da Onça combina a maior cachoeira do MS (156 m) com rapel opcional e trilha na Serra da Bodoquena.",
+      },
+      {
+        title: "Combinação Bonito + Pantanal Sul",
+        body: "Roteiro clássico de 7–10 noites: 4 noites em Bonito (águas) + 3–4 noites em fazenda no Pantanal Sul (fauna). Transfer de 3h ligando os dois destinos. A viagem mais completa de ecoturismo do Brasil.",
+      },
+    ],
+    bestTime:
+      "Bonito funciona o ano inteiro, mas a melhor época é de abril a setembro — estação seca, água mais cristalina, temperatura amena para trilhas. Julho é alta temporada brasileira (reserve com 4 meses de antecedência). De outubro a março ocorrem chuvas de verão que podem turvar rios por 1–3 dias após precipitação forte, mas a paisagem fica mais verde e a temperatura da água mais agradável. Setembro combina clima seco, boa visibilidade e menos turistas.",
+    howToGet:
+      "O acesso é pelo Aeroporto de Bonito (BYO), com voos diretos de Campinas via Azul, ou pelo Aeroporto de Campo Grande (CGR) com transfer terrestre de 3h30. Coordenamos aéreo doméstico, transfers privativos e conexão Bonito–Pantanal Sul quando o roteiro combina os dois.",
+    whereToStay:
+      "Em Bonito indicamos pousadas-boutique no centro, refúgios em fazendas na Serra da Bodoquena e resorts com estrutura para famílias. Para combinação com Pantanal Sul, base em fazenda-hotel do MS. Toda a curadoria prioriza operações com boa localização (não isoladas), gastronomia autoral e estrutura para ecoturismo.",
+    faqs: [
+      {
+        q: "Quantos dias ficar em Bonito?",
+        a: "Para o essencial (Sucuri ou Rio da Prata + Gruta do Lago Azul + Boca da Onça), mínimo 3 noites. Para roteiro completo em Bonito, 4 a 5 noites. Combinação Bonito + Pantanal Sul, 7 a 10 noites.",
+      },
+      {
+        q: "Qual a melhor época para um pacote de viagem para Bonito?",
+        a: "Abril a setembro, com pico em julho (alta temporada). Setembro é o equilíbrio: clima seco, boa visibilidade nas águas, menos turistas. Evite janeiro e fevereiro (chuvas intensas podem turvar rios).",
+      },
+      {
+        q: "Bonito é bom para crianças?",
+        a: "Sim, é um dos melhores destinos de ecoturismo brasileiro para famílias. Flutuação no Sucuri aceita crianças a partir de 5 anos, com colete e guia. Boa infraestrutura, restaurantes-família e passeios curtos.",
+      },
+      {
+        q: "Precisa reservar passeios com antecedência em Bonito?",
+        a: "Sim, obrigatoriamente. Bonito trabalha com sistema de voucher único e vagas limitadas por atrativo — em alta temporada, os passeios mais famosos esgotam com 60+ dias de antecedência. Reservamos tudo antes da sua chegada.",
+      },
+      {
+        q: "Como funciona um pacote de viagem para Bonito na Create Travel?",
+        a: "Não vendemos pacotes prontos. A partir de uma conversa por WhatsApp levantamos período, perfil e apetite pela combinação com Pantanal. Enviamos proposta sob medida com hospedagem, voos, transfers, passeios pré-reservados e suporte 24/7 — com um único travel designer do briefing ao pós-viagem.",
+      },
+    ],
   },
   {
     slug: "jericoacoara",
