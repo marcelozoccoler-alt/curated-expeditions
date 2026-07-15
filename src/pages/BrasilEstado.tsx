@@ -126,8 +126,58 @@ const BrasilEstado = () => {
           </div>
         </section>
 
+        {/* Long-form SEO content — only rendered when the state provides it */}
+        {(state.longIntro || state.whatToDo || state.bestTime || state.howToGet || state.whereToStay) && (
+          <section className="py-16 border-b border-border">
+            <div className="container-editorial max-w-4xl space-y-12">
+              {state.longIntro && (
+                <div>
+                  <h2 className="heading-section mb-4">Pacote de viagem para {state.name}</h2>
+                  <p className="text-base leading-relaxed text-foreground/85">{state.longIntro}</p>
+                </div>
+              )}
+
+              {state.whatToDo && state.whatToDo.length > 0 && (
+                <div>
+                  <h2 className="heading-section mb-6">O que fazer em {state.name}</h2>
+                  <div className="grid sm:grid-cols-2 gap-6">
+                    {state.whatToDo.map((s) => (
+                      <article key={s.title} className="border border-border rounded-lg p-6 bg-card">
+                        <h3 className="font-serif text-lg mb-2">{s.title}</h3>
+                        <p className="text-sm text-muted-foreground leading-relaxed">{s.body}</p>
+                      </article>
+                    ))}
+                  </div>
+                </div>
+              )}
+
+              <div className="grid md:grid-cols-3 gap-8">
+                {state.bestTime && (
+                  <div>
+                    <h3 className="font-serif text-lg mb-3">Melhor época para visitar {state.name}</h3>
+                    <p className="text-sm text-muted-foreground leading-relaxed">{state.bestTime}</p>
+                  </div>
+                )}
+                {state.howToGet && (
+                  <div>
+                    <h3 className="font-serif text-lg mb-3">Como chegar</h3>
+                    <p className="text-sm text-muted-foreground leading-relaxed">{state.howToGet}</p>
+                  </div>
+                )}
+                {state.whereToStay && (
+                  <div>
+                    <h3 className="font-serif text-lg mb-3">Onde ficar</h3>
+                    <p className="text-sm text-muted-foreground leading-relaxed">{state.whereToStay}</p>
+                  </div>
+                )}
+              </div>
+            </div>
+          </section>
+        )}
+
         {/* Destinations */}
         <section className="py-16">
+
           <div className="container-editorial">
             <div className="flex items-end justify-between flex-wrap gap-4 mb-10">
               <div>
