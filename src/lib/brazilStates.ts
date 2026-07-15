@@ -180,13 +180,69 @@ export const brazilStates: BrazilState[] = [
     macroregion: "Nordeste",
     kicker: "Nordeste • Brasil",
     intro:
-      "Pipa, Maracajaú e Galinhos: falésias avermelhadas, mar verde e vilas isoladas no Nordeste mais ventoso.",
+      "Pipa, Maracajaú e Galinhos: falésias avermelhadas, mar verde e vilas isoladas no Nordeste mais ventoso do Brasil.",
     metaDescription:
-      "Rio Grande do Norte com curadoria Create Travel: Pipa, Galinhos e litoral potiguar.",
+      "Pacote de viagem para o Rio Grande do Norte com curadoria Create Travel: Pipa, Praia da Pipa, Galinhos, Maracajaú e Natal. Roteiros sob medida, hospedagens autorais e suporte 24/7.",
     heroImageUrl: rioGrandeDoNorteImg,
     destinationSlugs: [
       "brasil/litoral-rio-grande-do-norte",
       "brasil/nordeste/rota-falesias-fortaleza-natal",
+    ],
+    longIntro:
+      "Um pacote de viagem para o Rio Grande do Norte revela um Nordeste diferente do circuito clássico. O litoral potiguar combina Pipa — a vila-praia mais desejada do sul do estado, com falésias vermelhas e golfinhos — Natal e seus passeios de buggy nas dunas, Maracajaú e suas piscinas naturais, e o norte quase deserto de Galinhos e São Miguel do Gostoso, capital brasileira do kitesurf. Na Create Travel desenhamos roteiros sob medida pelo RN unindo a energia de Pipa, o descanso das vilas do norte e experiências privativas nas dunas e falésias, no ritmo certo para casais, famílias e grupos de amigos.",
+    whatToDo: [
+      {
+        title: "Praia da Pipa e Tibau do Sul",
+        body: "Baía dos Golfinhos, Praia do Amor, Chapadão, mirantes ao pôr do sol e pousadas-boutique escondidas na mata atlântica. Passeios de barco privativo para avistamento de golfinhos e tartarugas.",
+      },
+      {
+        title: "Natal e passeios de buggy",
+        body: "Genipabu, Jacumã, esquibunda nas dunas, travessias de balsa e o pôr do sol na Ponta Negra. Base logística para todo o estado, com o Aeroporto Internacional de São Gonçalo do Amarante.",
+      },
+      {
+        title: "Maracajaú e parrachos",
+        body: "Piscinas naturais formadas por corais a 7 km da costa, ideais para snorkel em águas cristalinas. Passeio de meio dia que combina bem com base em Natal.",
+      },
+      {
+        title: "Galinhos e São Miguel do Gostoso",
+        body: "O norte potiguar quase intocado: vilas de pescadores, dunas móveis, salinas e a melhor janela de vento do Brasil para kitesurf (agosto a janeiro).",
+      },
+      {
+        title: "Rota das Falésias Fortaleza–Natal",
+        body: "Roteiro autoral pela costa entre os dois estados: Canoa Quebrada, Praia de Ponta Grossa, Icapuí, Tibau, Baía Formosa e Pipa. Ideal para 8 a 10 noites de carro com motorista.",
+      },
+    ],
+    bestTime:
+      "A melhor época para visitar o Rio Grande do Norte é de setembro a fevereiro — período seco, sol constante, mar mais calmo e ventos alísios estáveis (bom para kitesurf no norte). De março a julho ocorrem as chuvas: mais concentradas em abril e maio, geralmente à noite, com dias ainda ensolarados. Setembro combina baixa temporada, clima seco e preços melhores. Dezembro e janeiro (alta temporada, Réveillon em Pipa) exigem reserva com 4 a 6 meses de antecedência.",
+    howToGet:
+      "O acesso é pelo Aeroporto Internacional Governador Aluízio Alves (NAT), em São Gonçalo do Amarante, a 40 minutos de Natal e 1h30 de Pipa. Voos diretos das principais capitais brasileiras (SP, RJ, BSB, POA, REC, FOR, BEL). Para o norte (Galinhos, São Miguel do Gostoso), o deslocamento é de 2h30 a 3h de Natal. Organizamos transfers privativos, motorista bilíngue e, para grupos, deslocamentos rodoviários.",
+    whereToStay:
+      "Em Pipa indicamos pousadas-boutique com vista para o mar e refúgios na mata atlântica de Tibau do Sul. Em Natal, hotéis frente-mar na Ponta Negra para uma ou duas noites de logística. Em São Miguel do Gostoso, pousadas pé-na-areia com estrutura para kitesurf. Em Galinhos, hospedagens rústico-charme para desconexão total. Toda a seleção é feita a partir do briefing — sem hotéis de cadeia genérica.",
+    faqs: [
+      {
+        q: "Quantos dias ficar no Rio Grande do Norte?",
+        a: "Para Pipa + Natal, 5 a 7 noites. Roteiro completo com Pipa, Natal e norte (Galinhos ou São Miguel), 8 a 10 noites. A Rota das Falésias unindo Fortaleza e Natal pede 10 a 12 noites.",
+      },
+      {
+        q: "Qual a melhor época para um pacote de viagem no Rio Grande do Norte?",
+        a: "Setembro a fevereiro para sol pleno, mar calmo e ventos estáveis para kitesurf. Setembro e outubro combinam baixa temporada e clima ideal. Dezembro e janeiro concentram Réveillon e alta temporada — reserve com 4 a 6 meses de antecedência.",
+      },
+      {
+        q: "Vale mais a pena ficar em Pipa ou em Natal?",
+        a: "Pipa entrega vila-praia, gastronomia autoral e pousadas de charme — ideal para casais e desconexão. Natal funciona como base para buggy, Maracajaú e voos. Roteiros Create Travel geralmente combinam 1 noite em Natal (chegada) + 4 a 5 em Pipa + extensão opcional no norte.",
+      },
+      {
+        q: "Precisa alugar carro no RN?",
+        a: "Não é obrigatório. Em Pipa tudo é a pé ou de van, e os passeios em Natal são feitos com buggueiro credenciado. Para roteiros com o norte potiguar ou a Rota das Falésias, recomendamos motorista privativo em vez de aluguel — mais seguro e libera você da estrada.",
+      },
+      {
+        q: "Como funciona um pacote de viagem para o Rio Grande do Norte na Create Travel?",
+        a: "Não vendemos pacotes prontos. A partir de uma conversa por WhatsApp levantamos período, perfil e ritmo desejado. Enviamos uma proposta sob medida com hospedagens, transfers privativos, buggy exclusivo, passeios de barco e suporte 24/7 durante toda a viagem — com um único travel designer do briefing ao pós-viagem.",
+      },
+      {
+        q: "Pipa é seguro para famílias e casais?",
+        a: "Sim. É uma das vilas-praia mais organizadas do Nordeste, com estrutura turística consolidada, boa oferta gastronômica e trânsito controlado. Reservamos pousadas em zonas seguras e mantemos suporte por WhatsApp durante toda a estadia.",
+      },
     ],
   },
   {
