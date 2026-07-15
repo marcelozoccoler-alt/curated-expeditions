@@ -504,12 +504,68 @@ export const regions: Region[] = [
     label: "Itália",
     kicker: "Europa",
     intro:
-      "Toscana, Costa Amalfitana e cidades de arte. Vinhedos, mesa autoral e propriedades históricas.",
+      "Toscana, Costa Amalfitana, Sul da Itália e cidades de arte. Vinhedos, mesa autoral, agriturismos e propriedades históricas.",
     metaDescription:
-      "Itália com curadoria Create Travel: Toscana, Amalfi e cidades de arte em roteiros sob medida.",
+      "Pacote de viagem para a Itália com curadoria Create Travel: Toscana, Costa Amalfitana, Roma, Florença, Veneza e Sul da Itália. Roteiros sob medida, agriturismos autorais e suporte 24/7.",
     heroImageUrl:
       "https://images.unsplash.com/photo-1496318447583-f524534e9ce1?w=1920&h=1080&fit=crop",
     destinationSlugs: ["europa/italia/toscana"],
+    longIntro:
+      "Um pacote de viagem para a Itália pede escolha — o país tem mais camadas do que uma única viagem comporta. O circuito clássico une Roma, Florença e Veneza, com extensão pela Toscana (Chianti, Val d'Orcia, San Gimignano) para agriturismos, vinícolas e ritmo lento. O Sul da Itália entrega a Costa Amalfitana (Positano, Ravello, Amalfi), a Puglia dos trulli e Capri como refúgio insular. No norte, os lagos italianos (Como, Garda, Maggiore) e Milão fecham o mapa. Na Create Travel desenhamos roteiros sob medida pela Itália unindo cidade + campo + costa no ritmo certo, com hospedagens autorais, motoristas privativos e experiências raras — vindima em vinícola de família, aulas de pasta com nonna, veleiro privativo na Amalfi.",
+    whatToDo: [
+      {
+        title: "Roma, Florença e Veneza",
+        body: "O clássico circuito de arte italiana: Coliseu e Vaticano em Roma, Uffizi e Duomo em Florença, canais e ilhas da Laguna em Veneza. Reservamos entradas sem fila, guias de arte e restaurantes autorais.",
+      },
+      {
+        title: "Toscana e agriturismos",
+        body: "Val d'Orcia, Chianti, Siena, San Gimignano, Pienza e Montalcino. Villas restauradas em meio a vinhedos, vindima em setembro-outubro, aulas de culinária e degustações de Brunello e Chianti Classico.",
+      },
+      {
+        title: "Costa Amalfitana e Capri",
+        body: "Positano, Ravello, Amalfi e a ilha de Capri. Hotéis-boutique com vista para o Mediterrâneo, veleiro privativo pela costa, jantares em terraços icônicos. Alta temporada de maio a setembro.",
+      },
+      {
+        title: "Puglia e Sul da Itália",
+        body: "Trulli de Alberobello, cidades brancas de Ostuni e Locorotondo, praias do Salento e a gastronomia mais autêntica do país. Extensão ideal para quem já foi à Itália clássica.",
+      },
+      {
+        title: "Lagos italianos",
+        body: "Lago di Como (Bellagio, Varenna), Lago di Garda e Lago Maggiore. Villas históricas, jardins e travessias de barco. Ótima extensão de 3 a 4 noites após Milão.",
+      },
+    ],
+    bestTime:
+      "A melhor época para um pacote de viagem para a Itália é abril-junho e setembro-outubro — clima ameno, menos turistas do que julho-agosto e vindima na Toscana em setembro. Julho e agosto concentram alta temporada europeia: calor forte no sul, cidades cheias e preços elevados. Novembro a março é baixa (frio, chuvas, alguns hotéis de campo fechados), mas Roma, Florença e Veneza funcionam bem para viagem cultural. Reserve com 6 a 9 meses de antecedência para maio, junho e setembro.",
+    howToGet:
+      "Voos diretos do Brasil para Roma (FCO) e Milão (MXP) a partir de SP, RJ e outras capitais — 10 a 11 horas. Alternativas com conexão em Lisboa, Madri ou Paris para chegar a Veneza (VCE), Florença (FLR), Nápoles (NAP) ou Bari (BRI). Entre cidades italianas, trens de alta velocidade (Frecciarossa, Italo) são o meio ideal: Roma-Florença em 1h30, Florença-Veneza em 2h. Organizamos reservas, transfers privativos e aluguel de carro apenas para o campo (Toscana, Amalfi, Puglia).",
+    whereToStay:
+      "Em Roma e Florença, hotéis-boutique no centro histórico. Em Veneza, palácios convertidos em hotel ou refúgios na Giudecca. Na Toscana, agriturismos autorais com produção própria de vinho e azeite. Na Costa Amalfitana, hotéis com vista frontal para o Mediterrâneo (Le Sirenuse, Il San Pietro estilo). Na Puglia, masserias — casarões-fazenda restaurados. Toda a curadoria é feita a partir do briefing.",
+    faqs: [
+      {
+        q: "Quantos dias ficar na Itália?",
+        a: "Para o circuito clássico Roma-Florença-Veneza, 8 a 10 noites. Adicionando Toscana, 12 a 14 noites. Roteiro completo com Sul da Itália (Amalfi + Capri ou Puglia), 15 a 21 noites. Primeira viagem geralmente pede 12 a 14 noites.",
+      },
+      {
+        q: "Qual a melhor época para um pacote de viagem para a Itália?",
+        a: "Abril-junho e setembro-outubro: clima ameno, menos turistas, vindima na Toscana em setembro. Evite julho-agosto (calor extremo no sul, cidades lotadas) a menos que a viagem seja focada em Amalfi ou lagos. Reserve com 6 a 9 meses de antecedência para maio, junho e setembro.",
+      },
+      {
+        q: "Precisa de visto para a Itália?",
+        a: "Brasileiros não precisam de visto para turismo de até 90 dias no Espaço Schengen. Passaporte com validade mínima de 6 meses após a data de retorno. Recomendamos seguro-viagem com cobertura mínima de €30.000 (exigência Schengen).",
+      },
+      {
+        q: "Como funciona um pacote de viagem para a Itália na Create Travel?",
+        a: "Não vendemos pacotes prontos. A partir de uma conversa por WhatsApp levantamos período, perfil e ritmo desejado. Enviamos uma proposta sob medida com hotéis autorais, trens de alta velocidade, motoristas privativos no campo, guias de arte particulares e experiências raras — com suporte 24/7 durante toda a viagem e um único travel designer do briefing ao pós-viagem.",
+      },
+      {
+        q: "É melhor viajar de trem ou alugar carro na Itália?",
+        a: "Trem para o eixo urbano (Roma, Florença, Veneza, Milão, Nápoles) — rápido, confortável e livre do trânsito. Carro apenas para o campo (Toscana, Puglia, interior) e para a Costa Amalfitana só com motorista privativo (a estrada é estreita e estressante). Organizamos as duas opções conforme o roteiro.",
+      },
+      {
+        q: "Vale a pena combinar Itália com outros países?",
+        a: "Sim. Combinações comuns: Itália + França (por trem), Itália + Grécia (voo curto + cruzeiro), Itália + Croácia (ferry de Veneza a Split ou Dubrovnik) e Itália + Portugal. Roteiros multi-país pedem 18 a 25 noites.",
+      },
+    ],
   },
   {
     slug: "toscana",
