@@ -245,8 +245,30 @@ const BrasilEstado = () => {
           </div>
         </section>
 
+        {/* FAQ — only rendered when state provides questions */}
+        {state.faqs && state.faqs.length > 0 && (
+          <section className="py-16 bg-muted/30 border-t border-border">
+            <div className="container-editorial max-w-3xl">
+              <span className="text-xs uppercase tracking-[0.2em] text-gold">Perguntas frequentes</span>
+              <h2 className="heading-section mt-2 mb-8">Dúvidas sobre viajar para {state.name}</h2>
+              <div className="space-y-6">
+                {state.faqs.map((f) => (
+                  <details key={f.q} className="group border-b border-border pb-4">
+                    <summary className="faq-question cursor-pointer font-serif text-lg text-foreground list-none flex justify-between items-start gap-4">
+                      <span>{f.q}</span>
+                      <span className="text-gold text-2xl leading-none group-open:rotate-45 transition-transform">+</span>
+                    </summary>
+                    <p className="faq-answer text-sm text-muted-foreground leading-relaxed mt-3">{f.a}</p>
+                  </details>
+                ))}
+              </div>
+            </div>
+          </section>
+        )}
+
         {/* CTA */}
         <section className="py-20 bg-gradient-hero text-primary-foreground">
+
           <div className="container-editorial text-center max-w-2xl">
             <h2 className="heading-section text-primary-foreground">
               Quer um roteiro autoral em {state.name}?
