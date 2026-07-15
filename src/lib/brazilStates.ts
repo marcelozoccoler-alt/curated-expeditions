@@ -568,11 +568,67 @@ export const brazilStates: BrazilState[] = [
     macroregion: "Sul",
     kicker: "Sul • Brasil",
     intro:
-      "Cataratas do Iguaçu — uma das maravilhas naturais do planeta, com hospedagens dentro do parque nacional.",
+      "Cataratas do Iguaçu — uma das maravilhas naturais do planeta, com hospedagens dentro do Parque Nacional e combinação natural com o lado argentino.",
     metaDescription:
-      "Paraná com curadoria Create Travel: Cataratas do Iguaçu.",
+      "Pacote de viagem para Foz do Iguaçu (PR) com curadoria Create Travel: Cataratas, Parque Nacional, Itaipu e combinação com o lado argentino. Roteiros sob medida e suporte 24/7.",
     heroImageUrl: paranaImg,
     destinationSlugs: ["brasil/sul/cataratas-iguacu"],
+    longIntro:
+      "Um pacote de viagem para Foz do Iguaçu é a única forma de ver, em uma única viagem, uma das 7 Maravilhas Naturais do Mundo por dois ângulos — o brasileiro, panorâmico, e o argentino, imersivo. As Cataratas do Iguaçu formam o maior conjunto de quedas d'água em volume do planeta (275 saltos, 2,7 km de extensão), protegido por dois parques nacionais (Brasil e Argentina) reconhecidos como Patrimônio Natural pela UNESCO. Na Create Travel desenhamos roteiros sob medida para Foz unindo o Parque Nacional brasileiro (trilha panorâmica + Macuco Safari), o argentino (Garganta do Diabo por passarelas), a Usina de Itaipu e o Marco das Três Fronteiras — com opção de hospedagem dentro do parque no icônico Belmond Hotel das Cataratas.",
+    whatToDo: [
+      {
+        title: "Cataratas do Iguaçu — lado brasileiro",
+        body: "Trilha panorâmica de 1,2 km com vista frontal das quedas, passarela suspensa até a Garganta do Diabo pelo Brasil e Macuco Safari (barco que entra debaixo das cataratas). Meio-período; ideal começar por aqui.",
+      },
+      {
+        title: "Cataratas do Iguaçu — lado argentino",
+        body: "Passarelas superiores e inferiores + trem ecológico até a Garganta do Diabo, o mirante mais impressionante do parque. Requer 1 dia inteiro e travessia de fronteira (organizamos com motorista bilíngue).",
+      },
+      {
+        title: "Parque das Aves",
+        body: "Único no mundo em contato direto com a fauna da Mata Atlântica: viveiros de imersão com tucanos, araras e beija-flores. Complementa perfeitamente o lado brasileiro em meio dia.",
+      },
+      {
+        title: "Usina de Itaipu e Marco das Três Fronteiras",
+        body: "Maior geradora de energia limpa do mundo, com passeio panorâmico ou visita técnica. Marco das Três Fronteiras (Brasil, Argentina, Paraguai) para pôr do sol com show de luzes.",
+      },
+      {
+        title: "Rota das Aves e passeio de helicóptero",
+        body: "Sobrevoo de 10 min sobre as Cataratas (única forma de ver os 275 saltos de cima), rafting no Rio Iguaçu e observação de aves na Mata Atlântica preservada.",
+      },
+    ],
+    bestTime:
+      "Foz do Iguaçu funciona o ano inteiro. A melhor época é de abril a outubro — clima ameno, menos chuvas, cataratas com vazão média-alta consistente. Novembro a março é o verão brasileiro: mais quente e úmido, cataratas com vazão máxima após chuvas (mais espetaculares), mas dias podem alternar com sol forte. Julho é alta temporada (férias escolares), reserve com 4 meses de antecedência. Setembro combina clima seco e menos turistas.",
+    howToGet:
+      "Voos diretos para o Aeroporto Internacional de Foz do Iguaçu (IGU) das principais capitais brasileiras (SP, RJ, POA, BSB, CWB) — 1h30 a 2h de voo. Do aeroporto, transfer privativo de 15 min até a cidade e 25 min até os hotéis dentro do parque. Coordenamos aéreo, transfers privativos e a travessia de fronteira para o lado argentino.",
+    whereToStay:
+      "A hospedagem premium é o Belmond Hotel das Cataratas, único dentro do Parque Nacional brasileiro — acesso privilegiado às quedas ao amanhecer e ao entardecer, quando o parque fecha para o público. Alternativas: resorts com estrutura completa em Foz e hotéis-boutique próximos ao parque. Toda a curadoria é feita a partir do briefing.",
+    faqs: [
+      {
+        q: "Quantos dias ficar em Foz do Iguaçu?",
+        a: "Para ver os dois lados das Cataratas (Brasil e Argentina) com calma, mínimo 3 noites. Incluindo Itaipu, Parque das Aves e Três Fronteiras, 4 noites. Roteiros com sobrevoo de helicóptero e experiências extras, 5 noites.",
+      },
+      {
+        q: "Qual a melhor época para visitar as Cataratas do Iguaçu?",
+        a: "Abril a outubro para clima ameno e vazão média-alta consistente. Setembro é o equilíbrio ideal: seco, menos turistas, boa vazão. Janeiro-fevereiro têm vazão máxima (espetacular) mas mais calor e umidade. Evite julho na alta temporada escolar.",
+      },
+      {
+        q: "É melhor ver as Cataratas do lado brasileiro ou argentino?",
+        a: "Os dois. Brasileiro entrega vista panorâmica frontal (as fotos icônicas) em meio período. Argentino entrega imersão pelas passarelas até a Garganta do Diabo em 1 dia inteiro. Roteiros Create Travel sempre incluem ambos.",
+      },
+      {
+        q: "Preciso de passaporte para o lado argentino?",
+        a: "Não. Brasileiros podem entrar na Argentina pela fronteira de Foz apenas com RG (foto atualizada, em bom estado) ou passaporte. Organizamos motorista privativo bilíngue que cuida da travessia.",
+      },
+      {
+        q: "Vale a pena ficar dentro do Parque Nacional (Belmond)?",
+        a: "Sim, se a estadia for de 2 ou 3 noites com foco nas Cataratas. Você tem acesso ao parque antes da abertura (6h30) e depois do fechamento (17h30), quando praticamente não há turistas. É a única forma de fotografar as quedas sem multidão.",
+      },
+      {
+        q: "Como funciona um pacote de viagem para Foz do Iguaçu na Create Travel?",
+        a: "Não vendemos pacotes prontos. A partir de uma conversa por WhatsApp levantamos período, perfil e apetite por experiências extras. Enviamos proposta sob medida com hospedagem, voos, transfers privativos, ingressos pré-reservados dos dois lados e suporte 24/7 — com um único travel designer do briefing ao pós-viagem.",
+      },
+    ],
   },
   {
     slug: "santa-catarina",
