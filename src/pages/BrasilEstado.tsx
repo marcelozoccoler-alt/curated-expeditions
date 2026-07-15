@@ -57,6 +57,25 @@ const BrasilEstado = () => {
     ],
   };
 
+  const faqLd = state.faqs && state.faqs.length > 0
+    ? {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        mainEntity: state.faqs.map((f) => ({
+          "@type": "Question",
+          name: f.q,
+          acceptedAnswer: { "@type": "Answer", text: f.a },
+        })),
+      }
+    : null;
+
+  const jsonLd = [
+    placeLd,
+    breadcrumbLd,
+    buildSpeakableSchema(`${CONTACT.domain.replace(/\/$/, "")}/brasil/${state.slug}`),
+    ...(faqLd ? [faqLd] : []),
+  ];
+
   return (
     <>
       <SEO
@@ -66,7 +85,7 @@ const BrasilEstado = () => {
         keywords={buildPlaceKeywords(state.name, "Brasil", [`turismo ${state.name}`, `viagem ${state.name} Brasil`])}
         ogImage={state.heroImageUrl}
         ogType="article"
-        jsonLd={[placeLd, breadcrumbLd, buildSpeakableSchema(`${CONTACT.domain.replace(/\/$/, "")}/brasil/${state.slug}`)]}
+        jsonLd={jsonLd}
       />
       <Header />
 
@@ -107,8 +126,58 @@ const BrasilEstado = () => {
           </div>
         </section>
 
+        {/* Long-form SEO content — only rendered when the state provides it */}
+        {(state.longIntro || state.whatToDo || state.bestTime || state.howToGet || state.whereToStay) && (
+          <section className="py-16 border-b border-border">
+            <div className="container-editorial max-w-4xl space-y-12">
+              {state.longIntro && (
+                <div>
+                  <h2 className="heading-section mb-4">Pacote de viagem para {state.name}</h2>
+                  <p className="text-base leading-relaxed text-foreground/85">{state.longIntro}</p>
+                </div>
+              )}
+
+              {state.whatToDo && state.whatToDo.length > 0 && (
+                <div>
+                  <h2 className="heading-section mb-6">O que fazer em {state.name}</h2>
+                  <div className="grid sm:grid-cols-2 gap-6">
+                    {state.whatToDo.map((s) => (
+                      <article key={s.title} className="border border-border rounded-lg p-6 bg-card">
+                        <h3 className="font-serif text-lg mb-2">{s.title}</h3>
+                        <p className="text-sm text-muted-foreground leading-relaxed">{s.body}</p>
+                      </article>
+                    ))}
+                  </div>
+                </div>
+              )}
+
+              <div className="grid md:grid-cols-3 gap-8">
+                {state.bestTime && (
+                  <div>
+                    <h3 className="font-serif text-lg mb-3">Melhor época para visitar {state.name}</h3>
+                    <p className="text-sm text-muted-foreground leading-relaxed">{state.bestTime}</p>
+                  </div>
+                )}
+                {state.howToGet && (
+                  <div>
+                    <h3 className="font-serif text-lg mb-3">Como chegar</h3>
+                    <p className="text-sm text-muted-foreground leading-relaxed">{state.howToGet}</p>
+                  </div>
+                )}
+                {state.whereToStay && (
+                  <div>
+                    <h3 className="font-serif text-lg mb-3">Onde ficar</h3>
+                    <p className="text-sm text-muted-foreground leading-relaxed">{state.whereToStay}</p>
+                  </div>
+                )}
+              </div>
+            </div>
+          </section>
+        )}
+
         {/* Destinations */}
         <section className="py-16">
+
           <div className="container-editorial">
             <div className="flex items-end justify-between flex-wrap gap-4 mb-10">
               <div>
@@ -176,8 +245,30 @@ const BrasilEstado = () => {
           </div>
         </section>
 
+        {/* FAQ — only rendered when state provides questions */}
+        {state.faqs && state.faqs.length > 0 && (
+          <section className="py-16 bg-muted/30 border-t border-border">
+            <div className="container-editorial max-w-3xl">
+              <span className="text-xs uppercase tracking-[0.2em] text-gold">Perguntas frequentes</span>
+              <h2 className="heading-section mt-2 mb-8">Dúvidas sobre viajar para {state.name}</h2>
+              <div className="space-y-6">
+                {state.faqs.map((f) => (
+                  <details key={f.q} className="group border-b border-border pb-4">
+                    <summary className="faq-question cursor-pointer font-serif text-lg text-foreground list-none flex justify-between items-start gap-4">
+                      <span>{f.q}</span>
+                      <span className="text-gold text-2xl leading-none group-open:rotate-45 transition-transform">+</span>
+                    </summary>
+                    <p className="faq-answer text-sm text-muted-foreground leading-relaxed mt-3">{f.a}</p>
+                  </details>
+                ))}
+              </div>
+            </div>
+          </section>
+        )}
+
         {/* CTA */}
         <section className="py-20 bg-gradient-hero text-primary-foreground">
+
           <div className="container-editorial text-center max-w-2xl">
             <h2 className="heading-section text-primary-foreground">
               Quer um roteiro autoral em {state.name}?
