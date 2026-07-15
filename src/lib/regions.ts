@@ -271,12 +271,60 @@ export const regions: Region[] = [
     label: "Bonito",
     kicker: "Brasil",
     intro:
-      "Águas cristalinas, flutuações inesquecíveis e cavernas. Combinamos Bonito com Pantanal Sul para uma narrativa Brasil profunda.",
+      "Águas cristalinas, flutuações inesquecíveis e cavernas. Combinamos Bonito com Pantanal Sul para uma narrativa Brasil profunda no coração do Mato Grosso do Sul.",
     metaDescription:
-      "Bonito (MS) com curadoria Create Travel: flutuações, grutas e combinação com Pantanal Sul.",
+      "Pacote de viagem para Bonito (MS) com curadoria Create Travel: flutuações no Rio Sucuri, Gruta do Lago Azul, Buraco das Araras e combinação com Pantanal Sul. Roteiros sob medida e suporte 24/7.",
     heroImageUrl:
       "https://images.unsplash.com/photo-1583244532610-2a234e0d0f10?w=1920&h=1080&fit=crop",
     destinationSlugs: ["brasil/bonito"],
+    longIntro:
+      "Um pacote de viagem para Bonito é a porta de entrada para o ecoturismo brasileiro em alta qualidade. A cidade no Mato Grosso do Sul é reconhecida mundialmente pelas águas mais transparentes do país — resultado da filtragem natural do calcário — e por um modelo turístico invejável: número limitado de visitantes por atrativo, guias credenciados obrigatórios, preservação rigorosa. Na Create Travel desenhamos roteiros sob medida para Bonito unindo flutuações no Rio Sucuri e Rio da Prata, Gruta do Lago Azul, Buraco das Araras, Boca da Onça e a combinação natural com o Pantanal Sul (3h de estrada) para roteiros de vida silvestre + águas cristalinas.",
+    whatToDo: [
+      {
+        title: "Flutuação no Rio Sucuri e Rio da Prata",
+        body: "As duas flutuações mais icônicas de Bonito. Água a 24 °C, visibilidade de até 50 metros, peixes coloridos e vegetação subaquática. Sucuri é mais curto e fácil (famílias); Rio da Prata pede caminhada de 20 min antes e é mais completo.",
+      },
+      {
+        title: "Gruta do Lago Azul e Gruta do Mimoso",
+        body: "Duas cavernas com lagos internos de azul-turquesa. A Gruta do Lago Azul (patrimônio nacional) é visita cultural clássica; a do Mimoso permite mergulho técnico. Reserve com antecedência — vagas limitadas.",
+      },
+      {
+        title: "Buraco das Araras e Boca da Onça",
+        body: "Uma das maiores dolinas do mundo, com casal de araras-vermelhas residentes. Boca da Onça combina a maior cachoeira do MS (156 m) com rapel opcional e trilha na Serra da Bodoquena.",
+      },
+      {
+        title: "Combinação Bonito + Pantanal Sul",
+        body: "Roteiro clássico de 7–10 noites: 4 noites em Bonito (águas) + 3–4 noites em fazenda no Pantanal Sul (fauna). Transfer de 3h ligando os dois destinos. A viagem mais completa de ecoturismo do Brasil.",
+      },
+    ],
+    bestTime:
+      "Bonito funciona o ano inteiro, mas a melhor época é de abril a setembro — estação seca, água mais cristalina, temperatura amena para trilhas. Julho é alta temporada brasileira (reserve com 4 meses de antecedência). De outubro a março ocorrem chuvas de verão que podem turvar rios por 1–3 dias após precipitação forte, mas a paisagem fica mais verde e a temperatura da água mais agradável. Setembro combina clima seco, boa visibilidade e menos turistas.",
+    howToGet:
+      "O acesso é pelo Aeroporto de Bonito (BYO), com voos diretos de Campinas via Azul, ou pelo Aeroporto de Campo Grande (CGR) com transfer terrestre de 3h30. Coordenamos aéreo doméstico, transfers privativos e conexão Bonito–Pantanal Sul quando o roteiro combina os dois.",
+    whereToStay:
+      "Em Bonito indicamos pousadas-boutique no centro, refúgios em fazendas na Serra da Bodoquena e resorts com estrutura para famílias. Para combinação com Pantanal Sul, base em fazenda-hotel do MS. Toda a curadoria prioriza operações com boa localização (não isoladas), gastronomia autoral e estrutura para ecoturismo.",
+    faqs: [
+      {
+        q: "Quantos dias ficar em Bonito?",
+        a: "Para o essencial (Sucuri ou Rio da Prata + Gruta do Lago Azul + Boca da Onça), mínimo 3 noites. Para roteiro completo em Bonito, 4 a 5 noites. Combinação Bonito + Pantanal Sul, 7 a 10 noites.",
+      },
+      {
+        q: "Qual a melhor época para um pacote de viagem para Bonito?",
+        a: "Abril a setembro, com pico em julho (alta temporada). Setembro é o equilíbrio: clima seco, boa visibilidade nas águas, menos turistas. Evite janeiro e fevereiro (chuvas intensas podem turvar rios).",
+      },
+      {
+        q: "Bonito é bom para crianças?",
+        a: "Sim, é um dos melhores destinos de ecoturismo brasileiro para famílias. Flutuação no Sucuri aceita crianças a partir de 5 anos, com colete e guia. Boa infraestrutura, restaurantes-família e passeios curtos.",
+      },
+      {
+        q: "Precisa reservar passeios com antecedência em Bonito?",
+        a: "Sim, obrigatoriamente. Bonito trabalha com sistema de voucher único e vagas limitadas por atrativo — em alta temporada, os passeios mais famosos esgotam com 60+ dias de antecedência. Reservamos tudo antes da sua chegada.",
+      },
+      {
+        q: "Como funciona um pacote de viagem para Bonito na Create Travel?",
+        a: "Não vendemos pacotes prontos. A partir de uma conversa por WhatsApp levantamos período, perfil e apetite pela combinação com Pantanal. Enviamos proposta sob medida com hospedagem, voos, transfers, passeios pré-reservados e suporte 24/7 — com um único travel designer do briefing ao pós-viagem.",
+      },
+    ],
   },
   {
     slug: "jericoacoara",
