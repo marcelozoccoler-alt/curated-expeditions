@@ -45,16 +45,35 @@ const Regiao = () => {
     ],
   };
 
+  const faqLd = region.faqs && region.faqs.length > 0
+    ? {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        mainEntity: region.faqs.map((f) => ({
+          "@type": "Question",
+          name: f.q,
+          acceptedAnswer: { "@type": "Answer", text: f.a },
+        })),
+      }
+    : null;
+
+  const jsonLd = [
+    placeLd,
+    breadcrumbLd,
+    buildSpeakableSchema(`${CONTACT.domain.replace(/\/$/, "")}/${region.slug}`),
+    ...(faqLd ? [faqLd] : []),
+  ];
+
   return (
     <>
       <SEO
-        title={`${region.label} — Pacote, roteiro e dicas | Create Travel`}
-        description={`Viagem para ${region.label} com curadoria Create Travel: o que fazer, melhor época, onde ficar e roteiros sob medida.`}
+        title={`Pacote de viagem para ${region.label} — O que fazer, melhor época e roteiros | Create Travel`}
+        description={`Pacote de viagem para ${region.label} com curadoria Create Travel: o que fazer, melhor época, onde ficar e roteiros sob medida. ${region.metaDescription}`.slice(0, 300)}
         canonicalPath={`/${region.slug}`}
-        keywords={buildPlaceKeywords(region.label, undefined, [`turismo ${region.label}`, `roteiro ${region.label}`])}
+        keywords={buildPlaceKeywords(region.label, undefined, [`turismo ${region.label}`, `roteiro ${region.label}`, `pacote ${region.label}`])}
         ogImage={region.heroImageUrl}
         ogType="article"
-        jsonLd={[placeLd, breadcrumbLd, buildSpeakableSchema(`${CONTACT.domain.replace(/\/$/, "")}/${region.slug}`)]}
+        jsonLd={jsonLd}
       />
       <Header />
 
@@ -88,6 +107,55 @@ const Regiao = () => {
             </motion.div>
           </div>
         </section>
+
+        {/* Long-form SEO content — only rendered when the region provides it */}
+        {(region.longIntro || region.whatToDo || region.bestTime || region.howToGet || region.whereToStay) && (
+          <section className="py-16 border-b border-border">
+            <div className="container-editorial max-w-4xl space-y-12">
+              {region.longIntro && (
+                <div>
+                  <h2 className="heading-section mb-4">Pacote de viagem para {region.label}</h2>
+                  <p className="text-base leading-relaxed text-foreground/85">{region.longIntro}</p>
+                </div>
+              )}
+
+              {region.whatToDo && region.whatToDo.length > 0 && (
+                <div>
+                  <h2 className="heading-section mb-6">O que fazer em {region.label}</h2>
+                  <div className="grid sm:grid-cols-2 gap-6">
+                    {region.whatToDo.map((s) => (
+                      <article key={s.title} className="border border-border rounded-lg p-6 bg-card">
+                        <h3 className="font-serif text-lg mb-2">{s.title}</h3>
+                        <p className="text-sm text-muted-foreground leading-relaxed">{s.body}</p>
+                      </article>
+                    ))}
+                  </div>
+                </div>
+              )}
+
+              <div className="grid md:grid-cols-3 gap-8">
+                {region.bestTime && (
+                  <div>
+                    <h3 className="font-serif text-lg mb-3">Melhor época para visitar {region.label}</h3>
+                    <p className="text-sm text-muted-foreground leading-relaxed">{region.bestTime}</p>
+                  </div>
+                )}
+                {region.howToGet && (
+                  <div>
+                    <h3 className="font-serif text-lg mb-3">Como chegar</h3>
+                    <p className="text-sm text-muted-foreground leading-relaxed">{region.howToGet}</p>
+                  </div>
+                )}
+                {region.whereToStay && (
+                  <div>
+                    <h3 className="font-serif text-lg mb-3">Onde ficar</h3>
+                    <p className="text-sm text-muted-foreground leading-relaxed">{region.whereToStay}</p>
+                  </div>
+                )}
+              </div>
+            </div>
+          </section>
+        )}
 
         {/* Destinations */}
         <section className="py-16">
@@ -147,6 +215,27 @@ const Regiao = () => {
             </div>
           </div>
         </section>
+
+        {/* FAQ — only rendered when region provides questions */}
+        {region.faqs && region.faqs.length > 0 && (
+          <section className="py-16 bg-muted/30 border-t border-border">
+            <div className="container-editorial max-w-3xl">
+              <span className="text-xs uppercase tracking-[0.2em] text-gold">Perguntas frequentes</span>
+              <h2 className="heading-section mt-2 mb-8">Dúvidas sobre viajar para {region.label}</h2>
+              <div className="space-y-6">
+                {region.faqs.map((f) => (
+                  <details key={f.q} className="group border-b border-border pb-4">
+                    <summary className="faq-question cursor-pointer font-serif text-lg text-foreground list-none flex justify-between items-start gap-4">
+                      <span>{f.q}</span>
+                      <span className="text-gold text-2xl leading-none group-open:rotate-45 transition-transform">+</span>
+                    </summary>
+                    <p className="faq-answer text-sm text-muted-foreground leading-relaxed mt-3">{f.a}</p>
+                  </details>
+                ))}
+              </div>
+            </div>
+          </section>
+        )}
 
         {/* CTA */}
         <section className="py-20 bg-gradient-hero text-primary-foreground">

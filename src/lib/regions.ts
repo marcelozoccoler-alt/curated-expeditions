@@ -1,6 +1,16 @@
 // Short SEO landing pages for regions and places — mapped to destinations.
 // Each entry produces a /:regionSlug page (e.g. /amazonia, /pantanal, /japao).
 
+export interface RegionFAQ {
+  q: string;
+  a: string;
+}
+
+export interface RegionSection {
+  title: string;
+  body: string;
+}
+
 export interface Region {
   slug: string;
   label: string;
@@ -9,6 +19,13 @@ export interface Region {
   metaDescription: string;
   heroImageUrl: string;
   destinationSlugs: string[]; // refers to destinations.ts slug field
+  /** Optional long-form SEO content — rendered only when present. */
+  longIntro?: string;
+  whatToDo?: RegionSection[];
+  bestTime?: string;
+  howToGet?: string;
+  whereToStay?: string;
+  faqs?: RegionFAQ[];
 }
 
 export const regions: Region[] = [
@@ -20,13 +37,61 @@ export const regions: Region[] = [
     intro:
       "Amazônia em estado de contemplação: ilhas, canais e silêncio com profundidade. A Create Travel desenha imersões com ética ambiental, conforto real e guias que sabem ler a floresta.",
     metaDescription:
-      "Roteiros e lodges na Amazônia com curadoria de curadoria autoral da Create Travel. Anavilhanas, Manaus, Alter do Chão.",
+      "Pacote de viagem para a Amazônia com curadoria Create Travel: lodges em Anavilhanas, Manaus, Rio Negro e Alter do Chão. Roteiros sob medida, ética ambiental e suporte 24/7.",
     heroImageUrl:
       "https://images.unsplash.com/photo-1518002171953-a080ee817e1f?w=1920&h=1080&fit=crop",
     destinationSlugs: [
       "brasil/amazonia/anavilhanas",
       "brasil/amazonia/manaus-rio-negro",
       "brasil/amazonia/alter-do-chao",
+    ],
+    longIntro:
+      "Um pacote de viagem para a Amazônia pode ser muito mais do que um passeio de barco em Manaus. O bioma abriga alguns dos ecossistemas mais ricos do planeta — o arquipélago de Anavilhanas no Rio Negro, o Encontro das Águas, as praias fluviais de Alter do Chão no Tapajós e comunidades ribeirinhas que só podem ser visitadas com operadores credenciados. Na Create Travel desenhamos roteiros pela Amazônia brasileira sob medida, hospedando em lodges com estrutura real e ética ambiental, com guias naturalistas de nascença. Trabalhamos com Anavilhanas, Manaus e Rio Negro, Alter do Chão (PA) e extensões pela Amazônia peruana quando faz sentido.",
+    whatToDo: [
+      {
+        title: "Lodges no Rio Negro e Anavilhanas",
+        body: "Hospedagens sobre palafitas ou barcos-hotel em meio ao maior arquipélago fluvial do mundo. Focagem noturna de jacarés, trilhas na mata, pesca esportiva de tucunaré (temporada) e visitas éticas a comunidades ribeirinhas.",
+      },
+      {
+        title: "Manaus e Encontro das Águas",
+        body: "Base logística com voos diretos das capitais. Teatro Amazonas, mercado municipal, gastronomia amazônica autoral e o clássico Encontro das Águas entre Rio Negro e Solimões.",
+      },
+      {
+        title: "Alter do Chão e Rio Tapajós",
+        body: "As praias fluviais mais bonitas do Brasil (a 'Caribe amazônico'), Floresta Nacional do Tapajós, comunidades quilombolas e ipês em flor entre agosto e outubro.",
+      },
+      {
+        title: "Observação de fauna e botos-cor-de-rosa",
+        body: "Passeios em canoa silenciosa ao amanhecer, safári fotográfico de macacos, preguiças, jacarés e mais de 400 espécies de aves. Interação ética com botos-cor-de-rosa em áreas selecionadas.",
+      },
+    ],
+    bestTime:
+      "A melhor época depende da experiência. De junho a novembro é o período de águas baixas: praias fluviais em Alter do Chão, trilhas terrestres mais acessíveis, melhor observação de fauna em terra. De dezembro a maio é a cheia: florestas alagadas navegáveis de canoa, silêncio absoluto e a paisagem amazônica clássica dos igapós. Setembro e outubro combinam bem: águas baixas no Tapajós + Encontro das Águas ainda visível.",
+    howToGet:
+      "O acesso principal é pelo Aeroporto Internacional Eduardo Gomes (MAO) em Manaus, com voos diretos de todas as capitais. Para Alter do Chão, voo até Santarém (STM) e transfer terrestre de 30 min. De Manaus para os lodges de Anavilhanas, transfer terrestre + fluvial (2–3h) organizado pelo próprio lodge. Coordenamos todo o encadeamento aéreo-terrestre-fluvial.",
+    whereToStay:
+      "Selecionamos lodges premium sobre o Rio Negro (bangalôs com varanda para a floresta), barcos-hotel para roteiros itinerantes, e pousadas-charme em Alter do Chão pé-na-areia do rio. Em Manaus, hotéis-base para 1 noite de conexão. Só trabalhamos com operações que praticam turismo de baixo impacto e remuneram comunidades locais.",
+    faqs: [
+      {
+        q: "Quantos dias ficar na Amazônia?",
+        a: "Para uma experiência real de lodge no Rio Negro, mínimo 4 noites. Roteiro combinando Manaus + Anavilhanas + Alter do Chão pede 8 a 10 noites. Extensões para a Amazônia peruana (Iquitos, Puerto Maldonado) somam mais 4 a 5 noites.",
+      },
+      {
+        q: "Qual a melhor época para um pacote de viagem para a Amazônia?",
+        a: "Junho a novembro para praias fluviais, trilhas e observação de fauna em terra (águas baixas). Dezembro a maio para florestas alagadas navegáveis e silêncio absoluto (cheia). Setembro e outubro são o meio-termo ideal.",
+      },
+      {
+        q: "É seguro viajar para a Amazônia com crianças?",
+        a: "Sim, desde que hospedado em lodges estruturados. Trabalhamos com operações que têm equipe médica de plantão, atividades adaptadas por idade e rota de evacuação para Manaus em caso de necessidade. Vacina de febre amarela é obrigatória (10 dias antes da viagem).",
+      },
+      {
+        q: "Como funciona um pacote para a Amazônia na Create Travel?",
+        a: "Não vendemos pacotes prontos. A partir de uma conversa por WhatsApp levantamos período, perfil, apetite por conforto vs. aventura. Enviamos uma proposta sob medida com lodge selecionado, voos, transfers fluviais, guias privativos e suporte 24/7 — com um único travel designer do briefing ao pós-viagem.",
+      },
+      {
+        q: "Precisa de guia para visitar a Amazônia?",
+        a: "Sim, obrigatoriamente. Toda a experiência acontece com guias naturalistas locais dos lodges — não é um destino para explorar por conta. É justamente o guia que transforma a floresta em algo compreensível.",
+      },
     ],
   },
   {
@@ -294,14 +359,70 @@ export const regions: Region[] = [
     label: "Chile",
     kicker: "América do Sul",
     intro:
-      "Atacama no norte, Patagônia no sul. Um país-narrativa com as duas paisagens mais marcantes do continente.",
+      "Atacama no norte, Patagônia no sul. Um país-narrativa com as duas paisagens mais marcantes do continente sul-americano.",
     metaDescription:
-      "Chile com curadoria Create Travel: Atacama, Patagônia e Santiago em roteiros sob medida.",
+      "Pacote de viagem para o Chile com curadoria Create Travel: Atacama, Patagônia, Santiago e Valparaíso. Roteiros sob medida, hospedagens autorais e suporte 24/7.",
     heroImageUrl:
       "https://images.unsplash.com/photo-1504457047772-27faf1c00561?w=1920&h=1080&fit=crop",
     destinationSlugs: [
       "america-do-sul/patagonia",
       "america-do-sul/chile/atacama",
+    ],
+    longIntro:
+      "Um pacote de viagem para o Chile é, na prática, dois países em um. No norte, o Deserto do Atacama entrega o céu mais estrelado do planeta, salares, gêiseres, lagoas altiplânicas e hotéis-boutique com programa all-inclusive de excursões. No sul, a Patagônia chilena — Torres del Paine, Puerto Natales, Carretera Austral — oferece uma das paisagens mais impressionantes do mundo, com lodges que combinam luxo e imersão. No meio, Santiago e Valparaíso trazem gastronomia premiada, vinícolas em Colchagua e Casablanca, e a arte de rua de Valparaíso. Na Create Travel desenhamos roteiros sob medida pelo Chile unindo Atacama + Patagônia (a combinação clássica de 10–14 noites), extensões pela Ilha de Páscoa e viagens gastronômicas por vinhas premiadas.",
+    whatToDo: [
+      {
+        title: "Deserto do Atacama (norte)",
+        body: "San Pedro de Atacama como base para gêiseres del Tatio, Vale da Lua, Salar de Atacama, lagoas altiplânicas Miscanti e Miñiques e observação astronômica em céus Bortle 1. Hotéis com programa de excursões incluído.",
+      },
+      {
+        title: "Patagônia chilena e Torres del Paine",
+        body: "Trekking do W ou trilhas curtas de dia, avistamento de pumas, glaciar Grey, hospedagem em lodges premium dentro ou na borda do parque. Combinações com El Calafate (Argentina) via fronteira terrestre.",
+      },
+      {
+        title: "Santiago e vinícolas",
+        body: "Base de chegada e conexão. Bairros Lastarria e Bellavista, gastronomia autoral, day-trips para vinícolas em Colchagua (Montes, Lapostolle) e Casablanca (vinhos brancos costeiros).",
+      },
+      {
+        title: "Valparaíso e Viña del Mar",
+        body: "Cidade-porto UNESCO com arte de rua icônica, funiculares históricos e restaurantes autorais. Ideal para 1 ou 2 noites como extensão de Santiago.",
+      },
+      {
+        title: "Carretera Austral e Chiloé",
+        body: "Para viajantes com mais tempo (12+ noites): fiordes, geleiras, Marble Caves em Puerto Río Tranquilo e a cultura insular de Chiloé. Roteiros autorais de road trip com motorista.",
+      },
+    ],
+    bestTime:
+      "A melhor época depende da combinação. O Atacama é destino de ano inteiro (dias secos e ensolarados sempre; noites frias no inverno de junho a agosto). A Patagônia chilena tem janela restrita: novembro a março (verão austral), com dezembro-fevereiro no pico. Setembro-outubro e abril entregam bons preços com clima ainda estável. Vinícolas colhem em março-abril (época de vindima). Para combinar Atacama + Patagônia, o ideal é novembro a março.",
+    howToGet:
+      "Voos diretos do Brasil para Santiago (SCL) a partir de SP, RJ, POA, BSB e outras capitais — 4 a 5 horas de voo. De Santiago, voos domésticos para Calama (CJC, aeroporto do Atacama, 2h) e Punta Arenas (PUQ, portão da Patagônia, 3h30) + transfer terrestre. Coordenamos todo o encadeamento aéreo doméstico e transfers privativos.",
+    whereToStay:
+      "No Atacama indicamos hotéis com programa all-inclusive de excursões, guias bilíngues e observatório próprio. Em Torres del Paine, lodges premium dentro ou na fronteira do parque, com trilhas guiadas incluídas. Em Santiago, hotéis-boutique em Lastarria ou Vitacura. Em Valparaíso, casarões restaurados nos cerros com vista para a baía. Toda a curadoria é feita a partir do briefing.",
+    faqs: [
+      {
+        q: "Quantos dias ficar no Chile?",
+        a: "Para o clássico Atacama + Patagônia, 10 a 14 noites. Só Atacama, 4 a 5 noites. Só Patagônia (Torres del Paine), 5 a 7 noites. Incluindo Santiago, vinícolas e Valparaíso, adicione 3 a 4 noites.",
+      },
+      {
+        q: "Qual a melhor época para um pacote de viagem para o Chile?",
+        a: "Novembro a março é a janela ideal para combinar Atacama + Patagônia (verão austral, clima estável em Torres del Paine). Setembro-outubro e abril são meia-estação com bons preços. O Atacama funciona o ano inteiro; a Patagônia praticamente fecha entre maio e agosto.",
+      },
+      {
+        q: "É melhor visitar o Atacama ou a Patagônia?",
+        a: "Depende. Atacama entrega deserto, astronomia e conforto de hotel — mais leve, ideal para primeira viagem ou casais. Patagônia entrega trekking, glaciares e paisagem monumental — pede mais preparo físico. A resposta clássica é fazer as duas em um único roteiro, de norte para sul.",
+      },
+      {
+        q: "Preciso de visto para o Chile?",
+        a: "Brasileiros não precisam de visto para viagens de turismo de até 90 dias. Basta passaporte ou RG válido (com foto recente e em bom estado). Vacina de febre amarela recomendada mas não obrigatória.",
+      },
+      {
+        q: "Como funciona um pacote de viagem para o Chile na Create Travel?",
+        a: "Não vendemos pacotes prontos. A partir de uma conversa por WhatsApp levantamos período, perfil e apetite por atividade. Enviamos uma proposta sob medida com hotéis, voos domésticos, transfers privativos, excursões e guias bilíngues — com suporte 24/7 durante toda a viagem e um único travel designer do briefing ao pós-viagem.",
+      },
+      {
+        q: "Vale a pena combinar Chile e Argentina?",
+        a: "Sim — é uma combinação natural. Torres del Paine (Chile) e El Calafate/El Chaltén (Argentina) ficam a 4h de estrada com fronteira tranquila. Roteiros combinados pedem 12 a 16 noites e entregam as duas Patagônias em uma viagem.",
+      },
     ],
   },
   {
@@ -383,12 +504,68 @@ export const regions: Region[] = [
     label: "Itália",
     kicker: "Europa",
     intro:
-      "Toscana, Costa Amalfitana e cidades de arte. Vinhedos, mesa autoral e propriedades históricas.",
+      "Toscana, Costa Amalfitana, Sul da Itália e cidades de arte. Vinhedos, mesa autoral, agriturismos e propriedades históricas.",
     metaDescription:
-      "Itália com curadoria Create Travel: Toscana, Amalfi e cidades de arte em roteiros sob medida.",
+      "Pacote de viagem para a Itália com curadoria Create Travel: Toscana, Costa Amalfitana, Roma, Florença, Veneza e Sul da Itália. Roteiros sob medida, agriturismos autorais e suporte 24/7.",
     heroImageUrl:
       "https://images.unsplash.com/photo-1496318447583-f524534e9ce1?w=1920&h=1080&fit=crop",
     destinationSlugs: ["europa/italia/toscana"],
+    longIntro:
+      "Um pacote de viagem para a Itália pede escolha — o país tem mais camadas do que uma única viagem comporta. O circuito clássico une Roma, Florença e Veneza, com extensão pela Toscana (Chianti, Val d'Orcia, San Gimignano) para agriturismos, vinícolas e ritmo lento. O Sul da Itália entrega a Costa Amalfitana (Positano, Ravello, Amalfi), a Puglia dos trulli e Capri como refúgio insular. No norte, os lagos italianos (Como, Garda, Maggiore) e Milão fecham o mapa. Na Create Travel desenhamos roteiros sob medida pela Itália unindo cidade + campo + costa no ritmo certo, com hospedagens autorais, motoristas privativos e experiências raras — vindima em vinícola de família, aulas de pasta com nonna, veleiro privativo na Amalfi.",
+    whatToDo: [
+      {
+        title: "Roma, Florença e Veneza",
+        body: "O clássico circuito de arte italiana: Coliseu e Vaticano em Roma, Uffizi e Duomo em Florença, canais e ilhas da Laguna em Veneza. Reservamos entradas sem fila, guias de arte e restaurantes autorais.",
+      },
+      {
+        title: "Toscana e agriturismos",
+        body: "Val d'Orcia, Chianti, Siena, San Gimignano, Pienza e Montalcino. Villas restauradas em meio a vinhedos, vindima em setembro-outubro, aulas de culinária e degustações de Brunello e Chianti Classico.",
+      },
+      {
+        title: "Costa Amalfitana e Capri",
+        body: "Positano, Ravello, Amalfi e a ilha de Capri. Hotéis-boutique com vista para o Mediterrâneo, veleiro privativo pela costa, jantares em terraços icônicos. Alta temporada de maio a setembro.",
+      },
+      {
+        title: "Puglia e Sul da Itália",
+        body: "Trulli de Alberobello, cidades brancas de Ostuni e Locorotondo, praias do Salento e a gastronomia mais autêntica do país. Extensão ideal para quem já foi à Itália clássica.",
+      },
+      {
+        title: "Lagos italianos",
+        body: "Lago di Como (Bellagio, Varenna), Lago di Garda e Lago Maggiore. Villas históricas, jardins e travessias de barco. Ótima extensão de 3 a 4 noites após Milão.",
+      },
+    ],
+    bestTime:
+      "A melhor época para um pacote de viagem para a Itália é abril-junho e setembro-outubro — clima ameno, menos turistas do que julho-agosto e vindima na Toscana em setembro. Julho e agosto concentram alta temporada europeia: calor forte no sul, cidades cheias e preços elevados. Novembro a março é baixa (frio, chuvas, alguns hotéis de campo fechados), mas Roma, Florença e Veneza funcionam bem para viagem cultural. Reserve com 6 a 9 meses de antecedência para maio, junho e setembro.",
+    howToGet:
+      "Voos diretos do Brasil para Roma (FCO) e Milão (MXP) a partir de SP, RJ e outras capitais — 10 a 11 horas. Alternativas com conexão em Lisboa, Madri ou Paris para chegar a Veneza (VCE), Florença (FLR), Nápoles (NAP) ou Bari (BRI). Entre cidades italianas, trens de alta velocidade (Frecciarossa, Italo) são o meio ideal: Roma-Florença em 1h30, Florença-Veneza em 2h. Organizamos reservas, transfers privativos e aluguel de carro apenas para o campo (Toscana, Amalfi, Puglia).",
+    whereToStay:
+      "Em Roma e Florença, hotéis-boutique no centro histórico. Em Veneza, palácios convertidos em hotel ou refúgios na Giudecca. Na Toscana, agriturismos autorais com produção própria de vinho e azeite. Na Costa Amalfitana, hotéis com vista frontal para o Mediterrâneo (Le Sirenuse, Il San Pietro estilo). Na Puglia, masserias — casarões-fazenda restaurados. Toda a curadoria é feita a partir do briefing.",
+    faqs: [
+      {
+        q: "Quantos dias ficar na Itália?",
+        a: "Para o circuito clássico Roma-Florença-Veneza, 8 a 10 noites. Adicionando Toscana, 12 a 14 noites. Roteiro completo com Sul da Itália (Amalfi + Capri ou Puglia), 15 a 21 noites. Primeira viagem geralmente pede 12 a 14 noites.",
+      },
+      {
+        q: "Qual a melhor época para um pacote de viagem para a Itália?",
+        a: "Abril-junho e setembro-outubro: clima ameno, menos turistas, vindima na Toscana em setembro. Evite julho-agosto (calor extremo no sul, cidades lotadas) a menos que a viagem seja focada em Amalfi ou lagos. Reserve com 6 a 9 meses de antecedência para maio, junho e setembro.",
+      },
+      {
+        q: "Precisa de visto para a Itália?",
+        a: "Brasileiros não precisam de visto para turismo de até 90 dias no Espaço Schengen. Passaporte com validade mínima de 6 meses após a data de retorno. Recomendamos seguro-viagem com cobertura mínima de €30.000 (exigência Schengen).",
+      },
+      {
+        q: "Como funciona um pacote de viagem para a Itália na Create Travel?",
+        a: "Não vendemos pacotes prontos. A partir de uma conversa por WhatsApp levantamos período, perfil e ritmo desejado. Enviamos uma proposta sob medida com hotéis autorais, trens de alta velocidade, motoristas privativos no campo, guias de arte particulares e experiências raras — com suporte 24/7 durante toda a viagem e um único travel designer do briefing ao pós-viagem.",
+      },
+      {
+        q: "É melhor viajar de trem ou alugar carro na Itália?",
+        a: "Trem para o eixo urbano (Roma, Florença, Veneza, Milão, Nápoles) — rápido, confortável e livre do trânsito. Carro apenas para o campo (Toscana, Puglia, interior) e para a Costa Amalfitana só com motorista privativo (a estrada é estreita e estressante). Organizamos as duas opções conforme o roteiro.",
+      },
+      {
+        q: "Vale a pena combinar Itália com outros países?",
+        a: "Sim. Combinações comuns: Itália + França (por trem), Itália + Grécia (voo curto + cruzeiro), Itália + Croácia (ferry de Veneza a Split ou Dubrovnik) e Itália + Portugal. Roteiros multi-país pedem 18 a 25 noites.",
+      },
+    ],
   },
   {
     slug: "toscana",
