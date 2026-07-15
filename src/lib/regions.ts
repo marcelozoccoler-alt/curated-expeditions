@@ -101,10 +101,58 @@ export const regions: Region[] = [
     intro:
       "A maior planície alagável do planeta — paisagens abertas, fauna abundante e a melhor janela do Brasil para fotografar onças. Selecionamos lodges com saídas guiadas e ética animal sólida.",
     metaDescription:
-      "Pantanal Norte e Sul com curadoria Create Travel: melhores lodges, época para onças e roteiros sob medida.",
+      "Pacote de viagem para o Pantanal com curadoria Create Travel: Pantanal Norte (MT) e Pantanal Sul (MS), melhores lodges, época para onças e roteiros sob medida.",
     heroImageUrl:
       "https://images.unsplash.com/photo-1535338454770-8be927b5a00b?w=1920&h=1080&fit=crop",
     destinationSlugs: ["brasil/pantanal/norte", "brasil/pantanal/sul"],
+    longIntro:
+      "Um pacote de viagem para o Pantanal é o roteiro de vida silvestre mais completo do Brasil. A maior planície alagável do planeta se divide em duas frentes: o Pantanal Norte, no Mato Grosso, com base em Porto Jofre e a Transpantaneira — a melhor janela do mundo para avistar onças-pintadas em liberdade —, e o Pantanal Sul, no Mato Grosso do Sul, com fazendas históricas convertidas em lodges, cavalgadas, focagens noturnas e a combinação natural com Bonito. Na Create Travel desenhamos roteiros sob medida pelo Pantanal com operadores éticos, guias naturalistas experientes e hospedagens escolhidas para cada perfil — do fotógrafo de fauna ao casal em primeira imersão.",
+    whatToDo: [
+      {
+        title: "Safári de onças-pintadas em Porto Jofre",
+        body: "Base do Pantanal Norte, com saídas de barco pelo Rio Cuiabá em busca de onças. Julho a outubro é a temporada de pico, com taxa de avistamento acima de 90% em 3 dias. Lodges flutuantes ou terrestres com guias fotógrafos.",
+      },
+      {
+        title: "Transpantaneira e fazendas-hotel",
+        body: "Estrada de 145 km atravessando o coração do Pantanal Norte, com paradas em fazendas históricas convertidas em pousadas. Focagem noturna, cavalgadas, safáris de veículo aberto e observação de mais de 650 espécies de aves.",
+      },
+      {
+        title: "Pantanal Sul e Fazenda San Francisco",
+        body: "Base em fazendas do MS com boa estrutura para famílias e primeira visita ao Pantanal. Trilhas, safári fotográfico e a combinação clássica com Bonito (3h de estrada).",
+      },
+      {
+        title: "Observação de aves e fotografia de fauna",
+        body: "O Pantanal abriga mais espécies de aves que toda a Europa — tuiuiús, araras-azuis, jaburu, colhereiros. Roteiros dedicados a birdwatchers com guias especializados e hides fotográficos.",
+      },
+    ],
+    bestTime:
+      "A melhor época para o Pantanal é a estação seca, de maio a outubro. Julho a setembro é o pico para avistar onças-pintadas no Pantanal Norte — água baixa concentra a fauna nas margens dos rios. De novembro a abril é a cheia: paisagens espelhadas, muito verde, aves nidificando, mas mais difícil para safári de onça. Setembro e outubro combinam tempo seco, calor e maior chance de fauna concentrada.",
+    howToGet:
+      "Pantanal Norte: voo até Cuiabá (CGB) + transfer de 4h ou voo fretado direto para Porto Jofre. Pantanal Sul: voo até Campo Grande (CGR) + transfer de 4h para fazendas ou até Bonito. Organizamos aéreo doméstico, transfers privativos e conexões diretas entre Pantanal + Bonito quando o roteiro pede.",
+    whereToStay:
+      "No Pantanal Norte: lodges flutuantes em Porto Jofre para safári intensivo de onça, ou fazendas históricas ao longo da Transpantaneira. No Pantanal Sul: fazendas-hotel com estrutura para famílias, cavalgada e observação de fauna. Toda a curadoria prioriza operações com ética animal — sem alimentação de fauna, sem interferência, guias credenciados.",
+    faqs: [
+      {
+        q: "Quantos dias ficar no Pantanal?",
+        a: "Para safári de onças em Porto Jofre, mínimo 3 noites (idealmente 4). Roteiro completo Pantanal Norte, 5 a 6 noites. Combinação Pantanal Sul + Bonito, 6 a 8 noites. Para roteiro fotográfico dedicado, 7 a 10 noites.",
+      },
+      {
+        q: "Qual a melhor época para ver onças no Pantanal?",
+        a: "Julho a outubro, com pico em agosto-setembro. Nesse período a água baixa concentra a fauna nas margens dos rios e a taxa de avistamento de onças em 3 dias em Porto Jofre é superior a 90%.",
+      },
+      {
+        q: "Pantanal Norte ou Pantanal Sul: qual escolher?",
+        a: "Pantanal Norte (MT) para safári de onças em barco — foco em fauna, mais intenso. Pantanal Sul (MS) para fazendas históricas, cavalgada, ritmo mais lento e combinação com Bonito. Roteiros completos fazem os dois.",
+      },
+      {
+        q: "É seguro levar crianças ao Pantanal?",
+        a: "Sim, especialmente no Pantanal Sul, onde as fazendas-hotel têm estrutura pensada para famílias — piscina, atividades adaptadas, refeições no horário. Vacina de febre amarela obrigatória (10 dias antes) e repelente é essencial.",
+      },
+      {
+        q: "Como funciona um pacote para o Pantanal na Create Travel?",
+        a: "Não vendemos pacotes prontos. A partir de uma conversa por WhatsApp levantamos período, foco (onças, aves, família), perfil de conforto. Enviamos proposta sob medida com lodge, aéreo doméstico, transfers, guias e suporte 24/7 — com um único travel designer do briefing ao pós-viagem.",
+      },
+    ],
   },
   {
     slug: "fernando-de-noronha",
