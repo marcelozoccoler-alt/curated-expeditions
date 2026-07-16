@@ -10,7 +10,11 @@ import { WhatsAppButton } from "@/components/WhatsAppButton";
 import { getDiaryPost, diaryPosts } from "@/lib/diaryPosts";
 import { getRelatedDestinationsForPost, getRelatedStaysForPost } from "@/lib/relatedDiary";
 import { getDestinationImage } from "@/lib/destinationImages";
+import { getDiaryCover, getCategorySlug } from "@/lib/diaryImages";
+import { ShareButtons } from "@/components/ShareButtons";
 import { CONTACT } from "@/lib/types";
+
+
 
 const DiarioPost = () => {
   const { slug } = useParams<{ slug: string }>();
@@ -78,13 +82,39 @@ const DiarioPost = () => {
             ]}
           />
 
-          <div className="text-xs font-semibold text-gold tracking-wider mb-4 mt-4">
-            {post.category.toUpperCase()} · {post.readingMinutes} MIN DE LEITURA
+          <div className="flex items-center gap-3 mb-4 mt-4">
+            <Link
+              to={`/diario/categoria/${getCategorySlug(post.category)}`}
+              className="text-xs font-semibold text-gold tracking-wider hover:underline"
+            >
+              {post.category.toUpperCase()}
+            </Link>
+            <span className="text-xs text-muted-foreground">
+              · {post.readingMinutes} MIN DE LEITURA
+            </span>
           </div>
           <h1 className="heading-hero text-foreground mb-6">{post.h1}</h1>
-          <p className="text-xl text-muted-foreground leading-relaxed font-light mb-12">
+          <p className="text-xl text-muted-foreground leading-relaxed font-light mb-8">
             {post.intro}
           </p>
+
+          {(() => {
+            const cover = getDiaryCover(post);
+            return cover ? (
+              <div className="mb-10 rounded-xl overflow-hidden aspect-[16/9]">
+                <img
+                  src={cover}
+                  alt={post.h1}
+                  className="w-full h-full object-cover"
+                  loading="eager"
+                />
+              </div>
+            ) : null;
+          })()}
+
+          <div className="mb-10">
+            <ShareButtons url={url} title={post.h1} summary={post.metaDescription} />
+          </div>
 
           <motion.div
             initial={{ opacity: 0 }}
@@ -103,6 +133,11 @@ const DiarioPost = () => {
               </section>
             ))}
           </motion.div>
+
+          <div className="my-10 pt-8 border-t border-border">
+            <ShareButtons url={url} title={post.h1} summary={post.metaDescription} />
+          </div>
+
 
           <div className="my-12 p-8 bg-muted rounded-xl text-center">
             <h3 className="text-2xl font-serif text-foreground mb-3">

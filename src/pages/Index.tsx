@@ -20,6 +20,9 @@ import { SEO } from "@/components/SEO";
 import { TAGS } from "@/lib/types";
 import { getFeaturedDestinations } from "@/lib/destinations";
 import { getFeaturedStays } from "@/lib/stays";
+import { diaryPosts } from "@/lib/diaryPosts";
+import { getDiaryCover } from "@/lib/diaryImages";
+
 import { DEPARTURES } from "@/pages/EmbarqueComACreate";
 import heroAmazon from "@/assets/hero-amazon.jpg";
 import heroAmazonWebp from "@/assets/hero-amazon.webp";
@@ -30,6 +33,8 @@ const MONTHS_SHORT_PT = ["jan", "fev", "mar", "abr", "mai", "jun", "jul", "ago",
 const Index = () => {
   const featuredDestinations = getFeaturedDestinations();
   const featuredStays = getFeaturedStays();
+  const latestDiary = diaryPosts.slice(0, 3);
+
 
   return (
     <div className="min-h-screen">
@@ -399,6 +404,65 @@ const Index = () => {
           </div>
         </div>
       </section>
+
+      {/* Últimos do Diário */}
+      <section className="section-padding bg-muted">
+        <div className="container-editorial">
+          <div className="flex items-end justify-between mb-12">
+            <div>
+              <p className="text-caption text-gold mb-4">Diário Create Travel</p>
+              <h2 className="heading-section text-foreground">Últimas leituras</h2>
+            </div>
+            <Link
+              to="/diario"
+              className="hidden md:flex items-center gap-2 text-gold hover:text-gold-light transition-colors font-medium"
+            >
+              Ver todo o Diário
+              <ArrowRight size={18} />
+            </Link>
+          </div>
+
+          <div className="grid md:grid-cols-3 gap-6">
+            {latestDiary.map((post) => {
+              const cover = getDiaryCover(post);
+              return (
+                <Link
+                  key={post.slug}
+                  to={`/diario/${post.slug}`}
+                  className="group block bg-card border border-border rounded-xl overflow-hidden hover:border-gold hover:shadow-card transition-all"
+                >
+                  {cover && (
+                    <div className="aspect-[16/10] overflow-hidden">
+                      <img
+                        src={cover}
+                        alt={post.h1}
+                        loading="lazy"
+                        className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
+                      />
+                    </div>
+                  )}
+                  <div className="p-6">
+                    <div className="text-xs font-semibold text-gold tracking-wider mb-3">
+                      {post.category.toUpperCase()} · {post.readingMinutes} MIN
+                    </div>
+                    <h3 className="text-lg font-serif font-semibold text-foreground group-hover:text-gold transition-colors leading-snug">
+                      {post.h1}
+                    </h3>
+                  </div>
+                </Link>
+              );
+            })}
+          </div>
+
+          <div className="mt-8 text-center md:hidden">
+            <Link to="/diario" className="inline-flex items-center gap-2 text-gold font-medium">
+              Ver todo o Diário <ArrowRight size={18} />
+            </Link>
+          </div>
+        </div>
+      </section>
+
+
 
       {/* Final CTA */}
       <section className="section-padding bg-gradient-hero text-white">

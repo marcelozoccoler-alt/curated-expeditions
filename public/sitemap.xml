@@ -2191,6 +2191,36 @@
     <priority>0.9</priority>
   </url>
   <url>
+    <loc>https://createtravel.tur.br/diario/categoria/cultura</loc>
+    <lastmod>2026-07-16</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://createtravel.tur.br/diario/categoria/destino</loc>
+    <lastmod>2026-07-16</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://createtravel.tur.br/diario/categoria/natureza</loc>
+    <lastmod>2026-07-16</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://createtravel.tur.br/diario/categoria/roteiro</loc>
+    <lastmod>2026-07-16</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://createtravel.tur.br/diario/categoria/curiosidades</loc>
+    <lastmod>2026-07-16</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://createtravel.tur.br/diario/gastronomia-na-turquia-alem-do-kebab</loc>
     <lastmod>2026-07-16</lastmod>
     <changefreq>monthly</changefreq>
