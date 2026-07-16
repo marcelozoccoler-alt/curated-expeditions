@@ -148,6 +148,11 @@ const App = () => (
           <Route path="/it" element={<Incoming />} />
           <Route path="/de" element={<Incoming />} />
           {/* SEO short-URL regional landings — keep as last specific dynamic route before catch-all */}
+          {/* SEO landings — high-intent commercial pages */}
+          <Route path="/roteiro-sob-medida" element={<RoteiroSobMedida />} />
+          <Route path="/grupos-guia-brasileiro" element={<GruposGuiaBrasileiro />} />
+          <Route path="/lua-de-mel-personalizada" element={<LuaDeMelPersonalizada />} />
+          {/* SEO short-URL regional landings — keep as last specific dynamic route before catch-all */}
           <Route path="/:regionSlug" element={<Regiao />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
           <Route path="*" element={<NotFound />} />
