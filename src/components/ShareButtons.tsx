@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { Linkedin, Facebook, Link2, Check, MessageCircle } from "lucide-react";
+import { Linkedin, Facebook, Link2, Check, MessageCircle, Instagram } from "lucide-react";
 import { toast } from "@/hooks/use-toast";
 
 interface ShareButtonsProps {
@@ -36,6 +36,7 @@ export const ShareButtons = ({ url, title, summary }: ShareButtonsProps) => {
       icon: Facebook,
     },
   ];
+  void encTitle;
 
   const handleCopy = async () => {
     try {
@@ -46,6 +47,23 @@ export const ShareButtons = ({ url, title, summary }: ShareButtonsProps) => {
     } catch {
       toast({ title: "Não foi possível copiar", variant: "destructive" });
     }
+  };
+
+  const handleInstagram = async () => {
+    // Instagram não aceita URL de share via web. Copiamos o link e abrimos o app/site
+    // para o usuário colar no Story, DM ou bio.
+    try {
+      await navigator.clipboard.writeText(`${title} — ${url}`);
+      toast({
+        title: "Link copiado para o Instagram",
+        description: "Cole no seu Story, DM ou bio.",
+      });
+    } catch {
+      /* ignore */
+    }
+    const isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
+    const target = isMobile ? "instagram://app" : "https://www.instagram.com/";
+    window.open(target, "_blank", "noopener,noreferrer");
   };
 
   return (
@@ -69,6 +87,14 @@ export const ShareButtons = ({ url, title, summary }: ShareButtonsProps) => {
             </a>
           );
         })}
+        <button
+          onClick={handleInstagram}
+          aria-label="Compartilhar no Instagram (copia o link)"
+          title="Copia o link e abre o Instagram para você colar no Story, DM ou bio"
+          className="w-9 h-9 rounded-full border border-border hover:border-gold hover:text-gold text-muted-foreground flex items-center justify-center transition-colors"
+        >
+          <Instagram size={16} />
+        </button>
         <button
           onClick={handleCopy}
           aria-label="Copiar link"
