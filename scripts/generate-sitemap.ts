@@ -141,6 +141,11 @@ const GRUPOS = [
   "vietna-laos-camboja-2027",
 ];
 push("/embarque-com-a-create", 0.9, "weekly");
+
+// High-intent commercial landing pages
+push("/roteiro-sob-medida", 0.95, "weekly");
+push("/grupos-guia-brasileiro", 0.95, "weekly");
+push("/lua-de-mel-personalizada", 0.9, "weekly");
 for (const g of GRUPOS) push(`/grupos/${g}`, 0.85, "monthly");
 
 // Diário editorial
