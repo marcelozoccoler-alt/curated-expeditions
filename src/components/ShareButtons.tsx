@@ -88,6 +88,14 @@ export const ShareButtons = ({ url, title, summary }: ShareButtonsProps) => {
           );
         })}
         <button
+          onClick={handleInstagram}
+          aria-label="Compartilhar no Instagram (copia o link)"
+          title="Copia o link e abre o Instagram para você colar no Story, DM ou bio"
+          className="w-9 h-9 rounded-full border border-border hover:border-gold hover:text-gold text-muted-foreground flex items-center justify-center transition-colors"
+        >
+          <Instagram size={16} />
+        </button>
+        <button
           onClick={handleCopy}
           aria-label="Copiar link"
           className="w-9 h-9 rounded-full border border-border hover:border-gold hover:text-gold text-muted-foreground flex items-center justify-center transition-colors"
