@@ -34,9 +34,10 @@ const Index = () => {
   return (
     <div className="min-h-screen">
       <SEO
-        title="Create Travel — Curadoria de viagens com propósito"
-        description="Portal premium de curadoria de destinos e hospedagens. Experiências autênticas, exclusivas e com propósito — curadoria autoral pela Create Travel."
+        title="Create Travel — Agência de Viagens Personalizadas em SP"
+        description="Agência boutique de viagens com curadoria autoral. Roteiros personalizados para África, Europa, Ásia, Oceania e Brasil. Grupos com guia brasileiro em 2026 e 2027. Atendimento em 5 idiomas."
         canonicalPath="/"
+        keywords="agência de viagens personalizada, roteiro sob medida, viagem sob medida, grupo com guia brasileiro, agência boutique São Paulo, travel designer, curadoria de viagens"
       />
       <Header />
       <WhatsAppButton variant="float" />
@@ -69,11 +70,13 @@ const Index = () => {
           >
             <div className="gold-line mx-auto mb-8" />
             <h1 className="heading-hero text-white mb-6">
-              Eleve sua perspectiva de viagem
+              Agência de Viagens Personalizadas
             </h1>
-            <p className="text-xl md:text-2xl text-white/90 mb-10 max-w-2xl mx-auto font-light">
-              Curadoria de experiências autênticas, exclusivas e com propósito. 
-              Curadoria autoral para quem busca profundidade.
+            <p className="text-xl md:text-2xl text-white/90 mb-4 max-w-2xl mx-auto font-light">
+              Roteiros sob medida com curadoria autoral. Experiências autênticas, exclusivas e com propósito — para quem busca profundidade.
+            </p>
+            <p className="text-sm md:text-base text-white/70 mb-10 max-w-2xl mx-auto font-light italic">
+              Há 11 anos desenhando viagens do zero para África, Europa, Ásia, Oceania e Brasil.
             </p>
             <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
               <WhatsAppButton
@@ -338,6 +341,64 @@ const Index = () => {
         </div>
       </section>
 
+      {/* O que fazemos — nossos serviços */}
+      <section className="section-padding bg-background">
+        <div className="container-editorial">
+          <div className="text-center mb-14 max-w-2xl mx-auto">
+            <div className="gold-line mx-auto mb-6" />
+            <h2 className="heading-section text-foreground mb-4">O que fazemos</h2>
+            <p className="text-lg text-muted-foreground font-light">
+              Quatro caminhos para viajar com a Create Travel — todos com curadoria autoral e um travel designer dedicado.
+            </p>
+          </div>
+          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+            {[
+              {
+                to: "/roteiro-sob-medida",
+                icon: Compass,
+                title: "Roteiros Personalizados",
+                desc: "Cada viagem é desenhada do zero, ouvindo suas preferências, seu ritmo e seu estilo. Sem pacotes prontos.",
+              },
+              {
+                to: "/grupos-guia-brasileiro",
+                icon: Users,
+                title: "Grupos com Guia Brasileiro",
+                desc: `${DEPARTURES.length} saídas internacionais em 2026 e 2027 com coordenador embarcando do Brasil. Tudo em português.`,
+              },
+              {
+                to: "/lua-de-mel-personalizada",
+                icon: Heart,
+                title: "Lua de Mel Personalizada",
+                desc: "Roteiros românticos sob medida para casais que querem viver o primeiro capítulo a dois com exclusividade.",
+              },
+              {
+                to: "/brasil",
+                icon: Gem,
+                title: "Brasil para o Mundo",
+                desc: "Atendimento em 5 idiomas para viajantes que chegam curiosos e saem transformados.",
+              },
+            ].map((s) => {
+              const Icon = s.icon;
+              return (
+                <Link
+                  key={s.to}
+                  to={s.to}
+                  className="group block bg-card border border-border rounded-lg p-8 hover:border-gold hover:shadow-lg transition-all duration-300"
+                >
+                  <div className="w-12 h-12 rounded-full bg-gold/10 flex items-center justify-center mb-5 group-hover:bg-gold/20 transition-colors">
+                    <Icon className="text-gold" size={22} />
+                  </div>
+                  <h3 className="font-serif text-xl text-foreground mb-3 leading-snug">{s.title}</h3>
+                  <p className="text-sm text-muted-foreground font-light leading-relaxed mb-4">{s.desc}</p>
+                  <span className="inline-flex items-center gap-1 text-sm text-gold font-medium group-hover:gap-2 transition-all">
+                    Saber mais <ArrowRight size={14} />
+                  </span>
+                </Link>
+              );
+            })}
+          </div>
+        </div>
+      </section>
 
       {/* Final CTA */}
       <section className="section-padding bg-gradient-hero text-white">
