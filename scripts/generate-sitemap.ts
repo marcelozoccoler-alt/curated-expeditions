@@ -113,12 +113,17 @@ const GRUPOS = [
   "benelux-2026",
   "chile-carretera-austral-2026",
   "china-2026",
+  "china-primavera-2027",
   "colombia-2026",
   "coreia-japao-2026",
+  "coreia-japao-cerejeiras-2027",
   "croacia-balcas-2026",
   "egito-2026",
   "equador-galapagos-2026",
+  "equador-galapagos-carnaval-2027",
+  "europa-do-leste-turquia-2026",
   "grecia-2026",
+  "india-sri-lanka-holi-2027",
   "islandia-2026",
   "jordania-2026",
   "marrocos-2026",
@@ -149,9 +154,21 @@ for (const p of pacotes) push(`/pacote/${p.slug}`, 0.9, "monthly");
 
 // Multilingual incoming landing pages (target foreigners searching Brazil)
 const INCOMING_LANGS = ["en", "es", "it", "de"] as const;
+const INCOMING_DESTINO_SLUGS = [
+  "amazon",
+  "pantanal",
+  "lencois-maranhenses",
+  "rio-de-janeiro",
+  "bonito",
+  "iguazu",
+  "bahia",
+] as const;
 for (const lang of INCOMING_LANGS) {
   push(`/${lang}/incoming`, 0.9, "weekly");
   push(`/${lang}`, 0.85, "weekly");
+  for (const s of INCOMING_DESTINO_SLUGS) {
+    push(`/${lang}/incoming/${s}`, 0.85, "monthly");
+  }
 }
 
 // Multilingual variants of key landing pages
