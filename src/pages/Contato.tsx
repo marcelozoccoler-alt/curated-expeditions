@@ -285,12 +285,12 @@ const Contato = () => {
               Acompanhe nossa curadoria em movimento.
             </p>
             <a
-              href="https://www.instagram.com/createtravel.tur"
+              href="https://www.instagram.com/createtravel_br"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-block mt-4 text-sm tracking-[0.18em] uppercase text-foreground border-b border-gold hover:text-gold transition-colors"
             >
-              @createtravel.tur
+              @createtravel_br
             </a>
           </div>
         </section>
