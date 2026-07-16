@@ -150,7 +150,11 @@ for (const g of GRUPOS) push(`/grupos/${g}`, 0.85, "monthly");
 
 // Diário editorial
 push("/diario", 0.9, "weekly");
+for (const cat of ["cultura", "destino", "natureza", "roteiro", "curiosidades"]) {
+  push(`/diario/categoria/${cat}`, 0.7, "weekly");
+}
 for (const p of diaryPosts) push(`/diario/${p.slug}`, 0.8, "monthly");
+
 
 // Pacotes comerciais (alta intenção)
 for (const p of pacotes) push(`/pacote/${p.slug}`, 0.9, "monthly");

@@ -55,6 +55,8 @@ import CrieSeuGrupo from "./pages/CrieSeuGrupo";
 import EmbarqueComACreate from "./pages/EmbarqueComACreate";
 import Diario from "./pages/Diario";
 import DiarioPost from "./pages/DiarioPost";
+import DiarioCategoria from "./pages/DiarioCategoria";
+
 import Pacote from "./pages/Pacote";
 import Auth from "./pages/Auth";
 import AdminSeo from "./pages/AdminSeo";
@@ -130,7 +132,9 @@ const App = () => (
           <Route path="/embarque-com-a-create" element={<EmbarqueComACreate />} />
           <Route path="/:lang/embarque-com-a-create" element={<EmbarqueComACreate />} />
           <Route path="/diario" element={<Diario />} />
+          <Route path="/diario/categoria/:slug" element={<DiarioCategoria />} />
           <Route path="/diario/:slug" element={<DiarioPost />} />
+
           <Route path="/pacote/:slug" element={<Pacote />} />
           <Route path="/auth" element={<Auth />} />
           <Route path="/admin/seo" element={<AdminSeo />} />
