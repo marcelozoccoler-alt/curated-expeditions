@@ -2584,6 +2584,111 @@ export const diaryPosts: DiaryPost[] = [
     category: "Roteiro",
     whatsappName: "Cidades-estado da Ásia",
   },
+  {
+    slug: "guia-feira-de-canton-china",
+    title: "Feira de Canton 2026/2027: guia do viajante em Guangzhou",
+    h1: "Feira de Canton em Guangzhou: guia autoral para 2026 e 2027",
+    metaDescription:
+      "Guia completo da Feira de Canton (Canton Fair) em Guangzhou: fases, logística, hospedagem, vistos e como estender a viagem de negócios com um roteiro autoral pela China.",
+    keywords:
+      "feira de canton, feira de canton 2026, feira de canton 2027, canton fair, guangzhou canton china, guangzhou feira, canton fair guia, viagem guangzhou, hotel canton fair, china business travel",
+    intro:
+      "A Feira de Canton — oficialmente China Import and Export Fair — é o maior e mais antigo evento comercial da China, realizado duas vezes por ano em Guangzhou (Cantão) desde 1957. Para o comprador brasileiro, é passagem obrigatória: três fases, mais de 25 mil expositores, milhões de metros quadrados no Canton Fair Complex em Pazhou. Mas viajar para a Feira sem preparo transforma a experiência em desgaste. Este guia reúne o que a Create Travel recomenda a clientes que combinam a agenda de negócios com uma viagem autoral pela China — de Guangzhou a Xangai, Pequim, Guilin ou Hong Kong.",
+    sections: [
+      {
+        heading: "O que é a Feira de Canton e por que ela ainda importa",
+        paragraphs: [
+          "Realizada duas vezes por ano — edição de primavera em abril/maio e edição de outono em outubro/novembro — a Feira de Canton acontece no Canton Fair Complex em Pazhou, um dos maiores centros de exposição do mundo, com mais de 1,5 milhão de m² de área útil. Cada edição recebe cerca de 200 mil compradores estrangeiros de mais de 210 países.",
+          "Apesar da ascensão das plataformas digitais chinesas, a Feira segue relevante por um motivo simples: negociação presencial, verificação de amostras físicas, contato direto com fábricas e possibilidade de visitar linhas de produção em Guangdong, Zhejiang e Fujian nos dias adjacentes. Para o importador brasileiro, é também a chance de conhecer novos fornecedores fora do círculo de contatos já mapeados online.",
+        ],
+      },
+      {
+        heading: "As três fases: o que cada uma cobre",
+        paragraphs: [
+          "A Feira é dividida em três fases de cinco dias cada, com intervalo de três dias entre elas — tempo usado para desmontar e remontar estandes. Fase 1 concentra eletrônicos, eletrodomésticos, iluminação, veículos, máquinas, ferragens, materiais de construção e produtos químicos. Fase 2 reúne bens de consumo, decoração, presentes, cerâmica, vidro, móveis e utensílios domésticos. Fase 3 é têxtil, vestuário, calçados, produtos médicos, alimentos e escritório.",
+          "Para 2026 e 2027, as datas seguem o calendário histórico: primavera entre 15 de abril e 5 de maio; outono entre 15 de outubro e 4 de novembro (as datas exatas são confirmadas pela organização cerca de 60 dias antes). Compradores que atuam em mais de uma categoria costumam permanecer 8 a 12 dias para cobrir duas fases.",
+        ],
+      },
+      {
+        heading: "Credenciamento, convite de compra e visto para a China",
+        paragraphs: [
+          "O acesso à Feira exige credencial de comprador (Buyer Badge), obtida gratuitamente no portal oficial invitation.cantonfair.org.cn. Recomendamos concluir o pré-registro online com pelo menos 30 dias de antecedência e imprimir o QR code de confirmação — a retirada do crachá físico é feita no Overseas Buyer Service Center em Pazhou, mediante passaporte.",
+          "Desde 2024, brasileiros têm isenção de visto para estadas turísticas de até 30 dias na China continental. Para participação na Feira, a isenção turística é aceita na maioria dos casos, mas viajantes que pretendem visitar fábricas, assinar contratos ou permanecer mais de 30 dias devem solicitar visto M (business) no consulado chinês em São Paulo, Rio ou Brasília — o convite formal (Invitation Letter) da Feira serve como documento de apoio.",
+        ],
+      },
+      {
+        heading: "Hospedagem: onde ficar em Guangzhou durante a Feira",
+        paragraphs: [
+          "Durante a Feira, as tarifas em Guangzhou multiplicam por três a cinco vezes e a taxa de ocupação passa de 95%. Reservar com 90 a 120 dias de antecedência é a regra — deixar para 30 dias antes significa hotéis periféricos e trajetos longos.",
+          "A área mais estratégica é Pazhou, colada ao pavilhão — Langham Place Guangzhou, Shangri-La Hotel Guangzhou, Westin Pazhou e Sofitel Guangzhou Sunrich ficam a caminhada ou uma parada de metrô do Complex. Alternativa clássica é Tianhe (centro financeiro), com Four Seasons Guangzhou (dentro da IFC Tower, uma das vistas mais impressionantes da China), Ritz-Carlton Guangzhou e Mandarin Oriental — 20 a 25 minutos de metrô até Pazhou, mais opções de restaurantes e vida noturna à noite.",
+          "Para clientes premium da Create Travel, montamos combinações Pazhou + Tianhe, priorizando conforto nas fases de trabalho pesado e experiência gastronômica nos dias de descompressão.",
+        ],
+      },
+      {
+        heading: "Chegando a Guangzhou: aeroportos, trem-bala e Hong Kong como alternativa",
+        paragraphs: [
+          "Não há voo direto do Brasil para Guangzhou. As melhores conexões saem de São Paulo via Doha (Qatar Airways), Dubai (Emirates), Istambul (Turkish Airlines) ou Adis Abeba (Ethiopian) — 22 a 26 horas de viagem total. O aeroporto internacional de Baiyun (CAN) fica 40 minutos do centro por metrô ou 30 por táxi.",
+          "Uma alternativa cada vez mais usada é chegar por Hong Kong (HKG) e seguir para Guangzhou de trem-bala: o Guangzhou-Shenzhen-Hong Kong High-Speed Rail (linha Vibrant Express) liga West Kowloon a Guangzhou South em 48 minutos, com controle de imigração feito ainda em Hong Kong. É a rota mais confortável para quem quer combinar 2 ou 3 noites em Hong Kong antes ou depois da Feira.",
+        ],
+      },
+      {
+        heading: "Dia típico na Feira: logística, tradução e como não se perder",
+        paragraphs: [
+          "O pavilhão abre às 9h30 e fecha às 18h. Chegar antes das 10h evita filas no metrô (linhas 8 e APM param direto no Canton Fair Complex). Cada área do pavilhão (A, B, C, D) tem entradas próprias — estudar o mapa antes economiza horas.",
+          "Cartões de visita ainda são essenciais: leve 300 a 500 por viagem, idealmente com versão em inglês e mandarim (WeChat QR code é bem-vindo). A maioria dos expositores fala inglês básico; para negociações complexas, contratar intérprete freelance (RMB 800 a 1.500/dia via plataformas como HelloGuangzhou) faz diferença.",
+          "Leve sapatos confortáveis — em cada fase, um comprador ativo caminha entre 12 e 18 km por dia dentro do pavilhão. Água e snacks são caros lá dentro; food courts oferecem opções chinesas e ocidentais razoáveis.",
+        ],
+      },
+      {
+        heading: "Extensões autorais: como transformar a viagem de negócios em roteiro completo",
+        paragraphs: [
+          "Guangzhou fica no delta do Rio das Pérolas, uma das regiões mais ricas gastronomicamente da China — berço da cozinha cantonesa, dim sum e pato assado estilo Cantão. Vale reservar dois dias após a Feira para conhecer o Bairro Antigo de Liwan, a Ilha de Shamian (concessão europeia do século XIX), o Templo dos Ancestrais Chen e jantar em restaurantes históricos como Bing Sheng ou Panxi.",
+          "Extensões clássicas que a Create Travel monta a partir de Guangzhou: Hong Kong + Macau (3 a 4 noites de skyline, dim sum e patrimônio português), Guilin e Yangshuo (paisagens de montanhas cársticas ao longo do Rio Li — 4 dias), Xangai (trem-bala de 7 horas ou voo de 2h30 — 3 a 4 noites entre The Bund, Concessão Francesa e jardins de Suzhou), Pequim (voo de 3h — Cidade Proibida, Muralha em Mutianyu, Templo do Céu — 4 noites) ou uma imersão na China contemporânea com Chengdu e os pandas gigantes de Bifengxia.",
+          "Para grupos empresariais, montamos programas privativos com carro e guia bilíngue português, jantares curados e reservas em hotéis 5 estrelas — permitindo que a viagem de negócios pague-se em experiência.",
+        ],
+      },
+      {
+        heading: "Checklist prático para a Feira de Canton",
+        paragraphs: [
+          "Passaporte com validade mínima de 6 meses e duas páginas em branco. Pré-registro online concluído e QR code impresso. Reserva de hotel confirmada com 90+ dias. Cartões de visita bilíngues. WeChat instalado e testado (Alipay e WeChat Pay dominam os pagamentos — cartões internacionais funcionam nos grandes hotéis, mas praticamente nada mais). VPN instalada antes de embarcar se precisar de Google, WhatsApp, Instagram e Gmail — no China continental esses serviços são bloqueados.",
+          "Leve um adaptador universal (tomada tipo A/C/I é comum), roupa formal para reuniões e roupa confortável para o pavilhão, guarda-chuva compacto (Guangzhou tem chuvas rápidas em abril/outubro) e um cartão SIM chinês (China Mobile no aeroporto) ou eSIM ativado antes de chegar.",
+        ],
+      },
+    ],
+    faq: [
+      {
+        q: "Quando será a Feira de Canton 2026 e 2027?",
+        a: "A edição de primavera acontece tradicionalmente entre 15 de abril e 5 de maio, dividida em três fases de cinco dias cada. A edição de outono ocorre entre 15 de outubro e 4 de novembro. As datas exatas de 2026 e 2027 são confirmadas pela organização cerca de 60 dias antes do evento — acompanhe cantonfair.org.cn ou peça atualização à Create Travel.",
+      },
+      {
+        q: "Preciso de visto para participar da Feira de Canton?",
+        a: "Brasileiros têm isenção de visto para até 30 dias na China desde 2024, e a maioria dos participantes da Feira usa essa modalidade. Se pretende visitar fábricas, assinar contratos formais ou ficar mais de 30 dias, recomendamos solicitar visto M (business) usando a Invitation Letter da Feira como documento de apoio.",
+      },
+      {
+        q: "Quanto antes devo reservar hotel em Guangzhou?",
+        a: "No mínimo 90 dias antes, idealmente 120 a 150. Durante a Feira, a ocupação passa de 95% em toda Guangzhou e as tarifas triplicam. Hotéis em Pazhou (colados ao pavilhão) e Tianhe (centro financeiro) esgotam primeiro.",
+      },
+      {
+        q: "Vale a pena combinar a Feira com uma viagem turística pela China?",
+        a: "Muito. Você já está do outro lado do mundo — estender a viagem para Hong Kong, Xangai, Pequim ou Guilin transforma o custo da passagem em experiência. A Create Travel monta roteiros autorais privativos que integram os dias da Feira com extensões culturais, gastronômicas e de natureza pela China e Sudeste Asiático.",
+      },
+      {
+        q: "Como funcionam os pagamentos e a comunicação em Guangzhou?",
+        a: "Alipay e WeChat Pay dominam — instale antes de embarcar e vincule cartão internacional (ambos aceitam Visa e Master de bancos estrangeiros desde 2023). Cartões físicos funcionam apenas em hotéis 5 estrelas e grandes restaurantes. Para internet, instale VPN antes de chegar (Google, WhatsApp, Instagram e Gmail são bloqueados) e considere eSIM internacional ou SIM chinês no aeroporto.",
+      },
+    ],
+    relatedDestinations: [
+      { label: "China — Pequim, Xangai e Guilin", href: "/destinos/asia/china" },
+      { label: "Hong Kong — skyline e dim sum", href: "/destinos/asia/hong-kong" },
+      { label: "Grupo China 2026 com guia brasileiro", href: "/grupos/china-2026" },
+    ],
+    imageAiPrompt:
+      "Editorial photograph of the Canton Fair Complex in Pazhou, Guangzhou, at dusk: massive modern exhibition halls, illuminated glass facades, business travelers walking with badges, Guangzhou skyline with Canton Tower in the background, cinematic warm lighting.",
+    publishedAt: "2026-07-16",
+    readingMinutes: 12,
+    category: "Roteiro",
+    whatsappName: "Feira de Canton — Guangzhou",
+  },
 ];
 
 
