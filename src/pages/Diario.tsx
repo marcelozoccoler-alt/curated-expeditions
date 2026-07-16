@@ -6,6 +6,7 @@ import { SEO } from "@/components/SEO";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
 import { WhatsAppButton } from "@/components/WhatsAppButton";
 import { diaryPosts } from "@/lib/diaryPosts";
+import { DIARY_CATEGORIES, getDiaryCover } from "@/lib/diaryImages";
 import { CONTACT } from "@/lib/types";
 
 const Diario = () => {
@@ -47,33 +48,66 @@ const Diario = () => {
         <Breadcrumbs items={[{ label: "Início", href: "/" }, { label: "Diário" }]} />
       </div>
 
+      {/* Category chips */}
+      <div className="container-editorial pt-4">
+        <div className="flex flex-wrap gap-2" role="navigation" aria-label="Categorias do Diário">
+          <span className="px-4 py-1.5 rounded-full text-xs font-semibold bg-gold border border-gold text-white">
+            Todos
+          </span>
+          {DIARY_CATEGORIES.map((c) => (
+            <Link
+              key={c.slug}
+              to={`/diario/categoria/${c.slug}`}
+              className="px-4 py-1.5 rounded-full text-xs font-semibold border border-border text-muted-foreground hover:border-gold hover:text-gold transition-colors"
+            >
+              {c.label}
+            </Link>
+          ))}
+        </div>
+      </div>
+
       <section className="section-padding">
         <div className="container-editorial">
           <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
-            {diaryPosts.map((post, i) => (
-              <motion.div
-                key={post.slug}
-                initial={{ opacity: 0, y: 16 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                viewport={{ once: true }}
-                transition={{ delay: (i % 6) * 0.05 }}
-              >
-                <Link
-                  to={`/diario/${post.slug}`}
-                  className="group block h-full bg-card border border-border rounded-xl p-6 hover:border-gold hover:shadow-card transition-all"
+            {diaryPosts.map((post, i) => {
+              const cover = getDiaryCover(post);
+              return (
+                <motion.div
+                  key={post.slug}
+                  initial={{ opacity: 0, y: 16 }}
+                  whileInView={{ opacity: 1, y: 0 }}
+                  viewport={{ once: true }}
+                  transition={{ delay: (i % 6) * 0.05 }}
                 >
-                  <div className="text-xs font-semibold text-gold tracking-wider mb-3">
-                    {post.category.toUpperCase()} · {post.readingMinutes} MIN
-                  </div>
-                  <h2 className="text-xl font-serif font-semibold text-foreground mb-3 group-hover:text-gold transition-colors">
-                    {post.h1}
-                  </h2>
-                  <p className="text-[15px] text-muted-foreground leading-relaxed line-clamp-4">
-                    {post.intro}
-                  </p>
-                </Link>
-              </motion.div>
-            ))}
+                  <Link
+                    to={`/diario/${post.slug}`}
+                    className="group block h-full bg-card border border-border rounded-xl overflow-hidden hover:border-gold hover:shadow-card transition-all"
+                  >
+                    {cover && (
+                      <div className="aspect-[16/10] overflow-hidden">
+                        <img
+                          src={cover}
+                          alt={post.h1}
+                          loading="lazy"
+                          className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
+                        />
+                      </div>
+                    )}
+                    <div className="p-6">
+                      <div className="text-xs font-semibold text-gold tracking-wider mb-3">
+                        {post.category.toUpperCase()} · {post.readingMinutes} MIN
+                      </div>
+                      <h2 className="text-xl font-serif font-semibold text-foreground mb-3 group-hover:text-gold transition-colors">
+                        {post.h1}
+                      </h2>
+                      <p className="text-[15px] text-muted-foreground leading-relaxed line-clamp-3">
+                        {post.intro}
+                      </p>
+                    </div>
+                  </Link>
+                </motion.div>
+              );
+            })}
           </div>
         </div>
       </section>
