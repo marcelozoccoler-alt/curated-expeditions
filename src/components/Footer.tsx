@@ -27,7 +27,7 @@ export const Footer = () => {
             </p>
             <div className="flex items-center gap-4">
               <a
-                href="https://www.instagram.com/createtravel.tur"
+                href="https://www.instagram.com/createtravel_br"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-primary-foreground/70 hover:text-gold transition-colors"
