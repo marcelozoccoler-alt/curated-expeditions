@@ -34,9 +34,10 @@ const Index = () => {
   return (
     <div className="min-h-screen">
       <SEO
-        title="Create Travel — Curadoria de viagens com propósito"
-        description="Portal premium de curadoria de destinos e hospedagens. Experiências autênticas, exclusivas e com propósito — curadoria autoral pela Create Travel."
+        title="Create Travel — Agência de Viagens Personalizadas em SP"
+        description="Agência boutique de viagens com curadoria autoral. Roteiros personalizados para África, Europa, Ásia, Oceania e Brasil. Grupos com guia brasileiro em 2026 e 2027. Atendimento em 5 idiomas."
         canonicalPath="/"
+        keywords="agência de viagens personalizada, roteiro sob medida, viagem sob medida, grupo com guia brasileiro, agência boutique São Paulo, travel designer, curadoria de viagens"
       />
       <Header />
       <WhatsAppButton variant="float" />
