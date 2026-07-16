@@ -70,11 +70,13 @@ const Index = () => {
           >
             <div className="gold-line mx-auto mb-8" />
             <h1 className="heading-hero text-white mb-6">
-              Eleve sua perspectiva de viagem
+              Agência de Viagens Personalizadas
             </h1>
-            <p className="text-xl md:text-2xl text-white/90 mb-10 max-w-2xl mx-auto font-light">
-              Curadoria de experiências autênticas, exclusivas e com propósito. 
-              Curadoria autoral para quem busca profundidade.
+            <p className="text-xl md:text-2xl text-white/90 mb-4 max-w-2xl mx-auto font-light">
+              Roteiros sob medida com curadoria autoral. Experiências autênticas, exclusivas e com propósito — para quem busca profundidade.
+            </p>
+            <p className="text-sm md:text-base text-white/70 mb-10 max-w-2xl mx-auto font-light italic">
+              Há 11 anos desenhando viagens do zero para África, Europa, Ásia, Oceania e Brasil.
             </p>
             <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
               <WhatsAppButton
