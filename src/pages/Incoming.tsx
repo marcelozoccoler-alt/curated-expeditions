@@ -239,37 +239,57 @@ const Incoming = () => {
           </div>
 
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
-            {INCOMING_DESTINATIONS.map((d, i) => (
-              <motion.article
-                key={d.slug}
-                initial={{ opacity: 0, y: 20 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                viewport={{ once: true, margin: "-50px" }}
-                transition={{ duration: 0.5, delay: i * 0.05 }}
-                className="group rounded-lg overflow-hidden bg-card shadow-sm hover:shadow-xl transition-shadow"
-              >
-                <div className="aspect-[4/5] overflow-hidden">
-                  <img
-                    src={d.image}
-                    alt={d.name[cLang]}
-                    loading="lazy"
-                    className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700"
-                  />
-                </div>
-                <div className="p-5">
-                  <div className="flex items-center gap-1 text-xs text-gold uppercase tracking-wider mb-2">
-                    <MapPin size={12} />
-                    <span>Brasil</span>
-                  </div>
-                  <h3 className="font-serif text-xl mb-2 text-foreground">
-                    {d.name[cLang]}
-                  </h3>
-                  <p className="text-sm text-muted-foreground leading-relaxed">
-                    {d.blurb[cLang]}
-                  </p>
-                </div>
-              </motion.article>
-            ))}
+            {INCOMING_DESTINATIONS.map((d, i) => {
+              const hasDetail = [
+                "amazon",
+                "pantanal",
+                "lencois-maranhenses",
+                "rio-de-janeiro",
+                "bonito",
+                "iguazu",
+                "bahia",
+              ].includes(d.slug);
+              const CardWrapper: React.ElementType = hasDetail ? Link : "div";
+              const wrapperProps = hasDetail
+                ? { to: `/${lang}/incoming/${d.slug}` }
+                : {};
+              return (
+                <motion.article
+                  key={d.slug}
+                  initial={{ opacity: 0, y: 20 }}
+                  whileInView={{ opacity: 1, y: 0 }}
+                  viewport={{ once: true, margin: "-50px" }}
+                  transition={{ duration: 0.5, delay: i * 0.05 }}
+                  className="group rounded-lg overflow-hidden bg-card shadow-sm hover:shadow-xl transition-shadow"
+                >
+                  <CardWrapper
+                    {...wrapperProps}
+                    className={hasDetail ? "block h-full" : "block h-full"}
+                  >
+                    <div className="aspect-[4/5] overflow-hidden">
+                      <img
+                        src={d.image}
+                        alt={d.name[cLang]}
+                        loading="lazy"
+                        className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700"
+                      />
+                    </div>
+                    <div className="p-5">
+                      <div className="flex items-center gap-1 text-xs text-gold uppercase tracking-wider mb-2">
+                        <MapPin size={12} />
+                        <span>Brasil</span>
+                      </div>
+                      <h3 className="font-serif text-xl mb-2 text-foreground">
+                        {d.name[cLang]}
+                      </h3>
+                      <p className="text-sm text-muted-foreground leading-relaxed">
+                        {d.blurb[cLang]}
+                      </p>
+                    </div>
+                  </CardWrapper>
+                </motion.article>
+              );
+            })}
           </div>
         </div>
       </section>

@@ -48,6 +48,7 @@ import GrupoChinaPrimavera2027 from "./pages/GrupoChinaPrimavera2027";
 import BrasilEstados from "./pages/BrasilEstados";
 import BrasilEstado from "./pages/BrasilEstado";
 import Incoming from "./pages/Incoming";
+import IncomingDestino from "./pages/IncomingDestino";
 import BrasilVivo from "./pages/BrasilVivo";
 import BrasilAventura from "./pages/BrasilAventura";
 import CrieSeuGrupo from "./pages/CrieSeuGrupo";
@@ -138,6 +139,7 @@ const App = () => (
           <Route path="/brasil/:estadoSlug" element={<BrasilEstado />} />
           {/* Multilingual incoming landing pages */}
           <Route path="/:lang/incoming" element={<Incoming />} />
+          <Route path="/:lang/incoming/:slug" element={<IncomingDestino />} />
           <Route path="/en" element={<Incoming />} />
           <Route path="/es" element={<Incoming />} />
           <Route path="/it" element={<Incoming />} />
