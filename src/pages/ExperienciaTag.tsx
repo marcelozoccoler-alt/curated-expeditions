@@ -425,7 +425,7 @@ const ExperienciaTag = () => {
         return (
           <section className="section-padding bg-muted">
             <div className="container-editorial">
-              <p className="text-caption text-gold mb-3">Do Diário Create Travel</p>
+              <p className="text-caption text-gold mb-3">Do Blog Create Travel</p>
               <h2 className="heading-section mb-8">
                 Leituras inspiradoras sobre {tag.label.toLowerCase()}
               </h2>

@@ -405,19 +405,19 @@ const Index = () => {
         </div>
       </section>
 
-      {/* Últimos do Diário */}
+      {/* Últimos do Blog */}
       <section className="section-padding bg-muted">
         <div className="container-editorial">
           <div className="flex items-end justify-between mb-12">
             <div>
-              <p className="text-caption text-gold mb-4">Diário Create Travel</p>
+              <p className="text-caption text-gold mb-4">Blog Create Travel</p>
               <h2 className="heading-section text-foreground">Últimas leituras</h2>
             </div>
             <Link
               to="/diario"
               className="hidden md:flex items-center gap-2 text-gold hover:text-gold-light transition-colors font-medium"
             >
-              Ver todo o Diário
+              Ver todo o Blog
               <ArrowRight size={18} />
             </Link>
           </div>
@@ -456,7 +456,7 @@ const Index = () => {
 
           <div className="mt-8 text-center md:hidden">
             <Link to="/diario" className="inline-flex items-center gap-2 text-gold font-medium">
-              Ver todo o Diário <ArrowRight size={18} />
+              Ver todo o Blog <ArrowRight size={18} />
             </Link>
           </div>
         </div>

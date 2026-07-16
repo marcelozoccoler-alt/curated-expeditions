@@ -36,7 +36,7 @@ const Diario = () => {
       <section className="pt-32 pb-12 bg-gradient-hero text-white">
         <div className="container-editorial text-center">
           <div className="gold-line mx-auto mb-6" />
-          <p className="text-caption text-gold mb-3">Diário Create Travel</p>
+          <p className="text-caption text-gold mb-3">Blog Create Travel</p>
           <h1 className="heading-hero mb-5">Conteúdo autoral para quem viaja com propósito</h1>
           <p className="text-lg text-white/85 max-w-2xl mx-auto font-light">
             Guias profundos, curiosidades e leituras inspiradoras sobre os destinos que curamos pessoalmente.
@@ -45,12 +45,12 @@ const Diario = () => {
       </section>
 
       <div className="container-editorial pt-6">
-        <Breadcrumbs items={[{ label: "Início", href: "/" }, { label: "Diário" }]} />
+        <Breadcrumbs items={[{ label: "Início", href: "/" }, { label: "Blog" }]} />
       </div>
 
       {/* Category chips */}
       <div className="container-editorial pt-4">
-        <div className="flex flex-wrap gap-2" role="navigation" aria-label="Categorias do Diário">
+        <div className="flex flex-wrap gap-2" role="navigation" aria-label="Categorias do Blog">
           <span className="px-4 py-1.5 rounded-full text-xs font-semibold bg-gold border border-gold text-white">
             Todos
           </span>

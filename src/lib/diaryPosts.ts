@@ -897,7 +897,7 @@ export const diaryPosts: DiaryPost[] = [
       },
     ],
     relatedDestinations: [
-      { label: "Diário: Aurora boreal no Canadá", href: "/diario/aurora-boreal-canada-como-ver" },
+      { label: "Blog: Aurora boreal no Canadá", href: "/diario/aurora-boreal-canada-como-ver" },
     ],
     imageAiPrompt:
       "Frozen Siberian village in winter, wooden houses covered in snow, icy fog, soft pink dawn light, painterly editorial composition, ultra detailed",
@@ -1429,7 +1429,7 @@ export const diaryPosts: DiaryPost[] = [
     ],
     relatedDestinations: [
       { label: "Brasil — Mato Grosso", href: "/brasil/mato-grosso" },
-      { label: "Diário: Pantanal Norte e Nobres", href: "/diario/pantanal-norte-e-nobres-guia" },
+      { label: "Blog: Pantanal Norte e Nobres", href: "/diario/pantanal-norte-e-nobres-guia" },
     ],
     imageAiPrompt:
       "Editorial wide view of Véu de Noiva waterfall Chapada dos Guimarães Brazil, tall waterfall plunging into red canyon at golden hour, painterly cinematic, no people, ultra detailed",
@@ -1480,7 +1480,7 @@ export const diaryPosts: DiaryPost[] = [
     ],
     relatedDestinations: [
       { label: "Brasil — Mato Grosso", href: "/brasil/mato-grosso" },
-      { label: "Diário: Pantanal e Bonito", href: "/diario/pantanal-e-bonito-guia-de-viagem" },
+      { label: "Blog: Pantanal e Bonito", href: "/diario/pantanal-e-bonito-guia-de-viagem" },
     ],
     imageAiPrompt:
       "Editorial photograph of jaguar on Cuiaba river bank in Pantanal Norte, golden hour light, tropical wetland background, painterly cinematic, no people, ultra detailed",
@@ -1537,7 +1537,7 @@ export const diaryPosts: DiaryPost[] = [
     ],
     relatedDestinations: [
       { label: "Brasil — Pará", href: "/brasil/para" },
-      { label: "Diário: Amazônia — guia completo", href: "/diario/amazonia-guia-completo-de-viagem" },
+      { label: "Blog: Amazônia — guia completo", href: "/diario/amazonia-guia-completo-de-viagem" },
     ],
     imageAiPrompt:
       "Editorial photograph of Alter do Chão Brazil at golden hour, white sand beach extending into turquoise Tapajós river with Amazon forest backdrop, painterly cinematic, no people, ultra detailed",
@@ -2023,7 +2023,7 @@ export const diaryPosts: DiaryPost[] = [
     ],
     relatedDestinations: [
       { label: "Destinos na Europa", href: "/destinos?c=europa" },
-      { label: "Diário Create Travel", href: "/diario" },
+      { label: "Blog Create Travel", href: "/diario" },
     ],
     imageAiPrompt:
       "Editorial cinematic landscape of the Albanian Riviera at golden hour, turquoise Ionian Sea bay seen from a cliffside road, white-stone village perched above with terracotta roofs, distant Albanian Alps on the horizon, painterly warm light, magazine cover quality, no people in foreground, ultra detailed, no text no logos",

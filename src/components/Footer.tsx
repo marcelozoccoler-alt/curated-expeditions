@@ -100,10 +100,10 @@ export const Footer = () => {
             </ul>
           </div>
 
-          {/* Diário */}
+          {/* Blog */}
           <div className="space-y-4">
             <h4 className="text-sm font-semibold uppercase tracking-wider text-gold">
-              Diário
+              Blog
             </h4>
             <ul className="space-y-2">
               {topPosts.map((p) => (

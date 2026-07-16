@@ -562,7 +562,7 @@ const DestinoDetail = () => {
       {relatedDiary.length > 0 && (
         <section className="section-padding">
           <div className="container-editorial">
-            <p className="text-caption text-gold mb-3">Do Diário Create Travel</p>
+            <p className="text-caption text-gold mb-3">Do Blog Create Travel</p>
             <h2 className="heading-section mb-8">
               Leituras para se aprofundar em {destination.name}
             </h2>
@@ -584,7 +584,7 @@ const DestinoDetail = () => {
             </div>
             <div className="mt-6">
               <Link to="/diario" className="text-sm font-medium text-gold hover:text-gold-light inline-flex items-center gap-2">
-                Ver todo o Diário <ArrowRight size={14} />
+                Ver todo o Blog <ArrowRight size={14} />
               </Link>
             </div>
           </div>

@@ -68,7 +68,7 @@ export const Header = () => {
           ...primaryNavItems,
           ...brasilSubItems,
           ...gruposSubItems,
-          { label: "Diário", href: "/diario" },
+          { label: "Blog", href: "/diario" },
           { label: t("nav.contato"), href: "/contato" },
         ]
       : [...primaryNavItems, ...brasilSubItems];
@@ -222,7 +222,7 @@ export const Header = () => {
               </div>
             )}
 
-            {/* Diário & Contato — same style as other primary links */}
+            {/* Blog & Contato — same style as other primary links */}
             {lang === "pt" && (
               <>
                 <Link
@@ -233,7 +233,7 @@ export const Header = () => {
                     location.pathname.startsWith("/diario") ? "text-gold" : ""
                   }`}
                 >
-                  Diário
+                  Blog
                 </Link>
                 <Link
                   to="/contato"
