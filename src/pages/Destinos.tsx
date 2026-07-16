@@ -266,10 +266,12 @@ const Destinos = () => {
               className="absolute left-4 top-1/2 -translate-y-1/2 text-muted-foreground"
             />
             <input
+              id="search-destinations"
               type="text"
               value={queryInput}
               onChange={(e) => setQueryInput(e.target.value)}
               placeholder="Buscar por nome, país ou região…"
+              aria-label="Buscar destinos"
               className="w-full pl-11 pr-10 py-3 rounded-full border border-border bg-background text-foreground placeholder:text-muted-foreground focus:outline-none focus:ring-2 focus:ring-primary/40"
             />
             {queryInput && (
@@ -334,11 +336,11 @@ const Destinos = () => {
 
             <div className="flex items-center gap-4">
               <div className="flex items-center gap-2">
-                <label className="text-sm text-muted-foreground hidden md:inline">
+                <label htmlFor="sort-destinations" className="text-sm text-muted-foreground hidden md:inline">
                   Ordenar por
                 </label>
                 <Select value={sort} onValueChange={(v) => setSort(v as SortKey)}>
-                  <SelectTrigger className="w-[220px]">
+                  <SelectTrigger id="sort-destinations" aria-label="Ordenar por" className="w-[220px]">
                     <SelectValue />
                   </SelectTrigger>
                   <SelectContent>
