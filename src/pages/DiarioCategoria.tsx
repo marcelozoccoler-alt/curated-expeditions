@@ -47,7 +47,7 @@ const DiarioCategoria = () => {
       <section className="pt-32 pb-10 bg-gradient-hero text-white">
         <div className="container-editorial text-center">
           <div className="gold-line mx-auto mb-6" />
-          <p className="text-caption text-gold mb-3">Diário Create Travel</p>
+          <p className="text-caption text-gold mb-3">Blog Create Travel</p>
           <h1 className="heading-hero mb-4">{cat.label}</h1>
           <p className="text-lg text-white/85 max-w-2xl mx-auto font-light">
             {posts.length} {posts.length === 1 ? "artigo" : "artigos"} selecionados
@@ -59,7 +59,7 @@ const DiarioCategoria = () => {
         <Breadcrumbs
           items={[
             { label: "Início", href: "/" },
-            { label: "Diário", href: "/diario" },
+            { label: "Blog", href: "/diario" },
             { label: cat.label },
           ]}
         />

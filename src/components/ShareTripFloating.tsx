@@ -30,7 +30,7 @@ export const ShareTripFloating = () => {
     const cleanTitle = pageTitle.split("|")[0].trim();
 
     const intro = isDiarioPost
-      ? "Achei essa leitura incrível no Diário da Create Travel:"
+      ? "Achei essa leitura incrível no Blog da Create Travel:"
       : "Olha que viagem incrível encontrei na Create Travel:";
     const message = `${intro}\n\n*${cleanTitle}*\n\n${url}`;
 

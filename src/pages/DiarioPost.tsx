@@ -77,7 +77,7 @@ const DiarioPost = () => {
           <Breadcrumbs
             items={[
               { label: "Início", href: "/" },
-              { label: "Diário", href: "/diario" },
+              { label: "Blog", href: "/diario" },
               { label: post.h1 },
             ]}
           />
