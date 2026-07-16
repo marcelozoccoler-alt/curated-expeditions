@@ -59,6 +59,9 @@ import Pacote from "./pages/Pacote";
 import Auth from "./pages/Auth";
 import AdminSeo from "./pages/AdminSeo";
 import Guia, { GuiasIndex } from "./pages/Guia";
+import RoteiroSobMedida from "./pages/RoteiroSobMedida";
+import GruposGuiaBrasileiro from "./pages/GruposGuiaBrasileiro";
+import LuaDeMelPersonalizada from "./pages/LuaDeMelPersonalizada";
 
 
 import ScrollToTop from "./components/ScrollToTop";
