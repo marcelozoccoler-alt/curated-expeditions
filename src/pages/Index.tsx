@@ -49,6 +49,8 @@ const Index = () => {
             <img
               src={heroAmazon}
               alt="Paisagem amazônica ao amanhecer"
+              width={1920}
+              height={1088}
               className="w-full h-full object-cover"
               loading="eager"
               fetchPriority="high"
