@@ -20,6 +20,9 @@ import { SEO } from "@/components/SEO";
 import { TAGS } from "@/lib/types";
 import { getFeaturedDestinations } from "@/lib/destinations";
 import { getFeaturedStays } from "@/lib/stays";
+import { diaryPosts } from "@/lib/diaryPosts";
+import { getDiaryCover } from "@/lib/diaryImages";
+
 import { DEPARTURES } from "@/pages/EmbarqueComACreate";
 import heroAmazon from "@/assets/hero-amazon.jpg";
 import heroAmazonWebp from "@/assets/hero-amazon.webp";
@@ -30,6 +33,8 @@ const MONTHS_SHORT_PT = ["jan", "fev", "mar", "abr", "mai", "jun", "jul", "ago",
 const Index = () => {
   const featuredDestinations = getFeaturedDestinations();
   const featuredStays = getFeaturedStays();
+  const latestDiary = diaryPosts.slice(0, 3);
+
 
   return (
     <div className="min-h-screen">
