@@ -284,7 +284,7 @@ const RAW_DEPARTURES = [
     title: "Europa do Leste & Turquia",
     subtitle: "Budapeste · Viena · Praga · Istambul",
     desc: "Grupo exclusivo de até 12 pessoas por quatro capitais icónicas: cruzeiro pelo Danúbio, concerto clássico em Schönbrunn, jantar medieval em Praga e o encontro entre Europa e Ásia. Voos Turkish Airlines.",
-    fromPrice: "A partir de R$ 23.850 por pessoa (apto duplo)",
+    fromPrice: "A partir de R$ 24.935 por pessoa (apto duplo)",
     status: "Saída confirmada",
   },
   {

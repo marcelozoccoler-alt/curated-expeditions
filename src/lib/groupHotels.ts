@@ -113,7 +113,7 @@ const HOTEL_URLS: Record<string, string> = {
   "Harmony Saigon": "https://www.harmonysaigonhotel.com",
   "Hotel Medos": "https://medoshotel.hu/",
   "ibis Wien Mariahilf": "https://all.accor.com/hotel/0796/index.en.shtml",
-  "Hotel Fleur De Lis": "https://www.fleurdelis-hotel.com/",
+  "Hotel Taurus": "https://www.hoteltaurus.cz/",
   "Hotel Galata Times": "https://www.galatatimes.com/",
 };
 

@@ -117,7 +117,7 @@ const itinerary = [
     title: "Viena → Praga",
     points: [
       "Trem econômico Viena → Praga",
-      "Check-in Hotel Fleur De Lis",
+      "Check-in Hotel Taurus",
       "Tarde livre na cidade dos cem campanários",
     ],
   },
@@ -215,7 +215,7 @@ const faqs = [
   },
   {
     q: "Qual a base de hospedagem?",
-    a: "Hotéis 3 estrelas (ou similares) com café da manhã incluído: Budapeste (Hotel Medos), Viena (ibis Wien Mariahilf), Praga (Hotel Fleur De Lis) e Istambul (Hotel Galata Times). Sempre em quartos standard.",
+    a: "Hotéis 3 estrelas (ou similares) com café da manhã incluído: Budapeste (Hotel Medos), Viena (ibis Wien Mariahilf), Praga (Hotel Taurus) e Istambul (Hotel Galata Times). Sempre em quartos standard.",
   },
   {
     q: "Qual o perfil do grupo?",
@@ -226,7 +226,7 @@ const faqs = [
 const hotelsForSeo = [
   { city: "Budapeste", hotel: "Hotel Medos" },
   { city: "Viena", hotel: "ibis Wien Mariahilf" },
-  { city: "Praga", hotel: "Hotel Fleur De Lis" },
+  { city: "Praga", hotel: "Hotel Taurus" },
   { city: "Istambul", hotel: "Hotel Galata Times" },
 ];
 const hotelsSeoJsonLd = buildHotelsJsonLd(hotelsForSeo, "Grupo Europa do Leste & Turquia 2026 — Budapeste, Viena, Praga e Istambul — Create Travel", "/grupos/europa-do-leste-turquia-2026");
@@ -248,7 +248,7 @@ const jsonLd = {
   })),
   offers: {
     "@type": "Offer",
-    price: "23850.00",
+    price: "24935.00",
     priceCurrency: "BRL",
     availability: "https://schema.org/LimitedAvailability",
     validThrough: "2026-10-02",
@@ -267,7 +267,7 @@ const GrupoEuropaLesteTurquia2026 = () => {
     <div className="min-h-screen">
       <SEO
         title="Grupo Europa do Leste & Turquia 2026 · Budapeste, Viena, Praga e Istambul | Create Travel"
-        description="15 dias por Budapeste, Viena, Praga e Istambul em grupo exclusivo de até 12 pessoas. Saída 02/10/2026 pela Turkish Airlines, cruzeiro pelo Danúbio, concerto em Schönbrunn e jantar medieval em Praga. R$ 23.850 + entrada 25% + 10x sem juros."
+        description="15 dias por Budapeste, Viena, Praga e Istambul em grupo exclusivo de até 12 pessoas. Saída 02/10/2026 pela Turkish Airlines, cruzeiro pelo Danúbio, concerto em Schönbrunn e jantar medieval em Praga. R$ 24.935 + entrada 25% + 10x sem juros."
         canonicalPath="/grupos/europa-do-leste-turquia-2026"
         ogImage={heroImg}
         ogType="article"
@@ -555,7 +555,7 @@ const GrupoEuropaLesteTurquia2026 = () => {
         <div className="container-editorial max-w-4xl text-center">
           <p className="text-caption text-gold mb-4">Investimento</p>
           <h2 className="heading-section mb-6">
-            R$ 23.850 por pessoa
+            R$ 24.935 por pessoa
           </h2>
           <p className="text-white/85 mb-8">
             Em apartamento duplo ou compartilhado. Suplemento single de
@@ -569,7 +569,7 @@ const GrupoEuropaLesteTurquia2026 = () => {
               <p className="text-xs uppercase tracking-wider text-gold mb-2">
                 Apto duplo / compartilhado
               </p>
-              <p className="font-serif text-2xl font-semibold">R$ 23.850</p>
+              <p className="font-serif text-2xl font-semibold">R$ 24.935</p>
               <p className="text-white/70 text-xs mt-1">por pessoa</p>
             </div>
             <div className="bg-white/10 border border-white/20 rounded-xl p-6">
