@@ -117,7 +117,7 @@ const itinerary = [
     title: "Viena → Praga",
     points: [
       "Trem econômico Viena → Praga",
-      "Check-in Hotel Tauros",
+      "Check-in Hotel Taurus",
       "Tarde livre na cidade dos cem campanários",
     ],
   },
@@ -215,7 +215,7 @@ const faqs = [
   },
   {
     q: "Qual a base de hospedagem?",
-    a: "Hotéis 3 estrelas (ou similares) com café da manhã incluído: Budapeste (Hotel Medos), Viena (ibis Wien Mariahilf), Praga (Hotel Tauros) e Istambul (Hotel Galata Times). Sempre em quartos standard.",
+    a: "Hotéis 3 estrelas (ou similares) com café da manhã incluído: Budapeste (Hotel Medos), Viena (ibis Wien Mariahilf), Praga (Hotel Taurus) e Istambul (Hotel Galata Times). Sempre em quartos standard.",
   },
   {
     q: "Qual o perfil do grupo?",
@@ -226,7 +226,7 @@ const faqs = [
 const hotelsForSeo = [
   { city: "Budapeste", hotel: "Hotel Medos" },
   { city: "Viena", hotel: "ibis Wien Mariahilf" },
-  { city: "Praga", hotel: "Hotel Tauros" },
+  { city: "Praga", hotel: "Hotel Taurus" },
   { city: "Istambul", hotel: "Hotel Galata Times" },
 ];
 const hotelsSeoJsonLd = buildHotelsJsonLd(hotelsForSeo, "Grupo Europa do Leste & Turquia 2026 — Budapeste, Viena, Praga e Istambul — Create Travel", "/grupos/europa-do-leste-turquia-2026");
