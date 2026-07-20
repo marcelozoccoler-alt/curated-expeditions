@@ -80,6 +80,7 @@ const App = () => (
       <BrowserRouter>
         <ScrollToTop />
         <ShareTripFloating />
+        <GrupoPdfButton />
         <Routes>
           <Route path="/" element={<Index />} />
         <Route path="/destinos" element={<Destinos />} />
