@@ -68,6 +68,7 @@ import LuaDeMelPersonalizada from "./pages/LuaDeMelPersonalizada";
 
 import ScrollToTop from "./components/ScrollToTop";
 import ShareTripFloating from "./components/ShareTripFloating";
+import GrupoPdfButton from "./components/GrupoPdfButton";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
