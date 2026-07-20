@@ -68,6 +68,7 @@ import LuaDeMelPersonalizada from "./pages/LuaDeMelPersonalizada";
 
 import ScrollToTop from "./components/ScrollToTop";
 import ShareTripFloating from "./components/ShareTripFloating";
+import GrupoPdfButton from "./components/GrupoPdfButton";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
@@ -80,6 +81,7 @@ const App = () => (
       <BrowserRouter>
         <ScrollToTop />
         <ShareTripFloating />
+        <GrupoPdfButton />
         <Routes>
           <Route path="/" element={<Index />} />
         <Route path="/destinos" element={<Destinos />} />
