@@ -366,3 +366,57 @@
     }
   }
 }
+
+/* ==========================================================
+   Print stylesheet — usado pelo botão "Baixar PDF" nas
+   páginas de Grupos com Guia Brasileiro. Oculta cabeçalho,
+   rodapé, botões flutuantes e widgets externos para que o
+   PDF gerado contenha apenas o roteiro.
+   ========================================================== */
+@media print {
+  html, body {
+    background: #ffffff !important;
+    color: #000000 !important;
+  }
+
+  /* Ocultar chrome global */
+  header,
+  footer,
+  nav,
+  [data-no-print],
+  .print\:hidden,
+  a[href^="https://wa.me"][class*="fixed"],
+  button[aria-label*="WhatsApp"][class*="fixed"],
+  button[aria-label*="Compartilhar"][class*="fixed"],
+  button[aria-label*="Baixar roteiro"][class*="fixed"] {
+    display: none !important;
+  }
+
+  main, section, article, div {
+    box-shadow: none !important;
+  }
+
+  a {
+    color: inherit !important;
+    text-decoration: none !important;
+  }
+
+  /* Evitar quebras ruins */
+  h1, h2, h3 {
+    page-break-after: avoid;
+  }
+  img, table, figure {
+    page-break-inside: avoid;
+  }
+
+  /* Garantir cores/imagens no PDF */
+  * {
+    -webkit-print-color-adjust: exact !important;
+    print-color-adjust: exact !important;
+  }
+
+  @page {
+    margin: 14mm 12mm;
+  }
+}
+
