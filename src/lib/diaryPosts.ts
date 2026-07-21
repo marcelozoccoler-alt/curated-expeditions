@@ -2797,6 +2797,99 @@ export const diaryPosts: DiaryPost[] = [
     category: "Roteiro",
     whatsappName: "Safári na África — planejamento",
   },
+  {
+    slug: "epoca-das-lavandas-provence-grasse-experiencia-sensorial",
+    title: "Época das lavandas em Provence: guia sensorial de Grasse aos campos violeta",
+    h1: "Época das lavandas em Provence: uma experiência sensorial de Grasse aos campos violeta",
+    metaDescription:
+      "Quando ir aos campos de lavanda em Provence, o que fazer em Grasse — capital mundial do perfume — e um relato autoral e sensorial de uma jornada Create Travel pelos vilarejos, destilarias e ateliês de nariz.",
+    keywords:
+      "epoca das lavandas provence, campos de lavanda frança, quando ir provence, grasse perfume, valensole, sault, plateau de valensole, roteiro provence, viagem sensorial frança",
+    intro:
+      "Existe um momento, entre o fim de junho e o começo de agosto, em que Provence deixa de ser paisagem para virar cheiro. O ar quente do Sul da França carrega uma nota herbácea, doce, quase medicinal — e é impossível não desacelerar. Nesta reportagem autoral, contamos a jornada que desenhamos pelos campos de Valensole e Sault, pelos vilarejos de pedra do Luberon e, sobretudo, por Grasse — a capital mundial do perfume, onde a lavanda deixa de ser flor e vira memória líquida na mão de um nariz.",
+    sections: [
+      {
+        heading: "Quando ir: a janela exata da floração",
+        paragraphs: [
+          "A época das lavandas em Provence é curta e traiçoeira. Começa por volta de 20 de junho nas altitudes mais baixas — o Plateau de Valensole, a cerca de 500 m — e avança para cima ao longo de julho, até chegar aos campos de Sault e às encostas do Mont Ventoux, a mais de 800 m, onde a floração se estende até a primeira semana de agosto.",
+          "A janela mais fotogênica, quando quase todos os campos estão simultaneamente em pico, vai de 5 a 20 de julho. Depois disso, começa a colheita: tratores azuis atravessam as fileiras violeta e, em 48 horas, um campo inteiro vira restolho verde. Viajar com uma semana de folga no roteiro é a única forma de garantir a paisagem — em anos de calor forte, a floração antecipa até dez dias.",
+          "Nossa recomendação Create Travel é embarcar entre 30 de junho e 15 de julho, com base em Gordes ou Bonnieux para o Luberon e uma segunda base em Moustiers-Sainte-Marie para Valensole e as Gorges du Verdon.",
+        ],
+      },
+      {
+        heading: "Valensole, Sault e Luberon: três Provences, três lavandas",
+        paragraphs: [
+          "O Plateau de Valensole é a imagem que todo mundo carrega na cabeça: fileiras infinitas de lavanda que se encontram com campos de girassol amarelo, cortadas por uma estrada solitária e uma casa de pedra ao fundo. É a Provence dos calendários — e também a mais visitada. Chegar antes das 8h ou depois das 19h transforma a experiência: a luz fica âmbar, os ônibus somem e o som volta a ser das cigarras.",
+          "Sault é outra coisa. Fica a 800 m de altitude, aos pés do Mont Ventoux, e cultiva a lavanda fina de verdade — a Lavandula angustifolia, mais rara e valiosa que o lavandin híbrido dos campos baixos. Os campos são menores, entrecortados por trigo e por florestas de carvalho. Cheira diferente: menos doce, mais mineral, quase eucalipto. É a lavanda que os perfumistas de Grasse procuram.",
+          "O Luberon, entre Gordes, Roussillon, Bonnieux e Ménerbes, oferece a terceira Provence — a dos vilarejos empoleirados em rocha ocre, mercados de terça e sexta, mesas ao ar livre com rosé bem gelado e campos de lavanda menores, encostados a abadias como a Abbaye de Sénanque, cuja fachada românica emoldurada pelas fileiras violeta é uma das cenas mais fotografadas da Europa.",
+        ],
+      },
+      {
+        heading: "Grasse: a capital mundial do perfume",
+        paragraphs: [
+          "A meia hora de Cannes, Grasse não é uma cidade bonita à primeira vista. Suas ruas são íngremes, o casario é ocre desbotado, o centro histórico exige joelhos. E, no entanto, é aqui que nasce boa parte dos perfumes que o mundo usa. Desde o século XVI, quando artesãos de luvas descobriram que a mesma técnica de curtir couro podia extrair essências de flores, Grasse virou o coração invisível da indústria francesa do luxo — Chanel, Dior, Louis Vuitton, Hermès mantêm campos e laboratórios ativos por aqui.",
+          "A UNESCO reconheceu, em 2018, o savoir-faire do perfume de Grasse como Patrimônio Cultural Imaterial da Humanidade. Três dimensões foram protegidas: o cultivo das plantas perfumíferas (rosa centifolia, jasmim, tuberosa, lavanda, mimosa), o conhecimento das matérias-primas naturais e sua transformação, e a arte de compor perfumes — o trabalho dos ‘narizes’, os nez, cuja formação leva de sete a dez anos.",
+          "As três casas históricas abertas ao público — Fragonard, Molinard e Galimard — oferecem visitas guiadas gratuitas por laboratórios do século XIX, com alambiques de cobre, órgãos de perfumista com mais de 120 essências e explicações sobre enfleurage, o processo artesanal em que flores frescas são pousadas sobre gordura para transferir seu aroma. É bonito de ver, mas o que transforma uma visita em experiência é o passo seguinte.",
+        ],
+      },
+      {
+        heading: "Uma tarde no ateliê: criar o próprio perfume",
+        paragraphs: [
+          "O momento decisivo da jornada aconteceu no primeiro andar de um casarão do século XVIII, numa sala silenciosa forrada de madeira escura, onde havia apenas uma mesa longa e um órgão de perfumista com 127 frascos de vidro âmbar, alinhados como partitura. À frente de cada viajante, uma balança de precisão, um caderno de anotações, um copo de água e uma dezena de mouillettes — as tiras brancas de papel que servem para provar essências.",
+          "A nez responsável, uma mulher de voz baixa e mãos calmas, começou pelo básico: nem tudo o que cheira bem sozinho combina. Um perfume, ela disse, é um acorde — três notas de topo (voláteis, brilhantes, os cítricos e as ervas), três notas de coração (florais e especiarias, a alma da composição) e três notas de fundo (madeiras, resinas, âmbar, o que fica na pele depois de horas). O papel do nariz é encontrar equilíbrio entre luz e sombra.",
+          "Cheirar 127 essências em sequência é uma experiência estranha. O olfato é o sentido mais ligado à memória — mais que a visão, mais que o som — e cada nota abre uma imagem sem pedir licença. O vetiver do Haiti trouxe uma tarde de infância no interior. A bergamota da Calábria virou uma cozinha de avó. O incenso de Somália abriu, sem aviso, uma igreja de Ouro Preto. Ao final de duas horas, o frasco de 100 ml que saiu daquela mesa não era só perfume — era um mapa afetivo, assinado, embalado em madeira, que a casa arquiva por sete anos: se um dia se acabar, é possível pedir a fórmula de volta.",
+          "É esse tipo de experiência que a curadoria Create Travel desenha em Provence — não roteiros de fotografia, mas encontros que ficam no corpo depois que a viagem acaba.",
+        ],
+      },
+      {
+        heading: "Destilarias, mercados e mesas de campo",
+        paragraphs: [
+          "Entre Valensole e Sault, dezenas de fazendas familiares abrem os alambiques ao público na alta temporada. Vale visitar Le Château du Bois, nos arredores de Lagarde d’Apt — cultiva lavanda fina desde 1890 em 200 hectares a mais de 1.000 m de altitude, produz óleo essencial certificado AOP e serve degustações de mel de lavanda com queijo de cabra local no fim da tarde. É simples, e é inesquecível.",
+          "Nos mercados provençais — L’Isle-sur-la-Sorgue às quintas e domingos, Apt aos sábados, Forcalquier às segundas — a lavanda aparece em tudo: sachês, sabonetes artesanais, méis monoflorais, tisanas, biscoitos navette, bombons de chocolate ao ganache infusionado. Vale reservar meia manhã sem pressa para caminhar e provar.",
+          "Nas mesas, é a estação do rosé — Bandol, Côtes de Provence, Coteaux d’Aix — servido bem gelado com legumes grelhados, tapenade, socca, aioli e cordeiro do Alpilles. Alguns chefs infusionam lavanda em creme brûlée, em sorvete de mel e em molhos discretos para peixe. Feito com moderação, funciona; feito em excesso, vira sabonete no prato — vale confiar em endereços curados.",
+        ],
+      },
+      {
+        heading: "Como a Create Travel desenha esta viagem",
+        paragraphs: [
+          "Nossos roteiros autorais em Provence combinam de 7 a 10 dias entre Luberon, Alta Provence e Costa Azul, com hospedagens em maisons de campo restauradas, bastides familiares e um ou dois hotéis Relais & Châteaux para pontos altos da viagem. Trabalhamos com guias privados franceses, motorista dedicado, mesas em restaurantes de bairro fora do circuito e o ateliê de perfumaria em Grasse conduzido em português ou inglês.",
+          "Datas ideais: partida do Brasil entre 27 de junho e 12 de julho, com retorno pelo Aeroporto de Nice ou por Paris com extensão de dois a três dias na capital. Combina bem com Bordeaux e Saint-Émilion no pré-embarque ou com Costa Amalfitana no pós — desenhamos as duas versões para clientes ao longo dos últimos anos.",
+        ],
+      },
+    ],
+    faq: [
+      {
+        q: "Qual a melhor época para ver os campos de lavanda em Provence?",
+        a: "A janela mais segura vai de 30 de junho a 20 de julho. Valensole floresce primeiro (fim de junho); Sault e as regiões acima de 800 m se estendem até a primeira semana de agosto. Em anos quentes, a floração antecipa até dez dias — recomendamos folga de uma semana no roteiro.",
+      },
+      {
+        q: "Vale a pena visitar Grasse mesmo sem entender de perfume?",
+        a: "Vale muito. As visitas às casas históricas (Fragonard, Molinard, Galimard) são gratuitas e educativas, e as oficinas de criação do próprio perfume, com um nez profissional, são acessíveis a qualquer viajante — não é preciso conhecimento prévio, apenas curiosidade sensorial. Reserve 2 a 3 horas para o ateliê.",
+      },
+      {
+        q: "Qual a diferença entre lavanda fina e lavandin?",
+        a: "A lavanda fina (Lavandula angustifolia) cresce acima de 800 m, tem óleo essencial mais raro e é a preferida da perfumaria de Grasse — cheiro mais mineral e delicado. O lavandin é um híbrido cultivado nas planícies (Valensole), rende mais óleo por hectare, cheiro mais canforado e forte, e é o que se usa em cosméticos e produtos de limpeza.",
+      },
+      {
+        q: "Onde se hospedar para explorar os campos de lavanda?",
+        a: "Duas bases funcionam melhor: Gordes, Bonnieux ou Ménerbes para o Luberon e as visitas a Sénanque; e Moustiers-Sainte-Marie ou Valensole para o Plateau de Valensole e as Gorges du Verdon. Nossa curadoria costuma combinar as duas em 7 a 10 dias.",
+      },
+      {
+        q: "É possível levar o perfume criado no ateliê para o Brasil?",
+        a: "Sim. O frasco criado (geralmente 100 ml de eau de parfum) é embalado e pode ir na bagagem despachada respeitando os limites de líquidos e teor alcoólico da companhia aérea. A fórmula fica arquivada por até sete anos e pode ser refeita à distância mediante pedido.",
+      },
+    ],
+    relatedDestinations: [
+      { label: "França — destinos e roteiros autorais", href: "/destinos/europa/franca" },
+      { label: "Blog Create Travel", href: "/diario" },
+    ],
+    imageAiPrompt:
+      "Editorial photograph of endless lavender rows in Valensole, Provence, at golden hour: rolling purple fields converging toward a solitary stone farmhouse and a lone cypress tree, warm cinematic light, soft haze, no visible faces, painterly composition.",
+    publishedAt: "2026-07-21",
+    readingMinutes: 11,
+    category: "Destino",
+    whatsappName: "Provence na época das lavandas",
+  },
 ];
 
 
