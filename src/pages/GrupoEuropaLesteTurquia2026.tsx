@@ -250,7 +250,7 @@ const jsonLd = {
     "@type": "Offer",
     price: "24935.00",
     priceCurrency: "BRL",
-    availability: "https://schema.org/LimitedAvailability",
+    availability: "https://schema.org/SoldOut",
     validThrough: "2026-10-02",
   },
   provider: {
@@ -297,8 +297,11 @@ const GrupoEuropaLesteTurquia2026 = () => {
             transition={{ duration: 0.8 }}
             className="max-w-3xl"
           >
-            <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-gold/90 text-navy text-xs font-semibold uppercase tracking-wider mb-6">
+            <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-gold/90 text-navy text-xs font-semibold uppercase tracking-wider mb-4">
               <Sparkles size={14} /> Outono 2026 · Grupo exclusivo
+            </div>
+            <div className="inline-flex items-center gap-2 px-5 py-3 rounded-lg bg-destructive text-destructive-foreground text-sm font-bold uppercase tracking-wider shadow-lg mb-6">
+              Lote esgotado / Lotado
             </div>
             <p className="text-caption text-gold mb-4">
               Grupo · 02 a 16 de outubro de 2026 · máximo 12 pessoas
@@ -314,7 +317,7 @@ const GrupoEuropaLesteTurquia2026 = () => {
             <div className="flex flex-col sm:flex-row items-start sm:items-center gap-4">
               <WhatsAppButton
                 variant="cta"
-                label="Garantir minha vaga"
+                label="Entrar na lista de espera"
                 params={whatsappParams}
                 className="text-lg px-8 py-4"
               />
@@ -557,14 +560,17 @@ const GrupoEuropaLesteTurquia2026 = () => {
           <h2 className="heading-section mb-6">
             R$ 24.935 por pessoa
           </h2>
+          <div className="inline-flex items-center gap-2 px-6 py-3 rounded-lg bg-destructive text-destructive-foreground text-base font-bold uppercase tracking-wider shadow-lg mb-6">
+            Lote esgotado / Lotado
+          </div>
           <p className="text-white/85 mb-8">
             Em apartamento duplo ou compartilhado. Suplemento single de
-            R$ 3.500 — mesma estrutura de parcelamento. Vagas limitadas a 12
-            pessoas; valores sujeitos a disponibilidade no momento da
-            confirmação.
+            R$ 3.500 — mesma estrutura de parcelamento. As vagas para este grupo
+            foram esgotadas; deixe seu nome na lista de espera para possíveis
+            reposições.
           </p>
 
-          <div className="grid sm:grid-cols-2 gap-4 mb-8 text-left">
+          <div className="grid sm:grid-cols-2 gap-4 mb-8 text-left opacity-60">
             <div className="bg-white/10 border border-white/20 rounded-xl p-6 ring-2 ring-gold/60">
               <p className="text-xs uppercase tracking-wider text-gold mb-2">
                 Apto duplo / compartilhado
@@ -581,7 +587,7 @@ const GrupoEuropaLesteTurquia2026 = () => {
             </div>
           </div>
 
-          <div className="bg-card/95 text-foreground rounded-xl p-8 mb-8 text-left">
+          <div className="bg-card/95 text-foreground rounded-xl p-8 mb-8 text-left opacity-60">
             <p className="text-xs uppercase tracking-wider text-gold mb-3 font-semibold">
               Condição de pagamento
             </p>
@@ -611,7 +617,7 @@ const GrupoEuropaLesteTurquia2026 = () => {
 
           <WhatsAppButton
             variant="cta"
-            label="Quero garantir minha vaga"
+            label="Entrar na lista de espera"
             params={whatsappParams}
             className="text-lg px-10 py-5"
           />
@@ -629,11 +635,11 @@ const GrupoEuropaLesteTurquia2026 = () => {
       <section className="section-padding">
         <div className="container-editorial text-center max-w-2xl">
           <h2 className="heading-section text-foreground mb-6">
-            Vagas limitadas — apenas 12 lugares
+            Lote esgotado / Lotado
           </h2>
           <p className="text-muted-foreground mb-8">
-            Fale com um consultor Create Travel e reserve sua vaga na saída de
-            02/10/2026. Atendimento personalizado pelo WhatsApp.
+            As vagas para este grupo foram esgotadas. Deixe seu nome na lista de
+            espera pelo WhatsApp e te avisamos caso surja alguma reposição.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <a
@@ -642,7 +648,7 @@ const GrupoEuropaLesteTurquia2026 = () => {
               rel="noopener noreferrer"
               className="btn-whatsapp text-lg px-8 py-4"
             >
-              Falar no WhatsApp
+              Entrar na lista de espera
             </a>
             <Link to="/embarque-com-a-create" className="btn-outline">
               Ver outras saídas <ArrowRight size={18} />
