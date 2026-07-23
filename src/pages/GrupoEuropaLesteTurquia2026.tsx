@@ -297,8 +297,11 @@ const GrupoEuropaLesteTurquia2026 = () => {
             transition={{ duration: 0.8 }}
             className="max-w-3xl"
           >
-            <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-gold/90 text-navy text-xs font-semibold uppercase tracking-wider mb-6">
+            <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-gold/90 text-navy text-xs font-semibold uppercase tracking-wider mb-4">
               <Sparkles size={14} /> Outono 2026 · Grupo exclusivo
+            </div>
+            <div className="inline-flex items-center gap-2 px-5 py-3 rounded-lg bg-destructive text-destructive-foreground text-sm font-bold uppercase tracking-wider shadow-lg mb-6">
+              Lote esgotado / Lotado
             </div>
             <p className="text-caption text-gold mb-4">
               Grupo · 02 a 16 de outubro de 2026 · máximo 12 pessoas
@@ -314,7 +317,7 @@ const GrupoEuropaLesteTurquia2026 = () => {
             <div className="flex flex-col sm:flex-row items-start sm:items-center gap-4">
               <WhatsAppButton
                 variant="cta"
-                label="Garantir minha vaga"
+                label="Entrar na lista de espera"
                 params={whatsappParams}
                 className="text-lg px-8 py-4"
               />
