@@ -650,7 +650,7 @@ const DeparturesCatalog = () => {
                       className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700"
                       loading="lazy"
                     />
-                    <div className="absolute top-4 left-4 bg-emerald/95 text-white text-xs font-semibold uppercase tracking-wider px-3 py-1.5 rounded-full">
+                    <div className={`absolute top-4 left-4 text-white text-xs font-semibold uppercase tracking-wider px-3 py-1.5 rounded-full ${d.status === "Lote esgotado" ? "bg-destructive" : "bg-emerald/95"}`}>
                       {d.status}
                     </div>
                     {/* Date stamp */}
