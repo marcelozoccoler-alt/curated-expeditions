@@ -560,14 +560,17 @@ const GrupoEuropaLesteTurquia2026 = () => {
           <h2 className="heading-section mb-6">
             R$ 24.935 por pessoa
           </h2>
+          <div className="inline-flex items-center gap-2 px-6 py-3 rounded-lg bg-destructive text-destructive-foreground text-base font-bold uppercase tracking-wider shadow-lg mb-6">
+            Lote esgotado / Lotado
+          </div>
           <p className="text-white/85 mb-8">
             Em apartamento duplo ou compartilhado. Suplemento single de
-            R$ 3.500 — mesma estrutura de parcelamento. Vagas limitadas a 12
-            pessoas; valores sujeitos a disponibilidade no momento da
-            confirmação.
+            R$ 3.500 — mesma estrutura de parcelamento. As vagas para este grupo
+            foram esgotadas; deixe seu nome na lista de espera para possíveis
+            reposições.
           </p>
 
-          <div className="grid sm:grid-cols-2 gap-4 mb-8 text-left">
+          <div className="grid sm:grid-cols-2 gap-4 mb-8 text-left opacity-60">
             <div className="bg-white/10 border border-white/20 rounded-xl p-6 ring-2 ring-gold/60">
               <p className="text-xs uppercase tracking-wider text-gold mb-2">
                 Apto duplo / compartilhado
@@ -584,7 +587,7 @@ const GrupoEuropaLesteTurquia2026 = () => {
             </div>
           </div>
 
-          <div className="bg-card/95 text-foreground rounded-xl p-8 mb-8 text-left">
+          <div className="bg-card/95 text-foreground rounded-xl p-8 mb-8 text-left opacity-60">
             <p className="text-xs uppercase tracking-wider text-gold mb-3 font-semibold">
               Condição de pagamento
             </p>
@@ -614,7 +617,7 @@ const GrupoEuropaLesteTurquia2026 = () => {
 
           <WhatsAppButton
             variant="cta"
-            label="Quero garantir minha vaga"
+            label="Entrar na lista de espera"
             params={whatsappParams}
             className="text-lg px-10 py-5"
           />
