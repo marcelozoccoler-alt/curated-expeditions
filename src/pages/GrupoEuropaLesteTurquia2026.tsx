@@ -250,7 +250,7 @@ const jsonLd = {
     "@type": "Offer",
     price: "24935.00",
     priceCurrency: "BRL",
-    availability: "https://schema.org/LimitedAvailability",
+    availability: "https://schema.org/SoldOut",
     validThrough: "2026-10-02",
   },
   provider: {
