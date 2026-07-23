@@ -635,11 +635,11 @@ const GrupoEuropaLesteTurquia2026 = () => {
       <section className="section-padding">
         <div className="container-editorial text-center max-w-2xl">
           <h2 className="heading-section text-foreground mb-6">
-            Vagas limitadas — apenas 12 lugares
+            Lote esgotado / Lotado
           </h2>
           <p className="text-muted-foreground mb-8">
-            Fale com um consultor Create Travel e reserve sua vaga na saída de
-            02/10/2026. Atendimento personalizado pelo WhatsApp.
+            As vagas para este grupo foram esgotadas. Deixe seu nome na lista de
+            espera pelo WhatsApp e te avisamos caso surja alguma reposição.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <a
@@ -648,7 +648,7 @@ const GrupoEuropaLesteTurquia2026 = () => {
               rel="noopener noreferrer"
               className="btn-whatsapp text-lg px-8 py-4"
             >
-              Falar no WhatsApp
+              Entrar na lista de espera
             </a>
             <Link to="/embarque-com-a-create" className="btn-outline">
               Ver outras saídas <ArrowRight size={18} />
