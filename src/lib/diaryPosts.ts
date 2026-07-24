@@ -125,6 +125,114 @@ export const diaryPosts: DiaryPost[] = [
   },
 
   {
+    slug: "inhotim-experiencias-hotel-clara-guia-arte",
+    title: "Inhotim: experiências, sensações e o novo Hotel Clara",
+    h1: "Inhotim: arte a céu aberto, sensações e o novo Hotel Clara",
+    metaDescription:
+      "Guia sensorial de Inhotim: o maior museu a céu aberto da América Latina, o novo Hotel Clara, pavilhões de arte, carrinho de golf, gastronomia e vivências que tocam o coração.",
+    keywords:
+      "inhotim, museu inhotim, hotel clara inhotim, o que fazer em inhotim, instituto inhotim, inhotim brumadinho, roteiro inhotim, arte a ceu aberto",
+    intro:
+      "Inhotim não é um museu que se visita. É um museu que se atravessa, respira, se perde e se encontra. Em Brumadinho, Minas Gerais, a 60 km de Belo Horizonte, o Instituto Inhotim é o maior centro de arte contemporânea a céu aberto da América Latina — 5.000 obras espalhadas por 140 hectares de jardim botânico, trilhas suspensas, lagos de água negra, bambuzais e galerias que parecem flutuar no verde. Cada passo é uma mudança de estado: você sai de uma instalação imersiva azul-elétrica e entra no silêncio de uma orquidária. O ar cheira a manga madura, jasmim e terra molhada. E agora, com a chegada do Hotel Clara, é possível dormir dentro dessa experiência — acordar dentro da arte, com o nevoeiro da Serra do Espinhaço colhendo os pavilhões ao amanhecer.",
+    sections: [
+      {
+        heading: "O que é Inhotim: um jardim que se tornou obra",
+        paragraphs: [
+          "Inhotim nasceu da visão do minerador Bernardo Paz, que começou a reunir obras de arte contemporânea na fazenda que herdara na década de 1980. Com o tempo, a coleção cresceu, os pavilhões se multiplicaram, e o que era uma propriedade privada se transformou em instituto cultural em 2006. Hoje, o Inhotim reúne mais de 60 pavilhões e galerias, obras de artistas como Adriana Varejão, Hélio Oiticica, Yayoi Kusama, Doug Aitken, Cildo Meireles, Tunga e Vik Muniz.",
+          "A grande invenção de Inhotim é desfazer a fronteira entre arte e natureza. Não há um percurso único: o visitante escolhe entre caminhos de cascalho, passarelas de madeira, pontes sobre lagos e atalhos entre árvores. As obras não estão penduradas em paredes brancas — elas habitam o espaço, dialogam com a luz, com o vento, com a chuva mineira. O museu, nesse sentido, é uma experiência inteiramente sensorial.",
+        ],
+      },
+      {
+        heading: "Hotel Clara: dormir dentro da obra",
+        paragraphs: [
+          "O Hotel Clara é a novidade mais aguardada de Inhotim nos últimos anos. Localizado dentro do próprio instituto, o hotel nasce para transformar uma visita de um dia em uma imersão de dois ou três. São poucas suítes, distribuídas com privacidade absoluta, em uma arquitetura de linhas limpas que desaparece entre a mata e a pedra. Os quartos têm vista para o jardim, pés-direitos generosos, madeira, concreto e tecidos em tons de terra.",
+          "Acordar no Hotel Clara é uma experiência rara: o som dos pássaros do Cerrado e da Mata Atlântica, o nevoeiro baixo entre as copas, o silêncio que só um espaço de 140 hectares pode oferecer. O café-da-manhã é feito com produtos locais e de hortas orgânicas; o jantar, com menu que muda conforme a estação. Hóspedes do Clara têm acesso antecipado e exclusivo a parte do museu, podendo caminhar pelos pavilhões antes da abertura ao público — um privilégio que muda completamente a relação com as obras.",
+        ],
+      },
+      {
+        heading: "A experiência sensorial: o corpo no centro da arte",
+        paragraphs: [
+          "Inhotim exige que você use o corpo. Não adianta apenas olhar. Em True Rouge, de Dominique Gonzalez-Foerster, a arquitetura se dobra em cores intensas que alteram a percepção do espaço. Em Through, de Doug Aitken, o visitante atravessa uma instalação de espelhos e projeções onde tempo, som e imagem se desfazem. No Pavilhão Cildo Meireles, o chão inclinado, o arco-íris em vidro e o sal nas paredes provocam desequilíbrio físico — a arte entra pelo vestíbulo do equilíbrio.",
+          "Fora dos pavilhões, os sentidos continuam trabalhando. A trilha do Parque das Palmeiras cheira a dendê e flor de bananeira. A mata em volta do Pavilhão Adriana Varejão é uma galeria viva de bromélias, orquídeas e samambaias. O lago reflete o céu de Minas em tons de cobalto e chumbo. E o silêncio, entre uma visita e outra, é tão importante quanto a obra: é o momento em que a sensação se assenta.",
+        ],
+      },
+      {
+        heading: "Pavilhões que tocam o coração: o que não perder",
+        paragraphs: [
+          "Com tantos pavilhões, é impossível ver tudo em um dia. Para quem visita pela primeira vez, recomendamos começar por aqueles que provocam uma reação emocional imediata. O Pavilhão Adriana Varejão, com seus azulejos em tons de carne, sangue e mar, é uma experiência visceral sobre o corpo e a história do Brasil. O Pavilhão Hélio Oiticica, com sua Penetrável Macaléia, convida o visitante a entrar num labirinto de tecidos, cordas e cores — pura alegria construída.",
+          "A instalação Narcissus Garden, de Yayoi Kusama, espalha centenas de bolas de aço infladas pelo chão, refletindo o céu e o visitante — uma selfie involuntária que vira meditação. E o Pavilhão Chris Burden, com sua gigantesca torre de placas de observação, lembra que Inhotim também brinca com escala e coragem. A dica é não tentar racionalizar tudo: deixe que a obra toque primeiro, e pense depois.",
+        ],
+      },
+      {
+        heading: "Carrinho de golf: o veículo da descoberta",
+        paragraphs: [
+          "Inhotim é grande. Caminhar tudo em um dia é possível, mas exaustivo — e apressado. O carrinho de golf elétrico é uma das ferramentas mais democráticas do museu: ele leva visitantes entre pavilhões distantes, salva pernas e, de quebra, transforma o deslocamento em parte da experiência. Sentado no banco aberto, o vento bate no rosto, o perfume da muda, e o jardim vira cenário em movimento.",
+          "O carrinho é gratuito e circula por pontos fixos. O mapa do Inhotim indica as paradas, e a equipe de atendentes orienta sobre os trajetos. A dica é usar o golf para ir aos pavilhões mais afastados — como o de Matthew Barney ou o de Rirkrit Tiravanija — e deixar os próximos à entrada para o fim, quando as pernas já pedem sossego. Para quem se hospeda no Hotel Clara, o carrinho pode ser usado também no início e no fim do dia, fora do horário de visitação.",
+        ],
+      },
+      {
+        heading: "Gastronomia: Minas Gerais dentro e fora do prato",
+        paragraphs: [
+          "Inhotim tem restaurantes que valem a visita por si só. O Restaurante Tangará, mais formal, serve comida mineira contemporânea com ingredientes do próprio quintal do instituto: quiabo, maxixe, abóbora, queijo canastra, goiabada caseira e café de Poços de Caldas. O cardápio muda com as safras, e o ambiente — todo de vidro e madeira — convida a longos almoços.",
+          "Para um café mais leve, o Cafeteria do Inhotim oferece pão de queijo, biscoitos de queijo canastra, bolos e doces de leite. Há também quiosques espalhados pelo parque com água de coco, picolés e frutas. A experiência gastronômica, porém, não é só dos restaurantes: levar um lanche e sentar sob uma mangueira, com vista para um lago e uma obra ao fundo, é parte da curadoria.",
+        ],
+      },
+      {
+        heading: "Como chegar, quando ir e como planejar",
+        paragraphs: [
+          "Inhotim fica em Brumadinho, a cerca de 60 km de Belo Horizonte. O acesso mais comum é de carro ou van particular saindo da capital mineira — a viagem dura cerca de 1h15. Também é possível chegar de ônibus público até Brumadinho e de lá pegar táxi ou transfer. Para uma experiência sem fricção, recomendamos transfer privativo com motorista local, incluído em nossos roteiros sob medida.",
+          "O museu funciona de terça a domingo, geralmente das 9h30 às 16h, com entrada final às 15h. A melhor época é entre abril e setembro, quando o clima é mais ameno e as chuvas são menos frequentes. Mas qualquer dia funciona: em dias de chuva, os pavilhões ficam ainda mais contemplativos. Ingressos devem ser comprados com antecedência no site oficial do Inhotim. Para a experiência completa, indicamos dois dias — especialmente se for incluir o Hotel Clara.",
+        ],
+      },
+      {
+        heading: "Roteiro autoral Create Travel em Inhotim",
+        paragraphs: [
+          "Nossa curadoria para Inhotim combina o museu com o melhor de Minas Gerais: Ouro Preto e Mariana no primeiro dia, duas noites no Hotel Clara dentro do Inhotim, e um dia final na Serra do Caraça ou na Serra do Cipó. O pacote inclui transfer privativo, ingressos com antecedência, reserva do hotel, jantares selecionados e um guia especializado que conecta a arte de Inhotim com a história e a paisagem de Minas. É a maneira mais confortável e sensível de viver uma das maiores experiências culturais do Brasil.",
+        ],
+      },
+    ],
+    faq: [
+      {
+        q: "Quanto tempo é necessário para conhecer Inhotim?",
+        a: "Um dia permite ver os principais pavilhões, mas a experiência fica apressada. Com dois dias, você pode caminhar sem pressa, almoçar com calma e dormir no Hotel Clara. Para quem ama arte e natureza, dois dias é o ideal.",
+      },
+      {
+        q: "O que é o Hotel Clara Inhotim?",
+        a: "Hotel Clara é o novo hotel de charme dentro do Instituto Inhotim, em Brumadinho. Oferece poucas suítes, gastronomia local, acesso exclusivo ao musem e a experiência de dormir dentro do maior centro de arte a céu aberto da América Latina.",
+      },
+      {
+        q: "Inhotim é adequado para crianças e idosos?",
+        a: "Sim. O museu tem acessibilidade em grande parte dos pavilhões, carrinhos de golf gratuitos para deslocamento e atividades para diferentes idades. O jardim botânico e os lagos também encantam crianças.",
+      },
+      {
+        q: "Como chegar em Inhotim saindo de Belo Horizonte?",
+        a: "A melhor opção é transfer privativo ou carro alugado, com viagem de cerca de 1h15. Também há ônibus até Brumadinho, de onde se pode seguir de táxi. A Create Travel organiza o transporte completo.",
+      },
+      {
+        q: "Qual a melhor época para visitar Inhotim?",
+        a: "Entre abril e setembro o clima é mais ameno e seco. Mas o museu funciona o ano todo, e a visita em dias de chuva tem um clima especialmente contemplativo.",
+      },
+      {
+        q: "O que levar na mochila para Inhotim?",
+        a: "Leve tênis confortável, chapéu, protetor solar, repelente, garrafa de água e uma roupa leve de manga comprida para os pavilhões com ar-condicionado forte. Dinheiro ou cartão para os restaurantes e loja.",
+      },
+    ],
+    relatedDestinations: [
+      { label: "Cidades Históricas & Inhotim", href: "/destinos/brasil/minas-gerais/cidades-historicas-inhotim" },
+      { label: "Experiência: Arte & Cultura", href: "/experiencias/arte" },
+      { label: "Roteiro Sob Medida", href: "/roteiro-sob-medida" },
+    ],
+    imageAiPrompt:
+      "Editorial wide shot of Inhotim open-air contemporary art museum in Brumadinho, Brazil: lush tropical botanical garden, minimalist white art pavilion, reflective black lake, soft golden morning light, mist between trees, cinematic, painterly, no people, ultra high detail",
+    publishedAt: "2026-07-24",
+
+    readingMinutes: 10,
+    category: "Cultura",
+    whatsappName: "Roteiro Inhotim",
+  },
+
+
+  {
     slug: "madagascar-onde-fica-e-curiosidades",
     title: "Madagascar: onde fica, o que ver e curiosidades essenciais",
     h1: "Madagascar: a ilha que evoluiu sozinha por 88 milhões de anos",
