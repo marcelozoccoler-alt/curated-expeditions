@@ -133,15 +133,19 @@ export const diaryPosts: DiaryPost[] = [
     keywords:
       "inhotim, museu inhotim, hotel clara inhotim, o que fazer em inhotim, instituto inhotim, inhotim brumadinho, roteiro inhotim, arte a ceu aberto",
     intro:
-      "Inhotim não é um museu que se visita. É um museu que se atravessa, respira, se perde e se encontra. Em Brumadinho, Minas Gerais, a 60 km de Belo Horizonte, o Instituto Inhotim é o maior centro de arte contemporânea a céu aberto da América Latina — 5.000 obras espalhadas por 140 hectares de jardim botânico, trilhas suspensas, lagos de água negra, bambuzais e galerias que parecem flutuar no verde. Cada passo é uma mudança de estado: você sai de uma instalação imersiva azul-elétrica e entra no silêncio de uma orquidária. O ar cheira a manga madura, jasmim e terra molhada. E agora, com a chegada do Hotel Clara, é possível dormir dentro dessa experiência — acordar dentro da arte, com o nevoeiro da Serra do Espinhaço colhendo os pavilhões ao amanhecer.",
+      "Inhotim não é um museu que se visita. É um museu que se atravessa, respira, se perde e se encontra. Em Brumadinho, Minas Gerais, a 60 km de Belo Horizonte, o Instituto Inhotim é uma das maiores e mais singulares fusões do mundo entre museu de arte contemporânea e jardim botânico a céu aberto — cerca de 560 obras espalhadas por 140 hectares de trilhas, lagos de água negra, bambuzais, orquidárias e galerias que parecem flutuar no verde. Cada passo é uma mudança de estado: você sai de uma instalação imersiva azul-elétrica e entra no silêncio de uma orquidária. O ar cheira a manga madura, jasmim e terra molhada. E agora, com a chegada do Hotel Clara, é possível dormir dentro dessa experiência — acordar dentro da arte, com o nevoeiro da Serra do Espinhaço colhendo os pavilhões ao amanhecer.",
+
     sections: [
       {
-        heading: "O que é Inhotim: um jardim que se tornou obra",
+        heading: "O que é Inhotim: um jardim botânico que se tornou obra",
         paragraphs: [
-          "Inhotim nasceu da visão do minerador Bernardo Paz, que começou a reunir obras de arte contemporânea na fazenda que herdara na década de 1980. Com o tempo, a coleção cresceu, os pavilhões se multiplicaram, e o que era uma propriedade privada se transformou em instituto cultural em 2006. Hoje, o Inhotim reúne mais de 60 pavilhões e galerias, obras de artistas como Adriana Varejão, Hélio Oiticica, Yayoi Kusama, Doug Aitken, Cildo Meireles, Tunga e Vik Muniz.",
-          "A grande invenção de Inhotim é desfazer a fronteira entre arte e natureza. Não há um percurso único: o visitante escolhe entre caminhos de cascalho, passarelas de madeira, pontes sobre lagos e atalhos entre árvores. As obras não estão penduradas em paredes brancas — elas habitam o espaço, dialogam com a luz, com o vento, com a chuva mineira. O museu, nesse sentido, é uma experiência inteiramente sensorial.",
+          "Inhotim nasceu da visão do empresário mineiro Bernardo de Mello Paz, que começou a reunir obras de arte contemporânea na fazenda que herdara na década de 1980. Com o tempo, a coleção cresceu, os pavilhões se multiplicaram, e o que era uma propriedade privada se transformou em instituto cultural em 2006. Hoje, o Inhotim é simultaneamente museu de arte contemporânea e jardim botânico: reúne cerca de 560 obras em exibição, assinadas por aproximadamente 60 artistas de 38 países, distribuídas em mais de 60 galerias e pavilhões ao ar livre. O acervo inclui nomes como Adriana Varejão, Hélio Oiticica, Yayoi Kusama, Doug Aitken, Cildo Meireles, Tunga, Vik Muniz e Chris Burden.",
+          "A grande invenção de Inhotim é desfazer a fronteira entre arte, botânica e paisagem. Não há um percurso único: o visitante escolhe entre caminhos de cascalho, passarelas de madeira, pontes sobre lagos e atalhos entre árvores. O jardim botânico abriga mais de 4 mil espécies de plantas, muitas delas nativas do Cerrado e da Mata Atlântica. As obras não estão penduradas em paredes brancas — elas habitam o espaço, dialogam com a luz, com o vento, com a chuva mineira. O museu, nesse sentido, é uma experiência inteiramente sensorial.",
+          "A direção artística e a equipe curatorial do Inhotim — liderada por especialistas com reconhecimento internacional — cuidam para que cada instalação, cada pavilhão e cada rota pelo jardim conservem um diálogo vivo entre obras de arte, território e público. É essa curadoria que transforma uma caminhada em uma narrativa: em Inhotim, você não apenas vê arte, você é guiado por ela.",
         ],
       },
+
+
       {
         heading: "Hotel Clara: dormir dentro da obra",
         paragraphs: [
