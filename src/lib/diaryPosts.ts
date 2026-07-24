@@ -224,8 +224,8 @@ export const diaryPosts: DiaryPost[] = [
     ],
     imageAiPrompt:
       "Editorial wide shot of Inhotim open-air contemporary art museum in Brumadinho, Brazil: lush tropical botanical garden, minimalist white art pavilion, reflective black lake, soft golden morning light, mist between trees, cinematic, painterly, no people, ultra high detail",
-    imageOverrideUrl: "https://images.unsplash.com/photo-1518998053901-5348d3961a04?w=1200&h=800&fit=crop",
     publishedAt: "2026-07-24",
+
     readingMinutes: 10,
     category: "Cultura",
     whatsappName: "Roteiro Inhotim",
