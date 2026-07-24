@@ -137,12 +137,13 @@ export const diaryPosts: DiaryPost[] = [
 
     sections: [
       {
-        heading: "O que é Inhotim: um jardim que se tornou obra",
+        heading: "O que é Inhotim: um jardim botânico que se tornou obra",
         paragraphs: [
-          "Inhotim nasceu da visão do minerador Bernardo Paz, que começou a reunir obras de arte contemporânea na fazenda que herdara na década de 1980. Com o tempo, a coleção cresceu, os pavilhões se multiplicaram, e o que era uma propriedade privada se transformou em instituto cultural em 2006. Hoje, o Inhotim reúne mais de 60 pavilhões e galerias, obras de artistas como Adriana Varejão, Hélio Oiticica, Yayoi Kusama, Doug Aitken, Cildo Meireles, Tunga e Vik Muniz.",
-          "A grande invenção de Inhotim é desfazer a fronteira entre arte e natureza. Não há um percurso único: o visitante escolhe entre caminhos de cascalho, passarelas de madeira, pontes sobre lagos e atalhos entre árvores. As obras não estão penduradas em paredes brancas — elas habitam o espaço, dialogam com a luz, com o vento, com a chuva mineira. O museu, nesse sentido, é uma experiência inteiramente sensorial.",
+          "Inhotim nasceu da visão do empresário mineiro Bernardo de Mello Paz, que começou a reunir obras de arte contemporânea na fazenda que herdara na década de 1980. Com o tempo, a coleção cresceu, os pavilhões se multiplicaram, e o que era uma propriedade privada se transformou em instituto cultural em 2006. Hoje, o Inhotim é simultaneamente museu de arte contemporânea e jardim botânico: reúne cerca de 560 obras em exibição, assinadas por aproximadamente 60 artistas de 38 países, distribuídas em mais de 60 galerias e pavilhões ao ar livre. O acervo inclui nomes como Adriana Varejão, Hélio Oiticica, Yayoi Kusama, Doug Aitken, Cildo Meireles, Tunga, Vik Muniz e Chris Burden.",
+          "A grande invenção de Inhotim é desfazer a fronteira entre arte, botânica e paisagem. Não há um percurso único: o visitante escolhe entre caminhos de cascalho, passarelas de madeira, pontes sobre lagos e atalhos entre árvores. O jardim botânico abriga mais de 4 mil espécies de plantas, muitas delas nativas do Cerrado e da Mata Atlântica. As obras não estão penduradas em paredes brancas — elas habitam o espaço, dialogam com a luz, com o vento, com a chuva mineira. O museu, nesse sentido, é uma experiência inteiramente sensorial.",
         ],
       },
+
       {
         heading: "Hotel Clara: dormir dentro da obra",
         paragraphs: [
