@@ -133,7 +133,8 @@ export const diaryPosts: DiaryPost[] = [
     keywords:
       "inhotim, museu inhotim, hotel clara inhotim, o que fazer em inhotim, instituto inhotim, inhotim brumadinho, roteiro inhotim, arte a ceu aberto",
     intro:
-      "Inhotim não é um museu que se visita. É um museu que se atravessa, respira, se perde e se encontra. Em Brumadinho, Minas Gerais, a 60 km de Belo Horizonte, o Instituto Inhotim é o maior centro de arte contemporânea a céu aberto da América Latina — 5.000 obras espalhadas por 140 hectares de jardim botânico, trilhas suspensas, lagos de água negra, bambuzais e galerias que parecem flutuar no verde. Cada passo é uma mudança de estado: você sai de uma instalação imersiva azul-elétrica e entra no silêncio de uma orquidária. O ar cheira a manga madura, jasmim e terra molhada. E agora, com a chegada do Hotel Clara, é possível dormir dentro dessa experiência — acordar dentro da arte, com o nevoeiro da Serra do Espinhaço colhendo os pavilhões ao amanhecer.",
+      "Inhotim não é um museu que se visita. É um museu que se atravessa, respira, se perde e se encontra. Em Brumadinho, Minas Gerais, a 60 km de Belo Horizonte, o Instituto Inhotim é uma das maiores e mais singulares fusões do mundo entre museu de arte contemporânea e jardim botânico a céu aberto — cerca de 560 obras espalhadas por 140 hectares de trilhas, lagos de água negra, bambuzais, orquidárias e galerias que parecem flutuar no verde. Cada passo é uma mudança de estado: você sai de uma instalação imersiva azul-elétrica e entra no silêncio de uma orquidária. O ar cheira a manga madura, jasmim e terra molhada. E agora, com a chegada do Hotel Clara, é possível dormir dentro dessa experiência — acordar dentro da arte, com o nevoeiro da Serra do Espinhaço colhendo os pavilhões ao amanhecer.",
+
     sections: [
       {
         heading: "O que é Inhotim: um jardim que se tornou obra",
