@@ -3002,6 +3002,100 @@ export const diaryPosts: DiaryPost[] = [
     category: "Destino",
     whatsappName: "Provence na época das lavandas",
   },
+  {
+    slug: "compras-budapeste-viena-praga-istambul",
+    title: "Compras em Budapeste, Viena, Praga e Istambul: guia de mercados, ateliês e souvenirs",
+    h1: "Compras em Budapeste, Viena, Praga e Istambul: guia de mercados, ateliês e souvenirs",
+    metaDescription:
+      "O que comprar em Budapeste, Viena, Praga e Istambul: mercados históricos, ateliês de artesanato, porcelana, cristal, especiarias e souvenirs com alma. Guia autoral Create Travel.",
+    keywords:
+      "compras em budapeste, compras em viena, compras em praga, compras em istambul, o que comprar na europa do leste, mercados istambul, souvenirs viena, porcelana herend, cristal bohemia, bazar das especiarias",
+    intro:
+      "Comprar em Budapeste, Viena, Praga e Istambul não é apenas gastar — é uma forma de levar para casa a textura de uma viagem. Em cada cidade, as ruas e mercados contam uma história diferente: a porcelana azul e branca de Herend, o cristal que dança com a luz de Boêmia, as especiarias que cheiram a rota da seda no Bazar das Especiarias, os chocolates de Viena que parecem confeitos de ópera. Este guia não lista shoppings: aponta os endereços onde o objeto que você levará na mala vira lembrança viva — e, às vezes, herança.",
+    sections: [
+      {
+        heading: "Budapeste: paprika, palinka e porcelana de Herend",
+        paragraphs: [
+          "Budapeste é a cidade do Danúbio, mas também é uma cidade de sabores e mesas. O primeiro lugar para sentir isso é o Grande Mercado (Nagycsarnok), na avenida Váci utca. No andar térreo, barracas de especiarias exibem montanhas de páprica doce, picante e defumada — a hungara é uma das mais complexas do mundo, com notas de pimentão assado, fumaça e terra. Comprar uma lata de páprica de Kalocsa ou Szeged é levar o gás da cozinha húngara para casa. Junto dela, leve goulash em pacote, salames Pick, queijos de cabra, trufas de caça e, se tiver coragem, uma garrafinha de pálinka, a aguardente de frutas que os húngaros bebem como digestivo.",
+          "No andar superior do mercado, artesanato local compete com souvenir padrão: bordados de Kalocsa, toalhas de linho, cerâmica de Zsolnay com seu iridescente característico e peças de renda de Halas. Mas a verdadeira joia da coroa húngara está na porcelana de Herend. Fundada em 1826, a manufatura produz peças pintadas à mão com padrões florais em azul ou verde, imortalizados nas mesas de imperadores e rainhas. A loja oficial da Herend em Budapeste — na Kossuth Lajos utca, próxima ao Parlamento — vende desde pequenas xícaras a peças de exibição, com certificado de autenticidade.",
+          "Para quem curte atmosfera, Budapeste também oferece os ruin pubs — bares instalados em prédios abandonados da Segunda Guerra Mundial — onde é possível comprar cerveja artesanal, camisetas de bandas locais e objetos de design feitos por artistas húngaros. A Szimpla Kert, o primeiro e mais famoso, tem uma pequena área de produtos independentes. É Budapeste em forma de souvenir: decadência, humor e criatividade no mesmo copo.",
+        ],
+      },
+      {
+        heading: "Viena: mesa imperial, café e design austríaco",
+        paragraphs: [
+          "Viena compra com elegância. A cidade viveu séculos como capital do Império Austro-Húngaro e essa herança aparece nas vitrines. Comece no Naschmarkt, o mercado que nasceu no século XVI como feira de leite e hoje reúne 120 barracas de frutas, queijos, azeitonas, especiarias e comida do mundo. É o lugar ideal para provar mostarda de Kren (raiz-forte), geleias de damasco da Wachau, vinagre de mostarda e chocolate com pimenta. Não é barato, mas é autêntico.",
+          "Do Naschmarkt, caminhe até a Kohlmarkt e a Graben, as ruas de luxo de Viena. Aliás, o luxo vienense tem nomes próprios: Augarten, a porcelana imperial fundada em 1718, cujas peças brancas com filete azul decoraram mesas dos Habsburgo; Lobmeyr, a cristaleria de família que há sete gerações faz taças para a Ópera de Viena; e Demel, a confeitaria que desde 1786 produz o Schokoladenkugel, bolas de chocolate recheadas, e o famoso Sacher-Torte — embora o original da torta pertença ao Hotel Sacher, a versão da Demel é disputada pelos vienenses mais puristas.",
+          "Viena também é cidade de design contemporâneo. A área do MuseumsQuartier e as lojas ao redor da Mariahilfer Straße vendem objetos de designers austríacos, iluminarias, mobiliário em miniatura e produtos de museu. O Wiener Werkstätte, movimento artesanal fundado em 1903, influencia ainda muitos ateliês locais — cerâmicas, joias, tecidos e papéis com padrões geométricos. Levar algo do MuseumsQuartier ou da Galerie bei der Albertina é levar um pedaço da Vienna Secession na mala.",
+        ],
+      },
+      {
+        heading: "Praga: cristal, marionetes e o tempo do Império",
+        paragraphs: [
+          "Praga parece feita para ser comprada aos poucos. A Cidade Velha é um emaranhado de ruas medievais onde cada vitrine esconde uma tradição. O grande nome aqui é o cristal de Boêmia — reconhecido mundialmente por sua pureza, brilho e corte manual. Mas cuidado: muito do que se vende como cristal na Celetná e na Karlova é industrial e importado. As peças autênticas vêm de manufaturas como Moser, Egermann, Rückl ou Crystalex, e devem ter a marca de autenticidade. Uma taça de cristal de Moser é investição: pode custar algumas centenas de euros, mas é uma obra de arte que reflete a luz de Praga por décadas.",
+          "Outro souvenir com alma são as marionetes tchecas. O teatro de marionetes é tradição centenária na Boêmia — há espetáculos no National Marionette Theatre e pequenos ateliês na rua Karlova onde bonecos de madeira, vestidos com trajes barrocos, são vendidos por artistas locais. Não são brinquedos: cada marionete leva horas de entalhe e pintura, e pode ser manipulada por fios. Levar uma para casa é trazer um personagem de Don Giovanni ou do Fausto para a estante.",
+          "Para sabores, leve pralines de chocolate da Choco-Story, galletas de Praga e o famoso Becherovka, a erva amarga de Karlovy Vary que os tchecos tomam como digestivo. Se passar por Karlovy Vary numa extensão do roteiro, a compra do Becherovka na fonte é ritual — a garrafa verde é um souvenir tão típico quanto a paisagem de colunas e termas. E, claro, a cerâmica azul de Modrá — pequenas lojas no centro vendem pratos pintados com padrões florais tradicionais da Morávia.",
+        ],
+      },
+      {
+        heading: "Istambul: onde a rota da seda ainda respira",
+        paragraphs: [
+          "Istambul é a cidade que transforma compra em aventura. O Grande Bazar (Kapalıçarşı) é uma cidade dentro da cidade: 61 ruas cobertas, mais de 4 mil lojas, 22 portões, 500 anos de história. Entrar por uma porta e sair por outra é uma experiência de desorientação deliciosa. Os produtos são infinitos: tapetes persas e anatólios, cerâmica de Iznik com azul-turquesa e vermelho coral, lanternas de vidro colorido, prata otomana, joias de ouro, couro, especiarias, café turco, sabonetes de azeite, hammam towels (toalhas finas de algodão usadas nos banhos turcos) e, claro, baklava.",
+          "A cerâmica de Iznik é uma das compras mais nobres. Produzida originalmente entre os séculos XV e XVII para os palácios otomanos, a técnica quase desapareceu no século XIX e foi revivida por artesãos no século XX. Peças autênticas — pratos, azulejos, bowls — são pintadas à mão com óxidos de cobalto e cobre, vidradas e queimadas em fornos tradicionais. Uma loja confiável no Grande Bazar ou no Arasta Bazaar — ao lado da Mesquita Azul — vende peças com certificado e explica a origem.",
+          "O Bazar das Especiarias (Mısır Çarşısı) é o outro pólo obrigatório. Construído em 1660 com os rendimentos do imposto egípcio, o mercado exibe em suas barracas coloridas: açafrão, cominho, sumac, zattar, pimenta da Turquia, chá de maçã, chá de rosa, louro, cravo, canela, noz-moscada e pistache de Gaziantep. O cheiro é tão denso que parece comestível. Compre em pequenas quantidades, peça para a barraca embalar a vácuo e leve para casa o perfume de um império. Outro clássico são os sabonetes de azeite e argila de Gaziantep, e o café turco moído na hora — peça o blend da casa, que costuma ser melhor que os pacotes industrializados.",
+          "Negociar em Istambul é arte e etiqueta. Não pague o primeiro preço. Sorria, ofereça metade, tome chá de maçã oferecido, e caminhe para a porta se o preço não chegar. Muitas vezes, o vendedor te chama de volta com o valor justo. A regra de ouro: se a peça é cara, vá em duas ou três lojas antes de decidir. E desconfie de tapetes que parecem antigos demais por pouco dinheiro — a Turquia é mestre em reprodução.",
+        ],
+      },
+      {
+        heading: "Dicas práticas: tax free, bagagem e o que evitar",
+        paragraphs: [
+          "Em todas as quatro cidades, lojas parceiras do Tax Free oferecem reembolso de parte do IVA para turistas não europeus. Na Hungria, Áustria e República Tcheca, peça o formulário Tax Free na hora da compra e valide no aeroporto ao deixar a União Europeia. Na Turquia, o sistema Tax Free também funciona, mas os reembolsos costumam ser menores e o processo exige apresentação das notas fiscais na alfândega do aeroporto.",
+          "Para bagagem, evite levar objetos frágeis na mala de mão. O cristal de Boêmia, a porcelana de Herend e a cerâmica de Iznik devem ser embalados com muito cuidado — muitas lojas oferecem embalagem especial para transporte aéreo. Especiarias, cafés e líquidos (palinka, Becherovka, páprica em óleo) devem ir na bagagem despachada, respeitando os limites de líquidos e álcool da companhia aérea.",
+          "O que evitar? Souvenir genérico em quiosque turístico: ímãs de frigorífico, canecas com foto da cidade, camisetas de baixa qualidade. Em vez disso, gaste o mesmo valor em um objeto pequeno de artesanato local — uma xícara de Herend, uma taça de cristal, uma caixa de madeira pintada de Istambul, uma barrinha de chocolate Demel. Quando você abrir a mala em casa, o objeto vai contar a história de uma cidade. O ímã, não.",
+        ],
+      },
+      {
+        heading: "Como a Create Travel inclui compras no roteiro",
+        paragraphs: [
+          "Nossos grupos com guia brasileiro pela Europa do Leste e Turquia incluem tempo livre para compras nas principais cidades — Budapeste, Viena, Praga e Istambul — com recomendações de endereços confiáveis e dicas de negociação. O guia acompanha os viajantes nos mercados históricos, explica a história dos produtos e ajuda a separar artesanato autêntico de reprodução barata.",
+          "Para roteiros sob medida, desenhamos experiências de compra com curadoria: uma tarde de chá e busca por porcelana em Viena, visita a um ateliê de marionetes em Praga, almoço no Grande Bazar de Istambul seguido de compra de especiarias, ou degustação de páprica e palinka no Nagycsarnok de Budapeste. Comprar, nesses contextos, deixa de ser consumo e vira parte da narrativa da viagem.",
+        ],
+      },
+    ],
+    faq: [
+      {
+        q: "O que vale a pena comprar em Budapeste?",
+        a: "Páprica de Kalocsa ou Szeged, porcelana de Herend, palinka, goulash em pacote, salames Pick, cerâmica de Zsolnay e bordados de Halas. O Grande Mercado (Nagycsarnok) é o endereço mais completo.",
+      },
+      {
+        q: "Como reconhecer cristal de Boêmia autêntico em Praga?",
+        a: "Prefira manufaturas tradicionais como Moser, Egermann, Rückl ou Crystalex. Peças autênticas têm peso, brilho intenso e corte manual. Evite lojas de souvenir que vendem vidro comum como 'cristal de Boêmia'.",
+      },
+      {
+        q: "Dá para negociar preços no Grande Bazar de Istambul?",
+        a: "Sim, negociar é esperado. Ofereça entre 50% e 60% do preço inicial, mantenha a cortesia, aceite o chá oferecido e vá embora se o valor não agradar. Muitas vezes, o vendedor chama de volta com um desconto real.",
+      },
+      {
+        q: "É possível fazer Tax Free nas compras em Viena, Praga e Budapeste?",
+        a: "Sim. Na União Europeia (Áustria, Hungria e República Tcheca), peça o formulário Tax Free na loja e valide no aeroporto de saída da UE. Guarde as notas fiscais e o passaporte. Na Turquia, o sistema existe, mas é menos prático e os reembolsos são menores.",
+      },
+      {
+        q: "Qual é a melhor cidade para comprar especiarias?",
+        a: "Istambul, sem dúvida. O Bazar das Especiarias (Mısır Çarşısı) e o Grande Bazar oferecem açafrão, cominho, sumac, zattar, chá de maçã, chá de rosa, noz-moscada e café turco. Compre em pequenas quantidades e peça embalagem a vácuo.",
+      },
+    ],
+    relatedDestinations: [
+      { label: "Grupo Europa do Leste & Turquia 2026", href: "/grupos/europa-do-leste-turquia-2026" },
+      { label: "Grupo Turquia 2026", href: "/grupos/turquia-2026" },
+      { label: "Experiência: Cultura & história", href: "/experiencias/cultura" },
+    ],
+    imageAiPrompt:
+      "Editorial overhead photograph of a European market shopping scene: hand-painted Herend porcelain plate, Bohemian crystal glass, Turkish Iznik ceramic bowl, Viennese chocolate box, colorful spice bazaar jars of saffron and paprika, linen napkin, brass Turkish coffee pot, soft natural light, no visible faces, cinematic warm tones.",
+    publishedAt: "2026-07-26",
+    readingMinutes: 12,
+    category: "Roteiro",
+    whatsappName: "Compras e roteiro Europa do Leste + Istambul",
+  },
 ];
 
 
