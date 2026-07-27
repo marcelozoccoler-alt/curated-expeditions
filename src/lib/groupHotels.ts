@@ -116,6 +116,10 @@ const HOTEL_URLS: Record<string, string> = {
   "ibis Wien Mariahilf": "https://all.accor.com/hotel/0796/index.en.shtml",
   "Hotel Taurus": "https://www.hoteltaurus.cz/",
   "Hotel Galata Times": "https://www.galatatimes.com/",
+  "Verdi Tunis Beach Resort": "https://www.google.com/search?q=Verdi+Tunis+Beach+Resort",
+  "Tozeur Plaza by Odysee": "https://www.google.com/search?q=Tozeur+Plaza+by+Odysee",
+  "Sahara Douz": "https://www.google.com/search?q=Sahara+Douz+hotel",
+  "Occidental Sfax Center": "https://www.barcelo.com/en-ww/occidental-sfax-el-mouradi/",
 };
 
 /**
