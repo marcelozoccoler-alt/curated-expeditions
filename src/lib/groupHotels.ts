@@ -17,6 +17,7 @@ const HOTEL_URLS: Record<string, string> = {
   "Le Bois de Bruges": "https://leboisdebruges.be/en/",
   "Novotel Brussels City Centre": "https://all.accor.com/hotel/2122/index.en.shtml",
   "Almacruz": "https://www.grupoalmacruz.cl/hotel-almacruz/",
+  "Bellavista": "https://www.hotelbellavista.cl/",
   "Apart Hotel y Cabañas Valle Exploradores": "https://www.explorandopatagonia.cl/",
   "Loberías del Sur": "https://www.loberiasdelsur.cl/",
   "New Otani": "https://www.hotelnewotanichangfugong.com/en/",

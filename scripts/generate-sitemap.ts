@@ -126,6 +126,7 @@ const GRUPOS = [
   "india-sri-lanka-holi-2027",
   "islandia-2026",
   "jordania-2026",
+  "lagos-chilenos-carnaval-2027",
   "marrocos-2026",
   "mexico-2026",
   "nepal-butao-2027",
