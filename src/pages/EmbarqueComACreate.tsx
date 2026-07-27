@@ -55,6 +55,7 @@ import grupoEquadorGalapagosCarnavalImg from "@/assets/grupo-equador-galapagos-c
 import grupoIndiaSriLankaHoliImg from "@/assets/grupo-india-sri-lanka-holi-2027.jpg";
 import grupoCoreiaJapaoCerejeirasImg from "@/assets/grupo-coreia-japao-cerejeiras-2027.jpg";
 import grupoChinaPrimaveraImg from "@/assets/grupo-china-primavera-2027.jpg";
+import grupoLagosChilenosImg from "@/assets/grupo-lagos-chilenos-2027.jpg";
 
 const RAW_DEPARTURES = [
   {
@@ -395,6 +396,16 @@ const RAW_DEPARTURES = [
     subtitle: "Beijing · Grande Muralha · Xi'an · Zhangjiajie · Shanghai",
     desc: "Cidade Proibida, Grande Muralha, Guerreiros de Terracota, Zhangjiajie (cenário de Avatar) e Shanghai futurista. Voos Ethiopian e guia desde o Brasil.",
     fromPrice: "A partir de US$ 5.998 por pessoa (apto duplo)",
+    status: "Saída confirmada",
+  },
+  {
+    href: "/grupos/lagos-chilenos-carnaval-2027",
+    img: grupoLagosChilenosImg,
+    tag: "03 a 11/02/2027 · 9 dias · Carnaval",
+    title: "Lagos Chilenos · Carnaval 2027",
+    subtitle: "Santiago · Undurraga · Puerto Varas · Frutillar · Peulla",
+    desc: "Carnaval entre lagos, vulcões e vinhedos: Vinícola Undurraga, Puerto Varas com vista para o Osorno, Frutillar alemã e navegação pelo Lago Esmeralda até Peulla. Voos LATAM e guia desde o Brasil.",
+    fromPrice: "A partir de US$ 2.600 por pessoa (apto duplo)",
     status: "Saída confirmada",
   },
 ];
