@@ -56,6 +56,7 @@ import grupoIndiaSriLankaHoliImg from "@/assets/grupo-india-sri-lanka-holi-2027.
 import grupoCoreiaJapaoCerejeirasImg from "@/assets/grupo-coreia-japao-cerejeiras-2027.jpg";
 import grupoChinaPrimaveraImg from "@/assets/grupo-china-primavera-2027.jpg";
 import grupoLagosChilenosImg from "@/assets/grupo-lagos-chilenos-2027.jpg";
+import grupoTunisiaImg from "@/assets/grupo-tunisia-carnaval-2027.jpg";
 
 const RAW_DEPARTURES = [
   {
@@ -406,6 +407,16 @@ const RAW_DEPARTURES = [
     subtitle: "Santiago · Undurraga · Puerto Varas · Frutillar · Peulla",
     desc: "Carnaval entre lagos, vulcões e vinhedos: Vinícola Undurraga, Puerto Varas com vista para o Osorno, Frutillar alemã e navegação pelo Lago Esmeralda até Peulla. Voos LATAM e guia desde o Brasil.",
     fromPrice: "A partir de US$ 2.600 por pessoa (apto duplo)",
+    status: "Saída confirmada",
+  },
+  {
+    href: "/grupos/tunisia-carnaval-2027",
+    img: grupoTunisiaImg,
+    tag: "05 a 15/02/2027 · 11 dias · Carnaval",
+    title: "Tunísia · Carnaval 2027",
+    subtitle: "Túnis · Cartago · Sidi Bou Said · Dougga · Tozeur · Douz · Sfax",
+    desc: "Entre a história milenar de Cartago, o Mediterrâneo azul-e-branco de Sidi Bou Said e a magia do Saara. Coliseu de El Jem, cenários de Star Wars e Dougga (UNESCO). Voos ITA Airways e guia desde o Brasil.",
+    fromPrice: "A partir de € 4.158 por pessoa (apto duplo)",
     status: "Saída confirmada",
   },
 ];
