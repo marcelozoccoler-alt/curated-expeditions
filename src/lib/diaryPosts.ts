@@ -3096,6 +3096,187 @@ export const diaryPosts: DiaryPost[] = [
     category: "Roteiro",
     whatsappName: "Compras e roteiro Europa do Leste + Istambul",
   },
+  {
+    slug: "tunisia-sensorial-do-saara-a-medina",
+    title: "Tunísia sensorial: do silêncio do Saara ao azul de Sidi Bou Said",
+    h1: "Tunísia sensorial: do silêncio do Saara ao azul de Sidi Bou Said",
+    metaDescription:
+      "Uma viagem pela Tunísia contada em cheiros, texturas e cores: Cartago, medina de Túnis, dunas de Douz, oásis de Tozeur e o azul de Sidi Bou Said.",
+    keywords:
+      "viagem tunisia, tunisia turismo, tunisia roteiro, saara tunisia, sidi bou said, cartago, medina de tunis, tozeur, douz",
+    intro:
+      "Existe um momento, logo depois do pôr do sol no Saara, em que o vento para. As dunas ficam cor de brasa, o silêncio vira quase físico e você percebe que a Tunísia não é um destino — é um estado de atenção. Este diário é uma viagem antes da viagem: um convite a atravessar Cartago, a medina de Túnis, os oásis de Tozeur, as dunas de Douz e o azul cobalto de Sidi Bou Said pelos sentidos, para que o desejo de estar lá se transforme em decisão.",
+    sections: [
+      {
+        heading: "Túnis e Cartago: a memória do Mediterrâneo aos seus pés",
+        paragraphs: [
+          "Chegar a Túnis é entrar em uma cidade que foi Fenícia, Roma, Bizâncio, califado árabe, protetorado francês — e nunca deixou de ser mediterrânea. O ar tem sal, jasmim e café forte. A medina, patrimônio da UNESCO, é um labirinto branco e ocre onde o couro cru dos souks convive com o cheiro doce de água de flor de laranjeira nos confeiteiros.",
+          "A poucos quilômetros dali, as ruínas de Cartago se abrem sobre o mar. Andar entre as colunas dos banhos de Antonino ao fim da tarde, com o azul do golfo cortando o horizonte, é entender por que Roma tentou apagar essa cidade três vezes. A pedra guarda o vento, e o vento guarda a história.",
+        ],
+      },
+      {
+        heading: "Sidi Bou Said: o azul que vira estado de espírito",
+        paragraphs: [
+          "Existe um azul específico — profundo, quase elétrico — que só existe em Sidi Bou Said. Paul Klee esteve aqui em 1914 e escreveu que a cor havia, enfim, tomado posse dele. Você entende por quê ao subir as ruelas de pedra polida entre casas caiadas de branco, portas cravejadas de tachas negras, buganvílias explodindo em fúcsia e o Mediterrâneo aparecendo em cada esquina.",
+          "Um café de menta no Café des Nattes, sentado sobre esteiras vermelhas com uma narguile perfumada ao lado, é a pausa que reorganiza o resto da viagem. Ao anoitecer, o azul e o branco parecem trocar de posição sob a luz das lanternas — e a Tunísia começa a se instalar em você.",
+        ],
+      },
+      {
+        heading: "O Saara em Douz: o silêncio como paisagem",
+        paragraphs: [
+          "Douz é chamada de porta do Saara e faz jus ao apelido. Você sai da cidade em um 4x4, atravessa um mar de tamareiras e, de repente, o asfalto acaba. Só duna. As sombras dos camelos se alongam sobre a areia cor de canela, e o guia beduíno sorri quando você tenta descrever o que está vendo.",
+          "À noite, num acampamento sob tenda de lã de camelo, o céu se abre como não se abre em nenhum outro lugar. Bebe-se chá de menta em três tempos — amargo como a vida, doce como o amor, suave como a morte, dizem os berberes. E dorme-se com o som do vento reorganizando as dunas do lado de fora.",
+        ],
+      },
+      {
+        heading: "Tozeur, Chott El Jerid e o oásis: a Tunísia lunar",
+        paragraphs: [
+          "Do Saara para Tozeur, atravessa-se o Chott El Jerid — um lago salgado gigantesco, esbranquiçado, com miragens tremendo no horizonte. Não é à toa que George Lucas escolheu esta região para filmar cenas de Star Wars: parece outro planeta.",
+          "Tozeur tem tijolos amarelos desenhando geometrias islâmicas nas fachadas, e seu palmeiral tem mais de 400 mil tamareiras irrigadas por um sistema de canais herdado do século XIII. Um passeio de charrete pelo oásis, com o cheiro adocicado das tâmaras maduras e o gorjeio dos pássaros, é uma das experiências mais delicadas que a viagem oferece.",
+        ],
+      },
+      {
+        heading: "El Jem e Kairouan: onde o tempo se assenta",
+        paragraphs: [
+          "El Jem guarda um dos maiores anfiteatros romanos do mundo — maior, em muitos aspectos, que o Coliseu. Ele emerge sozinho no meio da paisagem plana, e caminhar pelas galerias subterrâneas onde gladiadores esperavam é sentir a pele arrepiar sem drama.",
+          "Kairouan, quarta cidade sagrada do Islã, tem a Grande Mesquita com 414 colunas romanas reaproveitadas, tapetes tecidos à mão nas casas da medina e o cheiro específico do makroudh — doce de tâmara e semolina frito em azeite — que sai das padarias ao entardecer.",
+        ],
+      },
+      {
+        heading: "A mesa tunisiana: brik, harissa, tâmaras e chá de pinhão",
+        paragraphs: [
+          "Comer na Tunísia é uma aula sobre o Mediterrâneo do sul. O brik — massa filo crocante recheada com ovo mole, atum, alcaparras e salsa — é obrigatório na primeira refeição. A harissa, pasta de pimenta vermelha com alho e cominho, aparece em tudo, do cuscuz de peixe de Sfax ao lablabi de Túnis (sopa de grão-de-bico servida com pão amanhecido, ovo, alcaparras e azeite).",
+          "Na sobremesa, tâmaras Deglet Nour recheadas com pasta de amêndoa, laranjas de Nabeul perfumadas com água de flor de laranjeira e o chá verde de menta servido com pinhões torrados flutuando no copo. Cada refeição é um convite a ficar mais um pouco.",
+        ],
+      },
+      {
+        heading: "Uma viagem antes da viagem",
+        paragraphs: [
+          "A Tunísia cabe em pouco menos de dez dias e, ainda assim, é grande demais para um só relato. É um país onde o Império Romano, o Islã, o Saara e o Mediterrâneo dialogam num só café da manhã. Se, ao terminar de ler, você sentir o cheiro de jasmim, o gosto de tâmara e o silêncio da duna, este diário cumpriu seu papel — o resto é combinar as datas.",
+        ],
+      },
+    ],
+    faq: [
+      {
+        q: "Qual é a melhor época para viajar à Tunísia?",
+        a: "Primavera (março a maio) e outono (setembro a novembro) oferecem temperaturas amenas, ideais para combinar litoral, medina e Saara. No verão europeu, o deserto fica muito quente; no inverno, as noites no Saara são frias mas o céu é o mais limpo do ano.",
+      },
+      {
+        q: "Precisa de visto para brasileiros viajarem à Tunísia?",
+        a: "Brasileiros não precisam de visto para estadas turísticas de até 90 dias. É necessário passaporte com validade mínima de 6 meses e comprovante de hospedagem.",
+      },
+      {
+        q: "O Saara é seguro e confortável para viajantes que buscam experiências autorais?",
+        a: "Sim. As rotas de Douz e Tozeur são consolidadas há décadas, com acampamentos de tenda de qualidade, guias experientes e infraestrutura para viajantes exigentes. A Create Travel opera com parceiros locais de confiança.",
+      },
+      {
+        q: "Dá para combinar Tunísia com outro destino no mesmo roteiro?",
+        a: "Sim. As melhores combinações são com Roma (voo direto de 1h30), Paris ou Istambul, permitindo montar uma narrativa mediterrânea coerente.",
+      },
+    ],
+    relatedDestinations: [
+      { label: "Grupo Tunísia · Carnaval 2027", href: "/grupos/tunisia-carnaval-2027" },
+      { label: "Experiência: Cultura & história", href: "/experiencias/cultura" },
+      { label: "Experiência: Deserto & aventura", href: "/experiencias/aventura" },
+    ],
+    imageAiPrompt:
+      "Editorial travel photograph of Sidi Bou Said in Tunisia at golden hour: whitewashed houses with cobalt blue doors and windows, bougainvillea in bloom, cobblestone alley opening to the Mediterranean Sea, warm sunlight, no visible faces, cinematic, high detail, National Geographic style.",
+    publishedAt: "2026-07-27",
+    readingMinutes: 11,
+    category: "Destino",
+    whatsappName: "Viagem sensorial pela Tunísia",
+  },
+  {
+    slug: "lagos-chilenos-viagem-de-agua-e-vulcao",
+    title: "Lagos Chilenos: uma viagem de água, vulcão e madeira",
+    h1: "Lagos Chilenos: uma viagem de água, vulcão e madeira",
+    metaDescription:
+      "Um diário sensorial pela Região dos Lagos no Chile: Puerto Varas, Frutillar, vulcão Osorno, Petrohué, Chiloé e a alma alemã-chilota da Patagônia verde.",
+    keywords:
+      "lagos chilenos, region de los lagos, puerto varas, frutillar, vulcão osorno, petrohue, chiloe, patagonia verde, viagem chile",
+    intro:
+      "Existe um Chile que não é deserto, nem vinhedo, nem Torres del Paine. É um Chile de água escura, madeira lavada pela chuva, vulcões nevados que emergem do outro lado do lago e cheiro de pão recém-assado com kuchen de framboesa. Este diário é uma viagem antes da viagem pela Região dos Lagos — Puerto Varas, Frutillar, vulcão Osorno, saltos de Petrohué e a ilha mágica de Chiloé — para que o desejo de atravessar essas paisagens venha antes das datas.",
+    sections: [
+      {
+        heading: "Puerto Varas: onde o vulcão Osorno se olha no espelho",
+        paragraphs: [
+          "Você chega a Puerto Varas e a primeira coisa que faz é procurar o vulcão. Ele aparece do outro lado do Lago Llanquihue — o segundo maior do Chile — como um triângulo branco perfeito, quase impossível de ser real. Nos dias claros, o Osorno se reflete inteiro na água, e a cidade toda parece organizada em torno dessa aparição.",
+          "As casas de madeira pintadas de vermelho, azul e verde-musgo lembram a herança dos colonos alemães que chegaram em 1852. A padaria mais antiga ainda serve strudel de maçã com creme, e nos cafés da orla se toma chocolate quente com um pedaço de kuchen de mora enquanto o vento vem do lago.",
+        ],
+      },
+      {
+        heading: "Frutillar: o piano à beira do lago",
+        paragraphs: [
+          "A menos de uma hora de Puerto Varas, Frutillar parece um cenário. As casas históricas alinham-se à beira do Lago Llanquihue, os jardins têm hortênsias azuis do tamanho de melancias, e no verão o Teatro del Lago — um edifício de madeira suspenso sobre a água — recebe um festival internacional de música clássica.",
+          "Sentar-se no deck do teatro ao entardecer, com uma taça de vinho do Valle del Itata e ouvir um violoncelo enquanto o Osorno muda de cor com o pôr do sol, é uma dessas experiências que ficam ancoradas no corpo. Você não lembra o repertório — lembra a sensação.",
+        ],
+      },
+      {
+        heading: "Vulcão Osorno e os Saltos de Petrohué: a força e a delicadeza",
+        paragraphs: [
+          "Subir ao Osorno é entrar em outra escala. A estrada de terra atravessa uma floresta de araucárias e coigües, e nas plataformas altas, entre 1.200 e 2.000 metros, você caminha sobre neve firme com vista para os lagos Llanquihue e Todos los Santos ao mesmo tempo. O ar é fino, a luz é branca, e o silêncio pesa.",
+          "Descer para os Saltos de Petrohué é o contraste perfeito. Ali, a água de degelo do vulcão despenca por rochas vulcânicas negras em um azul-turquesa quase artificial. O barulho é constante, as gotas de spray molham as sobrancelhas, e no fundo do quadro está sempre o Osorno, imóvel e nevado. É a foto que resume a viagem.",
+        ],
+      },
+      {
+        heading: "Lago Todos los Santos: o esmeralda que atravessa a fronteira",
+        paragraphs: [
+          "O Todos los Santos é chamado de Lago Esmeralda — e é literal. A água tem uma cor que só existe ali, resultado dos sedimentos glaciais em suspensão. Um passeio de catamarã até Peulla, no fim do lago, atravessa fiordes cercados por florestas nativas que não foram tocadas.",
+          "Este mesmo lago liga o Chile à Argentina através do Cruce Andino — o histórico atravessamento até Bariloche. Mesmo sem cruzar a fronteira, apenas navegar por ele é uma das experiências mais silenciosas que a Patagônia verde oferece.",
+        ],
+      },
+      {
+        heading: "Chiloé: a ilha das igrejas de madeira e dos palafitos",
+        paragraphs: [
+          "Atravessar o Canal de Chacao em uma balsa e chegar a Chiloé é entrar em outro tempo. A ilha tem uma mitologia própria — a Pincoya, o Trauco, o Caleuche — e 16 igrejas de madeira patrimônio da UNESCO, construídas por jesuítas no século XVIII sem um único prego.",
+          "Em Castro, os palafitos coloridos se debruçam sobre o mar. O curanto — prato tradicional cozido em buraco no chão sobre pedras quentes, com marisco, batata, chorizo e milcao — é servido em restaurantes de família onde a lã de ovelha cobre as cadeiras. Sai-se de Chiloé com o gosto do mar e a certeza de ter visitado uma cultura que ainda não se rendeu.",
+        ],
+      },
+      {
+        heading: "A mesa do sul do Chile: cordeiro, merluza austral e vinho novo",
+        paragraphs: [
+          "Comer na Região dos Lagos é comer perto do fogo. O cordeiro ao palo — assado inteiro numa cruz de ferro sobre brasas — é servido com pebre (molho de coentro, pimenta verde, cebola e limão) e batatas nativas de Chiloé, que têm mais de 200 variedades registradas.",
+          "A merluza austral grelhada, o ostión de Calbuco, o milcao de batata ralada e o chocolate artesanal de Puerto Varas encontram sua contrapartida líquida em vinhos frescos do Itata e do Bío Bío — brancos minerais e tintos leves que combinam com a chuva miúda quase constante da região.",
+        ],
+      },
+      {
+        heading: "Uma viagem antes da viagem",
+        paragraphs: [
+          "Os Lagos Chilenos são a Patagônia sem exigência de sofrimento. Você tem paisagem grande, cultura viva, gastronomia refinada e uma logística confortável, tudo em um voo curto desde São Paulo. Se, ao terminar de ler, você sentir o cheiro de lenha, o gosto de kuchen de framboesa e a silhueta do Osorno no fim da tarde, este diário fez o seu trabalho.",
+        ],
+      },
+    ],
+    faq: [
+      {
+        q: "Qual é a melhor época para viajar aos Lagos Chilenos?",
+        a: "Outubro a abril, quando os dias são longos e as trilhas ao Osorno estão liberadas. Janeiro e fevereiro trazem o Festival de Música de Frutillar. O outono (abril e maio) tem cores douradas espetaculares e menor movimento.",
+      },
+      {
+        q: "Como chegar à Região dos Lagos vindo do Brasil?",
+        a: "Voo até Santiago e conexão de aproximadamente 1h30 até Puerto Montt, aeroporto que serve Puerto Varas e Frutillar. De lá, transfers rodoviários curtos levam a todos os destinos da região.",
+      },
+      {
+        q: "Vale a pena incluir Chiloé no roteiro?",
+        a: "Sim. Chiloé acrescenta uma dimensão cultural única — igrejas de madeira, palafitos, mitologia local e gastronomia distinta. Recomendamos mínimo de duas noites para atravessar Castro, Dalcahue e Achao com calma.",
+      },
+      {
+        q: "Dá para combinar Lagos Chilenos com outro destino da América do Sul?",
+        a: "Sim. As combinações mais bem-sucedidas são com Bariloche (via Cruce Andino), Torres del Paine (voo interno) ou uma parada em Santiago para vinhedos do Valle de Casablanca.",
+      },
+    ],
+    relatedDestinations: [
+      { label: "Grupo Lagos Chilenos · Carnaval 2027", href: "/grupos/lagos-chilenos-carnaval-2027" },
+      { label: "Experiência: Natureza & bem-estar", href: "/experiencias/natureza" },
+      { label: "Experiência: Cultura & história", href: "/experiencias/cultura" },
+    ],
+    imageAiPrompt:
+      "Editorial travel photograph of Puerto Varas Chile at golden hour: snow-capped Osorno volcano reflecting on Llanquihue lake, wooden colonial houses with red and green roofs, blue hydrangeas in the foreground, dramatic Patagonian sky, no visible faces, cinematic, high detail, National Geographic style.",
+    publishedAt: "2026-07-27",
+    readingMinutes: 11,
+    category: "Destino",
+    whatsappName: "Viagem sensorial pelos Lagos Chilenos",
+  },
+
 ];
 
 
