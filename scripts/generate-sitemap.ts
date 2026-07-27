@@ -139,6 +139,7 @@ const GRUPOS = [
   "tailandia-2026",
   "turquia-2026",
   "turquia-reveillon-2027",
+  "tunisia-carnaval-2027",
   "vietna-laos-camboja-2027",
 ];
 push("/embarque-com-a-create", 0.9, "weekly");
