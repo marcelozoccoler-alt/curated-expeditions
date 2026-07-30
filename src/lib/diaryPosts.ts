@@ -3396,7 +3396,99 @@ export const diaryPosts: DiaryPost[] = [
     category: "Destino",
     whatsappName: "Socotra (Iêmen)",
   },
+  {
+    slug: "oma-mascate-oasis-montanhas-deserto",
+    title: "Omã: Mascate, oásis, montanhas e o deserto de Wahiba",
+    h1: "Omã: de Mascate aos oásis, das montanhas ao deserto",
+    metaDescription:
+      "Guia sensorial de Omã: Mascate, wadis e oásis, as montanhas Hajar (Jebel Akhdar e Jebel Shams) e o deserto de Wahiba Sands. Curadoria Create Travel.",
+    keywords:
+      "omã, oman viagem, mascate, muscat, wahiba sands, jebel akhdar, jebel shams, wadi shab, nizwa, oásis omã, deserto de omã, roteiro omã",
+    intro:
+      "Omã é a Arábia sem estridência. Não há arranha-céus competindo pelo céu nem shoppings climatizados fazendo as vezes de cidade: há minaretes baixos, casas caiadas de branco, portas de madeira entalhada, fortes de barro no topo de colinas e um silêncio que parece anterior a tudo. Em uma mesma semana você acorda com o mar de Omã batendo na corniche de Mascate, almoça sob tamareiras num oásis alimentado por canais de dois mil anos, atravessa desfiladeiros de calcário a 2.000 metros e dorme numa duna cor de canela ouvindo apenas o vento. É um país que se atravessa devagar — e que recompensa quem o faz.",
+    sections: [
+      {
+        heading: "Mascate: a capital que decidiu não gritar",
+        paragraphs: [
+          "Mascate é uma cidade horizontal encaixada entre montanhas escuras e o mar. Por lei, nenhum prédio pode ultrapassar poucos andares e as fachadas obedecem à arquitetura tradicional — o resultado é uma capital branca, limpa e estranhamente serena para os padrões do Golfo.",
+          "Comece pela Grande Mesquita Sultan Qaboos, aberta a visitantes não muçulmanos pela manhã: o tapete persa da sala de oração principal tem 4.200 m² e foi tecido à mão por centenas de artesãs; o lustre de cristal Swarovski desce catorze metros do domo. Vá cedo, com ombros e joelhas cobertos e lenço na cabeça para as mulheres.",
+          "À tarde, o Mutrah Souq: labirinto coberto onde o cheiro de olíbano (frankincense) queimando se mistura ao de sândalo, cardamomo e couro. É aqui que se compra o incenso de Dhofar, os queimadores de cerâmica, prata beduína e o khanjar, a adaga curva que é símbolo nacional. Negocie com calma e sem pressa — a pressa é o único gesto deselegante em Omã.",
+          "No fim do dia, caminhe pela corniche até o Palácio Al Alam, ladeado pelos fortes portugueses Jalali e Mirani, do século XVI. O pôr do sol tinge as montanhas de violeta e os dhows de madeira voltam da pesca. Jantar: peixe kingfish grelhado com arroz de especiarias e shuwa, cordeiro marinado e cozido por 24 horas em forno de terra.",
+        ],
+      },
+      {
+        heading: "Os oásis e os wadis: água onde não deveria haver água",
+        paragraphs: [
+          "Nada em Omã surpreende mais do que a água. Depois de horas de deserto rochoso, o carro contorna uma curva e aparece uma fenda verde: um wadi, cânion com piscinas de água doce esmeralda entre paredões de calcário.",
+          "Wadi Shab é o mais famoso e merece a fama: uma travessia curta de barco, 45 minutos de caminhada entre tamareiras e bananeiras, e então uma sequência de piscinas naturais onde se nada até uma fenda estreita na rocha que dá acesso a uma caverna com cachoeira interna. Wadi Bani Khalid é mais acessível e ótimo para quem viaja com crianças; Wadi Tiwi, mais bruto e menos visitado.",
+          "Os oásis agrícolas são a outra face dessa engenharia. Em Birkat Al Mouz e Al Hamra, os falaj — canais de irrigação escavados há mais de dois mil anos e reconhecidos pela Unesco — distribuem a água da montanha por gravidade entre os palmeirais, dividindo minutos de rega entre as famílias segundo um relógio solar. Caminhar dentro de um palmeiral omani ao meio-dia é entender o luxo original do deserto: sombra e água corrente.",
+          "Nizwa, antiga capital do interior, concentra tudo isso: o forte circular do século XVII com sua torre de 40 metros, o souq de prata e cerâmica e, às sextas-feiras de manhã, o mercado de cabras — um dos espetáculos etnográficos mais autênticos da Península Arábica.",
+        ],
+      },
+      {
+        heading: "As montanhas Hajar: Jebel Akhdar e Jebel Shams",
+        paragraphs: [
+          "A cordilheira Hajar corta o norte do país e muda completamente a temperatura e a paisagem. Jebel Akhdar, a \"montanha verde\", fica a cerca de 2.000 metros e é o único lugar da Arábia onde crescem romãs, damascos, nozes e, sobretudo, as roseiras de damasco cultivadas em terraços de pedra. Entre o fim de março e o início de maio acontece a colheita e a destilação artesanal da água de rosas — o perfume toma as aldeias inteiras de Al Ayn, Ash Shirayjah e Al Aqr, penduradas na encosta e ligadas por uma trilha de terraços chamada rota das aldeias.",
+          "Jebel Shams, o ponto mais alto do país (3.009 m), guarda o Wadi Ghul — o \"Grand Canyon da Arábia\". A trilha W6, chamada Balcony Walk, acompanha uma cornija natural na parede do desfiladeiro até a aldeia abandonada de As Sab: três horas de ida e volta, sem grande dificuldade técnica, com um abismo de mil metros ao lado. À noite, a temperatura cai para perto de zero no inverno e o céu abre uma quantidade obscena de estrelas.",
+          "A subida a essas montanhas exige veículo 4x4 — há postos de controle que verificam isso. É o tipo de detalhe que a curadoria resolve antes: motorista-guia local, hospedagem certa na borda do cânion e horários pensados para você estar no lugar certo na luz certa.",
+        ],
+      },
+      {
+        heading: "Wahiba Sands: a noite no deserto",
+        paragraphs: [
+          "As Wahiba Sands (Sharqiya Sands) são 12.500 km² de dunas longitudinais que mudam do dourado ao vermelho conforme o sol desce. Chega-se pela borda, onde se esvaziam parcialmente os pneus antes de entrar na areia, e o carro sobe cristas com a leveza de um barco.",
+          "O ritual é sempre o mesmo e nunca cansa: chegar ao acampamento no meio da tarde, subir descalço à duna mais alta, esperar o sol se dissolver, jantar sob lampiões com música beduína ao vivo, e depois — o melhor momento — afastar-se cem metros das luzes e deitar na areia ainda morna para ver a Via Láctea inteira. O silêncio no deserto tem textura: você escuta o próprio sangue.",
+          "De manhã, café com tâmaras e halwa omani, passeio de camelo com uma família beduína e, para quem quiser, sandboard. A caminho da costa vale o desvio a Wadi Bani Khalid, e depois Sur, cidade dos estaleiros de dhows, e Ras Al Jinz, reserva onde tartarugas-verdes desovam durante o ano inteiro em passeios noturnos guiados.",
+        ],
+      },
+      {
+        heading: "Quando ir, quanto tempo e como se comportar",
+        paragraphs: [
+          "A melhor época vai de outubro a abril, com dias entre 25°C e 30°C e noites frescas. De maio a setembro o calor no interior ultrapassa 45°C — a exceção é Salalah, no sul, que entre junho e setembro recebe a monção khareef e fica verde, com cachoeiras e neblina.",
+          "Dez dias permitem um circuito completo: Mascate (3 noites), Nizwa e Jebel Akhdar (2), Jebel Shams (1), Wahiba Sands (1), Sur e a costa (2). Com catorze dias entram Salalah e as praias de Dhofar ou a península de Musandam, os \"fiordes da Arábia\", navegando de dhow entre paredões e golfinhos.",
+          "Omã é um país muçulmano tradicional e tranquilo: roupas que cubram ombros e joelhos, álcool restrito a hotéis licenciados, e demonstração de afeto discreta. Em troca, você recebe uma hospitalidade que é quase constrangedora de tão genuína — café com cardamomo (kahwa) e tâmaras oferecidos em qualquer parada, sempre.",
+        ],
+      },
+    ],
+    faq: [
+      {
+        q: "Brasileiro precisa de visto para Omã?",
+        a: "Cidadãos brasileiros com passaporte válido por pelo menos seis meses podem entrar em Omã sem visto para turismo por até 14 dias. Para estadias maiores, o visto eletrônico é solicitado on-line antes do embarque. Confirmamos as regras vigentes na data da sua viagem antes de emitir os bilhetes.",
+      },
+      {
+        q: "Como chegar a Omã saindo do Brasil?",
+        a: "As melhores conexões saem de São Paulo com Emirates via Dubai, Qatar Airways via Doha ou Etihad via Abu Dhabi, todas com voo curto até Mascate. O tempo total de viagem fica entre 18 e 22 horas.",
+      },
+      {
+        q: "Qual é a melhor época para visitar Omã?",
+        a: "De outubro a abril, quando os dias ficam entre 25°C e 30°C. Para os campos de rosas de Jebel Akhdar, vá entre o fim de março e o início de maio. Salalah é a exceção: fica verde e agradável de junho a setembro, na monção khareef.",
+      },
+      {
+        q: "Omã é seguro para viajar?",
+        a: "Sim. Omã é considerado um dos países mais seguros do Oriente Médio, com índices de criminalidade muito baixos e forte tradição de hospitalidade. As estradas são excelentes e a sinalização é bilíngue.",
+      },
+      {
+        q: "Precisa de 4x4 para fazer o roteiro?",
+        a: "Para Mascate, Nizwa e a costa, um carro comum resolve. Para subir Jebel Akhdar e Jebel Shams e para entrar nas Wahiba Sands, o 4x4 é obrigatório — inclusive há fiscalização na base da montanha. Organizamos motorista-guia local para esses trechos.",
+      },
+      {
+        q: "Vale a pena dormir no deserto?",
+        a: "Vale, e é o ponto alto de muitos roteiros. Os acampamentos das Wahiba Sands vão do rústico ao luxo, com barracas privativas, banheiro completo e jantar sob as estrelas. Uma noite é suficiente; duas, se quiser desacelerar de verdade.",
+      },
+    ],
+    relatedDestinations: [
+      { label: "Roteiro sob medida com a curadoria Create", href: "/roteiro-sob-medida" },
+      { label: "Embarque com a Create — saídas em grupo", href: "/embarque-com-a-create" },
+    ],
+    imageAiPrompt:
+      "Golden sand dunes of Wahiba Sands in Oman at sunset with a distant camel caravan silhouette and dramatic warm light, editorial travel photography, no identifiable faces",
+    publishedAt: "2026-07-30",
+    readingMinutes: 12,
+    category: "Destino",
+    whatsappName: "Omã (Mascate, montanhas e deserto)",
+  },
 ];
+
 
 
 export const getDiaryPost = (slug: string): DiaryPost | undefined =>
