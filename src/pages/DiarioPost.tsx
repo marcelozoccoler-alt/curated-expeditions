@@ -141,10 +141,7 @@ const DiarioPost = () => {
           </motion.div>
 
           <div className="my-10 pt-8 border-t border-border">
-            <ShareButtons url={url} title={post.h1} summary={post.metaDescription} imageUrl={(() => {
-              const cover = getDiaryCover(post);
-              return cover && !cover.startsWith("http") ? `${CONTACT.domain}${cover}` : cover;
-            })()} />
+            <ShareButtons url={url} title={post.h1} summary={post.metaDescription} />
           </div>
 
 
