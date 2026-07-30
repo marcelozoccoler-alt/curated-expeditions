@@ -2,6 +2,7 @@ import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
 import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
+import { WhatsAppSubscribeForm } from "@/components/WhatsAppSubscribeForm";
 import { SEO } from "@/components/SEO";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
 import { WhatsAppButton } from "@/components/WhatsAppButton";
@@ -110,6 +111,12 @@ const Diario = () => {
               );
             })}
           </div>
+        </div>
+      </section>
+
+      <section className="section-padding bg-muted">
+        <div className="container-editorial">
+          <WhatsAppSubscribeForm source="blog" />
         </div>
       </section>
 

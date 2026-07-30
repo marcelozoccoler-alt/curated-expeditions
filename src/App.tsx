@@ -62,6 +62,7 @@ import DiarioCategoria from "./pages/DiarioCategoria";
 import Pacote from "./pages/Pacote";
 import Auth from "./pages/Auth";
 import AdminSeo from "./pages/AdminSeo";
+import AdminWhatsApp from "./pages/AdminWhatsApp";
 import Guia, { GuiasIndex } from "./pages/Guia";
 import RoteiroSobMedida from "./pages/RoteiroSobMedida";
 import GruposGuiaBrasileiro from "./pages/GruposGuiaBrasileiro";
@@ -144,6 +145,7 @@ const App = () => (
           <Route path="/pacote/:slug" element={<Pacote />} />
           <Route path="/auth" element={<Auth />} />
           <Route path="/admin/seo" element={<AdminSeo />} />
+          <Route path="/admin/whatsapp" element={<AdminWhatsApp />} />
           <Route path="/guias" element={<GuiasIndex />} />
           <Route path="/guias/:slug" element={<Guia />} />
 

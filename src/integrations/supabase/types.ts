@@ -35,6 +35,42 @@ export type Database = {
         }
         Relationships: []
       }
+      whatsapp_subscribers: {
+        Row: {
+          active: boolean
+          city: string | null
+          consent: boolean
+          created_at: string
+          id: string
+          interests: string[]
+          name: string
+          phone: string
+          source: string | null
+        }
+        Insert: {
+          active?: boolean
+          city?: string | null
+          consent?: boolean
+          created_at?: string
+          id?: string
+          interests?: string[]
+          name: string
+          phone: string
+          source?: string | null
+        }
+        Update: {
+          active?: boolean
+          city?: string | null
+          consent?: boolean
+          created_at?: string
+          id?: string
+          interests?: string[]
+          name?: string
+          phone?: string
+          source?: string | null
+        }
+        Relationships: []
+      }
     }
     Views: {
       [_ in never]: never
