@@ -113,9 +113,15 @@ const DiarioPost = () => {
             ) : null;
           })()}
 
-          <div className="mb-10">
-            <ShareButtons url={url} title={post.h1} summary={post.metaDescription} />
-          </div>
+          {(() => {
+            const cover = getDiaryCover(post);
+            const shareImage = cover && !cover.startsWith("http") ? `${CONTACT.domain}${cover}` : cover;
+            return (
+              <div className="mb-10">
+                <ShareButtons url={url} title={post.h1} summary={post.metaDescription} imageUrl={shareImage} />
+              </div>
+            );
+          })()}
 
           <motion.div
             initial={{ opacity: 0 }}
