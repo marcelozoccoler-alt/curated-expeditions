@@ -113,6 +113,12 @@ const Diario = () => {
         </div>
       </section>
 
+      <section className="section-padding bg-muted">
+        <div className="container-editorial">
+          <WhatsAppSubscribeForm source="blog" />
+        </div>
+      </section>
+
       <Footer />
     </div>
   );
