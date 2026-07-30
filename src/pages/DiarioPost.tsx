@@ -67,6 +67,7 @@ const DiarioPost = () => {
         canonicalPath={`/diario/${post.slug}`}
         keywords={post.keywords}
         ogType="article"
+        ogImage="https://createtravel.tur.br/og-diario.jpg"
         jsonLd={faqLd ? [articleLd, breadcrumbLd, faqLd] : [articleLd, breadcrumbLd]}
       />
       <Header />
