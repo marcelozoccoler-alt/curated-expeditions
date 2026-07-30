@@ -115,10 +115,9 @@ const DiarioPost = () => {
 
           {(() => {
             const cover = getDiaryCover(post);
-            const shareImage = cover && !cover.startsWith("http") ? `${CONTACT.domain}${cover}` : cover;
             return (
               <div className="mb-10">
-                <ShareButtons url={url} title={post.h1} summary={post.metaDescription} imageUrl={shareImage} />
+                <ShareButtons url={url} title={post.h1} summary={post.metaDescription} />
               </div>
             );
           })()}
@@ -142,10 +141,7 @@ const DiarioPost = () => {
           </motion.div>
 
           <div className="my-10 pt-8 border-t border-border">
-            <ShareButtons url={url} title={post.h1} summary={post.metaDescription} imageUrl={(() => {
-              const cover = getDiaryCover(post);
-              return cover && !cover.startsWith("http") ? `${CONTACT.domain}${cover}` : cover;
-            })()} />
+            <ShareButtons url={url} title={post.h1} summary={post.metaDescription} />
           </div>
 
 
