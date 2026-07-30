@@ -3277,6 +3277,125 @@ export const diaryPosts: DiaryPost[] = [
     whatsappName: "Viagem sensorial pelos Lagos Chilenos",
   },
 
+  {
+    slug: "socotra-como-chegar-maravilhas-experiencia",
+    title: "Socotra: como chegar, maravilhas e a experiência de pisar em outro planeta",
+    h1: "Socotra: como chegar, maravilhas e a experiência de pisar em outro planeta",
+    metaDescription:
+      "Guia completo de Socotra (Iêmen): como chegar via Abu Dhabi, o que ver, dragoeiros, dunas, praias desertas, acampamento e dicas práticas. Curadoria Create Travel.",
+    keywords:
+      "socotra, ilha de socotra, como chegar em socotra, socotra iemen, dragoeiro, arvore do sangue de dragao, viagem socotra, socotra roteiro",
+    intro:
+      "Existe uma ilha no Oceano Índico onde um terço de tudo o que cresce não existe em nenhum outro lugar do planeta. Socotra, no arquipélago iemenita, separou-se do continente africano há mais de seis milhões de anos e desde então evoluiu sozinha — criando árvores em forma de guarda-chuva que sangram resina vermelha, pepineiros gigantes de tronco inchado e dunas brancas que escalam montanhas de granito. Não há resorts, quase não há eletricidade contínua e o único hotel de verdade fica na capital. Você dorme em barraca, na areia, sob uma das noites mais estreladas que existem. É uma viagem para quem entendeu que o luxo, hoje, é o intocado.",
+    sections: [
+      {
+        heading: "Onde fica Socotra — e por que ela é chamada de Galápagos do Índico",
+        paragraphs: [
+          "Socotra fica a cerca de 350 km do Chifre da África e a 380 km da costa sul do Iêmen, ao qual pertence politicamente. A ilha principal tem 132 km de comprimento e é o coração de um arquipélago reconhecido como Patrimônio Mundial da UNESCO desde 2008 pela sua biodiversidade extraordinária.",
+          "Cerca de 37% das plantas, 90% dos répteis e 95% dos caracóis terrestres de Socotra são endêmicos — não ocorrem em nenhum outro ponto do planeta. Esse isolamento biológico é o que rende à ilha o apelido de Galápagos do Oceano Índico, e o que faz cada caminhada parecer uma expedição científica improvisada.",
+          "A população, de aproximadamente 60 mil pessoas, fala socotri, uma língua semítica antiga sem forma escrita tradicional. A hospitalidade é genuína, a economia é pastoril e pesqueira, e a estrutura turística é mínima por escolha e por circunstância.",
+        ],
+      },
+      {
+        heading: "Como chegar a Socotra: a rota real, passo a passo",
+        paragraphs: [
+          "A porta de entrada é Abu Dhabi. Voos charter operam normalmente uma vez por semana (tradicionalmente às terças-feiras) entre Abu Dhabi e o Aeroporto de Socotra (SCT), com cerca de 3h30 de duração. Como a frequência é semanal, o roteiro clássico dura 8 dias — de terça a terça.",
+          "Existe também uma rota alternativa via Cairo (Egito) com escala em Seiyun, no continente iemenita, operada de forma irregular. Para viajantes brasileiros, a via Abu Dhabi é incomparavelmente mais segura e previsível.",
+          "Do Brasil, o caminho é: São Paulo → Abu Dhabi (voo direto de aproximadamente 14h com a Etihad) → pernoite em Abu Dhabi → charter para Socotra. Na volta, o mesmo trajeto invertido. Reserve pelo menos uma noite de folga em Abu Dhabi em cada ponta: o charter pode atrasar por vento ou por questões operacionais, e perder a conexão intercontinental é um risco real.",
+          "Documentação: é obrigatório um visto específico de Socotra, emitido pela autoridade local e providenciado pela operadora receptiva com antecedência mínima de três a quatro semanas — não é o visto comum do Iêmen. Também é exigido um trânsito válido pelos Emirados Árabes. Nada disso se resolve no aeroporto; tudo precisa estar pronto antes do embarque.",
+        ],
+      },
+      {
+        heading: "Quando ir: a janela que a monção define",
+        paragraphs: [
+          "Socotra tem uma temporada clara: de outubro a maio. Entre junho e setembro, a monção de sudoeste traz ventos que podem passar de 100 km/h, os voos são suspensos e a ilha praticamente fecha.",
+          "Os melhores meses são de novembro a março, com temperaturas entre 22°C e 30°C, mar calmo e céu limpo. Outubro e abril funcionam bem, mas com mais vento nas praias do norte. Dezembro e janeiro são os mais confortáveis — e também os mais concorridos nos poucos voos disponíveis.",
+        ],
+      },
+      {
+        heading: "Os dragoeiros de Dixam: a árvore que sangra vermelho",
+        paragraphs: [
+          "O planalto de Dixam, a cerca de 1.000 metros de altitude, é o cartão-postal absoluto de Socotra. Ali crescem os dracaena cinnabari — os dragoeiros, ou árvores de sangue de dragão. Têm copa em forma de guarda-chuva invertido, tronco liso e cinzento, e produzem uma resina escarlate usada há séculos como corante, verniz para violinos e remédio tradicional.",
+          "A luz da tarde no mirante de Firmihin, onde vive a maior floresta remanescente de dragoeiros do mundo, é o que fica na memória. As copas se sobrepõem contra a rocha vermelha e o céu ganha um tom de mel. Não há barulho de motor, apenas cabras, vento e o ocasional pastor descalço passando com um bastão.",
+          "Caminhar entre elas é ter a sensação física de estar em outro tempo geológico. Muitas dessas árvores têm centenas de anos e estão ameaçadas pela seca e pelo pastoreio — o que torna a visita, hoje, um privilégio com prazo.",
+        ],
+      },
+      {
+        heading: "Detwah, Shoab e Qalansiyah: as praias que não têm ninguém",
+        paragraphs: [
+          "A lagoa de Detwah, perto da vila de Qalansiyah, é uma piscina natural de água transparente cercada por um banco de areia branca que muda de forma com a maré. Caminha-se por quilômetros com água pelos joelhos, entre estrelas-do-mar e caranguejos, sem cruzar com ninguém.",
+          "De Qalansiyah sai o barco para a praia de Shoab — cerca de 45 minutos costeando falésias, com golfinhos acompanhando o casco quase sempre. Shoab é uma faixa de areia entre montanha e mar aberto, sem estrutura alguma. Você almoça peixe grelhado na areia, nada, e volta ao pôr do sol com o mar cor de laranja.",
+          "No norte, Arher tem a imagem mais improvável de Socotra: uma duna de areia branca de mais de 100 metros que sobe pela encosta de granito, com uma nascente de água doce fria correndo até o mar salgado. Você escala a duna descalço, senta no topo, e vê os dois azuis se encontrarem.",
+        ],
+      },
+      {
+        heading: "Hoq, Homhil e Dihamri: as maravilhas menos óbvias",
+        paragraphs: [
+          "A caverna de Hoq exige uma subida íngreme de cerca de duas horas sob calor forte, e recompensa com três quilômetros de galerias de estalactites e um lago subterrâneo. Nas paredes existem inscrições em alfabetos antigos deixadas por navegantes indianos, gregos e etíopes que aportaram na ilha entre os séculos I e VI.",
+          "Homhil é uma área protegida no nordeste onde crescem juntos dragoeiros, incenso (boswellia) e as bizarras árvores-garrafa (adenium obesum socotranum), de tronco inchado e flores rosa. Ali existe uma piscina natural na borda do penhasco, com vista aberta para o oceano — uma das melhores banheiras de horizonte do mundo.",
+          "Dihamri é a área de mergulho: um recife marinho protegido com visibilidade excelente, tartarugas, arraias e uma vida de corais surpreendentemente saudável. Máscara e snorkel bastam.",
+        ],
+      },
+      {
+        heading: "Como se vive a viagem: acampar é parte da experiência",
+        paragraphs: [
+          "Socotra não tem hotelaria de padrão internacional. Em Hadibo, a capital, existem pousadas simples. No resto da ilha, dorme-se em acampamentos montados pela equipe local: barraca, colchonete, saco de dormir, banheiro rudimentar ou banho de nascente. Não há wi-fi, e o sinal de celular é intermitente.",
+          "Cada grupo viaja com motorista de 4x4, guia local e cozinheiro. As refeições são peixe fresco, arroz, legumes, tâmaras e chá com cardamomo, preparados no fogo. É rústico e é limpo — e é exatamente o que torna a experiência íntegra.",
+          "Leve dinheiro em espécie (dólares em notas novas, trocados em Hadibo), lanterna de cabeça, protetor solar, sapato fechado para trilha, sandália de água, powerbank e remédios pessoais. Não há farmácia com estoque confiável, não há caixa eletrônico e não se aceita cartão.",
+        ],
+      },
+      {
+        heading: "Segurança e responsabilidade",
+        paragraphs: [
+          "Socotra é geograficamente e politicamente distante do conflito do Iêmen continental. A ilha é pacífica, e os visitantes são recebidos com uma hospitalidade quase constrangedora de tão generosa. Ainda assim, é fundamental viajar com operadora receptiva credenciada, seguro de viagem com cobertura de evacuação médica e itinerário registrado.",
+          "Vale também um compromisso ético: não arrancar resina dos dragoeiros, não deixar lixo nos acampamentos, não fotografar pessoas sem pedir e contratar serviços locais. Socotra sobrevive turisticamente há pouco tempo, e o modo como se visita hoje define o que restará dela.",
+        ],
+      },
+      {
+        heading: "Por que ir agora",
+        paragraphs: [
+          "Poucos destinos ainda oferecem a sensação de chegar antes. Socotra é um deles. Não há fila, não há souvenir industrial, não há vista de janela de resort. Há uma ilha que evoluiu sozinha por milhões de anos, e que aceita, por enquanto, receber quem faz o esforço de chegar até ela.",
+          "Se você leu até aqui e já se imaginou no alto da duna de Arher com os pés na areia quente e a nascente fria correndo ao lado, essa viagem já começou. O resto é logística — e disso nós cuidamos.",
+        ],
+      },
+    ],
+    faq: [
+      {
+        q: "Como chegar a Socotra saindo do Brasil?",
+        a: "O caminho padrão é voar de São Paulo a Abu Dhabi (voo direto de cerca de 14h) e de lá embarcar no voo charter semanal para o Aeroporto de Socotra, com cerca de 3h30 de duração. Como o charter costuma operar às terças-feiras, o roteiro clássico dura 8 dias.",
+      },
+      {
+        q: "É preciso visto para visitar Socotra?",
+        a: "Sim. É exigido um visto específico de Socotra, emitido pela autoridade local e providenciado pela operadora receptiva com três a quatro semanas de antecedência. Também é necessário trânsito válido pelos Emirados Árabes Unidos.",
+      },
+      {
+        q: "Socotra é segura para turistas?",
+        a: "Sim. A ilha está distante do conflito no Iêmen continental, é pacífica e a população é acolhedora. Recomendamos sempre viajar com operadora credenciada, seguro com cobertura de evacuação médica e itinerário registrado.",
+      },
+      {
+        q: "Qual é a melhor época para ir a Socotra?",
+        a: "De outubro a maio, sendo novembro a março o período ideal, com clima entre 22°C e 30°C e mar calmo. Entre junho e setembro a monção traz ventos fortes e os voos são suspensos.",
+      },
+      {
+        q: "Como é a hospedagem em Socotra?",
+        a: "Há pousadas simples em Hadibo, a capital, mas a maior parte do roteiro é feita em acampamentos com barracas montadas pela equipe local, próximos às praias e aos planaltos. Não há wi-fi e a energia elétrica é limitada.",
+      },
+      {
+        q: "O que não pode faltar na mala para Socotra?",
+        a: "Dinheiro em espécie (dólares em notas novas), lanterna de cabeça, powerbank, protetor solar, sapato fechado de trilha, sandália de água, roupas leves e de manga longa, snorkel e remédios pessoais. Não há caixa eletrônico nem pagamento com cartão na ilha.",
+      },
+    ],
+    relatedDestinations: [
+      { label: "Roteiro sob medida com a curadoria Create", href: "/roteiro-sob-medida" },
+      { label: "Embarque com a Create — saídas em grupo", href: "/embarque-com-a-create" },
+    ],
+    imageAiPrompt:
+      "Dragon blood trees with umbrella-shaped canopies on the red rocky Dixam plateau of Socotra island at golden hour, dramatic sky, no people, editorial travel photography",
+    publishedAt: "2026-07-30",
+    readingMinutes: 12,
+    category: "Destino",
+    whatsappName: "Socotra (Iêmen)",
+  },
 ];
 
 
