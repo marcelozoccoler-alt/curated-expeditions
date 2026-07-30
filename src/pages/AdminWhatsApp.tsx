@@ -111,7 +111,12 @@ export default function AdminWhatsApp() {
 
   return (
     <div className="min-h-screen bg-background py-12">
-      <SEO title="Lista de transmissão WhatsApp | Create Travel" description="Painel interno" noindex />
+      <SEO
+        title="Lista de transmissão WhatsApp | Create Travel"
+        description="Painel interno"
+        canonicalPath="/admin/whatsapp"
+        noindex
+      />
       <div className="container-editorial space-y-6">
         <div className="flex flex-wrap items-center justify-between gap-4">
           <div>
