@@ -26,6 +26,12 @@ NAVY = "#1E3A8A"
 GOLD = "#D97706"
 CREAM = "#F9F7F2"
 
+
+def logo_bg() -> tuple:
+    """Sample the logo's own background color so the paste blends seamlessly."""
+    from PIL import Image as _I
+    return _I.open(LOGO_PATH).convert("RGB").getpixel((2, 2))
+
 CANVAS_W, CANVAS_H = 1200, 630
 SAFE = 520
 SAFE_Y0 = (CANVAS_H - SAFE) // 2
@@ -45,7 +51,7 @@ def trimmed_logo() -> Image.Image:
 
 
 def generate_image(is_blog: bool = False) -> Image.Image:
-    img = Image.new("RGB", (CANVAS_W, CANVAS_H), CREAM)
+    img = Image.new("RGB", (CANVAS_W, CANVAS_H), logo_bg())
     draw = ImageDraw.Draw(img)
 
     # Thin brand borders
