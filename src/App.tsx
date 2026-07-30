@@ -62,6 +62,7 @@ import DiarioCategoria from "./pages/DiarioCategoria";
 import Pacote from "./pages/Pacote";
 import Auth from "./pages/Auth";
 import AdminSeo from "./pages/AdminSeo";
+import AdminWhatsApp from "./pages/AdminWhatsApp";
 import Guia, { GuiasIndex } from "./pages/Guia";
 import RoteiroSobMedida from "./pages/RoteiroSobMedida";
 import GruposGuiaBrasileiro from "./pages/GruposGuiaBrasileiro";
