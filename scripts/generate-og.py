@@ -1,10 +1,11 @@
 #!/usr/bin/env python3
 """Generate branded OpenGraph images for Create Travel.
 
-Design constraints:
+Design: original logo (balloon + CREATE TRAVEL wordmark) centered on cream,
+with the word "Blog" underneath for the blog variant.
+
 - 1200x630px (OpenGraph standard)
-- 520px square safe zone centered for Facebook mobile crops
-- "Viagens Autorais" must fit in or slightly exceed the width of "CREATE TRAVEL"
+- Everything fits inside the centered 520px square Facebook may crop to
 - Brand colors: navy #1E3A8A, emerald #059669, gold #D97706, cream #F9F7F2
 
 Usage:
@@ -19,135 +20,71 @@ ROOT = Path(__file__).parent.parent
 LOGO_PATH = ROOT / "src/assets/logo.jpg"
 OUT_CREATE = ROOT / "public/og-create-travel.jpg"
 OUT_DIARIO = ROOT / "public/og-diario.jpg"
-
-COLORS = {
-    "navy": "#1E3A8A",
-    "emerald": "#059669",
-    "gold": "#D97706",
-    "cream": "#F9F7F2",
-    "white": "#FFFFFF",
-    "dark": "#111827",
-}
-
-CANVAS_W, CANVAS_H = 1200, 630
-SAFE_ZONE = 520  # centered square Facebook may crop to
-SAFE_X0 = (CANVAS_W - SAFE_ZONE) // 2
-SAFE_Y0 = (CANVAS_H - SAFE_ZONE) // 2
-SAFE_X1, SAFE_Y1 = SAFE_X0 + SAFE_ZONE, SAFE_Y0 + SAFE_ZONE
-
-# Font source — Playfair Display is the brand heading font.
-# Download once and place at this path, or adjust the path below.
 FONT_PLAYFAIR = ROOT / "scripts/PlayfairDisplay.ttf"
 
-
-def load_font(path: Path, size: int):
-    return ImageFont.truetype(str(path), size)
-
-
-def fit_text_width(draw: ImageDraw.ImageDraw, text: str, font_path: Path, max_width: int, max_size: int, min_size: int = 24):
-    """Find the largest font size so text fits within max_width."""
-    for size in range(max_size, min_size - 1, -1):
-        font = load_font(font_path, size)
-        bbox = draw.textbbox((0, 0), text, font=font)
-        width = bbox[2] - bbox[0]
-        if width <= max_width:
-            return font, width, size
-    font = load_font(font_path, min_size)
-    bbox = draw.textbbox((0, 0), text, font=font)
-    return font, bbox[2] - bbox[0], min_size
+NAVY = "#1E3A8A"
+GOLD = "#D97706"
+CREAM = "#F9F7F2"
 
 
-def crop_balloon(logo: Image.Image) -> Image.Image:
-    """Crop the balloon portion and remove the white background."""
-    w, h = logo.size
-    # The balloon is roughly the top half of the logo; cut before the wordmark.
-    crop_bottom = int(h * 0.50)
-    balloon = logo.crop((0, 0, w, crop_bottom)).convert("RGBA")
+def logo_bg() -> tuple:
+    """Sample the logo's own background color so the paste blends seamlessly."""
+    from PIL import Image as _I
+    return _I.open(LOGO_PATH).convert("RGB").getpixel((2, 2))
 
-    # Make white-ish background transparent
-    arr = np.array(balloon)
-    r, g, b = arr[:, :, 0], arr[:, :, 1], arr[:, :, 2]
-    white_mask = (r > 240) & (g > 240) & (b > 240)
-    arr[white_mask] = [255, 255, 255, 0]
-    balloon = Image.fromarray(arr, "RGBA")
-
-    # Tight crop to non-transparent pixels
-    bbox = balloon.getbbox()
-    if bbox:
-        balloon = balloon.crop(bbox)
-    return balloon
+CANVAS_W, CANVAS_H = 1200, 630
+SAFE = 520
+SAFE_Y0 = (CANVAS_H - SAFE) // 2
+SAFE_Y1 = SAFE_Y0 + SAFE
 
 
-def draw_centered_text(draw: ImageDraw.ImageDraw, text: str, font: ImageFont.FreeTypeFont, y: int, color: str, canvas_w: int = CANVAS_W):
-    bbox = draw.textbbox((0, 0), text, font=font)
-    width = bbox[2] - bbox[0]
-    x = (canvas_w - width) // 2
-    draw.text((x, y), text, font=font, fill=color)
-    return x, y, width, bbox[3] - bbox[1]
+def trimmed_logo() -> Image.Image:
+    """Load the logo and trim the cream/white margin around the artwork."""
+    logo = Image.open(LOGO_PATH).convert("RGB")
+    arr = np.array(logo)
+    # Non-background = anything noticeably darker than the cream background
+    mask = arr.sum(axis=2) < (245 * 3)
+    ys, xs = np.where(mask)
+    if len(xs):
+        logo = logo.crop((xs.min(), ys.min(), xs.max() + 1, ys.max() + 1))
+    return logo
 
 
 def generate_image(is_blog: bool = False) -> Image.Image:
-    img = Image.new("RGB", (CANVAS_W, CANVAS_H), COLORS["cream"])
+    img = Image.new("RGB", (CANVAS_W, CANVAS_H), logo_bg())
     draw = ImageDraw.Draw(img)
 
-    # Borders
-    top_border = 12
-    bottom_border = 6
-    draw.rectangle([0, 0, CANVAS_W, top_border], fill=COLORS["navy"])
-    draw.rectangle([0, CANVAS_H - bottom_border, CANVAS_W, CANVAS_H], fill=COLORS["gold"])
+    # Thin brand borders
+    draw.rectangle([0, 0, CANVAS_W, 10], fill=NAVY)
+    draw.rectangle([0, CANVAS_H - 6, CANVAS_W, CANVAS_H], fill=GOLD)
 
-    # Load logo balloon
-    logo = Image.open(LOGO_PATH).convert("RGBA")
-    balloon = crop_balloon(logo)
-    balloon_size = 180
-    balloon = balloon.resize((balloon_size, int(balloon.height * balloon_size / balloon.width)), Image.LANCZOS)
-    balloon_w, balloon_h = balloon.size
-    balloon_x = (CANVAS_W - balloon_w) // 2
-    # Paste with transparency
-    img.paste(balloon, (balloon_x, SAFE_Y0 + 30), balloon)
+    logo = trimmed_logo()
 
-    # Layout: place text below balloon, centered vertically in safe zone
-    # Brand name
-    brand_text = "CREATE TRAVEL"
-    # Max width for brand name: slightly less than safe zone
-    brand_font, brand_width, brand_size = fit_text_width(
-        draw, brand_text, FONT_PLAYFAIR, SAFE_ZONE - 40, 72, 42
-    )
-    brand_y = SAFE_Y0 + 30 + balloon_h + 30
-    draw_centered_text(draw, brand_text, brand_font, brand_y, COLORS["navy"])
-
-    # Tagline "Viagens Autorais"
-    # The user wants it within the size of the company name, can exceed a little more.
-    tagline_text = "Viagens Autorais"
-    # Max width slightly larger than brand width, but still within safe zone + small margin
-    max_tagline_width = min(brand_width + 60, SAFE_ZONE - 20)
-    tagline_font, tagline_width, tagline_size = fit_text_width(
-        draw, tagline_text, FONT_PLAYFAIR, max_tagline_width, brand_size + 4, brand_size - 6
-    )
-    tagline_y = brand_y + (brand_size + 10)
-    draw_centered_text(draw, tagline_text, tagline_font, tagline_y, COLORS["gold"])
-
-    # Decorative line
-    line_y = tagline_y + tagline_size + 20
-    line_width = 180
-    line_x0 = (CANVAS_W - line_width) // 2
-    line_x1 = line_x0 + line_width
-    draw.line([(line_x0, line_y), (line_x1, line_y)], fill=COLORS["gold"], width=2)
-    # Dot in the middle
-    dot_radius = 5
-    draw.ellipse([CANVAS_W//2 - dot_radius, line_y - dot_radius, CANVAS_W//2 + dot_radius, line_y + dot_radius], fill=COLORS["gold"])
-
-    # Blog subtitle if blog variant
+    blog_font = ImageFont.truetype(str(FONT_PLAYFAIR), 68) if is_blog else None
+    blog_text = "Blog"
+    blog_h = 0
+    gap = 26
     if is_blog:
-        sub_font = load_font(FONT_PLAYFAIR, 28)
-        sub_text = "Blog de viagem"
-        sub_y = line_y + 20
-        draw_centered_text(draw, sub_text, sub_font, sub_y, COLORS["emerald"])
-    else:
-        sub_font = load_font(FONT_PLAYFAIR, 26)
-        sub_text = "roteiros sob medida e curadoria"
-        sub_y = line_y + 18
-        draw_centered_text(draw, sub_text, sub_font, sub_y, COLORS["emerald"])
+        bb = draw.textbbox((0, 0), blog_text, font=blog_font)
+        blog_h = bb[3] - bb[1]
+
+    # Fit the logo (plus optional "Blog" line) inside the safe square
+    logo_h = SAFE - (blog_h + gap if is_blog else 0) - 20
+    logo_w = int(logo.width * logo_h / logo.height)
+    if logo_w > SAFE:
+        logo_w = SAFE
+        logo_h = int(logo.height * logo_w / logo.width)
+    logo = logo.resize((logo_w, logo_h), Image.LANCZOS)
+
+    block_h = logo_h + (blog_h + gap if is_blog else 0)
+    top = SAFE_Y0 + (SAFE - block_h) // 2
+    img.paste(logo, ((CANVAS_W - logo_w) // 2, top))
+
+    if is_blog:
+        bb = draw.textbbox((0, 0), blog_text, font=blog_font)
+        x = (CANVAS_W - (bb[2] - bb[0])) // 2 - bb[0]
+        y = top + logo_h + gap - bb[1]
+        draw.text((x, y), blog_text, font=blog_font, fill=GOLD)
 
     return img
 
@@ -155,16 +92,12 @@ def generate_image(is_blog: bool = False) -> Image.Image:
 def main():
     if not FONT_PLAYFAIR.exists():
         print(f"Font not found: {FONT_PLAYFAIR}")
-        print("Download Playfair Display from Google Fonts and save it to scripts/PlayfairDisplay.ttf")
         return
 
-    img_create = generate_image(is_blog=False)
-    img_create.save(OUT_CREATE, "JPEG", quality=95, optimize=True)
-    print(f"Saved {OUT_CREATE} ({img_create.size[0]}x{img_create.size[1]})")
-
-    img_diario = generate_image(is_blog=True)
-    img_diario.save(OUT_DIARIO, "JPEG", quality=95, optimize=True)
-    print(f"Saved {OUT_DIARIO} ({img_diario.size[0]}x{img_diario.size[1]})")
+    generate_image(False).save(OUT_CREATE, "JPEG", quality=95, optimize=True)
+    print(f"Saved {OUT_CREATE}")
+    generate_image(True).save(OUT_DIARIO, "JPEG", quality=95, optimize=True)
+    print(f"Saved {OUT_DIARIO}")
 
 
 if __name__ == "__main__":
