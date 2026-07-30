@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { Linkedin, Facebook, Link2, Check, MessageCircle, Instagram } from "lucide-react";
+import { Linkedin, Facebook, Link2, Check, MessageCircle, Instagram, CircleDashed } from "lucide-react";
 import { toast } from "@/hooks/use-toast";
 
 interface ShareButtonsProps {
