@@ -28,6 +28,7 @@ const Diario = () => {
         description="Curiosidades, guias e roteiros autorais sobre Madagascar, Islândia, Patagônia, Aurora Boreal e mais. Conteúdo Create Travel para inspirar a próxima viagem."
         canonicalPath="/diario"
         jsonLd={itemListLd}
+        ogImage="https://createtravel.tur.br/og-diario.jpg"
         keywords="diario de viagem, blog viagem autoral, guias de destino, curiosidades viagem"
       />
       <Header />

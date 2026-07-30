@@ -39,6 +39,7 @@ const DiarioCategoria = () => {
         description={`Artigos autorais sobre ${cat.label.toLowerCase()}: guias, curiosidades e leituras selecionadas pela curadoria Create Travel.`}
         canonicalPath={`/diario/categoria/${cat.slug}`}
         jsonLd={itemListLd}
+        ogImage="https://createtravel.tur.br/og-diario.jpg"
         keywords={`${cat.label.toLowerCase()}, diario create travel, blog viagem autoral`}
       />
       <Header />
