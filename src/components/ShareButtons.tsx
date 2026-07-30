@@ -1,19 +1,21 @@
 import { useState } from "react";
-import { Linkedin, Facebook, Link2, Check, MessageCircle, Instagram, CircleDashed } from "lucide-react";
+import { Linkedin, Facebook, Link2, Check, MessageCircle, Instagram, Clapperboard, CircleDashed } from "lucide-react";
 import { toast } from "@/hooks/use-toast";
 
 interface ShareButtonsProps {
   url: string;
   title: string;
-  /** Optional short description used in WhatsApp copy. */
+  /** Optional short description used in WhatsApp and Instagram copy. */
   summary?: string;
+  /** Optional image URL to include in Instagram copy text. */
+  imageUrl?: string;
 }
 
 /**
  * Social share bar for editorial content. Uses share intent URLs so no
  * third-party JS is loaded — keeps LCP and privacy clean.
  */
-export const ShareButtons = ({ url, title, summary }: ShareButtonsProps) => {
+export const ShareButtons = ({ url, title, summary, imageUrl }: ShareButtonsProps) => {
   const [copied, setCopied] = useState(false);
   const encUrl = encodeURIComponent(url);
   const encTitle = encodeURIComponent(title);
@@ -50,39 +52,80 @@ export const ShareButtons = ({ url, title, summary }: ShareButtonsProps) => {
   };
 
   const shareText = `${title}${summary ? ` — ${summary}` : ""}\n\n${url}`;
+  const isMobile = () => /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
 
-  const handleInstagram = async () => {
-    // Instagram não aceita URL de share via web. No celular usamos o seletor
-    // nativo (que lista o Instagram); no desktop copiamos e abrimos o site.
+  const openInstagram = () => {
+    const target = isMobile() ? "instagram://app" : "https://www.instagram.com/";
+    window.open(target, "_blank", "noopener,noreferrer");
+  };
+
+  const generateInstagramPostText = () => {
+    const parts = [title];
+    if (summary) parts.push(summary);
+    parts.push("");
+    parts.push(`Link para ler completo: ${url}`);
+    if (imageUrl) parts.push(`Imagem: ${imageUrl}`);
+    return parts.join("\n\n");
+  };
+
+  const generateInstagramReelsText = () => {
+    const parts = [title, ""];
+    if (summary) parts.push(`${summary.slice(0, 100)}${summary.length > 100 ? "…" : ""}`);
+    parts.push("");
+    parts.push(`Link: ${url}`);
+    parts.push("");
+    parts.push("#CreateTravel #ViagemComAutoria #BlogDeViagem");
+    return parts.join("\n");
+  };
+
+  const handleInstagramPost = async () => {
+    // Instagram não expõe API web para criar feed posts. A melhor UX
+    // possível é: copiar a legenda pronta e abrir o app/Instagram.com.
     if (typeof navigator !== "undefined" && navigator.share) {
       try {
-        await navigator.share({ title, text: title, url });
+        await navigator.share({ title, text: generateInstagramPostText(), url });
         return;
       } catch {
         /* usuário cancelou — segue para o fallback */
       }
     }
     try {
-      await navigator.clipboard.writeText(`${title} — ${url}`);
+      await navigator.clipboard.writeText(generateInstagramPostText());
       toast({
-        title: "Link copiado para o Instagram",
-        description: "Cole no seu Story, DM ou bio.",
+        title: "Legenda copiada para Post do Instagram",
+        description: "Abrindo o Instagram. Cole a legenda na criação de Post.",
       });
     } catch {
-      toast({
-        title: "Copie o link",
-        description: url,
-      });
+      toast({ title: "Copie o link", description: url });
     }
-    const isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
-    const target = isMobile ? "instagram://app" : "https://www.instagram.com/";
+    openInstagram();
+  };
+
+  const handleInstagramReels = async () => {
+    // Reels também não tem API de share via web. Copiamos texto curto e
+    // abrimos o app (instagram://camera) para criar o Reel.
+    if (typeof navigator !== "undefined" && navigator.share) {
+      try {
+        await navigator.share({ title, text: generateInstagramReelsText(), url });
+        return;
+      } catch {
+        /* usuário cancelou — segue para o fallback */
+      }
+    }
+    try {
+      await navigator.clipboard.writeText(generateInstagramReelsText());
+      toast({
+        title: "Texto copiado para Reels",
+        description: "Abrindo o Instagram para criar o Reel. Cole o texto.",
+      });
+    } catch {
+      toast({ title: "Copie o link", description: url });
+    }
+    const target = isMobile() ? "instagram://camera" : "https://www.instagram.com/";
     window.open(target, "_blank", "noopener,noreferrer");
   };
 
   const handleWhatsAppStatus = async () => {
-    // O WhatsApp não permite pré-preencher o Status por URL. No celular o
-    // seletor nativo abre o WhatsApp com a opção "Status"; no desktop
-    // copiamos o texto pronto para colar.
     if (typeof navigator !== "undefined" && navigator.share) {
       try {
         await navigator.share({ title, text: shareText });
@@ -126,12 +169,22 @@ export const ShareButtons = ({ url, title, summary }: ShareButtonsProps) => {
           );
         })}
         <button
-          onClick={handleInstagram}
-          aria-label="Compartilhar no Instagram"
-          title="Abre o compartilhamento (Instagram) ou copia o link para o Story, DM ou bio"
-          className="w-9 h-9 rounded-full border border-border hover:border-gold hover:text-gold text-muted-foreground flex items-center justify-center transition-colors"
+          onClick={handleInstagramPost}
+          aria-label="Compartilhar como Post do Instagram"
+          title="Criar um Post no Instagram: copia a legenda e abre o Instagram"
+          className="h-9 px-3 rounded-full border border-border hover:border-gold hover:text-gold text-muted-foreground flex items-center gap-1.5 transition-colors"
         >
           <Instagram size={16} />
+          <span className="text-xs font-medium">Post</span>
+        </button>
+        <button
+          onClick={handleInstagramReels}
+          aria-label="Compartilhar como Reels do Instagram"
+          title="Criar um Reels no Instagram: copia o texto e abre a câmera do Instagram"
+          className="h-9 px-3 rounded-full border border-border hover:border-gold hover:text-gold text-muted-foreground flex items-center gap-1.5 transition-colors"
+        >
+          <Clapperboard size={16} />
+          <span className="text-xs font-medium">Reels</span>
         </button>
         <button
           onClick={handleWhatsAppStatus}
@@ -154,3 +207,4 @@ export const ShareButtons = ({ url, title, summary }: ShareButtonsProps) => {
     </div>
   );
 };
+
