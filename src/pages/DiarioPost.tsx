@@ -115,10 +115,9 @@ const DiarioPost = () => {
 
           {(() => {
             const cover = getDiaryCover(post);
-            const shareImage = cover && !cover.startsWith("http") ? `${CONTACT.domain}${cover}` : cover;
             return (
               <div className="mb-10">
-                <ShareButtons url={url} title={post.h1} summary={post.metaDescription} imageUrl={shareImage} />
+                <ShareButtons url={url} title={post.h1} summary={post.metaDescription} />
               </div>
             );
           })()}
