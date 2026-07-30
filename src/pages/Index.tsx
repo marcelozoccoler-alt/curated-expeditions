@@ -462,6 +462,12 @@ const Index = () => {
         </div>
       </section>
 
+      {/* Newsletter WhatsApp */}
+      <section className="section-padding bg-background">
+        <div className="container-editorial">
+          <WhatsAppSubscribeForm source="home" />
+        </div>
+      </section>
 
 
       {/* Final CTA */}
