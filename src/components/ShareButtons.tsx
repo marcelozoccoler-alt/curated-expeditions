@@ -49,9 +49,19 @@ export const ShareButtons = ({ url, title, summary }: ShareButtonsProps) => {
     }
   };
 
+  const shareText = `${title}${summary ? ` — ${summary}` : ""}\n\n${url}`;
+
   const handleInstagram = async () => {
-    // Instagram não aceita URL de share via web. Copiamos o link e abrimos o app/site
-    // para o usuário colar no Story, DM ou bio.
+    // Instagram não aceita URL de share via web. No celular usamos o seletor
+    // nativo (que lista o Instagram); no desktop copiamos e abrimos o site.
+    if (typeof navigator !== "undefined" && navigator.share) {
+      try {
+        await navigator.share({ title, text: title, url });
+        return;
+      } catch {
+        /* usuário cancelou — segue para o fallback */
+      }
+    }
     try {
       await navigator.clipboard.writeText(`${title} — ${url}`);
       toast({
@@ -59,12 +69,40 @@ export const ShareButtons = ({ url, title, summary }: ShareButtonsProps) => {
         description: "Cole no seu Story, DM ou bio.",
       });
     } catch {
-      /* ignore */
+      toast({
+        title: "Copie o link",
+        description: url,
+      });
     }
     const isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
     const target = isMobile ? "instagram://app" : "https://www.instagram.com/";
     window.open(target, "_blank", "noopener,noreferrer");
   };
+
+  const handleWhatsAppStatus = async () => {
+    // O WhatsApp não permite pré-preencher o Status por URL. No celular o
+    // seletor nativo abre o WhatsApp com a opção "Status"; no desktop
+    // copiamos o texto pronto para colar.
+    if (typeof navigator !== "undefined" && navigator.share) {
+      try {
+        await navigator.share({ title, text: shareText });
+        return;
+      } catch {
+        /* usuário cancelou — segue para o fallback */
+      }
+    }
+    try {
+      await navigator.clipboard.writeText(shareText);
+      toast({
+        title: "Texto copiado para o Status",
+        description: "Abra o WhatsApp › Status › Texto e cole.",
+      });
+    } catch {
+      toast({ title: "Copie o link", description: url });
+    }
+    window.open("https://web.whatsapp.com/", "_blank", "noopener,noreferrer");
+  };
+
 
   return (
     <div className="flex items-center gap-3 flex-wrap">
