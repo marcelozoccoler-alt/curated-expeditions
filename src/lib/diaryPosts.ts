@@ -29,6 +29,118 @@ export interface DiaryPost {
 
 export const diaryPosts: DiaryPost[] = [
   {
+    slug: "litoral-santos-picinguaba-brasil-historico-cultural",
+    title: "De Santos a Picinguaba: o litoral histórico do Brasil",
+    h1: "De Santos a Picinguaba: a rota do Brasil histórico e cultural no litoral paulista",
+    metaDescription:
+      "Roteiro cultural de Santos a Picinguaba: café, casarões, caiçaras, Caminho do Ouro, São Sebastião, Ubatuba e Paraty. Guia autoral Create Travel.",
+    keywords:
+      "litoral norte de sao paulo, santos historico, picinguaba, ubatuba cultura caicara, sao sebastiao centro historico, caminho do ouro paraty, turismo cultural litoral paulista, brasil historico",
+    intro:
+      "Existe um Brasil que quase ninguém procura no litoral: o Brasil das ruas de pedra, dos sobrados de porta e janela, dos engenhos escondidos na mata e das comunidades caiçaras que ainda medem o dia pela maré. Entre o porto de Santos e a vila de Picinguaba, no extremo norte de São Paulo, cabem cinco séculos de história — o açúcar, o ouro que descia da serra, o café que fez a fortuna paulista, a imigração, e a resistência silenciosa dos povos que viveram sempre entre a Mata Atlântica e o mar. São menos de 300 quilômetros de estrada e um itinerário que se percorre devagar, como quem lê um livro que não quer que termine.",
+    sections: [
+      {
+        heading: "Santos: o porto por onde o Brasil moderno entrou",
+        paragraphs: [
+          "Santos não é uma cidade de praia com um centro histórico — é um centro histórico com praia. O Centro Velho guarda a Bolsa Oficial do Café, inaugurada em 1922, com seu piso de mármore, vitral de Benedito Calixto e o salão onde o preço da saca era gritado em pregão e definia o humor de fazendas a 200 quilômetros dali. Subir ao alto da torre do relógio, hoje aberta ao visitante, é ver o porto ainda em operação — o mesmo por onde entraram milhões de imigrantes e saiu quase todo o café que financiou a modernidade brasileira.",
+          "A poucas quadras, o Museu Pelé ocupa dez casarões do século XIX restaurados e conta o país por outro ângulo. E o bonde histórico, com carros originais de 1910 restaurados, atravessa a região em um circuito curto que ensina mais sobre urbanismo colonial do que qualquer placa.",
+          "Guarde um fim de tarde para o Monte Serrat, subindo no funicular de 1927: o Brasil do café, o Brasil do porto e o Brasil que vive no morro aparecem todos na mesma paisagem.",
+        ],
+      },
+      {
+        heading: "São Vicente e o marco zero da colonização",
+        paragraphs: [
+          "Vizinha imediata de Santos, São Vicente é a primeira vila fundada por portugueses nas Américas, em 1532, por Martim Afonso de Sousa. O que sobrou não é imponente — é fundamental. A Igreja Matriz, o Sítio dos Bandeirantes e o pequeno museu da cidade contam o começo de tudo: a cana, a escravização indígena, os primeiros engenhos e a lógica de ocupação que definiria o país por 300 anos.",
+          "Vale uma manhã, feita com um guia local que saiba diferenciar mito fundador de documento histórico. É o contraponto necessário à narrativa heroica que se aprende na escola.",
+        ],
+      },
+      {
+        heading: "Bertioga, Guarujá e as fortificações do Atlântico Sul",
+        paragraphs: [
+          "Seguindo o litoral para o norte, o Forte São João, em Bertioga, é a construção militar mais antiga do Brasil ainda de pé — erguido em 1547 para conter ataques dos Tupinambá aliados aos franceses. Suas paredes de pedra e conchas moídas, hoje um museu pequeno e honesto, resumem a fragilidade real da presença portuguesa nos primeiros cem anos.",
+          "No Guarujá, a Fortaleza de Santo Amaro da Barra Grande (século XVIII) guarda a entrada do canal de Bertioga. Restaurada, é visitável e oferece uma leitura clara de engenharia militar colonial em meio à vegetação de restinga.",
+        ],
+      },
+      {
+        heading: "São Sebastião: casarões, engenhos e o Brasil do açúcar",
+        paragraphs: [
+          "O centro histórico de São Sebastião é um dos conjuntos coloniais mais bem preservados do litoral paulista e um dos menos visitados. A Igreja Matriz, de 1636, tem paredes de taipa de pilão e um interior de austeridade impressionante. Ao lado, a Casa Esperança — antigo sobrado de comerciante — e a Capela de São Gonçalo formam um quadrilátero onde o século XVII permanece legível.",
+          "A cerca de 20 quilômetros do centro, a Fazenda Engenho d'Água mostra o outro lado da história: as ruínas do engenho, a senzala, a roda d'água. Visitar esse conjunto no mesmo dia da igreja é entender que o Brasil colonial se construiu com os dois — e que a beleza de um depende da violência do outro.",
+          "Do cais de São Sebastião partem as balsas para Ilhabela, onde as fazendas de cana do século XVIII e o casario do Vila abrigam mais um capítulo dessa mesma economia.",
+        ],
+      },
+      {
+        heading: "Ubatuba e a cultura caiçara viva",
+        paragraphs: [
+          "Ubatuba é onde a história deixa de estar em museus e passa a ser cotidiano. Nas comunidades caiçaras — herdeiras do encontro entre indígenas, portugueses e africanos — a canoa de um pau só, o mutirão da farinha de mandioca, a fandango e o vocabulário do mar continuam em uso.",
+          "No centro, a Casa da Farinha e o Sobradão do Porto (1846), hoje museu, contam o ciclo do café que descia da serra pelo porto de Ubatuba. Na Praia da Almada e na Praia da Fortaleza, comunidades pequenas mantêm casas de farinha em funcionamento e recebem visitantes com uma hospitalidade que não é serviço — é convivência.",
+          "Reserve uma manhã inteira para acompanhar o preparo da farinha do início ao fim. É lento, é quente, é ruidoso e é uma das experiências culturais mais autênticas do litoral brasileiro.",
+        ],
+      },
+      {
+        heading: "Picinguaba: o último vilarejo e o mais raro",
+        paragraphs: [
+          "No extremo norte de Ubatuba, dentro do Parque Estadual da Serra do Mar, Picinguaba é a única vila de pescadores dentro de uma unidade de conservação nesse trecho do litoral. Sem grandes construções, sem trânsito, com pouco mais de mil habitantes: barcos coloridos encalhados na areia ao amanhecer, redes secando, o cheiro de peixe fresco e o silêncio depois das sete da noite.",
+          "Ao lado, a Vila do Camburi guarda uma comunidade quilombola histórica e a Casa de Farinha comunitária. Trilhas curtas ligam Picinguaba à Praia da Fazenda — onde funcionou um engenho e um dos últimos pontos de desembarque clandestino de africanos escravizados no Brasil, já depois da proibição do tráfico. Hoje há um centro de visitantes que trata do tema com a seriedade que ele exige.",
+          "Dormir em Picinguaba duas noites, comer na casa de uma família de pescadores e sair de barco ao amanhecer é o fecho natural dessa rota. Daqui, Paraty está a 40 minutos.",
+        ],
+      },
+      {
+        heading: "A extensão natural: Paraty e o Caminho do Ouro",
+        paragraphs: [
+          "A rota não termina na divisa estadual. Paraty, Patrimônio Mundial da UNESCO desde 2019 (como paisagem cultural mista, natureza e cultura), é a peça final: o casario setecentista, as ruas de pedra alagadas pela maré cheia, as igrejas que separavam brancos, negros e escravizados, e o Caminho do Ouro — a estrada de pedra construída por mão escravizada para levar o ouro de Minas até o porto e daí para Lisboa.",
+          "Caminhar dois quilômetros do trecho restaurado do Caminho do Ouro, dentro da Mata Atlântica, com um guia que conte a logística e o custo humano dessa operação, é o momento em que toda a rota Santos–Picinguaba–Paraty se conecta em uma única narrativa.",
+        ],
+      },
+      {
+        heading: "Como estruturamos essa rota",
+        paragraphs: [
+          "Nosso roteiro autoral trabalha entre 7 e 10 dias, de carro com motorista ou autoguiado, com pousadas de charme selecionadas uma a uma: um casarão restaurado no Centro Velho de Santos, uma casa histórica em São Sebastião, uma pousada de pé na areia em Ubatuba e uma pequena hospedagem de gestão comunitária ou boutique em Picinguaba, fechando em Paraty.",
+          "Incluímos guias historiadores em Santos, São Sebastião e Paraty, experiências de casa de farinha com comunidades caiçaras, saída de barco com pescador local, e mesas em restaurantes que trabalham com pesca artesanal e ingredientes da Mata Atlântica.",
+          "A melhor época vai de abril a junho e de agosto a outubro: menos chuva, mar mais calmo, cidades sem multidão. Evite janeiro e fevereiro, quando a Rio–Santos fica congestionada e as vilas perdem a quietude que é o motivo de irmos até lá.",
+        ],
+      },
+    ],
+    faq: [
+      {
+        q: "Quantos dias são necessários para fazer o litoral de Santos até Picinguaba?",
+        a: "Sete dias permitem uma boa leitura de Santos, São Sebastião, Ubatuba e Picinguaba. Dez dias é o ideal, incluindo Ilhabela e o fecho em Paraty com o Caminho do Ouro, sem correr entre as cidades.",
+      },
+      {
+        q: "Qual a melhor época para essa viagem cultural no litoral paulista?",
+        a: "Abril a junho e agosto a outubro. São meses de menos chuva, mar mais calmo, temperatura agradável para caminhar nos centros históricos e trilhas — e sem o congestionamento da Rio–Santos das férias de verão.",
+      },
+      {
+        q: "Precisa de carro para fazer o roteiro?",
+        a: "Sim, o trajeto é rodoviário pela Rio–Santos (BR-101/SP-055). Oferecemos carro com motorista para quem prefere não dirigir na serra, ou aluguel com roteiro autoguiado detalhado.",
+      },
+      {
+        q: "O que é a cultura caiçara?",
+        a: "Caiçara é a cultura formada pelo encontro entre indígenas tupis, colonos portugueses e africanos no litoral entre o Paraná e o Rio de Janeiro. Se expressa na pesca artesanal, na canoa de um pau só, na farinha de mandioca, no fandango e em um vocabulário próprio do mar.",
+      },
+      {
+        q: "Picinguaba tem estrutura para receber visitantes?",
+        a: "Sim, mas de forma deliberadamente pequena: pousadas familiares, restaurantes de pescadores e alguns hotéis boutique na região da Praia da Fazenda. Não há grandes resorts, e é exatamente isso que preserva o lugar.",
+      },
+      {
+        q: "Vale incluir Paraty mesmo sendo outro estado?",
+        a: "Vale muito. Paraty está a 40 minutos de Picinguaba e é o único Patrimônio Mundial UNESCO misto do Brasil. O Caminho do Ouro fecha a narrativa histórica que começa no porto de Santos.",
+      },
+    ],
+    relatedDestinations: [
+      { label: "Brasil Vivo", href: "/brasil-vivo" },
+      { label: "São Paulo", href: "/brasil/sao-paulo" },
+      { label: "Rio de Janeiro", href: "/brasil/rio-de-janeiro" },
+    ],
+    imageAiPrompt:
+      "Cobblestone colonial street at golden hour on the Brazilian coast, whitewashed houses, church tower, Atlantic Forest mountains and calm sea beyond, no identifiable faces, editorial luxury travel photography",
+    imageOverrideUrl: "/src/assets/diary/litoral-santos-picinguaba.jpg",
+    publishedAt: "2026-07-31",
+    readingMinutes: 11,
+    category: "Cultura",
+    whatsappName: "Litoral histórico: Santos a Picinguaba",
+  },
+  {
     slug: "gastronomia-na-turquia-alem-do-kebab",
     title: "Gastronomia na Turquia: sabores e culturas além do kebab",
     h1: "Gastronomia na Turquia: sabores e culturas além do kebab",
