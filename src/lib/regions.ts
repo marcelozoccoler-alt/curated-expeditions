@@ -875,6 +875,60 @@ export const regions: Region[] = [
       "https://images.unsplash.com/photo-1523482580672-f109ba8cb9be?w=1920&h=1080&fit=crop",
     destinationSlugs: ["oceania/australia"],
   },
+
+  // ===== AMÉRICA DO NORTE =====
+  {
+    slug: "mexico",
+    label: "México",
+    kicker: "América do Norte",
+    intro:
+      "Roteiros autorais pelo México: Cidade do México, Oaxaca, Yucatán, Chiapas, Riviera Maya e Mar de Cortez. Curadoria de mesa, arqueologia maia e natureza com guias locais.",
+    metaDescription:
+      "Roteiros autorais no México com curadoria Create Travel: CDMX, Oaxaca, Yucatán, Chiapas, Tulum e Baja California. Viagens sob medida, guias locais e suporte 24/7.",
+    heroImageUrl:
+      "https://images.unsplash.com/photo-1518105779142-d975f22f1b0a?w=1920&h=1080&fit=crop",
+    destinationSlugs: [
+      "america-do-norte/mexico/cidade-do-mexico",
+      "america-do-norte/mexico/oaxaca",
+      "america-do-norte/mexico/yucatan-merida",
+      "america-do-norte/mexico/riviera-maya-tulum",
+      "america-do-norte/mexico/chiapas-san-cristobal",
+      "america-do-norte/mexico/baja-california-sur",
+    ],
+    longIntro:
+      "Um roteiro autoral pelo México é muito maior do que Cancún. O país reúne, em poucas horas de voo interno, o maior acervo arqueológico das Américas, uma das três cozinhas reconhecidas como Patrimônio Imaterial da Humanidade, 68 povos indígenas vivos e dois oceanos com ecossistemas radicalmente diferentes. Na Create Travel desenhamos viagens sob medida que costuram a Cidade do México e Teotihuacán, os vales de Oaxaca, o mundo maia de Yucatán e Chiapas, o Caribe preservado de Sian Ka'an e as ilhas do Mar de Cortez — sempre com guias locais credenciados, hotéis pequenos e acesso a experiências que não estão no balcão da agência.",
+    whatToDo: [
+      {
+        title: "Mundo maia com guias arqueólogos",
+        body: "Chichén Itzá e Uxmal na primeira hora, Palenque na névoa da manhã, Yaxchilán acessível apenas por rio. Visitas com especialistas que explicam calendário, escrita glífica e cosmovisão.",
+      },
+      {
+        title: "Gastronomia de raiz",
+        body: "Sete moles de Oaxaca, cochinita pibil em forno de terra no Yucatán, mercados da CDMX com chef local e palenques de mezcal artesanal nos vales centrais.",
+      },
+      {
+        title: "Natureza e vida selvagem",
+        body: "Baleias-cinzentas em San Ignacio, leões-marinhos em Espíritu Santo, tubarão-baleia em La Paz e Holbox, flamingos em Río Lagartos e a reserva da biosfera de Sian Ka'an.",
+      },
+      {
+        title: "Cenotes e o Caribe preservado",
+        body: "Mergulho em cavernas inundadas com visibilidade extrema, recife mesoamericano e praias de Tulum e Holbox longe dos megarresorts.",
+      },
+    ],
+    bestTime:
+      "A alta temporada seca vai de novembro a abril, ideal para Yucatán, Riviera Maya, Chiapas e Oaxaca. Janeiro a março é a janela das baleias na Baja California Sur. O fim de outubro concentra o Dia de Muertos — a experiência cultural mais intensa do ano, com reservas feitas com 8 a 10 meses de antecedência. De junho a setembro chove no fim da tarde, a paisagem fica verde e há tubarão-baleia no Caribe mexicano.",
+    howToGet:
+      "Voos diretos de São Paulo para a Cidade do México (MEX) e Cancún (CUN). A malha doméstica é excelente: Oaxaca (OAX), Mérida (MID), Tuxtla Gutiérrez (TGZ), Palenque (PQM), La Paz (LAP) e Los Cabos (SJD) ficam a 1h–2h30 de voo. Coordenamos todo o encadeamento de voos internos, transfers privativos e guias.",
+    whereToStay:
+      "Trabalhamos com hotéis-boutique em casarões coloniais na CDMX, Oaxaca e Mérida, haciendas henequeneras restauradas no Yucatán, lodges de selva em Palenque, hotéis de design pé na areia em Tulum e Todos Santos, e eco-camps na laguna de San Ignacio. Poucos quartos, arquitetura autoral e operação local.",
+    faqs: [
+      { q: "Quantos dias para uma viagem ao México?", a: "De 10 a 14 dias para combinar duas regiões com calma — por exemplo CDMX + Oaxaca, ou Yucatán + Riviera Maya. Roteiros de 18 a 21 dias permitem três regiões." },
+      { q: "Brasileiro precisa de visto para o México?", a: "Não há visto para turismo até 180 dias, mas é necessário preencher o formulário migratório e apresentar comprovantes de hospedagem e retorno. Orientamos toda a documentação." },
+      { q: "O México é seguro para turistas?", a: "As regiões que operamos — CDMX (bairros selecionados), Oaxaca, Yucatán, Riviera Maya, Chiapas e Baja Sur — têm operação turística consolidada. Usamos transporte privativo e guias credenciados." },
+      { q: "Dá para combinar cultura e praia?", a: "Sim, é a combinação mais pedida: Yucatán ou Chiapas para arqueologia e cultura, fechando com Tulum, Holbox ou Isla Mujeres." },
+      { q: "Vale ir no Dia de Muertos?", a: "Vale muito, especialmente em Oaxaca e na Cidade do México. Exige planejamento antecipado por causa da alta demanda." },
+    ],
+  },
 ];
 
 export const getRegionBySlug = (slug: string): Region | undefined =>

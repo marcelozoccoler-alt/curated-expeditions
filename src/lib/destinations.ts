@@ -1,4 +1,5 @@
 import { Destination } from "./types";
+import { mexicoDestinations } from "./mexicoDestinations";
 import monteRoraimaImg from "@/assets/destinations/brasil-monte-roraima.jpg";
 import festivalParintinsImg from "@/assets/destinations/brasil-amazonia-festival-parintins.jpg";
 import manausRioNegroImg from "@/assets/destinations/brasil-amazonia-manaus-rio-negro.jpg";
@@ -3669,7 +3670,8 @@ export const destinations: Destination[] = [
       { q: "Combina com Kansai/Tokyo?", a: "Perfeitamente. Roteiro clássico Japão profundo: 15 dias Tokyo (4) + Kansai (5) + Hokkaido (6). Ou dedicado ao inverno: 10 dias Tokyo (3) + Niseko (7)." },
       { q: "Como criar meu roteiro?", a: "Clique em Criar roteiro sob medida." },
     ],
-  }
+  },
+  ...mexicoDestinations,
 ];
 
 export const getDestinationBySlug = (slug: string): Destination | undefined => {
