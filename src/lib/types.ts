@@ -205,6 +205,7 @@ export const generateWhatsAppLink = (params: WhatsAppParams): string => {
 export const CONTINENTS = [
   { id: "brasil", name: "Brasil" },
   { id: "america-do-sul", name: "América do Sul" },
+  { id: "america-do-norte", name: "América do Norte" },
   { id: "africa", name: "África" },
   { id: "europa", name: "Europa" },
   { id: "asia", name: "Ásia" },
