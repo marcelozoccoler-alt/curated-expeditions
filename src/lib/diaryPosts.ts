@@ -158,6 +158,26 @@ export const diaryPosts: DiaryPost[] = [
         q: "Vale incluir Paraty mesmo sendo outro estado?",
         a: "Vale muito. Paraty está a 40 minutos de Picinguaba e é o único Patrimônio Mundial UNESCO misto do Brasil. O Caminho do Ouro fecha a narrativa histórica que começa no porto de Santos.",
       },
+      {
+        q: "O que é um monjolo e onde ver um funcionando?",
+        a: "É um pilão de madeira movido pela força da água: um córrego desviado enche um cocho, o peso desequilibra a viga e o socador desce moendo milho. Ainda funciona no Quilombo da Fazenda e no Quilombo do Camburi, perto de Picinguaba, dentro do Parque Estadual da Serra do Mar.",
+      },
+      {
+        q: "É possível visitar as comunidades quilombolas de Picinguaba?",
+        a: "Sim, com visita agendada e recebida pela própria comunidade. O Quilombo da Fazenda e o Quilombo do Camburi oferecem trilha, casa de farinha, monjolo, roça, cachoeira e almoço tradicional, com renda que fica no território.",
+      },
+      {
+        q: "O que é o Saco do Mamanguá?",
+        a: "Uma enseada estreita de cerca de 8 km entre duas serras de Mata Atlântica, entre Picinguaba e Paraty, considerada o único fiorde tropical do Brasil. Percorre-se de caiaque ou barco, com trilha até o Pico do Mamanguá para a vista completa.",
+      },
+      {
+        q: "Onde ver jongo no litoral?",
+        a: "Em comunidades quilombolas e caiçaras entre Ubatuba, Picinguaba e Paraty, em rodas do calendário comunitário. O jongo é Patrimônio Cultural Imaterial do Brasil e precisa ser combinado com antecedência — não é apresentação turística.",
+      },
+      {
+        q: "Quais são os fenômenos naturais da região?",
+        a: "Bioluminescência em noites escuras de verão, marés vazantes extremas que revelam bancos de areia, passagem de baleias entre julho e novembro, desova de tartarugas monitorada pelo Projeto Tamar e a mudança de vegetação por altitude no Pico do Corcovado.",
+      },
     ],
     relatedDestinations: [
       { label: "Brasil Vivo", href: "/brasil-vivo" },
@@ -165,10 +185,10 @@ export const diaryPosts: DiaryPost[] = [
       { label: "Rio de Janeiro", href: "/brasil/rio-de-janeiro" },
     ],
     imageAiPrompt:
-      "Cobblestone colonial street at golden hour on the Brazilian coast, whitewashed houses, church tower, Atlantic Forest mountains and calm sea beyond, no identifiable faces, editorial luxury travel photography",
+      "Traditional Brazilian wooden monjolo water-powered mill beside a stream near a quilombola community house in the Atlantic Forest, morning mist, no identifiable faces, editorial documentary travel photography",
     imageOverrideUrl: "/src/assets/diary/litoral-santos-picinguaba.jpg",
     publishedAt: "2026-07-31",
-    readingMinutes: 11,
+    readingMinutes: 15,
     category: "Cultura",
     whatsappName: "Litoral histórico: Santos a Picinguaba",
   },
