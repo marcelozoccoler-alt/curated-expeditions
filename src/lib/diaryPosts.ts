@@ -86,6 +86,38 @@ export const diaryPosts: DiaryPost[] = [
         ],
       },
       {
+        heading: "Quilombolas do Camburi e da Fazenda: o monjolo ainda gira",
+        paragraphs: [
+          "Poucos quilômetros depois de Picinguaba, a estrada de terra leva ao Quilombo da Fazenda e, mais adiante, ao Quilombo do Camburi — comunidades remanescentes formadas por descendentes de africanos escravizados nos engenhos de cana e nos desembarques clandestinos daquela costa. São territórios reconhecidos, dentro do Parque Estadual da Serra do Mar, onde o turismo é recebido de forma comunitária: quem visita entra na roça, na casa de farinha e na história oral de famílias que estão ali há mais de 150 anos.",
+          "O símbolo dessa permanência é o monjolo. Um pilão gigante de madeira, movido pela água de um córrego desviado por uma calha de tronco escavado: a água enche o cocho, o peso desequilibra a viga, o pilão levanta e desce socando o milho. Sem motor, sem eletricidade, sem pressa — só engenharia de água, madeira e tempo. Ficar dez minutos ao lado do monjolo em funcionamento, ouvindo o baque ritmado do socador e o barulho do córrego na mata, é entender de corpo inteiro o que significa uma tecnologia que atravessou séculos.",
+          "Na sequência vem a casa de farinha: a mandioca ralada, a prensa, o forno de barro, a pá girando a farinha quente. E vem a mesa — bolo de milho socado no próprio monjolo, café coado no pano, banana da roça, cachaça de jambu. Nada disso é encenação para visitantes: é a economia real da comunidade, e o valor pago fica ali, no território.",
+        ],
+      },
+      {
+        heading: "Jongo: o tambor que guarda memória",
+        paragraphs: [
+          "Quando cai a noite e o tambor começa, muda o registro da viagem. O jongo — dança de roda de origem bantu, trazida pelos africanos escravizados do Vale do Paraíba e do litoral, hoje Patrimônio Cultural Imaterial do Brasil — se dança em círculo, ao som do tambu e do candongueiro, com pontos cantados em versos cifrados. Eram enigmas: mensagens que os senhores ouviam e não compreendiam, e que hoje sobrevivem como poesia e como arquivo.",
+          "Nas comunidades entre Ubatuba, Picinguaba e Paraty, rodas de jongo e de caxambu acontecem em datas do calendário comunitário e em encontros combinados com antecedência. Não é show: é ritual. Participar exige ser convidado, escutar mais do que fotografar, aceitar a mão que puxa você para a roda. É, sem exagero, o momento mais forte de toda a rota — e o que mais gente sai comentando meses depois.",
+          "Perto dali, o fandango caiçara, a congada e as festas do Divino completam o calendário cultural. Programamos a viagem, quando possível, para coincidir com uma dessas datas.",
+        ],
+      },
+      {
+        heading: "Saco do Mamanguá: o único fiorde tropical do Brasil",
+        paragraphs: [
+          "Entre Picinguaba e Paraty abre-se uma das paisagens mais improváveis do país: o Saco do Mamanguá, uma enseada de 8 quilômetros de comprimento e menos de 2 de largura, encaixada entre duas serras cobertas de Mata Atlântica. Pela geomorfologia — um vale estreito e profundo invadido pelo mar entre paredões — é chamado de fiorde tropical, e é considerado o único do Brasil. A água é rasa, verde, quase sem ondas; os manguezais no fundo do saco funcionam como berçário de peixes e crustáceos.",
+          "Atravessa-se de caiaque ou de barco de pescador, em silêncio, com garças e biguás cruzando à frente. Do outro lado, a subida ao Pico do Mamanguá — cerca de duas horas de trilha em mata fechada — entrega a vista que resume tudo: o corredor de água entre montanhas, o mangue ao fundo, o oceano aberto na saída. É o tipo de mirante que faz as pessoas pararem de falar.",
+          "No entorno vivem comunidades caiçaras que produzem banana, farinha e pesca artesanal, com poucas pousadas e restaurantes de pé na areia acessíveis apenas por mar ou trilha. Dormir uma noite ali, sem sinal de celular, é uma das escolhas mais bonitas do roteiro.",
+        ],
+      },
+      {
+        heading: "Fenômenos da natureza e paraísos escondidos",
+        paragraphs: [
+          "Essa costa guarda acontecimentos naturais que não estão em folheto. A bioluminescência aparece em noites escuras de verão em enseadas calmas — cada remada acende um rastro azul na água. Nas madrugadas de inverno, a maré vazante extrema em Picinguaba e no Mamanguá descobre bancos de areia inteiros que existem por poucas horas. E entre julho e novembro, baleias-de-bryde e jubartes passam ao largo, avistáveis em saídas de barco no Mamanguá e em Ubatuba, onde também há desova de tartarugas monitorada pelo Projeto Tamar.",
+          "Depois vêm os paraísos escondidos: a Praia da Sumaca e a Ponta Negra, acessíveis só por trilha ou barco; a Cachoeira do Prumirim e a Cachoeira da Fazenda, dentro do território quilombola, com poços de água escura e queda em rocha lisa; a Praia Brava da Almada, guardada por um rio que se atravessa a pé; a Ilha do Prumirim para snorkel em água transparente. Nenhuma delas tem estrutura — todas têm o que interessa.",
+          "Também vale o costão do Pico do Corcovado (1.152 m), a maior montanha litorânea da região, onde a Mata Atlântica muda de vegetação a cada faixa de altitude e nasce boa parte dos rios que abastecem as vilas caiçaras. É uma trilha de dia inteiro, com guia local obrigatório, e uma das mais bonitas do Sudeste.",
+        ],
+      },
+      {
         heading: "A extensão natural: Paraty e o Caminho do Ouro",
         paragraphs: [
           "A rota não termina na divisa estadual. Paraty, Patrimônio Mundial da UNESCO desde 2019 (como paisagem cultural mista, natureza e cultura), é a peça final: o casario setecentista, as ruas de pedra alagadas pela maré cheia, as igrejas que separavam brancos, negros e escravizados, e o Caminho do Ouro — a estrada de pedra construída por mão escravizada para levar o ouro de Minas até o porto e daí para Lisboa.",

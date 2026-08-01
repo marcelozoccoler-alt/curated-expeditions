@@ -6,9 +6,12 @@
 import type { DiaryPost } from "./diaryPosts";
 import { getRelatedDestinationsForPost } from "./relatedDiary";
 import { getDestinationImage } from "./destinationImages";
+import { resolveDiaryAsset } from "./diaryAssets";
 
 export const getDiaryCover = (post: DiaryPost): string | undefined => {
-  if (post.imageOverrideUrl) return post.imageOverrideUrl;
+  if (post.imageOverrideUrl) {
+    return resolveDiaryAsset(post.imageOverrideUrl) ?? post.imageOverrideUrl;
+  }
   const related = getRelatedDestinationsForPost(post, 1);
   if (related[0]) {
     const img = getDestinationImage(related[0].id) || related[0].imageOverrideUrl;
