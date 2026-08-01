@@ -33,9 +33,9 @@ export const diaryPosts: DiaryPost[] = [
     title: "De Santos a Picinguaba: o litoral histórico do Brasil",
     h1: "De Santos a Picinguaba: a rota do Brasil histórico e cultural no litoral paulista",
     metaDescription:
-      "Roteiro cultural de Santos a Picinguaba: café, casarões, caiçaras, Caminho do Ouro, São Sebastião, Ubatuba e Paraty. Guia autoral Create Travel.",
+      "Roteiro cultural de Santos a Picinguaba: quilombos, monjolo, jongo, Saco do Mamanguá (fiorde tropical), cultura caiçara e Caminho do Ouro. Guia autoral Create Travel.",
     keywords:
-      "litoral norte de sao paulo, santos historico, picinguaba, ubatuba cultura caicara, sao sebastiao centro historico, caminho do ouro paraty, turismo cultural litoral paulista, brasil historico",
+      "litoral norte de sao paulo, santos historico, picinguaba, quilombo da fazenda, quilombo do camburi, monjolo, jongo patrimonio imaterial, saco do mamangua fiorde tropical, ubatuba cultura caicara, sao sebastiao centro historico, caminho do ouro paraty, praias escondidas ubatuba, bioluminescencia litoral, turismo cultural litoral paulista",
     intro:
       "Existe um Brasil que quase ninguém procura no litoral: o Brasil das ruas de pedra, dos sobrados de porta e janela, dos engenhos escondidos na mata e das comunidades caiçaras que ainda medem o dia pela maré. Entre o porto de Santos e a vila de Picinguaba, no extremo norte de São Paulo, cabem cinco séculos de história — o açúcar, o ouro que descia da serra, o café que fez a fortuna paulista, a imigração, e a resistência silenciosa dos povos que viveram sempre entre a Mata Atlântica e o mar. São menos de 300 quilômetros de estrada e um itinerário que se percorre devagar, como quem lê um livro que não quer que termine.",
     sections: [
