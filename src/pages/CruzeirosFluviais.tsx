@@ -8,7 +8,7 @@ import { SEO } from "@/components/SEO";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
 import { WhatsAppButton } from "@/components/WhatsAppButton";
 import { FAQSection } from "@/components/FAQSection";
-import { riverCruises, CRUISE_REGIONS } from "@/lib/riverCruises";
+import { riverCruises, CRUISE_REGIONS, waterwayLabel } from "@/lib/riverCruises";
 import { CONTACT } from "@/lib/types";
 import heroImage from "@/assets/cruzeiros-fluviais.jpg";
 
@@ -84,7 +84,7 @@ const CruzeirosFluviais = () => {
     <div className="min-h-screen flex flex-col">
       <SEO
         title="Cruzeiros fluviais AmaWaterways — rotas e roteiros | Create Travel"
-        description="Todas as rotas de cruzeiros fluviais AmaWaterways: Danúbio, Reno, Douro, Sena, Ródano, Mekong, Nilo e Magdalena. Roteiros dia a dia e reserva com curadoria Create Travel."
+        description="Todas as rotas de cruzeiros fluviais AmaWaterways: Danúbio, Reno, Douro, Sena, Ródano, Mekong, Magdalena, Nilo 2027 e ilhas gregas 2027. Roteiros dia a dia com curadoria Create Travel."
         canonicalPath="/cruzeiros-fluviais"
         jsonLd={[itemListLd, breadcrumbLd, faqLd]}
       />
@@ -155,7 +155,7 @@ const CruzeirosFluviais = () => {
                   className="group h-full flex flex-col p-6 rounded-lg border border-border bg-card hover:border-gold transition-colors"
                 >
                   <p className="text-xs uppercase tracking-wider text-muted-foreground mb-2">
-                    Rio {c.river} · {c.region}
+                    {waterwayLabel(c.river)} · {c.region}
                   </p>
                   <h2 className="text-xl font-serif text-foreground mb-3 group-hover:text-gold transition-colors">
                     {c.name}

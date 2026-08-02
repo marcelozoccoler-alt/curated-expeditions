@@ -2329,6 +2329,30 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://createtravel.tur.br/cruzeiros-fluviais/nilo-2027-classico</loc>
+    <lastmod>2026-08-02</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://createtravel.tur.br/cruzeiros-fluviais/nilo-2027-grande-egito</loc>
+    <lastmod>2026-08-02</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://createtravel.tur.br/cruzeiros-fluviais/grecia-2027-cicladas</loc>
+    <lastmod>2026-08-02</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://createtravel.tur.br/cruzeiros-fluviais/grecia-2027-egeu-turquia</loc>
+    <lastmod>2026-08-02</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://createtravel.tur.br/diario</loc>
     <lastmod>2026-08-02</lastmod>
     <changefreq>weekly</changefreq>

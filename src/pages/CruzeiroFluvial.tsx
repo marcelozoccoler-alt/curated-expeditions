@@ -7,7 +7,7 @@ import { SEO } from "@/components/SEO";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
 import { FAQSection } from "@/components/FAQSection";
 import { WhatsAppButton } from "@/components/WhatsAppButton";
-import { getRiverCruise, riverCruises } from "@/lib/riverCruises";
+import { getRiverCruise, riverCruises, waterwayLabel } from "@/lib/riverCruises";
 import { CONTACT } from "@/lib/types";
 import heroImage from "@/assets/cruzeiros-fluviais.jpg";
 
@@ -82,7 +82,7 @@ const CruzeiroFluvial = () => {
           />
           <div className="max-w-3xl mt-6">
             <p className="text-caption text-gold mb-4">
-              AmaWaterways · Rio {cruise.river}
+              {cruise.region === "Grécia & Mediterrâneo" ? "Cruzeiro marítimo" : "AmaWaterways"} · {waterwayLabel(cruise.river)}
             </p>
             <div className="gold-line mb-6" />
             <h1 className="heading-hero mb-5">{cruise.name}</h1>
@@ -186,7 +186,7 @@ const CruzeiroFluvial = () => {
                     >
                       {r.name}
                       <span className="block text-xs text-muted-foreground">
-                        Rio {r.river} · {r.duration}
+                        {waterwayLabel(r.river)} · {r.duration}
                       </span>
                     </Link>
                   </li>
