@@ -166,6 +166,8 @@ const App = () => (
           <Route path="/roteiro-sob-medida" element={<RoteiroSobMedida />} />
           <Route path="/grupos-guia-brasileiro" element={<GruposGuiaBrasileiro />} />
           <Route path="/lua-de-mel-personalizada" element={<LuaDeMelPersonalizada />} />
+          <Route path="/cruzeiros-fluviais" element={<CruzeirosFluviais />} />
+          <Route path="/cruzeiros-fluviais/:slug" element={<CruzeiroFluvial />} />
           {/* SEO short-URL regional landings — keep as last specific dynamic route before catch-all */}
           <Route path="/:regionSlug" element={<Regiao />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
