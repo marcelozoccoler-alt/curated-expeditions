@@ -7,6 +7,7 @@ import { SEO } from "@/components/SEO";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
 import { FAQSection } from "@/components/FAQSection";
 import { WhatsAppButton } from "@/components/WhatsAppButton";
+import { ShareButtons } from "@/components/ShareButtons";
 import { getRiverCruise, riverCruises, waterwayLabel } from "@/lib/riverCruises";
 import { CONTACT } from "@/lib/types";
 import heroImage from "@/assets/cruzeiros-fluviais.jpg";
@@ -155,6 +156,14 @@ const CruzeiroFluvial = () => {
             </div>
 
             <FAQSection faqs={cruise.faq} />
+
+            <div className="pt-2 border-t border-border">
+              <ShareButtons
+                url={url}
+                title={`${cruise.name} — ${cruise.duration} · ${cruise.route}`}
+                summary="Roteiro com curadoria Create Travel"
+              />
+            </div>
           </div>
 
           <aside className="space-y-8">
@@ -168,6 +177,15 @@ const CruzeiroFluvial = () => {
                   </li>
                 ))}
               </ul>
+            </div>
+
+            <div className="p-6 rounded-lg border border-border bg-card">
+              <h2 className="font-serif text-lg text-foreground mb-4">Compartilhar esta rota</h2>
+              <ShareButtons
+                url={url}
+                title={`${cruise.name} — ${cruise.duration} · ${cruise.route}`}
+                summary="Roteiro com curadoria Create Travel"
+              />
             </div>
 
             <div className="p-6 rounded-lg border border-border bg-card">

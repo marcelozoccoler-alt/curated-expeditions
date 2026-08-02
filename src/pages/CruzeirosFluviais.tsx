@@ -8,6 +8,7 @@ import { SEO } from "@/components/SEO";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
 import { WhatsAppButton } from "@/components/WhatsAppButton";
 import { FAQSection } from "@/components/FAQSection";
+import { ShareButtons } from "@/components/ShareButtons";
 import { riverCruises, CRUISE_REGIONS, waterwayLabel } from "@/lib/riverCruises";
 import { CONTACT } from "@/lib/types";
 import heroImage from "@/assets/cruzeiros-fluviais.jpg";
@@ -188,6 +189,14 @@ const CruzeirosFluviais = () => {
 
           <div className="mt-16 max-w-3xl">
             <FAQSection faqs={generalFaq} title="Cruzeiros fluviais: perguntas frequentes" />
+
+            <div className="mt-10 pt-6 border-t border-border">
+              <ShareButtons
+                url={`${DOMAIN}/cruzeiros-fluviais`}
+                title="Cruzeiros AmaWaterways, Nilo 2027 e ilhas gregas 2027 — Create Travel"
+                summary="Rotas com roteiro dia a dia e curadoria Create Travel"
+              />
+            </div>
           </div>
         </div>
       </section>
