@@ -118,7 +118,7 @@ export const diaryPosts: DiaryPost[] = [
     ],
     relatedDestinations: [
       { label: "Cruzeiros fluviais", href: "/cruzeiros-fluviais" },
-      { label: "Nilo Clássico: Luxor a Aswan", href: "/cruzeiros-fluviais/nilo-classico-luxor-assua-2027" },
+      { label: "Nilo Clássico: Luxor a Aswan", href: "/cruzeiros-fluviais/nilo-2027-classico" },
       { label: "Grupo Egito 2026", href: "/grupos/egito-2026" },
     ],
     imageAiPrompt:
