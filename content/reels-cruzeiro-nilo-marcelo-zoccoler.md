@@ -3,6 +3,11 @@
 ## Link do blog
 https://createtravel.tur.br/diario/cruzeiro-fluvial-rio-nilo-luxor-aswan-experiencia
 
+## Capa do Reels
+Arquivo: `src/assets/reels/cruzeiro-nilo-reels-cover.jpg` (1080x1920)
+Use essa imagem como capa do vídeo e no primeiro frame do Reels.
+
+
 ---
 
 ## Opção 1 de hook (curiosidade + sensorial)
