@@ -21,6 +21,7 @@ import { niches } from "../src/lib/niches";
 import { brazilStates } from "../src/lib/brazilStates";
 import { diaryPosts } from "../src/lib/diaryPosts";
 import { pacotes } from "../src/lib/comercialPacotes";
+import { riverCruises } from "../src/lib/riverCruises";
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const PAGE_SIZE = 12;
@@ -149,6 +150,10 @@ push("/roteiro-sob-medida", 0.95, "weekly");
 push("/grupos-guia-brasileiro", 0.95, "weekly");
 push("/lua-de-mel-personalizada", 0.9, "weekly");
 for (const g of GRUPOS) push(`/grupos/${g}`, 0.85, "monthly");
+
+// Cruzeiros fluviais AmaWaterways
+push("/cruzeiros-fluviais", 0.9, "weekly");
+for (const c of riverCruises) push(`/cruzeiros-fluviais/${c.slug}`, 0.85, "monthly");
 
 // Diário editorial
 push("/diario", 0.9, "weekly");

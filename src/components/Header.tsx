@@ -58,6 +58,7 @@ export const Header = () => {
     lang === "pt"
       ? [
           { label: "Grupos com Guia", href: "/embarque-com-a-create" },
+          { label: "Cruzeiros fluviais", href: "/cruzeiros-fluviais" },
           { label: "Crie seu grupo", href: "/crie-seu-grupo" },
         ]
       : [];
