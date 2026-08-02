@@ -41,7 +41,7 @@ const Index = () => {
     <div className="min-h-screen">
       <SEO
         title="Create Travel — Agência de Viagens Personalizadas em SP"
-        description="Agência boutique de viagens com curadoria autoral. Roteiros personalizados para África, Europa, Ásia, Oceania e Brasil. Grupos com guia brasileiro em 2026 e 2027. Atendimento em 5 idiomas."
+        description="Agência boutique de curadoria autoral: roteiros sob medida para África, Europa, Ásia e Brasil, e grupos com guia brasileiro em 2026 e 2027."
         canonicalPath="/"
         keywords="agência de viagens personalizada, roteiro sob medida, viagem sob medida, grupo com guia brasileiro, agência boutique São Paulo, travel designer, curadoria de viagens"
       />
