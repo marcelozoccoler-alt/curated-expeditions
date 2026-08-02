@@ -67,6 +67,8 @@ import Guia, { GuiasIndex } from "./pages/Guia";
 import RoteiroSobMedida from "./pages/RoteiroSobMedida";
 import GruposGuiaBrasileiro from "./pages/GruposGuiaBrasileiro";
 import LuaDeMelPersonalizada from "./pages/LuaDeMelPersonalizada";
+import CruzeirosFluviais from "./pages/CruzeirosFluviais";
+import CruzeiroFluvial from "./pages/CruzeiroFluvial";
 
 
 import ScrollToTop from "./components/ScrollToTop";
