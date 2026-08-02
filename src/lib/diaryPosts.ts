@@ -29,6 +29,108 @@ export interface DiaryPost {
 
 export const diaryPosts: DiaryPost[] = [
   {
+    slug: "cruzeiro-fluvial-rio-nilo-luxor-aswan-experiencia",
+    title: "Navegar o Nilo de Luxor a Aswan: relato de Marcelo Zoccoler",
+    h1: "Como é viver um cruzeiro fluvial Create Travel: navegando o Nilo de Luxor a Aswan",
+    metaDescription:
+      "Relato pessoal de Marcelo Zoccoler navegando o Rio Nilo de Luxor a Aswan: rotina de bordo, templos, felucas, o que fica registrado da viagem e como é um cruzeiro fluvial Create Travel.",
+    keywords:
+      "cruzeiro fluvial nilo, cruzeiro luxor aswan, cruzeiro rio nilo 2027, cruzeiros fluviais create travel, amawaterways rio, experiencia cruzeiro fluvial, kom ombo edfu philae, abu simbel, egito cruzeiro luxo, viagem autoral egito",
+    intro:
+      "Cruzeiro fluvial não é cruzeiro. Aprendi isso na primeira manhã a bordo, quando abri a cortina da cabine e não havia horizonte de mar nenhum: havia um homem levando três cabras por um caminho de terra, a dez metros de mim, tão perto que dava para ver o barro nos pés dele. Um cruzeiro marítimo te leva por cima do mundo; um cruzeiro fluvial te leva por dentro dele. Escrevo isso — eu, Marcelo Zoccoler — depois de navegar de Luxor a Aswan, os quase 200 quilômetros de Nilo que concentram mais história por metro quadrado do que qualquer outro trecho de água do planeta. E depois de entender por que insisto tanto que esse é o formato de viagem mais civilizado que existe.",
+    sections: [
+      {
+        heading: "O que é, na prática, um cruzeiro fluvial da Create Travel",
+        paragraphs: [
+          "Imagine um hotel-butique de 40 a 80 cabines que muda de paisagem enquanto você toma café. Não há filas, não há cartão de embarque a cada parada, não há aquela sensação de rebanho. O navio atraca no centro das cidades — não em terminais distantes — e você desce a pé para o templo. A bagagem é desfeita uma única vez, no primeiro dia, e refeita no último. Todo o resto é o rio trabalhando por você.",
+          "Nas nossas rotas fluviais — Danúbio, Reno, Douro, Sena, Ródano, Mekong e Nilo — o que curamos não é o barco, é o que acontece entre os portos: o guia que conhece o padre da igreja, a vinícola que abre fora do horário, o mercado onde ninguém fala inglês. O barco é a cama e a mesa; a viagem é a curadoria.",
+          "E há um detalhe emocional que só se descobre a bordo: como o navio é pequeno, em três dias você sabe o nome de todos. Do maître, do barman, do casal de Curitiba da cabine 214. Voltar de um cruzeiro fluvial é voltar com pessoas, não só com fotos.",
+        ],
+      },
+      {
+        heading: "Luxor: embarcar dentro da história",
+        paragraphs: [
+          "Cheguei a Luxor no fim da tarde. O navio já estava atracado na margem leste, e o Templo de Luxor ficava literalmente a dez minutos de caminhada — as esfinges da avenida processional iluminadas por baixo, a pedra ainda devolvendo o calor do dia. Não existe check-in mais bonito no mundo.",
+          "No dia seguinte, Karnak. Ninguém está preparado para a Sala Hipóstila: 134 colunas de 23 metros, tão grossas que seis pessoas de braços abertos não fecham o círculo. A luz entra em feixes pelas clarabóias de pedra e você entende, fisicamente, o que é arquitetura feita para diminuir o ser humano diante de um deus. Fiquei uns bons minutos calado. Meu grupo também.",
+          "À tarde, a margem oeste — a margem dos mortos. O Vale dos Reis, com túmulos de cores que parecem pintadas na semana passada; o templo de Hatshepsut encravado no paredão de Deir el-Bahari; os Colossos de Memnon no meio do canavial. Voltar ao navio, tomar banho, subir ao deck e ver o sol se pôr exatamente sobre essa margem oeste, com um chá de hibisco na mão, é o tipo de coisa que reorganiza a cabeça.",
+        ],
+      },
+      {
+        heading: "Esna, Edfu e Kom Ombo: os dias em que o rio manda",
+        paragraphs: [
+          "A eclusa de Esna é um espetáculo involuntário. O navio entra num tanque estreito, a água sobe e, das margens, meninos em barquinhos a remo atiram lenços e toalhas para o deck, negociando aos gritos e às risadas, dez metros abaixo. Não é encenação para turista: é comércio de verdade, feito com uma alegria desconcertante. Comprei um lenço azul de que não precisava. Está na minha estante.",
+          "Em Edfu, o Templo de Hórus é o mais bem conservado do Egito — paredes inteiras de relevos onde o deus-falcão vence Seth em quadrinhos milenares. Chega-se de charrete pelas ruas da cidade, e a poeira e o cheiro de cavalo fazem parte da lembrança tanto quanto o templo.",
+          "Kom Ombo aparece depois, ao pôr do sol, quase dentro do rio: dedicado a Sobek, o deus-crocodilo, tem um pequeno museu com crocodilos mumificados e, gravado na pedra, o que muitos consideram o primeiro calendário e o primeiro conjunto de instrumentos cirúrgicos representados da história. Voltei ao navio quando ele já estava iluminado, e o jantar naquela noite foi de peixe do Nilo com molho de tâmaras.",
+          "Entre os templos há o que mais gosto: as horas de navegação sem nada agendado. Um espreguiçadeira, um livro que não se lê, e o Egito rural passando devagar — búfalos na água, minaretes, mulheres lavando roupa, crianças que acenam sempre. Ninguém avisa que a melhor parte de um cruzeiro fluvial é o tédio bonito.",
+        ],
+      },
+      {
+        heading: "Aswan, Philae e a feluca ao pôr do sol",
+        paragraphs: [
+          "Aswan é mais leve, mais núbia, mais africana. O rio se abre em ilhas de granito preto, e a cidade tem um ritmo de férias que Luxor não tem. O Templo de Ísis, em Philae, foi desmontado pedra por pedra e remontado numa ilha vizinha para escapar das águas da represa — chega-se de barco, e a aproximação, com os pilones surgindo entre as palmeiras, é uma das cenas mais cinematográficas do Egito.",
+          "Ao fim da tarde, a feluca. Vela triangular, nenhum motor, o barqueiro cantando baixinho e corrigindo o rumo com o pé no timão. Passamos pela Ilha Elefantina e por uma aldeia núbia de casas azuis e ocre, com café de cardamomo servido no chão de areia. O sol caiu atrás do Mausoléu do Aga Khan e o rio ficou cor de metal. Foi ali, com o silêncio quebrado só pela vela batendo, que a viagem virou memória enquanto ainda acontecia.",
+          "Quem tem uma manhã extra pega Abu Simbel — 280 quilômetros ao sul, saída antes do amanhecer, e os quatro colossos de Ramsés II crescendo na luz rasa do deserto. É longe, é cansativo, e ninguém que foi se arrepende.",
+        ],
+      },
+      {
+        heading: "O que fica registrado da viagem",
+        paragraphs: [
+          "Em cada saída fluvial Create Travel registramos a viagem em três camadas. A primeira é visual: fotografia de bordo e de terra ao longo de todo o roteiro — embarque, templos, a eclusa, o pôr do sol na feluca, os jantares — entregue depois em um álbum digital organizado dia a dia, com as imagens tratadas e prontas para imprimir ou postar.",
+          "A segunda é narrativa: um diário de rota, escrito durante a navegação, com o que foi visto em cada porto, o nome dos guias locais, o que se comeu, o que se aprendeu. É o documento que faz a viagem sobreviver ao esquecimento — em cinco anos você não lembra a ordem dos templos, mas o diário lembra.",
+          "A terceira é prática e afetiva: um roteiro final revisado com endereços, restaurantes testados, o contato do artesão, o nome da aldeia núbia; e o registro do grupo — a lista de quem viajou junto, para que os reencontros aconteçam. Boa parte dos nossos viajantes de cruzeiro fluvial volta a embarcar com as mesmas pessoas.",
+          "Nada disso é vendido separado. Faz parte de viajar com curadoria: alguém pensando na viagem inteira, inclusive no depois.",
+        ],
+      },
+      {
+        heading: "Quando ir, quanto tempo e para quem é",
+        paragraphs: [
+          "A melhor época para o Nilo vai de outubro a abril, com dias entre 25°C e 30°C e noites frescas — dezembro e janeiro são os mais concorridos. Entre maio e setembro o calor no Alto Egito passa dos 40°C e as visitas ficam restritas ao começo da manhã.",
+          "O roteiro clássico Luxor–Aswan pede de 4 a 7 noites de navegação; somando Cairo, Gizé e, opcionalmente, Alexandria, o desenho ideal fica entre 10 e 12 dias. Nas nossas saídas de 2027 há as duas versões — o Nilo Clássico e o Grande Egito de 11 noites.",
+          "É a viagem certa para quem quer história com conforto, para quem não gosta de arrumar mala a cada duas noites, para casais em segunda lua de mel e para famílias com três gerações — no barco, avô e neto encontram o próprio ritmo. E é, na minha experiência, a melhor primeira viagem ao Oriente Médio que existe.",
+        ],
+      },
+    ],
+    faq: [
+      {
+        q: "Qual a diferença entre cruzeiro fluvial e cruzeiro marítimo?",
+        a: "O navio fluvial é pequeno (geralmente 40 a 80 cabines), navega rios e atraca no centro das cidades, sem terminais distantes nem filas. Não há balanço de mar, a paisagem está sempre à vista e a experiência é mais íntima e cultural, com desembarques a pé e grupos reduzidos.",
+      },
+      {
+        q: "Quantos dias dura o cruzeiro pelo Nilo de Luxor a Aswan?",
+        a: "A navegação clássica leva de 4 a 7 noites entre Luxor e Aswan, com paradas em Esna, Edfu e Kom Ombo. Combinada com Cairo, Gizé e Abu Simbel, a viagem completa fica entre 10 e 12 dias.",
+      },
+      {
+        q: "Qual é a melhor época para navegar o Nilo?",
+        a: "De outubro a abril, quando os dias variam entre 25°C e 30°C. Dezembro e janeiro têm o clima mais agradável e maior procura; entre maio e setembro o calor no Alto Egito ultrapassa 40°C.",
+      },
+      {
+        q: "O cruzeiro pelo Nilo é seguro?",
+        a: "Sim. A rota Luxor–Aswan é a mais turística do Egito, com forte presença de segurança nos sítios arqueológicos e navios com padrão internacional. Trabalhamos apenas com operadores e guias egiptólogos licenciados e acompanhamos o grupo do início ao fim.",
+      },
+      {
+        q: "O que está incluído nas rotas fluviais Create Travel?",
+        a: "Cabine com pensão completa a bordo, visitas guiadas nos portos com guias locais, taxas portuárias, transfers e o acompanhamento da nossa curadoria — além do registro fotográfico e do diário de rota da viagem. Voos, extensões e experiências opcionais são cotados conforme o roteiro.",
+      },
+      {
+        q: "Vale a pena incluir Abu Simbel?",
+        a: "Sim, se você tiver uma manhã livre em Aswan. São cerca de três horas de estrada em cada sentido, com saída antes do amanhecer, para ver os colossos de Ramsés II na melhor luz do dia. É o monumento mais impressionante do Egito depois das pirâmides.",
+      },
+    ],
+    relatedDestinations: [
+      { label: "Cruzeiros fluviais", href: "/cruzeiros-fluviais" },
+      { label: "Nilo Clássico: Luxor a Aswan", href: "/cruzeiros-fluviais/nilo-2027-classico" },
+      { label: "Grupo Egito 2026", href: "/grupos/egito-2026" },
+    ],
+    imageAiPrompt:
+      "Golden hour on the Nile between Luxor and Aswan, sun deck of a small luxury river ship in the foreground, traditional felucca with white sail passing palm groves and sandstone cliffs, warm amber light, no faces",
+    imageOverrideUrl: "cruzeiro-nilo-luxor-aswan.jpg",
+    publishedAt: "2026-08-02",
+    readingMinutes: 12,
+    category: "Roteiro",
+    whatsappName: "Cruzeiro fluvial pelo Nilo — Luxor a Aswan",
+  },
+  {
+
     slug: "litoral-santos-picinguaba-brasil-historico-cultural",
     title: "De Santos a Picinguaba: o litoral histórico do Brasil",
     h1: "De Santos a Picinguaba: a rota do Brasil histórico e cultural no litoral paulista",
