@@ -57,6 +57,7 @@ import grupoCoreiaJapaoCerejeirasImg from "@/assets/grupo-coreia-japao-cerejeira
 import grupoChinaPrimaveraImg from "@/assets/grupo-china-primavera-2027.jpg";
 import grupoLagosChilenosImg from "@/assets/grupo-lagos-chilenos-2027.jpg";
 import grupoTunisiaImg from "@/assets/grupo-tunisia-carnaval-2027.jpg";
+import grupoEgitoAbrilImg from "@/assets/grupo-egito-abril-2027.jpg";
 
 const RAW_DEPARTURES = [
   {
@@ -417,6 +418,16 @@ const RAW_DEPARTURES = [
     subtitle: "Túnis · Cartago · Sidi Bou Said · Dougga · Tozeur · Douz · Sfax",
     desc: "Entre a história milenar de Cartago, o Mediterrâneo azul-e-branco de Sidi Bou Said e a magia do Saara. Coliseu de El Jem, cenários de Star Wars e Dougga (UNESCO). Voos ITA Airways e guia desde o Brasil.",
     fromPrice: "A partir de € 4.158 por pessoa (apto duplo)",
+    status: "Saída confirmada",
+  },
+  {
+    href: "/grupos/egito-abril-2027",
+    img: grupoEgitoAbrilImg,
+    tag: "20/04 a 02/05/2027 · 13 dias · Primavera",
+    title: "Egito Eterno · Abril 2027",
+    subtitle: "Cairo · Gizé · Luxor · Cruzeiro no Nilo · Assuã · Sharm El Sheikh",
+    desc: "Pirâmides de Gizé, Grande Museu Egípcio, templos de Karnak e Luxor, Vale dos Reis, cruzeiro pelo Nilo até Assuã e três noites tudo incluído no Mar Vermelho. Voos Emirates e guia desde o Brasil.",
+    fromPrice: "A partir de US$ 4.895 por pessoa (apto duplo)",
     status: "Saída confirmada",
   },
 ];
