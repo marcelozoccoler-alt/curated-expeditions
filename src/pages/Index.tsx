@@ -27,6 +27,7 @@ import { getDiaryCover } from "@/lib/diaryImages";
 import { DEPARTURES } from "@/pages/EmbarqueComACreate";
 import heroAmazon from "@/assets/hero-amazon.jpg";
 import heroAmazonWebp from "@/assets/hero-amazon.webp";
+import grupoEgitoAbrilImg from "@/assets/grupo-egito-abril-2027.jpg";
 
 const MONTHS_SHORT_PT = ["jan", "fev", "mar", "abr", "mai", "jun", "jul", "ago", "set", "out", "nov", "dez"];
 
@@ -113,7 +114,66 @@ const Index = () => {
         </motion.div>
       </section>
 
+      {/* Spotlight: Egito Eterno · Abril 2027 */}
+      <section className="section-padding bg-background">
+        <div className="container-editorial">
+          <motion.div
+            initial={{ opacity: 0, y: 24 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.6 }}
+            className="grid lg:grid-cols-2 gap-0 overflow-hidden rounded-2xl border border-border shadow-elegant bg-card"
+          >
+            <Link to="/grupos/egito-abril-2027" className="group relative block min-h-[280px] lg:min-h-[440px]">
+              <img
+                src={grupoEgitoAbrilImg}
+                alt="Egito Eterno · Abril 2027 — pirâmides, templos e cruzeiro no Nilo"
+                loading="lazy"
+                className="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
+              />
+              <div className="absolute inset-0 bg-gradient-to-t from-navy/70 via-navy/10 to-transparent" />
+              <div className="absolute top-4 left-4 inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-gold text-navy text-[10px] font-bold uppercase tracking-[0.2em]">
+                Novidade
+              </div>
+            </Link>
+
+            <div className="p-8 md:p-12 flex flex-col justify-center">
+              <p className="text-caption text-gold mb-3">Grupo em destaque</p>
+              <h2 className="font-serif text-3xl md:text-4xl font-bold text-foreground mb-4 leading-tight">
+                Egito Eterno · <span className="italic text-gold">Abril 2027</span>
+              </h2>
+              <div className="flex flex-wrap gap-4 text-sm text-muted-foreground mb-5">
+                <span className="inline-flex items-center gap-1.5">
+                  <Calendar size={15} className="text-gold" /> 20/04 a 02/05/2027 · 13 dias
+                </span>
+                <span className="inline-flex items-center gap-1.5">
+                  <MapPin size={15} className="text-gold" /> Cairo · Luxor · Nilo · Assuã · Sharm
+                </span>
+              </div>
+              <p className="text-muted-foreground font-light leading-relaxed mb-6">
+                Pirâmides de Gizé, Grande Museu Egípcio, Karnak e Luxor, Vale dos Reis, cruzeiro pelo
+                Nilo até Assuã e três noites tudo incluído no Mar Vermelho. Voos Emirates e
+                coordenador brasileiro embarcando do Brasil.
+              </p>
+              <p className="font-serif text-xl text-foreground mb-8">
+                A partir de <strong>US$ 4.895</strong>{" "}
+                <span className="text-sm text-muted-foreground font-sans font-light">
+                  por pessoa (apto duplo) · entrada 25% + 9x sem juros
+                </span>
+              </p>
+              <div className="flex flex-col sm:flex-row gap-3">
+                <Link to="/grupos/egito-abril-2027" className="btn-accent inline-flex items-center justify-center gap-2">
+                  Ver roteiro completo <ArrowRight size={18} />
+                </Link>
+                <WhatsAppButton variant="cta" label="Quero reservar" />
+              </div>
+            </div>
+          </motion.div>
+        </div>
+      </section>
+
       {/* Featured: Grupos com Guia Brasileiro — cardápio cronológico em destaque */}
+
       <section className="section-padding bg-gradient-to-b from-navy to-navy/95 text-white relative overflow-hidden">
         <div className="absolute inset-0 opacity-10 pointer-events-none">
           <div className="absolute top-20 left-10 w-72 h-72 rounded-full bg-gold blur-3xl" />
