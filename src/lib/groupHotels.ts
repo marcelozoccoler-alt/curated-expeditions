@@ -120,7 +120,11 @@ const HOTEL_URLS: Record<string, string> = {
   "Tozeur Plaza by Odysee": "https://www.google.com/search?q=Tozeur+Plaza+by+Odysee",
   "Sahara Douz": "https://www.google.com/search?q=Sahara+Douz+hotel",
   "Occidental Sfax Center": "https://www.barcelo.com/en-ww/occidental-sfax-el-mouradi/",
+  "Sheraton Cairo": "https://www.marriott.com/en-us/hotels/caisi-sheraton-cairo-hotel-and-casino/overview/",
+  "Renaissance ou Radamis 1": "https://radamis.com/nile-cruiser-radamis-i/",
+  "JAZ Mirabel Resort": "https://www.jaz-hotels.com/jaz-mirabel-resort/",
 };
+
 
 /**
  * Retorna o site oficial do hotel. Se não houver mapeamento, devolve uma
