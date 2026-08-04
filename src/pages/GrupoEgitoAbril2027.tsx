@@ -227,7 +227,24 @@ const faqs = [
     q: "Posso viajar sozinho(a)? Tem suplemento single?",
     a: "Sim. Trabalhamos com apartamento duplo, triplo ou individual. Podemos emparelhar você com outra pessoa do grupo do mesmo gênero para evitar o suplemento single.",
   },
+  {
+    q: "É uma viagem indicada para mulheres viajando sozinhas ou em dupla?",
+    a: "Sim — é um dos perfis mais frequentes dos nossos grupos. Muitas viajantes acima dos 50 anos embarcam sozinhas ou com uma amiga e encontram um grupo acolhedor, ritmo confortável, traslados sempre assistidos e um coordenador brasileiro disponível do início ao fim. Você nunca precisa resolver nada sozinha: bagagem, check-ins, entradas e horários ficam com a gente.",
+  },
+  {
+    q: "O ritmo do roteiro é confortável para quem tem mais de 50 anos?",
+    a: "Sim. O roteiro alterna dias de visitas com dias de descanso: quatro noites de cruzeiro pelo Nilo (você dorme no mesmo quarto enquanto o cenário muda) e três noites de resort tudo incluído em Sharm El Sheikh. As visitas têm transporte privativo com ar-condicionado, paradas para descanso, almoços incluídos e guia em português explicando cada templo.",
+  },
+  {
+    q: "Preciso falar inglês ou árabe para viajar no grupo?",
+    a: "Não. Do embarque em Guarulhos ao retorno, você é acompanhada em português: coordenador Create Travel embarcando com o grupo e guias locais falando português/espanhol em todas as visitas e traslados.",
+  },
+  {
+    q: "Quantas pessoas viajam no grupo?",
+    a: "Trabalhamos com grupos pequenos e vagas limitadas, para manter atenção individual, mobilidade nos templos e clima de convivência. Por isso a reserva antecipada é importante.",
+  },
 ];
+
 
 const hotelsForSeo = [
   { city: "Cairo", hotel: "Sheraton Cairo" },
@@ -280,7 +297,7 @@ const GrupoEgitoAbril2027 = () => {
         ogImage={heroImg}
         ogType="article"
         jsonLd={[jsonLd, ...hotelsSeoJsonLd]}
-        keywords={`viagem em grupo Egito 2027, Egito com guia brasileiro, cruzeiro no Nilo Luxor Assuã, Pirâmides de Gizé em grupo, Grande Museu Egípcio, Sharm El Sheikh Mar Vermelho, Create Travel Egito, ${hotelsSeoKeywords}`}
+        keywords={`viagem em grupo para o Egito, viagem em grupo Egito 2027, excursão para o Egito com guia brasileiro, grupo brasileiro Egito abril 2027, viagem em grupo para mulheres, viagem para mulheres acima de 50 anos, viagem em grupo com acompanhante em português, viagem em grupo sozinha, excursão Egito saindo de São Paulo, pacote Egito tudo organizado, quanto custa viagem para o Egito em grupo, Egito parcelado em 9x sem juros, cruzeiro no Nilo Luxor Assuã, Pirâmides de Gizé em grupo, Grande Museu Egípcio, Sharm El Sheikh Mar Vermelho, viagem em grupo com voos Emirates, grupo pequeno Egito, Create Travel Egito, ${hotelsSeoKeywords}`}
       />
       <Header />
       <WhatsAppButton variant="float" params={whatsappParams} />
