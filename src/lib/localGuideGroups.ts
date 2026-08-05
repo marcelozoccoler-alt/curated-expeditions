@@ -45,6 +45,129 @@ export const localGuidePriceLabel = (g: LocalGuideGroup) =>
 
 export const localGuideGroups: LocalGuideGroup[] = [
   {
+    slug: "nova-zelandia-de-norte-a-sul",
+    code: "R148",
+    title: "Nova Zelândia de Norte a Sul",
+    subtitle:
+      "Auckland · Waitomo · Rotorua · Christchurch · Lago Tekapo · Te Anau · Milford Sound · Queenstown · Wanaka · Franz Josef · Greymouth · Punakaiki · Kaikoura",
+    category: "Premium",
+    days: 16,
+    nights: 15,
+    priceEur: 4463,
+    currency: "USD",
+    priceNote:
+      "Valor de referência por pessoa em apartamento duplo (equivalente aproximado de R$ 27.492 ao câmbio de R$ 6,16), confirmado na cotação da sua data. Inclui o voo interno Rotorua–Christchurch em classe econômica (1 mala de até 23 kg); o aéreo internacional é cotado à parte. Visitas com guia local falando espanhol ou italiano, em serviço compartilhado.",
+    countries: ["Nova Zelândia"],
+    area: "Oceania",
+    hotels: [
+      { city: "Auckland", hotel: "Hotel selecionado (3 noites)" },
+      { city: "Rotorua", hotel: "Hotel selecionado (1 noite)" },
+      { city: "Christchurch", hotel: "Hotel selecionado (1 noite + 1 noite no final)" },
+      { city: "Lago Tekapo", hotel: "Hotel selecionado (1 noite)" },
+      { city: "Te Anau", hotel: "Hotel selecionado (1 noite)" },
+      { city: "Queenstown", hotel: "Hotel selecionado (3 noites)" },
+      { city: "Wanaka", hotel: "Hotel selecionado (1 noite)" },
+      { city: "Franz Josef", hotel: "Hotel selecionado (1 noite)" },
+      { city: "Punakaiki", hotel: "Hotel selecionado (1 noite)" },
+      { city: "Kaikoura", hotel: "Hotel selecionado (1 noite)" },
+    ],
+    departures: [
+      "2026-04-07",
+      "2026-08-04",
+      "2026-09-15",
+      "2026-10-06",
+      "2026-11-03",
+      "2026-11-17",
+      "2027-01-12",
+      "2027-02-02",
+      "2027-03-09",
+    ],
+    itinerary: [
+      {
+        day: 1,
+        route: "AUCKLAND",
+        text: "Chegada, recepção e traslado ao hotel para três noites, com check-in imediato. Restante do dia livre. Auckland é a maior cidade do país e fica a meia hora de praias, trilhas e de uma dúzia de ilhas do Golfo de Hauraki.",
+      },
+      {
+        day: 2,
+        route: "AUCKLAND",
+        text: "Dia livre para atividades independentes — bom para a ilha vulcânica de Rangitoto ou os vinhedos de Waiheke. Café da manhã incluído.",
+      },
+      {
+        day: 3,
+        route: "AUCKLAND / COSTA OESTE",
+        text: "Manhã na Costa Oeste, no Parque Regional de Muriwai, com sua praia de areia negra famosa entre surfistas e habitada por uma colônia de alcatrazes, aves de envergadura superior a um metro. Em seguida, o Museu de Auckland, com sua coleção de arte maori e polinésia, o bairro histórico de Parnell, Mission Bay, o viaduto e a Sky Tower, de 328 metros, com vista única das duas baías da cidade: Waitemata e Manukau. Café da manhã incluído.",
+      },
+      {
+        day: 4,
+        route: "AUCKLAND / WAITOMO / ROTORUA",
+        text: "Saída pelos Bombay Hills, atravessando a rica região agrícola de Waikato, até Waitomo e a Footwhistle Cave, uma das mais famosas cavernas de larvas luminosas do mundo — o teto vira um céu estrelado azul. Almoço em restaurante local. Continuação a Rotorua, de intensa atividade termal. À tarde, o Centro Termal de Te Puia (antigo Whakarewarewa) e o Centro de Arte e Cultura Maori do Instituto Nacional de Arte e Artesanato. Visita a um povoado maori, com recepção tradicional, demonstração de músicas e danças e jantar típico. Café da manhã, almoço e jantar incluídos.",
+      },
+      {
+        day: 5,
+        route: "ROTORUA / CHRISTCHURCH",
+        text: "Manhã na reserva termal de Waimangu, extenso vale geotermal com bosques e os lagos azul e verde de água cristalina. Traslado ao aeroporto de Rotorua e voo para Christchurch (bilhete incluído). Chegada, passeio pela cidade e pernoite. Café da manhã incluído.",
+      },
+      {
+        day: 6,
+        route: "CHRISTCHURCH / LAGO TEKAPO",
+        text: "Visita aos arredores de Christchurch e seguimos ao Lago Tekapo, cercado de montanhas, com águas turquesa e a emblemática Igreja do Bom Pastor à beira d'água. À tarde, recepção por anfitriões kiwis para um jantar caseiro com degustação da tradicional Pavlova. Pernoite. Café da manhã e jantar incluídos.",
+      },
+      {
+        day: 7,
+        route: "LAGO TEKAPO / TE ANAU",
+        text: "Saída com vista espetacular do Monte Cook, o pico mais alto do país (3.750 m), e dos lagos glaciares turquesa, atravessando a Mackenzie Country. Parada na Bungy Bridge, onde nasceu o bungee jump (salto não incluído). Visita a um vinhedo de Central Otago com degustação de vinhos locais e aperitivo. Almoço incluído. Chegada a Te Anau para pernoite. Café da manhã e almoço incluídos.",
+      },
+      {
+        day: 8,
+        route: "TE ANAU / MILFORD SOUND / QUEENSTOWN",
+        text: "Dia inteiro em Milford Sound (sujeito às condições climáticas), atravessando o Parque Nacional dos Fiordes. Navegação até o Mar da Tasmânia entre paredões verticais, o pico Mitre e as cascatas Bowen, com almoço servido a bordo. Continuação a Queenstown em ônibus — há opção de retorno em avião pequeno ou helicóptero, com suplemento pago localmente conforme disponibilidade. Três noites em Queenstown. Em caso de cancelamento de Milford Sound, o passeio é substituído por Doubtful Sound, com suplemento local. Café da manhã e almoço incluídos.",
+      },
+      {
+        day: 9,
+        route: "QUEENSTOWN / ARROWTOWN",
+        text: "Meio dia pela região de Queenstown, incluindo Arrowtown, antigo povoado de mineração de ouro, e subida no teleférico Skyline ao Bob's Peak para a vista panorâmica do lago Wakatipu e das Remarkables. Restante do dia livre. Café da manhã incluído.",
+      },
+      {
+        day: 10,
+        route: "QUEENSTOWN",
+        text: "Dia livre para atividades independentes — jet boat no rio Shotover, trilhas, vinícolas de Gibbston Valley ou simplesmente a beira do lago. Café da manhã incluído.",
+      },
+      {
+        day: 11,
+        route: "QUEENSTOWN / WANAKA",
+        text: "Saída para a encantadora Wanaka, com visita a um campo de lavandas — há chá de ervas e sorvete de lavanda de produção local, por conta própria. Restante do dia livre. Café da manhã incluído.",
+      },
+      {
+        day: 12,
+        route: "WANAKA / FRANZ JOSEF",
+        text: "Travessia pelo Haast Pass até a região dos glaciares, com parada no Parque Nacional Monte Aspiring. No caminho para Franz Josef, visita ao Lago Matheson, cujo espelho d'água reflete os cumes nevados nas manhãs calmas. Pernoite. Café da manhã incluído.",
+      },
+      {
+        day: 13,
+        route: "FRANZ JOSEF / GREYMOUTH / PUNAKAIKI",
+        text: "Manhã livre para opcionais: caminhada no vale do glaciar, excursão de helicóptero com caminhada sobre o gelo ou voo panorâmico (não incluídos e sujeitos ao clima). À tarde, saída para Punakaiki passando por Greymouth e Hokitika, com caminhada em passarela pela floresta tropical, conforme o clima. Visita às Pancake Rocks, erodidas pelo mar em camadas de panqueca (pode ser feita na manhã seguinte). Pernoite. Café da manhã incluído.",
+      },
+      {
+        day: 14,
+        route: "PUNAKAIKI / KAIKOURA",
+        text: "Continuação pela costa oeste, atravessando o Lewis Pass, com breve parada em Hanmer Springs. Chegada a Kaikoura, onde os Alpes caem quase dentro do mar. Pernoite. Café da manhã e jantar incluídos.",
+      },
+      {
+        day: 15,
+        route: "KAIKOURA / CHRISTCHURCH",
+        text: "Pela manhã, passeio de barco para observação de baleias (sujeito às condições climáticas) — a fossa submarina em frente à cidade atrai cachalotes durante todo o ano. Continuação a Christchurch e pernoite. Café da manhã incluído.",
+      },
+      {
+        day: 16,
+        route: "CHRISTCHURCH",
+        text: "Traslado ao aeroporto e fim dos nossos serviços. Café da manhã incluído.",
+      },
+    ],
+  },
+
+  {
+
     slug: "grande-tour-tunisia-top-deluxe",
     code: "R638",
     title: "Grande Tour Tunísia Top Deluxe",
