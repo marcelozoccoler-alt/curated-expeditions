@@ -45,6 +45,92 @@ export const localGuidePriceLabel = (g: LocalGuideGroup) =>
 
 export const localGuideGroups: LocalGuideGroup[] = [
   {
+    slug: "armenia-georgia-azerbaijao",
+    code: "R624",
+    title: "Armênia, Geórgia e Azerbaijão",
+    subtitle:
+      "Yerevan · Gueghard · Garni · Echmiadzin · Zvartnots · Lago Sevan · Dilijan · Tbilisi · Uplistsikhe · Gori · Mtskheta · Baku · Gobustán",
+    category: "Primeira",
+    days: 11,
+    nights: 10,
+    priceEur: 4463,
+    currency: "USD",
+    priceNote:
+      "Valor de referência por pessoa em apartamento duplo (equivalente aproximado de R$ 27.492 ao câmbio de R$ 6,16), confirmado na cotação da sua data. O trecho aéreo Tbilisi–Baku não está incluído e é cotado junto com o aéreo internacional.",
+    countries: ["Armênia", "Geórgia", "Azerbaijão"],
+    area: "Cáucaso",
+    hotels: [
+      { city: "Yerevan", hotel: "Hotel selecionado (4 noites)" },
+      { city: "Tbilisi", hotel: "Hotel selecionado (3 noites)" },
+      { city: "Baku", hotel: "Hotel selecionado (3 noites)" },
+    ],
+    departures: [
+      "2026-08-08","2026-08-15","2026-08-22","2026-08-29",
+      "2026-09-05","2026-09-12","2026-09-19","2026-09-26",
+      "2026-10-03","2026-10-10","2026-10-17","2026-10-24","2026-10-31",
+      "2026-11-07","2026-11-14","2026-11-21","2026-11-28",
+      "2026-12-05","2026-12-12","2026-12-19",
+    ],
+    itinerary: [
+      {
+        day: 1,
+        route: "YEREVAN",
+        text: "Chegada ao aeroporto Zvartnots, em Yerevan, e traslado ao hotel. Primeiro encontro com os companheiros de viagem e noite livre na capital armênia, uma das cidades continuamente habitadas mais antigas do mundo.",
+      },
+      {
+        day: 2,
+        route: "YEREVAN",
+        text: "Encontro com o guia para a visita da capital: Praça da República, a monumental Cascata com o centro de arte contemporânea Cafesjian e a rua Abovyán. Seguimos para Tsitsernakaberd, com o Parque Memorial e o Museu das Vítimas do Genocídio, e para a feira Vernissage, ideal para artesanato e antiguidades. Tempo livre. Café da manhã incluído.",
+      },
+      {
+        day: 3,
+        route: "YEREVAN / GUEGHARD / GARNI / YEREVAN",
+        text: "Viagem ao Mosteiro de Gueghard (séc. VII–XII, Patrimônio Mundial), parcialmente esculpido na rocha viva do desfiladeiro — um dos lugares de acústica mais impressionante do Cáucaso. Depois, o Templo Pagão de Garni, o único templo greco-romano preservado no território da antiga União Soviética (séc. I d.C.), com suas termas de estilo romano. Retorno a Yerevan. Café da manhã incluído.",
+      },
+      {
+        day: 4,
+        route: "YEREVAN / ECHMIADZIN / ZVARTNOTS / YEREVAN",
+        text: "Dia dedicado ao coração espiritual da Armênia: Echmiadzin, sede da primeira igreja cristã do mundo (303 d.C.), onde acompanhamos a missa na catedral principal, e as ruínas da Catedral de Zvartnots (séc. VII), uma das obras mais extraordinárias da arquitetura eclesiástica. Ambas são Patrimônio Mundial. Café da manhã incluído.",
+      },
+      {
+        day: 5,
+        route: "YEREVAN / SEVÁN / DILIJAN / SADAKHLO / TBILISI",
+        text: "Partida rumo à Geórgia. No caminho, o Lago Sevan, o segundo maior lago alpino do mundo, a 1.900 m de altitude, e Dilijan, a 'Suíça armênia', de florestas densas e casas de madeira. Cruzamos a fronteira em Sadakhlo, onde trocamos de guia e veículo, e seguimos para Tbilisi. Café da manhã incluído.",
+      },
+      {
+        day: 6,
+        route: "TBILISI",
+        text: "Exploração a pé da capital georgiana, onde oriente e ocidente se encontram: o centro antigo, as casas de banho de enxofre, igrejas medievais, becos com varandas suspensas sobre os abismos e a vibrante Avenida Rustaveli. Opcional: Museu Nacional, Museu Etnográfico ou galerias de arte. Café da manhã incluído.",
+      },
+      {
+        day: 7,
+        route: "TBILISI / UPLISTSIKHE / GORI / MTSKHETA / TBILISI",
+        text: "Dia na região de Kartli, o coração da Geórgia: a cidade rupestre de Uplistsikhe, escavada na rocha, e Gori. No retorno, parada em Mtskheta, habitada desde o segundo milênio a.C. e Patrimônio Mundial — um museu vivo de arquitetura sacra. Café da manhã incluído.",
+      },
+      {
+        day: 8,
+        route: "TBILISI / BAKU",
+        text: "Traslado ao aeroporto de Tbilisi e voo para Baku, no Azerbaijão (trecho aéreo não incluído — cotamos junto). Recepção com guia e motorista e traslado ao hotel, para três noites na capital do Cáspio. Café da manhã incluído.",
+      },
+      {
+        day: 9,
+        route: "BAKU",
+        text: "Visita guiada de Baku: a Pista dos Mártires, com vista panorâmica da baía; a Cidade Velha (Patrimônio Mundial), de ruelas sinuosas dentro das muralhas de Ichari Shahar, com mesquitas, hammams e caravançarais; o Palácio dos Shirvan Shah (séc. XV) e a Torre da Donzela (séc. XII). À tarde, a península de Absheron, com o templo zoroastriano de Ateshgah e Yanar Dagh, a montanha que arde naturalmente há séculos. Café da manhã incluído.",
+      },
+      {
+        day: 10,
+        route: "BAKU / GOBUSTÁN / BAKU",
+        text: "Viagem à Reserva de Gobustán (Patrimônio Mundial), com mais de 600 mil gravuras rupestres de 5.000 a 20.000 anos — caçadores, danças rituais, barcos e caravanas — entre vulcões de lama. De volta a Baku, visita ao Centro Cultural Heydar Aliyev, ícone da arquitetura contemporânea assinado por Zaha Hadid. Tarde livre. Café da manhã incluído.",
+      },
+      {
+        day: 11,
+        route: "BAKU",
+        text: "Em horário informado localmente, traslado ao aeroporto de Baku e fim dos nossos serviços. Café da manhã incluído.",
+      },
+    ],
+  },
+
+  {
     slug: "argelia-tunisia-top-deluxe",
     code: "R546",
     title: "Argélia e Tunísia Top Deluxe",
