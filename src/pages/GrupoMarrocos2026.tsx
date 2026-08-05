@@ -432,10 +432,16 @@ const GrupoMarrocos2026 = () => {
         <div className="container-editorial max-w-3xl text-center">
           <p className="text-caption text-gold mb-4">Investimento</p>
           <h2 className="heading-section mb-6">A partir de R$ 18.295,00 por pessoa</h2>
-          <p className="text-white/85 mb-8">
+          <p className="text-white/85 mb-4">
             Em acomodação dupla. Valores sujeitos a disponibilidade, confirmação
             aérea e condições comerciais vigentes no momento da reserva.
           </p>
+          <p className="text-white/70 text-sm mb-8">
+            Condição de pagamento válida para a parte terrestre do programa. A
+            parte aérea é cotada à parte e o parcelamento segue as regras da
+            companhia aérea escolhida, que variam de uma cia para outra.
+          </p>
+
           <div className="grid sm:grid-cols-3 gap-4 mb-10">
             <div className="bg-white/10 border border-white/20 rounded-xl p-6">
               <p className="text-xs uppercase tracking-wider text-gold mb-2">Entrada (20%)</p>
