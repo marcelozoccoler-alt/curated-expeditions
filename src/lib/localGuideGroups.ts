@@ -45,6 +45,76 @@ export const localGuidePriceLabel = (g: LocalGuideGroup) =>
 
 export const localGuideGroups: LocalGuideGroup[] = [
   {
+    slug: "coreia-do-sul-tradicao-inovacao",
+    code: "R632",
+    title: "Coreia do Sul: Tradição e Inovação",
+    subtitle:
+      "Seul · Lotte World Tower · Gangnam · Palácio Gyeongbokgung · Myeongdong · trem-bala · Busan · Mercado Jagalchi · Gamcheon · Templo Haedong Yonggungsa · Gyeongju · Bulguksa",
+    category: "Primeira",
+    days: 7,
+    nights: 6,
+    priceEur: 4463,
+    currency: "USD",
+    priceNote:
+      "Valor de referência por pessoa em apartamento duplo (equivalente aproximado de R$ 27.492 ao câmbio de R$ 6,16), confirmado na cotação da sua data. Inclui o trem-bala Seul–Busan em classe econômica; o aéreo internacional é cotado à parte.",
+    countries: ["Coreia do Sul"],
+    area: "Ásia",
+    hotels: [
+      { city: "Seul", hotel: "Hotel selecionado (3 noites)" },
+      { city: "Busan", hotel: "Hotel selecionado (3 noites)" },
+    ],
+    departures: [
+      "2026-08-03","2026-08-17","2026-08-24","2026-08-31",
+      "2026-09-07","2026-09-14","2026-09-21","2026-09-28",
+      "2026-10-05","2026-10-12","2026-10-19","2026-10-26",
+      "2026-11-02","2026-11-09","2026-11-23",
+      "2026-12-07","2026-12-21",
+      "2027-01-04","2027-01-18",
+      "2027-02-08","2027-02-22",
+      "2027-03-08","2027-03-15","2027-03-22","2027-03-29",
+      "2027-04-05",
+    ],
+    itinerary: [
+      {
+        day: 1,
+        route: "SEUL",
+        text: "Chegada ao aeroporto de Incheon ou Gimpo, recepção com assistência e traslado ao hotel, para três noites em Seul — cidade de arranha-céus e centros de alta tecnologia que ainda guarda palácios da dinastia Joseon e templos budistas. Check-in a partir das 15h. Restante do dia livre.",
+      },
+      {
+        day: 2,
+        route: "SEUL",
+        text: "Dia inteiro na Seul contemporânea: subida à Lotte World Tower e ao observatório Seoul Sky, a torre mais alta do país, com vista do rio Han; o complexo COEX, em Gangnam, e a icônica escultura do 'Gangnam Style'; a Starfield Library, com suas estantes gigantes de pé-direito duplo. À tarde, experiência de metrô entre as estações Samsung e Gangnam e passeio pela Gangnam Square — moda, tecnologia e o ritmo da cidade que não dorme. Café da manhã incluído.",
+      },
+      {
+        day: 3,
+        route: "SEUL",
+        text: "Manhã histórica: o Palácio de Gyeongbokgung, o maior do país, erguido em 1395, onde acontece a cerimônia de troca da guarda com trajes de época; a Praça Gwanghwamun, só para pedestres, com as estátuas do Rei Sejong — criador do alfabeto coreano — e do almirante Yi Sun-sin; vista externa da Prefeitura de Seul e do Palácio Deoksugung, que mistura arquitetura coreana e ocidental. O passeio termina em Myeongdong, o bairro de compras e comida de rua. Tarde livre. Café da manhã incluído.",
+      },
+      {
+        day: 4,
+        route: "SEUL / BUSAN (330 km)",
+        text: "Traslado à estação de Seul e trem-bala até Busan. Almoço em restaurante local e tarde de visitas: o Mercado Jagalchi, o maior mercado de frutos do mar do país; a Praça BIFF, homenagem ao Festival Internacional de Cinema de Busan; Nampodong, coração comercial e cultural da cidade; e a Aldeia Cultural Gamcheon, labirinto de casas coloridas e murais na encosta, apelidada de 'Santorini coreana'. Acomodação por três noites. Café da manhã e almoço incluídos.",
+      },
+      {
+        day: 5,
+        route: "BUSAN",
+        text: "Manhã junto ao mar: o Templo Haedong Yonggungsa, construído sobre as rochas de frente para o oceano, onde a oração se mistura ao som das ondas. Depois, embarque no Blue Line Train, o trenzinho colorido que percorre lentamente a costa de Haeundae. Retorno ao hotel e tempo livre. Café da manhã incluído.",
+      },
+      {
+        day: 6,
+        route: "BUSAN / GYEONGJU / BUSAN",
+        text: "Dia inteiro em Gyeongju, o 'museu sem muros' e antiga capital do Reino de Silla: o Templo Bulguksa (Patrimônio Mundial), a Ponte Woljeonggyo restaurada, o Observatório Cheomseongdae — o mais antigo da Ásia, do século VII — e a rua Hwangridan-gil, onde casas tradicionais convivem com cafés e lojas. À tarde, o parque das Tumbas Daereungwon e Cheonmachong, com relíquias reais da era Silla. Retorno a Busan. Café da manhã incluído.",
+      },
+      {
+        day: 7,
+        route: "BUSAN",
+        text: "Check-out até as 11h e traslado ao aeroporto internacional de Gimhae. Fim dos nossos serviços. Café da manhã incluído.",
+      },
+    ],
+  },
+
+  {
+
     slug: "china-classica",
     code: "R019",
     title: "China Clássica",
