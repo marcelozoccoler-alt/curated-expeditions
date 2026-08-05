@@ -4,6 +4,7 @@
 
 import type { FAQ } from "./types";
 import { diaryPostsDestinos } from "./diaryPostsDestinos";
+import { diaryPostsDestinos2 } from "./diaryPostsDestinos2";
 
 export interface DiarySection {
   heading: string;
