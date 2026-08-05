@@ -3758,7 +3758,11 @@ const corePosts: DiaryPost[] = [
 
 
 
-export const diaryPosts: DiaryPost[] = [...corePosts, ...diaryPostsDestinos];
+export const diaryPosts: DiaryPost[] = [
+  ...corePosts,
+  ...diaryPostsDestinos,
+  ...diaryPostsDestinos2,
+];
 
 export const getDiaryPost = (slug: string): DiaryPost | undefined =>
   diaryPosts.find((p) => p.slug === slug);
