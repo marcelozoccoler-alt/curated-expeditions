@@ -102,7 +102,7 @@ const GrupoChinaPrimavera2027 = () => {
     <div className="min-h-screen">
       <SEO
         title="Grupo China 2027 — Primavera com guia do Brasil | Create Travel"
-        description="15 dias pela China na primavera: Beijing, Grande Muralha, Xi'an, Zhangjiajie (Avatar) e Shanghai. Saída 13/05/2027 pela Ethiopian. Entrada 25% + 9x sem juros."
+        description="15 dias pela China na primavera: Beijing, Grande Muralha, Xi'an, Zhangjiajie (Avatar) e Shanghai. Saída 13/05/2027 pela Ethiopian. Parte terrestre: entrada 25% + 9x sem juros."
         canonicalPath="/grupos/china-primavera-2027"
         ogImage={heroImg}
         ogType="article"

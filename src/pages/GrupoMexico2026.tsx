@@ -243,7 +243,7 @@ const GrupoMexico2026 = () => {
     <div className="min-h-screen">
       <SEO
         title="Grupo México 2026 — Cidades históricas e Puerto Vallarta com guia do Brasil | Create Travel"
-        description="11 dias pelo México em grupo com guia do Brasil: Cidade do México, Teotihuacán, Querétaro, San Miguel de Allende, Guanajuato, Guadalajara, Tequila e Puerto Vallarta All Inclusive. Saída 12/11/2026 pela Aeroméxico. Entrada 25% + 9x sem juros."
+        description="11 dias pelo México em grupo com guia do Brasil: Cidade do México, Teotihuacán, Querétaro, San Miguel de Allende, Guanajuato, Guadalajara, Tequila e Puerto Vallarta All Inclusive. Saída 12/11/2026 pela Aeroméxico. Parte terrestre: entrada 25% + 9x sem juros."
         canonicalPath="/grupos/mexico-2026"
         ogImage={heroImg}
         ogType="article"

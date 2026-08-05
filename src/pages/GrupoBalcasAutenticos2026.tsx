@@ -260,7 +260,7 @@ const GrupoBalcasAutenticos2026 = () => {
     <div className="min-h-screen">
       <SEO
         title="Grupo Bálcãs Autênticos 2026 · Albânia, Kosovo e Macedônia do Norte com guia do Brasil | Create Travel"
-        description="13 dias pelos Bálcãs autênticos no outono 2026: Krujë, Prizren, Dečani, Skopje, Ohrid, Berat, Gjirokastër, Butrint e Tirana. Saída 13/10/2026 pela ITA Airways. Entrada 25% + 9x sem juros."
+        description="13 dias pelos Bálcãs autênticos no outono 2026: Krujë, Prizren, Dečani, Skopje, Ohrid, Berat, Gjirokastër, Butrint e Tirana. Saída 13/10/2026 pela ITA Airways. Parte terrestre: entrada 25% + 9x sem juros."
         canonicalPath="/grupos/balcas-autenticos-2026"
         ogImage={heroImg}
         ogType="article"

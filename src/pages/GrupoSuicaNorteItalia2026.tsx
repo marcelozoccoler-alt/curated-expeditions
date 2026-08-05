@@ -255,7 +255,7 @@ const GrupoSuicaNorteItalia2026 = () => {
     <div className="min-h-screen">
       <SEO
         title="Grupo Suíça & Norte da Itália · Outono 2026 · Alpes, Glacier Express, Cinque Terre & Milão | Create Travel"
-        description="13 dias entre Suíça e Norte da Itália no outono 2026: Zurique, Lindt, Monte Titlis, Glacier Express, Lago de Como, Cinque Terre, Piemonte e Milão. Saída 01/10/2026 pela TAP Air Portugal. Entrada 25% + 9x sem juros."
+        description="13 dias entre Suíça e Norte da Itália no outono 2026: Zurique, Lindt, Monte Titlis, Glacier Express, Lago de Como, Cinque Terre, Piemonte e Milão. Saída 01/10/2026 pela TAP Air Portugal. Parte terrestre: entrada 25% + 9x sem juros."
         canonicalPath="/grupos/suica-norte-italia-2026"
         ogImage={heroImg}
         ogType="article"

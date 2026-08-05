@@ -162,7 +162,7 @@ const notIncluded = [
 const faqs = [
   {
     q: "Qual a condição de pagamento?",
-    a: "25% de entrada e o saldo (75%) em 9 parcelas sem juros no cartão de crédito. Valores sujeitos a disponibilidade e confirmação aérea no momento da reserva.",
+    a: "25% de entrada e o saldo (75%) em 9 parcelas sem juros no cartão de crédito — condição válida para a parte terrestre do programa. A parte aérea é cotada separadamente e o parcelamento segue as condições da companhia aérea escolhida, que mudam de uma cia para outra. Valores sujeitos a disponibilidade e confirmação aérea no momento da reserva.",
   },
   {
     q: "Como é o clima na Patagônia em outubro?",
@@ -227,7 +227,7 @@ const GrupoPatagoniaChilena2026 = () => {
     <div className="min-h-screen">
       <SEO
         title="Grupo Patagônia Chilena 2026 — Saída 04/10 | Create Travel"
-        description="Santiago, Torres del Paine e glaciares em grupo com guia desde o Brasil. 8 dias na primavera patagônica, voos LATAM, saída 04/10/2026. Entrada 25% + 9x sem juros."
+        description="Santiago, Torres del Paine e glaciares em grupo com guia desde o Brasil. 8 dias na primavera patagônica, voos LATAM, saída 04/10/2026. Parte terrestre: entrada 25% + 9x sem juros."
         canonicalPath="/grupos/patagonia-chilena-2026"
         ogImage={heroImg}
         ogType="article"

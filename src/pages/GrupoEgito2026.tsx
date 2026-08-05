@@ -264,7 +264,7 @@ const GrupoEgito2026 = () => {
     <div className="min-h-screen">
       <SEO
         title="Grupo Egito 2026 — Pirâmides, Cruzeiro pelo Nilo & Mar Vermelho | Create Travel"
-        description="14 dias pelo Egito em grupo com guia do Brasil: Cairo, GEM, Luxor, cruzeiro pelo Nilo e Sharm El Sheikh. Saída 29/09/2026 pela Turkish Airlines. Entrada 25% + 9x sem juros."
+        description="14 dias pelo Egito em grupo com guia do Brasil: Cairo, GEM, Luxor, cruzeiro pelo Nilo e Sharm El Sheikh. Saída 29/09/2026 pela Turkish Airlines. Parte terrestre: entrada 25% + 9x sem juros."
         canonicalPath="/grupos/egito-2026"
         ogImage={heroImg}
         ogType="article"

@@ -297,7 +297,7 @@ const GrupoVietnaLaosCamboja2027 = () => {
     <div className="min-h-screen">
       <SEO
         title="Grupo Vietnã, Laos & Camboja 2027 — Carnaval com guia do Brasil | Create Travel"
-        description="17 dias pelo Sudeste Asiático em grupo com guia do Brasil: Hanói, cruzeiro em Halong, Luang Prabang, Angkor Wat, Hoi An, Hue e Saigon. Saída 01/02/2027 (Carnaval) pela Turkish Airlines. Entrada 25% + 9x sem juros."
+        description="17 dias pelo Sudeste Asiático em grupo com guia do Brasil: Hanói, cruzeiro em Halong, Luang Prabang, Angkor Wat, Hoi An, Hue e Saigon. Saída 01/02/2027 (Carnaval) pela Turkish Airlines. Parte terrestre: entrada 25% + 9x sem juros."
         canonicalPath="/grupos/vietna-laos-camboja-2027"
         ogImage={heroImg}
         ogType="article"

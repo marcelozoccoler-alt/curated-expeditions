@@ -182,7 +182,7 @@ const notIncluded = [
 const faqs = [
   {
     q: "Qual a condição de pagamento?",
-    a: "25% de entrada e o saldo (75%) em 9 parcelas sem juros no cartão de crédito. Valores sujeitos a disponibilidade e confirmação aérea no momento da reserva.",
+    a: "25% de entrada e o saldo (75%) em 9 parcelas sem juros no cartão de crédito — condição válida para a parte terrestre do programa. A parte aérea é cotada separadamente e o parcelamento segue as condições da companhia aérea escolhida, que mudam de uma cia para outra. Valores sujeitos a disponibilidade e confirmação aérea no momento da reserva.",
   },
   {
     q: "Quais documentos e vacinas são necessários?",
@@ -247,7 +247,7 @@ const GrupoEquadorGalapagos2026 = () => {
     <div className="min-h-screen">
       <SEO
         title="Grupo Equador & Galápagos 2026 — Saída 12/10 | Create Travel"
-        description="Quito, Cotopaxi, Ilhas Galápagos e Guayaquil em grupo com guia desde o Brasil. 11 dias, voos LATAM, saída 12/10/2026. Entrada 25% + 9x sem juros."
+        description="Quito, Cotopaxi, Ilhas Galápagos e Guayaquil em grupo com guia desde o Brasil. 11 dias, voos LATAM, saída 12/10/2026. Parte terrestre: entrada 25% + 9x sem juros."
         canonicalPath="/grupos/equador-galapagos-2026"
         ogImage={heroImg}
         ogType="article"

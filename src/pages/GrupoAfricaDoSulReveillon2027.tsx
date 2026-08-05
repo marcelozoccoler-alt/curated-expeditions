@@ -227,7 +227,7 @@ const GrupoAfricaDoSulReveillon2027 = () => {
     <div className="min-h-screen">
       <SEO
         title="Grupo África do Sul · Réveillon 2027 com guia do Brasil | Create Travel"
-        description="9 dias na África do Sul no Réveillon 2027: Soweto, Blyde River Canyon, safári em reserva privada no Kruger, Table Mountain e Cabo da Boa Esperança. Saída 28/12/2026 pela South African Airways. Entrada 25% + 9x sem juros."
+        description="9 dias na África do Sul no Réveillon 2027: Soweto, Blyde River Canyon, safári em reserva privada no Kruger, Table Mountain e Cabo da Boa Esperança. Saída 28/12/2026 pela South African Airways. Parte terrestre: entrada 25% + 9x sem juros."
         canonicalPath="/grupos/africa-do-sul-reveillon-2027"
         ogImage={heroImg}
         ogType="article"

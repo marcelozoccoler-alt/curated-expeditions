@@ -227,7 +227,7 @@ const GrupoAfricaDoSulPrimavera2026 = () => {
     <div className="min-h-screen">
       <SEO
         title="Grupo África do Sul · Primavera 2026 com guia do Brasil | Create Travel"
-        description="9 dias na África do Sul na primavera: Soweto, safári no Pilanesberg em lodge 5 estrelas (área livre de malária), Pretória, Table Mountain e Cabo da Boa Esperança. Saída 16/11/2026 pela South African Airways. Entrada 25% + 9x sem juros."
+        description="9 dias na África do Sul na primavera: Soweto, safári no Pilanesberg em lodge 5 estrelas (área livre de malária), Pretória, Table Mountain e Cabo da Boa Esperança. Saída 16/11/2026 pela South African Airways. Parte terrestre: entrada 25% + 9x sem juros."
         canonicalPath="/grupos/africa-do-sul-primavera-2026"
         ogImage={heroImg}
         ogType="article"

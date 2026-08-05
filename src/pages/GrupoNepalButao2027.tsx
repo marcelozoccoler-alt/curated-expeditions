@@ -284,7 +284,7 @@ const GrupoNepalButao2027 = () => {
     <div className="min-h-screen">
       <SEO
         title="Grupo Nepal & Butão 2027 — Carnaval no Himalaia com guia do Brasil | Create Travel"
-        description="15 dias pelo reino do Himalaia em grupo com guia do Brasil: Kathmandu, Bhaktapur, Nagarkot, Thimphu, Punakha, Paro e Tiger's Nest. Saída 01/02/2027 (Carnaval) pela Turkish Airlines. Entrada 25% + 9x sem juros."
+        description="15 dias pelo reino do Himalaia em grupo com guia do Brasil: Kathmandu, Bhaktapur, Nagarkot, Thimphu, Punakha, Paro e Tiger's Nest. Saída 01/02/2027 (Carnaval) pela Turkish Airlines. Parte terrestre: entrada 25% + 9x sem juros."
         canonicalPath="/grupos/nepal-butao-2027"
         ogImage={heroImg}
         ogType="article"

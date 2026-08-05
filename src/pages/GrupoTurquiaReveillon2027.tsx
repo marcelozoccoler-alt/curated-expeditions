@@ -262,7 +262,7 @@ const GrupoTurquiaReveillon2027 = () => {
     <div className="min-h-screen">
       <SEO
         title="Grupo Turquia · Réveillon 2027 com guia do Brasil | Create Travel"
-        description="13 dias pela Turquia no Réveillon 2027: Istambul, Ancara, Capadócia no inverno, Pamukkale, Éfeso, Kusadasi e Bursa. Saída 28/12/2026 pela Turkish Airlines. Entrada 25% + 9x sem juros."
+        description="13 dias pela Turquia no Réveillon 2027: Istambul, Ancara, Capadócia no inverno, Pamukkale, Éfeso, Kusadasi e Bursa. Saída 28/12/2026 pela Turkish Airlines. Parte terrestre: entrada 25% + 9x sem juros."
         canonicalPath="/grupos/turquia-reveillon-2027"
         ogImage={heroImg}
         ogType="article"

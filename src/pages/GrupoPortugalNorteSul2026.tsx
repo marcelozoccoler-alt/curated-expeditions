@@ -261,7 +261,7 @@ const GrupoPortugalNorteSul2026 = () => {
     <div className="min-h-screen">
       <SEO
         title="Grupo Portugal de Norte a Sul · Outono 2026 · Porto, Douro, Lisboa & Algarve | Create Travel"
-        description="14 dias por Portugal no outono 2026: Porto, Douro, Aveiro, Braga, Serra da Estrela, Fátima, Óbidos, Lisboa, Sintra, Évora e Algarve. Saída 28/09/2026 pela Iberia. Entrada 25% + 9x sem juros."
+        description="14 dias por Portugal no outono 2026: Porto, Douro, Aveiro, Braga, Serra da Estrela, Fátima, Óbidos, Lisboa, Sintra, Évora e Algarve. Saída 28/09/2026 pela Iberia. Parte terrestre: entrada 25% + 9x sem juros."
         canonicalPath="/grupos/portugal-norte-sul-2026"
         ogImage={heroImg}
         ogType="article"

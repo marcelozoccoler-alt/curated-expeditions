@@ -240,7 +240,7 @@ const GrupoSulItaliaOutubro2026 = () => {
     <div className="min-h-screen">
       <SEO
         title="Grupo Sul da Itália · Outono 2026 · Costa Amalfitana, Matera & Puglia | Create Travel"
-        description="12 dias pelo sul da Itália no outono 2026: Sorrento, Positano, Amalfi, Pompeia, Matera, Alberobello, Bari, Lecce e Santa Maria di Leuca. Saída 11/10/2026 pela ITA Airways. Entrada 25% + 9x sem juros."
+        description="12 dias pelo sul da Itália no outono 2026: Sorrento, Positano, Amalfi, Pompeia, Matera, Alberobello, Bari, Lecce e Santa Maria di Leuca. Saída 11/10/2026 pela ITA Airways. Parte terrestre: entrada 25% + 9x sem juros."
         canonicalPath="/grupos/sul-italia-outubro-2026"
         ogImage={heroImg}
         ogType="article"

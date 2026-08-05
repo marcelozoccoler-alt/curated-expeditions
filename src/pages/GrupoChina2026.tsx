@@ -251,7 +251,7 @@ const GrupoChina2026 = () => {
     <div className="min-h-screen">
       <SEO
         title="Grupo China Dourada · Outono 2026 · Beijing, Xi'an, Zhangjiajie & Shanghai | Create Travel"
-        description="14 dias pela China no outono 2026: Cidade Proibida, Grande Muralha, Guerreiros de Terracota, Zhangjiajie (cenário de Avatar) e Shanghai. Saída 08/10/2026 pela Ethiopian Airlines. Entrada 25% + 9x sem juros."
+        description="14 dias pela China no outono 2026: Cidade Proibida, Grande Muralha, Guerreiros de Terracota, Zhangjiajie (cenário de Avatar) e Shanghai. Saída 08/10/2026 pela Ethiopian Airlines. Parte terrestre: entrada 25% + 9x sem juros."
         canonicalPath="/grupos/china-2026"
         ogImage={heroImg}
         ogType="article"

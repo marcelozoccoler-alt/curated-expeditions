@@ -232,7 +232,7 @@ const GrupoColombia2026 = () => {
     <div className="min-h-screen">
       <SEO
         title="Grupo Colômbia 2026 com guia do Brasil | Create Travel"
-        description="10 dias pela Colômbia: Bogotá, Catedral de Sal de Zipaquirá, Villa de Leyva e Cartagena das Índias. Saída 13/10/2026 pela LATAM. Entrada 25% + 9x sem juros."
+        description="10 dias pela Colômbia: Bogotá, Catedral de Sal de Zipaquirá, Villa de Leyva e Cartagena das Índias. Saída 13/10/2026 pela LATAM. Parte terrestre: entrada 25% + 9x sem juros."
         canonicalPath="/grupos/colombia-2026"
         ogImage={heroImg}
         ogType="article"

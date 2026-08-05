@@ -246,7 +246,7 @@ const GrupoPortugalAldeias2026 = () => {
     <div className="min-h-screen">
       <SEO
         title="Grupo Portugal com Aldeias Históricas 2026 · Outono com guia do Brasil | Create Travel"
-        description="11 dias pelo Portugal autêntico no outono 2026: Procissão das Velas em Fátima, 12 Aldeias Históricas, Coimbra e Lisboa. Saída 12/10/2026 pela TAP. Entrada 25% + 9x sem juros."
+        description="11 dias pelo Portugal autêntico no outono 2026: Procissão das Velas em Fátima, 12 Aldeias Históricas, Coimbra e Lisboa. Saída 12/10/2026 pela TAP. Parte terrestre: entrada 25% + 9x sem juros."
         canonicalPath="/grupos/portugal-aldeias-historicas-2026"
         ogImage={heroImg}
         ogType="article"

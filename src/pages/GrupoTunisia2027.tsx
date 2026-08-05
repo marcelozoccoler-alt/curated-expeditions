@@ -249,7 +249,7 @@ const GrupoTunisia2027 = () => {
     <div className="min-h-screen">
       <SEO
         title="Grupo Tunísia · Carnaval 2027 — Cartago, Saara e Star Wars | Create Travel"
-        description="11 dias pela Tunísia no Carnaval 2027: Túnis, Cartago, Sidi Bou Said, Dougga, Kairouan, Tozeur, Douz, Matmata, Sfax e El Jem. Saída 05/02/2027 pela ITA Airways com guia do Brasil. Entrada 25% + 9x sem juros."
+        description="11 dias pela Tunísia no Carnaval 2027: Túnis, Cartago, Sidi Bou Said, Dougga, Kairouan, Tozeur, Douz, Matmata, Sfax e El Jem. Saída 05/02/2027 pela ITA Airways com guia do Brasil. Parte terrestre: entrada 25% + 9x sem juros."
         canonicalPath="/grupos/tunisia-carnaval-2027"
         ogImage={heroImg}
         ogType="article"

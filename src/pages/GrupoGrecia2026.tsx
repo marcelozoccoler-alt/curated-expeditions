@@ -208,7 +208,7 @@ const notIncluded = [
 const faqs = [
   {
     q: "Qual a condição de pagamento?",
-    a: "25% de entrada e o saldo (75%) em 9 parcelas sem juros no cartão de crédito. Valores sujeitos a disponibilidade e confirmação aérea no momento da reserva.",
+    a: "25% de entrada e o saldo (75%) em 9 parcelas sem juros no cartão de crédito — condição válida para a parte terrestre do programa. A parte aérea é cotada separadamente e o parcelamento segue as condições da companhia aérea escolhida, que mudam de uma cia para outra. Valores sujeitos a disponibilidade e confirmação aérea no momento da reserva.",
   },
   {
     q: "Qual o tamanho do grupo?",
@@ -274,7 +274,7 @@ const GrupoGrecia2026 = () => {
     <div className="min-h-screen">
       <SEO
         title="Grupo Grécia 2026 — Saída 27/09 | Create Travel"
-        description="Atenas, Delfos, Meteora, Santorini e Mykonos em grupo com guia acompanhante desde SP. 13 dias, voos Iberia, saída 27/09/2026. Entrada 25% + 9x sem juros."
+        description="Atenas, Delfos, Meteora, Santorini e Mykonos em grupo com guia acompanhante desde SP. 13 dias, voos Iberia, saída 27/09/2026. Parte terrestre: entrada 25% + 9x sem juros."
         canonicalPath="/grupos/grecia-2026"
         ogImage={heroImg}
         ogType="article"

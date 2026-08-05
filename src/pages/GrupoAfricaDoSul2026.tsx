@@ -230,7 +230,7 @@ const GrupoAfricaDoSul2026 = () => {
     <div className="min-h-screen">
       <SEO
         title="Grupo África do Sul 2026 — Safári no Kruger & Cape Town | Create Travel"
-        description="9 dias pela África do Sul em grupo com guia do Brasil: Johanesburgo, Soweto, safári no Kruger e Cidade do Cabo. Saída 07/09/2026 pela South African Airways. Entrada 25% + 9x sem juros."
+        description="9 dias pela África do Sul em grupo com guia do Brasil: Johanesburgo, Soweto, safári no Kruger e Cidade do Cabo. Saída 07/09/2026 pela South African Airways. Parte terrestre: entrada 25% + 9x sem juros."
         canonicalPath="/grupos/africa-do-sul-2026"
         ogImage={heroImg}
         ogType="article"

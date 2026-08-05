@@ -107,7 +107,7 @@ const GrupoCoreiaJapaoCerejeiras2027 = () => {
     <div className="min-h-screen">
       <SEO
         title="Grupo Coreia & Japão 2027 — Cerejeiras com guia do Brasil | Create Travel"
-        description="16 dias entre Seul, Kyoto, Osaka, Alpes Japoneses, Hakone e Tóquio no auge das cerejeiras. Saída 19/03/2027 pela Emirates. Entrada 25% + 9x sem juros."
+        description="16 dias entre Seul, Kyoto, Osaka, Alpes Japoneses, Hakone e Tóquio no auge das cerejeiras. Saída 19/03/2027 pela Emirates. Parte terrestre: entrada 25% + 9x sem juros."
         canonicalPath="/grupos/coreia-japao-cerejeiras-2027"
         ogImage={heroImg}
         ogType="article"

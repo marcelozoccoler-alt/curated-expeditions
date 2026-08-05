@@ -207,7 +207,7 @@ const GrupoGuiaLocal = () => {
     <div className="min-h-screen">
       <SEO
         title={`${group.title} — Grupo com Guia Local ${group.days} dias`}
-        description={`${group.subtitle}. ${group.days} dias em grupo com guia local, ${group.departures.length} saídas garantidas em 2027, a partir de ${priceLabel} por pessoa. Entrada 25% + 9x sem juros.`}
+        description={`${group.subtitle}. ${group.days} dias em grupo com guia local, ${group.departures.length} saídas garantidas em 2027, a partir de ${priceLabel} por pessoa. Parte terrestre: entrada 25% + 9x sem juros.`}
         canonicalPath={canonicalPath}
         keywords={keywords}
         jsonLd={jsonLd}

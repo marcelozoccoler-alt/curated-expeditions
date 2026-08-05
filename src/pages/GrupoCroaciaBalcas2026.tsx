@@ -258,7 +258,7 @@ const GrupoCroaciaBalcas2026 = () => {
     <div className="min-h-screen">
       <SEO
         title="Grupo Croácia, Bósnia & Montenegro 2026 — Outono nos Bálcãs | Create Travel"
-        description="12 dias pelos Bálcãs em grupo com guia do Brasil: Zagreb, Plitvice, Zadar, Split, Hvar, Mostar, Dubrovnik e Baía de Kotor. Saída 11/10/2026 pela Turkish Airlines. Entrada 25% + 9x sem juros."
+        description="12 dias pelos Bálcãs em grupo com guia do Brasil: Zagreb, Plitvice, Zadar, Split, Hvar, Mostar, Dubrovnik e Baía de Kotor. Saída 11/10/2026 pela Turkish Airlines. Parte terrestre: entrada 25% + 9x sem juros."
         canonicalPath="/grupos/croacia-balcas-2026"
         ogImage={heroImg}
         ogType="article"

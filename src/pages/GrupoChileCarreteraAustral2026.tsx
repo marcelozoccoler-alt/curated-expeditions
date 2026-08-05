@@ -214,7 +214,7 @@ const GrupoChileCarreteraAustral2026 = () => {
     <div className="min-h-screen">
       <SEO
         title="Grupo Chile com Carretera Austral · Primavera 2026 · Capelas de Mármore & Glaciar San Rafael | Create Travel"
-        description="8 dias pelo Chile na primavera 2026: Santiago, Carretera Austral, Capelas de Mármore, Glaciar San Rafael, Parque Aikén e termas da Enseada Pérez. Saída 28/09/2026 pela LATAM. Entrada 25% + 9x sem juros."
+        description="8 dias pelo Chile na primavera 2026: Santiago, Carretera Austral, Capelas de Mármore, Glaciar San Rafael, Parque Aikén e termas da Enseada Pérez. Saída 28/09/2026 pela LATAM. Parte terrestre: entrada 25% + 9x sem juros."
         canonicalPath="/grupos/chile-carretera-austral-2026"
         ogImage={heroImg}
         ogType="article"

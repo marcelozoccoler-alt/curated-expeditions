@@ -285,7 +285,7 @@ const GrupoTailandia2026 = () => {
     <div className="min-h-screen">
       <SEO
         title="Grupo Tailândia 2026 — Festival das Lanternas | Create Travel"
-        description="15 dias pela Tailândia em grupo com guia do Brasil: Phuket, Phi Phi, Bangkok, Ayutthaya, Sukhothai e Chiang Mai durante o Festival das Lanternas. Saída 12/11/2026. Entrada 25% + 9x sem juros."
+        description="15 dias pela Tailândia em grupo com guia do Brasil: Phuket, Phi Phi, Bangkok, Ayutthaya, Sukhothai e Chiang Mai durante o Festival das Lanternas. Saída 12/11/2026. Parte terrestre: entrada 25% + 9x sem juros."
         canonicalPath="/grupos/tailandia-2026"
         ogImage={heroImg}
         ogType="article"

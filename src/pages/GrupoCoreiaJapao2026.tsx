@@ -281,7 +281,7 @@ const GrupoCoreiaJapao2026 = () => {
     <div className="min-h-screen">
       <SEO
         title="Grupo Coreia & Japão 2026 — Outono em Seul, Kyoto, Fuji e Tóquio | Create Travel"
-        description="15 dias pela Coreia do Sul e Japão em grupo com guia do Brasil: Seul, DMZ, Osaka, Nara, Kyoto, Hakone e Tóquio em pleno outono. Saída 13/10/2026 pela Turkish Airlines. Entrada 25% + 9x sem juros."
+        description="15 dias pela Coreia do Sul e Japão em grupo com guia do Brasil: Seul, DMZ, Osaka, Nara, Kyoto, Hakone e Tóquio em pleno outono. Saída 13/10/2026 pela Turkish Airlines. Parte terrestre: entrada 25% + 9x sem juros."
         canonicalPath="/grupos/coreia-japao-2026"
         ogImage={heroImg}
         ogType="article"

@@ -256,7 +256,7 @@ const GrupoSulItalia2026 = () => {
     <div className="min-h-screen">
       <SEO
         title="Grupo Sul da Itália 2026 — Costa Amalfitana, Matera e Puglia | Create Travel"
-        description="12 dias pelo sul da Itália em grupo com guia do Brasil: Sorrento, Costa Amalfitana, Pompeia, Matera, Bari, Alberobello, Lecce e Santa Maria di Leuca. Saída 27/10/2026 pela ITA Airways. Entrada 25% + 9x sem juros."
+        description="12 dias pelo sul da Itália em grupo com guia do Brasil: Sorrento, Costa Amalfitana, Pompeia, Matera, Bari, Alberobello, Lecce e Santa Maria di Leuca. Saída 27/10/2026 pela ITA Airways. Parte terrestre: entrada 25% + 9x sem juros."
         canonicalPath="/grupos/sul-italia-2026"
         ogImage={heroImg}
         ogType="article"

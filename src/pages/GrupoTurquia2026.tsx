@@ -255,7 +255,7 @@ const GrupoTurquia2026 = () => {
     <div className="min-h-screen">
       <SEO
         title="Grupo Turquia Dourada · Outono 2026 com guia do Brasil | Create Travel"
-        description="12 dias pela Turquia no outono 2026: Istambul, Ancara, Capadócia, Pamukkale, Éfeso, Kusadasi e Bursa. Saída 21/10/2026 pela Turkish Airlines. Entrada 25% + 9x sem juros."
+        description="12 dias pela Turquia no outono 2026: Istambul, Ancara, Capadócia, Pamukkale, Éfeso, Kusadasi e Bursa. Saída 21/10/2026 pela Turkish Airlines. Parte terrestre: entrada 25% + 9x sem juros."
         canonicalPath="/grupos/turquia-2026"
         ogImage={heroImg}
         ogType="article"

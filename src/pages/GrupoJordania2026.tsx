@@ -247,7 +247,7 @@ const GrupoJordania2026 = () => {
     <div className="min-h-screen">
       <SEO
         title="Grupo Jordânia 2026 — Petra, Wadi Rum e Mar Morto com guia do Brasil | Create Travel"
-        description="11 dias pela Jordânia em grupo com guia do Brasil: Amã, Jerash, Petra, Wadi Rum, Aqaba, Betânia e Mar Morto. Saída 09/09/2026 pela Ethiopian Airlines. Entrada 25% + 9x sem juros."
+        description="11 dias pela Jordânia em grupo com guia do Brasil: Amã, Jerash, Petra, Wadi Rum, Aqaba, Betânia e Mar Morto. Saída 09/09/2026 pela Ethiopian Airlines. Parte terrestre: entrada 25% + 9x sem juros."
         canonicalPath="/grupos/jordania-2026"
         ogImage={heroImg}
         ogType="article"

@@ -225,7 +225,7 @@ const GrupoAfricaDoSulOutubro2026 = () => {
     <div className="min-h-screen">
       <SEO
         title="Grupo África do Sul · Outubro 2026 · Kruger e Cape Town com guia do Brasil | Create Travel"
-        description="9 dias pela África do Sul em outubro 2026: Johanesburgo, Soweto, Blyde River Canyon, safári em reserva privada no Kruger e Cape Town. Saída 12/10/2026 pela South African Airways. Entrada 25% + 9x sem juros."
+        description="9 dias pela África do Sul em outubro 2026: Johanesburgo, Soweto, Blyde River Canyon, safári em reserva privada no Kruger e Cape Town. Saída 12/10/2026 pela South African Airways. Parte terrestre: entrada 25% + 9x sem juros."
         canonicalPath="/grupos/africa-do-sul-outubro-2026"
         ogImage={heroImg}
         ogType="article"

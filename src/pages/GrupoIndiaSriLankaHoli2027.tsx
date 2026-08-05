@@ -110,7 +110,7 @@ const GrupoIndiaSriLankaHoli2027 = () => {
     <div className="min-h-screen">
       <SEO
         title="Grupo Índia & Sri Lanka 2027 — Festival Holi com guia do Brasil | Create Travel"
-        description="18 dias na Índia e Sri Lanka em 2027 com Festival Holi privativo em Jaipur, Taj Mahal, Sigiriya, Nuwara Eliya e safári no Yala. Saída 16/03/2027 pela Turkish Airlines. Entrada 25% + 9x sem juros."
+        description="18 dias na Índia e Sri Lanka em 2027 com Festival Holi privativo em Jaipur, Taj Mahal, Sigiriya, Nuwara Eliya e safári no Yala. Saída 16/03/2027 pela Turkish Airlines. Parte terrestre: entrada 25% + 9x sem juros."
         canonicalPath="/grupos/india-sri-lanka-holi-2027"
         ogImage={heroImg}
         ogType="article"

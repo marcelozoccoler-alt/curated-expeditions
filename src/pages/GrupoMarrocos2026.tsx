@@ -189,7 +189,7 @@ const faqs = [
   },
   {
     q: "Qual a condição de pagamento?",
-    a: "Entrada de 20% (R$ 3.659,00) + saldo de 80% (R$ 14.636,00) parcelado em até 10x sem juros de R$ 1.463,60 no cartão. Valores sujeitos a disponibilidade e confirmação aérea.",
+    a: "Entrada de 20% (R$ 3.659,00) + saldo de 80% (R$ 14.636,00) parcelado em até 10x sem juros de R$ 1.463,60 no cartão — condição válida para a parte terrestre. A parte aérea é cotada separadamente e o parcelamento segue as condições da companhia aérea escolhida. Valores sujeitos a disponibilidade e confirmação aérea.",
   },
   {
     q: "Posso ir sozinho(a)? Tem suplemento single?",

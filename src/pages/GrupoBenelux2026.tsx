@@ -242,7 +242,7 @@ const GrupoBenelux2026 = () => {
     <div className="min-h-screen">
       <SEO
         title="Grupo Benelux 2026 · Países Baixos, Bélgica e Luxemburgo com guia do Brasil | Create Travel"
-        description="11 dias pelo Benelux no outono 2026: Amsterdã, Giethoorn, Roterdã, Haia, Delft, Kinderdijk, Bruges, Gante, Bruxelas e Luxemburgo. Saída 13/10/2026 pela Iberia. Entrada 25% + 9x sem juros."
+        description="11 dias pelo Benelux no outono 2026: Amsterdã, Giethoorn, Roterdã, Haia, Delft, Kinderdijk, Bruges, Gante, Bruxelas e Luxemburgo. Saída 13/10/2026 pela Iberia. Parte terrestre: entrada 25% + 9x sem juros."
         canonicalPath="/grupos/benelux-2026"
         ogImage={heroImg}
         ogType="article"

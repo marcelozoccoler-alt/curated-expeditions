@@ -128,7 +128,7 @@ const GruposGuiaLocal = () => {
         "@type": "Country",
         name: c,
       })),
-      description: `${localGuideGroups.length} circuitos em grupo com guia local e ${totalDepartures} saídas garantidas em 2027 pela Europa, a partir de € 1.695 por pessoa. Entrada de 25% + 9x sem juros.`,
+      description: `${localGuideGroups.length} circuitos em grupo com guia local e ${totalDepartures} saídas garantidas em 2027 pela Europa, a partir de € 1.695 por pessoa. Parte terrestre: entrada 25% + 9x sem juros.`,
     },
     {
       "@context": "https://schema.org",

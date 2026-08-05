@@ -95,7 +95,7 @@ const GrupoEquadorGalapagosCarnaval2027 = () => {
     <div className="min-h-screen">
       <SEO
         title="Grupo Equador & Galápagos 2027 — Carnaval com guia do Brasil | Create Travel"
-        description="11 dias no Carnaval 2027 entre Quito, Cotopaxi, Ilhas Galápagos e Guayaquil. Saída 05/02/2027 pela LATAM com guia do Brasil. Entrada 25% + 9x sem juros."
+        description="11 dias no Carnaval 2027 entre Quito, Cotopaxi, Ilhas Galápagos e Guayaquil. Saída 05/02/2027 pela LATAM com guia do Brasil. Parte terrestre: entrada 25% + 9x sem juros."
         canonicalPath="/grupos/equador-galapagos-carnaval-2027"
         ogImage={heroImg}
         ogType="article"
