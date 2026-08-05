@@ -152,8 +152,14 @@ export const localGuideGroups: LocalGuideGroup[] = [
       {
         day: 14,
         route: "TÚNIS",
-        text: "Manhã livre e, em horário apropriado, traslado ao aeroporto de Túnis para o embarque. Café da manhã incluído. Fim dos nossos serviços.",
+        text: "Dia livre na capital para compras nos souks, um último café em Sidi Bou Said ou uma visita opcional. Hospedagem em Túnis. Café da manhã incluído.",
       },
+      {
+        day: 15,
+        route: "TÚNIS",
+        text: "Em horário apropriado, traslado ao aeroporto de Túnis para o embarque de regresso. Café da manhã incluído. Fim dos nossos serviços.",
+      },
+
     ],
   },
 
