@@ -264,6 +264,29 @@ const GrupoGuiaLocal = () => {
         </div>
       </section>
 
+      {/* Destaques do roteiro */}
+      <section className="section-padding bg-muted">
+        <div className="container-editorial max-w-4xl">
+          <p className="text-caption text-gold mb-4">Destaques do roteiro</p>
+          <h2 className="heading-section text-foreground mb-8">
+            O que torna este circuito especial
+          </h2>
+          <ul className="grid sm:grid-cols-2 gap-4">
+            {group.highlights.map((h) => (
+              <li
+                key={h}
+                className="flex gap-3 text-[15px] text-foreground/85 bg-card border border-border rounded-xl p-5 shadow-card"
+              >
+                <Sparkles size={18} className="shrink-0 mt-0.5 text-gold" />
+                <span>{h}</span>
+              </li>
+            ))}
+          </ul>
+        </div>
+      </section>
+
+
+
       {/* Resumo / vantagens */}
       <section className="section-padding bg-background">
         <div className="container-editorial">
