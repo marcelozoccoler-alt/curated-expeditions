@@ -506,6 +506,7 @@ const corePosts: DiaryPost[] = [
 
   {
     slug: "madagascar-onde-fica-e-curiosidades",
+    imageOverrideUrl: "/src/assets/diary/madagascar.jpg",
     title: "Madagascar: onde fica, o que ver e curiosidades essenciais",
     h1: "Madagascar: a ilha que evoluiu sozinha por 88 milhões de anos",
     metaDescription:
@@ -708,6 +709,7 @@ const corePosts: DiaryPost[] = [
   },
   {
     slug: "escandinavia-paises-e-quando-ir",
+    imageOverrideUrl: "/src/assets/diary/escandinavia.jpg",
     title: "Escandinávia: o que é, países e quando ir",
     h1: "Escandinávia: o norte que reinventou o conceito de luxo",
     metaDescription:
@@ -772,6 +774,7 @@ const corePosts: DiaryPost[] = [
   },
   {
     slug: "etiopia-mitos-historia-e-curiosidades",
+    imageOverrideUrl: "/src/assets/diary/etiopia.jpg",
     title: "Etiópia: mitos, história e curiosidades que poucos conhecem",
     h1: "Etiópia: o berço da humanidade e o império que nunca foi colonizado",
     metaDescription:
@@ -838,6 +841,7 @@ const corePosts: DiaryPost[] = [
   },
   {
     slug: "cultura-africana-herancas-do-continente",
+    imageOverrideUrl: "/src/assets/diary/cultura-africana.jpg",
     title: "Cultura africana: heranças vivas de um continente diverso",
     h1: "Cultura africana: 54 países, mais de 2.000 línguas, uma raiz comum",
     metaDescription:
@@ -900,6 +904,7 @@ const corePosts: DiaryPost[] = [
   },
   {
     slug: "paises-africanos-imperdiveis",
+    imageOverrideUrl: "/src/assets/diary/paises-africanos.jpg",
     title: "10 países africanos imperdíveis para natureza e cultura",
     h1: "10 países africanos que mudam quem viaja",
     metaDescription:
@@ -952,6 +957,7 @@ const corePosts: DiaryPost[] = [
   },
   {
     slug: "aurora-boreal-canada-como-ver",
+    imageOverrideUrl: "/src/assets/diary/aurora-boreal-canada.jpg",
     title: "Aurora boreal no Canadá: como ver e melhores lugares",
     h1: "Aurora boreal no Canadá: o céu que dança sobre Yukon e Northwest Territories",
     metaDescription:
@@ -1070,6 +1076,7 @@ const corePosts: DiaryPost[] = [
   },
   {
     slug: "machu-picchu-onde-fica-e-como-chegar",
+    imageOverrideUrl: "/src/assets/diary/machu-picchu.jpg",
     title: "Machu Picchu: onde fica, como chegar e melhor época",
     h1: "Machu Picchu: 2.430 metros, 600 anos, uma única vida para visitar",
     metaDescription:
@@ -1243,6 +1250,7 @@ const corePosts: DiaryPost[] = [
   },
   {
     slug: "lugares-mais-frios-do-mundo",
+    imageOverrideUrl: "/src/assets/diary/lugares-mais-frios.jpg",
     title: "Os lugares mais frios do mundo que você pode visitar",
     h1: "Os lugares mais frios do mundo — e por que vale conhecer",
     metaDescription:
@@ -1288,6 +1296,7 @@ const corePosts: DiaryPost[] = [
   },
   {
     slug: "ilhas-do-brasil-imperdiveis",
+    imageOverrideUrl: "/src/assets/diary/ilhas-do-brasil.jpg",
     title: "Ilhas do Brasil: 7 imperdíveis para beleza rara",
     h1: "Sete ilhas brasileiras que valem a viagem inteira",
     metaDescription:
@@ -1334,6 +1343,7 @@ const corePosts: DiaryPost[] = [
   },
   {
     slug: "brasil-alem-do-litoral-guia-completo",
+    imageOverrideUrl: "/src/assets/diary/brasil-interior.jpg",
     title: "Descobrindo o Brasil além do litoral — guia completo Create Travel",
     h1: "O Brasil que começa onde a praia termina",
     metaDescription:
@@ -1766,6 +1776,7 @@ const corePosts: DiaryPost[] = [
   },
   {
     slug: "chapada-dos-guimaraes-guia-mato-grosso",
+    imageOverrideUrl: "/src/assets/diary/chapada-dos-guimaraes.jpg",
     title: "Chapada dos Guimarães: o que fazer, trilhas e roteiro",
     h1: "Chapada dos Guimarães: o cerrado dramático a uma hora de Cuiabá",
     metaDescription:
@@ -2082,6 +2093,7 @@ const corePosts: DiaryPost[] = [
   },
   {
     slug: "viagem-em-grupo-com-guia-brasileiro-saindo-do-brasil",
+    imageOverrideUrl: "/src/assets/diary/grupo-guia-brasileiro.jpg",
     title: "Viagem em grupo com guia brasileiro: a forma mais leve de conhecer o mundo",
     h1: "Viagem em grupo com guia brasileiro: liberdade para ir só, sem estar sozinho",
     metaDescription:
@@ -2317,6 +2329,7 @@ const corePosts: DiaryPost[] = [
   },
   {
     slug: "albania-por-que-visitar-cultura-natureza",
+    imageOverrideUrl: "/src/assets/diary/albania.jpg",
     title: "Albânia: por que visitar, experiências, cultura, gastronomia e natureza",
     h1: "Albânia: o último segredo do Mediterrâneo que arrebata o coração",
     metaDescription:
@@ -3179,6 +3192,7 @@ const corePosts: DiaryPost[] = [
   },
   {
     slug: "epoca-das-lavandas-provence-grasse-experiencia-sensorial",
+    imageOverrideUrl: "/src/assets/diary/provence-lavanda.jpg",
     title: "Época das lavandas em Provence: guia sensorial de Grasse aos campos violeta",
     h1: "Época das lavandas em Provence: uma experiência sensorial de Grasse aos campos violeta",
     metaDescription:
@@ -3366,6 +3380,7 @@ const corePosts: DiaryPost[] = [
   },
   {
     slug: "tunisia-sensorial-do-saara-a-medina",
+    imageOverrideUrl: "/src/assets/diary/tunisia.jpg",
     title: "Tunísia sensorial: do silêncio do Saara ao azul de Sidi Bou Said",
     h1: "Tunísia sensorial: do silêncio do Saara ao azul de Sidi Bou Said",
     metaDescription:
@@ -3456,6 +3471,7 @@ const corePosts: DiaryPost[] = [
   },
   {
     slug: "lagos-chilenos-viagem-de-agua-e-vulcao",
+    imageOverrideUrl: "/src/assets/diary/lagos-chilenos.jpg",
     title: "Lagos Chilenos: uma viagem de água, vulcão e madeira",
     h1: "Lagos Chilenos: uma viagem de água, vulcão e madeira",
     metaDescription:
@@ -3547,6 +3563,7 @@ const corePosts: DiaryPost[] = [
 
   {
     slug: "socotra-como-chegar-maravilhas-experiencia",
+    imageOverrideUrl: "/src/assets/diary/socotra.jpg",
     title: "Socotra: como chegar, maravilhas e a experiência de pisar em outro planeta",
     h1: "Socotra: como chegar, maravilhas e a experiência de pisar em outro planeta",
     metaDescription:
@@ -3666,6 +3683,7 @@ const corePosts: DiaryPost[] = [
   },
   {
     slug: "oma-mascate-oasis-montanhas-deserto",
+    imageOverrideUrl: "/src/assets/diary/oma.jpg",
     title: "Omã: Mascate, oásis, montanhas e o deserto de Wahiba",
     h1: "Omã: de Mascate aos oásis, das montanhas ao deserto",
     metaDescription:

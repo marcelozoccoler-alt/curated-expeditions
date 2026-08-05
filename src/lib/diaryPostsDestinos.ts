@@ -8,6 +8,7 @@ import type { DiaryPost } from "./diaryPosts";
 export const diaryPostsDestinos: DiaryPost[] = [
   {
     slug: "uzbequistao-rota-da-seda-guia-completo",
+    imageOverrideUrl: "/src/assets/diary/uzbequistao.jpg",
     title: "Uzbequistão e a Rota da Seda: guia completo de viagem",
     h1: "Uzbequistão: viajar pelo coração azul da Rota da Seda",
     metaDescription:
@@ -242,6 +243,7 @@ export const diaryPostsDestinos: DiaryPost[] = [
   },
   {
     slug: "caucaso-armenia-georgia-azerbaijao-guia",
+    imageOverrideUrl: "/src/assets/diary/caucaso.jpg",
     title: "Cáucaso: guia de Armênia, Geórgia e Azerbaijão",
     h1: "Armênia, Geórgia e Azerbaijão: três países, três alfabetos, uma viagem",
     metaDescription:
