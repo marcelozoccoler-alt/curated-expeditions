@@ -45,6 +45,93 @@ export const localGuidePriceLabel = (g: LocalGuideGroup) =>
 
 export const localGuideGroups: LocalGuideGroup[] = [
   {
+    slug: "grande-tour-tunisia-top-deluxe",
+    code: "R638",
+    title: "Grande Tour Tunísia Top Deluxe",
+    subtitle:
+      "Tunis · Medina de Tunis · Sidi Bou Said · Museu do Bardo · Cartago · Sousse · Monastir · El Jem · Matmata · Chott El Jerid · Tozeur · Kairouan · Hammamet",
+    category: "Premium",
+    days: 9,
+    nights: 8,
+    priceEur: 4463,
+    currency: "USD",
+    priceNote:
+      "Valor de referência por pessoa em apartamento duplo (equivalente aproximado de R$ 27.492 ao câmbio de R$ 6,16), confirmado na cotação da sua data. Inclui pensão praticamente completa (7 almoços e 8 jantares); o aéreo internacional é cotado à parte. Taxa de turismo na Tunísia (12 TND, cerca de 4 euros por noite por adulto) paga diretamente nos hotéis.",
+    countries: ["Tunísia"],
+    area: "África",
+    hotels: [
+      { city: "Tunis", hotel: "Hotel selecionado (2 noites)" },
+      { city: "Sousse", hotel: "Hotel selecionado (2 noites)" },
+      { city: "Tozeur", hotel: "Hotel selecionado (2 noites)" },
+      { city: "Hammamet", hotel: "Hotel resort à beira-mar (2 noites)" },
+    ],
+    departures: [
+      "2026-09-11","2026-09-18","2026-09-25",
+      "2026-10-02","2026-10-09","2026-10-16","2026-10-23","2026-10-30",
+      "2026-11-06","2026-11-13","2026-11-20","2026-11-27",
+      "2026-12-04","2026-12-11","2026-12-18","2026-12-25",
+      "2027-01-01","2027-01-08","2027-01-15","2027-01-22","2027-01-29",
+      "2027-02-05","2027-02-12","2027-02-19","2027-02-26",
+      "2027-03-05","2027-03-12","2027-03-19","2027-03-26",
+      "2027-04-02","2027-04-09","2027-04-16","2027-04-23","2027-04-30",
+      "2027-05-07","2027-05-14","2027-05-21","2027-05-28",
+      "2027-06-04","2027-06-11","2027-06-18","2027-06-25",
+      "2027-09-10","2027-09-17","2027-09-24",
+      "2027-10-01","2027-10-08","2027-10-15","2027-10-22","2027-10-29",
+      "2027-11-05","2027-11-12","2027-11-19","2027-11-26",
+      "2027-12-03","2027-12-10","2027-12-17","2027-12-24",
+    ],
+    itinerary: [
+      {
+        day: 1,
+        route: "TUNIS",
+        text: "Chegada ao aeroporto de Tunis, recepção e traslado ao hotel para duas noites na capital. Jantar de boas-vindas no restaurante do hotel — o primeiro contato com a mesa tunisiana, entre harissa, brik e azeite do norte. Jantar incluído.",
+      },
+      {
+        day: 2,
+        route: "TUNIS / MEDINA DE TUNIS / SIDI BOU SAID / TUNIS",
+        text: "Manhã de exploração da capital, fundada no século IX a.C. e sucessivamente cartaginesa, romana, árabe, otomana e francesa — cada camada ainda legível nas fachadas. Almoço na Medina de Tunis e tempo livre entre os souks para compras. À tarde, Sidi Bou Said, vila suspensa sobre o mar com casas brancas, portas e janelas azuis, arquitetura árabe-mourisca, cafés antigos e vista aberta para o Mediterrâneo. Jantar e pernoite. Café da manhã, almoço e jantar incluídos.",
+      },
+      {
+        day: 3,
+        route: "TUNIS / BARDO / CARTAGO / SOUSSE",
+        text: "Visita ao Museu do Bardo, que abriga a maior coleção de mosaicos romanos do mundo. Em seguida, o sítio arqueológico de Cartago, com as ruínas púnicas, as Termas de Antonino e o anfiteatro que recebe o festival internacional. Continuação para Sousse, a pérola do litoral, para duas noites. Café da manhã, almoço e jantar incluídos.",
+      },
+      {
+        day: 4,
+        route: "SOUSSE / MONASTIR / SOUSSE",
+        text: "Visita ao Ribat de Monastir, a mais antiga fortaleza construída pelos árabes na conquista do Magrebe, e ao mausoléu de Bourguiba, líder que conduziu a Tunísia à independência da França e foi seu primeiro presidente. Almoço em restaurante em Monastir. À tarde, a Medina de Sousse, Patrimônio Mundial da UNESCO, com suas muralhas históricas e tempo livre entre as lojas. Jantar e pernoite em Sousse. Café da manhã, almoço e jantar incluídos.",
+      },
+      {
+        day: 5,
+        route: "SOUSSE / EL JEM / MATMATA / TOZEUR",
+        text: "Saída para o anfiteatro romano de El Jem, que rivaliza com o Coliseu em dimensão. Continuação a Matmata, célebre pelas casas trogloditas subterrâneas da tribo Amazigh: visita a uma casa típica para conhecer a arquitetura escavada e as tradições do povo berbere, ancestral da Tunísia. Almoço em restaurante típico. O dia termina em Tozeur, atravessando o espetacular lago salgado de Chott El Jerid, onde a evaporação desenha miragens no horizonte. Duas noites em Tozeur. Café da manhã, almoço e jantar incluídos.",
+      },
+      {
+        day: 6,
+        route: "TOZEUR",
+        text: "Manhã na charmosa Medina de Tozeur, com seus tijolos de barro em relevo geométrico. Depois, visita a um oásis de tamareiras, onde é servido um almoço típico à sombra das palmeiras. Tarde livre. Jantar e pernoite no hotel. Café da manhã, almoço e jantar incluídos.",
+      },
+      {
+        day: 7,
+        route: "TOZEUR / KAIROUAN / HAMMAMET",
+        text: "Visita a Kairouan, uma das maiores cidades santas do Islã: a Grande Mesquita de Okba Ibn Nafa, primeira mesquita fundada no continente africano, no ano 671 d.C., e o Mausoléu de Sidi Sahbi, o barbeiro do Profeta. A cidade é conhecida pela fabricação de tapetes — visitamos uma fábrica tradicional da região. Após o almoço incluído, continuação a Hammamet, cidade costeira de praias longas, para duas noites. Café da manhã, almoço e jantar incluídos.",
+      },
+      {
+        day: 8,
+        route: "HAMMAMET",
+        text: "Dia livre para aproveitar a praia ou as instalações do hotel — o intervalo de descanso depois do deserto. Pernoite em Hammamet. Café da manhã, almoço e jantar incluídos.",
+      },
+      {
+        day: 9,
+        route: "HAMMAMET / TUNIS",
+        text: "Em horário apropriado, traslado ao aeroporto de Tunis para o embarque. Fim dos nossos serviços. Café da manhã incluído.",
+      },
+    ],
+  },
+
+  {
+
     slug: "grande-tour-da-indochina",
     code: "R597",
     title: "Grande Tour da Indochina",
