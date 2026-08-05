@@ -70,7 +70,7 @@ const notIncluded = [
 ];
 
 const faqs = [
-  { q: "Qual a condição de pagamento?", a: "25% de entrada no ato da reserva e o saldo (75%) em 9 parcelas sem juros no cartão de crédito. Valores em dólar, sujeitos a disponibilidade e confirmação aérea." },
+  { q: "Qual a condição de pagamento?", a: "25% de entrada no ato da reserva e o saldo (75%) em 9 parcelas sem juros no cartão de crédito — condição válida para a parte terrestre do programa. A parte aérea é cotada separadamente e o parcelamento segue as condições da companhia aérea escolhida, que mudam de uma cia para outra. Valores em dólar, sujeitos a disponibilidade e confirmação aérea." },
   { q: "Vou ver as cerejeiras com certeza?", a: "A saída (19/03 a 03/04/2027) foi programada para acompanhar o pico natural da sakura entre Coreia do Sul e Japão. O calendário biológico varia levemente a cada ano, mas cobrimos toda a janela típica: Seul, Kyoto, Osaka, Hakone e Tóquio." },
   { q: "Preciso de visto?", a: "Sim, é necessário o K-ETA (visto eletrônico da Coreia do Sul), obtido online antes do embarque. Japão não exige visto para brasileiros. Passaporte com validade mínima de 6 meses após o retorno." },
   { q: "Como é o clima em março/abril?", a: "Primavera amena: 8–18 °C na Coreia, 10–20 °C no Japão. Dias frescos, noites frias em Hakone/Takayama. Traga camadas, um casaco leve e sapato confortável para caminhadas." },
@@ -107,7 +107,7 @@ const GrupoCoreiaJapaoCerejeiras2027 = () => {
     <div className="min-h-screen">
       <SEO
         title="Grupo Coreia & Japão 2027 — Cerejeiras com guia do Brasil | Create Travel"
-        description="16 dias entre Seul, Kyoto, Osaka, Alpes Japoneses, Hakone e Tóquio no auge das cerejeiras. Saída 19/03/2027 pela Emirates. Entrada 25% + 9x sem juros."
+        description="16 dias entre Seul, Kyoto, Osaka, Alpes Japoneses, Hakone e Tóquio no auge das cerejeiras. Saída 19/03/2027 pela Emirates. Parte terrestre: entrada 25% + 9x sem juros."
         canonicalPath="/grupos/coreia-japao-cerejeiras-2027"
         ogImage={heroImg}
         ogType="article"
@@ -244,6 +244,7 @@ const GrupoCoreiaJapaoCerejeiras2027 = () => {
           </div>
           <div className="bg-card/95 text-foreground rounded-xl p-8 mb-8 text-left">
             <p className="text-xs uppercase tracking-wider text-gold mb-3 font-semibold">Condição de pagamento</p>
+            <p className="text-sm text-muted-foreground mb-5">Condição válida para a parte terrestre do programa. A parte aérea é cotada à parte e o parcelamento segue as regras da companhia aérea escolhida, que variam de uma cia para outra.</p>
             <div className="grid sm:grid-cols-2 gap-6">
               <div><p className="text-sm text-muted-foreground mb-1">Entrada</p><p className="font-serif text-3xl font-semibold text-foreground">25%</p><p className="text-sm text-muted-foreground mt-1">no ato da reserva</p></div>
               <div><p className="text-sm text-muted-foreground mb-1">Saldo (75%)</p><p className="font-serif text-3xl font-semibold text-foreground">9x sem juros</p><p className="text-sm text-muted-foreground mt-1">no cartão de crédito</p></div>

@@ -35,7 +35,7 @@ export const RelatedGroups = ({
           <h2 className="heading-section text-foreground mb-4">{title}</h2>
           <p className="text-muted-foreground font-light">
             {intro ??
-              "Saídas em grupo já organizadas — com guia acompanhante do Brasil ou com guia local no destino. Hospedagem, traslados e visitas incluídas, com entrada de 25% e saldo em até 9x sem juros."}
+              "Saídas em grupo já organizadas — com guia acompanhante do Brasil ou com guia local no destino. Hospedagem, traslados e visitas incluídas, com entrada de 25% e saldo em até 9x sem juros na parte terrestre."}
           </p>
         </div>
 

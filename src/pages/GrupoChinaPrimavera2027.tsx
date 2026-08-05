@@ -67,7 +67,7 @@ const notIncluded = [
 ];
 
 const faqs = [
-  { q: "Qual a condição de pagamento?", a: "25% de entrada no ato da reserva e o saldo (75%) em 9 parcelas sem juros no cartão de crédito. Valores em dólar, sujeitos a disponibilidade e confirmação aérea." },
+  { q: "Qual a condição de pagamento?", a: "25% de entrada no ato da reserva e o saldo (75%) em 9 parcelas sem juros no cartão de crédito — condição válida para a parte terrestre do programa. A parte aérea é cotada separadamente e o parcelamento segue as condições da companhia aérea escolhida, que mudam de uma cia para outra. Valores em dólar, sujeitos a disponibilidade e confirmação aérea." },
   { q: "Preciso de visto para a China?", a: "Não. Brasileiros não precisam de visto para a China (isenção em vigor). Passaporte com validade mínima de 6 meses a partir do retorno e vacina de febre amarela obrigatória." },
   { q: "Como é o clima em maio na China?", a: "A primavera é uma das melhores épocas: temperaturas agradáveis (18–26 °C em Beijing e Xi'an, 22–28 °C em Shanghai e Zhangjiajie), jardins floridos e boa visibilidade. Pode ocorrer chuva leve em Zhangjiajie, o que valoriza a névoa cinematográfica das montanhas." },
   { q: "Como funcionam os trens-bala e voos internos?", a: "O trem-bala Beijing → Xi'an é uma das experiências mais marcantes do roteiro — silencioso, pontual e a mais de 300 km/h. Os voos Xi'an → Zhangjiajie e Zhangjiajie → Shanghai são operados por cias locais, com franquia de 20 kg." },
@@ -102,7 +102,7 @@ const GrupoChinaPrimavera2027 = () => {
     <div className="min-h-screen">
       <SEO
         title="Grupo China 2027 — Primavera com guia do Brasil | Create Travel"
-        description="15 dias pela China na primavera: Beijing, Grande Muralha, Xi'an, Zhangjiajie (Avatar) e Shanghai. Saída 13/05/2027 pela Ethiopian. Entrada 25% + 9x sem juros."
+        description="15 dias pela China na primavera: Beijing, Grande Muralha, Xi'an, Zhangjiajie (Avatar) e Shanghai. Saída 13/05/2027 pela Ethiopian. Parte terrestre: entrada 25% + 9x sem juros."
         canonicalPath="/grupos/china-primavera-2027"
         ogImage={heroImg}
         ogType="article"
@@ -239,6 +239,7 @@ const GrupoChinaPrimavera2027 = () => {
           </div>
           <div className="bg-card/95 text-foreground rounded-xl p-8 mb-8 text-left">
             <p className="text-xs uppercase tracking-wider text-gold mb-3 font-semibold">Condição de pagamento</p>
+            <p className="text-sm text-muted-foreground mb-5">Condição válida para a parte terrestre do programa. A parte aérea é cotada à parte e o parcelamento segue as regras da companhia aérea escolhida, que variam de uma cia para outra.</p>
             <div className="grid sm:grid-cols-2 gap-6">
               <div><p className="text-sm text-muted-foreground mb-1">Entrada</p><p className="font-serif text-3xl font-semibold text-foreground">25%</p><p className="text-sm text-muted-foreground mt-1">no ato da reserva</p></div>
               <div><p className="text-sm text-muted-foreground mb-1">Saldo (75%)</p><p className="font-serif text-3xl font-semibold text-foreground">9x sem juros</p><p className="text-sm text-muted-foreground mt-1">no cartão de crédito</p></div>

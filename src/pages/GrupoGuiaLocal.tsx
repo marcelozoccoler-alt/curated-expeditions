@@ -100,7 +100,7 @@ const GrupoGuiaLocal = () => {
     },
     {
       q: "Quanto custa e como pago?",
-      a: `A partir de ${priceLabel} por pessoa em apartamento duplo${group.singleSupplementEur ? ` (suplemento individual de ${currencySymbol} ${group.singleSupplementEur.toLocaleString("pt-BR")})` : ""}. O pagamento segue a mesma condição dos nossos grupos: entrada de 25% no ato da reserva e o saldo em até 9x sem juros no cartão de crédito.`,
+      a: `A partir de ${priceLabel} por pessoa em apartamento duplo${group.singleSupplementEur ? ` (suplemento individual de ${currencySymbol} ${group.singleSupplementEur.toLocaleString("pt-BR")})` : ""}. O pagamento da parte terrestre segue a mesma condição dos nossos grupos: entrada de 25% no ato da reserva e o saldo em até 9x sem juros no cartão de crédito. A parte aérea é cotada à parte e o parcelamento depende da companhia aérea escolhida.`,
     },
     {
       q: "As passagens aéreas estão incluídas?",
@@ -161,7 +161,7 @@ const GrupoGuiaLocal = () => {
         availability: "https://schema.org/InStock",
         url: `${DOMAIN}${canonicalPath}`,
         description:
-          "Por pessoa em apartamento duplo. Entrada de 25% + saldo em até 9x sem juros no cartão.",
+          "Por pessoa em apartamento duplo, parte terrestre. Entrada de 25% + saldo em até 9x sem juros no cartão; aéreo cotado à parte.",
       },
       subjectOf: group.countries.map((c) => ({ "@type": "Place", name: c })),
     },
@@ -207,7 +207,7 @@ const GrupoGuiaLocal = () => {
     <div className="min-h-screen">
       <SEO
         title={`${group.title} — Grupo com Guia Local ${group.days} dias`}
-        description={`${group.subtitle}. ${group.days} dias em grupo com guia local, ${group.departures.length} saídas garantidas em 2027, a partir de ${priceLabel} por pessoa. Entrada 25% + 9x sem juros.`}
+        description={`${group.subtitle}. ${group.days} dias em grupo com guia local, ${group.departures.length} saídas garantidas em 2027, a partir de ${priceLabel} por pessoa. Parte terrestre: entrada 25% + 9x sem juros.`}
         canonicalPath={canonicalPath}
         keywords={keywords}
         jsonLd={jsonLd}
@@ -512,6 +512,9 @@ const GrupoGuiaLocal = () => {
           <div className="bg-card/95 text-foreground rounded-xl p-8 mb-8 text-left">
             <p className="text-xs uppercase tracking-wider text-gold mb-3 font-semibold">
               Condição de pagamento
+            </p>
+            <p className="text-sm text-muted-foreground mb-5">
+              Condição válida para a parte terrestre do programa. A parte aérea é cotada à parte e o parcelamento segue as regras da companhia aérea escolhida, que variam de uma cia para outra.
             </p>
             <div className="grid sm:grid-cols-2 gap-6">
               <div>

@@ -73,7 +73,7 @@ const notIncluded = [
 ];
 
 const faqs = [
-  { q: "Qual a condição de pagamento?", a: "25% de entrada no ato da reserva e o saldo (75%) em 9 parcelas sem juros no cartão de crédito. Valores em dólar, sujeitos a disponibilidade e confirmação aérea." },
+  { q: "Qual a condição de pagamento?", a: "25% de entrada no ato da reserva e o saldo (75%) em 9 parcelas sem juros no cartão de crédito — condição válida para a parte terrestre do programa. A parte aérea é cotada separadamente e o parcelamento segue as condições da companhia aérea escolhida, que mudam de uma cia para outra. Valores em dólar, sujeitos a disponibilidade e confirmação aérea." },
   { q: "Preciso de visto e vacina?", a: "Sim. Índia com eVisa (indianvisaonline.gov.in) e Sri Lanka com ETA (eta.gov.lk). O processo é rápido (72h), mas recomendamos providenciar 30 dias antes. Vacina de febre amarela obrigatória. Passaporte válido por 6 meses após o retorno." },
   { q: "Como é o Holi em Jaipur?", a: "O grupo celebra o festival de forma privativa no Chomu Palace, com pós orgânicos, música e dança tradicional do Rajastão, doces gujia e almoço buffet — sem a exposição das celebrações abertas nas ruas." },
   { q: "Como é o clima em março?", a: "Norte da Índia (Delhi, Jaipur, Agra) tem dias quentes (28–34 °C) e noites amenas. Sri Lanka tem clima tropical (28–32 °C) com chuvas rápidas. Nuwara Eliya (montanha) é fresco (18–22 °C) — leve uma peça de meia estação." },
@@ -110,7 +110,7 @@ const GrupoIndiaSriLankaHoli2027 = () => {
     <div className="min-h-screen">
       <SEO
         title="Grupo Índia & Sri Lanka 2027 — Festival Holi com guia do Brasil | Create Travel"
-        description="18 dias na Índia e Sri Lanka em 2027 com Festival Holi privativo em Jaipur, Taj Mahal, Sigiriya, Nuwara Eliya e safári no Yala. Saída 16/03/2027 pela Turkish Airlines. Entrada 25% + 9x sem juros."
+        description="18 dias na Índia e Sri Lanka em 2027 com Festival Holi privativo em Jaipur, Taj Mahal, Sigiriya, Nuwara Eliya e safári no Yala. Saída 16/03/2027 pela Turkish Airlines. Parte terrestre: entrada 25% + 9x sem juros."
         canonicalPath="/grupos/india-sri-lanka-holi-2027"
         ogImage={heroImg}
         ogType="article"
@@ -247,6 +247,7 @@ const GrupoIndiaSriLankaHoli2027 = () => {
           </div>
           <div className="bg-card/95 text-foreground rounded-xl p-8 mb-8 text-left">
             <p className="text-xs uppercase tracking-wider text-gold mb-3 font-semibold">Condição de pagamento</p>
+            <p className="text-sm text-muted-foreground mb-5">Condição válida para a parte terrestre do programa. A parte aérea é cotada à parte e o parcelamento segue as regras da companhia aérea escolhida, que variam de uma cia para outra.</p>
             <div className="grid sm:grid-cols-2 gap-6">
               <div><p className="text-sm text-muted-foreground mb-1">Entrada</p><p className="font-serif text-3xl font-semibold text-foreground">25%</p><p className="text-sm text-muted-foreground mt-1">no ato da reserva</p></div>
               <div><p className="text-sm text-muted-foreground mb-1">Saldo (75%)</p><p className="font-serif text-3xl font-semibold text-foreground">9x sem juros</p><p className="text-sm text-muted-foreground mt-1">no cartão de crédito</p></div>

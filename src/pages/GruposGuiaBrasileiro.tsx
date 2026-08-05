@@ -13,7 +13,7 @@ const DIFFERENTIALS = [
   { icon: Users, title: "Coordenador brasileiro", desc: "Embarca com o grupo em Guarulhos e acompanha do check-in ao último brinde." },
   { icon: Globe, title: "Tudo em português", desc: "Nada de se perder em inglês macarrônico — comunicação clara do começo ao fim." },
   { icon: Plane, title: "Grupos pequenos", desc: "Máximo de 15 a 20 pessoas. Nada de comboios de 40 turistas de crachá." },
-  { icon: Calendar, title: "Parcelamento facilitado", desc: "Entrada de 25% + 9x sem juros no cartão. Sem surpresas." },
+  { icon: Calendar, title: "Parcelamento facilitado", desc: "Parte terrestre com entrada de 25% + 9x sem juros no cartão. O aéreo é cotado à parte, conforme as condições da companhia aérea." },
 ];
 
 const GruposGuiaBrasileiro = () => {
@@ -44,7 +44,7 @@ const GruposGuiaBrasileiro = () => {
     <div className="min-h-screen">
       <SEO
         title="Grupos de Viagem com Guia Brasileiro — Saídas 2026 e 2027"
-        description={`${DEPARTURES.length} saídas internacionais 2026/2027 com coordenador brasileiro embarcando de São Paulo. África do Sul, Jordânia, Grécia, Portugal e mais. Entrada 25% + 9x sem juros.`}
+        description={`${DEPARTURES.length} saídas internacionais 2026/2027 com coordenador brasileiro embarcando de São Paulo. África do Sul, Jordânia, Grécia, Portugal e mais. Parte terrestre: entrada 25% + 9x sem juros.`}
         canonicalPath="/grupos-guia-brasileiro"
         keywords="grupo viagem guia brasileiro, viagem em grupo, saídas em grupo 2026, saídas em grupo 2027, viagem com guia brasileiro"
         jsonLd={jsonLd}
@@ -70,7 +70,7 @@ const GruposGuiaBrasileiro = () => {
             Viaje com quem conhece o destino e fala a sua língua.
           </p>
           <p className="text-base text-white/70 mb-8 font-light">
-            Saídas internacionais 2026 e 2027 · Coordenador embarcando de Guarulhos · Grupos pequenos · Entrada 25% + 9x sem juros
+            Saídas internacionais 2026 e 2027 · Coordenador embarcando de Guarulhos · Grupos pequenos · Parte terrestre em 25% + 9x sem juros
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <a href="#saidas" className="btn-primary bg-gold text-navy hover:bg-gold/90 text-lg px-8 py-4 font-semibold">

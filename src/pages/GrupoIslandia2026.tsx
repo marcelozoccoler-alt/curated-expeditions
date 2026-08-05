@@ -180,7 +180,7 @@ const notIncluded = [
 const faqs = [
   {
     q: "Qual a condição de pagamento?",
-    a: "25% de entrada no ato da reserva e o saldo (75%) em 9 parcelas sem juros no cartão de crédito. Valores em euro, sujeitos a disponibilidade e confirmação aérea.",
+    a: "25% de entrada no ato da reserva e o saldo (75%) em 9 parcelas sem juros no cartão de crédito — condição válida para a parte terrestre do programa. A parte aérea é cotada separadamente e o parcelamento segue as condições da companhia aérea escolhida, que mudam de uma cia para outra. Valores em euro, sujeitos a disponibilidade e confirmação aérea.",
   },
   {
     q: "Quais documentos são necessários?",
@@ -247,7 +247,7 @@ const GrupoIslandia2026 = () => {
     <div className="min-h-screen">
       <SEO
         title="Grupo Islândia 2026 — Aurora Boreal, Crystal Ice Cave & Círculo Dourado | Create Travel"
-        description="11 dias pela Islândia em grupo com guia do Brasil: Reykjavík, Círculo Dourado, Jökulsárlón, Crystal Ice Cave, Blue Lagoon e Aurora Cruise. Saída 12/11/2026 pela Lufthansa. Entrada 25% + 9x sem juros."
+        description="11 dias pela Islândia em grupo com guia do Brasil: Reykjavík, Círculo Dourado, Jökulsárlón, Crystal Ice Cave, Blue Lagoon e Aurora Cruise. Saída 12/11/2026 pela Lufthansa. Parte terrestre: entrada 25% + 9x sem juros."
         canonicalPath="/grupos/islandia-2026"
         ogImage={heroImg}
         ogType="article"
@@ -571,6 +571,9 @@ const GrupoIslandia2026 = () => {
           <div className="bg-card/95 text-foreground rounded-xl p-8 mb-8 text-left">
             <p className="text-xs uppercase tracking-wider text-gold mb-3 font-semibold">
               Condição de pagamento
+            </p>
+            <p className="text-sm text-muted-foreground mb-5">
+              Condição válida para a parte terrestre do programa. A parte aérea é cotada à parte e o parcelamento segue as regras da companhia aérea escolhida, que variam de uma cia para outra.
             </p>
             <div className="grid sm:grid-cols-2 gap-6">
               <div>

@@ -51,7 +51,7 @@ const DIFFERENTIALS = [
   {
     icon: Users,
     title: "Aéreo sob medida",
-    desc: "Cotamos os voos a partir da sua cidade, com liberdade para chegar antes ou estender a viagem depois do circuito. Pagamento com entrada de 25% + 9x sem juros.",
+    desc: "Cotamos os voos a partir da sua cidade, com liberdade para chegar antes ou estender a viagem depois do circuito. A parte terrestre tem entrada de 25% + 9x sem juros; o aéreo é pago conforme as condições da companhia aérea escolhida.",
   },
 ];
 
@@ -101,7 +101,7 @@ const GruposGuiaLocal = () => {
     },
     {
       q: "Como funciona o pagamento?",
-      a: "A mesma condição dos grupos com guia brasileiro: entrada de 25% no ato da reserva e o saldo em até 9x sem juros no cartão de crédito. As passagens aéreas são cotadas junto, a partir da sua cidade.",
+      a: "A mesma condição dos grupos com guia brasileiro, válida para a parte terrestre: entrada de 25% no ato da reserva e o saldo em até 9x sem juros no cartão de crédito. As passagens aéreas são cotadas separadamente, a partir da sua cidade, e o pagamento do aéreo segue as regras da companhia aérea escolhida — que mudam de uma cia para outra.",
     },
     {
       q: "Posso buscar grupos por destino, e não só por data?",
@@ -128,7 +128,7 @@ const GruposGuiaLocal = () => {
         "@type": "Country",
         name: c,
       })),
-      description: `${localGuideGroups.length} circuitos em grupo com guia local e ${totalDepartures} saídas garantidas em 2027 pela Europa, a partir de € 1.695 por pessoa. Entrada de 25% + 9x sem juros.`,
+      description: `${localGuideGroups.length} circuitos em grupo com guia local e ${totalDepartures} saídas garantidas em 2027 pela Europa, a partir de € 1.695 por pessoa. Parte terrestre: entrada 25% + 9x sem juros.`,
     },
     {
       "@context": "https://schema.org",

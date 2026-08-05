@@ -158,7 +158,7 @@ const Index = () => {
               <p className="font-serif text-xl text-foreground mb-8">
                 A partir de <strong>US$ 4.895</strong>{" "}
                 <span className="text-sm text-muted-foreground font-sans font-light">
-                  por pessoa (apto duplo) · entrada 25% + 9x sem juros
+                  por pessoa (apto duplo, parte terrestre) · entrada 25% + 9x sem juros
                 </span>
               </p>
               <div className="flex flex-col sm:flex-row gap-3">
@@ -252,7 +252,7 @@ const Index = () => {
               <ArrowRight size={18} />
             </Link>
             <p className="text-xs text-white/50 mt-4 uppercase tracking-[0.2em]">
-              Filtro por mês · Ordem cronológica · Entrada 25% + 9x sem juros
+              Filtro por mês · Ordem cronológica · Parte terrestre em 25% + 9x sem juros
             </p>
           </div>
         </div>

@@ -750,7 +750,7 @@ const EmbarqueComACreate = () => {
     <div className="min-h-screen">
       <SEO
         title="Embarque com a Create — Grupos com guia brasileiro"
-        description="Saídas em grupo internacionais com guia brasileiro, tudo em português. Entrada 25% + 9x sem juros. Grécia, Marrocos e mais."
+        description="Saídas em grupo internacionais com guia brasileiro, tudo em português. Parte terrestre: entrada 25% + 9x sem juros. Grécia, Marrocos e mais."
         canonicalPath="/embarque-com-a-create"
         ogImage={grupoGreciaImg}
         ogType="website"
