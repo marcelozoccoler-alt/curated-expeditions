@@ -18,6 +18,7 @@ import { SEO } from "@/components/SEO";
 import { FAQSection } from "@/components/FAQSection";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
 import { CONTACT } from "@/lib/types";
+import { localGuidePriceLabel } from "@/lib/localGuideGroups";
 import {
   localGuideGroups,
   localGuideCountries,
@@ -401,7 +402,7 @@ const GruposGuiaLocal = () => {
                   </div>
                   <div className="mt-auto pt-3 border-t border-border">
                     <p className="text-sm font-serif text-foreground mb-1">
-                      A partir de € {g.priceEur.toLocaleString("pt-BR")}
+                      A partir de {localGuidePriceLabel(g)}
                       <span className="text-xs text-muted-foreground font-sans">
                         {" "}
                         / pessoa

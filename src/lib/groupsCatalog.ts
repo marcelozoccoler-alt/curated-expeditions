@@ -3,7 +3,7 @@
 // de destinos e regiões, maximizando descoberta interna e contexto para buscadores/IA.
 
 import { DEPARTURES } from "@/pages/EmbarqueComACreate";
-import { localGuideGroups } from "@/lib/localGuideGroups";
+import { localGuideGroups, localGuidePriceLabel } from "@/lib/localGuideGroups";
 
 /** Países cobertos por cada saída com guia brasileiro (chave = href da página). */
 export const BRAZILIAN_GROUP_COUNTRIES: Record<string, string[]> = {
@@ -63,7 +63,7 @@ export interface CatalogGroup {
 }
 
 const localCountLabel = (n: number) =>
-  n === 1 ? "1 saída garantida 2027" : `${n} saídas garantidas 2027`;
+  n === 1 ? "1 saída garantida" : `${n} saídas garantidas`;
 
 export const catalogGroups: CatalogGroup[] = [
   ...DEPARTURES.map((d) => ({
@@ -85,7 +85,7 @@ export const catalogGroups: CatalogGroup[] = [
     dateLabel: localCountLabel(g.departures.length),
     departures: g.departures,
     countries: g.countries,
-    priceLabel: `A partir de € ${g.priceEur.toLocaleString("pt-BR")} por pessoa (apto duplo)`,
+    priceLabel: `A partir de ${localGuidePriceLabel(g)} por pessoa (apto duplo)`,
   })),
 ];
 
