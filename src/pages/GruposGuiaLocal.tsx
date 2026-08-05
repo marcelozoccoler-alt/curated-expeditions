@@ -406,11 +406,15 @@ const GruposGuiaLocal = () => {
                   </div>
                   <div className="mt-auto pt-3 border-t border-border">
                     <p className="text-sm font-serif text-foreground mb-1">
-                      A partir de {localGuidePriceLabel(g)}
-                      <span className="text-xs text-muted-foreground font-sans">
-                        {" "}
-                        / pessoa
-                      </span>
+                      {localGuidePriceLabel(g) === "Sob consulta"
+                        ? "Valor sob consulta"
+                        : `A partir de ${localGuidePriceLabel(g)}`}
+                      {localGuidePriceLabel(g) !== "Sob consulta" && (
+                        <span className="text-xs text-muted-foreground font-sans">
+                          {" "}
+                          / pessoa
+                        </span>
+                      )}
                     </p>
                     <div className="flex items-center justify-between">
                       <span className="text-xs text-emerald inline-flex items-center gap-1">
