@@ -3,6 +3,7 @@
 // dos principais concorrentes brasileiros de turismo autoral.
 
 import type { FAQ } from "./types";
+import { diaryPostsDestinos } from "./diaryPostsDestinos";
 
 export interface DiarySection {
   heading: string;
@@ -27,7 +28,7 @@ export interface DiaryPost {
   whatsappName: string;     // mensagem contextual no CTA
 }
 
-export const diaryPosts: DiaryPost[] = [
+const corePosts: DiaryPost[] = [
   {
     slug: "cruzeiro-fluvial-rio-nilo-luxor-aswan-experiencia",
     title: "Navegar o Nilo de Luxor a Aswan: relato de Marcelo Zoccoler",
@@ -3756,6 +3757,8 @@ export const diaryPosts: DiaryPost[] = [
 ];
 
 
+
+export const diaryPosts: DiaryPost[] = [...corePosts, ...diaryPostsDestinos];
 
 export const getDiaryPost = (slug: string): DiaryPost | undefined =>
   diaryPosts.find((p) => p.slug === slug);
