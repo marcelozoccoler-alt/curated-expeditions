@@ -279,7 +279,7 @@ export const localGuideGroups: LocalGuideGroup[] = [
     priceEur: 4463,
     currency: "USD",
     priceNote:
-      "Valor de referência por pessoa em apartamento duplo (equivalente aproximado de R$ 27.492 ao câmbio de R$ 6,16), confirmado na cotação da sua data. Inclui o voo interno Rotorua–Christchurch em classe econômica (1 mala de até 23 kg); o aéreo internacional é cotado à parte. Visitas com guia local falando espanhol ou italiano, em serviço compartilhado.",
+      "Valor de referência por pessoa em apartamento duplo, confirmado na cotação da sua data. Inclui o voo interno Rotorua–Christchurch em classe econômica (1 mala de até 23 kg); o aéreo internacional é cotado à parte. Visitas com guia local falando espanhol ou italiano, em serviço compartilhado.",
     countries: ["Nova Zelândia"],
     area: "Oceania",
     hotels: [
@@ -411,7 +411,7 @@ export const localGuideGroups: LocalGuideGroup[] = [
     priceEur: 4463,
     currency: "USD",
     priceNote:
-      "Valor de referência por pessoa em apartamento duplo (equivalente aproximado de R$ 27.492 ao câmbio de R$ 6,16), confirmado na cotação da sua data. Inclui 9 noites com café da manhã diário e 4 almoços. Não inclui os voos internos Melbourne–Cairns (QF 702) e Cairns–Sydney (QF 923) nem o aéreo internacional, cotados à parte. Visitas com guia local falando espanhol ou inglês, em serviço compartilhado.",
+      "Valor de referência por pessoa em apartamento duplo, confirmado na cotação da sua data. Inclui 9 noites com café da manhã diário e 4 almoços. Não inclui os voos internos Melbourne–Cairns (QF 702) e Cairns–Sydney (QF 923) nem o aéreo internacional, cotados à parte. Visitas com guia local falando espanhol ou inglês, em serviço compartilhado.",
     countries: ["Austrália"],
     area: "Oceania",
     hotels: [
@@ -508,7 +508,7 @@ export const localGuideGroups: LocalGuideGroup[] = [
     priceEur: 4463,
     currency: "USD",
     priceNote:
-      "Valor de referência por pessoa em apartamento duplo (equivalente aproximado de R$ 27.492 ao câmbio de R$ 6,16), confirmado na cotação da sua data. Inclui pensão praticamente completa (7 almoços e 8 jantares); o aéreo internacional é cotado à parte. Taxa de turismo na Tunísia (12 TND, cerca de 4 euros por noite por adulto) paga diretamente nos hotéis.",
+      "Valor de referência por pessoa em apartamento duplo, confirmado na cotação da sua data. Inclui pensão praticamente completa (7 almoços e 8 jantares); o aéreo internacional é cotado à parte. Taxa de turismo na Tunísia (12 TND, cerca de 4 euros por noite por adulto) paga diretamente nos hotéis.",
     countries: ["Tunísia"],
     area: "África",
     hotels: [
@@ -605,7 +605,7 @@ export const localGuideGroups: LocalGuideGroup[] = [
     priceEur: 4463,
     currency: "USD",
     priceNote:
-      "Valor de referência por pessoa em apartamento duplo (equivalente aproximado de R$ 27.492 ao câmbio de R$ 6,16), confirmado na cotação da sua data. Inclui os voos internos Luang Prabang–Hanói–Danang e Hue–Ho Chi Minh–Siem Reap em classe econômica (1 mala de até 20 kg); o aéreo internacional é cotado à parte.",
+      "Valor de referência por pessoa em apartamento duplo, confirmado na cotação da sua data. Inclui os voos internos Luang Prabang–Hanói–Danang e Hue–Ho Chi Minh–Siem Reap em classe econômica (1 mala de até 20 kg); o aéreo internacional é cotado à parte.",
     countries: ["Laos", "Vietnã", "Camboja"],
     area: "Ásia",
     hotels: [
@@ -723,7 +723,7 @@ export const localGuideGroups: LocalGuideGroup[] = [
     priceEur: 4463,
     currency: "USD",
     priceNote:
-      "Valor de referência por pessoa em apartamento duplo (equivalente aproximado de R$ 27.492 ao câmbio de R$ 6,16), confirmado na cotação da sua data. Inclui os trens Tóquio–Quioto e Gero–Nagoya–Shin-Osaka em classe turística; o aéreo internacional é cotado à parte. Visitas do 2º ao 5º e do 7º ao 9º dia com guia falando português.",
+      "Valor de referência por pessoa em apartamento duplo, confirmado na cotação da sua data. Inclui os trens Tóquio–Quioto e Gero–Nagoya–Shin-Osaka em classe turística; o aéreo internacional é cotado à parte. Visitas do 2º ao 5º e do 7º ao 9º dia com guia falando português.",
     countries: ["Japão"],
     area: "Ásia",
     hotels: [
@@ -819,7 +819,7 @@ export const localGuideGroups: LocalGuideGroup[] = [
     priceEur: 4463,
     currency: "USD",
     priceNote:
-      "Valor de referência por pessoa em apartamento duplo (equivalente aproximado de R$ 27.492 ao câmbio de R$ 6,16), confirmado na cotação da sua data. Inclui o trem-bala Seul–Busan em classe econômica; o aéreo internacional é cotado à parte.",
+      "Valor de referência por pessoa em apartamento duplo, confirmado na cotação da sua data. Inclui o trem-bala Seul–Busan em classe econômica; o aéreo internacional é cotado à parte.",
     countries: ["Coreia do Sul"],
     area: "Ásia",
     hotels: [
@@ -899,7 +899,7 @@ export const localGuideGroups: LocalGuideGroup[] = [
     priceEur: 4463,
     currency: "USD",
     priceNote:
-      "Valor de referência por pessoa em apartamento duplo (equivalente aproximado de R$ 27.492 ao câmbio de R$ 6,16), confirmado na cotação da sua data. Inclui os voos internos Pequim–Xian–Xangai–Guilin e os trens Guilin–Guangzhou e Guangzhou–Hong Kong; o aéreo internacional é cotado à parte.",
+      "Valor de referência por pessoa em apartamento duplo, confirmado na cotação da sua data. Inclui os voos internos Pequim–Xian–Xangai–Guilin e os trens Guilin–Guangzhou e Guangzhou–Hong Kong; o aéreo internacional é cotado à parte.",
     countries: ["China"],
     area: "Ásia",
     hotels: [
@@ -995,7 +995,7 @@ export const localGuideGroups: LocalGuideGroup[] = [
     priceEur: 4463,
     currency: "USD",
     priceNote:
-      "Valor de referência por pessoa em apartamento duplo (equivalente aproximado de R$ 27.492 ao câmbio de R$ 6,16), confirmado na cotação da sua data. O trecho aéreo Tbilisi–Baku não está incluído e é cotado junto com o aéreo internacional.",
+      "Valor de referência por pessoa em apartamento duplo, confirmado na cotação da sua data. O trecho aéreo Tbilisi–Baku não está incluído e é cotado junto com o aéreo internacional.",
     countries: ["Armênia", "Geórgia", "Azerbaijão"],
     area: "Cáucaso",
     hotels: [
@@ -1091,7 +1091,7 @@ export const localGuideGroups: LocalGuideGroup[] = [
     priceEur: 4463,
     currency: "USD",
     priceNote:
-      "Equivalente aproximado de R$ 27.492 por pessoa (câmbio de referência R$ 6,16), sujeito à conversão do dia da reserva.",
+      "Valor por pessoa em apartamento duplo na moeda do circuito; a conversão em reais é feita na cotação da sua data de reserva.",
     countries: ["Argélia", "Tunísia"],
     area: "África",
     hotels: [
