@@ -67,6 +67,9 @@ import AdminWhatsApp from "./pages/AdminWhatsApp";
 import Guia, { GuiasIndex } from "./pages/Guia";
 import RoteiroSobMedida from "./pages/RoteiroSobMedida";
 import GruposGuiaBrasileiro from "./pages/GruposGuiaBrasileiro";
+import GruposGuiaLocal from "./pages/GruposGuiaLocal";
+import GrupoGuiaLocal from "./pages/GrupoGuiaLocal";
+
 import LuaDeMelPersonalizada from "./pages/LuaDeMelPersonalizada";
 import CruzeirosFluviais from "./pages/CruzeirosFluviais";
 import CruzeiroFluvial from "./pages/CruzeiroFluvial";
@@ -167,6 +170,9 @@ const App = () => (
           {/* SEO landings — high-intent commercial pages */}
           <Route path="/roteiro-sob-medida" element={<RoteiroSobMedida />} />
           <Route path="/grupos-guia-brasileiro" element={<GruposGuiaBrasileiro />} />
+          <Route path="/grupos-guia-local" element={<GruposGuiaLocal />} />
+          <Route path="/grupos-guia-local/:slug" element={<GrupoGuiaLocal />} />
+
           <Route path="/lua-de-mel-personalizada" element={<LuaDeMelPersonalizada />} />
           <Route path="/cruzeiros-fluviais" element={<CruzeirosFluviais />} />
           <Route path="/cruzeiros-fluviais/:slug" element={<CruzeiroFluvial />} />
