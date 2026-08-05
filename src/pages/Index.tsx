@@ -338,6 +338,11 @@ const Index = () => {
         </div>
       </section>
 
+      {/* Regiões que trabalhamos */}
+      <RegionsWeWork />
+
+
+
       {/* Experience Tags */}
       <section className="section-padding bg-navy text-white">
         <div className="container-editorial">
