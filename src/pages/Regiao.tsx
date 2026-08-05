@@ -11,6 +11,8 @@ import { getDestinationBySlug } from "@/lib/destinations";
 import { generateWhatsAppLink, CONTACT } from "@/lib/types";
 import { buildPlaceKeywords, buildSpeakableSchema } from "@/lib/seoIntents";
 import NotFound from "./NotFound";
+import RelatedGroups from "@/components/RelatedGroups";
+
 
 const Regiao = () => {
   const { regionSlug } = useParams<{ regionSlug: string }>();
