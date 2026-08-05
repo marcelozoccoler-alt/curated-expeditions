@@ -85,7 +85,10 @@ export const catalogGroups: CatalogGroup[] = [
     dateLabel: localCountLabel(g.departures.length),
     departures: g.departures,
     countries: g.countries,
-    priceLabel: `A partir de ${localGuidePriceLabel(g)} por pessoa (apto duplo)`,
+    priceLabel:
+      localGuidePriceLabel(g) === "Sob consulta"
+        ? "Valor sob consulta"
+        : `A partir de ${localGuidePriceLabel(g)} por pessoa (apto duplo)`,
   })),
 ];
 
