@@ -268,7 +268,13 @@ const Regiao = () => {
             </div>
           </div>
         </section>
+        <RelatedGroups
+          terms={[region.label]}
+          title={`Grupos com saída para ${region.label}`}
+          intro={`Saídas em grupo já organizadas passando por ${region.label} — com guia acompanhante desde o Brasil ou com guia local no destino, em idiomas conforme negociado. Hospedagem, traslados e visitas incluídas, entrada de 25% e saldo em até 9x sem juros.`}
+        />
       </main>
+
 
       <WhatsAppButton variant="float" params={{ type: "Destino", name: region.label }} />
       <Footer />
