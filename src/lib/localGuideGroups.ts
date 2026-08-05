@@ -45,6 +45,92 @@ export const localGuidePriceLabel = (g: LocalGuideGroup) =>
 
 export const localGuideGroups: LocalGuideGroup[] = [
   {
+    slug: "encantos-do-japao-em-portugues",
+    code: "R641",
+    title: "Encantos do Japão (guia em português)",
+    subtitle:
+      "Tóquio · Hakone · Nara · Quioto · Fushimi Inari · Arashiyama · Kanazawa · Shirakawago · Takayama · Gero (ryokan e onsen) · Osaka",
+    category: "Primeira",
+    days: 10,
+    nights: 9,
+    priceEur: 4463,
+    currency: "USD",
+    priceNote:
+      "Valor de referência por pessoa em apartamento duplo (equivalente aproximado de R$ 27.492 ao câmbio de R$ 6,16), confirmado na cotação da sua data. Inclui os trens Tóquio–Quioto e Gero–Nagoya–Shin-Osaka em classe turística; o aéreo internacional é cotado à parte. Visitas do 2º ao 5º e do 7º ao 9º dia com guia falando português.",
+    countries: ["Japão"],
+    area: "Ásia",
+    hotels: [
+      { city: "Tóquio", hotel: "Hotel selecionado (3 noites)" },
+      { city: "Quioto", hotel: "Hotel selecionado (3 noites)" },
+      { city: "Kanazawa", hotel: "Hotel selecionado (1 noite)" },
+      { city: "Gero", hotel: "Ryokan tradicional com onsen (1 noite)" },
+      { city: "Osaka", hotel: "Hotel selecionado (1 noite)" },
+    ],
+    departures: [
+      "2026-08-11",
+      "2026-09-11",
+      "2026-10-02",
+      "2026-12-11",
+      "2027-01-08",
+      "2027-02-12",
+      "2027-03-12",
+    ],
+    itinerary: [
+      {
+        day: 1,
+        route: "TÓQUIO",
+        text: "Chegada a Narita ou Haneda, recepção com assistência e traslado ao hotel, para três noites em Tóquio. Apartamento disponível a partir das 15h; o guia em português fica no hotel das 14h às 20h para orientações e primeiras dicas da cidade.",
+      },
+      {
+        day: 2,
+        route: "TÓQUIO",
+        text: "Meio dia de visita: o Santuário Meiji, dedicado ao imperador Mutsuhito, num bosque de 100 mil árvores no meio da metrópole; a Praça do Palácio Imperial (vista externa); e o Templo Senso-ji, em Asakusa, com a rua comercial Nakamise e seu incenso. O passeio termina em Ginza. Tarde livre. Café da manhã incluído.",
+      },
+      {
+        day: 3,
+        route: "TÓQUIO / HAKONE / TÓQUIO",
+        text: "Dia em Hakone, aos pés do Monte Fuji: navegação pelo Lago Ashi, o Santuário Hakone-jinja com seu torii vermelho sobre a água e o Museu ao Ar Livre, com esculturas entre as montanhas. Almoço em restaurante local. Se o barco não operar por condições climáticas, a alternativa é o Hakone Sekishoato. Café da manhã e almoço incluídos.",
+      },
+      {
+        day: 4,
+        route: "TÓQUIO / QUIOTO / NARA / QUIOTO",
+        text: "Traslado com assistência à estação e trem-bala até Quioto. A caminho, visita a Nara: o Templo Todai-ji, que abriga o Grande Buda de bronze, e o Parque de Nara, com seus cervos livres que se curvam por biscoitos. Chegada a Quioto e acomodação por três noites. Uma mala por pessoa é despachada separadamente de Tóquio a Quioto e pode chegar no dia seguinte — leve uma bagagem de mão para a noite. Café da manhã incluído.",
+      },
+      {
+        day: 5,
+        route: "QUIOTO",
+        text: "Dia na antiga capital imperial: o Templo Sanjusangendo, com mil estátuas de Kannon; o Santuário Fushimi Inari e seus milhares de torii vermelhos subindo a montanha; o dourado Kinkaku-ji refletido no lago; o Templo Tenryu-ji com seu jardim clássico; e o Bosque de Bambu de Sagano, em Arashiyama. Almoço em restaurante local. Quem quiser pode descer no bairro Gion, das gueixas, e voltar por conta própria. Café da manhã e almoço incluídos.",
+      },
+      {
+        day: 6,
+        route: "QUIOTO",
+        text: "Dia livre em Quioto. Sugerimos o passeio opcional a Hiroshima e Miyajima (não incluído, reserva com no mínimo 3 semanas de antecedência): trem-bala ida e volta, o Santuário Itsukushima com o torii sobre o mar, o Parque Memorial da Paz e a Cúpula da Bomba Atômica. Café da manhã incluído.",
+      },
+      {
+        day: 7,
+        route: "QUIOTO / KANAZAWA",
+        text: "Viagem a Kanazawa, a cidade dos samurais e do ouro em folha. Visita ao Mercado Omicho, com mais de 170 barracas de frutos do mar de Ishikawa; ao bairro de gueixas Higashi Chaya, de casas de madeira preservadas; e ao jardim Kenrokuen, um dos três mais belos do Japão. Pernoite. Uma mala por pessoa segue separadamente para Osaka — leve bagagem de mão para duas noites. Café da manhã incluído.",
+      },
+      {
+        day: 8,
+        route: "KANAZAWA / SHIRAKAWAGO / TAKAYAMA / GERO",
+        text: "Manhã em Shirakawago (Patrimônio Mundial desde 1995), com suas casas de telhado de palha em estilo gasshozukuri encaixadas entre montanhas — um Japão de outra era. Depois, Takayama: o bairro histórico de Kamisannomachi, com antigas casas de saquê, e o Yatai Kaikan, museu dos carros alegóricos do festival. Seguimos a Gero para uma noite em ryokan, com banho de onsen de águas termais (banhos separados por gênero; tatuagens visíveis costumam não ser aceitas). Café da manhã, almoço e jantar incluídos.",
+      },
+      {
+        day: 9,
+        route: "GERO / NAGOYA / OSAKA",
+        text: "Traslado à estação de Gero e trem até Shin-Osaka, com conexão em Nagoya. Chegada e passeio pelo agitado Dotonbori, de letreiros de neon refletidos no canal, e pelo Castelo de Osaka (sem entrar). Pernoite em Osaka. Café da manhã incluído.",
+      },
+      {
+        day: 10,
+        route: "OSAKA (KANSAI OU ITAMI)",
+        text: "Traslado em ônibus compartilhado ao aeroporto de Kansai ou Itami. Para voos partindo às 8h30 ou antes, há suplemento de táxi (US$ 141 por pessoa; US$ 282 se viajar sozinho). Fim dos nossos serviços. Café da manhã incluído.",
+      },
+    ],
+  },
+
+  {
+
     slug: "coreia-do-sul-tradicao-inovacao",
     code: "R632",
     title: "Coreia do Sul: Tradição e Inovação",
