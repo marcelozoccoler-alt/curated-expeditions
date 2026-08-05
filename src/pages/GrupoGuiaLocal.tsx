@@ -240,10 +240,14 @@ const GrupoGuiaLocal = () => {
           </div>
           <h1 className="heading-hero mb-5">{group.title}</h1>
           <p className="text-xl text-white/90 font-light mb-4">{group.subtitle}</p>
+          <p className="text-lg text-white/85 font-light leading-relaxed mb-5">
+            {group.intro}
+          </p>
           <p className="text-white/70 font-light mb-8">
             {group.days} dias · {group.nights} noites · {countriesLabel} ·{" "}
             {group.departures.length} saídas garantidas em 2027
           </p>
+
           <div className="flex flex-col sm:flex-row gap-4">
             <a
               href="#datas"
