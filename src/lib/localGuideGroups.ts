@@ -167,6 +167,92 @@ export const localGuideGroups: LocalGuideGroup[] = [
   },
 
   {
+    slug: "australia-downunder",
+    code: "R634",
+    title: "Austrália Downunder",
+    subtitle:
+      "Melbourne · Great Ocean Road · Doze Apóstolos · Cairns · Kuranda · Skyrail · Grande Barreira de Coral · Sydney · Bondi Beach · Ópera de Sydney · Montanhas Azuis",
+    category: "Premium",
+    days: 10,
+    nights: 9,
+    priceEur: 4463,
+    currency: "USD",
+    priceNote:
+      "Valor de referência por pessoa em apartamento duplo (equivalente aproximado de R$ 27.492 ao câmbio de R$ 6,16), confirmado na cotação da sua data. Inclui 9 noites com café da manhã diário e 4 almoços. Não inclui os voos internos Melbourne–Cairns (QF 702) e Cairns–Sydney (QF 923) nem o aéreo internacional, cotados à parte. Visitas com guia local falando espanhol ou inglês, em serviço compartilhado.",
+    countries: ["Austrália"],
+    area: "Oceania",
+    hotels: [
+      { city: "Melbourne", hotel: "Hotel selecionado (3 noites)" },
+      { city: "Cairns", hotel: "Hotel selecionado (3 noites)" },
+      { city: "Sydney", hotel: "Hotel selecionado (3 noites)" },
+    ],
+    departures: [
+      "2026-04-13",
+      "2026-06-29",
+      "2026-08-03",
+      "2026-09-21",
+      "2026-10-12",
+      "2026-11-09",
+      "2026-12-14",
+      "2027-02-01",
+      "2027-03-08",
+    ],
+    itinerary: [
+      {
+        day: 1,
+        route: "MELBOURNE",
+        text: "Chegada e traslado ao hotel para três noites, com check-in a partir das 16h. Restante do dia livre. Melbourne é uma metrópole moderna às margens do rio Yarra, conhecida pelos jardins, parques e espaços abertos que ocupam quase um terço da cidade, e por uma cena gastronômica em plena ascensão entre o Southbank e o Centro de Artes.",
+      },
+      {
+        day: 2,
+        route: "MELBOURNE",
+        text: "Passeio a pé pela cidade (cerca de 3 horas): galerias escondidas nos becos, arte urbana extravagante, os melhores cafés e uma arquitetura em constante reinvenção. O tour termina no Melbourne Skydeck, com coquetel exclusivo no Bar 88 e a vista desde a plataforma de observação mais alta do hemisfério sul. Retorno ao hotel por conta própria. Café da manhã incluído.",
+      },
+      {
+        day: 3,
+        route: "MELBOURNE / GREAT OCEAN ROAD / MELBOURNE",
+        text: "Dia inteiro pela Great Ocean Road, um dos trajetos costeiros mais bonitos do mundo, com acesso exclusivo a um bosque de eucaliptos onde é possível ver koalas e cangurus. No caminho, atenção às baleias e golfinhos. Tempo livre nas praias virgens e, no fim da tarde, os Doze Apóstolos e o Loch Ard Gorge. Retorno ao hotel. Nota: as visitas podem sofrer alterações por trânsito ou clima e o café da manhã pode ser servido em formato \"box\", conforme o horário de saída. Café da manhã incluído.",
+      },
+      {
+        day: 4,
+        route: "MELBOURNE / CAIRNS",
+        text: "Traslado ao aeroporto e voo para Cairns. Chegada, recepção e traslado ao hotel para três noites. Tarde livre. Cairns é uma cidade vibrante e a base privilegiada para navegação, mergulho e snorkel no norte tropical. Nota: o bilhete aéreo Melbourne–Cairns não está incluído; reservar o voo QF 702 (09h20–12h40). Horários diferentes podem gerar suplemento de traslado e a perda da reunião com o guia. Café da manhã incluído.",
+      },
+      {
+        day: 5,
+        route: "CAIRNS / KURANDA / SKYRAIL",
+        text: "Saída pela costa norte até um parque de vida silvestre singular, com oportunidade de conhecer os grandes crocodilos, segurar um coala e alimentar o casuar do sul. Em seguida, o povoado de Kuranda e almoço em restaurante local. À tarde, Parque Nacional Barron Gorge com subida no teleférico Skyrail sobre a floresta tropical Patrimônio da Humanidade, lar do povo aborígene Djabugay. No retorno, parada em Palm Cove, uma das praias mais deslumbrantes do norte. Café da manhã e almoço incluídos.",
+      },
+      {
+        day: 6,
+        route: "CAIRNS / GRANDE BARREIRA DE CORAL",
+        text: "Caminhada até o terminal Reef Fleet para embarque no cruzeiro Ocean Spirit a Michaelmas Cay (sem guia acompanhante, comentários em inglês, sujeito às condições climáticas). A Grande Barreira de Coral, com 2.300 km, é o maior sistema de corais do mundo; Michaelmas Cay é um cayo de areia clara cercado por recife espetacular e santuário protegido de aves migratórias. Tempo para snorkel e para nadar nas águas transparentes. Almoço buffet a bordo. Café da manhã e almoço incluídos.",
+      },
+      {
+        day: 7,
+        route: "CAIRNS / SYDNEY",
+        text: "Traslado ao aeroporto e voo para Sydney. Chegada e traslado ao hotel para três noites, com check-in a partir das 16h. Tarde livre. Nota: o bilhete aéreo Cairns–Sydney não está incluído; reservar o voo QF 923 (13h30–16h25). Horários diferentes podem gerar suplemento de traslado e a perda da reunião com o guia. Café da manhã incluído.",
+      },
+      {
+        day: 8,
+        route: "SYDNEY / BONDI / ÓPERA",
+        text: "Manhã de visita panorâmica pela cidade, começando por The Rocks e a história dos primeiros colonos, com vistas magníficas da Ópera e da Harbour Bridge, seguindo pelo CBD, QVB e Centrepoint. Tempo livre na praia de Bondi e vista panorâmica desde Dover Heights, com retorno por Double Bay, Kings Cross e o mirante Macquarie's Chair. Em Darling Harbour, passeio de barco pela baía de Sydney com almoço a bordo. À tarde, visita guiada de 1 hora pela Ópera de Sydney, com acesso a áreas fora do alcance do público. Retorno ao hotel por conta própria. Café da manhã e almoço incluídos.",
+      },
+      {
+        day: 9,
+        route: "SYDNEY / MONTANHAS AZUIS / SYDNEY",
+        text: "Dia inteiro nas Montanhas Azuis. Primeira parada em Calmsley Hill, entre cangurus e coalas, seguida do mirante do vale de Jamison e do remoto Eaglehawk, onde se contam as lendas das formações rochosas. Almoço incluído. À tarde, a vista desde Govetts Leap, um dos mirantes mais famosos da Austrália, e o Jardim Botânico do Monte Tomah. Retorno ao hotel. Café da manhã e almoço incluídos.",
+      },
+      {
+        day: 10,
+        route: "SYDNEY",
+        text: "Traslado ao aeroporto e fim dos nossos serviços. Café da manhã incluído.",
+      },
+    ],
+  },
+
+  {
+
 
     slug: "grande-tour-tunisia-top-deluxe",
     code: "R638",
