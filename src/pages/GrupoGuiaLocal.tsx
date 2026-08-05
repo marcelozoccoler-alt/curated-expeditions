@@ -417,8 +417,11 @@ const GrupoGuiaLocal = () => {
               Categoria {group.category}, sempre bem localizados
             </h2>
             <p className="text-muted-foreground mt-3 text-sm">
-              Ou similares na categoria indicada, conforme a cidade.
+              {group.hotels.every((h) => /selecionad|a definir|categoria/i.test(h.hotel))
+                ? `Neste roteiro os hotéis nominais ainda estão em confirmação junto ao operador local. A categoria ${group.category} é garantida em contrato e os nomes são informados antes do pagamento da primeira parcela — fale com a curadoria para receber a lista atualizada.`
+                : "Ou similares na categoria indicada, conforme a cidade."}
             </p>
+
           </div>
           <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-5 max-w-6xl mx-auto">
             {group.hotels.map((h) => (
