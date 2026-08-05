@@ -59,9 +59,7 @@ export const Header = () => {
       ? [
           { label: "Grupos com Guia", href: "/embarque-com-a-create" },
           { label: "Grupos com guia local", href: "/grupos-guia-local" },
-          { label: "Cruzeiros fluviais", href: "/cruzeiros-fluviais" },
           { label: "Crie seu grupo", href: "/crie-seu-grupo" },
-
         ]
       : [];
 
@@ -71,10 +69,12 @@ export const Header = () => {
           ...primaryNavItems,
           ...brasilSubItems,
           ...gruposSubItems,
+          { label: "Cruzeiros fluviais", href: "/cruzeiros-fluviais" },
           { label: "Blog", href: "/diario" },
           { label: t("nav.contato"), href: "/contato" },
         ]
       : [...primaryNavItems, ...brasilSubItems];
+
 
   const whatsappLink =
     lang === "pt"
@@ -225,10 +225,27 @@ export const Header = () => {
               </div>
             )}
 
+            {/* Cruzeiros fluviais — seção independente */}
+            {lang === "pt" && (
+              <Link
+                to="/cruzeiros-fluviais"
+                className={`text-sm font-medium transition-colors hover:text-gold whitespace-nowrap ${
+                  isScrolled ? "text-foreground" : "text-primary-foreground"
+                } ${
+                  location.pathname.startsWith("/cruzeiros-fluviais")
+                    ? "text-gold"
+                    : ""
+                }`}
+              >
+                Cruzeiros fluviais
+              </Link>
+            )}
+
             {/* Blog & Contato — same style as other primary links */}
             {lang === "pt" && (
               <>
                 <Link
+
                   to="/diario"
                   className={`text-sm font-medium transition-colors hover:text-gold whitespace-nowrap ${
                     isScrolled ? "text-foreground" : "text-primary-foreground"
