@@ -22,6 +22,8 @@ import { brazilStates } from "../src/lib/brazilStates";
 import { diaryPosts } from "../src/lib/diaryPosts";
 import { pacotes } from "../src/lib/comercialPacotes";
 import { riverCruises } from "../src/lib/riverCruises";
+import { localGuideGroups } from "../src/lib/localGuideGroups";
+
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const PAGE_SIZE = 12;
