@@ -149,7 +149,7 @@ const GrupoGuiaLocal = () => {
         "@type": "TravelAgency",
         name: "Create Travel",
         url: DOMAIN,
-        telephone: CONTACT.phone,
+        telephone: CONTACT.whatsappNumber,
       },
       offers: {
         "@type": "Offer",
