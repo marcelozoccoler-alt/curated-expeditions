@@ -237,7 +237,7 @@ export const brazilStates: BrazilState[] = [
       },
       {
         q: "Como funciona um pacote de viagem para o Rio Grande do Norte na Create Travel?",
-        a: "Não vendemos pacotes prontos. A partir de uma conversa por WhatsApp levantamos período, perfil e ritmo desejado. Enviamos uma proposta sob medida com hospedagens, transfers privativos, buggy exclusivo, passeios de barco e suporte 24/7 durante toda a viagem — com um único travel designer do briefing ao pós-viagem.",
+        a: "Não vendemos pacotes de prateleira: cada roteiro é desenhado sob medida. As únicas saídas com datas fixas são nossas viagens em grupo — com guia brasileiro acompanhando desde o Brasil ou com guias locais no destino — igualmente curadas para o perfil de viajante Create Travel. A partir de uma conversa por WhatsApp levantamos período, perfil e ritmo desejado. Enviamos uma proposta sob medida com hospedagens, transfers privativos, buggy exclusivo, passeios de barco e suporte 24/7 durante toda a viagem — com um único travel designer do briefing ao pós-viagem.",
       },
       {
         q: "Pipa é seguro para famílias e casais?",
@@ -360,7 +360,7 @@ export const brazilStates: BrazilState[] = [
       },
       {
         q: "Como funciona um pacote de viagem para a Bahia na Create Travel?",
-        a: "Não vendemos pacotes prontos. A partir de uma conversa por WhatsApp levantamos período, perfil e ritmo desejado. Enviamos proposta sob medida com hospedagens, voos domésticos, transfers privativos, passeios exclusivos e suporte 24/7 — com um único travel designer do briefing ao pós-viagem.",
+        a: "Não vendemos pacotes de prateleira: cada roteiro é desenhado sob medida. As únicas saídas com datas fixas são nossas viagens em grupo — com guia brasileiro acompanhando desde o Brasil ou com guias locais no destino — igualmente curadas para o perfil de viajante Create Travel. A partir de uma conversa por WhatsApp levantamos período, perfil e ritmo desejado. Enviamos proposta sob medida com hospedagens, voos domésticos, transfers privativos, passeios exclusivos e suporte 24/7 — com um único travel designer do briefing ao pós-viagem.",
       },
       {
         q: "Vale a pena combinar Salvador com Chapada Diamantina?",
@@ -496,7 +496,7 @@ export const brazilStates: BrazilState[] = [
       },
       {
         q: "Como funciona um pacote de viagem para o Rio de Janeiro na Create Travel?",
-        a: "Não vendemos pacotes prontos. A partir de uma conversa por WhatsApp levantamos período, perfil dos viajantes, ritmo e experiências desejadas. Enviamos uma proposta sob medida com hospedagens, transfers, passeios privativos e suporte durante a viagem. Você fala com um único travel designer do briefing ao pós-viagem.",
+        a: "Não vendemos pacotes de prateleira: cada roteiro é desenhado sob medida. As únicas saídas com datas fixas são nossas viagens em grupo — com guia brasileiro acompanhando desde o Brasil ou com guias locais no destino — igualmente curadas para o perfil de viajante Create Travel. A partir de uma conversa por WhatsApp levantamos período, perfil dos viajantes, ritmo e experiências desejadas. Enviamos uma proposta sob medida com hospedagens, transfers, passeios privativos e suporte durante a viagem. Você fala com um único travel designer do briefing ao pós-viagem.",
       },
       {
         q: "É melhor ficar em Copacabana, Ipanema ou Leblon?",
@@ -626,7 +626,7 @@ export const brazilStates: BrazilState[] = [
       },
       {
         q: "Como funciona um pacote de viagem para Foz do Iguaçu na Create Travel?",
-        a: "Não vendemos pacotes prontos. A partir de uma conversa por WhatsApp levantamos período, perfil e apetite por experiências extras. Enviamos proposta sob medida com hospedagem, voos, transfers privativos, ingressos pré-reservados dos dois lados e suporte 24/7 — com um único travel designer do briefing ao pós-viagem.",
+        a: "Não vendemos pacotes de prateleira: cada roteiro é desenhado sob medida. As únicas saídas com datas fixas são nossas viagens em grupo — com guia brasileiro acompanhando desde o Brasil ou com guias locais no destino — igualmente curadas para o perfil de viajante Create Travel. A partir de uma conversa por WhatsApp levantamos período, perfil e apetite por experiências extras. Enviamos proposta sob medida com hospedagem, voos, transfers privativos, ingressos pré-reservados dos dois lados e suporte 24/7 — com um único travel designer do briefing ao pós-viagem.",
       },
     ],
   },

@@ -86,7 +86,7 @@ export const regions: Region[] = [
       },
       {
         q: "Como funciona um pacote para a Amazônia na Create Travel?",
-        a: "Não vendemos pacotes prontos. A partir de uma conversa por WhatsApp levantamos período, perfil, apetite por conforto vs. aventura. Enviamos uma proposta sob medida com lodge selecionado, voos, transfers fluviais, guias privativos e suporte 24/7 — com um único travel designer do briefing ao pós-viagem.",
+        a: "Não vendemos pacotes de prateleira: cada roteiro é desenhado sob medida. As únicas saídas com datas fixas são nossas viagens em grupo — com guia brasileiro acompanhando desde o Brasil ou com guias locais no destino — igualmente curadas para o perfil de viajante Create Travel. A partir de uma conversa por WhatsApp levantamos período, perfil, apetite por conforto vs. aventura. Enviamos uma proposta sob medida com lodge selecionado, voos, transfers fluviais, guias privativos e suporte 24/7 — com um único travel designer do briefing ao pós-viagem.",
       },
       {
         q: "Precisa de guia para visitar a Amazônia?",
@@ -150,7 +150,7 @@ export const regions: Region[] = [
       },
       {
         q: "Como funciona um pacote para o Pantanal na Create Travel?",
-        a: "Não vendemos pacotes prontos. A partir de uma conversa por WhatsApp levantamos período, foco (onças, aves, família), perfil de conforto. Enviamos proposta sob medida com lodge, aéreo doméstico, transfers, guias e suporte 24/7 — com um único travel designer do briefing ao pós-viagem.",
+        a: "Não vendemos pacotes de prateleira: cada roteiro é desenhado sob medida. As únicas saídas com datas fixas são nossas viagens em grupo — com guia brasileiro acompanhando desde o Brasil ou com guias locais no destino — igualmente curadas para o perfil de viajante Create Travel. A partir de uma conversa por WhatsApp levantamos período, foco (onças, aves, família), perfil de conforto. Enviamos proposta sob medida com lodge, aéreo doméstico, transfers, guias e suporte 24/7 — com um único travel designer do briefing ao pós-viagem.",
       },
     ],
   },
@@ -226,7 +226,7 @@ export const regions: Region[] = [
       },
       {
         q: "Como funciona um pacote de viagem para os Lençóis Maranhenses na Create Travel?",
-        a: "Não vendemos pacotes prontos. A partir de uma conversa por WhatsApp levantamos período, perfil, apetite por conforto vs. rusticidade. Enviamos proposta sob medida com hospedagem, transfers, voos, passeios privativos e suporte 24/7 — com um único travel designer do briefing ao pós-viagem.",
+        a: "Não vendemos pacotes de prateleira: cada roteiro é desenhado sob medida. As únicas saídas com datas fixas são nossas viagens em grupo — com guia brasileiro acompanhando desde o Brasil ou com guias locais no destino — igualmente curadas para o perfil de viajante Create Travel. A partir de uma conversa por WhatsApp levantamos período, perfil, apetite por conforto vs. rusticidade. Enviamos proposta sob medida com hospedagem, transfers, voos, passeios privativos e suporte 24/7 — com um único travel designer do briefing ao pós-viagem.",
       },
     ],
   },
@@ -322,7 +322,7 @@ export const regions: Region[] = [
       },
       {
         q: "Como funciona um pacote de viagem para Bonito na Create Travel?",
-        a: "Não vendemos pacotes prontos. A partir de uma conversa por WhatsApp levantamos período, perfil e apetite pela combinação com Pantanal. Enviamos proposta sob medida com hospedagem, voos, transfers, passeios pré-reservados e suporte 24/7 — com um único travel designer do briefing ao pós-viagem.",
+        a: "Não vendemos pacotes de prateleira: cada roteiro é desenhado sob medida. As únicas saídas com datas fixas são nossas viagens em grupo — com guia brasileiro acompanhando desde o Brasil ou com guias locais no destino — igualmente curadas para o perfil de viajante Create Travel. A partir de uma conversa por WhatsApp levantamos período, perfil e apetite pela combinação com Pantanal. Enviamos proposta sob medida com hospedagem, voos, transfers, passeios pré-reservados e suporte 24/7 — com um único travel designer do briefing ao pós-viagem.",
       },
     ],
   },
@@ -565,7 +565,7 @@ export const regions: Region[] = [
       },
       {
         q: "Como funciona um pacote de viagem para o Chile na Create Travel?",
-        a: "Não vendemos pacotes prontos. A partir de uma conversa por WhatsApp levantamos período, perfil e apetite por atividade. Enviamos uma proposta sob medida com hotéis, voos domésticos, transfers privativos, excursões e guias bilíngues — com suporte 24/7 durante toda a viagem e um único travel designer do briefing ao pós-viagem.",
+        a: "Não vendemos pacotes de prateleira: cada roteiro é desenhado sob medida. As únicas saídas com datas fixas são nossas viagens em grupo — com guia brasileiro acompanhando desde o Brasil ou com guias locais no destino — igualmente curadas para o perfil de viajante Create Travel. A partir de uma conversa por WhatsApp levantamos período, perfil e apetite por atividade. Enviamos uma proposta sob medida com hotéis, voos domésticos, transfers privativos, excursões e guias bilíngues — com suporte 24/7 durante toda a viagem e um único travel designer do briefing ao pós-viagem.",
       },
       {
         q: "Vale a pena combinar Chile e Argentina?",
@@ -703,7 +703,7 @@ export const regions: Region[] = [
       },
       {
         q: "Como funciona um pacote de viagem para a Itália na Create Travel?",
-        a: "Não vendemos pacotes prontos. A partir de uma conversa por WhatsApp levantamos período, perfil e ritmo desejado. Enviamos uma proposta sob medida com hotéis autorais, trens de alta velocidade, motoristas privativos no campo, guias de arte particulares e experiências raras — com suporte 24/7 durante toda a viagem e um único travel designer do briefing ao pós-viagem.",
+        a: "Não vendemos pacotes de prateleira: cada roteiro é desenhado sob medida. As únicas saídas com datas fixas são nossas viagens em grupo — com guia brasileiro acompanhando desde o Brasil ou com guias locais no destino — igualmente curadas para o perfil de viajante Create Travel. A partir de uma conversa por WhatsApp levantamos período, perfil e ritmo desejado. Enviamos uma proposta sob medida com hotéis autorais, trens de alta velocidade, motoristas privativos no campo, guias de arte particulares e experiências raras — com suporte 24/7 durante toda a viagem e um único travel designer do briefing ao pós-viagem.",
       },
       {
         q: "É melhor viajar de trem ou alugar carro na Itália?",

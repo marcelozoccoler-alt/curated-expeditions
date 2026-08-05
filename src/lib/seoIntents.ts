@@ -209,7 +209,7 @@ export const buildDestinationIntentFAQs = (
     },
     {
       q: `Como funciona um roteiro para ${name} da Create Travel?`,
-      a: `Não trabalhamos com pacotes prontos. Para ${name} criamos um roteiro sob medida a partir de uma conversa: período, perfil dos viajantes, ritmo, hospedagens e experiências. Fale com nosso time pelo WhatsApp e receba uma proposta personalizada.`,
+      a: `Não vendemos pacotes de prateleira: cada roteiro é desenhado sob medida. As únicas saídas com datas fixas são nossas viagens em grupo — com guia brasileiro acompanhando desde o Brasil ou com guias locais no destino — igualmente curadas para o perfil de viajante Create Travel. Para ${name} criamos um roteiro sob medida a partir de uma conversa: período, perfil dos viajantes, ritmo, hospedagens e experiências. Fale com nosso time pelo WhatsApp e receba uma proposta personalizada.`,
     },
     {
       q: `Onde ficar em ${name}?`,
@@ -217,7 +217,7 @@ export const buildDestinationIntentFAQs = (
     },
     {
       q: `Por que planejar ${name} com a Create Travel?`,
-      a: `Somos uma agência de viagens brasileira boutique (Cadastur 21.030.190/0001-60) com curadoria própria em ${name} e relação direta com lodges, guias e operadores locais — sem intermediários. Você fala com um único travel designer, recebe um roteiro 100% sob medida, com suporte real em WhatsApp 24/7 durante toda a viagem. Não vendemos pacotes prontos: compomos a sua viagem.`,
+      a: `Somos uma agência de viagens brasileira boutique (Cadastur 21.030.190/0001-60) com curadoria própria em ${name} e relação direta com lodges, guias e operadores locais — sem intermediários. Você fala com um único travel designer, recebe um roteiro 100% sob medida, com suporte real em WhatsApp 24/7 durante toda a viagem. Não vendemos pacotes de prateleira: compomos a sua viagem. As exceções são as viagens em grupo Create Travel — com guia brasileiro desde o Brasil ou guias locais no destino —, também com curadoria própria.`,
     },
   ];
 };
