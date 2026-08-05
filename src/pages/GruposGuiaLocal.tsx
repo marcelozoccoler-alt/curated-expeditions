@@ -382,9 +382,13 @@ const GruposGuiaLocal = () => {
                   <h3 className="font-serif text-xl text-foreground mb-2 leading-tight">
                     {g.title}
                   </h3>
-                  <p className="text-sm text-muted-foreground font-light mb-4 line-clamp-2">
+                  <p className="text-sm text-muted-foreground font-light mb-2 line-clamp-2">
                     {g.subtitle}
                   </p>
+                  <p className="text-sm text-foreground/75 font-light italic mb-4 line-clamp-3">
+                    {g.intro}
+                  </p>
+
                   <div className="flex flex-wrap gap-1.5 mb-4">
                     {g.countries.slice(0, 4).map((c) => (
                       <span
