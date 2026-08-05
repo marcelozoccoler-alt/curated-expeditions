@@ -67,6 +67,9 @@ import AdminWhatsApp from "./pages/AdminWhatsApp";
 import Guia, { GuiasIndex } from "./pages/Guia";
 import RoteiroSobMedida from "./pages/RoteiroSobMedida";
 import GruposGuiaBrasileiro from "./pages/GruposGuiaBrasileiro";
+import GruposGuiaLocal from "./pages/GruposGuiaLocal";
+import GrupoGuiaLocal from "./pages/GrupoGuiaLocal";
+
 import LuaDeMelPersonalizada from "./pages/LuaDeMelPersonalizada";
 import CruzeirosFluviais from "./pages/CruzeirosFluviais";
 import CruzeiroFluvial from "./pages/CruzeiroFluvial";
