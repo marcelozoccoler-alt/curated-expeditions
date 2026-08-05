@@ -45,6 +45,123 @@ export const localGuidePriceLabel = (g: LocalGuideGroup) =>
 
 export const localGuideGroups: LocalGuideGroup[] = [
   {
+    slug: "asia-central-cazaquistao-quirguistao-uzbequistao-tajiquistao",
+    code: "AC17",
+    title: "Ásia Central — Cazaquistão, Quirguistão, Uzbequistão e Tajiquistão",
+    subtitle:
+      "Almaty · Cânion Charyn · Karakol · Lago Issyk Kul · Bishkek · Tashkent · Khiva · Bukhara · Samarcanda · Iskander Kul · Dushanbe",
+    category: "Premium",
+    days: 17,
+    nights: 16,
+    priceEur: 4760,
+    currency: "USD",
+    priceNote:
+      "Valor por pessoa em apartamento duplo na base de 6 participantes. Outras bases: US$ 5.150 (5 pax), US$ 5.615 (4 pax), US$ 6.215 (3 pax) e US$ 7.295 (2 pax); em single, de US$ 6.015 a US$ 7.470. Não inclui IOF. Inclui meia pensão, transporte com ar-condicionado, traslados, trem Bukhara–Samarcanda e voo Tashkent–Urgench, entradas em museus e guias locais falando espanhol/inglês (no Tajiquistão, guia em inglês; opção de guia em espanhol com suplemento de US$ 1.415 por grupo). O voo Bishkek–Tashkent e o aéreo internacional são cotados à parte (a partir de US$ 310 por pessoa). Saídas diárias de Almaty ao longo de 2026, confirmadas na cotação.",
+    countries: ["Cazaquistão", "Quirguistão", "Uzbequistão", "Tajiquistão"],
+    area: "Ásia",
+    hotels: [
+      { city: "Almaty", hotel: "Kazzhol (ou similar)" },
+      { city: "Karakol", hotel: "Karagat (ou similar)" },
+      { city: "Lago Issyk Kul", hotel: "Baytur Resort & Spa (ou similar)" },
+      { city: "Bishkek", hotel: "Ramada (ou similar)" },
+      { city: "Tashkent", hotel: "Crowne Plaza (ou similar)" },
+      { city: "Bukhara", hotel: "Wyndham (ou similar)" },
+      { city: "Samarcanda", hotel: "Continental (ou similar)" },
+      { city: "Dushanbe", hotel: "Rumi (ou similar)" },
+    ],
+    departures: [
+      "2026-01-05","2026-02-02","2026-03-02","2026-04-06","2026-05-04","2026-06-01",
+      "2026-07-06","2026-08-03","2026-09-07","2026-10-05","2026-11-02","2026-12-07",
+    ],
+    itinerary: [
+      {
+        day: 1,
+        route: "ALMATY",
+        text: "Recepção no aeroporto com guia e traslado ao hotel, com check-in antecipado incluído. À tarde, o centro histórico: Parque da 28ª Divisão Panfilov, com a chama eterna, a Catedral da Ascensão em madeira e o Museu de Instrumentos Musicais; o Bazar Verde, o mercado oriental mais autêntico da cidade; caminhada pelo Teatro Abay, rua Panfilov e rua Arbat; Praça da República com o Monumento da Independência. Fecha o dia o teleférico até Kok Tobe, a 1.100 m, para a vista panorâmica de Almaty. Almoço em restaurante local.",
+      },
+      {
+        day: 2,
+        route: "ALMATY",
+        text: "Saída para a vila étnica cazaque “Los Hunos”, a 35 km, com recepção pelo ritual Shashu. Dia dedicado às tradições nômades: confecção de feltro, montagem de yurtas, rituais Besikke salu e Tusau kesu, espetáculo equestre Dzhiguitovka, jogos tradicionais como kyz kuu e atpen audaryspak, música e danças típicas, almoço na aldeia e oficina do pão baursak. Opcional de cavalgada pelas montanhas. Retorno à cidade no fim da tarde.",
+      },
+      {
+        day: 3,
+        route: "ALMATY — CÂNION CHARYN — KARAKOL (360 km)",
+        text: "Café da manhã cedo e excursão ao Cânion Charyn, a 220 km de Almaty, com 154 km de extensão e o famoso Vale dos Castelos. Descida a pé de 153 degraus e caminhada de 2 km até o rio Charyn (há opção de veículos locais). Almoço no restaurante Tary e seguimos até a fronteira de Kegen com o Quirguistão. Formalidades e chegada a Karakol.",
+      },
+      {
+        day: 4,
+        route: "KARAKOL — LAGO ISSYK KUL (150 km)",
+        text: "Passeio por Karakol, vila fundada por cossacos russos às margens do Issyk-Kul no século XIX: Mesquita Dungana, um dos edifícios de madeira mais bonitos da cidade, construída em 1910 em estilo chinês clássico, e a igreja ortodoxa em madeira. Seguimos para as margens do lago Issyk Kul, entre os picos nevados do Tien Shan.",
+      },
+      {
+        day: 5,
+        route: "LAGO ISSYK KUL — BURANA — BISHKEK (280 km)",
+        text: "Manhã no sítio arqueológico de Cholpon Atá, templo a céu aberto com petróglifos citas e hunos aos pés da cordilheira Kunguey Alatoo. Opcional de iate pelo lago. Almoço no caminho e visita à Torre de Burana, atalaia dos séculos XI–XII em Balasagun, capital caracânida, com as ruínas do centro comercial da Rota da Seda, museu local e a coleção de balbals. Chegada a Bishkek.",
+      },
+      {
+        day: 6,
+        route: "BISHKEK — TASHKENT (em voo)",
+        text: "Passeio pela capital quirguiz: Praça Pobeda, Parque Duboviy, Praça Ala-Too e o Museu Histórico Estatal, com sua coleção de artefatos, arte e artesanato. Almoço em restaurante local e traslado ao aeroporto para o voo a Tashkent (18h50–20h20). Chegada e acomodação.",
+      },
+      {
+        day: 7,
+        route: "TASHKENT",
+        text: "Dia na capital uzbeque onde o antigo e o moderno convivem: Madrassa Barak Khan e complexo Hasti Imam, Mausoléu de Kafal Shohi, Mesquita Tilla Sheikh e o museu do Alcorão de Kalifa Osman (século VII). Parada no Bazar Chorsu para a comida típica e o artesanato local. Almoço e panorâmico pela cidade moderna: Praça da Independência e da Eternidade, Praça Amir Temur, o palácio Romanov do século XIX e o memorial do terremoto de 1966.",
+      },
+      {
+        day: 8,
+        route: "TASHKENT — URGENCH — KHIVA (em voo)",
+        text: "Descida ao metrô de Tashkent, decorado em mármore e mosaicos, e caminhada pelo parque Tashkent City. Almoço em restaurante local e traslado ao aeroporto para o voo a Urgench. Chegada e seguimos 30 km até Khiva.",
+      },
+      {
+        day: 9,
+        route: "KHIVA",
+        text: "Dia inteiro na cidade-museu do deserto, pérola do Uzbequistão: o coração fortificado de Itchan Kala, Kalta Minor, Kunya Ark, Madrassa Mohammed Rahim Khan, minarete e Madrassa Islom Khodja e Madrassa Allakuli Khan — toda a cidade velha é Patrimônio Mundial da UNESCO. Almoço local e, à tarde, o complexo Tash Hovli (harém do século XIX), o Mausoléu de Pahlavan Mahmud, a Mesquita Juma (século X) e o Mausoléu de Said Allauddin.",
+      },
+      {
+        day: 10,
+        route: "KHIVA — BUKHARA (450 km)",
+        text: "Travessia por estrada até Bukhara, cerca de 7 horas de viagem, com almoço em café no caminho. Chegada e acomodação no hotel, com tempo livre para o primeiro contato com a cidade das cúpulas turquesa.",
+      },
+      {
+        day: 11,
+        route: "BUKHARA",
+        text: "Dia completo na cidade natal de Avicena: Mausoléu Samânida (séculos IX–X), Mesquita Bolo Haouz de 1712 e suas colunas de madeira esculpida. Almoço local e, à tarde, a Fortaleza Ark (séculos V–XIX), residência dos emires, e as cúpulas comerciais do século XVI com tapetes, cerâmica e lenços de seda. Ainda a Mesquita Magoki Attory (século XII), as madrassas Ulughbek e Abdulaziz-Khan e o mausoléu e fonte sagrada de Chasmai Ayub.",
+      },
+      {
+        day: 12,
+        route: "BUKHARA — SAMARCANDA (em trem)",
+        text: "Visita ao complexo Lyabi-Hauz, centro comercial e religioso do canato nos séculos XVI–XVII, com a Madrassa Kukeldash (1570) e a Nodir Devon Begi (1622). Almoço em restaurante local e trem para Samarcanda (15h03–16h46). Na chegada, o Mausoléu Gur-Emir, túmulo de Amir Timur, seus filhos e netos.",
+      },
+      {
+        day: 13,
+        route: "SAMARCANDA",
+        text: "Praça Registan, formada no século XVII pelas madrassas Ulugbek (1417–1420), Sher-Dor (1619–1636) e Tillya-Kari (1647–1660), e a Mesquita Bibi Khanum, a maior da Ásia Central. Almoço local e, à tarde, o complexo Shahi-Zinda (séculos XI–XV), o Observatório de Ulughbek (século XV) e o Bazar Siab, o maior da cidade.",
+      },
+      {
+        day: 14,
+        route: "SAMARCANDA — PENJIKENT — DUSHANBE (295 km)",
+        text: "Saída para a fronteira com o Tajiquistão e chegada a Penjikent, com o Parque Arqueológico de Sarazm e o Mausoléu de Rudaki. A estrada atravessa as montanhas até o lago Iskander Kul, a 2.195 m de altitude e 72 m de profundidade, famoso pela transparência das águas e pela lenda de Alexandre, o Grande. Almoço piquenique na margem e seguimos para Dushanbe.",
+      },
+      {
+        day: 15,
+        route: "DUSHANBE",
+        text: "Passeio pela capital tajique: Museu Nacional de Antiguidades, com o Buda Adormecido em Nirvana de 14 metros e 1.400 anos, e o Palácio Navruz, residência oficial de recepções formais. Almoço em restaurante local e, pela Avenida Rudaki, a Praça da Independência e o obelisco dos 30 anos de independência.",
+      },
+      {
+        day: 16,
+        route: "DUSHANBE",
+        text: "Excursão à cidade histórica de Hissor, com sua fortaleza antiga e duas madrassas dos séculos XVI e XVIII, passando pela mesquita principal na volta. Almoço local, visita ao Jardim Botânico e a uma pequena casa-museu que conta a vida dos tajiques das regiões montanhosas.",
+      },
+      {
+        day: 17,
+        route: "DUSHANBE",
+        text: "Café da manhã no hotel e traslado ao aeroporto para o voo de retorno. Fim dos nossos serviços.",
+      },
+    ],
+  },
+  {
     slug: "uzbequistao-coracao-da-rota-da-seda",
     code: "UZ08",
     title: "Uzbequistão — Coração da Rota da Seda",
