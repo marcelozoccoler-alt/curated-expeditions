@@ -60,7 +60,7 @@ export default function AdminPrecos() {
 
   return (
     <div className="min-h-screen bg-background">
-      <SEO title="Auditoria de preços | Create Travel" description="Checagem interna de inconsistências de preço entre roteiros." noindex />
+      <SEO title="Auditoria de preços | Create Travel" description="Checagem interna de inconsistências de preço entre roteiros." canonicalPath="/admin/precos" noindex />
       <div className="container mx-auto max-w-4xl px-4 py-12">
         <div className="mb-8 flex items-start justify-between gap-4">
           <div>
