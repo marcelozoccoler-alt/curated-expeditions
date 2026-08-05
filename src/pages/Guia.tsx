@@ -297,7 +297,8 @@ const Guia = () => {
             </h2>
             <p className="text-primary-foreground/85 mt-4 leading-relaxed">
               Conte-nos quando, com quem e o que importa. Desenhamos um roteiro
-              à sua imagem — sem pacotes prontos.
+              à sua imagem — ou indicamos uma de nossas saídas em grupo com
+              curadoria Create Travel.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center mt-8">
               <a

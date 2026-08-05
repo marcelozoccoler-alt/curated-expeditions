@@ -423,7 +423,7 @@ const Index = () => {
                 to: "/roteiro-sob-medida",
                 icon: Compass,
                 title: "Roteiros Personalizados",
-                desc: "Cada viagem é desenhada do zero, ouvindo suas preferências, seu ritmo e seu estilo. Sem pacotes prontos.",
+                desc: "Cada viagem é desenhada do zero, ouvindo suas preferências, seu ritmo e seu estilo. Para quem prefere companhia, há nossas saídas em grupo curadas.",
               },
               {
                 to: "/grupos-guia-brasileiro",
