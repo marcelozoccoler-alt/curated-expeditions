@@ -1776,6 +1776,7 @@ const corePosts: DiaryPost[] = [
   },
   {
     slug: "chapada-dos-guimaraes-guia-mato-grosso",
+    imageOverrideUrl: "/src/assets/diary/chapada-dos-guimaraes.jpg",
     title: "Chapada dos Guimarães: o que fazer, trilhas e roteiro",
     h1: "Chapada dos Guimarães: o cerrado dramático a uma hora de Cuiabá",
     metaDescription:
