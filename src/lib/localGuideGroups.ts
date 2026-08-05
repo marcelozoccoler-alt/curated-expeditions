@@ -45,6 +45,78 @@ export const localGuidePriceLabel = (g: LocalGuideGroup) =>
 
 export const localGuideGroups: LocalGuideGroup[] = [
   {
+    slug: "uzbequistao-coracao-da-rota-da-seda",
+    code: "UZ08",
+    title: "Uzbequistão — Coração da Rota da Seda",
+    subtitle: "Tashkent · Khiva · Bukhara · Samarcanda",
+    category: "Primeira",
+    days: 8,
+    nights: 7,
+    priceEur: 2110,
+    currency: "USD",
+    priceNote:
+      "Valor por pessoa em apartamento duplo; em single, US$ 2.735. Inclui 7 noites com café da manhã, 7 almoços e 2 jantares, entradas, guia falando espanhol em todas as visitas, voo doméstico Tashkent–Urgench e trem Samarcanda–Tashkent (classe econômica). Aéreo internacional cotado à parte. Mínimo de 2 participantes; saídas semanais (segundas-feiras) confirmadas na cotação da sua data.",
+    singleSupplementEur: 625,
+    countries: ["Uzbequistão"],
+    area: "Ásia",
+    hotels: [
+      { city: "Tashkent", hotel: "Hilton (ou similar)" },
+      { city: "Khiva", hotel: "Faravon (ou similar)" },
+      { city: "Bukhara", hotel: "Paradise Plaza (ou similar)" },
+      { city: "Samarcanda", hotel: "Hilton Garden (ou similar)" },
+    ],
+    departures: [
+      "2026-03-16","2026-03-23","2026-03-30","2026-04-06","2026-04-13","2026-04-20","2026-04-27",
+      "2026-05-04","2026-05-11","2026-05-18","2026-05-25","2026-06-01","2026-06-08","2026-06-15",
+      "2026-06-22","2026-06-29","2026-07-06","2026-07-13","2026-07-20","2026-07-27","2026-08-03",
+      "2026-08-10","2026-08-17","2026-08-24","2026-08-31","2026-09-07","2026-09-14","2026-09-21",
+      "2026-09-28","2026-10-05","2026-10-12","2026-10-19","2026-10-26","2026-11-02","2026-11-09",
+      "2026-11-16","2026-11-23","2026-11-30","2026-12-07",
+    ],
+    itinerary: [
+      {
+        day: 1,
+        route: "TASHKENT",
+        text: "Chegada pela madrugada ao aeroporto de Tashkent, com traslado e guia até o hotel (check-in antecipado incluído). Café da manhã e tempo para descanso. Almoço em restaurante local, primeira caminhada pela cidade, visita ao Museu de Arte Decorativa e ao moderno parque Tashkent City.",
+      },
+      {
+        day: 2,
+        route: "TASHKENT",
+        text: "Dia inteiro na capital onde o antigo e o moderno convivem: Madrassa Barak Khan, complexo Hasti Imam, Mausoléu Kafal Shohi, Mesquita Tilla Sheykh e o museu do Alcorão de Kalifa Osman (século VII). Parada no Bazar Chorsu para provar a comida típica e ver o artesanato local, memorial do terremoto de 1966 e descida ao metrô decorado em mármore e mosaicos. Almoço em restaurante local e panorâmico pela parte moderna: Praça da Independência, Praça Amir Temur e o palácio do século XIX.",
+      },
+      {
+        day: 3,
+        route: "TASHKENT — URGENCH — KHIVA",
+        text: "Café da manhã em box-lunch e traslado ao aeroporto para o voo a Urgench. Chegada e seguimos 30 km até Khiva, cidade-museu no deserto e pérola do Uzbequistão. Visita ao coração fortificado de Itchan Kala, Kalta Minor, castelo Kunya Ark, Madrassa Mohammed Rahim Khan, minarete e Madrassa Islom Khodja e Madrassa Allakuli Khan (Patrimônio Mundial da UNESCO). Almoço local e, à tarde, o complexo Tash Hovli (harém do século XIX), o Mausoléu de Pahlavan Mahmud, a Mesquita Juma (século X) e o Mausoléu de Said Allauddin. Jantar em restaurante local.",
+      },
+      {
+        day: 4,
+        route: "KHIVA — BUKHARA",
+        text: "Travessia por estrada até Bukhara (450 km, cerca de 7 horas), com almoço em restaurante local ou lunch-box. Chegada à cidade das cúpulas turquesa e primeira caminhada pelo complexo Lyabi-Hauz, centro comercial e religioso do canato, com a Madrassa Kukeldash (1570) e a Madrassa Nodir Devon (1622). Jantar em restaurante local.",
+      },
+      {
+        day: 5,
+        route: "BUKHARA",
+        text: "Dia completo na cidade natal de Avicena: Mausoléu dos Samânidas (séculos IX–X), Mesquita Bolo Haouz e suas colunas de madeira talhada. Almoço local e, à tarde, a Fortaleza Ark (séculos V–XIX), residência dos emires, e as cúpulas comerciais do século XVI, com tapetes, cerâmica e lenços de seda. Ainda a Mesquita Magoki Attory (século XII), as madrassas Ulughbek e Abdulaziz-Khan e o mausoléu e fonte sagrada de Chasmai Ayub.",
+      },
+      {
+        day: 6,
+        route: "BUKHARA — SAMARCANDA",
+        text: "Viagem em transporte confortável até Samarcanda, a lendária Maracanda, com acomodação e almoço local. Visitas à Praça Registan e suas três madrassas (Ulugh Beg, Sherdar e Tilla-Kori), ao Mausoléu de Tamerlão e à Mesquita Bibi Khanum.",
+      },
+      {
+        day: 7,
+        route: "SAMARCANDA — TASHKENT (EM TREM)",
+        text: "Manhã com o complexo Shakhi-Zinda, necrópole de dezenas de mausoléus em terracota e azulejos, e o Observatório de Ulughbek (século XV). Tempo para compras no Bazar Siab e almoço em restaurante local. Traslado à estação para o trem até Tashkent e acomodação no hotel.",
+      },
+      {
+        day: 8,
+        route: "TASHKENT",
+        text: "Café da manhã no hotel ou em lunch-box e traslado ao aeroporto para o próximo destino. Fim dos nossos serviços.",
+      },
+    ],
+  },
+  {
     slug: "nova-zelandia-de-norte-a-sul",
     code: "R148",
     title: "Nova Zelândia de Norte a Sul",
