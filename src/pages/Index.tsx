@@ -17,6 +17,7 @@ import { WhatsAppButton } from "@/components/WhatsAppButton";
 import { WhatsAppSubscribeForm } from "@/components/WhatsAppSubscribeForm";
 import { DestinationCard } from "@/components/DestinationCard";
 import { StayCard } from "@/components/StayCard";
+import { RegionsWeWork } from "@/components/RegionsWeWork";
 import { SEO } from "@/components/SEO";
 import { TAGS } from "@/lib/types";
 import { getFeaturedDestinations } from "@/lib/destinations";
