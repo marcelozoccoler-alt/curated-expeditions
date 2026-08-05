@@ -225,10 +225,27 @@ export const Header = () => {
               </div>
             )}
 
+            {/* Cruzeiros fluviais — seção independente */}
+            {lang === "pt" && (
+              <Link
+                to="/cruzeiros-fluviais"
+                className={`text-sm font-medium transition-colors hover:text-gold whitespace-nowrap ${
+                  isScrolled ? "text-foreground" : "text-primary-foreground"
+                } ${
+                  location.pathname.startsWith("/cruzeiros-fluviais")
+                    ? "text-gold"
+                    : ""
+                }`}
+              >
+                Cruzeiros fluviais
+              </Link>
+            )}
+
             {/* Blog & Contato — same style as other primary links */}
             {lang === "pt" && (
               <>
                 <Link
+
                   to="/diario"
                   className={`text-sm font-medium transition-colors hover:text-gold whitespace-nowrap ${
                     isScrolled ? "text-foreground" : "text-primary-foreground"
