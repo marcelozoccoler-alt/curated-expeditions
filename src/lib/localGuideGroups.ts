@@ -45,6 +45,114 @@ export const localGuidePriceLabel = (g: LocalGuideGroup) =>
 
 export const localGuideGroups: LocalGuideGroup[] = [
   {
+    slug: "grande-tour-da-indochina",
+    code: "R597",
+    title: "Grande Tour da Indochina",
+    subtitle:
+      "Luang Prabang · Pak Ou · Kuang Si · Hanói · cruzeiro na Baía de Halong · Hoi An · Danang · Hue · Ho Chi Minh · Siem Reap · Angkor Wat",
+    category: "Primeira",
+    days: 13,
+    nights: 12,
+    priceEur: 4463,
+    currency: "USD",
+    priceNote:
+      "Valor de referência por pessoa em apartamento duplo (equivalente aproximado de R$ 27.492 ao câmbio de R$ 6,16), confirmado na cotação da sua data. Inclui os voos internos Luang Prabang–Hanói–Danang e Hue–Ho Chi Minh–Siem Reap em classe econômica (1 mala de até 20 kg); o aéreo internacional é cotado à parte.",
+    countries: ["Laos", "Vietnã", "Camboja"],
+    area: "Ásia",
+    hotels: [
+      { city: "Luang Prabang", hotel: "Hotel selecionado (2 noites)" },
+      { city: "Hanói", hotel: "Hotel selecionado (2 noites)" },
+      { city: "Baía de Halong", hotel: "Cruzeiro a bordo (1 noite)" },
+      { city: "Hoi An", hotel: "Hotel selecionado (2 noites)" },
+      { city: "Hue", hotel: "Hotel selecionado (1 noite)" },
+      { city: "Ho Chi Minh", hotel: "Hotel selecionado (2 noites)" },
+      { city: "Siem Reap", hotel: "Hotel selecionado (2 noites)" },
+    ],
+    departures: [
+      "2026-11-01","2026-11-15","2026-11-22","2026-11-29",
+      "2026-12-13","2026-12-27",
+      "2027-01-10","2027-01-24",
+      "2027-02-14","2027-02-28",
+      "2027-03-14","2027-03-21",
+      "2027-04-04","2027-04-18",
+      "2027-05-02","2027-05-16","2027-05-30",
+      "2027-06-13","2027-06-27",
+      "2027-07-04","2027-07-11","2027-07-18","2027-07-25",
+      "2027-08-01","2027-08-08","2027-08-15","2027-08-22",
+      "2027-09-05","2027-09-19",
+      "2027-10-03","2027-10-17",
+    ],
+    itinerary: [
+      {
+        day: 1,
+        route: "LUANG PRABANG",
+        text: "Chegada a Luang Prabang, no Laos, recepção e traslado ao hotel para duas noites (check-in a partir das 14h). À tarde, o Wat Xieng Thong, templo do século XVI com sua coleção de imagens de Buda, e subida ao Monte Phousi para o panorama da cidade entre o Mekong e o Nam Khan.",
+      },
+      {
+        day: 2,
+        route: "LUANG PRABANG / TAK BAT / GRUTAS DE PAK OU",
+        text: "Bem cedo, o ritual do Tak Bat: centenas de monges de túnicas alaranjadas recolhendo oferendas em silêncio pelas ruas ainda escuras. Visita ao mercado de frutas frescas e café da manhã no hotel. Depois, o Museu Nacional (antigo Palácio Real) e passeio de barco pelo Mekong, com parada numa aldeia para conhecer a destilação do Lao Khao, o vinho de arroz local, e as grutas de Tham Ting e Tham Phoum, com centenas de estátuas de Buda. Almoço local e visita à oficina de tecelagem Ock Pop Tok. Café da manhã e almoço incluídos.",
+      },
+      {
+        day: 3,
+        route: "LUANG PRABANG / KUANG SI / HANÓI",
+        text: "Passeio panorâmico até a Cachoeira Kuang Si, com caminhada leve até as piscinas naturais de água turquesa — dá tempo de se refrescar. Retorno e voo para Hanói (bilhete incluído). Chegada, traslado ao hotel e duas noites na capital vietnamita. Restante do dia livre. Café da manhã incluído.",
+      },
+      {
+        day: 4,
+        route: "HANÓI",
+        text: "Manhã com o Mausoléu de Ho Chi Minh (exterior), a Pagode de Um Pilar e o Museu de Etnologia. Almoço local. À tarde, o Templo da Literatura — dedicado a Confúcio por volta de 1070 e primeira universidade do país — e caminhada pelo bairro antigo até o Lago Hoan Kiem e o Templo Ngoc Son, com parada num café escondido para o típico cà phê vietnamita (ou uma cerveja local). Café da manhã e almoço incluídos.",
+      },
+      {
+        day: 5,
+        route: "HANÓI / BAÍA DE HALONG",
+        text: "Viagem à Baía de Halong — 'o dragão descendo ao mar' — e embarque no cruzeiro por uma noite entre os milhares de rochedos de calcário que emergem da água, Patrimônio Mundial da UNESCO. Almoço e jantar a bordo. Café da manhã, almoço e jantar incluídos.",
+      },
+      {
+        day: 6,
+        route: "HALONG / HANÓI / DANANG / HOI AN",
+        text: "Bem cedo, aula de Tai Chi no deque durante o nascer do sol. Desembarque às 11h e traslado pela nova rodovia (130 km) ao aeroporto Noi Bai para o voo a Danang (bilhete incluído). Chegada e traslado ao hotel em Hoi An, por duas noites. Café da manhã incluído.",
+      },
+      {
+        day: 7,
+        route: "HOI AN",
+        text: "Dia na cidade histórica que foi um próspero porto entre os séculos XVI e XVIII, com arquitetura que mistura influências vietnamitas, chinesas e japonesas: o Phuc Kien Hall, a Ponte Coberta Japonesa, a Casa Antiga Tan Ky e uma oficina de seda. Almoço local. Tarde livre — ideal para as lanternas acesas ao anoitecer. Café da manhã e almoço incluídos.",
+      },
+      {
+        day: 8,
+        route: "HOI AN / DANANG / HUE",
+        text: "Saída para Danang e visita às Montanhas de Mármore, com um pagode escondido dentro de uma caverna. Seguimos a Hue pela passagem de Hai Van. Almoço local. Em Hue, visita à Cidadela Imperial e parada no Mercado Dong Ba para provar produtos locais. Pernoite. Café da manhã e almoço incluídos.",
+      },
+      {
+        day: 9,
+        route: "HUE / HO CHI MINH",
+        text: "Manhã de barco pelo Rio Perfume até a pagode Thien Mu e visita à tumba do imperador Tu Duc. Passeio de rickshaw por um povoado autêntico, com casas tradicionais e atividades agrícolas, escalda-pés com ervas medicinais e almoço em casa de família. À tarde, voo para Ho Chi Minh (bilhete incluído) e duas noites na cidade. Café da manhã e almoço incluídos.",
+      },
+      {
+        day: 10,
+        route: "HO CHI MINH",
+        text: "Visita ao Museu dos Vestígios da Guerra, ao edifício dos Correios de traços coloniais e parada para fotos no Palácio da Reunificação (externo). Depois, a Rua Cong Kieu, paraíso dos amantes de artesanato e antiguidades, e o Mercado Ben Thanh, o mais vibrante da cidade. Café da manhã incluído.",
+      },
+      {
+        day: 11,
+        route: "HO CHI MINH / SIEM REAP",
+        text: "Manhã livre e traslado ao aeroporto para o voo a Siem Reap, no Camboja (bilhete incluído). Chegada e traslado ao hotel para duas noites (check-in a partir das 14h). Restante do dia livre. Café da manhã incluído.",
+      },
+      {
+        day: 12,
+        route: "SIEM REAP / ANGKOR",
+        text: "Dia grande: de tuk-tuk ao Parque Arqueológico de Angkor, começando pela antiga capital Angkor Thom — Portão Sul, o Bayon com seus 216 rostos esculpidos, o Baphuon do século XI, o Terraço dos Elefantes, o Terraço do Rei Leproso, o Phimeanakas e o Recinto Real. Almoço local. À tarde, Ta Prohm, tomado pelas raízes das árvores, e Angkor Wat, a maior estrutura religiosa do mundo. Visita ao Les Senteurs d'Angkor, empresa social que transforma ervas e especiarias em cosméticos e alimentos. Jantar com dança Apsara e, depois, a Pub Street. Café da manhã, almoço e jantar incluídos.",
+      },
+      {
+        day: 13,
+        route: "SIEM REAP",
+        text: "O programa varia com o nível do Lago Tonle Sap, o maior lago de água doce do sudeste asiático. De fevereiro a julho (nível baixo): os templos remotos de Banteay Srei, em arenito rosa, e Banteay Samre, dedicado a Vishnu. De agosto a janeiro (nível alto): barco até Kampong Phluk, vila de casas sobre palafitas de até sete metros, com canoa pelos manguezais e navegação no Tonle Sap, além da vila gastronômica de Preah Dak (almoço não incluído). Traslado ao aeroporto e fim dos nossos serviços. Café da manhã incluído.",
+      },
+    ],
+  },
+
+  {
+
     slug: "encantos-do-japao-em-portugues",
     code: "R641",
     title: "Encantos do Japão (guia em português)",
