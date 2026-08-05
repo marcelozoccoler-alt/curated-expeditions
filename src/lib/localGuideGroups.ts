@@ -23,16 +23,146 @@ export interface LocalGuideGroup {
   category: LocalGuideCategory;
   days: number;
   nights: number;
+  /** Preço por pessoa em apto duplo, na moeda do circuito (euro por padrão). */
   priceEur: number;
-  singleSupplementEur: number;
+  /** Moeda do preço. Padrão: EUR. */
+  currency?: "EUR" | "USD";
+  /** Observação adicional sobre o preço (ex.: equivalente em reais). */
+  priceNote?: string;
+  singleSupplementEur?: number;
   countries: string[];
+  /** Continente/área para agrupamento e contexto ("Europa" por padrão). */
+  area?: string;
   hotels: LocalGuideHotel[];
   /** Datas de saída garantida no formato ISO (YYYY-MM-DD). */
   departures: string[];
   itinerary: LocalGuideDay[];
 }
 
+/** Rótulo de preço na moeda do circuito. */
+export const localGuidePriceLabel = (g: LocalGuideGroup) =>
+  `${g.currency === "USD" ? "US$" : "€"} ${g.priceEur.toLocaleString("pt-BR")}`;
+
 export const localGuideGroups: LocalGuideGroup[] = [
+  {
+    slug: "argelia-tunisia-top-deluxe",
+    code: "R546",
+    title: "Argélia e Tunísia Top Deluxe",
+    subtitle:
+      "Argel · Tipaza · Djemila · Constantina · Annaba · Tabarka · Bizerte · Túnis · Sidi Bou Said · Cartago · Sousse · Monastir · El Jem · Matmata · Tozeur · Kairouan · Hammamet",
+    category: "Premium",
+    days: 15,
+    nights: 14,
+    priceEur: 4463,
+    currency: "USD",
+    priceNote:
+      "Equivalente aproximado de R$ 27.492 por pessoa (câmbio de referência R$ 6,16), sujeito à conversão do dia da reserva.",
+    countries: ["Argélia", "Tunísia"],
+    area: "África",
+    hotels: [
+      { city: "Argel", hotel: "Hotel categoria deluxe (3 noites)" },
+      { city: "Constantina", hotel: "Hotel categoria deluxe (2 noites)" },
+      { city: "Tabarka", hotel: "Hotel categoria deluxe (1 noite)" },
+      { city: "Túnis", hotel: "Hotel categoria deluxe (2 + 1 noites)" },
+      { city: "Sousse", hotel: "Hotel categoria deluxe (3 noites)" },
+      { city: "Tozeur", hotel: "Hotel categoria deluxe (2 noites)" },
+    ],
+    departures: [
+      "2026-09-12","2026-09-19","2026-09-26",
+      "2026-10-03","2026-10-10","2026-10-17","2026-10-24","2026-10-31",
+      "2026-11-07","2026-11-14","2026-11-21","2026-11-28",
+      "2026-12-05","2026-12-12","2026-12-19","2026-12-26",
+      "2027-01-09","2027-01-16","2027-01-23","2027-01-30",
+      "2027-02-06","2027-02-13","2027-02-20","2027-02-27",
+      "2027-03-06","2027-03-13","2027-03-20","2027-03-27",
+      "2027-04-03","2027-04-10","2027-04-17","2027-04-24",
+      "2027-05-01","2027-05-08","2027-05-15","2027-05-22","2027-05-29",
+      "2027-06-05","2027-06-12","2027-06-19","2027-06-26",
+      "2027-09-11","2027-09-18","2027-09-25",
+      "2027-10-02","2027-10-09","2027-10-16","2027-10-23","2027-10-30",
+      "2027-11-06","2027-11-13","2027-11-20","2027-11-27",
+      "2027-12-04","2027-12-11","2027-12-18","2027-12-25",
+    ],
+    itinerary: [
+      {
+        day: 1,
+        route: "ARGEL",
+        text: "Chegada ao aeroporto de Argel — a 'Alger la Blanche', assim chamada pelo branco resplandecente dos edifícios que sobem a encosta vistos do mar. Recepção, traslado ao hotel e pernoite.",
+      },
+      {
+        day: 2,
+        route: "ARGEL",
+        text: "Visita da capital argelina: a Cidadela, a Kasbah de Argel (Patrimônio Mundial) e a Praça dos Mártires. Almoço incluído em restaurante típico e continuação ao centro pela rua Dibouche, ideal para apreciar a arquitetura colonial francesa. Visita à Igreja Notre Dame d'Afrique, com vista panorâmica sobre a cidade. Tarde livre. Café da manhã e almoço incluídos.",
+      },
+      {
+        day: 3,
+        route: "ARGEL / TIPAZA / ARGEL",
+        text: "Saída para Tipaza, com visita ao Mausoléu Real da Mauritânia (Tombeau de la Chrétienne) e às ruínas romanas de Tipaza, debruçadas sobre o Mediterrâneo. Após o almoço incluído, regresso a Argel para conhecer a Grande Mesquita de Argel, a terceira maior do mundo e com o minarete mais alto do planeta. Café da manhã e almoço incluídos.",
+      },
+      {
+        day: 4,
+        route: "ARGEL / DJEMILA / CONSTANTINA",
+        text: "Viagem em direção a Constantina, a 'cidade das pontes', com almoço incluído no caminho. Visita a Djemila — 'a bela', em árabe —, um dos conjuntos de ruínas romanas mais bem preservados do mundo, Patrimônio Mundial desde 1981: basílicas, teatro, arcos, mosaicos e o Museu de Djemila. Pernoite em Constantina. Café da manhã e almoço incluídos.",
+      },
+      {
+        day: 5,
+        route: "CONSTANTINA",
+        text: "Dia dedicado a Constantina: Mesquita Emir Abdelkader, Museu Cirta e Palácio de Hadj Ahmed Bey. Após o almoço incluído em Igherssan, percurso pelas famosas pontes suspensas sobre o desfiladeiro, o Monumento aos Mortos e obras do arquiteto brasileiro Oscar Niemeyer, incluindo a Universidade de Constantina. Café da manhã e almoço incluídos.",
+      },
+      {
+        day: 6,
+        route: "CONSTANTINA / ANNABA / TABARKA",
+        text: "Saída para Annaba, com visita à imponente Catedral de Saint Augustin, erguida em homenagem ao filósofo que viveu na antiga Hipona, e ao museu e às ruínas de Hipona — mosaicos, termas e basílica cristã. Após o almoço incluído, seguimos para Tabarka, já na Tunísia, com assistência na fronteira. Café da manhã e almoço incluídos.",
+      },
+      {
+        day: 7,
+        route: "TABARKA / BIZERTE / TÚNIS",
+        text: "Manhã em Tabarka, cidade costeira do Forte Genovês, das formações rochosas Les Aiguilles e de praias de água cristalina. Continuação a Bizerte, cidade portuária, com passeio pelos pontos emblemáticos e almoço típico. À tarde, viagem a Túnis, jantar e pernoite. Café da manhã, almoço e jantar incluídos.",
+      },
+      {
+        day: 8,
+        route: "TÚNIS / MEDINA / SIDI BOU SAID",
+        text: "Exploração da capital tunisiana, fundada no século IX a.C. e capital de cartagineses, romanos, árabes, otomanos e franceses ao longo dos séculos. Almoço na Medina de Túnis, com tempo livre para compras. À tarde, Sidi Bou Said, vila de casas brancas e portas azuis suspensa sobre o mar, com arquitetura árabe-mourisca, cafés e vistas deslumbrantes. Café da manhã, almoço e jantar incluídos.",
+      },
+      {
+        day: 9,
+        route: "TÚNIS / BARDO / CARTAGO / SOUSSE",
+        text: "Visita ao Museu do Bardo, que reúne a maior coleção de mosaicos romanos do mundo, e ao sítio arqueológico de Cartago, com ruínas púnicas, as Termas de Antonino e o anfiteatro do festival internacional. Continuação a Sousse, a pérola do litoral. Café da manhã, almoço e jantar incluídos.",
+      },
+      {
+        day: 10,
+        route: "SOUSSE / MONASTIR / SOUSSE",
+        text: "Visita ao Ribat de Monastir, a mais antiga fortaleza construída pelos árabes durante a conquista do Magrebe, e ao mausoléu de Bourguiba, primeiro presidente da Tunísia. Almoço em Monastir e tarde na Medina de Sousse, Patrimônio Mundial, com suas muralhas históricas e tempo livre entre as lojas. Café da manhã, almoço e jantar incluídos.",
+      },
+      {
+        day: 11,
+        route: "SOUSSE / EL JEM / MATMATA / TOZEUR",
+        text: "Manhã no colossal anfiteatro romano de El Jem, que rivaliza com o Coliseu de Roma. Continuação a Matmata, das casas trogloditas subterrâneas amazigh: visita a uma casa típica e às tradições do povo berbere. Almoço típico e chegada a Tozeur atravessando o lago salgado de Chott El Jerid, onde a evaporação cria miragens. Café da manhã, almoço e jantar incluídos.",
+      },
+      {
+        day: 12,
+        route: "TOZEUR",
+        text: "Manhã na charmosa Medina de Tozeur, de tijolos ocres, seguida da visita a um oásis de palmeirais com almoço típico. Tarde livre, com opção de passeio 4x4 pelo deserto (não incluído). Jantar e pernoite em Tozeur. Café da manhã, almoço e jantar incluídos.",
+      },
+      {
+        day: 13,
+        route: "TOZEUR / KAIROUAN / HAMMAMET / TÚNIS",
+        text: "Visita a Kairouan, uma das maiores cidades santas do Islã: a Grande Mesquita de Okba Ibn Nafa, primeira mesquita fundada no continente africano, em 671 d.C., e o Mausoléu de Sidi Sahbi. Visita a uma tradicional fábrica de tapetes. Após o almoço incluído, regresso a Túnis com parada em Hammamet. Café da manhã, almoço e jantar incluídos.",
+      },
+      {
+        day: 14,
+        route: "TÚNIS",
+        text: "Dia livre na capital para compras nos souks, um último café em Sidi Bou Said ou uma visita opcional. Hospedagem em Túnis. Café da manhã incluído.",
+      },
+      {
+        day: 15,
+        route: "TÚNIS",
+        text: "Em horário apropriado, traslado ao aeroporto de Túnis para o embarque de regresso. Café da manhã incluído. Fim dos nossos serviços.",
+      },
+
+    ],
+  },
+
   {
     "slug": "capitais-imperiais-premium",
     "code": "VBP",

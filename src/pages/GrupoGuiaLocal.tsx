@@ -28,6 +28,7 @@ import {
   MONTHS_PT,
   LOCAL_GUIDE_INCLUDED,
   LOCAL_GUIDE_NOT_INCLUDED,
+  localGuidePriceLabel,
 } from "@/lib/localGuideGroups";
 
 const DOMAIN = CONTACT.domain.replace(/\/$/, "");
@@ -75,7 +76,8 @@ const GrupoGuiaLocal = () => {
   const cities = group.hotels.map((h) => h.city);
   const countriesLabel = group.countries.join(" · ");
   const canonicalPath = `/grupos-guia-local/${group.slug}`;
-  const priceLabel = `€ ${group.priceEur.toLocaleString("pt-BR")}`;
+  const priceLabel = localGuidePriceLabel(group);
+  const currencySymbol = group.currency === "USD" ? "US$" : "€";
 
   const whatsappParams = {
     type: "Roteiro" as const,
@@ -97,7 +99,7 @@ const GrupoGuiaLocal = () => {
     },
     {
       q: "Quanto custa e como pago?",
-      a: `A partir de ${priceLabel} por pessoa em apartamento duplo (suplemento individual de € ${group.singleSupplementEur.toLocaleString("pt-BR")}). O pagamento segue a mesma condição dos nossos grupos: entrada de 25% no ato da reserva e o saldo em até 9x sem juros no cartão de crédito.`,
+      a: `A partir de ${priceLabel} por pessoa em apartamento duplo${group.singleSupplementEur ? ` (suplemento individual de ${currencySymbol} ${group.singleSupplementEur.toLocaleString("pt-BR")})` : ""}. O pagamento segue a mesma condição dos nossos grupos: entrada de 25% no ato da reserva e o saldo em até 9x sem juros no cartão de crédito.`,
     },
     {
       q: "As passagens aéreas estão incluídas?",
@@ -154,7 +156,7 @@ const GrupoGuiaLocal = () => {
       offers: {
         "@type": "Offer",
         price: group.priceEur,
-        priceCurrency: "EUR",
+        priceCurrency: group.currency ?? "EUR",
         availability: "https://schema.org/InStock",
         url: `${DOMAIN}${canonicalPath}`,
         description:
@@ -449,9 +451,11 @@ const GrupoGuiaLocal = () => {
             A partir de {priceLabel} por pessoa
           </h2>
           <p className="text-white/85 mb-8">
-            Em apartamento duplo. Valores em euros, por pessoa, sujeitos a
+            Em apartamento duplo. Valores por pessoa em{" "}
+            {group.currency === "USD" ? "dólares" : "euros"}, sujeitos a
             disponibilidade e à conversão do dia da reserva. Aéreo cotado
             separadamente a partir da sua cidade.
+            {group.priceNote ? ` ${group.priceNote}` : ""}
           </p>
 
           <div className="grid sm:grid-cols-2 gap-4 mb-8 text-left max-w-2xl mx-auto">
@@ -467,7 +471,9 @@ const GrupoGuiaLocal = () => {
                 Suplemento individual
               </p>
               <p className="font-serif text-2xl font-semibold">
-                € {group.singleSupplementEur.toLocaleString("pt-BR")}
+                {group.singleSupplementEur
+                  ? `${currencySymbol} ${group.singleSupplementEur.toLocaleString("pt-BR")}`
+                  : "Sob consulta"}
               </p>
               <p className="text-white/70 text-xs mt-1">
                 para quem viaja em quarto single
