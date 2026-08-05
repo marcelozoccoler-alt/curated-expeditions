@@ -155,6 +155,8 @@ const App = () => (
           <Route path="/auth" element={<Auth />} />
           <Route path="/admin/seo" element={<AdminSeo />} />
           <Route path="/admin/whatsapp" element={<AdminWhatsApp />} />
+          <Route path="/admin/precos" element={<AdminPrecos />} />
+
           <Route path="/guias" element={<GuiasIndex />} />
           <Route path="/guias/:slug" element={<Guia />} />
 
