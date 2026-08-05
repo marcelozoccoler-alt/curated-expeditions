@@ -73,7 +73,7 @@ const notIncluded = [
 ];
 
 const faqs = [
-  { q: "Qual a condição de pagamento?", a: "25% de entrada no ato da reserva e o saldo (75%) em 9 parcelas sem juros no cartão de crédito. Valores em dólar, sujeitos a disponibilidade e confirmação aérea." },
+  { q: "Qual a condição de pagamento?", a: "25% de entrada no ato da reserva e o saldo (75%) em 9 parcelas sem juros no cartão de crédito — condição válida para a parte terrestre do programa. A parte aérea é cotada separadamente e o parcelamento segue as condições da companhia aérea escolhida, que mudam de uma cia para outra. Valores em dólar, sujeitos a disponibilidade e confirmação aérea." },
   { q: "Preciso de visto e vacina?", a: "Sim. Índia com eVisa (indianvisaonline.gov.in) e Sri Lanka com ETA (eta.gov.lk). O processo é rápido (72h), mas recomendamos providenciar 30 dias antes. Vacina de febre amarela obrigatória. Passaporte válido por 6 meses após o retorno." },
   { q: "Como é o Holi em Jaipur?", a: "O grupo celebra o festival de forma privativa no Chomu Palace, com pós orgânicos, música e dança tradicional do Rajastão, doces gujia e almoço buffet — sem a exposição das celebrações abertas nas ruas." },
   { q: "Como é o clima em março?", a: "Norte da Índia (Delhi, Jaipur, Agra) tem dias quentes (28–34 °C) e noites amenas. Sri Lanka tem clima tropical (28–32 °C) com chuvas rápidas. Nuwara Eliya (montanha) é fresco (18–22 °C) — leve uma peça de meia estação." },

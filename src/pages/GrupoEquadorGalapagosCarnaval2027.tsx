@@ -61,7 +61,7 @@ const notIncluded = [
 ];
 
 const faqs = [
-  { q: "Qual a condição de pagamento?", a: "25% de entrada no ato da reserva e o saldo (75%) em 9 parcelas sem juros no cartão de crédito. Valores em dólar, sujeitos a disponibilidade e confirmação aérea." },
+  { q: "Qual a condição de pagamento?", a: "25% de entrada no ato da reserva e o saldo (75%) em 9 parcelas sem juros no cartão de crédito — condição válida para a parte terrestre do programa. A parte aérea é cotada separadamente e o parcelamento segue as condições da companhia aérea escolhida, que mudam de uma cia para outra. Valores em dólar, sujeitos a disponibilidade e confirmação aérea." },
   { q: "Preciso de visto para o Equador?", a: "Não. Brasileiros não precisam de visto. É obrigatória a vacina de febre amarela e passaporte com validade mínima de 6 meses a partir da data de retorno." },
   { q: "Como é o Carnaval na região?", a: "Fevereiro é alta temporada natural no Equador. Nos Andes o clima é ameno (10–20 °C) com chuvas rápidas de tarde; nas Galápagos as águas estão mornas (24–27 °C), ideais para snorkel, com sol forte e chuvas curtas." },
   { q: "As navegações em Galápagos são exigentes?", a: "Não. São passeios diurnos de iate com almoço a bordo, saindo de Santa Cruz. As caminhadas em terra são curtas, com trilhas planas. Recomenda-se protetor solar, chapéu, calçado fechado e roupa de banho." },

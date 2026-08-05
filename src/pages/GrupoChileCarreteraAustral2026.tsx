@@ -153,7 +153,7 @@ const notIncluded = [
 const faqs = [
   {
     q: "Qual a condição de pagamento?",
-    a: "25% de entrada no ato da reserva e o saldo (75%) em 9 parcelas sem juros no cartão de crédito. Valores em dólar, sujeitos a disponibilidade e confirmação aérea.",
+    a: "25% de entrada no ato da reserva e o saldo (75%) em 9 parcelas sem juros no cartão de crédito — condição válida para a parte terrestre do programa. A parte aérea é cotada separadamente e o parcelamento segue as condições da companhia aérea escolhida, que mudam de uma cia para outra. Valores em dólar, sujeitos a disponibilidade e confirmação aérea.",
   },
   {
     q: "Brasileiros precisam de visto ou vacina?",
@@ -451,7 +451,7 @@ const GrupoChileCarreteraAustral2026 = () => {
             <p className="text-caption text-gold mb-4">Investimento</p>
             <h2 className="heading-section mb-4">Valores por pessoa</h2>
             <p className="text-white/80">
-              Entrada de 25% + 9 parcelas sem juros no cartão de crédito.
+              Parte terrestre com entrada de 25% + 9 parcelas sem juros no cartão de crédito. A parte aérea é cotada à parte, com pagamento conforme a companhia aérea escolhida.
             </p>
           </div>
           <div className="grid md:grid-cols-3 gap-6 mb-12">

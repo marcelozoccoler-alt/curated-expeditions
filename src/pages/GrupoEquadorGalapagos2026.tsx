@@ -566,6 +566,9 @@ const GrupoEquadorGalapagos2026 = () => {
             <p className="text-xs uppercase tracking-wider text-gold mb-3 font-semibold">
               Condição de pagamento
             </p>
+            <p className="text-sm text-muted-foreground mb-5">
+              Condição válida para a parte terrestre do programa. A parte aérea é cotada à parte e o parcelamento segue as regras da companhia aérea escolhida, que variam de uma cia para outra.
+            </p>
             <div className="grid sm:grid-cols-2 gap-6">
               <div>
                 <p className="text-sm text-muted-foreground mb-1">Entrada</p>
