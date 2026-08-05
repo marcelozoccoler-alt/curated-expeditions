@@ -40,7 +40,7 @@ const pillars = [
   {
     icon: HeartHandshake,
     title: "Parceria 1:1",
-    text: "Trabalhamos lado a lado com você. Sem pacotes prontos — cada roteiro nasce de uma conversa.",
+    text: "Trabalhamos lado a lado com você: cada roteiro nasce de uma conversa. E quando a viagem é em grupo, a curadoria é a mesma — só o formato muda.",
   },
   {
     icon: Leaf,
@@ -113,7 +113,7 @@ const ethics = [
 const faqs = [
   {
     q: "A Create Travel é uma agência de viagens?",
-    a: "Somos uma consultoria autoral de viagens, registrada no Cadastur (21.030.190/0001-60). Trabalhamos como agência sob medida: nada de pacotes prontos, tudo desenhado em conversa com o viajante.",
+    a: "Somos uma consultoria autoral de viagens, registrada no Cadastur (21.030.190/0001-60). Trabalhamos como agência sob medida: nada de pacotes de prateleira, tudo desenhado em conversa com o viajante. As exceções são nossas viagens em grupo com datas definidas — acompanhadas por guia brasileiro desde o Brasil ou conduzidas por guias locais no destino —, também fruto de curadoria própria para o perfil Create Travel.",
   },
   {
     q: "Qual o ticket médio de uma viagem com vocês?",
@@ -230,8 +230,10 @@ const Sobre = () => {
           <div className="md:col-span-7 space-y-6 text-foreground/85 leading-relaxed text-lg">
             <p>
               Acreditamos que a melhor viagem é aquela que cabe só em você. Por
-              isso recusamos pacotes prontos e listas de "imperdíveis" — eles
-              servem ao destino, não ao viajante.
+              isso recusamos pacotes de prateleira e listas de "imperdíveis" — eles
+              servem ao destino, não ao viajante. Nossas viagens em grupo, com
+              guia brasileiro desde o Brasil ou guias locais no destino, seguem
+              o mesmo critério: roteiro autoral, ritmo pensado e grupo pequeno.
             </p>
             <p>
               Trabalhamos com uma rede internacional de parceiros locais,

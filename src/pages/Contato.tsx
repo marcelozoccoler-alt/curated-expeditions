@@ -180,9 +180,12 @@ const Contato = () => {
                 Um roteiro nasce de boas perguntas.
               </h2>
               <p className="text-muted-foreground mt-5 leading-relaxed">
-                Não temos pacotes prontos. Cada itinerário é desenhado a partir
-                do que você sente, do tempo disponível e do tipo de memória
-                que quer levar para casa.
+                Não vendemos pacotes de prateleira: cada itinerário é desenhado a
+                partir do que você sente, do tempo disponível e do tipo de
+                memória que quer levar para casa. As únicas saídas com datas
+                fixas são nossas viagens em grupo — com guia brasileiro desde
+                o Brasil ou guias locais no destino —, igualmente curadas para
+                o perfil de viajante Create Travel.
               </p>
               <ul className="mt-8 space-y-3 text-sm text-muted-foreground">
                 <li className="flex gap-3">

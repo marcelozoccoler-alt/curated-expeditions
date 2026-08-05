@@ -26,7 +26,7 @@ const FOR_WHOM = [
   { icon: Heart, label: "Casais em lua de mel" },
   { icon: Users, label: "Famílias com crianças" },
   { icon: Compass, label: "Viajantes experientes" },
-  { icon: MapPin, label: "Quem foge de pacotes prontos" },
+  { icon: MapPin, label: "Quem prefere curadoria a prateleira" },
 ];
 
 const DESTINATIONS = [
@@ -78,7 +78,7 @@ const RoteiroSobMedida = () => {
           <div className="gold-line mb-6" />
           <h1 className="heading-hero mb-6">Roteiro de Viagem Sob Medida</h1>
           <p className="text-xl md:text-2xl text-white/90 font-light mb-8">
-            Um planejamento exclusivo desenhado do zero para você — sem pacotes prontos, sem atalhos.
+            Um planejamento exclusivo desenhado do zero para você. Prefere companhia? Também temos saídas em grupo com curadoria Create Travel — com guia brasileiro desde o Brasil ou guias locais no destino.
           </p>
           <WhatsAppButton variant="cta" label="Começar meu roteiro" className="text-lg px-8 py-4" />
         </div>

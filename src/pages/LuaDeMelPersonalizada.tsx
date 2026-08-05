@@ -60,7 +60,7 @@ const LuaDeMelPersonalizada = () => {
           <div className="gold-line mb-6" />
           <h1 className="heading-hero mb-6">Lua de Mel Personalizada</h1>
           <p className="text-xl md:text-2xl text-white/90 font-light mb-8">
-            O primeiro capítulo a dois — desenhado só para vocês, sem pacote de prateleira.
+            O primeiro capítulo a dois — desenhado só para vocês, do zero, com curadoria autoral.
           </p>
           <WhatsAppButton variant="cta" label="Planejar nossa lua de mel" className="text-lg px-8 py-4" />
         </div>

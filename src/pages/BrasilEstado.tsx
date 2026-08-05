@@ -275,7 +275,8 @@ const BrasilEstado = () => {
             </h2>
             <p className="text-primary-foreground/85 mt-4 leading-relaxed">
               Conte o período, quem viaja e o que busca. Desenhamos um roteiro
-              à sua imagem — sem pacotes prontos.
+              à sua imagem — ou indicamos uma saída em grupo com curadoria
+              Create Travel.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center mt-8">
               <a
