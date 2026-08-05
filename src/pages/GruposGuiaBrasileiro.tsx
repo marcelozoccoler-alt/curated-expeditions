@@ -13,7 +13,7 @@ const DIFFERENTIALS = [
   { icon: Users, title: "Coordenador brasileiro", desc: "Embarca com o grupo em Guarulhos e acompanha do check-in ao último brinde." },
   { icon: Globe, title: "Tudo em português", desc: "Nada de se perder em inglês macarrônico — comunicação clara do começo ao fim." },
   { icon: Plane, title: "Grupos pequenos", desc: "Máximo de 15 a 20 pessoas. Nada de comboios de 40 turistas de crachá." },
-  { icon: Calendar, title: "Parcelamento facilitado", desc: "Entrada de 25% + 9x sem juros no cartão. Sem surpresas." },
+  { icon: Calendar, title: "Parcelamento facilitado", desc: "Parte terrestre com entrada de 25% + 9x sem juros no cartão. O aéreo é cotado à parte, conforme as condições da companhia aérea." },
 ];
 
 const GruposGuiaBrasileiro = () => {

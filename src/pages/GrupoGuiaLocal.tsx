@@ -100,7 +100,7 @@ const GrupoGuiaLocal = () => {
     },
     {
       q: "Quanto custa e como pago?",
-      a: `A partir de ${priceLabel} por pessoa em apartamento duplo${group.singleSupplementEur ? ` (suplemento individual de ${currencySymbol} ${group.singleSupplementEur.toLocaleString("pt-BR")})` : ""}. O pagamento segue a mesma condição dos nossos grupos: entrada de 25% no ato da reserva e o saldo em até 9x sem juros no cartão de crédito.`,
+      a: `A partir de ${priceLabel} por pessoa em apartamento duplo${group.singleSupplementEur ? ` (suplemento individual de ${currencySymbol} ${group.singleSupplementEur.toLocaleString("pt-BR")})` : ""}. O pagamento da parte terrestre segue a mesma condição dos nossos grupos: entrada de 25% no ato da reserva e o saldo em até 9x sem juros no cartão de crédito. A parte aérea é cotada à parte e o parcelamento depende da companhia aérea escolhida.`,
     },
     {
       q: "As passagens aéreas estão incluídas?",
@@ -161,7 +161,7 @@ const GrupoGuiaLocal = () => {
         availability: "https://schema.org/InStock",
         url: `${DOMAIN}${canonicalPath}`,
         description:
-          "Por pessoa em apartamento duplo. Entrada de 25% + saldo em até 9x sem juros no cartão.",
+          "Por pessoa em apartamento duplo, parte terrestre. Entrada de 25% + saldo em até 9x sem juros no cartão; aéreo cotado à parte.",
       },
       subjectOf: group.countries.map((c) => ({ "@type": "Place", name: c })),
     },

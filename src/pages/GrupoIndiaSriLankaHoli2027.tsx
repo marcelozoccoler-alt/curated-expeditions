@@ -247,6 +247,7 @@ const GrupoIndiaSriLankaHoli2027 = () => {
           </div>
           <div className="bg-card/95 text-foreground rounded-xl p-8 mb-8 text-left">
             <p className="text-xs uppercase tracking-wider text-gold mb-3 font-semibold">Condição de pagamento</p>
+            <p className="text-sm text-muted-foreground mb-5">Condição válida para a parte terrestre do programa. A parte aérea é cotada à parte e o parcelamento segue as regras da companhia aérea escolhida, que variam de uma cia para outra.</p>
             <div className="grid sm:grid-cols-2 gap-6">
               <div><p className="text-sm text-muted-foreground mb-1">Entrada</p><p className="font-serif text-3xl font-semibold text-foreground">25%</p><p className="text-sm text-muted-foreground mt-1">no ato da reserva</p></div>
               <div><p className="text-sm text-muted-foreground mb-1">Saldo (75%)</p><p className="font-serif text-3xl font-semibold text-foreground">9x sem juros</p><p className="text-sm text-muted-foreground mt-1">no cartão de crédito</p></div>
