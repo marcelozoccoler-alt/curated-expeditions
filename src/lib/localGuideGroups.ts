@@ -45,6 +45,92 @@ export const localGuidePriceLabel = (g: LocalGuideGroup) =>
 
 export const localGuideGroups: LocalGuideGroup[] = [
   {
+    slug: "china-classica",
+    code: "R019",
+    title: "China Clássica",
+    subtitle:
+      "Pequim · Grande Muralha · Cidade Proibida · Xian · Exército de Terracota · Xangai · The Bund · Guilin · Rio Li Jiang · Yangshuo · Guangzhou · Hong Kong",
+    category: "Primeira",
+    days: 10,
+    nights: 9,
+    priceEur: 4463,
+    currency: "USD",
+    priceNote:
+      "Valor de referência por pessoa em apartamento duplo (equivalente aproximado de R$ 27.492 ao câmbio de R$ 6,16), confirmado na cotação da sua data. Inclui os voos internos Pequim–Xian–Xangai–Guilin e os trens Guilin–Guangzhou e Guangzhou–Hong Kong; o aéreo internacional é cotado à parte.",
+    countries: ["China"],
+    area: "Ásia",
+    hotels: [
+      { city: "Pequim", hotel: "Hotel selecionado (3 noites)" },
+      { city: "Xian", hotel: "Hotel selecionado (2 noites)" },
+      { city: "Xangai", hotel: "Hotel selecionado (2 noites)" },
+      { city: "Guilin", hotel: "Hotel selecionado (1 noite)" },
+      { city: "Guangzhou", hotel: "Hotel selecionado (1 noite)" },
+    ],
+    departures: [
+      "2026-08-04","2026-08-06","2026-08-11","2026-08-13","2026-08-18","2026-08-20","2026-08-25","2026-08-27",
+      "2026-09-01","2026-09-03","2026-09-08","2026-09-10","2026-09-15","2026-09-17","2026-09-22","2026-09-24",
+      "2026-10-06","2026-10-08","2026-10-13","2026-10-15","2026-10-20","2026-10-22","2026-10-27","2026-10-29",
+      "2026-11-03","2026-11-10","2026-11-17","2026-11-24",
+      "2026-12-01","2026-12-08","2026-12-15","2026-12-22","2026-12-29",
+      "2027-01-05","2027-01-12","2027-01-19","2027-01-26",
+      "2027-02-02","2027-02-09","2027-02-16","2027-02-23",
+    ],
+    itinerary: [
+      {
+        day: 1,
+        route: "PEQUIM",
+        text: "Chegada a Pequim e traslado ao hotel, para três noites na capital chinesa. Restante do dia livre para o primeiro contato com a cidade — talvez um chá numa hutong, o bairro de becos onde a China antiga resiste entre arranha-céus.",
+      },
+      {
+        day: 2,
+        route: "PEQUIM",
+        text: "Dia inteiro de visitas: o Palácio Imperial (Cidade Proibida), com seus 980 edifícios e cinco séculos de dinastias; a Praça Tien An Men, uma das maiores do mundo; e o Palácio de Verão, o jardim de veraneio da família imperial da dinastia Qing, com o lago Kunming e o Longo Corredor pintado. Restante do dia livre. Café da manhã e almoço incluídos.",
+      },
+      {
+        day: 3,
+        route: "PEQUIM",
+        text: "Dia inteiro dedicado à Grande Muralha, a obra que sobe e desce as montanhas até o horizonte — de longe o momento mais impressionante da viagem. Parada para fotos do Estádio Nacional Ninho de Pássaro e do Cubo d'Água. À noite, jantar especial de Pato Laqueado de Pequim. Café da manhã, almoço e jantar incluídos.",
+      },
+      {
+        day: 4,
+        route: "PEQUIM / XIAN",
+        text: "Pela manhã, visita ao Templo do Céu, onde os imperadores Ming e Qing ofereciam sacrifícios pela boa colheita. À tarde, traslado ao aeroporto e voo para Xian, antiga capital imperial e ponto de partida da Rota da Seda. Acomodação por duas noites. Café da manhã incluído.",
+      },
+      {
+        day: 5,
+        route: "XIAN",
+        text: "Visita ao Museu do Exército de Terracota da dinastia Qin, com mais de 6.000 figuras em tamanho natural — cada rosto diferente do outro, enterrados há 22 séculos. À tarde, o Pagode do Ganso Selvagem (sem subir) e final do tour no bairro Muçulmano, com seu mercado de rua e a cozinha de especiarias de Xian. Café da manhã e almoço incluídos.",
+      },
+      {
+        day: 6,
+        route: "XIAN / XANGAI",
+        text: "Pela manhã cedo, traslado ao aeroporto e voo para Xangai, a cidade portuária de mais de 16 milhões de habitantes onde a China olha para o futuro. Chegada, traslado ao hotel e acomodação por duas noites. Café da manhã incluído.",
+      },
+      {
+        day: 7,
+        route: "XANGAI",
+        text: "Subida à Torre Jinmao — 420 m e 88 andares — para a vista panorâmica da cidade, seguida de passeio pelo The Bund, a orla de edifícios coloniais que encara os arranha-céus de Pudong do outro lado do rio Huangpu. À tarde, o Templo do Buda de Jade e o centro antigo. Café da manhã e almoço incluídos.",
+      },
+      {
+        day: 8,
+        route: "XANGAI / GUILIN",
+        text: "Traslado ao aeroporto e voo para Guilin, cercada pelos morros de calcário que aparecem na pintura chinesa clássica. À tarde, visita à Gruta das Flautas de Cana, iluminada entre estalactites. Pernoite em Guilin. Café da manhã incluído.",
+      },
+      {
+        day: 9,
+        route: "GUILIN / YANGSHUO / GUANGZHOU",
+        text: "Cruzeiro pelo rio Li Jiang, entre os picos que emergem da névoa — uma das paisagens mais fotografadas da Ásia. Lanche a bordo. O cruzeiro termina em Yangshuo, povoado às margens do rio, com tempo para a movimentada rua Oeste e seu mercado de artesanato. Em horário apropriado, traslado à estação e trem para Guangzhou. Pernoite. Café da manhã e lanche incluídos.",
+      },
+      {
+        day: 10,
+        route: "GUANGZHOU / HONG KONG",
+        text: "Pela manhã, a Casa Ancestral da Família Chen, joia arquitetônica famosa por suas esculturas, e o Mercado Qingping, onde se vive o cotidiano cantonês. Passeio pela Praça Huacheng, com a melhor vista da Torre de Cantão. À tarde, trem de alta velocidade para Hong Kong e fim dos nossos serviços. Café da manhã e almoço incluídos.",
+      },
+    ],
+  },
+
+  {
+
     slug: "armenia-georgia-azerbaijao",
     code: "R624",
     title: "Armênia, Geórgia e Azerbaijão",
