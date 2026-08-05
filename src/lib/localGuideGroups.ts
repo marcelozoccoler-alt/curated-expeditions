@@ -20,6 +20,10 @@ export interface LocalGuideGroup {
   code: string;
   title: string;
   subtitle: string;
+  /** Introdução poética (padrão editorial obrigatório em todos os grupos). */
+  intro: string;
+  /** Destaques do roteiro (padrão editorial obrigatório em todos os grupos). */
+  highlights: string[];
   category: LocalGuideCategory;
   days: number;
   nights: number;
@@ -50,6 +54,16 @@ export const localGuideGroups: LocalGuideGroup[] = [
     title: "Ásia Central — Cazaquistão, Quirguistão, Uzbequistão e Tajiquistão",
     subtitle:
       "Almaty · Cânion Charyn · Karakol · Lago Issyk Kul · Bishkek · Tashkent · Khiva · Bukhara · Samarcanda · Iskander Kul · Dushanbe",
+    intro:
+      "Dezessete dias para atravessar a Ásia Central como os caravaneiros faziam: das montanhas nevadas de Almaty ao azul impossível das cúpulas de Samarcanda, passando por lagos alpinos, desfiladeiros vermelhos e cidades de barro onde o tempo se mede em chá. É a Rota da Seda inteira, sem pressa, com guia local em cada fronteira.",
+    highlights: [
+      "Cânion Charyn ao fim da tarde, quando a rocha fica cor de brasa",
+      "Lago Issyk Kul entre cumes de sete mil metros — o mar do Quirguistão",
+      "Khiva murada, a cidade-museu que se percorre inteira a pé ao anoitecer",
+      "Registan de Samarcanda iluminado, o pátio mais fotografado da Ásia",
+      "Trem rápido Bukhara–Samarcanda cruzando o deserto do Kyzylkum",
+      "Iskander Kul, o lago turquesa de Alexandre nas montanhas Fann",
+    ],
     category: "Premium",
     days: 17,
     nights: 16,
@@ -166,6 +180,16 @@ export const localGuideGroups: LocalGuideGroup[] = [
     code: "UZ08",
     title: "Uzbequistão — Coração da Rota da Seda",
     subtitle: "Tashkent · Khiva · Bukhara · Samarcanda",
+    intro:
+      "Oito dias no coração da Rota da Seda, onde cada cidade é uma camada de história: Tashkent soviética e moderna, Khiva intacta dentro das muralhas, Bukhara com seu comércio de tapetes e especiarias, e Samarcanda — a cidade que Tamerlão quis fazer mais bonita que o céu. Azulejo, pão quente e chá verde do primeiro ao último dia.",
+    highlights: [
+      "A praça do Registan ao amanhecer, antes dos grupos chegarem",
+      "Ichan Kala de Khiva, patrimônio da humanidade preservado por inteiro",
+      "Bazares milenares de Bukhara sob as cúpulas dos Taki",
+      "Necrópole de Shah-i-Zinda e seus corredores de mosaico azul",
+      "Trem de alta velocidade entre as cidades históricas",
+      "Saídas semanais garantidas com guia local em português/espanhol",
+    ],
     category: "Primeira",
     days: 8,
     nights: 7,
@@ -239,6 +263,16 @@ export const localGuideGroups: LocalGuideGroup[] = [
     title: "Nova Zelândia de Norte a Sul",
     subtitle:
       "Auckland · Waitomo · Rotorua · Christchurch · Lago Tekapo · Te Anau · Milford Sound · Queenstown · Wanaka · Franz Josef · Greymouth · Punakaiki · Kaikoura",
+    intro:
+      "Dezesseis dias de uma ilha à outra, atravessando o país que parece ter guardado para si todas as paisagens do mundo: geiseres fumegando em Rotorua, o silêncio glacial do Lago Tekapo, os fiordes de Milford Sound e o verde vertical de Franz Josef. Nova Zelândia é para quem viaja com a janela aberta.",
+    highlights: [
+      "Cruzeiro por Milford Sound entre paredões de mil metros e cascatas",
+      "Cavernas de Waitomo iluminadas por vaga-lumes, em silêncio absoluto",
+      "Cultura maori em Rotorua: hangi, haka e terra que respira vapor",
+      "Lago Tekapo e o azul leitoso das águas glaciais sob céu de estrelas",
+      "Geleira Franz Josef descendo até a floresta temperada",
+      "Queenstown e Wanaka, entre vinhedos e montanhas Remarkables",
+    ],
     category: "Premium",
     days: 16,
     nights: 15,
@@ -361,6 +395,16 @@ export const localGuideGroups: LocalGuideGroup[] = [
     title: "Austrália Downunder",
     subtitle:
       "Melbourne · Great Ocean Road · Doze Apóstolos · Cairns · Kuranda · Skyrail · Grande Barreira de Coral · Sydney · Bondi Beach · Ópera de Sydney · Montanhas Azuis",
+    intro:
+      "Dez dias para entender por que a Austrália é um continente e não um país: os cafés e vielas de arte de Melbourne, a Great Ocean Road recortando o Oceano Antártico, o corredor de coral vivo em Cairns e, no fim, a baía de Sydney como um último gesto de grandeza.",
+    highlights: [
+      "Doze Apóstolos ao pôr do sol, na estrada costeira mais bela do mundo",
+      "Dia inteiro na Grande Barreira de Coral, com snorkel em recife vivo",
+      "Trem histórico de Kuranda e retorno pelo teleférico Skyrail",
+      "Bairros e laneways de Melbourne, capital do café australiano",
+      "Sydney Opera House e Harbour Bridge vistos da água",
+      "Voos internos incluídos entre as três bases do roteiro",
+    ],
     category: "Premium",
     days: 10,
     nights: 9,
@@ -448,6 +492,16 @@ export const localGuideGroups: LocalGuideGroup[] = [
     title: "Grande Tour Tunísia Top Deluxe",
     subtitle:
       "Tunis · Medina de Tunis · Sidi Bou Said · Museu do Bardo · Cartago · Sousse · Monastir · El Jem · Matmata · Chott El Jerid · Tozeur · Kairouan · Hammamet",
+    intro:
+      "Nove dias na Tunísia em versão deluxe: o azul e branco de Sidi Bou Said, os mosaicos do Bardo, o anfiteatro colossal de El Jem no meio do nada, as casas trogloditas de Matmata e a primeira noite de deserto no Saara. Um país pequeno que guarda Roma, Cartago, o Islã e o cinema em poucas centenas de quilômetros.",
+    highlights: [
+      "El Jem: o anfiteatro romano mais bem preservado da África",
+      "Sidi Bou Said sobre o Mediterrâneo, ao fim da tarde",
+      "Museu do Bardo, a maior coleção de mosaicos romanos do mundo",
+      "Matmata e as casas escavadas na rocha do sul tunisiano",
+      "Oásis de montanha e travessia do Chott El Jerid",
+      "Hotéis de categoria superior e pensão quase completa",
+    ],
     category: "Premium",
     days: 9,
     nights: 8,
@@ -535,6 +589,16 @@ export const localGuideGroups: LocalGuideGroup[] = [
     title: "Grande Tour da Indochina",
     subtitle:
       "Luang Prabang · Pak Ou · Kuang Si · Hanói · cruzeiro na Baía de Halong · Hoi An · Danang · Hue · Ho Chi Minh · Siem Reap · Angkor Wat",
+    intro:
+      "Treze dias entre Laos, Vietnã e Camboja: monges de laranja ao amanhecer em Luang Prabang, os rochedos verticais da Baía de Halong, as lanternas de Hoi An, o caos doce de Ho Chi Minh e, no encerramento, Angkor emergindo da floresta na primeira luz do dia.",
+    highlights: [
+      "Cruzeiro com pernoite na Baía de Halong",
+      "Cerimônia das esmolas ao amanhecer em Luang Prabang",
+      "Cataratas de Kuang Si e as grutas sagradas de Pak Ou",
+      "Hoi An iluminada por lanternas de seda à noite",
+      "Nascer do sol em Angkor Wat com guia local",
+      "Quatro voos internos incluídos, sem desgaste de estrada",
+    ],
     category: "Primeira",
     days: 13,
     nights: 12,
@@ -643,6 +707,16 @@ export const localGuideGroups: LocalGuideGroup[] = [
     title: "Encantos do Japão (guia em português)",
     subtitle:
       "Tóquio · Hakone · Nara · Quioto · Fushimi Inari · Arashiyama · Kanazawa · Shirakawago · Takayama · Gero (ryokan e onsen) · Osaka",
+    intro:
+      "Dez dias no Japão com dias em português: Tóquio vertical e elétrica, o Fuji visto de Hakone, os mil portais vermelhos de Fushimi Inari, os bambuzais de Arashiyama, as ruas de madeira de Takayama e uma noite de ryokan com onsen e jantar kaiseki. O país onde o detalhe é o destino.",
+    highlights: [
+      "Noite em ryokan tradicional com onsen e jantar kaiseki",
+      "Fushimi Inari e os corredores infinitos de torii vermelhos",
+      "Shirakawago, as casas de telhado de palha entre montanhas",
+      "Arashiyama: floresta de bambu e templos de Quioto",
+      "Nara e seus cervos livres em torno do Grande Buda",
+      "Dias acompanhados por guia falando português",
+    ],
     category: "Primeira",
     days: 10,
     nights: 9,
@@ -729,6 +803,16 @@ export const localGuideGroups: LocalGuideGroup[] = [
     title: "Coreia do Sul: Tradição e Inovação",
     subtitle:
       "Seul · Lotte World Tower · Gangnam · Palácio Gyeongbokgung · Myeongdong · trem-bala · Busan · Mercado Jagalchi · Gamcheon · Templo Haedong Yonggungsa · Gyeongju · Bulguksa",
+    intro:
+      "Sete dias na Coreia entre o palácio e o arranha-céu: a troca da guarda em Gyeongbokgung pela manhã, o vidro do Lotte World Tower à tarde, o trem-bala rasgando o país e, em Busan, o mercado de peixe mais vivo da Ásia com o mar logo atrás.",
+    highlights: [
+      "Palácio Gyeongbokgung e o bairro tradicional de Bukchon",
+      "Trem-bala KTX de Seul a Busan em pouco mais de duas horas",
+      "Mercado Jagalchi e o vilarejo colorido de Gamcheon",
+      "Gangnam, Myeongdong e a Coreia contemporânea",
+      "Observatório do Lotte World Tower sobre o rio Han",
+      "26 saídas garantidas com guia local",
+    ],
     category: "Primeira",
     days: 7,
     nights: 6,
@@ -799,6 +883,16 @@ export const localGuideGroups: LocalGuideGroup[] = [
     title: "China Clássica",
     subtitle:
       "Pequim · Grande Muralha · Cidade Proibida · Xian · Exército de Terracota · Xangai · The Bund · Guilin · Rio Li Jiang · Yangshuo · Guangzhou · Hong Kong",
+    intro:
+      "Dez dias na China essencial: caminhar sobre a Grande Muralha, atravessar a Cidade Proibida pátio por pátio, encarar os olhos do Exército de Terracota em Xian, navegar o Rio Li entre os morros de Guilin e terminar em Xangai, com o Bund aceso do outro lado da água.",
+    highlights: [
+      "Grande Muralha da China em trecho panorâmico",
+      "Exército de Terracota em Xian, um dos achados do século",
+      "Cidade Proibida e Praça Tiananmen com guia local",
+      "Navegação pelo Rio Li entre os pães-de-açúcar de Guilin",
+      "The Bund e a silhueta futurista de Pudong à noite",
+      "Trens rápidos e voos internos entre as cidades",
+    ],
     category: "Primeira",
     days: 10,
     nights: 9,
@@ -885,6 +979,16 @@ export const localGuideGroups: LocalGuideGroup[] = [
     title: "Armênia, Geórgia e Azerbaijão",
     subtitle:
       "Yerevan · Gueghard · Garni · Echmiadzin · Zvartnots · Lago Sevan · Dilijan · Tbilisi · Uplistsikhe · Gori · Mtskheta · Baku · Gobustán",
+    intro:
+      "Onze dias no Cáucaso, onde a Europa e a Ásia trocam de lugar a cada vale: mosteiros armênios escavados na rocha, o lago Sevan como um mar interior, as varandas de madeira de Tbilisi, as montanhas de Kazbegi e Baku, moderna e ventosa, à beira do Cáspio.",
+    highlights: [
+      "Mosteiro de Gueghard e o templo pagão de Garni",
+      "Lago Sevan e a floresta de Dilijan",
+      "Tbilisi antiga: termas de enxofre, becos e vinho de ânfora",
+      "Uplistsikhe, a cidade-caverna, e a cidade natal de Stalin em Gori",
+      "Estrada militar da Geórgia até Kazbegi, sob o Monte Kazbek",
+      "Baku entre a cidade murada e as torres de vidro do Cáspio",
+    ],
     category: "Primeira",
     days: 11,
     nights: 10,
@@ -971,6 +1075,16 @@ export const localGuideGroups: LocalGuideGroup[] = [
     title: "Argélia e Tunísia Top Deluxe",
     subtitle:
       "Argel · Tipaza · Djemila · Constantina · Annaba · Tabarka · Bizerte · Túnis · Sidi Bou Said · Cartago · Sousse · Monastir · El Jem · Matmata · Tozeur · Kairouan · Hammamet",
+    intro:
+      "Quinze dias em dois países que quase ninguém percorre juntos: as ruínas romanas de Djemila e Tipaza sem multidão, a Casbah de Argel, os corais de Tabarka e, na Tunísia, Cartago, Sidi Bou Said e o anfiteatro de El Jem. Norte da África em versão deluxe, do Mediterrâneo ao deserto.",
+    highlights: [
+      "Djemila e Timgad: Roma preservada no interior da Argélia",
+      "Tipaza sobre o mar e a Casbah de Argel",
+      "Travessia por Constantina, a cidade suspensa entre pontes",
+      "Cartago e Sidi Bou Said em azul e branco",
+      "El Jem, o colosso romano no centro da Tunísia",
+      "Hotéis top deluxe e 57 saídas garantidas em 2026–2027",
+    ],
     category: "Premium",
     days: 15,
     nights: 14,
