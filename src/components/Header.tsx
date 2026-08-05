@@ -59,9 +59,7 @@ export const Header = () => {
       ? [
           { label: "Grupos com Guia", href: "/embarque-com-a-create" },
           { label: "Grupos com guia local", href: "/grupos-guia-local" },
-          
           { label: "Crie seu grupo", href: "/crie-seu-grupo" },
-
         ]
       : [];
 
@@ -71,10 +69,12 @@ export const Header = () => {
           ...primaryNavItems,
           ...brasilSubItems,
           ...gruposSubItems,
+          { label: "Cruzeiros fluviais", href: "/cruzeiros-fluviais" },
           { label: "Blog", href: "/diario" },
           { label: t("nav.contato"), href: "/contato" },
         ]
       : [...primaryNavItems, ...brasilSubItems];
+
 
   const whatsappLink =
     lang === "pt"
