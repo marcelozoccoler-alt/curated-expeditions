@@ -43,9 +43,14 @@ export interface LocalGuideGroup {
   itinerary: LocalGuideDay[];
 }
 
-/** Rótulo de preço na moeda do circuito. */
+/**
+ * Rótulo de preço na moeda do circuito. Nunca estima nem converte valores:
+ * se o grupo não tem preço fechado, mostra "Sob consulta".
+ */
 export const localGuidePriceLabel = (g: LocalGuideGroup) =>
-  `${g.currency === "USD" ? "US$" : "€"} ${g.priceEur.toLocaleString("pt-BR")}`;
+  g.priceEur && g.priceEur > 0
+    ? `${g.currency === "USD" ? "US$" : "€"} ${g.priceEur.toLocaleString("pt-BR")}`
+    : "Sob consulta";
 
 export const localGuideGroups: LocalGuideGroup[] = [
   {
