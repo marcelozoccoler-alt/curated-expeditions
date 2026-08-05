@@ -170,6 +170,9 @@ const App = () => (
           {/* SEO landings — high-intent commercial pages */}
           <Route path="/roteiro-sob-medida" element={<RoteiroSobMedida />} />
           <Route path="/grupos-guia-brasileiro" element={<GruposGuiaBrasileiro />} />
+          <Route path="/grupos-guia-local" element={<GruposGuiaLocal />} />
+          <Route path="/grupos-guia-local/:slug" element={<GrupoGuiaLocal />} />
+
           <Route path="/lua-de-mel-personalizada" element={<LuaDeMelPersonalizada />} />
           <Route path="/cruzeiros-fluviais" element={<CruzeirosFluviais />} />
           <Route path="/cruzeiros-fluviais/:slug" element={<CruzeiroFluvial />} />
