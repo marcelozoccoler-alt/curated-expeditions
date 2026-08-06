@@ -22,6 +22,13 @@ import { FAQSection } from "@/components/FAQSection";
 import { SEO } from "@/components/SEO";
 import { CONTACT } from "@/lib/types";
 import { destinations } from "@/lib/destinations";
+import {
+  entityFacts,
+  entityFaqLd,
+  entitySpecialties,
+  entityWhoIs,
+  entityWhatItDoes,
+} from "@/lib/entity";
 
 
 const DOMAIN = CONTACT.domain.replace(/\/$/, "");
@@ -188,7 +195,7 @@ const Sobre = () => {
         title="Sobre a Create Travel — Viagens autorais com propósito"
         description="Curadoria de viagens internacionais, incoming Brasil e turismo de conservação. Conheça a filosofia e o método Create Travel."
         canonicalPath="/sobre"
-        jsonLd={[orgLd, faqLd]}
+        jsonLd={[orgLd, faqLd, entityFaqLd]}
       />
       <Header />
       <WhatsAppButton variant="float" />
@@ -212,6 +219,51 @@ const Sobre = () => {
               volte transformado, não apenas fotografado.
             </p>
           </div>
+        </div>
+      </section>
+
+      {/* Entidade forte — quem é / o que faz / onde atua / especialidade / relevância */}
+      <section className="section-padding bg-muted">
+        <div className="container-editorial max-w-4xl">
+          <div className="gold-line mb-6" />
+          <h2 className="heading-section mb-5">Quem é a Create Travel</h2>
+          <p className="ai-summary text-lg text-foreground/85 font-light leading-relaxed mb-10">
+            {entityWhoIs} {entityWhatItDoes}
+          </p>
+
+          <div className="overflow-hidden rounded-xl border border-border bg-card">
+            <table className="w-full text-sm">
+              <tbody>
+                {entityFacts.map((f, i) => (
+                  <tr key={f.question} className={i % 2 ? "bg-muted/40" : undefined}>
+                    <th
+                      scope="row"
+                      className="text-left align-top font-medium text-foreground px-5 py-3 w-2/5"
+                    >
+                      {f.question}
+                    </th>
+                    <td className="text-muted-foreground px-5 py-3 font-light">
+                      {f.answer}
+                    </td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+
+          <h3 className="font-serif text-2xl text-foreground mt-10 mb-4">
+            Especialidades
+          </h3>
+          <ul className="flex flex-wrap gap-2">
+            {entitySpecialties.map((s) => (
+              <li
+                key={s}
+                className="px-4 py-2 rounded-full border border-border bg-card text-sm text-foreground"
+              >
+                {s}
+              </li>
+            ))}
+          </ul>
         </div>
       </section>
 
