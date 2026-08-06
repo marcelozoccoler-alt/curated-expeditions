@@ -134,9 +134,13 @@ const GruposGuiaBrasileiro = () => {
           <div className="absolute bottom-10 right-10 w-96 h-96 rounded-full bg-emerald blur-3xl" />
         </div>
         <div className="container-editorial relative z-10 text-center max-w-3xl mx-auto">
+          <div className="mb-6 text-white/70 flex justify-center">
+            <Breadcrumbs items={[{ label: "Grupos com guia brasileiro" }]} />
+          </div>
           <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-gold/20 border border-gold/40 text-gold text-xs font-semibold uppercase tracking-[0.3em] mb-6">
             <Plane size={14} /> {DEPARTURES.length} saídas confirmadas
           </div>
+
           <div className="gold-line mx-auto mb-6" />
           <h1 className="heading-hero mb-6">
             Grupos com <span className="text-gold italic">Guia Brasileiro</span>
