@@ -265,9 +265,8 @@ const GruposGuiaBrasileiro = () => {
         </div>
       </section>
 
-      {/* CTA */}
-      <section className="section-padding bg-gradient-hero text-white">
-      </section>
+
+
 
       {/* Resumo citável por IA + dados práticos */}
       <section className="section-padding bg-background">
