@@ -243,12 +243,11 @@ const GruposGuiaLocal = () => {
             <h2 className="heading-section text-foreground mb-4">
               Como funcionam os grupos com guia local
             </h2>
-            <p className="text-lg text-muted-foreground font-light">
-              A mesma curadoria Create Travel, com o acompanhamento começando na
-              chegada ao destino. É essa estrutura que abre espaço para preços
-              competitivos e um calendário muito maior de datas.
+            <p className="ai-summary text-lg text-muted-foreground font-light">
+              {localGroupAiSummary}
             </p>
           </div>
+
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
             {DIFFERENTIALS.map((d, i) => {
               const Icon = d.icon;
