@@ -54,25 +54,58 @@ const IncomingDestino = () => {
   });
 
   const canonicalPath = `/${lang}/incoming/${slug}`;
+  const canonical = `${SITE_URL}${canonicalPath}`;
+  const iLang = cLang as IncLang;
+  const destName = destino.name[cLang];
+
+  // GEO / AEO blocks (no prices — values are discussed on WhatsApp only)
+  const aiSummary = buildIncomingAiSummary(destName, copy, iLang);
+  const entityPhrases = buildIncomingEntityPhrases(destName, copy, iLang);
+  const facts = buildIncomingFacts(copy, iLang);
+  const allFaqs = mergeIncomingFAQs(
+    copy.faqs.items,
+    buildIncomingIntentFAQs(destName, copy, iLang)
+  );
+
+  const related = INCOMING_DESTINATIONS.filter(
+    (d) => d.slug !== slug && INCOMING_DESTINO_CONTENT[d.slug]
+  ).slice(0, 6);
 
   const jsonLd = [
     {
       "@context": "https://schema.org",
       "@type": "TouristDestination",
-      name: destino.name[cLang],
+      name: destName,
       description: copy.metaDescription,
-      url: `${SITE_URL}${canonicalPath}`,
+      url: canonical,
       image: `${SITE_URL}${destino.image}`,
+      inLanguage: INCOMING_HTML_LANG[iLang],
       touristType: "leisure travellers, families, couples, photographers",
       containedInPlace: {
         "@type": "Country",
         name: "Brazil",
       },
+      abstract: aiSummary,
+      includesAttraction: copy.whatToDo.items.map((item) => ({
+        "@type": "TouristAttraction",
+        name: item.title,
+        description: item.text,
+      })),
+      additionalProperty: facts.map((f) => ({
+        "@type": "PropertyValue",
+        name: f.label,
+        value: f.value,
+      })),
+      subjectOf: entityPhrases.map((text) => ({
+        "@type": "CreativeWork",
+        abstract: text,
+      })),
     },
     {
       "@context": "https://schema.org",
       "@type": "FAQPage",
-      mainEntity: copy.faqs.items.map((item) => ({
+      inLanguage: INCOMING_HTML_LANG[iLang],
+      mainEntity: allFaqs.map((item) => ({
         "@type": "Question",
         name: item.q,
         acceptedAnswer: { "@type": "Answer", text: item.a },
@@ -91,31 +124,50 @@ const IncomingDestino = () => {
         {
           "@type": "ListItem",
           position: 2,
-          name: destino.name[cLang],
-          item: `${SITE_URL}${canonicalPath}`,
+          name: destName,
+          item: canonical,
         },
       ],
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      url: canonical,
+      inLanguage: INCOMING_HTML_LANG[iLang],
+      speakable: {
+        "@type": "SpeakableSpecification",
+        cssSelector: ["h1", ".ai-summary", ".faq-question", ".faq-answer"],
+      },
     },
   ];
 
   return (
     <div className="min-h-screen bg-background">
       <Helmet>
+        <html lang={INCOMING_HTML_LANG[iLang]} />
         <title>{copy.metaTitle}</title>
         <meta name="description" content={copy.metaDescription} />
         <meta name="keywords" content={copy.keywords} />
-        <link rel="canonical" href={`${SITE_URL}${canonicalPath}`} />
+        <meta name="robots" content="index,follow,max-image-preview:large,max-snippet:-1" />
+        <link rel="canonical" href={canonical} />
         <meta property="og:title" content={copy.metaTitle} />
         <meta property="og:description" content={copy.metaDescription} />
-        <meta property="og:url" content={`${SITE_URL}${canonicalPath}`} />
+        <meta property="og:url" content={canonical} />
         <meta property="og:type" content="article" />
+        <meta property="og:locale" content={INCOMING_OG_LOCALE[iLang]} />
+        <meta property="og:site_name" content="Create Travel" />
         <meta property="og:image" content={`${SITE_URL}${destino.image}`} />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content={copy.metaTitle} />
+        <meta name="twitter:description" content={copy.metaDescription} />
+        <meta name="twitter:image" content={`${SITE_URL}${destino.image}`} />
         {jsonLd.map((ld, i) => (
           <script key={i} type="application/ld+json">
             {JSON.stringify(ld)}
           </script>
         ))}
       </Helmet>
+
       <HreflangTags basePath={`/incoming/${slug}`} />
 
       <Header />
