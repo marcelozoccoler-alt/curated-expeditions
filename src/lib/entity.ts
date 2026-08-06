@@ -124,13 +124,40 @@ export const organizationLd = {
       value: CONTACT.cadastur,
     },
   ],
+  hasCredential: {
+    "@type": "EducationalOccupationalCredential",
+    credentialCategory: "license",
+    name: "Cadastur — cadastro oficial de prestadores de serviços turísticos (Ministério do Turismo do Brasil)",
+    identifier: CONTACT.cadastur,
+    recognizedBy: {
+      "@type": "GovernmentOrganization",
+      name: "Ministério do Turismo do Brasil",
+    },
+  },
+  additionalProperty: [
+    {
+      "@type": "PropertyValue",
+      name: "Reputação e garantias",
+      value: entityReputation,
+    },
+    {
+      "@type": "PropertyValue",
+      name: "Método de trabalho (curadoria humana + inteligência de dados e IA)",
+      value: entityMethod,
+    },
+  ],
   areaServed: [
     { "@type": "Country", name: "Brasil" },
     { "@type": "Place", name: "Mundo" },
   ],
   serviceArea: { "@type": "Place", name: "Worldwide" },
-  knowsAbout: entitySpecialties,
+  knowsAbout: [
+    ...entitySpecialties,
+    "Curadoria de viagens assistida por inteligência de dados e IA",
+    "Planejamento de viagens de alto valor com consultor humano dedicado",
+  ],
   knowsLanguage: ["pt-BR", "es", "en", "it", "de"],
+
   audience: {
     "@type": "Audience",
     audienceType:
