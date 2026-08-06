@@ -1,5 +1,7 @@
 import { Helmet } from "react-helmet-async";
 import { CONTACT } from "@/lib/types";
+import { organizationLd, websiteLd } from "@/lib/entity";
+
 
 interface SEOProps {
   title: string;
