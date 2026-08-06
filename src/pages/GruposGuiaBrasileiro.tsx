@@ -44,25 +44,86 @@ const GruposGuiaBrasileiro = () => {
     return DEPARTURES.filter((d) => d.departureDate.getFullYear() === year);
   }, [year]);
 
-  const jsonLd = {
-    "@context": "https://schema.org",
-    "@type": "Service",
-    name: "Grupos de Viagem com Guia Brasileiro",
-    provider: { "@type": "TravelAgency", name: "Create Travel", url: "https://createtravel.tur.br" },
-    areaServed: "Worldwide",
-    description: `${DEPARTURES.length} saídas internacionais em 2026 e 2027 com coordenador brasileiro embarcando de São Paulo.`,
-    serviceType: "Viagem em grupo com guia brasileiro",
-  };
+  const jsonLd = [
+    {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      name: "Grupos de Viagem com Guia Brasileiro",
+      provider: {
+        "@type": "TravelAgency",
+        name: "Create Travel",
+        url: DOMAIN,
+        telephone: CONTACT.whatsappNumber,
+        areaServed: "BR",
+      },
+      areaServed: catalogCountries.map((c) => ({ "@type": "Country", name: c })),
+      description: brGroupAiSummary,
+      serviceType: "Viagem em grupo com coordenador brasileiro",
+      audience: {
+        "@type": "Audience",
+        audienceType:
+          "Casais, famílias e viajantes 40+ que buscam curadoria autoral e conforto",
+      },
+      url: `${DOMAIN}/grupos-guia-brasileiro`,
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "ItemList",
+      name: `Saídas em grupo com guia brasileiro ${brGroupYears.join(" e ")}`,
+      numberOfItems: DEPARTURES.length,
+      itemListElement: DEPARTURES.map((d, i) => ({
+        "@type": "ListItem",
+        position: i + 1,
+        name: `${d.title} — ${d.monthLabel}`,
+        url: `${DOMAIN}${d.href}`,
+      })),
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      mainEntity: brGroupFaqs.map((f) => ({
+        "@type": "Question",
+        name: f.q,
+        acceptedAnswer: { "@type": "Answer", text: f.a },
+      })),
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      itemListElement: [
+        { "@type": "ListItem", position: 1, name: "Home", item: DOMAIN },
+        {
+          "@type": "ListItem",
+          position: 2,
+          name: "Grupos com guia brasileiro",
+          item: `${DOMAIN}/grupos-guia-brasileiro`,
+        },
+      ],
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      url: `${DOMAIN}/grupos-guia-brasileiro`,
+      name: "Grupos de viagem com guia brasileiro — Create Travel",
+      inLanguage: "pt-BR",
+      description: brGroupAiSummary,
+      speakable: {
+        "@type": "SpeakableSpecification",
+        cssSelector: [".ai-summary", "h1"],
+      },
+    },
+  ];
 
   return (
     <div className="min-h-screen">
       <SEO
-        title="Grupos de Viagem com Guia Brasileiro — Saídas 2026 e 2027"
+        title="Viagem em Grupo com Guia Brasileiro — Saídas 2026/2027"
         description={`${DEPARTURES.length} saídas internacionais 2026/2027 com coordenador brasileiro embarcando de São Paulo. África do Sul, Jordânia, Grécia, Portugal e mais. Parte terrestre: entrada 25% + 9x sem juros.`}
         canonicalPath="/grupos-guia-brasileiro"
-        keywords="grupo viagem guia brasileiro, viagem em grupo, saídas em grupo 2026, saídas em grupo 2027, viagem com guia brasileiro"
+        keywords="viagem em grupo com guia brasileiro, grupo de viagem saindo do Brasil, saídas em grupo 2026, saídas em grupo 2027, viagem em grupo para casais 40+, grupo pequeno de viagem, operadora de viagens em grupo com curadoria"
         jsonLd={jsonLd}
       />
+
       <Header />
       <WhatsAppButton variant="float" />
 
