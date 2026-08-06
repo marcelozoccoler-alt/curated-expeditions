@@ -8,8 +8,22 @@ import { HreflangTags } from "@/components/HreflangTags";
 import { SUPPORTED_LANGS, toContentLang, type ContentLang } from "@/i18n/config";
 import { INCOMING_DESTINO_CONTENT } from "@/lib/incomingDestinoContent";
 import { INCOMING_DESTINATIONS } from "@/lib/incomingDestinations";
+import {
+  INCOMING_OG_LOCALE,
+  INCOMING_HTML_LANG,
+  buildIncomingAiSummary,
+  buildIncomingEntityPhrases,
+  buildIncomingFacts,
+  buildIncomingIntentFAQs,
+  mergeIncomingFAQs,
+  incomingSummaryHeading,
+  incomingContextHeading,
+  incomingFactsHeading,
+  type IncLang,
+} from "@/lib/incomingGeo";
 import { generateIncomingWhatsAppLink } from "@/lib/whatsappI18n";
 import { useLang } from "@/hooks/useLang";
+
 
 const SITE_URL = "https://www.createtravel.tur.br";
 
