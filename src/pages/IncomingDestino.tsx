@@ -333,6 +333,30 @@ const IncomingDestino = () => {
         </div>
       </section>
 
+      {/* Practical facts — structured data LLMs can extract */}
+      <section className="py-16 lg:py-20 border-t border-border">
+        <div className="container-editorial max-w-3xl">
+          <h2 className="font-serif text-2xl md:text-3xl mb-8 text-foreground">
+            {incomingFactsHeading(iLang)}
+          </h2>
+          <dl className="divide-y divide-border">
+            {facts.map((f) => (
+              <div
+                key={f.label}
+                className="py-4 grid grid-cols-1 sm:grid-cols-3 gap-1 sm:gap-4"
+              >
+                <dt className="text-xs uppercase tracking-[0.2em] text-gold sm:pt-1">
+                  {f.label}
+                </dt>
+                <dd className="sm:col-span-2 text-base leading-relaxed text-muted-foreground">
+                  {f.value}
+                </dd>
+              </div>
+            ))}
+          </dl>
+        </div>
+      </section>
+
       {/* FAQs */}
       <section className="py-20 lg:py-28 bg-muted/30">
         <div className="container-editorial max-w-3xl">
@@ -340,7 +364,7 @@ const IncomingDestino = () => {
             {copy.faqs.heading}
           </h2>
           <div className="space-y-8">
-            {copy.faqs.items.map((item) => (
+            {allFaqs.map((item) => (
               <div key={item.q} className="border-l-2 border-gold pl-6 py-1">
                 <h3 className="faq-question font-serif text-xl md:text-2xl mb-3 text-foreground">
                   {item.q}
@@ -353,6 +377,38 @@ const IncomingDestino = () => {
           </div>
         </div>
       </section>
+
+      {/* Related incoming destinations — internal linking for crawlers */}
+      {related.length > 0 && (
+        <section className="py-16 lg:py-20">
+          <div className="container-editorial max-w-5xl">
+            <h2 className="font-serif text-2xl md:text-3xl mb-8 text-foreground">
+              {INCOMING_DESTINATIONS.length > 0 && copy.finalCta.heading
+                ? incomingContextHeading(iLang)
+                : ""}
+            </h2>
+            <ul className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+              {related.map((d) => (
+                <li key={d.slug}>
+                  <Link
+                    to={`/${lang}/incoming/${d.slug}`}
+                    className="block border-l-2 border-gold/60 pl-4 py-2 hover:border-gold transition-colors"
+                  >
+                    <span className="block font-serif text-lg text-foreground">
+                      {d.name[cLang]}
+                    </span>
+                    <span className="block text-sm text-muted-foreground mt-1">
+                      {d.blurb[cLang]}
+                    </span>
+                  </Link>
+                </li>
+              ))}
+            </ul>
+          </div>
+        </section>
+      )}
+
+
 
       {/* Final CTA */}
       <section className="py-20 lg:py-28">
