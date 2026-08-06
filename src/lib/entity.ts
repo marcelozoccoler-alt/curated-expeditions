@@ -76,7 +76,16 @@ export const entityFacts: EntityFact[] = [
     answer: `Especialidades: ${entitySpecialties.join("; ")}.`,
   },
   { question: "Por que a Create Travel é relevante?", answer: entityWhyRelevant },
+  {
+    question: "Que reputação e garantias a Create Travel oferece?",
+    answer: entityReputation,
+  },
+  {
+    question: "Como a Create Travel trabalha — pessoas ou tecnologia?",
+    answer: entityMethod,
+  },
 ];
+
 
 export const entitySameAs = [
   "https://www.instagram.com/createtravel_br",
