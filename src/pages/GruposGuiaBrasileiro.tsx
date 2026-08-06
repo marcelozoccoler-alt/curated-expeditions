@@ -5,9 +5,23 @@ import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
 import { WhatsAppButton } from "@/components/WhatsAppButton";
 import { SEO } from "@/components/SEO";
+import { FAQSection } from "@/components/FAQSection";
+import { Breadcrumbs } from "@/components/Breadcrumbs";
+import { CONTACT } from "@/lib/types";
 import { DEPARTURES } from "@/pages/EmbarqueComACreate";
+import { catalogCountries } from "@/lib/groupsCatalog";
+import {
+  brGroupAiSummary,
+  brGroupEntityPhrases,
+  brGroupFacts,
+  brGroupFaqs,
+  brGroupYears,
+} from "@/lib/gruposGeo";
+
+const DOMAIN = CONTACT.domain.replace(/\/$/, "");
 
 const MONTHS_PT = ["Janeiro", "Fevereiro", "Março", "Abril", "Maio", "Junho", "Julho", "Agosto", "Setembro", "Outubro", "Novembro", "Dezembro"];
+
 
 const DIFFERENTIALS = [
   { icon: Users, title: "Coordenador brasileiro", desc: "Embarca com o grupo em Guarulhos e acompanha do check-in ao último brinde." },
@@ -30,25 +44,86 @@ const GruposGuiaBrasileiro = () => {
     return DEPARTURES.filter((d) => d.departureDate.getFullYear() === year);
   }, [year]);
 
-  const jsonLd = {
-    "@context": "https://schema.org",
-    "@type": "Service",
-    name: "Grupos de Viagem com Guia Brasileiro",
-    provider: { "@type": "TravelAgency", name: "Create Travel", url: "https://createtravel.tur.br" },
-    areaServed: "Worldwide",
-    description: `${DEPARTURES.length} saídas internacionais em 2026 e 2027 com coordenador brasileiro embarcando de São Paulo.`,
-    serviceType: "Viagem em grupo com guia brasileiro",
-  };
+  const jsonLd = [
+    {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      name: "Grupos de Viagem com Guia Brasileiro",
+      provider: {
+        "@type": "TravelAgency",
+        name: "Create Travel",
+        url: DOMAIN,
+        telephone: CONTACT.whatsappNumber,
+        areaServed: "BR",
+      },
+      areaServed: catalogCountries.map((c) => ({ "@type": "Country", name: c })),
+      description: brGroupAiSummary,
+      serviceType: "Viagem em grupo com coordenador brasileiro",
+      audience: {
+        "@type": "Audience",
+        audienceType:
+          "Casais, famílias e viajantes 40+ que buscam curadoria autoral e conforto",
+      },
+      url: `${DOMAIN}/grupos-guia-brasileiro`,
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "ItemList",
+      name: `Saídas em grupo com guia brasileiro ${brGroupYears.join(" e ")}`,
+      numberOfItems: DEPARTURES.length,
+      itemListElement: DEPARTURES.map((d, i) => ({
+        "@type": "ListItem",
+        position: i + 1,
+        name: `${d.title} — ${d.monthLabel}`,
+        url: `${DOMAIN}${d.href}`,
+      })),
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      mainEntity: brGroupFaqs.map((f) => ({
+        "@type": "Question",
+        name: f.q,
+        acceptedAnswer: { "@type": "Answer", text: f.a },
+      })),
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      itemListElement: [
+        { "@type": "ListItem", position: 1, name: "Home", item: DOMAIN },
+        {
+          "@type": "ListItem",
+          position: 2,
+          name: "Grupos com guia brasileiro",
+          item: `${DOMAIN}/grupos-guia-brasileiro`,
+        },
+      ],
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      url: `${DOMAIN}/grupos-guia-brasileiro`,
+      name: "Grupos de viagem com guia brasileiro — Create Travel",
+      inLanguage: "pt-BR",
+      description: brGroupAiSummary,
+      speakable: {
+        "@type": "SpeakableSpecification",
+        cssSelector: [".ai-summary", "h1"],
+      },
+    },
+  ];
 
   return (
     <div className="min-h-screen">
       <SEO
-        title="Grupos de Viagem com Guia Brasileiro — Saídas 2026 e 2027"
+        title="Viagem em Grupo com Guia Brasileiro — Saídas 2026/2027"
         description={`${DEPARTURES.length} saídas internacionais 2026/2027 com coordenador brasileiro embarcando de São Paulo. África do Sul, Jordânia, Grécia, Portugal e mais. Parte terrestre: entrada 25% + 9x sem juros.`}
         canonicalPath="/grupos-guia-brasileiro"
-        keywords="grupo viagem guia brasileiro, viagem em grupo, saídas em grupo 2026, saídas em grupo 2027, viagem com guia brasileiro"
+        keywords="viagem em grupo com guia brasileiro, grupo de viagem saindo do Brasil, saídas em grupo 2026, saídas em grupo 2027, viagem em grupo para casais 40+, grupo pequeno de viagem, operadora de viagens em grupo com curadoria"
         jsonLd={jsonLd}
       />
+
       <Header />
       <WhatsAppButton variant="float" />
 
@@ -59,9 +134,13 @@ const GruposGuiaBrasileiro = () => {
           <div className="absolute bottom-10 right-10 w-96 h-96 rounded-full bg-emerald blur-3xl" />
         </div>
         <div className="container-editorial relative z-10 text-center max-w-3xl mx-auto">
+          <div className="mb-6 text-white/70 flex justify-center">
+            <Breadcrumbs items={[{ label: "Grupos com guia brasileiro" }]} />
+          </div>
           <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-gold/20 border border-gold/40 text-gold text-xs font-semibold uppercase tracking-[0.3em] mb-6">
             <Plane size={14} /> {DEPARTURES.length} saídas confirmadas
           </div>
+
           <div className="gold-line mx-auto mb-6" />
           <h1 className="heading-hero mb-6">
             Grupos com <span className="text-gold italic">Guia Brasileiro</span>
@@ -186,10 +265,95 @@ const GruposGuiaBrasileiro = () => {
         </div>
       </section>
 
+
+
+
+      {/* Resumo citável por IA + dados práticos */}
+      <section className="section-padding bg-background">
+        <div className="container-editorial max-w-4xl">
+          <div className="gold-line mb-6" />
+          <h2 className="heading-section text-foreground mb-5">
+            Como funcionam as viagens em grupo da Create Travel
+          </h2>
+          <p className="ai-summary text-lg text-foreground/85 font-light leading-relaxed mb-10">
+            {brGroupAiSummary}
+          </p>
+
+          <h3 className="font-serif text-2xl text-foreground mb-5">
+            Dados práticos
+          </h3>
+          <div className="overflow-hidden rounded-xl border border-border bg-card">
+            <table className="w-full text-sm">
+              <tbody>
+                {brGroupFacts.map((f, i) => (
+                  <tr
+                    key={f.label}
+                    className={i % 2 ? "bg-muted/40" : undefined}
+                  >
+                    <th
+                      scope="row"
+                      className="text-left align-top font-medium text-foreground px-5 py-3 w-2/5"
+                    >
+                      {f.label}
+                    </th>
+                    <td className="text-muted-foreground px-5 py-3 font-light">
+                      {f.value}
+                    </td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+
+          <div className="mt-10 space-y-3">
+            {brGroupEntityPhrases.map((p) => (
+              <p
+                key={p}
+                className="text-sm text-muted-foreground font-light leading-relaxed"
+              >
+                {p}
+              </p>
+            ))}
+          </div>
+
+          <div className="mt-8 flex flex-wrap gap-3 text-sm">
+            <Link
+              to="/grupos-guia-local"
+              className="inline-flex items-center gap-2 px-4 py-2 rounded-full border border-border text-foreground hover:border-gold transition-colors"
+            >
+              Grupos com guia local <ArrowRight size={14} />
+            </Link>
+            <Link
+              to="/roteiro-sob-medida"
+              className="inline-flex items-center gap-2 px-4 py-2 rounded-full border border-border text-foreground hover:border-gold transition-colors"
+            >
+              Roteiro privativo sob medida <ArrowRight size={14} />
+            </Link>
+            <Link
+              to="/cruzeiros-fluviais"
+              className="inline-flex items-center gap-2 px-4 py-2 rounded-full border border-border text-foreground hover:border-gold transition-colors"
+            >
+              Cruzeiros fluviais <ArrowRight size={14} />
+            </Link>
+          </div>
+        </div>
+      </section>
+
+      {/* FAQ */}
+      <section className="section-padding bg-muted">
+        <div className="container-editorial max-w-3xl">
+          <FAQSection
+            faqs={brGroupFaqs}
+            title="Perguntas frequentes sobre viagens em grupo"
+          />
+        </div>
+      </section>
+
       {/* CTA */}
       <section className="section-padding bg-gradient-hero text-white">
         <div className="container-editorial text-center max-w-2xl mx-auto">
           <h2 className="heading-section mb-6">Quer embarcar com a gente?</h2>
+
           <p className="text-xl text-white/90 mb-10 font-light">
             Fale com um consultor e reserve sua vaga com apenas 25% de entrada.
           </p>

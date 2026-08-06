@@ -27,7 +27,10 @@ import {
   MONTHS_PT,
 } from "@/lib/localGuideGroups";
 
+import { localGroupAiSummary } from "@/lib/gruposGeo";
+
 const DOMAIN = CONTACT.domain.replace(/\/$/, "");
+
 
 const monthLabel = (key: string) =>
   `${MONTHS_PT[Number(key.slice(5, 7)) - 1]}/${key.slice(2, 4)}`;
@@ -151,7 +154,33 @@ const GruposGuiaLocal = () => {
         acceptedAnswer: { "@type": "Answer", text: f.a },
       })),
     },
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      itemListElement: [
+        { "@type": "ListItem", position: 1, name: "Home", item: DOMAIN },
+        {
+          "@type": "ListItem",
+          position: 2,
+          name: "Grupos com guia local",
+          item: `${DOMAIN}/grupos-guia-local`,
+        },
+      ],
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      url: `${DOMAIN}/grupos-guia-local`,
+      name: "Grupos com guia local — Create Travel",
+      inLanguage: "pt-BR",
+      description: localGroupAiSummary,
+      speakable: {
+        "@type": "SpeakableSpecification",
+        cssSelector: [".ai-summary", "h1"],
+      },
+    },
   ];
+
 
   return (
     <div className="min-h-screen">
@@ -214,12 +243,11 @@ const GruposGuiaLocal = () => {
             <h2 className="heading-section text-foreground mb-4">
               Como funcionam os grupos com guia local
             </h2>
-            <p className="text-lg text-muted-foreground font-light">
-              A mesma curadoria Create Travel, com o acompanhamento começando na
-              chegada ao destino. É essa estrutura que abre espaço para preços
-              competitivos e um calendário muito maior de datas.
+            <p className="ai-summary text-lg text-muted-foreground font-light">
+              {localGroupAiSummary}
             </p>
           </div>
+
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
             {DIFFERENTIALS.map((d, i) => {
               const Icon = d.icon;
