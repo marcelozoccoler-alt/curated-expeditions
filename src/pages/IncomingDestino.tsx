@@ -8,8 +8,23 @@ import { HreflangTags } from "@/components/HreflangTags";
 import { SUPPORTED_LANGS, toContentLang, type ContentLang } from "@/i18n/config";
 import { INCOMING_DESTINO_CONTENT } from "@/lib/incomingDestinoContent";
 import { INCOMING_DESTINATIONS } from "@/lib/incomingDestinations";
+import {
+  INCOMING_OG_LOCALE,
+  INCOMING_HTML_LANG,
+  buildIncomingAiSummary,
+  buildIncomingEntityPhrases,
+  buildIncomingFacts,
+  buildIncomingIntentFAQs,
+  mergeIncomingFAQs,
+  incomingSummaryHeading,
+  incomingContextHeading,
+  incomingFactsHeading,
+  incomingRelatedHeading,
+  type IncLang,
+} from "@/lib/incomingGeo";
 import { generateIncomingWhatsAppLink } from "@/lib/whatsappI18n";
 import { useLang } from "@/hooks/useLang";
+
 
 const SITE_URL = "https://www.createtravel.tur.br";
 
@@ -40,25 +55,58 @@ const IncomingDestino = () => {
   });
 
   const canonicalPath = `/${lang}/incoming/${slug}`;
+  const canonical = `${SITE_URL}${canonicalPath}`;
+  const iLang = cLang as IncLang;
+  const destName = destino.name[cLang];
+
+  // GEO / AEO blocks (no prices — values are discussed on WhatsApp only)
+  const aiSummary = buildIncomingAiSummary(destName, copy, iLang);
+  const entityPhrases = buildIncomingEntityPhrases(destName, copy, iLang);
+  const facts = buildIncomingFacts(copy, iLang);
+  const allFaqs = mergeIncomingFAQs(
+    copy.faqs.items,
+    buildIncomingIntentFAQs(destName, copy, iLang)
+  );
+
+  const related = INCOMING_DESTINATIONS.filter(
+    (d) => d.slug !== slug && INCOMING_DESTINO_CONTENT[d.slug]
+  ).slice(0, 6);
 
   const jsonLd = [
     {
       "@context": "https://schema.org",
       "@type": "TouristDestination",
-      name: destino.name[cLang],
+      name: destName,
       description: copy.metaDescription,
-      url: `${SITE_URL}${canonicalPath}`,
+      url: canonical,
       image: `${SITE_URL}${destino.image}`,
+      inLanguage: INCOMING_HTML_LANG[iLang],
       touristType: "leisure travellers, families, couples, photographers",
       containedInPlace: {
         "@type": "Country",
         name: "Brazil",
       },
+      abstract: aiSummary,
+      includesAttraction: copy.whatToDo.items.map((item) => ({
+        "@type": "TouristAttraction",
+        name: item.title,
+        description: item.text,
+      })),
+      additionalProperty: facts.map((f) => ({
+        "@type": "PropertyValue",
+        name: f.label,
+        value: f.value,
+      })),
+      subjectOf: entityPhrases.map((text) => ({
+        "@type": "CreativeWork",
+        abstract: text,
+      })),
     },
     {
       "@context": "https://schema.org",
       "@type": "FAQPage",
-      mainEntity: copy.faqs.items.map((item) => ({
+      inLanguage: INCOMING_HTML_LANG[iLang],
+      mainEntity: allFaqs.map((item) => ({
         "@type": "Question",
         name: item.q,
         acceptedAnswer: { "@type": "Answer", text: item.a },
@@ -77,31 +125,50 @@ const IncomingDestino = () => {
         {
           "@type": "ListItem",
           position: 2,
-          name: destino.name[cLang],
-          item: `${SITE_URL}${canonicalPath}`,
+          name: destName,
+          item: canonical,
         },
       ],
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      url: canonical,
+      inLanguage: INCOMING_HTML_LANG[iLang],
+      speakable: {
+        "@type": "SpeakableSpecification",
+        cssSelector: ["h1", ".ai-summary", ".faq-question", ".faq-answer"],
+      },
     },
   ];
 
   return (
     <div className="min-h-screen bg-background">
       <Helmet>
+        <html lang={INCOMING_HTML_LANG[iLang]} />
         <title>{copy.metaTitle}</title>
         <meta name="description" content={copy.metaDescription} />
         <meta name="keywords" content={copy.keywords} />
-        <link rel="canonical" href={`${SITE_URL}${canonicalPath}`} />
+        <meta name="robots" content="index,follow,max-image-preview:large,max-snippet:-1" />
+        <link rel="canonical" href={canonical} />
         <meta property="og:title" content={copy.metaTitle} />
         <meta property="og:description" content={copy.metaDescription} />
-        <meta property="og:url" content={`${SITE_URL}${canonicalPath}`} />
+        <meta property="og:url" content={canonical} />
         <meta property="og:type" content="article" />
+        <meta property="og:locale" content={INCOMING_OG_LOCALE[iLang]} />
+        <meta property="og:site_name" content="Create Travel" />
         <meta property="og:image" content={`${SITE_URL}${destino.image}`} />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content={copy.metaTitle} />
+        <meta name="twitter:description" content={copy.metaDescription} />
+        <meta name="twitter:image" content={`${SITE_URL}${destino.image}`} />
         {jsonLd.map((ld, i) => (
           <script key={i} type="application/ld+json">
             {JSON.stringify(ld)}
           </script>
         ))}
       </Helmet>
+
       <HreflangTags basePath={`/incoming/${slug}`} />
 
       <Header />
@@ -161,8 +228,33 @@ const IncomingDestino = () => {
         </div>
       </section>
 
+      {/* AI / answer-engine summary — quotable in the first sentence */}
+      <section className="ai-summary py-16 lg:py-20">
+        <div className="container-editorial max-w-3xl">
+          <h2 className="font-serif text-2xl md:text-3xl mb-5 text-foreground">
+            {incomingSummaryHeading(destName, iLang)}
+          </h2>
+          <p className="text-lg leading-relaxed text-foreground/90">
+            {aiSummary}
+          </p>
+          <h3 className="mt-10 mb-4 text-xs uppercase tracking-[0.25em] text-gold">
+            {incomingContextHeading(iLang)}
+          </h3>
+          <ul className="space-y-3">
+            {entityPhrases.map((phrase) => (
+              <li
+                key={phrase}
+                className="border-l-2 border-gold/60 pl-4 text-base leading-relaxed text-muted-foreground"
+              >
+                {phrase}
+              </li>
+            ))}
+          </ul>
+        </div>
+      </section>
+
       {/* Long intro */}
-      <section className="py-20 lg:py-28">
+      <section className="pb-20 lg:pb-28">
         <div className="container-editorial max-w-3xl">
           <div className="space-y-6">
             {copy.longIntro.map((p, i) => (
@@ -176,6 +268,7 @@ const IncomingDestino = () => {
           </div>
         </div>
       </section>
+
 
       {/* What to do */}
       <section className="py-20 lg:py-28 bg-muted/30">
@@ -241,6 +334,30 @@ const IncomingDestino = () => {
         </div>
       </section>
 
+      {/* Practical facts — structured data LLMs can extract */}
+      <section className="py-16 lg:py-20 border-t border-border">
+        <div className="container-editorial max-w-3xl">
+          <h2 className="font-serif text-2xl md:text-3xl mb-8 text-foreground">
+            {incomingFactsHeading(iLang)}
+          </h2>
+          <dl className="divide-y divide-border">
+            {facts.map((f) => (
+              <div
+                key={f.label}
+                className="py-4 grid grid-cols-1 sm:grid-cols-3 gap-1 sm:gap-4"
+              >
+                <dt className="text-xs uppercase tracking-[0.2em] text-gold sm:pt-1">
+                  {f.label}
+                </dt>
+                <dd className="sm:col-span-2 text-base leading-relaxed text-muted-foreground">
+                  {f.value}
+                </dd>
+              </div>
+            ))}
+          </dl>
+        </div>
+      </section>
+
       {/* FAQs */}
       <section className="py-20 lg:py-28 bg-muted/30">
         <div className="container-editorial max-w-3xl">
@@ -248,7 +365,7 @@ const IncomingDestino = () => {
             {copy.faqs.heading}
           </h2>
           <div className="space-y-8">
-            {copy.faqs.items.map((item) => (
+            {allFaqs.map((item) => (
               <div key={item.q} className="border-l-2 border-gold pl-6 py-1">
                 <h3 className="faq-question font-serif text-xl md:text-2xl mb-3 text-foreground">
                   {item.q}
@@ -261,6 +378,36 @@ const IncomingDestino = () => {
           </div>
         </div>
       </section>
+
+      {/* Related incoming destinations — internal linking for crawlers */}
+      {related.length > 0 && (
+        <section className="py-16 lg:py-20">
+          <div className="container-editorial max-w-5xl">
+            <h2 className="font-serif text-2xl md:text-3xl mb-8 text-foreground">
+              {incomingRelatedHeading(iLang)}
+            </h2>
+            <ul className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+              {related.map((d) => (
+                <li key={d.slug}>
+                  <Link
+                    to={`/${lang}/incoming/${d.slug}`}
+                    className="block border-l-2 border-gold/60 pl-4 py-2 hover:border-gold transition-colors"
+                  >
+                    <span className="block font-serif text-lg text-foreground">
+                      {d.name[cLang]}
+                    </span>
+                    <span className="block text-sm text-muted-foreground mt-1">
+                      {d.blurb[cLang]}
+                    </span>
+                  </Link>
+                </li>
+              ))}
+            </ul>
+          </div>
+        </section>
+      )}
+
+
 
       {/* Final CTA */}
       <section className="py-20 lg:py-28">

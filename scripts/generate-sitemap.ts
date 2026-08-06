@@ -28,7 +28,6 @@ import { localGuideGroups } from "../src/lib/localGuideGroups";
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const PAGE_SIZE = 12;
 const DOMAIN = CONTACT.domain.replace(/\/$/, "");
-const today = new Date().toISOString().slice(0, 10);
 
 type Url = { loc: string; priority: number; changefreq: string };
 
@@ -213,7 +212,6 @@ ${urls
   .map(
     (u) => `  <url>
     <loc>${u.loc}</loc>
-    <lastmod>${today}</lastmod>
     <changefreq>${u.changefreq}</changefreq>
     <priority>${u.priority.toFixed(1)}</priority>
   </url>`
