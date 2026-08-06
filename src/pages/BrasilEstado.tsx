@@ -45,17 +45,18 @@ const BrasilEstado = () => {
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",
     itemListElement: [
-      { "@type": "ListItem", position: 1, name: "Home", item: "/" },
-      { "@type": "ListItem", position: 2, name: "Destinos", item: "/destinos" },
-      { "@type": "ListItem", position: 3, name: "Brasil", item: "/brasil" },
+      { "@type": "ListItem", position: 1, name: "Home", item: `${CONTACT.domain}/` },
+      { "@type": "ListItem", position: 2, name: "Destinos", item: `${CONTACT.domain}/destinos` },
+      { "@type": "ListItem", position: 3, name: "Brasil", item: `${CONTACT.domain}/brasil` },
       {
         "@type": "ListItem",
         position: 4,
         name: state.name,
-        item: `/brasil/${state.slug}`,
+        item: `${CONTACT.domain}/brasil/${state.slug}`,
       },
     ],
   };
+
 
   const faqLd = state.faqs && state.faqs.length > 0
     ? {

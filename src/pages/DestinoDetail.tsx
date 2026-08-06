@@ -172,7 +172,7 @@ const DestinoDetail = () => {
         "@type": "ListItem",
         position: 3,
         name: destination.continent,
-        item: `${domain}/destinos?c=${destination.continent}`,
+        item: `${domain}/destinos?c=${encodeURIComponent(destination.continent)}`,
       },
       { "@type": "ListItem", position: 4, name: destination.name, item: pageUrl },
     ],

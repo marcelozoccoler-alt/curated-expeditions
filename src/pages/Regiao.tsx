@@ -42,10 +42,16 @@ const Regiao = () => {
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",
     itemListElement: [
-      { "@type": "ListItem", position: 1, name: "Home", item: "/" },
-      { "@type": "ListItem", position: 2, name: region.label, item: `/${region.slug}` },
+      { "@type": "ListItem", position: 1, name: "Home", item: `${CONTACT.domain}/` },
+      {
+        "@type": "ListItem",
+        position: 2,
+        name: region.label,
+        item: `${CONTACT.domain}/${region.slug}`,
+      },
     ],
   };
+
 
   const faqLd = region.faqs && region.faqs.length > 0
     ? {
