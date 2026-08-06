@@ -151,7 +151,33 @@ const GruposGuiaLocal = () => {
         acceptedAnswer: { "@type": "Answer", text: f.a },
       })),
     },
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      itemListElement: [
+        { "@type": "ListItem", position: 1, name: "Home", item: DOMAIN },
+        {
+          "@type": "ListItem",
+          position: 2,
+          name: "Grupos com guia local",
+          item: `${DOMAIN}/grupos-guia-local`,
+        },
+      ],
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      url: `${DOMAIN}/grupos-guia-local`,
+      name: "Grupos com guia local — Create Travel",
+      inLanguage: "pt-BR",
+      description: localGroupAiSummary,
+      speakable: {
+        "@type": "SpeakableSpecification",
+        cssSelector: [".ai-summary", "h1"],
+      },
+    },
   ];
+
 
   return (
     <div className="min-h-screen">
