@@ -58,6 +58,7 @@ const Incoming = () => {
   const faqJsonLd = {
     "@context": "https://schema.org",
     "@type": "FAQPage",
+    inLanguage: INCOMING_HTML_LANG[cLang as IncLang],
     mainEntity: copy.faqs.items.map((item) => ({
       "@type": "Question",
       name: item.q,
@@ -65,20 +66,56 @@ const Incoming = () => {
     })),
   };
 
+  // ItemList of the destination pages: helps crawlers and answer engines
+  // enumerate what we actually cover in Brazil.
+  const itemListJsonLd = {
+    "@context": "https://schema.org",
+    "@type": "ItemList",
+    name: copy.meta.title,
+    itemListElement: INCOMING_DESTINATIONS.map((d, i) => ({
+      "@type": "ListItem",
+      position: i + 1,
+      name: d.name[cLang],
+      description: d.blurb[cLang],
+      url: `${SITE_URL}/${lang}/incoming/${d.slug}`,
+    })),
+  };
+
+  const speakableJsonLd = {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    url: `${SITE_URL}/${lang}/incoming`,
+    inLanguage: INCOMING_HTML_LANG[cLang as IncLang],
+    speakable: {
+      "@type": "SpeakableSpecification",
+      cssSelector: ["h1", "h2", ".ai-summary", ".faq-question", ".faq-answer"],
+    },
+  };
+
   return (
     <div className="min-h-screen bg-background">
       <Helmet>
+        <html lang={INCOMING_HTML_LANG[cLang as IncLang]} />
         <title>{copy.meta.title}</title>
         <meta name="description" content={copy.meta.description} />
         <meta name="keywords" content={copy.meta.keywords} />
+        <meta name="robots" content="index,follow,max-image-preview:large,max-snippet:-1" />
         <link rel="canonical" href={`${SITE_URL}/${lang}/incoming`} />
         <meta property="og:title" content={copy.meta.title} />
         <meta property="og:description" content={copy.meta.description} />
         <meta property="og:url" content={`${SITE_URL}/${lang}/incoming`} />
         <meta property="og:type" content="website" />
+        <meta property="og:site_name" content="Create Travel" />
+        <meta property="og:locale" content={INCOMING_OG_LOCALE[cLang as IncLang]} />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content={copy.meta.title} />
+        <meta name="twitter:description" content={copy.meta.description} />
         <script type="application/ld+json">{JSON.stringify(jsonLd)}</script>
         <script type="application/ld+json">{JSON.stringify(faqJsonLd)}</script>
+        <script type="application/ld+json">{JSON.stringify(itemListJsonLd)}</script>
+        <script type="application/ld+json">{JSON.stringify(speakableJsonLd)}</script>
       </Helmet>
+
       <HreflangTags basePath="/incoming" />
 
       <Header />
