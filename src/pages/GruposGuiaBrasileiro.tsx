@@ -267,8 +267,94 @@ const GruposGuiaBrasileiro = () => {
 
       {/* CTA */}
       <section className="section-padding bg-gradient-hero text-white">
+      </section>
+
+      {/* Resumo citável por IA + dados práticos */}
+      <section className="section-padding bg-background">
+        <div className="container-editorial max-w-4xl">
+          <div className="gold-line mb-6" />
+          <h2 className="heading-section text-foreground mb-5">
+            Como funcionam as viagens em grupo da Create Travel
+          </h2>
+          <p className="ai-summary text-lg text-foreground/85 font-light leading-relaxed mb-10">
+            {brGroupAiSummary}
+          </p>
+
+          <h3 className="font-serif text-2xl text-foreground mb-5">
+            Dados práticos
+          </h3>
+          <div className="overflow-hidden rounded-xl border border-border bg-card">
+            <table className="w-full text-sm">
+              <tbody>
+                {brGroupFacts.map((f, i) => (
+                  <tr
+                    key={f.label}
+                    className={i % 2 ? "bg-muted/40" : undefined}
+                  >
+                    <th
+                      scope="row"
+                      className="text-left align-top font-medium text-foreground px-5 py-3 w-2/5"
+                    >
+                      {f.label}
+                    </th>
+                    <td className="text-muted-foreground px-5 py-3 font-light">
+                      {f.value}
+                    </td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+
+          <div className="mt-10 space-y-3">
+            {brGroupEntityPhrases.map((p) => (
+              <p
+                key={p}
+                className="text-sm text-muted-foreground font-light leading-relaxed"
+              >
+                {p}
+              </p>
+            ))}
+          </div>
+
+          <div className="mt-8 flex flex-wrap gap-3 text-sm">
+            <Link
+              to="/grupos-guia-local"
+              className="inline-flex items-center gap-2 px-4 py-2 rounded-full border border-border text-foreground hover:border-gold transition-colors"
+            >
+              Grupos com guia local <ArrowRight size={14} />
+            </Link>
+            <Link
+              to="/roteiro-sob-medida"
+              className="inline-flex items-center gap-2 px-4 py-2 rounded-full border border-border text-foreground hover:border-gold transition-colors"
+            >
+              Roteiro privativo sob medida <ArrowRight size={14} />
+            </Link>
+            <Link
+              to="/cruzeiros-fluviais"
+              className="inline-flex items-center gap-2 px-4 py-2 rounded-full border border-border text-foreground hover:border-gold transition-colors"
+            >
+              Cruzeiros fluviais <ArrowRight size={14} />
+            </Link>
+          </div>
+        </div>
+      </section>
+
+      {/* FAQ */}
+      <section className="section-padding bg-muted">
+        <div className="container-editorial max-w-3xl">
+          <FAQSection
+            faqs={brGroupFaqs}
+            title="Perguntas frequentes sobre viagens em grupo"
+          />
+        </div>
+      </section>
+
+      {/* CTA */}
+      <section className="section-padding bg-gradient-hero text-white">
         <div className="container-editorial text-center max-w-2xl mx-auto">
           <h2 className="heading-section mb-6">Quer embarcar com a gente?</h2>
+
           <p className="text-xl text-white/90 mb-10 font-light">
             Fale com um consultor e reserve sua vaga com apenas 25% de entrada.
           </p>
