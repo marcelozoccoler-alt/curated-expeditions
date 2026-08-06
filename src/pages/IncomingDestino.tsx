@@ -19,6 +19,7 @@ import {
   incomingSummaryHeading,
   incomingContextHeading,
   incomingFactsHeading,
+  incomingRelatedHeading,
   type IncLang,
 } from "@/lib/incomingGeo";
 import { generateIncomingWhatsAppLink } from "@/lib/whatsappI18n";
@@ -383,9 +384,7 @@ const IncomingDestino = () => {
         <section className="py-16 lg:py-20">
           <div className="container-editorial max-w-5xl">
             <h2 className="font-serif text-2xl md:text-3xl mb-8 text-foreground">
-              {INCOMING_DESTINATIONS.length > 0 && copy.finalCta.heading
-                ? incomingContextHeading(iLang)
-                : ""}
+              {incomingRelatedHeading(iLang)}
             </h2>
             <ul className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
               {related.map((d) => (

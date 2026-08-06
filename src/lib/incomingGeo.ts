@@ -300,6 +300,15 @@ export const incomingContextHeading = (lang: IncLang) =>
 export const incomingFactsHeading = (lang: IncLang) =>
   STRINGS[lang].factsHeading;
 
+const RELATED_HEADING: Record<IncLang, string> = {
+  en: "More Brazilian destinations we design",
+  es: "Más destinos de Brasil que diseñamos",
+  it: "Altre destinazioni del Brasile che progettiamo",
+  de: "Weitere brasilianische Reiseziele, die wir planen",
+};
+
+export const incomingRelatedHeading = (lang: IncLang) => RELATED_HEADING[lang];
+
 /** Short phrases connecting the destination to bigger entities. */
 export const buildIncomingEntityPhrases = (
   destName: string,
