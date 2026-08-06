@@ -227,8 +227,33 @@ const IncomingDestino = () => {
         </div>
       </section>
 
+      {/* AI / answer-engine summary — quotable in the first sentence */}
+      <section className="ai-summary py-16 lg:py-20">
+        <div className="container-editorial max-w-3xl">
+          <h2 className="font-serif text-2xl md:text-3xl mb-5 text-foreground">
+            {incomingSummaryHeading(destName, iLang)}
+          </h2>
+          <p className="text-lg leading-relaxed text-foreground/90">
+            {aiSummary}
+          </p>
+          <h3 className="mt-10 mb-4 text-xs uppercase tracking-[0.25em] text-gold">
+            {incomingContextHeading(iLang)}
+          </h3>
+          <ul className="space-y-3">
+            {entityPhrases.map((phrase) => (
+              <li
+                key={phrase}
+                className="border-l-2 border-gold/60 pl-4 text-base leading-relaxed text-muted-foreground"
+              >
+                {phrase}
+              </li>
+            ))}
+          </ul>
+        </div>
+      </section>
+
       {/* Long intro */}
-      <section className="py-20 lg:py-28">
+      <section className="pb-20 lg:pb-28">
         <div className="container-editorial max-w-3xl">
           <div className="space-y-6">
             {copy.longIntro.map((p, i) => (
@@ -242,6 +267,7 @@ const IncomingDestino = () => {
           </div>
         </div>
       </section>
+
 
       {/* What to do */}
       <section className="py-20 lg:py-28 bg-muted/30">
