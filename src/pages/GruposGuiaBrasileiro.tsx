@@ -5,9 +5,23 @@ import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
 import { WhatsAppButton } from "@/components/WhatsAppButton";
 import { SEO } from "@/components/SEO";
+import { FAQSection } from "@/components/FAQSection";
+import { Breadcrumbs } from "@/components/Breadcrumbs";
+import { CONTACT } from "@/lib/types";
 import { DEPARTURES } from "@/pages/EmbarqueComACreate";
+import { catalogCountries } from "@/lib/groupsCatalog";
+import {
+  brGroupAiSummary,
+  brGroupEntityPhrases,
+  brGroupFacts,
+  brGroupFaqs,
+  brGroupYears,
+} from "@/lib/gruposGeo";
+
+const DOMAIN = CONTACT.domain.replace(/\/$/, "");
 
 const MONTHS_PT = ["Janeiro", "Fevereiro", "Março", "Abril", "Maio", "Junho", "Julho", "Agosto", "Setembro", "Outubro", "Novembro", "Dezembro"];
+
 
 const DIFFERENTIALS = [
   { icon: Users, title: "Coordenador brasileiro", desc: "Embarca com o grupo em Guarulhos e acompanha do check-in ao último brinde." },
