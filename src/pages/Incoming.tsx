@@ -8,6 +8,12 @@ import { HreflangTags } from "@/components/HreflangTags";
 import { SUPPORTED_LANGS, toContentLang, type ContentLang } from "@/i18n/config";
 import { INCOMING_COPY } from "@/lib/incomingCopy";
 import { INCOMING_DESTINATIONS } from "@/lib/incomingDestinations";
+import {
+  INCOMING_HTML_LANG,
+  INCOMING_OG_LOCALE,
+  type IncLang,
+} from "@/lib/incomingGeo";
+
 import { generateIncomingWhatsAppLink } from "@/lib/whatsappI18n";
 import { CONTACT } from "@/lib/types";
 import { useLang } from "@/hooks/useLang";
