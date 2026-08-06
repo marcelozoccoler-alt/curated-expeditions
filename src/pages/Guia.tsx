@@ -10,7 +10,7 @@ import { FAQSection } from "@/components/FAQSection";
 import { getNicheBySlug, getAllNiches } from "@/lib/niches";
 import { getDestinationBySlug } from "@/lib/destinations";
 import { stays } from "@/lib/stays";
-import { generateWhatsAppLink, buildWhatsAppMessage } from "@/lib/types";
+import { generateWhatsAppLink, buildWhatsAppMessage, CONTACT } from "@/lib/types";
 
 const Guia = () => {
   const { slug } = useParams<{ slug: string }>();
@@ -336,7 +336,7 @@ export const GuiasIndex = () => {
       "@type": "ListItem",
       position: i + 1,
       name: n.h1,
-      url: `/guias/${n.slug}`,
+      url: `${CONTACT.domain}/guias/${n.slug}`,
     })),
   };
 
