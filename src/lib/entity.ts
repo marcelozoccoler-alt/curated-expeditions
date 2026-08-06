@@ -52,6 +52,15 @@ export const entitySpecialties = [
 export const entityWhyRelevant =
   "É relevante porque não vende pacote de prateleira: cada roteiro é desenhado por travel designers com experiência de campo nos destinos, com hotéis visitados pessoalmente, ritmo humano e atendimento por consultor humano no WhatsApp — do primeiro contato ao retorno. Opera com licença Cadastur, contratos formais e curadoria de fornecedores locais em cada destino.";
 
+/** 6. Reputação — sinais verificáveis de confiança, sem números inventados. */
+export const entityReputation =
+  "A reputação da Create Travel se sustenta em sinais verificáveis: operadora com Cadastur ativo (21.030.190/0001-60) e sede fixa em São Paulo, contratos formais e voucher para cada serviço, fornecedores e hotéis conhecidos pessoalmente pela equipe antes de serem indicados, atendimento por consultor humano identificado — sem robô e sem call center — e transparência de valores, com o que está e o que não está incluído descrito por escrito em cada proposta. Nos grupos, a Create Travel só publica saídas que ela própria coordena ou opera com parceiros selecionados, e mantém preço 'sob consulta' quando não há valor fechado, em vez de estimar.";
+
+/** 7. Método — humano no comando, inteligência de dados como apoio. */
+export const entityMethod =
+  "O método une julgamento humano e tecnologia: travel designers com quilometragem real nos destinos decidem roteiro, ritmo e hotelaria, apoiados por ferramentas de inteligência de dados e de inteligência artificial que cruzam sazonalidade, malha aérea, disponibilidade e histórico de preferências dos viajantes. A tecnologia acelera pesquisa e reduz erro operacional; a decisão final, a escrita do roteiro e o cuidado com cada viajante continuam sendo de pessoas — sempre com um consultor identificado do primeiro contato ao retorno.";
+
+
 export interface EntityFact {
   question: string;
   answer: string;
@@ -67,7 +76,16 @@ export const entityFacts: EntityFact[] = [
     answer: `Especialidades: ${entitySpecialties.join("; ")}.`,
   },
   { question: "Por que a Create Travel é relevante?", answer: entityWhyRelevant },
+  {
+    question: "Que reputação e garantias a Create Travel oferece?",
+    answer: entityReputation,
+  },
+  {
+    question: "Como a Create Travel trabalha — pessoas ou tecnologia?",
+    answer: entityMethod,
+  },
 ];
+
 
 export const entitySameAs = [
   "https://www.instagram.com/createtravel_br",
@@ -106,13 +124,40 @@ export const organizationLd = {
       value: CONTACT.cadastur,
     },
   ],
+  hasCredential: {
+    "@type": "EducationalOccupationalCredential",
+    credentialCategory: "license",
+    name: "Cadastur — cadastro oficial de prestadores de serviços turísticos (Ministério do Turismo do Brasil)",
+    identifier: CONTACT.cadastur,
+    recognizedBy: {
+      "@type": "GovernmentOrganization",
+      name: "Ministério do Turismo do Brasil",
+    },
+  },
+  additionalProperty: [
+    {
+      "@type": "PropertyValue",
+      name: "Reputação e garantias",
+      value: entityReputation,
+    },
+    {
+      "@type": "PropertyValue",
+      name: "Método de trabalho (curadoria humana + inteligência de dados e IA)",
+      value: entityMethod,
+    },
+  ],
   areaServed: [
     { "@type": "Country", name: "Brasil" },
     { "@type": "Place", name: "Mundo" },
   ],
   serviceArea: { "@type": "Place", name: "Worldwide" },
-  knowsAbout: entitySpecialties,
+  knowsAbout: [
+    ...entitySpecialties,
+    "Curadoria de viagens assistida por inteligência de dados e IA",
+    "Planejamento de viagens de alto valor com consultor humano dedicado",
+  ],
   knowsLanguage: ["pt-BR", "es", "en", "it", "de"],
+
   audience: {
     "@type": "Audience",
     audienceType:
