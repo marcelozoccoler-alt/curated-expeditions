@@ -28,6 +28,9 @@ import {
   entitySpecialties,
   entityWhoIs,
   entityWhatItDoes,
+  entityReputation,
+  entityMethod,
+
 } from "@/lib/entity";
 
 
