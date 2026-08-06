@@ -25,6 +25,48 @@ A Create Travel desenha viagens personalizadas para viajantes exigentes — fam�
 - [Brasile per viaggiatori (IT)](/it/incoming)
 - [Brasilien für Reisende (DE)](/de/incoming)
 
+## Incoming destination guides (EN/ES/IT/DE)
+
+### Brazil for travelers (EN)
+
+- [Amazon Rainforest](/en/incoming/amazon)
+- [Pantanal Wetlands](/en/incoming/pantanal)
+- [Lençóis Maranhenses](/en/incoming/lencois-maranhenses)
+- [Rio de Janeiro](/en/incoming/rio-de-janeiro)
+- [Bonito](/en/incoming/bonito)
+- [Iguazu Falls](/en/incoming/iguazu)
+- [Bahia](/en/incoming/bahia)
+
+### Brasil para viajeros (ES)
+
+- [Amazon Rainforest](/es/incoming/amazon)
+- [Pantanal Wetlands](/es/incoming/pantanal)
+- [Lençóis Maranhenses](/es/incoming/lencois-maranhenses)
+- [Rio de Janeiro](/es/incoming/rio-de-janeiro)
+- [Bonito](/es/incoming/bonito)
+- [Iguazu Falls](/es/incoming/iguazu)
+- [Bahia](/es/incoming/bahia)
+
+### Brasile per viaggiatori (IT)
+
+- [Amazon Rainforest](/it/incoming/amazon)
+- [Pantanal Wetlands](/it/incoming/pantanal)
+- [Lençóis Maranhenses](/it/incoming/lencois-maranhenses)
+- [Rio de Janeiro](/it/incoming/rio-de-janeiro)
+- [Bonito](/it/incoming/bonito)
+- [Iguazu Falls](/it/incoming/iguazu)
+- [Bahia](/it/incoming/bahia)
+
+### Brasilien für Reisende (DE)
+
+- [Amazon Rainforest](/de/incoming/amazon)
+- [Pantanal Wetlands](/de/incoming/pantanal)
+- [Lençóis Maranhenses](/de/incoming/lencois-maranhenses)
+- [Rio de Janeiro](/de/incoming/rio-de-janeiro)
+- [Bonito](/de/incoming/bonito)
+- [Iguazu Falls](/de/incoming/iguazu)
+- [Bahia](/de/incoming/bahia)
+
 ## Optional
 
 - [Grupo Marrocos 2026](/grupos/marrocos-2026): saída em grupo guiada do Brasil.
