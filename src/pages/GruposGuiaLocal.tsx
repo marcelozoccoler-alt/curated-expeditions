@@ -27,7 +27,10 @@ import {
   MONTHS_PT,
 } from "@/lib/localGuideGroups";
 
+import { localGroupAiSummary } from "@/lib/gruposGeo";
+
 const DOMAIN = CONTACT.domain.replace(/\/$/, "");
+
 
 const monthLabel = (key: string) =>
   `${MONTHS_PT[Number(key.slice(5, 7)) - 1]}/${key.slice(2, 4)}`;
