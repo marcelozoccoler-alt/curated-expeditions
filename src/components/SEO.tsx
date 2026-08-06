@@ -51,7 +51,13 @@ export const SEO = ({
   const next = nextPath ? `${DOMAIN}${nextPath.startsWith("/") ? "" : "/"}${nextPath}` : null;
   const robots = noindex ? "noindex,follow" : "index,follow";
 
-  const ldArray = jsonLd ? (Array.isArray(jsonLd) ? jsonLd : [jsonLd]) : [];
+  // Grafo canônico da entidade (Padrão 1 — Entidade Forte) em todas as páginas.
+  const ldArray = [
+    organizationLd as Record<string, unknown>,
+    websiteLd as Record<string, unknown>,
+    ...(jsonLd ? (Array.isArray(jsonLd) ? jsonLd : [jsonLd]) : []),
+  ];
+
 
   return (
     <Helmet>
