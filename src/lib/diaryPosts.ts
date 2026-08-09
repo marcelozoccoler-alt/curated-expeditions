@@ -1134,6 +1134,7 @@ const corePosts: DiaryPost[] = [
   },
   {
     slug: "bali-guia-essencial",
+    imageOverrideUrl: "/src/assets/diary/bali.jpg",
     title: "Bali: guia essencial — onde ficar, o que ver, quando ir",
     h1: "Bali: a ilha onde a espiritualidade ainda organiza o dia",
     metaDescription:
