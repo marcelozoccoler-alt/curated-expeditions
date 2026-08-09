@@ -1194,6 +1194,7 @@ const corePosts: DiaryPost[] = [
   },
   {
     slug: "cidades-historicas-de-minas-gerais",
+    imageOverrideUrl: "/src/assets/diary/cidades-historicas-minas-gerais.jpg",
     title: "Cidades históricas de Minas Gerais: roteiro pelos 7 essenciais",
     h1: "Cidades históricas de Minas: sete tesouros do barroco brasileiro",
     metaDescription:
