@@ -1134,6 +1134,7 @@ const corePosts: DiaryPost[] = [
   },
   {
     slug: "bali-guia-essencial",
+    imageOverrideUrl: "/src/assets/diary/bali.jpg",
     title: "Bali: guia essencial — onde ficar, o que ver, quando ir",
     h1: "Bali: a ilha onde a espiritualidade ainda organiza o dia",
     metaDescription:
@@ -1193,6 +1194,7 @@ const corePosts: DiaryPost[] = [
   },
   {
     slug: "cidades-historicas-de-minas-gerais",
+    imageOverrideUrl: "/src/assets/diary/cidades-historicas-minas-gerais.jpg",
     title: "Cidades históricas de Minas Gerais: roteiro pelos 7 essenciais",
     h1: "Cidades históricas de Minas: sete tesouros do barroco brasileiro",
     metaDescription:
