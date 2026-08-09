@@ -8,6 +8,7 @@ import { Breadcrumbs } from "@/components/Breadcrumbs";
 import { SEO } from "@/components/SEO";
 import { getRegionBySlug } from "@/lib/regions";
 import { getDestinationBySlug } from "@/lib/destinations";
+import { getDestinationImage } from "@/lib/destinationImages";
 import { generateWhatsAppLink, CONTACT } from "@/lib/types";
 import { buildPlaceKeywords, buildSpeakableSchema } from "@/lib/seoIntents";
 import NotFound from "./NotFound";
