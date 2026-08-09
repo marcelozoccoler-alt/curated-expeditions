@@ -8,6 +8,7 @@ import { Breadcrumbs } from "@/components/Breadcrumbs";
 import { SEO } from "@/components/SEO";
 import { getRegionBySlug } from "@/lib/regions";
 import { getDestinationBySlug } from "@/lib/destinations";
+import { getDestinationImage } from "@/lib/destinationImages";
 import { generateWhatsAppLink, CONTACT } from "@/lib/types";
 import { buildPlaceKeywords, buildSpeakableSchema } from "@/lib/seoIntents";
 import NotFound from "./NotFound";
@@ -188,38 +189,44 @@ const Regiao = () => {
             </div>
 
             <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
-              {destinations.map((d) => (
-                <Link
-                  key={d!.id}
-                  to={`/destinos/${d!.slug}`}
-                  className="group bg-card border border-border rounded-lg overflow-hidden hover:shadow-elegant transition-all"
-                >
-                  {d!.imageOverrideUrl && (
-                    <div className="aspect-[3/2] overflow-hidden">
-                      <img
-                        src={d!.imageOverrideUrl}
-                        alt={d!.name}
-                        loading="lazy"
-                        className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
-                      />
+              {destinations.map((d) => {
+                const imageUrl =
+                  d!.imageOverrideUrl ||
+                  getDestinationImage(d!.id) ||
+                  region.heroImageUrl;
+                return (
+                  <Link
+                    key={d!.id}
+                    to={`/destinos/${d!.slug}`}
+                    className="group bg-card border border-border rounded-lg overflow-hidden hover:shadow-elegant transition-all"
+                  >
+                    {imageUrl && (
+                      <div className="aspect-[3/2] overflow-hidden">
+                        <img
+                          src={imageUrl}
+                          alt={d!.name}
+                          loading="lazy"
+                          className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
+                        />
+                      </div>
+                    )}
+                    <div className="p-6">
+                      <p className="flex items-center gap-1 text-xs uppercase tracking-[0.18em] text-muted-foreground">
+                        <MapPin size={12} /> {d!.continent} · {d!.region}
+                      </p>
+                      <h3 className="font-serif text-xl mt-2 group-hover:text-gold transition-colors">
+                        {d!.name}
+                      </h3>
+                      <p className="text-sm text-muted-foreground mt-3 line-clamp-3">
+                        {d!.intro}
+                      </p>
+                      <span className="inline-flex items-center gap-1 text-sm text-gold mt-4">
+                        Explorar <ArrowRight size={14} />
+                      </span>
                     </div>
-                  )}
-                  <div className="p-6">
-                    <p className="flex items-center gap-1 text-xs uppercase tracking-[0.18em] text-muted-foreground">
-                      <MapPin size={12} /> {d!.continent} · {d!.region}
-                    </p>
-                    <h3 className="font-serif text-xl mt-2 group-hover:text-gold transition-colors">
-                      {d!.name}
-                    </h3>
-                    <p className="text-sm text-muted-foreground mt-3 line-clamp-3">
-                      {d!.intro}
-                    </p>
-                    <span className="inline-flex items-center gap-1 text-sm text-gold mt-4">
-                      Explorar <ArrowRight size={14} />
-                    </span>
-                  </div>
-                </Link>
-              ))}
+                  </Link>
+                );
+              })}
             </div>
           </div>
         </section>
