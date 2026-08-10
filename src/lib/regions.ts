@@ -929,6 +929,59 @@ export const regions: Region[] = [
       { q: "Vale ir no Dia de Muertos?", a: "Vale muito, especialmente em Oaxaca e na Cidade do México. Exige planejamento antecipado por causa da alta demanda." },
     ],
   },
+  {
+    slug: "estados-unidos",
+    label: "Estados Unidos",
+    kicker: "América do Norte",
+    intro:
+      "Roteiros autorais pelos Estados Unidos: Nova York, Califórnia e a Highway 1, os parques nacionais do Oeste, Alasca e Havaí. Curadoria com hotéis pequenos, guias-naturalistas e horários calculados para a melhor luz.",
+    metaDescription:
+      "Roteiros autorais nos Estados Unidos com curadoria Create Travel: Nova York, Califórnia, parques nacionais do Oeste, Alasca e Havaí. Viagens sob medida e suporte 24/7.",
+    heroImageUrl:
+      "https://images.unsplash.com/photo-1474044159687-1ee9f3a51722?w=1920&h=1080&fit=crop",
+    destinationSlugs: [
+      "america-do-norte/estados-unidos/nova-york",
+      "america-do-norte/estados-unidos/california-costa-oeste",
+      "america-do-norte/estados-unidos/parques-nacionais-oeste",
+      "america-do-norte/estados-unidos/alasca",
+      "america-do-norte/estados-unidos/havai",
+    ],
+    longIntro:
+      "Uma viagem autoral aos Estados Unidos não se resume a compras e parques temáticos. O país concentra 63 parques nacionais, a maior variedade de ecossistemas de um único território temperado, uma cena cultural e gastronômica sem paralelo em Nova York e na Califórnia, geleiras que ainda desabam no mar no Alasca e vulcões ativos no Havaí. Na Create Travel desenhamos roteiros privativos que combinam cidade e natureza no mesmo percurso — Nova York com museus fora do horário público, a Highway 1 entre Monterey e Big Sur, o circuito de cânions entre Zion, Bryce, Page e o Grand Canyon com pernoite dentro dos parques, os fiordes e os ursos do Alasca e o Pacífico havaiano ilha a ilha. Sempre com guias credenciados, hotéis pequenos e reservas que dependem de relação, não de balcão.",
+    whatToDo: [
+      {
+        title: "Parques nacionais com pernoite dentro do parque",
+        body: "Grand Canyon, Zion, Bryce, Arches, Yosemite, Denali e Yellowstone visitados no amanhecer e no entardecer, quando os ônibus de excursão já não estão lá. Guias-naturalistas e lodges reservados com meses de antecedência.",
+      },
+      {
+        title: "Cidade em camadas",
+        body: "Nova York e San Francisco com museus fora do horário público, ateliês de artistas, teatro com bons lugares e mesas de reserva difícil garantidas pela curadoria.",
+      },
+      {
+        title: "Roadtrips cênicas",
+        body: "Highway 1 entre San Francisco e Santa Barbara, Scenic Byway 12 em Utah, Seward Highway no Alasca e Road to Hana em Maui — com roteiro dia a dia e paradas calculadas pela luz.",
+      },
+      {
+        title: "Vida selvagem e vinhos",
+        body: "Ursos-pardos pescando salmão no Alasca, baleias em Monterey e no Havaí, mantas gigantes em Kona, e vinícolas familiares de Napa e Sonoma com enólogo.",
+      },
+    ],
+    bestTime:
+      "Maio-junho e setembro-outubro são as melhores janelas para a maior parte do país: clima ameno, menos multidão e estradas abertas. Julho e agosto trazem calor extremo no deserto do Sudoeste e lotação máxima nos parques. O Alasca funciona de junho a setembro (aurora boreal de setembro a março em Fairbanks). Nova York brilha em outubro e em dezembro. No Havaí, abril-junho e setembro-novembro têm menos chuva, e as baleias-jubarte aparecem de dezembro a abril.",
+    howToGet:
+      "Voos diretos de São Paulo e do Rio para Nova York (JFK e EWR), Miami, Orlando, Los Angeles, San Francisco, Dallas, Houston e Atlanta. A malha doméstica conecta praticamente qualquer ponto com uma conexão: Las Vegas (LAS), Anchorage (ANC), Kona (KOA) e Lihue (LIH) entram no roteiro por voo interno. É obrigatório o visto americano B1/B2 válido — orientamos documentação e cronograma de agendamento, que pode ser longo.",
+    whereToStay:
+      "Trabalhamos com hotéis-boutique em Manhattan, Brooklyn e San Francisco, lodges históricos dentro dos parques nacionais (El Tovar no Grand Canyon, Ahwahnee em Yosemite, lodges de Denali), pousadas de vale em Napa e Sonoma, hotéis de penhasco em Big Sur, lodges remotos no Alasca acessíveis só por hidroavião e hotéis pequenos de frente para o oceano no Havaí. Poucos quartos, localização decisiva e operação local.",
+    faqs: [
+      { q: "Quantos dias para uma viagem aos Estados Unidos?", a: "De 10 a 14 dias para uma região com profundidade — Nova York e arredores, a Califórnia, ou o circuito de parques do Sudoeste. Roteiros de 18 a 21 dias permitem combinar cidade e parques, ou Alasca com Costa Oeste." },
+      { q: "Brasileiro precisa de visto para os Estados Unidos?", a: "Sim, é exigido o visto americano B1/B2 válido. O agendamento pode levar meses dependendo do consulado, por isso recomendamos iniciar o processo antes de fechar datas. Orientamos toda a documentação e o cronograma." },
+      { q: "Qual a melhor época para visitar os parques nacionais americanos?", a: "Maio-junho e setembro-outubro: temperaturas amenas, estradas abertas e menos multidão. Julho e agosto são os meses mais cheios e mais quentes no deserto. De novembro a abril, boa parte de Yellowstone e do Grand Teton fica fechada por neve." },
+      { q: "Dá para combinar cidade e natureza no mesmo roteiro?", a: "Sim, é a combinação mais pedida: uma semana em Nova York ou na Califórnia e outra nos parques do Oeste, com voo interno entre as pontas." },
+      { q: "Vale mais dirigir ou ter motorista privativo?", a: "Nos parques e nas roadtrips cênicas, o self-drive com roteiro milimetrado é o mais comum e mais confortável em termos de liberdade. Nas cidades, usamos transfers e motorista privativo. Também montamos o roteiro inteiro com motorista-guia para quem prefere não dirigir." },
+      { q: "Os Estados Unidos são um bom destino para lua de mel?", a: "Sim: Big Sur e Napa na Califórnia, hotéis pequenos em Kauai e Maui, e lodges de fiorde no Alasca são as escolhas mais frequentes, com jantares reservados e experiências privativas." },
+      { q: "Como criar meu roteiro nos Estados Unidos?", a: "Fale com nossa curadoria pelo WhatsApp ou clique em Criar roteiro sob medida: desenhamos a viagem do zero conforme período, ritmo, interesses e perfil do grupo." },
+    ],
+  },
 ];
 
 export const getRegionBySlug = (slug: string): Region | undefined =>
