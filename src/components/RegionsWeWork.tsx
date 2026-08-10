@@ -34,7 +34,7 @@ const GROUPS: { title: string; slugs: string[] }[] = [
   },
   {
     title: "América do Norte e Central",
-    slugs: ["mexico"],
+    slugs: ["mexico", "estados-unidos"],
   },
   {
     title: "Europa",

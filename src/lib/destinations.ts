@@ -1,5 +1,6 @@
 import { Destination } from "./types";
 import { mexicoDestinations } from "./mexicoDestinations";
+import { usaDestinations } from "./usaDestinations";
 import monteRoraimaImg from "@/assets/destinations/brasil-monte-roraima.jpg";
 import festivalParintinsImg from "@/assets/destinations/brasil-amazonia-festival-parintins.jpg";
 import manausRioNegroImg from "@/assets/destinations/brasil-amazonia-manaus-rio-negro.jpg";
@@ -3672,6 +3673,7 @@ export const destinations: Destination[] = [
     ],
   },
   ...mexicoDestinations,
+  ...usaDestinations,
 ];
 
 export const getDestinationBySlug = (slug: string): Destination | undefined => {
