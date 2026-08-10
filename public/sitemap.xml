@@ -2531,6 +2531,31 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://createtravel.tur.br/diario/nova-york-autoral-guia-viagem</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://createtravel.tur.br/diario/parques-nacionais-oeste-americano-roteiro</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://createtravel.tur.br/diario/california-highway-1-napa-yosemite-roteiro</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://createtravel.tur.br/diario/alasca-viagem-guia-melhor-epoca</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://createtravel.tur.br/diario/havai-guia-viagem-ilhas-vulcoes</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://createtravel.tur.br/pacote/chapada-dos-veadeiros</loc>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
