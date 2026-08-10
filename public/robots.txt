@@ -4,4 +4,36 @@ Allow: /
 # Filtros multi-tag e buscas internas são noindex via meta robots no SPA;
 # mantemos crawlable para o rel=canonical passar sinais.
 
+# Crawlers de IA — liberação explícita (indicação em ChatGPT, Perplexity, Gemini, Copilot)
+User-agent: GPTBot
+Allow: /
+
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Perplexity-User
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: Applebot-Extended
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: Claude-User
+Allow: /
+
 Sitemap: https://createtravel.tur.br/sitemap.xml
+
