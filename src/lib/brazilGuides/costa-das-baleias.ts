@@ -49,7 +49,6 @@ export const costaDasBaleiasGuide: BrazilGuideLocalized = {
           text: "Saídas de barco licenciadas partindo de Caravelas, com regras rígidas de distância e tempo de aproximação estabelecidas pelo ICMBio para proteger as baleias. Passeios de meio dia a partir do arquipélago.",
         },
         {
-          window: undefined,
           title: "Mergulho no Parque Nacional Marinho de Abrolhos",
           text: "O maior e mais rico banco de corais do Atlântico Sul, com formações únicas de coral-cérebro-de-abrolhos, tartarugas marinhas e uma visibilidade que pode superar 20 metros fora da temporada de chuvas.",
         },
