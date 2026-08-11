@@ -6,6 +6,7 @@ import type { FAQ } from "./types";
 import { diaryPostsDestinos } from "./diaryPostsDestinos";
 import { diaryPostsDestinos2 } from "./diaryPostsDestinos2";
 import { diaryPostsUsa } from "./diaryPostsUsa";
+import { diaryPostsAsiaCentral } from "./diaryPostsAsiaCentral";
 
 export interface DiarySection {
   heading: string;
@@ -3785,6 +3786,7 @@ export const diaryPosts: DiaryPost[] = [
   ...diaryPostsDestinos,
   ...diaryPostsDestinos2,
   ...diaryPostsUsa,
+  ...diaryPostsAsiaCentral,
 ];
 
 export const getDiaryPost = (slug: string): DiaryPost | undefined =>
