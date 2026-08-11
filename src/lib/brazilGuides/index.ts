@@ -6,6 +6,7 @@ import { amazonGuide } from "./amazon";
 import { pantanalGuide } from "./pantanal";
 import { rioDeJaneiroGuide } from "./rio-de-janeiro";
 import { lencoisMaranhensesGuide } from "./lencois-maranhenses";
+import { iguazuGuide } from "./iguazu";
 import { fernandoDeNoronhaGuide } from "./fernando-de-noronha";
 import { jericoacoaraGuide } from "./jericoacoara";
 import { maragogiGuide } from "./maragogi";
@@ -20,6 +21,7 @@ export const BRAZIL_GUIDES: Record<string, BrazilGuideLocalized> = {
   pantanal: pantanalGuide,
   "rio-de-janeiro": rioDeJaneiroGuide,
   "lencois-maranhenses": lencoisMaranhensesGuide,
+  iguazu: iguazuGuide,
   "fernando-de-noronha": fernandoDeNoronhaGuide,
   jericoacoara: jericoacoaraGuide,
   maragogi: maragogiGuide,
