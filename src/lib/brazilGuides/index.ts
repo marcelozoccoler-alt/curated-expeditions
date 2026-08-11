@@ -38,6 +38,7 @@ import { grandesCenariosBrasilGuide } from "./grandes-cenarios-brasil";
 import { brasilAventuraGuide } from "./brasil-aventura";
 import { belemGuide } from "./belem";
 import { conjugadoAmazoniaPantanalGuide } from "./conjugado-amazonia-pantanal";
+import { conjugadoBelemMarajoAlterGuide } from "./conjugado-belem-marajo-alter";
 import { conjugadoRioBahiaNoronhaGuide } from "./conjugado-rio-bahia-noronha";
 import { conjugadoCerradoChapadasGuide } from "./conjugado-cerrado-chapadas";
 import { conjugadoSulSerraCanyonsGuide } from "./conjugado-sul-serra-canyons";
@@ -86,6 +87,7 @@ export const BRAZIL_GUIDES: Record<string, BrazilGuideLocalized> = {
   "brasil-aventura": brasilAventuraGuide,
   belem: belemGuide,
   "conjugado-amazonia-pantanal": conjugadoAmazoniaPantanalGuide,
+  "conjugado-belem-marajo-alter": conjugadoBelemMarajoAlterGuide,
   "conjugado-rio-bahia-noronha": conjugadoRioBahiaNoronhaGuide,
   "conjugado-cerrado-chapadas": conjugadoCerradoChapadasGuide,
   "conjugado-sul-serra-canyons": conjugadoSulSerraCanyonsGuide,
