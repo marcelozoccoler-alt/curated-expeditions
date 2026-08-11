@@ -39,7 +39,15 @@ const Incoming = () => {
   }
 
   const cLang = toContentLang(lang) as Exclude<ContentLang, "pt">;
-  const copy = INCOMING_COPY[cLang];
+  const copy = isExtraLang(lang) ? INCOMING_EXTRA[lang].copy : INCOMING_COPY[cLang];
+  const htmlLang = isExtraLang(lang)
+    ? EXTRA_HTML_LANG[lang]
+    : INCOMING_HTML_LANG[cLang as IncLang];
+  const ogLocale = isExtraLang(lang)
+    ? EXTRA_OG_LOCALE[lang]
+    : INCOMING_OG_LOCALE[cLang as IncLang];
+  const destText = (d: { slug: string; name: Record<string, string>; blurb: Record<string, string> }) =>
+    extraDestText(lang, d.slug, { name: d.name[cLang], blurb: d.blurb[cLang] });
   const whatsappLink = generateIncomingWhatsAppLink({ lang });
 
   const jsonLd = {
