@@ -1,6 +1,12 @@
 import { Destination } from "./types";
 import { mexicoDestinations } from "./mexicoDestinations";
 import { usaDestinations } from "./usaDestinations";
+import { africaExtraDestinations } from "./destinationsExtra/africa";
+import { americasExtraDestinations } from "./destinationsExtra/americas";
+import { asiaOceaniaExtraDestinations } from "./destinationsExtra/asiaOceania";
+import { europaOesteExtraDestinations } from "./destinationsExtra/europaOeste";
+import { europaNorteExtraDestinations } from "./destinationsExtra/europaNorte";
+import { orienteMedioExtraDestinations } from "./destinationsExtra/orienteMedio";
 import monteRoraimaImg from "@/assets/destinations/brasil-monte-roraima.jpg";
 import festivalParintinsImg from "@/assets/destinations/brasil-amazonia-festival-parintins.jpg";
 import manausRioNegroImg from "@/assets/destinations/brasil-amazonia-manaus-rio-negro.jpg";
