@@ -1,6 +1,8 @@
+import { useMemo, useState } from "react";
 import { Helmet } from "react-helmet-async";
 import { Link, Navigate, useParams } from "react-router-dom";
 import { motion } from "framer-motion";
+import { Search, X } from "lucide-react";
 import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
 import { SEO } from "@/components/SEO";
@@ -11,12 +13,18 @@ import { CONTACT } from "@/lib/types";
 import {
   BRAZIL_GUIDE_SLUGS,
   BRAZIL_GUIDES,
+  GUIDE_FILTER_UI,
+  GUIDE_THEME_IDS,
+  GUIDE_THEME_LABELS,
   GUIDE_UI,
+  filterGuideSlugs,
   guideBlurb,
   guideDestinationName,
   guideImage,
   guidePath,
+  type GuideThemeId,
 } from "@/lib/brazilGuides";
+
 
 const DOMAIN = CONTACT.domain.replace(/\/$/, "");
 
@@ -31,14 +39,28 @@ const HREFLANG: Record<ContentLang, string> = {
 const GuiasBrasil = () => {
   const lang = useLang();
   const { lang: paramLang } = useParams<{ lang?: string }>();
+  const [query, setQuery] = useState("");
+  const [themes, setThemes] = useState<GuideThemeId[]>([]);
+
+  const cLang = toContentLang(lang);
+  const filtered = useMemo(
+    () => filterGuideSlugs(cLang, query, themes),
+    [cLang, query, themes],
+  );
 
   if (paramLang && !(SUPPORTED_LANGS as readonly string[]).includes(paramLang)) {
     return <Navigate to="/" replace />;
   }
 
-  const cLang = toContentLang(lang);
   const ui = GUIDE_UI[cLang];
+  const fui = GUIDE_FILTER_UI[cLang];
   const canonicalPath = guidePath(cLang);
+
+  const toggleTheme = (id: GuideThemeId) =>
+    setThemes((prev) => (prev.includes(id) ? prev.filter((t) => t !== id) : [...prev, id]));
+
+  const hasFilters = query.trim().length > 0 || themes.length > 0;
+
 
   const itemListLd = {
     "@context": "https://schema.org",
@@ -89,49 +111,114 @@ const GuiasBrasil = () => {
         />
       </div>
 
-      <section className="py-12">
-        <div className="container-editorial grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-          {BRAZIL_GUIDE_SLUGS.map((slug, i) => {
-            const guide = BRAZIL_GUIDES[slug][cLang];
-            const cover = guideImage(slug);
-            return (
-              <motion.article
-                key={slug}
-                initial={{ opacity: 0, y: 16 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                viewport={{ once: true }}
-                transition={{ delay: (i % 3) * 0.05 }}
-                className="group"
-              >
-                <Link to={guidePath(cLang, slug)} className="block">
-                  {cover && (
-                    <div className="rounded-xl overflow-hidden aspect-[4/3] mb-4">
-                      <img
-                        src={cover}
-                        alt={guideDestinationName(slug, cLang)}
-                        className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
-                        loading="lazy"
-                      />
-                    </div>
-                  )}
-                  <p className="text-xs tracking-wider text-gold mb-2">
-                    {guideDestinationName(slug, cLang).toUpperCase()}
-                  </p>
-                  <h2 className="text-xl font-semibold text-foreground mb-2 group-hover:text-gold transition-colors">
-                    {guide.h1}
-                  </h2>
-                  <p className="text-sm text-muted-foreground leading-relaxed mb-3">
-                    {guideBlurb(slug, cLang)}
-                  </p>
-                  <span className="text-sm text-gold">
-                    {ui.readGuide} · {guide.readingMinutes} min
-                  </span>
-                </Link>
-              </motion.article>
-            );
-          })}
+      <section className="pt-8">
+        <div className="container-editorial space-y-5">
+          <div className="relative max-w-xl">
+            <label htmlFor="guide-search" className="sr-only">
+              {fui.searchLabel}
+            </label>
+            <Search
+              className="absolute left-4 top-1/2 -translate-y-1/2 w-4 h-4 text-muted-foreground"
+              aria-hidden="true"
+            />
+            <input
+              id="guide-search"
+              type="search"
+              value={query}
+              onChange={(e) => setQuery(e.target.value)}
+              placeholder={fui.searchPlaceholder}
+              className="w-full rounded-full border border-border bg-background pl-11 pr-4 py-3 text-sm text-foreground placeholder:text-muted-foreground focus:outline-none focus:ring-2 focus:ring-gold/40"
+            />
+          </div>
+
+          <div className="space-y-3">
+            <div className="flex items-center justify-between gap-4">
+              <h2 className="text-sm font-semibold uppercase tracking-wider text-muted-foreground">
+                {fui.themesLabel}
+              </h2>
+              {hasFilters && (
+                <button
+                  onClick={() => {
+                    setQuery("");
+                    setThemes([]);
+                  }}
+                  className="inline-flex items-center gap-1 text-sm text-gold hover:text-gold-light transition-colors"
+                >
+                  <X className="w-3.5 h-3.5" aria-hidden="true" />
+                  {fui.clear}
+                </button>
+              )}
+            </div>
+            <div className="flex flex-wrap gap-2">
+              {GUIDE_THEME_IDS.map((id) => (
+                <button
+                  key={id}
+                  onClick={() => toggleTheme(id)}
+                  aria-pressed={themes.includes(id)}
+                  className={`tag ${themes.includes(id) ? "tag-active" : ""}`}
+                >
+                  {GUIDE_THEME_LABELS[cLang][id]}
+                </button>
+              ))}
+            </div>
+          </div>
+
+          <p className="text-sm text-muted-foreground" aria-live="polite">
+            {fui.results(filtered.length)}
+          </p>
         </div>
       </section>
+
+      <section className="py-12">
+        {filtered.length === 0 ? (
+          <div className="container-editorial">
+            <p className="text-muted-foreground">{fui.empty}</p>
+          </div>
+        ) : (
+          <div className="container-editorial grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+            {filtered.map((slug, i) => {
+              const guide = BRAZIL_GUIDES[slug][cLang];
+              const cover = guideImage(slug);
+              return (
+                <motion.article
+                  key={slug}
+                  initial={{ opacity: 0, y: 16 }}
+                  whileInView={{ opacity: 1, y: 0 }}
+                  viewport={{ once: true }}
+                  transition={{ delay: (i % 3) * 0.05 }}
+                  className="group"
+                >
+                  <Link to={guidePath(cLang, slug)} className="block">
+                    {cover && (
+                      <div className="rounded-xl overflow-hidden aspect-[4/3] mb-4">
+                        <img
+                          src={cover}
+                          alt={guideDestinationName(slug, cLang)}
+                          className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+                          loading="lazy"
+                        />
+                      </div>
+                    )}
+                    <p className="text-xs tracking-wider text-gold mb-2">
+                      {guideDestinationName(slug, cLang).toUpperCase()}
+                    </p>
+                    <h3 className="text-xl font-semibold text-foreground mb-2 group-hover:text-gold transition-colors">
+                      {guide.h1}
+                    </h3>
+                    <p className="text-sm text-muted-foreground leading-relaxed mb-3">
+                      {guideBlurb(slug, cLang)}
+                    </p>
+                    <span className="text-sm text-gold">
+                      {ui.readGuide} · {guide.readingMinutes} min
+                    </span>
+                  </Link>
+                </motion.article>
+              );
+            })}
+          </div>
+        )}
+      </section>
+
 
       <Footer />
     </div>

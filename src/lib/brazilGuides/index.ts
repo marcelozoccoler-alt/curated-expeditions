@@ -178,3 +178,163 @@ export const GUIDE_UI: Record<ContentLang, GuideUiStrings> = {
     readGuide: "Guide lesen",
   },
 };
+
+/* ---------------------------------------------------------------------------
+ * Busca e filtros do hub de guias
+ * ------------------------------------------------------------------------- */
+
+export const GUIDE_THEME_IDS = [
+  "praias-ilhas",
+  "fauna",
+  "trilhas",
+  "cidades-cultura",
+  "paisagens-raras",
+] as const;
+export type GuideThemeId = (typeof GUIDE_THEME_IDS)[number];
+
+export const GUIDE_THEME_LABELS: Record<ContentLang, Record<GuideThemeId, string>> = {
+  pt: {
+    "praias-ilhas": "Praias e ilhas",
+    fauna: "Fauna e safáris",
+    trilhas: "Trilhas e cachoeiras",
+    "cidades-cultura": "Cidades e cultura",
+    "paisagens-raras": "Paisagens raras",
+  },
+  en: {
+    "praias-ilhas": "Beaches & islands",
+    fauna: "Wildlife & safaris",
+    trilhas: "Hikes & waterfalls",
+    "cidades-cultura": "Cities & culture",
+    "paisagens-raras": "Rare landscapes",
+  },
+  es: {
+    "praias-ilhas": "Playas e islas",
+    fauna: "Fauna y safaris",
+    trilhas: "Senderos y cascadas",
+    "cidades-cultura": "Ciudades y cultura",
+    "paisagens-raras": "Paisajes singulares",
+  },
+  it: {
+    "praias-ilhas": "Spiagge e isole",
+    fauna: "Fauna e safari",
+    trilhas: "Trekking e cascate",
+    "cidades-cultura": "Città e cultura",
+    "paisagens-raras": "Paesaggi rari",
+  },
+  de: {
+    "praias-ilhas": "Strände & Inseln",
+    fauna: "Tierwelt & Safaris",
+    trilhas: "Wanderungen & Wasserfälle",
+    "cidades-cultura": "Städte & Kultur",
+    "paisagens-raras": "Seltene Landschaften",
+  },
+};
+
+export const GUIDE_THEMES: Record<string, GuideThemeId[]> = {
+  amazon: ["fauna", "paisagens-raras"],
+  pantanal: ["fauna", "paisagens-raras"],
+  "rio-de-janeiro": ["cidades-cultura", "praias-ilhas"],
+  "lencois-maranhenses": ["paisagens-raras", "trilhas"],
+  iguazu: ["paisagens-raras", "fauna"],
+  "chapada-diamantina": ["trilhas", "paisagens-raras"],
+  florianopolis: ["praias-ilhas", "cidades-cultura"],
+  "fernando-de-noronha": ["praias-ilhas", "fauna"],
+  jericoacoara: ["praias-ilhas", "paisagens-raras"],
+  maragogi: ["praias-ilhas", "fauna"],
+  bahia: ["praias-ilhas", "cidades-cultura"],
+  "alter-do-chao": ["praias-ilhas", "fauna"],
+  "rota-emocoes": ["paisagens-raras", "praias-ilhas"],
+  "chapada-dos-veadeiros": ["trilhas", "paisagens-raras"],
+  jalapao: ["paisagens-raras", "trilhas"],
+  bonito: ["trilhas", "fauna"],
+};
+
+interface GuideFilterStrings {
+  searchLabel: string;
+  searchPlaceholder: string;
+  themesLabel: string;
+  clear: string;
+  results: (n: number) => string;
+  empty: string;
+}
+
+export const GUIDE_FILTER_UI: Record<ContentLang, GuideFilterStrings> = {
+  pt: {
+    searchLabel: "Buscar guia",
+    searchPlaceholder: "Destino, tema ou experiência (ex.: Pantanal, onças, dunas)",
+    themesLabel: "Filtrar por tema",
+    clear: "Limpar filtros",
+    results: (n) => (n === 1 ? "1 guia encontrado" : `${n} guias encontrados`),
+    empty: "Nenhum guia corresponde à sua busca. Tente outro destino ou tema.",
+  },
+  en: {
+    searchLabel: "Search guides",
+    searchPlaceholder: "Destination, theme or experience (e.g. Pantanal, jaguars, dunes)",
+    themesLabel: "Filter by theme",
+    clear: "Clear filters",
+    results: (n) => (n === 1 ? "1 guide found" : `${n} guides found`),
+    empty: "No guide matches your search. Try another destination or theme.",
+  },
+  es: {
+    searchLabel: "Buscar guías",
+    searchPlaceholder: "Destino, tema o experiencia (ej.: Pantanal, jaguares, dunas)",
+    themesLabel: "Filtrar por tema",
+    clear: "Limpiar filtros",
+    results: (n) => (n === 1 ? "1 guía encontrada" : `${n} guías encontradas`),
+    empty: "Ninguna guía coincide con tu búsqueda. Prueba otro destino o tema.",
+  },
+  it: {
+    searchLabel: "Cerca guide",
+    searchPlaceholder: "Destinazione, tema o esperienza (es.: Pantanal, giaguari, dune)",
+    themesLabel: "Filtra per tema",
+    clear: "Azzera filtri",
+    results: (n) => (n === 1 ? "1 guida trovata" : `${n} guide trovate`),
+    empty: "Nessuna guida corrisponde alla ricerca. Prova un'altra destinazione o tema.",
+  },
+  de: {
+    searchLabel: "Guides suchen",
+    searchPlaceholder: "Ziel, Thema oder Erlebnis (z. B. Pantanal, Jaguare, Dünen)",
+    themesLabel: "Nach Thema filtern",
+    clear: "Filter zurücksetzen",
+    results: (n) => (n === 1 ? "1 Guide gefunden" : `${n} Guides gefunden`),
+    empty: "Kein Guide passt zur Suche. Versuche ein anderes Ziel oder Thema.",
+  },
+};
+
+const normalize = (s: string) =>
+  s.normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase();
+
+/** Texto pesquisável de um guia (destino, título, blurb, keywords, temas). */
+export const guideSearchText = (slug: string, lang: ContentLang): string => {
+  const guide = BRAZIL_GUIDES[slug]?.[lang];
+  const themes = (GUIDE_THEMES[slug] ?? []).map((t) => GUIDE_THEME_LABELS[lang][t]);
+  return normalize(
+    [
+      slug,
+      guideDestinationName(slug, lang),
+      guideBlurb(slug, lang),
+      guide?.h1,
+      guide?.keywords,
+      guide?.aiAnswer,
+      ...themes,
+    ]
+      .filter(Boolean)
+      .join(" "),
+  );
+};
+
+export const filterGuideSlugs = (
+  lang: ContentLang,
+  query: string,
+  themes: GuideThemeId[],
+): string[] =>
+  BRAZIL_GUIDE_SLUGS.filter((slug) => {
+    if (themes.length > 0) {
+      const slugThemes = GUIDE_THEMES[slug] ?? [];
+      if (!themes.some((t) => slugThemes.includes(t))) return false;
+    }
+    const q = normalize(query.trim());
+    if (!q) return true;
+    const text = guideSearchText(slug, lang);
+    return q.split(/\s+/).every((token) => text.includes(token));
+  });
