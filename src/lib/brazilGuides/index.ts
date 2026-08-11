@@ -36,6 +36,7 @@ import { floraDoBrasilGuide } from "./flora-do-brasil";
 import { avesDoBrasilGuide } from "./aves-do-brasil";
 import { grandesCenariosBrasilGuide } from "./grandes-cenarios-brasil";
 import { brasilAventuraGuide } from "./brasil-aventura";
+import { belemGuide } from "./belem";
 import { conjugadoAmazoniaPantanalGuide } from "./conjugado-amazonia-pantanal";
 import { conjugadoRioBahiaNoronhaGuide } from "./conjugado-rio-bahia-noronha";
 import { conjugadoCerradoChapadasGuide } from "./conjugado-cerrado-chapadas";
@@ -83,6 +84,7 @@ export const BRAZIL_GUIDES: Record<string, BrazilGuideLocalized> = {
   "aves-do-brasil": avesDoBrasilGuide,
   "grandes-cenarios-brasil": grandesCenariosBrasilGuide,
   "brasil-aventura": brasilAventuraGuide,
+  belem: belemGuide,
   "conjugado-amazonia-pantanal": conjugadoAmazoniaPantanalGuide,
   "conjugado-rio-bahia-noronha": conjugadoRioBahiaNoronhaGuide,
   "conjugado-cerrado-chapadas": conjugadoCerradoChapadasGuide,
