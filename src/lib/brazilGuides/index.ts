@@ -38,6 +38,8 @@ import { grandesCenariosBrasilGuide } from "./grandes-cenarios-brasil";
 import { conjugadoAmazoniaPantanalGuide } from "./conjugado-amazonia-pantanal";
 import { conjugadoRioBahiaNoronhaGuide } from "./conjugado-rio-bahia-noronha";
 import { conjugadoCerradoChapadasGuide } from "./conjugado-cerrado-chapadas";
+import { conjugadoSulSerraCanyonsGuide } from "./conjugado-sul-serra-canyons";
+import { conjugadoCostasNordesteGuide } from "./conjugado-costas-nordeste";
 // Belém, Algodoal-conjugados restantes e demais especiais entram aqui conforme
 // os arquivos são concluídos nos 5 idiomas.
 
@@ -82,6 +84,8 @@ export const BRAZIL_GUIDES: Record<string, BrazilGuideLocalized> = {
   "conjugado-amazonia-pantanal": conjugadoAmazoniaPantanalGuide,
   "conjugado-rio-bahia-noronha": conjugadoRioBahiaNoronhaGuide,
   "conjugado-cerrado-chapadas": conjugadoCerradoChapadasGuide,
+  "conjugado-sul-serra-canyons": conjugadoSulSerraCanyonsGuide,
+  "conjugado-costas-nordeste": conjugadoCostasNordesteGuide,
 
 
 
