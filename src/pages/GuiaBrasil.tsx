@@ -9,6 +9,7 @@ import {
   Route as RouteIcon,
   Lightbulb,
   MessageCircle,
+  ExternalLink,
   ArrowLeft,
 } from "lucide-react";
 import { Header } from "@/components/Header";
@@ -210,6 +211,28 @@ const GuiaBrasil = () => {
                     <span className="text-xs uppercase tracking-wider text-gold">{s.profile}</span>
                   </div>
                   <p className="text-muted-foreground leading-relaxed font-light">{s.text}</p>
+                  <div className="mt-3 flex flex-wrap items-center gap-4">
+                    {s.url && (
+                      <a
+                        href={s.url}
+                        target="_blank"
+                        rel="noopener noreferrer nofollow"
+                        className="inline-flex items-center gap-1.5 text-sm text-primary hover:underline"
+                      >
+                        <ExternalLink className="h-4 w-4" />
+                        {ui.propertySite}
+                      </a>
+                    )}
+                    <a
+                      href={generateIncomingWhatsAppLink({ lang, destination: s.name })}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="inline-flex items-center gap-1.5 text-sm text-emerald hover:underline"
+                    >
+                      <MessageCircle className="h-4 w-4" />
+                      {ui.stayRates}
+                    </a>
+                  </div>
                 </div>
               ))}
             </div>

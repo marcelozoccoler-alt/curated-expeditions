@@ -1,6 +1,14 @@
 import type { ContentLang } from "@/i18n/config";
 import { INCOMING_DESTINATIONS } from "@/lib/incomingDestinations";
 import type { BrazilGuide, BrazilGuideLocalized } from "./types";
+import { resortsBrasilGuide } from "./resorts-brasil";
+import { hospedagensDeCharmeBrasilGuide } from "./hospedagens-de-charme-brasil";
+import { viagensDeLuxoBrasilGuide } from "./viagens-de-luxo-brasil";
+import { hospedagensBaseComunitariaBrasilGuide } from "./hospedagens-base-comunitaria-brasil";
+import resortsImg from "@/assets/destinations/brasil-resorts.jpg";
+import charmeImg from "@/assets/destinations/brasil-hospedagens-charme.jpg";
+import luxoImg from "@/assets/destinations/brasil-viagens-luxo.jpg";
+import comunitariaImg from "@/assets/destinations/brasil-base-comunitaria.jpg";
 
 import { amazonGuide } from "./amazon";
 import { pantanalGuide } from "./pantanal";
@@ -92,9 +100,10 @@ export const BRAZIL_GUIDES: Record<string, BrazilGuideLocalized> = {
   "conjugado-cerrado-chapadas": conjugadoCerradoChapadasGuide,
   "conjugado-sul-serra-canyons": conjugadoSulSerraCanyonsGuide,
   "conjugado-costas-nordeste": conjugadoCostasNordesteGuide,
-
-
-
+  "resorts-brasil": resortsBrasilGuide,
+  "hospedagens-de-charme-brasil": hospedagensDeCharmeBrasilGuide,
+  "viagens-de-luxo-brasil": viagensDeLuxoBrasilGuide,
+  "hospedagens-base-comunitaria-brasil": hospedagensBaseComunitariaBrasilGuide,
 };
 
 /** Ordem editorial de exibição no hub. */
@@ -172,6 +181,10 @@ const GUIDE_EXTRA_IMAGES: Record<string, string> = {
   "conjugado-cerrado-chapadas": chapadaMesasImg,
   "conjugado-sul-serra-canyons": rsStateImg,
   "conjugado-costas-nordeste": falesiasImg,
+  "resorts-brasil": resortsImg,
+  "hospedagens-de-charme-brasil": charmeImg,
+  "viagens-de-luxo-brasil": luxoImg,
+  "hospedagens-base-comunitaria-brasil": comunitariaImg,
 };
 
 /** Roteiros conjugados (mosaico de biomas) — ordem editorial. */
@@ -210,6 +223,8 @@ interface GuideUiStrings {
   backToHub: string;
   touristType: string;
   readGuide: string;
+  propertySite: string;
+  stayRates: string;
 }
 
 /** Micro-copy de interface dos guias, por idioma. */
@@ -230,6 +245,8 @@ export const GUIDE_UI: Record<ContentLang, GuideUiStrings> = {
     backToHub: "Ver todos os guias do Brasil",
     touristType: "Viajantes 40+ de alto padrão",
     readGuide: "Ler o guia",
+    propertySite: "Site da propriedade",
+    stayRates: "Tarifas e datas no WhatsApp",
   },
   en: {
     eyebrow: "Curated destination guide",
@@ -247,6 +264,8 @@ export const GUIDE_UI: Record<ContentLang, GuideUiStrings> = {
     backToHub: "See all Brazil guides",
     touristType: "Discerning travellers 40+",
     readGuide: "Read the guide",
+    propertySite: "Property website",
+    stayRates: "Rates & dates on WhatsApp",
   },
   es: {
     eyebrow: "Guía de autor del destino",
@@ -264,6 +283,8 @@ export const GUIDE_UI: Record<ContentLang, GuideUiStrings> = {
     backToHub: "Ver todas las guías de Brasil",
     touristType: "Viajeros exigentes 40+",
     readGuide: "Leer la guía",
+    propertySite: "Sitio de la propiedad",
+    stayRates: "Tarifas y fechas por WhatsApp",
   },
   it: {
     eyebrow: "Guida d'autore del destino",
@@ -281,6 +302,8 @@ export const GUIDE_UI: Record<ContentLang, GuideUiStrings> = {
     backToHub: "Tutte le guide del Brasile",
     touristType: "Viaggiatori esigenti 40+",
     readGuide: "Leggi la guida",
+    propertySite: "Sito della struttura",
+    stayRates: "Tariffe e date su WhatsApp",
   },
   de: {
     eyebrow: "Kuratierter Reiseführer",
@@ -298,6 +321,8 @@ export const GUIDE_UI: Record<ContentLang, GuideUiStrings> = {
     backToHub: "Alle Brasilien-Guides",
     touristType: "Anspruchsvolle Reisende 40+",
     readGuide: "Guide lesen",
+    propertySite: "Website der Unterkunft",
+    stayRates: "Preise & Termine per WhatsApp",
   },
 };
 
@@ -317,6 +342,7 @@ export const GUIDE_THEME_IDS = [
   "aventura",
   "flora-aves",
   "conjugados",
+  "hospedagens",
 ] as const;
 export type GuideThemeId = (typeof GUIDE_THEME_IDS)[number];
 
@@ -333,6 +359,7 @@ export const GUIDE_THEME_LABELS: Record<ContentLang, Record<GuideThemeId, string
     aventura: "Aventura e cavalgadas",
     "flora-aves": "Flora e aves",
     conjugados: "Roteiros conjugados",
+    hospedagens: "Hospedagens e resorts",
   },
   en: {
     "praias-ilhas": "Beaches & islands",
@@ -346,6 +373,7 @@ export const GUIDE_THEME_LABELS: Record<ContentLang, Record<GuideThemeId, string
     aventura: "Adventure & riding",
     "flora-aves": "Flora & birding",
     conjugados: "Multi-region journeys",
+    hospedagens: "Stays & resorts",
   },
   es: {
     "praias-ilhas": "Playas e islas",
@@ -359,6 +387,7 @@ export const GUIDE_THEME_LABELS: Record<ContentLang, Record<GuideThemeId, string
     aventura: "Aventura y cabalgatas",
     "flora-aves": "Flora y aves",
     conjugados: "Itinerarios combinados",
+    hospedagens: "Alojamientos y resorts",
   },
   it: {
     "praias-ilhas": "Spiagge e isole",
@@ -372,6 +401,7 @@ export const GUIDE_THEME_LABELS: Record<ContentLang, Record<GuideThemeId, string
     aventura: "Avventura e cavalcate",
     "flora-aves": "Flora e birdwatching",
     conjugados: "Itinerari combinati",
+    hospedagens: "Strutture e resort",
   },
   de: {
     "praias-ilhas": "Strände & Inseln",
@@ -385,6 +415,7 @@ export const GUIDE_THEME_LABELS: Record<ContentLang, Record<GuideThemeId, string
     aventura: "Abenteuer & Reitreisen",
     "flora-aves": "Flora & Vogelwelt",
     conjugados: "Kombinationsreisen",
+    hospedagens: "Unterkünfte & Resorts",
   },
 };
 
@@ -428,6 +459,10 @@ export const GUIDE_THEMES: Record<string, GuideThemeId[]> = {
   "conjugado-belem-marajo-alter": ["conjugados", "expedicoes"],
   "conjugado-rio-bahia-noronha": ["conjugados", "praias-ilhas"],
   "conjugado-cerrado-chapadas": ["conjugados", "trilhas"],
+  "resorts-brasil": ["hospedagens", "praias-ilhas"],
+  "hospedagens-de-charme-brasil": ["hospedagens", "costas"],
+  "viagens-de-luxo-brasil": ["hospedagens", "paisagens-raras"],
+  "hospedagens-base-comunitaria-brasil": ["hospedagens", "cidades-cultura"],
   "conjugado-sul-serra-canyons": ["conjugados", "paisagens-raras"],
   "conjugado-costas-nordeste": ["conjugados", "costas"],
 };

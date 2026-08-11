@@ -3066,6 +3066,26 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://createtravel.tur.br/guias-brasil/resorts-brasil</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://createtravel.tur.br/guias-brasil/hospedagens-de-charme-brasil</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://createtravel.tur.br/guias-brasil/viagens-de-luxo-brasil</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://createtravel.tur.br/guias-brasil/hospedagens-base-comunitaria-brasil</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://createtravel.tur.br/en/brazil-guides</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -3272,6 +3292,26 @@
   </url>
   <url>
     <loc>https://createtravel.tur.br/en/brazil-guides/conjugado-costas-nordeste</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://createtravel.tur.br/en/brazil-guides/resorts-brasil</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://createtravel.tur.br/en/brazil-guides/hospedagens-de-charme-brasil</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://createtravel.tur.br/en/brazil-guides/viagens-de-luxo-brasil</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://createtravel.tur.br/en/brazil-guides/hospedagens-base-comunitaria-brasil</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -3486,6 +3526,26 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://createtravel.tur.br/es/brazil-guides/resorts-brasil</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://createtravel.tur.br/es/brazil-guides/hospedagens-de-charme-brasil</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://createtravel.tur.br/es/brazil-guides/viagens-de-luxo-brasil</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://createtravel.tur.br/es/brazil-guides/hospedagens-base-comunitaria-brasil</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://createtravel.tur.br/it/brazil-guides</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -3696,6 +3756,26 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://createtravel.tur.br/it/brazil-guides/resorts-brasil</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://createtravel.tur.br/it/brazil-guides/hospedagens-de-charme-brasil</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://createtravel.tur.br/it/brazil-guides/viagens-de-luxo-brasil</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://createtravel.tur.br/it/brazil-guides/hospedagens-base-comunitaria-brasil</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://createtravel.tur.br/de/brazil-guides</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -3902,6 +3982,26 @@
   </url>
   <url>
     <loc>https://createtravel.tur.br/de/brazil-guides/conjugado-costas-nordeste</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://createtravel.tur.br/de/brazil-guides/resorts-brasil</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://createtravel.tur.br/de/brazil-guides/hospedagens-de-charme-brasil</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://createtravel.tur.br/de/brazil-guides/viagens-de-luxo-brasil</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://createtravel.tur.br/de/brazil-guides/hospedagens-base-comunitaria-brasil</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
