@@ -56,7 +56,8 @@ export const Footer = () => {
               {CONTINENTS.map((continent) => (
                 <li key={continent.id}>
                   <Link
-                    to={`/destinos/${continent.id}`}
+                    to={`/destinos?c=${encodeURIComponent(continent.id)}`}
+
                     className="text-sm text-primary-foreground/70 hover:text-gold transition-colors"
                   >
                     {continent.name}
