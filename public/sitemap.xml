@@ -2936,6 +2936,11 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://createtravel.tur.br/guias-brasil/bonito</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://createtravel.tur.br/en/brazil-guides</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -3012,6 +3017,11 @@
   </url>
   <url>
     <loc>https://createtravel.tur.br/en/brazil-guides/jalapao</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://createtravel.tur.br/en/brazil-guides/bonito</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -3096,6 +3106,11 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://createtravel.tur.br/es/brazil-guides/bonito</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://createtravel.tur.br/it/brazil-guides</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -3176,6 +3191,11 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://createtravel.tur.br/it/brazil-guides/bonito</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://createtravel.tur.br/de/brazil-guides</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -3252,6 +3272,11 @@
   </url>
   <url>
     <loc>https://createtravel.tur.br/de/brazil-guides/jalapao</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://createtravel.tur.br/de/brazil-guides/bonito</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
