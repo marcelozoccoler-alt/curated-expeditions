@@ -256,6 +256,8 @@ interface GuideFilterStrings {
   clear: string;
   results: (n: number) => string;
   empty: string;
+  showing: (shown: number, total: number) => string;
+  loadMore: string;
 }
 
 export const GUIDE_FILTER_UI: Record<ContentLang, GuideFilterStrings> = {
