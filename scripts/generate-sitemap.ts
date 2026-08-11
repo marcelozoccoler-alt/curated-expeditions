@@ -192,7 +192,17 @@ for (const lang of INCOMING_LANGS) {
   push(`/${lang}`, 0.85, "weekly");
   for (const s of INCOMING_DESTINO_SLUGS) {
     push(`/${lang}/incoming/${s}`, 0.85, "monthly");
+}
+
+// Novos mercados de origem: Incoming traduzido (conteúdo de destino em EN)
+const INCOMING_EXTRA_LANGS = ["ja", "ko", "zh", "ar", "he"] as const;
+for (const lang of INCOMING_EXTRA_LANGS) {
+  push(`/${lang}/incoming`, 0.85, "weekly");
+  push(`/${lang}`, 0.8, "weekly");
+  for (const s of INCOMING_DESTINO_SLUGS) {
+    push(`/${lang}/incoming/${s}`, 0.8, "monthly");
   }
+}
 }
 
 // Multilingual variants of key landing pages

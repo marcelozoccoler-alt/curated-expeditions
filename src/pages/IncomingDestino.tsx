@@ -24,6 +24,12 @@ import {
 } from "@/lib/incomingGeo";
 import { generateIncomingWhatsAppLink } from "@/lib/whatsappI18n";
 import { useLang } from "@/hooks/useLang";
+import {
+  EXTRA_HTML_LANG,
+  EXTRA_OG_LOCALE,
+  extraDestText,
+  isExtraLang,
+} from "@/lib/incomingExtra";
 
 
 const SITE_URL = "https://www.createtravel.tur.br";
@@ -57,7 +63,16 @@ const IncomingDestino = () => {
   const canonicalPath = `/${lang}/incoming/${slug}`;
   const canonical = `${SITE_URL}${canonicalPath}`;
   const iLang = cLang as IncLang;
-  const destName = destino.name[cLang];
+  const destName = extraDestText(lang, destino.slug, {
+    name: destino.name[cLang],
+    blurb: destino.blurb[cLang],
+  }).name;
+  const htmlLang = isExtraLang(lang)
+    ? EXTRA_HTML_LANG[lang]
+    : INCOMING_HTML_LANG[iLang];
+  const ogLocale = isExtraLang(lang)
+    ? EXTRA_OG_LOCALE[lang]
+    : INCOMING_OG_LOCALE[iLang];
 
   // GEO / AEO blocks (no prices — values are discussed on WhatsApp only)
   const aiSummary = buildIncomingAiSummary(destName, copy, iLang);
@@ -80,7 +95,7 @@ const IncomingDestino = () => {
       description: copy.metaDescription,
       url: canonical,
       image: `${SITE_URL}${destino.image}`,
-      inLanguage: INCOMING_HTML_LANG[iLang],
+      inLanguage: htmlLang,
       touristType: "leisure travellers, families, couples, photographers",
       containedInPlace: {
         "@type": "Country",
@@ -105,7 +120,7 @@ const IncomingDestino = () => {
     {
       "@context": "https://schema.org",
       "@type": "FAQPage",
-      inLanguage: INCOMING_HTML_LANG[iLang],
+      inLanguage: htmlLang,
       mainEntity: allFaqs.map((item) => ({
         "@type": "Question",
         name: item.q,
@@ -134,7 +149,7 @@ const IncomingDestino = () => {
       "@context": "https://schema.org",
       "@type": "WebPage",
       url: canonical,
-      inLanguage: INCOMING_HTML_LANG[iLang],
+      inLanguage: htmlLang,
       speakable: {
         "@type": "SpeakableSpecification",
         cssSelector: ["h1", ".ai-summary", ".faq-question", ".faq-answer"],
@@ -145,7 +160,7 @@ const IncomingDestino = () => {
   return (
     <div className="min-h-screen bg-background">
       <Helmet>
-        <html lang={INCOMING_HTML_LANG[iLang]} />
+        <html lang={htmlLang} />
         <title>{copy.metaTitle}</title>
         <meta name="description" content={copy.metaDescription} />
         <meta name="keywords" content={copy.keywords} />
@@ -155,7 +170,7 @@ const IncomingDestino = () => {
         <meta property="og:description" content={copy.metaDescription} />
         <meta property="og:url" content={canonical} />
         <meta property="og:type" content="article" />
-        <meta property="og:locale" content={INCOMING_OG_LOCALE[iLang]} />
+        <meta property="og:locale" content={ogLocale} />
         <meta property="og:site_name" content="Create Travel" />
         <meta property="og:image" content={`${SITE_URL}${destino.image}`} />
         <meta name="twitter:card" content="summary_large_image" />
@@ -394,10 +409,10 @@ const IncomingDestino = () => {
                     className="block border-l-2 border-gold/60 pl-4 py-2 hover:border-gold transition-colors"
                   >
                     <span className="block font-serif text-lg text-foreground">
-                      {d.name[cLang]}
+                      {extraDestText(lang, d.slug, { name: d.name[cLang], blurb: d.blurb[cLang] }).name}
                     </span>
                     <span className="block text-sm text-muted-foreground mt-1">
-                      {d.blurb[cLang]}
+                      {extraDestText(lang, d.slug, { name: d.name[cLang], blurb: d.blurb[cLang] }).blurb}
                     </span>
                   </Link>
                 </li>

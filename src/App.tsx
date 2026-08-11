@@ -179,6 +179,11 @@ const App = () => (
           <Route path="/es" element={<Incoming />} />
           <Route path="/it" element={<Incoming />} />
           <Route path="/de" element={<Incoming />} />
+          <Route path="/ja" element={<Incoming />} />
+          <Route path="/ko" element={<Incoming />} />
+          <Route path="/zh" element={<Incoming />} />
+          <Route path="/ar" element={<Incoming />} />
+          <Route path="/he" element={<Incoming />} />
           {/* SEO short-URL regional landings — keep as last specific dynamic route before catch-all */}
           {/* SEO landings — high-intent commercial pages */}
           <Route path="/roteiro-sob-medida" element={<RoteiroSobMedida />} />

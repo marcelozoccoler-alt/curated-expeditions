@@ -8,7 +8,18 @@ import es from "./locales/es.json";
 import it from "./locales/it.json";
 import de from "./locales/de.json";
 
-export const SUPPORTED_LANGS = ["pt", "en", "es", "it", "de"] as const;
+export const SUPPORTED_LANGS = [
+  "pt",
+  "en",
+  "es",
+  "it",
+  "de",
+  "ja",
+  "ko",
+  "zh",
+  "ar",
+  "he",
+] as const;
 export type Lang = (typeof SUPPORTED_LANGS)[number];
 
 /**
@@ -31,6 +42,11 @@ export const LANG_LABELS: Record<Lang, string> = {
   es: "Español",
   it: "Italiano",
   de: "Deutsch",
+  ja: "日本語",
+  ko: "한국어",
+  zh: "中文",
+  ar: "العربية",
+  he: "עברית",
 };
 
 export const LANG_FLAGS: Record<Lang, string> = {
@@ -39,13 +55,19 @@ export const LANG_FLAGS: Record<Lang, string> = {
   es: "🇪🇸",
   it: "🇮🇹",
   de: "🇩🇪",
+  ja: "🇯🇵",
+  ko: "🇰🇷",
+  zh: "🇨🇳",
+  ar: "🇦🇪",
+  he: "🇮🇱",
 };
 
 /** Right-to-left languages */
-export const RTL_LANGS: readonly Lang[] = [];
+export const RTL_LANGS: readonly Lang[] = ["ar", "he"];
 
 /** @deprecated Kept for backward compatibility. */
 export const UI_EXTRA_LANGS: readonly { id: string; label: string; flag: string; routeTo: string }[] = [];
+
 
 i18n
   .use(LanguageDetector)

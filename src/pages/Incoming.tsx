@@ -7,6 +7,13 @@ import { Footer } from "@/components/Footer";
 import { HreflangTags } from "@/components/HreflangTags";
 import { SUPPORTED_LANGS, toContentLang, type ContentLang } from "@/i18n/config";
 import { INCOMING_COPY } from "@/lib/incomingCopy";
+import {
+  INCOMING_EXTRA,
+  EXTRA_HTML_LANG,
+  EXTRA_OG_LOCALE,
+  extraDestText,
+  isExtraLang,
+} from "@/lib/incomingExtra";
 import { INCOMING_DESTINATIONS } from "@/lib/incomingDestinations";
 import {
   INCOMING_HTML_LANG,
@@ -39,7 +46,15 @@ const Incoming = () => {
   }
 
   const cLang = toContentLang(lang) as Exclude<ContentLang, "pt">;
-  const copy = INCOMING_COPY[cLang];
+  const copy = isExtraLang(lang) ? INCOMING_EXTRA[lang].copy : INCOMING_COPY[cLang];
+  const htmlLang = isExtraLang(lang)
+    ? EXTRA_HTML_LANG[lang]
+    : INCOMING_HTML_LANG[cLang as IncLang];
+  const ogLocale = isExtraLang(lang)
+    ? EXTRA_OG_LOCALE[lang]
+    : INCOMING_OG_LOCALE[cLang as IncLang];
+  const destText = (d: { slug: string; name: Record<string, string>; blurb: Record<string, string> }) =>
+    extraDestText(lang, d.slug, { name: d.name[cLang], blurb: d.blurb[cLang] });
   const whatsappLink = generateIncomingWhatsAppLink({ lang });
 
   const jsonLd = {
@@ -64,7 +79,7 @@ const Incoming = () => {
   const faqJsonLd = {
     "@context": "https://schema.org",
     "@type": "FAQPage",
-    inLanguage: INCOMING_HTML_LANG[cLang as IncLang],
+    inLanguage: htmlLang,
     mainEntity: copy.faqs.items.map((item) => ({
       "@type": "Question",
       name: item.q,
@@ -81,8 +96,8 @@ const Incoming = () => {
     itemListElement: INCOMING_DESTINATIONS.map((d, i) => ({
       "@type": "ListItem",
       position: i + 1,
-      name: d.name[cLang],
-      description: d.blurb[cLang],
+      name: destText(d).name,
+      description: destText(d).blurb,
       url: `${SITE_URL}/${lang}/incoming/${d.slug}`,
     })),
   };
@@ -91,7 +106,7 @@ const Incoming = () => {
     "@context": "https://schema.org",
     "@type": "WebPage",
     url: `${SITE_URL}/${lang}/incoming`,
-    inLanguage: INCOMING_HTML_LANG[cLang as IncLang],
+    inLanguage: htmlLang,
     speakable: {
       "@type": "SpeakableSpecification",
       cssSelector: ["h1", "h2", ".ai-summary", ".faq-question", ".faq-answer"],
@@ -101,7 +116,7 @@ const Incoming = () => {
   return (
     <div className="min-h-screen bg-background">
       <Helmet>
-        <html lang={INCOMING_HTML_LANG[cLang as IncLang]} />
+        <html lang={htmlLang} />
         <title>{copy.meta.title}</title>
         <meta name="description" content={copy.meta.description} />
         <meta name="keywords" content={copy.meta.keywords} />
@@ -112,7 +127,7 @@ const Incoming = () => {
         <meta property="og:url" content={`${SITE_URL}/${lang}/incoming`} />
         <meta property="og:type" content="website" />
         <meta property="og:site_name" content="Create Travel" />
-        <meta property="og:locale" content={INCOMING_OG_LOCALE[cLang as IncLang]} />
+        <meta property="og:locale" content={ogLocale} />
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content={copy.meta.title} />
         <meta name="twitter:description" content={copy.meta.description} />
@@ -312,7 +327,7 @@ const Incoming = () => {
                     <div className="aspect-[4/5] overflow-hidden">
                       <img
                         src={d.image}
-                        alt={d.name[cLang]}
+                        alt={destText(d).name}
                         loading="lazy"
                         className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700"
                       />
@@ -323,10 +338,10 @@ const Incoming = () => {
                         <span>Brasil</span>
                       </div>
                       <h3 className="font-serif text-xl mb-2 text-foreground">
-                        {d.name[cLang]}
+                        {destText(d).name}
                       </h3>
                       <p className="text-sm text-muted-foreground leading-relaxed">
-                        {d.blurb[cLang]}
+                        {destText(d).blurb}
                       </p>
                     </div>
                   </CardWrapper>
