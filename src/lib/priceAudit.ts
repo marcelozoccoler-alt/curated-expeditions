@@ -11,7 +11,15 @@ export const REFERENCE_WIDGET_PRICES: Array<{ currency: "EUR" | "USD"; amount: n
 ];
 
 /** Duplicidades já revisadas e confirmadas manualmente (não bloqueiam a publicação). */
-export const ACKNOWLEDGED_DUPLICATES: string[] = [];
+export const ACKNOWLEDGED_DUPLICATES: string[] = [
+  // Coincidências reais conferidas uma a uma na tabela do catálogo Europa abr/2027 – mar/2028.
+  "duplicidade:EUR:2795", // VF (De Viena a Frankfurt) e LJUZAG (Pérolas dos Balcãs)
+  "duplicidade:EUR:4450", // VIEBEL (Do Danúbio ao Adriático) e AURO (Aurora Boreal)
+  "duplicidade:EUR:3295", // EETMUCZRH (Tour dos Alpes), PARNIZ (Descubra a França) e 3CAP (Império Viking)
+  "duplicidade:EUR:1995", // EETALROM (Alemanha Romântica) e EETDBAL (Descubra o Báltico – Primeira)
+  "duplicidade:EUR:2325", // TIVBP (Capitais Imperiais Tudo Incluído) e DBAL (Descubra o Báltico – Premium)
+  "duplicidade:EUR:1895", // HOTVB (Leste Europeu Hot Deal) e EETVB-INV (Leste Europeu com Spa Termal)
+];
 
 export type PriceFindingSeverity = "bloqueio" | "atencao";
 
