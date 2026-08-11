@@ -2911,6 +2911,21 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://createtravel.tur.br/guias-brasil/bahia</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://createtravel.tur.br/guias-brasil/alter-do-chao</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://createtravel.tur.br/guias-brasil/rota-emocoes</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://createtravel.tur.br/en/brazil-guides</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -2962,6 +2977,21 @@
   </url>
   <url>
     <loc>https://createtravel.tur.br/en/brazil-guides/maragogi</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://createtravel.tur.br/en/brazil-guides/bahia</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://createtravel.tur.br/en/brazil-guides/alter-do-chao</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://createtravel.tur.br/en/brazil-guides/rota-emocoes</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -3021,6 +3051,21 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://createtravel.tur.br/es/brazil-guides/bahia</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://createtravel.tur.br/es/brazil-guides/alter-do-chao</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://createtravel.tur.br/es/brazil-guides/rota-emocoes</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://createtravel.tur.br/it/brazil-guides</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -3076,6 +3121,21 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://createtravel.tur.br/it/brazil-guides/bahia</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://createtravel.tur.br/it/brazil-guides/alter-do-chao</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://createtravel.tur.br/it/brazil-guides/rota-emocoes</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://createtravel.tur.br/de/brazil-guides</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -3127,6 +3187,21 @@
   </url>
   <url>
     <loc>https://createtravel.tur.br/de/brazil-guides/maragogi</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://createtravel.tur.br/de/brazil-guides/bahia</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://createtravel.tur.br/de/brazil-guides/alter-do-chao</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://createtravel.tur.br/de/brazil-guides/rota-emocoes</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
