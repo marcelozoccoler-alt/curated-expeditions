@@ -51,7 +51,6 @@ export const chapadaDiamantinaGuide: BrazilGuideLocalized = {
           text: "Água que cai de 340 metros e se dissolve em névoa antes de tocar o chão. O mirante de cima, no Vale do Capão, exige poucas horas de caminhada; a base, vista de Vale do Pati, pede um trekking mais longo.",
         },
         {
-          window: undefined,
           title: "Poço Encantado e Poço Azul, em Iraquara",
           text: "Cavernas de calcário com lagos de água cristalina onde a luz do sol, entre abril e setembro, cria tons de azul intenso. Visitação controlada e sem contato com a água em algumas cavernas, para preservar a transparência.",
         },
