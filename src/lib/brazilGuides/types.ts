@@ -37,6 +37,13 @@ export interface GuideFaq {
 }
 
 export interface BrazilGuide {
+  /**
+   * Nome curto do tema/destino no idioma — usado em cards, breadcrumbs e
+   * listas quando o slug não existe no catálogo de Incoming.
+   */
+  destinationName?: string;
+  /** Chamada curta do card no hub (quando não vem do catálogo de Incoming). */
+  blurb?: string;
   metaTitle: string;
   metaDescription: string;
   keywords: string;
