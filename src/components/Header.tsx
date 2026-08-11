@@ -48,11 +48,14 @@ export const Header = () => {
       ? [
           { label: "Brasil Vivo", href: "/brasil-vivo" },
           { label: "Brasil Aventura", href: "/brasil-aventura" },
+          { label: "Guias do Brasil", href: "/guias-brasil" },
         ]
       : [
           { label: "Brasil Vivo", href: `/${lang}/brasil-vivo` },
           { label: "Brasil Aventura", href: `/${lang}/brasil-aventura` },
+          { label: "Brazil Guides", href: `/${lang}/brazil-guides` },
         ];
+
 
   const gruposSubItems =
     lang === "pt"
