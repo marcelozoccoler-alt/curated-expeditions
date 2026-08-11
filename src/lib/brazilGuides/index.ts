@@ -62,6 +62,27 @@ export const BRAZIL_GUIDES: Record<string, BrazilGuideLocalized> = {
   "chapada-dos-veadeiros": chapadaDosVeadeirosGuide,
   jalapao: jalapaoGuide,
   bonito: bonitoGuide,
+  "costa-do-descobrimento": costaDoDescobrimentoGuide,
+  "costa-das-baleias": costaDasBaleiasGuide,
+  "costa-do-cacau": costaDoCacauGuide,
+  "costa-do-dende": costaDoDendeGuide,
+  "costa-dos-coqueiros": costaDosCoqueirosGuide,
+  "costa-do-sol-poente": costaDoSolPoenteGuide,
+  "costa-do-sol-nascente": costaDoSolNascenteGuide,
+  "canyons-do-sul": canyonsDoSulGuide,
+  "expedicoes-fluviais-brasil": expedicoesFluviaisBrasilGuide,
+  "festas-folcloricas-brasil": festasFolcloricasBrasilGuide,
+  "cavalgadas-pantanal": cavalgadasPantanalGuide,
+  "ilha-de-marajo": ilhaDeMarajoGuide,
+  "ilha-de-algodoal": ilhaDeAlgodoalGuide,
+  "fauna-do-brasil": faunaDoBrasilGuide,
+  "flora-do-brasil": floraDoBrasilGuide,
+  "aves-do-brasil": avesDoBrasilGuide,
+  "grandes-cenarios-brasil": grandesCenariosBrasilGuide,
+  "conjugado-amazonia-pantanal": conjugadoAmazoniaPantanalGuide,
+  "conjugado-rio-bahia-noronha": conjugadoRioBahiaNoronhaGuide,
+  "conjugado-cerrado-chapadas": conjugadoCerradoChapadasGuide,
+
 
 
 };
