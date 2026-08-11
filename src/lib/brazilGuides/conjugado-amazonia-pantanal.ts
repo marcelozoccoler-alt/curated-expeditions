@@ -222,7 +222,7 @@ export const conjugadoAmazoniaPantanalGuide: BrazilGuideLocalized = {
       items: [
         { title: "Naturalistas y fotógrafos de vida silvestre", text: "El itinerario con mejor rendimiento en calidad de avistamiento en Brasil: selva cerrada de un lado, planicie abierta del otro." },
         { title: "Parejas y grupos pequeños en un viaje de referencia", text: "Doce a catorce noches intensas, con poco tiempo de playa — ideal para quienes ya han viajado mucho y buscan profundidad, no descanso." },
-        { title: "Para quién quizás no funcione", a: "" , title2: "" , text: "Viajeros con poco tiempo (menos de 10 días) o que buscan playa y descompresión deben elegir solo uno de los dos biomas, no ambos combinados." },
+        { title: "Para quién quizás no funcione", text: "Viajeros con poco tiempo (menos de 10 días) o que buscan playa y descompresión deben elegir solo uno de los dos biomas, no ambos combinados." },
       ],
     },
     itinerary: {
