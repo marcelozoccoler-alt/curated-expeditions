@@ -2926,6 +2926,16 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://createtravel.tur.br/guias-brasil/chapada-dos-veadeiros</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://createtravel.tur.br/guias-brasil/jalapao</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://createtravel.tur.br/en/brazil-guides</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -2992,6 +3002,16 @@
   </url>
   <url>
     <loc>https://createtravel.tur.br/en/brazil-guides/rota-emocoes</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://createtravel.tur.br/en/brazil-guides/chapada-dos-veadeiros</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://createtravel.tur.br/en/brazil-guides/jalapao</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -3066,6 +3086,16 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://createtravel.tur.br/es/brazil-guides/chapada-dos-veadeiros</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://createtravel.tur.br/es/brazil-guides/jalapao</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://createtravel.tur.br/it/brazil-guides</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -3136,6 +3166,16 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://createtravel.tur.br/it/brazil-guides/chapada-dos-veadeiros</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://createtravel.tur.br/it/brazil-guides/jalapao</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://createtravel.tur.br/de/brazil-guides</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -3202,6 +3242,16 @@
   </url>
   <url>
     <loc>https://createtravel.tur.br/de/brazil-guides/rota-emocoes</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://createtravel.tur.br/de/brazil-guides/chapada-dos-veadeiros</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://createtravel.tur.br/de/brazil-guides/jalapao</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
