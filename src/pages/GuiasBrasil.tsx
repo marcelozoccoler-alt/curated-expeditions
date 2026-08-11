@@ -80,6 +80,8 @@ const GuiasBrasil = () => {
   const ui = GUIDE_UI[cLang];
   const fui = GUIDE_FILTER_UI[cLang];
   const canonicalPath = guidePath(cLang);
+  const mosaic = BIOME_MOSAIC[cLang];
+  const conjugados = CONJUGADO_SLUGS.filter((s) => BRAZIL_GUIDES[s]);
 
   const toggleTheme = (id: GuideThemeId) =>
     setThemes((prev) => (prev.includes(id) ? prev.filter((t) => t !== id) : [...prev, id]));
