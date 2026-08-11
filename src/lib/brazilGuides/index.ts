@@ -210,6 +210,8 @@ interface GuideUiStrings {
   backToHub: string;
   touristType: string;
   readGuide: string;
+  propertySite: string;
+  stayRates: string;
 }
 
 /** Micro-copy de interface dos guias, por idioma. */
@@ -230,6 +232,8 @@ export const GUIDE_UI: Record<ContentLang, GuideUiStrings> = {
     backToHub: "Ver todos os guias do Brasil",
     touristType: "Viajantes 40+ de alto padrão",
     readGuide: "Ler o guia",
+    propertySite: "Site da propriedade",
+    stayRates: "Tarifas e datas no WhatsApp",
   },
   en: {
     eyebrow: "Curated destination guide",
@@ -247,6 +251,8 @@ export const GUIDE_UI: Record<ContentLang, GuideUiStrings> = {
     backToHub: "See all Brazil guides",
     touristType: "Discerning travellers 40+",
     readGuide: "Read the guide",
+    propertySite: "Property website",
+    stayRates: "Rates & dates on WhatsApp",
   },
   es: {
     eyebrow: "Guía de autor del destino",
@@ -264,6 +270,8 @@ export const GUIDE_UI: Record<ContentLang, GuideUiStrings> = {
     backToHub: "Ver todas las guías de Brasil",
     touristType: "Viajeros exigentes 40+",
     readGuide: "Leer la guía",
+    propertySite: "Sitio de la propiedad",
+    stayRates: "Tarifas y fechas por WhatsApp",
   },
   it: {
     eyebrow: "Guida d'autore del destino",
@@ -281,6 +289,8 @@ export const GUIDE_UI: Record<ContentLang, GuideUiStrings> = {
     backToHub: "Tutte le guide del Brasile",
     touristType: "Viaggiatori esigenti 40+",
     readGuide: "Leggi la guida",
+    propertySite: "Sito della struttura",
+    stayRates: "Tariffe e date su WhatsApp",
   },
   de: {
     eyebrow: "Kuratierter Reiseführer",
@@ -298,6 +308,8 @@ export const GUIDE_UI: Record<ContentLang, GuideUiStrings> = {
     backToHub: "Alle Brasilien-Guides",
     touristType: "Anspruchsvolle Reisende 40+",
     readGuide: "Guide lesen",
+    propertySite: "Website der Unterkunft",
+    stayRates: "Preise & Termine per WhatsApp",
   },
 };
 
@@ -317,6 +329,7 @@ export const GUIDE_THEME_IDS = [
   "aventura",
   "flora-aves",
   "conjugados",
+  "hospedagens",
 ] as const;
 export type GuideThemeId = (typeof GUIDE_THEME_IDS)[number];
 
@@ -333,6 +346,7 @@ export const GUIDE_THEME_LABELS: Record<ContentLang, Record<GuideThemeId, string
     aventura: "Aventura e cavalgadas",
     "flora-aves": "Flora e aves",
     conjugados: "Roteiros conjugados",
+    hospedagens: "Hospedagens e resorts",
   },
   en: {
     "praias-ilhas": "Beaches & islands",
@@ -346,6 +360,7 @@ export const GUIDE_THEME_LABELS: Record<ContentLang, Record<GuideThemeId, string
     aventura: "Adventure & riding",
     "flora-aves": "Flora & birding",
     conjugados: "Multi-region journeys",
+    hospedagens: "Stays & resorts",
   },
   es: {
     "praias-ilhas": "Playas e islas",
@@ -359,6 +374,7 @@ export const GUIDE_THEME_LABELS: Record<ContentLang, Record<GuideThemeId, string
     aventura: "Aventura y cabalgatas",
     "flora-aves": "Flora y aves",
     conjugados: "Itinerarios combinados",
+    hospedagens: "Alojamientos y resorts",
   },
   it: {
     "praias-ilhas": "Spiagge e isole",
@@ -372,6 +388,7 @@ export const GUIDE_THEME_LABELS: Record<ContentLang, Record<GuideThemeId, string
     aventura: "Avventura e cavalcate",
     "flora-aves": "Flora e birdwatching",
     conjugados: "Itinerari combinati",
+    hospedagens: "Strutture e resort",
   },
   de: {
     "praias-ilhas": "Strände & Inseln",
@@ -385,6 +402,7 @@ export const GUIDE_THEME_LABELS: Record<ContentLang, Record<GuideThemeId, string
     aventura: "Abenteuer & Reitreisen",
     "flora-aves": "Flora & Vogelwelt",
     conjugados: "Kombinationsreisen",
+    hospedagens: "Unterkünfte & Resorts",
   },
 };
 

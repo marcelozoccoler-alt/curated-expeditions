@@ -26,6 +26,8 @@ export interface GuideWindow {
 
 export interface GuideStay {
   name: string;
+  /** Site oficial da propriedade (link externo, opcional). */
+  url?: string;
   /** Perfil de hóspede a quem o endereço serve melhor. */
   profile: string;
   text: string;
