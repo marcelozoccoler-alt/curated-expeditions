@@ -5,6 +5,7 @@ import type { BrazilGuide, BrazilGuideLocalized } from "./types";
 import { amazonGuide } from "./amazon";
 import { pantanalGuide } from "./pantanal";
 import { rioDeJaneiroGuide } from "./rio-de-janeiro";
+import { lencoisMaranhensesGuide } from "./lencois-maranhenses";
 import { fernandoDeNoronhaGuide } from "./fernando-de-noronha";
 import { jericoacoaraGuide } from "./jericoacoara";
 import { maragogiGuide } from "./maragogi";
@@ -18,6 +19,7 @@ export const BRAZIL_GUIDES: Record<string, BrazilGuideLocalized> = {
   amazon: amazonGuide,
   pantanal: pantanalGuide,
   "rio-de-janeiro": rioDeJaneiroGuide,
+  "lencois-maranhenses": lencoisMaranhensesGuide,
   "fernando-de-noronha": fernandoDeNoronhaGuide,
   jericoacoara: jericoacoaraGuide,
   maragogi: maragogiGuide,
