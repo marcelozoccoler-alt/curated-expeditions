@@ -80,7 +80,6 @@ const GuiasBrasil = () => {
   const toggleTheme = (id: GuideThemeId) =>
     setThemes((prev) => (prev.includes(id) ? prev.filter((t) => t !== id) : [...prev, id]));
 
-  const shown = useMemo(() => filtered.slice(0, visible), [filtered, visible]);
   const hasMore = visible < filtered.length;
 
   const hasFilters = query.trim().length > 0 || themes.length > 0;
