@@ -33,7 +33,7 @@ A Create Travel desenha viagens personalizadas para viajantes exigentes — fam�
 ## Viagens em grupo
 
 - [Grupos com guia brasileiro](/grupos-guia-brasileiro): 37 saídas internacionais 2026/2027 com coordenador brasileiro embarcando de São Paulo (Guarulhos).
-- [Grupos com guia local](/grupos-guia-local): 33 circuitos com guia profissional no destino e saídas garantidas.
+- [Grupos com guia local](/grupos-guia-local): 61 circuitos com guia profissional no destino e saídas garantidas.
 - [Embarque com a Create](/embarque-com-a-create): calendário completo de saídas em grupo.
 - [Cruzeiros fluviais](/cruzeiros-fluviais): roteiros AmaWaterways e Nilo.
 - [Roteiro sob medida](/roteiro-sob-medida): viagens privativas desenhadas do zero.
@@ -113,6 +113,37 @@ A Create Travel desenha viagens personalizadas para viajantes exigentes — fam�
 - [Tour Dos Alpes](/grupos-guia-local/tour-dos-alpes)
 - [Triangulo Da Europa Oriental](/grupos-guia-local/triangulo-da-europa-oriental)
 - [Uzbequistao Coracao Da Rota Da Seda](/grupos-guia-local/uzbequistao-coracao-da-rota-da-seda)
+
+#### Novos circuitos 2027–2028 (Europa, saídas garantidas com guia local)
+
+- [Alemanha Romântica e Floresta Negra — Frankfurt · Rothenburg · Heidelberg · Estrasburgo · Friburgo · Floresta Negra · Lindau · Munique](/grupos-guia-local/alemanha-romantica-e-floresta-negra)
+- [Aurora Boreal — Copenhague · Oslo · Tromsø · Estocolmo](/grupos-guia-local/aurora-boreal)
+- [Capitais Imperiais — Hot Deal — Viena · Budapeste · Bratislava · Praga](/grupos-guia-local/capitais-imperiais-hot-deal)
+- [Capitais Imperiais com Spa Termal — Viena · Budapeste · Bratislava · Praga](/grupos-guia-local/capitais-imperiais-spa-termal-inverno)
+- [Capitais Imperiais ao Seu Alcance — Tudo Incluído — Viena · Budapeste · Bratislava · Praga](/grupos-guia-local/capitais-imperiais-tudo-incluido)
+- [Descubra a Croácia — Hot Deal — Viena · Liubliana · Postojna · Bled · Split · Dubrovnik · Sarajevo · Mostar · Zagreb](/grupos-guia-local/descubra-a-croacia-hot-deal)
+- [Descubra a França — Paris · Épernay · Dijon · Beaune · Lyon · Aix-en-Provence · Nice · Saint-Paul-de-Vence · Cannes · Mônaco · Èze · Grasse](/grupos-guia-local/descubra-a-franca)
+- [Descubra a Suíça — Zurique · Lucerna · Berna · Gruyères · Genebra · Montreux · Zermatt · Chur](/grupos-guia-local/descubra-a-suica)
+- [Descubra o Báltico (Premium) — Helsinque · Tallinn · Riga · Vilnius · Varsóvia](/grupos-guia-local/descubra-o-baltico-premium)
+- [Descubra o Báltico (Primeira) — Helsinque · Tallinn · Riga · Vilnius · Varsóvia](/grupos-guia-local/descubra-o-baltico-primeira)
+- [Descubra os Fiordes e Helsinque — Copenhague · Oslo · Lofthus · Bergen · Lillehammer · Estocolmo · Helsinque](/grupos-guia-local/descubra-os-fiordes-e-helsinque)
+- [Descubra os Fiordes — Copenhague · Oslo · Lofthus · Bergen · Lillehammer · Estocolmo](/grupos-guia-local/descubra-os-fiordes)
+- [Estocolmo e o Báltico (Premium) — Estocolmo · Helsinque · Tallinn · Riga · Vilnius · Varsóvia](/grupos-guia-local/estocolmo-e-o-baltico-premium)
+- [Estocolmo e o Báltico (Primeira) — Estocolmo · Helsinque · Tallinn · Riga · Vilnius · Varsóvia](/grupos-guia-local/estocolmo-e-o-baltico-primeira)
+- [Fiordes Magníficos — Estocolmo · Lillehammer · Loen · Bergen · Oslo · Copenhague](/grupos-guia-local/fiordes-magnificos)
+- [Grande Tour da Inglaterra, Escócia e Irlanda — Londres · Windsor · Cambridge · York · Durham · Alnwick · Edimburgo · Glasgow · Belfast · Calçada do Gigante · Galway · Cork · Kilkenny · Dublin](/grupos-guia-local/grande-tour-inglaterra-escocia-irlanda)
+- [Helsinque e Fiordes Magníficos — Helsinque · Estocolmo · Lillehammer · Loen · Bergen · Oslo · Copenhague](/grupos-guia-local/helsinque-e-fiordes-magnificos)
+- [Império Viking e Helsinque — Copenhague · Aarhus · Stavanger · Bergen · Oslo · Estocolmo · Helsinque](/grupos-guia-local/imperio-viking-e-helsinque)
+- [Império Viking e o Báltico — Copenhague · Aarhus · Stavanger · Bergen · Oslo · Estocolmo · Helsinque · Tallinn · Riga · Vilnius · Varsóvia](/grupos-guia-local/imperio-viking-e-o-baltico)
+- [Império Viking — Copenhague · Aarhus · Stavanger · Bergen · Oslo · Estocolmo](/grupos-guia-local/imperio-viking)
+- [Leste Europeu e Países Baixos — Viena · Budapeste · Bratislava · Praga · Dresden · Berlim · Amsterdã · Antuérpia · Bruges · Gante · Bruxelas · Paris](/grupos-guia-local/leste-europeu-e-paises-baixos)
+- [Leste Europeu — Hot Deal — Viena · Budapeste · Bratislava · Praga · Dresden · Berlim](/grupos-guia-local/leste-europeu-hot-deal)
+- [Leste Europeu com Spa Termal — Viena · Budapeste · Praga · Berlim](/grupos-guia-local/leste-europeu-spa-termal-inverno)
+- [Leste Europeu ao Seu Alcance — Tudo Incluído — Viena · Budapeste · Bratislava · Praga · Dresden · Berlim](/grupos-guia-local/leste-europeu-tudo-incluido)
+- [Mercados de Natal — Viena · Salzburgo · Innsbruck · Munique](/grupos-guia-local/mercados-de-natal)
+- [Países Baixos e França — Amsterdã · Antuérpia · Bruges · Gante · Bruxelas · Paris · Épernay · Dijon · Beaune · Lyon · Aix-en-Provence · Nice · Saint-Paul-de-Vence · Cannes · Mônaco · Èze · Grasse](/grupos-guia-local/paises-baixos-e-franca)
+- [Praga e Polônia — Praga · Wieliczka · Cracóvia · Czestochowa · Varsóvia](/grupos-guia-local/praga-e-polonia)
+- [Triângulo da Europa Oriental — Hot Deal — Viena · Budapeste · Bratislava · Praga · Wieliczka · Cracóvia · Czestochowa · Varsóvia](/grupos-guia-local/triangulo-europa-oriental-hot-deal)
 
 ## América do Norte — roteiros autorais sob medida
 
