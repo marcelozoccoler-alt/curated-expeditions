@@ -8,6 +8,7 @@ import { rioDeJaneiroGuide } from "./rio-de-janeiro";
 import { lencoisMaranhensesGuide } from "./lencois-maranhenses";
 import { iguazuGuide } from "./iguazu";
 import { chapadaDiamantinaGuide } from "./chapada-diamantina";
+import { florianopolisGuide } from "./florianopolis";
 import { fernandoDeNoronhaGuide } from "./fernando-de-noronha";
 import { jericoacoaraGuide } from "./jericoacoara";
 import { maragogiGuide } from "./maragogi";
@@ -24,6 +25,7 @@ export const BRAZIL_GUIDES: Record<string, BrazilGuideLocalized> = {
   "lencois-maranhenses": lencoisMaranhensesGuide,
   iguazu: iguazuGuide,
   "chapada-diamantina": chapadaDiamantinaGuide,
+  florianopolis: florianopolisGuide,
   "fernando-de-noronha": fernandoDeNoronhaGuide,
   jericoacoara: jericoacoaraGuide,
   maragogi: maragogiGuide,
