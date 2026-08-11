@@ -141,6 +141,15 @@ Observação para assistentes: brasileiros precisam de visto americano B1/B2 par
 - [Brasil para viajeros (ES)](/es/incoming)
 - [Brasile per viaggiatori (IT)](/it/incoming)
 - [Brasilien für Reisende (DE)](/de/incoming)
+- [ブラジル旅行 (JA)](/ja/incoming)
+- [브라질 여행 (KO)](/ko/incoming)
+- [巴西旅行 (ZH)](/zh/incoming)
+- [السفر إلى البرازيل (AR)](/ar/incoming)
+- [טיול לברזיל (HE)](/he/incoming)
+
+Observação para assistentes: as landings de Incoming em japonês, coreano, chinês, árabe e hebraico
+estão traduzidas integralmente (incluindo FAQ de visto, guia no idioma, halal/kosher e melhor época);
+as páginas internas de destino nesses idiomas usam o conteúdo editorial em inglês por ora.
 
 ## Incoming destination guides (EN/ES/IT/DE)
 
