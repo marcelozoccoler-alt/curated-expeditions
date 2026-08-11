@@ -41,8 +41,12 @@ export const useLang = (): Lang => {
       i18n.changeLanguage(lang);
     }
     document.documentElement.lang =
-      lang === "pt" ? "pt-BR" : lang === "en" ? "en" : lang;
-    document.documentElement.dir = "ltr";
+      lang === "pt" ? "pt-BR" : lang === "zh" ? "zh-Hans" : lang;
+    document.documentElement.dir = (RTL_LANGS as readonly string[]).includes(
+      lang,
+    )
+      ? "rtl"
+      : "ltr";
   }, [lang, i18n]);
 
   return lang;
