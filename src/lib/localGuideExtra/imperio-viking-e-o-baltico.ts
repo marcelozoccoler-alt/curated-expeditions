@@ -1,0 +1,170 @@
+import type { LocalGuideGroup } from "@/lib/localGuideGroups";
+
+export const imperioVikingEOBaltico: LocalGuideGroup = {
+  slug: "imperio-viking-e-o-baltico",
+  code: "COPWAW",
+  title: "Império Viking e o Báltico",
+  subtitle:
+    "Copenhague · Aarhus · Stavanger · Bergen · Oslo · Estocolmo · Helsinque · Tallinn · Riga · Vilnius · Varsóvia",
+  intro:
+    "Uma travessia de vinte e um dias pelo norte da Europa, onde fiordes esculpidos por glaciares dão lugar a capitais bálticas de ruas medievais e cúpulas douradas. Entre travessias marítimas e minicruzeiros que deslizam sobre águas cor de aço, o roteiro tece Escandinávia e Báltico num só fôlego, sem pressa, com o olhar atento de quem sabe que cada porto guarda uma história distinta. Da Pequena Sereia de Copenhague às colinas sagradas da Lituânia, um itinerário para viajantes que preferem se demorar.",
+  highlights: [
+    "Travessia de ferry Hirtshals–Kristiansand rumo à Noruega",
+    "Fiorde de Lyse e o icônico Púlpito (Preikestolen)",
+    "Noite a bordo do cruzeiro Tallink-Silja Line com jantar buffet",
+    "Minicruzeiro Helsinque–Tallinn pelo mar Báltico",
+    "Colina das Cruzes em Šiauliai e o castelo barroco de Rundale",
+    "Centros históricos de Riga, Vilnius e Varsóvia, patrimônios vivos do Báltico",
+  ],
+  category: "Premium",
+  days: 21,
+  nights: 20,
+  priceEur: 5895,
+  singleSupplementEur: 2400,
+  priceNote:
+    "Desconto de 5% para o terceiro passageiro em quarto triplo. Guia acompanhante em espanhol.",
+  countries: [
+    "Dinamarca",
+    "Noruega",
+    "Suécia",
+    "Finlândia",
+    "Estônia",
+    "Letônia",
+    "Lituânia",
+    "Polônia",
+  ],
+  area: "Europa",
+  hotels: [
+    { city: "Copenhague", hotel: "Radisson Scandinavia" },
+    { city: "Aarhus", hotel: "Comwell Aarhus" },
+    { city: "Stavanger", hotel: "Radisson Atlantic" },
+    { city: "Bergen", hotel: "Havnekontoret" },
+    { city: "Oslo", hotel: "Clarion The Hub" },
+    { city: "Estocolmo", hotel: "Radisson Royal Viking / Clarion Sign" },
+    { city: "Helsinque", hotel: "Radisson Blu Plaza" },
+    { city: "Tallinn", hotel: "Mövenpick" },
+    { city: "Riga", hotel: "Grand Poet by Semarah" },
+    { city: "Vilnius", hotel: "Radisson Astorija" },
+    { city: "Varsóvia", hotel: "Puro Old Town" },
+  ],
+  departures: [
+    "2027-04-30",
+    "2027-05-14",
+    "2027-05-28",
+    "2027-06-11",
+    "2027-06-25",
+    "2027-07-09",
+    "2027-07-23",
+    "2027-08-06",
+    "2027-08-20",
+    "2027-09-03",
+    "2027-09-17",
+  ],
+  itinerary: [
+    {
+      day: 1,
+      route: "COPENHAGUE",
+      text: "Chegada ao aeroporto e traslado para o hotel. Às 18h30, encontro no lobby com o guia que conduzirá a viagem pelos próximos vinte e um dias.",
+    },
+    {
+      day: 2,
+      route: "COPENHAGUE",
+      text: "Café da manhã e visita panorâmica pela cidade, percorrendo a Praça da Prefeitura, o Palácio de Christiansborg, a Fonte da deusa Gefion, o porto de Nyhavn e suas casas coloridas do século XVII, além do símbolo máximo da capital: a estátua da Pequena Sereia. Opcionalmente, visita ao Castelo Real de Frederiksborg, no norte da Zelândia. Tarde livre. Hospedagem.",
+    },
+    {
+      day: 3,
+      route: "COPENHAGUE / ODENSE / AARHUS",
+      text: "Saída rumo a Odense, atravessando o estreito do Grande Belt por uma das pontes mais notáveis da engenharia dinamarquesa e unindo as ilhas de Zelândia e Fionia. Breve parada em Odense, berço do escritor Hans Christian Andersen. Continuação até Aarhus, a segunda maior cidade da Dinamarca. Tempo livre e hospedagem.",
+    },
+    {
+      day: 4,
+      route: "AARHUS / KRISTIANSAND / STAVANGER",
+      text: "Café da manhã e saída até Hirtshals, onde embarcamos em ferry rumo à Noruega, atravessando o mar do Norte até Kristiansand. Continuação até Stavanger, famosa por seu bairro antigo de 173 casas de madeira. Hospedagem.",
+    },
+    {
+      day: 5,
+      route: "STAVANGER",
+      text: "Café da manhã e saída até o porto de Stavanger, de onde embarcamos para desfrutar do fiorde de Lyse, de geologia espetacular, admirando o Preikestolen ou «Púlpito», com queda vertical de 604 metros, cenário de uma das cenas do filme Missão Impossível. Tempo livre para visitar o Museu do Petróleo. Hospedagem em Stavanger.",
+    },
+    {
+      day: 6,
+      route: "STAVANGER / BERGEN",
+      text: "Café da manhã e saída rumo a Bergen, percorrendo a costa e os fiordes noruegueses por túneis, pontes e trechos em barco. Visita panorâmica de Bergen, com a Fortaleza, o Håkonshallen, o Bryggen e a igreja de Maria, encerrando com a subida no famoso funicular. Hospedagem.",
+    },
+    {
+      day: 7,
+      route: "BERGEN / OSLO",
+      text: "Café da manhã e saída em direção a Gudvangen, atravessando florestas, rios, cachoeiras e lagos. Em Gudvangen, ferry até Flåm pelo espetacular «Fiorde dos Sonhos». Continuação em ônibus até Oslo. Hospedagem.",
+    },
+    {
+      day: 8,
+      route: "OSLO",
+      text: "Café da manhã e visita da «capital viking», situada ao fundo do fiorde homônimo, passando pela Prefeitura, o Castelo de Akershus, o Palácio Real, o Parlamento e o Parque Vigeland, com suas esculturas de bronze. Tarde livre. Hospedagem.",
+    },
+    {
+      day: 9,
+      route: "OSLO / ESTOCOLMO",
+      text: "Café da manhã e saída rumo a Estocolmo, atravessando as paisagens de Värmland, província sueca de lagos e florestas. Chegada à tarde e hospedagem.",
+    },
+    {
+      day: 10,
+      route: "ESTOCOLMO",
+      text: "Café da manhã e visita da cidade, passando por Gamla Stan, o Palácio Real, a Casa da Nobreza e o Museu Nobel. Passeio pela ilha de Södermalm, com vistas panorâmicas desde «O Mirante». Tarde livre. Hospedagem.",
+    },
+    {
+      day: 11,
+      route: "ESTOCOLMO / CRUZEIRO TALLINK-SILJA / HELSINQUE",
+      text: "Café da manhã e manhã livre até as 15h, quando embarcamos no porto rumo a Helsinque, navegando pelo arquipélago de mais de 24.000 ilhas. Jantar buffet a bordo, em cabine dupla externa categoria A.",
+    },
+    {
+      day: 12,
+      route: "HELSINQUE",
+      text: "Café da manhã buffet a bordo e chegada a Helsinque às 10h. Visita panorâmica da «Cidade Branca do Norte», passando pela Igreja Ortodoxa da Trindade, a Praça do Senado e a Catedral. Hospedagem.",
+    },
+    {
+      day: 13,
+      route: "HELSINQUE / TALLINN",
+      text: "Café da manhã e tempo livre. Às 15h, traslado ao porto para embarque no ferry expresso rumo a Tallinn, atravessando o mar Báltico. Hospedagem em Tallinn.",
+    },
+    {
+      day: 14,
+      route: "TALLINN",
+      text: "Café da manhã e visita da cidade, com reminiscências hanseáticas, destacando-se o «Kiek in de Kök», uma das torres defensivas mais importantes do mar Báltico, a igreja de São Nicolau e a Catedral (Tuomiokirkko). Hospedagem.",
+    },
+    {
+      day: 15,
+      route: "TALLINN / SIGULDA / RIGA",
+      text: "Café da manhã e saída até Sigulda, no Parque Nacional de Gauja, com visita das ruínas do Castelo de Sigulda e do Castelo de Turaida. Continuação até Riga. Hospedagem.",
+    },
+    {
+      day: 16,
+      route: "RIGA",
+      text: "Café da manhã e visita da cidade, conhecida como «a Paris do Norte», com a Catedral, a Casa dos Três Irmãos, a Praça da Prefeitura, o Monumento à Liberdade e a coleção de edifícios art nouveau. Hospedagem.",
+    },
+    {
+      day: 17,
+      route: "RIGA / RUNDALE / SIAULIAI / VILNIUS",
+      text: "Café da manhã e saída até Rundale para visitar o castelo barroco projetado por Francesco Rastrelli. Continuação até Šiauliai, «a Cidade do Sol», e sua «colina das cruzes», visitada pelo papa João Paulo II. Continuação até Vilnius. Hospedagem.",
+    },
+    {
+      day: 18,
+      route: "VILNIUS / TRAKAI / VILNIUS",
+      text: "Café da manhã e visita panorâmica de Vilnius, «a Jerusalém da Lituânia», passando pela igreja de São Pedro e São Paulo, a igreja de Santa Ana e a igreja de São Miguel. À tarde, excursão a Trakai e seu castelo do século XIV, rodeado por dez pequenos lagos. Hospedagem.",
+    },
+    {
+      day: 19,
+      route: "VILNIUS / VARSÓVIA",
+      text: "Café da manhã e saída rumo a Varsóvia, capital da Polônia, passando próximo à fronteira com a Bielorrússia e pelas paisagens rurais da Polônia. Chegada à tarde. Hospedagem.",
+    },
+    {
+      day: 20,
+      route: "VARSÓVIA",
+      text: "Café da manhã e visita à cidade seguindo a Rota Real, incluindo o centro histórico, o Parque Real de Lazienki com seu monumento a Chopin e a Igreja de Santa Ana. Tarde livre. Hospedagem.",
+    },
+    {
+      day: 21,
+      route: "VARSÓVIA",
+      text: "Café da manhã e traslado de saída para o aeroporto.",
+    },
+  ],
+};
