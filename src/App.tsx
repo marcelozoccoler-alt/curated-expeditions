@@ -59,6 +59,8 @@ import EmbarqueComACreate from "./pages/EmbarqueComACreate";
 import Diario from "./pages/Diario";
 import DiarioPost from "./pages/DiarioPost";
 import DiarioCategoria from "./pages/DiarioCategoria";
+import GuiasBrasil from "./pages/GuiasBrasil";
+import GuiaBrasil from "./pages/GuiaBrasil";
 
 import Pacote from "./pages/Pacote";
 import Auth from "./pages/Auth";
@@ -150,6 +152,13 @@ const App = () => (
           <Route path="/diario" element={<Diario />} />
           <Route path="/diario/categoria/:slug" element={<DiarioCategoria />} />
           <Route path="/diario/:slug" element={<DiarioPost />} />
+
+          {/* Guias autorais dos destinos do Brasil (PT + idiomas do Incoming) */}
+          <Route path="/guias-brasil" element={<GuiasBrasil />} />
+          <Route path="/guias-brasil/:slug" element={<GuiaBrasil />} />
+          <Route path="/:lang/brazil-guides" element={<GuiasBrasil />} />
+          <Route path="/:lang/brazil-guides/:slug" element={<GuiaBrasil />} />
+
 
           <Route path="/pacote/:slug" element={<Pacote />} />
           <Route path="/auth" element={<Auth />} />
