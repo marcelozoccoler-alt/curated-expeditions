@@ -18,8 +18,29 @@ import { rotaEmocoesGuide } from "./rota-emocoes";
 import { chapadaDosVeadeirosGuide } from "./chapada-dos-veadeiros";
 import { jalapaoGuide } from "./jalapao";
 import { bonitoGuide } from "./bonito";
-// Os demais destinos do Brasil estão sendo escritos nos 5 idiomas e serão
-// registrados aqui à medida que os arquivos entrarem.
+import { costaDoDescobrimentoGuide } from "./costa-do-descobrimento";
+import { costaDasBaleiasGuide } from "./costa-das-baleias";
+import { costaDoCacauGuide } from "./costa-do-cacau";
+import { costaDoDendeGuide } from "./costa-do-dende";
+import { costaDosCoqueirosGuide } from "./costa-dos-coqueiros";
+import { costaDoSolPoenteGuide } from "./costa-do-sol-poente";
+import { costaDoSolNascenteGuide } from "./costa-do-sol-nascente";
+import { canyonsDoSulGuide } from "./canyons-do-sul";
+import { expedicoesFluviaisBrasilGuide } from "./expedicoes-fluviais-brasil";
+import { festasFolcloricasBrasilGuide } from "./festas-folcloricas-brasil";
+import { cavalgadasPantanalGuide } from "./cavalgadas-pantanal";
+import { ilhaDeMarajoGuide } from "./ilha-de-marajo";
+import { ilhaDeAlgodoalGuide } from "./ilha-de-algodoal";
+import { faunaDoBrasilGuide } from "./fauna-do-brasil";
+import { floraDoBrasilGuide } from "./flora-do-brasil";
+import { avesDoBrasilGuide } from "./aves-do-brasil";
+import { grandesCenariosBrasilGuide } from "./grandes-cenarios-brasil";
+import { conjugadoAmazoniaPantanalGuide } from "./conjugado-amazonia-pantanal";
+import { conjugadoRioBahiaNoronhaGuide } from "./conjugado-rio-bahia-noronha";
+import { conjugadoCerradoChapadasGuide } from "./conjugado-cerrado-chapadas";
+// Belém, Algodoal-conjugados restantes e demais especiais entram aqui conforme
+// os arquivos são concluídos nos 5 idiomas.
+
 
 export type { BrazilGuide, BrazilGuideLocalized } from "./types";
 
