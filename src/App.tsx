@@ -151,6 +151,13 @@ const App = () => (
           <Route path="/diario/categoria/:slug" element={<DiarioCategoria />} />
           <Route path="/diario/:slug" element={<DiarioPost />} />
 
+          {/* Guias autorais dos destinos do Brasil (PT + idiomas do Incoming) */}
+          <Route path="/guias-brasil" element={<GuiasBrasil />} />
+          <Route path="/guias-brasil/:slug" element={<GuiaBrasil />} />
+          <Route path="/:lang/brazil-guides" element={<GuiasBrasil />} />
+          <Route path="/:lang/brazil-guides/:slug" element={<GuiaBrasil />} />
+
+
           <Route path="/pacote/:slug" element={<Pacote />} />
           <Route path="/auth" element={<Auth />} />
           <Route path="/admin/seo" element={<AdminSeo />} />
