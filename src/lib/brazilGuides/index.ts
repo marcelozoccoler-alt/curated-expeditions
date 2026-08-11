@@ -1,6 +1,14 @@
 import type { ContentLang } from "@/i18n/config";
 import { INCOMING_DESTINATIONS } from "@/lib/incomingDestinations";
 import type { BrazilGuide, BrazilGuideLocalized } from "./types";
+import { resortsBrasilGuide } from "./resorts-brasil";
+import { hospedagensDeCharmeBrasilGuide } from "./hospedagens-de-charme-brasil";
+import { viagensDeLuxoBrasilGuide } from "./viagens-de-luxo-brasil";
+import { hospedagensBaseComunitariaBrasilGuide } from "./hospedagens-base-comunitaria-brasil";
+import resortsImg from "@/assets/destinations/brasil-resorts.jpg";
+import charmeImg from "@/assets/destinations/brasil-hospedagens-charme.jpg";
+import luxoImg from "@/assets/destinations/brasil-viagens-luxo.jpg";
+import comunitariaImg from "@/assets/destinations/brasil-base-comunitaria.jpg";
 
 import { amazonGuide } from "./amazon";
 import { pantanalGuide } from "./pantanal";
@@ -172,6 +180,10 @@ const GUIDE_EXTRA_IMAGES: Record<string, string> = {
   "conjugado-cerrado-chapadas": chapadaMesasImg,
   "conjugado-sul-serra-canyons": rsStateImg,
   "conjugado-costas-nordeste": falesiasImg,
+  "resorts-brasil": resortsImg,
+  "hospedagens-de-charme-brasil": charmeImg,
+  "viagens-de-luxo-brasil": luxoImg,
+  "hospedagens-base-comunitaria-brasil": comunitariaImg,
 };
 
 /** Roteiros conjugados (mosaico de biomas) — ordem editorial. */
@@ -446,6 +458,10 @@ export const GUIDE_THEMES: Record<string, GuideThemeId[]> = {
   "conjugado-belem-marajo-alter": ["conjugados", "expedicoes"],
   "conjugado-rio-bahia-noronha": ["conjugados", "praias-ilhas"],
   "conjugado-cerrado-chapadas": ["conjugados", "trilhas"],
+  "resorts-brasil": ["hospedagens", "praias-ilhas"],
+  "hospedagens-de-charme-brasil": ["hospedagens", "costas"],
+  "viagens-de-luxo-brasil": ["hospedagens", "paisagens-raras"],
+  "hospedagens-base-comunitaria-brasil": ["hospedagens", "cidades-cultura"],
   "conjugado-sul-serra-canyons": ["conjugados", "paisagens-raras"],
   "conjugado-costas-nordeste": ["conjugados", "costas"],
 };
