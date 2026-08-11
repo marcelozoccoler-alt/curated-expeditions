@@ -35,5 +35,9 @@ Allow: /
 User-agent: Claude-User
 Allow: /
 
+# Conteúdo condensado para assistentes de IA
+# https://createtravel.tur.br/llms.txt
+# https://createtravel.tur.br/llms-full.txt
+
 Sitemap: https://createtravel.tur.br/sitemap.xml
 

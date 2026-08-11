@@ -31,6 +31,10 @@ A Create Travel desenha viagens personalizadas para viajantes exigentes — fam�
 - [Perguntas frequentes](/perguntas-frequentes): respostas diretas sobre processo de roteiro sob medida, prazos de planejamento, diferença entre grupo com guia brasileiro e guia local, hotéis, pagamento e melhor época por destino.
 - [Contato](/contato): formulário e WhatsApp.
 
+## Conteúdo completo para IAs
+
+- [llms-full.txt](/llms-full.txt): catálogo completo em um único arquivo — 161 destinos, 61 circuitos com guia local, cruzeiros fluviais, hospedagens, Brasil por estado e 69 guias editoriais, com melhor época, duração, destaques e perguntas frequentes.
+
 ## Viagens em grupo
 
 - [Grupos com guia brasileiro](/grupos-guia-brasileiro): 37 saídas internacionais 2026/2027 com coordenador brasileiro embarcando de São Paulo (Guarulhos).
