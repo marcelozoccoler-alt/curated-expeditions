@@ -7,7 +7,6 @@ import { pantanalGuide } from "./pantanal";
 import { rioDeJaneiroGuide } from "./rio-de-janeiro";
 import { fernandoDeNoronhaGuide } from "./fernando-de-noronha";
 import { jericoacoaraGuide } from "./jericoacoara";
-import { alterDoChaoGuide } from "./alter-do-chao";
 import { maragogiGuide } from "./maragogi";
 // Os demais destinos do Brasil estão sendo escritos nos 5 idiomas e serão
 // registrados aqui à medida que os arquivos entrarem.
@@ -21,7 +20,6 @@ export const BRAZIL_GUIDES: Record<string, BrazilGuideLocalized> = {
   "rio-de-janeiro": rioDeJaneiroGuide,
   "fernando-de-noronha": fernandoDeNoronhaGuide,
   jericoacoara: jericoacoaraGuide,
-  "alter-do-chao": alterDoChaoGuide,
   maragogi: maragogiGuide,
 };
 
