@@ -59,6 +59,8 @@ import EmbarqueComACreate from "./pages/EmbarqueComACreate";
 import Diario from "./pages/Diario";
 import DiarioPost from "./pages/DiarioPost";
 import DiarioCategoria from "./pages/DiarioCategoria";
+import GuiasBrasil from "./pages/GuiasBrasil";
+import GuiaBrasil from "./pages/GuiaBrasil";
 
 import Pacote from "./pages/Pacote";
 import Auth from "./pages/Auth";
