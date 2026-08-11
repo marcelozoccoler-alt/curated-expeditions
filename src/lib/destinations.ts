@@ -3680,6 +3680,12 @@ export const destinations: Destination[] = [
   },
   ...mexicoDestinations,
   ...usaDestinations,
+  ...africaExtraDestinations,
+  ...americasExtraDestinations,
+  ...asiaOceaniaExtraDestinations,
+  ...europaOesteExtraDestinations,
+  ...europaNorteExtraDestinations,
+  ...orienteMedioExtraDestinations,
 ];
 
 export const getDestinationBySlug = (slug: string): Destination | undefined => {
