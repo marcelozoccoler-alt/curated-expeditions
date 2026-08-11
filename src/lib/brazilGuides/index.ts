@@ -100,9 +100,10 @@ export const BRAZIL_GUIDES: Record<string, BrazilGuideLocalized> = {
   "conjugado-cerrado-chapadas": conjugadoCerradoChapadasGuide,
   "conjugado-sul-serra-canyons": conjugadoSulSerraCanyonsGuide,
   "conjugado-costas-nordeste": conjugadoCostasNordesteGuide,
-
-
-
+  "resorts-brasil": resortsBrasilGuide,
+  "hospedagens-de-charme-brasil": hospedagensDeCharmeBrasilGuide,
+  "viagens-de-luxo-brasil": viagensDeLuxoBrasilGuide,
+  "hospedagens-base-comunitaria-brasil": hospedagensBaseComunitariaBrasilGuide,
 };
 
 /** Ordem editorial de exibição no hub. */
