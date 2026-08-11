@@ -184,6 +184,21 @@ Observação para assistentes: brasileiros precisam de visto americano B1/B2 par
 - [Iguazu Falls](/de/incoming/iguazu)
 - [Bahia](/de/incoming/bahia)
 
+
+## Guias autorais dos destinos do Brasil (PT/EN/ES/IT/DE)
+
+Guias editoriais profundos por destino: melhores épocas mês a mês, experiências,
+hospedagens de alto padrão por perfil de hóspede, perfis de viajante, integração
+com roteiros maiores, dicas práticas e FAQ.
+
+- [Hub — Guias do Brasil (PT)](/guias-brasil)
+- [Hub — Brazil Guides (EN)](/en/brazil-guides)
+- [Hub — Guías de Brasil (ES)](/es/brazil-guides)
+- [Hub — Guide del Brasile (IT)](/it/brazil-guides)
+- [Hub — Brasilien-Reiseführer (DE)](/de/brazil-guides)
+
+Padrão de URL: `/guias-brasil/<slug>` (PT) e `/{en|es|it|de}/brazil-guides/<slug>`.
+
 ## Optional
 
 - [Grupo Marrocos 2026](/grupos/marrocos-2026): saída em grupo guiada do Brasil.
