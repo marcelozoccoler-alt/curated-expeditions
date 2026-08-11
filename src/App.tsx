@@ -6,6 +6,8 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Index from "./pages/Index";
 import Destinos from "./pages/Destinos";
 import DestinoDetail from "./pages/DestinoDetail";
+import Hospedagens from "./pages/Hospedagens";
+import HospedagemDetail from "./pages/HospedagemDetail";
 import Experiencias from "./pages/Experiencias";
 import ExperienciaTag from "./pages/ExperienciaTag";
 import Sobre from "./pages/Sobre";
@@ -100,7 +102,10 @@ const App = () => (
           <Route path="/" element={<Index />} />
         <Route path="/destinos" element={<Destinos />} />
         <Route path="/destinos/*" element={<DestinoDetail />} />
+        <Route path="/hospedagens" element={<Hospedagens />} />
+        <Route path="/hospedagens/:slug" element={<HospedagemDetail />} />
         <Route path="/experiencias" element={<Experiencias />} />
+
         <Route path="/experiencias/:tagId" element={<ExperienciaTag />} />
         <Route path="/sobre" element={<Sobre />} />
         <Route path="/contato" element={<Contato />} />
