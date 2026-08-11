@@ -42,8 +42,8 @@ const Index = () => {
   return (
     <div className="min-h-screen">
       <SEO
-        title="Create Travel — Agência de Viagens Personalizadas em SP"
-        description="Agência boutique de curadoria autoral: roteiros sob medida para África, Europa, Ásia e Brasil, e grupos com guia brasileiro em 2026 e 2027."
+        title="Create Travel — Roteiros Sob Medida e Grupos Exclusivos"
+        description="Agência boutique brasileira (Cadastur): roteiros 100% autorais para África, Ásia, Europa e Brasil, grupos 2026/2027 com guia e suporte 24/7. Fale com um travel designer."
         canonicalPath="/"
         keywords="agência de viagens personalizada, roteiro sob medida, viagem sob medida, grupo com guia brasileiro, agência boutique São Paulo, travel designer, curadoria de viagens"
       />
