@@ -10,6 +10,7 @@ import Experiencias from "./pages/Experiencias";
 import ExperienciaTag from "./pages/ExperienciaTag";
 import Sobre from "./pages/Sobre";
 import Contato from "./pages/Contato";
+import PerguntasFrequentes from "./pages/PerguntasFrequentes";
 import Regiao from "./pages/Regiao";
 import GrupoMarrocos2026 from "./pages/GrupoMarrocos2026";
 import GrupoGrecia2026 from "./pages/GrupoGrecia2026";
@@ -103,6 +104,7 @@ const App = () => (
         <Route path="/experiencias/:tagId" element={<ExperienciaTag />} />
         <Route path="/sobre" element={<Sobre />} />
         <Route path="/contato" element={<Contato />} />
+        <Route path="/perguntas-frequentes" element={<PerguntasFrequentes />} />
         <Route path="/grupos/marrocos-2026" element={<GrupoMarrocos2026 />} />
         <Route path="/grupos/grecia-2026" element={<GrupoGrecia2026 />} />
         <Route path="/grupos/patagonia-chilena-2026" element={<GrupoPatagoniaChilena2026 />} />
