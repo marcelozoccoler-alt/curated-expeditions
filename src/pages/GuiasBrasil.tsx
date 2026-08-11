@@ -51,6 +51,8 @@ const GuiasBrasil = () => {
     () => filterGuideSlugs(cLang, query, themes),
     [cLang, query, themes],
   );
+  const shown = useMemo(() => filtered.slice(0, visible), [filtered, visible]);
+
 
   useEffect(() => {
     setVisible(PAGE_SIZE);
