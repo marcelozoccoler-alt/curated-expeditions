@@ -268,14 +268,6 @@ export const GUIDE_FILTER_UI: Record<ContentLang, GuideFilterStrings> = {
     clear: "Limpar filtros",
     results: (n) => (n === 1 ? "1 guia encontrado" : `${n} guias encontrados`),
     empty: "Nenhum guia corresponde à sua busca. Tente outro destino ou tema.",
-    showing: (a, b) => `${a} von ${b} Guides angezeigt`,
-    loadMore: "Weitere Guides laden",
-    showing: (a, b) => `Mostrate ${a} di ${b} guide`,
-    loadMore: "Carica altre guide",
-    showing: (a, b) => `Mostrando ${a} de ${b} guías`,
-    loadMore: "Cargar más guías",
-    showing: (a, b) => `Showing ${a} of ${b} guides`,
-    loadMore: "Load more guides",
     showing: (a, b) => `Mostrando ${a} de ${b} guias`,
     loadMore: "Carregar mais guias",
   },
@@ -286,6 +278,8 @@ export const GUIDE_FILTER_UI: Record<ContentLang, GuideFilterStrings> = {
     clear: "Clear filters",
     results: (n) => (n === 1 ? "1 guide found" : `${n} guides found`),
     empty: "No guide matches your search. Try another destination or theme.",
+    showing: (a, b) => `Showing ${a} of ${b} guides`,
+    loadMore: "Load more guides",
   },
   es: {
     searchLabel: "Buscar guías",
@@ -294,6 +288,8 @@ export const GUIDE_FILTER_UI: Record<ContentLang, GuideFilterStrings> = {
     clear: "Limpiar filtros",
     results: (n) => (n === 1 ? "1 guía encontrada" : `${n} guías encontradas`),
     empty: "Ninguna guía coincide con tu búsqueda. Prueba otro destino o tema.",
+    showing: (a, b) => `Mostrando ${a} de ${b} guías`,
+    loadMore: "Cargar más guías",
   },
   it: {
     searchLabel: "Cerca guide",
@@ -302,6 +298,8 @@ export const GUIDE_FILTER_UI: Record<ContentLang, GuideFilterStrings> = {
     clear: "Azzera filtri",
     results: (n) => (n === 1 ? "1 guida trovata" : `${n} guide trovate`),
     empty: "Nessuna guida corrisponde alla ricerca. Prova un'altra destinazione o tema.",
+    showing: (a, b) => `Mostrate ${a} di ${b} guide`,
+    loadMore: "Carica altre guide",
   },
   de: {
     searchLabel: "Guides suchen",
@@ -310,6 +308,8 @@ export const GUIDE_FILTER_UI: Record<ContentLang, GuideFilterStrings> = {
     clear: "Filter zurücksetzen",
     results: (n) => (n === 1 ? "1 Guide gefunden" : `${n} Guides gefunden`),
     empty: "Kein Guide passt zur Suche. Versuche ein anderes Ziel oder Thema.",
+    showing: (a, b) => `${a} von ${b} Guides angezeigt`,
+    loadMore: "Weitere Guides laden",
   },
 };
 
