@@ -12,6 +12,7 @@ import { florianopolisGuide } from "./florianopolis";
 import { fernandoDeNoronhaGuide } from "./fernando-de-noronha";
 import { jericoacoaraGuide } from "./jericoacoara";
 import { maragogiGuide } from "./maragogi";
+import { bahiaGuide } from "./bahia";
 // Os demais destinos do Brasil estão sendo escritos nos 5 idiomas e serão
 // registrados aqui à medida que os arquivos entrarem.
 
@@ -29,6 +30,8 @@ export const BRAZIL_GUIDES: Record<string, BrazilGuideLocalized> = {
   "fernando-de-noronha": fernandoDeNoronhaGuide,
   jericoacoara: jericoacoaraGuide,
   maragogi: maragogiGuide,
+  bahia: bahiaGuide,
+
 };
 
 /** Ordem editorial de exibição no hub. */
