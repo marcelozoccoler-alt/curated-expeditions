@@ -53,7 +53,7 @@ export const rotaEmocoesGuide: BrazilGuideLocalized = {
           text: "Águas doces, rasas e mornas entre dunas e coqueiros, acessíveis de bugue ou quadriciclo. Ideal para o meio do dia, quando o sol está mais forte na praia.",
         },
         {
-          window: undefined as any,
+          
           title: "Passeio de barco pelo Delta do Parnaíba",
           text: "Navegação entre 90 ilhas fluviais, mangues intocados, encontro do rio com o mar em pleno oceano aberto — fenômeno raro no mundo. Complementa com visita a comunidades de pescadores e aos famosos coqueiros inclinados de Barra Grande.",
         },
