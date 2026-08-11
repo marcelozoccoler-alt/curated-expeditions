@@ -1,6 +1,8 @@
+import { useMemo, useState } from "react";
 import { Helmet } from "react-helmet-async";
 import { Link, Navigate, useParams } from "react-router-dom";
 import { motion } from "framer-motion";
+import { Search, X } from "lucide-react";
 import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
 import { SEO } from "@/components/SEO";
@@ -11,12 +13,18 @@ import { CONTACT } from "@/lib/types";
 import {
   BRAZIL_GUIDE_SLUGS,
   BRAZIL_GUIDES,
+  GUIDE_FILTER_UI,
+  GUIDE_THEME_IDS,
+  GUIDE_THEME_LABELS,
   GUIDE_UI,
+  filterGuideSlugs,
   guideBlurb,
   guideDestinationName,
   guideImage,
   guidePath,
+  type GuideThemeId,
 } from "@/lib/brazilGuides";
+
 
 const DOMAIN = CONTACT.domain.replace(/\/$/, "");
 
