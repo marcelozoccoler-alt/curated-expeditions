@@ -77,14 +77,7 @@ for (const d of destinations) {
 line("## Regiões e circuitos regionais");
 line();
 for (const r of regions) {
-  const name = (r as { name?: string; title?: string }).name ?? (r as { title?: string }).title ?? "";
-  const slug = (r as { slug?: string }).slug ?? "";
-  const intro =
-    (r as { intro?: string; description?: string }).intro ??
-    (r as { description?: string }).description ??
-    "";
-  if (!slug || !name) continue;
-  line(`- [${name}](${DOMAIN}/regioes/${slug}): ${clean(intro, 200)}`);
+  line(`- [${r.label}](${DOMAIN}/${r.slug}): ${clean(r.intro, 220)}`);
 }
 line();
 
