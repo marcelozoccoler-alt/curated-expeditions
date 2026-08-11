@@ -39,14 +39,28 @@ const HREFLANG: Record<ContentLang, string> = {
 const GuiasBrasil = () => {
   const lang = useLang();
   const { lang: paramLang } = useParams<{ lang?: string }>();
+  const [query, setQuery] = useState("");
+  const [themes, setThemes] = useState<GuideThemeId[]>([]);
+
+  const cLang = toContentLang(lang);
+  const filtered = useMemo(
+    () => filterGuideSlugs(cLang, query, themes),
+    [cLang, query, themes],
+  );
 
   if (paramLang && !(SUPPORTED_LANGS as readonly string[]).includes(paramLang)) {
     return <Navigate to="/" replace />;
   }
 
-  const cLang = toContentLang(lang);
   const ui = GUIDE_UI[cLang];
+  const fui = GUIDE_FILTER_UI[cLang];
   const canonicalPath = guidePath(cLang);
+
+  const toggleTheme = (id: GuideThemeId) =>
+    setThemes((prev) => (prev.includes(id) ? prev.filter((t) => t !== id) : [...prev, id]));
+
+  const hasFilters = query.trim().length > 0 || themes.length > 0;
+
 
   const itemListLd = {
     "@context": "https://schema.org",
