@@ -138,6 +138,60 @@ const GuiasBrasil = () => {
         />
       </div>
 
+      {/* Mosaico dos 7 biomas + roteiros conjugados */}
+      <section className="pt-12">
+        <div className="container-editorial max-w-4xl">
+          <p className="text-caption text-gold mb-3">{mosaic.eyebrow}</p>
+          <h2 className="heading-section text-foreground mb-5">{mosaic.heading}</h2>
+          <div className="space-y-5 mb-10">
+            {mosaic.intro.map((p, i) => (
+              <p key={i} className="text-lg text-muted-foreground leading-relaxed font-light">
+                {p}
+              </p>
+            ))}
+          </div>
+
+          <div className="grid sm:grid-cols-2 gap-4 mb-10">
+            {mosaic.biomes.map((b) => (
+              <div key={b.name} className="rounded-lg border border-border p-5">
+                <h3 className="font-semibold text-foreground mb-2">{b.name}</h3>
+                <p className="text-sm text-muted-foreground leading-relaxed">{b.text}</p>
+              </div>
+            ))}
+          </div>
+
+          <div className="rounded-xl bg-secondary/40 border-l-4 border-gold p-6 mb-12">
+            <h3 className="font-semibold text-foreground mb-2">{mosaic.artHeading}</h3>
+            <p className="text-muted-foreground leading-relaxed font-light">{mosaic.artText}</p>
+          </div>
+
+          {conjugados.length > 0 && (
+            <div>
+              <h2 className="heading-section text-foreground mb-3">{mosaic.itinerariesHeading}</h2>
+              <p className="text-muted-foreground font-light mb-6">{mosaic.itinerariesIntro}</p>
+              <ul className="grid sm:grid-cols-2 gap-3">
+                {conjugados.map((s) => (
+                  <li key={s}>
+                    <Link
+                      to={guidePath(cLang, s)}
+                      className="block rounded-lg border border-border p-4 hover:border-gold transition"
+                    >
+                      <span className="font-medium text-foreground">
+                        {guideDestinationName(s, cLang)}
+                      </span>
+                      <span className="block text-sm text-muted-foreground mt-1">
+                        {guideBlurb(s, cLang)}
+                      </span>
+                    </Link>
+                  </li>
+                ))}
+              </ul>
+            </div>
+          )}
+        </div>
+      </section>
+
+
       <section className="pt-8">
         <div className="container-editorial space-y-5">
           <div className="relative max-w-xl">
