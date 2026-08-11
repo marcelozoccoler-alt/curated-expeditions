@@ -3,42 +3,14 @@ import { INCOMING_DESTINATIONS } from "@/lib/incomingDestinations";
 import type { BrazilGuide, BrazilGuideLocalized } from "./types";
 
 import { amazonGuide } from "./amazon";
-import { pantanalGuide } from "./pantanal";
-import { lencoisMaranhensesGuide } from "./lencois-maranhenses";
-import { bahiaGuide } from "./bahia";
-import { rioDeJaneiroGuide } from "./rio-de-janeiro";
-import { iguazuGuide } from "./iguazu";
-import { bonitoGuide } from "./bonito";
-import { chapadaDosVeadeirosGuide } from "./chapada-dos-veadeiros";
-import { chapadaDiamantinaGuide } from "./chapada-diamantina";
-import { fernandoDeNoronhaGuide } from "./fernando-de-noronha";
-import { jericoacoaraGuide } from "./jericoacoara";
-import { alterDoChaoGuide } from "./alter-do-chao";
-import { jalapaoGuide } from "./jalapao";
-import { maragogiGuide } from "./maragogi";
-import { florianopolisGuide } from "./florianopolis";
-import { rotaEmocoesGuide } from "./rota-emocoes";
+// Os demais destinos do Brasil estão sendo escritos nos 5 idiomas e serão
+// registrados aqui à medida que os arquivos entrarem.
 
 export type { BrazilGuide, BrazilGuideLocalized } from "./types";
 
 /** Guias autorais por destino do Brasil — chave = slug do destino de Incoming. */
 export const BRAZIL_GUIDES: Record<string, BrazilGuideLocalized> = {
   amazon: amazonGuide,
-  pantanal: pantanalGuide,
-  "lencois-maranhenses": lencoisMaranhensesGuide,
-  bahia: bahiaGuide,
-  "rio-de-janeiro": rioDeJaneiroGuide,
-  iguazu: iguazuGuide,
-  bonito: bonitoGuide,
-  "chapada-dos-veadeiros": chapadaDosVeadeirosGuide,
-  "chapada-diamantina": chapadaDiamantinaGuide,
-  "fernando-de-noronha": fernandoDeNoronhaGuide,
-  jericoacoara: jericoacoaraGuide,
-  "alter-do-chao": alterDoChaoGuide,
-  jalapao: jalapaoGuide,
-  maragogi: maragogiGuide,
-  florianopolis: florianopolisGuide,
-  "rota-emocoes": rotaEmocoesGuide,
 };
 
 /** Ordem editorial de exibição no hub. */
