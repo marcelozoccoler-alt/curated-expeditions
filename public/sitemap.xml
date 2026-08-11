@@ -56,6 +56,26 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://createtravel.tur.br/destinos?page=11</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://createtravel.tur.br/destinos?page=12</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://createtravel.tur.br/destinos?page=13</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://createtravel.tur.br/destinos?page=14</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://createtravel.tur.br/destinos?c=brasil</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -91,14 +111,34 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://createtravel.tur.br/destinos?c=america-do-norte&amp;page=2</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://createtravel.tur.br/destinos?c=africa</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://createtravel.tur.br/destinos?c=africa&amp;page=2</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://createtravel.tur.br/destinos?c=europa</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://createtravel.tur.br/destinos?c=europa&amp;page=2</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://createtravel.tur.br/destinos?c=europa&amp;page=3</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
   </url>
   <url>
     <loc>https://createtravel.tur.br/destinos?c=asia</loc>
@@ -107,6 +147,11 @@
   </url>
   <url>
     <loc>https://createtravel.tur.br/destinos?c=asia&amp;page=2</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://createtravel.tur.br/destinos?c=asia&amp;page=3</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -126,6 +171,11 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://createtravel.tur.br/destinos?tags=safari&amp;page=2</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.4</priority>
+  </url>
+  <url>
     <loc>https://createtravel.tur.br/destinos?tags=trekking</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
@@ -141,6 +191,11 @@
     <priority>0.4</priority>
   </url>
   <url>
+    <loc>https://createtravel.tur.br/destinos?tags=trekking&amp;page=4</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.4</priority>
+  </url>
+  <url>
     <loc>https://createtravel.tur.br/destinos?tags=lua-de-mel</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
@@ -152,6 +207,11 @@
   </url>
   <url>
     <loc>https://createtravel.tur.br/destinos?tags=lua-de-mel&amp;page=3</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.4</priority>
+  </url>
+  <url>
+    <loc>https://createtravel.tur.br/destinos?tags=lua-de-mel&amp;page=4</loc>
     <changefreq>weekly</changefreq>
     <priority>0.4</priority>
   </url>
@@ -196,6 +256,11 @@
     <priority>0.4</priority>
   </url>
   <url>
+    <loc>https://createtravel.tur.br/destinos?tags=roadtrip&amp;page=3</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.4</priority>
+  </url>
+  <url>
     <loc>https://createtravel.tur.br/destinos?tags=gastronomia</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
@@ -212,6 +277,16 @@
   </url>
   <url>
     <loc>https://createtravel.tur.br/destinos?tags=gastronomia&amp;page=4</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.4</priority>
+  </url>
+  <url>
+    <loc>https://createtravel.tur.br/destinos?tags=gastronomia&amp;page=5</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.4</priority>
+  </url>
+  <url>
+    <loc>https://createtravel.tur.br/destinos?tags=gastronomia&amp;page=6</loc>
     <changefreq>weekly</changefreq>
     <priority>0.4</priority>
   </url>
@@ -241,6 +316,16 @@
     <priority>0.4</priority>
   </url>
   <url>
+    <loc>https://createtravel.tur.br/destinos?tags=cultura&amp;page=6</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.4</priority>
+  </url>
+  <url>
+    <loc>https://createtravel.tur.br/destinos?tags=cultura&amp;page=7</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.4</priority>
+  </url>
+  <url>
     <loc>https://createtravel.tur.br/destinos?tags=bem-estar</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
@@ -257,6 +342,11 @@
   </url>
   <url>
     <loc>https://createtravel.tur.br/destinos?tags=bem-estar&amp;page=4</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.4</priority>
+  </url>
+  <url>
+    <loc>https://createtravel.tur.br/destinos?tags=bem-estar&amp;page=5</loc>
     <changefreq>weekly</changefreq>
     <priority>0.4</priority>
   </url>
@@ -301,6 +391,16 @@
     <priority>0.4</priority>
   </url>
   <url>
+    <loc>https://createtravel.tur.br/destinos?tags=fotografia&amp;page=9</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.4</priority>
+  </url>
+  <url>
+    <loc>https://createtravel.tur.br/destinos?tags=fotografia&amp;page=10</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.4</priority>
+  </url>
+  <url>
     <loc>https://createtravel.tur.br/destinos?tags=familia</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
@@ -312,6 +412,11 @@
   </url>
   <url>
     <loc>https://createtravel.tur.br/destinos?tags=familia&amp;page=3</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.4</priority>
+  </url>
+  <url>
+    <loc>https://createtravel.tur.br/destinos?tags=familia&amp;page=4</loc>
     <changefreq>weekly</changefreq>
     <priority>0.4</priority>
   </url>
@@ -336,6 +441,11 @@
     <priority>0.4</priority>
   </url>
   <url>
+    <loc>https://createtravel.tur.br/destinos?tags=remoto&amp;page=5</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.4</priority>
+  </url>
+  <url>
     <loc>https://createtravel.tur.br/destinos?tags=conservacao</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
@@ -351,6 +461,11 @@
     <priority>0.4</priority>
   </url>
   <url>
+    <loc>https://createtravel.tur.br/destinos?tags=conservacao&amp;page=4</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.4</priority>
+  </url>
+  <url>
     <loc>https://createtravel.tur.br/destinos?tags=deserto</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
@@ -359,6 +474,11 @@
     <loc>https://createtravel.tur.br/destinos?tags=montanha</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://createtravel.tur.br/destinos?tags=montanha&amp;page=2</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.4</priority>
   </url>
   <url>
     <loc>https://createtravel.tur.br/destinos?tags=praia</loc>
@@ -372,6 +492,16 @@
   </url>
   <url>
     <loc>https://createtravel.tur.br/destinos?tags=praia&amp;page=3</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.4</priority>
+  </url>
+  <url>
+    <loc>https://createtravel.tur.br/destinos?tags=praia&amp;page=4</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.4</priority>
+  </url>
+  <url>
+    <loc>https://createtravel.tur.br/destinos?tags=praia&amp;page=5</loc>
     <changefreq>weekly</changefreq>
     <priority>0.4</priority>
   </url>
@@ -986,6 +1116,231 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://createtravel.tur.br/destinos/africa/madagascar</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://createtravel.tur.br/destinos/africa/ilhas-mauricio</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://createtravel.tur.br/destinos/africa/mocambique/bazaruto</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://createtravel.tur.br/destinos/africa/seychelles</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://createtravel.tur.br/destinos/africa/sao-tome-e-principe</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://createtravel.tur.br/destinos/africa/uganda/bwindi</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://createtravel.tur.br/destinos/africa/zimbabue</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://createtravel.tur.br/destinos/africa/zambia</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://createtravel.tur.br/destinos/america-do-sul/argentina/argentina-autoral</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://createtravel.tur.br/destinos/america-do-sul/colombia/cartagena-eixo-cafeteiro-bogota</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://createtravel.tur.br/destinos/america-do-sul/uruguai/jose-ignacio-garzon-colonia</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://createtravel.tur.br/destinos/america-do-norte/canada/rockies-costa-oeste</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://createtravel.tur.br/destinos/america-do-norte/costa-rica/pacifico-arenal-caribe-sul</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://createtravel.tur.br/destinos/america-do-norte/belize/cayes-recife-de-barreira</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://createtravel.tur.br/destinos/america-do-norte/cuba/havana-vinales</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://createtravel.tur.br/destinos/america-do-norte/caribe/saint-barth-anguilla-turks-caicos</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://createtravel.tur.br/destinos/asia/filipinas</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://createtravel.tur.br/destinos/asia/mongolia</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://createtravel.tur.br/destinos/asia/nepal</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://createtravel.tur.br/destinos/asia/sri-lanka</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://createtravel.tur.br/destinos/oceania/fiji</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://createtravel.tur.br/destinos/europa/franca-paris</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://createtravel.tur.br/destinos/europa/franca-provence</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://createtravel.tur.br/destinos/europa/franca-loire</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://createtravel.tur.br/destinos/europa/espanha-andaluzia</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://createtravel.tur.br/destinos/europa/espanha-pais-basco</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://createtravel.tur.br/destinos/europa/espanha-madri</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://createtravel.tur.br/destinos/europa/alemanha-baviera</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://createtravel.tur.br/destinos/europa/suica-alpes</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://createtravel.tur.br/destinos/europa/paises-baixos</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://createtravel.tur.br/destinos/europa/belgica-flandres</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://createtravel.tur.br/destinos/europa/andorra-pirineus</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://createtravel.tur.br/destinos/europa/monaco</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://createtravel.tur.br/destinos/europa/inglaterra</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://createtravel.tur.br/destinos/europa/escocia</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://createtravel.tur.br/destinos/europa/irlanda</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://createtravel.tur.br/destinos/europa/dinamarca</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://createtravel.tur.br/destinos/europa/suecia</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://createtravel.tur.br/destinos/europa/finlandia</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://createtravel.tur.br/destinos/europa/montenegro</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://createtravel.tur.br/destinos/oriente-medio/oma</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://createtravel.tur.br/destinos/oriente-medio/catar</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://createtravel.tur.br/destinos/oriente-medio/arabia-saudita</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://createtravel.tur.br/destinos/oriente-medio/bareine</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://createtravel.tur.br/destinos/oriente-medio/libano</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://createtravel.tur.br/experiencias</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -994,6 +1349,11 @@
     <loc>https://createtravel.tur.br/experiencias/safari</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://createtravel.tur.br/experiencias/safari?page=2</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.4</priority>
   </url>
   <url>
     <loc>https://createtravel.tur.br/experiencias/trekking</loc>
@@ -1011,6 +1371,11 @@
     <priority>0.4</priority>
   </url>
   <url>
+    <loc>https://createtravel.tur.br/experiencias/trekking?page=4</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.4</priority>
+  </url>
+  <url>
     <loc>https://createtravel.tur.br/experiencias/lua-de-mel</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
@@ -1022,6 +1387,11 @@
   </url>
   <url>
     <loc>https://createtravel.tur.br/experiencias/lua-de-mel?page=3</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.4</priority>
+  </url>
+  <url>
+    <loc>https://createtravel.tur.br/experiencias/lua-de-mel?page=4</loc>
     <changefreq>weekly</changefreq>
     <priority>0.4</priority>
   </url>
@@ -1066,6 +1436,11 @@
     <priority>0.4</priority>
   </url>
   <url>
+    <loc>https://createtravel.tur.br/experiencias/roadtrip?page=3</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.4</priority>
+  </url>
+  <url>
     <loc>https://createtravel.tur.br/experiencias/gastronomia</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
@@ -1082,6 +1457,16 @@
   </url>
   <url>
     <loc>https://createtravel.tur.br/experiencias/gastronomia?page=4</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.4</priority>
+  </url>
+  <url>
+    <loc>https://createtravel.tur.br/experiencias/gastronomia?page=5</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.4</priority>
+  </url>
+  <url>
+    <loc>https://createtravel.tur.br/experiencias/gastronomia?page=6</loc>
     <changefreq>weekly</changefreq>
     <priority>0.4</priority>
   </url>
@@ -1111,6 +1496,16 @@
     <priority>0.4</priority>
   </url>
   <url>
+    <loc>https://createtravel.tur.br/experiencias/cultura?page=6</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.4</priority>
+  </url>
+  <url>
+    <loc>https://createtravel.tur.br/experiencias/cultura?page=7</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.4</priority>
+  </url>
+  <url>
     <loc>https://createtravel.tur.br/experiencias/bem-estar</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
@@ -1127,6 +1522,11 @@
   </url>
   <url>
     <loc>https://createtravel.tur.br/experiencias/bem-estar?page=4</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.4</priority>
+  </url>
+  <url>
+    <loc>https://createtravel.tur.br/experiencias/bem-estar?page=5</loc>
     <changefreq>weekly</changefreq>
     <priority>0.4</priority>
   </url>
@@ -1171,6 +1571,16 @@
     <priority>0.4</priority>
   </url>
   <url>
+    <loc>https://createtravel.tur.br/experiencias/fotografia?page=9</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.4</priority>
+  </url>
+  <url>
+    <loc>https://createtravel.tur.br/experiencias/fotografia?page=10</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.4</priority>
+  </url>
+  <url>
     <loc>https://createtravel.tur.br/experiencias/familia</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
@@ -1182,6 +1592,11 @@
   </url>
   <url>
     <loc>https://createtravel.tur.br/experiencias/familia?page=3</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.4</priority>
+  </url>
+  <url>
+    <loc>https://createtravel.tur.br/experiencias/familia?page=4</loc>
     <changefreq>weekly</changefreq>
     <priority>0.4</priority>
   </url>
@@ -1206,6 +1621,11 @@
     <priority>0.4</priority>
   </url>
   <url>
+    <loc>https://createtravel.tur.br/experiencias/remoto?page=5</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.4</priority>
+  </url>
+  <url>
     <loc>https://createtravel.tur.br/experiencias/conservacao</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
@@ -1221,6 +1641,11 @@
     <priority>0.4</priority>
   </url>
   <url>
+    <loc>https://createtravel.tur.br/experiencias/conservacao?page=4</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.4</priority>
+  </url>
+  <url>
     <loc>https://createtravel.tur.br/experiencias/deserto</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
@@ -1229,6 +1654,11 @@
     <loc>https://createtravel.tur.br/experiencias/montanha</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://createtravel.tur.br/experiencias/montanha?page=2</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.4</priority>
   </url>
   <url>
     <loc>https://createtravel.tur.br/experiencias/praia</loc>
@@ -1242,6 +1672,16 @@
   </url>
   <url>
     <loc>https://createtravel.tur.br/experiencias/praia?page=3</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.4</priority>
+  </url>
+  <url>
+    <loc>https://createtravel.tur.br/experiencias/praia?page=4</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.4</priority>
+  </url>
+  <url>
+    <loc>https://createtravel.tur.br/experiencias/praia?page=5</loc>
     <changefreq>weekly</changefreq>
     <priority>0.4</priority>
   </url>
