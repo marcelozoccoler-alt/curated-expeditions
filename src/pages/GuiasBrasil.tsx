@@ -1,4 +1,4 @@
-import { useMemo, useState } from "react";
+import { useEffect, useMemo, useRef, useState } from "react";
 import { Helmet } from "react-helmet-async";
 import { Link, Navigate, useParams } from "react-router-dom";
 import { motion } from "framer-motion";
@@ -36,17 +36,38 @@ const HREFLANG: Record<ContentLang, string> = {
   de: "de",
 };
 
+const PAGE_SIZE = 6;
+
 const GuiasBrasil = () => {
   const lang = useLang();
   const { lang: paramLang } = useParams<{ lang?: string }>();
   const [query, setQuery] = useState("");
   const [themes, setThemes] = useState<GuideThemeId[]>([]);
+  const [visible, setVisible] = useState(PAGE_SIZE);
+  const sentinel = useRef<HTMLDivElement | null>(null);
 
   const cLang = toContentLang(lang);
   const filtered = useMemo(
     () => filterGuideSlugs(cLang, query, themes),
     [cLang, query, themes],
   );
+
+  useEffect(() => {
+    setVisible(PAGE_SIZE);
+  }, [query, themes, cLang]);
+
+  useEffect(() => {
+    const el = sentinel.current;
+    if (!el) return;
+    const io = new IntersectionObserver(
+      (entries) => {
+        if (entries[0]?.isIntersecting) setVisible((v) => v + PAGE_SIZE);
+      },
+      { rootMargin: "400px" },
+    );
+    io.observe(el);
+    return () => io.disconnect();
+  }, [filtered.length, visible]);
 
   if (paramLang && !(SUPPORTED_LANGS as readonly string[]).includes(paramLang)) {
     return <Navigate to="/" replace />;
@@ -58,6 +79,9 @@ const GuiasBrasil = () => {
 
   const toggleTheme = (id: GuideThemeId) =>
     setThemes((prev) => (prev.includes(id) ? prev.filter((t) => t !== id) : [...prev, id]));
+
+  const shown = useMemo(() => filtered.slice(0, visible), [filtered, visible]);
+  const hasMore = visible < filtered.length;
 
   const hasFilters = query.trim().length > 0 || themes.length > 0;
 
@@ -165,6 +189,7 @@ const GuiasBrasil = () => {
 
           <p className="text-sm text-muted-foreground" aria-live="polite">
             {fui.results(filtered.length)}
+            {filtered.length > PAGE_SIZE && ` · ${fui.showing(shown.length, filtered.length)}`}
           </p>
         </div>
       </section>
@@ -176,7 +201,7 @@ const GuiasBrasil = () => {
           </div>
         ) : (
           <div className="container-editorial grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-            {filtered.map((slug, i) => {
+            {shown.map((slug, i) => {
               const guide = BRAZIL_GUIDES[slug][cLang];
               const cover = guideImage(slug);
               return (
@@ -217,8 +242,17 @@ const GuiasBrasil = () => {
             })}
           </div>
         )}
+        {hasMore && (
+          <div ref={sentinel} className="container-editorial mt-10 flex justify-center">
+            <button
+              onClick={() => setVisible((v) => v + PAGE_SIZE)}
+              className="rounded-full border border-border px-6 py-3 text-sm font-medium text-foreground hover:border-gold hover:text-gold transition-colors"
+            >
+              {fui.loadMore}
+            </button>
+          </div>
+        )}
       </section>
-
 
       <Footer />
     </div>
