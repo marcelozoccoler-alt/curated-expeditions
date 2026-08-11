@@ -1,7 +1,7 @@
 import { useEffect } from "react";
 import { useLocation } from "react-router-dom";
 import { useTranslation } from "react-i18next";
-import { SUPPORTED_LANGS, type Lang } from "@/i18n/config";
+import { SUPPORTED_LANGS, RTL_LANGS, type Lang } from "@/i18n/config";
 
 export const getLangFromPath = (pathname: string): Lang => {
   const seg = pathname.split("/").filter(Boolean)[0];
