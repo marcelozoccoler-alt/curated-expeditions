@@ -23,6 +23,7 @@ import { diaryPosts } from "../src/lib/diaryPosts";
 import { pacotes } from "../src/lib/comercialPacotes";
 import { riverCruises } from "../src/lib/riverCruises";
 import { localGuideGroups } from "../src/lib/localGuideGroups";
+import { BRAZIL_GUIDE_SLUGS } from "../src/lib/brazilGuides";
 
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
@@ -204,6 +205,18 @@ const LOCALIZED_PATHS = [
 for (const lang of INCOMING_LANGS) {
   for (const p of LOCALIZED_PATHS) push(`/${lang}/${p}`, 0.75, "weekly");
 }
+
+// Guias autorais do Brasil (hub + guias) nos 5 idiomas
+push("/guias-brasil", 0.9, "weekly");
+for (const s of BRAZIL_GUIDE_SLUGS) push(`/guias-brasil/${s}`, 0.85, "monthly");
+for (const lang of INCOMING_LANGS) {
+  push(`/${lang}/brazil-guides`, 0.85, "weekly");
+  for (const s of BRAZIL_GUIDE_SLUGS) {
+    push(`/${lang}/brazil-guides/${s}`, 0.8, "monthly");
+  }
+}
+
+
 
 
 const xml = `<?xml version="1.0" encoding="UTF-8"?>
