@@ -300,10 +300,10 @@ const corePosts: DiaryPost[] = [
   },
   {
     slug: "gastronomia-na-turquia-alem-do-kebab",
-    title: "Gastronomia na Turquia: sabores e culturas além do kebab",
+    title: "O que comer na Turquia: 14 pratos além do kebab",
     h1: "Gastronomia na Turquia: sabores e culturas além do kebab",
     metaDescription:
-      "Comida na Turquia vai muito além do kebab: mezes, café-da-manhã turco, doces de Gaziantep e street food em Istambul. Guia autoral Create Travel.",
+      "Guia autoral do que comer na Turquia: mezes, kahvaltı (café turco), baklava de Gaziantep, street food de Istambul e onde provar cada prato. Por travel designers.",
     keywords:
       "comida na turquia, gastronomia turca, comida turca, o que comer na turquia, kebab, meze, café da manhã turco",
     intro:
@@ -1481,10 +1481,10 @@ const corePosts: DiaryPost[] = [
   },
   {
     slug: "pantanal-e-bonito-guia-de-viagem",
-    title: "Pantanal e Bonito: guia de viagem, melhor época e roteiros",
+    title: "Pantanal e Bonito: roteiro, melhor época e quantos dias",
     h1: "Pantanal e Bonito: a dupla que ninguém deveria separar",
     metaDescription:
-      "Como combinar Pantanal e Bonito, melhor época, onça-pintada, flutuação em rios cristalinos e roteiros autorais Create Travel.",
+      "Como combinar Pantanal e Bonito em um só roteiro: melhor época para ver onça-pintada, quantos dias em cada, flutuações imperdíveis e lodges com curadoria autoral.",
     keywords: "pantanal, bonito ms, pantanal e bonito, viagem pantanal, onca pintada, gruta lago azul",
     intro:
       "Pantanal e Bonito ficam no mesmo estado (Mato Grosso do Sul), partilham o aeroporto de Campo Grande e oferecem experiências complementares: o Pantanal é a maior planície alagada do mundo, com a maior concentração de fauna das Américas; Bonito é o santuário das águas cristalinas, com mais visibilidade subaquática que muito mar de Caribe.",
@@ -2431,10 +2431,10 @@ const corePosts: DiaryPost[] = [
   },
   {
     slug: "gastronomia-na-china-alem-do-frango-xadrez",
-    title: "Gastronomia na China: 8 cozinhas regionais além do frango xadrez",
+    title: "O que comer na China: as 8 cozinhas regionais",
     h1: "Gastronomia na China: 8 cozinhas regionais além do frango xadrez",
     metaDescription:
-      "Comida chinesa vai muito além do que se serve no Brasil: cantonesa, sichuanesa, hunanesa, uigur, dim sum, hot pot, chá e street food. Guia autoral Create.",
+      "Guia autoral do que comer na China: cantonesa, sichuanesa, hunanesa e uigur, dim sum, hot pot, pato de Pequim e street food — o que pedir em cada região.",
     keywords:
       "comida chinesa, gastronomia china, culinária chinesa, dim sum, hot pot sichuan, pato laqueado pequim, o que comer na china, cozinha cantonesa",
     intro:
