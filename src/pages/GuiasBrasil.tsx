@@ -11,8 +11,10 @@ import { SUPPORTED_LANGS, toContentLang, type ContentLang } from "@/i18n/config"
 import { useLang } from "@/hooks/useLang";
 import { CONTACT } from "@/lib/types";
 import {
+  BIOME_MOSAIC,
   BRAZIL_GUIDE_SLUGS,
   BRAZIL_GUIDES,
+  CONJUGADO_SLUGS,
   GUIDE_FILTER_UI,
   GUIDE_THEME_IDS,
   GUIDE_THEME_LABELS,
