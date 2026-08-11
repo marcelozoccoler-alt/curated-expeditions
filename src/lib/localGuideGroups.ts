@@ -2,6 +2,8 @@
 // Grupos com guia local: guia acompanhante no destino, em espanhol/português conforme
 // negociação, sem coordenador saindo do Brasil. Preços por pessoa em euros.
 
+import { localGuideGroupsExtra } from "./localGuideExtra";
+
 export interface LocalGuideDay {
   day: number;
   route: string;
@@ -52,7 +54,7 @@ export const localGuidePriceLabel = (g: LocalGuideGroup) =>
     ? `${g.currency === "USD" ? "US$" : "€"} ${g.priceEur.toLocaleString("pt-BR")}`
     : "Sob consulta";
 
-export const localGuideGroups: LocalGuideGroup[] = [
+const localGuideGroupsCore: LocalGuideGroup[] = [
   {
     slug: "asia-central-cazaquistao-quirguistao-uzbequistao-tajiquistao",
     code: "AC17",
@@ -3922,6 +3924,15 @@ export const localGuideGroups: LocalGuideGroup[] = [
       }
     ]
   }
+];
+
+/**
+ * Catálogo completo: circuitos históricos + circuitos 2027/2028 do catálogo Europa
+ * (abril de 2027 a março de 2028), todos com saídas garantidas e guia local.
+ */
+export const localGuideGroups: LocalGuideGroup[] = [
+  ...localGuideGroupsCore,
+  ...localGuideGroupsExtra,
 ];
 
 export const LOCAL_GUIDE_INCLUDED = [
