@@ -96,7 +96,7 @@ const GruposGuiaLocal = () => {
     },
     {
       q: "Qual a diferença entre grupo com guia local e grupo com guia brasileiro?",
-      a: "No grupo com guia brasileiro, um coordenador da Create Travel embarca com você em Guarulhos e segue junto até a volta. No grupo com guia local, o acompanhamento começa no destino, com guia do país em espanhol e/ou português conforme a saída. A vantagem do guia local é o preço: os mesmos hotéis e visitas por um valor sensivelmente menor, com muito mais datas disponíveis.",
+      a: "No grupo com guia brasileiro, um coordenador da Create Travel embarca com você em Guarulhos e segue junto até a volta. No grupo com guia local, o acompanhamento começa no destino, com guia do país em espanhol e/ou português conforme a saída. A vantagem do guia local está na profundidade do conhecimento de quem vive no destino, na amplitude de datas disponíveis e em um investimento mais racional, já que não há coordenação desde o Brasil.",
     },
     {
       q: "Em que idioma é o acompanhamento?",
@@ -188,7 +188,7 @@ const GruposGuiaLocal = () => {
         title="Grupos com Guia Local — Saídas Garantidas 2027"
         description={`${localGuideGroups.length} circuitos europeus em grupo com guia local e ${totalDepartures} saídas garantidas em 2027. Busque por destino ou por data. A partir de € 1.695 · entrada 25% + 9x sem juros.`}
         canonicalPath="/grupos-guia-local"
-        keywords="grupo com guia local, viagem em grupo saída garantida, circuito europeu em grupo 2027, viagem em grupo europa preço, grupo capitais imperiais, grupo bálcãs, grupo leste europeu, viagem em grupo por destino"
+        keywords="grupo com guia local, viagem em grupo saída garantida, circuito europeu em grupo 2027, viagem em grupo europa curadoria, grupo capitais imperiais, grupo bálcãs, grupo leste europeu, viagem em grupo por destino"
         jsonLd={jsonLd}
       />
       <Header />
@@ -212,8 +212,8 @@ const GruposGuiaLocal = () => {
             Grupos com <span className="text-gold italic">Guia Local</span>
           </h1>
           <p className="text-xl md:text-2xl text-white/90 mb-4 font-light">
-            Saídas garantidas com guia no próprio destino — e preços muito mais
-            competitivos.
+            Saídas garantidas com guia do próprio destino — curadoria local e datas
+            ao longo de todo o ano.
           </p>
           <p className="text-base text-white/70 mb-8 font-light">
             {localGuideGroups.length} circuitos por {localGuideCountries.length}{" "}
@@ -483,7 +483,7 @@ const GruposGuiaLocal = () => {
           </h2>
           <p className="text-xl text-white/90 mb-10 font-light">
             Temos as duas estruturas. Conte o destino e a data que você tem em
-            mente — indicamos a melhor combinação de preço e acompanhamento.
+            mente — indicamos a melhor combinação de curadoria e acompanhamento.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <WhatsAppButton

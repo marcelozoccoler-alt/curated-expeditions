@@ -88,7 +88,7 @@ const GrupoGuiaLocal = () => {
   const faqs = [
     {
       q: "O grupo tem guia acompanhante saindo do Brasil?",
-      a: `Não. Este é um grupo com guia local: você é recebido no aeroporto de ${cities[0]} e acompanhado por um guia profissional no destino durante todo o circuito, em espanhol e/ou português conforme a saída negociada. É justamente essa estrutura que permite preços muito mais competitivos do que os grupos com coordenador brasileiro.`,
+      a: `Não. Este é um grupo com guia local: você é recebido no aeroporto de ${cities[0]} e acompanhado por um guia profissional no destino durante todo o circuito, em espanhol e/ou português conforme a saída negociada. É justamente essa estrutura — conhecimento local em vez de coordenação desde o Brasil — que torna o investimento mais racional do que nos grupos com coordenador brasileiro.`,
     },
     {
       q: "Em que idioma é feito o acompanhamento?",
@@ -122,7 +122,7 @@ const GrupoGuiaLocal = () => {
     "saídas garantidas 2027",
     ...group.countries.map((c) => `viagem em grupo ${c.toLowerCase()}`),
     "circuito europeu em grupo",
-    "grupo europa 2027 preço",
+    "grupo europa 2027 curadoria",
   ].join(", ");
 
   const jsonLd = [

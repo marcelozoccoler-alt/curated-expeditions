@@ -25,7 +25,7 @@ export const WhatsAppButton = ({
         className="whatsapp-float"
         aria-label="Fale conosco pelo WhatsApp"
       >
-        <MessageCircle size={28} className="text-white" />
+        <MessageCircle size={26} />
       </a>
     );
   }
