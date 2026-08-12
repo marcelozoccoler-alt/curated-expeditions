@@ -212,8 +212,8 @@ const GruposGuiaLocal = () => {
             Grupos com <span className="text-gold italic">Guia Local</span>
           </h1>
           <p className="text-xl md:text-2xl text-white/90 mb-4 font-light">
-            Saídas garantidas com guia do próprio destino — curadoria e valor muito mais
-            competitivos.
+            Saídas garantidas com guia do próprio destino — curadoria local e datas
+            ao longo de todo o ano.
           </p>
           <p className="text-base text-white/70 mb-8 font-light">
             {localGuideGroups.length} circuitos por {localGuideCountries.length}{" "}
