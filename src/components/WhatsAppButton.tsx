@@ -16,12 +16,27 @@ export const WhatsAppButton = ({
 }: WhatsAppButtonProps) => {
   const link = generateWhatsAppLink(params);
 
+  // Alguns ambientes (preview em iframe, in-app browsers do Instagram/Facebook)
+  // bloqueiam target="_blank". Aqui garantimos a abertura da conversa em qualquer caso.
+  const handleClick = (e: React.MouseEvent<HTMLAnchorElement>) => {
+    e.preventDefault();
+    const opened = window.open(link, "_blank", "noopener,noreferrer");
+    if (!opened) {
+      try {
+        window.top!.location.href = link;
+      } catch {
+        window.location.href = link;
+      }
+    }
+  };
+
   if (variant === "float") {
     return (
       <a
         href={link}
         target="_blank"
         rel="noopener noreferrer"
+        onClick={handleClick}
         className="whatsapp-float"
         aria-label="Fale conosco pelo WhatsApp"
       >
@@ -36,6 +51,7 @@ export const WhatsAppButton = ({
         href={link}
         target="_blank"
         rel="noopener noreferrer"
+        onClick={handleClick}
         className={`btn-whatsapp ${className}`}
       >
         <MessageCircle size={20} />
@@ -49,6 +65,7 @@ export const WhatsAppButton = ({
       href={link}
       target="_blank"
       rel="noopener noreferrer"
+      onClick={handleClick}
       className={`btn-accent ${className}`}
     >
       <MessageCircle size={18} />
