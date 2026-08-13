@@ -27,6 +27,16 @@ import luanaSantaSofia from "@/assets/depoimentos/luana-istambul-santa-sofia.jpe
 import luanaMesquitaAzul from "@/assets/depoimentos/luana-istambul-mesquita-azul.jpeg.asset.json";
 import luanaCapadociaTerraco from "@/assets/depoimentos/luana-capadocia-vestido-terraco.jpeg.asset.json";
 import luanaCapadociaVoo from "@/assets/depoimentos/luana-capadocia-voo-balao.jpeg.asset.json";
+import maitePatagoniaTrineoDia from "@/assets/depoimentos/maite-patagonia-trineo-huskies-dia.jpeg.asset.json";
+import maitePatagoniaBracos from "@/assets/depoimentos/maite-patagonia-neve-bracos-abertos.jpeg.asset.json";
+import maitePatagoniaFarolBeijo from "@/assets/depoimentos/maite-patagonia-farol-beijo.jpeg.asset.json";
+import maitePatagoniaBeagle from "@/assets/depoimentos/maite-patagonia-canal-beagle-farol.jpeg.asset.json";
+import maitePeritoMoreno from "@/assets/depoimentos/maite-patagonia-perito-moreno.jpeg.asset.json";
+import maitePatagoniaTrineoNoite from "@/assets/depoimentos/maite-patagonia-trineo-noite.jpeg.asset.json";
+import maitePatagoniaTrineoMontanhas from "@/assets/depoimentos/maite-patagonia-trineo-montanhas.jpeg.asset.json";
+import maiteReveillonBrinde from "@/assets/depoimentos/maite-leste-reveillon-brinde.jpeg.asset.json";
+import maiteVienaMercado from "@/assets/depoimentos/maite-viena-mercado-natal.jpeg.asset.json";
+import maiteVienaCatedral from "@/assets/depoimentos/maite-viena-catedral-santo-estevao.jpeg.asset.json";
 
 export const TESTIMONIALS_DRAFT = true;
 
