@@ -80,7 +80,6 @@ const Depoimentos = () => {
                 <article key={t.slug} id={t.slug} className="scroll-mt-28">
                   {t.verified && t.photos.length > 0 && (
                     <div className="mb-10">
-                      <div
                       <div className="columns-2 gap-2 sm:columns-3 sm:gap-3 [column-fill:_balance]">
                         {t.photos.map((p, i) => (
                           <figure
