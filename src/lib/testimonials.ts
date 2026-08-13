@@ -12,6 +12,16 @@
  * confiança do leitor). Ao trocar por depoimentos reais e autorizados,
  * mude para `false`.
  */
+import luanaCapadociaBaloes from "@/assets/depoimentos/luana-capadocia-baloes.jpeg.asset.json";
+import luanaCapadociaGrupo from "@/assets/depoimentos/luana-capadocia-grupo.jpeg.asset.json";
+import luanaSantoriniFira from "@/assets/depoimentos/luana-santorini-fira.jpeg.asset.json";
+import luanaSantoriniPoente from "@/assets/depoimentos/luana-santorini-poente.jpeg.asset.json";
+import luanaGreciaEnseada from "@/assets/depoimentos/luana-grecia-enseada.jpeg.asset.json";
+import luanaJerusalem from "@/assets/depoimentos/luana-jerusalem-monte-oliveiras.jpeg.asset.json";
+import luanaJaffa from "@/assets/depoimentos/luana-jaffa-antiga.jpeg.asset.json";
+import luanaSuicaBlausee from "@/assets/depoimentos/luana-suica-blausee.jpeg.asset.json";
+import luanaSuicaNeve from "@/assets/depoimentos/luana-suica-neve.jpeg.asset.json";
+
 export const TESTIMONIALS_DRAFT = true;
 
 export interface TestimonialPhoto {
@@ -70,7 +80,53 @@ export const testimonials: Testimonial[] = [
       "A Luana viaja com a gente desde 2022 e cada roteiro foi desenhado a partir do anterior: aprendemos que ela detesta acordar cedo dois dias seguidos, que prefere duas noites a mais no mesmo hotel a somar cidades, e que fotografa muito — o que muda a escolha de horário e de lugar. O balão na Capadócia foi remanejado porque acompanhamos o boletim de vento com o operador local desde a véspera; em Israel trocamos o guia por um historiador para o dia em Jerusalém. É esse histórico acumulado que torna a quinta viagem mais precisa que a primeira. — Marcelo Zoccoler",
     photoStory:
       "As fotos da Luana contam a mesma viagem em cinco climas. Na Capadócia, o azul de antes do amanhecer com os balões inflando ainda no chão. Em Santorini, a luz do fim de tarde batendo de lado no vestido vermelho e o mar de Fira lá embaixo, sem pressa. Em Jerusalém, o dourado do Domo ao fundo e o calor de meio-dia visível no ar. Em Jaffa, a pedra amarelada da cidade velha. E na Suíça, a água verde do Blausee sob a neve — e o riso dela na nevasca, que é a foto menos posada e a mais verdadeira do conjunto.",
-    photos: [],
+    photos: [
+      {
+        src: luanaSantoriniPoente.url,
+        caption: "Santorini, o poente que ninguém apressa",
+        alt: "Luana Santos de vestido vermelho e chapéu observando o sol se pôr sobre a caldeira de Santorini, Grécia",
+      },
+      {
+        src: luanaCapadociaBaloes.url,
+        caption: "Capadócia: os balões antes de a cidade acordar",
+        alt: "Luana Santos de vestido vermelho longo com os braços erguidos diante de balões inflando ao amanhecer na Capadócia, Turquia",
+      },
+      {
+        src: luanaSuicaBlausee.url,
+        caption: "Blausee: a água verde sob a primeira neve",
+        alt: "Luana Santos junto à cerca de madeira do lago Blausee, com floresta nevada e água esverdeada ao fundo, Suíça",
+      },
+      {
+        src: luanaJerusalem.url,
+        caption: "Jerusalém vista do Monte das Oliveiras",
+        alt: "Luana Santos sentada em mirante do Monte das Oliveiras com a Cidade Velha de Jerusalém e o Domo da Rocha ao fundo, Israel",
+      },
+      {
+        src: luanaSantoriniFira.url,
+        caption: "Fira inteira lá embaixo, no fim da tarde",
+        alt: "Luana Santos de vestido vermelho em terraço branco com as casas de Fira, em Santorini, ao fundo",
+      },
+      {
+        src: luanaJaffa.url,
+        caption: "Jaffa antiga: pedra amarela e escadas sem pressa",
+        alt: "Luana Santos nas escadas de pedra da entrada da cidade antiga de Jaffa, sob o letreiro Welcome to Old Jaffa, Israel",
+      },
+      {
+        src: luanaSuicaNeve.url,
+        caption: "A nevasca que virou a melhor foto da viagem",
+        alt: "Luana Santos sorrindo em meio à nevasca em vila alpina suíça, com gorro e óculos cobertos de neve",
+      },
+      {
+        src: luanaGreciaEnseada.url,
+        caption: "Enseada grega: água transparente e nenhum horário",
+        alt: "Luana Santos sentada em rochas diante de enseada de água azul turquesa em ilha grega",
+      },
+      {
+        src: luanaCapadociaGrupo.url,
+        caption: "Capadócia em grupo, entre as chaminés de fada",
+        alt: "Grupo de viajantes da Create Travel posando diante das chaminés de fada do vale de Pasabag, na Capadócia",
+      },
+    ],
     suggestedCaptions: [],
     photoDirection: "",
   },
