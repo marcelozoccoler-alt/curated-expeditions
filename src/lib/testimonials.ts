@@ -21,6 +21,13 @@ import luanaJerusalem from "@/assets/depoimentos/luana-jerusalem-monte-oliveiras
 import luanaJaffa from "@/assets/depoimentos/luana-jaffa-antiga.jpeg.asset.json";
 import luanaSuicaBlausee from "@/assets/depoimentos/luana-suica-blausee.jpeg.asset.json";
 import luanaSuicaNeve from "@/assets/depoimentos/luana-suica-neve.jpeg.asset.json";
+import luanaParisEiffel from "@/assets/depoimentos/luana-paris-torre-eiffel.jpeg.asset.json";
+import luanaPetiteFrance from "@/assets/depoimentos/luana-franca-petite-france.jpeg.asset.json";
+import luanaSantaSofia from "@/assets/depoimentos/luana-istambul-santa-sofia.jpeg.asset.json";
+import luanaMesquitaAzul from "@/assets/depoimentos/luana-istambul-mesquita-azul.jpeg.asset.json";
+import luanaCapadociaTerraco from "@/assets/depoimentos/luana-capadocia-vestido-terraco.jpeg.asset.json";
+import luanaCapadociaVoo from "@/assets/depoimentos/luana-capadocia-voo-balao.jpeg.asset.json";
+import luanaCapadociaChamines from "@/assets/depoimentos/luana-capadocia-grupo-chamines.jpeg.asset.json";
 
 export const TESTIMONIALS_DRAFT = true;
 
@@ -79,8 +86,43 @@ export const testimonials: Testimonial[] = [
     note:
       "A Luana viaja com a gente desde 2022 e cada roteiro foi desenhado a partir do anterior: aprendemos que ela detesta acordar cedo dois dias seguidos, que prefere duas noites a mais no mesmo hotel a somar cidades, e que fotografa muito — o que muda a escolha de horário e de lugar. O balão na Capadócia foi remanejado porque acompanhamos o boletim de vento com o operador local desde a véspera; em Israel trocamos o guia por um historiador para o dia em Jerusalém. É esse histórico acumulado que torna a quinta viagem mais precisa que a primeira. — Marcelo Zoccoler",
     photoStory:
-      "As fotos da Luana contam a mesma viagem em cinco climas. Na Capadócia, o azul de antes do amanhecer com os balões inflando ainda no chão. Em Santorini, a luz do fim de tarde batendo de lado no vestido vermelho e o mar de Fira lá embaixo, sem pressa. Em Jerusalém, o dourado do Domo ao fundo e o calor de meio-dia visível no ar. Em Jaffa, a pedra amarelada da cidade velha. E na Suíça, a água verde do Blausee sob a neve — e o riso dela na nevasca, que é a foto menos posada e a mais verdadeira do conjunto.",
+      "As fotos da Luana contam a mesma viagem em cinco climas. Na Capadócia, o azul de antes do amanhecer com os balões inflando ainda no chão, o vestido vermelho aberto sobre os tapetes do terraço e, depois, o vale visto de dentro do cesto. Em Paris, a Torre Eiffel de baixo para cima em pleno verão; na Alsácia, a Petite France com as casas enxaimel refletidas no canal. Em Istambul, Santa Sofia atrás dos jardins e a Mesquita Azul recortando o céu. Em Santorini, a luz do fim de tarde batendo de lado e o mar de Fira lá embaixo. Em Jerusalém, o dourado do Domo ao fundo. E na Suíça, a água verde do Blausee sob a neve — e o riso dela na nevasca, a foto menos posada e a mais verdadeira do conjunto.",
     photos: [
+      {
+        src: luanaCapadociaTerraco.url,
+        caption: "Capadócia: o vestido vermelho e os balões ainda no céu",
+        alt: "Luana Santos de vestido vermelho longo em terraço com tapetes turcos, chaminés de fada e balões ao amanhecer na Capadócia, Turquia",
+      },
+      {
+        src: luanaCapadociaVoo.url,
+        caption: "Dentro do cesto, com o vale inteiro embaixo",
+        alt: "Luana Santos sorrindo dentro do cesto de um balão em voo sobre o vale da Capadócia, com outros balões ao fundo",
+      },
+      {
+        src: luanaParisEiffel.url,
+        caption: "Paris: a Torre Eiffel vista de baixo, no verão",
+        alt: "Luana Santos de vestido verde diante da Torre Eiffel, fotografada de baixo para cima com céu azul, em Paris",
+      },
+      {
+        src: luanaPetiteFrance.url,
+        caption: "Petite France: canal, enxaimel e fim de tarde",
+        alt: "Luana Santos de vestido vermelho sentada em terraço às margens do canal da Petite France, em Estrasburgo, com casas enxaimel ao fundo",
+      },
+      {
+        src: luanaSantaSofia.url,
+        caption: "Istambul: Santa Sofia atrás dos jardins",
+        alt: "Luana Santos em pé nos jardins do Sultanahmet com a basílica de Santa Sofia ao fundo, em Istambul, Turquia",
+      },
+      {
+        src: luanaMesquitaAzul.url,
+        caption: "A Mesquita Azul recortando o céu de manhã",
+        alt: "Luana Santos com óculos de sol e a Mesquita Azul e seus minaretes ao fundo, em Istambul, Turquia",
+      },
+      {
+        src: luanaCapadociaChamines.url,
+        caption: "Entre as chaminés de fada, o grupo inteiro rindo",
+        alt: "Grupo de viajantes da Create Travel posando diante das chaminés de fada do vale de Pasabag, na Capadócia, sob céu azul",
+      },
       {
         src: luanaSantoriniPoente.url,
         caption: "Santorini, o poente que ninguém apressa",
