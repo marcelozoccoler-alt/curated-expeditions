@@ -102,7 +102,7 @@ export const organizationLd = {
   url: `${DOMAIN}/`,
   logo: {
     "@type": "ImageObject",
-    url: `${DOMAIN}/og/create-travel.jpg`,
+    url: `${DOMAIN}/icon-512.png`,
   },
   description: `${entityWhoIs} ${entityWhatItDoes}`,
   disambiguatingDescription: entityWhyRelevant,
