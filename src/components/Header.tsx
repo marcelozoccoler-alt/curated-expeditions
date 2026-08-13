@@ -260,6 +260,16 @@ export const Header = () => {
                   Blog
                 </Link>
                 <Link
+                  to="/depoimentos"
+                  className={`text-sm font-medium transition-colors hover:text-gold whitespace-nowrap ${
+                    isScrolled ? "text-foreground" : "text-primary-foreground"
+                  } ${
+                    location.pathname.startsWith("/depoimentos") ? "text-gold" : ""
+                  }`}
+                >
+                  Depoimentos
+                </Link>
+                <Link
                   to="/contato"
                   className={`text-sm font-medium transition-colors hover:text-gold whitespace-nowrap ${
                     isScrolled ? "text-foreground" : "text-primary-foreground"
