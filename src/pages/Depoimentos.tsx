@@ -1,3 +1,4 @@
+import { useMemo, useState } from "react";
 import { Link } from "react-router-dom";
 import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
@@ -6,15 +7,38 @@ import { Breadcrumbs } from "@/components/Breadcrumbs";
 import { WhatsAppButton } from "@/components/WhatsAppButton";
 import { CONTACT } from "@/lib/types";
 import { testimonials } from "@/lib/testimonials";
-import { Quote, Camera, BadgeCheck } from "lucide-react";
+import { Quote, Camera, BadgeCheck, Images } from "lucide-react";
 
 const DOMAIN = CONTACT.domain.replace(/\/$/, "");
+const PHOTOS_PREVIEW = 6;
 
 const Depoimentos = () => {
+  const [filter, setFilter] = useState<string>("Todos");
+  const [expanded, setExpanded] = useState<Record<string, boolean>>({});
+
   // Depoimentos reais e autorizados primeiro.
-  const ordered = [...testimonials].sort(
-    (a, b) => Number(Boolean(b.verified)) - Number(Boolean(a.verified)),
+  const ordered = useMemo(
+    () =>
+      [...testimonials].sort(
+        (a, b) => Number(Boolean(b.verified)) - Number(Boolean(a.verified)),
+      ),
+    [],
   );
+
+  const filters = useMemo(() => {
+    const set = new Set<string>();
+    ordered.forEach((t) => t.countries?.forEach((c) => set.add(c)));
+    return ["Todos", ...Array.from(set).sort((a, b) => a.localeCompare(b, "pt-BR"))];
+  }, [ordered]);
+
+  const visible = useMemo(
+    () =>
+      filter === "Todos"
+        ? ordered
+        : ordered.filter((t) => t.countries?.includes(filter)),
+    [ordered, filter],
+  );
+
 
   const jsonLd = [
     {
