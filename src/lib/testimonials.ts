@@ -44,9 +44,36 @@ export interface Testimonial {
   suggestedCaptions: string[];
   /** Ordem narrativa sugerida para a sequência de fotos. */
   photoDirection: string;
+  /** true = depoimento real, autorizado pela viajante, com fotos originais. */
+  verified?: boolean;
+  /** Anos de relacionamento / destinos acumulados — só para depoimentos reais. */
+  since?: string;
+  /** Destinos já viajados com a Create Travel. */
+  countries?: string[];
 }
 
 export const testimonials: Testimonial[] = [
+  {
+    slug: "luana-santos-cinco-viagens",
+    title: "Cinco viagens depois, eu não sei mais planejar sozinha",
+    author: "Luana Santos",
+    city: "São Paulo, SP",
+    tripType: "Viajante recorrente desde 2022",
+    destination: "França, Grécia, Turquia, Israel e Suíça",
+    month: "2022 a 2026",
+    verified: true,
+    since: "Viaja com a Create Travel desde 2022",
+    countries: ["França", "Grécia", "Turquia", "Israel", "Suíça"],
+    quote:
+      "Eu cheguei na Create Travel por indicação, meio desconfiada, com a França na cabeça e uma lista de coisas que eu não queria: fila, ônibus cheio, roteiro de vitrine. Voltei de lá com a sensação de que alguém tinha pensado no meu dia antes de mim — o carro no horário certo, a reserva já feita no restaurante que eu tinha comentado de passagem, o hotel na rua que fazia sentido para o que eu queria caminhar. Depois vieram a Grécia, a Turquia, Israel e a Suíça. Em cada uma delas o cuidado apareceu no detalhe pequeno: o balão da Capadócia remarcado por causa do vento, sem eu precisar correr atrás; o guia em Jerusalém que entendeu que eu queria história, não roteiro decorado; o dia livre em Santorini que eles insistiram para eu manter — e virou a minha lembrança preferida. Hoje eu não sei mais planejar viagem sozinha. E não quero.",
+    note:
+      "A Luana viaja com a gente desde 2022 e cada roteiro foi desenhado a partir do anterior: aprendemos que ela detesta acordar cedo dois dias seguidos, que prefere duas noites a mais no mesmo hotel a somar cidades, e que fotografa muito — o que muda a escolha de horário e de lugar. O balão na Capadócia foi remanejado porque acompanhamos o boletim de vento com o operador local desde a véspera; em Israel trocamos o guia por um historiador para o dia em Jerusalém. É esse histórico acumulado que torna a quinta viagem mais precisa que a primeira. — Marcelo Zoccoler",
+    photoStory:
+      "As fotos da Luana contam a mesma viagem em cinco climas. Na Capadócia, o azul de antes do amanhecer com os balões inflando ainda no chão. Em Santorini, a luz do fim de tarde batendo de lado no vestido vermelho e o mar de Fira lá embaixo, sem pressa. Em Jerusalém, o dourado do Domo ao fundo e o calor de meio-dia visível no ar. Em Jaffa, a pedra amarelada da cidade velha. E na Suíça, a água verde do Blausee sob a neve — e o riso dela na nevasca, que é a foto menos posada e a mais verdadeira do conjunto.",
+    photos: [],
+    suggestedCaptions: [],
+    photoDirection: "",
+  },
   {
     slug: "lua-de-mel-grecia",
     title: "A gente só queria descansar — e voltou apaixonado pela Grécia",
