@@ -97,15 +97,51 @@ const Depoimentos = () => {
         <section className="section-padding">
           <div className="container-editorial">
             <h2 className="heading-section mb-4">Histórias de quem viajou com a Create Travel</h2>
-            <div className="gold-line mb-12" />
+            <div className="gold-line mb-8" />
+
+            {/* Filtro por destino */}
+            <div className="mb-10">
+              <p className="mb-3 text-xs uppercase tracking-[0.2em] text-muted-foreground">
+                Filtrar por destino
+              </p>
+              <div className="flex flex-wrap gap-2" role="group" aria-label="Filtrar histórias por destino">
+                {filters.map((f) => {
+                  const active = f === filter;
+                  return (
+                    <button
+                      key={f}
+                      type="button"
+                      onClick={() => setFilter(f)}
+                      aria-pressed={active}
+                      className={`rounded-full border px-4 py-1.5 text-sm transition-colors ${
+                        active
+                          ? "border-gold bg-gold/10 text-gold"
+                          : "border-border text-muted-foreground hover:border-gold/60 hover:text-foreground"
+                      }`}
+                    >
+                      {f}
+                    </button>
+                  );
+                })}
+              </div>
+              <p className="mt-3 text-xs text-muted-foreground">
+                {visible.length}{" "}
+                {visible.length === 1 ? "história" : "histórias"}
+                {filter !== "Todos" ? ` em ${filter}` : ""}
+              </p>
+            </div>
 
             <div className="space-y-16">
-              {ordered.map((t) => (
+              {visible.map((t) => {
+                const isOpen = Boolean(expanded[t.slug]);
+                const shown = isOpen ? t.photos : t.photos.slice(0, PHOTOS_PREVIEW);
+                const hidden = t.photos.length - shown.length;
+                return (
                 <article key={t.slug} id={t.slug} className="scroll-mt-28">
                   {t.verified && t.photos.length > 0 && (
                     <div className="mb-10">
                       <div className="columns-2 gap-2 sm:columns-3 sm:gap-3 [column-fill:_balance]">
-                        {t.photos.map((p, i) => (
+                        {shown.map((p, i) => (
                           <figure
                             key={p.src}
                             className="group relative mb-2 break-inside-avoid overflow-hidden rounded-sm ring-1 ring-gold/30 sm:mb-3"
@@ -126,11 +162,27 @@ const Depoimentos = () => {
                         ))}
                       </div>
 
+                      {t.photos.length > PHOTOS_PREVIEW && (
+                        <button
+                          type="button"
+                          onClick={() =>
+                            setExpanded((prev) => ({ ...prev, [t.slug]: !prev[t.slug] }))
+                          }
+                          className="mt-4 inline-flex items-center gap-2 rounded-lg border border-border px-5 py-2.5 text-sm font-medium text-foreground transition-colors hover:border-gold hover:text-gold"
+                        >
+                          <Images size={15} />
+                          {isOpen
+                            ? "Mostrar menos fotos"
+                            : `Ver todas as fotos (+${hidden})`}
+                        </button>
+                      )}
+
                       <p className="mt-3 text-xs text-muted-foreground">
                         Fotos originais da viagem, publicadas com autorização de {t.author}.
                       </p>
                     </div>
                   )}
+
 
                   <div className="grid gap-10 lg:grid-cols-[1.15fr_0.85fr]">
                     {/* Depoimento */}
