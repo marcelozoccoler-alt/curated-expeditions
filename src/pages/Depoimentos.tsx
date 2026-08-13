@@ -198,12 +198,6 @@ const Depoimentos = () => {
                                 </li>
                               ))}
                             </ul>
-                            <p className="mt-4 text-xs leading-relaxed text-muted-foreground">
-                              <span className="font-medium text-foreground">
-                                Ordem narrativa sugerida:
-                              </span>{" "}
-                              {t.photoDirection}
-                            </p>
                           </div>
                         )}
                       </div>
