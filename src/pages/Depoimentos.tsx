@@ -272,7 +272,15 @@ const Depoimentos = () => {
 
                   <div className="divider mt-14" />
                 </article>
-              ))}
+                );
+              })}
+
+              {visible.length === 0 && (
+                <p className="text-muted-foreground">
+                  Ainda não temos histórias publicadas para esse destino. Fale com a gente no
+                  WhatsApp — podemos contar por lá.
+                </p>
+              )}
             </div>
           </div>
         </section>
