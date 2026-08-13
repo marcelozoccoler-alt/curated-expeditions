@@ -71,7 +71,7 @@ export interface Testimonial {
 export const testimonials: Testimonial[] = [
   {
     slug: "luana-santos-cinco-viagens",
-    title: "Cinco viagens depois, eu não sei mais planejar sozinha",
+    title: "Cinco destinos, uma mesma forma de viajar",
     author: "Luana Santos",
     city: "São Paulo, SP",
     tripType: "Viajante recorrente desde 2022",
@@ -81,7 +81,7 @@ export const testimonials: Testimonial[] = [
     since: "Viaja com a Create Travel desde 2022",
     countries: ["França", "Grécia", "Turquia", "Israel", "Suíça"],
     quote:
-      "Eu cheguei na Create Travel por indicação, meio desconfiada, com a França na cabeça e uma lista de coisas que eu não queria: fila, ônibus cheio, roteiro de vitrine. Voltei de lá com a sensação de que alguém tinha pensado no meu dia antes de mim — o carro no horário certo, a reserva já feita no restaurante que eu tinha comentado de passagem, o hotel na rua que fazia sentido para o que eu queria caminhar. Depois vieram a Grécia, a Turquia, Israel e a Suíça. Em cada uma delas o cuidado apareceu no detalhe pequeno: o balão da Capadócia remarcado por causa do vento, sem eu precisar correr atrás; o guia em Jerusalém que entendeu que eu queria história, não roteiro decorado; o dia livre em Santorini que eles insistiram para eu manter — e virou a minha lembrança preferida. Hoje eu não sei mais planejar viagem sozinha. E não quero.",
+      "Eu cheguei na Create Travel por indicação, com a França na cabeça e uma lista de coisas que eu não queria: fila, ônibus cheio, roteiro de vitrine. Voltei de lá com a sensação de que alguém tinha pensado no meu dia antes de mim — o carro no horário certo, a reserva já feita no restaurante que eu tinha comentado de passagem, o hotel na rua que fazia sentido para o que eu queria caminhar. Depois vieram a Grécia, a Turquia, Israel e a Suíça. Em cada uma delas o cuidado apareceu no detalhe pequeno: o balão da Capadócia remarcado por causa do vento, sem eu precisar correr atrás; o guia em Jerusalém que entendeu que eu queria história, não roteiro decorado; o dia livre em Santorini que eles insistiram para eu manter — e virou a minha lembrança preferida. Hoje eu escolho viajar assim: com tempo, com cuidado e com a certeza de que cada detalhe foi pensado antes.",
     note:
       "A Luana viaja com a gente desde 2022 e cada roteiro foi desenhado a partir do anterior: aprendemos que ela detesta acordar cedo dois dias seguidos, que prefere duas noites a mais no mesmo hotel a somar cidades, e que fotografa muito — o que muda a escolha de horário e de lugar. O balão na Capadócia foi remanejado porque acompanhamos o boletim de vento com o operador local desde a véspera; em Israel trocamos o guia por um historiador para o dia em Jerusalém. É esse histórico acumulado que torna a quinta viagem mais precisa que a primeira. — Marcelo Zoccoler",
     photoStory:
