@@ -200,7 +200,7 @@ export const testimonials: Testimonial[] = [
         alt: "Maite Leal e Murilo Lamano em trenó puxado por cães huskies na neve, com montanhas nevadas ao fundo em Ushuaia, Patagônia Argentina",
       },
       {
-        src: maitePatagoniaBracos,
+        src: maitePatagoniaBracos.url,
         caption: "De braços abertos no meio da nevasca",
         alt: "Casal Maite Leal e Murilo Lamano de braços abertos sorrindo em meio à neve caindo, na Patagônia Argentina",
       },
