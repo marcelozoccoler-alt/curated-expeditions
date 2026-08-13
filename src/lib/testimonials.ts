@@ -37,6 +37,9 @@ import maitePatagoniaTrineoMontanhas from "@/assets/depoimentos/maite-patagonia-
 import maiteReveillonBrinde from "@/assets/depoimentos/maite-leste-reveillon-brinde.jpeg.asset.json";
 import maiteVienaMercado from "@/assets/depoimentos/maite-viena-mercado-natal.jpeg.asset.json";
 import maiteVienaCatedral from "@/assets/depoimentos/maite-viena-catedral-santo-estevao.jpeg.asset.json";
+import maiteEsquiPista from "@/assets/depoimentos/maite-esqui-casal-pista.jpeg.asset.json";
+import maiteEsquiSol from "@/assets/depoimentos/maite-esqui-sol.jpeg.asset.json";
+import maiteDanubioNeve from "@/assets/depoimentos/maite-danubio-neve-barco.jpeg.asset.json";
 
 export const TESTIMONIALS_DRAFT = true;
 
