@@ -102,6 +102,7 @@ export const testimonials: Testimonial[] = [
         caption: "Capadócia: entre as chaminés de fada, com o grupo",
         alt: "Luana Santos com grupo de viajantes diante das formações rochosas das chaminés de fada na Capadócia, Turquia",
       },
+      {
         src: luanaParisEiffel.url,
         caption: "Paris: a Torre Eiffel vista de baixo, no verão",
         alt: "Luana Santos de vestido verde diante da Torre Eiffel, fotografada de baixo para cima com céu azul, em Paris",
