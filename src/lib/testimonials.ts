@@ -13,6 +13,7 @@
  * mude para `false`.
  */
 import luanaCapadociaBaloes from "@/assets/depoimentos/luana-capadocia-baloes.jpeg.asset.json";
+import luanaCapadociaGrupoChamines from "@/assets/depoimentos/luana-capadocia-grupo-chamines.jpg.asset.json";
 import luanaSantoriniFira from "@/assets/depoimentos/luana-santorini-fira.jpeg.asset.json";
 import luanaSantoriniPoente from "@/assets/depoimentos/luana-santorini-poente.jpeg.asset.json";
 import luanaGreciaEnseada from "@/assets/depoimentos/luana-grecia-enseada.jpeg.asset.json";
