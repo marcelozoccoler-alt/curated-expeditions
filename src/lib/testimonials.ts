@@ -13,6 +13,7 @@
  * mude para `false`.
  */
 import luanaCapadociaBaloes from "@/assets/depoimentos/luana-capadocia-baloes.jpeg.asset.json";
+import luanaCapadociaGrupoChamines from "@/assets/depoimentos/luana-capadocia-grupo-chamines.jpg.asset.json";
 import luanaSantoriniFira from "@/assets/depoimentos/luana-santorini-fira.jpeg.asset.json";
 import luanaSantoriniPoente from "@/assets/depoimentos/luana-santorini-poente.jpeg.asset.json";
 import luanaGreciaEnseada from "@/assets/depoimentos/luana-grecia-enseada.jpeg.asset.json";
@@ -95,6 +96,11 @@ export const testimonials: Testimonial[] = [
         src: luanaCapadociaVoo.url,
         caption: "Dentro do cesto, com o vale inteiro embaixo",
         alt: "Luana Santos sorrindo dentro do cesto de um balão em voo sobre o vale da Capadócia, com outros balões ao fundo",
+      },
+      {
+        src: luanaCapadociaGrupoChamines.url,
+        caption: "Capadócia: entre as chaminés de fada, com o grupo",
+        alt: "Luana Santos com grupo de viajantes diante das formações rochosas das chaminés de fada na Capadócia, Turquia",
       },
       {
         src: luanaParisEiffel.url,
