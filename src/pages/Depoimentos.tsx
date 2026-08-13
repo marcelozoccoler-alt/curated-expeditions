@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
 import { SEO } from "@/components/SEO";
@@ -195,9 +196,12 @@ const Depoimentos = () => {
               </p>
               <div className="flex flex-wrap justify-center gap-4">
                 <WhatsAppButton variant="cta" label="Falar com um travel designer" />
-                <a href="/roteiro-sob-medida" className="btn-outline-light">
+                <Link
+                  to="/roteiro-sob-medida"
+                  className="inline-flex items-center justify-center rounded-lg border border-primary-foreground/40 px-6 py-3 font-medium text-primary-foreground transition-colors hover:border-gold hover:text-gold"
+                >
                   Como funciona o roteiro sob medida
-                </a>
+                </Link>
               </div>
             </div>
           </div>
