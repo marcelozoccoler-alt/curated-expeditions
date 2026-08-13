@@ -74,6 +74,7 @@ export const Header = () => {
           ...gruposSubItems,
           { label: "Cruzeiros fluviais", href: "/cruzeiros-fluviais" },
           { label: "Blog", href: "/diario" },
+          { label: "Depoimentos", href: "/depoimentos" },
           { label: t("nav.contato"), href: "/contato" },
         ]
       : [...primaryNavItems, ...brasilSubItems];
@@ -257,6 +258,16 @@ export const Header = () => {
                   }`}
                 >
                   Blog
+                </Link>
+                <Link
+                  to="/depoimentos"
+                  className={`text-sm font-medium transition-colors hover:text-gold whitespace-nowrap ${
+                    isScrolled ? "text-foreground" : "text-primary-foreground"
+                  } ${
+                    location.pathname.startsWith("/depoimentos") ? "text-gold" : ""
+                  }`}
+                >
+                  Depoimentos
                 </Link>
                 <Link
                   to="/contato"
