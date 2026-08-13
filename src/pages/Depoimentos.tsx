@@ -80,42 +80,28 @@ const Depoimentos = () => {
                 <article key={t.slug} id={t.slug} className="scroll-mt-28">
                   {t.verified && t.photos.length > 0 && (
                     <div className="mb-10">
-                      <div
-                        className="grid grid-cols-2 grid-flow-dense gap-2 sm:grid-cols-3 sm:gap-3"
-                        style={{ gridAutoRows: "clamp(120px, 24vw, 150px)" }}
-                      >
-                        {t.photos.map((p, i) => {
-                          const shape =
-                            i === 0
-                              ? "col-span-2 row-span-1 sm:col-span-2 sm:row-span-1"
-                              : i === 3 || i === 6 || i === 9 || i === 12
-                                ? "col-span-2 row-span-1 sm:col-span-1 sm:row-span-1"
-                                : i === 7
-                                  ? "col-span-1 row-span-1 sm:col-span-2 sm:row-span-1"
-                                  : i === 2
-                                    ? "col-span-1 row-span-1 sm:col-span-1 sm:row-span-2"
-                                    : "col-span-1 row-span-1 sm:col-span-1 sm:row-span-1";
-                          return (
-                            <figure
-                              key={p.src}
-                              className={`group relative overflow-hidden rounded-sm ring-1 ring-gold/30 ${shape}`}
-                            >
-                              <img
-                                src={p.src}
-                                alt={p.alt}
-                                loading={i === 0 ? "eager" : "lazy"}
-                                className="h-full w-full object-cover transition-transform duration-700 ease-out group-hover:scale-[1.04]"
-                              />
-                              <div className="pointer-events-none absolute inset-0 bg-gradient-to-t from-primary/80 via-primary/10 to-transparent opacity-90" />
-                              <figcaption className="pointer-events-none absolute inset-x-0 bottom-0 p-2 sm:p-3">
-                                <span className="font-serif text-[10px] sm:text-xs italic text-primary-foreground drop-shadow line-clamp-2">
-                                  {p.caption}
-                                </span>
-                              </figcaption>
-                            </figure>
-                          );
-                        })}
+                      <div className="columns-2 gap-2 sm:columns-3 sm:gap-3 [column-fill:_balance]">
+                        {t.photos.map((p, i) => (
+                          <figure
+                            key={p.src}
+                            className="group relative mb-2 break-inside-avoid overflow-hidden rounded-sm ring-1 ring-gold/30 sm:mb-3"
+                          >
+                            <img
+                              src={p.src}
+                              alt={p.alt}
+                              loading={i === 0 ? "eager" : "lazy"}
+                              className="block h-auto w-full transition-transform duration-700 ease-out group-hover:scale-[1.03]"
+                            />
+                            <div className="pointer-events-none absolute inset-0 bg-gradient-to-t from-primary/80 via-primary/10 to-transparent opacity-90" />
+                            <figcaption className="pointer-events-none absolute inset-x-0 bottom-0 p-2 sm:p-3">
+                              <span className="font-serif text-[10px] sm:text-xs italic text-primary-foreground drop-shadow line-clamp-2">
+                                {p.caption}
+                              </span>
+                            </figcaption>
+                          </figure>
+                        ))}
                       </div>
+
                       <p className="mt-3 text-xs text-muted-foreground">
                         Fotos originais da viagem, publicadas com autorização de {t.author}.
                       </p>
