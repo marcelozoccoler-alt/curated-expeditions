@@ -209,9 +209,6 @@ const Depoimentos = () => {
                           </div>
                         ) : (
                           <div className="mt-6 rounded-lg border border-dashed border-border p-4">
-                            <p className="text-xs uppercase tracking-[0.2em] text-muted-foreground mb-3">
-                              Legendas sugeridas
-                            </p>
                             <ul className="space-y-1.5">
                               {t.suggestedCaptions.map((c) => (
                                 <li key={c} className="text-sm text-foreground/75">
