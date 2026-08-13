@@ -247,6 +247,21 @@ export const testimonials: Testimonial[] = [
         caption: "O brinde do réveillon que quase não aconteceu",
         alt: "Maite Leal e Murilo Lamano brindando com taças de vinho sob balões de Happy New Year em escadaria de madeira, na noite de réveillon",
       },
+      {
+        src: maiteDanubioNeve.url,
+        caption: "Réveillon no Danúbio: neve no ombro, Budapeste ao fundo",
+        alt: "Maite Leal e Murilo Lamano no deque de embarcação no rio Danúbio sob neve, com as luzes da Ponte das Correntes de Budapeste ao fundo",
+      },
+      {
+        src: maiteEsquiSol.url,
+        caption: "Primeiro dia de esqui, com o sol atravessando a pista",
+        alt: "Maite Leal e Murilo Lamano de capacete e roupas de esqui segurando esquis na pista nevada, com o sol de inverno atrás",
+      },
+      {
+        src: maiteEsquiPista.url,
+        caption: "Fim de tarde na estação, esquis fincados na neve",
+        alt: "Maite Leal e Murilo Lamano abraçados na base da estação de esqui no Leste Europeu, segurando esquis sobre a neve ao fim da tarde",
+      },
     ],
     suggestedCaptions: [],
     photoDirection: "",
