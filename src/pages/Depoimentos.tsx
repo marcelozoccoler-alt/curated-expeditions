@@ -74,9 +74,10 @@ const Depoimentos = () => {
             <div className="flex gap-3 rounded-xl border border-gold/40 bg-gold/5 p-4 text-sm text-muted-foreground max-w-3xl">
               <Info size={18} className="mt-0.5 shrink-0 text-gold" />
               <p>
-                <strong className="text-foreground">Conteúdo em revisão editorial.</strong> As
-                histórias abaixo estão no formato final da página, aguardando a versão autorizada de
-                cada viajante e as fotos originais das viagens. Nada aqui deve ser lido como
+                <strong className="text-foreground">Sobre esta página.</strong> As histórias marcadas
+                como <em>depoimento autorizado</em> são relatos reais, publicados com autorização da
+                viajante e com fotos originais da viagem. As demais estão no formato final da
+                página, aguardando a versão autorizada de cada viajante — e não devem ser lidas como
                 avaliação verificada até essa etapa ser concluída.
               </p>
             </div>
