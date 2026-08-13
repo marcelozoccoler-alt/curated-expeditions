@@ -13,7 +13,6 @@
  * mude para `false`.
  */
 import luanaCapadociaBaloes from "@/assets/depoimentos/luana-capadocia-baloes.jpeg.asset.json";
-import luanaCapadociaGrupo from "@/assets/depoimentos/luana-capadocia-grupo.jpeg.asset.json";
 import luanaSantoriniFira from "@/assets/depoimentos/luana-santorini-fira.jpeg.asset.json";
 import luanaSantoriniPoente from "@/assets/depoimentos/luana-santorini-poente.jpeg.asset.json";
 import luanaGreciaEnseada from "@/assets/depoimentos/luana-grecia-enseada.jpeg.asset.json";
@@ -27,7 +26,6 @@ import luanaSantaSofia from "@/assets/depoimentos/luana-istambul-santa-sofia.jpe
 import luanaMesquitaAzul from "@/assets/depoimentos/luana-istambul-mesquita-azul.jpeg.asset.json";
 import luanaCapadociaTerraco from "@/assets/depoimentos/luana-capadocia-vestido-terraco.jpeg.asset.json";
 import luanaCapadociaVoo from "@/assets/depoimentos/luana-capadocia-voo-balao.jpeg.asset.json";
-import luanaCapadociaChamines from "@/assets/depoimentos/luana-capadocia-grupo-chamines.jpeg.asset.json";
 
 export const TESTIMONIALS_DRAFT = true;
 
@@ -162,11 +160,6 @@ export const testimonials: Testimonial[] = [
         src: luanaGreciaEnseada.url,
         caption: "Enseada grega: água transparente e nenhum horário",
         alt: "Luana Santos sentada em rochas diante de enseada de água azul turquesa em ilha grega",
-      },
-      {
-        src: luanaCapadociaGrupo.url,
-        caption: "Capadócia em grupo, entre as chaminés de fada",
-        alt: "Grupo de viajantes da Create Travel posando diante das chaminés de fada do vale de Pasabag, na Capadócia",
       },
     ],
     suggestedCaptions: [],
