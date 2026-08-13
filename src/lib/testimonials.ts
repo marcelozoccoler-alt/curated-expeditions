@@ -117,11 +117,6 @@ export const testimonials: Testimonial[] = [
         alt: "Luana Santos com óculos de sol e a Mesquita Azul e seus minaretes ao fundo, em Istambul, Turquia",
       },
       {
-        src: luanaCapadociaChamines.url,
-        caption: "Entre as chaminés de fada, o grupo inteiro rindo",
-        alt: "Grupo de viajantes da Create Travel posando diante das chaminés de fada do vale de Pasabag, na Capadócia, sob céu azul",
-      },
-      {
         src: luanaSantoriniPoente.url,
         caption: "Santorini, o poente que ninguém apressa",
         alt: "Luana Santos de vestido vermelho e chapéu observando o sol se pôr sobre a caldeira de Santorini, Grécia",
