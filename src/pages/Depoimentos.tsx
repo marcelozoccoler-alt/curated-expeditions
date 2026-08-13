@@ -6,11 +6,16 @@ import { Breadcrumbs } from "@/components/Breadcrumbs";
 import { WhatsAppButton } from "@/components/WhatsAppButton";
 import { CONTACT } from "@/lib/types";
 import { testimonials, TESTIMONIALS_DRAFT } from "@/lib/testimonials";
-import { Quote, Camera, Info } from "lucide-react";
+import { Quote, Camera, Info, BadgeCheck } from "lucide-react";
 
 const DOMAIN = CONTACT.domain.replace(/\/$/, "");
 
 const Depoimentos = () => {
+  // Depoimentos reais e autorizados primeiro.
+  const ordered = [...testimonials].sort(
+    (a, b) => Number(Boolean(b.verified)) - Number(Boolean(a.verified)),
+  );
+
   const jsonLd = [
     {
       "@context": "https://schema.org",
@@ -69,9 +74,10 @@ const Depoimentos = () => {
             <div className="flex gap-3 rounded-xl border border-gold/40 bg-gold/5 p-4 text-sm text-muted-foreground max-w-3xl">
               <Info size={18} className="mt-0.5 shrink-0 text-gold" />
               <p>
-                <strong className="text-foreground">Conteúdo em revisão editorial.</strong> As
-                histórias abaixo estão no formato final da página, aguardando a versão autorizada de
-                cada viajante e as fotos originais das viagens. Nada aqui deve ser lido como
+                <strong className="text-foreground">Sobre esta página.</strong> As histórias marcadas
+                como <em>depoimento autorizado</em> são relatos reais, publicados com autorização da
+                viajante e com fotos originais da viagem. As demais estão no formato final da
+                página, aguardando a versão autorizada de cada viajante — e não devem ser lidas como
                 avaliação verificada até essa etapa ser concluída.
               </p>
             </div>
@@ -85,8 +91,41 @@ const Depoimentos = () => {
             <div className="gold-line mb-12" />
 
             <div className="space-y-16">
-              {testimonials.map((t) => (
+              {ordered.map((t) => (
                 <article key={t.slug} id={t.slug} className="scroll-mt-28">
+                  {t.verified && t.photos.length > 0 && (
+                    <div className="mb-10">
+                      <div className="grid gap-2 sm:gap-3 sm:grid-cols-4">
+                        {t.photos.map((p, i) => (
+                          <figure
+                            key={p.src}
+                            className={`group relative overflow-hidden rounded-sm ring-1 ring-gold/30 ${
+                              i === 0 ? "sm:col-span-2 sm:row-span-2" : ""
+                            }`}
+                          >
+                            <img
+                              src={p.src}
+                              alt={p.alt}
+                              loading={i === 0 ? "eager" : "lazy"}
+                              className={`w-full object-cover transition-transform duration-700 ease-out group-hover:scale-[1.04] ${
+                                i === 0 ? "aspect-[4/5] sm:h-full" : "aspect-[4/5]"
+                              }`}
+                            />
+                            <div className="pointer-events-none absolute inset-0 bg-gradient-to-t from-primary/80 via-primary/10 to-transparent opacity-90" />
+                            <figcaption className="pointer-events-none absolute inset-x-0 bottom-0 p-3 sm:p-4">
+                              <span className="font-serif text-xs sm:text-sm italic text-primary-foreground drop-shadow">
+                                {p.caption}
+                              </span>
+                            </figcaption>
+                          </figure>
+                        ))}
+                      </div>
+                      <p className="mt-3 text-xs text-muted-foreground">
+                        Fotos originais da viagem, publicadas com autorização de {t.author}.
+                      </p>
+                    </div>
+                  )}
+
                   <div className="grid gap-10 lg:grid-cols-[1.15fr_0.85fr]">
                     {/* Depoimento */}
                     <div>
@@ -96,6 +135,23 @@ const Depoimentos = () => {
                       <h3 className="font-serif text-2xl md:text-3xl font-semibold text-foreground mb-5 leading-snug">
                         {t.title}
                       </h3>
+
+                      {t.verified && (
+                        <div className="mb-5 flex flex-wrap items-center gap-2">
+                          <span className="inline-flex items-center gap-1.5 rounded-full border border-emerald/40 bg-emerald/10 px-3 py-1 text-xs font-medium text-emerald">
+                            <BadgeCheck size={13} /> Depoimento autorizado
+                          </span>
+                          {t.countries?.map((c) => (
+                            <span
+                              key={c}
+                              className="rounded-full border border-border px-3 py-1 text-xs text-muted-foreground"
+                            >
+                              {c}
+                            </span>
+                          ))}
+                        </div>
+                      )}
+
 
                       <blockquote className="relative border-l-2 border-gold/60 pl-6">
                         <Quote
@@ -135,7 +191,7 @@ const Depoimentos = () => {
                           {t.photoStory}
                         </p>
 
-                        {t.photos.length > 0 ? (
+                        {t.photos.length > 0 && !t.verified ? (
                           <div className="mt-6 grid grid-cols-2 gap-3">
                             {t.photos.map((p) => (
                               <figure key={p.src}>
