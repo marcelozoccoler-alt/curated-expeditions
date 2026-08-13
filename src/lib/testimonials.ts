@@ -176,4 +176,76 @@ export const testimonials: Testimonial[] = [
     suggestedCaptions: [],
     photoDirection: "",
   },
+  {
+    slug: "maite-leal-murilo-lamano-patagonia-leste-europeu",
+    title: "Duas viagens que superaram tudo o que a gente tinha imaginado",
+    author: "Maite Leal e Murilo Lamano",
+    city: "São Paulo, SP",
+    tripType: "Casal — duas viagens com a Create Travel",
+    destination: "Patagônia Argentina (2025) e Leste Europeu com estação de esqui (2026)",
+    month: "2025 e 2026",
+    verified: true,
+    since: "Viajam com a Create Travel desde 2025",
+    countries: ["Argentina", "Áustria", "Hungria", "República Tcheca"],
+    quote:
+      "As duas viagens superaram completamente as nossas expectativas. Na Patagônia foi a primeira vez que a gente sentiu o que é viajar sem carregar preocupação: tudo já estava resolvido antes de a gente chegar — o trenó puxado pelos huskies em Ushuaia, o barco até o farol do Canal de Beagle, o dia sobre o gelo do Perito Moreno. No Leste Europeu, entre os mercados de Natal de Viena e a neve da estação de esqui, foi a mesma sensação: a viagem simplesmente flui. E quando algo acontece, eles nos socorrem. Quase perdemos a embarcação do réveillon no Danúbio porque fomos ao ponto de embarque errado — acionamos a Create, eles encontraram o cais certo em minutos e a gente entrou a tempo do brinde. Ufa! Brindamos rindo, de mãos dadas, com a sensação de que nunca estivemos sozinhos. É por isso que a gente volta: são viagens que tocam o coração.",
+    note:
+      "Com a Maite e o Murilo aprendemos a desenhar viagens para dois: menos deslocamentos, mais fins de tarde juntos, e sempre uma experiência que eles não pediram mas que combina com eles — o trenó noturno em Ushuaia entrou assim. A noite do réveillon no Danúbio é a história que eles mais contam, e para nós é a prova de por que existe plantão: eram poucos minutos, a mensagem chegou, confirmamos o cais correto com o operador local e o casal embarcou. Cuidar da viagem inteira é também estar do outro lado do telefone quando a viagem improvisa. — Marcelo Zoccoler",
+    photoStory:
+      "A Patagônia deles é branca e barulhenta de alegria: os huskies puxando o trenó pela neve de Ushuaia, o casal de braços abertos no meio da nevasca, o trenó atravessando a noite austral com os cães acesos pelo flash. Depois a água — o farol Les Éclaireurs ao fundo, o beijo no deque do barco no Canal de Beagle, a bandeira argentina tremendo no vento. E o azul impossível do Perito Moreno, os dois de crampons e capacete, de mãos dadas sobre o gelo. No Leste Europeu a temperatura da luz muda: as luzes vermelhas e verdes do Wiener Christkindlmarkt, o vapor subindo das canecas de vinho quente, a catedral de Santo Estêvão num céu azul de inverno — e o brinde de taça na mão, sob o Happy New Year, na noite que quase virou história de perigo e virou história de riso.",
+    photos: [
+      {
+        src: maitePatagoniaTrineoDia.url,
+        caption: "Ushuaia: os huskies puxando o trenó na neve",
+        alt: "Maite Leal e Murilo Lamano em trenó puxado por cães huskies na neve, com montanhas nevadas ao fundo em Ushuaia, Patagônia Argentina",
+      },
+      {
+        src: maitePatagoniaBracos,
+        caption: "De braços abertos no meio da nevasca",
+        alt: "Casal Maite Leal e Murilo Lamano de braços abertos sorrindo em meio à neve caindo, na Patagônia Argentina",
+      },
+      {
+        src: maitePatagoniaFarolBeijo.url,
+        caption: "Um beijo diante do farol do fim do mundo",
+        alt: "Maite Leal e Murilo Lamano se beijando no deque de barco com o farol Les Éclaireurs ao fundo, Canal de Beagle, Ushuaia",
+      },
+      {
+        src: maitePatagoniaBeagle.url,
+        caption: "Canal de Beagle: bandeira ao vento e o farol atrás",
+        alt: "Maite Leal e Murilo Lamano sorrindo em barco no Canal de Beagle, com bandeira argentina e o farol Les Éclaireurs ao fundo",
+      },
+      {
+        src: maitePeritoMoreno.url,
+        caption: "Perito Moreno: de mãos dadas sobre o gelo azul",
+        alt: "Maite Leal e Murilo Lamano de capacete e crampons, de mãos dadas sobre o gelo azul do glaciar Perito Moreno, Argentina",
+      },
+      {
+        src: maitePatagoniaTrineoNoite.url,
+        caption: "O trenó que atravessou a noite austral",
+        alt: "Maite Leal e Murilo Lamano em trenó puxado por huskies durante passeio noturno na neve em Ushuaia",
+      },
+      {
+        src: maitePatagoniaTrineoMontanhas.url,
+        caption: "Abraçados no trenó, com a cordilheira atrás",
+        alt: "Maite Leal e Murilo Lamano abraçados sentados em trenó de madeira com montanhas nevadas ao fundo na Patagônia Argentina",
+      },
+      {
+        src: maiteVienaMercado.url,
+        caption: "Viena: vinho quente sob as luzes do Christkindlmarkt",
+        alt: "Maite Leal e Murilo Lamano com canecas de vinho quente sob o arco iluminado do mercado de Natal Wiener Christkindlmarkt, em Viena",
+      },
+      {
+        src: maiteVienaCatedral.url,
+        caption: "A catedral de Santo Estêvão num azul de inverno",
+        alt: "Maite Leal e Murilo Lamano em selfie diante da catedral de Santo Estêvão, em Viena, com céu azul de inverno",
+      },
+      {
+        src: maiteReveillonBrinde.url,
+        caption: "O brinde do réveillon que quase não aconteceu",
+        alt: "Maite Leal e Murilo Lamano brindando com taças de vinho sob balões de Happy New Year em escadaria de madeira, na noite de réveillon",
+      },
+    ],
+    suggestedCaptions: [],
+    photoDirection: "",
+  },
 ];
