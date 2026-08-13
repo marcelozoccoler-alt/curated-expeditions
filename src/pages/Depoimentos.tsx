@@ -6,11 +6,16 @@ import { Breadcrumbs } from "@/components/Breadcrumbs";
 import { WhatsAppButton } from "@/components/WhatsAppButton";
 import { CONTACT } from "@/lib/types";
 import { testimonials, TESTIMONIALS_DRAFT } from "@/lib/testimonials";
-import { Quote, Camera, Info } from "lucide-react";
+import { Quote, Camera, Info, BadgeCheck } from "lucide-react";
 
 const DOMAIN = CONTACT.domain.replace(/\/$/, "");
 
 const Depoimentos = () => {
+  // Depoimentos reais e autorizados primeiro.
+  const ordered = [...testimonials].sort(
+    (a, b) => Number(Boolean(b.verified)) - Number(Boolean(a.verified)),
+  );
+
   const jsonLd = [
     {
       "@context": "https://schema.org",
