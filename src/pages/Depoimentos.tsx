@@ -5,8 +5,8 @@ import { SEO } from "@/components/SEO";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
 import { WhatsAppButton } from "@/components/WhatsAppButton";
 import { CONTACT } from "@/lib/types";
-import { testimonials, TESTIMONIALS_DRAFT } from "@/lib/testimonials";
-import { Quote, Camera, Info, BadgeCheck } from "lucide-react";
+import { testimonials } from "@/lib/testimonials";
+import { Quote, Camera, BadgeCheck } from "lucide-react";
 
 const DOMAIN = CONTACT.domain.replace(/\/$/, "");
 
