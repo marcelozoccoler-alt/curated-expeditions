@@ -87,7 +87,7 @@ const Depoimentos = () => {
                         {t.photos.map((p, i) => {
                           const shape =
                             i === 0 || i === 3 || i === 6 || i === 9 || i === 12
-                              ? "col-span-2 row-span-1 sm:col-span-2 sm:row-span-1"
+                              ? "col-span-2 row-span-1 sm:col-span-1 sm:row-span-1"
                               : i === 7
                                 ? "col-span-1 row-span-1 sm:col-span-2 sm:row-span-1"
                                 : i === 2
