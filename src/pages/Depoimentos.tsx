@@ -5,8 +5,8 @@ import { SEO } from "@/components/SEO";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
 import { WhatsAppButton } from "@/components/WhatsAppButton";
 import { CONTACT } from "@/lib/types";
-import { testimonials, TESTIMONIALS_DRAFT } from "@/lib/testimonials";
-import { Quote, Camera, Info, BadgeCheck } from "lucide-react";
+import { testimonials } from "@/lib/testimonials";
+import { Quote, Camera, BadgeCheck } from "lucide-react";
 
 const DOMAIN = CONTACT.domain.replace(/\/$/, "");
 
@@ -20,7 +20,7 @@ const Depoimentos = () => {
     {
       "@context": "https://schema.org",
       "@type": "ItemList",
-      name: "Depoimentos e histórias de viagem — Create Travel",
+      name: "Nós viajamos! — histórias de viagem Create Travel",
       itemListElement: testimonials.map((t, i) => ({
         "@type": "ListItem",
         position: i + 1,
@@ -33,7 +33,7 @@ const Depoimentos = () => {
       "@type": "BreadcrumbList",
       itemListElement: [
         { "@type": "ListItem", position: 1, name: "Início", item: `${DOMAIN}/` },
-        { "@type": "ListItem", position: 2, name: "Depoimentos", item: `${DOMAIN}/depoimentos` },
+        { "@type": "ListItem", position: 2, name: "Nós viajamos!", item: `${DOMAIN}/depoimentos` },
       ],
     },
   ];
@@ -41,10 +41,10 @@ const Depoimentos = () => {
   return (
     <div className="min-h-screen bg-background">
       <SEO
-        title="Depoimentos: histórias reais de viagem | Create Travel"
-        description="Histórias de viajantes que fizeram roteiro sob medida com a Create Travel: Grécia, Japão, Patagônia, Lençóis Maranhenses, Marrocos e mais, com bastidores do atendimento."
+        title="Nós viajamos! — histórias reais de viagem | Create Travel"
+        description="Relatos de viajantes que fizeram roteiro sob medida com a Create Travel: França, Grécia, Turquia, Israel, Suíça e mais, com bastidores do atendimento."
         canonicalPath="/depoimentos"
-        keywords="depoimentos create travel, experiência de viagem, atendimento personalizado, roteiro sob medida, histórias de viagem, agência de viagens boutique"
+        keywords="nós viajamos, histórias de viagem create travel, experiência de viagem, atendimento personalizado, roteiro sob medida, agência de viagens boutique"
         jsonLd={jsonLd}
       />
       <Header />
@@ -55,10 +55,10 @@ const Depoimentos = () => {
           <div className="container-editorial">
             <div className="gold-line mb-6" />
             <h1 className="heading-hero mb-6 max-w-4xl">
-              Depoimentos e <span className="text-gold italic">histórias de viagem</span>
+              Nós <span className="text-gold italic">viajamos!</span>
             </h1>
             <p className="text-lg md:text-xl text-primary-foreground/80 font-light max-w-3xl">
-              Cada viagem que sai daqui volta como história. Reunimos relatos de viajantes que
+              Cada viagem que sai daqui volta como história. Aqui estão relatos de viajantes que
               desenharam roteiros sob medida com a gente — com o que deu certo, o que mudou no
               caminho e os bastidores do atendimento que raramente aparecem na foto.
             </p>
@@ -66,23 +66,8 @@ const Depoimentos = () => {
         </section>
 
         <div className="container-editorial pt-6">
-          <Breadcrumbs items={[{ label: "Depoimentos" }]} />
+          <Breadcrumbs items={[{ label: "Nós viajamos!" }]} />
         </div>
-
-        {TESTIMONIALS_DRAFT && (
-          <div className="container-editorial pt-4">
-            <div className="flex gap-3 rounded-xl border border-gold/40 bg-gold/5 p-4 text-sm text-muted-foreground max-w-3xl">
-              <Info size={18} className="mt-0.5 shrink-0 text-gold" />
-              <p>
-                <strong className="text-foreground">Sobre esta página.</strong> As histórias marcadas
-                como <em>depoimento autorizado</em> são relatos reais, publicados com autorização da
-                viajante e com fotos originais da viagem. As demais estão no formato final da
-                página, aguardando a versão autorizada de cada viajante — e não devem ser lidas como
-                avaliação verificada até essa etapa ser concluída.
-              </p>
-            </div>
-          </div>
-        )}
 
         {/* Depoimentos */}
         <section className="section-padding">
