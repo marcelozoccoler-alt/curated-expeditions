@@ -37,6 +37,9 @@ import maitePatagoniaTrineoMontanhas from "@/assets/depoimentos/maite-patagonia-
 import maiteReveillonBrinde from "@/assets/depoimentos/maite-leste-reveillon-brinde.jpeg.asset.json";
 import maiteVienaMercado from "@/assets/depoimentos/maite-viena-mercado-natal.jpeg.asset.json";
 import maiteVienaCatedral from "@/assets/depoimentos/maite-viena-catedral-santo-estevao.jpeg.asset.json";
+import maiteEsquiPista from "@/assets/depoimentos/maite-esqui-casal-pista.jpeg.asset.json";
+import maiteEsquiSol from "@/assets/depoimentos/maite-esqui-sol.jpeg.asset.json";
+import maiteDanubioNeve from "@/assets/depoimentos/maite-danubio-neve-barco.jpeg.asset.json";
 
 export const TESTIMONIALS_DRAFT = true;
 
@@ -243,6 +246,21 @@ export const testimonials: Testimonial[] = [
         src: maiteReveillonBrinde.url,
         caption: "O brinde do réveillon que quase não aconteceu",
         alt: "Maite Leal e Murilo Lamano brindando com taças de vinho sob balões de Happy New Year em escadaria de madeira, na noite de réveillon",
+      },
+      {
+        src: maiteDanubioNeve.url,
+        caption: "Réveillon no Danúbio: neve no ombro, Budapeste ao fundo",
+        alt: "Maite Leal e Murilo Lamano no deque de embarcação no rio Danúbio sob neve, com as luzes da Ponte das Correntes de Budapeste ao fundo",
+      },
+      {
+        src: maiteEsquiSol.url,
+        caption: "Primeiro dia de esqui, com o sol atravessando a pista",
+        alt: "Maite Leal e Murilo Lamano de capacete e roupas de esqui segurando esquis na pista nevada, com o sol de inverno atrás",
+      },
+      {
+        src: maiteEsquiPista.url,
+        caption: "Fim de tarde na estação, esquis fincados na neve",
+        alt: "Maite Leal e Murilo Lamano abraçados na base da estação de esqui no Leste Europeu, segurando esquis sobre a neve ao fim da tarde",
       },
     ],
     suggestedCaptions: [],
