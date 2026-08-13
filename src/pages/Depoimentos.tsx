@@ -135,7 +135,7 @@ const Depoimentos = () => {
                           {t.photoStory}
                         </p>
 
-                        {t.photos.length > 0 ? (
+                        {t.photos.length > 0 && !t.verified ? (
                           <div className="mt-6 grid grid-cols-2 gap-3">
                             {t.photos.map((p) => (
                               <figure key={p.src}>
