@@ -173,7 +173,7 @@ const Depoimentos = () => {
                           {t.photoStory}
                         </p>
 
-                        {t.photos.length > 0 && !t.verified ? (
+                        {t.photos.length > 0 && !t.verified && (
                           <div className="mt-6 grid grid-cols-2 gap-3">
                             {t.photos.map((p) => (
                               <figure key={p.src}>
@@ -188,16 +188,6 @@ const Depoimentos = () => {
                                 </figcaption>
                               </figure>
                             ))}
-                          </div>
-                        ) : (
-                          <div className="mt-6 rounded-lg border border-dashed border-border p-4">
-                            <ul className="space-y-1.5">
-                              {t.suggestedCaptions.map((c) => (
-                                <li key={c} className="text-sm text-foreground/75">
-                                  — {c}
-                                </li>
-                              ))}
-                            </ul>
                           </div>
                         )}
                       </div>
