@@ -21,6 +21,13 @@ import luanaJerusalem from "@/assets/depoimentos/luana-jerusalem-monte-oliveiras
 import luanaJaffa from "@/assets/depoimentos/luana-jaffa-antiga.jpeg.asset.json";
 import luanaSuicaBlausee from "@/assets/depoimentos/luana-suica-blausee.jpeg.asset.json";
 import luanaSuicaNeve from "@/assets/depoimentos/luana-suica-neve.jpeg.asset.json";
+import luanaParisEiffel from "@/assets/depoimentos/luana-paris-torre-eiffel.jpeg.asset.json";
+import luanaPetiteFrance from "@/assets/depoimentos/luana-franca-petite-france.jpeg.asset.json";
+import luanaSantaSofia from "@/assets/depoimentos/luana-istambul-santa-sofia.jpeg.asset.json";
+import luanaMesquitaAzul from "@/assets/depoimentos/luana-istambul-mesquita-azul.jpeg.asset.json";
+import luanaCapadociaTerraco from "@/assets/depoimentos/luana-capadocia-vestido-terraco.jpeg.asset.json";
+import luanaCapadociaVoo from "@/assets/depoimentos/luana-capadocia-voo-balao.jpeg.asset.json";
+import luanaCapadociaChamines from "@/assets/depoimentos/luana-capadocia-grupo-chamines.jpeg.asset.json";
 
 export const TESTIMONIALS_DRAFT = true;
 
