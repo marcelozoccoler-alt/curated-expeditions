@@ -7,6 +7,9 @@ import { asiaOceaniaExtraDestinations } from "./destinationsExtra/asiaOceania";
 import { europaOesteExtraDestinations } from "./destinationsExtra/europaOeste";
 import { europaNorteExtraDestinations } from "./destinationsExtra/europaNorte";
 import { orienteMedioExtraDestinations } from "./destinationsExtra/orienteMedio";
+import { polosExtraDestinations } from "./destinationsExtra/polos";
+import { caucasoAsiaExtraDestinations } from "./destinationsExtra/caucasoAsia";
+import { andesAlpesExtraDestinations } from "./destinationsExtra/andesAlpes";
 import monteRoraimaImg from "@/assets/destinations/brasil-monte-roraima.jpg";
 import festivalParintinsImg from "@/assets/destinations/brasil-amazonia-festival-parintins.jpg";
 import manausRioNegroImg from "@/assets/destinations/brasil-amazonia-manaus-rio-negro.jpg";
@@ -3686,6 +3689,9 @@ export const destinations: Destination[] = [
   ...europaOesteExtraDestinations,
   ...europaNorteExtraDestinations,
   ...orienteMedioExtraDestinations,
+  ...polosExtraDestinations,
+  ...caucasoAsiaExtraDestinations,
+  ...andesAlpesExtraDestinations,
 ];
 
 export const getDestinationBySlug = (slug: string): Destination | undefined => {

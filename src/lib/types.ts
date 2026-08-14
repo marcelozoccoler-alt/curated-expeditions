@@ -211,4 +211,5 @@ export const CONTINENTS = [
   { id: "asia", name: "Ásia" },
   { id: "oriente-medio", name: "Oriente Médio" },
   { id: "oceania", name: "Oceania" },
+  { id: "antartida-artico", name: "Antártida & Ártico" },
 ];
