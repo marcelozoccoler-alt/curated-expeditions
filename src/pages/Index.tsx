@@ -78,13 +78,13 @@ const Index = () => {
           >
             <div className="gold-line mx-auto mb-8" />
             <h1 className="heading-hero text-white mb-6">
-              Agência de Viagens Personalizadas
+              Agência de Viagens Personalizadas e Grupos Exclusivos
             </h1>
             <p className="text-xl md:text-2xl text-white/90 mb-4 max-w-2xl mx-auto font-light">
               Roteiros sob medida com curadoria autoral. Experiências autênticas, exclusivas e com propósito — para quem busca profundidade.
             </p>
             <p className="text-sm md:text-base text-white/70 mb-10 max-w-2xl mx-auto font-light italic">
-              Há 11 anos desenhando viagens do zero para África, Europa, Ásia, Oceania e Brasil.
+              Há 11 anos desenhando viagens do zero para África, Oriente Médio, Ásia, Oceania, Europa, Américas e Antártida.
             </p>
             <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
               <WhatsAppButton
