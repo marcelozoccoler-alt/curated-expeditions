@@ -129,11 +129,27 @@ export const Footer = () => {
                   International
                 </span>
                 <div className="flex flex-wrap gap-x-3 gap-y-1">
-                  <Link to="/en/incoming" className="text-sm text-primary-foreground/70 hover:text-gold transition-colors">🇬🇧 EN</Link>
-                  <Link to="/es/incoming" className="text-sm text-primary-foreground/70 hover:text-gold transition-colors">🇪🇸 ES</Link>
-                  <Link to="/it/incoming" className="text-sm text-primary-foreground/70 hover:text-gold transition-colors">🇮🇹 IT</Link>
-                  <Link to="/de/incoming" className="text-sm text-primary-foreground/70 hover:text-gold transition-colors">🇩🇪 DE</Link>
+                  {[
+                    { code: "en", flag: "🇬🇧", label: "EN" },
+                    { code: "es", flag: "🇪🇸", label: "ES" },
+                    { code: "it", flag: "🇮🇹", label: "IT" },
+                    { code: "de", flag: "🇩🇪", label: "DE" },
+                    { code: "ja", flag: "🇯🇵", label: "JA" },
+                    { code: "ko", flag: "🇰🇷", label: "KO" },
+                    { code: "zh", flag: "🇨🇳", label: "ZH" },
+                    { code: "ar", flag: "🇸🇦", label: "AR" },
+                    { code: "he", flag: "🇮🇱", label: "HE" },
+                  ].map((l) => (
+                    <Link
+                      key={l.code}
+                      to={`/${l.code}/incoming`}
+                      className="text-sm text-primary-foreground/70 hover:text-gold transition-colors"
+                    >
+                      <span aria-hidden="true">{l.flag}</span> {l.label}
+                    </Link>
+                  ))}
                 </div>
+
               </li>
             </ul>
           </div>
