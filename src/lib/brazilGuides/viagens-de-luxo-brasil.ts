@@ -158,7 +158,7 @@ export const viagensDeLuxoBrasilGuide: BrazilGuideLocalized = {
         },
         {
           title: "Viajantes internacionais de incoming",
-          text: "Atendemos em português, espanhol, inglês, italiano e alemão, com transfers privativos, guias bilíngues e toda a malha aérea doméstica — incluindo táxi-aéreo e jato particular — resolvida antes da chegada ao Brasil.",
+          text: "Atendemos em português, inglês, espanhol, italiano, alemão, japonês, coreano, chinês, árabe e hebraico, com transfers privativos, guias bilíngues e toda a malha aérea doméstica — incluindo táxi-aéreo e jato particular — resolvida antes da chegada ao Brasil.",
         },
       ],
     },

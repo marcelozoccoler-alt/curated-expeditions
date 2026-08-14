@@ -131,7 +131,7 @@ const faqs = [
   },
   {
     q: "Vocês atendem apenas brasileiros?",
-    a: "Não. Pelo braço Incoming, recebemos viajantes estrangeiros no Brasil em inglês, espanhol, italiano e alemão — especialmente para Amazônia, Pantanal, Chapadas, Nordeste e roteiros culturais.",
+    a: "Não. Pelo braço Incoming, recebemos viajantes estrangeiros no Brasil em português, inglês, espanhol, italiano, alemão, japonês, coreano, chinês, árabe e hebraico — especialmente para Amazônia, Pantanal, Chapadas, Nordeste e roteiros culturais.",
   },
   {
     q: "Como começa um roteiro Create Travel?",

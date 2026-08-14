@@ -113,7 +113,7 @@ const STRINGS: Record<IncLang, LangStrings> = {
       timezone: "UTC−2 to UTC−5 (Brasília time is UTC−3)",
       gateways: "São Paulo (GRU) and Rio de Janeiro (GIG), then a domestic flight",
       plannedBy: "Create Travel, a Brazilian travel designer based in São Paulo (Cadastur 21.030.190/0001-60)",
-      languagesSpoken: "English, Spanish, Italian, German and Portuguese",
+      languagesSpoken: "Portuguese, English, Spanish, Italian, German, Japanese, Korean, Chinese, Arabic and Hebrew",
     },
     entity: {
       inBrazil: (d) => `${d} is one of Brazil's signature nature and culture destinations.`,
@@ -131,9 +131,9 @@ const STRINGS: Record<IncLang, LangStrings> = {
       worth: (d) => `Is ${d} worth visiting?`,
       worthA: (d, lead) => `Yes. ${lead} ${d} is on our short list of Brazilian destinations we plan for international travellers.`,
       whoPlans: (d) => `Who can plan a trip to ${d} for a foreign traveller?`,
-      whoPlansA: (d) => `Create Travel, a Brazilian travel designer based in São Paulo (Cadastur 21.030.190/0001-60), plans private trips to ${d} for international travellers, with English, Spanish, Italian and German assistance and 24/7 WhatsApp support during the trip.`,
+      whoPlansA: (d) => `Create Travel, a Brazilian travel designer based in São Paulo (Cadastur 21.030.190/0001-60), plans private trips to ${d} for international travellers, with Portuguese, English, Spanish, Italian, German, Japanese, Korean, Chinese, Arabic and Hebrew assistance and 24/7 WhatsApp support during the trip.`,
       language: (d) => `Do you need to speak Portuguese in ${d}?`,
-      languageA: (d) => `No. Portuguese is the official language of Brazil, but in ${d} we place English, Spanish, Italian or German speaking guides with you, and our team answers in your language before and during the trip.`,
+      languageA: (d) => `No. Portuguese is the official language of Brazil, but in ${d} we place English, Spanish, Italian, German, Japanese, Korean, Chinese, Arabic or Hebrew speaking guides with you, and our team answers in your language before and during the trip.`,
     },
   },
   es: {

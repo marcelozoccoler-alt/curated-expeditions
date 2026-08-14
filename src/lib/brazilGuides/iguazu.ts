@@ -117,7 +117,7 @@ export const iguazuGuide: BrazilGuideLocalized = {
         },
         {
           title: "Viajantes estrangeiros de incoming",
-          text: "Atendemos em português, inglês, espanhol, italiano e alemão, com toda a documentação de travessia de fronteira organizada previamente e guias bilíngues nos dois lados.",
+          text: "Atendemos em português, inglês, espanhol, italiano, alemão, japonês, coreano, chinês, árabe e hebraico, com toda a documentação de travessia de fronteira organizada previamente e guias bilíngues nos dois lados.",
         },
         {
           title: "Para quem talvez não funcione",
@@ -315,7 +315,7 @@ export const iguazuGuide: BrazilGuideLocalized = {
         },
         {
           title: "International incoming travelers",
-          text: "We serve guests in Portuguese, English, Spanish, Italian and German, with all border-crossing documentation organized in advance and bilingual guides on both sides.",
+          text: "We serve guests in Portuguese, English, Spanish, Italian, German, Japanese, Korean, Chinese, Arabic and Hebrew, with all border-crossing documentation organized in advance and bilingual guides on both sides.",
         },
         {
           title: "Who it might not work for",
