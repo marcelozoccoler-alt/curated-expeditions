@@ -207,7 +207,7 @@ const PerguntasFrequentes = () => {
               medida, com sede em São Paulo e Cadastur 21.030.190/0001-60.
               Desenha roteiros privativos, viagens em grupo com coordenador
               brasileiro, circuitos com guia local no destino, cruzeiros
-              fluviais e receptivo Brasil em onze idiomas. Abaixo, as respostas
+              fluviais e receptivo Brasil em dez idiomas. Abaixo, as respostas
               diretas às perguntas mais feitas por quem está planejando uma
               viagem — sobre processo, prazos, formatos de grupo e melhor época
               por destino.

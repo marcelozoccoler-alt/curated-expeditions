@@ -42,7 +42,7 @@ const Index = () => {
   return (
     <div className="min-h-screen">
       <SEO
-        title="Create Travel — Roteiros Sob Medida e Grupos Exclusivos"
+        title="Create Travel — Roteiros Sob Medida e Grupos"
         description="Agência boutique brasileira (Cadastur): roteiros 100% autorais para África, Ásia, Europa e Brasil, grupos 2026/2027 com guia e suporte 24/7. Fale com um travel designer."
         canonicalPath="/"
         keywords="agência de viagens personalizada, roteiro sob medida, viagem sob medida, grupo com guia brasileiro, agência boutique São Paulo, travel designer, curadoria de viagens"
@@ -78,7 +78,7 @@ const Index = () => {
           >
             <div className="gold-line mx-auto mb-8" />
             <h1 className="heading-hero text-white mb-6">
-              Agência de Viagens Personalizadas e Grupos Exclusivos
+              Agência de Viagens Personalizadas e Grupos
             </h1>
             <p className="text-xl md:text-2xl text-white/90 mb-4 max-w-2xl mx-auto font-light">
               Roteiros sob medida com curadoria autoral. Experiências autênticas, exclusivas e com propósito — para quem busca profundidade.
@@ -447,7 +447,7 @@ const Index = () => {
                 to: "/brasil",
                 icon: Gem,
                 title: "Brasil para o Mundo",
-                desc: "Atendimento em 5 idiomas para viajantes que chegam curiosos e saem transformados.",
+                desc: "Atendimento em 10 idiomas — português, inglês, espanhol, italiano, alemão, japonês, coreano, chinês, árabe e hebraico — para viajantes que chegam curiosos e saem transformados.",
               },
             ].map((s) => {
               const Icon = s.icon;
