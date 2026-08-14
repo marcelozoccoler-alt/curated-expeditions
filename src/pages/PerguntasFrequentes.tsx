@@ -4,6 +4,12 @@ import { Footer } from "@/components/Footer";
 import { SEO } from "@/components/SEO";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
 import { WhatsAppButton } from "@/components/WhatsAppButton";
+import {
+  faqContinentTopics,
+  faqTagTopics,
+  faqTopicPath,
+  PRE_CONTATO,
+} from "@/lib/faqHub";
 
 interface QA {
   q: string;
