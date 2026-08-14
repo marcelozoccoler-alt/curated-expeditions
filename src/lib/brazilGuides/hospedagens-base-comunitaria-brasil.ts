@@ -151,7 +151,7 @@ export const hospedagensBaseComunitariaBrasilGuide: BrazilGuideLocalized = {
         },
         {
           title: "Viajantes internacionais de incoming",
-          text: "Atendemos em português, inglês, espanhol, italiano e alemão, com guias e intérpretes bilíngues nas comunidades que já recebem público estrangeiro regularmente.",
+          text: "Atendemos em português, inglês, espanhol, italiano, alemão, japonês, coreano, chinês, árabe e hebraico, com guias e intérpretes bilíngues nas comunidades que já recebem público estrangeiro regularmente.",
         },
         {
           title: "Para quem talvez não funcione",
@@ -382,7 +382,7 @@ export const hospedagensBaseComunitariaBrasilGuide: BrazilGuideLocalized = {
         },
         {
           title: "International incoming travelers",
-          text: "We serve you in Portuguese, English, Spanish, Italian and German, with bilingual guides and interpreters in communities that already regularly host foreign visitors.",
+          text: "We serve you in Portuguese, English, Spanish, Italian, German, Japanese, Korean, Chinese, Arabic and Hebrew, with bilingual guides and interpreters in communities that already regularly host foreign visitors.",
         },
         {
           title: "For whom it might not work",

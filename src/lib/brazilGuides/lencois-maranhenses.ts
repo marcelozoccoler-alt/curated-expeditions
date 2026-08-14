@@ -117,7 +117,7 @@ export const lencoisMaranhensesGuide: BrazilGuideLocalized = {
         },
         {
           title: "Viajantes estrangeiros de incoming",
-          text: "Atendemos em português, espanhol, inglês, italiano e alemão, com guias bilíngues, veículos 4x4 adequados e toda a logística aérea doméstica resolvida via São Luís.",
+          text: "Atendemos em português, inglês, espanhol, italiano, alemão, japonês, coreano, chinês, árabe e hebraico, com guias bilíngues, veículos 4x4 adequados e toda a logística aérea doméstica resolvida via São Luís.",
         },
         {
           title: "Para quem talvez não funcione",

@@ -122,7 +122,7 @@ export const pantanalGuide: BrazilGuideLocalized = {
         },
         {
           title: "Viajantes estrangeiros de incoming",
-          text: "Atendemos em português, espanhol, inglês, italiano e alemão, com guias bilíngues especializados, transferes privativos entre Cuiabá ou Campo Grande e os lodges.",
+          text: "Atendemos em português, inglês, espanhol, italiano, alemão, japonês, coreano, chinês, árabe e hebraico, com guias bilíngues especializados, transferes privativos entre Cuiabá ou Campo Grande e os lodges.",
         },
         {
           title: "Para quem talvez não funcione",

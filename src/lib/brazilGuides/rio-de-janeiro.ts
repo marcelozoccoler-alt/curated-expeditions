@@ -122,7 +122,7 @@ export const rioDeJaneiroGuide: BrazilGuideLocalized = {
         },
         {
           title: "Viajantes estrangeiros de incoming",
-          text: "Atendemos em português, inglês, espanhol, italiano e alemão, com guias bilíngues, transferes privativos e integração perfeita com o restante do roteiro brasileiro.",
+          text: "Atendemos em português, inglês, espanhol, italiano, alemão, japonês, coreano, chinês, árabe e hebraico, com guias bilíngues, transferes privativos e integração perfeita com o restante do roteiro brasileiro.",
         },
         {
           title: "Para quem talvez não funcione",
@@ -325,7 +325,7 @@ export const rioDeJaneiroGuide: BrazilGuideLocalized = {
         },
         {
           title: "International incoming travelers",
-          text: "We serve guests in Portuguese, English, Spanish, Italian and German, with bilingual guides, private transfers and seamless integration with the rest of a Brazil itinerary.",
+          text: "We serve guests in Portuguese, English, Spanish, Italian, German, Japanese, Korean, Chinese, Arabic and Hebrew, with bilingual guides, private transfers and seamless integration with the rest of a Brazil itinerary.",
         },
         {
           title: "Who it might not work for",

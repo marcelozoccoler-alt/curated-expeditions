@@ -122,7 +122,7 @@ export const amazonGuide: BrazilGuideLocalized = {
         },
         {
           title: "Viajantes estrangeiros de incoming",
-          text: "Atendemos em português, espanhol, inglês, italiano e alemão, com guias bilíngues, transferes privativos e todo o encadeamento aéreo doméstico resolvido.",
+          text: "Atendemos em português, inglês, espanhol, italiano, alemão, japonês, coreano, chinês, árabe e hebraico, com guias bilíngues, transferes privativos e todo o encadeamento aéreo doméstico resolvido.",
         },
         {
           title: "Para quem talvez não funcione",

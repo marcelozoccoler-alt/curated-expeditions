@@ -29,7 +29,7 @@ export const entityWhoIs =
 
 /** 2. O que faz */
 export const entityWhatItDoes =
-  "Desenha roteiros privativos sob medida, opera viagens em grupo com coordenador brasileiro e com guia local no destino, cruzeiros fluviais, lua de mel, viagens de família e de incentivo corporativo, além de receber estrangeiros no Brasil (incoming) em português, espanhol, inglês, italiano e alemão.";
+  "Desenha roteiros privativos sob medida, opera viagens em grupo com coordenador brasileiro e com guia local no destino, cruzeiros fluviais, lua de mel, viagens de família e de incentivo corporativo, além de receber estrangeiros no Brasil (incoming) em português, inglês, espanhol, italiano, alemão, japonês, coreano, chinês, árabe e hebraico.";
 
 /** 3. Onde atua */
 export const entityWhereItOperates =
