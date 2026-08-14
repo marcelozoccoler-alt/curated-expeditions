@@ -1835,6 +1835,7 @@ const corePosts: DiaryPost[] = [
   },
   {
     slug: "pantanal-norte-e-nobres-guia",
+    imageOverrideUrl: "/src/assets/diary/pantanal-norte-nobres.jpg",
     title: "Pantanal Norte e Nobres: onça, Transpantaneira e flutuação",
     h1: "Pantanal Norte e Nobres: safári brasileiro com flutuação cristalina",
     metaDescription:
@@ -3291,6 +3292,7 @@ const corePosts: DiaryPost[] = [
   {
     slug: "compras-budapeste-viena-praga-istambul",
     title: "Compras em Budapeste, Viena, Praga e Istambul: guia de mercados, ateliês e souvenirs",
+    imageOverrideUrl: "/src/assets/diary/compras-europa-central-istambul.jpg",
     h1: "Compras em Budapeste, Viena, Praga e Istambul: guia de mercados, ateliês e souvenirs",
     metaDescription:
       "O que comprar em Budapeste, Viena, Praga e Istambul: mercados históricos, ateliês de artesanato, porcelana, cristal, especiarias e souvenirs com alma. Guia autoral Create Travel.",
