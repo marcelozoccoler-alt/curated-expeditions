@@ -70,7 +70,7 @@ const whatWeDo = [
   {
     icon: Globe2,
     title: "Incoming — Brasil para o mundo",
-    text: "Recebemos viajantes estrangeiros no Brasil com atendimento em inglês, espanhol, italiano e alemão. Amazônia, Pantanal, Nordeste, Chapadas e mais.",
+    text: "Recebemos viajantes estrangeiros no Brasil com atendimento em dez idiomas: inglês, espanhol, italiano, alemão, japonês, coreano, chinês, árabe, hebraico e português. Amazônia, Pantanal, Nordeste, Chapadas e mais.",
     href: "/en/incoming",
     cta: "Brazil incoming",
   },
