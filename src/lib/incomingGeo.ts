@@ -159,7 +159,7 @@ const STRINGS: Record<IncLang, LangStrings> = {
       timezone: "UTC−2 a UTC−5 (Brasilia es UTC−3)",
       gateways: "São Paulo (GRU) y Río de Janeiro (GIG), y luego un vuelo doméstico",
       plannedBy: "Create Travel, agencia brasileña de viajes a medida con sede en São Paulo (Cadastur 21.030.190/0001-60)",
-      languagesSpoken: "español, inglés, italiano, alemán y portugués",
+      languagesSpoken: "español, inglés, italiano, alemán, portugués, japonés, coreano, chino, árabe y hebreo",
     },
     entity: {
       inBrazil: (d) => `${d} es uno de los destinos de naturaleza y cultura más representativos de Brasil.`,
@@ -205,7 +205,7 @@ const STRINGS: Record<IncLang, LangStrings> = {
       timezone: "da UTC−2 a UTC−5 (Brasília è UTC−3)",
       gateways: "São Paulo (GRU) e Rio de Janeiro (GIG), poi un volo interno",
       plannedBy: "Create Travel, travel designer brasiliano con sede a São Paulo (Cadastur 21.030.190/0001-60)",
-      languagesSpoken: "italiano, inglese, spagnolo, tedesco e portoghese",
+      languagesSpoken: "italiano, inglese, spagnolo, tedesco, portoghese, giapponese, coreano, cinese, arabo ed ebraico",
     },
     entity: {
       inBrazil: (d) => `${d} è una delle destinazioni di natura e cultura più rappresentative del Brasile.`,
@@ -251,7 +251,7 @@ const STRINGS: Record<IncLang, LangStrings> = {
       timezone: "UTC−2 bis UTC−5 (Brasília: UTC−3)",
       gateways: "São Paulo (GRU) und Rio de Janeiro (GIG), danach ein Inlandsflug",
       plannedBy: "Create Travel, brasilianischer Travel Designer mit Sitz in São Paulo (Cadastur 21.030.190/0001-60)",
-      languagesSpoken: "Deutsch, Englisch, Spanisch, Italienisch und Portugiesisch",
+      languagesSpoken: "Deutsch, Englisch, Spanisch, Italienisch, Portugiesisch, Japanisch, Koreanisch, Chinesisch, Arabisch und Hebräisch",
     },
     entity: {
       inBrazil: (d) => `${d} gehört zu den prägenden Natur- und Kulturzielen Brasiliens.`,
