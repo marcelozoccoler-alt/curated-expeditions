@@ -4,6 +4,12 @@ import { Footer } from "@/components/Footer";
 import { SEO } from "@/components/SEO";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
 import { WhatsAppButton } from "@/components/WhatsAppButton";
+import {
+  faqContinentTopics,
+  faqTagTopics,
+  faqTopicPath,
+  PRE_CONTATO,
+} from "@/lib/faqHub";
 
 interface QA {
   q: string;
@@ -249,6 +255,76 @@ const PerguntasFrequentes = () => {
             </section>
           ))}
         </div>
+
+        <section id="por-continente" className="mt-20 scroll-mt-24 space-y-6">
+          <h2 className="heading-section text-foreground">
+            Perguntas por continente e região
+          </h2>
+          <p className="max-w-3xl text-muted-foreground">
+            Cada página reúne as respostas dos destinos que a Create Travel
+            opera no continente, organizadas por região: melhor época, quantos
+            dias reservar, logística interna e o que esperar de cada roteiro.
+          </p>
+          <ul className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+            {faqContinentTopics.map((t) => (
+              <li key={t.slug}>
+                <Link
+                  to={faqTopicPath(t)}
+                  className="block h-full rounded-lg border border-border p-5 transition-colors hover:border-primary"
+                >
+                  <h3 className="text-lg font-medium text-foreground">{t.label}</h3>
+                  <p className="mt-1 text-sm text-muted-foreground">
+                    {t.count} respostas · {t.subgroups.length}{" "}
+                    {t.subgroups.length === 1 ? "região" : "regiões"}
+                  </p>
+                </Link>
+              </li>
+            ))}
+          </ul>
+        </section>
+
+        <section id="por-experiencia" className="mt-16 scroll-mt-24 space-y-6">
+          <h2 className="heading-section text-foreground">
+            Perguntas por tipo de experiência
+          </h2>
+          <p className="max-w-3xl text-muted-foreground">
+            Safári, trekking, mergulho, gastronomia, aurora boreal, expedições
+            remotas: as dúvidas mudam conforme o tipo de viagem. Escolha a
+            experiência e veja as respostas específicas dela.
+          </p>
+          <ul className="flex flex-wrap gap-3">
+            {faqTagTopics.map((t) => (
+              <li key={t.slug}>
+                <Link
+                  to={faqTopicPath(t)}
+                  className="inline-block rounded-full border border-border px-4 py-2 text-sm text-muted-foreground transition-colors hover:border-primary hover:text-primary"
+                >
+                  {t.label}{" "}
+                  <span className="text-xs text-muted-foreground/70">({t.count})</span>
+                </Link>
+              </li>
+            ))}
+          </ul>
+        </section>
+
+        <section className="mt-16 space-y-6">
+          <h2 className="heading-section text-foreground">Antes de falar com a Create</h2>
+          <p className="max-w-3xl text-muted-foreground">
+            Quatro definições simples aceleram muito a primeira proposta.
+          </p>
+          <ol className="grid gap-4 sm:grid-cols-2">
+            {PRE_CONTATO.map((step, i) => (
+              <li key={step.title} className="rounded-lg border border-border p-6">
+                <p className="text-sm text-gold">{String(i + 1).padStart(2, "0")}</p>
+                <h3 className="mt-2 text-lg font-medium text-foreground">{step.title}</h3>
+                <p className="mt-2 text-sm leading-relaxed text-muted-foreground">
+                  {step.body}
+                </p>
+              </li>
+            ))}
+          </ol>
+        </section>
+
 
         <section className="mt-16 rounded-lg border border-border p-8 text-center">
           <h2 className="heading-section text-foreground">

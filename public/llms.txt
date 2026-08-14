@@ -30,6 +30,8 @@ A Create Travel desenha viagens personalizadas para viajantes exigentes — fam�
 - [Sobre](/sobre): metodologia, valores e equipe.
 - [Depoimentos e histórias de viagem](/depoimentos): relatos de viajantes sobre roteiros sob medida, com bastidores do atendimento assinados por Marcelo Zoccoler.
 - [Perguntas frequentes](/perguntas-frequentes): respostas diretas sobre processo de roteiro sob medida, prazos de planejamento, diferença entre grupo com guia brasileiro e guia local, hotéis, pagamento e melhor época por destino.
+- [FAQ por continente](/perguntas-frequentes/continente/africa): hubs de perguntas frequentes por continente e região — também /continente/brasil, /america-do-sul, /america-do-norte, /europa, /asia, /oriente-medio, /oceania. Melhor época, duração ideal e logística por região.
+- [FAQ por experiência](/perguntas-frequentes/experiencia/safari): hubs de perguntas por tipo de viagem — safari, trekking, mergulho, gastronomia, aurora, expedicao, cultura, bem-estar, familia, remoto, entre outros.
 - [Contato](/contato): formulário e WhatsApp.
 
 ## Conteúdo completo para IAs

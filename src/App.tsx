@@ -13,6 +13,7 @@ import ExperienciaTag from "./pages/ExperienciaTag";
 import Sobre from "./pages/Sobre";
 import Contato from "./pages/Contato";
 import PerguntasFrequentes from "./pages/PerguntasFrequentes";
+import FaqTema from "./pages/FaqTema";
 import Depoimentos from "./pages/Depoimentos";
 import Regiao from "./pages/Regiao";
 import GrupoMarrocos2026 from "./pages/GrupoMarrocos2026";
@@ -111,6 +112,7 @@ const App = () => (
         <Route path="/sobre" element={<Sobre />} />
         <Route path="/contato" element={<Contato />} />
         <Route path="/perguntas-frequentes" element={<PerguntasFrequentes />} />
+        <Route path="/perguntas-frequentes/:kind/:slug" element={<FaqTema />} />
         <Route path="/depoimentos" element={<Depoimentos />} />
         <Route path="/grupos/marrocos-2026" element={<GrupoMarrocos2026 />} />
         <Route path="/grupos/grecia-2026" element={<GrupoGrecia2026 />} />

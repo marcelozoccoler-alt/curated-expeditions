@@ -24,6 +24,7 @@ import { pacotes } from "../src/lib/comercialPacotes";
 import { riverCruises } from "../src/lib/riverCruises";
 import { localGuideGroups } from "../src/lib/localGuideGroups";
 import { BRAZIL_GUIDE_SLUGS } from "../src/lib/brazilGuides";
+import { faqTopics } from "../src/lib/faqHub";
 
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
@@ -151,6 +152,8 @@ push("/embarque-com-a-create", 0.9, "weekly");
 // High-intent commercial landing pages
 push("/roteiro-sob-medida", 0.95, "weekly");
 push("/perguntas-frequentes", 0.9, "weekly");
+// FAQ dinâmico por continente/região e por experiência
+for (const t of faqTopics) push(`/perguntas-frequentes/${t.kind}/${t.slug}`, 0.7, "weekly");
 push("/depoimentos", 0.8, "monthly");
 push("/grupos-guia-brasileiro", 0.95, "weekly");
 push("/lua-de-mel-personalizada", 0.9, "weekly");
