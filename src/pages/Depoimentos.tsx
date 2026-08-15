@@ -40,6 +40,9 @@ const Depoimentos = () => {
   );
 
 
+  // Apenas depoimentos reais e autorizados entram nos dados estruturados.
+  const verified = useMemo(() => testimonials.filter((t) => t.verified), []);
+
   const jsonLd = [
     {
       "@context": "https://schema.org",
@@ -52,6 +55,29 @@ const Depoimentos = () => {
         item: `${DOMAIN}/depoimentos#${t.slug}`,
       })),
     },
+    // Review reais, sem nota inventada: só texto, autor e o que foi viajado.
+    ...verified.map((t) => ({
+      "@context": "https://schema.org",
+      "@type": "Review",
+      "@id": `${DOMAIN}/depoimentos#review-${t.slug}`,
+      url: `${DOMAIN}/depoimentos#${t.slug}`,
+      name: t.title,
+      reviewBody: t.quote,
+      datePublished: "2026-08-15",
+      inLanguage: "pt-BR",
+      author: { "@type": "Person", name: t.author, address: t.city },
+      about: {
+        "@type": "TravelAgency",
+        "@id": `${DOMAIN}/#organization`,
+        name: "Create Travel",
+      },
+      itemReviewed: {
+        "@type": "TravelAgency",
+        "@id": `${DOMAIN}/#organization`,
+        name: "Create Travel",
+      },
+      mentions: (t.countries ?? []).map((c) => ({ "@type": "Place", name: c })),
+    })),
     {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
@@ -61,6 +87,7 @@ const Depoimentos = () => {
       ],
     },
   ];
+
 
   return (
     <div className="min-h-screen bg-background">
