@@ -74,6 +74,7 @@ import AdminPrecos from "./pages/AdminPrecos";
 
 import AdminWhatsApp from "./pages/AdminWhatsApp";
 import AdminLeads from "./pages/AdminLeads";
+import { WhatsAppLeadGate } from "./components/WhatsAppLeadGate";
 import Guia, { GuiasIndex } from "./pages/Guia";
 import RoteiroSobMedida from "./pages/RoteiroSobMedida";
 import GruposGuiaBrasileiro from "./pages/GruposGuiaBrasileiro";
@@ -97,6 +98,7 @@ const App = () => (
     <TooltipProvider>
       <Toaster />
       <Sonner />
+      <WhatsAppLeadGate />
       <BrowserRouter>
         <ScrollToTop />
         <ShareTripFloating />
