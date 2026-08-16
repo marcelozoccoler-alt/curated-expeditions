@@ -1,5 +1,6 @@
 import { MessageCircle } from "lucide-react";
 import { generateWhatsAppLink, WhatsAppParams } from "@/lib/types";
+import { openWhatsAppUrl } from "@/components/WhatsAppLeadGate";
 
 interface WhatsAppButtonProps {
   params?: WhatsAppParams;
@@ -16,18 +17,11 @@ export const WhatsAppButton = ({
 }: WhatsAppButtonProps) => {
   const link = generateWhatsAppLink(params);
 
-  // Alguns ambientes (preview em iframe, in-app browsers do Instagram/Facebook)
-  // bloqueiam target="_blank". Aqui garantimos a abertura da conversa em qualquer caso.
-  const handleClick = (e: React.MouseEvent<HTMLAnchorElement>) => {
+  // O botão flutuante abre direto; os demais passam pelo pré-briefing
+  // interceptado globalmente pelo WhatsAppLeadGate.
+  const handleFloatClick = (e: React.MouseEvent<HTMLAnchorElement>) => {
     e.preventDefault();
-    const opened = window.open(link, "_blank", "noopener,noreferrer");
-    if (!opened) {
-      try {
-        window.top!.location.href = link;
-      } catch {
-        window.location.href = link;
-      }
-    }
+    openWhatsAppUrl(link);
   };
 
   if (variant === "float") {
@@ -36,7 +30,8 @@ export const WhatsAppButton = ({
         href={link}
         target="_blank"
         rel="noopener noreferrer"
-        onClick={handleClick}
+        data-no-gate
+        onClick={handleFloatClick}
         className="whatsapp-float"
         aria-label="Fale conosco pelo WhatsApp"
       >
@@ -51,7 +46,6 @@ export const WhatsAppButton = ({
         href={link}
         target="_blank"
         rel="noopener noreferrer"
-        onClick={handleClick}
         className={`btn-whatsapp ${className}`}
       >
         <MessageCircle size={20} />
@@ -65,7 +59,6 @@ export const WhatsAppButton = ({
       href={link}
       target="_blank"
       rel="noopener noreferrer"
-      onClick={handleClick}
       className={`btn-accent ${className}`}
     >
       <MessageCircle size={18} />
