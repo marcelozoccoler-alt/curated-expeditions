@@ -326,6 +326,16 @@ export const testimonials: Testimonial[] = [
         caption: "Descer numa cidade subterrânea da Capadócia",
         alt: "Tânia Abreu de vestido vermelho dentro de câmara escavada de cidade subterrânea da Capadócia, iluminada em laranja",
       },
+      {
+        src: taniaMesquitaAzulGrupo.url,
+        caption: "Mesquita Azul: o grupo reunido embaixo dos lustres",
+        alt: "Grupo de viajantes da Create Travel com véus, sorrindo dentro da Mesquita Azul de Istambul, com azulejos e lustres ao fundo",
+      },
+      {
+        src: taniaMosaicoBizantino.url,
+        caption: "O mosaico bizantino de fundo dourado em Santa Sofia",
+        alt: "Mosaico bizantino de Santa Sofia com a Virgem entronizada entre dois imperadores em fundo de tesselas douradas, Istambul",
+      },
     ],
     suggestedCaptions: [],
     photoDirection: "",
