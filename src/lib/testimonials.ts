@@ -274,9 +274,9 @@ export const testimonials: Testimonial[] = [
     photoDirection: "",
   },
   {
-    slug: "tania-labib-turquia-novembro-2025",
+    slug: "tania-abreu-turquia-novembro-2025",
     title: "A Turquia que eu ouvia da minha mãe — até virar a minha",
-    author: "Tânia Labib",
+    author: "Tânia Abreu",
     city: "São Paulo, SP",
     tripType: "Grupo exclusivo Create Travel — Turquia, novembro de 2025",
     destination: "Istambul e Capadócia, Turquia",
@@ -294,7 +294,7 @@ export const testimonials: Testimonial[] = [
       {
         src: taniaCapadociaValeVermelho.url,
         caption: "Capadócia: vestido vermelho diante das chaminés de fada",
-        alt: "Tânia Labib de vestido vermelho sentada em rocha clara com as chaminés de fada e o platô vulcânico da Capadócia ao fundo, Turquia",
+        alt: "Tânia Abreu de vestido vermelho sentada em rocha clara com as chaminés de fada e o platô vulcânico da Capadócia ao fundo, Turquia",
       },
       {
         src: taniaSantaSofia.url,
@@ -304,7 +304,7 @@ export const testimonials: Testimonial[] = [
       {
         src: taniaBalat.url,
         caption: "Balat: as fachadas coloridas de um bairro autêntico",
-        alt: "Tânia Labib em rua de paralelepípedo do bairro de Balat, diante de casarões lilás, laranja e azul, Istambul",
+        alt: "Tânia Abreu em rua de paralelepípedo do bairro de Balat, diante de casarões lilás, laranja e azul, Istambul",
       },
       {
         src: taniaBosforoNoite.url,
@@ -314,17 +314,17 @@ export const testimonials: Testimonial[] = [
       {
         src: taniaCapadociaQuadriciclo.url,
         caption: "Quadriciclo entre os vales: aventura na terra",
-        alt: "Tânia Labib de capacete azul sobre quadriciclo vermelho em vale de rochas claras na Capadócia, Turquia",
+        alt: "Tânia Abreu de capacete azul sobre quadriciclo vermelho em vale de rochas claras na Capadócia, Turquia",
       },
       {
         src: taniaDolmabahce.url,
         caption: "O portão do palácio aberto para o Bósforo",
-        alt: "Tânia Labib diante do portão de mármore esculpido do Palácio de Dolmabahçe com o Bósforo ao fundo, Istambul",
+        alt: "Tânia Abreu diante do portão de mármore esculpido do Palácio de Dolmabahçe com o Bósforo ao fundo, Istambul",
       },
       {
         src: taniaCidadeSubterranea.url,
         caption: "Descer numa cidade subterrânea da Capadócia",
-        alt: "Tânia Labib de vestido vermelho dentro de câmara escavada de cidade subterrânea da Capadócia, iluminada em laranja",
+        alt: "Tânia Abreu de vestido vermelho dentro de câmara escavada de cidade subterrânea da Capadócia, iluminada em laranja",
       },
     ],
     suggestedCaptions: [],
