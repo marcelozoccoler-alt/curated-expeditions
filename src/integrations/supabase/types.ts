@@ -14,6 +14,54 @@ export type Database = {
   }
   public: {
     Tables: {
+      travel_leads: {
+        Row: {
+          budget: string | null
+          context_type: string | null
+          created_at: string
+          email: string
+          id: string
+          interest: string | null
+          name: string
+          notes: string | null
+          phone: string
+          source_page: string | null
+          status: string
+          travel_when: string | null
+          travelers: string | null
+        }
+        Insert: {
+          budget?: string | null
+          context_type?: string | null
+          created_at?: string
+          email: string
+          id?: string
+          interest?: string | null
+          name: string
+          notes?: string | null
+          phone: string
+          source_page?: string | null
+          status?: string
+          travel_when?: string | null
+          travelers?: string | null
+        }
+        Update: {
+          budget?: string | null
+          context_type?: string | null
+          created_at?: string
+          email?: string
+          id?: string
+          interest?: string | null
+          name?: string
+          notes?: string | null
+          phone?: string
+          source_page?: string | null
+          status?: string
+          travel_when?: string | null
+          travelers?: string | null
+        }
+        Relationships: []
+      }
       user_roles: {
         Row: {
           created_at: string
