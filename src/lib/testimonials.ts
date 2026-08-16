@@ -40,6 +40,13 @@ import maiteVienaCatedral from "@/assets/depoimentos/maite-viena-catedral-santo-
 import maiteEsquiPista from "@/assets/depoimentos/maite-esqui-casal-pista.jpeg.asset.json";
 import maiteEsquiSol from "@/assets/depoimentos/maite-esqui-sol.jpeg.asset.json";
 import maiteDanubioNeve from "@/assets/depoimentos/maite-danubio-neve-barco.jpeg.asset.json";
+import taniaCapadociaValeVermelho from "@/assets/depoimentos/tania-capadocia-vale-vestido-vermelho.jpg.asset.json";
+import taniaCapadociaQuadriciclo from "@/assets/depoimentos/tania-capadocia-quadriciclo.jpg.asset.json";
+import taniaCidadeSubterranea from "@/assets/depoimentos/tania-capadocia-cidade-subterranea.jpg.asset.json";
+import taniaDolmabahce from "@/assets/depoimentos/tania-istambul-dolmabahce-portao.jpg.asset.json";
+import taniaBalat from "@/assets/depoimentos/tania-istambul-balat-ruas-coloridas.jpg.asset.json";
+import taniaSantaSofia from "@/assets/depoimentos/tania-istambul-santa-sofia-interior.jpg.asset.json";
+import taniaBosforoNoite from "@/assets/depoimentos/tania-bosforo-noite-mesquita.jpg.asset.json";
 
 export const TESTIMONIALS_DRAFT = true;
 
