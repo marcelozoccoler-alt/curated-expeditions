@@ -40,6 +40,13 @@ import maiteVienaCatedral from "@/assets/depoimentos/maite-viena-catedral-santo-
 import maiteEsquiPista from "@/assets/depoimentos/maite-esqui-casal-pista.jpeg.asset.json";
 import maiteEsquiSol from "@/assets/depoimentos/maite-esqui-sol.jpeg.asset.json";
 import maiteDanubioNeve from "@/assets/depoimentos/maite-danubio-neve-barco.jpeg.asset.json";
+import taniaCapadociaValeVermelho from "@/assets/depoimentos/tania-capadocia-vale-vestido-vermelho.jpg.asset.json";
+import taniaCapadociaQuadriciclo from "@/assets/depoimentos/tania-capadocia-quadriciclo.jpg.asset.json";
+import taniaCidadeSubterranea from "@/assets/depoimentos/tania-capadocia-cidade-subterranea.jpg.asset.json";
+import taniaDolmabahce from "@/assets/depoimentos/tania-istambul-dolmabahce-portao.jpg.asset.json";
+import taniaBalat from "@/assets/depoimentos/tania-istambul-balat-ruas-coloridas.jpg.asset.json";
+import taniaSantaSofia from "@/assets/depoimentos/tania-istambul-santa-sofia-interior.jpg.asset.json";
+import taniaBosforoNoite from "@/assets/depoimentos/tania-bosforo-noite-mesquita.jpg.asset.json";
 
 export const TESTIMONIALS_DRAFT = true;
 
@@ -261,6 +268,63 @@ export const testimonials: Testimonial[] = [
         src: maiteEsquiPista.url,
         caption: "Fim de tarde na estação, esquis fincados na neve",
         alt: "Maite Leal e Murilo Lamano abraçados na base da estação de esqui no Leste Europeu, segurando esquis sobre a neve ao fim da tarde",
+      },
+    ],
+    suggestedCaptions: [],
+    photoDirection: "",
+  },
+  {
+    slug: "tania-labib-turquia-novembro-2025",
+    title: "A Turquia que eu ouvia da minha mãe — até virar a minha",
+    author: "Tânia Labib",
+    city: "São Paulo, SP",
+    tripType: "Grupo exclusivo Create Travel — Turquia, novembro de 2025",
+    destination: "Istambul e Capadócia, Turquia",
+    month: "Novembro de 2025",
+    verified: true,
+    since: "Viaja com a Create Travel desde 2025",
+    countries: ["Turquia"],
+    quote:
+      "Eu ouvi minha mãe falar da Turquia por anos. Ela voltou do grupo da Create Travel contando das ruas de Istambul, das mesquitas, dos palácios — e cada vez que ela contava, meu coração batia mais forte de vontade de viver aquilo. Em novembro de 2025 foi a minha vez, no grupo exclusivo da Create. Andei muito pelos caminhos da Turquia: bairros autênticos, ruas coloridas de Balat, o portão do palácio aberto para o Bósforo, o interior de Santa Sofia que faz a gente ficar em silêncio. Sobrevoar a Capadócia no balão foi algo inexplicável — não existe palavra, existe a sensação. Depois a aventura na terra, no quadriciclo entre os vales, descer numa cidade subterrânea, navegar de noite pelo Bósforo com a cidade toda dourada na água. Vivi tanta coisa e sou grata à Create Travel por cada detalhe. Agora estou com grandes expectativas para o próximo grupo, o Leste Europeu 2026. E lá vamos nós!",
+    note:
+      "A Tânia chegou até nós pelo caminho mais bonito que existe numa agência: a mãe dela viajou primeiro, voltou contando, e a filha decidiu que queria a mesma Turquia — só que do jeito dela. O grupo exclusivo de novembro de 2025 foi desenhado para isso: Istambul com tempo nos bairros que não estão no roteiro padrão (Balat, o Bósforo à noite, o Dolmabahçe visto da beira d'água) e a Capadócia em duas velocidades, o balão ao amanhecer e o quadriciclo no fim do dia. Novembro não é escolha aleatória: menos fila nas mesquitas, luz baixa e dourada nas fotos, e melhor janela de voo do balão do que no verão. Da nossa parte, o que se repete é o acompanhamento antes de cada experiência sensível — voo de balão confirmado com o operador local na véspera, horário de Santa Sofia ajustado ao calendário de orações. Em 2026 ela embarca com a gente no Leste Europeu. — Marcelo Zoccoler",
+    photoStory:
+      "As fotos da Tânia começam em Istambul e terminam no céu. O portão de mármore do Dolmabahçe emoldurando o Bósforo em manhã de céu leitoso; as fachadas lilás, laranja e azul de Balat, com o cardápio de giz na calçada; a nave de Santa Sofia vista de cima, os lustres dourados suspensos sobre o tapete verde. Depois a noite no Bósforo: minaretes iluminados e a cúpula azul refletidos na água escura, a cidade inteira em luz âmbar. E a Capadócia em dois climas — o vestido vermelho contra o cinza vulcânico das chaminés de fada do Vale dos Monges, e o mesmo vermelho na penumbra alaranjada de uma cidade subterrânea. Fecha com o capacete azul, os óculos escuros e o V de vitória sobre o quadriciclo, no meio do vale branco: a foto de quem entendeu que aventura e elegância cabem na mesma viagem.",
+    photos: [
+      {
+        src: taniaCapadociaValeVermelho.url,
+        caption: "Capadócia: vestido vermelho diante das chaminés de fada",
+        alt: "Tânia Labib de vestido vermelho sentada em rocha clara com as chaminés de fada e o platô vulcânico da Capadócia ao fundo, Turquia",
+      },
+      {
+        src: taniaSantaSofia.url,
+        caption: "Santa Sofia por dentro: o silêncio embaixo dos lustres",
+        alt: "Interior da mesquita de Santa Sofia visto da galeria superior, com lustres dourados, tapete verde e caligrafia otomana, Istambul",
+      },
+      {
+        src: taniaBalat.url,
+        caption: "Balat: as fachadas coloridas de um bairro autêntico",
+        alt: "Tânia Labib em rua de paralelepípedo do bairro de Balat, diante de casarões lilás, laranja e azul, Istambul",
+      },
+      {
+        src: taniaBosforoNoite.url,
+        caption: "Navegar de noite pelo Bósforo, a cidade dourada na água",
+        alt: "Mesquita com cúpula azul e minaretes iluminados às margens do Bósforo à noite, com reflexos dourados na água, Istambul",
+      },
+      {
+        src: taniaCapadociaQuadriciclo.url,
+        caption: "Quadriciclo entre os vales: aventura na terra",
+        alt: "Tânia Labib de capacete azul sobre quadriciclo vermelho em vale de rochas claras na Capadócia, Turquia",
+      },
+      {
+        src: taniaDolmabahce.url,
+        caption: "O portão do palácio aberto para o Bósforo",
+        alt: "Tânia Labib diante do portão de mármore esculpido do Palácio de Dolmabahçe com o Bósforo ao fundo, Istambul",
+      },
+      {
+        src: taniaCidadeSubterranea.url,
+        caption: "Descer numa cidade subterrânea da Capadócia",
+        alt: "Tânia Labib de vestido vermelho dentro de câmara escavada de cidade subterrânea da Capadócia, iluminada em laranja",
       },
     ],
     suggestedCaptions: [],
