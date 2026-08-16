@@ -7,6 +7,7 @@ import { WhatsAppButton } from "@/components/WhatsAppButton";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
 import { SEO } from "@/components/SEO";
 import { getRegionBySlug } from "@/lib/regions";
+import { getRegionHero } from "@/lib/regionImages";
 import { getDestinationBySlug } from "@/lib/destinations";
 import { getDestinationImage } from "@/lib/destinationImages";
 import { generateWhatsAppLink, CONTACT } from "@/lib/types";
@@ -20,6 +21,8 @@ const Regiao = () => {
   const region = regionSlug ? getRegionBySlug(regionSlug) : undefined;
 
   if (!region) return <NotFound />;
+
+  const heroImage = getRegionHero(region);
 
   const destinations = region.destinationSlugs
     .map((s) => getDestinationBySlug(s))
@@ -36,7 +39,7 @@ const Regiao = () => {
     "@type": "Place",
     name: region.label,
     description: region.metaDescription,
-    image: region.heroImageUrl,
+    image: heroImage,
   };
 
   const breadcrumbLd = {
@@ -80,7 +83,7 @@ const Regiao = () => {
         description={`Pacote de viagem para ${region.label} com curadoria Create Travel: o que fazer, melhor época, onde ficar e roteiros sob medida. ${region.metaDescription}`.slice(0, 300)}
         canonicalPath={`/${region.slug}`}
         keywords={buildPlaceKeywords(region.label, undefined, [`turismo ${region.label}`, `roteiro ${region.label}`, `pacote ${region.label}`])}
-        ogImage={region.heroImageUrl}
+        ogImage={heroImage}
         ogType="article"
         jsonLd={jsonLd}
       />
@@ -90,7 +93,7 @@ const Regiao = () => {
         {/* Hero */}
         <section className="relative h-[60vh] min-h-[480px] flex items-end overflow-hidden">
           <img
-            src={region.heroImageUrl}
+            src={heroImage}
             alt={region.label}
             className="absolute inset-0 w-full h-full object-cover"
             loading="eager"
@@ -193,7 +196,7 @@ const Regiao = () => {
                 const imageUrl =
                   d!.imageOverrideUrl ||
                   getDestinationImage(d!.id) ||
-                  region.heroImageUrl;
+                  heroImage;
                 return (
                   <Link
                     key={d!.id}
