@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useCallback, useEffect, useState } from "react";
 import { z } from "zod";
 import { MessageCircle, Loader2 } from "lucide-react";
 import {
@@ -20,7 +20,7 @@ import {
 } from "@/components/ui/select";
 import { Textarea } from "@/components/ui/textarea";
 import { supabase } from "@/integrations/supabase/client";
-import { CONTACT, buildWhatsAppMessage, WhatsAppParams } from "@/lib/types";
+import { CONTACT } from "@/lib/types";
 import { toast } from "sonner";
 
 export const TRAVELER_OPTIONS = [
@@ -68,36 +68,76 @@ const emptyValues: Values = {
   notes: "",
 };
 
-interface Props {
-  open: boolean;
-  onOpenChange: (open: boolean) => void;
-  params: WhatsAppParams;
-  /** Abre o WhatsApp sem o pré-briefing (escape discreto). */
-  onSkip: () => void;
-}
-
-const openWhatsApp = (message: string) => {
-  const link = `https://wa.me/${CONTACT.whatsappNumber}?text=${encodeURIComponent(message)}`;
-  const opened = window.open(link, "_blank", "noopener,noreferrer");
+/** Abre o WhatsApp de forma resiliente (iframes e in-app browsers). */
+export const openWhatsAppUrl = (url: string) => {
+  const opened = window.open(url, "_blank", "noopener,noreferrer");
   if (!opened) {
     try {
-      window.top!.location.href = link;
+      window.top!.location.href = url;
     } catch {
-      window.location.href = link;
+      window.location.href = url;
     }
   }
 };
 
-export const WhatsAppLeadGate = ({ open, onOpenChange, params, onSkip }: Props) => {
-  const [values, setValues] = useState<Values>({
-    ...emptyValues,
-    interest: params.name ?? "",
-  });
+export const openWhatsAppMessage = (message: string) =>
+  openWhatsAppUrl(
+    `https://wa.me/${CONTACT.whatsappNumber}?text=${encodeURIComponent(message)}`
+  );
+
+const extractBaseMessage = (url: string): string => {
+  try {
+    const parsed = new URL(url);
+    return parsed.searchParams.get("text") ?? "";
+  } catch {
+    return "";
+  }
+};
+
+/**
+ * Intercepta os cliques em qualquer link wa.me do site (exceto o botão
+ * flutuante e links marcados com data-no-gate) e pede um pré-briefing antes de
+ * abrir a conversa — qualificando o lead e registrando-o no banco.
+ */
+export const WhatsAppLeadGate = () => {
+  const [open, setOpen] = useState(false);
+  const [targetUrl, setTargetUrl] = useState<string | null>(null);
+  const [values, setValues] = useState<Values>(emptyValues);
   const [errors, setErrors] = useState<Partial<Record<keyof Values, string>>>({});
   const [submitting, setSubmitting] = useState(false);
 
-  const set = (key: keyof Values, value: string) =>
-    setValues((v) => ({ ...v, [key]: value }));
+  useEffect(() => {
+    const handler = (event: MouseEvent) => {
+      if (event.defaultPrevented || event.button !== 0 || event.metaKey || event.ctrlKey) return;
+      const target = event.target as HTMLElement | null;
+      const anchor = target?.closest?.("a[href]") as HTMLAnchorElement | null;
+      if (!anchor) return;
+      const href = anchor.getAttribute("href") ?? "";
+      if (!/^https:\/\/(wa\.me|api\.whatsapp\.com)\//.test(href)) return;
+      if (anchor.dataset.noGate !== undefined) return;
+      if (anchor.classList.contains("whatsapp-float")) return;
+      if (anchor.closest(".whatsapp-float")) return;
+
+      event.preventDefault();
+      event.stopPropagation();
+      setTargetUrl(href);
+      setValues({ ...emptyValues });
+      setErrors({});
+      setOpen(true);
+    };
+    document.addEventListener("click", handler, true);
+    return () => document.removeEventListener("click", handler, true);
+  }, []);
+
+  const set = useCallback(
+    (key: keyof Values, value: string) => setValues((v) => ({ ...v, [key]: value })),
+    []
+  );
+
+  const skip = () => {
+    setOpen(false);
+    if (targetUrl) openWhatsAppUrl(targetUrl);
+  };
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
@@ -126,15 +166,16 @@ export const WhatsAppLeadGate = ({ open, onOpenChange, params, onSkip }: Props) 
       budget: d.budget,
       notes: d.notes || null,
       source_page: window.location.pathname,
-      context_type: params.type,
+      context_type: document.title.slice(0, 120),
     });
 
     if (error) {
       toast.error("Não conseguimos registrar seu contato. Vamos seguir pelo WhatsApp.");
     }
 
+    const base = targetUrl ? extractBaseMessage(targetUrl) : "";
     const message = [
-      buildWhatsAppMessage(params),
+      base || "Olá, Create Travel! Quero criar um roteiro sob medida.",
       "",
       `Nome: ${d.name}`,
       `E-mail: ${d.email}`,
@@ -148,22 +189,20 @@ export const WhatsAppLeadGate = ({ open, onOpenChange, params, onSkip }: Props) 
       .filter((l) => l !== "")
       .join("\n");
 
-    openWhatsApp(message);
+    openWhatsAppMessage(message);
     setSubmitting(false);
-    onOpenChange(false);
-    setValues({ ...emptyValues, interest: params.name ?? "" });
+    setOpen(false);
+    setValues({ ...emptyValues });
   };
 
   return (
-    <Dialog open={open} onOpenChange={onOpenChange}>
+    <Dialog open={open} onOpenChange={setOpen}>
       <DialogContent className="max-w-lg max-h-[90vh] overflow-y-auto">
         <DialogHeader>
-          <DialogTitle className="font-serif text-2xl">
-            Antes de conversarmos
-          </DialogTitle>
+          <DialogTitle className="font-serif text-2xl">Antes de conversarmos</DialogTitle>
           <DialogDescription>
-            Um consultor Create Travel prepara sua proposta com base nesse breve
-            briefing — assim a conversa começa já no ponto certo.
+            Um consultor Create Travel prepara sua proposta a partir deste breve
+            briefing — assim a conversa já começa no ponto certo.
           </DialogDescription>
         </DialogHeader>
 
@@ -287,18 +326,23 @@ export const WhatsAppLeadGate = ({ open, onOpenChange, params, onSkip }: Props) 
             />
           </div>
 
-          <Button type="submit" className="w-full btn-whatsapp justify-center" disabled={submitting}>
-            {submitting ? <Loader2 className="animate-spin" size={18} /> : <MessageCircle size={18} />}
+          <Button
+            type="submit"
+            className="w-full btn-whatsapp justify-center"
+            disabled={submitting}
+          >
+            {submitting ? (
+              <Loader2 className="animate-spin" size={18} />
+            ) : (
+              <MessageCircle size={18} />
+            )}
             <span>Continuar no WhatsApp</span>
           </Button>
 
           <div className="text-center">
             <button
               type="button"
-              onClick={() => {
-                onOpenChange(false);
-                onSkip();
-              }}
+              onClick={skip}
               className="text-xs text-muted-foreground underline underline-offset-4 hover:text-foreground"
             >
               Prefiro falar direto
@@ -314,5 +358,3 @@ export const WhatsAppLeadGate = ({ open, onOpenChange, params, onSkip }: Props) 
     </Dialog>
   );
 };
-
-export { openWhatsApp };
