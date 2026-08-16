@@ -73,6 +73,7 @@ import AdminSeo from "./pages/AdminSeo";
 import AdminPrecos from "./pages/AdminPrecos";
 
 import AdminWhatsApp from "./pages/AdminWhatsApp";
+import AdminLeads from "./pages/AdminLeads";
 import Guia, { GuiasIndex } from "./pages/Guia";
 import RoteiroSobMedida from "./pages/RoteiroSobMedida";
 import GruposGuiaBrasileiro from "./pages/GruposGuiaBrasileiro";
@@ -176,6 +177,7 @@ const App = () => (
           <Route path="/admin/seo" element={<AdminSeo />} />
           <Route path="/admin/whatsapp" element={<AdminWhatsApp />} />
           <Route path="/admin/precos" element={<AdminPrecos />} />
+          <Route path="/admin/leads" element={<AdminLeads />} />
 
           <Route path="/guias" element={<GuiasIndex />} />
           <Route path="/guias/:slug" element={<Guia />} />
