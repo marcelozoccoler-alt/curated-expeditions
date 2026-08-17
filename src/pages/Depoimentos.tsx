@@ -88,6 +88,60 @@ const Depoimentos = () => {
       },
       mentions: (t.countries ?? []).map((c) => ({ "@type": "Place", name: c })),
     })),
+    // Álbuns de fotos reais de cada viagem (ImageGallery + ImageObject).
+    ...verified
+      .filter((t) => t.photos.length > 0)
+      .map((t) => ({
+        "@context": "https://schema.org",
+        "@type": "ImageGallery",
+        "@id": `${DOMAIN}/depoimentos#album-${t.slug}`,
+        url: `${DOMAIN}/depoimentos#${t.slug}`,
+        name: `Álbum de viagem de ${t.author} — ${t.destination}`,
+        description: t.photoStory,
+        inLanguage: "pt-BR",
+        about: (t.countries ?? []).map((c) => ({ "@type": "Place", name: c })),
+        author: { "@type": "Person", name: t.author },
+        publisher: {
+          "@type": "TravelAgency",
+          "@id": `${DOMAIN}/#organization`,
+          name: "Create Travel",
+        },
+        image: t.photos.map((p) => ({
+          "@type": "ImageObject",
+          contentUrl: `${DOMAIN}${p.src}`,
+          url: `${DOMAIN}${p.src}`,
+          caption: p.caption,
+          description: p.alt,
+          creditText: `${t.author} / Create Travel`,
+          copyrightNotice: "Create Travel",
+          creator: { "@type": "Person", name: t.author },
+          representativeOfPage: false,
+        })),
+      })),
+    // Vídeos reais gravados pelas viajantes.
+    ...verified.flatMap((t) => {
+      const vids = [...(t.video ? [t.video] : []), ...(t.videos ?? [])];
+      return vids.map((v, i) => ({
+        "@context": "https://schema.org",
+        "@type": "VideoObject",
+        "@id": `${DOMAIN}/depoimentos#video-${t.slug}-${i + 1}`,
+        name: `${t.destination} — vídeo da viagem de ${t.author}`,
+        description: v.caption,
+        contentUrl: `${DOMAIN}${v.src}`,
+        ...(v.poster ? { thumbnailUrl: [`${DOMAIN}${v.poster}`] } : {}),
+        uploadDate: "2026-08-17",
+        inLanguage: "pt-BR",
+        isFamilyFriendly: true,
+        embedUrl: `${DOMAIN}/depoimentos#${t.slug}`,
+        creator: { "@type": "Person", name: t.author },
+        publisher: {
+          "@type": "TravelAgency",
+          "@id": `${DOMAIN}/#organization`,
+          name: "Create Travel",
+        },
+        about: (t.countries ?? []).map((c) => ({ "@type": "Place", name: c })),
+      }));
+    }),
     {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
