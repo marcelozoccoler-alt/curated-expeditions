@@ -315,6 +315,7 @@ const Depoimentos = () => {
                       title={`${t.title} — ${t.author}`}
                       summary={`História real de viagem com a Create Travel (${t.destination})`}
                       label="Compartilhar com os amigos"
+                      variant="copy-only"
                     />
                   </div>
 
