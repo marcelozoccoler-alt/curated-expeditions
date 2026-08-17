@@ -176,17 +176,17 @@ const Depoimentos = () => {
                 <article key={t.slug} id={t.slug} className="scroll-mt-28">
                   {t.verified && t.photos.length > 0 && (
                     <div className="mb-10">
-                      <div className="columns-2 gap-2 sm:columns-3 sm:gap-3 [column-fill:_balance]">
+                      <div className="grid grid-cols-2 gap-2 sm:grid-cols-3 sm:gap-3">
                         {shown.map((p, i) => (
                           <figure
                             key={p.src}
-                            className="group relative mb-2 break-inside-avoid overflow-hidden rounded-sm ring-1 ring-gold/30 sm:mb-3"
+                            className="group relative overflow-hidden rounded-sm ring-1 ring-gold/30"
                           >
                             <img
                               src={p.src}
                               alt={p.alt}
                               loading={i === 0 ? "eager" : "lazy"}
-                              className="block h-auto w-full transition-transform duration-700 ease-out group-hover:scale-[1.03]"
+                              className="block aspect-[3/4] w-full object-cover object-center transition-transform duration-700 ease-out group-hover:scale-[1.03]"
                             />
                             <div className="pointer-events-none absolute inset-0 bg-gradient-to-t from-primary/80 via-primary/10 to-transparent opacity-90" />
                             <figcaption className="pointer-events-none absolute inset-x-0 bottom-0 p-2 sm:p-3">
@@ -197,6 +197,7 @@ const Depoimentos = () => {
                           </figure>
                         ))}
                       </div>
+
 
                       {t.photos.length > PHOTOS_PREVIEW && (
                         <button
