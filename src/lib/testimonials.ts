@@ -47,7 +47,6 @@ import taniaDolmabahce from "@/assets/depoimentos/tania-istambul-dolmabahce-port
 import taniaBalat from "@/assets/depoimentos/tania-istambul-balat-ruas-coloridas.jpg.asset.json";
 import taniaSantaSofia from "@/assets/depoimentos/tania-istambul-santa-sofia-interior.jpg.asset.json";
 import taniaBosforoNoite from "@/assets/depoimentos/tania-bosforo-noite-mesquita.jpg.asset.json";
-import taniaMesquitaAzulGrupo from "@/assets/depoimentos/tania-istambul-mesquita-azul-grupo.jpg.asset.json";
 import taniaMosaicoBizantino from "@/assets/depoimentos/tania-santa-sofia-mosaico-bizantino.jpg.asset.json";
 import taniaGrupoV2 from "@/assets/depoimentos/tania-istambul-mesquita-azul-grupo-v2.jpg.asset.json";
 import taniaOrtakoy from "@/assets/depoimentos/tania-istambul-ortakoy-bosforo.jpg.asset.json";
