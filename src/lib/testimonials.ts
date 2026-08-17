@@ -323,6 +323,11 @@ export const testimonials: Testimonial[] = [
         poster: taniaVideo2Poster.url,
         caption: "Mais um trecho da Turquia pelos olhos da Tânia",
       },
+      {
+        src: taniaVideo3.url,
+        poster: taniaVideo3Poster.url,
+        caption: "A Turquia em movimento: mais um registro da viagem da Tânia",
+      },
     ],
     photos: [
       {
