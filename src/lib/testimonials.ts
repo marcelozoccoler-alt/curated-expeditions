@@ -47,8 +47,13 @@ import taniaDolmabahce from "@/assets/depoimentos/tania-istambul-dolmabahce-port
 import taniaBalat from "@/assets/depoimentos/tania-istambul-balat-ruas-coloridas.jpg.asset.json";
 import taniaSantaSofia from "@/assets/depoimentos/tania-istambul-santa-sofia-interior.jpg.asset.json";
 import taniaBosforoNoite from "@/assets/depoimentos/tania-bosforo-noite-mesquita.jpg.asset.json";
-import taniaMesquitaAzulGrupo from "@/assets/depoimentos/tania-istambul-mesquita-azul-grupo.jpg.asset.json";
 import taniaMosaicoBizantino from "@/assets/depoimentos/tania-santa-sofia-mosaico-bizantino.jpg.asset.json";
+import taniaGrupoV2 from "@/assets/depoimentos/tania-istambul-mesquita-azul-grupo-v2.jpg.asset.json";
+import taniaOrtakoy from "@/assets/depoimentos/tania-istambul-ortakoy-bosforo.jpg.asset.json";
+import taniaBalatCafe from "@/assets/depoimentos/tania-balat-antik-cafe.jpg.asset.json";
+import taniaBalatCartazes from "@/assets/depoimentos/tania-balat-cartazes-cinema-turco.jpg.asset.json";
+import taniaVideo from "@/assets/depoimentos/tania-turquia-video.mp4.asset.json";
+import taniaVideoPoster from "@/assets/depoimentos/tania-video-poster.jpg.asset.json";
 
 export const TESTIMONIALS_DRAFT = true;
 
@@ -80,6 +85,8 @@ export interface Testimonial {
   photoStory: string;
   /** Fotos reais da viagem. Vazio = galeria em aberto, aguardando envio. */
   photos: TestimonialPhoto[];
+  /** Vídeo real da viagem (opcional). */
+  video?: { src: string; poster?: string; caption: string };
   /** Sugestões de legenda para as fotos que ainda serão enviadas. */
   suggestedCaptions: string[];
   /** Ordem narrativa sugerida para a sequência de fotos. */
@@ -294,7 +301,18 @@ export const testimonials: Testimonial[] = [
       "A Tânia chegou até nós pelo caminho mais bonito que existe numa agência: a mãe dela viajou primeiro, voltou contando, e a filha decidiu que queria a mesma Turquia — só que do jeito dela. O grupo exclusivo de novembro de 2025 foi desenhado para isso: Istambul com tempo nos bairros que não estão no roteiro padrão (Balat, o Bósforo à noite, o Dolmabahçe visto da beira d'água) e a Capadócia em duas velocidades, o balão ao amanhecer e o quadriciclo no fim do dia. Novembro não é escolha aleatória: menos fila nas mesquitas, luz baixa e dourada nas fotos, e melhor janela de voo do balão do que no verão. Da nossa parte, o que se repete é o acompanhamento antes de cada experiência sensível — voo de balão confirmado com o operador local na véspera, horário de Santa Sofia ajustado ao calendário de orações. Em 2026 ela embarca com a gente no Leste Europeu. — Marcelo Zoccoler",
     photoStory:
       "As fotos da Tânia começam em Istambul e terminam no céu. O portão de mármore do Dolmabahçe emoldurando o Bósforo em manhã de céu leitoso; as fachadas lilás, laranja e azul de Balat, com o cardápio de giz na calçada; a nave de Santa Sofia vista de cima, os lustres dourados suspensos sobre o tapete verde. Depois a noite no Bósforo: minaretes iluminados e a cúpula azul refletidos na água escura, a cidade inteira em luz âmbar. E a Capadócia em dois climas — o vestido vermelho contra o cinza vulcânico das chaminés de fada do Vale dos Monges, e o mesmo vermelho na penumbra alaranjada de uma cidade subterrânea. Fecha com o capacete azul, os óculos escuros e o V de vitória sobre o quadriciclo, no meio do vale branco: a foto de quem entendeu que aventura e elegância cabem na mesma viagem.",
+    video: {
+      src: taniaVideo.url,
+      poster: taniaVideoPoster.url,
+      caption: "Istambul em movimento: um trecho da viagem da Tânia, gravado por ela",
+    },
     photos: [
+      {
+        src: taniaGrupoV2.url,
+        caption: "Mesquita Azul: o grupo reunido embaixo dos lustres",
+        alt: "Grupo de viajantes da Create Travel com véus, sorrindo dentro da Mesquita Azul de Istambul, com azulejos e lustres ao fundo",
+        objectPosition: "center 40%",
+      },
       {
         src: taniaCapadociaValeVermelho.url,
         caption: "Capadócia: vestido vermelho diante das chaminés de fada",
@@ -331,10 +349,20 @@ export const testimonials: Testimonial[] = [
         alt: "Tânia Abreu de vestido vermelho dentro de câmara escavada de cidade subterrânea da Capadócia, iluminada em laranja",
       },
       {
-        src: taniaMesquitaAzulGrupo.url,
-        caption: "Mesquita Azul: o grupo reunido embaixo dos lustres",
-        alt: "Grupo de viajantes da Create Travel com véus, sorrindo dentro da Mesquita Azul de Istambul, com azulejos e lustres ao fundo",
-        objectPosition: "right center",
+        src: taniaOrtakoy.url,
+        caption: "A mesquita de Ortaköy vista da água, no fim da tarde",
+        alt: "Mesquita de Ortaköy às margens do Bósforo vista de barco, com a ponte ao fundo e reflexos na água, Istambul",
+      },
+      {
+        src: taniaBalatCafe.url,
+        caption: "Balat: o café das flores, entre guarda-sóis coloridos",
+        alt: "Tânia Abreu sentada em banco de madeira sob arco de flores no Balat Antik Café, com guarda-sóis coloridos ao fundo, Istambul",
+      },
+      {
+        src: taniaBalatCartazes.url,
+        caption: "Os cartazes do cinema turco antigo nas ruas do Balat",
+        alt: "Tânia Abreu diante de grandes cartazes de filmes clássicos turcos em parede colorida no bairro de Balat, Istambul",
+        objectPosition: "center 40%",
       },
       {
         src: taniaMosaicoBizantino.url,
