@@ -220,21 +220,24 @@ const Depoimentos = () => {
                         Fotos originais da viagem, publicadas com autorização de {t.author}.
                       </p>
 
-                      {t.video && (
-                        <figure className="mt-6 overflow-hidden rounded-sm ring-1 ring-gold/30">
+                      {[...(t.video ? [t.video] : []), ...(t.videos ?? [])].map((v) => (
+                        <figure
+                          key={v.src}
+                          className="mt-6 overflow-hidden rounded-sm ring-1 ring-gold/30"
+                        >
                           <video
-                            src={t.video.src}
-                            poster={t.video.poster}
+                            src={v.src}
+                            poster={v.poster}
                             controls
                             playsInline
                             preload="metadata"
                             className="block w-full bg-primary"
                           />
                           <figcaption className="bg-primary px-4 py-3 font-serif text-xs italic text-primary-foreground/85">
-                            {t.video.caption}
+                            {v.caption}
                           </figcaption>
                         </figure>
-                      )}
+                      ))}
                     </div>
                   )}
 

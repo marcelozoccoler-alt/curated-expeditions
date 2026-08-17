@@ -52,8 +52,13 @@ import taniaGrupoV2 from "@/assets/depoimentos/tania-istambul-mesquita-azul-grup
 import taniaOrtakoy from "@/assets/depoimentos/tania-istambul-ortakoy-bosforo.jpg.asset.json";
 import taniaBalatCafe from "@/assets/depoimentos/tania-balat-antik-cafe.jpg.asset.json";
 import taniaBalatCartazes from "@/assets/depoimentos/tania-balat-cartazes-cinema-turco.jpg.asset.json";
+import taniaGalata from "@/assets/depoimentos/tania-istambul-torre-galata-noite.jpg.asset.json";
+import taniaFuscaRosa from "@/assets/depoimentos/tania-balat-fusca-rosa-guarda-chuvas.jpg.asset.json";
+import taniaBonde from "@/assets/depoimentos/tania-labib-bonde-istiklal-istambul.jpg.asset.json";
 import taniaVideo from "@/assets/depoimentos/tania-turquia-video.mp4.asset.json";
 import taniaVideoPoster from "@/assets/depoimentos/tania-video-poster.jpg.asset.json";
+import taniaVideo2 from "@/assets/depoimentos/tania-turquia-video-2.mp4.asset.json";
+import taniaVideo2Poster from "@/assets/depoimentos/tania-video-2-poster.jpg.asset.json";
 
 export const TESTIMONIALS_DRAFT = true;
 
@@ -87,6 +92,8 @@ export interface Testimonial {
   photos: TestimonialPhoto[];
   /** Vídeo real da viagem (opcional). */
   video?: { src: string; poster?: string; caption: string };
+  /** Vídeos extras da viagem (opcional). */
+  videos?: { src: string; poster?: string; caption: string }[];
   /** Sugestões de legenda para as fotos que ainda serão enviadas. */
   suggestedCaptions: string[];
   /** Ordem narrativa sugerida para a sequência de fotos. */
@@ -306,6 +313,13 @@ export const testimonials: Testimonial[] = [
       poster: taniaVideoPoster.url,
       caption: "Istambul em movimento: um trecho da viagem da Tânia, gravado por ela",
     },
+    videos: [
+      {
+        src: taniaVideo2.url,
+        poster: taniaVideo2Poster.url,
+        caption: "Mais um trecho da Turquia pelos olhos da Tânia",
+      },
+    ],
     photos: [
       {
         src: taniaGrupoV2.url,
@@ -363,6 +377,23 @@ export const testimonials: Testimonial[] = [
         caption: "Os cartazes do cinema turco antigo nas ruas do Balat",
         alt: "Tânia Abreu diante de grandes cartazes de filmes clássicos turcos em parede colorida no bairro de Balat, Istambul",
         objectPosition: "center 40%",
+      },
+      {
+        src: taniaFuscaRosa.url,
+        caption: "O fusca rosa e os guarda-chuvas coloridos do Balat",
+        alt: "Tânia Abreu sentada sobre fusca rosa antigo sob dezenas de guarda-chuvas coloridos no Balat Antik, Istambul",
+      },
+      {
+        src: taniaGalata.url,
+        caption: "A Torre de Gálata iluminada, vista dos telhados",
+        alt: "Torre de Gálata iluminada à noite acima dos telhados dos edifícios do bairro de Beyoğlu, Istambul",
+        objectPosition: "center 35%",
+      },
+      {
+        src: taniaBonde.url,
+        caption: "O bonde vermelho da Istiklal no fim do dia",
+        alt: "Mulher com xale rosa diante do bonde vermelho histórico da avenida Istiklal ao crepúsculo, Istambul",
+        objectPosition: "center 45%",
       },
       {
         src: taniaMosaicoBizantino.url,
