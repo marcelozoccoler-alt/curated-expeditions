@@ -5,6 +5,7 @@ import { Footer } from "@/components/Footer";
 import { SEO } from "@/components/SEO";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
 import { WhatsAppButton } from "@/components/WhatsAppButton";
+import { ShareButtons } from "@/components/ShareButtons";
 import { CONTACT } from "@/lib/types";
 import { testimonials } from "@/lib/testimonials";
 import { Quote, Camera, BadgeCheck, Images } from "lucide-react";
