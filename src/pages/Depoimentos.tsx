@@ -187,7 +187,8 @@ const Depoimentos = () => {
                               src={p.src}
                               alt={p.alt}
                               loading={i === 0 ? "eager" : "lazy"}
-                              className="block aspect-[3/4] w-full object-cover object-center transition-transform duration-700 ease-out group-hover:scale-[1.03]"
+                              className="block aspect-[3/4] w-full object-cover transition-transform duration-700 ease-out group-hover:scale-[1.03]"
+                              style={p.objectPosition ? { objectPosition: p.objectPosition } : undefined}
                             />
                             <div className="pointer-events-none absolute inset-0 bg-gradient-to-t from-primary/80 via-primary/10 to-transparent opacity-90" />
                             <figcaption className="pointer-events-none absolute inset-x-0 bottom-0 p-2 sm:p-3">
