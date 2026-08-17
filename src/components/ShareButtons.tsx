@@ -6,12 +6,13 @@ interface ShareButtonsProps {
   url: string;
   title: string;
   summary?: string;
+  label?: string;
 }
 
 /**
  * Barra de compartilhamento simplificada: apenas WhatsApp e copiar link.
  */
-export const ShareButtons = ({ url, title, summary }: ShareButtonsProps) => {
+export const ShareButtons = ({ url, title, summary, label = "Compartilhar" }: ShareButtonsProps) => {
   const [copied, setCopied] = useState(false);
   const waText = encodeURIComponent(`${title}${summary ? ` — ${summary}` : ""} ${url}`);
 
@@ -29,8 +30,9 @@ export const ShareButtons = ({ url, title, summary }: ShareButtonsProps) => {
   return (
     <div className="flex items-center gap-3 flex-wrap">
       <span className="text-xs font-semibold text-muted-foreground uppercase tracking-wider">
-        Compartilhar
+        {label}
       </span>
+
       <div className="flex items-center gap-2">
         <a
           href={`https://api.whatsapp.com/send?text=${waText}`}

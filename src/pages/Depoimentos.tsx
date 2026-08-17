@@ -5,6 +5,7 @@ import { Footer } from "@/components/Footer";
 import { SEO } from "@/components/SEO";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
 import { WhatsAppButton } from "@/components/WhatsAppButton";
+import { ShareButtons } from "@/components/ShareButtons";
 import { CONTACT } from "@/lib/types";
 import { testimonials } from "@/lib/testimonials";
 import { Quote, Camera, BadgeCheck, Images } from "lucide-react";
@@ -16,14 +17,23 @@ const Depoimentos = () => {
   const [filter, setFilter] = useState<string>("Todos");
   const [expanded, setExpanded] = useState<Record<string, boolean>>({});
 
-  // Depoimentos reais e autorizados primeiro.
+  // Ordem editorial definida: Tânia, Maite & Murilo, Luana.
+  const ORDER = [
+    "tania-abreu-turquia-novembro-2025",
+    "maite-leal-murilo-lamano-patagonia-leste-europeu",
+    "luana-santos-cinco-viagens",
+  ];
+
   const ordered = useMemo(
     () =>
-      [...testimonials].sort(
-        (a, b) => Number(Boolean(b.verified)) - Number(Boolean(a.verified)),
-      ),
+      [...testimonials].sort((a, b) => {
+        const ia = ORDER.indexOf(a.slug);
+        const ib = ORDER.indexOf(b.slug);
+        return (ia === -1 ? 99 : ia) - (ib === -1 ? 99 : ib);
+      }),
     [],
   );
+
 
   const filters = useMemo(() => {
     const set = new Set<string>();
@@ -167,17 +177,17 @@ const Depoimentos = () => {
                 <article key={t.slug} id={t.slug} className="scroll-mt-28">
                   {t.verified && t.photos.length > 0 && (
                     <div className="mb-10">
-                      <div className="columns-2 gap-2 sm:columns-3 sm:gap-3 [column-fill:_balance]">
+                      <div className="grid grid-cols-2 gap-2 sm:grid-cols-3 sm:gap-3">
                         {shown.map((p, i) => (
                           <figure
                             key={p.src}
-                            className="group relative mb-2 break-inside-avoid overflow-hidden rounded-sm ring-1 ring-gold/30 sm:mb-3"
+                            className="group relative overflow-hidden rounded-sm ring-1 ring-gold/30"
                           >
                             <img
                               src={p.src}
                               alt={p.alt}
                               loading={i === 0 ? "eager" : "lazy"}
-                              className="block h-auto w-full transition-transform duration-700 ease-out group-hover:scale-[1.03]"
+                              className="block aspect-[3/4] w-full object-cover object-center transition-transform duration-700 ease-out group-hover:scale-[1.03]"
                             />
                             <div className="pointer-events-none absolute inset-0 bg-gradient-to-t from-primary/80 via-primary/10 to-transparent opacity-90" />
                             <figcaption className="pointer-events-none absolute inset-x-0 bottom-0 p-2 sm:p-3">
@@ -188,6 +198,7 @@ const Depoimentos = () => {
                           </figure>
                         ))}
                       </div>
+
 
                       {t.photos.length > PHOTOS_PREVIEW && (
                         <button
@@ -297,7 +308,17 @@ const Depoimentos = () => {
                     </aside>
                   </div>
 
+                  <div className="mt-8">
+                    <ShareButtons
+                      url={`${DOMAIN}/depoimentos#${t.slug}`}
+                      title={`${t.title} — ${t.author}`}
+                      summary={`História real de viagem com a Create Travel (${t.destination})`}
+                      label="Compartilhar com os amigos"
+                    />
+                  </div>
+
                   <div className="divider mt-14" />
+
                 </article>
                 );
               })}
