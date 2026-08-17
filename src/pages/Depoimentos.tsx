@@ -16,14 +16,23 @@ const Depoimentos = () => {
   const [filter, setFilter] = useState<string>("Todos");
   const [expanded, setExpanded] = useState<Record<string, boolean>>({});
 
-  // Depoimentos reais e autorizados primeiro.
+  // Ordem editorial definida: Tânia, Maite & Murilo, Luana.
+  const ORDER = [
+    "tania-abreu-turquia-novembro-2025",
+    "maite-leal-murilo-lamano-patagonia-leste-europeu",
+    "luana-santos-cinco-viagens",
+  ];
+
   const ordered = useMemo(
     () =>
-      [...testimonials].sort(
-        (a, b) => Number(Boolean(b.verified)) - Number(Boolean(a.verified)),
-      ),
+      [...testimonials].sort((a, b) => {
+        const ia = ORDER.indexOf(a.slug);
+        const ib = ORDER.indexOf(b.slug);
+        return (ia === -1 ? 99 : ia) - (ib === -1 ? 99 : ib);
+      }),
     [],
   );
+
 
   const filters = useMemo(() => {
     const set = new Set<string>();
