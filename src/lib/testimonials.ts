@@ -350,10 +350,20 @@ export const testimonials: Testimonial[] = [
         alt: "Tânia Abreu de vestido vermelho dentro de câmara escavada de cidade subterrânea da Capadócia, iluminada em laranja",
       },
       {
-        src: taniaMesquitaAzulGrupo.url,
-        caption: "Mesquita Azul: o grupo reunido embaixo dos lustres",
-        alt: "Grupo de viajantes da Create Travel com véus, sorrindo dentro da Mesquita Azul de Istambul, com azulejos e lustres ao fundo",
-        objectPosition: "right center",
+        src: taniaOrtakoy.url,
+        caption: "A mesquita de Ortaköy vista da água, no fim da tarde",
+        alt: "Mesquita de Ortaköy às margens do Bósforo vista de barco, com a ponte ao fundo e reflexos na água, Istambul",
+      },
+      {
+        src: taniaBalatCafe.url,
+        caption: "Balat: o café das flores, entre guarda-sóis coloridos",
+        alt: "Tânia Abreu sentada em banco de madeira sob arco de flores no Balat Antik Café, com guarda-sóis coloridos ao fundo, Istambul",
+      },
+      {
+        src: taniaBalatCartazes.url,
+        caption: "Os cartazes do cinema turco antigo nas ruas do Balat",
+        alt: "Tânia Abreu diante de grandes cartazes de filmes clássicos turcos em parede colorida no bairro de Balat, Istambul",
+        objectPosition: "center 40%",
       },
       {
         src: taniaMosaicoBizantino.url,
