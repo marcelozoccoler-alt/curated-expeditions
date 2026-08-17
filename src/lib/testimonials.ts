@@ -302,7 +302,18 @@ export const testimonials: Testimonial[] = [
       "A Tânia chegou até nós pelo caminho mais bonito que existe numa agência: a mãe dela viajou primeiro, voltou contando, e a filha decidiu que queria a mesma Turquia — só que do jeito dela. O grupo exclusivo de novembro de 2025 foi desenhado para isso: Istambul com tempo nos bairros que não estão no roteiro padrão (Balat, o Bósforo à noite, o Dolmabahçe visto da beira d'água) e a Capadócia em duas velocidades, o balão ao amanhecer e o quadriciclo no fim do dia. Novembro não é escolha aleatória: menos fila nas mesquitas, luz baixa e dourada nas fotos, e melhor janela de voo do balão do que no verão. Da nossa parte, o que se repete é o acompanhamento antes de cada experiência sensível — voo de balão confirmado com o operador local na véspera, horário de Santa Sofia ajustado ao calendário de orações. Em 2026 ela embarca com a gente no Leste Europeu. — Marcelo Zoccoler",
     photoStory:
       "As fotos da Tânia começam em Istambul e terminam no céu. O portão de mármore do Dolmabahçe emoldurando o Bósforo em manhã de céu leitoso; as fachadas lilás, laranja e azul de Balat, com o cardápio de giz na calçada; a nave de Santa Sofia vista de cima, os lustres dourados suspensos sobre o tapete verde. Depois a noite no Bósforo: minaretes iluminados e a cúpula azul refletidos na água escura, a cidade inteira em luz âmbar. E a Capadócia em dois climas — o vestido vermelho contra o cinza vulcânico das chaminés de fada do Vale dos Monges, e o mesmo vermelho na penumbra alaranjada de uma cidade subterrânea. Fecha com o capacete azul, os óculos escuros e o V de vitória sobre o quadriciclo, no meio do vale branco: a foto de quem entendeu que aventura e elegância cabem na mesma viagem.",
+    video: {
+      src: taniaVideo.url,
+      poster: taniaVideoPoster.url,
+      caption: "Istambul em movimento: um trecho da viagem da Tânia, gravado por ela",
+    },
     photos: [
+      {
+        src: taniaGrupoV2.url,
+        caption: "Mesquita Azul: o grupo reunido embaixo dos lustres",
+        alt: "Grupo de viajantes da Create Travel com véus, sorrindo dentro da Mesquita Azul de Istambul, com azulejos e lustres ao fundo",
+        objectPosition: "center 40%",
+      },
       {
         src: taniaCapadociaValeVermelho.url,
         caption: "Capadócia: vestido vermelho diante das chaminés de fada",
