@@ -49,6 +49,12 @@ import taniaSantaSofia from "@/assets/depoimentos/tania-istambul-santa-sofia-int
 import taniaBosforoNoite from "@/assets/depoimentos/tania-bosforo-noite-mesquita.jpg.asset.json";
 import taniaMesquitaAzulGrupo from "@/assets/depoimentos/tania-istambul-mesquita-azul-grupo.jpg.asset.json";
 import taniaMosaicoBizantino from "@/assets/depoimentos/tania-santa-sofia-mosaico-bizantino.jpg.asset.json";
+import taniaGrupoV2 from "@/assets/depoimentos/tania-istambul-mesquita-azul-grupo-v2.jpg.asset.json";
+import taniaOrtakoy from "@/assets/depoimentos/tania-istambul-ortakoy-bosforo.jpg.asset.json";
+import taniaBalatCafe from "@/assets/depoimentos/tania-balat-antik-cafe.jpg.asset.json";
+import taniaBalatCartazes from "@/assets/depoimentos/tania-balat-cartazes-cinema-turco.jpg.asset.json";
+import taniaVideo from "@/assets/depoimentos/tania-turquia-video.mp4.asset.json";
+import taniaVideoPoster from "@/assets/depoimentos/tania-video-poster.jpg.asset.json";
 
 export const TESTIMONIALS_DRAFT = true;
 
