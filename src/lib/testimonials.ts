@@ -92,6 +92,8 @@ export interface Testimonial {
   photos: TestimonialPhoto[];
   /** Vídeo real da viagem (opcional). */
   video?: { src: string; poster?: string; caption: string };
+  /** Vídeos extras da viagem (opcional). */
+  videos?: { src: string; poster?: string; caption: string }[];
   /** Sugestões de legenda para as fotos que ainda serão enviadas. */
   suggestedCaptions: string[];
   /** Ordem narrativa sugerida para a sequência de fotos. */
