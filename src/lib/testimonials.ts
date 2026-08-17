@@ -337,6 +337,17 @@ export const testimonials: Testimonial[] = [
         objectPosition: "center 40%",
       },
       {
+        src: taniaGrupoBaloes.url,
+        caption: "Amanhecer na Capadócia: o grupo antes de subir de balão",
+        alt: "Grupo de viajantes da Create Travel sorrindo ao amanhecer na Capadócia, com dezenas de balões no céu e o envelope de um balão ao lado",
+        objectPosition: "center 55%",
+      },
+      {
+        src: taniaDolmabahceJardim.url,
+        caption: "Os jardins floridos do Dolmabahçe, com a fonte dos cisnes",
+        alt: "Jardim do Palácio de Dolmabahçe em Istambul com fonte de cisnes, espelho d'água e canteiro de flores rosa em primeiro plano",
+      },
+      {
         src: taniaCapadociaValeVermelho.url,
         caption: "Capadócia: vestido vermelho diante das chaminés de fada",
         alt: "Tânia Abreu de vestido vermelho sentada em rocha clara com as chaminés de fada e o platô vulcânico da Capadócia ao fundo, Turquia",
