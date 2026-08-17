@@ -379,6 +379,23 @@ export const testimonials: Testimonial[] = [
         objectPosition: "center 40%",
       },
       {
+        src: taniaFuscaRosa.url,
+        caption: "O fusca rosa e os guarda-chuvas coloridos do Balat",
+        alt: "Tânia Abreu sentada sobre fusca rosa antigo sob dezenas de guarda-chuvas coloridos no Balat Antik, Istambul",
+      },
+      {
+        src: taniaGalata.url,
+        caption: "A Torre de Gálata iluminada, vista dos telhados",
+        alt: "Torre de Gálata iluminada à noite acima dos telhados dos edifícios do bairro de Beyoğlu, Istambul",
+        objectPosition: "center 35%",
+      },
+      {
+        src: taniaBonde.url,
+        caption: "O bonde vermelho da Istiklal no fim do dia",
+        alt: "Mulher com xale rosa diante do bonde vermelho histórico da avenida Istiklal ao crepúsculo, Istambul",
+        objectPosition: "center 45%",
+      },
+      {
         src: taniaMosaicoBizantino.url,
         caption: "O mosaico bizantino de fundo dourado em Santa Sofia",
         alt: "Mosaico bizantino de Santa Sofia com a Virgem entronizada entre dois imperadores em fundo de tesselas douradas, Istambul",
