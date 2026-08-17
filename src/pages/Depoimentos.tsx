@@ -307,7 +307,17 @@ const Depoimentos = () => {
                     </aside>
                   </div>
 
+                  <div className="mt-8">
+                    <ShareButtons
+                      url={`${DOMAIN}/depoimentos#${t.slug}`}
+                      title={`${t.title} — ${t.author}`}
+                      summary={`História real de viagem com a Create Travel (${t.destination})`}
+                      label="Compartilhar com os amigos"
+                    />
+                  </div>
+
                   <div className="divider mt-14" />
+
                 </article>
                 );
               })}
