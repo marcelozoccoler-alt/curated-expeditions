@@ -58,6 +58,8 @@ export interface TestimonialPhoto {
   /** Legenda curta (até 12 palavras) — pronta para galeria e redes sociais. */
   caption: string;
   alt: string;
+  /** Alinhamento opcional do ponto focal para object-position. */
+  objectPosition?: string;
 }
 
 export interface Testimonial {
@@ -332,6 +334,7 @@ export const testimonials: Testimonial[] = [
         src: taniaMesquitaAzulGrupo.url,
         caption: "Mesquita Azul: o grupo reunido embaixo dos lustres",
         alt: "Grupo de viajantes da Create Travel com véus, sorrindo dentro da Mesquita Azul de Istambul, com azulejos e lustres ao fundo",
+        objectPosition: "right center",
       },
       {
         src: taniaMosaicoBizantino.url,
