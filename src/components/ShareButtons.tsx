@@ -7,12 +7,13 @@ interface ShareButtonsProps {
   title: string;
   summary?: string;
   label?: string;
+  variant?: "full" | "copy-only";
 }
 
 /**
- * Barra de compartilhamento simplificada: apenas WhatsApp e copiar link.
+ * Barra de compartilhamento simplificada: WhatsApp e/ou copiar link.
  */
-export const ShareButtons = ({ url, title, summary, label = "Compartilhar" }: ShareButtonsProps) => {
+export const ShareButtons = ({ url, title, summary, label = "Compartilhar", variant = "full" }: ShareButtonsProps) => {
   const [copied, setCopied] = useState(false);
   const waText = encodeURIComponent(`${title}${summary ? ` — ${summary}` : ""} ${url}`);
 
@@ -34,16 +35,18 @@ export const ShareButtons = ({ url, title, summary, label = "Compartilhar" }: Sh
       </span>
 
       <div className="flex items-center gap-2">
-        <a
-          href={`https://api.whatsapp.com/send?text=${waText}`}
-          target="_blank"
-          rel="noopener noreferrer"
-          aria-label="Compartilhar no WhatsApp"
-          className="h-9 px-3 rounded-full border border-border hover:border-gold hover:text-gold text-muted-foreground flex items-center gap-1.5 transition-colors"
-        >
-          <MessageCircle size={16} />
-          <span className="text-xs font-medium">WhatsApp</span>
-        </a>
+        {variant === "full" && (
+          <a
+            href={`https://api.whatsapp.com/send?text=${waText}`}
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Compartilhar no WhatsApp"
+            className="h-9 px-3 rounded-full border border-border hover:border-gold hover:text-gold text-muted-foreground flex items-center gap-1.5 transition-colors"
+          >
+            <MessageCircle size={16} />
+            <span className="text-xs font-medium">WhatsApp</span>
+          </a>
+        )}
 
         <button
           onClick={handleCopy}
