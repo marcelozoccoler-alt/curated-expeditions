@@ -1,4 +1,5 @@
-import { useCallback, useEffect, useState } from "react";
+import { useCallback, useEffect, useMemo, useState } from "react";
+import { useLocation } from "react-router-dom";
 import { z } from "zod";
 import { MessageCircle, Loader2 } from "lucide-react";
 import {
@@ -22,40 +23,34 @@ import { Textarea } from "@/components/ui/textarea";
 import { supabase } from "@/integrations/supabase/client";
 import { CONTACT } from "@/lib/types";
 import { toast } from "sonner";
+import { RTL_LANGS } from "@/i18n/config";
+import {
+  LEAD_GATE_COPY,
+  detectLeadGateLang,
+  type LeadGateCopy,
+} from "@/lib/leadGateI18n";
 
-export const TRAVELER_OPTIONS = [
-  "1 viajante",
-  "2 viajantes",
-  "3 a 4 viajantes",
-  "5 a 8 viajantes",
-  "Grupo (9+)",
-];
+export const TRAVELER_OPTIONS = LEAD_GATE_COPY.pt.travelerOptions;
+export const BUDGET_OPTIONS = LEAD_GATE_COPY.pt.budgetOptions;
 
-export const BUDGET_OPTIONS = [
-  "Até R$ 25 mil por pessoa",
-  "R$ 25 mil a R$ 40 mil por pessoa",
-  "R$ 40 mil a R$ 70 mil por pessoa",
-  "Acima de R$ 70 mil por pessoa",
-  "Prefiro conversar sobre o investimento",
-];
+const buildSchema = (copy: LeadGateCopy) =>
+  z.object({
+    name: z.string().trim().min(2, copy.errors.name).max(120),
+    email: z.string().trim().email(copy.errors.email).max(255),
+    phone: z
+      .string()
+      .trim()
+      .min(8, copy.errors.phone)
+      .max(40)
+      .refine((v) => v.replace(/\D/g, "").length >= 10, copy.errors.phone),
+    interest: z.string().trim().min(2, copy.errors.interest).max(160),
+    travelWhen: z.string().trim().min(2, copy.errors.when).max(80),
+    travelers: z.string().trim().min(1, copy.errors.travelers).max(60),
+    budget: z.string().trim().min(1, copy.errors.budget).max(80),
+    notes: z.string().trim().max(600).optional(),
+  });
 
-const schema = z.object({
-  name: z.string().trim().min(2, "Informe seu nome completo").max(120),
-  email: z.string().trim().email("E-mail inválido").max(255),
-  phone: z
-    .string()
-    .trim()
-    .min(8, "Informe o WhatsApp com DDD")
-    .max(40)
-    .refine((v) => v.replace(/\D/g, "").length >= 10, "Informe o WhatsApp com DDD"),
-  interest: z.string().trim().min(2, "Diga o destino ou roteiro de interesse").max(160),
-  travelWhen: z.string().trim().min(2, "Informe quando pretende viajar").max(80),
-  travelers: z.string().trim().min(1, "Selecione o número de viajantes").max(60),
-  budget: z.string().trim().min(1, "Selecione a faixa de investimento").max(80),
-  notes: z.string().trim().max(600).optional(),
-});
-
-type Values = z.infer<typeof schema>;
+type Values = z.infer<ReturnType<typeof buildSchema>>;
 
 const emptyValues: Values = {
   name: "",
@@ -97,14 +92,20 @@ const extractBaseMessage = (url: string): string => {
 /**
  * Intercepta os cliques em qualquer link wa.me do site (exceto o botão
  * flutuante e links marcados com data-no-gate) e pede um pré-briefing antes de
- * abrir a conversa — qualificando o lead e registrando-o no banco.
+ * abrir a conversa — no idioma da página (rotas Incoming multilíngues).
  */
 export const WhatsAppLeadGate = () => {
+  const location = useLocation();
   const [open, setOpen] = useState(false);
   const [targetUrl, setTargetUrl] = useState<string | null>(null);
   const [values, setValues] = useState<Values>(emptyValues);
   const [errors, setErrors] = useState<Partial<Record<keyof Values, string>>>({});
   const [submitting, setSubmitting] = useState(false);
+
+  const lang = detectLeadGateLang(location.pathname);
+  const copy = LEAD_GATE_COPY[lang];
+  const isRtl = RTL_LANGS.includes(lang);
+  const schema = useMemo(() => buildSchema(copy), [copy]);
 
   useEffect(() => {
     const handler = (event: MouseEvent) => {
@@ -166,25 +167,26 @@ export const WhatsAppLeadGate = () => {
       budget: d.budget,
       notes: d.notes || null,
       source_page: window.location.pathname,
-      context_type: document.title.slice(0, 120),
+      context_type: `[${lang}] ${document.title}`.slice(0, 120),
     });
 
     if (error) {
-      toast.error("Não conseguimos registrar seu contato. Vamos seguir pelo WhatsApp.");
+      toast.error(copy.toastError);
     }
 
     const base = targetUrl ? extractBaseMessage(targetUrl) : "";
+    const f = copy.fields;
     const message = [
-      base || "Olá, Create Travel! Quero criar um roteiro sob medida.",
+      base || f.intro,
       "",
-      `Nome: ${d.name}`,
-      `E-mail: ${d.email}`,
-      `WhatsApp: ${d.phone}`,
-      `Interesse: ${d.interest}`,
-      `Quando pretendo viajar: ${d.travelWhen}`,
-      `Viajantes: ${d.travelers}`,
-      `Faixa de investimento: ${d.budget}`,
-      d.notes ? `Observações: ${d.notes}` : "",
+      `${f.name}: ${d.name}`,
+      `${f.email}: ${d.email}`,
+      `${f.phone}: ${d.phone}`,
+      `${f.interest}: ${d.interest}`,
+      `${f.when}: ${d.travelWhen}`,
+      `${f.travelers}: ${d.travelers}`,
+      `${f.budget}: ${d.budget}`,
+      d.notes ? `${f.notes}: ${d.notes}` : "",
     ]
       .filter((l) => l !== "")
       .join("\n");
@@ -197,19 +199,19 @@ export const WhatsAppLeadGate = () => {
 
   return (
     <Dialog open={open} onOpenChange={setOpen}>
-      <DialogContent className="max-w-lg max-h-[90vh] overflow-y-auto">
+      <DialogContent
+        className="max-w-lg max-h-[90vh] overflow-y-auto"
+        dir={isRtl ? "rtl" : "ltr"}
+      >
         <DialogHeader>
-          <DialogTitle className="font-serif text-2xl">Antes de conversarmos</DialogTitle>
-          <DialogDescription>
-            Um consultor Create Travel prepara sua proposta a partir deste breve
-            briefing — assim a conversa já começa no ponto certo.
-          </DialogDescription>
+          <DialogTitle className="font-serif text-2xl">{copy.title}</DialogTitle>
+          <DialogDescription>{copy.description}</DialogDescription>
         </DialogHeader>
 
         <form onSubmit={handleSubmit} className="space-y-4" noValidate>
           <div className="grid sm:grid-cols-2 gap-4">
             <div>
-              <Label htmlFor="gate-name">Nome completo</Label>
+              <Label htmlFor="gate-name">{copy.name}</Label>
               <Input
                 id="gate-name"
                 maxLength={120}
@@ -220,12 +222,12 @@ export const WhatsAppLeadGate = () => {
               {errors.name && <p className="text-xs text-destructive mt-1">{errors.name}</p>}
             </div>
             <div>
-              <Label htmlFor="gate-phone">WhatsApp (com DDD)</Label>
+              <Label htmlFor="gate-phone">{copy.phone}</Label>
               <Input
                 id="gate-phone"
                 inputMode="tel"
                 maxLength={40}
-                placeholder="(11) 99999-9999"
+                placeholder={copy.phonePlaceholder}
                 value={values.phone}
                 onChange={(e) => set("phone", e.target.value)}
                 aria-invalid={!!errors.phone}
@@ -235,7 +237,7 @@ export const WhatsAppLeadGate = () => {
           </div>
 
           <div>
-            <Label htmlFor="gate-email">E-mail</Label>
+            <Label htmlFor="gate-email">{copy.email}</Label>
             <Input
               id="gate-email"
               type="email"
@@ -248,11 +250,11 @@ export const WhatsAppLeadGate = () => {
           </div>
 
           <div>
-            <Label htmlFor="gate-interest">Destino ou roteiro de interesse</Label>
+            <Label htmlFor="gate-interest">{copy.interest}</Label>
             <Input
               id="gate-interest"
               maxLength={160}
-              placeholder="Ex.: Egito abril/2027, Patagônia, Toscana"
+              placeholder={copy.interestPlaceholder}
               value={values.interest}
               onChange={(e) => set("interest", e.target.value)}
               aria-invalid={!!errors.interest}
@@ -264,11 +266,11 @@ export const WhatsAppLeadGate = () => {
 
           <div className="grid sm:grid-cols-2 gap-4">
             <div>
-              <Label htmlFor="gate-when">Quando pretende viajar</Label>
+              <Label htmlFor="gate-when">{copy.when}</Label>
               <Input
                 id="gate-when"
                 maxLength={80}
-                placeholder="Ex.: julho/2027"
+                placeholder={copy.whenPlaceholder}
                 value={values.travelWhen}
                 onChange={(e) => set("travelWhen", e.target.value)}
                 aria-invalid={!!errors.travelWhen}
@@ -278,13 +280,13 @@ export const WhatsAppLeadGate = () => {
               )}
             </div>
             <div>
-              <Label htmlFor="gate-travelers">Número de viajantes</Label>
+              <Label htmlFor="gate-travelers">{copy.travelers}</Label>
               <Select value={values.travelers} onValueChange={(v) => set("travelers", v)}>
                 <SelectTrigger id="gate-travelers">
-                  <SelectValue placeholder="Selecione" />
+                  <SelectValue placeholder={copy.select} />
                 </SelectTrigger>
                 <SelectContent>
-                  {TRAVELER_OPTIONS.map((o) => (
+                  {copy.travelerOptions.map((o) => (
                     <SelectItem key={o} value={o}>
                       {o}
                     </SelectItem>
@@ -298,13 +300,13 @@ export const WhatsAppLeadGate = () => {
           </div>
 
           <div>
-            <Label htmlFor="gate-budget">Faixa de investimento por pessoa</Label>
+            <Label htmlFor="gate-budget">{copy.budget}</Label>
             <Select value={values.budget} onValueChange={(v) => set("budget", v)}>
               <SelectTrigger id="gate-budget">
-                <SelectValue placeholder="Selecione" />
+                <SelectValue placeholder={copy.select} />
               </SelectTrigger>
               <SelectContent>
-                {BUDGET_OPTIONS.map((o) => (
+                {copy.budgetOptions.map((o) => (
                   <SelectItem key={o} value={o}>
                     {o}
                   </SelectItem>
@@ -315,12 +317,12 @@ export const WhatsAppLeadGate = () => {
           </div>
 
           <div>
-            <Label htmlFor="gate-notes">Algo que devemos saber (opcional)</Label>
+            <Label htmlFor="gate-notes">{copy.notes}</Label>
             <Textarea
               id="gate-notes"
               maxLength={600}
               rows={3}
-              placeholder="Ritmo desejado, celebração, preferências de hospedagem…"
+              placeholder={copy.notesPlaceholder}
               value={values.notes}
               onChange={(e) => set("notes", e.target.value)}
             />
@@ -336,7 +338,7 @@ export const WhatsAppLeadGate = () => {
             ) : (
               <MessageCircle size={18} />
             )}
-            <span>Continuar no WhatsApp</span>
+            <span>{copy.submit}</span>
           </Button>
 
           <div className="text-center">
@@ -345,13 +347,12 @@ export const WhatsAppLeadGate = () => {
               onClick={skip}
               className="text-xs text-muted-foreground underline underline-offset-4 hover:text-foreground"
             >
-              Prefiro falar direto
+              {copy.skip}
             </button>
           </div>
 
           <p className="text-[11px] text-muted-foreground text-center leading-relaxed">
-            Seus dados são usados apenas para o atendimento Create Travel. Não
-            compartilhamos com terceiros.
+            {copy.privacy}
           </p>
         </form>
       </DialogContent>

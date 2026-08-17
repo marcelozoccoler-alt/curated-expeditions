@@ -98,8 +98,8 @@ const App = () => (
     <TooltipProvider>
       <Toaster />
       <Sonner />
-      <WhatsAppLeadGate />
       <BrowserRouter>
+        <WhatsAppLeadGate />
         <ScrollToTop />
         <ShareTripFloating />
         <GrupoPdfButton />
