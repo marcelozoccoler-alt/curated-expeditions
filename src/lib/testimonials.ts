@@ -59,6 +59,10 @@ import taniaVideo from "@/assets/depoimentos/tania-turquia-video.mp4.asset.json"
 import taniaVideoPoster from "@/assets/depoimentos/tania-video-poster.jpg.asset.json";
 import taniaVideo2 from "@/assets/depoimentos/tania-turquia-video-2.mp4.asset.json";
 import taniaVideo2Poster from "@/assets/depoimentos/tania-video-2-poster.jpg.asset.json";
+import taniaVideo3 from "@/assets/depoimentos/tania-turquia-video-3.mp4.asset.json";
+import taniaVideo3Poster from "@/assets/depoimentos/tania-video-3-poster.jpg.asset.json";
+import taniaGrupoBaloes from "@/assets/depoimentos/tania-capadocia-grupo-baloes-amanhecer.jpg.asset.json";
+import taniaDolmabahceJardim from "@/assets/depoimentos/tania-dolmabahce-jardim-fonte-flores.jpg.asset.json";
 
 export const TESTIMONIALS_DRAFT = true;
 
