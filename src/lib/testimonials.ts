@@ -59,6 +59,10 @@ import taniaVideo from "@/assets/depoimentos/tania-turquia-video.mp4.asset.json"
 import taniaVideoPoster from "@/assets/depoimentos/tania-video-poster.jpg.asset.json";
 import taniaVideo2 from "@/assets/depoimentos/tania-turquia-video-2.mp4.asset.json";
 import taniaVideo2Poster from "@/assets/depoimentos/tania-video-2-poster.jpg.asset.json";
+import taniaVideo3 from "@/assets/depoimentos/tania-turquia-video-3.mp4.asset.json";
+import taniaVideo3Poster from "@/assets/depoimentos/tania-video-3-poster.jpg.asset.json";
+import taniaGrupoBaloes from "@/assets/depoimentos/tania-capadocia-grupo-baloes-amanhecer.jpg.asset.json";
+import taniaDolmabahceJardim from "@/assets/depoimentos/tania-dolmabahce-jardim-fonte-flores.jpg.asset.json";
 
 export const TESTIMONIALS_DRAFT = true;
 
@@ -319,6 +323,11 @@ export const testimonials: Testimonial[] = [
         poster: taniaVideo2Poster.url,
         caption: "Mais um trecho da Turquia pelos olhos da Tânia",
       },
+      {
+        src: taniaVideo3.url,
+        poster: taniaVideo3Poster.url,
+        caption: "A Turquia em movimento: mais um registro da viagem da Tânia",
+      },
     ],
     photos: [
       {
@@ -326,6 +335,17 @@ export const testimonials: Testimonial[] = [
         caption: "Mesquita Azul: o grupo reunido embaixo dos lustres",
         alt: "Grupo de viajantes da Create Travel com véus, sorrindo dentro da Mesquita Azul de Istambul, com azulejos e lustres ao fundo",
         objectPosition: "center 40%",
+      },
+      {
+        src: taniaGrupoBaloes.url,
+        caption: "Amanhecer na Capadócia: o grupo antes de subir de balão",
+        alt: "Grupo de viajantes da Create Travel sorrindo ao amanhecer na Capadócia, com dezenas de balões no céu e o envelope de um balão ao lado",
+        objectPosition: "center 55%",
+      },
+      {
+        src: taniaDolmabahceJardim.url,
+        caption: "Os jardins floridos do Dolmabahçe, com a fonte dos cisnes",
+        alt: "Jardim do Palácio de Dolmabahçe em Istambul com fonte de cisnes, espelho d'água e canteiro de flores rosa em primeiro plano",
       },
       {
         src: taniaCapadociaValeVermelho.url,
