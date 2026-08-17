@@ -86,6 +86,8 @@ export interface Testimonial {
   photoStory: string;
   /** Fotos reais da viagem. Vazio = galeria em aberto, aguardando envio. */
   photos: TestimonialPhoto[];
+  /** Vídeo real da viagem (opcional). */
+  video?: { src: string; poster?: string; caption: string };
   /** Sugestões de legenda para as fotos que ainda serão enviadas. */
   suggestedCaptions: string[];
   /** Ordem narrativa sugerida para a sequência de fotos. */
