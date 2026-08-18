@@ -300,10 +300,11 @@ const corePosts: DiaryPost[] = [
   },
   {
     slug: "gastronomia-na-turquia-alem-do-kebab",
-    title: "O que comer na Turquia: 14 pratos além do kebab",
+    title: "O que comer na Turquia: 14 pratos e onde provar cada um",
     h1: "Gastronomia na Turquia: sabores e culturas além do kebab",
     metaDescription:
-      "Guia autoral do que comer na Turquia: mezes, kahvaltı (café turco), baklava de Gaziantep, street food de Istambul e onde provar cada prato. Por travel designers.",
+      "Do kahvaltı de Beşiktaş ao baklava de Gaziantep: 14 pratos turcos imperdíveis, os endereços certos em Istambul e Capadócia e a melhor época para ir.",
+
     keywords:
       "comida na turquia, gastronomia turca, comida turca, o que comer na turquia, kebab, meze, café da manhã turco",
     intro:
