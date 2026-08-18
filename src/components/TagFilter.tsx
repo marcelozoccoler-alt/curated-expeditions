@@ -19,6 +19,11 @@ export const TagFilter = ({
   const [showMore, setShowMore] = useState(showAll);
   const [isOpen, setIsOpen] = useState(!collapsible);
 
+  // When switching to collapsible mode (e.g. mobile detection), keep it closed.
+  useEffect(() => {
+    setIsOpen(!collapsible);
+  }, [collapsible]);
+
   const displayedTags = showMore ? TAGS : TAGS.slice(0, 8);
 
   const toggleTag = (tagId: string) => {
