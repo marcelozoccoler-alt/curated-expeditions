@@ -99,6 +99,7 @@ const buildPageRange = (current: number, total: number): (number | "…")[] => {
 const Destinos = () => {
   const [searchParams, setSearchParams] = useSearchParams();
   const navigate = useNavigate();
+  const isMobile = useIsMobile();
   const resultsRef = useRef<HTMLDivElement>(null);
 
   const continent = searchParams.get("c") || "todos";
