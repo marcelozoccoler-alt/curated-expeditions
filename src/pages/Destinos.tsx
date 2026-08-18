@@ -9,6 +9,7 @@ import { DestinationCard } from "@/components/DestinationCard";
 import { TagFilter } from "@/components/TagFilter";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
 import { SEO } from "@/components/SEO";
+import { useIsMobile } from "@/hooks/use-mobile";
 import { destinations, getFeaturedDestinations } from "@/lib/destinations";
 import { CONTINENTS, CONTACT, Destination } from "@/lib/types";
 import { getDestinosSEO } from "@/lib/seo";
