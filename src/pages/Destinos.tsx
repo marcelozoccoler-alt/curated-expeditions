@@ -244,13 +244,13 @@ const Destinos = () => {
       <WhatsAppButton variant="float" />
 
       {/* Hero */}
-      <section className="relative pt-32 pb-12 bg-gradient-hero text-primary-foreground">
+      <section className="relative pt-28 md:pt-32 pb-8 md:pb-12 bg-gradient-hero text-primary-foreground">
         <div className="container-editorial">
           <Breadcrumbs items={[{ label: "Destinos" }]} />
-          <div className="max-w-3xl mt-4">
-            <div className="gold-line mb-6" />
-            <h1 className="heading-hero mb-4">Destinos com curadoria</h1>
-            <p className="text-lg md:text-xl text-primary-foreground/85 font-light">
+          <div className="max-w-3xl mt-3 md:mt-4">
+            <div className="gold-line mb-4 md:mb-6" />
+            <h1 className="heading-hero text-3xl md:text-4xl lg:text-5xl xl:text-6xl mb-3 md:mb-4">Destinos com curadoria</h1>
+            <p className="text-base md:text-lg lg:text-xl text-primary-foreground/85 font-light">
               Uma biblioteca viva de lugares escolhidos por profundidade, autenticidade e propósito.
               Filtre por continente, experiência ou busque um destino específico.
             </p>
