@@ -293,6 +293,22 @@ const Contato = () => {
                   Enviar via WhatsApp
                 </button>
               </div>
+
+              {fallbackLink && (
+                <p className="text-sm text-muted-foreground pt-2">
+                  Não abriu automaticamente?{" "}
+                  <a
+                    href={fallbackLink}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="underline text-primary"
+                  >
+                    Abrir a conversa no WhatsApp
+                  </a>
+                  .
+                </p>
+              )}
+
             </motion.form>
           </div>
         </section>
