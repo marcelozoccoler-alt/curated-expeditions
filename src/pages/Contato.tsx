@@ -46,6 +46,7 @@ const channels = [
 const Contato = () => {
   const [form, setForm] = useState({ name: "", email: "", message: "", period: "" });
   const [submitting, setSubmitting] = useState(false);
+  const [fallbackLink, setFallbackLink] = useState<string | null>(null);
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
@@ -66,10 +67,26 @@ const Contato = () => {
       .filter(Boolean)
       .join(" ");
     const link = `https://wa.me/${CONTACT.whatsappNumber}?text=${encodeURIComponent(text)}`;
-    window.open(link, "_blank", "noopener,noreferrer");
-    toast.success("Abrindo WhatsApp para enviar sua mensagem.");
+
+    let opened: Window | null = null;
+    try {
+      opened = window.open(link, "_blank", "noopener,noreferrer");
+    } catch {
+      opened = null;
+    }
+
+    if (opened) {
+      setFallbackLink(null);
+      toast.success("Abrindo WhatsApp para enviar sua mensagem.");
+    } else {
+      // Pop-up bloqueado: navega na mesma aba e mantém um link manual visível.
+      setFallbackLink(link);
+      toast.info("Seu navegador bloqueou a nova aba. Redirecionando para o WhatsApp…");
+      window.location.href = link;
+    }
     setSubmitting(false);
   };
+
 
   const jsonLd = {
     "@context": "https://schema.org",
@@ -276,6 +293,22 @@ const Contato = () => {
                   Enviar via WhatsApp
                 </button>
               </div>
+
+              {fallbackLink && (
+                <p className="text-sm text-muted-foreground pt-2">
+                  Não abriu automaticamente?{" "}
+                  <a
+                    href={fallbackLink}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="underline text-primary"
+                  >
+                    Abrir a conversa no WhatsApp
+                  </a>
+                  .
+                </p>
+              )}
+
             </motion.form>
           </div>
         </section>
