@@ -29,7 +29,7 @@ export const DestinationCard = memo(({ destination, index = 0 }: DestinationCard
       className="card-destination group"
     >
       <Link to={`/destinos/${destination.slug}`} className="block">
-        <div className="relative aspect-[4/5] overflow-hidden">
+        <div className="relative aspect-[3/4] md:aspect-[4/5] overflow-hidden">
           <img
             src={imageUrl}
             alt={`${destination.name}, ${destination.country}`}
