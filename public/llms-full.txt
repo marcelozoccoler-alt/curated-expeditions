@@ -12,7 +12,7 @@ Perguntas frequentes com respostas diretas: https://createtravel.tur.br/pergunta
 
 ## Destinos
 
-161 destinos com roteiro sob medida. Formato: destino (país, região) — melhor época — perfil — destaques — URL.
+191 destinos com roteiro sob medida. Formato: destino (país, região) — melhor época — perfil — destaques — URL.
 
 ### Anavilhanas (Rio Negro) — Brasil (Amazônia)
 - URL: https://createtravel.tur.br/destinos/brasil/amazonia/anavilhanas
@@ -1141,6 +1141,216 @@ Perguntas frequentes com respostas diretas: https://createtravel.tur.br/pergunta
 - Destaques: Baalbek, o maior complexo romano do Oriente; Vinícolas centenárias do Vale do Bekaa; Beirute entre ruínas e vida noturna; Gruta de Jeita; Vilarejos cristãos maronitas no Monte Líbano
 - Resumo: O Líbano concentra num território minúsculo uma densidade histórica rara: templos romanos entre os mais bem preservados do mundo, vinícolas milenares no vale do Bekaa e uma Beirute que reconstrói sua identidade a cada geração sem nunca perder o apetite pela vida. A curadoria Create Travel percorre esse país de…
 
+### Antártida — Península, Drake e Círculo Polar — Antártida (Península Antártica, Drake e Círculo Polar)
+- URL: https://createtravel.tur.br/destinos/polos/antartida
+- Melhor época: Nov–Mar (verão austral). Novembro traz gelo intacto e cortejo de pinguins; janeiro e fevereiro concentram baleias e filhotes; março oferece a melhor luz para fotografia.
+- Perfil: Expedições, Remoto & raro, Fotografia, Navegação, rios & lagos, Conservação & propósito, Montanhas
+- Destaques: A travessia do Drake; Desembarques em zodiac entre icebergs; Baleias jubarte em Wilhelmina Bay; Cruzar o Círculo Polar Antártico; Camping polar e caiaque
+- Resumo: A Antártida não é um destino: é uma travessia. Cruza-se o Drake por dois dias para chegar a um continente sem dono, sem cidade e sem fuso horário útil — onde o silêncio tem textura e o azul do gelo antigo não existe em nenhuma outra paisagem da Terra. A Create Travel trabalha com armadores de expedição de pequeno…
+
+### Groenlândia — Ilulissat, Disko Bay e aurora boreal — Groenlândia (Ilulissat, Disko Bay e leste selvagem)
+- URL: https://createtravel.tur.br/destinos/polos/groenlandia
+- Melhor época: Jun–Set para navegação entre icebergs e sol da meia-noite; Set–Mar para aurora boreal, com setembro somando gelo navegável e céu ativo.
+- Perfil: Expedições, Aurora boreal, Remoto & raro, Navegação, rios & lagos, Fotografia, Cultura & história
+- Destaques: Fiorde de gelo de Ilulissat; Baleias na Disko Bay; Aurora boreal sobre o gelo; Comunidades inuítes
+- Resumo: A Groenlândia é a maior ilha do mundo e ainda uma das menos visitadas: 56 mil habitantes, nenhuma estrada entre cidades e um manto de gelo com quase três quilômetros de espessura. Em Ilulissat, o fiorde despeja icebergs do tamanho de edifícios no Atlântico Norte — patrimônio da Unesco e um dos espetáculos geológicos…
+
+### Cáucaso — Geórgia e Armênia — Geórgia e Armênia (Cáucaso — Tbilisi, Kakheti, Ereva e Kazbegi)
+- URL: https://createtravel.tur.br/destinos/asia/caucaso/georgia-armenia
+- Melhor época: Mai–Jun e Set–Out. A primavera abre as estradas de montanha; setembro e outubro trazem a vindima na Kakheti e as cores de outono nos vales.
+- Perfil: Cultura & história, Gastronomia & vinhos, Montanhas, Roadtrip cênica, Fotografia, Remoto & raro
+- Destaques: Tbilisi e suas termas de enxofre; Vinhos em ânfora na Kakheti; Mosteiro de Gergeti sob o Kazbek; Khor Virap e o monte Ararat; Geghard, esculpido na rocha
+- Resumo: O Cáucaso é a fronteira onde a Europa termina sem avisar. Geórgia e Armênia guardam os mosteiros cristãos mais antigos do mundo, cravados em desfiladeiros e platôs vulcânicos, e uma tradição vinícola de oito mil anos — o vinho nasceu ali, fermentado em ânforas de barro enterradas. A curadoria Create Travel desenha a…
+
+### Azerbaijão — Baku, Gobustan e Sheki — Azerbaijão (Baku, Gobustan e Sheki)
+- URL: https://createtravel.tur.br/destinos/asia/azerbaijao/baku-gobustan
+- Melhor época: Abr–Jun e Set–Out, com temperaturas amenas em Baku e nas montanhas do Cáucaso Maior. O verão é quente e úmido no Cáspio.
+- Perfil: Cultura & história, Deserto, Gastronomia & vinhos, Roadtrip cênica, Fotografia
+- Destaques: Icherisheher, a cidade murada; Petróglifos de Gobustan; Vulcões de lama e chamas eternas; Sheki e o palácio dos Khans
+- Resumo: O Azerbaijão é a terra do fogo — literalmente: gás natural aflora do solo e queima sozinho há séculos em Yanar Dag, e templos zoroastristas foram erguidos ao redor dessas chamas. Baku sobrepõe uma cidade murada medieval, um bulevar art nouveau do primeiro boom do petróleo e arranha-céus em forma de chama. Fora da…
+
+### Irã — Isfahan, Shiraz, Yazd e Persépolis — Irã (Isfahan, Shiraz, Yazd e Persépolis)
+- URL: https://createtravel.tur.br/destinos/asia/ira/isfahan-shiraz-yazd
+- Melhor época: Mar–Mai e Set–Nov. A primavera coincide com o Nowruz e os jardins persas floridos; o outono traz céu limpo e temperaturas ideais no deserto.
+- Perfil: Cultura & história, Deserto, Fotografia, Gastronomia & vinhos, Remoto & raro
+- Destaques: Praça Naqsh-e Jahan, em Isfahan; Persépolis ao amanhecer; Yazd e as torres de vento; Jardins e poesia em Shiraz
+- Resumo: O Irã é a Pérsia — e nenhuma imagem de telejornal prepara o viajante para a delicadeza do que encontra. Isfahan tem a segunda maior praça do mundo, cercada de cúpulas turquesa que mudam de tom conforme a hora. Persépolis guarda relevos de 2.500 anos que ainda mostram os povos do império desfilando em oferenda. Yazd é…
+
+### Rússia — Moscou, São Petersburgo e Transiberiano — Rússia (Moscou, São Petersburgo e Transiberiano)
+- URL: https://createtravel.tur.br/destinos/europa/russia/moscou-sao-petersburgo
+- Melhor época: Mai–Set, com destaque para as Noites Brancas de São Petersburgo (junho e início de julho). O inverno oferece a Rússia clássica sob neve, com ballet e museus.
+- Perfil: Cultura & história, Roadtrip cênica, Fotografia, Gastronomia & vinhos, Expedições
+- Destaques: Hermitage e o Palácio de Inverno; Noites Brancas de São Petersburgo; Praça Vermelha e o metrô de Moscou; Transiberiano e o lago Baikal
+- Resumo: A Rússia é escala: o Hermitage tem três milhões de peças, o metrô de Moscou tem estações que são palácios subterrâneos e o Transiberiano cruza sete fusos horários entre a Europa e o Pacífico. São Petersburgo é a cidade mais europeia do país, construída sobre pântanos por decreto imperial, com canais que refletem…
+
+### Indonésia — Sumatra, Java e os vulcões — Indonésia (Sumatra, Java e vulcões)
+- URL: https://createtravel.tur.br/destinos/asia/indonesia/sumatra-java
+- Melhor época: Abr–Out (estação seca). Julho e agosto trazem as melhores condições para os amanheceres em Bromo e Ijen e para o trekking em Bukit Lawang.
+- Perfil: Expedições, Montanhas, Conservação & propósito, Fotografia, Remoto & raro, Cultura & história
+- Destaques: Orangotangos em Bukit Lawang; Amanhecer no monte Bromo; Fogo azul do Ijen; Borobudur ao nascer do sol; Lago Toba e a cultura Batak
+- Resumo: Bali é a porta de entrada da Indonésia — Sumatra e Java são o país inteiro. Em Bukit Lawang, orangotangos selvagens descem às margens do rio na última floresta onde eles ainda dividem território com tigres e rinocerontes. Em Java, o Bromo emerge de um mar de nuvens ao amanhecer e o Ijen queima fogo azul dentro da…
+
+### Tasmânia — Cradle Mountain, Freycinet e Hobart — Austrália (Tasmânia — Hobart, Freycinet e Cradle Mountain)
+- URL: https://createtravel.tur.br/destinos/oceania/australia/tasmania
+- Melhor época: Nov–Abr (verão austral), com dias longos e trilhas plenamente abertas. Junho traz o Dark Mofo, festival de inverno em Hobart.
+- Perfil: Trekking & trilhas, Montanhas, Gastronomia & vinhos, Fotografia, Remoto & raro, Conservação & propósito
+- Destaques: Cradle Mountain e o Dove Lake; Wineglass Bay, em Freycinet; MONA, em Hobart; Vinhos e ostras do Vale do Tamar; Bay of Fires
+- Resumo: A Tasmânia é a Austrália que quase ninguém conhece: uma ilha do tamanho da Irlanda com quase metade do território protegido, ar medido entre os mais limpos do planeta e uma cena gastronômica que rivaliza com a de Melbourne. Cradle Mountain reflete-se no Dove Lake com uma dramaticidade quase escocesa; a Wineglass Bay…
+
+### Ilha de Páscoa — Rapa Nui — Chile (Rapa Nui — Ilha de Páscoa)
+- URL: https://createtravel.tur.br/destinos/america-do-sul/chile/ilha-de-pascoa
+- Melhor época: Set–Nov e Mar–Mai, com clima ameno e menos visitantes. Fevereiro concentra a Tapati Rapa Nui, o maior festival cultural polinésio do Pacífico Sul.
+- Perfil: Cultura & história, Remoto & raro, Fotografia, Praias & ilhas, Festivais folclóricos
+- Destaques: Nascer do sol em Ahu Tongariki; Rano Raraku, a pedreira dos gigantes; Orongo e o culto do homem-pássaro; Anakena e a areia coralina
+- Resumo: Rapa Nui é o lugar habitado mais isolado do planeta: 3.700 quilômetros de oceano até a costa chilena, 2.000 até a ilha vizinha mais próxima. Nesse isolamento, um povo polinésio esculpiu quase mil moai em rocha vulcânica e os ergueu de frente para as aldeias, de costas para o mar. Caminhar pela pedreira do Rano…
+
+### Lago Titicaca — Puno, Taquile e Isla del Sol — Peru e Bolívia (Lago Titicaca — Puno, Taquile e Isla del Sol)
+- URL: https://createtravel.tur.br/destinos/america-do-sul/peru/lago-titicaca
+- Melhor época: Mai–Set (estação seca), com céu limpo e noites frias. Fevereiro traz a Candelária em Puno, uma das maiores festas religiosas dos Andes.
+- Perfil: Cultura & história, Montanhas, Navegação, rios & lagos, Fotografia, Festivais folclóricos
+- Destaques: Ilhas flutuantes dos Uros; Taquile e o têxtil patrimônio da humanidade; Pernoite em Amantani; Isla del Sol, na Bolívia
+- Resumo: A 3.812 metros de altitude, o Titicaca é o lago navegável mais alto do mundo e, para as culturas andinas, o berço do sol. A água tem um azul denso que parece pintado, as ilhas Uros flutuam sobre camadas de totora renovadas a cada quinze dias e, em Taquile, os homens tecem e as mulheres fiam em uma sociedade que a…
+
+### Mendoza — Vale de Uco, Malbec e Cordilheira — Argentina (Mendoza — Uco, Luján de Cuyo e Maipú)
+- URL: https://createtravel.tur.br/destinos/america-do-sul/argentina/mendoza
+- Melhor época: Mar–Abr (vindima e outono nos parreirais) e Out–Dez (primavera com Andes nevados ao fundo). Março concentra a Fiesta Nacional de la Vendimia.
+- Perfil: Gastronomia & vinhos, Montanhas, Roadtrip cênica, Bem-estar & slow travel, Fotografia, Viagem em família
+- Destaques: Vale de Uco em dia inteiro; Almoços de autor nas bodegas; Alta montanha e o Aconcágua; Cavalgada andina com asado
+- Resumo: Mendoza é a região vinícola de maior altitude do mundo em escala comercial — parreirais a até 1.700 metros, com os Andes nevados como pano de fundo permanente. O Malbec, uva francesa quase extinta na origem, encontrou aqui sua expressão definitiva. Mas a viagem vai além da taça: almoços de sete tempos em bodegas de…
+
+### Lagos Andinos e Chiloé — Bariloche, Puerto Varas e o arquipélago — Chile e Argentina (Lagos Andinos, Bariloche, Puerto Varas e Chiloé)
+- URL: https://createtravel.tur.br/destinos/america-do-sul/chile/lagos-andinos-chiloe
+- Melhor época: Nov–Mar (verão austral, dias longos e travessias tranquilas). Jun–Set traz esqui em Bariloche e no Osorno; abril pinta as lengas de vermelho.
+- Perfil: Montanhas, Roadtrip cênica, Navegação, rios & lagos, Gastronomia & vinhos, Fotografia, Viagem em família
+- Destaques: Cruce Andino entre Bariloche e Petrohué; Vulcão Osorno e os saltos de Petrohué; Igrejas de madeira de Chiloé; Curanto en hoyo; Bariloche e o Circuito Chico
+- Resumo: Entre o Chile e a Argentina há uma região de vulcões perfeitos, lagos de água esmeralda e floresta valdiviana que sobrevive desde antes da última glaciação. A travessia dos lagos andinos — feita em uma combinação de barcos e estradas entre Bariloche e Puerto Varas — é uma das viagens cênicas mais bonitas do…
+
+### Kilimanjaro — o teto da África — Tanzânia (Kilimanjaro — rotas Machame, Lemosho e Rongai)
+- URL: https://createtravel.tur.br/destinos/africa/tanzania/kilimanjaro
+- Melhor época: Jan–Mar e Jun–Out (janelas secas). Janeiro e fevereiro têm céu mais limpo; agosto e setembro concentram a alta temporada com melhor previsibilidade.
+- Perfil: Trekking & trilhas, Montanhas, Expedições, Fotografia, Conservação & propósito
+- Destaques: Cinco zonas climáticas em uma subida; Muralha de Barranco; Cume ao amanhecer no Uhuru Peak; Equipe local e ritual de despedida
+- Resumo: O Kilimanjaro é a montanha mais alta do mundo que se sobe caminhando: 5.895 metros sem escalada técnica, atravessando cinco zonas climáticas em poucos dias — da floresta tropical à calota glacial, como se percorresse do Equador aos polos em uma semana. Chegar ao Uhuru Peak ao amanhecer, com as geleiras acesas em…
+
+### Tour du Mont Blanc — Alpes em três países — França, Itália e Suíça (Tour du Mont Blanc — Chamonix, Courmayeur e Vale de Ferret)
+- URL: https://createtravel.tur.br/destinos/europa/alpes/tour-mont-blanc
+- Melhor época: Jul–Set, quando os refúgios estão abertos e os colos livres de neve. Fim de junho traz flores alpinas; setembro oferece menos gente e ar mais limpo.
+- Perfil: Trekking & trilhas, Montanhas, Gastronomia & vinhos, Fotografia, Bem-estar & slow travel
+- Destaques: Aiguille du Midi e o Vallée Blanche; Col de la Seigne, entrada na Itália; Courmayeur e a cozinha valdostana; Vale de Ferret suíço; Refúgios de montanha
+- Resumo: O Tour du Mont Blanc é a caminhada de longa distância mais célebre da Europa: cerca de 170 quilômetros em volta do maciço, atravessando França, Itália e Suíça, com geleiras à vista o tempo todo e uma mudança de idioma, cozinha e arquitetura a cada dois dias. Não é uma travessia de sobrevivência — dorme-se em refúgios…
+
+### Papua-Nova Guiné — Terras Altas, Sepik e Melanésia — Papua-Nova Guiné (Terras Altas, Rio Sepik e Melanésia)
+- URL: https://createtravel.tur.br/destinos/oceania/papua-nova-guine
+- Melhor época: Mai–Out (estação seca). Agosto e setembro concentram os grandes sing-sings das Terras Altas, quando dezenas de clãs se reúnem para dançar.
+- Perfil: Remoto & raro, Cultura & história, Festivais folclóricos, Expedições, Fotografia, Navegação, rios & lagos
+- Destaques: Sing-sings das Terras Altas; Rio Sepik em embarcação privativa; Aves-do-paraíso em Tari; Kokoda Track e a memória da guerra
+- Resumo: Papua-Nova Guiné é o último grande arquivo vivo da diversidade humana: mais de 800 línguas em um único país, clãs que só encontraram o mundo exterior no século XX e uma floresta que ainda guarda espécies sem nome científico. Viajar aqui não é turismo — é presença. A Create Travel organiza a logística que torna o país…
+
+### Palau e Micronésia — Rock Islands e o oceano intacto — Palau (Rock Islands, Micronésia)
+- URL: https://createtravel.tur.br/destinos/oceania/palau-micronesia
+- Melhor época: Nov–Abr para mar mais calmo e visibilidade máxima; Dez–Mar concentra as melhores condições para mergulho em correnteza.
+- Perfil: Mergulho & snorkel, Praias & ilhas, Remoto & raro, Conservação & propósito, Navegação, rios & lagos, Fotografia
+- Destaques: Blue Corner; Jellyfish Lake; Rock Islands de caiaque; Naufrágios da Segunda Guerra
+- Resumo: Palau transformou 80% de suas águas em santuário marinho e virou referência mundial de conservação: quem entra no país assina, no passaporte, um compromisso com o oceano. O resultado é uma densidade de vida marinha que praticamente não existe mais no planeta — tubarões-de-recife em cardume, mantas em estação de…
+
+### Tonga — nadar com baleias jubarte em Vava'u — Tonga (Vava'u e Ha'apai)
+- URL: https://createtravel.tur.br/destinos/oceania/tonga-baleias
+- Melhor época: Jul–Out, temporada de reprodução das jubartes no Pacífico Sul. Agosto e setembro concentram os filhotes recém-nascidos.
+- Perfil: Mergulho & snorkel, Remoto & raro, Conservação & propósito, Praias & ilhas, Fotografia, Navegação, rios & lagos
+- Destaques: Encontro em água aberta com mãe e filhote; O canto dos machos; Heat runs; O arquipélago de Vava'u
+- Resumo: Tonga é um dos pouquíssimos lugares do mundo onde é legal e regulado entrar na água com baleias jubarte. Entre julho e outubro, elas cruzam milhares de quilômetros da Antártida até as águas mornas e protegidas de Vava'u para parir e amamentar. Estar a alguns metros de uma fêmea de quinze metros que decide observá-lo…
+
+### Paquistão — Vale do Hunza e o Karakoram — Paquistão (Vale do Hunza, Karakoram e Baltistão)
+- URL: https://createtravel.tur.br/destinos/asia/paquistao/hunza-karakoram
+- Melhor época: Abr–Mai para as amendoeiras e damasqueiros em flor; Set–Out para o outono dourado dos álamos e céu limpo sobre o Rakaposhi.
+- Perfil: Montanhas, Trekking & trilhas, Cultura & história, Remoto & raro, Fotografia, Expedições
+- Destaques: Fortes de Baltit e Altit; Passo de Khunjerab e a Karakoram Highway; Geleira Passu e as Cathedral Spires; Fairy Meadows e o Nanga Parbat
+- Resumo: O Karakoram concentra a maior densidade de montanhas altas do planeta: quatro picos de mais de oito mil metros a poucos vales de distância, incluindo o K2. No meio dessa geografia impossível está o Hunza, um vale de terraços de damasco e albricoques onde as pessoas envelhecem bem e recebem estranhos com uma…
+
+### Ladakh — mosteiros himalaicos e o leopardo-das-neves — Índia (Ladakh, Himalaia indiano)
+- URL: https://createtravel.tur.br/destinos/asia/india/ladakh
+- Melhor época: Jun–Set para vales abertos, festivais monásticos e trekking; Jan–Mar para rastrear leopardo-das-neves em Hemis.
+- Perfil: Montanhas, Cultura & história, Remoto & raro, Trekking & trilhas, Fotografia, Safári & vida selvagem
+- Destaques: Mosteiros de Thiksey, Hemis e Lamayuru; Vale de Nubra e Khardung La; Lago Pangong; Festivais monásticos mascarados
+- Resumo: Ladakh é o Tibete que ainda se pode visitar: budismo vajrayana vivo, mosteiros do século XI colados em penhascos e uma paisagem de deserto de altitude onde a terra é ocre e o céu, de um azul quase artificial. A 3.500 metros, o ar seco e a luz cortante mudam a percepção das distâncias — uma montanha que parece a uma…
+
+### Kerala — backwaters, chá e a Costa do Malabar — Índia (Kerala, Costa do Malabar)
+- URL: https://createtravel.tur.br/destinos/asia/india/kerala
+- Melhor época: Out–Mar, com clima seco e ameno. Dezembro e janeiro são os meses mais confortáveis; agosto traz o festival de barcos de Onam.
+- Perfil: Navegação, rios & lagos, Bem-estar & slow travel, Gastronomia & vinhos, Cultura & história, Praias & ilhas, Viagem em família
+- Destaques: Backwaters em kettuvallam privativo; Fort Kochi e as redes chinesas; Plantações de chá de Munnar; Kathakali e teyyam
+- Resumo: Kerala é a Índia em outro andamento: verde, marítima, alfabetizada, temperada por séculos de comércio com árabes, chineses, portugueses e holandeses. Aqui a viagem se organiza em camadas — os canais dos backwaters, as montanhas de chá dos Ghats Ocidentais, as casas coloniais de Fort Kochi e a medicina ayurvédica…
+
+### Ásia Central — Samarcanda, Bukhara e as montanhas Tien Shan — Uzbequistão e Quirguistão (Rota da Seda e Tien Shan)
+- URL: https://createtravel.tur.br/destinos/asia/asia-central/uzbequistao-quirguistao
+- Melhor época: Abr–Jun e Set–Out nas cidades da Rota da Seda; Jul–Ago para os pastos de altitude e os jailoos do Quirguistão.
+- Perfil: Cultura & história, Montanhas, Remoto & raro, Gastronomia & vinhos, Fotografia, Cavalgadas
+- Destaques: Registan, em Samarcanda; Bukhara, a cidade que continua sendo cidade; Khiva ao amanhecer; Jailoos e o lago Song-Köl
+- Resumo: Nenhuma outra região concentra tanto azul: as madrassas de Samarcanda e Bukhara são cobertas de azulejos cobalto e turquesa que atravessaram seiscentos anos. A Rota da Seda não é metáfora aqui — é urbanismo, é comida, é a razão pela qual um bazar de Tashkent vende damascos do Ferganá ao lado de tapetes turcomanos. A…
+
+### Tibete — Lhasa, Shigatse e a face norte do Everest — Tibete e Nepal (Lhasa, Shigatse e face norte do Everest)
+- URL: https://createtravel.tur.br/destinos/asia/tibete/lhasa-everest
+- Melhor época: Abr–Jun e Set–Out, com céu limpo e estradas abertas. Outubro oferece a melhor visibilidade do Everest a partir de Rongbuk.
+- Perfil: Montanhas, Cultura & história, Remoto & raro, Fotografia, Expedições, Trekking & trilhas
+- Destaques: Palácio de Potala e templo de Jokhang; Mosteiro de Tashilhunpo, em Shigatse; Face norte do Everest em Rongbuk; Lago Yamdrok e o passo Kamba La
+- Resumo: O planalto tibetano é a maior altitude habitada do planeta — uma imensidão de 4.500 metros onde o ar é escasso, a luz é violenta e a fé é a estrutura organizadora de tudo. Peregrinos medem o caminho até Lhasa com o próprio corpo, prostração após prostração. O Potala domina a cidade como uma montanha construída. E,…
+
+### Etiópia — Lalibela, Vale do Omo e a depressão de Danakil — Etiópia (Vale do Omo, Lalibela e Danakil)
+- URL: https://createtravel.tur.br/destinos/africa/etiopia/omo-lalibela
+- Melhor época: Out–Mar, com estradas secas. Janeiro traz o Timkat, a maior celebração ortodoxa do país; setembro tem o Meskel e as planícies floridas.
+- Perfil: Cultura & história, Remoto & raro, Festivais folclóricos, Fotografia, Expedições, Deserto
+- Destaques: Igrejas monolíticas de Lalibela; Montanhas Simien; Vale do Omo; Depressão de Danakil
+- Resumo: A Etiópia nunca foi colonizada, tem alfabeto próprio, calendário próprio e uma igreja cristã de mil e setecentos anos que talhou catedrais inteiras para dentro da rocha. É a África que quase ninguém imagina: planaltos frios a três mil metros, mosteiros em ilhas do lago Tana, um deserto de sal onde a terra ferve em…
+
+### Gana, Togo e Benim — raízes, vodum e a Rota do Atlântico — Gana, Togo e Benim (Golfo da Guiné, costa dos escravos e terras vodum)
+- URL: https://createtravel.tur.br/destinos/africa/gana-togo-benim
+- Melhor época: Nov–Mar, na estação seca. O dia 10 de janeiro reúne o Festival Nacional do Vodum em Ouidah, no Benim.
+- Perfil: Cultura & história, Festivais folclóricos, Remoto & raro, Fotografia, Gastronomia & vinhos
+- Destaques: Castelos de Cape Coast e Elmina; Ouidah e o vodum vivo; Ganvié, a Veneza africana; Palácios reais de Abomé
+- Resumo: Para o viajante brasileiro, esta é a viagem de origem: é do Golfo da Guiné que vieram o candomblé, o vodum, o jeje-nagô, a comida de azeite de dendê e boa parte da matriz cultural do Brasil. Ouidah, Abomé, Cape Coast e Elmina não são apenas sítios históricos — são o outro lado de uma travessia que moldou nosso país.…
+
+### Senegal e Gâmbia — Dakar, deltas e o Sahel atlântico — Senegal e Gâmbia (Dakar, Saloum, Casamance e Rio Gâmbia)
+- URL: https://createtravel.tur.br/destinos/africa/senegal-gambia
+- Melhor época: Nov–Abr, com clima seco e ameno. Dezembro a fevereiro concentra as aves migratórias do Djoudj.
+- Perfil: Cultura & história, Birdwatching, Navegação, rios & lagos, Praias & ilhas, Gastronomia & vinhos, Fotografia
+- Destaques: Ilha de Gorée; Saint-Louis e o rio Senegal; Delta do Saloum de piroga; Parque de Djoudj
+- Resumo: O Senegal tem a teranga, uma palavra wolof para uma hospitalidade que é quase institucional, e uma cena musical que exportou o mbalax para o mundo. Saint-Louis guarda a arquitetura crioula das margens do rio; a Ilha de Gorée devolve, em pedra, a memória do tráfico atlântico; o delta do Saloum abre um labirinto de…
+
+### Cabo Verde — trilhas de Santo Antão, morna e o vulcão do Fogo — Cabo Verde (Santo Antão, São Vicente, Fogo e Sal)
+- URL: https://createtravel.tur.br/destinos/africa/cabo-verde
+- Melhor época: Nov–Jun, com clima seco e ventos constantes. Agosto reúne o Festival da Baía das Gatas, em São Vicente.
+- Perfil: Trekking & trilhas, Montanhas, Praias & ilhas, Cultura & história, Gastronomia & vinhos, Fotografia
+- Destaques: Travessia do Vale do Paul, em Santo Antão; Chã das Caldeiras, na Ilha do Fogo; Mindelo e a morna; Cidade Velha, em Santiago
+- Resumo: Cabo Verde é o arquipélago onde a língua é irmã da nossa, a música é morna e coladeira, e a paisagem muda radicalmente de uma ilha para a outra: Santo Antão é uma catedral vertical de vales verdes e caminhos de pedra; o Fogo tem uma caldeira habitada com vinhas plantadas em cinza vulcânica; São Vicente vive de música…
+
+### Svalbard — ursos-polares, gelo do Ártico e sol da meia-noite — Noruega (Svalbard e Spitsbergen)
+- URL: https://createtravel.tur.br/destinos/polos/svalbard-spitsbergen
+- Melhor época: Jun–Ago para navegação, sol da meia-noite e ursos na borda do gelo; Mar–Abr para trenó de cães e luz azul do fim da noite polar.
+- Perfil: Expedições, Remoto & raro, Safári & vida selvagem, Aurora boreal, Navegação, rios & lagos, Fotografia
+- Destaques: Ursos-polares na borda do gelo; Frente de geleira em Monacobreen; Colônias de aves e morsas; Longyearbyen
+- Resumo: Svalbard fica a mil quilômetros do polo norte e tem mais ursos-polares do que habitantes. É o Ártico verdadeiro, com geleiras despencando direto no mar, morsas em praias de seixos e a borda do banquisa onde o urso caça foca. No verão, o sol não se põe por quatro meses; no inverno, não nasce por outros quatro. Navegar…
+
+### Guatemala e Honduras — Tikal, Atitlán e a Copán maia — Guatemala e Honduras (Tikal, Atitlán, Antígua e Copán)
+- URL: https://createtravel.tur.br/destinos/america-central/guatemala-honduras
+- Melhor época: Nov–Abr, na estação seca. A Semana Santa em Antígua, em março ou abril, é uma das maiores do continente.
+- Perfil: Cultura & história, Montanhas, Festivais folclóricos, Gastronomia & vinhos, Fotografia, Viagem em família
+- Destaques: Tikal ao amanhecer; Lago Atitlán; Antígua Guatemala; Copán, em Honduras
+- Resumo: A Guatemala é o coração do mundo maia e continua sendo: vinte e duas línguas maias vivas, mercados de tecido em Chichicastenango e cerimônias com copal que acontecem porque precisam acontecer, não porque alguém assiste. Antígua guarda a arquitetura colonial mais bonita da América Central sob três vulcões, um deles em…
+
+### Amazônia peruana — cruzeiro no alto Amazonas e Pacaya-Samiria — Peru (Rio Amazonas, Pacaya-Samiria e Iquitos)
+- URL: https://createtravel.tur.br/destinos/america-do-sul/peru/amazonia-cruzeiro
+- Melhor época: Dez–Mai na cheia, com navegação por igapós e florestas alagadas; Jun–Nov na vazante, com praias de rio e melhor observação de fauna em terra.
+- Perfil: Navegação, rios & lagos, Birdwatching, Conservação & propósito, Remoto & raro, Fotografia, Bem-estar & slow travel
+- Destaques: Saídas de esquife ao amanhecer; Pacaya-Samiria; Comunidades ribeirinhas; Iquitos e o mercado de Belén
+- Resumo: O Amazonas nasce no Peru, e é ali — onde o Marañón encontra o Ucayali — que a floresta ainda oferece a maior densidade de fauna visível do rio inteiro. A reserva de Pacaya-Samiria protege dois milhões de hectares de floresta inundável, com botos rosados, preguiças, macacos-de-cheiro e mais de quatrocentas espécies de…
+
+### Cordilheira Branca e Huayhuash — os Andes de trekking do Peru — Peru (Cordilheira Branca, Huayhuash e Huaraz)
+- URL: https://createtravel.tur.br/destinos/america-do-sul/peru/cordilheira-branca
+- Melhor época: Mai–Set, a estação seca andina, com céu limpo e trilhas abertas. Junho e julho são os meses mais estáveis.
+- Perfil: Trekking & trilhas, Montanhas, Remoto & raro, Fotografia, Expedições, Cultura & história
+- Destaques: Laguna 69; Trekking de Santa Cruz; Circuito Huayhuash; Chavín de Huántar
+- Resumo: A Cordilheira Branca é a maior cadeia tropical glaciada do mundo: mais de cinquenta cumes acima de cinco mil e setecentos metros em duzentos quilômetros de extensão, coroados pelo Huascarán, o teto do Peru. As lagoas glaciais têm um turquesa que parece manipulado, e os vales guardam quéchuas cultivando batata a…
+
 ## Regiões e circuitos regionais
 
 - [Amazônia](https://createtravel.tur.br/amazonia): Amazônia em estado de contemplação: ilhas, canais e silêncio com profundidade. A Create Travel desenha imersões com ética ambiental, conforto real e guias que sabem ler a floresta.
@@ -1282,7 +1492,7 @@ Perguntas frequentes com respostas diretas: https://createtravel.tur.br/pergunta
 - Duração: 9 dias / 8 noites · Países: Áustria, Hungria, Eslováquia, República Tcheca
 - Saídas: 2027-04-01, 2027-04-08, 2027-04-15, 2027-04-22, 2027-04-29, 2027-05-06 (e outras datas)
 - Destaques: Viena imperial: Hofburg, Ópera e Ringstrasse; Budapeste vista do Bastião dos Pescadores; Bratislava em caminhada pelo centro medieval; Praga: Castelo, Malá Strana e Ponte Carlos; Ônibus moderno com áudio individual
-- Resumo: As mesmas quatro capitais imperiais em versão Primeira: Viena, Budapeste, Bratislava e Praga com o essencial preservado — cafés históricos, pontes iluminadas e centros a pé — em uma estrutura de hotel mais enxuta e preço mais leve.
+- Resumo: As mesmas quatro capitais imperiais em versão Primeira: Viena, Budapeste, Bratislava e Praga com o essencial preservado — cafés históricos, pontes iluminadas e centros a pé — em uma seleção de hotelaria mais discreta, para quem prefere concentrar o investimento nas experiências.
 
 ### Leste Europeu
 - URL: https://createtravel.tur.br/grupos-guia-local/leste-europeu-premium
@@ -1296,7 +1506,7 @@ Perguntas frequentes com respostas diretas: https://createtravel.tur.br/pergunta
 - Duração: 11 dias / 10 noites · Países: Áustria, Hungria, Eslováquia, República Tcheca, Alemanha
 - Saídas: 2027-04-01, 2027-04-08, 2027-04-15, 2027-04-22, 2027-04-29, 2027-05-06 (e outras datas)
 - Destaques: Cinco cidades históricas em um só circuito; Dresden e o Elba entre Praga e Berlim; Berlim contemporânea com guia local; Centro de Praga a pé, do castelo ao rio; Budapeste em dois dias
-- Resumo: De Viena a Berlim em onze dias, atravessando cinco cidades que contam a Europa do império ao muro. Versão Primeira: mesmo roteiro, mesma profundidade, hotelaria mais econômica.
+- Resumo: De Viena a Berlim em onze dias, atravessando cinco cidades que contam a Europa do império ao muro. Versão Primeira: mesmo roteiro, mesma profundidade, hotelaria de perfil mais discreto.
 
 ### De Viena a Frankfurt
 - URL: https://createtravel.tur.br/grupos-guia-local/de-viena-a-frankfurt
@@ -1768,7 +1978,7 @@ Perguntas frequentes com respostas diretas: https://createtravel.tur.br/pergunta
 ### Gastronomia na Turquia: sabores e culturas além do kebab
 - URL: https://createtravel.tur.br/diario/gastronomia-na-turquia-alem-do-kebab
 - Categoria: Cultura · Publicado: 2026-07-09 · Leitura: 8 min
-- Resumo: Guia autoral do que comer na Turquia: mezes, kahvaltı (café turco), baklava de Gaziantep, street food de Istambul e onde provar cada prato. Por travel designers.
+- Resumo: Do kahvaltı de Beşiktaş ao baklava de Gaziantep: 14 pratos turcos imperdíveis, os endereços certos em Istambul e Capadócia e a melhor época para ir.
 - P: Qual é a melhor cidade da Turquia para experiência gastronômica? R: Istambul é a mais completa pela variedade, mas Gaziantep é a capital gastronômica reconhecida pela UNESCO — é onde nasce o baklava e onde a cozinha anatólia atinge seu ápice. Idealmente, combine as duas.
 - P: Comida turca é muito apimentada? R: Não. A cozinha turca usa temperos com sofisticação — cominho, sumac, pimenta-doce, hortelã seca —, mas é menos ardida que a indiana ou a tailandesa. Alguns kebabs de Adana têm mais pimenta, mas quase tudo é palatável para o brasileiro.
 - P: Vegetarianos comem bem na Turquia? R: Muito bem. Boa parte dos mezes é vegetariana, os pratos com berinjela são numerosos (o clássico imam bayıldı), e há sopas de lentilha (mercimek çorbası) em qualquer restaurante. Peixe e frutos do mar são abundantes na costa.
@@ -1800,7 +2010,7 @@ Perguntas frequentes com respostas diretas: https://createtravel.tur.br/pergunta
 ### Namíbia: o silêncio que se ouve do alto de uma duna
 - URL: https://createtravel.tur.br/diario/namibia-cultura-e-vida-selvagem
 - Categoria: Destino · Publicado: 2026-05-24 · Leitura: 6 min
-- Resumo: Cultura himba, dunas de Sossusvlei, costa dos esqueletos e roteiros autorais Create Travel pelo deserto mais antigo do planeta.
+- Resumo: Melhor época, roteiro de 12 dias e lodges no deserto: Sossusvlei, Damaraland, povo himba e Costa dos Esqueletos em viagens desenhadas sob medida.
 - P: Quando ir para a Namíbia? R: A estação seca (maio a outubro) é ideal: dias quentes, noites frias, vegetação rala e fauna concentrada em poços de água. Para Sossusvlei, vá em junho, julho ou agosto — luz mais limpa e temperaturas amenas.
 - P: É seguro viajar pela Namíbia? R: Sim. A Namíbia é um dos países mais seguros e estáveis da África. As estradas são bem sinalizadas, o turismo é maduro e a infraestrutura de lodges é excelente.
 - P: Brasileiros precisam de visto para a Namíbia? R: Não. Brasileiros podem permanecer até 90 dias com passaporte válido por pelo menos 6 meses.
