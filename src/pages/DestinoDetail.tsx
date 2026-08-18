@@ -100,7 +100,7 @@ const DestinoDetail = () => {
       ? introClean.slice(0, 70).replace(/[,.;:]\s*\S*$/, "") + "…"
       : introClean;
   const seoDescription =
-    `${destination.name}, ${destination.country}: ${baseDesc} Melhor época, o que fazer e roteiro sob medida com curadoria autoral — fale com um travel designer.`;
+    `${destination.name}, ${destination.country}: melhor época, o que fazer e roteiro autoral sob medida. ${baseDesc} Fale com um travel designer.`;
 
   // Keywords semânticas para Google + IAs (ChatGPT, Perplexity, Gemini, AI Overviews)
   const seoKeywords = buildDestinationKeywords(destination);
