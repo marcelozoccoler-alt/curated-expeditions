@@ -651,10 +651,11 @@ const corePosts: DiaryPost[] = [
   },
   {
     slug: "namibia-cultura-e-vida-selvagem",
-    title: "Namíbia: cultura, vida selvagem e o deserto mais antigo",
+    title: "Namíbia: quando ir, quanto custa e o que ver em 12 dias",
     h1: "Namíbia: o silêncio que se ouve do alto de uma duna",
     metaDescription:
-      "Cultura himba, dunas de Sossusvlei, costa dos esqueletos e roteiros autorais Create Travel pelo deserto mais antigo do planeta.",
+      "Melhor época, roteiro de 12 dias e lodges no deserto: Sossusvlei, Damaraland, povo himba e Costa dos Esqueletos em viagens desenhadas sob medida.",
+
     keywords: "namibia, cultura namibia, viagem namibia, sossusvlei, deserto namibia",
     intro:
       "Há lugares no mundo onde o silêncio tem peso. Na Namíbia, ele tem cor. As dunas de Sossusvlei se erguem em laranja-incandescente sobre a planície branca de Deadvlei, e o vento que atravessa o deserto do Namib — o mais antigo da Terra, com 55 milhões de anos — não interrompe nada. Apenas sublinha.",
