@@ -259,8 +259,8 @@ const Destinos = () => {
       </section>
 
       {/* Filters */}
-      <section className="border-b border-border bg-card sticky top-20 z-30 backdrop-blur-md bg-card/95">
-        <div className="container-editorial py-5 space-y-4">
+      <section className="border-b border-border bg-card sticky top-16 md:top-20 z-30 backdrop-blur-md bg-card/95">
+        <div className="container-editorial py-3 md:py-5 space-y-3 md:space-y-4">
           {/* Search */}
           <div className="relative max-w-xl">
             <Search
@@ -274,7 +274,7 @@ const Destinos = () => {
               onChange={(e) => setQueryInput(e.target.value)}
               placeholder="Buscar por nome, país ou região…"
               aria-label="Buscar destinos"
-              className="w-full pl-11 pr-10 py-3 rounded-full border border-border bg-background text-foreground placeholder:text-muted-foreground focus:outline-none focus:ring-2 focus:ring-primary/40"
+              className="w-full pl-11 pr-10 py-2.5 md:py-3 rounded-full border border-border bg-background text-foreground placeholder:text-muted-foreground focus:outline-none focus:ring-2 focus:ring-primary/40"
             />
             {queryInput && (
               <button
@@ -287,11 +287,11 @@ const Destinos = () => {
             )}
           </div>
 
-          {/* Continents */}
-          <div className="flex flex-wrap gap-2">
+          {/* Continents — horizontal scroll on mobile */}
+          <div className="flex md:flex-wrap gap-2 overflow-x-auto pb-1 md:pb-0 -mx-1 px-1 md:mx-0 md:px-0 scrollbar-hide">
             <button
               onClick={() => setContinent("todos")}
-              className={`tag ${continent === "todos" ? "tag-active" : ""}`}
+              className={`tag whitespace-nowrap ${continent === "todos" ? "tag-active" : ""}`}
             >
               Todos
             </button>
@@ -305,15 +305,15 @@ const Destinos = () => {
                     setContinent(c.id);
                   }
                 }}
-                className={`tag ${continent === c.id ? "tag-active" : ""}`}
+                className={`tag whitespace-nowrap ${continent === c.id ? "tag-active" : ""}`}
               >
                 {c.name}
               </button>
             ))}
           </div>
 
-          {/* Tags */}
-          <TagFilter selectedTags={tags} onTagsChange={setTags} />
+          {/* Tags — collapsible on mobile */}
+          <TagFilter selectedTags={tags} onTagsChange={setTags} collapsible={isMobile} />
         </div>
       </section>
 
