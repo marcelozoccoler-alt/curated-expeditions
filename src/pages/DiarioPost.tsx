@@ -12,6 +12,7 @@ import { getRelatedDestinationsForPost, getRelatedStaysForPost } from "@/lib/rel
 import { getDestinationImage } from "@/lib/destinationImages";
 import { getDiaryCover, getCategorySlug } from "@/lib/diaryImages";
 import { ShareButtons } from "@/components/ShareButtons";
+import { RelatedGroups } from "@/components/RelatedGroups";
 import { CONTACT } from "@/lib/types";
 
 
@@ -58,6 +59,14 @@ const DiarioPost = () => {
   const related = diaryPosts.filter((p) => p.slug !== post.slug).slice(0, 3);
   const relatedDestinos = getRelatedDestinationsForPost(post, 3);
   const relatedStays = getRelatedStaysForPost(post, 3);
+  // Termos para cruzar o conteúdo editorial com as saídas em grupo (links internos + contexto para IA)
+  const groupTerms = Array.from(
+    new Set([
+      ...(post.relatedDestinations ?? []).map((d) => d.label),
+      ...relatedDestinos.map((d) => d.country),
+      ...relatedDestinos.map((d) => d.name),
+    ].filter(Boolean) as string[]),
+  );
 
   return (
     <div className="min-h-screen">
@@ -257,6 +266,14 @@ const DiarioPost = () => {
           </div>
         </div>
       </article>
+
+      {groupTerms.length > 0 && (
+        <RelatedGroups
+          terms={groupTerms}
+          title="Viaje este roteiro com a Create Travel"
+          intro="Saídas em grupo já organizadas para os destinos deste artigo — com guia acompanhante do Brasil ou guia local no destino, hospedagem, traslados e visitas incluídas."
+        />
+      )}
 
       <Footer />
     </div>

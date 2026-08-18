@@ -4,6 +4,7 @@ import { motion } from "framer-motion";
 import { Calendar, MapPin, Compass, Sparkles, ArrowRight } from "lucide-react";
 import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
+import { RelatedGroups } from "@/components/RelatedGroups";
 import { WhatsAppButton } from "@/components/WhatsAppButton";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
 import { FAQSection } from "@/components/FAQSection";
@@ -596,6 +597,12 @@ const DestinoDetail = () => {
           </div>
         </section>
       )}
+
+      <RelatedGroups
+        terms={[destination.name, destination.country, destination.region].filter(Boolean)}
+        title={`Grupos com saída para ${destination.country}`}
+        intro="Saídas em grupo já confirmadas passando por este destino — com guia acompanhante do Brasil ou guia local, hospedagem, traslados e visitas incluídas."
+      />
 
       <Footer />
     </div>
