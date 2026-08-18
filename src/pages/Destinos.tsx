@@ -9,6 +9,7 @@ import { DestinationCard } from "@/components/DestinationCard";
 import { TagFilter } from "@/components/TagFilter";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
 import { SEO } from "@/components/SEO";
+import { useIsMobile } from "@/hooks/use-mobile";
 import { destinations, getFeaturedDestinations } from "@/lib/destinations";
 import { CONTINENTS, CONTACT, Destination } from "@/lib/types";
 import { getDestinosSEO } from "@/lib/seo";
@@ -98,6 +99,7 @@ const buildPageRange = (current: number, total: number): (number | "…")[] => {
 const Destinos = () => {
   const [searchParams, setSearchParams] = useSearchParams();
   const navigate = useNavigate();
+  const isMobile = useIsMobile();
   const resultsRef = useRef<HTMLDivElement>(null);
 
   const continent = searchParams.get("c") || "todos";
@@ -242,13 +244,13 @@ const Destinos = () => {
       <WhatsAppButton variant="float" />
 
       {/* Hero */}
-      <section className="relative pt-32 pb-12 bg-gradient-hero text-primary-foreground">
+      <section className="relative pt-28 md:pt-32 pb-8 md:pb-12 bg-gradient-hero text-primary-foreground">
         <div className="container-editorial">
           <Breadcrumbs items={[{ label: "Destinos" }]} />
-          <div className="max-w-3xl mt-4">
-            <div className="gold-line mb-6" />
-            <h1 className="heading-hero mb-4">Destinos com curadoria</h1>
-            <p className="text-lg md:text-xl text-primary-foreground/85 font-light">
+          <div className="max-w-3xl mt-3 md:mt-4">
+            <div className="gold-line mb-4 md:mb-6" />
+            <h1 className="heading-hero text-3xl md:text-4xl lg:text-5xl xl:text-6xl mb-3 md:mb-4">Destinos com curadoria</h1>
+            <p className="text-base md:text-lg lg:text-xl text-primary-foreground/85 font-light">
               Uma biblioteca viva de lugares escolhidos por profundidade, autenticidade e propósito.
               Filtre por continente, experiência ou busque um destino específico.
             </p>
@@ -257,8 +259,8 @@ const Destinos = () => {
       </section>
 
       {/* Filters */}
-      <section className="border-b border-border bg-card sticky top-20 z-30 backdrop-blur-md bg-card/95">
-        <div className="container-editorial py-5 space-y-4">
+      <section className="border-b border-border bg-card sticky top-16 md:top-20 z-30 backdrop-blur-md bg-card/95">
+        <div className="container-editorial py-3 md:py-5 space-y-3 md:space-y-4">
           {/* Search */}
           <div className="relative max-w-xl">
             <Search
@@ -272,7 +274,7 @@ const Destinos = () => {
               onChange={(e) => setQueryInput(e.target.value)}
               placeholder="Buscar por nome, país ou região…"
               aria-label="Buscar destinos"
-              className="w-full pl-11 pr-10 py-3 rounded-full border border-border bg-background text-foreground placeholder:text-muted-foreground focus:outline-none focus:ring-2 focus:ring-primary/40"
+              className="w-full pl-11 pr-10 py-2.5 md:py-3 rounded-full border border-border bg-background text-foreground placeholder:text-muted-foreground focus:outline-none focus:ring-2 focus:ring-primary/40"
             />
             {queryInput && (
               <button
@@ -285,11 +287,11 @@ const Destinos = () => {
             )}
           </div>
 
-          {/* Continents */}
-          <div className="flex flex-wrap gap-2">
+          {/* Continents — horizontal scroll on mobile */}
+          <div className="flex md:flex-wrap gap-2 overflow-x-auto pb-1 md:pb-0 -mx-1 px-1 md:mx-0 md:px-0 scrollbar-hide">
             <button
               onClick={() => setContinent("todos")}
-              className={`tag ${continent === "todos" ? "tag-active" : ""}`}
+              className={`tag whitespace-nowrap ${continent === "todos" ? "tag-active" : ""}`}
             >
               Todos
             </button>
@@ -303,15 +305,15 @@ const Destinos = () => {
                     setContinent(c.id);
                   }
                 }}
-                className={`tag ${continent === c.id ? "tag-active" : ""}`}
+                className={`tag whitespace-nowrap ${continent === c.id ? "tag-active" : ""}`}
               >
                 {c.name}
               </button>
             ))}
           </div>
 
-          {/* Tags */}
-          <TagFilter selectedTags={tags} onTagsChange={setTags} />
+          {/* Tags — collapsible on mobile */}
+          <TagFilter selectedTags={tags} onTagsChange={setTags} collapsible={isMobile} />
         </div>
       </section>
 
