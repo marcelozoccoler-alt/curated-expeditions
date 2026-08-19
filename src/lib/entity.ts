@@ -146,6 +146,18 @@ export const organizationLd = {
       value: entityMethod,
     },
   ],
+  geo: {
+    "@type": "GeoCoordinates",
+    latitude: -23.6118,
+    longitude: -46.6489,
+  },
+  priceRange: "$$$",
+  openingHoursSpecification: {
+    "@type": "OpeningHoursSpecification",
+    dayOfWeek: ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+    opens: "09:00",
+    closes: "18:00",
+  },
   areaServed: [
     { "@type": "Country", name: "Brasil" },
     { "@type": "Place", name: "Mundo" },
@@ -156,16 +168,23 @@ export const organizationLd = {
     "Curadoria de viagens assistida por inteligência de dados e IA",
     "Planejamento de viagens de alto valor com consultor humano dedicado",
   ],
-  knowsLanguage: ["pt-BR", "es", "en", "it", "de"],
+  knowsLanguage: ENTITY_LANGUAGE_CODES,
 
   audience: {
     "@type": "Audience",
     audienceType:
       "Viajantes 40+ com alto poder de compra, casais, famílias, grupos de amigos e empresas",
   },
-  makesOffer: entitySpecialties.map((s) => ({
+  makesOffer: entitySpecialties.map((s, i) => ({
     "@type": "Offer",
-    itemOffered: { "@type": "Service", name: s },
+    "@id": `${DOMAIN}/#offer-${i + 1}`,
+    itemOffered: {
+      "@type": "Service",
+      name: s,
+      serviceType: s,
+      provider: { "@id": ENTITY_IDS.organization },
+      areaServed: { "@type": "Place", name: "Worldwide" },
+    },
   })),
   sameAs: entitySameAs,
   contactPoint: [
@@ -174,7 +193,7 @@ export const organizationLd = {
       contactType: "sales",
       telephone: `+${CONTACT.whatsappNumber}`,
       email: CONTACT.email,
-      availableLanguage: ["Portuguese", "Spanish", "English", "Italian", "German"],
+      availableLanguage: ENTITY_LANGUAGE_NAMES,
       areaServed: "Worldwide",
     },
   ],
@@ -189,6 +208,14 @@ export const websiteLd = {
   inLanguage: "pt-BR",
   description: entityWhoIs,
   publisher: { "@id": ENTITY_IDS.organization },
+  potentialAction: {
+    "@type": "SearchAction",
+    target: {
+      "@type": "EntryPoint",
+      urlTemplate: `${DOMAIN}/destinos?q={search_term_string}`,
+    },
+    "query-input": "required name=search_term_string",
+  },
 };
 
 /** FAQ da entidade — usado na página Sobre para reforçar as 5 respostas. */
