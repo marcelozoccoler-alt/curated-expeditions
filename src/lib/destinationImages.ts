@@ -5,10 +5,17 @@ const modules = import.meta.glob("../assets/destinations/*.jpg", {
   import: "default",
 }) as Record<string, string>;
 
+// Normalizes keys so ids with accents (ex.: "asia-indonésia-bali") resolve
+// against ASCII filenames (asia-indonesia-bali.jpg).
+const normalize = (s: string) =>
+  s.normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase();
+
 const map: Record<string, string> = {};
 for (const path in modules) {
   const m = path.match(/destinations\/(.+)\.jpg$/);
-  if (m) map[m[1]] = modules[path];
+  if (m) map[normalize(m[1])] = modules[path];
 }
 
-export const getDestinationImage = (id: string): string | undefined => map[id];
+export const getDestinationImage = (id: string): string | undefined =>
+  map[normalize(id)];
+
