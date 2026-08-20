@@ -38,56 +38,72 @@
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png?v=2">
 
 
+    <!-- Grafo estático da entidade (mesmos @id do grafo emitido em runtime — sem duplicar a entidade) -->
     <script type="application/ld+json">
     {
       "@context": "https://schema.org",
-      "@type": "TravelAgency",
-      "name": "Create Travel",
-      "url": "https://createtravel.tur.br",
-      "logo": "https://createtravel.tur.br/icon-512.png",
-      "description": "Operadora brasileira de viagens com curadoria autoral: roteiros sob medida, expedições e hospedagens selecionadas no Brasil e no mundo.",
-      "email": "contato@createtravel.tur.br",
-      "telephone": "+55 11 96369-3159",
-      "priceRange": "$$$",
-      "taxID": "21.030.190/0001-60",
-      "address": {
-        "@type": "PostalAddress",
-        "streetAddress": "Rua José Libero, 80 - Planalto Paulista",
-        "addressLocality": "São Paulo",
-        "addressRegion": "SP",
-        "postalCode": "04012-030",
-        "addressCountry": "BR"
-      },
-      "geo": {
-        "@type": "GeoCoordinates",
-        "latitude": -23.6118,
-        "longitude": -46.6489
-      },
-      "openingHoursSpecification": {
-        "@type": "OpeningHoursSpecification",
-        "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday"],
-        "opens": "09:00",
-        "closes": "18:00"
-      },
-      "areaServed": ["BR", "Worldwide"],
-      "sameAs": [
-        "https://www.instagram.com/createtravel_br",
-        "https://www.facebook.com/createtravelbr"
+      "@graph": [
+        {
+          "@type": ["TravelAgency", "Organization"],
+          "@id": "https://createtravel.tur.br/#organization",
+          "name": "Create Travel",
+          "url": "https://createtravel.tur.br/",
+          "logo": {
+            "@type": "ImageObject",
+            "url": "https://createtravel.tur.br/icon-512.png"
+          },
+          "image": "https://createtravel.tur.br/og-create-travel.jpg",
+          "description": "Operadora brasileira de viagens com curadoria autoral: roteiros sob medida, viagens em grupo, cruzeiros fluviais e incoming Brasil multilíngue.",
+          "email": "contato@createtravel.tur.br",
+          "telephone": "+5511963693159",
+          "priceRange": "$$$",
+          "taxID": "21.030.190/0001-60",
+          "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "Rua José Libero, 80 - Planalto Paulista",
+            "addressLocality": "São Paulo",
+            "addressRegion": "SP",
+            "postalCode": "04013-000",
+            "addressCountry": "BR"
+          },
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": -23.6118,
+            "longitude": -46.6489
+          },
+          "openingHoursSpecification": {
+            "@type": "OpeningHoursSpecification",
+            "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday"],
+            "opens": "09:00",
+            "closes": "18:00"
+          },
+          "areaServed": [
+            { "@type": "Country", "name": "Brasil" },
+            { "@type": "Place", "name": "Mundo" }
+          ],
+          "knowsLanguage": ["pt-BR","en","es","it","de","ja","ko","zh-Hans","ar","he"],
+          "sameAs": [
+            "https://www.instagram.com/createtravel_br",
+            "https://www.facebook.com/createtravelbr"
+          ]
+        },
+        {
+          "@type": "WebSite",
+          "@id": "https://createtravel.tur.br/#website",
+          "name": "Create Travel",
+          "url": "https://createtravel.tur.br/",
+          "inLanguage": "pt-BR",
+          "publisher": { "@id": "https://createtravel.tur.br/#organization" },
+          "potentialAction": {
+            "@type": "SearchAction",
+            "target": {
+              "@type": "EntryPoint",
+              "urlTemplate": "https://createtravel.tur.br/destinos?q={search_term_string}"
+            },
+            "query-input": "required name=search_term_string"
+          }
+        }
       ]
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "WebSite",
-      "name": "Create Travel",
-      "url": "https://createtravel.tur.br",
-      "inLanguage": "pt-BR",
-      "potentialAction": {
-        "@type": "SearchAction",
-        "target": "https://createtravel.tur.br/destinos?q={search_term_string}",
-        "query-input": "required name=search_term_string"
-      }
     }
     </script>
   </head>
