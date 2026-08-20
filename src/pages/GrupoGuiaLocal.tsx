@@ -146,22 +146,32 @@ const GrupoGuiaLocal = () => {
           position: i + 1,
           name: `Dia ${d.day} — ${prettyRoute(d.route)}`,
           description: d.text,
+          item: { "@type": "Place", name: prettyRoute(d.route) },
         })),
       },
-      provider: {
-        "@type": "TravelAgency",
-        name: "Create Travel",
-        url: DOMAIN,
-        telephone: CONTACT.whatsappNumber,
-      },
+      provider: { "@id": ENTITY_IDS.organization },
       offers: {
         "@type": "Offer",
-        price: group.priceEur,
-        priceCurrency: group.currency ?? "EUR",
-        availability: "https://schema.org/InStock",
+        // Nunca publica preço estimado: sem valor fechado, a oferta vai sem `price`.
+        ...(group.priceEur && group.priceEur > 0
+          ? {
+              price: group.priceEur,
+              priceCurrency: group.currency ?? "EUR",
+            }
+          : {}),
+        availability:
+          group.departures.length > 0
+            ? "https://schema.org/LimitedAvailability"
+            : "https://schema.org/PreOrder",
+        ...(group.departures.length
+          ? { priceValidUntil: [...group.departures].sort().slice(-1)[0] }
+          : {}),
         url: `${DOMAIN}${canonicalPath}`,
+        seller: { "@id": ENTITY_IDS.organization },
         description:
-          "Por pessoa em apartamento duplo, parte terrestre. Entrada de 25% + saldo em até 9x sem juros no cartão; aéreo cotado à parte.",
+          group.priceEur && group.priceEur > 0
+            ? "Por pessoa em apartamento duplo, parte terrestre. Entrada de 25% + saldo em até 9x sem juros no cartão; aéreo cotado à parte."
+            : "Valor sob consulta: roteiro cotado sob medida conforme data de saída e categoria hoteleira. Parte terrestre com entrada de 25% + saldo em até 9x sem juros; aéreo cotado à parte.",
       },
       subjectOf: group.countries.map((c) => ({ "@type": "Place", name: c })),
     },
