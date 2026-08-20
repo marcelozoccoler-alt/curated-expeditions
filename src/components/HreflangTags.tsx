@@ -2,7 +2,7 @@ import { Helmet } from "react-helmet-async";
 import { SUPPORTED_LANGS, type Lang } from "@/i18n/config";
 import { localizePath } from "@/hooks/useLang";
 
-const SITE_URL = "https://www.createtravel.tur.br";
+const SITE_URL = "https://createtravel.tur.br";
 
 const HREFLANG_MAP: Record<Lang, string> = {
   pt: "pt-BR",
