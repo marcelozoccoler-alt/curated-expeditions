@@ -19,6 +19,8 @@ interface SEOProps {
   ogType?: "website" | "article";
   /** Comma-separated keywords for semantic / AI search. */
   keywords?: string;
+  /** BCP-47 language of the page content (default pt-BR). */
+  inLanguage?: string;
 }
 
 const DOMAIN = CONTACT.domain.replace(/\/$/, "");
