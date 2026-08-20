@@ -116,11 +116,7 @@ export const SEO = ({
       <meta name="twitter:description" content={safeDescription} />
       {ogImage && <meta name="twitter:image" content={ogImage} />}
 
-      {ldArray.map((ld, i) => (
-        <script key={i} type="application/ld+json">
-          {JSON.stringify(ld)}
-        </script>
-      ))}
+      <script type="application/ld+json">{JSON.stringify(graphLd)}</script>
     </Helmet>
   );
 };
