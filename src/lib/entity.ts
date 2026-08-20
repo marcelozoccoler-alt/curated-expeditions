@@ -89,6 +89,34 @@ export const entityFacts: EntityFact[] = [
 
 export const entitySameAs = [
   "https://www.instagram.com/createtravel_br",
+  "https://www.facebook.com/createtravelbr",
+];
+
+/** Os 10 idiomas efetivamente atendidos (Incoming + operação outbound). */
+export const ENTITY_LANGUAGE_CODES = [
+  "pt-BR",
+  "en",
+  "es",
+  "it",
+  "de",
+  "ja",
+  "ko",
+  "zh-Hans",
+  "ar",
+  "he",
+];
+
+export const ENTITY_LANGUAGE_NAMES = [
+  "Portuguese",
+  "English",
+  "Spanish",
+  "Italian",
+  "German",
+  "Japanese",
+  "Korean",
+  "Chinese",
+  "Arabic",
+  "Hebrew",
 ];
 
 /** Grafo canônico da entidade — emitido em todas as páginas. */
