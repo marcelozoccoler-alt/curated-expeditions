@@ -84,13 +84,14 @@ export const SEO = ({
     ...(ogImage
       ? { primaryImageOfPage: { "@type": "ImageObject", url: ogImage } }
       : {}),
-    ...Object.assign({}, ...inlineWebPages),
-    "@type": "WebPage",
-    "@id": `${canonical}#webpage`,
-    url: canonical,
-    inLanguage,
-    isPartOf: { "@id": ENTITY_IDS.website },
-    publisher: { "@id": ENTITY_IDS.organization },
+    ...Object.assign({}, ...inlineWebPages, {
+      "@type": "WebPage",
+      "@id": `${canonical}#webpage`,
+      url: canonical,
+      inLanguage,
+      isPartOf: { "@id": ENTITY_IDS.website },
+      publisher: { "@id": ENTITY_IDS.organization },
+    }),
   };
 
   // Um único grafo (@graph) com @id estáveis — evita fragmentar a entidade
