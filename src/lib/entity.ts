@@ -89,6 +89,34 @@ export const entityFacts: EntityFact[] = [
 
 export const entitySameAs = [
   "https://www.instagram.com/createtravel_br",
+  "https://www.facebook.com/createtravelbr",
+];
+
+/** Os 10 idiomas efetivamente atendidos (Incoming + operação outbound). */
+export const ENTITY_LANGUAGE_CODES = [
+  "pt-BR",
+  "en",
+  "es",
+  "it",
+  "de",
+  "ja",
+  "ko",
+  "zh-Hans",
+  "ar",
+  "he",
+];
+
+export const ENTITY_LANGUAGE_NAMES = [
+  "Portuguese",
+  "English",
+  "Spanish",
+  "Italian",
+  "German",
+  "Japanese",
+  "Korean",
+  "Chinese",
+  "Arabic",
+  "Hebrew",
 ];
 
 /** Grafo canônico da entidade — emitido em todas as páginas. */
@@ -117,6 +145,7 @@ export const organizationLd = {
     postalCode: "04013-000",
     addressCountry: "BR",
   },
+  taxID: CONTACT.cadastur,
   identifier: [
     {
       "@type": "PropertyValue",
@@ -124,6 +153,14 @@ export const organizationLd = {
       value: CONTACT.cadastur,
     },
   ],
+  founder: {
+    "@type": "Person",
+    "@id": ENTITY_IDS.founder,
+    name: "Marcelo Zoccoler",
+    jobTitle: "Travel designer e fundador da Create Travel",
+    url: `${DOMAIN}/sobre`,
+    worksFor: { "@id": ENTITY_IDS.organization },
+  },
   hasCredential: {
     "@type": "EducationalOccupationalCredential",
     credentialCategory: "license",

@@ -1,6 +1,6 @@
 import { Helmet } from "react-helmet-async";
 import { CONTACT } from "@/lib/types";
-import { organizationLd, websiteLd } from "@/lib/entity";
+import { organizationLd, websiteLd, ENTITY_IDS } from "@/lib/entity";
 
 
 interface SEOProps {
@@ -19,6 +19,8 @@ interface SEOProps {
   ogType?: "website" | "article";
   /** Comma-separated keywords for semantic / AI search. */
   keywords?: string;
+  /** BCP-47 language of the page content (default pt-BR). */
+  inLanguage?: string;
 }
 
 const DOMAIN = CONTACT.domain.replace(/\/$/, "");
@@ -43,6 +45,7 @@ export const SEO = ({
   ogImage,
   ogType = "website",
   keywords,
+  inLanguage = "pt-BR",
 }: SEOProps) => {
   const safeTitle = clampMeta(title, 60);
   const safeDescription = clampMeta(description, 160);
@@ -51,12 +54,57 @@ export const SEO = ({
   const next = nextPath ? `${DOMAIN}${nextPath.startsWith("/") ? "" : "/"}${nextPath}` : null;
   const robots = noindex ? "noindex,follow" : "index,follow";
 
-  // Grafo canônico da entidade (Padrão 1 — Entidade Forte) em todas as páginas.
-  const ldArray = [
-    organizationLd as Record<string, unknown>,
-    websiteLd as Record<string, unknown>,
-    ...(jsonLd ? (Array.isArray(jsonLd) ? jsonLd : [jsonLd]) : []),
-  ];
+  const strip = (node: Record<string, unknown>) => {
+    const { "@context": _ctx, ...rest } = node;
+    return rest;
+  };
+
+  const rawNodes = (jsonLd ? (Array.isArray(jsonLd) ? jsonLd : [jsonLd]) : []).map(
+    (n) => strip(n as Record<string, unknown>),
+  );
+
+  // WebPage sem @id vindo da página é fundido no nó canônico da página
+  // (evita dois WebPage anônimos concorrendo no mesmo grafo).
+  const inlineWebPages = rawNodes.filter(
+    (n) => n["@type"] === "WebPage" && !n["@id"],
+  );
+  const pageNodes = rawNodes.filter((n) => !inlineWebPages.includes(n));
+
+  // Nó da própria página — ancora o conteúdo à entidade e ao site.
+  const webPageLd: Record<string, unknown> = {
+    "@type": "WebPage",
+    "@id": `${canonical}#webpage`,
+    url: canonical,
+    name: safeTitle,
+    description: safeDescription,
+    inLanguage,
+    isPartOf: { "@id": ENTITY_IDS.website },
+    about: { "@id": ENTITY_IDS.organization },
+    publisher: { "@id": ENTITY_IDS.organization },
+    ...(ogImage
+      ? { primaryImageOfPage: { "@type": "ImageObject", url: ogImage } }
+      : {}),
+    ...Object.assign({}, ...inlineWebPages, {
+      "@type": "WebPage",
+      "@id": `${canonical}#webpage`,
+      url: canonical,
+      inLanguage,
+      isPartOf: { "@id": ENTITY_IDS.website },
+      publisher: { "@id": ENTITY_IDS.organization },
+    }),
+  };
+
+  // Um único grafo (@graph) com @id estáveis — evita fragmentar a entidade
+  // em vários blocos JSON-LD soltos (Padrão 1 — Entidade Forte).
+  const graphLd = {
+    "@context": "https://schema.org",
+    "@graph": [
+      strip(organizationLd as Record<string, unknown>),
+      strip(websiteLd as Record<string, unknown>),
+      webPageLd,
+      ...pageNodes,
+    ],
+  };
 
 
   return (
@@ -82,11 +130,7 @@ export const SEO = ({
       <meta name="twitter:description" content={safeDescription} />
       {ogImage && <meta name="twitter:image" content={ogImage} />}
 
-      {ldArray.map((ld, i) => (
-        <script key={i} type="application/ld+json">
-          {JSON.stringify(ld)}
-        </script>
-      ))}
+      <script type="application/ld+json">{JSON.stringify(graphLd)}</script>
     </Helmet>
   );
 };

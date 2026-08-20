@@ -24,16 +24,38 @@ const DiarioPost = () => {
   if (!post) return <Navigate to="/diario" replace />;
 
   const url = `${CONTACT.domain}/diario/${post.slug}`;
+  const cover = getDiaryCover(post);
   const articleLd = {
     "@context": "https://schema.org",
     "@type": "Article",
-    headline: post.h1,
+    "@id": `${url}#article`,
+    headline: post.h1.length > 110 ? `${post.h1.slice(0, 109)}…` : post.h1,
     description: post.metaDescription,
+    url,
+    inLanguage: "pt-BR",
     datePublished: post.publishedAt,
-    author: { "@type": "Organization", name: "Create Travel" },
-    publisher: { "@type": "Organization", name: "Create Travel" },
-    mainEntityOfPage: url,
+    dateModified: post.publishedAt,
+    ...(cover ? { image: cover.startsWith("http") ? cover : `${CONTACT.domain}${cover}` } : {}),
+    author: {
+      "@type": "Person",
+      "@id": `${CONTACT.domain}/sobre#marcelo-zoccoler`,
+      name: "Marcelo Zoccoler",
+      jobTitle: "Travel designer e fundador da Create Travel",
+      worksFor: { "@id": `${CONTACT.domain}/#organization` },
+      url: `${CONTACT.domain}/sobre`,
+    },
+    publisher: { "@id": `${CONTACT.domain}/#organization` },
+    isPartOf: { "@id": `${CONTACT.domain}/#website` },
+    mainEntityOfPage: { "@type": "WebPage", "@id": `${url}#webpage` },
     keywords: post.keywords,
+    ...(post.relatedDestinations?.length
+      ? {
+          about: post.relatedDestinations.map((d) => ({
+            "@type": "Place",
+            name: d.label,
+          })),
+        }
+      : {}),
   };
   const breadcrumbLd = {
     "@context": "https://schema.org",
