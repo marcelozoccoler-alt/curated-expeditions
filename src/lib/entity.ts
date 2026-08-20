@@ -145,6 +145,7 @@ export const organizationLd = {
     postalCode: "04013-000",
     addressCountry: "BR",
   },
+  taxID: CONTACT.cadastur,
   identifier: [
     {
       "@type": "PropertyValue",
@@ -152,6 +153,14 @@ export const organizationLd = {
       value: CONTACT.cadastur,
     },
   ],
+  founder: {
+    "@type": "Person",
+    "@id": ENTITY_IDS.founder,
+    name: "Marcelo Zoccoler",
+    jobTitle: "Travel designer e fundador da Create Travel",
+    url: `${DOMAIN}/sobre`,
+    worksFor: { "@id": ENTITY_IDS.organization },
+  },
   hasCredential: {
     "@type": "EducationalOccupationalCredential",
     credentialCategory: "license",
