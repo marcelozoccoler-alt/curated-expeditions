@@ -1,6 +1,6 @@
 import { Helmet } from "react-helmet-async";
 import { CONTACT } from "@/lib/types";
-import { organizationLd, websiteLd } from "@/lib/entity";
+import { organizationLd, websiteLd, ENTITY_IDS } from "@/lib/entity";
 
 
 interface SEOProps {
