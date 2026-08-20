@@ -22,6 +22,7 @@ import { Breadcrumbs } from "@/components/Breadcrumbs";
 import { ShareButtons } from "@/components/ShareButtons";
 import NotFound from "@/pages/NotFound";
 import { CONTACT } from "@/lib/types";
+import { ENTITY_IDS } from "@/lib/entity";
 import {
   getLocalGuideGroup,
   localGuideGroups,
