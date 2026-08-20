@@ -45,6 +45,7 @@ export const SEO = ({
   ogImage,
   ogType = "website",
   keywords,
+  inLanguage = "pt-BR",
 }: SEOProps) => {
   const safeTitle = clampMeta(title, 60);
   const safeDescription = clampMeta(description, 160);
@@ -53,12 +54,43 @@ export const SEO = ({
   const next = nextPath ? `${DOMAIN}${nextPath.startsWith("/") ? "" : "/"}${nextPath}` : null;
   const robots = noindex ? "noindex,follow" : "index,follow";
 
-  // Grafo canônico da entidade (Padrão 1 — Entidade Forte) em todas as páginas.
-  const ldArray = [
-    organizationLd as Record<string, unknown>,
-    websiteLd as Record<string, unknown>,
-    ...(jsonLd ? (Array.isArray(jsonLd) ? jsonLd : [jsonLd]) : []),
-  ];
+  // Nó da própria página — ancora o conteúdo à entidade e ao site.
+  const webPageLd: Record<string, unknown> = {
+    "@type": ogType === "article" ? "WebPage" : "WebPage",
+    "@id": `${canonical}#webpage`,
+    url: canonical,
+    name: safeTitle,
+    description: safeDescription,
+    inLanguage,
+    isPartOf: { "@id": ENTITY_IDS.website },
+    about: { "@id": ENTITY_IDS.organization },
+    publisher: { "@id": ENTITY_IDS.organization },
+    ...(ogImage
+      ? { primaryImageOfPage: { "@type": "ImageObject", url: ogImage } }
+      : {}),
+  };
+
+  // Um único grafo (@graph) com @id estáveis — evita fragmentar a entidade
+  // em vários blocos JSON-LD soltos (Padrão 1 — Entidade Forte).
+  const pageNodes = (jsonLd ? (Array.isArray(jsonLd) ? jsonLd : [jsonLd]) : []).map(
+    (node) => {
+      const { "@context": _ctx, ...rest } = node as Record<string, unknown>;
+      return rest;
+    },
+  );
+
+  const graphLd = {
+    "@context": "https://schema.org",
+    "@graph": [
+      organizationLd as Record<string, unknown>,
+      websiteLd as Record<string, unknown>,
+      webPageLd,
+      ...pageNodes,
+    ].map((node) => {
+      const { "@context": _ctx, ...rest } = node as Record<string, unknown>;
+      return rest;
+    }),
+  };
 
 
   return (
