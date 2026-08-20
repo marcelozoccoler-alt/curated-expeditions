@@ -54,9 +54,25 @@ export const SEO = ({
   const next = nextPath ? `${DOMAIN}${nextPath.startsWith("/") ? "" : "/"}${nextPath}` : null;
   const robots = noindex ? "noindex,follow" : "index,follow";
 
+  const strip = (node: Record<string, unknown>) => {
+    const { "@context": _ctx, ...rest } = node;
+    return rest;
+  };
+
+  const rawNodes = (jsonLd ? (Array.isArray(jsonLd) ? jsonLd : [jsonLd]) : []).map(
+    (n) => strip(n as Record<string, unknown>),
+  );
+
+  // WebPage sem @id vindo da página é fundido no nó canônico da página
+  // (evita dois WebPage anônimos concorrendo no mesmo grafo).
+  const inlineWebPages = rawNodes.filter(
+    (n) => n["@type"] === "WebPage" && !n["@id"],
+  );
+  const pageNodes = rawNodes.filter((n) => !inlineWebPages.includes(n));
+
   // Nó da própria página — ancora o conteúdo à entidade e ao site.
   const webPageLd: Record<string, unknown> = {
-    "@type": ogType === "article" ? "WebPage" : "WebPage",
+    "@type": "WebPage",
     "@id": `${canonical}#webpage`,
     url: canonical,
     name: safeTitle,
@@ -68,28 +84,25 @@ export const SEO = ({
     ...(ogImage
       ? { primaryImageOfPage: { "@type": "ImageObject", url: ogImage } }
       : {}),
+    ...Object.assign({}, ...inlineWebPages),
+    "@type": "WebPage",
+    "@id": `${canonical}#webpage`,
+    url: canonical,
+    inLanguage,
+    isPartOf: { "@id": ENTITY_IDS.website },
+    publisher: { "@id": ENTITY_IDS.organization },
   };
 
   // Um único grafo (@graph) com @id estáveis — evita fragmentar a entidade
   // em vários blocos JSON-LD soltos (Padrão 1 — Entidade Forte).
-  const pageNodes = (jsonLd ? (Array.isArray(jsonLd) ? jsonLd : [jsonLd]) : []).map(
-    (node) => {
-      const { "@context": _ctx, ...rest } = node as Record<string, unknown>;
-      return rest;
-    },
-  );
-
   const graphLd = {
     "@context": "https://schema.org",
     "@graph": [
-      organizationLd as Record<string, unknown>,
-      websiteLd as Record<string, unknown>,
+      strip(organizationLd as Record<string, unknown>),
+      strip(websiteLd as Record<string, unknown>),
       webPageLd,
       ...pageNodes,
-    ].map((node) => {
-      const { "@context": _ctx, ...rest } = node as Record<string, unknown>;
-      return rest;
-    }),
+    ],
   };
 
 
