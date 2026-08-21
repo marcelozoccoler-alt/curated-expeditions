@@ -213,11 +213,7 @@ const jsonLd = {
     availability: "https://schema.org/LimitedAvailability",
     validThrough: "2026-10-04",
   },
-  provider: {
-    "@type": "TravelAgency",
-    name: "Create Travel",
-    url: CONTACT.domain,
-  },
+  provider: { "@id": "https://createtravel.tur.br/#organization" },
 };
 
 const GrupoPatagoniaChilena2026 = () => {

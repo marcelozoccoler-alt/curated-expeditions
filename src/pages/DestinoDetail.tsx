@@ -206,18 +206,7 @@ const DestinoDetail = () => {
         },
       })),
     },
-    provider: {
-      "@type": "TravelAgency",
-      name: "Create Travel",
-      url: domain,
-      telephone: CONTACT.whatsapp,
-      email: CONTACT.email,
-      address: {
-        "@type": "PostalAddress",
-        streetAddress: CONTACT.address,
-        addressCountry: "BR",
-      },
-    },
+    provider: { "@id": "https://createtravel.tur.br/#organization" },
   };
 
   return (

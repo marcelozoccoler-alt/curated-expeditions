@@ -49,7 +49,7 @@ const RoteiroSobMedida = () => {
     "@context": "https://schema.org",
     "@type": "Service",
     name: "Roteiro de Viagem Sob Medida",
-    provider: { "@type": "TravelAgency", name: "Create Travel", url: "https://createtravel.tur.br" },
+    provider: { "@id": "https://createtravel.tur.br/#organization" },
     areaServed: "Worldwide",
     description:
       "Roteiros de viagem personalizados desenhados do zero por um travel designer. Planejamento dia a dia, curadoria de hotéis, experiências exclusivas e suporte antes, durante e depois da viagem.",

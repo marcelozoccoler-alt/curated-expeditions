@@ -34,7 +34,7 @@ const CruzeiroFluvial = () => {
       name: `${d.dia}: ${d.porto}`,
       description: d.descricao,
     })),
-    provider: { "@type": "TravelAgency", name: "Create Travel", url: DOMAIN },
+    provider: { "@id": "https://createtravel.tur.br/#organization" },
   };
 
   const breadcrumbLd = {

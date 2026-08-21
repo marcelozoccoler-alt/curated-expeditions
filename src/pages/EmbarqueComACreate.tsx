@@ -556,11 +556,7 @@ const jsonLd = {
   "@type": "Service",
   name: "Embarque com a Create — Grupos com guia desde o Brasil",
   serviceType: "Viagens em grupo acompanhadas",
-  provider: {
-    "@type": "TravelAgency",
-    name: "Create Travel",
-    url: CONTACT.domain,
-  },
+  provider: { "@id": "https://createtravel.tur.br/#organization" },
   areaServed: "Brasil",
   description:
     "Saídas em grupo internacionais com guia acompanhante desde o Brasil. Tudo em português, suporte 24/7, entrada de 25% e saldo em até 9x sem juros no cartão.",

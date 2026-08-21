@@ -283,11 +283,7 @@ const jsonLd = {
     availability: "https://schema.org/LimitedAvailability",
     validThrough: "2027-02-01",
   },
-  provider: {
-    "@type": "TravelAgency",
-    name: "Create Travel",
-    url: CONTACT.domain,
-  },
+  provider: { "@id": "https://createtravel.tur.br/#organization" },
 };
 
 const GrupoVietnaLaosCamboja2027 = () => {

@@ -101,7 +101,7 @@ const jsonLd = {
   touristType: "Cultura, festivais, natureza, vida selvagem",
   itinerary: itinerary.map((d, i) => ({ "@type": "ListItem", position: i + 1, name: `${d.day} — ${d.title}` })),
   offers: { "@type": "Offer", price: "6998.00", priceCurrency: "USD", availability: "https://schema.org/LimitedAvailability", validThrough: "2027-03-16" },
-  provider: { "@type": "TravelAgency", name: "Create Travel", url: CONTACT.domain },
+  provider: { "@id": "https://createtravel.tur.br/#organization" },
 };
 
 const GrupoIndiaSriLankaHoli2027 = () => {

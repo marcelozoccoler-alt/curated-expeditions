@@ -31,7 +31,7 @@ const LuaDeMelPersonalizada = () => {
     "@context": "https://schema.org",
     "@type": "Service",
     name: "Lua de Mel Personalizada",
-    provider: { "@type": "TravelAgency", name: "Create Travel", url: "https://createtravel.tur.br" },
+    provider: { "@id": "https://createtravel.tur.br/#organization" },
     areaServed: "Worldwide",
     description:
       "Lua de mel planejada sob medida por especialistas. Roteiros românticos para Maldivas, Caribe, Europa, África e mais.",

@@ -93,7 +93,7 @@ const jsonLd = {
   touristType: "Cultura, história, natureza, cidades",
   itinerary: itinerary.map((d, i) => ({ "@type": "ListItem", position: i + 1, name: `${d.day} — ${d.title}` })),
   offers: { "@type": "Offer", price: "5998.00", priceCurrency: "USD", availability: "https://schema.org/LimitedAvailability", validThrough: "2027-05-13" },
-  provider: { "@type": "TravelAgency", name: "Create Travel", url: CONTACT.domain },
+  provider: { "@id": "https://createtravel.tur.br/#organization" },
 };
 
 const GrupoChinaPrimavera2027 = () => {

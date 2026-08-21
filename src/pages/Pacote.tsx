@@ -26,7 +26,7 @@ const Pacote = () => {
       position: i + 1,
       name: `${r.dias}: ${r.titulo}`,
     })),
-    provider: { "@type": "TravelAgency", name: "Create Travel", url: CONTACT.domain },
+    provider: { "@id": "https://createtravel.tur.br/#organization" },
   };
   const breadcrumbLd = {
     "@context": "https://schema.org",

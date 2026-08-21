@@ -217,11 +217,7 @@ const jsonLd = {
     availability: "https://schema.org/LimitedAvailability",
     validThrough: "2026-11-18",
   },
-  provider: {
-    "@type": "TravelAgency",
-    name: "Create Travel",
-    url: CONTACT.domain,
-  },
+  provider: { "@id": "https://createtravel.tur.br/#organization" },
 };
 
 const GrupoMarrocos2026 = () => {
