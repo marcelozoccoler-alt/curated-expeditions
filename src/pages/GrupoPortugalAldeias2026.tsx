@@ -232,11 +232,7 @@ const jsonLd = {
     availability: "https://schema.org/LimitedAvailability",
     validThrough: "2026-10-12",
   },
-  provider: {
-    "@type": "TravelAgency",
-    name: "Create Travel",
-    url: CONTACT.domain,
-  },
+  provider: { "@id": "https://createtravel.tur.br/#organization" },
 };
 
 const GrupoPortugalAldeias2026 = () => {

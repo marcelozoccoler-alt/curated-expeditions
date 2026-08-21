@@ -122,11 +122,7 @@ const GruposGuiaLocal = () => {
       "@type": "Service",
       name: "Grupos de viagem com guia local",
       serviceType: "Viagem em grupo com guia local e saída garantida",
-      provider: {
-        "@type": "TravelAgency",
-        name: "Create Travel",
-        url: DOMAIN,
-      },
+      provider: { "@id": "https://createtravel.tur.br/#organization" },
       areaServed: localGuideCountries.map((c) => ({
         "@type": "Country",
         name: c,

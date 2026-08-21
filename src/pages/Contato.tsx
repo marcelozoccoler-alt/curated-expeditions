@@ -90,27 +90,13 @@ const Contato = () => {
 
   const jsonLd = {
     "@context": "https://schema.org",
-    "@type": "TravelAgency",
-    name: "Create Travel",
-    url: CONTACT.domain,
-    email: CONTACT.email,
-    telephone: CONTACT.whatsapp,
-    address: {
-      "@type": "PostalAddress",
-      streetAddress: "Rua José Libero, 80",
-      addressLocality: "São Paulo",
-      addressRegion: "SP",
-      addressCountry: "BR",
-    },
-    contactPoint: [
-      {
-        "@type": "ContactPoint",
-        contactType: "customer service",
-        telephone: CONTACT.whatsapp,
-        email: CONTACT.email,
-        availableLanguage: ["Portuguese", "English"],
-      },
-    ],
+    "@type": "ContactPage",
+    "@id": `${CONTACT.domain}/contato#webpage`,
+    url: `${CONTACT.domain}/contato`,
+    name: "Contato — Create Travel",
+    inLanguage: "pt-BR",
+    about: { "@id": `${CONTACT.domain}/#organization` },
+    mainEntity: { "@id": `${CONTACT.domain}/#organization` },
   };
 
   return (

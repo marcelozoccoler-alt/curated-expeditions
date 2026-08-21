@@ -60,8 +60,9 @@ const Incoming = () => {
   const jsonLd = {
     "@context": "https://schema.org",
     "@type": "TravelAgency",
+    "@id": `${SITE_URL}/#organization`,
     name: "Create Travel",
-    url: `${SITE_URL}/${lang}/incoming`,
+    url: `${SITE_URL}/`,
     description: copy.meta.description,
     address: {
       "@type": "PostalAddress",
@@ -73,7 +74,9 @@ const Incoming = () => {
     telephone: CONTACT.whatsapp,
     email: CONTACT.email,
     areaServed: "Brazil",
-    knowsLanguage: ["pt-BR", "en", "es", "it", "de"],
+    knowsLanguage: [
+      "pt-BR", "en", "es", "it", "de", "ja", "ko", "zh", "ar", "he",
+    ],
   };
 
   const faqJsonLd = {

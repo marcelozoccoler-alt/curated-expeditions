@@ -253,11 +253,7 @@ const jsonLd = {
     availability: "https://schema.org/SoldOut",
     validThrough: "2026-10-02",
   },
-  provider: {
-    "@type": "TravelAgency",
-    name: "Create Travel",
-    url: CONTACT.domain,
-  },
+  provider: { "@id": "https://createtravel.tur.br/#organization" },
 };
 
 const GrupoEuropaLesteTurquia2026 = () => {

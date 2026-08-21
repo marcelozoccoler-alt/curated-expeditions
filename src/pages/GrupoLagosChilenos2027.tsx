@@ -218,11 +218,7 @@ const jsonLd = {
     availability: "https://schema.org/LimitedAvailability",
     validThrough: "2027-02-03",
   },
-  provider: {
-    "@type": "TravelAgency",
-    name: "Create Travel",
-    url: CONTACT.domain,
-  },
+  provider: { "@id": "https://createtravel.tur.br/#organization" },
 };
 
 const GrupoLagosChilenos2027 = () => {
