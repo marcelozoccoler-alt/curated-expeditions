@@ -155,32 +155,6 @@ const Sobre = () => {
   ];
 
 
-  const orgLd = {
-    "@context": "https://schema.org",
-    "@type": "TravelAgency",
-    name: "Create Travel",
-    url: `${DOMAIN}/`,
-    telephone: CONTACT.whatsappNumber,
-    email: CONTACT.email,
-    address: {
-      "@type": "PostalAddress",
-      streetAddress: "Rua José Libero, 80 - Planalto Paulista",
-      addressLocality: "São Paulo",
-      addressRegion: "SP",
-      addressCountry: "BR",
-    },
-    areaServed: "Worldwide",
-    description:
-      "Curadoria autoral de viagens com propósito: roteiros internacionais, incoming Brasil e turismo de conservação.",
-    knowsAbout: [
-      "Viagens sob medida",
-      "Safári África",
-      "Brasil incoming",
-      "Turismo de conservação",
-      "Lua de mel",
-      "Viagens em família",
-    ],
-  };
 
   const faqLd = {
     "@context": "https://schema.org",
@@ -198,7 +172,7 @@ const Sobre = () => {
         title="Sobre a Create Travel — Viagens autorais com propósito"
         description="Curadoria de viagens internacionais, incoming Brasil e turismo de conservação. Conheça a filosofia e o método Create Travel."
         canonicalPath="/sobre"
-        jsonLd={[orgLd, faqLd, entityFaqLd]}
+        jsonLd={[faqLd, entityFaqLd]}
       />
       <Header />
       <WhatsAppButton variant="float" />
