@@ -266,6 +266,8 @@ const hotelsSeoKeywords = buildHotelsKeywords(hotelsForSeo);
 const jsonLd = {
   "@context": "https://schema.org",
   "@type": "TouristTrip",
+  "@id": "https://createtravel.tur.br/grupos/vietna-laos-camboja-2027#trip",
+  url: "https://createtravel.tur.br/grupos/vietna-laos-camboja-2027",
   name: "Grupo Vietnã, Laos & Camboja 2027 — Carnaval — Create Travel",
   description:
     "Grupo organizado de 17 dias pelo Sudeste Asiático no Carnaval 2027: Hanói, Baía de Halong, Luang Prabang, Siem Reap (Angkor Wat), Hoi An, Ba Na Hills, Hue e Saigon. Saída 01/02/2027 com guia desde o Brasil e voos Turkish Airlines.",

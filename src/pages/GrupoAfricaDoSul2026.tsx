@@ -199,6 +199,8 @@ const hotelsSeoKeywords = buildHotelsKeywords(hotelsForSeo);
 const jsonLd = {
   "@context": "https://schema.org",
   "@type": "TouristTrip",
+  "@id": "https://createtravel.tur.br/grupos/africa-do-sul-2026#trip",
+  url: "https://createtravel.tur.br/grupos/africa-do-sul-2026",
   name: "Grupo África do Sul 2026 — Create Travel",
   description:
     "Grupo organizado de 9 dias pela África do Sul: Johanesburgo, Soweto, Blyde River Canyon, safári no Kruger e Cidade do Cabo. Saída 07/09/2026 com guia acompanhante desde o Brasil e voos South African Airways.",

@@ -253,6 +253,8 @@ const hotelsSeoKeywords = buildHotelsKeywords(hotelsForSeo);
 const jsonLd = {
   "@context": "https://schema.org",
   "@type": "TouristTrip",
+  "@id": "https://createtravel.tur.br/grupos/nepal-butao-2027#trip",
+  url: "https://createtravel.tur.br/grupos/nepal-butao-2027",
   name: "Grupo Nepal & Butão 2027 — Carnaval — Create Travel",
   description:
     "Grupo organizado de 15 dias pelo Himalaia no Carnaval 2027: Kathmandu, Bhaktapur, Nagarkot, Thimphu, Punakha, Paro e o Tiger's Nest Monastery. Saída 01/02/2027 com guia desde o Brasil e voos Turkish Airlines.",

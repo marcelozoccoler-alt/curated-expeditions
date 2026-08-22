@@ -227,6 +227,8 @@ const hotelsSeoKeywords = buildHotelsKeywords(hotelsForSeo);
 const jsonLd = {
   "@context": "https://schema.org",
   "@type": "TouristTrip",
+  "@id": "https://createtravel.tur.br/grupos/croacia-balcas-2026#trip",
+  url: "https://createtravel.tur.br/grupos/croacia-balcas-2026",
   name: "Grupo Croácia, Bósnia & Montenegro 2026 — Create Travel",
   description:
     "Grupo organizado de 12 dias pela Croácia, Bósnia-Herzegovina e Montenegro: Zagreb, Plitvice, Zadar, Split, Hvar, Mostar, Dubrovnik e Baía de Kotor. Saída 11/10/2026 com guia acompanhante desde o Brasil e voos Turkish Airlines.",

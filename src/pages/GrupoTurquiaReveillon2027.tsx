@@ -231,6 +231,8 @@ const hotelsSeoKeywords = buildHotelsKeywords(hotelsForSeo);
 const jsonLd = {
   "@context": "https://schema.org",
   "@type": "TouristTrip",
+  "@id": "https://createtravel.tur.br/grupos/turquia-reveillon-2027#trip",
+  url: "https://createtravel.tur.br/grupos/turquia-reveillon-2027",
   name: "Grupo Turquia — Réveillon 2027 — Create Travel",
   description:
     "Grupo organizado de 13 dias pela Turquia no Réveillon 2027: Istambul, Ancara, Capadócia, Pamukkale, Kusadasi, Éfeso e Bursa. Saída 28/12/2026 pela Turkish Airlines com guia desde o Brasil.",

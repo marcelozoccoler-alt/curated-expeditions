@@ -243,6 +243,8 @@ const hotelsSeoKeywords = buildHotelsKeywords(hotelsForSeo);
 const jsonLd = {
   "@context": "https://schema.org",
   "@type": "TouristTrip",
+  "@id": "https://createtravel.tur.br/grupos/grecia-2026#trip",
+  url: "https://createtravel.tur.br/grupos/grecia-2026",
   name: "Grupo Grécia 2026 — Create Travel",
   description:
     "Grupo organizado de 13 dias pela Grécia: Atenas, Delfos, Meteora, Santorini e Mykonos. Saída 27/09/2026 com guia acompanhante desde São Paulo.",

@@ -224,6 +224,8 @@ const hotelsSeoKeywords = buildHotelsKeywords(hotelsForSeo);
 const jsonLd = {
   "@context": "https://schema.org",
   "@type": "TouristTrip",
+  "@id": "https://createtravel.tur.br/grupos/turquia-2026#trip",
+  url: "https://createtravel.tur.br/grupos/turquia-2026",
   name: "Grupo Turquia Dourada — Outono 2026 — Create Travel",
   description:
     "Grupo organizado de 12 dias pela Turquia no outono 2026: Istambul, Ancara, Capadócia, Pamukkale, Kusadasi, Éfeso e Bursa. Saída 21/10/2026 pela Turkish Airlines com guia desde o Brasil.",

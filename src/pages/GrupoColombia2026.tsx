@@ -201,6 +201,8 @@ const hotelsSeoKeywords = buildHotelsKeywords(hotelsForSeo);
 const jsonLd = {
   "@context": "https://schema.org",
   "@type": "TouristTrip",
+  "@id": "https://createtravel.tur.br/grupos/colombia-2026#trip",
+  url: "https://createtravel.tur.br/grupos/colombia-2026",
   name: "Grupo Colômbia 2026 — Create Travel",
   description:
     "Grupo organizado de 10 dias pela Colômbia: Bogotá, Zipaquirá, Villa de Leyva, Ráquira e Cartagena das Índias. Saída 13/10/2026 pela LATAM com guia desde o Brasil.",

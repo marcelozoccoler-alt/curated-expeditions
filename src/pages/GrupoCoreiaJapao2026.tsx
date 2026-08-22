@@ -250,6 +250,8 @@ const hotelsSeoKeywords = buildHotelsKeywords(hotelsForSeo);
 const jsonLd = {
   "@context": "https://schema.org",
   "@type": "TouristTrip",
+  "@id": "https://createtravel.tur.br/grupos/coreia-japao-2026#trip",
+  url: "https://createtravel.tur.br/grupos/coreia-japao-2026",
   name: "Grupo Coreia & Japão 2026 — Create Travel",
   description:
     "Grupo organizado de 15 dias pela Coreia do Sul e Japão em pleno outono: Seul, DMZ, Osaka, Nara, Kyoto, Hakone, Monte Fuji e Tóquio. Saída 13/10/2026 com guia desde o Brasil e voos Turkish Airlines.",

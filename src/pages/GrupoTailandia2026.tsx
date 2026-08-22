@@ -254,6 +254,8 @@ const hotelsSeoKeywords = buildHotelsKeywords(hotelsForSeo);
 const jsonLd = {
   "@context": "https://schema.org",
   "@type": "TouristTrip",
+  "@id": "https://createtravel.tur.br/grupos/tailandia-2026#trip",
+  url: "https://createtravel.tur.br/grupos/tailandia-2026",
   name: "Grupo Tailândia 2026 com Festival das Lanternas — Create Travel",
   description:
     "Grupo organizado de 15 dias pela Tailândia: Phuket, Phi Phi, Bangkok, Ayutthaya, Sukhothai, Chiang Rai e Chiang Mai durante o Festival das Lanternas (Yi Peng & Loi Krathong). Saída 12/11/2026 com guia acompanhante desde o Brasil e voos Emirates.",

@@ -201,6 +201,8 @@ const hotelsSeoKeywords = buildHotelsKeywords(hotelsForSeo);
 const jsonLd = {
   "@context": "https://schema.org",
   "@type": "TouristTrip",
+  "@id": "https://createtravel.tur.br/grupos/lagos-chilenos-carnaval-2027#trip",
+  url: "https://createtravel.tur.br/grupos/lagos-chilenos-carnaval-2027",
   name: "Grupo Lagos Chilenos · Carnaval 2027 — Create Travel",
   description:
     "Grupo organizado de 9 dias pelo Chile no Carnaval 2027: Santiago, Vinícola Undurraga, Puerto Varas, Puerto Montt, Frutillar e navegação pelo Lago Esmeralda até Peulla. Saída 03/02/2027 com guia acompanhante desde o Brasil.",

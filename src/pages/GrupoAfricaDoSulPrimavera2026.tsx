@@ -196,6 +196,8 @@ const hotelsSeoKeywords = buildHotelsKeywords(hotelsForSeo);
 const jsonLd = {
   "@context": "https://schema.org",
   "@type": "TouristTrip",
+  "@id": "https://createtravel.tur.br/grupos/africa-do-sul-primavera-2026#trip",
+  url: "https://createtravel.tur.br/grupos/africa-do-sul-primavera-2026",
   name: "Grupo África do Sul — Primavera 2026 — Create Travel",
   description:
     "Grupo organizado de 9 dias pela África do Sul na primavera: Johanesburgo, Soweto, Pilanesberg (área livre de malária) com lodge 5 estrelas Shepherd's Tree, Pretória, Cape Town e Cabo da Boa Esperança. Saída 16/11/2026 pela South African Airways.",

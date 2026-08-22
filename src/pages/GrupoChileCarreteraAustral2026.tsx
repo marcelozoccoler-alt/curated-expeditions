@@ -183,6 +183,8 @@ const hotelsSeoKeywords = buildHotelsKeywords(hotelsForSeo);
 const jsonLd = {
   "@context": "https://schema.org",
   "@type": "TouristTrip",
+  "@id": "https://createtravel.tur.br/grupos/chile-carretera-austral-2026#trip",
+  url: "https://createtravel.tur.br/grupos/chile-carretera-austral-2026",
   name: "Grupo Chile com Carretera Austral · Primavera 2026 — Create Travel",
   description:
     "Grupo organizado de 8 dias pelo Chile e Patagônia chilena: Santiago, Balmaceda, Carretera Austral, Capelas de Mármore, Glaciar San Rafael, Parque Aikén e termas da Enseada Pérez. Saída 28/09/2026 pela LATAM com guia desde o Brasil.",

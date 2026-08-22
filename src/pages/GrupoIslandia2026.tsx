@@ -216,6 +216,8 @@ const hotelsSeoKeywords = buildHotelsKeywords(hotelsForSeo);
 const jsonLd = {
   "@context": "https://schema.org",
   "@type": "TouristTrip",
+  "@id": "https://createtravel.tur.br/grupos/islandia-2026#trip",
+  url: "https://createtravel.tur.br/grupos/islandia-2026",
   name: "Grupo Islândia 2026 — Create Travel",
   description:
     "Grupo organizado de 11 dias pela Islândia em novembro: Reykjavík, Círculo Dourado, costa sul, Jökulsárlón, Crystal Ice Cave, Blue Lagoon e cruzeiro da aurora boreal. Saída 12/11/2026 com guia desde o Brasil e voos Lufthansa.",

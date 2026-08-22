@@ -236,6 +236,8 @@ const hotelsSeoKeywords = buildHotelsKeywords(hotelsForSeo);
 const jsonLd = {
   "@context": "https://schema.org",
   "@type": "TouristTrip",
+  "@id": "https://createtravel.tur.br/grupos/europa-do-leste-turquia-2026#trip",
+  url: "https://createtravel.tur.br/grupos/europa-do-leste-turquia-2026",
   name: "Grupo Europa do Leste & Turquia 2026 — Budapeste, Viena, Praga e Istambul — Create Travel",
   description:
     "Grupo exclusivo de 15 dias por Budapeste, Viena, Praga e Istambul. Saída 02/10/2026 pela Turkish Airlines, com cruzeiro pelo Danúbio, concerto em Schönbrunn e jantar medieval em Praga.",

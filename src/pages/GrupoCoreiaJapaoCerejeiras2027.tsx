@@ -92,6 +92,8 @@ const hotelsSeoKeywords = buildHotelsKeywords(hotelsForSeo);
 const jsonLd = {
   "@context": "https://schema.org",
   "@type": "TouristTrip",
+  "@id": "https://createtravel.tur.br/grupos/coreia-japao-cerejeiras-2027#trip",
+  url: "https://createtravel.tur.br/grupos/coreia-japao-cerejeiras-2027",
   name: "Grupo Coreia & Japão 2027 — Cerejeiras — Create Travel",
   description: "16 dias entre Coreia do Sul e Japão no auge da floração das cerejeiras: Seul, DMZ, Osaka, Nara, Kyoto, Alpes Japoneses, Hakone e Tóquio. Saída 19/03/2027 pela Emirates com guia do Brasil.",
   image: heroImg,

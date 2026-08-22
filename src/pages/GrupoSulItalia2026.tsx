@@ -225,6 +225,8 @@ const hotelsSeoKeywords = buildHotelsKeywords(hotelsForSeo);
 const jsonLd = {
   "@context": "https://schema.org",
   "@type": "TouristTrip",
+  "@id": "https://createtravel.tur.br/grupos/sul-italia-2026#trip",
+  url: "https://createtravel.tur.br/grupos/sul-italia-2026",
   name: "Grupo Sul da Itália 2026 — Create Travel",
   description:
     "Grupo organizado de 12 dias pelo sul da Itália em pleno outono: Costa Amalfitana, Pompeia, Matera, Bari, Alberobello, Lecce e Santa Maria di Leuca. Saída 27/10/2026 com guia desde o Brasil e voos ITA Airways.",

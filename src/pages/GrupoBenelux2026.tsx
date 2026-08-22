@@ -211,6 +211,8 @@ const hotelsSeoKeywords = buildHotelsKeywords(hotelsForSeo);
 const jsonLd = {
   "@context": "https://schema.org",
   "@type": "TouristTrip",
+  "@id": "https://createtravel.tur.br/grupos/benelux-2026#trip",
+  url: "https://createtravel.tur.br/grupos/benelux-2026",
   name: "Grupo Benelux 2026 — Países Baixos, Bélgica e Luxemburgo — Create Travel",
   description:
     "Grupo organizado de 11 dias pelo Benelux: Amsterdã, Giethoorn, Roterdã, Haia, Delft, Kinderdijk, Antuérpia, Bruges, Gante, Bruxelas e Luxemburgo. Saída 13/10/2026 pela Iberia com guia desde o Brasil.",

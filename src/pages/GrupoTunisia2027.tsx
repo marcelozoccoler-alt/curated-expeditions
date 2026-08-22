@@ -218,6 +218,8 @@ const hotelsSeoKeywords = buildHotelsKeywords(hotelsForSeo);
 const jsonLd = {
   "@context": "https://schema.org",
   "@type": "TouristTrip",
+  "@id": "https://createtravel.tur.br/grupos/tunisia-carnaval-2027#trip",
+  url: "https://createtravel.tur.br/grupos/tunisia-carnaval-2027",
   name: "Grupo Tunísia Carnaval 2027 — Create Travel",
   description:
     "Grupo organizado de 11 dias pela Tunísia no feriado de Carnaval: Túnis, Cartago, Sidi Bou Said, Dougga, Kairouan, Tozeur, Douz, Matmata, Sfax e El Jem. Saída 05/02/2027 com guia acompanhante desde o Brasil e voos ITA Airways.",

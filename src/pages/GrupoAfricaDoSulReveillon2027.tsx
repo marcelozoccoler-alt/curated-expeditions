@@ -196,6 +196,8 @@ const hotelsSeoKeywords = buildHotelsKeywords(hotelsForSeo);
 const jsonLd = {
   "@context": "https://schema.org",
   "@type": "TouristTrip",
+  "@id": "https://createtravel.tur.br/grupos/africa-do-sul-reveillon-2027#trip",
+  url: "https://createtravel.tur.br/grupos/africa-do-sul-reveillon-2027",
   name: "Grupo África do Sul — Réveillon 2027 — Create Travel",
   description:
     "Grupo organizado de 9 dias pela África do Sul no Réveillon 2027: Johanesburgo, Soweto, Blyde River Canyon, Kruger Park em reserva privada, Cape Town e Cabo da Boa Esperança. Saída 28/12/2026 pela South African Airways, com guia desde o Brasil.",

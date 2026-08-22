@@ -229,6 +229,8 @@ const hotelsSeoKeywords = buildHotelsKeywords(hotelsForSeo);
 const jsonLd = {
   "@context": "https://schema.org",
   "@type": "TouristTrip",
+  "@id": "https://createtravel.tur.br/grupos/balcas-autenticos-2026#trip",
+  url: "https://createtravel.tur.br/grupos/balcas-autenticos-2026",
   name: "Grupo Bálcãs Autênticos 2026 — Albânia, Kosovo e Macedônia do Norte — Create Travel",
   description:
     "Grupo organizado de 13 dias pelos Bálcãs autênticos: Krujë, Prizren, Dečani, Pristina, Skopje, Ohrid, Berat, Gjirokastër, Saranda, Butrint e Tirana. Saída 13/10/2026 pela ITA Airways com guia desde o Brasil.",

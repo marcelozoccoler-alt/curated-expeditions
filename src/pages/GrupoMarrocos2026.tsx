@@ -200,6 +200,8 @@ const faqs = [
 const jsonLd = {
   "@context": "https://schema.org",
   "@type": "TouristTrip",
+  "@id": "https://createtravel.tur.br/grupos/marrocos-2026#trip",
+  url: "https://createtravel.tur.br/grupos/marrocos-2026",
   name: "Grupo Marrocos 2026 — Create Travel",
   description:
     "Grupo exclusivo e pequeno em viagem de 9 dias pelo Marrocos: Casablanca, Rabat, Fez, Saara, Ouarzazate e Marrakech. Saída 18/11/2026.",

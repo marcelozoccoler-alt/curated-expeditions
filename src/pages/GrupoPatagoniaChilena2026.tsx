@@ -196,6 +196,8 @@ const hotelsSeoKeywords = buildHotelsKeywords(hotelsForSeo);
 const jsonLd = {
   "@context": "https://schema.org",
   "@type": "TouristTrip",
+  "@id": "https://createtravel.tur.br/grupos/patagonia-chilena-2026#trip",
+  url: "https://createtravel.tur.br/grupos/patagonia-chilena-2026",
   name: "Grupo Patagônia Chilena 2026 — Create Travel",
   description:
     "Grupo organizado de 8 dias pela Patagônia Chilena: Santiago, Punta Arenas, Puerto Natales, Torres del Paine e Glaciares Balmaceda e Serrano. Saída 04/10/2026 com guia acompanhante desde o Brasil.",

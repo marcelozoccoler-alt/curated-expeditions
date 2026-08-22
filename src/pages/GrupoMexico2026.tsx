@@ -212,6 +212,8 @@ const hotelsSeoKeywords = buildHotelsKeywords(hotelsForSeo);
 const jsonLd = {
   "@context": "https://schema.org",
   "@type": "TouristTrip",
+  "@id": "https://createtravel.tur.br/grupos/mexico-2026#trip",
+  url: "https://createtravel.tur.br/grupos/mexico-2026",
   name: "Grupo México 2026 — Cidades históricas e Pacífico — Create Travel",
   description:
     "Grupo organizado de 11 dias pelo México: Cidade do México, Teotihuacán, Querétaro, San Miguel de Allende, Guanajuato, Guadalajara, Tequila e Puerto Vallarta All Inclusive. Saída 12/11/2026 com guia desde o Brasil e voos Aeroméxico.",

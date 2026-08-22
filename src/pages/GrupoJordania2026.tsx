@@ -216,6 +216,8 @@ const hotelsSeoKeywords = buildHotelsKeywords(hotelsForSeo);
 const jsonLd = {
   "@context": "https://schema.org",
   "@type": "TouristTrip",
+  "@id": "https://createtravel.tur.br/grupos/jordania-2026#trip",
+  url: "https://createtravel.tur.br/grupos/jordania-2026",
   name: "Grupo Jordânia Completa 2026 — Create Travel",
   description:
     "Grupo organizado de 11 dias pela Jordânia: Amã, Jerash, Ajlun, Madaba, Monte Nebo, Petra, Wadi Rum, Aqaba, Betânia e Mar Morto. Saída 09/09/2026 com guia desde o Brasil e voos Ethiopian Airlines.",

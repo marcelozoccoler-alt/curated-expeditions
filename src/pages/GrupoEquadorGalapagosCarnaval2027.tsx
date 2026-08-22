@@ -80,6 +80,8 @@ const hotelsSeoKeywords = buildHotelsKeywords(hotelsForSeo);
 const jsonLd = {
   "@context": "https://schema.org",
   "@type": "TouristTrip",
+  "@id": "https://createtravel.tur.br/grupos/equador-galapagos-carnaval-2027#trip",
+  url: "https://createtravel.tur.br/grupos/equador-galapagos-carnaval-2027",
   name: "Grupo Equador & Galápagos 2027 — Carnaval — Create Travel",
   description: "11 dias no Carnaval 2027 entre Andes e Pacífico: Quito colonial, Avenida dos Vulcões, Ilhas Galápagos e Guayaquil. Saída 05/02/2027 com guia do Brasil e voos LATAM.",
   image: heroImg,

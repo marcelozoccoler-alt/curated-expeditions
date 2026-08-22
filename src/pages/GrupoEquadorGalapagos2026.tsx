@@ -216,6 +216,8 @@ const hotelsSeoKeywords = buildHotelsKeywords(hotelsForSeo);
 const jsonLd = {
   "@context": "https://schema.org",
   "@type": "TouristTrip",
+  "@id": "https://createtravel.tur.br/grupos/equador-galapagos-2026#trip",
+  url: "https://createtravel.tur.br/grupos/equador-galapagos-2026",
   name: "Grupo Equador & Galápagos 2026 — Create Travel",
   description:
     "Grupo organizado de 11 dias por Quito, Cotopaxi, Ilhas Galápagos e Guayaquil. Saída 12/10/2026 com guia acompanhante desde o Brasil e voos LATAM.",

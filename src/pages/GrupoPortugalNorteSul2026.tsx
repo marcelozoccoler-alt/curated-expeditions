@@ -230,6 +230,8 @@ const hotelsSeoKeywords = buildHotelsKeywords(hotelsForSeo);
 const jsonLd = {
   "@context": "https://schema.org",
   "@type": "TouristTrip",
+  "@id": "https://createtravel.tur.br/grupos/portugal-norte-sul-2026#trip",
+  url: "https://createtravel.tur.br/grupos/portugal-norte-sul-2026",
   name: "Grupo Portugal de Norte a Sul · Outono 2026 — Create Travel",
   description:
     "Grupo organizado de 14 dias por Portugal: Porto, Douro, Aveiro, Braga, Serra da Estrela, Fátima, Óbidos, Lisboa, Sintra, Évora e Algarve. Saída 28/09/2026 pela Iberia com guia desde o Brasil.",

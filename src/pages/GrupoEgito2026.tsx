@@ -233,6 +233,8 @@ const hotelsSeoKeywords = buildHotelsKeywords(hotelsForSeo);
 const jsonLd = {
   "@context": "https://schema.org",
   "@type": "TouristTrip",
+  "@id": "https://createtravel.tur.br/grupos/egito-2026#trip",
+  url: "https://createtravel.tur.br/grupos/egito-2026",
   name: "Grupo Egito 2026 — Create Travel",
   description:
     "Grupo organizado de 14 dias pelo Egito: Cairo com Pirâmides e GEM, Luxor, cruzeiro pelo Nilo até Assuã e Mar Vermelho em Sharm El Sheikh. Saída 29/09/2026 com guia acompanhante desde o Brasil e voos Turkish Airlines.",

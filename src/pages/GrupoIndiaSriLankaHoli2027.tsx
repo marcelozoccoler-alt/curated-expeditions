@@ -95,6 +95,8 @@ const hotelsSeoKeywords = buildHotelsKeywords(hotelsForSeo);
 const jsonLd = {
   "@context": "https://schema.org",
   "@type": "TouristTrip",
+  "@id": "https://createtravel.tur.br/grupos/india-sri-lanka-holi-2027#trip",
+  url: "https://createtravel.tur.br/grupos/india-sri-lanka-holi-2027",
   name: "Grupo Índia & Sri Lanka 2027 — Festival Holi — Create Travel",
   description: "18 dias pela Índia e Sri Lanka em 2027 com participação privativa no Festival Holi em Jaipur, Taj Mahal, Sigiriya, jardins de chá e safári no Yala. Saída 16/03/2027 pela Turkish Airlines com guia do Brasil.",
   image: heroImg,

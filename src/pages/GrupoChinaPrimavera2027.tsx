@@ -87,6 +87,8 @@ const hotelsSeoKeywords = buildHotelsKeywords(hotelsForSeo);
 const jsonLd = {
   "@context": "https://schema.org",
   "@type": "TouristTrip",
+  "@id": "https://createtravel.tur.br/grupos/china-primavera-2027#trip",
+  url: "https://createtravel.tur.br/grupos/china-primavera-2027",
   name: "Grupo China 2027 — Primavera — Create Travel",
   description: "15 dias pela China na primavera 2027: Beijing, Grande Muralha, Xi'an com Guerreiros de Terracota, Zhangjiajie (cenário de Avatar) e Shanghai. Saída 13/05/2027 pela Ethiopian com guia do Brasil.",
   image: heroImg,
