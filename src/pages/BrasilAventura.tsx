@@ -56,7 +56,7 @@ const BrasilAventura = () => {
 
   const faqLd = {
     "@context": "https://schema.org",
-    "@type": "FAQPage",
+    "@type": "WebPage",
     mainEntity: ui.faq.items.map((f) => ({
       "@type": "Question",
       name: f.q,

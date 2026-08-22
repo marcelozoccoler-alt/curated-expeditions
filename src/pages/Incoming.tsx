@@ -81,7 +81,7 @@ const Incoming = () => {
 
   const faqJsonLd = {
     "@context": "https://schema.org",
-    "@type": "FAQPage",
+    "@type": "WebPage",
     inLanguage: htmlLang,
     mainEntity: copy.faqs.items.map((item) => ({
       "@type": "Question",

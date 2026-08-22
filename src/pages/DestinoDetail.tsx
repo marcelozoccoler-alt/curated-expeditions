@@ -121,7 +121,7 @@ const DestinoDetail = () => {
   // FAQ JSON-LD
   const faqSchema = {
     "@context": "https://schema.org",
-    "@type": "FAQPage",
+    "@type": "WebPage",
     mainEntity: allFaqs.map((f) => ({
       "@type": "Question",
       name: f.q,

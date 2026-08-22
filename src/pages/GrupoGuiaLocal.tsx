@@ -178,7 +178,7 @@ const GrupoGuiaLocal = () => {
     },
     {
       "@context": "https://schema.org",
-      "@type": "FAQPage",
+      "@type": "WebPage",
       mainEntity: faqs.map((f) => ({
         "@type": "Question",
         name: f.q,

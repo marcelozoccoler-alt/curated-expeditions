@@ -35,7 +35,7 @@ const Guia = () => {
 
   const faqLd = {
     "@context": "https://schema.org",
-    "@type": "FAQPage",
+    "@type": "WebPage",
     mainEntity: niche.faq.map((f) => ({
       "@type": "Question",
       name: f.q,

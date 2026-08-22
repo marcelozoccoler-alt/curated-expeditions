@@ -569,7 +569,7 @@ const jsonLd = {
 
 const faqJsonLd = {
   "@context": "https://schema.org",
-  "@type": "FAQPage",
+  "@type": "WebPage",
   mainEntity: FAQS.map((f) => ({
     "@type": "Question",
     name: f.q,

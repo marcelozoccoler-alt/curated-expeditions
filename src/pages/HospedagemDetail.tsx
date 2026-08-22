@@ -65,7 +65,7 @@ const HospedagemDetail = () => {
 
   const faqSchema = {
     "@context": "https://schema.org",
-    "@type": "FAQPage",
+    "@type": "WebPage",
     mainEntity: stay.faq.map((f) => ({
       "@type": "Question",
       name: f.q,

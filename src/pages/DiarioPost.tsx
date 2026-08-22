@@ -69,7 +69,7 @@ const DiarioPost = () => {
   const faqLd = post.faq.length
     ? {
         "@context": "https://schema.org",
-        "@type": "FAQPage",
+        "@type": "WebPage",
         mainEntity: post.faq.map((f) => ({
           "@type": "Question",
           name: f.q,
