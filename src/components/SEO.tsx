@@ -81,6 +81,12 @@ export const SEO = ({
     isPartOf: { "@id": ENTITY_IDS.website },
     about: { "@id": ENTITY_IDS.organization },
     publisher: { "@id": ENTITY_IDS.organization },
+    // Trechos que assistentes de voz / IA podem ler em voz alta.
+    speakable: {
+      "@type": "SpeakableSpecification",
+      cssSelector: ["h1", "main p:first-of-type"],
+    },
+
     ...(ogImage
       ? { primaryImageOfPage: { "@type": "ImageObject", url: ogImage } }
       : {}),
