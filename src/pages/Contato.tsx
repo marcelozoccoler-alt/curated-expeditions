@@ -95,7 +95,7 @@ const Contato = () => {
     url: `${CONTACT.domain}/contato`,
     name: "Contato — Create Travel",
     inLanguage: "pt-BR",
-    isPartOf: { "@id": `${CONTACT.domain}/#webpage` },
+    isPartOf: { "@id": `${CONTACT.domain}/contato#webpage` },
     about: { "@id": `${CONTACT.domain}/#organization` },
     mainEntity: { "@id": `${CONTACT.domain}/#organization` },
   };
