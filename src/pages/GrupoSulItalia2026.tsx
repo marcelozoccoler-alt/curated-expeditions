@@ -230,11 +230,11 @@ const jsonLd = {
     "Grupo organizado de 12 dias pelo sul da Itália em pleno outono: Costa Amalfitana, Pompeia, Matera, Bari, Alberobello, Lecce e Santa Maria di Leuca. Saída 27/10/2026 com guia desde o Brasil e voos ITA Airways.",
   image: heroImg,
   touristType: "Cultura, história, gastronomia",
-  itinerary: itinerary.map((d, i) => ({
+  itinerary: { "@type": "ItemList", itemListElement: itinerary.map((d, i) => ({
     "@type": "ListItem",
     position: i + 1,
     name: `${d.day} — ${d.title}`,
-  })),
+  })) },
   offers: {
     "@type": "Offer",
     price: "4757.00",

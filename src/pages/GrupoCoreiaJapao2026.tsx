@@ -255,11 +255,11 @@ const jsonLd = {
     "Grupo organizado de 15 dias pela Coreia do Sul e Japão em pleno outono: Seul, DMZ, Osaka, Nara, Kyoto, Hakone, Monte Fuji e Tóquio. Saída 13/10/2026 com guia desde o Brasil e voos Turkish Airlines.",
   image: heroImg,
   touristType: "Cultura, história, gastronomia, natureza",
-  itinerary: itinerary.map((d, i) => ({
+  itinerary: { "@type": "ItemList", itemListElement: itinerary.map((d, i) => ({
     "@type": "ListItem",
     position: i + 1,
     name: `${d.day} — ${d.title}`,
-  })),
+  })) },
   offers: {
     "@type": "Offer",
     price: "8998.00",

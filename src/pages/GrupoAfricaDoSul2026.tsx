@@ -204,11 +204,11 @@ const jsonLd = {
     "Grupo organizado de 9 dias pela África do Sul: Johanesburgo, Soweto, Blyde River Canyon, safári no Kruger e Cidade do Cabo. Saída 07/09/2026 com guia acompanhante desde o Brasil e voos South African Airways.",
   image: heroImg,
   touristType: "Safári, natureza, cultura, história",
-  itinerary: itinerary.map((d, i) => ({
+  itinerary: { "@type": "ItemList", itemListElement: itinerary.map((d, i) => ({
     "@type": "ListItem",
     position: i + 1,
     name: `${d.day} — ${d.title}`,
-  })),
+  })) },
   offers: {
     "@type": "Offer",
     price: "5298.00",

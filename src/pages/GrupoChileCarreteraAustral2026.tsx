@@ -188,11 +188,11 @@ const jsonLd = {
     "Grupo organizado de 8 dias pelo Chile e Patagônia chilena: Santiago, Balmaceda, Carretera Austral, Capelas de Mármore, Glaciar San Rafael, Parque Aikén e termas da Enseada Pérez. Saída 28/09/2026 pela LATAM com guia desde o Brasil.",
   image: heroImg,
   touristType: "Natureza, aventura, paisagens patagônicas, gastronomia",
-  itinerary: itinerary.map((d, i) => ({
+  itinerary: { "@type": "ItemList", itemListElement: itinerary.map((d, i) => ({
     "@type": "ListItem",
     position: i + 1,
     name: `${d.day} — ${d.title}`,
-  })),
+  })) },
   offers: {
     "@type": "Offer",
     price: "3396.00",

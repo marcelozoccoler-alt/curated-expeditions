@@ -221,11 +221,11 @@ const jsonLd = {
     "Grupo organizado de 11 dias pela Islândia em novembro: Reykjavík, Círculo Dourado, costa sul, Jökulsárlón, Crystal Ice Cave, Blue Lagoon e cruzeiro da aurora boreal. Saída 12/11/2026 com guia desde o Brasil e voos Lufthansa.",
   image: heroImg,
   touristType: "Natureza, aurora boreal, aventura, cultura",
-  itinerary: itinerary.map((d, i) => ({
+  itinerary: { "@type": "ItemList", itemListElement: itinerary.map((d, i) => ({
     "@type": "ListItem",
     position: i + 1,
     name: `${d.day} — ${d.title}`,
-  })),
+  })) },
   offers: {
     "@type": "Offer",
     price: "5996.00",

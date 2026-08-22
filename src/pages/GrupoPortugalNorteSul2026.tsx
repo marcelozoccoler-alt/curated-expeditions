@@ -235,11 +235,11 @@ const jsonLd = {
     "Grupo organizado de 14 dias por Portugal: Porto, Douro, Aveiro, Braga, Serra da Estrela, Fátima, Óbidos, Lisboa, Sintra, Évora e Algarve. Saída 28/09/2026 pela Iberia com guia desde o Brasil.",
   image: heroImg,
   touristType: "Cultura, gastronomia, vinhos, outono ibérico",
-  itinerary: itinerary.map((d, i) => ({
+  itinerary: { "@type": "ItemList", itemListElement: itinerary.map((d, i) => ({
     "@type": "ListItem",
     position: i + 1,
     name: `${d.day} — ${d.title}`,
-  })),
+  })) },
   offers: {
     "@type": "Offer",
     price: "4498.00",

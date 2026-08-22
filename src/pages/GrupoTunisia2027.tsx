@@ -223,11 +223,11 @@ const jsonLd = {
     "Grupo organizado de 11 dias pela Tunísia no feriado de Carnaval: Túnis, Cartago, Sidi Bou Said, Dougga, Kairouan, Tozeur, Douz, Matmata, Sfax e El Jem. Saída 05/02/2027 com guia acompanhante desde o Brasil e voos ITA Airways.",
   image: heroImg,
   touristType: "Cultura, história, deserto, arqueologia",
-  itinerary: itinerary.map((d, i) => ({
+  itinerary: { "@type": "ItemList", itemListElement: itinerary.map((d, i) => ({
     "@type": "ListItem",
     position: i + 1,
     name: `${d.day} — ${d.title}`,
-  })),
+  })) },
   offers: {
     "@type": "Offer",
     price: "4158.00",

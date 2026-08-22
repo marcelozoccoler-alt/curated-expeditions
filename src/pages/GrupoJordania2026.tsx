@@ -221,11 +221,11 @@ const jsonLd = {
     "Grupo organizado de 11 dias pela Jordânia: Amã, Jerash, Ajlun, Madaba, Monte Nebo, Petra, Wadi Rum, Aqaba, Betânia e Mar Morto. Saída 09/09/2026 com guia desde o Brasil e voos Ethiopian Airlines.",
   image: heroImg,
   touristType: "História, cultura, deserto, espiritualidade",
-  itinerary: itinerary.map((d, i) => ({
+  itinerary: { "@type": "ItemList", itemListElement: itinerary.map((d, i) => ({
     "@type": "ListItem",
     position: i + 1,
     name: `${d.day} — ${d.title}`,
-  })),
+  })) },
   offers: {
     "@type": "Offer",
     price: "4173.00",

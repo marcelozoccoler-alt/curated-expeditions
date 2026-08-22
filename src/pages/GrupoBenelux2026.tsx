@@ -216,11 +216,11 @@ const jsonLd = {
     "Grupo organizado de 11 dias pelo Benelux: Amsterdã, Giethoorn, Roterdã, Haia, Delft, Kinderdijk, Antuérpia, Bruges, Gante, Bruxelas e Luxemburgo. Saída 13/10/2026 pela Iberia com guia desde o Brasil.",
   image: heroImg,
   touristType: "Cultura, história, outono europeu",
-  itinerary: itinerary.map((d, i) => ({
+  itinerary: { "@type": "ItemList", itemListElement: itinerary.map((d, i) => ({
     "@type": "ListItem",
     position: i + 1,
     name: `${d.day} — ${d.title}`,
-  })),
+  })) },
   offers: {
     "@type": "Offer",
     price: "4989.00",

@@ -214,11 +214,11 @@ const jsonLd = {
     "Grupo organizado de 12 dias pelo sul da Itália: Sorrento, Costa Amalfitana, Pompeia, Matera, Alberobello, Bari, Polignano, Lecce, Otranto e Santa Maria di Leuca. Saída 11/10/2026 pela ITA Airways com guia desde o Brasil.",
   image: heroImg,
   touristType: "Cultura, gastronomia, outono italiano",
-  itinerary: itinerary.map((d, i) => ({
+  itinerary: { "@type": "ItemList", itemListElement: itinerary.map((d, i) => ({
     "@type": "ListItem",
     position: i + 1,
     name: `${d.day} — ${d.title}`,
-  })),
+  })) },
   offers: {
     "@type": "Offer",
     price: "4757.00",

@@ -229,11 +229,11 @@ const jsonLd = {
     "Grupo organizado de 12 dias pela Turquia no outono 2026: Istambul, Ancara, Capadócia, Pamukkale, Kusadasi, Éfeso e Bursa. Saída 21/10/2026 pela Turkish Airlines com guia desde o Brasil.",
   image: heroImg,
   touristType: "Cultura, história, outono",
-  itinerary: itinerary.map((d, i) => ({
+  itinerary: { "@type": "ItemList", itemListElement: itinerary.map((d, i) => ({
     "@type": "ListItem",
     position: i + 1,
     name: `${d.day} — ${d.title}`,
-  })),
+  })) },
   offers: {
     "@type": "Offer",
     price: "3698.00",

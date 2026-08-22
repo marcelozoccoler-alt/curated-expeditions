@@ -217,11 +217,11 @@ const jsonLd = {
     "Grupo organizado de 11 dias pelo México: Cidade do México, Teotihuacán, Querétaro, San Miguel de Allende, Guanajuato, Guadalajara, Tequila e Puerto Vallarta All Inclusive. Saída 12/11/2026 com guia desde o Brasil e voos Aeroméxico.",
   image: heroImg,
   touristType: "Cultura, história, gastronomia, praia",
-  itinerary: itinerary.map((d, i) => ({
+  itinerary: { "@type": "ItemList", itemListElement: itinerary.map((d, i) => ({
     "@type": "ListItem",
     position: i + 1,
     name: `${d.day} — ${d.title}`,
-  })),
+  })) },
   offers: {
     "@type": "Offer",
     price: "4398.00",

@@ -271,11 +271,11 @@ const jsonLd = {
     "Grupo organizado de 17 dias pelo Sudeste Asiático no Carnaval 2027: Hanói, Baía de Halong, Luang Prabang, Siem Reap (Angkor Wat), Hoi An, Ba Na Hills, Hue e Saigon. Saída 01/02/2027 com guia desde o Brasil e voos Turkish Airlines.",
   image: heroImg,
   touristType: "Cultura, história, espiritualidade, Patrimônio UNESCO",
-  itinerary: itinerary.map((d, i) => ({
+  itinerary: { "@type": "ItemList", itemListElement: itinerary.map((d, i) => ({
     "@type": "ListItem",
     position: i + 1,
     name: `${d.day} — ${d.title}`,
-  })),
+  })) },
   offers: {
     "@type": "Offer",
     price: "6798.00",

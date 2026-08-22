@@ -232,11 +232,11 @@ const jsonLd = {
     "Grupo organizado de 12 dias pela Croácia, Bósnia-Herzegovina e Montenegro: Zagreb, Plitvice, Zadar, Split, Hvar, Mostar, Dubrovnik e Baía de Kotor. Saída 11/10/2026 com guia acompanhante desde o Brasil e voos Turkish Airlines.",
   image: heroImg,
   touristType: "Cultura, história, natureza, espiritualidade",
-  itinerary: itinerary.map((d, i) => ({
+  itinerary: { "@type": "ItemList", itemListElement: itinerary.map((d, i) => ({
     "@type": "ListItem",
     position: i + 1,
     name: `${d.day} — ${d.title}`,
-  })),
+  })) },
   offers: {
     "@type": "Offer",
     price: "4338.00",

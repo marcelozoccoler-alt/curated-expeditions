@@ -206,11 +206,11 @@ const jsonLd = {
     "Grupo organizado de 9 dias pelo Chile no Carnaval 2027: Santiago, Vinícola Undurraga, Puerto Varas, Puerto Montt, Frutillar e navegação pelo Lago Esmeralda até Peulla. Saída 03/02/2027 com guia acompanhante desde o Brasil.",
   image: heroImg,
   touristType: "Natureza, gastronomia, vinhos, paisagens",
-  itinerary: itinerary.map((d, i) => ({
+  itinerary: { "@type": "ItemList", itemListElement: itinerary.map((d, i) => ({
     "@type": "ListItem",
     position: i + 1,
     name: `${d.day} — ${d.title}`,
-  })),
+  })) },
   offers: {
     "@type": "Offer",
     price: "2600.00",

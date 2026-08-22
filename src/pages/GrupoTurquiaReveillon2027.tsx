@@ -236,11 +236,11 @@ const jsonLd = {
     "Grupo organizado de 13 dias pela Turquia no Réveillon 2027: Istambul, Ancara, Capadócia, Pamukkale, Kusadasi, Éfeso e Bursa. Saída 28/12/2026 pela Turkish Airlines com guia desde o Brasil.",
   image: heroImg,
   touristType: "Cultura, história, inverno, Réveillon",
-  itinerary: itinerary.map((d, i) => ({
+  itinerary: { "@type": "ItemList", itemListElement: itinerary.map((d, i) => ({
     "@type": "ListItem",
     position: i + 1,
     name: `${d.day} — ${d.title}`,
-  })),
+  })) },
   offers: {
     "@type": "Offer",
     price: "3998.00",

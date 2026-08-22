@@ -241,11 +241,11 @@ const jsonLd = {
     "Grupo exclusivo de 15 dias por Budapeste, Viena, Praga e Istambul. Saída 02/10/2026 pela Turkish Airlines, com cruzeiro pelo Danúbio, concerto em Schönbrunn e jantar medieval em Praga.",
   image: heroImg,
   touristType: "Cultura, história, capitais europeias, outono",
-  itinerary: itinerary.map((d, i) => ({
+  itinerary: { "@type": "ItemList", itemListElement: itinerary.map((d, i) => ({
     "@type": "ListItem",
     position: i + 1,
     name: `${d.day} — ${d.title}`,
-  })),
+  })) },
   offers: {
     "@type": "Offer",
     price: "24935.00",

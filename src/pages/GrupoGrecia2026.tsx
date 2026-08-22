@@ -248,11 +248,11 @@ const jsonLd = {
     "Grupo organizado de 13 dias pela Grécia: Atenas, Delfos, Meteora, Santorini e Mykonos. Saída 27/09/2026 com guia acompanhante desde São Paulo.",
   image: heroImg,
   touristType: "Cultural, histórica, mediterrânea",
-  itinerary: itinerary.map((d, i) => ({
+  itinerary: { "@type": "ItemList", itemListElement: itinerary.map((d, i) => ({
     "@type": "ListItem",
     position: i + 1,
     name: `${d.day} — ${d.title}`,
-  })),
+  })) },
   offers: {
     "@type": "Offer",
     price: "4998.00",

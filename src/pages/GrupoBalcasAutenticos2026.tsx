@@ -234,11 +234,11 @@ const jsonLd = {
     "Grupo organizado de 13 dias pelos Bálcãs autênticos: Krujë, Prizren, Dečani, Pristina, Skopje, Ohrid, Berat, Gjirokastër, Saranda, Butrint e Tirana. Saída 13/10/2026 pela ITA Airways com guia desde o Brasil.",
   image: heroImg,
   touristType: "Cultura, história, outono balcânico",
-  itinerary: itinerary.map((d, i) => ({
+  itinerary: { "@type": "ItemList", itemListElement: itinerary.map((d, i) => ({
     "@type": "ListItem",
     position: i + 1,
     name: `${d.day} — ${d.title}`,
-  })),
+  })) },
   offers: {
     "@type": "Offer",
     price: "4759.00",

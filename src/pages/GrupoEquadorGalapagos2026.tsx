@@ -221,11 +221,11 @@ const jsonLd = {
     "Grupo organizado de 11 dias por Quito, Cotopaxi, Ilhas Galápagos e Guayaquil. Saída 12/10/2026 com guia acompanhante desde o Brasil e voos LATAM.",
   image: heroImg,
   touristType: "Natureza, cultura, fauna endêmica",
-  itinerary: itinerary.map((d, i) => ({
+  itinerary: { "@type": "ItemList", itemListElement: itinerary.map((d, i) => ({
     "@type": "ListItem",
     position: i + 1,
     name: `${d.day} — ${d.title}`,
-  })),
+  })) },
   offers: {
     "@type": "Offer",
     price: "3997.00",

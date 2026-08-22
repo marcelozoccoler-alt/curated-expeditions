@@ -201,11 +201,11 @@ const jsonLd = {
     "Grupo organizado de 8 dias pela Patagônia Chilena: Santiago, Punta Arenas, Puerto Natales, Torres del Paine e Glaciares Balmaceda e Serrano. Saída 04/10/2026 com guia acompanhante desde o Brasil.",
   image: heroImg,
   touristType: "Natureza, aventura, paisagens",
-  itinerary: itinerary.map((d, i) => ({
+  itinerary: { "@type": "ItemList", itemListElement: itinerary.map((d, i) => ({
     "@type": "ListItem",
     position: i + 1,
     name: `${d.day} — ${d.title}`,
-  })),
+  })) },
   offers: {
     "@type": "Offer",
     price: "3498.00",

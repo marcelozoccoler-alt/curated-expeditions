@@ -205,11 +205,11 @@ const jsonLd = {
     "Grupo exclusivo e pequeno em viagem de 9 dias pelo Marrocos: Casablanca, Rabat, Fez, Saara, Ouarzazate e Marrakech. Saída 18/11/2026.",
   image: heroImg,
   touristType: "Cultural, histórica, sensorial",
-  itinerary: itinerary.map((d, i) => ({
+  itinerary: { "@type": "ItemList", itemListElement: itinerary.map((d, i) => ({
     "@type": "ListItem",
     position: i + 1,
     name: `${d.day} — ${d.title}`,
-  })),
+  })) },
   offers: {
     "@type": "Offer",
     price: "18295.00",

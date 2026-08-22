@@ -201,11 +201,11 @@ const jsonLd = {
     "Grupo organizado de 9 dias pela África do Sul no Réveillon 2027: Johanesburgo, Soweto, Blyde River Canyon, Kruger Park em reserva privada, Cape Town e Cabo da Boa Esperança. Saída 28/12/2026 pela South African Airways, com guia desde o Brasil.",
   image: heroImg,
   touristType: "Safári, natureza, cultura, Réveillon",
-  itinerary: itinerary.map((d, i) => ({
+  itinerary: { "@type": "ItemList", itemListElement: itinerary.map((d, i) => ({
     "@type": "ListItem",
     position: i + 1,
     name: `${d.day} — ${d.title}`,
-  })),
+  })) },
   offers: {
     "@type": "Offer",
     price: "5487.00",

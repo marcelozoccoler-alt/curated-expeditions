@@ -220,11 +220,11 @@ const jsonLd = {
     "Grupo organizado de 11 dias por Portugal: Fátima, Piódão, Marvão, Monsanto, Belmonte, Sortelha, Almeida, Guarda, Trancoso, Viseu, Coimbra e Lisboa. Saída 12/10/2026 pela TAP Air Portugal com guia desde o Brasil.",
   image: heroImg,
   touristType: "Cultura, história, aldeias históricas, outono europeu",
-  itinerary: itinerary.map((d, i) => ({
+  itinerary: { "@type": "ItemList", itemListElement: itinerary.map((d, i) => ({
     "@type": "ListItem",
     position: i + 1,
     name: `${d.day} — ${d.title}`,
-  })),
+  })) },
   offers: {
     "@type": "Offer",
     price: "4149.00",

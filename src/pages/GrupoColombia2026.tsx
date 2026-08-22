@@ -206,11 +206,11 @@ const jsonLd = {
     "Grupo organizado de 10 dias pela Colômbia: Bogotá, Zipaquirá, Villa de Leyva, Ráquira e Cartagena das Índias. Saída 13/10/2026 pela LATAM com guia desde o Brasil.",
   image: heroImg,
   touristType: "Cultura, história, Caribe",
-  itinerary: itinerary.map((d, i) => ({
+  itinerary: { "@type": "ItemList", itemListElement: itinerary.map((d, i) => ({
     "@type": "ListItem",
     position: i + 1,
     name: `${d.day} — ${d.title}`,
-  })),
+  })) },
   offers: {
     "@type": "Offer",
     price: "2698.00",

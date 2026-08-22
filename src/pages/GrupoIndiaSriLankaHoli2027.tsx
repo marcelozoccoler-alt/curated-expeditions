@@ -99,7 +99,7 @@ const jsonLd = {
   description: "18 dias pela Índia e Sri Lanka em 2027 com participação privativa no Festival Holi em Jaipur, Taj Mahal, Sigiriya, jardins de chá e safári no Yala. Saída 16/03/2027 pela Turkish Airlines com guia do Brasil.",
   image: heroImg,
   touristType: "Cultura, festivais, natureza, vida selvagem",
-  itinerary: itinerary.map((d, i) => ({ "@type": "ListItem", position: i + 1, name: `${d.day} — ${d.title}` })),
+  itinerary: { "@type": "ItemList", itemListElement: itinerary.map((d, i) => ({ "@type": "ListItem", position: i + 1, name: `${d.day} — ${d.title}` })) },
   offers: { "@type": "Offer", price: "6998.00", priceCurrency: "USD", availability: "https://schema.org/LimitedAvailability", validThrough: "2027-03-16" },
   provider: { "@id": "https://createtravel.tur.br/#organization" },
 };

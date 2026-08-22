@@ -258,11 +258,11 @@ const jsonLd = {
     "Grupo organizado de 15 dias pelo Himalaia no Carnaval 2027: Kathmandu, Bhaktapur, Nagarkot, Thimphu, Punakha, Paro e o Tiger's Nest Monastery. Saída 01/02/2027 com guia desde o Brasil e voos Turkish Airlines.",
   image: heroImg,
   touristType: "Espiritualidade, cultura, natureza, montanha",
-  itinerary: itinerary.map((d, i) => ({
+  itinerary: { "@type": "ItemList", itemListElement: itinerary.map((d, i) => ({
     "@type": "ListItem",
     position: i + 1,
     name: `${d.day} — ${d.title}`,
-  })),
+  })) },
   offers: {
     "@type": "Offer",
     price: "7998.00",
