@@ -24,6 +24,7 @@ const CruzeiroFluvial = () => {
   const tripLd = {
     "@context": "https://schema.org",
     "@type": "TouristTrip",
+    "@id": `${url}#trip`,
     name: cruise.name,
     description: cruise.metaDescription,
     url,

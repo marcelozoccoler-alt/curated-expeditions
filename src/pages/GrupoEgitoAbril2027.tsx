@@ -261,6 +261,8 @@ const hotelsSeoKeywords = buildHotelsKeywords(hotelsForSeo);
 const jsonLd = {
   "@context": "https://schema.org",
   "@type": "TouristTrip",
+  "@id": `${CONTACT.domain}${CANONICAL}#trip`,
+  url: `${CONTACT.domain}${CANONICAL}`,
   name: GROUP_NAME,
   description:
     "Grupo organizado de 13 dias pelo Egito na primavera: Cairo, Pirâmides de Gizé, Grande Museu Egípcio, Luxor, cruzeiro pelo Nilo até Assuã, Edfu, Kom Ombo, Filae e Sharm El Sheikh no Mar Vermelho. Saída 20/04/2027 com guia acompanhante desde o Brasil e voos Emirates.",
