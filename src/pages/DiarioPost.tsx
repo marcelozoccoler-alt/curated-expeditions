@@ -51,7 +51,8 @@ const DiarioPost = () => {
     articleSection: post.category,
     timeRequired: `PT${post.readingMinutes}M`,
     wordCount: post.sections.reduce(
-      (n, sec) => n + `${sec.heading ?? ""} ${sec.body ?? ""}`.split(/\s+/).filter(Boolean).length,
+      (n, sec) =>
+        n + sec.paragraphs.join(" ").split(/\s+/).filter(Boolean).length,
       0,
     ),
     ...(post.relatedDestinations?.length
