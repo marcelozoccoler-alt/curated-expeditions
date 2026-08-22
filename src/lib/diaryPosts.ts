@@ -26,6 +26,8 @@ export interface DiaryPost {
   imageAiPrompt: string;
   imageOverrideUrl?: string;
   publishedAt: string;      // ISO
+  /** ISO — última revisão editorial; alimenta dateModified no schema. */
+  updatedAt?: string;
   readingMinutes: number;
   category: "Cultura" | "Destino" | "Natureza" | "Roteiro" | "Curiosidades";
   whatsappName: string;     // mensagem contextual no CTA

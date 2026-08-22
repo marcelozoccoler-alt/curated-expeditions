@@ -81,6 +81,12 @@ export const SEO = ({
     isPartOf: { "@id": ENTITY_IDS.website },
     about: { "@id": ENTITY_IDS.organization },
     publisher: { "@id": ENTITY_IDS.organization },
+    // Trechos que assistentes de voz / IA podem ler em voz alta.
+    speakable: {
+      "@type": "SpeakableSpecification",
+      cssSelector: ["h1", "main p:first-of-type"],
+    },
+
     ...(ogImage
       ? { primaryImageOfPage: { "@type": "ImageObject", url: ogImage } }
       : {}),
@@ -92,7 +98,17 @@ export const SEO = ({
       isPartOf: { "@id": ENTITY_IDS.website },
       publisher: { "@id": ENTITY_IDS.organization },
     }),
+    // mainEntity de vários nós inline (ex.: perguntas de FAQ + perguntas da
+    // entidade) é concatenado em vez de sobrescrito.
+    ...(() => {
+      const questions = inlineWebPages.flatMap((n) => {
+        const me = n.mainEntity;
+        return Array.isArray(me) ? me : me ? [me] : [];
+      });
+      return questions.length ? { mainEntity: questions } : {};
+    })(),
   };
+
 
   // Um único grafo (@graph) com @id estáveis — evita fragmentar a entidade
   // em vários blocos JSON-LD soltos (Padrão 1 — Entidade Forte).

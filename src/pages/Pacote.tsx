@@ -19,6 +19,8 @@ const Pacote = () => {
   const tripLd = {
     "@context": "https://schema.org",
     "@type": "TouristTrip",
+    "@id": `${url}#trip`,
+    url,
     name: pacote.h1,
     description: pacote.metaDescription,
     itinerary: pacote.roteiro.map((r, i) => ({
@@ -39,7 +41,7 @@ const Pacote = () => {
   };
   const faqLd = {
     "@context": "https://schema.org",
-    "@type": "FAQPage",
+    "@type": "WebPage",
     mainEntity: pacote.faq.map((f) => ({
       "@type": "Question",
       name: f.q,

@@ -220,22 +220,24 @@ const hotelsSeoKeywords = buildHotelsKeywords(hotelsForSeo);
 const jsonLd = {
   "@context": "https://schema.org",
   "@type": "TouristTrip",
+  "@id": "https://createtravel.tur.br/grupos/china-2026#trip",
+  url: "https://createtravel.tur.br/grupos/china-2026",
   name: "Grupo China Dourada · Outono 2026 — Create Travel",
   description:
     "Grupo organizado de 14 dias pela China no outono: Beijing, Grande Muralha, Xi'an e Guerreiros de Terracota, Zhangjiajie e Shanghai. Saída 08/10/2026 pela Ethiopian Airlines com guia desde o Brasil.",
   image: heroImg,
   touristType: "Cultura, natureza, outono oriental",
-  itinerary: itinerary.map((d, i) => ({
+  itinerary: { "@type": "ItemList", itemListElement: itinerary.map((d, i) => ({
     "@type": "ListItem",
     position: i + 1,
     name: `${d.day} — ${d.title}`,
-  })),
+  })) },
   offers: {
     "@type": "Offer",
     price: "5998.00",
     priceCurrency: "USD",
     availability: "https://schema.org/LimitedAvailability",
-    validThrough: "2026-10-08",
+    validThrough: "2026-10-08", priceValidUntil: "2026-10-08",
   },
   provider: { "@id": "https://createtravel.tur.br/#organization" },
 };

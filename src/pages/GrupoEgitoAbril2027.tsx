@@ -261,22 +261,24 @@ const hotelsSeoKeywords = buildHotelsKeywords(hotelsForSeo);
 const jsonLd = {
   "@context": "https://schema.org",
   "@type": "TouristTrip",
+  "@id": `${CONTACT.domain}${CANONICAL}#trip`,
+  url: `${CONTACT.domain}${CANONICAL}`,
   name: GROUP_NAME,
   description:
     "Grupo organizado de 13 dias pelo Egito na primavera: Cairo, Pirâmides de Gizé, Grande Museu Egípcio, Luxor, cruzeiro pelo Nilo até Assuã, Edfu, Kom Ombo, Filae e Sharm El Sheikh no Mar Vermelho. Saída 20/04/2027 com guia acompanhante desde o Brasil e voos Emirates.",
   image: heroImg,
   touristType: "História, arqueologia, cruzeiro fluvial, praia",
-  itinerary: itinerary.map((d, i) => ({
+  itinerary: { "@type": "ItemList", itemListElement: itinerary.map((d, i) => ({
     "@type": "ListItem",
     position: i + 1,
     name: `${d.day} — ${d.title}`,
-  })),
+  })) },
   offers: {
     "@type": "Offer",
     price: "4895.00",
     priceCurrency: "USD",
     availability: "https://schema.org/LimitedAvailability",
-    validThrough: "2027-04-20",
+    validThrough: "2027-04-20", priceValidUntil: "2027-04-20",
   },
   provider: { "@id": "https://createtravel.tur.br/#organization" },
 };

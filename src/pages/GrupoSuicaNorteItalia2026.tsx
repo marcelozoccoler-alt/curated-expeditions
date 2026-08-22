@@ -224,22 +224,24 @@ const hotelsSeoKeywords = buildHotelsKeywords(hotelsForSeo);
 const jsonLd = {
   "@context": "https://schema.org",
   "@type": "TouristTrip",
+  "@id": "https://createtravel.tur.br/grupos/suica-norte-italia-2026#trip",
+  url: "https://createtravel.tur.br/grupos/suica-norte-italia-2026",
   name: "Grupo Suíça & Norte da Itália · Outono 2026 — Create Travel",
   description:
     "Grupo organizado de 13 dias pela Suíça e Norte da Itália no outono: Zurique, Lucerna, Titlis, Jungfrau, Glacier Express, Lago de Como, Cinque Terre, Piemonte e Milão. Saída 01/10/2026 pela TAP Air Portugal com guia desde o Brasil.",
   image: heroImg,
   touristType: "Alpes, gastronomia, outono europeu",
-  itinerary: itinerary.map((d, i) => ({
+  itinerary: { "@type": "ItemList", itemListElement: itinerary.map((d, i) => ({
     "@type": "ListItem",
     position: i + 1,
     name: `${d.day} — ${d.title}`,
-  })),
+  })) },
   offers: {
     "@type": "Offer",
     price: "6498.00",
     priceCurrency: "EUR",
     availability: "https://schema.org/LimitedAvailability",
-    validThrough: "2026-10-01",
+    validThrough: "2026-10-01", priceValidUntil: "2026-10-01",
   },
   provider: { "@id": "https://createtravel.tur.br/#organization" },
 };

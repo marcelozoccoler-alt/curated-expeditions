@@ -254,22 +254,24 @@ const hotelsSeoKeywords = buildHotelsKeywords(hotelsForSeo);
 const jsonLd = {
   "@context": "https://schema.org",
   "@type": "TouristTrip",
+  "@id": "https://createtravel.tur.br/grupos/tailandia-2026#trip",
+  url: "https://createtravel.tur.br/grupos/tailandia-2026",
   name: "Grupo Tailândia 2026 com Festival das Lanternas — Create Travel",
   description:
     "Grupo organizado de 15 dias pela Tailândia: Phuket, Phi Phi, Bangkok, Ayutthaya, Sukhothai, Chiang Rai e Chiang Mai durante o Festival das Lanternas (Yi Peng & Loi Krathong). Saída 12/11/2026 com guia acompanhante desde o Brasil e voos Emirates.",
   image: heroImg,
   touristType: "Cultura, natureza, festivais tradicionais",
-  itinerary: itinerary.map((d, i) => ({
+  itinerary: { "@type": "ItemList", itemListElement: itinerary.map((d, i) => ({
     "@type": "ListItem",
     position: i + 1,
     name: `${d.day} — ${d.title}`,
-  })),
+  })) },
   offers: {
     "@type": "Offer",
     price: "5978.00",
     priceCurrency: "USD",
     availability: "https://schema.org/LimitedAvailability",
-    validThrough: "2026-11-12",
+    validThrough: "2026-11-12", priceValidUntil: "2026-11-12",
   },
   provider: { "@id": "https://createtravel.tur.br/#organization" },
 };

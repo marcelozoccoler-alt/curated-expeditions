@@ -243,22 +243,24 @@ const hotelsSeoKeywords = buildHotelsKeywords(hotelsForSeo);
 const jsonLd = {
   "@context": "https://schema.org",
   "@type": "TouristTrip",
+  "@id": "https://createtravel.tur.br/grupos/grecia-2026#trip",
+  url: "https://createtravel.tur.br/grupos/grecia-2026",
   name: "Grupo Grécia 2026 — Create Travel",
   description:
     "Grupo organizado de 13 dias pela Grécia: Atenas, Delfos, Meteora, Santorini e Mykonos. Saída 27/09/2026 com guia acompanhante desde São Paulo.",
   image: heroImg,
   touristType: "Cultural, histórica, mediterrânea",
-  itinerary: itinerary.map((d, i) => ({
+  itinerary: { "@type": "ItemList", itemListElement: itinerary.map((d, i) => ({
     "@type": "ListItem",
     position: i + 1,
     name: `${d.day} — ${d.title}`,
-  })),
+  })) },
   offers: {
     "@type": "Offer",
     price: "4998.00",
     priceCurrency: "EUR",
     availability: "https://schema.org/LimitedAvailability",
-    validThrough: "2026-09-27",
+    validThrough: "2026-09-27", priceValidUntil: "2026-09-27",
   },
   provider: { "@id": "https://createtravel.tur.br/#organization" },
 };

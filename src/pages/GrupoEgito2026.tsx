@@ -233,22 +233,24 @@ const hotelsSeoKeywords = buildHotelsKeywords(hotelsForSeo);
 const jsonLd = {
   "@context": "https://schema.org",
   "@type": "TouristTrip",
+  "@id": "https://createtravel.tur.br/grupos/egito-2026#trip",
+  url: "https://createtravel.tur.br/grupos/egito-2026",
   name: "Grupo Egito 2026 — Create Travel",
   description:
     "Grupo organizado de 14 dias pelo Egito: Cairo com Pirâmides e GEM, Luxor, cruzeiro pelo Nilo até Assuã e Mar Vermelho em Sharm El Sheikh. Saída 29/09/2026 com guia acompanhante desde o Brasil e voos Turkish Airlines.",
   image: heroImg,
   touristType: "Cultura, história, cruzeiro fluvial, praia",
-  itinerary: itinerary.map((d, i) => ({
+  itinerary: { "@type": "ItemList", itemListElement: itinerary.map((d, i) => ({
     "@type": "ListItem",
     position: i + 1,
     name: `${d.day} — ${d.title}`,
-  })),
+  })) },
   offers: {
     "@type": "Offer",
     price: "4598.00",
     priceCurrency: "USD",
     availability: "https://schema.org/LimitedAvailability",
-    validThrough: "2026-09-29",
+    validThrough: "2026-09-29", priceValidUntil: "2026-09-29",
   },
   provider: { "@id": "https://createtravel.tur.br/#organization" },
 };

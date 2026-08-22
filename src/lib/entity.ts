@@ -255,11 +255,10 @@ export const websiteLd = {
   },
 };
 
-/** FAQ da entidade — usado na página Sobre para reforçar as 5 respostas. */
+/** Perguntas da entidade — fundidas no nó WebPage da página Sobre. */
 export const entityFaqLd = {
   "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "@id": `${DOMAIN}/sobre#entity-faq`,
+  "@type": "WebPage",
   about: { "@id": ENTITY_IDS.organization },
   mainEntity: entityFacts.map((f) => ({
     "@type": "Question",

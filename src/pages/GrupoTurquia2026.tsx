@@ -224,22 +224,24 @@ const hotelsSeoKeywords = buildHotelsKeywords(hotelsForSeo);
 const jsonLd = {
   "@context": "https://schema.org",
   "@type": "TouristTrip",
+  "@id": "https://createtravel.tur.br/grupos/turquia-2026#trip",
+  url: "https://createtravel.tur.br/grupos/turquia-2026",
   name: "Grupo Turquia Dourada — Outono 2026 — Create Travel",
   description:
     "Grupo organizado de 12 dias pela Turquia no outono 2026: Istambul, Ancara, Capadócia, Pamukkale, Kusadasi, Éfeso e Bursa. Saída 21/10/2026 pela Turkish Airlines com guia desde o Brasil.",
   image: heroImg,
   touristType: "Cultura, história, outono",
-  itinerary: itinerary.map((d, i) => ({
+  itinerary: { "@type": "ItemList", itemListElement: itinerary.map((d, i) => ({
     "@type": "ListItem",
     position: i + 1,
     name: `${d.day} — ${d.title}`,
-  })),
+  })) },
   offers: {
     "@type": "Offer",
     price: "3698.00",
     priceCurrency: "EUR",
     availability: "https://schema.org/LimitedAvailability",
-    validThrough: "2026-10-21",
+    validThrough: "2026-10-21", priceValidUntil: "2026-10-21",
   },
   provider: { "@id": "https://createtravel.tur.br/#organization" },
 };

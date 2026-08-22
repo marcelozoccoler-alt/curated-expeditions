@@ -87,11 +87,13 @@ const hotelsSeoKeywords = buildHotelsKeywords(hotelsForSeo);
 const jsonLd = {
   "@context": "https://schema.org",
   "@type": "TouristTrip",
+  "@id": "https://createtravel.tur.br/grupos/china-primavera-2027#trip",
+  url: "https://createtravel.tur.br/grupos/china-primavera-2027",
   name: "Grupo China 2027 — Primavera — Create Travel",
   description: "15 dias pela China na primavera 2027: Beijing, Grande Muralha, Xi'an com Guerreiros de Terracota, Zhangjiajie (cenário de Avatar) e Shanghai. Saída 13/05/2027 pela Ethiopian com guia do Brasil.",
   image: heroImg,
   touristType: "Cultura, história, natureza, cidades",
-  itinerary: itinerary.map((d, i) => ({ "@type": "ListItem", position: i + 1, name: `${d.day} — ${d.title}` })),
+  itinerary: { "@type": "ItemList", itemListElement: itinerary.map((d, i) => ({ "@type": "ListItem", position: i + 1, name: `${d.day} — ${d.title}` })) },
   offers: { "@type": "Offer", price: "5998.00", priceCurrency: "USD", availability: "https://schema.org/LimitedAvailability", validThrough: "2027-05-13" },
   provider: { "@id": "https://createtravel.tur.br/#organization" },
 };

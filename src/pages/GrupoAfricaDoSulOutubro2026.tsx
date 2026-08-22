@@ -194,22 +194,24 @@ const hotelsSeoKeywords = buildHotelsKeywords(hotelsForSeo);
 const jsonLd = {
   "@context": "https://schema.org",
   "@type": "TouristTrip",
+  "@id": "https://createtravel.tur.br/grupos/africa-do-sul-outubro-2026#trip",
+  url: "https://createtravel.tur.br/grupos/africa-do-sul-outubro-2026",
   name: "Grupo África do Sul Outubro 2026 — Kruger e Cape Town — Create Travel",
   description:
     "Grupo organizado de 9 dias pela África do Sul: Johanesburgo, Soweto, Blyde River Canyon, safári em reserva privada no Kruger e Cape Town. Saída 12/10/2026 pela South African Airways com guia desde o Brasil.",
   image: heroImg,
   touristType: "Safári, cultura, natureza",
-  itinerary: itinerary.map((d, i) => ({
+  itinerary: { "@type": "ItemList", itemListElement: itinerary.map((d, i) => ({
     "@type": "ListItem",
     position: i + 1,
     name: `${d.day} — ${d.title}`,
-  })),
+  })) },
   offers: {
     "@type": "Offer",
     price: "4998.00",
     priceCurrency: "USD",
     availability: "https://schema.org/LimitedAvailability",
-    validThrough: "2026-10-12",
+    validThrough: "2026-10-12", priceValidUntil: "2026-10-12",
   },
   provider: { "@id": "https://createtravel.tur.br/#organization" },
 };

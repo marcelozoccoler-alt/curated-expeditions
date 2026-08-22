@@ -61,7 +61,7 @@ const BrasilEstado = () => {
   const faqLd = state.faqs && state.faqs.length > 0
     ? {
         "@context": "https://schema.org",
-        "@type": "FAQPage",
+        "@type": "WebPage",
         mainEntity: state.faqs.map((f) => ({
           "@type": "Question",
           name: f.q,

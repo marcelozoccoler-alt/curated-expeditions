@@ -216,22 +216,24 @@ const hotelsSeoKeywords = buildHotelsKeywords(hotelsForSeo);
 const jsonLd = {
   "@context": "https://schema.org",
   "@type": "TouristTrip",
+  "@id": "https://createtravel.tur.br/grupos/jordania-2026#trip",
+  url: "https://createtravel.tur.br/grupos/jordania-2026",
   name: "Grupo Jordânia Completa 2026 — Create Travel",
   description:
     "Grupo organizado de 11 dias pela Jordânia: Amã, Jerash, Ajlun, Madaba, Monte Nebo, Petra, Wadi Rum, Aqaba, Betânia e Mar Morto. Saída 09/09/2026 com guia desde o Brasil e voos Ethiopian Airlines.",
   image: heroImg,
   touristType: "História, cultura, deserto, espiritualidade",
-  itinerary: itinerary.map((d, i) => ({
+  itinerary: { "@type": "ItemList", itemListElement: itinerary.map((d, i) => ({
     "@type": "ListItem",
     position: i + 1,
     name: `${d.day} — ${d.title}`,
-  })),
+  })) },
   offers: {
     "@type": "Offer",
     price: "4173.00",
     priceCurrency: "USD",
     availability: "https://schema.org/LimitedAvailability",
-    validThrough: "2026-09-09",
+    validThrough: "2026-09-09", priceValidUntil: "2026-09-09",
   },
   provider: { "@id": "https://createtravel.tur.br/#organization" },
 };

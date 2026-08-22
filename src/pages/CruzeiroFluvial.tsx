@@ -24,6 +24,7 @@ const CruzeiroFluvial = () => {
   const tripLd = {
     "@context": "https://schema.org",
     "@type": "TouristTrip",
+    "@id": `${url}#trip`,
     name: cruise.name,
     description: cruise.metaDescription,
     url,
@@ -49,7 +50,7 @@ const CruzeiroFluvial = () => {
 
   const faqLd = {
     "@context": "https://schema.org",
-    "@type": "FAQPage",
+    "@type": "WebPage",
     mainEntity: cruise.faq.map((f) => ({
       "@type": "Question",
       name: f.q,

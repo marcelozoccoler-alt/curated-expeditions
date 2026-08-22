@@ -200,22 +200,24 @@ const faqs = [
 const jsonLd = {
   "@context": "https://schema.org",
   "@type": "TouristTrip",
+  "@id": "https://createtravel.tur.br/grupos/marrocos-2026#trip",
+  url: "https://createtravel.tur.br/grupos/marrocos-2026",
   name: "Grupo Marrocos 2026 — Create Travel",
   description:
     "Grupo exclusivo e pequeno em viagem de 9 dias pelo Marrocos: Casablanca, Rabat, Fez, Saara, Ouarzazate e Marrakech. Saída 18/11/2026.",
   image: heroImg,
   touristType: "Cultural, histórica, sensorial",
-  itinerary: itinerary.map((d, i) => ({
+  itinerary: { "@type": "ItemList", itemListElement: itinerary.map((d, i) => ({
     "@type": "ListItem",
     position: i + 1,
     name: `${d.day} — ${d.title}`,
-  })),
+  })) },
   offers: {
     "@type": "Offer",
     price: "18295.00",
     priceCurrency: "BRL",
     availability: "https://schema.org/LimitedAvailability",
-    validThrough: "2026-11-18",
+    validThrough: "2026-11-18", priceValidUntil: "2026-11-18",
   },
   provider: { "@id": "https://createtravel.tur.br/#organization" },
 };

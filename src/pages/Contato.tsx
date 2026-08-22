@@ -91,10 +91,11 @@ const Contato = () => {
   const jsonLd = {
     "@context": "https://schema.org",
     "@type": "ContactPage",
-    "@id": `${CONTACT.domain}/contato#webpage`,
+    "@id": `${CONTACT.domain}/contato#contactpage`,
     url: `${CONTACT.domain}/contato`,
     name: "Contato — Create Travel",
     inLanguage: "pt-BR",
+    isPartOf: { "@id": `${CONTACT.domain}/contato#webpage` },
     about: { "@id": `${CONTACT.domain}/#organization` },
     mainEntity: { "@id": `${CONTACT.domain}/#organization` },
   };

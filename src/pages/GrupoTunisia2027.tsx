@@ -218,22 +218,24 @@ const hotelsSeoKeywords = buildHotelsKeywords(hotelsForSeo);
 const jsonLd = {
   "@context": "https://schema.org",
   "@type": "TouristTrip",
+  "@id": "https://createtravel.tur.br/grupos/tunisia-carnaval-2027#trip",
+  url: "https://createtravel.tur.br/grupos/tunisia-carnaval-2027",
   name: "Grupo Tunísia Carnaval 2027 — Create Travel",
   description:
     "Grupo organizado de 11 dias pela Tunísia no feriado de Carnaval: Túnis, Cartago, Sidi Bou Said, Dougga, Kairouan, Tozeur, Douz, Matmata, Sfax e El Jem. Saída 05/02/2027 com guia acompanhante desde o Brasil e voos ITA Airways.",
   image: heroImg,
   touristType: "Cultura, história, deserto, arqueologia",
-  itinerary: itinerary.map((d, i) => ({
+  itinerary: { "@type": "ItemList", itemListElement: itinerary.map((d, i) => ({
     "@type": "ListItem",
     position: i + 1,
     name: `${d.day} — ${d.title}`,
-  })),
+  })) },
   offers: {
     "@type": "Offer",
     price: "4158.00",
     priceCurrency: "EUR",
     availability: "https://schema.org/LimitedAvailability",
-    validThrough: "2027-02-05",
+    validThrough: "2027-02-05", priceValidUntil: "2027-02-05",
   },
   provider: { "@id": "https://createtravel.tur.br/#organization" },
 };

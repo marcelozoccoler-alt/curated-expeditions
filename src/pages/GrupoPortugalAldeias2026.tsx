@@ -215,22 +215,24 @@ const hotelsSeoKeywords = buildHotelsKeywords(hotelsForSeo);
 const jsonLd = {
   "@context": "https://schema.org",
   "@type": "TouristTrip",
+  "@id": "https://createtravel.tur.br/grupos/portugal-aldeias-historicas-2026#trip",
+  url: "https://createtravel.tur.br/grupos/portugal-aldeias-historicas-2026",
   name: "Grupo Portugal com Aldeias Históricas 2026 — Outono — Create Travel",
   description:
     "Grupo organizado de 11 dias por Portugal: Fátima, Piódão, Marvão, Monsanto, Belmonte, Sortelha, Almeida, Guarda, Trancoso, Viseu, Coimbra e Lisboa. Saída 12/10/2026 pela TAP Air Portugal com guia desde o Brasil.",
   image: heroImg,
   touristType: "Cultura, história, aldeias históricas, outono europeu",
-  itinerary: itinerary.map((d, i) => ({
+  itinerary: { "@type": "ItemList", itemListElement: itinerary.map((d, i) => ({
     "@type": "ListItem",
     position: i + 1,
     name: `${d.day} — ${d.title}`,
-  })),
+  })) },
   offers: {
     "@type": "Offer",
     price: "4149.00",
     priceCurrency: "EUR",
     availability: "https://schema.org/LimitedAvailability",
-    validThrough: "2026-10-12",
+    validThrough: "2026-10-12", priceValidUntil: "2026-10-12",
   },
   provider: { "@id": "https://createtravel.tur.br/#organization" },
 };

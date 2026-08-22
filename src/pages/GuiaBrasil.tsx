@@ -78,7 +78,7 @@ const GuiaBrasil = () => {
   };
   const faqLd = {
     "@context": "https://schema.org",
-    "@type": "FAQPage",
+    "@type": "WebPage",
     mainEntity: guide.faq.map((f) => ({
       "@type": "Question",
       name: f.q,

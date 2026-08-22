@@ -74,7 +74,7 @@ const GruposGuiaBrasileiro = () => {
     },
     {
       "@context": "https://schema.org",
-      "@type": "FAQPage",
+      "@type": "WebPage",
       mainEntity: brGroupFaqs.map((f) => ({
         "@type": "Question",
         name: f.q,

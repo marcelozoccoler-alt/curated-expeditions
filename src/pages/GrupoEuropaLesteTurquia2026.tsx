@@ -236,22 +236,24 @@ const hotelsSeoKeywords = buildHotelsKeywords(hotelsForSeo);
 const jsonLd = {
   "@context": "https://schema.org",
   "@type": "TouristTrip",
+  "@id": "https://createtravel.tur.br/grupos/europa-do-leste-turquia-2026#trip",
+  url: "https://createtravel.tur.br/grupos/europa-do-leste-turquia-2026",
   name: "Grupo Europa do Leste & Turquia 2026 — Budapeste, Viena, Praga e Istambul — Create Travel",
   description:
     "Grupo exclusivo de 15 dias por Budapeste, Viena, Praga e Istambul. Saída 02/10/2026 pela Turkish Airlines, com cruzeiro pelo Danúbio, concerto em Schönbrunn e jantar medieval em Praga.",
   image: heroImg,
   touristType: "Cultura, história, capitais europeias, outono",
-  itinerary: itinerary.map((d, i) => ({
+  itinerary: { "@type": "ItemList", itemListElement: itinerary.map((d, i) => ({
     "@type": "ListItem",
     position: i + 1,
     name: `${d.day} — ${d.title}`,
-  })),
+  })) },
   offers: {
     "@type": "Offer",
     price: "24935.00",
     priceCurrency: "BRL",
     availability: "https://schema.org/SoldOut",
-    validThrough: "2026-10-02",
+    validThrough: "2026-10-02", priceValidUntil: "2026-10-02",
   },
   provider: { "@id": "https://createtravel.tur.br/#organization" },
 };

@@ -73,7 +73,7 @@ const CruzeirosFluviais = () => {
 
   const faqLd = {
     "@context": "https://schema.org",
-    "@type": "FAQPage",
+    "@type": "WebPage",
     mainEntity: generalFaq.map((f) => ({
       "@type": "Question",
       name: f.q,

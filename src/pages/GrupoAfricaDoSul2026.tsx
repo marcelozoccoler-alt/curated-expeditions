@@ -199,22 +199,24 @@ const hotelsSeoKeywords = buildHotelsKeywords(hotelsForSeo);
 const jsonLd = {
   "@context": "https://schema.org",
   "@type": "TouristTrip",
+  "@id": "https://createtravel.tur.br/grupos/africa-do-sul-2026#trip",
+  url: "https://createtravel.tur.br/grupos/africa-do-sul-2026",
   name: "Grupo África do Sul 2026 — Create Travel",
   description:
     "Grupo organizado de 9 dias pela África do Sul: Johanesburgo, Soweto, Blyde River Canyon, safári no Kruger e Cidade do Cabo. Saída 07/09/2026 com guia acompanhante desde o Brasil e voos South African Airways.",
   image: heroImg,
   touristType: "Safári, natureza, cultura, história",
-  itinerary: itinerary.map((d, i) => ({
+  itinerary: { "@type": "ItemList", itemListElement: itinerary.map((d, i) => ({
     "@type": "ListItem",
     position: i + 1,
     name: `${d.day} — ${d.title}`,
-  })),
+  })) },
   offers: {
     "@type": "Offer",
     price: "5298.00",
     priceCurrency: "USD",
     availability: "https://schema.org/LimitedAvailability",
-    validThrough: "2026-09-07",
+    validThrough: "2026-09-07", priceValidUntil: "2026-09-07",
   },
   provider: { "@id": "https://createtravel.tur.br/#organization" },
 };

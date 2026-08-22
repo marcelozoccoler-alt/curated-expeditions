@@ -227,22 +227,24 @@ const hotelsSeoKeywords = buildHotelsKeywords(hotelsForSeo);
 const jsonLd = {
   "@context": "https://schema.org",
   "@type": "TouristTrip",
+  "@id": "https://createtravel.tur.br/grupos/croacia-balcas-2026#trip",
+  url: "https://createtravel.tur.br/grupos/croacia-balcas-2026",
   name: "Grupo Croácia, Bósnia & Montenegro 2026 — Create Travel",
   description:
     "Grupo organizado de 12 dias pela Croácia, Bósnia-Herzegovina e Montenegro: Zagreb, Plitvice, Zadar, Split, Hvar, Mostar, Dubrovnik e Baía de Kotor. Saída 11/10/2026 com guia acompanhante desde o Brasil e voos Turkish Airlines.",
   image: heroImg,
   touristType: "Cultura, história, natureza, espiritualidade",
-  itinerary: itinerary.map((d, i) => ({
+  itinerary: { "@type": "ItemList", itemListElement: itinerary.map((d, i) => ({
     "@type": "ListItem",
     position: i + 1,
     name: `${d.day} — ${d.title}`,
-  })),
+  })) },
   offers: {
     "@type": "Offer",
     price: "4338.00",
     priceCurrency: "EUR",
     availability: "https://schema.org/LimitedAvailability",
-    validThrough: "2026-10-11",
+    validThrough: "2026-10-11", priceValidUntil: "2026-10-11",
   },
   provider: { "@id": "https://createtravel.tur.br/#organization" },
 };

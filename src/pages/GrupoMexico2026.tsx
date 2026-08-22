@@ -212,22 +212,24 @@ const hotelsSeoKeywords = buildHotelsKeywords(hotelsForSeo);
 const jsonLd = {
   "@context": "https://schema.org",
   "@type": "TouristTrip",
+  "@id": "https://createtravel.tur.br/grupos/mexico-2026#trip",
+  url: "https://createtravel.tur.br/grupos/mexico-2026",
   name: "Grupo México 2026 — Cidades históricas e Pacífico — Create Travel",
   description:
     "Grupo organizado de 11 dias pelo México: Cidade do México, Teotihuacán, Querétaro, San Miguel de Allende, Guanajuato, Guadalajara, Tequila e Puerto Vallarta All Inclusive. Saída 12/11/2026 com guia desde o Brasil e voos Aeroméxico.",
   image: heroImg,
   touristType: "Cultura, história, gastronomia, praia",
-  itinerary: itinerary.map((d, i) => ({
+  itinerary: { "@type": "ItemList", itemListElement: itinerary.map((d, i) => ({
     "@type": "ListItem",
     position: i + 1,
     name: `${d.day} — ${d.title}`,
-  })),
+  })) },
   offers: {
     "@type": "Offer",
     price: "4398.00",
     priceCurrency: "USD",
     availability: "https://schema.org/LimitedAvailability",
-    validThrough: "2026-11-12",
+    validThrough: "2026-11-12", priceValidUntil: "2026-11-12",
   },
   provider: { "@id": "https://createtravel.tur.br/#organization" },
 };

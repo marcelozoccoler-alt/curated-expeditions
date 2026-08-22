@@ -60,7 +60,7 @@ const Regiao = () => {
   const faqLd = region.faqs && region.faqs.length > 0
     ? {
         "@context": "https://schema.org",
-        "@type": "FAQPage",
+        "@type": "WebPage",
         mainEntity: region.faqs.map((f) => ({
           "@type": "Question",
           name: f.q,

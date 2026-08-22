@@ -119,7 +119,7 @@ const IncomingDestino = () => {
     },
     {
       "@context": "https://schema.org",
-      "@type": "FAQPage",
+      "@type": "WebPage",
       inLanguage: htmlLang,
       mainEntity: allFaqs.map((item) => ({
         "@type": "Question",
