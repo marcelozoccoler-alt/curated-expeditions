@@ -130,6 +130,7 @@ const GrupoGuiaLocal = () => {
     {
       "@context": "https://schema.org",
       "@type": "TouristTrip",
+      "@id": `${DOMAIN}${canonicalPath}#trip`,
       name: `${group.title} — grupo com guia local (${group.days} dias)`,
       description: `Circuito em grupo por ${countriesLabel} com guia local acompanhante, ${group.nights} noites em hotéis categoria ${group.category}, ônibus e visitas incluídas. ${group.departures.length} saídas garantidas em 2027.`,
       url: `${DOMAIN}${canonicalPath}`,

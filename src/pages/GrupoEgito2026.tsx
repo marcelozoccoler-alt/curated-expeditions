@@ -248,7 +248,7 @@ const jsonLd = {
     price: "4598.00",
     priceCurrency: "USD",
     availability: "https://schema.org/LimitedAvailability",
-    validThrough: "2026-09-29",
+    validThrough: "2026-09-29", priceValidUntil: "2026-09-29",
   },
   provider: { "@id": "https://createtravel.tur.br/#organization" },
 };
