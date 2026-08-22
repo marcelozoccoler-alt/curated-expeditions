@@ -27,14 +27,14 @@ const DiarioPost = () => {
   const cover = getDiaryCover(post);
   const articleLd = {
     "@context": "https://schema.org",
-    "@type": "Article",
+    "@type": "BlogPosting",
     "@id": `${url}#article`,
     headline: post.h1.length > 110 ? `${post.h1.slice(0, 109)}…` : post.h1,
     description: post.metaDescription,
     url,
     inLanguage: "pt-BR",
     datePublished: post.publishedAt,
-    dateModified: post.publishedAt,
+    dateModified: post.updatedAt ?? post.publishedAt,
     ...(cover ? { image: cover.startsWith("http") ? cover : `${CONTACT.domain}${cover}` } : {}),
     author: {
       "@type": "Person",
@@ -48,6 +48,12 @@ const DiarioPost = () => {
     isPartOf: { "@id": `${CONTACT.domain}/#website` },
     mainEntityOfPage: { "@type": "WebPage", "@id": `${url}#webpage` },
     keywords: post.keywords,
+    articleSection: post.category,
+    timeRequired: `PT${post.readingMinutes}M`,
+    wordCount: post.sections.reduce(
+      (n, sec) => n + `${sec.heading ?? ""} ${sec.body ?? ""}`.split(/\s+/).filter(Boolean).length,
+      0,
+    ),
     ...(post.relatedDestinations?.length
       ? {
           about: post.relatedDestinations.map((d) => ({
