@@ -392,6 +392,7 @@ const corePosts: DiaryPost[] = [
     imageAiPrompt:
       "Editorial overhead shot of a traditional Turkish meze table in Istanbul at golden hour: dozens of small ceramic dishes with olives, white cheese, stuffed grape leaves, hummus, roasted red pepper paste, warm flatbread, glass tulip cups of black tea, brass rakı carafe, natural window light, painterly, cinematic, no people, ultra high detail",
     publishedAt: "2026-07-09",
+    updatedAt: "2026-08-22",
     readingMinutes: 8,
     category: "Cultura",
     whatsappName: "Roteiro Gastronômico Turquia",
@@ -709,6 +710,7 @@ const corePosts: DiaryPost[] = [
     imageAiPrompt:
       "Sossusvlei Deadvlei Namibia at sunrise, dramatic orange dunes towering above white salt pan with ancient blackened camel thorn trees, deep blue shadows, cinematic editorial, painterly, no people, ultra detailed",
     publishedAt: "2026-05-24",
+    updatedAt: "2026-08-22",
     readingMinutes: 6,
     category: "Destino",
     whatsappName: "Roteiro Namíbia",
@@ -1194,6 +1196,7 @@ const corePosts: DiaryPost[] = [
     imageAiPrompt:
       "Ubud Bali rice terraces at sunrise, lush green tiered paddies with palm trees, morning mist, soft golden light, painterly editorial, no people, ultra detailed",
     publishedAt: "2026-05-24",
+    updatedAt: "2026-08-22",
     readingMinutes: 5,
     category: "Destino",
     whatsappName: "Roteiro Bali",
@@ -1252,6 +1255,7 @@ const corePosts: DiaryPost[] = [
     imageAiPrompt:
       "Ouro Preto Brazil cityscape, baroque colonial churches and red-roofed houses on green hills, golden afternoon light, painterly editorial, ultra detailed",
     publishedAt: "2026-05-24",
+    updatedAt: "2026-08-22",
     readingMinutes: 5,
     category: "Roteiro",
     whatsappName: "Roteiro Cidades Históricas Minas",
