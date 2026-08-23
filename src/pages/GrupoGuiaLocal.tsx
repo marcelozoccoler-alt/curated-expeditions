@@ -161,13 +161,19 @@ const GrupoGuiaLocal = () => {
               priceCurrency: group.currency ?? "EUR",
             }
           : {}),
-        availability:
-          group.departures.length > 0
-            ? "https://schema.org/LimitedAvailability"
-            : "https://schema.org/PreOrder",
-        ...(group.departures.length
-          ? { priceValidUntil: [...group.departures].sort().slice(-1)[0] }
-          : {}),
+        availability: (() => {
+          const today = new Date().toISOString().slice(0, 10);
+          const upcoming = group.departures.filter((d) => d >= today);
+          if (upcoming.length > 0) return "https://schema.org/LimitedAvailability";
+          return group.departures.length > 0
+            ? "https://schema.org/SoldOut"
+            : "https://schema.org/PreOrder";
+        })(),
+        ...(() => {
+          const today = new Date().toISOString().slice(0, 10);
+          const upcoming = group.departures.filter((d) => d >= today).sort();
+          return upcoming.length ? { priceValidUntil: upcoming[upcoming.length - 1] } : {};
+        })(),
         url: `${DOMAIN}${canonicalPath}`,
         seller: { "@id": ENTITY_IDS.organization },
         description:
