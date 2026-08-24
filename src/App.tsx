@@ -2,7 +2,7 @@ import { Toaster } from "@/components/ui/toaster";
 import { Toaster as Sonner } from "@/components/ui/sonner";
 import { TooltipProvider } from "@/components/ui/tooltip";
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
 import Index from "./pages/Index";
 import Destinos from "./pages/Destinos";
 import DestinoDetail from "./pages/DestinoDetail";
@@ -188,6 +188,7 @@ const App = () => (
           <Route path="/brasil" element={<BrasilEstados />} />
           <Route path="/brasil/:estadoSlug" element={<BrasilEstado />} />
           {/* Multilingual incoming landing pages */}
+          <Route path="/incoming" element={<Navigate to="/en/incoming" replace />} />
           <Route path="/:lang/incoming" element={<Incoming />} />
           <Route path="/:lang/incoming/:slug" element={<IncomingDestino />} />
           <Route path="/en" element={<Incoming />} />
