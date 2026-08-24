@@ -188,6 +188,7 @@ const App = () => (
           <Route path="/brasil" element={<BrasilEstados />} />
           <Route path="/brasil/:estadoSlug" element={<BrasilEstado />} />
           {/* Multilingual incoming landing pages */}
+          <Route path="/incoming" element={<Navigate to="/en/incoming" replace />} />
           <Route path="/:lang/incoming" element={<Incoming />} />
           <Route path="/:lang/incoming/:slug" element={<IncomingDestino />} />
           <Route path="/en" element={<Incoming />} />
