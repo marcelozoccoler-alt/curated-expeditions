@@ -77,6 +77,7 @@ import AdminLeads from "./pages/AdminLeads";
 import { WhatsAppLeadGate } from "./components/WhatsAppLeadGate";
 import Guia, { GuiasIndex } from "./pages/Guia";
 import RoteiroSobMedida from "./pages/RoteiroSobMedida";
+import CrieSuaViagem from "./pages/CrieSuaViagem";
 import GruposGuiaBrasileiro from "./pages/GruposGuiaBrasileiro";
 import GruposGuiaLocal from "./pages/GruposGuiaLocal";
 import GrupoGuiaLocal from "./pages/GrupoGuiaLocal";
