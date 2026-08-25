@@ -77,6 +77,7 @@ import AdminLeads from "./pages/AdminLeads";
 import { WhatsAppLeadGate } from "./components/WhatsAppLeadGate";
 import Guia, { GuiasIndex } from "./pages/Guia";
 import RoteiroSobMedida from "./pages/RoteiroSobMedida";
+import CrieSuaViagem from "./pages/CrieSuaViagem";
 import GruposGuiaBrasileiro from "./pages/GruposGuiaBrasileiro";
 import GruposGuiaLocal from "./pages/GruposGuiaLocal";
 import GrupoGuiaLocal from "./pages/GrupoGuiaLocal";
@@ -203,6 +204,7 @@ const App = () => (
           {/* SEO short-URL regional landings — keep as last specific dynamic route before catch-all */}
           {/* SEO landings — high-intent commercial pages */}
           <Route path="/roteiro-sob-medida" element={<RoteiroSobMedida />} />
+          <Route path="/crie-sua-viagem" element={<CrieSuaViagem />} />
           <Route path="/grupos-guia-brasileiro" element={<GruposGuiaBrasileiro />} />
           <Route path="/grupos-guia-local" element={<GruposGuiaLocal />} />
           <Route path="/grupos-guia-local/:slug" element={<GrupoGuiaLocal />} />

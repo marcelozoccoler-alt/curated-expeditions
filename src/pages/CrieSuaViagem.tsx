@@ -476,7 +476,7 @@ const CrieSuaViagem = () => {
                     {t.quote.split(". ").slice(0, 3).join(". ")}.
                   </blockquote>
                   <figcaption className="flex items-center gap-3 pt-2 border-t border-border">
-                    {t.photos[0］ ? null : null}
+                    
                     <div className="w-11 h-11 rounded-full overflow-hidden bg-muted flex-shrink-0">
                       {t.photos[0] && (
                         <img
