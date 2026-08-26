@@ -368,14 +368,158 @@ export const destinations: Destination[] = [
     ],
     stays: [],
     faq: [
-      { q: "Precisa de preparo físico?", a: "Para trilhas longas sim, mas há opções para todos os níveis." },
-      { q: "Qual a melhor base?", a: "Lençóis é a mais estruturada, mas outras vilas têm charme." },
-      { q: "Vale a pena fazer o Vale do Pati?", a: "É uma das melhores travessias do Brasil para quem curte trekking." },
-      { q: "Quantos dias ficar?", a: "5 a 7 noites permitem bom equilíbrio." },
-      { q: "Dá para ir com crianças?", a: "Sim, escolhendo trilhas adequadas." },
+      { q: "Precisa de preparo físico?", a: "Depende do roteiro. Os circuitos Norte e Norte & Sul têm caminhadas leves a moderadas; a travessia do Vale do Pati e a Cachoeira da Fumaça exigem bom condicionamento e disposição para 5 a 7 horas de trilha por dia." },
+      { q: "Qual a melhor base?", a: "Lençóis concentra a estrutura hoteleira e os atrativos do norte do parque; Mucugê e Ibicoara dão acesso ao sul (Buracão, Poço Encantado, Marimbus do sul). Roteiros completos combinam as duas bases." },
+      { q: "Vale a pena fazer o Vale do Pati?", a: "É considerada a mais bela travessia do Brasil: 3 a 5 dias caminhando entre vales e mirantes, dormindo em casas de moradores com refeições no fogão a lenha. Para quem caminha, é inesquecível." },
+      { q: "Quantos dias ficar?", a: "5 noites cobrem o norte com calma; 7 a 8 noites permitem norte e sul, incluindo Buracão, Igatu, Poço Encantado e Marimbus sem correria." },
+      { q: "Dá para ir com crianças?", a: "Sim, no formato privativo, escolhendo trilhas curtas, poços de banho, canoa nos Marimbus e o pôr do sol no Pai Inácio." },
+      { q: "Os roteiros são privativos ou em grupo?", a: "Desenhamos todos em versão privativa, com guia e veículo exclusivos. Datas em pequeno grupo são possíveis sob consulta." },
       { q: "Como criar roteiro?", a: "Clique em Criar roteiro sob medida." }
+    ],
+    itineraries: [
+      {
+        title: "Chapada Norte — Lençóis e a Serra do Sincorá",
+        duration: "5 dias / 4 noites",
+        pricePerPerson: "Sob consulta",
+        currency: "BRL",
+        priceBasis:
+          "Valor por pessoa em apartamento duplo, sem aéreo. Cotação sob medida conforme datas, hotel escolhido e número de viajantes.",
+        summary:
+          "A porta de entrada da Chapada: Lençóis como base, o pôr do sol no Morro do Pai Inácio, as quedas do Mosquito e do Roncador e a canoa silenciosa dos Marimbus.",
+        days: [
+          { day: "Dia 1", location: "Lençóis", description: "Chegada ao aeroporto de Lençóis (ou traslado de Salvador), instalação em pousada de charme no centro histórico e caminhada de fim de tarde pelo casario garimpeiro." },
+          { day: "Dia 2", location: "Vale do Capão / Pai Inácio", description: "Mirantes da Serra do Sincorá, Morro do Pai Inácio no fim do dia — 360 graus de platôs em tons de rosa quando o sol baixa." },
+          { day: "Dia 3", location: "Marimbus & Roncador", description: "Canoa pelos Marimbus, o \"Pantanal da Chapada\", com garças e vitórias-régias; à tarde, banho nas piscinas polidas da Cachoeira do Roncador." },
+          { day: "Dia 4", location: "Cachoeira do Mosquito e arredores", description: "Cachoeira do Mosquito e Parque do Muritiba, com poços de água doce a poucos minutos da cidade. Alternativa para caminhantes: trilha da Cachoeira da Fumaça (12 km ida e volta)." },
+          { day: "Dia 5", location: "Lençóis", description: "Manhã livre no mercado e nos ateliês da vila e traslado privativo ao aeroporto." }
+        ],
+        includes: [
+          "4 noites em pousada de charme selecionada em Lençóis",
+          "Traslados privativos de chegada e saída",
+          "Guia local especializado em todos os dias de programa",
+          "Veículo privativo com ar-condicionado",
+          "Ingressos e taxas dos atrativos previstos",
+          "Assistência Create Travel em português antes, durante e depois da viagem"
+        ],
+        excludes: ["Aéreo", "Refeições não mencionadas", "Gorjetas e despesas pessoais", "Seguro viagem"]
+      },
+      {
+        title: "Chapada Norte & Sul — o parque de ponta a ponta",
+        duration: "8 dias / 7 noites",
+        pricePerPerson: "Sob consulta",
+        currency: "BRL",
+        priceBasis:
+          "Valor por pessoa em apartamento duplo, sem aéreo. Cotação sob medida conforme datas, hotéis e número de viajantes.",
+        summary:
+          "O roteiro completo: duas bases (Lençóis, ao norte; Mucugê ou Ibicoara, ao sul) para alcançar Buracão, Poço Encantado, Poço Azul, Igatu e os cartões-postais do Sincorá sem estrada em excesso.",
+        days: [
+          { day: "Dia 1", location: "Lençóis", description: "Chegada, instalação e caminhada pelo centro histórico de Lençóis ao fim do dia." },
+          { day: "Dia 2", location: "Marimbus & Roncador", description: "Canoa pelos Marimbus com remador local e tarde nas piscinas naturais do Roncador." },
+          { day: "Dia 3", location: "Pai Inácio & Mosquito", description: "Cachoeira do Mosquito pela manhã e Morro do Pai Inácio no pôr do sol, com vista dos platôs da Serra do Sincorá." },
+          { day: "Dia 4", location: "Igatu → Mucugê", description: "Estrada cênica até Igatu, a \"Machu Picchu brasileira\": ruínas de pedra do ciclo do diamante, Galeria Arte & Memória e conversa com moradores. Instalação no sul da Chapada." },
+          { day: "Dia 5", location: "Cachoeira do Buracão", description: "Dia dedicado ao Buracão: caminhada entre paredões de 80 metros e o cânion onde a queda aparece de repente — para muitos, a cachoeira mais impactante do Brasil." },
+          { day: "Dia 6", location: "Poço Encantado & Poço Azul", description: "Poço Encantado, com o feixe de luz que acende a água em azul-elétrico (abril a setembro), e flutuação no Poço Azul." },
+          { day: "Dia 7", location: "Mucugê / Ibicoara → Lençóis", description: "Projeto Sempre-Viva e centro histórico de Mucugê ou visita à vinícola da região, com degustação de rótulos locais, antes do retorno ao norte." },
+          { day: "Dia 8", location: "Lençóis", description: "Manhã livre e traslado privativo ao aeroporto." }
+        ],
+        includes: [
+          "7 noites em hotéis e pousadas selecionados no norte e no sul da Chapada",
+          "Traslados privativos e todos os deslocamentos internos em veículo exclusivo",
+          "Guia local especializado durante todo o roteiro",
+          "Ingressos, taxas de atrativos e guias de trilha obrigatórios",
+          "Café da manhã diário e refeições indicadas no programa",
+          "Assistência Create Travel em português antes, durante e depois da viagem"
+        ],
+        excludes: ["Aéreo", "Refeições não mencionadas", "Gorjetas e despesas pessoais", "Seguro viagem"]
+      },
+      {
+        title: "Chapada Full Experience — natureza, mesa e conforto",
+        duration: "8 dias / 7 noites",
+        pricePerPerson: "Sob consulta",
+        currency: "BRL",
+        priceBasis:
+          "Valor por pessoa em apartamento duplo, sem aéreo. Roteiro privativo com hospedagens de alto padrão; cotação sob medida.",
+        summary:
+          "A mesma Chapada grandiosa, vivida com o conforto que ela raramente oferece: hotéis-boutique em Ibicoara, Mucugê e Lençóis, piqueniques em cenários naturais, menus de chefs locais e vinícola de altitude.",
+        days: [
+          { day: "Dia 1", location: "Ibicoara", description: "Recepção no aeroporto de Lençóis, estrada cênica ao sul da Chapada e instalação em hotel de imersão entre os grandes paredões." },
+          { day: "Dia 2", location: "Cachoeira do Buracão", description: "Caminhada pelo cânion até o Buracão, com almoço-piquenique preparado pela equipe e tarde de contemplação." },
+          { day: "Dia 3", location: "Vinícola de altitude & Mucugê", description: "Visita e degustação em vinícola da região — faceta pouco conhecida da Chapada — e instalação em hotel-boutique no coração de Mucugê." },
+          { day: "Dia 4", location: "Poço Encantado & Poço Azul", description: "Os dois santuários subterrâneos da Chapada, com flutuação no Poço Azul e jantar de menu degustação ao voltar." },
+          { day: "Dia 5", location: "Igatu → Lençóis", description: "Ruínas de pedra e ateliês de Igatu com anfitrião local, almoço de fazenda e transferência para Lençóis, à beira do rio." },
+          { day: "Dia 6", location: "Marimbus & Roncador", description: "Canoa pelos Marimbus ao amanhecer, quando as aves estão em atividade, e banho nas piscinas rosadas do Roncador." },
+          { day: "Dia 7", location: "Fumaça ou Muritiba", description: "Escolha do dia: trilha da Cachoeira da Fumaça, com os 380 metros de queda vistos do alto, ou os poços tranquilos do Parque do Muritiba. Jantar de encerramento autoral." },
+          { day: "Dia 8", location: "Lençóis", description: "Manhã livre e traslado privativo ao aeroporto." }
+        ],
+        includes: [
+          "7 noites em hospedagens de alto padrão em Ibicoara, Mucugê e Lençóis",
+          "Todas as visitas em formato privativo com guia especializado",
+          "Veículo exclusivo e traslados privativos",
+          "Café da manhã diário, refeições e piqueniques indicados no roteiro",
+          "Visita com degustação em vinícola da Chapada",
+          "Ingressos, taxas e guias obrigatórios dos atrativos",
+          "Assistência Create Travel em português antes, durante e depois da viagem"
+        ],
+        excludes: ["Aéreo", "Refeições não mencionadas", "Bebidas alcoólicas fora das degustações previstas", "Gorjetas e despesas pessoais", "Seguro viagem"]
+      },
+      {
+        title: "Travessia do Vale do Pati — clássico em 5 dias",
+        duration: "5 dias / 4 noites",
+        pricePerPerson: "Sob consulta",
+        currency: "BRL",
+        priceBasis:
+          "Valor por pessoa, sem aéreo, com pernoites em casas de moradores do vale. Cotação sob medida conforme datas e tamanho do grupo.",
+        summary:
+          "A travessia mais bonita do Brasil em sua versão clássica: três dias caminhando pelo coração do Parque Nacional, dormindo em casas de moradores e comendo no fogão a lenha.",
+        days: [
+          { day: "Dia 1", location: "Lençóis / Vale do Capão", description: "Chegada, instalação e briefing do trekking com o guia: equipamento, ritmo, altimetria e o que levar na mochila." },
+          { day: "Dia 2", location: "Vale do Capão → Vale do Pati", description: "Descida pelo Rio Preto até o vale isolado, entre paredões e cachoeiras. Pernoite em casa de morador, com jantar no fogão a lenha." },
+          { day: "Dia 3", location: "Vale do Pati", description: "Dia de mirantes e cachoeiras do vale — Cachoeirão, Ruinha, mirante do Morro do Castelo — com mochila leve e volta à casa anfitriã." },
+          { day: "Dia 4", location: "Pati → Guiné / Andaraí", description: "Travessia final entre gerais e vales, saída do parque e retorno a Lençóis para uma noite de banho quente e cama macia." },
+          { day: "Dia 5", location: "Lençóis", description: "Manhã livre e traslado privativo ao aeroporto." }
+        ],
+        includes: [
+          "2 noites em pousada selecionada (início e fim) e 2 pernoites em casas de moradores do Vale do Pati",
+          "Guia de trekking especializado na região durante toda a travessia",
+          "Pensão completa nos dias de caminhada, com refeições preparadas pelas famílias anfitriãs",
+          "Apoio de carregadores para a bagagem principal",
+          "Traslados privativos de chegada, saída e acessos às trilhas",
+          "Taxas do Parque Nacional e assistência Create Travel em português"
+        ],
+        excludes: ["Aéreo", "Equipamento pessoal de trekking", "Refeições fora do programa", "Gorjetas", "Seguro viagem"]
+      },
+      {
+        title: "Vale do Pati com Fumacinha — travessia longa",
+        duration: "8 dias / 7 noites",
+        pricePerPerson: "Sob consulta",
+        currency: "BRL",
+        priceBasis:
+          "Valor por pessoa, sem aéreo, com pernoites em casas de moradores do vale. Cotação sob medida conforme datas e tamanho do grupo.",
+        summary:
+          "Para quem caminha: a travessia completa do Pati somada à Cachoeira da Fumacinha, um dos cânions mais impressionantes da Chapada, e dias extras de mirantes pouco visitados.",
+        days: [
+          { day: "Dia 1", location: "Lençóis", description: "Chegada, instalação e briefing técnico da travessia com o guia." },
+          { day: "Dia 2", location: "Vale do Capão → Pati", description: "Entrada no vale pelo Rio Preto, primeira noite em casa de morador com jantar no fogão a lenha." },
+          { day: "Dia 3", location: "Vale do Pati", description: "Cachoeirão do Pati e mirantes do vale, um dos dias mais fotogênicos da Chapada." },
+          { day: "Dia 4", location: "Vale do Pati", description: "Morro do Castelo e cachoeiras secundárias, com tempo para banho e conversa com as famílias do vale." },
+          { day: "Dia 5", location: "Pati → Andaraí / Ibicoara", description: "Saída do vale pelo lado sul e deslocamento para a base de acesso à Fumacinha." },
+          { day: "Dia 6", location: "Cachoeira da Fumacinha", description: "Dia inteiro de caminhada dentro do cânion, atravessando o rio dezenas de vezes até a queda de 100 metros entre paredões." },
+          { day: "Dia 7", location: "Buracão ou Poço Encantado → Lençóis", description: "Cachoeira do Buracão ou Poço Encantado, conforme o ritmo do grupo, e retorno a Lençóis." },
+          { day: "Dia 8", location: "Lençóis", description: "Manhã livre e traslado privativo ao aeroporto." }
+        ],
+        includes: [
+          "Noites em pousadas selecionadas nas pontas do roteiro e pernoites em casas de moradores no Vale do Pati",
+          "Guia de trekking especializado durante toda a travessia",
+          "Pensão completa nos dias de caminhada",
+          "Apoio de carregadores para a bagagem principal",
+          "Traslados privativos e acessos às trilhas",
+          "Taxas do Parque Nacional, guias obrigatórios e assistência Create Travel em português"
+        ],
+        excludes: ["Aéreo", "Equipamento pessoal de trekking", "Refeições fora do programa", "Gorjetas", "Seguro viagem"]
+      }
     ]
   },
+
   {
     id: "brasil-chapada-dos-veadeiros",
     continent: "Brasil",
