@@ -78,6 +78,7 @@ import { WhatsAppLeadGate } from "./components/WhatsAppLeadGate";
 import Guia, { GuiasIndex } from "./pages/Guia";
 import RoteiroSobMedida from "./pages/RoteiroSobMedida";
 import CrieSuaViagem from "./pages/CrieSuaViagem";
+import BrasilLanding from "./pages/BrasilLanding";
 import GruposGuiaBrasileiro from "./pages/GruposGuiaBrasileiro";
 import GruposGuiaLocal from "./pages/GruposGuiaLocal";
 import GrupoGuiaLocal from "./pages/GrupoGuiaLocal";
@@ -205,6 +206,8 @@ const App = () => (
           {/* SEO landings — high-intent commercial pages */}
           <Route path="/roteiro-sob-medida" element={<RoteiroSobMedida />} />
           <Route path="/crie-sua-viagem" element={<CrieSuaViagem />} />
+          <Route path="/crie-sua-viagem/brasil/:slug" element={<BrasilLanding />} />
+          <Route path="/:lang/plan-your-trip/:slug" element={<BrasilLanding multilingual />} />
           <Route path="/grupos-guia-brasileiro" element={<GruposGuiaBrasileiro />} />
           <Route path="/grupos-guia-local" element={<GruposGuiaLocal />} />
           <Route path="/grupos-guia-local/:slug" element={<GrupoGuiaLocal />} />

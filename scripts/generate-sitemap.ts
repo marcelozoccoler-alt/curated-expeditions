@@ -210,6 +210,25 @@ for (const lang of INCOMING_EXTRA_LANGS) {
 }
 }
 
+// Landing pages de conversão — destinos do Brasil (PT + multilíngue)
+const BRASIL_LANDING_SLUGS = [
+  "amazonia",
+  "pantanal",
+  "lencois-maranhenses",
+  "rio-de-janeiro",
+  "bonito",
+  "foz-do-iguacu",
+  "bahia",
+  "fernando-de-noronha",
+] as const;
+push("/crie-sua-viagem", 0.9, "weekly");
+for (const s of BRASIL_LANDING_SLUGS) {
+  push(`/crie-sua-viagem/brasil/${s}`, 0.9, "monthly");
+  for (const lang of ["en", "es"] as const) {
+    push(`/${lang}/plan-your-trip/${s}`, 0.85, "monthly");
+  }
+}
+
 // Multilingual variants of key landing pages
 const LOCALIZED_PATHS = [
   "brasil-vivo",
