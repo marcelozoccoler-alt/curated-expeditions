@@ -21,7 +21,7 @@ const benefits = [
   { title: "Do Japão clássico ao Japão futurista", desc: "Castelo de Osaka, cervos sagrados de Nara, Fushimi Inari e Kinkakuji em Kyoto, Alpes Japoneses e a metrópole de Tóquio." },
   { title: "Shirakawa-go e Takayama", desc: "Vila UNESCO com casas gassho-zukuri, mercado matinal de Takayama e a autenticidade rural dos Alpes Japoneses." },
   { title: "Lago Ashi e Monte Fuji", desc: "Minicruzeiro no Lago Ashi com o torii vermelho, Santuário Hakone e teleférico Owakudani — com o Monte Fuji ao fundo em dias claros." },
-  { title: "Guia desde o Brasil + voos Emirates", desc: "Coordenador Create Travel embarcando em Guarulhos, guia local em português/espanhol e voos Emirates com conexão em Dubai." },
+  { title: "Guia desde o Brasil + voos Emirates", desc: "Coordenador embarcando em Guarulhos, guia local em português/espanhol e voos Emirates com conexão em Dubai." },
 ];
 
 const itinerary = [

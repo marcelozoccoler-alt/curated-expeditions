@@ -21,11 +21,11 @@ const benefits = [
   { title: "Avenida dos Vulcões", desc: "Parque Nacional Cotopaxi, lagoa glacial de Limpiopungo a 3.800m e fazenda de rosas Rose Success." },
   { title: "Duas navegações em Galápagos", desc: "Dois passeios de iate por ilhas como Bartolomé, Seymour, Santa Fé ou Plazas Sul, com almoço a bordo e snorkel entre pinguins e leões-marinhos." },
   { title: "Tartarugas gigantes em Santa Cruz", desc: "Rancho El Chato, túneis de lava e Puerto Ayora — o coração vivo do arquipélago onde Darwin escreveu a história da evolução." },
-  { title: "Guia desde o Brasil + voos LATAM", desc: "Coordenador Create Travel embarcando em Guarulhos e voos LATAM São Paulo · Lima · Quito · Galápagos · Guayaquil · São Paulo." },
+  { title: "Guia desde o Brasil + voos LATAM", desc: "Coordenador embarcando em Guarulhos e voos LATAM São Paulo · Lima · Quito · Galápagos · Guayaquil · São Paulo." },
 ];
 
 const itinerary = [
-  { day: "Dia 1 — 05/02 (sex)", title: "São Paulo", points: ["Apresentação em Guarulhos às 23h50", "Encontro com o coordenador Create Travel"] },
+  { day: "Dia 1 — 05/02 (sex)", title: "São Paulo", points: ["Apresentação em Guarulhos às 23h50", "Encontro com o coordenador desde o Brasil"] },
   { day: "Dia 2 — 06/02 (sáb)", title: "São Paulo → Lima → Quito", points: ["LATAM 8004 às 03h40 · chegada Lima 06h55", "Conexão até Quito · chegada 11h10", "Hospedagem no Mercure Quito"] },
   { day: "Dia 3 — 07/02 (dom)", title: "Quito colonial · Metade do Mundo", points: ["Plaza Grande, La Compañía de Jesús, San Francisco", "Mirante El Panecillo", "Ciudad Mitad del Mundo e Museu Intiñán"] },
   { day: "Dia 4 — 08/02 (seg)", title: "Cotopaxi · Avenida dos Vulcões", points: ["Parque Nacional Cotopaxi", "Lagoa de Limpiopungo a 3.800m", "Fazenda de rosas Rose Success"] },

@@ -48,7 +48,7 @@ const benefits = [
   },
   {
     title: "Guia desde o Brasil",
-    desc: "Coordenador Create Travel embarcando em Guarulhos e guia local em português em Johanesburgo e Cidade do Cabo.",
+    desc: "Coordenador embarcando em Guarulhos e guia local em português em Johanesburgo e Cidade do Cabo.",
   },
 ];
 

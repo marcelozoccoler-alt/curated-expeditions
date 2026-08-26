@@ -48,7 +48,7 @@ const benefits = [
   },
   {
     title: "Guia desde o Brasil",
-    desc: "Coordenador Create Travel embarcando em Guarulhos e guia local em português pela Turquia inteira.",
+    desc: "Coordenador embarcando em Guarulhos e guia local em português pela Turquia inteira.",
   },
 ];
 
@@ -58,7 +58,7 @@ const itinerary = [
     title: "São Paulo · embarque",
     points: [
       "Apresentação em Guarulhos",
-      "Encontro com o coordenador Create Travel",
+      "Encontro com o coordenador desde o Brasil",
       "Voo Turkish TK 216 às 16h35 · pernoite a bordo",
     ],
   },

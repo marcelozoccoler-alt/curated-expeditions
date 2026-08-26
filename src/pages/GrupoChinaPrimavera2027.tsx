@@ -21,7 +21,7 @@ const benefits = [
   { title: "Xi'an e a Rota da Seda", desc: "Exército de Guerreiros de Terracota (Patrimônio UNESCO), Grande Pagode do Ganso Selvagem e o vibrante Bairro Muçulmano." },
   { title: "Zhangjiajie, cenário de Avatar", desc: "Elevador Bailong, Montanha Tianzi, Montanha Tianmen com Caminho de Vidro e a Ponte de Vidro mais longa do mundo no Grand Canyon." },
   { title: "Shanghai futurista", desc: "Torre Jinmao com vista panorâmica, Calçadão do Bund, Templo de Buda de Jade e o encantador Bairro Antigo." },
-  { title: "Guia desde o Brasil + trens-bala", desc: "Coordenador Create Travel embarcando em Guarulhos, guias locais em espanhol, voos Ethiopian e trem-bala Beijing → Xi'an — símbolo da modernidade chinesa." },
+  { title: "Guia desde o Brasil + trens-bala", desc: "Coordenador embarcando em Guarulhos, guias locais em espanhol, voos Ethiopian e trem-bala Beijing → Xi'an — símbolo da modernidade chinesa." },
 ];
 
 const itinerary = [

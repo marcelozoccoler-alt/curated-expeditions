@@ -20,7 +20,7 @@ const benefits = [
   { title: "Triângulo Dourado completo", desc: "Delhi imperial, Jaipur (Cidade Rosa), Abhaneri e Agra com o inesquecível Taj Mahal ao amanhecer." },
   { title: "Sri Lanka de norte a sul", desc: "Rocha de Sigiriya, jardins de chá em Nuwara Eliya, safári no Yala com leopardos e o descanso na praia de Bentota." },
   { title: "Trem cênico e safáris", desc: "Passeio no lendário trem de Ambewela a Ella, safáris de jipe em Minneriya e Yala, forte de Galle e passeio de riquixá em Old Delhi." },
-  { title: "Guia desde o Brasil + voos Turkish", desc: "Coordenador Create Travel embarcando em Guarulhos, guias locais em espanhol e voos Turkish Airlines com conexão em Istambul." },
+  { title: "Guia desde o Brasil + voos Turkish", desc: "Coordenador embarcando em Guarulhos, guias locais em espanhol e voos Turkish Airlines com conexão em Istambul." },
   { title: "Rituais e experiências culturais", desc: "Pintura de henna, prova de sari e turbante, cerimônia Aarti no Templo Birla, tuk-tuk pelos bazares e cozinha do Gurudwara em Delhi." },
 ];
 

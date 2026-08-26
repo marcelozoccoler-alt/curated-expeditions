@@ -48,7 +48,7 @@ const benefits = [
   },
   {
     title: "Guia desde o Brasil",
-    desc: "Coordenador Create Travel embarcando em Guarulhos e guias locais em português pela Colômbia inteira.",
+    desc: "Coordenador embarcando em Guarulhos e guias locais em português pela Colômbia inteira.",
   },
 ];
 

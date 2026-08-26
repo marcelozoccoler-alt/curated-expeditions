@@ -44,7 +44,7 @@ const benefits = [
   },
   {
     title: "Guia acompanhante desde o Brasil",
-    desc: "Coordenador Create Travel embarcando com o grupo em Guarulhos e guias locais em português/espanhol em todas as visitas.",
+    desc: "Coordenador embarcando com o grupo em Guarulhos e guias locais em português/espanhol em todas as visitas.",
   },
   {
     title: "Voos Emirates",
@@ -237,7 +237,7 @@ const faqs = [
   },
   {
     q: "Preciso falar inglês ou árabe para viajar no grupo?",
-    a: "Não. Do embarque em Guarulhos ao retorno, você é acompanhada em português: coordenador Create Travel embarcando com o grupo e guias locais falando português/espanhol em todas as visitas e traslados.",
+    a: "Não. Do embarque em Guarulhos ao retorno, você é acompanhada em português: coordenador embarcando com o grupo e guias locais falando português/espanhol em todas as visitas e traslados.",
   },
   {
     q: "Quantas pessoas viajam no grupo?",
