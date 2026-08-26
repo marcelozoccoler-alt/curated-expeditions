@@ -5,7 +5,7 @@ import { motion } from "framer-motion";
 import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
 import { WhatsAppButton } from "@/components/WhatsAppButton";
-import { DestinationCard } from "@/components/DestinationCard";
+import { DestinationListItem } from "@/components/DestinationListItem";
 import { TagFilter } from "@/components/TagFilter";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
 import { SEO } from "@/components/SEO";
@@ -365,9 +365,9 @@ const Destinos = () => {
 
           {paginated.length > 0 ? (
             <>
-              <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
-                {paginated.map((d, i) => (
-                  <DestinationCard key={d.id} destination={d} index={i % 6} />
+              <div className="divide-y divide-border/40">
+                {paginated.map((d) => (
+                  <DestinationListItem key={d.id} destination={d} />
                 ))}
               </div>
 
