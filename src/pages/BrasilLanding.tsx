@@ -621,7 +621,7 @@ const BrasilLanding = ({ multilingual = false }: Props) => {
         {/* FAQ */}
         <section className="section-padding bg-background">
           <div className="container-editorial max-w-3xl">
-            <FAQSection faqs={copy.faqs} />
+            <FAQSection faqs={copy.faqs} title={t.faqHeading} />
           </div>
         </section>
 
