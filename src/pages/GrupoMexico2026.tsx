@@ -44,7 +44,7 @@ const benefits = [
   },
   {
     title: "Guia desde o Brasil",
-    desc: "Coordenador Create Travel embarcando em Guarulhos e guia local em português/espanhol em cada cidade.",
+    desc: "Coordenador embarcando em Guarulhos e guia local em português/espanhol em cada cidade.",
   },
   {
     title: "Voos diretos Aeroméxico",

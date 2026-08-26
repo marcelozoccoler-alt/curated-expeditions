@@ -48,7 +48,7 @@ const benefits = [
   },
   {
     title: "Guia desde o Brasil + pensão completa",
-    desc: "Coordenador Create Travel embarcando em Guarulhos, guia local em espanhol e pensão completa de Katmandu a Paro.",
+    desc: "Coordenador embarcando em Guarulhos, guia local em espanhol e pensão completa de Katmandu a Paro.",
   },
 ];
 

@@ -69,7 +69,7 @@ export const brGroupFaqs: FAQ[] = [
   },
   {
     q: "Qual a diferença entre grupo com guia brasileiro e grupo com guia local?",
-    a: "No grupo com guia brasileiro, o coordenador da Create Travel viaja com você desde o Brasil e acompanha todo o roteiro em português. No grupo com guia local, o acompanhamento começa no destino, com guia profissional do país. O guia brasileiro entrega mais conforto e proximidade; o guia local costuma ter valor menor e mais datas disponíveis. Nos dois formatos, a curadoria de hotéis, ritmo e experiências é da Create Travel.",
+    a: "No grupo com guia brasileiro, o coordenador viaja com você desde o Brasil e acompanha todo o roteiro em português. No grupo com guia local, o acompanhamento começa no destino, com guia profissional do país. O guia brasileiro entrega mais conforto e proximidade; o guia local costuma ter valor menor e mais datas disponíveis. Nos dois formatos, a curadoria de hotéis, ritmo e experiências é da Create Travel.",
   },
   {
     q: "Como funciona o pagamento das viagens em grupo?",
@@ -100,6 +100,6 @@ export const brGroupFaqs: FAQ[] = [
 /** Frases de entity linking para o rodapé de contexto das páginas-hub. */
 export const brGroupEntityPhrases = [
   `Create Travel é uma operadora brasileira de viagens sob medida com sede em São Paulo (Cadastur 21.030.190/0001-60), especializada em curadoria autoral para viajantes exigentes.`,
-  `As viagens em grupo com guia brasileiro partem de São Paulo (Guarulhos) e são conduzidas por um coordenador da própria Create Travel.`,
+  `As viagens em grupo com guia brasileiro partem de São Paulo (Guarulhos) e são conduzidas por um coordenador.`,
   `Além dos grupos com coordenador brasileiro, a Create Travel opera ${localGuideGroups.length} circuitos com guia local no destino e roteiros privativos sob medida para casais, famílias e empresas.`,
 ];

@@ -48,7 +48,7 @@ const benefits = [
   },
   {
     title: "Guia acompanhante desde o Brasil",
-    desc: "Coordenador Create Travel embarcando com o grupo em Guarulhos e assistência em português durante toda a viagem.",
+    desc: "Coordenador embarcando com o grupo em Guarulhos e assistência em português durante toda a viagem.",
   },
 ];
 

@@ -48,7 +48,7 @@ const benefits = [
   },
   {
     title: "Guia acompanhante desde o Brasil",
-    desc: "Coordenador Create Travel embarcando em Guarulhos, guia local em espanhol e hotéis de primeira categoria em todo o percurso.",
+    desc: "Coordenador embarcando em Guarulhos, guia local em espanhol e hotéis de primeira categoria em todo o percurso.",
   },
 ];
 

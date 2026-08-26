@@ -96,7 +96,7 @@ const GruposGuiaLocal = () => {
     },
     {
       q: "Qual a diferença entre grupo com guia local e grupo com guia brasileiro?",
-      a: "No grupo com guia brasileiro, um coordenador da Create Travel embarca com você em Guarulhos e segue junto até a volta. No grupo com guia local, o acompanhamento começa no destino, com guia do país em espanhol e/ou português conforme a saída. A vantagem do guia local está na profundidade do conhecimento de quem vive no destino, na amplitude de datas disponíveis e em um investimento mais racional, já que não há coordenação desde o Brasil.",
+      a: "No grupo com guia brasileiro, um coordenador embarca com você em Guarulhos e segue junto até a volta. No grupo com guia local, o acompanhamento começa no destino, com guia do país em espanhol e/ou português conforme a saída. A vantagem do guia local está na profundidade do conhecimento de quem vive no destino, na amplitude de datas disponíveis e em um investimento mais racional, já que não há coordenação desde o Brasil.",
     },
     {
       q: "Em que idioma é o acompanhamento?",

@@ -48,7 +48,7 @@ const benefits = [
   },
   {
     title: "Guia desde o Brasil",
-    desc: "Coordenador Create Travel embarcando em Guarulhos e guia local em português pela Turquia inteira.",
+    desc: "Coordenador embarcando em Guarulhos e guia local em português pela Turquia inteira.",
   },
 ];
 
@@ -58,7 +58,7 @@ const itinerary = [
     title: "São Paulo · apresentação",
     points: [
       "Apresentação à noite em Guarulhos",
-      "Encontro com o coordenador Create Travel",
+      "Encontro com o coordenador desde o Brasil",
       "Preparação para o embarque",
     ],
   },

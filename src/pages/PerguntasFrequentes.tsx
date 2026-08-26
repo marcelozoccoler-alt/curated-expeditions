@@ -86,7 +86,7 @@ const GROUPS: QAGroup[] = [
     items: [
       {
         q: "Qual a diferença entre grupo com guia brasileiro e grupo com guia local?",
-        a: "No grupo com guia brasileiro, um coordenador da Create Travel embarca junto desde São Paulo (Guarulhos) e acompanha o grupo do começo ao fim, com comunicação em português o tempo todo. No grupo com guia local, o viajante chega ao destino e é recebido por um guia profissional que fala português ou espanhol, com saídas garantidas em datas fixas — formato mais flexível para quem quer emendar dias extras por conta própria.",
+        a: "No grupo com guia brasileiro, um coordenador embarca junto desde São Paulo (Guarulhos) e acompanha o grupo do começo ao fim, com comunicação em português o tempo todo. No grupo com guia local, o viajante chega ao destino e é recebido por um guia profissional que fala português ou espanhol, com saídas garantidas em datas fixas — formato mais flexível para quem quer emendar dias extras por conta própria.",
       },
       {
         q: "Qual o tamanho dos grupos da Create Travel?",

@@ -44,7 +44,7 @@ const benefits = [
   },
   {
     title: "Guia acompanhante desde o Brasil",
-    desc: "Coordenador Create Travel embarcando com o grupo em Guarulhos e guia local em português/espanhol durante toda a viagem.",
+    desc: "Coordenador embarcando com o grupo em Guarulhos e guia local em português/espanhol durante toda a viagem.",
   },
   {
     title: "Voos ITA Airways",
@@ -193,7 +193,7 @@ const faqs = [
   },
   {
     q: "É seguro viajar para a Tunísia?",
-    a: "Sim. A Tunísia é um dos países mais abertos e visitados do norte da África, com forte tradição turística. Nosso roteiro cobre apenas regiões consolidadas e seguras, sempre acompanhados por guia local e coordenador Create Travel desde o Brasil.",
+    a: "Sim. A Tunísia é um dos países mais abertos e visitados do norte da África, com forte tradição turística. Nosso roteiro cobre apenas regiões consolidadas e seguras, sempre acompanhados por guia local e coordenador desde o Brasil.",
   },
   {
     q: "Vale a pena os passeios opcionais no deserto?",
