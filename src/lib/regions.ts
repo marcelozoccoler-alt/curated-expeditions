@@ -243,18 +243,6 @@ export const regions: Region[] = [
     destinationSlugs: ["brasil/jalapao"],
   },
   {
-    slug: "chapada-diamantina",
-    label: "Chapada Diamantina",
-    kicker: "Brasil",
-    intro:
-      "Cânions, grutas e cachoeiras na Bahia profunda. Roteiros com guias locais e hospedagens charmosas em Lençóis e Vale do Capão.",
-    metaDescription:
-      "Chapada Diamantina com curadoria Create Travel: trilhas, vales, grutas e melhores hospedagens.",
-    heroImageUrl:
-      "https://images.unsplash.com/photo-1534430480872-3498386e7856?w=1920&h=1080&fit=crop",
-    destinationSlugs: ["brasil/chapada-diamantina"],
-  },
-  {
     slug: "chapada-dos-veadeiros",
     label: "Chapada dos Veadeiros",
     kicker: "Brasil",

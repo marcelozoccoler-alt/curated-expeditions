@@ -13,12 +13,12 @@ const GROUPS: { title: string; slugs: string[] }[] = [
       "pantanal",
       "lencois-maranhenses",
       "fernando-de-noronha",
-      "chapada-diamantina",
       "chapada-dos-veadeiros",
       "jalapao",
       "bonito",
       "jericoacoara",
     ],
+
   },
   {
     title: "América do Sul",
