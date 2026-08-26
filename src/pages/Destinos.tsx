@@ -364,9 +364,9 @@ const Destinos = () => {
 
           {paginated.length > 0 ? (
             <>
-              <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+              <div className="divide-y divide-border/40">
                 {paginated.map((d, i) => (
-                  <DestinationCard key={d.id} destination={d} index={i % 6} />
+                  <DestinationListItem key={d.id} destination={d} index={i} />
                 ))}
               </div>
 
