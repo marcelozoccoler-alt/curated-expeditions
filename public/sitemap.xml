@@ -466,11 +466,6 @@
     <priority>0.4</priority>
   </url>
   <url>
-    <loc>https://createtravel.tur.br/destinos?tags=fotografia&amp;page=13</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.4</priority>
-  </url>
-  <url>
     <loc>https://createtravel.tur.br/destinos?tags=familia</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
@@ -677,11 +672,6 @@
   </url>
   <url>
     <loc>https://createtravel.tur.br/destinos/brasil/monte-roraima</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://createtravel.tur.br/destinos/brasil/chapada-diamantina</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -1876,11 +1866,6 @@
     <priority>0.4</priority>
   </url>
   <url>
-    <loc>https://createtravel.tur.br/experiencias/fotografia?page=13</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.4</priority>
-  </url>
-  <url>
     <loc>https://createtravel.tur.br/experiencias/familia</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
@@ -2157,11 +2142,6 @@
   </url>
   <url>
     <loc>https://createtravel.tur.br/jalapao</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://createtravel.tur.br/chapada-diamantina</loc>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
@@ -2702,6 +2682,11 @@
   </url>
   <url>
     <loc>https://createtravel.tur.br/grupos/africa-do-sul-reveillon-2027</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://createtravel.tur.br/grupos/africa-do-sul-reveillon-cape-town-2027</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
