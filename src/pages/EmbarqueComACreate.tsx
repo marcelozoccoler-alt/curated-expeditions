@@ -37,6 +37,7 @@ import grupoNepalButaoImg from "@/assets/grupo-nepal-butao-2027.jpg";
 import grupoVietnaLaosCambojaImg from "@/assets/grupo-vietna-laos-camboja-2027.jpg";
 import grupoMexicoImg from "@/assets/grupo-mexico-2026.jpg";
 import grupoAfricaReveillonImg from "@/assets/grupo-africa-do-sul-reveillon-2027.jpg";
+import grupoAfricaDoSulReveillonCapeTownImg from "@/assets/grupo-africa-do-sul-reveillon-cape-town-2027.jpg";
 import grupoTurquiaReveillonImg from "@/assets/grupo-turquia-reveillon-2027.jpg";
 import grupoAfricaPrimaveraImg from "@/assets/grupo-africa-do-sul-primavera-2026.jpg";
 import grupoTurquia2026Img from "@/assets/grupo-turquia-2026.jpg";
@@ -218,6 +219,16 @@ const RAW_DEPARTURES = [
     subtitle: "Johanesburgo · Soweto · Kruger · Cape Town",
     desc: "Virada do ano em reserva privada no Kruger, Soweto e o legado de Mandela, Table Mountain e o Cabo da Boa Esperança. Voos South African Airways e guia desde o Brasil.",
     fromPrice: "A partir de US$ 5.487 por pessoa (apto duplo)",
+    status: "Saída confirmada",
+  },
+  {
+    href: "/grupos/africa-do-sul-reveillon-cape-town-2027",
+    img: grupoAfricaDoSulReveillonCapeTownImg,
+    tag: "26/12/2026 a 04/01/2027 · 10 dias · Réveillon",
+    title: "África do Sul · Réveillon 2027 — Cape Town + Pilanesberg",
+    subtitle: "Cidade do Cabo · Table Mountain · Vinhedos · Pilanesberg · Joanesburgo",
+    desc: "10 dias na África do Sul com Réveillon em Cape Town, Table Mountain Fast Track, Cape Point, vinhedos com degustações, safáris no Pilanesberg livre de malária e Museu do Apartheid. Voos South African Airways e coordenador desde o Brasil.",
+    fromPrice: "A partir de US$ 4.877 por pessoa (apto duplo)",
     status: "Saída confirmada",
   },
   {

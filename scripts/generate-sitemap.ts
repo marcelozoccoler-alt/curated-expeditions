@@ -113,6 +113,7 @@ const GRUPOS = [
   "africa-do-sul-outubro-2026",
   "africa-do-sul-primavera-2026",
   "africa-do-sul-reveillon-2027",
+  "africa-do-sul-reveillon-cape-town-2027",
   "balcas-autenticos-2026",
   "benelux-2026",
   "chile-carretera-austral-2026",
