@@ -502,7 +502,53 @@ export const testimonials: Testimonial[] = [
         caption: "A porta antiga que ela abre como quem sabe a história",
         alt: "Viajante de chapéu apoiada em portão antigo de madeira maciça com tachas de bronze",
       },
+      {
+        src: labibAtenasRuaErmou.url,
+        caption: "Atenas: o grupo inteiro na Ermou, igreja bizantina ao fundo",
+        alt: "Grupo de viajantes da Create Travel posando na rua Ermou, em Atenas, com igreja bizantina de cúpula ao fundo",
+      },
+      {
+        src: labibBrindeIgrejaCupula.url,
+        caption: "O brinde do grupo diante da capela de cúpula azul",
+        alt: "Grupo de viajantes erguendo taças de espumante diante de capela grega branca com cúpula azul",
+      },
+      {
+        src: labibIgrejaIconostase.url,
+        caption: "O iconostase entalhado, o silêncio de dentro",
+        alt: "Viajante diante de iconostase de madeira entalhada com ícones dourados em igreja ortodoxa grega",
+      },
+      {
+        src: labibMykonosBougainvilleBranco.url,
+        caption: "Mykonos: cal, buganvília e vinho esperando",
+        alt: "Viajante de vestido branco em pátio de Mykonos com paredes de cal e buganvílias floridas",
+      },
+      {
+        src: labibMykonosBancoBougainvilles.url,
+        caption: "Um banco branco, duas portas azuis e a noite chegando",
+        alt: "Viajante sentada em banco branco entre vasos de buganvília diante de portas azuis em Mykonos, Grécia",
+      },
+      {
+        src: labibCapadociaCavernaMarcelo.url,
+        caption: "Capadócia: dentro da rocha, com o Marcelo",
+        alt: "Viajante de chapéu ao lado de travel designer da Create Travel dentro de caverna de rocha na Capadócia",
+      },
+      {
+        src: labibSagradaFamiliaVitrais.url,
+        caption: "Sagrada Família: sentadas dentro da luz colorida",
+        alt: "Grupo de viajantes sentadas no interior da Sagrada Família, em Barcelona, com vitrais azuis e verdes ao fundo",
+      },
+      {
+        src: labibParkGuellAmigas.url,
+        caption: "Barcelona: as amigas na entrada do Park Güell",
+        alt: "Quatro viajantes diante da casa de mosaicos de Gaudí na entrada do Park Güell, em Barcelona",
+      },
+      {
+        src: labibPiqueniqueSurpresaMesa.url,
+        caption: "A mesa quadriculada do piquenique surpresa, em Barcelona",
+        alt: "Grupo de viajantes ao redor de mesa de piquenique com toalha quadriculada vermelha e espumante, em Barcelona",
+      },
     ],
+
     suggestedCaptions: [],
     photoDirection: "",
   },
