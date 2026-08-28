@@ -82,6 +82,11 @@ import labibMykonosBancoBougainvilles from "@/assets/depoimentos/labib-mykonos-b
 import labibSagradaFamiliaVitrais from "@/assets/depoimentos/labib-barcelona-sagrada-familia-vitrais.jpg.asset.json";
 import labibParkGuellAmigas from "@/assets/depoimentos/labib-barcelona-park-guell-amigas.jpg.asset.json";
 import labibPiqueniqueSurpresaMesa from "@/assets/depoimentos/labib-barcelona-piquenique-surpresa-mesa.jpg.asset.json";
+import labibCruzeiroBrindeMesa from "@/assets/depoimentos/labib-cruzeiro-brinde-mesa-grupo.jpg.asset.json";
+import labibCasablancaHassanII from "@/assets/depoimentos/labib-casablanca-mesquita-hassan-ii.jpg.asset.json";
+import labibFesRiadPatio from "@/assets/depoimentos/labib-fes-riad-patio-mosaicos.jpg.asset.json";
+import labibChefchaouenEscadaria from "@/assets/depoimentos/labib-chefchaouen-escadaria-azul-amigas.jpg.asset.json";
+import labibTafraouteTerraco from "@/assets/depoimentos/labib-tafraoute-terraco-rochas-grupo.jpg.asset.json";
 
 export const TESTIMONIALS_DRAFT = true;
 
@@ -459,7 +464,7 @@ export const testimonials: Testimonial[] = [
     note:
       "A Labib está com a gente desde 2015 — foi uma das primeiras a receber o livrinho de viagem artesanal da Create Travel, com mapas de rua desenhados à mão e caminhadas sugeridas quarteirão por quarteirão. Aquela viagem de trem por Espanha e Portugal com a amiga Rosinha estabeleceu o que a gente faz até hoje: preparar a viagem para que a viajante possa se perder de propósito, sem nunca ficar sem rede. O piquenique surpresa em Portugal virou lenda interna, junto com o susto no carro. Nos grupos anuais, a Labib é quem espera pela surpresa — e é por ela, entre outras, que a gente continua desenhando o brinde no morro, o piquenique no oásis, o concerto ao pé da Acrópole. — Marcelo Zoccoler",
     photoStory:
-      "As fotos da Labib atravessam onze anos sem perder o mesmo sorriso. Na Grécia, o grupo reunido ao pé do campanário quando o céu de Atenas fica laranja, a mesa longa de taças e risos num jantar que ninguém quis encerrar, e o Templo de Hefesto na Ágora recortado pela luz dura do meio-dia. À noite, o Odeon de Herodes Ático iluminado por trás, pedra sobre pedra, aos pés da Acrópole. Na Turquia, o grupo de capacete antes dos quadriciclos nos vales da Capadócia e o silêncio da Casa da Virgem Maria, em Éfeso, sob o plátano centenário. Tem ainda o piquenique no jardim, as fotos penduradas na árvore como bandeirinhas, a escadaria dourada do navio — e uma porta antiga enorme, que ela abre como quem já sabe que atrás dela tem história. Em Atenas, o grupo inteiro na Ermou com uma igreja bizantina ao fundo, o brinde diante da capela de cúpula azul, o iconostase entalhado guardando o silêncio de dentro. Em Mykonos, cal, buganvília e vinho esperando num pátio, e um banco branco entre portas azuis quando a noite chega. Em Barcelona, as amigas na entrada do Park Güell, a luz colorida dos vitrais da Sagrada Família e a toalha quadriculada de outro piquenique surpresa — porque, com a Labib, sempre tem mais um.",
+      "As fotos da Labib atravessam onze anos sem perder o mesmo sorriso. Na Grécia, o grupo reunido ao pé do campanário quando o céu de Atenas fica laranja, a mesa longa de taças e risos num jantar que ninguém quis encerrar, e o Templo de Hefesto na Ágora recortado pela luz dura do meio-dia. À noite, o Odeon de Herodes Ático iluminado por trás, pedra sobre pedra, aos pés da Acrópole. Na Turquia, o grupo de capacete antes dos quadriciclos nos vales da Capadócia e o silêncio da Casa da Virgem Maria, em Éfeso, sob o plátano centenário. Tem ainda o piquenique no jardim, as fotos penduradas na árvore como bandeirinhas, a escadaria dourada do navio, o brinde na mesa longa a bordo — e uma porta antiga enorme, que ela abre como quem já sabe que atrás dela tem história. Em Atenas, o grupo inteiro na Ermou com uma igreja bizantina ao fundo, o brinde diante da capela de cúpula azul, o iconostase entalhado guardando o silêncio de dentro. Em Mykonos, cal, buganvília e vinho esperando num pátio, e um banco branco entre portas azuis quando a noite chega. No Marrocos, o mármore fresco da Mesquita Hassan II debaixo dos pés em Casablanca, o pátio de zellige do riad visto de cima em Fez, as escadarias azuis de Chefchaouen combinando com o laranja do vestido dela e o terraço do Anti-Atlas diante das rochas cor de fogo. Em Barcelona, as amigas na entrada do Park Güell, a luz colorida dos vitrais da Sagrada Família e a toalha quadriculada de outro piquenique surpresa — porque, com a Labib, sempre tem mais um.",
     photos: [
       {
         src: labibGrupoCampanario.url,
@@ -556,10 +561,36 @@ export const testimonials: Testimonial[] = [
         caption: "A mesa quadriculada do piquenique surpresa, em Barcelona",
         alt: "Grupo de viajantes ao redor de mesa de piquenique com toalha quadriculada vermelha e espumante, em Barcelona",
       },
+      {
+        src: labibCruzeiroBrindeMesa.url,
+        caption: "O brinde do grupo na mesa longa do navio",
+        alt: "Grupo de viajantes da Create Travel erguendo taças de espumante ao redor da mesa no restaurante de um navio de cruzeiro",
+      },
+      {
+        src: labibCasablancaHassanII.url,
+        caption: "Casablanca: descalços na Mesquita Hassan II",
+        alt: "Labib ao lado do travel designer da Create Travel no salão de orações da Mesquita Hassan II, em Casablanca, Marrocos",
+      },
+      {
+        src: labibFesRiadPatio.url,
+        caption: "O pátio de mosaicos do riad, visto de cima",
+        alt: "Viajantes descansando em poltronas de madeira no pátio de mosaicos zellige de um riad marroquino, visto do andar de cima",
+      },
+      {
+        src: labibChefchaouenEscadaria.url,
+        caption: "Chefchaouen: as escadas azuis e o laranja dela",
+        alt: "Labib de conjunto laranja e amiga nas escadarias azuis de Chefchaouen, cercadas de artesanato e lanternas, Marrocos",
+      },
+      {
+        src: labibTafraouteTerraco.url,
+        caption: "Anti-Atlas: o terraço diante das rochas cor de fogo",
+        alt: "Grupo de viajantes da Create Travel em terraço marroquino com as rochas rosadas do Anti-Atlas ao fundo, em Tafraoute",
+      },
     ],
 
     suggestedCaptions: [],
     photoDirection: "",
   },
 ];
+
 
