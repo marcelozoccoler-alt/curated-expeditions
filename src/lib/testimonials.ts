@@ -73,6 +73,15 @@ import labibAgoraHefesto from "@/assets/depoimentos/labib-atenas-templo-hefesto-
 import labibPiqueniqueJardim from "@/assets/depoimentos/labib-grupo-piquenique-jardim.jpg.asset.json";
 import labibCruzeiroEscadaria from "@/assets/depoimentos/labib-cruzeiro-escadaria-grupo.jpg.asset.json";
 import labibPortaoMadeira from "@/assets/depoimentos/labib-portao-madeira-antigo.jpg.asset.json";
+import labibAtenasRuaErmou from "@/assets/depoimentos/labib-atenas-grupo-rua-ermou.jpg.asset.json";
+import labibIgrejaIconostase from "@/assets/depoimentos/labib-grecia-igreja-iconostase.jpg.asset.json";
+import labibCapadociaCavernaMarcelo from "@/assets/depoimentos/labib-capadocia-caverna-marcelo.jpg.asset.json";
+import labibMykonosBougainvilleBranco from "@/assets/depoimentos/labib-mykonos-bougainville-branco.jpg.asset.json";
+import labibBrindeIgrejaCupula from "@/assets/depoimentos/labib-grecia-brinde-igreja-cupula.jpg.asset.json";
+import labibMykonosBancoBougainvilles from "@/assets/depoimentos/labib-mykonos-banco-bougainvilles.jpg.asset.json";
+import labibSagradaFamiliaVitrais from "@/assets/depoimentos/labib-barcelona-sagrada-familia-vitrais.jpg.asset.json";
+import labibParkGuellAmigas from "@/assets/depoimentos/labib-barcelona-park-guell-amigas.jpg.asset.json";
+import labibPiqueniqueSurpresaMesa from "@/assets/depoimentos/labib-barcelona-piquenique-surpresa-mesa.jpg.asset.json";
 
 export const TESTIMONIALS_DRAFT = true;
 
@@ -450,7 +459,7 @@ export const testimonials: Testimonial[] = [
     note:
       "A Labib está com a gente desde 2015 — foi uma das primeiras a receber o livrinho de viagem artesanal da Create Travel, com mapas de rua desenhados à mão e caminhadas sugeridas quarteirão por quarteirão. Aquela viagem de trem por Espanha e Portugal com a amiga Rosinha estabeleceu o que a gente faz até hoje: preparar a viagem para que a viajante possa se perder de propósito, sem nunca ficar sem rede. O piquenique surpresa em Portugal virou lenda interna, junto com o susto no carro. Nos grupos anuais, a Labib é quem espera pela surpresa — e é por ela, entre outras, que a gente continua desenhando o brinde no morro, o piquenique no oásis, o concerto ao pé da Acrópole. — Marcelo Zoccoler",
     photoStory:
-      "As fotos da Labib atravessam onze anos sem perder o mesmo sorriso. Na Grécia, o grupo reunido ao pé do campanário quando o céu de Atenas fica laranja, a mesa longa de taças e risos num jantar que ninguém quis encerrar, e o Templo de Hefesto na Ágora recortado pela luz dura do meio-dia. À noite, o Odeon de Herodes Ático iluminado por trás, pedra sobre pedra, aos pés da Acrópole. Na Turquia, o grupo de capacete antes dos quadriciclos nos vales da Capadócia e o silêncio da Casa da Virgem Maria, em Éfeso, sob o plátano centenário. Tem ainda o piquenique no jardim, as fotos penduradas na árvore como bandeirinhas, a escadaria dourada do navio — e uma porta antiga enorme, que ela abre como quem já sabe que atrás dela tem história.",
+      "As fotos da Labib atravessam onze anos sem perder o mesmo sorriso. Na Grécia, o grupo reunido ao pé do campanário quando o céu de Atenas fica laranja, a mesa longa de taças e risos num jantar que ninguém quis encerrar, e o Templo de Hefesto na Ágora recortado pela luz dura do meio-dia. À noite, o Odeon de Herodes Ático iluminado por trás, pedra sobre pedra, aos pés da Acrópole. Na Turquia, o grupo de capacete antes dos quadriciclos nos vales da Capadócia e o silêncio da Casa da Virgem Maria, em Éfeso, sob o plátano centenário. Tem ainda o piquenique no jardim, as fotos penduradas na árvore como bandeirinhas, a escadaria dourada do navio — e uma porta antiga enorme, que ela abre como quem já sabe que atrás dela tem história. Em Atenas, o grupo inteiro na Ermou com uma igreja bizantina ao fundo, o brinde diante da capela de cúpula azul, o iconostase entalhado guardando o silêncio de dentro. Em Mykonos, cal, buganvília e vinho esperando num pátio, e um banco branco entre portas azuis quando a noite chega. Em Barcelona, as amigas na entrada do Park Güell, a luz colorida dos vitrais da Sagrada Família e a toalha quadriculada de outro piquenique surpresa — porque, com a Labib, sempre tem mais um.",
     photos: [
       {
         src: labibGrupoCampanario.url,
@@ -502,7 +511,53 @@ export const testimonials: Testimonial[] = [
         caption: "A porta antiga que ela abre como quem sabe a história",
         alt: "Viajante de chapéu apoiada em portão antigo de madeira maciça com tachas de bronze",
       },
+      {
+        src: labibAtenasRuaErmou.url,
+        caption: "Atenas: o grupo inteiro na Ermou, igreja bizantina ao fundo",
+        alt: "Grupo de viajantes da Create Travel posando na rua Ermou, em Atenas, com igreja bizantina de cúpula ao fundo",
+      },
+      {
+        src: labibBrindeIgrejaCupula.url,
+        caption: "O brinde do grupo diante da capela de cúpula azul",
+        alt: "Grupo de viajantes erguendo taças de espumante diante de capela grega branca com cúpula azul",
+      },
+      {
+        src: labibIgrejaIconostase.url,
+        caption: "O iconostase entalhado, o silêncio de dentro",
+        alt: "Viajante diante de iconostase de madeira entalhada com ícones dourados em igreja ortodoxa grega",
+      },
+      {
+        src: labibMykonosBougainvilleBranco.url,
+        caption: "Mykonos: cal, buganvília e vinho esperando",
+        alt: "Viajante de vestido branco em pátio de Mykonos com paredes de cal e buganvílias floridas",
+      },
+      {
+        src: labibMykonosBancoBougainvilles.url,
+        caption: "Um banco branco, duas portas azuis e a noite chegando",
+        alt: "Viajante sentada em banco branco entre vasos de buganvília diante de portas azuis em Mykonos, Grécia",
+      },
+      {
+        src: labibCapadociaCavernaMarcelo.url,
+        caption: "Capadócia: dentro da rocha, com o Marcelo",
+        alt: "Viajante de chapéu ao lado de travel designer da Create Travel dentro de caverna de rocha na Capadócia",
+      },
+      {
+        src: labibSagradaFamiliaVitrais.url,
+        caption: "Sagrada Família: sentadas dentro da luz colorida",
+        alt: "Grupo de viajantes sentadas no interior da Sagrada Família, em Barcelona, com vitrais azuis e verdes ao fundo",
+      },
+      {
+        src: labibParkGuellAmigas.url,
+        caption: "Barcelona: as amigas na entrada do Park Güell",
+        alt: "Quatro viajantes diante da casa de mosaicos de Gaudí na entrada do Park Güell, em Barcelona",
+      },
+      {
+        src: labibPiqueniqueSurpresaMesa.url,
+        caption: "A mesa quadriculada do piquenique surpresa, em Barcelona",
+        alt: "Grupo de viajantes ao redor de mesa de piquenique com toalha quadriculada vermelha e espumante, em Barcelona",
+      },
     ],
+
     suggestedCaptions: [],
     photoDirection: "",
   },
