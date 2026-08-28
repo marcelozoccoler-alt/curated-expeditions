@@ -424,4 +424,77 @@ export const testimonials: Testimonial[] = [
     suggestedCaptions: [],
     photoDirection: "",
   },
+  {
+    slug: "labib-maria-miguel-bernardi-desde-2015",
+    title: "Onze anos de viagens, e as surpresas que ninguém esquece",
+    author: "Labib Maria Miguel Bernardi",
+    city: "São Paulo, SP",
+    tripType: "Viajante recorrente desde 2015 — grupos exclusivos e viagens com amigos",
+    destination: "Espanha, Portugal, Grécia, Turquia, Marrocos e mais",
+    month: "2015 a 2026",
+    verified: true,
+    since: "Viaja com a Create Travel desde 2015",
+    countries: ["Espanha", "Portugal", "Grécia", "Turquia", "Marrocos"],
+    quote:
+      "Minha primeira viagem com a Create Travel foi em 2015, com a minha amiga Rosinha: Espanha e Portugal, de trem, só nós duas. Levávamos o livrinho de viagem que eles fizeram para nós — com os mapinhas das ruas, os caminhos, o que ver em cada lugar. Foi assim que chegamos a Toledo, e foi assim que aprendemos a viajar de trem (quase perdemos um, confesso). Em Portugal, o motorista parou num lugar deserto, no meio de uma paisagem lindíssima, e nós duas ficamos com medo: o que ele vai fazer com a gente? Era um piquenique surpresa, só para nós. Até hoje rimos dessa história. Desde então eu viajo todo ano no grupo exclusivo deles, porque sempre tem uma surpresa esperando: um brinde no alto do Lycabettus, em Atenas, um piquenique num oásis do Marrocos, um concerto no Odeon de Herodes Ático aos pés da Acrópole. Eu já não sei viajar de outro jeito.",
+    note:
+      "A Labib está com a gente desde 2015 — foi uma das primeiras a receber o livrinho de viagem artesanal da Create Travel, com mapas de rua desenhados à mão e caminhadas sugeridas quarteirão por quarteirão. Aquela viagem de trem por Espanha e Portugal com a amiga Rosinha estabeleceu o que a gente faz até hoje: preparar a viagem para que a viajante possa se perder de propósito, sem nunca ficar sem rede. O piquenique surpresa em Portugal virou lenda interna, junto com o susto no carro. Nos grupos anuais, a Labib é quem espera pela surpresa — e é por ela, entre outras, que a gente continua desenhando o brinde no morro, o piquenique no oásis, o concerto ao pé da Acrópole. — Marcelo Zoccoler",
+    photoStory:
+      "As fotos da Labib atravessam onze anos sem perder o mesmo sorriso. Na Grécia, o grupo reunido ao pé do campanário quando o céu de Atenas fica laranja, a mesa longa de taças e risos num jantar que ninguém quis encerrar, e o Templo de Hefesto na Ágora recortado pela luz dura do meio-dia. À noite, o Odeon de Herodes Ático iluminado por trás, pedra sobre pedra, aos pés da Acrópole. Na Turquia, o grupo de capacete antes dos quadriciclos nos vales da Capadócia e o silêncio da Casa da Virgem Maria, em Éfeso, sob o plátano centenário. Tem ainda o piquenique no jardim, as fotos penduradas na árvore como bandeirinhas, a escadaria dourada do navio — e uma porta antiga enorme, que ela abre como quem já sabe que atrás dela tem história.",
+    photos: [
+      {
+        src: labibGrupoCampanario.url,
+        caption: "Grécia: o grupo reunido quando o céu virou laranja",
+        alt: "Grupo de viajantes da Create Travel reunido diante de campanário de pedra iluminado ao poente, na Grécia",
+      },
+      {
+        src: labibOdeonNoite.url,
+        caption: "Odeon de Herodes Ático iluminado, aos pés da Acrópole",
+        alt: "Viajantes diante do Odeon de Herodes Ático iluminado à noite, aos pés da Acrópole de Atenas, Grécia",
+      },
+      {
+        src: labibCapadociaQuadriciclos.url,
+        caption: "Capadócia: capacete na cabeça, vale logo ali",
+        alt: "Grupo de viajantes de capacete antes do passeio de quadriciclo nos vales da Capadócia, Turquia",
+      },
+      {
+        src: labibEfeso.url,
+        caption: "Éfeso: o silêncio da Casa da Virgem Maria",
+        alt: "Viajante em frente à entrada de pedra da Casa da Virgem Maria, em Éfeso, sob plátano centenário, Turquia",
+      },
+      {
+        src: labibJantarGrupo.url,
+        caption: "A mesa longa que ninguém quis encerrar",
+        alt: "Grupo de viajantes da Create Travel em jantar numa mesa longa de restaurante grego, com taças e velas",
+      },
+      {
+        src: labibTemploHefesto.url,
+        caption: "Ágora de Atenas: o Templo de Hefesto ao meio-dia",
+        alt: "Viajante na Ágora Antiga de Atenas com o Templo de Hefesto ao fundo, sob céu azul, Grécia",
+      },
+      {
+        src: labibAgoraHefesto.url,
+        caption: "Duas amigas, colunas dóricas e nenhuma pressa",
+        alt: "Duas viajantes diante das colunas dóricas do Templo de Hefesto, na Ágora de Atenas, Grécia",
+      },
+      {
+        src: labibPiqueniqueJardim.url,
+        caption: "Piquenique no jardim, fotos penduradas na árvore",
+        alt: "Grupo de viajantes em piquenique num jardim com fotos da viagem penduradas em uma árvore",
+      },
+      {
+        src: labibCruzeiroEscadaria.url,
+        caption: "A escadaria dourada do navio, no fim da noite",
+        alt: "Grupo de viajantes sentadas na escadaria iluminada do átrio dourado de um navio de cruzeiro",
+      },
+      {
+        src: labibPortaoMadeira.url,
+        caption: "A porta antiga que ela abre como quem sabe a história",
+        alt: "Viajante de chapéu apoiada em portão antigo de madeira maciça com tachas de bronze",
+      },
+    ],
+    suggestedCaptions: [],
+    photoDirection: "",
+  },
 ];
+
