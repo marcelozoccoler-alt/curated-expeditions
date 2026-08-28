@@ -17,8 +17,9 @@ const Depoimentos = () => {
   const [filter, setFilter] = useState<string>("Todos");
   const [expanded, setExpanded] = useState<Record<string, boolean>>({});
 
-  // Ordem editorial definida: Tânia, Maite & Murilo, Luana.
+  // Ordem editorial definida: Labib, Tânia, Maite & Murilo, Luana.
   const ORDER = [
+    "labib-maria-miguel-bernardi-desde-2015",
     "tania-abreu-turquia-novembro-2025",
     "maite-leal-murilo-lamano-patagonia-leste-europeu",
     "luana-santos-cinco-viagens",
