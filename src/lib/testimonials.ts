@@ -89,6 +89,13 @@ import labibChefchaouenEscadaria from "@/assets/depoimentos/labib-chefchaouen-es
 import labibTafraouteTerraco from "@/assets/depoimentos/labib-tafraoute-terraco-rochas-grupo.jpg.asset.json";
 import labibRiadPatioPoltronas from "@/assets/depoimentos/labib-marrocos-riad-patio-zellige-poltronas.jpg.asset.json";
 import labibFesRiadSalao from "@/assets/depoimentos/labib-fes-riad-salao-estuque-sofas.jpg.asset.json";
+import labibCasablancaGrupoEscadaria from "@/assets/depoimentos/labib-casablanca-hassan-ii-grupo-escadaria.jpg.asset.json";
+import labibCasablancaPortas from "@/assets/depoimentos/labib-casablanca-hassan-ii-portas-monumentais.jpg.asset.json";
+import labibMarrakechRiadTahra from "@/assets/depoimentos/labib-marrakech-riad-tahra-hammam.jpg.asset.json";
+import labibMarrakechKoutoubia from "@/assets/depoimentos/labib-marrakech-koutoubia-noite.jpg.asset.json";
+import labibSantoriniOia from "@/assets/depoimentos/labib-santorini-oia-caldeira-escadas.jpg.asset.json";
+import taniaVideo4 from "@/assets/depoimentos/tania-istiklal-caminhada-noite.mp4.asset.json";
+import taniaVideo4Poster from "@/assets/depoimentos/tania-istiklal-caminhada-noite-poster.jpg.asset.json";
 
 export const TESTIMONIALS_DRAFT = true;
 
@@ -354,6 +361,11 @@ export const testimonials: Testimonial[] = [
         poster: taniaVideo3Poster.url,
         caption: "A Turquia em movimento: mais um registro da viagem da Tânia",
       },
+      {
+        src: taniaVideo4.url,
+        poster: taniaVideo4Poster.url,
+        caption: "Caminhada noturna pela Istiklal, gravada pela Tânia",
+      },
     ],
     photos: [
       {
@@ -466,7 +478,7 @@ export const testimonials: Testimonial[] = [
     note:
       "A Labib está com a gente desde 2015 — foi uma das primeiras a receber o livrinho de viagem artesanal da Create Travel, com mapas de rua desenhados à mão e caminhadas sugeridas quarteirão por quarteirão. Aquela viagem de trem por Espanha e Portugal com a amiga Rosinha estabeleceu o que a gente faz até hoje: preparar a viagem para que a viajante possa se perder de propósito, sem nunca ficar sem rede. O piquenique surpresa em Portugal virou lenda interna, junto com o susto no carro. Nos grupos anuais, a Labib é quem espera pela surpresa — e é por ela, entre outras, que a gente continua desenhando o brinde no morro, o piquenique no oásis, o concerto ao pé da Acrópole. — Marcelo Zoccoler",
     photoStory:
-      "As fotos da Labib atravessam onze anos sem perder o mesmo sorriso — e revelam um gosto muito claro: hospedagem com alma e uma pitada de aventura. Riads de verdade no Marrocos, com pátio de zellige, poltronas de cedro e chá servido embaixo do estuque rendado; hotel escavado na rocha na Capadócia, onde o quarto é caverna e a manhã começa com quadriciclo pelos vales antes do voo de balão. Na Grécia, o grupo reunido ao pé do campanário quando o céu de Atenas fica laranja, a mesa longa de taças e risos num jantar que ninguém quis encerrar, e o Templo de Hefesto na Ágora recortado pela luz dura do meio-dia. À noite, o Odeon de Herodes Ático iluminado por trás, pedra sobre pedra, aos pés da Acrópole. Na Turquia, o grupo de capacete antes dos quadriciclos e o silêncio da Casa da Virgem Maria, em Éfeso, sob o plátano centenário. Tem ainda o piquenique no jardim, as fotos penduradas na árvore como bandeirinhas, a escadaria dourada do navio, o brinde na mesa longa a bordo — e uma porta antiga enorme, que ela abre como quem já sabe que atrás dela tem história. Em Atenas, o grupo inteiro na Ermou com uma igreja bizantina ao fundo, o brinde diante da capela de cúpula azul, o iconostase entalhado guardando o silêncio de dentro. Em Mykonos, cal, buganvília e vinho esperando num pátio, e um banco branco entre portas azuis quando a noite chega. No Marrocos, o mármore fresco da Mesquita Hassan II debaixo dos pés em Casablanca, os pátios dos riads vistos de cima em Fez, as escadarias azuis de Chefchaouen combinando com o laranja do vestido dela e o terraço do Anti-Atlas diante das rochas cor de fogo. Em Barcelona, as amigas na entrada do Park Güell, a luz colorida dos vitrais da Sagrada Família e a toalha quadriculada de outro piquenique surpresa — porque, com a Labib, sempre tem mais um.",
+      "As fotos da Labib atravessam onze anos sem perder o mesmo sorriso — e revelam um gosto muito claro: hospedagem com alma e uma pitada de aventura. Riads de verdade no Marrocos, com pátio de zellige, poltronas de cedro e chá servido embaixo do estuque rendado; hotel escavado na rocha na Capadócia, onde o quarto é caverna e a manhã começa com quadriciclo pelos vales antes do voo de balão. Na Grécia, o grupo reunido ao pé do campanário quando o céu de Atenas fica laranja, a mesa longa de taças e risos num jantar que ninguém quis encerrar, e o Templo de Hefesto na Ágora recortado pela luz dura do meio-dia. À noite, o Odeon de Herodes Ático iluminado por trás, pedra sobre pedra, aos pés da Acrópole. Na Turquia, o grupo de capacete antes dos quadriciclos e o silêncio da Casa da Virgem Maria, em Éfeso, sob o plátano centenário. Tem ainda o piquenique no jardim, as fotos penduradas na árvore como bandeirinhas, a escadaria dourada do navio, o brinde na mesa longa a bordo — e uma porta antiga enorme, que ela abre como quem já sabe que atrás dela tem história. Em Atenas, o grupo inteiro na Ermou com uma igreja bizantina ao fundo, o brinde diante da capela de cúpula azul, o iconostase entalhado guardando o silêncio de dentro. Em Mykonos, cal, buganvília e vinho esperando num pátio, e um banco branco entre portas azuis quando a noite chega. No Marrocos, o mármore fresco da Mesquita Hassan II debaixo dos pés em Casablanca, os pátios dos riads vistos de cima em Fez, as escadarias azuis de Chefchaouen combinando com o laranja do vestido dela e o terraço do Anti-Atlas diante das rochas cor de fogo. Em Barcelona, as amigas na entrada do Park Güell, a luz colorida dos vitrais da Sagrada Família e a toalha quadriculada de outro piquenique surpresa — porque, com a Labib, sempre tem mais um. E ainda tem Marrakech e Santorini: a escadaria de mármore da Mesquita Hassan II com o grupo inteiro sentado sob o arco de arabescos, as portas monumentais de bronze que só cedem quando todas empurram juntas, a toalha bordada do Riad Tahra anunciando o hammam do fim da tarde, o minarete da Koutoubia aceso na noite vista pela janela do carro — e, no Egeu, a escada branca de Oia descendo para a caldeira azul, buganvília de um lado, mar do outro.",
     photos: [
       {
         src: labibGrupoCampanario.url,
@@ -597,6 +609,31 @@ export const testimonials: Testimonial[] = [
         src: labibFesRiadSalao.url,
         caption: "Fez: o salão de estuque rendado e os sofás vermelhos",
         alt: "Duas viajantes em sofás de veludo vermelho no salão de um riad em Fez, com estuque rendado, zellige e piso de mármore xadrez",
+      },
+      {
+        src: labibCasablancaGrupoEscadaria.url,
+        caption: "Casablanca: o grupo na escadaria da Hassan II",
+        alt: "Grupo de viajantes da Create Travel sentadas na escadaria de mármore da Mesquita Hassan II, sob arco de arabescos esculpidos, em Casablanca",
+      },
+      {
+        src: labibCasablancaPortas.url,
+        caption: "As portas monumentais que só se abrem em grupo",
+        alt: "Quatro viajantes brincando de empurrar as portas monumentais de bronze rendado da Mesquita Hassan II, em Casablanca, Marrocos",
+      },
+      {
+        src: labibMarrakechRiadTahra.url,
+        caption: "Riad Tahra: o hammam esperando no fim da tarde",
+        alt: "Toalha bordada do Riad Tahra sobre divã dourado no salão de um riad marroquino com hammam, em Marrakech",
+      },
+      {
+        src: labibMarrakechKoutoubia.url,
+        caption: "Marrakech: a Koutoubia iluminada, vista do carro",
+        alt: "Minarete iluminado da Mesquita Koutoubia com a bandeira do Marrocos ao vento, à noite em Marrakech",
+      },
+      {
+        src: labibSantoriniOia.url,
+        caption: "Santorini: a escada de Oia sobre a caldeira",
+        alt: "Labib em escadaria branca de Oia, em Santorini, com buganvílias e a caldeira azul do mar Egeu ao fundo",
       },
     ],
 
