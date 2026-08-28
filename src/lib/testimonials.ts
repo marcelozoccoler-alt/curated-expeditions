@@ -561,10 +561,36 @@ export const testimonials: Testimonial[] = [
         caption: "A mesa quadriculada do piquenique surpresa, em Barcelona",
         alt: "Grupo de viajantes ao redor de mesa de piquenique com toalha quadriculada vermelha e espumante, em Barcelona",
       },
+      {
+        src: labibCruzeiroBrindeMesa.url,
+        caption: "O brinde do grupo na mesa longa do navio",
+        alt: "Grupo de viajantes da Create Travel erguendo taças de espumante ao redor da mesa no restaurante de um navio de cruzeiro",
+      },
+      {
+        src: labibCasablancaHassanII.url,
+        caption: "Casablanca: descalços na Mesquita Hassan II",
+        alt: "Labib ao lado do travel designer da Create Travel no salão de orações da Mesquita Hassan II, em Casablanca, Marrocos",
+      },
+      {
+        src: labibFesRiadPatio.url,
+        caption: "O pátio de mosaicos do riad, visto de cima",
+        alt: "Viajantes descansando em poltronas de madeira no pátio de mosaicos zellige de um riad marroquino, visto do andar de cima",
+      },
+      {
+        src: labibChefchaouenEscadaria.url,
+        caption: "Chefchaouen: as escadas azuis e o laranja dela",
+        alt: "Labib de conjunto laranja e amiga nas escadarias azuis de Chefchaouen, cercadas de artesanato e lanternas, Marrocos",
+      },
+      {
+        src: labibTafraouteTerraco.url,
+        caption: "Anti-Atlas: o terraço diante das rochas cor de fogo",
+        alt: "Grupo de viajantes da Create Travel em terraço marroquino com as rochas rosadas do Anti-Atlas ao fundo, em Tafraoute",
+      },
     ],
 
     suggestedCaptions: [],
     photoDirection: "",
   },
 ];
+
 
