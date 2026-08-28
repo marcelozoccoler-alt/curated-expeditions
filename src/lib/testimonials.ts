@@ -82,6 +82,11 @@ import labibMykonosBancoBougainvilles from "@/assets/depoimentos/labib-mykonos-b
 import labibSagradaFamiliaVitrais from "@/assets/depoimentos/labib-barcelona-sagrada-familia-vitrais.jpg.asset.json";
 import labibParkGuellAmigas from "@/assets/depoimentos/labib-barcelona-park-guell-amigas.jpg.asset.json";
 import labibPiqueniqueSurpresaMesa from "@/assets/depoimentos/labib-barcelona-piquenique-surpresa-mesa.jpg.asset.json";
+import labibCruzeiroBrindeMesa from "@/assets/depoimentos/labib-cruzeiro-brinde-mesa-grupo.jpg.asset.json";
+import labibCasablancaHassanII from "@/assets/depoimentos/labib-casablanca-mesquita-hassan-ii.jpg.asset.json";
+import labibFesRiadPatio from "@/assets/depoimentos/labib-fes-riad-patio-mosaicos.jpg.asset.json";
+import labibChefchaouenEscadaria from "@/assets/depoimentos/labib-chefchaouen-escadaria-azul-amigas.jpg.asset.json";
+import labibTafraouteTerraco from "@/assets/depoimentos/labib-tafraoute-terraco-rochas-grupo.jpg.asset.json";
 
 export const TESTIMONIALS_DRAFT = true;
 
