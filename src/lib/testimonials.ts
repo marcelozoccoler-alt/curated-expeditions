@@ -63,6 +63,16 @@ import taniaVideo3 from "@/assets/depoimentos/tania-turquia-video-3.mp4.asset.js
 import taniaVideo3Poster from "@/assets/depoimentos/tania-video-3-poster.jpg.asset.json";
 import taniaGrupoBaloes from "@/assets/depoimentos/tania-capadocia-grupo-baloes-amanhecer.jpg.asset.json";
 import taniaDolmabahceJardim from "@/assets/depoimentos/tania-dolmabahce-jardim-fonte-flores.jpg.asset.json";
+import labibGrupoCampanario from "@/assets/depoimentos/labib-grecia-grupo-campanario-poente.jpg.asset.json";
+import labibOdeonNoite from "@/assets/depoimentos/labib-atenas-odeon-herodes-noite.jpg.asset.json";
+import labibCapadociaQuadriciclos from "@/assets/depoimentos/labib-capadocia-grupo-quadriciclos.jpg.asset.json";
+import labibEfeso from "@/assets/depoimentos/labib-efeso-casa-virgem-maria.jpg.asset.json";
+import labibJantarGrupo from "@/assets/depoimentos/labib-grecia-jantar-grupo.jpg.asset.json";
+import labibTemploHefesto from "@/assets/depoimentos/labib-atenas-agora-templo-hefesto.jpg.asset.json";
+import labibAgoraHefesto from "@/assets/depoimentos/labib-atenas-templo-hefesto-amigas.jpg.asset.json";
+import labibPiqueniqueJardim from "@/assets/depoimentos/labib-grupo-piquenique-jardim.jpg.asset.json";
+import labibCruzeiroEscadaria from "@/assets/depoimentos/labib-cruzeiro-escadaria-grupo.jpg.asset.json";
+import labibPortaoMadeira from "@/assets/depoimentos/labib-portao-madeira-antigo.jpg.asset.json";
 
 export const TESTIMONIALS_DRAFT = true;
 
