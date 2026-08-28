@@ -87,6 +87,8 @@ import labibCasablancaHassanII from "@/assets/depoimentos/labib-casablanca-mesqu
 import labibFesRiadPatio from "@/assets/depoimentos/labib-fes-riad-patio-mosaicos.jpg.asset.json";
 import labibChefchaouenEscadaria from "@/assets/depoimentos/labib-chefchaouen-escadaria-azul-amigas.jpg.asset.json";
 import labibTafraouteTerraco from "@/assets/depoimentos/labib-tafraoute-terraco-rochas-grupo.jpg.asset.json";
+import labibRiadPatioPoltronas from "@/assets/depoimentos/labib-marrocos-riad-patio-zellige-poltronas.jpg.asset.json";
+import labibFesRiadSalao from "@/assets/depoimentos/labib-fes-riad-salao-estuque-sofas.jpg.asset.json";
 
 export const TESTIMONIALS_DRAFT = true;
 
@@ -464,7 +466,7 @@ export const testimonials: Testimonial[] = [
     note:
       "A Labib está com a gente desde 2015 — foi uma das primeiras a receber o livrinho de viagem artesanal da Create Travel, com mapas de rua desenhados à mão e caminhadas sugeridas quarteirão por quarteirão. Aquela viagem de trem por Espanha e Portugal com a amiga Rosinha estabeleceu o que a gente faz até hoje: preparar a viagem para que a viajante possa se perder de propósito, sem nunca ficar sem rede. O piquenique surpresa em Portugal virou lenda interna, junto com o susto no carro. Nos grupos anuais, a Labib é quem espera pela surpresa — e é por ela, entre outras, que a gente continua desenhando o brinde no morro, o piquenique no oásis, o concerto ao pé da Acrópole. — Marcelo Zoccoler",
     photoStory:
-      "As fotos da Labib atravessam onze anos sem perder o mesmo sorriso. Na Grécia, o grupo reunido ao pé do campanário quando o céu de Atenas fica laranja, a mesa longa de taças e risos num jantar que ninguém quis encerrar, e o Templo de Hefesto na Ágora recortado pela luz dura do meio-dia. À noite, o Odeon de Herodes Ático iluminado por trás, pedra sobre pedra, aos pés da Acrópole. Na Turquia, o grupo de capacete antes dos quadriciclos nos vales da Capadócia e o silêncio da Casa da Virgem Maria, em Éfeso, sob o plátano centenário. Tem ainda o piquenique no jardim, as fotos penduradas na árvore como bandeirinhas, a escadaria dourada do navio, o brinde na mesa longa a bordo — e uma porta antiga enorme, que ela abre como quem já sabe que atrás dela tem história. Em Atenas, o grupo inteiro na Ermou com uma igreja bizantina ao fundo, o brinde diante da capela de cúpula azul, o iconostase entalhado guardando o silêncio de dentro. Em Mykonos, cal, buganvília e vinho esperando num pátio, e um banco branco entre portas azuis quando a noite chega. No Marrocos, o mármore fresco da Mesquita Hassan II debaixo dos pés em Casablanca, o pátio de zellige do riad visto de cima em Fez, as escadarias azuis de Chefchaouen combinando com o laranja do vestido dela e o terraço do Anti-Atlas diante das rochas cor de fogo. Em Barcelona, as amigas na entrada do Park Güell, a luz colorida dos vitrais da Sagrada Família e a toalha quadriculada de outro piquenique surpresa — porque, com a Labib, sempre tem mais um.",
+      "As fotos da Labib atravessam onze anos sem perder o mesmo sorriso — e revelam um gosto muito claro: hospedagem com alma e uma pitada de aventura. Riads de verdade no Marrocos, com pátio de zellige, poltronas de cedro e chá servido embaixo do estuque rendado; hotel escavado na rocha na Capadócia, onde o quarto é caverna e a manhã começa com quadriciclo pelos vales antes do voo de balão. Na Grécia, o grupo reunido ao pé do campanário quando o céu de Atenas fica laranja, a mesa longa de taças e risos num jantar que ninguém quis encerrar, e o Templo de Hefesto na Ágora recortado pela luz dura do meio-dia. À noite, o Odeon de Herodes Ático iluminado por trás, pedra sobre pedra, aos pés da Acrópole. Na Turquia, o grupo de capacete antes dos quadriciclos e o silêncio da Casa da Virgem Maria, em Éfeso, sob o plátano centenário. Tem ainda o piquenique no jardim, as fotos penduradas na árvore como bandeirinhas, a escadaria dourada do navio, o brinde na mesa longa a bordo — e uma porta antiga enorme, que ela abre como quem já sabe que atrás dela tem história. Em Atenas, o grupo inteiro na Ermou com uma igreja bizantina ao fundo, o brinde diante da capela de cúpula azul, o iconostase entalhado guardando o silêncio de dentro. Em Mykonos, cal, buganvília e vinho esperando num pátio, e um banco branco entre portas azuis quando a noite chega. No Marrocos, o mármore fresco da Mesquita Hassan II debaixo dos pés em Casablanca, os pátios dos riads vistos de cima em Fez, as escadarias azuis de Chefchaouen combinando com o laranja do vestido dela e o terraço do Anti-Atlas diante das rochas cor de fogo. Em Barcelona, as amigas na entrada do Park Güell, a luz colorida dos vitrais da Sagrada Família e a toalha quadriculada de outro piquenique surpresa — porque, com a Labib, sempre tem mais um.",
     photos: [
       {
         src: labibGrupoCampanario.url,
@@ -586,7 +588,18 @@ export const testimonials: Testimonial[] = [
         caption: "Anti-Atlas: o terraço diante das rochas cor de fogo",
         alt: "Grupo de viajantes da Create Travel em terraço marroquino com as rochas rosadas do Anti-Atlas ao fundo, em Tafraoute",
       },
+      {
+        src: labibRiadPatioPoltronas.url,
+        caption: "Riad no Marrocos: o pátio de zellige e as poltronas de cedro",
+        alt: "Quatro viajantes em poltronas de cedro no pátio de mosaicos zellige de um riad marroquino, visto do andar de cima",
+      },
+      {
+        src: labibFesRiadSalao.url,
+        caption: "Fez: o salão de estuque rendado e os sofás vermelhos",
+        alt: "Duas viajantes em sofás de veludo vermelho no salão de um riad em Fez, com estuque rendado, zellige e piso de mármore xadrez",
+      },
     ],
+
 
     suggestedCaptions: [],
     photoDirection: "",
