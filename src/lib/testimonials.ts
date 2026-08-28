@@ -87,6 +87,8 @@ import labibCasablancaHassanII from "@/assets/depoimentos/labib-casablanca-mesqu
 import labibFesRiadPatio from "@/assets/depoimentos/labib-fes-riad-patio-mosaicos.jpg.asset.json";
 import labibChefchaouenEscadaria from "@/assets/depoimentos/labib-chefchaouen-escadaria-azul-amigas.jpg.asset.json";
 import labibTafraouteTerraco from "@/assets/depoimentos/labib-tafraoute-terraco-rochas-grupo.jpg.asset.json";
+import labibRiadPatioPoltronas from "@/assets/depoimentos/labib-marrocos-riad-patio-zellige-poltronas.jpg.asset.json";
+import labibFesRiadSalao from "@/assets/depoimentos/labib-fes-riad-salao-estuque-sofas.jpg.asset.json";
 
 export const TESTIMONIALS_DRAFT = true;
 
