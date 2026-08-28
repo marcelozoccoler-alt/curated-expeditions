@@ -73,6 +73,15 @@ import labibAgoraHefesto from "@/assets/depoimentos/labib-atenas-templo-hefesto-
 import labibPiqueniqueJardim from "@/assets/depoimentos/labib-grupo-piquenique-jardim.jpg.asset.json";
 import labibCruzeiroEscadaria from "@/assets/depoimentos/labib-cruzeiro-escadaria-grupo.jpg.asset.json";
 import labibPortaoMadeira from "@/assets/depoimentos/labib-portao-madeira-antigo.jpg.asset.json";
+import labibAtenasRuaErmou from "@/assets/depoimentos/labib-atenas-grupo-rua-ermou.jpg.asset.json";
+import labibIgrejaIconostase from "@/assets/depoimentos/labib-grecia-igreja-iconostase.jpg.asset.json";
+import labibCapadociaCavernaMarcelo from "@/assets/depoimentos/labib-capadocia-caverna-marcelo.jpg.asset.json";
+import labibMykonosBougainvilleBranco from "@/assets/depoimentos/labib-mykonos-bougainville-branco.jpg.asset.json";
+import labibBrindeIgrejaCupula from "@/assets/depoimentos/labib-grecia-brinde-igreja-cupula.jpg.asset.json";
+import labibMykonosBancoBougainvilles from "@/assets/depoimentos/labib-mykonos-banco-bougainvilles.jpg.asset.json";
+import labibSagradaFamiliaVitrais from "@/assets/depoimentos/labib-barcelona-sagrada-familia-vitrais.jpg.asset.json";
+import labibParkGuellAmigas from "@/assets/depoimentos/labib-barcelona-park-guell-amigas.jpg.asset.json";
+import labibPiqueniqueSurpresaMesa from "@/assets/depoimentos/labib-barcelona-piquenique-surpresa-mesa.jpg.asset.json";
 
 export const TESTIMONIALS_DRAFT = true;
 
