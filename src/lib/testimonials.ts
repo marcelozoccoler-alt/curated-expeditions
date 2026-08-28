@@ -644,6 +644,51 @@ export const testimonials: Testimonial[] = [
         caption: "Santorini: a escada de Oia sobre a caldeira",
         alt: "Labib em escadaria branca de Oia, em Santorini, com buganvílias e a caldeira azul do mar Egeu ao fundo",
       },
+      {
+        src: labibBarcelonaBrindeRosinha.url,
+        caption: "Barcelona: o brinde com a Rosinha, onde tudo começou",
+        alt: "Labib e a amiga Rosinha brindando com sangria em mesa de rua diante do Teatre Principal, em Barcelona, Espanha",
+      },
+      {
+        src: labibPortoSaoBento.url,
+        caption: "Porto: os azulejos da estação de São Bento",
+        alt: "Viajante caminhando diante do painel de azulejos azuis do saguão da estação de São Bento, no Porto, Portugal",
+      },
+      {
+        src: labibDouroVinhedos.url,
+        caption: "Douro: os terraços de vinha descendo até o rio",
+        alt: "Encosta de vinhedos em terraços do Vale do Douro vista do rio, com placas de quinta entre as fileiras, em Portugal",
+      },
+      {
+        src: labibVienaBelvedere.url,
+        caption: "Viena: o portão de ferro do Belvedere",
+        alt: "Viajante diante do portão de ferro rendado do Palácio Belvedere, em Viena, com o palácio barroco ao fundo",
+      },
+      {
+        src: labibVienaRelogioAnker.url,
+        caption: "Viena: o relógio Anker esperando a hora cheia",
+        alt: "Relógio Anker em art nouveau sobre a passagem entre edifícios na Hoher Markt, em Viena, Áustria",
+      },
+      {
+        src: labibBudapesteParlamento.url,
+        caption: "Budapeste: o Parlamento aceso sobre o Danúbio",
+        alt: "Parlamento de Budapeste iluminado à noite refletido nas águas do Danúbio, na Hungria",
+      },
+      {
+        src: labibBudapesteMargem.url,
+        caption: "A margem de Buda dourada pela noite",
+        alt: "Edifícios históricos iluminados na margem do Danúbio em Budapeste à noite, com reflexos na água",
+      },
+      {
+        src: labibBudapesteBueiro.url,
+        caption: "O chão de Budapeste também tem ornamento",
+        alt: "Tampa de bueiro em ferro fundido com florais e brasão da cidade, sobre paralelepípedos em Budapeste, Hungria",
+      },
+      {
+        src: labibChileEsqui.url,
+        caption: "Cordilheira chilena: neve, sol e nenhuma pressa",
+        alt: "Labib de roupa de neve em mirante de estação de esqui na cordilheira dos Andes chilenos, com pistas nevadas ao fundo",
+      },
     ],
 
 
