@@ -481,7 +481,7 @@ export const testimonials: Testimonial[] = [
     month: "2015 a 2026",
     verified: true,
     since: "Viaja com a Create Travel desde 2015",
-    countries: ["Espanha", "Portugal", "Grécia", "Turquia", "Marrocos"],
+    countries: ["Espanha", "Portugal", "Grécia", "Turquia", "Marrocos", "Hungria", "Áustria", "Chile"],
     quote:
       "Minha primeira viagem com a Create Travel foi em 2015, com a minha amiga Rosinha: Espanha e Portugal, de trem, só nós duas. Levávamos o livrinho de viagem que eles fizeram para nós — com os mapinhas das ruas, os caminhos, o que ver em cada lugar. Foi assim que chegamos a Toledo, e foi assim que aprendemos a viajar de trem (quase perdemos um, confesso). Em Portugal, o motorista parou num lugar deserto, no meio de uma paisagem lindíssima, e nós duas ficamos com medo: o que ele vai fazer com a gente? Era um piquenique surpresa, só para nós. Até hoje rimos dessa história. Desde então eu viajo todo ano no grupo exclusivo deles, porque sempre tem uma surpresa esperando: um brinde no alto do Lycabettus, em Atenas, um piquenique num oásis do Marrocos, um concerto no Odeon de Herodes Ático aos pés da Acrópole. Eu já não sei viajar de outro jeito.",
     note:
