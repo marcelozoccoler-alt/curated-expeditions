@@ -588,7 +588,18 @@ export const testimonials: Testimonial[] = [
         caption: "Anti-Atlas: o terraço diante das rochas cor de fogo",
         alt: "Grupo de viajantes da Create Travel em terraço marroquino com as rochas rosadas do Anti-Atlas ao fundo, em Tafraoute",
       },
+      {
+        src: labibRiadPatioPoltronas.url,
+        caption: "Riad no Marrocos: o pátio de zellige e as poltronas de cedro",
+        alt: "Quatro viajantes em poltronas de cedro no pátio de mosaicos zellige de um riad marroquino, visto do andar de cima",
+      },
+      {
+        src: labibFesRiadSalao.url,
+        caption: "Fez: o salão de estuque rendado e os sofás vermelhos",
+        alt: "Duas viajantes em sofás de veludo vermelho no salão de um riad em Fez, com estuque rendado, zellige e piso de mármore xadrez",
+      },
     ],
+
 
     suggestedCaptions: [],
     photoDirection: "",
