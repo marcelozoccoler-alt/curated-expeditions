@@ -96,6 +96,15 @@ import labibMarrakechKoutoubia from "@/assets/depoimentos/labib-marrakech-koutou
 import labibSantoriniOia from "@/assets/depoimentos/labib-santorini-oia-caldeira-escadas.jpg.asset.json";
 import taniaVideo4 from "@/assets/depoimentos/tania-istiklal-caminhada-noite.mp4.asset.json";
 import taniaVideo4Poster from "@/assets/depoimentos/tania-istiklal-caminhada-noite-poster.jpg.asset.json";
+import labibBudapesteParlamento from "@/assets/depoimentos/labib-budapeste-parlamento-danubio-noite.jpg.asset.json";
+import labibBudapesteMargem from "@/assets/depoimentos/labib-budapeste-margem-danubio-noite.jpg.asset.json";
+import labibBudapesteBueiro from "@/assets/depoimentos/labib-budapeste-tampa-bueiro-ornamentada.jpg.asset.json";
+import labibVienaRelogioAnker from "@/assets/depoimentos/labib-viena-relogio-anker.jpg.asset.json";
+import labibVienaBelvedere from "@/assets/depoimentos/labib-viena-portao-belvedere.jpg.asset.json";
+import labibChileEsqui from "@/assets/depoimentos/labib-chile-esqui-cordilheira.jpg.asset.json";
+import labibDouroVinhedos from "@/assets/depoimentos/labib-douro-vinhedos-terracos.jpg.asset.json";
+import labibPortoSaoBento from "@/assets/depoimentos/labib-porto-sao-bento-azulejos.jpg.asset.json";
+import labibBarcelonaBrindeRosinha from "@/assets/depoimentos/labib-barcelona-brinde-rosinha.jpg.asset.json";
 
 export const TESTIMONIALS_DRAFT = true;
 
