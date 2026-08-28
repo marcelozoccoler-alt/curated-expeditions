@@ -96,6 +96,15 @@ import labibMarrakechKoutoubia from "@/assets/depoimentos/labib-marrakech-koutou
 import labibSantoriniOia from "@/assets/depoimentos/labib-santorini-oia-caldeira-escadas.jpg.asset.json";
 import taniaVideo4 from "@/assets/depoimentos/tania-istiklal-caminhada-noite.mp4.asset.json";
 import taniaVideo4Poster from "@/assets/depoimentos/tania-istiklal-caminhada-noite-poster.jpg.asset.json";
+import labibBudapesteParlamento from "@/assets/depoimentos/labib-budapeste-parlamento-danubio-noite.jpg.asset.json";
+import labibBudapesteMargem from "@/assets/depoimentos/labib-budapeste-margem-danubio-noite.jpg.asset.json";
+import labibBudapesteBueiro from "@/assets/depoimentos/labib-budapeste-tampa-bueiro-ornamentada.jpg.asset.json";
+import labibVienaRelogioAnker from "@/assets/depoimentos/labib-viena-relogio-anker.jpg.asset.json";
+import labibVienaBelvedere from "@/assets/depoimentos/labib-viena-portao-belvedere.jpg.asset.json";
+import labibChileEsqui from "@/assets/depoimentos/labib-chile-esqui-cordilheira.jpg.asset.json";
+import labibDouroVinhedos from "@/assets/depoimentos/labib-douro-vinhedos-terracos.jpg.asset.json";
+import labibPortoSaoBento from "@/assets/depoimentos/labib-porto-sao-bento-azulejos.jpg.asset.json";
+import labibBarcelonaBrindeRosinha from "@/assets/depoimentos/labib-barcelona-brinde-rosinha.jpg.asset.json";
 
 export const TESTIMONIALS_DRAFT = true;
 
@@ -472,13 +481,13 @@ export const testimonials: Testimonial[] = [
     month: "2015 a 2026",
     verified: true,
     since: "Viaja com a Create Travel desde 2015",
-    countries: ["Espanha", "Portugal", "Grécia", "Turquia", "Marrocos"],
+    countries: ["Espanha", "Portugal", "Grécia", "Turquia", "Marrocos", "Hungria", "Áustria", "Chile"],
     quote:
       "Minha primeira viagem com a Create Travel foi em 2015, com a minha amiga Rosinha: Espanha e Portugal, de trem, só nós duas. Levávamos o livrinho de viagem que eles fizeram para nós — com os mapinhas das ruas, os caminhos, o que ver em cada lugar. Foi assim que chegamos a Toledo, e foi assim que aprendemos a viajar de trem (quase perdemos um, confesso). Em Portugal, o motorista parou num lugar deserto, no meio de uma paisagem lindíssima, e nós duas ficamos com medo: o que ele vai fazer com a gente? Era um piquenique surpresa, só para nós. Até hoje rimos dessa história. Desde então eu viajo todo ano no grupo exclusivo deles, porque sempre tem uma surpresa esperando: um brinde no alto do Lycabettus, em Atenas, um piquenique num oásis do Marrocos, um concerto no Odeon de Herodes Ático aos pés da Acrópole. Eu já não sei viajar de outro jeito.",
     note:
       "A Labib está com a gente desde 2015 — foi uma das primeiras a receber o livrinho de viagem artesanal da Create Travel, com mapas de rua desenhados à mão e caminhadas sugeridas quarteirão por quarteirão. Aquela viagem de trem por Espanha e Portugal com a amiga Rosinha estabeleceu o que a gente faz até hoje: preparar a viagem para que a viajante possa se perder de propósito, sem nunca ficar sem rede. O piquenique surpresa em Portugal virou lenda interna, junto com o susto no carro. Nos grupos anuais, a Labib é quem espera pela surpresa — e é por ela, entre outras, que a gente continua desenhando o brinde no morro, o piquenique no oásis, o concerto ao pé da Acrópole. — Marcelo Zoccoler",
     photoStory:
-      "As fotos da Labib atravessam onze anos sem perder o mesmo sorriso — e revelam um gosto muito claro: hospedagem com alma e uma pitada de aventura. Riads de verdade no Marrocos, com pátio de zellige, poltronas de cedro e chá servido embaixo do estuque rendado; hotel escavado na rocha na Capadócia, onde o quarto é caverna e a manhã começa com quadriciclo pelos vales antes do voo de balão. Na Grécia, o grupo reunido ao pé do campanário quando o céu de Atenas fica laranja, a mesa longa de taças e risos num jantar que ninguém quis encerrar, e o Templo de Hefesto na Ágora recortado pela luz dura do meio-dia. À noite, o Odeon de Herodes Ático iluminado por trás, pedra sobre pedra, aos pés da Acrópole. Na Turquia, o grupo de capacete antes dos quadriciclos e o silêncio da Casa da Virgem Maria, em Éfeso, sob o plátano centenário. Tem ainda o piquenique no jardim, as fotos penduradas na árvore como bandeirinhas, a escadaria dourada do navio, o brinde na mesa longa a bordo — e uma porta antiga enorme, que ela abre como quem já sabe que atrás dela tem história. Em Atenas, o grupo inteiro na Ermou com uma igreja bizantina ao fundo, o brinde diante da capela de cúpula azul, o iconostase entalhado guardando o silêncio de dentro. Em Mykonos, cal, buganvília e vinho esperando num pátio, e um banco branco entre portas azuis quando a noite chega. No Marrocos, o mármore fresco da Mesquita Hassan II debaixo dos pés em Casablanca, os pátios dos riads vistos de cima em Fez, as escadarias azuis de Chefchaouen combinando com o laranja do vestido dela e o terraço do Anti-Atlas diante das rochas cor de fogo. Em Barcelona, as amigas na entrada do Park Güell, a luz colorida dos vitrais da Sagrada Família e a toalha quadriculada de outro piquenique surpresa — porque, com a Labib, sempre tem mais um. E ainda tem Marrakech e Santorini: a escadaria de mármore da Mesquita Hassan II com o grupo inteiro sentado sob o arco de arabescos, as portas monumentais de bronze que só cedem quando todas empurram juntas, a toalha bordada do Riad Tahra anunciando o hammam do fim da tarde, o minarete da Koutoubia aceso na noite vista pela janela do carro — e, no Egeu, a escada branca de Oia descendo para a caldeira azul, buganvília de um lado, mar do outro.",
+      "As fotos da Labib atravessam onze anos sem perder o mesmo sorriso — e revelam um gosto muito claro: hospedagem com alma e uma pitada de aventura. Riads de verdade no Marrocos, com pátio de zellige, poltronas de cedro e chá servido embaixo do estuque rendado; hotel escavado na rocha na Capadócia, onde o quarto é caverna e a manhã começa com quadriciclo pelos vales antes do voo de balão. Na Grécia, o grupo reunido ao pé do campanário quando o céu de Atenas fica laranja, a mesa longa de taças e risos num jantar que ninguém quis encerrar, e o Templo de Hefesto na Ágora recortado pela luz dura do meio-dia. À noite, o Odeon de Herodes Ático iluminado por trás, pedra sobre pedra, aos pés da Acrópole. Na Turquia, o grupo de capacete antes dos quadriciclos e o silêncio da Casa da Virgem Maria, em Éfeso, sob o plátano centenário. Tem ainda o piquenique no jardim, as fotos penduradas na árvore como bandeirinhas, a escadaria dourada do navio, o brinde na mesa longa a bordo — e uma porta antiga enorme, que ela abre como quem já sabe que atrás dela tem história. Em Atenas, o grupo inteiro na Ermou com uma igreja bizantina ao fundo, o brinde diante da capela de cúpula azul, o iconostase entalhado guardando o silêncio de dentro. Em Mykonos, cal, buganvília e vinho esperando num pátio, e um banco branco entre portas azuis quando a noite chega. No Marrocos, o mármore fresco da Mesquita Hassan II debaixo dos pés em Casablanca, os pátios dos riads vistos de cima em Fez, as escadarias azuis de Chefchaouen combinando com o laranja do vestido dela e o terraço do Anti-Atlas diante das rochas cor de fogo. Em Barcelona, as amigas na entrada do Park Güell, a luz colorida dos vitrais da Sagrada Família e a toalha quadriculada de outro piquenique surpresa — porque, com a Labib, sempre tem mais um. E ainda tem Marrakech e Santorini: a escadaria de mármore da Mesquita Hassan II com o grupo inteiro sentado sob o arco de arabescos, as portas monumentais de bronze que só cedem quando todas empurram juntas, a toalha bordada do Riad Tahra anunciando o hammam do fim da tarde, o minarete da Koutoubia aceso na noite vista pela janela do carro — e, no Egeu, a escada branca de Oia descendo para a caldeira azul, buganvília de um lado, mar do outro. E o álbum ainda guarda o começo e os desvios: o brinde com a Rosinha numa mesa de rua diante do Teatre Principal, em Barcelona, na primeira viagem de 2015; os azulejos azuis do saguão de São Bento, no Porto, e os terraços de vinha do Douro descendo até o rio como degraus de pedra. Depois, a Europa central em outro compasso: o portão de ferro rendado do Belvedere em Viena, o relógio Anker esperando a hora cheia sobre a rua, o Parlamento de Budapeste aceso derretendo no Danúbio, a margem inteira dourada de luz — e até uma tampa de bueiro com brasão e florais, porque quem já viajou tanto aprendeu que o chão também tem ornamento. E, do outro lado do mundo, a cordilheira chilena: neve, sol alto e nenhuma pressa.",
     photos: [
       {
         src: labibGrupoCampanario.url,
@@ -634,6 +643,51 @@ export const testimonials: Testimonial[] = [
         src: labibSantoriniOia.url,
         caption: "Santorini: a escada de Oia sobre a caldeira",
         alt: "Labib em escadaria branca de Oia, em Santorini, com buganvílias e a caldeira azul do mar Egeu ao fundo",
+      },
+      {
+        src: labibBarcelonaBrindeRosinha.url,
+        caption: "Barcelona: o brinde com a Rosinha, onde tudo começou",
+        alt: "Labib e a amiga Rosinha brindando com sangria em mesa de rua diante do Teatre Principal, em Barcelona, Espanha",
+      },
+      {
+        src: labibPortoSaoBento.url,
+        caption: "Porto: os azulejos da estação de São Bento",
+        alt: "Viajante caminhando diante do painel de azulejos azuis do saguão da estação de São Bento, no Porto, Portugal",
+      },
+      {
+        src: labibDouroVinhedos.url,
+        caption: "Douro: os terraços de vinha descendo até o rio",
+        alt: "Encosta de vinhedos em terraços do Vale do Douro vista do rio, com placas de quinta entre as fileiras, em Portugal",
+      },
+      {
+        src: labibVienaBelvedere.url,
+        caption: "Viena: o portão de ferro do Belvedere",
+        alt: "Viajante diante do portão de ferro rendado do Palácio Belvedere, em Viena, com o palácio barroco ao fundo",
+      },
+      {
+        src: labibVienaRelogioAnker.url,
+        caption: "Viena: o relógio Anker esperando a hora cheia",
+        alt: "Relógio Anker em art nouveau sobre a passagem entre edifícios na Hoher Markt, em Viena, Áustria",
+      },
+      {
+        src: labibBudapesteParlamento.url,
+        caption: "Budapeste: o Parlamento aceso sobre o Danúbio",
+        alt: "Parlamento de Budapeste iluminado à noite refletido nas águas do Danúbio, na Hungria",
+      },
+      {
+        src: labibBudapesteMargem.url,
+        caption: "A margem de Buda dourada pela noite",
+        alt: "Edifícios históricos iluminados na margem do Danúbio em Budapeste à noite, com reflexos na água",
+      },
+      {
+        src: labibBudapesteBueiro.url,
+        caption: "O chão de Budapeste também tem ornamento",
+        alt: "Tampa de bueiro em ferro fundido com florais e brasão da cidade, sobre paralelepípedos em Budapeste, Hungria",
+      },
+      {
+        src: labibChileEsqui.url,
+        caption: "Cordilheira chilena: neve, sol e nenhuma pressa",
+        alt: "Labib de roupa de neve em mirante de estação de esqui na cordilheira dos Andes chilenos, com pistas nevadas ao fundo",
       },
     ],
 
