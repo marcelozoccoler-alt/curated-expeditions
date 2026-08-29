@@ -112,6 +112,12 @@ import labibToledoSanJuan from "@/assets/depoimentos/labib-toledo-san-juan-de-lo
 import labibDomQuixote from "@/assets/depoimentos/labib-espanha-dom-quixote-loja.jpg.asset.json";
 import labibVienaGrinzing from "@/assets/depoimentos/labib-viena-grinzing-rua-taverna.jpg.asset.json";
 import labibVienaBelvedereJardim from "@/assets/depoimentos/labib-viena-belvedere-jardim-espelho.jpg.asset.json";
+import labibVienaHofburg from "@/assets/depoimentos/labib-viena-hofburg-fiacres.jpg.asset.json";
+import labibParisArco from "@/assets/depoimentos/labib-paris-arco-do-triunfo-amigas.jpg.asset.json";
+import labibParisMoulinRouge from "@/assets/depoimentos/labib-paris-moulin-rouge-montmartre.jpg.asset.json";
+import labibNyLiberdadeAmigas from "@/assets/depoimentos/labib-nova-york-estatua-liberdade-amigas.jpg.asset.json";
+import labibNyLiberdadeBracos from "@/assets/depoimentos/labib-nova-york-estatua-liberdade-bracos-abertos.jpg.asset.json";
+import labibChileEsquiFamilia from "@/assets/depoimentos/labib-chile-esqui-familia-neve.jpg.asset.json";
 
 export const TESTIMONIALS_DRAFT = true;
 
