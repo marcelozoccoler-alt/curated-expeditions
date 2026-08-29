@@ -723,6 +723,12 @@ export const testimonials: Testimonial[] = [
         alt: "Fachada gótica isabelina do Mosteiro de San Juan de los Reyes, em Toledo, Espanha, sob céu azul",
       },
       {
+        src: labibToledoRua.url,
+        caption: "Toledo: as ruas de pedra na manhã silenciosa",
+        alt: "Rua estreita de pedra em Toledo, Espanha, com sacadas de ferro, lojas de artesanato e luz da manhã",
+      },
+
+      {
         src: labibDomQuixote.url,
         caption: "Espanha: posando com Dom Quixote na calçada",
         alt: "Viajante posando ao lado de estátuas de Dom Quixote e Sancho Pança na porta de uma loja de suvenires na Espanha",
