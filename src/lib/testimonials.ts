@@ -109,6 +109,27 @@ import labibSevilhaBancoAlmeria from "@/assets/depoimentos/labib-sevilha-plaza-e
 import labibSevilhaAmigas from "@/assets/depoimentos/labib-sevilha-plaza-espana-amigas.jpg.asset.json";
 import labibSevilhaPraca from "@/assets/depoimentos/labib-sevilha-plaza-espana-praca.jpg.asset.json";
 import labibToledoSanJuan from "@/assets/depoimentos/labib-toledo-san-juan-de-los-reyes.jpg.asset.json";
+import labibToledoRua from "@/assets/depoimentos/labib-toledo-rua-medieval.jpg.asset.json";
+import labibBudapesteBastiao from "@/assets/depoimentos/labib-budapeste-bastiao-pescadores-parlamento.jpg.asset.json";
+import labibBudapesteCastelo from "@/assets/depoimentos/labib-budapeste-castelo-buda-noite.jpg.asset.json";
+import labibBudapesteFachadaNoite from "@/assets/depoimentos/labib-budapeste-margem-danubio-fachada-iluminada.jpg.asset.json";
+import labibPragaTyn from "@/assets/depoimentos/labib-praga-torres-igreja-tyn-poente.jpg.asset.json";
+import labibBudapesteSinagoga from "@/assets/depoimentos/labib-budapeste-grande-sinagoga.jpg.asset.json";
+import labibKrumlovRio from "@/assets/depoimentos/labib-cesky-krumlov-rio-vltava.jpg.asset.json";
+import labibKrumlovAmigas from "@/assets/depoimentos/labib-cesky-krumlov-amigas-castelo.jpg.asset.json";
+import labibNotreDame from "@/assets/depoimentos/labib-paris-notre-dame-fachada.jpg.asset.json";
+import labibEiffelPonte from "@/assets/depoimentos/labib-paris-torre-eiffel-pont-alexandre.jpg.asset.json";
+import labibBerlimMuro from "@/assets/depoimentos/labib-berlim-east-side-gallery-muro.jpg.asset.json";
+import labibMarrakechJardim from "@/assets/depoimentos/labib-marrakech-jardim-palmeiras-fonte.jpg.asset.json";
+import labibMarrocosPorta from "@/assets/depoimentos/labib-marrocos-porta-azulejos-medina.jpg.asset.json";
+import labibHassanInterior from "@/assets/depoimentos/labib-casablanca-hassan-ii-interior-grupo.jpg.asset.json";
+import labibHassanSelfie from "@/assets/depoimentos/labib-casablanca-hassan-ii-selfie-grupo.jpg.asset.json";
+import labibParisArcoInverno from "@/assets/depoimentos/labib-paris-arco-triunfo-inverno.jpg.asset.json";
+import labibMercadoNatal from "@/assets/depoimentos/labib-europa-mercado-natal-papai-noel.jpg.asset.json";
+import labibEiffelInverno from "@/assets/depoimentos/labib-paris-torre-eiffel-inverno.jpg.asset.json";
+import labibSantaSofiaAmigas from "@/assets/depoimentos/labib-istambul-santa-sofia-interior-amigas.jpg.asset.json";
+
+
 import labibDomQuixote from "@/assets/depoimentos/labib-espanha-dom-quixote-loja.jpg.asset.json";
 import labibVienaGrinzing from "@/assets/depoimentos/labib-viena-grinzing-rua-taverna.jpg.asset.json";
 import labibVienaBelvedereJardim from "@/assets/depoimentos/labib-viena-belvedere-jardim-espelho.jpg.asset.json";
@@ -503,6 +524,37 @@ export const testimonials: Testimonial[] = [
       "As fotos da Labib atravessam onze anos sem perder o mesmo sorriso — e revelam um gosto muito claro: hospedagem com alma e uma pitada de aventura. Riads de verdade no Marrocos, com pátio de zellige, poltronas de cedro e chá servido embaixo do estuque rendado; hotel escavado na rocha na Capadócia, onde o quarto é caverna e a manhã começa com quadriciclo pelos vales antes do voo de balão. Na Grécia, o grupo reunido ao pé do campanário quando o céu de Atenas fica laranja, a mesa longa de taças e risos num jantar que ninguém quis encerrar, e o Templo de Hefesto na Ágora recortado pela luz dura do meio-dia. À noite, o Odeon de Herodes Ático iluminado por trás, pedra sobre pedra, aos pés da Acrópole. Na Turquia, o grupo de capacete antes dos quadriciclos e o silêncio da Casa da Virgem Maria, em Éfeso, sob o plátano centenário. Tem ainda o piquenique no jardim, as fotos penduradas na árvore como bandeirinhas, a escadaria dourada do navio, o brinde na mesa longa a bordo — e uma porta antiga enorme, que ela abre como quem já sabe que atrás dela tem história. Em Atenas, o grupo inteiro na Ermou com uma igreja bizantina ao fundo, o brinde diante da capela de cúpula azul, o iconostase entalhado guardando o silêncio de dentro. Em Mykonos, cal, buganvília e vinho esperando num pátio, e um banco branco entre portas azuis quando a noite chega. No Marrocos, o mármore fresco da Mesquita Hassan II debaixo dos pés em Casablanca, os pátios dos riads vistos de cima em Fez, as escadarias azuis de Chefchaouen combinando com o laranja do vestido dela e o terraço do Anti-Atlas diante das rochas cor de fogo. Em Barcelona, as amigas na entrada do Park Güell, a luz colorida dos vitrais da Sagrada Família e a toalha quadriculada de outro piquenique surpresa — porque, com a Labib, sempre tem mais um. E ainda tem Marrakech e Santorini: a escadaria de mármore da Mesquita Hassan II com o grupo inteiro sentado sob o arco de arabescos, as portas monumentais de bronze que só cedem quando todas empurram juntas, a toalha bordada do Riad Tahra anunciando o hammam do fim da tarde, o minarete da Koutoubia aceso na noite vista pela janela do carro — e, no Egeu, a escada branca de Oia descendo para a caldeira azul, buganvília de um lado, mar do outro. E o álbum ainda guarda o começo e os desvios: o brinde com a Rosinha numa mesa de rua diante do Teatre Principal, em Barcelona, na primeira viagem de 2015; os azulejos azuis do saguão de São Bento, no Porto, e os terraços de vinha do Douro descendo até o rio como degraus de pedra. Depois, a Europa central em outro compasso: o portão de ferro rendado do Belvedere em Viena, o relógio Anker esperando a hora cheia sobre a rua, o Parlamento de Budapeste aceso derretendo no Danúbio, a margem inteira dourada de luz — e até uma tampa de bueiro com brasão e florais, porque quem já viajou tanto aprendeu que o chão também tem ornamento. E, do outro lado do mundo, a cordilheira chilena: neve, sol alto e nenhuma pressa. Da Espanha dos primeiros dias ficaram a Plaza de España de Sevilha com as duas amigas lado a lado, o banco de azulejos pintados de Almería — uma província por banco, e ela escolheu onde sentar —, a praça inteira aberta ao meio-dia, a fachada gótica de San Juan de los Reyes em Toledo e um Dom Quixote de calçada que pediu foto. Em Viena, o Belvedere se dobrando inteiro no espelho de água do jardim e a rua das tavernas com lanternas de ferro acendendo ao fim da tarde. Fecham o álbum os fiacres de cavalos brancos parados diante da cúpula verde do Hofburg, Paris em dois tempos — as duas amigas lado a lado no Arco do Triunfo e o moinho vermelho do Moulin Rouge em Montmartre —, o inverno de Nova York aos pés da Estátua da Liberdade, lenço vermelho e braços abertos como quem finalmente chegou, e a neve dos Andes chilenos dividida com filhos e netos, todos de óculos espelhados contra o sol alto da cordilheira.",
     photos: [
       {
+        src: labibBudapesteCastelo.url,
+        caption: "Budapeste: o Castelo de Buda aceso sobre o Danúbio",
+        alt: "Castelo de Buda iluminado em dourado à noite, visto do rio Danúbio, em Budapeste, Hungria",
+      },
+      {
+        src: labibBudapesteBastiao.url,
+        caption: "Bastião dos Pescadores: o Parlamento entre dois arcos",
+        alt: "Viajante sentada nos arcos do Bastião dos Pescadores com o Parlamento húngaro e o Danúbio ao fundo, Budapeste",
+      },
+      {
+        src: labibPragaTyn.url,
+        caption: "Praga: as torres da Igreja de Týn acesas pelo poente",
+        alt: "Torres góticas da Igreja de Nossa Senhora de Týn douradas pela luz do fim de tarde, em Praga",
+      },
+      {
+        src: labibKrumlovRio.url,
+        caption: "Český Krumlov: o Vltava contornando os telhados vermelhos",
+        alt: "Vista de cima do rio Vltava serpenteando entre casas de telhado vermelho em Český Krumlov, Tchéquia",
+      },
+      {
+        src: labibSantaSofiaAmigas.url,
+        caption: "Istambul: sob as cúpulas de Santa Sofia",
+        alt: "Duas viajantes de lenço na cabeça sob as cúpulas e lustres dourados de Santa Sofia, em Istambul",
+      },
+      {
+        src: labibEiffelInverno.url,
+        caption: "Paris no inverno: a Torre Eiffel só para ela",
+        alt: "Viajante de casaco claro e lenço vermelho diante da Torre Eiffel sob céu azul de inverno, em Paris",
+      },
+
+      {
         src: labibGrupoCampanario.url,
         caption: "Grécia: o grupo reunido quando o céu virou laranja",
         alt: "Grupo de viajantes da Create Travel reunido diante de campanário de pedra iluminado ao poente, na Grécia",
@@ -722,6 +774,73 @@ export const testimonials: Testimonial[] = [
         caption: "Toledo: a fachada de San Juan de los Reyes",
         alt: "Fachada gótica isabelina do Mosteiro de San Juan de los Reyes, em Toledo, Espanha, sob céu azul",
       },
+      {
+        src: labibToledoRua.url,
+        caption: "Toledo: as ruas de pedra na manhã silenciosa",
+        alt: "Rua estreita de pedra em Toledo, Espanha, com sacadas de ferro, lojas de artesanato e luz da manhã",
+      },
+      {
+        src: labibKrumlovAmigas.url,
+        caption: "Český Krumlov: as amigas com o castelo atrás",
+        alt: "Duas viajantes sorrindo em mirante de Český Krumlov com a torre do castelo e os telhados da vila ao fundo",
+      },
+      {
+        src: labibBudapesteSinagoga.url,
+        caption: "Budapeste: a Grande Sinagoga da rua Dohány",
+        alt: "Fachada mourisca da Grande Sinagoga de Budapeste, com torres de cúpula em cebola e rosácea central",
+      },
+      {
+        src: labibBudapesteFachadaNoite.url,
+        caption: "A margem do Danúbio inteira acesa depois do jantar",
+        alt: "Palácio histórico iluminado na margem do Danúbio à noite, refletido na água, em Budapeste",
+      },
+      {
+        src: labibNotreDame.url,
+        caption: "Paris: Notre-Dame antes das obras",
+        alt: "Fachada gótica da Catedral de Notre-Dame de Paris com a rosácea central e as duas torres",
+      },
+      {
+        src: labibEiffelPonte.url,
+        caption: "Do Sena: os anjos dourados e a torre ao fundo",
+        alt: "Estátuas douradas da Pont Alexandre III com a Torre Eiffel ao fundo, vistas de um barco no Sena, Paris",
+      },
+      {
+        src: labibParisArcoInverno.url,
+        caption: "Arco do Triunfo em manhã fria de janeiro",
+        alt: "Viajante de casaco claro diante do Arco do Triunfo em Paris, em manhã de inverno com céu azul",
+      },
+      {
+        src: labibMercadoNatal.url,
+        caption: "Mercado de Natal: pinheiros nevados e o velho papai noel",
+        alt: "Viajante de casaco claro ao lado de figura de papai noel entre pinheiros nevados em mercado de Natal europeu",
+      },
+      {
+        src: labibBerlimMuro.url,
+        caption: "Berlim: o muro que virou galeria a céu aberto",
+        alt: "Viajante de vestido vermelho diante de mural colorido da East Side Gallery, no Muro de Berlim",
+      },
+      {
+        src: labibHassanInterior.url,
+        caption: "Casablanca: o grupo sob o teto de cedro da Hassan II",
+        alt: "Grupo de viajantes reunido no interior da Mesquita Hassan II, em Casablanca, sob teto de cedro entalhado",
+      },
+      {
+        src: labibHassanSelfie.url,
+        caption: "A selfie que ninguém queria perder, dentro da mesquita",
+        alt: "Selfie de grupo de viajantes com lenços na cabeça no interior da Mesquita Hassan II, em Casablanca",
+      },
+      {
+        src: labibMarrakechJardim.url,
+        caption: "Marrakech: o jardim de palmeiras e o tanque verde",
+        alt: "Viajante de vestido rosa em jardim marroquino com palmeiras, buganvílias e fonte revestida de azulejo verde",
+      },
+      {
+        src: labibMarrocosPorta.url,
+        caption: "Uma porta de cravos e azulejos na medina branca",
+        alt: "Viajante sentada na soleira de porta antiga de madeira com cravos e moldura de azulejos, em medina marroquina",
+      },
+
+
       {
         src: labibDomQuixote.url,
         caption: "Espanha: posando com Dom Quixote na calçada",
