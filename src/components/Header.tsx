@@ -322,22 +322,27 @@ export const Header = () => {
             initial={{ opacity: 0, height: 0 }}
             animate={{ opacity: 1, height: "auto" }}
             exit={{ opacity: 0, height: 0 }}
-            className="lg:hidden bg-background border-t border-border"
+            className="lg:hidden bg-background border-t border-border max-h-[calc(100vh-6rem)] overflow-y-auto"
           >
             <nav className="container-editorial py-6 flex flex-col gap-4">
-              {allNavItems.map((item) => (
-                <Link
-                  key={item.href}
-                  to={item.href}
-                  className={`text-base font-medium py-2 transition-colors hover:text-gold ${
-                    location.pathname.startsWith(item.href)
-                      ? "text-gold"
-                      : "text-foreground"
-                  }`}
-                >
-                  {item.label}
-                </Link>
-              ))}
+              {allNavItems.map((item) => {
+                const isDepoimentos = item.href === "/depoimentos";
+                return (
+                  <Link
+                    key={item.href}
+                    to={item.href}
+                    className={`text-base font-medium py-2 transition-colors hover:text-gold ${
+                      isDepoimentos
+                        ? "inline-flex items-center gap-2 rounded-lg border border-gold/50 bg-gold/10 px-4 text-gold"
+                        : location.pathname.startsWith(item.href)
+                          ? "text-gold"
+                          : "text-foreground"
+                    }`}
+                  >
+                    {item.label}
+                  </Link>
+                );
+              })}
               <a
                 href={whatsappLink}
                 target="_blank"
