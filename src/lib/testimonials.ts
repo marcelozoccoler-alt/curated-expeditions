@@ -109,6 +109,8 @@ import labibSevilhaBancoAlmeria from "@/assets/depoimentos/labib-sevilha-plaza-e
 import labibSevilhaAmigas from "@/assets/depoimentos/labib-sevilha-plaza-espana-amigas.jpg.asset.json";
 import labibSevilhaPraca from "@/assets/depoimentos/labib-sevilha-plaza-espana-praca.jpg.asset.json";
 import labibToledoSanJuan from "@/assets/depoimentos/labib-toledo-san-juan-de-los-reyes.jpg.asset.json";
+import labibToledoRua from "@/assets/depoimentos/labib-toledo-rua-medieval.jpg.asset.json";
+
 import labibDomQuixote from "@/assets/depoimentos/labib-espanha-dom-quixote-loja.jpg.asset.json";
 import labibVienaGrinzing from "@/assets/depoimentos/labib-viena-grinzing-rua-taverna.jpg.asset.json";
 import labibVienaBelvedereJardim from "@/assets/depoimentos/labib-viena-belvedere-jardim-espelho.jpg.asset.json";
