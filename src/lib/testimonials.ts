@@ -737,6 +737,36 @@ export const testimonials: Testimonial[] = [
         caption: "Viena: a rua das tavernas ao cair da tarde",
         alt: "Labib na calçada de uma rua de tavernas vienenses com lanternas de ferro e fachadas amarelas, ao fim da tarde",
       },
+      {
+        src: labibVienaHofburg.url,
+        caption: "Viena: os fiacres esperando na porta do Hofburg",
+        alt: "Fachada barroca do Palácio Hofburg em Viena com cúpula verde e fiacres de cavalos brancos esperando na praça",
+      },
+      {
+        src: labibParisArco.url,
+        caption: "Paris: as duas amigas no Arco do Triunfo",
+        alt: "Labib e a amiga sorrindo diante do Arco do Triunfo, em Paris, com ônibus turístico ao fundo",
+      },
+      {
+        src: labibParisMoulinRouge.url,
+        caption: "Montmartre: o moinho vermelho do Moulin Rouge",
+        alt: "Viajante atravessando a rua diante da fachada vermelha e do moinho do Moulin Rouge, em Montmartre, Paris",
+      },
+      {
+        src: labibNyLiberdadeAmigas.url,
+        caption: "Nova York: as amigas aos pés da Estátua da Liberdade",
+        alt: "Labib e a amiga com lenço vermelho posando aos pés da Estátua da Liberdade, em Nova York, sob céu azul de inverno",
+      },
+      {
+        src: labibNyLiberdadeBracos.url,
+        caption: "Liberty Island: braços abertos, como quem chegou",
+        alt: "Viajante de braços abertos diante do pedestal da Estátua da Liberdade em Liberty Island, Nova York",
+      },
+      {
+        src: labibChileEsquiFamilia.url,
+        caption: "Andes chilenos: a neve dividida com a família",
+        alt: "Família em roupas de neve e óculos de esqui em mirante de estação nos Andes chilenos, com montanhas nevadas ao fundo",
+      },
     ],
 
 
