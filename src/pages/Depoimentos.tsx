@@ -278,7 +278,7 @@ const Depoimentos = () => {
                       {[...(t.video ? [t.video] : []), ...(t.videos ?? [])].map((v) => (
                         <figure
                           key={v.src}
-                          className="mt-6 overflow-hidden rounded-sm ring-1 ring-gold/30"
+                          className="mt-6 overflow-hidden rounded-sm ring-1 ring-gold/30 md:max-w-2xl lg:max-w-3xl md:mx-auto"
                         >
                           <video
                             src={v.src}
@@ -286,7 +286,7 @@ const Depoimentos = () => {
                             controls
                             playsInline
                             preload="metadata"
-                            className="block w-full bg-primary"
+                            className="block w-full bg-primary max-h-[70vh] md:max-h-[520px] object-contain"
                           />
                           <figcaption className="bg-primary px-4 py-3 font-serif text-xs italic text-primary-foreground/85">
                             {v.caption}
