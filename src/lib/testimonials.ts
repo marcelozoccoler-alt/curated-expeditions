@@ -524,6 +524,37 @@ export const testimonials: Testimonial[] = [
       "As fotos da Labib atravessam onze anos sem perder o mesmo sorriso — e revelam um gosto muito claro: hospedagem com alma e uma pitada de aventura. Riads de verdade no Marrocos, com pátio de zellige, poltronas de cedro e chá servido embaixo do estuque rendado; hotel escavado na rocha na Capadócia, onde o quarto é caverna e a manhã começa com quadriciclo pelos vales antes do voo de balão. Na Grécia, o grupo reunido ao pé do campanário quando o céu de Atenas fica laranja, a mesa longa de taças e risos num jantar que ninguém quis encerrar, e o Templo de Hefesto na Ágora recortado pela luz dura do meio-dia. À noite, o Odeon de Herodes Ático iluminado por trás, pedra sobre pedra, aos pés da Acrópole. Na Turquia, o grupo de capacete antes dos quadriciclos e o silêncio da Casa da Virgem Maria, em Éfeso, sob o plátano centenário. Tem ainda o piquenique no jardim, as fotos penduradas na árvore como bandeirinhas, a escadaria dourada do navio, o brinde na mesa longa a bordo — e uma porta antiga enorme, que ela abre como quem já sabe que atrás dela tem história. Em Atenas, o grupo inteiro na Ermou com uma igreja bizantina ao fundo, o brinde diante da capela de cúpula azul, o iconostase entalhado guardando o silêncio de dentro. Em Mykonos, cal, buganvília e vinho esperando num pátio, e um banco branco entre portas azuis quando a noite chega. No Marrocos, o mármore fresco da Mesquita Hassan II debaixo dos pés em Casablanca, os pátios dos riads vistos de cima em Fez, as escadarias azuis de Chefchaouen combinando com o laranja do vestido dela e o terraço do Anti-Atlas diante das rochas cor de fogo. Em Barcelona, as amigas na entrada do Park Güell, a luz colorida dos vitrais da Sagrada Família e a toalha quadriculada de outro piquenique surpresa — porque, com a Labib, sempre tem mais um. E ainda tem Marrakech e Santorini: a escadaria de mármore da Mesquita Hassan II com o grupo inteiro sentado sob o arco de arabescos, as portas monumentais de bronze que só cedem quando todas empurram juntas, a toalha bordada do Riad Tahra anunciando o hammam do fim da tarde, o minarete da Koutoubia aceso na noite vista pela janela do carro — e, no Egeu, a escada branca de Oia descendo para a caldeira azul, buganvília de um lado, mar do outro. E o álbum ainda guarda o começo e os desvios: o brinde com a Rosinha numa mesa de rua diante do Teatre Principal, em Barcelona, na primeira viagem de 2015; os azulejos azuis do saguão de São Bento, no Porto, e os terraços de vinha do Douro descendo até o rio como degraus de pedra. Depois, a Europa central em outro compasso: o portão de ferro rendado do Belvedere em Viena, o relógio Anker esperando a hora cheia sobre a rua, o Parlamento de Budapeste aceso derretendo no Danúbio, a margem inteira dourada de luz — e até uma tampa de bueiro com brasão e florais, porque quem já viajou tanto aprendeu que o chão também tem ornamento. E, do outro lado do mundo, a cordilheira chilena: neve, sol alto e nenhuma pressa. Da Espanha dos primeiros dias ficaram a Plaza de España de Sevilha com as duas amigas lado a lado, o banco de azulejos pintados de Almería — uma província por banco, e ela escolheu onde sentar —, a praça inteira aberta ao meio-dia, a fachada gótica de San Juan de los Reyes em Toledo e um Dom Quixote de calçada que pediu foto. Em Viena, o Belvedere se dobrando inteiro no espelho de água do jardim e a rua das tavernas com lanternas de ferro acendendo ao fim da tarde. Fecham o álbum os fiacres de cavalos brancos parados diante da cúpula verde do Hofburg, Paris em dois tempos — as duas amigas lado a lado no Arco do Triunfo e o moinho vermelho do Moulin Rouge em Montmartre —, o inverno de Nova York aos pés da Estátua da Liberdade, lenço vermelho e braços abertos como quem finalmente chegou, e a neve dos Andes chilenos dividida com filhos e netos, todos de óculos espelhados contra o sol alto da cordilheira.",
     photos: [
       {
+        src: labibBudapesteCastelo.url,
+        caption: "Budapeste: o Castelo de Buda aceso sobre o Danúbio",
+        alt: "Castelo de Buda iluminado em dourado à noite, visto do rio Danúbio, em Budapeste, Hungria",
+      },
+      {
+        src: labibBudapesteBastiao.url,
+        caption: "Bastião dos Pescadores: o Parlamento entre dois arcos",
+        alt: "Viajante sentada nos arcos do Bastião dos Pescadores com o Parlamento húngaro e o Danúbio ao fundo, Budapeste",
+      },
+      {
+        src: labibPragaTyn.url,
+        caption: "Praga: as torres da Igreja de Týn acesas pelo poente",
+        alt: "Torres góticas da Igreja de Nossa Senhora de Týn douradas pela luz do fim de tarde, em Praga",
+      },
+      {
+        src: labibKrumlovRio.url,
+        caption: "Český Krumlov: o Vltava contornando os telhados vermelhos",
+        alt: "Vista de cima do rio Vltava serpenteando entre casas de telhado vermelho em Český Krumlov, Tchéquia",
+      },
+      {
+        src: labibSantaSofiaAmigas.url,
+        caption: "Istambul: sob as cúpulas de Santa Sofia",
+        alt: "Duas viajantes de lenço na cabeça sob as cúpulas e lustres dourados de Santa Sofia, em Istambul",
+      },
+      {
+        src: labibEiffelInverno.url,
+        caption: "Paris no inverno: a Torre Eiffel só para ela",
+        alt: "Viajante de casaco claro e lenço vermelho diante da Torre Eiffel sob céu azul de inverno, em Paris",
+      },
+
+      {
         src: labibGrupoCampanario.url,
         caption: "Grécia: o grupo reunido quando o céu virou laranja",
         alt: "Grupo de viajantes da Create Travel reunido diante de campanário de pedra iluminado ao poente, na Grécia",
