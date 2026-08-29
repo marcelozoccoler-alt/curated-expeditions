@@ -779,6 +779,67 @@ export const testimonials: Testimonial[] = [
         caption: "Toledo: as ruas de pedra na manhã silenciosa",
         alt: "Rua estreita de pedra em Toledo, Espanha, com sacadas de ferro, lojas de artesanato e luz da manhã",
       },
+      {
+        src: labibKrumlovAmigas.url,
+        caption: "Český Krumlov: as amigas com o castelo atrás",
+        alt: "Duas viajantes sorrindo em mirante de Český Krumlov com a torre do castelo e os telhados da vila ao fundo",
+      },
+      {
+        src: labibBudapesteSinagoga.url,
+        caption: "Budapeste: a Grande Sinagoga da rua Dohány",
+        alt: "Fachada mourisca da Grande Sinagoga de Budapeste, com torres de cúpula em cebola e rosácea central",
+      },
+      {
+        src: labibBudapesteFachadaNoite.url,
+        caption: "A margem do Danúbio inteira acesa depois do jantar",
+        alt: "Palácio histórico iluminado na margem do Danúbio à noite, refletido na água, em Budapeste",
+      },
+      {
+        src: labibNotreDame.url,
+        caption: "Paris: Notre-Dame antes das obras",
+        alt: "Fachada gótica da Catedral de Notre-Dame de Paris com a rosácea central e as duas torres",
+      },
+      {
+        src: labibEiffelPonte.url,
+        caption: "Do Sena: os anjos dourados e a torre ao fundo",
+        alt: "Estátuas douradas da Pont Alexandre III com a Torre Eiffel ao fundo, vistas de um barco no Sena, Paris",
+      },
+      {
+        src: labibParisArcoInverno.url,
+        caption: "Arco do Triunfo em manhã fria de janeiro",
+        alt: "Viajante de casaco claro diante do Arco do Triunfo em Paris, em manhã de inverno com céu azul",
+      },
+      {
+        src: labibMercadoNatal.url,
+        caption: "Mercado de Natal: pinheiros nevados e o velho papai noel",
+        alt: "Viajante de casaco claro ao lado de figura de papai noel entre pinheiros nevados em mercado de Natal europeu",
+      },
+      {
+        src: labibBerlimMuro.url,
+        caption: "Berlim: o muro que virou galeria a céu aberto",
+        alt: "Viajante de vestido vermelho diante de mural colorido da East Side Gallery, no Muro de Berlim",
+      },
+      {
+        src: labibHassanInterior.url,
+        caption: "Casablanca: o grupo sob o teto de cedro da Hassan II",
+        alt: "Grupo de viajantes reunido no interior da Mesquita Hassan II, em Casablanca, sob teto de cedro entalhado",
+      },
+      {
+        src: labibHassanSelfie.url,
+        caption: "A selfie que ninguém queria perder, dentro da mesquita",
+        alt: "Selfie de grupo de viajantes com lenços na cabeça no interior da Mesquita Hassan II, em Casablanca",
+      },
+      {
+        src: labibMarrakechJardim.url,
+        caption: "Marrakech: o jardim de palmeiras e o tanque verde",
+        alt: "Viajante de vestido rosa em jardim marroquino com palmeiras, buganvílias e fonte revestida de azulejo verde",
+      },
+      {
+        src: labibMarrocosPorta.url,
+        caption: "Uma porta de cravos e azulejos na medina branca",
+        alt: "Viajante sentada na soleira de porta antiga de madeira com cravos e moldura de azulejos, em medina marroquina",
+      },
+
 
       {
         src: labibDomQuixote.url,
