@@ -110,6 +110,25 @@ import labibSevilhaAmigas from "@/assets/depoimentos/labib-sevilha-plaza-espana-
 import labibSevilhaPraca from "@/assets/depoimentos/labib-sevilha-plaza-espana-praca.jpg.asset.json";
 import labibToledoSanJuan from "@/assets/depoimentos/labib-toledo-san-juan-de-los-reyes.jpg.asset.json";
 import labibToledoRua from "@/assets/depoimentos/labib-toledo-rua-medieval.jpg.asset.json";
+import labibBudapesteBastiao from "@/assets/depoimentos/labib-budapeste-bastiao-pescadores-parlamento.jpg.asset.json";
+import labibBudapesteCastelo from "@/assets/depoimentos/labib-budapeste-castelo-buda-noite.jpg.asset.json";
+import labibBudapesteFachadaNoite from "@/assets/depoimentos/labib-budapeste-margem-danubio-fachada-iluminada.jpg.asset.json";
+import labibPragaTyn from "@/assets/depoimentos/labib-praga-torres-igreja-tyn-poente.jpg.asset.json";
+import labibBudapesteSinagoga from "@/assets/depoimentos/labib-budapeste-grande-sinagoga.jpg.asset.json";
+import labibKrumlovRio from "@/assets/depoimentos/labib-cesky-krumlov-rio-vltava.jpg.asset.json";
+import labibKrumlovAmigas from "@/assets/depoimentos/labib-cesky-krumlov-amigas-castelo.jpg.asset.json";
+import labibNotreDame from "@/assets/depoimentos/labib-paris-notre-dame-fachada.jpg.asset.json";
+import labibEiffelPonte from "@/assets/depoimentos/labib-paris-torre-eiffel-pont-alexandre.jpg.asset.json";
+import labibBerlimMuro from "@/assets/depoimentos/labib-berlim-east-side-gallery-muro.jpg.asset.json";
+import labibMarrakechJardim from "@/assets/depoimentos/labib-marrakech-jardim-palmeiras-fonte.jpg.asset.json";
+import labibMarrocosPorta from "@/assets/depoimentos/labib-marrocos-porta-azulejos-medina.jpg.asset.json";
+import labibHassanInterior from "@/assets/depoimentos/labib-casablanca-hassan-ii-interior-grupo.jpg.asset.json";
+import labibHassanSelfie from "@/assets/depoimentos/labib-casablanca-hassan-ii-selfie-grupo.jpg.asset.json";
+import labibParisArcoInverno from "@/assets/depoimentos/labib-paris-arco-triunfo-inverno.jpg.asset.json";
+import labibMercadoNatal from "@/assets/depoimentos/labib-europa-mercado-natal-papai-noel.jpg.asset.json";
+import labibEiffelInverno from "@/assets/depoimentos/labib-paris-torre-eiffel-inverno.jpg.asset.json";
+import labibSantaSofiaAmigas from "@/assets/depoimentos/labib-istambul-santa-sofia-interior-amigas.jpg.asset.json";
+
 
 import labibDomQuixote from "@/assets/depoimentos/labib-espanha-dom-quixote-loja.jpg.asset.json";
 import labibVienaGrinzing from "@/assets/depoimentos/labib-viena-grinzing-rua-taverna.jpg.asset.json";
