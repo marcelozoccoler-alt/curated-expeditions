@@ -21,6 +21,12 @@ import { FAQSection } from "@/components/FAQSection";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
 import { ShareButtons } from "@/components/ShareButtons";
 import NotFound from "@/pages/NotFound";
+import { GeoAnswerBlock } from "@/components/GeoAnswerBlock";
+import {
+  buildGroupAiSummary,
+  buildGroupGeoBullets,
+  buildGroupGeoFacts,
+} from "@/lib/groupGeo";
 import { CONTACT } from "@/lib/types";
 import { ENTITY_IDS } from "@/lib/entity";
 import {
@@ -301,8 +307,20 @@ const GrupoGuiaLocal = () => {
               </li>
             ))}
           </ul>
+
+          {/* Bloco GEO — resposta citável por ChatGPT, Gemini e Perplexity */}
+          <div className="mt-10">
+            <GeoAnswerBlock
+              summary={buildGroupAiSummary(group)}
+              bullets={buildGroupGeoBullets(group)}
+              facts={buildGroupGeoFacts(group)}
+              ariaLabel={`Resumo de ${group.title} para busca e IA`}
+            />
+          </div>
         </div>
       </section>
+
+
 
 
 

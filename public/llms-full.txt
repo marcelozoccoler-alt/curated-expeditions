@@ -12,7 +12,7 @@ Perguntas frequentes com respostas diretas: https://createtravel.tur.br/pergunta
 
 ## Destinos
 
-191 destinos com roteiro sob medida. Formato: destino (país, região) — melhor época — perfil — destaques — URL.
+190 destinos com roteiro sob medida. Formato: destino (país, região) — melhor época — perfil — destaques — URL.
 
 ### Anavilhanas (Rio Negro) — Brasil (Amazônia)
 - URL: https://createtravel.tur.br/destinos/brasil/amazonia/anavilhanas
@@ -76,13 +76,6 @@ Perguntas frequentes com respostas diretas: https://createtravel.tur.br/pergunta
 - Perfil: Trekking & trilhas, Remoto & raro, Fotografia, Expedições, natureza
 - Destaques: Travessia de 6 a 8 dias até o platô; Vale dos Cristais e jacuzzis naturais; Vistas para a tríplice fronteira; Flora endêmica e formações rochosas surreais; Acampamentos sob paredões de 400m
 - Resumo: O tepui mais icônico da América do Sul: um platô pré-cambriano suspenso entre nuvens, com formações rochosas e ecossistemas únicos no planeta.
-
-### Chapada Diamantina — Brasil (Bahia)
-- URL: https://createtravel.tur.br/destinos/brasil/chapada-diamantina
-- Melhor época: Mar–Out (período mais seco); Nov–Fev pode ter chuvas intensas.
-- Perfil: Trekking & trilhas, Fotografia, Bem-estar & slow travel, Cultura & história, Remoto & raro
-- Destaques: Cachoeira da Fumaça e outras quedas monumentais; Trilhas no Vale do Pati; Morro do Pai Inácio; Grutas e poços azuis; Vilas históricas de mineração
-- Resumo: Montanhas, cânions e cachoeiras em meio à caatinga e ao cerrado baiano. Uma Chapada para caminhar, contemplar e se reconectar.
 
 ### Chapada dos Veadeiros — Brasil (Goiás)
 - URL: https://createtravel.tur.br/destinos/brasil/chapada-dos-veadeiros
@@ -1358,7 +1351,6 @@ Perguntas frequentes com respostas diretas: https://createtravel.tur.br/pergunta
 - [Fernando de Noronha](https://createtravel.tur.br/fernando-de-noronha): Arquipélago protegido com mar transparente, mergulho excepcional e privacidade. Curadoria de hospedagem, transfers e experiências para quem quer Noronha sem o ritmo turístico.
 - [Lençóis Maranhenses](https://createtravel.tur.br/lencois-maranhenses): Dunas brancas e lagoas azuis em janelas curtas do ano. Roteiros que combinam o encanto único dos Lençóis com extensão para Atins, Caburé e o Delta do Parnaíba.
 - [Jalapão](https://createtravel.tur.br/jalapao): Cerrado dramático com cachoeiras, fervedouros e dunas alaranjadas. Logística cuidada para uma das aventuras mais autênticas do Brasil.
-- [Chapada Diamantina](https://createtravel.tur.br/chapada-diamantina): Cânions, grutas e cachoeiras na Bahia profunda. Roteiros com guias locais e hospedagens charmosas em Lençóis e Vale do Capão.
 - [Chapada dos Veadeiros](https://createtravel.tur.br/chapada-dos-veadeiros): Quartzo, água cristalina e céus extraordinários no coração do cerrado. Curadoria com pousadas autorais em São Jorge e Alto Paraíso.
 - [Bonito](https://createtravel.tur.br/bonito): Águas cristalinas, flutuações inesquecíveis e cavernas. Combinamos Bonito com Pantanal Sul para uma narrativa Brasil profunda no coração do Mato Grosso do Sul.
 - [Jericoacoara](https://createtravel.tur.br/jericoacoara): Vento, dunas, lagoas e pôr do sol icônico. Curadoria de pousadas-pé na areia e roteiros de carro pelas praias do Ceará.
@@ -2496,6 +2488,30 @@ Perguntas frequentes com respostas diretas: https://createtravel.tur.br/pergunta
 - P: Quantos dias são necessários para conhecer a Ásia Central? R: Dezessete dias cobrem as quatro repúblicas com ritmo confortável: Cazaquistão, Quirguistão, Uzbequistão e Tajiquistão. Para apenas Uzbequistão, de 8 a 10 dias são suficientes; abaixo de 12 dias não se fecha o circuito completo da Rota da…
 - P: Qual a melhor época para viajar à Ásia Central? R: Abril a junho e setembro a outubro são as melhores janelas: temperaturas amenas nas cidades e montanhas ainda nevadas. Julho e agosto são quentes no Uzbequistão, acima de 38 °C, mas ideais nas montanhas do Quirguistão e do Tajiquistão.
 - P: É seguro viajar por Cazaquistão, Quirguistão, Uzbequistão e Tajiquistão? R: Sim. São países de baixa criminalidade contra turistas, com forte cultura de hospitalidade. As travessias de fronteira são terrestres e burocráticas, e por isso a viagem ganha muito com guia local em cada país e assistência em português…
+
+### Canyons do Rio Grande do Sul: Itaimbezinho, Fortaleza e a serra que termina no abismo
+- URL: https://createtravel.tur.br/diario/canyons-do-rio-grande-do-sul-roteiro-aparados-da-serra
+- Categoria: Roteiro · Publicado: 2026-08-30 · Leitura: 9 min
+- Resumo: Roteiro pelos canyons do Rio Grande do Sul e Santa Catarina: Itaimbezinho, Fortaleza, Malacara, Cambará do Sul, melhor época, onde ficar e como combinar com a Serra Gaúcha.
+- P: Qual a melhor época para visitar os canyons do Rio Grande do Sul? R: De abril a setembro, quando o ar seco garante visibilidade nos mirantes. Junho e julho oferecem geada e, eventualmente, neve. No verão a paisagem fica mais verde, mas a névoa fecha os mirantes com frequência.
+- P: Precisa agendar a entrada nos parques? R: Sim. Aparados da Serra (Itaimbezinho) e Serra Geral (Fortaleza) trabalham com agendamento online obrigatório e cotas diárias. Fazemos essa reserva antecipadamente para todos os nossos roteiros.
+- P: Quantos dias são necessários? R: Quatro dias cobrem Itaimbezinho, Fortaleza e um terceiro canyon com folga para o clima. Com Serra Gaúcha, o ideal é de 7 a 8 dias.
+
+### Rota das Emoções: de Jericoacoara ao Delta do Parnaíba e aos Lençóis Maranhenses
+- URL: https://createtravel.tur.br/diario/rota-das-emocoes-jericoacoara-delta-lencois-roteiro
+- Categoria: Roteiro · Publicado: 2026-08-30 · Leitura: 10 min
+- Resumo: Como fazer a Rota das Emoções com conforto: Jericoacoara, Delta do Parnaíba e Lençóis Maranhenses em 8 a 12 dias, melhor época, logística 4x4 e hospedagens selecionadas.
+- P: Qual a melhor época para fazer a Rota das Emoções? R: De junho a agosto, quando as lagoas dos Lençóis Maranhenses estão cheias e o tempo é seco em todo o trajeto. Julho é o mês de maior volume de água e também o de maior procura, por isso reservamos com meses de antecedência.
+- P: Quantos dias são necessários? R: Oito dias é o mínimo para não transformar a rota em uma sequência de transfers. Dez a doze dias permitem duas noites extras nos Lençóis e um dia livre em Jericoacoara.
+- P: Dá para fazer a Rota das Emoções de carro próprio? R: Não recomendamos. Trechos são feitos por faixa de praia com dependência de maré e por areia fofa, com risco real de atolamento. Trabalhamos sempre com 4x4 e motorista-guia local.
+
+### Bonito, Pantanal e Chapada dos Guimarães: o Centro-Oeste em uma só viagem
+- URL: https://createtravel.tur.br/diario/bonito-pantanal-e-chapada-dos-guimaraes-roteiro-combinado
+- Categoria: Roteiro · Publicado: 2026-08-30 · Leitura: 10 min
+- Resumo: Roteiro combinado Bonito + Pantanal + Chapada dos Guimarães: quantos dias, melhor época, distâncias reais, onde ficar e como montar a logística entre Campo Grande e Cuiabá.
+- P: Quantos dias para fazer Bonito e Pantanal juntos? R: Sete a oito dias: quatro noites em Bonito e três no Pantanal Sul, ambos a partir de Campo Grande. Acrescentando Chapada dos Guimarães e Pantanal Norte, o roteiro passa para 11 a 13 dias.
+- P: Qual a melhor época para ver onça-pintada? R: Entre julho e setembro, no auge da seca, na região de Porto Jofre, no Pantanal Norte. Nesse período os avistamentos em barco pelos rios são frequentes e as buscas duram poucas horas.
+- P: Pantanal Norte ou Pantanal Sul? R: Norte, se a prioridade é onça-pintada e observação intensa de fauna em barco. Sul, se a prioridade é paisagem, cavalgada, pesca e a combinação prática com Bonito.
 
 ## Contato e canais oficiais
 
