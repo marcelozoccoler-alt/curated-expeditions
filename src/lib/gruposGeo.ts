@@ -65,7 +65,7 @@ export const brGroupFacts: GeoFact[] = [
 export const brGroupFaqs: FAQ[] = [
   {
     q: "O que é uma viagem em grupo com guia brasileiro da Create Travel?",
-    a: `É um circuito de curadoria autoral em que um coordenador brasileiro embarca com o grupo em Guarulhos e permanece até o retorno — recepção no aeroporto, briefings diários, apoio em conexões, traslados e imprevistos. São grupos pequenos, de 15 a 20 pessoas, com hotéis selecionados e guias locais em cada trecho. Hoje há ${DEPARTURES.length} saídas confirmadas para ${brGroupYears.join(" e ")}.`,
+    a: `É um circuito de curadoria autoral em que um coordenador brasileiro embarca com o grupo em Guarulhos e permanece até o retorno — recepção no aeroporto, briefings diários, apoio em conexões, traslados e imprevistos. Os grupos reúnem de 15 a 20 viajantes, com hotéis selecionados e guias locais em cada trecho. Hoje há ${DEPARTURES.length} saídas confirmadas para ${brGroupYears.join(" e ")}.`,
   },
   {
     q: "Qual a diferença entre grupo com guia brasileiro e grupo com guia local?",
@@ -77,7 +77,7 @@ export const brGroupFaqs: FAQ[] = [
   },
   {
     q: "Para quem são esses grupos?",
-    a: "Para viajantes que já rodaram o mundo e não querem excursão de crachá: casais, famílias, grupos de amigos e viajantes 40+ que preferem hotéis bem localizados, ritmo civilizado e alguém de confiança resolvendo a logística. Grupos pequenos, sem shopping obrigatório e sem roteiro de fila.",
+    a: "Para viajantes que já rodaram o mundo e não querem excursão de crachá: casais, famílias, grupos de amigos e viajantes 40+ que preferem hotéis bem localizados, ritmo civilizado e alguém de confiança resolvendo a logística. Sem shopping obrigatório e sem roteiro de fila.",
   },
   {
     q: "Preciso viajar acompanhado para entrar em um grupo?",
