@@ -27,7 +27,7 @@ const whatsappParams = {
 
 const benefits = [
   {
-    title: "Grupo exclusivo e pequeno",
+    title: "Grupo exclusivo",
     desc: "Mais conforto, menos filas, mais agilidade e experiências mais próximas do destino.",
   },
   {
@@ -165,7 +165,7 @@ const notIncluded = [
 const faqs = [
   {
     q: "Qual o tamanho do grupo?",
-    a: "É um grupo exclusivo e pequeno da Create Travel, pensado para garantir mais conforto, agilidade e experiências mais próximas do destino. Vagas limitadas.",
+    a: "É um grupo exclusivo da Create Travel, pensado para garantir mais conforto, agilidade e experiências mais próximas do destino. Vagas limitadas.",
   },
   {
     q: "Como funciona o acompanhamento em português?",
@@ -204,7 +204,7 @@ const jsonLd = {
   url: "https://createtravel.tur.br/grupos/marrocos-2026",
   name: "Grupo Marrocos 2026 — Create Travel",
   description:
-    "Grupo exclusivo e pequeno em viagem de 9 dias pelo Marrocos: Casablanca, Rabat, Fez, Saara, Ouarzazate e Marrakech. Saída 18/11/2026.",
+    "Viagem de 9 dias em grupo exclusivo pelo Marrocos: Casablanca, Rabat, Fez, Saara, Ouarzazate e Marrakech. Saída 18/11/2026.",
   image: heroImg,
   touristType: "Cultural, histórica, sensorial",
   itinerary: { "@type": "ItemList", itemListElement: itinerary.map((d, i) => ({
@@ -266,7 +266,7 @@ const GrupoMarrocos2026 = () => {
             </h1>
             <p className="text-xl md:text-2xl text-white/90 mb-8 font-light">
               Cidades imperiais, Chefchaouen azul e noite no Saara — 9 dias por
-              Rabat, Fez, Merzouga, Vale do Dades e Marrakech, em grupo pequeno
+              Rabat, Fez, Merzouga, Vale do Dades e Marrakech, em grupo exclusivo
               com curadoria Create Travel.
             </p>
             <div className="flex flex-col sm:flex-row items-start sm:items-center gap-4">
@@ -289,7 +289,7 @@ const GrupoMarrocos2026 = () => {
         <div className="container-editorial grid grid-cols-2 md:grid-cols-4 gap-6">
           {[
             { icon: Calendar, label: "Datas", value: "18 a 26/11/2026" },
-            { icon: Users, label: "Perfil", value: "Grupo pequeno" },
+            { icon: Users, label: "Perfil", value: "Grupo exclusivo" },
             { icon: Plane, label: "Voos", value: "Royal Air Maroc · diretos" },
             { icon: Hotel, label: "Hospedagem", value: "Riads + hotéis 3★" },
           ].map((f, i) => (
@@ -487,7 +487,7 @@ const GrupoMarrocos2026 = () => {
       <section className="section-padding">
         <div className="container-editorial text-center max-w-2xl">
           <h2 className="heading-section text-foreground mb-6">
-            Vagas limitadas — grupo exclusivo e pequeno
+            Vagas limitadas — grupo exclusivo
           </h2>
           <p className="text-muted-foreground mb-8">
             Fale com um consultor Create Travel e reserve sua vaga no Grupo
