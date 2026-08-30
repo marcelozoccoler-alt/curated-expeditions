@@ -214,7 +214,7 @@ const faqs = [
   },
   {
     q: "Posso viajar sozinho(a)? Tem suplemento single?",
-    a: "Sim. Trabalhamos com apartamento duplo, triplo ou individual. Podemos emparelhar você com outra pessoa do grupo do mesmo gênero para evitar o suplemento single.",
+    a: "Sim. Trabalhamos com apartamento duplo, triplo ou individual.",
   },
   {
     q: "Como é a temperatura no Egito no final de setembro?",

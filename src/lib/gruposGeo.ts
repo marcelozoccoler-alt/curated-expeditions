@@ -81,7 +81,7 @@ export const brGroupFaqs: FAQ[] = [
   },
   {
     q: "Preciso viajar acompanhado para entrar em um grupo?",
-    a: "Não. Boa parte dos viajantes embarca sozinha e encontra o grupo em Guarulhos. Há tarifa em apartamento duplo (com divisão de quarto quando desejar) e também em single, sob consulta. O coordenador brasileiro faz a apresentação do grupo no primeiro dia.",
+    a: "Não. Boa parte dos viajantes embarca sozinha e encontra o grupo em Guarulhos. Há tarifa em apartamento duplo e também em single, sob consulta. O coordenador brasileiro faz a apresentação do grupo no primeiro dia.",
   },
   {
     q: "Posso chegar antes ou estender a viagem depois do grupo?",

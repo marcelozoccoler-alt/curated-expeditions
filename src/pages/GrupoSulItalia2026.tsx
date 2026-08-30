@@ -202,7 +202,7 @@ const faqs = [
   },
   {
     q: "Posso viajar sozinho(a)?",
-    a: "Sim. Trabalhamos com apartamento triplo, duplo ou individual (com suplemento). Podemos emparelhar você com outra pessoa do grupo do mesmo gênero, mediante disponibilidade.",
+    a: "Sim. Trabalhamos com apartamento triplo, duplo ou individual (com suplemento).",
   },
   {
     q: "Como funciona o dia livre em Sorrento?",
