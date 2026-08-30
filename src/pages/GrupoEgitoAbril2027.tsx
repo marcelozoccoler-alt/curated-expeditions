@@ -241,7 +241,7 @@ const faqs = [
   },
   {
     q: "Quantas pessoas viajam no grupo?",
-    a: "Trabalhamos com grupos pequenos e vagas limitadas, para manter atenção individual, mobilidade nos templos e clima de convivência. Por isso a reserva antecipada é importante.",
+    a: "Trabalhamos com vagas limitadas, para manter atenção individual, mobilidade nos templos e clima de convivência. Por isso a reserva antecipada é importante.",
   },
 ];
 
@@ -295,7 +295,7 @@ const GrupoEgitoAbril2027 = () => {
         ogImage={heroImg}
         ogType="article"
         jsonLd={[jsonLd, ...hotelsSeoJsonLd]}
-        keywords={`viagem em grupo para o Egito, viagem em grupo Egito 2027, excursão para o Egito com guia brasileiro, grupo brasileiro Egito abril 2027, viagem em grupo para mulheres, viagem para mulheres acima de 50 anos, viagem em grupo com acompanhante em português, viagem em grupo sozinha, excursão Egito saindo de São Paulo, pacote Egito tudo organizado, quanto custa viagem para o Egito em grupo, Egito parcelado em 9x sem juros, cruzeiro no Nilo Luxor Assuã, Pirâmides de Gizé em grupo, Grande Museu Egípcio, Sharm El Sheikh Mar Vermelho, viagem em grupo com voos Emirates, grupo pequeno Egito, Create Travel Egito, ${hotelsSeoKeywords}`}
+        keywords={`viagem em grupo para o Egito, viagem em grupo Egito 2027, excursão para o Egito com guia brasileiro, grupo brasileiro Egito abril 2027, viagem em grupo para mulheres, viagem para mulheres acima de 50 anos, viagem em grupo com acompanhante em português, viagem em grupo sozinha, excursão Egito saindo de São Paulo, pacote Egito tudo organizado, quanto custa viagem para o Egito em grupo, Egito parcelado em 9x sem juros, cruzeiro no Nilo Luxor Assuã, Pirâmides de Gizé em grupo, Grande Museu Egípcio, Sharm El Sheikh Mar Vermelho, viagem em grupo com voos Emirates, Create Travel Egito, ${hotelsSeoKeywords}`}
       />
       <Header />
       <WhatsAppButton variant="float" params={whatsappParams} />

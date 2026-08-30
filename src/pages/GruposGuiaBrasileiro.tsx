@@ -26,7 +26,7 @@ const MONTHS_PT = ["Janeiro", "Fevereiro", "Março", "Abril", "Maio", "Junho", "
 const DIFFERENTIALS = [
   { icon: Users, title: "Coordenador brasileiro", desc: "Embarca com o grupo em Guarulhos e acompanha do check-in ao último brinde." },
   { icon: Globe, title: "Tudo em português", desc: "Nada de se perder em inglês macarrônico — comunicação clara do começo ao fim." },
-  { icon: Plane, title: "Grupos pequenos", desc: "Máximo de 15 a 20 pessoas. Nada de comboios de 40 turistas de crachá." },
+  { icon: Plane, title: "Grupos de 15 a 20 viajantes", desc: "Nada de comboios de 40 turistas de crachá." },
   { icon: Calendar, title: "Parcelamento facilitado", desc: "Parte terrestre com entrada de 25% + 9x sem juros no cartão. O aéreo é cotado à parte, conforme as condições da companhia aérea." },
 ];
 
@@ -114,7 +114,7 @@ const GruposGuiaBrasileiro = () => {
         title="Viagem em Grupo com Guia Brasileiro — Saídas 2026/2027"
         description={`${DEPARTURES.length} saídas internacionais 2026/2027 com coordenador brasileiro embarcando de São Paulo. África do Sul, Jordânia, Grécia, Portugal e mais. Parte terrestre: entrada 25% + 9x sem juros.`}
         canonicalPath="/grupos-guia-brasileiro"
-        keywords="viagem em grupo com guia brasileiro, grupo de viagem saindo do Brasil, saídas em grupo 2026, saídas em grupo 2027, viagem em grupo para casais 40+, grupo pequeno de viagem, operadora de viagens em grupo com curadoria"
+        keywords="viagem em grupo com guia brasileiro, grupo de viagem saindo do Brasil, saídas em grupo 2026, saídas em grupo 2027, viagem em grupo para casais 40+,  operadora de viagens em grupo com curadoria"
         jsonLd={jsonLd}
       />
 
@@ -143,7 +143,7 @@ const GruposGuiaBrasileiro = () => {
             Viaje com quem conhece o destino e fala a sua língua.
           </p>
           <p className="text-base text-white/70 mb-8 font-light">
-            Saídas internacionais 2026 e 2027 · Coordenador embarcando de Guarulhos · Grupos pequenos · Parte terrestre em 25% + 9x sem juros
+            Saídas internacionais 2026 e 2027 · Coordenador embarcando de Guarulhos · Parte terrestre em 25% + 9x sem juros
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <a href="#saidas" className="btn-primary bg-gold text-navy hover:bg-gold/90 text-lg px-8 py-4 font-semibold">

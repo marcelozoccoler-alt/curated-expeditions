@@ -68,7 +68,7 @@ const DIFFERENTIALS = [
   { icon: ShieldCheck, title: "Registrada no Cadastur", desc: `Agência formalizada junto ao Ministério do Turismo — Cadastur ${CONTACT.cadastur}.` },
   { icon: PenLine, title: "Roteiros 100% autorais", desc: "Nada de pacote de prateleira: cada itinerário nasce do seu perfil." },
   { icon: LifeBuoy, title: "Suporte 24/7", desc: "Acompanhamento antes, durante e depois da viagem, no seu fuso." },
-  { icon: Users, title: "Grupos com guia brasileiro", desc: "Saídas em grupos pequenos, com acompanhamento em português." },
+  { icon: Users, title: "Grupos com guia brasileiro", desc: "Saídas em grupo com acompanhamento em português." },
   { icon: Leaf, title: "Turismo de conservação", desc: "Parceiros e lodges comprometidos com comunidades e natureza." },
 ];
 
@@ -126,7 +126,7 @@ const FAQS: FAQ[] = [
   },
   {
     q: "Posso viajar em grupo com guia brasileiro?",
-    a: "Sim. Temos saídas confirmadas em grupos pequenos com guia brasileiro acompanhando desde São Paulo, além de grupos com guia local falando português. As datas e roteiros estão publicados na seção de grupos do site.",
+    a: "Sim. Temos saídas confirmadas em grupo com guia brasileiro acompanhando desde São Paulo, além de grupos com guia local falando português. As datas e roteiros estão publicados na seção de grupos do site.",
   },
   {
     q: "Vocês atendem estrangeiros que querem conhecer o Brasil?",
