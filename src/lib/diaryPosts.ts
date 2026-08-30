@@ -7,6 +7,7 @@ import { diaryPostsDestinos } from "./diaryPostsDestinos";
 import { diaryPostsDestinos2 } from "./diaryPostsDestinos2";
 import { diaryPostsUsa } from "./diaryPostsUsa";
 import { diaryPostsAsiaCentral } from "./diaryPostsAsiaCentral";
+import { diaryPostsCombos } from "./diaryPostsCombos";
 
 export interface DiarySection {
   heading: string;
