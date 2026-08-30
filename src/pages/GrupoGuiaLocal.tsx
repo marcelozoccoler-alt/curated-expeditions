@@ -301,8 +301,20 @@ const GrupoGuiaLocal = () => {
               </li>
             ))}
           </ul>
+
+          {/* Bloco GEO — resposta citável por ChatGPT, Gemini e Perplexity */}
+          <div className="mt-10">
+            <GeoAnswerBlock
+              summary={buildGroupAiSummary(group)}
+              bullets={buildGroupGeoBullets(group)}
+              facts={buildGroupGeoFacts(group)}
+              ariaLabel={`Resumo de ${group.title} para busca e IA`}
+            />
+          </div>
         </div>
       </section>
+
+
 
 
 
