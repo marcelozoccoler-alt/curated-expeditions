@@ -166,7 +166,7 @@ export const hospedagensDeCharmeBrasilGuide: BrazilGuideLocalized = {
           text: "Vila Naiá, Boipeba e o Cerrado entregam isolamento genuíno — sinal de celular limitado é parte da proposta, não uma falha de infraestrutura.",
         },
         {
-          title: "Grupos pequenos e famílias com adolescentes",
+          title: "Grupos de amigos e famílias com adolescentes",
           text: "Casas de poucas suítes acomodam bem grupos de até seis a oito pessoas com privacidade, sem o ruído de um hotel grande.",
         },
         {

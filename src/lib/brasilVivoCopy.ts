@@ -78,7 +78,7 @@ const PT: BrasilVivoUI = {
     lead: "Viajamos para conhecer o lugar como ele é — e voltamos sabendo que ele continua ali, melhor do que encontramos.",
     items: [
       { title: "Experiência autêntica", text: "Pessoas reais, território vivo. Guias-naturalistas, comunidades ribeirinhas, mestres de saber e cozinheiras que carregam o sabor do lugar." },
-      { title: "Baixo impacto", text: "Grupos pequenos, operadores locais, ritmo do bioma. Recusamos lugares e práticas que ferem o ambiente ou comunidades." },
+      { title: "Baixo impacto", text: "Operadores locais, ritmo do bioma. Recusamos lugares e práticas que ferem o ambiente ou comunidades." },
       { title: "Conservação ativa", text: "Toda viagem que desenhamos prioriza pousadas, reservas e operadores que dedicam parte da receita à proteção da fauna e flora." },
       { title: "Conhecimento em campo", text: "Biólogos, cientistas e moradores que leem a paisagem com você — para que a viagem deixe entendimento, não só foto." },
     ],
@@ -124,7 +124,7 @@ const PT: BrasilVivoUI = {
     items: [
       { q: "O que é turismo de conservação?", a: "É a forma de viajar que transforma a presença do viajante em recurso para a proteção do território: hospedagens que mantêm reservas privadas, guias-naturalistas que dependem da fauna em pé, comunidades que escolhem preservar porque preservar gera renda." },
       { q: "Quais são os biomas brasileiros?", a: "O Brasil tem seis biomas terrestres — Amazônia, Cerrado, Mata Atlântica, Caatinga, Pantanal e Pampa — além da extensa costa marinha. Todos podem ser visitados com curadoria responsável." },
-      { q: "Como sei se uma viagem é realmente sustentável?", a: "Procure três marcas: operadores locais com vínculo real à comunidade, grupos pequenos, e clareza sobre para onde vai o dinheiro." },
+      { q: "Como sei se uma viagem é realmente sustentável?", a: "Procure três marcas: operadores locais com vínculo real à comunidade e clareza sobre para onde vai o dinheiro." },
       { q: "Posso ver onça-pintada de forma ética?", a: "Sim — o Pantanal Norte (Porto Jofre, Transpantaneira) tem a maior densidade conhecida de onças do mundo e protocolos consolidados de observação fluvial respeitosa." },
       { q: "Que projetos a Create Travel apoia indiretamente?", a: "Nossos roteiros priorizam parceiros do Instituto Onça-Pintada, Projeto Tamar, Instituto Arara Azul, AMLD, Instituto Mamirauá, ICAS, SOS Mata Atlântica e Fundação Grupo Boticário." },
       { q: "É possível combinar luxo e baixo impacto no Brasil?", a: "Totalmente. Existe uma nova geração de lodges e pousadas-boutique brasileiras que entregam conforto refinado com práticas responsáveis." },

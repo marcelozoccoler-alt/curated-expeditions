@@ -92,7 +92,7 @@ export const hospedagensBaseComunitariaBrasilGuide: BrazilGuideLocalized = {
         {
           name: "Aldeia Vista Alegre e comunidade de Suruacá — Alter do Chão (PA)",
           profile: "Famílias e casais que já conhecem a Amazônia clássica",
-          text: "Vizinhas do point turístico de Alter do Chão, mas em outro ritmo: aldeias indígenas e ribeirinhas que recebem grupos pequenos para vivências de um dia ou pernoite, com artesanato, culinária e explicação sobre o manejo sustentável da floresta.",
+          text: "Vizinhas do point turístico de Alter do Chão, mas em outro ritmo: aldeias indígenas e ribeirinhas que recebem visitantes para vivências de um dia ou pernoite, com artesanato, culinária e explicação sobre o manejo sustentável da floresta.",
         },
         {
           name: "Nativos do Vale do Pati — Chapada Diamantina (BA)",
