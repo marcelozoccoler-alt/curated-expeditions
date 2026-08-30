@@ -178,7 +178,7 @@ const faqs = [
   },
   {
     q: "Posso viajar sozinho(a)? Tem suplemento single?",
-    a: "Sim. Valores em base dupla ou tripla; o apartamento individual tem suplemento. Podemos emparelhar você com outra pessoa do grupo do mesmo gênero.",
+    a: "Sim. Valores em base dupla ou tripla; o apartamento individual tem suplemento.",
   },
   {
     q: "Qual o tamanho do grupo?",

@@ -65,7 +65,7 @@ const faqs = [
   { q: "Preciso de visto para o Equador?", a: "Não. Brasileiros não precisam de visto. É obrigatória a vacina de febre amarela e passaporte com validade mínima de 6 meses a partir da data de retorno." },
   { q: "Como é o Carnaval na região?", a: "Fevereiro é alta temporada natural no Equador. Nos Andes o clima é ameno (10–20 °C) com chuvas rápidas de tarde; nas Galápagos as águas estão mornas (24–27 °C), ideais para snorkel, com sol forte e chuvas curtas." },
   { q: "As navegações em Galápagos são exigentes?", a: "Não. São passeios diurnos de iate com almoço a bordo, saindo de Santa Cruz. As caminhadas em terra são curtas, com trilhas planas. Recomenda-se protetor solar, chapéu, calçado fechado e roupa de banho." },
-  { q: "Posso viajar sozinho(a)?", a: "Sim. Trabalhamos com apartamento triplo, duplo ou individual (com suplemento). Podemos emparelhar você com outra pessoa do grupo do mesmo gênero, mediante disponibilidade." },
+  { q: "Posso viajar sozinho(a)?", a: "Sim. Trabalhamos com apartamento triplo, duplo ou individual (com suplemento)." },
 ];
 
 const hotelsForSeo = [

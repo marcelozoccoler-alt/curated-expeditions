@@ -219,7 +219,7 @@ const faqs = [
   },
   {
     q: "Qual o perfil do grupo?",
-    a: "Grupo exclusivo com no máximo 12 participantes. Casais, amigos e viajantes solo são muito bem-vindos. Trabalhamos com apartamento duplo (compartilhado) ou individual (com suplemento de R$ 3.500).",
+    a: "Grupo exclusivo com no máximo 12 participantes. Casais, amigos e viajantes solo são muito bem-vindos. Trabalhamos com apartamento duplo ou individual (com suplemento de R$ 3.500).",
   },
 ];
 
@@ -562,7 +562,7 @@ const GrupoEuropaLesteTurquia2026 = () => {
             Lote esgotado / Lotado
           </div>
           <p className="text-white/85 mb-8">
-            Em apartamento duplo ou compartilhado. Suplemento single de
+            Em apartamento duplo. Suplemento single de
             R$ 3.500 — mesma estrutura de parcelamento. As vagas para este grupo
             foram esgotadas; deixe seu nome na lista de espera para possíveis
             reposições.
@@ -571,7 +571,7 @@ const GrupoEuropaLesteTurquia2026 = () => {
           <div className="grid sm:grid-cols-2 gap-4 mb-8 text-left opacity-60">
             <div className="bg-white/10 border border-white/20 rounded-xl p-6 ring-2 ring-gold/60">
               <p className="text-xs uppercase tracking-wider text-gold mb-2">
-                Apto duplo / compartilhado
+                Apto duplo
               </p>
               <p className="font-serif text-2xl font-semibold">R$ 24.935</p>
               <p className="text-white/70 text-xs mt-1">por pessoa</p>

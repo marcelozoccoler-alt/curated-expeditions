@@ -550,7 +550,7 @@ const FAQS = [
   },
   {
     q: "Posso viajar sozinho(a)?",
-    a: "Sim — muitos dos nossos viajantes embarcam sozinhos. Trabalhamos com apartamento duplo (compartilhado) ou individual (com suplemento). Podemos emparelhar você com outra pessoa do grupo do mesmo gênero.",
+    a: "Sim — muitos dos nossos viajantes embarcam sozinhos. Trabalhamos com apartamento duplo ou individual (com suplemento).",
   },
   {
     q: "Quantas pessoas viajam por grupo?",

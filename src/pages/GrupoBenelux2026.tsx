@@ -196,7 +196,7 @@ const faqs = [
   },
   {
     q: "Qual o perfil do grupo?",
-    a: "Grupo com guia acompanhante desde o Brasil. Casais, amigos e viajantes solo são muito bem-vindos. Trabalhamos com apartamento duplo (compartilhado) ou individual (com suplemento).",
+    a: "Grupo com guia acompanhante desde o Brasil. Casais, amigos e viajantes solo são muito bem-vindos. Trabalhamos com apartamento duplo ou individual (com suplemento).",
   },
 ];
 
