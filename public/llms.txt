@@ -29,6 +29,7 @@ A Create Travel desenha viagens personalizadas para viajantes exigentes — fam�
 - [Crie seu grupo](/crie-seu-grupo): curadoria de grupos privados — família, amigos, casamento, incentivo, espiritualidade.
 - [Sobre](/sobre): metodologia, valores e equipe.
 - [Depoimentos e histórias de viagem](/depoimentos): relatos de viajantes sobre roteiros sob medida, com bastidores do atendimento assinados por Marcelo Zoccoler.
+- [Quanto custa viajar](/quanto-custa): guias de preço por destino (Egito, Japão, Patagônia, Marrocos, África do Sul, Turquia) com valores reais por pessoa em apartamento duplo das saídas em grupo, o que está incluso, extras a prever, melhor época, duração ideal e antecedência de reserva. Quando não há preço publicado, consta "sob consulta" — a Create Travel não estima valores.
 - [Perguntas frequentes](/perguntas-frequentes): respostas diretas sobre processo de roteiro sob medida, prazos de planejamento, diferença entre grupo com guia brasileiro e guia local, hotéis, pagamento e melhor época por destino.
 - [FAQ por continente](/perguntas-frequentes/continente/africa): hubs de perguntas frequentes por continente e região — também /continente/brasil, /america-do-sul, /america-do-norte, /europa, /asia, /oriente-medio, /oceania. Melhor época, duração ideal e logística por região.
 - [FAQ por experiência](/perguntas-frequentes/experiencia/safari): hubs de perguntas por tipo de viagem — safari, trekking, mergulho, gastronomia, aurora, expedicao, cultura, bem-estar, familia, remoto, entre outros.

@@ -25,6 +25,7 @@ import { riverCruises } from "../src/lib/riverCruises";
 import { localGuideGroups } from "../src/lib/localGuideGroups";
 import { BRAZIL_GUIDE_SLUGS } from "../src/lib/brazilGuides";
 import { faqTopics } from "../src/lib/faqHub";
+import { precoDestinos } from "../src/lib/precoDestinos";
 
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
@@ -152,6 +153,8 @@ push("/embarque-com-a-create", 0.9, "weekly");
 
 // High-intent commercial landing pages
 push("/roteiro-sob-medida", 0.95, "weekly");
+push("/quanto-custa", 0.9, "weekly");
+for (const d of precoDestinos) push(`/quanto-custa/`, 0.85, "weekly");
 push("/perguntas-frequentes", 0.9, "weekly");
 // FAQ dinâmico por continente/região e por experiência
 for (const t of faqTopics) push(`/perguntas-frequentes/${t.kind}/${t.slug}`, 0.7, "weekly");

@@ -14,6 +14,8 @@ import Sobre from "./pages/Sobre";
 import Contato from "./pages/Contato";
 import PerguntasFrequentes from "./pages/PerguntasFrequentes";
 import FaqTema from "./pages/FaqTema";
+import QuantoCusta from "./pages/QuantoCusta";
+import QuantoCustaDestino from "./pages/QuantoCustaDestino";
 import Depoimentos from "./pages/Depoimentos";
 import Regiao from "./pages/Regiao";
 import GrupoMarrocos2026 from "./pages/GrupoMarrocos2026";
@@ -117,6 +119,8 @@ const App = () => (
         <Route path="/experiencias/:tagId" element={<ExperienciaTag />} />
         <Route path="/sobre" element={<Sobre />} />
         <Route path="/contato" element={<Contato />} />
+        <Route path="/quanto-custa" element={<QuantoCusta />} />
+        <Route path="/quanto-custa/:slug" element={<QuantoCustaDestino />} />
         <Route path="/perguntas-frequentes" element={<PerguntasFrequentes />} />
         <Route path="/perguntas-frequentes/:kind/:slug" element={<FaqTema />} />
         <Route path="/depoimentos" element={<Depoimentos />} />
