@@ -844,9 +844,10 @@ export const regions: Region[] = [
     label: "Bora Bora",
     kicker: "Polinésia Francesa",
     intro:
-      "A lagoa mais célebre do mundo. Curadoria de overwater bungalows e logística cuidada para lua de mel.",
+      "A lagoa mais célebre do mundo. Quanto custa uma viagem para Bora Bora, qual a melhor época, quantos dias ficar e qual overwater bungalow escolher — tudo definido com um travel designer brasileiro, em português, antes de você reservar.",
     metaDescription:
-      "Bora Bora com curadoria Create Travel: melhores resorts, overwater bungalows e lua de mel.",
+      "Viagem para Bora Bora: melhor época, quantos dias, overwater bungalows e quanto custa. Roteiro sob medida com travel designer brasileiro.",
+
     heroImageUrl:
       "https://images.unsplash.com/photo-1559128010-7c1ad6e1b6a5?w=1920&h=1080&fit=crop",
     destinationSlugs: ["oceania/polinesia-francesa"],
