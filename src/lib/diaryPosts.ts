@@ -3798,6 +3798,7 @@ export const diaryPosts: DiaryPost[] = [
   ...diaryPostsDestinos2,
   ...diaryPostsUsa,
   ...diaryPostsAsiaCentral,
+  ...diaryPostsCombos,
 ];
 
 export const getDiaryPost = (slug: string): DiaryPost | undefined =>
