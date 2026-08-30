@@ -380,7 +380,7 @@ export const usaDestinations: Destination[] = [
       { q: "Qual a melhor época para viajar ao Alasca?", a: "Junho a setembro é a janela principal: dias de até vinte horas de luz, fauna ativa, estradas e lodges abertos. Julho e agosto concentram os ursos pescando salmão. Para aurora boreal, o período é de setembro a março, com base em Fairbanks." },
       { q: "Quantos dias ficar no Alasca?", a: "De 9 a 12 dias para combinar Anchorage, Kenai Fjords, Denali e um lodge remoto sem correria. Roteiros de 14 dias somam a região de Katmai ou a aurora em Fairbanks." },
       { q: "Cruzeiro ou viagem por terra no Alasca?", a: "O cruzeiro cobre bem a costa interior e as geleiras, mas mantém você a bordo. Nossos roteiros por terra, com lodges e bush planes, chegam onde o navio não vai — Denali, Katmai e os lodges de fiorde. Também desenhamos formatos combinados." },
-      { q: "É seguro observar ursos de perto?", a: "Sim, nas áreas operadas com guias credenciados, plataformas e protocolos rígidos de distância. Trabalhamos apenas com operadores licenciados e grupos pequenos." },
+      { q: "É seguro observar ursos de perto?", a: "Sim, nas áreas operadas com guias credenciados, plataformas e protocolos rígidos de distância. Trabalhamos apenas com operadores licenciados." },
       { q: "Precisa de preparo físico?", a: "Não para o roteiro padrão: as caminhadas são curtas e opcionais. Existem versões mais exigentes com trekking em geleira e travessias, desenhadas sob medida." },
       { q: "Como criar meu roteiro?", a: "Clique em Criar roteiro sob medida e conte período, ritmo e preferências." },
     ],

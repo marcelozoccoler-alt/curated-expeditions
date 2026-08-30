@@ -29,7 +29,7 @@ const GROUPS = [
     icon: Plane,
     title: "Saídas em grupo com guia do Brasil",
     description:
-      "Para quem quer viajar acompanhado: grupos pequenos com guia Create Travel saindo do Brasil junto com você, do embarque ao retorno. Mais segurança, conexões verdadeiras e zero preocupação com logística.",
+      "Para quem quer viajar acompanhado: grupos com guia saindo do Brasil junto com você, do embarque ao retorno. Mais segurança, conexões verdadeiras e zero preocupação com logística.",
     whatsappName: "Saída em grupo com guia do Brasil",
   },
   {
@@ -85,7 +85,7 @@ const GROUPS = [
     icon: Mountain,
     title: "Aventura & expedição",
     description:
-      "Trekking no Himalaia, kayak no Mamanguá, escalada na Patagônia, mergulho em Noronha. Grupos pequenos com guias técnicos e estrutura premium.",
+      "Trekking no Himalaia, kayak no Mamanguá, escalada na Patagônia, mergulho em Noronha. Grupos com guias técnicos e estrutura premium.",
     whatsappName: "Expedição de aventura em grupo",
   },
   {

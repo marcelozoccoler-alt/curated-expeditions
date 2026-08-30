@@ -2973,7 +2973,7 @@ export const destinations: Destination[] = [
     beyondUsual: [
       "Saídas exclusivas para fotografia.",
       "Programas temáticos (aves, etnografia, conservação).",
-      "Charters privativos para grupos pequenos."
+      "Charters privativos sob medida."
     ],
     stays: [],
     faq: [

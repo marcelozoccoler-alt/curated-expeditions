@@ -234,14 +234,8 @@ export function buildHotelsFAQs(
     });
   }
 
-  // Pergunta sobre cada hotel individual (boa para long-tail)
-  for (const h of hotels) {
-    faqs.push({
-      q: `O hotel ${h.hotel} em ${h.city} faz parte do roteiro?`,
-      a: `Sim. O ${h.hotel}, em ${h.city}, é uma das hospedagens previstas no ${groupName} da Create Travel. Fale com nosso time para conhecer o roteiro completo, datas e condições.`,
-    });
-  }
-
+  // Sem perguntas hotel a hotel — a resposta por cidade já os cita,
+  // evitando redundância com o bloco "Hotéis previstos" da página.
   return faqs;
 }
 

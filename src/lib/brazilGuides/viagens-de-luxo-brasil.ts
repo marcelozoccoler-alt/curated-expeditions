@@ -85,7 +85,7 @@ export const viagensDeLuxoBrasilGuide: BrazilGuideLocalized = {
         {
           name: "Fasano Boa Vista (Porto Feliz, SP)",
           url: "https://www.fasano.com.br/hotel/boa-vista/",
-          profile: "Escapadas curtas de São Paulo e grupos pequenos",
+          profile: "Escapadas curtas de São Paulo e grupos de amigos",
           text: "Vilas com piscina privativa em meio à mata paulista, campo de golfe assinado por Gil Hanse e um ritmo de campo a menos de duas horas da capital — ideal para reuniões de família ou desconexão de fim de semana.",
         },
         {
@@ -149,7 +149,7 @@ export const viagensDeLuxoBrasilGuide: BrazilGuideLocalized = {
           text: "Villas com equipe própria em Trancoso ou Maraú resolvem a logística de avós, pais e filhos sob o mesmo teto, com privacidade para cada geração e programação flexível dia a dia.",
         },
         {
-          title: "Grupos pequenos de amigos",
+          title: "Grupos de amigos",
           text: "Barcos-hotel no Rio Negro e reservas privadas como a Caiman e a Trijunção funcionam melhor com exclusividade de embarcação ou de propriedade, evitando misturar grupos que não se conhecem.",
         },
         {

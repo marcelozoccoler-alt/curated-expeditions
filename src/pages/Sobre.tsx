@@ -84,7 +84,7 @@ const whatWeDo = [
   {
     icon: Users,
     title: "Grupos com propósito",
-    text: "Viagens em grupo pequeno, lideradas por especialistas, em datas únicas. Profundidade cultural, convivência rara e curadoria editorial.",
+    text: "Viagens em grupo lideradas por especialistas, em datas únicas. Profundidade cultural, convivência rara e curadoria editorial.",
     href: "/grupos/marrocos-2026",
     cta: "Próximas saídas",
   },
@@ -139,7 +139,7 @@ const faqs = [
   },
   {
     q: "Vocês fazem viagens em grupo?",
-    a: "Sim, em formato pequeno e com propósito claro — datas únicas, liderança especializada e número limitado de viajantes. Veja as próximas saídas em Grupos.",
+    a: "Sim, com propósito claro — datas únicas, liderança especializada e número limitado de viajantes. Veja as próximas saídas em Grupos.",
   },
 ];
 
@@ -220,7 +220,7 @@ const Sobre = () => {
               isso recusamos pacotes de prateleira e listas de "imperdíveis" — eles
               servem ao destino, não ao viajante. Nossas viagens em grupo, com
               guia brasileiro desde o Brasil ou guias locais no destino, seguem
-              o mesmo critério: roteiro autoral, ritmo pensado e grupo pequeno.
+              o mesmo critério: roteiro autoral, ritmo pensado e curadoria em cada detalhe.
             </p>
             <p>
               Trabalhamos com uma rede internacional de parceiros locais,
