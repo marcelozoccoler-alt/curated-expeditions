@@ -49,7 +49,7 @@ const QuantoCusta = () => {
 
         <header className="max-w-3xl space-y-4 mb-12">
           <p className="text-caption text-gold">Transparência de preço</p>
-          <h1 className="text-display">Quanto custa viajar para os destinos que fazemos</h1>
+          <h1 className="heading-hero">Quanto custa viajar para os destinos que fazemos</h1>
           <p className="text-editorial text-muted-foreground">
             Reunimos, destino por destino, os valores reais das nossas saídas em grupo — com o que
             está incluído, o que prever de extras, a melhor época e quantos dias a viagem pede.
@@ -80,7 +80,7 @@ const QuantoCusta = () => {
                 to={precoPath(d)}
                 className="block h-full rounded-2xl border border-border/60 p-6 hover:border-gold transition-colors"
               >
-                <h2 className="text-title mb-2">Quanto custa viajar para {d.nome}</h2>
+                <h2 className="heading-card mb-2">Quanto custa viajar para {d.nome}</h2>
                 <p className="text-sm text-muted-foreground leading-relaxed">{d.faixas[0].value}</p>
                 <p className="text-xs text-muted-foreground mt-1">{d.faixas[0].note}</p>
               </Link>
@@ -89,7 +89,7 @@ const QuantoCusta = () => {
         </ul>
       </main>
 
-      <WhatsAppButton />
+      <WhatsAppButton variant="cta" params={{ type: "Geral", name: "Quanto custa viajar" }} label="Falar com um travel designer" />
       <Footer />
     </div>
   );
