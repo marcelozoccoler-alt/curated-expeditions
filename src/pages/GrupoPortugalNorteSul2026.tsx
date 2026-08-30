@@ -213,7 +213,7 @@ const faqs = [
   },
   {
     q: "Qual o perfil do grupo?",
-    a: "Grupo pequeno com coordenador brasileiro desde São Paulo e guia local em português. Casais, amigos e viajantes solo são muito bem-vindos. Trabalhamos com apartamento duplo (compartilhado) ou individual (com suplemento).",
+    a: "Grupo com coordenador desde o Brasil e São Paulo e guia local em português. Casais, amigos e viajantes solo são muito bem-vindos. Trabalhamos com apartamento duplo (compartilhado) ou individual (com suplemento).",
   },
 ];
 
