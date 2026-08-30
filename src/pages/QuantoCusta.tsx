@@ -87,10 +87,28 @@ const QuantoCusta = () => {
             </li>
           ))}
         </ul>
+
+        <section className="mt-16 rounded-lg border border-border p-8 text-center">
+          <h2 className="heading-section text-foreground">Quer o valor exato para as suas datas?</h2>
+          <p className="mx-auto mt-3 max-w-2xl text-muted-foreground">
+            Um travel designer da Create Travel calcula o orçamento com hotéis, datas e ritmo
+            definidos com você — atendimento humano, sem call center.
+          </p>
+          <div className="mt-6 flex flex-wrap justify-center gap-4">
+            <WhatsAppButton
+              variant="cta"
+              params={{ type: "Geral", name: "Quanto custa viajar" }}
+              label="Falar com um travel designer"
+            />
+            <Link to="/roteiro-sob-medida" className="btn-outline inline-flex items-center">
+              Roteiro sob medida
+            </Link>
+          </div>
+        </section>
       </main>
 
-      <WhatsAppButton variant="cta" params={{ type: "Geral", name: "Quanto custa viajar" }} label="Falar com um travel designer" />
       <Footer />
+
     </div>
   );
 };
