@@ -8,6 +8,7 @@ import type { DiaryPost } from "./diaryPosts";
 export const diaryPostsCombos: DiaryPost[] = [
   {
     slug: "canyons-do-rio-grande-do-sul-roteiro-aparados-da-serra",
+    imageOverrideUrl: "/src/assets/diary/canyons-rio-grande-do-sul.jpg",
     title: "Canyons do Rio Grande do Sul: roteiro por Aparados da Serra",
     h1: "Canyons do Rio Grande do Sul: Itaimbezinho, Fortaleza e a serra que termina no abismo",
     metaDescription:
@@ -99,6 +100,7 @@ export const diaryPostsCombos: DiaryPost[] = [
   },
   {
     slug: "rota-das-emocoes-jericoacoara-delta-lencois-roteiro",
+    imageOverrideUrl: "/src/assets/diary/rota-das-emocoes.jpg",
     title: "Rota das Emoções: Jericoacoara, Delta e Lençóis em um roteiro",
     h1: "Rota das Emoções: de Jericoacoara ao Delta do Parnaíba e aos Lençóis Maranhenses",
     metaDescription:
@@ -190,6 +192,7 @@ export const diaryPostsCombos: DiaryPost[] = [
   },
   {
     slug: "bonito-pantanal-e-chapada-dos-guimaraes-roteiro-combinado",
+    imageOverrideUrl: "/src/assets/diary/bonito-pantanal-chapada.jpg",
     title: "Bonito, Pantanal e Chapada: roteiro combinado no Centro-Oeste",
     h1: "Bonito, Pantanal e Chapada dos Guimarães: o Centro-Oeste em uma só viagem",
     metaDescription:
