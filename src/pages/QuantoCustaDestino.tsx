@@ -234,7 +234,7 @@ const QuantoCustaDestino = () => {
           <div className="mt-6 flex flex-wrap justify-center gap-4">
             <WhatsAppButton
               variant="cta"
-              params={{ type: "Destinos", name: destino.nomeCurto }}
+              params={{ type: "Destino", name: destino.nomeCurto }}
               label="Pedir orçamento no WhatsApp"
             />
             <Link to="/roteiro-sob-medida" className="btn-outline inline-flex items-center">
