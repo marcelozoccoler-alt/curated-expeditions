@@ -292,7 +292,7 @@ export const precoDestinos: PrecoDestino[] = [
     faixas: [
       { label: "Grupo com coordenador desde o Brasil", value: "A partir de R$ 18.295 por pessoa", note: "9 dias, apto duplo, voos incluídos" },
       { label: "Roteiro privativo sob medida", value: "Sob consulta", note: "riads selecionados e motorista particular" },
-      { label: "Extras sugeridos", value: "R$ 2.000 a R$ 3.500", detalhe: undefined, note: "refeições livres, gorjetas e compras" },
+      { label: "Extras sugeridos", value: "R$ 2.000 a R$ 3.500", note: "refeições livres, gorjetas e compras" },
     ],
     composicao: [
       { item: "Voos internacionais", valor: "Incluídos no grupo", detalhe: "Companhia regular a partir de São Paulo com conexão na Europa." },
