@@ -306,8 +306,98 @@ export const destinations: Destination[] = [
       { q: "É indicado para crianças?", a: "Depende da idade e disposição para deslocamentos." },
       { q: "O que são fervedouros?", a: "Nascentes de água cristalina onde não se afunda." },
       { q: "Como criar roteiro?", a: "Clique em Criar roteiro sob medida." }
+    ],
+    itineraries: [
+      {
+        title: "Jalapão Volta Completa — 6 dias",
+        duration: "6 dias / 5 noites",
+        pricePerPerson: "R$ 4.415",
+        currency: "BRL",
+        priceBasis: "Por pessoa em apartamento duplo (parte terrestre). Individual R$ 5.234 · triplo R$ 4.262. Saídas de janeiro a dezembro de 2026, mínimo 2 viajantes.",
+        summary:
+          "A volta completa do Jalapão em 4x4, com Lagoa do Japonês, Pedra Furada, Cânion de Sussuapara, Dunas, Cachoeira da Formiga e os fervedouros mais bonitos do cerrado — hospedagem em Palmas e em pousadas com pensão completa.",
+        days: [
+          { day: "1", location: "Palmas", description: "Chegada ao aeroporto de Palmas e traslado ao hotel. Restante do dia livre para descanso." },
+          { day: "2", location: "Palmas · Lagoa do Japonês · Pedra Furada · Ponte Alta", description: "Saída rumo ao Jalapão com parada na Lagoa do Japonês, de águas cristalinas e formações rochosas singulares (tirolesa opcional). Almoço na própria lagoa e, à tarde, a Pedra Furada — blocos areníticos esculpidos pelo vento há milhões de anos — com visita a ateliês de artesanato. Pernoite em Ponte Alta. (café, almoço, jantar)" },
+          { day: "3", location: "Ponte Alta · Rio Novo · Sussuapara · Dunas do Jalapão · Mateiros", description: "Cânion de Sussuapara e o visual da Serra do Espírito Santo. Banho nas praias de água doce do Rio Novo e almoço na comunidade quilombola do Rio Novo. Fim de tarde nas Dunas do Jalapão para o pôr do sol. Pernoite em Mateiros. (café, almoço, jantar)" },
+          { day: "4", location: "Mateiros · Fervedouro Macaúbas · Cachoeira da Formiga · São Félix", description: "Opção de subir o Morro do Jucurutu ao nascer do sol (opcional). Banho no Fervedouro Macaúbas, mergulho nas águas verdes da Cachoeira da Formiga e tarde no Fervedouro Bela Vista. Pernoite em São Félix do Tocantins. (café, almoço, jantar)" },
+          { day: "5", location: "São Félix · Serra da Catedral · Cachoeira das Araras · Palmas", description: "Parada panorâmica na Serra da Catedral, banho e almoço na Cachoeira das Araras e Fervedouro do Alecrim. Retorno a Palmas no início da noite. (café, almoço)" },
+          { day: "6", location: "Palmas", description: "Café da manhã e traslado ao aeroporto. (café)" }
+        ],
+        hotels: [
+          { city: "Palmas", hotel: "Girassol Plaza Hotel", nights: 2, category: "4★", includes: "Café da manhã" },
+          { city: "Ponte Alta · Mateiros · São Félix", hotel: "Pousadas selecionadas da região (apartamentos com ar-condicionado)", nights: 3, includes: "Pensão completa e lanches de trilha" }
+        ],
+        includes: [
+          "Traslados aeroporto de Palmas / hotel / aeroporto",
+          "2 noites em Palmas com café da manhã",
+          "3 noites em pousadas com pensão completa e lanches de trilha",
+          "Todos os passeios descritos no roteiro",
+          "Taxas de entrada nos atrativos",
+          "Guias especializados da região",
+          "Transporte em veículo 4x4",
+          "Kit viagem",
+          "Seguro viagem nacional (consulte suplemento acima de 84 anos)"
+        ],
+        excludes: [
+          "Passagem aérea",
+          "Bebidas nas refeições",
+          "Taxa de Turismo Sustentável de Mateiros (R$ 30 por pessoa, paga pelo viajante)",
+          "Gastos de caráter pessoal e serviços não listados"
+        ],
+        notes: [
+          "Código de referência do roteiro: FA-JAL-06.",
+          "Melhor época: maio a setembro (seca), quando estradas e fervedouros estão em ponto ideal.",
+          "Pagamento: à vista com 3% de desconto (pix ou depósito) ou entrada de 20% + 7 parcelas iguais no cartão.",
+          "A ordem dos dias pode ser invertida por disponibilidade de hospedagem — todos os atrativos são mantidos.",
+          "Região remota: leve dinheiro em espécie e vacina de febre amarela recomendada com 10 dias de antecedência.",
+          "Valores por pessoa, sujeitos a alteração e confirmação no ato da reserva. Não válidos para feriados."
+        ]
+      },
+      {
+        title: "Jalapão Vivências e Emoções — 6 dias",
+        duration: "6 dias / 5 noites",
+        pricePerPerson: "Sob consulta",
+        priceBasis: "Por pessoa, parte terrestre. Saídas quinzenais de junho a dezembro de 2026 (não válido para feriados).",
+        summary:
+          "Uma leitura mais lenta e afetiva do Jalapão: comunidades quilombolas, cozinha de dona Almerinda e dona Cleuza, banho noturno em fervedouro e o capim dourado nascendo nas mãos das artesãs de Mumbuca.",
+        days: [
+          { day: "1", location: "Palmas", description: "Chegada e traslado ao hotel. Restante do dia livre." },
+          { day: "2", location: "Palmas · Lagoa do Japonês · Pedra Furada · Ponte Alta", description: "Lagoa do Japonês com suas águas azuis, almoço de comida típica com dona Almerinda e entardecer na Pedra Furada. Jantar e pernoite em Ponte Alta. (café, almoço)" },
+          { day: "3", location: "Ponte Alta · Sussuapara · Rio Novo · Dunas · Mateiros", description: "Cânion Sussuapara, encontro com a comunidade do Rio Novo, almoço na casa de dona Cleuza e banho na praia do Pixico. Pôr do sol nas Dunas do Jalapão. Pernoite em Mateiros. (café, almoço)" },
+          { day: "4", location: "Mateiros · Mumbuca · Fervedouros · São Félix", description: "Trekking opcional ao Morro do Jacurutu no nascer do sol. Cachoeira da Formiga, almoço na comunidade quilombola do Mumbuca — berço do capim dourado — e banhos nos fervedouros do Ceiça e Beija-flor. Vivência na Comunidade do Prata e banho noturno no fervedouro. Pernoite em São Félix. (café, almoço)" },
+          { day: "5", location: "São Félix · Fervedouros Capão e Alecrim · Palmas", description: "Fervedouros Capão (Bela Vista) e Alecrim, almoço na Cachoeira das Araras e parada fotográfica no Morro da Catedral. Chegada a Palmas por volta das 18h. Rafting classe II no Rio Sono como opcional. (café, almoço)" },
+          { day: "6", location: "Palmas", description: "Café da manhã e traslado ao aeroporto. (café)" }
+        ],
+        hotels: [
+          { city: "Palmas", hotel: "Hotel selecionado (4★)", nights: 2, includes: "Café da manhã" },
+          { city: "Ponte Alta · Mateiros · São Félix", hotel: "Pousadas da região com ar-condicionado", nights: 3, includes: "Refeições conforme roteiro" }
+        ],
+        includes: [
+          "Traslados aeroporto / hotel / aeroporto em Palmas",
+          "5 noites de hospedagem conforme roteiro",
+          "Refeições indicadas no programa e lanches de trilha",
+          "Passeios, taxas de entrada e guias especializados",
+          "Transporte em veículo 4x4",
+          "Seguro viagem nacional"
+        ],
+        excludes: [
+          "Passagem aérea",
+          "Bebidas nas refeições",
+          "Taxa de Turismo Sustentável de Mateiros",
+          "Opcionais: trekking do Morro do Jacurutu e rafting no Rio Sono",
+          "Gastos pessoais e serviços não listados"
+        ],
+        notes: [
+          "Código de referência do roteiro: FA-JAL-VE.",
+          "Ideal para quem quer o Jalapão com mais tempo de convivência com as comunidades locais.",
+          "Roteiro pode ser invertido por disponibilidade de hospedagem, mantendo todos os atrativos.",
+          "Valores e datas confirmados na cotação; parte terrestre sob consulta."
+        ]
+      }
     ]
   },
+
   {
     id: "brasil-monte-roraima",
     continent: "Brasil",
