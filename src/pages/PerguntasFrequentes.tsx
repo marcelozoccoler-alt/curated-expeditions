@@ -346,6 +346,12 @@ const PerguntasFrequentes = () => {
             >
               Como funciona o roteiro sob medida
             </Link>
+            <Link
+              to="/quanto-custa"
+              className="btn-outline inline-flex items-center"
+            >
+              Quanto custa viajar por destino
+            </Link>
           </div>
         </section>
       </main>
