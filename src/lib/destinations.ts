@@ -34,7 +34,7 @@ import tailandiaImg from "@/assets/destinations/asia-tailandia.jpg";
 import japaoKansaiImg from "@/assets/destinations/asia-japao-kansai.jpg";
 import japaoHokkaidoImg from "@/assets/destinations/asia-japao-hokkaido.jpg";
 
-export const destinations: Destination[] = [
+const baseDestinations: Destination[] = [
   // ===== BRASIL =====
   {
     id: "brasil-amazonia-anavilhanas",
