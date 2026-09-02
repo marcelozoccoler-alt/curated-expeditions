@@ -2501,6 +2501,26 @@
     <priority>0.9</priority>
   </url>
   <url>
+    <loc>https://createtravel.tur.br/livro-autoral</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://createtravel.tur.br/viagem/capitais-imperiais-2026</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://createtravel.tur.br/viagem/capitais-imperiais-2026/budapeste</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://createtravel.tur.br/viagem/capitais-imperiais-2026/viena</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://createtravel.tur.br/quanto-custa/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
