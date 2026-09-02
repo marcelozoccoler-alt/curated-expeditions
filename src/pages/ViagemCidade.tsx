@@ -35,6 +35,17 @@ const ViagemCidade = () => {
   const trilha = getTrilha(data.slug);
   const voz = vozDaCidade(data.slug);
   const path = `${VIAGEM_PATH}/${data.slug}`;
+  const textoDoBloco = (b: (typeof data.blocks)[number]) =>
+    textoParaNarracao(
+      b.subtitle ?? b.title,
+      b.intro,
+      ...b.items.map((i) => textoParaNarracao(i.heading, i.body))
+    );
+  const textoCidade = textoParaNarracao(
+    data.title,
+    data.subtitle,
+    ...data.blocks.map((b) => textoDoBloco(b))
+  );
   const description = `Roteiro dia a dia em ${data.nome} (${data.dates}) do grupo exclusivo e autoral Create Travel: história, lendas, hotel, gastronomia e cada hora da viagem.`;
 
   const jsonLd = [
@@ -97,7 +108,7 @@ const ViagemCidade = () => {
       <main className="container-editorial py-12">
         <Breadcrumbs items={[{ label: VIAGEM.nome, href: VIAGEM_PATH }, { label: data.nome }]} />
 
-        <NarracaoAviso cidade={data.nome} />
+        <NarracaoAviso cidade={data.nome} textoCompleto={textoCidade} />
 
         {/* Navegação entre cidades */}
         <nav className="mt-6 flex flex-wrap gap-2" aria-label="Cidades da viagem">
@@ -157,11 +168,7 @@ const ViagemCidade = () => {
                     <div className="mt-3">
                       <BotaoOuvir
                         id={`${block.id}-completo`}
-                        texto={textoParaNarracao(
-                          block.subtitle ?? block.title,
-                          block.intro,
-                          ...block.items.map((i) => textoParaNarracao(i.heading, i.body))
-                        )}
+                        texto={textoDoBloco(block)}
                         label="Ouvir o dia inteiro"
                       />
                     </div>
@@ -169,6 +176,13 @@ const ViagemCidade = () => {
 
                   {block.intro && (
                     <div className="mb-8">
+                      <div className="mb-2">
+                        <BotaoOuvir
+                          id={`${block.id}-intro`}
+                          texto={textoParaNarracao(block.intro)}
+                          label="Ouvir esta abertura"
+                        />
+                      </div>
                       <TextoNarravel
                         id={`${block.id}-intro`}
                         texto={textoParaNarracao(block.intro)}
@@ -216,6 +230,13 @@ const ViagemCidade = () => {
                   {block.subtitle && (
                     <p className="text-muted-foreground italic mb-4">{block.subtitle}</p>
                   )}
+                  <div className="mb-4">
+                    <BotaoOuvir
+                      id={`${block.id}-completo`}
+                      texto={textoDoBloco(block)}
+                      label="Ouvir este capítulo"
+                    />
+                  </div>
                   {block.intro && (
                     <div className="mb-6">
                       <TextoNarravel

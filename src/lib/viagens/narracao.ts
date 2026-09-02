@@ -12,15 +12,15 @@ export interface VozNarracao {
 }
 
 const BASE =
-  "Leia em português do Brasil como narrador de um documentário de viagem: ritmo calmo, pausas nas vírgulas, timbre caloroso e próximo, sem pressa e sem exagero teatral. Pronuncie nomes estrangeiros com naturalidade.";
+  "Leia em português do Brasil como quem conta uma história de dormir para alguém muito querido: ritmo natural e fluido, um pouco mais rápido que uma leitura formal, nunca arrastado. Tom de conversa, animado e afetuoso, com pequenas variações de entonação e curiosidade genuína — como um pai lendo um livro de histórias à noite. Sorria na voz, respire nas vírgulas sem alongar demais e pronuncie nomes estrangeiros com naturalidade.";
 
 export const VOZ_MASCULINA: VozNarracao = {
   id: "masculina",
   voice: "onyx",
   genero: "masculina",
   nome: "Voz masculina",
-  descricao: "Grave, aveludada — como quem conta a história sentado ao seu lado.",
-  instructions: `${BASE} Voz masculina grave e aveludada, afetuosa, em tom confidencial.`,
+  descricao: "Grave e aveludada — como quem lê uma história de dormir sentado ao seu lado.",
+  instructions: `${BASE} Voz masculina grave e aveludada, calorosa e animada, em tom de conversa próxima.`,
 };
 
 export const VOZ_FEMININA: VozNarracao = {
@@ -28,8 +28,8 @@ export const VOZ_FEMININA: VozNarracao = {
   voice: "shimmer",
   genero: "feminina",
   nome: "Voz feminina",
-  descricao: "Clara e serena — conduz o olhar de rua em rua.",
-  instructions: `${BASE} Voz feminina clara e serena, elegante, com leveza.`,
+  descricao: "Clara e envolvente — conduz o olhar de rua em rua como numa história.",
+  instructions: `${BASE} Voz feminina clara e envolvente, elegante, leve e animada.`,
 };
 
 /** Ordem das cidades define a alternância: ímpar masculina, par feminina. */
