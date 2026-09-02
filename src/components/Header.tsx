@@ -73,6 +73,7 @@ export const Header = () => {
           ...brasilSubItems,
           ...gruposSubItems,
           { label: "Cruzeiros fluviais", href: "/cruzeiros-fluviais" },
+          { label: "Livro Autoral", href: "/livro-autoral" },
           { label: "Blog", href: "/diario" },
           { label: "Nós viajamos!", href: "/depoimentos" },
           { label: t("nav.contato"), href: "/contato" },
