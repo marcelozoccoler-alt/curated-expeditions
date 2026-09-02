@@ -6,6 +6,8 @@ import { Breadcrumbs } from "@/components/Breadcrumbs";
 import { WhatsAppButton } from "@/components/WhatsAppButton";
 import { CIDADES, CIDADES_EM_BREVE, VIAGEM, VIAGEM_PATH } from "@/lib/viagens/capitaisImperiais";
 import { CONTACT } from "@/lib/types";
+import { TrilhaSonora } from "@/components/viagem/TrilhaSonora";
+import { TRILHA_VIAGEM } from "@/lib/viagens/trilhas";
 import { ArrowRight, BookOpen, Camera, MapPin, Film } from "lucide-react";
 
 const DOMAIN = CONTACT.domain.replace(/\/$/, "");
