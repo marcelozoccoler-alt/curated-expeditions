@@ -25,6 +25,7 @@ const ViagemCidade = () => {
 
   if (!data) return <Navigate to={VIAGEM_PATH} replace />;
 
+  const trilha = getTrilha(data.slug);
   const path = `${VIAGEM_PATH}/${data.slug}`;
   const description = `Roteiro dia a dia em ${data.nome} (${data.dates}) do grupo exclusivo e autoral Create Travel: história, lendas, hotel, gastronomia e cada hora da viagem.`;
 
