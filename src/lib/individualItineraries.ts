@@ -176,7 +176,7 @@ export const INDIVIDUAL_ITINERARIES: Record<string, Itinerary[]> = {
     },
   ],
 
-  "brasil/cataratas-iguacu": [
+  "brasil/sul/cataratas-iguacu": [
     {
       title: "Foz do Iguaçu — 5 dias",
       duration: "5 dias / 4 noites · saídas diárias",
