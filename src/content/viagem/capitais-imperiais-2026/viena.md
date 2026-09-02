@@ -910,9 +910,3 @@ E agora, sobre os trilhos, o destino seguinte se desenha: Praga, a cidade das ce
 Fim da Parte II - Viena.
 
 Próxima parada: Praga - A Cidade das Cem Torres.
-
----
-
-Marcelo, está entregue o texto de Viena íntegro, corrigido e lapidado, no mesmo padrão do livro. As doze correções foram aplicadas pontualmente e a formatação foi alinhada à de Budapeste (seções em caixa alta, dados do dia em linhas, linha do tempo, narrativa com horários, links do Google Maps e resumo do dia).
-
-Dois lembretes para fechar o conjunto: (1) em Budapeste, a grafia "Francisco Jose" aparece sem acento no que você me enviou — vale corrigir para "Francisco José" na revisão final para unificar com Viena; (2) se quiser, no próximo passo eu aplico a mesma varredura a Praga, cruzando os trens, os dias da semana (10 a 12 de outubro) e os dados oficiais, no mesmo formato.
