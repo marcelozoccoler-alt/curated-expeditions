@@ -222,6 +222,10 @@ const ViagemCidade = () => {
         </div>
       </main>
 
+      {trilha && (
+        <TrilhaSonora titulo={trilha.titulo} descricao={trilha.descricao} faixas={trilha.faixas} />
+      )}
+
       <Footer />
     </div>
   );
