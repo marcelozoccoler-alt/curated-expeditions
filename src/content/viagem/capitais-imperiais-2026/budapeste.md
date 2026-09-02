@@ -2,938 +2,972 @@
 ## A Pérola do Danúbio
 ### 3 a 6 de outubro de 2026
 
----
-
 ## A HISTÓRIA DE BUDAPESTE: ONDE O RIO SE TORNA ETERNIDADE
 
-Budapeste nasceu de um encontro: o de dois mundos separados pelo Danúbio, unidos pelo destino. Buda, a margem oeste — colinas, castelos, silêncio. Peste, a margem leste — planície, comércio, barulho. Duas cidades que se olharam por séculos antes de se abraçarem, em 1873, e se tornarem uma só.
+Budapeste não nasceu de uma vez. Nasceu de um encontro — o encontro de dois mundos separados por um rio e unidos pelo destino.
 
-### As Origens: Aquincum
+No século I, quando Roma era ainda o centro do mundo conhecido, os imperadores fundaram Aquincum na margem oeste do Danúbio. Era uma cidade de legionários, termas e anfiteatros. Os restos dessa civilização ainda podem ser visitados hoje, a poucos quilômetros do centro.
 
-Tudo começou com os romanos. No ano 89 d.C., o imperador Domiciano fundou **Aquincum** na margem direita do Danúbio — onde hoje fica o bairro de Óbuda, no norte de Buda. Era uma cidade próspera, com 20.000 habitantes, termas, fóruns, anfiteatros. Os restos ainda existem — e as termas romanas originais, em parte, ainda funcionam.
+Mas Roma caiu. E quando o Império se fragmentou, novos povos surgiram do leste. Em 896 d.C., os magiares, liderados pelo príncipe Árpád, cruzaram os Cárpatos e fincaram acampamento nas planícies da Panônia. Era o ano que daria origem ao número sagrado de Budapeste: 96.
 
-Mas Roma caiu. E Aquincum desapareceu sob a terra, sob as invasões, sob o esquecimento.
+Foi Santo Estevão, coroado no ano 1000, quem transformou aquele acampamento em reino. Sua mão direita mumificada está preservada até hoje na Basílica que leva seu nome — uma relíquia de mais de mil anos que sobreviveu a invasões, saques, guerras e ao comunismo.
 
-### Os Magiares e o Rei Santo Estêvão
+Durante séculos, Buda e Peste viveram de costas uma para a outra. Buda era aristocrática, com seu castelo no alto da colina, onde reis e rainhas governavam. Peste era burguesa, com seus cafés, teatros e universidades. Foi só em 1873 que as duas cidades se uniram oficialmente. Nasceu Budapeste.
 
-Em 896, sete tribos magiares, lideradas por **Árpád**, chegaram às planícies da Panônia. Eram nômades, vindos dos Urais, falavam uma língua que ninguém entendia — e que ninguém entende até hoje. O húngaro é uma ilha linguística no meio da Europa: não se parece com alemão, nem com eslavos, nem com romeno. É parente distante do finlandês e do estoniano.
+### O NÚMERO SAGRADO: 96
 
-Em 1000, **Santo Estêvão** (István), filho do príncipe Géza, foi coroado o primeiro rei da Hungria. Ele transformou aquelas tribos nômades num reino cristão. Sua mão direita, mumificada, está até hoje na **Basílica de Santo Estêvão** — uma relíquia de mil anos, guardada numa capela de ouro e mármore.
+Há algo místico na arquitetura de Budapeste. Por lei, nenhum edifício pode ultrapassar 96 metros de altura. Apenas dois atingem exatamente essa marca: o Parlamento, poder político, e a Basílica de Santo Estevão, poder religioso. Na mesma altura, sob o mesmo céu. Um não domina o outro.
 
-### A Invasão Mongol e a Reconstrução
+Mas o 96 não é apenas uma lei urbana. É uma referência ao ano 896, quando os magiares chegaram à Panônia. É o número que conecta o passado ao presente, a terra ao céu, o humano ao divino.
 
-Em 1241, os mongóis de Batu Khan devastaram a Hungria. A metade da população morreu. O rei **Bela IV** reconstruiu o país — e construiu o **Castelo de Buda**, no alto da colina, para proteger a capital de novas invasões. O castelo seria destruído e reconstruído sete vezes ao longo dos séculos — pelos turcos, pelos Habsburgos, pela Segunda Guerra, pela Revolução de 1956. Cada reconstrução deixou uma camada. Buda é uma cebola de história.
+Em cada esquina de Budapeste, vocês sentirão essa harmonia. A cidade foi construída para lembrar que o poder político e o poder espiritual devem caminhar lado a lado, nunca um sobre o outro.
 
-### Os 150 Anos Turcos (1541-1686)
+## O RIO DANÚBIO: A VEIA QUE PULSA EM BUDAPESTE
 
-Em 1541, o sultão Solimão, o Magnífico, conquistou Buda. Por 145 anos, a Hungria foi parte do Império Otomano. Os turcos deixaram marcas profundas: as **termas** (Kiraly, Rudas, Császár), as mesquitas transformadas em igrejas, a culinária (páprica, goulash, pimentões). Budapeste é a única capital europeia que é, também, uma cidade termal otomana.
+### O RIO QUE ATRAVESSA DEZ NAÇÕES
 
-Em 1686, os Habsburgos reconquistaram Buda. A cidade foi reconstruída em estilo barroco — e os Habsburgos governariam a Hungria pelos próximos 250 anos.
+O Danúbio — Duna em húngaro — não é apenas um rio. É a espinha dorsal da Europa.
 
-### O Compromisso de 1867 e o Nascimento de Budapeste
+Nasce na Floresta Negra, na Alemanha, onde dois riachos, o Brigach e o Breg, se encontram na cidade de Donaueschingen. Daí, percorre 2.850 quilômetros, atravessando dez países e quatro capitais: Viena, Bratislava, Budapeste e Belgrado. Deságua no Mar Negro, formando o maior delta da Europa.
 
-Em 1867, após séculos de resistência húngara, o imperador **Francisco José I** e os nobres húngaros chegaram a um acordo: o **Ausgleich** — o Compromisso. O Império Austríaco tornava-se a Áustria-Hungria, uma monarquia dual. A Hungria ganhava autonomia, parlamento, governo próprio.
+É o segundo rio mais longo do continente, atrás apenas do Volga. E é o único grande rio europeu que corre de oeste para leste — do coração germânico até as planícies eslavas, carregando consigo a história de impérios, guerras, comércio e civilizações.
 
-Para celebrar, e para simbolizar a união, em **17 de novembro de 1873**, as três cidades — **Buda, Óbuda e Peste** — foram oficialmente unificadas. Nasceu **Budapeste**.
+### O DANÚBIO EM BUDAPESTE
 
-### O Século Dourado (1867-1914)
+Em Budapeste, o rio vive seu momento mais dramático e mais belo.
 
-Entre o Compromisso e a Primeira Guerra, Budapeste viveu sua era de ouro. A população passou de 280.000 para 880.000 habitantes. Construiu-se o **Parlamento** (o terceiro maior do mundo), a **Basílica de Santo Estêvão**, a **Ópera**, a **Andrássy Avenue** (a resposta húngara aos Champs-Élysées), a **Ponte das Correntes** (a primeira ponte permanente sobre o Danúbio, inaugurada em 1849).
+Vindo do norte, o Danúbio chega calmo, quase preguiçoso. Mas ao encontrar as colinas de Buda, é obrigado a fazer uma curva elegante de quase 90 graus. É nessa curva que a cidade se revela em toda a sua glória: o Parlamento dourado à direita, o Castelo de Buda no alto à esquerda, e entre eles, as pontes como colares de pérolas sobre a água.
 
-Em 1896, Budapeste inaugurou o **primeiro metrô do continente europeu** — a Linha do Milênio, que ainda funciona, com seus vagões amarelos originais. Era a segunda linha de metrô do mundo, depois de Londres.
-
-### As Tragédias do Século XX
-
-O século XX foi cruel com Budapeste.
-
-**1920**: após a Primeira Guerra, o Tratado de Trianon reduziu a Hungria a um terço do seu território. Dois milhões de húngaros acordaram em países estrangeiros. Até hoje, o Trianon é uma ferida aberta — bandeiras húngaras tremulam em prefeituras da Eslováquia, Romênia, Sérvia.
-
-**1944-1945**: durante a Segunda Guerra, 560.000 judeus húngaros foram deportados para Auschwitz — a maioria em apenas 56 dias, entre maio e julho de 1944. O **Holocausto húngaro** foi um dos mais rápidos e brutais da história. Raoul Wallenberg, o diplomata sueco, salvou milhares — e desapareceu nas mãos dos soviéticos.
-
-**1956**: em 23 de outubro, estudantes e operários se levantaram contra o regime comunista. Por 12 dias, a Hungria foi livre. Em 4 de novembro, 3.000 tanques soviéticos entraram em Budapeste. 2.500 húngaros morreram. 200.000 fugiram. A estátua de Stalin foi derrubada — sobraram apenas as botas.
-
-**1989**: em 16 de junho, a Hungria reenterrou Imre Nagy, o líder da Revolução de 1956, executado em 1958. Foi o início do fim do comunismo. Em 19 de agosto de 1989, no Piquenique Pan-Europeu, a fronteira com a Áustria foi aberta — e 600 alemães-orientais fugiram para o Ocidente. A queda do Muro de Berlim começou aqui.
-
-### Budapeste Hoje
-
-Com 1,7 milhão de habitantes, Budapeste é uma das capitais mais belas da Europa. O Danúbio a atravessa, o Castelo a coroa, as termas a aquecem. Os prédios não ultrapassam 96 metros — um número sagrado: 96 anos entre a fundação da Hungria (1000) e a construção do Parlamento (1896). O Parlamento e a Basílica de Santo Estêvão têm exatamente 96 metros de altura — a harmonia entre o poder político e o espiritual.
-
-Vocês chegam a Budapeste num outono dourado. O Danúbio reflete o Parlamento iluminado. As termas fumegam no ar frio. A Ponte das Correntes brilha como uma joia. É a cidade que os nova-iorquinos chamam de "a Paris do Leste" — mas que é, na verdade, única.
-
----
-
-## O DANÚBIO EM BUDAPESTE: O RIO QUE DIVIDE E UNE
-
-### O CORAÇÃO DA CIDADE
-
-O Danúbio é o segundo maior rio da Europa — 2.850 km, da Floresta Negra ao Mar Negro, atravessando dez países. Em Budapeste, ele faz sua curva mais majestosa. Flui de norte a sul, dividindo a cidade em duas metades: **Buda**, a oeste, colinas, castelos, silêncio; **Peste**, a leste, planície, comércio, vida.
-
-Em outubro, o Danúbio está bronzeado — as folhas das árvores refletem na água, os barcos de passeio deslizam pela corrente, as gaivotas planam sobre a superfície. Ao entardecer, o Parlamento dourado se reflete no rio — e é uma das vistas mais fotografadas da Europa.
-
-### AS OITO PONTES
-
-Budapeste tem oito pontes sobre o Danúbio — cada uma com sua história, sua arquitetura, sua alma.
-
-- **Ponte das Correntes (Széchenyi Lánchíd)**: a primeira ponte permanente, inaugurada em 1849. Projetada pelo inglês William Tierney Clark. De cada lado, leões de pedra (sem línguas — a lenda diz que o escultor se suicidou ao perceber o "erro", mas na verdade as línguas existem, apenas não são visíveis de baixo). Destruída pelos nazistas em 1945, reconstruída em 1949. Reaberta em 2023, após quatro anos de reforma.
-- **Ponte Margarida (Margit híd)**: inaugurada em 1876, leva à Ilha Margarida. Tem um desvio no meio — para a ilha, um oásis no meio do rio.
-- **Ponte Elisabeth (Erzsébet híd)**: nome da imperatriz Sissi. A ponte original foi destruída em 1945. A atual, de 1964, é a ponte suspensa mais longa do Danúbio.
-- **Ponte da Liberdade (Szabadság híd)**: inaugurada em 1896, para a Exposição do Milênio. Tem decoração art nouveau e, no topo, o turul — o falcão mítico húngaro.
-- **Ponte Petőfi**: homenagem ao poeta da Revolução de 1848.
-- **Ponte Árpád**: a mais longa, leva ao norte de Buda.
-- **Ponte Rákóczi**: a mais nova, inaugurada em 2011.
-- **Ponte Megyeri**: a mais distante, parte do anel viário M0.
-
-### A ILHA MARGARIDA (MARGITSZIGET)
-
-No meio do Danúbio, entre Buda e Peste, a **Ilha Margarida** é um oásis de 2,5 km de comprimento. Sem carros, só pedestres e ciclistas. Tem piscinas termais, ruínas medievais, jardins japoneses, fontes musicais, um hotel de luxo. No verão, os budapestinhes vêm aqui para piqueniques, corridas, banhos de sol. No outono, é um paraíso dourado — as folhas caem sobre os caminhos, os cisnes deslizam pelos lagos.
+O rio tem 400 metros de largura no trecho central de Budapeste. Sua profundidade varia de 2 a 8 metros. No outono, a água ganha um tom esverdeado-escuro, e a luz do sol poente transforma sua superfície em um espelho de bronze.
 
 ### OS NOMES DO RIO
 
-Em Budapeste, o Danúbio é **Duna** em húngaro. Mas já foi **Danubius** em latim, **Istros** em grego antigo, **Donau** em alemão. É o mesmo rio que vocês verão em Viena — mais contido, mais urbano, mas igualmente eterno. Em Budapeste, ele é majestoso, largo, bronzeado. Em Viena, será mais contido — mas a mesma água, a mesma história.
+Ao longo de seus 2.850 quilômetros, o Danúbio muda de nome dez vezes: Donau em alemão, Duna em húngaro, Dunaj em eslovaco, Dunav em croata e sérvio, Dunarea em romeno, Dunav em búlgaro, Dunay em ucraniano. Mas é sempre o mesmo rio — como a história, que muda de língua mas nunca de essência.
 
----
+### A LENDA DAS ÁGUAS
+
+Diz uma lenda húngara que o Danúbio carrega as lágrimas de todos os povos que já habitaram suas margens. Lágrimas de legionários romanos saudando a pátria distante. Lágrimas de mongóis vencidos. Lágrimas de turcos exilados. Lágrimas de judeus deportados. Lágrimas de revolucionários fuzilados.
+
+E que, no outono, quando as folhas caem sobre a água, é possível ouvir o eco dessas lágrimas — não como lamento, mas como canção. Uma canção que sobe do rio e se mistura com a música de Franz Liszt, que um dia disse que o Danúbio é a sua partitura favorita.
+
+## AS PONTES DE BUDAPESTE: OS COLARES SOBRE O DANÚBIO
+
+Budapeste tem nove pontes que cruzam o Danúbio. Cada uma é uma história. Cada uma é um personagem.
+
+### A PONTE DAS CORRENTES — SZECHENYI LANCHID (1849)
+
+A mais antiga, a mais icônica, a mais amada.
+
+A história começa com uma tragédia pessoal. Em dezembro de 1820, o conde István Széchenyi, um dos aristocratas mais ricos e influentes da Hungria, recebeu a notícia de que seu pai havia morrido em Viena. Mas o inverno havia congelado o Danúbio, as balsas não podiam atravessar, e Széchenyi ficou preso na margem de Peste por uma semana inteira, sem poder ir ao funeral.
+
+Naquele momento, ele fez um juramento: construiria uma ponte permanente sobre o Danúbio. Custasse o que custasse.
+
+Széchenyi é chamado até hoje de o maior húngaro. Não apenas pela ponte. Ele fundou a Academia de Ciências, criou o primeiro cassino do país, introduziu corridas de cavalos no modelo inglês, modernizou a agricultura e foi o principal articulador da união de Buda e Peste. Era um visionário que via a Hungria atrasada e decidiu transformá-la.
+
+Em 1832, apresentou o projeto ao Parlamento húngaro e doou a renda de um ano inteiro para financiar a obra. O projeto foi aprovado.
+
+A ponte foi desenhada pelo engenheiro inglês William Tierney Clark, o mesmo que projetou a Ponte Hammersmith em Londres, e construída sob a supervisão do engenheiro escocês Adam Clark, sem parentesco entre eles.
+
+Levou dez anos para ser construída. Foi inaugurada em 20 de novembro de 1849, com 375 metros de comprimento e dois imponentes pilares neoclássicos de calcário. Em 1852, o escultor húngaro János Marschalko instalou os quatro leões monumentais nas extremidades — que se tornaram o símbolo mais fotografado de Budapeste.
+
+A lenda dos leões: diz-se que Marschalko, ao terminar as esculturas, percebeu que havia esquecido de esculpir as línguas. Envergonhado, teria se jogado no Danúbio. Mas a verdade é que os leões têm línguas — elas estão escondidas sob as mandíbulas, visíveis apenas de certos ângulos.
+
+Durante a Segunda Guerra Mundial, em 1945, os alemães em retirada dinamitaram todas as pontes de Budapeste. A Ponte das Correntes foi completamente destruída. Apenas os pilares sobreviveram. Mas os húngaros a reconstruíram idêntica ao original, pedra por pedra, corrente por corrente. Foi reinaugurada em 1949, exatamente no centenário.
+
+Hoje, caminhar pela Ponte das Correntes é caminhar sobre a história. De um lado, a Praça Széchenyi com o Palácio Gresham e a Academia de Ciências. Do outro, a Praça Adam Clark com a Pedra do Quilômetro Zero, de onde se medem todas as distâncias da Hungria, e o Funicular do Castelo.
+
+Vocês a verão de longe no Dia 1, durante a caminhada até o Parlamento. E a cruzarão no Dia 2, a caminho de Buda.
+
+### A PONTE MARGARIDA — MARGIT HID (1876)
+
+A segunda mais antiga. Projetada pelo engenheiro francês Ernest Gouin, tem 607 metros de comprimento e uma geometria peculiar: forma um V de 165 graus, porque uma extensão para a Ilha Margarida foi adicionada duas décadas depois do projeto original — por falta de verba, a ilha ficou órfã de acesso por 20 anos.
+
+A ilha leva o nome de Santa Margarida (1242–1271), filha do rei Béla IV, que foi entregue a um convento na ilha quando criança, em promessa divina, para que os mongóis não destruíssem a Hungria. Ela viveu ali até a morte, como freira. A ilha é hoje um parque público, com termas, pistas de corrida e jardins.
+
+### A PONTE ELISABETH — ERZSEBET HID (1903/1964)
+
+A ponte mais trágica de Budapeste.
+
+Leva o nome de Elisabeth da Baviera, a imperatriz Sisi, a mulher mais amada e mais incompreendida da história austro-húngara. Assassinada em Genebra em 1898 por um anarquista italiano, Sisi era adorada pelos húngaros, que viam nela uma aliada contra a rigidez da corte vienense.
+
+A ponte original, inaugurada em 1903, foi destruída na guerra. A versão atual, de 1964, é uma ponte suspensa moderna, sem ornamentos, no ponto mais estreito do Danúbio em Budapeste, apenas 290 metros. Na margem de Buda, há uma estátua de bronze de Sisi, rodeada por um pequeno jardim.
+
+### A PONTE DA LIBERDADE — SZABADSAG HID (1896)
+
+Construída para a Exposição do Milênio de 1896, celebrando os 1.000 anos da chegada dos magiares. Originalmente chamada Ponte Francisco José, foi renomeada após a Segunda Guerra. É uma das pontes centrais mais elegantes, com suas estruturas de aço verde decoradas com turul, a ave mitológica húngara.
+
+### A PONTE ARPAD — ARPAD HID (1950)
+
+A mais ao norte. Construída durante o período soviético, leva o nome de Árpád, o príncipe que liderou os magiares através dos Cárpatos em 896.
 
 ## OS PERSONAGENS QUE FIZERAM BUDAPESTE
 
 Antes de caminharem pelas ruas, conheçam as almas que habitam cada pedra desta cidade.
 
-### OS REIS E HEROIS
+### OS REIS E IMPERADORES
 
-**Santo Estêvão (István, 975-1038)** — O fundador. Primeiro rei da Hungria, coroado no ano 1000 pelo papa. Transformou tribos nômades num reino cristão. Sua mão mumificada é a relíquia mais sagrada do país — guardada na Basílica que leva seu nome. É o santo padroeiro da Hungria. Seu dia, 20 de agosto, é o feriado nacional.
+Santo Estevão (975–1038) — O fundador. Primeiro rei da Hungria, coroado no ano 1000 pelo Papa Silvestre II. Cristianizou o país e criou as instituições do Estado. Sua mão mumificada é a relíquia mais sagrada da nação.
 
-**Francisco Deák (1803-1876)** — "O Sábio da Nação". O político que negociou o Ausgleich de 1867 — o Compromisso que deu à Hungria autonomia dentro do Império Austro-Húngaro. Sua estátua está na praça em frente ao Parlamento. Os budapestinhes o chamam de "o homem que salvou a Hungria sem derramar sangue".
+Béla IV (1206–1270) — O reconstrutor. Após a devastação dos mongóis em 1241, reconstruiu a Hungria e fundou o Castelo de Buda, transformando uma colina desabitada em fortaleza real.
 
-**Lajos Kossuth (1802-1894)** — O líder da Revolução de 1848. Governador-presidente da Hungria independente, fugiu após a invasão russa. Viveu exilado até a morte. Sua praça, em frente ao Parlamento, é o coração político da cidade.
+Matthias Corvinus, Mátyás Hunyadi (1443–1490) — O rei renascentista. Filho de um general, tornou-se um dos maiores reis da Europa. Sua biblioteca, a Bibliotheca Corviniana, era a segunda maior do mundo, atrás apenas da do Vaticano. Transformou Buda em um centro de arte e ciência. A igreja que leva seu nome foi onde ele se casou e onde, séculos depois, Sisi seria coroada.
 
-**István Széchenyi (1791-1860)** — "O Maior Húngaro". O aristocrata que construiu a Ponte das Correntes, fundou a Academia de Ciências, modernizou a Hungria. Cometeu suicídio num asilo em 1860, após saber que seu filho fora internado. A praça Széchenyi, onde estão as termas, leva seu nome.
+Francisco José I (1830–1916) — O imperador que reinou por 68 anos. Casou-se com Sisi por amor, contra a vontade da corte. Após a derrota na guerra contra a Prússia em 1866, aceitou o Compromisso Austro-Húngaro de 1867, que criou a monarquia dual. Foi coroado rei da Hungria na Igreja de Matias, ao lado de Sisi.
 
-### OS ARTISTAS
+Sisi, Elisabeth da Baviera (1837–1898) — A imperatriz rebelde. Bela, melancólica, apaixonada pela Hungria. Aprendeu húngaro fluentemente. Os húngaros a amavam. Foi assassinada em Genebra por um anarquista. A Ponte Elisabeth leva seu nome.
 
-**Franz Liszt (1811-1886)** — O pianista mais famoso da história. Nasceu em Raiding, na fronteira austríaca, mas era húngaro de coração. Suas Rapsódias Húngaras imortalizaram a música cigana. A Academia de Música de Budapeste leva seu nome — e é uma das salas de concerto mais belas do mundo.
+### OS MÚSICOS
 
-**Béla Bartók (1881-1945)** — O compositor que coletou músicas folclóricas por toda a Europa Central. Sua obra é uma síntese do modernismo e da tradição húngara. Fugiu dos nazistas em 1940, morreu em Nova York no ano seguinte. Seu corpo foi trazido de volta — e enterrado nas montanhas Bükks, que ele amava.
+Franz Liszt, Liszt Ferenc (1811–1886) — O maior pianista do século XIX. Nasceu em Doborján, hoje na Áustria, mas sempre se declarou húngaro. Sua fama era tão avassaladora que criaram um termo para descrevê-la: Lisztomania. Compôs as 19 Rapsódias Húngaras, inspiradas na música cigana. Fundou a Academia de Música que leva seu nome. O aeroporto de Budapeste também.
 
-**Zoltán Kodály (1882-1967)** — O pedagogo musical que revolucionou o ensino de música no mundo inteiro. O "Método Kodály" é usado em escolas do Japão ao Brasil.
+Ferenc Erkel (1810–1893) — O pai da ópera húngara. Compôs o hino nacional da Hungria, o Himnusz, e fundou a Ópera Nacional. Sua música é a alma sonora do país.
 
-**Sándor Márai (1900-1989)** — O escritor que descreveu Budapeste como ninguém. *As Velas Ardem Até o Fim* é um dos grandes romances do século XX. Fugiu em 1948, viveu exilado nos EUA, cometeu suicídio em 1989.
+Béla Bartók (1881–1945) — O etnomusicólogo. Percorreu vilarejos da Hungria, Romênia e Eslováquia gravando canções folclóricas em cilindros de fonógrafo. Revolucionou a música clássica do século XX. Fugiu do nazismo e morreu em Nova York, pobre e esquecido. Seus restos mortais foram repatriados para Budapeste em 1988.
 
-### OS HERÓIS DO HOLOCAUSTO
+Zoltán Kodály (1882–1967) — O pedagogo. Amigo de Bartók, criou o Método Kodály de educação musical, usado em escolas do mundo inteiro. Acreditava que a música pertence a todos.
 
-**Raoul Wallenberg (1912-1947?)** — O diplomata sueco que salvou 100.000 judeus húngaros em 1944, distribuindo passaportes suecos falsos. Foi preso pelos soviéticos em 1945 e desapareceu. Até hoje, ninguém sabe se morreu numa prisão soviética ou quando. Em Budapeste, há um memorial em sua homenagem — na parede do edifício onde ele tinha seu quartel-general.
+### OS CONSTRUTORES
 
-**Carl Lutz (1895-1975)** — O diplomata suíço que salvou 62.000 judeus. A casa que ele usou como "casa de vidro" é hoje um museu.
+Imre Steindl (1839–1902) — O arquiteto do Parlamento. Trabalhou no projeto por 19 anos. Ficou cego antes da conclusão e morreu em 1902, dois anos antes da inauguração do edifício em 1904. Nunca viu sua obra-prima terminada.
 
-**Giorgio Perlasca (1910-1992)** — O italiano que se passou por embaixador espanhol e salvou 5.200 judeus. Sua história é contada no museu da Casa dos Destinos.
+Miklós Ybl (1814–1891) — O arquiteto da Basílica de Santo Estevão. Projetou dezenas de edifícios em Budapeste. A Basílica levou 54 anos para ser construída — Ybl morreu antes de vê-la concluída.
 
-### OS CIENTISTAS — OS "MARCianos"
+Frigyes Schulek (1841–1919) — O arquiteto do Bastião dos Pescadores e da restauração da Igreja de Matias. Transformou a colina de Buda no cenário de conto de fadas que é hoje.
 
-Budapeste produziu uma geração extraordinária de cientistas no início do século XX — chamados de "os marcianos" por sua inteligência sobre-humana:
+István Széchenyi (1791–1860) — O maior húngaro. A Ponte das Correntes é apenas uma de suas muitas obras. Modernizou a Hungria como ninguém.
 
-- **John von Neumann** (1903-1957) — o pai da computação, da teoria dos jogos, da bomba de hidrogênio
-- **Edward Teller** (1908-2003) — o "pai da bomba H"
-- **Leo Szilard** (1898-1964) — quem concebeu a reação nuclear em cadeia e escreveu a carta de Einstein a Roosevelt
-- **Eugene Wigner** (1902-1995) — Prêmio Nobel de Física
-- **Dennis Gabor** (1900-1979) — inventor do holograma, Nobel de Física
-- **George de Hevesy** (1885-1966) — Nobel de Química, inventor do traçador radioativo
+### OS HERÓIS
 
-Todos nasceram em Budapeste, todos estudaram no mesmo ginásio — o **Fasori Evangélikus Gimnázium**. Há uma piada húngara: "Por que os marcianos falam húngaro? Porque era a única língua que os terrestres não entendiam."
+Lajos Kossuth (1802–1894) — O líder da Revolução de 1848. Governador-presidente da Hungria independente durante 14 meses. Após a derrota, fugiu e viveu exilado. A praça em frente ao Parlamento leva seu nome.
 
----
+Ferenc Deák (1803–1876) — O homem sábio da nação. O arquiteto político do Compromisso de 1867. Acreditava na reconciliação pacífica com os Habsburgos. É considerado o pai da Hungria moderna.
 
-## LENDAS E CURIOSIDADES DE BUDAPESTE
+Raoul Wallenberg (1912–1945?) — Diplomata sueco que salvou dezenas de milhares de judeus em Budapeste, emitindo passaportes protetores fictícios. Foi preso pelos soviéticos em 1945 e desapareceu. Seu destino é desconhecido até hoje.
 
-### 1. Os Leões da Ponte das Correntes
+Sándor Petőfi (1823–1849) — O poeta da revolução. Recitou o Nemzeti Dal, a Canção Nacional, em 15 de março de 1848, iniciando a revolução húngara. Morreu na batalha contra os russos em 1849, aos 26 anos. Uma estátua sua fica na Ponte Petőfi.
 
-Os quatro leões de pedra da Ponte das Correntes não teriam língua — segundo a lenda, o escultor János Marschalkó teria se suicidado ao perceber o "erro". Mas é mito: as línguas existem, apenas não são visíveis de baixo. A ponte foi destruída pelos nazistas em janeiro de 1945 e reconstruída em 1949. Em 2023, após quatro anos de reforma, foi reaberta — agora só para pedestres, ciclistas e transporte público.
+## DIA 1 — SÁBADO, 3 DE OUTUBRO DE 2026
 
-### 2. O Parlamento e o Número 96
+### CHEGADA A BUDAPESTE — A PRIMEIRA NOITE SOBRE O DANÚBIO
 
-O Parlamento de Budapeste tem 96 metros de altura — assim como a Basílica de Santo Estêvão. Não é coincidência: em 1873, quando Buda e Peste se uniram, os arquitetos decidiram que nenhum edifício poderia ultrapassar 96 metros — o número sagrado que marca os 96 anos entre a fundação da Hungria (1000) e a unificação da cidade (1896). É uma harmonia entre o poder político (Parlamento) e o espiritual (Basílica).
+### DADOS DO DIA
 
-### 3. O Café New York — "O Mais Belo do Mundo"
+Voo TK 216: 02/10 GRU 16:35 para 03/10 IST 11:15, Airbus A350-900, 12h40 de voo.
 
-O **New York Café** (ou New York Palota) é frequentemente chamado de "o café mais belo do mundo". Fundado em 1894, num palácio renascentista com afrescos, mármore, ouro, lustres de cristal. Era o ponto de encontro dos escritores e jornalistas húngaros. Fechou em 1949, reabriu em 2006 como parte do hotel Boscolo. Hoje, é caro (€15-25 por um café e um bolo) — mas a experiência vale.
+Voo TK 1033: 03/10 IST 12:20 para 03/10 BUD 13:15, Airbus A321, 1h55 de voo.
 
-### 4. As Termas e os Turcos
+Conexão em Istambul: 1h05. Apertada, mas protegida pela Turkish Airlines no mesmo bilhete. Ao desembarcar, sigam direto ao portão da conexão, sem paradas.
 
-Budapeste é a única capital do mundo que é também uma cidade termal. Mais de 100 nascentes produzem 70 milhões de litros de água termal por dia. Os turcos, nos 150 anos de ocupação, construíram termas magníficas — **Kiraly**, **Rudas**, **Császár** — com cúpulas otomanas, piscinas octogonais, luz filtrada por vidros coloridos. Hoje, as termas são patrimônio da UNESCO e parte da alma budapestinesa.
+Hotel: Medos Hotel, Jókai tér 9, H-1061, Distrito VI.
 
-### 5. O Castelo de Buda e os Sete Sítios
+Check-in: a partir das 14:00.
 
-O Castelo de Buda foi destruído e reconstruído sete vezes — pelos mongóis (1241), pelos turcos (1541, 1686), pela Guerra da Independência (1849), pela Segunda Guerra (1944-45), e pela Revolução de 1956. Cada reconstrução deixou uma camada. O castelo é uma cebola de história — cada pedra conta uma história diferente.
+Cruzeiro: Hungarian Folk, jantar com música ao vivo.
 
-### 6. O Metrô do Milênio
+Embarque: 19:00, pontão Akadémia 2, navio Gróf Széchenyi.
 
-A Linha 1 do metrô de Budapeste (amarela) foi inaugurada em 1896 — é a mais antiga do continente europeu, a segunda do mundo (depois de Londres, 1863). Foi construída para a Exposição do Milênio, que celebrava os 1.000 anos da chegada dos magiares. Os vagões amarelos originais ainda circulam — e a linha é Patrimônio da UNESCO.
+Pôr do sol: 18:15.
 
-### 7. A Basílica e a Mão de Santo Estêvão
+Temperatura: 8 a 16°C.
 
-A mão direita de Santo Estêvão, mumificada há mais de mil anos, é guardada numa capela de ouro e mármore na Basílica. Todo ano, em 20 de agosto (dia de Santo Estêvão), a mão é levada em procissão pelas ruas de Budapeste. É a relíquia mais sagrada da Hungria — e uma das mais impressionantes da cristandade.
+Fuso: GMT+2, cinco horas à frente de Brasília.
 
-### 8. O Sapatos na Margem do Danúbio
+### ROUPA PARA O DIA
 
-Na margem leste do Danúbio, em frente ao Parlamento, há um memorial comovente: **60 pares de sapatos de bronze**, virados para o rio. Foi ali que, em 1944-45, judeus húngaros foram fuzilados pela Cruz Flechada (os fascistas húngaros) — depois de serem obrigados a tirar os sapatos (que eram valiosos). Os corpos caíam no Danúbio. O memorial, de 2005, é um dos mais emocionantes da Europa.
+Noite no cruzeiro com jantar: smart casual. Para ele, calça social ou chino, camisa, blazer ou jaqueta elegante, sapato. Para ela, vestido midi ou calça com blusa mais arrumada, echarpe, salto baixo ou bota. Levem um sobretudo leve ou trench coat. No deque do navio, depois do pôr do sol, a temperatura cai para 8 a 12°C e o vento do Danúbio é frio. Levem a roupa da noite na bagagem de mão.
 
-### 9. A Ilha Margarida e os Monges
+### LINHA DO TEMPO
 
-A Ilha Margarida (Margitsziget) tem esse nome em homenagem à princesa Margarida, filha do rei Bela IV. Em 1252, o pai prometeu entregá-la à Igreja se os mongóis fossem derrotados. Os mongóis foram, e Margarida, aos 10 anos, foi enviada ao convento dominicano da ilha. Viveu ali até a morte, em 1270. Suas ruínas ainda existem.
+13:15 — Pouso no Aeroporto Liszt Ferenc
 
-### 10. O Goulash e a Páprica
+13:45 — Controle de passaportes
 
-O **goulash** (gulyás) era, originalmente, uma sopa de pastores — carne, cebola, páprica, cozidas num caldeirão sobre fogueira. A páprica foi trazida pelos turcos no século XVI. Os húngaros a adotaram como sua — e hoje é o símbolo nacional. O goulash moderno é mais um ensopado do que uma sopa. Em Budapeste, é servido com pão, knödel (bolinho de massa) ou nokedli ( nhoque húngaro).
+14:20 — Retirada de bagagens
 
----
+14:50 — Saída do aeroporto
 
-## HOTEL: MEDOS HOTEL
+15:30 — Check-in no Medos Hotel
 
-### Medos Hotel
-- Endereço: Jókai tér 9, 1061 Budapest
-- Bairro: Terézváros — entre a Andrássy Avenue e a Ópera
-- Quarto: Standard, cama de casal + cama de solteiro (Triple Room)
-- Café da manhã: buffet incluído
+16:00 às 17:15 — Banho, descanso, troca de roupa
 
-[Ver no Google Maps](https://www.google.com/maps/place/Medos+Hotel,+Jókai+tér+9,+1061+Budapest)
+17:15 — Saída do hotel, início da caminhada
 
-### Por que este hotel é perfeito:
+17:35 — Parlamento Húngaro
 
-**O bairro — Terézváros:**
-Terézváros é o coração cultural de Peste. A **Andrássy Avenue** — Patrimônio da UNESCO — começa a poucos passos. A **Ópera** está a 3 minutos a pé. A **Basílica de Santo Estêvão**, a 10 minutos. O **Parlamento**, a 20 minutos a pé ou 5 minutos de metrô. É um bairro que respira Budapeste autêntica — nem turístico demais, nem residencial demais.
+18:00 — Sapatos sobre o Danúbio, memorial do Holocausto
 
-**Vantagens estratégicas:**
-- A 2 minutos a pé da estação de metrô **Vörösmarty utca** (linha M1 — a histórica linha amarela)
-- A 5 minutos a pé da estação **Opera** (linha M1)
-- A 10 minutos a pé da **Ópera** e da **Andrássy Avenue**
-- A 15 minutos a pé da **Basílica de Santo Estêvão**
-- A 20 minutos a pé do **Parlamento**
-- Bondes e ônibus na porta do hotel
+18:30 — Chegada ao embarque
 
-**O hotel:**
-- Quartos confortáveis, limpos, funcionais
-- Café da manhã buffet farto (pães, frios, queijos, ovos, frutas, café, sucos)
-- Wi-Fi gratuito
-- Recepção 24 horas
-- Preço justo para o centro de Budapeste
+19:00 às 21:30 — Cruzeiro com jantar e música ao vivo
 
-### Acessibilidade:
-- Recepção 24 horas
-- Elevador
-- Bairro plano e bem iluminado
-- Metrô acessível (a maioria das estações tem elevador)
-- Táxis abundantes
+21:30 — Retorno a pé ao hotel
 
----
+### 13:15 — O POUSO
 
-## LOGÍSTICA EM BUDAPESTE
+O avião pousa no Aeroporto Internacional Liszt Ferenc, que leva o nome do maior compositor húngaro. Franz Liszt nasceu em 1811 em uma aldeia que hoje pertence à Áustria, mas sempre se declarou húngaro. Tornou-se o pianista mais virtuoso do século XIX — sua fama era tão avassaladora que inventaram uma palavra para descrevê-la: Lisztomania. Morreu em Bayreuth, Alemanha, em 1886, mas sua alma permanece em Budapeste. A academia de música, o aeroporto, e até as rapsódias que ecoam nos cafés — tudo é Liszt.
 
-### Transporte
-- **Metrô (Metró)**: 4 linhas (M1 amarela, M2 vermelha, M3 azul, M4 verde). Rápido, limpo, seguro. Bilhete unitário: 450 Ft (€1,10). Passe de 24h: 2.500 Ft (€6). Passe de 72h: 5.500 Ft (€13)
-- **Bonde (Villamos)**: a maneira mais charmosa de se locomover. O bonde 2 circula pela margem do Danúbio — é praticamente um tour turístico
-- **Táxi / Bolt**: abundantes e baratos. Trajeto médio no centro: 1.500-3.000 Ft (€4-7). Usem o app Bolt (mais confiável)
-- **Caminhar**: o centro de Peste é plano e compacto. Buda exige subidas — usem o funicular ou o ônibus 16
-- **Budapest Card**: desconto em museus, transporte ilimitado. 22.000 Ft (€53) por 72h
+O terminal é compacto e bem sinalizado.
 
-### Ritmo ideal
-- Budapeste é uma cidade de distâncias médias — o metrô é seu melhor amigo
-- O Dia 1 é de chegada — check-in e caminhada leve
-- O Dia 2 é dedicado a Buda — Castelo, Bastião dos Pescadores, Gellért
-- O Dia 3 é Peste — Parlamento, Basílica, Andrássy, termas
-- O Dia 4 é de manhã livre + trem para Viena
+### 13:45 — IMIGRAÇÃO
 
-### Clima em outubro
-- Temperaturas: 7°C a 16°C
-- Manhãs frias, tardes amenas
-- Céu frequentemente nublado, possibilidade de chuva leve
-- As cores do outono nas colinas de Buda são deslumbrantes
-- Casaco, suéter, guarda-chuva compacto essenciais
+Controle de passaportes para cidadãos não europeus. Tenham em mãos:
 
-### Saúde e segurança
-- Budapeste é uma cidade segura, mas atenção com carteiristas em áreas turísticas
-- Farmácias (Gyógyszertár) bem sinalizadas — cruz verde
-- Água da torneira é potável
-- Hospitais de padrão razoável
-- Cuidado com táxis não oficiais — usem Bolt ou Főtaxi
+Passaporte válido, com mínimo de 6 meses de validade.
 
----
+Voucher do hotel.
 
-## ROTEIRO DIA A DIA — BUDAPESTE
+Seguro viagem.
 
----
+### 15:30 — MEDOS HOTEL
 
-## DIA 1 — SEXTA-FEIRA, 3 DE OUTUBRO DE 2026
-### A CHEGADA — O PRIMEIRO OLHAR SOBRE O DANÚBIO
+Medos Hotel, Jókai tér 9, H-1061, Distrito VI, centro de Peste. Check-in a partir das 14h.
 
-| Item | Detalhe |
-|------|---------|
-| Voo | TK 1033, Istambul → Budapeste |
-| Pouso | 13:15, Aeroporto Liszt Ferenc |
-| Hotel | Medos Hotel, Jókai tér 9 |
-| Temperatura | 8°C a 16°C |
+Serviços do hotel:
 
----
+Café da manhã buffet, das 7:00 às 10:00.
 
-### 13:15 — POUSO NO AEROPORTO LISZT FERENC
+Wi-Fi gratuito.
 
-O avião da Turkish Airlines toca o solo húngaro. Vocês descem, pegam as malas, passam pela imigração (Schengen — sem controle, mas com fila). O ar de outubro é fresco. Budapeste os recebe.
+Ar-condicionado.
 
----
+Recepção 24 horas.
 
-### 14:00 — TRANSFER AO HOTEL
+Bar no lobby.
 
-[Aeroporto → Medos Hotel](https://www.google.com/maps/dir/Budapest+Ferenc+Liszt+International+Airport/Medos+Hotel,+Jókai+tér+9,+1061+Budapest)
+Elevador.
 
-**Opções:**
-- **Bolt / Főtaxi**: 30-40 minutos, 8.000-10.000 Ft (€20-25). Mais confortável
-- **100E Bus + metrô**: 1.500 Ft (€3,60), 50 minutos. Mais econômico, mas com malas é cansativo
-- **Minibus compartilhado (Airport Shuttle)**: 3.500 Ft (€8,50), 45-60 minutos
+Quartos com varanda, solicitar no check-in.
 
-Sugestão: Bolt direto ao hotel. Conforto e rapidez.
+Dica local: o hotel fica a 200 metros da estação de metrô Oktogon, linha M1, a mais antiga da Europa Continental, inaugurada em 1896. A região está cheia de restaurantes, cafés e lojas.
 
----
+Personagem: a praça em frente ao hotel leva o nome de Mór Jókai (1825–1904), o maior romancista húngaro do século XIX. Amigo de Liszt e contemporâneo de Petőfi, escreveu mais de 100 romances. Suas obras são a literatura da alma húngara.
 
-### 15:00 — CHECK-IN NO MEDOS HOTEL
+[Ver no Google Maps](https://www.google.com/maps/place/Medos+Hotel,+J%C3%B3kai+t%C3%A9r+9,+1061+Budapest)
 
-[Ver no Google Maps](https://www.google.com/maps/place/Medos+Hotel,+Jókai+tér+9,+1061+Budapest)
+16:00 às 17:15 — DESCANSO
 
-O quarto é funcional, limpo, confortável. Cama de casal + cama de solteiro. Janela para a rua. Guardem as malas, descansem um pouco, tomem um café.
+Banho, troca de roupa, hidratação. O ritmo slow travel respeita o corpo.
 
----
+### 17:15 — A CAMINHADA COMEÇA
 
-### 16:30 — PRIMEIRA CAMINHADA: ANDRÁSSY AVENUE
+[Trajeto completo da caminhada](https://www.google.com/maps/dir/Medos+Hotel,+J%C3%B3kai+t%C3%A9r+9,+1061+Budapest/Hungarian+Parliament+Building,+Kossuth+Lajos+t%C3%A9r+1-3,+1055+Budapest/Shoes+on+the+Danube,+Budapest,+Id.+Antall+J%C3%B3zsef+rkp.,+1054/Akad%C3%A9mia+2+ponton,+Budapest,+Id.+Antall+J%C3%B3zsef+rkp.,+1051/)
 
-[Hotel → Andrássy Avenue → Ópera](https://www.google.com/maps/dir/Medos+Hotel,+Jókai+tér+9,+1061+Budapest/Andrássy+%C3%9At/Opera)
+O trajeto é todo plano, na mesma margem, Peste. Do hotel, sigam pela Jókai tér e entrem na Bajcsy-Zsilinszky út, uma avenida larga ladeada por prédios do século XIX.
 
-Caminhada de 15 minutos pela **Andrássy Avenue** — Patrimônio da UNESCO desde 2002. É a resposta húngara aos Champs-Élysées: um bulevar arborizado, ladeado por palácios neorrenascentistas, embaixadas, cafés, teatros.
+Ao longo do caminho, à direita, vocês avistarão a Ponte das Correntes. Ela está a cerca de 1 km ao sul, cruzando o Danúbio. Observem seus leões dourados pela primeira vez — de longe, como um prenúncio. Vocês a cruzarão amanhã, a caminho de Buda. Lembrem-se de István Széchenyi, que a sonhou após perder o funeral do pai. Lembrem-se dos engenheiros Clark. Lembrem-se dos leões de Marschalko que, dizem, não têm línguas, mas têm.
 
-Parem em frente à **Ópera Estatal Húngara** — uma joia neorrenascentista, inaugurada em 1884. Diz a lenda que o imperador Francisco José, ao vê-la, teria dito: "Que pena que Viena não tenha uma ópera assim." (Mentira — mas os húngaros gostam de contar.)
+### 17:35 — O PARLAMENTO HÚNGARO E A METAMORFOSE DAS LUZES
 
----
+O Országház, a Casa da Nação, é o maior edifício da Hungria e o terceiro maior parlamento do mundo. Construído entre 1885 e 1904 em estilo neogótico, por Imre Steindl — que morreu em 1902, dois anos antes da inauguração, sem ver sua obra-prima concluída. Steindl trabalhou no projeto por 19 anos, e a cegueira o atingiu antes do fim. Diz-se que, nos últimos meses, caminhava pelas margens do Danúbio, tateando as paredes do edifício que não podia mais ver.
 
-### 17:30 — A BASÍLICA DE SANTO ESTÊVÃO
+Números impressionantes:
 
-[Ópera → Basílica de Santo Estêvão](https://www.google.com/maps/dir/Hungarian+State+Opera/Szent+Istv%C3%A1n+Bazilika,+Szent+Istv%C3%A1n+tér+1,+1051+Budapest)
+268 metros de comprimento.
 
-Caminhada de 10 minutos. A **Basílica de Santo Estêvão** é a maior igreja de Budapeste — com sua cúpula de 96 metros (o número sagrado), seu interior de mármore, ouro e afrescos.
+691 salas internas.
 
-Entrem para ver:
-- **A Capela da Mão Direita**: a mão mumificada de Santo Estêvão, guardada num relicário de ouro e cristal. É a relíquia mais sagrada da Hungria — mil anos de história numa mão
-- **A cúpula**: vista panorâmica de 360° da cidade (elevador + 9 degraus). €5
-- **O órgão**: um dos maiores da Europa, com 5.500 tubos
+242 esculturas na fachada.
 
-Entrada na nave: gratuita.
-Cúpula: €5.
-Capela da Mão Direita: €3.
+40 kg de ouro puro nos detalhes decorativos.
 
----
+96 metros de altura na cúpula central, o número sagrado.
 
-### 19:00 — JANTAR DE BOAS-VINDAS: PEST-BUDA
+Site oficial e ingressos: jegymester.hu/parlament
 
-[Basílica → Pest-Buda](https://www.google.com/maps/dir/Szent+Istv%C3%A1n+Bazilika,+Szent+Istv%C3%A1n+tér+1,+1051+Budapest/Pest-Buda,+Bem+rakpart+9,+1027+Budapest)
+Valor atualizado (2026):
 
-Táxi Bolt até o **Pest-Buda** — um restaurante tradicional no bairro de Víziváros, em Buda, com vista do Danúbio. Cozinha húngara autêntica, ambiente acolhedor.
+Cidadãos não europeus: 14.000 HUF (cerca de 35 euros / R$ 210).
 
-O que pedir:
-- **Goulash húngaro** — ensopado de carne com páprica, batata, legumes. O prato nacional. €9-12
-- **Halászlé** — sopa de peixe do Danúbio, picante, com páprica. €10-13
-- **Libamáj** — fígado gordo de ganso, com maçã caramelizada e molho de vinho tinto. €18-22
-- **Somlói galuska** — sobremesa tradicional, três camadas de bolo, creme, chocolate, rum. €7-9
+Cidadãos da União Europeia: 7.000 HUF (cerca de 18 euros / R$ 105).
 
-Preço: €25-40 por pessoa (com vinho húngaro).
+Visita guiada de 45 minutos em vários idiomas.
 
----
+Neste primeiro dia vocês veem apenas por fora, o que é gratuito e já deslumbrante.
 
-### 21:00 — RETORNO AO HOTEL
+[Ver no Google Maps](https://www.google.com/maps/place/Hungarian+Parliament+Building)
 
-[Jantar → Hotel](https://www.google.com/maps/dir/Pest-Buda,+Bem+rakpart+9,+1027+Budapest/Medos+Hotel,+Jókai+tér+9,+1061+Budapest)
+Personagens na praça: a praça em frente ao Parlamento chama-se Kossuth Lajos tér, em homenagem a Lajos Kossuth (1802–1894), o líder da Revolução de 1848. Na praça, há uma estátua dele e, ao lado, a de Ferenc Deák (1803–1876), o homem sábio da nação, que articulou o Compromisso de 1867. Dois homens, duas visões: Kossuth queria a independência total; Deák queria a reconciliação. A história deu razão a Deák — mas a praça leva o nome de Kossuth.
 
-Táxi Bolt. 15 minutos. A noite está fria, o Danúbio brilha ao longe. Durmam bem. Amanhã é o dia de Buda.
+Vocês chegarão às 17h35. O sol se põe às 18h15.
 
----
+### A METAMORFOSE DAS LUZES — O ESPETÁCULO QUE VOCÊS TESTEMUNHARÃO
 
-**Resumo do dia 1:**
-- Caminhada total: 2,5 km
-- Tempo de caminhada: 35 min
-- Nível: leve
+O Parlamento Húngaro não é apenas um edifício iluminado. É um organismo vivo que respira luz.
 
----
+A metamorfose acontece em três atos.
 
-## DIA 2 — SÁBADO, 4 DE OUTUBRO DE 2026
-### BUDA — O CASTELO, O BASTIÃO E A VISTA
+ATO I — A LUZ DOURADA (17:35 às 18:10)
 
-| Item | Detalhe |
-|------|---------|
-| Temperatura | 7°C a 15°C |
-| Pôr do sol | 18:30 |
-| Atrações principais | Castelo de Buda, Bastião dos Pescadores, Igreja de Matias, Gellért |
-| Transporte | Ônibus 16 + caminhada |
+O sol ainda está acima do horizonte. A luz do entardecer atinge a fachada neogótica de calcário branco. Os 242 pináculos e as 242 estátuas se iluminam com um tom de mel. O Danúbio, calmo, reflete o edifício como um espelho imperfeito.
 
----
+ATO II — O CREPÚSCULO (18:10 às 18:30)
 
-### 08:00 — CAFÉ DA MANHÃ NO HOTEL
+O sol se põe às 18:15. O céu explode em camadas: dourado, rosa-alaranjado, violeta profundo. O Parlamento ainda está com as luzes apagadas — e é nesse breve intervalo que ele se torna uma silhueta recortada contra o céu em chamas.
 
-O buffet do Medos é farto: pães, frios, queijos, ovos, frutas, café húngaro. Comam bem — o dia é longo.
+ATO III — A ILUMINAÇÃO (18:30 às 18:40)
 
----
+As luzes se acendem. Milhares de refletores de temperatura quente fazem o Parlamento brilhar. O calcário se transforma em ouro maciço. O reflexo no Danúbio se acende também. Três Parlamentos diferentes em uma hora.
 
-### 09:00 — METRÔ ATÉ BATTHYÁNY TÉR
+### 18:00 — OS SAPATOS SOBRE O DANÚBIO
 
-[Hotel → Batthyány tér](https://www.google.com/maps/dir/Medos+Hotel,+Jókai+tér+9,+1061+Budapest/Batthyány+tér,+1011+Budapest)
+A 300 metros do Parlamento, à beira do rio. Sapatos de ferro, fundidos em bronze, espalhados pela calçada.
 
-Metrô M2 (vermelha) até Batthyány tér. 10 minutos. Ao saírem da estação, o Parlamento está diante de vocês — do outro lado do rio, dourado, imenso. É a vista clássica de Budapeste.
+Entre 1944 e 1945, a milícia fascista húngara, a Cruz Flechada, executou milhares de judeus nas margens do Danúbio. As vítimas eram obrigadas a tirar os sapatos — para que fossem reaproveitados — e então fuziladas. Os corpos caíam no rio. Os sapatos ficaram.
 
----
+A obra é de 2005, dos artistas Can Togay e Gyula Pauer. É um dos memoriais mais comoventes do mundo. Não há placas explicativas. Apenas os sapatos. E o silêncio.
 
-### 09:30 — ÔNIBUS 16 ATÉ O CASTELO
+Personagem: Raoul Wallenberg (1912–1945?) — diplomata sueco que salvou dezenas de milhares de judeus húngaros, emitindo passaportes protetores fictícios. Preso pelos soviéticos em janeiro de 1945, desapareceu. Até hoje ninguém sabe se morreu em uma prisão soviética ou se seu corpo descansa em algum arquivo secreto. Em 2012, a Rússia declarou que Wallenberg não é um prisioneiro — mas também não o libertou. Em outubro de 2026, se vivo, teria 114 anos. Ou estaria morto há 81. O mistério permanece.
 
-[Batthyány tér → Castelo de Buda](https://www.google.com/maps/dir/Batthyány+tér,+1011+Budapest/Budavári+Palota,+1014+Budapest)
+Entrada gratuita. Aberto 24 horas.
 
-Peguem o **ônibus 16** na praça. Ele sobe a colina em 10 minutos, passando pela Igreja de Matias, o Bastião dos Pescadores, o Castelo. Ou, para uma experiência mais charmosa, o **funicular Budavári Sikló** — inaugurado em 1870, sobe em 3 minutos. €2,50.
+[Ver no Google Maps](https://www.google.com/maps/place/Shoes+on+the+Danube+Memorial)
 
----
+### 19:00 — O CRUZEIRO
 
-### 09:45 — O CASTELO DE BUDA (BUDAVÁRI PALOTA)
+Confirmação de Reserva — Civitatis
 
-[Ver no Google Maps](https://www.google.com/maps/place/Budavári+Palota)
+Reserva / ID: A38939306
 
-O **Castelo de Buda** é o coração histórico da cidade. Construído no século XIII por Bela IV, após a invasão mongol, foi destruído e reconstruído sete vezes. Hoje abriga:
+Atividade: Cruzeiro com jantar e música ao vivo
 
-- **Galeria Nacional Húngara**: a maior coleção de arte húngara, do românico ao contemporâneo. €10
-- **Museu de História de Budapeste**: a história da cidade, do romano ao moderno. €8
-- **Biblioteca Nacional Széchenyi**: manuscritos raros, incunábulos, a carta de Colombo. €5
+Data: Sábado, 3 de outubro de 2026
 
-#### 🏰 DADOS DA RESERVA — CASTELO DE BUDA
+Horário: 19:00h
 
-**Código da reserva:** GYG32L2HXF31
-**PIN:** gjn5qdyC
-**Data:** Sábado, 4 de outubro de 2026
-**Horário de início:** a partir das 10:00
-**Participantes:** 6 adultos + 6 idosos
-**Valor pago:** R$ 998,40
-**Bilhete combinado:** Galeria Nacional + Museu de História
+Pessoas: 12 adultos
 
-#### ⏰ HORÁRIOS
+Status: Totalmente pago
 
-- Galeria Nacional: 10:00 às 18:00 (terça a domingo)
-- Museu de História: 10:00 às 18:00 (terça a domingo)
-- Segunda-feira: fechado
+Ponto de encontro: Akadémia, 2º pontão, navio Gróf Széchenyi, lado Peste, Budapeste.
 
-#### 🎫 COMO USAR O BILHETE
+Navio Gróf Széchenyi, pontão Akadémia 2. A experiência completa a bordo dura 2h30, das 19:00 às 21:30. Música folclórica húngara ao vivo. Jantar completo incluso.
 
-- Bilhete digital — apresentar pelo celular na entrada
-- Audioguia disponível (incluído)
+Valor: incluso no pacote.
 
----
+O que está incluso:
 
-### O QUE VOCÊS VERÃO
+Cruzeiro pelo Danúbio com jantar.
 
-**Na Galeria Nacional:**
-- **A Cruz de Santo Estêvão**: a espada e a coroa do primeiro rei
-- **Os painéis góticos de Szepes**: obras-primas do século XV
-- **Munkácsy e a Trilogia de Cristo**: os grandes quadros românticos do século XIX
-- **A sala do romantismo**: os quadros que pintaram a alma húngara
+Jantar buffet húngaro: sopa goulash, frango, vegetais, sobremesa.
 
-**No Museu de História:**
-- **As ruínas medievais**: o castelo original, sob o castelo atual
-- **A capela gótica de Sigismundo**: uma das joias do gótico europeu
-- **Os objetos turcos**: cerâmicas, armas, tapetes dos 150 anos de ocupação
-- **A sala do século XVIII**: o castelo barroco dos Habsburgos
+1 bebida de boas-vindas, espumante ou suco.
 
----
+1 taça de vinho, cerveja ou refrigerante.
 
-### 12:00 — O BASTIÃO DOS PESCADORES (HALÁSZBÁSTYA)
+Música folclórica ao vivo, Orquestra Rajko.
 
-[Castelo → Bastião dos Pescadores](https://www.google.com/maps/dir/Budavári+Palota,+1014+Budapest/Hal%C3%A1szb%C3%A1stya,+1014+Budapest)
+A Orquestra Rajko: fundada em 1952, é composta por músicos ciganos húngaros. O nome homenageia Panna Czinka (1711–1772), uma violinista cigana lendária que tocava com os olhos vendados. A tradição musical cigana é inseparável da identidade húngara — foi essa música que Franz Liszt ouviu nas tavernas e transformou em suas Rapsódias Húngaras.
 
-Caminhada de 10 minutos. O **Bastião dos Pescadores** é uma das vistas mais fotografadas da Europa — sete torres brancas, em estilo neorromânico, que representam as sete tribos magiares que fundaram a Hungria em 896. Construído em 1905, não é um bastião de verdade — é um cenário de conto de fadas, com vista do Parlamento, do Danúbio, de Peste.
+O Danúbio nasce na Floresta Negra da Alemanha e percorre 2.850 quilômetros. Em Budapeste, ele vive seu momento mais bonito.
 
-A estátua equestre de **Santo Estêvão** está em frente — o primeiro rei da Hungria, olhando para a cidade que fundou.
+Por volta das 20h, o navio passará sob a Ponte das Correntes — iluminada, com seus leões dourados refletidos na água. Depois, segue rio abaixo e passa sob a Ponte Elisabeth, onde a estátua de Sisi observa o rio, e a Ponte da Liberdade. No retorno, sobe até a Ponte Margarida. Quatro pontes em uma noite. Quatro histórias sobre o mesmo rio.
 
-Entrada no terraço: gratuita.
-Torres: €5.
+### 21:30 — O RETORNO
 
----
+[Trajeto de volta ao hotel](https://www.google.com/maps/dir/Akad%C3%A9mia+2+ponton,+Budapest,+Id.+Antall+J%C3%B3zsef+rkp.,+1051/Medos+Hotel,+J%C3%B3kai+t%C3%A9r+9,+1061+Budapest/)
 
-### 12:45 — A IGREJA DE MATIAS (MÁTYÁS TEMPLOM)
+Recomendação: voltem a pé. Cerca de 22 minutos. Caminhada noturna agradável, com Budapeste iluminada. As luzes do Parlamento ainda estarão acesas, apagam por volta das 22h.
 
-[Bastião → Igreja de Matias](https://www.google.com/maps/dir/Hal%C3%A1szb%C3%A1stya,+1014+Budapest/M%C3%A1ty%C3%A1s-templom,+Szenth%C3%A1roms%C3%A1g+tér+2,+1014+Budapest)
+Resumo do dia 1:
 
-Ao lado do Bastião, a **Igreja de Matias** é uma joia gótica do século XIV — com seu telhado de azulejos coloridos, sua torre de 80 metros, seus interiores pintados em branco e ouro. Foi aqui que Francisco José foi coroado rei da Hungria, em 1867 — e Carlos I, em 1916 (a última coroação).
+Caminhada total aproximada: 4 km.
 
-Entrada: €10.
+Tempo de caminhada: 1 hora.
 
----
+Nível: leve, todo plano.
 
-### 13:30 — ALMOÇO: RÉGI PESTI BAKAHAZ
+## DIA 2 — DOMINGO, 4 DE OUTUBRO DE 2026
 
-[Igreja de Matias → Régi Pesti BAKAHAZ](https://www.google.com/maps/dir/Máty%C3%A1s-templom,+Szenth%C3%A1roms%C3%A1g+tér+2,+1014+Budapest/Régi+Pesti+Bakah%C3%A1z,+Orsz%C3%A1gh%C3%A1z+utca+10,+1014+Budapest)
+### O DIA DAS DUAS IGREJAS — DA BASÍLICA AO ALTO DE BUDA
 
-Restaurante tradicional em Buda, num edifício do século XVII. Cozinha húngara autêntica, ambiente rústico.
+### DADOS DO DIA
 
-O que pedir:
-- **Töltött káposzta** — repolho recheado com carne, servido com creme azedo. €10-13
-- **Kacsacomb** — coxa de pato assada, com repolho roxo e knödel. €14-18
-- **Palacsinta** — crepe húngaro, com geleia, Nutella ou sorvete. €6-8
+Café da manhã: incluso, 7:00 às 10:00.
 
-Preço: €15-25 por pessoa.
+Temperatura: 8 a 18°C.
 
----
+Pôr do sol: 18:13.
 
-### 15:00 — DESCIDA A PÉ OU DE ÔNIBUS ATÉ O DANÚBIO
+Missas: Basílica às 10:00, a Nagymise; Igreja de Matias às 19:30.
 
-Duas opções:
-- **A pé**: descida de 30 minutos, passando por ruas charmosas de Buda. Vista do Danúbio a cada esquina
-- **Ônibus 16**: 10 minutos, volta ao Batthyány tér
+Metrô: Linha M1, Patrimônio da Humanidade.
 
----
+### ROUPA PARA O DIA
 
-### 15:30 — A COLINA GELLÉRT E A CIDADELA
+Manhã e missas: roupa respeitosa para as igrejas, ombros e joelhos cobertos.
 
-[Descida → Colina Gellért](https://www.google.com/maps/dir/Batthyány+tér,+1011+Budapest/Citadella,+1118+Budapest)
+Noite no Bastião: sobretudo ou trench coat. A temperatura cai para 6 a 10°C. Levem echarpe ou pashmina.
 
-Táxi Bolt até o topo da **Colina Gellért** (235 metros). A vista é a mais espetacular de Budapeste — o Danúbio, o Parlamento, o Castelo, toda a cidade aos pés. A **Cidade**la — uma fortaleza austro-húngara de 1854 — domina o topo. A estátua da **Liberdade** (Szabadság szobra), de 1947, ergue uma folha de palmeira — símbolo da libertação soviética (hoje reinterpretada como a liberdade em si).
+### LINHA DO TEMPO
 
-Entrada: gratuita.
+07:30 — Café da manhã no hotel
 
----
+08:50 — Saída do hotel, caminhada até a Basílica
 
-### 17:00 — DESCIDA E CAMINHADA PELO DANÚBIO
+09:10 — Chegada à Basílica de Santo Estevão
 
-[Colina Gellért → Margem do Danúbio](https://www.google.com/maps/dir/Citadella,+1118+Budapest/Danube+Promenade)
+10:00 às 11:00 — Nagymise com órgão e coral
 
-Descida de táxi até a margem do Danúbio. Caminhada de 30 minutos pela **Promenade do Danúbio** — passando pelos **Sapatos na Margem do Danúbio**, o memorial dos 60 pares de bronze em homenagem aos judeus fuzilados em 1944-45. É um dos memoriais mais comoventes da Europa.
+11:00 às 11:45 — Interior da Basílica, Mão Direita de Santo Estevão
 
----
+11:45 às 12:30 — Tempo livre, caminhada pela Andrássy út
 
-### 18:00 — O PARLAMENTO POR FORA
+12:30 — Almoço
 
-[Sapatos → Parlamento](https://www.google.com/maps/dir/Shoes+on+the+Danube+Bank/Parliament)
+13:45 — Ônibus 16 rumo a Buda
 
-Caminhada de 10 minutos. O **Parlamento** ao entardecer é uma visão — 260 metros de comprimento, 800 colunas, 96 metros de altura, iluminado em dourado. É o terceiro maior parlamento do mundo (depois de Bucareste e Sofia).
+14:00 às 16:30 — Castelo de Buda
 
-Não entrem hoje — a visita interna é amanhã.
+16:30 às 18:00 — Bastião dos Pescadores, luz do dia e pôr do sol
 
----
+19:15 — Entrada na Igreja de Matias
 
-### 19:30 — JANTAR: MÁRVÁNY MENNYSÉG
+19:30 às 20:30 — Missa com órgão
 
-[Parlamento → Márvány Mennység](https://www.google.com/maps/dir/Parliament/M%C3%A1rv%C3%A1ny+Mennys%C3%A9g,+Mark%C3%B3+utca+7,+1055+Budapest)
+20:30 às 21:15 — Bastião iluminado, vista noturna
 
-Restaurante elegante, num antigo tribunal, a 5 minutos do Parlamento. Cozinha húngara contemporânea, ambiente sofisticado.
+21:30 — Jantar em Buda
 
-O que pedir:
-- **Mangalica pork** — carne de porco mangalica (raça húngara de lã), com purê de batata e molho de vinho. €18-22
-- **Duna hal** — peixe do Danúbio, com legumes e manteiga de ervas. €20-25
-- **Gerbeaud szelet** — sobremesa clássica, camadas de massa, geleia de damasco, chocolate. €8-10
+22:30 — Retorno ao hotel
 
-Preço: €30-45 por pessoa (com vinho).
+### 08:50 — A CAMINHADA ATÉ A BASÍLICA
 
----
+[Hotel à Basílica](https://www.google.com/maps/dir/Medos+Hotel,+J%C3%B3kai+t%C3%A9r+9,+1061/Szent+Istv%C3%A1n+t%C3%A9r,+1051+Budapest)
+
+Do hotel até a Basílica de Santo Estevão, cerca de 900 metros, 15 a 20 minutos. Vocês cruzam a Avenida Andrássy, a Champs-Élysées de Budapeste, declarada Patrimônio da Humanidade pela UNESCO.
+
+Personagem: a avenida leva o nome de Gyula Andrássy (1823–1890), conde, primeiro-ministro da Hungria e principal articulador do Compromisso Austro-Húngaro de 1867. Foi ele quem convenceu Sisi a apoiar a causa húngara — e foi com a ajuda dela que o Compromisso se concretizou. A Andrássy út foi construída para a Exposição do Milênio de 1896.
+
+### 09:10 — A BASÍLICA DE SANTO ESTEVÃO
+
+A maior igreja de Budapeste. Consagrada em 1905, levou 54 anos para ser construída. Projetada por Miklós Ybl (1814–1891), o arquiteto mais prolífico da Hungria — que morreu antes de vê-la concluída, assim como Steindl com o Parlamento. Há uma maldição em Budapeste: os arquitetos não vivem para ver suas obras terminadas.
+
+96 metros de altura na cúpula, o número sagrado novamente, capacidade para 8.500 pessoas, 50 tipos diferentes de mármore no interior, órgão com 5.898 tubos.
+
+Site oficial: szentistvanbazilika.hu
+
+Valores atualizados (2026):
+
+Entrada na nave principal: 2.600 HUF (7 euros / R$ 38).
+
+Panorâmica do terraço e tesouro: 5.000 HUF (13 euros / R$ 73).
+
+Combo completo: 6.800 HUF (18 euros / R$ 99).
+
+A missa é gratuita.
+
+A Mão Direita de Santo Estevão: no interior, em uma capela dourada atrás do altar-mor, está a relíquia mais sagrada da Hungria: a mão mumificada do primeiro rei húngaro, coroado no ano 1000. Santo Estevão (975–1038) foi o homem que transformou tribos nômades em uma nação cristã. A mão tem mais de mil anos. Diz a lenda que, se desaparecer, a Hungria cairá.
+
+[Ver no Google Maps](https://www.google.com/maps/place/Basilica+of+St+Stephen)
+
+### 10:00 — A NAGYMISE
+
+A missa das 10 horas é a Nagymise, a grande missa dominical. O órgão de 5.898 tubos preenche a cúpula com Bach, Mozart, Liszt ou compositores húngaros. É música que sobe como incenso.
+
+Personagem: quando o órgão toca, pensem em Ferenc Erkel (1810–1893), o compositor do hino nacional húngaro, o Himnusz, e fundador da Ópera Nacional. A música sacra húngara carrega a melancolia de um povo que sobreviveu a tudo — e a esperança de quem acredita que a beleza é a última forma de resistência.
+
+### 12:30 — ALMOÇO
+
+[Basílica à região de almoço](https://www.google.com/maps/dir/Bas%C3%ADlica+de+Santo+Est%C3%AAv%C3%A3o,+Szent+Istv%C3%A1n+t%C3%A9r,+1051+Budapest/Liszt+Ferenc+t%C3%A9r,+1061+Budapest)
+
+Menza (Liszt Ferenc tér 2): cozinha húngara contemporânea. A praça leva o nome de Franz Liszt — e é considerada a mais charmosa de Budapeste, com seus cafés ao ar livre e castanheiras. Pratos entre 2.500 e 5.000 HUF, R$ 36 a R$ 73.
+
+Drum Café (Dob utca 2): goulash autêntico. Pratos entre 2.000 e 4.000 HUF, R$ 29 a R$ 58.
+
+### 13:45 — RUMO A BUDA
+
+[Almoço a Buda, ônibus 16](https://www.google.com/maps/dir/Liszt+Ferenc+t%C3%A9r,+1061+Budapest/De%C3%A1k+Ferenc+t%C3%A9r,+1052+Budapest/D%C3%ADsz+t%C3%A9r,+1014+Budapest)
+
+Ônibus 16 na Praça Deák Ferenc. Sobe a Colina do Castelo em 12 minutos.
+
+Personagem: a praça leva o nome de Ferenc Deák (1803–1876), o homem sábio da nação. Foi Deák quem concebeu o Compromisso de 1867 — a solução diplomática que transformou o Império Austríaco em Império Austro-Húngaro, dando à Hungria autonomia dentro da monarquia dual. Sem Deák, não haveria Sisi coroada em Budapeste. Sem Deák, não haveria a Budapeste unificada de 1873.
+
+Valor: 450 HUF (1,20 euros / R$ 6,50).
+
+### 14:00 — O CASTELO DE BUDA
+
+Residência dos reis húngaros desde o século XIII. Fundado por Béla IV (1206–1270), o rei que reconstruiu a Hungria após a devastação dos mongóis em 1241. Béla fez um juramento: construiria uma fortaleza inexpugnável no alto da colina. Cumpriu a promessa.
+
+Ampliado pelos Habsburgos, ocupado pelos turcos otomanos por 145 anos, bombardeado na Segunda Guerra Mundial — o Castelo sobreviveu a tudo. Entrada nos pátios e jardins gratuita.
+
+Personagens: no Castelo, pensem em Sisi e Francisco José. Em 8 de junho de 1867, após a missa de coroação na Igreja de Matias, o casal imperial desceu a colina até o palácio para o banquete. Francisco José foi coroado com a Coroa de Santo Estevão — o mesmo símbolo que coroou reis por 900 anos. Sisi, como rainha consorte, recebeu a coroa apenas tocada em seu ombro direito. Ela chorou de emoção. Os húngaros a amavam como a nenhuma imperatriz austríaca.
+
+Site oficial: budacastlebudapest.com
+
+[Ver no Google Maps](https://www.google.com/maps/place/Buda+Castle)
+
+### 16:30 — O BASTIÃO DOS PESCADORES
+
+[Castelo ao Bastião à Matias](https://www.google.com/maps/dir/Buda+Castle,+Szent+Gy%C3%B6rgy+t%C3%A9r+2,+1014/Hal%C3%A1szb%C3%A1stya,+Szenth%C3%A1roms%C3%A1g+t%C3%A9re,+1014/M%C3%A1ty%C3%A1s-templom,+Szenth%C3%A1roms%C3%A1g+t%C3%A9r+2,+1014)
+
+Mirante em forma de fortaleza medieval, construído entre 1895 e 1902 por Frigyes Schulek (1841–1919), com sete torres de pedra branca representando as sete tribos magiares que cruzaram os Cárpatos em 896, lideradas pelo príncipe Árpád.
+
+Nível inferior: gratuito.
+
+Nível superior, torres: 1.700 HUF (4,50 euros / R$ 25).
+
+Desconto para maiores de 65 anos: 50%, 850 HUF (2,25 euros / R$ 12).
+
+[Ver no Google Maps](https://www.google.com/maps/place/Fisherman's+Bastion)
+
+### 18:00 — O PÔR DO SOL
+
+Às 18:13, o sol se põe. O céu vai do dourado ao rosa, ao violeta. Vocês estão no ponto mais alto da colina, com Budapeste inteira aos seus pés. O Danúbio serpenteia abaixo, as pontes brilham. É o momento mais romântico da cidade.
+
+### 19:15 — A IGREJA DE MATIAS
+
+O nome oficial é Igreja de Nossa Senhora de Buda. Fundada originalmente em 1015 por Santo Estevão. Reconstruída em estilo gótico no século XIV. No século XVI, os turcos otomanos a transformaram em mesquita por 150 anos — e foi aqui que ocorreu o Milagre Mariano de 1686: durante o cerco de Buda, uma parede da igreja desmoronou com um tiro de canhão, revelando uma estátua da Virgem Maria escondida atrás dela. Os defensores otomanos, vendo a aparição, perderam a moral e a cidade caiu no mesmo dia.
+
+Em 8 de junho de 1867, aqui dentro, Francisco José e Sisi foram coroados rei e rainha da Hungria. A cerimônia começou às 7 da manhã. Sisi foi vestida desde a aurora por sua cabeleireira Fanny Angerer. Falou em húngaro perante o Parlamento, e os deputados choraram.
+
+Telhado com 147.000 telhas Zsolnay esmaltadas — um espetáculo de cores.
+
+Personagem: a igreja leva o nome popular de Matthias Church em homenagem a Mátyás Hunyadi, Matthias Corvinus (1443–1490), o rei renascentista que se casou aqui em 1463 com Catherine de Podebrady. Matthias foi o mais culto dos reis húngaros — sua biblioteca, a Bibliotheca Corviniana, tinha 3.000 manuscritos, a segunda maior da Europa depois do Vaticano.
+
+Site oficial: matyas-templom.hu
+
+Valores atualizados (2026):
+
+Entrada para visita turística: 3.400 HUF (9 euros / R$ 49).
+
+Com audioguia: 5.000 HUF (13 euros / R$ 73).
+
+Entrada gratuita para a missa.
+
+[Ver no Google Maps](https://www.google.com/maps/place/Matias+Church)
+
+### 20:30 — O BASTIÃO DOS PESCADORES À NOITE
+
+Vocês saem da missa e a cidade está transformada. As luzes do Parlamento brilham douradas sobre o Danúbio. A Ponte das Correntes é um colar de pérolas sobre a água escura. A Ponte Elisabeth, mais ao sul, risca o céu com seus cabos de aço iluminados. É Budapeste como vocês nunca viram.
+
+### 21:30 — JANTAR EM BUDA
+
+Pierrot Café & Restaurant (Fortuna utca 14): cozinha húngara contemporânea. Pratos entre 4.000 e 8.000 HUF, R$ 58 a R$ 116.
+
+Ruszwurm Cukrászda (Szentháromság utca 7): a confeitaria mais antiga de Budapeste, fundada em 1827. Diz a lenda que Sisi vinha aqui tomar café. Preços: 1.500 a 2.500 HUF, R$ 22 a R$ 36.
+
+### 22:30 — RETORNO AO HOTEL
+
+[Bastião ao hotel](https://www.google.com/maps/dir/Hal%C3%A1szb%C3%A1stya,+Szenth%C3%A1roms%C3%A1g+t%C3%A9re,+1014+Budapest/Medos+Hotel,+J%C3%B3kai+t%C3%A9r+9,+1061)
+
+Táxi ou Bolt: 10 minutos, cerca de 4.000 HUF (10 euros / R$ 58).
+
+Resumo do dia 2:
+
+Caminhada total aproximada: 4,5 km.
+
+Tempo de caminhada: 1h15.
+
+Nível: moderado, subida leve em Buda compensada pelo ônibus 16.
+
+## DIA 3 — SEGUNDA-FEIRA, 5 DE OUTUBRO DE 2026
+
+### O DIA DAS SETE MARAVILHAS — DO BAIRRO JUDEU ÀS TERMAS
+
+### A LENDA DAS SETE MARAVILHAS DE BUDAPESTE
+
+Existe uma lenda húngara que diz: Budapeste tem sete milagres escondidos. Quem os encontra todos, nunca mais será a mesma pessoa.
+
+Hoje vocês visitarão sete lugares extraordinários:
+
+1. A Grande Sinagoga — testemunha de resistência.
+
+2. O Mercado Central — onde os sabores ganham vida.
+
+3. O Café New York — o café mais bonito do mundo.
+
+4. A Praça dos Heróis — onde a história se materializa em pedra.
+
+5. As Termas Széchenyi — águas que curam corpo e alma.
+
+6. O Bar Szimpla Kert — onde a rebeldia vira arte.
+
+7. O pôr do sol entre as brumas das Termas Széchenyi — o sétimo milagre, de água e luz.
+
+### DADOS DO DIA
+
+Café da manhã: incluso, 7:00 às 10:00.
+
+Temperatura: 9 a 17°C.
+
+Pôr do sol: 18:11.
+
+Transporte: metrô, bonde e táxi.
+
+### ROUPA PARA O DIA
+
+Manhã: confortável para caminhar. Tênis ou sapato macio.
+
+Tarde nas termas: roupa de banho, chinelos, toalha, aluguel de 1.500 HUF, saco plástico para roupa molhada.
+
+Noite no Szimpla Kert: casual despojado. Jaqueta leve.
+
+### LINHA DO TEMPO
+
+08:00 — Café da manhã no hotel
+
+09:00 — Saída do hotel, metrô até o Bairro Judeu
+
+09:45 — Encontro em frente à sinagoga Dohány
+
+10:00 às 11:30 — Tour guiado, programa Basic: sinagoga, jardim e memorial
+
+11:30 às 12:00 — Caminhada breve pelo Bairro Judeu
+
+12:00 — Deslocamento ao Mercado Central
+
+12:30 — Almoço no Mercado Central
+
+14:00 — Café New York
+
+15:00 — Metrô até a Praça dos Heróis
+
+15:30 — Praça dos Heróis e Városliget
+
+16:30 — Termas Széchenyi
+
+18:30 — Saída das termas
+
+19:00 — Szimpla Kert
+
+20:30 — Jantar no Bairro Judeu
+
+21:30 — Retorno ao hotel
+
+### 09:00 — RUMO AO BAIRRO JUDEU
+
+[Hotel à Grande Sinagoga](https://www.google.com/maps/dir/Medos+Hotel,+J%C3%B3kai+t%C3%A9r+9,+1061/Great+Synagogue,+Doh%C3%A1ny+utca+2,+1074)
+
+Metrô: estação Oktogon, linha M1, transferência em Deák Ferenc tér, linha M2, estação Astoria. 12 minutos.
+
+Valor: 450 HUF (1,20 euros / R$ 6,50).
+
+### 09:45 — ENCONTRO NA SINAGOGA
+
+O ponto de encontro é Dohány utca 2, em frente à entrada da sinagoga, às 09:45. O tour guiado do programa Basic começa às 10:00 e percorre a sinagoga, o jardim e o memorial, tudo acompanhado por um guia. Confirmar a reserva e o ponto exato com a operadora.
+
+A Dohány utcai Zsinagóga é a maior sinagoga da Europa e a segunda maior do mundo. Construída entre 1854 e 1859 em estilo mouro, com capacidade para 3.000 fiéis.
+
+Durante a Segunda Guerra Mundial, o bairro judeu foi transformado em gueto. Mais de 400.000 judeus húngaros foram deportados para Auschwitz. A sinagoga sobreviveu — e dentro do seu pátio, milhares foram enterrados no inverno de 1944–45.
+
+Site oficial: greatsynagogue.hu
+
+[Ver no Google Maps](https://www.google.com/maps/place/Doh%C3%A1ny+Street+Synagogue)
+
+### 11:15 — O CEMITÉRIO E O MEMORIAL
+
+No pátio da sinagoga está o Parque do Memorial Raoul Wallenberg, com a Árvore da Vida — escultura de metal em forma de salgueiro-chorão, onde cada folha carrega o nome de uma vítima do Holocausto. Mais de 40.000 nomes.
+
+Raoul Wallenberg (1912–1945?) salvou dezenas de milhares de judeus húngaros, emitindo passaportes protetores fictícios. Preso pelos soviéticos em janeiro de 1945, desapareceu. Até hoje ninguém sabe seu destino.
+
+A lição silenciosa: em Budapeste, a história não está nos livros. Está nas ruas, nos muros, nos sapatos de ferro sobre o Danúbio, nas folhas de metal com nomes.
+
+### 11:30 — CAMINHADA PELO BAIRRO JUDEU
+
+O Erzsébetváros, Distrito VII, é hoje o bairro mais vibrante de Budapeste. Ruas estreitas, fachadas coloridas, grafites, cafés alternativos. Foi aqui que nasceu o conceito de romkocsma — os famosos bares em ruínas.
+
+Personagem: o bairro era onde vivia Theodor Herzl (1860–1904), o jornalista húngaro-judeu que fundou o sionismo político. Nascido em Peste, foi correspondente em Paris e testemunhou o Caso Dreyfus. A injustiça contra Alfred Dreyfus, um oficial judeu francês condenado por traição, o convenceu de que os judeus nunca estariam seguros na Europa. Em 1896, publicou Der Judenstaat, O Estado Judeu. Em 1897, organizou o Primeiro Congresso Sionista na Basileia. Morreu aos 44 anos, sem ver Israel nascer. Mas sua visão mudou o mundo.
+
+Passeiem pela Kazinczy utca, pela Wesselényi utca e pela Klauzál tér. O bairro é um labirinto de história, arte de rua e energia jovem.
+
+### 12:00 — DESLOCAMENTO AO MERCADO CENTRAL
+
+Bairro Judeu ao Mercado Central.
+
+Metrô: estação Astoria, linha M2, até Deák Ferenc tér, transferência para a linha M4 ou bonde 47/49 até Fővám tér. Cerca de 15 minutos.
+
+Valor: 450 HUF (1,20 euros / R$ 6,50).
+
+[Trajeto no Google Maps](https://www.google.com/maps/dir/Doh%C3%A1ny+utca+2,+1074+Budapest/Great+Market+Hall,+F%C5%91v%C3%A1m+t%C3%A9r+1-3,+1093+Budapest)
+
+### 12:30 — MERCADO CENTRAL, NAGYVASARCSARNOK
+
+O maior e mais antigo mercado coberto de Budapeste, inaugurado em 1897 para a Exposição do Milênio. Projetado por Samu Pecz (1854–1922) em estilo neogótico com estrutura de ferro — a mesma engenharia que construiu a Torre Eiffel.
+
+Térreo: carnes, pimentões, páprica, linguiças, picles, queijos. Andar superior: restaurantes e comida de rua.
+
+O que provar:
+
+Langos: pão frito com sour cream e queijo, 1.200 a 2.000 HUF, R$ 17 a R$ 29.
+
+Goulash: sopa tradicional, 1.500 a 2.500 HUF, R$ 22 a R$ 36.
+
+Kurtoskalacs: bolo chaminé húngaro, 800 a 1.200 HUF, R$ 12 a R$ 17.
+
+Horário: segunda a sábado, 6:00 às 17:00. Domingo fechado.
+
+[Ver no Google Maps](https://www.google.com/maps/place/Great+Market+Hall)
+
+### 14:00 — CAFÉ NEW YORK
+
+[Mercado ao Café New York](https://www.google.com/maps/dir/Great+Market+Hall,+F%C5%91v%C3%A1m+t%C3%A9r+1-3,+1093/New+York+Caf%C3%A9,+Erzs%C3%A9bet+krt.+9-11,+1073)
+
+O café mais bonito do mundo. Inaugurado em 1894 no térreo do Palácio New York, projetado pelo arquiteto Alajos Hauszmann (1847–1926) em estilo renascentista italiano. Afrescos no teto, colunas de mármore, vitrais, espelhos dourados, lustres de cristal.
+
+Foi o ponto de encontro dos intelectuais húngaros no início do século XX. Ferenc Molnár (1878–1952), autor de Os Meninos da Rua Paulo, vinha aqui. Miklós Radnóti (1909–1944), o poeta que morreu em um campo de concentração nazista, escreveu seus versos mais belos nestas mesas.
+
+Valor: entrada gratuita, mas o consumo é obrigatório. Café e sobremesa: 4.000 a 7.000 HUF, R$ 58 a R$ 102. A fila pode ser longa — cheguem com paciência.
+
+Dica: peçam o somlói galuska — sobremesa tradicional húngara com três camadas de bolo, creme, chocolate e rum. Uma experiência.
+
+Site oficial: cafenewyorkbudapest.com
+
+[Ver no Google Maps](https://www.google.com/maps/place/New+York+Caf%C3%A9)
+
+### 15:00 — RUMO À PRAÇA DOS HERÓIS
+
+[Café New York à Praça dos Heróis](https://www.google.com/maps/dir/New+York+Caf%C3%A9,+Erzs%C3%A9bet+krt.+9-11,+1073/H%C5%91s%C3%B6k+tere,+1146+Budapest)
+
+Metrô: estação Blaha Lujza tér, linha M2, transferência em Deák Ferenc tér, linha M1, estação Hősök tere. 15 minutos.
+
+Valor: 450 HUF (1,20 euros / R$ 6,50).
+
+### 15:30 — PRAÇA DOS HERÓIS, HOSOK TERE
+
+A praça mais monumental de Budapeste, construída para a Exposição do Milênio de 1896, celebrando os 1.000 anos da chegada dos magiares à Panônia.
+
+No centro, o Monumento do Milênio: uma coluna de 36 metros coroada pelo Arcanjo Gabriel, que — segundo a lenda — apareceu a Santo Estevão em sonho, oferecendo-lhe a coroa divina.
+
+Ao redor, sete estátuas equestres representam os chefes das sete tribos magiares que cruzaram os Cárpatos em 896, liderados por Árpád. Atrás, duas colunatas semicirculares com 14 estátuas de figuras históricas: reis, príncipes, heróis.
+
+Personagens nas estátuas:
+
+Árpád (c. 845–907): o príncipe que liderou os magiares.
+
+Santo Estevão (975–1038): o primeiro rei.
+
+Ladislaus I (1040–1095): o rei santo.
+
+Coloman (1070–1116): o rei erudito.
+
+Andrew II (1177–1235): o rei da Bula de Ouro.
+
+Béla IV (1206–1270): o reconstrutor após os mongóis.
+
+Matthias Corvinus (1443–1490): o rei renascentista.
+
+Gabriel Bethlen (1580–1629): o príncipe da Transilvânia.
+
+Lajos Kossuth (1802–1894): o líder da revolução de 1848.
+
+Entrada gratuita. Aberto 24 horas.
+
+[Ver no Google Maps](https://www.google.com/maps/place/H%C5%91s%C3%B6k+tere)
+
+### 15:45 — PARQUE VÁROSLIGET
+
+Atrás da Praça dos Heróis se estende o Városliget, o Bosque da Cidade, um parque de 1,2 km² criado no século XIX. Aqui, pensem em Ferenc Erkel (1810–1893): foi ele quem compôs o hino nacional húngaro, o Himnusz, e fundou a Ópera Nacional. A música húngara nasceu nestes jardins.
+
+No parque está o Castelo Vajdahunyad, inspirado no castelo dos Hunyadi em Hunedoara, na Transilvânia. Matthias Corvinus, aliás, nasceu em Kolozsvár, hoje Cluj, na Romênia — não no castelo. E o Zoológico de Budapeste, o mais antigo da Hungria, de 1866.
+
+### 16:30 — TERMAS SZÉCHENYI
+
+[Termas Széchenyi](https://www.google.com/maps/place/Sz%C3%A9chenyi+Gy%C3%B3gyf%C3%BCrd%C5%91+%C3%A9s+Uszoda)
+
+As termas mais famosas de Budapeste, inauguradas em 1913 em estilo neobarroco amarelo-ouro. 18 piscinas internas e externas, alimentadas por duas nascentes termais com temperaturas de 74°C e 77°C.
+
+A água contém sulfatos, cálcio, magnésio, bicarbonatos e ácido metabórico — indicada para problemas articulares, reumatismo, recuperação pós-cirúrgica e doenças degenerativas.
+
+Para o grupo:
+
+As piscinas externas têm temperatura constante de 33 a 35°C.
+
+Evitem a piscina de jogos, mais agitada.
+
+Usem os corrimãos para entrar e sair.
+
+Hidratem-se antes e depois.
+
+Limitem a sessão a 45 a 60 minutos.
+
+Site oficial: szechenyibath.hu
+
+Valores atualizados (2026):
+
+Entrada diária com armário, segunda a quinta: 13.200 HUF (cerca de 33 euros / R$ 198).
+
+Entrada diária com armário, sexta a domingo: 14.800 HUF (cerca de 37 euros / R$ 222).
+
+Bilhete Good Morning, entrada até as 9h: 10.500 HUF em dias úteis.
+
+Desconto para maiores de 65 anos: confirmar diretamente na bilheteria, não publicado no site oficial.
+
+Cabine privativa: verificar valor adicional na bilheteria.
+
+Aluguel de toalha: 1.500 HUF (4 euros / R$ 22).
+
+Aluguel de chinelo: 800 HUF (2 euros / R$ 12).
+
+Horário: diariamente, das 6:00 às 22:00.
+
+Dica: cheguem no final da tarde. As piscinas externas ao pôr do sol são uma experiência única — vapor subindo da água, luz dourada, silêncio.
+
+[Ver no Google Maps](https://www.google.com/maps/place/Sz%C3%A9chenyi+Gy%C3%B3gyf%C3%BCrd%C5%91+%C3%A9s+Uszoda)
+
+### 18:30 — SAÍDA DAS TERMAS
+
+Banho, troca de roupa, saída. Para chegar ao Szimpla Kert sem pressa, usem táxi ou Bolt, cerca de 15 minutos.
+
+### 19:00 — SZIMPLA KERT
+
+[Termas ao Szimpla Kert](https://www.google.com/maps/dir/Sz%C3%A9chenyi+Gy%C3%B3gyf%C3%BCrd%C5%91+%C3%A9s+Uszoda,+Budapest,+V%C3%A1rosligeti+fasor+11,+1146/Szimpla+Kert,+Kazinczy+utca+14,+1075)
+
+O primeiro romkocsma, bar em ruínas, de Budapeste. Fundado em 2002 em um prédio abandonado do século XVIII no Bairro Judeu. Paredes descascadas, móveis reciclados, arte de rua, um Trabant cortado ao meio pendurado no teto, um ônibus soviético transformado em bar.
+
+É a rebeldia húngara em forma de bar. Depois de décadas de comunismo, os jovens de Budapeste transformaram a decadência em arte.
+
+Valor: entrada gratuita. Bebidas entre 800 e 2.500 HUF, R$ 12 a R$ 36.
+
+Dica: subam ao terraço. A vista do Bairro Judeu à noite é surpreendente.
+
+[Ver no Google Maps](https://www.google.com/maps/place/Szimpla+Kert)
+
+### 20:30 — JANTAR NO BAIRRO JUDEU
+
+Mazel Tov (Akácfa utca 47): cozinha israelense contemporânea em um antigo galpão industrial. Pratos entre 3.500 e 7.000 HUF, R$ 51 a R$ 102.
+
+Hummus Bar (Kazinczy utca 27): hummus, falafel, shakshuka. Pratos entre 2.000 e 4.000 HUF, R$ 29 a R$ 58.
 
 ### 21:30 — RETORNO AO HOTEL
 
-[Jantar → Hotel](https://www.google.com/maps/dir/M%C3%A1rv%C3%A1ny+Mennys%C3%A9g,+Mark%C3%B3+utca+7,+1055+Budapest/Medos+Hotel,+Jókai+tér+9,+1061+Budapest)
+[Szimpla Kert ao hotel](https://www.google.com/maps/dir/Szimpla+Kert,+Kazinczy+utca+14,+1075/Medos+Hotel,+J%C3%B3kai+t%C3%A9r+9,+1061)
 
-Táxi Bolt. 10 minutos. Durmam bem.
+A pé: 15 minutos. Ou táxi/Bolt: 5 minutos, cerca de 2.500 HUF (6,50 euros / R$ 36).
 
----
+Resumo do dia 3:
 
-**Resumo do dia 2:**
-- Caminhada total: 4,5 km
-- Tempo de caminhada: 1h
-- Nível: moderado (subidas em Buda, mas com ônibus e táxi)
+Caminhada total aproximada: 5,2 km.
 
----
+Tempo de caminhada: 1h20.
 
-## DIA 3 — DOMINGO, 5 DE OUTUBRO DE 2026
-### PESTE — O PARLAMENTO, AS TERMAS E A ALMA HÚNGARA
+Nível: pesado, o dia mais cheio da estadia em Budapeste. Se o grupo preferir um ritmo mais lento, transforme o Café New York ou o Szimpla Kert em opção, não em obrigação.
 
-| Item | Detalhe |
-|------|---------|
-| Temperatura | 7°C a 15°C |
-| Pôr do sol | 18:28 |
-| Atrações principais | Parlamento (tour interno), termas Széchenyi, Váci utca, Cruzeiro |
-| Transporte | Metrô + caminhada |
+## DIA 4 — TERÇA-FEIRA, 6 DE OUTUBRO DE 2026
 
----
+### SOBRE TRILHOS DE IMPÉRIO — DE BUDAPESTE A VIENA
 
-### 08:00 — CAFÉ DA MANHÃ NO HOTEL
+### A DESPEDIDA DE BUDAPESTE
 
-Comam bem. Hoje é o dia de Peste — o coração pulsante da cidade.
+Hoje vocês deixam a Pérola do Danúbio. Mas antes de partirem, caminhem uma última vez pelas margens do rio. Olhem para o Parlamento. Olhem para as pontes. Lembrem-se de István Széchenyi, que sonhou a Ponte das Correntes. Lembrem-se de Imre Steindl, que morreu sem ver o Parlamento pronto. Lembrem-se de Sisi, que chorou de emoção ao ser coroada na Igreja de Matias. Lembrem-se de Liszt, cujas rapsódias ainda ecoam nos cafés.
 
----
+Budapeste não é apenas uma cidade. É uma lição de resistência. Sobreviveu a mongóis, turcos, Habsburgos, nazistas e soviéticos. E em cada invasão, renasceu. Como o Danúbio, que segue seu curso, indiferente aos impérios que sobem e caem em suas margens.
 
-### 09:00 — VISITA INTERNA AO PARLAMENTO
+### DADOS DO DIA
 
-[Hotel → Parlamento](https://www.google.com/maps/dir/Medos+Hotel,+Jókai+tér+9,+1061+Budapest/Parliament)
+Check-out: até 11:00.
 
-Caminhada de 15 minutos até o Parlamento. A visita interna é imperdível — 45 minutos, com audioguia em português.
+Traslado: incluso até a estação Keleti, com busca no hotel às 09:40.
 
-#### 🏛️ DADOS DA RESERVA — PARLAMENTO
+Trem: EC 142, Budapeste Keleti para Wien Hauptbahnhof.
 
-**Código da reserva:** GYG32L2HXF32
-**PIN:** gjn5qdyD
-**Data:** Domingo, 5 de outubro de 2026
-**Horário de início:** a partir das 09:00
-**Participantes:** 6 adultos + 6 idosos
-**Valor pago:** R$ 1.198,80
-**Tour:** Panorâmico, com audioguia, 45 minutos
+Partida: 10:30.
 
-#### O QUE VOCÊS VERÃO
+Chegada: 13:20.
 
-- **A Escadaria Principal**: 24 colunas de mármore, 16 kg de ouro, pinturas de Károly Lotz
-- **A Sala da Cúpula**: onde a **Coroa de Santo Estêvão** é exibida — a coroa com a qual todos os reis da Hungria foram coroados desde o século XI. É o símbolo máximo da nação
-- **O Salão das Sessões**: 438 assentos, afrescos, ouro, mármore. É aqui que o Parlamento húngaro se reúne
-- **A Biblioteca**: manuscritos medievais, a carta de Colombo a Fernando e Isabel
+Duração: 2h50.
 
-#### ⏰ HORÁRIOS
+Vagão-restaurante: disponível.
 
-- Domingo: 08:00 às 16:00 (última entrada às 15:15)
-- Segunda a sábado: 08:00 às 18:00
+### LINHA DO TEMPO
 
-#### 🎫 COMO USAR O BILHETE
+07:30 — Café da manhã no hotel
 
-- Bilhete digital — apresentar pelo celular na entrada
-- Audioguia em português (disponível em 16 idiomas)
-- Entrada pela Porta dos Visitantes (lado norte)
+09:15 — Check-out e arrumação das malas
 
----
+09:40 — Busca no hotel, traslado
 
-### 10:30 — A BASÍLICA DE SANTO ESTÊVÃO (REVISITADA)
+09:55 — Chegada à estação Keleti
 
-[Parlamento → Basílica](https://www.google.com/maps/dir/Parliament/Szent+Istv%C3%A1n+Bazilika,+Szent+Istv%C3%A1n+tér+1,+1051+Budapest)
+10:15 — Embarque no trem EC 142
 
-Caminhada de 15 minutos. Se não visitaram a cúpula no dia 1, é a hora. A vista de 360° é espetacular.
+10:30 — Partida
 
----
+11:20 — Passagem por Győr
 
-### 11:30 — A VÁCI UTCA E O MERCADO CENTRAL
+11:50 — Fronteira em Hegyeshalom
 
-[Basílica → Váci utca → Mercado Central](https://www.google.com/maps/dir/Szent+Istv%C3%A1n+Bazilika,+Szent+Istv%C3%A1n+tér+1,+1051+Budapest/V%C3%A1ci+utca/K%C3%B6zponti+V%C3%A1s%C3%A1rcsarnok,+F%C5%91v%C3%A1m+tér+1-3,+1093+Budapest)
+12:05 — Entrada na Áustria, Bruck an der Leitha
 
-Caminhada de 20 minutos pela **Váci utca** — a rua comercial mais famosa de Budapeste. Lojas, cafés, turistas. Continuem até o **Mercado Central** (Nagyvásárcsarnok) — um edifício neogótico de 1897, com três andares de barracas, especiarias, páprica, salames, queijos, frutas.
+13:20 — Chegada em Wien Hauptbahnhof
 
-No térreo: páprica, salames, foie gras, doces.
-No primeiro andar: restaurantes rápidos, comida de rua.
-No subsolo: peixes, picles, conservas.
+### 09:40 — TRASLADO ATÉ A ESTAÇÃO KELETI
 
-Comprem:
-- **Páprica** (doce ou picante) — o souvenir mais húngaro
-- **Salame Pick** ou **Winter** — os salames mais famosos
-- **Tokaji Aszú** — o vinho de sobremesa mais famoso do mundo, produzido na região de Tokaj
-- **Unicum** — o licor de ervas húngaro, amargo, digestivo
+Traslado incluso do hotel até a estação Keleti Pályaudvar, Estação Leste, com busca no hotel às 09:40. Distância: cerca de 2 km. Tempo: 10 a 15 minutos. Vocês chegam à estação por volta das 09:55, com cerca de 35 minutos de folga antes da partida. Margem confortável para um grupo de doze pessoas, sem pressa.
 
-Preço: €10-20 por compras.
+Personagem: a estação Keleti foi inaugurada em 1884 e é a principal estação ferroviária internacional de Budapeste. O nome Keleti significa Leste — era por aqui que os trens partiam para a Transilvânia, para os Bálcãs, para o Oriente.
 
----
+### 10:30 — O TREM EC 142
 
-### 13:00 — ALMOÇO NO MERCADO CENTRAL
+EuroCity 142, Budapeste Keleti para Wien Hauptbahnhof.
 
-No primeiro andar do mercado, há dezenas de restaurantes rápidos. Sugestões:
-- **Lángos** — pão frito com creme azedo e queijo ralado. €4-6
-- **Kürtőskalács** — bolo chaminé, doce, com canela ou chocolate. €3-5
-- **Goulash** — ensopado tradicional. €7-10
+Composição: vagões de primeira e segunda classe, vagão-restaurante, ar-condicionado, Wi-Fi intermitente, tomadas em cada assento.
 
-Preço: €8-15 por pessoa.
+Valor: incluso no pacote.
 
----
+Dica: sentem-se do lado esquerdo na saída de Budapeste. Nos primeiros 15 minutos, o trem acompanha o Danúbio, e vocês verão o rio pela última vez — agora do outro lado, de um ângulo diferente, como um adeus silencioso.
 
-### 14:30 — METRÔ ATÉ AS TERMAS SZÉCHENYI
+### O TRAJETO — SOBRE TRILHOS DE IMPÉRIO
 
-[Mercado → Termas Széchenyi](https://www.google.com/maps/dir/K%C3%B6zponti+V%C3%A1s%C3%A1rcsarnok,+F%C5%91v%C3%A1m+tér+1-3,+1093+Budapest/Sz%C3%A9chenyi+Gy%C3%B3gyf%C3%BCrd%C5%91+%C3%A9s+Uszoda,+%C3%81llatkerti+krt.+9-11,+1146+Budapest)
+A linha Budapeste–Viena é uma das mais antigas da Europa. Foi inaugurada em 1848 — o mesmo ano da Revolução Húngara, da queda de Metternich, das revoluções que varreram a Europa.
 
-Metrô M1 (linha amarela — a histórica!) até Széchenyi fürdő. 20 minutos. É a linha do Milênio, inaugurada em 1896 — os vagões amarelos originais ainda circulam.
+Durante quase três horas, vocês cruzam dois países, duas línguas, duas culturas. Mas a paisagem é a mesma: a Planície Panônica, que se estende da Hungria até a Áustria Oriental.
 
----
+10:30 às 11:20 — A SAÍDA DE BUDAPESTE
 
-### 15:00 — AS TERMAS SZÉCHENYI
+O trem deixa a estação Keleti e cruza os subúrbios de Peste. Pelas janelas, vocês veem os blocos de apartamentos do período socialista, os jardins comunitários, as chaminés das fábricas desativadas.
 
-[Ver no Google Maps](https://www.google.com/maps/place/Széchenyi+Gyógyfürdő+és+Uszoda)
+Personagem: foi por esta linha que, em 1956, durante a Revolução Húngara, milhares de refugiados fugiram para o Ocidente. A União Soviética havia invadido Budapeste em 23 de outubro. Os tanques entraram na cidade. E os húngaros — estudantes, operários, intelectuais — fugiram. Mais de 200.000 cruzaram a fronteira com a Áustria nas semanas seguintes. A Áustria os recebeu. O mundo os esqueceu. Mas a memória permanece.
 
-As **Termas Széchenyi** são as maiores da Europa — 18 piscinas internas, 3 externas, num palácio neobarroco amarelo, no coração do City Park (Városliget). A água brota a 74°C de duas nascentes, resfriada para diferentes temperaturas.
+### 11:20 — GYOR
 
-#### 🏊 DADOS DA RESERVA — TERMAS SZÉCHENYI
+A primeira parada importante. Győr é uma cidade industrial no noroeste da Hungria, conhecida por suas fábricas da Audi e por seu centro histórico barroco. O horário exato de passagem pode variar alguns minutos; a referência é aproximada.
 
-**Código da reserva:** GYG32L2HXF33
-**PIN:** gjn5qdyE
-**Data:** Domingo, 5 de outubro de 2026
-**Horário de início:** a partir das 15:00
-**Participantes:** 6 adultos + 6 idosos
-**Valor pago:** R$ 1.098,60
-**Bilhete:** Entrada diária, cabine privativa incluída
+Personagem: Győr foi palco da Batalha de Raab em 14 de junho de 1809, quando as tropas napoleônicas derrotaram os austríacos. Conta-se que István Széchenyi, ainda jovem oficial, participou da batalha e arriscou a vida remando pelo Danúbio para ligar dois exércitos austríacos. Foi ali que ele viu, pela primeira vez, a importância estratégica do rio.
 
-#### O QUE ESTÁ INCLUÍDO
+### 11:50 — HEGYESHALOM, A FRONTEIRA
 
-- Acesso ilimitado a todas as piscinas termais
-- Cabine privativa com vestiário
-- Uso de roupão, toalha, chinelo
-- Acesso às piscinas externas (mesmo no outono)
+O trem para por 3 minutos em Hegyeshalom, a última estação húngara antes da Áustria. É aqui que, durante a Guerra Fria, os passageiros eram revistados pela polícia de fronteira. Passaportes carimbados. Malas abertas.
 
-#### ⏰ HORÁRIOS
+Hoje, a fronteira é invisível. Ambos os países estão na União Europeia e no Espaço Schengen. Mas a história pesa.
 
-- Diário: 06:00 às 22:00
-- Piscinas externas: 06:00 às 20:00 (outono)
+Personagem: em 1989, durante o Piquenique Pan-Europeu realizado perto de Sopron, a 80 km ao sul, a fronteira entre Hungria e Áustria foi aberta por algumas horas. Mais de 600 alemães-orientais fugiram para o Ocidente. Foi o primeiro rasgão no Muro de Berlim — três meses antes de ele cair de vez. A Hungria foi o primeiro país do bloco soviético a abrir suas fronteiras.
 
-#### 🎫 COMO USAR O BILHETE
+### 12:05 — BRUCK AN DER LEITHA, ENTRADA NA ÁUSTRIA
 
-- Bilhete digital — apresentar pelo celular na entrada
-- Armário com pulseira eletrônica (incluído)
+O trem cruza o rio Leitha, que marca a fronteira natural entre a Hungria e a Áustria. A paisagem muda sutilmente: as casas ficam mais arrumadas, os campos mais verdes, o céu mais cinzento.
 
-#### DICAS IMPORTANTES
+Personagem: Bruck an der Leitha foi, por séculos, a porta de entrada para Viena. Os imperadores Habsburgos passavam por aqui quando viajavam para a Hungria. Francisco José cruzou esta ponte dezenas de vezes — a caminho da coroação em 1867, a caminho de Bad Ischl para encontrar Sisi, a caminho do front durante a Primeira Guerra Mundial.
 
-- **Chinelos**: levem ou aluguem na entrada
-- **Roupão**: incluído no bilhete
-- **Piscinas externas**: mesmo em outubro, a água está a 38°C — o contraste com o ar frio é delicioso
-- **Duração**: fiquem pelo menos 2 horas
-- **Hidratação**: bebam muita água (as termas desidratam)
+12:30 às 13:20 — A APROXIMAÇÃO DE VIENA
 
----
+Os últimos 50 minutos são de descida suave. O trem entra na bacia de Viena, e vocês começam a ver os subúrbios austríacos: casas com telhados vermelhos, jardins bem cuidados, igrejas barrocas.
 
-### 18:00 — RETORNO AO HOTEL
+Personagem: foi por esta linha que Sisi viajou dezenas de vezes entre Viena e Budapeste. Ela amava a Hungria — e detestava Viena. A rigidez da corte austríaca a sufocava. Em Budapeste, ela respirava. Os húngaros a adoravam. Ela aprendeu húngaro, montou a cavalo nas planícies da Panônia, e foi coroada rainha na Igreja de Matias em 1867. Mas o destino foi cruel: em 10 de setembro de 1898, em Genebra, um anarquista italiano chamado Luigi Lucheni a esfaqueou no coração. Sisi morreu aos 60 anos. Francisco José nunca se recuperou. Até sua morte, em 1916, carregava no bolso um retrato dela.
 
-[Termas → Hotel](https://www.google.com/maps/dir/Sz%C3%A9chenyi+Gy%C3%B3gyf%C3%BCrd%C5%91+%C3%A9s+Uszoda,+%C3%81llatkerti+krt.+9-11,+1146+Budapest/Medos+Hotel,+Jókai+tér+9,+1061+Budapest)
+### 13:20 — CHEGADA EM VIENA
 
-Metrô M1 até Vörösmarty utca. 15 minutos. Banho, descanso.
+Wien Hauptbahnhof — a estação central de Viena. Moderna, inaugurada em 2014, substituiu as antigas estações terminais.
 
----
+Transfer incluso até o hotel em Viena.
 
-### 20:00 — CRUZEIRO COM JANTAR NO DANÚBIO
+## EPÍLOGO — BUDAPESTE, A CIDADE QUE RESISTE
 
-[Hotel → Embarque](https://www.google.com/maps/dir/Medos+Hotel,+Jókai+tér+9,+1061+Budapest/Danubius+Legends,+Dock+7,+Belgr%C3%A1d+rakpart,+1056+Budapest)
+Budapeste não é apenas uma cidade. É um testemunho.
 
-Táxi Bolt até o embarque — **Dock 7**, Belgrád rakpart. 10 minutos.
+Sobreviveu aos mongóis em 1241. Sobreviveu aos turcos otomanos por 145 anos. Sobreviveu à Revolução de 1848 e à repressão austríaca. Sobreviveu à Segunda Guerra Mundial — quando todas as suas pontes foram destruídas. Sobreviveu à Revolução de 1956 e aos tanques soviéticos. Sobreviveu ao comunismo por 45 anos.
 
-#### 🚢 DADOS DO CRUZEIRO
+E em cada destruição, renasceu. Como a Ponte das Correntes, reconstruída pedra por pedra. Como o Parlamento, iluminado todas as noites, indiferente ao tempo. Como o Danúbio, que segue seu curso, carregando a memória de todos os povos que já habitaram suas margens.
 
-**Código da reserva:** GYG32L2HXF34
-**PIN:** gjn5qdyF
-**Data:** Domingo, 5 de outubro de 2026
-**Horário de embarque:** 19:30
-**Duração:** 3 horas
-**Participantes:** 12 adultos
-**Valor pago:** R$ 5.988,00
-**Inclui:** Cruzeiro com jantar buffet + bebidas ilimitadas (vinho, cerveja, refrigerante, água)
+Vocês vieram a Budapeste como turistas. Partem como testemunhas.
 
-#### O ROTEIRO DO CRUZEIRO
+E assim, sobre os trilhos de um império que já não existe, vocês seguem para Viena — a capital que um dia governou tudo isso.
 
-O barco parte do centro de Peste, contorna a ponta sul da Ilha Margarida, e retorna. Pelas duas margens, vocês verão:
+Mas a história de Budapeste permanece. Nas pontes. No rio. Nas luzes do Parlamento que se transformam a cada pôr do sol. Nos personagens que caminharam por estas ruas — reis, rainhas, compositores, arquitetos, revolucionários, poetas.
 
-**Margem de Peste (leste):**
-- Parlamento iluminado
-- Academia de Ciências
-- Basílica de Santo Estêvão
-- Palácio Gresham (hoje Four Seasons)
-- Ponte das Correntes
-- Palácio das Artes
-- Universidade Corvinus
+E no número sagrado: 96. A altura do Parlamento. A altura da Basílica. O ano em que os magiares chegaram. O número que conecta o passado ao presente, a terra ao céu, o humano ao divino.
 
-**Margem de Buda (oeste):**
-- Castelo de Buda
-- Igreja de Matias
-- Bastião dos Pescadores
-- Colina Gellért com a estátua da Liberdade
-- Citadela
-- Hotel Gellért
+Budapeste é isso: uma cidade que toca o céu sem esquecer a terra.
 
-#### O JANTAR
+Fim da Parte I — Budapeste.
 
-Buffet com pratos húngaros e internacionais:
-- Goulash
-- Sopa de peixe
-- Frango com nokedli
-- Carne de porco com repolho roxo
-- Saladas, pães, sobremesas
-- Vinho húngaro, cerveja, refrigerante, água
-
-#### DICAS IMPORTANTES
-
-- Cheguem 20 minutos antes do embarque
-- Levem documento de identificação
-- Casaco: o convés pode ser fresco à noite
-- Mesa reservada para o grupo
-- Banheiros a bordo
-
----
-
-### 23:00 — RETORNO AO HOTEL
-
-[Cruzeiro → Hotel](https://www.google.com/maps/dir/Dock+7,+Belgr%C3%A1d+rakpart,+1056+Budapest/Medos+Hotel,+Jókai+tér+9,+1061+Budapest)
-
-Táxi Bolt. 10 minutos. Última noite em Budapeste. O Danúbio brilha ao longe. Durmam bem.
-
----
-
-**Resumo do dia 3:**
-- Caminhada total: 3,5 km
-- Tempo de caminhada: 50 min
-- Nível: leve (termas são relaxantes, cruzeiro é sentado)
-
----
-
-## DIA 4 — SEGUNDA-FEIRA, 6 DE OUTUBRO DE 2026
-### A DESPEDIDA — RUMO A VIENA
-
-| Item | Detalhe |
-|------|---------|
-| Temperatura | 7°C a 14°C |
-| Trem | EC 142, Budapest Keleti → Wien Hbf |
-| Partida | 10:30 |
-| Chegada | 13:20 |
-
----
-
-### 07:30 — ÚLTIMO CAFÉ DA MANHÃ NO MEDOS
-
-Saboreiem cada garfada. O pão húngaro, o café, as frutas. É a última manhã em Budapeste.
-
----
-
-### 08:30 — CHECK-OUT (MALAS NA RECEPÇÃO)
-
-O hotel guarda as malas gratuitamente.
-
----
-
-### 09:00 — CAMINHADA ATÉ A ESTAÇÃO KELETI
-
-[Hotel → Keleti pályaudvar](https://www.google.com/maps/dir/Medos+Hotel,+Jókai+tér+9,+1061+Budapest/Keleti+pályaudvar,+1087+Budapest)
-
-Caminhada de 15 minutos. A estação **Keleti** (Leste) é a mais antiga das três grandes estações de Budapeste — inaugurada em 1884, em estilo eclético.
-
----
-
-### 09:30 — CHEGADA À ESTAÇÃO, EMBARQUE
-
-Comprem um café, um pão, sentem-se na sala de embarque. O trem parte às 10:30.
-
----
-
-### 10:30 — PARTIDA DO EC 142 PARA VIENA
-
-O trem EuroCity deixa Budapeste. Pelas janelas, a planície húngara passa — campos dourados de outono, vilarejos com igrejas barrocas, florestas. Vocês cruzam a fronteira com a Áustria após 2h de viagem. E então, ao longe, as torres de Viena aparecem.
-
----
-
-### 13:20 — WIEN HAUPTBAHNHOF
-
-O trem freia na estação central de Viena. A próxima etapa começa.
-
----
-
-**Resumo do dia 4:**
-- Caminhada total: 1,5 km
-- Tempo de caminhada: 20 min
-- Nível: leve
-
----
-
-## EPÍLOGO — BUDAPESTE, A CIDADE QUE O RIO ABRAÇA
-
-Budapeste não é apenas uma cidade. É um encontro — de duas margens, de duas almas, de dois mundos. Buda, a colina, o silêncio, o castelo. Peste, a planície, o barulho, a vida. O Danúbio as separa e as une — como a história separou e uniu húngaros, romanos, turcos, austríacos, judeus, ciganos.
-
-Vocês chegaram de avião, vindos de Istambul. Vão partir de trem, rumo a Viena. Entre Istambul e Viena, Budapeste é a pausa — a cidade das termas, do goulash, do Parlamento dourado refletido no Danúbio.
-
-E como dizem os húngaros ao brindar: **Egészségére!** — "À sua saúde!"
-
----
-
-## ORÇAMENTO BUDAPESTE (por pessoa, 4 dias)
-
-| Item | Estimativa |
-|------|------------|
-| Hotel (3 noites no Medos) | €120 - €200 |
-| Refeições (8 refeições) | €100 - €180 |
-| Transporte (metrô + bondes + Budapest Card 72h) | €15 - €25 |
-| Castelo de Buda (Galeria + Museu) | €15 (R$ 82) |
-| Basílica (cúpula + capela) | €8 (R$ 44) |
-| Parlamento (tour interno) | €18 (R$ 99) |
-| Termas Széchenyi | €25 (R$ 137) |
-| Cruzeiro com jantar (já pago) | €50 |
-| Compras e lembranças | €20 - €100 |
-| TOTAL ESTIMADO | €370 - €700 |
-
----
-
-## GASTRONOMIA HÚNGARA — O QUE COMER
-
-| Prato | Descrição |
-|-------|-----------|
-| Goulash (Gulyás) | Ensopado de carne com páprica, batata, legumes — o prato nacional |
-| Halászlé | Sopa de peixe do Danúbio, picante, com páprica — especialidade de Szeged |
-| Töltött káposzta | Repolho recheado com carne, servido com creme azedo |
-| Libamáj | Fígado gordo de ganso, com maçã caramelizada e molho de vinho |
-| Lángos | Pão frito com creme azedo e queijo ralado — comida de rua |
-| Kürtőskalács | Bolo chaminé, doce, com canela ou chocolate — origem transilvana |
-| Mangalica | Carne de porco mangalica (raça húngara de lã) — sabor intenso |
-| Somlói galuska | Sobremesa de três camadas de bolo, creme, chocolate, rum |
-| Palacsinta | Crepe húngaro, com geleia, Nutella ou sorvete |
-| Tokaji Aszú | Vinho de sobremesa da região de Tokaj — o "vinho dos reis, rei dos vinhos" |
-
----
-
-## ONDE COMER EM BUDAPESTE
-
-| Restaurante | Tipo |
-|-------------|------|
-| Pest-Buda | Cozinha húngara tradicional, vista do Danúbio |
-| Régi Pesti BAKAHAZ | Cozinha húngara autêntica, edifício do século XVII |
-| Márvány Mennység | Cozinha húngara contemporânea, elegante |
-| New York Café | O "café mais belo do mundo", caro mas imperdível |
-| Central Café | Café histórico, ambiente art nouveau |
-| Gerbeaud | Confeitaria desde 1858, na Vörösmarty tér |
-| Mazel Tov | Cozinha judaica, no bairro judeu |
-| Borkonyha | Michelin-starred, cozinha húngara moderna |
-| Kandó Café | Café tradicional, perto da Ópera |
-| Szimpla Kert | O primeiro "romkocsma" (bar em ruína) de Budapeste |
-
----
-
-## INFORMAÇÕES PRÁTICAS
-
-| Tópico | Detalhe |
-|--------|---------|
-| Moeda | Florim húngaro (Ft). €1 ≈ 410 Ft (outubro/2026). Hungria NÃO usa euro |
-| Idioma | Húngaro. Inglês amplamente falado em áreas turísticas |
-| Voltagem | 230V, tomadas tipo C e F (dois pinos redondos) |
-| Gorjetas | 10-15% em restaurantes. Arredondar em táxis |
-| Horários | Museus: 10h-18h. Lojas: 10h-19h. Domingo: muitos fechados |
-| Água | Potável em todas as torneiras |
-| Segurança | Segura, mas atenção com carteiristas em áreas turísticas |
-| Cartões | Amplamente aceitos. Leve algum florim para pequenas compras |
-| Schengen | Hungria está no Espaço Schengen |
-| Trem para Viena | EuroCity, 2h50, sem troca, confortável |
-
----
-
-## VESTIMENTA EM BUDAPESTE
-
-| Ocasião | Sugestão |
-|---------|----------|
-| Passeios diurnos | Casual confortável, sapatos de caminhada |
-| Cafés históricos | Smart casual |
-| Cruzeiro com jantar | Smart casual — não é preciso terno, mas evitem esportivo |
-| Termas | Roupa de banho (alugam na entrada), chinelo, toalha |
-| Igrejas | Ombros e joelhos cobertos |
-| Outubro | Camadas: camiseta, suéter, sobretudo ou trench coat. Manhã 7°C, tarde 15°C |
-
----
-
-## DICAS FINAIS PARA BUDAPESTE
-
-1. Comprem o **Budapest Card** (72h) — transporte ilimitado + descontos em museus
-2. Usem o app **Bolt** para táxis — mais confiável que pegar na rua
-3. Nas termas, levem **chinelos** — ou aluguem na entrada
-4. O **Parlamento** exige reserva com antecedência — lota rápido
-5. A **Linha M1 do metrô** (amarela) é Patrimônio da UNESCO — vale o passeio
-6. O **goulash** autêntico é ensopado, não sopa — não esperem um caldo
-7. O **Tokaji Aszú** é o vinho de sobremesa mais famoso do mundo — comprem uma garrafa
-8. Os **sapatos na margem do Danúbio** são um memorial — visitem com respeito
-9. O **Bastião dos Pescadores** ao entardecer é mágico — se puderem, voltem
-10. A **páprica** é o souvenir mais húngaro — comprem no Mercado Central
-
----
-
-Fim da PARTE I — BUDAPESTE.
-
----
-
----
-
+Próxima parada: Viena — A Cidade Que Dançou Valsas Sob o Império.
