@@ -73,6 +73,7 @@ export const Header = () => {
           ...brasilSubItems,
           ...gruposSubItems,
           { label: "Cruzeiros fluviais", href: "/cruzeiros-fluviais" },
+          { label: "Livro Autoral", href: "/livro-autoral" },
           { label: "Blog", href: "/diario" },
           { label: "Nós viajamos!", href: "/depoimentos" },
           { label: t("nav.contato"), href: "/contato" },
@@ -248,6 +249,18 @@ export const Header = () => {
             {/* Blog & Contato — same style as other primary links */}
             {lang === "pt" && (
               <>
+                <Link
+                  to="/livro-autoral"
+                  className={`text-sm font-medium transition-colors hover:text-gold whitespace-nowrap ${
+                    location.pathname.startsWith("/livro-autoral") || location.pathname.startsWith("/viagem")
+                      ? "text-gold"
+                      : isScrolled
+                        ? "text-foreground"
+                        : "text-primary-foreground"
+                  }`}
+                >
+                  Livro Autoral
+                </Link>
                 <Link
 
                   to="/diario"

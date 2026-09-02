@@ -16,6 +16,7 @@ import PerguntasFrequentes from "./pages/PerguntasFrequentes";
 import FaqTema from "./pages/FaqTema";
 import QuantoCusta from "./pages/QuantoCusta";
 import ViagemHub from "./pages/ViagemHub";
+import LivroAutoral from "./pages/LivroAutoral";
 import ViagemCidade from "./pages/ViagemCidade";
 import QuantoCustaDestino from "./pages/QuantoCustaDestino";
 import Depoimentos from "./pages/Depoimentos";
@@ -123,6 +124,7 @@ const App = () => (
         <Route path="/contato" element={<Contato />} />
         <Route path="/quanto-custa" element={<QuantoCusta />} />
         <Route path="/quanto-custa/:slug" element={<QuantoCustaDestino />} />
+        <Route path="/livro-autoral" element={<LivroAutoral />} />
         <Route path="/viagem/capitais-imperiais-2026" element={<ViagemHub />} />
         <Route path="/viagem/capitais-imperiais-2026/:cidade" element={<ViagemCidade />} />
         <Route path="/perguntas-frequentes" element={<PerguntasFrequentes />} />

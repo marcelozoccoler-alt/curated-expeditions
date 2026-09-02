@@ -154,6 +154,10 @@ push("/embarque-com-a-create", 0.9, "weekly");
 // High-intent commercial landing pages
 push("/roteiro-sob-medida", 0.95, "weekly");
 push("/quanto-custa", 0.9, "weekly");
+push("/livro-autoral", 0.8, "weekly");
+push("/viagem/capitais-imperiais-2026", 0.7, "weekly");
+push("/viagem/capitais-imperiais-2026/budapeste", 0.6, "weekly");
+push("/viagem/capitais-imperiais-2026/viena", 0.6, "weekly");
 for (const d of precoDestinos) push(`/quanto-custa/`, 0.85, "weekly");
 push("/perguntas-frequentes", 0.9, "weekly");
 // FAQ dinâmico por continente/região e por experiência
