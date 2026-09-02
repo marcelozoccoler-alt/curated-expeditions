@@ -15,6 +15,8 @@ import Contato from "./pages/Contato";
 import PerguntasFrequentes from "./pages/PerguntasFrequentes";
 import FaqTema from "./pages/FaqTema";
 import QuantoCusta from "./pages/QuantoCusta";
+import ViagemHub from "./pages/ViagemHub";
+import ViagemCidade from "./pages/ViagemCidade";
 import QuantoCustaDestino from "./pages/QuantoCustaDestino";
 import Depoimentos from "./pages/Depoimentos";
 import Regiao from "./pages/Regiao";
@@ -121,6 +123,8 @@ const App = () => (
         <Route path="/contato" element={<Contato />} />
         <Route path="/quanto-custa" element={<QuantoCusta />} />
         <Route path="/quanto-custa/:slug" element={<QuantoCustaDestino />} />
+        <Route path="/viagem/capitais-imperiais-2026" element={<ViagemHub />} />
+        <Route path="/viagem/capitais-imperiais-2026/:cidade" element={<ViagemCidade />} />
         <Route path="/perguntas-frequentes" element={<PerguntasFrequentes />} />
         <Route path="/perguntas-frequentes/:kind/:slug" element={<FaqTema />} />
         <Route path="/depoimentos" element={<Depoimentos />} />
