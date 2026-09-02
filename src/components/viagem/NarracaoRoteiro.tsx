@@ -109,7 +109,13 @@ export const TextoNarravel = ({
 };
 
 /** Aviso no topo da página explicando a narração e qual voz conduz a cidade. */
-export const NarracaoAviso = ({ cidade }: { cidade: string }) => {
+export const NarracaoAviso = ({
+  cidade,
+  textoCompleto,
+}: {
+  cidade: string;
+  textoCompleto?: string;
+}) => {
   const { voz, status, parar, erro } = useNarracaoRoteiro();
   const tocando = status === "playing" || status === "loading";
 
@@ -122,6 +128,9 @@ export const NarracaoAviso = ({ cidade }: { cidade: string }) => {
           {voz.nome.toLowerCase()} lê a viagem para você — {voz.descricao.toLowerCase()} Cada cidade
           alterna a voz: {cidade} é narrada por ela.
         </p>
+        {textoCompleto && (
+          <BotaoOuvir id="cidade-completa" texto={textoCompleto} label="Ouvir tudo, sem parar" />
+        )}
         {tocando && (
           <button
             type="button"
@@ -136,3 +145,4 @@ export const NarracaoAviso = ({ cidade }: { cidade: string }) => {
     </div>
   );
 };
+
