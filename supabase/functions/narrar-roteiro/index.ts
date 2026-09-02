@@ -36,7 +36,7 @@ Deno.serve(async (req) => {
     const instructions =
       typeof body.instructions === "string" && body.instructions.length < 800
         ? body.instructions
-        : "Leia em português do Brasil como um narrador de documentário de viagem: ritmo calmo, pausas nas vírgulas, timbre caloroso e próximo, sem pressa e sem exagero teatral.";
+        : "Leia em português do Brasil como quem conta uma história de dormir: ritmo fluido e um pouco mais rápido que uma leitura formal, tom de conversa, animado e afetuoso.";
 
     if (!text) {
       return new Response(JSON.stringify({ error: "Texto vazio" }), {
@@ -62,7 +62,7 @@ Deno.serve(async (req) => {
         input: text,
         voice,
         instructions,
-        speed: 0.95,
+        speed: 1.12,
         stream_format: "sse",
         response_format: "pcm",
       }),
