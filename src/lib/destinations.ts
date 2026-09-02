@@ -1,4 +1,5 @@
 import { Destination } from "./types";
+import { withIndividualItineraries } from "./individualItineraries";
 import { mexicoDestinations } from "./mexicoDestinations";
 import { usaDestinations } from "./usaDestinations";
 import { africaExtraDestinations } from "./destinationsExtra/africa";
@@ -34,7 +35,7 @@ import tailandiaImg from "@/assets/destinations/asia-tailandia.jpg";
 import japaoKansaiImg from "@/assets/destinations/asia-japao-kansai.jpg";
 import japaoHokkaidoImg from "@/assets/destinations/asia-japao-hokkaido.jpg";
 
-export const destinations: Destination[] = [
+const baseDestinations: Destination[] = [
   // ===== BRASIL =====
   {
     id: "brasil-amazonia-anavilhanas",
@@ -3754,6 +3755,8 @@ export const destinations: Destination[] = [
   ...wildAsiaPacificoDestinations,
   ...wildAfricaAmericasDestinations,
 ];
+
+export const destinations: Destination[] = withIndividualItineraries(baseDestinations);
 
 export const getDestinationBySlug = (slug: string): Destination | undefined => {
   return destinations.find((d) => d.slug === slug);
