@@ -1,4 +1,5 @@
 import { Destination } from "./types";
+import { withIndividualItineraries } from "./individualItineraries";
 import { mexicoDestinations } from "./mexicoDestinations";
 import { usaDestinations } from "./usaDestinations";
 import { africaExtraDestinations } from "./destinationsExtra/africa";
