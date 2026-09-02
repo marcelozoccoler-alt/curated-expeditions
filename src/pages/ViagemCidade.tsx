@@ -8,6 +8,13 @@ import { FotosDoDia } from "@/components/viagem/FotosDoDia";
 import { TrilhaSonora } from "@/components/viagem/TrilhaSonora";
 import { getTrilha } from "@/lib/viagens/trilhas";
 import {
+  BotaoOuvir,
+  NarracaoAviso,
+  NarracaoProvider,
+  TextoNarravel,
+} from "@/components/viagem/NarracaoRoteiro";
+import { textoParaNarracao, vozDaCidade } from "@/lib/viagens/narracao";
+import {
   CIDADES,
   CIDADES_EM_BREVE,
   VIAGEM,
@@ -26,6 +33,7 @@ const ViagemCidade = () => {
   if (!data) return <Navigate to={VIAGEM_PATH} replace />;
 
   const trilha = getTrilha(data.slug);
+  const voz = vozDaCidade(data.slug);
   const path = `${VIAGEM_PATH}/${data.slug}`;
   const description = `Roteiro dia a dia em ${data.nome} (${data.dates}) do grupo exclusivo e autoral Create Travel: história, lendas, hotel, gastronomia e cada hora da viagem.`;
 
@@ -53,6 +61,7 @@ const ViagemCidade = () => {
   ];
 
   return (
+    <NarracaoProvider voz={voz}>
     <div className="min-h-screen">
       <SEO
         title={`${data.nome} dia a dia — roteiro do grupo`}
@@ -87,6 +96,8 @@ const ViagemCidade = () => {
 
       <main className="container-editorial py-12">
         <Breadcrumbs items={[{ label: VIAGEM.nome, href: VIAGEM_PATH }, { label: data.nome }]} />
+
+        <NarracaoAviso cidade={data.nome} />
 
         {/* Navegação entre cidades */}
         <nav className="mt-6 flex flex-wrap gap-2" aria-label="Cidades da viagem">
@@ -143,11 +154,27 @@ const ViagemCidade = () => {
                         {block.subtitle}
                       </h2>
                     )}
+                    <div className="mt-3">
+                      <BotaoOuvir
+                        id={`${block.id}-completo`}
+                        texto={textoParaNarracao(
+                          block.subtitle ?? block.title,
+                          block.intro,
+                          ...block.items.map((i) => textoParaNarracao(i.heading, i.body))
+                        )}
+                        label="Ouvir o dia inteiro"
+                      />
+                    </div>
                   </header>
 
                   {block.intro && (
                     <div className="mb-8">
-                      <RoteiroMarkdown>{block.intro}</RoteiroMarkdown>
+                      <TextoNarravel
+                        id={`${block.id}-intro`}
+                        texto={textoParaNarracao(block.intro)}
+                      >
+                        <RoteiroMarkdown>{block.intro}</RoteiroMarkdown>
+                      </TextoNarravel>
                     </div>
                   )}
 
@@ -164,8 +191,17 @@ const ViagemCidade = () => {
                           <h3 className="font-serif text-xl sm:text-2xl font-semibold text-foreground">
                             {item.heading}
                           </h3>
+                          <BotaoOuvir
+                            id={item.id}
+                            texto={textoParaNarracao(item.heading, item.body)}
+                          />
                         </div>
-                        <RoteiroMarkdown>{item.body}</RoteiroMarkdown>
+                        <TextoNarravel
+                          id={item.id}
+                          texto={textoParaNarracao(item.heading, item.body)}
+                        >
+                          <RoteiroMarkdown>{item.body}</RoteiroMarkdown>
+                        </TextoNarravel>
                       </li>
                     ))}
                   </ol>
@@ -182,7 +218,12 @@ const ViagemCidade = () => {
                   )}
                   {block.intro && (
                     <div className="mb-6">
-                      <RoteiroMarkdown>{block.intro}</RoteiroMarkdown>
+                      <TextoNarravel
+                        id={`${block.id}-intro`}
+                        texto={textoParaNarracao(block.title, block.intro)}
+                      >
+                        <RoteiroMarkdown>{block.intro}</RoteiroMarkdown>
+                      </TextoNarravel>
                     </div>
                   )}
                   <div className="space-y-7">
@@ -191,10 +232,21 @@ const ViagemCidade = () => {
                         key={item.id}
                         className="rounded-2xl border border-border bg-card p-5 sm:p-6"
                       >
-                        <h3 className="font-serif text-lg sm:text-xl font-semibold text-foreground mb-3">
-                          {item.time ? `${item.time} — ${item.heading}` : item.heading}
-                        </h3>
-                        <RoteiroMarkdown>{item.body}</RoteiroMarkdown>
+                        <div className="flex flex-wrap items-baseline justify-between gap-2 mb-3">
+                          <h3 className="font-serif text-lg sm:text-xl font-semibold text-foreground">
+                            {item.time ? `${item.time} — ${item.heading}` : item.heading}
+                          </h3>
+                          <BotaoOuvir
+                            id={item.id}
+                            texto={textoParaNarracao(item.heading, item.body)}
+                          />
+                        </div>
+                        <TextoNarravel
+                          id={`${item.id}-texto`}
+                          texto={textoParaNarracao(item.heading, item.body)}
+                        >
+                          <RoteiroMarkdown>{item.body}</RoteiroMarkdown>
+                        </TextoNarravel>
                       </div>
                     ))}
                   </div>
@@ -228,6 +280,7 @@ const ViagemCidade = () => {
 
       <Footer />
     </div>
+    </NarracaoProvider>
   );
 };
 
