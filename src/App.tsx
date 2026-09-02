@@ -123,6 +123,7 @@ const App = () => (
         <Route path="/contato" element={<Contato />} />
         <Route path="/quanto-custa" element={<QuantoCusta />} />
         <Route path="/quanto-custa/:slug" element={<QuantoCustaDestino />} />
+        <Route path="/livro-autoral" element={<LivroAutoral />} />
         <Route path="/viagem/capitais-imperiais-2026" element={<ViagemHub />} />
         <Route path="/viagem/capitais-imperiais-2026/:cidade" element={<ViagemCidade />} />
         <Route path="/perguntas-frequentes" element={<PerguntasFrequentes />} />
