@@ -16,6 +16,7 @@ import PerguntasFrequentes from "./pages/PerguntasFrequentes";
 import FaqTema from "./pages/FaqTema";
 import QuantoCusta from "./pages/QuantoCusta";
 import ViagemHub from "./pages/ViagemHub";
+import LivroAutoral from "./pages/LivroAutoral";
 import ViagemCidade from "./pages/ViagemCidade";
 import QuantoCustaDestino from "./pages/QuantoCustaDestino";
 import Depoimentos from "./pages/Depoimentos";
