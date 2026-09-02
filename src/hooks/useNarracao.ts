@@ -121,6 +121,28 @@ export const useNarracao = (voz: VozNarracao) => {
 
           const reader = res.body.pipeThrough(new TextDecoderStream()).getReader();
           let buf = "";
+
+          const processarBloco = (bloco: string) => {
+            for (const linhaBruta of bloco.split(/\r?\n/)) {
+              const linha = linhaBruta.trimStart();
+              if (!linha.startsWith("data:")) continue;
+              const dado = linha.slice(5).trim();
+              if (!dado || dado === "[DONE]") continue;
+              let payload: { type?: string; audio?: string };
+              try {
+                payload = JSON.parse(dado);
+              } catch {
+                continue;
+              }
+              if (payload.type !== "speech.audio.delta" || !payload.audio) continue;
+              const bin = atob(payload.audio);
+              const bytes = new Uint8Array(bin.length);
+              for (let i = 0; i < bin.length; i++) bytes[i] = bin.charCodeAt(i);
+              agendar(bytes);
+              if (run === runIdRef.current) setStatus("playing");
+            }
+          };
+
           while (true) {
             const { value, done } = await reader.read();
             if (done) break;
@@ -129,28 +151,14 @@ export const useNarracao = (voz: VozNarracao) => {
               return;
             }
             buf += value;
-            const eventos = buf.split("\n\n");
-            buf = eventos.pop() ?? "";
-            for (const bloco of eventos) {
-              for (const linha of bloco.split("\n")) {
-                if (!linha.startsWith("data:")) continue;
-                const dado = linha.slice(5).trim();
-                if (!dado || dado === "[DONE]") continue;
-                let payload: { type?: string; audio?: string };
-                try {
-                  payload = JSON.parse(dado);
-                } catch {
-                  continue;
-                }
-                if (payload.type !== "speech.audio.delta" || !payload.audio) continue;
-                const bin = atob(payload.audio);
-                const bytes = new Uint8Array(bin.length);
-                for (let i = 0; i < bin.length; i++) bytes[i] = bin.charCodeAt(i);
-                agendar(bytes);
-                if (run === runIdRef.current) setStatus("playing");
-              }
-            }
+            // Processa linha por linha: cada evento SSE chega como uma linha "data:".
+            const linhas = buf.split(/\r?\n/);
+            buf = linhas.pop() ?? "";
+            for (const linha of linhas) processarBloco(linha);
           }
+          if (buf.trim()) processarBloco(buf);
+
+
         }
 
         if (run !== runIdRef.current) return;
