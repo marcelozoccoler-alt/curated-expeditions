@@ -3755,6 +3755,8 @@ const baseDestinations: Destination[] = [
   ...wildAfricaAmericasDestinations,
 ];
 
+export const destinations: Destination[] = withIndividualItineraries(baseDestinations);
+
 export const getDestinationBySlug = (slug: string): Destination | undefined => {
   return destinations.find((d) => d.slug === slug);
 };
