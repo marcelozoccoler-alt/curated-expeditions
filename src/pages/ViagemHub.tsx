@@ -179,6 +179,12 @@ const ViagemHub = () => {
         </section>
       </main>
 
+      <TrilhaSonora
+        titulo="A viagem em quatro trilhas"
+        descricao="Uma seleção clássica para ler o roteiro com a música de cada capital: Liszt e Brahms em Budapeste, Strauss em Viena, Smetana e Dvořák em Praga, Rimsky-Korsakov no Bósforo."
+        faixas={TRILHA_VIAGEM}
+      />
+
       <Footer />
     </div>
   );
