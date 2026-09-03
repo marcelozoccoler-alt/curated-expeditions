@@ -70,8 +70,14 @@ Deno.serve(async (req) => {
 
     if (!response.ok) {
       const detail = await response.text().catch(() => "");
+      const amigavel =
+        response.status === 402 || detail.includes("credit_limit_reached")
+          ? "A narração está temporariamente indisponível: o limite de créditos de IA foi atingido. Avise a Create Travel."
+          : response.status === 429
+            ? "Muitas narrações ao mesmo tempo. Tente novamente em alguns segundos."
+            : "";
       return new Response(
-        JSON.stringify({ error: detail || `Falha na narração (${response.status})` }),
+        JSON.stringify({ error: amigavel || detail || `Falha na narração (${response.status})` }),
         {
           status: response.status,
           headers: { ...corsHeaders, "Content-Type": "application/json" },
