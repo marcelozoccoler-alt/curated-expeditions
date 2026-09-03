@@ -2,13 +2,15 @@ import { useCallback, useEffect, useRef, useState } from "react";
 import { dividirParaNarracao, type VozNarracao } from "@/lib/viagens/narracao";
 
 const ENDPOINT = `${import.meta.env.VITE_SUPABASE_URL}/functions/v1/narrar-roteiro`;
-const SAMPLE_RATE = 24000;
+/** WAV silencioso: destrava o elemento de áudio dentro do gesto do usuário (iOS). */
+const SILENCIO =
+  "data:audio/wav;base64,UklGRiQAAABXQVZFZm10IBAAAAABAAEARKwAAIhYAQACABAAZGF0YQAAAAA=";
 
-/**
- * iOS/Safari: o áudio só toca se o AudioContext for criado e destravado
- * dentro do próprio gesto do usuário (sem await antes) e se a sessão de
- * áudio for marcada como "playback" — senão o botão mudo do iPhone corta o som.
- */
+type Status = "idle" | "loading" | "playing" | "error";
+
+/** Cache em memória: mesmo trecho não pede o link duas vezes na mesma sessão. */
+const urlsEmCache = new Map<string, string>();
+
 const prepararSessaoIOS = () => {
   const sessao = (navigator as unknown as { audioSession?: { type: string } }).audioSession;
   if (sessao) {
@@ -20,53 +22,32 @@ const prepararSessaoIOS = () => {
   }
 };
 
-const destravar = (ctx: AudioContext) => {
-  // Um buffer silencioso disparado no gesto libera o áudio no iOS.
-  try {
-    const buffer = ctx.createBuffer(1, 1, ctx.sampleRate);
-    const source = ctx.createBufferSource();
-    source.buffer = buffer;
-    source.connect(ctx.destination);
-    source.start(0);
-  } catch {
-    /* ignora */
-  }
-  void ctx.resume().catch(() => {});
-};
-
-
-type Status = "idle" | "loading" | "playing" | "error";
-
 /**
- * Narração em streaming: busca o áudio PCM por SSE e agenda cada
- * pedaço no AudioContext, para a leitura começar quase instantaneamente.
+ * Narração a partir de MP3 gravados uma única vez no storage:
+ * o áudio é reaproveitado em todos os acessos seguintes.
  */
 export const useNarracao = (voz: VozNarracao) => {
   const [status, setStatus] = useState<Status>("idle");
   const [trechoAtivo, setTrechoAtivo] = useState<string | null>(null);
   const [erro, setErro] = useState<string | null>(null);
 
-  const ctxRef = useRef<AudioContext | null>(null);
+  const audioRef = useRef<HTMLAudioElement | null>(null);
   const abortRef = useRef<AbortController | null>(null);
-  const sourcesRef = useRef<AudioBufferSourceNode[]>([]);
-  const playheadRef = useRef(0);
-  const pendingRef = useRef<Uint8Array>(new Uint8Array(0));
   const runIdRef = useRef(0);
 
   const limpar = useCallback(() => {
     abortRef.current?.abort();
     abortRef.current = null;
-    sourcesRef.current.forEach((s) => {
+    const el = audioRef.current;
+    if (el) {
+      el.onended = null;
+      el.onerror = null;
       try {
-        s.onended = null;
-        s.stop();
+        el.pause();
       } catch {
-        /* já encerrado */
+        /* ignora */
       }
-    });
-    sourcesRef.current = [];
-    playheadRef.current = 0;
-    pendingRef.current = new Uint8Array(0);
+    }
   }, []);
 
   const parar = useCallback(() => {
@@ -76,11 +57,13 @@ export const useNarracao = (voz: VozNarracao) => {
     setTrechoAtivo(null);
   }, [limpar]);
 
-  useEffect(() => () => {
-    runIdRef.current += 1;
-    limpar();
-    ctxRef.current?.close().catch(() => {});
-  }, [limpar]);
+  useEffect(
+    () => () => {
+      runIdRef.current += 1;
+      limpar();
+    },
+    [limpar]
+  );
 
   const narrar = useCallback(
     async (id: string, texto: string) => {
@@ -95,122 +78,70 @@ export const useNarracao = (voz: VozNarracao) => {
       setTrechoAtivo(id);
       setStatus("loading");
 
+      // Elemento criado/destravado no próprio gesto: exigência de iOS e Android.
       prepararSessaoIOS();
-      if (!ctxRef.current || ctxRef.current.state === "closed") {
-        const Ctor =
-          window.AudioContext ??
-          (window as unknown as { webkitAudioContext: typeof AudioContext }).webkitAudioContext;
-        // Sem forçar sampleRate: iOS recusa taxas diferentes da do dispositivo.
-        ctxRef.current = new Ctor();
+      if (!audioRef.current) {
+        const el = new Audio();
+        el.preload = "auto";
+        el.setAttribute("playsinline", "true");
+        audioRef.current = el;
       }
-      const ctx = ctxRef.current;
-      destravar(ctx);
+      const audio = audioRef.current;
+      audio.src = SILENCIO;
+      void audio.play().catch(() => {});
 
-      const agendar = (incoming: Uint8Array) => {
-        if (ctx.state === "suspended") void ctx.resume().catch(() => {});
+      const controller = new AbortController();
+      abortRef.current = controller;
 
-        const bytes = new Uint8Array(pendingRef.current.length + incoming.length);
-        bytes.set(pendingRef.current);
-        bytes.set(incoming, pendingRef.current.length);
-        const usable = bytes.length - (bytes.length % 2);
-        pendingRef.current = bytes.slice(usable);
-        if (usable === 0) return;
-        const samples = new Int16Array(bytes.buffer, 0, usable / 2);
-        const floats = Float32Array.from(samples, (s) => s / 32768);
-        const buffer = ctx.createBuffer(1, floats.length, SAMPLE_RATE);
-        buffer.getChannelData(0).set(floats);
-        const source = ctx.createBufferSource();
-        source.buffer = buffer;
-        source.connect(ctx.destination);
-        if (playheadRef.current === 0) playheadRef.current = ctx.currentTime + 0.25;
-        else playheadRef.current = Math.max(playheadRef.current, ctx.currentTime);
-
-        source.start(playheadRef.current);
-        playheadRef.current += buffer.duration;
-        sourcesRef.current.push(source);
+      const buscarUrl = async (parte: string) => {
+        const cacheado = urlsEmCache.get(parte);
+        if (cacheado) return cacheado;
+        const res = await fetch(ENDPOINT, {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({ text: parte, voice: voz.voice }),
+          signal: controller.signal,
+        });
+        const dados = await res.json().catch(() => ({}) as { url?: string; error?: string });
+        if (!res.ok || !dados.url) {
+          throw new Error(
+            dados.error ||
+              (res.status === 429
+                ? "Muitas narrações ao mesmo tempo. Tente novamente em alguns segundos."
+                : `Falha na narração (${res.status})`)
+          );
+        }
+        urlsEmCache.set(parte, dados.url);
+        return dados.url as string;
       };
+
+      const tocar = (url: string) =>
+        new Promise<void>((resolve, reject) => {
+          audio.onended = () => resolve();
+          audio.onerror = () => reject(new Error("Não foi possível tocar o áudio."));
+          audio.src = url;
+          audio.playbackRate = 1;
+          void audio
+            .play()
+            .then(() => {
+              if (run === runIdRef.current) setStatus("playing");
+            })
+            .catch((e) => reject(e));
+        });
 
       try {
         const partes = dividirParaNarracao(texto);
-        const controller = new AbortController();
-        abortRef.current = controller;
-
-        for (const parte of partes) {
+        for (let i = 0; i < partes.length; i++) {
           if (run !== runIdRef.current) return;
-          const res = await fetch(ENDPOINT, {
-            method: "POST",
-            headers: { "Content-Type": "application/json" },
-            body: JSON.stringify({
-              text: parte,
-              voice: voz.voice,
-              instructions: voz.instructions,
-            }),
-            signal: controller.signal,
-          });
-          if (!res.ok || !res.body) {
-            const detalhe = await res.text().catch(() => "");
-            const limiteCreditos =
-              res.status === 402 ||
-              res.status === 403 ||
-              detalhe.includes("credit_limit_reached");
-            throw new Error(
-              res.status === 429
-                ? "Muitas narrações ao mesmo tempo. Tente novamente em alguns segundos."
-                : limiteCreditos
-                  ? "A narração está temporariamente indisponível (limite de créditos de IA atingido)."
-                  : `Falha na narração (${res.status})`
-            );
-          }
-
-          const reader = res.body.pipeThrough(new TextDecoderStream()).getReader();
-          let buf = "";
-
-          const processarBloco = (bloco: string) => {
-            for (const linhaBruta of bloco.split(/\r?\n/)) {
-              const linha = linhaBruta.trimStart();
-              if (!linha.startsWith("data:")) continue;
-              const dado = linha.slice(5).trim();
-              if (!dado || dado === "[DONE]") continue;
-              let payload: { type?: string; audio?: string };
-              try {
-                payload = JSON.parse(dado);
-              } catch {
-                continue;
-              }
-              if (payload.type !== "speech.audio.delta" || !payload.audio) continue;
-              const bin = atob(payload.audio);
-              const bytes = new Uint8Array(bin.length);
-              for (let i = 0; i < bin.length; i++) bytes[i] = bin.charCodeAt(i);
-              agendar(bytes);
-              if (run === runIdRef.current) setStatus("playing");
-            }
-          };
-
-          while (true) {
-            const { value, done } = await reader.read();
-            if (done) break;
-            if (run !== runIdRef.current) {
-              reader.cancel().catch(() => {});
-              return;
-            }
-            buf += value;
-            // Processa linha por linha: cada evento SSE chega como uma linha "data:".
-            const linhas = buf.split(/\r?\n/);
-            buf = linhas.pop() ?? "";
-            for (const linha of linhas) processarBloco(linha);
-          }
-          if (buf.trim()) processarBloco(buf);
-
-
+          const url = await buscarUrl(partes[i]);
+          if (run !== runIdRef.current) return;
+          // Adianta o próximo trecho enquanto este toca.
+          if (partes[i + 1]) void buscarUrl(partes[i + 1]).catch(() => {});
+          await tocar(url);
+          if (run !== runIdRef.current) return;
         }
-
-        if (run !== runIdRef.current) return;
-        const fim = Math.max(0, playheadRef.current - ctx.currentTime) * 1000 + 150;
-        window.setTimeout(() => {
-          if (run !== runIdRef.current) return;
-          setStatus("idle");
-          setTrechoAtivo(null);
-        }, fim);
+        setStatus("idle");
+        setTrechoAtivo(null);
       } catch (err) {
         if (run !== runIdRef.current) return;
         if (err instanceof DOMException && err.name === "AbortError") return;
