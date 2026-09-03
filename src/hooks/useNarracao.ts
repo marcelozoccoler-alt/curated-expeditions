@@ -4,6 +4,37 @@ import { dividirParaNarracao, type VozNarracao } from "@/lib/viagens/narracao";
 const ENDPOINT = `${import.meta.env.VITE_SUPABASE_URL}/functions/v1/narrar-roteiro`;
 const SAMPLE_RATE = 24000;
 
+/**
+ * iOS/Safari: o áudio só toca se o AudioContext for criado e destravado
+ * dentro do próprio gesto do usuário (sem await antes) e se a sessão de
+ * áudio for marcada como "playback" — senão o botão mudo do iPhone corta o som.
+ */
+const prepararSessaoIOS = () => {
+  const sessao = (navigator as unknown as { audioSession?: { type: string } }).audioSession;
+  if (sessao) {
+    try {
+      sessao.type = "playback";
+    } catch {
+      /* navegador não permite */
+    }
+  }
+};
+
+const destravar = (ctx: AudioContext) => {
+  // Um buffer silencioso disparado no gesto libera o áudio no iOS.
+  try {
+    const buffer = ctx.createBuffer(1, 1, ctx.sampleRate);
+    const source = ctx.createBufferSource();
+    source.buffer = buffer;
+    source.connect(ctx.destination);
+    source.start(0);
+  } catch {
+    /* ignora */
+  }
+  void ctx.resume().catch(() => {});
+};
+
+
 type Status = "idle" | "loading" | "playing" | "error";
 
 /**
