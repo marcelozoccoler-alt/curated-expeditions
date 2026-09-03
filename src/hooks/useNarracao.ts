@@ -149,12 +149,16 @@ export const useNarracao = (voz: VozNarracao) => {
           });
           if (!res.ok || !res.body) {
             const detalhe = await res.text().catch(() => "");
+            const limiteCreditos =
+              res.status === 402 ||
+              res.status === 403 ||
+              detalhe.includes("credit_limit_reached");
             throw new Error(
               res.status === 429
                 ? "Muitas narrações ao mesmo tempo. Tente novamente em alguns segundos."
-                : res.status === 402
-                  ? "Os créditos de narração acabaram. Avise a Create Travel."
-                  : detalhe || `Falha na narração (${res.status})`
+                : limiteCreditos
+                  ? "A narração está temporariamente indisponível (limite de créditos de IA atingido)."
+                  : `Falha na narração (${res.status})`
             );
           }
 
