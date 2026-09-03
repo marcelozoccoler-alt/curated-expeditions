@@ -141,6 +141,9 @@ export const NarracaoAviso = ({
           </button>
         )}
       </div>
+      <p className="mt-2 text-xs text-muted-foreground sm:hidden">
+        No celular, aumente o volume e desligue o modo silencioso para ouvir a narração.
+      </p>
       {erro && <p className="mt-2 text-xs text-destructive">{erro}</p>}
     </div>
   );

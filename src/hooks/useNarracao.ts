@@ -4,6 +4,37 @@ import { dividirParaNarracao, type VozNarracao } from "@/lib/viagens/narracao";
 const ENDPOINT = `${import.meta.env.VITE_SUPABASE_URL}/functions/v1/narrar-roteiro`;
 const SAMPLE_RATE = 24000;
 
+/**
+ * iOS/Safari: o áudio só toca se o AudioContext for criado e destravado
+ * dentro do próprio gesto do usuário (sem await antes) e se a sessão de
+ * áudio for marcada como "playback" — senão o botão mudo do iPhone corta o som.
+ */
+const prepararSessaoIOS = () => {
+  const sessao = (navigator as unknown as { audioSession?: { type: string } }).audioSession;
+  if (sessao) {
+    try {
+      sessao.type = "playback";
+    } catch {
+      /* navegador não permite */
+    }
+  }
+};
+
+const destravar = (ctx: AudioContext) => {
+  // Um buffer silencioso disparado no gesto libera o áudio no iOS.
+  try {
+    const buffer = ctx.createBuffer(1, 1, ctx.sampleRate);
+    const source = ctx.createBufferSource();
+    source.buffer = buffer;
+    source.connect(ctx.destination);
+    source.start(0);
+  } catch {
+    /* ignora */
+  }
+  void ctx.resume().catch(() => {});
+};
+
+
 type Status = "idle" | "loading" | "playing" | "error";
 
 /**
@@ -64,13 +95,20 @@ export const useNarracao = (voz: VozNarracao) => {
       setTrechoAtivo(id);
       setStatus("loading");
 
+      prepararSessaoIOS();
       if (!ctxRef.current || ctxRef.current.state === "closed") {
-        ctxRef.current = new AudioContext({ sampleRate: SAMPLE_RATE });
+        const Ctor =
+          window.AudioContext ??
+          (window as unknown as { webkitAudioContext: typeof AudioContext }).webkitAudioContext;
+        // Sem forçar sampleRate: iOS recusa taxas diferentes da do dispositivo.
+        ctxRef.current = new Ctor();
       }
       const ctx = ctxRef.current;
-      if (ctx.state === "suspended") await ctx.resume().catch(() => {});
+      destravar(ctx);
 
       const agendar = (incoming: Uint8Array) => {
+        if (ctx.state === "suspended") void ctx.resume().catch(() => {});
+
         const bytes = new Uint8Array(pendingRef.current.length + incoming.length);
         bytes.set(pendingRef.current);
         bytes.set(incoming, pendingRef.current.length);
@@ -80,12 +118,13 @@ export const useNarracao = (voz: VozNarracao) => {
         const samples = new Int16Array(bytes.buffer, 0, usable / 2);
         const floats = Float32Array.from(samples, (s) => s / 32768);
         const buffer = ctx.createBuffer(1, floats.length, SAMPLE_RATE);
-        buffer.copyToChannel(floats, 0);
+        buffer.getChannelData(0).set(floats);
         const source = ctx.createBufferSource();
         source.buffer = buffer;
         source.connect(ctx.destination);
-        if (playheadRef.current === 0) playheadRef.current = ctx.currentTime + 0.08;
+        if (playheadRef.current === 0) playheadRef.current = ctx.currentTime + 0.25;
         else playheadRef.current = Math.max(playheadRef.current, ctx.currentTime);
+
         source.start(playheadRef.current);
         playheadRef.current += buffer.duration;
         sourcesRef.current.push(source);
