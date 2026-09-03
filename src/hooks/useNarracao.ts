@@ -107,6 +107,8 @@ export const useNarracao = (voz: VozNarracao) => {
       destravar(ctx);
 
       const agendar = (incoming: Uint8Array) => {
+        if (ctx.state === "suspended") void ctx.resume().catch(() => {});
+
         const bytes = new Uint8Array(pendingRef.current.length + incoming.length);
         bytes.set(pendingRef.current);
         bytes.set(incoming, pendingRef.current.length);
