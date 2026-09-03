@@ -78,8 +78,6 @@ const IATA: Record<string, string> = {
   HND: "Haneda, em Tóquio",
 };
 
-const numeroPorExtensoSimples = (valor: string) => valor.replace(/\./g, ".");
-
 /**
  * Deixa o texto pronto para o ouvido: moedas, códigos IATA, abreviações
  * e horários são escritos como se fossem falados.
@@ -87,22 +85,20 @@ const numeroPorExtensoSimples = (valor: string) => valor.replace(/\./g, ".");
 export const decodificarParaAudio = (texto: string): string =>
   texto
     // Moedas
-    .replace(/R\$\s?([\d.,]+)/g, (_m, v) => `${numeroPorExtensoSimples(v)} reais`)
-    .replace(/US\$\s?([\d.,]+)/g, (_m, v) => `${numeroPorExtensoSimples(v)} dólares`)
-    .replace(/€\s?([\d.,]+)/g, (_m, v) => `${numeroPorExtensoSimples(v)} euros`)
-    .replace(/([\d.,]+)\s?€/g, (_m, v) => `${numeroPorExtensoSimples(v)} euros`)
+    .replace(/R\$\s?([\d.,]+)/g, "$1 reais")
+    .replace(/US\$\s?([\d.,]+)/g, "$1 dólares")
+    .replace(/€\s?([\d.,]+)/g, "$1 euros")
+    .replace(/([\d.,]+)\s?€/g, "$1 euros")
     .replace(/R\$/g, "reais")
     .replace(/US\$/g, "dólares")
     .replace(/€/g, "euros")
     // Estrelas de hotel
     .replace(/(\d)\s*[★⭐]/g, "$1 estrelas")
-    // Códigos IATA conhecidos (entre parênteses ou soltos)
-    .replace(/\(([A-Z]{3})\)/g, (m, cod: string) => (IATA[cod] ? ` ${IATA[cod]}` : m))
-    .replace(/\b([A-Z]{3})\b/g, (m, cod: string) =>
-      IATA[cod] ? IATA[cod] : /^(CEP|IVA|PDF|CPF|RJ|USD|BRL)$/.test(cod) ? m : m
-    )
     // Códigos internos de roteiro (FA-JAL-06) — não devem ser lidos
     .replace(/\b[A-Z]{2,3}-[A-Z]{2,4}-[A-Z0-9]{2,4}\b/g, " ")
+    // Códigos IATA conhecidos: lidos pelo nome do aeroporto
+    .replace(/\(([A-Z]{3})\)/g, (m, cod: string) => (IATA[cod] ? ` ${IATA[cod]}` : m))
+    .replace(/\b([A-Z]{3})\b/g, (m, cod: string) => IATA[cod] ?? m)
     // Horários
     .replace(/\b(\d{1,2})h(\d{2})\b/g, "$1 horas e $2")
     .replace(/\b(\d{1,2})h\b/g, "$1 horas")
