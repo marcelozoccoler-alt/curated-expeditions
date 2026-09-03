@@ -95,11 +95,16 @@ export const useNarracao = (voz: VozNarracao) => {
       setTrechoAtivo(id);
       setStatus("loading");
 
+      prepararSessaoIOS();
       if (!ctxRef.current || ctxRef.current.state === "closed") {
-        ctxRef.current = new AudioContext({ sampleRate: SAMPLE_RATE });
+        const Ctor =
+          window.AudioContext ??
+          (window as unknown as { webkitAudioContext: typeof AudioContext }).webkitAudioContext;
+        // Sem forçar sampleRate: iOS recusa taxas diferentes da do dispositivo.
+        ctxRef.current = new Ctor();
       }
       const ctx = ctxRef.current;
-      if (ctx.state === "suspended") await ctx.resume().catch(() => {});
+      destravar(ctx);
 
       const agendar = (incoming: Uint8Array) => {
         const bytes = new Uint8Array(pendingRef.current.length + incoming.length);
@@ -111,12 +116,13 @@ export const useNarracao = (voz: VozNarracao) => {
         const samples = new Int16Array(bytes.buffer, 0, usable / 2);
         const floats = Float32Array.from(samples, (s) => s / 32768);
         const buffer = ctx.createBuffer(1, floats.length, SAMPLE_RATE);
-        buffer.copyToChannel(floats, 0);
+        buffer.getChannelData(0).set(floats);
         const source = ctx.createBufferSource();
         source.buffer = buffer;
         source.connect(ctx.destination);
-        if (playheadRef.current === 0) playheadRef.current = ctx.currentTime + 0.08;
+        if (playheadRef.current === 0) playheadRef.current = ctx.currentTime + 0.25;
         else playheadRef.current = Math.max(playheadRef.current, ctx.currentTime);
+
         source.start(playheadRef.current);
         playheadRef.current += buffer.duration;
         sourcesRef.current.push(source);
