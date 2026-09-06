@@ -1,10 +1,7 @@
 # PARTE III — PRAGA
 
 ## A Cidade Onde o Tempo Parou e a Música Nunca Deixou de Subir
-
-9 a 12 de outubro de 2026
-
----
+### 9 a 12 de outubro de 2026
 
 ## A HISTÓRIA DE PRAGA: ONDE AS PEDRAS SUSSURRAM SEGREDOS
 
@@ -319,34 +316,29 @@ Temperatura: 6°C a 14°C
 
 ---
 
-### 19:23
-### PRAHA HLAVNÍ NÁDRAŽÍ
+### 19:23 — PRAHA HLAVNÍ NÁDRAŽÍ
 
 O Railjet Express freia suavemente na plataforma. Vocês descem na estação central de Praga, um edifício art nouveau de 1871, com sua cúpula de vitrais coloridos. O ar de outubro está fresco. O cheiro é de trilhos, café e aventura.
 
 A estação fica no limite da Cidade Nova (Nové Město) — fundada por Carlos IV em 1348. Em poucos minutos, vocês estarão em outro mundo.
 
-### 19:40
-### TRASLADO PARA O HOTEL
+### 19:40 — TRASLADO PARA O HOTEL
 
 [Praha hl.n. → Fleur De Lis Hotel](https://www.google.com/maps/dir/Praha+hlavn%C3%AD+n%C3%A1dra%C5%BE%C3%AD,+Wilsonova+300,+120+00+Praha+2/Fleur+De+Lis+Hotel,+Slezska+832,+130+00+Praha+3)
 
 O carro sobe pela Vinohradská třída — a avenida principal de Vinohrady. Sete minutos. Vocês passam por prédios art nouveau, fachadas com estuques florais, sacadas de ferro forjado. A rua vira na Slezska, uma viela tranquila ladeada de plátanos. E lá está o Fleur De Lis.
 
-### 19:55
-### FLEUR DE LIS HOTEL
+### 19:55 — FLEUR DE LIS HOTEL
 
 [Ver no Google Maps](https://www.google.com/maps/place/Fleur+De+Lis+Hotel)
 
 O lobby é pequeno e acolhedor. A flor de lis — símbolo da realeza boêmia desde o século XII — aparece nos detalhes: no brasão sobre a porta, no papel de parede, nas maçanetas. O quarto duplex é uma surpresa: dois andares, cama no mezanino, sala embaixo. Espaço de sobra para três.
 
-### 20:15
-### BANHO, DESCANSO, TROCA DE ROUPA
+### 20:15 — BANHO, DESCANSO, TROCA DE ROUPA
 
 Depois de 4h13 de trem, um banho quente e uma pausa são mais que merecidos. O quarto silencia o mundo lá fora.
 
-### 21:00
-### JANTAR DE BOAS-VINDAS NO U BULÍNŮ
+### 21:00 — JANTAR DE BOAS-VINDAS NO U BULÍNŮ
 
 [Hotel → Restaurace U Bulínů](https://www.google.com/maps/dir/Fleur+De+Lis+Hotel,+Slezska+832,+130+00+Praha+3/Restaurace+U+Bul%C3%ADn%C5%AF,+Bude%C4%8Dsk%C3%A1+2,+120+00+Praha+2)
 
@@ -364,8 +356,7 @@ Preço: €8-14 por pessoa (R$ 44 a R$ 77)
 
 Curiosidade: A República Tcheca tem o maior consumo de cerveja per capita do mundo — mais de 140 litros por pessoa por ano. A cerveja aqui é mais barata que água mineral nos restaurantes.
 
-### 22:30
-### RETORNO AO HOTEL
+### 22:30 — RETORNO AO HOTEL
 
 [Restaurace U Bulínů → Hotel](https://www.google.com/maps/dir/Restaurace+U+Bul%C3%ADn%C5%AF,+Bude%C4%8Dsk%C3%A1+2,+120+00+Praha+2/Fleur+De+Lis+Hotel,+Slezska+832,+130+00+Praha+3)
 
@@ -446,13 +437,11 @@ Transporte especial: Bonde 22 ou 23
 
 ---
 
-### 07:30
-### CAFÉ DA MANHÃ NO HOTEL
+### 07:30 — CAFÉ DA MANHÃ NO HOTEL
 
 O café da manhã do Fleur De Lis é um destaque: pães tchecos frescos, frios, queijos, ovos, frutas, iogurtes, café, sucos. Aproveitem bem — hoje é o dia mais cheio da viagem, mas também o mais memorável.
 
-### 08:30
-### RUMO AO CORAÇÃO DE PRAGA
+### 08:30 — RUMO AO CORAÇÃO DE PRAGA
 
 [Hotel → Praça da Cidade Velha](https://www.google.com/maps/dir/Fleur+De+Lis+Hotel,+Slezska+832,+130+00+Praha+3/Starom%C4%9Bstsk%C3%A9+n%C3%A1m%C4%9Bst%C3%AD,+110+00+Praha+1)
 
@@ -460,8 +449,7 @@ Bonde 22 ou 23 a partir da parada Vinohradská (3 minutos do hotel). Doze minuto
 
 A pé, são 5 minutos até a praça. E então...
 
-### 08:55
-### A PRAÇA DA CIDADE VELHA (STAROMĚSTSKÉ NÁMĚSTÍ)
+### 08:55 — A PRAÇA DA CIDADE VELHA (STAROMĚSTSKÉ NÁMĚSTÍ)
 
 [Ver no Google Maps](https://www.google.com/maps/place/Starom%C4%9Bstsk%C3%A9+n%C3%A1m%C4%9Bst%C3%AD)
 
@@ -473,8 +461,7 @@ O que seus olhos encontram ao entrar:
 
 A entrada na praça é gratuita. Mas o que ela oferece não tem preço.
 
-### 09:10
-### IGREJA DE SÃO NICOLAU (CIDADE VELHA)
+### 09:10 — IGREJA DE SÃO NICOLAU (CIDADE VELHA)
 
 [Ver no Google Maps](https://www.google.com/maps/place/Kostel+svat%C3%A9ho+Mikul%C3%A1%C5%A1e,+Starom%C4%9Bstsk%C3%A9+n%C3%A1m.,+110+00+Star%C3%A9+M%C4%9Bsto)
 
@@ -482,8 +469,7 @@ A pequena igreja barroca no canto da praça. Construída entre 1732 e 1737, é u
 
 Entrada: gratuita (para visita rápida). Concertos de música clássica à noite (pagos).
 
-### 09:20
-### A IGREJA DE TÝN (INTERIOR)
+### 09:20 — A IGREJA DE TÝN (INTERIOR)
 
 [Ver no Google Maps](https://www.google.com/maps/place/Church+of+Our+Lady+before+T%C3%BDn,+Starom%C4%9Bstsk%C3%A9+n%C3%A1m.,+110+00+Star%C3%A9+M%C4%9Bsto)
 
@@ -504,8 +490,7 @@ Brahe foi o maior astrônomo observacional antes do telescópio. Perdeu o nariz 
 
 Entrada: gratuita.
 
-### 09:40
-### O RELÓGIO ASTRONÔMICO
+### 09:40 — O RELÓGIO ASTRONÔMICO
 
 [Ver no Google Maps](https://www.google.com/maps/place/Prague+Astronomical+Clock,+Starom%C4%9Bstsk%C3%A9+n%C3%A1m.,+110+00+Star%C3%A9+M%C4%9Bsto)
 
@@ -522,8 +507,7 @@ Tempo litúrgico — o dia dividido em horas canônicas (como os monges medievai
 A lenda do Mestre Hanuš:
 Dizem que Hanuš, o relojoeiro que aperfeiçoou o mecanismo em 1490, foi cegado pelos vereadores de Praga — para que jamais construísse algo igual em outra cidade. Antes de morrer, Hanuš teria voltado ao relógio e, enfurecido, danificado as engrenagens. Durante mais de cem anos, ninguém conseguiu consertá-lo.
 
-### 10:00
-### O ESPETÁCULO DO RELÓGIO ASTRONÔMICO
+### 10:00 — O ESPETÁCULO DO RELÓGIO ASTRONÔMICO
 
 A cada hora cheia, a multidão se aglomera diante da torre. E então acontece:
 
@@ -546,15 +530,13 @@ Dura 45 segundos. Termina com aplausos. E a vida na praça continua.
 
 Dica: Cheguem 10 minutos antes para um bom lugar. Às 10:00, a multidão é menor do que ao meio-dia.
 
-### 10:20
-### CAMINHADA ATÉ A CABEÇA DE KAFKA
+### 10:20 — CAMINHADA ATÉ A CABEÇA DE KAFKA
 
 [Praça → Cabeça de Kafka](https://www.google.com/maps/dir/Starom%C4%9Bstsk%C3%A9+n%C3%A1m%C4%9Bst%C3%AD,+110+00+Praha+1/Quadrio,+N%C3%A1rodn%C3%AD+135,+110+00+Praha+1)
 
 Dez minutos a pé pela rua Národní třída. Vocês passam pelo Café Louvre (onde Kafka e Einstein frequentavam), pelo Teatro Nacional (símbolo do renascimento cultural tcheco), até chegarem ao shopping Quadrio.
 
-### 11:00
-### O ESPETÁCULO DA CABEÇA GIRATÓRIA DE KAFKA
+### 11:00 — O ESPETÁCULO DA CABEÇA GIRATÓRIA DE KAFKA
 
 [Ver no Google Maps](https://www.google.com/maps/place/Kafka+Head+Statue,+N%C3%A1rodn%C3%AD+135,+110+00+Nov%C3%A9+M%C4%9Bsto)
 
@@ -573,15 +555,13 @@ A metáfora: Kafka escreveu sobre a fragmentação do ser humano, sobre identida
 
 Entrada: gratuita, ao ar livre, na fachada do shopping Quadrio.
 
-### 11:30
-### CAMINHADA PARA O ALMOÇO
+### 11:30 — CAMINHADA PARA O ALMOÇO
 
 [Cabeça de Kafka → Lokál Dlouhááá](https://www.google.com/maps/dir/Kafka+Head+Statue,+N%C3%A1rodn%C3%AD+135,+110+00+Nov%C3%A9+M%C4%9Bsto/Lok%C3%A1l+Dlouh%C3%A1%C3%A1,+Dlouh%C3%A1+33,+110+00+Star%C3%A9+M%C4%9Bsto)
 
 Dez minutos a pé até o bairro judeu, onde fica o restaurante. O caminho passa pelo Teatro Estates (onde Mozart regeu a estreia de Don Giovanni) e entra nas ruas estreitas de Josefov.
 
-### 12:00
-### ALMOÇO NO LOKÁL DLOUHÁÁÁ
+### 12:00 — ALMOÇO NO LOKÁL DLOUHÁÁÁ
 
 [Ver no Google Maps](https://www.google.com/maps/place/Lok%C3%A1l+Dlouh%C3%A1%C3%A1,+Dlouh%C3%A1+33,+110+00+Star%C3%A9+M%C4%9Bsto)
 
@@ -591,8 +571,7 @@ Preço: €8-12 por pessoa.
 
 Alternativa próxima: Restaurace Mincovna (Staroměstské nám. 7) — na própria praça, bem avaliado, cozinha tcheca contemporânea. €10-16.
 
-### 13:15
-### BONDE 22 ATÉ O CASTELO DE PRAGA
+### 13:15 — BONDE 22 ATÉ O CASTELO DE PRAGA
 
 [Lokál → Parada Pražský hrad](https://www.google.com/maps/dir/Lok%C3%A1l+Dlouh%C3%A1%C3%A1,+Dlouh%C3%A1+33,+110+00+Star%C3%A9+M%C4%9Bsto/Zast%C3%A1vka+tram+Pražský+hrad)
 
@@ -600,8 +579,7 @@ Caminhem 5 minutos até a parada de bonde Staroměstská (ou Malostranská, amba
 
 Importante: desçam na parada Pražský hrad (não Malostranská — esta fica lá embaixo, perto do rio). A parada Pražský hrad fica ao lado do Portão de Entrada do Castelo.
 
-### 13:45
-### O CASTELO DE PRAGA
+### 13:45 — O CASTELO DE PRAGA
 
 [Ver no Google Maps](https://www.google.com/maps/place/Pra%C5%BEsk%C3%BD+hrad,+119+08+Praha+1)
 
@@ -674,8 +652,7 @@ Tempo sugerido: 20-25 minutos.
 
 16:15 — Saída do castelo
 
-### 16:20
-### BONDE 22 ATÉ POHOŘELEC (SEM ESFORÇO)
+### 16:20 — BONDE 22 ATÉ POHOŘELEC (SEM ESFORÇO)
 
 [Castelo → Pohořelec](https://www.google.com/maps/dir/Pra%C5%BEsk%C3%BD+hrad,+119+08+Praha+1/Pohořelec)
 
@@ -685,8 +662,7 @@ De lá, são 200 metros planos até o portão do monastério.
 
 Sem esforço. Sem escadas. Sem fadiga. E vocês chegam ao ponto mais alto e mais espiritual de Praga.
 
-### 16:40
-### MONASTÉRIO DE STRAHOV — BIBLIOTECA E JARDINS
+### 16:40 — MONASTÉRIO DE STRAHOV — BIBLIOTECA E JARDINS
 
 [Ver no Google Maps](https://www.google.com/maps/place/Strahov+Monastery,+Strašovská+1/137,+118+00+Praha+1)
 
@@ -703,8 +679,7 @@ Ingresso da biblioteca: 150-200 CZK (€6-8 / R$ 33-44).
 
 Site oficial: strahovskyklaster.cz
 
-### 17:00
-### AS VÉSPERAS GREGORIANAS
+### 17:00 — AS VÉSPERAS GREGORIANAS
 
 O Monastério de Strahov foi fundado em 1143 por monges premonstratenses — uma ordem que segue a regra de Santo Agostinho. Há 883 anos, eles rezam e cantam neste lugar.
 
@@ -722,8 +697,7 @@ Entrada para as Vésperas: gratuita.
 
 Duração: aproximadamente 30 minutos (até ~17:30).
 
-### 17:35
-### O PARQUE PETŘÍN E O PÔR DO SOL
+### 17:35 — O PARQUE PETŘÍN E O PÔR DO SOL
 
 [Strahov → Parque Petřín](https://www.google.com/maps/dir/Strahov+Monastery,+Strašovská+1/137,+118+00+Praha+1/Petřínské+sady,+118+00+Praha+1)
 
@@ -733,15 +707,13 @@ O sol se põe às 18:23. A vista de 360 graus é avassaladora: as torres gótica
 
 Momento de silêncio. Depois de um dia intenso e cheio, apenas estar aqui, sentindo o ar frio, olhando para Praga lá embaixo. Não é preciso dizer nada.
 
-### 18:45
-### DESCIDA DE BONDE AO CENTRO
+### 18:45 — DESCIDA DE BONDE AO CENTRO
 
 [Petřín → Centro](https://www.google.com/maps/dir/Petřínské+sady,+118+00+Praha+1/Starom%C4%9Bstsk%C3%A9+n%C3%A1m%C4%9Bst%C3%AD,+110+00+Praha+1)
 
 Caminhem 5 minutos até a parada Újezd e peguem o Bonde 22 ou 23 descendo até o centro. Em 8 minutos, vocês estão de volta à Malostranské náměstí ou Národní třída.
 
-### 19:15
-### JANTAR
+### 19:15 — JANTAR
 
 Duas sugestões para a noite:
 
@@ -763,8 +735,7 @@ Se preferirem algo mais rústico e histórico: a cervejaria U Fleků funciona de
 
 Preço: €10-16 (R$ 55 a R$ 88)
 
-### 21:00
-### RETORNO AO HOTEL
+### 21:00 — RETORNO AO HOTEL
 
 [Restaurante → Hotel](https://www.google.com/maps/dir/Café+Louvre,+Národní+22,+110+00+Nové+Město/Fleur+De+Lis+Hotel,+Slezská+832/55,+130+00+Praha+3)
 
@@ -831,13 +802,11 @@ Jantar medieval: 19:45, Na Florenci 1332/23, Nové Město
 
 ---
 
-### 08:00
-### CAFÉ DA MANHÃ NO HOTEL
+### 08:00 — CAFÉ DA MANHÃ NO HOTEL
 
 Sem pressa. O dia de hoje é um respiro — depois da maratona de ontem, vocês merecem um ritmo mais suave.
 
-### 09:30
-### SAÍDA PARA O CENTRO
+### 09:30 — SAÍDA PARA O CENTRO
 
 [Hotel → Prague Boats](https://www.google.com/maps/dir/Fleur+De+Lis+Hotel,+Slezská+832/55,+130+00+Praha+3/Prague+Boats,+Dvořákovo+nábřeží,+110+00+Praha+1)
 
@@ -853,8 +822,7 @@ Um café na varanda do Hotel U Prince (Staroměstské nám. 29) — vista da pra
 
 Hoje, em vez de explorar fortalezas, vocês vão flutuar. Nada de pressa, nada de multidão. Apenas o Moldava, o céu de outubro, e um barco só de vocês.
 
-### 11:20
-### EMBARQUE NO CAIS
+### 11:20 — EMBARQUE NO CAIS
 
 O cais fica próximo à Čech Bridge ou ao Dvořákovo nábřeží, dependendo da empresa escolhida.
 
@@ -919,8 +887,7 @@ Um casaco quente (o vento no rio em outubro pode ser frio)
 ●
 Máquina fotográfica — as vistas do nível da água são únicas
 
-### 12:00
-### LUNCH CRUISE EM BARCO COM LATERAIS DE VIDRO
+### 12:00 — LUNCH CRUISE EM BARCO COM LATERAIS DE VIDRO
 
 Duração do cruzeiro: 120 minutos
 Partida: Ponte Čech, a cinco minutos a pé da Praça da Cidade Velha
@@ -942,15 +909,13 @@ Acesso para cadeira de rodas — O convés principal é acessível a todos
 ●
 Wi-Fi gratuito em todo o barco
 
-### 14:00
-### DESEMBARQUE E CAMINHADA AO BAIRRO JUDEU
+### 14:00 — DESEMBARQUE E CAMINHADA AO BAIRRO JUDEU
 
 [Prague Boats → Sinagoga Pinkas](https://www.google.com/maps/dir/Prague+Boats,+Dvořákovo+nábřeží,+110+00+Praha+1/Pinkasova+synagoga,+Široká+3,+110+00+Praha+1)
 
 O barco desembarca perto da Ponte Čech. De lá, são apenas 5-7 minutos a pé até o Bairro Judeu (Josefov). O caminho é plano e curto.
 
-### 14:30
-### O BAIRRO JUDEU (JOSEFOV)
+### 14:30 — O BAIRRO JUDEU (JOSEFOV)
 
 Josefov, o antigo Bairro Judeu de Praga, é um dos conjuntos de monumentos judaicos mais importantes do mundo. Diferente de outros bairros judeus europeus, este não foi destruído — os nazistas o preservaram porque planejavam transformá-lo num museu da raça extinta.
 
@@ -992,8 +957,7 @@ A mais bonita das sinagogas de Praga — e uma das mais impressionantes da Europ
 
 Tempo sugerido para o circuito completo: 1h30 a 2 horas.
 
-### 16:30
-### TEMPO LIVRE — COMPRAS E LEMBRANÇAS
+### 16:30 — TEMPO LIVRE — COMPRAS E LEMBRANÇAS
 
 [Bairro Judeu → Centro (compras)](https://www.google.com/maps/dir/Pinkasova+synagoga,+Široká+3,+110+00+Josefov/Na+Příkopě,+110+00+Nové+Město)
 
@@ -1021,15 +985,13 @@ Simplesmente sentar-se num banco do Parque Kampa e ver o Moldava passar
 ●
 Um chá quente num café de Vinohrady
 
-### 17:30
-### RETORNO AO HOTEL PARA DESCANSO E TROCA
+### 17:30 — RETORNO AO HOTEL PARA DESCANSO E TROCA
 
 [Centro → Hotel](https://www.google.com/maps/dir/Na+Příkopě,+110+00+Nové+Město/Fleur+De+Lis+Hotel,+Slezská+832/55,+130+00+Praha+3)
 
 O jantar medieval pede um visual à altura. Para ele: camisa e calça (não é preciso terno, mas evitem esportivo). Para ela: vestido ou saia.
 
-### 18:30
-### SAÍDA PARA O JANTAR MEDIEVAL
+### 18:30 — SAÍDA PARA O JANTAR MEDIEVAL
 
 [Hotel → Jantar medieval](https://www.google.com/maps/dir/Fleur+De+Lis+Hotel,+Slezská+832/55,+130+00+Praha+3/Na+Florenci+1332,+110+00+Praha+1)
 
@@ -1037,18 +999,15 @@ Metrô linha A até Můstek, baldeação para linha B até Náměstí Republiky.
 
 O endereço é Na Florenci 1332/23, Nové Město.
 
-### 19:15
-### ENCONTRO NO PONTO
+### 19:15 — ENCONTRO NO PONTO
 
 Procurem o guarda-chuva laranja da Civitatis/Fun In Prague.
 
-### 19:45
-### CHECK-IN COM VOUCHER QR CODE
+### 19:45 — CHECK-IN COM VOUCHER QR CODE
 
 Apresentem o voucher com QR code da reserva A38940224. 5 adultos, menu de frango, Medieval Evening. €395 total (já pago).
 
-### 20:00
-### O ESPETÁCULO MEDIEVAL (ATÉ 22:30)
+### 20:00 — O ESPETÁCULO MEDIEVAL (ATÉ 22:30)
 
 Por aproximadamente duas horas e meia, vocês são transportados para a Praga do século XIV.
 
@@ -1086,8 +1045,7 @@ Dica: O ambiente é animado, barulhento e participativo. Batam palmas, brindem, 
 
 Cancelamento gratuito até 19:45 de 10 de outubro.
 
-### 22:45
-### RETORNO AO HOTEL
+### 22:45 — RETORNO AO HOTEL
 
 [Jantar medieval → Hotel](https://www.google.com/maps/dir/Na+Florenci+1332,+110+00+Praha+1/Fleur+De+Lis+Hotel,+Slezská+832/55,+130+00+Praha+3)
 
@@ -1148,18 +1106,15 @@ Atenção ao terminal: o voo TK 1772 para Istambul é um voo não-Schengen (dest
 
 ---
 
-### 07:30
-### ÚLTIMO CAFÉ DA MANHÃ NO FLEUR DE LIS
+### 07:30 — ÚLTIMO CAFÉ DA MANHÃ NO FLEUR DE LIS
 
 Saboreiem cada garfada. O pão tcheco fresco, o café, as frutas. É a última manhã na cidade das cem torres.
 
-### 09:00
-### CHECK-OUT (MALAS NA RECEPÇÃO)
+### 09:00 — CHECK-OUT (MALAS NA RECEPÇÃO)
 
 O hotel guarda as malas na recepção sem custo. Vocês ainda têm a manhã livre.
 
-### 09:15
-### MANHÃ LIVRE
+### 09:15 — MANHÃ LIVRE
 
 Últimas horas em Praga. Sugestões para uma despedida memorável:
 
@@ -1174,30 +1129,25 @@ Compras de última hora nas lojas do centro
 ●
 Simplesmente sentar-se num banco à beira do Moldava e despedir-se da cidade em silêncio
 
-### 11:30
-### RETORNO AO HOTEL, RETIRADA DAS MALAS
+### 11:30 — RETORNO AO HOTEL, RETIRADA DAS MALAS
 
 Último olhar para o quarto duplex. A flor de lis na decoração. As ruas de Vinohrady lá fora.
 
-### 12:00
-### CHECK-OUT OFICIAL
+### 12:00 — CHECK-OUT OFICIAL
 
-### 12:15
-### TRASLADO PRIVATIVO PARA O AEROPORTO
+### 12:15 — TRASLADO PRIVATIVO PARA O AEROPORTO
 
 [Hotel → Aeroporto de Praga](https://www.google.com/maps/dir/Fleur+De+Lis+Hotel,+Slezská+832/55,+130+00+Praha+3/Václav+Havel+Airport+Prague,+Aviatická,+161+00+Praha+6)
 
 O carro segue pela Evropská třída em direção ao aeroporto. O trajeto leva cerca de 30 minutos.
 
-### 12:45
-### CHEGADA AO AEROPORTO VÁCLAV HAVEL (PRG), TERMINAL 1
+### 12:45 — CHEGADA AO AEROPORTO VÁCLAV HAVEL (PRG), TERMINAL 1
 
 O Aeroporto de Praga leva o nome de Václav Havel — o dramaturgo, dissidente e primeiro presidente da República Tcheca pós-comunista. Um nome à altura do que Praga representa.
 
 Terminal 1 — check-in, controle de passaporte (voo não-Schengen), segurança e sala de embarque. Cerca de 2h30 antes do voo — tempo confortável para todos os procedimentos.
 
-### 15:20
-### DECOLAGEM TK 1772
+### 15:20 — DECOLAGEM TK 1772
 
 O avião da Turkish Airlines sobe sobre a Boêmia. Lá embaixo, o Moldava brilha como uma fita de prata. A Ponte Carlos é um traço fino sobre o rio. As torres góticas recortam o horizonte. O castelo domina a colina. E, no alto de Petřín, os monges de Strahov estarão se preparando para cantar as Vésperas — como fazem há 883 anos.
 

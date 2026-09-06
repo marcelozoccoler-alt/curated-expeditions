@@ -1,10 +1,7 @@
 # PARTE II — VIENA
 
 ## A Cidade Que Dançou Valsas Sob o Império
-
-6 a 9 de outubro de 2026
-
----
+### 6 a 9 de outubro de 2026
 
 ## A HISTÓRIA DE VIENA: ONDE OS IMPÉRIOS DANÇARAM VALSAS
 
@@ -250,29 +247,29 @@ Temperatura: 7°C a 15°C
 
 21:30 - Retorno ao hotel
 
-### 13:40 - TRASLADO PARA O HOTEL
+### 13:40 — TRASLADO PARA O HOTEL
 
 [Wien Hbf → ibis Wien Mariahilf](https://www.google.com/maps/dir/Wien+Hauptbahnhof,+Wien/ibis+Wien+Mariahilf,+Mariahilfer+G%C3%BCrtel+22-24,+1060+Wien)
 
 O carro contorna a Gürtel, a avenida que circunda o centro de Viena. Em menos de dez minutos, vocês avistam a fachada do ibis. O motorista segue pela margem do cinturão viário — é um trajeto curto, mas já revela o contraste entre a Viena imperial e a Viena moderna.
 
-### 14:00 - CHEGADA AO HOTEL E ENTREGA DAS MALAS
+### 14:00 — CHEGADA AO HOTEL E ENTREGA DAS MALAS
 
 O ibis Wien Mariahilf é funcional e acolhedor. Quartos compactos mas bem planejados, camas confortáveis, banheiro privativo. O edifício tem vista para a Mariahilfer Gürtel — o movimento da cidade passa lá embaixo, mas o isolamento acústico é eficiente.
 
 Como o check-in é a partir das 15:00, vocês chegam por volta das 14:00 e deixam as malas guardadas na recepção. Aproveitem para um café rápido ou uma volta breve pelo entorno antes de entrar no quarto. O descanso de verdade começa às 15:00.
 
-### 15:00 - CHECK-IN E DESCANSO
+### 15:00 — CHECK-IN E DESCANSO
 
 Banho, troca de roupa, um momento de pausa depois da viagem. É importante chegar ao centro com energia.
 
-### 15:45 - RUMO AO CORAÇÃO DE VIENA
+### 15:45 — RUMO AO CORAÇÃO DE VIENA
 
 [Hotel → Stephansplatz](https://www.google.com/maps/dir/ibis+Wien+Mariahilf,+Mariahilfer+G%C3%BCrtel+22-24,+1060+Wien/Stephansplatz,+1010+Wien)
 
 Metrô U3 a partir de Westbahnhof (5 minutos a pé do hotel) até Stephansplatz. Em 10 minutos, vocês emergem na praça mais emblemática de Viena. A escada rolante sobe e, de repente, a torre gótica da Stephansdom aparece diante de vocês — imponente, escura, inconfundível.
 
-### 16:15 - STEPHANSDOM, A CATEDRAL DE SANTO ESTÊVÃO
+### 16:15 — STEPHANSDOM, A CATEDRAL DE SANTO ESTÊVÃO
 
 [Ver no Google Maps](https://www.google.com/maps/place/St+Stephen's+Cathedral)
 
@@ -296,7 +293,7 @@ Informações práticas:
 
 Dica de ouro: Na saída, olhem para cima. O telhado visto da Stephansplatz, com o sol da tarde, brilha em tons de verde, amarelo e marrom. É uma das imagens mais fotogênicas de Viena.
 
-### 17:15 - GRABEN E PETERSPLATZ
+### 17:15 — GRABEN E PETERSPLATZ
 
 [Stephansdom → Graben → Petersplatz](https://www.google.com/maps/dir/Stephansdom,+Stephansplatz+1,+1010+Wien/Graben,+1010+Wien/Petersplatz,+1010+Wien)
 
@@ -306,7 +303,7 @@ A história da Coluna: Em 1679, a peste bubônica matou mais de 75.000 vienenses
 
 Poucos passos adiante, uma viela quase invisível à direita conduz à Petersplatz. A praça é um refúgio silencioso a poucos metros do burburinho turístico. E ali está a joia escondida de Viena.
 
-### 17:45 - A PETERSKIRCHE
+### 17:45 — A PETERSKIRCHE
 
 [Ver no Google Maps](https://www.google.com/maps/place/Peterskirche)
 
@@ -329,7 +326,7 @@ Informações práticas:
 - Site oficial: peterskirche.at
 - Concerto de órgão gratuito diariamente às 19:00 (contribuição voluntária ao final)
 
-### 19:00 - O CONCERTO DE ÓRGÃO
+### 19:00 — O CONCERTO DE ÓRGÃO
 
 Este é um dos segredos mais bem guardados de Viena. Todos os dias, pontualmente às 19:00, a Peterskirche oferece um concerto de órgão gratuito. Não é necessário ingresso, não é necessário reservar. Basta chegar alguns minutos antes e sentar-se nos bancos de madeira.
 
@@ -337,7 +334,7 @@ Quando o organista começa a tocar, a música sobe pela cúpula de 56 metros, pr
 
 Ao final, passa-se uma cesta para contribuição voluntária. Deem o que sentirem. Vale cada euro.
 
-### 19:45 - JANTAR VIENENSE NO FIGLMÜLLER
+### 19:45 — JANTAR VIENENSE NO FIGLMÜLLER
 
 [Peterskirche → Figlmüller](https://www.google.com/maps/dir/Peterskirche,+Petersplatz+1,+1010+Wien/Figlm%C3%BCller,+Wollzeile+5,+1010+Wien)
 
@@ -356,7 +353,7 @@ Importante: Reservar com antecedência! O Figlmüller lota todas as noites. Site
 
 Alternativa se estiver lotado: O Lugeck, a 3 minutos dali, é do mesmo grupo e igualmente excelente.
 
-### 21:30 - RETORNO AO HOTEL
+### 21:30 — RETORNO AO HOTEL
 
 [Figlmüller → Hotel](https://www.google.com/maps/dir/Figlm%C3%BCller,+Wollzeile+5,+1010+Wien/ibis+Wien+Mariahilf,+Mariahilfer+G%C3%BCrtel+22-24,+1060+Wien)
 
@@ -412,17 +409,17 @@ Vestimenta: smart casual confortável. Calçado essencial (dia mais longo)
 
 21:30 - Retorno ao hotel
 
-### 07:30 - CAFÉ DA MANHÃ NO HOTEL
+### 07:30 — CAFÉ DA MANHÃ NO HOTEL
 
 O café da manhã do ibis é completo: pães austríacos (o famoso Semmel), frios, queijos, ovos, frutas, iogurtes, café, sucos. Aproveitem bem — o dia será longo.
 
-### 08:45 - SAÍDA PARA O CENTRO
+### 08:45 — SAÍDA PARA O CENTRO
 
 [Hotel → Hofburg](https://www.google.com/maps/dir/ibis+Wien+Mariahilf,+Mariahilfer+G%C3%BCrtel+22-24,+1060+Wien/Hofburg,+Michaelerkuppel,+1010+Wien)
 
 Metrô U3 até Herrengasse. Em 12 minutos, vocês estão diante da Michaelerkuppel, a cúpula de entrada do Hofburg.
 
-### 09:15 - O COMPLEXO DO HOFBURG
+### 09:15 — O COMPLEXO DO HOFBURG
 
 [Ver no Google Maps](https://www.google.com/maps/place/Hofburg)
 
@@ -445,7 +442,7 @@ Importante: A entrada nos pátios do Hofburg é gratuita. As visitas pagas são 
 
 Site oficial: hofburg-wien.at
 
-### 09:30 - A BIBLIOTECA NACIONAL AUSTRIACA (PRUNKSAAL)
+### 09:30 — A BIBLIOTECA NACIONAL AUSTRIACA (PRUNKSAAL)
 
 [Hofburg → Biblioteca](https://www.google.com/maps/dir/Hofburg,+Michaelerkuppel,+1010+Wien/%C3%96sterreichische+Nationalbibliothek,+Josefsplatz+1,+1010+Wien)
 
@@ -468,7 +465,7 @@ Informações práticas:
 - Site oficial e ingressos: onb.ac.at
 - Tempo recomendado: 45 min a 1h
 
-### 11:00 - TEMPO LIVRE NO HOFBURG E HELDENPLATZ
+### 11:00 — TEMPO LIVRE NO HOFBURG E HELDENPLATZ
 
 Depois da biblioteca, o roteiro respira. Caminhem sem pressa pelos pátios do Hofburg e sigam até a Heldenplatz, a Praça dos Heróis — o vasto terraço aberto diante do Palácio Novo.
 
@@ -478,7 +475,7 @@ Foi nesta mesma praça que, em 15 de março de 1938, Hitler discursou para a mul
 
 É também o momento perfeito para uma pausa — um banco, uma fotografia, um respiro antes do almoço.
 
-### 12:30 - ALMOÇO NO BIERHOF
+### 12:30 — ALMOÇO NO BIERHOF
 
 [Hofburg → Bierhof](https://www.google.com/maps/dir/Hofburg,+Michaelerkuppel,+1010+Wien/Bierhof,+Haarhof+3,+1010+Wien)
 
@@ -492,7 +489,7 @@ O que pedir:
 
 Preço: €10-16 por pessoa (R$ 55 a R$ 88)
 
-### 13:45 - DEMEL, A CONFEITARIA IMPERIAL
+### 13:45 — DEMEL, A CONFEITARIA IMPERIAL
 
 [Bierhof → Demel](https://www.google.com/maps/dir/Bierhof,+Haarhof+3,+1010+Wien/Demel,+Kohlmarkt+14,+1010+Wien)
 
@@ -514,7 +511,7 @@ Site oficial: demel.com
 
 [Ver no Google Maps](https://www.google.com/maps/place/Demel)
 
-### 14:30 - A RINGSTRASSE, A AVENIDA DO IMPÉRIO
+### 14:30 — A RINGSTRASSE, A AVENIDA DO IMPÉRIO
 
 [Demel → Parlamento / Ringstrasse](https://www.google.com/maps/dir/Demel,+Kohlmarkt+14,+1010+Wien/%C3%96sterreichisches+Parlament,+Dr.-Karl-Renner-Ring+3,+1010+Wien)
 
@@ -529,7 +526,7 @@ O que vocês verão ao longo dela:
 - Burgtheater — o teatro nacional, um dos mais prestigiados do mundo
 - Universidade de Viena — onde Freud estudou e lecionou
 
-### 15:00 - STADTPARK E A ESTÁTUA DE JOHANN STRAUSS
+### 15:00 — STADTPARK E A ESTÁTUA DE JOHANN STRAUSS
 
 [Parlamento → Stadtpark](https://www.google.com/maps/dir/%C3%96sterreichisches+Parlament,+Dr.-Karl-Renner-Ring+3,+1010+Wien/Stadtpark,+Johann+Strauss+Denkmal,+1030+Wien)
 
@@ -541,7 +538,7 @@ Curiosidade: Strauss regeu orquestras neste mesmo parque no século XIX. Os conc
 
 Entrada: gratuita.
 
-### 16:15 - KARLSKIRCHE, O ESPLENDOR BARROCO
+### 16:15 — KARLSKIRCHE, O ESPLENDOR BARROCO
 
 [Stadtpark → Karlskirche](https://www.google.com/maps/dir/Stadtpark,+Johann+Strauss+Denkmal,+1030+Wien/Karlskirche,+Karlsplatz+13,+1040+Wien)
 
@@ -564,7 +561,7 @@ Informações práticas:
 
 [Ver no Google Maps](https://www.google.com/maps/place/Karlskirche)
 
-### 17:30 - NASCHMARKT, O MERCADO DAS ESPECIARIAS
+### 17:30 — NASCHMARKT, O MERCADO DAS ESPECIARIAS
 
 [Karlskirche → Naschmarkt](https://www.google.com/maps/dir/Karlskirche,+Karlsplatz+13,+1040+Wien/Naschmarkt,+1060+Wien)
 
@@ -581,11 +578,11 @@ O que fazer:
 
 Entrada: gratuita.
 
-### 18:21 - PÔR DO SOL
+### 18:21 — PÔR DO SOL
 
 O sol se põe sobre os telhados de Viena. O céu do outono vienense ganha tons de laranja e rosa. É o momento perfeito para uma pausa antes do jantar.
 
-### 19:30 - JANTAR EM UM HEURIGER
+### 19:30 — JANTAR EM UM HEURIGER
 
 [Naschmarkt → Mayer am Pfarrplatz](https://www.google.com/maps/dir/Naschmarkt,+1060+Wien/Mayer+am+Pfarrplatz,+Pfarrplatz+2,+1190+Wien)
 
@@ -605,7 +602,7 @@ O ambiente: Mesas de madeira, luzes quentes, o som do vinho sendo servido, a noi
 
 Importante: Reservar com antecedência para doze pessoas. Site: mayer.pfarrplatz.at
 
-### 21:30 - RETORNO AO HOTEL
+### 21:30 — RETORNO AO HOTEL
 
 Táxi do Heuriger ao hotel (cerca de €20, 20 minutos) ou transporte público. Depois de um dia imperial, o merecido descanso.
 
@@ -648,17 +645,17 @@ Concerto: 20:30 às 22:30 no Palácio de Schönbrunn
 
 22:30 - Retorno ao hotel
 
-### 08:30 - CAFÉ DA MANHÃ
+### 08:30 — CAFÉ DA MANHÃ
 
 Mais tranquilo hoje. O dia é dedicado a uma única atração — mas que atração.
 
-### 10:00 - SAÍDA PARA SCHÖNBRUNN
+### 10:00 — SAÍDA PARA SCHÖNBRUNN
 
 [Hotel → Jardins de Schönbrunn](https://www.google.com/maps/dir/ibis+Wien+Mariahilf,+Mariahilfer+G%C3%BCrtel+22-24,+1060+Wien/Sch%C3%B6nbrunn+Palace+Gardens,+Sch%C3%B6nbrunner+Schlossstra%C3%9Fe,+1130+Wien)
 
 O Palácio de Schönbrunn fica a apenas 5 minutos de táxi do hotel ibis Wien Mariahilf. Esta é uma das grandes vantagens da localização do hotel. A pé, seriam cerca de 3,5 km (35 a 40 minutos) — para o grupo, o táxi ou o transporte público é a escolha sensata.
 
-### 11:30 - JARDINS DE SCHÖNBRUNN
+### 11:30 — JARDINS DE SCHÖNBRUNN
 
 Schönbrunn é a "Versalhes de Viena". Residência de verão dos Habsburgos, o palácio tem 1.441 cômodos e jardins de 160 hectares. É Patrimônio da Humanidade pela UNESCO desde 1996.
 
@@ -716,13 +713,13 @@ Informações práticas:
 - Visita ao palácio: incluída no Classic Pass de €49 que vocês reservaram
 - Site oficial: schoenbrunn.at
 
-### 16:00 - RETORNO AO HOTEL E DESCANSO
+### 16:00 — RETORNO AO HOTEL E DESCANSO
 
 O Classic Pass toma de 3 a 4 horas. Vocês terminam por volta das 16h e voltam ao hotel — que fica a apenas 5 minutos de táxi — para um descanso de verdade. O dia foi desenhado assim de propósito: como o concerto da noite termina às 22:30, a tarde reservada é essencial para chegar à Orangerie com energia.
 
 Se quiserem esticar, o centro fica no caminho. Mas a recomendação é priorizar o descanso antes da noite mais especial de Viena.
 
-### 19:30 - SAÍDA PARA O CONCERTO EM SCHÖNBRUNN
+### 19:30 — SAÍDA PARA O CONCERTO EM SCHÖNBRUNN
 
 [Hotel → Palácio de Schönbrunn](https://www.google.com/maps/dir/ibis+Wien+Mariahilf,+Mariahilfer+G%C3%BCrtel+22-24,+1060+Wien/Schloss+Sch%C3%B6nbrunn)
 
@@ -730,7 +727,7 @@ Se quiserem esticar, o centro fica no caminho. Mas a recomendação é priorizar
 
 Traje social: para ele, terno ou blazer com calça social. Para ela, vestido de concerto.
 
-### 20:30 - O CONCERTO NO PALÁCIO DE SCHÖNBRUNN
+### 20:30 — O CONCERTO NO PALÁCIO DE SCHÖNBRUNN
 
 Esta é a noite mais especial de Viena. Vocês estarão no mesmo palácio onde, em 1762, um menino de seis anos chamado Wolfgang Amadeus Mozart tocou para a Imperatriz Maria Teresa.
 
@@ -750,7 +747,7 @@ Informações práticas:
 - Ingressos: site oficial de Schönbrunn
 - Chegar com 30 minutos de antecedência
 
-### 22:30 - RETORNO AO HOTEL
+### 22:30 — RETORNO AO HOTEL
 
 Fim do concerto e retorno ao hotel — 5 minutos de táxi. Depois da valsa, o merecido sono.
 
@@ -794,7 +791,7 @@ Temperatura: 6°C a 15°C
 
 19:23 - Chegada a Praha hlavní nádraží
 
-### 07:30 - ÚLTIMO CAFÉ DA MANHÃ EM VIENA
+### 07:30 — ÚLTIMO CAFÉ DA MANHÃ EM VIENA
 
 Saboreiem cada mordida do Semmel, cada gole do café. É a última manhã na cidade que dançou valsas sob o império.
 
@@ -860,17 +857,17 @@ Jardins do Belvedere: Os jardins entre os dois palácios são gratuitos e espeta
 
 Retorno ao hotel: Após a visita, retornem ao hotel até as 13:00 para buscar as malas (15 minutos de metrô ou táxi).
 
-### 12:00 - CHECK-OUT E SAÍDA DO HOTEL
+### 12:00 — CHECK-OUT E SAÍDA DO HOTEL
 
 Check-out formal ao meio-dia, com as malas guardadas com o staff enquanto vocês aproveitam a manhã. Última olhada no quarto. O ibis Wien Mariahilf cumpriu seu papel: funcional, bem localizado, confortável. Hora de partir.
 
-### 14:00 - CHEGADA À WIEN HAUPTBAHNHOF
+### 14:00 — CHEGADA À WIEN HAUPTBAHNHOF
 
 [Hotel → Wien Hauptbahnhof](https://www.google.com/maps/dir/ibis+Wien+Mariahilf,+Mariahilfer+G%C3%BCrtel+22-24,+1060+Wien/Wien+Hauptbahnhof,+Gertrude-Fr%C3%B6hlich-Sandner-Stra%C3%9Fe+3,+1100+Wien)
 
 Táxi ou metrô (U6 + U1, 15 minutos). Cheguem com pelo menos 45 minutos de antecedência — vocês têm mais de uma hora de folga antes da partida.
 
-### 15:10 - O TREM RJX 56 PARA PRAGA
+### 15:10 — O TREM RJX 56 PARA PRAGA
 
 [Wien Hbf → Praha hlavní nádraží (rota)](https://www.google.com/maps/dir/Wien+Hauptbahnhof,+Gertrude-Fr%C3%B6hlich-Sandner-Stra%C3%9Fe+3,+1100+Wien/Praha+hlavn%C3%AD+n%C3%A1dra%C5%BE%C3%AD,+Wilsonova+300,+120+00+Praha+2)
 
@@ -891,7 +888,7 @@ Dica: Sentem-se do lado direito do trem (no sentido da viagem). As melhores vist
 
 Duração: 4 horas e 13 minutos de puro prazer ferroviário.
 
-### 19:23 - CHEGADA EM PRAHA HLAVNÍ NÁDRAŽÍ
+### 19:23 — CHEGADA EM PRAHA HLAVNÍ NÁDRAŽÍ
 
 O trem para na estação central de Praga.
 
