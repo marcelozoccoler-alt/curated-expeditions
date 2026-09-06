@@ -1,8 +1,10 @@
 import budapesteMd from "@/content/viagem/capitais-imperiais-2026/budapeste.md?raw";
 import vienaMd from "@/content/viagem/capitais-imperiais-2026/viena.md?raw";
+import pragaMd from "@/content/viagem/capitais-imperiais-2026/praga.md?raw";
 import heroTrip from "@/assets/viagem/capitais-imperiais-hero.jpg";
 import heroBudapeste from "@/assets/viagem/capitais-imperiais-budapeste.jpg";
 import heroViena from "@/assets/viagem/capitais-imperiais-viena.jpg";
+import heroPraga from "@/assets/viagem/capitais-imperiais-praga.jpg";
 
 /** Um item dentro de um bloco: normalmente um horário do dia. */
 export interface RoteiroItem {
@@ -160,11 +162,11 @@ export const VIAGEM = {
 export const CIDADES: CidadeRoteiro[] = [
   parseCity(budapesteMd, "budapeste", "Budapeste", heroBudapeste),
   parseCity(vienaMd, "viena", "Viena", heroViena),
+  parseCity(pragaMd, "praga", "Praga", heroPraga),
 ];
 
 /** Cidades ainda por publicar — mantêm a narrativa completa da viagem. */
 export const CIDADES_EM_BREVE = [
-  { slug: "praga", nome: "Praga", periodo: "9 a 12 de outubro de 2026" },
   { slug: "istambul", nome: "Istambul", periodo: "12 a 16 de outubro de 2026" },
 ];
 
