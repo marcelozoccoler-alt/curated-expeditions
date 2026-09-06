@@ -1,5 +1,7 @@
 # PARTE III — PRAGA
+
 ## A Cidade Onde o Tempo Parou e a Música Nunca Deixou de Subir
+
 9 a 12 de outubro de 2026
 
 ---
