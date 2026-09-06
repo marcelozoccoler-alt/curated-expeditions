@@ -30,7 +30,7 @@ const ViagemCidade = () => {
 
   if (!data) return <Navigate to={VIAGEM_PATH} replace />;
 
-  const trilha = getTrilha(data.slug);
+  
   const voz = vozDaCidade(data.slug);
   const path = `${VIAGEM_PATH}/${data.slug}`;
   const textoDoBloco = (b: (typeof data.blocks)[number]) =>
