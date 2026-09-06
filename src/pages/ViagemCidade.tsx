@@ -5,8 +5,6 @@ import { SEO } from "@/components/SEO";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
 import { RoteiroMarkdown } from "@/components/viagem/RoteiroMarkdown";
 import { FotosDoDia } from "@/components/viagem/FotosDoDia";
-import { TrilhaSonora } from "@/components/viagem/TrilhaSonora";
-import { getTrilha } from "@/lib/viagens/trilhas";
 import {
   BotaoOuvir,
   NarracaoAviso,
@@ -32,7 +30,7 @@ const ViagemCidade = () => {
 
   if (!data) return <Navigate to={VIAGEM_PATH} replace />;
 
-  const trilha = getTrilha(data.slug);
+  
   const voz = vozDaCidade(data.slug);
   const path = `${VIAGEM_PATH}/${data.slug}`;
   const textoDoBloco = (b: (typeof data.blocks)[number]) =>
@@ -295,9 +293,6 @@ const ViagemCidade = () => {
         </div>
       </main>
 
-      {trilha && (
-        <TrilhaSonora titulo={trilha.titulo} descricao={trilha.descricao} faixas={trilha.faixas} />
-      )}
 
       <Footer />
     </div>
