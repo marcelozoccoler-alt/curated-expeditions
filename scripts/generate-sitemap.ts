@@ -26,6 +26,7 @@ import { localGuideGroups } from "../src/lib/localGuideGroups";
 import { BRAZIL_GUIDE_SLUGS } from "../src/lib/brazilGuides";
 import { faqTopics } from "../src/lib/faqHub";
 import { precoDestinos } from "../src/lib/precoDestinos";
+import { VIAGEM_PATH, CIDADES } from "../src/lib/viagens/capitaisImperiais";
 
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
@@ -36,9 +37,14 @@ type Url = { loc: string; priority: number; changefreq: string };
 
 const urls: Url[] = [];
 
+const seen = new Set<string>();
 const push = (path: string, priority = 0.5, changefreq = "weekly") => {
+  // Normaliza barra final (evita URLs redirecionadas / duplicadas no Search Console)
+  const clean = path.length > 1 ? path.replace(/\/$/, "") : path;
   // XML-escape & for query strings
-  const loc = `${DOMAIN}${path}`.replace(/&/g, "&amp;");
+  const loc = `${DOMAIN}${clean}`.replace(/&/g, "&amp;");
+  if (seen.has(loc)) return;
+  seen.add(loc);
   urls.push({ loc, priority, changefreq });
 };
 
@@ -49,7 +55,6 @@ push("/", 1.0, "weekly");
 const total = destinations.length;
 const rootPages = Math.max(1, Math.ceil(total / PAGE_SIZE));
 push("/destinos", 0.9, "weekly");
-for (let p = 2; p <= rootPages; p++) push(`/destinos?page=${p}`, 0.6);
 
 // Per continent
 for (const c of CONTINENTS) {
@@ -59,7 +64,6 @@ for (const c of CONTINENTS) {
   if (count === 0) continue;
   const pages = Math.max(1, Math.ceil(count / PAGE_SIZE));
   push(`/destinos?c=${c.id}`, 0.8);
-  for (let p = 2; p <= pages; p++) push(`/destinos?c=${c.id}&page=${p}`, 0.5);
 }
 
 // Per single tag
@@ -68,7 +72,6 @@ for (const t of TAGS) {
   if (count === 0) continue;
   const pages = Math.max(1, Math.ceil(count / PAGE_SIZE));
   push(`/destinos?tags=${t.id}`, 0.7);
-  for (let p = 2; p <= pages; p++) push(`/destinos?tags=${t.id}&page=${p}`, 0.4);
 }
 
 // Individual destinations
@@ -83,7 +86,6 @@ for (const t of TAGS) {
   if (count === 0) continue;
   const pages = Math.max(1, Math.ceil(count / PAGE_SIZE));
   push(`/experiencias/${t.id}`, 0.7);
-  for (let p = 2; p <= pages; p++) push(`/experiencias/${t.id}?page=${p}`, 0.4);
 }
 
 // Hospedagens
@@ -155,10 +157,9 @@ push("/embarque-com-a-create", 0.9, "weekly");
 push("/roteiro-sob-medida", 0.95, "weekly");
 push("/quanto-custa", 0.9, "weekly");
 push("/livro-autoral", 0.8, "weekly");
-push("/viagem/capitais-imperiais-2026", 0.7, "weekly");
-push("/viagem/capitais-imperiais-2026/budapeste", 0.6, "weekly");
-push("/viagem/capitais-imperiais-2026/viena", 0.6, "weekly");
-for (const d of precoDestinos) push(`/quanto-custa/`, 0.85, "weekly");
+push(VIAGEM_PATH, 0.7, "weekly");
+for (const c of CIDADES) push(`${VIAGEM_PATH}/${c.slug}`, 0.6, "weekly");
+for (const d of precoDestinos) push(`/quanto-custa/${d.slug}`, 0.85, "weekly");
 push("/perguntas-frequentes", 0.9, "weekly");
 // FAQ dinâmico por continente/região e por experiência
 for (const t of faqTopics) push(`/perguntas-frequentes/${t.kind}/${t.slug}`, 0.7, "weekly");
