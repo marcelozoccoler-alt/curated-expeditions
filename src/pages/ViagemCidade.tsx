@@ -5,8 +5,6 @@ import { SEO } from "@/components/SEO";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
 import { RoteiroMarkdown } from "@/components/viagem/RoteiroMarkdown";
 import { FotosDoDia } from "@/components/viagem/FotosDoDia";
-import { TrilhaSonora } from "@/components/viagem/TrilhaSonora";
-import { getTrilha } from "@/lib/viagens/trilhas";
 import {
   BotaoOuvir,
   NarracaoAviso,
@@ -295,9 +293,6 @@ const ViagemCidade = () => {
         </div>
       </main>
 
-      {trilha && (
-        <TrilhaSonora titulo={trilha.titulo} descricao={trilha.descricao} faixas={trilha.faixas} />
-      )}
 
       <Footer />
     </div>
