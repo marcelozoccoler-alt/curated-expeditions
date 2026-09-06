@@ -1,6 +1,13 @@
 User-agent: *
 Allow: /
 
+# Áreas privadas e variações de filtro/busca (economia de rastreamento)
+Disallow: /admin
+Disallow: /auth
+Disallow: /*?q=
+Disallow: /*?sort=
+Disallow: /*&sort=
+
 # Filtros multi-tag e buscas internas são noindex via meta robots no SPA;
 # mantemos crawlable para o rel=canonical passar sinais.
 

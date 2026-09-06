@@ -35,6 +35,8 @@ const DOMAIN = CONTACT.domain.replace(/\/$/, "");
 
 type Url = { loc: string; priority: number; changefreq: string };
 
+const LASTMOD = new Date().toISOString().slice(0, 10);
+
 const urls: Url[] = [];
 
 const seen = new Set<string>();
@@ -268,6 +270,7 @@ ${urls
   .map(
     (u) => `  <url>
     <loc>${u.loc}</loc>
+    <lastmod>${LASTMOD}</lastmod>
     <changefreq>${u.changefreq}</changefreq>
     <priority>${u.priority.toFixed(1)}</priority>
   </url>`
