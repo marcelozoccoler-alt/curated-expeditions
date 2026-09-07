@@ -669,19 +669,9 @@ Horário: 12:30 (última entrada para o Classic Pass)
 
 Ingresso: Classic Pass
 
-Pessoas: 12 adultos
-
 O que o Classic Pass inclui:
-
-- Visita ao Palácio de Schönbrunn com audioguia (apartamentos de Francisco José e Sisi, e salas de Maria Teresa)
-- Jardim do Príncipe Herdeiro (Privy Garden)
-- Labirinto (Maze & Labyrinth)
-- Jardim da Orangerie
-- Terraço da Gloriette com vista panorâmica de Viena
-- Duração aproximada: 3 a 4 horas
+...
 - Válido para 1 acesso a cada atração, apenas na data da reserva
-
-Valor: €49 por adulto (inclui audioguia) — este é o ingresso que vocês reservaram.
 
 Retirada dos ingressos: No balcão de reservas (Group Center), localizado à direita da saída da estação U4 Schönbrunn, até 15 minutos antes da visita (12:15). Apresentar cópia desta confirmação. Reservas não retiradas no prazo são canceladas.
 
