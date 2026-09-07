@@ -196,7 +196,7 @@ Praga é chamada de a cidade das cem torres. Mas na verdade tem mais de quinhent
 Endereço: Slezska 832/55, 130 00 Praha 3 — Vinohrady
 Imposto local: CZK 50 por pessoa/diária (cerca de R$ 12) — total CZK 450 (cerca de R$ 111)
 ●
-[Ver no Google Maps](https://www.google.com/maps/place/Fleur+De+Lis+Hotel)
+[Ver no Google Maps](https://www.google.com/maps/search/?api=1&query=Fleur%20De%20Lis%20Hotel%2C%20Prague)
 
 ### POR QUE ESTE HOTEL FUNCIONA PARA VOCÊS
 
@@ -213,10 +213,10 @@ Café da manhã incluso
 ●
 Wi-Fi gratuito
 ●
-Silencioso, longe do burburinho, mas a 12 minutos de bonde do centro
+Silencioso, longe do burburinho, mas a cerca de 15 minutos do centro, entre caminhada curta e bonde
 
 Conexão com o centro:
-Os bondes 22 e 23 passam na porta do hotel (ou a 3 minutos a pé). Em 12 minutos, vocês estão na Praça da Cidade Velha. A mesma linha sobe até o Castelo e Strahov.
+A Slezská não tem trilhos: a parada de bonde mais próxima é Náměstí Míru (ou Vinohradská), a 5 a 8 minutos a pé. De lá, o Bonde 22 leva vocês ao centro em cerca de 12 minutos — e a mesma linha sobe até o Castelo e Strahov.
 
 Acessibilidade e conforto:
 ●
@@ -235,7 +235,7 @@ Bondes com piso baixo e acesso facilitado
 ### TRANSPORTE
 
 ●
-Bonde (Tram): o meio de transporte ideal em Praga. Os bondes 22 e 23 são seus melhores amigos — conectam Vinohrady ao centro, passam por Malá Strana e sobem até o Castelo e Strahov sem esforço nenhum
+Bonde (Tram): o meio de transporte ideal em Praga. O Bonde 22 é o melhor amigo do grupo — liga Vinohrady ao centro, passa por Malá Strana e sobe até o Castelo e Strahov sem esforço nenhum. O número 23 é a linha nostálgica, com carros históricos: aceita o mesmo bilhete, mas passa com menos frequência — use como bônus, nunca como plano
 ●
 Metrô: três linhas (A, B, C), eficiente mas com escadas em algumas estações (verificar elevadores)
 ●
@@ -244,6 +244,8 @@ Táxi / Uber / Bolt: abundantes e baratos. Trajeto médio no centro: CZK 150-250
 Caminhadas: o centro histórico é plano, mas as ruas são de paralelepípedos — calçado firme é essencial
 ●
 Bilhete de transporte: CZK 40 (€1,60 / cerca de R$ 10) por 90 minutos, CZK 30 (cerca de R$ 7) por 30 minutos ou CZK 330 (€13 / cerca de R$ 81) o passe de 72 horas. Maiores de 65 anos viajam de graça apresentando documento com foto
+
+Nota de câmbio: as conversões em reais deste capítulo usam o câmbio de 7 de setembro de 2026 (€1 ≈ R$ 6,00; 1.000 HUF ≈ R$ 16,40; 100 CZK ≈ R$ 24,60; 1 TRY ≈ R$ 0,11). Tudo o que não está incluído no roteiro aparece na moeda local com o equivalente aproximado em reais — confiram a cotação no dia do pagamento.
 
 ### RITMO IDEAL
 
@@ -330,7 +332,7 @@ O carro sobe pela Vinohradská třída — a avenida principal de Vinohrady. Set
 
 ### 19:55 — FLEUR DE LIS HOTEL
 
-[Ver no Google Maps](https://www.google.com/maps/place/Fleur+De+Lis+Hotel)
+[Ver no Google Maps](https://www.google.com/maps/search/?api=1&query=Fleur%20De%20Lis%20Hotel%2C%20Prague)
 
 O lobby é pequeno e acolhedor. A flor de lis — símbolo da realeza boêmia desde o século XII — aparece nos detalhes: no brasão sobre a porta, no papel de parede, nas maçanetas. O quarto duplex é uma surpresa: dois andares, cama no mezanino, sala embaixo. Espaço de sobra para três.
 
@@ -388,7 +390,7 @@ Temperatura: 6°C a 14°C
 Pôr do sol: 18:23
 
 
-Transporte especial: Bonde 22 ou 23
+Transporte especial: Bonde 22 (e, com sorte, a linha nostálgica 23)
 
 ### LINHA DO TEMPO
 
@@ -444,13 +446,13 @@ O café da manhã do Fleur De Lis é um destaque: pães tchecos frescos, frios, 
 
 [Hotel → Praça da Cidade Velha](https://www.google.com/maps/dir/Fleur+De+Lis+Hotel,+Slezska+832,+130+00+Praha+3/Starom%C4%9Bstsk%C3%A9+n%C3%A1m%C4%9Bst%C3%AD,+110+00+Praha+1)
 
-Bonde 22 ou 23 a partir da parada Vinohradská (3 minutos do hotel). Doze minutos depois, vocês descem na Staroměstská. O centro histórico de Praga — declarado Patrimônio da Humanidade pela UNESCO em 1992 — se abre diante de vocês.
+Bonde 22 a partir da parada Náměstí Míru ou Vinohradská (5 a 8 minutos a pé do hotel). Doze minutos depois, vocês descem na Staroměstská. O centro histórico de Praga — declarado Patrimônio da Humanidade pela UNESCO em 1992 — se abre diante de vocês.
 
 A pé, são 5 minutos até a praça. E então...
 
 ### 08:55 — A PRAÇA DA CIDADE VELHA (STAROMĚSTSKÉ NÁMĚSTÍ)
 
-[Ver no Google Maps](https://www.google.com/maps/place/Starom%C4%9Bstsk%C3%A9+n%C3%A1m%C4%9Bst%C3%AD)
+[Ver no Google Maps](https://www.google.com/maps/search/?api=1&query=Starom%C4%9Bstsk%C3%A9%20n%C3%A1m%C4%9Bst%C3%AD%2C%20Prague)
 
 Não existe praça igual no mundo. A Staroměstské náměstí é um anfiteatro de arquitetura — uma aula de História a céu aberto. Em cada fachada, um século diferente. Em cada torre, um estilo.
 
@@ -462,7 +464,7 @@ A entrada na praça é gratuita. Mas o que ela oferece não tem preço.
 
 ### 09:10 — IGREJA DE SÃO NICOLAU (CIDADE VELHA)
 
-[Ver no Google Maps](https://www.google.com/maps/place/Kostel+svat%C3%A9ho+Mikul%C3%A1%C5%A1e,+Starom%C4%9Bstsk%C3%A9+n%C3%A1m.,+110+00+Star%C3%A9+M%C4%9Bsto)
+[Ver no Google Maps](https://www.google.com/maps/search/?api=1&query=Kostel%20svat%C3%A9ho%20Mikul%C3%A1%C5%A1e%2C%20Starom%C4%9Bstsk%C3%A9%20n%C3%A1m.%2C%20110%2000%20Star%C3%A9%20M%C4%9Bsto%2C%20Prague)
 
 A pequena igreja barroca no canto da praça. Construída entre 1732 e 1737, é um prelúdio da sua irmã maior em Malá Strana. O interior é uma explosão de ouro e mármore. O lustre de cristal boêmio tem 1.400 quilos e foi presente do czar russo Nicolau II. A cúpula tem afrescos que parecem derreter o teto e abrir o céu.
 
@@ -470,7 +472,7 @@ Entrada: gratuita (para visita rápida). Concertos de música clássica à noite
 
 ### 09:20 — A IGREJA DE TÝN (INTERIOR)
 
-[Ver no Google Maps](https://www.google.com/maps/place/Church+of+Our+Lady+before+T%C3%BDn,+Starom%C4%9Bstsk%C3%A9+n%C3%A1m.,+110+00+Star%C3%A9+M%C4%9Bsto)
+[Ver no Google Maps](https://www.google.com/maps/search/?api=1&query=Church%20of%20Our%20Lady%20before%20T%C3%BDn%2C%20Starom%C4%9Bstsk%C3%A9%20n%C3%A1m.%2C%20110%2000%20Star%C3%A9%20M%C4%9Bsto%2C%20Prague)
 
 A fachada da Igreja de Týn é o cartão-postal de Praga — duas torres góticas que dominam a silhueta da cidade. Mas o interior é o que surpreende.
 
@@ -491,7 +493,7 @@ Entrada: gratuita.
 
 ### 09:40 — O RELÓGIO ASTRONÔMICO
 
-[Ver no Google Maps](https://www.google.com/maps/place/Prague+Astronomical+Clock,+Starom%C4%9Bstsk%C3%A9+n%C3%A1m.,+110+00+Star%C3%A9+M%C4%9Bsto)
+[Ver no Google Maps](https://www.google.com/maps/search/?api=1&query=Prague%20Astronomical%20Clock%2C%20Starom%C4%9Bstsk%C3%A9%20n%C3%A1m.%2C%20110%2000%20Star%C3%A9%20M%C4%9Bsto)
 
 Construído em 1410, o Relógio Astronômico de Praga é o mais antigo do mundo ainda em funcionamento. São 615 anos de engrenagens, ponteiros e mostradores.
 
@@ -537,7 +539,7 @@ Dez minutos a pé pela rua Národní třída. Vocês passam pelo Café Louvre (o
 
 ### 11:00 — O ESPETÁCULO DA CABEÇA GIRATÓRIA DE KAFKA
 
-[Ver no Google Maps](https://www.google.com/maps/place/Kafka+Head+Statue,+N%C3%A1rodn%C3%AD+135,+110+00+Nov%C3%A9+M%C4%9Bsto)
+[Ver no Google Maps](https://www.google.com/maps/search/?api=1&query=Kafka%20Head%20Statue%2C%20N%C3%A1rodn%C3%AD%20135%2C%20110%2000%20Nov%C3%A9%20M%C4%9Bsto%2C%20Prague)
 
 Obra de David Černý (2014). O artista tcheco mais provocador do século XXI criou uma escultura que é pura genialidade:
 
@@ -580,7 +582,7 @@ Importante: desçam na parada Pražský hrad (não Malostranská — esta fica l
 
 ### 13:45 — O CASTELO DE PRAGA
 
-[Ver no Google Maps](https://www.google.com/maps/place/Pra%C5%BEsk%C3%BD+hrad,+119+08+Praha+1)
+[Ver no Google Maps](https://www.google.com/maps/search/?api=1&query=Pra%C5%BEsk%C3%BD%20hrad%2C%20119%2008%20Praha%201)
 
 O maior complexo de castelo antigo do mundo — registrado no Guinness Book. 70.000 m² de área, 3 pátios, palácios, igrejas, mosteiros e vielas. Não é um castelo: é uma cidade fortificada dentro da cidade.
 
@@ -663,7 +665,7 @@ Sem esforço. Sem escadas. Sem fadiga. E vocês chegam ao ponto mais alto e mais
 
 ### 16:40 — MONASTÉRIO DE STRAHOV — BIBLIOTECA E JARDINS
 
-[Ver no Google Maps](https://www.google.com/maps/place/Strahov+Monastery,+Strašovská+1/137,+118+00+Praha+1)
+[Ver no Google Maps](https://www.google.com/maps/search/?api=1&query=Strahov%20Monastery%2C%20Strahovsk%C3%A9%20n%C3%A1dvo%C5%99%C3%AD%20132/1%2C%20118%2000%20Praha%201)
 
 Chegando com 20 minutos de folga, aproveitem para:
 
@@ -690,7 +692,7 @@ Duração: aproximadamente 30 minutos (até ~17:30).
 
 ### 17:35 — O PARQUE PETŘÍN E O PÔR DO SOL
 
-[Strahov → Parque Petřín](https://www.google.com/maps/dir/Strahov+Monastery,+Strašovská+1/137,+118+00+Praha+1/Petřínské+sady,+118+00+Praha+1)
+[Strahov → Parque Petřín](https://www.google.com/maps/dir/Strahov+Monastery,+Strahovsk%C3%A9+n%C3%A1dvo%C5%99%C3%AD+132/1,+118+00+Praha+1/Petřínské+sady,+118+00+Praha+1)
 
 A apenas 300 metros do monastério, o Parque Petřín se estende sobre a colina mais verde de Praga. É o lugar perfeito para assistir ao pôr do sol.
 
@@ -702,7 +704,7 @@ Momento de silêncio. Depois de um dia intenso e cheio, apenas estar aqui, senti
 
 [Petřín → Centro](https://www.google.com/maps/dir/Petřínské+sady,+118+00+Praha+1/Starom%C4%9Bstsk%C3%A9+n%C3%A1m%C4%9Bst%C3%AD,+110+00+Praha+1)
 
-Caminhem 5 minutos até a parada Újezd e peguem o Bonde 22 ou 23 descendo até o centro. Em 8 minutos, vocês estão de volta à Malostranské náměstí ou Národní třída.
+Caminhem 5 minutos até a parada Újezd e peguem o Bonde 22 descendo até o centro. Em 8 minutos, vocês estão de volta à Malostranské náměstí ou Národní třída.
 
 ### 19:15 — JANTAR
 
@@ -710,7 +712,7 @@ Duas sugestões para a noite:
 
 Café Louvre (Národní 22)
 
-[Ver no Google Maps](https://www.google.com/maps/place/Café+Louvre,+Národní+22,+110+00+Nové+Město)
+[Ver no Google Maps](https://www.google.com/maps/search/?api=1&query=Caf%C3%A9%20Louvre%2C%20N%C3%A1rodn%C3%AD%2022%2C%20110%2000%20Nov%C3%A9%20M%C4%9Bsto%2C%20Prague)
 
 Fundado em 1902, o Café Louvre foi frequentado por ninguém menos que Franz Kafka, Albert Einstein e Karel Čapek (o escritor que inventou a palavra robô). O ambiente é elegante sem ser formal, com mesas de mármore, paredes cor de rosa e lustres de cristal.
 
@@ -847,7 +849,7 @@ Local de Embarque:
 Escritório: Prague Boats, Dvořákovo nábřeží, pier nº 3 B
 Endereço: Přístaviště lodí u Čechova mostu, Dvořákovo nábřeží, můstek č. 3 B, 110 00 Praha 1 – Staré Město
 
-[Google Maps](https://www.google.com/maps/place/Prague+Boats/@50.0920593,14.4140143,17z)
+[Google Maps](https://www.google.com/maps/search/?api=1&query=Prague%20Boats)
 
 Observações importantes:
 1. Chegar às 11h40 no escritório da Prague Boats, pier nº 3 B.
@@ -898,7 +900,7 @@ Atenção: o Museu Judaico fecha aos sábados (Shabat) e em feriados judaicos. P
 
 Sinagoga Pinkas (1535)
 
-[Ver no Google Maps](https://www.google.com/maps/place/Pinkas+Synagogue,+Široká+3,+110+00+Josefov)
+[Ver no Google Maps](https://www.google.com/maps/search/?api=1&query=Pinkas%20Synagogue%2C%20%C5%A0irok%C3%A1%203%2C%20110%2000%20Josefov%2C%20Prague)
 
 A Sinagoga Pinkas é um memorial do Holocausto. Em suas paredes internas, 77.297 nomes estão gravados à mão — os nomes de todos os judeus tchecos e morávios assassinados pelos nazistas. O efeito é devastador. Cada nome é uma vida. E as paredes estão cobertas até o teto.
 
@@ -906,7 +908,7 @@ No andar superior, uma exposição de desenhos das crianças do campo de concent
 
 O Antigo Cemitério Judeu
 
-[Ver no Google Maps](https://www.google.com/maps/place/Old+Jewish+Cemetery,+Široká+3,+110+00+Josefov)
+[Ver no Google Maps](https://www.google.com/maps/search/?api=1&query=Old%20Jewish%20Cemetery%2C%20%C5%A0irok%C3%A1%203%2C%20110%2000%20Josefov%2C%20Prague)
 
 Fundado no século XV, é um dos cemitérios judaicos mais antigos e mais impactantes do mundo.
 
@@ -924,7 +926,7 @@ Pequenas pedras sobre as lápides — a tradição judaica de deixar uma pedra e
 
 A Sinagoga Espanhola
 
-[Ver no Google Maps](https://www.google.com/maps/place/Spanish+Synagogue,+Vězeňská+1,+110+00+Josefov)
+[Ver no Google Maps](https://www.google.com/maps/search/?api=1&query=Spanish%20Synagogue%2C%20V%C4%9Bze%C5%88sk%C3%A1%201%2C%20110%2000%20Josefov%2C%20Prague)
 
 A mais bonita das sinagogas de Praga — e uma das mais impressionantes da Europa. Construída em estilo mourisco (1868), com interior coberto de ornamentos dourados, vitrais coloridos e detalhes geométricos que lembram a Alhambra de Granada. A acústica é extraordinária — concertos de música clássica são realizados aqui regularmente.
 

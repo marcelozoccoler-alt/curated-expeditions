@@ -153,7 +153,7 @@ Em 1857, o Imperador Francisco José ordenou a demolição das muralhas medievai
 
 - Endereço: Mariahilfer Gürtel 22-24, 1060 Viena
 - Site oficial: ibis.accor.com
-- [Ver no Google Maps](https://www.google.com/maps/place/ibis+Wien+Mariahilf)
+- [Ver no Google Maps](https://www.google.com/maps/search/?api=1&query=ibis%20Wien%20Mariahilf)
 
 Por que este hotel funciona para vocês:
 
@@ -182,6 +182,8 @@ Acessibilidade e conforto:
 - Táxi: abundantes e com tarifas razoáveis (€5-12, cerca de R$ 30 a R$ 72, para trajetos no centro)
 - Uber: disponível e confiável
 - Caminhadas: o centro histórico (Innere Stadt) é plano e concentrado — tudo se faz a pé
+
+Nota de câmbio: as conversões em reais deste capítulo usam o câmbio de 7 de setembro de 2026 (€1 ≈ R$ 6,00; 1.000 HUF ≈ R$ 16,40; 100 CZK ≈ R$ 24,60; 1 TRY ≈ R$ 0,11). Tudo o que não está incluído no roteiro aparece na moeda local com o equivalente aproximado em reais — confiram a cotação no dia do pagamento.
 
 ### RITMO IDEAL
 
@@ -271,7 +273,7 @@ Metrô U3 a partir de Westbahnhof (5 minutos a pé do hotel) até Stephansplatz.
 
 ### 16:15 — STEPHANSDOM, A CATEDRAL DE SANTO ESTÊVÃO
 
-[Ver no Google Maps](https://www.google.com/maps/place/St+Stephen's+Cathedral)
+[Ver no Google Maps](https://www.google.com/maps/search/?api=1&query=St%20Stephen%27s%20Cathedral%2C%20Vienna)
 
 A catedral domina a paisagem de Viena há mais de 800 anos. Sua torre sul — o Steffl, como os vienenses a chamam carinhosamente — tem 136,4 metros de altura. O telhado é uma obra-prima: 230.000 telhas esmaltadas formando o brasão da Áustria (águia bicéfala) e o brasão de Viena.
 
@@ -305,7 +307,7 @@ Poucos passos adiante, uma viela quase invisível à direita conduz à Peterspla
 
 ### 17:45 — A PETERSKIRCHE
 
-[Ver no Google Maps](https://www.google.com/maps/place/Peterskirche)
+[Ver no Google Maps](https://www.google.com/maps/search/?api=1&query=Peterskirche%2C%20Vienna)
 
 A fachada da Peterskirche não impressiona — apertada entre edifícios, quase tímida. Mas quem cruza a porta nunca mais esquece.
 
@@ -416,7 +418,7 @@ Metrô U3 até Herrengasse. Em 12 minutos, vocês estão diante da Michaelerkupp
 
 ### 09:15 — O COMPLEXO DO HOFBURG
 
-[Ver no Google Maps](https://www.google.com/maps/place/Hofburg)
+[Ver no Google Maps](https://www.google.com/maps/search/?api=1&query=Hofburg%2C%20Vienna)
 
 O Hofburg não é um palácio. É uma cidade dentro da cidade. Durante mais de seis séculos (1278–1918), este foi o centro do poder dos Habsburgos.
 
@@ -504,7 +506,7 @@ Curiosidade: O Demel e o Hotel Sacher brigam na justiça há décadas sobre quem
 
 Site oficial: demel.com
 
-[Ver no Google Maps](https://www.google.com/maps/place/Demel)
+[Ver no Google Maps](https://www.google.com/maps/search/?api=1&query=Demel%2C%20Vienna)
 
 ### 14:30 — A RINGSTRASSE, A AVENIDA DO IMPÉRIO
 
@@ -554,7 +556,7 @@ Informações práticas:
 - Elevador panorâmico incluso no ingresso
 - Site oficial: karlskirche.at
 
-[Ver no Google Maps](https://www.google.com/maps/place/Karlskirche)
+[Ver no Google Maps](https://www.google.com/maps/search/?api=1&query=Karlskirche%2C%20Vienna)
 
 ### 17:30 — NASCHMARKT, O MERCADO DAS ESPECIARIAS
 
@@ -682,7 +684,7 @@ Para subir: A caminhada leva cerca de 10 minutos, em subida suave. Para quem pre
 
 Café na Gloriette: No interior da colunata, há um café. Sentem-se, peçam um Melange e apreciem a vista. A Imperatriz Maria Teresa jamais imaginou que, 250 anos depois, pessoas comuns estariam tomando café em seu mirante particular.
 
-[Ver no Google Maps](https://www.google.com/maps/place/Gloriette+Schonbrunn)
+[Ver no Google Maps](https://www.google.com/maps/search/?api=1&query=Gloriette%20Schonbrunn%2C%20Vienna)
 
 Informações práticas:
 
@@ -700,7 +702,7 @@ Se quiserem esticar, o centro fica no caminho. Mas a recomendação é priorizar
 
 [Hotel → Palácio de Schönbrunn](https://www.google.com/maps/dir/ibis+Wien+Mariahilf,+Mariahilfer+G%C3%BCrtel+22-24,+1060+Wien/Schloss+Sch%C3%B6nbrunn)
 
-[Ver no Google Maps](https://www.google.com/maps/place/Schloss+Sch%C3%B6nbrunn)
+[Ver no Google Maps](https://www.google.com/maps/search/?api=1&query=Schloss%20Sch%C3%B6nbrunn%2C%20Vienna)
 
 Traje social: para ele, terno ou blazer com calça social. Para ela, vestido de concerto.
 
@@ -807,7 +809,7 @@ Para quem quer uma última obra-prima antes de partir.
 
 O Palácio Belvedere: [Hotel → Belvedere](https://www.google.com/maps/dir/ibis+Wien+Mariahilf,+Mariahilfer+G%C3%BCrtel+22-24,+1060+Wien/Belvedere,+Prinz-Eugen-Stra%C3%9Fe+27,+1030+Wien)
 
-O Belvedere é na verdade dois palácios — o Belvedere Superior (Oberes Belvedere) e o Belvedere Inferior (Unteres Belvedere) — conectados por um jardim barroco deslumbrante. Construído entre 1714 e 1723 para o Príncipe Eugênio de Saboia, o herói militar que derrotou os otomanos. O trajeto do hotel leva cerca de 15 minutos de metrô ou táxi.
+O Belvedere é na verdade dois palácios — o Belvedere Superior (Oberes Belvedere) e o Belvedere Inferior (Unteres Belvedere) — conectados por um jardim barroco deslumbrante. Construído entre 1714 e 1723 para o Príncipe Eugênio de Saboia, o herói militar que derrotou os otomanos. Do hotel são cerca de 15 a 20 minutos: U6 até Längenfeldgasse, U4 até Karlsplatz e bonde D até a parada Schloss Belvedere — ou, mais simples, táxi direto (cerca de €12 / R$ 72).
 
 Por que vir aqui: O Belvedere Superior abriga a maior coleção de Gustav Klimt do mundo. E no centro dela, a obra mais icônica da arte austríaca: "O Beijo" (Der Kuss).
 
@@ -828,7 +830,7 @@ Informações práticas:
 - Tempo recomendado: 1h30 a 2h
 - Horário: 9h às 18h
 
-[Ver no Google Maps](https://www.google.com/maps/place/Belvedere)
+[Ver no Google Maps](https://www.google.com/maps/search/?api=1&query=Belvedere%2C%20Vienna)
 
 Jardins do Belvedere: Os jardins entre os dois palácios são gratuitos e espetaculares. Cascatas, fontes, estátuas mitológicas, canteiros geométricos. Do alto da escadaria do Belvedere Superior, tem-se uma vista perfeita do Belvedere Inferior emoldurado pelos jardins — e, ao fundo, as torres de Viena.
 
@@ -842,7 +844,7 @@ Check-out formal ao meio-dia, com as malas guardadas com o staff enquanto vocês
 
 [Hotel → Wien Hauptbahnhof](https://www.google.com/maps/dir/ibis+Wien+Mariahilf,+Mariahilfer+G%C3%BCrtel+22-24,+1060+Wien/Wien+Hauptbahnhof,+Gertrude-Fr%C3%B6hlich-Sandner-Stra%C3%9Fe+3,+1100+Wien)
 
-Táxi ou metrô (U6 + U1, 15 minutos). Cheguem com pelo menos 45 minutos de antecedência — vocês têm mais de uma hora de folga antes da partida.
+Táxi (cerca de €12 / R$ 72) ou o Bonde 18, que sai de Westbahnhof e chega direto à Wien Hauptbahnhof em 15 a 18 minutos, sem baldeação. Cheguem com pelo menos 45 minutos de antecedência — vocês têm mais de uma hora de folga antes da partida.
 
 ### 15:10 — O TREM RJX 56 PARA PRAGA
 

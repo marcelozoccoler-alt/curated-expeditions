@@ -242,7 +242,10 @@ Dica local: o hotel fica a 200 metros da estação de metrô Oktogon, linha M1, 
 
 Personagem: a praça em frente ao hotel leva o nome de Mór Jókai (1825–1904), o maior romancista húngaro do século XIX. Amigo de Liszt e contemporâneo de Petőfi, escreveu mais de 100 romances. Suas obras são a literatura da alma húngara.
 
-[Ver no Google Maps](https://www.google.com/maps/place/Medos+Hotel,+J%C3%B3kai+t%C3%A9r+9,+1061+Budapest)
+[Ver no Google Maps](https://www.google.com/maps/search/?api=1&query=Medos%20Hotel%2C%20J%C3%B3kai%20t%C3%A9r%209%2C%201061%20Budapest)
+
+Nota de câmbio: as conversões em reais deste capítulo usam o câmbio de 7 de setembro de 2026 (€1 ≈ R$ 6,00; 1.000 HUF ≈ R$ 16,40; 100 CZK ≈ R$ 24,60; 1 TRY ≈ R$ 0,11). Tudo o que não está incluído no roteiro aparece na moeda local com o equivalente aproximado em reais — confiram a cotação no dia do pagamento.
+
 
 16:00 às 17:15 — DESCANSO
 
@@ -284,7 +287,7 @@ Visita guiada de 45 minutos em vários idiomas.
 
 Neste primeiro dia vocês veem apenas por fora, o que é gratuito e já deslumbrante.
 
-[Ver no Google Maps](https://www.google.com/maps/place/Hungarian+Parliament+Building)
+[Ver no Google Maps](https://www.google.com/maps/search/?api=1&query=Hungarian%20Parliament%20Building%2C%20Budapest)
 
 Personagens na praça: a praça em frente ao Parlamento chama-se Kossuth Lajos tér, em homenagem a Lajos Kossuth (1802–1894), o líder da Revolução de 1848. Na praça, há uma estátua dele e, ao lado, a de Ferenc Deák (1803–1876), o homem sábio da nação, que articulou o Compromisso de 1867. Dois homens, duas visões: Kossuth queria a independência total; Deák queria a reconciliação. A história deu razão a Deák — mas a praça leva o nome de Kossuth.
 
@@ -320,7 +323,7 @@ Personagem: Raoul Wallenberg (1912–1945?) — diplomata sueco que salvou dezen
 
 Entrada gratuita. Aberto 24 horas.
 
-[Ver no Google Maps](https://www.google.com/maps/place/Shoes+on+the+Danube+Memorial)
+[Ver no Google Maps](https://www.google.com/maps/search/?api=1&query=Shoes%20on%20the%20Danube%20Memorial%2C%20Budapest)
 
 ### 19:00 — O CRUZEIRO
 
@@ -443,7 +446,7 @@ Combo completo: 6.800 HUF (18 euros / R$ 112).
 
 A Mão Direita de Santo Estevão: no interior, em uma capela dourada atrás do altar-mor, está a relíquia mais sagrada da Hungria: a mão mumificada do primeiro rei húngaro, coroado no ano 1000. Santo Estevão (975–1038) foi o homem que transformou tribos nômades em uma nação cristã. A mão tem mais de mil anos. Diz a lenda que, se desaparecer, a Hungria cairá.
 
-[Ver no Google Maps](https://www.google.com/maps/place/Basilica+of+St+Stephen)
+[Ver no Google Maps](https://www.google.com/maps/search/?api=1&query=St.%20Stephen%27s%20Basilica%2C%20Budapest)
 
 ### 10:00 — A BASÍLICA EM DOMINGO
 
@@ -465,7 +468,7 @@ Drum Café (Dob utca 2): goulash autêntico. Pratos entre 2.000 e 4.000 HUF, R$ 
 
 Personagem: a praça leva o nome de Ferenc Deák (1803–1876), o homem sábio da nação. Foi Deák quem concebeu o Compromisso de 1867 — a solução diplomática que transformou o Império Austríaco em Império Austro-Húngaro, dando à Hungria autonomia dentro da monarquia dual. Sem Deák, não haveria Sisi coroada em Budapeste. Sem Deák, não haveria a Budapeste unificada de 1873.
 
-Valor: 450 HUF (1,20 euros / R$ 7).
+Valor: 500 HUF na pré-compra, no guichê ou no aplicativo BudapestGO (cerca de R$ 8) — 700 HUF se comprado a bordo (cerca de R$ 11). Quem preferir liberdade total: passe de 24 horas por 2.750 HUF (cerca de R$ 45).
 
 ### 14:00 — O CASTELO DE BUDA
 
@@ -477,7 +480,7 @@ Personagens: no Castelo, pensem em Sisi e Francisco José. Em 8 de junho de 1867
 
 Site oficial: budacastlebudapest.com
 
-[Ver no Google Maps](https://www.google.com/maps/place/Buda+Castle)
+[Ver no Google Maps](https://www.google.com/maps/search/?api=1&query=Buda%20Castle%2C%20Budapest)
 
 ### 16:30 — O BASTIÃO DOS PESCADORES
 
@@ -491,7 +494,7 @@ Nível superior, torres: 1.700 HUF (4,50 euros / R$ 28).
 
 Desconto para maiores de 65 anos: 50%, 850 HUF (2,25 euros / R$ 14).
 
-[Ver no Google Maps](https://www.google.com/maps/place/Fisherman's+Bastion)
+[Ver no Google Maps](https://www.google.com/maps/search/?api=1&query=Fisherman%27s%20Bastion%2C%20Budapest)
 
 ### 18:00 — O PÔR DO SOL
 
@@ -516,7 +519,7 @@ Entrada para visita turística: 3.400 HUF (9 euros / R$ 56).
 Com audioguia: 5.000 HUF (13 euros / R$ 82).
 
 
-[Ver no Google Maps](https://www.google.com/maps/place/Matias+Church)
+[Ver no Google Maps](https://www.google.com/maps/search/?api=1&query=Matthias%20Church%2C%20Budapest)
 
 ### 20:30 — O BASTIÃO DOS PESCADORES À NOITE
 
@@ -622,7 +625,7 @@ Noite no Szimpla Kert: casual despojado. Jaqueta leve.
 
 Metrô: estação Oktogon, linha M1, transferência em Deák Ferenc tér, linha M2, estação Astoria. 12 minutos.
 
-Valor: 450 HUF (1,20 euros / R$ 7).
+Valor: 500 HUF na pré-compra, no guichê ou no aplicativo BudapestGO (cerca de R$ 8) — 700 HUF se comprado a bordo (cerca de R$ 11). Quem preferir liberdade total: passe de 24 horas por 2.750 HUF (cerca de R$ 45).
 
 ### 09:45 — ENCONTRO NA SINAGOGA
 
@@ -634,7 +637,7 @@ Durante a Segunda Guerra Mundial, o bairro judeu foi transformado em gueto. Mais
 
 Site oficial: greatsynagogue.hu
 
-[Ver no Google Maps](https://www.google.com/maps/place/Doh%C3%A1ny+Street+Synagogue)
+[Ver no Google Maps](https://www.google.com/maps/search/?api=1&query=Doh%C3%A1ny%20Street%20Synagogue%2C%20Budapest)
 
 ### 11:15 — O CEMITÉRIO E O MEMORIAL
 
@@ -658,7 +661,7 @@ Bairro Judeu ao Mercado Central.
 
 Metrô: estação Astoria, linha M2, até Deák Ferenc tér, transferência para a linha M4 ou bonde 47/49 até Fővám tér. Cerca de 15 minutos.
 
-Valor: 450 HUF (1,20 euros / R$ 7).
+Valor: 500 HUF na pré-compra, no guichê ou no aplicativo BudapestGO (cerca de R$ 8) — 700 HUF se comprado a bordo (cerca de R$ 11). Quem preferir liberdade total: passe de 24 horas por 2.750 HUF (cerca de R$ 45).
 
 [Trajeto no Google Maps](https://www.google.com/maps/dir/Doh%C3%A1ny+utca+2,+1074+Budapest/Great+Market+Hall,+F%C5%91v%C3%A1m+t%C3%A9r+1-3,+1093+Budapest)
 
@@ -678,7 +681,7 @@ Kurtoskalacs: bolo chaminé húngaro, 800 a 1.200 HUF, R$ 13 a R$ 20.
 
 Horário: segunda a sábado, 6:00 às 17:00. Domingo fechado.
 
-[Ver no Google Maps](https://www.google.com/maps/place/Great+Market+Hall)
+[Ver no Google Maps](https://www.google.com/maps/search/?api=1&query=Great%20Market%20Hall%2C%20Budapest)
 
 ### 14:00 — CAFÉ NEW YORK
 
@@ -694,7 +697,7 @@ Dica: peçam o somlói galuska — sobremesa tradicional húngara com três cama
 
 Site oficial: cafenewyorkbudapest.com
 
-[Ver no Google Maps](https://www.google.com/maps/place/New+York+Caf%C3%A9)
+[Ver no Google Maps](https://www.google.com/maps/search/?api=1&query=New%20York%20Caf%C3%A9%2C%20Budapest)
 
 ### 15:00 — RUMO À PRAÇA DOS HERÓIS
 
@@ -702,7 +705,7 @@ Site oficial: cafenewyorkbudapest.com
 
 Metrô: estação Blaha Lujza tér, linha M2, transferência em Deák Ferenc tér, linha M1, estação Hősök tere. 15 minutos.
 
-Valor: 450 HUF (1,20 euros / R$ 7).
+Valor: 500 HUF na pré-compra, no guichê ou no aplicativo BudapestGO (cerca de R$ 8) — 700 HUF se comprado a bordo (cerca de R$ 11). Quem preferir liberdade total: passe de 24 horas por 2.750 HUF (cerca de R$ 45).
 
 ### 15:30 — PRAÇA DOS HERÓIS, HOSOK TERE
 
@@ -734,7 +737,7 @@ Lajos Kossuth (1802–1894): o líder da revolução de 1848.
 
 Entrada gratuita. Aberto 24 horas.
 
-[Ver no Google Maps](https://www.google.com/maps/place/H%C5%91s%C3%B6k+tere)
+[Ver no Google Maps](https://www.google.com/maps/search/?api=1&query=H%C5%91s%C3%B6k%20tere%2C%20Budapest)
 
 ### 15:45 — PARQUE VÁROSLIGET
 
@@ -744,7 +747,7 @@ No parque está o Castelo Vajdahunyad, inspirado no castelo dos Hunyadi em Huned
 
 ### 16:30 — TERMAS SZÉCHENYI
 
-[Termas Széchenyi](https://www.google.com/maps/place/Sz%C3%A9chenyi+Gy%C3%B3gyf%C3%BCrd%C5%91+%C3%A9s+Uszoda)
+[Termas Széchenyi](https://www.google.com/maps/search/?api=1&query=Sz%C3%A9chenyi%20Gy%C3%B3gyf%C3%BCrd%C5%91%20%C3%A9s%20Uszoda%2C%20Budapest)
 
 As termas mais famosas de Budapeste, inauguradas em 1913 em estilo neobarroco amarelo-ouro. 18 piscinas internas e externas, alimentadas por duas nascentes termais com temperaturas de 74°C e 77°C.
 
@@ -784,7 +787,7 @@ Horário: diariamente, das 6:00 às 22:00.
 
 Dica: cheguem no final da tarde. As piscinas externas ao pôr do sol são uma experiência única — vapor subindo da água, luz dourada, silêncio.
 
-[Ver no Google Maps](https://www.google.com/maps/place/Sz%C3%A9chenyi+Gy%C3%B3gyf%C3%BCrd%C5%91+%C3%A9s+Uszoda)
+[Ver no Google Maps](https://www.google.com/maps/search/?api=1&query=Sz%C3%A9chenyi%20Gy%C3%B3gyf%C3%BCrd%C5%91%20%C3%A9s%20Uszoda%2C%20Budapest)
 
 ### 18:30 — SAÍDA DAS TERMAS
 
@@ -802,7 +805,7 @@ Valor: entrada gratuita. Bebidas entre 800 e 2.500 HUF, R$ 13 a R$ 41.
 
 Dica: subam ao terraço. A vista do Bairro Judeu à noite é surpreendente.
 
-[Ver no Google Maps](https://www.google.com/maps/place/Szimpla+Kert)
+[Ver no Google Maps](https://www.google.com/maps/search/?api=1&query=Szimpla%20Kert%2C%20Budapest)
 
 ### 20:30 — JANTAR NO BAIRRO JUDEU
 
