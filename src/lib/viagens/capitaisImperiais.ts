@@ -1,10 +1,12 @@
 import budapesteMd from "@/content/viagem/capitais-imperiais-2026/budapeste.md?raw";
 import vienaMd from "@/content/viagem/capitais-imperiais-2026/viena.md?raw";
 import pragaMd from "@/content/viagem/capitais-imperiais-2026/praga.md?raw";
+import istambulMd from "@/content/viagem/capitais-imperiais-2026/istambul.md?raw";
 import heroTrip from "@/assets/viagem/capitais-imperiais-hero.jpg";
 import heroBudapeste from "@/assets/viagem/capitais-imperiais-budapeste.jpg";
 import heroViena from "@/assets/viagem/capitais-imperiais-viena.jpg";
 import heroPraga from "@/assets/viagem/capitais-imperiais-praga.jpg";
+import heroIstambul from "@/assets/viagem/capitais-imperiais-istambul.jpg";
 
 /** Um item dentro de um bloco: normalmente um horário do dia. */
 export interface RoteiroItem {
@@ -163,12 +165,11 @@ export const CIDADES: CidadeRoteiro[] = [
   parseCity(budapesteMd, "budapeste", "Budapeste", heroBudapeste),
   parseCity(vienaMd, "viena", "Viena", heroViena),
   parseCity(pragaMd, "praga", "Praga", heroPraga),
+  parseCity(istambulMd, "istambul", "Istambul", heroIstambul),
 ];
 
 /** Cidades ainda por publicar — mantêm a narrativa completa da viagem. */
-export const CIDADES_EM_BREVE = [
-  { slug: "istambul", nome: "Istambul", periodo: "12 a 16 de outubro de 2026" },
-];
+export const CIDADES_EM_BREVE: { slug: string; nome: string; periodo: string }[] = [];
 
 export const getCidade = (slug?: string) => CIDADES.find((c) => c.slug === slug);
 
