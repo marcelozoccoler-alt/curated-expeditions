@@ -213,6 +213,57 @@ export const organizationLd = {
     audienceType:
       "Viajantes 40+ com alto poder de compra, casais, famílias, grupos de amigos e empresas",
   },
+  hasOfferCatalog: {
+    "@type": "OfferCatalog",
+    name: "Viagens Create Travel",
+    itemListElement: [
+      {
+        "@type": "Offer",
+        itemOffered: {
+          "@type": "Trip",
+          name: "Roteiros sob medida",
+          description:
+            "Roteiros privativos desenhados do zero por travel designers, com curadoria autoral de hotéis, ritmo e experiências.",
+        },
+      },
+      {
+        "@type": "Offer",
+        itemOffered: {
+          "@type": "Trip",
+          name: "Grupos com coordenador brasileiro",
+          description:
+            "Saídas internacionais 2026 e 2027 em grupos de 15 a 20 viajantes, com coordenador embarcando do Brasil.",
+        },
+      },
+      {
+        "@type": "Offer",
+        itemOffered: {
+          "@type": "Trip",
+          name: "Grupos com guia local no destino",
+          description:
+            "Roteiros em grupo conduzidos por guias locais selecionados, com curadoria Create Travel.",
+        },
+      },
+      {
+        "@type": "Offer",
+        itemOffered: {
+          "@type": "Trip",
+          name: "Cruzeiros fluviais",
+          description:
+            "Cruzeiros fluviais com curadoria autoral, incluindo AmaWaterways na Europa e o Nilo no Egito.",
+        },
+      },
+      {
+        "@type": "Offer",
+        itemOffered: {
+          "@type": "Trip",
+          name: "Incoming Brasil",
+          description:
+            "Receptivo Brasil para viajantes internacionais, com atendimento em dez idiomas e roteiros por todos os biomas.",
+        },
+      },
+    ],
+  },
   makesOffer: entitySpecialties.map((s, i) => ({
     "@type": "Offer",
     "@id": `${DOMAIN}/#offer-${i + 1}`,
