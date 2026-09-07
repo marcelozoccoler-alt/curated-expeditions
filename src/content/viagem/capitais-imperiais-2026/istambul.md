@@ -317,11 +317,9 @@ Sugestões próximas ao hotel (5–10 minutos a pé):
 
 **Karaköy Lokantası** (Kemankeş Cad. 37/A) — [Ver no Google Maps](https://www.google.com/maps/search/?api=1&query=Karaköy+Lokantası)
 
-Uma lokanta turca moderna — o equivalente a um bistrô elegante. Pratos turcos tradicionais preparados com técnica impecável. Mezes frios e quentes, peixes do Bósforo, cordeiro. Ambiente de azulejos azuis e brancos. €12–20 por pessoa.
+Uma lokanta turca moderna — o equivalente a um bistrô elegante. Pratos turcos tradicionais preparados com técnica impecável. Mezes frios e quentes, peixes do Bósforo, cordeiro. Ambiente de azulejos azuis e brancos. €12–20 por pessoa (cerca de R$ 72–120).
 
-**Güney** (Galata Kulesi Sok. 8) — [Ver no Google Maps](https://www.google.com/maps/search/?api=1&query=Güney+Galata+Kulesi)
-
-Restaurante familiar simples e autêntico aos pés da Torre de Galata. Comida turca caseira, sem pretensões. Kebab, pide (a "pizza turca"), mezes. €8–14.
+Restaurante familiar simples e autêntico aos pés da Torre de Galata. Comida turca caseira, sem pretensões. Kebab, pide (a "pizza turca"), mezes. €8–14 (cerca de R$ 48–84).
 
 **Simplesmente um çay e um simit:** se o cansaço da viagem falar mais alto, sentem-se em qualquer café de rua, peçam um çay (chá turco, servido naquelas tulipas de vidro) e um simit (o pão circular com gergelim, crocante por fora, macio por dentro). A primeira experiência turca não precisa ser grandiosa para ser inesquecível.
 
