@@ -245,6 +245,8 @@ Caminhadas: o centro histórico é plano, mas as ruas são de paralelepípedos �
 ●
 Bilhete de transporte: CZK 40 (€1,60 / cerca de R$ 10) por 90 minutos, CZK 30 (cerca de R$ 7) por 30 minutos ou CZK 330 (€13 / cerca de R$ 81) o passe de 72 horas. Maiores de 65 anos viajam de graça apresentando documento com foto
 
+Nota de câmbio: as conversões em reais deste capítulo usam o câmbio de 7 de setembro de 2026 (€1 ≈ R$ 6,00; 1.000 HUF ≈ R$ 16,40; 100 CZK ≈ R$ 24,60; 1 TRY ≈ R$ 0,11). Tudo o que não está incluído no roteiro aparece na moeda local com o equivalente aproximado em reais — confiram a cotação no dia do pagamento.
+
 ### RITMO IDEAL
 
 ●

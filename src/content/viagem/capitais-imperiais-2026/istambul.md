@@ -224,7 +224,7 @@ Vantagens estratégicas:
 
 - Bonde T1: linha moderna, confortável, conecta Karaköy a Sultanahmet em 10 minutos. A estação de Karaköy fica a 5 minutos do hotel. Bilhete: 42 TL (cerca de R$ 4,50) por embarque com İstanbulkart
 - Ferry público: a maneira mais autêntica e prazerosa de se locomover. Bancos de madeira, vendedores de çay, gaivotas. Karaköy → Kadıköy (Ásia): 20 minutos, cerca de 59 TL (cerca de R$ 6,30) com İstanbulkart
-- Tünel: funicular subterrâneo de 1875, o segundo metrô mais antigo do mundo. Sobe de Karaköy a Beyoğlu em 90 segundos
+- Tünel: funicular subterrâneo de 1875, o segundo metrô mais antigo do mundo. Sobe de Karaköy a Beyoğlu em cerca de 90 segundos. Mesma tarifa do bonde: 42 TL (cerca de R$ 4,50) com İstanbulkart
 - Táxi / Uber: abundantes e baratos para padrões europeus. Trajeto médio: 150–300 TL (cerca de R$ 16,50–33,00)
 - İstanbulkart: essencial. Cartão de transporte público recarregável, válido em bondes, metrô, ferrys, ônibus e Tünel. Comprem na primeira estação de bonde ou ferry. Custo do cartão vazio: cerca de 165 a 200 TL (cerca de R$ 18 a R$ 21) — o valor é reajustado com frequência. Recarga nas máquinas amarelas
 - Caminhadas: Sultanahmet é plano e compacto — todas as atrações principais ficam a 5–10 minutos umas das outras. Galata tem algumas ladeiras
@@ -834,6 +834,9 @@ Espaço reservado para as fotos e vídeos de DIA 13 — QUINTA-FEIRA, 15 DE OUTU
 ---
 
 ## DICAS FINAIS PARA ISTAMBUL
+
+Nota de câmbio: as conversões em reais deste capítulo usam o câmbio de 7 de setembro de 2026 (€1 ≈ R$ 6,00; 1.000 HUF ≈ R$ 16,40; 100 CZK ≈ R$ 24,60; 1 TRY ≈ R$ 0,11). Tudo o que não está incluído no roteiro aparece na moeda local com o equivalente aproximado em reais — confiram a cotação no dia do pagamento.
+
 
 - Levem dinheiro vivo (TRY) — pequenas compras, çay, simit, barracas de rua
 - Vistam-se com respeito nas mesquitas — lenço para mulheres (disponível na entrada), ombros e joelhos cobertos para ambos

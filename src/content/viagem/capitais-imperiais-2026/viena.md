@@ -183,6 +183,8 @@ Acessibilidade e conforto:
 - Uber: disponível e confiável
 - Caminhadas: o centro histórico (Innere Stadt) é plano e concentrado — tudo se faz a pé
 
+Nota de câmbio: as conversões em reais deste capítulo usam o câmbio de 7 de setembro de 2026 (€1 ≈ R$ 6,00; 1.000 HUF ≈ R$ 16,40; 100 CZK ≈ R$ 24,60; 1 TRY ≈ R$ 0,11). Tudo o que não está incluído no roteiro aparece na moeda local com o equivalente aproximado em reais — confiram a cotação no dia do pagamento.
+
 ### RITMO IDEAL
 
 - Máximo de 2-3 atrações por dia, sempre com pausas
