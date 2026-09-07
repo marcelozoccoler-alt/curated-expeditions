@@ -74,7 +74,7 @@ Praga tem dezessete pontes que cruzam o Moldava. Mas uma delas não é apenas um
 
 516 metros de comprimento, 10 metros de largura, 30 estátuas barrocas, 6 séculos de História. A Ponte Carlos é o símbolo de Praga.
 
-A história começa com um número. No dia 9 de julho de 1357, às 5h31 da manhã, o Imperador Carlos IV lançou a primeira pedra. A data e hora foram escolhidas pelos astrólogos reais para formar o palíndromo numérico perfeito: 1-3-5-7-9-7-5-3-1. Segundo eles, essa sequência — que sobe e desce como um eco — protegeria a ponte para sempre.
+A história começa com um número. No dia 9 de julho de 1357, às 5h31 da manhã, o Imperador Carlos IV lançou a primeira pedra. A data e a hora foram escolhidas pelos astrólogos reais para formar aquele palíndromo perfeito que vocês já conhecem — o número que sobe e desce como um eco. Segundo eles, a sequência protegeria a ponte para sempre.
 
 E protegeu. A ponte sobreviveu a enchentes catastróficas (a maior delas em 2002), a guerras, a cercos, a 667 anos de invernos rigorosos. Continua ali.
 
@@ -126,7 +126,7 @@ Karel Čapek (1890-1938) — O homem que inventou a palavra robô. Em sua peça 
 
 Peter Parler (1333-1399) — O arquiteto gótico da Catedral de São Vito e da Ponte Carlos. Sua genialidade moldou a silhueta de Praga para sempre.
 
-Jan Blažej Santini-Aichel (1677-1723) — O mestre do barroco gótico. Suas igrejas combinam a verticalidade gótica com a ornamentação barroca num estilo único no mundo.
+Jan Blažej Santini-Aichel (pronuncia-se "iam blájei santíni áirrel", 1677-1723) — O mestre do barroco gótico. Suas igrejas combinam a verticalidade gótica com a ornamentação barroca num estilo único no mundo.
 
 ### OS HERÓIS
 
@@ -150,7 +150,7 @@ A cidade respira História. Cada viela já escondeu um alquimista, um escritor, 
 
 ### 1. O PALÍNDROMO DA PONTE CARLOS
 
-A pedra fundamental da Ponte Carlos foi lançada em 9 de julho de 1357, às 5h31. A sequência numérica 1-3-5-7-9-7-5-3-1 foi escolhida pelos astrólogos reais de Carlos IV como um talismã. A ponte já sobreviveu a enchentes catastróficas, guerras e 667 anos de História. O talismã funcionou?
+A pedra fundamental da Ponte Carlos foi lançada em 9 de julho de 1357, às 5h31 — o horário do talismã numérico escolhido pelos astrólogos de Carlos IV. A ponte já sobreviveu a enchentes catastróficas, guerras e 667 anos de História. O talismã funcionou?
 
 ### 2. O RELÓGIO ASTRONÔMICO E A LENDA DO MESTRE RELOJOEIRO
 
@@ -166,7 +166,7 @@ A escultura de David Černý (2014) no shopping Quadrio: 10,6 metros de altura, 
 
 ### 5. OS MONGES DE STRAHOV E OS 883 ANOS DE HISTÓRIA
 
-O Monastério de Strahov foi fundado em 1143 por monges premonstratenses. O mosteiro sobreviveu a invasões, incêndios e ao regime comunista (fechado em 1950, monges presos ou exilados). Reabriu em 1990. A vida recomeçou, como se nunca tivesse parado.
+O Monastério de Strahov (pronuncia-se "stráhov") foi fundado em 1143 por monges premonstratenses. O mosteiro sobreviveu a invasões, incêndios e ao regime comunista (fechado em 1950, monges presos ou exilados). Reabriu em 1990. A vida recomeçou, como se nunca tivesse parado.
 
 ### 6. O CEMITÉRIO JUDEU E AS 12 CAMADAS DE ALMAS
 
@@ -186,17 +186,15 @@ A tradição das marionetes na Boêmia remonta ao século XVIII. Durante a ocupa
 
 ### 10. A PRAGA DAS CEM TORRES
 
-Praga é chamada de a cidade das cem torres. Mas na verdade tem mais de quinhentas. Torres góticas, torres barrocas, torres de igrejas, torres de pontes, torres de castelos. Do alto de Petřín ou da Torre da Ponte Carlos, a vista é um mar de agulhas de pedra furando o céu.
+Praga é chamada de a cidade das cem torres. Mas na verdade tem mais de quinhentas. Torres góticas, torres barrocas, torres de igrejas, torres de pontes, torres de castelos. Do alto de Petřín (pronuncia-se "pétrjin") ou da Torre da Ponte Carlos, a vista é um mar de agulhas de pedra furando o céu.
 
 ---
 
 ## HOTEL: FLEUR DE LIS HOTEL
 
--
-Endereço: Slezska 832/55, 130 00 Praha 3 — Vinohrady
+- Endereço: Slezska 832/55, 130 00 Praha 3 — Vinohrady
 Imposto local: CZK 50 por pessoa/diária (cerca de R$ 12) — total CZK 450 (cerca de R$ 111)
--
-[Ver no Google Maps](https://www.google.com/maps/search/?api=1&query=Fleur%20De%20Lis%20Hotel%2C%20Prague)
+- [Ver no Google Maps](https://www.google.com/maps/search/?api=1&query=Fleur%20De%20Lis%20Hotel%2C%20Prague)
 
 ### POR QUE ESTE HOTEL FUNCIONA PARA VOCÊS
 
@@ -204,29 +202,20 @@ O bairro — Vinohrady:
 Vinohrady é o bairro mais elegante de Praga fora do centro turístico. O nome significa vinhedos — e no século XIV, Carlos IV mandou plantar videiras nestas colinas. Hoje, é um bairro de ruas arborizadas, prédios art nouveau, cafés tranquilos e parques. Aqui, vocês vivem a Praga dos praguenses, não a dos turistas.
 
 O hotel:
--
-Quarto duplex — dois andares, espaço generoso, sensação de casa
--
-Decoração com referências à flor de lis, símbolo histórico da Boêmia
--
-Café da manhã incluso
--
-Wi-Fi gratuito
--
-Silencioso, longe do burburinho, mas a cerca de 15 minutos do centro, entre caminhada curta e bonde
+- Quarto duplex — dois andares, espaço generoso, sensação de casa
+- Decoração com referências à flor de lis, símbolo histórico da Boêmia
+- Café da manhã incluso
+- Wi-Fi gratuito
+- Silencioso, longe do burburinho, mas a cerca de 15 minutos do centro, entre caminhada curta e bonde
 
 Conexão com o centro:
 A Slezská não tem trilhos: a parada de bonde mais próxima é Náměstí Míru (ou Vinohradská), a 5 a 8 minutos a pé. De lá, o Bonde 22 leva vocês ao centro em cerca de 12 minutos — e a mesma linha sobe até o Castelo e Strahov.
 
 Acessibilidade e conforto:
--
-Recepção 24 horas (até 23:00 no dia da chegada)
--
-Quarto amplo e confortável
--
-Bairro plano e tranquilo para caminhadas leves
--
-Bondes com piso baixo e acesso facilitado
+- Recepção 24 horas (até 23:00 no dia da chegada)
+- Quarto amplo e confortável
+- Bairro plano e tranquilo para caminhadas leves
+- Bondes com piso baixo e acesso facilitado
 
 ---
 
@@ -234,57 +223,37 @@ Bondes com piso baixo e acesso facilitado
 
 ### TRANSPORTE
 
--
-Bonde (Tram): o meio de transporte ideal em Praga. O Bonde 22 é o melhor amigo do grupo — liga Vinohrady ao centro, passa por Malá Strana e sobe até o Castelo e Strahov sem esforço nenhum. O número 23 é a linha nostálgica, com carros históricos: aceita o mesmo bilhete, mas passa com menos frequência — use como bônus, nunca como plano
--
-Metrô: três linhas (A, B, C), eficiente mas com escadas em algumas estações (verificar elevadores)
--
-Táxi / Uber / Bolt: abundantes e baratos. Trajeto médio no centro: CZK 150-250 (cerca de R$ 37 a R$ 62)
--
-Caminhadas: o centro histórico é plano, mas as ruas são de paralelepípedos — calçado firme é essencial
--
-Bilhete de transporte: CZK 40 (cerca de R$ 10) por 90 minutos, CZK 30 (cerca de R$ 7) por 30 minutos ou CZK 330 (cerca de R$ 81) o passe de 72 horas. Maiores de 65 anos viajam de graça apresentando documento com foto
+- Bonde (Tram): o meio de transporte ideal em Praga. O Bonde 22 é o melhor amigo do grupo — liga Vinohrady ao centro, passa por Malá Strana e sobe até o Castelo e Strahov sem esforço nenhum. O número 23 é a linha nostálgica, com carros históricos: aceita o mesmo bilhete, mas passa com menos frequência — use como bônus, nunca como plano
+- Metrô: três linhas (A, B, C), eficiente mas com escadas em algumas estações (verificar elevadores)
+- Táxi / Uber / Bolt: abundantes e baratos. Trajeto médio no centro: CZK 150-250 (cerca de R$ 37 a R$ 62)
+- Caminhadas: o centro histórico é plano, mas as ruas são de paralelepípedos — calçado firme é essencial
+- Bilhete de transporte: CZK 40 (cerca de R$ 10) por 90 minutos, CZK 30 (cerca de R$ 7) por 30 minutos ou CZK 330 (cerca de R$ 81) o passe de 72 horas. Maiores de 65 anos viajam de graça apresentando documento com foto
 
 Nota de câmbio: as conversões em reais deste capítulo usam o câmbio de 7 de setembro de 2026 (€1 ≈ R$ 6,00; 1.000 HUF ≈ R$ 16,40; 100 CZK ≈ R$ 24,60; 1 TRY ≈ R$ 0,11). Tudo o que não está incluído no roteiro aparece na moeda local com o equivalente aproximado em reais — confiram a cotação no dia do pagamento.
 
 ### RITMO IDEAL
 
--
-Praga é compacta — as distâncias são curtas, mas as atrações são muitas
--
-O Dia 8 (sábado) é o mais intenso, mas agora bem distribuído com pausas estratégicas
--
-O Dia 9 (domingo) é um respiro: barco, Bairro Judeu à tarde, jantar medieval
--
-Os bondes fazem o trabalho pesado nas subidas — aproveitem isso
+- Praga é compacta — as distâncias são curtas, mas as atrações são muitas
+- O Dia 8 (sábado) é o mais intenso, mas agora bem distribuído com pausas estratégicas
+- O Dia 9 (domingo) é um respiro: barco, Bairro Judeu à tarde, jantar medieval
+- Os bondes fazem o trabalho pesado nas subidas — aproveitem isso
 
 ### CLIMA EM OUTUBRO
 
--
-Temperaturas: 5°C a 14°C
--
-Manhãs frias, possibilidade de neblina sobre o Moldava (cenário de conto de fadas)
--
-Tardes amenas e ensolaradas
--
-Noites frias — sobretudo ou trench coat essenciais
--
-Possibilidade de chuva: levar guarda-chuva compacto
--
-As cores do outono nos parques (Petřín, Kampa) são espetaculares
+- Temperaturas: 5°C a 14°C
+- Manhãs frias, possibilidade de neblina sobre o Moldava (cenário de conto de fadas)
+- Tardes amenas e ensolaradas
+- Noites frias — sobretudo ou trench coat essenciais
+- Possibilidade de chuva: levar guarda-chuva compacto
+- As cores do outono nos parques (Petřín, Kampa) são espetaculares
 
 ### SAÚDE E SEGURANÇA
 
--
-Praga é extremamente segura — uma das capitais mais seguras da Europa
--
-Farmácias (Lékárna) bem sinalizadas
--
-Água da torneira é potável
--
-Hospitais de bom padrão
--
-Cuidado com carteiristas em áreas muito turísticas (Ponte Carlos, Praça da Cidade Velha) — como em qualquer grande cidade europeia
+- Praga é extremamente segura — uma das capitais mais seguras da Europa
+- Farmácias (Lékárna) bem sinalizadas
+- Água da torneira é potável
+- Hospitais de bom padrão
+- Cuidado com carteiristas em áreas muito turísticas (Ponte Carlos, Praça da Cidade Velha) — como em qualquer grande cidade europeia
 
 ---
 
@@ -347,12 +316,9 @@ Depois de 4h13 de trem, um banho quente e uma pausa são mais que merecidos. O q
 A apenas 5 minutos a pé do hotel, o U Bulínů é um restaurante tcheco raiz — daqueles que os praguenses frequentam, não os turistas. Mesas de madeira, iluminação quente, o som de talheres e conversas em tcheco.
 
 O que pedir:
--
-Svíčková na smetaně — lombo bovino com molho de nata, servido com knedlíky (os famosos pães cozidos tchecos) e uma colherada de geleia de cranberry. É o prato nacional.
--
-Vepřo-knedlo-zelo — carne de porco assada, knedlíky e chucrute. Simples, robusto, delicioso.
--
-Cerveja Pilsner Urquell — a primeira cerveja pilsen do mundo, criada na cidade tcheca de Plzeň em 1842.
+- Svíčková na smetaně — lombo bovino com molho de nata, servido com knedlíky (os famosos pães cozidos tchecos) e uma colherada de geleia de cranberry. É o prato nacional.
+- Vepřo-knedlo-zelo — carne de porco assada, knedlíky e chucrute. Simples, robusto, delicioso.
+- Cerveja Pilsner Urquell — a primeira cerveja pilsen do mundo, criada na cidade tcheca de Plzeň em 1842.
 
 Preço: €8-14 por pessoa (cerca de R$ 48 a R$ 84)
 
@@ -368,12 +334,11 @@ Caminhada de 5 minutos. O ar frio da noite, as ruas silenciosas de Vinohrady, a 
 
 Resumo do dia 7 (parte Praga):
 
--
-Caminhada total: 1,5 km
--
-Tempo de caminhada: 20 min
--
-Nível: muito leve
+- Caminhada total: 1,5 km
+- Tempo de caminhada: 20 min
+- Nível: muito leve
+
+Durmam bem: Praga só se revela de verdade amanhã, com a luz da manhã sobre as pedras.
 
 Espaço reservado para as fotos e vídeos de DIA 7 (CONTINUAÇÃO) — SEXTA-FEIRA, 9 DE OUTUBRO DE 2026. As imagens entram aqui durante a viagem e seguem para o livro impresso.
 
@@ -454,7 +419,7 @@ A pé, são 5 minutos até a praça. E então...
 
 [Ver no Google Maps](https://www.google.com/maps/search/?api=1&query=Starom%C4%9Bstsk%C3%A9%20n%C3%A1m%C4%9Bst%C3%AD%2C%20Prague)
 
-Não existe praça igual no mundo. A Staroměstské náměstí é um anfiteatro de arquitetura — uma aula de História a céu aberto. Em cada fachada, um século diferente. Em cada torre, um estilo.
+Não existe praça igual no mundo. A Staroměstské náměstí (pronuncia-se "staroméstske námesti") é um anfiteatro de arquitetura — uma aula de História a céu aberto. Em cada fachada, um século diferente. Em cada torre, um estilo.
 
 O que seus olhos encontram ao entrar:
 
@@ -477,14 +442,10 @@ Entrada: gratuita (para visita rápida). Concertos de música clássica à noite
 A fachada da Igreja de Týn é o cartão-postal de Praga — duas torres góticas que dominam a silhueta da cidade. Mas o interior é o que surpreende.
 
 Lá dentro:
--
-Abóbadas ogivais de 24 metros de altura, góticas e imponentes
--
-Um altar-mor barroco com a Assunção da Virgem Maria
--
-O órgão histórico, ricamente esculpido
--
-E no chão, sob uma laje de mármore: o túmulo de Tycho Brahe (1546–1601), o astrônomo imperial de Rodolfo II
+- Abóbadas ogivais de 24 metros de altura, góticas e imponentes
+- Um altar-mor barroco com a Assunção da Virgem Maria
+- O órgão histórico, ricamente esculpido
+- E no chão, sob uma laje de mármore: o túmulo de Tycho Brahe (1546–1601), o astrônomo imperial de Rodolfo II
 
 Personagem: Tycho Brahe. Brahe foi o maior astrônomo observacional antes do telescópio. Perdeu o nariz num duelo na juventude e usava uma prótese de ouro e prata. Morreu em Praga em circunstâncias misteriosas (dizem que de uma infecção urinária por não querer interromper um banquete para ir ao banheiro). Seus dados astronômicos permitiram que Johannes Kepler formulasse as leis do movimento planetário.
 
@@ -497,12 +458,9 @@ Entrada: gratuita.
 Construído em 1410, o Relógio Astronômico de Praga é o mais antigo do mundo ainda em funcionamento. São 615 anos de engrenagens, ponteiros e mostradores.
 
 O que ele mostra:
--
-Tempo terreno — as horas como as conhecemos (ponteiro com a mão dourada)
--
-Tempo celestial — a posição do Sol e da Lua no zodíaco
--
-Tempo litúrgico — o dia dividido em horas canônicas (como os monges medievais marcavam o tempo)
+- Tempo terreno — as horas como as conhecemos (ponteiro com a mão dourada)
+- Tempo celestial — a posição do Sol e da Lua no zodíaco
+- Tempo litúrgico — o dia dividido em horas canônicas (como os monges medievais marcavam o tempo)
 
 A lenda do Mestre Hanuš:
 Dizem que Hanuš, o relojoeiro que aperfeiçoou o mecanismo em 1490, foi cegado pelos vereadores de Praga — para que jamais construísse algo igual em outra cidade. Antes de morrer, Hanuš teria voltado ao relógio e, enfurecido, danificado as engrenagens. Durante mais de cem anos, ninguém conseguiu consertá-lo.
@@ -511,20 +469,13 @@ Dizem que Hanuš, o relojoeiro que aperfeiçoou o mecanismo em 1490, foi cegado 
 
 A cada hora cheia, a multidão se aglomera diante da torre. E então acontece:
 
--
-Um esqueleto (a Morte) toca um sino e vira uma ampulheta
--
-Um turco balança a cabeça — símbolo da ameaça otomana
--
-A Vaidade se olha no espelho
--
-A Avareza segura sua bolsa de ouro
--
-As janelinhas se abrem e os 12 apóstolos desfilam, um a um
--
-Um galo dourado canta
--
-As badaladas soam
+- Um esqueleto (a Morte) toca um sino e vira uma ampulheta
+- Um turco balança a cabeça — símbolo da ameaça otomana
+- A Vaidade se olha no espelho
+- A Avareza segura sua bolsa de ouro
+- As janelinhas se abrem e os 12 apóstolos desfilam, um a um
+- Um galo dourado canta
+- As badaladas soam
 
 Dura 45 segundos. Termina com aplausos. E a vida na praça continua.
 
@@ -542,12 +493,9 @@ Dez minutos a pé pela rua Národní třída. Vocês passam pelo Café Louvre (o
 
 Obra de David Černý (2014). O artista tcheco mais provocador do século XXI criou uma escultura que é pura genialidade:
 
--
-10,6 metros de altura
--
-24 toneladas de aço inoxidável polido como espelho
--
-42 painéis giratórios independentes, cada um controlado por um motor individual
+- 10,6 metros de altura
+- 24 toneladas de aço inoxidável polido como espelho
+- 42 painéis giratórios independentes, cada um controlado por um motor individual
 
 A cada hora cheia, os painéis giram em sincronia e o rosto de Franz Kafka se forma — e se desfaz. Os olhos, o nariz, a testa, a boca. Por alguns segundos, o rosto inteiro está ali, completo. Depois, os painéis giram novamente e Kafka se dissolve no ar.
 
@@ -588,24 +536,16 @@ O maior complexo de castelo antigo do mundo — registrado no Guinness Book. 70.
 Patrimônio da Humanidade pela UNESCO.
 
 Horários de outubro (temporada de verão, até 31/out):
--
-Complexo externo (pátios, ruas): 6:00 – 22:00 (gratuito)
--
-Prédios históricos (Catedral, Palácio Real, Basílica, Rua do Ouro): 9:00 – 17:00
--
-Última entrada nos prédios: 16:40
+- Complexo externo (pátios, ruas): 6:00 – 22:00 (gratuito)
+- Prédios históricos (Catedral, Palácio Real, Basílica, Rua do Ouro): 9:00 – 17:00
+- Última entrada nos prédios: 16:40
 
 O Circuito B (Main Circuit): 450 CZK (cerca de R$ 111) por adulto. Inclui:
--
-Catedral de São Vito
--
-Antigo Palácio Real
--
-Basílica de São Jorge
--
-Rua do Ouro (Zlatá ulička)
--
-Válido por 2 dias
+- Catedral de São Vito
+- Antigo Palácio Real
+- Basílica de São Jorge
+- Rua do Ouro (Zlatá ulička)
+- Válido por 2 dias
 
 Site oficial e ingressos: hrad.cz
 
@@ -620,14 +560,10 @@ Subam a escadaria cerimonial até o 2º pátio. A Fonte com águias de bronze es
 A catedral levou 600 anos para ficar pronta. Começou em 1344 sob Carlos IV. Foi interrompida pelas Guerras Hussitas no século XV. Retomada no século XIX. Concluída apenas em 1929.
 
 O que ver lá dentro:
--
-A Capela de São Venceslau — as paredes são revestidas de jaspe e ametista, com afrescos do século XIV. É o coração espiritual da Boêmia
--
-O Vitral de Alfons Mucha (1931) — o mestre do Art Nouveau criou este vitral com a vida de São Cirilo e São Metódio. As cores são hipnóticas
--
-A nave principal — 124 metros de comprimento, abóbadas góticas que parecem flutuar
--
-O túmulo de São João Nepomuceno — o santo da Ponte Carlos, sepultado em prata maciça
+- A Capela de São Venceslau — as paredes são revestidas de jaspe e ametista, com afrescos do século XIV. É o coração espiritual da Boêmia
+- O Vitral de Alfons Mucha (1931) — o mestre do Art Nouveau criou este vitral com a vida de São Cirilo e São Metódio. As cores são hipnóticas
+- A nave principal — 124 metros de comprimento, abóbadas góticas que parecem flutuar
+- O túmulo de São João Nepomuceno — o santo da Ponte Carlos, sepultado em prata maciça
 
 Tempo sugerido: 40-50 minutos.
 
@@ -668,12 +604,9 @@ Sem esforço. Sem escadas. Sem fadiga. E vocês chegam ao ponto mais alto e mais
 
 Chegando com 20 minutos de folga, aproveitem para:
 
--
-Biblioteca Teológica (Theologický sál): 18 metros de altura, estantes em madeira escura entalhada, 22.000 volumes medievais, teto com afrescos que parecem abrir o céu. É uma das bibliotecas mais belas do mundo.
--
-Biblioteca Filosófica (Filosofický sál): ainda mais impressionante — 32 metros de comprimento, galeria em madeira, globos terrestres do século XVIII.
--
-Jardins do monastério: vista panorâmica sobre Praga — as torres, o Moldava, o Castelo lá embaixo.
+- Biblioteca Teológica (Theologický sál): 18 metros de altura, estantes em madeira escura entalhada, 22.000 volumes medievais, teto com afrescos que parecem abrir o céu. É uma das bibliotecas mais belas do mundo.
+- Biblioteca Filosófica (Filosofický sál): ainda mais impressionante — 32 metros de comprimento, galeria em madeira, globos terrestres do século XVIII.
+- Jardins do monastério: vista panorâmica sobre Praga — as torres, o Moldava, o Castelo lá embaixo.
 
 Ingresso da biblioteca: 150-200 CZK (cerca de R$ 37 a R$ 49).
 
@@ -737,12 +670,11 @@ Bonde ou táxi de volta a Vinohrady. As ruas do bairro estão silenciosas e segu
 
 Resumo do dia 8:
 
--
-Caminhada total aproximada: 5 km
--
-Tempo de caminhada: 1h15
--
-Nível: moderado (dia cheio, mas com ritmo respeitoso — os bondes fazem o trabalho pesado nas subidas, e o castelo teve tempo generoso)
+- Caminhada total aproximada: 5 km
+- Tempo de caminhada: 1h15
+- Nível: moderado (dia cheio, mas com ritmo respeitoso — os bondes fazem o trabalho pesado nas subidas, e o castelo teve tempo generoso)
+
+Foi o dia mais cheio da viagem, e vocês o atravessaram inteiro. Deitem a cabeça no travesseiro com o cheiro de Praga ainda nas roupas.
 
 Espaço reservado para as fotos e vídeos de DIA 8 — SÁBADO, 10 DE OUTUBRO DE 2026. As imagens entram aqui durante a viagem e seguem para o livro impresso.
 
@@ -805,12 +737,9 @@ Sem pressa. O dia de hoje é um respiro — depois da maratona de ontem, vocês 
 Bonde ou táxi. A manhã está livre até o embarque.
 
 Sugestões para preencher o tempo até o barco:
--
-Sentar-se num banco à beira do Moldava e ver o rio passar
--
-Caminhar pela Ponte Carlos pela manhã — a luz é dourada sobre as estátuas, e há menos gente
--
-Um café na varanda do Hotel U Prince (Staroměstské nám. 29) — vista da praça do alto
+- Sentar-se num banco à beira do Moldava e ver o rio passar
+- Caminhar pela Ponte Carlos pela manhã — a luz é dourada sobre as estátuas, e há menos gente
+- Um café na varanda do Hotel U Prince (Staroměstské nám. 29) — vista da praça do alto
 
 Hoje, em vez de explorar fortalezas, vocês vão flutuar. Nada de pressa, nada de multidão. Apenas o Moldava, o céu de outubro, e um barco só de vocês.
 
@@ -831,18 +760,13 @@ Chegada para check-in: 11h40
 Categoria: Exclusive (junto à janela) — 2 mesas lado a lado
 
 Incluído:
--
-Buffet (menu fixo)
--
-1 drink de boas-vindas por pessoa
--
-Música ao vivo
+- Buffet (menu fixo)
+- 1 drink de boas-vindas por pessoa
+- Música ao vivo
 
 Não incluído:
--
-Bebidas adicionais (pedidas na lista e pagas no bar a bordo)
--
-Não há pacote de bebidas e bebidas não podem ser pré-pagas
+- Bebidas adicionais (pedidas na lista e pagas no bar a bordo)
+- Não há pacote de bebidas e bebidas não podem ser pré-pagas
 
 Local de Embarque:
 Escritório: Prague Boats, Dvořákovo nábřeží, pier nº 3 B
@@ -856,10 +780,8 @@ Observações importantes:
 3. O check-in é feito pelo coordenador, em nome do grupo Create Travel.
 
 O que levar:
--
-Um casaco quente (o vento no rio em outubro pode ser frio)
--
-Máquina fotográfica — as vistas do nível da água são únicas
+- Um casaco quente (o vento no rio em outubro pode ser frio)
+- Máquina fotográfica — as vistas do nível da água são únicas
 
 ### 12:00 — LUNCH CRUISE EM BARCO COM LATERAIS DE VIDRO
 
@@ -872,16 +794,11 @@ Descrição: Duas horas na água, um buffet de almoço e música ao vivo ao fund
 Drink de boas-vindas ao embarcar, buffet de pratos quentes e frios, e tempo para comer com calma enquanto observa o rio. Esqueça o restaurante na margem — jante diretamente no Vltava.
 
 A bordo:
--
-Mesa com lugar completo — Lugar completo para cada convidado
--
-Convés superior aberto — Após o almoço, suba para as vistas e fotos
--
-Bar de bebidas — Ampla seleção de bebidas alcoólicas e não alcoólicas (custo extra)
--
-Acesso para cadeira de rodas — O convés principal é acessível a todos
--
-Wi-Fi gratuito em todo o barco
+- Mesa com lugar completo — Lugar completo para cada convidado
+- Convés superior aberto — Após o almoço, suba para as vistas e fotos
+- Bar de bebidas — Ampla seleção de bebidas alcoólicas e não alcoólicas (custo extra)
+- Acesso para cadeira de rodas — O convés principal é acessível a todos
+- Wi-Fi gratuito em todo o barco
 
 ### 14:00 — DESEMBARQUE E CAMINHADA AO BAIRRO JUDEU
 
@@ -912,16 +829,11 @@ O Antigo Cemitério Judeu
 Fundado no século XV, é um dos cemitérios judaicos mais antigos e mais impactantes do mundo.
 
 O que vocês verão:
--
-Cerca de 12.000 lápides — amontoadas, tortas, cobertas de musgo e líquens
--
-Estima-se que mais de 100.000 pessoas estejam enterradas aqui
--
-Como os judeus não podiam expandir o cemitério (estavam confinados ao gueto), os corpos eram enterrados em camadas — até 12 camadas de profundidade
--
-As lápides mais antigas foram sendo empurradas para cima e emergem tortas entre as mais novas
--
-Pequenas pedras sobre as lápides — a tradição judaica de deixar uma pedra em vez de flores
+- Cerca de 12.000 lápides — amontoadas, tortas, cobertas de musgo e líquens
+- Estima-se que mais de 100.000 pessoas estejam enterradas aqui
+- Como os judeus não podiam expandir o cemitério (estavam confinados ao gueto), os corpos eram enterrados em camadas — até 12 camadas de profundidade
+- As lápides mais antigas foram sendo empurradas para cima e emergem tortas entre as mais novas
+- Pequenas pedras sobre as lápides — a tradição judaica de deixar uma pedra em vez de flores
 
 A Sinagoga Espanhola
 
@@ -940,12 +852,9 @@ A tarde é livre para fazer o que quiserem — ou não fazer nada.
 Sugestões para compras e lembranças: se quiserem levar um pedaço de Praga na mala, as marionetes tchecas das lojas da Rua Karlova ou da Celetná custam entre CZK 300 e 3.000 (cerca de R$ 74 a R$ 740). O cristal da Boêmia, na Moser (Na Příkopě 12), vai de CZK 500 a mais de CZK 10.000 (cerca de R$ 123 a mais de R$ 2.460). As granadas tchecas, encontradas na Granát Turnov e em outras lojas, variam de CZK 1.000 a mais de CZK 20.000 (cerca de R$ 246 a mais de R$ 4.920). Para quem gosta de livros, há os títulos sobre Kafka na livraria da Rua do Ouro ou na Franz Kafka Bookshop, por CZK 200 a 500 (cerca de R$ 49 a R$ 123). As cervejas tchecas de supermercado ou lojas especializadas saem por CZK 20 a 50 (cerca de R$ 5 a R$ 12). E a Becherovka, o licor de ervas típico, encontra-se em qualquer supermercado ou loja duty-free por CZK 200 a 400 (cerca de R$ 49 a R$ 99).
 
 Sugestões para quem não quer compras:
--
-Museu Mucha (Panská 7): o mestre do Art Nouveau, criador dos cartazes de Sarah Bernhardt. CZK 350 (cerca de R$ 86)
--
-Simplesmente sentar-se num banco do Parque Kampa e ver o Moldava passar
--
-Um chá quente num café de Vinohrady
+- Museu Mucha (Panská 7): o mestre do Art Nouveau, criador dos cartazes de Sarah Bernhardt. CZK 350 (cerca de R$ 86)
+- Simplesmente sentar-se num banco do Parque Kampa e ver o Moldava passar
+- Um chá quente num café de Vinohrady
 
 ### 17:30 — RETORNO AO HOTEL PARA DESCANSO E TROCA
 
@@ -977,28 +886,18 @@ O ambiente:
 Uma taverna subterrânea de pedra, iluminada por tochas e velas. Longas mesas de madeira comunitárias. Arcos góticos. O som de alaúdes e tambores.
 
 O espetáculo:
--
-Trovadores cantam baladas medievais em tcheco antigo
--
-Dançarinas com vestidos de época giram ao som de flautas
--
-Espadachins duelam com lâminas reais (e faíscas voam)
--
-Malabaristas e artistas de fogo
--
-Música ao vivo — alaúde, flauta doce, tamborim, gaita de foles medieval
+- Trovadores cantam baladas medievais em tcheco antigo
+- Dançarinas com vestidos de época giram ao som de flautas
+- Espadachins duelam com lâminas reais (e faíscas voam)
+- Malabaristas e artistas de fogo
+- Música ao vivo — alaúde, flauta doce, tamborim, gaita de foles medieval
 
 O menu (5 pratos medievais tchecos):
--
-Sopa de batata com cogumelos (servida num pão redondo)
--
-Carnes grelhadas
--
-Aves assadas
--
-Acompanhamentos rústicos
--
-Sobremesa tcheca medieval
+- Sopa de batata com cogumelos (servida num pão redondo)
+- Carnes grelhadas
+- Aves assadas
+- Acompanhamentos rústicos
+- Sobremesa tcheca medieval
 
 As bebidas:
 Hidromel (a bebida dos deuses nórdicos e dos reis medievais), cerveja e vinho — tudo livre, fluindo durante toda a noite.
@@ -1017,12 +916,11 @@ Táxi ou Uber de volta a Vinohrady. A noite de Praga está fria, as ruas ilumina
 
 Resumo do dia 9:
 
--
-Caminhada total aproximada: 3,5 km
--
-Tempo de caminhada: 45 min
--
-Nível: leve (o barco faz o trabalho, o Bairro Judeu é plano, só o deslocamento para o jantar medieval exige um pouco mais)
+- Caminhada total aproximada: 3,5 km
+- Tempo de caminhada: 45 min
+- Nível: leve (o barco faz o trabalho, o Bairro Judeu é plano, só o deslocamento para o jantar medieval exige um pouco mais)
+
+Um dia de respiro, do jeito que deveria ser. Boa noite — amanhã Praga se despede devagar.
 
 Espaço reservado para as fotos e vídeos de DIA 9 — DOMINGO, 11 DE OUTUBRO DE 2026. As imagens entram aqui durante a viagem e seguem para o livro impresso.
 
@@ -1080,16 +978,11 @@ O hotel guarda as malas na recepção sem custo. Vocês ainda têm a manhã livr
 
 Últimas horas em Praga. Sugestões para uma despedida memorável:
 
--
-Último passeio pela Ponte Carlos — pela manhã, a luz é dourada sobre as estátuas, e há menos gente
--
-Café da manhã tardio no Café Louvre — o mesmo onde Kafka e Einstein sentavam
--
-Uma última visita rápida à Praça da Cidade Velha — para ver o Relógio Astronômico bater 10:00 ou 11:00 pela última vez
--
-Compras de última hora nas lojas do centro
--
-Simplesmente sentar-se num banco à beira do Moldava e despedir-se da cidade em silêncio
+- Último passeio pela Ponte Carlos — pela manhã, a luz é dourada sobre as estátuas, e há menos gente
+- Café da manhã tardio no Café Louvre — o mesmo onde Kafka e Einstein sentavam
+- Uma última visita rápida à Praça da Cidade Velha — para ver o Relógio Astronômico bater 10:00 ou 11:00 pela última vez
+- Compras de última hora nas lojas do centro
+- Simplesmente sentar-se num banco à beira do Moldava e despedir-se da cidade em silêncio
 
 ### 11:30 — RETORNO AO HOTEL, RETIRADA DAS MALAS
 
@@ -1121,12 +1014,11 @@ A mesma fé. O mesmo céu. A mesma busca.
 
 Resumo do dia 10:
 
--
-Caminhada total aproximada: 2 km
--
-Tempo de caminhada: 25 min
--
-Nível: muito leve
+- Caminhada total aproximada: 2 km
+- Tempo de caminhada: 25 min
+- Nível: muito leve
+
+Última noite na Boêmia. Guardem esta cidade como se guarda uma carta antiga: sem pressa de reler.
 
 Espaço reservado para as fotos e vídeos de DIA 10 — SEGUNDA-FEIRA, 12 DE OUTUBRO DE 2026. As imagens entram aqui durante a viagem e seguem para o livro impresso.
 

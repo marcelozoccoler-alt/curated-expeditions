@@ -161,7 +161,7 @@ Istambul é a cidade dos gatos. Centenas de milhares deles perambulam livremente
 
 ### 5. MIMAR SINAN, O MIGUEL ÂNGELO OTOMANO
 
-Mimar Sinan (1489–1588) foi o arquiteto-chefe de três sultões: Solimão, o Magnífico, Selim II e Murad III. Nascido cristão numa aldeia da Anatólia, foi recrutado pelo sistema devşirme, converteu-se ao Islã e tornou-se o maior arquiteto do mundo otomano. Projetou 477 edifícios: 151 mesquitas, 57 escolas, 52 casas de banho, 17 hospitais, 7 pontes. Sua obra-prima: a Mesquita de Süleymaniye.
+De Mimar Sinan, que vocês já conheceram, conta-se que serviu a três sultões — Solimão, Selim II e Murad III — e que, aos noventa e nove anos, ainda visitava obras. Dizem que escolheu para si um túmulo modesto, encostado no muro da Süleymaniye, para continuar ouvindo as orações da sua obra-prima.
 
 ### 6. A TULIPA — FLOR SAGRADA
 
@@ -333,6 +333,8 @@ Resumo do dia 10 (parte Istambul):
 - Tempo de caminhada: 15 min
 - Nível: muito leve
 
+Durmam com o som dos navios lá fora: amanhã vocês acordam entre dois continentes.
+
 Espaço reservado para as fotos e vídeos de DIA 10 (CONTINUAÇÃO) — SEGUNDA-FEIRA, 12 DE OUTUBRO DE 2026. As imagens entram aqui durante a viagem e seguem para o livro impresso.
 
 ---
@@ -415,7 +417,7 @@ A apenas 300 metros da Mesquita Azul, atravessando a praça ajardinada, está a 
 
 A história que vocês pisam:
 
-Em 532 d.C., um motim popular (a Revolta de Nika) destruiu a catedral anterior. O imperador Justiniano, em vez de se acovardar, decidiu construir algo que o mundo jamais vira. Contratou os matemáticos Antêmio de Trales e Isidoro de Mileto. Em apenas 5 anos, 10 meses e 4 dias, 10.000 trabalhadores ergueram a maior catedral da cristandade.
+Em 532 depois de Cristo, um motim popular — a Revolta de Nika — destruiu a catedral que existia aqui. O imperador Justiniano, em vez de se acovardar, decidiu construir algo que o mundo jamais tinha visto. Chamou dois matemáticos: Antêmio de Trales e Isidoro de Mileto. Dez mil trabalhadores ergueram a maior catedral da cristandade em cinco anos, dez meses e quatro dias.
 
 Quando Justiniano entrou pela primeira vez no dia da consagração — 27 de dezembro de 537 —, caiu de joelhos e murmurou: "Salomão, eu te superei."
 
@@ -500,6 +502,8 @@ Resumo do dia 11:
 - Caminhada total aproximada: 4 km
 - Tempo de caminhada: 50 min
 - Nível: leve (tudo plano, atrações próximas umas das outras)
+
+Foi um dia de cúpulas e de silêncios. Boa noite — que ele volte em sonho, sem pressa.
 
 Espaço reservado para as fotos e vídeos de DIA 11 — TERÇA-FEIRA, 13 DE OUTUBRO DE 2026. As imagens entram aqui durante a viagem e seguem para o livro impresso.
 
@@ -696,6 +700,8 @@ Resumo do dia 12:
 - Tempo de caminhada: 40 min
 - Nível: leve a moderado (os táxis fazem o trabalho pesado nas subidas)
 
+Voltam tarde, com o Bósforo iluminado ainda nos olhos. Durmam bem: amanhã é despedida.
+
 Espaço reservado para as fotos e vídeos de DIA 12 — QUARTA-FEIRA, 14 DE OUTUBRO DE 2026. As imagens entram aqui durante a viagem e seguem para o livro impresso.
 
 ---
@@ -788,6 +794,8 @@ Resumo do dia 13:
 - Caminhada total aproximada: 2 km
 - Tempo de caminhada: 30 min
 - Nível: muito leve
+
+A viagem termina, mas Istambul tem esse hábito antigo de ir com quem parte.
 
 Espaço reservado para as fotos e vídeos de DIA 13 — QUINTA-FEIRA, 15 DE OUTUBRO DE 2026. As imagens entram aqui durante a viagem e seguem para o livro impresso.
 
