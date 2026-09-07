@@ -115,6 +115,12 @@ const Index = () => {
         </motion.div>
       </section>
 
+      {/* Números e confiança */}
+      <TrustBadges
+        destinationsCount={destinations.length}
+        departuresCount={DEPARTURES.length}
+      />
+
       {/* Spotlight: Egito Eterno · Abril 2027 */}
       <section className="section-padding bg-background">
         <div className="container-editorial">
