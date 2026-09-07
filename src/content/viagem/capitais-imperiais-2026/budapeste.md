@@ -334,15 +334,11 @@ Data: Sábado, 3 de outubro de 2026
 
 Horário: 19:00h
 
-Pessoas: 12 adultos
-
-Status: Totalmente pago
+Status: Confirmado
 
 Ponto de encontro: Akadémia, 2º pontão, navio Gróf Széchenyi, lado Peste, Budapeste.
 
 Navio Gróf Széchenyi, pontão Akadémia 2. A experiência completa a bordo dura 2h30, das 19:00 às 21:30. Música folclórica húngara ao vivo. Jantar completo incluso.
-
-Valor: incluso no pacote.
 
 O que está incluso:
 

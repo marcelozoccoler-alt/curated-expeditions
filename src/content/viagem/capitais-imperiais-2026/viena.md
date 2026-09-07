@@ -164,7 +164,7 @@ Por que este hotel funciona para vocês:
 - Metrô na porta: estação Gumpendorfer Straße (U6) e Westbahnhof (U3/U6) a poucos passos
 - Bom custo-benefício: preço justo para os padrões vienenses
 
-Acessibilidade para terceira idade:
+Acessibilidade e conforto:
 
 - Elevadores em todos os andares
 - Quartos adaptados disponíveis (solicitar na reserva)
@@ -173,7 +173,7 @@ Acessibilidade para terceira idade:
 
 ---
 
-## LOGÍSTICA PARA TERCEIRA IDADE EM VIENA
+## LOGÍSTICA E CONFORTO EM VIENA
 
 ### TRANSPORTE
 
@@ -287,7 +287,7 @@ História que emociona: Em 12 de abril de 1945, um incêndio devastou o telhado 
 Informações práticas:
 
 - Entrada na nave principal: gratuita
-- Subida à torre sul (343 degraus): €6,50 — difícil para terceira idade, não recomendada
+- Subida à torre sul (343 degraus): €6,50 — escada longa e íngreme, não recomendada para quem prefere evitar esforço
 - Catacumbas: €6,50 — com guia, duram 30 minutos, fascinantes mas com escadas
 - Site oficial: stephanskirche.at
 
