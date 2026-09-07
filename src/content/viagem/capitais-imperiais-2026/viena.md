@@ -807,7 +807,7 @@ Para quem quer uma última obra-prima antes de partir.
 
 O Palácio Belvedere: [Hotel → Belvedere](https://www.google.com/maps/dir/ibis+Wien+Mariahilf,+Mariahilfer+G%C3%BCrtel+22-24,+1060+Wien/Belvedere,+Prinz-Eugen-Stra%C3%9Fe+27,+1030+Wien)
 
-O Belvedere é na verdade dois palácios — o Belvedere Superior (Oberes Belvedere) e o Belvedere Inferior (Unteres Belvedere) — conectados por um jardim barroco deslumbrante. Construído entre 1714 e 1723 para o Príncipe Eugênio de Saboia, o herói militar que derrotou os otomanos. O trajeto do hotel leva cerca de 15 minutos de metrô ou táxi.
+O Belvedere é na verdade dois palácios — o Belvedere Superior (Oberes Belvedere) e o Belvedere Inferior (Unteres Belvedere) — conectados por um jardim barroco deslumbrante. Construído entre 1714 e 1723 para o Príncipe Eugênio de Saboia, o herói militar que derrotou os otomanos. Do hotel são cerca de 15 a 20 minutos: U6 até Längenfeldgasse, U4 até Karlsplatz e bonde D até a parada Schloss Belvedere — ou, mais simples, táxi direto (cerca de €12 / R$ 72).
 
 Por que vir aqui: O Belvedere Superior abriga a maior coleção de Gustav Klimt do mundo. E no centro dela, a obra mais icônica da arte austríaca: "O Beijo" (Der Kuss).
 
@@ -842,7 +842,7 @@ Check-out formal ao meio-dia, com as malas guardadas com o staff enquanto vocês
 
 [Hotel → Wien Hauptbahnhof](https://www.google.com/maps/dir/ibis+Wien+Mariahilf,+Mariahilfer+G%C3%BCrtel+22-24,+1060+Wien/Wien+Hauptbahnhof,+Gertrude-Fr%C3%B6hlich-Sandner-Stra%C3%9Fe+3,+1100+Wien)
 
-Táxi ou metrô (U6 + U1, 15 minutos). Cheguem com pelo menos 45 minutos de antecedência — vocês têm mais de uma hora de folga antes da partida.
+Táxi (cerca de €12 / R$ 72) ou o Bonde 18, que sai de Westbahnhof e chega direto à Wien Hauptbahnhof em 15 a 18 minutos, sem baldeação. Cheguem com pelo menos 45 minutos de antecedência — vocês têm mais de uma hora de folga antes da partida.
 
 ### 15:10 — O TREM RJX 56 PARA PRAGA
 

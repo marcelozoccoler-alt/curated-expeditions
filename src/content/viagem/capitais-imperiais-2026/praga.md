@@ -213,10 +213,10 @@ Café da manhã incluso
 ●
 Wi-Fi gratuito
 ●
-Silencioso, longe do burburinho, mas a 12 minutos de bonde do centro
+Silencioso, longe do burburinho, mas a cerca de 15 minutos do centro, entre caminhada curta e bonde
 
 Conexão com o centro:
-Os bondes 22 e 23 passam na porta do hotel (ou a 3 minutos a pé). Em 12 minutos, vocês estão na Praça da Cidade Velha. A mesma linha sobe até o Castelo e Strahov.
+A Slezská não tem trilhos: a parada de bonde mais próxima é Náměstí Míru (ou Vinohradská), a 5 a 8 minutos a pé. De lá, o Bonde 22 leva vocês ao centro em cerca de 12 minutos — e a mesma linha sobe até o Castelo e Strahov.
 
 Acessibilidade e conforto:
 ●
@@ -235,7 +235,7 @@ Bondes com piso baixo e acesso facilitado
 ### TRANSPORTE
 
 ●
-Bonde (Tram): o meio de transporte ideal em Praga. Os bondes 22 e 23 são seus melhores amigos — conectam Vinohrady ao centro, passam por Malá Strana e sobem até o Castelo e Strahov sem esforço nenhum
+Bonde (Tram): o meio de transporte ideal em Praga. O Bonde 22 é o melhor amigo do grupo — liga Vinohrady ao centro, passa por Malá Strana e sobe até o Castelo e Strahov sem esforço nenhum. O número 23 é a linha nostálgica, com carros históricos: aceita o mesmo bilhete, mas passa com menos frequência — use como bônus, nunca como plano
 ●
 Metrô: três linhas (A, B, C), eficiente mas com escadas em algumas estações (verificar elevadores)
 ●
@@ -388,7 +388,7 @@ Temperatura: 6°C a 14°C
 Pôr do sol: 18:23
 
 
-Transporte especial: Bonde 22 ou 23
+Transporte especial: Bonde 22 (e, com sorte, a linha nostálgica 23)
 
 ### LINHA DO TEMPO
 
@@ -444,7 +444,7 @@ O café da manhã do Fleur De Lis é um destaque: pães tchecos frescos, frios, 
 
 [Hotel → Praça da Cidade Velha](https://www.google.com/maps/dir/Fleur+De+Lis+Hotel,+Slezska+832,+130+00+Praha+3/Starom%C4%9Bstsk%C3%A9+n%C3%A1m%C4%9Bst%C3%AD,+110+00+Praha+1)
 
-Bonde 22 ou 23 a partir da parada Vinohradská (3 minutos do hotel). Doze minutos depois, vocês descem na Staroměstská. O centro histórico de Praga — declarado Patrimônio da Humanidade pela UNESCO em 1992 — se abre diante de vocês.
+Bonde 22 a partir da parada Náměstí Míru ou Vinohradská (5 a 8 minutos a pé do hotel). Doze minutos depois, vocês descem na Staroměstská. O centro histórico de Praga — declarado Patrimônio da Humanidade pela UNESCO em 1992 — se abre diante de vocês.
 
 A pé, são 5 minutos até a praça. E então...
 
@@ -663,7 +663,7 @@ Sem esforço. Sem escadas. Sem fadiga. E vocês chegam ao ponto mais alto e mais
 
 ### 16:40 — MONASTÉRIO DE STRAHOV — BIBLIOTECA E JARDINS
 
-[Ver no Google Maps](https://www.google.com/maps/place/Strahov+Monastery,+Strašovská+1/137,+118+00+Praha+1)
+[Ver no Google Maps](https://www.google.com/maps/place/Strahov+Monastery,+Strahovsk%C3%A9+n%C3%A1dvo%C5%99%C3%AD+132/1,+118+00+Praha+1)
 
 Chegando com 20 minutos de folga, aproveitem para:
 
@@ -690,7 +690,7 @@ Duração: aproximadamente 30 minutos (até ~17:30).
 
 ### 17:35 — O PARQUE PETŘÍN E O PÔR DO SOL
 
-[Strahov → Parque Petřín](https://www.google.com/maps/dir/Strahov+Monastery,+Strašovská+1/137,+118+00+Praha+1/Petřínské+sady,+118+00+Praha+1)
+[Strahov → Parque Petřín](https://www.google.com/maps/dir/Strahov+Monastery,+Strahovsk%C3%A9+n%C3%A1dvo%C5%99%C3%AD+132/1,+118+00+Praha+1/Petřínské+sady,+118+00+Praha+1)
 
 A apenas 300 metros do monastério, o Parque Petřín se estende sobre a colina mais verde de Praga. É o lugar perfeito para assistir ao pôr do sol.
 
@@ -702,7 +702,7 @@ Momento de silêncio. Depois de um dia intenso e cheio, apenas estar aqui, senti
 
 [Petřín → Centro](https://www.google.com/maps/dir/Petřínské+sady,+118+00+Praha+1/Starom%C4%9Bstsk%C3%A9+n%C3%A1m%C4%9Bst%C3%AD,+110+00+Praha+1)
 
-Caminhem 5 minutos até a parada Újezd e peguem o Bonde 22 ou 23 descendo até o centro. Em 8 minutos, vocês estão de volta à Malostranské náměstí ou Národní třída.
+Caminhem 5 minutos até a parada Újezd e peguem o Bonde 22 descendo até o centro. Em 8 minutos, vocês estão de volta à Malostranské náměstí ou Národní třída.
 
 ### 19:15 — JANTAR
 
