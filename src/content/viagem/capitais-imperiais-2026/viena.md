@@ -776,9 +776,12 @@ Roteiro de compras a pé:
 
 Para quem quer uma última obra-prima antes de partir.
 
-O Palácio Belvedere: [Hotel → Belvedere](https://www.google.com/maps/dir/ibis+Wien+Mariahilf,+Mariahilfer+G%C3%BCrtel+22-24,+1060+Wien/Belvedere,+Prinz-Eugen-Stra%C3%9Fe+27,+1030+Wien)
+O Palácio Belvedere: [Hotel → Belvedere](https://www.google.com/maps/dir/?api=1&origin=ibis%20Wien%20Mariahilf%2C%20Mariahilfer%20G%C3%BCrtel%2022-24%2C%201060%20Wien&destination=Oberes%20Belvedere%2C%20Prinz-Eugen-Stra%C3%9Fe%2027%2C%201030%20Wien)
 
-O Belvedere é na verdade dois palácios — o Belvedere Superior (Oberes Belvedere) e o Belvedere Inferior (Unteres Belvedere) — conectados por um jardim barroco deslumbrante. Construído entre 1714 e 1723 para o Príncipe Eugênio de Saboia, o herói militar que derrotou os otomanos. Do hotel são cerca de 15 a 20 minutos: U6 até Längenfeldgasse, U4 até Karlsplatz e bonde D até a parada Schloss Belvedere — ou, mais simples, táxi direto (cerca de €12 / R$ 72).
+O Belvedere é na verdade dois palácios — o Belvedere Superior (Oberes Belvedere) e o Belvedere Inferior (Unteres Belvedere) — conectados por um jardim barroco deslumbrante. Construído entre 1714 e 1723 para o Príncipe Eugênio de Saboia, o herói militar que derrotou os otomanos.
+
+Como chegar, do mais simples ao mais barato: táxi direto do hotel, 10 minutos (cerca de €12 / R$ 72); ou o Bonde 18 em Westbahnhof, a 5 minutos a pé do hotel, até Quartier Belvedere ([ver no mapa](https://www.google.com/maps/search/?api=1&query=Quartier%20Belvedere%2C%201100%20Wien)) e 6 minutos de caminhada subindo até o portão do Belvedere Superior — cerca de 25 minutos no total; ou, pelo metrô, U6 de Gumpendorfer Straße até Längenfeldgasse, U4 até Karlsplatz e o bonde D até a parada Schloss Belvedere, uns 20 a 25 minutos com duas baldeações.
+
 
 Por que vir aqui: O Belvedere Superior abriga a maior coleção de Gustav Klimt do mundo. E no centro dela, a obra mais icônica da arte austríaca: "O Beijo" (Der Kuss).
 
