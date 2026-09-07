@@ -771,9 +771,9 @@ Check-out formal ao meio-dia. As malas ficam guardadas na recepção enquanto vo
 
 Sugestão: Fiyort Karaköy — [Ver no Google Maps](https://www.google.com/maps/search/?api=1&query=Fiyort+Karaköy)
 
-Cozinha turca contemporânea com vista para o Bósforo. Peixes frescos, mezes modernos, ambiente elegante. Preço: €15–25 por pessoa.
+Cozinha turca contemporânea com vista para o Bósforo. Peixes frescos, mezes modernos, ambiente elegante. Preço: €15–25 por pessoa (cerca de R$ 90–150).
 
-Alternativa: Güney (Galata Kulesi Sok. 8) — restaurante familiar aos pés da Torre de Galata. €8–14.
+Alternativa: Güney (Galata Kulesi Sok. 8) — restaurante familiar aos pés da Torre de Galata. €8–14 (cerca de R$ 48–84).
 
 ### 14:30 — RETORNO AO HOTEL, RETIRADA DAS MALAS
 
