@@ -1138,7 +1138,7 @@ Terminal 1 — check-in, controle de passaporte (voo não-Schengen), segurança 
 
 O avião da Turkish Airlines sobe sobre a Boêmia. Lá embaixo, o Moldava brilha como uma fita de prata. A Ponte Carlos é um traço fino sobre o rio. As torres góticas recortam o horizonte. O castelo domina a colina. E, no alto de Petřín, o monastério de Strahov continuará guardando seu segredo — como guarda há 883 anos.
 
-Vocês estão deixando a Europa Central. E agora, Istambul. A cidade onde a Europa termina e a Ásia começa. Onde os minaretes substituem as torres góticas, onde o chamado à oração (ezan) substitui o canto gregoriano.
+Vocês estão deixando a Europa Central. E agora, Istambul. A cidade onde a Europa termina e a Ásia começa. Onde os minaretes substituem as torres góticas, onde o chamado à oração (ezan) substitui os sinos.
 
 A mesma fé. O mesmo céu. A mesma busca.
 
