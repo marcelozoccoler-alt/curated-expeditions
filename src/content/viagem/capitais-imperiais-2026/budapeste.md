@@ -324,17 +324,11 @@ Entrada gratuita. Aberto 24 horas.
 
 ### 19:00 — O CRUZEIRO
 
-Confirmação de Reserva — Civitatis
-
-Reserva / ID: A38939306
-
-Atividade: Cruzeiro com jantar e música ao vivo
+Cruzeiro com jantar e música ao vivo, já reservado para o grupo.
 
 Data: Sábado, 3 de outubro de 2026
 
 Horário: 19:00h
-
-Status: Confirmado
 
 Ponto de encontro: Akadémia, 2º pontão, navio Gróf Széchenyi, lado Peste, Budapeste.
 

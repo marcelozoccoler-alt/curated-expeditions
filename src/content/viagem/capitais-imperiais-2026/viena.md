@@ -325,9 +325,9 @@ Informações práticas:
 - Entrada: gratuita
 - Site oficial: peterskirche.at
 
-### 19:00 — UM SEGREDO BEM GUARDADO
+### 19:00 — REGRESSO À PETERSKIRCHE
 
-A Peterskirche guarda um dos segredos mais bem guardados de Viena — algo que acontece aqui todos os dias, pontualmente às 19h. Preferimos não revelar. Basta voltar alguns minutos antes, sentar-se nos bancos de madeira e deixar acontecer. Não é necessário ingresso, não é necessário reservar.
+Antes do jantar, voltamos à Peterskirche. A igreja recebe os visitantes também neste horário, todos os dias, e vale entrar de novo: à noite, o interior barroco fica ainda mais bonito, apenas com a iluminação baixa e o silêncio da nave. Não é necessário ingresso.
 
 ### 19:45 — JANTAR VIENENSE NO FIGLMÜLLER
 
@@ -654,11 +654,7 @@ O Palácio de Schönbrunn fica a apenas 5 minutos de táxi do hotel ibis Wien Ma
 
 Schönbrunn é a "Versalhes de Viena". Residência de verão dos Habsburgos, o palácio tem 1.441 cômodos e jardins de 160 hectares. É Patrimônio da Humanidade pela UNESCO desde 1996.
 
-Confirmação de Reserva — Palácio de Schönbrunn
-
-Reserva: 37879494
-
-Visita: quinta-feira, 08/10/2026
+Visita: quinta-feira, 08/10/2026, já reservada para o grupo.
 
 Horário: 12:30 (última entrada para o Classic Pass)
 
@@ -666,13 +662,9 @@ Ingresso: Classic Pass
 
 O que o Classic Pass inclui:
 ...
-- Válido para 1 acesso a cada atração, apenas na data da reserva
+- Válido para 1 acesso a cada atração, apenas na data da visita
 
-Retirada dos ingressos: No balcão de reservas (Group Center), localizado à direita da saída da estação U4 Schönbrunn, até 15 minutos antes da visita (12:15). Apresentar cópia desta confirmação. Reservas não retiradas no prazo são canceladas.
-
-Cancelamento: Gratuito até 7 dias antes da visita (01/10/2026). Cancelamentos posteriores ou ingressos não retirados geram taxa de cancelamento.
-
-Fornecedor: Schloss Schönbrunn, Schönbrunner Schloßstraße 47, 1130 Wien. Tel: +43 1 811 13 239. E-mail: reservierung@schoenbrunn-group.com
+Retirada dos ingressos: no balcão de grupos (Group Center), localizado à direita da saída da estação U4 Schönbrunn, até 15 minutos antes da visita (12:15). O coordenador cuida dos vouchers do grupo.
 
 O que vocês explorarão:
 

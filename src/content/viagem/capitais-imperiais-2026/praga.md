@@ -817,11 +817,7 @@ Hoje, em vez de explorar fortalezas, vocês vão flutuar. Nada de pressa, nada d
 
 O cais fica próximo à Čech Bridge ou ao Dvořákovo nábřeží, dependendo da empresa escolhida.
 
-Confirmação de Reserva — Prague Boats — Lunch Cruise
-
-Reserva em nome de: Create Travel Brazil
-
-Nº do Pedido: O-2118849
+Cruzeiro com almoço, já reservado para o grupo.
 
 Data do cruzeiro: 11 de outubro de 2026 (domingo)
 
