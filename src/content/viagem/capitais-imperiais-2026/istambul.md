@@ -572,7 +572,7 @@ O terraço do Galata Times ainda está em silêncio quando vocês descem para o 
 
 A Mesquita de Chora fica longe de tudo — escondida nas muralhas antigas, no alto de uma colina onde o transporte público não chega com facilidade. Para o grupo, a escolha sensata é pedir táxis na recepção.
 
-Tempo: 15 a 25 min. Custo: 200 a 300 TRY por carro.
+Tempo: 15 a 25 min. Custo: 200 a 300 TRY por carro (cerca de R$ 22–33).
 
 O carro sobe por ruas cada vez mais estreitas, deixa para trás o barulho de Beyoğlu, e de repente vocês estão em Edirnekapı — um bairro residencial, silencioso, onde quase não há turistas. A mesquita aparece na esquina, discreta, quase tímida. Não anuncia sua grandeza por fora. É preciso entrar para entender.
 
