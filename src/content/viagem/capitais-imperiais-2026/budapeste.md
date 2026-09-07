@@ -58,7 +58,7 @@ Budapeste tem nove pontes que cruzam o Danúbio. Cada uma é uma história. Cada
 
 A mais antiga, a mais icônica, a mais amada.
 
-A história começa com uma tragédia pessoal. Em dezembro de 1820, o conde István Széchenyi, um dos aristocratas mais ricos e influentes da Hungria, recebeu a notícia de que seu pai havia morrido em Viena. Mas o inverno havia congelado o Danúbio, as balsas não podiam atravessar, e Széchenyi ficou preso na margem de Peste por uma semana inteira, sem poder ir ao funeral.
+A história começa com uma tragédia pessoal. Em dezembro de 1820, o conde István Széchenyi (pronuncia-se algo como "Sétchêni"), um dos aristocratas mais ricos e influentes da Hungria, recebeu a notícia de que seu pai havia morrido em Viena. Mas o inverno havia congelado o Danúbio, as balsas não podiam atravessar, e Széchenyi ficou preso na margem de Peste por uma semana inteira, sem poder ir ao funeral.
 
 Naquele momento, ele fez um juramento: construiria uma ponte permanente sobre o Danúbio. Custasse o que custasse.
 
@@ -152,9 +152,9 @@ Sándor Petőfi (1823–1849) — O poeta da revolução. Recitou o Nemzeti Dal,
 
 ### DADOS DO DIA
 
-Voo TK 216: 02/10 GRU 16:35 para 03/10 IST 11:15, Airbus A350-900, 12h40 de voo.
+O voo da Turkish Airlines número duzentos e dezesseis (TK 216) sai de GRU às 16:35 de 2 de outubro e chega a IST às 11:15 de 3 de outubro, num Airbus A350-900, com 12h40 de voo.
 
-Voo TK 1033: 03/10 IST 12:20 para 03/10 BUD 13:15, Airbus A321, 1h55 de voo.
+O voo da Turkish Airlines número mil e trinta e três (TK 1033) sai de IST às 12:20 e chega a BUD às 13:15, ambos em 3 de outubro, num Airbus A321, com 1h55 de voo.
 
 Conexão em Istambul: 1h05. Apertada, mas protegida pela Turkish Airlines no mesmo bilhete. Ao desembarcar, sigam direto ao portão da conexão, sem paradas.
 
@@ -263,25 +263,15 @@ Ao longo do caminho, à direita, vocês avistarão a Ponte das Correntes. Ela es
 
 O Országház, a Casa da Nação, é o maior edifício da Hungria e o terceiro maior parlamento do mundo. Construído entre 1885 e 1904 em estilo neogótico, por Imre Steindl — que morreu em 1902, dois anos antes da inauguração, sem ver sua obra-prima concluída. Steindl trabalhou no projeto por 19 anos, e a cegueira o atingiu antes do fim. Diz-se que, nos últimos meses, caminhava pelas margens do Danúbio, tateando as paredes do edifício que não podia mais ver.
 
-Números impressionantes:
-
-268 metros de comprimento.
-
-691 salas internas.
-
-242 esculturas na fachada.
-
-40 kg de ouro puro nos detalhes decorativos.
-
-96 metros de altura na cúpula central, o número sagrado.
+Os números impressionam: são 268 metros de comprimento, 691 salas internas e 242 esculturas na fachada, com 40 kg de ouro puro espalhados pelos detalhes decorativos. A cúpula central tem 96 metros de altura — o número sagrado, mais uma vez.
 
 Site oficial e ingressos: jegymester.hu/parlament
 
 Valor atualizado (2026):
 
-Cidadãos não europeus: 14.000 HUF (cerca de 35 euros / R$ 230).
+Cidadãos não europeus: 14.000 HUF, cerca de R$ 230.
 
-Cidadãos da União Europeia: 7.000 HUF (cerca de 18 euros / R$ 115).
+Cidadãos da União Europeia: 7.000 HUF, cerca de R$ 115.
 
 Visita guiada de 45 minutos em vários idiomas.
 
@@ -369,6 +359,8 @@ Tempo de caminhada: 1 hora.
 
 Nível: leve, todo plano.
 
+Durmam bem — amanhã Buda os espera, com igrejas, castelo e um pôr do sol inesquecível.
+
 ## DIA 2 — DOMINGO, 4 DE OUTUBRO DE 2026
 
 ### O DIA DAS DUAS IGREJAS — DA BASÍLICA AO ALTO DE BUDA
@@ -437,11 +429,11 @@ Site oficial: szentistvanbazilika.hu
 
 Valores atualizados (2026):
 
-Entrada na nave principal: 2.600 HUF (7 euros / R$ 43).
+Entrada na nave principal: 2.600 HUF, cerca de R$ 43.
 
-Panorâmica do terraço e tesouro: 5.000 HUF (13 euros / R$ 82).
+Panorâmica do terraço e tesouro: 5.000 HUF, cerca de R$ 82.
 
-Combo completo: 6.800 HUF (18 euros / R$ 112).
+Combo completo: 6.800 HUF, cerca de R$ 112.
 
 
 A Mão Direita de Santo Estevão: no interior, em uma capela dourada atrás do altar-mor, está a relíquia mais sagrada da Hungria: a mão mumificada do primeiro rei húngaro, coroado no ano 1000. Santo Estevão (975–1038) foi o homem que transformou tribos nômades em uma nação cristã. A mão tem mais de mil anos. Diz a lenda que, se desaparecer, a Hungria cairá.
@@ -490,9 +482,9 @@ Mirante em forma de fortaleza medieval, construído entre 1895 e 1902 por Frigye
 
 Nível inferior: gratuito.
 
-Nível superior, torres: 1.700 HUF (4,50 euros / R$ 28).
+Nível superior, torres: 1.700 HUF, cerca de R$ 28.
 
-Desconto para maiores de 65 anos: 50%, 850 HUF (2,25 euros / R$ 14).
+Desconto para maiores de 65 anos: 50%, 850 HUF, cerca de R$ 14.
 
 [Ver no Google Maps](https://www.google.com/maps/search/?api=1&query=Fisherman%27s%20Bastion%2C%20Budapest)
 
@@ -514,9 +506,9 @@ Site oficial: matyas-templom.hu
 
 Valores atualizados (2026):
 
-Entrada para visita turística: 3.400 HUF (9 euros / R$ 56).
+Entrada para visita turística: 3.400 HUF, cerca de R$ 56.
 
-Com audioguia: 5.000 HUF (13 euros / R$ 82).
+Com audioguia: 5.000 HUF, cerca de R$ 82.
 
 
 [Ver no Google Maps](https://www.google.com/maps/search/?api=1&query=Matthias%20Church%2C%20Budapest)
@@ -535,7 +527,7 @@ Ruszwurm Cukrászda (Szentháromság utca 7): a confeitaria mais antiga de Budap
 
 [Bastião ao hotel](https://www.google.com/maps/dir/Hal%C3%A1szb%C3%A1stya,+Szenth%C3%A1roms%C3%A1g+t%C3%A9re,+1014+Budapest/Medos+Hotel,+J%C3%B3kai+t%C3%A9r+9,+1061)
 
-Táxi ou Bolt: 10 minutos, cerca de 4.000 HUF (10 euros / R$ 66).
+Táxi ou Bolt: 10 minutos, cerca de 4.000 HUF, cerca de R$ 66.
 
 Resumo do dia 2:
 
@@ -544,6 +536,8 @@ Caminhada total aproximada: 4,5 km.
 Tempo de caminhada: 1h15.
 
 Nível: moderado, subida leve em Buda compensada pelo ônibus 16.
+
+Descansem bem essa noite. Amanhã é o dia das sete maravilhas.
 
 ## DIA 3 — SEGUNDA-FEIRA, 5 DE OUTUBRO DE 2026
 
@@ -649,7 +643,7 @@ A lição silenciosa: em Budapeste, a história não está nos livros. Está nas
 
 ### 11:30 — CAMINHADA PELO BAIRRO JUDEU
 
-O Erzsébetváros, Distrito VII, é hoje o bairro mais vibrante de Budapeste. Ruas estreitas, fachadas coloridas, grafites, cafés alternativos. Foi aqui que nasceu o conceito de romkocsma — os famosos bares em ruínas.
+O Erzsébetváros (pronuncia-se "Érjêbetvárosh"), Distrito VII, é hoje o bairro mais vibrante de Budapeste. Ruas estreitas, fachadas coloridas, grafites, cafés alternativos. Foi aqui que nasceu o conceito de romkocsma — os famosos bares em ruínas.
 
 Personagem: o bairro era onde vivia Theodor Herzl (1860–1904), o jornalista húngaro-judeu que fundou o sionismo político. Nascido em Peste, foi correspondente em Paris e testemunhou o Caso Dreyfus. A injustiça contra Alfred Dreyfus, um oficial judeu francês condenado por traição, o convenceu de que os judeus nunca estariam seguros na Europa. Em 1896, publicou Der Judenstaat, O Estado Judeu. Em 1897, organizou o Primeiro Congresso Sionista na Basileia. Morreu aos 44 anos, sem ver Israel nascer. Mas sua visão mudou o mundo.
 
@@ -661,11 +655,11 @@ Bairro Judeu ao Mercado Central.
 
 Metrô: estação Astoria, linha M2, até Deák Ferenc tér, transferência para a linha M4 ou bonde 47/49 até Fővám tér. Cerca de 15 minutos.
 
-Valor: 500 HUF na pré-compra, no guichê ou no aplicativo BudapestGO (cerca de R$ 8) — 700 HUF se comprado a bordo (cerca de R$ 11). Quem preferir liberdade total: passe de 24 horas por 2.750 HUF (cerca de R$ 45).
+Valor: o mesmo bilhete de antes.
 
 [Trajeto no Google Maps](https://www.google.com/maps/dir/Doh%C3%A1ny+utca+2,+1074+Budapest/Great+Market+Hall,+F%C5%91v%C3%A1m+t%C3%A9r+1-3,+1093+Budapest)
 
-### 12:30 — MERCADO CENTRAL, NAGYVASARCSARNOK
+### 12:30 — MERCADO CENTRAL, NAGYVÁSÁRCSARNOK (pronuncia-se "Nadivaxárcsarnok")
 
 O maior e mais antigo mercado coberto de Budapeste, inaugurado em 1897 para a Exposição do Milênio. Projetado por Samu Pecz (1854–1922) em estilo neogótico com estrutura de ferro — a mesma engenharia que construiu a Torre Eiffel.
 
@@ -693,7 +687,7 @@ Foi o ponto de encontro dos intelectuais húngaros no início do século XX. Fer
 
 Valor: entrada gratuita, mas o consumo é obrigatório. Café e sobremesa: 4.000 a 7.000 HUF, R$ 66 a R$ 115. A fila pode ser longa — cheguem com paciência.
 
-Dica: peçam o somlói galuska — sobremesa tradicional húngara com três camadas de bolo, creme, chocolate e rum. Uma experiência.
+Dica local: peçam o somlói galuska — sobremesa tradicional húngara com três camadas de bolo, creme, chocolate e rum. Uma experiência.
 
 Site oficial: cafenewyorkbudapest.com
 
@@ -703,9 +697,9 @@ Site oficial: cafenewyorkbudapest.com
 
 [Café New York à Praça dos Heróis](https://www.google.com/maps/dir/New+York+Caf%C3%A9,+Erzs%C3%A9bet+krt.+9-11,+1073/H%C5%91s%C3%B6k+tere,+1146+Budapest)
 
-Metrô: estação Blaha Lujza tér, linha M2, transferência em Deák Ferenc tér, linha M1, estação Hősök tere. 15 minutos.
+Metrô: estação Blaha Lujza tér, linha M2, transferência em Deák Ferenc tér, linha M1, estação Hősök tere (pronuncia-se "Rrôxhêk tere"). 15 minutos.
 
-Valor: 500 HUF na pré-compra, no guichê ou no aplicativo BudapestGO (cerca de R$ 8) — 700 HUF se comprado a bordo (cerca de R$ 11). Quem preferir liberdade total: passe de 24 horas por 2.750 HUF (cerca de R$ 45).
+Valor: o mesmo bilhete de antes.
 
 ### 15:30 — PRAÇA DOS HERÓIS, HOSOK TERE
 
@@ -769,9 +763,9 @@ Site oficial: szechenyibath.hu
 
 Valores atualizados (2026):
 
-Entrada diária com armário, segunda a quinta: 13.200 HUF (cerca de 33 euros / R$ 216).
+Entrada diária com armário, segunda a quinta: 13.200 HUF, cerca de R$ 216.
 
-Entrada diária com armário, sexta a domingo: 14.800 HUF (cerca de 37 euros / R$ 243).
+Entrada diária com armário, sexta a domingo: 14.800 HUF, cerca de R$ 243.
 
 Bilhete Good Morning, entrada até as 9h: 10.500 HUF (cerca de R$ 172) em dias úteis.
 
@@ -779,13 +773,13 @@ Desconto para maiores de 65 anos: confirmar diretamente na bilheteria, não publ
 
 Cabine privativa: verificar valor adicional na bilheteria.
 
-Aluguel de toalha: 1.500 HUF (4 euros / R$ 25).
+Aluguel de toalha: 1.500 HUF, cerca de R$ 25.
 
-Aluguel de chinelo: 800 HUF (2 euros / R$ 13).
+Aluguel de chinelo: 800 HUF, cerca de R$ 13.
 
 Horário: diariamente, das 6:00 às 22:00.
 
-Dica: cheguem no final da tarde. As piscinas externas ao pôr do sol são uma experiência única — vapor subindo da água, luz dourada, silêncio.
+Dica local: cheguem no final da tarde. As piscinas externas ao pôr do sol são uma experiência única — vapor subindo da água, luz dourada, silêncio.
 
 [Ver no Google Maps](https://www.google.com/maps/search/?api=1&query=Sz%C3%A9chenyi%20Gy%C3%B3gyf%C3%BCrd%C5%91%20%C3%A9s%20Uszoda%2C%20Budapest)
 
@@ -803,7 +797,7 @@ O primeiro romkocsma, bar em ruínas, de Budapeste. Fundado em 2002 em um prédi
 
 Valor: entrada gratuita. Bebidas entre 800 e 2.500 HUF, R$ 13 a R$ 41.
 
-Dica: subam ao terraço. A vista do Bairro Judeu à noite é surpreendente.
+Dica local: subam ao terraço. A vista do Bairro Judeu à noite é surpreendente.
 
 [Ver no Google Maps](https://www.google.com/maps/search/?api=1&query=Szimpla%20Kert%2C%20Budapest)
 
@@ -817,7 +811,7 @@ Hummus Bar (Kazinczy utca 27): hummus, falafel, shakshuka. Pratos entre 2.000 e 
 
 [Szimpla Kert ao hotel](https://www.google.com/maps/dir/Szimpla+Kert,+Kazinczy+utca+14,+1075/Medos+Hotel,+J%C3%B3kai+t%C3%A9r+9,+1061)
 
-A pé: 15 minutos. Ou táxi/Bolt: 5 minutos, cerca de 2.500 HUF (6,50 euros / R$ 41).
+A pé: 15 minutos. Ou táxi/Bolt: 5 minutos, cerca de 2.500 HUF, cerca de R$ 41.
 
 Resumo do dia 3:
 
@@ -826,6 +820,8 @@ Caminhada total aproximada: 5,2 km.
 Tempo de caminhada: 1h20.
 
 Nível: pesado, o dia mais cheio da estadia em Budapeste. Se o grupo preferir um ritmo mais lento, transforme o Café New York ou o Szimpla Kert em opção, não em obrigação.
+
+Boa noite. Amanhã Budapeste fica para trás, mas vocês levam essa cidade para sempre.
 
 ## DIA 4 — TERÇA-FEIRA, 6 DE OUTUBRO DE 2026
 
@@ -843,7 +839,7 @@ Check-out: até 11:00.
 
 Traslado: incluso até a estação Keleti, com busca no hotel às 09:40.
 
-Trem: EC 142, Budapeste Keleti para Wien Hauptbahnhof.
+Trem: o EuroCity número cento e quarenta e dois (EC 142), de Budapeste Keleti para Wien Hauptbahnhof.
 
 Partida: 10:30.
 
@@ -863,7 +859,7 @@ Vagão-restaurante: disponível.
 
 09:55 — Chegada à estação Keleti
 
-10:15 — Embarque no trem EC 142
+10:15 — Embarque no trem (EC 142)
 
 10:30 — Partida
 
@@ -881,13 +877,13 @@ Traslado incluso do hotel até a estação Keleti Pályaudvar, Estação Leste, 
 
 Personagem: a estação Keleti foi inaugurada em 1884 e é a principal estação ferroviária internacional de Budapeste. O nome Keleti significa Leste — era por aqui que os trens partiam para a Transilvânia, para os Bálcãs, para o Oriente.
 
-### 10:30 — O TREM EC 142
+### 10:30 — O TREM EUROCITY PARA VIENA
 
-EuroCity 142, Budapeste Keleti para Wien Hauptbahnhof.
+O EuroCity número cento e quarenta e dois, de Budapeste Keleti para Wien Hauptbahnhof.
 
 Composição: vagões de primeira e segunda classe, vagão-restaurante, ar-condicionado, Wi-Fi intermitente, tomadas em cada assento.
 
-Dica: sentem-se do lado esquerdo na saída de Budapeste. Nos primeiros 15 minutos, o trem acompanha o Danúbio, e vocês verão o rio pela última vez — agora do outro lado, de um ângulo diferente, como um adeus silencioso.
+Dica local: sentem-se do lado esquerdo na saída de Budapeste. Nos primeiros 15 minutos, o trem acompanha o Danúbio, e vocês verão o rio pela última vez — agora do outro lado, de um ângulo diferente, como um adeus silencioso.
 
 ### O TRAJETO — SOBRE TRILHOS DE IMPÉRIO
 

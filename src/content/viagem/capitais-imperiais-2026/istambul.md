@@ -25,7 +25,7 @@ Em 1204, Constantinopla sofreu o mais cruel dos golpes — não de muçulmanos, 
 
 Em 29 de maio de 1453, após 53 dias de cerco, o sultão otomano Mehmed II, com apenas 21 anos, conquistou Constantinopla. Diz a lenda que ele entrou em Hagia Sophia a cavalo, derramou um punhado de terra sobre o turbante em sinal de humildade e transformou a catedral em mesquita. Constantinopla tornou-se Istambul — do grego eis tin polin ("para a cidade") — a capital do Império Otomano.
 
-Durante os 469 anos seguintes (1453–1922), Istambul foi o coração de um império que se estendia do norte da África ao leste da Europa, do Oriente Médio ao Cáucaso. Os sultões otomanos, especialmente Solimão, o Magnífico (1520–1566), embelezaram a cidade com mesquitas monumentais — Süleymaniye, Şehzade, Mihrimah Sultan — projetadas pelo gênio arquitetônico Mimar Sinan, filho de pedreiros cristãos que se tornou o maior arquiteto otomano.
+Durante os 469 anos seguintes (1453–1922), Istambul foi o coração de um império que se estendia do norte da África ao leste da Europa, do Oriente Médio ao Cáucaso. Os sultões otomanos, especialmente Solimão, o Magnífico (1520–1566), embelezaram a cidade com mesquitas monumentais — Süleymaniye (pronuncia-se "suleimanié"), Şehzade, Mihrimah Sultan — projetadas pelo gênio arquitetônico Mimar Sinan, filho de pedreiros cristãos que se tornou o maior arquiteto otomano.
 
 ### O DECLÍNIO E A REPÚBLICA
 
@@ -161,7 +161,7 @@ Istambul é a cidade dos gatos. Centenas de milhares deles perambulam livremente
 
 ### 5. MIMAR SINAN, O MIGUEL ÂNGELO OTOMANO
 
-Mimar Sinan (1489–1588) foi o arquiteto-chefe de três sultões: Solimão, o Magnífico, Selim II e Murad III. Nascido cristão numa aldeia da Anatólia, foi recrutado pelo sistema devşirme, converteu-se ao Islã e tornou-se o maior arquiteto do mundo otomano. Projetou 477 edifícios: 151 mesquitas, 57 escolas, 52 casas de banho, 17 hospitais, 7 pontes. Sua obra-prima: a Mesquita de Süleymaniye.
+De Mimar Sinan, que vocês já conheceram, conta-se que serviu a três sultões — Solimão, Selim II e Murad III — e que, aos noventa e nove anos, ainda visitava obras. Dizem que escolheu para si um túmulo modesto, encostado no muro da Süleymaniye, para continuar ouvindo as orações da sua obra-prima.
 
 ### 6. A TULIPA — FLOR SAGRADA
 
@@ -177,7 +177,7 @@ Cinco vezes ao dia, os alto-falantes dos minaretes de Istambul entoam o ezan —
 
 ### 9. O TÜNEL — O SEGUNDO METRÔ MAIS ANTIGO DO MUNDO
 
-Inaugurado em 1875, o Tünel é o segundo metrô mais antigo do mundo, depois de Londres (1863). Tem apenas 573 metros de extensão e sobe de Karaköy (à beira do Bósforo) até Beyoğlu (a Rua İstiklal) em 90 segundos. Foi construído para poupar os comerciantes da íngreme ladeira entre os dois bairros.
+Inaugurado em 1875, o Tünel é o segundo metrô mais antigo do mundo, depois de Londres (1863). Tem apenas 573 metros de extensão e sobe de Karaköy (pronuncia-se "caracói", à beira do Bósforo) até Beyoğlu (pronuncia-se "beiôlu"; a Rua İstiklal) em 90 segundos. Foi construído para poupar os comerciantes da íngreme ladeira entre os dois bairros.
 
 ### 10. O GRANDE INCÊNDIO DE PERA
 
@@ -223,7 +223,7 @@ Vantagens estratégicas:
 ### TRANSPORTE
 
 - Bonde T1: linha moderna, confortável, conecta Karaköy a Sultanahmet em 10 minutos. A estação de Karaköy fica a 5 minutos do hotel. Bilhete: 42 TL (cerca de R$ 4,50) por embarque com İstanbulkart
-- Ferry público: a maneira mais autêntica e prazerosa de se locomover. Bancos de madeira, vendedores de çay, gaivotas. Karaköy → Kadıköy (Ásia): 20 minutos, cerca de 59 TL (cerca de R$ 6,30) com İstanbulkart
+- Ferry público: a maneira mais autêntica e prazerosa de se locomover. Bancos de madeira, vendedores de çay, gaivotas. Karaköy → Kadıköy (pronuncia-se "cadicói", já do lado asiático): 20 minutos, cerca de 59 TL (cerca de R$ 6,30) com İstanbulkart
 - Tünel: funicular subterrâneo de 1875, o segundo metrô mais antigo do mundo. Sobe de Karaköy a Beyoğlu em cerca de 90 segundos. Mesma tarifa do bonde: 42 TL (cerca de R$ 4,50) com İstanbulkart
 - Táxi / Uber: abundantes e baratos para padrões europeus. Trajeto médio: 150–300 TL (cerca de R$ 16,50–33,00)
 - İstanbulkart: essencial. Cartão de transporte público recarregável, válido em bondes, metrô, ferrys, ônibus e Tünel. Comprem na primeira estação de bonde ou ferry. Custo do cartão vazio: cerca de 165 a 200 TL (cerca de R$ 18 a R$ 21) — o valor é reajustado com frequência. Recarga nas máquinas amarelas
@@ -263,9 +263,9 @@ Vantagens estratégicas:
 
 ### DADOS DO DIA
 
-Voo TK 1772: 12/10 PRG 15:20 para 12/10 IST 19:05, 2h45 de voo.
+Voo: o voo da Turkish Airlines número mil setecentos e setenta e dois (TK 1772), saindo de Praga às 15:20 do dia 12/10 e chegando a Istambul às 19:05 do mesmo dia, 2h45 de voo.
 
-Chegada: 19:05 — Istanbul Airport (IST).
+Chegada: 19:05 — Aeroporto de Istambul (IST).
 
 Hotel: Galata Times Hotel, Beyoğlu.
 
@@ -287,11 +287,11 @@ Fuso: GMT+3, seis horas à frente de Brasília.
 
 Jantar leve: casual confortável. Casaco leve ou jaqueta — a noite de outubro em Istambul é amena, mas o vento do Bósforo pode refrescar.
 
-### 19:05 — POUSO NO AEROPORTO DE ISTAMBUL (IST)
+### 19:05 — POUSO NO AEROPORTO DE ISTAMBUL
 
 O avião da Turkish Airlines baixa sobre Istambul. Pela janela, o Bósforo é uma fita escura cravejada de luzes — os ferrys, os navios, as pontes iluminadas. As mesquitas pontuam a paisagem com seus minaretes como agulhas de luz. Dois continentes. Uma cidade. Vocês pousaram na Europa, mas a Ásia está ali ao lado, a apenas 700 metros de água.
 
-O Istanbul Airport (IST) é um dos maiores e mais modernos do mundo, inaugurado em 2018. Preparem-se para uma caminhada razoável dentro do terminal — o aeroporto é imenso.
+O Aeroporto de Istambul (IST) é um dos maiores e mais modernos do mundo, inaugurado em 2018. Preparem-se para uma caminhada razoável dentro do terminal — o aeroporto é imenso.
 
 Personagem: o aeroporto leva o nome do fundador da Turquia moderna, Mustafa Kemal Atatürk. Seu rosto está em toda parte — nas notas de lira, nos retratos dos hotéis, nas estátuas das praças. Ele é o pai da Istambul que vocês vão conhecer.
 
@@ -332,6 +332,8 @@ Resumo do dia 10 (parte Istambul):
 - Caminhada total aproximada: 1 km
 - Tempo de caminhada: 15 min
 - Nível: muito leve
+
+Durmam com o som dos navios lá fora: amanhã vocês acordam entre dois continentes.
 
 Espaço reservado para as fotos e vídeos de DIA 10 (CONTINUAÇÃO) — SEGUNDA-FEIRA, 12 DE OUTUBRO DE 2026. As imagens entram aqui durante a viagem e seguem para o livro impresso.
 
@@ -384,7 +386,7 @@ Na Turquia, o café da manhã é um ritual — demorado, farto, compartilhado. A
 
 Caminhada de 5 minutos até a estação Karaköy do bonde T1. O bonde é moderno, com ar-condicionado. Dez minutos depois, vocês descem na parada Sultanahmet — e o coração do Império Bizantino e Otomano se abre diante de vocês.
 
-A Praça de Sultanahmet é um parque ajardinado entre duas joias da humanidade: a Mesquita Azul de um lado e a Hagia Sophia do outro. Entre elas, a Fonte Alemã (presente do Kaiser Guilherme II ao sultão Abdul Hamid II, em 1901) e o Hipódromo de Constantinopla, onde corridas de bigas empolgavam 100.000 espectadores.
+A Praça de Sultanahmet (pronuncia-se "sultanamét") é um parque ajardinado entre duas joias da humanidade: a Mesquita Azul de um lado e a Hagia Sophia do outro. Entre elas, a Fonte Alemã (presente do Kaiser Guilherme II ao sultão Abdul Hamid II, em 1901) e o Hipódromo de Constantinopla, onde corridas de bigas empolgavam 100.000 espectadores.
 
 ### 09:15 — MESQUITA AZUL (SULTAN AHMED CAMII)
 
@@ -415,7 +417,7 @@ A apenas 300 metros da Mesquita Azul, atravessando a praça ajardinada, está a 
 
 A história que vocês pisam:
 
-Em 532 d.C., um motim popular (a Revolta de Nika) destruiu a catedral anterior. O imperador Justiniano, em vez de se acovardar, decidiu construir algo que o mundo jamais vira. Contratou os matemáticos Antêmio de Trales e Isidoro de Mileto. Em apenas 5 anos, 10 meses e 4 dias, 10.000 trabalhadores ergueram a maior catedral da cristandade.
+Em 532 depois de Cristo, um motim popular — a Revolta de Nika — destruiu a catedral que existia aqui. O imperador Justiniano, em vez de se acovardar, decidiu construir algo que o mundo jamais tinha visto. Chamou dois matemáticos: Antêmio de Trales e Isidoro de Mileto. Dez mil trabalhadores ergueram a maior catedral da cristandade em cinco anos, dez meses e quatro dias.
 
 Quando Justiniano entrou pela primeira vez no dia da consagração — 27 de dezembro de 537 —, caiu de joelhos e murmurou: "Salomão, eu te superei."
 
@@ -467,27 +469,9 @@ Entrar no Gran Bazar é como mergulhar num labirinto iluminado por lâmpadas de 
 
 Perder-se aqui não é um acidente — é o objetivo. Cada viela revela algo novo: uma oficina de ourives que existe há 200 anos, uma montanha de especiarias em tons de vermelho e amarelo, uma parede de lâmpadas de mosaico que brilham como vitrais, tapetes kilim empilhados até o teto.
 
-O que comprar no Gran Bazar:
+O que comprar no Gran Bazar: vocês vão encontrar açafrão turco, sumac (ácido e cítrico), pul biber (pimenta síria) e chá de maçã por 20 a 100 TRY (cerca de R$ 2,20 a R$ 11,00); o lokum, a delícia turca, na tradicional Hacı Bekir (desde 1777), com pistache, água de rosas ou romã, por 50 a 150 TRY o quilo (cerca de R$ 5,50 a R$ 16,50); cerâmicas de Iznik — pratos, azulejos e tigelas pintados à mão com tulipas e arabescos — por 50 a 500 TRY (cerca de R$ 5,50 a R$ 55,00); lâmpadas de mosaico artesanais, de vidro colorido e latão, que funcionam com lâmpada LED, por 100 a 500 TRY (cerca de R$ 11,00 a R$ 55,00); joias de prata com o olho turco (o nazar boncuk, amuleto azul contra mau-olhado) por 20 a 200 TRY (cerca de R$ 2,20 a R$ 22,00); tapetes e kilims feitos à mão na Anatólia, que os vendedores desenrolam um a um com um chá oferecido, por 1.000 a mais de 20.000 TRY (cerca de R$ 110 a mais de R$ 2.200); lenços de seda e pashminas de cores vibrantes por 50 a 200 TRY (cerca de R$ 5,50 a R$ 22,00); e café turco torrado e moído finíssimo — vale comprar também o cezve, a panela de cobre — por 30 a 100 TRY (cerca de R$ 3,30 a R$ 11,00).
 
-- Especiarias: açafrão turco, sumac (ácido e cítrico), pul biber (pimenta síria), chá de maçã. 20–100 TRY (cerca de R$ 2,20–11,00)
-- Lokum (delícia turca): Loja Hacı Bekir (desde 1777): a receita original. Com pistache, água de rosas, romã. 50–150 TRY/kg (cerca de R$ 5,50–16,50)
-- Cerâmica de Iznik: pratos, azulejos e tigelas pintados à mão com tulipas e arabescos. 50–500 TRY (cerca de R$ 5,50–55,00)
-- Lâmpadas de mosaico: vidro colorido e latão, artesanais. Funcionam com lâmpada LED. 100–500 TRY (cerca de R$ 11,00–55,00)
-- Joias de prata com olho turco (nazar): o nazar boncuk — amuleto azul contra mau-olhado. 20–200 TRY (cerca de R$ 2,20–22,00)
-- Tapetes e kilims: feitos à mão na Anatólia. Os vendedores desenrolam tapete após tapete com chá oferecido. 1.000–20.000+ TRY (cerca de R$ 110–2.200+)
-- Lenços de seda e pashminas: cores vibrantes, tecidos leves. 50–200 TRY (cerca de R$ 5,50–22,00)
-- Café turco: torrado e moído finíssimo. Comprar com cezve (a panela de cobre) é um bônus. 30–100 TRY (cerca de R$ 3,30–11,00)
-
-A arte de pechinchar:
-
-Pechinchar no Gran Bazar não é confronto — é um jogo, quase uma dança. O vendedor oferece um preço. Você sorri, agradece e faz uma contraproposta de 40–50% do valor. Ele ri, diz que você vai levá-lo à falência, e oferece um desconto. Vocês se encontram no meio. É teatral. É divertido. E com um çay oferecido no meio, vocês fecham o negócio como velhos amigos.
-
-Informações práticas:
-
-- Entrada: gratuita
-- Horário: segunda a sábado, 08:30 às 19:00. Fechado aos domingos e feriados religiosos
-- Caixas eletrônicos: há vários dentro do bazar. Prefira pagar em lira turca (TRY)
-- Cuidado com falsificações de marcas de luxo (bolsas, relógios) — são ilegais e apreendidas na alfândega
+Dica local: pechinchar no Gran Bazar não é confronto — é um jogo, quase uma dança. O vendedor oferece um preço. Vocês sorriem, agradecem e fazem uma contraproposta de 40 a 50% do valor. Ele ri, diz que vocês vão levá-lo à falência, e oferece um desconto. Encontram-se no meio. É teatral, é divertido, e com um çay oferecido no meio do caminho, o negócio se fecha como entre velhos amigos. A entrada é gratuita, e o bazar funciona de segunda a sábado, das 08:30 às 19:00, fechado aos domingos e feriados religiosos. Há caixas eletrônicos dentro do bazar — prefiram pagar em lira turca (TRY) — e vale cuidado com falsificações de marcas de luxo, que são ilegais e apreendidas na alfândega.
 
 ### 13:30 — SAÍDA DE SULTANAHMET, BONDE DE VOLTA AO HOTEL
 
@@ -518,6 +502,8 @@ Resumo do dia 11:
 - Caminhada total aproximada: 4 km
 - Tempo de caminhada: 50 min
 - Nível: leve (tudo plano, atrações próximas umas das outras)
+
+Foi um dia de cúpulas e de silêncios. Boa noite — que ele volte em sonho, sem pressa.
 
 Espaço reservado para as fotos e vídeos de DIA 11 — TERÇA-FEIRA, 13 DE OUTUBRO DE 2026. As imagens entram aqui durante a viagem e seguem para o livro impresso.
 
@@ -714,6 +700,8 @@ Resumo do dia 12:
 - Tempo de caminhada: 40 min
 - Nível: leve a moderado (os táxis fazem o trabalho pesado nas subidas)
 
+Voltam tarde, com o Bósforo iluminado ainda nos olhos. Durmam bem: amanhã é despedida.
+
 Espaço reservado para as fotos e vídeos de DIA 12 — QUARTA-FEIRA, 14 DE OUTUBRO DE 2026. As imagens entram aqui durante a viagem e seguem para o livro impresso.
 
 ---
@@ -726,7 +714,7 @@ Espaço reservado para as fotos e vídeos de DIA 12 — QUARTA-FEIRA, 14 DE OUTU
 
 Check-out: até 12:00 (malas guardadas na recepção).
 
-Voo TK 215: 15/10 IST 20:15 para 16/10 GRU 03:30, Airbus A350-900, 13h15 de voo.
+Voo: o voo da Turkish Airlines número duzentos e quinze (TK 215), saindo de Istambul às 20:15 do dia 15/10 e chegando a Guarulhos, em São Paulo (GRU), às 03:30 do dia 16/10, num Airbus A350-900, 13h15 de voo.
 
 Temperatura: 12°C a 19°C.
 
@@ -743,7 +731,7 @@ Atividades: manhã livre, almoço tranquilo, traslado ao aeroporto no fim da tar
 - 16:00 — Traslado privativo para o aeroporto (IST)
 - 16:50 — Chegada ao Aeroporto de Istambul
 - 17:00 — Check-in, controle de passaporte, segurança
-- 20:15 — Decolagem TK 215
+- 20:15 — Decolagem do voo para Guarulhos
 
 ### 08:00 — ÚLTIMO CAFÉ DA MANHÃ EM ISTAMBUL
 
@@ -793,7 +781,7 @@ Durante o trajeto, vocês verão pela última vez os minaretes de Istambul, as �
 
 ### 16:50 — CHEGADA AO AEROPORTO DE ISTAMBUL
 
-O Istanbul Airport (IST) é imenso. Preparem-se para uma caminhada razoável dentro do terminal. O voo TK 215 parte às 20:15 — mais de 3 horas de folga.
+O Aeroporto de Istambul é imenso. Preparem-se para uma caminhada razoável dentro do terminal. O voo para Guarulhos parte às 20:15 — mais de 3 horas de folga.
 
 ### 20:15 — DECOLAGEM TK 215
 
@@ -806,6 +794,8 @@ Resumo do dia 13:
 - Caminhada total aproximada: 2 km
 - Tempo de caminhada: 30 min
 - Nível: muito leve
+
+A viagem termina, mas Istambul tem esse hábito antigo de ir com quem parte.
 
 Espaço reservado para as fotos e vídeos de DIA 13 — QUINTA-FEIRA, 15 DE OUTUBRO DE 2026. As imagens entram aqui durante a viagem e seguem para o livro impresso.
 
@@ -855,7 +845,7 @@ Istambul não é apenas uma cidade. É um limiar.
 
 Sobreviveu ao Império Romano, ao Bizantino, ao Otomano. Sobreviveu a cercos, incêndios, terremotos, invasões. Sobreviveu à queda de Constantinopla em 1453, à abolição do califado em 1924, à modernização forçada de Atatürk. E em cada destruição, renasceu — não como uma cidade nova, mas como uma cidade que carrega todas as suas encarnações anteriores nas pedras, nos minaretes, nos mosaicos escondidos sob gesso, nos azulejos azuis das mesquitas.
 
-Vocês chegaram de avião, vindos de Praga — a cidade das torres góticas. E partem de avião, levando na memória as torres otomanas. Entre a chegada e a partida, atravessaram o Bósforo de ferry, pisaram em dois continentes no mesmo dia, ouviram o ezan ecoar cinco vezes ao dia, viram os mosaicos dourados de Chora que sobreviveram ao gesso e ao tempo, caminharam pelas ruas coloridas de Balat onde judeus sefarditas ainda vivem, e sentaram-se numa meyhane tradicional, bebendo rakı enquanto o violino e o oud enchiam o ar de música.
+Vocês chegaram de avião, vindos de Praga — a cidade das torres góticas. E partem de avião, levando na memória as torres otomanas. Entre a chegada e a partida, atravessaram o Bósforo de ferry e pisaram em dois continentes no mesmo dia. Ouviram o ezan ecoar cinco vezes, do amanhecer ao anoitecer. Viram os mosaicos dourados de Chora, que sobreviveram ao gesso e ao tempo. Caminharam pelas ruas coloridas de Balat, onde judeus sefarditas ainda vivem. E sentaram-se numa meyhane tradicional, com rakı no copo, enquanto o violino e o oud enchiam o ar de música.
 
 Istambul é diferente. Budapeste é majestosa, Viena é imperial, Praga é enigmática. Istambul é todas essas coisas e nenhuma delas. É a cidade onde o Oriente encontra o Ocidente, onde o Islã se encontra com o Cristianismo, onde o passado se encontra com o presente. É a cidade que, como o Bósforo, não separa — une.
 
