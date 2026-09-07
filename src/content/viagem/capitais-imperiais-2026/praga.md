@@ -379,7 +379,7 @@ Espaço reservado para as fotos e vídeos de DIA 7 (CONTINUAÇÃO) — SEXTA-FEI
 
 ## DIA 8 — SÁBADO, 10 DE OUTUBRO DE 2026
 
-### O DIA GRANDE — DA CIDADE VELHA AO CANTO GREGORIANO
+### O DIA GRANDE — DA CIDADE VELHA AO ALTO DA COLINA
 
 ### DADOS DO DIA
 
@@ -387,7 +387,6 @@ Temperatura: 6°C a 14°C
 
 Pôr do sol: 18:23
 
-Vésperas: 17:00 - Monastério de Strahov (gratuito)
 
 Transporte especial: Bonde 22 ou 23
 
@@ -425,7 +424,7 @@ Transporte especial: Bonde 22 ou 23
 
 16:40 - Monastério de Strahov
 
-17:00 - Vésperas gregorianas
+17:00 - Momento reservado no monastério
 
 17:35 - Parque Petřín e pôr do sol
 
