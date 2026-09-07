@@ -467,27 +467,9 @@ Entrar no Gran Bazar é como mergulhar num labirinto iluminado por lâmpadas de 
 
 Perder-se aqui não é um acidente — é o objetivo. Cada viela revela algo novo: uma oficina de ourives que existe há 200 anos, uma montanha de especiarias em tons de vermelho e amarelo, uma parede de lâmpadas de mosaico que brilham como vitrais, tapetes kilim empilhados até o teto.
 
-O que comprar no Gran Bazar:
+O que comprar no Gran Bazar: vocês vão encontrar açafrão turco, sumac (ácido e cítrico), pul biber (pimenta síria) e chá de maçã por 20 a 100 TRY (cerca de R$ 2,20 a R$ 11,00); o lokum, a delícia turca, na tradicional Hacı Bekir (desde 1777), com pistache, água de rosas ou romã, por 50 a 150 TRY o quilo (cerca de R$ 5,50 a R$ 16,50); cerâmicas de Iznik — pratos, azulejos e tigelas pintados à mão com tulipas e arabescos — por 50 a 500 TRY (cerca de R$ 5,50 a R$ 55,00); lâmpadas de mosaico artesanais, de vidro colorido e latão, que funcionam com lâmpada LED, por 100 a 500 TRY (cerca de R$ 11,00 a R$ 55,00); joias de prata com o olho turco (o nazar boncuk, amuleto azul contra mau-olhado) por 20 a 200 TRY (cerca de R$ 2,20 a R$ 22,00); tapetes e kilims feitos à mão na Anatólia, que os vendedores desenrolam um a um com um chá oferecido, por 1.000 a mais de 20.000 TRY (cerca de R$ 110 a mais de R$ 2.200); lenços de seda e pashminas de cores vibrantes por 50 a 200 TRY (cerca de R$ 5,50 a R$ 22,00); e café turco torrado e moído finíssimo — vale comprar também o cezve, a panela de cobre — por 30 a 100 TRY (cerca de R$ 3,30 a R$ 11,00).
 
-- Especiarias: açafrão turco, sumac (ácido e cítrico), pul biber (pimenta síria), chá de maçã. 20–100 TRY (cerca de R$ 2,20–11,00)
-- Lokum (delícia turca): Loja Hacı Bekir (desde 1777): a receita original. Com pistache, água de rosas, romã. 50–150 TRY/kg (cerca de R$ 5,50–16,50)
-- Cerâmica de Iznik: pratos, azulejos e tigelas pintados à mão com tulipas e arabescos. 50–500 TRY (cerca de R$ 5,50–55,00)
-- Lâmpadas de mosaico: vidro colorido e latão, artesanais. Funcionam com lâmpada LED. 100–500 TRY (cerca de R$ 11,00–55,00)
-- Joias de prata com olho turco (nazar): o nazar boncuk — amuleto azul contra mau-olhado. 20–200 TRY (cerca de R$ 2,20–22,00)
-- Tapetes e kilims: feitos à mão na Anatólia. Os vendedores desenrolam tapete após tapete com chá oferecido. 1.000–20.000+ TRY (cerca de R$ 110–2.200+)
-- Lenços de seda e pashminas: cores vibrantes, tecidos leves. 50–200 TRY (cerca de R$ 5,50–22,00)
-- Café turco: torrado e moído finíssimo. Comprar com cezve (a panela de cobre) é um bônus. 30–100 TRY (cerca de R$ 3,30–11,00)
-
-A arte de pechinchar:
-
-Pechinchar no Gran Bazar não é confronto — é um jogo, quase uma dança. O vendedor oferece um preço. Você sorri, agradece e faz uma contraproposta de 40–50% do valor. Ele ri, diz que você vai levá-lo à falência, e oferece um desconto. Vocês se encontram no meio. É teatral. É divertido. E com um çay oferecido no meio, vocês fecham o negócio como velhos amigos.
-
-Informações práticas:
-
-- Entrada: gratuita
-- Horário: segunda a sábado, 08:30 às 19:00. Fechado aos domingos e feriados religiosos
-- Caixas eletrônicos: há vários dentro do bazar. Prefira pagar em lira turca (TRY)
-- Cuidado com falsificações de marcas de luxo (bolsas, relógios) — são ilegais e apreendidas na alfândega
+Dica local: pechinchar no Gran Bazar não é confronto — é um jogo, quase uma dança. O vendedor oferece um preço. Vocês sorriem, agradecem e fazem uma contraproposta de 40 a 50% do valor. Ele ri, diz que vocês vão levá-lo à falência, e oferece um desconto. Encontram-se no meio. É teatral, é divertido, e com um çay oferecido no meio do caminho, o negócio se fecha como entre velhos amigos. A entrada é gratuita, e o bazar funciona de segunda a sábado, das 08:30 às 19:00, fechado aos domingos e feriados religiosos. Há caixas eletrônicos dentro do bazar — prefiram pagar em lira turca (TRY) — e vale cuidado com falsificações de marcas de luxo, que são ilegais e apreendidas na alfândega.
 
 ### 13:30 — SAÍDA DE SULTANAHMET, BONDE DE VOLTA AO HOTEL
 

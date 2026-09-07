@@ -57,7 +57,7 @@ Antes de caminharem pelas ruas, conheçam as almas que habitam cada pedra desta 
 
 Maria Teresa (1717-1780) — A matriarca da dinastia. Subiu ao trono aos 23 anos, grávida do quarto filho. Governou por 40 anos, teve 16 filhos, reformou o exército, o sistema educacional e a administração do império. Foi ela quem transformou Schönbrunn no palácio que é hoje. Dizia que "um príncipe deve fazer a felicidade de seu povo, não a sua própria". Sua estátua colossal domina a praça entre os museus gêmeos.
 
-Francisco José I (1830-1916) — O imperador que reinou por 68 anos. Casou-se com Sisi por amor, contra a vontade da corte. Após a derrota contra a Prússia em 1866, aceitou o Compromisso Austro-Húngaro de 1867. Dormia num leito de ferro, acordava às quatro da manhã, trabalhava até a noite. Viu o suicídio do filho Rodolfo em 1889, o assassinato da esposa Sisi em 1898 e o assassinato do sobrinho Francisco Ferdinando em 1914 — que deu início à guerra que destruiria seu império. Morreu em 1916, durante o conflito. Seu funeral foi o último grande desfile de um império que já não existia.
+Francisco José I (1830-1916) — O imperador que reinou por 68 anos. Casou-se com Sisi por amor, contra a vontade da corte. Após a derrota contra a Prússia em 1866, aceitou o Compromisso Austro-Húngaro de 1867. Dormia num leito de ferro, acordava às quatro da manhã, trabalhava até a noite. Viu o suicídio do filho Rodolfo em 1889 e o assassinato da esposa Sisi em 1898. Em 1914, viu também o assassinato do sobrinho Francisco Ferdinando — o estopim da guerra que destruiria seu império. Morreu em 1916, durante o conflito. Seu funeral foi o último grande desfile de um império que já não existia.
 
 Sisi / Elisabeth da Baviera (1837-1898) — A imperatriz rebelde. Casou-se aos 16 anos. Bela, melancólica, obcecada pela própria aparência. Passava horas cuidando dos cabelos (que iam até os pés). Fazia exercícios obsessivamente. Escrevia poesia. Detestava a rigidez da corte vienense e refugiava-se na Hungria. Foi assassinada em Genebra, em 10 de setembro de 1898, por um anarquista italiano que a esfaqueou no coração. Seu mito só cresceu desde então.
 
@@ -151,25 +151,11 @@ Em 1857, o Imperador Francisco José ordenou a demolição das muralhas medievai
 
 ### IBIS WIEN MARIAHILF
 
-- Endereço: Mariahilfer Gürtel 22-24, 1060 Viena
-- Site oficial: ibis.accor.com
-- [Ver no Google Maps](https://www.google.com/maps/search/?api=1&query=ibis%20Wien%20Mariahilf)
+Vocês vão ficar no ibis Wien Mariahilf, na Mariahilfer Gürtel 22-24, 1060 Viena ([ver no Google Maps](https://www.google.com/maps/search/?api=1&query=ibis%20Wien%20Mariahilf); site oficial: ibis.accor.com).
 
-Por que este hotel funciona para vocês:
+É um hotel que funciona bem para o grupo: funcional e confiável, com quartos confortáveis, decoração clean e tudo o que é necessário, sem excessos. O café da manhã, incluso, é um buffet completo, com pães, frios, ovos, frutas, cafés e sucos. O Wi-Fi é gratuito em todo o hotel. A localização é estratégica — dez minutos de metrô até o centro histórico e cinco minutos de carro até o Palácio de Schönbrunn —, e o metrô fica praticamente na porta: as estações Gumpendorfer Straße (U6) e Westbahnhof (U3/U6) estão a poucos passos. E o custo-benefício é bom, dentro dos padrões vienenses.
 
-- Funcional e confiável: quartos confortáveis, decoração clean, tudo o que é necessário sem excessos
-- Café da manhã incluso: buffet completo com pães, frios, ovos, frutas, cafés e sucos
-- Wi-Fi gratuito em todo o hotel
-- Localização estratégica: a 10 minutos de metrô do centro histórico e a 5 minutos de carro do Palácio de Schönbrunn
-- Metrô na porta: estação Gumpendorfer Straße (U6) e Westbahnhof (U3/U6) a poucos passos
-- Bom custo-benefício: preço justo para os padrões vienenses
-
-Acessibilidade e conforto:
-
-- Elevadores em todos os andares
-- Quartos adaptados disponíveis (solicitar na reserva)
-- Equipe treinada para assistência
-- Check-in rápido e eficiente
+Em termos de acessibilidade e conforto, o hotel tem elevadores em todos os andares, quartos adaptados disponíveis mediante solicitação na reserva, equipe treinada para assistência e um check-in rápido e eficiente.
 
 ---
 
@@ -177,35 +163,21 @@ Acessibilidade e conforto:
 
 ### TRANSPORTE
 
-- Metrô (U-Bahn): eficiente, limpo, com elevadores na maioria das estações. As linhas U3 e U6 servem o hotel
-- Bondes (Tram): piso baixo, acesso facilitado, agradáveis para ver a cidade
-- Táxi: abundantes e com tarifas razoáveis (€5-12, cerca de R$ 30 a R$ 72, para trajetos no centro)
-- Uber: disponível e confiável
-- Caminhadas: o centro histórico (Innere Stadt) é plano e concentrado — tudo se faz a pé
+Para se mover por Viena, vocês vão contar com um metrô (U-Bahn) eficiente e limpo, com elevadores na maioria das estações — as linhas U3 e U6, aliás, servem diretamente o hotel. Os bondes (Tram) têm piso baixo e acesso facilitado, e são uma forma agradável de ver a cidade passar pela janela. Táxis são abundantes e com tarifas razoáveis, entre €5 e €12 (cerca de R$ 30 a R$ 72) para trajetos no centro, e o Uber também está disponível e é confiável. Mas na prática, boa parte do passeio será a pé: o centro histórico, a Innere Stadt, é plano e concentrado.
 
 Nota de câmbio: as conversões em reais deste capítulo usam o câmbio de 7 de setembro de 2026 (€1 ≈ R$ 6,00; 1.000 HUF ≈ R$ 16,40; 100 CZK ≈ R$ 24,60; 1 TRY ≈ R$ 0,11). Tudo o que não está incluído no roteiro aparece na moeda local com o equivalente aproximado em reais — confiram a cotação no dia do pagamento.
 
 ### RITMO IDEAL
 
-- Máximo de 2-3 atrações por dia, sempre com pausas
-- Pausa para café é sagrada em Viena — não é perder tempo, é viver a cultura
-- Almoço cedo (12h-13h) para evitar multidões
-- Retorno ao hotel para descanso sempre que necessário
-- As distâncias no centro são curtas, mas calçadas de paralelepípedo exigem calçado firme
+O ritmo ideal em Viena é tranquilo: no máximo duas ou três atrações por dia, sempre com pausas. A pausa para o café, aliás, é sagrada por aqui — não é perder tempo, é viver a cultura. Vale almoçar cedo, entre meio-dia e 13h, para evitar as multidões, e voltar ao hotel para descansar sempre que for preciso. As distâncias no centro são curtas, mas vale lembrar que as calçadas de paralelepípedo pedem um calçado firme.
 
 ### CLIMA EM OUTUBRO
 
-- Temperaturas: 6°C a 16°C
-- Manhãs frias, tardes amenas, noites frescas
-- Possibilidade de chuva: levar guarda-chuva compacto
-- Camadas são essenciais: camiseta, suéter, sobretudo ou trench coat
+Em outubro, as temperaturas em Viena variam de 6°C a 16°C, com manhãs frias, tardes amenas e noites frescas. Vale levar um guarda-chuva compacto, porque a chuva é sempre uma possibilidade, e apostar em camadas de roupa — camiseta, suéter e um sobretudo ou trench coat.
 
 ### SAÚDE E SEGURANÇA
 
-- Viena está consistentemente entre as 3 cidades mais seguras do mundo
-- Farmácias (Apotheke) bem sinalizadas e comuns no centro
-- Água da torneira é potável e de excelente qualidade (vem dos Alpes)
-- Hospitais de padrão internacional
+Viena está consistentemente entre as três cidades mais seguras do mundo. As farmácias (Apotheke) são bem sinalizadas e comuns no centro, a água da torneira é potável e de excelente qualidade — vem dos Alpes — e os hospitais são de padrão internacional.
 
 ---
 
@@ -293,7 +265,7 @@ Informações práticas:
 - Catacumbas: €6,50 (cerca de R$ 39) — com guia, duram 30 minutos, fascinantes mas com escadas
 - Site oficial: stephanskirche.at
 
-Dica de ouro: Na saída, olhem para cima. O telhado visto da Stephansplatz, com o sol da tarde, brilha em tons de verde, amarelo e marrom. É uma das imagens mais fotogênicas de Viena.
+Dica local: Na saída, olhem para cima. O telhado visto da Stephansplatz, com o sol da tarde, brilha em tons de verde, amarelo e marrom. É uma das imagens mais fotogênicas de Viena.
 
 ### 17:15 — GRABEN E PETERSPLATZ
 
@@ -362,6 +334,8 @@ Resumo do dia 4 (parte Viena):
 - Tempo de caminhada: 50 minutos
 - Nível: leve, todo plano no centro histórico
 
+Durmam bem. Amanhã é o dia imperial.
+
 ---
 
 ## DIA 5 - QUARTA-FEIRA, 7 DE OUTUBRO DE 2026
@@ -422,11 +396,7 @@ Metrô U3 até Herrengasse. Em 12 minutos, vocês estão diante da Michaelerkupp
 
 O Hofburg não é um palácio. É uma cidade dentro da cidade. Durante mais de seis séculos (1278–1918), este foi o centro do poder dos Habsburgos.
 
-Números que impressionam:
-
-- 240.000 m² de área total
-- 18 alas, 19 pátios, 2.600 salas
-- Residência oficial do Presidente da Áustria até hoje
+Os números impressionam: são 240.000 m² de área total, 18 alas, 19 pátios e 2.600 salas — e o complexo segue sendo a residência oficial do Presidente da Áustria até hoje.
 
 O que vocês verão ao entrar:
 
@@ -447,12 +417,7 @@ Preparem-se: vocês estão prestes a entrar na biblioteca mais bonita do mundo.
 
 A Prunksaal (Sala de Gala):
 
-- Construída entre 1723 e 1726 por Johann Bernhard Fischer von Erlach
-- 80 metros de comprimento, 20 metros de altura
-- 200.000 volumes encadernados em couro e ouro
-- Afrescos de Daniel Gran no teto, representando a Apoteose de Carlos VI
-- Estátuas de mármore dos Habsburgos alinhadas nas laterais
-- Globos terrestres e celestes do século XVII
+Construída entre 1723 e 1726 por Johann Bernhard Fischer von Erlach, tem 80 metros de comprimento e 20 metros de altura, e abriga 200.000 volumes encadernados em couro e ouro. No teto, afrescos de Daniel Gran representam a Apoteose de Carlos VI. Nas laterais, estátuas de mármore dos Habsburgos e globos terrestres e celestes do século XVII completam a cena.
 
 A experiência: Vocês entram e o silêncio é quase solene. A luz natural entra pelas janelas enormes, refletindo nas lombadas douradas. O aroma é de papel antigo e madeira. É um dos lugares mais fotografados de Viena — e mesmo as fotos não fazem justiça.
 
@@ -610,6 +575,8 @@ Resumo do dia 5:
 - Nível: moderado a intenso (o dia mais longo em Viena, mas com muitas paradas)
 - Alívio opcional: bonde ou táxi entre o Stadtpark e a Karlskirche para poupar as pernas
 
+Boa noite. Amanhã Schönbrunn e a valsa esperam por vocês.
+
 ---
 
 ## DIA 6 - QUINTA-FEIRA, 8 DE OUTUBRO DE 2026
@@ -656,7 +623,7 @@ O Palácio de Schönbrunn fica a apenas 5 minutos de táxi do hotel ibis Wien Ma
 
 Schönbrunn é a "Versalhes de Viena". Residência de verão dos Habsburgos, o palácio tem 1.441 cômodos e jardins de 160 hectares. É Patrimônio da Humanidade pela UNESCO desde 1996.
 
-Visita: quinta-feira, 08/10/2026, já reservada para o grupo.
+Visita: quinta-feira, 8 de outubro de 2026, já reservada para o grupo.
 
 Horário: 12:30 (última entrada para o Classic Pass)
 
@@ -736,6 +703,8 @@ Resumo do dia 6:
 - Tempo de caminhada: 1h10
 - Nível: leve a moderado (subida suave até a Gloriette)
 
+Durmam bem, com a música do concerto ainda no ouvido. Amanhã é dia de despedida.
+
 ---
 
 ## DIA 7 - SEXTA-FEIRA, 9 DE OUTUBRO DE 2026
@@ -746,7 +715,7 @@ A DESPEDIDA - ENTRE KLIMT E PRAGA
 
 Check-out: até 12:00
 
-Trem: RJX 56 (Railjet Express)
+Trem: o Railjet Express número cinquenta e seis da ÖBB (RJX 56)
 
 Partida: 15:10 - Wien Hauptbahnhof
 
@@ -766,7 +735,7 @@ Temperatura: 6°C a 15°C
 
 14:00 - Chegada à Wien Hauptbahnhof
 
-15:10 - Partida do trem RJX 56
+15:10 - Partida do trem (RJX 56)
 
 19:23 - Chegada a Praha hlavní nádraží
 
@@ -846,11 +815,11 @@ Check-out formal ao meio-dia, com as malas guardadas com o staff enquanto vocês
 
 Táxi (cerca de €12 / R$ 72) ou o Bonde 18, que sai de Westbahnhof e chega direto à Wien Hauptbahnhof em 15 a 18 minutos, sem baldeação. Cheguem com pelo menos 45 minutos de antecedência — vocês têm mais de uma hora de folga antes da partida.
 
-### 15:10 — O TREM RJX 56 PARA PRAGA
+### 15:10 — O TREM RAILJET EXPRESS PARA PRAGA
 
 [Wien Hbf → Praha hlavní nádraží (rota)](https://www.google.com/maps/dir/Wien+Hauptbahnhof,+Gertrude-Fr%C3%B6hlich-Sandner-Stra%C3%9Fe+3,+1100+Wien/Praha+hlavn%C3%AD+n%C3%A1dra%C5%BE%C3%AD,+Wilsonova+300,+120+00+Praha+2)
 
-O Railjet Express é o trem mais moderno da ÖBB (ferrovias austríacas). Conforto de primeira classe a preços acessíveis.
+O Railjet Express, o trem número cinquenta e seis da ÖBB (RJX 56), é o mais moderno das ferrovias austríacas. Conforto de primeira classe a preços acessíveis.
 
 A bordo:
 
@@ -863,7 +832,7 @@ A bordo:
 
 A paisagem: O trem parte de Viena e em poucos minutos vocês estão nos campos da Baixa Áustria. Depois, as colinas da Morávia (República Tcheca). A fronteira em Břeclav é imperceptível — Espaço Schengen, sem controle de passaporte. Na última hora, as florestas densas da Boêmia. E então, Praga.
 
-Dica: Sentem-se do lado direito do trem (no sentido da viagem). As melhores vistas das paisagens da Morávia estão deste lado.
+Dica local: Sentem-se do lado direito do trem (no sentido da viagem). As melhores vistas das paisagens da Morávia estão deste lado.
 
 Duração: 4 horas e 13 minutos de puro prazer ferroviário.
 
