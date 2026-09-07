@@ -400,9 +400,7 @@ Noite no Bastião: sobretudo ou trench coat. A temperatura cai para 6 a 10°C. L
 
 09:10 — Chegada à Basílica de Santo Estevão
 
-10:00 às 11:00 — Nagymise com órgão e coral
-
-11:00 às 11:45 — Interior da Basílica, Mão Direita de Santo Estevão
+10:00 às 11:45 — Interior da Basílica, Mão Direita de Santo Estevão
 
 11:45 às 12:30 — Tempo livre, caminhada pela Andrássy út
 
@@ -416,7 +414,7 @@ Noite no Bastião: sobretudo ou trench coat. A temperatura cai para 6 a 10°C. L
 
 19:15 — Entrada na Igreja de Matias
 
-19:30 às 20:30 — Missa com órgão
+19:30 às 20:30 — Igreja de Matias por dentro
 
 20:30 às 21:15 — Bastião iluminado, vista noturna
 
@@ -448,7 +446,6 @@ Panorâmica do terraço e tesouro: 5.000 HUF (13 euros / R$ 73).
 
 Combo completo: 6.800 HUF (18 euros / R$ 99).
 
-A missa é gratuita.
 
 A Mão Direita de Santo Estevão: no interior, em uma capela dourada atrás do altar-mor, está a relíquia mais sagrada da Hungria: a mão mumificada do primeiro rei húngaro, coroado no ano 1000. Santo Estevão (975–1038) foi o homem que transformou tribos nômades em uma nação cristã. A mão tem mais de mil anos. Diz a lenda que, se desaparecer, a Hungria cairá.
 
