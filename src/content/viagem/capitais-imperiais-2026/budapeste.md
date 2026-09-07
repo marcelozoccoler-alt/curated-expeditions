@@ -244,6 +244,9 @@ Personagem: a praça em frente ao hotel leva o nome de Mór Jókai (1825–1904)
 
 [Ver no Google Maps](https://www.google.com/maps/search/?api=1&query=Medos%20Hotel%2C%20J%C3%B3kai%20t%C3%A9r%209%2C%201061%20Budapest)
 
+Nota de câmbio: as conversões em reais deste capítulo usam o câmbio de 7 de setembro de 2026 (€1 ≈ R$ 6,00; 1.000 HUF ≈ R$ 16,40; 100 CZK ≈ R$ 24,60; 1 TRY ≈ R$ 0,11). Tudo o que não está incluído no roteiro aparece na moeda local com o equivalente aproximado em reais — confiram a cotação no dia do pagamento.
+
+
 16:00 às 17:15 — DESCANSO
 
 Banho, troca de roupa, hidratação. O ritmo slow travel respeita o corpo.
