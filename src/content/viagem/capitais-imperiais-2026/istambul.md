@@ -449,7 +449,7 @@ Três monumentos que sobreviveram:
 
 Lanche leve:
 
-Como à tarde vocês terão o evento, nada de almoço pesado. Sentem-se num banco do parque ou num café com vista para a Mesquita Azul e peçam um lanche rápido: um simit (o pão com gergelim), um börek (folhado de queijo ou espinafre), um ayran (iogurte salgado) ou um çay. O çay turco custa de 10 a 20 TRY (€0,30–0,55 / R$ 1,65–3,30).
+Como à tarde vocês terão o evento, nada de almoço pesado. Sentem-se num banco do parque ou num café com vista para a Mesquita Azul e peçam um lanche rápido: um simit (o pão com gergelim), um börek (folhado de queijo ou espinafre), um ayran (iogurte salgado) ou um çay. O çay turco custa de 10 a 20 TRY (cerca de R$ 1,10–2,20).
 
 Observem a vida passar: turistas, fiéis, vendedores de simit, gatos. É a pausa perfeita antes do Gran Bazar.
 
