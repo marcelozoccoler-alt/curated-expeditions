@@ -898,8 +898,6 @@ EuroCity 142, Budapeste Keleti para Wien Hauptbahnhof.
 
 Composição: vagões de primeira e segunda classe, vagão-restaurante, ar-condicionado, Wi-Fi intermitente, tomadas em cada assento.
 
-Valor: incluso no pacote.
-
 Dica: sentem-se do lado esquerdo na saída de Budapeste. Nos primeiros 15 minutos, o trem acompanha o Danúbio, e vocês verão o rio pela última vez — agora do outro lado, de um ângulo diferente, como um adeus silencioso.
 
 ### O TRAJETO — SOBRE TRILHOS DE IMPÉRIO
