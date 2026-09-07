@@ -425,7 +425,7 @@ O que vocês verão:
 
 A partir de 15 de janeiro de 2024, a visita turística à Hagia Sophia mudou. O piso térreo é reservado exclusivamente para oração (acesso gratuito apenas para fiéis muçulmanos). Os visitantes internacionais acessam a galeria superior — e é lá que está a experiência mais impressionante.
 
-Na galeria superior (€25 por pessoa):
+Na galeria superior:
 
 - Os mosaicos bizantinos que sobreviveram séculos: a Deesis (Cristo Pantocrator ladeado pela Virgem Maria e São João Batista, século XIII) é considerada uma das obras-primas da arte bizantina mundial — as expressões faciais são de um realismo comovente
 - A vista da nave central do alto da galeria: a cúpula de 31 metros de diâmetro a 56 metros do chão, suspensa como um milagre da engenharia
@@ -433,14 +433,7 @@ Na galeria superior (€25 por pessoa):
 - O mosaico do Imperador Constantino IX e a Imperatriz Zoe (século XI), com os soberanos bizantinos oferecendo dádivas a Cristo
 - O áudio guia incluído no ingresso (23 idiomas) que explica cada detalhe
 
-Informações práticas atualizadas (2026):
-
-- Entrada: €25 por adulto. Crianças menores de 8 anos: grátis (necessário documento).
-- Museum Pass Istanbul NÃO é válido — ingresso separado obrigatório.
-- Compra antecipada online recomendada (site oficial: muze.gen.tr/muze-detay/ayasofya) — as filas podem chegar a 60–90 minutos no verão, 20–30 minutos em outubro.
-- Sextas-feiras: fechada para turistas entre 12:00 e 14:30 (oração de sexta-feira). Mas vocês estarão lá na terça-feira — sem problemas.
-- Horário: 09:00 às 19:30 (última entrada às 19:00).
-- Vestimenta: mulheres devem cobrir a cabeça com lenço (disponível na entrada). Homens e mulheres: pernas e ombros cobertos. Sapatos removidos na entrada da galeria.
+Vocês entram pela galeria superior, reservada aos visitantes internacionais. A visita é incluída no roteiro — não precisam se preocupar com ingresso, fila ou horário. Basta acompanhar o coordenador.
 
 Personagem: quando vocês olham para a cúpula, pensem em Isidoro de Mileto — o matemático que a projetou. Quando a cúpula original desabou em 558, apenas cinco anos após a inauguração, ele já havia morrido. Foi seu sobrinho, Isidoro, o Jovem, quem a reconstruiu, mais alta e mais ousada. A beleza, em Istambul, é sempre obra de muitas mãos e muitas gerações.
 
