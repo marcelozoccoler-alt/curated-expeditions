@@ -164,9 +164,9 @@ No século XVI, o rabino Judah Loew do Bairro Judeu teria moldado uma criatura d
 
 A escultura de David Černý (2014) no shopping Quadrio: 10,6 metros de altura, 24 toneladas, 42 painéis de aço inoxidável que giram independentemente. A cada hora, o rosto de Franz Kafka se forma e se desfaz diante dos olhos. É a metáfora perfeita do escritor: instável, fragmentado, genial.
 
-### 5. OS MONGES DE STRAHOV E OS 883 ANOS DE CANTO
+### 5. OS MONGES DE STRAHOV E OS 883 ANOS DE HISTÓRIA
 
-O Monastério de Strahov foi fundado em 1143 por monges premonstratenses. Desde então, todos os dias, eles cantam as mesmas orações, as mesmas notas, os mesmos salmos. O mosteiro sobreviveu a invasões, incêndios e ao regime comunista (fechado em 1950, monges presos ou exilados). Reabriu em 1990. O canto recomeçou, como se nunca tivesse parado.
+O Monastério de Strahov foi fundado em 1143 por monges premonstratenses. O mosteiro sobreviveu a invasões, incêndios e ao regime comunista (fechado em 1950, monges presos ou exilados). Reabriu em 1990. A vida recomeçou, como se nunca tivesse parado.
 
 ### 6. O CEMITÉRIO JUDEU E AS 12 CAMADAS DE ALMAS
 
