@@ -837,10 +837,6 @@ Espaço reservado para as fotos e vídeos de DIA 13 — QUINTA-FEIRA, 15 DE OUTU
 
 ## DICAS FINAIS PARA ISTAMBUL
 
-- Comprem a İstanbulkart no primeiro dia — ela abre toda a cidade: bonde, ferry, metrô, Tünel. Custo do cartão: 130 TRY. Recarregável
-- Reservem Hagia Sophia online com antecedência — muze.gen.tr/muze-detay/ayasofya. As filas podem ser longas
-- Reservem Chora (Kariye Camii) online — muze.gen.tr/muze-detay/kariye. Fechada às sextas-feiras; vocês vão na quarta — perfeito
-- Reservem o espetáculo folclórico com antecedência — lugar limitado
 - Levem dinheiro vivo (TRY) — pequenas compras, çay, simit, barracas de rua
 - Vistam-se com respeito nas mesquitas — lenço para mulheres (disponível na entrada), ombros e joelhos cobertos para ambos
 - Pechinchar no Gran Bazar é esperado e divertido — comecem com 40–50% do preço pedido
