@@ -474,7 +474,9 @@ Valor: 500 HUF na pré-compra, no guichê ou no aplicativo BudapestGO (cerca de 
 
 Residência dos reis húngaros desde o século XIII. Fundado por Béla IV (1206–1270), o rei que reconstruiu a Hungria após a devastação dos mongóis em 1241. Béla fez um juramento: construiria uma fortaleza inexpugnável no alto da colina. Cumpriu a promessa.
 
-Ampliado pelos Habsburgos, ocupado pelos turcos otomanos por 145 anos, bombardeado na Segunda Guerra Mundial — o Castelo sobreviveu a tudo. Entrada nos pátios e jardins gratuita.
+Ampliado pelos Habsburgos, ocupado pelos turcos otomanos por 145 anos, bombardeado na Segunda Guerra Mundial — o Castelo sobreviveu a tudo.
+
+A visita do grupo é toda por fora: pátios, jardins, muralhas e fachadas — com o Danúbio e Peste se abrindo aos pés da colina. A entrada nesses espaços é gratuita; os museus internos ficam para uma próxima viagem.
 
 Personagens: no Castelo, pensem em Sisi e Francisco José. Em 8 de junho de 1867, após a missa de coroação na Igreja de Matias, o casal imperial desceu a colina até o palácio para o banquete. Francisco José foi coroado com a Coroa de Santo Estevão — o mesmo símbolo que coroou reis por 900 anos. Sisi, como rainha consorte, recebeu a coroa apenas tocada em seu ombro direito. Ela chorou de emoção. Os húngaros a amavam como a nenhuma imperatriz austríaca.
 
@@ -488,11 +490,9 @@ Site oficial: budacastlebudapest.com
 
 Mirante em forma de fortaleza medieval, construído entre 1895 e 1902 por Frigyes Schulek (1841–1919), com sete torres de pedra branca representando as sete tribos magiares que cruzaram os Cárpatos em 896, lideradas pelo príncipe Árpád.
 
-Nível inferior: gratuito.
+O grupo fica no nível inferior, que é gratuito — e é de lá que sai a vista clássica do Parlamento do outro lado do rio.
 
-Nível superior, torres: 1.700 HUF, cerca de R$ 28.
-
-Desconto para maiores de 65 anos: 50%, 850 HUF, cerca de R$ 14.
+Quem quiser subir às torres por conta própria: 1.700 HUF, cerca de R$ 28. Maiores de 65 anos pagam meia: 850 HUF, cerca de R$ 14.
 
 [Ver no Google Maps](https://www.google.com/maps/search/?api=1&query=Fisherman%27s%20Bastion%2C%20Budapest)
 
