@@ -469,14 +469,14 @@ Perder-se aqui não é um acidente — é o objetivo. Cada viela revela algo nov
 
 O que comprar no Gran Bazar:
 
-- Especiarias: açafrão turco, sumac (ácido e cítrico), pul biber (pimenta síria), chá de maçã. 20–100 TRY
-- Lokum (delícia turca): Loja Hacı Bekir (desde 1777): a receita original. Com pistache, água de rosas, romã. 50–150 TRY/kg
-- Cerâmica de Iznik: pratos, azulejos e tigelas pintados à mão com tulipas e arabescos. 50–500 TRY
-- Lâmpadas de mosaico: vidro colorido e latão, artesanais. Funcionam com lâmpada LED. 100–500 TRY
-- Joias de prata com olho turco (nazar): o nazar boncuk — amuleto azul contra mau-olhado. 20–200 TRY
-- Tapetes e kilims: feitos à mão na Anatólia. Os vendedores desenrolam tapete após tapete com chá oferecido. 1.000–20.000+ TRY
-- Lenços de seda e pashminas: cores vibrantes, tecidos leves. 50–200 TRY
-- Café turco: torrado e moído finíssimo. Comprar com cezve (a panela de cobre) é um bônus. 30–100 TRY
+- Especiarias: açafrão turco, sumac (ácido e cítrico), pul biber (pimenta síria), chá de maçã. 20–100 TRY (cerca de R$ 2,20–11,00)
+- Lokum (delícia turca): Loja Hacı Bekir (desde 1777): a receita original. Com pistache, água de rosas, romã. 50–150 TRY/kg (cerca de R$ 5,50–16,50)
+- Cerâmica de Iznik: pratos, azulejos e tigelas pintados à mão com tulipas e arabescos. 50–500 TRY (cerca de R$ 5,50–55,00)
+- Lâmpadas de mosaico: vidro colorido e latão, artesanais. Funcionam com lâmpada LED. 100–500 TRY (cerca de R$ 11,00–55,00)
+- Joias de prata com olho turco (nazar): o nazar boncuk — amuleto azul contra mau-olhado. 20–200 TRY (cerca de R$ 2,20–22,00)
+- Tapetes e kilims: feitos à mão na Anatólia. Os vendedores desenrolam tapete após tapete com chá oferecido. 1.000–20.000+ TRY (cerca de R$ 110–2.200+)
+- Lenços de seda e pashminas: cores vibrantes, tecidos leves. 50–200 TRY (cerca de R$ 5,50–22,00)
+- Café turco: torrado e moído finíssimo. Comprar com cezve (a panela de cobre) é um bônus. 30–100 TRY (cerca de R$ 3,30–11,00)
 
 A arte de pechinchar:
 
