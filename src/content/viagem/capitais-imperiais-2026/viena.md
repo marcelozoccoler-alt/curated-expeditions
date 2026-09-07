@@ -153,7 +153,7 @@ Em 1857, o Imperador Francisco José ordenou a demolição das muralhas medievai
 
 Vocês vão ficar no ibis Wien Mariahilf, na Mariahilfer Gürtel 22-24, 1060 Viena ([ver no Google Maps](https://www.google.com/maps/search/?api=1&query=ibis%20Wien%20Mariahilf); site oficial: ibis.accor.com).
 
-É um hotel que funciona bem para o grupo: funcional e confiável, com quartos confortáveis, decoração clean e tudo o que é necessário, sem excessos. O café da manhã, incluso, é um buffet completo, com pães, frios, ovos, frutas, cafés e sucos. O Wi-Fi é gratuito em todo o hotel. A localização é estratégica — dez minutos de metrô até o centro histórico e cinco minutos de carro até o Palácio de Schönbrunn —, e o metrô fica praticamente na porta: as estações Gumpendorfer Straße (U6) e Westbahnhof (U3/U6) estão a poucos passos. E o custo-benefício é bom, dentro dos padrões vienenses.
+É um hotel que funciona bem para o grupo: funcional e confiável, com quartos confortáveis, decoração clean e tudo o que é necessário, sem excessos. O café da manhã, incluso, é um buffet completo, com pães, frios, ovos, frutas, cafés e sucos. O Wi-Fi é gratuito em todo o hotel. A localização é estratégica — dez minutos de metrô até o centro histórico e cinco minutos de carro até o Palácio de Schönbrunn —, e o metrô fica bem perto: a estação Westbahnhof (U3/U6) está a cerca de cinco minutos a pé, e a Gumpendorfer Straße (U6) a uns dez minutos. E o custo-benefício é bom, dentro dos padrões vienenses.
 
 Em termos de acessibilidade e conforto, o hotel tem elevadores em todos os andares, quartos adaptados disponíveis mediante solicitação na reserva, equipe treinada para assistência e um check-in rápido e eficiente.
 
@@ -163,7 +163,7 @@ Em termos de acessibilidade e conforto, o hotel tem elevadores em todos os andar
 
 ### TRANSPORTE
 
-Para se mover por Viena, vocês vão contar com um metrô (U-Bahn) eficiente e limpo, com elevadores na maioria das estações — as linhas U3 e U6, aliás, servem diretamente o hotel. Os bondes (Tram) têm piso baixo e acesso facilitado, e são uma forma agradável de ver a cidade passar pela janela. Táxis são abundantes e com tarifas razoáveis, entre €5 e €12 (cerca de R$ 30 a R$ 72) para trajetos no centro, e o Uber também está disponível e é confiável. Mas na prática, boa parte do passeio será a pé: o centro histórico, a Innere Stadt, é plano e concentrado.
+Para se mover por Viena, vocês vão contar com um metrô (U-Bahn) eficiente e limpo, com elevadores na maioria das estações — as linhas U3 e U6 param na Westbahnhof, a cinco minutos a pé do hotel. Os bondes (Tram) têm piso baixo e acesso facilitado, e são uma forma agradável de ver a cidade passar pela janela. Táxis são abundantes e com tarifas razoáveis, entre €5 e €12 (cerca de R$ 30 a R$ 72) para trajetos no centro, e o Uber também está disponível e é confiável. Mas na prática, boa parte do passeio será a pé: o centro histórico, a Innere Stadt, é plano e concentrado.
 
 Nota de câmbio: as conversões em reais deste capítulo usam o câmbio de 7 de setembro de 2026 (€1 ≈ R$ 6,00; 1.000 HUF ≈ R$ 16,40; 100 CZK ≈ R$ 24,60; 1 TRY ≈ R$ 0,11). Tudo o que não está incluído no roteiro aparece na moeda local com o equivalente aproximado em reais — confiram a cotação no dia do pagamento.
 
@@ -223,7 +223,7 @@ Temperatura: 7°C a 15°C
 
 ### 13:40 — TRASLADO PARA O HOTEL
 
-[Wien Hbf → ibis Wien Mariahilf](https://www.google.com/maps/dir/Wien+Hauptbahnhof,+Wien/ibis+Wien+Mariahilf,+Mariahilfer+G%C3%BCrtel+22-24,+1060+Wien)
+[Wien Hbf → ibis Wien Mariahilf](https://www.google.com/maps/dir/?api=1&origin=Wien%20Hauptbahnhof%2C%20Wien&destination=ibis%20Wien%20Mariahilf%2C%20Mariahilfer%20G%C3%BCrtel%2022-24%2C%201060%20Wien&travelmode=transit)
 
 O carro contorna a Gürtel, a avenida que circunda o centro de Viena. Em menos de dez minutos, vocês avistam a fachada do ibis. O motorista segue pela margem do cinturão viário — é um trajeto curto, mas já revela o contraste entre a Viena imperial e a Viena moderna.
 
@@ -239,7 +239,7 @@ Banho, troca de roupa, um momento de pausa depois da viagem. É importante chega
 
 ### 15:45 — RUMO AO CORAÇÃO DE VIENA
 
-[Hotel → Stephansplatz](https://www.google.com/maps/dir/ibis+Wien+Mariahilf,+Mariahilfer+G%C3%BCrtel+22-24,+1060+Wien/Stephansplatz,+1010+Wien)
+[Hotel → Stephansplatz](https://www.google.com/maps/dir/?api=1&origin=ibis%20Wien%20Mariahilf%2C%20Mariahilfer%20G%C3%BCrtel%2022-24%2C%201060%20Wien&destination=Stephansplatz%2C%201010%20Wien&travelmode=walking)
 
 Metrô U3 a partir de Westbahnhof (5 minutos a pé do hotel) até Stephansplatz. Em 10 minutos, vocês emergem na praça mais emblemática de Viena. A escada rolante sobe e, de repente, a torre gótica da Stephansdom aparece diante de vocês — imponente, escura, inconfundível.
 
@@ -254,7 +254,7 @@ O que ver lá dentro:
 - A nave gótica, com seus pilares que se elevam até 28 metros
 - O púlpito de Anton Pilgram (século XV), com seu autorretrato espiando por uma janelinha de pedra
 - O altar-mor barroco, com o martírio de Santo Estêvão
-- O túmulo do Imperador Frederico III (mármore vermelho, 45 toneladas)
+- O túmulo do Imperador Frederico III (mármore vermelho, 8 toneladas só na tampa)
 
 História que emociona: Em 12 de abril de 1945, um incêndio devastou o telhado e parte da estrutura. A catedral ardeu enquanto Viena queimava. Mas o povo vienense, mal terminada a guerra, organizou campanhas de doação e reconstruiu tudo. A reabertura em 1952 foi um símbolo do renascimento da Áustria.
 
@@ -269,7 +269,7 @@ Dica local: Na saída, olhem para cima. O telhado visto da Stephansplatz, com o 
 
 ### 17:15 — GRABEN E PETERSPLATZ
 
-[Stephansdom → Graben → Petersplatz](https://www.google.com/maps/dir/Stephansdom,+Stephansplatz+1,+1010+Wien/Graben,+1010+Wien/Petersplatz,+1010+Wien)
+[Stephansdom → Graben → Petersplatz](https://www.google.com/maps/dir/?api=1&origin=Stephansdom%2C%20Stephansplatz%203%2C%201010%20Wien&destination=Petersplatz%2C%201010%20Wien&waypoints=Graben%2C%201010%20Wien&travelmode=walking)
 
 Saindo da catedral, vocês entram no Graben — a rua de pedestres mais elegante de Viena. Lojas de luxo, cafés tradicionais, artistas de rua. No meio do calçadão, a Pestsäule (Coluna da Peste) brilha em ouro barroco.
 
@@ -305,7 +305,7 @@ Antes do jantar, voltamos à Peterskirche. A igreja recebe os visitantes também
 
 ### 19:45 — JANTAR VIENENSE NO FIGLMÜLLER
 
-[Peterskirche → Figlmüller](https://www.google.com/maps/dir/Peterskirche,+Petersplatz+1,+1010+Wien/Figlm%C3%BCller,+Wollzeile+5,+1010+Wien)
+[Peterskirche → Figlmüller](https://www.google.com/maps/dir/?api=1&origin=Peterskirche%2C%20Petersplatz%201%2C%201010%20Wien&destination=Figlm%C3%BCller%2C%20Wollzeile%205%2C%201010%20Wien&travelmode=walking)
 
 A apenas 5 minutos a pé da igreja, o Figlmüller é uma instituição vienense desde 1905. O restaurante é famoso por uma única coisa — e a faz como ninguém: o Wiener Schnitzel.
 
@@ -324,7 +324,7 @@ Alternativa se estiver lotado: O Lugeck, a 3 minutos dali, é do mesmo grupo e i
 
 ### 21:30 — RETORNO AO HOTEL
 
-[Figlmüller → Hotel](https://www.google.com/maps/dir/Figlm%C3%BCller,+Wollzeile+5,+1010+Wien/ibis+Wien+Mariahilf,+Mariahilfer+G%C3%BCrtel+22-24,+1060+Wien)
+[Figlmüller → Hotel](https://www.google.com/maps/dir/?api=1&origin=Figlm%C3%BCller%2C%20Wollzeile%205%2C%201010%20Wien&destination=ibis%20Wien%20Mariahilf%2C%20Mariahilfer%20G%C3%BCrtel%2022-24%2C%201060%20Wien&travelmode=walking)
 
 Caminhada de 5 minutos até Stephansplatz, metrô U3 (direção Ottakring) até Westbahnhof, 5 minutos a pé até o hotel. Ou táxi por cerca de €10 (R$ 60).
 
@@ -386,13 +386,13 @@ O café da manhã do ibis é completo: pães austríacos (o famoso Semmel), frio
 
 ### 08:45 — SAÍDA PARA O CENTRO
 
-[Hotel → Hofburg](https://www.google.com/maps/dir/ibis+Wien+Mariahilf,+Mariahilfer+G%C3%BCrtel+22-24,+1060+Wien/Hofburg,+Michaelerkuppel,+1010+Wien)
+[Hotel → Hofburg](https://www.google.com/maps/dir/?api=1&origin=ibis%20Wien%20Mariahilf%2C%20Mariahilfer%20G%C3%BCrtel%2022-24%2C%201060%20Wien&destination=Hofburg%2C%20Michaelerkuppel%2C%201010%20Wien&travelmode=walking)
 
-Metrô U3 até Herrengasse. Em 12 minutos, vocês estão diante da Michaelerkuppel, a cúpula de entrada do Hofburg.
+Metrô U3 até Herrengasse. Em cerca de 8 minutos, vocês estão diante da Michaelerkuppel, a cúpula de entrada do Hofburg.
 
 ### 09:15 — O COMPLEXO DO HOFBURG
 
-[Ver no Google Maps](https://www.google.com/maps/search/?api=1&query=Hofburg%2C%20Vienna)
+[Ver no Google Maps](https://www.google.com/maps/search/?api=1&query=Hofburg%20Wien%2C%20Michaelerkuppel%2C%201010%20Wien)
 
 O Hofburg não é um palácio. É uma cidade dentro da cidade. Durante mais de seis séculos (1278–1918), este foi o centro do poder dos Habsburgos.
 
@@ -411,7 +411,7 @@ Site oficial: hofburg-wien.at
 
 ### 09:30 — A BIBLIOTECA NACIONAL AUSTRIACA (PRUNKSAAL)
 
-[Hofburg → Biblioteca](https://www.google.com/maps/dir/Hofburg,+Michaelerkuppel,+1010+Wien/%C3%96sterreichische+Nationalbibliothek,+Josefsplatz+1,+1010+Wien)
+[Hofburg → Biblioteca](https://www.google.com/maps/dir/?api=1&origin=Hofburg%2C%20Michaelerkuppel%2C%201010%20Wien&destination=%C3%96sterreichische%20Nationalbibliothek%2C%20Josefsplatz%201%2C%201010%20Wien&travelmode=walking)
 
 Preparem-se: vocês estão prestes a entrar na biblioteca mais bonita do mundo.
 
@@ -439,7 +439,7 @@ Foi nesta mesma praça que, em 15 de março de 1938, Hitler discursou para a mul
 
 ### 12:30 — ALMOÇO NO BIERHOF
 
-[Hofburg → Bierhof](https://www.google.com/maps/dir/Hofburg,+Michaelerkuppel,+1010+Wien/Bierhof,+Haarhof+3,+1010+Wien)
+[Hofburg → Bierhof](https://www.google.com/maps/dir/?api=1&origin=Hofburg%2C%20Michaelerkuppel%2C%201010%20Wien&destination=Bierhof%2C%20Haarhof%203%2C%201010%20Wien&travelmode=walking)
 
 O Bierhof é um daqueles lugares que só os locais conhecem. Escondido numa ruela chamada Haarhof, a 3 minutos do Hofburg, é o oposto dos restaurantes turísticos — simples, autêntico, delicioso.
 
@@ -453,7 +453,7 @@ Preço: €10-16 por pessoa (cerca de R$ 60 a R$ 96)
 
 ### 13:45 — DEMEL, A CONFEITARIA IMPERIAL
 
-[Bierhof → Demel](https://www.google.com/maps/dir/Bierhof,+Haarhof+3,+1010+Wien/Demel,+Kohlmarkt+14,+1010+Wien)
+[Bierhof → Demel](https://www.google.com/maps/dir/?api=1&origin=Bierhof%2C%20Haarhof%203%2C%201010%20Wien&destination=Demel%2C%20Kohlmarkt%2014%2C%201010%20Wien&travelmode=walking)
 
 Caminhada de 8 minutos até o Kohlmarkt, a rua das lojas de luxo. O número 14 abriga a Demel — a confeitaria mais famosa de Viena.
 
@@ -471,11 +471,11 @@ Curiosidade: O Demel e o Hotel Sacher brigam na justiça há décadas sobre quem
 
 Site oficial: demel.com
 
-[Ver no Google Maps](https://www.google.com/maps/search/?api=1&query=Demel%2C%20Vienna)
+[Ver no Google Maps](https://www.google.com/maps/search/?api=1&query=Demel%2C%20Kohlmarkt%2014%2C%201010%20Wien)
 
 ### 14:30 — A RINGSTRASSE, A AVENIDA DO IMPÉRIO
 
-[Demel → Parlamento / Ringstrasse](https://www.google.com/maps/dir/Demel,+Kohlmarkt+14,+1010+Wien/%C3%96sterreichisches+Parlament,+Dr.-Karl-Renner-Ring+3,+1010+Wien)
+[Demel → Parlamento / Ringstrasse](https://www.google.com/maps/dir/?api=1&origin=Demel%2C%20Kohlmarkt%2014%2C%201010%20Wien&destination=%C3%96sterreichisches%20Parlament%2C%20Dr.-Karl-Renner-Ring%203%2C%201010%20Wien&travelmode=walking)
 
 Saindo do Demel, vocês caminham até a Ringstrasse — o boulevard circular mais famoso da Europa.
 
@@ -490,7 +490,7 @@ O que vocês verão ao longo dela:
 
 ### 15:00 — STADTPARK E A ESTÁTUA DE JOHANN STRAUSS
 
-[Parlamento → Stadtpark](https://www.google.com/maps/dir/%C3%96sterreichisches+Parlament,+Dr.-Karl-Renner-Ring+3,+1010+Wien/Stadtpark,+Johann+Strauss+Denkmal,+1030+Wien)
+[Parlamento → Stadtpark](https://www.google.com/maps/dir/?api=1&origin=%C3%96sterreichisches%20Parlament%2C%20Dr.-Karl-Renner-Ring%203%2C%201010%20Wien&destination=Stadtpark%2C%20Johann%20Strauss%20Denkmal%2C%201030%20Wien&travelmode=walking)
 
 O Stadtpark é o parque urbano mais amado de Viena. Inaugurado em 1862, foi o primeiro parque público da cidade. Mas vocês vêm aqui por um motivo específico: a estátua dourada de Johann Strauss II.
 
@@ -502,7 +502,7 @@ Entrada: gratuita.
 
 ### 16:15 — KARLSKIRCHE, O ESPLENDOR BARROCO
 
-[Stadtpark → Karlskirche](https://www.google.com/maps/dir/Stadtpark,+Johann+Strauss+Denkmal,+1030+Wien/Karlskirche,+Karlsplatz+13,+1040+Wien)
+[Stadtpark → Karlskirche](https://www.google.com/maps/dir/?api=1&origin=Stadtpark%2C%20Johann%20Strauss%20Denkmal%2C%201030%20Wien&destination=Karlskirche%2C%20Karlsplatz%2013%2C%201040%20Wien&travelmode=walking)
 
 A Karlskirche (Igreja de São Carlos Borromeu) é a igreja mais cenográfica de Viena. Construída entre 1716 e 1737, é uma fusão única de estilos: fachada grega (com pórtico e colunas), duas colunas romanas (inspiradas na Coluna de Trajano), cúpula barroca alongada.
 
@@ -525,7 +525,7 @@ Informações práticas:
 
 ### 17:30 — NASCHMARKT, O MERCADO DAS ESPECIARIAS
 
-[Karlskirche → Naschmarkt](https://www.google.com/maps/dir/Karlskirche,+Karlsplatz+13,+1040+Wien/Naschmarkt,+1060+Wien)
+[Karlskirche → Naschmarkt](https://www.google.com/maps/dir/?api=1&origin=Karlskirche%2C%20Karlsplatz%2013%2C%201040%20Wien&destination=Naschmarkt%2C%201060%20Wien&travelmode=walking)
 
 A apenas 5 minutos a pé da Karlskirche, o Naschmarkt é uma festa para os sentidos. Mais de 120 barracas vendem de tudo: frutas secas, azeites, queijos, especiarias, azeitonas, peixes, pães artesanais, vinhos austríacos.
 
@@ -546,7 +546,7 @@ O sol se põe sobre os telhados de Viena. O céu do outono vienense ganha tons d
 
 ### 19:30 — JANTAR EM UM HEURIGER
 
-[Naschmarkt → Mayer am Pfarrplatz](https://www.google.com/maps/dir/Naschmarkt,+1060+Wien/Mayer+am+Pfarrplatz,+Pfarrplatz+2,+1190+Wien)
+[Naschmarkt → Mayer am Pfarrplatz](https://www.google.com/maps/dir/?api=1&origin=Naschmarkt%2C%201060%20Wien&destination=Mayer%20am%20Pfarrplatz%2C%20Pfarrplatz%202%2C%201190%20Wien&travelmode=walking)
 
 Um Heuriger é uma taberna de vinho típica dos arredores de Viena. A tradição remonta a 1784, quando o Imperador José II permitiu que os vinicultores vendessem seu próprio vinho diretamente ao público.
 
@@ -615,7 +615,7 @@ Mais tranquilo hoje. O dia é dedicado a uma única atração — mas que atraç
 
 ### 10:00 — SAÍDA PARA SCHÖNBRUNN
 
-[Hotel → Jardins de Schönbrunn](https://www.google.com/maps/dir/ibis+Wien+Mariahilf,+Mariahilfer+G%C3%BCrtel+22-24,+1060+Wien/Sch%C3%B6nbrunn+Palace+Gardens,+Sch%C3%B6nbrunner+Schlossstra%C3%9Fe,+1130+Wien)
+[Hotel → Jardins de Schönbrunn](https://www.google.com/maps/dir/?api=1&origin=ibis%20Wien%20Mariahilf%2C%20Mariahilfer%20G%C3%BCrtel%2022-24%2C%201060%20Wien&destination=Sch%C3%B6nbrunn%20Palace%20Gardens%2C%20Sch%C3%B6nbrunner%20Schlossstra%C3%9Fe%2C%201130%20Wien&travelmode=walking)
 
 O Palácio de Schönbrunn fica a apenas 5 minutos de táxi do hotel ibis Wien Mariahilf. Esta é uma das grandes vantagens da localização do hotel. A pé, seriam cerca de 3,5 km (35 a 40 minutos) — para o grupo, o táxi ou o transporte público é a escolha sensata.
 
@@ -639,11 +639,11 @@ O que vocês explorarão:
 
 Great Parterre: O tapete verde central, com 400 metros de extensão, ladeado por 32 estátuas mitológicas representando virtudes e divindades. No centro, a Grande Fonte. Ao fundo, a colina onde está a Gloriette. É o cenário de cartão-postal de Viena.
 
-Fonte de Netuno: [Jardins → Fonte de Netuno](https://www.google.com/maps/dir/Sch%C3%B6nbrunn+Palace+Gardens,+Sch%C3%B6nbrunner+Schlossstra%C3%9Fe,+1130+Wien/Neptunbrunnen,+Sch%C3%B6nbrunner+Schlossstra%C3%9Fe,+1130+Wien)
+Fonte de Netuno: [Jardins → Fonte de Netuno](https://www.google.com/maps/dir/?api=1&origin=Sch%C3%B6nbrunn%20Palace%20Gardens%2C%20Sch%C3%B6nbrunner%20Schlossstra%C3%9Fe%2C%201130%20Wien&destination=Neptunbrunnen%2C%20Sch%C3%B6nbrunner%20Schlossstra%C3%9Fe%2C%201130%20Wien&travelmode=walking)
 
 No sopé da colina, Netuno com seu tridente comanda as águas, rodeado por ninfas e cavalos-marinhos. A fonte foi concluída em 1780, poucos meses antes da morte de Maria Teresa.
 
-A Gloriette: [Fonte de Netuno → Gloriette](https://www.google.com/maps/dir/Neptunbrunnen,+Sch%C3%B6nbrunner+Schlossstra%C3%9Fe,+1130+Wien/Gloriette,+Sch%C3%B6nbrunner+Schlossstra%C3%9Fe,+1130+Wien)
+A Gloriette: [Fonte de Netuno → Gloriette](https://www.google.com/maps/dir/?api=1&origin=Neptunbrunnen%2C%20Sch%C3%B6nbrunner%20Schlossstra%C3%9Fe%2C%201130%20Wien&destination=Gloriette%2C%20Sch%C3%B6nbrunner%20Schlossstra%C3%9Fe%2C%201130%20Wien&travelmode=walking)
 
 No alto da colina, a Gloriette foi construída em 1775 como "templo da fama" — uma colunata neoclássica com arcos de triunfo. De lá, tem-se a melhor vista panorâmica de Viena. O palácio, os jardins, a cidade inteira se estendem diante de vocês.
 
@@ -667,7 +667,7 @@ Se quiserem esticar, o centro fica no caminho. Mas a recomendação é priorizar
 
 ### 19:30 — SAÍDA PARA O CONCERTO EM SCHÖNBRUNN
 
-[Hotel → Palácio de Schönbrunn](https://www.google.com/maps/dir/ibis+Wien+Mariahilf,+Mariahilfer+G%C3%BCrtel+22-24,+1060+Wien/Schloss+Sch%C3%B6nbrunn)
+[Hotel → Palácio de Schönbrunn](https://www.google.com/maps/dir/?api=1&origin=ibis%20Wien%20Mariahilf%2C%20Mariahilfer%20G%C3%BCrtel%2022-24%2C%201060%20Wien&destination=Schloss%20Sch%C3%B6nbrunn&travelmode=walking)
 
 [Ver no Google Maps](https://www.google.com/maps/search/?api=1&query=Schloss%20Sch%C3%B6nbrunn%2C%20Vienna)
 
@@ -689,7 +689,7 @@ Durante duas horas, vocês ouvem a música que nasceu nesta cidade, tocada por m
 Informações práticas:
 
 - Duração: 2 horas (com intervalo)
-- Preço: €45-80 por pessoa (cerca de R$ 270 a R$ 480), dependendo da categoria do assento
+- Preço: cerca de €65 a €130 por pessoa (cerca de R$ 390 a R$ 780), dependendo da categoria do assento
 - Ingressos: site oficial de Schönbrunn
 - Chegar com 30 minutos de antecedência
 
@@ -802,7 +802,7 @@ Informações práticas:
 - Tempo recomendado: 1h30 a 2h
 - Horário: 9h às 18h
 
-[Ver no Google Maps](https://www.google.com/maps/search/?api=1&query=Belvedere%2C%20Vienna)
+[Ver no Google Maps](https://www.google.com/maps/search/?api=1&query=Oberes%20Belvedere%2C%20Prinz-Eugen-Stra%C3%9Fe%2027%2C%201030%20Wien)
 
 Jardins do Belvedere: Os jardins entre os dois palácios são gratuitos e espetaculares. Cascatas, fontes, estátuas mitológicas, canteiros geométricos. Do alto da escadaria do Belvedere Superior, tem-se uma vista perfeita do Belvedere Inferior emoldurado pelos jardins — e, ao fundo, as torres de Viena.
 
@@ -814,13 +814,13 @@ Check-out formal ao meio-dia, com as malas guardadas com o staff enquanto vocês
 
 ### 14:00 — CHEGADA À WIEN HAUPTBAHNHOF
 
-[Hotel → Wien Hauptbahnhof](https://www.google.com/maps/dir/ibis+Wien+Mariahilf,+Mariahilfer+G%C3%BCrtel+22-24,+1060+Wien/Wien+Hauptbahnhof,+Gertrude-Fr%C3%B6hlich-Sandner-Stra%C3%9Fe+3,+1100+Wien)
+[Hotel → Wien Hauptbahnhof](https://www.google.com/maps/dir/?api=1&origin=ibis%20Wien%20Mariahilf%2C%20Mariahilfer%20G%C3%BCrtel%2022-24%2C%201060%20Wien&destination=Wien%20Hauptbahnhof%2C%20Gertrude-Fr%C3%B6hlich-Sandner-Stra%C3%9Fe%203%2C%201100%20Wien&travelmode=transit)
 
 Táxi (cerca de €12 / R$ 72) ou o Bonde 18, que sai de Westbahnhof e chega direto à Wien Hauptbahnhof em 15 a 18 minutos, sem baldeação. Cheguem com pelo menos 45 minutos de antecedência — vocês têm mais de uma hora de folga antes da partida.
 
 ### 15:10 — O TREM RAILJET EXPRESS PARA PRAGA
 
-[Wien Hbf → Praha hlavní nádraží (rota)](https://www.google.com/maps/dir/Wien+Hauptbahnhof,+Gertrude-Fr%C3%B6hlich-Sandner-Stra%C3%9Fe+3,+1100+Wien/Praha+hlavn%C3%AD+n%C3%A1dra%C5%BE%C3%AD,+Wilsonova+300,+120+00+Praha+2)
+[Wien Hbf → Praha hlavní nádraží (rota)](https://www.google.com/maps/dir/?api=1&origin=Wien%20Hauptbahnhof%2C%20Gertrude-Fr%C3%B6hlich-Sandner-Stra%C3%9Fe%203%2C%201100%20Wien&destination=Praha%20hlavn%C3%AD%20n%C3%A1dra%C5%BE%C3%AD%2C%20Wilsonova%20300%2C%20120%2000%20Praha%202&travelmode=transit)
 
 O Railjet Express, o trem número cinquenta e seis da ÖBB (RJX 56), é o mais moderno das ferrovias austríacas. Conforto de primeira classe a preços acessíveis.
 

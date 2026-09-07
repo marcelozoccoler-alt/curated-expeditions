@@ -253,7 +253,7 @@ Banho, troca de roupa, hidratação. O ritmo slow travel respeita o corpo.
 
 ### 17:15 — A CAMINHADA COMEÇA
 
-[Trajeto completo da caminhada](https://www.google.com/maps/dir/Medos+Hotel,+J%C3%B3kai+t%C3%A9r+9,+1061+Budapest/Hungarian+Parliament+Building,+Kossuth+Lajos+t%C3%A9r+1-3,+1055+Budapest/Shoes+on+the+Danube,+Budapest,+Id.+Antall+J%C3%B3zsef+rkp.,+1054/Akad%C3%A9mia+2+ponton,+Budapest,+Id.+Antall+J%C3%B3zsef+rkp.,+1051/)
+[Trajeto completo da caminhada](https://www.google.com/maps/dir/?api=1&origin=Medos%20Hotel%2C%20J%C3%B3kai%20t%C3%A9r%209%2C%201061%20Budapest&destination=Akad%C3%A9mia%202%20ponton%2C%20Budapest%2C%20Id.%20Antall%20J%C3%B3zsef%20rkp.%2C%201051&waypoints=Hungarian%20Parliament%20Building%2C%20Kossuth%20Lajos%20t%C3%A9r%201-3%2C%201055%20Budapest%7CShoes%20on%20the%20Danube%2C%20Budapest%2C%20Id.%20Antall%20J%C3%B3zsef%20rkp.%2C%201054&travelmode=walking)
 
 O trajeto é todo plano, na mesma margem, Peste. Do hotel, sigam pela Jókai tér e entrem na Bajcsy-Zsilinszky út, uma avenida larga ladeada por prédios do século XIX.
 
@@ -347,7 +347,7 @@ Por volta das 20h, o navio passará sob a Ponte das Correntes — iluminada, com
 
 ### 21:30 — O RETORNO
 
-[Trajeto de volta ao hotel](https://www.google.com/maps/dir/Akad%C3%A9mia+2+ponton,+Budapest,+Id.+Antall+J%C3%B3zsef+rkp.,+1051/Medos+Hotel,+J%C3%B3kai+t%C3%A9r+9,+1061+Budapest/)
+[Trajeto de volta ao hotel](https://www.google.com/maps/dir/?api=1&origin=Akad%C3%A9mia%202%20ponton%2C%20Budapest%2C%20Id.%20Antall%20J%C3%B3zsef%20rkp.%2C%201051&destination=Medos%20Hotel%2C%20J%C3%B3kai%20t%C3%A9r%209%2C%201061%20Budapest&travelmode=walking)
 
 Recomendação: voltem a pé. Cerca de 22 minutos. Caminhada noturna agradável, com Budapeste iluminada. As luzes do Parlamento ainda estarão acesas, apagam por volta das 22h.
 
@@ -413,7 +413,7 @@ Noite no Bastião: sobretudo ou trench coat. A temperatura cai para 6 a 10°C. L
 
 ### 08:50 — A CAMINHADA ATÉ A BASÍLICA
 
-[Hotel à Basílica](https://www.google.com/maps/dir/Medos+Hotel,+J%C3%B3kai+t%C3%A9r+9,+1061/Szent+Istv%C3%A1n+t%C3%A9r,+1051+Budapest)
+[Hotel à Basílica](https://www.google.com/maps/dir/?api=1&origin=Medos%20Hotel%2C%20J%C3%B3kai%20t%C3%A9r%209%2C%201061&destination=Szent%20Istv%C3%A1n%20t%C3%A9r%2C%201051%20Budapest&travelmode=walking)
 
 Do hotel até a Basílica de Santo Estevão, cerca de 900 metros, 15 a 20 minutos. Vocês cruzam a Avenida Andrássy, a Champs-Élysées de Budapeste, declarada Patrimônio da Humanidade pela UNESCO.
 
@@ -423,7 +423,7 @@ Personagem: a avenida leva o nome de Gyula Andrássy (1823–1890), conde, prime
 
 A maior igreja de Budapeste. Consagrada em 1905, levou 54 anos para ser construída. Projetada por Miklós Ybl (1814–1891), o arquiteto mais prolífico da Hungria — que morreu antes de vê-la concluída, assim como Steindl com o Parlamento. Há uma maldição em Budapeste: os arquitetos não vivem para ver suas obras terminadas.
 
-96 metros de altura na cúpula, o número sagrado novamente, capacidade para 8.500 pessoas, 50 tipos diferentes de mármore no interior, órgão com 5.898 tubos.
+96 metros de altura na cúpula, o número sagrado novamente, capacidade para 8.500 pessoas, 50 tipos diferentes de mármore no interior, órgão com 6.389 tubos, reconstruído em 2025.
 
 Site oficial: szentistvanbazilika.hu
 
@@ -446,7 +446,7 @@ Domingo de manhã é quando a Basílica de Santo Estevão vive seu momento mais 
 
 ### 12:30 — ALMOÇO
 
-[Basílica à região de almoço](https://www.google.com/maps/dir/Bas%C3%ADlica+de+Santo+Est%C3%AAv%C3%A3o,+Szent+Istv%C3%A1n+t%C3%A9r,+1051+Budapest/Liszt+Ferenc+t%C3%A9r,+1061+Budapest)
+[Basílica à região de almoço](https://www.google.com/maps/dir/?api=1&origin=Bas%C3%ADlica%20de%20Santo%20Est%C3%AAv%C3%A3o%2C%20Szent%20Istv%C3%A1n%20t%C3%A9r%2C%201051%20Budapest&destination=Liszt%20Ferenc%20t%C3%A9r%2C%201061%20Budapest&travelmode=walking)
 
 Menza (Liszt Ferenc tér 2): cozinha húngara contemporânea. A praça leva o nome de Franz Liszt — e é considerada a mais charmosa de Budapeste, com seus cafés ao ar livre e castanheiras. Pratos entre 2.500 e 5.000 HUF, R$ 41 a R$ 82.
 
@@ -454,7 +454,7 @@ Drum Café (Dob utca 2): goulash autêntico. Pratos entre 2.000 e 4.000 HUF, R$ 
 
 ### 13:45 — RUMO A BUDA
 
-[Almoço a Buda, ônibus 16](https://www.google.com/maps/dir/Liszt+Ferenc+t%C3%A9r,+1061+Budapest/De%C3%A1k+Ferenc+t%C3%A9r,+1052+Budapest/D%C3%ADsz+t%C3%A9r,+1014+Budapest)
+[Almoço a Buda, ônibus 16](https://www.google.com/maps/dir/?api=1&origin=Liszt%20Ferenc%20t%C3%A9r%2C%201061%20Budapest&destination=D%C3%ADsz%20t%C3%A9r%2C%201014%20Budapest&waypoints=De%C3%A1k%20Ferenc%20t%C3%A9r%2C%201052%20Budapest&travelmode=transit)
 
 Ônibus 16 na Praça Deák Ferenc. Sobe a Colina do Castelo em 12 minutos.
 
@@ -476,7 +476,7 @@ Site oficial: budacastlebudapest.com
 
 ### 16:30 — O BASTIÃO DOS PESCADORES
 
-[Castelo ao Bastião à Matias](https://www.google.com/maps/dir/Buda+Castle,+Szent+Gy%C3%B6rgy+t%C3%A9r+2,+1014/Hal%C3%A1szb%C3%A1stya,+Szenth%C3%A1roms%C3%A1g+t%C3%A9re,+1014/M%C3%A1ty%C3%A1s-templom,+Szenth%C3%A1roms%C3%A1g+t%C3%A9r+2,+1014)
+[Castelo ao Bastião à Matias](https://www.google.com/maps/dir/?api=1&origin=Buda%20Castle%2C%20Szent%20Gy%C3%B6rgy%20t%C3%A9r%202%2C%201014&destination=M%C3%A1ty%C3%A1s-templom%2C%20Szenth%C3%A1roms%C3%A1g%20t%C3%A9r%202%2C%201014&waypoints=Hal%C3%A1szb%C3%A1stya%2C%20Szenth%C3%A1roms%C3%A1g%20t%C3%A9re%2C%201014&travelmode=walking)
 
 Mirante em forma de fortaleza medieval, construído entre 1895 e 1902 por Frigyes Schulek (1841–1919), com sete torres de pedra branca representando as sete tribos magiares que cruzaram os Cárpatos em 896, lideradas pelo príncipe Árpád.
 
@@ -525,7 +525,7 @@ Ruszwurm Cukrászda (Szentháromság utca 7): a confeitaria mais antiga de Budap
 
 ### 22:30 — RETORNO AO HOTEL
 
-[Bastião ao hotel](https://www.google.com/maps/dir/Hal%C3%A1szb%C3%A1stya,+Szenth%C3%A1roms%C3%A1g+t%C3%A9re,+1014+Budapest/Medos+Hotel,+J%C3%B3kai+t%C3%A9r+9,+1061)
+[Bastião ao hotel](https://www.google.com/maps/dir/?api=1&origin=Hal%C3%A1szb%C3%A1stya%2C%20Szenth%C3%A1roms%C3%A1g%20t%C3%A9re%2C%201014%20Budapest&destination=Medos%20Hotel%2C%20J%C3%B3kai%20t%C3%A9r%209%2C%201061&travelmode=walking)
 
 Táxi ou Bolt: 10 minutos, cerca de 4.000 HUF, cerca de R$ 66.
 
@@ -615,7 +615,7 @@ Noite no Szimpla Kert: casual despojado. Jaqueta leve.
 
 ### 09:00 — RUMO AO BAIRRO JUDEU
 
-[Hotel à Grande Sinagoga](https://www.google.com/maps/dir/Medos+Hotel,+J%C3%B3kai+t%C3%A9r+9,+1061/Great+Synagogue,+Doh%C3%A1ny+utca+2,+1074)
+[Hotel à Grande Sinagoga](https://www.google.com/maps/dir/?api=1&origin=Medos%20Hotel%2C%20J%C3%B3kai%20t%C3%A9r%209%2C%201061&destination=Great%20Synagogue%2C%20Doh%C3%A1ny%20utca%202%2C%201074&travelmode=walking)
 
 Metrô: estação Oktogon, linha M1, transferência em Deák Ferenc tér, linha M2, estação Astoria. 12 minutos.
 
@@ -653,11 +653,11 @@ Passeiem pela Kazinczy utca, pela Wesselényi utca e pela Klauzál tér. O bairr
 
 Bairro Judeu ao Mercado Central.
 
-Metrô: estação Astoria, linha M2, até Deák Ferenc tér, transferência para a linha M4 ou bonde 47/49 até Fővám tér. Cerca de 15 minutos.
+Metrô: estação Astoria, linha M2. De lá, o bonde 47 ou 49 vai direto até Fővám tér, em duas paradas — ou dá para fazer o trecho a pé, em cerca de 15 minutos.
 
 Valor: o mesmo bilhete de antes.
 
-[Trajeto no Google Maps](https://www.google.com/maps/dir/Doh%C3%A1ny+utca+2,+1074+Budapest/Great+Market+Hall,+F%C5%91v%C3%A1m+t%C3%A9r+1-3,+1093+Budapest)
+[Trajeto no Google Maps](https://www.google.com/maps/dir/?api=1&origin=Doh%C3%A1ny%20utca%202%2C%201074%20Budapest&destination=Great%20Market%20Hall%2C%20V%C3%A1mh%C3%A1z%20k%C3%B6r%C3%BAt%201-3%2C%201093%20Budapest&travelmode=walking)
 
 ### 12:30 — MERCADO CENTRAL, NAGYVÁSÁRCSARNOK (pronuncia-se "Nadivaxárcsarnok")
 
@@ -673,13 +673,13 @@ Goulash: sopa tradicional, 1.500 a 2.500 HUF, R$ 25 a R$ 41.
 
 Kurtoskalacs: bolo chaminé húngaro, 800 a 1.200 HUF, R$ 13 a R$ 20.
 
-Horário: segunda a sábado, 6:00 às 17:00. Domingo fechado.
+Horário: segunda, 6:00 às 17:00; terça a sexta, 6:00 às 18:00; sábado, 6:00 às 15:00. Domingo fechado.
 
 [Ver no Google Maps](https://www.google.com/maps/search/?api=1&query=Great%20Market%20Hall%2C%20Budapest)
 
 ### 14:00 — CAFÉ NEW YORK
 
-[Mercado ao Café New York](https://www.google.com/maps/dir/Great+Market+Hall,+F%C5%91v%C3%A1m+t%C3%A9r+1-3,+1093/New+York+Caf%C3%A9,+Erzs%C3%A9bet+krt.+9-11,+1073)
+[Mercado ao Café New York](https://www.google.com/maps/dir/?api=1&origin=Great%20Market%20Hall%2C%20V%C3%A1mh%C3%A1z%20k%C3%B6r%C3%BAt%201-3%2C%201093&destination=New%20York%20Caf%C3%A9%2C%20Erzs%C3%A9bet%20krt.%209-11%2C%201073&travelmode=walking)
 
 O café mais bonito do mundo. Inaugurado em 1894 no térreo do Palácio New York, projetado pelo arquiteto Alajos Hauszmann (1847–1926) em estilo renascentista italiano. Afrescos no teto, colunas de mármore, vitrais, espelhos dourados, lustres de cristal.
 
@@ -695,7 +695,7 @@ Site oficial: cafenewyorkbudapest.com
 
 ### 15:00 — RUMO À PRAÇA DOS HERÓIS
 
-[Café New York à Praça dos Heróis](https://www.google.com/maps/dir/New+York+Caf%C3%A9,+Erzs%C3%A9bet+krt.+9-11,+1073/H%C5%91s%C3%B6k+tere,+1146+Budapest)
+[Café New York à Praça dos Heróis](https://www.google.com/maps/dir/?api=1&origin=New%20York%20Caf%C3%A9%2C%20Erzs%C3%A9bet%20krt.%209-11%2C%201073&destination=H%C5%91s%C3%B6k%20tere%2C%201146%20Budapest&travelmode=walking)
 
 Metrô: estação Blaha Lujza tér, linha M2, transferência em Deák Ferenc tér, linha M1, estação Hősök tere (pronuncia-se "Rrôxhêk tere"). 15 minutos.
 
@@ -789,7 +789,7 @@ Banho, troca de roupa, saída. Para chegar ao Szimpla Kert sem pressa, usem táx
 
 ### 19:00 — SZIMPLA KERT
 
-[Termas ao Szimpla Kert](https://www.google.com/maps/dir/Sz%C3%A9chenyi+Gy%C3%B3gyf%C3%BCrd%C5%91+%C3%A9s+Uszoda,+Budapest,+V%C3%A1rosligeti+fasor+11,+1146/Szimpla+Kert,+Kazinczy+utca+14,+1075)
+[Termas ao Szimpla Kert](https://www.google.com/maps/dir/?api=1&origin=Sz%C3%A9chenyi%20Gy%C3%B3gyf%C3%BCrd%C5%91%20%C3%A9s%20Uszoda%2C%20Budapest%2C%20V%C3%A1rosligeti%20fasor%2011%2C%201146&destination=Szimpla%20Kert%2C%20Kazinczy%20utca%2014%2C%201075&travelmode=walking)
 
 O primeiro romkocsma, bar em ruínas, de Budapeste. Fundado em 2002 em um prédio abandonado do século XVIII no Bairro Judeu. Paredes descascadas, móveis reciclados, arte de rua, um Trabant cortado ao meio pendurado no teto, um ônibus soviético transformado em bar.
 
@@ -809,7 +809,7 @@ Hummus Bar (Kazinczy utca 27): hummus, falafel, shakshuka. Pratos entre 2.000 e 
 
 ### 21:30 — RETORNO AO HOTEL
 
-[Szimpla Kert ao hotel](https://www.google.com/maps/dir/Szimpla+Kert,+Kazinczy+utca+14,+1075/Medos+Hotel,+J%C3%B3kai+t%C3%A9r+9,+1061)
+[Szimpla Kert ao hotel](https://www.google.com/maps/dir/?api=1&origin=Szimpla%20Kert%2C%20Kazinczy%20utca%2014%2C%201075&destination=Medos%20Hotel%2C%20J%C3%B3kai%20t%C3%A9r%209%2C%201061&travelmode=walking)
 
 A pé: 15 minutos. Ou táxi/Bolt: 5 minutos, cerca de 2.500 HUF, cerca de R$ 41.
 

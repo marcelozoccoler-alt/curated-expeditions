@@ -76,7 +76,7 @@ Praga tem dezessete pontes que cruzam o Moldava. Mas uma delas não é apenas um
 
 A história começa com um número. No dia 9 de julho de 1357, às 5h31 da manhã, o Imperador Carlos IV lançou a primeira pedra. A data e a hora foram escolhidas pelos astrólogos reais para formar aquele palíndromo perfeito que vocês já conhecem — o número que sobe e desce como um eco. Segundo eles, a sequência protegeria a ponte para sempre.
 
-E protegeu. A ponte sobreviveu a enchentes catastróficas (a maior delas em 2002), a guerras, a cercos, a 667 anos de invernos rigorosos. Continua ali.
+E protegeu. A ponte sobreviveu a enchentes catastróficas (a maior delas em 2002), a guerras, a cercos, a 669 anos de invernos rigorosos. Continua ali.
 
 As 30 estátuas barrocas alinhadas em ambos os lados foram instaladas entre 1683 e 1714. A mais famosa é a de São João Nepomuceno — o santo que foi jogado do alto da ponte em 1393, a mando do rei Venceslau IV, por se recusar a revelar segredos de confissão da rainha. Diz a lenda que tocar na placa de bronze na base da estátua traz boa sorte (ela está polida de tantas mãos que a tocaram). No local exato de onde o santo foi lançado, há uma cruz de latão incrustada nas pedras.
 
@@ -116,7 +116,7 @@ Leoš Janáček (1854-1928) — O modernista. Suas óperas e sinfonias capturam 
 
 Franz Kafka (1883-1924) — O escritor que definiu o absurdo. Nasceu, viveu, estudou e trabalhou em Praga. Suas obras — A Metamorfose, O Processo, O Castelo — são impregnadas da atmosfera opressiva e labiríntica da cidade. Morreu de tuberculose aos 40 anos. Dizia ele: Praga não te deixa ir. Esta pequena mãe tem garras. Está enterrado no Novo Cemitério Judeu.
 
-Alfons Mucha (1860-1939) — O mestre do Art Nouveau. Criou os cartazes de Sarah Bernhardt, os vitrais da Catedral de São Vito e a Epopeia Eslava — 20 telas monumentais que narram a história dos povos eslavos. Morreu interrogado pela Gestapo em 1939.
+Alfons Mucha (1860-1939) — O mestre do Art Nouveau. Criou os cartazes de Sarah Bernhardt, os vitrais da Catedral de São Vito e a Epopeia Eslava — 20 telas monumentais que narram a história dos povos eslavos. Foi interrogado pela Gestapo em 1939 e morreu poucos meses depois, de pneumonia.
 
 Jaroslav Hašek (1883-1923) — O gênio da sátira. Autor de O Bom Soldado Švejk, o romance cômico mais famoso da literatura tcheca. Morreu de tuberculose e alcoolismo, mas sua obra é um clássico mundial.
 
@@ -150,7 +150,7 @@ A cidade respira História. Cada viela já escondeu um alquimista, um escritor, 
 
 ### 1. O PALÍNDROMO DA PONTE CARLOS
 
-A pedra fundamental da Ponte Carlos foi lançada em 9 de julho de 1357, às 5h31 — o horário do talismã numérico escolhido pelos astrólogos de Carlos IV. A ponte já sobreviveu a enchentes catastróficas, guerras e 667 anos de História. O talismã funcionou?
+A pedra fundamental da Ponte Carlos foi lançada em 9 de julho de 1357, às 5h31 — o horário do talismã numérico escolhido pelos astrólogos de Carlos IV. A ponte já sobreviveu a enchentes catastróficas, guerras e 669 anos de História. O talismã funcionou?
 
 ### 2. O RELÓGIO ASTRONÔMICO E A LENDA DO MESTRE RELOJOEIRO
 
@@ -295,7 +295,7 @@ A estação fica no limite da Cidade Nova (Nové Město) — fundada por Carlos 
 
 ### 19:40 — TRASLADO PARA O HOTEL
 
-[Praha hl.n. → Fleur De Lis Hotel](https://www.google.com/maps/dir/Praha+hlavn%C3%AD+n%C3%A1dra%C5%BE%C3%AD,+Wilsonova+300,+120+00+Praha+2/Fleur+De+Lis+Hotel,+Slezska+832,+130+00+Praha+3)
+[Praha hl.n. → Fleur De Lis Hotel](https://www.google.com/maps/dir/?api=1&origin=Praha%20hlavn%C3%AD%20n%C3%A1dra%C5%BE%C3%AD%2C%20Wilsonova%20300%2C%20120%2000%20Praha%202&destination=Fleur%20De%20Lis%20Hotel%2C%20Slezska%20832%2C%20130%2000%20Praha%203&travelmode=walking)
 
 O carro sobe pela Vinohradská třída — a avenida principal de Vinohrady. Sete minutos. Vocês passam por prédios art nouveau, fachadas com estuques florais, sacadas de ferro forjado. A rua vira na Slezska, uma viela tranquila ladeada de plátanos. E lá está o Fleur De Lis.
 
@@ -311,7 +311,7 @@ Depois de 4h13 de trem, um banho quente e uma pausa são mais que merecidos. O q
 
 ### 21:00 — JANTAR DE BOAS-VINDAS NO U BULÍNŮ
 
-[Hotel → Restaurace U Bulínů](https://www.google.com/maps/dir/Fleur+De+Lis+Hotel,+Slezska+832,+130+00+Praha+3/Restaurace+U+Bul%C3%ADn%C5%AF,+Bude%C4%8Dsk%C3%A1+2,+120+00+Praha+2)
+[Hotel → Restaurace U Bulínů](https://www.google.com/maps/dir/?api=1&origin=Fleur%20De%20Lis%20Hotel%2C%20Slezska%20832%2C%20130%2000%20Praha%203&destination=Restaurace%20U%20Bul%C3%ADn%C5%AF%2C%20Bude%C4%8Dsk%C3%A1%202%2C%20120%2000%20Praha%202&travelmode=walking)
 
 A apenas 5 minutos a pé do hotel, o U Bulínů é um restaurante tcheco raiz — daqueles que os praguenses frequentam, não os turistas. Mesas de madeira, iluminação quente, o som de talheres e conversas em tcheco.
 
@@ -326,7 +326,7 @@ Curiosidade: A República Tcheca tem o maior consumo de cerveja per capita do mu
 
 ### 22:30 — RETORNO AO HOTEL
 
-[Restaurace U Bulínů → Hotel](https://www.google.com/maps/dir/Restaurace+U+Bul%C3%ADn%C5%AF,+Bude%C4%8Dsk%C3%A1+2,+120+00+Praha+2/Fleur+De+Lis+Hotel,+Slezska+832,+130+00+Praha+3)
+[Restaurace U Bulínů → Hotel](https://www.google.com/maps/dir/?api=1&origin=Restaurace%20U%20Bul%C3%ADn%C5%AF%2C%20Bude%C4%8Dsk%C3%A1%202%2C%20120%2000%20Praha%202&destination=Fleur%20De%20Lis%20Hotel%2C%20Slezska%20832%2C%20130%2000%20Praha%203&travelmode=walking)
 
 Caminhada de 5 minutos. O ar frio da noite, as ruas silenciosas de Vinohrady, a sensação de estar num bairro que é real, não um cenário para turistas. Durmam bem. Amanhã é o dia grande.
 
@@ -411,7 +411,7 @@ O café da manhã do Fleur De Lis é um destaque: pães tchecos frescos, frios, 
 
 [Hotel → Praça da Cidade Velha](https://www.google.com/maps/dir/?api=1&origin=Fleur%20De%20Lis%20Hotel%2C%20Slezsk%C3%A1%20832%2F55%2C%20Praha%203&destination=Starom%C4%9Bstsk%C3%A9%20n%C3%A1m%C4%9Bst%C3%AD%2C%20Praha%201)
 
-Caminhada de 5 a 8 minutos até Náměstí Míru — ali está a estação da linha A do metrô ([ver no mapa](https://www.google.com/maps/search/?api=1&query=N%C3%A1m%C4%9Bst%C3%AD%20M%C3%ADru%20metro%2C%20Praha)). Duas paradas e vocês descem em Staroměstská, no coração da Cidade Velha: cinco minutos de trajeto. O centro histórico de Praga — declarado Patrimônio da Humanidade pela UNESCO em 1992 — se abre diante de vocês.
+Caminhada de 5 a 8 minutos até Náměstí Míru — ali está a estação da linha A do metrô ([ver no mapa](https://www.google.com/maps/search/?api=1&query=N%C3%A1m%C4%9Bst%C3%AD%20M%C3%ADru%20metro%2C%20Praha)). Três paradas e vocês descem em Staroměstská, no coração da Cidade Velha: cerca de cinco minutos de trajeto. O centro histórico de Praga — declarado Patrimônio da Humanidade pela UNESCO em 1992 — se abre diante de vocês.
 
 Quem preferir a paisagem à pressa pega o Bonde 22 na mesma Náměstí Míru e desce em Národní divadlo, junto ao Teatro Nacional e ao rio: quinze minutos de janela, mais dez de caminhada até a praça.
 
@@ -458,7 +458,7 @@ Entrada: gratuita.
 
 [Ver no Google Maps](https://www.google.com/maps/search/?api=1&query=Prague%20Astronomical%20Clock%2C%20Starom%C4%9Bstsk%C3%A9%20n%C3%A1m.%2C%20110%2000%20Star%C3%A9%20M%C4%9Bsto)
 
-Construído em 1410, o Relógio Astronômico de Praga é o mais antigo do mundo ainda em funcionamento. São 615 anos de engrenagens, ponteiros e mostradores.
+Construído em 1410, o Relógio Astronômico de Praga é o mais antigo do mundo ainda em funcionamento. São 616 anos de engrenagens, ponteiros e mostradores.
 
 O que ele mostra:
 - Tempo terreno — as horas como as conhecemos (ponteiro com a mão dourada)
@@ -486,13 +486,13 @@ Dica local: Cheguem 10 minutos antes para um bom lugar. Às 10:00, a multidão �
 
 ### 10:20 — CAMINHADA ATÉ A CABEÇA DE KAFKA
 
-[Praça → Cabeça de Kafka](https://www.google.com/maps/dir/Starom%C4%9Bstsk%C3%A9+n%C3%A1m%C4%9Bst%C3%AD,+110+00+Praha+1/Quadrio,+N%C3%A1rodn%C3%AD+135,+110+00+Praha+1)
+[Praça → Cabeça de Kafka](https://www.google.com/maps/dir/?api=1&origin=Starom%C4%9Bstsk%C3%A9%20n%C3%A1m%C4%9Bst%C3%AD%2C%20110%2000%20Praha%201&destination=Quadrio%2C%20Sp%C3%A1len%C3%A1%2022%2C%20110%2000%20Praha%201&travelmode=walking)
 
 Dez minutos a pé pela rua Národní třída. Vocês passam pelo Café Louvre (onde Kafka e Einstein frequentavam), pelo Teatro Nacional (símbolo do renascimento cultural tcheco), até chegarem ao shopping Quadrio.
 
 ### 11:00 — O ESPETÁCULO DA CABEÇA GIRATÓRIA DE KAFKA
 
-[Ver no Google Maps](https://www.google.com/maps/search/?api=1&query=Kafka%20Head%20Statue%2C%20N%C3%A1rodn%C3%AD%20135%2C%20110%2000%20Nov%C3%A9%20M%C4%9Bsto%2C%20Prague)
+[Ver no Google Maps](https://www.google.com/maps/search/?api=1&query=Hlava%20Franze%20Kafky%2C%20Quadrio%2C%20Sp%C3%A1len%C3%A1%2022%2C%20Praha%201)
 
 Obra de David Černý (2014). O artista tcheco mais provocador do século XXI criou uma escultura que é pura genialidade:
 
@@ -508,7 +508,7 @@ Entrada: gratuita, ao ar livre, na fachada do shopping Quadrio.
 
 ### 11:30 — CAMINHADA PARA O ALMOÇO
 
-[Cabeça de Kafka → Lokál Dlouhááá](https://www.google.com/maps/dir/Kafka+Head+Statue,+N%C3%A1rodn%C3%AD+135,+110+00+Nov%C3%A9+M%C4%9Bsto/Lok%C3%A1l+Dlouh%C3%A1%C3%A1,+Dlouh%C3%A1+33,+110+00+Star%C3%A9+M%C4%9Bsto)
+[Cabeça de Kafka → Lokál Dlouhááá](https://www.google.com/maps/dir/?api=1&origin=Hlava%20Franze%20Kafky%2C%20Quadrio%2C%20Sp%C3%A1len%C3%A1%2022%2C%20Praha%201&destination=Lok%C3%A1l%20Dlouh%C3%A1%C3%A1%2C%20Dlouh%C3%A1%2033%2C%20110%2000%20Star%C3%A9%20M%C4%9Bsto&travelmode=walking)
 
 Dez minutos a pé até o bairro judeu, onde fica o restaurante. O caminho passa pelo Teatro Estates (onde Mozart regeu a estreia de Don Giovanni) e entra nas ruas estreitas de Josefov.
 
@@ -628,7 +628,7 @@ Duração: aproximadamente 30 minutos (até ~17:30).
 
 ### 17:35 — O PARQUE PETŘÍN E O PÔR DO SOL
 
-[Strahov → Parque Petřín](https://www.google.com/maps/dir/Strahov+Monastery,+Strahovsk%C3%A9+n%C3%A1dvo%C5%99%C3%AD+132/1,+118+00+Praha+1/Petřínské+sady,+118+00+Praha+1)
+[Strahov → Parque Petřín](https://www.google.com/maps/dir/?api=1&origin=Strahov%20Monastery%2C%20Strahovsk%C3%A9%20n%C3%A1dvo%C5%99%C3%AD%20132&destination=Pet%C5%99%C3%ADnsk%C3%A9%20sady%2C%20118%2000%20Praha%201&waypoints=1%2C%20118%2000%20Praha%201&travelmode=walking)
 
 A apenas 300 metros do monastério, o Parque Petřín se estende sobre a colina mais verde de Praga. É o lugar perfeito para assistir ao pôr do sol.
 
@@ -666,7 +666,7 @@ Preço: €10-16 (cerca de R$ 60 a R$ 96)
 
 ### 21:00 — RETORNO AO HOTEL
 
-[Restaurante → Hotel](https://www.google.com/maps/dir/Café+Louvre,+Národní+22,+110+00+Nové+Město/Fleur+De+Lis+Hotel,+Slezská+832/55,+130+00+Praha+3)
+[Restaurante → Hotel](https://www.google.com/maps/dir/?api=1&origin=Caf%C3%A9%20Louvre%2C%20N%C3%A1rodn%C3%AD%2022%2C%20110%2000%20Nov%C3%A9%20M%C4%9Bsto&destination=55%2C%20130%2000%20Praha%203&waypoints=Fleur%20De%20Lis%20Hotel%2C%20Slezsk%C3%A1%20832&travelmode=walking)
 
 Bonde ou táxi de volta a Vinohrady. As ruas do bairro estão silenciosas e seguras. A cama do duplex espera.
 
@@ -736,7 +736,7 @@ Sem pressa. O dia de hoje é um respiro — depois da maratona de ontem, vocês 
 
 ### 09:30 — SAÍDA PARA O CENTRO
 
-[Hotel → Prague Boats](https://www.google.com/maps/dir/Fleur+De+Lis+Hotel,+Slezská+832/55,+130+00+Praha+3/Prague+Boats,+Dvořákovo+nábřeží,+110+00+Praha+1)
+[Hotel → Prague Boats](https://www.google.com/maps/dir/?api=1&origin=Fleur%20De%20Lis%20Hotel%2C%20Slezsk%C3%A1%20832&destination=Prague%20Boats%2C%20Dvo%C5%99%C3%A1kovo%20n%C3%A1b%C5%99e%C5%BE%C3%AD%2C%20110%2000%20Praha%201&waypoints=55%2C%20130%2000%20Praha%203&travelmode=walking)
 
 Bonde ou táxi. A manhã está livre até o embarque.
 
@@ -806,7 +806,7 @@ A bordo:
 
 ### 14:00 — DESEMBARQUE E CAMINHADA AO BAIRRO JUDEU
 
-[Prague Boats → Sinagoga Pinkas](https://www.google.com/maps/dir/Prague+Boats,+Dvořákovo+nábřeží,+110+00+Praha+1/Pinkasova+synagoga,+Široká+3,+110+00+Praha+1)
+[Prague Boats → Sinagoga Pinkas](https://www.google.com/maps/dir/?api=1&origin=Prague%20Boats%2C%20Dvo%C5%99%C3%A1kovo%20n%C3%A1b%C5%99e%C5%BE%C3%AD%2C%20110%2000%20Praha%201&destination=Pinkasova%20synagoga%2C%20%C5%A0irok%C3%A1%203%2C%20110%2000%20Praha%201&travelmode=walking)
 
 O barco desembarca perto da Ponte Čech. De lá, são apenas 5-7 minutos a pé até o Bairro Judeu (Josefov). O caminho é plano e curto.
 
@@ -849,26 +849,26 @@ Tempo sugerido para o circuito completo: 1h30 a 2 horas.
 
 ### 16:30 — TEMPO LIVRE — COMPRAS E LEMBRANÇAS
 
-[Bairro Judeu → Centro (compras)](https://www.google.com/maps/dir/Pinkasova+synagoga,+Široká+3,+110+00+Josefov/Na+Příkopě,+110+00+Nové+Město)
+[Bairro Judeu → Centro (compras)](https://www.google.com/maps/dir/?api=1&origin=Pinkasova%20synagoga%2C%20%C5%A0irok%C3%A1%203%2C%20110%2000%20Josefov&destination=Na%20P%C5%99%C3%ADkop%C4%9B%2C%20110%2000%20Nov%C3%A9%20M%C4%9Bsto&travelmode=walking)
 
 A tarde é livre para fazer o que quiserem — ou não fazer nada.
 
 Sugestões para compras e lembranças: se quiserem levar um pedaço de Praga na mala, as marionetes tchecas das lojas da Rua Karlova ou da Celetná custam entre CZK 300 e 3.000 (cerca de R$ 74 a R$ 740). O cristal da Boêmia, na Moser (Na Příkopě 12), vai de CZK 500 a mais de CZK 10.000 (cerca de R$ 123 a mais de R$ 2.460). As granadas tchecas, encontradas na Granát Turnov e em outras lojas, variam de CZK 1.000 a mais de CZK 20.000 (cerca de R$ 246 a mais de R$ 4.920). Para quem gosta de livros, há os títulos sobre Kafka na livraria da Rua do Ouro ou na Franz Kafka Bookshop, por CZK 200 a 500 (cerca de R$ 49 a R$ 123). As cervejas tchecas de supermercado ou lojas especializadas saem por CZK 20 a 50 (cerca de R$ 5 a R$ 12). E a Becherovka, o licor de ervas típico, encontra-se em qualquer supermercado ou loja duty-free por CZK 200 a 400 (cerca de R$ 49 a R$ 99).
 
 Sugestões para quem não quer compras:
-- Museu Mucha (Panská 7): o mestre do Art Nouveau, criador dos cartazes de Sarah Bernhardt. CZK 350 (cerca de R$ 86)
+- Museu Mucha (Na Příkopě 10, Palácio Savarin): o mestre do Art Nouveau, criador dos cartazes de Sarah Bernhardt. CZK 350 (cerca de R$ 86)
 - Simplesmente sentar-se num banco do Parque Kampa e ver o Moldava passar
 - Um chá quente num café de Vinohrady
 
 ### 17:30 — RETORNO AO HOTEL PARA DESCANSO E TROCA
 
-[Centro → Hotel](https://www.google.com/maps/dir/Na+Příkopě,+110+00+Nové+Město/Fleur+De+Lis+Hotel,+Slezská+832/55,+130+00+Praha+3)
+[Centro → Hotel](https://www.google.com/maps/dir/?api=1&origin=Na%20P%C5%99%C3%ADkop%C4%9B%2C%20110%2000%20Nov%C3%A9%20M%C4%9Bsto&destination=55%2C%20130%2000%20Praha%203&waypoints=Fleur%20De%20Lis%20Hotel%2C%20Slezsk%C3%A1%20832&travelmode=walking)
 
 O jantar medieval pede um visual à altura. Para ele: camisa e calça (não é preciso terno, mas evitem esportivo). Para ela: vestido ou saia.
 
 ### 18:30 — SAÍDA PARA O JANTAR MEDIEVAL
 
-[Hotel → Jantar medieval](https://www.google.com/maps/dir/Fleur+De+Lis+Hotel,+Slezská+832/55,+130+00+Praha+3/Na+Florenci+1332,+110+00+Praha+1)
+[Hotel → Jantar medieval](https://www.google.com/maps/dir/?api=1&origin=Fleur%20De%20Lis%20Hotel%2C%20Slezsk%C3%A1%20832&destination=Na%20Florenci%201332%2C%20110%2000%20Praha%201&waypoints=55%2C%20130%2000%20Praha%203&travelmode=walking)
 
 Metrô linha A até Můstek, baldeação para linha B até Náměstí Republiky. Ou táxi (10-15 minutos, CZK 200 / cerca de R$ 49).
 
@@ -912,7 +912,7 @@ Cancelamento gratuito até 19:45 de 10 de outubro.
 
 ### 22:45 — RETORNO AO HOTEL
 
-[Jantar medieval → Hotel](https://www.google.com/maps/dir/Na+Florenci+1332,+110+00+Praha+1/Fleur+De+Lis+Hotel,+Slezská+832/55,+130+00+Praha+3)
+[Jantar medieval → Hotel](https://www.google.com/maps/dir/?api=1&origin=Na%20Florenci%201332%2C%20110%2000%20Praha%201&destination=55%2C%20130%2000%20Praha%203&waypoints=Fleur%20De%20Lis%20Hotel%2C%20Slezsk%C3%A1%20832&travelmode=walking)
 
 Táxi ou Uber de volta a Vinohrady. A noite de Praga está fria, as ruas iluminadas. Vocês estão com o estômago cheio, os ouvidos cheios de música e o coração cheio de História.
 
@@ -996,7 +996,7 @@ O hotel guarda as malas na recepção sem custo. Vocês ainda têm a manhã livr
 
 ### 12:15 — TRASLADO PRIVATIVO PARA O AEROPORTO
 
-[Hotel → Aeroporto de Praga](https://www.google.com/maps/dir/Fleur+De+Lis+Hotel,+Slezská+832/55,+130+00+Praha+3/Václav+Havel+Airport+Prague,+Aviatická,+161+00+Praha+6)
+[Hotel → Aeroporto de Praga](https://www.google.com/maps/dir/?api=1&origin=Fleur%20De%20Lis%20Hotel%2C%20Slezsk%C3%A1%20832&destination=V%C3%A1clav%20Havel%20Airport%20Prague%2C%20Aviatick%C3%A1%2C%20161%2000%20Praha%206&waypoints=55%2C%20130%2000%20Praha%203&travelmode=driving)
 
 O carro segue pela Evropská třída em direção ao aeroporto. O trajeto leva cerca de 30 minutos.
 
