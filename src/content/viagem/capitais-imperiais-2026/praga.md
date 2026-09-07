@@ -450,7 +450,7 @@ Lá dentro:
 - O órgão histórico, ricamente esculpido
 - E no chão, sob uma laje de mármore: o túmulo de Tycho Brahe (1546–1601), o astrônomo imperial de Rodolfo II
 
-Personagem: Tycho Brahe. Brahe foi o maior astrônomo observacional antes do telescópio. Perdeu o nariz num duelo na juventude e usava uma prótese de ouro e prata. Morreu em Praga em circunstâncias misteriosas (dizem que de uma infecção urinária por não querer interromper um banquete para ir ao banheiro). Seus dados astronômicos permitiram que Johannes Kepler formulasse as leis do movimento planetário.
+Um deles é fácil de reconhecer, mesmo em pedra: Tycho Brahe, o maior astrônomo do mundo antes de o telescópio existir. Perdeu o nariz num duelo de estudante e passou a vida usando uma prótese de ouro e prata, o que só aumentava sua lenda. Morreu em Praga de um jeito muito seu: dizem que por não querer ser indelicado e deixar um banquete para ir ao banheiro. Foram os cadernos de observações dele, anotados a olho nu, noite após noite, que permitiram a Kepler descobrir como os planetas realmente se movem.
 
 Entrada: gratuita.
 
