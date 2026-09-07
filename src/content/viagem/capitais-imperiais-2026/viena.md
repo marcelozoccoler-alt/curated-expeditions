@@ -241,7 +241,7 @@ Temperatura: 7°C a 15°C
 
 17:45 - Peterskirche
 
-19:00 - Concerto de órgão
+19:00 - Surpresa na Peterskirche
 
 19:45 - Jantar no Figlmüller
 
@@ -324,15 +324,10 @@ Informações práticas:
 
 - Entrada: gratuita
 - Site oficial: peterskirche.at
-- Concerto de órgão gratuito diariamente às 19:00 (contribuição voluntária ao final)
 
-### 19:00 — O CONCERTO DE ÓRGÃO
+### 19:00 — UM SEGREDO BEM GUARDADO
 
-Este é um dos segredos mais bem guardados de Viena. Todos os dias, pontualmente às 19:00, a Peterskirche oferece um concerto de órgão gratuito. Não é necessário ingresso, não é necessário reservar. Basta chegar alguns minutos antes e sentar-se nos bancos de madeira.
-
-Quando o organista começa a tocar, a música sobe pela cúpula de 56 metros, preenche cada centímetro do espaço e desce sobre vocês como uma chuva de som. O repertório varia — Bach, Handel, compositores austríacos — mas a experiência é sempre transcendental.
-
-Ao final, passa-se uma cesta para contribuição voluntária. Deem o que sentirem. Vale cada euro.
+A Peterskirche guarda um dos segredos mais bem guardados de Viena — algo que acontece aqui todos os dias, pontualmente às 19h. Preferimos não revelar. Basta voltar alguns minutos antes, sentar-se nos bancos de madeira e deixar acontecer. Não é necessário ingresso, não é necessário reservar.
 
 ### 19:45 — JANTAR VIENENSE NO FIGLMÜLLER
 
@@ -888,7 +883,7 @@ O trem para na estação central de Praga.
 
 Viena não se entrega de uma vez. Entrega-se aos poucos — como uma valsa que começa lenta e só depois revela seu giro.
 
-Vocês chegaram sobre os trilhos de um império que já não existe. Viram a catedral renascer das cinzas. Ouviram o órgão subir por uma cúpula barroca. Caminharam pela Ringstrasse que Francisco José sonhou. Ficaram diante do beijo de Klimt, em ouro e silêncio. E, na Orangerie de Schönbrunn, ouviram a música que Mozart tocou para uma imperatriz — agora tocada para vocês.
+Vocês chegaram sobre os trilhos de um império que já não existe. Viram a catedral renascer das cinzas. Sentiram a música subir por uma cúpula barroca. Caminharam pela Ringstrasse que Francisco José sonhou. Ficaram diante do beijo de Klimt, em ouro e silêncio. E, na Orangerie de Schönbrunn, ouviram a música que Mozart tocou para uma imperatriz — agora tocada para vocês.
 
 Budapeste foi a cidade que resiste. Viena é a cidade que dança. Uma ensina a permanecer. A outra, a celebrar.
 
