@@ -324,17 +324,11 @@ Entrada gratuita. Aberto 24 horas.
 
 ### 19:00 — O CRUZEIRO
 
-Confirmação de Reserva — Civitatis
-
-Reserva / ID: A38939306
-
-Atividade: Cruzeiro com jantar e música ao vivo
+Cruzeiro com jantar e música ao vivo, já reservado para o grupo.
 
 Data: Sábado, 3 de outubro de 2026
 
 Horário: 19:00h
-
-Status: Confirmado
 
 Ponto de encontro: Akadémia, 2º pontão, navio Gróf Széchenyi, lado Peste, Budapeste.
 
@@ -632,7 +626,7 @@ Valor: 450 HUF (1,20 euros / R$ 6,50).
 
 ### 09:45 — ENCONTRO NA SINAGOGA
 
-O ponto de encontro é Dohány utca 2, em frente à entrada da sinagoga, às 09:45. O tour guiado do programa Basic começa às 10:00 e percorre a sinagoga, o jardim e o memorial, tudo acompanhado por um guia. Confirmar a reserva e o ponto exato com a operadora.
+O ponto de encontro é Dohány utca 2, em frente à entrada da sinagoga, às 09:45. O tour guiado do programa Basic começa às 10:00 e percorre a sinagoga, o jardim e o memorial, tudo acompanhado por um guia. A reserva do grupo já está feita.
 
 A Dohány utcai Zsinagóga é a maior sinagoga da Europa e a segunda maior do mundo. Construída entre 1854 e 1859 em estilo mouro, com capacidade para 3.000 fiéis.
 

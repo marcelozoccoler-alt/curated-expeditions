@@ -817,11 +817,7 @@ Hoje, em vez de explorar fortalezas, vocês vão flutuar. Nada de pressa, nada d
 
 O cais fica próximo à Čech Bridge ou ao Dvořákovo nábřeží, dependendo da empresa escolhida.
 
-Confirmação de Reserva — Prague Boats — Lunch Cruise
-
-Reserva em nome de: Create Travel Brazil
-
-Nº do Pedido: O-2118849
+Cruzeiro com almoço, já reservado para o grupo.
 
 Data do cruzeiro: 11 de outubro de 2026 (domingo)
 
@@ -853,20 +849,10 @@ Endereço: Přístaviště lodí u Čechova mostu, Dvořákovo nábřeží, můs
 
 [Google Maps](https://www.google.com/maps/place/Prague+Boats/@50.0920593,14.4140143,17z)
 
-Contato Prague Boats:
-●
-Telefone: +420 605 700 007 / +420 724 202 505
-●
-E-mail: info@pragueboats.cz
-●
-Site: www.prague-boats.cz
-●
-Contato na reserva: Jarmila Plurová
-
 Observações importantes:
 1. Chegar às 11h40 no escritório da Prague Boats, pier nº 3 B.
-2. O grupo terá 2 mesas lado a lado na categoria Exclusive.
-3. Informar o nº do pedido O-2118849 e o nome Create Travel Brazil no check-in.
+2. O grupo terá 2 mesas lado a lado na categoria Exclusive, junto à janela.
+3. O check-in é feito pelo coordenador, em nome do grupo Create Travel.
 
 O que levar:
 ●
@@ -988,11 +974,11 @@ O endereço é Na Florenci 1332/23, Nové Město.
 
 ### 19:15 — ENCONTRO NO PONTO
 
-Procurem o guarda-chuva laranja da Civitatis/Fun In Prague.
+Procurem o guarda-chuva laranja — é o ponto de encontro do passeio.
 
-### 19:45 — CHECK-IN COM VOUCHER QR CODE
+### 19:45 — CHECK-IN
 
-Apresentem o voucher com QR code da reserva A38940224. Menu de frango, Medieval Evening. Reserva confirmada.
+O coordenador apresenta os vouchers do grupo. Menu de frango, Medieval Evening.
 
 ### 20:00 — O ESPETÁCULO MEDIEVAL (ATÉ 22:30)
 
