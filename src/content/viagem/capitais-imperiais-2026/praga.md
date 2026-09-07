@@ -820,38 +820,34 @@ O barco desembarca perto da Ponte Čech. De lá, são apenas 5-7 minutos a pé a
 
 Josefov, o antigo Bairro Judeu de Praga, é um dos conjuntos de monumentos judaicos mais importantes do mundo. Diferente de outros bairros judeus europeus, este não foi destruído — os nazistas o preservaram porque planejavam transformá-lo num museu da raça extinta.
 
-Ingresso do circuito completo: 500 CZK (cerca de R$ 123) — inclui Sinagoga Pinkas, Antigo Cemitério Judeu, Sinagoga Espanhola, Sinagoga Maisel e Sala Cerimonial.
-
-Atenção: o Museu Judaico fecha aos sábados (Shabat) e em feriados judaicos. Por isso, esta visita foi programada para o domingo. Confiram horários atualizados em jewishmuseum.cz.
+O grupo caminha pelo bairro inteiro por fora, em voz baixa. A história está nas fachadas, nas lápides que aparecem por cima do muro, nas ruas estreitas. Quem quiser voltar por conta própria e entrar nos monumentos, o circuito interno do Museu Judaico custa 500 CZK (cerca de R$ 123) e inclui a Sinagoga Pinkas, o Antigo Cemitério, a Sinagoga Espanhola, a Sinagoga Maisel e a Sala Cerimonial — confiram horários em jewishmuseum.cz.
 
 Sinagoga Pinkas (1535)
 
 [Ver no Google Maps](https://www.google.com/maps/search/?api=1&query=Pinkas%20Synagogue%2C%20%C5%A0irok%C3%A1%203%2C%20110%2000%20Josefov%2C%20Prague)
 
-A Sinagoga Pinkas é um memorial do Holocausto. Em suas paredes internas, 77.297 nomes estão gravados à mão — os nomes de todos os judeus tchecos e morávios assassinados pelos nazistas. O efeito é devastador. Cada nome é uma vida. E as paredes estão cobertas até o teto.
-
-No andar superior, uma exposição de desenhos das crianças do campo de concentração de Terezín (Theresienstadt). As crianças desenhavam o que viam: flores, pássaros, casas — e também os trens, os guardas, o medo. A maioria dessas crianças foi enviada para Auschwitz. Quase nenhuma sobreviveu.
+Vista da rua, a Sinagoga Pinkas é discreta. Mas suas paredes internas guardam um memorial: 77.297 nomes gravados à mão, um por um. São os judeus tchecos e morávios assassinados pelos nazistas. Cada nome é uma vida. No andar de cima, desenhos das crianças do campo de Terezín — flores, pássaros, casas, e também trens, guardas e medo. A maioria delas foi enviada para Auschwitz. Quase nenhuma sobreviveu.
 
 O Antigo Cemitério Judeu
 
 [Ver no Google Maps](https://www.google.com/maps/search/?api=1&query=Old%20Jewish%20Cemetery%2C%20%C5%A0irok%C3%A1%203%2C%20110%2000%20Josefov%2C%20Prague)
 
-Fundado no século XV, é um dos cemitérios judaicos mais antigos e mais impactantes do mundo.
+Fundado no século XV, é um dos cemitérios judaicos mais antigos do mundo. E dá para vê-lo por fora: as lápides se amontoam por cima do muro.
 
 O que vocês verão:
-- Cerca de 12.000 lápides — amontoadas, tortas, cobertas de musgo e líquens
+- Cerca de 12.000 lápides — tortas, cobertas de musgo, umas contra as outras
 - Estima-se que mais de 100.000 pessoas estejam enterradas aqui
-- Como os judeus não podiam expandir o cemitério (estavam confinados ao gueto), os corpos eram enterrados em camadas — até 12 camadas de profundidade
-- As lápides mais antigas foram sendo empurradas para cima e emergem tortas entre as mais novas
-- Pequenas pedras sobre as lápides — a tradição judaica de deixar uma pedra em vez de flores
+- Como os judeus não podiam expandir o cemitério, os corpos foram enterrados em camadas — até doze de profundidade
+- As lápides mais antigas emergem tortas entre as mais novas
+- Pequenas pedras sobre as lápides: a tradição judaica deixa uma pedra em vez de flores
 
 A Sinagoga Espanhola
 
 [Ver no Google Maps](https://www.google.com/maps/search/?api=1&query=Spanish%20Synagogue%2C%20V%C4%9Bze%C5%88sk%C3%A1%201%2C%20110%2000%20Josefov%2C%20Prague)
 
-A mais bonita das sinagogas de Praga — e uma das mais impressionantes da Europa. Construída em estilo mourisco (1868), com interior coberto de ornamentos dourados, vitrais coloridos e detalhes geométricos que lembram a Alhambra de Granada. A acústica é extraordinária — concertos de música clássica são realizados aqui regularmente.
+De 1868, em estilo mourisco que lembra a Alhambra. Dizem que o interior, coberto de dourados e vitrais, é o mais bonito das sinagogas de Praga — e tem concertos de música clássica regularmente. Fica a dica para quem quiser voltar no tempo livre.
 
-Tempo sugerido para o circuito completo: 1h30 a 2 horas.
+Tempo sugerido para a caminhada pelo bairro: cerca de 1 hora, no ritmo de cada um.
 
 ### 16:30 — TEMPO LIVRE — COMPRAS E LEMBRANÇAS
 
