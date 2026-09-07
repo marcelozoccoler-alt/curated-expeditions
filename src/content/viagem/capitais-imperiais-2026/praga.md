@@ -409,11 +409,14 @@ O café da manhã do Fleur De Lis é um destaque: pães tchecos frescos, frios, 
 
 ### 08:30 — RUMO AO CORAÇÃO DE PRAGA
 
-[Hotel → Praça da Cidade Velha](https://www.google.com/maps/dir/Fleur+De+Lis+Hotel,+Slezska+832,+130+00+Praha+3/Starom%C4%9Bstsk%C3%A9+n%C3%A1m%C4%9Bst%C3%AD,+110+00+Praha+1)
+[Hotel → Praça da Cidade Velha](https://www.google.com/maps/dir/?api=1&origin=Fleur%20De%20Lis%20Hotel%2C%20Slezsk%C3%A1%20832%2F55%2C%20Praha%203&destination=Starom%C4%9Bstsk%C3%A9%20n%C3%A1m%C4%9Bst%C3%AD%2C%20Praha%201)
 
-Bonde 22 a partir da parada Náměstí Míru ou Vinohradská (5 a 8 minutos a pé do hotel). Doze minutos depois, vocês descem na Staroměstská. O centro histórico de Praga — declarado Patrimônio da Humanidade pela UNESCO em 1992 — se abre diante de vocês.
+Caminhada de 5 a 8 minutos até Náměstí Míru — ali está a estação da linha A do metrô ([ver no mapa](https://www.google.com/maps/search/?api=1&query=N%C3%A1m%C4%9Bst%C3%AD%20M%C3%ADru%20metro%2C%20Praha)). Duas paradas e vocês descem em Staroměstská, no coração da Cidade Velha: cinco minutos de trajeto. O centro histórico de Praga — declarado Patrimônio da Humanidade pela UNESCO em 1992 — se abre diante de vocês.
 
-A pé, são 5 minutos até a praça. E então...
+Quem preferir a paisagem à pressa pega o Bonde 22 na mesma Náměstí Míru e desce em Národní divadlo, junto ao Teatro Nacional e ao rio: quinze minutos de janela, mais dez de caminhada até a praça.
+
+A pé, são 5 minutos da estação até a praça. E então...
+
 
 ### 08:55 — A PRAÇA DA CIDADE VELHA (STAROMĚSTSKÉ NÁMĚSTÍ)
 
