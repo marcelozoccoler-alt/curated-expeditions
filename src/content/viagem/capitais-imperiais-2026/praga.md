@@ -524,11 +524,12 @@ Alternativa próxima: Restaurace Mincovna (Staroměstské nám. 7) — na própr
 
 ### 13:15 — BONDE 22 ATÉ O CASTELO DE PRAGA
 
-[Lokál → Parada Pražský hrad](https://www.google.com/maps/dir/Lok%C3%A1l+Dlouh%C3%A1%C3%A1,+Dlouh%C3%A1+33,+110+00+Star%C3%A9+M%C4%9Bsto/Zast%C3%A1vka+tram+Pražský+hrad)
+[Lokál → Parada Pražský hrad](https://www.google.com/maps/dir/?api=1&origin=Lok%C3%A1l%20Dlouh%C3%A1%C3%A1%2C%20Dlouh%C3%A1%2033%2C%20Praha%201&destination=Pra%C5%BEsk%C3%BD%20hrad%20tram%20stop%2C%20Praha%201)
 
-Caminhem 5 minutos até a parada de bonde Staroměstská (ou Malostranská, ambas atendem a linha 22). Peguem o Bonde 22 — ele sobe a colina mecanicamente, sem esforço. A viagem dura cerca de 10 minutos.
+Caminhem 4 minutos até a estação Staroměstská ([ver no mapa](https://www.google.com/maps/search/?api=1&query=Starom%C4%9Bstsk%C3%A1%20metro%2C%20Praha)) e peguem a linha A do metrô por uma parada até Malostranská. Na saída, o Bonde 22 já está ali ([ver no mapa](https://www.google.com/maps/search/?api=1&query=Malostransk%C3%A1%20tram%20stop%2C%20Praha)): ele sobe a colina mecanicamente, sem esforço, em cerca de 7 minutos.
 
-Importante: desçam na parada Pražský hrad (não Malostranská — esta fica lá embaixo, perto do rio). A parada Pražský hrad fica ao lado do Portão de Entrada do Castelo.
+Importante: desçam na parada Pražský hrad — é a que fica ao lado do Portão de Entrada do Castelo, no alto. Malostranská é a de baixo, perto do rio, de onde vocês partiram.
+
 
 ### 13:45 — O CASTELO DE PRAGA
 
