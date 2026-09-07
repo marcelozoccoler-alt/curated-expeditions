@@ -838,7 +838,7 @@ Espaço reservado para as fotos e vídeos de DIA 13 — QUINTA-FEIRA, 15 DE OUTU
 - Levem dinheiro vivo (TRY) — pequenas compras, çay, simit, barracas de rua
 - Vistam-se com respeito nas mesquitas — lenço para mulheres (disponível na entrada), ombros e joelhos cobertos para ambos
 - Pechinchar no Gran Bazar é esperado e divertido — comecem com 40–50% do preço pedido
-- Provem o çay turco — servido em tulipas de vidro, forte e reconfortante. Custa de 10 a 20 TRY
+- Provem o çay turco — servido em tulipas de vidro, forte e reconfortante. Custa de 10 a 20 TRY (cerca de R$ 1,10–2,20)
 - Provem o rakı no jantar de encerramento — com água e gelo, acompanhado de mezes. É o ritual turco por excelência
 - Os gatos são sagrados — não se assustem com gatos em mesquitas, restaurantes, cafés. Eles fazem parte da alma de Istambul
 - O ferry para Kadıköy é transporte público, não passeio turístico — e é exatamente por isso que é inesquecível
