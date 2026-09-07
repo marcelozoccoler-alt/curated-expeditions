@@ -153,7 +153,7 @@ Em 1857, o Imperador Francisco José ordenou a demolição das muralhas medievai
 
 Vocês vão ficar no ibis Wien Mariahilf, na Mariahilfer Gürtel 22-24, 1060 Viena ([ver no Google Maps](https://www.google.com/maps/search/?api=1&query=ibis%20Wien%20Mariahilf); site oficial: ibis.accor.com).
 
-É um hotel que funciona bem para o grupo: funcional e confiável, com quartos confortáveis, decoração clean e tudo o que é necessário, sem excessos. O café da manhã, incluso, é um buffet completo, com pães, frios, ovos, frutas, cafés e sucos. O Wi-Fi é gratuito em todo o hotel. A localização é estratégica — dez minutos de metrô até o centro histórico e cinco minutos de carro até o Palácio de Schönbrunn —, e o metrô fica praticamente na porta: as estações Gumpendorfer Straße (U6) e Westbahnhof (U3/U6) estão a poucos passos. E o custo-benefício é bom, dentro dos padrões vienenses.
+É um hotel que funciona bem para o grupo: funcional e confiável, com quartos confortáveis, decoração clean e tudo o que é necessário, sem excessos. O café da manhã, incluso, é um buffet completo, com pães, frios, ovos, frutas, cafés e sucos. O Wi-Fi é gratuito em todo o hotel. A localização é estratégica — dez minutos de metrô até o centro histórico e cinco minutos de carro até o Palácio de Schönbrunn —, e o metrô fica bem perto: a estação Westbahnhof (U3/U6) está a cerca de cinco minutos a pé, e a Gumpendorfer Straße (U6) a uns dez minutos. E o custo-benefício é bom, dentro dos padrões vienenses.
 
 Em termos de acessibilidade e conforto, o hotel tem elevadores em todos os andares, quartos adaptados disponíveis mediante solicitação na reserva, equipe treinada para assistência e um check-in rápido e eficiente.
 
@@ -163,7 +163,7 @@ Em termos de acessibilidade e conforto, o hotel tem elevadores em todos os andar
 
 ### TRANSPORTE
 
-Para se mover por Viena, vocês vão contar com um metrô (U-Bahn) eficiente e limpo, com elevadores na maioria das estações — as linhas U3 e U6, aliás, servem diretamente o hotel. Os bondes (Tram) têm piso baixo e acesso facilitado, e são uma forma agradável de ver a cidade passar pela janela. Táxis são abundantes e com tarifas razoáveis, entre €5 e €12 (cerca de R$ 30 a R$ 72) para trajetos no centro, e o Uber também está disponível e é confiável. Mas na prática, boa parte do passeio será a pé: o centro histórico, a Innere Stadt, é plano e concentrado.
+Para se mover por Viena, vocês vão contar com um metrô (U-Bahn) eficiente e limpo, com elevadores na maioria das estações — as linhas U3 e U6 param na Westbahnhof, a cinco minutos a pé do hotel. Os bondes (Tram) têm piso baixo e acesso facilitado, e são uma forma agradável de ver a cidade passar pela janela. Táxis são abundantes e com tarifas razoáveis, entre €5 e €12 (cerca de R$ 30 a R$ 72) para trajetos no centro, e o Uber também está disponível e é confiável. Mas na prática, boa parte do passeio será a pé: o centro histórico, a Innere Stadt, é plano e concentrado.
 
 Nota de câmbio: as conversões em reais deste capítulo usam o câmbio de 7 de setembro de 2026 (€1 ≈ R$ 6,00; 1.000 HUF ≈ R$ 16,40; 100 CZK ≈ R$ 24,60; 1 TRY ≈ R$ 0,11). Tudo o que não está incluído no roteiro aparece na moeda local com o equivalente aproximado em reais — confiram a cotação no dia do pagamento.
 
@@ -254,7 +254,7 @@ O que ver lá dentro:
 - A nave gótica, com seus pilares que se elevam até 28 metros
 - O púlpito de Anton Pilgram (século XV), com seu autorretrato espiando por uma janelinha de pedra
 - O altar-mor barroco, com o martírio de Santo Estêvão
-- O túmulo do Imperador Frederico III (mármore vermelho, 45 toneladas)
+- O túmulo do Imperador Frederico III (mármore vermelho, 8 toneladas só na tampa)
 
 História que emociona: Em 12 de abril de 1945, um incêndio devastou o telhado e parte da estrutura. A catedral ardeu enquanto Viena queimava. Mas o povo vienense, mal terminada a guerra, organizou campanhas de doação e reconstruiu tudo. A reabertura em 1952 foi um símbolo do renascimento da Áustria.
 
@@ -269,7 +269,7 @@ Dica local: Na saída, olhem para cima. O telhado visto da Stephansplatz, com o 
 
 ### 17:15 — GRABEN E PETERSPLATZ
 
-[Stephansdom → Graben → Petersplatz](https://www.google.com/maps/dir/?api=1&origin=Stephansdom%2C%20Stephansplatz%201%2C%201010%20Wien&destination=Petersplatz%2C%201010%20Wien&waypoints=Graben%2C%201010%20Wien&travelmode=walking)
+[Stephansdom → Graben → Petersplatz](https://www.google.com/maps/dir/?api=1&origin=Stephansdom%2C%20Stephansplatz%203%2C%201010%20Wien&destination=Petersplatz%2C%201010%20Wien&waypoints=Graben%2C%201010%20Wien&travelmode=walking)
 
 Saindo da catedral, vocês entram no Graben — a rua de pedestres mais elegante de Viena. Lojas de luxo, cafés tradicionais, artistas de rua. No meio do calçadão, a Pestsäule (Coluna da Peste) brilha em ouro barroco.
 
@@ -388,11 +388,11 @@ O café da manhã do ibis é completo: pães austríacos (o famoso Semmel), frio
 
 [Hotel → Hofburg](https://www.google.com/maps/dir/?api=1&origin=ibis%20Wien%20Mariahilf%2C%20Mariahilfer%20G%C3%BCrtel%2022-24%2C%201060%20Wien&destination=Hofburg%2C%20Michaelerkuppel%2C%201010%20Wien&travelmode=walking)
 
-Metrô U3 até Herrengasse. Em 12 minutos, vocês estão diante da Michaelerkuppel, a cúpula de entrada do Hofburg.
+Metrô U3 até Herrengasse. Em cerca de 8 minutos, vocês estão diante da Michaelerkuppel, a cúpula de entrada do Hofburg.
 
 ### 09:15 — O COMPLEXO DO HOFBURG
 
-[Ver no Google Maps](https://www.google.com/maps/search/?api=1&query=Hofburg%2C%20Vienna)
+[Ver no Google Maps](https://www.google.com/maps/search/?api=1&query=Hofburg%20Wien%2C%20Michaelerkuppel%2C%201010%20Wien)
 
 O Hofburg não é um palácio. É uma cidade dentro da cidade. Durante mais de seis séculos (1278–1918), este foi o centro do poder dos Habsburgos.
 
@@ -471,7 +471,7 @@ Curiosidade: O Demel e o Hotel Sacher brigam na justiça há décadas sobre quem
 
 Site oficial: demel.com
 
-[Ver no Google Maps](https://www.google.com/maps/search/?api=1&query=Demel%2C%20Vienna)
+[Ver no Google Maps](https://www.google.com/maps/search/?api=1&query=Demel%2C%20Kohlmarkt%2014%2C%201010%20Wien)
 
 ### 14:30 — A RINGSTRASSE, A AVENIDA DO IMPÉRIO
 
@@ -689,7 +689,7 @@ Durante duas horas, vocês ouvem a música que nasceu nesta cidade, tocada por m
 Informações práticas:
 
 - Duração: 2 horas (com intervalo)
-- Preço: €45-80 por pessoa (cerca de R$ 270 a R$ 480), dependendo da categoria do assento
+- Preço: cerca de €65 a €130 por pessoa (cerca de R$ 390 a R$ 780), dependendo da categoria do assento
 - Ingressos: site oficial de Schönbrunn
 - Chegar com 30 minutos de antecedência
 
@@ -802,7 +802,7 @@ Informações práticas:
 - Tempo recomendado: 1h30 a 2h
 - Horário: 9h às 18h
 
-[Ver no Google Maps](https://www.google.com/maps/search/?api=1&query=Belvedere%2C%20Vienna)
+[Ver no Google Maps](https://www.google.com/maps/search/?api=1&query=Oberes%20Belvedere%2C%20Prinz-Eugen-Stra%C3%9Fe%2027%2C%201030%20Wien)
 
 Jardins do Belvedere: Os jardins entre os dois palácios são gratuitos e espetaculares. Cascatas, fontes, estátuas mitológicas, canteiros geométricos. Do alto da escadaria do Belvedere Superior, tem-se uma vista perfeita do Belvedere Inferior emoldurado pelos jardins — e, ao fundo, as torres de Viena.
 

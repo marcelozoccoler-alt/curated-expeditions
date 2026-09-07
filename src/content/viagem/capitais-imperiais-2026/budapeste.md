@@ -423,7 +423,7 @@ Personagem: a avenida leva o nome de Gyula Andrássy (1823–1890), conde, prime
 
 A maior igreja de Budapeste. Consagrada em 1905, levou 54 anos para ser construída. Projetada por Miklós Ybl (1814–1891), o arquiteto mais prolífico da Hungria — que morreu antes de vê-la concluída, assim como Steindl com o Parlamento. Há uma maldição em Budapeste: os arquitetos não vivem para ver suas obras terminadas.
 
-96 metros de altura na cúpula, o número sagrado novamente, capacidade para 8.500 pessoas, 50 tipos diferentes de mármore no interior, órgão com 5.898 tubos.
+96 metros de altura na cúpula, o número sagrado novamente, capacidade para 8.500 pessoas, 50 tipos diferentes de mármore no interior, órgão com 6.389 tubos, reconstruído em 2025.
 
 Site oficial: szentistvanbazilika.hu
 
@@ -653,11 +653,11 @@ Passeiem pela Kazinczy utca, pela Wesselényi utca e pela Klauzál tér. O bairr
 
 Bairro Judeu ao Mercado Central.
 
-Metrô: estação Astoria, linha M2, até Deák Ferenc tér, transferência para a linha M4 ou bonde 47/49 até Fővám tér. Cerca de 15 minutos.
+Metrô: estação Astoria, linha M2. De lá, o bonde 47 ou 49 vai direto até Fővám tér, em duas paradas — ou dá para fazer o trecho a pé, em cerca de 15 minutos.
 
 Valor: o mesmo bilhete de antes.
 
-[Trajeto no Google Maps](https://www.google.com/maps/dir/?api=1&origin=Doh%C3%A1ny%20utca%202%2C%201074%20Budapest&destination=Great%20Market%20Hall%2C%20F%C5%91v%C3%A1m%20t%C3%A9r%201-3%2C%201093%20Budapest&travelmode=walking)
+[Trajeto no Google Maps](https://www.google.com/maps/dir/?api=1&origin=Doh%C3%A1ny%20utca%202%2C%201074%20Budapest&destination=Great%20Market%20Hall%2C%20V%C3%A1mh%C3%A1z%20k%C3%B6r%C3%BAt%201-3%2C%201093%20Budapest&travelmode=walking)
 
 ### 12:30 — MERCADO CENTRAL, NAGYVÁSÁRCSARNOK (pronuncia-se "Nadivaxárcsarnok")
 
@@ -673,13 +673,13 @@ Goulash: sopa tradicional, 1.500 a 2.500 HUF, R$ 25 a R$ 41.
 
 Kurtoskalacs: bolo chaminé húngaro, 800 a 1.200 HUF, R$ 13 a R$ 20.
 
-Horário: segunda a sábado, 6:00 às 17:00. Domingo fechado.
+Horário: segunda, 6:00 às 17:00; terça a sexta, 6:00 às 18:00; sábado, 6:00 às 15:00. Domingo fechado.
 
 [Ver no Google Maps](https://www.google.com/maps/search/?api=1&query=Great%20Market%20Hall%2C%20Budapest)
 
 ### 14:00 — CAFÉ NEW YORK
 
-[Mercado ao Café New York](https://www.google.com/maps/dir/?api=1&origin=Great%20Market%20Hall%2C%20F%C5%91v%C3%A1m%20t%C3%A9r%201-3%2C%201093&destination=New%20York%20Caf%C3%A9%2C%20Erzs%C3%A9bet%20krt.%209-11%2C%201073&travelmode=walking)
+[Mercado ao Café New York](https://www.google.com/maps/dir/?api=1&origin=Great%20Market%20Hall%2C%20V%C3%A1mh%C3%A1z%20k%C3%B6r%C3%BAt%201-3%2C%201093&destination=New%20York%20Caf%C3%A9%2C%20Erzs%C3%A9bet%20krt.%209-11%2C%201073&travelmode=walking)
 
 O café mais bonito do mundo. Inaugurado em 1894 no térreo do Palácio New York, projetado pelo arquiteto Alajos Hauszmann (1847–1926) em estilo renascentista italiano. Afrescos no teto, colunas de mármore, vitrais, espelhos dourados, lustres de cristal.
 

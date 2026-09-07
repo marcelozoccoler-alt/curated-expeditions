@@ -76,7 +76,7 @@ Praga tem dezessete pontes que cruzam o Moldava. Mas uma delas não é apenas um
 
 A história começa com um número. No dia 9 de julho de 1357, às 5h31 da manhã, o Imperador Carlos IV lançou a primeira pedra. A data e a hora foram escolhidas pelos astrólogos reais para formar aquele palíndromo perfeito que vocês já conhecem — o número que sobe e desce como um eco. Segundo eles, a sequência protegeria a ponte para sempre.
 
-E protegeu. A ponte sobreviveu a enchentes catastróficas (a maior delas em 2002), a guerras, a cercos, a 667 anos de invernos rigorosos. Continua ali.
+E protegeu. A ponte sobreviveu a enchentes catastróficas (a maior delas em 2002), a guerras, a cercos, a 669 anos de invernos rigorosos. Continua ali.
 
 As 30 estátuas barrocas alinhadas em ambos os lados foram instaladas entre 1683 e 1714. A mais famosa é a de São João Nepomuceno — o santo que foi jogado do alto da ponte em 1393, a mando do rei Venceslau IV, por se recusar a revelar segredos de confissão da rainha. Diz a lenda que tocar na placa de bronze na base da estátua traz boa sorte (ela está polida de tantas mãos que a tocaram). No local exato de onde o santo foi lançado, há uma cruz de latão incrustada nas pedras.
 
@@ -116,7 +116,7 @@ Leoš Janáček (1854-1928) — O modernista. Suas óperas e sinfonias capturam 
 
 Franz Kafka (1883-1924) — O escritor que definiu o absurdo. Nasceu, viveu, estudou e trabalhou em Praga. Suas obras — A Metamorfose, O Processo, O Castelo — são impregnadas da atmosfera opressiva e labiríntica da cidade. Morreu de tuberculose aos 40 anos. Dizia ele: Praga não te deixa ir. Esta pequena mãe tem garras. Está enterrado no Novo Cemitério Judeu.
 
-Alfons Mucha (1860-1939) — O mestre do Art Nouveau. Criou os cartazes de Sarah Bernhardt, os vitrais da Catedral de São Vito e a Epopeia Eslava — 20 telas monumentais que narram a história dos povos eslavos. Morreu interrogado pela Gestapo em 1939.
+Alfons Mucha (1860-1939) — O mestre do Art Nouveau. Criou os cartazes de Sarah Bernhardt, os vitrais da Catedral de São Vito e a Epopeia Eslava — 20 telas monumentais que narram a história dos povos eslavos. Foi interrogado pela Gestapo em 1939 e morreu poucos meses depois, de pneumonia.
 
 Jaroslav Hašek (1883-1923) — O gênio da sátira. Autor de O Bom Soldado Švejk, o romance cômico mais famoso da literatura tcheca. Morreu de tuberculose e alcoolismo, mas sua obra é um clássico mundial.
 
@@ -150,7 +150,7 @@ A cidade respira História. Cada viela já escondeu um alquimista, um escritor, 
 
 ### 1. O PALÍNDROMO DA PONTE CARLOS
 
-A pedra fundamental da Ponte Carlos foi lançada em 9 de julho de 1357, às 5h31 — o horário do talismã numérico escolhido pelos astrólogos de Carlos IV. A ponte já sobreviveu a enchentes catastróficas, guerras e 667 anos de História. O talismã funcionou?
+A pedra fundamental da Ponte Carlos foi lançada em 9 de julho de 1357, às 5h31 — o horário do talismã numérico escolhido pelos astrólogos de Carlos IV. A ponte já sobreviveu a enchentes catastróficas, guerras e 669 anos de História. O talismã funcionou?
 
 ### 2. O RELÓGIO ASTRONÔMICO E A LENDA DO MESTRE RELOJOEIRO
 
@@ -411,7 +411,7 @@ O café da manhã do Fleur De Lis é um destaque: pães tchecos frescos, frios, 
 
 [Hotel → Praça da Cidade Velha](https://www.google.com/maps/dir/?api=1&origin=Fleur%20De%20Lis%20Hotel%2C%20Slezsk%C3%A1%20832%2F55%2C%20Praha%203&destination=Starom%C4%9Bstsk%C3%A9%20n%C3%A1m%C4%9Bst%C3%AD%2C%20Praha%201)
 
-Caminhada de 5 a 8 minutos até Náměstí Míru — ali está a estação da linha A do metrô ([ver no mapa](https://www.google.com/maps/search/?api=1&query=N%C3%A1m%C4%9Bst%C3%AD%20M%C3%ADru%20metro%2C%20Praha)). Duas paradas e vocês descem em Staroměstská, no coração da Cidade Velha: cinco minutos de trajeto. O centro histórico de Praga — declarado Patrimônio da Humanidade pela UNESCO em 1992 — se abre diante de vocês.
+Caminhada de 5 a 8 minutos até Náměstí Míru — ali está a estação da linha A do metrô ([ver no mapa](https://www.google.com/maps/search/?api=1&query=N%C3%A1m%C4%9Bst%C3%AD%20M%C3%ADru%20metro%2C%20Praha)). Três paradas e vocês descem em Staroměstská, no coração da Cidade Velha: cerca de cinco minutos de trajeto. O centro histórico de Praga — declarado Patrimônio da Humanidade pela UNESCO em 1992 — se abre diante de vocês.
 
 Quem preferir a paisagem à pressa pega o Bonde 22 na mesma Náměstí Míru e desce em Národní divadlo, junto ao Teatro Nacional e ao rio: quinze minutos de janela, mais dez de caminhada até a praça.
 
@@ -458,7 +458,7 @@ Entrada: gratuita.
 
 [Ver no Google Maps](https://www.google.com/maps/search/?api=1&query=Prague%20Astronomical%20Clock%2C%20Starom%C4%9Bstsk%C3%A9%20n%C3%A1m.%2C%20110%2000%20Star%C3%A9%20M%C4%9Bsto)
 
-Construído em 1410, o Relógio Astronômico de Praga é o mais antigo do mundo ainda em funcionamento. São 615 anos de engrenagens, ponteiros e mostradores.
+Construído em 1410, o Relógio Astronômico de Praga é o mais antigo do mundo ainda em funcionamento. São 616 anos de engrenagens, ponteiros e mostradores.
 
 O que ele mostra:
 - Tempo terreno — as horas como as conhecemos (ponteiro com a mão dourada)
@@ -486,13 +486,13 @@ Dica local: Cheguem 10 minutos antes para um bom lugar. Às 10:00, a multidão �
 
 ### 10:20 — CAMINHADA ATÉ A CABEÇA DE KAFKA
 
-[Praça → Cabeça de Kafka](https://www.google.com/maps/dir/?api=1&origin=Starom%C4%9Bstsk%C3%A9%20n%C3%A1m%C4%9Bst%C3%AD%2C%20110%2000%20Praha%201&destination=Quadrio%2C%20N%C3%A1rodn%C3%AD%20135%2C%20110%2000%20Praha%201&travelmode=walking)
+[Praça → Cabeça de Kafka](https://www.google.com/maps/dir/?api=1&origin=Starom%C4%9Bstsk%C3%A9%20n%C3%A1m%C4%9Bst%C3%AD%2C%20110%2000%20Praha%201&destination=Quadrio%2C%20Sp%C3%A1len%C3%A1%2022%2C%20110%2000%20Praha%201&travelmode=walking)
 
 Dez minutos a pé pela rua Národní třída. Vocês passam pelo Café Louvre (onde Kafka e Einstein frequentavam), pelo Teatro Nacional (símbolo do renascimento cultural tcheco), até chegarem ao shopping Quadrio.
 
 ### 11:00 — O ESPETÁCULO DA CABEÇA GIRATÓRIA DE KAFKA
 
-[Ver no Google Maps](https://www.google.com/maps/search/?api=1&query=Kafka%20Head%20Statue%2C%20N%C3%A1rodn%C3%AD%20135%2C%20110%2000%20Nov%C3%A9%20M%C4%9Bsto%2C%20Prague)
+[Ver no Google Maps](https://www.google.com/maps/search/?api=1&query=Hlava%20Franze%20Kafky%2C%20Quadrio%2C%20Sp%C3%A1len%C3%A1%2022%2C%20Praha%201)
 
 Obra de David Černý (2014). O artista tcheco mais provocador do século XXI criou uma escultura que é pura genialidade:
 
@@ -508,7 +508,7 @@ Entrada: gratuita, ao ar livre, na fachada do shopping Quadrio.
 
 ### 11:30 — CAMINHADA PARA O ALMOÇO
 
-[Cabeça de Kafka → Lokál Dlouhááá](https://www.google.com/maps/dir/?api=1&origin=Kafka%20Head%20Statue%2C%20N%C3%A1rodn%C3%AD%20135%2C%20110%2000%20Nov%C3%A9%20M%C4%9Bsto&destination=Lok%C3%A1l%20Dlouh%C3%A1%C3%A1%2C%20Dlouh%C3%A1%2033%2C%20110%2000%20Star%C3%A9%20M%C4%9Bsto&travelmode=walking)
+[Cabeça de Kafka → Lokál Dlouhááá](https://www.google.com/maps/dir/?api=1&origin=Hlava%20Franze%20Kafky%2C%20Quadrio%2C%20Sp%C3%A1len%C3%A1%2022%2C%20Praha%201&destination=Lok%C3%A1l%20Dlouh%C3%A1%C3%A1%2C%20Dlouh%C3%A1%2033%2C%20110%2000%20Star%C3%A9%20M%C4%9Bsto&travelmode=walking)
 
 Dez minutos a pé até o bairro judeu, onde fica o restaurante. O caminho passa pelo Teatro Estates (onde Mozart regeu a estreia de Don Giovanni) e entra nas ruas estreitas de Josefov.
 
@@ -856,7 +856,7 @@ A tarde é livre para fazer o que quiserem — ou não fazer nada.
 Sugestões para compras e lembranças: se quiserem levar um pedaço de Praga na mala, as marionetes tchecas das lojas da Rua Karlova ou da Celetná custam entre CZK 300 e 3.000 (cerca de R$ 74 a R$ 740). O cristal da Boêmia, na Moser (Na Příkopě 12), vai de CZK 500 a mais de CZK 10.000 (cerca de R$ 123 a mais de R$ 2.460). As granadas tchecas, encontradas na Granát Turnov e em outras lojas, variam de CZK 1.000 a mais de CZK 20.000 (cerca de R$ 246 a mais de R$ 4.920). Para quem gosta de livros, há os títulos sobre Kafka na livraria da Rua do Ouro ou na Franz Kafka Bookshop, por CZK 200 a 500 (cerca de R$ 49 a R$ 123). As cervejas tchecas de supermercado ou lojas especializadas saem por CZK 20 a 50 (cerca de R$ 5 a R$ 12). E a Becherovka, o licor de ervas típico, encontra-se em qualquer supermercado ou loja duty-free por CZK 200 a 400 (cerca de R$ 49 a R$ 99).
 
 Sugestões para quem não quer compras:
-- Museu Mucha (Panská 7): o mestre do Art Nouveau, criador dos cartazes de Sarah Bernhardt. CZK 350 (cerca de R$ 86)
+- Museu Mucha (Na Příkopě 10, Palácio Savarin): o mestre do Art Nouveau, criador dos cartazes de Sarah Bernhardt. CZK 350 (cerca de R$ 86)
 - Simplesmente sentar-se num banco do Parque Kampa e ver o Moldava passar
 - Um chá quente num café de Vinohrady
 
