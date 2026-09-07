@@ -276,9 +276,9 @@ Site oficial e ingressos: jegymester.hu/parlament
 
 Valor atualizado (2026):
 
-Cidadãos não europeus: 14.000 HUF (cerca de 35 euros / R$ 210).
+Cidadãos não europeus: 14.000 HUF (cerca de 35 euros / R$ 230).
 
-Cidadãos da União Europeia: 7.000 HUF (cerca de 18 euros / R$ 105).
+Cidadãos da União Europeia: 7.000 HUF (cerca de 18 euros / R$ 115).
 
 Visita guiada de 45 minutos em vários idiomas.
 
@@ -434,11 +434,11 @@ Site oficial: szentistvanbazilika.hu
 
 Valores atualizados (2026):
 
-Entrada na nave principal: 2.600 HUF (7 euros / R$ 38).
+Entrada na nave principal: 2.600 HUF (7 euros / R$ 43).
 
-Panorâmica do terraço e tesouro: 5.000 HUF (13 euros / R$ 73).
+Panorâmica do terraço e tesouro: 5.000 HUF (13 euros / R$ 82).
 
-Combo completo: 6.800 HUF (18 euros / R$ 99).
+Combo completo: 6.800 HUF (18 euros / R$ 112).
 
 
 A Mão Direita de Santo Estevão: no interior, em uma capela dourada atrás do altar-mor, está a relíquia mais sagrada da Hungria: a mão mumificada do primeiro rei húngaro, coroado no ano 1000. Santo Estevão (975–1038) foi o homem que transformou tribos nômades em uma nação cristã. A mão tem mais de mil anos. Diz a lenda que, se desaparecer, a Hungria cairá.
@@ -465,7 +465,7 @@ Drum Café (Dob utca 2): goulash autêntico. Pratos entre 2.000 e 4.000 HUF, R$ 
 
 Personagem: a praça leva o nome de Ferenc Deák (1803–1876), o homem sábio da nação. Foi Deák quem concebeu o Compromisso de 1867 — a solução diplomática que transformou o Império Austríaco em Império Austro-Húngaro, dando à Hungria autonomia dentro da monarquia dual. Sem Deák, não haveria Sisi coroada em Budapeste. Sem Deák, não haveria a Budapeste unificada de 1873.
 
-Valor: 450 HUF (1,20 euros / R$ 6,50).
+Valor: 450 HUF (1,20 euros / R$ 7).
 
 ### 14:00 — O CASTELO DE BUDA
 
@@ -487,9 +487,9 @@ Mirante em forma de fortaleza medieval, construído entre 1895 e 1902 por Frigye
 
 Nível inferior: gratuito.
 
-Nível superior, torres: 1.700 HUF (4,50 euros / R$ 25).
+Nível superior, torres: 1.700 HUF (4,50 euros / R$ 28).
 
-Desconto para maiores de 65 anos: 50%, 850 HUF (2,25 euros / R$ 12).
+Desconto para maiores de 65 anos: 50%, 850 HUF (2,25 euros / R$ 14).
 
 [Ver no Google Maps](https://www.google.com/maps/place/Fisherman's+Bastion)
 
@@ -511,9 +511,9 @@ Site oficial: matyas-templom.hu
 
 Valores atualizados (2026):
 
-Entrada para visita turística: 3.400 HUF (9 euros / R$ 49).
+Entrada para visita turística: 3.400 HUF (9 euros / R$ 56).
 
-Com audioguia: 5.000 HUF (13 euros / R$ 73).
+Com audioguia: 5.000 HUF (13 euros / R$ 82).
 
 
 [Ver no Google Maps](https://www.google.com/maps/place/Matias+Church)
@@ -532,7 +532,7 @@ Ruszwurm Cukrászda (Szentháromság utca 7): a confeitaria mais antiga de Budap
 
 [Bastião ao hotel](https://www.google.com/maps/dir/Hal%C3%A1szb%C3%A1stya,+Szenth%C3%A1roms%C3%A1g+t%C3%A9re,+1014+Budapest/Medos+Hotel,+J%C3%B3kai+t%C3%A9r+9,+1061)
 
-Táxi ou Bolt: 10 minutos, cerca de 4.000 HUF (10 euros / R$ 58).
+Táxi ou Bolt: 10 minutos, cerca de 4.000 HUF (10 euros / R$ 66).
 
 Resumo do dia 2:
 
@@ -622,7 +622,7 @@ Noite no Szimpla Kert: casual despojado. Jaqueta leve.
 
 Metrô: estação Oktogon, linha M1, transferência em Deák Ferenc tér, linha M2, estação Astoria. 12 minutos.
 
-Valor: 450 HUF (1,20 euros / R$ 6,50).
+Valor: 450 HUF (1,20 euros / R$ 7).
 
 ### 09:45 — ENCONTRO NA SINAGOGA
 
@@ -658,7 +658,7 @@ Bairro Judeu ao Mercado Central.
 
 Metrô: estação Astoria, linha M2, até Deák Ferenc tér, transferência para a linha M4 ou bonde 47/49 até Fővám tér. Cerca de 15 minutos.
 
-Valor: 450 HUF (1,20 euros / R$ 6,50).
+Valor: 450 HUF (1,20 euros / R$ 7).
 
 [Trajeto no Google Maps](https://www.google.com/maps/dir/Doh%C3%A1ny+utca+2,+1074+Budapest/Great+Market+Hall,+F%C5%91v%C3%A1m+t%C3%A9r+1-3,+1093+Budapest)
 
@@ -702,7 +702,7 @@ Site oficial: cafenewyorkbudapest.com
 
 Metrô: estação Blaha Lujza tér, linha M2, transferência em Deák Ferenc tér, linha M1, estação Hősök tere. 15 minutos.
 
-Valor: 450 HUF (1,20 euros / R$ 6,50).
+Valor: 450 HUF (1,20 euros / R$ 7).
 
 ### 15:30 — PRAÇA DOS HERÓIS, HOSOK TERE
 
@@ -766,9 +766,9 @@ Site oficial: szechenyibath.hu
 
 Valores atualizados (2026):
 
-Entrada diária com armário, segunda a quinta: 13.200 HUF (cerca de 33 euros / R$ 198).
+Entrada diária com armário, segunda a quinta: 13.200 HUF (cerca de 33 euros / R$ 216).
 
-Entrada diária com armário, sexta a domingo: 14.800 HUF (cerca de 37 euros / R$ 222).
+Entrada diária com armário, sexta a domingo: 14.800 HUF (cerca de 37 euros / R$ 243).
 
 Bilhete Good Morning, entrada até as 9h: 10.500 HUF em dias úteis.
 
@@ -776,9 +776,9 @@ Desconto para maiores de 65 anos: confirmar diretamente na bilheteria, não publ
 
 Cabine privativa: verificar valor adicional na bilheteria.
 
-Aluguel de toalha: 1.500 HUF (4 euros / R$ 22).
+Aluguel de toalha: 1.500 HUF (4 euros / R$ 25).
 
-Aluguel de chinelo: 800 HUF (2 euros / R$ 12).
+Aluguel de chinelo: 800 HUF (2 euros / R$ 13).
 
 Horário: diariamente, das 6:00 às 22:00.
 
@@ -814,7 +814,7 @@ Hummus Bar (Kazinczy utca 27): hummus, falafel, shakshuka. Pratos entre 2.000 e 
 
 [Szimpla Kert ao hotel](https://www.google.com/maps/dir/Szimpla+Kert,+Kazinczy+utca+14,+1075/Medos+Hotel,+J%C3%B3kai+t%C3%A9r+9,+1061)
 
-A pé: 15 minutos. Ou táxi/Bolt: 5 minutos, cerca de 2.500 HUF (6,50 euros / R$ 36).
+A pé: 15 minutos. Ou táxi/Bolt: 5 minutos, cerca de 2.500 HUF (6,50 euros / R$ 41).
 
 Resumo do dia 3:
 
