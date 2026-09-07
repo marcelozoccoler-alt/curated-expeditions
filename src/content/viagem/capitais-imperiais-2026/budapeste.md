@@ -451,11 +451,9 @@ A Mão Direita de Santo Estevão: no interior, em uma capela dourada atrás do a
 
 [Ver no Google Maps](https://www.google.com/maps/place/Basilica+of+St+Stephen)
 
-### 10:00 — A NAGYMISE
+### 10:00 — A BASÍLICA EM DOMINGO
 
-A missa das 10 horas é a Nagymise, a grande missa dominical. O órgão de 5.898 tubos preenche a cúpula com Bach, Mozart, Liszt ou compositores húngaros. É música que sobe como incenso.
-
-Personagem: quando o órgão toca, pensem em Ferenc Erkel (1810–1893), o compositor do hino nacional húngaro, o Himnusz, e fundador da Ópera Nacional. A música sacra húngara carrega a melancolia de um povo que sobreviveu a tudo — e a esperança de quem acredita que a beleza é a última forma de resistência.
+Domingo de manhã é quando a Basílica de Santo Estevão vive seu momento mais solene da semana. O que acontece lá dentro, preferimos não contar — é uma daquelas experiências que só fazem sentido ao vivo. Entrem, sentem-se e deixem a cúpula fazer o resto.
 
 ### 12:30 — ALMOÇO
 
@@ -523,13 +521,12 @@ Entrada para visita turística: 3.400 HUF (9 euros / R$ 49).
 
 Com audioguia: 5.000 HUF (13 euros / R$ 73).
 
-Entrada gratuita para a missa.
 
 [Ver no Google Maps](https://www.google.com/maps/place/Matias+Church)
 
 ### 20:30 — O BASTIÃO DOS PESCADORES À NOITE
 
-Vocês saem da missa e a cidade está transformada. As luzes do Parlamento brilham douradas sobre o Danúbio. A Ponte das Correntes é um colar de pérolas sobre a água escura. A Ponte Elisabeth, mais ao sul, risca o céu com seus cabos de aço iluminados. É Budapeste como vocês nunca viram.
+Vocês saem da igreja e a cidade está transformada. As luzes do Parlamento brilham douradas sobre o Danúbio. A Ponte das Correntes é um colar de pérolas sobre a água escura. A Ponte Elisabeth, mais ao sul, risca o céu com seus cabos de aço iluminados. É Budapeste como vocês nunca viram.
 
 ### 21:30 — JANTAR EM BUDA
 
