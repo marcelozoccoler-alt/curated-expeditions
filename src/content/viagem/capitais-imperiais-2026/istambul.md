@@ -600,7 +600,7 @@ A mesquita fecha 30 minutos antes das orações. Indo de manhã cedo, vocês tê
 
 Saem da mesquita e pegam táxis de novo. Pedem para o motorista deixar vocês na Kiremit Caddesi, no alto de Balat. Dez minutos de descida suave de carro, e vocês chegam no topo do bairro mais colorido de Istambul.
 
-Tempo: 10 min. Custo: 100 a 150 TRY por carro.
+Tempo: 10 min. Custo: 100 a 150 TRY por carro (cerca de R$ 11–16,50).
 
 ### 11:00 — AS RUAS COLORIDAS E O FUSCA ROSA
 
