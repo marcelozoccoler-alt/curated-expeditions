@@ -190,7 +190,7 @@ Em 1870, um incêndio devastou o bairro de Pera (hoje Beyoğlu), destruindo milh
 - Endereço: região de Galata / Karaköy, Beyoğlu
 - Bairro: Galata — o mesmo bairro onde se ergue a Torre de Galata, construída em 1348 pelos genoveses
 
-[Ver no Google Maps](https://www.google.com/maps/search/?api=1&query=Galata+Times+Hotel+Istanbul)
+[Ver no Google Maps](https://www.google.com/maps/search/?api=1&query=Galata%20Times%20Hotel%2C%20Istanbul)
 
 ### POR QUE ESTE HOTEL FUNCIONA PARA VOCÊS
 
@@ -297,13 +297,13 @@ Personagem: o aeroporto leva o nome do fundador da Turquia moderna, Mustafa Kema
 
 ### 20:00 — TRASLADO PRIVATIVO PARA O HOTEL
 
-[Ver no Google Maps](https://www.google.com/maps/search/?api=1&query=Istanbul+Airport+to+Galata)
+[Ver no Google Maps](https://www.google.com/maps/dir/?api=1&origin=Istanbul%20Airport%20(IST)%2C%20Arnavutk%C3%B6y%2C%20Istanbul&destination=Galata%20Times%20Hotel%2C%20Istanbul&travelmode=driving)
 
 O trajeto do aeroporto até Galata leva de 40 a 50 minutos (dependendo do trânsito). Vocês cruzarão bairros periféricos, depois avenidas modernas, até avistarem o Corno de Ouro — o estuário dourado que separa a península histórica do bairro de Galata.
 
 ### 20:45 — CHECK-IN NO GALATA TIMES HOTEL
 
-[Ver no Google Maps](https://www.google.com/maps/search/?api=1&query=Galata+Times+Hotel+Istanbul)
+[Ver no Google Maps](https://www.google.com/maps/search/?api=1&query=Galata%20Times%20Hotel%2C%20Istanbul)
 
 O hotel fica no coração de Galata. O bairro à noite é vibrante: cafés com mesas na calçada, galerias iluminadas, o som distante de música turca, gatos dormindo em cadeiras de vime. A Torre de Galata, construída em 1348 pelos genoveses, está iluminada e visível das ruas próximas.
 
@@ -315,11 +315,11 @@ Depois de um dia que começou em Praga, incluiu um voo de 2h45 e termina numa no
 
 Sugestões próximas ao hotel (5–10 minutos a pé):
 
-**Karaköy Lokantası** (Kemankeş Cad. 37/A) — [Ver no Google Maps](https://www.google.com/maps/search/?api=1&query=Karaköy+Lokantası)
+**Karaköy Lokantası** (Kemankeş Cad. 57) — [Ver no Google Maps](https://www.google.com/maps/search/?api=1&query=Karak%C3%B6y%20Lokantas%C4%B1%2C%20Kemanke%C5%9F%20Caddesi%2057%2C%20Istanbul)
 
-Uma lokanta turca moderna — o equivalente a um bistrô elegante. Pratos turcos tradicionais preparados com técnica impecável. Mezes frios e quentes, peixes do Bósforo, cordeiro. Ambiente de azulejos azuis e brancos. €12–20 por pessoa (cerca de R$ 72–120).
+Uma lokanta turca moderna — o equivalente a um bistrô elegante. Pratos turcos tradicionais preparados com técnica impecável. Mezes frios e quentes, peixes do Bósforo, cordeiro. Ambiente de azulejos azuis e brancos. 600 a 1.000 TRY por pessoa (cerca de R$ 66 a R$ 110).
 
-Restaurante familiar simples e autêntico aos pés da Torre de Galata. Comida turca caseira, sem pretensões. Kebab, pide (a "pizza turca"), mezes. €8–14 (cerca de R$ 48–84).
+Restaurante familiar simples e autêntico aos pés da Torre de Galata. Comida turca caseira, sem pretensões. Kebab, pide (a "pizza turca"), mezes. 400 a 700 TRY (cerca de R$ 44 a R$ 77).
 
 **Simplesmente um çay e um simit:** se o cansaço da viagem falar mais alto, sentem-se em qualquer café de rua, peçam um çay (chá turco, servido naquelas tulipas de vidro) e um simit (o pão circular com gergelim, crocante por fora, macio por dentro). A primeira experiência turca não precisa ser grandiosa para ser inesquecível.
 
@@ -382,7 +382,7 @@ Na Turquia, o café da manhã é um ritual — demorado, farto, compartilhado. A
 
 ### 09:00 — BONDE T1 ATÉ SULTANAHMET
 
-[Ver no Google Maps](https://www.google.com/maps/search/?api=1&query=Sultanahmet+Tram+Station)
+[Ver no Google Maps](https://www.google.com/maps/search/?api=1&query=Sultanahmet%20Tramvay%20Dura%C4%9F%C4%B1%2C%20Istanbul)
 
 Caminhada de 5 minutos até a estação Karaköy do bonde T1. O bonde é moderno, com ar-condicionado. Dez minutos depois, vocês descem na parada Sultanahmet — e o coração do Império Bizantino e Otomano se abre diante de vocês.
 
@@ -390,7 +390,7 @@ A Praça de Sultanahmet (pronuncia-se "sultanamét") é um parque ajardinado ent
 
 ### 09:15 — MESQUITA AZUL (SULTAN AHMED CAMII)
 
-[Ver no Google Maps](https://www.google.com/maps/search/?api=1&query=Sultan+Ahmed+Camii)
+[Ver no Google Maps](https://www.google.com/maps/search/?api=1&query=Sultan%20Ahmet%20Camii%2C%20Istanbul)
 
 A Mesquita Azul foi construída entre 1609 e 1616 pelo sultão Ahmed I, que tinha apenas 18 anos quando ordenou as obras. Ele queria uma mesquita que rivalizasse com Hagia Sophia, que ficava a apenas 300 metros.
 
@@ -411,7 +411,7 @@ Personagem: Ahmed I morreu aos 27 anos, apenas cinco anos após a conclusão da 
 
 ### 10:15 — HAGIA SOPHIA (AYASOFYA-I KEBIR CAMI-I ŞERIFI)
 
-[Ver no Google Maps](https://www.google.com/maps/search/?api=1&query=Hagia+Sophia)
+[Ver no Google Maps](https://www.google.com/maps/search/?api=1&query=Ayasofya%20Camii%2C%20Istanbul)
 
 A apenas 300 metros da Mesquita Azul, atravessando a praça ajardinada, está a Hagia Sophia — "Santa Sabedoria" em grego. Das três encarnações da cidade (Bizâncio, Constantinopla, Istambul), Hagia Sophia é o símbolo mais poderoso. Foi igreja por 916 anos. Mesquita por 482 anos. Museu por 86 anos. E, desde 2020, mesquita novamente.
 
@@ -439,7 +439,7 @@ Personagem: quando vocês olham para a cúpula, pensem em Isidoro de Mileto — 
 
 ### 11:45 — O HIPÓDROMO E UM LANCHE LEVE
 
-[Ver no Google Maps](https://www.google.com/maps/search/?api=1&query=Sultanahmet+Meydanı)
+[Ver no Google Maps](https://www.google.com/maps/search/?api=1&query=Sultanahmet%20Meydan%C4%B1%2C%20Istanbul)
 
 A poucos passos de Hagia Sophia estende-se o que foi o Hipódromo de Constantinopla — o autódromo romano onde 100.000 pessoas assistiam a corridas de bigas. Hoje é uma praça alongada chamada Sultanahmet Meydanı.
 
@@ -459,7 +459,7 @@ Personagem: o Hipódromo foi palco do mais sangrento motim da história bizantin
 
 ### 12:45 — O GRAN BAZAR (KAPALIÇARŞI)
 
-[Ver no Google Maps](https://www.google.com/maps/search/?api=1&query=Kapalıçarşı+Grand+Bazaar)
+[Ver no Google Maps](https://www.google.com/maps/search/?api=1&query=Kapal%C4%B1%C3%A7ar%C5%9F%C4%B1%2C%20Istanbul)
 
 61 ruas cobertas. 4.000 lojas. 22 portões. Construído em 1461. O Gran Bazar de Istambul é o shopping center mais antigo do mundo em operação contínua.
 
@@ -471,11 +471,11 @@ Perder-se aqui não é um acidente — é o objetivo. Cada viela revela algo nov
 
 O que comprar no Gran Bazar: vocês vão encontrar açafrão turco, sumac (ácido e cítrico), pul biber (pimenta síria) e chá de maçã por 20 a 100 TRY (cerca de R$ 2,20 a R$ 11,00); o lokum, a delícia turca, na tradicional Hacı Bekir (desde 1777), com pistache, água de rosas ou romã, por 50 a 150 TRY o quilo (cerca de R$ 5,50 a R$ 16,50); cerâmicas de Iznik — pratos, azulejos e tigelas pintados à mão com tulipas e arabescos — por 50 a 500 TRY (cerca de R$ 5,50 a R$ 55,00); lâmpadas de mosaico artesanais, de vidro colorido e latão, que funcionam com lâmpada LED, por 100 a 500 TRY (cerca de R$ 11,00 a R$ 55,00); joias de prata com o olho turco (o nazar boncuk, amuleto azul contra mau-olhado) por 20 a 200 TRY (cerca de R$ 2,20 a R$ 22,00); tapetes e kilims feitos à mão na Anatólia, que os vendedores desenrolam um a um com um chá oferecido, por 1.000 a mais de 20.000 TRY (cerca de R$ 110 a mais de R$ 2.200); lenços de seda e pashminas de cores vibrantes por 50 a 200 TRY (cerca de R$ 5,50 a R$ 22,00); e café turco torrado e moído finíssimo — vale comprar também o cezve, a panela de cobre — por 30 a 100 TRY (cerca de R$ 3,30 a R$ 11,00).
 
-Dica local: pechinchar no Gran Bazar não é confronto — é um jogo, quase uma dança. O vendedor oferece um preço. Vocês sorriem, agradecem e fazem uma contraproposta de 40 a 50% do valor. Ele ri, diz que vocês vão levá-lo à falência, e oferece um desconto. Encontram-se no meio. É teatral, é divertido, e com um çay oferecido no meio do caminho, o negócio se fecha como entre velhos amigos. A entrada é gratuita, e o bazar funciona de segunda a sábado, das 08:30 às 19:00, fechado aos domingos e feriados religiosos. Há caixas eletrônicos dentro do bazar — prefiram pagar em lira turca (TRY) — e vale cuidado com falsificações de marcas de luxo, que são ilegais e apreendidas na alfândega.
+Dica local: pechinchar no Gran Bazar não é confronto — é um jogo, quase uma dança. O vendedor oferece um preço. Vocês sorriem, agradecem e fazem uma contraproposta de 40 a 50% do valor. Ele ri, diz que vocês vão levá-lo à falência, e oferece um desconto. Encontram-se no meio. É teatral, é divertido, e com um çay oferecido no meio do caminho, o negócio se fecha como entre velhos amigos. A entrada é gratuita, e o bazar funciona de segunda a sábado, das 09:00 às 19:00, fechado aos domingos e feriados religiosos. Há caixas eletrônicos dentro do bazar — prefiram pagar em lira turca (TRY) — e vale cuidado com falsificações de marcas de luxo, que são ilegais e apreendidas na alfândega.
 
 ### 13:30 — SAÍDA DE SULTANAHMET, BONDE DE VOLTA AO HOTEL
 
-[Ver no Google Maps](https://www.google.com/maps/search/?api=1&query=Karaköy+Tram+Station)
+[Ver no Google Maps](https://www.google.com/maps/search/?api=1&query=Karak%C3%B6y%20Tramvay%20Dura%C4%9F%C4%B1%2C%20Istanbul)
 
 Bonde T1 de Sultanahmet até Karaköy (10 minutos). Caminhada até o hotel (5 minutos). Vocês chegam por volta das 13:50, com tempo confortável para o banho e a troca de roupa.
 
@@ -554,7 +554,7 @@ O terraço do Galata Times ainda está em silêncio quando vocês descem para o 
 
 ### 09:15 — TÁXIS PARA A COLINA DE CHORA
 
-[Ver no Google Maps](https://www.google.com/maps/search/?api=1&query=Kariye+Camii)
+[Ver no Google Maps](https://www.google.com/maps/search/?api=1&query=Kariye%20Camii%2C%20Edirnekap%C4%B1%2C%20Istanbul)
 
 A Mesquita de Chora fica longe de tudo — escondida nas muralhas antigas, no alto de uma colina onde o transporte público não chega com facilidade. Para o grupo, a escolha sensata é pedir táxis na recepção.
 
@@ -566,7 +566,7 @@ Personagem: a Chora foi construída no século IV, fora das muralhas de Constant
 
 ### 09:45 — A CAPELA DOS MOSAICOS
 
-Endereço: Derviş Ali, Kariye Cami Sk., 34087 Fatih/İstanbul — [Ver no Google Maps](https://www.google.com/maps/search/?api=1&query=Kariye+Camii)
+Endereço: Dervişali, Kariye Camii Sk. 18, 34087 Edirnekapı, Fatih/İstanbul — [Ver no Google Maps](https://www.google.com/maps/search/?api=1&query=Kariye%20Camii%2C%20Edirnekap%C4%B1%2C%20Istanbul)
 
 Vocês escaneiam o QR code no portão e entram. O silêncio é quase físico. E então os olhos se acostumam com a penumbra, e o ouro começa a aparecer — primeiro timidamente, depois por toda parte.
 
@@ -582,7 +582,7 @@ A mesquita fecha 30 minutos antes das orações. Indo de manhã cedo, vocês tê
 
 ### 10:45 — TÁXI PARA O ALTO DE BALAT
 
-[Ver no Google Maps](https://www.google.com/maps/search/?api=1&query=Kiremit+Caddesi+Balat)
+[Ver no Google Maps](https://www.google.com/maps/search/?api=1&query=Kiremit%20Caddesi%2C%20Balat%2C%20Istanbul)
 
 Saem da mesquita e pegam táxis de novo. Pedem para o motorista deixar vocês na Kiremit Caddesi, no alto de Balat. Dez minutos de descida suave de carro, e vocês chegam no topo do bairro mais colorido de Istambul.
 
@@ -590,7 +590,7 @@ Tempo: 10 min. Custo: 100 a 150 TRY por carro (cerca de R$ 11–16,50).
 
 ### 11:00 — AS RUAS COLORIDAS E O FUSCA ROSA
 
-[Ver no Google Maps](https://www.google.com/maps/search/?api=1&query=Balat+Colorful+Houses)
+[Ver no Google Maps](https://www.google.com/maps/search/?api=1&query=Balat%20Renkli%20Evler%2C%20Balat%2C%20Istanbul)
 
 Aqui começa o trecho que ninguém esquece.
 
@@ -610,7 +610,7 @@ Personagem: Balat foi, por séculos, o bairro judeu de Istambul. Após a expuls�
 
 ### 12:30 — ALMOÇO NA ORLA
 
-[Ver no Google Maps](https://www.google.com/maps/search/?api=1&query=Balat+Sahil)
+[Ver no Google Maps](https://www.google.com/maps/search/?api=1&query=Balat%20Vapur%20%C4%B0skelesi%2C%20Balat%2C%20Istanbul)
 
 Chegam na parte baixa, onde o bairro encontra a água. O calçadão do Corno de Ouro está ali, plano, aberto, com o vento vindo do mar.
 
@@ -626,7 +626,7 @@ Duas opções para voltar:
 
 **Opção A — Ferry (a mais bonita):** Pegam o ferry na orla de Balat, 15 a 20 minutos até Eminönü ou Karaköy. De lá, táxi curto ou bonde até o hotel. É o jeito mais gostoso de voltar — vendo Istambul pela água, com a Torre de Galata ficando cada vez maior conforme vocês se aproximam.
 
-**Opção B — Táxi (a mais rápida):** [Ver no Google Maps](https://www.google.com/maps/search/?api=1&query=Balat+to+Galata)
+**Opção B — Táxi (a mais rápida):** [Ver no Google Maps](https://www.google.com/maps/dir/?api=1&origin=Balat%2C%20Fatih%2C%20Istanbul&destination=Galata%20Times%20Hotel%2C%20Istanbul&travelmode=driving)
 
 Táxis, 20 a 25 min, 200 a 250 TRY por carro (cerca de R$ 22–27,50).
 
@@ -636,9 +636,9 @@ Chegada de volta por volta das 15h. Banho, descanso, tarde livre. Se quiserem, u
 
 ### 19:30 — SAÍDA PARA O CRUZEIRO NOTURNO
 
-[Ver no Google Maps](https://www.google.com/maps/search/?api=1&query=Kabataş+Istanbul)
+[Ver no Google Maps](https://www.google.com/maps/search/?api=1&query=Kabata%C5%9F%20%C4%B0skelesi%2C%20Be%C5%9Fikta%C5%9F%2C%20Istanbul)
 
-Opção 1 — A pé (recomendado): cerca de 15 a 20 minutos descendo pela Istiklal até Kabataş, depois seguindo pelo calçadão à beira-mar. É um passeio plano e bonito. Opção 2 — Funicular + caminhada: pegar o funicular Tünel de Beyoğlu até Karaköy (1 minuto), depois caminhar 10 minutos pela orla. Opção 3 — Táxi/Uber: 5 a 10 minutos, custo de 80 a 120 TRY (cerca de R$ 8,80–13,20). Pedir para deixar em Kabataş.
+Opção 1 — A pé (recomendado): cerca de 20 a 25 minutos descendo até Karaköy e seguindo pelo calçadão do Galataport e de Tophane até Kabataş. É um passeio plano e bonito, sempre à beira da água. Opção 2 — Bonde T1: da parada Karaköy, a 5 minutos a pé do hotel, o T1 vai direto até Kabataş, que é o ponto final da linha — são três paradas, cerca de 8 minutos. Opção 3 — Táxi/Uber: 5 a 10 minutos, custo de 80 a 120 TRY (cerca de R$ 8,80–13,20). Pedir para deixar em Kabataş.
 
 ### 20:15 — CHEGADA AO CAIS DE EMBARQUE
 
@@ -741,7 +741,7 @@ Saboreiem cada mordida do último kahvaltı. O queijo branco, as azeitonas, o me
 
 Últimas horas em Istambul. Sugestões para uma despedida memorável:
 
-Subir a Torre de Galata (construída em 1348, 67 metros de altura): a vista de 360 graus do topo abrange o Bósforo, o Corno de Ouro, Sultanahmet e a Ásia. Ingresso: €30 (cerca de R$ 180). Cheguem cedo para evitar fila. [Ver no Google Maps](https://www.google.com/maps/search/?api=1&query=Galata+Tower)
+Subir a Torre de Galata (construída em 1348, 67 metros de altura): a vista de 360 graus do topo abrange o Bósforo, o Corno de Ouro, Sultanahmet e a Ásia. Ingresso: 30 euros no tarifário oficial, pagos em lira no caixa (cerca de R$ 180). Cheguem cedo para evitar fila. [Ver no Google Maps](https://www.google.com/maps/search/?api=1&query=Galata%20Kulesi%2C%20Istanbul)
 
 Caminhar pela orla de Karaköy, sentar-se num banco e ver os ferrys cruzar o Bósforo.
 
@@ -757,11 +757,11 @@ Check-out formal ao meio-dia. As malas ficam guardadas na recepção enquanto vo
 
 ### 12:30 — ALMOÇO DE DESPEDIDA EM GALATA
 
-Sugestão: Fiyort Karaköy — [Ver no Google Maps](https://www.google.com/maps/search/?api=1&query=Fiyort+Karaköy)
+Sugestão: Fiyort Karaköy — [Ver no Google Maps](https://www.google.com/maps/search/?api=1&query=Fiyort%20Karak%C3%B6y%2C%20Tersane%20Caddesi%2C%20Istanbul)
 
-Cozinha turca contemporânea com vista para o Bósforo. Peixes frescos, mezes modernos, ambiente elegante. Preço: €15–25 por pessoa (cerca de R$ 90–150).
+Cozinha turca contemporânea com vista para o Corno de Ouro. Peixes frescos, mezes modernos, ambiente elegante. Preço: 800 a 1.300 TRY por pessoa (cerca de R$ 88 a R$ 143).
 
-Alternativa: Güney (Galata Kulesi Sok. 8) — restaurante familiar aos pés da Torre de Galata. €8–14 (cerca de R$ 48–84).
+Alternativa: Güney (Galata Kulesi Sok. 8) — restaurante familiar aos pés da Torre de Galata. 400 a 700 TRY (cerca de R$ 44 a R$ 77).
 
 ### 14:30 — RETORNO AO HOTEL, RETIRADA DAS MALAS
 
@@ -773,7 +773,7 @@ Sentem-se num café de Galata, peçam um último çay, observem a vida passar. O
 
 ### 16:00 — TRASLADO PRIVATIVO PARA O AEROPORTO (IST)
 
-[Ver no Google Maps](https://www.google.com/maps/search/?api=1&query=Istanbul+Airport)
+[Ver no Google Maps](https://www.google.com/maps/search/?api=1&query=Istanbul%20Airport%20(IST)%2C%20Arnavutk%C3%B6y%2C%20Istanbul)
 
 O aeroporto fica a 40–50 minutos de Galata (dependendo do trânsito). Saiam às 16h, cheguem por volta das 16:50 — mais de 3 horas antes do voo. Tempo confortável para check-in, controle de passaporte (voo para o Brasil é não-Schengen) e segurança.
 
