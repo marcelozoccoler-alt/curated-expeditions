@@ -154,7 +154,7 @@ export const VIAGEM = {
   slug: VIAGEM_SLUG,
   path: VIAGEM_PATH,
   nome: "Capitais Imperiais",
-  subtitulo: "Budapeste · Viena · Praga · Istambul",
+  subtitulo: "uma jornada entre o Danúbio e o Bósforo",
   periodo: "2 a 16 de outubro de 2026",
   chamada:
     "Um grupo exclusivo e autoral atravessando o coração da Europa Central: quatro capitais, quatro rios, uma história escrita a quatro mãos — e registrada dia a dia para virar livro.",

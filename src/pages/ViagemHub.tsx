@@ -62,7 +62,7 @@ const ViagemHub = () => {
   return (
     <div className="min-h-screen">
       <SEO
-        title="Capitais Imperiais 2026 — diário do grupo"
+        title="Capitais Imperiais: uma jornada entre o Danúbio e o Bósforo"
         description={description}
         canonicalPath={VIAGEM_PATH}
         keywords="Budapeste Viena Praga Istambul roteiro, viagem em grupo Europa Central 2026, diário de viagem Danúbio"
