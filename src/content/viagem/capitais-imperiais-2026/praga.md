@@ -996,7 +996,7 @@ O hotel guarda as malas na recepção sem custo. Vocês ainda têm a manhã livr
 
 ### 12:15 — TRASLADO PRIVATIVO PARA O AEROPORTO
 
-[Hotel → Aeroporto de Praga](https://www.google.com/maps/dir/?api=1&origin=Fleur%20De%20Lis%20Hotel%2C%20Slezsk%C3%A1%20832&destination=V%C3%A1clav%20Havel%20Airport%20Prague%2C%20Aviatick%C3%A1%2C%20161%2000%20Praha%206&waypoints=55%2C%20130%2000%20Praha%203&travelmode=transit)
+[Hotel → Aeroporto de Praga](https://www.google.com/maps/dir/?api=1&origin=Fleur%20De%20Lis%20Hotel%2C%20Slezsk%C3%A1%20832&destination=V%C3%A1clav%20Havel%20Airport%20Prague%2C%20Aviatick%C3%A1%2C%20161%2000%20Praha%206&waypoints=55%2C%20130%2000%20Praha%203&travelmode=driving)
 
 O carro segue pela Evropská třída em direção ao aeroporto. O trajeto leva cerca de 30 minutos.
 
