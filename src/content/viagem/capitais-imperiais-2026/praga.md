@@ -261,6 +261,8 @@ Nota de câmbio: as conversões em reais deste capítulo usam o câmbio de 7 de 
 
 ### A CHEGADA A PRAGA — A PRIMEIRA NOITE NA CIDADE DAS CEM TORRES
 
+Praga recebe pela pedra. Assim que vocês saírem do carro, os pés vão sentir o calçamento irregular e o ar vai estar mais frio e mais úmido do que em Viena — cheiro de rio, de cerveja e de fumaça de lenha. Hoje é só a primeira volta no quarteirão, e ela já vai valer a viagem.
+
 ### DADOS DO DIA
 
 Chegada: 19:23 - Praha hlavní nádraží
@@ -347,6 +349,8 @@ Espaço reservado para as fotos e vídeos de DIA 7 (CONTINUAÇÃO) — SEXTA-FEI
 ## DIA 8 — SÁBADO, 10 DE OUTUBRO DE 2026
 
 ### O DIA GRANDE — DA CIDADE VELHA AO ALTO DA COLINA
+
+Este é o dia grande. Começa na Cidade Velha com o relógio batendo hora e sobe até o alto da colina, onde a catedral parece ter sido desenhada por alguém que estava com raiva do céu. Vai doer um pouco nas pernas. Vai compensar em tudo o mais.
 
 ### DADOS DO DIA
 
@@ -450,7 +454,7 @@ Lá dentro:
 - O órgão histórico, ricamente esculpido
 - E no chão, sob uma laje de mármore: o túmulo de Tycho Brahe (1546–1601), o astrônomo imperial de Rodolfo II
 
-Personagem: Tycho Brahe. Brahe foi o maior astrônomo observacional antes do telescópio. Perdeu o nariz num duelo na juventude e usava uma prótese de ouro e prata. Morreu em Praga em circunstâncias misteriosas (dizem que de uma infecção urinária por não querer interromper um banquete para ir ao banheiro). Seus dados astronômicos permitiram que Johannes Kepler formulasse as leis do movimento planetário.
+Um deles é fácil de reconhecer, mesmo em pedra: Tycho Brahe, o maior astrônomo do mundo antes de o telescópio existir. Perdeu o nariz num duelo de estudante e passou a vida usando uma prótese de ouro e prata, o que só aumentava sua lenda. Morreu em Praga de um jeito muito seu: dizem que por não querer ser indelicado e deixar um banquete para ir ao banheiro. Foram os cadernos de observações dele, anotados a olho nu, noite após noite, que permitiram a Kepler descobrir como os planetas realmente se movem.
 
 Entrada: gratuita.
 
@@ -687,6 +691,8 @@ Espaço reservado para as fotos e vídeos de DIA 8 — SÁBADO, 10 DE OUTUBRO DE
 ## DIA 9 — DOMINGO, 11 DE OUTUBRO DE 2026
 
 ### NAVEGAÇÃO, BAIRRO JUDEU E JANTAR MEDIEVAL
+
+Hoje Praga é vista de baixo: da água, onde as pontes deixam de ser postal e passam a ser arquitetura. Depois vem o bairro judeu, que se caminha em voz baixa, e a noite termina com fogo, carne e música num salão medieval.
 
 ### DADOS DO DIA
 
@@ -933,6 +939,8 @@ Espaço reservado para as fotos e vídeos de DIA 9 — DOMINGO, 11 DE OUTUBRO DE
 ## DIA 10 — SEGUNDA-FEIRA, 12 DE OUTUBRO DE 2026
 
 ### A DESPEDIDA — ÚLTIMA MANHÃ EM PRAGA E VOO PARA ISTAMBUL
+
+Última manhã na cidade das cem torres. Vale acordar antes do grupo, se puderem: às sete da manhã a Ponte Carlos é só de vocês e dos pescadores, a pedra gelada nas mãos e a névoa subindo do Moldava. À tarde, um avião para o Oriente.
 
 ### DADOS DO DIA
 

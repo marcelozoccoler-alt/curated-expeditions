@@ -89,7 +89,7 @@ A terceira. A mais nova, a mais alta, a mais longa. Inaugurada em 2016, tem 1.40
 
 Há também a Ponte de Galata, que não cruza o Bósforo, mas o Corno de Ouro. Liga Galata a Eminönü, o coração histórico. A versão atual, de 1994, tem dois níveis: o superior para carros e bondes, o inferior para restaurantes de peixe onde os pescadores locais lançam suas linhas ao amanhecer. É a ponte mais humana de Istambul — onde a cidade se senta, conversa, come e reza sobre a água.
 
-Personagem: a Ponte de Galata aparece em quase todos os romances de Orhan Pamuk. É nela que o narrador de Istambul: Cidade e Memória contempla o hüzün — a melancolia coletiva dos istambulitas.
+É desta ponte que a literatura olha Istambul. Ela aparece em quase todos os romances de Orhan Pamuk, e é apoiado no seu parapeito que o narrador de Istambul: Cidade e Memória descreve o hüzün — aquela melancolia coletiva, doce e antiga, que os istambulitas carregam como quem carrega uma herança.
 
 ---
 
@@ -261,6 +261,8 @@ Vantagens estratégicas:
 
 ### CHEGADA A ISTAMBUL — A PRIMEIRA NOITE EM GALATA
 
+Istambul não começa devagar. Começa no cheiro — mar, especiaria, carvão, pão — e no som do chamado para a oração atravessando os telhados no fim da tarde. Vocês chegam com o corpo cansado das quatro capitais anteriores e vão dormir ouvindo gaivota e balsa. É outro mundo, e ele sabe disso.
+
 ### DADOS DO DIA
 
 Voo: o voo da Turkish Airlines número mil setecentos e setenta e dois (TK 1772), saindo de Praga às 15:20 do dia 12/10 e chegando a Istambul às 19:05 do mesmo dia, 2h45 de voo.
@@ -293,7 +295,7 @@ O avião da Turkish Airlines baixa sobre Istambul. Pela janela, o Bósforo é um
 
 O Aeroporto de Istambul (IST) é um dos maiores e mais modernos do mundo, inaugurado em 2018. Preparem-se para uma caminhada razoável dentro do terminal — o aeroporto é imenso.
 
-Personagem: o aeroporto leva o nome do fundador da Turquia moderna, Mustafa Kemal Atatürk. Seu rosto está em toda parte — nas notas de lira, nos retratos dos hotéis, nas estátuas das praças. Ele é o pai da Istambul que vocês vão conhecer.
+O aeroporto tem o nome do homem que inventou a Turquia moderna: Mustafa Kemal Atatürk. Vocês vão reencontrar esse rosto em toda parte — nas notas de lira, nos retratos atrás dos balcões, nas estátuas das praças. Ele é o pai da cidade que vocês estão chegando para conhecer, e a Turquia ainda fala dele no presente.
 
 ### 20:00 — TRASLADO PRIVATIVO PARA O HOTEL
 
@@ -307,7 +309,7 @@ O trajeto do aeroporto até Galata leva de 40 a 50 minutos (dependendo do trâns
 
 O hotel fica no coração de Galata. O bairro à noite é vibrante: cafés com mesas na calçada, galerias iluminadas, o som distante de música turca, gatos dormindo em cadeiras de vime. A Torre de Galata, construída em 1348 pelos genoveses, está iluminada e visível das ruas próximas.
 
-Personagem: a Torre de Galata é o marco dos genoveses em Istambul. Durante séculos, foi o farol dos mercadores italianos que negociavam especiarias, sedas e escravos entre o Oriente e o Ocidente. Hezarfen Ahmed Çelebi, o lendário aviador otomano do século XVII, teria voado da torre até o Bósforo com asas artificiais — um dos primeiros voos tripulados da história.
+A torre lá em cima é genovesa, e isso conta uma história. Durante séculos ela foi o farol dos mercadores italianos que negociavam especiarias, sedas e escravos entre dois mundos — Istambul sempre soube que o comércio é o idioma comum. E há a lenda de Hezarfen Ahmed Çelebi, o aviador otomano do século XVII, que teria pulado desta torre com asas de tecido e planado até a outra margem do Bósforo. Ninguém prova, ninguém desmente. É a cidade inteira num detalhe.
 
 ### 21:15 — JANTAR LEVE EM KARAKÖY OU GALATA
 
@@ -342,6 +344,8 @@ Espaço reservado para as fotos e vídeos de DIA 10 (CONTINUAÇÃO) — SEGUNDA-
 ## DIA 11 — TERÇA-FEIRA, 13 DE OUTUBRO DE 2026
 
 ### O DIA DAS MESQUITAS, DO GRAN BAZAR E DO EVENTO
+
+Hoje é o dia das cúpulas. Vocês vão tirar os sapatos, pisar em tapete grosso, olhar para cima e ficar em silêncio três vezes seguidas. Depois vem o Gran Bazar, que é o oposto: cor, grito, chá oferecido, ouro piscando na penumbra. Istambul gosta desses contrastes no mesmo dia.
 
 ### DADOS DO DIA
 
@@ -407,7 +411,7 @@ Olhem para cima. A cúpula é uma galáxia de padrões geométricos e caligrafia
 
 Entrada: gratuita. Fechada para visitantes durante os horários de oração (cerca de 30 minutos, cinco vezes ao dia).
 
-Personagem: Ahmed I morreu aos 27 anos, apenas cinco anos após a conclusão da mesquita. Seu túmulo está dentro do complexo. Ele sonhou um império eterno — e deixou, em azulejos, a memória dele.
+Ahmed I morreu aos 27 anos, cinco anos depois de ver esta mesquita terminada. O túmulo dele está aqui, no mesmo complexo. Sonhou um império eterno e conseguiu algo mais duradouro: deixou a própria memória escrita em azulejo azul.
 
 ### 10:15 — HAGIA SOPHIA (AYASOFYA-I KEBIR CAMI-I ŞERIFI)
 
@@ -435,7 +439,7 @@ Na galeria superior:
 
 Vocês entram pela galeria superior, reservada aos visitantes internacionais. A visita é incluída no roteiro — não precisam se preocupar com ingresso, fila ou horário. Basta acompanhar o coordenador.
 
-Personagem: quando vocês olham para a cúpula, pensem em Isidoro de Mileto — o matemático que a projetou. Quando a cúpula original desabou em 558, apenas cinco anos após a inauguração, ele já havia morrido. Foi seu sobrinho, Isidoro, o Jovem, quem a reconstruiu, mais alta e mais ousada. A beleza, em Istambul, é sempre obra de muitas mãos e muitas gerações.
+Olhem para o alto da cúpula e pensem num matemático. Isidoro de Mileto a projetou, e quando ela desabou em 558, cinco anos depois da inauguração, ele já estava morto. Foi o sobrinho, Isidoro, o Jovem, quem a levantou de novo — mais alta e mais ousada do que a primeira. Em Istambul, a beleza nunca é obra de uma mão só; é sempre um trabalho passado de geração em geração.
 
 ### 11:45 — O HIPÓDROMO E UM LANCHE LEVE
 
@@ -455,7 +459,7 @@ Como à tarde vocês terão o evento, nada de almoço pesado. Sentem-se num banc
 
 Observem a vida passar: turistas, fiéis, vendedores de simit, gatos. É a pausa perfeita antes do Gran Bazar.
 
-Personagem: o Hipódromo foi palco do mais sangrento motim da história bizantina — a Revolta de Nika, em 532. Os torcedores de bigas (os "Azuis" e os "Verdes") uniram-se contra o imperador Justiniano. Trinta mil pessoas foram massacradas dentro do hipódromo. Justiniano sobreviveu — e construiu Hagia Sophia sobre as cinzas.
+Este chão largo e tranquilo já foi o estádio mais violento do mundo. No ano 532, as torcidas de bigas — os Azuis e os Verdes, inimigas de sempre — fizeram as pazes por um único motivo: derrubar o imperador. A Revolta de Nika terminou com trinta mil pessoas mortas dentro do hipódromo. Justiniano sobreviveu, e mandou construir Hagia Sophia sobre as cinzas. A igreja que vocês acabaram de visitar nasceu de um massacre.
 
 ### 12:45 — O GRAN BAZAR (KAPALIÇARŞI)
 
@@ -513,6 +517,8 @@ Espaço reservado para as fotos e vídeos de DIA 11 — TERÇA-FEIRA, 13 DE OUTU
 
 ### CHORA, BALAT E O CORNO DE OURO
 
+Hoje o roteiro sai do centro e vai para onde a cidade mora. Ouro escondido sob gesso numa colina esquecida, ruas pintadas como aquarela, roupas secando no varal, gatos donos dos muros. É o dia mais fotografado da viagem inteira — e o mais afetuoso.
+
 ### DADOS DO DIA
 
 Café da manhã: incluso, 08:00 às 10:00.
@@ -562,7 +568,7 @@ Tempo: 15 a 25 min. Custo: 200 a 300 TRY por carro (cerca de R$ 22–33).
 
 O carro sobe por ruas cada vez mais estreitas, deixa para trás o barulho de Beyoğlu, e de repente vocês estão em Edirnekapı — um bairro residencial, silencioso, onde quase não há turistas. A mesquita aparece na esquina, discreta, quase tímida. Não anuncia sua grandeza por fora. É preciso entrar para entender.
 
-Personagem: a Chora foi construída no século IV, fora das muralhas de Constantinopla — daí o nome (chora significa "campo" em grego). Mas os mosaicos do século XIV, no interior, são considerados o ápice da arte bizantina tardia. Quando os otomanos conquistaram a cidade, transformaram a igreja em mesquita — mas não destruíram os mosaicos. Apenas os cobriram com gesso. Só no século XX foram redescobertos.
+Chora significa campo, em grego, e o nome não mente: a igreja foi construída no século IV, do lado de fora das muralhas de Constantinopla, quando ali era mato. O que fez dela um dos lugares mais preciosos da cidade vieram mil anos depois — os mosaicos do século XIV, considerados o ápice da arte bizantina. Quando os otomanos tomaram a cidade, transformaram a igreja em mesquita, mas não destruíram nada: cobriram tudo com gesso. O ouro ficou dormindo sob a cal por quatro séculos, até o século XX. Vocês vão ver o que o gesso protegeu.
 
 ### 09:45 — A CAPELA DOS MOSAICOS
 
@@ -606,7 +612,7 @@ Depois, descem mais um pouco pela Orta Çeşme Sokak, passam pela Merdivenli Yok
 
 Tempo de passeio: 1h a 1h30, sem pressa.
 
-Personagem: Balat foi, por séculos, o bairro judeu de Istambul. Após a expulsão dos judeus da Espanha em 1492, o sultão Bayezid II os recebeu de braços abertos — e muitos se instalaram em Balat. As sinagogas ainda estão ali, discretas, entre as casas coloridas.
+Balat foi, por séculos, o bairro judeu de Istambul. Quando a Espanha expulsou seus judeus em 1492, o sultão Bayezid II fez o contrário do resto da Europa: mandou buscá-los de navio. Muitos vieram morar exatamente nestas ladeiras. As sinagogas ainda estão aqui, discretas, sem placa, entre as casas coloridas — e é assim que os bairros guardam suas memórias, sem avisar.
 
 ### 12:30 — ALMOÇO NA ORLA
 
@@ -710,6 +716,8 @@ Espaço reservado para as fotos e vídeos de DIA 12 — QUARTA-FEIRA, 14 DE OUTU
 
 ### A DESPEDIDA — MANHÃ LIVRE E RETORNO
 
+Última manhã. O chá quente no vidro fino queimando os dedos, o mel escorrendo do favo, o Bósforo lá embaixo indiferente às despedidas. Aproveitem devagar: daqui algumas horas vocês vão olhar esta cidade pela janela do avião e já vão querer voltar.
+
 ### DADOS DO DIA
 
 Check-out: até 12:00 (malas guardadas na recepção).
@@ -749,7 +757,7 @@ Caminhar pela orla de Karaköy, sentar-se num banco e ver os ferrys cruzar o Bó
 
 Compras de última hora nas lojas de Karaköy (cerâmicas, especiarias, lokum).
 
-Personagem: a Torre de Galata, construída pelos genoveses em 1348, foi o farol dos mercadores que cruzavam o Mediterrâneo. Hezarfen Ahmed Çelebi, o lendário aviador otomano, teria voado dela até o Bósforo no século XVII — um dos primeiros voos tripulados da história.
+A torre é de 1348, obra dos genoveses, e foi por muito tempo o ponto mais alto desta margem — farol dos mercadores que cruzavam o Mediterrâneo. Dela também parte a lenda mais bonita da cidade: Hezarfen Ahmed Çelebi, o aviador otomano do século XVII, que teria se lançado daqui com asas artificiais e atravessado o Bósforo no ar.
 
 ### 12:00 — CHECK-OUT FORMAL
 

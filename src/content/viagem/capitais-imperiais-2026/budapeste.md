@@ -150,6 +150,8 @@ Sándor Petőfi (1823–1849) — O poeta da revolução. Recitou o Nemzeti Dal,
 
 ### CHEGADA A BUDAPESTE — A PRIMEIRA NOITE SOBRE O DANÚBIO
 
+Este é o dia mais longo e o mais leve de todos: vocês entram no avião num continente e saem em outro, com o corpo atrasado e os olhos adiantados. Quando pisarem na rua, o ar vai estar uns dez graus mais frio do que a memória do Brasil, com aquele cheiro de outono europeu — folha molhada, pedra, pão. Não tentem entender Budapeste hoje. Só deixem que ela apareça.
+
 ### DADOS DO DIA
 
 O voo da Turkish Airlines número duzentos e dezesseis (TK 216) sai de GRU às 16:35 de 2 de outubro e chega a IST às 11:15 de 3 de outubro, num Airbus A350-900, com 12h40 de voo.
@@ -240,7 +242,7 @@ Quartos com varanda, solicitar no check-in.
 
 Dica local: o hotel fica a 200 metros da estação de metrô Oktogon, linha M1, a mais antiga da Europa Continental, inaugurada em 1896. A região está cheia de restaurantes, cafés e lojas.
 
-Personagem: a praça em frente ao hotel leva o nome de Mór Jókai (1825–1904), o maior romancista húngaro do século XIX. Amigo de Liszt e contemporâneo de Petőfi, escreveu mais de 100 romances. Suas obras são a literatura da alma húngara.
+A praça em frente ao hotel tem nome de contador de histórias. Mór Jókai escreveu mais de cem romances no século XIX e foi, para os húngaros, o homem que ensinou a nação a se enxergar: amigo de Liszt, contemporâneo de Petőfi, dono de uma prosa que ainda hoje é a literatura da alma húngara. É bonito pensar que vocês vão acordar todas as manhãs numa praça batizada em nome de um escritor.
 
 [Ver no Google Maps](https://www.google.com/maps/search/?api=1&query=Medos%20Hotel%2C%20J%C3%B3kai%20t%C3%A9r%209%2C%201061%20Budapest)
 
@@ -263,7 +265,9 @@ Ao longo do caminho, à direita, vocês avistarão a Ponte das Correntes. Ela es
 
 O Országház, a Casa da Nação, é o maior edifício da Hungria e o terceiro maior parlamento do mundo. Construído entre 1885 e 1904 em estilo neogótico, por Imre Steindl — que morreu em 1902, dois anos antes da inauguração, sem ver sua obra-prima concluída. Steindl trabalhou no projeto por 19 anos, e a cegueira o atingiu antes do fim. Diz-se que, nos últimos meses, caminhava pelas margens do Danúbio, tateando as paredes do edifício que não podia mais ver.
 
-Os números impressionam: são 268 metros de comprimento, 691 salas internas e 242 esculturas na fachada, com 40 kg de ouro puro espalhados pelos detalhes decorativos. A cúpula central tem 96 metros de altura — o número sagrado, mais uma vez.
+Olhem a cúpula do centro: ela sobe exatamente 96 metros, a mesma altura da Basílica de Santo Estevão, do outro lado do rio. Nesta cidade, Deus e o Estado combinaram não se sobrepor.
+
+Para quem gosta de números: 268 metros de fachada, 691 salas por dentro, 242 esculturas na pedra e 40 quilos de ouro puro espalhados pelos detalhes.
 
 Site oficial e ingressos: jegymester.hu/parlament
 
@@ -309,7 +313,7 @@ Entre 1944 e 1945, a milícia fascista húngara, a Cruz Flechada, executou milha
 
 A obra é de 2005, dos artistas Can Togay e Gyula Pauer. É um dos memoriais mais comoventes do mundo. Não há placas explicativas. Apenas os sapatos. E o silêncio.
 
-Personagem: Raoul Wallenberg (1912–1945?) — diplomata sueco que salvou dezenas de milhares de judeus húngaros, emitindo passaportes protetores fictícios. Preso pelos soviéticos em janeiro de 1945, desapareceu. Até hoje ninguém sabe se morreu em uma prisão soviética ou se seu corpo descansa em algum arquivo secreto. Em 2012, a Rússia declarou que Wallenberg não é um prisioneiro — mas também não o libertou. Em outubro de 2026, se vivo, teria 114 anos. Ou estaria morto há 81. O mistério permanece.
+Um deles tem nome de sueco. Raoul Wallenberg era diplomata, tinha pouco mais de trinta anos e uma máquina de escrever: com passaportes protetores que ele mesmo inventou, sem valor legal nenhum, salvou dezenas de milhares de judeus húngaros — porque descobriu que um papel com um selo bonito consegue segurar a mão de um soldado. Em janeiro de 1945, os soviéticos o prenderam. Nunca mais apareceu. Em 2012, a Rússia declarou que Wallenberg não é um prisioneiro, mas também não o devolveu. Se estivesse vivo neste outubro, teria 114 anos. O mistério continua aberto, como um processo que ninguém arquivou.
 
 Entrada gratuita. Aberto 24 horas.
 
@@ -365,6 +369,8 @@ Durmam bem — amanhã Buda os espera, com igrejas, castelo e um pôr do sol ine
 
 ### O DIA DAS DUAS IGREJAS — DA BASÍLICA AO ALTO DE BUDA
 
+Hoje o dia começa com sinos e termina com o rio aceso. É o dia das duas igrejas, mas também o dia em que as pernas descobrem que esta cidade tem duas alturas: a Peste plana dos cafés e a Buda inclinada dos reis. Levem paciência para a subida e olhos para a descida.
+
 ### DADOS DO DIA
 
 Café da manhã: incluso, 7:00 às 10:00.
@@ -417,13 +423,15 @@ Noite no Bastião: sobretudo ou trench coat. A temperatura cai para 6 a 10°C. L
 
 Do hotel até a Basílica de Santo Estevão, cerca de 900 metros, 15 a 20 minutos. Vocês cruzam a Avenida Andrássy, a Champs-Élysées de Budapeste, declarada Patrimônio da Humanidade pela UNESCO.
 
-Personagem: a avenida leva o nome de Gyula Andrássy (1823–1890), conde, primeiro-ministro da Hungria e principal articulador do Compromisso Austro-Húngaro de 1867. Foi ele quem convenceu Sisi a apoiar a causa húngara — e foi com a ajuda dela que o Compromisso se concretizou. A Andrássy út foi construída para a Exposição do Milênio de 1896.
+A avenida tem nome de homem, e o homem soube o que ninguém mais soube: para convencer o império, era preciso convencer a imperatriz. Gyula Andrássy, conde e primeiro-ministro, foi o articulador do Compromisso de 1867, e teve em Sisi a aliada que faltava — ela ouviu, gostou da causa húngara, e a Hungria ganhou meio trono. A avenida em si nasceu para a grande Exposição do Milênio, em 1896, quando a cidade quis mostrar ao mundo que também sabia ser Paris.
 
 ### 09:10 — A BASÍLICA DE SANTO ESTEVÃO
 
 A maior igreja de Budapeste. Consagrada em 1905, levou 54 anos para ser construída. Projetada por Miklós Ybl (1814–1891), o arquiteto mais prolífico da Hungria — que morreu antes de vê-la concluída, assim como Steindl com o Parlamento. Há uma maldição em Budapeste: os arquitetos não vivem para ver suas obras terminadas.
 
-96 metros de altura na cúpula, o número sagrado novamente, capacidade para 8.500 pessoas, 50 tipos diferentes de mármore no interior, órgão com 6.389 tubos, reconstruído em 2025.
+Por dentro, o primeiro impulso é olhar para cima: cinquenta tipos diferentes de mármore, o dourado repartido com cuidado e uma cúpula que também para nos 96 metros, empatada com o Parlamento. Cabem oito mil e quinhentas pessoas aqui, e mesmo assim a igreja parece guardar silêncio.
+
+O órgão foi reconstruído em 2025 e tem 6.389 tubos — se ele estiver tocando quando vocês entrarem, sentem e não façam mais nada.
 
 Site oficial: szentistvanbazilika.hu
 
@@ -458,7 +466,7 @@ Drum Café (Dob utca 2): goulash autêntico. Pratos entre 2.000 e 4.000 HUF, R$ 
 
 Ônibus 16 na Praça Deák Ferenc. Sobe a Colina do Castelo em 12 minutos.
 
-Personagem: a praça leva o nome de Ferenc Deák (1803–1876), o homem sábio da nação. Foi Deák quem concebeu o Compromisso de 1867 — a solução diplomática que transformou o Império Austríaco em Império Austro-Húngaro, dando à Hungria autonomia dentro da monarquia dual. Sem Deák, não haveria Sisi coroada em Budapeste. Sem Deák, não haveria a Budapeste unificada de 1873.
+Aqui o nome é de um homem que a nação chamava simplesmente de sábio. Ferenc Deák não deu um tiro nem liderou um exército: sentou-se à mesa e desenhou o Compromisso de 1867, a solução que transformou o Império Austríaco em Império Austro-Húngaro e devolveu à Hungria o direito de se governar. Sem Deák, Sisi não teria sido coroada rainha aqui. Sem Deák, não haveria a Budapeste unificada de 1873. Toda a cidade em volta desta praça é, de certa forma, filha de uma boa conversa.
 
 Valor: 500 HUF na pré-compra, no guichê ou no aplicativo BudapestGO (cerca de R$ 8) — 700 HUF se comprado a bordo (cerca de R$ 11). Quem preferir liberdade total: passe de 24 horas por 2.750 HUF (cerca de R$ 45).
 
@@ -500,7 +508,7 @@ Em 8 de junho de 1867, aqui dentro, Francisco José e Sisi foram coroados rei e 
 
 Telhado com 147.000 telhas Zsolnay esmaltadas — um espetáculo de cores.
 
-Personagem: a igreja leva o nome popular de Matthias Church em homenagem a Mátyás Hunyadi, Matthias Corvinus (1443–1490), o rei renascentista que se casou aqui em 1463 com Catherine de Podebrady. Matthias foi o mais culto dos reis húngaros — sua biblioteca, a Bibliotheca Corviniana, tinha 3.000 manuscritos, a segunda maior da Europa depois do Vaticano.
+O nome popular da igreja vem de um noivo. Foi aqui que Mátyás Hunyadi, o rei Matias Corvino, se casou em 1463 — o mais culto dos reis húngaros, um renascentista de temperamento vulcânico que juntou três mil manuscritos na sua biblioteca, a segunda maior da Europa depois da do Vaticano. Um rei que preferia livros a batalhas, num século em que isso era quase escandaloso.
 
 Site oficial: matyas-templom.hu
 
@@ -542,6 +550,8 @@ Descansem bem essa noite. Amanhã é o dia das sete maravilhas.
 ## DIA 3 — SEGUNDA-FEIRA, 5 DE OUTUBRO DE 2026
 
 ### O DIA DAS SETE MARAVILHAS — DO BAIRRO JUDEU ÀS TERMAS
+
+Hoje é o dia em que Budapeste entrega tudo de uma vez: memória pesada de manhã, água quente à tarde. Comecem com o silêncio do bairro judeu e terminem com a pele enrugada de tanto tempo dentro da água, sob o vapor subindo no ar frio.
 
 ### A LENDA DAS SETE MARAVILHAS DE BUDAPESTE
 
@@ -645,7 +655,7 @@ A lição silenciosa: em Budapeste, a história não está nos livros. Está nas
 
 O Erzsébetváros (pronuncia-se "Érjêbetvárosh"), Distrito VII, é hoje o bairro mais vibrante de Budapeste. Ruas estreitas, fachadas coloridas, grafites, cafés alternativos. Foi aqui que nasceu o conceito de romkocsma — os famosos bares em ruínas.
 
-Personagem: o bairro era onde vivia Theodor Herzl (1860–1904), o jornalista húngaro-judeu que fundou o sionismo político. Nascido em Peste, foi correspondente em Paris e testemunhou o Caso Dreyfus. A injustiça contra Alfred Dreyfus, um oficial judeu francês condenado por traição, o convenceu de que os judeus nunca estariam seguros na Europa. Em 1896, publicou Der Judenstaat, O Estado Judeu. Em 1897, organizou o Primeiro Congresso Sionista na Basileia. Morreu aos 44 anos, sem ver Israel nascer. Mas sua visão mudou o mundo.
+Estas ruas foram a infância de um homem que mudou o mapa do mundo. Theodor Herzl nasceu ali ao lado, jornalista húngaro-judeu, e foi correspondente em Paris no ano em que a França condenou um oficial judeu por uma traição que ele não cometeu. O Caso Dreyfus o convenceu de uma coisa dura: os judeus nunca estariam seguros na Europa. Em 1896 publicou O Estado Judeu; em 1897 reuniu o primeiro congresso sionista na Basileia. Morreu aos 44 anos, sem ver Israel nascer — mas o mundo em que vivemos hoje passou por esta calçada.
 
 Passeiem pela Kazinczy utca, pela Wesselényi utca e pela Klauzál tér. O bairro é um labirinto de história, arte de rua e energia jovem.
 
@@ -827,6 +837,8 @@ Boa noite. Amanhã Budapeste fica para trás, mas vocês levam essa cidade para 
 
 ### SOBRE TRILHOS DE IMPÉRIO — DE BUDAPESTE A VIENA
 
+Última manhã. O cheiro de café do hotel, a mala fechando, e depois duas horas e meia de janela: o Danúbio, as planícies da Panônia, as vinhas, e de repente a Áustria arrumada demais. Um trem é o melhor jeito de trocar de país — dá tempo de se despedir devagar.
+
 ### A DESPEDIDA DE BUDAPESTE
 
 Hoje vocês deixam a Pérola do Danúbio. Mas antes de partirem, caminhem uma última vez pelas margens do rio. Olhem para o Parlamento. Olhem para as pontes. Lembrem-se de István Széchenyi, que sonhou a Ponte das Correntes. Lembrem-se de Imre Steindl, que morreu sem ver o Parlamento pronto. Lembrem-se de Sisi, que chorou de emoção ao ser coroada na Igreja de Matias. Lembrem-se de Liszt, cujas rapsódias ainda ecoam nos cafés.
@@ -875,7 +887,7 @@ Vagão-restaurante: disponível.
 
 Traslado incluso do hotel até a estação Keleti Pályaudvar, Estação Leste, com busca no hotel às 09:40. Distância: cerca de 2 km. Tempo: 10 a 15 minutos. Vocês chegam à estação por volta das 09:55, com cerca de 35 minutos de folga antes da partida. Margem confortável para um grupo de doze pessoas, sem pressa.
 
-Personagem: a estação Keleti foi inaugurada em 1884 e é a principal estação ferroviária internacional de Budapeste. O nome Keleti significa Leste — era por aqui que os trens partiam para a Transilvânia, para os Bálcãs, para o Oriente.
+Keleti quer dizer Leste, e o nome é uma promessa. Quando a estação abriu, em 1884, era daqui que os trens partiam para a Transilvânia, para os Bálcãs, para o Oriente — o último andén da Europa arrumada antes do desconhecido. Ainda tem esse ar: teto de ferro e vidro, pombos, o cheiro doce de café e óleo de trilho.
 
 ### 10:30 — O TREM EUROCITY PARA VIENA
 
@@ -895,13 +907,13 @@ Durante quase três horas, vocês cruzam dois países, duas línguas, duas cultu
 
 O trem deixa a estação Keleti e cruza os subúrbios de Peste. Pelas janelas, vocês veem os blocos de apartamentos do período socialista, os jardins comunitários, as chaminés das fábricas desativadas.
 
-Personagem: foi por esta linha que, em 1956, durante a Revolução Húngara, milhares de refugiados fugiram para o Ocidente. A União Soviética havia invadido Budapeste em 23 de outubro. Os tanques entraram na cidade. E os húngaros — estudantes, operários, intelectuais — fugiram. Mais de 200.000 cruzaram a fronteira com a Áustria nas semanas seguintes. A Áustria os recebeu. O mundo os esqueceu. Mas a memória permanece.
+Foi por estes mesmos trilhos que, no outono de 1956, a Hungria fugiu de si mesma. Os tanques soviéticos entraram em Budapeste em 23 de outubro, e nas semanas seguintes mais de duzentas mil pessoas — estudantes, operários, professores — cruzaram esta fronteira com uma mala e nenhuma certeza. A Áustria os recebeu. O mundo os esqueceu. A paisagem lá fora não conta nada disso, e é justamente por isso que vale contar.
 
 ### 11:20 — GYOR
 
 A primeira parada importante. Győr é uma cidade industrial no noroeste da Hungria, conhecida por suas fábricas da Audi e por seu centro histórico barroco. O horário exato de passagem pode variar alguns minutos; a referência é aproximada.
 
-Personagem: Győr foi palco da Batalha de Raab em 14 de junho de 1809, quando as tropas napoleônicas derrotaram os austríacos. Conta-se que István Széchenyi, ainda jovem oficial, participou da batalha e arriscou a vida remando pelo Danúbio para ligar dois exércitos austríacos. Foi ali que ele viu, pela primeira vez, a importância estratégica do rio.
+Aqui, em 14 de junho de 1809, as tropas de Napoleão derrotaram os austríacos na Batalha de Raab. Conta-se que um jovem oficial chamado István Széchenyi remou pelo Danúbio sob fogo para ligar dois exércitos separados pela água. Foi nesse dia, dizem, que ele entendeu que o rio manda mais do que os generais — a semente da ponte que vocês já viram em Budapeste.
 
 ### 11:50 — HEGYESHALOM, A FRONTEIRA
 
@@ -909,19 +921,19 @@ O trem para por 3 minutos em Hegyeshalom, a última estação húngara antes da 
 
 Hoje, a fronteira é invisível. Ambos os países estão na União Europeia e no Espaço Schengen. Mas a história pesa.
 
-Personagem: em 1989, durante o Piquenique Pan-Europeu realizado perto de Sopron, a 80 km ao sul, a fronteira entre Hungria e Áustria foi aberta por algumas horas. Mais de 600 alemães-orientais fugiram para o Ocidente. Foi o primeiro rasgão no Muro de Berlim — três meses antes de ele cair de vez. A Hungria foi o primeiro país do bloco soviético a abrir suas fronteiras.
+Em agosto de 1989, num piquenique aparentemente inocente perto de Sopron, a poucos quilômetros ao sul daqui, alguém abriu o portão da fronteira por algumas horas. Mais de seiscentos alemães-orientais atravessaram correndo. Foi o primeiro rasgo na Cortina de Ferro — três meses antes de o Muro de Berlim cair de vez. A Europa que vocês estão cruzando de trem, sem parar em fronteira nenhuma, começou naquela tarde de piquenique.
 
 ### 12:05 — BRUCK AN DER LEITHA, ENTRADA NA ÁUSTRIA
 
 O trem cruza o rio Leitha, que marca a fronteira natural entre a Hungria e a Áustria. A paisagem muda sutilmente: as casas ficam mais arrumadas, os campos mais verdes, o céu mais cinzento.
 
-Personagem: Bruck an der Leitha foi, por séculos, a porta de entrada para Viena. Os imperadores Habsburgos passavam por aqui quando viajavam para a Hungria. Francisco José cruzou esta ponte dezenas de vezes — a caminho da coroação em 1867, a caminho de Bad Ischl para encontrar Sisi, a caminho do front durante a Primeira Guerra Mundial.
+Bruck an der Leitha foi, durante séculos, a porta de entrada de Viena. Os Habsburgos passavam por aqui quando iam à Hungria, e Francisco José cruzou esta ponte dezenas de vezes: a caminho da coroação de 1867, a caminho de Bad Ischl para encontrar Sisi, a caminho do front na Primeira Guerra. A mesma linha, três vidas diferentes.
 
 12:30 às 13:20 — A APROXIMAÇÃO DE VIENA
 
 Os últimos 50 minutos são de descida suave. O trem entra na bacia de Viena, e vocês começam a ver os subúrbios austríacos: casas com telhados vermelhos, jardins bem cuidados, igrejas barrocas.
 
-Personagem: foi por esta linha que Sisi viajou dezenas de vezes entre Viena e Budapeste. Ela amava a Hungria — e detestava Viena. A rigidez da corte austríaca a sufocava. Em Budapeste, ela respirava. Os húngaros a adoravam. Ela aprendeu húngaro, montou a cavalo nas planícies da Panônia, e foi coroada rainha na Igreja de Matias em 1867. Mas o destino foi cruel: em 10 de setembro de 1898, em Genebra, um anarquista italiano chamado Luigi Lucheni a esfaqueou no coração. Sisi morreu aos 60 anos. Francisco José nunca se recuperou. Até sua morte, em 1916, carregava no bolso um retrato dela.
+Este trecho de trilho foi o caminho da mulher mais famosa do império. Sisi fez esta viagem dezenas de vezes, sempre no mesmo sentido do coração: detestava Viena, onde a corte a media pela cintura e pelo protocolo, e amava a Hungria, onde a deixavam respirar. Aprendeu húngaro, montou a cavalo nas planícies da Panônia, foi coroada rainha na Igreja de Matias em 1867 e virou a estrangeira mais húngara que já existiu. Em 10 de setembro de 1898, em Genebra, um anarquista italiano a esfaqueou no coração; ela ainda caminhou alguns metros antes de cair, sem entender o que havia acontecido. Francisco José nunca mais foi o mesmo — até morrer, em 1916, andava com o retrato dela no bolso.
 
 ### 13:20 — CHEGADA EM VIENA
 
