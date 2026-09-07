@@ -665,7 +665,7 @@ Sem esforço. Sem escadas. Sem fadiga. E vocês chegam ao ponto mais alto e mais
 
 [Ver no Google Maps](https://www.google.com/maps/place/Strahov+Monastery,+Strašovská+1/137,+118+00+Praha+1)
 
-Chegando com 20 minutos de folga antes das Vésperas, aproveitem para:
+Chegando com 20 minutos de folga, aproveitem para:
 
 ●
 Biblioteca Teológica (Theologický sál): 18 metros de altura, estantes em madeira escura entalhada, 22.000 volumes medievais, teto com afrescos que parecem abrir o céu. É uma das bibliotecas mais belas do mundo.
@@ -678,21 +678,13 @@ Ingresso da biblioteca: 150-200 CZK (€6-8 / R$ 33-44).
 
 Site oficial: strahovskyklaster.cz
 
-### 17:00 — AS VÉSPERAS GREGORIANAS
+### 17:00 — UMA SURPRESA DE 883 ANOS
 
-O Monastério de Strahov foi fundado em 1143 por monges premonstratenses — uma ordem que segue a regra de Santo Agostinho. Há 883 anos, eles rezam e cantam neste lugar.
+O Monastério de Strahov foi fundado em 1143. E há algo que acontece aqui, todos os dias às 17h, praticamente sem interrupção desde o século XII. Sobreviveu a invasões, incêndios e ao regime comunista.
 
-O que torna este momento tão especial:
+Preferimos não contar o que é. Entrem na Basílica da Assunção de Nossa Senhora, sentem-se nos bancos de madeira e esperem. O que acontece em seguida, nenhuma fotografia registra.
 
-Strahov sobreviveu a tudo. Invasões suecas na Guerra dos Trinta Anos. Os incêndios que devastaram Praga. O regime comunista, que fechou o mosteiro em 1950, prendeu os monges e transformou o local em depósito militar.
-
-Em 1990, com a Revolução de Veludo, o mosteiro reabriu. Os monges voltaram. E o canto recomeçou — como se nunca tivesse parado.
-
-As Vésperas são um serviço religioso diário. De segunda a sábado, começam às 17:00. Vocês entram na Basílica da Assunção de Nossa Senhora, sentam-se nos bancos de madeira e ouvem. As vozes dos monges sobem até as abóbadas barrocas, ricocheteiam nas paredes, descem sobre vocês. O latim ecoa. O incenso paira. O tempo para.
-
-É o mesmo canto, as mesmas notas, os mesmos salmos que os monges cantam desde o século XII. Vocês estão ouvindo a trilha sonora de quase um milênio.
-
-Entrada para as Vésperas: gratuita.
+Entrada: gratuita.
 
 Duração: aproximadamente 30 minutos (até ~17:30).
 
