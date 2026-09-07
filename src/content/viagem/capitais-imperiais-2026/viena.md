@@ -179,7 +179,7 @@ Acessibilidade e conforto:
 
 - Metrô (U-Bahn): eficiente, limpo, com elevadores na maioria das estações. As linhas U3 e U6 servem o hotel
 - Bondes (Tram): piso baixo, acesso facilitado, agradáveis para ver a cidade
-- Táxi: abundantes e com tarifas razoáveis (€5-12 para trajetos no centro)
+- Táxi: abundantes e com tarifas razoáveis (€5-12, cerca de R$ 30 a R$ 72, para trajetos no centro)
 - Uber: disponível e confiável
 - Caminhadas: o centro histórico (Innere Stadt) é plano e concentrado — tudo se faz a pé
 
@@ -287,8 +287,8 @@ História que emociona: Em 12 de abril de 1945, um incêndio devastou o telhado 
 Informações práticas:
 
 - Entrada na nave principal: gratuita
-- Subida à torre sul (343 degraus): €6,50 — escada longa e íngreme, não recomendada para quem prefere evitar esforço
-- Catacumbas: €6,50 — com guia, duram 30 minutos, fascinantes mas com escadas
+- Subida à torre sul (343 degraus): €6,50 (cerca de R$ 39) — escada longa e íngreme, não recomendada para quem prefere evitar esforço
+- Catacumbas: €6,50 (cerca de R$ 39) — com guia, duram 30 minutos, fascinantes mas com escadas
 - Site oficial: stephanskirche.at
 
 Dica de ouro: Na saída, olhem para cima. O telhado visto da Stephansplatz, com o sol da tarde, brilha em tons de verde, amarelo e marrom. É uma das imagens mais fotogênicas de Viena.
@@ -342,7 +342,7 @@ O que esperar:
 - Acompanha salada de batata ou batatas com salsa
 - Ambiente rústico e acolhedor, teto baixo, madeira escura
 
-Preço: €15-25 por pessoa (R$ 83 a R$ 138)
+Preço: €15-25 por pessoa (cerca de R$ 90 a R$ 150)
 
 Importante: Reservar com antecedência! O Figlmüller lota todas as noites. Site: figlmueller.at
 
@@ -352,7 +352,7 @@ Alternativa se estiver lotado: O Lugeck, a 3 minutos dali, é do mesmo grupo e i
 
 [Figlmüller → Hotel](https://www.google.com/maps/dir/Figlm%C3%BCller,+Wollzeile+5,+1010+Wien/ibis+Wien+Mariahilf,+Mariahilfer+G%C3%BCrtel+22-24,+1060+Wien)
 
-Caminhada de 5 minutos até Stephansplatz, metrô U3 até Westbahnhof, 5 minutos a pé até o hotel. Ou táxi por cerca de €10.
+Caminhada de 5 minutos até Stephansplatz, metrô U3 (direção Ottakring) até Westbahnhof, 5 minutos a pé até o hotel. Ou táxi por cerca de €10 (R$ 60).
 
 Resumo do dia 4 (parte Viena):
 
@@ -456,7 +456,7 @@ A experiência: Vocês entram e o silêncio é quase solene. A luz natural entra
 
 Informações práticas:
 
-- Entrada: €10 (R$ 55) por adulto
+- Entrada: €10 (cerca de R$ 60) por adulto
 - Site oficial e ingressos: onb.ac.at
 - Tempo recomendado: 45 min a 1h
 
@@ -482,7 +482,7 @@ O que pedir:
 - Tafelspitz (carne cozida com legumes e molho de maçã com rábano)
 - Salsichas com chucrute (Würstel mit Sauerkraut)
 
-Preço: €10-16 por pessoa (R$ 55 a R$ 88)
+Preço: €10-16 por pessoa (cerca de R$ 60 a R$ 96)
 
 ### 13:45 — DEMEL, A CONFEITARIA IMPERIAL
 
@@ -498,7 +498,7 @@ O que pedir:
 - Sachertorte (a versão Demel, com geleia de damasco por cima)
 - Apfelstrudel (strudel de maçã quente com creme de baunilha)
 
-Preço: €12-15 por pessoa (R$ 66 a R$ 83)
+Preço: €12-15 por pessoa (cerca de R$ 72 a R$ 90)
 
 Curiosidade: O Demel e o Hotel Sacher brigam na justiça há décadas sobre quem tem a "Sachertorte original". O Demel coloca a geleia por cima do bolo; o Sacher, no meio. Ambas são divinas.
 
@@ -550,7 +550,7 @@ História: A igreja foi construída por ordem do Imperador Carlos VI como agrade
 
 Informações práticas:
 
-- Entrada: €8 (R$ 44)
+- Entrada: €8 (cerca de R$ 48)
 - Elevador panorâmico incluso no ingresso
 - Site oficial: karlskirche.at
 
@@ -591,7 +591,7 @@ O que pedir:
 - Brettljause — tábua de frios, queijos, pães, picles e mostarda
 - Backhendl — frango empanado crocante, especialidade da casa
 
-Preço: €18-28 por pessoa (R$ 99 a R$ 154)
+Preço: €18-28 por pessoa (cerca de R$ 108 a R$ 168)
 
 O ambiente: Mesas de madeira, luzes quentes, o som do vinho sendo servido, a noite fresca de outono. Beethoven teria aprovado.
 
@@ -599,7 +599,7 @@ Importante: Reservar com antecedência para doze pessoas. Site: mayer.pfarrplatz
 
 ### 21:30 — RETORNO AO HOTEL
 
-Táxi do Heuriger ao hotel (cerca de €20, 20 minutos) ou transporte público. Depois de um dia imperial, o merecido descanso.
+Táxi do Heuriger ao hotel (cerca de €20 / R$ 120, 20 minutos) ou transporte público. Depois de um dia imperial, o merecido descanso.
 
 Resumo do dia 5:
 
@@ -720,7 +720,7 @@ Durante duas horas, vocês ouvem a música que nasceu nesta cidade, tocada por m
 Informações práticas:
 
 - Duração: 2 horas (com intervalo)
-- Preço: €45-80 por pessoa (R$ 248 a R$ 440), dependendo da categoria do assento
+- Preço: €45-80 por pessoa (cerca de R$ 270 a R$ 480), dependendo da categoria do assento
 - Ingressos: site oficial de Schönbrunn
 - Chegar com 30 minutos de antecedência
 
@@ -784,13 +784,13 @@ Kärntner Straße e Graben: As duas principais ruas de pedestres de Viena, uma p
 
 O que comprar em Viena:
 
-- Mozartkugeln (bombons Mozart): qualquer confeitaria do centro, €5-15
-- Swarovski (cristais austríacos): loja Swarovski na Kärntner Straße, €30-200+
-- Manner Schnitten (wafers de avelã): supermercado Billa ou loja Manner, €3-8
-- Vinhos austríacos: Julius Meinl (Graben 19), €10-30
-- Sachertorte em caixa: Hotel Sacher ou Demel, €25-45
-- Porcelana Augarten: loja Augarten (Spiegelgasse 3), €50-300+
-- Lembranças da Ópera: loja da Ópera Estatal, €10-50
+- Mozartkugeln (bombons Mozart): qualquer confeitaria do centro, €5-15 (R$ 30 a R$ 90)
+- Swarovski (cristais austríacos): loja Swarovski na Kärntner Straße, €30-200+ (R$ 180 a R$ 1.200+)
+- Manner Schnitten (wafers de avelã): supermercado Billa ou loja Manner, €3-8 (R$ 18 a R$ 48)
+- Vinhos austríacos: Julius Meinl (Graben 19), €10-30 (R$ 60 a R$ 180)
+- Sachertorte em caixa: Hotel Sacher ou Demel, €25-45 (R$ 150 a R$ 270)
+- Porcelana Augarten: loja Augarten (Spiegelgasse 3), €50-300+ (R$ 300 a R$ 1.800+)
+- Lembranças da Ópera: loja da Ópera Estatal, €10-50 (R$ 60 a R$ 300)
 
 Roteiro de compras a pé:
 
@@ -823,7 +823,7 @@ Outras obras imperdíveis no Belvedere:
 
 Informações práticas:
 
-- Belvedere Superior (onde está Klimt): €16,70 (R$ 92)
+- Belvedere Superior (onde está Klimt): €16,70 (cerca de R$ 100)
 - Site oficial e ingressos: belvedere.at
 - Tempo recomendado: 1h30 a 2h
 - Horário: 9h às 18h

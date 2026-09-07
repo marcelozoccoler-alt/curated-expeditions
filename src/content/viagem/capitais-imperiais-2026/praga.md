@@ -194,7 +194,7 @@ Praga é chamada de a cidade das cem torres. Mas na verdade tem mais de quinhent
 
 ●
 Endereço: Slezska 832/55, 130 00 Praha 3 — Vinohrady
-Imposto local: CZK 50 por pessoa/diária (total: CZK 450)
+Imposto local: CZK 50 por pessoa/diária (cerca de R$ 12) — total CZK 450 (cerca de R$ 111)
 ●
 [Ver no Google Maps](https://www.google.com/maps/place/Fleur+De+Lis+Hotel)
 
@@ -239,11 +239,11 @@ Bonde (Tram): o meio de transporte ideal em Praga. Os bondes 22 e 23 são seus m
 ●
 Metrô: três linhas (A, B, C), eficiente mas com escadas em algumas estações (verificar elevadores)
 ●
-Táxi / Uber / Bolt: abundantes e baratos. Trajeto médio no centro: CZK 150-250 (€6-10)
+Táxi / Uber / Bolt: abundantes e baratos. Trajeto médio no centro: CZK 150-250 (€6-10 / cerca de R$ 37 a R$ 62)
 ●
 Caminhadas: o centro histórico é plano, mas as ruas são de paralelepípedos — calçado firme é essencial
 ●
-Bilhete de transporte: CZK 40 (€1,60) por 90 minutos ou CZK 330 (€13) o passe de 72 horas
+Bilhete de transporte: CZK 40 (€1,60 / cerca de R$ 10) por 90 minutos, CZK 30 (cerca de R$ 7) por 30 minutos ou CZK 330 (€13 / cerca de R$ 81) o passe de 72 horas. Maiores de 65 anos viajam de graça apresentando documento com foto
 
 ### RITMO IDEAL
 
@@ -352,7 +352,7 @@ Vepřo-knedlo-zelo — carne de porco assada, knedlíky e chucrute. Simples, rob
 ●
 Cerveja Pilsner Urquell — a primeira cerveja pilsen do mundo, criada na cidade tcheca de Plzeň em 1842.
 
-Preço: €8-14 por pessoa (R$ 44 a R$ 77)
+Preço: €8-14 por pessoa (cerca de R$ 48 a R$ 84)
 
 Curiosidade: A República Tcheca tem o maior consumo de cerveja per capita do mundo — mais de 140 litros por pessoa por ano. A cerveja aqui é mais barata que água mineral nos restaurantes.
 
@@ -562,13 +562,13 @@ Dez minutos a pé até o bairro judeu, onde fica o restaurante. O caminho passa 
 
 ### 12:00 — ALMOÇO NO LOKÁL DLOUHÁÁÁ
 
-[Ver no Google Maps](https://www.google.com/maps/place/Lok%C3%A1l+Dlouh%C3%A1%C3%A1,+Dlouh%C3%A1+33,+110+00+Star%C3%A9+M%C4%9Bsto)
+[Ver no Google Maps](https://www.google.com/maps/search/?api=1&query=Lok%C3%A1l%20Dlouh%C3%A1%2C%20Dlouh%C3%A1%2033%2C%20Praha%201)
 
 Cozinha tcheca autêntica, ambiente moderno, preços justos. O svíčková é excelente. A cerveja Pilsner Urquell é tirada na torneira — cremosa, dourada, perfeita.
 
-Preço: €8-12 por pessoa.
+Preço: €8-12 por pessoa (cerca de R$ 48 a R$ 72).
 
-Alternativa próxima: Restaurace Mincovna (Staroměstské nám. 7) — na própria praça, bem avaliado, cozinha tcheca contemporânea. €10-16.
+Alternativa próxima: Restaurace Mincovna (Staroměstské nám. 7) — na própria praça, bem avaliado, cozinha tcheca contemporânea. €10-16 (cerca de R$ 60 a R$ 96).
 
 ### 13:15 — BONDE 22 ATÉ O CASTELO DE PRAGA
 
@@ -594,7 +594,7 @@ Prédios históricos (Catedral, Palácio Real, Basílica, Rua do Ouro): 9:00 –
 ●
 Última entrada nos prédios: 16:40
 
-O Circuito B (Main Circuit): 450 CZK (€18 / R$ 99) por adulto. Inclui:
+O Circuito B (Main Circuit): 450 CZK (€18 / cerca de R$ 111) por adulto. Inclui:
 ●
 Catedral de São Vito
 ●
@@ -674,7 +674,7 @@ Biblioteca Filosófica (Filosofický sál): ainda mais impressionante — 32 met
 ●
 Jardins do monastério: vista panorâmica sobre Praga — as torres, o Moldava, o Castelo lá embaixo.
 
-Ingresso da biblioteca: 150-200 CZK (€6-8 / R$ 33-44).
+Ingresso da biblioteca: 150-200 CZK (€6-8 / cerca de R$ 37 a R$ 49).
 
 Site oficial: strahovskyklaster.cz
 
@@ -716,15 +716,15 @@ Fundado em 1902, o Café Louvre foi frequentado por ninguém menos que Franz Kaf
 
 Peçam um svíčková ou um goulash tcheco. De sobremesa, jablečný závin (strudel de maçã tcheco).
 
-Preço: €10-16 (R$ 55 a R$ 88)
+Preço: €10-16 (cerca de R$ 60 a R$ 96)
 
 U Fleků (Křemencova 11)
 
-[Ver no Google Maps](https://www.google.com/maps/place/U+Flelků,+Křemencova+11,+110+00+Nové+Město)
+[Ver no Google Maps](https://www.google.com/maps/search/?api=1&query=U%20Flek%C5%AF%2C%20K%C5%99emencova%2011%2C%20Praha%201)
 
 Se preferirem algo mais rústico e histórico: a cervejaria U Fleků funciona desde 1499. É a cervejaria mais antiga de Praga ainda em operação. Serve apenas um tipo de cerveja — uma lager escura e densa, fabricada no local — e comida tcheca tradicional. Música ao vivo, ambiente barulhento e alegre.
 
-Preço: €10-16 (R$ 55 a R$ 88)
+Preço: €10-16 (cerca de R$ 60 a R$ 96)
 
 ### 21:00 — RETORNO AO HOTEL
 
@@ -892,7 +892,7 @@ O barco desembarca perto da Ponte Čech. De lá, são apenas 5-7 minutos a pé a
 
 Josefov, o antigo Bairro Judeu de Praga, é um dos conjuntos de monumentos judaicos mais importantes do mundo. Diferente de outros bairros judeus europeus, este não foi destruído — os nazistas o preservaram porque planejavam transformá-lo num museu da raça extinta.
 
-Ingresso do circuito completo: 500 CZK (€20 / R$ 110) — inclui Sinagoga Pinkas, Antigo Cemitério Judeu, Sinagoga Espanhola, Sinagoga Maisel e Sala Cerimonial.
+Ingresso do circuito completo: 500 CZK (€20 / cerca de R$ 123) — inclui Sinagoga Pinkas, Antigo Cemitério Judeu, Sinagoga Espanhola, Sinagoga Maisel e Sala Cerimonial.
 
 Atenção: o Museu Judaico fecha aos sábados (Shabat) e em feriados judaicos. Por isso, esta visita foi programada para o domingo. Confiram horários atualizados em jewishmuseum.cz.
 
@@ -938,21 +938,21 @@ A tarde é livre para fazer o que quiserem — ou não fazer nada.
 
 Sugestões para compras e lembranças:
 ●
-Marionetes tchecas — Lojas na Rua Karlova ou Celetná — CZK 300-3.000 (€12-120)
+Marionetes tchecas — Lojas na Rua Karlova ou Celetná — CZK 300-3.000 (€12-120 / cerca de R$ 74 a R$ 740)
 ●
-Cristal da Boêmia — Moser (Na Příkopě 12) — CZK 500-10.000+ (€20-400+)
+Cristal da Boêmia — Moser (Na Příkopě 12) — CZK 500-10.000+ (€20-400+ / cerca de R$ 123 a R$ 2.460+)
 ●
-Granadas tchecas — Granát Turnov (várias lojas) — CZK 1.000-20.000+
+Granadas tchecas — Granát Turnov (várias lojas) — CZK 1.000-20.000+ (cerca de R$ 246 a R$ 4.920+)
 ●
-Livros sobre Kafka — Livraria na Rua do Ouro ou Franz Kafka Bookshop — CZK 200-500 (€8-20)
+Livros sobre Kafka — Livraria na Rua do Ouro ou Franz Kafka Bookshop — CZK 200-500 (€8-20 / cerca de R$ 49 a R$ 123)
 ●
-Cervejas tchecas — Supermercado ou lojas especializadas — CZK 20-50
+Cervejas tchecas — Supermercado ou lojas especializadas — CZK 20-50 (cerca de R$ 5 a R$ 12)
 ●
-Becherovka (licor de ervas) — Qualquer supermercado ou loja duty-free — CZK 200-400
+Becherovka (licor de ervas) — Qualquer supermercado ou loja duty-free — CZK 200-400 (cerca de R$ 49 a R$ 99)
 
 Sugestões para quem não quer compras:
 ●
-Museu Mucha (Panská 7): o mestre do Art Nouveau, criador dos cartazes de Sarah Bernhardt. CZK 350 (€14)
+Museu Mucha (Panská 7): o mestre do Art Nouveau, criador dos cartazes de Sarah Bernhardt. CZK 350 (€14 / cerca de R$ 86)
 ●
 Simplesmente sentar-se num banco do Parque Kampa e ver o Moldava passar
 ●
@@ -968,7 +968,7 @@ O jantar medieval pede um visual à altura. Para ele: camisa e calça (não é p
 
 [Hotel → Jantar medieval](https://www.google.com/maps/dir/Fleur+De+Lis+Hotel,+Slezská+832/55,+130+00+Praha+3/Na+Florenci+1332,+110+00+Praha+1)
 
-Metrô linha A até Můstek, baldeação para linha B até Náměstí Republiky. Ou táxi (10-15 minutos, CZK 200).
+Metrô linha A até Můstek, baldeação para linha B até Náměstí Republiky. Ou táxi (10-15 minutos, CZK 200 / cerca de R$ 49).
 
 O endereço é Na Florenci 1332/23, Nové Město.
 
