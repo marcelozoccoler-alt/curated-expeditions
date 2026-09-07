@@ -652,7 +652,7 @@ Chegada de volta por volta das 15h. Banho, descanso, tarde livre. Se quiserem, u
 
 [Ver no Google Maps](https://www.google.com/maps/search/?api=1&query=Kabataş+Istanbul)
 
-Opção 1 — A pé (recomendado): cerca de 15 a 20 minutos descendo pela Istiklal até Kabataş, depois seguindo pelo calçadão à beira-mar. É um passeio plano e bonito. Opção 2 — Funicular + caminhada: pegar o funicular Tünel de Beyoğlu até Karaköy (1 minuto), depois caminhar 10 minutos pela orla. Opção 3 — Táxi/Uber: 5 a 10 minutos, custo de 80 a 120 TRY. Pedir para deixar em Kabataş.
+Opção 1 — A pé (recomendado): cerca de 15 a 20 minutos descendo pela Istiklal até Kabataş, depois seguindo pelo calçadão à beira-mar. É um passeio plano e bonito. Opção 2 — Funicular + caminhada: pegar o funicular Tünel de Beyoğlu até Karaköy (1 minuto), depois caminhar 10 minutos pela orla. Opção 3 — Táxi/Uber: 5 a 10 minutos, custo de 80 a 120 TRY (cerca de R$ 8,80–13,20). Pedir para deixar em Kabataş.
 
 ### 20:15 — CHEGADA AO CAIS DE EMBARQUE
 
