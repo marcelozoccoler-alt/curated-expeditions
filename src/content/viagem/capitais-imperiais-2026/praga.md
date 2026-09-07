@@ -295,7 +295,7 @@ A estação fica no limite da Cidade Nova (Nové Město) — fundada por Carlos 
 
 ### 19:40 — TRASLADO PARA O HOTEL
 
-[Praha hl.n. → Fleur De Lis Hotel](https://www.google.com/maps/dir/Praha+hlavn%C3%AD+n%C3%A1dra%C5%BE%C3%AD,+Wilsonova+300,+120+00+Praha+2/Fleur+De+Lis+Hotel,+Slezska+832,+130+00+Praha+3)
+[Praha hl.n. → Fleur De Lis Hotel](https://www.google.com/maps/dir/?api=1&origin=Praha%20hlavn%C3%AD%20n%C3%A1dra%C5%BE%C3%AD%2C%20Wilsonova%20300%2C%20120%2000%20Praha%202&destination=Fleur%20De%20Lis%20Hotel%2C%20Slezska%20832%2C%20130%2000%20Praha%203&travelmode=walking)
 
 O carro sobe pela Vinohradská třída — a avenida principal de Vinohrady. Sete minutos. Vocês passam por prédios art nouveau, fachadas com estuques florais, sacadas de ferro forjado. A rua vira na Slezska, uma viela tranquila ladeada de plátanos. E lá está o Fleur De Lis.
 
@@ -311,7 +311,7 @@ Depois de 4h13 de trem, um banho quente e uma pausa são mais que merecidos. O q
 
 ### 21:00 — JANTAR DE BOAS-VINDAS NO U BULÍNŮ
 
-[Hotel → Restaurace U Bulínů](https://www.google.com/maps/dir/Fleur+De+Lis+Hotel,+Slezska+832,+130+00+Praha+3/Restaurace+U+Bul%C3%ADn%C5%AF,+Bude%C4%8Dsk%C3%A1+2,+120+00+Praha+2)
+[Hotel → Restaurace U Bulínů](https://www.google.com/maps/dir/?api=1&origin=Fleur%20De%20Lis%20Hotel%2C%20Slezska%20832%2C%20130%2000%20Praha%203&destination=Restaurace%20U%20Bul%C3%ADn%C5%AF%2C%20Bude%C4%8Dsk%C3%A1%202%2C%20120%2000%20Praha%202&travelmode=walking)
 
 A apenas 5 minutos a pé do hotel, o U Bulínů é um restaurante tcheco raiz — daqueles que os praguenses frequentam, não os turistas. Mesas de madeira, iluminação quente, o som de talheres e conversas em tcheco.
 
@@ -326,7 +326,7 @@ Curiosidade: A República Tcheca tem o maior consumo de cerveja per capita do mu
 
 ### 22:30 — RETORNO AO HOTEL
 
-[Restaurace U Bulínů → Hotel](https://www.google.com/maps/dir/Restaurace+U+Bul%C3%ADn%C5%AF,+Bude%C4%8Dsk%C3%A1+2,+120+00+Praha+2/Fleur+De+Lis+Hotel,+Slezska+832,+130+00+Praha+3)
+[Restaurace U Bulínů → Hotel](https://www.google.com/maps/dir/?api=1&origin=Restaurace%20U%20Bul%C3%ADn%C5%AF%2C%20Bude%C4%8Dsk%C3%A1%202%2C%20120%2000%20Praha%202&destination=Fleur%20De%20Lis%20Hotel%2C%20Slezska%20832%2C%20130%2000%20Praha%203&travelmode=walking)
 
 Caminhada de 5 minutos. O ar frio da noite, as ruas silenciosas de Vinohrady, a sensação de estar num bairro que é real, não um cenário para turistas. Durmam bem. Amanhã é o dia grande.
 
@@ -486,7 +486,7 @@ Dica local: Cheguem 10 minutos antes para um bom lugar. Às 10:00, a multidão �
 
 ### 10:20 — CAMINHADA ATÉ A CABEÇA DE KAFKA
 
-[Praça → Cabeça de Kafka](https://www.google.com/maps/dir/Starom%C4%9Bstsk%C3%A9+n%C3%A1m%C4%9Bst%C3%AD,+110+00+Praha+1/Quadrio,+N%C3%A1rodn%C3%AD+135,+110+00+Praha+1)
+[Praça → Cabeça de Kafka](https://www.google.com/maps/dir/?api=1&origin=Starom%C4%9Bstsk%C3%A9%20n%C3%A1m%C4%9Bst%C3%AD%2C%20110%2000%20Praha%201&destination=Quadrio%2C%20N%C3%A1rodn%C3%AD%20135%2C%20110%2000%20Praha%201&travelmode=walking)
 
 Dez minutos a pé pela rua Národní třída. Vocês passam pelo Café Louvre (onde Kafka e Einstein frequentavam), pelo Teatro Nacional (símbolo do renascimento cultural tcheco), até chegarem ao shopping Quadrio.
 
@@ -508,7 +508,7 @@ Entrada: gratuita, ao ar livre, na fachada do shopping Quadrio.
 
 ### 11:30 — CAMINHADA PARA O ALMOÇO
 
-[Cabeça de Kafka → Lokál Dlouhááá](https://www.google.com/maps/dir/Kafka+Head+Statue,+N%C3%A1rodn%C3%AD+135,+110+00+Nov%C3%A9+M%C4%9Bsto/Lok%C3%A1l+Dlouh%C3%A1%C3%A1,+Dlouh%C3%A1+33,+110+00+Star%C3%A9+M%C4%9Bsto)
+[Cabeça de Kafka → Lokál Dlouhááá](https://www.google.com/maps/dir/?api=1&origin=Kafka%20Head%20Statue%2C%20N%C3%A1rodn%C3%AD%20135%2C%20110%2000%20Nov%C3%A9%20M%C4%9Bsto&destination=Lok%C3%A1l%20Dlouh%C3%A1%C3%A1%2C%20Dlouh%C3%A1%2033%2C%20110%2000%20Star%C3%A9%20M%C4%9Bsto&travelmode=walking)
 
 Dez minutos a pé até o bairro judeu, onde fica o restaurante. O caminho passa pelo Teatro Estates (onde Mozart regeu a estreia de Don Giovanni) e entra nas ruas estreitas de Josefov.
 
@@ -628,7 +628,7 @@ Duração: aproximadamente 30 minutos (até ~17:30).
 
 ### 17:35 — O PARQUE PETŘÍN E O PÔR DO SOL
 
-[Strahov → Parque Petřín](https://www.google.com/maps/dir/Strahov+Monastery,+Strahovsk%C3%A9+n%C3%A1dvo%C5%99%C3%AD+132/1,+118+00+Praha+1/Petřínské+sady,+118+00+Praha+1)
+[Strahov → Parque Petřín](https://www.google.com/maps/dir/?api=1&origin=Strahov%20Monastery%2C%20Strahovsk%C3%A9%20n%C3%A1dvo%C5%99%C3%AD%20132&destination=Pet%C5%99%C3%ADnsk%C3%A9%20sady%2C%20118%2000%20Praha%201&waypoints=1%2C%20118%2000%20Praha%201&travelmode=walking)
 
 A apenas 300 metros do monastério, o Parque Petřín se estende sobre a colina mais verde de Praga. É o lugar perfeito para assistir ao pôr do sol.
 
@@ -666,7 +666,7 @@ Preço: €10-16 (cerca de R$ 60 a R$ 96)
 
 ### 21:00 — RETORNO AO HOTEL
 
-[Restaurante → Hotel](https://www.google.com/maps/dir/Café+Louvre,+Národní+22,+110+00+Nové+Město/Fleur+De+Lis+Hotel,+Slezská+832/55,+130+00+Praha+3)
+[Restaurante → Hotel](https://www.google.com/maps/dir/?api=1&origin=Caf%C3%A9%20Louvre%2C%20N%C3%A1rodn%C3%AD%2022%2C%20110%2000%20Nov%C3%A9%20M%C4%9Bsto&destination=55%2C%20130%2000%20Praha%203&waypoints=Fleur%20De%20Lis%20Hotel%2C%20Slezsk%C3%A1%20832&travelmode=walking)
 
 Bonde ou táxi de volta a Vinohrady. As ruas do bairro estão silenciosas e seguras. A cama do duplex espera.
 
@@ -736,7 +736,7 @@ Sem pressa. O dia de hoje é um respiro — depois da maratona de ontem, vocês 
 
 ### 09:30 — SAÍDA PARA O CENTRO
 
-[Hotel → Prague Boats](https://www.google.com/maps/dir/Fleur+De+Lis+Hotel,+Slezská+832/55,+130+00+Praha+3/Prague+Boats,+Dvořákovo+nábřeží,+110+00+Praha+1)
+[Hotel → Prague Boats](https://www.google.com/maps/dir/?api=1&origin=Fleur%20De%20Lis%20Hotel%2C%20Slezsk%C3%A1%20832&destination=Prague%20Boats%2C%20Dvo%C5%99%C3%A1kovo%20n%C3%A1b%C5%99e%C5%BE%C3%AD%2C%20110%2000%20Praha%201&waypoints=55%2C%20130%2000%20Praha%203&travelmode=walking)
 
 Bonde ou táxi. A manhã está livre até o embarque.
 
@@ -806,7 +806,7 @@ A bordo:
 
 ### 14:00 — DESEMBARQUE E CAMINHADA AO BAIRRO JUDEU
 
-[Prague Boats → Sinagoga Pinkas](https://www.google.com/maps/dir/Prague+Boats,+Dvořákovo+nábřeží,+110+00+Praha+1/Pinkasova+synagoga,+Široká+3,+110+00+Praha+1)
+[Prague Boats → Sinagoga Pinkas](https://www.google.com/maps/dir/?api=1&origin=Prague%20Boats%2C%20Dvo%C5%99%C3%A1kovo%20n%C3%A1b%C5%99e%C5%BE%C3%AD%2C%20110%2000%20Praha%201&destination=Pinkasova%20synagoga%2C%20%C5%A0irok%C3%A1%203%2C%20110%2000%20Praha%201&travelmode=walking)
 
 O barco desembarca perto da Ponte Čech. De lá, são apenas 5-7 minutos a pé até o Bairro Judeu (Josefov). O caminho é plano e curto.
 
@@ -849,7 +849,7 @@ Tempo sugerido para o circuito completo: 1h30 a 2 horas.
 
 ### 16:30 — TEMPO LIVRE — COMPRAS E LEMBRANÇAS
 
-[Bairro Judeu → Centro (compras)](https://www.google.com/maps/dir/Pinkasova+synagoga,+Široká+3,+110+00+Josefov/Na+Příkopě,+110+00+Nové+Město)
+[Bairro Judeu → Centro (compras)](https://www.google.com/maps/dir/?api=1&origin=Pinkasova%20synagoga%2C%20%C5%A0irok%C3%A1%203%2C%20110%2000%20Josefov&destination=Na%20P%C5%99%C3%ADkop%C4%9B%2C%20110%2000%20Nov%C3%A9%20M%C4%9Bsto&travelmode=walking)
 
 A tarde é livre para fazer o que quiserem — ou não fazer nada.
 
@@ -862,13 +862,13 @@ Sugestões para quem não quer compras:
 
 ### 17:30 — RETORNO AO HOTEL PARA DESCANSO E TROCA
 
-[Centro → Hotel](https://www.google.com/maps/dir/Na+Příkopě,+110+00+Nové+Město/Fleur+De+Lis+Hotel,+Slezská+832/55,+130+00+Praha+3)
+[Centro → Hotel](https://www.google.com/maps/dir/?api=1&origin=Na%20P%C5%99%C3%ADkop%C4%9B%2C%20110%2000%20Nov%C3%A9%20M%C4%9Bsto&destination=55%2C%20130%2000%20Praha%203&waypoints=Fleur%20De%20Lis%20Hotel%2C%20Slezsk%C3%A1%20832&travelmode=walking)
 
 O jantar medieval pede um visual à altura. Para ele: camisa e calça (não é preciso terno, mas evitem esportivo). Para ela: vestido ou saia.
 
 ### 18:30 — SAÍDA PARA O JANTAR MEDIEVAL
 
-[Hotel → Jantar medieval](https://www.google.com/maps/dir/Fleur+De+Lis+Hotel,+Slezská+832/55,+130+00+Praha+3/Na+Florenci+1332,+110+00+Praha+1)
+[Hotel → Jantar medieval](https://www.google.com/maps/dir/?api=1&origin=Fleur%20De%20Lis%20Hotel%2C%20Slezsk%C3%A1%20832&destination=Na%20Florenci%201332%2C%20110%2000%20Praha%201&waypoints=55%2C%20130%2000%20Praha%203&travelmode=walking)
 
 Metrô linha A até Můstek, baldeação para linha B até Náměstí Republiky. Ou táxi (10-15 minutos, CZK 200 / cerca de R$ 49).
 
@@ -912,7 +912,7 @@ Cancelamento gratuito até 19:45 de 10 de outubro.
 
 ### 22:45 — RETORNO AO HOTEL
 
-[Jantar medieval → Hotel](https://www.google.com/maps/dir/Na+Florenci+1332,+110+00+Praha+1/Fleur+De+Lis+Hotel,+Slezská+832/55,+130+00+Praha+3)
+[Jantar medieval → Hotel](https://www.google.com/maps/dir/?api=1&origin=Na%20Florenci%201332%2C%20110%2000%20Praha%201&destination=55%2C%20130%2000%20Praha%203&waypoints=Fleur%20De%20Lis%20Hotel%2C%20Slezsk%C3%A1%20832&travelmode=walking)
 
 Táxi ou Uber de volta a Vinohrady. A noite de Praga está fria, as ruas iluminadas. Vocês estão com o estômago cheio, os ouvidos cheios de música e o coração cheio de História.
 
@@ -996,7 +996,7 @@ O hotel guarda as malas na recepção sem custo. Vocês ainda têm a manhã livr
 
 ### 12:15 — TRASLADO PRIVATIVO PARA O AEROPORTO
 
-[Hotel → Aeroporto de Praga](https://www.google.com/maps/dir/Fleur+De+Lis+Hotel,+Slezská+832/55,+130+00+Praha+3/Václav+Havel+Airport+Prague,+Aviatická,+161+00+Praha+6)
+[Hotel → Aeroporto de Praga](https://www.google.com/maps/dir/?api=1&origin=Fleur%20De%20Lis%20Hotel%2C%20Slezsk%C3%A1%20832&destination=V%C3%A1clav%20Havel%20Airport%20Prague%2C%20Aviatick%C3%A1%2C%20161%2000%20Praha%206&waypoints=55%2C%20130%2000%20Praha%203&travelmode=transit)
 
 O carro segue pela Evropská třída em direção ao aeroporto. O trajeto leva cerca de 30 minutos.
 
