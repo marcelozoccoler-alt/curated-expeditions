@@ -465,7 +465,7 @@ Drum Café (Dob utca 2): goulash autêntico. Pratos entre 2.000 e 4.000 HUF, R$ 
 
 Personagem: a praça leva o nome de Ferenc Deák (1803–1876), o homem sábio da nação. Foi Deák quem concebeu o Compromisso de 1867 — a solução diplomática que transformou o Império Austríaco em Império Austro-Húngaro, dando à Hungria autonomia dentro da monarquia dual. Sem Deák, não haveria Sisi coroada em Budapeste. Sem Deák, não haveria a Budapeste unificada de 1873.
 
-Valor: 450 HUF (1,20 euros / R$ 7).
+Valor: 500 HUF na pré-compra, no guichê ou no aplicativo BudapestGO (cerca de R$ 8) — 700 HUF se comprado a bordo (cerca de R$ 11). Quem preferir liberdade total: passe de 24 horas por 2.750 HUF (cerca de R$ 45).
 
 ### 14:00 — O CASTELO DE BUDA
 
@@ -622,7 +622,7 @@ Noite no Szimpla Kert: casual despojado. Jaqueta leve.
 
 Metrô: estação Oktogon, linha M1, transferência em Deák Ferenc tér, linha M2, estação Astoria. 12 minutos.
 
-Valor: 450 HUF (1,20 euros / R$ 7).
+Valor: 500 HUF na pré-compra, no guichê ou no aplicativo BudapestGO (cerca de R$ 8) — 700 HUF se comprado a bordo (cerca de R$ 11). Quem preferir liberdade total: passe de 24 horas por 2.750 HUF (cerca de R$ 45).
 
 ### 09:45 — ENCONTRO NA SINAGOGA
 
@@ -658,7 +658,7 @@ Bairro Judeu ao Mercado Central.
 
 Metrô: estação Astoria, linha M2, até Deák Ferenc tér, transferência para a linha M4 ou bonde 47/49 até Fővám tér. Cerca de 15 minutos.
 
-Valor: 450 HUF (1,20 euros / R$ 7).
+Valor: 500 HUF na pré-compra, no guichê ou no aplicativo BudapestGO (cerca de R$ 8) — 700 HUF se comprado a bordo (cerca de R$ 11). Quem preferir liberdade total: passe de 24 horas por 2.750 HUF (cerca de R$ 45).
 
 [Trajeto no Google Maps](https://www.google.com/maps/dir/Doh%C3%A1ny+utca+2,+1074+Budapest/Great+Market+Hall,+F%C5%91v%C3%A1m+t%C3%A9r+1-3,+1093+Budapest)
 
@@ -702,7 +702,7 @@ Site oficial: cafenewyorkbudapest.com
 
 Metrô: estação Blaha Lujza tér, linha M2, transferência em Deák Ferenc tér, linha M1, estação Hősök tere. 15 minutos.
 
-Valor: 450 HUF (1,20 euros / R$ 7).
+Valor: 500 HUF na pré-compra, no guichê ou no aplicativo BudapestGO (cerca de R$ 8) — 700 HUF se comprado a bordo (cerca de R$ 11). Quem preferir liberdade total: passe de 24 horas por 2.750 HUF (cerca de R$ 45).
 
 ### 15:30 — PRAÇA DOS HERÓIS, HOSOK TERE
 

@@ -222,11 +222,11 @@ Vantagens estratégicas:
 
 ### TRANSPORTE
 
-- Bonde T1: linha moderna, confortável, conecta Karaköy a Sultanahmet em 10 minutos. A estação de Karaköy fica a 5 minutos do hotel. Bilhete: 42 TL (cerca de R$ 4,60) com İstanbulkart
-- Ferry público: a maneira mais autêntica e prazerosa de se locomover. Bancos de madeira, vendedores de çay, gaivotas. Karaköy → Kadıköy (Ásia): 20 minutos, 57 TL (cerca de R$ 6,30)
+- Bonde T1: linha moderna, confortável, conecta Karaköy a Sultanahmet em 10 minutos. A estação de Karaköy fica a 5 minutos do hotel. Bilhete: 42 TL (cerca de R$ 4,50) por embarque com İstanbulkart
+- Ferry público: a maneira mais autêntica e prazerosa de se locomover. Bancos de madeira, vendedores de çay, gaivotas. Karaköy → Kadıköy (Ásia): 20 minutos, cerca de 59 TL (cerca de R$ 6,30) com İstanbulkart
 - Tünel: funicular subterrâneo de 1875, o segundo metrô mais antigo do mundo. Sobe de Karaköy a Beyoğlu em 90 segundos
 - Táxi / Uber: abundantes e baratos para padrões europeus. Trajeto médio: 150–300 TL (cerca de R$ 16,50–33,00)
-- İstanbulkart: essencial. Cartão de transporte público recarregável, válido em bondes, metrô, ferrys, ônibus e Tünel. Comprem na primeira estação de bonde ou ferry. Custo do cartão: 130 TL (cerca de R$ 14,30). Recarga nas máquinas amarelas
+- İstanbulkart: essencial. Cartão de transporte público recarregável, válido em bondes, metrô, ferrys, ônibus e Tünel. Comprem na primeira estação de bonde ou ferry. Custo do cartão vazio: cerca de 165 a 200 TL (cerca de R$ 18 a R$ 21) — o valor é reajustado com frequência. Recarga nas máquinas amarelas
 - Caminhadas: Sultanahmet é plano e compacto — todas as atrações principais ficam a 5–10 minutos umas das outras. Galata tem algumas ladeiras
 
 ### RITMO IDEAL
