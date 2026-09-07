@@ -409,11 +409,14 @@ O café da manhã do Fleur De Lis é um destaque: pães tchecos frescos, frios, 
 
 ### 08:30 — RUMO AO CORAÇÃO DE PRAGA
 
-[Hotel → Praça da Cidade Velha](https://www.google.com/maps/dir/Fleur+De+Lis+Hotel,+Slezska+832,+130+00+Praha+3/Starom%C4%9Bstsk%C3%A9+n%C3%A1m%C4%9Bst%C3%AD,+110+00+Praha+1)
+[Hotel → Praça da Cidade Velha](https://www.google.com/maps/dir/?api=1&origin=Fleur%20De%20Lis%20Hotel%2C%20Slezsk%C3%A1%20832%2F55%2C%20Praha%203&destination=Starom%C4%9Bstsk%C3%A9%20n%C3%A1m%C4%9Bst%C3%AD%2C%20Praha%201)
 
-Bonde 22 a partir da parada Náměstí Míru ou Vinohradská (5 a 8 minutos a pé do hotel). Doze minutos depois, vocês descem na Staroměstská. O centro histórico de Praga — declarado Patrimônio da Humanidade pela UNESCO em 1992 — se abre diante de vocês.
+Caminhada de 5 a 8 minutos até Náměstí Míru — ali está a estação da linha A do metrô ([ver no mapa](https://www.google.com/maps/search/?api=1&query=N%C3%A1m%C4%9Bst%C3%AD%20M%C3%ADru%20metro%2C%20Praha)). Duas paradas e vocês descem em Staroměstská, no coração da Cidade Velha: cinco minutos de trajeto. O centro histórico de Praga — declarado Patrimônio da Humanidade pela UNESCO em 1992 — se abre diante de vocês.
 
-A pé, são 5 minutos até a praça. E então...
+Quem preferir a paisagem à pressa pega o Bonde 22 na mesma Náměstí Míru e desce em Národní divadlo, junto ao Teatro Nacional e ao rio: quinze minutos de janela, mais dez de caminhada até a praça.
+
+A pé, são 5 minutos da estação até a praça. E então...
+
 
 ### 08:55 — A PRAÇA DA CIDADE VELHA (STAROMĚSTSKÉ NÁMĚSTÍ)
 
@@ -521,11 +524,12 @@ Alternativa próxima: Restaurace Mincovna (Staroměstské nám. 7) — na própr
 
 ### 13:15 — BONDE 22 ATÉ O CASTELO DE PRAGA
 
-[Lokál → Parada Pražský hrad](https://www.google.com/maps/dir/Lok%C3%A1l+Dlouh%C3%A1%C3%A1,+Dlouh%C3%A1+33,+110+00+Star%C3%A9+M%C4%9Bsto/Zast%C3%A1vka+tram+Pražský+hrad)
+[Lokál → Parada Pražský hrad](https://www.google.com/maps/dir/?api=1&origin=Lok%C3%A1l%20Dlouh%C3%A1%C3%A1%2C%20Dlouh%C3%A1%2033%2C%20Praha%201&destination=Pra%C5%BEsk%C3%BD%20hrad%20tram%20stop%2C%20Praha%201)
 
-Caminhem 5 minutos até a parada de bonde Staroměstská (ou Malostranská, ambas atendem a linha 22). Peguem o Bonde 22 — ele sobe a colina mecanicamente, sem esforço. A viagem dura cerca de 10 minutos.
+Caminhem 4 minutos até a estação Staroměstská ([ver no mapa](https://www.google.com/maps/search/?api=1&query=Starom%C4%9Bstsk%C3%A1%20metro%2C%20Praha)) e peguem a linha A do metrô por uma parada até Malostranská. Na saída, o Bonde 22 já está ali ([ver no mapa](https://www.google.com/maps/search/?api=1&query=Malostransk%C3%A1%20tram%20stop%2C%20Praha)): ele sobe a colina mecanicamente, sem esforço, em cerca de 7 minutos.
 
-Importante: desçam na parada Pražský hrad (não Malostranská — esta fica lá embaixo, perto do rio). A parada Pražský hrad fica ao lado do Portão de Entrada do Castelo.
+Importante: desçam na parada Pražský hrad — é a que fica ao lado do Portão de Entrada do Castelo, no alto. Malostranská é a de baixo, perto do rio, de onde vocês partiram.
+
 
 ### 13:45 — O CASTELO DE PRAGA
 
@@ -590,7 +594,7 @@ Tempo sugerido: 20-25 minutos.
 
 ### 16:20 — BONDE 22 ATÉ POHOŘELEC (SEM ESFORÇO)
 
-[Castelo → Pohořelec](https://www.google.com/maps/dir/Pra%C5%BEsk%C3%BD+hrad,+119+08+Praha+1/Pohořelec)
+[Castelo → Pohořelec](https://www.google.com/maps/dir/?api=1&origin=Pra%C5%BEsk%C3%BD%20hrad%20tram%20stop%2C%20Praha%201&destination=Poho%C5%99elec%20tram%20stop%2C%20Praha%201)
 
 Caminhem 3 minutos de volta até a parada Pražský hrad (a mesma onde vocês desceram). Peguem novamente o Bonde 22 — agora na direção oposta, subindo em direção a Strahov. São apenas 2 paradas (cerca de 5 minutos). Descem em Pohořelec.
 
@@ -634,7 +638,7 @@ Momento de silêncio. Depois de um dia intenso e cheio, apenas estar aqui, senti
 
 ### 18:45 — DESCIDA DE BONDE AO CENTRO
 
-[Petřín → Centro](https://www.google.com/maps/dir/Petřínské+sady,+118+00+Praha+1/Starom%C4%9Bstsk%C3%A9+n%C3%A1m%C4%9Bst%C3%AD,+110+00+Praha+1)
+[Petřín → Centro](https://www.google.com/maps/dir/?api=1&origin=%C3%9Ajezd%20tram%20stop%2C%20Praha%201&destination=N%C3%A1rodn%C3%AD%20divadlo%2C%20Praha%201)
 
 Caminhem 5 minutos até a parada Újezd e peguem o Bonde 22 descendo até o centro. Em 8 minutos, vocês estão de volta à Malostranské náměstí ou Národní třída.
 
