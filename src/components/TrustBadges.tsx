@@ -52,7 +52,7 @@ export const TrustBadges = ({ destinationsCount, departuresCount }: TrustBadgesP
             >
               <Icon size={22} className="text-gold shrink-0 mt-1 lg:mt-0" strokeWidth={1.5} />
               <div>
-                <p className="font-display text-xl md:text-2xl text-foreground leading-tight">
+                <p className="font-serif text-xl md:text-2xl text-foreground leading-tight">
                   {value}
                 </p>
                 <p className="text-sm text-muted-foreground mt-1">{label}</p>
