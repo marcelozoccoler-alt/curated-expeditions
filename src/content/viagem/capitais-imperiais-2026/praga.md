@@ -678,11 +678,11 @@ Ingresso da biblioteca: 150-200 CZK (€6-8 / R$ 33-44).
 
 Site oficial: strahovskyklaster.cz
 
-### 17:00 — UMA SURPRESA DE 883 ANOS
+### 17:00 — BASÍLICA DA ASSUNÇÃO DE NOSSA SENHORA, STRAHOV
 
-O Monastério de Strahov foi fundado em 1143. E há algo que acontece aqui, todos os dias às 17h, praticamente sem interrupção desde o século XII. Sobreviveu a invasões, incêndios e ao regime comunista.
+O Monastério de Strahov foi fundado em 1143. Sobreviveu a invasões, incêndios e ao regime comunista, e ainda hoje é habitado por monges premonstratenses.
 
-Preferimos não contar o que é. Entrem na Basílica da Assunção de Nossa Senhora, sentem-se nos bancos de madeira e esperem. O que acontece em seguida, nenhuma fotografia registra.
+Entrem na Basílica da Assunção de Nossa Senhora. O interior é de uma sobriedade rara em Praga: nave gótica, abóbadas brancas, pouca ornamentação, silêncio de quase nove séculos. Sentem-se nos bancos de madeira. Este é um momento de contemplação no alto da colina, antes do pôr do sol.
 
 Entrada: gratuita.
 
@@ -1122,7 +1122,7 @@ Terminal 1 — check-in, controle de passaporte (voo não-Schengen), segurança 
 
 ### 15:20 — DECOLAGEM TK 1772
 
-O avião da Turkish Airlines sobe sobre a Boêmia. Lá embaixo, o Moldava brilha como uma fita de prata. A Ponte Carlos é um traço fino sobre o rio. As torres góticas recortam o horizonte. O castelo domina a colina. E, no alto de Petřín, o monastério de Strahov continuará guardando seu segredo — como guarda há 883 anos.
+O avião da Turkish Airlines sobe sobre a Boêmia. Lá embaixo, o Moldava brilha como uma fita de prata. A Ponte Carlos é um traço fino sobre o rio. As torres góticas recortam o horizonte. O castelo domina a colina. E, no alto de Petřín, o monastério de Strahov continuará ali, entre o silêncio das abóbadas e a luz que entra pelas janelas góticas.
 
 Vocês estão deixando a Europa Central. E agora, Istambul. A cidade onde a Europa termina e a Ásia começa. Onde os minaretes substituem as torres góticas, onde o chamado à oração (ezan) substitui os sinos.
 

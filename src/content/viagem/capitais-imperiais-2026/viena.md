@@ -687,7 +687,7 @@ Café na Gloriette: No interior da colunata, há um café. Sentem-se, peçam um 
 Informações práticas:
 
 - Jardins: entrada gratuita
-- Visita ao palácio: incluída no Classic Pass de €49 que vocês reservaram
+- Visita ao palácio: incluída no roteiro — o coordenador cuida dos ingressos do grupo
 - Site oficial: schoenbrunn.at
 
 ### 16:00 — RETORNO AO HOTEL E DESCANSO
