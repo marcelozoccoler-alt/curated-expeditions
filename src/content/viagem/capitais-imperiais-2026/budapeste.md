@@ -265,7 +265,9 @@ Ao longo do caminho, à direita, vocês avistarão a Ponte das Correntes. Ela es
 
 O Országház, a Casa da Nação, é o maior edifício da Hungria e o terceiro maior parlamento do mundo. Construído entre 1885 e 1904 em estilo neogótico, por Imre Steindl — que morreu em 1902, dois anos antes da inauguração, sem ver sua obra-prima concluída. Steindl trabalhou no projeto por 19 anos, e a cegueira o atingiu antes do fim. Diz-se que, nos últimos meses, caminhava pelas margens do Danúbio, tateando as paredes do edifício que não podia mais ver.
 
-Os números impressionam: são 268 metros de comprimento, 691 salas internas e 242 esculturas na fachada, com 40 kg de ouro puro espalhados pelos detalhes decorativos. A cúpula central tem 96 metros de altura — o número sagrado, mais uma vez.
+Olhem a cúpula do centro: ela sobe exatamente 96 metros, a mesma altura da Basílica de Santo Estevão, do outro lado do rio. Nesta cidade, Deus e o Estado combinaram não se sobrepor.
+
+Para quem gosta de números: 268 metros de fachada, 691 salas por dentro, 242 esculturas na pedra e 40 quilos de ouro puro espalhados pelos detalhes.
 
 Site oficial e ingressos: jegymester.hu/parlament
 
@@ -427,7 +429,9 @@ A avenida tem nome de homem, e o homem soube o que ninguém mais soube: para con
 
 A maior igreja de Budapeste. Consagrada em 1905, levou 54 anos para ser construída. Projetada por Miklós Ybl (1814–1891), o arquiteto mais prolífico da Hungria — que morreu antes de vê-la concluída, assim como Steindl com o Parlamento. Há uma maldição em Budapeste: os arquitetos não vivem para ver suas obras terminadas.
 
-96 metros de altura na cúpula, o número sagrado novamente, capacidade para 8.500 pessoas, 50 tipos diferentes de mármore no interior, órgão com 6.389 tubos, reconstruído em 2025.
+Por dentro, o primeiro impulso é olhar para cima: cinquenta tipos diferentes de mármore, o dourado repartido com cuidado e uma cúpula que também para nos 96 metros, empatada com o Parlamento. Cabem oito mil e quinhentas pessoas aqui, e mesmo assim a igreja parece guardar silêncio.
+
+O órgão foi reconstruído em 2025 e tem 6.389 tubos — se ele estiver tocando quando vocês entrarem, sentem e não façam mais nada.
 
 Site oficial: szentistvanbazilika.hu
 
