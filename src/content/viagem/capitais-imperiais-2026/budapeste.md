@@ -150,6 +150,8 @@ Sándor Petőfi (1823–1849) — O poeta da revolução. Recitou o Nemzeti Dal,
 
 ### CHEGADA A BUDAPESTE — A PRIMEIRA NOITE SOBRE O DANÚBIO
 
+Este é o dia mais longo e o mais leve de todos: vocês entram no avião num continente e saem em outro, com o corpo atrasado e os olhos adiantados. Quando pisarem na rua, o ar vai estar uns dez graus mais frio do que a memória do Brasil, com aquele cheiro de outono europeu — folha molhada, pedra, pão. Não tentem entender Budapeste hoje. Só deixem que ela apareça.
+
 ### DADOS DO DIA
 
 O voo da Turkish Airlines número duzentos e dezesseis (TK 216) sai de GRU às 16:35 de 2 de outubro e chega a IST às 11:15 de 3 de outubro, num Airbus A350-900, com 12h40 de voo.
@@ -365,6 +367,8 @@ Durmam bem — amanhã Buda os espera, com igrejas, castelo e um pôr do sol ine
 
 ### O DIA DAS DUAS IGREJAS — DA BASÍLICA AO ALTO DE BUDA
 
+Hoje o dia começa com sinos e termina com o rio aceso. É o dia das duas igrejas, mas também o dia em que as pernas descobrem que esta cidade tem duas alturas: a Peste plana dos cafés e a Buda inclinada dos reis. Levem paciência para a subida e olhos para a descida.
+
 ### DADOS DO DIA
 
 Café da manhã: incluso, 7:00 às 10:00.
@@ -542,6 +546,8 @@ Descansem bem essa noite. Amanhã é o dia das sete maravilhas.
 ## DIA 3 — SEGUNDA-FEIRA, 5 DE OUTUBRO DE 2026
 
 ### O DIA DAS SETE MARAVILHAS — DO BAIRRO JUDEU ÀS TERMAS
+
+Hoje é o dia em que Budapeste entrega tudo de uma vez: memória pesada de manhã, água quente à tarde. Comecem com o silêncio do bairro judeu e terminem com a pele enrugada de tanto tempo dentro da água, sob o vapor subindo no ar frio.
 
 ### A LENDA DAS SETE MARAVILHAS DE BUDAPESTE
 
@@ -826,6 +832,8 @@ Boa noite. Amanhã Budapeste fica para trás, mas vocês levam essa cidade para 
 ## DIA 4 — TERÇA-FEIRA, 6 DE OUTUBRO DE 2026
 
 ### SOBRE TRILHOS DE IMPÉRIO — DE BUDAPESTE A VIENA
+
+Última manhã. O cheiro de café do hotel, a mala fechando, e depois duas horas e meia de janela: o Danúbio, as planícies da Panônia, as vinhas, e de repente a Áustria arrumada demais. Um trem é o melhor jeito de trocar de país — dá tempo de se despedir devagar.
 
 ### A DESPEDIDA DE BUDAPESTE
 

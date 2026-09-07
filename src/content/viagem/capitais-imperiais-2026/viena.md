@@ -185,6 +185,8 @@ Viena está consistentemente entre as três cidades mais seguras do mundo. As fa
 
 A PRIMEIRA NOITE SOB A CÚPULA BARROCA
 
+Vocês chegam de trem, e isso muda tudo: Viena não se apresenta pelo alto, se apresenta pela plataforma, com passos apressados, anúncios em alemão e aquele cheiro limpo de estação bem cuidada. Lá fora, a cidade fala baixo. Hoje é só chegar, respirar e deixar a noite barroca fazer o resto.
+
 ### DADOS DO DIA
 
 Chegada: 13:20 - Wien Hauptbahnhof
@@ -341,6 +343,8 @@ Durmam bem. Amanhã é o dia imperial.
 ## DIA 5 - QUARTA-FEIRA, 7 DE OUTUBRO DE 2026
 
 O DIA IMPERIAL - DOS HABSBURGOS AO CREPÚSCULO
+
+Este é o dia imperial. Ouro, mármore, corredores compridos e o barulho dos próprios sapatos no assoalho antigo. Guardem energia para o fim da tarde: é quando a luz vira mel nas fachadas da Ringstrasse e Viena, por alguns minutos, parece que nunca perdeu o império.
 
 ### DADOS DO DIA
 
@@ -583,6 +587,8 @@ Boa noite. Amanhã Schönbrunn e a valsa esperam por vocês.
 
 SCHÖNBRUNN E A NOITE DE CONCERTO
 
+Hoje o dia é amarelo. Amarelo Schönbrunn, aquele tom que os Habsburgos escolheram para não deixar dúvida de quem morava ali. De manhã, jardins e cascalho estalando sob os pés; de noite, música dentro do palácio — e uma noite dessas não se explica, se vive.
+
 ### DADOS DO DIA
 
 Temperatura: 6°C a 15°C
@@ -710,6 +716,8 @@ Durmam bem, com a música do concerto ainda no ouvido. Amanhã é dia de despedi
 ## DIA 7 - SEXTA-FEIRA, 9 DE OUTUBRO DE 2026
 
 A DESPEDIDA - ENTRE KLIMT E PRAGA
+
+Último dia em Viena, e ele é doce de propósito: um beijo de ouro pintado por Klimt, um café que não se toma com pressa e, à tarde, um trem para a Boêmia. Vocês vão sair daqui com a estranha sensação de já ter morado nesta cidade.
 
 ### DADOS DO DIA
 

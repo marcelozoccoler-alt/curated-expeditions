@@ -261,6 +261,8 @@ Nota de câmbio: as conversões em reais deste capítulo usam o câmbio de 7 de 
 
 ### A CHEGADA A PRAGA — A PRIMEIRA NOITE NA CIDADE DAS CEM TORRES
 
+Praga recebe pela pedra. Assim que vocês saírem do carro, os pés vão sentir o calçamento irregular e o ar vai estar mais frio e mais úmido do que em Viena — cheiro de rio, de cerveja e de fumaça de lenha. Hoje é só a primeira volta no quarteirão, e ela já vai valer a viagem.
+
 ### DADOS DO DIA
 
 Chegada: 19:23 - Praha hlavní nádraží
@@ -347,6 +349,8 @@ Espaço reservado para as fotos e vídeos de DIA 7 (CONTINUAÇÃO) — SEXTA-FEI
 ## DIA 8 — SÁBADO, 10 DE OUTUBRO DE 2026
 
 ### O DIA GRANDE — DA CIDADE VELHA AO ALTO DA COLINA
+
+Este é o dia grande. Começa na Cidade Velha com o relógio batendo hora e sobe até o alto da colina, onde a catedral parece ter sido desenhada por alguém que estava com raiva do céu. Vai doer um pouco nas pernas. Vai compensar em tudo o mais.
 
 ### DADOS DO DIA
 
@@ -688,6 +692,8 @@ Espaço reservado para as fotos e vídeos de DIA 8 — SÁBADO, 10 DE OUTUBRO DE
 
 ### NAVEGAÇÃO, BAIRRO JUDEU E JANTAR MEDIEVAL
 
+Hoje Praga é vista de baixo: da água, onde as pontes deixam de ser postal e passam a ser arquitetura. Depois vem o bairro judeu, que se caminha em voz baixa, e a noite termina com fogo, carne e música num salão medieval.
+
 ### DADOS DO DIA
 
 Temperatura: 5°C a 13°C
@@ -933,6 +939,8 @@ Espaço reservado para as fotos e vídeos de DIA 9 — DOMINGO, 11 DE OUTUBRO DE
 ## DIA 10 — SEGUNDA-FEIRA, 12 DE OUTUBRO DE 2026
 
 ### A DESPEDIDA — ÚLTIMA MANHÃ EM PRAGA E VOO PARA ISTAMBUL
+
+Última manhã na cidade das cem torres. Vale acordar antes do grupo, se puderem: às sete da manhã a Ponte Carlos é só de vocês e dos pescadores, a pedra gelada nas mãos e a névoa subindo do Moldava. À tarde, um avião para o Oriente.
 
 ### DADOS DO DIA
 

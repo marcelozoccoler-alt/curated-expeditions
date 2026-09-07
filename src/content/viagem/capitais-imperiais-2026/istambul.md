@@ -261,6 +261,8 @@ Vantagens estratégicas:
 
 ### CHEGADA A ISTAMBUL — A PRIMEIRA NOITE EM GALATA
 
+Istambul não começa devagar. Começa no cheiro — mar, especiaria, carvão, pão — e no som do chamado para a oração atravessando os telhados no fim da tarde. Vocês chegam com o corpo cansado das quatro capitais anteriores e vão dormir ouvindo gaivota e balsa. É outro mundo, e ele sabe disso.
+
 ### DADOS DO DIA
 
 Voo: o voo da Turkish Airlines número mil setecentos e setenta e dois (TK 1772), saindo de Praga às 15:20 do dia 12/10 e chegando a Istambul às 19:05 do mesmo dia, 2h45 de voo.
@@ -342,6 +344,8 @@ Espaço reservado para as fotos e vídeos de DIA 10 (CONTINUAÇÃO) — SEGUNDA-
 ## DIA 11 — TERÇA-FEIRA, 13 DE OUTUBRO DE 2026
 
 ### O DIA DAS MESQUITAS, DO GRAN BAZAR E DO EVENTO
+
+Hoje é o dia das cúpulas. Vocês vão tirar os sapatos, pisar em tapete grosso, olhar para cima e ficar em silêncio três vezes seguidas. Depois vem o Gran Bazar, que é o oposto: cor, grito, chá oferecido, ouro piscando na penumbra. Istambul gosta desses contrastes no mesmo dia.
 
 ### DADOS DO DIA
 
@@ -512,6 +516,8 @@ Espaço reservado para as fotos e vídeos de DIA 11 — TERÇA-FEIRA, 13 DE OUTU
 ## DIA 12 — QUARTA-FEIRA, 14 DE OUTUBRO DE 2026
 
 ### CHORA, BALAT E O CORNO DE OURO
+
+Hoje o roteiro sai do centro e vai para onde a cidade mora. Ouro escondido sob gesso numa colina esquecida, ruas pintadas como aquarela, roupas secando no varal, gatos donos dos muros. É o dia mais fotografado da viagem inteira — e o mais afetuoso.
 
 ### DADOS DO DIA
 
@@ -709,6 +715,8 @@ Espaço reservado para as fotos e vídeos de DIA 12 — QUARTA-FEIRA, 14 DE OUTU
 ## DIA 13 — QUINTA-FEIRA, 15 DE OUTUBRO DE 2026
 
 ### A DESPEDIDA — MANHÃ LIVRE E RETORNO
+
+Última manhã. O chá quente no vidro fino queimando os dedos, o mel escorrendo do favo, o Bósforo lá embaixo indiferente às despedidas. Aproveitem devagar: daqui algumas horas vocês vão olhar esta cidade pela janela do avião e já vão querer voltar.
 
 ### DADOS DO DIA
 
