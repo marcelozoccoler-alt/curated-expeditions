@@ -510,20 +510,15 @@ Entrada: gratuita.
 
 A Karlskirche (Igreja de São Carlos Borromeu) é a igreja mais cenográfica de Viena. Construída entre 1716 e 1737, é uma fusão única de estilos: fachada grega (com pórtico e colunas), duas colunas romanas (inspiradas na Coluna de Trajano), cúpula barroca alongada.
 
-O que há de especial:
+Vocês a admiram por fora, da Karlsplatz — e é de fora mesmo que ela se impõe:
 
 - As colunas têm 47 metros de altura e são esculpidas em espiral com cenas da vida de São Carlos Borromeu
-- A cúpula tem 70 metros e é coberta por afrescos deslumbrantes
-- Há um elevador panorâmico que sobe até a cúpula — vocês veem os afrescos a centímetros de distância
-- Da plataforma, tem-se uma vista única da Karlsplatz
+- A cúpula verde de cobre tem 70 metros e se reflete no espelho d'água da praça
+- No fim de tarde, a luz dourada sobre a fachada é um dos espetáculos gratuitos de Viena
 
 História: A igreja foi construída por ordem do Imperador Carlos VI como agradecimento pelo fim da epidemia de peste de 1713. Carlos Borromeu era o santo padroeiro contra a peste.
 
-Informações práticas:
-
-- Entrada: €8 (cerca de R$ 48)
-- Elevador panorâmico incluso no ingresso
-- Site oficial: karlskirche.at
+Para quem quiser voltar por conta própria: o interior é deslumbrante, com afrescos de Johann Michael Rottmayr e um elevador panorâmico que sobe até a cúpula. Entrada: €8 (cerca de R$ 48), elevador incluso. Site oficial: karlskirche.at.
 
 [Ver no Google Maps](https://www.google.com/maps/search/?api=1&query=Karlskirche%2C%20Vienna)
 
@@ -603,9 +598,11 @@ Concerto: 20:30 às 22:30 no Palácio de Schönbrunn
 
 10:00 - Saída para Schönbrunn
 
-11:30 - Jardins de Schönbrunn
+11:30 - Jardins de Schönbrunn, Fonte de Netuno e Gloriette
 
-12:30 - Visita ao Palácio (Classic Pass)
+12:00 - Café na Gloriette, sem pressa — a pausa da viagem
+
+13:00 - Visita ao Palácio (Classic Pass)
 
 16:00 - Retorno ao hotel para descanso
 
@@ -655,7 +652,7 @@ No alto da colina, a Gloriette foi construída em 1775 como "templo da fama" —
 
 Para subir: A caminhada leva cerca de 10 minutos, em subida suave. Para quem preferir, há um trenzinho turístico (pago) que faz o trajeto. Atenção: o terraço da Gloriette e o Jardim do Príncipe Herdeiro só têm acesso por escadas — avaliem a disposição antes de subir.
 
-Café na Gloriette: No interior da colunata, há um café. Sentem-se, peçam um Melange e apreciem a vista. A Imperatriz Maria Teresa jamais imaginou que, 250 anos depois, pessoas comuns estariam tomando café em seu mirante particular.
+Café na Gloriette — o tempo do nada da viagem: No interior da colunata, há um café. É aqui que acontece a grande pausa destes treze dias. Uma hora inteira sem próximo compromisso: sentem-se, peçam um Melange com uma fatia de Apfelstrudel e não façam mais nada. Apenas olhem Viena lá embaixo, o palácio amarelo, os jardins em geometria perfeita. A Imperatriz Maria Teresa jamais imaginou que, 250 anos depois, pessoas comuns estariam perdendo tempo — no melhor sentido — em seu mirante particular.
 
 [Ver no Google Maps](https://www.google.com/maps/search/?api=1&query=Gloriette%20Schonbrunn%2C%20Vienna)
 
