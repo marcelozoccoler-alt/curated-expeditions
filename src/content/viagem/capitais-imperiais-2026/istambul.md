@@ -630,7 +630,7 @@ Chegam na parte baixa, onde o bairro encontra a água. O calçadão do Corno de 
 
 Escolhem um restaurante com mesa na calçada — pode ser um balık ekmek (sanduíche de peixe) numa banca do cais, ou um restaurante de frutos do mar com vista para a água. Pedem peixe grelhado, salada, pão fresco, mais um çay.
 
-Preço: 300 a 500 TRY por pessoa.
+Preço: 300 a 500 TRY por pessoa (cerca de R$ 33–55).
 
 Comem devagar. Olham os barcos passando, as gaivotas planando, a silhueta da cidade do outro lado do chifre de ouro. É um daqueles almoços que não são só sobre comida — são sobre estar ali.
 
