@@ -1136,7 +1136,7 @@ Terminal 1 — check-in, controle de passaporte (voo não-Schengen), segurança 
 
 ### 15:20 — DECOLAGEM TK 1772
 
-O avião da Turkish Airlines sobe sobre a Boêmia. Lá embaixo, o Moldava brilha como uma fita de prata. A Ponte Carlos é um traço fino sobre o rio. As torres góticas recortam o horizonte. O castelo domina a colina. E, no alto de Petřín, os monges de Strahov estarão se preparando para cantar as Vésperas — como fazem há 883 anos.
+O avião da Turkish Airlines sobe sobre a Boêmia. Lá embaixo, o Moldava brilha como uma fita de prata. A Ponte Carlos é um traço fino sobre o rio. As torres góticas recortam o horizonte. O castelo domina a colina. E, no alto de Petřín, o monastério de Strahov continuará guardando seu segredo — como guarda há 883 anos.
 
 Vocês estão deixando a Europa Central. E agora, Istambul. A cidade onde a Europa termina e a Ásia começa. Onde os minaretes substituem as torres góticas, onde o chamado à oração (ezan) substitui o canto gregoriano.
 
@@ -1163,13 +1163,13 @@ Praga não é uma cidade que se visita. É uma cidade que se contrai.
 
 Suas ruas de paralelepípedo têm 600 anos. Seus sinos tocam desde que Carlos IV era imperador. Seus monges cantam há quase um milênio. Suas pontes são protegidas por palíndromos numéricos. Seus cemitérios têm doze camadas de almas.
 
-Vocês chegaram de trem, cruzando as florestas da Boêmia. Partem de avião, sobrevoando o Moldava. Entre a chegada e a partida, caminharam pela ponte que um imperador desenhou com a ajuda de astrólogos, ouviram o órgão na igreja onde Mozart tocou, sentiram o silêncio do cemitério onde 100.000 pessoas descansam em camadas sobrepostas, e testemunharam o canto gregoriano que sobreviveu a invasões, incêndios e ao comunismo.
+Vocês chegaram de trem, cruzando as florestas da Boêmia. Partem de avião, sobrevoando o Moldava. Entre a chegada e a partida, caminharam pela ponte que um imperador desenhou com a ajuda de astrólogos, ouviram música na igreja onde Mozart tocou, sentiram o silêncio do cemitério onde 100.000 pessoas descansam em camadas sobrepostas, e testemunharam algo, no alto da colina de Strahov, que sobreviveu a invasões, incêndios e ao comunismo.
 
 Praga é diferente. Praga não se exibe como Viena — ela sussurra. Cada pedra tem um segredo. Cada viela guarda um alquimista, um escritor, um monge. Cada torre gótica é uma agulha de pedra furando o céu.
 
 E como disse Kafka, a alma mais inquieta que esta cidade já produziu: Praga não te deixa ir. Esta pequena mãe tem garras.
 
-Parte de vocês ficará para sempre entre a Ponte Carlos e o canto gregoriano. Entre as torres góticas e o Moldava prateado. Entre o silêncio das doze camadas de almas e a música de Smetana que ainda sobe das águas.
+Parte de vocês ficará para sempre entre a Ponte Carlos e o alto da colina de Strahov. Entre as torres góticas e o Moldava prateado. Entre o silêncio das doze camadas de almas e a música de Smetana que ainda sobe das águas.
 
 Budapeste foi a cidade que resiste. Viena foi a cidade que dança. Praga é a cidade que sussurra. Uma ensina a permanecer. A outra, a celebrar. E esta, a escutar.
 
