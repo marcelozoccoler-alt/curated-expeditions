@@ -642,7 +642,7 @@ Duas opções para voltar:
 
 **Opção B — Táxi (a mais rápida):** [Ver no Google Maps](https://www.google.com/maps/search/?api=1&query=Balat+to+Galata)
 
-Táxis, 20 a 25 min, 200 a 250 TRY por carro.
+Táxis, 20 a 25 min, 200 a 250 TRY por carro (cerca de R$ 22–27,50).
 
 ### 15:00 — DESCANSO NO HOTEL
 
