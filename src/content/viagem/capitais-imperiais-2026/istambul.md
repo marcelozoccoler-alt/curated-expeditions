@@ -706,7 +706,7 @@ O jantar é servido. A música começa — primeiro suave, com ney e saz, depois
 
 ### 23:45 — RETORNO AO HOTEL
 
-Táxi: 10 minutos, cerca de 80–120 TRY. Ou caminhada de 20 minutos pela Istiklal iluminada.
+Táxi: 10 minutos, cerca de 80–120 TRY (cerca de R$ 8,80–13,20). Ou caminhada de 20 minutos pela Istiklal iluminada.
 
 Resumo do dia 12:
 
