@@ -384,13 +384,11 @@ Temperatura: 8 a 18°C.
 
 Pôr do sol: 18:13.
 
-Missas: Basílica às 10:00, a Nagymise; Igreja de Matias às 19:30.
-
 Metrô: Linha M1, Patrimônio da Humanidade.
 
 ### ROUPA PARA O DIA
 
-Manhã e missas: roupa respeitosa para as igrejas, ombros e joelhos cobertos.
+Manhã: roupa respeitosa para as igrejas, ombros e joelhos cobertos.
 
 Noite no Bastião: sobretudo ou trench coat. A temperatura cai para 6 a 10°C. Levem echarpe ou pashmina.
 
