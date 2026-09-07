@@ -334,15 +334,11 @@ Data: Sábado, 3 de outubro de 2026
 
 Horário: 19:00h
 
-Pessoas: 12 adultos
-
-Status: Totalmente pago
+Status: Confirmado
 
 Ponto de encontro: Akadémia, 2º pontão, navio Gróf Széchenyi, lado Peste, Budapeste.
 
 Navio Gróf Széchenyi, pontão Akadémia 2. A experiência completa a bordo dura 2h30, das 19:00 às 21:30. Música folclórica húngara ao vivo. Jantar completo incluso.
-
-Valor: incluso no pacote.
 
 O que está incluso:
 
@@ -901,8 +897,6 @@ Personagem: a estação Keleti foi inaugurada em 1884 e é a principal estação
 EuroCity 142, Budapeste Keleti para Wien Hauptbahnhof.
 
 Composição: vagões de primeira e segunda classe, vagão-restaurante, ar-condicionado, Wi-Fi intermitente, tomadas em cada assento.
-
-Valor: incluso no pacote.
 
 Dica: sentem-se do lado esquerdo na saída de Budapeste. Nos primeiros 15 minutos, o trem acompanha o Danúbio, e vocês verão o rio pela última vez — agora do outro lado, de um ângulo diferente, como um adeus silencioso.
 

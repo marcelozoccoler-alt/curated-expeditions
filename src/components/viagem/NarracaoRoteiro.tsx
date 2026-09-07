@@ -125,8 +125,7 @@ export const NarracaoAviso = ({
         <Volume2 size={18} className="text-gold shrink-0" />
         <p className="text-sm text-foreground/85 flex-1 min-w-[240px]">
           <strong className="font-medium">Clique em qualquer trecho do roteiro</strong> e o narrador
-          lê a viagem para você — {voz.descricao.toLowerCase()} A narração de {cidade} já está
-          gravada: toca na hora, quantas vezes você quiser.
+          lê a viagem para você.
         </p>
         {textoCompleto && (
           <BotaoOuvir id="cidade-completa" texto={textoCompleto} label="Ouvir tudo, sem parar" />

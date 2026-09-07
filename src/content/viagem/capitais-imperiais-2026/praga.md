@@ -218,7 +218,7 @@ Silencioso, longe do burburinho, mas a 12 minutos de bonde do centro
 Conexão com o centro:
 Os bondes 22 e 23 passam na porta do hotel (ou a 3 minutos a pé). Em 12 minutos, vocês estão na Praça da Cidade Velha. A mesma linha sobe até o Castelo e Strahov.
 
-Acessibilidade para terceira idade:
+Acessibilidade e conforto:
 ●
 Recepção 24 horas (até 23:00 no dia da chegada)
 ●
@@ -840,9 +840,7 @@ Embarque: entre 11h20 e 11h40
 
 Chegada para check-in: 11h40
 
-Número de passageiros: 12 adultos
-
-Categoria: Exclusive (junto à janela) — 2 mesas de 6 lugares, lado a lado
+Categoria: Exclusive (junto à janela) — 2 mesas lado a lado
 
 Incluído:
 ●
@@ -876,10 +874,8 @@ Contato na reserva: Jarmila Plurová
 
 Observações importantes:
 1. Chegar às 11h40 no escritório da Prague Boats, pier nº 3 B.
-2. O grupo terá 2 mesas lado a lado na categoria Exclusive, com até 6 pessoas por mesa.
-3. Não há cortesia para líder de grupo — todos os 12 adultos pagam, já contemplado no total.
-4. Contagem final confirmada e sem alterações: 12 passageiros.
-5. Informar o nº do pedido O-2118849 e o nome Create Travel Brazil no check-in.
+2. O grupo terá 2 mesas lado a lado na categoria Exclusive.
+3. Informar o nº do pedido O-2118849 e o nome Create Travel Brazil no check-in.
 
 O que levar:
 ●
@@ -1005,7 +1001,7 @@ Procurem o guarda-chuva laranja da Civitatis/Fun In Prague.
 
 ### 19:45 — CHECK-IN COM VOUCHER QR CODE
 
-Apresentem o voucher com QR code da reserva A38940224. 5 adultos, menu de frango, Medieval Evening. €395 total (já pago).
+Apresentem o voucher com QR code da reserva A38940224. Menu de frango, Medieval Evening. Reserva confirmada.
 
 ### 20:00 — O ESPETÁCULO MEDIEVAL (ATÉ 22:30)
 
