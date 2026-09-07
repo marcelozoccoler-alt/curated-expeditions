@@ -164,9 +164,9 @@ No século XVI, o rabino Judah Loew do Bairro Judeu teria moldado uma criatura d
 
 A escultura de David Černý (2014) no shopping Quadrio: 10,6 metros de altura, 24 toneladas, 42 painéis de aço inoxidável que giram independentemente. A cada hora, o rosto de Franz Kafka se forma e se desfaz diante dos olhos. É a metáfora perfeita do escritor: instável, fragmentado, genial.
 
-### 5. OS MONGES DE STRAHOV E OS 883 ANOS DE HISTÓRIA
+### 5. OS MONGES DE STRAHOV E OS 883 ANOS DE CANTO
 
-O Monastério de Strahov foi fundado em 1143 por monges premonstratenses. O mosteiro sobreviveu a invasões, incêndios e ao regime comunista (fechado em 1950, monges presos ou exilados). Reabriu em 1990. A vida recomeçou, como se nunca tivesse parado.
+O Monastério de Strahov foi fundado em 1143 por monges premonstratenses. Desde então, todos os dias, eles cantam as mesmas orações, as mesmas notas, os mesmos salmos. O mosteiro sobreviveu a invasões, incêndios e ao regime comunista (fechado em 1950, monges presos ou exilados). Reabriu em 1990. O canto recomeçou, como se nunca tivesse parado.
 
 ### 6. O CEMITÉRIO JUDEU E AS 12 CAMADAS DE ALMAS
 
@@ -379,7 +379,7 @@ Espaço reservado para as fotos e vídeos de DIA 7 (CONTINUAÇÃO) — SEXTA-FEI
 
 ## DIA 8 — SÁBADO, 10 DE OUTUBRO DE 2026
 
-### O DIA GRANDE — DA CIDADE VELHA AO ALTO DA COLINA
+### O DIA GRANDE — DA CIDADE VELHA AO CANTO GREGORIANO
 
 ### DADOS DO DIA
 
@@ -387,6 +387,7 @@ Temperatura: 6°C a 14°C
 
 Pôr do sol: 18:23
 
+Vésperas: 17:00 - Monastério de Strahov (gratuito)
 
 Transporte especial: Bonde 22 ou 23
 
@@ -424,7 +425,7 @@ Transporte especial: Bonde 22 ou 23
 
 16:40 - Monastério de Strahov
 
-17:00 - Momento reservado no monastério
+17:00 - Vésperas gregorianas
 
 17:35 - Parque Petřín e pôr do sol
 
@@ -665,7 +666,7 @@ Sem esforço. Sem escadas. Sem fadiga. E vocês chegam ao ponto mais alto e mais
 
 [Ver no Google Maps](https://www.google.com/maps/place/Strahov+Monastery,+Strašovská+1/137,+118+00+Praha+1)
 
-Chegando com 20 minutos de folga, aproveitem para:
+Chegando com 20 minutos de folga antes das Vésperas, aproveitem para:
 
 ●
 Biblioteca Teológica (Theologický sál): 18 metros de altura, estantes em madeira escura entalhada, 22.000 volumes medievais, teto com afrescos que parecem abrir o céu. É uma das bibliotecas mais belas do mundo.
@@ -678,13 +679,21 @@ Ingresso da biblioteca: 150-200 CZK (€6-8 / R$ 33-44).
 
 Site oficial: strahovskyklaster.cz
 
-### 17:00 — UMA SURPRESA DE 883 ANOS
+### 17:00 — AS VÉSPERAS GREGORIANAS
 
-O Monastério de Strahov foi fundado em 1143. E há algo que acontece aqui, todos os dias às 17h, praticamente sem interrupção desde o século XII. Sobreviveu a invasões, incêndios e ao regime comunista.
+O Monastério de Strahov foi fundado em 1143 por monges premonstratenses — uma ordem que segue a regra de Santo Agostinho. Há 883 anos, eles rezam e cantam neste lugar.
 
-Preferimos não contar o que é. Entrem na Basílica da Assunção de Nossa Senhora, sentem-se nos bancos de madeira e esperem. O que acontece em seguida, nenhuma fotografia registra.
+O que torna este momento tão especial:
 
-Entrada: gratuita.
+Strahov sobreviveu a tudo. Invasões suecas na Guerra dos Trinta Anos. Os incêndios que devastaram Praga. O regime comunista, que fechou o mosteiro em 1950, prendeu os monges e transformou o local em depósito militar.
+
+Em 1990, com a Revolução de Veludo, o mosteiro reabriu. Os monges voltaram. E o canto recomeçou — como se nunca tivesse parado.
+
+As Vésperas são um serviço religioso diário. De segunda a sábado, começam às 17:00. Vocês entram na Basílica da Assunção de Nossa Senhora, sentam-se nos bancos de madeira e ouvem. As vozes dos monges sobem até as abóbadas barrocas, ricocheteiam nas paredes, descem sobre vocês. O latim ecoa. O incenso paira. O tempo para.
+
+É o mesmo canto, as mesmas notas, os mesmos salmos que os monges cantam desde o século XII. Vocês estão ouvindo a trilha sonora de quase um milênio.
+
+Entrada para as Vésperas: gratuita.
 
 Duração: aproximadamente 30 minutos (até ~17:30).
 
@@ -1136,9 +1145,9 @@ Terminal 1 — check-in, controle de passaporte (voo não-Schengen), segurança 
 
 ### 15:20 — DECOLAGEM TK 1772
 
-O avião da Turkish Airlines sobe sobre a Boêmia. Lá embaixo, o Moldava brilha como uma fita de prata. A Ponte Carlos é um traço fino sobre o rio. As torres góticas recortam o horizonte. O castelo domina a colina. E, no alto de Petřín, o monastério de Strahov continuará guardando seu segredo — como guarda há 883 anos.
+O avião da Turkish Airlines sobe sobre a Boêmia. Lá embaixo, o Moldava brilha como uma fita de prata. A Ponte Carlos é um traço fino sobre o rio. As torres góticas recortam o horizonte. O castelo domina a colina. E, no alto de Petřín, os monges de Strahov estarão se preparando para cantar as Vésperas — como fazem há 883 anos.
 
-Vocês estão deixando a Europa Central. E agora, Istambul. A cidade onde a Europa termina e a Ásia começa. Onde os minaretes substituem as torres góticas, onde o chamado à oração (ezan) substitui os sinos.
+Vocês estão deixando a Europa Central. E agora, Istambul. A cidade onde a Europa termina e a Ásia começa. Onde os minaretes substituem as torres góticas, onde o chamado à oração (ezan) substitui o canto gregoriano.
 
 A mesma fé. O mesmo céu. A mesma busca.
 
@@ -1163,13 +1172,13 @@ Praga não é uma cidade que se visita. É uma cidade que se contrai.
 
 Suas ruas de paralelepípedo têm 600 anos. Seus sinos tocam desde que Carlos IV era imperador. Seus monges cantam há quase um milênio. Suas pontes são protegidas por palíndromos numéricos. Seus cemitérios têm doze camadas de almas.
 
-Vocês chegaram de trem, cruzando as florestas da Boêmia. Partem de avião, sobrevoando o Moldava. Entre a chegada e a partida, caminharam pela ponte que um imperador desenhou com a ajuda de astrólogos, ouviram música na igreja onde Mozart tocou, sentiram o silêncio do cemitério onde 100.000 pessoas descansam em camadas sobrepostas, e testemunharam algo, no alto da colina de Strahov, que sobreviveu a invasões, incêndios e ao comunismo.
+Vocês chegaram de trem, cruzando as florestas da Boêmia. Partem de avião, sobrevoando o Moldava. Entre a chegada e a partida, caminharam pela ponte que um imperador desenhou com a ajuda de astrólogos, ouviram o órgão na igreja onde Mozart tocou, sentiram o silêncio do cemitério onde 100.000 pessoas descansam em camadas sobrepostas, e testemunharam o canto gregoriano que sobreviveu a invasões, incêndios e ao comunismo.
 
 Praga é diferente. Praga não se exibe como Viena — ela sussurra. Cada pedra tem um segredo. Cada viela guarda um alquimista, um escritor, um monge. Cada torre gótica é uma agulha de pedra furando o céu.
 
 E como disse Kafka, a alma mais inquieta que esta cidade já produziu: Praga não te deixa ir. Esta pequena mãe tem garras.
 
-Parte de vocês ficará para sempre entre a Ponte Carlos e o alto da colina de Strahov. Entre as torres góticas e o Moldava prateado. Entre o silêncio das doze camadas de almas e a música de Smetana que ainda sobe das águas.
+Parte de vocês ficará para sempre entre a Ponte Carlos e o canto gregoriano. Entre as torres góticas e o Moldava prateado. Entre o silêncio das doze camadas de almas e a música de Smetana que ainda sobe das águas.
 
 Budapeste foi a cidade que resiste. Viena foi a cidade que dança. Praga é a cidade que sussurra. Uma ensina a permanecer. A outra, a celebrar. E esta, a escutar.
 

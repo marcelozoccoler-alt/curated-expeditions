@@ -384,11 +384,13 @@ Temperatura: 8 a 18°C.
 
 Pôr do sol: 18:13.
 
+Missas: Basílica às 10:00, a Nagymise; Igreja de Matias às 19:30.
+
 Metrô: Linha M1, Patrimônio da Humanidade.
 
 ### ROUPA PARA O DIA
 
-Manhã: roupa respeitosa para as igrejas, ombros e joelhos cobertos.
+Manhã e missas: roupa respeitosa para as igrejas, ombros e joelhos cobertos.
 
 Noite no Bastião: sobretudo ou trench coat. A temperatura cai para 6 a 10°C. Levem echarpe ou pashmina.
 
@@ -400,7 +402,9 @@ Noite no Bastião: sobretudo ou trench coat. A temperatura cai para 6 a 10°C. L
 
 09:10 — Chegada à Basílica de Santo Estevão
 
-10:00 às 11:45 — Interior da Basílica, Mão Direita de Santo Estevão
+10:00 às 11:00 — Nagymise com órgão e coral
+
+11:00 às 11:45 — Interior da Basílica, Mão Direita de Santo Estevão
 
 11:45 às 12:30 — Tempo livre, caminhada pela Andrássy út
 
@@ -414,7 +418,7 @@ Noite no Bastião: sobretudo ou trench coat. A temperatura cai para 6 a 10°C. L
 
 19:15 — Entrada na Igreja de Matias
 
-19:30 às 20:30 — Igreja de Matias por dentro
+19:30 às 20:30 — Missa com órgão
 
 20:30 às 21:15 — Bastião iluminado, vista noturna
 
@@ -446,14 +450,17 @@ Panorâmica do terraço e tesouro: 5.000 HUF (13 euros / R$ 73).
 
 Combo completo: 6.800 HUF (18 euros / R$ 99).
 
+A missa é gratuita.
 
 A Mão Direita de Santo Estevão: no interior, em uma capela dourada atrás do altar-mor, está a relíquia mais sagrada da Hungria: a mão mumificada do primeiro rei húngaro, coroado no ano 1000. Santo Estevão (975–1038) foi o homem que transformou tribos nômades em uma nação cristã. A mão tem mais de mil anos. Diz a lenda que, se desaparecer, a Hungria cairá.
 
 [Ver no Google Maps](https://www.google.com/maps/place/Basilica+of+St+Stephen)
 
-### 10:00 — A BASÍLICA EM DOMINGO
+### 10:00 — A NAGYMISE
 
-Domingo de manhã é quando a Basílica de Santo Estevão vive seu momento mais solene da semana. O que acontece lá dentro, preferimos não contar — é uma daquelas experiências que só fazem sentido ao vivo. Entrem, sentem-se e deixem a cúpula fazer o resto.
+A missa das 10 horas é a Nagymise, a grande missa dominical. O órgão de 5.898 tubos preenche a cúpula com Bach, Mozart, Liszt ou compositores húngaros. É música que sobe como incenso.
+
+Personagem: quando o órgão toca, pensem em Ferenc Erkel (1810–1893), o compositor do hino nacional húngaro, o Himnusz, e fundador da Ópera Nacional. A música sacra húngara carrega a melancolia de um povo que sobreviveu a tudo — e a esperança de quem acredita que a beleza é a última forma de resistência.
 
 ### 12:30 — ALMOÇO
 
@@ -521,12 +528,13 @@ Entrada para visita turística: 3.400 HUF (9 euros / R$ 49).
 
 Com audioguia: 5.000 HUF (13 euros / R$ 73).
 
+Entrada gratuita para a missa.
 
 [Ver no Google Maps](https://www.google.com/maps/place/Matias+Church)
 
 ### 20:30 — O BASTIÃO DOS PESCADORES À NOITE
 
-Vocês saem da igreja e a cidade está transformada. As luzes do Parlamento brilham douradas sobre o Danúbio. A Ponte das Correntes é um colar de pérolas sobre a água escura. A Ponte Elisabeth, mais ao sul, risca o céu com seus cabos de aço iluminados. É Budapeste como vocês nunca viram.
+Vocês saem da missa e a cidade está transformada. As luzes do Parlamento brilham douradas sobre o Danúbio. A Ponte das Correntes é um colar de pérolas sobre a água escura. A Ponte Elisabeth, mais ao sul, risca o céu com seus cabos de aço iluminados. É Budapeste como vocês nunca viram.
 
 ### 21:30 — JANTAR EM BUDA
 

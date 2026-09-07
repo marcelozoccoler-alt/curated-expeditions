@@ -37,7 +37,7 @@ Atatürk modernizou a Turquia: aboliu o califado, substituiu o alfabeto árabe p
 
 Com 16 milhões de habitantes, Istambul é a maior cidade da Turquia e uma das maiores do mundo. É uma metrópole vibrante, caótica e hipnótica, onde os minaretes competem com arranha-céus, onde o chamado à oração (ezan) ecoa cinco vezes ao dia entre buzinas de táxis, onde um ferry público pode levar você da Europa à Ásia em 20 minutos.
 
-Vocês chegam depois de três cidades cristãs — Budapeste, Viena, Praga — onde a música sacra ressoou em catedrais góticas e mosteiros beneditinos. Agora, os minaretes substituem as torres. O ezan substitui os sinos. Mas a busca é a mesma. A beleza é a mesma. O impulso humano de construir para o divino é o mesmo.
+Vocês chegam depois de três cidades cristãs — Budapeste, Viena, Praga — onde a música sacra ressoou em catedrais góticas e mosteiros beneditinos. Agora, os minaretes substituem as torres. O ezan substitui o canto gregoriano. Mas a busca é a mesma. A beleza é a mesma. O impulso humano de construir para o divino é o mesmo.
 
 ---
 
@@ -797,7 +797,7 @@ O Istanbul Airport (IST) é imenso. Preparem-se para uma caminhada razoável den
 
 ### 20:15 — DECOLAGEM TK 215
 
-O avião decola. Lá embaixo, o Bósforo brilha. A Europa e a Ásia se tocam como duas mãos que quase se alcançam. Em 13 dias, vocês estiveram em quatro cidades, três impérios, dois rios, dois continentes. Ouviram música subir pelas cúpulas de Budapeste e Viena, segredos de oito séculos em Praga, e o ezan ecoando entre minaretes em Istambul.
+O avião decola. Lá embaixo, o Bósforo brilha. A Europa e a Ásia se tocam como duas mãos que quase se alcançam. Em 13 dias, vocês estiveram em quatro cidades, três impérios, dois rios, dois continentes. Ouviram o órgão de 5.898 tubos em Budapeste, o concerto de Mozart em Viena, o canto gregoriano de 883 anos em Praga, e o ezan ecoando entre minaretes em Istambul.
 
 Quatro cidades. Uma só jornada. A mesma busca humana pelo belo.
 
