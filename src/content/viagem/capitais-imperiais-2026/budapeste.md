@@ -453,9 +453,9 @@ Domingo de manhã é quando a Basílica de Santo Estevão vive seu momento mais 
 
 [Basílica à região de almoço](https://www.google.com/maps/dir/Bas%C3%ADlica+de+Santo+Est%C3%AAv%C3%A3o,+Szent+Istv%C3%A1n+t%C3%A9r,+1051+Budapest/Liszt+Ferenc+t%C3%A9r,+1061+Budapest)
 
-Menza (Liszt Ferenc tér 2): cozinha húngara contemporânea. A praça leva o nome de Franz Liszt — e é considerada a mais charmosa de Budapeste, com seus cafés ao ar livre e castanheiras. Pratos entre 2.500 e 5.000 HUF, R$ 41 a R$ 82
+Menza (Liszt Ferenc tér 2): cozinha húngara contemporânea. A praça leva o nome de Franz Liszt — e é considerada a mais charmosa de Budapeste, com seus cafés ao ar livre e castanheiras. Pratos entre 2.500 e 5.000 HUF, R$ 41 a R$ 82.
 
-Drum Café (Dob utca 2): goulash autêntico. Pratos entre 2.000 e 4.000 HUF, R$ 33 a R$ 66
+Drum Café (Dob utca 2): goulash autêntico. Pratos entre 2.000 e 4.000 HUF, R$ 33 a R$ 66.
 
 ### 13:45 — RUMO A BUDA
 
@@ -524,9 +524,9 @@ Vocês saem da igreja e a cidade está transformada. As luzes do Parlamento bril
 
 ### 21:30 — JANTAR EM BUDA
 
-Pierrot Café & Restaurant (Fortuna utca 14): cozinha húngara contemporânea. Pratos entre 4.000 e 8.000 HUF, R$ 66 a R$ 131
+Pierrot Café & Restaurant (Fortuna utca 14): cozinha húngara contemporânea. Pratos entre 4.000 e 8.000 HUF, R$ 66 a R$ 131.
 
-Ruszwurm Cukrászda (Szentháromság utca 7): a confeitaria mais antiga de Budapeste, fundada em 1827. Diz a lenda que Sisi vinha aqui tomar café. Preços: 1.500 a 2.500 HUF, R$ 25 a R$ 41
+Ruszwurm Cukrászda (Szentháromság utca 7): a confeitaria mais antiga de Budapeste, fundada em 1827. Diz a lenda que Sisi vinha aqui tomar café. Preços: 1.500 a 2.500 HUF, R$ 25 a R$ 41.
 
 ### 22:30 — RETORNO AO HOTEL
 
@@ -670,11 +670,11 @@ Térreo: carnes, pimentões, páprica, linguiças, picles, queijos. Andar superi
 
 O que provar:
 
-Langos: pão frito com sour cream e queijo, 1.200 a 2.000 HUF, R$ 20 a R$ 33
+Langos: pão frito com sour cream e queijo, 1.200 a 2.000 HUF, R$ 20 a R$ 33.
 
-Goulash: sopa tradicional, 1.500 a 2.500 HUF, R$ 25 a R$ 41
+Goulash: sopa tradicional, 1.500 a 2.500 HUF, R$ 25 a R$ 41.
 
-Kurtoskalacs: bolo chaminé húngaro, 800 a 1.200 HUF, R$ 13 a R$ 20
+Kurtoskalacs: bolo chaminé húngaro, 800 a 1.200 HUF, R$ 13 a R$ 20.
 
 Horário: segunda a sábado, 6:00 às 17:00. Domingo fechado.
 
@@ -688,7 +688,7 @@ O café mais bonito do mundo. Inaugurado em 1894 no térreo do Palácio New York
 
 Foi o ponto de encontro dos intelectuais húngaros no início do século XX. Ferenc Molnár (1878–1952), autor de Os Meninos da Rua Paulo, vinha aqui. Miklós Radnóti (1909–1944), o poeta que morreu em um campo de concentração nazista, escreveu seus versos mais belos nestas mesas.
 
-Valor: entrada gratuita, mas o consumo é obrigatório. Café e sobremesa: 4.000 a 7.000 HUF, R$ 66 a R$ 115 A fila pode ser longa — cheguem com paciência.
+Valor: entrada gratuita, mas o consumo é obrigatório. Café e sobremesa: 4.000 a 7.000 HUF, R$ 66 a R$ 115. A fila pode ser longa — cheguem com paciência.
 
 Dica: peçam o somlói galuska — sobremesa tradicional húngara com três camadas de bolo, creme, chocolate e rum. Uma experiência.
 
@@ -798,7 +798,7 @@ O primeiro romkocsma, bar em ruínas, de Budapeste. Fundado em 2002 em um prédi
 
 É a rebeldia húngara em forma de bar. Depois de décadas de comunismo, os jovens de Budapeste transformaram a decadência em arte.
 
-Valor: entrada gratuita. Bebidas entre 800 e 2.500 HUF, R$ 13 a R$ 41
+Valor: entrada gratuita. Bebidas entre 800 e 2.500 HUF, R$ 13 a R$ 41.
 
 Dica: subam ao terraço. A vista do Bairro Judeu à noite é surpreendente.
 
@@ -806,9 +806,9 @@ Dica: subam ao terraço. A vista do Bairro Judeu à noite é surpreendente.
 
 ### 20:30 — JANTAR NO BAIRRO JUDEU
 
-Mazel Tov (Akácfa utca 47): cozinha israelense contemporânea em um antigo galpão industrial. Pratos entre 3.500 e 7.000 HUF, R$ 57 a R$ 115
+Mazel Tov (Akácfa utca 47): cozinha israelense contemporânea em um antigo galpão industrial. Pratos entre 3.500 e 7.000 HUF, R$ 57 a R$ 115.
 
-Hummus Bar (Kazinczy utca 27): hummus, falafel, shakshuka. Pratos entre 2.000 e 4.000 HUF, R$ 33 a R$ 66
+Hummus Bar (Kazinczy utca 27): hummus, falafel, shakshuka. Pratos entre 2.000 e 4.000 HUF, R$ 33 a R$ 66.
 
 ### 21:30 — RETORNO AO HOTEL
 
