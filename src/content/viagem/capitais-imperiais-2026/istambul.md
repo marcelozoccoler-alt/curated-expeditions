@@ -797,7 +797,7 @@ O Istanbul Airport (IST) é imenso. Preparem-se para uma caminhada razoável den
 
 ### 20:15 — DECOLAGEM TK 215
 
-O avião decola. Lá embaixo, o Bósforo brilha. A Europa e a Ásia se tocam como duas mãos que quase se alcançam. Em 13 dias, vocês estiveram em quatro cidades, três impérios, dois rios, dois continentes. Ouviram o órgão de 5.898 tubos em Budapeste, o concerto de Mozart em Viena, o canto gregoriano de 883 anos em Praga, e o ezan ecoando entre minaretes em Istambul.
+O avião decola. Lá embaixo, o Bósforo brilha. A Europa e a Ásia se tocam como duas mãos que quase se alcançam. Em 13 dias, vocês estiveram em quatro cidades, três impérios, dois rios, dois continentes. Ouviram música subir pelas cúpulas de Budapeste e Viena, segredos de oito séculos em Praga, e o ezan ecoando entre minaretes em Istambul.
 
 Quatro cidades. Uma só jornada. A mesma busca humana pelo belo.
 
