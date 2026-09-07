@@ -594,7 +594,7 @@ Tempo sugerido: 20-25 minutos.
 
 ### 16:20 — BONDE 22 ATÉ POHOŘELEC (SEM ESFORÇO)
 
-[Castelo → Pohořelec](https://www.google.com/maps/dir/Pra%C5%BEsk%C3%BD+hrad,+119+08+Praha+1/Pohořelec)
+[Castelo → Pohořelec](https://www.google.com/maps/dir/?api=1&origin=Pra%C5%BEsk%C3%BD%20hrad%20tram%20stop%2C%20Praha%201&destination=Poho%C5%99elec%20tram%20stop%2C%20Praha%201)
 
 Caminhem 3 minutos de volta até a parada Pražský hrad (a mesma onde vocês desceram). Peguem novamente o Bonde 22 — agora na direção oposta, subindo em direção a Strahov. São apenas 2 paradas (cerca de 5 minutos). Descem em Pohořelec.
 
@@ -638,7 +638,7 @@ Momento de silêncio. Depois de um dia intenso e cheio, apenas estar aqui, senti
 
 ### 18:45 — DESCIDA DE BONDE AO CENTRO
 
-[Petřín → Centro](https://www.google.com/maps/dir/Petřínské+sady,+118+00+Praha+1/Starom%C4%9Bstsk%C3%A9+n%C3%A1m%C4%9Bst%C3%AD,+110+00+Praha+1)
+[Petřín → Centro](https://www.google.com/maps/dir/?api=1&origin=%C3%9Ajezd%20tram%20stop%2C%20Praha%201&destination=N%C3%A1rodn%C3%AD%20divadlo%2C%20Praha%201)
 
 Caminhem 5 minutos até a parada Újezd e peguem o Bonde 22 descendo até o centro. Em 8 minutos, vocês estão de volta à Malostranské náměstí ou Národní třída.
 
