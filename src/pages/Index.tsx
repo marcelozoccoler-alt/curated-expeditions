@@ -18,9 +18,10 @@ import { WhatsAppSubscribeForm } from "@/components/WhatsAppSubscribeForm";
 import { DestinationCard } from "@/components/DestinationCard";
 import { StayCard } from "@/components/StayCard";
 import { RegionsWeWork } from "@/components/RegionsWeWork";
+import { TrustBadges } from "@/components/TrustBadges";
 import { SEO } from "@/components/SEO";
 import { TAGS } from "@/lib/types";
-import { getFeaturedDestinations } from "@/lib/destinations";
+import { destinations, getFeaturedDestinations } from "@/lib/destinations";
 import { getFeaturedStays } from "@/lib/stays";
 import { diaryPosts } from "@/lib/diaryPosts";
 import { getDiaryCover } from "@/lib/diaryImages";
@@ -42,8 +43,8 @@ const Index = () => {
   return (
     <div className="min-h-screen">
       <SEO
-        title="Create Travel — Roteiros Sob Medida e Grupos"
-        description="Agência boutique brasileira (Cadastur): roteiros 100% autorais para África, Ásia, Europa e Brasil, grupos 2026/2027 com guia e suporte 24/7. Fale com um travel designer."
+        title="Viagens Sob Medida e Grupos com Guia Brasileiro"
+        description={`Agência boutique com 11 anos de curadoria autoral: roteiros sob medida e ${DEPARTURES.length} saídas em grupo com guia brasileiro. África, Europa, Ásia, Oriente Médio e ${destinations.length} destinos.`}
         canonicalPath="/"
         keywords="agência de viagens personalizada, roteiro sob medida, viagem sob medida, grupo com guia brasileiro, agência boutique São Paulo, travel designer, curadoria de viagens"
       />
@@ -78,7 +79,7 @@ const Index = () => {
           >
             <div className="gold-line mx-auto mb-8" />
             <h1 className="heading-hero text-white mb-6">
-              Agência de Viagens Personalizadas e Grupos
+              Viagens Sob Medida e Grupos com Guia Brasileiro
             </h1>
             <p className="text-xl md:text-2xl text-white/90 mb-4 max-w-2xl mx-auto font-light">
               Roteiros sob medida com curadoria autoral. Experiências autênticas, exclusivas e com propósito — para quem busca profundidade.
@@ -114,6 +115,12 @@ const Index = () => {
           </div>
         </motion.div>
       </section>
+
+      {/* Números e confiança */}
+      <TrustBadges
+        destinationsCount={destinations.length}
+        departuresCount={DEPARTURES.length}
+      />
 
       {/* Spotlight: Egito Eterno · Abril 2027 */}
       <section className="section-padding bg-background">

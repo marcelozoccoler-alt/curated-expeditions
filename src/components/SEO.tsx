@@ -134,6 +134,10 @@ export const SEO = ({
       {next && <link rel="next" href={next} />}
 
       {/* Open Graph */}
+      <meta property="og:site_name" content="Create Travel" />
+      <meta property="og:locale" content={inLanguage.replace("-", "_")} />
+      <meta property="og:locale:alternate" content="en_US" />
+      <meta property="og:locale:alternate" content="es_ES" />
       <meta property="og:title" content={safeTitle} />
       <meta property="og:description" content={safeDescription} />
       <meta property="og:url" content={canonical} />
