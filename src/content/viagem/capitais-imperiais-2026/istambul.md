@@ -755,7 +755,7 @@ Saboreiem cada mordida do último kahvaltı. O queijo branco, as azeitonas, o me
 
 Últimas horas em Istambul. Sugestões para uma despedida memorável:
 
-Subir a Torre de Galata (construída em 1348, 67 metros de altura): a vista de 360 graus do topo abrange o Bósforo, o Corno de Ouro, Sultanahmet e a Ásia. Ingresso: 175 TRY (€4,80 / R$ 26). Cheguem cedo para evitar fila. [Ver no Google Maps](https://www.google.com/maps/search/?api=1&query=Galata+Tower)
+Subir a Torre de Galata (construída em 1348, 67 metros de altura): a vista de 360 graus do topo abrange o Bósforo, o Corno de Ouro, Sultanahmet e a Ásia. Ingresso: €30 (cerca de R$ 180). Cheguem cedo para evitar fila. [Ver no Google Maps](https://www.google.com/maps/search/?api=1&query=Galata+Tower)
 
 Caminhar pela orla de Karaköy, sentar-se num banco e ver os ferrys cruzar o Bósforo.
 
