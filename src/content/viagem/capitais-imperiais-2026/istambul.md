@@ -25,7 +25,7 @@ Em 1204, Constantinopla sofreu o mais cruel dos golpes — não de muçulmanos, 
 
 Em 29 de maio de 1453, após 53 dias de cerco, o sultão otomano Mehmed II, com apenas 21 anos, conquistou Constantinopla. Diz a lenda que ele entrou em Hagia Sophia a cavalo, derramou um punhado de terra sobre o turbante em sinal de humildade e transformou a catedral em mesquita. Constantinopla tornou-se Istambul — do grego eis tin polin ("para a cidade") — a capital do Império Otomano.
 
-Durante os 469 anos seguintes (1453–1922), Istambul foi o coração de um império que se estendia do norte da África ao leste da Europa, do Oriente Médio ao Cáucaso. Os sultões otomanos, especialmente Solimão, o Magnífico (1520–1566), embelezaram a cidade com mesquitas monumentais — Süleymaniye, Şehzade, Mihrimah Sultan — projetadas pelo gênio arquitetônico Mimar Sinan, filho de pedreiros cristãos que se tornou o maior arquiteto otomano.
+Durante os 469 anos seguintes (1453–1922), Istambul foi o coração de um império que se estendia do norte da África ao leste da Europa, do Oriente Médio ao Cáucaso. Os sultões otomanos, especialmente Solimão, o Magnífico (1520–1566), embelezaram a cidade com mesquitas monumentais — Süleymaniye (pronuncia-se "suleimanié"), Şehzade, Mihrimah Sultan — projetadas pelo gênio arquitetônico Mimar Sinan, filho de pedreiros cristãos que se tornou o maior arquiteto otomano.
 
 ### O DECLÍNIO E A REPÚBLICA
 
@@ -177,7 +177,7 @@ Cinco vezes ao dia, os alto-falantes dos minaretes de Istambul entoam o ezan —
 
 ### 9. O TÜNEL — O SEGUNDO METRÔ MAIS ANTIGO DO MUNDO
 
-Inaugurado em 1875, o Tünel é o segundo metrô mais antigo do mundo, depois de Londres (1863). Tem apenas 573 metros de extensão e sobe de Karaköy (à beira do Bósforo) até Beyoğlu (a Rua İstiklal) em 90 segundos. Foi construído para poupar os comerciantes da íngreme ladeira entre os dois bairros.
+Inaugurado em 1875, o Tünel é o segundo metrô mais antigo do mundo, depois de Londres (1863). Tem apenas 573 metros de extensão e sobe de Karaköy (pronuncia-se "caracói", à beira do Bósforo) até Beyoğlu (pronuncia-se "beiôlu"; a Rua İstiklal) em 90 segundos. Foi construído para poupar os comerciantes da íngreme ladeira entre os dois bairros.
 
 ### 10. O GRANDE INCÊNDIO DE PERA
 
@@ -223,7 +223,7 @@ Vantagens estratégicas:
 ### TRANSPORTE
 
 - Bonde T1: linha moderna, confortável, conecta Karaköy a Sultanahmet em 10 minutos. A estação de Karaköy fica a 5 minutos do hotel. Bilhete: 42 TL (cerca de R$ 4,50) por embarque com İstanbulkart
-- Ferry público: a maneira mais autêntica e prazerosa de se locomover. Bancos de madeira, vendedores de çay, gaivotas. Karaköy → Kadıköy (Ásia): 20 minutos, cerca de 59 TL (cerca de R$ 6,30) com İstanbulkart
+- Ferry público: a maneira mais autêntica e prazerosa de se locomover. Bancos de madeira, vendedores de çay, gaivotas. Karaköy → Kadıköy (pronuncia-se "cadicói", já do lado asiático): 20 minutos, cerca de 59 TL (cerca de R$ 6,30) com İstanbulkart
 - Tünel: funicular subterrâneo de 1875, o segundo metrô mais antigo do mundo. Sobe de Karaköy a Beyoğlu em cerca de 90 segundos. Mesma tarifa do bonde: 42 TL (cerca de R$ 4,50) com İstanbulkart
 - Táxi / Uber: abundantes e baratos para padrões europeus. Trajeto médio: 150–300 TL (cerca de R$ 16,50–33,00)
 - İstanbulkart: essencial. Cartão de transporte público recarregável, válido em bondes, metrô, ferrys, ônibus e Tünel. Comprem na primeira estação de bonde ou ferry. Custo do cartão vazio: cerca de 165 a 200 TL (cerca de R$ 18 a R$ 21) — o valor é reajustado com frequência. Recarga nas máquinas amarelas
@@ -263,9 +263,9 @@ Vantagens estratégicas:
 
 ### DADOS DO DIA
 
-Voo TK 1772: 12/10 PRG 15:20 para 12/10 IST 19:05, 2h45 de voo.
+Voo: o voo da Turkish Airlines número mil setecentos e setenta e dois (TK 1772), saindo de Praga às 15:20 do dia 12/10 e chegando a Istambul às 19:05 do mesmo dia, 2h45 de voo.
 
-Chegada: 19:05 — Istanbul Airport (IST).
+Chegada: 19:05 — Aeroporto de Istambul (IST).
 
 Hotel: Galata Times Hotel, Beyoğlu.
 
@@ -287,11 +287,11 @@ Fuso: GMT+3, seis horas à frente de Brasília.
 
 Jantar leve: casual confortável. Casaco leve ou jaqueta — a noite de outubro em Istambul é amena, mas o vento do Bósforo pode refrescar.
 
-### 19:05 — POUSO NO AEROPORTO DE ISTAMBUL (IST)
+### 19:05 — POUSO NO AEROPORTO DE ISTAMBUL
 
 O avião da Turkish Airlines baixa sobre Istambul. Pela janela, o Bósforo é uma fita escura cravejada de luzes — os ferrys, os navios, as pontes iluminadas. As mesquitas pontuam a paisagem com seus minaretes como agulhas de luz. Dois continentes. Uma cidade. Vocês pousaram na Europa, mas a Ásia está ali ao lado, a apenas 700 metros de água.
 
-O Istanbul Airport (IST) é um dos maiores e mais modernos do mundo, inaugurado em 2018. Preparem-se para uma caminhada razoável dentro do terminal — o aeroporto é imenso.
+O Aeroporto de Istambul (IST) é um dos maiores e mais modernos do mundo, inaugurado em 2018. Preparem-se para uma caminhada razoável dentro do terminal — o aeroporto é imenso.
 
 Personagem: o aeroporto leva o nome do fundador da Turquia moderna, Mustafa Kemal Atatürk. Seu rosto está em toda parte — nas notas de lira, nos retratos dos hotéis, nas estátuas das praças. Ele é o pai da Istambul que vocês vão conhecer.
 
@@ -384,7 +384,7 @@ Na Turquia, o café da manhã é um ritual — demorado, farto, compartilhado. A
 
 Caminhada de 5 minutos até a estação Karaköy do bonde T1. O bonde é moderno, com ar-condicionado. Dez minutos depois, vocês descem na parada Sultanahmet — e o coração do Império Bizantino e Otomano se abre diante de vocês.
 
-A Praça de Sultanahmet é um parque ajardinado entre duas joias da humanidade: a Mesquita Azul de um lado e a Hagia Sophia do outro. Entre elas, a Fonte Alemã (presente do Kaiser Guilherme II ao sultão Abdul Hamid II, em 1901) e o Hipódromo de Constantinopla, onde corridas de bigas empolgavam 100.000 espectadores.
+A Praça de Sultanahmet (pronuncia-se "sultanamét") é um parque ajardinado entre duas joias da humanidade: a Mesquita Azul de um lado e a Hagia Sophia do outro. Entre elas, a Fonte Alemã (presente do Kaiser Guilherme II ao sultão Abdul Hamid II, em 1901) e o Hipódromo de Constantinopla, onde corridas de bigas empolgavam 100.000 espectadores.
 
 ### 09:15 — MESQUITA AZUL (SULTAN AHMED CAMII)
 
@@ -708,7 +708,7 @@ Espaço reservado para as fotos e vídeos de DIA 12 — QUARTA-FEIRA, 14 DE OUTU
 
 Check-out: até 12:00 (malas guardadas na recepção).
 
-Voo TK 215: 15/10 IST 20:15 para 16/10 GRU 03:30, Airbus A350-900, 13h15 de voo.
+Voo: o voo da Turkish Airlines número duzentos e quinze (TK 215), saindo de Istambul às 20:15 do dia 15/10 e chegando a Guarulhos, em São Paulo (GRU), às 03:30 do dia 16/10, num Airbus A350-900, 13h15 de voo.
 
 Temperatura: 12°C a 19°C.
 
@@ -725,7 +725,7 @@ Atividades: manhã livre, almoço tranquilo, traslado ao aeroporto no fim da tar
 - 16:00 — Traslado privativo para o aeroporto (IST)
 - 16:50 — Chegada ao Aeroporto de Istambul
 - 17:00 — Check-in, controle de passaporte, segurança
-- 20:15 — Decolagem TK 215
+- 20:15 — Decolagem do voo para Guarulhos
 
 ### 08:00 — ÚLTIMO CAFÉ DA MANHÃ EM ISTAMBUL
 
@@ -775,7 +775,7 @@ Durante o trajeto, vocês verão pela última vez os minaretes de Istambul, as �
 
 ### 16:50 — CHEGADA AO AEROPORTO DE ISTAMBUL
 
-O Istanbul Airport (IST) é imenso. Preparem-se para uma caminhada razoável dentro do terminal. O voo TK 215 parte às 20:15 — mais de 3 horas de folga.
+O Aeroporto de Istambul é imenso. Preparem-se para uma caminhada razoável dentro do terminal. O voo para Guarulhos parte às 20:15 — mais de 3 horas de folga.
 
 ### 20:15 — DECOLAGEM TK 215
 
