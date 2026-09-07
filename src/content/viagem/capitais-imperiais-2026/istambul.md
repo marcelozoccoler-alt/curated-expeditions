@@ -222,11 +222,11 @@ Vantagens estratégicas:
 
 ### TRANSPORTE
 
-- Bonde T1: linha moderna, confortável, conecta Karaköy a Sultanahmet em 10 minutos. A estação de Karaköy fica a 5 minutos do hotel. Bilhete: 42 TL (cerca de €1,15) com İstanbulkart
-- Ferry público: a maneira mais autêntica e prazerosa de se locomover. Bancos de madeira, vendedores de çay, gaivotas. Karaköy → Kadıköy (Ásia): 20 minutos, 57 TL (€1,55)
+- Bonde T1: linha moderna, confortável, conecta Karaköy a Sultanahmet em 10 minutos. A estação de Karaköy fica a 5 minutos do hotel. Bilhete: 42 TL (cerca de R$ 4,60) com İstanbulkart
+- Ferry público: a maneira mais autêntica e prazerosa de se locomover. Bancos de madeira, vendedores de çay, gaivotas. Karaköy → Kadıköy (Ásia): 20 minutos, 57 TL (cerca de R$ 6,30)
 - Tünel: funicular subterrâneo de 1875, o segundo metrô mais antigo do mundo. Sobe de Karaköy a Beyoğlu em 90 segundos
-- Táxi / Uber: abundantes e baratos para padrões europeus. Trajeto médio: 150–300 TL (€4–8)
-- İstanbulkart: essencial. Cartão de transporte público recarregável, válido em bondes, metrô, ferrys, ônibus e Tünel. Comprem na primeira estação de bonde ou ferry. Custo do cartão: 130 TL. Recarga nas máquinas amarelas
+- Táxi / Uber: abundantes e baratos para padrões europeus. Trajeto médio: 150–300 TL (cerca de R$ 16,50–33,00)
+- İstanbulkart: essencial. Cartão de transporte público recarregável, válido em bondes, metrô, ferrys, ônibus e Tünel. Comprem na primeira estação de bonde ou ferry. Custo do cartão: 130 TL (cerca de R$ 14,30). Recarga nas máquinas amarelas
 - Caminhadas: Sultanahmet é plano e compacto — todas as atrações principais ficam a 5–10 minutos umas das outras. Galata tem algumas ladeiras
 
 ### RITMO IDEAL
@@ -317,11 +317,9 @@ Sugestões próximas ao hotel (5–10 minutos a pé):
 
 **Karaköy Lokantası** (Kemankeş Cad. 37/A) — [Ver no Google Maps](https://www.google.com/maps/search/?api=1&query=Karaköy+Lokantası)
 
-Uma lokanta turca moderna — o equivalente a um bistrô elegante. Pratos turcos tradicionais preparados com técnica impecável. Mezes frios e quentes, peixes do Bósforo, cordeiro. Ambiente de azulejos azuis e brancos. €12–20 por pessoa.
+Uma lokanta turca moderna — o equivalente a um bistrô elegante. Pratos turcos tradicionais preparados com técnica impecável. Mezes frios e quentes, peixes do Bósforo, cordeiro. Ambiente de azulejos azuis e brancos. €12–20 por pessoa (cerca de R$ 72–120).
 
-**Güney** (Galata Kulesi Sok. 8) — [Ver no Google Maps](https://www.google.com/maps/search/?api=1&query=Güney+Galata+Kulesi)
-
-Restaurante familiar simples e autêntico aos pés da Torre de Galata. Comida turca caseira, sem pretensões. Kebab, pide (a "pizza turca"), mezes. €8–14.
+Restaurante familiar simples e autêntico aos pés da Torre de Galata. Comida turca caseira, sem pretensões. Kebab, pide (a "pizza turca"), mezes. €8–14 (cerca de R$ 48–84).
 
 **Simplesmente um çay e um simit:** se o cansaço da viagem falar mais alto, sentem-se em qualquer café de rua, peçam um çay (chá turco, servido naquelas tulipas de vidro) e um simit (o pão circular com gergelim, crocante por fora, macio por dentro). A primeira experiência turca não precisa ser grandiosa para ser inesquecível.
 
@@ -425,7 +423,7 @@ O que vocês verão:
 
 A partir de 15 de janeiro de 2024, a visita turística à Hagia Sophia mudou. O piso térreo é reservado exclusivamente para oração (acesso gratuito apenas para fiéis muçulmanos). Os visitantes internacionais acessam a galeria superior — e é lá que está a experiência mais impressionante.
 
-Na galeria superior (€25 por pessoa):
+Na galeria superior:
 
 - Os mosaicos bizantinos que sobreviveram séculos: a Deesis (Cristo Pantocrator ladeado pela Virgem Maria e São João Batista, século XIII) é considerada uma das obras-primas da arte bizantina mundial — as expressões faciais são de um realismo comovente
 - A vista da nave central do alto da galeria: a cúpula de 31 metros de diâmetro a 56 metros do chão, suspensa como um milagre da engenharia
@@ -433,14 +431,7 @@ Na galeria superior (€25 por pessoa):
 - O mosaico do Imperador Constantino IX e a Imperatriz Zoe (século XI), com os soberanos bizantinos oferecendo dádivas a Cristo
 - O áudio guia incluído no ingresso (23 idiomas) que explica cada detalhe
 
-Informações práticas atualizadas (2026):
-
-- Entrada: €25 por adulto. Crianças menores de 8 anos: grátis (necessário documento).
-- Museum Pass Istanbul NÃO é válido — ingresso separado obrigatório.
-- Compra antecipada online recomendada (site oficial: muze.gen.tr/muze-detay/ayasofya) — as filas podem chegar a 60–90 minutos no verão, 20–30 minutos em outubro.
-- Sextas-feiras: fechada para turistas entre 12:00 e 14:30 (oração de sexta-feira). Mas vocês estarão lá na terça-feira — sem problemas.
-- Horário: 09:00 às 19:30 (última entrada às 19:00).
-- Vestimenta: mulheres devem cobrir a cabeça com lenço (disponível na entrada). Homens e mulheres: pernas e ombros cobertos. Sapatos removidos na entrada da galeria.
+Vocês entram pela galeria superior, reservada aos visitantes internacionais. A visita é incluída no roteiro — não precisam se preocupar com ingresso, fila ou horário. Basta acompanhar o coordenador.
 
 Personagem: quando vocês olham para a cúpula, pensem em Isidoro de Mileto — o matemático que a projetou. Quando a cúpula original desabou em 558, apenas cinco anos após a inauguração, ele já havia morrido. Foi seu sobrinho, Isidoro, o Jovem, quem a reconstruiu, mais alta e mais ousada. A beleza, em Istambul, é sempre obra de muitas mãos e muitas gerações.
 
@@ -458,7 +449,7 @@ Três monumentos que sobreviveram:
 
 Lanche leve:
 
-Como à tarde vocês terão o evento, nada de almoço pesado. Sentem-se num banco do parque ou num café com vista para a Mesquita Azul e peçam um lanche rápido: um simit (o pão com gergelim), um börek (folhado de queijo ou espinafre), um ayran (iogurte salgado) ou um çay. O çay turco custa de 10 a 20 TRY (€0,30–0,55 / R$ 1,65–3,30).
+Como à tarde vocês terão o evento, nada de almoço pesado. Sentem-se num banco do parque ou num café com vista para a Mesquita Azul e peçam um lanche rápido: um simit (o pão com gergelim), um börek (folhado de queijo ou espinafre), um ayran (iogurte salgado) ou um çay. O çay turco custa de 10 a 20 TRY (cerca de R$ 1,10–2,20).
 
 Observem a vida passar: turistas, fiéis, vendedores de simit, gatos. É a pausa perfeita antes do Gran Bazar.
 
@@ -478,14 +469,14 @@ Perder-se aqui não é um acidente — é o objetivo. Cada viela revela algo nov
 
 O que comprar no Gran Bazar:
 
-- Especiarias: açafrão turco, sumac (ácido e cítrico), pul biber (pimenta síria), chá de maçã. 20–100 TRY
-- Lokum (delícia turca): Loja Hacı Bekir (desde 1777): a receita original. Com pistache, água de rosas, romã. 50–150 TRY/kg
-- Cerâmica de Iznik: pratos, azulejos e tigelas pintados à mão com tulipas e arabescos. 50–500 TRY
-- Lâmpadas de mosaico: vidro colorido e latão, artesanais. Funcionam com lâmpada LED. 100–500 TRY
-- Joias de prata com olho turco (nazar): o nazar boncuk — amuleto azul contra mau-olhado. 20–200 TRY
-- Tapetes e kilims: feitos à mão na Anatólia. Os vendedores desenrolam tapete após tapete com chá oferecido. 1.000–20.000+ TRY
-- Lenços de seda e pashminas: cores vibrantes, tecidos leves. 50–200 TRY
-- Café turco: torrado e moído finíssimo. Comprar com cezve (a panela de cobre) é um bônus. 30–100 TRY
+- Especiarias: açafrão turco, sumac (ácido e cítrico), pul biber (pimenta síria), chá de maçã. 20–100 TRY (cerca de R$ 2,20–11,00)
+- Lokum (delícia turca): Loja Hacı Bekir (desde 1777): a receita original. Com pistache, água de rosas, romã. 50–150 TRY/kg (cerca de R$ 5,50–16,50)
+- Cerâmica de Iznik: pratos, azulejos e tigelas pintados à mão com tulipas e arabescos. 50–500 TRY (cerca de R$ 5,50–55,00)
+- Lâmpadas de mosaico: vidro colorido e latão, artesanais. Funcionam com lâmpada LED. 100–500 TRY (cerca de R$ 11,00–55,00)
+- Joias de prata com olho turco (nazar): o nazar boncuk — amuleto azul contra mau-olhado. 20–200 TRY (cerca de R$ 2,20–22,00)
+- Tapetes e kilims: feitos à mão na Anatólia. Os vendedores desenrolam tapete após tapete com chá oferecido. 1.000–20.000+ TRY (cerca de R$ 110–2.200+)
+- Lenços de seda e pashminas: cores vibrantes, tecidos leves. 50–200 TRY (cerca de R$ 5,50–22,00)
+- Café turco: torrado e moído finíssimo. Comprar com cezve (a panela de cobre) é um bônus. 30–100 TRY (cerca de R$ 3,30–11,00)
 
 A arte de pechinchar:
 
@@ -581,7 +572,7 @@ O terraço do Galata Times ainda está em silêncio quando vocês descem para o 
 
 A Mesquita de Chora fica longe de tudo — escondida nas muralhas antigas, no alto de uma colina onde o transporte público não chega com facilidade. Para o grupo, a escolha sensata é pedir táxis na recepção.
 
-Tempo: 15 a 25 min. Custo: 200 a 300 TRY por carro.
+Tempo: 15 a 25 min. Custo: 200 a 300 TRY por carro (cerca de R$ 22–33).
 
 O carro sobe por ruas cada vez mais estreitas, deixa para trás o barulho de Beyoğlu, e de repente vocês estão em Edirnekapı — um bairro residencial, silencioso, onde quase não há turistas. A mesquita aparece na esquina, discreta, quase tímida. Não anuncia sua grandeza por fora. É preciso entrar para entender.
 
@@ -609,7 +600,7 @@ A mesquita fecha 30 minutos antes das orações. Indo de manhã cedo, vocês tê
 
 Saem da mesquita e pegam táxis de novo. Pedem para o motorista deixar vocês na Kiremit Caddesi, no alto de Balat. Dez minutos de descida suave de carro, e vocês chegam no topo do bairro mais colorido de Istambul.
 
-Tempo: 10 min. Custo: 100 a 150 TRY por carro.
+Tempo: 10 min. Custo: 100 a 150 TRY por carro (cerca de R$ 11–16,50).
 
 ### 11:00 — AS RUAS COLORIDAS E O FUSCA ROSA
 
@@ -639,7 +630,7 @@ Chegam na parte baixa, onde o bairro encontra a água. O calçadão do Corno de 
 
 Escolhem um restaurante com mesa na calçada — pode ser um balık ekmek (sanduíche de peixe) numa banca do cais, ou um restaurante de frutos do mar com vista para a água. Pedem peixe grelhado, salada, pão fresco, mais um çay.
 
-Preço: 300 a 500 TRY por pessoa.
+Preço: 300 a 500 TRY por pessoa (cerca de R$ 33–55).
 
 Comem devagar. Olham os barcos passando, as gaivotas planando, a silhueta da cidade do outro lado do chifre de ouro. É um daqueles almoços que não são só sobre comida — são sobre estar ali.
 
@@ -651,7 +642,7 @@ Duas opções para voltar:
 
 **Opção B — Táxi (a mais rápida):** [Ver no Google Maps](https://www.google.com/maps/search/?api=1&query=Balat+to+Galata)
 
-Táxis, 20 a 25 min, 200 a 250 TRY por carro.
+Táxis, 20 a 25 min, 200 a 250 TRY por carro (cerca de R$ 22–27,50).
 
 ### 15:00 — DESCANSO NO HOTEL
 
@@ -661,7 +652,7 @@ Chegada de volta por volta das 15h. Banho, descanso, tarde livre. Se quiserem, u
 
 [Ver no Google Maps](https://www.google.com/maps/search/?api=1&query=Kabataş+Istanbul)
 
-Opção 1 — A pé (recomendado): cerca de 15 a 20 minutos descendo pela Istiklal até Kabataş, depois seguindo pelo calçadão à beira-mar. É um passeio plano e bonito. Opção 2 — Funicular + caminhada: pegar o funicular Tünel de Beyoğlu até Karaköy (1 minuto), depois caminhar 10 minutos pela orla. Opção 3 — Táxi/Uber: 5 a 10 minutos, custo de 80 a 120 TRY. Pedir para deixar em Kabataş.
+Opção 1 — A pé (recomendado): cerca de 15 a 20 minutos descendo pela Istiklal até Kabataş, depois seguindo pelo calçadão à beira-mar. É um passeio plano e bonito. Opção 2 — Funicular + caminhada: pegar o funicular Tünel de Beyoğlu até Karaköy (1 minuto), depois caminhar 10 minutos pela orla. Opção 3 — Táxi/Uber: 5 a 10 minutos, custo de 80 a 120 TRY (cerca de R$ 8,80–13,20). Pedir para deixar em Kabataş.
 
 ### 20:15 — CHEGADA AO CAIS DE EMBARQUE
 
@@ -715,7 +706,7 @@ O jantar é servido. A música começa — primeiro suave, com ney e saz, depois
 
 ### 23:45 — RETORNO AO HOTEL
 
-Táxi: 10 minutos, cerca de 80–120 TRY. Ou caminhada de 20 minutos pela Istiklal iluminada.
+Táxi: 10 minutos, cerca de 80–120 TRY (cerca de R$ 8,80–13,20). Ou caminhada de 20 minutos pela Istiklal iluminada.
 
 Resumo do dia 12:
 
@@ -762,7 +753,7 @@ Saboreiem cada mordida do último kahvaltı. O queijo branco, as azeitonas, o me
 
 Últimas horas em Istambul. Sugestões para uma despedida memorável:
 
-Subir a Torre de Galata (construída em 1348, 67 metros de altura): a vista de 360 graus do topo abrange o Bósforo, o Corno de Ouro, Sultanahmet e a Ásia. Ingresso: 175 TRY (€4,80 / R$ 26). Cheguem cedo para evitar fila. [Ver no Google Maps](https://www.google.com/maps/search/?api=1&query=Galata+Tower)
+Subir a Torre de Galata (construída em 1348, 67 metros de altura): a vista de 360 graus do topo abrange o Bósforo, o Corno de Ouro, Sultanahmet e a Ásia. Ingresso: €30 (cerca de R$ 180). Cheguem cedo para evitar fila. [Ver no Google Maps](https://www.google.com/maps/search/?api=1&query=Galata+Tower)
 
 Caminhar pela orla de Karaköy, sentar-se num banco e ver os ferrys cruzar o Bósforo.
 
@@ -780,9 +771,9 @@ Check-out formal ao meio-dia. As malas ficam guardadas na recepção enquanto vo
 
 Sugestão: Fiyort Karaköy — [Ver no Google Maps](https://www.google.com/maps/search/?api=1&query=Fiyort+Karaköy)
 
-Cozinha turca contemporânea com vista para o Bósforo. Peixes frescos, mezes modernos, ambiente elegante. Preço: €15–25 por pessoa.
+Cozinha turca contemporânea com vista para o Bósforo. Peixes frescos, mezes modernos, ambiente elegante. Preço: €15–25 por pessoa (cerca de R$ 90–150).
 
-Alternativa: Güney (Galata Kulesi Sok. 8) — restaurante familiar aos pés da Torre de Galata. €8–14.
+Alternativa: Güney (Galata Kulesi Sok. 8) — restaurante familiar aos pés da Torre de Galata. €8–14 (cerca de R$ 48–84).
 
 ### 14:30 — RETORNO AO HOTEL, RETIRADA DAS MALAS
 
@@ -844,14 +835,10 @@ Espaço reservado para as fotos e vídeos de DIA 13 — QUINTA-FEIRA, 15 DE OUTU
 
 ## DICAS FINAIS PARA ISTAMBUL
 
-- Comprem a İstanbulkart no primeiro dia — ela abre toda a cidade: bonde, ferry, metrô, Tünel. Custo do cartão: 130 TRY. Recarregável
-- Reservem Hagia Sophia online com antecedência — muze.gen.tr/muze-detay/ayasofya. As filas podem ser longas
-- Reservem Chora (Kariye Camii) online — muze.gen.tr/muze-detay/kariye. Fechada às sextas-feiras; vocês vão na quarta — perfeito
-- Reservem o espetáculo folclórico com antecedência — lugar limitado
 - Levem dinheiro vivo (TRY) — pequenas compras, çay, simit, barracas de rua
 - Vistam-se com respeito nas mesquitas — lenço para mulheres (disponível na entrada), ombros e joelhos cobertos para ambos
 - Pechinchar no Gran Bazar é esperado e divertido — comecem com 40–50% do preço pedido
-- Provem o çay turco — servido em tulipas de vidro, forte e reconfortante. Custa de 10 a 20 TRY
+- Provem o çay turco — servido em tulipas de vidro, forte e reconfortante. Custa de 10 a 20 TRY (cerca de R$ 1,10–2,20)
 - Provem o rakı no jantar de encerramento — com água e gelo, acompanhado de mezes. É o ritual turco por excelência
 - Os gatos são sagrados — não se assustem com gatos em mesquitas, restaurantes, cafés. Eles fazem parte da alma de Istambul
 - O ferry para Kadıköy é transporte público, não passeio turístico — e é exatamente por isso que é inesquecível
