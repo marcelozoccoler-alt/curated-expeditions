@@ -40,6 +40,7 @@ export const BotaoOuvir = ({
   const ativo = trechoAtivo === id;
   const carregando = ativo && status === "loading";
   const tocando = ativo && status === "playing";
+  const pausado = ativo && status === "paused";
 
   return (
     <button
@@ -48,7 +49,13 @@ export const BotaoOuvir = ({
         e.stopPropagation();
         narrar(id, texto);
       }}
-      aria-label={tocando || carregando ? "Parar narração" : `${label} — narração em voz alta`}
+      aria-label={
+        pausado
+          ? "Retomar narração"
+          : tocando || carregando
+            ? "Parar narração"
+            : `${label} — narração em voz alta`
+      }
       className={`print:hidden inline-flex items-center gap-1.5 rounded-full border px-3 py-1 text-xs font-medium transition-colors ${
         ativo
           ? "border-gold bg-gold text-primary-foreground"
@@ -62,7 +69,7 @@ export const BotaoOuvir = ({
       ) : (
         <Headphones size={13} />
       )}
-      {carregando ? "Preparando" : tocando ? "Pausar" : label}
+      {carregando ? "Preparando" : tocando ? "Pausar" : pausado ? "Retomar" : label}
     </button>
   );
 };
@@ -80,7 +87,8 @@ export const TextoNarravel = ({
   className?: string;
 }) => {
   const { narrar, status, trechoAtivo } = useNarracaoRoteiro();
-  const ativo = trechoAtivo === id && (status === "playing" || status === "loading");
+  const ativo =
+    trechoAtivo === id && (status === "playing" || status === "loading" || status === "paused");
 
   return (
     <div
@@ -117,7 +125,7 @@ export const NarracaoAviso = ({
   textoCompleto?: string;
 }) => {
   const { voz, status, parar, erro } = useNarracaoRoteiro();
-  const tocando = status === "playing" || status === "loading";
+  const tocando = status === "playing" || status === "loading" || status === "paused";
 
   return (
     <div className="print:hidden mt-6 rounded-2xl border border-gold/30 bg-gold/[0.06] p-4 sm:p-5">

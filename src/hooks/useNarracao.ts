@@ -6,7 +6,7 @@ const ENDPOINT = `${import.meta.env.VITE_SUPABASE_URL}/functions/v1/narrar-rotei
 const SILENCIO =
   "data:audio/wav;base64,UklGRiQAAABXQVZFZm10IBAAAAABAAEARKwAAIhYAQACABAAZGF0YQAAAAA=";
 
-type Status = "idle" | "loading" | "playing" | "error";
+type Status = "idle" | "loading" | "playing" | "paused" | "error";
 
 /** Cache em memória: mesmo trecho não pede o link duas vezes na mesma sessão. */
 const urlsEmCache = new Map<string, string>();
@@ -35,6 +35,20 @@ export const useNarracao = (voz: VozNarracao) => {
   const abortRef = useRef<AbortController | null>(null);
   const runIdRef = useRef(0);
   const destravadoRef = useRef(false);
+
+  const retomar = useCallback(async () => {
+    const audio = audioRef.current;
+    if (!audio || audio.ended || !audio.src) return;
+    prepararSessaoIOS();
+    setErro(null);
+    try {
+      await audio.play();
+      setStatus("playing");
+    } catch {
+      setStatus("paused");
+      setErro("A narração foi pausada pelo celular. Toque em Retomar para continuar.");
+    }
+  }, []);
 
   const limpar = useCallback(() => {
     abortRef.current?.abort();
@@ -68,8 +82,27 @@ export const useNarracao = (voz: VozNarracao) => {
     [limpar]
   );
 
+  useEffect(() => {
+    if (status !== "paused") return;
+    const tentarRetomar = () => {
+      if (document.visibilityState === "visible") void retomar();
+    };
+    document.addEventListener("visibilitychange", tentarRetomar);
+    window.addEventListener("pageshow", tentarRetomar);
+    window.addEventListener("online", tentarRetomar);
+    return () => {
+      document.removeEventListener("visibilitychange", tentarRetomar);
+      window.removeEventListener("pageshow", tentarRetomar);
+      window.removeEventListener("online", tentarRetomar);
+    };
+  }, [retomar, status]);
+
   const narrar = useCallback(
     async (id: string, texto: string) => {
+      if (trechoAtivo === id && status === "paused") {
+        await retomar();
+        return;
+      }
       if (trechoAtivo === id && (status === "playing" || status === "loading")) {
         parar();
         return;
@@ -149,9 +182,11 @@ export const useNarracao = (voz: VozNarracao) => {
                 ultimoTempo = audio.currentTime;
                 paradoDesde = Date.now();
               } else if (audio.paused) {
-                void audio.play().catch(() => {});
+                setStatus("paused");
+                void audio.play().then(() => setStatus("playing")).catch(() => {});
+                paradoDesde = Date.now();
               }
-              if (Date.now() - paradoDesde > 12000) {
+              if (!audio.paused && Date.now() - paradoDesde > 20000) {
                 encerrar();
                 reject(new Error("Áudio travou."));
                 return;
@@ -169,9 +204,10 @@ export const useNarracao = (voz: VozNarracao) => {
             reject(new Error("Não foi possível tocar o áudio."));
           };
           audio.onpause = () => {
-            // Pausa que não veio de nós: retoma sozinho.
+            // Pausa imposta pelo navegador: tenta retomar e mantém um botão de recuperação.
             if (run === runIdRef.current && !audio.ended && audio.currentTime > 0) {
-              void audio.play().catch(() => {});
+              setStatus("paused");
+              void audio.play().then(() => setStatus("playing")).catch(() => {});
             }
           };
           audio.src = url;
@@ -218,8 +254,8 @@ export const useNarracao = (voz: VozNarracao) => {
         setTrechoAtivo(null);
       }
     },
-    [limpar, parar, status, trechoAtivo, voz]
+    [limpar, parar, retomar, status, trechoAtivo, voz]
   );
 
-  return { narrar, parar, status, trechoAtivo, erro };
+  return { narrar, parar, retomar, status, trechoAtivo, erro };
 };

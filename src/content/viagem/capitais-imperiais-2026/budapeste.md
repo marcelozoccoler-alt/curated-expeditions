@@ -450,7 +450,7 @@ A Mão Direita de Santo Estevão: no interior, em uma capela dourada atrás do a
 
 ### 10:00 — A BASÍLICA EM DOMINGO
 
-Domingo de manhã é quando a Basílica de Santo Estevão vive seu momento mais solene da semana. O que acontece lá dentro, preferimos não contar — é uma daquelas experiências que só fazem sentido ao vivo. Entrem, sentem-se e deixem a cúpula fazer o resto.
+Na manhã de domingo, a Basílica de Santo Estevão revela sua arquitetura com uma serenidade especial. Entrem devagar. Observem a luz atravessar os vitrais, o mármore sob os pés e os mosaicos dourados que conduzem o olhar até a cúpula de 96 metros. Sentem-se por alguns minutos e contemplem esse espaço que os húngaros ergueram como símbolo de fé e identidade nacional.
 
 ### 12:30 — ALMOÇO
 
