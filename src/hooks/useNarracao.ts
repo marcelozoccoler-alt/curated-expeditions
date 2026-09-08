@@ -34,6 +34,7 @@ export const useNarracao = (voz: VozNarracao) => {
   const audioRef = useRef<HTMLAudioElement | null>(null);
   const abortRef = useRef<AbortController | null>(null);
   const runIdRef = useRef(0);
+  const destravadoRef = useRef(false);
 
   const limpar = useCallback(() => {
     abortRef.current?.abort();
@@ -42,6 +43,8 @@ export const useNarracao = (voz: VozNarracao) => {
     if (el) {
       el.onended = null;
       el.onerror = null;
+      el.onpause = null;
+      el.ontimeupdate = null;
       try {
         el.pause();
       } catch {
@@ -87,15 +90,20 @@ export const useNarracao = (voz: VozNarracao) => {
         audioRef.current = el;
       }
       const audio = audioRef.current;
-      audio.src = SILENCIO;
-      void audio.play().catch(() => {});
+      if (!destravadoRef.current) {
+        audio.src = SILENCIO;
+        void audio.play().catch(() => {});
+        destravadoRef.current = true;
+      }
 
       const controller = new AbortController();
       abortRef.current = controller;
 
-      const buscarUrl = async (parte: string) => {
-        const cacheado = urlsEmCache.get(parte);
-        if (cacheado) return cacheado;
+      const buscarUrl = async (parte: string, ignorarCache = false) => {
+        if (!ignorarCache) {
+          const cacheado = urlsEmCache.get(parte);
+          if (cacheado) return cacheado;
+        }
         const res = await fetch(ENDPOINT, {
           method: "POST",
           headers: { "Content-Type": "application/json" },
@@ -115,29 +123,89 @@ export const useNarracao = (voz: VozNarracao) => {
         return dados.url as string;
       };
 
+      /**
+       * Toca um trecho até o fim. Se o navegador pausar sozinho (aba em segundo
+       * plano, celular bloqueado) tenta retomar; se travar sem avançar por 12s,
+       * falha para que o chamador tente o link de novo.
+       */
       const tocar = (url: string) =>
         new Promise<void>((resolve, reject) => {
-          audio.onended = () => resolve();
-          audio.onerror = () => reject(new Error("Não foi possível tocar o áudio."));
+          let vigia: ReturnType<typeof setTimeout>;
+          let ultimoTempo = -1;
+          let paradoDesde = Date.now();
+
+          const encerrar = () => {
+            clearTimeout(vigia);
+            audio.onended = null;
+            audio.onerror = null;
+            audio.onpause = null;
+            audio.ontimeupdate = null;
+          };
+
+          const vigiar = () => {
+            vigia = setTimeout(() => {
+              if (run !== runIdRef.current) return encerrar();
+              if (audio.currentTime > ultimoTempo + 0.05) {
+                ultimoTempo = audio.currentTime;
+                paradoDesde = Date.now();
+              } else if (audio.paused) {
+                void audio.play().catch(() => {});
+              }
+              if (Date.now() - paradoDesde > 12000) {
+                encerrar();
+                reject(new Error("Áudio travou."));
+                return;
+              }
+              vigiar();
+            }, 1500);
+          };
+
+          audio.onended = () => {
+            encerrar();
+            resolve();
+          };
+          audio.onerror = () => {
+            encerrar();
+            reject(new Error("Não foi possível tocar o áudio."));
+          };
+          audio.onpause = () => {
+            // Pausa que não veio de nós: retoma sozinho.
+            if (run === runIdRef.current && !audio.ended && audio.currentTime > 0) {
+              void audio.play().catch(() => {});
+            }
+          };
           audio.src = url;
           audio.playbackRate = 1;
+          vigiar();
           void audio
             .play()
             .then(() => {
               if (run === runIdRef.current) setStatus("playing");
             })
-            .catch((e) => reject(e));
+            .catch((e) => {
+              encerrar();
+              reject(e);
+            });
         });
 
       try {
         const partes = dividirParaNarracao(texto);
         for (let i = 0; i < partes.length; i++) {
           if (run !== runIdRef.current) return;
-          const url = await buscarUrl(partes[i]);
+          let url = await buscarUrl(partes[i]);
           if (run !== runIdRef.current) return;
           // Adianta o próximo trecho enquanto este toca.
           if (partes[i + 1]) void buscarUrl(partes[i + 1]).catch(() => {});
-          await tocar(url);
+          try {
+            await tocar(url);
+          } catch {
+            if (run !== runIdRef.current) return;
+            // Link pode ter expirado: pede outro e tenta uma vez mais.
+            urlsEmCache.delete(partes[i]);
+            url = await buscarUrl(partes[i], true);
+            if (run !== runIdRef.current) return;
+            await tocar(url);
+          }
           if (run !== runIdRef.current) return;
         }
         setStatus("idle");
