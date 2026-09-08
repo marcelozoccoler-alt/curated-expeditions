@@ -202,7 +202,7 @@ O bairro — Vinohrady:
 Vinohrady é o bairro mais elegante de Praga fora do centro turístico. O nome significa vinhedos — e no século XIV, Carlos IV mandou plantar videiras nestas colinas. Hoje, é um bairro de ruas arborizadas, prédios art nouveau, cafés tranquilos e parques. Aqui, vocês vivem a Praga dos praguenses, não a dos turistas.
 
 O hotel:
-- Quarto duplex — dois andares, espaço generoso, sensação de casa
+- Quartos amplos, com sensação de casa
 - Decoração com referências à flor de lis, símbolo histórico da Boêmia
 - Café da manhã incluso
 - Wi-Fi gratuito
@@ -305,7 +305,7 @@ O carro sobe pela Vinohradská třída — a avenida principal de Vinohrady. Set
 
 [Ver no Google Maps](https://www.google.com/maps/search/?api=1&query=Fleur%20De%20Lis%20Hotel%2C%20Prague)
 
-O lobby é pequeno e acolhedor. A flor de lis — símbolo da realeza boêmia desde o século XII — aparece nos detalhes: no brasão sobre a porta, no papel de parede, nas maçanetas. O quarto duplex tem dois andares: cama no mezanino, sala embaixo. Espaço de sobra para três.
+O lobby é pequeno e acolhedor. A flor de lis — símbolo da realeza boêmia desde o século XII — aparece nos detalhes: no brasão sobre a porta, no papel de parede, nas maçanetas. Os quartos são amplos e silenciosos, com espaço de sobra.
 
 ### 20:15 — BANHO, DESCANSO, TROCA DE ROUPA
 
@@ -672,7 +672,7 @@ Preço: €10-16 (cerca de R$ 60 a R$ 96)
 
 [Restaurante → Hotel](https://www.google.com/maps/dir/?api=1&origin=Caf%C3%A9%20Louvre%2C%20N%C3%A1rodn%C3%AD%2022%2C%20110%2000%20Nov%C3%A9%20M%C4%9Bsto&destination=55%2C%20130%2000%20Praha%203&waypoints=Fleur%20De%20Lis%20Hotel%2C%20Slezsk%C3%A1%20832&travelmode=walking)
 
-Bonde ou táxi de volta a Vinohrady. As ruas do bairro estão silenciosas e seguras. A cama do duplex espera.
+Bonde ou táxi de volta a Vinohrady. As ruas do bairro estão silenciosas e seguras. A cama espera.
 
 ---
 
@@ -994,7 +994,7 @@ O hotel guarda as malas na recepção sem custo. Vocês ainda têm a manhã livr
 
 ### 11:30 — RETORNO AO HOTEL, RETIRADA DAS MALAS
 
-Último olhar para o quarto duplex. A flor de lis na decoração. As ruas de Vinohrady lá fora.
+Último olhar para o quarto. A flor de lis na decoração. As ruas de Vinohrady lá fora.
 
 ### 12:00 — CHECK-OUT OFICIAL
 
