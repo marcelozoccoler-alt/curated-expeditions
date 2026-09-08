@@ -305,7 +305,7 @@ O carro sobe pela Vinohradská třída — a avenida principal de Vinohrady. Set
 
 [Ver no Google Maps](https://www.google.com/maps/search/?api=1&query=Fleur%20De%20Lis%20Hotel%2C%20Prague)
 
-O lobby é pequeno e acolhedor. A flor de lis — símbolo da realeza boêmia desde o século XII — aparece nos detalhes: no brasão sobre a porta, no papel de parede, nas maçanetas. O quarto duplex é uma surpresa: dois andares, cama no mezanino, sala embaixo. Espaço de sobra para três.
+O lobby é pequeno e acolhedor. A flor de lis — símbolo da realeza boêmia desde o século XII — aparece nos detalhes: no brasão sobre a porta, no papel de parede, nas maçanetas. O quarto duplex tem dois andares: cama no mezanino, sala embaixo. Espaço de sobra para três.
 
 ### 20:15 — BANHO, DESCANSO, TROCA DE ROUPA
 

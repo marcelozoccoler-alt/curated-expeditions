@@ -217,7 +217,7 @@ Temperatura: 7°C a 15°C
 
 17:45 - Peterskirche
 
-19:00 - Surpresa na Peterskirche
+19:00 - Peterskirche à noite
 
 19:45 - Jantar no Figlmüller
 
