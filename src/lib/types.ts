@@ -136,6 +136,10 @@ export interface Destination {
   stays: string[];
   faq: FAQ[];
   itineraries?: Itinerary[];
+  /** Título de busca próprio, quando o padrão genérico converte pouco. */
+  seoTitle?: string;
+  /** Primeira frase mostrada no Google, quando o padrão genérico converte pouco. */
+  seoDescription?: string;
 }
 
 
