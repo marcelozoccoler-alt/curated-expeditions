@@ -403,19 +403,19 @@ Noite no Bastião: sobretudo ou trench coat. A temperatura cai para 6 a 10°C. L
 
 13:45 — Ônibus 16 rumo a Buda
 
-14:00 às 16:30 — Castelo de Buda
+14:00 às 15:15 — Castelo de Buda (por fora)
 
-16:30 às 18:00 — Bastião dos Pescadores, luz do dia e pôr do sol
+15:15 às 16:15 — Igreja de Matias por dentro (visita turística)
 
-19:15 — Entrada na Igreja de Matias
+16:15 às 18:00 — Bastião dos Pescadores (luz do dia)
 
-19:30 às 20:30 — Igreja de Matias por dentro
+18:00 às 18:50 — (Opcional) Missa das 18h na Matias — se o grupo quiser vivenciar
 
-20:30 às 21:15 — Bastião iluminado, vista noturna
+18:50 às 20:00 — Bastião à noite + luzes do Parlamento
 
-21:30 — Jantar em Buda
+20:15 — Jantar em Buda
 
-22:30 — Retorno ao hotel
+21:30 — Retorno ao hotel
 
 ### 08:50 — A CAMINHADA ATÉ A BASÍLICA
 
