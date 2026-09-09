@@ -963,6 +963,120 @@ E no número sagrado: 96. A altura do Parlamento. A altura da Basílica. O ano e
 
 Budapeste é isso: uma cidade que toca o céu sem esquecer a terra.
 
+---
+
+## FALAS PARA OS VÍDEOS DA VIAGEM
+
+Frases curtas para gravar sobre cada lugar. Fale devagar, olhando na lente, e cale-se depois — o silêncio é que dá peso.
+
+### Abertura de Budapeste
+
+> Budapeste não se visita. Budapeste se atravessa.
+
+### Fala-âncora de Budapeste
+
+> Duas cidades, um rio, e a sensação de que você chegou tarde para uma história linda demais.
+
+### O Danúbio
+
+> Esse rio já viu dez países. Hoje ele só quer te olhar de volta.
+
+> Tem água que corta a cidade. E tem água que sustenta a cidade. Essa sustenta.
+
+### As pontes
+
+> Aqui as pontes não ligam margens. Elas reconciliam duas cidades que eram inimigas.
+
+### O número 96
+
+> Noventa e seis. A altura do Parlamento, a altura da Basílica. Nesta cidade, Deus e o Estado combinaram não se humilhar.
+
+### A chegada — Dia 1
+
+> Primeira noite. Ainda não sei nada desta cidade. E é exatamente por isso que eu não consigo dormir.
+
+### O Parlamento e as luzes
+
+> Olha o que acontece quando o dia desiste. É de tirar o ar.
+
+> Existem prédios bonitos. E existe isso.
+
+### Os Sapatos sobre o Danúbio
+
+> Sessenta pares de sapatos. Nenhum pé.
+
+> Aqui a gente não fotografa. Aqui a gente fica quieto.
+
+### O cruzeiro noturno
+
+> Do rio, a cidade não parece real. Parece uma lembrança de alguém que a amou muito.
+
+### Basílica de Santo Estêvão — Dia 2
+
+> Levaram cinquenta e quatro anos para terminar. Você entra e entende o porquê em cinco segundos.
+
+> Levante a cabeça. Agora respire fundo. Pronto: é isso que eu vim buscar.
+
+### Castelo de Buda
+
+> Deste terraço, os reis olhavam o império. Hoje somos nós olhando o rio.
+
+### Igreja de Matias
+
+> Cada telha desse teto foi pintada à mão. Ninguém fez isso com pressa. Ninguém faz isso hoje.
+
+### Bastião dos Pescadores — dia
+
+> Pescadores defendiam esta muralha. Hoje ela defende a vista mais bonita da Europa Central.
+
+### O pôr do sol
+
+> O sol vai embora, e a cidade acende. Poucas cidades sabem fazer essa troca com elegância.
+
+### Bastião dos Pescadores — noite
+
+> Eu já vi Paris à noite. Eu já vi Roma à noite. Vim aqui para calar as duas.
+
+### Sinagoga da rua Dohány — Dia 3
+
+> A maior sinagoga da Europa. Ela não sobreviveu por acaso — sobreviveu por teimosia.
+
+### O memorial e o cemitério
+
+> Tem lugares que a gente visita para aprender. E tem lugares que a gente visita para não esquecer.
+
+### Bairro judeu
+
+> Muro pichado, vinho bom, memória pesada. Este bairro não escolhe entre a dor e a vida: ele fica com as duas.
+
+### Mercado Central
+
+> Páprica, salame, pão quente. A história de um país também se conta pelo cheiro.
+
+### Café New York
+
+> Já disseram que este é o café mais bonito do mundo. Eu não vim discutir. Vim tomar um café.
+
+### Praça dos Heróis
+
+> Mil e cem anos de nação em sete cavaleiros de bronze. Húngaro nenhum passa aqui sem endireitar as costas.
+
+### Termas Széchenyi
+
+> Água quente, ar frio, cúpula amarela sobre a cabeça. Isso não é banho. Isso é um século de tradição em trinta e oito graus.
+
+> Entra devagar. E não olhe o celular por vinte minutos. É esse o presente.
+
+### Ruin bar
+
+> Um prédio abandonado que virou festa. Budapeste é boa nisso: transformar ruína em alegria.
+
+### O trem para Viena — Dia 4
+
+> Duas horas e meia de trilho. Um império inteiro entre as duas janelas.
+
+> Ninguém se despede de Budapeste. Só se combina de voltar.
+
 Fim da Parte I — Budapeste.
 
 Próxima parada: Viena — A Cidade Que Dançou Valsas Sob o Império.

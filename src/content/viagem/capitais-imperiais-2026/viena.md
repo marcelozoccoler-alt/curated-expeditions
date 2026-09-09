@@ -860,6 +860,98 @@ Budapeste foi a cidade que resiste. Viena é a cidade que dança. Uma ensina a p
 
 E agora, sobre os trilhos, o destino seguinte se desenha: Praga, a cidade das cem torres — onde a Europa Central guarda seu coração medieval.
 
+---
+
+## FALAS PARA OS VÍDEOS DA VIAGEM
+
+Frases curtas para gravar sobre cada lugar. Fale devagar, olhando na lente, e cale-se depois — o silêncio é que dá peso.
+
+### Abertura de Viena
+
+> Viena não te impressiona. Viena te educa.
+
+### Fala-âncora de Viena
+
+> Aqui o luxo não grita. Ele sussurra em três por quatro.
+
+### A cidade dos Habsburgos
+
+> Seiscentos e quarenta anos de uma única família no poder. Você caminha por dentro dessa conta.
+
+### A alma de Viena
+
+> Nesta cidade, você não pergunta o que fazer. Você pergunta o que ouvir.
+
+### Stephansdom — Dia 4
+
+> Cento e trinta e seis metros de pedra apontando para cima. Não é arquitetura. É argumento.
+
+### Graben e Petersplatz
+
+> Note o mármore, o silêncio, o passo mais lento. Viena obriga a gente a se comportar.
+
+### Peterskirche
+
+> Por fora, discreta. Por dentro, ouro até o teto. Viena esconde as coisas boas de quem só passa rápido.
+
+### Jantar vienense
+
+> Esse schnitzel é do tamanho do prato. E o prato é do tamanho da minha felicidade.
+
+### Hofburg — Dia 5
+
+> Dois mil e seiscentos aposentos. Uma família. Nenhum limite.
+
+### Biblioteca Nacional — Prunksaal
+
+> Duzentos mil livros. Setenta metros de sala. E o cheiro mais bonito do mundo: papel antigo.
+
+> Se existe um paraíso, eu já sei a decoração.
+
+### Demel
+
+> Aqui a confeitaria era do imperador. Ainda hoje o bolo se comporta como nobreza.
+
+### Ringstrasse
+
+> Ele derrubou as muralhas para construir uma avenida. Todo império acaba trocando defesa por beleza.
+
+### Estátua de Strauss
+
+> Dourado, violino no ombro, e uma valsa que o mundo inteiro sabe cantarolar. É aqui que Viena se apresenta.
+
+### Karlskirche
+
+> Barroco não é excesso. Barroco é convicção. Entre e discuta comigo depois.
+
+### Naschmarkt
+
+> Especiaria, azeitona, queijo, tâmara. O império inteiro caiu, mas o mercado continua abastecido.
+
+### Heuriger
+
+> Vinho novo, mesa de madeira, música ao vivo. Os vienenses guardam isso para eles. Hoje é nosso.
+
+### Jardins de Schönbrunn — Dia 6
+
+> Mil quatrocentos e quarenta e um quartos. E ela chamava isso de casa de verão.
+
+> Suba até a Glorieta. É de lá que a Áustria faz sentido.
+
+### O concerto no palácio
+
+> Mozart tocou nestas salas com seis anos de idade. Hoje sento onde a corte sentava — e o arrepio é o mesmo.
+
+> Feche os olhos por dez segundos. É o som exato de mil setecentos e sessenta.
+
+### Belvedere e "O Beijo" — Dia 7
+
+> Ouro, dois corpos, um beijo que nunca termina. Cento e vinte anos e ninguém conseguiu superar.
+
+### O trem para Praga
+
+> Viena me ensinou a andar mais devagar. Levo isso na bagagem.
+
 Fim da Parte II - Viena.
 
 Próxima parada: Praga - A Cidade das Cem Torres.
