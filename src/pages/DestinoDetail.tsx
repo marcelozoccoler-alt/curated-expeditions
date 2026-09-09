@@ -88,8 +88,9 @@ const DestinoDetail = () => {
   // SEO title ≤60 chars: front-load intent real de busca + marca quando couber
   const titleLong = `${destination.name}, ${destination.country}: o que fazer e roteiro`;
   const titleShort = `${destination.name}: o que fazer, melhor época e roteiro`;
-  const seoTitle =
-    titleLong.length <= 47
+  const seoTitle = destination.seoTitle
+    ? destination.seoTitle
+    : titleLong.length <= 47
       ? `${titleLong} | Create`
       : titleShort.length <= 47
         ? `${titleShort} | Create`
@@ -100,8 +101,9 @@ const DestinoDetail = () => {
     introClean.length > 70
       ? introClean.slice(0, 70).replace(/[,.;:]\s*\S*$/, "") + "…"
       : introClean;
-  const seoDescription =
-    `${destination.name}, ${destination.country}: melhor época, o que fazer e roteiro autoral sob medida. ${baseDesc} Fale com um travel designer.`;
+  const seoDescription = destination.seoDescription
+    ? destination.seoDescription
+    : `${destination.name}, ${destination.country}: melhor época, o que fazer e roteiro autoral sob medida. ${baseDesc} Fale com um travel designer.`;
 
   // Keywords semânticas para Google + IAs (ChatGPT, Perplexity, Gemini, AI Overviews)
   const seoKeywords = buildDestinationKeywords(destination);

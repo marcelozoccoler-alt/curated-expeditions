@@ -57,9 +57,9 @@ export interface IncomingCopy {
 export const INCOMING_COPY: Record<Exclude<ContentLang, "pt">, IncomingCopy> = {
   en: {
     meta: {
-      title: "Brazil Travel — Tailor-Made Trips by Create Travel",
+      title: "Tailor-Made Brazil Trips with a Private Guide | Create Travel",
       description:
-        "Plan your custom Brazil trip with Create Travel: Amazon, Pantanal, Lençóis, Bahia, Rio, Iguazu and Fernando de Noronha. Boutique hotels, private guides, authentic experiences.",
+        "We design your Brazil trip day by day — Amazon, Pantanal, Lençóis, Bahia, Rio, Noronha — with boutique hotels and private guides. Send us your dates for a plan.",
       keywords:
         "Brazil travel agency, custom Brazil trip, Amazon tours, Pantanal safari, Lençóis Maranhenses, Brazil luxury travel, tailor-made Brazil itinerary, Rio de Janeiro tours, Iguazu Falls trip, Bahia travel, Fernando de Noronha holiday",
     },
@@ -157,9 +157,9 @@ export const INCOMING_COPY: Record<Exclude<ContentLang, "pt">, IncomingCopy> = {
   },
   es: {
     meta: {
-      title: "Viajes a Brasil — Itinerarios a Medida con Create Travel",
+      title: "Viajes a Brasil a medida con guía privado | Create Travel",
       description:
-        "Planifica tu viaje a medida por Brasil con Create Travel: Amazonía, Pantanal, Lençóis, Bahía, Río, Iguazú y Fernando de Noronha. Hoteles boutique, guías privados, experiencias auténticas.",
+        "Diseñamos tu viaje por Brasil día a día: Amazonía, Pantanal, Lençóis, Bahía, Río y Noronha, con hoteles boutique y guías privados. Escríbenos tus fechas.",
       keywords:
         "agencia de viajes a Brasil, viaje a medida Brasil, viaje Amazonía, safari Pantanal, Lençóis Maranhenses, viajes de lujo Brasil, itinerario personalizado Brasil, tours Río de Janeiro, Cataratas del Iguazú, viaje a Bahía, Fernando de Noronha",
     },
@@ -257,9 +257,9 @@ export const INCOMING_COPY: Record<Exclude<ContentLang, "pt">, IncomingCopy> = {
   },
   it: {
     meta: {
-      title: "Viaggi in Brasile — Itinerari su Misura con Create Travel",
+      title: "Viaggi in Brasile su misura con guida privata | Create Travel",
       description:
-        "Pianifica il tuo viaggio su misura in Brasile con Create Travel: Amazzonia, Pantanal, Lençóis, Bahia, Rio, Iguazú e Fernando de Noronha. Hotel boutique, guide private, esperienze autentiche.",
+        "Progettiamo il tuo viaggio in Brasile giorno per giorno: Amazzonia, Pantanal, Lençóis, Bahia, Rio e Noronha, con hotel boutique e guide private. Scrivici le date.",
       keywords:
         "agenzia viaggi Brasile, viaggio su misura Brasile, tour Amazzonia, safari Pantanal, Lençóis Maranhenses, viaggi di lusso Brasile, itinerario personalizzato Brasile, tour Rio de Janeiro, Cascate di Iguazú, viaggio Bahia, Fernando de Noronha",
     },
@@ -357,9 +357,9 @@ export const INCOMING_COPY: Record<Exclude<ContentLang, "pt">, IncomingCopy> = {
   },
   de: {
     meta: {
-      title: "Brasilien Reisen — Maßgeschneiderte Touren von Create Travel",
+      title: "Brasilien-Reisen nach Maß mit privater Reiseleitung | Create Travel",
       description:
-        "Plane deine maßgeschneiderte Brasilien-Reise mit Create Travel: Amazonas, Pantanal, Lençóis, Bahia, Rio, Iguazú und Fernando de Noronha. Boutique-Hotels, private Guides, authentische Erlebnisse.",
+        "Wir planen Ihre Brasilien-Reise Tag für Tag: Amazonas, Pantanal, Lençóis, Bahia, Rio und Noronha, mit Boutique-Hotels und privaten Guides. Schreiben Sie uns.",
       keywords:
         "Brasilien Reiseagentur, maßgeschneiderte Brasilien Reise, Amazonas Touren, Pantanal Safari, Lençóis Maranhenses, Luxusreisen Brasilien, individuelle Brasilien Rundreise, Rio de Janeiro Touren, Iguazú Wasserfälle, Bahia Reise, Fernando de Noronha Urlaub",
     },

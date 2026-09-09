@@ -2,9 +2,9 @@ import type { BrazilGuideLocalized } from "./types";
 
 export const lencoisMaranhensesGuide: BrazilGuideLocalized = {
   pt: {
-    metaTitle: "Lençóis Maranhenses: guia autoral de lagoas e melhor época",
+    metaTitle: "Lençóis Maranhenses: quando as lagoas estão cheias",
     metaDescription:
-      "Guia completo dos Lençóis Maranhenses: lagoas cheias mês a mês, Barreirinhas, Atins e Santo Amaro, a Rota das Emoções e como integrar o deserto de dunas a um roteiro pelo Brasil.",
+      "As lagoas azuis entre as dunas só existem em alguns meses. Veja mês a mês onde a água está alta, se ficar em Barreirinhas ou Atins e como chegar.",
     keywords:
       "lencois maranhenses viagem, melhor epoca lencois maranhenses, barreirinhas, atins, santo amaro maranhao, rota das emocoes, lagoas lencois maranhenses, roteiro maranhao, viagem autoral lencois",
     h1: "Lençóis Maranhenses: guia autoral de quem já viu as lagoas nascerem",
@@ -200,9 +200,9 @@ export const lencoisMaranhensesGuide: BrazilGuideLocalized = {
   },
 
   en: {
-    metaTitle: "Lençóis Maranhenses Guide: Lagoons, Dunes & Best Time",
+    metaTitle: "Lençóis Maranhenses: When the Lagoons Are Full",
     metaDescription:
-      "A curated guide to the Lençóis Maranhenses: filled lagoons month by month, Barreirinhas, Atins and Santo Amaro, the Rota das Emoções, and how to fit this dune desert into a Brazil itinerary.",
+      "The blue lagoons between the dunes appear only in certain months. Month-by-month water levels, Barreirinhas or Atins, and how to get there.",
     keywords:
       "lencois maranhenses travel, best time lencois maranhenses, barreirinhas, atins, santo amaro maranhao, rota das emocoes, lagoons brazil, maranhao itinerary",
     h1: "Lençóis Maranhenses: a curated guide from people who watched the lagoons form",
@@ -298,9 +298,9 @@ export const lencoisMaranhensesGuide: BrazilGuideLocalized = {
   },
 
   es: {
-    metaTitle: "Lençóis Maranhenses: guía de lagunas y mejor época",
+    metaTitle: "Lençóis Maranhenses: cuándo están llenas las lagunas",
     metaDescription:
-      "Guía curada de los Lençóis Maranhenses: lagunas llenas mes a mes, Barreirinhas, Atins y Santo Amaro, la Rota das Emoções y cómo integrar este desierto de dunas a un viaje por Brasil.",
+      "Las lagunas azules entre las dunas solo existen algunos meses. Nivel del agua mes a mes, Barreirinhas o Atins, y cómo llegar hasta allí.",
     keywords:
       "lencois maranhenses viaje, mejor epoca lencois maranhenses, barreirinhas, atins, santo amaro maranhao, rota das emocoes, lagunas brasil, itinerario maranhao",
     h1: "Lençóis Maranhenses: guía de autor de quienes vieron nacer las lagunas",
@@ -394,9 +394,9 @@ export const lencoisMaranhensesGuide: BrazilGuideLocalized = {
   },
 
   it: {
-    metaTitle: "Lençóis Maranhenses: laghi, dune e periodo migliore",
+    metaTitle: "Lençóis Maranhenses: quando le lagune sono piene",
     metaDescription:
-      "Guida curata ai Lençóis Maranhenses: lagune piene mese per mese, Barreirinhas, Atins e Santo Amaro, la Rota das Emoções e come integrare questo deserto di dune in un viaggio in Brasile.",
+      "Le lagune azzurre tra le dune esistono solo in alcuni mesi. Il livello dell'acqua mese per mese, Barreirinhas o Atins, e come arrivare.",
     keywords:
       "lencois maranhenses viaggio, quando andare lencois maranhenses, barreirinhas, atins, santo amaro maranhao, rota das emocoes, lagune brasile, itinerario maranhao",
     h1: "Lençóis Maranhenses: la guida d'autore di chi ha visto nascere le lagune",
@@ -490,9 +490,9 @@ export const lencoisMaranhensesGuide: BrazilGuideLocalized = {
   },
 
   de: {
-    metaTitle: "Lençóis Maranhenses: Lagunen, Dünen & beste Reisezeit",
+    metaTitle: "Lençóis Maranhenses: Wann die Lagunen voll sind",
     metaDescription:
-      "Der kuratierte Guide zu den Lençóis Maranhenses: gefüllte Lagunen Monat für Monat, Barreirinhas, Atins und Santo Amaro, die Rota das Emoções und wie sich diese Dünenwüste in eine Brasilienreise einfügt.",
+      "Die blauen Lagunen zwischen den Dünen gibt es nur in bestimmten Monaten. Wasserstand Monat für Monat, Barreirinhas oder Atins, und die Anreise.",
     keywords:
       "lencois maranhenses reise, beste reisezeit lencois maranhenses, barreirinhas, atins, santo amaro maranhao, rota das emocoes, lagunen brasilien, maranhao reiseroute",
     h1: "Lençóis Maranhenses: der Autoren-Guide von Leuten, die die Lagunen entstehen sahen",

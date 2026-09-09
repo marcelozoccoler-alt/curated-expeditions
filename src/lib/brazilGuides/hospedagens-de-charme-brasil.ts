@@ -5,9 +5,9 @@ export const hospedagensDeCharmeBrasilGuide: BrazilGuideLocalized = {
     destinationName: "Hospedagens de Charme do Brasil",
     blurb:
       "Um roteiro por pousadas-boutique e refúgios de poucas suítes — do litoral baiano a Noronha, da serra ao Cerrado — onde a casa é o destino.",
-    metaTitle: "Hospedagens de Charme do Brasil: guia autoral de pousadas-boutique",
+    metaTitle: "Pousadas de charme no Brasil: as casas que valem a viagem",
     metaDescription:
-      "Guia curado das melhores hospedagens de charme do Brasil: Uxua, Vila Naiá, Pousada Maravilha, Vila dos Orixás, Casa Turquesa e outras casas de poucas suítes. Quando ir, para quem serve e como encadear um roteiro.",
+      "De Trancoso a Noronha, casas de poucas suítes onde o anfitrião ainda recebe à mesa. Para quem cada uma serve, quando ir e como encadeá-las num roteiro.",
     keywords:
       "hospedagens de charme brasil, pousada boutique brasil, uxua casa hotel, vila naia corumbau, pousada maravilha noronha, vila dos orixas boipeba, casa turquesa paraty, pousada literaria paraty, vila kalango jericoacoara, roteiro pousadas de luxo brasil",
     h1: "Hospedagens de Charme do Brasil: um roteiro pelas casas que viram destino",
@@ -253,9 +253,9 @@ export const hospedagensDeCharmeBrasilGuide: BrazilGuideLocalized = {
     destinationName: "Charming Boutique Stays of Brazil",
     blurb:
       "A journey through boutique pousadas and small-suite retreats — from Bahia's coast to Noronha, the mountains and the Cerrado — where the house itself is the destination.",
-    metaTitle: "Charming Boutique Hotels of Brazil: A Curated Guide",
+    metaTitle: "Boutique Hotels in Brazil: The Stays Worth the Trip",
     metaDescription:
-      "A curated guide to Brazil's finest boutique stays: Uxua, Vila Naiá, Pousada Maravilha, Vila dos Orixás, Casa Turquesa and other small-suite retreats. When to go, who they suit, and how to chain them into an itinerary.",
+      "From Trancoso to Noronha, houses of a few suites where the owner still greets you at dinner. Who each one suits, when to go, and how to chain them together.",
     keywords:
       "boutique hotels brazil, charming pousadas brazil, uxua casa hotel, vila naia corumbau, pousada maravilha noronha, vila dos orixas boipeba, casa turquesa paraty, luxury boutique brazil itinerary",
     h1: "Charming Boutique Stays of Brazil: houses that become the trip itself",
@@ -499,9 +499,9 @@ export const hospedagensDeCharmeBrasilGuide: BrazilGuideLocalized = {
     destinationName: "Hospedajes con Encanto de Brasil",
     blurb:
       "Un recorrido por pousadas boutique y refugios de pocas suites — de la costa de Bahía a Noronha, la sierra y el Cerrado — donde la casa misma es el destino.",
-    metaTitle: "Hospedajes con Encanto de Brasil: guía curada de pousadas boutique",
+    metaTitle: "Hoteles con encanto en Brasil: las casas que valen el viaje",
     metaDescription:
-      "Guía curada de los mejores hospedajes con encanto de Brasil: Uxua, Vila Naiá, Pousada Maravilha, Vila dos Orixás, Casa Turquesa y otras casas de pocas suites. Cuándo ir, para quién y cómo encadenar un itinerario.",
+      "De Trancoso a Noronha, casas de pocas suites donde el anfitrión aún recibe en la mesa. Para quién es cada una, cuándo ir y cómo encadenarlas en una ruta.",
     keywords:
       "hospedajes con encanto brasil, pousadas boutique brasil, uxua casa hotel, vila naia corumbau, pousada maravilha noronha, vila dos orixas boipeba, casa turquesa paraty, itinerario hoteles boutique brasil",
     h1: "Hospedajes con Encanto de Brasil: las casas que se convierten en el viaje",
@@ -745,9 +745,9 @@ export const hospedagensDeCharmeBrasilGuide: BrazilGuideLocalized = {
     destinationName: "Soggiorni di Charme del Brasile",
     blurb:
       "Un viaggio tra pousadas boutique e rifugi di poche suite — dalla costa di Bahia a Noronha, dalla sierra al Cerrado — dove la casa stessa è la destinazione.",
-    metaTitle: "Soggiorni di Charme in Brasile: guida curata di pousadas boutique",
+    metaTitle: "Hotel di charme in Brasile: le case che valgono il viaggio",
     metaDescription:
-      "Guida curata ai migliori soggiorni di charme del Brasile: Uxua, Vila Naiá, Pousada Maravilha, Vila dos Orixás, Casa Turquesa e altre case di poche suite. Quando andare, per chi sono e come costruire un itinerario.",
+      "Da Trancoso a Noronha, case di poche suite dove il padrone accoglie ancora a tavola. Per chi è ciascuna, quando andare e come unirle in un itinerario.",
     keywords:
       "hotel boutique brasile, pousadas di charme brasile, uxua casa hotel, vila naia corumbau, pousada maravilha noronha, vila dos orixas boipeba, casa turquesa paraty, itinerario hotel boutique brasile",
     h1: "Soggiorni di Charme del Brasile: le case che diventano il viaggio",
@@ -991,9 +991,9 @@ export const hospedagensDeCharmeBrasilGuide: BrazilGuideLocalized = {
     destinationName: "Charmante Boutique-Unterkünfte Brasiliens",
     blurb:
       "Eine Reise durch Boutique-Pousadas und Retreats mit wenigen Suiten — von Bahias Küste über Noronha bis zur Sierra und zum Cerrado —, wo das Haus selbst das Reiseziel ist.",
-    metaTitle: "Charmante Boutique-Unterkünfte Brasiliens: kuratierter Guide",
+    metaTitle: "Boutique-Hotels in Brasilien: Häuser für die ganze Reise",
     metaDescription:
-      "Kuratierter Guide zu Brasiliens besten Boutique-Unterkünften: Uxua, Vila Naiá, Pousada Maravilha, Vila dos Orixás, Casa Turquesa und weitere Häuser mit wenigen Suiten. Beste Reisezeit, Zielgruppe und Routenvorschläge.",
+      "Von Trancoso bis Noronha: Häuser mit wenigen Suiten, in denen der Gastgeber noch selbst empfängt. Für wen welches passt, wann hin und wie kombinieren.",
     keywords:
       "boutique hotels brasilien, charmante pousadas brasilien, uxua casa hotel, vila naia corumbau, pousada maravilha noronha, vila dos orixas boipeba, casa turquesa paraty, luxus boutique reise brasilien",
     h1: "Charmante Boutique-Unterkünfte Brasiliens: Häuser, die selbst zur Reise werden",

@@ -151,6 +151,9 @@ export const africaExtraDestinations: Destination[] = [
     region: "Arquipélago de Bazaruto",
     slug: "africa/mocambique/bazaruto",
     name: "Arquipélago de Bazaruto",
+    seoTitle: "Bazaruto: dunas, dugongos e dhows em Moçambique",
+    seoDescription:
+      "Dunas brancas que avançam sobre o Índico, mergulho com mantas e dugongos e travessia de dhow ao pôr do sol. Melhor época, lodges isolados e roteiro sob medida.",
     bestTime:
       "Abr–Nov (mar calmo, visibilidade máxima para mergulho). Set–Nov é o auge da temporada de baleias-jubarte na costa.",
     tags: ["praia", "mergulho", "lua-de-mel", "navegacao", "remoto", "conservacao"],
