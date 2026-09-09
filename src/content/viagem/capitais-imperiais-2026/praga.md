@@ -1050,106 +1050,101 @@ Budapeste foi a cidade que resiste. Viena foi a cidade que dança. Praga é a ci
 
 ---
 
-## Falas para vídeo
+### Praga, a que sussurra
 
-Frases curtas para acompanhar as imagens.
+> Há cidades que gritam para serem vistas. Praga sussurra — e só a escuta quem aprendeu que as coisas mais importantes da vida nunca são ditas em voz alta.
 
-### Abertura de Praga
+### O que esta cidade ensina
 
-> Praga não foi reconstruída, porque Praga nunca foi destruída. O que você está vendo é a única Europa que chegou inteira até nós.
-
-### Fala-âncora de Praga
-
-> Cem torres, mil anos, nenhuma pressa. Esta cidade não corre — e depois de três dias, você também não.
+> Cem torres, mil anos, nenhuma pressa. Praga é a prova de que a eternidade não pertence a quem corre: pertence a quem permanece.
 
 ### A alma de Praga
 
-> Aqui as pedras sussurram. Diminua o passo, cale o celular, e você começa a escutar.
+> Aqui as pedras falam baixo. Diminua o passo, cale o telefone. Quem atravessa esta cidade com pressa sai dela com fotos; quem atravessa devagar sai dela transformado.
 
 ### O Moldava
 
-> O rio atravessa o país inteiro e escolheu esta cidade para ser bonito. Rios também têm preferências.
+> O rio atravessa o país inteiro e escolheu esta cidade para ser bonito. Talvez a beleza seja isso: um encontro entre aquilo que passa e aquilo que sabe receber.
 
 ### A Ponte Carlos
 
-> Mil trezentos e cinquenta e sete. Carlos IV escolheu o dia e a hora exata para lançar a primeira pedra, porque acreditava em números. Setecentos anos depois, a ponte ainda está aqui. Talvez ele estivesse certo.
+> Carlos IV consultou os astros antes de lançar a primeira pedra. Setecentos anos depois, a ponte continua de pé. Quem constrói com o olhar no eterno constrói para sempre.
 
-> Trinta estátuas, seis séculos de gente passando, e todo mundo atravessa como se fosse uma rua qualquer. Pare no meio dela. Só isso: pare.
+> Trinta estátuas velam esta travessia há seis séculos. Pare no meio da ponte e fique em silêncio um instante: há lugares onde a gente não caminha sobre pedra, mas sobre o tempo.
 
-### A primeira noite — Dia 7
+### A primeira noite
 
-> Cheguei de trem, à noite, na cidade das cem torres. Não existe primeira impressão melhor do que esta em lugar nenhum do mundo.
+> Cheguei de trem, de noite, na cidade das cem torres. Há primeiras impressões que não se comparam a nada — porque a gente passou a vida inteira, sem saber, esperando por elas.
 
-### Praça da Cidade Velha — Dia 8
+### Praça da Cidade Velha
 
-> Gótico, barroco, renascença, tudo na mesma praça. Praga não escolheu uma época favorita: guardou todas com o mesmo cuidado.
+> Gótico, barroco, renascença — tudo na mesma praça, em paz. Praga não escolheu uma época: abraçou todas. Talvez a sabedoria seja exatamente isso: não renegar nenhum tempo que nos trouxe até aqui.
 
 ### Igreja de Týn
 
-> Duas torres que parecem escrever alguma coisa no céu. Foi esta igreja que inventou o horizonte desta cidade — e ninguém ousou mexer depois.
+> Duas torres escrevendo no céu há seiscentos anos. Foi esta igreja que desenhou o horizonte da cidade — e ninguém ousou corrigir a caligrafia de Deus.
 
 ### O Relógio Astronômico
 
-> Seiscentos e quinze anos marcando as horas sem parar. Guerras, impérios e revoluções passaram por baixo dele. E ele nunca se atrasou para nada.
+> Seiscentos e quinze anos marcando as horas sem parar. Impérios caíram em volta dele, e ele nunca se atrasou. Há algo de divino numa máquina que nos lembra que o tempo passa — e que cabe a nós o que fazemos dele.
 
-> Dizem que o espetáculo é curto. Curto é o vídeo. A lembrança fica.
+> Dizem que o espetáculo é curto. Curto é tudo que é precioso: o pôr do sol, a infância dos filhos, a vida. É justamente por isso que vale a pena estar presente.
 
 ### A Cabeça de Kafka
 
-> Quarenta e duas camadas de aço girando sem parar. Kafka passou a vida inteira sem se encontrar — e o monumento dele se desmonta e se remonta para sempre. Poucas homenagens foram tão exatas.
+> Quarenta e duas camadas de aço girando sem parar. Kafka passou a vida sem se encontrar — e o seu monumento se desmonta e se refaz para sempre. Talvez sejamos todos assim: uma busca que nunca se encerra, e é isso que nos mantém vivos.
 
 ### Almoço tcheco
 
-> Cerveja mais barata que água e melhor do que na maioria do mundo. Aqui isso não é piada: é patrimônio.
+> Cerveja melhor do que na maioria do mundo, servida sem cerimônia. A felicidade dos povos não está nos palácios: está no que eles dividem à mesa, rindo, num dia comum.
 
 ### Bonde 22 até o castelo
 
-> Um bonde amarelo subindo devagar a colina, janela aberta, cidade lá embaixo. É o transporte público mais bonito da Europa e ninguém avisa.
+> Um bonde amarelo subindo devagar a colina. O transporte mais bonito da Europa, e ninguém avisa. As maiores delicadezas da vida são assim: não se anunciam — aparecem para quem está olhando.
 
 ### Castelo de Praga
 
-> O maior castelo do mundo. Não é opinião minha, é medida — e mesmo assim ele não intimida: ele acolhe.
+> O maior castelo do mundo. E, mesmo assim, ele não intimida: acolhe. A verdadeira grandeza nunca humilha — quem é grande de verdade faz os outros se sentirem maiores.
 
 ### Catedral de São Vito
 
-> Quase seiscentos anos de obra. Ninguém que começou viu terminar, e terminaram assim mesmo. Construir para netos que nem se conhece: isso é fé.
+> Quase seiscentos anos de obra. Ninguém que começou viu o fim — e mesmo assim começaram. Ensinar, construir, plantar sem ver o fruto: é isso que separa quem vive de quem apenas passa.
 
-> Olhe o vitral da esquerda. Foi Mucha quem pintou. Depois deste, nenhum outro vitral no mundo me impressiona igual.
+> Olhe o vitral da esquerda: foi Mucha quem pintou. Há obras que não se contemplam — se rezam, mesmo sem religião nenhuma.
 
-### Rua do Ouro — Zlatá ulička
+### Rua do Ouro
 
-> Nestas casinhas coloridas moravam os alquimistas do imperador. Ele os pagou para transformar metal em ouro. Falharam — mas transformaram uma cidade em lenda.
+> Nestas casinhas moravam os alquimistas do imperador, pagos para transformar metal em ouro. Falharam no ouro — e transformaram uma cidade inteira em lenda. Às vezes o fracasso é só o nome provisório de um milagre maior.
 
 ### Biblioteca de Strahov
 
-> Oitocentos e oitenta anos de livros guardados por monges. Enquanto o mundo lá fora queimava bibliotecas, aqui dentro alguém continuou copiando, em silêncio, à luz de vela.
+> Oitocentos e oitenta anos de livros copiados por monges, à luz de vela, enquanto o mundo lá fora queimava bibliotecas. A civilização não foi salva por exércitos: foi salva por gente quieta que se recusou a deixar a luz apagar.
 
 ### Petřín ao pôr do sol
 
-> Daqui de cima, as cem torres douram todas ao mesmo tempo. Dura dez minutos. Compensa a subida, a viagem e o ano inteiro.
+> Daqui de cima, as cem torres douram todas ao mesmo tempo. Dura dez minutos. Como quase tudo que é sublime na vida — e é por isso que vale a subida, a viagem e o ano inteiro.
 
-### O cruzeiro no Moldava — Dia 9
+### O cruzeiro no Moldava
 
-> Da água você vê a ponte por baixo, e entende que ela é ainda mais improvável do que parecia de cima.
+> Da água, a ponte se revela por baixo — mais impossível do que parecia de cima. Há coisas que só entendemos quando mudamos de lugar. A vida inteira é assim: perspectiva é tudo.
 
 ### Bairro judeu — Josefov
 
-> Doze camadas de sepulturas, uma sobre a outra, porque não havia mais terra permitida a eles. Nem no descanso lhes deram espaço.
+> Doze camadas de sepulturas, uma sobre a outra, porque não havia terra permitida. Nem no descanso lhes deram espaço — e nem assim deixaram de pertencer à história. Ninguém apaga um povo que a memória insiste em guardar.
 
-> Aqui não se fotografa porque é bonito. Fotografa-se para não deixar ninguém esquecer.
+> Aqui não se fotografa por bonito. Fotografa-se para que nenhum de nós tenha um dia o direito de dizer que não sabia.
 
 ### Sinagoga Velha-Nova e o Golem
 
-> Dizem que o Golem ainda dorme no sótão desta sinagoga. Nesta cidade, ninguém tem pressa nenhuma de desmentir uma lenda — e é isso que a mantém viva.
+> Dizem que o Golem ainda dorme no sótão desta sinagoga. Praga não tem pressa de desmentir suas lendas — porque entendeu que um povo sem mistérios é um povo sem alma.
 
 ### Jantar medieval
 
-> Fogo, alaúde, hidromel e faca na mão. Hoje jantamos como no século quinze, rindo alto, sem pedir desculpa a ninguém.
+> Fogo, alaúde, hidromel e faca na mão. Hoje jantamos como no século quinze — e descobrimos que a alegria não evoluiu nada desde então. Ela sempre foi isto: gente, fogo e música.
 
-### A despedida — Dia 10
+### A despedida
 
-> Praga não deixa a gente ir embora. Ela apenas combina de reencontrar você mais adiante.
-
+> Kafka escreveu que Praga não deixa ninguém ir embora. É verdade. Parte de mim fica aqui — e talvez seja essa a prova de que a viagem valeu: ninguém volta inteiro de um lugar que amou de verdade.
 
 Fim da Parte III — Praga.
 

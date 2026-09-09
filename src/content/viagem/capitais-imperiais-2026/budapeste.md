@@ -965,118 +965,113 @@ Budapeste é isso: uma cidade que toca o céu sem esquecer a terra.
 
 ---
 
-## Falas para vídeo
+### Budapeste, a primeira
 
-Frases curtas para acompanhar as imagens.
+> Há cidades que se visitam. E há cidades que visitam você — e ficam morando no peito depois que você vai embora.
 
-### Abertura de Budapeste
+### O que esta cidade ensina
 
-> Existem cidades que a gente visita. E existe Budapeste, que a gente atravessa — e sai do outro lado um pouco diferente.
-
-### Fala-âncora de Budapeste
-
-> Duas cidades que se odiaram, um rio que não escolheu lado, e a paz que só o tempo consegue assinar.
+> Duas cidades que foram inimigas, um rio que nunca escolheu lado. Talvez toda paz do mundo seja isso: duas margens que aprenderam a se olhar.
 
 ### O Danúbio
 
-> Esse rio já viu dez países, três impérios e todas as despedidas do século passado. E continua correndo como se nada tivesse doído.
+> Esse rio viu nascerem e morrerem impérios, reis e fronteiras. E segue correndo, sereno, como quem sabe que tudo passa — menos ele.
 
-> Tem água que corta a cidade em duas. E tem água que segura as duas metades no colo. Essa segura.
+> A água não segura nada e sustenta tudo. Talvez o amor mais sábio seja assim: não prende, carrega.
 
 ### As pontes
 
-> Estas pontes não ligam margens. Elas perdoam. Foi preciso ferro, guerra e um século para Buda e Peste aprenderem a se dar as mãos.
+> Toda ponte é uma promessa: a de que nenhuma margem está condenada à solidão. Foi preciso um século para Buda e Peste darem as mãos. Valeu cada ano.
 
 ### O número 96
 
-> Noventa e seis metros o Parlamento. Noventa e seis metros a Basílica. Nesta cidade decidiram que nem Deus nem o Estado precisaria se abaixar. É bonito viver num lugar assim.
+> Noventa e seis metros o Parlamento. Noventa e seis metros a Basílica. Aqui, nem Deus nem o poder precisaram se humilhar diante do outro. Que lição seria essa para o mundo?
 
-### A chegada — Dia 1
+### A chegada
 
-> Primeira noite. Não sei nada desta cidade ainda, e é justamente isso que não me deixa dormir: tudo o que ela ainda vai me contar.
+> Na primeira noite, eu não conhecia nada desta cidade. E foi justamente o desconhecido que não me deixou dormir — como tudo que está prestes a nos transformar.
 
 ### O Parlamento e as luzes
 
-> Repare no instante em que o dia entrega os pontos e a cidade acende. É de perder o fio da conversa.
+> Quando o dia desiste, a cidade acende. Há um instante em que a escuridão vira ouro — e quem aprende a esperar esse instante, aprende algo sobre a própria vida.
 
-> Existem prédios bonitos. E existe este, que parece ter sido sonhado antes de ser desenhado.
+> Existem prédios bonitos. E existe este, que parece ter sido sonhado antes de ser construído. Talvez tudo que é grande na vida comece assim: um sonho que alguém se recusou a acordar.
 
 ### Os Sapatos sobre o Danúbio
 
-> Sessenta pares de sapatos de ferro. Nenhum pé dentro. É o vazio que conta a história aqui.
+> Sessenta pares de sapatos de ferro. Nenhum pé dentro. O vazio, às vezes, é a única voz que a história conseguiu deixar.
 
-> Neste lugar a gente não fotografa. A gente fica de pé, em silêncio, e agradece por ter nascido depois.
+> Aqui ninguém fotografa. Aqui a gente se cala — porque há dores que só o silêncio sabe honrar, e há futuros que só existem porque alguém se recusou a esquecer.
 
 ### O cruzeiro noturno
 
-> Do meio do rio, Budapeste não parece uma cidade. Parece a lembrança de alguém que a amou muito e nunca conseguiu esquecer.
+> Do meio do rio, a cidade não parece real. Parece a lembrança de alguém que a amou demais para deixá-la morrer. Toda beleza é, no fundo, um ato de resistência.
 
-### Basílica de Santo Estêvão — Dia 2
+### Basílica de Santo Estêvão
 
-> Cinquenta e quatro anos para levantar esta igreja. Três gerações de pedreiros que nunca viram o prédio pronto. Você entende o motivo em cinco segundos lá dentro.
+> Cinquenta e quatro anos de obra. Três gerações de homens que sabiam que não veriam o fim — e construíram assim mesmo. É disso que é feita a fé: começar o que só os outros verão pronto.
 
-> Levante a cabeça. Respire uma vez, devagar. Foi por este segundo que eu atravessei o Atlântico.
+> Levante a cabeça. Respire devagar. Há lugares que não foram feitos para serem vistos, mas para nos lembrar do tamanho que a alma pode ter.
 
 ### Castelo de Buda
 
-> Deste terraço, os reis mediam o tamanho do império. Hoje somos nós, medindo o tamanho da nossa própria sorte.
+> Daqui os reis mediam o império. Hoje medimos outra coisa: a sorte imensa de estarmos vivos, de pé, neste terraço, nesta hora do mundo.
 
 ### Igreja de Matias
 
-> Cada telha deste telhado foi pintada à mão, uma por uma. Ninguém fez isso com pressa. E é por isso que ainda está aqui.
+> Cada telha deste teto foi pintada por uma mão que sabia que ninguém a veria de perto. Fazer o belo sem plateia: talvez seja essa a definição mais pura de amor ao que se faz.
 
 ### Bastião dos Pescadores — dia
 
-> Pescadores defendiam esta muralha com a própria vida. Hoje ela guarda a vista mais generosa da Europa Central — e entrega de graça a quem chega.
+> Pescadores defendiam estas muralhas com a própria vida. Hoje elas defendem outra coisa: a certeza de que algumas vistas valem uma existência inteira.
 
 ### O pôr do sol
 
-> O sol vai embora e a cidade acende, na mesma respiração. Poucos lugares no mundo fazem essa troca com tanta elegância.
+> O sol vai embora e a cidade acende, na mesma respiração. A vida ensina isso todos os dias e a gente quase nunca olha: toda despedida pode ser um acender de luzes.
 
 ### Bastião dos Pescadores — noite
 
-> Eu já vi Paris à noite. Eu já vi Roma à noite. Vim até aqui para descobrir que ainda faltava esta.
+> Vi Paris à noite. Vi Roma à noite. Vim até aqui descobrir que a beleza não tem fim — ela apenas muda de endereço, esperando que a gente tenha coragem de ir buscá-la.
 
-### Sinagoga da rua Dohány — Dia 3
+### Sinagoga da rua Dohány
 
-> A maior sinagoga da Europa. Ela não continua de pé por acaso — continua de pé por teimosia de gente que se recusou a desaparecer.
+> A maior sinagoga da Europa está de pé por teimosia. Há um tipo de força que não grita: apenas se recusa a desaparecer. É a mais forte de todas.
 
 ### O memorial e o cemitério
 
-> Tem lugares que a gente visita para aprender. E tem lugares que a gente visita para nunca mais ter coragem de esquecer.
+> Há lugares que visitamos para aprender. E há lugares que visitamos para nos tornarmos pessoas que jamais permitiriam que aquilo se repetisse.
 
 ### Bairro judeu
 
-> Muro pichado, vinho bom, memória pesada. Este bairro não escolheu entre a dor e a vida. Ficou com as duas — e isso é a definição de coragem.
+> Muro pichado, vinho bom, memória pesada. Este bairro não escolheu entre a dor e a vida — ficou com as duas. E não existe definição mais honesta de coragem.
 
 ### Mercado Central
 
-> Páprica, salame, pão saindo do forno. A história de um povo também se conta pelo cheiro — e este cheiro atravessou o século sem se render.
+> Páprica, pão saindo do forno, gente que se cumprimenta pelo nome. Um povo não é feito de monumentos: é feito do que ele coloca na mesa todos os dias.
 
 ### Café New York
 
-> Dizem que é o café mais bonito do mundo. Eu não vim discutir estatística. Vim sentar onde os poetas sentavam e ver se ainda inspira.
+> Disseram que era o café mais bonito do mundo. Vim sentar onde os poetas sentavam — porque há lugares onde a beleza não se olha: se bebe, devagar, em silêncio.
 
 ### Praça dos Heróis
 
-> Mil e cem anos de nação em sete cavaleiros de bronze. Nenhum húngaro passa por aqui sem endireitar as costas. Depois de saber a história, você também não passa.
+> Mil e cem anos de um povo em sete cavaleiros de bronze. Nenhum húngaro passa aqui sem endireitar as costas. Saber de onde se vem: eis o que nenhum tempo pode tirar de ninguém.
 
 ### Termas Széchenyi
 
-> Água quente, ar frio, cúpula amarela sobre a cabeça. Isso não é um banho. É um século de tradição a trinta e oito graus, e o corpo entende antes da cabeça.
+> Água quente, ar frio, um século de tradição a trinta e oito graus. O corpo entende antes da cabeça: há coisas que não se explicam — se entregam.
 
-> Entre devagar. Guarde o celular por vinte minutos. Este é o presente da viagem inteira.
+> Entre devagar. Esqueça o telefone por vinte minutos. A gente viaja o mundo inteiro à procura do extraordinário, e ele costuma ser isto: estar inteiro num único momento.
 
 ### Ruin bar
 
-> Um prédio abandonado que virou festa. Budapeste é boa nisso: pegar a ruína e devolver alegria. Talvez seja o que a cidade fez consigo mesma.
+> Um prédio abandonado que virou festa. Budapeste conhece o segredo mais raro: transformar a ruína em alegria. Talvez seja o que todo coração partido deveria aprender.
 
-### O trem para Viena — Dia 4
+### O trem para Viena
 
-> Duas horas e meia de trilho. Um império inteiro cabendo entre a janela de saída e a janela de chegada.
+> Duas horas e meia de trilho, um império inteiro entre duas janelas. Viajar é a única forma de comprar algo que nos deixa mais ricos — e de partir sem nunca perder o que ficou.
 
-> Ninguém se despede de Budapeste. Só combina de voltar — e cumpre.
-
+> Ninguém se despede de Budapeste. Só se combina de voltar. Porque há lugares que não ficam para trás: ficam dentro.
 
 Fim da Parte I — Budapeste.
 

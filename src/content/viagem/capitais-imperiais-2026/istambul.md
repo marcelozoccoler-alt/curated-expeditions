@@ -863,95 +863,90 @@ Istambul é uma cidade que não se visita: se atravessa. Entre dois continentes,
 
 ---
 
-## Falas para vídeo
+### Istambul, a travessia
 
-Frases curtas para acompanhar as imagens.
+> Aqui a Europa termina e a Ásia começa — e ninguém sabe apontar a fronteira. Talvez porque as fronteiras mais importantes, as de dentro da gente, também nunca estejam onde pensamos.
 
-### Abertura de Istambul
+### O que esta cidade ensina
 
-> Aqui a Europa termina e a Ásia começa. E o mais bonito é que ninguém consegue apontar o lugar exato.
-
-### Fala-âncora de Istambul
-
-> Duas mil e setecentas primaveras, dois continentes, um chamado à oração. Istambul não é uma cidade: é uma travessia — e ninguém atravessa igual.
+> Duas mil e setecentas primaveras, dois continentes, um chamado que atravessa o céu cinco vezes ao dia. Istambul não é uma cidade: é a prova de que os opostos não foram feitos para se destruir, mas para se completar.
 
 ### O Bósforo
 
-> Trinta quilômetros de água separando dois mundos. Ou unindo os dois. Depende inteiramente do lado em que você nasceu.
+> Trinta quilômetros de água entre dois mundos. Uns dizem que separa; outros, que une. Como tudo na vida, o Bósforo é exatamente aquilo que o nosso olhar decide ver.
 
 ### O chamado à oração
 
-> Cinco vezes por dia, uma cidade de dezesseis milhões baixa a voz ao mesmo tempo. Não é preciso ter religião. Basta ficar quieto e ouvir.
+> Cinco vezes por dia, dezesseis milhões de pessoas baixam a voz ao mesmo tempo. Não é preciso ter a mesma fé para se emocionar: basta reconhecer o sagrado quando ele passa — e ficar em silêncio.
 
 ### Os gatos de Istambul
 
-> Aqui o gato não pertence a ninguém. O gato é da cidade. E a cidade cuida — diz muito sobre um povo o jeito como ele trata quem não pode pagar.
+> Aqui o gato não é de ninguém: é de todos, e a cidade inteira cuida. Julgue um povo pela forma como trata quem não pode retribuir. Por essa medida, Istambul é gigante.
 
-### A primeira noite em Gálata — Dia 10
+### A primeira noite em Gálata
 
-> Cheguei de noite e a torre já estava acesa, esperando. Istambul tem esse jeito de receber a gente como se já nos conhecesse de outra vida.
+> Cheguei de noite e a torre estava acesa, esperando. Há cidades que a gente visita pela primeira vez com a estranha sensação de reencontro — como se a alma já tivesse estado ali antes.
 
-### Mesquita Azul — Dia 11
+### Mesquita Azul
 
-> Vinte mil azulejos azuis pintados à mão. Seis minaretes que causaram um escândalo no mundo islâmico. E um silêncio lá dentro que apaga a cidade inteira.
+> Vinte mil azulejos pintados à mão e um silêncio que apaga a cidade inteira lá fora. O homem passa a vida buscando paz em lugares barulhentos — e ela estava aqui, esperando, há quatro séculos.
 
-> Tire os sapatos. Baixe a voz. Aqui não somos turistas: somos convidados. E isso muda tudo.
+> Tire os sapatos. Baixe a voz. Aqui não somos turistas: somos convidados. E quem aprende a entrar assim nos lugares sagrados dos outros aprende a entrar assim no mundo.
 
 ### Hagia Sophia
 
-> Mil e quinhentos anos. Igreja, mesquita, museu, mesquita outra vez. Nenhum outro prédio do mundo mudou tantas vezes de fé sem nunca cair.
+> Mil e quinhentos anos. Igreja, mesquita, museu, mesquita outra vez — e nunca caiu. As pedras deste lugar entenderam o que os homens demoram a aceitar: Deus não cabe numa só das nossas palavras.
 
-> No dia da inauguração, o imperador disse: "Salomão, eu te superei." Entre aqui e me diga se ele exagerou.
+> No dia da inauguração, o imperador disse: "Salomão, eu te superei." Entre, levante os olhos para a cúpula, e decida você mesmo. Há perguntas que só se respondem de joelhos — ou de queixo erguido.
 
-> Essa cúpula parece flutuar. Foi feita de propósito para parecer que não pesa nada — e mil e quinhentos anos depois, ainda engana os olhos.
+> Essa cúpula parece flutuar, como se não pesasse nada. Mil e quinhentos anos depois, ela continua nos ensinando: a fé verdadeira é aquela que carrega o impossível com leveza.
 
 ### O Hipódromo
 
-> Aqui corriam as bigas de Bizâncio, com cem mil pessoas gritando. Hoje corre criança, pombo e vendedor de milho. A história não termina: só troca de elenco.
+> Aqui corriam as bigas de Bizâncio diante de cem mil pessoas. Hoje correm crianças, pombos e vendedores de milho. A história não morre: apenas troca de elenco — e nós somos a cena de agora.
 
 ### Gran Bazar
 
-> Quatro mil lojas, sessenta e uma ruas cobertas, quinhentos e setenta anos de pechincha ininterrupta. O shopping mais antigo do mundo — e ainda o mais vivo.
+> Quatro mil lojas, sessenta e uma ruas cobertas, quinhentos e setenta anos de conversa ininterrupta. O comércio mais antigo do mundo sobreviveu a tudo — porque antes de vender, ele sempre soube receber.
 
-> Aceite o chá. Sempre aceite o chá. Aqui o negócio vem depois da conversa, nunca antes.
+> Aceite o chá. Sempre aceite o chá. Aqui o negócio vem depois do olhar, do nome, da história. Os turcos nunca esqueceram o que o mundo moderno anda esquecendo: primeiro as pessoas, depois as coisas.
 
 ### A tarde reservada
 
-> A tarde de hoje eu não vou contar. Só digo que é a razão pela qual desenhei esta viagem.
+> A tarde de hoje eu não vou contar. Só digo isto: existem experiências que não cabem em palavras — e foi por uma delas que eu desenhei esta viagem inteira.
 
-### Igreja de Chora — Dia 12
+### Igreja de Chora
 
-> Ouro puro nos mosaicos, tessela por tessela, colocadas à mão há setecentos anos. É o Renascimento acontecendo antes de alguém inventar o nome.
+> Ouro puro, tessela por tessela, colocado à mão há setecentos anos. É o Renascimento antes de o mundo inventar o Renascimento. A genialidade nunca pede licença à época: ela simplesmente nasce onde nasce um coração que não se conforma.
 
 ### Balat
 
-> Casas cor de doce, roupa no varal, avó na janela. Este é o bairro onde Istambul para de posar para a foto e simplesmente vive.
+> Casas cor de doce, roupa no varal, avó na janela. É aqui que Istambul larga a pose e simplesmente vive. E é sempre na vida sem pose que a gente encontra a beleza mais verdadeira.
 
 ### O fusca rosa
 
-> Um fusca rosa numa ladeira turca. Não tem explicação, não tem história. Tem só a foto que você vai mostrar primeiro quando voltar.
+> Um fusca rosa numa ladeira turca. Sem explicação, sem história, sem sentido — e é justamente por isso que é perfeito. Nem tudo que alegra o coração precisa de motivo.
 
 ### Almoço na orla
 
-> Peixe fresco, pão quente, o Corno de Ouro logo ali. Chamam de simples. Eu chamo de tudo que eu precisava.
+> Peixe fresco, pão quente, o Corno de Ouro logo ali. Chamam de simples. Eu chamo de suficiente — e aprender a diferença entre os dois talvez seja a maior riqueza que uma viagem pode dar.
 
 ### O retorno pela água
 
-> Em Istambul, o barco é ônibus. Vinte minutos de travessia e o horizonte de dois continentes passa de graça pela janela.
+> Em Istambul, o barco é ônibus: vinte minutos e dois continentes passam pela janela. A cidade inteira faz, distraída, aquilo que o resto do mundo só faz em sonho.
 
 ### Cruzeiro noturno no Bósforo
 
-> Palácio de um lado, fortaleza do outro, e a ponte acesa por cima de nós. Esta cidade sabe se despedir de um dia como ninguém.
+> Palácio de um lado, fortaleza do outro, a ponte acesa por cima. Há cidades que sabem terminar um dia como quem fecha um poema — e quem vê isso uma vez passa a medir todos os finais de tarde por este.
 
-> Duas pontes, dois continentes, uma taça na mão. Se a vida tiver uma noite perfeita reservada, ela deve ser bem parecida com esta.
+> Duas pontes, dois continentes, uma taça na mão. Se a vida guardar uma noite perfeita para cada um de nós, desconfio que ela seja muito parecida com esta.
 
-### O último çay — Dia 13
+### O último çay
 
-> Copinho de vidro, chá vermelho, açúcar na medida errada. Vou sentir falta disto mais do que dos monumentos. É sempre o pequeno que fica.
+> Copinho de vidro, chá vermelho, açúcar na medida errada. Vou sentir mais falta disto do que dos monumentos. É sempre o pequeno que fica — porque o grande a gente admira, mas é o pequeno que a gente ama.
 
 ### O voo de volta
 
-> Quatro capitais, quatorze dias, dois continentes. Eu não voltei o mesmo homem que embarcou — e é exatamente por isso que a gente viaja.
-
+> Quatro capitais, quatorze dias, dois continentes. Ninguém volta o mesmo de uma viagem assim — e é exatamente por isso que viajamos: não para conhecer o mundo, mas para, finalmente, nos conhecermos.
 
 Fim da Parte IV — Istambul.
