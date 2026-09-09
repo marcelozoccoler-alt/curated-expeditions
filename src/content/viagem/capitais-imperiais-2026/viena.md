@@ -862,13 +862,95 @@ E agora, sobre os trilhos, o destino seguinte se desenha: Praga, a cidade das ce
 
 ---
 
-## Falas para vídeo
+### Viena, a que ensina
 
-Frases curtas para acompanhar as imagens.
+> Viena não tenta impressionar ninguém. Ela simplesmente existe com elegância — e nos ensina, sem dizer uma palavra, que a verdadeira grandeza nunca precisa gritar.
 
-### Abertura de Viena
+### O que esta cidade ensina
 
-> Viena não tenta te impressionar. Ela te educa — e você só percebe depois, quando já está andando mais devagar.
+> Aqui o luxo não grita: sussurra em compasso de três por quatro. As coisas mais profundas da vida são assim — não se anunciam, se insinuam, e só as ouve quem aprendeu a silenciar.
+
+### A cidade dos Habsburgos
+
+> Seiscentos e quarenta anos de uma mesma família no poder. Você não visita esse número: você caminha por dentro dele, como se o tempo aqui tivesse deixado as portas abertas.
+
+### A alma de Viena
+
+> Nesta cidade não se pergunta o que fazer. Pergunta-se o que ouvir. Porque Viena entendeu há muito tempo o que o mundo ainda não: o homem não vive de pão — vive de música.
+
+### Stephansdom
+
+> Cento e trinta e seis metros de pedra apontando para o céu. Não é arquitetura: é um argumento sobre o que o ser humano se torna quando acredita em algo maior que si mesmo.
+
+### Graben e Petersplatz
+
+> O mármore, o silêncio, o passo mais curto de todos. Há cidades que nos fazem correr. E há esta, que nos faz querer ser um pouco melhores do que éramos ao chegar.
+
+### Peterskirche
+
+> Por fora, quase passa despercebida. Por dentro, ouro até o último centímetro do teto. Viena é como as pessoas sábias: guarda o melhor para quem tem a paciência de entrar.
+
+### Jantar vienense
+
+> A mesa dura três horas, porque aqui comer não é abastecer: é conviver. Um dia o mundo esqueceu que a felicidade cabe numa mesa comprida — Viena, não.
+
+### Hofburg
+
+> Dois mil e seiscentos aposentos para uma família. E ainda assim a imperatriz fugia daqui. Não há palácio que cure a saudade de ser livre — lição que couro nenhum de trono apaga.
+
+### Biblioteca Nacional — Prunksaal
+
+> Duzentos mil livros guardados como joias. Enquanto impérios apostavam em ouro, alguém aqui apostou em palavras. Adivinhe qual dos dois tesouros ainda está vivo?
+
+> Se o paraíso tiver uma forma, desconfio que seja esta: luz suave, silêncio alto, e tudo que a humanidade já pensou ao alcance da mão.
+
+### Demel
+
+> A confeitaria era do imperador. Duzentos anos depois, o bolo continua se comportando como nobreza. As aparências passam; a excelência, quando verdadeira, atravessa os séculos sem envelhecer.
+
+### Ringstrasse
+
+> Um imperador derrubou as muralhas para construir uma avenida. Todo império, no fim, troca defesa por beleza. É o que acontece com as pessoas também: crescemos quando derrubamos os muros que nos protegiam.
+
+### Estátua de Strauss
+
+> Dourado, violino no ombro, e uma valsa que o mundo inteiro sabe sem nunca ter estudado. Há uma forma de eternidade que não está nos mausoléus: está naquilo que continua fazendo os outros felizes.
+
+### Karlskirche
+
+> Barroco não é excesso: é convicção. Quando se crê de verdade em alguma coisa, não se coloca pouco — coloca-se tudo. Entre, olhe a cúpula por dois minutos, e entenda.
+
+### Naschmarkt
+
+> O império desabou, as fronteiras mudaram três vezes, e o mercado continuou abastecido. A política escreve decretos; a vida escreve manhãs. E as manhãs sempre vencem.
+
+### Heuriger
+
+> Vinho novo, mesa de madeira, música que ninguém ensaiou. Os vienenses guardam isto para si — não por egoísmo, mas porque a alegria simples é a última coisa que um povo sábio entrega à pressa.
+
+### Jardins de Schönbrunn
+
+> Mil quatrocentos e quarenta e um quartos, e ela chamava de casa de verão. A grandeza, quando vira rotina, deixa de ser vista. Quantos mil e quatrocentos quartos cada um de nós tem — e chama de vida comum?
+
+> Suba até a Glorieta. Lá de cima, com a cidade inteira aos pés, entende-se por que os homens constroem mirantes: precisamos, de vez em quando, olhar a vida de cima para perdoá-la de perto.
+
+### O concerto no palácio
+
+> Mozart tocou nestas salas aos seis anos. Hoje me sento onde a corte se sentava — e o arrepio é o mesmo que o deles. A música é a única máquina do tempo que a humanidade conseguiu inventar.
+
+> Feche os olhos por dez segundos. É assim que soava mil setecentos e sessenta. Nada morreu. Há coisas que a morte não alcança — e quase todas são feitas de beleza.
+
+### Belvedere e "O Beijo"
+
+> Ouro, dois corpos, um beijo que nunca termina. Cento e vinte anos, e ninguém pintou melhor o amor. Porque o amor verdadeiro é exatamente isto: um instante que se recusa a passar.
+
+### O trem para Praga
+
+> Viena me ensinou a andar mais devagar e a ouvir mais. É a única bagagem que não pesa — e a única que, quanto mais a gente usa, mais aumenta.
+
+Fim da Parte II - Viena.
+
+Próxima parada: Praga - A Cidade das Cem Torres.
 
 ### Fala-âncora de Viena
 

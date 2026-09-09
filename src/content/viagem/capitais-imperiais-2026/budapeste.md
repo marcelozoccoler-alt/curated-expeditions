@@ -965,13 +965,117 @@ Budapeste é isso: uma cidade que toca o céu sem esquecer a terra.
 
 ---
 
-## Falas para vídeo
+### Budapeste, a primeira
 
-Frases curtas para acompanhar as imagens.
+> Há cidades que se visitam. E há cidades que visitam você — e ficam morando no peito depois que você vai embora.
 
-### Abertura de Budapeste
+### O que esta cidade ensina
 
-> Existem cidades que a gente visita. E existe Budapeste, que a gente atravessa — e sai do outro lado um pouco diferente.
+> Duas cidades que foram inimigas, um rio que nunca escolheu lado. Talvez toda paz do mundo seja isso: duas margens que aprenderam a se olhar.
+
+### O Danúbio
+
+> Esse rio viu nascerem e morrerem impérios, reis e fronteiras. E segue correndo, sereno, como quem sabe que tudo passa — menos ele.
+
+> A água não segura nada e sustenta tudo. Talvez o amor mais sábio seja assim: não prende, carrega.
+
+### As pontes
+
+> Toda ponte é uma promessa: a de que nenhuma margem está condenada à solidão. Foi preciso um século para Buda e Peste darem as mãos. Valeu cada ano.
+
+### O número 96
+
+> Noventa e seis metros o Parlamento. Noventa e seis metros a Basílica. Aqui, nem Deus nem o poder precisaram se humilhar diante do outro. Que lição seria essa para o mundo?
+
+### A chegada
+
+> Na primeira noite, eu não conhecia nada desta cidade. E foi justamente o desconhecido que não me deixou dormir — como tudo que está prestes a nos transformar.
+
+### O Parlamento e as luzes
+
+> Quando o dia desiste, a cidade acende. Há um instante em que a escuridão vira ouro — e quem aprende a esperar esse instante, aprende algo sobre a própria vida.
+
+> Existem prédios bonitos. E existe este, que parece ter sido sonhado antes de ser construído. Talvez tudo que é grande na vida comece assim: um sonho que alguém se recusou a acordar.
+
+### Os Sapatos sobre o Danúbio
+
+> Sessenta pares de sapatos de ferro. Nenhum pé dentro. O vazio, às vezes, é a única voz que a história conseguiu deixar.
+
+> Aqui ninguém fotografa. Aqui a gente se cala — porque há dores que só o silêncio sabe honrar, e há futuros que só existem porque alguém se recusou a esquecer.
+
+### O cruzeiro noturno
+
+> Do meio do rio, a cidade não parece real. Parece a lembrança de alguém que a amou demais para deixá-la morrer. Toda beleza é, no fundo, um ato de resistência.
+
+### Basílica de Santo Estêvão
+
+> Cinquenta e quatro anos de obra. Três gerações de homens que sabiam que não veriam o fim — e construíram assim mesmo. É disso que é feita a fé: começar o que só os outros verão pronto.
+
+> Levante a cabeça. Respire devagar. Há lugares que não foram feitos para serem vistos, mas para nos lembrar do tamanho que a alma pode ter.
+
+### Castelo de Buda
+
+> Daqui os reis mediam o império. Hoje medimos outra coisa: a sorte imensa de estarmos vivos, de pé, neste terraço, nesta hora do mundo.
+
+### Igreja de Matias
+
+> Cada telha deste teto foi pintada por uma mão que sabia que ninguém a veria de perto. Fazer o belo sem plateia: talvez seja essa a definição mais pura de amor ao que se faz.
+
+### Bastião dos Pescadores — dia
+
+> Pescadores defendiam estas muralhas com a própria vida. Hoje elas defendem outra coisa: a certeza de que algumas vistas valem uma existência inteira.
+
+### O pôr do sol
+
+> O sol vai embora e a cidade acende, na mesma respiração. A vida ensina isso todos os dias e a gente quase nunca olha: toda despedida pode ser um acender de luzes.
+
+### Bastião dos Pescadores — noite
+
+> Vi Paris à noite. Vi Roma à noite. Vim até aqui descobrir que a beleza não tem fim — ela apenas muda de endereço, esperando que a gente tenha coragem de ir buscá-la.
+
+### Sinagoga da rua Dohány
+
+> A maior sinagoga da Europa está de pé por teimosia. Há um tipo de força que não grita: apenas se recusa a desaparecer. É a mais forte de todas.
+
+### O memorial e o cemitério
+
+> Há lugares que visitamos para aprender. E há lugares que visitamos para nos tornarmos pessoas que jamais permitiriam que aquilo se repetisse.
+
+### Bairro judeu
+
+> Muro pichado, vinho bom, memória pesada. Este bairro não escolheu entre a dor e a vida — ficou com as duas. E não existe definição mais honesta de coragem.
+
+### Mercado Central
+
+> Páprica, pão saindo do forno, gente que se cumprimenta pelo nome. Um povo não é feito de monumentos: é feito do que ele coloca na mesa todos os dias.
+
+### Café New York
+
+> Disseram que era o café mais bonito do mundo. Vim sentar onde os poetas sentavam — porque há lugares onde a beleza não se olha: se bebe, devagar, em silêncio.
+
+### Praça dos Heróis
+
+> Mil e cem anos de um povo em sete cavaleiros de bronze. Nenhum húngaro passa aqui sem endireitar as costas. Saber de onde se vem: eis o que nenhum tempo pode tirar de ninguém.
+
+### Termas Széchenyi
+
+> Água quente, ar frio, um século de tradição a trinta e oito graus. O corpo entende antes da cabeça: há coisas que não se explicam — se entregam.
+
+> Entre devagar. Esqueça o telefone por vinte minutos. A gente viaja o mundo inteiro à procura do extraordinário, e ele costuma ser isto: estar inteiro num único momento.
+
+### Ruin bar
+
+> Um prédio abandonado que virou festa. Budapeste conhece o segredo mais raro: transformar a ruína em alegria. Talvez seja o que todo coração partido deveria aprender.
+
+### O trem para Viena
+
+> Duas horas e meia de trilho, um império inteiro entre duas janelas. Viajar é a única forma de comprar algo que nos deixa mais ricos — e de partir sem nunca perder o que ficou.
+
+> Ninguém se despede de Budapeste. Só se combina de voltar. Porque há lugares que não ficam para trás: ficam dentro.
+
+Fim da Parte I — Budapeste.
+
+Próxima parada: Viena — A Cidade Que Dançou Valsas Sob o Império.
 
 ### Fala-âncora de Budapeste
 
