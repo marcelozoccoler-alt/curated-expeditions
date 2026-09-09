@@ -187,7 +187,7 @@ const Sobre = () => {
               Create Travel · desde a primeira conversa
             </p>
             <h1 className="heading-hero mb-6">
-              Viagens pensadas como obras autorais
+              Sobre a Create Travel — viagens pensadas como obras autorais
             </h1>
             <p className="text-lg md:text-xl text-primary-foreground/85 font-light leading-relaxed">
               Somos uma consultoria de viagens nascida de uma convicção: a de

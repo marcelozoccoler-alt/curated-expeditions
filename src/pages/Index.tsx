@@ -79,7 +79,7 @@ const Index = () => {
           >
             <div className="gold-line mx-auto mb-8" />
             <h1 className="heading-hero text-white mb-6">
-              Viagens Sob Medida e Grupos com Guia Brasileiro
+              Create Travel — Viagens Sob Medida e Grupos com Guia Brasileiro
             </h1>
             <p className="text-xl md:text-2xl text-white/90 mb-4 max-w-2xl mx-auto font-light">
               Roteiros sob medida com curadoria autoral. Experiências autênticas, exclusivas e com propósito — para quem busca profundidade.

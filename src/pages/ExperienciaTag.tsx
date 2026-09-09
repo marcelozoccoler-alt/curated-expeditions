@@ -285,6 +285,9 @@ const ExperienciaTag = () => {
 
       <section ref={resultsRef} className="section-padding flex-1 scroll-mt-32">
         <div className="container-editorial">
+          <h2 className="font-serif text-2xl md:text-3xl text-foreground mb-6">
+            Destinos para {tag.label.toLowerCase()}
+          </h2>
           <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4 mb-8">
             <p className="text-muted-foreground">
               <span className="font-semibold text-foreground">{sorted.length}</span>{" "}
