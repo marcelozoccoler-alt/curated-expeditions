@@ -403,19 +403,19 @@ Noite no Bastião: sobretudo ou trench coat. A temperatura cai para 6 a 10°C. L
 
 13:45 — Ônibus 16 rumo a Buda
 
-14:00 às 16:30 — Castelo de Buda
+14:00 às 15:15 — Castelo de Buda (por fora)
 
-16:30 às 18:00 — Bastião dos Pescadores, luz do dia e pôr do sol
+15:15 às 16:15 — Igreja de Matias por dentro (visita turística)
 
-19:15 — Entrada na Igreja de Matias
+16:15 às 18:00 — Bastião dos Pescadores (luz do dia)
 
-19:30 às 20:30 — Igreja de Matias por dentro
+18:00 às 18:50 — (Opcional) Missa das 18h na Matias — se o grupo quiser vivenciar
 
-20:30 às 21:15 — Bastião iluminado, vista noturna
+18:50 às 20:00 — Bastião à noite + luzes do Parlamento
 
-21:30 — Jantar em Buda
+20:15 — Jantar em Buda
 
-22:30 — Retorno ao hotel
+21:30 — Retorno ao hotel
 
 ### 08:50 — A CAMINHADA ATÉ A BASÍLICA
 
@@ -484,23 +484,9 @@ Site oficial: budacastlebudapest.com
 
 [Ver no Google Maps](https://www.google.com/maps/search/?api=1&query=Buda%20Castle%2C%20Budapest)
 
-### 16:30 — O BASTIÃO DOS PESCADORES
+### 15:15 — A IGREJA DE MATIAS
 
-[Castelo ao Bastião à Matias](https://www.google.com/maps/dir/?api=1&origin=Buda%20Castle%2C%20Szent%20Gy%C3%B6rgy%20t%C3%A9r%202%2C%201014&destination=M%C3%A1ty%C3%A1s-templom%2C%20Szenth%C3%A1roms%C3%A1g%20t%C3%A9r%202%2C%201014&waypoints=Hal%C3%A1szb%C3%A1stya%2C%20Szenth%C3%A1roms%C3%A1g%20t%C3%A9re%2C%201014&travelmode=walking)
-
-Mirante em forma de fortaleza medieval, construído entre 1895 e 1902 por Frigyes Schulek (1841–1919), com sete torres de pedra branca representando as sete tribos magiares que cruzaram os Cárpatos em 896, lideradas pelo príncipe Árpád.
-
-O grupo fica no nível inferior, que é gratuito — e é de lá que sai a vista clássica do Parlamento do outro lado do rio.
-
-Quem quiser subir às torres por conta própria: 1.700 HUF, cerca de R$ 28. Maiores de 65 anos pagam meia: 850 HUF, cerca de R$ 14.
-
-[Ver no Google Maps](https://www.google.com/maps/search/?api=1&query=Fisherman%27s%20Bastion%2C%20Budapest)
-
-### 18:00 — O PÔR DO SOL
-
-Às 18:13, o sol se põe. O céu vai do dourado ao rosa, ao violeta. Vocês estão no ponto mais alto da colina, com Budapeste inteira aos seus pés. O Danúbio serpenteia abaixo, as pontes brilham. É o momento mais romântico da cidade.
-
-### 19:15 — A IGREJA DE MATIAS
+[Castelo à Matias e ao Bastião](https://www.google.com/maps/dir/?api=1&origin=Buda%20Castle%2C%20Szent%20Gy%C3%B6rgy%20t%C3%A9r%202%2C%201014&destination=Hal%C3%A1szb%C3%A1stya%2C%20Szenth%C3%A1roms%C3%A1g%20t%C3%A9re%2C%201014&waypoints=M%C3%A1ty%C3%A1s-templom%2C%20Szenth%C3%A1roms%C3%A1g%20t%C3%A9r%202%2C%201014&travelmode=walking)
 
 O nome oficial é Igreja de Nossa Senhora de Buda. Fundada originalmente em 1015 por Santo Estevão. Reconstruída em estilo gótico no século XIV. No século XVI, os turcos otomanos a transformaram em mesquita por 150 anos — e foi aqui que ocorreu o Milagre Mariano de 1686: durante o cerco de Buda, uma parede da igreja desmoronou com um tiro de canhão, revelando uma estátua da Virgem Maria escondida atrás dela. Os defensores otomanos, vendo a aparição, perderam a moral e a cidade caiu no mesmo dia.
 
@@ -521,17 +507,35 @@ Com audioguia: 5.000 HUF, cerca de R$ 82.
 
 [Ver no Google Maps](https://www.google.com/maps/search/?api=1&query=Matthias%20Church%2C%20Budapest)
 
-### 20:30 — O BASTIÃO DOS PESCADORES À NOITE
+### 16:15 — O BASTIÃO DOS PESCADORES
+
+Mirante em forma de fortaleza medieval, construído entre 1895 e 1902 por Frigyes Schulek (1841–1919), com sete torres de pedra branca representando as sete tribos magiares que cruzaram os Cárpatos em 896, lideradas pelo príncipe Árpád.
+
+O grupo fica no nível inferior, que é gratuito — e é de lá que sai a vista clássica do Parlamento do outro lado do rio.
+
+Quem quiser subir às torres por conta própria: 1.700 HUF, cerca de R$ 28. Maiores de 65 anos pagam meia: 850 HUF, cerca de R$ 14.
+
+[Ver no Google Maps](https://www.google.com/maps/search/?api=1&query=Fisherman%27s%20Bastion%2C%20Budapest)
+
+### 17:30 — O PÔR DO SOL
+
+Às 18:13, o sol se põe. O céu vai do dourado ao rosa, ao violeta. Vocês estão no ponto mais alto da colina, com Budapeste inteira aos seus pés. O Danúbio serpenteia abaixo, as pontes brilham. É o momento mais romântico da cidade.
+
+### 18:00 — (OPCIONAL) MISSA NA IGREJA DE MATIAS
+
+Às 18h, a Matias celebra a missa do domingo. Quem quiser vivenciar a igreja em uso — com o canto, o incenso e a comunidade — pode entrar e ficar até às 18:50. Quem preferir, segue no Bastião vendo a cidade se acender.
+
+### 18:50 — O BASTIÃO DOS PESCADORES À NOITE
 
 Vocês saem da igreja e a cidade está transformada. As luzes do Parlamento brilham douradas sobre o Danúbio. A Ponte das Correntes é um colar de pérolas sobre a água escura. A Ponte Elisabeth, mais ao sul, risca o céu com seus cabos de aço iluminados. É Budapeste como vocês nunca viram.
 
-### 21:30 — JANTAR EM BUDA
+### 20:15 — JANTAR EM BUDA
 
 Pierrot Café & Restaurant (Fortuna utca 14): cozinha húngara contemporânea. Pratos entre 4.000 e 8.000 HUF, R$ 66 a R$ 131.
 
 Ruszwurm Cukrászda (Szentháromság utca 7): a confeitaria mais antiga de Budapeste, fundada em 1827. Diz a lenda que Sisi vinha aqui tomar café. Preços: 1.500 a 2.500 HUF, R$ 25 a R$ 41.
 
-### 22:30 — RETORNO AO HOTEL
+### 21:30 — RETORNO AO HOTEL
 
 [Bastião ao hotel](https://www.google.com/maps/dir/?api=1&origin=Hal%C3%A1szb%C3%A1stya%2C%20Szenth%C3%A1roms%C3%A1g%20t%C3%A9re%2C%201014%20Budapest&destination=Medos%20Hotel%2C%20J%C3%B3kai%20t%C3%A9r%209%2C%201061&travelmode=walking)
 
