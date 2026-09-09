@@ -409,7 +409,7 @@ Noite no Bastião: sobretudo ou trench coat. A temperatura cai para 6 a 10°C. L
 
 16:15 às 18:00 — Bastião dos Pescadores (luz do dia)
 
-18:00 às 18:50 — (Opcional) Missa das 18h na Matias — se o grupo quiser vivenciar
+18:00 às 18:50 — Tempo livre na colina do Castelo (Matias ou Bastião)
 
 18:50 às 20:00 — Bastião à noite + luzes do Parlamento
 
@@ -521,9 +521,9 @@ Quem quiser subir às torres por conta própria: 1.700 HUF, cerca de R$ 28. Maio
 
 Às 18:13, o sol se põe. O céu vai do dourado ao rosa, ao violeta. Vocês estão no ponto mais alto da colina, com Budapeste inteira aos seus pés. O Danúbio serpenteia abaixo, as pontes brilham. É o momento mais romântico da cidade.
 
-### 18:00 — (OPCIONAL) MISSA NA IGREJA DE MATIAS
+### 18:00 — PAUSA NA COLINA DO CASTELO
 
-Às 18h, a Matias celebra a missa do domingo. Quem quiser vivenciar a igreja em uso — com o canto, o incenso e a comunidade — pode entrar e ficar até às 18:50. Quem preferir, segue no Bastião vendo a cidade se acender.
+Tempo livre na colina. Quem quiser, fica perto da Matias; quem preferir, segue no Bastião vendo a cidade se acender até às 18:50.
 
 ### 18:50 — O BASTIÃO DOS PESCADORES À NOITE
 
