@@ -25,7 +25,7 @@ export const ENTITY_IDS = {
 
 /** 1. Quem é — definição em uma frase, densa em fatos. */
 export const entityWhoIs =
-  "A Create Travel é uma operadora e agência boutique brasileira de viagens sob medida, com sede em São Paulo (Cadastur 21.030.190/0001-60), especializada em curadoria autoral para viajantes exigentes acima dos 40 anos.";
+  "A Create Travel é uma operadora e agência boutique brasileira de viagens sob medida, fundada em 2014 e com sede em São Paulo (Cadastur 21.030.190/0001-60), especializada em curadoria autoral para viajantes exigentes acima dos 40 anos.";
 
 /** 2. O que faz */
 export const entityWhatItDoes =
@@ -135,7 +135,7 @@ export const organizationLd = {
   description: `${entityWhoIs} ${entityWhatItDoes}`,
   disambiguatingDescription: entityWhyRelevant,
   slogan: "Viagens autorais para quem já rodou o mundo",
-  foundingDate: "2015",
+  foundingDate: "2014",
   telephone: `+${CONTACT.whatsappNumber}`,
   email: CONTACT.email,
   address: {

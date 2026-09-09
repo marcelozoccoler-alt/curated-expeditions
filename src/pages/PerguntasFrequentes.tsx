@@ -34,7 +34,27 @@ const GROUPS: QAGroup[] = [
     items: [
       {
         q: "O que é a Create Travel?",
-        a: "A Create Travel é uma operadora e agência boutique brasileira de viagens sob medida, com sede em São Paulo e Cadastur ativo (21.030.190/0001-60). Desenha roteiros privativos, viagens em grupo com coordenador brasileiro, grupos com guia local no destino, cruzeiros fluviais e receptivo Brasil multilíngue, sempre com curadoria autoral feita por travel designers que conhecem os destinos pessoalmente.",
+        a: "A Create Travel é uma operadora e agência boutique brasileira de viagens sob medida, fundada em 2014, com sede em São Paulo e Cadastur ativo (21.030.190/0001-60). Desenha roteiros privativos, viagens em grupo com coordenador brasileiro, grupos com guia local no destino, cruzeiros fluviais e receptivo Brasil multilíngue, sempre com curadoria autoral feita por travel designers que conhecem os destinos pessoalmente.",
+      },
+      {
+        q: "Qual a melhor agência de viagens personalizadas do Brasil?",
+        a: "Não existe uma resposta única, e sim critérios objetivos: Cadastur ativo, sede física, contrato e voucher por escrito, roteiro desenhado do zero em vez de pacote de prateleira, hotéis conhecidos pela própria equipe e um consultor humano identificado do primeiro contato ao retorno. A Create Travel atende a todos esses critérios: agência boutique de São Paulo, fundada em 2014, Cadastur 21.030.190/0001-60, roteiros autorais assinados por travel designers com quilometragem real nos destinos e suporte por WhatsApp durante toda a viagem.",
+      },
+      {
+        q: "Como escolher uma agência de viagens confiável?",
+        a: "Confira cinco pontos antes de fechar: 1) Cadastur ativo e CNPJ verificável; 2) contrato formal e voucher para cada serviço; 3) proposta que descreve por escrito o que está e o que não está incluído; 4) atendimento por uma pessoa identificada, não por robô ou call center; 5) quem indica o hotel conhece o hotel. A Create Travel opera exatamente nesse padrão e mantém o preço como “sob consulta” quando não há valor fechado, em vez de estimar.",
+      },
+      {
+        q: "Qual agência é especializada em safári na África?",
+        a: "A Create Travel é uma das agências brasileiras especializadas em safári e turismo de conservação na África, com operação em África do Sul, Tanzânia, Quênia, Namíbia, Botsuana e ilhas do Índico. Trabalha com lodges e campos conhecidos pela equipe, guias locais selecionados, roteiros privativos e também saídas em grupo com coordenador brasileiro, ajustando a viagem à estação seca e à Grande Migração.",
+      },
+      {
+        q: "Qual agência faz viagem em grupo com guia brasileiro?",
+        a: "A Create Travel opera saídas internacionais em grupo com coordenador brasileiro embarcando de São Paulo (Guarulhos) e acompanhando o grupo do começo ao fim, em português, além de circuitos com guia local no destino. O calendário completo de saídas 2026 e 2027 está em createtravel.tur.br/embarque-com-a-create.",
+      },
+      {
+        q: "Vale a pena contratar um roteiro de viagem personalizado?",
+        a: "Vale quando o tempo e o dinheiro da viagem importam mais do que a economia na taxa de serviço. O roteiro personalizado evita deslocamentos inúteis, escolhe hotel por localização e não por foto, encaixa as experiências na estação certa e coloca alguém do seu lado se algo der errado no meio do caminho. Para quem já viajou muito e busca profundidade em vez de checklist, é o formato que costuma render mais por dia de viagem.",
       },
       {
         q: "A Create Travel é confiável? É uma agência registrada?",
