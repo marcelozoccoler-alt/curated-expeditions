@@ -1050,6 +1050,109 @@ Budapeste foi a cidade que resiste. Viena foi a cidade que dança. Praga é a ci
 
 ---
 
+
+---
+
+## FALAS PARA OS VÍDEOS DA VIAGEM
+
+Frases curtas para gravar sobre cada lugar. Fale devagar, olhando na lente, e cale-se depois — o silêncio é que dá peso.
+
+### Abertura de Praga
+
+> Praga não foi reconstruída. Praga nunca foi destruída. É isso que você está vendo: a Europa que sobrou inteira.
+
+### Fala-âncora de Praga
+
+> Cem torres, mil anos, nenhuma pressa.
+
+### A alma de Praga
+
+> Aqui as pedras sussurram. Ande mais devagar e você escuta.
+
+### O Moldava
+
+> O rio que atravessa o país inteiro e escolheu esta cidade para ser bonito.
+
+### A Ponte Carlos
+
+> Mil trezentos e cinquenta e sete. Carlos IV escolheu o dia e a hora exata para lançar a primeira pedra — ele acreditava em números. A ponte está aqui há quase setecentos anos, então talvez ele estivesse certo.
+
+> Trinta estátuas, seiscentos anos, e todo mundo atravessando como se fosse só uma rua.
+
+### A primeira noite — Dia 7
+
+> Cheguei de trem, à noite, na cidade das cem torres. Não existe primeira impressão melhor do que esta.
+
+### Praça da Cidade Velha — Dia 8
+
+> Gótico, barroco, renascença, tudo na mesma praça. Praga não escolheu uma época: guardou todas.
+
+### Igreja de Týn
+
+> Duas torres que parecem escrever no céu. Foi essa igreja que inventou o skyline desta cidade.
+
+### O Relógio Astronômico
+
+> Seiscentos e quinze anos marcando a hora sem parar. O relógio mais antigo do mundo ainda funcionando. E ele nunca se atrasou para nada.
+
+> Todo mundo diz que o espetáculo é curto. Curto é o vídeo. Longa é a lembrança.
+
+### A Cabeça de Kafka
+
+> Quarenta e duas camadas de aço girando. Kafka passou a vida sem se encontrar — e o monumento dele nunca para de se remontar.
+
+### Almoço tcheco
+
+> Cerveja mais barata que água, e melhor que na maioria do mundo. Os tchecos não brincam com isso.
+
+### Bonde 22 até o castelo
+
+> Um bonde amarelo subindo a colina. Este é o transporte público mais bonito da Europa.
+
+### Castelo de Praga
+
+> O maior castelo do mundo. Não é opinião minha: é medida.
+
+### Catedral de São Vito
+
+> Levaram quase seiscentos anos para terminar. Ninguém que começou viu o fim. E terminaram assim mesmo.
+
+> Olhe o vitral da esquerda. Foi Mucha quem pintou. Depois disso, vitral nenhum me impressiona igual.
+
+### Rua do Ouro — Zlatá ulička
+
+> Casinhas coloridas onde moraram os alquimistas do imperador. Ele queria transformar metal em ouro. Transformou uma cidade em lenda.
+
+### Biblioteca de Strahov
+
+> Oitocentos e oitenta anos de livros guardados por monges. Enquanto o mundo queimava bibliotecas, aqui alguém continuou copiando.
+
+### Petřín ao pôr do sol
+
+> Daqui de cima, as cem torres ficam douradas ao mesmo tempo. Dura dez minutos. Vale a subida inteira.
+
+### O cruzeiro no Moldava — Dia 9
+
+> Da água, você vê a ponte por baixo. E entende que ela é ainda mais impossível do que parecia.
+
+### Bairro judeu — Josefov
+
+> Doze camadas de sepulturas, uma sobre a outra, porque não havia mais terra permitida. Nem no descanso deram espaço a eles.
+
+> Aqui não se fotografa por bonito. Fotografa-se para lembrar.
+
+### Sinagoga Velha-Nova e o Golem
+
+> Dizem que o Golem ainda dorme no sótão desta sinagoga. Nesta cidade, ninguém tem pressa de desmentir uma lenda.
+
+### Jantar medieval
+
+> Fogo, alaúde, hidromel e faca na mão. Hoje a gente janta como no século quinze — e ninguém vai pedir desculpa por isso.
+
+### A despedida — Dia 10
+
+> Praga não te deixa ir. Ela combina de te encontrar de novo.
+
 Fim da Parte III — Praga.
 
 Próxima parada: Istambul — A Cidade Onde a Europa Termina e a Ásia Começa.
