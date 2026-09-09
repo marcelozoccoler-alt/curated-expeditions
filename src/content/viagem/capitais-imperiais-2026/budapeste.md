@@ -965,9 +965,9 @@ Budapeste é isso: uma cidade que toca o céu sem esquecer a terra.
 
 ---
 
-## FALAS PARA OS VÍDEOS DA VIAGEM
+## Falas para vídeo
 
-Frases curtas para gravar sobre cada lugar. Fale devagar, olhando na lente, e cale-se depois — o silêncio é que dá peso.
+Frases curtas para acompanhar as imagens.
 
 ### Abertura de Budapeste
 
