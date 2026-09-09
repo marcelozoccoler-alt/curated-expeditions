@@ -1056,99 +1056,100 @@ Frases curtas para acompanhar as imagens.
 
 ### Abertura de Praga
 
-> Praga não foi reconstruída. Praga nunca foi destruída. É isso que você está vendo: a Europa que sobrou inteira.
+> Praga não foi reconstruída, porque Praga nunca foi destruída. O que você está vendo é a única Europa que chegou inteira até nós.
 
 ### Fala-âncora de Praga
 
-> Cem torres, mil anos, nenhuma pressa.
+> Cem torres, mil anos, nenhuma pressa. Esta cidade não corre — e depois de três dias, você também não.
 
 ### A alma de Praga
 
-> Aqui as pedras sussurram. Ande mais devagar e você escuta.
+> Aqui as pedras sussurram. Diminua o passo, cale o celular, e você começa a escutar.
 
 ### O Moldava
 
-> O rio que atravessa o país inteiro e escolheu esta cidade para ser bonito.
+> O rio atravessa o país inteiro e escolheu esta cidade para ser bonito. Rios também têm preferências.
 
 ### A Ponte Carlos
 
-> Mil trezentos e cinquenta e sete. Carlos IV escolheu o dia e a hora exata para lançar a primeira pedra — ele acreditava em números. A ponte está aqui há quase setecentos anos, então talvez ele estivesse certo.
+> Mil trezentos e cinquenta e sete. Carlos IV escolheu o dia e a hora exata para lançar a primeira pedra, porque acreditava em números. Setecentos anos depois, a ponte ainda está aqui. Talvez ele estivesse certo.
 
-> Trinta estátuas, seiscentos anos, e todo mundo atravessando como se fosse só uma rua.
+> Trinta estátuas, seis séculos de gente passando, e todo mundo atravessa como se fosse uma rua qualquer. Pare no meio dela. Só isso: pare.
 
 ### A primeira noite — Dia 7
 
-> Cheguei de trem, à noite, na cidade das cem torres. Não existe primeira impressão melhor do que esta.
+> Cheguei de trem, à noite, na cidade das cem torres. Não existe primeira impressão melhor do que esta em lugar nenhum do mundo.
 
 ### Praça da Cidade Velha — Dia 8
 
-> Gótico, barroco, renascença, tudo na mesma praça. Praga não escolheu uma época: guardou todas.
+> Gótico, barroco, renascença, tudo na mesma praça. Praga não escolheu uma época favorita: guardou todas com o mesmo cuidado.
 
 ### Igreja de Týn
 
-> Duas torres que parecem escrever no céu. Foi essa igreja que inventou o skyline desta cidade.
+> Duas torres que parecem escrever alguma coisa no céu. Foi esta igreja que inventou o horizonte desta cidade — e ninguém ousou mexer depois.
 
 ### O Relógio Astronômico
 
-> Seiscentos e quinze anos marcando a hora sem parar. O relógio mais antigo do mundo ainda funcionando. E ele nunca se atrasou para nada.
+> Seiscentos e quinze anos marcando as horas sem parar. Guerras, impérios e revoluções passaram por baixo dele. E ele nunca se atrasou para nada.
 
-> Todo mundo diz que o espetáculo é curto. Curto é o vídeo. Longa é a lembrança.
+> Dizem que o espetáculo é curto. Curto é o vídeo. A lembrança fica.
 
 ### A Cabeça de Kafka
 
-> Quarenta e duas camadas de aço girando. Kafka passou a vida sem se encontrar — e o monumento dele nunca para de se remontar.
+> Quarenta e duas camadas de aço girando sem parar. Kafka passou a vida inteira sem se encontrar — e o monumento dele se desmonta e se remonta para sempre. Poucas homenagens foram tão exatas.
 
 ### Almoço tcheco
 
-> Cerveja mais barata que água, e melhor que na maioria do mundo. Os tchecos não brincam com isso.
+> Cerveja mais barata que água e melhor do que na maioria do mundo. Aqui isso não é piada: é patrimônio.
 
 ### Bonde 22 até o castelo
 
-> Um bonde amarelo subindo a colina. Este é o transporte público mais bonito da Europa.
+> Um bonde amarelo subindo devagar a colina, janela aberta, cidade lá embaixo. É o transporte público mais bonito da Europa e ninguém avisa.
 
 ### Castelo de Praga
 
-> O maior castelo do mundo. Não é opinião minha: é medida.
+> O maior castelo do mundo. Não é opinião minha, é medida — e mesmo assim ele não intimida: ele acolhe.
 
 ### Catedral de São Vito
 
-> Levaram quase seiscentos anos para terminar. Ninguém que começou viu o fim. E terminaram assim mesmo.
+> Quase seiscentos anos de obra. Ninguém que começou viu terminar, e terminaram assim mesmo. Construir para netos que nem se conhece: isso é fé.
 
-> Olhe o vitral da esquerda. Foi Mucha quem pintou. Depois disso, vitral nenhum me impressiona igual.
+> Olhe o vitral da esquerda. Foi Mucha quem pintou. Depois deste, nenhum outro vitral no mundo me impressiona igual.
 
 ### Rua do Ouro — Zlatá ulička
 
-> Casinhas coloridas onde moraram os alquimistas do imperador. Ele queria transformar metal em ouro. Transformou uma cidade em lenda.
+> Nestas casinhas coloridas moravam os alquimistas do imperador. Ele os pagou para transformar metal em ouro. Falharam — mas transformaram uma cidade em lenda.
 
 ### Biblioteca de Strahov
 
-> Oitocentos e oitenta anos de livros guardados por monges. Enquanto o mundo queimava bibliotecas, aqui alguém continuou copiando.
+> Oitocentos e oitenta anos de livros guardados por monges. Enquanto o mundo lá fora queimava bibliotecas, aqui dentro alguém continuou copiando, em silêncio, à luz de vela.
 
 ### Petřín ao pôr do sol
 
-> Daqui de cima, as cem torres ficam douradas ao mesmo tempo. Dura dez minutos. Vale a subida inteira.
+> Daqui de cima, as cem torres douram todas ao mesmo tempo. Dura dez minutos. Compensa a subida, a viagem e o ano inteiro.
 
 ### O cruzeiro no Moldava — Dia 9
 
-> Da água, você vê a ponte por baixo. E entende que ela é ainda mais impossível do que parecia.
+> Da água você vê a ponte por baixo, e entende que ela é ainda mais improvável do que parecia de cima.
 
 ### Bairro judeu — Josefov
 
-> Doze camadas de sepulturas, uma sobre a outra, porque não havia mais terra permitida. Nem no descanso deram espaço a eles.
+> Doze camadas de sepulturas, uma sobre a outra, porque não havia mais terra permitida a eles. Nem no descanso lhes deram espaço.
 
-> Aqui não se fotografa por bonito. Fotografa-se para lembrar.
+> Aqui não se fotografa porque é bonito. Fotografa-se para não deixar ninguém esquecer.
 
 ### Sinagoga Velha-Nova e o Golem
 
-> Dizem que o Golem ainda dorme no sótão desta sinagoga. Nesta cidade, ninguém tem pressa de desmentir uma lenda.
+> Dizem que o Golem ainda dorme no sótão desta sinagoga. Nesta cidade, ninguém tem pressa nenhuma de desmentir uma lenda — e é isso que a mantém viva.
 
 ### Jantar medieval
 
-> Fogo, alaúde, hidromel e faca na mão. Hoje a gente janta como no século quinze — e ninguém vai pedir desculpa por isso.
+> Fogo, alaúde, hidromel e faca na mão. Hoje jantamos como no século quinze, rindo alto, sem pedir desculpa a ninguém.
 
 ### A despedida — Dia 10
 
-> Praga não te deixa ir. Ela combina de te encontrar de novo.
+> Praga não deixa a gente ir embora. Ela apenas combina de reencontrar você mais adiante.
+
 
 Fim da Parte III — Praga.
 
