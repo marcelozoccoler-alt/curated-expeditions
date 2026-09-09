@@ -4,9 +4,9 @@ export const costaDasBaleiasGuide: BrazilGuideLocalized = {
   pt: {
     destinationName: "Costa das Baleias",
     blurb: "Caravelas, Abrolhos e Cumuruxatiba: o santuário brasileiro das jubartes, entre julho e novembro.",
-    metaTitle: "Costa das Baleias: guia de Abrolhos e temporada das jubartes",
+    metaTitle: "Costa das Baleias: ver jubartes de perto em Abrolhos",
     metaDescription:
-      "Guia da Costa das Baleias (BA): melhor época para ver baleias jubarte, Abrolhos, Caravelas, Alcobaça, Prado, Cumuruxatiba e Corumbau.",
+      "De julho a novembro, milhares de jubartes param em Abrolhos para dar à luz. O mês ideal, de onde saem os barcos e onde ficar entre Caravelas e Corumbau.",
     keywords:
       "costa das baleias bahia, abrolhos, baleia jubarte bahia, caravelas bahia, prado bahia, cumuruxatiba, corumbau, temporada de baleias brasil",
     h1: "Costa das Baleias: o encontro anual com as jubartes no Atlântico Sul",
@@ -187,9 +187,9 @@ export const costaDasBaleiasGuide: BrazilGuideLocalized = {
   en: {
     destinationName: "Whale Coast",
     blurb: "Caravelas, Abrolhos and Cumuruxatiba: Brazil's humpback whale sanctuary, July through November.",
-    metaTitle: "Whale Coast Brazil: Abrolhos & Humpback Whale Season Guide",
+    metaTitle: "Whale Coast Brazil: See Humpback Whales Up Close",
     metaDescription:
-      "A guide to Bahia's Whale Coast: best time to see humpback whales, Abrolhos, Caravelas, Alcobaça, Prado, Cumuruxatiba and Corumbau.",
+      "From July to November thousands of humpbacks calve at Abrolhos. The best month to go, where the boats leave from, and where to stay near Caravelas.",
     keywords:
       "whale coast bahia, abrolhos brazil, humpback whale bahia, caravelas brazil, prado bahia, cumuruxatiba, corumbau, whale season brazil",
     h1: "The Whale Coast: the South Atlantic's annual humpback gathering",
@@ -370,9 +370,9 @@ export const costaDasBaleiasGuide: BrazilGuideLocalized = {
   es: {
     destinationName: "Costa de las Ballenas",
     blurb: "Caravelas, Abrolhos y Cumuruxatiba: el santuario brasileño de las yubartas, de julio a noviembre.",
-    metaTitle: "Costa de las Ballenas: guía de Abrolhos y temporada de yubartas",
+    metaTitle: "Costa de las Ballenas: ver yubartas de cerca en Abrolhos",
     metaDescription:
-      "Guía de la Costa de las Ballenas (Bahía): mejor época para ver ballenas yubarta, Abrolhos, Caravelas, Alcobaça, Prado, Cumuruxatiba y Corumbau.",
+      "De julio a noviembre miles de yubartas paren en Abrolhos. El mejor mes, desde dónde salen los barcos y dónde alojarse cerca de Caravelas.",
     keywords:
       "costa de las ballenas bahia, abrolhos brasil, ballena jorobada bahia, caravelas brasil, prado bahia, cumuruxatiba, corumbau, temporada de ballenas brasil",
     h1: "Costa de las Ballenas: el encuentro anual con las yubartas en el Atlántico Sur",
@@ -553,9 +553,9 @@ export const costaDasBaleiasGuide: BrazilGuideLocalized = {
   it: {
     destinationName: "Costa delle Balene",
     blurb: "Caravelas, Abrolhos e Cumuruxatiba: il santuario brasiliano delle megattere, da luglio a novembre.",
-    metaTitle: "Costa delle Balene: guida ad Abrolhos e stagione delle megattere",
+    metaTitle: "Costa delle Balene: le megattere da vicino ad Abrolhos",
     metaDescription:
-      "Guida alla Costa delle Balene (Bahia): periodo migliore per vedere le megattere, Abrolhos, Caravelas, Alcobaça, Prado, Cumuruxatiba e Corumbau.",
+      "Da luglio a novembre migliaia di megattere partoriscono ad Abrolhos. Il mese migliore, da dove partono le barche e dove dormire vicino a Caravelas.",
     keywords:
       "costa delle balene bahia, abrolhos brasile, megattera bahia, caravelas brasile, prado bahia, cumuruxatiba, corumbau, stagione balene brasile",
     h1: "Costa delle Balene: l'incontro annuale con le megattere nell'Atlantico del Sud",
@@ -736,9 +736,9 @@ export const costaDasBaleiasGuide: BrazilGuideLocalized = {
   de: {
     destinationName: "Walküste",
     blurb: "Caravelas, Abrolhos und Cumuruxatiba: Brasiliens Buckelwal-Schutzgebiet, Juli bis November.",
-    metaTitle: "Walküste Brasilien: Abrolhos & Buckelwal-Saison Guide",
+    metaTitle: "Walküste Brasilien: Buckelwale ganz nah bei Abrolhos",
     metaDescription:
-      "Reiseguide zur Walküste (Bahia): beste Reisezeit für Buckelwale, Abrolhos, Caravelas, Alcobaça, Prado, Cumuruxatiba und Corumbau.",
+      "Von Juli bis November kalben Tausende Buckelwale bei Abrolhos. Der beste Monat, die Abfahrtsorte der Boote und Unterkünfte nahe Caravelas.",
     keywords:
       "walkuste bahia, abrolhos brasilien, buckelwal bahia, caravelas brasilien, prado bahia, cumuruxatiba, corumbau, walsaison brasilien",
     h1: "Die Walküste: das jährliche Treffen der Buckelwale im Südatlantik",
