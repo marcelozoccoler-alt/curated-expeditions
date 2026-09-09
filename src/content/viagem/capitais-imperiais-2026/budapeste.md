@@ -535,7 +535,7 @@ Pierrot Café & Restaurant (Fortuna utca 14): cozinha húngara contemporânea. P
 
 Ruszwurm Cukrászda (Szentháromság utca 7): a confeitaria mais antiga de Budapeste, fundada em 1827. Diz a lenda que Sisi vinha aqui tomar café. Preços: 1.500 a 2.500 HUF, R$ 25 a R$ 41.
 
-### 22:30 — RETORNO AO HOTEL
+### 21:30 — RETORNO AO HOTEL
 
 [Bastião ao hotel](https://www.google.com/maps/dir/?api=1&origin=Hal%C3%A1szb%C3%A1stya%2C%20Szenth%C3%A1roms%C3%A1g%20t%C3%A9re%2C%201014%20Budapest&destination=Medos%20Hotel%2C%20J%C3%B3kai%20t%C3%A9r%209%2C%201061&travelmode=walking)
 
