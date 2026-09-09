@@ -861,4 +861,96 @@ E como dizem os turcos ao brindar: Şerefe! — "À honra!"
 
 Istambul é uma cidade que não se visita: se atravessa. Entre dois continentes, entre duas civilizações, entre dois tempos. Vocês chegam como turistas e partem com um pedaço do Bósforo na alma.
 
+---
+
+## FALAS PARA OS VÍDEOS DA VIAGEM
+
+Frases curtas para gravar sobre cada lugar. Fale devagar, olhando na lente, e cale-se depois — o silêncio é que dá peso.
+
+### Abertura de Istambul
+
+> Aqui a Europa termina e a Ásia começa. E ninguém consegue dizer exatamente onde.
+
+### Fala-âncora de Istambul
+
+> Duas mil e setecentas primaveras, dois continentes, um chamado à oração. Istambul não é uma cidade. É uma travessia.
+
+### O Bósforo
+
+> Trinta quilômetros de água separando dois mundos. Ou unindo — depende do lado em que você nasceu.
+
+### O chamado à oração
+
+> Cinco vezes por dia, a cidade inteira para de conversar. Não precisa ser religioso. Basta ouvir.
+
+### Os gatos de Istambul
+
+> Aqui o gato não é de ninguém. O gato é da cidade. E a cidade cuida.
+
+### A primeira noite em Gálata — Dia 10
+
+> Cheguei de noite, e a torre já estava acesa esperando. Istambul tem esse jeito de te receber como se já te conhecesse.
+
+### Mesquita Azul — Dia 11
+
+> Vinte mil azulejos azuis feitos à mão. Seis minaretes que causaram um escândalo no mundo islâmico. E um silêncio que apaga todos os ruídos de fora.
+
+> Tire os sapatos. Baixe a voz. Aqui não somos turistas: somos convidados.
+
+### Hagia Sophia
+
+> Mil e quinhentos anos. Igreja, mesquita, museu, mesquita outra vez. Nenhum outro prédio do mundo mudou tanto de fé sem cair.
+
+> Quando ela foi inaugurada, o imperador disse: "Salomão, eu te superei." Entre aqui e diga se ele exagerou.
+
+> Essa cúpula parece flutuar. Foi feita de propósito para parecer que não pesa nada.
+
+### O Hipódromo
+
+> Aqui corriam as bigas de Bizâncio. Hoje corre criança, pombo e vendedor de milho. A história não termina: ela troca de elenco.
+
+### Gran Bazar
+
+> Quatro mil lojas, sessenta e uma ruas cobertas, quinhentos e setenta anos de pechincha. Este é o shopping mais antigo do mundo — e ainda o mais barulhento.
+
+> Aceite o chá. Sempre aceite o chá. O preço melhora depois dele.
+
+### A tarde reservada
+
+> A tarde de hoje eu não vou contar. Só vou dizer que é a razão pela qual desenhei esta viagem.
+
+### Igreja de Chora — Dia 12
+
+> Ouro puro nos mosaicos, tessela por tessela, colocadas à mão há setecentos anos. É o Renascimento antes do Renascimento existir.
+
+### Balat
+
+> Casas cor de doce, roupa no varal, avó na janela. Esse é o bairro onde Istambul deixa de posar para a foto.
+
+### O fusca rosa
+
+> Um fusca rosa numa ladeira turca. Não tem explicação. Tem só a melhor foto da viagem.
+
+### Almoço na orla
+
+> Peixe fresco, pão quente, o Corno de Ouro ali. Chamam de simples. Eu chamo de perfeito.
+
+### O retorno pela água
+
+> Em Istambul, o barco é ônibus. Vinte minutos de travessia, e o skyline inteiro passa de graça pela janela.
+
+### Cruzeiro noturno no Bósforo
+
+> Palácio de um lado, fortaleza do outro, e a ponte acesa por cima. Esta cidade sabe se despedir de um dia.
+
+> Duas pontes, dois continentes, uma taça na mão. Se a vida tiver uma noite perfeita, é bem parecida com esta.
+
+### O último çay — Dia 13
+
+> Copinho de vidro, chá vermelho, açúcar na medida errada. Vou sentir falta disso mais do que dos monumentos.
+
+### O voo de volta
+
+> Quatro capitais, quatorze dias, dois continentes. Eu não voltei o mesmo — e é para isso que a gente viaja.
+
 Fim da Parte IV — Istambul.
