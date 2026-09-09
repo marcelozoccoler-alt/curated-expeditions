@@ -1050,9 +1050,6 @@ Budapeste foi a cidade que resiste. Viena foi a cidade que dança. Praga é a ci
 
 ---
 
-
----
-
 ## FALAS PARA OS VÍDEOS DA VIAGEM
 
 Frases curtas para gravar sobre cada lugar. Fale devagar, olhando na lente, e cale-se depois — o silêncio é que dá peso.
