@@ -403,7 +403,7 @@ Noite no Bastião: sobretudo ou trench coat. A temperatura cai para 6 a 10°C. L
 
 14:00 às 15:15 — Castelo de Buda (por fora)
 
-15:15 às 16:15 — Igreja de Matias por dentro (visita turística)
+15:15 às 16:15 — Igreja de Matias (por fora)
 
 16:15 às 18:00 — Bastião dos Pescadores (luz do dia)
 
@@ -494,14 +494,9 @@ Telhado com 147.000 telhas Zsolnay esmaltadas — um espetáculo de cores.
 
 O nome popular da igreja vem de um noivo. Foi aqui que Mátyás Hunyadi, o rei Matias Corvino, se casou em 1463 — o mais culto dos reis húngaros, um renascentista de temperamento vulcânico que juntou três mil manuscritos na sua biblioteca, a segunda maior da Europa depois da do Vaticano. Um rei que preferia livros a batalhas, num século em que isso era quase escandaloso.
 
+A visita do grupo é por fora: fachada, telhado colorido e entorno na colina — com tempo para contemplar o mesmo cenário onde reis foram coroados e um império se reinventou. A entrada interna fica para uma próxima viagem.
+
 Site oficial: matyas-templom.hu
-
-Valores atualizados (2026):
-
-Entrada para visita turística: 3.400 HUF, cerca de R$ 56.
-
-Com audioguia: 5.000 HUF, cerca de R$ 82.
-
 
 [Ver no Google Maps](https://www.google.com/maps/search/?api=1&query=Matthias%20Church%2C%20Budapest)
 
