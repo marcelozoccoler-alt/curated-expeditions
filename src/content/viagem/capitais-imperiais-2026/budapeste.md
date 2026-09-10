@@ -238,8 +238,6 @@ Bar no lobby.
 
 Elevador.
 
-Quartos com varanda, solicitar no check-in.
-
 Dica local: o hotel fica a 200 metros da estação de metrô Oktogon, linha M1, a mais antiga da Europa Continental, inaugurada em 1896. A região está cheia de restaurantes, cafés e lojas.
 
 A praça em frente ao hotel tem nome de contador de histórias. Mór Jókai escreveu mais de cem romances no século XIX e foi, para os húngaros, o homem que ensinou a nação a se enxergar: amigo de Liszt, contemporâneo de Petőfi, dono de uma prosa que ainda hoje é a literatura da alma húngara. É bonito pensar que vocês vão acordar todas as manhãs numa praça batizada em nome de um escritor.
