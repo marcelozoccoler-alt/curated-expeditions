@@ -257,9 +257,9 @@ export const INCOMING_COPY: Record<Exclude<ContentLang, "pt">, IncomingCopy> = {
   },
   it: {
     meta: {
-      title: "Viaggi in Brasile su misura con guida privata | Create Travel",
+      title: "Viaggio in Brasile su misura, disegnato da chi ci vive",
       description:
-        "Progettiamo il tuo viaggio in Brasile giorno per giorno: Amazzonia, Pantanal, Lençóis, Bahia, Rio e Noronha, con hotel boutique e guide private. Scrivici le date.",
+        "Progettiamo il tuo viaggio in Brasile giorno per giorno — Amazzonia, Pantanal, Lençóis, Bahia, Rio e Noronha — con lodge boutique, guide private e un travel designer sempre al tuo WhatsApp.",
       keywords:
         "agenzia viaggi Brasile, viaggio su misura Brasile, tour Amazzonia, safari Pantanal, Lençóis Maranhenses, viaggi di lusso Brasile, itinerario personalizzato Brasile, tour Rio de Janeiro, Cascate di Iguazú, viaggio Bahia, Fernando de Noronha",
     },
