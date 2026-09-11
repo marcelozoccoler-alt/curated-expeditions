@@ -39,7 +39,7 @@ export const GrupoPdfButton = () => {
     >
       <FileDown size={18} />
       <span className="text-sm font-medium hidden sm:inline">
-        {busy ? "Preparando…" : "Baixar PDF"}
+        {busy ? "Preparando…" : isViagem ? "Gerar PDF do livro" : "Baixar PDF"}
       </span>
     </button>
   );
