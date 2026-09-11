@@ -4,6 +4,16 @@
 
 ### 24 a 30 de setembro de 2026 · Silvia & Patrícia
 
+## PARIS, ANTES DE TUDO
+
+Há cidades que se visitam e cidades que se lembram para sempre. Paris é das que ficam — não porque seja perfeita, mas porque sabe guardar os momentos que a gente nem sabia que estava criando.
+
+Ela não pede pressa. Ped atenção. Pede que você levante cedo, atravesse uma ponte ainda molhada de orvalho e descubra que a própria luz da manhã é uma das maiores atrações da cidade. Paris ensina a ver: o reflexo dourado no Sena, a curva de um telhado, a fachada de uma padaria que já viu gerações passarem.
+
+Para Silvia e Patrícia, esta viagem é também uma celebração de uma amizade que atravessa oceanos. Duas amigas que escolheram caminhar juntas pelas mesmas calçadas onde poetas, pintores e sonhadores caminharam antes. Não é sobre ver tudo. É sobre sentir tudo — juntas.
+
+Paris não precisa ser conquistada. Ela só pede que você chegue com o coração aberto.
+
 ## O QUE ESTE LIVRO É
 
 Paris não se explica: se atravessa. E atravessar Paris ao lado de uma amiga é multiplicar cada
