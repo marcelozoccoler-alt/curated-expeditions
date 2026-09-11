@@ -135,12 +135,6 @@ const ViagemParis = () => {
                     {b.title}
                   </a>
                 ))}
-                <a
-                  href="#rotas"
-                  className="block text-sm leading-snug font-medium text-foreground hover:text-gold pt-2"
-                >
-                  Rotas do hotel até os pontos de encontro
-                </a>
               </div>
             </aside>
 
