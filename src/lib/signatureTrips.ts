@@ -1,5 +1,7 @@
 import heroAsset from "@/assets/laponia-signature-hero.jpg.asset.json";
 
+const ASSET_ORIGIN = "https://id-preview--42652cab-79cf-4f24-aaf7-366f68e48196.lovable.app";
+
 export interface SignatureTrip {
   slug: string;
   title: string;
@@ -27,7 +29,7 @@ export const signatureTrips: SignatureTrip[] = [
     duration: "13 dias / 10 noites",
     destinations: ["Helsinque", "Rovaniemi", "Kemi", "Tromsø", "Oslo"],
     countries: ["Finlândia", "Noruega"],
-    image: heroAsset.url,
+    image: `${ASSET_ORIGIN}${heroAsset.url}`,
     imageAlt:
       "Aurora boreal sobre floresta nevada e hospedagem iluminada na Lapônia",
     href: "/grupos/laponia-circulo-polar-2027",

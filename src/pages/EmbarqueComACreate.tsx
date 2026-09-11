@@ -444,7 +444,7 @@ const RAW_DEPARTURES = [
   },
   {
     href: "/grupos/laponia-circulo-polar-2027",
-    img: grupoLaponiaSignatureImg.url,
+    img: `https://id-preview--42652cab-79cf-4f24-aaf7-366f68e48196.lovable.app${grupoLaponiaSignatureImg.url}`,
     tag: "25/03 a 06/04/2027 · 13 dias · Create Signature",
     title: "Lapônia · Luzes do Círculo Polar",
     subtitle: "Helsinque · Rovaniemi · Kemi · Tromsø · Oslo",
