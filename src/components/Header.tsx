@@ -60,6 +60,7 @@ export const Header = () => {
   const gruposSubItems =
     lang === "pt"
       ? [
+          { label: "Create Signature — Grupos de Luxo", href: "/create-signature" },
           { label: "Grupos com Guia", href: "/embarque-com-a-create" },
           { label: "Grupos com guia local", href: "/grupos-guia-local" },
           { label: "Crie seu grupo", href: "/crie-seu-grupo" },
