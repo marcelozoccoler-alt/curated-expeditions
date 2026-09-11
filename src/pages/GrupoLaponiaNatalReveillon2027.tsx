@@ -80,7 +80,7 @@ const faqs = [
   { q: "É necessário ter experiência para conduzir o snowmobile?", a: "Não é exigida experiência prévia, pois há orientação local. O condutor deve ter pelo menos 18 anos, carteira de habilitação válida e aceitar as regras de responsabilidade do fornecedor. Restrições de altura e idade podem se aplicar." },
   { q: "As roupas para o frio estão incluídas?", a: "Está previsto o fornecimento de roupas térmicas durante a permanência na Lapônia, incluindo itens como macacão e botas. Os componentes exatos devem ser reconfirmados na documentação final da viagem." },
   { q: "Qual é o nível de esforço físico?", a: "O roteiro combina caminhadas urbanas e atividades na neve. É importante ter mobilidade para subir em trenós, embarcações e veículos, caminhar sobre superfícies geladas e suportar temperaturas negativas." },
-  { q: "Qual é o investimento da viagem?", a: "O valor está sob consulta porque depende da confirmação dos voos, da acomodação escolhida e da disponibilidade dos serviços. A Create Travel envia uma proposta atualizada antes da reserva." },
+  { q: "Qual é o investimento da viagem?", a: "O programa aéreo + terrestre sai de € 11.050 por pessoa em apartamento duplo, com opção somente terrestre a partir de € 9.372. Há suplemento para apartamento individual e condições especiais para triplo e crianças até 12 anos — a tabela completa está na seção Investimento. A Create Travel confirma disponibilidade e a proposta atualizada antes da reserva." },
 ];
 
 const hotelJsonLd = buildHotelsJsonLd(hotels, laponiaReveillonSignature.title, PATH);
@@ -224,8 +224,27 @@ const GrupoLaponiaNatalReveillon2027 = () => (
           </div>
           <aside className="bg-muted border border-border rounded-lg p-8 md:p-10">
             <p className="text-caption text-gold mb-4">Investimento</p>
-            <h2 className="font-serif text-4xl mb-4">Sob consulta</h2>
-            <p className="text-muted-foreground leading-relaxed mb-7">A proposta será atualizada conforme acomodação, disponibilidade aérea e confirmação dos serviços. Assim você recebe valores reais, sem estimativas que possam induzir ao erro.</p>
+            <p className="text-caption text-muted-foreground mb-2">Por pessoa, em euro, em apartamento duplo · Saída de 21 de dezembro</p>
+            <h2 className="font-serif text-4xl mb-1">€ 11.050</h2>
+            <p className="text-sm text-muted-foreground mb-6">Programa aéreo + terrestre</p>
+            <dl className="space-y-3 text-sm border-t border-border pt-6 mb-6">
+              <div className="flex justify-between gap-4"><dt className="text-muted-foreground">Somente terrestre (apto. duplo)</dt><dd className="font-medium">€ 9.372</dd></div>
+              <div className="flex justify-between gap-4"><dt className="text-muted-foreground">Suplemento apto. individual</dt><dd className="font-medium">€ 2.131</dd></div>
+              <div className="flex justify-between gap-4"><dt className="text-muted-foreground">Redução apto. triplo</dt><dd className="font-medium">€ 233</dd></div>
+              <div className="flex justify-between gap-4"><dt className="text-muted-foreground">Redução menor de 12 anos compartilhando apto. duplo com 2 adultos</dt><dd className="font-medium">€ 815</dd></div>
+            </dl>
+            <p className="text-caption text-muted-foreground mb-3">Taxas e impostos (IOF e taxa de embarque)</p>
+            <dl className="space-y-3 text-sm mb-6">
+              <div className="flex justify-between gap-4"><dt className="text-muted-foreground">Aéreo + terrestre · apto. duplo</dt><dd className="font-medium">€ 665</dd></div>
+              <div className="flex justify-between gap-4"><dt className="text-muted-foreground">Aéreo + terrestre · apto. individual</dt><dd className="font-medium">€ 719</dd></div>
+              <div className="flex justify-between gap-4"><dt className="text-muted-foreground">Terrestre · apto. duplo</dt><dd className="font-medium">€ 489</dd></div>
+              <div className="flex justify-between gap-4"><dt className="text-muted-foreground">Terrestre · apto. individual</dt><dd className="font-medium">€ 543</dd></div>
+            </dl>
+            <ul className="text-xs text-muted-foreground space-y-2 leading-relaxed mb-7">
+              <li>Embarque em outros estados e adicionais para trechos domésticos: sob consulta.</li>
+              <li>Incluídos o jantar de Natal em Rovaniemi e o Réveillon em Oslo, com bebidas.</li>
+              <li>Na opção somente terrestre, os traslados de chegada e saída não estão incluídos, salvo se estiverem utilizando os mesmos voos do grupo.</li>
+            </ul>
             <WhatsAppButton variant="cta" label="Receber proposta atualizada" params={whatsappParams} className="w-full" />
           </aside>
         </div>
