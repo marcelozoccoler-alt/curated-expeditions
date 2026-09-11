@@ -59,6 +59,7 @@ import grupoChinaPrimaveraImg from "@/assets/grupo-china-primavera-2027.jpg";
 import grupoLagosChilenosImg from "@/assets/grupo-lagos-chilenos-2027.jpg";
 import grupoTunisiaImg from "@/assets/grupo-tunisia-carnaval-2027.jpg";
 import grupoEgitoAbrilImg from "@/assets/grupo-egito-abril-2027.jpg";
+import grupoLaponiaSignatureImg from "@/assets/laponia-signature-hero.jpg.asset.json";
 
 const RAW_DEPARTURES = [
   {
@@ -440,6 +441,16 @@ const RAW_DEPARTURES = [
     desc: "Pirâmides de Gizé, Grande Museu Egípcio, templos de Karnak e Luxor, Vale dos Reis, cruzeiro pelo Nilo até Assuã e três noites tudo incluído no Mar Vermelho. Voos Emirates e guia desde o Brasil.",
     fromPrice: "A partir de US$ 4.895 por pessoa (apto duplo)",
     status: "Saída confirmada",
+  },
+  {
+    href: "/grupos/laponia-circulo-polar-2027",
+    img: `https://id-preview--42652cab-79cf-4f24-aaf7-366f68e48196.lovable.app${grupoLaponiaSignatureImg.url}`,
+    tag: "25/03 a 06/04/2027 · 13 dias · Create Signature",
+    title: "Lapônia · Luzes do Círculo Polar",
+    subtitle: "Helsinque · Rovaniemi · Kemi · Tromsø · Oslo",
+    desc: "Quebra-gelo no Báltico, snowmobile, cultura Sami, trenós com renas e huskies e duas buscas pela aurora boreal. Jornada Signature com guia brasileiro.",
+    fromPrice: "Valor sob consulta",
+    status: "Reservas abertas",
   },
 ];
 

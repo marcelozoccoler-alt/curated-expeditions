@@ -18,6 +18,7 @@ import { diaryPosts } from "../src/lib/diaryPosts";
 import { riverCruises } from "../src/lib/riverCruises";
 import { localGuideGroups } from "../src/lib/localGuideGroups";
 import { brazilStates } from "../src/lib/brazilStates";
+import { signatureTrips } from "../src/lib/signatureTrips";
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const DOMAIN = CONTACT.domain.replace(/\/$/, "");
@@ -50,6 +51,19 @@ line("Público atendido: viajantes exigentes, famílias, casais, grupos privados
 line();
 line(`Perguntas frequentes com respostas diretas: ${DOMAIN}/perguntas-frequentes`);
 line();
+
+// ---------- Create Signature ----------
+line("## Create Signature — Grandes Jornadas");
+line();
+line(`Coleção: ${DOMAIN}/create-signature`);
+for (const trip of signatureTrips) {
+  line(`### ${trip.title}`);
+  line(`- URL: ${DOMAIN}${trip.href}`);
+  line(`- Data: ${trip.dates} · Duração: ${trip.duration}`);
+  line(`- Países: ${trip.countries.join(", ")} · Rota: ${trip.destinations.join(", ")}`);
+  line(`- Resumo: ${trip.subtitle}. Valor sob consulta.`);
+  line();
+}
 
 // ---------- Destinos ----------
 line("## Destinos");
