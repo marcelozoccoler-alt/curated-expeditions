@@ -665,9 +665,6 @@ contar o jantar do cruzeiro, já pago.
 
 ### O total de gastos extras em Paris
 
-**Cenário econômico:** transporte € 110 a € 140 · alimentação € 450 a € 600 · cafés, água e
-pequenos extras € 60 a € 100 · compras modestas € 100 a € 200. **Total para as duas: € 720 a € 1.040.**
-
 **Cenário econômico:** transporte € 106 a € 136 · alimentação € 420 a € 660 · cafés, água e
 pequenos extras € 60 a € 100 · compras modestas € 100 a € 200. **Total para as duas: € 686 a € 1.096.**
 
