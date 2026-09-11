@@ -9,8 +9,10 @@ import heroPraga from "@/assets/viagem/capitais-imperiais-praga.jpg";
 import heroIstambul from "@/assets/viagem/capitais-imperiais-istambul.jpg";
 
 import { parseCity } from "./parseRoteiro";
+import type { CidadeRoteiro } from "./parseRoteiro";
 
 export type { RoteiroItem, RoteiroBlock, CidadeRoteiro } from "./parseRoteiro";
+
 
 
 export const VIAGEM_SLUG = "capitais-imperiais-2026";
