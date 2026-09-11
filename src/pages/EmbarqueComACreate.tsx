@@ -443,6 +443,16 @@ const RAW_DEPARTURES = [
     status: "Saída confirmada",
   },
   {
+    href: "/grupos/laponia-natal-reveillon-2027",
+    img: `https://id-preview--42652cab-79cf-4f24-aaf7-366f68e48196.lovable.app${grupoLaponiaSignatureImg.url}`,
+    tag: "21/12/2026 a 02/01/2027 · 13 dias · Create Signature",
+    title: "Lapônia · Natal Branco & Réveillon em Oslo",
+    subtitle: "Helsinque · Rovaniemi · Kemi · Tromsø · Oslo",
+    desc: "Natal na Lapônia, Réveillon em Oslo, quebra-gelo, snowmobile, cultura Sami, trenós e duas buscas pela aurora boreal, com guia brasileiro.",
+    fromPrice: "Valor sob consulta",
+    status: "Saída confirmada",
+  },
+  {
     href: "/grupos/laponia-circulo-polar-2027",
     img: `https://id-preview--42652cab-79cf-4f24-aaf7-366f68e48196.lovable.app${grupoLaponiaSignatureImg.url}`,
     tag: "25/03 a 06/04/2027 · 13 dias · Create Signature",

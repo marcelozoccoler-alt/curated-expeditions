@@ -125,14 +125,15 @@ const CreateSignature = () => {
           <div className="container-editorial">
             <div className="flex flex-col md:flex-row md:items-end md:justify-between gap-5 mb-10">
               <div>
-                <p className="text-caption text-gold mb-3">Primeira edição</p>
-                <h2 className="heading-section">A jornada inaugural</h2>
+                <p className="text-caption text-gold mb-3">Próximas saídas</p>
+                <h2 className="heading-section">Duas estações, duas formas de viver o Ártico</h2>
               </div>
               <p className="text-muted-foreground max-w-lg md:text-right">
-                O extremo norte europeu, quando a neve ainda cobre a paisagem e a noite pode acender em verde.
+                O Natal e o Réveillon sob a neve ou a luz do fim do inverno: escolha o tempo que mais conversa com você.
               </p>
             </div>
 
+            <div className="space-y-10">
             {signatureTrips.map((trip) => (
               <article key={trip.slug} className="grid lg:grid-cols-[1.35fr_1fr] bg-card border border-border overflow-hidden rounded-lg">
                 <Link to={trip.href} className="block min-h-[330px] lg:min-h-[520px] overflow-hidden">
@@ -159,6 +160,7 @@ const CreateSignature = () => {
                 </div>
               </article>
             ))}
+            </div>
           </div>
         </section>
 
