@@ -492,6 +492,11 @@ export const DEPARTURES = RAW_DEPARTURES
       monthLabel: `${MONTH_LABELS_PT[date.getMonth()]}/${String(date.getFullYear()).slice(-2)}`,
     };
   })
+  .filter((d) => {
+    const today = new Date();
+    today.setHours(0, 0, 0, 0);
+    return d.departureDate >= today;
+  })
   .sort((a, b) => a.departureDate.getTime() - b.departureDate.getTime());
 
 export type Departure = typeof DEPARTURES[number];
@@ -642,7 +647,7 @@ const DeparturesCatalog = () => {
       <div className="container-editorial">
         <div className="text-center mb-10 max-w-2xl mx-auto">
           <p className="text-caption text-gold mb-4 tracking-[0.3em]">
-            CARDÁPIO DE SAÍDAS · ORDEM CRONOLÓGICA
+            COLEÇÃO DE JORNADAS · ORDEM CRONOLÓGICA
           </p>
           <h2 className="heading-section text-foreground mb-4">
             Grupos com Guia Brasileiro

@@ -180,7 +180,7 @@ const Index = () => {
         </div>
       </section>
 
-      {/* Featured: Grupos com Guia Brasileiro — cardápio cronológico em destaque */}
+      {/* Featured: Grupos com Guia Brasileiro — coleção cronológica em destaque */}
 
       <section className="section-padding bg-gradient-to-b from-navy to-navy/95 text-white relative overflow-hidden">
         <div className="absolute inset-0 opacity-10 pointer-events-none">
@@ -203,7 +203,7 @@ const Index = () => {
             </p>
           </div>
 
-          {/* Mini-cardápio: 4 próximas saídas */}
+          {/* Seleção das 4 próximas saídas */}
           <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-4 mb-10">
             {DEPARTURES.slice(0, 4).map((d, i) => {
               const day = String(d.departureDate.getDate()).padStart(2, "0");
@@ -256,7 +256,7 @@ const Index = () => {
               to="/embarque-com-a-create"
               className="btn-accent inline-flex items-center gap-2 text-base px-8 py-4"
             >
-              Ver cardápio completo de saídas
+              Conhecer todas as jornadas
               <ArrowRight size={18} />
             </Link>
             <p className="text-xs text-white/50 mt-4 uppercase tracking-[0.2em]">
