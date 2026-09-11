@@ -156,6 +156,8 @@ const ROTAS_BASE: RotaHotel[] = [
     titulo: "Opéra Garnier",
     destino: "Palais Garnier, Place de l'Opéra, 75009 Paris, France",
     enderecoVisivel: "Ópera de Paris — 1875",
+    quando: "Terça 29/09, à tarde, como opção de visita",
+    saida: "Sair do hotel após o café da manhã ou após o almoço — linha 4 direta até a Ópera",
     dia: 6,
     modos: ["transit"],
   },
