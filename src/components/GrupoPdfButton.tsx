@@ -14,7 +14,8 @@ export const GrupoPdfButton = () => {
   const [busy, setBusy] = useState(false);
 
   const isGrupo = pathname.startsWith("/grupos/") && pathname.length > "/grupos/".length;
-  if (!isGrupo) return null;
+  const isViagem = pathname.startsWith("/viagem/") && pathname.length > "/viagem/".length;
+  if (!isGrupo && !isViagem) return null;
 
   const handleClick = () => {
     setBusy(true);
