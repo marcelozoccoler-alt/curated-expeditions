@@ -58,6 +58,16 @@ const ROTAS_BASE: RotaHotel[] = [
     modos: ["transit", "driving"],
   },
   {
+    id: "arco-triunfo",
+    titulo: "Arco do Triunfo — Place Charles de Gaulle",
+    destino: "Arc de Triomphe, Place Charles de Gaulle, 75008 Paris, France",
+    enderecoVisivel: "Final dos Champs-Élysées — avenida mais famosa de Paris",
+    quando: "Sábado 26/09, a tarde, após o Louvre e as Tulherias",
+    saida: "Caminhada a partir da Place de la Concorde, ou metrô linha 1 até Charles de Gaulle – Étoile",
+    dia: 3,
+    modos: ["transit", "walking"],
+  },
+  {
     id: "cruzeiro",
     titulo: "Cruzeiro com jantar — Porto de Solférino",
     destino: "Port de Solférino, Promenade Édouard Glissant, 75007 Paris, France",
