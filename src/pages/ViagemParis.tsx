@@ -13,13 +13,15 @@ import {
 import { textoParaNarracao, VOZ_NARRADOR } from "@/lib/viagens/narracao";
 import {
   MAPA_HOTEL_EMBED,
+  mapaRotaEmbed,
   PARIS,
   RESUMO_HORARIOS,
-  ROTAS,
+  rotasDoDia,
   VIAGEM_PARIS,
   VIAGEM_PARIS_PATH,
 } from "@/lib/viagens/parisEntreAmigas";
 import { Clock, MapPin, Bus, Car, Footprints, AlarmClock, ExternalLink } from "lucide-react";
+
 
 const ViagemParis = () => {
   const data = PARIS;
