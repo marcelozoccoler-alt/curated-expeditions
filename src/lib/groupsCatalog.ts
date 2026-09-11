@@ -28,6 +28,7 @@ export const BRAZILIAN_GROUP_COUNTRIES: Record<string, string[]> = {
   "/grupos/grecia-2026": ["Grécia"],
   "/grupos/india-sri-lanka-holi-2027": ["Índia", "Sri Lanka"],
   "/grupos/islandia-2026": ["Islândia"],
+  "/grupos/laponia-circulo-polar-2027": ["Finlândia", "Noruega"],
   "/grupos/jordania-2026": ["Jordânia"],
   "/grupos/lagos-chilenos-carnaval-2027": ["Chile", "Argentina"],
   "/grupos/marrocos-2026": ["Marrocos"],

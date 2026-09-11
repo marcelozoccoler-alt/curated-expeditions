@@ -19,6 +19,8 @@ import ViagemHub from "./pages/ViagemHub";
 import LivroAutoral from "./pages/LivroAutoral";
 import ViagemCidade from "./pages/ViagemCidade";
 import ViagemParis from "./pages/ViagemParis";
+import CreateSignature from "./pages/CreateSignature";
+import GrupoLaponiaCirculoPolar2027 from "./pages/GrupoLaponiaCirculoPolar2027";
 
 import QuantoCustaDestino from "./pages/QuantoCustaDestino";
 import Depoimentos from "./pages/Depoimentos";
@@ -130,6 +132,7 @@ const App = () => (
         <Route path="/viagem/capitais-imperiais-2026" element={<ViagemHub />} />
         <Route path="/viagem/capitais-imperiais-2026/:cidade" element={<ViagemCidade />} />
         <Route path="/viagem/paris-entre-amigas-2026" element={<ViagemParis />} />
+        <Route path="/create-signature" element={<CreateSignature />} />
         <Route path="/perguntas-frequentes" element={<PerguntasFrequentes />} />
 
         <Route path="/perguntas-frequentes/:kind/:slug" element={<FaqTema />} />
@@ -172,6 +175,7 @@ const App = () => (
         <Route path="/grupos/lagos-chilenos-carnaval-2027" element={<GrupoLagosChilenos2027 />} />
         <Route path="/grupos/tunisia-carnaval-2027" element={<GrupoTunisia2027 />} />
         <Route path="/grupos/egito-abril-2027" element={<GrupoEgitoAbril2027 />} />
+        <Route path="/grupos/laponia-circulo-polar-2027" element={<GrupoLaponiaCirculoPolar2027 />} />
           {/* Brasil hierarchical navigation — must come before /:regionSlug */}
           <Route path="/brasil-vivo" element={<BrasilVivo />} />
           <Route path="/:lang/brasil-vivo" element={<BrasilVivo />} />

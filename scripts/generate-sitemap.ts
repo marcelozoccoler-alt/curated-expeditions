@@ -135,6 +135,7 @@ const GRUPOS = [
   "grecia-2026",
   "india-sri-lanka-holi-2027",
   "islandia-2026",
+  "laponia-circulo-polar-2027",
   "jordania-2026",
   "lagos-chilenos-carnaval-2027",
   "marrocos-2026",
@@ -167,6 +168,7 @@ push("/perguntas-frequentes", 0.9, "weekly");
 for (const t of faqTopics) push(`/perguntas-frequentes/${t.kind}/${t.slug}`, 0.7, "weekly");
 push("/depoimentos", 0.8, "monthly");
 push("/grupos-guia-brasileiro", 0.95, "weekly");
+push("/create-signature", 0.95, "weekly");
 push("/lua-de-mel-personalizada", 0.9, "weekly");
 for (const g of GRUPOS) push(`/grupos/${g}`, 0.85, "monthly");
 

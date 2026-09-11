@@ -182,6 +182,21 @@ const GruposGuiaBrasileiro = () => {
       </section>
 
       {/* Saídas */}
+      <section className="py-12 bg-navy text-primary-foreground">
+        <div className="container-editorial flex flex-col md:flex-row md:items-center md:justify-between gap-7">
+          <div className="max-w-3xl">
+            <p className="text-caption text-gold mb-3">Nova coleção</p>
+            <h2 className="font-serif text-3xl md:text-4xl mb-3">Create Signature — Grandes Jornadas</h2>
+            <p className="text-primary-foreground/75 font-light">
+              Grupos exclusivos para viver destinos extraordinários com mais conforto, profundidade e acompanhamento em português.
+            </p>
+          </div>
+          <Link to="/create-signature" className="btn-accent shrink-0">
+            Conhecer a coleção <ArrowRight size={18} />
+          </Link>
+        </div>
+      </section>
+
       <section id="saidas" className="section-padding bg-muted">
         <div className="container-editorial">
           <div className="text-center mb-10 max-w-2xl mx-auto">
