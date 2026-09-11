@@ -24,8 +24,8 @@ const pillars = [
   },
   {
     icon: Languages,
-    title: "Acompanhamento em português",
-    text: "Coordenação brasileira e especialistas locais para que a experiência seja profunda, clara e tranquila.",
+    title: "Cuidado desde Guarulhos",
+    text: "Assistência da Create Travel no aeroporto, guia brasileiro durante a jornada e suporte da nossa equipe no Brasil.",
   },
 ];
 

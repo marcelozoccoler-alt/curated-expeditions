@@ -25,11 +25,11 @@ const experiences = [
   { title: "A vida no Ártico", text: "A cultura Sami, as renas e os huskies revelam uma relação ancestral entre pessoas, animais, neve e sobrevivência." },
   { title: "Aventura com estrutura", text: "Snowmobile, pesca no gelo, teleférico e roupas térmicas previstas para viver o inverno com orientação e conforto." },
   { title: "Duas capitais nórdicas", text: "Helsinque abre a jornada com arquitetura e design; Oslo encerra o percurso entre história polar, arte e natureza urbana." },
-  { title: "Acompanhamento brasileiro", text: "Coordenação em português desde São Paulo e especialistas locais ao longo das visitas previstas." },
+  { title: "Cuidado desde o Brasil", text: "Assistência da Create Travel no aeroporto de Guarulhos, guia brasileiro durante a jornada e suporte da nossa equipe no Brasil." },
 ];
 
 const itinerary = [
-  { day: "Dia 1 · 25/03", title: "São Paulo → Helsinque", text: "Encontro no aeroporto de Guarulhos e embarque rumo à Finlândia, com conexão europeia e acompanhamento brasileiro." },
+  { day: "Dia 1 · 25/03", title: "São Paulo → Helsinque", text: "Assistência da Create Travel no aeroporto de Guarulhos e embarque rumo à Finlândia, com conexão europeia e acompanhamento brasileiro." },
   { day: "Dia 2 · 26/03", title: "Chegada a Helsinque", text: "Recepção, traslado ao hotel previsto e tempo para descansar ou iniciar, sem pressa, o primeiro contato com a capital finlandesa." },
   { day: "Dia 3 · 27/03", title: "Helsinque por dentro", text: "Praça do Senado, catedral, Parque Esplanadi, monumento a Sibelius, Igreja da Rocha e a Biblioteca Central Oodi formam um retrato da cidade entre tradição e design." },
   { day: "Dia 4 · 28/03", title: "Helsinque → Rovaniemi", text: "Voo à Lapônia finlandesa. O Museu Arktikum apresenta a natureza do norte e a história dos povos árticos antes da acomodação em Rovaniemi." },
@@ -57,6 +57,7 @@ const included = [
   "10 noites em hotéis previstos de categoria primeira superior e primeira, ou similares, com café da manhã",
   "Quatro refeições ao longo do roteiro, conforme programação final",
   "Guia acompanhante brasileiro e guias locais em português ou espanhol nas visitas previstas",
+  "Assistência da Create Travel no aeroporto de Guarulhos e suporte da equipe no Brasil",
   "Traslados, visitas e entradas descritos no roteiro",
   "Quebra-gelo, snowmobile, pesca no gelo, trenós com renas e huskies e duas buscas pela aurora",
   "Roupas especiais de inverno durante o período previsto na Lapônia",
@@ -154,7 +155,7 @@ const GrupoLaponiaCirculoPolar2027 = () => (
           {[
             { icon: Calendar, label: "Data", value: "25/03 a 06/04/2027" },
             { icon: Compass, label: "Duração", value: "13 dias · 10 noites" },
-            { icon: Users, label: "Acompanhamento", value: "Guia brasileiro" },
+            { icon: Users, label: "Assistência", value: "Create Travel em Guarulhos" },
             { icon: Plane, label: "Rota", value: "Finlândia e Noruega" },
           ].map(({ icon: Icon, label, value }) => (
             <div key={label} className="flex items-start gap-3"><Icon className="text-gold shrink-0" size={21} /><div><p className="text-xs uppercase tracking-wider text-muted-foreground">{label}</p><p className="font-serif font-semibold">{value}</p></div></div>
