@@ -163,17 +163,24 @@ export type RotaComLinks = RotaHotel & {
   links: { modo: string; label: string; url: string }[];
 };
 
-export const ROTAS: RotaComLinks[] =
+export const ROTAS: RotaComLinks[] = ROTAS_BASE.map((r) => ({
+  ...r,
+  links: r.modos.map((m) => ({
+    modo: m,
+    label: m === "transit" ? "Metrô e ônibus" : m === "driving" ? "Carro, táxi ou Uber" : "A pé",
+    url: dirUrl(r.destino, m),
+  })),
+}));
 
-  ROTAS_BASE.map((r) => ({
-    ...r,
-    links: r.modos.map((m) => ({
-      modo: m,
-      label:
-        m === "transit" ? "Metrô e ônibus" : m === "driving" ? "Carro, táxi ou Uber" : "A pé",
-      url: dirUrl(r.destino, m),
-    })),
-  }));
+/** Rotas do dia informado, na ordem do roteiro. */
+export const rotasDoDia = (dia: number): RotaComLinks[] => ROTAS.filter((r) => r.dia === dia);
+
+/** Mapa embutido do caminho do hotel até o destino da rota (sem chave de API). */
+export const mapaRotaEmbed = (destino: string) =>
+  `https://www.google.com/maps?saddr=${encodeURIComponent(ORIGEM)}&daddr=${encodeURIComponent(
+    destino
+  )}&output=embed`;
+
 
 /** Mapa embutido com a localização do hotel (sem chave de API). */
 export const MAPA_HOTEL_EMBED = `https://www.google.com/maps?q=${encodeURIComponent(
