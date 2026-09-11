@@ -281,6 +281,16 @@ preparação, não desgaste.
 
 **Estimativa:** € 40 a € 70 para as duas, entre almoço, café e água.
 
+### 16:00 — Uma caminhada pelo Sena, antes do jantar
+
+Se o corpo pedir ar, a melhor caminhada de hoje é o **quai de Seine** entre o Musée d'Orsay e o
+Pont Alexandre III. Cerca de vinte minutos de passos tranquilos, com o rio de um lado e a fachada
+iluminada do Grand Palais do outro. É também o caminho natural para chegar ao cais do cruzeiro sem
+precisar de metrô — e uma forma de ver Paris se acender devagar, antes de vê-la toda de uma vez,
+do barco.
+
+Não é obrigatório. Mas quem faz essa caminhada chega ao jantar já dentro da cidade.
+
 ### 16:30 — Sair do hotel (metrô) ou 17:00 (Uber)
 
 **Este horário é generoso de propósito.** O embarque é às 18h45, e a recomendação é estar no cais
@@ -383,6 +393,19 @@ exatamente para o que Silvia e Patrícia vão fazer: sentar, esticar as pernas e
 
 Se sobrar disposição, o **Palais Royal** fica a dois passos: um pátio de colunas listradas e uma
 galeria de arcadas silenciosa, onde Colette morou os últimos anos.
+
+### 14:30 — Dos jardins ao Arco do Triunfo
+
+A continuação natural do dia é seguir a pé pelo **Jardim das Tulherias**, atravessar a **Place de
+la Concorde** — onde ficava a guilhotina, e onde hoje fica o obelisco de Luxor — e entrar nos
+**Champs-Élysées**. São quase dois quilômetros de avenida, com cafés, cinemas e vitrines, que
+terminam no **Arco do Triunfo**, coroado de esculturas e com o túmulo do Soldado Desconhecido embaixo.
+
+Não precisa subir: a vista da avenida vindo de baixo já é a cena. Quem quiser pode sentar numa das
+mesas do meio da calçada, pedir um café e ver Paris passar. O caminho de volta ao hotel pode ser de
+metrô, pela linha 1, a partir da estação Charles de Gaulle – Étoile.
+
+**Estimativa:** apenas café e transporte de volta, se não voltarem a pé até o Louvre.
 
 ### 16:00 — Retorno ao hotel
 
@@ -567,9 +590,16 @@ Senado e as cadeiras à beira do tanque onde crianças velejam barquinhos há um
 igreja de **Saint-Sulpice**; e os cafés que abrigaram Sartre, Beauvoir e Hemingway — Café de Flore
 e Les Deux Magots, caros e conscientes disso, mas um café ali é uma linha de história.
 
-**Opção C — Compras.** **Galeries Lafayette** e **Printemps**, no Boulevard Haussmann, com a cúpula
-de vitral art nouveau de 1912 e o terraço de vista aberta sobre os telhados; **Rue de Rivoli** e
-**Le Marais** para lojas menores; e as farmácias francesas, que são um capítulo em si.
+**Opção C — Compras e Ópera.** **Galeries Lafayette** e **Printemps**, no Boulevard Haussmann, com
+a cúpula de vitral art nouveau de 1912 e o terraço de vista aberta sobre os telhados; a **Rue de
+Rivoli** e **Le Marais** para lojas menores; e as farmácias francesas, que são um capítulo em si. Se
+sobrar tempo, vale parar em frente ao **Palais Garnier**, a Ópera de Paris: fachada barroca de 1875,
+escadaria de mármore e o fantasma que nunca saiu de lá. Mesmo sem entrar, o prédio impõe respeito.
+
+**Opção D — Ópera Garnier por dentro.** Para quem quiser uma visita mais parada, o Palais Garnier
+oferece ingressos avulsos — em torno de € 14 por pessoa — e uma arquitetura que explica por que
+Paris era chamada de capital do século XIX. A escadaria, o salão de balé, o teto de Chagall: tudo
+exagerado, tudo belo, tudo intencional.
 
 A combinação mais confortável: manhã na Torre, tarde em uma das opções, e só uma.
 
