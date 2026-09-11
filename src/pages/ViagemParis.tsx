@@ -129,8 +129,7 @@ const ViagemParis = () => {
     ...data.blocks.map((b) => textoDoBloco(b))
   );
 
-  const iconeModo = (modo: string) =>
-    modo === "transit" ? Bus : modo === "walking" ? Footprints : Car;
+
 
   return (
     <NarracaoProvider voz={VOZ_NARRADOR}>
