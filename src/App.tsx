@@ -21,6 +21,7 @@ import ViagemCidade from "./pages/ViagemCidade";
 import ViagemParis from "./pages/ViagemParis";
 import CreateSignature from "./pages/CreateSignature";
 import GrupoLaponiaCirculoPolar2027 from "./pages/GrupoLaponiaCirculoPolar2027";
+import GrupoLaponiaNatalReveillon2027 from "./pages/GrupoLaponiaNatalReveillon2027";
 
 import QuantoCustaDestino from "./pages/QuantoCustaDestino";
 import Depoimentos from "./pages/Depoimentos";
@@ -176,6 +177,7 @@ const App = () => (
         <Route path="/grupos/tunisia-carnaval-2027" element={<GrupoTunisia2027 />} />
         <Route path="/grupos/egito-abril-2027" element={<GrupoEgitoAbril2027 />} />
         <Route path="/grupos/laponia-circulo-polar-2027" element={<GrupoLaponiaCirculoPolar2027 />} />
+        <Route path="/grupos/laponia-natal-reveillon-2027" element={<GrupoLaponiaNatalReveillon2027 />} />
           {/* Brasil hierarchical navigation — must come before /:regionSlug */}
           <Route path="/brasil-vivo" element={<BrasilVivo />} />
           <Route path="/:lang/brasil-vivo" element={<BrasilVivo />} />
