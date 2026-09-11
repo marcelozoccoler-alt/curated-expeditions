@@ -216,9 +216,9 @@ resolve a primeira noite.
 
 **A escolha desta noite é táxi oficial ou Uber. Não é o metrô.**
 
-**Táxi oficial:** € 36 a € 45 por veículo — cerca de € 18 a € 22,50 por pessoa. Paris tem tarifa
-fixa oficial dos aeroportos para a margem esquerda do Sena, que é justamente onde fica o hotel,
-o que dá previsibilidade. Tempo: 25 a 40 minutos. Embarcar **somente** na fila oficial de táxis,
+**Táxi oficial:** tarifa fixa de € 36 por veículo para a margem esquerda do Sena — € 18 por pessoa.
+É justamente onde fica o hotel, o que dá previsibilidade. O valor deve ser reconfirmado perto da
+viagem, porque tarifas oficiais podem ser reajustadas. Tempo: 25 a 40 minutos. Embarcar **somente** na fila oficial de táxis,
 nunca com quem oferece corrida dentro do terminal.
 
 **Uber:** UberX de € 30 a € 55; em horário de alta demanda, € 55 a € 75. Escolher categoria que
@@ -238,7 +238,7 @@ café da manhã e pagar o imposto local de cerca de € 39.
 No quarto: celulares e power banks na tomada, roupas do dia seguinte separadas, passaportes
 guardados. Nenhum passeio noturno. A janela antirruído vai fazer o resto.
 
-**Gasto estimado do dia:** transporte € 30 a € 55 (Uber) ou € 36 a € 45 (táxi), mais um lanche
+**Gasto estimado do dia:** transporte € 30 a € 55 (Uber) ou € 36 (táxi oficial), mais um lanche
 leve durante a viagem.
 
 ## DIA 2 — SEXTA-FEIRA, 25 DE SETEMBRO
@@ -329,9 +329,9 @@ o que ver, e escolher bem é a diferença entre encantamento e exaustão.
 **Identificação:** acompanhante com jaqueta vermelha e placa de identificação
 **Audioguia:** espanhol e inglês
 
-Café da manhã às 7h00, documentos e vouchers separados às 7h20.
+Café da manhã às 7h00 e documentos separados às 7h20.
 
-### 07:30 — Sair do hotel
+### 07:30 de metrô ou 07:50 de Uber — Sair do hotel
 
 **Sair 30 minutos antes do que parece necessário — este é o dia em que isso mais importa.** O
 trajeto leva de 30 a 45 minutos, e a orientação é estar no ponto às **9h05**, e não às 9h15: o
@@ -597,8 +597,10 @@ Café da manhã às 6h45, malas fechadas às 7h15, check-out às 7h30.
 até Orly — mas às 8h da manhã de uma quarta-feira, o boulevard périphérique é imprevisível, e
 Orly ainda pede check-in, despacho de bagagem e segurança.
 
-- **Uber/táxi (recomendado):** € 30 a € 50 por veículo, cerca de € 15 a € 25 por pessoa. Carro
-  reservado desde a noite anterior. Chegada prevista: **8h15 a 8h30**.
+- **Táxi oficial (recomendado):** tarifa fixa de € 36 por veículo para Orly, € 18 por pessoa. O
+  valor deve ser reconfirmado perto da viagem. Carro reservado desde a noite anterior.
+- **Uber:** estimativa de € 30 a € 50 por veículo, conforme a demanda.
+  Chegada prevista: **8h15 a 8h30**.
 - **Metrô:** Porte d'Orléans → linha 4 → conexão linha 14 → Aéroport d'Orly. Bilhete de aeroporto
   cerca de € 14 por pessoa, € 28 para as duas. Sair às **6h45**, não mais tarde — com malas, cada
   escada custa minutos.
@@ -666,8 +668,11 @@ contar o jantar do cruzeiro, já pago.
 **Cenário econômico:** transporte € 110 a € 140 · alimentação € 450 a € 600 · cafés, água e
 pequenos extras € 60 a € 100 · compras modestas € 100 a € 200. **Total para as duas: € 720 a € 1.040.**
 
-**Cenário confortável:** transporte € 250 a € 400 · alimentação € 700 a € 900 · cafés e extras
-€ 100 a € 150 · compras moderadas € 250 a € 500. **Total para as duas: € 1.300 a € 1.950.**
+**Cenário econômico:** transporte € 106 a € 136 · alimentação € 420 a € 660 · cafés, água e
+pequenos extras € 60 a € 100 · compras modestas € 100 a € 200. **Total para as duas: € 686 a € 1.096.**
+
+**Cenário confortável:** transporte € 220 a € 399 · alimentação € 700 a € 900 · cafés e extras
+€ 100 a € 150 · compras moderadas € 250 a € 500. **Total para as duas: € 1.270 a € 1.949.**
 
 Para uma viagem confortável, sem luxo excessivo: **€ 1.400 a € 1.700 para as duas**, além de
 compras maiores e dos passeios já pagos. Esse valor cobre Ubers e táxis pontuais, metrô, almoços,
@@ -691,8 +696,8 @@ uma confirmação antes do embarque.
 - **Dias da semana dos passeios:** o Louvre fecha às terças — a visita é sábado, sem conflito.
   Versalhes fecha às segundas — a visita é domingo, sem conflito. Notre-Dame abre às segundas.
   Nenhuma reserva cai em dia de fechamento.
-- **Táxi de Orly:** os € 36 a € 45 estimados estão coerentes com a tarifa oficial fixa dos
-  aeroportos parisienses para a margem esquerda, onde fica o hotel.
+- **Táxi de Orly:** a tarifa oficial é fixa em € 36 por veículo para a margem esquerda, onde fica
+  o hotel. O valor deve ser reconfirmado perto da viagem caso haja reajuste oficial.
 
 ### Pontos de atenção — confirmar antes de viajar
 
@@ -705,11 +710,12 @@ uma confirmação antes do embarque.
 3. **Domingo em Versalhes.** É dia das *Grandes Eaux Musicales*, com fontes musicais nos jardins.
    Costuma ser ingresso adicional e traz mais público. Confirmar com a operadora se está incluído.
 4. **Notre-Dame com hora marcada.** Desde a reabertura, o acesso à catedral funciona com faixas de
-   horário. O passeio guiado já contempla isso, mas convém reconfirmar o voucher na semana anterior
+   horário. O passeio guiado já contempla isso, mas convém reconfirmar a reserva na semana anterior
    e chegar às 8h35 — não às 8h45.
 5. **Bilhetes de metrô.** O valor de € 14 por pessoa para o trecho do aeroporto é uma estimativa;
    tarifas parisienses são reajustadas em janeiro. Conferir no aplicativo Île-de-France Mobilités
-   na chegada, e comparar bilhete avulso, bloco e passe diário.
+   na chegada, comparar bilhete avulso, bloco e passe diário e confirmar a operação da linha 14
+   até Orly perto da data da viagem.
 6. **Câmbio.** O R$ 6,50 por euro é referência de planejamento, não previsão. Uma variação de 10%
    move o orçamento das duas em cerca de R$ 1.000 no cenário confortável — vale comprar euros em
    parcelas, ao longo dos meses, e não tudo de uma vez.
