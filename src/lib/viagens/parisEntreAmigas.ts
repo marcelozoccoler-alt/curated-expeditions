@@ -39,10 +39,13 @@ export interface RotaHotel {
   quando?: string;
   saida?: string;
   reservado?: boolean;
+  /** Dia do roteiro a que a rota pertence (1 a 7). */
+  dia: number;
   modos: ("transit" | "driving" | "walking")[];
 }
 
 const ROTAS_BASE: RotaHotel[] = [
+
   {
     id: "louvre",
     titulo: "Ponto de encontro do Louvre — Arco do Carrossel",
