@@ -203,11 +203,6 @@ parte da viagem, é parte do voo. Depois de doze horas em ar recirculado, duas d
 conexão de cinco horas, Paris terá bom gosto de esperar. O que a primeira noite pede é chuveiro,
 carregador na tomada e travesseiro.
 
-**Aviso importante ao hotel:** como o check-in efetivo acontecerá depois da meia-noite, vale
-avisar o ibis budget por e-mail sobre a **chegada de madrugada**, informando o número da reserva.
-A recepção funciona 24 horas, mas o aviso escrito elimina qualquer risco de o quarto ser
-considerado *no-show*.
-
 ### 23:00 — Desembarque em Orly
 
 O avião toca o solo francês no fim da noite. Orly é um aeroporto compacto e bem sinalizado — na
@@ -292,8 +287,8 @@ escuro.
 
 ### 18:15 — No cais, com folga
 
-**Reserva:** voucher A39136207 · **Fornecedor:** Paris Seine
-**Data:** 25/09/2026 · **Início do menu:** 18h45 · **Duração:** cerca de 1h15 · **2 participantes**
+**Já reservado para as duas viajantes.**
+**Data:** 25/09/2026 · **Início do menu:** 18h45 · **Duração:** cerca de 1h15
 **Ponto de embarque:** Cais do Porto de Solférino — Promenade Édouard Glissant, 75007 Paris
 
 O Port de Solférino fica na margem esquerda, aos pés do **Musée d'Orsay** — a antiga estação de
@@ -329,10 +324,10 @@ o que ver, e escolher bem é a diferença entre encantamento e exaustão.
 
 ### 06:30 — Acordar
 
-**Reserva:** voucher A39136210 · **Início:** 9h30 · **Estar no ponto: 9h05**
+**Já reservado para as duas viajantes.** **Início:** 9h30 · **Estar no ponto: 9h05**
 **Ponto de encontro:** lado direito do Arco do Carrossel, em frente à Pirâmide
-**Identificação:** acompanhante com jaqueta vermelha e placa da **Extime Travel**
-**Audioguia:** espanhol e inglês · **2 participantes**
+**Identificação:** acompanhante com jaqueta vermelha e placa de identificação
+**Audioguia:** espanhol e inglês
 
 Café da manhã às 7h00, documentos e vouchers separados às 7h20.
 
@@ -354,7 +349,7 @@ de 1805. Dali se vê o eixo mais famoso do urbanismo mundial: a Pirâmide, as Tu
 os Champs-Élysées, o Arco do Triunfo. Uma linha reta de três quilômetros, desenhada em séculos
 diferentes por pessoas que nunca se conheceram.
 
-Procurar a jaqueta vermelha e a placa da Extime Travel. Ao encontrar o acompanhante, confirmar em
+Procurar a jaqueta vermelha e a placa de identificação. Ao encontrar o acompanhante, confirmar em
 voz alta o nome das duas na lista.
 
 ### 09:30 — O que priorizar lá dentro
@@ -401,10 +396,10 @@ real de volta à força. A Galeria dos Espelhos viu as duas coisas.
 
 ### 06:30 — Acordar
 
-**Reserva:** voucher A39136211 · **Início:** 10h00 · **Estar no ponto: 9h30**
+**Já reservado para as duas viajantes.** **Início:** 10h00 · **Estar no ponto: 9h30**
 **Ponto de encontro:** 6 Avenue du Dr Brouardel, 75007 Paris — a poucos metros da Torre Eiffel
-**Identificação:** equipe com colete vermelho da **Extime Travel**
-**Audioguia:** português · **2 participantes**
+**Identificação:** equipe com colete vermelho e placa de identificação
+**Audioguia:** português
 
 Café da manhã às 7h00. Bom saber: o áudio deste passeio é em português — o único dos quatro.
 
@@ -470,9 +465,9 @@ improvável deste livro: um lugar que quase deixou de existir e que voltou mais 
 
 ### 06:30 — Acordar
 
-**Reserva:** voucher A39136214 · **Início:** 9h00 · **Estar no ponto: 8h35**
+**Já reservado para as duas viajantes.** **Início:** 9h00 · **Estar no ponto: 8h35**
 **Ponto de encontro:** junto à estátua de Carlos Magno, na Île de la Cité, em frente à catedral
-**Guia:** espanhol · grupo reduzido · **2 participantes**
+**Guia:** espanhol
 Inclui o interior da catedral. **Não** inclui as torres.
 
 Café da manhã às 7h00.
@@ -701,33 +696,26 @@ uma confirmação antes do embarque.
 
 ### Pontos de atenção — confirmar antes de viajar
 
-1. **Chegada depois da meia-noite.** O check-in real acontece por volta de 00h30, já no dia 25,
-   embora a reserva comece em 24/09. Avisar o hotel por escrito sobre a chegada de madrugada,
-   citando o número da reserva. Isso elimina o risco de *no-show*.
-2. **Saída garantida para duas pessoas.** Os passeios do Louvre (A39136210) e de Notre-Dame
-   (A39136214) são de grupo reduzido. Confirmar com a operadora, por escrito, se a operação está
-   garantida com apenas duas participantes e o que acontece em caso de cancelamento por falta de
-   número mínimo.
-3. **Idioma dos passeios.** Versalhes tem áudio em **português**. Louvre em **espanhol e inglês**;
+1. **Idioma dos passeios.** Versalhes tem áudio em **português**. Louvre em **espanhol e inglês**;
    Notre-Dame com guia em **espanhol**. Se houver preferência por português, vale pedir a troca
    antecipadamente — costuma haver disponibilidade em datas próximas.
-4. **Cruzeiro com jantar — 15 minutos são pouco.** O voucher indica chegar às 18h30 para um menu
+2. **Cruzeiro com jantar — 15 minutos são pouco.** A orientação recebida indica chegar às 18h30 para um menu
    às 18h45. Este livro recomenda **18h15**: o cais é no nível do rio, com acesso por escadas
    laterais, e mesa marcada em barco lotado não espera.
-5. **Domingo em Versalhes.** É dia das *Grandes Eaux Musicales*, com fontes musicais nos jardins.
+3. **Domingo em Versalhes.** É dia das *Grandes Eaux Musicales*, com fontes musicais nos jardins.
    Costuma ser ingresso adicional e traz mais público. Confirmar com a operadora se está incluído.
-6. **Notre-Dame com hora marcada.** Desde a reabertura, o acesso à catedral funciona com faixas de
+4. **Notre-Dame com hora marcada.** Desde a reabertura, o acesso à catedral funciona com faixas de
    horário. O passeio guiado já contempla isso, mas convém reconfirmar o voucher na semana anterior
    e chegar às 8h35 — não às 8h45.
-7. **Bilhetes de metrô.** O valor de € 14 por pessoa para o trecho do aeroporto é uma estimativa;
+5. **Bilhetes de metrô.** O valor de € 14 por pessoa para o trecho do aeroporto é uma estimativa;
    tarifas parisienses são reajustadas em janeiro. Conferir no aplicativo Île-de-France Mobilités
    na chegada, e comparar bilhete avulso, bloco e passe diário.
-8. **Câmbio.** O R$ 6,50 por euro é referência de planejamento, não previsão. Uma variação de 10%
+6. **Câmbio.** O R$ 6,50 por euro é referência de planejamento, não previsão. Uma variação de 10%
    move o orçamento das duas em cerca de R$ 1.000 no cenário confortável — vale comprar euros em
    parcelas, ao longo dos meses, e não tudo de uma vez.
-9. **Quarto compacto.** A categoria *budget* é pequena para duas malas grandes. Não é um erro da
+7. **Quarto compacto.** A categoria *budget* é pequena para duas malas grandes. Não é um erro da
    reserva, é a natureza do produto — mas é melhor saber antes de abrir a porta.
-10. **Depois de 30/09.** Hospedagem, transporte e programação em Portugal, para Silvia (até 07/10)
+8. **Depois de 30/09.** Hospedagem, transporte e programação em Portugal, para Silvia (até 07/10)
     e para Patrícia (até 12/10), ainda precisam ser fechados. É o único trecho da viagem sem
     logística definida neste livro.
 
@@ -858,8 +846,6 @@ fones de ouvido · power bank carregado · água · lanche · o voucher do dia i
 ### Ainda a confirmar antes do embarque
 
 - Franquia de bagagem exata da tarifa emitida pela TAP.
-- Saída garantida com duas participantes nos passeios do Louvre e de Notre-Dame.
 - Endereço e horário atualizados dos quatro pontos de encontro.
 - Horários dos voos, reconfirmados na semana da viagem.
 - Hospedagem e deslocamentos de Silvia e Patrícia em Portugal, a partir de 30/09.
-- Aviso ao hotel sobre a chegada de madrugada.
