@@ -3,6 +3,7 @@ import { Footer } from "@/components/Footer";
 import { SEO } from "@/components/SEO";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
 import { RoteiroMarkdown } from "@/components/viagem/RoteiroMarkdown";
+import { FotosDoDia } from "@/components/viagem/FotosDoDia";
 import {
   BotaoOuvir,
   NarracaoAviso,
@@ -199,6 +200,8 @@ const ViagemParis = () => {
                         </li>
                       ))}
                     </ol>
+
+                    <FotosDoDia cidadeSlug={data.slug} blocoId={block.id} titulo={block.title} />
                   </article>
                 ) : (
                   <section key={block.id} id={block.id} className="scroll-mt-24">
