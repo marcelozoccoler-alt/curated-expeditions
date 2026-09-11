@@ -129,7 +129,9 @@ const App = () => (
         <Route path="/livro-autoral" element={<LivroAutoral />} />
         <Route path="/viagem/capitais-imperiais-2026" element={<ViagemHub />} />
         <Route path="/viagem/capitais-imperiais-2026/:cidade" element={<ViagemCidade />} />
+        <Route path="/viagem/paris-entre-amigas-2026" element={<ViagemParis />} />
         <Route path="/perguntas-frequentes" element={<PerguntasFrequentes />} />
+
         <Route path="/perguntas-frequentes/:kind/:slug" element={<FaqTema />} />
         <Route path="/depoimentos" element={<Depoimentos />} />
         <Route path="/grupos/marrocos-2026" element={<GrupoMarrocos2026 />} />
