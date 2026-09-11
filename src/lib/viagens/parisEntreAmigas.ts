@@ -39,10 +39,13 @@ export interface RotaHotel {
   quando?: string;
   saida?: string;
   reservado?: boolean;
+  /** Dia do roteiro a que a rota pertence (1 a 7). */
+  dia: number;
   modos: ("transit" | "driving" | "walking")[];
 }
 
 const ROTAS_BASE: RotaHotel[] = [
+
   {
     id: "louvre",
     titulo: "Ponto de encontro do Louvre — Arco do Carrossel",
@@ -51,6 +54,7 @@ const ROTAS_BASE: RotaHotel[] = [
     quando: "Sábado 26/09 · início 9h30 · estar no ponto 9h05",
     saida: "Sair do hotel às 7h30 (metrô) ou 7h50 (Uber)",
     reservado: true,
+    dia: 3,
     modos: ["transit", "driving"],
   },
   {
@@ -61,6 +65,7 @@ const ROTAS_BASE: RotaHotel[] = [
     quando: "Sexta 25/09 · menu 18h45 · estar no cais 18h15",
     saida: "Sair do hotel às 16h30 (metrô) ou 17h00 (Uber)",
     reservado: true,
+    dia: 2,
     modos: ["transit", "driving"],
   },
   {
@@ -71,6 +76,7 @@ const ROTAS_BASE: RotaHotel[] = [
     quando: "Domingo 27/09 · início 10h00 · estar no ponto 9h30",
     saida: "Sair do hotel às 7h30 (metrô) ou 8h10 (Uber)",
     reservado: true,
+    dia: 4,
     modos: ["transit", "driving"],
   },
   {
@@ -81,6 +87,7 @@ const ROTAS_BASE: RotaHotel[] = [
     quando: "Segunda 28/09 · início 9h00 · estar no ponto 8h35",
     saida: "Sair do hotel às 7h00 (metrô) ou 7h30 (Uber)",
     reservado: true,
+    dia: 5,
     modos: ["transit", "driving"],
   },
   {
@@ -90,6 +97,7 @@ const ROTAS_BASE: RotaHotel[] = [
     enderecoVisivel: "Terminal a confirmar no aplicativo da TAP",
     quando: "Quarta 30/09 · voo TP 431 às 12h00",
     saida: "Sair do hotel às 7h45 (Uber, carro reservado na véspera) ou 6h45 (metrô)",
+    dia: 7,
     modos: ["driving", "transit"],
   },
   {
@@ -98,6 +106,7 @@ const ROTAS_BASE: RotaHotel[] = [
     destino: "Place du Trocadéro et du 11 Novembre, 75116 Paris, France",
     enderecoVisivel: "Praça do Trocadéro — a vista frontal da torre",
     quando: "Terça 29/09, pela manhã",
+    dia: 6,
     modos: ["transit", "driving"],
   },
   {
@@ -105,6 +114,7 @@ const ROTAS_BASE: RotaHotel[] = [
     titulo: "Sacré-Cœur e Montmartre",
     destino: "Basilique du Sacré-Cœur, 35 Rue du Chevalier de la Barre, 75018 Paris, France",
     enderecoVisivel: "Usar o funicular na subida",
+    dia: 6,
     modos: ["transit", "driving"],
   },
   {
@@ -112,6 +122,7 @@ const ROTAS_BASE: RotaHotel[] = [
     titulo: "Galeries Lafayette e Printemps",
     destino: "Galeries Lafayette Haussmann, 40 Boulevard Haussmann, 75009 Paris, France",
     enderecoVisivel: "Boulevard Haussmann — cúpula de vitral e terraço",
+    dia: 6,
     modos: ["transit", "driving"],
   },
   {
@@ -119,6 +130,7 @@ const ROTAS_BASE: RotaHotel[] = [
     titulo: "Saint-Germain-des-Prés",
     destino: "Place Saint-Germain-des-Prés, 75006 Paris, France",
     enderecoVisivel: "Linha 4 direta, sem conexão",
+    dia: 5,
     modos: ["transit"],
   },
   {
@@ -126,6 +138,7 @@ const ROTAS_BASE: RotaHotel[] = [
     titulo: "Jardim de Luxemburgo",
     destino: "Jardin du Luxembourg, 75006 Paris, France",
     enderecoVisivel: "Palácio do Senado e o tanque dos barquinhos",
+    dia: 5,
     modos: ["transit"],
   },
   {
@@ -133,6 +146,7 @@ const ROTAS_BASE: RotaHotel[] = [
     titulo: "Opéra Garnier",
     destino: "Palais Garnier, Place de l'Opéra, 75009 Paris, France",
     enderecoVisivel: "Ópera de Paris — 1875",
+    dia: 6,
     modos: ["transit"],
   },
   {
@@ -140,20 +154,33 @@ const ROTAS_BASE: RotaHotel[] = [
     titulo: "Parc Montsouris (a pé)",
     destino: "Parc Montsouris, 75014 Paris, France",
     enderecoVisivel: "A poucos minutos do hotel, caminhando",
+    dia: 2,
     modos: ["walking"],
   },
 ];
 
-export const ROTAS: (RotaHotel & { links: { modo: string; label: string; url: string }[] })[] =
-  ROTAS_BASE.map((r) => ({
-    ...r,
-    links: r.modos.map((m) => ({
-      modo: m,
-      label:
-        m === "transit" ? "Metrô e ônibus" : m === "driving" ? "Carro, táxi ou Uber" : "A pé",
-      url: dirUrl(r.destino, m),
-    })),
-  }));
+export type RotaComLinks = RotaHotel & {
+  links: { modo: string; label: string; url: string }[];
+};
+
+export const ROTAS: RotaComLinks[] = ROTAS_BASE.map((r) => ({
+  ...r,
+  links: r.modos.map((m) => ({
+    modo: m,
+    label: m === "transit" ? "Metrô e ônibus" : m === "driving" ? "Carro, táxi ou Uber" : "A pé",
+    url: dirUrl(r.destino, m),
+  })),
+}));
+
+/** Rotas do dia informado, na ordem do roteiro. */
+export const rotasDoDia = (dia: number): RotaComLinks[] => ROTAS.filter((r) => r.dia === dia);
+
+/** Mapa embutido do caminho do hotel até o destino da rota (sem chave de API). */
+export const mapaRotaEmbed = (destino: string) =>
+  `https://www.google.com/maps?saddr=${encodeURIComponent(ORIGEM)}&daddr=${encodeURIComponent(
+    destino
+  )}&output=embed`;
+
 
 /** Mapa embutido com a localização do hotel (sem chave de API). */
 export const MAPA_HOTEL_EMBED = `https://www.google.com/maps?q=${encodeURIComponent(
