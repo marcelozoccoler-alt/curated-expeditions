@@ -22,6 +22,98 @@ import {
 } from "@/lib/viagens/parisEntreAmigas";
 import { Clock, MapPin, Bus, Car, Footprints, AlarmClock, ExternalLink } from "lucide-react";
 
+const iconeModo = (modo: string) =>
+  modo === "transit" ? Bus : modo === "walking" ? Footprints : Car;
+
+/** Mapas do caminho do hotel até os pontos daquele dia. */
+const MapasDoDia = ({ block }: { block: (typeof PARIS.blocks)[number] }) => {
+  const dia = Number(block.title.match(/DIA\s+(\d+)/i)?.[1] ?? 0);
+  const rotas = rotasDoDia(dia);
+  if (dia === 1) {
+    return (
+      <div className="mt-10 rounded-2xl border border-border bg-card overflow-hidden">
+        <div className="p-5 sm:p-6">
+          <p className="text-caption text-gold mb-1">O caminho de hoje</p>
+          <h3 className="font-serif text-xl font-semibold text-foreground leading-snug">
+            {VIAGEM_PARIS.hotel.nome}
+          </h3>
+          <p className="text-sm text-muted-foreground mt-1.5 flex gap-2">
+            <MapPin size={15} className="text-gold mt-0.5 shrink-0" />
+            {VIAGEM_PARIS.hotel.endereco}
+          </p>
+        </div>
+        <iframe
+          title="Localização do hotel em Paris"
+          src={MAPA_HOTEL_EMBED}
+          className="w-full h-[280px] sm:h-[340px] border-0 print:hidden"
+          loading="lazy"
+          referrerPolicy="no-referrer-when-downgrade"
+        />
+      </div>
+    );
+  }
+  if (rotas.length === 0) return null;
+
+  return (
+    <div className="mt-10">
+      <p className="text-caption text-gold mb-2">Os caminhos deste dia</p>
+      <p className="text-sm text-muted-foreground leading-relaxed mb-5">
+        Todos partem do <strong>{VIAGEM_PARIS.hotel.nome}</strong>. Faça uma captura de tela antes
+        de sair: o sinal de celular no metrô é irregular.
+      </p>
+      <div className="space-y-5">
+        {rotas.map((rota) => (
+          <div
+            key={rota.id}
+            className={`rounded-2xl border bg-card overflow-hidden ${
+              rota.reservado ? "border-gold/60" : "border-border"
+            }`}
+          >
+            <div className="p-5">
+              {rota.reservado && (
+                <p className="text-caption text-gold mb-1.5">Atividade reservada</p>
+              )}
+              <h3 className="font-serif text-lg font-semibold text-foreground leading-snug">
+                {rota.titulo}
+              </h3>
+              <p className="text-sm text-muted-foreground mt-1.5 flex gap-2">
+                <MapPin size={15} className="text-gold mt-0.5 shrink-0" />
+                {rota.enderecoVisivel}
+              </p>
+              {rota.quando && <p className="text-sm text-foreground/80 mt-2">{rota.quando}</p>}
+              {rota.saida && <p className="text-sm text-gold mt-1 font-medium">{rota.saida}</p>}
+              <div className="flex flex-wrap gap-2 mt-4">
+                {rota.links.map((l) => {
+                  const Icone = iconeModo(l.modo);
+                  return (
+                    <a
+                      key={l.modo}
+                      href={l.url}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="inline-flex items-center gap-1.5 rounded-full border border-border px-3 py-1.5 text-xs text-foreground/85 transition-colors hover:border-gold hover:text-gold"
+                    >
+                      <Icone size={13} /> {l.label}
+                      <ExternalLink size={11} />
+                    </a>
+                  );
+                })}
+              </div>
+            </div>
+            <iframe
+              title={`Caminho do hotel até ${rota.titulo}`}
+              src={mapaRotaEmbed(rota.destino)}
+              className="w-full h-[260px] sm:h-[320px] border-0 print:hidden"
+              loading="lazy"
+              referrerPolicy="no-referrer-when-downgrade"
+            />
+          </div>
+        ))}
+      </div>
+    </div>
+  );
+};
+
 
 const ViagemParis = () => {
   const data = PARIS;
