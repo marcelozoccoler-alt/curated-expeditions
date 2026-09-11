@@ -33,7 +33,7 @@ export const GrupoPdfButton = () => {
     <button
       type="button"
       onClick={handleClick}
-      aria-label="Baixar roteiro em PDF"
+      aria-label={isViagem ? "Gerar PDF do livro" : "Baixar roteiro em PDF"}
       data-no-print
       className="fixed right-6 bottom-40 z-40 flex items-center gap-2 rounded-full bg-gold text-white shadow-xl px-5 py-3 hover:bg-gold/90 transition-all hover:scale-105 border border-navy/20 print:hidden"
     >
