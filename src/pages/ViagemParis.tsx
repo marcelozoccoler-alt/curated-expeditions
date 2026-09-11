@@ -203,7 +203,10 @@ const ViagemParis = () => {
                       ))}
                     </ol>
 
+                    <MapasDoDia block={block} />
+
                     <FotosDoDia cidadeSlug={data.slug} blocoId={block.id} titulo={block.title} />
+
                   </article>
                 ) : (
                   <section key={block.id} id={block.id} className="scroll-mt-24">
