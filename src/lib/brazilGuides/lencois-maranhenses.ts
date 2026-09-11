@@ -2,9 +2,9 @@ import type { BrazilGuideLocalized } from "./types";
 
 export const lencoisMaranhensesGuide: BrazilGuideLocalized = {
   pt: {
-    metaTitle: "Lençóis Maranhenses: quando as lagoas estão cheias",
+    metaTitle: "Lençóis Maranhenses: o mês exato das lagoas cheias",
     metaDescription:
-      "As lagoas azuis entre as dunas só existem em alguns meses. Veja mês a mês onde a água está alta, se ficar em Barreirinhas ou Atins e como chegar.",
+      "No mês errado, só há areia seca. Veja quando as lagoas estão no auge (mês a mês), onde ficar entre Barreirinhas e Atins e como montar o roteiro ideal.",
     keywords:
       "lencois maranhenses viagem, melhor epoca lencois maranhenses, barreirinhas, atins, santo amaro maranhao, rota das emocoes, lagoas lencois maranhenses, roteiro maranhao, viagem autoral lencois",
     h1: "Lençóis Maranhenses: guia autoral de quem já viu as lagoas nascerem",

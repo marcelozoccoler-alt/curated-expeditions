@@ -2,9 +2,9 @@ import type { BrazilGuideLocalized } from "./types";
 
 export const chapadaDosVeadeirosGuide: BrazilGuideLocalized = {
   pt: {
-    metaTitle: "Chapada dos Veadeiros: guia autoral de época, pousadas e roteiros",
+    metaTitle: "Chapada dos Veadeiros: o cerrado mais antigo do planeta",
     metaDescription:
-      "Guia completo da Chapada dos Veadeiros: melhor época mês a mês, cachoeiras e cânions imperdíveis, as melhores pousadas por perfil de viajante e como integrar o cerrado goiano a um roteiro pelo Brasil.",
+      "Cânions, cachoeiras de água azul e um dos céus mais estrelados do Brasil: melhor época mês a mês, pousadas por perfil e roteiro autoral pelo parque.",
     keywords:
       "chapada dos veadeiros, melhor epoca chapada dos veadeiros, vale da lua, cachoeira santa barbara, cânion 1 e 2, alto paraiso de goias, sao jorge goias, roteiro chapada dos veadeiros, pousada de luxo chapada, viagem autoral cerrado",
     h1: "Chapada dos Veadeiros: guia autoral do cerrado mais antigo do planeta",
