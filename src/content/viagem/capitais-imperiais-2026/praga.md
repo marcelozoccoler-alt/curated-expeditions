@@ -635,7 +635,7 @@ Duração: aproximadamente 30 minutos (até ~17:30).
 
 ### 17:35 — O PARQUE PETŘÍN E O PÔR DO SOL
 
-[Strahov → Parque Petřín](https://www.google.com/maps/dir/?api=1&origin=Strahov%20Monastery%2C%20Strahovsk%C3%A9%20n%C3%A1dvo%C5%99%C3%AD%20132&destination=Pet%C5%99%C3%ADnsk%C3%A9%20sady%2C%20118%2000%20Praha%201&waypoints=1%2C%20118%2000%20Praha%201&travelmode=walking)
+[Strahov → Parque Petřín](https://www.google.com/maps/dir/?api=1&origin=Strahov%20Monastery%2C%20Strahovsk%C3%A9%20n%C3%A1dvo%C5%99%C3%AD%20132&destination=Pet%C5%99%C3%ADnsk%C3%A9%20sady%2C%20118%2000%20Praha%201&travelmode=walking)
 
 A apenas 300 metros do monastério, o Parque Petřín se estende sobre a colina mais verde de Praga. É o lugar perfeito para assistir ao pôr do sol.
 
