@@ -914,7 +914,7 @@ Cancelamento gratuito até 19:45 de 10 de outubro.
 
 ### 22:45 — RETORNO AO HOTEL
 
-[Jantar medieval → Hotel](https://www.google.com/maps/dir/?api=1&origin=Na%20Florenci%201332%2C%20110%2000%20Praha%201&destination=55%2C%20130%2000%20Praha%203&waypoints=Fleur%20De%20Lis%20Hotel%2C%20Slezsk%C3%A1%20832&travelmode=walking)
+[Taverna U Pavouka → Hotel](https://www.google.com/maps/dir/?api=1&origin=Celetn%C3%A1%20597%2F17%2C%20110%2000%20Praha%201&destination=Fleur%20De%20Lis%20Hotel%2C%20Slezsk%C3%A1%20832%2C%20130%2000%20Praha%203&travelmode=transit)
 
 Táxi ou Uber de volta a Vinohrady. A noite de Praga está fria, as ruas iluminadas. Vocês estão com o estômago cheio, os ouvidos cheios de música e o coração cheio de História.
 
