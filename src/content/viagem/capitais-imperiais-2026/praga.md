@@ -945,17 +945,17 @@ Espaço reservado para as fotos e vídeos de DIA 9 — DOMINGO, 11 DE OUTUBRO DE
 
 Check-out: até meio-dia (12:00)
 
-Voo: TK 1772, Turkish Airlines
+Voo: direto da Turkish Airlines, Praga → Istambul
 
 Partida: 15:20 - Aeroporto Václav Havel (PRG), Terminal 1
 
-Chegada: 19:05 - Istanbul Airport (IST)
+Chegada: 19:00 - Istanbul Airport (IST)
 
-Duração: 2h45
+Duração: 2h40
 
 Temperatura: 5°C a 13°C
 
-Atenção ao terminal: o voo TK 1772 para Istambul é um voo não-Schengen (destino fora da União Europeia), portanto sai do Terminal 1 — não do Terminal 2. O Terminal 2 é exclusivo para voos dentro do Espaço Schengen.
+Atenção ao terminal: o voo para Istambul é não-Schengen (destino fora da União Europeia), portanto sai do Terminal 1 — não do Terminal 2. O Terminal 2 é exclusivo para voos dentro do Espaço Schengen.
 
 ### LINHA DO TEMPO
 
