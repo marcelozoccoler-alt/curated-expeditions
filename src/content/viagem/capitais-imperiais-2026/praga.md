@@ -386,11 +386,11 @@ Transporte especial: Bonde 22 (e, com sorte, a linha nostálgica 23)
 
 12:00 - Almoço no Lokál Dlouhááá
 
-13:15 - Bonde 22 até o Castelo
+13:15 - Bonde 22 até o Castelo (com folga: a última entrada nos interiores é 15:40)
 
-13:45 - Castelo de Praga (Circuito B)
+13:45 - Castelo de Praga (Circuito Principal)
 
-16:15 - Saída do castelo
+15:50 - Saída do castelo
 
 16:20 - Bonde 22 até Pohořelec
 
@@ -562,7 +562,7 @@ Atenção ao horário: como os interiores fecham às 16:00 e a última entrada �
 
 Alguns edifícios podem fechar sem aviso por cerimônia de Estado; a Catedral de São Vito também tem horário reduzido em datas religiosas. Se acontecer, o coordenador reorganiza a ordem da visita na hora — o bilhete vale para o dia seguinte também.
 
-### ROTEIRO DE VISITA DENTRO DO CASTELO (13:45 – 16:15)
+### ROTEIRO DE VISITA DENTRO DO CASTELO (13:45 – 15:50)
 
 13:45 — Entrada pelo 2º Pátio
 Subam a escadaria cerimonial até o 2º pátio. A Fonte com águias de bronze está no centro.
@@ -588,7 +588,7 @@ A mais antiga igreja do complexo (fundada em 920). Fachada românica vermelha, i
 
 Tempo sugerido: 10-15 minutos.
 
-15:30 — Rua do Ouro (Zlatá ulička)
+15:25 — Rua do Ouro (Zlatá ulička)
 Onze casinhas coloridas incrustadas na muralha norte do castelo. Construídas no século XVI para abrigar os guardas do castelo. Depois, tornaram-se moradia de artistas, ourives e alquimistas a serviço de Rodolfo II.
 
 A casa nº 22: Franz Kafka alugou esta casinha azul em 1916. Foi aqui que escreveu vários contos. Hoje é uma livraria.
@@ -597,7 +597,7 @@ As casinhas são minúsculas, com tetos baixos, portas estreitas. Parecem cenár
 
 Tempo sugerido: 20-25 minutos.
 
-16:15 — Saída do castelo
+15:50 — Saída do castelo
 
 ### 16:20 — BONDE 22 ATÉ POHOŘELEC (SEM ESFORÇO)
 
