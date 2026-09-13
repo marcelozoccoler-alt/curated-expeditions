@@ -190,11 +190,12 @@ Praga é chamada de a cidade das cem torres. Mas na verdade tem mais de quinhent
 
 ---
 
-## HOTEL: FLEUR DE LIS HOTEL
+## HOTÉIS EM PRAGA: FLEUR DE LIS E TAURUS
 
-- Endereço: Slezska 832/55, 130 00 Praha 3 — Vinohrady
-Imposto local: CZK 50 por pessoa/diária (cerca de R$ 12) — total CZK 450 (cerca de R$ 111)
-- [Ver no Google Maps](https://www.google.com/maps/search/?api=1&query=Fleur%20De%20Lis%20Hotel%2C%20Prague)
+- Endereço: Fleur De Lis Hotel, Slezská 832/55, 130 00 Praha 3 — Vinohrady. Três noites, de 9 a 12 de outubro, com café da manhã incluído. Check-in a partir das 14:00 (recepção recebe até as 23:00)
+- Parte do grupo fica no Hotel Taurus, Vinohradská 105, Praha 3 — o mesmo bairro, a poucos minutos de caminhada do Fleur De Lis, também com café da manhã, check-in a partir das 15:00 e check-out às 11:00 do dia 12. Os encontros do grupo acontecem sempre no Fleur De Lis, salvo aviso do coordenador
+Imposto municipal: CZK 50 por pessoa a cada noite (cerca de R$ 12) — CZK 150 por pessoa nas três noites, cerca de R$ 37, pagos direto na recepção
+- [Fleur De Lis no Google Maps](https://www.google.com/maps/search/?api=1&query=Fleur%20De%20Lis%20Hotel%2C%20Slezsk%C3%A1%20832%2F55%2C%20Praha%203) · [Hotel Taurus no Google Maps](https://www.google.com/maps/search/?api=1&query=Hotel%20Taurus%2C%20Vinohradsk%C3%A1%20105%2C%20Praha%203) · [Taurus → Fleur De Lis, a pé](https://www.google.com/maps/dir/?api=1&origin=Hotel%20Taurus%2C%20Vinohradsk%C3%A1%20105%2C%20Praha%203&destination=Fleur%20De%20Lis%20Hotel%2C%20Slezsk%C3%A1%20832%2F55%2C%20Praha%203&travelmode=walking)
 
 ### POR QUE ESTE HOTEL FUNCIONA PARA VOCÊS
 
@@ -385,11 +386,11 @@ Transporte especial: Bonde 22 (e, com sorte, a linha nostálgica 23)
 
 12:00 - Almoço no Lokál Dlouhááá
 
-13:15 - Bonde 22 até o Castelo
+13:15 - Bonde 22 até o Castelo (com folga: a última entrada nos interiores é 15:40)
 
-13:45 - Castelo de Praga (Circuito B)
+13:45 - Castelo de Praga (Circuito Principal)
 
-16:15 - Saída do castelo
+15:50 - Saída do castelo
 
 16:20 - Bonde 22 até Pohořelec
 
@@ -543,23 +544,25 @@ O maior complexo de castelo antigo do mundo — registrado no Guinness Book. 70.
 
 Patrimônio da Humanidade pela UNESCO.
 
-Horários de outubro (temporada de verão, até 31/out):
+Horários de outubro:
 - Complexo externo (pátios, ruas): 6:00 – 22:00 (gratuito)
-- Prédios históricos (Catedral, Palácio Real, Basílica, Rua do Ouro): 9:00 – 17:00
-- Última entrada nos prédios: 16:40
+- Área de visitação aberta das 9:00 às 17:00
+- Interiores históricos (Catedral, Palácio Real, Basílica, Rua do Ouro): fecham às 16:00, com última entrada às 15:40
 
-O Circuito B (Main Circuit): 450 CZK (cerca de R$ 111) por adulto. Inclui:
+O Circuito Principal (Main Circuit) já está reservado para o grupo e inclui:
 - Catedral de São Vito
 - Antigo Palácio Real
 - Basílica de São Jorge
 - Rua do Ouro (Zlatá ulička)
 - Válido por 2 dias
 
-Site oficial e ingressos: hrad.cz
+Como funciona a entrada: o bilhete é digital e será lido na porta de cada edifício, direto do celular do coordenador — não há papel a retirar nem fila de bilheteria. Vocês podem começar por qualquer um dos quatro edifícios, e entrar uma vez em cada. Quem tem 65 anos ou mais deve levar documento com foto, porque a tarifa sênior é conferida na porta.
 
-Dica local: comprem o ingresso online com antecedência em hrad.cz. Evita filas na bilheteria e garante entrada. O bilhete é válido por 2 dias.
+Atenção ao horário: como os interiores fecham às 16:00 e a última entrada é às 15:40, este é o único bloco do dia em que não há margem para atraso. Por isso subimos a colina às 13:15, mais cedo do que o necessário — e a Rua do Ouro fica para o fim, já que é o percurso mais rápido.
 
-### ROTEIRO DE VISITA DENTRO DO CASTELO (13:45 – 16:15)
+Alguns edifícios podem fechar sem aviso por cerimônia de Estado; a Catedral de São Vito também tem horário reduzido em datas religiosas. Se acontecer, o coordenador reorganiza a ordem da visita na hora — o bilhete vale para o dia seguinte também.
+
+### ROTEIRO DE VISITA DENTRO DO CASTELO (13:45 – 15:50)
 
 13:45 — Entrada pelo 2º Pátio
 Subam a escadaria cerimonial até o 2º pátio. A Fonte com águias de bronze está no centro.
@@ -585,7 +588,7 @@ A mais antiga igreja do complexo (fundada em 920). Fachada românica vermelha, i
 
 Tempo sugerido: 10-15 minutos.
 
-15:30 — Rua do Ouro (Zlatá ulička)
+15:25 — Rua do Ouro (Zlatá ulička)
 Onze casinhas coloridas incrustadas na muralha norte do castelo. Construídas no século XVI para abrigar os guardas do castelo. Depois, tornaram-se moradia de artistas, ourives e alquimistas a serviço de Rodolfo II.
 
 A casa nº 22: Franz Kafka alugou esta casinha azul em 1916. Foi aqui que escreveu vários contos. Hoje é uma livraria.
@@ -594,7 +597,7 @@ As casinhas são minúsculas, com tetos baixos, portas estreitas. Parecem cenár
 
 Tempo sugerido: 20-25 minutos.
 
-16:15 — Saída do castelo
+15:50 — Saída do castelo
 
 ### 16:20 — BONDE 22 ATÉ POHOŘELEC (SEM ESFORÇO)
 
@@ -753,19 +756,19 @@ Sugestões para preencher o tempo até o barco:
 
 Hoje, em vez de explorar fortalezas, vocês vão flutuar. Nada de pressa, nada de multidão. Apenas o Moldava, o céu de outubro, e um barco só de vocês.
 
-### 11:20 — EMBARQUE NO CAIS
+### 11:20 — CHEGADA AO CAIS
 
-O cais fica próximo à Čech Bridge ou ao Dvořákovo nábřeží, dependendo da empresa escolhida.
+O cais é o da Prague Boats, no Dvořákovo nábřeží, junto à Ponte Čech — pontão nº 3 B. O escritório da companhia fica ali mesmo, na beira do rio.
 
-Cruzeiro com almoço, já reservado para o grupo.
+Cruzeiro com almoço, já reservado para o grupo — a reserva está no nome Create Travel, e não há voucher em papel: o check-in é feito pelo coordenador no balcão.
 
 Data do cruzeiro: 11 de outubro de 2026 (domingo)
 
 Horário do cruzeiro: 12h00 às 14h00 (2 horas)
 
-Embarque: entre 11h20 e 11h40
+Chegada ao cais: 11h20, para o check-in obrigatório das 11h40
 
-Chegada para check-in: 11h40
+Telefone do cais, se algo atrasar: +420 605 700 007
 
 Categoria: Exclusive (junto à janela) — 2 mesas lado a lado
 
@@ -882,7 +885,7 @@ Vocês chegam com folga numa das ruas mais antigas de Praga, a mesma que os reis
 
 ### 19:45 — CHECK-IN NA PORTA DA TAVERNA
 
-Estar pronto no ponto quinze minutos antes é exigência da casa: o espetáculo começa pontualmente às 20:00 e o código do voucher é lido na porta. O coordenador apresenta os vouchers do grupo — menu de frango, Medieval Evening. Em caso de qualquer imprevisto no caminho, o telefone de plantão da operação local é +420 724 371 392.
+Estar pronto no ponto quinze minutos antes é exigência da casa: o espetáculo começa pontualmente às 20:00 e o código QR do voucher é lido na porta do restaurante. O coordenador apresenta os vouchers do grupo — menu de frango para a maioria e um menu vegano já registrado para quem pediu. Em caso de qualquer imprevisto no caminho, o telefone de plantão da operação local é +420 724 371 392.
 
 ### 20:00 — O ESPETÁCULO MEDIEVAL (ATÉ 22:30)
 
@@ -942,17 +945,17 @@ Espaço reservado para as fotos e vídeos de DIA 9 — DOMINGO, 11 DE OUTUBRO DE
 
 Check-out: até meio-dia (12:00)
 
-Voo: TK 1772, Turkish Airlines
+Voo: direto da Turkish Airlines, Praga → Istambul
 
 Partida: 15:20 - Aeroporto Václav Havel (PRG), Terminal 1
 
-Chegada: 19:05 - Istanbul Airport (IST)
+Chegada: 19:00 - Istanbul Airport (IST)
 
-Duração: 2h45
+Duração: 2h40
 
 Temperatura: 5°C a 13°C
 
-Atenção ao terminal: o voo TK 1772 para Istambul é um voo não-Schengen (destino fora da União Europeia), portanto sai do Terminal 1 — não do Terminal 2. O Terminal 2 é exclusivo para voos dentro do Espaço Schengen.
+Atenção ao terminal: o voo para Istambul é não-Schengen (destino fora da União Europeia), portanto sai do Terminal 1 — não do Terminal 2. O Terminal 2 é exclusivo para voos dentro do Espaço Schengen.
 
 ### LINHA DO TEMPO
 
@@ -970,7 +973,7 @@ Atenção ao terminal: o voo TK 1772 para Istambul é um voo não-Schengen (dest
 
 12:45 - Chegada ao Aeroporto (Terminal 1)
 
-15:20 - Decolagem TK 1772
+15:20 - Decolagem para Istambul
 
 ---
 
@@ -1010,7 +1013,7 @@ O Aeroporto de Praga leva o nome de Václav Havel — o dramaturgo, dissidente e
 
 Terminal 1 — check-in, controle de passaporte (voo não-Schengen), segurança e sala de embarque. Cerca de 2h30 antes do voo — tempo confortável para todos os procedimentos.
 
-### 15:20 — DECOLAGEM TK 1772
+### 15:20 — DECOLAGEM PARA ISTAMBUL
 
 O avião da Turkish Airlines sobe sobre a Boêmia. Lá embaixo, o Moldava brilha como uma fita de prata. A Ponte Carlos é um traço fino sobre o rio. As torres góticas recortam o horizonte. O castelo domina a colina. E, no alto de Petřín, o monastério de Strahov continuará ali, entre o silêncio das abóbadas e a luz que entra pelas janelas góticas.
 

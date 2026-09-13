@@ -271,7 +271,7 @@ Chegada: 19:00 — Aeroporto de Istambul (IST).
 
 Hotel: Galata Times Hotel, Beyoğlu.
 
-Check-in: a partir das 15:00.
+Check-in: a partir das 14:00, com recepção até meia-noite — nossa chegada é noturna e a reserva está confirmada para as três noites, de 12 a 15 de outubro, com café da manhã incluído.
 
 Temperatura: 14°C a 21°C.
 
@@ -648,11 +648,13 @@ Opção 1 — A pé (recomendado): cerca de 20 a 25 minutos descendo até Karak�
 
 ### 20:15 — CHEGADA AO CAIS DE EMBARQUE
 
-Cheguem com ao menos 15 minutos de antecedência.
+O cais é o Bogazdayiz, no endereço Ömer Avni, Meclis-i Mebusan Cd., junto à estação de ferry de Kabataş (34427 Beyoğlu). O barco atende pelo nome de **Tosun Pasha** — procurem esse nome no casco. Cheguem com ao menos 15 minutos de antecedência; saímos do hotel às 19:30 justamente para ninguém chegar apressado. [Ponto exato no Google Maps](https://maps.app.goo.gl/xep48XjMZCPJpwbN7)
+
+O embarque é feito com o voucher do grupo mais um código QR que a operação envia na véspera, a partir das 18:00 — o coordenador apresenta os dois na entrada. Telefone de plantão da operação local: +90 533 894 05 60.
 
 ### 20:30 — CRUZEIRO NOTURNO COM JANTAR E ESPETÁCULO
 
-Data: 14 de outubro de 2026 (quarta-feira). Horário: 20:30. Duração: 3 horas.
+Data: 14 de outubro de 2026 (quarta-feira). Horário: 20:30. Duração: 3 horas. Já reservado para os 12 viajantes do grupo, na versão sem bebidas alcoólicas.
 
 O que está incluído:
 
