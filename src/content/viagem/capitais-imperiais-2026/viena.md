@@ -413,7 +413,7 @@ Importante: A entrada nos pátios do Hofburg é gratuita. As visitas pagas são 
 
 Site oficial: hofburg-wien.at
 
-### 09:30 — A BIBLIOTECA NACIONAL AUSTRIACA (PRUNKSAAL)
+### 10:00 — A BIBLIOTECA NACIONAL AUSTRIACA (PRUNKSAAL)
 
 [Hofburg → Biblioteca](https://www.google.com/maps/dir/?api=1&origin=Hofburg%2C%20Michaelerkuppel%2C%201010%20Wien&destination=%C3%96sterreichische%20Nationalbibliothek%2C%20Josefsplatz%201%2C%201010%20Wien&travelmode=walking)
 

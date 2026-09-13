@@ -279,7 +279,7 @@ Fuso: GMT+3, seis horas à frente de Brasília.
 
 ### LINHA DO TEMPO
 
-- 19:05 — Pouso no Aeroporto de Istambul (IST)
+- 19:00 — Pouso no Aeroporto de Istambul (IST)
 - 20:00 — Traslado privativo para o hotel
 - 20:45 — Check-in no Galata Times Hotel
 - 21:15 — Jantar leve em Karaköy ou Galata
@@ -289,7 +289,7 @@ Fuso: GMT+3, seis horas à frente de Brasília.
 
 Jantar leve: casual confortável. Casaco leve ou jaqueta — a noite de outubro em Istambul é amena, mas o vento do Bósforo pode refrescar.
 
-### 19:05 — POUSO NO AEROPORTO DE ISTAMBUL
+### 19:00 — POUSO NO AEROPORTO DE ISTAMBUL
 
 O avião da Turkish Airlines baixa sobre Istambul. Pela janela, o Bósforo é uma fita escura cravejada de luzes — os ferrys, os navios, as pontes iluminadas. As mesquitas pontuam a paisagem com seus minaretes como agulhas de luz. Dois continentes. Uma cidade. Vocês pousaram na Europa, mas a Ásia está ali ao lado, a apenas 700 metros de água.
 
