@@ -372,6 +372,12 @@ diferentes por pessoas que nunca se conheceram.
 Procurar a jaqueta vermelha e a placa de identificação. Ao encontrar o acompanhante, confirmar em
 voz alta o nome das duas na lista.
 
+**Três detalhes desta reserva:** não é uma visita guiada — o acompanhante mostra o caminho até a
+sala da Mona Lisa e permanece com o grupo durante a visita; o audioguia é baixado no próprio
+celular, e por isso os **fones de ouvido são indispensáveis**; e o museu não permite entrar com
+**guarda-chuva** ou bolsa grande — ambos ficam no vestiário, melhor sair do hotel sem eles neste
+dia. Exposições temporárias não estão incluídas.
+
 ### 09:30 — O que priorizar lá dentro
 
 - **Mona Lisa** — pequena, atrás de vidro, cercada de celulares. Ver, e depois virar-se: na parede
@@ -758,7 +764,13 @@ uma confirmação antes do embarque.
    parcelas, ao longo dos meses, e não tudo de uma vez.
 7. **Quarto compacto.** A categoria *budget* é pequena para duas malas grandes. Não é um erro da
    reserva, é a natureza do produto — mas é melhor saber antes de abrir a porta.
-8. **Depois de 30/09.** Hospedagem, transporte e programação em Portugal, para Silvia (até 07/10)
+8. **Número mínimo de participantes.** Duas reservas só operam com um mínimo de pessoas: o Louvre
+    com a Mona Lisa (mínimo de 4) e a visita a Notre-Dame em grupo reduzido (mínimo de 3). Se o
+    número não for alcançado, a operadora entra em contato para oferecer alternativas — vale
+    reconfirmar as duas na semana anterior.
+9. **Documento com foto.** Cruzeiro, Versalhes e Louvre pedem documento com foto no dia. Passaporte
+    sempre na bolsa.
+10. **Depois de 30/09.** Hospedagem, transporte e programação em Portugal, para Silvia (até 07/10)
     e para Patrícia (até 12/10), ainda precisam ser fechados. É o único trecho da viagem sem
     logística definida neste livro.
 
