@@ -640,7 +640,7 @@ O que o Classic Pass inclui:
 ...
 - Válido para 1 acesso a cada atração, apenas na data da visita
 
-Retirada dos ingressos: no balcão de grupos (Group Center), localizado à direita da saída da estação U4 Schönbrunn, até 15 minutos antes da visita (12:15). O coordenador cuida dos vouchers do grupo.
+Retirada dos ingressos: no balcão de grupos (Group Center), localizado à direita da saída da estação U4 Schönbrunn. Os ingressos precisam ser retirados até 12:15 — quinze minutos antes da entrada — ou a reserva é cancelada automaticamente. Por isso descemos a colina com folga, às 12:00. O coordenador apresenta a confirmação do grupo e faz o pagamento no local, em dinheiro ou cartão, como pede a casa.
 
 O que vocês explorarão:
 
@@ -695,10 +695,10 @@ Durante duas horas, vocês ouvem a música que nasceu nesta cidade, tocada por m
 
 Informações práticas:
 
-- Duração: 2 horas (com intervalo)
-- Preço: cerca de €65 a €130 por pessoa (cerca de R$ 390 a R$ 780), dependendo da categoria do assento
-- Ingressos: site oficial de Schönbrunn
-- Chegar com 30 minutos de antecedência
+- Horário: 20:30 às 22:30, no Palácio de Schönbrunn (Schönbrunner Schloßstraße 47)
+- Ingressos: já reservados para o grupo, um bilhete nominal por viajante, em formato digital — não é preciso imprimir
+- A casa pede chegada 15 minutos antes; nós saímos do hotel às 19:30 para estar no palácio por volta das 20:00, com meia hora de folga
+- Levem um agasalho: a espera é em área aberta do palácio
 
 ### 22:30 — RETORNO AO HOTEL
 
