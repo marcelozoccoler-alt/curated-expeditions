@@ -704,7 +704,7 @@ Passeio de barco: 11:20 - Prague Boats, Dvořákovo nábřeží, pier nº 3 B
 
 Bairro Judeu: 14:30 – 16:30
 
-Jantar medieval: 19:45, Na Florenci 1332/23, Nové Město
+Jantar medieval: espetáculo às 20:00, na Taverna Medieval U Pavouka, Celetná 597/17, Praha 1, a poucos passos da Praça da Cidade Velha (ponto de encontro atualizado pela operação local)
 
 ### LINHA DO TEMPO
 
@@ -726,9 +726,9 @@ Jantar medieval: 19:45, Na Florenci 1332/23, Nové Město
 
 18:30 - Saída para o jantar medieval
 
-19:15 - Encontro no ponto
+19:15 - Chegada à Celetná, com folga
 
-19:45 - Check-in com voucher
+19:45 - Check-in na porta da taverna, com o voucher
 
 20:00 - Espetáculo medieval
 
