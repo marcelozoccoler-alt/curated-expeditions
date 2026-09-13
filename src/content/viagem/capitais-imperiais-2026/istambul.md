@@ -265,9 +265,9 @@ Istambul não começa devagar. Começa no cheiro — mar, especiaria, carvão, p
 
 ### DADOS DO DIA
 
-Voo: o voo da Turkish Airlines número mil setecentos e setenta e dois (TK 1772), saindo de Praga às 15:20 do dia 12/10 e chegando a Istambul às 19:05 do mesmo dia, 2h45 de voo.
+Voo: voo direto da Turkish Airlines, saindo de Praga às 15:20 do dia 12/10 e chegando a Istambul às 19:00 do mesmo dia, 2h40 de voo.
 
-Chegada: 19:05 — Aeroporto de Istambul (IST).
+Chegada: 19:00 — Aeroporto de Istambul (IST).
 
 Hotel: Galata Times Hotel, Beyoğlu.
 

@@ -362,7 +362,7 @@ Vestimenta: smart casual confortável. Calçado essencial (dia mais longo)
 
 09:15 - O complexo do Hofburg
 
-09:30 - Biblioteca Nacional Austríaca (Prunksaal)
+10:00 - Biblioteca Nacional Austríaca (Prunksaal), na abertura
 
 11:00 - Tempo livre no Hofburg e Heldenplatz
 
