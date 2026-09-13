@@ -620,13 +620,13 @@ Concerto: 20:30 às 22:30 no Palácio de Schönbrunn
 
 Mais tranquilo hoje. O dia é dedicado a uma única atração — mas que atração.
 
-### 10:00 — SAÍDA PARA SCHÖNBRUNN
+### 09:20 — SAÍDA PARA SCHÖNBRUNN
 
 [Hotel → Jardins de Schönbrunn](https://www.google.com/maps/dir/?api=1&origin=ibis%20Wien%20Mariahilf%2C%20Mariahilfer%20G%C3%BCrtel%2022-24%2C%201060%20Wien&destination=Sch%C3%B6nbrunn%20Palace%20Gardens%2C%20Sch%C3%B6nbrunner%20Schlossstra%C3%9Fe%2C%201130%20Wien&travelmode=walking)
 
 O Palácio de Schönbrunn fica a apenas 5 minutos de táxi do hotel ibis Wien Mariahilf. Esta é uma das grandes vantagens da localização do hotel. A pé, seriam cerca de 3,5 km (35 a 40 minutos) — para o grupo, o táxi ou o transporte público é a escolha sensata.
 
-### 11:30 — JARDINS DE SCHÖNBRUNN
+### 09:45 — JARDINS DE SCHÖNBRUNN
 
 Schönbrunn é a "Versalhes de Viena". Residência de verão dos Habsburgos, o palácio tem 1.441 cômodos e jardins de 160 hectares. É Patrimônio da Humanidade pela UNESCO desde 1996.
 
