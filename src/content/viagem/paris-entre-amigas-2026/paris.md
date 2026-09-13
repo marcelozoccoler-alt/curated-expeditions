@@ -372,6 +372,12 @@ diferentes por pessoas que nunca se conheceram.
 Procurar a jaqueta vermelha e a placa de identificação. Ao encontrar o acompanhante, confirmar em
 voz alta o nome das duas na lista.
 
+**Três detalhes desta reserva:** não é uma visita guiada — o acompanhante mostra o caminho até a
+sala da Mona Lisa e permanece com o grupo durante a visita; o audioguia é baixado no próprio
+celular, e por isso os **fones de ouvido são indispensáveis**; e o museu não permite entrar com
+**guarda-chuva** ou bolsa grande — ambos ficam no vestiário, melhor sair do hotel sem eles neste
+dia. Exposições temporárias não estão incluídas.
+
 ### 09:30 — O que priorizar lá dentro
 
 - **Mona Lisa** — pequena, atrás de vidro, cercada de celulares. Ver, e depois virar-se: na parede
