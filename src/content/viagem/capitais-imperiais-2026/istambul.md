@@ -574,6 +574,8 @@ Chora significa campo, em grego, e o nome não mente: a igreja foi construída n
 
 Endereço: Dervişali, Kariye Camii Sk. 18, 34087 Edirnekapı, Fatih/İstanbul — [Ver no Google Maps](https://www.google.com/maps/search/?api=1&query=Kariye%20Camii%2C%20Edirnekap%C4%B1%2C%20Istanbul)
 
+As entradas do grupo já estão reservadas (12 adultos, sem fila de bilheteria). Os bilhetes chegam por e-mail na manhã do próprio dia — é só ir direto ao portão e ler o QR code do e-mail. Levem o celular carregado. Atenção: esta reserva não é reembolsável, então o horário da manhã é para ser cumprido.
+
 Vocês escaneiam o QR code no portão e entram. O silêncio é quase físico. E então os olhos se acostumam com a penumbra, e o ouro começa a aparecer — primeiro timidamente, depois por toda parte.
 
 Cada parede, cada arco, cada luneta do nártex está coberta de mosaicos do século XIV, narrando a vida de Maria e a vida de Cristo como se fossem páginas de um evangelho ilustrado. As figuras têm expressão, têm movimento, têm alma. É arte bizantina no seu último suspiro de grandeza — feita quando o império já estava caindo, mas a beleza ainda resistia.
