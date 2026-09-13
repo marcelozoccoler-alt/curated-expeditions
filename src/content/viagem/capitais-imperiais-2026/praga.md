@@ -973,7 +973,7 @@ Atenção ao terminal: o voo para Istambul é não-Schengen (destino fora da Uni
 
 12:45 - Chegada ao Aeroporto (Terminal 1)
 
-15:20 - Decolagem TK 1772
+15:20 - Decolagem para Istambul
 
 ---
 
@@ -1013,7 +1013,7 @@ O Aeroporto de Praga leva o nome de Václav Havel — o dramaturgo, dissidente e
 
 Terminal 1 — check-in, controle de passaporte (voo não-Schengen), segurança e sala de embarque. Cerca de 2h30 antes do voo — tempo confortável para todos os procedimentos.
 
-### 15:20 — DECOLAGEM TK 1772
+### 15:20 — DECOLAGEM PARA ISTAMBUL
 
 O avião da Turkish Airlines sobe sobre a Boêmia. Lá embaixo, o Moldava brilha como uma fita de prata. A Ponte Carlos é um traço fino sobre o rio. As torres góticas recortam o horizonte. O castelo domina a colina. E, no alto de Petřín, o monastério de Strahov continuará ali, entre o silêncio das abóbadas e a luz que entra pelas janelas góticas.
 
