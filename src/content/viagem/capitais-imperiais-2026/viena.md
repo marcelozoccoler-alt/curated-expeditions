@@ -598,13 +598,15 @@ Concerto: 20:30 às 22:30 no Palácio de Schönbrunn
 
 08:30 - Café da manhã
 
-10:00 - Saída para Schönbrunn
+09:20 - Saída para Schönbrunn
 
-11:30 - Jardins de Schönbrunn, Fonte de Netuno e Gloriette
+09:45 - Jardins de Schönbrunn, Fonte de Netuno e Gloriette
 
-12:00 - Café na Gloriette, sem pressa — a pausa da viagem
+10:45 - Café na Gloriette, sem pressa — a pausa da viagem
 
-13:00 - Visita ao Palácio (Classic Pass)
+12:00 - Descida da colina e retirada dos ingressos no Group Center (limite: 12:15)
+
+12:30 - Entrada no Palácio — última entrada permitida pelo Classic Pass
 
 16:00 - Retorno ao hotel para descanso
 
