@@ -193,7 +193,7 @@ Praga é chamada de a cidade das cem torres. Mas na verdade tem mais de quinhent
 ## HOTÉIS EM PRAGA: FLEUR DE LIS E TAURUS
 
 - Endereço: Fleur De Lis Hotel, Slezská 832/55, 130 00 Praha 3 — Vinohrady. Três noites, de 9 a 12 de outubro, com café da manhã incluído. Check-in a partir das 14:00 (recepção recebe até as 23:00)
-- Parte do grupo fica no Hotel Taurus, Vinohradská 105, Praha 3 — o mesmo bairro, a poucos minutos de caminhada do Fleur De Lis, também com café da manhã, check-in a partir das 15:00 e check-out às 11:00 do dia 12. Os encontros do grupo acontecem sempre no Fleur De Lis, salvo aviso do coordenador
+- Um casal do grupo fica no Hotel Taurus, Vinohradská 105, Praha 3 — o mesmo bairro, a poucos minutos de caminhada do Fleur De Lis, também com café da manhã, check-in a partir das 15:00 e check-out às 11:00 do dia 12. Todos os encontros e saídas do grupo partem sempre do Fleur De Lis — quem estiver no Taurus desce a pé (caminhada curta) até lá nos horários combinados, salvo aviso do coordenador
 Imposto municipal: CZK 50 por pessoa a cada noite (cerca de R$ 12) — CZK 150 por pessoa nas três noites, cerca de R$ 37, pagos direto na recepção
 - [Fleur De Lis no Google Maps](https://www.google.com/maps/search/?api=1&query=Fleur%20De%20Lis%20Hotel%2C%20Slezsk%C3%A1%20832%2F55%2C%20Praha%203) · [Hotel Taurus no Google Maps](https://www.google.com/maps/search/?api=1&query=Hotel%20Taurus%2C%20Vinohradsk%C3%A1%20105%2C%20Praha%203) · [Taurus → Fleur De Lis, a pé](https://www.google.com/maps/dir/?api=1&origin=Hotel%20Taurus%2C%20Vinohradsk%C3%A1%20105%2C%20Praha%203&destination=Fleur%20De%20Lis%20Hotel%2C%20Slezsk%C3%A1%20832%2F55%2C%20Praha%203&travelmode=walking)
 
@@ -298,7 +298,7 @@ A estação fica no limite da Cidade Nova (Nové Město) — fundada por Carlos 
 
 ### 19:40 — TRASLADO PARA O HOTEL
 
-[Praha hl.n. → Fleur De Lis Hotel](https://www.google.com/maps/dir/?api=1&origin=Praha%20hlavn%C3%AD%20n%C3%A1dra%C5%BE%C3%AD%2C%20Wilsonova%20300%2C%20120%2000%20Praha%202&destination=Fleur%20De%20Lis%20Hotel%2C%20Slezska%20832%2C%20130%2000%20Praha%203&travelmode=walking)
+[Praha hl.n. → Fleur De Lis Hotel](https://www.google.com/maps/dir/?api=1&origin=Praha%20hlavn%C3%AD%20n%C3%A1dra%C5%BE%C3%AD%2C%20Wilsonova%20300%2C%20120%2000%20Praha%202&destination=Fleur%20De%20Lis%20Hotel%2C%20Slezsk%C3%A1%20832%2F55%2C%20130%2000%20Praha%203&travelmode=walking)
 
 O carro sobe pela Vinohradská třída — a avenida principal de Vinohrady. Sete minutos. Vocês passam por prédios art nouveau, fachadas com estuques florais, sacadas de ferro forjado. A rua vira na Slezska, uma viela tranquila ladeada de plátanos. E lá está o Fleur De Lis.
 
@@ -314,7 +314,7 @@ Depois de 4h13 de trem, um banho quente e uma pausa são mais que merecidos. O q
 
 ### 21:00 — JANTAR DE BOAS-VINDAS NO U BULÍNŮ
 
-[Hotel → Restaurace U Bulínů](https://www.google.com/maps/dir/?api=1&origin=Fleur%20De%20Lis%20Hotel%2C%20Slezska%20832%2C%20130%2000%20Praha%203&destination=Restaurace%20U%20Bul%C3%ADn%C5%AF%2C%20Bude%C4%8Dsk%C3%A1%202%2C%20120%2000%20Praha%202&travelmode=walking)
+[Hotel → Restaurace U Bulínů](https://www.google.com/maps/dir/?api=1&origin=Fleur%20De%20Lis%20Hotel%2C%20Slezsk%C3%A1%20832%2F55%2C%20130%2000%20Praha%203&destination=Restaurace%20U%20Bul%C3%ADn%C5%AF%2C%20Bude%C4%8Dsk%C3%A1%202%2C%20120%2000%20Praha%202&travelmode=walking)
 
 A apenas 5 minutos a pé do hotel, o U Bulínů é um restaurante tcheco raiz — daqueles que os praguenses frequentam, não os turistas. Mesas de madeira, iluminação quente, o som de talheres e conversas em tcheco.
 
@@ -329,7 +329,7 @@ Curiosidade: A República Tcheca tem o maior consumo de cerveja per capita do mu
 
 ### 22:30 — RETORNO AO HOTEL
 
-[Restaurace U Bulínů → Hotel](https://www.google.com/maps/dir/?api=1&origin=Restaurace%20U%20Bul%C3%ADn%C5%AF%2C%20Bude%C4%8Dsk%C3%A1%202%2C%20120%2000%20Praha%202&destination=Fleur%20De%20Lis%20Hotel%2C%20Slezska%20832%2C%20130%2000%20Praha%203&travelmode=walking)
+[Restaurace U Bulínů → Hotel](https://www.google.com/maps/dir/?api=1&origin=Restaurace%20U%20Bul%C3%ADn%C5%AF%2C%20Bude%C4%8Dsk%C3%A1%202%2C%20120%2000%20Praha%202&destination=Fleur%20De%20Lis%20Hotel%2C%20Slezsk%C3%A1%20832%2F55%2C%20130%2000%20Praha%203&travelmode=walking)
 
 Caminhada de 5 minutos. O ar frio da noite, as ruas silenciosas de Vinohrady, a sensação de estar num bairro que é real, não um cenário para turistas. Durmam bem. Amanhã é o dia grande.
 
@@ -635,7 +635,7 @@ Duração: aproximadamente 30 minutos (até ~17:30).
 
 ### 17:35 — O PARQUE PETŘÍN E O PÔR DO SOL
 
-[Strahov → Parque Petřín](https://www.google.com/maps/dir/?api=1&origin=Strahov%20Monastery%2C%20Strahovsk%C3%A9%20n%C3%A1dvo%C5%99%C3%AD%20132&destination=Pet%C5%99%C3%ADnsk%C3%A9%20sady%2C%20118%2000%20Praha%201&waypoints=1%2C%20118%2000%20Praha%201&travelmode=walking)
+[Strahov → Parque Petřín](https://www.google.com/maps/dir/?api=1&origin=Strahov%20Monastery%2C%20Strahovsk%C3%A9%20n%C3%A1dvo%C5%99%C3%AD%20132&destination=Pet%C5%99%C3%ADnsk%C3%A9%20sady%2C%20118%2000%20Praha%201&travelmode=walking)
 
 A apenas 300 metros do monastério, o Parque Petřín se estende sobre a colina mais verde de Praga. É o lugar perfeito para assistir ao pôr do sol.
 
@@ -673,7 +673,7 @@ Preço: €10-16 (cerca de R$ 60 a R$ 96)
 
 ### 21:00 — RETORNO AO HOTEL
 
-[Restaurante → Hotel](https://www.google.com/maps/dir/?api=1&origin=Caf%C3%A9%20Louvre%2C%20N%C3%A1rodn%C3%AD%2022%2C%20110%2000%20Nov%C3%A9%20M%C4%9Bsto&destination=55%2C%20130%2000%20Praha%203&waypoints=Fleur%20De%20Lis%20Hotel%2C%20Slezsk%C3%A1%20832&travelmode=walking)
+[Restaurante → Hotel](https://www.google.com/maps/dir/?api=1&origin=Caf%C3%A9%20Louvre%2C%20N%C3%A1rodn%C3%AD%2022%2C%20110%2000%20Nov%C3%A9%20M%C4%9Bsto&destination=Fleur%20De%20Lis%20Hotel%2C%20Slezsk%C3%A1%20832%2F55%2C%20130%2000%20Praha%203&travelmode=walking)
 
 Bonde ou táxi de volta a Vinohrady. As ruas do bairro estão silenciosas e seguras. A cama espera.
 
@@ -745,7 +745,7 @@ Sem pressa. O dia de hoje é um respiro — depois da maratona de ontem, vocês 
 
 ### 09:30 — SAÍDA PARA O CENTRO
 
-[Hotel → Prague Boats](https://www.google.com/maps/dir/?api=1&origin=Fleur%20De%20Lis%20Hotel%2C%20Slezsk%C3%A1%20832&destination=Prague%20Boats%2C%20Dvo%C5%99%C3%A1kovo%20n%C3%A1b%C5%99e%C5%BE%C3%AD%2C%20110%2000%20Praha%201&waypoints=55%2C%20130%2000%20Praha%203&travelmode=walking)
+[Hotel → Prague Boats](https://www.google.com/maps/dir/?api=1&origin=Fleur%20De%20Lis%20Hotel%2C%20Slezsk%C3%A1%20832%2F55%2C%20130%2000%20Praha%203&destination=Prague%20Boats%2C%20Dvo%C5%99%C3%A1kovo%20n%C3%A1b%C5%99e%C5%BE%C3%AD%2C%20110%2000%20Praha%201&travelmode=walking)
 
 Bonde ou táxi. A manhã está livre até o embarque.
 
@@ -867,7 +867,7 @@ Sugestões para quem não quer compras:
 
 ### 17:30 — RETORNO AO HOTEL PARA DESCANSO E TROCA
 
-[Centro → Hotel](https://www.google.com/maps/dir/?api=1&origin=Na%20P%C5%99%C3%ADkop%C4%9B%2C%20110%2000%20Nov%C3%A9%20M%C4%9Bsto&destination=55%2C%20130%2000%20Praha%203&waypoints=Fleur%20De%20Lis%20Hotel%2C%20Slezsk%C3%A1%20832&travelmode=walking)
+[Centro → Hotel](https://www.google.com/maps/dir/?api=1&origin=Na%20P%C5%99%C3%ADkop%C4%9B%2C%20110%2000%20Nov%C3%A9%20M%C4%9Bsto&destination=Fleur%20De%20Lis%20Hotel%2C%20Slezsk%C3%A1%20832%2F55%2C%20130%2000%20Praha%203&travelmode=walking)
 
 O jantar medieval pede um visual à altura. Para ele: camisa e calça (não é preciso terno, mas evitem esportivo). Para ela: vestido ou saia.
 
@@ -1003,7 +1003,7 @@ O hotel guarda as malas na recepção sem custo. Vocês ainda têm a manhã livr
 
 ### 12:15 — TRASLADO PRIVATIVO PARA O AEROPORTO
 
-[Hotel → Aeroporto de Praga](https://www.google.com/maps/dir/?api=1&origin=Fleur%20De%20Lis%20Hotel%2C%20Slezsk%C3%A1%20832&destination=V%C3%A1clav%20Havel%20Airport%20Prague%2C%20Aviatick%C3%A1%2C%20161%2000%20Praha%206&waypoints=55%2C%20130%2000%20Praha%203&travelmode=driving)
+[Hotel → Aeroporto de Praga](https://www.google.com/maps/dir/?api=1&origin=Fleur%20De%20Lis%20Hotel%2C%20Slezsk%C3%A1%20832%2F55%2C%20130%2000%20Praha%203&destination=V%C3%A1clav%20Havel%20Airport%20Prague%2C%20Aviatick%C3%A1%2C%20161%2000%20Praha%206&travelmode=driving)
 
 O carro segue pela Evropská třída em direção ao aeroporto. O trajeto leva cerca de 30 minutos.
 
