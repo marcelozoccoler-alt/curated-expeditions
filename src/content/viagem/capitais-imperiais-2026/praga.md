@@ -190,11 +190,12 @@ Praga é chamada de a cidade das cem torres. Mas na verdade tem mais de quinhent
 
 ---
 
-## HOTEL: FLEUR DE LIS HOTEL
+## HOTÉIS EM PRAGA: FLEUR DE LIS E TAURUS
 
-- Endereço: Slezska 832/55, 130 00 Praha 3 — Vinohrady
-Imposto local: CZK 50 por pessoa/diária (cerca de R$ 12) — total CZK 450 (cerca de R$ 111)
-- [Ver no Google Maps](https://www.google.com/maps/search/?api=1&query=Fleur%20De%20Lis%20Hotel%2C%20Prague)
+- Endereço: Fleur De Lis Hotel, Slezská 832/55, 130 00 Praha 3 — Vinohrady. Três noites, de 9 a 12 de outubro, com café da manhã incluído. Check-in a partir das 14:00 (recepção recebe até as 23:00)
+- Parte do grupo fica no Hotel Taurus, Vinohradská 105, Praha 3 — o mesmo bairro, a poucos minutos de caminhada do Fleur De Lis, também com café da manhã, check-in a partir das 15:00 e check-out às 11:00 do dia 12. Os encontros do grupo acontecem sempre no Fleur De Lis, salvo aviso do coordenador
+Imposto municipal: CZK 50 por pessoa a cada noite (cerca de R$ 12) — CZK 150 por pessoa nas três noites, cerca de R$ 37, pagos direto na recepção
+- [Fleur De Lis no Google Maps](https://www.google.com/maps/search/?api=1&query=Fleur%20De%20Lis%20Hotel%2C%20Slezsk%C3%A1%20832%2F55%2C%20Praha%203) · [Hotel Taurus no Google Maps](https://www.google.com/maps/search/?api=1&query=Hotel%20Taurus%2C%20Vinohradsk%C3%A1%20105%2C%20Praha%203) · [Taurus → Fleur De Lis, a pé](https://www.google.com/maps/dir/?api=1&origin=Hotel%20Taurus%2C%20Vinohradsk%C3%A1%20105%2C%20Praha%203&destination=Fleur%20De%20Lis%20Hotel%2C%20Slezsk%C3%A1%20832%2F55%2C%20Praha%203&travelmode=walking)
 
 ### POR QUE ESTE HOTEL FUNCIONA PARA VOCÊS
 
