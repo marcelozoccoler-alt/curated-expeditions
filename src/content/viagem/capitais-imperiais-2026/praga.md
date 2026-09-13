@@ -544,21 +544,23 @@ O maior complexo de castelo antigo do mundo — registrado no Guinness Book. 70.
 
 Patrimônio da Humanidade pela UNESCO.
 
-Horários de outubro (temporada de verão, até 31/out):
+Horários de outubro:
 - Complexo externo (pátios, ruas): 6:00 – 22:00 (gratuito)
-- Prédios históricos (Catedral, Palácio Real, Basílica, Rua do Ouro): 9:00 – 17:00
-- Última entrada nos prédios: 16:40
+- Área de visitação aberta das 9:00 às 17:00
+- Interiores históricos (Catedral, Palácio Real, Basílica, Rua do Ouro): fecham às 16:00, com última entrada às 15:40
 
-O Circuito B (Main Circuit): 450 CZK (cerca de R$ 111) por adulto. Inclui:
+O Circuito Principal (Main Circuit) já está reservado para o grupo e inclui:
 - Catedral de São Vito
 - Antigo Palácio Real
 - Basílica de São Jorge
 - Rua do Ouro (Zlatá ulička)
 - Válido por 2 dias
 
-Site oficial e ingressos: hrad.cz
+Como funciona a entrada: o bilhete é digital e será lido na porta de cada edifício, direto do celular do coordenador — não há papel a retirar nem fila de bilheteria. Vocês podem começar por qualquer um dos quatro edifícios, e entrar uma vez em cada. Quem tem 65 anos ou mais deve levar documento com foto, porque a tarifa sênior é conferida na porta.
 
-Dica local: comprem o ingresso online com antecedência em hrad.cz. Evita filas na bilheteria e garante entrada. O bilhete é válido por 2 dias.
+Atenção ao horário: como os interiores fecham às 16:00 e a última entrada é às 15:40, este é o único bloco do dia em que não há margem para atraso. Por isso subimos a colina às 13:15, mais cedo do que o necessário — e a Rua do Ouro fica para o fim, já que é o percurso mais rápido.
+
+Alguns edifícios podem fechar sem aviso por cerimônia de Estado; a Catedral de São Vito também tem horário reduzido em datas religiosas. Se acontecer, o coordenador reorganiza a ordem da visita na hora — o bilhete vale para o dia seguinte também.
 
 ### ROTEIRO DE VISITA DENTRO DO CASTELO (13:45 – 16:15)
 
