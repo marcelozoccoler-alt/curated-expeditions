@@ -756,19 +756,19 @@ Sugestões para preencher o tempo até o barco:
 
 Hoje, em vez de explorar fortalezas, vocês vão flutuar. Nada de pressa, nada de multidão. Apenas o Moldava, o céu de outubro, e um barco só de vocês.
 
-### 11:20 — EMBARQUE NO CAIS
+### 11:20 — CHEGADA AO CAIS
 
-O cais fica próximo à Čech Bridge ou ao Dvořákovo nábřeží, dependendo da empresa escolhida.
+O cais é o da Prague Boats, no Dvořákovo nábřeží, junto à Ponte Čech — pontão nº 3 B. O escritório da companhia fica ali mesmo, na beira do rio.
 
-Cruzeiro com almoço, já reservado para o grupo.
+Cruzeiro com almoço, já reservado para o grupo — a reserva está no nome Create Travel, e não há voucher em papel: o check-in é feito pelo coordenador no balcão.
 
 Data do cruzeiro: 11 de outubro de 2026 (domingo)
 
 Horário do cruzeiro: 12h00 às 14h00 (2 horas)
 
-Embarque: entre 11h20 e 11h40
+Chegada ao cais: 11h20, para o check-in obrigatório das 11h40
 
-Chegada para check-in: 11h40
+Telefone do cais, se algo atrasar: +420 605 700 007
 
 Categoria: Exclusive (junto à janela) — 2 mesas lado a lado
 
@@ -885,7 +885,7 @@ Vocês chegam com folga numa das ruas mais antigas de Praga, a mesma que os reis
 
 ### 19:45 — CHECK-IN NA PORTA DA TAVERNA
 
-Estar pronto no ponto quinze minutos antes é exigência da casa: o espetáculo começa pontualmente às 20:00 e o código do voucher é lido na porta. O coordenador apresenta os vouchers do grupo — menu de frango, Medieval Evening. Em caso de qualquer imprevisto no caminho, o telefone de plantão da operação local é +420 724 371 392.
+Estar pronto no ponto quinze minutos antes é exigência da casa: o espetáculo começa pontualmente às 20:00 e o código QR do voucher é lido na porta do restaurante. O coordenador apresenta os vouchers do grupo — menu de frango para a maioria e um menu vegano já registrado para quem pediu. Em caso de qualquer imprevisto no caminho, o telefone de plantão da operação local é +420 724 371 392.
 
 ### 20:00 — O ESPETÁCULO MEDIEVAL (ATÉ 22:30)
 
