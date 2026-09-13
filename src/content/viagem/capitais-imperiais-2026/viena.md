@@ -427,8 +427,10 @@ A experiência: Vocês entram e o silêncio é quase solene. A luz natural entra
 
 Informações práticas:
 
-- Entrada: €10 (cerca de R$ 60) por adulto
-- Site oficial e ingressos: onb.ac.at
+- A sala abre às 10:00 (fecha às 18:00) e não trabalha com horário marcado — por isso o grupo chega na abertura, quando a sala está vazia e a luz é a melhor do dia. Às terças a sala fica fechada; nossa visita é numa quarta-feira.
+- Entrada: €10 (cerca de R$ 60) por pessoa, tarifa de grupo já confirmada por escrito para os 12 viajantes
+- O pagamento é feito na hora, no Service Desk da Sala de Gala (Josefsplatz 1) — em dinheiro ou cartão. Não há voucher nem fatura; se preferirem, os ingressos também podem ser comprados antecipadamente em ticket.onb.ac.at
+- Não há guia da casa contratado: a visita é livre, com a narrativa do coordenador
 - Tempo recomendado: 45 min a 1h
 
 ### 11:00 — TEMPO LIVRE NO HOFBURG E HELDENPLATZ
