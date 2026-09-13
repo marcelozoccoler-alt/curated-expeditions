@@ -704,7 +704,7 @@ Passeio de barco: 11:20 - Prague Boats, Dvořákovo nábřeží, pier nº 3 B
 
 Bairro Judeu: 14:30 – 16:30
 
-Jantar medieval: 19:45, Na Florenci 1332/23, Nové Město
+Jantar medieval: espetáculo às 20:00, na Taverna Medieval U Pavouka, Celetná 597/17, Praha 1, a poucos passos da Praça da Cidade Velha (ponto de encontro atualizado pela operação local)
 
 ### LINHA DO TEMPO
 
@@ -726,9 +726,9 @@ Jantar medieval: 19:45, Na Florenci 1332/23, Nové Město
 
 18:30 - Saída para o jantar medieval
 
-19:15 - Encontro no ponto
+19:15 - Chegada à Celetná, com folga
 
-19:45 - Check-in com voucher
+19:45 - Check-in na porta da taverna, com o voucher
 
 20:00 - Espetáculo medieval
 
@@ -870,19 +870,19 @@ O jantar medieval pede um visual à altura. Para ele: camisa e calça (não é p
 
 ### 18:30 — SAÍDA PARA O JANTAR MEDIEVAL
 
-[Hotel → Jantar medieval](https://www.google.com/maps/dir/?api=1&origin=Fleur%20De%20Lis%20Hotel%2C%20Slezsk%C3%A1%20832&destination=Na%20Florenci%201332%2C%20110%2000%20Praha%201&waypoints=55%2C%20130%2000%20Praha%203&travelmode=walking)
+[Hotel → Taverna U Pavouka (Celetná 597/17)](https://www.google.com/maps/dir/?api=1&origin=Fleur%20De%20Lis%20Hotel%2C%20Slezsk%C3%A1%20832%2C%20130%2000%20Praha%203&destination=Celetn%C3%A1%20597%2F17%2C%20110%2000%20Praha%201&travelmode=transit)
 
-Metrô linha A até Můstek, baldeação para linha B até Náměstí Republiky. Ou táxi (10-15 minutos, CZK 200 / cerca de R$ 49).
+Metrô linha A de Náměstí Míru até Můstek e cinco minutos a pé pela Celetná, ou táxi (10 a 15 minutos, CZK 200 / cerca de R$ 49). Saímos às 18:30 — mais cedo do que o necessário, de propósito: é domingo à noite, o centro fica cheio e ninguém vai correr.
 
-O endereço é Na Florenci 1332/23, Nové Město.
+O endereço é Taverna Medieval U Pavouka, Celetná 597/17, Praha 1, a um minuto da Praça da Cidade Velha. Atenção: este é um endereço novo, mais central, informado pela operação local — o antigo ponto de encontro na Na Florenci não vale mais.
 
-### 19:15 — ENCONTRO NO PONTO
+### 19:15 — CHEGADA À CELETNÁ
 
-Procurem o guarda-chuva laranja — é o ponto de encontro do passeio.
+Vocês chegam com folga numa das ruas mais antigas de Praga, a mesma que os reis atravessavam a caminho da coroação. Vale usar esses minutos para olhar as fachadas e o relógio astronômico ali ao lado, iluminado.
 
-### 19:45 — CHECK-IN
+### 19:45 — CHECK-IN NA PORTA DA TAVERNA
 
-O coordenador apresenta os vouchers do grupo. Menu de frango, Medieval Evening.
+Estar pronto no ponto quinze minutos antes é exigência da casa: o espetáculo começa pontualmente às 20:00 e o código do voucher é lido na porta. O coordenador apresenta os vouchers do grupo — menu de frango, Medieval Evening. Em caso de qualquer imprevisto no caminho, o telefone de plantão da operação local é +420 724 371 392.
 
 ### 20:00 — O ESPETÁCULO MEDIEVAL (ATÉ 22:30)
 
@@ -914,7 +914,7 @@ Cancelamento gratuito até 19:45 de 10 de outubro.
 
 ### 22:45 — RETORNO AO HOTEL
 
-[Jantar medieval → Hotel](https://www.google.com/maps/dir/?api=1&origin=Na%20Florenci%201332%2C%20110%2000%20Praha%201&destination=55%2C%20130%2000%20Praha%203&waypoints=Fleur%20De%20Lis%20Hotel%2C%20Slezsk%C3%A1%20832&travelmode=walking)
+[Taverna U Pavouka → Hotel](https://www.google.com/maps/dir/?api=1&origin=Celetn%C3%A1%20597%2F17%2C%20110%2000%20Praha%201&destination=Fleur%20De%20Lis%20Hotel%2C%20Slezsk%C3%A1%20832%2C%20130%2000%20Praha%203&travelmode=transit)
 
 Táxi ou Uber de volta a Vinohrady. A noite de Praga está fria, as ruas iluminadas. Vocês estão com o estômago cheio, os ouvidos cheios de música e o coração cheio de História.
 

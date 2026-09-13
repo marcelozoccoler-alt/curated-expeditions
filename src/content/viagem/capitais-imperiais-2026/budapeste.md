@@ -333,7 +333,7 @@ O que está incluso:
 
 Cruzeiro pelo Danúbio com jantar.
 
-Jantar buffet húngaro: sopa goulash, frango, vegetais, sobremesa.
+Jantar húngaro servido à mesa, em menu fixo escolhido com antecedência pelo grupo (a operação local substituiu o buffet por menu fixo). São três opções, todas com o mesmo aperitivo de cremes de berinjela, pimentão e húmus rosa, e o bolo somlói como sobremesa: menu A com sopa goulash de carne bovina e lombo de porco "Széchenyi" com purê de batata; menu B com sopa de ragu de frango ao estragão e coxa de frango ao estilo paprikash com gratinado de batata e salada; menu C com creme de legumes da estação e macarrão marinara com azeitonas e parmesão. A escolha de cada viajante já está registrada na reserva.
 
 1 bebida de boas-vindas, espumante ou suco.
 

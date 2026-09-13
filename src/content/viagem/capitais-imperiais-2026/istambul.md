@@ -265,9 +265,9 @@ Istambul não começa devagar. Começa no cheiro — mar, especiaria, carvão, p
 
 ### DADOS DO DIA
 
-Voo: o voo da Turkish Airlines número mil setecentos e setenta e dois (TK 1772), saindo de Praga às 15:20 do dia 12/10 e chegando a Istambul às 19:05 do mesmo dia, 2h45 de voo.
+Voo: voo direto da Turkish Airlines, saindo de Praga às 15:20 do dia 12/10 e chegando a Istambul às 19:00 do mesmo dia, 2h40 de voo.
 
-Chegada: 19:05 — Aeroporto de Istambul (IST).
+Chegada: 19:00 — Aeroporto de Istambul (IST).
 
 Hotel: Galata Times Hotel, Beyoğlu.
 
@@ -279,7 +279,7 @@ Fuso: GMT+3, seis horas à frente de Brasília.
 
 ### LINHA DO TEMPO
 
-- 19:05 — Pouso no Aeroporto de Istambul (IST)
+- 19:00 — Pouso no Aeroporto de Istambul (IST)
 - 20:00 — Traslado privativo para o hotel
 - 20:45 — Check-in no Galata Times Hotel
 - 21:15 — Jantar leve em Karaköy ou Galata
@@ -289,7 +289,7 @@ Fuso: GMT+3, seis horas à frente de Brasília.
 
 Jantar leve: casual confortável. Casaco leve ou jaqueta — a noite de outubro em Istambul é amena, mas o vento do Bósforo pode refrescar.
 
-### 19:05 — POUSO NO AEROPORTO DE ISTAMBUL
+### 19:00 — POUSO NO AEROPORTO DE ISTAMBUL
 
 O avião da Turkish Airlines baixa sobre Istambul. Pela janela, o Bósforo é uma fita escura cravejada de luzes — os ferrys, os navios, as pontes iluminadas. As mesquitas pontuam a paisagem com seus minaretes como agulhas de luz. Dois continentes. Uma cidade. Vocês pousaram na Europa, mas a Ásia está ali ao lado, a apenas 700 metros de água.
 

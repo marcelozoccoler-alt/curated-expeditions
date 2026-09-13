@@ -362,7 +362,7 @@ Vestimenta: smart casual confortável. Calçado essencial (dia mais longo)
 
 09:15 - O complexo do Hofburg
 
-09:30 - Biblioteca Nacional Austríaca (Prunksaal)
+10:00 - Biblioteca Nacional Austríaca (Prunksaal), na abertura
 
 11:00 - Tempo livre no Hofburg e Heldenplatz
 
@@ -413,7 +413,7 @@ Importante: A entrada nos pátios do Hofburg é gratuita. As visitas pagas são 
 
 Site oficial: hofburg-wien.at
 
-### 09:30 — A BIBLIOTECA NACIONAL AUSTRIACA (PRUNKSAAL)
+### 10:00 — A BIBLIOTECA NACIONAL AUSTRIACA (PRUNKSAAL)
 
 [Hofburg → Biblioteca](https://www.google.com/maps/dir/?api=1&origin=Hofburg%2C%20Michaelerkuppel%2C%201010%20Wien&destination=%C3%96sterreichische%20Nationalbibliothek%2C%20Josefsplatz%201%2C%201010%20Wien&travelmode=walking)
 
@@ -427,8 +427,10 @@ A experiência: Vocês entram e o silêncio é quase solene. A luz natural entra
 
 Informações práticas:
 
-- Entrada: €10 (cerca de R$ 60) por adulto
-- Site oficial e ingressos: onb.ac.at
+- A sala abre às 10:00 (fecha às 18:00) e não trabalha com horário marcado — por isso o grupo chega na abertura, quando a sala está vazia e a luz é a melhor do dia. Às terças a sala fica fechada; nossa visita é numa quarta-feira.
+- Entrada: €10 (cerca de R$ 60) por pessoa, tarifa de grupo já confirmada por escrito para os 12 viajantes
+- O pagamento é feito na hora, no Service Desk da Sala de Gala (Josefsplatz 1) — em dinheiro ou cartão. Não há voucher nem fatura; se preferirem, os ingressos também podem ser comprados antecipadamente em ticket.onb.ac.at
+- Não há guia da casa contratado: a visita é livre, com a narrativa do coordenador
 - Tempo recomendado: 45 min a 1h
 
 ### 11:00 — TEMPO LIVRE NO HOFBURG E HELDENPLATZ
@@ -596,13 +598,15 @@ Concerto: 20:30 às 22:30 no Palácio de Schönbrunn
 
 08:30 - Café da manhã
 
-10:00 - Saída para Schönbrunn
+09:20 - Saída para Schönbrunn
 
-11:30 - Jardins de Schönbrunn, Fonte de Netuno e Gloriette
+09:45 - Jardins de Schönbrunn, Fonte de Netuno e Gloriette
 
-12:00 - Café na Gloriette, sem pressa — a pausa da viagem
+10:45 - Café na Gloriette, sem pressa — a pausa da viagem
 
-13:00 - Visita ao Palácio (Classic Pass)
+12:00 - Descida da colina e retirada dos ingressos no Group Center (limite: 12:15)
+
+12:30 - Entrada no Palácio — última entrada permitida pelo Classic Pass
 
 16:00 - Retorno ao hotel para descanso
 
@@ -616,13 +620,13 @@ Concerto: 20:30 às 22:30 no Palácio de Schönbrunn
 
 Mais tranquilo hoje. O dia é dedicado a uma única atração — mas que atração.
 
-### 10:00 — SAÍDA PARA SCHÖNBRUNN
+### 09:20 — SAÍDA PARA SCHÖNBRUNN
 
 [Hotel → Jardins de Schönbrunn](https://www.google.com/maps/dir/?api=1&origin=ibis%20Wien%20Mariahilf%2C%20Mariahilfer%20G%C3%BCrtel%2022-24%2C%201060%20Wien&destination=Sch%C3%B6nbrunn%20Palace%20Gardens%2C%20Sch%C3%B6nbrunner%20Schlossstra%C3%9Fe%2C%201130%20Wien&travelmode=walking)
 
 O Palácio de Schönbrunn fica a apenas 5 minutos de táxi do hotel ibis Wien Mariahilf. Esta é uma das grandes vantagens da localização do hotel. A pé, seriam cerca de 3,5 km (35 a 40 minutos) — para o grupo, o táxi ou o transporte público é a escolha sensata.
 
-### 11:30 — JARDINS DE SCHÖNBRUNN
+### 09:45 — JARDINS DE SCHÖNBRUNN
 
 Schönbrunn é a "Versalhes de Viena". Residência de verão dos Habsburgos, o palácio tem 1.441 cômodos e jardins de 160 hectares. É Patrimônio da Humanidade pela UNESCO desde 1996.
 
@@ -636,7 +640,7 @@ O que o Classic Pass inclui:
 ...
 - Válido para 1 acesso a cada atração, apenas na data da visita
 
-Retirada dos ingressos: no balcão de grupos (Group Center), localizado à direita da saída da estação U4 Schönbrunn, até 15 minutos antes da visita (12:15). O coordenador cuida dos vouchers do grupo.
+Retirada dos ingressos: no balcão de grupos (Group Center), localizado à direita da saída da estação U4 Schönbrunn. Os ingressos precisam ser retirados até 12:15 — quinze minutos antes da entrada — ou a reserva é cancelada automaticamente. Por isso descemos a colina com folga, às 12:00. O coordenador apresenta a confirmação do grupo e faz o pagamento no local, em dinheiro ou cartão, como pede a casa.
 
 O que vocês explorarão:
 
@@ -691,10 +695,10 @@ Durante duas horas, vocês ouvem a música que nasceu nesta cidade, tocada por m
 
 Informações práticas:
 
-- Duração: 2 horas (com intervalo)
-- Preço: cerca de €65 a €130 por pessoa (cerca de R$ 390 a R$ 780), dependendo da categoria do assento
-- Ingressos: site oficial de Schönbrunn
-- Chegar com 30 minutos de antecedência
+- Horário: 20:30 às 22:30, no Palácio de Schönbrunn (Schönbrunner Schloßstraße 47)
+- Ingressos: já reservados para o grupo, um bilhete nominal por viajante, em formato digital — não é preciso imprimir
+- A casa pede chegada 15 minutos antes; nós saímos do hotel às 19:30 para estar no palácio por volta das 20:00, com meia hora de folga
+- Levem um agasalho: a espera é em área aberta do palácio
 
 ### 22:30 — RETORNO AO HOTEL
 
