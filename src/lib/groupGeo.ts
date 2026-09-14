@@ -1,6 +1,7 @@
 import type { GeoFact } from "@/components/GeoAnswerBlock";
 import type { LocalGuideGroup } from "@/lib/localGuideGroups";
 import { localGuidePriceLabel, MONTHS_PT } from "@/lib/localGuideGroups";
+import { companyYears } from "@/lib/company";
 
 const clean = (s: string) => s.replace(/\s+/g, " ").trim();
 
@@ -26,7 +27,7 @@ export const buildGroupAiSummary = (g: LocalGuideGroup): string => {
       `Investimento ${
         price === "Sob consulta" ? "sob consulta" : `a partir de ${price}`
       } por pessoa em apartamento duplo na parte terrestre; aéreo cotado à parte. ` +
-      `A Create Travel, agência brasileira de viagens autorais com 11 anos de atuação, faz a curadoria, a reserva e a assistência em português antes, durante e depois da viagem.`
+      `A Create Travel, agência brasileira de viagens autorais com ${companyYears()} anos de atuação, faz a curadoria, a reserva e a assistência em português antes, durante e depois da viagem.`
   );
 };
 

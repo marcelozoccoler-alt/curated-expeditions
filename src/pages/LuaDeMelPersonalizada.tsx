@@ -4,6 +4,7 @@ import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
 import { WhatsAppButton } from "@/components/WhatsAppButton";
 import { SEO } from "@/components/SEO";
+import { companyYears } from "@/lib/company";
 import heroAmazon from "@/assets/hero-amazon.jpg";
 
 const WHY = [
@@ -148,7 +149,7 @@ const LuaDeMelPersonalizada = () => {
         <div className="container-editorial text-center max-w-2xl mx-auto">
           <Shield className="text-gold mx-auto mb-4" size={32} />
           <p className="text-lg text-foreground font-light italic">
-            "Uma agência boutique com 11 anos de experiência, CADASTUR ativo e atendimento em 10 idiomas. Sua lua de mel merece esse cuidado."
+            {`Uma agência boutique com ${companyYears()} anos de experiência, CADASTUR ativo e atendimento em 10 idiomas. Sua lua de mel merece esse cuidado.`}
           </p>
         </div>
       </section>

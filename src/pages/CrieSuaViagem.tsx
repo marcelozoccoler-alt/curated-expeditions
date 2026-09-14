@@ -18,6 +18,7 @@ import {
   Quote,
 } from "lucide-react";
 import { Header } from "@/components/Header";
+import { companyYears } from "@/lib/company";
 import { Footer } from "@/components/Footer";
 import { SEO } from "@/components/SEO";
 import { FAQSection } from "@/components/FAQSection";
@@ -64,7 +65,7 @@ const STEPS = [
 ];
 
 const DIFFERENTIALS = [
-  { icon: Award, title: "11 anos desenhando viagens", desc: "Mais de uma década de roteiros autorais em quatro continentes." },
+  { icon: Award, title: `${companyYears()} anos desenhando viagens`, desc: "Mais de uma década de roteiros autorais em quatro continentes." },
   { icon: ShieldCheck, title: "Registrada no Cadastur", desc: `Agência formalizada junto ao Ministério do Turismo — Cadastur ${CONTACT.cadastur}.` },
   { icon: PenLine, title: "Roteiros 100% autorais", desc: "Nada de pacote de prateleira: cada itinerário nasce do seu perfil." },
   { icon: LifeBuoy, title: "Suporte 24/7", desc: "Acompanhamento antes, durante e depois da viagem, no seu fuso." },
@@ -313,7 +314,7 @@ const CrieSuaViagem = () => {
           <div className="container-editorial relative z-10 py-24 text-primary-foreground">
             <motion.div {...fadeUp} className="max-w-3xl space-y-6">
               <p className="uppercase tracking-[0.25em] text-xs text-primary-foreground/80">
-                Agência boutique · 11 anos · Cadastur
+                Agência boutique · {companyYears()} anos · Cadastur
               </p>
               <h1 className="heading-hero">
                 Sua próxima viagem merece ser desenhada sob medida
