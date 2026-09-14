@@ -1,8 +1,7 @@
 # Roadmap
 
-- [x] Reescrever o trecho da Basílica sem revelar a experiência musical
-- [x] Tornar a narração recuperável após pausas no celular
-- [x] Completar o livro de Paris com espaços para fotos e vídeos
-- [x] Retirar alertas já resolvidos e revisar toda a logística e os mapas
-- [x] Criar o portfólio Create Signature e a viagem Lapônia 2027
-- [x] Adicionar a viagem Create Signature Lapônia Réveillon 2026/2027
+- [x] SEO item 1: reescrever títulos/descrições das páginas com mais impressões e menos cliques (7 páginas) — verificado no preview
+- [x] Aniversário de 12 anos: faixa durante setembro inteiro — verificado na home
+- [x] Memória atualizada (regra do mês inteiro)
+- [x] PDF Capitais Imperiais: "café da manhã incluído" e "Não incluso" já constam na versão final entregue (5 páginas)
+- [ ] Próximo passo sugerido: SEO item 2 (concentrar em 15 destinos prioritários) — aguardando confirmação

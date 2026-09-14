@@ -187,9 +187,9 @@ export const costaDasBaleiasGuide: BrazilGuideLocalized = {
   en: {
     destinationName: "Whale Coast",
     blurb: "Caravelas, Abrolhos and Cumuruxatiba: Brazil's humpback whale sanctuary, July through November.",
-    metaTitle: "Whale Coast Brazil: See Humpback Whales Up Close",
+    metaTitle: "Costa das Baleias: Abrolhos Humpback Whale Guide",
     metaDescription:
-      "From July to November thousands of humpbacks calve at Abrolhos. The best month to go, where the boats leave from, and where to stay near Caravelas.",
+      "Jul–Nov, thousands of humpbacks calve in Abrolhos. The best weeks to go, where boats depart and hand-picked stays near Caravelas — by a Brazil travel designer.",
     keywords:
       "whale coast bahia, abrolhos brazil, humpback whale bahia, caravelas brazil, prado bahia, cumuruxatiba, corumbau, whale season brazil",
     h1: "The Whale Coast: the South Atlantic's annual humpback gathering",

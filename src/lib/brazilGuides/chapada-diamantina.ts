@@ -202,7 +202,7 @@ export const chapadaDiamantinaGuide: BrazilGuideLocalized = {
   en: {
     metaTitle: "Chapada Diamantina Guide: Trails, Pools & Best Time to Go",
     metaDescription:
-      "A curated guide to Chapada Diamantina, Brazil: Vale do Pati, Cachoeira da Fumaça, Poço Encantado and Poço Azul, Lençóis and Vale do Capão, best season for waterfalls and for light in the pools, guided trekking.",
+      "Vale do Pati, Fumaça waterfall and the blue glow of Poço Encantado: when to go for falls and pools, Lençóis & Capão bases, guided treks and curated stays.",
     keywords:
       "chapada diamantina brazil, vale do pati, cachoeira da fumaça, poço encantado, poço azul, lençois bahia, vale do capao, chapada diamantina trekking, best time chapada diamantina, chapada diamantina luxury itinerary",
     h1: "Chapada Diamantina: a curated guide from people who have crossed the Vale do Pati on foot",

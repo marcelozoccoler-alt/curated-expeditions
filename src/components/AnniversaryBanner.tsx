@@ -1,15 +1,15 @@
 import { motion } from "framer-motion";
 import { Cake } from "lucide-react";
-import { companyYears, isCompanyAnniversary } from "@/lib/company";
+import { companyAnniversaryYears, isCompanyAnniversary } from "@/lib/company";
 
 /**
- * Faixa comemorativa exibida automaticamente todo dia 12 de setembro,
- * aniversário de fundação da Create Travel (12/09/2014).
- * Fora dessa data o componente não renderiza nada.
+ * Faixa comemorativa exibida automaticamente durante todo o mês de setembro,
+ * mês de fundação da Create Travel (12/09/2014).
+ * Fora de setembro o componente não renderiza nada.
  */
 export const AnniversaryBanner = () => {
   if (!isCompanyAnniversary()) return null;
-  const years = companyYears();
+  const years = companyAnniversaryYears();
 
   return (
     <motion.section
@@ -22,7 +22,7 @@ export const AnniversaryBanner = () => {
       <div className="container-editorial py-4 flex items-center justify-center gap-3 text-center">
         <Cake size={20} className="text-gold shrink-0" strokeWidth={1.5} />
         <p className="font-serif text-base md:text-lg font-light tracking-wide">
-          Hoje a Create Travel completa{" "}
+          Setembro é mês de festa: a Create Travel completa{" "}
           <span className="text-gold">{years} anos</span> desenhando viagens do
           zero — obrigado por viajar com a gente.
         </p>

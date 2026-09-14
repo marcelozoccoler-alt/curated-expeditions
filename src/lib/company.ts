@@ -27,7 +27,13 @@ export const companyYears = (ref: Date = new Date()): number => {
   return years;
 };
 
-/** True apenas no dia 12 de setembro — aniversário da empresa. */
+/** True durante todo o mês de setembro — mês de aniversário da empresa. */
 export const isCompanyAnniversary = (ref: Date = new Date()): boolean =>
-  ref.getMonth() === COMPANY_ANNIVERSARY.month &&
-  ref.getDate() === COMPANY_ANNIVERSARY.day;
+  ref.getMonth() === COMPANY_ANNIVERSARY.month;
+
+/**
+ * Anos celebrados no mês de aniversário (setembro) da data de referência.
+ * Diferente de `companyYears()`, vale o mês inteiro, inclusive antes do dia 12.
+ */
+export const companyAnniversaryYears = (ref: Date = new Date()): number =>
+  ref.getFullYear() - COMPANY_FOUNDING_DATE.getFullYear();

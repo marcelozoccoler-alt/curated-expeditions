@@ -2441,7 +2441,7 @@ const corePosts: DiaryPost[] = [
   },
   {
     slug: "gastronomia-na-china-alem-do-frango-xadrez",
-    title: "O que comer na China: as 8 cozinhas regionais",
+    title: "O que comer na China: guia autoral das 8 cozinhas regionais",
     h1: "Gastronomia na China: 8 cozinhas regionais além do frango xadrez",
     metaDescription:
       "Guia autoral do que comer na China: cantonesa, sichuanesa, hunanesa e uigur, dim sum, hot pot, pato de Pequim e street food — o que pedir em cada região.",

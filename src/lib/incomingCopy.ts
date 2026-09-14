@@ -259,7 +259,7 @@ export const INCOMING_COPY: Record<Exclude<ContentLang, "pt">, IncomingCopy> = {
     meta: {
       title: "Viaggio in Brasile su misura, disegnato da chi ci vive",
       description:
-        "Progettiamo il tuo viaggio in Brasile giorno per giorno — Amazzonia, Pantanal, Lençóis, Bahia, Rio e Noronha — con lodge boutique, guide private e un travel designer sempre al tuo WhatsApp.",
+        "Viaggio in Brasile su misura, giorno per giorno: Amazzonia, Pantanal, Lençóis, Bahia, Rio e Noronha, con lodge boutique e guide private. Scrivici le date.",
       keywords:
         "agenzia viaggi Brasile, viaggio su misura Brasile, tour Amazzonia, safari Pantanal, Lençóis Maranhenses, viaggi di lusso Brasile, itinerario personalizzato Brasile, tour Rio de Janeiro, Cascate di Iguazú, viaggio Bahia, Fernando de Noronha",
     },
