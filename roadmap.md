@@ -1,7 +1,7 @@
 # Roadmap
 
-- [x] SEO item 1: reescrever títulos/descrições das páginas com mais impressões e menos cliques (7 páginas)
-- [ ] Verificar títulos renderizados no preview (script /tmp/browser/seo/check_titles.py)
-- [x] Aniversário de 12 anos: faixa durante setembro inteiro
-- [ ] Atualizar mem://features/fundacao-aniversario e index (regra do mês inteiro)
-- [ ] Restante do PDF Capitais Imperiais: "café da manhã incluído" nos hotéis e rótulo "(não incluso)" nas sugestões — regenerar e conferir páginas 3 e 4
+- [x] SEO item 1: reescrever títulos/descrições das páginas com mais impressões e menos cliques (7 páginas) — verificado no preview
+- [x] Aniversário de 12 anos: faixa durante setembro inteiro — verificado na home
+- [x] Memória atualizada (regra do mês inteiro)
+- [x] PDF Capitais Imperiais: "café da manhã incluído" e "Não incluso" já constam na versão final entregue (5 páginas)
+- [ ] Próximo passo sugerido: SEO item 2 (concentrar em 15 destinos prioritários) — aguardando confirmação
