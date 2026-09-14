@@ -51,7 +51,6 @@ const Index = () => {
         keywords="agência de viagens personalizada, roteiro sob medida, viagem sob medida, grupo com guia brasileiro, agência boutique São Paulo, travel designer, curadoria de viagens"
       />
       <Header />
-      <AnniversaryBanner />
       <WhatsAppButton variant="float" />
 
       {/* Hero Section */}
@@ -88,7 +87,7 @@ const Index = () => {
               Roteiros sob medida com curadoria autoral. Experiências autênticas, exclusivas e com propósito — para quem busca profundidade.
             </p>
             <p className="text-sm md:text-base text-white/70 mb-10 max-w-2xl mx-auto font-light italic">
-              Há {companyYears()} anos desenhando viagens do zero para África, Oriente Médio, Ásia, Oceania, Europa, Américas e Antártida.
+              Há {companyYears()} anos desenhando viagens do zero para África, Oriente Médio, Ásia, Oceania, Europa, América do Norte, América Central, América do Sul, Caribe e Antártida.
             </p>
             <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
               <WhatsAppButton
@@ -118,6 +117,9 @@ const Index = () => {
           </div>
         </motion.div>
       </section>
+
+      {/* Faixa de aniversário — exibida em setembro */}
+      <AnniversaryBanner />
 
       {/* Números e confiança */}
       <TrustBadges
