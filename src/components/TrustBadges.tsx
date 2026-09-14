@@ -1,6 +1,7 @@
 import { motion } from "framer-motion";
 import { CalendarCheck, Map, Users, ShieldCheck } from "lucide-react";
 import { CONTACT } from "@/lib/types";
+import { companyYears } from "@/lib/company";
 
 interface TrustBadgesProps {
   /** Número de destinos com curadoria. */
@@ -17,7 +18,7 @@ export const TrustBadges = ({ destinationsCount, departuresCount }: TrustBadgesP
   const items = [
     {
       icon: CalendarCheck,
-      value: "11 anos",
+      value: `${companyYears()} anos`,
       label: "Desenhando viagens do zero",
     },
     {

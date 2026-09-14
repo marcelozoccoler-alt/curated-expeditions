@@ -135,7 +135,7 @@ export const organizationLd = {
   description: `${entityWhoIs} ${entityWhatItDoes}`,
   disambiguatingDescription: entityWhyRelevant,
   slogan: "Viagens autorais para quem já rodou o mundo",
-  foundingDate: "2014",
+  foundingDate: "2014-09-12",
   telephone: `+${CONTACT.whatsappNumber}`,
   email: CONTACT.email,
   address: {

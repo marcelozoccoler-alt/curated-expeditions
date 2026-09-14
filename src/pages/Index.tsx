@@ -19,8 +19,10 @@ import { DestinationCard } from "@/components/DestinationCard";
 import { StayCard } from "@/components/StayCard";
 import { RegionsWeWork } from "@/components/RegionsWeWork";
 import { TrustBadges } from "@/components/TrustBadges";
+import { AnniversaryBanner } from "@/components/AnniversaryBanner";
 import { SEO } from "@/components/SEO";
 import { TAGS } from "@/lib/types";
+import { companyYears } from "@/lib/company";
 import { destinations, getFeaturedDestinations } from "@/lib/destinations";
 import { getFeaturedStays } from "@/lib/stays";
 import { diaryPosts } from "@/lib/diaryPosts";
@@ -44,11 +46,12 @@ const Index = () => {
     <div className="min-h-screen">
       <SEO
         title="Viagens Sob Medida e Grupos com Guia Brasileiro"
-        description={`Agência boutique com 11 anos de curadoria autoral: roteiros sob medida e ${DEPARTURES.length} saídas em grupo com guia brasileiro. África, Europa, Ásia, Oriente Médio e ${destinations.length} destinos.`}
+        description={`Agência boutique com ${companyYears()} anos de curadoria autoral: roteiros sob medida e ${DEPARTURES.length} saídas em grupo com guia brasileiro. África, Europa, Ásia, Oriente Médio e ${destinations.length} destinos.`}
         canonicalPath="/"
         keywords="agência de viagens personalizada, roteiro sob medida, viagem sob medida, grupo com guia brasileiro, agência boutique São Paulo, travel designer, curadoria de viagens"
       />
       <Header />
+      <AnniversaryBanner />
       <WhatsAppButton variant="float" />
 
       {/* Hero Section */}
@@ -85,7 +88,7 @@ const Index = () => {
               Roteiros sob medida com curadoria autoral. Experiências autênticas, exclusivas e com propósito — para quem busca profundidade.
             </p>
             <p className="text-sm md:text-base text-white/70 mb-10 max-w-2xl mx-auto font-light italic">
-              Há 11 anos desenhando viagens do zero para África, Oriente Médio, Ásia, Oceania, Europa, Américas e Antártida.
+              Há {companyYears()} anos desenhando viagens do zero para África, Oriente Médio, Ásia, Oceania, Europa, Américas e Antártida.
             </p>
             <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
               <WhatsAppButton
