@@ -255,7 +255,7 @@ export const hospedagensDeCharmeBrasilGuide: BrazilGuideLocalized = {
       "A journey through boutique pousadas and small-suite retreats — from Bahia's coast to Noronha, the mountains and the Cerrado — where the house itself is the destination.",
     metaTitle: "Boutique Hotels in Brazil: The Stays Worth the Trip",
     metaDescription:
-      "From Trancoso to Noronha, houses of a few suites where the owner still greets you at dinner. Who each one suits, when to go, and how to chain them together.",
+      "Small houses from Trancoso to Noronha where the owner still greets you at dinner. Who each one suits, when to go and how to combine them — curated by locals.",
     keywords:
       "boutique hotels brazil, charming pousadas brazil, uxua casa hotel, vila naia corumbau, pousada maravilha noronha, vila dos orixas boipeba, casa turquesa paraty, luxury boutique brazil itinerary",
     h1: "Charming Boutique Stays of Brazil: houses that become the trip itself",

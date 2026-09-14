@@ -189,9 +189,9 @@ export const chapadaDosVeadeirosGuide: BrazilGuideLocalized = {
   },
 
   en: {
-    metaTitle: "Chapada dos Veadeiros Guide: Best Time, Lodges & Itineraries",
+    metaTitle: "Chapada dos Veadeiros Guide: Waterfalls & Best Months",
     metaDescription:
-      "A curated guide to Chapada dos Veadeiros: best time to visit month by month, unmissable waterfalls and canyons, the best stays by traveler profile, and how to combine this Brazilian highland with the rest of the country.",
+      "The world's oldest savanna: month-by-month seasons, the unmissable waterfalls, lodges by traveler profile and how to fit it into your Brazil itinerary.",
     keywords:
       "chapada dos veadeiros guide, best time chapada dos veadeiros, vale da lua brazil, santa barbara waterfall, canyon 1 and 2, alto paraiso goias, sao jorge brazil, chapada itinerary, luxury stay chapada dos veadeiros",
     h1: "Chapada dos Veadeiros: a curated guide to Brazil's ancient highlands",
