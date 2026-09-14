@@ -51,7 +51,6 @@ const Index = () => {
         keywords="agência de viagens personalizada, roteiro sob medida, viagem sob medida, grupo com guia brasileiro, agência boutique São Paulo, travel designer, curadoria de viagens"
       />
       <Header />
-      <AnniversaryBanner />
       <WhatsAppButton variant="float" />
 
       {/* Hero Section */}
