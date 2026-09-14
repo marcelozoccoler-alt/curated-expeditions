@@ -118,6 +118,9 @@ const Index = () => {
         </motion.div>
       </section>
 
+      {/* Faixa de aniversário — exibida em setembro */}
+      <AnniversaryBanner />
+
       {/* Números e confiança */}
       <TrustBadges
         destinationsCount={destinations.length}
