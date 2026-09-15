@@ -60,6 +60,9 @@ import grupoLagosChilenosImg from "@/assets/grupo-lagos-chilenos-2027.jpg";
 import grupoTunisiaImg from "@/assets/grupo-tunisia-carnaval-2027.jpg";
 import grupoEgitoAbrilImg from "@/assets/grupo-egito-abril-2027.jpg";
 import grupoLaponiaSignatureImg from "@/assets/laponia-signature-hero.jpg.asset.json";
+import grupoCaucasoJunhoImg from "@/assets/grupo-caucaso-junho-2027.jpg";
+import grupoSulItaliaJunhoImg from "@/assets/grupo-sul-italia-junho-2027.jpg";
+import grupoLagosChilenosJulhoImg from "@/assets/grupo-lagos-chilenos-julho-2027.jpg";
 
 const RAW_DEPARTURES = [
   {
@@ -453,6 +456,46 @@ const RAW_DEPARTURES = [
     status: "Saída confirmada",
   },
   {
+    href: "/grupos/caucaso-07-junho-2027",
+    img: grupoCaucasoJunhoImg,
+    tag: "07 a 21/06/2027 · 15 dias",
+    title: "Cáucaso · Armênia, Geórgia e Azerbaijão",
+    subtitle: "Yerevan · Garni · Geghard · Khor Virap · Lago Sevan · Tbilisi · Mtskheta · Baku · Gobustan",
+    desc: "Três países entre a Europa e a Ásia: mosteiros milenares, a adega mais antiga do mundo em Areni, Tbilisi charmosa e Baku futurista. Voos Turkish Airlines e guia desde o Brasil.",
+    fromPrice: "A partir de US$ 5.498 por pessoa (apto duplo)",
+    status: "Saída confirmada",
+  },
+  {
+    href: "/grupos/caucaso-21-junho-2027",
+    img: grupoCaucasoJunhoImg,
+    tag: "21/06 a 05/07/2027 · 15 dias",
+    title: "Cáucaso · Armênia, Geórgia e Azerbaijão · 2ª saída",
+    subtitle: "Yerevan · Garni · Geghard · Khor Virap · Lago Sevan · Tbilisi · Mtskheta · Baku · Gobustan",
+    desc: "Segunda saída de junho pelo coração do Cáucaso: o mesmo circuito completo pelos três países, com voos Turkish Airlines e guia desde o Brasil.",
+    fromPrice: "A partir de US$ 5.581 por pessoa (apto duplo)",
+    status: "Saída confirmada",
+  },
+  {
+    href: "/grupos/sul-italia-junho-2027",
+    img: grupoSulItaliaJunhoImg,
+    tag: "21/06 a 02/07/2027 · 12 dias · Início do verão",
+    title: "Sul da Itália · Verão, Mar e Dolce Vita",
+    subtitle: "Sorrento · Costa Amalfitana · Pompeia · Matera · Bari · Polignano · Alberobello · Lecce · Otranto",
+    desc: "Início do verão europeu: navegação pela Costa Amalfitana, Pompeia, Sassi de Matera, trulli de Alberobello e o barroco de Lecce. Voos ITA Airways e guia desde o Brasil.",
+    fromPrice: "A partir de € 4.757 por pessoa (apto duplo)",
+    status: "Saída confirmada",
+  },
+  {
+    href: "/grupos/lagos-chilenos-julho-2027",
+    img: grupoLagosChilenosJulhoImg,
+    tag: "14 a 22/07/2027 · 9 dias · Inverno patagônico",
+    title: "Lagos Chilenos · Inverno Patagônico",
+    subtitle: "Santiago · Undurraga · Puerto Varas · Peulla · Petrohué · Frutillar",
+    desc: "Vulcões nevados e lagos esmeralda em pleno inverno: Vinícola Undurraga, navegação até Peulla, Cataratas de Petrohué e Frutillar alemã. Voos LATAM e guia desde o Brasil.",
+    fromPrice: "A partir de US$ 2.898 por pessoa (apto duplo)",
+    status: "Saída confirmada",
+  },
+  {
     href: "/grupos/laponia-natal-reveillon-2027",
     img: `https://id-preview--42652cab-79cf-4f24-aaf7-366f68e48196.lovable.app${grupoLaponiaSignatureImg.url}`,
     tag: "21/12/2026 a 02/01/2027 · 13 dias · Create Signature",
@@ -660,7 +703,7 @@ const DeparturesCatalog = () => {
             COLEÇÃO DE JORNADAS · ORDEM CRONOLÓGICA
           </p>
           <h2 className="heading-section text-foreground mb-4">
-            Grupos com Guia Brasileiro
+            Grupos com Guia desde o Brasil
           </h2>
           <p className="text-lg text-muted-foreground font-light">
             {DEPARTURES.length} saídas confirmadas em ordem de embarque. Entrada de 25% e saldo em até 9 parcelas sem juros no cartão de crédito.
@@ -792,8 +835,8 @@ const EmbarqueComACreate = () => {
   return (
     <div className="min-h-screen">
       <SEO
-        title="Embarque com a Create — Grupos com guia brasileiro"
-        description="Saídas em grupo internacionais com guia brasileiro, tudo em português. Parte terrestre: entrada 25% + 9x sem juros. Grécia, Marrocos e mais."
+        title="Embarque com a Create — Grupos com guia desde o Brasil"
+        description="Saídas em grupo internacionais com guia desde o Brasil, tudo em português. Parte terrestre: entrada 25% + 9x sem juros. Grécia, Marrocos e mais."
         canonicalPath="/embarque-com-a-create"
         ogImage={grupoGreciaImg}
         ogType="website"
@@ -829,10 +872,10 @@ const EmbarqueComACreate = () => {
               PORTFÓLIO CREATE
             </p>
             <h1 className="heading-hero text-white mb-6">
-              Grupos com Guia Brasileiro
+              Grupos com Guia desde o Brasil
             </h1>
             <p className="text-xl md:text-2xl text-white/90 mb-8 font-light max-w-2xl">
-              O portfólio <strong className="font-medium text-gold">Grupos com Guia Brasileiro</strong> reúne saídas internacionais com coordenador acompanhante do Brasil — tudo em português e sem preocupação com logística.
+              O portfólio <strong className="font-medium text-gold">Grupos com Guia desde o Brasil</strong> reúne saídas internacionais com coordenador acompanhante do Brasil — tudo em português e sem preocupação com logística.
             </p>
             <div className="flex flex-col sm:flex-row items-start sm:items-center gap-4">
               <a href="#saidas" className="btn-accent text-lg px-8 py-4">
@@ -853,7 +896,7 @@ const EmbarqueComACreate = () => {
         <Breadcrumbs
           items={[
             { label: "Início", href: "/" },
-            { label: "Grupos com Guia Brasileiro" },
+            { label: "Grupos com Guia desde o Brasil" },
           ]}
         />
       </div>
