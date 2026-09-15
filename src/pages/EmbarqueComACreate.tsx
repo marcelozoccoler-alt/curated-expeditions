@@ -60,6 +60,9 @@ import grupoLagosChilenosImg from "@/assets/grupo-lagos-chilenos-2027.jpg";
 import grupoTunisiaImg from "@/assets/grupo-tunisia-carnaval-2027.jpg";
 import grupoEgitoAbrilImg from "@/assets/grupo-egito-abril-2027.jpg";
 import grupoLaponiaSignatureImg from "@/assets/laponia-signature-hero.jpg.asset.json";
+import grupoCaucasoJunhoImg from "@/assets/grupo-caucaso-junho-2027.jpg";
+import grupoSulItaliaJunhoImg from "@/assets/grupo-sul-italia-junho-2027.jpg";
+import grupoLagosChilenosJulhoImg from "@/assets/grupo-lagos-chilenos-julho-2027.jpg";
 
 const RAW_DEPARTURES = [
   {
