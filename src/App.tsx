@@ -70,6 +70,16 @@ import GrupoCaucaso07Junho2027 from "./pages/GrupoCaucaso07Junho2027";
 import GrupoCaucaso21Junho2027 from "./pages/GrupoCaucaso21Junho2027";
 import GrupoSulItaliaJunho2027 from "./pages/GrupoSulItaliaJunho2027";
 import GrupoLagosChilenosJulho2027 from "./pages/GrupoLagosChilenosJulho2027";
+import GrupoSulItaliaMaio2027 from "./pages/GrupoSulItaliaMaio2027";
+import GrupoSulItalia31Maio2027 from "./pages/GrupoSulItalia31Maio2027";
+import GrupoSulItalia07Junho2027 from "./pages/GrupoSulItalia07Junho2027";
+import GrupoSulItalia14Junho2027 from "./pages/GrupoSulItalia14Junho2027";
+import GrupoLagosChilenosMaio2027 from "./pages/GrupoLagosChilenosMaio2027";
+import GrupoLagosChilenosJunho2027 from "./pages/GrupoLagosChilenosJunho2027";
+import GrupoCroaciaBosniaMontenegro2027 from "./pages/GrupoCroaciaBosniaMontenegro2027";
+import GrupoEscandinavia2027 from "./pages/GrupoEscandinavia2027";
+import GrupoIlhaPascoa2027 from "./pages/GrupoIlhaPascoa2027";
+import GrupoSingapuraTailandia2027 from "./pages/GrupoSingapuraTailandia2027";
 import GrupoEgitoAbril2027 from "./pages/GrupoEgitoAbril2027";
 import BrasilEstados from "./pages/BrasilEstados";
 import BrasilEstado from "./pages/BrasilEstado";
@@ -189,6 +199,16 @@ const App = () => (
         <Route path="/grupos/caucaso-21-junho-2027" element={<GrupoCaucaso21Junho2027 />} />
         <Route path="/grupos/sul-italia-junho-2027" element={<GrupoSulItaliaJunho2027 />} />
         <Route path="/grupos/lagos-chilenos-julho-2027" element={<GrupoLagosChilenosJulho2027 />} />
+        <Route path="/grupos/sul-italia-maio-2027" element={<GrupoSulItaliaMaio2027 />} />
+        <Route path="/grupos/sul-italia-31-maio-2027" element={<GrupoSulItalia31Maio2027 />} />
+        <Route path="/grupos/sul-italia-07-junho-2027" element={<GrupoSulItalia07Junho2027 />} />
+        <Route path="/grupos/sul-italia-14-junho-2027" element={<GrupoSulItalia14Junho2027 />} />
+        <Route path="/grupos/lagos-chilenos-maio-2027" element={<GrupoLagosChilenosMaio2027 />} />
+        <Route path="/grupos/lagos-chilenos-junho-2027" element={<GrupoLagosChilenosJunho2027 />} />
+        <Route path="/grupos/croacia-bosnia-montenegro-2027" element={<GrupoCroaciaBosniaMontenegro2027 />} />
+        <Route path="/grupos/escandinavia-junho-2027" element={<GrupoEscandinavia2027 />} />
+        <Route path="/grupos/ilha-de-pascoa-2027" element={<GrupoIlhaPascoa2027 />} />
+        <Route path="/grupos/singapura-tailandia-2027" element={<GrupoSingapuraTailandia2027 />} />
         <Route path="/grupos/egito-abril-2027" element={<GrupoEgitoAbril2027 />} />
         <Route path="/grupos/laponia-circulo-polar-2027" element={<GrupoLaponiaCirculoPolar2027 />} />
         <Route path="/grupos/laponia-natal-reveillon-2027" element={<GrupoLaponiaNatalReveillon2027 />} />
