@@ -83,7 +83,7 @@ export const Footer = () => {
               <li><Link to="/crie-seu-grupo" className="text-sm text-primary-foreground/70 hover:text-gold transition-colors">Crie seu grupo</Link></li>
               <li>
                 <Link to="/embarque-com-a-create" className="text-sm text-gold hover:text-gold-light transition-colors font-medium">
-                  Grupos com Guia Brasileiro
+                  Grupos com Guia desde o Brasil
                 </Link>
               </li>
               <li><Link to="/sobre" className="text-sm text-primary-foreground/70 hover:text-gold transition-colors">Sobre</Link></li>

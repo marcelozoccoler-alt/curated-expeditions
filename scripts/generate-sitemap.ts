@@ -155,6 +155,10 @@ const GRUPOS = [
   "tunisia-carnaval-2027",
   "tunisia-junho-2027",
   "carretera-austral-abril-2027",
+  "caucaso-07-junho-2027",
+  "caucaso-21-junho-2027",
+  "sul-italia-junho-2027",
+  "lagos-chilenos-julho-2027",
   "egito-abril-2027",
   "vietna-laos-camboja-2027",
 ];
