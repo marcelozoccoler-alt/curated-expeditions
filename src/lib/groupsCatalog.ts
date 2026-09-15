@@ -45,6 +45,7 @@ export const BRAZILIAN_GROUP_COUNTRIES: Record<string, string[]> = {
   "/grupos/tailandia-2026": ["Tailândia"],
   "/grupos/tunisia-carnaval-2027": ["Tunísia"],
   "/grupos/tunisia-junho-2027": ["Tunísia"],
+  "/grupos/carretera-austral-abril-2027": ["Chile"],
   "/grupos/turquia-2026": ["Turquia"],
   "/grupos/turquia-reveillon-2027": ["Turquia"],
   "/grupos/vietna-laos-camboja-2027": ["Vietnã", "Laos", "Camboja"],
