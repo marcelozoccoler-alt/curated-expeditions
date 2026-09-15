@@ -63,6 +63,12 @@ import grupoLaponiaSignatureImg from "@/assets/laponia-signature-hero.jpg.asset.
 import grupoCaucasoJunhoImg from "@/assets/grupo-caucaso-junho-2027.jpg";
 import grupoSulItaliaJunhoImg from "@/assets/grupo-sul-italia-junho-2027.jpg";
 import grupoLagosChilenosJulhoImg from "@/assets/grupo-lagos-chilenos-julho-2027.jpg";
+import grupoSulItaliaPrimaveraImg from "@/assets/grupo-sul-italia-primavera-2027.jpg";
+import grupoLagosChilenosMaioImg from "@/assets/grupo-lagos-chilenos-maio-2027.jpg";
+import grupoCroaciaBosniaMontenegroImg from "@/assets/grupo-croacia-bosnia-montenegro-2027.jpg";
+import grupoEscandinaviaImg from "@/assets/grupo-escandinavia-2027.jpg";
+import grupoIlhaPascoaImg from "@/assets/grupo-ilha-de-pascoa-2027.jpg";
+import grupoSingapuraTailandiaImg from "@/assets/grupo-singapura-tailandia-2027.jpg";
 
 const RAW_DEPARTURES = [
   {
@@ -473,6 +479,106 @@ const RAW_DEPARTURES = [
     subtitle: "Yerevan · Garni · Geghard · Khor Virap · Lago Sevan · Tbilisi · Mtskheta · Baku · Gobustan",
     desc: "Segunda saída de junho pelo coração do Cáucaso: o mesmo circuito completo pelos três países, com voos Turkish Airlines e guia desde o Brasil.",
     fromPrice: "A partir de US$ 5.581 por pessoa (apto duplo)",
+    status: "Saída confirmada",
+  },
+  {
+    href: "/grupos/singapura-tailandia-2027",
+    img: grupoSingapuraTailandiaImg,
+    tag: "25/04 a 08/05/2027 · 14 dias",
+    title: "Singapura & Tailândia · Cidades, Templos e Mar de Andamão",
+    subtitle: "Singapura · Phuket · Krabi · Bangkok",
+    desc: "Gardens by the Bay, praias de falésias em Phuket e Krabi e os templos de Bangkok. Voos Ethiopian Airlines, voos internos e guia desde o Brasil.",
+    fromPrice: "A partir de US$ 5.967 por pessoa (apto duplo)",
+    status: "Saída confirmada",
+  },
+  {
+    href: "/grupos/sul-italia-maio-2027",
+    img: grupoSulItaliaPrimaveraImg,
+    tag: "17 a 28/05/2027 · 12 dias · Primavera",
+    title: "Sul da Itália · Primavera no Mediterrâneo",
+    subtitle: "Sorrento · Costa Amalfitana · Pompeia · Matera · Bari · Polignano · Alberobello · Lecce · Otranto",
+    desc: "Primavera italiana: navegação pela Costa Amalfitana, Pompeia, Sassi de Matera, trulli de Alberobello e o barroco de Lecce. Voos ITA Airways e guia desde o Brasil.",
+    fromPrice: "A partir de € 4.757 por pessoa (apto duplo)",
+    status: "Saída confirmada",
+  },
+  {
+    href: "/grupos/lagos-chilenos-maio-2027",
+    img: grupoLagosChilenosMaioImg,
+    tag: "18 a 25/05/2027 · 8 dias · Outono",
+    title: "Lagos Chilenos · Outono no Sul do Chile",
+    subtitle: "Santiago · Undurraga · Puerto Varas · Peulla · Petrohué · Frutillar",
+    desc: "Folhagens de outono entre vulcões e lagos: Vinícola Undurraga, navegação até Peulla, Cataratas de Petrohué e Frutillar alemã. Voos LATAM e guia desde o Brasil.",
+    fromPrice: "A partir de US$ 2.698 por pessoa (apto duplo)",
+    status: "Saída confirmada",
+  },
+  {
+    href: "/grupos/ilha-de-pascoa-2027",
+    img: grupoIlhaPascoaImg,
+    tag: "18 a 25/05/2027 · 8 dias",
+    title: "Ilha de Páscoa · Rapa Nui e Santiago",
+    subtitle: "Santiago · Vale do Maipo · Hanga Roa · Rano Raraku · Ahu Tongariki · Orongo",
+    desc: "Os grandes sítios cerimoniais dos moais na ilha habitada mais isolada do planeta, com city tour e vinícola em Santiago. Voos LATAM e guia desde o Brasil.",
+    fromPrice: "A partir de US$ 4.429 por pessoa (apto duplo)",
+    status: "Saída confirmada",
+  },
+  {
+    href: "/grupos/sul-italia-31-maio-2027",
+    img: grupoSulItaliaPrimaveraImg,
+    tag: "31/05 a 11/06/2027 · 12 dias",
+    title: "Sul da Itália · Entre a Primavera e o Verão",
+    subtitle: "Sorrento · Costa Amalfitana · Pompeia · Matera · Bari · Polignano · Alberobello · Lecce · Otranto",
+    desc: "Segunda saída da temporada: Costa Amalfitana em hidrofólio, Pompeia, Matera, Alberobello e Lecce. Voos ITA Airways e guia desde o Brasil.",
+    fromPrice: "A partir de € 4.757 por pessoa (apto duplo)",
+    status: "Saída confirmada",
+  },
+  {
+    href: "/grupos/sul-italia-07-junho-2027",
+    img: grupoSulItaliaPrimaveraImg,
+    tag: "07 a 18/06/2027 · 12 dias",
+    title: "Sul da Itália · Entre Dois Mares",
+    subtitle: "Sorrento · Costa Amalfitana · Pompeia · Matera · Bari · Polignano · Alberobello · Lecce · Otranto",
+    desc: "Circuito completo do Mezzogiorno no início do verão, com navegação pela Costa Amalfitana e a Puglia dos trulli. Voos ITA Airways e guia desde o Brasil.",
+    fromPrice: "A partir de € 4.757 por pessoa (apto duplo)",
+    status: "Saída confirmada",
+  },
+  {
+    href: "/grupos/croacia-bosnia-montenegro-2027",
+    img: grupoCroaciaBosniaMontenegroImg,
+    tag: "13 a 24/06/2027 · 12 dias · 3 países",
+    title: "Croácia, Bósnia e Montenegro · Adriático de Ponta a Ponta",
+    subtitle: "Zagreb · Plitvice · Zadar · Split · Hvar · Medjugorje · Mostar · Dubrovnik · Kotor",
+    desc: "Lagos de Plitvice com almoço incluído, Ilha de Hvar, a ponte de Mostar e a baía fiorde de Kotor. Voos Turkish Airlines e guia desde o Brasil.",
+    fromPrice: "A partir de € 4.590 por pessoa (apto duplo)",
+    status: "Saída confirmada",
+  },
+  {
+    href: "/grupos/escandinavia-junho-2027",
+    img: grupoEscandinaviaImg,
+    tag: "14 a 26/06/2027 · 13 dias · Noites claras",
+    title: "Escandinávia · Fiordes e Capitais Nórdicas",
+    subtitle: "Copenhague · Oslo · Geilo · Flåm · Bergen · Borgund · Leikanger · Estocolmo",
+    desc: "Ferry noturno Copenhague–Oslo, estrada dos fiordes, igreja de madeira de Borgund e quatro capitais nórdicas sob o sol da meia-noite. Voos TAP e guia desde o Brasil.",
+    fromPrice: "A partir de € 5.698 por pessoa (apto duplo)",
+    status: "Saída confirmada",
+  },
+  {
+    href: "/grupos/sul-italia-14-junho-2027",
+    img: grupoSulItaliaPrimaveraImg,
+    tag: "14 a 25/06/2027 · 12 dias",
+    title: "Sul da Itália · Mar, Pedra e Alma Italiana",
+    subtitle: "Sorrento · Costa Amalfitana · Pompeia · Matera · Bari · Polignano · Alberobello · Lecce · Otranto",
+    desc: "Verão no sul da Itália: Costa Amalfitana, Pompeia, os Sassi de Matera e o barroco de Lecce. Voos ITA Airways e guia desde o Brasil.",
+    fromPrice: "A partir de € 4.757 por pessoa (apto duplo)",
+    status: "Saída confirmada",
+  },
+  {
+    href: "/grupos/lagos-chilenos-junho-2027",
+    img: grupoLagosChilenosMaioImg,
+    tag: "23/06 a 01/07/2027 · 9 dias · Inverno",
+    title: "Lagos Chilenos · Inverno entre Vulcões",
+    subtitle: "Santiago · Undurraga · Puerto Varas · Peulla · Petrohué · Frutillar",
+    desc: "Vulcões nevados e lagos espelhados: Vinícola Undurraga, navegação até Peulla, Cataratas de Petrohué e Frutillar alemã. Voos LATAM e guia desde o Brasil.",
+    fromPrice: "A partir de US$ 2.698 por pessoa (apto duplo)",
     status: "Saída confirmada",
   },
   {
