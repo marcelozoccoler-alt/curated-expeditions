@@ -443,6 +443,16 @@ const RAW_DEPARTURES = [
     status: "Saída confirmada",
   },
   {
+    href: "/grupos/marrocos-maio-2027",
+    img: grupoMarrocosImg,
+    tag: "12 a 25/05/2027 · 14 dias · Primavera",
+    title: "Marrocos · História, Deserto e Cultura",
+    subtitle: "Rabat · Chefchaouen · Volubilis · Meknès · Fez · Merzouga · Ouarzazate · Marrakech · Casablanca",
+    desc: "Cidades imperiais, a Medina azul de Chefchaouen, travessia do Atlas, noite em acampamento de luxo no Saara e Marrakech. Voos Royal Air Maroc e guia desde o Brasil.",
+    fromPrice: "A partir de € 4.252 por pessoa (apto duplo)",
+    status: "Saída confirmada",
+  },
+  {
     href: "/grupos/laponia-natal-reveillon-2027",
     img: `https://id-preview--42652cab-79cf-4f24-aaf7-366f68e48196.lovable.app${grupoLaponiaSignatureImg.url}`,
     tag: "21/12/2026 a 02/01/2027 · 13 dias · Create Signature",

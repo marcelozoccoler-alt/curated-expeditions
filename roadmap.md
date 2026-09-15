@@ -5,4 +5,4 @@
 - [x] Memória atualizada (regra do mês inteiro)
 - [x] PDF Capitais Imperiais: "café da manhã incluído" e "Não incluso" já constam na versão final entregue (5 páginas)
 - [ ] Próximo passo sugerido: SEO item 2 (concentrar em 15 destinos prioritários) — aguardando confirmação
-- [ ] Inserir grupo Marrocos maio/2027 com guia brasileiro a partir do PDF enviado
+- [x] Inserir grupo Marrocos maio/2027 com guia brasileiro a partir do PDF enviado

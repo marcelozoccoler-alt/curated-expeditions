@@ -33,6 +33,7 @@ export const BRAZILIAN_GROUP_COUNTRIES: Record<string, string[]> = {
   "/grupos/jordania-2026": ["Jordânia"],
   "/grupos/lagos-chilenos-carnaval-2027": ["Chile", "Argentina"],
   "/grupos/marrocos-2026": ["Marrocos"],
+  "/grupos/marrocos-maio-2027": ["Marrocos"],
   "/grupos/mexico-2026": ["México"],
   "/grupos/nepal-butao-2027": ["Nepal", "Butão"],
   "/grupos/patagonia-chilena-2026": ["Chile"],
