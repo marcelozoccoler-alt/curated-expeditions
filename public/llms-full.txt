@@ -27,7 +27,7 @@ Coleção: https://createtravel.tur.br/create-signature
 
 ## Destinos
 
-190 destinos com roteiro sob medida. Formato: destino (país, região) — melhor época — perfil — destaques — URL.
+188 destinos com roteiro sob medida. Formato: destino (país, região) — melhor época — perfil — destaques — URL.
 
 ### Anavilhanas (Rio Negro) — Brasil (Amazônia)
 - URL: https://createtravel.tur.br/destinos/brasil/amazonia/anavilhanas
@@ -1142,13 +1142,6 @@ Coleção: https://createtravel.tur.br/create-signature
 - Destaques: Forte de Bareine, sítio da Unesco; Banco de pérolas naturais com mergulhador tradicional; Souq de Manama e a Casa da Corte; Árvore da Vida no deserto sul; Torres do World Trade Center ao entardecer
 - Resumo: Bareine é o arquipélago discreto do Golfo, onde torres eólicas integradas a arranha-céus dividem espaço com fortes portugueses do século XVI e os últimos mergulhadores de pérolas naturais do mundo. A curadoria Create Travel revela um país pequeno em extensão e denso em camadas históricas, ideal para quem busca…
 
-### Líbano Autoral — Líbano (Beirute, Baalbek e Vale do Bekaa)
-- URL: https://createtravel.tur.br/destinos/oriente-medio/libano
-- Melhor época: Abr–Jun e Set–Out (clima ameno, colheita de uvas no Bekaa em setembro). Jul–Ago é alto verão na costa; inverno abre a temporada de esqui no Monte Líbano.
-- Perfil: Cultura & história, Gastronomia & vinhos, Montanhas, Fotografia, Festivais folclóricos
-- Destaques: Baalbek, o maior complexo romano do Oriente; Vinícolas centenárias do Vale do Bekaa; Beirute entre ruínas e vida noturna; Gruta de Jeita; Vilarejos cristãos maronitas no Monte Líbano
-- Resumo: O Líbano concentra num território minúsculo uma densidade histórica rara: templos romanos entre os mais bem preservados do mundo, vinícolas milenares no vale do Bekaa e uma Beirute que reconstrói sua identidade a cada geração sem nunca perder o apetite pela vida. A curadoria Create Travel percorre esse país de…
-
 ### Antártida — Península, Drake e Círculo Polar — Antártida (Península Antártica, Drake e Círculo Polar)
 - URL: https://createtravel.tur.br/destinos/polos/antartida
 - Melhor época: Nov–Mar (verão austral). Novembro traz gelo intacto e cortejo de pinguins; janeiro e fevereiro concentram baleias e filhotes; março oferece a melhor luz para fotografia.
@@ -1176,13 +1169,6 @@ Coleção: https://createtravel.tur.br/create-signature
 - Perfil: Cultura & história, Deserto, Gastronomia & vinhos, Roadtrip cênica, Fotografia
 - Destaques: Icherisheher, a cidade murada; Petróglifos de Gobustan; Vulcões de lama e chamas eternas; Sheki e o palácio dos Khans
 - Resumo: O Azerbaijão é a terra do fogo — literalmente: gás natural aflora do solo e queima sozinho há séculos em Yanar Dag, e templos zoroastristas foram erguidos ao redor dessas chamas. Baku sobrepõe uma cidade murada medieval, um bulevar art nouveau do primeiro boom do petróleo e arranha-céus em forma de chama. Fora da…
-
-### Irã — Isfahan, Shiraz, Yazd e Persépolis — Irã (Isfahan, Shiraz, Yazd e Persépolis)
-- URL: https://createtravel.tur.br/destinos/asia/ira/isfahan-shiraz-yazd
-- Melhor época: Mar–Mai e Set–Nov. A primavera coincide com o Nowruz e os jardins persas floridos; o outono traz céu limpo e temperaturas ideais no deserto.
-- Perfil: Cultura & história, Deserto, Fotografia, Gastronomia & vinhos, Remoto & raro
-- Destaques: Praça Naqsh-e Jahan, em Isfahan; Persépolis ao amanhecer; Yazd e as torres de vento; Jardins e poesia em Shiraz
-- Resumo: O Irã é a Pérsia — e nenhuma imagem de telejornal prepara o viajante para a delicadeza do que encontra. Isfahan tem a segunda maior praça do mundo, cercada de cúpulas turquesa que mudam de tom conforme a hora. Persépolis guarda relevos de 2.500 anos que ainda mostram os povos do império desfilando em oferenda. Yazd é…
 
 ### Rússia — Moscou, São Petersburgo e Transiberiano — Rússia (Moscou, São Petersburgo e Transiberiano)
 - URL: https://createtravel.tur.br/destinos/europa/russia/moscou-sao-petersburgo
@@ -2311,14 +2297,6 @@ Coleção: https://createtravel.tur.br/create-signature
 - P: Qual é a melhor época para viajar aos Lagos Chilenos? R: Outubro a abril, quando os dias são longos e as trilhas ao Osorno estão liberadas. Janeiro e fevereiro trazem o Festival de Música de Frutillar. O outono (abril e maio) tem cores douradas espetaculares e menor movimento.
 - P: Como chegar à Região dos Lagos vindo do Brasil? R: Voo até Santiago e conexão de aproximadamente 1h30 até Puerto Montt, aeroporto que serve Puerto Varas e Frutillar. De lá, transfers rodoviários curtos levam a todos os destinos da região.
 - P: Vale a pena incluir Chiloé no roteiro? R: Sim. Chiloé acrescenta uma dimensão cultural única — igrejas de madeira, palafitos, mitologia local e gastronomia distinta. Recomendamos mínimo de duas noites para atravessar Castro, Dalcahue e Achao com calma.
-
-### Socotra: como chegar, maravilhas e a experiência de pisar em outro planeta
-- URL: https://createtravel.tur.br/diario/socotra-como-chegar-maravilhas-experiencia
-- Categoria: Destino · Publicado: 2026-07-30 · Leitura: 12 min
-- Resumo: Guia completo de Socotra (Iêmen): como chegar via Abu Dhabi, o que ver, dragoeiros, dunas, praias desertas, acampamento e dicas práticas. Curadoria Create Travel.
-- P: Como chegar a Socotra saindo do Brasil? R: O caminho padrão é voar de São Paulo a Abu Dhabi (voo direto de cerca de 14h) e de lá embarcar no voo charter semanal para o Aeroporto de Socotra, com cerca de 3h30 de duração. Como o charter costuma operar às terças-feiras, o roteiro…
-- P: É preciso visto para visitar Socotra? R: Sim. É exigido um visto específico de Socotra, emitido pela autoridade local e providenciado pela operadora receptiva com três a quatro semanas de antecedência. Também é necessário trânsito válido pelos Emirados Árabes Unidos.
-- P: Socotra é segura para turistas? R: Sim. A ilha está distante do conflito no Iêmen continental, é pacífica e a população é acolhedora. Recomendamos sempre viajar com operadora credenciada, seguro com cobertura de evacuação médica e itinerário registrado.
 
 ### Omã: de Mascate aos oásis, das montanhas ao deserto
 - URL: https://createtravel.tur.br/diario/oma-mascate-oasis-montanhas-deserto
