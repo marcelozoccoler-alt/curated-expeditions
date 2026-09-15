@@ -64,6 +64,7 @@ import GrupoCoreiaJapaoCerejeiras2027 from "./pages/GrupoCoreiaJapaoCerejeiras20
 import GrupoChinaPrimavera2027 from "./pages/GrupoChinaPrimavera2027";
 import GrupoLagosChilenos2027 from "./pages/GrupoLagosChilenos2027";
 import GrupoTunisia2027 from "./pages/GrupoTunisia2027";
+import GrupoTunisiaJunho2027 from "./pages/GrupoTunisiaJunho2027";
 import GrupoEgitoAbril2027 from "./pages/GrupoEgitoAbril2027";
 import BrasilEstados from "./pages/BrasilEstados";
 import BrasilEstado from "./pages/BrasilEstado";
@@ -177,6 +178,7 @@ const App = () => (
         <Route path="/grupos/china-primavera-2027" element={<GrupoChinaPrimavera2027 />} />
         <Route path="/grupos/lagos-chilenos-carnaval-2027" element={<GrupoLagosChilenos2027 />} />
         <Route path="/grupos/tunisia-carnaval-2027" element={<GrupoTunisia2027 />} />
+        <Route path="/grupos/tunisia-junho-2027" element={<GrupoTunisiaJunho2027 />} />
         <Route path="/grupos/egito-abril-2027" element={<GrupoEgitoAbril2027 />} />
         <Route path="/grupos/laponia-circulo-polar-2027" element={<GrupoLaponiaCirculoPolar2027 />} />
         <Route path="/grupos/laponia-natal-reveillon-2027" element={<GrupoLaponiaNatalReveillon2027 />} />
