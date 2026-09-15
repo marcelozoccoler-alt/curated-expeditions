@@ -140,6 +140,7 @@ const GRUPOS = [
   "jordania-2026",
   "lagos-chilenos-carnaval-2027",
   "marrocos-2026",
+  "marrocos-maio-2027",
   "mexico-2026",
   "nepal-butao-2027",
   "patagonia-chilena-2026",

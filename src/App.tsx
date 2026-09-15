@@ -27,6 +27,7 @@ import QuantoCustaDestino from "./pages/QuantoCustaDestino";
 import Depoimentos from "./pages/Depoimentos";
 import Regiao from "./pages/Regiao";
 import GrupoMarrocos2026 from "./pages/GrupoMarrocos2026";
+import GrupoMarrocosMaio2027 from "./pages/GrupoMarrocosMaio2027";
 import GrupoGrecia2026 from "./pages/GrupoGrecia2026";
 import GrupoPatagoniaChilena2026 from "./pages/GrupoPatagoniaChilena2026";
 import GrupoEquadorGalapagos2026 from "./pages/GrupoEquadorGalapagos2026";
@@ -139,6 +140,7 @@ const App = () => (
         <Route path="/perguntas-frequentes/:kind/:slug" element={<FaqTema />} />
         <Route path="/depoimentos" element={<Depoimentos />} />
         <Route path="/grupos/marrocos-2026" element={<GrupoMarrocos2026 />} />
+        <Route path="/grupos/marrocos-maio-2027" element={<GrupoMarrocosMaio2027 />} />
         <Route path="/grupos/grecia-2026" element={<GrupoGrecia2026 />} />
         <Route path="/grupos/patagonia-chilena-2026" element={<GrupoPatagoniaChilena2026 />} />
         <Route path="/grupos/equador-galapagos-2026" element={<GrupoEquadorGalapagos2026 />} />
