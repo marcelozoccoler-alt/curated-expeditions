@@ -115,7 +115,7 @@ const GrupoPortugalMaio2027 = () => {
           <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-gold/90 text-navy text-xs font-semibold uppercase tracking-wider mb-6"><Sparkles size={14} /> Primavera 2027 · Lugares limitados</div>
           <p className="text-caption text-gold mb-4">Grupo com guia desde o Brasil · 24 de maio a 04 de junho de 2027</p>
           <h1 className="heading-hero text-white mb-6">Primavera em Portugal, do Douro ao Alentejo</h1>
-          <p className="text-xl md:text-2xl te xt-white/90 mb-8 font-light">12 dias entre Porto, Aveiro, o Douro Vinhateiro, a Serra da Estrela, Fátima, Lisboa, Sintra e Évora.</p>
+          <p className="text-xl md:text-2xl text-white/90 mb-8 font-light">12 dias entre Porto, Aveiro, o Douro Vinhateiro, a Serra da Estrela, Fátima, Lisboa, Sintra e Évora.</p>
           <div className="flex flex-col sm:flex-row items-start sm:items-center gap-4"><WhatsAppButton variant="cta" label="Garantir minha vaga" params={whatsappParams} className="text-lg px-8 py-4" /><a href="#investimento" className="btn-outline border-white text-white hover:bg-white hover:text-navy">Ver investimento <ArrowRight size={18} /></a></div>
         </motion.div></div>
       </section>
