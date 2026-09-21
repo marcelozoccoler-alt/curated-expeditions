@@ -171,6 +171,16 @@ const GRUPOS = [
   "singapura-tailandia-2027",
   "egito-abril-2027",
   "vietna-laos-camboja-2027",
+  "sicilia-malta-abril-2027",
+  "baltico-maio-2027",
+  "escandinavia-maio-2027",
+  "polonia-tchequia-maio-2027",
+  "suica-carnaval-2027",
+  "mendoza-reveillon-29-dezembro-2026",
+  "mendoza-reveillon-30-dezembro-2026",
+  "turquia-junho-2027",
+  "portugal-maio-2027",
+  "africa-do-sul-carnaval-2027",
 ];
 push("/embarque-com-a-create", 0.9, "weekly");
 

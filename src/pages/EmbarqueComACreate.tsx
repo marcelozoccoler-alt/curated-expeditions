@@ -69,8 +69,118 @@ import grupoCroaciaBosniaMontenegroImg from "@/assets/grupo-croacia-bosnia-monte
 import grupoEscandinaviaImg from "@/assets/grupo-escandinavia-2027.jpg";
 import grupoIlhaPascoaImg from "@/assets/grupo-ilha-de-pascoa-2027.jpg";
 import grupoSingapuraTailandiaImg from "@/assets/grupo-singapura-tailandia-2027.jpg";
+import grupoSiciliaMaltaImg from "@/assets/grupo-sicilia-malta-2027.jpg";
+import grupoBalticoImg from "@/assets/grupo-baltico-2027.jpg";
+import grupoEscandinaviaMaioImg from "@/assets/grupo-escandinavia-maio-2027.jpg";
+import grupoPoloniaTchequiaImg from "@/assets/grupo-polonia-tchequia-2027.jpg";
+import grupoSuicaCarnavalImg from "@/assets/grupo-suica-carnaval-2027.jpg";
+import grupoMendoza29Img from "@/assets/grupo-mendoza-reveillon-29-dezembro.jpg";
+import grupoMendoza30Img from "@/assets/grupo-mendoza-reveillon-30-dezembro.jpg";
+import grupoTurquiaJunhoImg from "@/assets/grupo-turquia-junho-2027.jpg";
+import grupoPortugalMaioImg from "@/assets/grupo-portugal-maio-2027.jpg";
+import grupoAfricaDoSulCarnavalImg from "@/assets/grupo-africa-do-sul-carnaval-2027.jpg";
 
 const RAW_DEPARTURES = [
+  {
+    href: "/grupos/mendoza-reveillon-29-dezembro-2026",
+    img: grupoMendoza29Img,
+    tag: "29/12/2026 a 03/01/2027 · 6 dias · Réveillon",
+    title: "Réveillon em Mendoza",
+    subtitle: "Mendoza · Alta Montanha · Vale do Uco · Maipú",
+    desc: "Vinícolas premiadas, aula de empanadas, Alta Montanha com almoço crioulo e festa de Réveillon no Ahijuna. Voos GOL e guia desde o Brasil.",
+    fromPrice: "A partir de US$ 2.798 por pessoa (apto duplo)",
+    status: "Saída confirmada",
+  },
+  {
+    href: "/grupos/mendoza-reveillon-30-dezembro-2026",
+    img: grupoMendoza30Img,
+    tag: "30/12/2026 a 04/01/2027 · 6 dias · Réveillon",
+    title: "Mendoza · Réveillon aos pés dos Andes",
+    subtitle: "Mendoza · Alta Montanha · Vale do Uco · Maipú",
+    desc: "Degustações no Vale do Uco, Cerro Aconcágua, almoço crioulo na cordilheira e Réveillon com jantar e show. Voos LATAM e guia desde o Brasil.",
+    fromPrice: "A partir de US$ 2.578 por pessoa (apto duplo)",
+    status: "Saída confirmada",
+  },
+  {
+    href: "/grupos/suica-carnaval-2027",
+    img: grupoSuicaCarnavalImg,
+    tag: "03 a 15/02/2027 · 13 dias",
+    title: "Suíça no Carnaval",
+    subtitle: "Milão · Bernina Express · Glacier Express · Titlis · Lucerna · Berna · Genebra",
+    desc: "Os dois trens panorâmicos mais famosos dos Alpes, Monte Titlis, Grindelwald, Gruyères e Montreux no inverno. Voos Iberia e guia desde o Brasil.",
+    fromPrice: "A partir de € 6.368 por pessoa (apto duplo)",
+    status: "Saída confirmada",
+  },
+  {
+    href: "/grupos/africa-do-sul-carnaval-2027",
+    img: grupoAfricaDoSulCarnavalImg,
+    tag: "04 a 13/02/2027 · 10 dias",
+    title: "África do Sul no Carnaval",
+    subtitle: "Joanesburgo · Kruger · Cidade do Cabo",
+    desc: "Safáris no Kruger com pensão completa em lodge, Table Mountain, Cabo da Boa Esperança e vinhedos do Cabo. Voos South African Airways e guia desde o Brasil.",
+    fromPrice: "A partir de US$ 4.997 por pessoa (apto duplo)",
+    status: "Saída confirmada",
+  },
+  {
+    href: "/grupos/sicilia-malta-abril-2027",
+    img: grupoSiciliaMaltaImg,
+    tag: "24/04 a 06/05/2027 · 13 dias",
+    title: "Sicília & Malta",
+    subtitle: "Valletta · Gozo · Ragusa · Noto · Siracusa · Etna · Taormina · Palermo · Agrigento",
+    desc: "Fortalezas de Malta, barroco siciliano da UNESCO, Monte Etna, cenários de O Poderoso Chefão e o Vale dos Templos. Voos ITA Airways e guia desde o Brasil.",
+    fromPrice: "A partir de € 5.048 por pessoa (apto duplo)",
+    status: "Saída confirmada",
+  },
+  {
+    href: "/grupos/polonia-tchequia-maio-2027",
+    img: grupoPoloniaTchequiaImg,
+    tag: "19 a 29/05/2027 · 11 dias",
+    title: "Polônia & Tchéquia",
+    subtitle: "Varsóvia · Częstochowa · Cracóvia · Wieliczka · Brno · Praga",
+    desc: "A Polônia da fé e da história, as minas de sal de Wieliczka e Praga com jantar folclórico. Voos KLM e guia desde o Brasil.",
+    fromPrice: "A partir de € 5.086 por pessoa (apto duplo)",
+    status: "Saída confirmada",
+  },
+  {
+    href: "/grupos/escandinavia-maio-2027",
+    img: grupoEscandinaviaMaioImg,
+    tag: "24/05 a 05/06/2027 · 13 dias",
+    title: "Escandinávia na primavera",
+    subtitle: "Copenhague · Oslo · Geilo · Bergen · Sognefjord · Estocolmo",
+    desc: "Ferry noturno entre Copenhague e Oslo, fiordes noruegueses, igreja de madeira de Borgund e a Estocolmo das ilhas. Voos TAP e guia desde o Brasil.",
+    fromPrice: "A partir de € 5.398 por pessoa (apto duplo)",
+    status: "Saída confirmada",
+  },
+  {
+    href: "/grupos/portugal-maio-2027",
+    img: grupoPortugalMaioImg,
+    tag: "24/05 a 04/06/2027 · 12 dias",
+    title: "Portugal do Douro ao Alentejo",
+    subtitle: "Porto · Aveiro · Braga · Douro · Covilhã · Fátima · Lisboa · Évora",
+    desc: "Cruzeiro e prova de vinhos no Douro, Aveiro e Braga, Serra da Estrela, Fátima, Queluz e o Alentejo com jantar em Évora. Voos TAP e guia desde o Brasil.",
+    fromPrice: "A partir de € 4.795 por pessoa (apto duplo)",
+    status: "Saída confirmada",
+  },
+  {
+    href: "/grupos/baltico-maio-2027",
+    img: grupoBalticoImg,
+    tag: "29/05 a 08/06/2027 · 11 dias",
+    title: "Báltico · quatro países",
+    subtitle: "Helsinque · Tallinn · Pärnu · Sigulda · Riga · Vilnius · Trakai",
+    desc: "Cidades medievais preservadas, Palácio de Rundāle, a Colina das Cruzes e o castelo lacustre de Trakai. Voos Turkish Airlines e guia desde o Brasil.",
+    fromPrice: "A partir de € 3.988 por pessoa (apto duplo)",
+    status: "Saída confirmada",
+  },
+  {
+    href: "/grupos/turquia-junho-2027",
+    img: grupoTurquiaJunhoImg,
+    tag: "15 a 28/06/2027 · 14 dias",
+    title: "Turquia completa",
+    subtitle: "Istambul · Ancara · Capadócia · Pamukkale · Éfeso · Izmir",
+    desc: "Hagia Sophia e Bósforo, vales da Capadócia, terraços brancos de Pamukkale e as ruínas de Éfeso. Voos Turkish Airlines e guia desde o Brasil.",
+    fromPrice: "A partir de € 3.998 por pessoa (apto duplo)",
+    status: "Saída confirmada",
+  },
   {
     href: "/grupos/jordania-2026",
     img: grupoJordaniaImg,

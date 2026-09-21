@@ -63,6 +63,16 @@ export const BRAZILIAN_GROUP_COUNTRIES: Record<string, string[]> = {
   "/grupos/turquia-2026": ["Turquia"],
   "/grupos/turquia-reveillon-2027": ["Turquia"],
   "/grupos/vietna-laos-camboja-2027": ["Vietnã", "Laos", "Camboja"],
+  "/grupos/sicilia-malta-abril-2027": ["Itália", "Malta"],
+  "/grupos/baltico-maio-2027": ["Finlândia", "Estônia", "Letônia", "Lituânia"],
+  "/grupos/escandinavia-maio-2027": ["Dinamarca", "Noruega", "Suécia"],
+  "/grupos/polonia-tchequia-maio-2027": ["Polônia", "República Tcheca"],
+  "/grupos/suica-carnaval-2027": ["Suíça", "Itália"],
+  "/grupos/mendoza-reveillon-29-dezembro-2026": ["Argentina"],
+  "/grupos/mendoza-reveillon-30-dezembro-2026": ["Argentina"],
+  "/grupos/turquia-junho-2027": ["Turquia"],
+  "/grupos/portugal-maio-2027": ["Portugal"],
+  "/grupos/africa-do-sul-carnaval-2027": ["África do Sul"],
 };
 
 export type GroupKind = "brasileiro" | "local";
