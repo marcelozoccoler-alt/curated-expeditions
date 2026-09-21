@@ -180,6 +180,16 @@ const App = () => (
         <Route path="/grupos/jordania-2026" element={<GrupoJordania2026 />} />
         <Route path="/grupos/nepal-butao-2027" element={<GrupoNepalButao2027 />} />
         <Route path="/grupos/vietna-laos-camboja-2027" element={<GrupoVietnaLaosCamboja2027 />} />
+        <Route path="/grupos/sicilia-malta-abril-2027" element={<GrupoSiciliaMalta2027 />} />
+        <Route path="/grupos/baltico-maio-2027" element={<GrupoBaltico2027 />} />
+        <Route path="/grupos/escandinavia-maio-2027" element={<GrupoEscandinaviaMaio2027 />} />
+        <Route path="/grupos/polonia-tchequia-maio-2027" element={<GrupoPoloniaTchequia2027 />} />
+        <Route path="/grupos/suica-carnaval-2027" element={<GrupoSuicaCarnaval2027 />} />
+        <Route path="/grupos/mendoza-reveillon-29-dezembro-2026" element={<GrupoMendozaReveillon29Dezembro />} />
+        <Route path="/grupos/mendoza-reveillon-30-dezembro-2026" element={<GrupoMendozaReveillon30Dezembro />} />
+        <Route path="/grupos/turquia-junho-2027" element={<GrupoTurquiaJunho2027 />} />
+        <Route path="/grupos/portugal-maio-2027" element={<GrupoPortugalMaio2027 />} />
+        <Route path="/grupos/africa-do-sul-carnaval-2027" element={<GrupoAfricaDoSulCarnaval2027 />} />
         <Route path="/grupos/mexico-2026" element={<GrupoMexico2026 />} />
         <Route path="/grupos/africa-do-sul-reveillon-2027" element={<GrupoAfricaDoSulReveillon2027 />} />
         <Route path="/grupos/africa-do-sul-reveillon-cape-town-2027" element={<GrupoAfricaDoSulReveillonCapeTown2027 />} />
