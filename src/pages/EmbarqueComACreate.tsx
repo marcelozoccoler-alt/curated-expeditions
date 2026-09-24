@@ -79,8 +79,107 @@ import grupoMendoza30Img from "@/assets/grupo-mendoza-reveillon-30-dezembro.jpg"
 import grupoTurquiaJunhoImg from "@/assets/grupo-turquia-junho-2027.jpg";
 import grupoPortugalMaioImg from "@/assets/grupo-portugal-maio-2027.jpg";
 import grupoAfricaDoSulCarnavalImg from "@/assets/grupo-africa-do-sul-carnaval-2027.jpg";
+import grupoMendozaCarnavalImg from "@/assets/grupo-mendoza-reveillon-29-dezembro.jpg";
+import grupoSulItaliaAbrilImg from "@/assets/grupo-sul-italia-primavera-2027.jpg";
+import grupoLagosChilenosAbrilImg from "@/assets/grupo-lagos-chilenos-maio-2027.jpg";
+import grupoEscandinaviaAbrilImg from "@/assets/grupo-escandinavia-maio-2027.jpg";
+import grupoSiciliaMaltaMaioImg from "@/assets/grupo-sicilia-malta-2027.jpg";
+import grupoTurquiaMaioImg from "@/assets/grupo-turquia-junho-2027.jpg";
+import grupoCaucasoMaioImg from "@/assets/grupo-caucaso-junho-2027.jpg";
+import grupoAfricaDoSulMaioImg from "@/assets/grupo-africa-do-sul-carnaval-2027.jpg";
+import grupoChinaCoreiaImg from "@/assets/grupo-china-primavera-2027.jpg";
 
 const RAW_DEPARTURES = [
+  {
+    href: "/grupos/mendoza-carnaval-2027",
+    img: grupoMendozaCarnavalImg,
+    tag: "04 a 09/02/2027 · 6 dias · Carnaval",
+    title: "Mendoza no Carnaval",
+    subtitle: "Mendoza · Alta Montanha · Vale do Uco · Maipú",
+    desc: "Bodega Santa Julia com aula de empanadas, Alta Montanha até o Aconcágua e três vinícolas no Vale do Uco. Voos GOL e guia desde o Brasil.",
+    fromPrice: "A partir de US$ 2.798 por pessoa (apto duplo)",
+    status: "Saída confirmada",
+  },
+  {
+    href: "/grupos/sul-italia-19-abril-2027",
+    img: grupoSulItaliaAbrilImg,
+    tag: "19/04 a 30/04/2027 · 12 dias",
+    title: "Sul da Itália · Amalfi, Matera e Puglia",
+    subtitle: "Sorrento · Positano · Amalfi · Pompeia · Matera · Bari · Alberobello · Lecce",
+    desc: "Costa Amalfitana, Pompeia, os Sassi de Matera, os trulli de Alberobello e o barroco de Lecce. Voos ITA Airways e guia desde o Brasil.",
+    fromPrice: "A partir de € 4.757 por pessoa (apto duplo)",
+    status: "Saída confirmada",
+  },
+  {
+    href: "/grupos/lagos-chilenos-abril-2027",
+    img: grupoLagosChilenosAbrilImg,
+    tag: "19 a 26/04/2027 · 8 dias",
+    title: "Lagos Chilenos no outono",
+    subtitle: "Santiago · Vale do Maipo · Puerto Varas · Peulla · Petrohué · Frutillar",
+    desc: "Vinhos do Maipo, navegação até Peulla, Cataratas de Petrohué e a Frutillar alemã. Voos LATAM e guia desde o Brasil.",
+    fromPrice: "A partir de US$ 2.698 por pessoa (apto duplo)",
+    status: "Saída confirmada",
+  },
+  {
+    href: "/grupos/escandinavia-abril-2027",
+    img: grupoEscandinaviaAbrilImg,
+    tag: "26/04 a 08/05/2027 · 13 dias",
+    title: "Escandinávia · fiordes na primavera",
+    subtitle: "Copenhague · Oslo · Geilo · Bergen · Sognefjord · Estocolmo",
+    desc: "Ferry noturno Copenhague–Oslo, Sognefjord, igreja de madeira de Borgund e Museu Vasa. Voos TAP e guia desde o Brasil.",
+    fromPrice: "A partir de € 5.099 por pessoa (apto duplo)",
+    status: "Saída confirmada",
+  },
+  {
+    href: "/grupos/sicilia-malta-maio-2027",
+    img: grupoSiciliaMaltaMaioImg,
+    tag: "14 a 26/05/2027 · 13 dias",
+    title: "Sicília & Malta em maio",
+    subtitle: "Valletta · Gozo · Ragusa · Noto · Siracusa · Etna · Taormina · Palermo · Agrigento",
+    desc: "Fortalezas de Malta, barroco siciliano da UNESCO, Monte Etna e o Vale dos Templos. Voos ITA Airways e guia desde o Brasil.",
+    fromPrice: "A partir de € 5.673 por pessoa (apto duplo)",
+    status: "Saída confirmada",
+  },
+  {
+    href: "/grupos/turquia-maio-2027",
+    img: grupoTurquiaMaioImg,
+    tag: "15 a 28/05/2027 · 14 dias",
+    title: "Turquia completa em maio",
+    subtitle: "Istambul · Ancara · Capadócia · Pamukkale · Éfeso · Izmir · Bursa",
+    desc: "Hagia Sophia e Bósforo, vales da Capadócia, terraços de Pamukkale e as ruínas de Éfeso. Voos Turkish Airlines e guia desde o Brasil.",
+    fromPrice: "A partir de € 3.977 por pessoa (apto duplo)",
+    status: "Saída confirmada",
+  },
+  {
+    href: "/grupos/caucaso-maio-2027",
+    img: grupoCaucasoMaioImg,
+    tag: "24/05 a 07/06/2027 · 15 dias",
+    title: "Cáucaso · Armênia, Geórgia e Azerbaijão",
+    subtitle: "Yerevan · Garni · Sevan · Tbilisi · Mtskheta · Baku · Gobustan",
+    desc: "Mosteiros escavados na rocha, o Monte Ararat ao fundo, Tbilisi das termas e a Baku do Cáspio. Voos Turkish Airlines e guia desde o Brasil.",
+    fromPrice: "A partir de US$ 5.498 por pessoa (apto duplo)",
+    status: "Saída confirmada",
+  },
+  {
+    href: "/grupos/africa-do-sul-maio-2027",
+    img: grupoAfricaDoSulMaioImg,
+    tag: "24/05 a 01/06/2027 · 9 dias",
+    title: "África do Sul · safári e Cidade do Cabo",
+    subtitle: "Joanesburgo · Kruger · Cidade do Cabo",
+    desc: "Safáris em reserva privada com pensão completa, Table Mountain e Cabo da Boa Esperança. Voos South African Airways e guia desde o Brasil.",
+    fromPrice: "A partir de US$ 4.987 por pessoa (apto duplo)",
+    status: "Saída confirmada",
+  },
+  {
+    href: "/grupos/china-coreia-junho-2027",
+    img: grupoChinaCoreiaImg,
+    tag: "02 a 18/06/2027 · 17 dias",
+    title: "China & Coreia do Sul",
+    subtitle: "Pequim · Grande Muralha · Xi'an · Xangai · Seul · DMZ",
+    desc: "Cidade Proibida, Grande Muralha, Guerreiros de Terracota, o Bund de Xangai e a Seul dos palácios e da DMZ. Voos Ethiopian e guia desde o Brasil.",
+    fromPrice: "A partir de US$ 5.998 por pessoa (apto duplo)",
+    status: "Saída confirmada",
+  },
   {
     href: "/grupos/mendoza-reveillon-29-dezembro-2026",
     img: grupoMendoza29Img,
