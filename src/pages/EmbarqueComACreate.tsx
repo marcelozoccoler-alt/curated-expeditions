@@ -15,6 +15,7 @@ import {
   Compass,
 } from "lucide-react";
 import { Header } from "@/components/Header";
+import { GRUPOS_LOTE } from "@/lib/gruposLote";
 import { Footer } from "@/components/Footer";
 import { WhatsAppButton } from "@/components/WhatsAppButton";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
@@ -90,6 +91,7 @@ import grupoAfricaDoSulMaioImg from "@/assets/grupo-africa-do-sul-carnaval-2027.
 import grupoChinaCoreiaImg from "@/assets/grupo-china-primavera-2027.jpg";
 
 const RAW_DEPARTURES = [
+  ...GRUPOS_LOTE.map((g) => ({ href: `/grupos/${g.slug}`, img: g.img, tag: g.tag, title: g.title, subtitle: g.subtitle, desc: g.desc, fromPrice: `A partir de ${g.sym} ${g.prices[1][0]} por pessoa (apto duplo)`, status: "Saída confirmada" })),
   {
     href: "/grupos/mendoza-carnaval-2027",
     img: grupoMendozaCarnavalImg,

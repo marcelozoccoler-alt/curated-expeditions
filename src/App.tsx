@@ -96,6 +96,8 @@ import GrupoTurquiaMaio2027 from "./pages/GrupoTurquiaMaio2027";
 import GrupoCaucasoMaio2027 from "./pages/GrupoCaucasoMaio2027";
 import GrupoAfricaDoSulMaio2027 from "./pages/GrupoAfricaDoSulMaio2027";
 import GrupoChinaCoreia2027 from "./pages/GrupoChinaCoreia2027";
+import GrupoGuiaPage from "./components/GrupoGuiaPage";
+import { GRUPOS_LOTE } from "./lib/gruposLote";
 import GrupoEscandinavia2027 from "./pages/GrupoEscandinavia2027";
 import GrupoIlhaPascoa2027 from "./pages/GrupoIlhaPascoa2027";
 import GrupoSingapuraTailandia2027 from "./pages/GrupoSingapuraTailandia2027";
@@ -208,6 +210,7 @@ const App = () => (
             <Route path="/grupos/caucaso-maio-2027" element={<GrupoCaucasoMaio2027 />} />
             <Route path="/grupos/africa-do-sul-maio-2027" element={<GrupoAfricaDoSulMaio2027 />} />
             <Route path="/grupos/china-coreia-junho-2027" element={<GrupoChinaCoreia2027 />} />
+            {GRUPOS_LOTE.map((g) => <Route key={g.slug} path={`/grupos/${g.slug}`} element={<GrupoGuiaPage g={g} />} />)}
         <Route path="/grupos/mexico-2026" element={<GrupoMexico2026 />} />
         <Route path="/grupos/africa-do-sul-reveillon-2027" element={<GrupoAfricaDoSulReveillon2027 />} />
         <Route path="/grupos/africa-do-sul-reveillon-cape-town-2027" element={<GrupoAfricaDoSulReveillonCapeTown2027 />} />
