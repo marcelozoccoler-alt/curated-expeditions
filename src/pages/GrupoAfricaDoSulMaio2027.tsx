@@ -26,7 +26,7 @@ const itinerary = [
   { day: "Dia 6 — 29/05 (sáb)", title: "Cidade do Cabo", points: ["Table Mountain, conforme condições climáticas","Company's Garden e centro histórico"] },
   { day: "Dia 7 — 30/05 (dom)", title: "Cidade do Cabo · Cabo da Boa Esperança", points: ["Reserva Natural do Cabo da Boa Esperança e Cape Point","Colônia de pinguins em Boulders Beach","Almoço livre (não incluso)"] },
   { day: "Dia 8 — 31/05 (seg)", title: "Cidade do Cabo", points: ["Dia livre","Opcional (não incluso): rota dos vinhos de Stellenbosch e Franschhoek"] },
-  { day: "Dia 9 — 01/06 (ter)", title: "Cidade do Cabo → São Paulo", points: ["Traslado ao aeroporto e conexão via Joanesburgo","Voo de retorno a Guarulhos · fim dos nossos serviços"] },
+  { day: "Dia 9 — 01/06 (ter)", title: "Cidade do Cabo → São Paulo", points: ["Traslado ao aeroporto e conexão via Joanesburgo","Voo de retorno a Guarulhos (voo a ser informado) · fim dos nossos serviços"] },
 ];
 
 const hotels = [
@@ -163,7 +163,7 @@ const GrupoAfricaDoSulMaio2027 = () => {
             <div className="bg-white/5 border border-white/10 rounded-xl p-6">
               <p className="text-xs uppercase tracking-wider text-gold mb-2">Volta</p>
               <p className="font-serif text-lg">Cidade do Cabo (CPT) → Joanesburgo (JNB) → São Paulo (GRU)</p>
-              <p className="text-white/75 text-sm mt-1">01/06 · conexão SA até Joanesburgo e voo de retorno a Guarulhos</p>
+              <p className="text-white/75 text-sm mt-1">01/06 · conexão SA até Joanesburgo e voo de retorno a Guarulhos (a ser informado)</p>
             </div>
           </div>
         </div>

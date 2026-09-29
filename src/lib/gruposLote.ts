@@ -111,7 +111,7 @@ const japaoItin = (d: string[], kaiseki: boolean): [string, string, string[]][] 
   [d[9], "Hakone → Tóquio", ["Minicruzeiro pelo Lago Ashi e Santuário de Hakone", "Teleférico sobre o vale vulcânico de Owakudani"]],
   [d[10], "Tóquio", ["Templo Senso-ji, Rua Nakamise e Santuário Meiji Jingu", "Cruzamento de Shibuya, Harajuku e Omotesando"]],
   [d[11], "Tóquio", ["Dia livre para bairros e compras (refeições não inclusas)"]],
-  [d[12], "Tóquio → Dubai", ["Traslado ao aeroporto e voo Emirates"]],
+  [d[12], "Tóquio → Dubai", ["Traslado ao aeroporto e voo Emirates (horário a ser informado)"]],
   [d[13], "Dubai → São Paulo", ["Chegada a Guarulhos · fim dos nossos serviços"]],
 ];
 const japaoHotels = [
@@ -149,7 +149,7 @@ const suicaItin = (d: string[]): [string, string, string[]][] => [
   [d[8], "Santa Margherita, Rapallo e Portofino", ["Riviera da Ligúria"]],
   [d[9], "Cinque Terre", ["Vilarejos coloridos de Cinque Terre"]],
   [d[10], "Gênova → Milão", ["Vinícola em Gavi-Piemonte", "Galeria Vittorio Emanuele, Scala e Duomo"]],
-  [d[11], "Milão → Lisboa → São Paulo", ["Traslado ao aeroporto de Malpensa e voos TAP"]],
+  [d[11], "Milão → Lisboa → São Paulo", ["Traslado ao aeroporto de Malpensa e voos TAP (horários a serem informados)"]],
   [d[12], "São Paulo", ["Chegada a Guarulhos · fim dos nossos serviços"]],
 ];
 const suicaInc = [
@@ -291,7 +291,7 @@ export const GRUPOS_LOTE: GrupoLote[] = [
     dates: "14 a 27 de maio de 2027", short: "14/05 a 27/05/2027", tag: "14 a 27/05/2027 · 14 dias · Lua cheia", air: "Emirates",
     cur: "USD", sym: "US$", prices: [["7.278", "196"], ["7.298", "197"], ["8.697", "241"]], tax: "USD 716", countries: ["Japão"],
     kw: "Japão maio 2027, viagem em grupo Japão, Japão com guia brasileiro, Kyoto, Takayama, Hakone, ryokan",
-    flights: [["São Paulo (GRU) → Dubai → Osaka (KIX)", "15/05 · EK 262 à 01h35, chegada a Osaka em 16/05"], ["Tóquio → Dubai → São Paulo (GRU)", "26/05 · Emirates, chegada em 27/05"]],
+    flights: [["São Paulo (GRU) → Dubai → Osaka (KIX)", "15/05 · EK 262 à 01h35, chegada a Osaka em 16/05"], ["Tóquio → Dubai → São Paulo (GRU)", "26/05 · Emirates (voos a serem informados), chegada em 27/05"]],
     itin: japaoItin(["14/05 (sex)", "15/05 (sáb)", "16/05 (dom)", "17/05 (seg)", "18/05 (ter)", "19/05 (qua)", "20/05 (qui)", "21/05 (sex)", "22/05 (sáb)", "23/05 (dom)", "24/05 (seg)", "25/05 (ter)", "26/05 (qua)", "27/05 (qui)"], true),
     hotels: japaoHotels, inc: japaoInc("6 almoços e 2 jantares (sem bebidas)"), not: baseNot("USD 716"), faq: japaoFaq,
   },
@@ -304,7 +304,7 @@ export const GRUPOS_LOTE: GrupoLote[] = [
     dates: "27 de maio a 09 de junho de 2027", short: "27/05 a 09/06/2027", tag: "27/05 a 09/06/2027 · 14 dias", air: "Emirates",
     cur: "USD", sym: "US$", prices: [["7.365", "199"], ["7.398", "200"], ["8.750", "242"]], tax: "USD 716", countries: ["Japão"],
     kw: "Japão junho 2027, viagem em grupo Japão, Japão com guia brasileiro, Kyoto, Takayama, Hakone, ryokan",
-    flights: [["São Paulo (GRU) → Dubai → Osaka (KIX)", "28/05 · EK 262 à 01h35, chegada a Osaka em 29/05"], ["Tóquio → Dubai → São Paulo (GRU)", "08/06 · Emirates, chegada em 09/06"]],
+    flights: [["São Paulo (GRU) → Dubai → Osaka (KIX)", "28/05 · EK 262 à 01h35, chegada a Osaka em 29/05"], ["Tóquio → Dubai → São Paulo (GRU)", "08/06 · Emirates (voos a serem informados), chegada em 09/06"]],
     itin: japaoItin(["27/05 (qui)", "28/05 (sex)", "29/05 (sáb)", "30/05 (dom)", "31/05 (seg)", "01/06 (ter)", "02/06 (qua)", "03/06 (qui)", "04/06 (sex)", "05/06 (sáb)", "06/06 (dom)", "07/06 (seg)", "08/06 (ter)", "09/06 (qua)"], false),
     hotels: japaoHotels, inc: japaoInc("6 almoços e 1 jantar (sem bebidas)"), not: baseNot("USD 716"), faq: japaoFaq,
   },
@@ -316,7 +316,7 @@ export const GRUPOS_LOTE: GrupoLote[] = [
     desc: "Monte Titlis, Glacier Express, St. Moritz, Lago de Como, Portofino e Cinque Terre. Voos TAP e guia desde o Brasil.",
     dates: "26 de maio a 07 de junho de 2027", short: "26/05 a 07/06/2027", tag: "26/05 a 07/06/2027 · 13 dias", air: "TAP Air Portugal",
     cur: "EUR", sym: "€", prices: [["6.530", "180"], ["6.570", "181"], ["8.060", "228"]], tax: "EUR 191", countries: ["Suíça", "Itália"], kw: suicaKw,
-    flights: [["São Paulo (GRU) → Lisboa → Zurique", "26/05 · TP 82 às 15h30 e TP 932 às 13h25, chegada em 27/05 às 17h15"], ["Milão → Lisboa → São Paulo (GRU)", "06/06 · TAP, chegada em 07/06"]],
+    flights: [["São Paulo (GRU) → Lisboa → Zurique", "26/05 · TP 82 às 15h30 e TP 932 às 13h25, chegada em 27/05 às 17h15"], ["Milão → Lisboa → São Paulo (GRU)", "06/06 · TAP (voos a serem informados), chegada em 07/06"]],
     itin: suicaItin(["26/05 (qua)", "27/05 (qui)", "28/05 (sex)", "29/05 (sáb)", "30/05 (dom)", "31/05 (seg)", "01/06 (ter)", "02/06 (qua)", "03/06 (qui)", "04/06 (sex)", "05/06 (sáb)", "06/06 (dom)", "07/06 (seg)"]),
     hotels: [
       { city: "Zurique", hotel: "Crowne Plaza Zurich" },
@@ -336,7 +336,7 @@ export const GRUPOS_LOTE: GrupoLote[] = [
     desc: "Monte Titlis, Glacier Express, St. Moritz, Lago de Como, Portofino e Cinque Terre no início do verão. Voos TAP e guia desde o Brasil.",
     dates: "02 a 14 de junho de 2027", short: "02/06 a 14/06/2027", tag: "02 a 14/06/2027 · 13 dias", air: "TAP Air Portugal",
     cur: "EUR", sym: "€", prices: [["6.530", "180"], ["6.570", "181"], ["8.060", "228"]], tax: "EUR 191", countries: ["Suíça", "Itália"], kw: suicaKw,
-    flights: [["São Paulo (GRU) → Lisboa → Zurique", "02/06 · TP 82 às 15h30, conexão para Zurique em 03/06"], ["Milão → Lisboa → São Paulo (GRU)", "13/06 · TAP, chegada em 14/06"]],
+    flights: [["São Paulo (GRU) → Lisboa → Zurique", "02/06 · TP 82 às 15h30, conexão para Zurique em 03/06 (voo de conexão a ser informado)"], ["Milão → Lisboa → São Paulo (GRU)", "13/06 · TAP (voos a serem informados), chegada em 14/06"]],
     itin: suicaItin(["02/06 (qua)", "03/06 (qui)", "04/06 (sex)", "05/06 (sáb)", "06/06 (dom)", "07/06 (seg)", "08/06 (ter)", "09/06 (qua)", "10/06 (qui)", "11/06 (sex)", "12/06 (sáb)", "13/06 (dom)", "14/06 (seg)"]),
     hotels: [
       { city: "Zurique", hotel: "Crowne Plaza Zurich" },
