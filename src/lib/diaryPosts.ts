@@ -2601,7 +2601,7 @@ const corePosts: DiaryPost[] = [
       },
       {
         q: "É muito difícil logisticamente?",
-        a: "Sem curadoria, é praticamente impossível para brasileiros — quase ninguém fala inglês, aplicativos são bloqueados (Google, WhatsApp), motoristas e guesthouses só aceitam WeChat Pay e Alipay. Com guia da Create Travel em cada trecho e traslados privativos, é confortável.",
+        a: "Sem curadoria, é praticamente impossível para brasileiros — quase ninguém fala inglês, aplicativos são bloqueados (Google, WhatsApp), motoristas e guesthouses só aceitam WeChat Pay e Alipay. Com guia local em cada trecho e traslados privativos, é confortável.",
       },
       {
         q: "Tem hospedagem boa?",
@@ -2790,7 +2790,7 @@ const corePosts: DiaryPost[] = [
       },
       {
         q: "É difícil sem falar japonês/coreano?",
-        a: "Tokyo, Kyoto, Osaka e Seul têm sinalização em inglês razoável. Fora dos eixos turísticos, praticamente ninguém fala inglês em nenhum dos dois. Com guia da Create Travel em cada trecho, deixa de ser problema.",
+        a: "Tokyo, Kyoto, Osaka e Seul têm sinalização em inglês razoável. Fora dos eixos turísticos, praticamente ninguém fala inglês em nenhum dos dois. Com guia local em cada trecho, deixa de ser problema.",
       },
       {
         q: "JR Pass ainda vale a pena?",

@@ -182,7 +182,7 @@ const faqs = [
   },
   {
     q: "Qual o tamanho do grupo?",
-    a: "Grupo organizado pela Create Travel com guia acompanhante desde São Paulo. Vagas limitadas — recomenda-se reserva antecipada.",
+    a: "Grupo com guia acompanhante desde São Paulo. Vagas limitadas — recomenda-se reserva antecipada.",
   },
 ];
 

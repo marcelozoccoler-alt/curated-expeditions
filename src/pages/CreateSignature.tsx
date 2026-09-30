@@ -25,7 +25,7 @@ const pillars = [
   {
     icon: Languages,
     title: "Cuidado desde Guarulhos",
-    text: "Assistência da Create Travel no aeroporto, guia brasileiro durante a jornada e suporte da nossa equipe no Brasil.",
+    text: "Assistência no aeroporto, guia brasileiro durante a jornada e suporte da nossa equipe no Brasil.",
   },
 ];
 

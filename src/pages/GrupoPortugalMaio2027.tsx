@@ -27,7 +27,7 @@ const benefits = [
 ];
 
 const itinerary = [
-  { day: "Dia 1 — 24/05 (seg)", title: "São Paulo → Lisboa", points: ["Apresentação em Guarulhos e encontro com nosso representante", "Procedimentos de embarque", "Pernoite a bordo"] },
+  { day: "Dia 1 — 24/05 (seg)", title: "São Paulo → Lisboa", points: ["Apresentação em Guarulhos e encontro com o representante", "Procedimentos de embarque", "Pernoite a bordo"] },
   { day: "Dia 2 — 25/05 (ter)", title: "Lisboa → Porto", points: ["Voo TAP 84 às 00h45, chegada a Lisboa às 14h35", "Conexão TP 1932 às 18h, chegada ao Porto às 19h", "Traslado ao hotel"] },
   { day: "Dia 3 — 26/05 (qua)", title: "Porto · Aveiro", points: ["Avenida dos Aliados, estátua de D. Pedro IV e estação de São Bento", "Rua das Flores, cais da Ribeira e Ponte Luís I", "À tarde, Aveiro e passeio em moliceiro, com prova de ovos moles e espumante"] },
   { day: "Dia 4 — 27/05 (qui)", title: "Porto · Braga · Régua → Lamego", points: ["Braga e o Bom Jesus do Monte, com subida no bondinho movido a água", "Tempo livre para almoço (não incluso)", "Douro Vinhateiro e Peso da Régua", "Quinta produtora com degustação de vinho do Porto · hospedagem em Lamego"] },

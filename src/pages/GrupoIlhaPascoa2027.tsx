@@ -27,7 +27,7 @@ const benefits = [
 ];
 
 const itinerary = [
-  { day: "Dia 1 — 18/05 (ter)", title: "São Paulo → Santiago", points: ["Apresentação em Guarulhos e encontro com nosso representante", "Voo LATAM com destino a Santiago", "Recepção e traslado ao hotel"] },
+  { day: "Dia 1 — 18/05 (ter)", title: "São Paulo → Santiago", points: ["Apresentação em Guarulhos e encontro com o representante", "Voo LATAM com destino a Santiago", "Recepção e traslado ao hotel"] },
   { day: "Dia 2 — 19/05 (qua)", title: "Santiago · city tour e vinícola", points: ["Visita à cidade: La Moneda, Praça das Armas, Catedral, Cerro Santa Lucía e os bairros de Providência e Las Condes", "Almoço livre (não incluso)", "Tarde em vinícola do Vale do Maipo, com visita às adegas e degustação"] },
   { day: "Dia 3 — 20/05 (qui)", title: "Santiago → Ilha de Páscoa", points: ["Traslado ao aeroporto e voo de cerca de 5h30 sobre o Pacífico", "Recepção em Mataveri com colar de flores e traslado ao hotel em Hanga Roa", "Restante do dia livre para caminhar pela orla e pelo porto"] },
   { day: "Dia 4 — 21/05 (sex)", title: "Rano Raraku e Ahu Tongariki", points: ["Visita à pedreira de Rano Raraku, onde os moais foram esculpidos", "Ahu Tongariki, a maior plataforma cerimonial da ilha, com 15 moais alinhados", "Praia de Anakena, de areia branca e coqueiros · almoço livre (não incluso)"] },

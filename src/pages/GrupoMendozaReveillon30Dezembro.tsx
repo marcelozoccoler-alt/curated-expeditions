@@ -27,7 +27,7 @@ const benefits = [
 ];
 
 const itinerary = [
-  { day: "Dia 1 — 30/12 (qua)", title: "São Paulo → Mendoza", points: ["Apresentação em Guarulhos e encontro com nosso representante", "Voo LATAM 8168 às 12h15, chegada a Mendoza às 16h15", "Recepção e traslado ao hotel", "Restante do dia livre"] },
+  { day: "Dia 1 — 30/12 (qua)", title: "São Paulo → Mendoza", points: ["Apresentação em Guarulhos e encontro com o representante", "Voo LATAM 8168 às 12h15, chegada a Mendoza às 16h15", "Recepção e traslado ao hotel", "Restante do dia livre"] },
   { day: "Dia 2 — 31/12 (qui)", title: "Santa Julia · Réveillon", points: ["Visita à Bodega Santa Julia, referência em vinhos orgânicos", "Aula de culinária de empanadas argentinas", "Almoço incluído harmonizado com vinhos da casa", "À noite, Ahijuna Show Folclórico com jantar festivo e programação de Réveillon incluídos"] },
   { day: "Dia 3 — 01/01 (sex)", title: "Mendoza · city tour", points: ["Manhã livre para descanso", "City tour à tarde: fundação da cidade, Praça da Independência e rua Emilio Civit", "Parque General San Martín e Cerro de la Gloria", "Estádio Malvinas Argentinas e anfiteatro Frank Romero Day"] },
   { day: "Dia 4 — 02/01 (sáb)", title: "Alta Montanha e Aconcágua", points: ["Rota Nacional 7 acompanhando o rio Mendoza", "Represa Potrerillos, Uspallata, Ponte do Inca e mirante do Cerro Aconcágua", "Almoço crioulo incluído no restaurante Valle Andino", "Retorno ao hotel"] },

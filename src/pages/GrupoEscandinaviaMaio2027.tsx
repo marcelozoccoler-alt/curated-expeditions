@@ -27,7 +27,7 @@ const benefits = [
 ];
 
 const itinerary = [
-  { day: "Dia 1 — 24/05 (seg)", title: "São Paulo → Lisboa", points: ["Apresentação em Guarulhos e encontro com nosso representante", "Voo TAP 82 às 15h30", "Pernoite a bordo"] },
+  { day: "Dia 1 — 24/05 (seg)", title: "São Paulo → Lisboa", points: ["Apresentação em Guarulhos e encontro com o representante", "Voo TAP 82 às 15h30", "Pernoite a bordo"] },
   { day: "Dia 2 — 25/05 (ter)", title: "Lisboa → Copenhague", points: ["Chegada às 05h35 e conexão", "Voo TAP 754 às 12h10, chegada a Copenhague às 16h50", "Traslado ao hotel"] },
   { day: "Dia 3 — 26/05 (qua)", title: "Copenhague", points: ["Visita panorâmica: Amalienborg, canais de Nyhavn, Palácio de Christiansborg, Palácio da Bolsa e a Pequena Sereia", "Tarde livre na Strøget e nos museus da cidade", "Opcional (não incluso): Palácio de Frederiksborg"] },
   { day: "Dia 4 — 27/05 (qui)", title: "Copenhague → Oslo (ferry noturno)", points: ["Manhã livre ou opcional (não incluso) ao Palácio de Frederiksborg", "Traslado ao porto e embarque no cruzeiro noturno Go Nordic", "Prepare uma bolsa de mão: as bagagens ficam indisponíveis durante a travessia", "Jantar com uma bebida incluído e acomodação em cabine"] },

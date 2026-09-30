@@ -27,7 +27,7 @@ const benefits = [
 ];
 
 const itinerary = [
-  { day: "Dia 1 — 19/05 (qua)", title: "São Paulo → Amsterdã", points: ["Apresentação em Guarulhos e encontro com nosso representante", "Voo KLM KL 792 às 21h45", "Pernoite a bordo"] },
+  { day: "Dia 1 — 19/05 (qua)", title: "São Paulo → Amsterdã", points: ["Apresentação em Guarulhos e encontro com o representante", "Voo KLM KL 792 às 21h45", "Pernoite a bordo"] },
   { day: "Dia 2 — 20/05 (qui)", title: "Amsterdã → Varsóvia", points: ["Chegada às 14h20 e conexão", "Voo KL 1317 às 17h, chegada a Varsóvia às 18h55", "Traslado ao hotel"] },
   { day: "Dia 3 — 21/05 (sex)", title: "Varsóvia", points: ["Cidade Velha reconstruída e Castelo Real", "Museu de História dos Judeus Poloneses", "Panorâmica pelo Palácio da Cultura e da Ciência", "Tempo livre no bairro de Praga"] },
   { day: "Dia 4 — 22/05 (sáb)", title: "Varsóvia", points: ["Parque Łazienki, com o monumento a Chopin", "Área das embaixadas, Monumento aos Mártires da II Guerra e Praça Kamkowy", "Tarde livre"] },

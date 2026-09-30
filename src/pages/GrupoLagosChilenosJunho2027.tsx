@@ -27,7 +27,7 @@ const benefits = [
 ];
 
 const itinerary = [
-  { day: "Dia 1 — 23/06 (qua)", title: "São Paulo → Santiago", points: ["Apresentação em Guarulhos e encontro com nosso representante", "Voo LATAM 753 às 17h50, chegada a Santiago às 21h10", "Recepção e traslado ao hotel"] },
+  { day: "Dia 1 — 23/06 (qua)", title: "São Paulo → Santiago", points: ["Apresentação em Guarulhos e encontro com o representante", "Voo LATAM 753 às 17h50, chegada a Santiago às 21h10", "Recepção e traslado ao hotel"] },
   { day: "Dia 2 — 24/06 (qui)", title: "Santiago · Vinícola Undurraga", points: ["City tour: La Moneda, Praça das Armas, Catedral, Correio Central, Clube Hípico e Cerro Santa Lucía", "Bairros de Providência, Vitacura e Las Condes, com parada em loja de lápis-lazúli", "Almoço livre (não incluso)", "Tarde na Vinícola Undurraga, em Talagante, com visita às adegas e degustação"] },
   { day: "Dia 3 — 25/06 (sex)", title: "Santiago", points: ["Dia livre", "Opcional (não incluso): Valparaíso e Viña del Mar, com Plaza Sotomayor, funicular, Parque Quinta Vergara e almoço à beira-mar"] },
   { day: "Dia 4 — 26/06 (sáb)", title: "Santiago → Puerto Montt → Puerto Varas", points: ["Apartamentos disponíveis até às 11h e traslado ao aeroporto", "Voo LATAM 311 às 12h47, chegada a Puerto Montt às 14h33", "Traslado ao hotel em Puerto Varas, com apartamentos disponíveis após às 16h"] },

@@ -64,7 +64,7 @@ export const brGroupFacts: GeoFact[] = [
 
 export const brGroupFaqs: FAQ[] = [
   {
-    q: "O que é uma viagem em grupo com guia brasileiro da Create Travel?",
+    q: "O que é uma viagem em grupo com guia brasileiro?",
     a: `É um circuito de curadoria autoral em que um coordenador brasileiro embarca com o grupo em Guarulhos e permanece até o retorno — recepção no aeroporto, briefings diários, apoio em conexões, traslados e imprevistos. Os grupos reúnem de 15 a 20 viajantes, com hotéis selecionados e guias locais em cada trecho. Hoje há ${DEPARTURES.length} saídas confirmadas para ${brGroupYears.join(" e ")}.`,
   },
   {

@@ -32,7 +32,7 @@ const benefits = [
   },
   {
     title: "Guia acompanhante desde o Brasil",
-    desc: "Embarque em Guarulhos com a equipe Create Travel e siga acompanhado em português do início ao fim da viagem.",
+    desc: "Embarque em Guarulhos com o guia do grupo e siga acompanhado em português do início ao fim da viagem.",
   },
   {
     title: "Voos Emirates com conexão em Dubai",
@@ -237,7 +237,7 @@ const faqs = [
   },
   {
     q: "Qual o tamanho do grupo?",
-    a: "Grupo organizado pela Create Travel com guia acompanhante desde São Paulo. Vagas limitadas — recomenda-se reserva antecipada.",
+    a: "Grupo com guia acompanhante desde São Paulo. Vagas limitadas — recomenda-se reserva antecipada.",
   },
 ];
 

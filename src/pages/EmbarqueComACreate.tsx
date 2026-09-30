@@ -934,7 +934,7 @@ const HOW = [
 const FAQS = [
   {
     q: "O que significa 'grupo com guia desde o Brasil'?",
-    a: "Significa que um guia acompanhante da Create Travel embarca com o grupo no Brasil (geralmente em Guarulhos) e segue com vocês durante toda a viagem — voos, conexões, traslados, passeios e retorno. Você nunca está sozinho.",
+    a: "Significa que um guia acompanhante embarca com o grupo no Brasil (geralmente em Guarulhos) e segue com vocês durante toda a viagem — voos, conexões, traslados, passeios e retorno. Você nunca está sozinho.",
   },
   {
     q: "Qual o perfil dos viajantes nessas saídas?",
