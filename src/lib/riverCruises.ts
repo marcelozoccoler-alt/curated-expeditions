@@ -71,7 +71,7 @@ export const riverCruises: RiverCruise[] = [
     ],
     faq: [
       { q: "Qual o melhor sentido de navegação?", a: "Budapeste → Vilshofen tende a ter navegação diurna mais bonita no Wachau, mas ambos os sentidos cobrem os mesmos portos. Escolhemos conforme suas conexões aéreas." },
-      { q: "Preciso saber inglês?", a: "Não. As excursões têm áudio-guia individual e a Create Travel acompanha o grupo brasileiro quando há mínimo de participantes." },
+      { q: "Preciso saber inglês?", a: "Não. As excursões têm áudio-guia individual e há acompanhamento em português para o grupo brasileiro quando há mínimo de participantes." },
       { q: "Dá para combinar com pré e pós-cruzeiro?", a: "Sim — montamos extensões em Praga, Munique, Viena ou nos Alpes austríacos, com hotéis e traslados privativos." },
     ],
     metaTitle: "Cruzeiro AmaWaterways no Danúbio — Budapeste a Vilshofen",

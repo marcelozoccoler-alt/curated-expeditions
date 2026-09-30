@@ -27,7 +27,7 @@ const benefits = [
 ];
 
 const itinerary = [
-  { day: "Dia 1 — 03/02 (qua)", title: "São Paulo → Madri", points: ["Apresentação em Guarulhos e encontro com nosso representante", "Voo Iberia 268 às 15h10", "Pernoite a bordo"] },
+  { day: "Dia 1 — 03/02 (qua)", title: "São Paulo → Madri", points: ["Apresentação em Guarulhos e encontro com o representante", "Voo Iberia 268 às 15h10", "Pernoite a bordo"] },
   { day: "Dia 2 — 04/02 (qui)", title: "Madri → Milão", points: ["Chegada às 05h30 e conexão", "Voo Iberia 673 às 11h25, chegada a Milão às 13h40", "Traslado ao hotel · apartamentos disponíveis a partir das 16h"] },
   { day: "Dia 3 — 05/02 (sex)", title: "Milão", points: ["Panorâmica de cerca de 3 horas: Duomo, Galleria Vittorio Emanuele II, Teatro alla Scala e Castello Sforzesco", "Tarde livre"] },
   { day: "Dia 4 — 06/02 (sáb)", title: "Milão · Tirano · St. Moritz → Chur", points: ["Viagem até Tirano, na Lombardia", "Almoço incluído em restaurante local", "Bernina Express: Viaduto de Landwasser e o ponto mais alto da linha", "Passagem por St. Moritz e chegada a Chur"] },

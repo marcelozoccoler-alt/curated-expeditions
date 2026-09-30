@@ -28,7 +28,7 @@ const whatsappParams = {
 const benefits = [
   {
     title: "Guia acompanhante desde o Brasil",
-    desc: "Embarque em Guarulhos com a equipe Create Travel e siga acompanhado até o retorno.",
+    desc: "Embarque em Guarulhos com o guia do grupo e siga acompanhado até o retorno.",
   },
   {
     title: "Galápagos: Patrimônio Natural da UNESCO",
@@ -202,7 +202,7 @@ const faqs = [
   },
   {
     q: "Qual o tamanho do grupo?",
-    a: "Grupo organizado pela Create Travel com guia acompanhante desde São Paulo. Vagas limitadas — recomenda-se reserva antecipada.",
+    a: "Grupo com guia acompanhante desde São Paulo. Vagas limitadas — recomenda-se reserva antecipada.",
   },
 ];
 

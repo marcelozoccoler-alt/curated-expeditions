@@ -27,7 +27,7 @@ const benefits = [
 ];
 
 const itinerary = [
-  { day: "Dia 1 — 29/05 (sáb)", title: "São Paulo → Istambul", points: ["Apresentação em Guarulhos e encontro com nosso representante", "Voo Turkish TK 216 às 16h35", "Pernoite a bordo"] },
+  { day: "Dia 1 — 29/05 (sáb)", title: "São Paulo → Istambul", points: ["Apresentação em Guarulhos e encontro com o representante", "Voo Turkish TK 216 às 16h35", "Pernoite a bordo"] },
   { day: "Dia 2 — 30/05 (dom)", title: "Istambul → Helsinque", points: ["Chegada às 11h15 e conexão", "Voo TK 1763 às 15h05, chegada a Helsinque às 18h40", "Traslado ao hotel"] },
   { day: "Dia 3 — 31/05 (seg)", title: "Helsinque", points: ["Praça do Senado, Palácio Presidencial, Câmara Municipal, Parlamento e Ópera Nacional", "Monumento a Sibelius e igreja Temppeliaukio, esculpida na rocha", "Tarde livre"] },
   { day: "Dia 4 — 01/06 (ter)", title: "Helsinque → Tallinn", points: ["Traslado privativo ao porto", "Ferry pelo Golfo da Finlândia, cerca de 2h a 2h30 de travessia", "Traslado privativo ao hotel e check-in"] },

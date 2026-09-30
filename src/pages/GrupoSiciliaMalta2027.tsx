@@ -27,7 +27,7 @@ const benefits = [
 ];
 
 const itinerary = [
-  { day: "Dia 1 — 24/04 (sáb)", title: "São Paulo → Roma", points: ["Apresentação em Guarulhos e encontro com nosso representante", "Voo ITA AZ 679 às 18h55", "Pernoite a bordo"] },
+  { day: "Dia 1 — 24/04 (sáb)", title: "São Paulo → Roma", points: ["Apresentação em Guarulhos e encontro com o representante", "Voo ITA AZ 679 às 18h55", "Pernoite a bordo"] },
   { day: "Dia 2 — 25/04 (dom)", title: "Roma → Malta", points: ["Chegada a Roma às 11h30 e conexão", "Voo AZ 884 às 17h, chegada a Malta às 18h25", "Recepção e traslado ao hotel"] },
   { day: "Dia 3 — 26/04 (seg)", title: "Malta · Valletta e Três Cidades", points: ["Jardins Upper Barrakka, Rua da República e Praça de São Jorge", "Co-catedral de São João, com as obras-primas de Caravaggio, e espetáculo audiovisual", "Almoço incluído (sem bebidas)", "Cospicua, Vittoriosa e Senglea, com passeio em embarcação tradicional dghajsa e Jardins Gardjola"] },
   { day: "Dia 4 — 27/04 (ter)", title: "Malta · Ilha de Gozo", points: ["Travessia de ferry e visita a Victoria, com sua Cidadela histórica", "Baía de Xlendi e as formações rochosas de Dwejra", "Tarde livre"] },

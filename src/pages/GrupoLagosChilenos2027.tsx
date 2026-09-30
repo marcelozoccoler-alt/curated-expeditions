@@ -32,7 +32,7 @@ const benefits = [
   },
   {
     title: "Guia acompanhante desde o Brasil",
-    desc: "Você embarca em Guarulhos com a equipe Create Travel e segue acompanhado até o retorno ao Brasil.",
+    desc: "Você embarca em Guarulhos com o guia do grupo e segue acompanhado até o retorno ao Brasil.",
   },
   {
     title: "Voos LATAM Airlines",
@@ -186,7 +186,7 @@ const faqs = [
   },
   {
     q: "Qual o tamanho do grupo?",
-    a: "Grupo organizado pela Create Travel com guia acompanhante desde São Paulo. Vagas limitadas — recomenda-se reserva antecipada.",
+    a: "Grupo com guia acompanhante desde São Paulo. Vagas limitadas — recomenda-se reserva antecipada.",
   },
 ];
 

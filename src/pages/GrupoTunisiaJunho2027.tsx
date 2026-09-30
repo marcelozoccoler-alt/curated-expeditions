@@ -27,7 +27,7 @@ const benefits = [
 ];
 
 const itinerary = [
-  { day: "Dia 1 — 05/06 (sáb)", title: "São Paulo → Roma", points: ["Apresentação em Guarulhos para encontro com nosso representante", "Voo ITA 675 às 14h15 · pernoite a bordo"] },
+  { day: "Dia 1 — 05/06 (sáb)", title: "São Paulo → Roma", points: ["Apresentação em Guarulhos para encontro com o representante", "Voo ITA 675 às 14h15 · pernoite a bordo"] },
   { day: "Dia 2 — 06/06 (dom)", title: "Roma → Túnis", points: ["Chegada a Roma às 06h50 e conexão para o voo ITA 864 às 09h15", "Chegada a Túnis às 09h35 e traslado ao hotel", "Apartamentos disponíveis a partir das 16h · restante do dia livre"] },
   { day: "Dia 3 — 07/06 (seg)", title: "Túnis · Dougga · Rota do Azeite · Testour", points: ["Dougga, as mais importantes ruínas romanas da África — Patrimônio Mundial da UNESCO", "Degustação do azeite Triomphe de Thuccabor", "Almoço na rota (incluído)", "Testour, fundada no século XVII, e visita externa à grande mesquita hispano-mourisca", "Regresso a Túnis no fim da tarde"] },
   { day: "Dia 4 — 08/06 (ter)", title: "Túnis · Medina · Cartago · Sidi Bou Said", points: ["Medina de Túnis, seus souks e mesquitas centenárias", "Sítio arqueológico de Cartago, Termas de Antonino e anfiteatro", "Almoço incluído", "Sidi Bou Said, a vila branca e azul sobre o Mediterrâneo"] },

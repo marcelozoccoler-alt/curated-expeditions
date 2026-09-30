@@ -25,11 +25,11 @@ const experiences = [
   { title: "A vida no Ártico", text: "A cultura Sami, as renas e os huskies revelam uma relação ancestral entre pessoas, animais, neve e sobrevivência." },
   { title: "Aventura com estrutura", text: "Snowmobile, pesca no gelo, teleférico e roupas térmicas previstas para viver o inverno com orientação e conforto." },
   { title: "Duas capitais nórdicas", text: "Helsinque abre a jornada com arquitetura e design; Oslo encerra o percurso entre história polar, arte e natureza urbana." },
-  { title: "Cuidado desde o Brasil", text: "Assistência da Create Travel no aeroporto de Guarulhos, guia brasileiro durante a jornada e suporte da nossa equipe no Brasil." },
+  { title: "Cuidado desde o Brasil", text: "Assistência no aeroporto de Guarulhos, guia brasileiro durante a jornada e suporte da nossa equipe no Brasil." },
 ];
 
 const itinerary = [
-  { day: "Dia 1 · 25/03", title: "São Paulo → Helsinque", text: "Assistência da Create Travel no aeroporto de Guarulhos e embarque rumo à Finlândia, com conexão europeia e acompanhamento brasileiro." },
+  { day: "Dia 1 · 25/03", title: "São Paulo → Helsinque", text: "Assistência no aeroporto de Guarulhos e embarque rumo à Finlândia, com conexão europeia e acompanhamento brasileiro." },
   { day: "Dia 2 · 26/03", title: "Chegada a Helsinque", text: "Recepção, traslado ao hotel previsto e tempo para descansar ou iniciar, sem pressa, o primeiro contato com a capital finlandesa." },
   { day: "Dia 3 · 27/03", title: "Helsinque por dentro", text: "Praça do Senado, catedral, Parque Esplanadi, monumento a Sibelius, Igreja da Rocha e a Biblioteca Central Oodi formam um retrato da cidade entre tradição e design." },
   { day: "Dia 4 · 28/03", title: "Helsinque → Rovaniemi", text: "Voo à Lapônia finlandesa. O Museu Arktikum apresenta a natureza do norte e a história dos povos árticos antes da acomodação em Rovaniemi." },
@@ -57,7 +57,7 @@ const included = [
   "10 noites em hotéis previstos de categoria primeira superior e primeira, ou similares, com café da manhã",
   "Quatro refeições ao longo do roteiro, conforme programação final",
   "Guia acompanhante brasileiro e guias locais em português ou espanhol nas visitas previstas",
-  "Assistência da Create Travel no aeroporto de Guarulhos e suporte da equipe no Brasil",
+  "Assistência no aeroporto de Guarulhos e suporte da equipe no Brasil",
   "Traslados, visitas e entradas descritos no roteiro",
   "Quebra-gelo, snowmobile, pesca no gelo, trenós com renas e huskies e duas buscas pela aurora",
   "Roupas especiais de inverno durante o período previsto na Lapônia",

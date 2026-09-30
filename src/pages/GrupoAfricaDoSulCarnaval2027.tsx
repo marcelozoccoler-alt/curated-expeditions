@@ -27,7 +27,7 @@ const benefits = [
 ];
 
 const itinerary = [
-  { day: "Dia 1 — 04/02 (qui)", title: "São Paulo → Joanesburgo", points: ["Apresentação em Guarulhos e encontro com nosso representante", "Voo SA 223 às 17h45", "Pernoite a bordo"] },
+  { day: "Dia 1 — 04/02 (qui)", title: "São Paulo → Joanesburgo", points: ["Apresentação em Guarulhos e encontro com o representante", "Voo SA 223 às 17h45", "Pernoite a bordo"] },
   { day: "Dia 2 — 05/02 (sex)", title: "Joanesburgo · Soweto", points: ["Chegada às 07h45, recepção e traslado ao hotel", "Apartamentos já disponíveis · manhã livre para descanso", "À tarde, visita a Joanesburgo com Soweto"] },
   { day: "Dia 3 — 06/02 (sáb)", title: "Joanesburgo · Museu do Apartheid", points: ["Visita de meio dia ao Museu do Apartheid", "Retorno ao hotel e tarde livre"] },
   { day: "Dia 4 — 07/02 (dom)", title: "Joanesburgo → Parque Nacional Kruger", points: ["Viagem pela província de Mpumalanga até o Shishangeni Lodge", "Almoço em rota incluído", "Chegada ao lodge, em concessão privada do Kruger", "Jantar incluído"] },
