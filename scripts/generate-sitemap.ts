@@ -134,6 +134,8 @@ const GRUPOS = [
   "coreia-do-sul-maio-2027",
   "salta-jujuy-carnaval-2027",
   "turquia-grecia-maio-2027",
+  "egito-jordania-maio-2027",
+  "escandinavia-julho-2027",
   "africa-do-sul-2026",
   "africa-do-sul-outubro-2026",
   "africa-do-sul-primavera-2026",

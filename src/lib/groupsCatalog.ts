@@ -80,6 +80,8 @@ export const BRAZILIAN_GROUP_COUNTRIES: Record<string, string[]> = {
   "/grupos/coreia-do-sul-maio-2027": ["Coreia do Sul"],
   "/grupos/salta-jujuy-carnaval-2027": ["Argentina"],
   "/grupos/turquia-grecia-maio-2027": ["Turquia", "Grécia"],
+  "/grupos/egito-jordania-maio-2027": ["Egito", "Jordânia"],
+  "/grupos/escandinavia-julho-2027": ["Dinamarca", "Noruega", "Suécia"],
   "/grupos/turquia-2026": ["Turquia"],
   "/grupos/turquia-reveillon-2027": ["Turquia"],
   "/grupos/vietna-laos-camboja-2027": ["Vietnã", "Laos", "Camboja"],
