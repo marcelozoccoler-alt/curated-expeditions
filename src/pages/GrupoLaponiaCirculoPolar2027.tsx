@@ -155,7 +155,7 @@ const GrupoLaponiaCirculoPolar2027 = () => (
           {[
             { icon: Calendar, label: "Data", value: "25/03 a 06/04/2027" },
             { icon: Compass, label: "Duração", value: "13 dias · 10 noites" },
-            { icon: Users, label: "Assistência", value: "Create Travel em Guarulhos" },
+            { icon: Users, label: "Assistência", value: "No aeroporto de Guarulhos" },
             { icon: Plane, label: "Rota", value: "Finlândia e Noruega" },
           ].map(({ icon: Icon, label, value }) => (
             <div key={label} className="flex items-start gap-3"><Icon className="text-gold shrink-0" size={21} /><div><p className="text-xs uppercase tracking-wider text-muted-foreground">{label}</p><p className="font-serif font-semibold">{value}</p></div></div>

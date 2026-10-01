@@ -790,7 +790,7 @@ Endereço: Přístaviště lodí u Čechova mostu, Dvořákovo nábřeží, můs
 Observações importantes:
 1. Chegar às 11h40 no escritório da Prague Boats, pier nº 3 B.
 2. O grupo terá 2 mesas lado a lado na categoria Exclusive, junto à janela.
-3. O check-in é feito pelo coordenador, em nome do grupo Create Travel.
+3. O check-in é feito pelo coordenador, em nome do grupo.
 
 O que levar:
 - Um casaco quente (o vento no rio em outubro pode ser frio)
