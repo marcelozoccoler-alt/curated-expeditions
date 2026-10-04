@@ -1,0 +1,1 @@
+Keep travel-book day photos in the city/day keyed FOTOS registry and render them through FotosDoDia; this keeps the online itinerary and printable album in sync.

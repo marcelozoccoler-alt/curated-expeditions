@@ -30,23 +30,28 @@ export const FotosDoDia = ({ cidadeSlug, blocoId, titulo }: Props) => {
   }
 
   return (
-    <div className="mt-8 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+    <div className="mt-10 border-t border-border pt-8">
+      <p className="text-caption text-gold mb-5">Álbum do dia · {titulo}</p>
+      <div className="grid gap-x-5 gap-y-8 sm:grid-cols-2 lg:grid-cols-3">
       {fotos.map((f, i) => (
-        <figure key={i} className="overflow-hidden rounded-2xl border border-border bg-card">
-          <img
-            src={f.src}
-            alt={f.alt}
-            loading="lazy"
-            className="w-full aspect-[4/3] object-cover"
-          />
+        <figure key={i} className="min-w-0 break-inside-avoid">
+          <div className="overflow-hidden bg-muted aspect-[3/4]">
+            <img
+              src={f.src}
+              alt={f.alt}
+              loading="lazy"
+              className="h-full w-full object-cover"
+            />
+          </div>
           {(f.caption || f.credit) && (
-            <figcaption className="px-4 py-3 text-xs text-muted-foreground">
+            <figcaption className="border-b border-border py-3 text-sm font-serif italic text-muted-foreground">
               {f.caption}
               {f.credit && <span className="block text-[11px] mt-1 opacity-70">Foto: {f.credit}</span>}
             </figcaption>
           )}
         </figure>
       ))}
+      </div>
     </div>
   );
 };
