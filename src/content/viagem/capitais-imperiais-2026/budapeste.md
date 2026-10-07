@@ -363,6 +363,24 @@ Nível: leve, todo plano.
 
 Durmam bem — amanhã Buda os espera, com igrejas, castelo e um pôr do sol inesquecível.
 
+### COMO FOI A NOITE — O DANÚBIO ILUMINADO
+
+Chegamos a Budapeste com o corpo ainda no Brasil e o coração já na Europa. Depois do banho e de uma troca de roupa sem pressa, caminhamos até o rio, e a cidade foi se acendendo devagar, como quem sabe que está sendo observada.
+
+Às sete da noite subimos a bordo. Lá fora, o Danúbio virou um espelho escuro, e cada ponte, cada cúpula, cada torre ganhou um reflexo dourado. O Parlamento surgiu inteiro iluminado, maior do que qualquer foto — e por alguns segundos ninguém à mesa conseguiu falar.
+
+O jantar foi servido enquanto o navio deslizava rio abaixo. Passamos sob a Ponte das Correntes, com seus leões vigiando a água, e vimos o Castelo de Buda no alto da colina, como um cenário de ópera. Então os violinos começaram. Os músicos ciganos vieram de mesa em mesa, o contrabaixo marcando o compasso, o arco correndo rápido nas czárdás e lento nas melodias que parecem falar de saudade. Foi impossível não sorrir, não filmar, não sentir um nó na garganta. Era a mesma música que Liszt ouviu nas tavernas e transformou em rapsódia — e ali estava ela, tocada só para nós, sobre o rio.
+
+Sentimos aquela emoção rara de primeira noite: cansaço, encanto e gratidão ao mesmo tempo. A sensação de que a viagem tinha começado de verdade.
+
+### O FECHO COM CHAVE DE OURO — A CAMINHADA ATÉ A BASÍLICA
+
+Ao desembarcar, a noite estava agradável, fresca na medida certa, e ninguém quis ir direto para o hotel. Seguimos a pé pelas ruas de Pest, entre fachadas antigas e cafés ainda abertos, até a Praça de Santo Estêvão.
+
+E lá estava ela: a Basílica de Santo Estêvão, toda iluminada, com sua cúpula de 96 metros recortada contra o céu escuro — a mesma altura do Parlamento, porque em Budapeste nada pode ser mais alto do que Deus e a nação. A praça tranquila, o som dos nossos passos na pedra, as conversas baixinhas sobre o que tínhamos acabado de viver.
+
+Foi o fecho perfeito para o primeiro dia: o rio, a música, a luz e, no fim, o silêncio bonito diante da basílica. Voltamos ao hotel com a certeza de que Budapeste já tinha nos conquistado.
+
 ## DIA 2 — DOMINGO, 4 DE OUTUBRO DE 2026
 
 ### O DIA DAS DUAS IGREJAS — DA BASÍLICA AO ALTO DE BUDA

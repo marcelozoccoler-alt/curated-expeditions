@@ -13,6 +13,7 @@ import parlamentoNoite from "@/assets/viagem/budapeste-parlamento-noite.jpg";
 import basilicaNoite from "@/assets/viagem/budapeste-basilica-noite.jpg";
 import grupoDanubio from "@/assets/viagem/budapeste-grupo-danubio.jpg";
 import ponteCastelo from "@/assets/viagem/budapeste-ponte-castelo.jpg";
+import musicaABordo from "@/assets/viagem/budapeste-musica-a-bordo.jpg";
 
 import { parseCity } from "./parseRoteiro";
 import type { CidadeRoteiro } from "./parseRoteiro";
@@ -65,6 +66,7 @@ export const FOTOS: Record<string, ViagemFoto[]> = {
     { src: danubioCrepusculo, alt: "Ponte das Correntes iluminada sobre o Danúbio ao anoitecer", caption: "Primeiras luzes sobre o Danúbio" },
     { src: parlamentoNoite, alt: "Parlamento húngaro iluminado refletido no Danúbio", caption: "O Parlamento visto do rio" },
     { src: ponteCastelo, alt: "Ponte das Correntes e Castelo de Buda iluminados à noite", caption: "A ponte e o Castelo de Buda" },
+    { src: musicaABordo, alt: "Músicos ciganos tocando violino e contrabaixo no salão do navio durante o jantar", caption: "Violinos a bordo, no jantar sobre o Danúbio" },
     { src: grupoDanubio, alt: "Viajantes à beira do Danúbio à noite", caption: "Encontros à beira do rio" },
     { src: basilicaNoite, alt: "Basílica de Santo Estêvão iluminada à noite em Budapeste", caption: "A Basílica de Santo Estêvão" },
   ],
