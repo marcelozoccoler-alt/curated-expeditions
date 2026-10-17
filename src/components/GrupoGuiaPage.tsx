@@ -13,6 +13,7 @@ import type { GrupoLote } from "@/lib/gruposLote";
 const LABELS = ["Apto triplo", "Apto duplo", "Apto individual"];
 
 export const GrupoGuiaPage = ({ g }: { g: GrupoLote }) => {
+  const labels = g.priceLabels ?? LABELS;
   const canonical = `/grupos/${g.slug}`;
   const groupName = `Grupo ${g.title} · ${g.dates} — Create Travel`;
   const whatsappParams = { type: "Roteiro" as const, name: `${g.title} (saída ${g.short.slice(0, 5)})` };
@@ -23,7 +24,7 @@ export const GrupoGuiaPage = ({ g }: { g: GrupoLote }) => {
     { q: "Como funciona o acompanhamento?", a: "Um guia acompanhante segue com o grupo desde o embarque no Brasil até o retorno. No destino, as visitas são conduzidas por guias locais." },
     { q: "Quais valores não estão no preço divulgado?", a: `Os valores por pessoa não incluem as taxas de aeroporto e combustível de ${g.tax} nem o IOF indicado em cada categoria de apartamento.` },
     { q: "Como faço para reservar?", a: "A parte terrestre pode ser reservada com 25% de entrada e o saldo em até 9 vezes sem juros no cartão de crédito. Fale com a curadoria pelo WhatsApp para confirmar disponibilidade." },
-    { q: "Posso viajar sozinho(a)?", a: "Sim. Há valores para apartamento individual, duplo e triplo, sujeitos a disponibilidade no momento da reserva." },
+    { q: "Posso viajar sozinho(a)?", a: `Sim. As categorias previstas são ${labels.map((label) => label.toLowerCase()).join(", ")}, sujeitas a disponibilidade no momento da reserva.` },
     ...g.faq,
   ];
   const hotelsJsonLd = buildHotelsJsonLd(g.hotels, groupName, canonical);
@@ -96,7 +97,7 @@ export const GrupoGuiaPage = ({ g }: { g: GrupoLote }) => {
           <div className="space-y-4">
             {g.flights.map(([route, info], i) => (
               <div key={route} className="bg-white/5 border border-white/10 rounded-xl p-6">
-                <p className="text-xs uppercase tracking-wider text-gold mb-2">{i === 0 ? "Ida" : "Volta"}</p>
+                <p className="text-xs uppercase tracking-wider text-gold mb-2">{i === 0 ? "Ida" : i === g.flights.length - 1 ? "Volta" : "Trechos internos"}</p>
                 <p className="font-serif text-lg">{route}</p>
                 <p className="text-white/75 text-sm mt-1">{info}</p>
               </div>
@@ -176,8 +177,8 @@ export const GrupoGuiaPage = ({ g }: { g: GrupoLote }) => {
           <p className="text-white/85 mb-8">Valores por pessoa, acrescidos de IOF e de {g.tax} em taxas de aeroporto e combustível. Sujeitos a disponibilidade e confirmação aérea.</p>
           <div className="grid sm:grid-cols-3 gap-4 mb-8 text-left">
             {g.prices.map(([price, iof], i) => (
-              <div key={LABELS[i]} className="bg-white/10 border border-white/20 rounded-xl p-6">
-                <p className="text-xs uppercase tracking-wider text-gold mb-2">{LABELS[i]}</p>
+              <div key={labels[i]} className="bg-white/10 border border-white/20 rounded-xl p-6">
+                <p className="text-xs uppercase tracking-wider text-gold mb-2">{labels[i]}</p>
                 <p className="font-serif text-2xl font-semibold">{g.sym} {price}</p>
                 <p className="text-white/70 text-xs mt-1">+ IOF {g.sym} {iof}</p>
               </div>

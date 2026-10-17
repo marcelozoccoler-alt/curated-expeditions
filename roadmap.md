@@ -1,5 +1,7 @@
 # Roadmap
 
+- [x] Lote 17/10: dez saídas novas inseridas, sem duplicatas; 254 testes passaram, dez páginas verificadas no navegador, catálogo e sitemap atualizados. Mendoza: dia 5 corrigido para 17/05; Ilhas Britânicas: Londres e Calçada dos Gigantes não prometidas, pois não constam no dia a dia; Titanic conforme roteiro e inclusões. Publicação pelo usuário ainda necessária.
+
 - [x] SEO item 1: reescrever títulos/descrições das páginas com mais impressões e menos cliques (7 páginas) — verificado no preview
 - [x] Aniversário de 12 anos: faixa durante setembro inteiro — verificado na home
 - [x] Memória atualizada (regra do mês inteiro)
