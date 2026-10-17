@@ -1,5 +1,7 @@
 # Roadmap
 
+- [ ] Lote 17/10: conferir duplicidades e inserir dez saídas com guia desde o Brasil; validar páginas, preços, hotéis, catálogo e sitemap.
+
 - [x] SEO item 1: reescrever títulos/descrições das páginas com mais impressões e menos cliques (7 páginas) — verificado no preview
 - [x] Aniversário de 12 anos: faixa durante setembro inteiro — verificado na home
 - [x] Memória atualizada (regra do mês inteiro)
