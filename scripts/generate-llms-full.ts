@@ -19,6 +19,7 @@ import { riverCruises } from "../src/lib/riverCruises";
 import { localGuideGroups } from "../src/lib/localGuideGroups";
 import { brazilStates } from "../src/lib/brazilStates";
 import { signatureTrips } from "../src/lib/signatureTrips";
+import { GRUPOS_OUTUBRO_2026 } from "../src/lib/gruposOutubro2026";
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const DOMAIN = CONTACT.domain.replace(/\/$/, "");
@@ -94,6 +95,21 @@ for (const r of regions) {
   line(`- [${r.label}](${DOMAIN}/${r.slug}): ${clean(r.intro, 220)}`);
 }
 line();
+
+// ---------- Novas saídas com guia desde o Brasil ----------
+line("## Novas viagens em grupo com guia desde o Brasil (2027)");
+for (const g of GRUPOS_OUTUBRO_2026) {
+  const doubleIndex = g.priceLabels ? g.priceLabels.indexOf("Apto duplo") : 1;
+  const price = g.prices[doubleIndex];
+  line(`### ${g.title}`);
+  line(`- URL: ${DOMAIN}/grupos/${g.slug}`);
+  line(`- Datas: ${g.dates} · ${g.itin.length} dias · Países: ${g.countries.join(", ")}`);
+  line(`- Rota: ${g.subtitle}`);
+  if (price) line(`- Apartamento duplo: ${g.sym} ${price[0]} por pessoa + IOF ${g.sym} ${price[1]} + ${g.tax} em taxas aéreas.`);
+  line(`- Incluído: ${g.inc.join("; ")}`);
+  line(`- Não incluído: ${g.not.join("; ")}`);
+  line();
+}
 
 // ---------- Grupos com guia local ----------
 line("## Viagens em grupo com guia local (saídas garantidas)");

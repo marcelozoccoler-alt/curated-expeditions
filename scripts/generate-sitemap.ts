@@ -114,6 +114,16 @@ for (const s of brazilStates) push(`/brasil/${s.slug}`, 0.7, "monthly");
 
 // Grupos com guia brasileiro — roteiros 2026/2027
 const GRUPOS = [
+  "grecia-maio-2027",
+  "grecia-junho-2027",
+  "escandinavia-agosto-2027",
+  "sicilia-malta-23-abril-2027",
+  "africa-zimbabue-botsuana-junho-2027",
+  "china-coreia-30-maio-2027",
+  "suica-norte-italia-09-junho-2027",
+  "mendoza-maio-2027",
+  "equador-galapagos-abril-2027",
+  "irlanda-escocia-inglaterra-junho-2027",
   "mendoza-carnaval-2027",
   "sul-italia-19-abril-2027",
   "lagos-chilenos-abril-2027",

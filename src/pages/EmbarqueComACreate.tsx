@@ -91,7 +91,7 @@ import grupoAfricaDoSulMaioImg from "@/assets/grupo-africa-do-sul-carnaval-2027.
 import grupoChinaCoreiaImg from "@/assets/grupo-china-primavera-2027.jpg";
 
 const RAW_DEPARTURES = [
-  ...GRUPOS_LOTE.map((g) => ({ href: `/grupos/${g.slug}`, img: g.img, tag: g.tag, title: g.title, subtitle: g.subtitle, desc: g.desc, fromPrice: `A partir de ${g.sym} ${g.prices[1][0]} por pessoa (apto duplo)`, status: "Saída confirmada" })),
+  ...GRUPOS_LOTE.map((g) => ({ href: `/grupos/${g.slug}`, img: g.img, tag: g.tag, title: g.title, subtitle: g.subtitle, desc: g.desc, fromPrice: `A partir de ${g.sym} ${g.prices[g.priceLabels ? g.priceLabels.indexOf("Apto duplo") : 1]?.[0] ?? "a ser informado"} por pessoa (apto duplo)`, status: "Saída confirmada" })),
   {
     href: "/grupos/mendoza-carnaval-2027",
     img: grupoMendozaCarnavalImg,

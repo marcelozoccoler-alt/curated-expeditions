@@ -7,6 +7,16 @@ import { localGuideGroups, localGuidePriceLabel } from "@/lib/localGuideGroups";
 
 /** Países cobertos por cada saída com guia brasileiro (chave = href da página). */
 export const BRAZILIAN_GROUP_COUNTRIES: Record<string, string[]> = {
+  "/grupos/grecia-maio-2027": ["Grécia"],
+  "/grupos/grecia-junho-2027": ["Grécia"],
+  "/grupos/escandinavia-agosto-2027": ["Dinamarca", "Noruega", "Suécia"],
+  "/grupos/sicilia-malta-23-abril-2027": ["Itália", "Malta"],
+  "/grupos/africa-zimbabue-botsuana-junho-2027": ["África do Sul", "Zimbábue", "Botsuana"],
+  "/grupos/china-coreia-30-maio-2027": ["China", "Coreia do Sul"],
+  "/grupos/suica-norte-italia-09-junho-2027": ["Suíça", "Itália"],
+  "/grupos/mendoza-maio-2027": ["Argentina"],
+  "/grupos/equador-galapagos-abril-2027": ["Equador"],
+  "/grupos/irlanda-escocia-inglaterra-junho-2027": ["Irlanda", "Reino Unido"],
   "/grupos/africa-do-sul-2026": ["África do Sul"],
   "/grupos/africa-do-sul-outubro-2026": ["África do Sul"],
   "/grupos/africa-do-sul-primavera-2026": ["África do Sul"],

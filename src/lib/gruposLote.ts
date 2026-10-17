@@ -9,6 +9,7 @@ import saltaImg from "@/assets/grupo-salta-carnaval-2027.jpg";
 import greciaImg from "@/assets/grupo-grecia-2026.jpg";
 import egitoImg from "@/assets/grupo-egito-abril-2027.jpg";
 import escandImg from "@/assets/grupo-escandinavia-2027.jpg";
+import { GRUPOS_OUTUBRO_2026 } from "./gruposOutubro2026";
 
 export interface GrupoLote {
   slug: string;
@@ -27,6 +28,7 @@ export interface GrupoLote {
   cur: "EUR" | "USD";
   sym: string;
   prices: [string, string][];
+  priceLabels?: string[];
   tax: string;
   countries: string[];
   kw: string;
@@ -169,6 +171,7 @@ const suicaFaq = [{ q: "O Glacier Express está incluído?", a: "Sim, em 2ª cla
 const suicaKw = "Suíça 2027, Glacier Express em grupo, Suíça e Itália com guia brasileiro, Cinque Terre, Lago de Como";
 
 export const GRUPOS_LOTE: GrupoLote[] = [
+  ...GRUPOS_OUTUBRO_2026,
   {
     slug: "turquia-abril-2027", img: turquia2026Img, alt: "Mesquitas de Istambul vistas do Bósforo",
     title: "Turquia na primavera · Festival das Tulipas", subtitle: "Istambul · Ancara · Capadócia · Pamukkale · Éfeso · Kusadasi · Bursa",
