@@ -186,8 +186,8 @@ export const organizationLd = {
   ],
   geo: {
     "@type": "GeoCoordinates",
-    latitude: -23.6118,
-    longitude: -46.6489,
+    latitude: -23.5607,
+    longitude: -46.6579,
   },
   priceRange: "$$$",
   openingHoursSpecification: {
