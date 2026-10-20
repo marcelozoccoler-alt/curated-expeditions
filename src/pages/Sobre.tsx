@@ -532,7 +532,7 @@ const Sobre = () => {
             <div className="space-y-3 text-foreground/85">
               <p className="flex items-start gap-3">
                 <MapPin className="text-gold mt-1 shrink-0" size={18} />
-                <span>Rua José Libero, 80 — Planalto Paulista, São Paulo · SP</span>
+                <span>{CONTACT.address}</span>
               </p>
               <p className="flex items-start gap-3">
                 <Globe2 className="text-gold mt-1 shrink-0" size={18} />
