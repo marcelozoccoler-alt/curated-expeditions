@@ -140,10 +140,10 @@ export const organizationLd = {
   email: CONTACT.email,
   address: {
     "@type": "PostalAddress",
-    streetAddress: "Rua José Libero, 80 - Planalto Paulista",
+    streetAddress: "Avenida Paulista, 1765, 7º andar, Conj. 72",
     addressLocality: "São Paulo",
     addressRegion: "SP",
-    postalCode: "04013-000",
+    postalCode: "01311-930",
     addressCountry: "BR",
   },
   taxID: CONTACT.cadastur,
@@ -186,8 +186,8 @@ export const organizationLd = {
   ],
   geo: {
     "@type": "GeoCoordinates",
-    latitude: -23.6118,
-    longitude: -46.6489,
+    latitude: -23.5607,
+    longitude: -46.6579,
   },
   priceRange: "$$$",
   openingHoursSpecification: {

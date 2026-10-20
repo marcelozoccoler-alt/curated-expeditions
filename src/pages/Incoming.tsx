@@ -66,9 +66,10 @@ const Incoming = () => {
     description: copy.meta.description,
     address: {
       "@type": "PostalAddress",
-      streetAddress: "Rua José Libero, 80 - Planalto Paulista",
+      streetAddress: "Avenida Paulista, 1765, 7º andar, Conj. 72 - Bela Vista",
       addressLocality: "São Paulo",
       addressRegion: "SP",
+      postalCode: "01311-930",
       addressCountry: "BR",
     },
     telephone: CONTACT.whatsapp,
