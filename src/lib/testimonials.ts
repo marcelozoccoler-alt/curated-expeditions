@@ -149,6 +149,12 @@ import beatrizMar from "@/assets/depoimentos/beatriz-rogers-mar.jpg.asset.json";
 import beatrizEntardecer from "@/assets/depoimentos/beatriz-mae-entardecer.jpg.asset.json";
 import beatrizEuropa from "@/assets/depoimentos/beatriz-mae-europa.jpg.asset.json";
 import beatrizMarina from "@/assets/depoimentos/beatriz-mae-marina.jpg.asset.json";
+import yolandaCruzeiroPorDoSol from "@/assets/depoimentos/yolanda-emilio-cruzeiro-por-do-sol.jpg.asset.json";
+import yolandaCruzeiroEntardecer from "@/assets/depoimentos/yolanda-cruzeiro-entardecer.jpg.asset.json";
+import yolandaPelourinho from "@/assets/depoimentos/yolanda-emilio-pelourinho.jpg.asset.json";
+import yolandaEscadaCristal from "@/assets/depoimentos/yolanda-cruzeiro-escada-cristal.jpg.asset.json";
+import yolandaPiscinaBordaInfinita from "@/assets/depoimentos/yolanda-piscina-borda-infinita.jpg.asset.json";
+import yolandaDedoDeDeus from "@/assets/depoimentos/yolanda-emilio-dedo-de-deus.jpg.asset.json";
 
 export const TESTIMONIALS_DRAFT = true;
 
