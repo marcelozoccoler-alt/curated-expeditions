@@ -1,3 +1,4 @@
 Keep travel-book day photos in the city/day keyed FOTOS registry and render them through FotosDoDia; this keeps the online itinerary and printable album in sync.
 Keep new batch departures in typed GrupoLote data modules aggregated by GRUPOS_LOTE, so routes and departure cards reuse GrupoGuiaPage consistently.
 Use optional priceLabels for departures without triple occupancy, so listing prices and room categories match the source document rather than array-position assumptions.
+Keep testimonials and their photo albums in the shared testimonials registry; optional received dates and absent travel dates or hometowns must remain distinct, so rendering and structured data do not invent client details.

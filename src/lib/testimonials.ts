@@ -139,6 +139,16 @@ import labibParisMoulinRouge from "@/assets/depoimentos/labib-paris-moulin-rouge
 import labibNyLiberdadeAmigas from "@/assets/depoimentos/labib-nova-york-estatua-liberdade-amigas.jpg.asset.json";
 import labibNyLiberdadeBracos from "@/assets/depoimentos/labib-nova-york-estatua-liberdade-bracos-abertos.jpg.asset.json";
 import labibChileEsquiFamilia from "@/assets/depoimentos/labib-chile-esqui-familia-neve.jpg.asset.json";
+import beatrizPraia from "@/assets/depoimentos/beatriz-rogers-praia.jpg.asset.json";
+import beatrizPasseio from "@/assets/depoimentos/beatriz-rogers-passeio.jpg.asset.json";
+import beatrizLitoral from "@/assets/depoimentos/beatriz-mae-litoral.jpg.asset.json";
+import beatrizCastelo from "@/assets/depoimentos/beatriz-rogers-castelo.jpg.asset.json";
+import beatrizAlegria from "@/assets/depoimentos/beatriz-rogers-alegria.jpg.asset.json";
+import beatrizAgua from "@/assets/depoimentos/beatriz-rogers-agua.jpg.asset.json";
+import beatrizMar from "@/assets/depoimentos/beatriz-rogers-mar.jpg.asset.json";
+import beatrizEntardecer from "@/assets/depoimentos/beatriz-mae-entardecer.jpg.asset.json";
+import beatrizEuropa from "@/assets/depoimentos/beatriz-mae-europa.jpg.asset.json";
+import beatrizMarina from "@/assets/depoimentos/beatriz-mae-marina.jpg.asset.json";
 
 export const TESTIMONIALS_DRAFT = true;
 
@@ -162,6 +172,8 @@ export interface Testimonial {
   tripType: string;
   destination: string;
   month: string;
+  /** Data do depoimento recebido, sem atribuir uma data às viagens. */
+  datePublished?: string;
   /** Depoimento em primeira pessoa, 80–150 palavras. */
   quote: string;
   /** Bastidor assinado por Marcelo Zoccoler — informativo, sem superlativos. */
@@ -187,6 +199,44 @@ export interface Testimonial {
 }
 
 export const testimonials: Testimonial[] = [
+  {
+    slug: "beatriz-moreira-rogers-pin-sete-anos",
+    title: "Sete anos de parceria e tantas memórias especiais",
+    author: "Beatriz Moreira e Rogers Pin",
+    city: "",
+    tripType: "Viagens a dois e em família",
+    destination: "Jamaica, Cancún, Estados Unidos, Europa e Pipa",
+    month: "",
+    datePublished: "2026-10-22",
+    verified: true,
+    since: "Sete anos de parceria com Marcelo",
+    countries: ["Jamaica", "México", "Estados Unidos", "Brasil"],
+    quote: `Já são sete anos de parceria e muitas viagens organizadas com a ajuda dele: com meu marido: nossa lua de mel na Jamaica, Cancún, Estados Unidos e agora nossa próxima aventura pela Califórnia. Com a minha mãe, foram as viagens para a Europa e Pipa!
+
+O Marcelo é daquelas pessoas que fazem a diferença no atendimento. Sempre muito simpático, paciente, atencioso e disposto a esclarecer todas as dúvidas (que não são poucas! 😂). E o melhor é que o cuidado não termina quando a viagem começa. Ele está sempre disponível para ajudar caso surja algum imprevisto, o que traz uma tranquilidade enorme!
+
+Depois de tantos anos e tantas experiências boas, posso dizer que é um profissional em quem confiamos muito. A agência é extremamente séria e confiável, e o atendimento dele é realmente diferenciado.
+
+É muito bom ter alguém que já conhece a nossa família, nossas preferências e que participa, de alguma forma, de tantas memórias especiais.
+
+Recomendo de olhos fechados!`,
+    note: "Da lua de mel na Jamaica às viagens com a mãe pela Europa e por Pipa, Beatriz compartilha uma trajetória de sete anos de confiança no atendimento de Marcelo. A Califórnia aparece no relato como a próxima aventura do casal, ainda por acontecer.",
+    photoStory: "O álbum reúne as viagens a dois e os momentos de Beatriz com a mãe: mar transparente, passeios ao ar livre, o castelo da Disney, um mergulho no Xcaret e a luz do entardecer à beira d'água. Nas fotos da Europa, os sorrisos dividem espaço com a cidade ao fundo e os barcos na marina. São registros enviados pela família, lembranças das experiências que Beatriz descreve em suas próprias palavras.",
+    photos: [
+      { src: beatrizPraia.url, caption: "A dois, diante do mar turquesa", alt: "Beatriz Moreira e Rogers Pin na praia, diante do mar turquesa e de um guarda-sol colorido" },
+      { src: beatrizCastelo.url, caption: "Estados Unidos: juntos diante do castelo da Disney", alt: "Beatriz Moreira e Rogers Pin diante do castelo da Disney, com camisetas do Mickey" },
+      { src: beatrizEuropa.url, caption: "Europa: memórias compartilhadas com a mãe", alt: "Beatriz Moreira com a mãe em um mirante, com a cidade e árvores ao fundo" },
+      { src: beatrizMar.url, caption: "Sorrisos e águas transparentes na viagem a dois", alt: "Selfie de Beatriz Moreira e Rogers Pin em uma embarcação, com mar transparente e barcos ao fundo" },
+      { src: beatrizEntardecer.url, caption: "Mãe e filha, na luz do entardecer", alt: "Beatriz Moreira abraçada à mãe à beira d'água, com o pôr do sol ao fundo" },
+      { src: beatrizMarina.url, caption: "Europa: mãe e filha à beira da marina", alt: "Beatriz Moreira com a mãe diante de uma marina com barcos, árvores e uma construção de pedra ao fundo" },
+      { src: beatrizPasseio.url, caption: "Um passeio a dois, mais uma lembrança", alt: "Beatriz Moreira e Rogers Pin sorrindo durante um passeio, com mesas e cobertura de palha ao fundo" },
+      { src: beatrizLitoral.url, caption: "Com a mãe, entre o mar e as piscinas naturais", alt: "Beatriz Moreira com a mãe junto a piscinas naturais e rochas cobertas de vegetação, à beira-mar" },
+      { src: beatrizAlegria.url, caption: "Estados Unidos: alegria nos passeios do casal", alt: "Selfie de Beatriz Moreira e Rogers Pin em um parque de diversões, com árvores e atrações ao fundo" },
+      { src: beatrizAgua.url, caption: "México: um mergulho a dois no Xcaret", alt: "Beatriz Moreira e Rogers Pin com coletes de flutuação na água cristalina, entre rochas com o nome Xcaret", objectPosition: "center 75%" },
+    ],
+    suggestedCaptions: [],
+    photoDirection: "",
+  },
   {
     slug: "luana-santos-cinco-viagens",
     title: "Cinco destinos, uma mesma forma de viajar",

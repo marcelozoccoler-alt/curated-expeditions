@@ -19,6 +19,7 @@ const Depoimentos = () => {
 
   // Ordem editorial definida: Labib, Tânia, Maite & Murilo, Luana.
   const ORDER = [
+    "beatriz-moreira-rogers-pin-sete-anos",
     "labib-maria-miguel-bernardi-desde-2015",
     "tania-abreu-turquia-novembro-2025",
     "maite-leal-murilo-lamano-patagonia-leste-europeu",
@@ -74,9 +75,9 @@ const Depoimentos = () => {
       url: `${DOMAIN}/depoimentos#${t.slug}`,
       name: t.title,
       reviewBody: t.quote,
-      datePublished: "2026-08-15",
+       datePublished: t.datePublished ?? "2026-08-15",
       inLanguage: "pt-BR",
-      author: { "@type": "Person", name: t.author, address: t.city },
+       author: { "@type": "Person", name: t.author, ...(t.city ? { address: t.city } : {}) },
       about: {
         "@type": "TravelAgency",
         "@id": `${DOMAIN}/#organization`,
@@ -329,12 +330,13 @@ const Depoimentos = () => {
                           size={22}
                           className="absolute -left-[11px] -top-1 bg-background text-gold"
                         />
-                        <p className="text-lg leading-relaxed text-foreground/90 font-light">
+                        <p className="text-lg leading-relaxed text-foreground/90 font-light whitespace-pre-line">
                           {t.quote}
                         </p>
                         <footer className="mt-4 text-sm text-muted-foreground">
-                          <span className="font-medium text-foreground">{t.author}</span> · {t.city}{" "}
-                          · viagem em {t.month}
+                          <span className="font-medium text-foreground">{t.author}</span>
+                          {t.city && <> · {t.city}</>}
+                          {t.month && <> · viagem em {t.month}</>}
                         </footer>
                       </blockquote>
 
