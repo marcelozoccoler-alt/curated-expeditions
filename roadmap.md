@@ -1,6 +1,6 @@
 # Roadmap
 
-- [ ] Inserir depoimento de Beatriz Moreira e Rogers Pin no Nós viajamos!, com dez fotos realçadas e conferência da galeria; não publicar.
+- [x] Inserir depoimento de Beatriz Moreira e Rogers Pin no Nós viajamos!, com dez fotos realçadas; texto, expansão e filtro conferidos. Fotos verificadas com arquivos do armazenamento no navegador de teste, pois a entrega de imagens no localhost não estava disponível. Não publicado.
 
 - [x] Lote 17/10: dez saídas novas inseridas, sem duplicatas; 254 testes passaram, dez páginas verificadas no navegador, catálogo e sitemap atualizados. Mendoza: dia 5 corrigido para 17/05; Ilhas Britânicas: Londres e Calçada dos Gigantes não prometidas, pois não constam no dia a dia; Titanic conforme roteiro e inclusões. Publicado e conferido no ar em 17/10: sitemap público com 996 endereços, as doze páginas (dez do lote + Egito & Jordânia + Escandinávia julho) abrindo com o título correto e sem imagem quebrada, e todas presentes na lista de grupos.
 
