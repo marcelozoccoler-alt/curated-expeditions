@@ -20,7 +20,7 @@ const Depoimentos = () => {
   // Ordem editorial definida: Beatriz, Yolanda, Labib, Tânia, Maite & Murilo, Luana.
   const ORDER = [
     "beatriz-moreira-rogers-pin-sete-anos",
-    "yolanda-paschoal-emilio-quero",
+    "yolanda-paschoal-emilio",
     "labib-maria-miguel-bernardi-desde-2015",
     "tania-abreu-turquia-novembro-2025",
     "maite-leal-murilo-lamano-patagonia-leste-europeu",
