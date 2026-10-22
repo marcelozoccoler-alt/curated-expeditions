@@ -1,6 +1,6 @@
 # Roadmap
 
-- [x] Inserir depoimento de Yolanda Paschoal e Emílio Quero no Nós viajamos!, com seis fotos realçadas (cruzeiro, Salvador, litoral da Paraíba); texto conferido com o original. Não publicado.
+- [x] Inserir depoimento de Yolanda Paschoal e Emílio no Nós viajamos!, com seis fotos realçadas (cruzeiro, Salvador, litoral da Paraíba); texto conferido com o original. Não publicado.
 
 - [x] Inserir depoimento de Beatriz Moreira e Rogers Pin no Nós viajamos!, com dez fotos realçadas; texto, expansão e filtro conferidos. Fotos verificadas com arquivos do armazenamento no navegador de teste, pois a entrega de imagens no localhost não estava disponível. Não publicado.
 
