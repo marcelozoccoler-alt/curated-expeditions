@@ -244,6 +244,40 @@ Recomendo de olhos fechados!`,
     photoDirection: "",
   },
   {
+    slug: "yolanda-paschoal-emilio-quero",
+    title: "Minha agência de confiança, que já conhece meu estilo de viagem",
+    author: "Yolanda Paschoal e Emílio Quero",
+    city: "",
+    tripType: "Viagens a dois, com acompanhamento em roteiro",
+    destination: "Cruzeiro e litoral do Nordeste",
+    month: "",
+    datePublished: "2026-10-22",
+    verified: true,
+    since: "Várias viagens com a Create Travel",
+    countries: ["Brasil"],
+    quote: `Já fiz várias viagens com a agência e o que mais gosto é o atendimento extremamente personalizado. Eles já conhecem meus gostos, minhas preferências e o meu estilo de viagem. Muitas vezes, antes mesmo de eu procurar, já me enviam promoções, valores, pacotes e destinos que têm tudo a ver comigo, para que eu possa ir pesquisando, sonhando e programando as próximas viagens.
+
+Esse cuidado e essa atenção fazem toda a diferença! Não é simplesmente vender um pacote, é realmente conhecer o cliente e pensar em cada viagem de forma especial.
+
+E durante as viagens ainda tenho todo o suporte do William, que é sensacional! Ele está sempre presente, ajudando com o roteiro, indicando lugares legais para conhecer, dando dicas e oferecendo todo o suporte que precisamos durante a viagem. Isso traz uma tranquilidade enorme e faz com que a experiência seja ainda melhor.
+
+A Create Travel já virou minha agência de confiança. É aquele tipo de empresa que conhece você, se antecipa às suas necessidades e cuida de cada detalhe para que você só tenha que se preocupar em aproveitar a viagem.
+
+Super recomendo! Atendimento excelente, personalizado e feito com muito cuidado.`,
+    note: "Yolanda e Emílio descrevem uma rotina de várias viagens com a Create Travel: sugestões de destinos e valores enviadas com antecedência, para sonhar e programar, e o acompanhamento do guia William durante os passeios. Nas fotos, o casal registra um cruzeiro — o por do sol no convés e a escadaria de cristal — e o litoral do Nordeste, com caminhada pelo Pelourinho, em Salvador, e o mirante Dedo de Deus, em Coqueirinho, no litoral da Paraíba.",
+    photoStory: "O álbum começa no navio: o casal no convés com o sol descendo sobre o mar e a escadaria de cristal iluminada a bordo. Em terra, as ruas de pedra do Pelourinho, em Salvador, uma tarde de piscina com a praia ao fundo e a paisagem do Mirante Dedo de Deus, em Coqueirinho, no litoral da Paraíba. São registros enviados por Yolanda, lembranças das viagens que ela descreve em suas próprias palavras.",
+    photos: [
+      { src: yolandaCruzeiroPorDoSol.url, caption: "Cruzeiro: por do sol no convés, a dois", alt: "Yolanda Paschoal e Emílio Quero no convés do navio, com o por do sol sobre o mar ao fundo" },
+      { src: yolandaCruzeiroEntardecer.url, caption: "Entardecer dourado a bordo", alt: "Yolanda Paschoal no convés do navio, com o entardecer dourado sobre o mar" },
+      { src: yolandaPelourinho.url, caption: "Salvador: caminhada pelo Pelourinho", alt: "Yolanda Paschoal e Emílio Quero em rua de pedra do Pelourinho, em Salvador, entre casarios coloridos" },
+      { src: yolandaEscadaCristal.url, caption: "A bordo: escadaria de cristal", alt: "Yolanda Paschoal subindo a escadaria de cristal do navio, com degraus iluminados" },
+      { src: yolandaPiscinaBordaInfinita.url, caption: "Piscina com vista para a praia", alt: "Yolanda Paschoal ao lado de piscina com vista para a praia e o mar" },
+      { src: yolandaDedoDeDeus.url, caption: "Mirante Dedo de Deus, em Coqueirinho (Conde-PB)", alt: "Yolanda Paschoal e Emílio Quero abraçados sob a placa do Mirante Dedo de Deus, em Coqueirinho, Conde-PB, com o mar ao fundo" },
+    ],
+    suggestedCaptions: [],
+    photoDirection: "",
+  },
+  {
     slug: "luana-santos-cinco-viagens",
     title: "Cinco destinos, uma mesma forma de viajar",
     author: "Luana Santos",
