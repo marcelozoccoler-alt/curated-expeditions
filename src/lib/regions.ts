@@ -17,6 +17,8 @@ export interface Region {
   kicker: string; // tag above the title
   intro: string; // 2–3 sentences for hero + meta description
   metaDescription: string;
+  /** Optional custom <title>; defaults to a generic pattern. */
+  metaTitle?: string;
   heroImageUrl: string;
   destinationSlugs: string[]; // refers to destinations.ts slug field
   /** Optional long-form SEO content — rendered only when present. */
@@ -846,11 +848,51 @@ export const regions: Region[] = [
     intro:
       "A lagoa mais célebre do mundo. Quanto custa uma viagem para Bora Bora, qual a melhor época, quantos dias ficar e qual overwater bungalow escolher — tudo definido com um travel designer brasileiro, em português, antes de você reservar.",
     metaDescription:
-      "Viagem para Bora Bora: melhor época, quantos dias, overwater bungalows e quanto custa. Roteiro sob medida com travel designer brasileiro.",
-
+      "Planeje sua viagem a Bora Bora: melhor época, quantas noites, como escolher o overwater bungalow e como combinar Moorea ou Taha'a. Roteiro sob medida em português.",
+    metaTitle: "Viagem para Bora Bora: melhor época, noites e bungalows",
     heroImageUrl:
       "https://images.unsplash.com/photo-1559128010-7c1ad6e1b6a5?w=1920&h=1080&fit=crop",
     destinationSlugs: ["oceania/polinesia-francesa"],
+    longIntro:
+      "Bora Bora é a ilha mais conhecida da Polinésia Francesa: uma ilha alta, dominada pelo monte Otemanu, cercada por uma lagoa turquesa e por pequenas ilhotas de coral, os motus, onde ficam muitos dos resorts com bangalôs sobre a água. A Create Travel desenha a viagem sob medida — voos via Papeete, escolha do resort e da categoria de bangalô, combinação com outras ilhas e experiências na lagoa — com atendimento em português do primeiro contato até o retorno.",
+    whatToDo: [
+      {
+        title: "Lagoa e motus",
+        body: "Passeios de barco pela lagoa, snorkel em jardins de coral, nado com raias em águas rasas e piquenique em motu, conforme as condições do dia e as regras locais.",
+      },
+      {
+        title: "Monte Otemanu e a ilha principal",
+        body: "Volta pela ilha principal, mirantes e passeios de 4x4 com guia local para entender a paisagem vulcânica e a cultura polinésia.",
+      },
+      {
+        title: "Tempo no bangalô",
+        body: "Parte essencial da viagem é desacelerar: café da manhã no deck, mergulho direto da escada do bangalô e pôr do sol voltado para o Otemanu, conforme a posição do quarto.",
+      },
+    ],
+    bestTime:
+      "A estação mais seca costuma ir de maio a outubro, com menos umidade e chuva — é a época mais procurada. De novembro a abril o clima é mais quente e úmido, com pancadas de chuva, mas também pode oferecer boa disponibilidade. Confirmamos com você as datas que equilibram clima, ocupação e objetivo da viagem.",
+    howToGet:
+      "Do Brasil não há voo direto: a rota usual passa por um ponto de conexão internacional até Papeete, no Taiti, seguida de um voo doméstico até Bora Bora. Do aeroporto, que fica em um motu, a chegada aos resorts costuma ser feita de barco. Montamos as conexões buscando o menor desgaste possível.",
+    whereToStay:
+      "A maioria dos resorts com bangalôs sobre a água fica em motus voltados para a lagoa. A escolha passa pela vista (Otemanu, lagoa ou mar aberto), privacidade, piscina privativa e distância até a ilha principal. Indicamos a categoria certa para o seu estilo, sem pagar por algo que não fará diferença na sua estadia.",
+    faqs: [
+      {
+        q: "Quantas noites ficar em Bora Bora?",
+        a: "Em geral, de três a cinco noites funcionam bem. Muitos viajantes combinam Bora Bora com Moorea, Taha'a ou um atol, totalizando de 10 a 16 dias com os voos.",
+      },
+      {
+        q: "Qual a melhor época para ir a Bora Bora?",
+        a: "Maio a outubro costuma ser o período mais seco e procurado. Novembro a abril é mais quente e úmido. Avaliamos suas datas antes de reservar.",
+      },
+      {
+        q: "Vale combinar Bora Bora com outras ilhas?",
+        a: "Sim. Moorea traz mais paisagem e vida local; Taha'a, tranquilidade; atóis como Rangiroa ou Fakarava são indicados para mergulho. A combinação depende do seu perfil.",
+      },
+      {
+        q: "Quanto custa uma viagem para Bora Bora?",
+        a: "O valor depende de datas, resort, categoria do bangalô, número de noites e ilhas combinadas. Preparamos uma proposta personalizada após entender sua viagem.",
+      },
+    ],
   },
   {
     slug: "australia",

@@ -79,7 +79,7 @@ const Regiao = () => {
   return (
     <>
       <SEO
-        title={`${region.label}: roteiro, melhor época e o que fazer`}
+        title={region.metaTitle ?? `${region.label}: roteiro, melhor época e o que fazer`}
         description={`Viagem para ${region.label} com curadoria autoral: melhor época, o que fazer, onde ficar e roteiro sob medida. ${region.metaDescription}`}
         canonicalPath={`/${region.slug}`}
         keywords={buildPlaceKeywords(region.label, undefined, [`turismo ${region.label}`, `roteiro ${region.label}`, `pacote ${region.label}`])}
