@@ -101,7 +101,7 @@ export const diaryPostsCombos: DiaryPost[] = [
   {
     slug: "rota-das-emocoes-jericoacoara-delta-lencois-roteiro",
     imageOverrideUrl: "/src/assets/diary/rota-das-emocoes.jpg",
-    title: "Rota das Emoções: roteiro de 10 dias por Jeri, Delta e Lençóis",
+    title: "Rota das Emoções: Jeri, Delta e Lençóis em 10 dias",
     h1: "Rota das Emoções: Jericoacoara, Delta do Parnaíba e Lençóis em 10 dias",
     metaDescription:
       "Planeje a Rota das Emoções em 8 a 12 dias: Jericoacoara, Delta do Parnaíba e Lençóis Maranhenses, melhor época, roteiro privativo e logística com conforto.",
