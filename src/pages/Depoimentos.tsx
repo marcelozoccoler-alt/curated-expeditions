@@ -13,25 +13,25 @@ import { Quote, Camera, BadgeCheck, Images } from "lucide-react";
 const DOMAIN = CONTACT.domain.replace(/\/$/, "");
 const PHOTOS_PREVIEW = 6;
 
+// Prioridade editorial compartilhada pela lista visível e seus dados estruturados.
+export const TESTIMONIAL_ORDER = [
+  "yolanda-paschoal-emilio",
+  "beatriz-moreira-rogers-pin-sete-anos",
+  "labib-maria-miguel-bernardi-desde-2015",
+  "tania-abreu-turquia-novembro-2025",
+  "maite-leal-murilo-lamano-patagonia-leste-europeu",
+  "luana-santos-cinco-viagens",
+];
+
 const Depoimentos = () => {
   const [filter, setFilter] = useState<string>("Todos");
   const [expanded, setExpanded] = useState<Record<string, boolean>>({});
 
-  // Ordem editorial definida: Beatriz, Yolanda, Labib, Tânia, Maite & Murilo, Luana.
-  const ORDER = [
-    "beatriz-moreira-rogers-pin-sete-anos",
-    "yolanda-paschoal-emilio",
-    "labib-maria-miguel-bernardi-desde-2015",
-    "tania-abreu-turquia-novembro-2025",
-    "maite-leal-murilo-lamano-patagonia-leste-europeu",
-    "luana-santos-cinco-viagens",
-  ];
-
   const ordered = useMemo(
     () =>
       [...testimonials].sort((a, b) => {
-        const ia = ORDER.indexOf(a.slug);
-        const ib = ORDER.indexOf(b.slug);
+        const ia = TESTIMONIAL_ORDER.indexOf(a.slug);
+        const ib = TESTIMONIAL_ORDER.indexOf(b.slug);
         return (ia === -1 ? 99 : ia) - (ib === -1 ? 99 : ib);
       }),
     [],
@@ -61,7 +61,7 @@ const Depoimentos = () => {
       "@context": "https://schema.org",
       "@type": "ItemList",
       name: "Nós viajamos! — histórias de viagem Create Travel",
-      itemListElement: testimonials.map((t, i) => ({
+      itemListElement: ordered.map((t, i) => ({
         "@type": "ListItem",
         position: i + 1,
         name: t.title,
