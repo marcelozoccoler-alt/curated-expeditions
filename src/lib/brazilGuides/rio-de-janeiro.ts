@@ -205,14 +205,14 @@ export const rioDeJaneiroGuide: BrazilGuideLocalized = {
   },
 
   en: {
-    metaTitle: "Rio de Janeiro Guide: Skip the Line, Local Curation",
+    metaTitle: "Rio de Janeiro Private Tour: Itinerary, Best Time & Quote",
     metaDescription:
-      "A curated guide to Rio de Janeiro: Christ the Redeemer and Sugarloaf without queues, Santa Teresa, hiking trails, beaches, a favela visit with a local host, and extensions to Búzios, Paraty and Angra dos Reis.",
+      "Plan a private Rio de Janeiro trip: suggested 4-night itinerary with Christ the Redeemer, Sugarloaf, beaches and trails, best time to visit, how to get there, FAQs and a WhatsApp quote.",
     keywords:
       "rio de janeiro travel guide, christ the redeemer skip the line, sugarloaf mountain, santa teresa rio, pedra da gavea hike, dois irmaos trail, copacabana ipanema, favela tour rio, luxury rio itinerary, buzios paraty angra",
-    h1: "Rio de Janeiro: a curated guide from people who know the city inside out",
+    h1: "Rio de Janeiro private trip: itinerary, best time and how to get there",
     aiAnswer:
-      "The best time to visit Rio de Janeiro is April to June and August to October (less rain, mild heat, lively but not overcrowded); plan 4 to 5 nights, using Santos Dumont Airport (SDU) for domestic flights and Galeão (GIG) for international arrivals.",
+      "The best time to visit Rio de Janeiro is April to June and August to October (less rain, mild heat, lively but not overcrowded); plan 4 to 5 nights, using Santos Dumont Airport (SDU) for domestic flights and Galeão (GIG) for international arrivals. Create Travel designs private, tailor-made trips for international travellers, often combining Rio de Janeiro with other Brazilian biomes, and sends a written quote via WhatsApp.",
     intro: [
       "Rio de Janeiro is Brazil's most photographed city — and, precisely because of that, its most misunderstood. Travelers who arrive with a postcard checklist leave with photographs, not with the city. Rio reveals itself in layers: the mountain, the forest inside the asphalt, the sea, the inhabited hillsides, the table, the music drifting through a window at seven in the evening.",
       "This guide comes from years of organizing arrivals in Rio for travelers who have already seen the world and have no patience for queues, generic guides, or the itinerary every agency sells the same way. Here is what actually works: the right hours for Christ the Redeemer and Sugarloaf, hikes matched to the right energy for each age, and how to leave the city without leaving the spell, toward Búzios, Paraty or Angra dos Reis.",
@@ -334,10 +334,16 @@ export const rioDeJaneiroGuide: BrazilGuideLocalized = {
       ],
     },
     itinerary: {
-      heading: "How to combine Rio de Janeiro with a Brazil itinerary",
+      heading: "Suggested itinerary and how to combine with other Brazilian biomes",
       intro:
         "Rio works very well as Brazil's gateway or exit point, with Galeão (GIG) receiving direct international flights and Santos Dumont (SDU) concentrating the domestic network right in the city center.",
       items: [
+        { title: "Day 1 — Arrive in Rio", text: "Arrive at Galeão (GIG), private transfer to your hotel in Ipanema, Leblon or Copacabana. Sunset on the beach." },
+        { title: "Day 2 — Christ the Redeemer and Santa Teresa", text: "Morning visit to Christ the Redeemer with timed entry, then Santa Teresa and the historic centre with a local guide." },
+        { title: "Day 3 — Sugarloaf and nature", text: "A trail in the Tijuca Forest or a guided hike, and the Sugarloaf cable car in the late afternoon." },
+        { title: "Day 4 — Free day or extension", text: "Beach time, a cultural visit, or an extension to Búzios, Paraty or Angra dos Reis." },
+        { title: "Day 5 — Onward flight", text: "Connect to the Pantanal, the Amazon, Iguazu or home." },
+        { title: "Combine two or more Brazilian biomes", text: "Brazil has six land biomes plus a coastal and marine zone — seven different landscapes and cultures. Pairing Rio de Janeiro with at least one more, such as Rio's Atlantic Forest and beaches + the Pantanal + the Amazon or Iguazu Falls, is the best way to understand the country in one trip." },
         {
           title: "Rio de Janeiro + Búzios — 6 to 7 days",
           text: "Three to four nights in the city and two to three in Búzios, a 2.5-hour drive away, trading mountain and urbanity for sixteen beaches and a sophisticated fishing-village atmosphere.",
@@ -396,12 +402,16 @@ export const rioDeJaneiroGuide: BrazilGuideLocalized = {
         q: "How much does a trip to Rio de Janeiro with Create Travel cost?",
         a: "We do not work with shelf pricing: the budget depends on the hotel, season and private experiences chosen. A human consultant builds the proposal and presents costs in writing.",
       },
+      { q: "Do I need a visa or vaccines?", a: "Visa rules depend on your nationality, so check with the Brazilian consulate before booking. Ask your doctor about recommended vaccines, such as yellow fever, at least ten days before travel." },
+      { q: "Will my guide speak English?", a: "Yes. We arrange English-speaking local guides and private transfers throughout." },
+      { q: "How do I get to Rio de Janeiro?", a: "Most international travellers fly directly into Rio de Janeiro Galeão (GIG) or via São Paulo (GRU). Santos Dumont (SDU), close to the centre, handles many domestic flights to the rest of Brazil." },
+      { q: "Can I combine Rio de Janeiro with other Brazilian biomes?", a: "Yes, and we recommend it. Brazil has six land biomes — Amazon, Pantanal, Cerrado, Atlantic Forest, Caatinga and Pampa — plus a long coastal and marine zone: seven very different landscapes, with their own wildlife, food and culture. Combining two or more in one trip, for example Rio's Atlantic Forest and beaches + the Pantanal + the Amazon or Iguazu Falls, shows a much fuller Brazil. We plan the domestic flights and transfers in a single quote." },
     ],
     cta: {
-      heading: "Let's design your Rio de Janeiro",
+      heading: "Request your Rio de Janeiro trip quote",
       subheading:
-        "A human consultant at Create Travel chooses the right hours, neighborhoods and experiences for your profile — without queues or generic itineraries.",
-      button: "Talk to a travel designer",
+        "Tell us your dates, number of travellers and interests. A Create Travel travel designer replies on WhatsApp, in English, with a private itinerary — combining other Brazilian biomes if you wish — and a written quote.",
+      button: "Request a quote on WhatsApp",
     },
     readingMinutes: 13,
     publishedAt: "2026-08-11",

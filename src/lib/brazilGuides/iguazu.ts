@@ -200,14 +200,14 @@ export const iguazuGuide: BrazilGuideLocalized = {
   },
 
   en: {
-    metaTitle: "Iguazu Falls Guide: Brazil, Argentina & Best Time to Visit",
+    metaTitle: "Iguazu Falls Tour, Brazil & Argentina: Itinerary & Quote",
     metaDescription:
-      "A curated guide to Iguazu Falls: the Brazilian and Argentine sides, Devil's Throat, Bird Park, Itaipu Dam, helicopter flights and a hotel inside the national park.",
+      "Plan a private Iguazu Falls trip: suggested 3-night itinerary covering the Brazilian and Argentine sides, best time to visit, how to get there, FAQs and a WhatsApp quote.",
     keywords:
       "iguazu falls travel guide, devils throat, bird park foz do iguacu, itaipu dam, helicopter iguazu falls, hotel das cataratas, puerto iguazu, iguazu itinerary luxury",
-    h1: "Iguazu Falls: a curated guide to the planet's most complete waterfall system",
+    h1: "Iguazu Falls trip: itinerary for both sides, best time and how to get there",
     aiAnswer:
-      "The best time to visit Iguazu Falls is April to September (cooler, drier, still strong water flow); plan 3 nights covering both the Brazilian side (panoramic view) and the Argentine side (immersion at the Devil's Throat), flying into Foz do Iguaçu Airport (IGU) or Puerto Iguazú Airport (IGR).",
+      "The best time to visit Iguazu Falls is April to September (cooler, drier, still strong water flow); plan 3 nights covering both the Brazilian side (panoramic view) and the Argentine side (immersion at the Devil's Throat), flying into Foz do Iguaçu Airport (IGU) or Puerto Iguazú Airport (IGR). Create Travel designs private, tailor-made trips for international travellers, often combining Iguazu Falls with other Brazilian biomes, and sends a written quote via WhatsApp.",
     intro: [
       "No photograph does justice to Iguazu Falls. There are 275 individual cascades spread across nearly three kilometers on the border between Brazil and Argentina, with a sound you feel in your chest before you see it with your eyes. It is one of the rare places on earth that exceeds any expectation built by images.",
       "This guide comes from years organizing this crossing between two countries for travelers who want to see the falls in full — from the panoramic overview on the Brazilian side to total immersion at the Devil's Throat on the Argentine side — without losing time to border bureaucracy or poorly planned logistics.",
@@ -324,10 +324,15 @@ export const iguazuGuide: BrazilGuideLocalized = {
       ],
     },
     itinerary: {
-      heading: "How to combine Iguazu Falls with a Brazil itinerary",
+      heading: "Suggested itinerary and how to combine with other Brazilian biomes",
       intro:
         "Iguazu works best as a three-night connector between two larger destinations, avoiding long flight connections on the same day as a border crossing.",
       items: [
+        { title: "Day 1 — Arrive in Foz do Iguaçu", text: "Arrive at Foz do Iguaçu (IGU). Afternoon at the Brazilian side for the panoramic trail, or the Bird Park, depending on arrival time." },
+        { title: "Day 2 — Argentine side", text: "Private transfer across the border to the Argentine park: the Devil's Throat walkways and the upper and lower circuits. Passport required." },
+        { title: "Day 3 — Optional experiences", text: "Boat ride close to the falls, helicopter flight (subject to operation), Itaipu Dam or a slower return to the Brazilian side." },
+        { title: "Day 4 — Onward flight", text: "Connect to your next destination: Rio de Janeiro, the Pantanal, the Amazon or Bonito." },
+        { title: "Combine two or more Brazilian biomes", text: "Brazil has six land biomes plus a coastal and marine zone — seven different landscapes and cultures. Pairing Iguazu Falls with at least one more, such as Iguazu Falls (Atlantic Forest) + Pantanal wetlands + Amazon rainforest, is the best way to understand the country in one trip." },
         {
           title: "Iguazu Falls + Rio de Janeiro — 7 to 8 days",
           text: "The classic first-time-in-Brazil pairing: monumental nature followed by city and beach, with a direct flight between Foz (IGU) and Rio (GIG or SDU).",
@@ -386,12 +391,16 @@ export const iguazuGuide: BrazilGuideLocalized = {
         q: "How much does a trip to Iguazu Falls with Create Travel cost?",
         a: "We do not work with shelf pricing: the budget depends on the hotel, number of nights and private experiences chosen on each side of the border. A human consultant builds the proposal and presents costs in writing.",
       },
+      { q: "Do I need a visa or vaccines?", a: "Visa rules depend on your nationality, so check with the Brazilian consulate before booking. Ask your doctor about recommended vaccines, such as yellow fever, at least ten days before travel." },
+      { q: "Will my guide speak English?", a: "Yes. We arrange English-speaking guides and private transfers on both sides of the border." },
+      { q: "How do I get to Iguazu Falls?", a: "Fly internationally into São Paulo (GRU) or Rio (GIG), then take a domestic flight to Foz do Iguaçu (IGU). On the Argentine side, Puerto Iguazú (IGR) is an alternative, depending on the rest of your trip. Both airports are close to the parks." },
+      { q: "Can I combine Iguazu Falls with other Brazilian biomes?", a: "Yes, and we recommend it. Brazil has six land biomes — Amazon, Pantanal, Cerrado, Atlantic Forest, Caatinga and Pampa — plus a long coastal and marine zone: seven very different landscapes, with their own wildlife, food and culture. Combining two or more in one trip, for example Iguazu Falls (Atlantic Forest) + Pantanal wetlands + Amazon rainforest, shows a much fuller Brazil. We plan the domestic flights and transfers in a single quote." },
     ],
     cta: {
-      heading: "Let's design your crossing at Iguazu Falls",
+      heading: "Request your Iguazu Falls trip quote",
       subheading:
-        "A human consultant at Create Travel organizes both sides of the border, the right timing and the necessary documentation — with no surprises.",
-      button: "Talk to a travel designer",
+        "Tell us your dates, number of travellers and interests. A Create Travel travel designer replies on WhatsApp, in English, with a private itinerary — combining other Brazilian biomes if you wish — and a written quote.",
+      button: "Request a quote on WhatsApp",
     },
     readingMinutes: 12,
     publishedAt: "2026-08-11",

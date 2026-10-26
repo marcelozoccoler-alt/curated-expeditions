@@ -205,14 +205,14 @@ export const amazonGuide: BrazilGuideLocalized = {
   },
 
   en: {
-    metaTitle: "Amazon Brazil Guide: Best Time, Lodges & Itineraries",
+    metaTitle: "Amazon Rainforest Tour, Brazil: Itinerary, Best Time & Quote",
     metaDescription:
-      "A curated guide to the Brazilian Amazon: high and low water season by month, real experiences, the best lodges by traveler profile and how to combine the rainforest with the rest of Brazil.",
+      "Plan a private Amazon rainforest trip in Brazil: suggested 4-night lodge itinerary from Manaus, high and low water seasons, how to get there, FAQs and a WhatsApp quote.",
     keywords:
       "amazon brazil guide, best time to visit amazon, amazon lodge, rio negro anavilhanas, mamiraua uakari lodge, alter do chao, cristalino lodge, amazon itinerary brazil, luxury amazon trip",
-    h1: "The Brazilian Amazon: a curated guide from people who sleep there",
+    h1: "Amazon rainforest trip in Brazil: itinerary, best time and how to get there",
     aiAnswer:
-      "The best time to visit the Brazilian Amazon is September to November (low water, river beaches, concentrated wildlife) or March to June (high water, canoeing inside the flooded forest); plan a minimum of 3–4 lodge nights, flying into Manaus, Tefé or Santarém.",
+      "The best time to visit the Brazilian Amazon is September to November (low water, river beaches, concentrated wildlife) or March to June (high water, canoeing inside the flooded forest); plan a minimum of 3–4 lodge nights, flying into Manaus, Tefé or Santarém. Create Travel designs private, tailor-made trips for international travellers, often combining the Amazon with other Brazilian biomes, and sends a written quote via WhatsApp.",
     intro: [
       "The Amazon is not a place. It is 4.2 million km² inside Brazil alone — nine times Spain — with black, white and clear-water rivers that behave differently, hold different wildlife and shelter different cultures. Saying 'I want to see the Amazon' is like saying 'I want to see Europe'. Our first job is to find out which Amazon is yours.",
       "This guide is built on field time, not brochures: what each month actually delivers, which lodges are worth the flight and why, which experiences are real and which are staged for coach groups, and how to fit the rainforest into a wider Brazil itinerary without turning your holiday into an airport marathon.",
@@ -294,10 +294,15 @@ export const amazonGuide: BrazilGuideLocalized = {
       ],
     },
     itinerary: {
-      heading: "How to combine the Amazon with the rest of Brazil",
+      heading: "Suggested itinerary and how to combine with other Brazilian biomes",
       intro:
         "The rainforest needs intelligent sequencing: we never place the Amazon between two long flights on the same day, and we always add an urban night before the lodge to protect the trip from flight delays.",
       items: [
+        { title: "Day 1 — Arrive in Manaus", text: "Arrive at Manaus (MAO). Night in the city as a buffer against flight delays; optional visit to the Teatro Amazonas." },
+        { title: "Day 2 — To the Rio Negro lodge", text: "Morning road and/or boat transfer to a lodge on the Rio Negro or Anavilhanas area. Afternoon canoe outing and sunset on the river." },
+        { title: "Days 3 and 4 — Rainforest and rivers", text: "Forest walks with a naturalist guide, canoeing in channels or flooded forest depending on the season, visits to riverside communities where permitted, and night outings to look for caimans." },
+        { title: "Day 5 — Back to Manaus", text: "Return to Manaus and connect to your next flight, or continue to the Pantanal, Rio or Iguazu." },
+        { title: "Combine two or more Brazilian biomes", text: "Brazil has six land biomes plus a coastal and marine zone — seven different landscapes and cultures. Pairing the Amazon with at least one more, such as Amazon rainforest + Pantanal wetlands + Atlantic Forest coast in Rio, is the best way to understand the country in one trip." },
         { title: "Amazon + Rio de Janeiro — 10 to 12 days", text: "Four rainforest nights and four in Rio, with a buffer night in Manaus. The contrast is the most requested first-timer itinerary." },
         { title: "Amazon + Pantanal — 12 to 14 days", text: "Brazil's two great wildlife sanctuaries: immersion in the forest, guaranteed sightings on the wetlands. If jaguars matter, Pantanal delivers." },
         { title: "Amazon + Lençóis Maranhenses — 12 days", text: "September to November: low-water forest and lagoons still full in Maranhão, connecting via Belém or São Luís with a safety night." },
@@ -323,11 +328,15 @@ export const amazonGuide: BrazilGuideLocalized = {
       { q: "Is the Amazon safe? What about malaria?", a: "The lodges we work with are safe and well-supported. Yellow fever vaccination is mandatory; malaria risk is low in the main Rio Negro and Tapajós tourist areas and we advise case by case." },
       { q: "Amazon or Pantanal?", a: "Amazon for rainforest immersion, rivers and river-community culture. Pantanal for open-country wildlife with very high jaguar probability. With twelve days, do both." },
       { q: "How much does an Amazon trip cost?", a: "We never publish shelf prices. The budget depends on lodge, nights, air connections and season; a human consultant builds the proposal and sends written figures — we never estimate on the website." },
+      { q: "Do I need a visa or vaccines?", a: "Visa rules depend on your nationality, so check with the Brazilian consulate before booking. Ask your doctor about recommended vaccines, such as yellow fever, at least ten days before travel." },
+      { q: "Will my guide speak English?", a: "Yes. We arrange lodges and naturalist guides that work in English; Spanish, Italian or German may be possible depending on availability." },
+      { q: "How do I get to the Amazon rainforest?", a: "Fly internationally into São Paulo (GRU) or another Brazilian hub — some routes also connect directly — then take a domestic flight to Manaus (MAO). From Manaus, lodges are reached by road, boat or a combination, usually within a few hours. We always plan a night in Manaus before the lodge." },
+      { q: "Can I combine the Amazon with other Brazilian biomes?", a: "Yes, and we recommend it. Brazil has six land biomes — Amazon, Pantanal, Cerrado, Atlantic Forest, Caatinga and Pampa — plus a long coastal and marine zone: seven very different landscapes, with their own wildlife, food and culture. Combining two or more in one trip, for example Amazon rainforest + Pantanal wetlands + Atlantic Forest coast in Rio, shows a much fuller Brazil. We plan the domestic flights and transfers in a single quote." },
     ],
     cta: {
-      heading: "Let's design your Amazon",
-      subheading: "A Create Travel consultant picks the right river, lodge and season for your profile — and handles every connection.",
-      button: "Talk to a travel designer",
+      heading: "Request your Amazon trip quote",
+      subheading: "Tell us your dates, number of travellers and interests. A Create Travel travel designer replies on WhatsApp, in English, with a private itinerary — combining other Brazilian biomes if you wish — and a written quote.",
+      button: "Request a quote on WhatsApp",
     },
     readingMinutes: 12,
     publishedAt: "2026-08-11",
