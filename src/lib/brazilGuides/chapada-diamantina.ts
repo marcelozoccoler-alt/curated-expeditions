@@ -200,17 +200,17 @@ export const chapadaDiamantinaGuide: BrazilGuideLocalized = {
   },
 
   en: {
-    metaTitle: "Chapada Diamantina Guide: Trails, Pools & Best Time to Go",
+    metaTitle: "Chapada Diamantina, Brazil: Itinerary & Best Time to Visit",
     metaDescription:
-      "Vale do Pati, Fumaça waterfall and the blue glow of Poço Encantado: when to go for falls and pools, Lençóis & Capão bases, guided treks and curated stays.",
+      "Plan 5–7 days in Chapada Diamantina, Brazil: hiking, Fumaça waterfall, cave pools, where to stay and how to get there. Tailor-made trips with Create Travel.",
     keywords:
       "chapada diamantina brazil, vale do pati, cachoeira da fumaça, poço encantado, poço azul, lençois bahia, vale do capao, chapada diamantina trekking, best time chapada diamantina, chapada diamantina luxury itinerary",
-    h1: "Chapada Diamantina: a curated guide from people who have crossed the Vale do Pati on foot",
+    h1: "Chapada Diamantina, Brazil: a guide to hiking, waterfalls and cave pools",
     aiAnswer:
-      "The best time to visit Chapada Diamantina is April to September, with the fullest waterfalls at the start of this window and the most intense light in the crystalline pools between April and September; plan 5 to 7 days of guided trekking, flying into Lençóis (LEC) or Salvador (SSA).",
+      "Chapada Diamantina is a mountain region in Bahia, Brazil. Plan 5 to 7 days to combine viewpoints, waterfalls and cave pools, using Lençóis or Vale do Capão as a base. A multi-day Vale do Pati trek is an optional, more demanding itinerary. April to September is a useful planning window, but rainfall, waterfall flow and trail conditions vary. Consider Salvador (SSA) or Lençóis (LEC) for arrival, checking flights and onward transfers for your dates.",
     intro: [
       "Chapada Diamantina is a plateau rising over 1,500 metres in the heart of Bahia, where ancient quartzite mountains hold hidden valleys, crystal-clear rivers and caves with lakes that look sculpted by light. It was a 19th-century diamond mining region; today it is one of Brazil's most complete trekking territories, moving from dry cerrado to humid highland wetland within a few kilometres.",
-      "This guide gathers what we have learned walking the Vale do Pati and diving into the pools of Iraquara: when the water is clearest, when the waterfalls run fullest — not always the same season — which trails demand real fitness, and how to turn Chapada Diamantina into a multi-day immersion rather than a checklist of photos.",
+      "Start with the kind of trip you want: day outings from a comfortable base, or a multi-day trek with simple overnight stays. This guide separates those choices and explains the seasonal trade-offs, transport and walking demands. Create Travel can tailor the route, guides and accommodation to your pace; you do not need to complete the Vale do Pati crossing to enjoy the region.",
     ],
     seasons: {
       heading: "Best time to visit Chapada Diamantina, month by month",
@@ -219,19 +219,19 @@ export const chapadaDiamantinaGuide: BrazilGuideLocalized = {
       windows: [
         {
           window: "November to March — rainy season, waterfalls at their peak",
-          text: "Summer rains concentrated in the afternoon bring Cachoeira da Fumaça and Poço do Diabo to maximum volume, the display most sought by photographers. In return, rivers get murkier and some crossing trails close for safety on days of heavy rain.",
+          text: "The wetter season can bring stronger waterfalls, but flow is not guaranteed. Heavy rain can affect river clarity and make trails unsafe; keep plans flexible and follow local guidance on cancellations.",
         },
         {
           window: "April to June — transition, the best of both worlds",
-          text: "Rain eases off, rivers still carry volume from the waterfall season and the vegetation stays green. The most balanced window of the year, with safe trails and generous waterfalls.",
+          text: "A transition period that can balance greener scenery with improving walking conditions. Recent rainfall still matters: confirm trail access and waterfall conditions rather than relying on the calendar alone.",
         },
         {
           window: "July to September — dry season, crystal-clear pools",
-          text: "Poço Azul and Poço Encantado reach their highest transparency of the year, with sunlight hitting at a perfect angle around midday to create Bahia's most photographed electric-blue effect. Waterfalls lose volume, but the Vale do Pati is in ideal condition for multi-day crossings.",
+          text: "Often considered for hiking in drier conditions. Waterfalls may have less flow. The sunlight effect in cave pools depends on the specific attraction, date, weather and visiting time; confirm the viewing window before booking.",
         },
         {
           window: "October — pre-rain, still dry and already blooming",
-          text: "Last weeks of fully dry trails, with the cerrado beginning to bloom ahead of the first November rains. A good window for fewer crowds and lower-season rates.",
+          text: "Conditions may shift as the wetter season approaches. Check recent weather and local access before choosing long hikes; neither dry trails nor particular room rates are guaranteed.",
         },
       ],
     },
@@ -245,12 +245,12 @@ export const chapadaDiamantinaGuide: BrazilGuideLocalized = {
           text: "Considered one of Brazil's most beautiful treks, it passes isolated villages, canyons and lookouts over a valley that feels suspended in time. Done with a local guide and overnight stays in family-run guesthouses inside the valley — not for those seeking hotel-level comfort.",
         },
         {
-          title: "Cachoeira da Fumaça, Brazil's second-highest waterfall",
-          text: "Water falls 340 metres and dissolves into mist before touching the ground. The upper viewpoint, in Vale do Capão, requires just a few hours of walking; the base, seen from Vale do Pati, demands a longer trek.",
+          title: "Cachoeira da Fumaça — a guided hike to the upper viewpoint",
+          text: "A dramatic waterfall whose spray can drift into mist. The upper viewpoint is reached on foot from the Vale do Capão area. Discuss the ascent, uneven ground and walking time with your guide; visiting the base is a separate, more demanding trek, not an extension to add casually to the day.",
         },
         {
-          title: "Poço Encantado and Poço Azul, in Iraquara",
-          text: "Limestone caves with crystal-clear lakes where sunlight, between April and September, creates intense shades of blue. Visits are controlled and, in some caves, without water contact, to preserve transparency.",
+          title: "Poço Encantado and Poço Azul — plan each cave visit separately",
+          text: "Cave lakes known for their blue tones and seasonal sunlight effects. These are separate attractions with different access and water-contact rules. Confirm permitted activities, visiting times and transfers for each; do not assume that every cave pool allows swimming.",
         },
         {
           title: "Lençóis, the historic village that became an expedition base",
@@ -258,33 +258,33 @@ export const chapadaDiamantinaGuide: BrazilGuideLocalized = {
         },
         {
           title: "Vale do Capão, community and trailhead",
-          text: "An alternative village nestled among mountains, with a strong wellness community presence, good vegetarian food and direct access to trails like Cachoeira da Fumaça and Morro do Pai Inácio.",
+          text: "A village among mountains and a base for the upper Cachoeira da Fumaça hike. Compare its location with Lençóis before choosing accommodation, as the sights are spread out and road transfers take time.",
         },
         {
           title: "Poço do Diabo and Cachoeira do Riachinho",
-          text: "Less known than the postcards, offering a calm swim in clean water and short trails — ideal to alternate with the more intense trekking days.",
+          text: "Options to discuss for days between longer hikes. Access, water levels and safe bathing conditions must be checked locally; a shorter trail does not automatically mean an easy or accessible outing.",
         },
       ],
     },
     stays: {
       heading: "Where to stay in Chapada Diamantina — addresses by profile",
       intro:
-        "Chapada Diamantina has no large hotel chains — the charm lies in small pousadas, often owner-run. These are addresses we have tested and recommend with confidence.",
+        "Choose the base before the room: Lençóis and Vale do Capão suit different routes, while overnight stays inside Vale do Pati are simpler. The options below are starting points for a conversation, not confirmed bookings. Verify each property's location, facilities and availability in your written proposal.",
       items: [
         {
           name: "Canto das Águas (Lençóis)",
           profile: "First comfortable base in the region",
-          text: "A benchmark pousada by the Rio Lençóis, with a natural pool on the property and solid structure for those wanting comfort before or after trekking days.",
+          text: "A Lençóis accommodation option to consider for nights before or after guided outings. Confirm the room category and facilities for your stay.",
         },
         {
           name: "Portal Chapada (Lençóis)",
           profile: "Design and mountain views",
-          text: "Contemporary suites overlooking Morro do Pai Inácio, balancing careful design with proximity to the main trails.",
+          text: "Discuss the exact location, room outlook and transfer times before selecting it as your base; a mountain view does not mean walking access to the main sights.",
         },
         {
-          name: "Pousada Villa Serrano (Vale do Capão)",
+          name: "Pousada Villa Serrano",
           profile: "Retreat and slowing down",
-          text: "An intimate setting among mountains, ideal for decompression days between crossings, with good local cooking.",
+          text: "Confirm the property's location and services before adding it to the itinerary. Accommodation should be chosen around your planned outings, not the other way round.",
         },
         {
           name: "Family-run guesthouses of Vale do Pati",
@@ -294,7 +294,7 @@ export const chapadaDiamantinaGuide: BrazilGuideLocalized = {
         {
           name: "Casa Rosa (Lençóis)",
           profile: "Couples seeking historic charm",
-          text: "A restored colonial house in Lençóis' historic centre, with attention to detail and proximity to the village's simple nightlife.",
+          text: "An option to discuss for a Lençóis stay. Ask your consultant to confirm the address, room facilities and suitability for your preferred pace.",
         },
       ],
     },
@@ -311,11 +311,11 @@ export const chapadaDiamantinaGuide: BrazilGuideLocalized = {
         },
         {
           title: "Families with active teenagers",
-          text: "Short to moderate trails, calm-water pools and accessible viewpoints make a safe, rewarding itinerary without requiring the full crossing.",
+          text: "A route can focus on shorter outings rather than a full crossing. Review walking distances, terrain and any activity restrictions with the guide before confirming it for your family.",
         },
         {
           title: "Photographers and landscape lovers",
-          text: "July to September for the light in the pools, and late afternoon at Morro do Pai Inácio for Bahia's most photographed sunset.",
+          text: "Discuss cave-light viewing windows and a late-afternoon visit to Morro do Pai Inácio. Light, visibility and access depend on conditions, so allow flexibility rather than promising a particular photograph.",
         },
         {
           title: "Who it might not work for",
@@ -326,7 +326,7 @@ export const chapadaDiamantinaGuide: BrazilGuideLocalized = {
     itinerary: {
       heading: "How to fit Chapada Diamantina into a wider Brazil itinerary",
       intro:
-        "The region sits about six hours by road from Salvador, or one hour by flight into Lençóis' airport — so we always book a buffer night in Bahia's capital before and after Chapada Diamantina.",
+        "Salvador is a useful gateway for a trip combining Bahia's coast and mountains; Lençóis airport is another option when flights match your dates. Compare the road transfer with available flight schedules and allow time between connections. The suggested durations below are planning examples, not fixed packages.",
       items: [
         {
           title: "Chapada Diamantina + Salvador — 8 to 9 days",
@@ -354,7 +354,7 @@ export const chapadaDiamantinaGuide: BrazilGuideLocalized = {
       heading: "Practical tips that make a difference",
       items: [
         "Bring closed, well broken-in trail shoes — much of the terrain is quartzite rock, slippery even when dry.",
-        "A local guide is mandatory on several trails, including Vale do Pati, and highly recommended on all others.",
+        "Use a qualified local guide for remote or demanding hikes, especially Vale do Pati. Check current entry requirements and trail rules for each outing.",
         "Sunscreen, a hat and constant hydration are essential: the cerrado sun dehydrates fast even on mild days.",
         "Mobile signal is scarce or nonexistent inside Vale do Pati and in smaller villages — let family know before travelling.",
         "Bring cash: few establishments outside Lençóis accept cards.",
@@ -364,27 +364,27 @@ export const chapadaDiamantinaGuide: BrazilGuideLocalized = {
     faq: [
       {
         q: "How many days do you need to visit Chapada Diamantina?",
-        a: "Five days is the practical minimum to combine half-day trails and pools without rushing. Seven days allow you to include the Vale do Pati crossing, the region's most complete experience.",
+        a: "Use 5 to 7 days as a starting point for viewpoints, waterfalls and cave pools. A Vale do Pati crossing usually needs its own 3 to 4 walking days, plus transfers; decide what to leave out rather than assuming every highlight fits into one week.",
       },
       {
         q: "What is the best time to visit Chapada Diamantina?",
-        a: "April to September is the safest window, with dry trails and the best pool transparency between July and September. November to March brings fuller waterfalls, but crossing trails may close on days of heavy rain.",
+        a: "April to September is a useful planning window for hiking, while the wetter months can bring stronger waterfall flow. Neither trail safety nor water levels are guaranteed by the season. Confirm recent conditions and each cave's sunlight window for your dates.",
       },
       {
         q: "Do you need to be fit to hike in Chapada Diamantina?",
-        a: "For short trails to the main pools and viewpoints, no. For the Vale do Pati and multi-day treks, basic cardiovascular fitness and prior experience with uneven terrain are recommended.",
+        a: "It depends on the outing. Even shorter walks can involve steep or uneven ground. Vale do Pati and multi-day hikes require preparation for sustained walking. Tell your consultant about mobility limitations and hiking experience so the route can be adapted.",
       },
       {
         q: "How do you get to Chapada Diamantina?",
-        a: "Lençóis airport (LEC) receives regional flights from Salvador; alternatively, fly into Salvador (SSA) and continue by road, roughly a six-hour drive to Lençóis.",
+        a: "Consider flying into Salvador (SSA) and continuing by road, or using Lençóis airport (LEC) if its current flights suit your dates. Confirm the operating schedule, road-transfer time and connection margins before buying tickets.",
       },
       {
         q: "Can you visit Poço Azul and Poço Encantado on the same day?",
-        a: "Yes, both are in the municipality of Iraquara and can be visited the same day with private transport, though each reaches its most intense light at a specific midday time — we plan the day's route around it.",
+        a: "A combined visit may be possible, but the two attractions require separate planning. Confirm transfer times, opening hours, access rules and sunlight windows before committing to both in one day. Swimming permissions are not the same at every cave pool.",
       },
       {
         q: "How much does a trip to Chapada Diamantina with Create Travel cost?",
-        a: "We do not work with shelf pricing: the budget depends on the pousada, number of days, type of trekking and need for specialized guides. A human consultant builds the proposal and sends the figures in writing.",
+        a: "The price depends on dates, number of travellers, accommodation, transfers and guided activities. Send those details, your arrival city and preferred walking pace to Create Travel. Your written proposal should specify the services included and any optional activities before you book.",
       },
     ],
     cta: {

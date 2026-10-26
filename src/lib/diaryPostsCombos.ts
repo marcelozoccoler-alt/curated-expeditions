@@ -101,81 +101,81 @@ export const diaryPostsCombos: DiaryPost[] = [
   {
     slug: "rota-das-emocoes-jericoacoara-delta-lencois-roteiro",
     imageOverrideUrl: "/src/assets/diary/rota-das-emocoes.jpg",
-    title: "Rota das Emoções: Jericoacoara, Delta e Lençóis em um roteiro",
-    h1: "Rota das Emoções: de Jericoacoara ao Delta do Parnaíba e aos Lençóis Maranhenses",
+    title: "Rota das Emoções: Jeri, Delta e Lençóis em 10 dias",
+    h1: "Rota das Emoções: Jericoacoara, Delta do Parnaíba e Lençóis em 10 dias",
     metaDescription:
-      "Como fazer a Rota das Emoções com conforto: Jericoacoara, Delta do Parnaíba e Lençóis Maranhenses em 8 a 12 dias, melhor época, logística 4x4 e hospedagens selecionadas.",
+      "Planeje a Rota das Emoções em 8 a 12 dias: Jericoacoara, Delta do Parnaíba e Lençóis Maranhenses, melhor época, roteiro privativo e logística com conforto.",
     keywords:
       "rota das emocoes, jericoacoara lencois maranhenses roteiro, delta do parnaiba, roteiro ceara piaui maranhao, atins barreirinhas, quando ir lencois maranhenses, viagem autoral nordeste brasil",
     intro:
-      "A Rota das Emoções tem um nome de folheto e uma paisagem que nenhum folheto alcança. São 1.400 quilômetros entre Ceará, Piauí e Maranhão em que o litoral brasileiro muda de personalidade três vezes: começa como duna e vento em Jericoacoara, vira labirinto de água doce e mangue no Delta do Parnaíba e termina como um deserto alagado de horizonte branco nos Lençóis Maranhenses. Feita com pressa, é uma maratona de 4x4. Feita com curadoria, é uma das viagens mais surpreendentes que se pode fazer sem sair do país.",
+      "A Rota das Emoções combina Jericoacoara, o Delta do Parnaíba e os Lençóis Maranhenses em uma viagem pelo Ceará, Piauí e Maranhão. Planeje de 8 a 12 dias; o roteiro de 10 dias abaixo é uma sugestão para equilibrar passeios e deslocamentos. Dunas, manguezais e lagoas mudam a paisagem a cada etapa. A curadoria está em escolher as bases, coordenar os trajetos e deixar tempo para aproveitar cada lugar.",
     sections: [
       {
         heading: "Resposta curta: o que é a Rota das Emoções",
         paragraphs: [
-          "É o trajeto costeiro que conecta três áreas protegidas em três estados: Jericoacoara (CE), o Delta do Parnaíba (PI/MA) e o Parque Nacional dos Lençóis Maranhenses (MA). A distância total é de cerca de 1.400 km, percorridos em 4x4, lancha e voo panorâmico.",
-          "O sentido mais comum é Fortaleza → Jericoacoara → Parnaíba/Delta → Barreirinhas ou Atins → São Luís, mas ele funciona igualmente bem no sentido inverso, o que às vezes rende passagens aéreas melhores.",
+          "É um roteiro que conecta Jericoacoara (CE), o Delta do Parnaíba (PI/MA) e o Parque Nacional dos Lençóis Maranhenses (MA). Os deslocamentos combinam transporte terrestre e passeios de barco; o sobrevoo é uma experiência opcional, não uma etapa necessária da rota.",
+          "Uma opção é Fortaleza → Jericoacoara → Parnaíba/Delta → Barreirinhas ou Atins → São Luís. O sentido inverso também é possível. A escolha depende dos voos disponíveis, das datas e das bases de hospedagem.",
         ],
       },
       {
         heading: "Roteiro de 10 dias, sem correria",
         paragraphs: [
-          "Dias 1 a 3 — Jericoacoara: pôr do sol na Duna e na Pedra Furada, lagoa do Paraíso em rede dentro d'água, Tatajuba e Guriú de bugue privativo. Três noites permitem um dia sem agenda, que é justamente onde Jeri acontece.",
-          "Dias 4 e 5 — travessia litorânea até Camocim e Parnaíba, com Delta do Parnaíba de lancha rápida: 80 ilhas, dunas na foz, guarás vermelhos ao entardecer e almoço de peixe na Ilha do Caju.",
-          "Dias 6 a 9 — Lençóis Maranhenses com base dupla: Atins, para a experiência mais autêntica, e Barreirinhas, para o conforto e as lagoas clássicas. Circuito Lagoa Azul, Lagoa Bonita, travessia de Santo Amaro e sobrevoo de aeronave leve.",
-          "Dia 10 — descida de lancha pelo rio Preguiças até Caburé e transfer para São Luís, com tarde no centro histórico tombado pela Unesco.",
+          "Dias 1 a 3 — Jericoacoara: chegada, passeios à Lagoa do Paraíso, Tatajuba e Guriú, além de tempo livre na vila. A visita à Pedra Furada e o pôr do sol entram conforme as condições locais e o ritmo dos viajantes.",
+          "Dias 4 e 5 — deslocamento até Parnaíba, com possibilidade de passagem por Camocim, e passeio de barco no Delta. Dunas, manguezais e observação de aves compõem a experiência; avistamentos dependem das condições naturais.",
+          "Dias 6 a 9 — Lençóis Maranhenses: escolha Barreirinhas, Atins ou uma combinação das duas bases. Os circuitos de lagoas são definidos conforme a época e os acessos. Santo Amaro e sobrevoo podem exigir ajustes no roteiro; não é necessário incluir todos os passeios para conhecer bem a região.",
+          "Dia 10 — transfer para São Luís. O passeio pelo rio Preguiças pode ser realizado em um dos dias anteriores, para não comprometer o horário do deslocamento. A visita ao centro histórico depende da hora de chegada e do voo de retorno.",
         ],
       },
       {
         heading: "Melhor época: a janela das lagoas cheias",
         paragraphs: [
-          "As lagoas dos Lençóis se formam com a chuva de janeiro a maio e ficam no auge entre junho e agosto — julho é o pico de água e de visitação. Em setembro elas começam a secar; em outubro, boa parte já sumiu.",
-          "Jericoacoara e o Delta funcionam o ano inteiro, mas de julho a dezembro o vento é mais forte (bom para kite, exigente para quem quer praia calma). A janela ideal para a rota completa é de junho a agosto: lagoas cheias, sol confiável e estradas trafegáveis.",
+          "Junho a agosto é uma boa referência para planejar a viagem com foco nas lagoas dos Lençóis Maranhenses. O volume de água depende das chuvas de cada ano; não há garantia de que todas as lagoas estejam cheias em uma data específica.",
+          "Jericoacoara e o Delta podem integrar viagens em outros meses. Para combinar os três destinos, confira as condições das lagoas, o vento e os acessos antes de fechar as datas. A programação pode precisar de ajustes por chuva ou maré.",
         ],
       },
       {
         heading: "Atins ou Barreirinhas: a decisão que muda a viagem",
         paragraphs: [
-          "Barreirinhas tem infraestrutura, restaurantes e acesso rápido ao circuito Lagoa Azul. É a escolha prática, e onde estão as pousadas de padrão mais alto.",
-          "Atins é uma vila de rua de areia na foz do Preguiças, com pousadas pequenas de design e cozinha autoral, e dá acesso direto às lagoas mais isoladas — Betânia e Emendadas — quase sem outros visitantes. Nos nossos roteiros dividimos as noites entre as duas, porque cada uma entrega uma metade diferente do parque.",
+          "Barreirinhas reúne restaurantes, hospedagens e acesso a circuitos como Lagoa Azul e Lagoa Bonita. É uma base prática para quem valoriza infraestrutura e variedade de serviços.",
+          "Atins tem ruas de areia e um ambiente de vila, com pousadas de charme. A escolha depende do estilo de viagem e da facilidade de locomoção desejada. Dividir as noites entre as duas bases é uma possibilidade, não uma obrigação; cada mudança de hotel acrescenta um deslocamento.",
         ],
       },
       {
         heading: "Logística: o que ninguém conta antes",
         paragraphs: [
-          "Não existe estrada asfaltada contínua ligando os três destinos: parte do trajeto é feita em 4x4 por faixa de praia, com horários condicionados à maré. Isso torna o motorista-guia experiente o item mais importante do roteiro, muito acima da categoria do hotel.",
-          "Voos: Fortaleza e São Luís são as portas de entrada e saída, e a rota funciona melhor comprada como trecho aberto (chegando por uma e voltando pela outra). Jericoacoara também recebe voos diretos no aeroporto de Cruz, a 45 minutos da vila.",
-          "O sobrevoo dos Lençóis dura de 30 a 60 minutos e é o único jeito de entender a escala do parque — 155 mil hectares de dunas. Reservamos sempre no início da manhã, quando o ar está mais estável.",
+          "Os transfers entre cidades e os passeios em areia são etapas diferentes. O veículo e o trajeto devem ser escolhidos para cada trecho; percursos por praia ou dunas dependem dos acessos permitidos e, quando aplicável, da maré. Um motorista-guia local ajuda a coordenar esses horários.",
+          "Fortaleza e São Luís são opções para chegar por uma cidade e retornar pela outra, evitando refazer o trajeto. O aeroporto de Jericoacoara, em Cruz, também pode ser considerado. Disponibilidade de voos e tempo de transfer precisam ser conferidos para as datas escolhidas.",
+          "O sobrevoo dos Lençóis é opcional e deve ser cotado separadamente quando não constar da proposta. A realização depende de disponibilidade, condições meteorológicas e regras da operação.",
         ],
       },
       {
         heading: "Roteiro autoral Create Travel",
         paragraphs: [
-          "Operamos a Rota das Emoções em regime privativo: 4x4 exclusivo com motorista-guia, transfers coordenados por maré, lancha privativa no Delta, sobrevoo agendado e pousadas escolhidas por experiência direta, não por catálogo.",
-          "O programa parte de 8 dias e se estende para 12 com Camocim, Ilha do Caju e São Luís/Alcântara. Valores sob consulta, conforme a data, a categoria de hospedagem e a cidade de origem.",
+          "A Create Travel desenha a Rota das Emoções sob medida, com transporte privativo, passeios e pousadas selecionados conforme o perfil dos viajantes. Antes de reservar, a proposta deve indicar as bases, os serviços privativos, as inclusões e os passeios opcionais.",
+          "Use de 8 a 12 dias como ponto de partida. Para solicitar uma proposta, informe datas, número de viajantes, cidade de origem e preferências de hospedagem e ritmo. Os valores são apresentados conforme os serviços escolhidos; esta sugestão de roteiro não é um pacote com preço ou inclusões fixas.",
         ],
       },
     ],
     faq: [
       {
         q: "Qual a melhor época para fazer a Rota das Emoções?",
-        a: "De junho a agosto, quando as lagoas dos Lençóis Maranhenses estão cheias e o tempo é seco em todo o trajeto. Julho é o mês de maior volume de água e também o de maior procura, por isso reservamos com meses de antecedência.",
+        a: "Junho a agosto é uma boa referência para combinar os três destinos com foco nas lagoas dos Lençóis. O nível de água varia conforme as chuvas do ano, e passeios podem ser ajustados por clima e maré.",
       },
       {
         q: "Quantos dias são necessários?",
-        a: "Oito dias é o mínimo para não transformar a rota em uma sequência de transfers. Dez a doze dias permitem duas noites extras nos Lençóis e um dia livre em Jericoacoara.",
+        a: "Planeje de 8 a 12 dias. A sugestão de 10 dias distribui a viagem entre Jericoacoara, Parnaíba e Lençóis; o número de noites em cada base deve considerar os horários dos voos e o ritmo desejado.",
       },
       {
         q: "Dá para fazer a Rota das Emoções de carro próprio?",
-        a: "Não recomendamos. Trechos são feitos por faixa de praia com dependência de maré e por areia fofa, com risco real de atolamento. Trabalhamos sempre com 4x4 e motorista-guia local.",
+        a: "É importante separar deslocamentos rodoviários de passeios em areia. Não recomendamos dirigir por praias e dunas por conta própria. A proposta sob medida define o transporte adequado para cada trecho e os passeios com motorista-guia local.",
       },
       {
         q: "Em qual sentido é melhor fazer o roteiro?",
-        a: "Fortaleza → Jericoacoara → Delta → Lençóis → São Luís é o sentido mais comum e o que fecha a viagem com o centro histórico de São Luís. O sentido inverso funciona igualmente bem e às vezes rende tarifas aéreas melhores.",
+        a: "Fortaleza → Jericoacoara → Delta → Lençóis → São Luís é uma opção. O sentido inverso também funciona; compare voos, horários e bases antes de escolher, sem presumir que um sentido será sempre mais vantajoso.",
       },
       {
         q: "Existe hospedagem de alto padrão nesse trajeto?",
-        a: "Sim, em Jericoacoara, Barreirinhas e Atins há pousadas boutique com serviço, gastronomia e design de bom nível. O Delta é o trecho mais simples e costuma ser resolvido com uma noite em Parnaíba ou na Ilha do Caju.",
+        a: "Há pousadas de charme em Jericoacoara, Barreirinhas e Atins. A seleção considera conforto, localização e serviços disponíveis. A hospedagem na etapa do Delta deve ser definida junto com o passeio e os transfers, sem pressupor o mesmo padrão em todas as bases.",
       },
     ],
     relatedDestinations: [

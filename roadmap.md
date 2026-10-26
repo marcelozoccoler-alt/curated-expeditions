@@ -1,5 +1,7 @@
 # Roadmap
 
+- [x] Revisar títulos, descrições e clareza da Rota das Emoções e da Chapada Diamantina em inglês; textos conferidos no preview, sem erros de execução, 243 testes aprovados; sem publicar.
+
 - [x] Colocar Yolanda Paschoal e Emílio como primeiro depoimento em Nós viajamos!: ordem conferida no navegador e teste aprovado; não publicado.
 - [x] Vídeo da Chapada Diamantina gerado: 15,125 s, vertical 720p, logo e legenda trilíngue; imagens, transições e volume conferidos. Falta confirmar por escuta a ausência de voz/música; entregue para revisão, não publicado.
 
