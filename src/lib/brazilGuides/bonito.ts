@@ -316,7 +316,7 @@ export const bonitoGuide: BrazilGuideLocalized = {
       intro:
         "Bonito demands unusually early planning by Brazilian standards: the best floating and Abismo Anhumas quotas sell out months in advance, so the itinerary is built around availability, not the other way round.",
       items: [
-        { title: "Day 1 — Campo Grande to Bonito", text: "Arrive at Campo Grande (CGR) and take a private transfer of a few hours to Bonito, or fly to Bonito (BYO) when flights operate." },
+        { title: "Day 1 — Campo Grande to Bonito", text: "Arrive at Campo Grande (CGR) and take a private transfer of a few hours to Bonito, or fly directly into Bonito (BYO) — we book whichever arrival works best for your dates." },
         { title: "Day 2 — River snorkelling", text: "Floating snorkel in one of the crystal-clear rivers, with fish all around. Activities have limited daily capacity and are booked in advance." },
         { title: "Day 3 — Caves and waterfalls", text: "A cave visit such as the Gruta do Lago Azul and a waterfall trail, depending on your pace." },
         { title: "Day 4 — Optional experiences", text: "A second river, the Abismo Anhumas for experienced travellers, or a slower day." },
@@ -377,8 +377,8 @@ export const bonitoGuide: BrazilGuideLocalized = {
         a: "We don't work with off-the-shelf pricing: the budget depends on accommodation, number of outings and season. A human consultant builds the proposal and presents pricing in writing, with no estimates published on the site.",
       },
       { q: "Do I need a visa or vaccines?", a: "Visa rules depend on your nationality, so check with the Brazilian consulate before booking. Ask your doctor about recommended vaccines, such as yellow fever, at least ten days before travel." },
-      { q: "Will my guide speak English?", a: "Yes. Local guides are required on most Bonito activities; we arrange English-speaking guides whenever available for your dates." },
-      { q: "How do I get to Bonito?", a: "Fly internationally into São Paulo (GRU), then take a domestic flight to Campo Grande (CGR), followed by a private road transfer of a few hours. Some seasons have flights directly to Bonito (BYO); we check what operates on your dates." },
+      { q: "Will my guide speak English?", a: "Yes. Local guides are required on most Bonito activities, and we arrange English-speaking guides for every one of them." },
+      { q: "How do I get to Bonito?", a: "Fly internationally into São Paulo (GRU), then take a domestic flight to Campo Grande (CGR), followed by a private road transfer of a few hours. There are also direct flights to Bonito (BYO); we book the routing that suits your dates." },
       { q: "Can I combine Bonito with other Brazilian biomes?", a: "Yes, and we recommend it. Brazil has six land biomes — Amazon, Pantanal, Cerrado, Atlantic Forest, Caatinga and Pampa — plus a long coastal and marine zone: seven very different landscapes, with their own wildlife, food and culture. Combining two or more in one trip, for example Bonito (Cerrado) + the Pantanal wetlands + Iguazu Falls or the Amazon, shows a much fuller Brazil. We plan the domestic flights and transfers in a single quote." },
     ],
     cta: {
