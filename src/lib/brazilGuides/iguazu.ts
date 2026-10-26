@@ -397,7 +397,7 @@ export const iguazuGuide: BrazilGuideLocalized = {
       { q: "Can I combine Iguazu Falls with other Brazilian biomes?", a: "Yes, and we recommend it. Brazil has six land biomes — Amazon, Pantanal, Cerrado, Atlantic Forest, Caatinga and Pampa — plus a long coastal and marine zone: seven very different landscapes, with their own wildlife, food and culture. Combining two or more in one trip, for example Iguazu Falls (Atlantic Forest) + Pantanal wetlands + Amazon rainforest, shows a much fuller Brazil. We plan the domestic flights and transfers in a single quote." },
     ],
     cta: {
-      heading: "Request your Iguazu Falls quote",
+      heading: "Request your Iguazu Falls trip quote",
       subheading:
         "Tell us your dates, number of travellers and interests. A Create Travel travel designer replies on WhatsApp, in English, with a private itinerary — combining other Brazilian biomes if you wish — and a written quote.",
       button: "Request a quote on WhatsApp",

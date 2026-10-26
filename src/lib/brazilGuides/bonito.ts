@@ -382,7 +382,7 @@ export const bonitoGuide: BrazilGuideLocalized = {
       { q: "Can I combine Bonito with other Brazilian biomes?", a: "Yes, and we recommend it. Brazil has six land biomes — Amazon, Pantanal, Cerrado, Atlantic Forest, Caatinga and Pampa — plus a long coastal and marine zone: seven very different landscapes, with their own wildlife, food and culture. Combining two or more in one trip, for example Bonito (Cerrado) + the Pantanal wetlands + Iguazu Falls or the Amazon, shows a much fuller Brazil. We plan the domestic flights and transfers in a single quote." },
     ],
     cta: {
-      heading: "Request your Bonito quote",
+      heading: "Request your Bonito trip quote",
       subheading:
         "Tell us your dates, number of travellers and interests. A Create Travel travel designer replies on WhatsApp, in English, with a private itinerary — combining other Brazilian biomes if you wish — and a written quote.",
       button: "Request a quote on WhatsApp",
