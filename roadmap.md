@@ -1,6 +1,6 @@
 # Roadmap
 
-- [ ] Colocar Yolanda Paschoal e Emílio como primeiro depoimento em Nós viajamos!, sem publicar.
+- [x] Colocar Yolanda Paschoal e Emílio como primeiro depoimento em Nós viajamos!: ordem conferida no navegador e teste aprovado; não publicado.
 - [ ] Finalizar vídeo da Chapada Diamantina — aguardando aprovação do roteiro e escolha do som.
 
 - [x] Inserir depoimento de Yolanda Paschoal e Emílio no Nós viajamos!, com seis fotos realçadas (cruzeiro, Salvador, litoral da Paraíba); texto conferido com o original. Não publicado.
