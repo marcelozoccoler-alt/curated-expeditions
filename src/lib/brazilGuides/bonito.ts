@@ -192,14 +192,14 @@ export const bonitoGuide: BrazilGuideLocalized = {
   },
 
   en: {
-    metaTitle: "Bonito & Serra da Bodoquena Brazil: Best Time & Itineraries",
+    metaTitle: "Bonito, Brazil: Snorkelling Itinerary, Best Time & Quote",
     metaDescription:
-      "A curated guide to Bonito and the Serra da Bodoquena (Mato Grosso do Sul): best time to visit month by month, the river floats and caves truly worth it, where to stay by traveler profile, and how to combine it with the Pantanal, Amazon or the coast.",
+      "Plan a private trip to Bonito, Brazil: suggested 4-night itinerary with crystal-clear river snorkelling and caves, best time to visit, how to get there, FAQs and a WhatsApp quote.",
     keywords:
       "bonito brazil, bonito mato grosso do sul, rio da prata bonito, gruta do lago azul, abismo anhumas, aquario natural bonito, best time to visit bonito, where to stay bonito, bonito pantanal itinerary",
-    h1: "Bonito & Serra da Bodoquena: a curated guide from twenty years underwater",
+    h1: "Bonito, Brazil: itinerary, best time and how to get there",
     aiAnswer:
-      "The best time to visit Bonito, Brazil is April to October, during the dry season, when the limestone-filtered rivers reach maximum clarity of up to 30 metres; plan a minimum of 4–5 nights to alternate floating, caves and waterfalls without rushing.",
+      "The best time to visit Bonito, Brazil is April to October, during the dry season, when the limestone-filtered rivers reach maximum clarity of up to 30 metres; plan a minimum of 4–5 nights to alternate floating, caves and waterfalls without rushing. Create Travel designs private, tailor-made trips for international travellers, often combining Bonito with other Brazilian biomes, and sends a written quote via WhatsApp.",
     intro: [
       "Bonito is neither a beach town nor a rainforest — it's a limestone plateau in the Serra da Bodoquena where water is naturally filtered through rock and emerges from the ground almost sediment-free. The result is one of the rarest phenomena on the planet: freshwater rivers with aquarium-grade transparency, where you float over fish shoals as if gliding over a slow-motion world.",
       "This is a destination that rewards planning, not spontaneity. Every attraction — Rio da Prata, Gruta do Lago Azul, Abismo Anhumas, Aquário Natural — operates under a legally fixed daily quota, and the best dates sell out months ahead in peak season. This guide exists so your trip can be built with the same discipline nature imposes here.",
@@ -312,10 +312,16 @@ export const bonitoGuide: BrazilGuideLocalized = {
       ],
     },
     itinerary: {
-      heading: "How to combine Bonito with a wider Brazil itinerary",
+      heading: "Suggested itinerary and how to combine with other Brazilian biomes",
       intro:
         "Bonito demands unusually early planning by Brazilian standards: the best floating and Abismo Anhumas quotas sell out months in advance, so the itinerary is built around availability, not the other way round.",
       items: [
+        { title: "Day 1 — Campo Grande to Bonito", text: "Arrive at Campo Grande (CGR) and take a private transfer of a few hours to Bonito, or fly to Bonito (BYO) when flights operate." },
+        { title: "Day 2 — River snorkelling", text: "Floating snorkel in one of the crystal-clear rivers, with fish all around. Activities have limited daily capacity and are booked in advance." },
+        { title: "Day 3 — Caves and waterfalls", text: "A cave visit such as the Gruta do Lago Azul and a waterfall trail, depending on your pace." },
+        { title: "Day 4 — Optional experiences", text: "A second river, the Abismo Anhumas for experienced travellers, or a slower day." },
+        { title: "Day 5 — Pantanal or onward", text: "Continue to the southern Pantanal for a wildlife safari, or return to Campo Grande for your flight." },
+        { title: "Combine two or more Brazilian biomes", text: "Brazil has six land biomes plus a coastal and marine zone — seven different landscapes and cultures. Pairing Bonito with at least one more, such as Bonito (Cerrado) + the Pantanal wetlands + Iguazu Falls or the Amazon, is the best way to understand the country in one trip." },
         {
           title: "Bonito + southern Pantanal — 8 to 10 days",
           text: "Four to five nights in Bonito, the rest at Pantanal fazenda-hotels, connected by road. The most natural, most-booked combination in the Centre-West.",
@@ -370,12 +376,16 @@ export const bonitoGuide: BrazilGuideLocalized = {
         q: "How much does a trip to Bonito with Create Travel cost?",
         a: "We don't work with off-the-shelf pricing: the budget depends on accommodation, number of outings and season. A human consultant builds the proposal and presents pricing in writing, with no estimates published on the site.",
       },
+      { q: "Do I need a visa or vaccines?", a: "Visa rules depend on your nationality, so check with the Brazilian consulate before booking. Ask your doctor about recommended vaccines, such as yellow fever, at least ten days before travel." },
+      { q: "Will my guide speak English?", a: "Yes. Local guides are required on most Bonito activities; we arrange English-speaking guides whenever available for your dates." },
+      { q: "How do I get to Bonito?", a: "Fly internationally into São Paulo (GRU), then take a domestic flight to Campo Grande (CGR), followed by a private road transfer of a few hours. Some seasons have flights directly to Bonito (BYO); we check what operates on your dates." },
+      { q: "Can I combine Bonito with other Brazilian biomes?", a: "Yes, and we recommend it. Brazil has six land biomes — Amazon, Pantanal, Cerrado, Atlantic Forest, Caatinga and Pampa — plus a long coastal and marine zone: seven very different landscapes, with their own wildlife, food and culture. Combining two or more in one trip, for example Bonito (Cerrado) + the Pantanal wetlands + Iguazu Falls or the Amazon, shows a much fuller Brazil. We plan the domestic flights and transfers in a single quote." },
     ],
     cta: {
-      heading: "Let's design your Bonito",
+      heading: "Request your Bonito quote",
       subheading:
-        "A Create Travel consultant secures the right floating and cave quotas and chooses the ideal accommodation for your profile.",
-      button: "Talk to a travel designer",
+        "Tell us your dates, number of travellers and interests. A Create Travel travel designer replies on WhatsApp, in English, with a private itinerary — combining other Brazilian biomes if you wish — and a written quote.",
+      button: "Request a quote on WhatsApp",
     },
     readingMinutes: 11,
     publishedAt: "2026-08-11",
