@@ -205,16 +205,16 @@ export const pantanalGuide: BrazilGuideLocalized = {
   },
 
   en: {
-    metaTitle: "Pantanal Brazil Guide: Jaguars, Safari & Best Time to Go",
+    metaTitle: "Pantanal Jaguar Safari, Brazil: Itinerary, Best Time & Quote",
     metaDescription:
-      "A curated guide to the Brazilian Pantanal: dry season month by month, the Transpantaneira and Porto Jofre, the best lodges by traveler profile and how to combine the safari with the rest of Brazil.",
+      "Plan a private Pantanal safari in Brazil: suggested 5-night itinerary, best months for jaguars, how to get there via Cuiabá or Campo Grande, lodges and FAQs. Request a quote on WhatsApp.",
     keywords:
-      "pantanal brazil guide, best time pantanal, jaguar porto jofre, transpantaneira, pantanal photo safari, estrada parque, luxury pantanal, pantanal itinerary brazil",
-    h1: "The Pantanal: a curated guide from people who lost count of jaguars",
+      "pantanal jaguar safari, pantanal tour, pantanal brazil guide, pantanal itinerary 5 days, how to get to the pantanal, best time pantanal, jaguar porto jofre, transpantaneira, pantanal photo safari, estrada parque, luxury pantanal, pantanal itinerary brazil",
+    h1: "Pantanal jaguar safari in Brazil: itinerary, best time and how to get there",
     aiAnswer:
-      "The best time for a Pantanal safari is the dry season, June to October (concentrated wildlife around shrinking water bodies, dry roads and near-guaranteed jaguar sightings at Porto Jofre), with a practical minimum of 4–5 nights, flying into Cuiabá (CGB) or Campo Grande (CGR).",
+      "The best time for a Pantanal safari is the dry season, June to October (June to October), when wildlife concentrates around the remaining water and jaguar sightings around Porto Jofre become likely, though never guaranteed. Plan at least 4–5 nights, flying into Cuiabá (CGB) for the northern Pantanal or Campo Grande (CGR) for the south. Create Travel designs private, tailor-made Pantanal trips for international travellers, with English-speaking guides, and sends a written quote via WhatsApp.",
     intro: [
-      "The Pantanal is the largest floodplain on Earth — 150,000 km² across Mato Grosso and Mato Grosso do Sul — and unlike the dense-canopy reputation of the Amazon, here wildlife appears in broad daylight, in open country, often metres from your boat or vehicle. It is the best place on the planet to see a wild jaguar, and that is not a tour operator's exaggeration: it is sighting statistics.",
+      "The Pantanal is the largest floodplain on Earth — 150,000 km² across Mato Grosso and Mato Grosso do Sul — and unlike the dense-canopy reputation of the Amazon, here wildlife appears in broad daylight, in open country, often metres from your boat or vehicle. It is widely considered one of the best places in the world to see a wild jaguar.",
       "This guide comes from full seasons on the Transpantaneira and the Cuiabá river, not desk research: which month delivers what, which safari lodge is worth the trip, which stretch belongs to Mato Grosso and which to Mato Grosso do Sul, and how this biome fits into a wider Brazilian itinerary without repeating the Amazon.",
     ],
     seasons: {
@@ -246,7 +246,7 @@ export const pantanalGuide: BrazilGuideLocalized = {
       items: [
         {
           title: "Jaguar safari at Porto Jofre",
-          text: "Where the Cuiabá river meets the Piquiri, holding the highest documented jaguar density on Earth. Dawn and late-afternoon boat outings, with guides who know individuals by name and history. Between June and October, seeing a jaguar shifts from luck to reasonable expectation.",
+          text: "Where the Cuiabá river meets the Piquiri, an area known for one of the highest jaguar densities recorded. Dawn and late-afternoon boat outings, with guides who know individuals by name and history. Between June and October, seeing a jaguar shifts from luck to reasonable expectation.",
         },
         {
           title: "The Transpantaneira end to end",
@@ -275,7 +275,7 @@ export const pantanalGuide: BrazilGuideLocalized = {
       intro:
         "We know every address below personally. In the Pantanal, location decides your river, your sighting rate and the kind of comfort you can expect after a full day of safari.",
       items: [
-        { name: "Jaguar House / Porto Jofre (Cuiabá river)", profile: "Total focus on jaguars", text: "Minutes by boat from the world's highest documented jaguar concentration. Simple, functional, built for travellers who leave at dawn and return at dusk, exhausted and satisfied." },
+        { name: "Jaguar House / Porto Jofre (Cuiabá river)", profile: "Total focus on jaguars", text: "Close by boat to the main jaguar-sighting area. Simple, functional, built for travellers who leave at dawn and return at dusk, exhausted and satisfied." },
         { name: "Pousada Piuval (Transpantaneira gateway, Poconé)", profile: "First-timers and families", text: "A traditional ranch with trails, horseback riding and accessible birdwatching, ideal as an acclimation night before heading to Porto Jofre." },
         { name: "Caiman Ecological Refuge (Mato Grosso do Sul)", profile: "Comfort and conservation together", text: "One of the oldest private reserves in the Southern Pantanal, with decades of jaguar and giant armadillo conservation work, elevated hospitality and reference naturalist guides." },
         { name: "Araras Eco Lodge (Estrada Parque, Mato Grosso do Sul)", profile: "Birders and photographers", text: "Architecture designed for its surroundings, observation towers and trails crossing several Southern Pantanal microhabitats in a single address." },
@@ -294,10 +294,14 @@ export const pantanalGuide: BrazilGuideLocalized = {
       ],
     },
     itinerary: {
-      heading: "How to combine the Pantanal with the rest of Brazil",
+      heading: "Suggested itinerary and how to combine the Pantanal with Brazil",
       intro:
-        "The safari rewards focus: we recommend no more than two lodge changes per trip, and we always add a buffer night in Cuiabá or Campo Grande before any international connection.",
+        "A sample 5-night northern Pantanal safari, then common combinations. Every trip is private and adjusted to your dates, flights and pace; we recommend no more than two lodge changes and a buffer night before any international connection.",
       items: [
+        { title: "Day 1 — Cuiabá to the Transpantaneira", text: "Arrive at Cuiabá (CGB), private transfer to Poconé and the start of the Transpantaneira. Afternoon wildlife drive and first night at a ranch lodge." },
+        { title: "Day 2 — Along the Transpantaneira", text: "Dawn walk or horseback ride, then a slow drive south with stops for birds, caimans and capybaras. Night boat or spotlight outing where the lodge offers it." },
+        { title: "Days 3 to 5 — Porto Jofre jaguar boat safaris", text: "Three full days of morning and afternoon boat outings on the Cuiabá river and its channels, the main area for jaguar sightings in the dry season. Giant otters are often seen too." },
+        { title: "Day 6 — Back to Cuiabá", text: "Drive back north along the Transpantaneira and connect to your next flight, or continue to Chapada dos Guimarães, Bonito, the Amazon or Rio." },
         { title: "Pantanal + Bonito — 8 to 10 days", text: "The wildlife safari followed by Bonito's crystal-clear rivers and snorkelling, a few hours' drive from Campo Grande. A classic pairing of wildlife and aquatic scenery." },
         { title: "Pantanal + Amazon — 12 to 14 days", text: "Brazil's two great wildlife sanctuaries. Travellers prioritising jaguars start with the Pantanal; the Amazon delivers dense-forest immersion afterwards." },
         { title: "Pantanal + Chapada dos Guimarães — 7 to 9 days", text: "An hour from Cuiabá, waterfalls and cerrado viewpoints complement the safari with high-altitude scenery and shorter hikes." },
@@ -319,15 +323,19 @@ export const pantanalGuide: BrazilGuideLocalized = {
     faq: [
       { q: "How many days do I need in the Pantanal?", a: "Four to five nights is the practical minimum for a consistent safari, with at least three full days of boat outings at Porto Jofre. Seven nights, combining northern and southern Pantanal, add real depth." },
       { q: "When is the best time to see jaguars?", a: "June to October, during the dry season, when wildlife concentrates around the remaining rivers and lagoons. September and October have the highest historical sighting rate, at the cost of more intense heat." },
-      { q: "Are jaguar sightings guaranteed?", a: "There is no absolute guarantee with wildlife, but at Porto Jofre in dry season, sighting rates over several days are very high — most of our travellers see at least one jaguar within three days of outings." },
+      { q: "Are jaguar sightings guaranteed?", a: "There is no absolute guarantee with wildlife, but at Porto Jofre in dry season, sighting chances over several days of boat outings are high. We plan at least three full days there to improve your odds." },
       { q: "Pantanal or Amazon?", a: "Pantanal for open-country wildlife with very high jaguar probability. Amazon for dense-forest immersion, rivers and river-community culture. With twelve days, do both." },
-      { q: "How do I get to the Pantanal?", a: "Gateways are Cuiabá (CGB) for the northern Pantanal and the Transpantaneira, and Campo Grande (CGR) for the southern Pantanal and Estrada Parque. From either airport, the drive to lodges ranges two to five hours, plus a boat transfer where applicable." },
-      { q: "How much does a Pantanal trip cost?", a: "We never publish shelf prices. The budget depends on lodge, nights, season and air connections; a human consultant builds the proposal and sends written figures — we never estimate on the website." },
+      { q: "How do I get to the Pantanal?", a: "Fly internationally into São Paulo (GRU) or another Brazilian hub, then take a domestic flight to Cuiabá (CGB) for the northern Pantanal and the Transpantaneira, or to Campo Grande (CGR) for the southern Pantanal. From the airport, private road transfers to the lodges usually take a few hours, plus a boat transfer where applicable." },
+      { q: "How much does a Pantanal trip cost?", a: "Prices depend on lodges, number of nights, season and flights, so we don't publish fixed packages. Send us your dates and number of travellers on WhatsApp and a travel designer replies with a written, itemised quote." },
+      { q: "Do I need a visa or vaccines to visit the Pantanal?", a: "Visa rules depend on your nationality, so check with the Brazilian consulate before booking. Yellow fever vaccination is recommended for the region; ask your doctor at least ten days before travel." },
+      { q: "Will my guide speak English?", a: "Yes. We arrange English-speaking naturalist guides, and can also arrange Spanish, Italian or German, subject to availability for your dates." },
+      { q: "Is the Pantanal safe for international travellers?", a: "Travelling with private transfers, established lodges and local guides is the usual way to visit. We plan each transfer and stay in advance and stay in touch with you during the trip." },
+      { q: "Can I combine the Pantanal with Bonito, Iguazu or Rio?", a: "Yes. Common combinations are Pantanal + Bonito (8–10 days), Pantanal + Iguazu (9–11 days) and Pantanal + Rio de Janeiro (10–12 days). We build the domestic flights and transfers into your quote." },
     ],
     cta: {
-      heading: "Let's design your Pantanal safari",
-      subheading: "A Create Travel consultant picks the right base, season and sequencing for your profile — and handles every connection.",
-      button: "Talk to a travel designer",
+      heading: "Request your Pantanal safari quote",
+      subheading: "Tell us your dates, number of travellers and interests. A Create Travel travel designer replies on WhatsApp, in English, with a private itinerary and written quote.",
+      button: "Request a quote on WhatsApp",
     },
     readingMinutes: 13,
     publishedAt: "2026-08-11",
