@@ -1,7 +1,7 @@
 # Roadmap
 
 - [x] Colocar Yolanda Paschoal e Emílio como primeiro depoimento em Nós viajamos!: ordem conferida no navegador e teste aprovado; não publicado.
-- [ ] Finalizar vídeo da Chapada Diamantina — aguardando aprovação do roteiro e escolha do som.
+- [x] Vídeo da Chapada Diamantina gerado: 15,125 s, vertical 720p, logo e legenda trilíngue; imagens, transições e volume conferidos. Falta confirmar por escuta a ausência de voz/música; entregue para revisão, não publicado.
 
 - [x] Inserir depoimento de Yolanda Paschoal e Emílio no Nós viajamos!, com seis fotos realçadas (cruzeiro, Salvador, litoral da Paraíba); texto conferido com o original. Não publicado.
 
