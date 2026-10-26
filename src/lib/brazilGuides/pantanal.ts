@@ -246,7 +246,7 @@ export const pantanalGuide: BrazilGuideLocalized = {
       items: [
         {
           title: "Jaguar safari at Porto Jofre",
-          text: "Where the Cuiabá river meets the Piquiri, holding the highest documented jaguar density on Earth. Dawn and late-afternoon boat outings, with guides who know individuals by name and history. Between June and October, seeing a jaguar shifts from luck to reasonable expectation.",
+          text: "Where the Cuiabá river meets the Piquiri, an area known for one of the highest jaguar densities recorded. Dawn and late-afternoon boat outings, with guides who know individuals by name and history. Between June and October, seeing a jaguar shifts from luck to reasonable expectation.",
         },
         {
           title: "The Transpantaneira end to end",
@@ -275,7 +275,7 @@ export const pantanalGuide: BrazilGuideLocalized = {
       intro:
         "We know every address below personally. In the Pantanal, location decides your river, your sighting rate and the kind of comfort you can expect after a full day of safari.",
       items: [
-        { name: "Jaguar House / Porto Jofre (Cuiabá river)", profile: "Total focus on jaguars", text: "Minutes by boat from the world's highest documented jaguar concentration. Simple, functional, built for travellers who leave at dawn and return at dusk, exhausted and satisfied." },
+        { name: "Jaguar House / Porto Jofre (Cuiabá river)", profile: "Total focus on jaguars", text: "Close by boat to the main jaguar-sighting area. Simple, functional, built for travellers who leave at dawn and return at dusk, exhausted and satisfied." },
         { name: "Pousada Piuval (Transpantaneira gateway, Poconé)", profile: "First-timers and families", text: "A traditional ranch with trails, horseback riding and accessible birdwatching, ideal as an acclimation night before heading to Porto Jofre." },
         { name: "Caiman Ecological Refuge (Mato Grosso do Sul)", profile: "Comfort and conservation together", text: "One of the oldest private reserves in the Southern Pantanal, with decades of jaguar and giant armadillo conservation work, elevated hospitality and reference naturalist guides." },
         { name: "Araras Eco Lodge (Estrada Parque, Mato Grosso do Sul)", profile: "Birders and photographers", text: "Architecture designed for its surroundings, observation towers and trails crossing several Southern Pantanal microhabitats in a single address." },
@@ -323,7 +323,7 @@ export const pantanalGuide: BrazilGuideLocalized = {
     faq: [
       { q: "How many days do I need in the Pantanal?", a: "Four to five nights is the practical minimum for a consistent safari, with at least three full days of boat outings at Porto Jofre. Seven nights, combining northern and southern Pantanal, add real depth." },
       { q: "When is the best time to see jaguars?", a: "June to October, during the dry season, when wildlife concentrates around the remaining rivers and lagoons. September and October have the highest historical sighting rate, at the cost of more intense heat." },
-      { q: "Are jaguar sightings guaranteed?", a: "There is no absolute guarantee with wildlife, but at Porto Jofre in dry season, sighting rates over several days are very high — most of our travellers see at least one jaguar within three days of outings." },
+      { q: "Are jaguar sightings guaranteed?", a: "There is no absolute guarantee with wildlife, but at Porto Jofre in dry season, sighting chances over several days of boat outings are high. We plan at least three full days there to improve your odds." },
       { q: "Pantanal or Amazon?", a: "Pantanal for open-country wildlife with very high jaguar probability. Amazon for dense-forest immersion, rivers and river-community culture. With twelve days, do both." },
       { q: "How do I get to the Pantanal?", a: "Fly internationally into São Paulo (GRU) or another Brazilian hub, then take a domestic flight to Cuiabá (CGB) for the northern Pantanal and the Transpantaneira, or to Campo Grande (CGR) for the southern Pantanal. From the airport, private road transfers to the lodges usually take a few hours, plus a boat transfer where applicable." },
       { q: "How much does a Pantanal trip cost?", a: "Prices depend on lodges, number of nights, season and flights, so we don't publish fixed packages. Send us your dates and number of travellers on WhatsApp and a travel designer replies with a written, itemised quote." },
