@@ -1,5 +1,8 @@
 # Roadmap
 
+- [x] Reenviar aqui o post e o vídeo final da Chapada Diamantina no padrão dos demais: arquivos existentes e coleção conferidos, vídeo vertical de 15,125 s e legenda trilíngue.
+- [ ] Preparar anúncios Google Search do Pantanal para EUA e Europa: briefing salvo; aguarda conexão ao Google Ads (interrompida antes de executar), confirmação dos países, pesquisa, textos, medição e orçamento; nenhum anúncio criado.
+
 - [x] Revisar títulos, descrições e clareza da Rota das Emoções e da Chapada Diamantina em inglês; textos conferidos no preview, sem erros de execução, 243 testes aprovados; sem publicar.
 
 - [x] Colocar Yolanda Paschoal e Emílio como primeiro depoimento em Nós viajamos!: ordem conferida no navegador e teste aprovado; não publicado.
