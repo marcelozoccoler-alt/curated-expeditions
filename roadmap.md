@@ -1,5 +1,6 @@
 # Roadmap
 
+- [ ] Corrigir encerramento e legenda da Chapada Diamantina para o padrão das Cataratas: fundo azul, logo preservado, frase em português/inglês/espanhol e domínio; aguarda aprovação das frases antes de renderizar.
 - [x] Reenviar aqui o post e o vídeo final da Chapada Diamantina no padrão dos demais: arquivos existentes e coleção conferidos, vídeo vertical de 15,125 s e legenda trilíngue.
 - [ ] Preparar anúncios Google Search do Pantanal para EUA e Europa: briefing salvo; aguarda conexão ao Google Ads (interrompida antes de executar), confirmação dos países, pesquisa, textos, medição e orçamento; nenhum anúncio criado.
 
