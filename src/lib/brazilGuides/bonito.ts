@@ -842,14 +842,14 @@ export const bonitoGuide: BrazilGuideLocalized = {
   },
 
   de: {
-    metaTitle: "Bonito & Serra da Bodoquena: Reiseführer, Reisezeit & Routen",
+    metaTitle: "Bonito, Brasilien: Reiseroute, beste Reisezeit & Angebot",
     metaDescription:
-      "Der vollständige Guide zu Bonito und der Serra da Bodoquena (Mato Grosso do Sul): beste Reisezeit Monat für Monat, welche Flusstouren und Höhlen wirklich lohnen, wo man wohnt und wie man Pantanal, Amazonas oder die Küste kombiniert.",
+      "Private, maßgeschneiderte Bonito-Reise: vorgeschlagene Reiseroute, beste Reisezeit und Anreise. Fordern Sie ein Angebot per WhatsApp an.",
     keywords:
-      "bonito brasilien, bonito mato grosso do sul, rio da prata bonito, gruta do lago azul, abismo anhumas, aquario natural bonito, beste reisezeit bonito, unterkunft bonito, reiseroute bonito pantanal",
-    h1: "Bonito & Serra da Bodoquena: der Guide von zwanzig Jahren unter Wasser",
+      "bonito brasilien, bonito mato grosso do sul, rio da prata bonito, gruta do lago azul, abismo anhumas, aquario natural bonito, beste reisezeit bonito, unterkunft bonito, reiseroute bonito pantanal, bonito rundreise, bonito reiseroute, anreise bonito, beste reisezeit bonito",
+    h1: "Bonito: Reiseroute, beste Reisezeit und Anreise",
     aiAnswer:
-      "Die beste Reisezeit für Bonito in Brasilien ist April bis Oktober, in der Trockenzeit, wenn die durch Kalkstein gefilterten Flüsse eine maximale Sichtweite von bis zu 30 Metern erreichen; empfohlen werden mindestens 4 bis 5 Nächte, um Flusswanderungen, Höhlen und Wasserfälle ohne Eile zu kombinieren.",
+      "Die beste Reisezeit für Bonito in Brasilien ist April bis Oktober, in der Trockenzeit, wenn die durch Kalkstein gefilterten Flüsse eine maximale Sichtweite von bis zu 30 Metern erreichen; empfohlen werden mindestens 4 bis 5 Nächte, um Flusswanderungen, Höhlen und Wasserfälle ohne Eile zu kombinieren. Create Travel plant private, maßgeschneiderte Bonito-Reisen für internationale Gäste, mit deutschsprachigen Reiseleitern, und sendet ein schriftliches Angebot per WhatsApp.",
     intro: [
       "Bonito ist weder eine Strandstadt noch Regenwald, sondern ein Kalksteinplateau in der Serra da Bodoquena, wo das Wasser durch das Gestein gefiltert entspringt und nahezu sedimentfrei aus dem Boden tritt. Das Ergebnis ist ein weltweit seltenes Phänomen: Süßwasserflüsse mit Aquariumsklarheit, in denen man über Fischschwärme schwebt, als würde man eine Welt in Zeitlupe überfliegen.",
       "Dies ist ein Reiseziel, das Planung belohnt, nicht Spontanität. Jede Attraktion — Rio da Prata, Gruta do Lago Azul, Abismo Anhumas, Aquário Natural — unterliegt einer gesetzlich festgelegten Tageskontingentierung, und die besten Termine sind in der Hochsaison Monate im Voraus ausgebucht. Dieser Guide soll dabei helfen, Ihre Reise mit derselben Disziplin zu planen, die die Natur diesem Ort abverlangt.",
@@ -962,10 +962,15 @@ export const bonitoGuide: BrazilGuideLocalized = {
       ],
     },
     itinerary: {
-      heading: "Wie man Bonito in eine Brasilien-Route einbindet",
+      heading: "Vorgeschlagene Bonito-Reiseroute und Kombinationen in Brasilien",
       intro:
         "Bonito verlangt eine für brasilianische Verhältnisse ungewöhnlich frühe Planung: Die besten Kontingente für Flusstouren und den Abismo Anhumas sind Monate im Voraus ausgebucht, sodass die Route sich nach der Verfügbarkeit der Reservierungen richtet und nicht umgekehrt.",
       items: [
+        { title: "Tag 1 — Von Campo Grande nach Bonito", text: "Ankunft in Campo Grande (CGR) mit privatem Transfer von einigen Stunden nach Bonito oder direkter Flug nach Bonito (BYO). Wir buchen die für Ihre Termine passendere Ankunft." },
+        { title: "Tag 2 — Flussschnorcheln", text: "Beim Schnorcheln in einem der kristallklaren Flüsse lassen Sie sich zwischen Fischen treiben. Die Aktivitäten haben begrenzte Tageskapazitäten und werden vorab gebucht." },
+        { title: "Tag 3 — Höhlen und Wasserfälle", text: "Besuch einer Höhle wie der Gruta do Lago Azul und eines Wasserfallpfads, angepasst an Ihr Tempo." },
+        { title: "Tag 4 — Optionale Erlebnisse", text: "Ein zweiter Fluss, der Abismo Anhumas für erfahrene Reisende oder ein ruhigerer Tag." },
+        { title: "Tag 5 — Pantanal oder Weiterreise", text: "Weiterreise ins südliche Pantanal zur Wildtiersafari oder Rückkehr nach Campo Grande zum Flug." },
         {
           title: "Bonito + südliches Pantanal — 8 bis 10 Tage",
           text: "Vier bis fünf Nächte in Bonito, der Rest in Fazenda-Hotels im Pantanal, mit Straßentransfer dazwischen. Die natürlichste und meistgebuchte Kombination des Zentrum-Westens.",
@@ -982,6 +987,7 @@ export const bonitoGuide: BrazilGuideLocalized = {
           title: "Bonito + Iguazu-Wasserfälle — 8 bis 9 Tage",
           text: "Zwei Wasser-Ikonen des südlichen Zentrums Brasiliens, per Flug über Campo Grande oder São Paulo verbunden. Eine kompakte Route mit hoher visueller Wirkung.",
         },
+        { title: "Kombinieren Sie zwei oder mehr brasilianische Biome", text: "Brasilien hat sechs Landbiome plus die Küsten- und Meereszone — sieben unterschiedliche Landschaften und Kulturen. Kombinieren Sie Bonito im Cerrado mit den Feuchtgebieten des Pantanal sowie den Iguazú-Wasserfällen oder Amazonien." },
       ],
     },
     tips: {
@@ -996,36 +1002,21 @@ export const bonitoGuide: BrazilGuideLocalized = {
       ],
     },
     faq: [
-      {
-        q: "Wie viele Tage braucht man für Bonito?",
-        a: "Vier bis fünf Nächte erlauben es, zwei bis drei geführte Touren mit Ruhetagen abzuwechseln, ohne Eile. Mit drei Nächten lässt sich das Wesentliche bereits abdecken, allerdings mit weniger Spielraum bei Wetterunsicherheiten.",
-      },
-      {
-        q: "Was ist die beste Reisezeit für Bonito?",
-        a: "April bis Oktober, mit dem Höhepunkt der Wassersicht zwischen Juli und September. Außerhalb der Trockenzeit können die Flüsse nach starken Regenfällen trüb werden, und manche Touren werden aus Sicherheitsgründen ausgesetzt.",
-      },
-      {
-        q: "Muss ich schwimmen können, um an einer Flusswanderung teilzunehmen?",
-        a: "Nein, das ist nicht erforderlich: Die Ausrüstung (Schwimmweste und Flossen) hält den Körper an der Oberfläche. Wer sich im Wasser dennoch unsicher fühlt, sollte den Guide vorher informieren, um engere Begleitung zu erhalten.",
-      },
-      {
-        q: "Lohnt es sich, den Abismo Anhumas im Voraus zu buchen?",
-        a: "Ja, das ist Pflicht, und wir empfehlen, in der Hochsaison zwei bis drei Monate im Voraus zu buchen. Es ist eines der am strengsten limitierten Tageskontingente in Bonito und ist schnell ausgebucht.",
-      },
-      {
-        q: "Bonito oder Pantanal — was wählen?",
-        a: "Beide ergänzen sich, statt zu konkurrieren: Bonito bietet kristallklares Wasser und aquatischen Ökotourismus, das Pantanal bietet Tierbeobachtungen im offenen Feld. Wer acht Tage oder mehr hat, macht beides, mit einem einfachen Straßentransfer dazwischen.",
-      },
-      {
-        q: "Was kostet eine Reise nach Bonito mit Create Travel?",
-        a: "Wir arbeiten nicht mit Standardpreisen: Das Budget hängt von der Unterkunft, der Anzahl der Touren und der Reisezeit ab. Ein persönlicher Berater erstellt das Angebot und legt die Preise schriftlich vor, ohne Schätzungen auf der Website.",
-      },
+      { q: "Wie viele Tage braucht man für Bonito?", a: "Vier bis fünf Nächte erlauben es, zwei bis drei geführte Touren mit Ruhetagen abzuwechseln, ohne Eile. Mit drei Nächten lässt sich das Wesentliche bereits abdecken, allerdings mit weniger Spielraum bei Wetterunsicherheiten." },
+      { q: "Was ist die beste Reisezeit für Bonito?", a: "April bis Oktober, mit dem Höhepunkt der Wassersicht zwischen Juli und September. Außerhalb der Trockenzeit können die Flüsse nach starken Regenfällen trüb werden, und manche Touren werden aus Sicherheitsgründen ausgesetzt." },
+      { q: "Muss ich schwimmen können, um an einer Flusswanderung teilzunehmen?", a: "Nein, das ist nicht erforderlich: Die Ausrüstung (Schwimmweste und Flossen) hält den Körper an der Oberfläche. Wer sich im Wasser dennoch unsicher fühlt, sollte den Guide vorher informieren, um engere Begleitung zu erhalten." },
+      { q: "Lohnt es sich, den Abismo Anhumas im Voraus zu buchen?", a: "Ja, das ist Pflicht, und wir empfehlen, in der Hochsaison zwei bis drei Monate im Voraus zu buchen. Es ist eines der am strengsten limitierten Tageskontingente in Bonito und ist schnell ausgebucht." },
+      { q: "Bonito oder Pantanal — was wählen?", a: "Beide ergänzen sich, statt zu konkurrieren: Bonito bietet kristallklares Wasser und aquatischen Ökotourismus, das Pantanal bietet Tierbeobachtungen im offenen Feld. Wer acht Tage oder mehr hat, macht beides, mit einem einfachen Straßentransfer dazwischen." },
+      { q: "Was kostet eine Reise nach Bonito mit Create Travel?", a: "Wir arbeiten nicht mit Standardpreisen: Das Budget hängt von der Unterkunft, der Anzahl der Touren und der Reisezeit ab. Ein persönlicher Berater erstellt das Angebot und legt die Preise schriftlich vor, ohne Schätzungen auf der Website." },
+      { q: "Wie erfolgt die Anreise für meine Bonito-Reise?", a: "Nach einem internationalen Flug zu einem brasilianischen Drehkreuz fliegen Sie weiter nach Campo Grande (CGR) oder, je nach Verfügbarkeit, Bonito (BYO). Create Travel organisiert private Transfers; ab Campo Grande dauert die Fahrt einige Stunden." },
+      { q: "Benötige ich ein Visum oder Impfungen für Brasilien?", a: "Die Visumpflicht hängt von Ihrer Staatsangehörigkeit und Ihren Reisedaten ab. Prüfen Sie vor der Buchung die offiziellen brasilianischen Konsularinformationen. Informieren Sie sich anhand offizieller Gesundheitsempfehlungen und lassen Sie sich reisemedizinisch zu Impfungen beraten, einschließlich Gelbfieber, sofern für Ihre Route relevant." },
+      { q: "Sind deutschsprachige Reiseleiter bei jeder Exkursion verfügbar?", a: "Create Travel plant deutschsprachige Reiseleiter bei jeder Exkursion als Teil Ihrer privaten, maßgeschneiderten Reise." },
+      { q: "Kann ich Bonito mit anderen brasilianischen Biomen kombinieren?", a: "Brasilien hat sechs Landbiome plus die Küsten- und Meereszone — sieben unterschiedliche Landschaften und Kulturen. Kombinieren Sie Bonito im Cerrado mit den Feuchtgebieten des Pantanal sowie den Iguazú-Wasserfällen oder Amazonien." },
     ],
     cta: {
-      heading: "Lassen Sie uns Ihr Bonito gestalten",
-      subheading:
-        "Ein persönlicher Berater von Create Travel sichert die richtigen Kontingente für Flusstouren und Höhlen und wählt die ideale Unterkunft für Ihr Profil.",
-      button: "Mit einem Travel Designer sprechen",
+      heading: "Fordern Sie Ihr Bonito-Reiseangebot an",
+      subheading: "Planen Sie Ihre private, maßgeschneiderte Reise mit einem persönlichen Reisedesigner, der Ihre Reiseroute auf Ihre Termine, Interessen und Ihr Tempo abstimmt und Ihnen ein schriftliches Angebot per WhatsApp sendet.",
+      button: "Angebot per WhatsApp anfordern",
     },
     readingMinutes: 11,
     publishedAt: "2026-08-11",

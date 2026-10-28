@@ -376,11 +376,11 @@ export const conjugadoAmazoniaPantanalGuide: BrazilGuideLocalized = {
   de: {
     destinationName: "Amazonas + Pantanal",
     blurb: "Regenwald und überflutete Ebene in einer Reise: Brasiliens zwei große Wildtier-Refugien, über 12 bis 14 Nächte.",
-    metaTitle: "Amazonas + Pantanal: kombinierte Route über 12–14 Nächte",
-    metaDescription: "Wie man Manaus/Rio Negro mit der Transpantaneira/Porto Jofre in einer Reise kombiniert: bestes Zeitfenster (Juli-Oktober), Flüge via Brasília oder São Paulo, ergänzende Tierwelt und Nächte pro Etappe.",
-    keywords: "amazonas pantanal reiseroute, kombinierte amazonas pantanal reise, transpantaneira porto jofre, rio negro anavilhanas, beste reisezeit amazonas pantanal, jaguar pantanal, brasilien tierwelt reiseroute",
-    h1: "Amazonas + Pantanal: die kombinierte Route der zwei großen Wildtier-Biome Brasiliens",
-    aiAnswer: "Die beste Route zur Kombination von Amazonas und Pantanal dauert 12 bis 14 Nächte: 4-5 Nächte Regenwald in Manaus/Rio Negro und 5-7 Nächte überflutete Ebene in Cuiabá/Transpantaneira/Porto Jofre, im Zeitfenster Juli bis Oktober (Trockenzeit in beiden Biomen), mit Flugverbindung über Brasília oder São Paulo.",
+    metaTitle: "Amazonas + Pantanal, Brasilien: Reiseroute, beste Reisezeit & Angebot",
+    metaDescription: "Private, maßgeschneiderte Reise: Amazonas + Pantanal. Vorgeschlagene Reiseroute, beste Reisezeit und Anreise. Fordern Sie ein Angebot per WhatsApp an.",
+    keywords: "amazonas pantanal reiseroute, kombinierte amazonas pantanal reise, transpantaneira porto jofre, rio negro anavilhanas, beste reisezeit amazonas pantanal, jaguar pantanal, brasilien tierwelt reiseroute, amazonas + pantanal rundreise, amazonas + pantanal reiseroute, anreise amazonas + pantanal, beste reisezeit amazonas + pantanal",
+    h1: "Amazonas + Pantanal: Reiseroute, beste Reisezeit und Anreise",
+    aiAnswer: "Die beste Route zur Kombination von Amazonas und Pantanal dauert 12 bis 14 Nächte: 4-5 Nächte Regenwald in Manaus/Rio Negro und 5-7 Nächte überflutete Ebene in Cuiabá/Transpantaneira/Porto Jofre, im Zeitfenster Juli bis Oktober (Trockenzeit in beiden Biomen), mit Flugverbindung über Brasília oder São Paulo. Create Travel plant private, maßgeschneiderte Amazonas + Pantanal-Reisen für internationale Gäste, mit deutschsprachigen Reiseleitern, und sendet ein schriftliches Angebot per WhatsApp.",
     intro: [
       "Amazonas und Pantanal werden von Brasilien-Erstbesuchern oft verwechselt, sind aber gegensätzliche Biome: das eine dichter, geschlossener Regenwald, das andere offene, überflutete Savanne. Gerade deshalb bilden sie kombiniert die vollständigste Tierbeobachtungsroute des Landes — was sich im Wald verbirgt, offenbart sich in der Ebene, und umgekehrt.",
       "Dieser Guide ist von Natur aus kombiniert angelegt: Er behandelt die beiden Ziele nicht getrennt, sondern als eine einzige 12-bis-14-nächtige Reise, mit der Flug logistik, der Nächteanzahl pro Etappe und dem Klimafenster, die beide Biome zusammen funktionieren lassen, ohne das Beste jedes einzelnen zu verlieren.",
@@ -390,7 +390,7 @@ export const conjugadoAmazoniaPantanalGuide: BrazilGuideLocalized = {
       intro: "Amazonas und Pantanal haben über weite Teile des Jahres gegensätzliche Klimakalender, überschneiden sich aber günstig zwischen Juli und Oktober — das Fenster, das wir für die kombinierte Route empfehlen.",
       windows: [
         { window: "Juli bis August — Amazonas-Rückgang und Beginn der Pantanal-Trockenzeit", text: "Im Amazonas beginnt der Fluss zu sinken, erste Sandbänke erscheinen; im Pantanal beginnt die Trockenzeit, Tierwelt entlang der Flussufer zu konzentrieren. Ein guter Zeitpunkt, um mit dem Regenwald zu beginnen." },
-        { window: "September bis Oktober — Trockenzeit in beiden Biomen", text: "Die Hochsaison für Jaguare an der Transpantaneira fällt mit der vollen Amazonas-Trockenzeit zusammen: Flussstrände am Tapajós und Rio Negro, und nahezu garantierte Jaguare in Porto Jofre. Der empfehlenswerteste Monat für die kombinierte Route." },
+        { window: "September bis Oktober — Trockenzeit in beiden Biomen", text: "Die Hochsaison für Jaguare an der Transpantaneira fällt mit der vollen Amazonas-Trockenzeit zusammen: Flussstrände am Tapajós und Rio Negro, und gute Chancen auf Jaguarbeobachtungen in Porto Jofre, ohne Sichtungsgarantie. Der empfehlenswerteste Monat für die kombinierte Route." },
         { window: "November — Übergang, noch machbar", text: "Erste vereinzelte Regenfälle in beiden Biomen, aber die Pantanal-Tierwelt ist noch konzentriert und der Amazonas hat noch Strände. Eine gute Alternative für alle, die im September nicht reisen können." },
         { window: "Dezember bis Juni — kombinierte Route vermeiden", text: "Der Pantanal überflutet und viele Transpantaneira-Straßen werden unpassierbar; der Amazonas führt Hochwasser, hervorragend zum Kanufahren, aber ohne Tierwelt-Synergie mit dem Pantanal in diesem Zeitraum." },
       ],
@@ -421,7 +421,7 @@ export const conjugadoAmazoniaPantanalGuide: BrazilGuideLocalized = {
       heading: "Für wen diese kombinierte Route funktioniert",
       items: [
         { title: "Naturforscher und Wildtierfotografen", text: "Brasiliens ertragreichste Route für Beobachtungsqualität: geschlossener Wald auf der einen, offene Ebene auf der anderen Seite." },
-        { title: "Paare und kleine Gruppen auf einer Referenzreise", text: "Zwölf bis vierzehn intensive Nächte mit wenig Strandzeit — ideal für vielgereiste Gäste, die Tiefe statt Erholung suchen." },
+        { title: "Paare und private Reisegesellschaften auf einer Referenzreise", text: "Zwölf bis vierzehn intensive Nächte mit wenig Strandzeit — ideal für vielgereiste Gäste, die Tiefe statt Erholung suchen." },
         { title: "Für wen es vielleicht nicht funktioniert", text: "Reisende mit wenig Zeit (unter 10 Tagen) oder auf der Suche nach Strand und Entspannung sollten nur eines der beiden Biome wählen, nicht beide kombiniert." },
       ],
     },
@@ -433,6 +433,7 @@ export const conjugadoAmazoniaPantanalGuide: BrazilGuideLocalized = {
         { title: "Transit — Manaus nach Cuiabá via Brasília oder São Paulo", text: "Es gibt keinen zuverlässigen täglichen Direktflug zwischen Manaus und Cuiabá; die verlässlichste Verbindung führt über Brasília oder São Paulo, insgesamt 5 bis 7 Stunden inklusive Zwischenstopp." },
         { title: "Nächte 6-12 — Cuiabá, Transpantaneira und Porto Jofre", text: "Eine Ankunftsnacht in Cuiabá, gefolgt von einem 3-4-stündigen Landtransfer entlang der Transpantaneira zu Zwischen-Ranch-Lodges, dann Boot oder Straße nach Porto Jofre für fünf bis sechs Nächte intensiver Jaguarbeobachtung." },
         { title: "Nacht 13 — Cuiabá, Abschied", text: "Rückfahrt nach Cuiabá für eine Pufferübernachtung vor dem Abflug, als Schutz vor Verzögerungen auf der Schotterstraße." },
+        { title: "Kombinieren Sie zwei oder mehr brasilianische Biome", text: "Brasilien hat sechs Landbiome plus die Küsten- und Meereszone — sieben unterschiedliche Landschaften und Kulturen. Diese Route verbindet bereits Amazonas und Pantanal; ergänzen Sie bei genügend Zeit die Chapada dos Veadeiros im Cerrado als dritte Landschaft. Ihr Reisedesigner berücksichtigt Reisetage und saisonale Unterschiede." },
       ],
     },
     tips: {
@@ -447,6 +448,11 @@ export const conjugadoAmazoniaPantanalGuide: BrazilGuideLocalized = {
       ],
     },
     faq: [
+      { q: "Benötige ich ein Visum oder Impfungen für Brasilien?", a: "Die Visumpflicht hängt von Ihrer Staatsangehörigkeit und Ihren Reisedaten ab. Prüfen Sie vor der Buchung die offiziellen brasilianischen Konsular- und Einreiseinformationen. Lassen Sie sich reisemedizinisch zu Standardimpfungen, Gelbfieber und möglichen Einreisevorgaben Ihrer Route beraten und prüfen Sie offizielle Gesundheitshinweise." },
+      { q: "Stehen deutschsprachige Reiseleiter bei jeder Exkursion zur Verfügung?", a: "Ja. Create Travel stellt bei jeder Exkursion deutschsprachige Reiseleiter bereit und plant Ihre private, maßgeschneiderte Reise nach Ihren Interessen und Ihrem bevorzugten Tempo." },
+      { q: "Wie erfolgt die Anreise für internationale Gäste nach Amazonas + Pantanal?", a: "Fliegen Sie international zu einem brasilianischen Drehkreuz und weiter nach Manaus für die Amazonas-Etappe. Für das Pantanal reisen Sie über Brasília oder São Paulo nach Cuiabá weiter. Private Straßen- und Flusstransfers werden auf Ihre Flüge abgestimmt." },
+      { q: "Kann ich Amazonas + Pantanal mit anderen brasilianischen Biomen kombinieren?", a: "Ja. Brasilien hat sechs Landbiome plus die Küsten- und Meereszone — sieben unterschiedliche Landschaften und Kulturen. Diese Route verbindet bereits Amazonas und Pantanal; ergänzen Sie bei genügend Zeit die Chapada dos Veadeiros im Cerrado als dritte Landschaft. Wir stimmen die Reihenfolge auf saisonale Bedingungen und realistische Transferzeiten ab." },
+
       { q: "Wie viele Nächte benötigt man für die Route Amazonas + Pantanal?", a: "12 bis 14 Nächte: 4-5 im Amazonas und 6-7 im Pantanal, einschließlich Transitnächten in Manaus und Cuiabá." },
       { q: "Was ist die beste Zeit, um beide Reisen zusammen zu machen?", a: "Juli bis Oktober, wenn beide Biome in der Trockenzeit sind — der Amazonas mit Flussstränden, das Pantanal mit konzentrierter Tierwelt entlang der Ufer." },
       { q: "Gibt es einen Direktflug zwischen Manaus und Cuiabá?", a: "Nicht mit regelmäßiger täglicher Frequenz; die zuverlässigste Verbindung führt über Brasília oder São Paulo, insgesamt 5 bis 7 Stunden Reisezeit." },
@@ -454,7 +460,11 @@ export const conjugadoAmazoniaPantanalGuide: BrazilGuideLocalized = {
       { q: "Ist dies eine körperlich anspruchsvolle Reise?", a: "Moderat: kurze Wanderungen sowie Boots- und 4x4-Ausflüge überwiegen gegenüber intensivem Trekking, aber Hitze und Feuchtigkeit in beiden Biomen erfordern klimatische Vorbereitung." },
       { q: "Was kostet diese kombinierte Route mit Create Travel?", a: "Wir arbeiten nicht mit Listenpreisen: Das Budget hängt von den Lodges, der Nächteanzahl und der Saison ab. Ein menschlicher Berater erstellt das Angebot schriftlich." },
     ],
-    cta: { heading: "Lassen Sie uns Ihre Route Amazonas + Pantanal gestalten", subheading: "Ein menschlicher Berater von Create Travel organisiert die Flug logistik, die Lodges und das richtige Zeitfenster für beide Biome.", button: "Mit einem Travel Designer sprechen" },
+    cta: {
+      heading: "Fordern Sie Ihr Amazonas + Pantanal-Reiseangebot an",
+      subheading: "Planen Sie eine private, maßgeschneiderte Reise mit einem persönlichen Reisedesigner. Route, Unterkünfte und Tempo richten sich nach Ihnen. Sie erhalten Ihr schriftliches Angebot per WhatsApp.",
+      button: "Angebot per WhatsApp anfordern",
+    },
     readingMinutes: 12,
     publishedAt: "2026-08-11",
   },

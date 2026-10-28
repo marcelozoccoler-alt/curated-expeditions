@@ -836,14 +836,11 @@ export const costaDoDescobrimentoGuide: BrazilGuideLocalized = {
   de: {
     destinationName: "Entdeckungsküste",
     blurb: "Trancoso, Caraíva und Arraial d'Ajuda: wo Brasilien begann, heute mit den begehrtesten Adressen der Küste.",
-    metaTitle: "Entdeckungsküste Brasilien: Trancoso & Caraíva Guide",
-    metaDescription:
-      "Reiseguide zur Entdeckungsküste (Bahia): beste Reisezeit, Trancoso, Caraíva, Arraial d'Ajuda, Espelho und Corumbau, echte Adressen wie UXUA und Vila Naiá, und Pataxó-Kultur.",
-    keywords:
-      "entdeckungskuste brasilien, trancoso bahia, caraiva brasilien, arraial d'ajuda, espelho strand, corumbau, uxua casa hotel, porto seguro, monte pascoal, pataxó kultur",
-    h1: "Die Entdeckungsküste: wo Brasilien begann",
-    aiAnswer:
-      "Die Entdeckungsküste im Süden Bahias umfasst Porto Seguro, Trancoso, Arraial d'Ajuda und Caraíva; die beste Reisezeit ist September bis März, mit Dezember und Januar als Trancosos gesellschaftlicher Hochsaison, Zugang über den Flughafen Porto Seguro (BPS).",
+    metaTitle: "Entdeckungsküste, Brasilien: Reiseroute, beste Reisezeit & Angebot",
+    metaDescription: "Private, maßgeschneiderte Reise: Entdeckungsküste. Entdecken Sie eine vorgeschlagene Reiseroute, die beste Reisezeit und Hinweise zur Anreise. Fordern Sie ein Angebot per WhatsApp an.",
+    keywords: "entdeckungskuste brasilien, trancoso bahia, caraiva brasilien, arraial d'ajuda, espelho strand, corumbau, uxua casa hotel, porto seguro, monte pascoal, pataxó kultur, entdeckungsküste rundreise, entdeckungsküste reiseroute, anreise entdeckungsküste, beste reisezeit entdeckungsküste",
+    h1: "Entdeckungsküste: Reiseroute, beste Reisezeit und Anreise",
+    aiAnswer: "Die Entdeckungsküste im Süden Bahias umfasst Porto Seguro, Trancoso, Arraial d'Ajuda und Caraíva; die beste Reisezeit ist September bis März, mit Dezember und Januar als Trancosos gesellschaftlicher Hochsaison, Zugang über den Flughafen Porto Seguro (BPS). Create Travel plant private, maßgeschneiderte Entdeckungsküste-Reisen für internationale Gäste, mit deutschsprachigen Reiseleitern, und sendet ein schriftliches Angebot per WhatsApp.",
     intro: [
       "Hier, im April 1500, sichtete die Flotte von Pedro Álvares Cabral erstmals Land, nahe dem Monte Pascoal. Fünf Jahrhunderte später ist die Entdeckungsküste zum Synonym für eine andere Art von Entdeckung geworden: eine Küste aus weißem Sand, erhaltenem Atlantikwald und Dörfern, die der Immobilienspekulation widerstanden und dafür eine fast geheime Urbanistik bewahrt haben — Sandwege, Häuser ohne Zäune, Kerzenlicht rund um den Quadrado von Trancoso.",
       "Dieser Guide trennt das Wesentliche vom bloß Fotogenen. Wir sprechen über Trancoso und seinen Quadrado, das autofreie Caraíva, Arraial d'Ajuda mit seinem eleganten Nachtleben, den Espelho-Strand und Corumbau als Ausläufer der Stille, und darüber, wie die Pataxó-Kultur, Hüterin des Monte-Pascoal-Reservats, im gesamten Gebiet präsent bleibt.",
@@ -961,25 +958,32 @@ export const costaDoDescobrimentoGuide: BrazilGuideLocalized = {
       ],
     },
     itinerary: {
-      heading: "Wie man die Entdeckungsküste in eine Brasilien-Reise integriert",
-      intro:
-        "Die Region verbindet sich gut mit dem übrigen Bahia und dem Südosten, stets über den Flughafen Porto Seguro (BPS), mit Direktflügen aus São Paulo, Rio de Janeiro und Belo Horizonte.",
+      heading: "Vorgeschlagene Reiseroute: Entdeckungsküste — 4 Nächte / 5 Tage",
+      intro: "Ein privater, maßgeschneiderter Ausgangspunkt, angepasst an Ihr Tempo, Ihre Ankunftszeiten und die örtlichen Bedingungen. Ergänzen Sie Nächte für einen geruhsameren Aufenthalt.",
       items: [
         {
-          title: "Entdeckungsküste + Salvador — 8 bis 10 Tage",
-          text: "Vier Tage Geschichte in Salvador und im Pelourinho, gefolgt von vier bis fünf Tagen Strand und Regenwald im Süden Bahias.",
+          title: "Tag 1 — Porto Seguro nach Trancoso",
+          text: "Sie landen am Flughafen Porto Seguro und fahren mit privatem Transfer nach Trancoso; lassen Sie Zeit zum Ankommen.",
         },
         {
-          title: "Entdeckungsküste + Abrolhos — 8 Tage",
-          text: "Fünf Tage zwischen Trancoso und Corumbau, mit einer zwei- bis dreitägigen Tauch- und Walbeobachtungserweiterung nach Abrolhos zwischen Juli und November.",
+          title: "Tag 2 — Trancoso",
+          text: "Erkunden Sie den Quadrado und die nahe gelegenen Strände in Ihrem eigenen Tempo.",
         },
         {
-          title: "Entdeckungsküste + Rio de Janeiro — 10 Tage",
-          text: "Der klassische brasilianische Kontrast: Stadt und Berge in Rio, Stille und Wald im Süden Bahias.",
+          title: "Tag 3 — Arraial d’Ajuda",
+          text: "Verbringen Sie einen Tag in Arraial d’Ajuda, bevor Sie zu Ihrer Unterkunft an der Küste zurückkehren.",
         },
         {
-          title: "Nur Entdeckungsküste — 6 bis 7 Tage",
-          text: "Unser meistgebuchtes Format: drei Nächte in Trancoso, zwei in Caraíva oder Corumbau, ohne Eile beim Wechsel.",
+          title: "Tag 4 — Verlängerung in Caraíva",
+          text: "Reisen Sie für eine ruhigere Übernachtung nach Caraíva weiter; die Transfers werden nach den örtlichen Zugangsbedingungen geplant.",
+        },
+        {
+          title: "Tag 5 — Küstenmorgen und Abreise",
+          text: "Genießen Sie einen letzten Morgen am Meer vor dem Transfer Richtung Porto Seguro; bei einem frühen Flug empfiehlt sich eine zusätzliche Nacht.",
+        },
+        {
+          title: "Kombinieren Sie zwei oder mehr brasilianische Biome",
+          text: "Brasilien hat sechs Landbiome — Amazonas, Atlantischer Regenwald, Cerrado, Caatinga, Pantanal und Pampa — plus die Küsten- und Meereszone: sieben unterschiedliche Landschaften und Kulturen. Verbinden Sie den Atlantischen Regenwald mit den Küsten- und Meereslandschaften der Entdeckungsküste. Wir stimmen Reisetempo und Verbindungen auf die saisonalen Bedingungen ab; Tierbeobachtungen sind nie garantiert.",
         },
       ],
     },
@@ -1019,12 +1023,15 @@ export const costaDoDescobrimentoGuide: BrazilGuideLocalized = {
         q: "Wie viel kostet eine Reise an die Entdeckungsküste mit Create Travel?",
         a: "Wir arbeiten nicht mit Standardpreisen: Das Budget hängt von der Pousada, der Saison und der Route ab. Ein menschlicher Berater legt das Angebot schriftlich vor, ohne Schätzungen auf der Website.",
       },
+      { q: "Benötige ich ein Visum oder Impfungen für Brasilien?", a: "Die Visumpflicht hängt von Ihrer Staatsangehörigkeit ab und kann sich ändern. Prüfen Sie vor der Buchung offizielle brasilianische Konsular- und Einreiseinformationen. Lassen Sie sich frühzeitig reisemedizinisch zu Routineimpfungen, Gelbfieber und regionalen Vorsichtsmaßnahmen beraten und beachten Sie offizielle Gesundheitshinweise." },
+      { q: "Sind deutschsprachige Reiseleiter bei jeder Exkursion verfügbar?", a: "Ja. Create Travel stellt im Rahmen Ihrer privaten, maßgeschneiderten Reiseroute deutschsprachige Reiseleiter bei jeder Exkursion bereit." },
+      { q: "Wie erfolgt die Anreise aus dem Ausland?", a: "Fliegen Sie international zu einem brasilianischen Drehkreuz wie São Paulo oder Rio de Janeiro und weiter zum Flughafen Porto Seguro (BPS). Create Travel organisiert private Transfers zu Ihrer Unterkunft oder zum Einschiffungsort." },
+      { q: "Kann ich Entdeckungsküste mit anderen brasilianischen Biomen kombinieren?", a: "Ja. Brasilien hat sechs Landbiome plus die Küsten- und Meereszone — sieben unterschiedliche Landschaften und Kulturen. Verbinden Sie den Atlantischen Regenwald mit den Küsten- und Meereslandschaften der Entdeckungsküste. Ihr Travel Designer prüft die saisonale Vereinbarkeit und plant realistische Reisetage zwischen den Regionen ein." },
     ],
     cta: {
-      heading: "Lassen Sie uns Ihre Entdeckungsküste gestalten",
-      subheading:
-        "Ein menschlicher Berater von Create Travel wählt zwischen Trancoso, Caraíva und Corumbau die richtige Adresse für Ihr Profil.",
-      button: "Mit einem Travel Designer sprechen",
+      heading: "Fordern Sie Ihr Entdeckungsküste-Reiseangebot an",
+      subheading: "Planen Sie Ihre private, maßgeschneiderte Reise mit einem persönlichen Travel Designer, abgestimmt auf Ihre Interessen, Ihr Tempo und Ihre bevorzugte Reisezeit. Sie erhalten Ihr schriftliches Angebot per WhatsApp.",
+      button: "Angebot per WhatsApp anfordern",
     },
     readingMinutes: 11,
     publishedAt: "2026-08-11",

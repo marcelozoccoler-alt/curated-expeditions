@@ -986,14 +986,14 @@ export const hospedagensBaseComunitariaBrasilGuide: BrazilGuideLocalized = {
     destinationName: "Gemeinschaftsbasierte Unterkünfte in Brasilien",
     blurb:
       "Pousadas und Lodges, geführt von Flussanwohner-, Quilombola-, indigenen und Caiçara-Gemeinschaften — Brasilien empfangen von jenen, die es immer bewohnt haben.",
-    metaTitle: "Community-Based Tourism in Brasilien: Redaktioneller Guide",
+    metaTitle: "Gemeinschaftsbasierte Unterkünfte in Brasilien: Reiseroute, beste Reisezeit & Angebot",
     metaDescription:
-      "Vollständiger Guide zum gemeinschaftsbasierten Tourismus in Brasilien: was er ist, wie die Einnahmenteilung funktioniert, der reale Komfortgrad, Etikette, beste Reisezeiten je Region und wie man Community-Nächte mit Charme-Unterkünften kombiniert.",
+      "Planen Sie eine private, maßgeschneiderte Reise: Gemeinschaftsbasierte Unterkünfte in Brasilien, vorgeschlagene Reiseroute, beste Reisezeit und Anreise. Fordern Sie ein Angebot per WhatsApp an.",
     keywords:
-      "community based tourism brasilien, uakari lodge mamiraua, quilombo do campinho paraty, prainha do canto verde, vale do pati unterkunft, indigene dorfer brasilien, reise mit sinn brasilien",
-    h1: "Gemeinschaftsbasierte Unterkünfte: Brasilien empfangen von jenen, die es immer gehütet haben",
+      "community based tourism brasilien, uakari lodge mamiraua, quilombo do campinho paraty, prainha do canto verde, vale do pati unterkunft, indigene dorfer brasilien, reise mit sinn brasilien, gemeinschaftsbasierte unterkünfte in brasilien rundreise, gemeinschaftsbasierte unterkünfte in brasilien reiseroute, anreise gemeinschaftsbasierte unterkünfte in brasilien, beste reisezeit gemeinschaftsbasierte unterkünfte in brasilien",
+    h1: "Gemeinschaftsbasierte Unterkünfte in Brasilien: Reiseroute, beste Reisezeit und Anreise",
     aiAnswer:
-      "Gemeinschaftsbasierter Tourismus (TBC) in Brasilien bedeutet Unterkunft und Erlebnisse, die direkt von Flussanwohner-, Quilombola-, indigenen und Caiçara-Gemeinschaften betrieben werden, wobei der Großteil der Einnahmen in der Gemeinschaft bleibt; der Komfort ist rustikal-elegant (Eimer- oder Solardusche, gemeinschaftliche Mahlzeiten, begrenzter Strom), und das ideale Format für Reisende 40+ ist die Kombination von 2-3 Community-Nächten mit Charme-Unterkünften in derselben Reiseroute.",
+      "Gemeinschaftsbasierter Tourismus (TBC) in Brasilien bedeutet Unterkunft und Erlebnisse, die direkt von Flussanwohner-, Quilombola-, indigenen und Caiçara-Gemeinschaften betrieben werden, wobei der Großteil der Einnahmen in der Gemeinschaft bleibt; der Komfort ist rustikal-elegant (Eimer- oder Solardusche, gemeinschaftliche Mahlzeiten, begrenzter Strom), und das ideale Format für Reisende 40+ ist die Kombination von 2-3 Community-Nächten mit Charme-Unterkünften in derselben Reiseroute. Create Travel plant private, maßgeschneiderte Gemeinschaftsbasierte Unterkünfte in Brasilien-Reisen für internationale Gäste, mit deutschsprachigen Reiseleitern, und sendet ein schriftliches Angebot per WhatsApp.",
     intro: [
       "Es gibt eine Art von Luxus, die sich nicht in Annehmlichkeiten misst: sie misst sich daran, wer einem die Tür öffnet. Im gemeinschaftsbasierten Tourismus ist der Gastgeber keine Hotelkette, sondern eine Flussanwohnerfamilie, ein Quilombo, ein indigenes Dorf, eine Caiçara-Fischergemeinde, die gemeinsam entschieden hat, ihr eigenes Territorium in ein Erlebnis zu verwandeln, ohne dessen Eigentümerin aufzuhören zu sein.",
       "Das verändert alles: das Gespräch am Tisch, was man über Brasilien lernt, wohin das Reisegeld fließt. Dieser Guide entsteht, weil immer mehr unserer Reisenden — Menschen, die bereits Safaris gemacht, in Ryokans in Japan geschlafen, auf Privatinseln übernachtet haben — nach etwas fragen, das kein Resort bieten kann: eine echte Nacht innerhalb einer Gemeinschaft, die sie als Gäste empfängt, nicht als Kunden.",
@@ -1140,30 +1140,15 @@ export const hospedagensBaseComunitariaBrasilGuide: BrazilGuideLocalized = {
       ],
     },
     itinerary: {
-      heading: "Eine hybride Reiseroute gestalten: Gemeinschaft + Charme",
-      intro:
-        "Das von uns am meisten empfohlene Format kombiniert zwei bis drei Nächte gemeinschaftlicher Immersion mit Charme-Unterkünften davor und danach — der Kontrast ist Teil des Designs, kein Makel daran.",
+      heading: "Vorgeschlagene Reiseroute: Gemeinschaftsbasierte Unterkünfte in Brasilien und Brasilien-Kombinationen",
+      intro: "Eine private, maßgeschneiderte Reise, abgestimmt auf Ihre Reisedaten, Ihr Tempo und die örtlichen Bedingungen. Planen Sie Puffernächte bei Flugverbindungen ein.",
       items: [
-        {
-          title: "Amazonas: Manaus (Charme) + Mamirauá oder Tapajós (Gemeinschaft) + Alter do Chão (Charme) — 8 bis 10 Tage",
-          text: "Eine städtische Ankunftsnacht, drei bis vier Nächte in der Pousada Uacari oder im Arapiuns-Netzwerk, Abschluss in Alter do Chão mit Design-Unterkunft am Fluss.",
-        },
-        {
-          title: "Chapada Diamantina: Lençóis (Charme) + Vale do Pati (Gemeinschaft) + Lençóis (Charme) — 8 Tage",
-          text: "Die dreitägige Durchquerung zwischen den einheimischen Häusern des Pati, umrahmt von zwei komfortablen Aufenthalten in Lençóis für Erholung, heiße Dusche und gute Küche.",
-        },
-        {
-          title: "Costa Verde: historisches Paraty (Charme) + Quilombo do Campinho oder Praia do Sono (Gemeinschaft) + Trindade (Charme) — 7 Tage",
-          text: "Koloniale Kultur, dann Quilombola- oder Caiçara-Kultur, abschließend in einer eleganten Strand-Pousada — drei verschiedene Brasilien in einer Woche.",
-        },
-        {
-          title: "Cerrado: Chapada dos Veadeiros (Charme) + Kalunga-Gemeinschaft (2 Nächte) + Chapada dos Veadeiros (Charme) — 7 bis 8 Tage",
-          text: "Wanderwege und Wasserfälle des Parks abwechselnd mit der Quilombola-Immersion, ohne auf den Komfort einer Design-Pousada in der Region zu verzichten.",
-        },
-        {
-          title: "Nordosten: Fortaleza oder Jericoacoara (Charme) + Prainha do Canto Verde (Gemeinschaft) — 6 bis 7 Tage",
-          text: "Klassisches Meer von Ceará plus ein Fischerdorf, das zum nationalen Symbol des gemeinschaftsbasierten Tourismus wurde — ideal für jene, die Strand mit Bedeutung suchen.",
-        },
+        { title: "Amazonas: Manaus + Mamirauá oder Tapajós + Alter do Chão — 8 bis 10 Tage", text: "Eine Ankunftsnacht in der Stadt, drei bis vier Nächte in der Pousada Uacari oder im Arapiuns-Netzwerk und zum Abschluss eine Design-Lodge am Fluss in Alter do Chão; Boutique- und Gemeinschaftsunterkünfte ergänzen sich." },
+        { title: "Chapada Diamantina: Lençóis + Vale do Pati + Lençóis — 8 Tage", text: "Die dreitägige Durchquerung zwischen den Häusern der einheimischen Pati-Bewohner wird von zwei komfortablen Aufenthalten in Lençóis mit Erholung, warmen Duschen und gutem Essen eingerahmt." },
+        { title: "Costa Verde: Paraty + Quilombo do Campinho oder Praia do Sono + Trindade — 7 Tage", text: "Kolonialkultur, dann Quilombola- oder Caiçara-Kultur und zum Abschluss eine anspruchsvolle Strandpousada: drei unterschiedliche Seiten Brasiliens in einer Woche." },
+        { title: "Cerrado: Chapada dos Veadeiros + Kalunga-Gemeinschaft + Chapada dos Veadeiros — 7 bis 8 Tage", text: "Wanderwege und Wasserfälle im Park wechseln sich mit zwei Nächten in der Kalunga-Gemeinschaft ab, ergänzt durch den Komfort einer Designpousada in der Region." },
+        { title: "Nordosten: Fortaleza oder Jericoacoara + Prainha do Canto Verde — 6 bis 7 Tage", text: "Boutique-Aufenthalt am Meer von Ceará, gefolgt von einem Fischerdorf, das zum nationalen Symbol gemeinschaftsbasierten Tourismus wurde: Strand mit Bedeutung." },
+        { title: "Kombinieren Sie zwei oder mehr brasilianische Biome", text: "Brasilien hat sechs Landbiome plus die Küsten- und Meereszone — sieben unterschiedliche Landschaften und Kulturen. Verbinden Sie einen Aufenthalt in der Kalunga-Gemeinschaft im Cerrado mit einer Caiçara-Unterkunft an der Atlantikwaldküste. Wir stimmen die Reihenfolge auf die saisonalen Bedingungen ab und berücksichtigen Transferzeiten." },
       ],
     },
     tips: {
@@ -1202,12 +1187,15 @@ export const hospedagensBaseComunitariaBrasilGuide: BrazilGuideLocalized = {
         q: "Kann man ein gemeinschaftliches Erlebnis mit einer umfassenderen Luxusreise kombinieren?",
         a: "Genau das ist das Format, das wir am meisten empfehlen: zwei bis drei Community-Nächte kombiniert mit Charme-Unterkünften davor und danach, innerhalb derselben Brasilien-Reiseroute.",
       },
+      { q: "Wie erfolgt die Anreise aus dem Ausland?", a: "Fliegen Sie international zu einem brasilianischen Drehkreuz und anschließend zum Flughafen der gewählten Gemeinschaftsregion. Manaus ist ein Ankunftsort für Amazonasreisen. Create Travel organisiert private Weitertransfers auf Straße oder Wasser und klärt die Zustimmung der Gemeinschaften im Voraus." },
+      { q: "Benötige ich ein Visum oder Impfungen für Brasilien?", a: "Visabestimmungen hängen von Ihrer Staatsangehörigkeit und den Reisedaten ab. Prüfen Sie vor der Buchung offizielle brasilianische Konsularinformationen. Lassen Sie sich reisemedizinisch zu Standardimpfungen, Gelbfieberempfehlungen und Einreise- oder Transitvorgaben beraten und beachten Sie offizielle Gesundheitshinweise für Ihre Reiseroute." },
+      { q: "Sind bei jeder Exkursion deutschsprachige Reiseleiter verfügbar?", a: "Ja. Create Travel stellt bei jeder Exkursion Ihrer privaten, maßgeschneiderten Reise deutschsprachige Reiseleiter bereit. Tempo und Erläuterungen richten sich nach Ihren Interessen." },
+      { q: "Kann ich Gemeinschaftsbasierte Unterkünfte in Brasilien mit anderen brasilianischen Biomen kombinieren?", a: "Brasilien hat sechs Landbiome plus die Küsten- und Meereszone — sieben unterschiedliche Landschaften und Kulturen. Verbinden Sie einen Aufenthalt in der Kalunga-Gemeinschaft im Cerrado mit einer Caiçara-Unterkunft an der Atlantikwaldküste. Ihr Reiseplaner prüft saisonale Vereinbarkeit und Transferzeiten." },
     ],
     cta: {
-      heading: "Lassen Sie uns Ihr Community-Erlebnis gestalten",
-      subheading:
-        "Ein menschlicher Create-Travel-Berater bestätigt Verfügbarkeit, Zugang und aktuelle Bedingungen jeder Gemeinschaft — und erstellt die passende hybride Reiseroute für Ihr Profil.",
-      button: "Mit einem Travel Designer sprechen",
+      heading: "Fordern Sie Ihr Gemeinschaftsbasierte Unterkünfte in Brasilien-Reiseangebot an",
+      subheading: "Planen Sie Ihre private, maßgeschneiderte Reise mit einem persönlichen Create Travel-Reisedesigner, der Ihre Interessen, Ihr Tempo und Ihren gewünschten Komfort berücksichtigt. Sie erhalten Ihr schriftliches Angebot per WhatsApp.",
+      button: "Angebot per WhatsApp anfordern",
     },
     readingMinutes: 13,
     publishedAt: "2026-08-11",

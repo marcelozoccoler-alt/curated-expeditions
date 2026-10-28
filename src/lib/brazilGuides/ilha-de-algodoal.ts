@@ -801,14 +801,14 @@ export const ilhaDeAlgodoalGuide: BrazilGuideLocalized = {
     destinationName: "Insel Algodoal",
     blurb:
       "Eine autofreie Insel an der Küste Parás, zwischen Dünen, Süßwasserlagunen und Fischerdörfern, die nur mit dem Boot erreichbar sind.",
-    metaTitle: "Insel Algodoal: Reiseführer zur autofreien Insel in Pará",
+    metaTitle: "Algodoal, Brasilien: Reiseroute, beste Reisezeit & Angebot",
     metaDescription:
-      "Vollständiger Reiseführer zur Insel Algodoal (Maiandeua), Pará: beste Reisezeit, Lago da Princesa, die Dörfer Fortalezinha und Camboinha, charmante Pousadas und Anreise über Marudá. Ohne Preisangaben.",
+      "Planen Sie eine private, maßgeschneiderte Reise: Algodoal, vorgeschlagene Reiseroute, beste Reisezeit und Anreise. Fordern Sie ein Angebot per WhatsApp an.",
     keywords:
-      "insel algodoal, algodoal maiandeua, lago da princesa, anreise algodoal, fortalezinha para, pousada algodoal, marajo und algodoal",
-    h1: "Insel Algodoal: die autofreie Insel, die Parás wildeste Küste bewahrt",
+      "insel algodoal, algodoal maiandeua, lago da princesa, anreise algodoal, fortalezinha para, pousada algodoal, marajo und algodoal, algodoal rundreise, algodoal reiseroute, anreise algodoal, beste reisezeit algodoal",
+    h1: "Algodoal: Reiseroute, beste Reisezeit und Anreise",
     aiAnswer:
-      "Die beste Reisezeit für die Insel Algodoal ist von Juni bis November, in der Trockenzeit Amazoniens, wenn die Sandpfade zwischen den Dörfern fester sind und der Lago da Princesa seinen einladendsten Wasserstand erreicht; die Anreise erfolgt über die Straße bis Marudá und anschließend mit einer fünfzehn- bis zwanzigminütigen Bootsfahrt zum Dorf Algodoal.",
+      "Die beste Reisezeit für die Insel Algodoal ist von Juni bis November, in der Trockenzeit Amazoniens, wenn die Sandpfade zwischen den Dörfern fester sind und der Lago da Princesa seinen einladendsten Wasserstand erreicht; die Anreise erfolgt über die Straße bis Marudá und anschließend mit einer fünfzehn- bis zwanzigminütigen Bootsfahrt zum Dorf Algodoal. Create Travel plant private, maßgeschneiderte Algodoal-Reisen für internationale Gäste, mit deutschsprachigen Reiseleitern, und sendet ein schriftliches Angebot per WhatsApp.",
     intro: [
       "Algodoal — oder Maiandeua, sein indigener Name — ist ein Umweltschutzgebiet an der Atlantikküste Parás, in dem es schlicht keine Autos gibt. Die Fortbewegung erfolgt zu Fuß, mit dem Fahrrad oder in von Pferden gezogenen Karren, und genau diese Abwesenheit von Asphalt und Motoren bewahrt Wanderdünen, Mangroven und kilometerlange Strände ohne ein einziges hohes Gebäude.",
       "Die Insel vereint vier Ortsteile mit unterschiedlichem Charakter — Algodoal, Fortalezinha, Camboinha und Mocooca —, verbunden durch Sandpfade und ein von Fischerei und Flussleben geprägtes, eigenständiges Tempo. Ein Reiseziel für alle, die urbanen Komfort gegen Stille, Süßwasser-Lagunen und den beständigen Wind über den Dünen eintauschen.",
@@ -908,22 +908,17 @@ export const ilhaDeAlgodoalGuide: BrazilGuideLocalized = {
       ],
     },
     itinerary: {
-      heading: "Wie sich Algodoal in eine Pará-Reise einfügen lässt",
-      intro:
-        "Algodoal eignet sich am besten als Ergänzung zu einem Aufenthalt in Belém und verbindet Küste und Regenwald in einer einzigen Reise in den Norden Brasiliens.",
+      heading: "Vorgeschlagene Reiseroute: Algodoal und Brasilien-Kombinationen",
+      intro: "Eine private, maßgeschneiderte Reise, abgestimmt auf Ihre Reisedaten, Ihr Tempo und die örtlichen Bedingungen. Planen Sie Puffernächte bei Flugverbindungen ein.",
       items: [
-        {
-          title: "Belém + Algodoal — 4 Tage",
-          text: "Zwei Tage in Belém (Ver-o-Peso-Markt, Estação das Docas), gefolgt von der Fahrt nach Marudá und der Bootsüberfahrt, mit zwei Nächten im Dorf Algodoal.",
-        },
-        {
-          title: "Belém + Marajó + Algodoal — 7 bis 8 Tage",
-          text: "Verbindet die Büffel und überschwemmten Ebenen Marajós mit der Dünenküste Algodoals und zeigt zwei gegensätzliche Seiten Parás auf einer Reise.",
-        },
-        {
-          title: "Algodoal + Amazonien (Santarém/Alter do Chão) — 8 bis 10 Tage",
-          text: "Verbindet die Atlantikküste Parás mit den Süßwasserstränden des Tapajós, verknüpft durch einen Inlandsflug über Belém.",
-        },
+        { title: "Tag 1 — Belém nach Algodoal", text: "Fahrt nach Marudá, Bootsüberfahrt und Ankommen in Ihrer Pousada im Dorf Algodoal." },
+        { title: "Tag 2 — Dünen und Lago da Princesa", text: "Wandern Sie früh vor der Hitze, ruhen Sie mittags und besuchen Sie die Süßwasserlagune in der Abenddämmerung." },
+        { title: "Tag 3 — Fortalezinha", text: "Folgen Sie dem Strandpfad mit einem Reiseleiter, stimmen Sie Querungen der Gezeitenarme auf die Bedingungen ab und kehren Sie in angenehmem Tempo zurück." },
+        { title: "Tag 4 — Mangroven und Abreise", text: "Unternehmen Sie morgens eine Bootsfahrt, sofern Gezeiten und Abreisezeiten es erlauben; nach drei Inselnächten Rückkehr über Marudá." },
+        { title: "Belém + Algodoal — 4 Tage", text: "Zwei Tage in Belém mit Ver-o-Peso und Estação das Docas, danach Fahrt nach Marudá und Bootsüberfahrt mit zwei Nächten im Dorf Algodoal." },
+        { title: "Belém + Marajó + Algodoal — 7 bis 8 Tage", text: "Verbinden Sie Marajós Büffel und überschwemmte Ebenen mit Algodoals Dünenküste: zwei gegensätzliche Seiten von Pará auf einer Reise." },
+        { title: "Algodoal + Amazonasgebiet (Santarém/Alter do Chão) — 8 bis 10 Tage", text: "Verbinden Sie Parás Atlantikküste mit den Süßwasserstränden des Tapajós per Inlandsflug über Belém." },
+        { title: "Kombinieren Sie zwei oder mehr brasilianische Biome", text: "Brasilien hat sechs Landbiome plus die Küsten- und Meereszone — sieben unterschiedliche Landschaften und Kulturen. Verbinden Sie Algodoals Küsten- und Meereszone über Belém mit dem Amazonasgebiet rund um Santarém und Alter do Chão. Wir stimmen die Reihenfolge auf die saisonalen Bedingungen ab und berücksichtigen Transferzeiten." },
       ],
     },
     tips: {
@@ -938,10 +933,7 @@ export const ilhaDeAlgodoalGuide: BrazilGuideLocalized = {
       ],
     },
     faq: [
-      {
-        q: "Wie kommt man zur Insel Algodoal?",
-        a: "Von Belém aus geht es über die Straße zum Ort Marudá, von wo aus regelmäßig Boote zum Dorf Algodoal ablegen — eine Überfahrt von fünfzehn bis zwanzig Minuten.",
-      },
+      
       {
         q: "Stimmt es, dass es auf Algodoal keine Autos gibt?",
         a: "Ja. Die Insel ist ein Umweltschutzgebiet, und die interne Fortbewegung erfolgt zu Fuß, mit dem Fahrrad oder in von Pferden gezogenen Karren.",
@@ -962,12 +954,15 @@ export const ilhaDeAlgodoalGuide: BrazilGuideLocalized = {
         q: "Was ist die beste Reisezeit für Algodoal?",
         a: "Von Juni bis November, in der Trockenzeit, wenn die Sandpfade zwischen den Dörfern fester sind und die Regenfälle seltener auftreten.",
       },
+      { q: "Wie erfolgt die Anreise aus dem Ausland?", a: "Fliegen Sie international nach Brasilien und über ein brasilianisches Drehkreuz nach Belém. Weiter geht es auf der Straße nach Marudá und per Boot in etwa 15 bis 20 Minuten nach Algodoal. Create Travel organisiert private Transfers zur Überfahrt und koordiniert die Weiterreise auf der autofreien Insel." },
+      { q: "Benötige ich ein Visum oder Impfungen für Brasilien?", a: "Visabestimmungen hängen von Ihrer Staatsangehörigkeit und den Reisedaten ab. Prüfen Sie vor der Buchung offizielle brasilianische Konsularinformationen. Lassen Sie sich reisemedizinisch zu Standardimpfungen, Gelbfieberempfehlungen und Einreise- oder Transitvorgaben beraten und beachten Sie offizielle Gesundheitshinweise für Ihre Reiseroute." },
+      { q: "Sind bei jeder Exkursion deutschsprachige Reiseleiter verfügbar?", a: "Ja. Create Travel stellt bei jeder Exkursion Ihrer privaten, maßgeschneiderten Reise deutschsprachige Reiseleiter bereit. Tempo und Erläuterungen richten sich nach Ihren Interessen." },
+      { q: "Kann ich Algodoal mit anderen brasilianischen Biomen kombinieren?", a: "Brasilien hat sechs Landbiome plus die Küsten- und Meereszone — sieben unterschiedliche Landschaften und Kulturen. Verbinden Sie Algodoals Küsten- und Meereszone über Belém mit dem Amazonasgebiet rund um Santarém und Alter do Chão. Ihr Reiseplaner prüft saisonale Vereinbarkeit und Transferzeiten." },
     ],
     cta: {
-      heading: "Lassen Sie uns Ihre Reise nach Algodoal gestalten",
-      subheading:
-        "Ein persönlicher Berater von Create Travel organisiert Überfahrten, Pousadas und die passende Route, um Parás autofreie Insel zu entdecken.",
-      button: "Mit einem Travel Designer sprechen",
+      heading: "Fordern Sie Ihr Algodoal-Reiseangebot an",
+      subheading: "Planen Sie Ihre private, maßgeschneiderte Reise mit einem persönlichen Create Travel-Reisedesigner, der Ihre Interessen, Ihr Tempo und Ihren gewünschten Komfort berücksichtigt. Sie erhalten Ihr schriftliches Angebot per WhatsApp.",
+      button: "Angebot per WhatsApp anfordern",
     },
     readingMinutes: 8,
     publishedAt: "2026-08-11",

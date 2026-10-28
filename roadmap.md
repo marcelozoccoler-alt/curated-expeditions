@@ -27,3 +27,4 @@
 - [x] Livro Capitais Imperiais: tratar seis fotos recebidas e inseri-las no álbum do primeiro dia em Budapeste, com legendas e apresentação editorial
 - [x] Padrão de conversão em inglês aplicado nos 40 guias restantes (Alter do Chão e demais): título, descrição, roteiro, FAQs, botão de orçamento e dica de biomas; 261 testes passam, build OK, 3 páginas conferidas no navegador; não publicado.
 - [x] Padrão de conversão aplicado em espanhol e italiano nos 45 guias: título, descrição, roteiro, FAQs, botão de orçamento e dica de biomas; 261 testes passam, build OK, páginas ES/IT conferidas no navegador (título de Noronha corrigido); não publicado.
+- [x] Alemão aplicado nos 45 guias (mesmo padrão de conversão); 261 testes passam, build OK, páginas DE conferidas no navegador; publicação pedida pelo Marcelo em 28/10.

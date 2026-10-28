@@ -1043,14 +1043,14 @@ export const hospedagensDeCharmeBrasilGuide: BrazilGuideLocalized = {
     destinationName: "Charmante Boutique-Unterkünfte Brasiliens",
     blurb:
       "Eine Reise durch Boutique-Pousadas und Retreats mit wenigen Suiten — von Bahias Küste über Noronha bis zur Sierra und zum Cerrado —, wo das Haus selbst das Reiseziel ist.",
-    metaTitle: "Boutique-Hotels in Brasilien: Häuser für die ganze Reise",
+    metaTitle: "Charme-Unterkünfte in Brasilien: Reiseroute, beste Reisezeit & Angebot",
     metaDescription:
-      "Von Trancoso bis Noronha: Häuser mit wenigen Suiten, in denen der Gastgeber noch selbst empfängt. Für wen welches passt, wann hin und wie kombinieren.",
+      "Planen Sie eine private, maßgeschneiderte Reise: Charme-Unterkünfte in Brasilien, vorgeschlagene Reiseroute, beste Reisezeit und Anreise. Fordern Sie ein Angebot per WhatsApp an.",
     keywords:
-      "boutique hotels brasilien, charmante pousadas brasilien, uxua casa hotel, vila naia corumbau, pousada maravilha noronha, vila dos orixas boipeba, casa turquesa paraty, luxus boutique reise brasilien",
-    h1: "Charmante Boutique-Unterkünfte Brasiliens: Häuser, die selbst zur Reise werden",
+      "boutique hotels brasilien, charmante pousadas brasilien, uxua casa hotel, vila naia corumbau, pousada maravilha noronha, vila dos orixas boipeba, casa turquesa paraty, luxus boutique reise brasilien, charme-unterkünfte in brasilien rundreise, charme-unterkünfte in brasilien reiseroute, anreise charme-unterkünfte in brasilien, beste reisezeit charme-unterkünfte in brasilien",
+    h1: "Charme-Unterkünfte in Brasilien: Reiseroute, beste Reisezeit und Anreise",
     aiAnswer:
-      "Brasiliens beste Boutique-Unterkünfte sind Häuser mit wenigen Suiten — wie Uxua und Estrela d'Água in Trancoso, Vila Naiá in Corumbau, Pousada Maravilha auf Fernando de Noronha, Vila dos Orixás in Boipeba und Casa Turquesa in Paraty —, definiert durch kleine Größe, autorenhafte Architektur, persönlichen Service und lokal verwurzelte Küche; ideal ist eine Route mit zwei bis drei nahegelegenen Häusern über 8 bis 12 Tage.",
+      "Brasiliens beste Boutique-Unterkünfte sind Häuser mit wenigen Suiten — wie Uxua und Estrela d'Água in Trancoso, Vila Naiá in Corumbau, Pousada Maravilha auf Fernando de Noronha, Vila dos Orixás in Boipeba und Casa Turquesa in Paraty —, definiert durch kleine Größe, autorenhafte Architektur, persönlichen Service und lokal verwurzelte Küche; ideal ist eine Route mit zwei bis drei nahegelegenen Häusern über 8 bis 12 Tage. Create Travel plant private, maßgeschneiderte Charme-Unterkünfte in Brasilien-Reisen für internationale Gäste, mit deutschsprachigen Reiseleitern, und sendet ein schriftliches Angebot per WhatsApp.",
     intro: [
       "Es gibt eine Kategorie von Unterkunft, die nicht über die Zimmerzahl konkurriert, sondern über deren Abwesenheit. Häuser mit sechs, zehn, fünfzehn Suiten, in denen der Manager am zweiten Tag Ihren Namen kennt, der Küchenchef fragt, ob Ihnen der Fisch geschmeckt hat, und die Architektur mit dem Ort spricht, statt einen importierten Standard aufzuzwingen. Wir nennen das charmante Boutique-Hospitality — und Brasilien hat, von Bahias Küste bis zum Cerrado, einige der besten der Welt.",
       "Dieser Guide versammelt die Häuser, die wir getestet haben und die in den Berichten unserer Create-Travel-Reisenden immer wiederkehren: Boutique-Pousadas in historischen Dörfern, isolierte Strandretreats, Farmhotels mitten im Cerrado und preisgekrönte Architektur in der Sierra. Wir ordnen sie nach Region und Erlebnis, um zu helfen, nicht nur zu entscheiden, wo Sie übernachten, sondern welche Art von Reise jedes Haus bietet.",
@@ -1212,30 +1212,15 @@ export const hospedagensDeCharmeBrasilGuide: BrazilGuideLocalized = {
       ],
     },
     itinerary: {
-      heading: "Wie man zwei oder drei Häuser zu einer Route verbindet",
-      intro:
-        "Die Stärke dieser Reiseart liegt darin, nahegelegene Regionen zu verbinden, ohne übermäßige Inlandsflüge zwischen den Häusern.",
+      heading: "Vorgeschlagene Reiseroute: Charme-Unterkünfte in Brasilien und Brasilien-Kombinationen",
+      intro: "Eine private, maßgeschneiderte Reise, abgestimmt auf Ihre Reisedaten, Ihr Tempo und die örtlichen Bedingungen. Planen Sie Puffernächte bei Flugverbindungen ein.",
       items: [
-        {
-          title: "Trancoso + Corumbau — 8 bis 10 Tage",
-          text: "Drei bis vier Nächte im Uxua oder Estrela D'Água, um das historische Quadrado zu erleben, gefolgt von drei bis vier Nächten in der Vila Naiá für totale Isolation. Gleicher Ankunftsflughafen, Transfer per Straße oder Boot zwischen beiden.",
-        },
-        {
-          title: "Trancoso + Boipeba — 9 bis 11 Tage",
-          text: "Kombiniert Trancosos diskretes gesellschaftliches Leben mit Boipebas radikaler Stille in der Vila dos Orixás. Transfer per Straße und Boot, ohne Inlandsflug.",
-        },
-        {
-          title: "Paraty + Sierra bei Rio — 7 bis 9 Tage",
-          text: "Casa Turquesa oder Pousada Literária im historischen Zentrum, gefolgt von Tagen in der nahen Sierra für Wanderungen und mildes Klima. Ideal als Auftakt oder Abschluss einer größeren Rio-de-Janeiro-Route.",
-        },
-        {
-          title: "Fernando de Noronha exklusiv — 4 bis 6 Nächte",
-          text: "Die Insel verlangt exklusive Hingabe: Pousada Maravilha oder Teju-Açu als einzige Basis, ohne Wechsel zu einem anderen Ziel im selben Reiseblock.",
-        },
-        {
-          title: "Cerrado + Bahias Küste — 10 bis 12 Tage",
-          text: "Pousada Trijunção für Wandern, Quellen und Tierbeobachtung, gefolgt von Trancoso oder Corumbau als Strand-Gegenpol. Flugverbindung über Brasília oder Salvador.",
-        },
+        { title: "Trancoso + Corumbau — 8 bis 10 Tage", text: "Drei bis vier Nächte im Uxua oder Estrela D’Água für den historischen Quadrado, gefolgt von drei bis vier Nächten in der Vila Naiá für völlige Abgeschiedenheit. Derselbe Ankunftsflughafen, Transfer auf der Straße oder per Boot." },
+        { title: "Trancoso + Boipeba — 9 bis 11 Tage", text: "Verbinden Sie Trancosos diskretes Gesellschaftsleben mit Boipebas tiefer Ruhe in der Vila dos Orixás. Straßen- und Bootstransfer ohne Inlandsflug." },
+        { title: "Paraty + Bergland bei Rio — 7 bis 9 Tage", text: "Casa Turquesa oder Pousada Literária im historischen Zentrum, danach Tage im nahen Bergland mit Wanderungen und mildem Klima. Ideal zu Beginn oder Abschluss einer längeren Rio-Reise." },
+        { title: "Fernando de Noronha als eigenständiger Aufenthalt — 4 bis 6 Nächte", text: "Die Insel verdient ungeteilte Aufmerksamkeit: Pousada Maravilha oder Teju-Açu als einzige Basis, ohne weiteren Zielwechsel in diesem Reiseabschnitt." },
+        { title: "Cerrado + Bahia-Küste — 10 bis 12 Tage", text: "Pousada Trijunção für Wanderwege, Quellen und Tierbeobachtung, danach Trancoso oder Corumbau als Strandkontrast. Flug über Brasília oder Salvador." },
+        { title: "Kombinieren Sie zwei oder mehr brasilianische Biome", text: "Brasilien hat sechs Landbiome plus die Küsten- und Meereszone — sieben unterschiedliche Landschaften und Kulturen. Verbinden Sie den Cerrado bei der Pousada Trijunção mit der Küsten- und Meereszone bei Trancoso oder Corumbau. Wir stimmen die Reihenfolge auf die saisonalen Bedingungen ab und berücksichtigen Transferzeiten." },
       ],
     },
     tips: {
@@ -1274,12 +1259,15 @@ export const hospedagensDeCharmeBrasilGuide: BrazilGuideLocalized = {
         q: "Wie viel kostet ein Aufenthalt in diesen Häusern?",
         a: "Wir arbeiten nicht mit Listenpreisen: Aktuelle Tarife und Verfügbarkeit variieren je nach Saison, Suitenkategorie und Wechselkurs. Ein menschlicher Create-Travel-Berater legt das Angebot schriftlich, direkt über WhatsApp, vor.",
       },
+      { q: "Wie erfolgt die Anreise aus dem Ausland?", a: "Fliegen Sie international zu einem brasilianischen Drehkreuz und anschließend zum Flughafen der gewählten Region. Create Travel plant private Weitertransfers passend zu den ausgewählten Unterkünften." },
+      { q: "Benötige ich ein Visum oder Impfungen für Brasilien?", a: "Visabestimmungen hängen von Ihrer Staatsangehörigkeit und den Reisedaten ab. Prüfen Sie vor der Buchung offizielle brasilianische Konsularinformationen. Lassen Sie sich reisemedizinisch zu Standardimpfungen, Gelbfieberempfehlungen und Einreise- oder Transitvorgaben beraten und beachten Sie offizielle Gesundheitshinweise für Ihre Reiseroute." },
+      { q: "Sind bei jeder Exkursion deutschsprachige Reiseleiter verfügbar?", a: "Ja. Create Travel stellt bei jeder Exkursion Ihrer privaten, maßgeschneiderten Reise deutschsprachige Reiseleiter bereit. Tempo und Erläuterungen richten sich nach Ihren Interessen." },
+      { q: "Kann ich Charme-Unterkünfte in Brasilien mit anderen brasilianischen Biomen kombinieren?", a: "Brasilien hat sechs Landbiome plus die Küsten- und Meereszone — sieben unterschiedliche Landschaften und Kulturen. Verbinden Sie den Cerrado bei der Pousada Trijunção mit der Küsten- und Meereszone bei Trancoso oder Corumbau. Ihr Reiseplaner prüft saisonale Vereinbarkeit und Transferzeiten." },
     ],
     cta: {
-      heading: "Lassen Sie uns Ihre Route charmanter Unterkünfte gestalten",
-      subheading:
-        "Ein Create-Travel-Designer wählt die richtigen Häuser für Ihr Profil und verhandelt Tarife und Verfügbarkeit direkt mit jeder Unterkunft.",
-      button: "Mit einem Travel Designer sprechen",
+      heading: "Fordern Sie Ihr Charme-Unterkünfte in Brasilien-Reiseangebot an",
+      subheading: "Planen Sie Ihre private, maßgeschneiderte Reise mit einem persönlichen Create Travel-Reisedesigner, der Ihre Interessen, Ihr Tempo und Ihren gewünschten Komfort berücksichtigt. Sie erhalten Ihr schriftliches Angebot per WhatsApp.",
+      button: "Angebot per WhatsApp anfordern",
     },
     readingMinutes: 11,
     publishedAt: "2026-08-11",

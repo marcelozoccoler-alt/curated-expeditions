@@ -799,14 +799,14 @@ export const jalapaoGuide: BrazilGuideLocalized = {
   },
 
   de: {
-    metaTitle: "Jalapão: Reiseführer zu Saison, Unterkünften und Routen",
+    metaTitle: "Jalapão, Brasilien: Reiseroute, beste Reisezeit & Angebot",
     metaDescription:
-      "Der vollständige Guide zu Jalapão, Brasilien: beste Reisezeit Monat für Monat, natürliche Quellen und goldene Dünen, die besten Unterkünfte je Reiseprofil und wie sich dieser Cerrado in Tocantins in eine Brasilien-Route einfügt.",
+      "Planen Sie eine private, maßgeschneiderte Reise: Jalapão, vorgeschlagene Reiseroute, beste Reisezeit und Anreise. Fordern Sie ein Angebot per WhatsApp an.",
     keywords:
-      "jalapao tocantins reisefuehrer, beste reisezeit jalapao, fervedouro jalapao, duenen jalapao, cachoeira da velha, mumbuca capim dourado, reiseroute jalapao, jalapao 4x4 reise, unterkunft jalapao",
-    h1: "Jalapão: Guide zum goldenen Cerrado, der zur Wüste wird",
+      "jalapao tocantins reisefuehrer, beste reisezeit jalapao, fervedouro jalapao, duenen jalapao, cachoeira da velha, mumbuca capim dourado, reiseroute jalapao, jalapao 4x4 reise, unterkunft jalapao, jalapão rundreise, jalapão reiseroute, anreise jalapão, beste reisezeit jalapão",
+    h1: "Jalapão: Reiseroute, beste Reisezeit und Anreise",
     aiAnswer:
-      "Die beste Reisezeit für Jalapão ist Mai bis September (Trockenzeit, feste Feldwege und klarer Himmel für die natürlichen Quellen und Dünen), wobei der Juli den Höhepunkt der touristischen Infrastruktur markiert; als praktisches Minimum gelten 4 bis 5 Nächte, mit Anreise über Palmas und 4x4-Transfers zwischen weit entfernten Attraktionen.",
+      "Die beste Reisezeit für Jalapão ist Mai bis September (Trockenzeit, feste Feldwege und klarer Himmel für die natürlichen Quellen und Dünen), wobei der Juli den Höhepunkt der touristischen Infrastruktur markiert; als praktisches Minimum gelten 4 bis 5 Nächte, mit Anreise über Palmas und 4x4-Transfers zwischen weit entfernten Attraktionen. Create Travel plant private, maßgeschneiderte Jalapão-Reisen für internationale Gäste, mit deutschsprachigen Reiseleitern, und sendet ein schriftliches Angebot per WhatsApp.",
     intro: [
       "Jalapão ist einer der letzten großen Leerräume Brasiliens — 34.000 km² erhaltener Cerrado im Osten von Tocantins, wo goldene Sanddünen an kristallklare Flüsse grenzen und sich der Boden zu natürlichen Becken öffnet, den sogenannten Fervedouros, in denen eine unterirdische Strömung den Körper nach oben drückt, als würde man schweben. Innerhalb der Region gibt es keine asphaltierte Straße: Alles geschieht per 4x4, was den Ort bewahrt und zugleich das Tempo der Reise bestimmt.",
       "Dieser Guide entstand mit Menschen, die die roten Feldwege von Jalapão dutzende Male befahren, die verfügbaren Unterkünfte getestet und in der Praxis gelernt haben, welche Quellen die Fahrt wert sind und welche nur dieselbe Kulisse wiederholen. Wir sagen es ehrlich: Die Hotelinfrastruktur hier ist einfacher als im Amazonas oder in Chapada dos Veadeiros, und das ist kein Mangel — es liegt in der Natur des Ziels.",
@@ -916,26 +916,16 @@ export const jalapaoGuide: BrazilGuideLocalized = {
       ],
     },
     itinerary: {
-      heading: "Wie sich Jalapão in eine Brasilien-Route einfügt",
-      intro:
-        "Jalapão erfordert sorgfältige Planung: Die internen Transfers sind lang und der regionale Luftzugang beschränkt sich auf Palmas, weshalb es unerlässlich ist, vor jeder internationalen Anschlussverbindung einen zusätzlichen Puffertag einzuplanen.",
+      heading: "Vorgeschlagene Reiseroute: Jalapão und Brasilien-Kombinationen",
+      intro: "Eine private, maßgeschneiderte Reise, abgestimmt auf Ihre Reisedaten, Ihr Tempo und die örtlichen Bedingungen. Planen Sie Puffernächte bei Flugverbindungen ein.",
       items: [
-        {
-          title: "Jalapão + Chapada dos Veadeiros — 10 bis 12 Tage",
-          text: "Die beiden großen Cerrados Zentralbrasiliens nacheinander. Verbindung über Palmas und Brasília, mit einer Pufferübernachtung zwischen den Etappen, um eventuelle Verspätungen auszugleichen.",
-        },
-        {
-          title: "Jalapão + Lençóis Maranhenses — 10 Tage",
-          text: "Zwei Dünenlandschaften mit völlig unterschiedlichem geologischem Ursprung — trockener Cerrado auf der einen, Süßwasserlagunen zwischen Dünen auf der anderen Seite. Verbindung über São Luís.",
-        },
-        {
-          title: "Jalapão + Amazonas — 12 bis 14 Tage",
-          text: "Vom trockenen Cerrado zum dichten Regenwald, ein vollständiger geografischer Kontrast Zentral-Nord-Brasiliens. Empfohlen für Reisende mit Interesse an aufwendigerer Logistik.",
-        },
-        {
-          title: "Alleinstehendes Jalapão mit Übernachtung in Palmas — 6 bis 7 Tage",
-          text: "Ein kompakteres Format für alle, die nur Jalapão erleben möchten, mit einer An- und einer Abreiseübernachtung in Palmas für Komfort und logistische Sicherheit.",
-        },
+        { title: "Tag 1 — Ankunft in Palmas", text: "Übernachten Sie vor der langen Geländewagenfahrt in Palmas." },
+        { title: "Tag 2 — Nach Jalapão", text: "Fahren Sie mit Ihrem privaten Reiseleiter im Geländewagen und lassen Sie nach der Fahrt Zeit zum Ankommen." },
+        { title: "Tag 3 — Fervedouro-Quellen", text: "Erkunden Sie die natürlichen Quellen und begrenzen Sie die Stopps zugunsten von Fahrzeiten und Erholung." },
+        { title: "Tag 4 — Dünen und Mumbuca", text: "Verbinden Sie goldene Dünen mit einem vorab vereinbarten Besuch der Mumbuca-Gemeinschaft, vorbehaltlich des lokalen Zugangs." },
+        { title: "Tag 5 — Cachoeira da Velha", text: "Besuchen Sie den Wasserfall mit Ihrem Reiseleiter und stimmen Sie den Tagesablauf auf die Straßenbedingungen ab." },
+        { title: "Tag 6 — Rückkehr nach Palmas", text: "Kehren Sie nach Palmas zurück und planen Sie eine Puffernacht vor Weiterverbindungen ein." },
+        { title: "Kombinieren Sie zwei oder mehr brasilianische Biome", text: "Brasilien hat sechs Landbiome plus die Küsten- und Meereszone — sieben unterschiedliche Landschaften und Kulturen. Verbinden Sie die Quellen und Dünen des Cerrado von Jalapão mit einem Aufenthalt im Amazonasregenwald und planen Sie zusätzliche Zeit für Inlandsverbindungen ein." },
       ],
     },
     tips: {
@@ -966,20 +956,20 @@ export const jalapaoGuide: BrazilGuideLocalized = {
         q: "Ist die Unterkunft in Jalapão hochwertig?",
         a: "Sie ist einfacher als in Zielen wie dem Amazonas oder Chapada dos Veadeiros — das gehört zum authentischen, erhaltenen Charakter des Ortes. Wir arbeiten mit den besten in der Region verfügbaren Adressen, die komfortabel sind, wenn auch nicht luxuriös im traditionellen Sinne.",
       },
-      {
-        q: "Wie kommt man nach Jalapão?",
-        a: "Der Referenzflughafen ist Palmas, die Hauptstadt von Tocantins, gefolgt von einer Auto- oder 4x4-Fahrt von etwa vier bis fünf Stunden nach Mateiros, der am häufigsten genutzten Basis zur Erkundung der Region.",
-      },
+      
       {
         q: "Was kostet eine Reise nach Jalapão mit Create Travel?",
         a: "Wir arbeiten nicht mit Standardpreisen: Das Budget hängt von der Anzahl der Nächte, den gebuchten Führern und Fahrzeugen sowie der Jahreszeit ab. Ein menschlicher Berater erstellt das Angebot und legt die Werte schriftlich vor, ohne Schätzungen auf der Website.",
       },
+      { q: "Wie erfolgt die Anreise aus dem Ausland?", a: "Fliegen Sie international zu einem brasilianischen Drehkreuz und anschließend nach Palmas (PMW). Von dort geht es mit privatem Reiseleiter im Geländewagen nach Jalapão." },
+      { q: "Benötige ich ein Visum oder Impfungen für Brasilien?", a: "Visabestimmungen hängen von Ihrer Staatsangehörigkeit und den Reisedaten ab. Prüfen Sie vor der Buchung offizielle brasilianische Konsularinformationen. Lassen Sie sich reisemedizinisch zu Standardimpfungen, Gelbfieberempfehlungen und Einreise- oder Transitvorgaben beraten und beachten Sie offizielle Gesundheitshinweise für Ihre Reiseroute." },
+      { q: "Sind bei jeder Exkursion deutschsprachige Reiseleiter verfügbar?", a: "Ja. Create Travel stellt bei jeder Exkursion Ihrer privaten, maßgeschneiderten Reise deutschsprachige Reiseleiter bereit. Tempo und Erläuterungen richten sich nach Ihren Interessen." },
+      { q: "Kann ich Jalapão mit anderen brasilianischen Biomen kombinieren?", a: "Brasilien hat sechs Landbiome plus die Küsten- und Meereszone — sieben unterschiedliche Landschaften und Kulturen. Verbinden Sie die Quellen und Dünen des Cerrado von Jalapão mit einem Aufenthalt im Amazonasregenwald und planen Sie zusätzliche Zeit für Inlandsverbindungen ein. Ihr Reiseplaner prüft saisonale Vereinbarkeit und Transferzeiten." },
     ],
     cta: {
-      heading: "Lassen Sie uns Ihr Jalapão gestalten",
-      subheading:
-        "Ein menschlicher Berater von Create Travel wählt den Führer, das Fahrzeug und die richtige Jahreszeit für Ihr Profil — und kümmert sich um jede Etappe der Reise.",
-      button: "Mit einem Travel Designer sprechen",
+      heading: "Fordern Sie Ihr Jalapão-Reiseangebot an",
+      subheading: "Planen Sie Ihre private, maßgeschneiderte Reise mit einem persönlichen Create Travel-Reisedesigner, der Ihre Interessen, Ihr Tempo und Ihren gewünschten Komfort berücksichtigt. Sie erhalten Ihr schriftliches Angebot per WhatsApp.",
+      button: "Angebot per WhatsApp anfordern",
     },
     readingMinutes: 11,
     publishedAt: "2026-08-11",

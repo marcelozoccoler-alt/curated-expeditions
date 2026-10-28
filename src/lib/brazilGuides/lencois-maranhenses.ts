@@ -601,14 +601,14 @@ export const lencoisMaranhensesGuide: BrazilGuideLocalized = {
   },
 
   de: {
-    metaTitle: "Lençóis Maranhenses: Wann die Lagunen voll sind",
+    metaTitle: "Lençóis Maranhenses, Brasilien: Reiseroute, beste Reisezeit & Angebot",
     metaDescription:
-      "Die blauen Lagunen zwischen den Dünen gibt es nur in bestimmten Monaten. Wasserstand Monat für Monat, Barreirinhas oder Atins, und die Anreise.",
+      "Planen Sie eine private, maßgeschneiderte Reise: Lençóis Maranhenses, vorgeschlagene Reiseroute, beste Reisezeit und Anreise. Fordern Sie ein Angebot per WhatsApp an.",
     keywords:
-      "lencois maranhenses reise, beste reisezeit lencois maranhenses, barreirinhas, atins, santo amaro maranhao, rota das emocoes, lagunen brasilien, maranhao reiseroute",
-    h1: "Lençóis Maranhenses: der Autoren-Guide von Leuten, die die Lagunen entstehen sahen",
+      "lencois maranhenses reise, beste reisezeit lencois maranhenses, barreirinhas, atins, santo amaro maranhao, rota das emocoes, lagunen brasilien, maranhao reiseroute, lençóis maranhenses rundreise, lençóis maranhenses reiseroute, anreise lençóis maranhenses, beste reisezeit lençóis maranhenses",
+    h1: "Lençóis Maranhenses: Reiseroute, beste Reisezeit und Anreise",
     aiAnswer:
-      "Die beste Zeit für gefüllte Lagunen in den Lençóis Maranhenses ist Juni bis September, mit Höhepunkt im Juli und August; praktisches Minimum sind 4 Nächte zwischen Barreirinhas und Atins, Einreise über São Luís (SLZ).",
+      "Die beste Zeit für gefüllte Lagunen in den Lençóis Maranhenses ist Juni bis September, mit Höhepunkt im Juli und August; praktisches Minimum sind 4 Nächte zwischen Barreirinhas und Atins, Einreise über São Luís (SLZ). Create Travel plant private, maßgeschneiderte Lençóis Maranhenses-Reisen für internationale Gäste, mit deutschsprachigen Reiseleitern, und sendet ein schriftliches Angebot per WhatsApp.",
     intro: [
       "Die Lençóis Maranhenses sind einer der wenigen Orte der Erde, an denen Wüste und Süßwasser denselben Horizont teilen: 155.000 Hektar feiner, weißer, windgeformter Dünen, zwischen denen jede Regenzeit Tausende kristallklarer Lagunen entstehen. Keine Fata Morgana — Hydrologie. Der Regen, der zwischen Januar und Juni fällt, versickert im Sand und tritt Monate später wieder zutage, wodurch natürliche Becken entstehen, die bis zum nächsten Zyklus langsam verdunsten.",
       "Dieser Guide entstand aus echten Durchquerungen entlang der Rota das Emoções, nicht aus Drohnenfotos aus dem Internet: welcher Monat welches Wasservolumen bringt, welches Dorf sich als Basis eignet, wann sich ein Fußmarsch zwischen den Dünen lohnt und wann ein Überflug mehr Wert hat, und wie Maranhão in eine größere Brasilienroute passt.",
@@ -658,14 +658,15 @@ export const lencoisMaranhensesGuide: BrazilGuideLocalized = {
       ],
     },
     itinerary: {
-      heading: "Wie die Lençóis Maranhenses in eine Brasilienreise integriert werden",
-      intro: "Die Region erfordert sorgfältige Logistik: interne Transfers erfolgen mit 4x4 oder Boot ohne durchgehend befestigte Straßen, und wir fügen immer eine Pufferacht in São Luís ein.",
+      heading: "Vorgeschlagene Reiseroute: Lençóis Maranhenses und Brasilien-Kombinationen",
+      intro: "Eine private, maßgeschneiderte Reise, abgestimmt auf Ihre Reisedaten, Ihr Tempo und die örtlichen Bedingungen. Planen Sie Puffernächte bei Flugverbindungen ein.",
       items: [
-        { title: "Lençóis Maranhenses + Jericoacoara — 8 bis 10 Tage", text: "Die vollständige Rota das Emoções, die zwei der meistfotografierten Dünenlandschaften Brasiliens per Land und Boot verbindet." },
-        { title: "Lençóis Maranhenses + Amazonien — 12 Tage", text: "September bis November: Lagunen mit noch gutem Volumen in Maranhão und Wald in der Trockenzeit, Anschluss über Belém oder São Luís." },
-        { title: "Lençóis Maranhenses + Fernando de Noronha — 9 bis 11 Tage", text: "Erst Dünen und Lagunen, dann Archipel und Tauchen, mit Anschluss über Recife oder Fortaleza." },
-        { title: "Lençóis Maranhenses + Bahia — 10 bis 12 Tage", text: "Dünenwüste in Maranhão gefolgt von Salvador, Trancoso oder Chapada Diamantina." },
-        { title: "Lençóis Maranhenses + Rio de Janeiro — 9 bis 11 Tage", text: "Vier bis fünf Nächte Dünen und Lagunen, der Rest in der Stadt, mit Anschluss über São Luís und Brasília oder Fortaleza." },
+        { title: "Tag 1 — São Luís nach Barreirinhas", text: "Privater Straßentransfer nach Barreirinhas und Ankommen für die erste Nacht." },
+        { title: "Tag 2 — Dünen und Lagunen", text: "Erkunden Sie zugängliche Lagunen mit Ihrem Reiseleiter; Baden hängt von den Bedingungen und Parkregeln ab." },
+        { title: "Tag 3 — Auf dem Rio Preguiças nach Atins", text: "Weiterfahrt per Boot auf dem Fluss und Ankommen in Atins." },
+        { title: "Tag 4 — Atins in Ihrem Tempo", text: "Genießen Sie eine geführte Dünenwanderung und saisonale Lagunen mit Zeit zum Ausruhen." },
+        { title: "Tag 5 — Rückkehr nach São Luís", text: "Rückkehr mit einer Puffernacht vor einem internationalen Anschlussflug." },
+        { title: "Kombinieren Sie zwei oder mehr brasilianische Biome", text: "Brasilien hat sechs Landbiome plus die Küsten- und Meereszone — sieben unterschiedliche Landschaften und Kulturen. Verbinden Sie die Küstendünen der Lençóis Maranhenses mit einem Aufenthalt im Amazonasregenwald und stimmen Sie die Reisedaten auf Lagunenstände und Waldbedingungen ab." },
       ],
     },
     tips: {
@@ -683,14 +684,18 @@ export const lencoisMaranhensesGuide: BrazilGuideLocalized = {
       { q: "Wie viele Tage braucht man für die Lençóis Maranhenses?", a: "Vier Nächte sind das praktische Minimum, um Barreirinhas und Atins in Ruhe zu erkunden. Sieben bis zehn Tage ermöglichen die vollständige Rota das Emoções bis Jericoacoara." },
       { q: "Wann ist die beste Zeit, um die Lagunen voll zu sehen?", a: "Juni bis September, mit Höhepunkt im Juli und August. Zwischen Oktober und Dezember halten die größeren Lagunen noch Wasser; von Januar bis Mai sind sie niedrig oder trocken." },
       { q: "Kann man in den Lagunen schwimmen?", a: "Ja, die meisten öffentlich zugänglichen Lagunen sind flach, warm und kristallklar und eignen sich für ein ruhiges Bad." },
-      { q: "Wie kommt man zu den Lençóis Maranhenses?", a: "Einreisepunkt ist der Flughafen São Luís (SLZ), von dem aus die Fahrt nach Barreirinhas etwa drei bis vier Stunden dauert. Atins erreicht man per Boot über den Rio Preguiças oder per 4x4 am Strand." },
+      
       { q: "Lençóis Maranhenses oder Jericoacoara?", a: "Sie ergänzen sich: Die Lençóis bieten Brasiliens dramatischste Dünen- und Lagunenlandschaft, während Jericoacoara entwickeltere touristische Infrastruktur und Strandleben hinzufügt." },
       { q: "Was kostet eine Reise zu den Lençóis Maranhenses?", a: "Wir veröffentlichen keine Standardpreise: Das Budget hängt von der gewählten Basis, den Nächten, der Saison und den Flugverbindungen ab. Ein persönlicher Berater sendet die Werte schriftlich." },
+      { q: "Wie erfolgt die Anreise aus dem Ausland?", a: "Fliegen Sie international zu einem brasilianischen Drehkreuz und anschließend nach São Luís (SLZ). Create Travel organisiert private Straßentransfers nach Barreirinhas und die Weiterreise per Boot oder Geländewagen nach Atins." },
+      { q: "Benötige ich ein Visum oder Impfungen für Brasilien?", a: "Visabestimmungen hängen von Ihrer Staatsangehörigkeit und den Reisedaten ab. Prüfen Sie vor der Buchung offizielle brasilianische Konsularinformationen. Lassen Sie sich reisemedizinisch zu Standardimpfungen, Gelbfieberempfehlungen und Einreise- oder Transitvorgaben beraten und beachten Sie offizielle Gesundheitshinweise für Ihre Reiseroute." },
+      { q: "Sind bei jeder Exkursion deutschsprachige Reiseleiter verfügbar?", a: "Ja. Create Travel stellt bei jeder Exkursion Ihrer privaten, maßgeschneiderten Reise deutschsprachige Reiseleiter bereit. Tempo und Erläuterungen richten sich nach Ihren Interessen." },
+      { q: "Kann ich Lençóis Maranhenses mit anderen brasilianischen Biomen kombinieren?", a: "Brasilien hat sechs Landbiome plus die Küsten- und Meereszone — sieben unterschiedliche Landschaften und Kulturen. Verbinden Sie die Küstendünen der Lençóis Maranhenses mit einem Aufenthalt im Amazonasregenwald und stimmen Sie die Reisedaten auf Lagunenstände und Waldbedingungen ab. Ihr Reiseplaner prüft saisonale Vereinbarkeit und Transferzeiten." },
     ],
     cta: {
-      heading: "Lassen Sie uns Ihre Durchquerung der Lençóis Maranhenses gestalten",
-      subheading: "Ein Create-Travel-Berater wählt die richtige Basis, Saison und Reihenfolge für Ihr Profil — und kümmert sich um jede Verbindung.",
-      button: "Mit einem Travel Designer sprechen",
+      heading: "Fordern Sie Ihr Lençóis Maranhenses-Reiseangebot an",
+      subheading: "Planen Sie Ihre private, maßgeschneiderte Reise mit einem persönlichen Create Travel-Reisedesigner, der Ihre Interessen, Ihr Tempo und Ihren gewünschten Komfort berücksichtigt. Sie erhalten Ihr schriftliches Angebot per WhatsApp.",
+      button: "Angebot per WhatsApp anfordern",
     },
     readingMinutes: 12,
     publishedAt: "2026-08-11",

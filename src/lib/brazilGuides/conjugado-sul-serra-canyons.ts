@@ -388,11 +388,11 @@ export const conjugadoSulSerraCanyonsGuide: BrazilGuideLocalized = {
   de: {
     destinationName: "Serra, Canyons und Küste von Santa Catarina",
     blurb: "Eine kombinierte 11-Nächte-Route durch Südbrasilien: die Canyons von Cambará do Sul, die Weinregion Serra Gaúcha und die Küste von Santa Catarina mit Glattwalen.",
-    metaTitle: "Serra, Canyons und Küste von Santa Catarina: 11-Nächte-Reiseroute | Create Travel",
-    metaDescription: "Ein redaktioneller Guide zur kombinierten Route Cambará do Sul, Serra Gaúcha und Praia do Rosa: beste Reisezeit, reale Entfernungen und Glattwale von Juli bis November.",
-    keywords: "südbrasilien reiseroute, aparados da serra canyons, weinstraße vale dos vinhedos, praia do rosa glattwal, reiseroute gramado bento gonçalves florianópolis",
-    h1: "Serra, Canyons und Küste von Santa Catarina: die kombinierte Route durch Südbrasilien",
-    aiAnswer: "Die kombinierte Route durch die Canyons von Cambará do Sul, die Weinregion Serra Gaúcha und die Küste von Santa Catarina funktioniert am besten von Juni bis September, mit etwa 11 Nächten: 3 in den Canyons, 4 zwischen Bento Gonçalves und Gramado und 4 in Praia do Rosa und Florianópolis, verbunden per Straße ab Porto Alegre mit Abreise über Florianópolis.",
+    metaTitle: "Serra, Canyons und Küste von Santa Catarina, Brasilien: Reiseroute, beste Reisezeit & Angebot",
+    metaDescription: "Private, maßgeschneiderte Reise: Serra, Canyons und Küste von Santa Catarina. Vorgeschlagene Reiseroute, beste Reisezeit und Anreise. Fordern Sie ein Angebot per WhatsApp an.",
+    keywords: "südbrasilien reiseroute, aparados da serra canyons, weinstraße vale dos vinhedos, praia do rosa glattwal, reiseroute gramado bento gonçalves florianópolis, serra, canyons und küste von santa catarina rundreise, serra, canyons und küste von santa catarina reiseroute, anreise serra, canyons und küste von santa catarina, beste reisezeit serra, canyons und küste von santa catarina",
+    h1: "Serra, Canyons und Küste von Santa Catarina: Reiseroute, beste Reisezeit und Anreise",
+    aiAnswer: "Die kombinierte Route durch die Canyons von Cambará do Sul, die Weinregion Serra Gaúcha und die Küste von Santa Catarina funktioniert am besten von Juni bis September, mit etwa 11 Nächten: 3 in den Canyons, 4 zwischen Bento Gonçalves und Gramado und 4 in Praia do Rosa und Florianópolis, verbunden per Straße ab Porto Alegre mit Abreise über Florianópolis. Create Travel plant private, maßgeschneiderte Serra, Canyons und Küste von Santa Catarina-Reisen für internationale Gäste, mit deutschsprachigen Reiseleitern, und sendet ein schriftliches Angebot per WhatsApp.",
     intro: [
       "Südbrasilien birgt eine Landschaft, die dem tropischen Bild des Landes widerspricht: Basaltwände mit fast tausend Metern Höhenunterschied, terrassierte Weinberge zwischen Araukarien-Hügeln und eine Atlantikküste, die kalt genug ist, um jeden Winter Glattwale zu beherbergen. Es ist eine Route mit ausgeprägten Jahreszeiten, kurvenreichen Straßen und einer Wein- und Käsegastronomie, die europäischen Destinationen Konkurrenz macht.",
       "Dieser Guide entstand aus der Erfahrung, die Canyons von Aparados da Serra und Serra Geral, die Weinroute durch Vale dos Vinhedos und Pinto Bandeira sowie die Küste von Santa Catarina mit Praia do Rosa und Florianópolis zu verbinden, unter Berücksichtigung der realen Straßenentfernungen zwischen Porto Alegre, der Serra Gaúcha und der Küste von Santa Catarina.",
@@ -447,6 +447,7 @@ export const conjugadoSulSerraCanyonsGuide: BrazilGuideLocalized = {
         { title: "Tage 4–7 — Serra Gaúcha: Vale dos Vinhedos und Gramado", text: "Etwa 2,5 Stunden Fahrt nach Bento Gonçalves. Zwei Nächte zwischen Weingütern im Vale dos Vinhedos und Pinto Bandeira, gefolgt von zwei Nächten in Gramado, eine Stunde entfernt, für Gastronomie und Bergausflüge." },
         { title: "Tage 8–11 — Küste von Santa Catarina: Praia do Rosa und Florianópolis", text: "Etwa 4,5 Stunden Fahrt nach Praia do Rosa, mit optionalem Halt an der Serra do Rio do Rastro. Zwei Nächte für Glattwal-Beobachtung (Juli bis November) und zwei Nächte in Florianópolis, 1,5 Stunden entfernt, für Strände und Inselgastronomie." },
         { title: "Rückreise", text: "Flug von Florianópolis nach São Paulo oder Rio de Janeiro mit internationalem Anschluss, wodurch sich die Route über das Flugtor von Santa Catarina schließt." },
+        { title: "Kombinieren Sie zwei oder mehr brasilianische Biome", text: "Brasilien hat sechs Landbiome plus die Küsten- und Meereszone — sieben unterschiedliche Landschaften und Kulturen. Erweitern Sie die südliche Route durch Atlantischen Regenwald und Küstenlandschaften um die Pampa mit ihrer kontrastierenden Graslandschaft und Kultur. Ihr Reisedesigner berücksichtigt Reisetage und saisonale Unterschiede." },
       ],
     },
     tips: {
@@ -461,6 +462,11 @@ export const conjugadoSulSerraCanyonsGuide: BrazilGuideLocalized = {
       ],
     },
     faq: [
+      { q: "Benötige ich ein Visum oder Impfungen für Brasilien?", a: "Die Visumpflicht hängt von Ihrer Staatsangehörigkeit und Ihren Reisedaten ab. Prüfen Sie vor der Buchung die offiziellen brasilianischen Konsular- und Einreiseinformationen. Lassen Sie sich reisemedizinisch zu Standardimpfungen, Gelbfieber und möglichen Einreisevorgaben Ihrer Route beraten und prüfen Sie offizielle Gesundheitshinweise." },
+      { q: "Stehen deutschsprachige Reiseleiter bei jeder Exkursion zur Verfügung?", a: "Ja. Create Travel stellt bei jeder Exkursion deutschsprachige Reiseleiter bereit und plant Ihre private, maßgeschneiderte Reise nach Ihren Interessen und Ihrem bevorzugten Tempo." },
+      { q: "Wie erfolgt die Anreise für internationale Gäste nach Serra, Canyons und Küste von Santa Catarina?", a: "Fliegen Sie international zu einem brasilianischen Drehkreuz und weiter nach Porto Alegre. Ein privater Straßentransfer bringt Sie nach Cambará do Sul. Die Rückreise erfolgt über Florianópolis, bei Bedarf mit Anschluss an einem Drehkreuz. Private Transfers verbinden Berg- und Küstenunterkünfte." },
+      { q: "Kann ich Serra, Canyons und Küste von Santa Catarina mit anderen brasilianischen Biomen kombinieren?", a: "Ja. Brasilien hat sechs Landbiome plus die Küsten- und Meereszone — sieben unterschiedliche Landschaften und Kulturen. Erweitern Sie die südliche Route durch Atlantischen Regenwald und Küstenlandschaften um die Pampa mit ihrer kontrastierenden Graslandschaft und Kultur. Wir stimmen die Reihenfolge auf saisonale Bedingungen und realistische Transferzeiten ab." },
+
       { q: "Wie viele Nächte sind ideal für die Route Serra, Canyons und Küste von Santa Catarina?", a: "Elf Nächte sind das ideale Gleichgewicht: 3 in den Canyons von Cambará do Sul, 4 zwischen Vale dos Vinhedos und Gramado und 4 in Praia do Rosa und Florianópolis." },
       { q: "Wann ist die beste Zeit, um Glattwale in Praia do Rosa zu sehen?", a: "Von Juli bis November, mit Höhepunkt der Sichtungen zwischen August und Oktober, wenn Weibchen ihre Kälber nahe der Küste säugen." },
       { q: "Muss man für diese Route ein Auto mieten?", a: "Ja. Der Transfer zwischen den Canyons, der Serra Gaúcha und der Küste von Santa Catarina hängt von der Straße ab, und ein Großteil der Weingüter und Aussichtspunkte hat keinen öffentlichen Nahverkehr." },
@@ -469,9 +475,9 @@ export const conjugadoSulSerraCanyonsGuide: BrazilGuideLocalized = {
       { q: "Ist diese Route für Reisende über 60 angenehm?", a: "Ja, mit angemessener körperlicher Fitness für leichte bis moderate Wanderungen auf den Randwegen der Canyons; der Rest der Route kombiniert Autofahrten und Ausflüge in ruhigem Tempo." },
     ],
     cta: {
-      heading: "Lassen Sie uns Ihre Route durch Südbrasilien gestalten",
-      subheading: "Ein menschlicher Berater von Create Travel organisiert Fahrer, Weingut-Reservierungen und charmante Pensionen für eine gut verbundene Reise zwischen Bergen und Küste.",
-      button: "Mit einem Travel Designer sprechen",
+      heading: "Fordern Sie Ihr Serra, Canyons und Küste von Santa Catarina-Reiseangebot an",
+      subheading: "Planen Sie eine private, maßgeschneiderte Reise mit einem persönlichen Reisedesigner. Route, Unterkünfte und Tempo richten sich nach Ihnen. Sie erhalten Ihr schriftliches Angebot per WhatsApp.",
+      button: "Angebot per WhatsApp anfordern",
     },
     readingMinutes: 10,
     publishedAt: "2026-08-11",

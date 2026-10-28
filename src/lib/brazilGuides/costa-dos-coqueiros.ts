@@ -474,11 +474,11 @@ export const costaDosCoqueirosGuide: BrazilGuideLocalized = {
   de: {
     destinationName: "Kokosnuss-Küste",
     blurb: "Praia do Forte, Imbassaí und Mangue Seco: Dünen, Kokospalmenhaine und Bahias Nordküste, Referenz für bewussten Tourismus.",
-    metaTitle: "Kokosnuss-Küste: ruhige Strände nahe Salvador",
-    metaDescription: "Schildkröten im Projekt TAMAR, der Fluss im Sand von Imbassaí und die Dünen von Mangue Seco. Beste Reisezeit, Unterkünfte und eine Route mit dem Auto.",
-    keywords: "costa dos coqueiros bahia, praia do forte, tamar projekt, imbassai, guarajuba, mangue seco, sauipe, tivoli ecoresort, vila dos orixas",
-    h1: "Kokosnuss-Küste: Bahias Nordküste, bewusst unberührt gehalten",
-    aiAnswer: "Die Kokosnuss-Küste ist Bahias Nordküste zwischen Salvador und der Grenze zu Sergipe, mit Praia do Forte, Imbassaí, Santo André, Guarajuba, Massarandupió, Mangue Seco und dem Sauípe-Resortkomplex; die beste Reisezeit ist September bis März, 1 bis 3 Autostunden vom Flughafen Salvador entfernt.",
+    metaTitle: "Kokosnuss-Küste, Brasilien: Reiseroute, beste Reisezeit & Angebot",
+    metaDescription: "Private, maßgeschneiderte Reise: Kokosnuss-Küste. Entdecken Sie eine vorgeschlagene Reiseroute, die beste Reisezeit und Hinweise zur Anreise. Fordern Sie ein Angebot per WhatsApp an.",
+    keywords: "costa dos coqueiros bahia, praia do forte, tamar projekt, imbassai, guarajuba, mangue seco, sauipe, tivoli ecoresort, vila dos orixas, kokosnuss-küste rundreise, kokosnuss-küste reiseroute, anreise kokosnuss-küste, beste reisezeit kokosnuss-küste",
+    h1: "Kokosnuss-Küste: Reiseroute, beste Reisezeit und Anreise",
+    aiAnswer: "Die Kokosnuss-Küste ist Bahias Nordküste zwischen Salvador und der Grenze zu Sergipe, mit Praia do Forte, Imbassaí, Santo André, Guarajuba, Massarandupió, Mangue Seco und dem Sauípe-Resortkomplex; die beste Reisezeit ist September bis März, 1 bis 3 Autostunden vom Flughafen Salvador entfernt. Create Travel plant private, maßgeschneiderte Kokosnuss-Küste-Reisen für internationale Gäste, mit deutschsprachigen Reiseleitern, und sendet ein schriftliches Angebot per WhatsApp.",
     intro: [
       "Die Kokosnuss-Küste beginnt dort, wo die asphaltierte Straße von Salvador endet, und reicht bis Mangue Seco an der Grenze zu Sergipe — 190 Kilometer Dünen, Kokospalmenhaine, dunkle Flüsse und Fischerdörfer, die der Bauspekulation dank einer alten Entscheidung widerstanden: die Küste im Namen der Meeresschildkröten zu schützen. Genau diese Entscheidung, in den 1980er-Jahren mit der Gründung des Projekts TAMAR in Praia do Forte getroffen, prägt bis heute den Ton des Ziels: Tourismus mit geringem Einfluss, dezente Architektur und erhaltene Natur.",
       "Dieser Guide fasst zusammen, was wir beim Bereisen dieser Küste gelernt haben: warum Praia do Forte weiterhin das vollständigste Tor ist, was Imbassaí zu einem gut gehüteten Geheimnis unter anspruchsvollen Reisenden macht, und warum Mangue Seco, Schauplatz eines Romans von Jorge Amado, noch immer wie das Ende der Welt wirkt.",
@@ -523,12 +523,33 @@ export const costaDosCoqueirosGuide: BrazilGuideLocalized = {
       ],
     },
     itinerary: {
-      heading: "Wie man die Kokosnuss-Küste in eine Bahia-Reise einbindet",
-      intro: "Die Nähe zum Flughafen Salvador macht diese Region zur einfachsten Ergänzung jeder Bahia-Reise.",
+      heading: "Vorgeschlagene Reiseroute: Kokosnuss-Küste — 4 Nächte / 5 Tage",
+      intro: "Ein privater, maßgeschneiderter Ausgangspunkt, angepasst an Ihr Tempo, Ihre Ankunftszeiten und die örtlichen Bedingungen. Ergänzen Sie Nächte für einen geruhsameren Aufenthalt.",
       items: [
-        { title: "Salvador + Kokosnuss-Küste — 6 bis 8 Tage", text: "Drei Nächte historische Stadt, gefolgt von drei bis fünf Nächten zwischen Praia do Forte und Imbassaí, alles auf dem Landweg." },
-        { title: "Kokosnuss-Küste + Dendê-Küste — 10 bis 12 Tage", text: "Verbindet Bahias Nord- und Südküste, mit Salvador als Wendepunkt zwischen den beiden Regionen." },
-        { title: "Kokosnuss-Küste als An- oder Abreisepunkt", text: "Gute Option, um zu Beginn oder Ende einer längeren Reise durch Bahia oder den Nordosten zu entspannen." },
+        {
+          title: "Tag 1 — Salvador nach Praia do Forte",
+          text: "Nach Ihrer Ankunft am Flughafen Salvador fahren Sie mit privatem Transfer nach Praia do Forte.",
+        },
+        {
+          title: "Tag 2 — Praia do Forte und TAMAR",
+          text: "Erkunden Sie das Dorf und das Besucherzentrum des Projekts TAMAR; Tierbegegnungen hängen von den natürlichen Bedingungen ab.",
+        },
+        {
+          title: "Tag 3 — Imbassaí",
+          text: "Genießen Sie die Fluss- und Strandlandschaft rund um Imbassaí mit Zeit zur Erholung.",
+        },
+        {
+          title: "Tag 4 — Guarajuba oder ein ruhiger Strandtag",
+          text: "Wählen Sie einen Ausflug nach Guarajuba oder einen entspannten Tag in Ihrer Unterkunft an der Küste.",
+        },
+        {
+          title: "Tag 5 — Abreise oder Verlängerung in Salvador",
+          text: "Fahren Sie zum Flughafen Salvador oder ergänzen Sie Stadtnächte für Geschichte und Kultur.",
+        },
+        {
+          title: "Kombinieren Sie zwei oder mehr brasilianische Biome",
+          text: "Brasilien hat sechs Landbiome — Amazonas, Atlantischer Regenwald, Cerrado, Caatinga, Pantanal und Pampa — plus die Küsten- und Meereszone: sieben unterschiedliche Landschaften und Kulturen. Verbinden Sie den Atlantischen Regenwald mit den Küsten- und Meereslandschaften der Kokosnuss-Küste. Wir stimmen Reisetempo und Verbindungen auf die saisonalen Bedingungen ab; Tierbeobachtungen sind nie garantiert.",
+        },
       ],
     },
     tips: {
@@ -549,8 +570,16 @@ export const costaDosCoqueirosGuide: BrazilGuideLocalized = {
       { q: "Wann ist die beste Zeit, um Schildkröten in Praia do Forte zu sehen?", a: "Die Nistzeit läuft von September bis März, mit schlüpfenden Jungtieren zwischen November und April." },
       { q: "Wie erreicht man Mangue Seco?", a: "Auf dem Landweg bis zum Ufer des Rio Real, gefolgt von einer Kanuüberfahrt zum Dorf, das direkt an der Grenze zu Sergipe liegt." },
       { q: "Wie viel kostet eine Reise an die Kokosnuss-Küste mit Create Travel?", a: "Wir arbeiten nicht mit Standardpreisen: Das Budget hängt vom Ziel, der Unterkunft und der Jahreszeit ab. Ein menschlicher Berater legt das Angebot schriftlich vor." },
+      { q: "Benötige ich ein Visum oder Impfungen für Brasilien?", a: "Die Visumpflicht hängt von Ihrer Staatsangehörigkeit ab und kann sich ändern. Prüfen Sie vor der Buchung offizielle brasilianische Konsular- und Einreiseinformationen. Lassen Sie sich frühzeitig reisemedizinisch zu Routineimpfungen, Gelbfieber und regionalen Vorsichtsmaßnahmen beraten und beachten Sie offizielle Gesundheitshinweise." },
+      { q: "Sind deutschsprachige Reiseleiter bei jeder Exkursion verfügbar?", a: "Ja. Create Travel stellt im Rahmen Ihrer privaten, maßgeschneiderten Reiseroute deutschsprachige Reiseleiter bei jeder Exkursion bereit." },
+      { q: "Wie erfolgt die Anreise aus dem Ausland?", a: "Fliegen Sie international zu einem brasilianischen Drehkreuz und weiter zum Flughafen Salvador (SSA). Create Travel organisiert private Transfers zu Ihrer Unterkunft oder zum Einschiffungsort." },
+      { q: "Kann ich Kokosnuss-Küste mit anderen brasilianischen Biomen kombinieren?", a: "Ja. Brasilien hat sechs Landbiome plus die Küsten- und Meereszone — sieben unterschiedliche Landschaften und Kulturen. Verbinden Sie den Atlantischen Regenwald mit den Küsten- und Meereslandschaften der Kokosnuss-Küste. Ihr Travel Designer prüft die saisonale Vereinbarkeit und plant realistische Reisetage zwischen den Regionen ein." },
     ],
-    cta: { heading: "Lassen Sie uns Ihre Kokosnuss-Küste gestalten", subheading: "Ein menschlicher Berater von Create Travel wählt zwischen Praia do Forte, Imbassaí und Mangue Seco die richtige Basis für Ihre Route.", button: "Mit einem Travel Designer sprechen" },
+    cta: {
+      heading: "Fordern Sie Ihr Kokosnuss-Küste-Reiseangebot an",
+      subheading: "Planen Sie Ihre private, maßgeschneiderte Reise mit einem persönlichen Travel Designer, abgestimmt auf Ihre Interessen, Ihr Tempo und Ihre bevorzugte Reisezeit. Sie erhalten Ihr schriftliches Angebot per WhatsApp.",
+      button: "Angebot per WhatsApp anfordern",
+    },
     readingMinutes: 9,
     publishedAt: "2026-08-11",
   },

@@ -726,14 +726,14 @@ export const costaDoDendeGuide: BrazilGuideLocalized = {
     destinationName: "Dendê-Küste",
     blurb:
       "Halbinsel Maraú, Boipeba und Morro de São Paulo: Bahias grünste, langsamste Küste, umspült von Brasiliens zweitgrößter Bucht.",
-    metaTitle: "Dendê-Küste: Reiseführer Maraú, Boipeba & Morro de São Paulo",
+    metaTitle: "Dendê-Küste, Brasilien: Reiseroute, beste Reisezeit & Angebot",
     metaDescription:
-      "Kompletter Guide zur Dendê-Küste in Bahia: beste Reisezeit, Strände Barra Grande und Taipu de Fora, Boipeba, Morro de São Paulo, echte Unterkünfte und Routenplanung.",
+      "Private, maßgeschneiderte Reise: Dendê-Küste. Vorgeschlagene Reiseroute, beste Reisezeit und Anreise. Fordern Sie ein Angebot per WhatsApp an.",
     keywords:
-      "dende kueste bahia, halbinsel marau, barra grande bahia, taipu de fora, boipeba, morro de sao paulo, camamu bucht, kiaroa resort, bahianische kueche palmoel",
-    h1: "Die Dendê-Küste: Bahias Küstenstreifen, der noch pure Natur ist",
+      "dende kueste bahia, halbinsel marau, barra grande bahia, taipu de fora, boipeba, morro de sao paulo, camamu bucht, kiaroa resort, bahianische kueche palmoel, dendê-küste rundreise, dendê-küste reiseroute, anreise dendê-küste, beste reisezeit dendê-küste",
+    h1: "Dendê-Küste: Reiseroute, beste Reisezeit und Anreise",
     aiAnswer:
-      "Die Dendê-Küste liegt an der Südküste Bahias zwischen der Bucht von Camamu — Brasiliens zweitgrößter — und dem Atlantik und umfasst die Halbinsel Maraú (Barra Grande, Taipu de Fora), Boipeba und Morro de São Paulo auf der Insel Cairu; die beste Reisezeit ist September bis März, mit Anreise per Boot oder Kleinflugzeug ab Salvador oder Ilhéus.",
+      "Die Dendê-Küste liegt an der Südküste Bahias zwischen der Bucht von Camamu — Brasiliens zweitgrößter — und dem Atlantik und umfasst die Halbinsel Maraú (Barra Grande, Taipu de Fora), Boipeba und Morro de São Paulo auf der Insel Cairu; die beste Reisezeit ist September bis März, mit Anreise per Boot oder Kleinflugzeug ab Salvador oder Ilhéus. Create Travel plant private, maßgeschneiderte Dendê-Küste-Reisen für internationale Gäste, mit deutschsprachigen Reiseleitern, und sendet ein schriftliches Angebot per WhatsApp.",
     intro: [
       "Es gibt einen Abschnitt der bahianischen Küste, wo die Ölpalme noch die Landschaft prägt, wo rote Sandpisten in Kokospalmenhainen enden und wo die Gezeiten, nicht die Uhr, die Mittagszeit bestimmen. Er heißt Dendê-Küste, benannt nach dem Öl, das die Küche der Region parfümiert, seit versklavte Afrikaner die Palme nach Bahia brachten. Es ist ein Mosaik aus Halbinsel, Inseln und einer Bucht, die so groß ist, dass sie wie offenes Meer wirkt — die von Camamu, die zweitgrößte des Landes, nur übertroffen von der Bucht Todos os Santos.",
       "In diesem Guide fassen wir zusammen, was wir beim Befahren dieser Gewässer gelernt haben: den echten Unterschied zwischen Barra Grande und Taipu de Fora, warum Boipeba weiterhin ohne Autos und ohne Eile auskommt, was an Morro de São Paulo hinter dem Ruhm noch authentisch ist, und wie man zwischen Boot, Flugzeug oder Straße entscheidet, ohne einen Reisetag zu verlieren.",
@@ -837,22 +837,15 @@ export const costaDoDendeGuide: BrazilGuideLocalized = {
       ],
     },
     itinerary: {
-      heading: "Wie man die Dendê-Küste in eine Bahia-Reise einbindet",
-      intro:
-        "Die Region lässt sich gut mit Salvador und der Südküste Bahias kombinieren, sofern Boots- und Flugverbindungen gut geplant sind.",
+      heading: "Vorgeschlagene Reiseroute an der Dendê-Küste — 4 Nächte / 5 Tage",
+      intro: "Ein privater, maßgeschneiderter Ausgangspunkt, angepasst an Ihr Tempo, Ihre Ankunftszeiten und die örtlichen Bedingungen. Ergänzen Sie Nächte für einen geruhsameren Aufenthalt.",
       items: [
-        {
-          title: "Salvador + Dendê-Küste — 7 bis 9 Tage",
-          text: "Drei Nächte historische Stadt und Kultur, gefolgt von vier bis fünf Nächten zwischen Barra Grande und Boipeba, mit Bootstransfer ab Salvador oder Valença.",
-        },
-        {
-          title: "Dendê-Küste + Trancoso/Arraial d'Ajuda — 10 bis 12 Tage",
-          text: "Verbindet die ursprünglichere Südküste (Dendê) mit der eleganteren Südküste (Costa do Descobrimento), mit Inlandsflug über Ilhéus oder Porto Seguro.",
-        },
-        {
-          title: "Inselrundreise — 8 Tage",
-          text: "Morro de São Paulo, Boipeba und Barra Grande nacheinander, per Boot verbunden — ideal, um die Unterschiede jeder Insel zu spüren, ohne die Landschaft zu wiederholen.",
-        },
+        { title: "Tag 1 — Ankunft auf der Halbinsel Maraú", text: "Reisen Sie über Salvador oder Ilhéus mit geplanten Straßen- und Bootsverbindungen an und beziehen Sie Ihre Unterkunft an der Küste." },
+        { title: "Tag 2 — Barra Grande", text: "Erkunden Sie das Dorf und genießen Sie einen entspannten Strandtag." },
+        { title: "Tag 3 — Taipu de Fora", text: "Besuchen Sie die natürlichen Pools bei passendem Niedrigwasser; der Rest des Tages bleibt für den Strand frei." },
+        { title: "Tag 4 — Bucht von Camamu", text: "Unternehmen Sie einen privaten Bootsausflug durch die Bucht, abhängig von Seegang und Wetter." },
+        { title: "Tag 5 — Abreise oder Inselverlängerung", text: "Reisen Sie mit abgestimmten Boots- und Straßentransfers zurück oder ergänzen Sie Nächte auf Boipeba, statt einen Inselrundkurs zu überstürzen." },
+        { title: "Kombinieren Sie zwei oder mehr brasilianische Biome", text: "Brasilien hat sechs Landbiome plus die Küsten- und Meereszone — sieben unterschiedliche Landschaften und Kulturen. Kombinieren Sie den Atlantischen Regenwald mit den Landschaften der Küsten- und Meereszone an der Dendê-Küste. Ihr Reisedesigner berücksichtigt Reisetage und saisonale Unterschiede." },
       ],
     },
     tips: {
@@ -867,6 +860,11 @@ export const costaDoDendeGuide: BrazilGuideLocalized = {
       ],
     },
     faq: [
+      { q: "Benötige ich ein Visum oder Impfungen für Brasilien?", a: "Die Visumpflicht hängt von Ihrer Staatsangehörigkeit und Ihren Reisedaten ab. Prüfen Sie vor der Buchung die offiziellen brasilianischen Konsular- und Einreiseinformationen. Lassen Sie sich reisemedizinisch zu Standardimpfungen, Gelbfieber und möglichen Einreisevorgaben Ihrer Route beraten und prüfen Sie offizielle Gesundheitshinweise." },
+      { q: "Stehen deutschsprachige Reiseleiter bei jeder Exkursion zur Verfügung?", a: "Ja. Create Travel stellt bei jeder Exkursion deutschsprachige Reiseleiter bereit und plant Ihre private, maßgeschneiderte Reise nach Ihren Interessen und Ihrem bevorzugten Tempo." },
+      { q: "Wie erfolgt die Anreise für internationale Gäste nach Dendê-Küste?", a: "Fliegen Sie international zu einem brasilianischen Drehkreuz und weiter nach Salvador oder Ilhéus. Danach folgen auf Ihre Insel oder Halbinsel abgestimmte Straßen- und Bootstransfers. Create Travel organisiert private Transfers zur Unterkunft oder zum Einschiffungsort." },
+      { q: "Kann ich Dendê-Küste mit anderen brasilianischen Biomen kombinieren?", a: "Ja. Brasilien hat sechs Landbiome plus die Küsten- und Meereszone — sieben unterschiedliche Landschaften und Kulturen. Kombinieren Sie den Atlantischen Regenwald mit den Landschaften der Küsten- und Meereszone an der Dendê-Küste. Wir stimmen die Reihenfolge auf saisonale Bedingungen und realistische Transferzeiten ab." },
+
       {
         q: "Wie erreicht man die Dendê-Küste?",
         a: "Der übliche Zugang erfolgt über Salvador, mit Bootstransfer zur Halbinsel Maraú oder nach Morro de São Paulo, oder per Flug nach Ilhéus, gefolgt von Straße und Boot. Es gibt auch regionale Landebahnen für private Lufttaxis.",
@@ -893,10 +891,9 @@ export const costaDoDendeGuide: BrazilGuideLocalized = {
       },
     ],
     cta: {
-      heading: "Lassen Sie uns Ihre Dendê-Küste gestalten",
-      subheading:
-        "Ein menschlicher Berater von Create Travel wählt zwischen Maraú, Boipeba und Morro de São Paulo die richtige Kombination für Ihre Route.",
-      button: "Mit einem Travel Designer sprechen",
+      heading: "Fordern Sie Ihr Dendê-Küste-Reiseangebot an",
+      subheading: "Planen Sie eine private, maßgeschneiderte Reise mit einem persönlichen Reisedesigner. Route, Unterkünfte und Tempo richten sich nach Ihnen. Sie erhalten Ihr schriftliches Angebot per WhatsApp.",
+      button: "Angebot per WhatsApp anfordern",
     },
     readingMinutes: 10,
     publishedAt: "2026-08-11",

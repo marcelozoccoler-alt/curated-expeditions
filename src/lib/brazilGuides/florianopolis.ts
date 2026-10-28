@@ -935,14 +935,14 @@ export const florianopolisGuide: BrazilGuideLocalized = {
   },
 
   de: {
-    metaTitle: "Florianópolis: Guide zu Stränden, Lagune & Gastronomie",
+    metaTitle: "Florianópolis, Brasilien: Reiseroute, beste Reisezeit & Angebot",
     metaDescription:
-      "Vollständiger Guide zu Florianópolis und der Küste von Santa Catarina: Strände im Norden und Süden der Insel, Lagoa da Conceição, Ilha do Campeche, Austern aus Santo Antônio de Lisboa, zeitgenössische Küche und Erweiterungen nach Praia do Rosa und Bombinhas.",
+      "Planen Sie eine private, maßgeschneiderte Reise: Florianópolis, vorgeschlagene Reiseroute, beste Reisezeit und Anreise. Fordern Sie ein Angebot per WhatsApp an.",
     keywords:
-      "florianopolis brasilien, ilha de santa catarina, lagoa da conceicao, ilha do campeche, praia do rosa wale, bombinhas, austern santo antonio de lisboa, reiseroute florianopolis, floripa luxusreise",
-    h1: "Florianópolis: Guide zur Insel im Gleichgewicht zwischen Strand, Lagune und guter Küche",
+      "florianopolis brasilien, ilha de santa catarina, lagoa da conceicao, ilha do campeche, praia do rosa wale, bombinhas, austern santo antonio de lisboa, reiseroute florianopolis, floripa luxusreise, florianópolis rundreise, florianópolis reiseroute, anreise florianópolis, beste reisezeit florianópolis",
+    h1: "Florianópolis: Reiseroute, beste Reisezeit und Anreise",
     aiAnswer:
-      "Die beste Reisezeit für Florianópolis ist Dezember bis März (Sommer, Nord- und Ostküste in Bestform) sowie Juli bis November (kühleres Meer, aber ideale Walbeobachtung von Südkaper-Walen bei Praia do Rosa); ideal sind 5 bis 7 Nächte auf der Insel, mit Anreise über den Flughafen Hercílio Luz (FLN).",
+      "Die beste Reisezeit für Florianópolis ist Dezember bis März (Sommer, Nord- und Ostküste in Bestform) sowie Juli bis November (kühleres Meer, aber ideale Walbeobachtung von Südkaper-Walen bei Praia do Rosa); ideal sind 5 bis 7 Nächte auf der Insel, mit Anreise über den Flughafen Hercílio Luz (FLN). Create Travel plant private, maßgeschneiderte Florianópolis-Reisen für internationale Gäste, mit deutschsprachigen Reiseleitern, und sendet ein schriftliches Angebot per WhatsApp.",
     intro: [
       "Florianópolis ist eine Insel mit 54 Stränden, die bei jeder Straßenkurve ihren Charakter wechselt: im Norden warmes Wasser und lebhaftes Gesellschaftsleben, im Süden wilde Dünen und fast unberührte Fischerdörfer, in der Mitte die Lagoa da Conceição, das Wohnzimmer der Stadt. Floripa als 'Strandziel' zu bezeichnen wird einem Ort nicht gerecht, der auch frische Austern, Wanderwege im Atlantikwald und eine Designszene bietet, die nur wenige brasilianische Küstenstädte vorweisen können.",
       "Dieser Guide entstand aus ganzen Saisons auf der Insel, nicht aus Wochenendbesuchen: welcher Strand zu welcher Tageszeit passt, wo man ohne Warteschlange isst, wann der Südwind den Tagesplan ändert und wie sich die Reise nach Bombinhas oder Praia do Rosa verlängern lässt, ohne Zeit auf der Straße zu verlieren.",
@@ -1062,29 +1062,21 @@ export const florianopolisGuide: BrazilGuideLocalized = {
       ],
     },
     itinerary: {
-      heading: "Wie Florianópolis in eine Brasilien-Reise integriert wird",
-      intro: "Die Insel eignet sich sehr gut als Basis für eine Santa-Catarina-Woche, mit kurzen Autofahrten nach Süden oder Norden des Bundesstaates.",
+      heading: "Vorgeschlagene Reiseroute: Florianópolis und Brasilien-Kombinationen",
+      intro: "Eine private, maßgeschneiderte Reise, abgestimmt auf Ihre Reisedaten, Ihr Tempo und die örtlichen Bedingungen. Planen Sie Puffernächte bei Flugverbindungen ein.",
       items: [
-        {
-          title: "Florianópolis + Praia do Rosa — 7 bis 8 Tage",
-          text: "Fünf Tage auf der Insel und zwei bis drei bei Praia do Rosa in der Walsaison, mit rund zweistündigem Straßentransfer.",
-        },
-        {
-          title: "Florianópolis + Bombinhas — 7 bis 8 Tage",
-          text: "Basis auf der Insel, gefolgt von zwei bis drei Tagen Tauchen und geschützten Stränden in Bombinhas, etwa anderthalb Stunden entfernt.",
-        },
-        {
-          title: "Florianópolis + Gramado und Serra Gaúcha — 9 bis 10 Tage",
-          text: "Klassische Kombination aus Südbrasilien: Küste von Santa Catarina und Hochland von Rio Grande do Sul, verbunden per Flug über Porto Alegre.",
-        },
-        {
-          title: "Florianópolis + Buenos Aires — 8 bis 9 Tage",
-          text: "Insel in Santa Catarina und argentinische Hauptstadt in einer binationalen Reiseroute, verbunden durch einen kurzen Direktflug — eine häufige Kombination bei südamerikanischen Reisenden.",
-        },
-        {
-          title: "Florianópolis + Rio de Janeiro — 9 bis 10 Tage",
-          text: "Stadt und Strand in Rio, Natur und Lagune in Floripa: zwei brasilianische Küsten mit sehr unterschiedlichem Charakter in einer Reise.",
-        },
+        { title: "Tag 1 — Ankunft", text: "Transfer vom Flughafen FLN zu Ihrer Unterkunft und Ankommen im Inselleben." },
+        { title: "Tag 2 — Strände im Norden", text: "Erkunden Sie die Nordstrände in aller Ruhe, mit Zeit zum Baden, wenn die Bedingungen es erlauben." },
+        { title: "Tag 3 — Lagoa da Conceição", text: "Verbringen Sie den Tag an Lagune und Dünen, mit einer ausgewogenen Mischung aus sanften Erkundungen und Erholung." },
+        { title: "Tag 4 — Ilha do Campeche", text: "Besuchen Sie die Insel vorbehaltlich Vorabreservierung, Zugangsbeschränkungen und Meeresbedingungen; halten Sie eine Strandalternative bereit." },
+        { title: "Tag 5 — Inselsüden und Austern", text: "Erkunden Sie den Süden der Insel und planen Sie anschließend ein Austernessen in Santo Antônio de Lisboa." },
+        { title: "Tag 6 — Abreise oder Verlängerung", text: "Reisen Sie nach fünf Nächten ab oder verlängern Sie während der Walsaison nach Praia do Rosa; Sichtungen sind nie garantiert." },
+        { title: "Florianópolis + Praia do Rosa — 7 bis 8 Tage", text: "Fünf Tage auf der Insel und zwei bis drei in Praia do Rosa während der Walsaison, mit etwa zweistündigem Straßentransfer." },
+        { title: "Florianópolis + Bombinhas — 7 bis 8 Tage", text: "Nach dem Inselaufenthalt folgen zwei bis drei Tage zum Tauchen und an geschützten Stränden in Bombinhas, etwa neunzig Minuten entfernt." },
+        { title: "Florianópolis + Gramado und Serra Gaúcha — 9 bis 10 Tage", text: "Die Küste von Santa Catarina und das Hochland von Rio Grande do Sul, verbunden per Flug über Porto Alegre." },
+        { title: "Florianópolis + Buenos Aires — 8 bis 9 Tage", text: "Die Insel Santa Catarina und die argentinische Hauptstadt auf einer Zweiländerreise, verbunden durch einen kurzen Direktflug — eine häufige Kombination unter südamerikanischen Reisenden." },
+        { title: "Florianópolis + Rio de Janeiro — 9 bis 10 Tage", text: "Stadt und Strand in Rio, Natur und Lagune in Floripa: zwei sehr unterschiedliche brasilianische Küsten in einer Reiseroute." },
+        { title: "Kombinieren Sie zwei oder mehr brasilianische Biome", text: "Brasilien hat sechs Landbiome plus die Küsten- und Meereszone — sieben unterschiedliche Landschaften und Kulturen. Verbinden Sie den Atlantikwald und die Küstenzone von Santa Catarina: Inselstrände und Waldwanderungen. Wir stimmen die Reihenfolge auf die saisonalen Bedingungen ab und berücksichtigen Transferzeiten." },
       ],
     },
     tips: {
@@ -1123,12 +1115,15 @@ export const florianopolisGuide: BrazilGuideLocalized = {
         q: "Was kostet eine Reise nach Florianópolis mit Create Travel?",
         a: "Wir arbeiten nicht mit Standardpreisen: Das Budget hängt vom Stadtteil, der Unterkunft, der Anzahl der Nächte und der Saison ab. Ein persönlicher Berater erstellt das Angebot und sendet die Beträge schriftlich.",
       },
+      { q: "Wie erfolgt die Anreise aus dem Ausland?", a: "Fliegen Sie international nach Brasilien und bei Bedarf über ein brasilianisches Drehkreuz zum Flughafen Hercílio Luz (FLN). Create Travel organisiert private Transfers zu Ihrer Unterkunft auf der Insel." },
+      { q: "Benötige ich ein Visum oder Impfungen für Brasilien?", a: "Visabestimmungen hängen von Ihrer Staatsangehörigkeit und den Reisedaten ab. Prüfen Sie vor der Buchung offizielle brasilianische Konsularinformationen. Lassen Sie sich reisemedizinisch zu Standardimpfungen, Gelbfieberempfehlungen und Einreise- oder Transitvorgaben beraten und beachten Sie offizielle Gesundheitshinweise für Ihre Reiseroute." },
+      { q: "Sind bei jeder Exkursion deutschsprachige Reiseleiter verfügbar?", a: "Ja. Create Travel stellt bei jeder Exkursion Ihrer privaten, maßgeschneiderten Reise deutschsprachige Reiseleiter bereit. Tempo und Erläuterungen richten sich nach Ihren Interessen." },
+      { q: "Kann ich Florianópolis mit anderen brasilianischen Biomen kombinieren?", a: "Brasilien hat sechs Landbiome plus die Küsten- und Meereszone — sieben unterschiedliche Landschaften und Kulturen. Verbinden Sie den Atlantikwald und die Küstenzone von Santa Catarina: Inselstrände und Waldwanderungen. Ihr Reiseplaner prüft saisonale Vereinbarkeit und Transferzeiten." },
     ],
     cta: {
-      heading: "Lassen Sie uns Ihr Florianópolis gestalten",
-      subheading:
-        "Ein persönlicher Berater von Create Travel wählt den passenden Stadtteil, den Aufenthalt und die Saison für Ihre Reise — und kümmert sich um jeden Transfer.",
-      button: "Mit einem Travel Designer sprechen",
+      heading: "Fordern Sie Ihr Florianópolis-Reiseangebot an",
+      subheading: "Planen Sie Ihre private, maßgeschneiderte Reise mit einem persönlichen Create Travel-Reisedesigner, der Ihre Interessen, Ihr Tempo und Ihren gewünschten Komfort berücksichtigt. Sie erhalten Ihr schriftliches Angebot per WhatsApp.",
+      button: "Angebot per WhatsApp anfordern",
     },
     readingMinutes: 13,
     publishedAt: "2026-08-11",

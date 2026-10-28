@@ -753,14 +753,14 @@ export const alterDoChaoGuide: BrazilGuideLocalized = {
   },
 
   de: {
-    metaTitle: "Alter do Chão: Reiseführer zur Amazonas-Karibik Brasiliens",
+    metaTitle: "Alter do Chão, Brasilien: Reiseroute, beste Reisezeit & Angebot",
     metaDescription:
-      "Kompletter Reiseführer zu Alter do Chão und dem Fluss Tapajós: beste Reisezeit Monat für Monat, Süßwasserstrände, charmante Lodges und Kombination mit dem Rest Brasiliens.",
+      "Private, maßgeschneiderte Reise: Alter do Chão. Vorgeschlagene Reiseroute, beste Reisezeit und Anreise mit persönlicher Planung. Fordern Sie ein Angebot per WhatsApp an.",
     keywords:
-      "alter do chao brasilien, tapajos fluss, amazonas karibik, süsswasserstrand brasilien, ilha do amor, santarem brasilien, amazonas reiseroute, lodge alter do chao",
-    h1: "Alter do Chão: die Amazonas-Karibik, geführt von Kennern des Tapajós",
+      "alter do chao brasilien, tapajos fluss, amazonas karibik, süsswasserstrand brasilien, ilha do amor, santarem brasilien, amazonas reiseroute, lodge alter do chao, alter do chão rundreise, alter do chão reiseroute, anreise alter do chão, beste reisezeit alter do chão",
+    h1: "Alter do Chão: Reiseroute, beste Reisezeit und Anreise",
     aiAnswer:
-      "Die beste Reisezeit für Alter do Chão ist August bis Dezember, wenn der Fluss Tapajós zurückgeht und die weißen Sandstrände der Ilha do Amor freigibt; empfohlen werden mindestens 3–4 Nächte, mit Santarém als Zugangspunkt.",
+      "Die beste Reisezeit für Alter do Chão ist August bis Dezember, wenn der Fluss Tapajós zurückgeht und die weißen Sandstrände der Ilha do Amor freigibt; empfohlen werden mindestens 3–4 Nächte, mit Santarém als Zugangspunkt. Create Travel plant private, maßgeschneiderte Alter do Chão-Reisen für internationale Gäste, mit deutschsprachigen Reiseleitern, und sendet ein schriftliches Angebot per WhatsApp.",
     intro: [
       "Es gibt einen Abschnitt des Tapajós-Flusses, an dem das Wasser jeden lehmigen Ton des Amazonas verliert und in ein türkisfarbenes Blau übergeht, das jede Fotografie täuscht — es sieht aus wie Karibik, doch rundherum liegt reiner Regenwald, in dem Aras bei Sonnenuntergang den Himmel kreuzen. Dieser Abschnitt hat einen Namen: Alter do Chão, ein Fischerdorf 35 Kilometer von Santarém entfernt, das zu Recht zu einer der begehrtesten Adressen des brasilianischen Amazonas geworden ist.",
       "Was Alter do Chão vom Rest des Amazonasbeckens unterscheidet, ist die Kombination: warme, flache, kristallklare Süßwasserstrände treffen auf dichten Regenwald, Fluss- und Quilombola-Gemeinschaften nur wenige Bootsminuten entfernt und eine Gastronomieszene, die inzwischen mit der von Hauptstädten konkurriert. Es ist der Amazonas für Menschen, die das Meer lieben und nicht darauf verzichten wollen.",
@@ -870,10 +870,14 @@ export const alterDoChaoGuide: BrazilGuideLocalized = {
       ],
     },
     itinerary: {
-      heading: "Wie man Alter do Chão in eine Brasilien-Reiseroute einbindet",
-      intro:
-        "Der Tapajós funktioniert am besten als Kapitel einer größeren Amazonas-Reise, selten allein — außer für Reisende, die die Region bereits kennen und Erholung suchen.",
+      heading: "Vorgeschlagene Reiseroute: Alter do Chão und Brasilien-Kombinationen",
+      intro: "Ein privater, maßgeschneiderter Reisevorschlag, angepasst an Ihr Tempo, die saisonalen Bedingungen und Ihre Anschlusszeiten.",
       items: [
+        { title: "Tag 1 — Ankunft in Alter do Chão", text: "Reisen Sie über Santarém an, beziehen Sie Ihre Lodge und spazieren Sie bei Sonnenuntergang an der Uferpromenade." },
+        { title: "Tag 2 — Strände des Tapajós", text: "Fahren Sie mit einem privaten Boot zur Ilha do Amor und zur Ponta do Cururu, sofern der saisonale Wasserstand die Sandstrände freigibt." },
+        { title: "Tag 3 — Nationalwald Tapajós", text: "Wandern Sie mit einem örtlichen Reiseleiter zwischen alten Bäumen und Kautschukhainen; die Strecke richtet sich nach Ihren Interessen." },
+        { title: "Tag 4 — Flussgemeinschaften", text: "Erkunden Sie mit Ihrem Reiseleiter den Lago Verde und die lokale Küche. Tierbeobachtungen sind möglich, jedoch niemals garantiert." },
+        { title: "Tag 5 — Abreise", text: "Kehren Sie nach vier Nächten zur Weiterreise nach Santarém zurück." },
         {
           title: "Alter do Chão + klassischer Amazonas (Manaus) — 8 bis 10 Tage",
           text: "Vier Nächte dichter Wald am Rio Negro und drei bis vier Nächte Flussstrand in Alter do Chão, verbunden per Inlandsflug über Manaus.",
@@ -886,6 +890,7 @@ export const alterDoChaoGuide: BrazilGuideLocalized = {
           title: "Alter do Chão + Belém und Insel Marajó — 9 bis 11 Tage",
           text: "Schließt die Amazonas-Reise mit der gefeierten Gastronomiehauptstadt Pará und dem ländlichen Büffelleben auf Marajó ab.",
         },
+        { title: "Kombinieren Sie zwei oder mehr brasilianische Biome", text: "Brasilien hat sechs Landbiome plus die Küsten- und Meereszone — sieben unterschiedliche Landschaften und Kulturen. Kombinieren Sie den Amazonaswald und die Flussstrände von Alter do Chão mit den Küsten- und Meereslandschaften der Lençóis Maranhenses." },
       ],
     },
     tips: {
@@ -913,10 +918,6 @@ export const alterDoChaoGuide: BrazilGuideLocalized = {
         a: "Ja. Die Gewässer des Tapajós sind an den Strandabschnitten flach, warm und praktisch strömungsfrei, was das Ziel auch für Familien mit kleinen Kindern angenehm macht.",
       },
       {
-        q: "Wie kommt man nach Alter do Chão?",
-        a: "Der Zugang erfolgt über den internationalen Flughafen Santarém mit täglichen Flügen aus Manaus, Belém und anderen Hauptstädten, gefolgt von etwa 40 Minuten Fahrt mit Auto oder Boot bis zum Dorf.",
-      },
-      {
         q: "Alter do Chão oder der Rio Negro bei Manaus — was wählen?",
         a: "Alter do Chão bietet Süßwasserstrände und Dorfrhythmus; der Rio Negro bietet dichteren Wald und größere Lodges. Wer Zeit hat, kombiniert beides in einer einzigen Amazonas-Reiseroute.",
       },
@@ -924,12 +925,15 @@ export const alterDoChaoGuide: BrazilGuideLocalized = {
         q: "Was kostet eine Reise nach Alter do Chão mit Create Travel?",
         a: "Wir arbeiten nicht mit Listenpreisen: Das Budget hängt von Lodge, Saison und Flugverbindungen ab. Ein persönlicher Berater legt das Angebot schriftlich vor, ohne veröffentlichte Schätzungen auf der Website.",
       },
+      { q: "Wie erfolgt die Anreise für Alter do Chão?", a: "Beginnen Sie mit einem internationalen Flug zu einem brasilianischen Drehkreuz und bei Bedarf einem Inlandsanschluss zum passenden regionalen Flughafen. Weiter geht es zum Flughafen Santarém und mit einem privaten Transfer nach Alter do Chão. Create Travel organisiert private Transfers; bestätigen Sie aktuelle Flugpläne vor der Buchung." },
+      { q: "Benötige ich für Brasilien ein Visum oder Impfungen?", a: "Die Visumpflicht hängt von Ihrem Reisepass und Ihren Reisedaten ab. Prüfen Sie vor der Buchung die offiziellen brasilianischen Konsularinformationen. Lassen Sie sich reisemedizinisch zu Standard- und reisezielspezifischen Impfungen, einschließlich Gelbfieber, beraten und beachten Sie die offiziellen Gesundheitsempfehlungen für Ihre Reiseroute." },
+      { q: "Sind deutschsprachige Reiseleiter bei jeder Exkursion verfügbar?", a: "Ja. Create Travel stellt bei jeder Exkursion deutschsprachige Reiseleiter bereit; die Aktivitäten werden Ihren Interessen und Ihrem Tempo angepasst." },
+      { q: "Kann ich Alter do Chão mit anderen brasilianischen Biomen kombinieren?", a: "Ja. Brasilien hat sechs Landbiome plus die Küsten- und Meereszone — sieben unterschiedliche Landschaften und Kulturen. Kombinieren Sie den Amazonaswald und die Flussstrände von Alter do Chão mit den Küsten- und Meereslandschaften der Lençóis Maranhenses. Ihr Travel Designer plant Zeit für Transfers ein und prüft die saisonale Vereinbarkeit." },
     ],
     cta: {
-      heading: "Lassen Sie uns Ihren Tapajós gestalten",
-      subheading:
-        "Ein persönlicher Berater von Create Travel wählt die passende Lodge, die richtige Saison und die ideale Verbindung mit dem Rest Ihrer Brasilien-Reise.",
-      button: "Mit einem Travel Designer sprechen",
+      heading: "Fordern Sie Ihr Alter do Chão-Reiseangebot an",
+      subheading: "Planen Sie Ihre private, maßgeschneiderte Reise mit einem persönlichen Travel Designer — abgestimmt auf Ihre Interessen, Ihr Tempo und Ihre Wunschtermine.",
+      button: "Angebot per WhatsApp anfordern",
     },
     readingMinutes: 10,
     publishedAt: "2026-08-11",

@@ -757,14 +757,14 @@ export const costaDoCacauGuide: BrazilGuideLocalized = {
   de: {
     destinationName: "Kakaoküste",
     blurb: "Ilhéus, Itacaré und Serra Grande: das Bahia von Jorge Amado, Surfen zwischen Kokospalmen und Bean-to-Bar-Schokolade im Schatten der Cabruca-Kakaobäume.",
-    metaTitle: "Kakaoküste Brasilien: Reiseführer Ilhéus, Itacaré & Serra Grande",
+    metaTitle: "Kakaoküste, Brasilien: Reiseroute, beste Reisezeit & Angebot",
     metaDescription:
-      "Redaktioneller Guide zur Kakaoküste (Bahia): beste Reisezeit, Ilhéus, Itacaré, Serra Grande, Uruçuca, Zugang zur Halbinsel Maraú, Kakaofarmen und Schokolade, Surfen, Wasserfälle sowie Unterkünfte wie das Txai Resort Itacaré.",
+      "Private, maßgeschneiderte Reise: Kakaoküste. Vorgeschlagene Reiseroute, beste Reisezeit und Anreise. Fordern Sie ein Angebot per WhatsApp an.",
     keywords:
-      "kakaoküste brasilien, ilhéus bahia, itacaré, serra grande bahia, uruçuca, halbinsel marau, txai resort itacaré, jorge amado, cabruca kakao, bean to bar schokolade bahia",
-    h1: "Kakaoküste: zwischen Jorge Amados Literatur und dem Atlantischen Regenwald",
+      "kakaoküste brasilien, ilhéus bahia, itacaré, serra grande bahia, uruçuca, halbinsel marau, txai resort itacaré, jorge amado, cabruca kakao, bean to bar schokolade bahia, kakaoküste rundreise, kakaoküste reiseroute, anreise kakaoküste, beste reisezeit kakaoküste",
+    h1: "Kakaoküste: Reiseroute, beste Reisezeit und Anreise",
     aiAnswer:
-      "Die Kakaoküste an der Südküste Bahias umfasst Ilhéus, Itacaré, Serra Grande und Uruçuca, mit dem Zugang zur Halbinsel Maraú weiter südlich; die beste Reisezeit ist September bis März, mit Anreise über den Flughafen Ilhéus (IOS), etwa zwei Stunden von Salvador entfernt.",
+      "Die Kakaoküste an der Südküste Bahias umfasst Ilhéus, Itacaré, Serra Grande und Uruçuca, mit dem Zugang zur Halbinsel Maraú weiter südlich; die beste Reisezeit ist September bis März, mit Anreise über den Flughafen Ilhéus (IOS), etwa zwei Stunden von Salvador entfernt. Create Travel plant private, maßgeschneiderte Kakaoküste-Reisen für internationale Gäste, mit deutschsprachigen Reiseleitern, und sendet ein schriftliches Angebot per WhatsApp.",
     intro: [
       "Genau in diesem Küstenabschnitt zwischen Ilhéus und Itacaré siedelte Jorge Amado Gabriela, Nelke und Zimt an — nicht zufällig: Hier teilten sich Kakao und Meer schon immer denselben Horizont. Die Cabruca-Kakaofarmen, im Schatten des ursprünglichen Atlantischen Regenwalds angebaut, duften noch heute zwischen Ilhéus und Uruçuca, während die Küste weiter südlich bis Itacaré verläuft, wo Surfer in den 1980er-Jahren perfekte Wellen hinter Kokospalmen entdeckten.",
       "Dieser Guide durchquert die Kakaoküste ohne Eile: das historische Ilhéus von Jorge Amado und der Bar Vesúvio, Surfen und Wasserfälle in Itacaré, die Ruhe von Serra Grande, Bean-to-Bar-Schokoladenfarmen in Uruçuca und der Zugang zur Halbinsel Maraú, wo sich die Kakaoküste allmählich in Dünen und stilles, poolartiges Meer auflöst.",
@@ -877,26 +877,15 @@ export const costaDoCacauGuide: BrazilGuideLocalized = {
       ],
     },
     itinerary: {
-      heading: "Wie man die Kakaoküste in eine Brasilien-Route einbindet",
-      intro:
-        "Die Region lässt sich gut mit dem Rest der Südküste Bahias verbinden, stets über den Flughafen Ilhéus (IOS), mit Direktflügen aus São Paulo, Rio de Janeiro und Salvador.",
+      heading: "Vorgeschlagene Reiseroute an der Kakaoküste — 4 Nächte / 5 Tage",
+      intro: "Ein privater, maßgeschneiderter Ausgangspunkt, angepasst an Ihr Tempo, Ihre Ankunftszeiten und die örtlichen Bedingungen. Ergänzen Sie Nächte für einen geruhsameren Aufenthalt.",
       items: [
-        {
-          title: "Kakaoküste + Halbinsel Maraú — 8 bis 9 Tage",
-          text: "Vier Tage zwischen Ilhéus und Itacaré, gefolgt von vier bis fünf Tagen auf der Halbinsel Maraú, um das Strand- und Ruhemeer-Erlebnis zu verlängern.",
-        },
-        {
-          title: "Kakaoküste + Salvador — 8 Tage",
-          text: "Drei Tage Geschichte und Kultur in Salvador und im Pelourinho, gefolgt von fünf Tagen zwischen Kakaofarmen, Surfen und Wasserfällen im Süden Bahias.",
-        },
-        {
-          title: "Kakaoküste + Costa do Descobrimento — 10 bis 12 Tage",
-          text: "Eine vollständige Route entlang der Südküste Bahias: zuerst Ilhéus und Itacaré, dann weiter südlich Trancoso und Caraíva, die Kakao, Surfen und die Küste von Trancoso verbindet.",
-        },
-        {
-          title: "Kakaoküste allein — 6 bis 7 Tage",
-          text: "Meistgewähltes Format: zwei Tage in Ilhéus, drei in Itacaré und eine oder zwei Nächte in Serra Grande, ohne Eile bei den Wegstrecken.",
-        },
+        { title: "Tag 1 — Ankunft in Ilhéus", text: "Ankunft am Flughafen Ilhéus und privater Transfer zur Unterkunft; erkunden Sie das historische Zentrum und die mit Jorge Amado verbundenen Orte in Ruhe." },
+        { title: "Tag 2 — Kakao und Schokolade", text: "Besuchen Sie eine vorab gebuchte Cabruca-Kakaofarm bei Ilhéus oder Uruçuca für einen Rundgang und eine Bean-to-Bar-Verkostung. Anschließend reisen Sie nach Itacaré weiter." },
+        { title: "Tag 3 — Strände von Itacaré", text: "Erkunden Sie Concha oder Tiririca mit Zeit für den Strand und optionalem Surfen entsprechend Ihrer Erfahrung." },
+        { title: "Tag 4 — Wald und Wasserfälle", text: "Unternehmen Sie eine geführte Waldwanderung und besuchen Sie den Wasserfall Tijuípe. Der Ausflug wird an Wetter und Wegbedingungen angepasst." },
+        { title: "Tag 5 — Serra Grande und Abreise", text: "Genießen Sie die ruhigere Küste von Serra Grande vor dem privaten Rücktransfer nach Ilhéus; ergänzen Sie eine Nacht, falls die Flugzeiten dies erfordern." },
+        { title: "Kombinieren Sie zwei oder mehr brasilianische Biome", text: "Brasilien hat sechs Landbiome plus die Küsten- und Meereszone — sieben unterschiedliche Landschaften und Kulturen. Kombinieren Sie die Kakaofarmen im Atlantischen Regenwald der Kakaoküste mit den Stränden ihrer Küsten- und Meereszone. Ihr Reisedesigner berücksichtigt Reisetage und saisonale Unterschiede." },
       ],
     },
     tips: {
@@ -911,6 +900,11 @@ export const costaDoCacauGuide: BrazilGuideLocalized = {
       ],
     },
     faq: [
+      { q: "Benötige ich ein Visum oder Impfungen für Brasilien?", a: "Die Visumpflicht hängt von Ihrer Staatsangehörigkeit und Ihren Reisedaten ab. Prüfen Sie vor der Buchung die offiziellen brasilianischen Konsular- und Einreiseinformationen. Lassen Sie sich reisemedizinisch zu Standardimpfungen, Gelbfieber und möglichen Einreisevorgaben Ihrer Route beraten und prüfen Sie offizielle Gesundheitshinweise." },
+      { q: "Stehen deutschsprachige Reiseleiter bei jeder Exkursion zur Verfügung?", a: "Ja. Create Travel stellt bei jeder Exkursion deutschsprachige Reiseleiter bereit und plant Ihre private, maßgeschneiderte Reise nach Ihren Interessen und Ihrem bevorzugten Tempo." },
+      { q: "Wie erfolgt die Anreise für internationale Gäste nach Kakaoküste?", a: "Fliegen Sie international zu einem brasilianischen Drehkreuz wie São Paulo oder Rio de Janeiro und anschließend mit einem Inlandsflug nach Ilhéus (IOS). Create Travel organisiert private Transfers zu Ihrer Unterkunft oder zum Einschiffungsort." },
+      { q: "Kann ich Kakaoküste mit anderen brasilianischen Biomen kombinieren?", a: "Ja. Brasilien hat sechs Landbiome plus die Küsten- und Meereszone — sieben unterschiedliche Landschaften und Kulturen. Kombinieren Sie die Kakaofarmen im Atlantischen Regenwald der Kakaoküste mit den Stränden ihrer Küsten- und Meereszone. Wir stimmen die Reihenfolge auf saisonale Bedingungen und realistische Transferzeiten ab." },
+
       {
         q: "Was ist der Unterschied zwischen Ilhéus, Itacaré und Serra Grande?",
         a: "Ilhéus ist das historische, literarische Zentrum, verbunden mit Jorge Amado und dem Kakaozyklus. Itacaré ist das Zentrum für Surfen und Leben im Freien mit der besten touristischen Infrastruktur. Serra Grande ist am rustikalsten und ruhigsten, umgeben von Kakaofarmen.",
@@ -937,10 +931,9 @@ export const costaDoCacauGuide: BrazilGuideLocalized = {
       },
     ],
     cta: {
-      heading: "Lassen Sie uns Ihre Kakaoküste gestalten",
-      subheading:
-        "Ein menschlicher Berater von Create Travel wählt zwischen Ilhéus, Itacaré und Serra Grande die richtige Adresse für Ihr Profil.",
-      button: "Mit einem Travel Designer sprechen",
+      heading: "Fordern Sie Ihr Kakaoküste-Reiseangebot an",
+      subheading: "Planen Sie eine private, maßgeschneiderte Reise mit einem persönlichen Reisedesigner. Route, Unterkünfte und Tempo richten sich nach Ihnen. Sie erhalten Ihr schriftliches Angebot per WhatsApp.",
+      button: "Angebot per WhatsApp anfordern",
     },
     readingMinutes: 11,
     publishedAt: "2026-08-11",

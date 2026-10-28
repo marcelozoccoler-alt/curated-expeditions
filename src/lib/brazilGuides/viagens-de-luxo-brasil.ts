@@ -952,14 +952,14 @@ export const viagensDeLuxoBrasilGuide: BrazilGuideLocalized = {
     destinationName: "Luxusreisen in Brasilien",
     blurb:
       "Ein Special über zeitgenössischen brasilianischen Luxus: Zugang, Exklusivität und Zeit — Privatjets und Lufttaxis nach Noronha, Marajó und ins Pantanal, exklusive Bootshotels am Rio Negro, private Naturführer und Villen mit eigenem Personal in Trancoso und Maraú.",
-    metaTitle: "Luxusreisen in Brasilien: Leitfaden für Zugang und Exklusivität",
+    metaTitle: "Brasilien-Luxus, Brasilien: Reiseroute, beste Reisezeit & Angebot",
     metaDescription:
-      "Create-Travel-Guide zu Luxusreisen in Brasilien: Privatflüge, exklusive Bootshotels, private Naturführer, Villen mit eigenem Personal und wie man eine 12- bis 16-nächtige Reiseroute über zwei oder drei Biome plant.",
+      "Private, maßgeschneiderte Brasilien-Luxus-Reise: vorgeschlagene Reiseroute, beste Reisezeit und Anreise. Fordern Sie ein Angebot per WhatsApp an.",
     keywords:
-      "luxusreise brasilien, privatjet brasilien, luxushotel pantanal, luxushotel amazonas, luxusvilla trancoso, fasano angra, fasano boa vista, rosewood sao paulo, copacabana palace, caiman pantanal, cristalino lodge, luxus reiseroute brasilien",
-    h1: "Luxusreisen in Brasilien: der Leitfaden für alle, die Zugang gestalten, nicht nur Unterkunft",
+      "luxusreise brasilien, privatjet brasilien, luxushotel pantanal, luxushotel amazonas, luxusvilla trancoso, fasano angra, fasano boa vista, rosewood sao paulo, copacabana palace, caiman pantanal, cristalino lodge, luxus reiseroute brasilien, brasilien-luxus rundreise, brasilien-luxus reiseroute, anreise brasilien-luxus, beste reisezeit brasilien-luxus",
+    h1: "Brasilien-Luxus: Reiseroute, beste Reisezeit und Anreise",
     aiAnswer:
-      "In Brasilien bedeutet zeitgenössischer Reiseluxus Zugang (Privatflüge und Lufttaxis nach Noronha, Marajó und ins Pantanal), Exklusivität (private Bootshotels, persönliche Naturführer, Villen mit eigenem Personal) und Zeit (12- bis 16-nächtige Reiserouten über zwei oder drei Biome); die Planung im gehobenen Segment sollte 4 bis 6 Monate im Voraus beginnen, um Termine in kleinen Lodges und Flugzeugverfügbarkeit zu sichern.",
+      "In Brasilien bedeutet zeitgenössischer Reiseluxus Zugang (Privatflüge und Lufttaxis nach Noronha, Marajó und ins Pantanal), Exklusivität (private Bootshotels, persönliche Naturführer, Villen mit eigenem Personal) und Zeit (12- bis 16-nächtige Reiserouten über zwei oder drei Biome); die Planung im gehobenen Segment sollte 4 bis 6 Monate im Voraus beginnen, um Termine in kleinen Lodges und Flugzeugverfügbarkeit zu sichern. Create Travel plant private, maßgeschneiderte Brasilien-Luxus-Reisen für internationale Gäste, mit deutschsprachigen Reiseleitern, und sendet ein schriftliches Angebot per WhatsApp.",
     intro: [
       "Brasilianischer Luxus dreht sich längst nicht mehr um größere Zimmer oder feinere Bettwäsche. Heute ist er eine Gleichung aus Zugang: Orte erreichen, die das kommerzielle Flugnetz nicht abdeckt, private Reservate durchqueren, so groß wie kleine Länder, einen Naturführer ganz für sich haben, in einem Kanu um fünf Uhr morgens, oder in einer Villa in Trancoso schlafen, wo die einzige Schlange der Sandstreifen zum Meer ist.",
       "Dieser Leitfaden behandelt jene Schicht Brasiliens, die in keinem Pauschalpaket vorkommt: Jets und Lufttaxis, Bootshotels am Rio Negro, Signature-Lodges im Pantanal und im Amazonas, Stadthotels, die es mit jeder Hauptstadt der Welt aufnehmen, und private Villen an der Küste Bahias. Wir gliedern nach Erlebnis, nicht nach Reiseziel — denn was eine Reise auf ein anderes Niveau hebt, ist nicht nur wohin man fährt, sondern wie man ankommt und wer sich um einen kümmert.",
@@ -1032,7 +1032,7 @@ export const viagensDeLuxoBrasilGuide: BrazilGuideLocalized = {
         {
           name: "Fasano Boa Vista (Porto Feliz, SP)",
           url: "https://www.fasano.com.br/hotel/boa-vista/",
-          profile: "Kurze Ausflüge von São Paulo und kleine Gruppen",
+          profile: "Private Kurzreisen ab São Paulo",
           text: "Villen mit privatem Pool inmitten der Landschaft São Paulos, ein von Gil Hanse entworfener Golfplatz und ein ländliches Tempo weniger als zwei Stunden von der Hauptstadt entfernt.",
         },
         {
@@ -1110,7 +1110,7 @@ export const viagensDeLuxoBrasilGuide: BrazilGuideLocalized = {
       ],
     },
     itinerary: {
-      heading: "Wie man eine 12- bis 16-nächtige Reiseroute über zwei oder drei Biome plant",
+      heading: "Vorgeschlagene Brasilien-Luxus-Reiseroute und Kombinationen in Brasilien",
       intro:
         "Der häufigste Fehler bei gehobenen Brasilien-Reiserouten ist die Unterschätzung der inneren Entfernungen — das Land ist kontinental groß, und jeder Biomwechsel erfordert einen Inlandsflug und idealerweise eine Pufferübernachtung.",
       items: [
@@ -1130,6 +1130,7 @@ export const viagensDeLuxoBrasilGuide: BrazilGuideLocalized = {
           title: "Cerrado (Trijunção) + Rio Negro + Rio de Janeiro — 13 bis 15 Nächte",
           text: "Kombiniert brasilianische Savanne, Amazonas-Regenwald und Stadt — drei Landschaften, die selten gemeinsam in einer internationalen Reiseroute vorkommen.",
         },
+        { title: "Kombinieren Sie zwei oder mehr brasilianische Biome", text: "Brasilien hat sechs Landbiome plus die Küsten- und Meereszone — sieben unterschiedliche Landschaften und Kulturen. Kombinieren Sie Amazonien und das Pantanal mit einem Küstenabschluss in Angra und Rio de Janeiro; planen Sie 14 bis 16 Nächte und Puffer für Anschlüsse ein." },
       ],
     },
     tips: {
@@ -1144,36 +1145,20 @@ export const viagensDeLuxoBrasilGuide: BrazilGuideLocalized = {
       ],
     },
     faq: [
-      {
-        q: "Wie weit im Voraus sollte ich eine Luxusreise nach Brasilien planen?",
-        a: "Für Lodges mit wenigen Zimmern, Bootshotels und private Reservate in der Hochsaison sollten Sie 6 bis 9 Monate im Voraus buchen. Voll exklusive private Villen benötigen 4 bis 6 Monate, besonders zum Jahresende und Karneval.",
-      },
-      {
-        q: "Lohnt sich ein Privatjet oder Lufttaxi in Brasilien?",
-        a: "Es lohnt sich, wenn das Ziel über ein begrenztes kommerzielles Flugnetz verfügt oder wenn die Gruppe 6 bis 8 Stunden Autofahrt einsparen möchte, wie beim Zugang zu Caiman. Auf gut bedienten Strecken bietet der Jet Komfort, ist aber nicht unerlässlich.",
-      },
-      {
-        q: "Was ist die beste Reisezeit für eine Luxusreise nach Brasilien?",
-        a: "Das hängt vom Erlebnis ab: Juni bis September für Pantanal und den trockenen Amazonas, Dezember bis März für Noronha und Angra, September bis Dezember für Villen an der Küste Bahias.",
-      },
-      {
-        q: "Ist es möglich, während der gesamten Reise einen privaten Naturführer zu haben?",
-        a: "Ja, das ist der Standard, den wir bei Caiman, der Cristalino Lodge und den Bootshotels am Rio Negro anbieten: Fahrzeug, Boot und Führer, die ausschließlich Ihrer Gruppe zugeteilt sind.",
-      },
-      {
-        q: "Wie viele Nächte braucht man für eine Route über zwei oder drei Biome?",
-        a: "Das ausgewogenste Format umfasst 12 bis 16 Nächte, mit 4 bis 5 Nächten pro Immersions-Biom und dem Rest aufgeteilt zwischen Küste und Stadt.",
-      },
-      {
-        q: "Was kostet eine Luxusreise nach Brasilien mit Create Travel?",
-        a: "Wir arbeiten nicht mit Standardpreisen: Die Investition hängt von den Adressen, dem Einsatz von Jet oder Lufttaxi, der Anzahl der Nächte und der Saison ab. Ein menschlicher Berater legt das vollständige Angebot schriftlich vor.",
-      },
+      { q: "Wie weit im Voraus sollte ich eine Luxusreise nach Brasilien planen?", a: "Für Lodges mit wenigen Zimmern, Bootshotels und private Reservate in der Hochsaison sollten Sie 6 bis 9 Monate im Voraus buchen. Voll exklusive private Villen benötigen 4 bis 6 Monate, besonders zum Jahresende und Karneval." },
+      { q: "Lohnt sich ein Privatjet oder Lufttaxi in Brasilien?", a: "Es lohnt sich, wenn das Ziel über ein begrenztes kommerzielles Flugnetz verfügt oder wenn die Gruppe 6 bis 8 Stunden Autofahrt einsparen möchte, wie beim Zugang zu Caiman. Auf gut bedienten Strecken bietet der Jet Komfort, ist aber nicht unerlässlich." },
+      { q: "Was ist die beste Reisezeit für eine Luxusreise nach Brasilien?", a: "Das hängt vom Erlebnis ab: Juni bis September für Pantanal und den trockenen Amazonas, Dezember bis März für Noronha und Angra, September bis Dezember für Villen an der Küste Bahias." },
+      { q: "Wie viele Nächte braucht man für eine Route über zwei oder drei Biome?", a: "Das ausgewogenste Format umfasst 12 bis 16 Nächte, mit 4 bis 5 Nächten pro Immersions-Biom und dem Rest aufgeteilt zwischen Küste und Stadt." },
+      { q: "Was kostet eine Luxusreise nach Brasilien mit Create Travel?", a: "Wir arbeiten nicht mit Standardpreisen: Die Investition hängt von den Adressen, dem Einsatz von Jet oder Lufttaxi, der Anzahl der Nächte und der Saison ab. Ein menschlicher Berater legt das vollständige Angebot schriftlich vor." },
+      { q: "Wie erfolgt die Anreise für meine Brasilien-Luxus-Reise?", a: "Nach einem internationalen Flug zu einem brasilianischen Drehkreuz folgen Inlandsverbindungen zu den regionalen Flughäfen Ihrer gewählten Ziele. Create Travel plant die Abfolge und private Transfers und bestätigt Linienflüge oder private Flugoptionen sowie Puffernächte für Ihre Termine." },
+      { q: "Benötige ich ein Visum oder Impfungen für Brasilien?", a: "Die Visumpflicht hängt von Ihrer Staatsangehörigkeit und Ihren Reisedaten ab. Prüfen Sie vor der Buchung die offiziellen brasilianischen Konsularinformationen. Informieren Sie sich anhand offizieller Gesundheitsempfehlungen und lassen Sie sich reisemedizinisch zu Impfungen beraten, einschließlich Gelbfieber, sofern für Ihre Route relevant." },
+      { q: "Sind deutschsprachige Reiseleiter bei jeder Exkursion verfügbar?", a: "Create Travel plant deutschsprachige Reiseleiter bei jeder Exkursion als Teil Ihrer privaten, maßgeschneiderten Reise." },
+      { q: "Kann ich Brasilien-Luxus mit anderen brasilianischen Biomen kombinieren?", a: "Brasilien hat sechs Landbiome plus die Küsten- und Meereszone — sieben unterschiedliche Landschaften und Kulturen. Kombinieren Sie Amazonien und das Pantanal mit einem Küstenabschluss in Angra und Rio de Janeiro; planen Sie 14 bis 16 Nächte und Puffer für Anschlüsse ein." },
     ],
     cta: {
-      heading: "Lassen Sie uns Ihre Luxusreise nach Brasilien gestalten",
-      subheading:
-        "Ein menschlicher Berater von Create Travel verhandelt Tarife, Flugzeugverfügbarkeit und Exklusivität der Unterkunft direkt per WhatsApp.",
-      button: "Mit einem Travel Designer sprechen",
+      heading: "Fordern Sie Ihr Brasilien-Luxus-Reiseangebot an",
+      subheading: "Planen Sie Ihre private, maßgeschneiderte Reise mit einem persönlichen Reisedesigner, der Ihre Reiseroute auf Ihre Termine, Interessen und Ihr Tempo abstimmt und Ihnen ein schriftliches Angebot per WhatsApp sendet.",
+      button: "Angebot per WhatsApp anfordern",
     },
     readingMinutes: 13,
     publishedAt: "2026-08-11",

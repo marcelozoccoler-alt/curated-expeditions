@@ -725,14 +725,14 @@ export const costaDasBaleiasGuide: BrazilGuideLocalized = {
   de: {
     destinationName: "Walküste",
     blurb: "Caravelas, Abrolhos und Cumuruxatiba: Brasiliens Buckelwal-Schutzgebiet, Juli bis November.",
-    metaTitle: "Walküste Brasilien: Buckelwale ganz nah bei Abrolhos",
+    metaTitle: "Walküste, Brasilien: Reiseroute, beste Reisezeit & Angebot",
     metaDescription:
-      "Von Juli bis November kalben Tausende Buckelwale bei Abrolhos. Der beste Monat, die Abfahrtsorte der Boote und Unterkünfte nahe Caravelas.",
+      "Private, maßgeschneiderte Reise: Walküste. Vorgeschlagene Reiseroute, beste Reisezeit und Anreise. Fordern Sie ein Angebot per WhatsApp an.",
     keywords:
-      "walkuste bahia, abrolhos brasilien, buckelwal bahia, caravelas brasilien, prado bahia, cumuruxatiba, corumbau, walsaison brasilien",
-    h1: "Die Walküste: das jährliche Treffen der Buckelwale im Südatlantik",
+      "walkuste bahia, abrolhos brasilien, buckelwal bahia, caravelas brasilien, prado bahia, cumuruxatiba, corumbau, walsaison brasilien, walküste rundreise, walküste reiseroute, anreise walküste, beste reisezeit walküste",
+    h1: "Walküste: Reiseroute, beste Reisezeit und Anreise",
     aiAnswer:
-      "Die Walküste im Süden Bahias ist Brasiliens wichtigstes Ziel für Buckelwalbeobachtung, mit Saison von Juli bis November (Höhepunkt September/Oktober), Bootstouren ab Caravelas zum Meeresnationalpark Abrolhos.",
+      "Die Walküste im Süden Bahias ist Brasiliens wichtigstes Ziel für Buckelwalbeobachtung, mit Saison von Juli bis November (Höhepunkt September/Oktober), Bootstouren ab Caravelas zum Meeresnationalpark Abrolhos. Create Travel plant private, maßgeschneiderte Walküste-Reisen für internationale Gäste, mit deutschsprachigen Reiseleitern, und sendet ein schriftliches Angebot per WhatsApp.",
     intro: [
       "Jedes Jahr, zwischen Juli und November, verlassen Tausende Buckelwale die eisigen Gewässer der Antarktis und reisen mehr als 6.000 Kilometer bis zur Abrolhos-Bank im Süden Bahias, um sich zu paaren und ihre Kälber in warmen, geschützten Gewässern zur Welt zu bringen. Es ist das größte Fortpflanzungstreffen von Buckelwalen im Südatlantik — und der Grund, warum dieser Küstenabschnitt zwischen Caravelas und Prado als Walküste bekannt ist.",
       "Dieser Guide behandelt eine saisonale Reise, kein generisches Strandziel: wann man aufbrechen sollte, von wo aus man startet, was man auf dem Meer und an Bord erwarten kann, und wie man die Walbeobachtung mit Tagen an Land in Cumuruxatiba, Corumbau und Alcobaça verbindet, wo der Atlantikwald noch ununterbrochen auf das Meer trifft.",
@@ -840,22 +840,15 @@ export const costaDasBaleiasGuide: BrazilGuideLocalized = {
       ],
     },
     itinerary: {
-      heading: "Wie man die Walküste in eine Brasilien-Reise integriert",
-      intro:
-        "Die Region verbindet sich natürlich mit der weiter nördlich gelegenen Entdeckungsküste zu einem einzigen Reiseblock im Süden Bahias.",
+      heading: "Vorgeschlagene Reiseroute an der Walküste — fünf Nächte",
+      intro: "Ein privater Referenzplan, angepasst an Ihr Tempo, die Saison und Ihre Ankunftszeiten. Ausflüge hängen von den örtlichen Bedingungen ab.",
       items: [
-        {
-          title: "Walküste + Entdeckungsküste — 8 bis 10 Tage",
-          text: "Vier bis fünf Tage zwischen Caravelas, Corumbau und Abrolhos, gefolgt von drei bis vier Tagen in Trancoso oder Caraíva.",
-        },
-        {
-          title: "Nur Walküste — 4 bis 5 Tage",
-          text: "Fokussiertes Format für alle, die speziell zur Walsaison reisen: zwei Nächte in Caravelas mit zwei Bootstouren, plus zwei bis drei Strandtage in Cumuruxatiba.",
-        },
-        {
-          title: "Walküste + Salvador — 9 Tage",
-          text: "Vier Tage Geschichte und Kulinarik in Salvador, gefolgt von fünf Tagen Meer und Walen im äußersten Süden des Bundesstaats.",
-        },
+        { title: "Tag 1 — Ankunft in Caravelas", text: "Reisen Sie über Porto Seguro oder Teixeira de Freitas an und mit privatem Transfer nach Caravelas für die erste von zwei Nächten." },
+        { title: "Tag 2 — Abrolhos und Walbeobachtung", text: "Planen Sie einen Bootsausflug ab Caravelas, abhängig von Wetter und Seegang. Juli bis November ist Walsaison; Sichtungen sind dann wahrscheinlich, aber niemals garantiert." },
+        { title: "Tag 3 — Transfer entlang der Küste", text: "Planen Sie eine zweite Bootsmöglichkeit ein, sofern Bedingungen und Zeit dies erlauben. Anschließend reisen Sie für drei Nächte am Meer nach Cumuruxatiba weiter." },
+        { title: "Tage 4–5 — Cumuruxatiba", text: "Genießen Sie zwei entspannte Strandtage mit Aktivitäten, die an Gezeiten und Seegang angepasst werden." },
+        { title: "Tag 6 — Abreise", text: "Kehren Sie mit privatem Straßentransfer zum Abflughafen zurück und planen Sie ausreichend Zeit für die Fahrt ein." },
+        { title: "Kombinieren Sie zwei oder mehr brasilianische Biome", text: "Brasilien hat sechs Landbiome plus die Küsten- und Meereszone — sieben unterschiedliche Landschaften und Kulturen. Kombinieren Sie die Walküste mit dem Pantanal: Küsten- und Meereserlebnisse gefolgt von Feuchtgebieten im Landesinneren. Ihr Reisedesigner berücksichtigt Reisetage und saisonale Unterschiede." },
       ],
     },
     tips: {
@@ -870,6 +863,11 @@ export const costaDasBaleiasGuide: BrazilGuideLocalized = {
       ],
     },
     faq: [
+      { q: "Benötige ich ein Visum oder Impfungen für Brasilien?", a: "Die Visumpflicht hängt von Ihrer Staatsangehörigkeit und Ihren Reisedaten ab. Prüfen Sie vor der Buchung die offiziellen brasilianischen Konsular- und Einreiseinformationen. Lassen Sie sich reisemedizinisch zu Standardimpfungen, Gelbfieber und möglichen Einreisevorgaben Ihrer Route beraten und prüfen Sie offizielle Gesundheitshinweise." },
+      { q: "Stehen deutschsprachige Reiseleiter bei jeder Exkursion zur Verfügung?", a: "Ja. Create Travel stellt bei jeder Exkursion deutschsprachige Reiseleiter bereit und plant Ihre private, maßgeschneiderte Reise nach Ihren Interessen und Ihrem bevorzugten Tempo." },
+      { q: "Wie erfolgt die Anreise für internationale Gäste nach Walküste?", a: "Fliegen Sie international zu einem brasilianischen Drehkreuz und weiter nach Porto Seguro oder Teixeira de Freitas. Anschließend reisen Sie mit privatem Straßentransfer nach Caravelas. Die Transfers werden auf Ihre Ankunfts- und Abflüge abgestimmt." },
+      { q: "Kann ich Walküste mit anderen brasilianischen Biomen kombinieren?", a: "Ja. Brasilien hat sechs Landbiome plus die Küsten- und Meereszone — sieben unterschiedliche Landschaften und Kulturen. Kombinieren Sie die Walküste mit dem Pantanal: Küsten- und Meereserlebnisse gefolgt von Feuchtgebieten im Landesinneren. Wir stimmen die Reihenfolge auf saisonale Bedingungen und realistische Transferzeiten ab." },
+
       {
         q: "Was ist die beste Reisezeit, um Buckelwale in Bahia zu sehen?",
         a: "Juli bis November, mit Höhepunkt zwischen August und Oktober. Die Touren starten in Caravelas Richtung Meeresnationalpark Abrolhos.",
@@ -896,10 +894,9 @@ export const costaDasBaleiasGuide: BrazilGuideLocalized = {
       },
     ],
     cta: {
-      heading: "Lassen Sie uns Ihre Walsaison-Reise gestalten",
-      subheading:
-        "Ein menschlicher Berater von Create Travel organisiert die Touren, die richtigen Termine und die Unterkunft zwischen Caravelas, Corumbau und Cumuruxatiba.",
-      button: "Mit einem Travel Designer sprechen",
+      heading: "Fordern Sie Ihr Walküste-Reiseangebot an",
+      subheading: "Planen Sie eine private, maßgeschneiderte Reise mit einem persönlichen Reisedesigner. Route, Unterkünfte und Tempo richten sich nach Ihnen. Sie erhalten Ihr schriftliches Angebot per WhatsApp.",
+      button: "Angebot per WhatsApp anfordern",
     },
     readingMinutes: 10,
     publishedAt: "2026-08-11",

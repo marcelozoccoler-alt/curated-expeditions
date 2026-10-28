@@ -667,14 +667,14 @@ export const amazonGuide: BrazilGuideLocalized = {
   },
 
   de: {
-    metaTitle: "Amazonas Brasilien: Reisezeit, Lodges und Routen",
+    metaTitle: "Amazonas, Brasilien: Reiseroute, beste Reisezeit & Angebot",
     metaDescription:
-      "Kuratierter Guide zum brasilianischen Amazonas: Hoch- und Niedrigwasser Monat für Monat, echte Erlebnisse, die besten Lodges nach Reisetyp und wie sich der Regenwald in eine Brasilien-Rundreise fügt.",
+      "Private, maßgeschneiderte Amazonas-Reise: vorgeschlagene Reiseroute, beste Reisezeit und Anreise. Fordern Sie ein Angebot per WhatsApp an.",
     keywords:
-      "amazonas brasilien reise, beste reisezeit amazonas, amazonas lodge, rio negro anavilhanas, mamiraua uakari, alter do chao, cristalino lodge, amazonas rundreise brasilien",
-    h1: "Brasilianischer Amazonas: der Guide von Menschen, die dort schlafen",
+      "amazonas brasilien reise, beste reisezeit amazonas, amazonas lodge, rio negro anavilhanas, mamiraua uakari, alter do chao, cristalino lodge, amazonas rundreise brasilien, amazonas rundreise, amazonas reiseroute, anreise amazonas, beste reisezeit amazonas",
+    h1: "Amazonas: Reiseroute, beste Reisezeit und Anreise",
     aiAnswer:
-      "Die beste Reisezeit für den brasilianischen Amazonas ist September bis November (Niedrigwasser, Flussstrände, konzentrierte Tierwelt) oder März bis Juni (Hochwasser, Kanufahrten im überfluteten Wald); mindestens 3 bis 4 Lodge-Nächte, Ankunft über Manaus, Tefé oder Santarém.",
+      "Die beste Reisezeit für den brasilianischen Amazonas ist September bis November (Niedrigwasser, Flussstrände, konzentrierte Tierwelt) oder März bis Juni (Hochwasser, Kanufahrten im überfluteten Wald); mindestens 3 bis 4 Lodge-Nächte, Ankunft über Manaus, Tefé oder Santarém. Create Travel plant private, maßgeschneiderte Amazonas-Reisen für internationale Gäste, mit deutschsprachigen Reiseleitern, und sendet ein schriftliches Angebot per WhatsApp.",
     intro: [
       "Der Amazonas ist kein Ort: allein in Brasilien sind es 4,2 Millionen km², neunmal Spanien, mit Schwarz-, Weiß- und Klarwasserflüssen, die sich unterschiedlich verhalten, unterschiedliche Tierwelt tragen und unterschiedliche Kulturen beherbergen. 'Ich möchte den Amazonas sehen' ist wie 'Ich möchte Europa sehen'. Unsere erste Aufgabe ist herauszufinden, welcher Amazonas Ihrer ist.",
       "Dieser Guide entsteht aus Feldarbeit, nicht aus Katalogen: was jeder Monat wirklich bringt, welche Lodges den Flug wert sind, welche Erlebnisse echt sind — und wie sich der Regenwald in eine größere Brasilien-Route fügt, ohne die Reise in einen Flughafen-Marathon zu verwandeln.",
@@ -724,14 +724,19 @@ export const amazonGuide: BrazilGuideLocalized = {
       ],
     },
     itinerary: {
-      heading: "Wie sich der Amazonas in eine Brasilien-Route fügt",
+      heading: "Vorgeschlagene Amazonas-Reiseroute und Kombinationen in Brasilien",
       intro: "Der Regenwald braucht eine kluge Abfolge: nie zwischen zwei Langstreckenflügen am selben Tag, immer eine Stadtnacht vor der Lodge als Puffer.",
       items: [
+        { title: "Tag 1 — Ankunft in Manaus", text: "Ankunft in Manaus (MAO). Übernachtung in der Stadt als Puffer gegen Flugverspätungen; optional Besuch des Teatro Amazonas." },
+        { title: "Tag 2 — Zur Lodge am Rio Negro", text: "Vormittags Transfer per Straße und/oder Boot zu einer Lodge am Rio Negro oder im Gebiet von Anavilhanas. Nachmittags Kanuausflug und Sonnenuntergang am Fluss." },
+        { title: "Tage 3 und 4 — Regenwald und Flüsse", text: "Waldwanderungen mit Naturführer, Kanufahrten durch Kanäle oder saisonal überschwemmten Wald, Besuche bei Flussgemeinschaften, wo erlaubt, und nächtliche Ausflüge zur Suche nach Kaimanen." },
+        { title: "Tag 5 — Zurück nach Manaus", text: "Rückkehr nach Manaus zum nächsten Flug oder Weiterreise ins Pantanal, nach Rio oder Iguazú." },
         { title: "Amazonas + Rio de Janeiro — 10 bis 12 Tage", text: "Vier Waldnächte und vier in Rio, mit Puffernacht in Manaus. Der meistgefragte Einstieg." },
-        { title: "Amazonas + Pantanal — 12 bis 14 Tage", text: "Brasiliens zwei große Tierparadiese: Immersion im Wald, sichere Sichtungen im Feuchtgebiet." },
+        { title: "Amazonas + Pantanal — 12 bis 14 Tage", text: "Brasiliens zwei große Tierparadiese: Immersion im Wald, Tierbeobachtungen im Feuchtgebiet ohne Sichtungsgarantie." },
         { title: "Amazonas + Lençóis Maranhenses — 12 Tage", text: "September bis November: Wald bei Niedrigwasser und noch gefüllte Lagunen, Verbindung über Belém oder São Luís." },
         { title: "Amazonas + Nordosten (Bahia oder Maragogi) — 12 bis 14 Tage", text: "Erst Intensität, dann Entspannung. Der Abschluss am Meer wird nach der Rückkehr am häufigsten gelobt." },
         { title: "Amazonas + Iguaçu + Rio — 14 Tage", text: "Der brasilianische Klassiker für Fernreisende: Wald, Wasserfälle und Stadt in drei gut verteilten Inlandsflügen." },
+        { title: "Kombinieren Sie zwei oder mehr brasilianische Biome", text: "Brasilien hat sechs Landbiome plus die Küsten- und Meereszone — sieben unterschiedliche Landschaften und Kulturen. Kombinieren Sie den Amazonas-Regenwald mit den Feuchtgebieten des Pantanal und der Atlantischen Waldküste in Rio." },
       ],
     },
     tips: {
@@ -748,15 +753,19 @@ export const amazonGuide: BrazilGuideLocalized = {
     faq: [
       { q: "Wie viele Tage braucht man im Amazonas?", a: "Drei Lodge-Nächte sind das praktische Minimum; vier bis fünf erlauben eine Waldübernachtung und Ganztagesausflüge. Mamirauá erfordert wegen der Flugverbindung über Tefé vier Nächte." },
       { q: "Wann ist die beste Reisezeit?", a: "September bis November für Strände, Pfade und konzentrierte Tierwelt; März bis Juni für Kanufahrten im überfluteten Wald." },
-      { q: "Sehe ich Jaguare, Delfine und Affen?", a: "Rosa Flussdelfine sind in Novo Airão und Mamirauá nahezu garantiert. Affen, Faultiere, Kaimane, Aras und Tukane sind häufig. Jaguare sind nur in Mamirauá bei Niedrigwasser realistisch." },
+      { q: "Sehe ich Jaguare, Delfine und Affen?", a: "Rosa Flussdelfine lassen sich in Novo Airão und Mamirauá häufig beobachten; Sichtungen sind nicht garantiert. Affen, Faultiere, Kaimane, Aras und Tukane sind häufig. Jaguare sind nur in Mamirauá bei Niedrigwasser realistisch." },
       { q: "Ist der Amazonas sicher? Und Malaria?", a: "Die Lodges, mit denen wir arbeiten, sind sicher. Gelbfieberimpfung ist Pflicht; das Malariarisiko in den touristischen Gebieten am Rio Negro und Tapajós ist gering, wir beraten individuell." },
       { q: "Amazonas oder Pantanal?", a: "Amazonas für Regenwald und Flusskultur; Pantanal für Sichtungen im offenen Gelände mit sehr hoher Jaguar-Wahrscheinlichkeit. Mit zwölf Tagen beides." },
       { q: "Was kostet eine Amazonasreise?", a: "Wir veröffentlichen keine Katalogpreise: Das Budget hängt von Lodge, Nächten, Flügen und Saison ab. Ein menschlicher Berater sendet die Werte schriftlich." },
+      { q: "Wie erfolgt die Anreise für meine Amazonas-Reise?", a: "Fliegen Sie international nach São Paulo (GRU) oder zu einem anderen brasilianischen Drehkreuz und weiter nach Manaus (MAO); manche Verbindungen führen auch direkt dorthin. Private Transfers zu den Lodges erfolgen über Straße, per Boot oder kombiniert, meist innerhalb einiger Stunden. Wir planen stets eine Nacht in Manaus vor dem Lodge-Aufenthalt." },
+      { q: "Benötige ich ein Visum oder Impfungen für Brasilien?", a: "Die Visumpflicht hängt von Ihrer Staatsangehörigkeit und Ihren Reisedaten ab. Prüfen Sie vor der Buchung die offiziellen brasilianischen Konsularinformationen. Informieren Sie sich anhand offizieller Gesundheitsempfehlungen und lassen Sie sich reisemedizinisch zu Impfungen beraten, einschließlich Gelbfieber, sofern für Ihre Route relevant." },
+      { q: "Sind deutschsprachige Reiseleiter bei jeder Exkursion verfügbar?", a: "Create Travel plant deutschsprachige Reiseleiter bei jeder Exkursion als Teil Ihrer privaten, maßgeschneiderten Reise." },
+      { q: "Kann ich Amazonas mit anderen brasilianischen Biomen kombinieren?", a: "Brasilien hat sechs Landbiome plus die Küsten- und Meereszone — sieben unterschiedliche Landschaften und Kulturen. Kombinieren Sie den Amazonas-Regenwald mit den Feuchtgebieten des Pantanal und der Atlantischen Waldküste in Rio." },
     ],
     cta: {
-      heading: "Gestalten wir Ihren Amazonas",
-      subheading: "Ein Create-Travel-Berater wählt Fluss, Lodge und Saison passend zu Ihrem Profil — und kümmert sich um jeden Anschluss.",
-      button: "Mit einem Travel Designer sprechen",
+      heading: "Fordern Sie Ihr Amazonas-Reiseangebot an",
+      subheading: "Planen Sie Ihre private, maßgeschneiderte Reise mit einem persönlichen Reisedesigner, der Ihre Reiseroute auf Ihre Termine, Interessen und Ihr Tempo abstimmt und Ihnen ein schriftliches Angebot per WhatsApp sendet.",
+      button: "Angebot per WhatsApp anfordern",
     },
     readingMinutes: 12,
     publishedAt: "2026-08-11",

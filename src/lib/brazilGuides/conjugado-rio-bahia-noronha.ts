@@ -392,11 +392,11 @@ export const conjugadoRioBahiaNoronhaGuide: BrazilGuideLocalized = {
   de: {
     destinationName: "Rio + Bahia + Fernando de Noronha",
     blurb: "Eine verbundene 14-Nächte-Route zwischen Brasiliens meistfotografierter Stadt, dem historischen Bahia und den klarsten Gewässern des Südatlantiks.",
-    metaTitle: "Rio + Bahia + Noronha: 14-Nächte-Reiseroute | Create Travel",
-    metaDescription: "Redaktioneller Guide zur verbundenen Route Rio de Janeiro, Salvador/Trancoso und Fernando de Noronha: beste Reisezeit, Flüge, Nächte pro Etappe und reale Erlebnisse.",
-    keywords: "rio bahia noronha reiseroute, rio de janeiro trancoso fernando de noronha, 14 tage brasilien route, bahia noronha reise, luxus brasilien küste route",
-    h1: "Rio, Bahia und Noronha: die verbundene Route, die Brasiliens Küste zusammenfasst",
-    aiAnswer: "Die verbundene Route Rio de Janeiro + Bahia (Salvador und Trancoso) + Fernando de Noronha funktioniert am besten von September bis März, über etwa 14 Nächte: 4 in Rio, 6 in Bahia (2 in Salvador, 4 in Trancoso) und 4 in Noronha, verbunden durch direkte Inlandsflüge oder eine Umsteigeverbindung in Recife.",
+    metaTitle: "Rio + Bahia + Fernando de Noronha, Brasilien: Reiseroute, beste Reisezeit & Angebot",
+    metaDescription: "Private, maßgeschneiderte Reise: Rio + Bahia + Fernando de Noronha. Vorgeschlagene Reiseroute, beste Reisezeit und Anreise. Fordern Sie ein Angebot per WhatsApp an.",
+    keywords: "rio bahia noronha reiseroute, rio de janeiro trancoso fernando de noronha, 14 tage brasilien route, bahia noronha reise, luxus brasilien küste route, rio + bahia + fernando de noronha rundreise, rio + bahia + fernando de noronha reiseroute, anreise rio + bahia + fernando de noronha, beste reisezeit rio + bahia + fernando de noronha",
+    h1: "Rio + Bahia + Fernando de Noronha: Reiseroute, beste Reisezeit und Anreise",
+    aiAnswer: "Die verbundene Route Rio de Janeiro + Bahia (Salvador und Trancoso) + Fernando de Noronha funktioniert am besten von September bis März, über etwa 14 Nächte: 4 in Rio, 6 in Bahia (2 in Salvador, 4 in Trancoso) und 4 in Noronha, verbunden durch direkte Inlandsflüge oder eine Umsteigeverbindung in Recife. Create Travel plant private, maßgeschneiderte Rio + Bahia + Fernando de Noronha-Reisen für internationale Gäste, mit deutschsprachigen Reiseleitern, und sendet ein schriftliches Angebot per WhatsApp.",
     intro: [
       "Es gibt eine brasilianische Achse, die, in der richtigen Reihenfolge bereist, wie ein Crescendo funktioniert: Sie beginnt mit der urbanen Energie Rio de Janeiros, durchquert die historische und emotionale Dichte Bahias und endet in der fast unwirklichen Schwebe Fernando de Noronhas. Das ist keine Strandliste — es ist ein narrativer Bogen, bei dem jede Etappe die nächste vorbereitet.",
       "Dieser Guide entstand aus Dutzenden Reiserouten, die wir auf diesem gleichen Rückgrat gebaut haben, wobei wir Nächte, Reihenfolge und Verbindungen an das Profil jedes Reisenden angepasst haben. Hier ist, was wir darüber gelernt haben, wie man die drei Destinationen verbindet, ohne Tage an Flughäfen oder Schwung durch schlecht geplante Etappen zu verlieren.",
@@ -452,6 +452,7 @@ export const conjugadoRioBahiaNoronhaGuide: BrazilGuideLocalized = {
         { title: "Tag 5-6 — Salvador", text: "Zwei Nächte im historischen Zentrum, genug für Pelourinho, den Lacerda-Aufzug und ein authentisches bahianisches Abendessen. Landtransfer von etwa 3h30 oder 40-minütiger Inlandsflug nach Porto Seguro, gefolgt von 1h Autofahrt nach Trancoso." },
         { title: "Tag 7-10 — Trancoso", text: "Vier Nächte der Entschleunigung, Buggyfahrten entlang der Strände Südbahias, viel Zeit am Quadrado. Rückkehr nach Porto Seguro und Flug mit Umstieg in Recife nach Fernando de Noronha." },
         { title: "Tag 11-14 — Fernando de Noronha", text: "Vier Nächte Meer, Tauchen und Wandern unter Beachtung des täglichen Besucherlimits des Meeresnationalparks. Rückflug über Recife, mit Anschluss nach Rio, São Paulo oder internationalem Ziel." },
+        { title: "Kombinieren Sie zwei oder mehr brasilianische Biome", text: "Brasilien hat sechs Landbiome plus die Küsten- und Meereszone — sieben unterschiedliche Landschaften und Kulturen. Kombinieren Sie diese Reise durch Atlantischen Regenwald und Küstenlandschaften mit dem Pantanal für eine kontrastreiche Safari im Feuchtgebiet. Ihr Reisedesigner berücksichtigt Reisetage und saisonale Unterschiede." },
       ],
     },
     tips: {
@@ -466,6 +467,11 @@ export const conjugadoRioBahiaNoronhaGuide: BrazilGuideLocalized = {
       ],
     },
     faq: [
+      { q: "Benötige ich ein Visum oder Impfungen für Brasilien?", a: "Die Visumpflicht hängt von Ihrer Staatsangehörigkeit und Ihren Reisedaten ab. Prüfen Sie vor der Buchung die offiziellen brasilianischen Konsular- und Einreiseinformationen. Lassen Sie sich reisemedizinisch zu Standardimpfungen, Gelbfieber und möglichen Einreisevorgaben Ihrer Route beraten und prüfen Sie offizielle Gesundheitshinweise." },
+      { q: "Stehen deutschsprachige Reiseleiter bei jeder Exkursion zur Verfügung?", a: "Ja. Create Travel stellt bei jeder Exkursion deutschsprachige Reiseleiter bereit und plant Ihre private, maßgeschneiderte Reise nach Ihren Interessen und Ihrem bevorzugten Tempo." },
+      { q: "Wie erfolgt die Anreise für internationale Gäste nach Rio + Bahia + Fernando de Noronha?", a: "Reisen Sie international nach Rio de Janeiro oder über ein anderes brasilianisches Drehkreuz an. Inlandsflüge verbinden Salvador und Porto Seguro; nach Noronha geht es mit Umstieg in Recife. Private Landtransfers verbinden Flughäfen und Unterkünfte." },
+      { q: "Kann ich Rio + Bahia + Fernando de Noronha mit anderen brasilianischen Biomen kombinieren?", a: "Ja. Brasilien hat sechs Landbiome plus die Küsten- und Meereszone — sieben unterschiedliche Landschaften und Kulturen. Kombinieren Sie diese Reise durch Atlantischen Regenwald und Küstenlandschaften mit dem Pantanal für eine kontrastreiche Safari im Feuchtgebiet. Wir stimmen die Reihenfolge auf saisonale Bedingungen und realistische Transferzeiten ab." },
+
       { q: "Wie viele Nächte sind ideal für die Route Rio + Bahia + Noronha?", a: "Vierzehn Nächte sind das ideale Gleichgewicht: 4 in Rio, 6 in Bahia (2 in Salvador und 4 in Trancoso) und 4 in Noronha. Man kann auf 10 Nächte kürzen, indem man Salvador streicht." },
       { q: "Was ist die beste Reisezeit für diese Route?", a: "September bis März, mit dem Qualitätshöhepunkt zwischen September und November, wenn Noronha ruhigeres Meer hat und alle drei Städte mildes Klima bieten." },
       { q: "Wie fliegt man zwischen diesen drei Destinationen?", a: "Rio–Salvador ist ein Direktflug von etwa 2h. Von Salvador oder Porto Seguro nach Noronha ist ein Umstieg in Recife oder Natal nötig, den einzigen Flughäfen mit regelmäßigen Direktflügen zum Archipel." },
@@ -474,9 +480,9 @@ export const conjugadoRioBahiaNoronhaGuide: BrazilGuideLocalized = {
       { q: "Funktioniert diese Route für Familien?", a: "Ja, besonders mit Kindern ab 8 Jahren. Noronha erfordert bei jüngeren Kindern wegen Wanderwegen und Tauchgängen im offenen Meer besondere Aufmerksamkeit." },
     ],
     cta: {
-      heading: "Lassen Sie uns Ihre Rio + Bahia + Noronha-Route gestalten",
-      subheading: "Ein persönlicher Berater von Create Travel passt Nächte, Flüge und Adressen an Ihr Tempo an — ohne Zeitverlust durch schlecht geplante Verbindungen.",
-      button: "Mit einem Travel Designer sprechen",
+      heading: "Fordern Sie Ihr Rio + Bahia + Fernando de Noronha-Reiseangebot an",
+      subheading: "Planen Sie eine private, maßgeschneiderte Reise mit einem persönlichen Reisedesigner. Route, Unterkünfte und Tempo richten sich nach Ihnen. Sie erhalten Ihr schriftliches Angebot per WhatsApp.",
+      button: "Angebot per WhatsApp anfordern",
     },
     readingMinutes: 11,
     publishedAt: "2026-08-11",

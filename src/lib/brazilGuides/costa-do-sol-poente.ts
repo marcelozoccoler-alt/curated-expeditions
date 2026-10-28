@@ -482,11 +482,11 @@ export const costaDoSolPoenteGuide: BrazilGuideLocalized = {
   de: {
     destinationName: "Küste der untergehenden Sonne",
     blurb: "Jericoacoara, Preá, Guajiru, Icaraí de Amontada, Mundaú, Flecheiras und Lagoinha: die Westküste Cearás mit Wind, Dünen und dem meistgefeierten Sonnenuntergang Brasiliens.",
-    metaTitle: "Küste der untergehenden Sonne: Guide von Jericoacoara bis Lagoinha",
-    metaDescription: "Der vollständige Guide zur Küste der untergehenden Sonne in Ceará: beste Reisezeit für Kitesurfen, Jericoacoara, Preá, Icaraí de Amontada, Mundaú, Flecheiras, echte Unterkünfte und Routenvorschläge.",
-    keywords: "costa do sol poente, jericoacoara, prea brasilien, icarai de amontada, mundau, flecheiras, lagoinha ceara, guajiru, almofala, kitesurfen brasilien, sonnenuntergangsdüne",
-    h1: "Küste der untergehenden Sonne: Cearás Küstenstrich, wo der Wind die Landschaft formt",
-    aiAnswer: "Die Küste der untergehenden Sonne ist der Westküstenabschnitt Cearás zwischen Fortaleza und der Grenze zu Piauí mit Jericoacoara, Preá, Guajiru, Icaraí de Amontada, Mundaú, Flecheiras, Lagoinha und Almofala; die beste Kitesurf-Saison reicht von August bis Dezember, wenn die Passatwinde am beständigsten über Dünen und Lagunen wehen.",
+    metaTitle: "Küste der untergehenden Sonne, Brasilien: Reiseroute, beste Reisezeit & Angebot",
+    metaDescription: "Private, maßgeschneiderte Reise: Küste der untergehenden Sonne. Entdecken Sie eine vorgeschlagene Reiseroute, die beste Reisezeit und Hinweise zur Anreise. Fordern Sie ein Angebot per WhatsApp an.",
+    keywords: "costa do sol poente, jericoacoara, prea brasilien, icarai de amontada, mundau, flecheiras, lagoinha ceara, guajiru, almofala, kitesurfen brasilien, sonnenuntergangsdüne, küste der untergehenden sonne rundreise, küste der untergehenden sonne reiseroute, anreise küste der untergehenden sonne, beste reisezeit küste der untergehenden sonne",
+    h1: "Küste der untergehenden Sonne: Reiseroute, beste Reisezeit und Anreise",
+    aiAnswer: "Die Küste der untergehenden Sonne ist der Westküstenabschnitt Cearás zwischen Fortaleza und der Grenze zu Piauí mit Jericoacoara, Preá, Guajiru, Icaraí de Amontada, Mundaú, Flecheiras, Lagoinha und Almofala; die beste Kitesurf-Saison reicht von August bis Dezember, wenn die Passatwinde am beständigsten über Dünen und Lagunen wehen. Create Travel plant private, maßgeschneiderte Küste der untergehenden Sonne-Reisen für internationale Gäste, mit deutschsprachigen Reiseleitern, und sendet ein schriftliches Angebot per WhatsApp.",
     intro: [
       "Die Küste der untergehenden Sonne beginnt dort, wo Cearás Küste in ein Hinterland aus Dünen übergeht, und endet in Jericoacoara, einem Dorf, das zum Nationalpark wurde und dennoch seine Sandstraßen und das Autoverbot im Zentrum bewahrt hat. Dazwischen reiht sich eine Kette von Fischerdörfern aneinander — Preá, Guajiru, Icaraí de Amontada, Mundaú, Flecheiras, Lagoinha, Almofala —, die sich im letzten Jahrzehnt zur begehrtesten Kitesurf-Grenze der Welt entwickelt hat, ohne ihre Stille abseits des Wassers zu verlieren.",
       "Dieser Guide fasst zusammen, was wir auf dieser Küste gelernt haben: warum Jericoacoara trotz seiner Bekanntheit ein Pilgerziel bleibt, warum Preá und Guajiru zu den besten Windspots des Planeten zählen, und warum die Sonnenuntergangsdüne in Jeri jeden Abend eine stille Menschenmenge versammelt.",
@@ -533,12 +533,33 @@ export const costaDoSolPoenteGuide: BrazilGuideLocalized = {
       ],
     },
     itinerary: {
-      heading: "Wie man die Küste der untergehenden Sonne in eine Ceará-Reiseroute einbindet",
-      intro: "Die Region liegt je nach Streckenabschnitt und Zustand der Sandstraße 3 bis 6 Autostunden vom Flughafen Fortaleza entfernt.",
+      heading: "Vorgeschlagene Reiseroute: Küste der untergehenden Sonne — 4 Nächte / 5 Tage",
+      intro: "Ein privater, maßgeschneiderter Ausgangspunkt, angepasst an Ihr Tempo, Ihre Ankunftszeiten und die örtlichen Bedingungen. Ergänzen Sie Nächte für einen geruhsameren Aufenthalt.",
       items: [
-        { title: "Jericoacoara allein — 4 bis 6 Tage", text: "Ein einziger Standort in Jeri mit Tagesausflügen per Buggy oder 4x4 zu den umliegenden Lagunen und zur Pedra Furada." },
-        { title: "Jericoacoara + Preá oder Guajiru — 6 bis 8 Tage", text: "Verbindet Jeris Infrastruktur und dezentes Nachtleben mit ganzen Tagen, die dem Kitesurfen in Preá oder Guajiru gewidmet sind, etwa 20 Minuten entfernt." },
-        { title: "Die gesamte Westküste — 8 bis 10 Tage", text: "Eine Route durch Flecheiras, Lagoinha, Mundaú, Icaraí de Amontada und Jericoacoara, die die Vielfalt der Dörfer zwischen Fortaleza und der Grenze zu Piauí offenbart." },
+        {
+          title: "Tag 1 — Fortaleza nach Jericoacoara",
+          text: "Reisen Sie mit privatem Straßentransfer Richtung Jijoca und wechseln Sie für die Sandstrecke in ein geeignetes Fahrzeug.",
+        },
+        {
+          title: "Tag 2 — Lagunen und Dünen",
+          text: "Erkunden Sie die umliegenden Lagunen mit einem Reiseleiter im Geländewagen oder Buggy, abhängig von den örtlichen Bedingungen.",
+        },
+        {
+          title: "Tag 3 — Pedra Furada und Zeit im Dorf",
+          text: "Planen Sie einen geführten Besuch der Pedra Furada und einen entspannten Nachmittag im Dorf.",
+        },
+        {
+          title: "Tag 4 — Preá",
+          text: "Besuchen Sie Preá für Strandzeit oder eine Kitesurf-Einheit, angepasst an Ihre Erfahrung und die Windbedingungen.",
+        },
+        {
+          title: "Tag 5 — Abreise",
+          text: "Kehren Sie mit großzügiger Zeitreserve für die Fahrt und den Fluganschluss nach Fortaleza zurück.",
+        },
+        {
+          title: "Kombinieren Sie zwei oder mehr brasilianische Biome",
+          text: "Brasilien hat sechs Landbiome — Amazonas, Atlantischer Regenwald, Cerrado, Caatinga, Pantanal und Pampa — plus die Küsten- und Meereszone: sieben unterschiedliche Landschaften und Kulturen. Verbinden Sie Cearás Küsten- und Meereszone mit der Caatinga im Landesinneren. Wir stimmen Reisetempo und Verbindungen auf die saisonalen Bedingungen ab; Tierbeobachtungen sind nie garantiert.",
+        },
       ],
     },
     tips: {
@@ -559,8 +580,16 @@ export const costaDoSolPoenteGuide: BrazilGuideLocalized = {
       { q: "Fahren im Zentrum von Jericoacoara Autos?", a: "Nein; das Dorfzentrum hat Sandstraßen und eingeschränkten Fahrzeugverkehr, wodurch die Atmosphäre eines Fischerdorfs erhalten bleibt." },
       { q: "Was unterscheidet Preá, Guajiru und Jericoacoara beim Kitesurfen?", a: "Preá und Guajiru haben technischere, auf die Kite-Community ausgerichtete Spots, während Jericoacoara neben der Sonnenuntergangsdüne eine vollständigere touristische Infrastruktur bietet." },
       { q: "Wie viel kostet eine Reise an die Küste der untergehenden Sonne mit Create Travel?", a: "Wir arbeiten nicht mit Listenpreisen: Das Budget hängt vom Ziel, der Unterkunft und der Saison ab. Ein menschlicher Berater legt das Angebot schriftlich vor." },
+      { q: "Benötige ich ein Visum oder Impfungen für Brasilien?", a: "Die Visumpflicht hängt von Ihrer Staatsangehörigkeit ab und kann sich ändern. Prüfen Sie vor der Buchung offizielle brasilianische Konsular- und Einreiseinformationen. Lassen Sie sich frühzeitig reisemedizinisch zu Routineimpfungen, Gelbfieber und regionalen Vorsichtsmaßnahmen beraten und beachten Sie offizielle Gesundheitshinweise." },
+      { q: "Sind deutschsprachige Reiseleiter bei jeder Exkursion verfügbar?", a: "Ja. Create Travel stellt im Rahmen Ihrer privaten, maßgeschneiderten Reiseroute deutschsprachige Reiseleiter bei jeder Exkursion bereit." },
+      { q: "Wie erfolgt die Anreise aus dem Ausland?", a: "Fliegen Sie international zu einem brasilianischen Drehkreuz und weiter zum Flughafen Fortaleza. Anschließend reisen Sie auf der Straße nach Jijoca und mit dem Geländewagen über die letzte Sandstrecke nach Jericoacoara. Create Travel organisiert private Transfers zu Ihrer Unterkunft oder zum Einschiffungsort." },
+      { q: "Kann ich Küste der untergehenden Sonne mit anderen brasilianischen Biomen kombinieren?", a: "Ja. Brasilien hat sechs Landbiome plus die Küsten- und Meereszone — sieben unterschiedliche Landschaften und Kulturen. Verbinden Sie Cearás Küsten- und Meereszone mit der Caatinga im Landesinneren. Ihr Travel Designer prüft die saisonale Vereinbarkeit und plant realistische Reisetage zwischen den Regionen ein." },
     ],
-    cta: { heading: "Lassen Sie uns Ihre Küste der untergehenden Sonne gestalten", subheading: "Ein menschlicher Berater von Create Travel wählt zwischen Jericoacoara, Preá, Guajiru und Icaraí de Amontada die richtige Basis für Ihre Reiseroute.", button: "Mit einem Travel Designer sprechen" },
+    cta: {
+      heading: "Fordern Sie Ihr Küste der untergehenden Sonne-Reiseangebot an",
+      subheading: "Planen Sie Ihre private, maßgeschneiderte Reise mit einem persönlichen Travel Designer, abgestimmt auf Ihre Interessen, Ihr Tempo und Ihre bevorzugte Reisezeit. Sie erhalten Ihr schriftliches Angebot per WhatsApp.",
+      button: "Angebot per WhatsApp anfordern",
+    },
     readingMinutes: 9,
     publishedAt: "2026-08-11",
   },

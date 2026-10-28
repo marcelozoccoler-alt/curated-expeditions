@@ -722,14 +722,14 @@ export const chapadaDosVeadeirosGuide: BrazilGuideLocalized = {
   },
 
   de: {
-    metaTitle: "Chapada dos Veadeiros: Reiseführer zu Saison, Unterkünften und Routen",
+    metaTitle: "Chapada dos Veadeiros, Brasilien: Reiseroute, beste Reisezeit & Angebot",
     metaDescription:
-      "Der vollständige Guide zu Chapada dos Veadeiros: beste Reisezeit Monat für Monat, unverzichtbare Wasserfälle und Canyons, die besten Unterkünfte je Reiseprofil und wie sich dieses brasilianische Hochland in eine Brasilien-Route einfügt.",
+      "Private, maßgeschneiderte Reise: Chapada dos Veadeiros. Vorgeschlagene Reiseroute, beste Reisezeit und Anreise mit persönlicher Planung. Fordern Sie ein Angebot per WhatsApp an.",
     keywords:
-      "chapada dos veadeiros reisefuehrer, beste reisezeit chapada dos veadeiros, vale da lua brasilien, wasserfall santa barbara, canyon 1 und 2, alto paraiso goias, sao jorge brasilien, reiseroute chapada dos veadeiros, luxusunterkunft chapada",
-    h1: "Chapada dos Veadeiros: Guide zum ältesten Hochland des Planeten",
+      "chapada dos veadeiros reisefuehrer, beste reisezeit chapada dos veadeiros, vale da lua brasilien, wasserfall santa barbara, canyon 1 und 2, alto paraiso goias, sao jorge brasilien, reiseroute chapada dos veadeiros, luxusunterkunft chapada, chapada dos veadeiros rundreise, chapada dos veadeiros reiseroute, anreise chapada dos veadeiros, beste reisezeit chapada dos veadeiros",
+    h1: "Chapada dos Veadeiros: Reiseroute, beste Reisezeit und Anreise",
     aiAnswer:
-      "Die beste Reisezeit für Chapada dos Veadeiros ist Mai bis September (Trockenzeit, klarer Himmel und feste Wanderwege) sowie Januar bis März für Wasserfälle mit maximaler Wassermenge; als praktisches Minimum gelten 4 bis 5 Nächte, mit Anreise über Brasília und rund drei Stunden Fahrt bis São Jorge.",
+      "Die beste Reisezeit für Chapada dos Veadeiros ist Mai bis September (Trockenzeit, klarer Himmel und feste Wanderwege) sowie Januar bis März für Wasserfälle mit maximaler Wassermenge; als praktisches Minimum gelten 4 bis 5 Nächte, mit Anreise über Brasília und rund drei Stunden Fahrt bis São Jorge. Create Travel plant private, maßgeschneiderte Chapada dos Veadeiros-Reisen für internationale Gäste, mit deutschsprachigen Reiseleitern, und sendet ein schriftliches Angebot per WhatsApp.",
     intro: [
       "Chapada dos Veadeiros ist einer der wenigen Orte der Welt, an dem die geologische Formation älter ist als komplexes Leben auf der Erde selbst: über 1,8 Milliarden Jahre alte Felsen, nachts leuchtender Quarzit, ein Cerrado, der an die afrikanische Savanne erinnert, und Canyons, die wie aus Utah wirken. Seit 2001 ist es UNESCO-Weltnaturerbe, und das ist kein Zufall: Hier ist die Landschaft Geologie in Reinform.",
       "Dieser Guide entstand mit Menschen, die jeden Weg gegangen sind, in jeder relevanten Pousada geschlafen und jeden lizenzierten Parkführer getestet haben. Wir sagen, was funktioniert und was nicht — ohne Prospektversprechen: Ein Großteil der Attraktionen der Chapada verlangt moderate bis hohe körperliche Fitness, und genau diese Anforderung macht sie für Reisende unvergesslich, die schon zu viel Strand und Regenwald gesehen haben.",
@@ -839,26 +839,17 @@ export const chapadaDosVeadeirosGuide: BrazilGuideLocalized = {
       ],
     },
     itinerary: {
-      heading: "Wie sich Chapada dos Veadeiros in eine Brasilien-Route einfügt",
-      intro:
-        "Die Chapada liegt etwa 3 bis 4 Autostunden von Brasília entfernt, was sie zu einer natürlichen Ergänzung für Routen durch den brasilianischen Mittelwesten macht. Wir vermeiden es, sie in sehr kurze Reisen einzubauen — der Landtransfer erfordert Planung.",
+      heading: "Vorgeschlagene Reiseroute: Chapada dos Veadeiros und Brasilien-Kombinationen",
+      intro: "Ein privater, maßgeschneiderter Reisevorschlag, angepasst an Ihr Tempo, die saisonalen Bedingungen und Ihre Anschlusszeiten.",
       items: [
-        {
-          title: "Chapada dos Veadeiros + Brasília — 6 bis 7 Tage",
-          text: "Zwei Tage moderne Architektur in der Hauptstadt und vier bis fünf Nächte Wanderungen und Cerrado. Kompakte Route mit einfacher internationaler Fluglogistik.",
-        },
-        {
-          title: "Chapada dos Veadeiros + Pantanal — 10 bis 12 Tage",
-          text: "Cerrado und Überschwemmungsebene nacheinander, zwei einzigartige Biome Zentralbrasiliens. Verbindung über Brasília und Cuiabá oder Campo Grande, immer mit einer Pufferübernachtung zwischen den Etappen.",
-        },
-        {
-          title: "Chapada dos Veadeiros + Rio de Janeiro — 10 Tage",
-          text: "Der Kontrast zwischen stillem Cerrado und der Energie Rios. Format, das von Reisenden gewünscht wird, die intensive Natur und danach eine lebendige Stadt zum Reiseabschluss suchen.",
-        },
-        {
-          title: "Chapada dos Veadeiros + Lençóis Maranhenses — 12 Tage",
-          text: "Zwei seltene brasilianische Landschaften, beide außerhalb des konventionellen Strandkreislaufs. Erfordert gute Flugkoordination über Brasília und São Luís, belohnt aber mit zwei wirklich einzigartigen Zielen.",
-        },
+        { title: "Tag 1 — Von Brasília nach São Jorge", text: "Reisen Sie in Brasília an und fahren Sie mit einem privaten Straßentransfer in drei bis vier Stunden nach São Jorge. Beziehen Sie Ihre Unterkunft für fünf Nächte und genießen Sie einen entspannten ersten Abend." },
+        { title: "Tag 2 — Vale da Lua", text: "Erkunden Sie mit Ihrem Reiseleiter die Felsformationen und natürlichen Becken, sofern die Flussbedingungen sicher sind; der Nachmittag bleibt für São Jorge frei." },
+        { title: "Tag 3 — Wanderwege im Nationalpark", text: "Wählen Sie mit Ihrem Reiseleiter je nach Fitness, Wetter und Zugänglichkeit die Canyons oder den Saltos-Weg. Dies bleibt Ihre einzige lange Wanderung an diesem Tag." },
+        { title: "Tag 4 — Wasserfälle", text: "Widmen Sie den Tag Santa Bárbara oder Carrossel; Zugang und Wanderplanung werden vorab bestätigt." },
+        { title: "Tag 5 — Ein ruhiger Cerrado-Tag", text: "Genießen Sie lokale Küche und Zeit für Wellness in São Jorge sowie bei klarem Himmel die Sterne." },
+        { title: "Tag 6 — Rückkehr nach Brasília", text: "Fahren Sie mit einem privaten Straßentransfer nach Brasília zurück und planen Sie einen großzügigen Zeitpuffer vor dem Weiterflug ein." },
+
+        { title: "Kombinieren Sie zwei oder mehr brasilianische Biome", text: "Brasilien hat sechs Landbiome plus die Küsten- und Meereszone — sieben unterschiedliche Landschaften und Kulturen. Kombinieren Sie die Chapada dos Veadeiros im Cerrado mit dem Pantanal: felsiges Hochland trifft auf saisonale Feuchtgebiete. Ihr Travel Designer berücksichtigt Reisetage und saisonale Unterschiede." },
       ],
     },
     tips: {
@@ -890,19 +881,18 @@ export const chapadaDosVeadeirosGuide: BrazilGuideLocalized = {
         a: "Die meisten Attraktionen umfassen ein- bis sechsstündige Wanderungen mit felsigen Abschnitten und Anstiegen. Wir empfehlen moderate Fitness; bei längeren Wegen wie dem Saltos-Weg macht gute körperliche Verfassung einen echten Unterschied.",
       },
       {
-        q: "Wie kommt man nach Chapada dos Veadeiros?",
-        a: "Der Referenzflughafen ist Brasília, etwa drei bis vier Autostunden von Alto Paraíso de Goiás und São Jorge entfernt. Es gibt keinen nahegelegenen Regionalflughafen mit relevanten Linienflügen, daher gehört der Landtransfer zur Route.",
-      },
-      {
         q: "Was kostet eine Reise nach Chapada dos Veadeiros mit Create Travel?",
         a: "Wir arbeiten nicht mit Standardpreisen: Das Budget hängt von der Pousada, der Anzahl der Nächte, den gebuchten Führern und der Jahreszeit ab. Ein menschlicher Berater erstellt das Angebot und legt die Werte schriftlich vor, ohne Schätzungen auf der Website.",
       },
+      { q: "Wie erfolgt die Anreise für Chapada dos Veadeiros?", a: "Beginnen Sie mit einem internationalen Flug zu einem brasilianischen Drehkreuz und bei Bedarf einem Inlandsanschluss zum passenden regionalen Flughafen. Reisen Sie zum Flughafen Brasília und mit einem privaten Straßentransfer in drei bis vier Stunden nach São Jorge weiter. Create Travel organisiert private Transfers; bestätigen Sie aktuelle Flugpläne vor der Buchung." },
+      { q: "Benötige ich für Brasilien ein Visum oder Impfungen?", a: "Die Visumpflicht hängt von Ihrem Reisepass und Ihren Reisedaten ab. Prüfen Sie vor der Buchung die offiziellen brasilianischen Konsularinformationen. Lassen Sie sich reisemedizinisch zu Standard- und reisezielspezifischen Impfungen, einschließlich Gelbfieber, beraten und beachten Sie die offiziellen Gesundheitsempfehlungen für Ihre Reiseroute." },
+      { q: "Sind deutschsprachige Reiseleiter bei jeder Exkursion verfügbar?", a: "Ja. Create Travel stellt bei jeder Exkursion deutschsprachige Reiseleiter bereit; die Aktivitäten werden Ihren Interessen und Ihrem Tempo angepasst." },
+      { q: "Kann ich Chapada dos Veadeiros mit anderen brasilianischen Biomen kombinieren?", a: "Ja. Brasilien hat sechs Landbiome plus die Küsten- und Meereszone — sieben unterschiedliche Landschaften und Kulturen. Kombinieren Sie die Chapada dos Veadeiros im Cerrado mit dem Pantanal: felsiges Hochland trifft auf saisonale Feuchtgebiete. Ihr Travel Designer berücksichtigt Reisetage und saisonale Unterschiede. Ihr Travel Designer plant Zeit für Transfers ein und prüft die saisonale Vereinbarkeit." },
     ],
     cta: {
-      heading: "Lassen Sie uns Ihre Chapada dos Veadeiros gestalten",
-      subheading:
-        "Ein menschlicher Berater von Create Travel wählt die passende Pousada, die Führer und die richtige Jahreszeit für Ihr Profil — und kümmert sich um jede Etappe der Reise.",
-      button: "Mit einem Travel Designer sprechen",
+      heading: "Fordern Sie Ihr Chapada dos Veadeiros-Reiseangebot an",
+      subheading: "Planen Sie Ihre private, maßgeschneiderte Reise mit einem persönlichen Travel Designer — abgestimmt auf Ihre Interessen, Ihr Tempo und Ihre Wunschtermine.",
+      button: "Angebot per WhatsApp anfordern",
     },
     readingMinutes: 11,
     publishedAt: "2026-08-11",

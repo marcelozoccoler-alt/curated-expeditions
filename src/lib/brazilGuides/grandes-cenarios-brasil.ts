@@ -901,14 +901,14 @@ export const grandesCenariosBrasilGuide: BrazilGuideLocalized = {
     destinationName: "Große Landschaften Brasiliens",
     blurb:
       "Ein redaktionelles Spezial über die zehn meistfotografierten Landschaften des Landes — und die genaue Tageszeit, zu der sich jede offenbart.",
-    metaTitle: "Große Landschaften Brasiliens: Licht- und Saisonführer",
+    metaTitle: "Große Landschaften Brasiliens: Reiseroute, beste Reisezeit & Angebot",
     metaDescription:
-      "Lençóis Maranhenses, Iguaçu, Roraima, Jalapão, Vale do Pati, Zusammenfluss der Wasser, Jericoacoara, Aparados-da-Serra-Canyons, Noronha und der überflutete Pantanal: wann hinfahren und zu welcher Stunde jede Landschaft am schönsten ist.",
+      "Planen Sie eine private, maßgeschneiderte Reise: Große Landschaften Brasiliens, vorgeschlagene Reiseroute, beste Reisezeit und Anreise. Fordern Sie ein Angebot per WhatsApp an.",
     keywords:
-      "grosse landschaften brasilien, lencois maranhenses, iguacu wasserfaelle brasilien, monte roraima, jalapao, vale do pati chapada diamantina, zusammenfluss der wasser manaus, duenen von jericoacoara, aparados da serra canyons, fernando de noronha, ueberfluteter pantanal, beste reisezeit brasilien",
-    h1: "Brasiliens große Landschaften: welches Licht, welche Stunde, welche Saison",
+      "grosse landschaften brasilien, lencois maranhenses, iguacu wasserfaelle brasilien, monte roraima, jalapao, vale do pati chapada diamantina, zusammenfluss der wasser manaus, duenen von jericoacoara, aparados da serra canyons, fernando de noronha, ueberfluteter pantanal, beste reisezeit brasilien, große landschaften brasiliens rundreise, große landschaften brasiliens reiseroute, anreise große landschaften brasiliens, beste reisezeit große landschaften brasiliens",
+    h1: "Große Landschaften Brasiliens: Reiseroute, beste Reisezeit und Anreise",
     aiAnswer:
-      "Brasiliens spektakulärste Naturlandschaften haben jeweils eigene Zeitfenster: Lençóis Maranhenses und Jalapão auf dem Höhepunkt der Lagunen (Juni-September), die Iguaçu-Wasserfälle mit höchstem Durchfluss (April-August), der Roraima in der Trockenzeit (Dezember-März), das Vale do Pati in der Trockenzeit der Chapada (April-September), die Dünen von Jericoacoara ganzjährig zum Sonnenuntergang, und der Pantanal überflutet zwischen Januar und März für Landschaft oder trocken zwischen Juli und Oktober für Tierbeobachtung.",
+      "Brasiliens spektakulärste Naturlandschaften haben jeweils eigene Zeitfenster: Lençóis Maranhenses und Jalapão auf dem Höhepunkt der Lagunen (Juni-September), die Iguaçu-Wasserfälle mit höchstem Durchfluss (April-August), der Roraima in der Trockenzeit (Dezember-März), das Vale do Pati in der Trockenzeit der Chapada (April-September), die Dünen von Jericoacoara ganzjährig zum Sonnenuntergang, und der Pantanal überflutet zwischen Januar und März für Landschaft oder trocken zwischen Juli und Oktober für Tierbeobachtung. Create Travel plant private, maßgeschneiderte Große Landschaften Brasiliens-Reisen für internationale Gäste, mit deutschsprachigen Reiseleitern, und sendet ein schriftliches Angebot per WhatsApp.",
     intro: [
       "Es gibt ein Brasilien, das in jede klassische Reiseroute passt — Strand, Stadt, Fußball — und es gibt ein anderes Brasilien, das der großen Naturlandschaften, das feine Planung verlangt: den richtigen Monat, die richtige Stunde, die richtige Logistik. Dieses Spezial versammelt zehn dieser Landschaften, von einer Dünen- und Lagunenwüste in Maranhão bis zum Gipfel eines Berges an der Grenze zu Venezuela, und erklärt nicht nur, wann man hinfahren sollte, sondern zu welcher Stunde jede Landschaft ihr Versprechen einlöst.",
       "Dies ist keine generische Liste 'unglaublicher Orte'. Es ist der Maßstab, den wir verwenden, um Landschaft für Landschaft zu entscheiden, ob es sich lohnt, die Achse einer Reise zu verlegen, um sie zu sehen — und wie man jede einzelne einbaut, ohne Brasilien in einen Flughafenmarathon zu verwandeln.",
@@ -1038,26 +1038,14 @@ export const grandesCenariosBrasilGuide: BrazilGuideLocalized = {
       ],
     },
     itinerary: {
-      heading: "Wie man die Landschaften ohne Flughafenmarathon verbindet",
-      intro:
-        "Keine dieser Landschaften liegt in der Nähe der anderen — die Logik ist, zwei oder drei pro Reise zu wählen, mit mindestens zwei bis drei Nächten je Ort, und die inländischen Flugstrecken als Teil der Erfahrung zu akzeptieren.",
+      heading: "Vorgeschlagene Reiseroute: Große Landschaften Brasiliens und Brasilien-Kombinationen",
+      intro: "Eine private, maßgeschneiderte Reise, abgestimmt auf Ihre Reisedaten, Ihr Tempo und die örtlichen Bedingungen. Planen Sie Puffernächte bei Flugverbindungen ein.",
       items: [
-        {
-          title: "Tag 1-4 — Lençóis Maranhenses",
-          text: "Flug nach São Luís, dann 4 Stunden Fahrt oder Transfer nach Barreirinhas oder Atins. Drei volle Nächte für Lagunen, Dünen und eine Jangada-Bootsfahrt auf dem Rio Preguiças.",
-        },
-        {
-          title: "Tag 5-7 — Jalapão",
-          text: "Flug São Luís–Palmas (mit Umsteigen in Brasília oder São Paulo, je nach saisonalem Flugplan) und 4-6 Stunden auf Schotterstraße bis zur Dünenregion. Drei Tage 4x4-Fahrt zwischen Quellen und Wasserfällen.",
-        },
-        {
-          title: "Tag 8-11 — Chapada Diamantina, Vale do Pati",
-          text: "Flug nach Salvador oder Lençóis (BA) und Transfer nach Vale do Capão. Dreitägige, zweinächtige Durchquerung in Gemeinschafts-Pousadas im Tal, mit Pflichtguide.",
-        },
-        {
-          title: "Tag 12-14 — Fernando de Noronha, letzte Entspannung",
-          text: "Flug über Recife oder Natal nach Noronha. Drei Nächte Strand und Tauchen schließen die Reise in langsamerem Tempo nach intensiven Trekkingtagen ab.",
-        },
+        { title: "Tag 1–4 — Lençóis Maranhenses", text: "Fliegen Sie nach São Luís und fahren Sie anschließend etwa vier Stunden nach Barreirinhas oder Atins. Drei volle Nächte für Lagunen, Dünen und eine Jangada-Bootsfahrt auf dem Rio Preguiças." },
+        { title: "Tag 5–7 — Jalapão", text: "Fliegen Sie von São Luís nach Palmas, je nach saisonalen Verbindungen über Brasília oder São Paulo. Danach folgen vier bis sechs Stunden auf unbefestigten Straßen zur Dünenregion und drei Tage im Geländewagen zwischen Quellen und Wasserfällen." },
+        { title: "Tag 8–11 — Chapada Diamantina, Vale do Pati", text: "Fliegen Sie nach Salvador oder Lençóis (BA) und fahren Sie ins Vale do Capão. Eine dreitägige Durchquerung mit zwei Nächten in gemeinschaftsgeführten Unterkünften im Tal; ein Reiseleiter ist vorgeschrieben." },
+        { title: "Tag 12–14 — Fernando de Noronha zum Ausklang", text: "Fliegen Sie über Recife oder Natal nach Noronha. Drei Nächte mit Strand und Tauchen beschließen die Reise nach intensiven Wandertagen in ruhigerem Tempo." },
+        { title: "Kombinieren Sie zwei oder mehr brasilianische Biome", text: "Brasilien hat sechs Landbiome plus die Küsten- und Meereszone — sieben unterschiedliche Landschaften und Kulturen. Verbinden Sie den Cerrado von Jalapão mit dem Zusammenfluss der Wasser im Amazonasgebiet und planen Sie Reisetage zwischen den Regionen ein. Wir stimmen die Reihenfolge auf die saisonalen Bedingungen ab und berücksichtigen Transferzeiten." },
       ],
     },
     tips: {
@@ -1096,12 +1084,15 @@ export const grandesCenariosBrasilGuide: BrazilGuideLocalized = {
         q: "Was kostet die Organisation einer Reise, die diese Landschaften kombiniert?",
         a: "Wir arbeiten nicht mit Listenpreisen: Das Budget hängt von den gewählten Landschaften, der Saison und dem Flugnetz ab. Ein menschlicher Berater von Create Travel erstellt das Angebot schriftlich.",
       },
+      { q: "Wie erfolgt die Anreise aus dem Ausland?", a: "Fliegen Sie international zu einem brasilianischen Drehkreuz und anschließend zum Flughafen Ihrer gewählten Landschaft: São Luís für Lençóis Maranhenses oder Palmas für Jalapão. Create Travel organisiert private Weitertransfers und prüft die Verbindungen vor der Buchung." },
+      { q: "Benötige ich ein Visum oder Impfungen für Brasilien?", a: "Visabestimmungen hängen von Ihrer Staatsangehörigkeit und den Reisedaten ab. Prüfen Sie vor der Buchung offizielle brasilianische Konsularinformationen. Lassen Sie sich reisemedizinisch zu Standardimpfungen, Gelbfieberempfehlungen und Einreise- oder Transitvorgaben beraten und beachten Sie offizielle Gesundheitshinweise für Ihre Reiseroute." },
+      { q: "Sind bei jeder Exkursion deutschsprachige Reiseleiter verfügbar?", a: "Ja. Create Travel stellt bei jeder Exkursion Ihrer privaten, maßgeschneiderten Reise deutschsprachige Reiseleiter bereit. Tempo und Erläuterungen richten sich nach Ihren Interessen." },
+      { q: "Kann ich Große Landschaften Brasiliens mit anderen brasilianischen Biomen kombinieren?", a: "Brasilien hat sechs Landbiome plus die Küsten- und Meereszone — sieben unterschiedliche Landschaften und Kulturen. Verbinden Sie den Cerrado von Jalapão mit dem Zusammenfluss der Wasser im Amazonasgebiet und planen Sie Reisetage zwischen den Regionen ein. Ihr Reiseplaner prüft saisonale Vereinbarkeit und Transferzeiten." },
     ],
     cta: {
-      heading: "Lassen Sie uns Ihre Route der großen Landschaften gestalten",
-      subheading:
-        "Ein menschlicher Berater von Create Travel wählt gemeinsam mit Ihnen aus, welche Landschaften Sie kombinieren, in welcher Saison und mit welcher Flug logistik.",
-      button: "Mit einem Travel Designer sprechen",
+      heading: "Fordern Sie Ihr Große Landschaften Brasiliens-Reiseangebot an",
+      subheading: "Planen Sie Ihre private, maßgeschneiderte Reise mit einem persönlichen Create Travel-Reisedesigner, der Ihre Interessen, Ihr Tempo und Ihren gewünschten Komfort berücksichtigt. Sie erhalten Ihr schriftliches Angebot per WhatsApp.",
+      button: "Angebot per WhatsApp anfordern",
     },
     readingMinutes: 14,
     publishedAt: "2026-08-11",

@@ -661,14 +661,14 @@ export const pantanalGuide: BrazilGuideLocalized = {
   },
 
   de: {
-    metaTitle: "Pantanal Brasilien: Jaguare, Safari & beste Reisezeit",
+    metaTitle: "Pantanal, Brasilien: Reiseroute, beste Reisezeit & Angebot",
     metaDescription:
-      "Der kuratierte Guide zum brasilianischen Pantanal: Trockenzeit Monat für Monat, die Transpantaneira und Porto Jofre, die besten Lodges nach Reiseprofil und wie sich die Safari in eine Brasilienreise einfügt.",
+      "Private, maßgeschneiderte Pantanal-Reise: vorgeschlagene Reiseroute, beste Reisezeit und Anreise. Fordern Sie ein Angebot per WhatsApp an.",
     keywords:
-      "pantanal brasilien reise, beste reisezeit pantanal, jaguar porto jofre, transpantaneira, fotosafari pantanal, estrada parque, pantanal luxus, pantanal reiseroute brasilien",
-    h1: "Pantanal: der Autoren-Guide von Leuten, die die Jaguare nicht mehr zählen",
+      "pantanal brasilien reise, beste reisezeit pantanal, jaguar porto jofre, transpantaneira, fotosafari pantanal, estrada parque, pantanal luxus, pantanal reiseroute brasilien, pantanal rundreise, pantanal reiseroute, anreise pantanal, beste reisezeit pantanal",
+    h1: "Pantanal: Reiseroute, beste Reisezeit und Anreise",
     aiAnswer:
-      "Die beste Zeit für eine Pantanal-Safari ist die Trockenzeit von Juni bis Oktober (konzentrierte Tierwelt an schrumpfenden Gewässern, trockene Straßen und nahezu garantierte Jaguar-Sichtungen bei Porto Jofre); praktisches Minimum sind 4–5 Nächte, Einreise über Cuiabá (CGB) oder Campo Grande (CGR).",
+      "Die beste Zeit für eine Pantanal-Safari ist die Trockenzeit von Juni bis Oktober (konzentrierte Tierwelt an schrumpfenden Gewässern, trockene Straßen und gute Chancen auf Jaguar-Sichtungen bei Porto Jofre ohne Garantie); praktisches Minimum sind 4–5 Nächte, Einreise über Cuiabá (CGB) oder Campo Grande (CGR). Create Travel plant private, maßgeschneiderte Pantanal-Reisen für internationale Gäste, mit deutschsprachigen Reiseleitern, und sendet ein schriftliches Angebot per WhatsApp.",
     intro: [
       "Das Pantanal ist die größte Feuchtsavanne der Erde — 150.000 km² zwischen Mato Grosso und Mato Grosso do Sul — und anders als der Ruf des 'dichten Dschungels' Amazoniens vermuten lässt, zeigt sich die Tierwelt hier bei Tageslicht, in offenem Gelände, oft nur wenige Meter vom Boot oder Fahrzeug entfernt. Es ist der beste Ort der Welt, um einen wilden Jaguar zu sehen — keine Übertreibung eines Reiseveranstalters, sondern Sichtungsstatistik.",
       "Dieser Guide entstand aus ganzen Saisons auf der Transpantaneira und dem Rio Cuiabá, nicht am Schreibtisch: welcher Monat was bringt, welche Safari-Lodge die Reise wert ist, welcher Abschnitt zu Mato Grosso und welcher zu Mato Grosso do Sul gehört, und wie sich dieses Biom in eine größere Brasilienroute einfügt, ohne Amazonien zu wiederholen.",
@@ -719,14 +719,19 @@ export const pantanalGuide: BrazilGuideLocalized = {
       ],
     },
     itinerary: {
-      heading: "Wie das Pantanal in eine Brasilienreise integriert wird",
+      heading: "Vorgeschlagene Pantanal-Reiseroute und Kombinationen in Brasilien",
       intro: "Die Safari verlangt Konzentration: Wir empfehlen nicht mehr als zwei Lodgewechsel pro Reise und immer eine Pufferacht in Cuiabá oder Campo Grande vor jeder internationalen Anschlussverbindung.",
       items: [
+        { title: "Tag 1 — Von Cuiabá zur Transpantaneira", text: "Ankunft in Cuiabá (CGB), privater Transfer nach Poconé und zum Beginn der Transpantaneira. Nachmittags erste Tierbeobachtungsfahrt und Übernachtung in einer Fazenda-Lodge." },
+        { title: "Tag 2 — Entlang der Transpantaneira", text: "Spaziergang oder Ausritt im Morgengrauen, danach gemächliche Fahrt nach Süden mit Stopps zur Beobachtung von Vögeln, Kaimanen und Capybaras. Nächtlicher Boots- oder Scheinwerferausflug, sofern von der Lodge angeboten." },
+        { title: "Tage 3 bis 5 — Bootssafaris bei Porto Jofre", text: "Drei volle Tage mit Bootsausflügen am Vor- und Nachmittag auf dem Cuiabá-Fluss und seinen Seitenarmen, dem Hauptgebiet für Jaguarbeobachtungen in der Trockenzeit. Auch Riesenotter werden häufig gesichtet; Sichtungen sind nicht garantiert." },
+        { title: "Tag 6 — Zurück nach Cuiabá", text: "Rückfahrt nach Norden über die Transpantaneira zum nächsten Flug oder Weiterreise nach Chapada dos Guimarães, Bonito, Amazonien oder Rio." },
         { title: "Pantanal + Bonito — 8 bis 10 Tage", text: "Die Wildlife-Safari gefolgt von den kristallklaren Flüssen und Schnorcheltouren in Bonito, wenige Autostunden von Campo Grande entfernt. Eine klassische Kombination aus Tierwelt und Wasserlandschaft." },
         { title: "Pantanal + Amazonien — 12 bis 14 Tage", text: "Brasiliens zwei große Wildtierheiligtümer. Wer Jaguare mit hoher Wahrscheinlichkeit sucht, beginnt im Pantanal; Amazonien liefert anschließend das dichte Dschungel-Erlebnis." },
         { title: "Pantanal + Chapada dos Guimarães — 7 bis 9 Tage", text: "Eine Stunde von Cuiabá entfernt ergänzen Wasserfälle und Cerrado-Aussichtspunkte die Safari mit Höhenlandschaft und kürzeren Wanderungen." },
         { title: "Pantanal + Rio de Janeiro — 10 bis 12 Tage", text: "Fünf Safari-Nächte und der Rest in der Stadt, mit einer Pufferacht in Cuiabá. Kontrast zwischen intensiver Natur und brasilianischem Stadtleben." },
         { title: "Pantanal + Iguazú-Wasserfälle — 9 bis 11 Tage", text: "Erst Tierwelt, dann Wasserfälle, mit Anschluss über Campo Grande oder São Paulo. Effiziente Route für begrenzte Zeit." },
+        { title: "Kombinieren Sie zwei oder mehr brasilianische Biome", text: "Brasilien hat sechs Landbiome plus die Küsten- und Meereszone — sieben unterschiedliche Landschaften und Kulturen. Kombinieren Sie die Feuchtgebiete des Pantanal mit dem Amazonas-Regenwald und der Atlantischen Waldküste in Rio." },
       ],
     },
     tips: {
@@ -745,13 +750,16 @@ export const pantanalGuide: BrazilGuideLocalized = {
       { q: "Wann ist die beste Zeit, um Jaguare zu sehen?", a: "Juni bis Oktober, während der Trockenzeit, wenn sich die Tierwelt um die verbleibenden Flüsse und Lagunen konzentriert. September und Oktober haben die historisch höchste Sichtungsrate, auf Kosten intensiverer Hitze." },
       { q: "Ist eine Jaguar-Sichtung garantiert?", a: "Es gibt keine absolute Garantie bei Wildtieren, aber bei Porto Jofre in der Trockenzeit ist die Sichtungsrate über mehrere Tage sehr hoch — die meisten unserer Reisenden sehen innerhalb von drei Ausflugstagen mindestens einen Jaguar." },
       { q: "Pantanal oder Amazonien?", a: "Pantanal für Wildtierbeobachtung in offenem Gelände mit sehr hoher Jaguar-Wahrscheinlichkeit. Amazonien für Eintauchen in dichten Dschungel und Flusskultur. Mit zwölf Tagen beides." },
-      { q: "Wie kommt man ins Pantanal?", a: "Einreisepunkte sind Cuiabá (CGB) für das nördliche Pantanal und die Transpantaneira, sowie Campo Grande (CGR) für das südliche Pantanal und die Estrada Parque. Von beiden Flughäfen dauert die Fahrt zu den Lodges zwei bis fünf Stunden." },
       { q: "Was kostet eine Pantanal-Reise?", a: "Wir veröffentlichen keine Standardpreise: Das Budget hängt von Lodge, Nächten, Saison und Flugverbindungen ab. Ein persönlicher Berater sendet die Werte schriftlich." },
+      { q: "Wie erfolgt die Anreise für meine Pantanal-Reise?", a: "Fliegen Sie international nach São Paulo (GRU) oder zu einem anderen brasilianischen Drehkreuz, dann nach Cuiabá (CGB) für das nördliche oder Campo Grande (CGR) für das südliche Pantanal. Private Straßentransfers zu den Lodges dauern meist einige Stunden, gegebenenfalls ergänzt um einen Bootstransfer." },
+      { q: "Benötige ich ein Visum oder Impfungen für Brasilien?", a: "Die Visumpflicht hängt von Ihrer Staatsangehörigkeit und Ihren Reisedaten ab. Prüfen Sie vor der Buchung die offiziellen brasilianischen Konsularinformationen. Informieren Sie sich anhand offizieller Gesundheitsempfehlungen und lassen Sie sich reisemedizinisch zu Impfungen beraten, einschließlich Gelbfieber, sofern für Ihre Route relevant." },
+      { q: "Sind deutschsprachige Reiseleiter bei jeder Exkursion verfügbar?", a: "Create Travel plant deutschsprachige Reiseleiter bei jeder Exkursion als Teil Ihrer privaten, maßgeschneiderten Reise." },
+      { q: "Kann ich Pantanal mit anderen brasilianischen Biomen kombinieren?", a: "Brasilien hat sechs Landbiome plus die Küsten- und Meereszone — sieben unterschiedliche Landschaften und Kulturen. Kombinieren Sie die Feuchtgebiete des Pantanal mit dem Amazonas-Regenwald und der Atlantischen Waldküste in Rio." },
     ],
     cta: {
-      heading: "Lassen Sie uns Ihre Pantanal-Safari gestalten",
-      subheading: "Ein Create-Travel-Berater wählt die richtige Basis, Saison und Reihenfolge für Ihr Profil — und kümmert sich um jede Verbindung.",
-      button: "Mit einem Travel Designer sprechen",
+      heading: "Fordern Sie Ihr Pantanal-Reiseangebot an",
+      subheading: "Planen Sie Ihre private, maßgeschneiderte Reise mit einem persönlichen Reisedesigner, der Ihre Reiseroute auf Ihre Termine, Interessen und Ihr Tempo abstimmt und Ihnen ein schriftliches Angebot per WhatsApp sendet.",
+      button: "Angebot per WhatsApp anfordern",
     },
     readingMinutes: 13,
     publishedAt: "2026-08-11",
