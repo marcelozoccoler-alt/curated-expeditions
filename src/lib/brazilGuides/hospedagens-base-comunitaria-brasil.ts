@@ -237,14 +237,14 @@ export const hospedagensBaseComunitariaBrasilGuide: BrazilGuideLocalized = {
     destinationName: "Community-Based Stays in Brazil",
     blurb:
       "Lodges and guesthouses run by riverine, quilombola, Indigenous and caiçara communities — Brazil hosted by those who have always lived it.",
-    metaTitle: "Community-Based Tourism in Brazil: A Curated Guide",
+    metaTitle: "Brazil Community Stays: Itinerary, Best Time & Trip Quote",
     metaDescription:
-      "A complete guide to community-based tourism in Brazil: what it is, how income sharing works, real comfort levels, etiquette, best seasons by region, and how to blend community nights with boutique stays.",
+      "Plan a private, tailor-made Brazil community stays trip: itinerary, best time and how to get there. Request a quote on WhatsApp.",
     keywords:
-      "community based tourism brazil, uakari lodge mamiraua, quilombo do campinho paraty, prainha do canto verde, vale do pati stays, indigenous village stays brazil, purposeful travel brazil",
-    h1: "Community-based stays: Brazil hosted by those who have always cared for it",
+      "community based tourism brazil, uakari lodge mamiraua, quilombo do campinho paraty, prainha do canto verde, vale do pati stays, indigenous village stays brazil, purposeful travel brazil, brazil community stays tour, brazil community stays itinerary, how to get to brazil community stays, best time brazil community stays",
+    h1: "Community-based stays in Brazil: itinerary, best time and how to get there",
     aiAnswer:
-      "Community-based tourism (TBC) in Brazil means lodging and guiding operated directly by riverine, quilombola, Indigenous and caiçara communities, with most of the income staying within the community; comfort is rustic-elegant (bucket or solar showers, shared meals, limited electricity), and the ideal format for a 40+ traveler is to combine 2–3 community nights with boutique stays in the same itinerary.",
+      "Community-based tourism (TBC) in Brazil means lodging and guiding operated directly by riverine, quilombola, Indigenous and caiçara communities, with most of the income staying within the community; comfort is rustic-elegant (bucket or solar showers, shared meals, limited electricity), and the ideal format for a 40+ traveler is to combine 2–3 community nights with boutique stays in the same itinerary. Create Travel designs private, tailor-made community-based stays in Brazil trips for international travellers, with English-speaking guides, and sends a written quote via WhatsApp.",
     intro: [
       "There is a kind of luxury that isn't measured in amenities: it's measured in who opens the door for you. In community-based tourism, your host isn't a hotel chain — it's a riverine family, a quilombo, an Indigenous village, a caiçara fishing community that has collectively decided to turn its own territory into an experience, without ever giving up ownership of it.",
       "That changes everything: the conversation at the table, what you learn about Brazil, and where the money from your trip actually goes. This guide exists because more and more of our travelers — people who have done safaris, slept in ryokans, stayed on private islands — arrive asking for something no resort can deliver: a real night inside a community that welcomes them as guests, not customers.",
@@ -415,6 +415,10 @@ export const hospedagensBaseComunitariaBrasilGuide: BrazilGuideLocalized = {
           title: "Northeast: Fortaleza or Jericoacoara (boutique) + Prainha do Canto Verde (community) — 6 to 7 days",
           text: "Classic Ceará sea plus a fishing village that became a national symbol of community-based tourism — great for those seeking beach with meaning.",
         },
+        {
+          title: "Combine two or more Brazilian biomes",
+          text: "Brazil has six land biomes plus the coastal and marine zone — seven distinct landscapes and cultures. Combine Kalunga community time in the Cerrado with a caiçara stay on the Atlantic Forest coast. We tailor the sequence to seasonal conditions and allow time for transfers.",
+        },
       ],
     },
     tips: {
@@ -453,12 +457,28 @@ export const hospedagensBaseComunitariaBrasilGuide: BrazilGuideLocalized = {
         q: "Can I combine a community experience with a broader luxury trip?",
         a: "That's exactly the format we recommend most: two to three community nights added to boutique stays before and after, within the same Brazil itinerary.",
       },
+      {
+        q: "How do I get there from abroad?",
+        a: "Take an international flight to a Brazilian hub, then a domestic flight to the airport serving the chosen community region. Manaus is an arrival point for Amazon planning. Create Travel arranges private onward transfers, including road or boat access as required, with community permissions confirmed in advance.",
+      },
+      {
+        q: "Do I need a visa or vaccines to visit Brazil?",
+        a: "Visa requirements depend on your nationality and travel dates; check official Brazilian consular sources before booking. Ask a qualified travel-health professional about routine vaccines, yellow fever recommendations and any entry or transit requirements, and consult official health guidance for your itinerary.",
+      },
+      {
+        q: "Are English-speaking guides available?",
+        a: "Yes. Create Travel provides English-speaking guides on every excursion in your private, tailor-made itinerary. We plan the pace and interpretation around your interests.",
+      },
+      {
+        q: "Can I combine community-based stays in Brazil with other Brazilian biomes?",
+        a: "Yes. Brazil has six land biomes plus the coastal and marine zone — seven distinct landscapes and cultures. One suggestion is Kalunga community time in the Cerrado with a caiçara stay on the Atlantic Forest coast. Your travel designer checks seasonal compatibility and transfer time.",
+      },
     ],
     cta: {
-      heading: "Let's design your community experience",
+      heading: "Request your community-based stays in Brazil trip quote",
       subheading:
-        "A human Create Travel consultant confirms availability, access and current conditions for each community — and builds the right hybrid itinerary for your profile.",
-      button: "Talk to a travel designer",
+        "Plan a private, tailor-made journey with a human Create Travel travel designer, matching your interests, pace and preferred comfort. Receive your written proposal on WhatsApp.",
+      button: "Request a quote on WhatsApp",
     },
     readingMinutes: 13,
     publishedAt: "2026-08-11",

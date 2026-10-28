@@ -253,14 +253,14 @@ export const hospedagensDeCharmeBrasilGuide: BrazilGuideLocalized = {
     destinationName: "Charming Boutique Stays of Brazil",
     blurb:
       "A journey through boutique pousadas and small-suite retreats — from Bahia's coast to Noronha, the mountains and the Cerrado — where the house itself is the destination.",
-    metaTitle: "Boutique Hotels in Brazil: The Stays Worth the Trip",
+    metaTitle: "Brazil Boutique Stays: Itinerary, Best Time & Private Quote",
     metaDescription:
-      "Small houses from Trancoso to Noronha where the owner still greets you at dinner. Who each one suits, when to go and how to combine them — curated by locals.",
+      "Plan a private, tailor-made Brazil boutique stays trip: itinerary, best time and how to get there. Request a quote on WhatsApp.",
     keywords:
-      "boutique hotels brazil, charming pousadas brazil, uxua casa hotel, vila naia corumbau, pousada maravilha noronha, vila dos orixas boipeba, casa turquesa paraty, luxury boutique brazil itinerary",
-    h1: "Charming Boutique Stays of Brazil: houses that become the trip itself",
+      "boutique hotels brazil, charming pousadas brazil, uxua casa hotel, vila naia corumbau, pousada maravilha noronha, vila dos orixas boipeba, casa turquesa paraty, luxury boutique brazil itinerary, brazil boutique stays tour, brazil boutique stays itinerary, how to get to brazil boutique stays, best time brazil boutique stays",
+    h1: "Boutique stays in Brazil: itinerary, best time and how to get there",
     aiAnswer:
-      "Brazil's best boutique hotels are small-suite houses — like Uxua and Estrela d'Água in Trancoso, Vila Naiá in Corumbau, Pousada Maravilha in Fernando de Noronha, Vila dos Orixás in Boipeba and Casa Turquesa in Paraty — defined by small scale, signature architecture, personalized service and locally rooted cuisine; the ideal itinerary chains two or three nearby houses over 8 to 12 days.",
+      "Brazil's best boutique hotels are small-suite houses — like Uxua and Estrela d'Água in Trancoso, Vila Naiá in Corumbau, Pousada Maravilha in Fernando de Noronha, Vila dos Orixás in Boipeba and Casa Turquesa in Paraty — defined by small scale, signature architecture, personalized service and locally rooted cuisine; the ideal itinerary chains two or three nearby houses over 8 to 12 days. Create Travel designs private, tailor-made boutique stays in Brazil trips for international travellers, with English-speaking guides, and sends a written quote via WhatsApp.",
     intro: [
       "There is a category of hotel that does not compete on room count, but on the absence of it. Houses with six, ten, fifteen suites, where the manager knows your name by day two, the chef asks if you enjoyed the fish, and the architecture speaks to the place instead of imposing an imported standard. We call this charming boutique hospitality — and Brazil, from Bahia's coast to the Cerrado, has some of the best in the world.",
       "This guide gathers the houses we have tested and that keep returning in feedback from Create Travel clients: boutique pousadas in historic villages, isolated beach retreats, farm hotels deep in the Cerrado and award-winning mountain architecture. We organize them by region and experience, to help decide not just where to stay, but what kind of trip each house delivers.",
@@ -446,6 +446,10 @@ export const hospedagensDeCharmeBrasilGuide: BrazilGuideLocalized = {
           title: "Cerrado + Bahia coast — 10 to 12 days",
           text: "Pousada Trijunção for trails, springs and wildlife, followed by Trancoso or Corumbau for the beach counterpoint. Fly via Brasília or Salvador.",
         },
+        {
+          title: "Combine two or more Brazilian biomes",
+          text: "Brazil has six land biomes plus the coastal and marine zone — seven distinct landscapes and cultures. Combine the Cerrado at Pousada Trijunção with the coastal and marine zone at Trancoso or Corumbau. We tailor the sequence to seasonal conditions and allow time for transfers.",
+        },
       ],
     },
     tips: {
@@ -478,18 +482,30 @@ export const hospedagensDeCharmeBrasilGuide: BrazilGuideLocalized = {
       },
       {
         q: "How do you get to places like Corumbau or Boipeba?",
-        a: "Corumbau is reached by dirt road, speedboat from Porto Seguro or helicopter. Boipeba is a car-free island, reached by boat from Valença or Salvador. Create Travel organizes both transfers.",
+        a: "Take an international flight to a Brazilian hub, then a domestic connection to the airport serving your chosen stay. The Cerrado and Bahia coast combination can be planned via Brasília or Salvador. Create Travel confirms the appropriate local airport and arranges private road or boat transfers.",
       },
       {
         q: "How much does it cost to stay at these houses?",
         a: "We do not work with off-the-shelf pricing: current rates and date availability vary by season, suite category and exchange rate. A human Create Travel consultant presents the proposal in writing, directly on WhatsApp.",
       },
+      {
+        q: "Do I need a visa or vaccines to visit Brazil?",
+        a: "Visa requirements depend on your nationality and travel dates; check official Brazilian consular sources before booking. Ask a qualified travel-health professional about routine vaccines, yellow fever recommendations and any entry or transit requirements, and consult official health guidance for your itinerary.",
+      },
+      {
+        q: "Are English-speaking guides available?",
+        a: "Yes. Create Travel provides English-speaking guides on every excursion in your private, tailor-made itinerary. We plan the pace and interpretation around your interests.",
+      },
+      {
+        q: "Can I combine boutique stays in Brazil with other Brazilian biomes?",
+        a: "Yes. Brazil has six land biomes plus the coastal and marine zone — seven distinct landscapes and cultures. One suggestion is the Cerrado at Pousada Trijunção with the coastal and marine zone at Trancoso or Corumbau. Your travel designer checks seasonal compatibility and transfer time.",
+      },
     ],
     cta: {
-      heading: "Let's design your boutique-stay itinerary",
+      heading: "Request your boutique stays in Brazil trip quote",
       subheading:
-        "A Create Travel designer selects the right houses for your profile and negotiates rates and availability directly with each property.",
-      button: "Talk to a travel designer",
+        "Plan a private, tailor-made journey with a human Create Travel travel designer, matching your interests, pace and preferred comfort. Receive your written proposal on WhatsApp.",
+      button: "Request a quote on WhatsApp",
     },
     readingMinutes: 11,
     publishedAt: "2026-08-11",

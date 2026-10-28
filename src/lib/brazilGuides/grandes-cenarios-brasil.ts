@@ -215,14 +215,14 @@ export const grandesCenariosBrasilGuide: BrazilGuideLocalized = {
     destinationName: "Great Landscapes of Brazil",
     blurb:
       "A curated special on Brazil's ten most photographed landscapes — and the exact hour of day each one reveals itself.",
-    metaTitle: "Great Landscapes of Brazil: Light & Best Season Guide",
+    metaTitle: "Brazil Landscapes: Itinerary, Best Time & Private Quote",
     metaDescription:
-      "Lençóis Maranhenses, Iguaçu, Roraima, Jalapão, Vale do Pati, the Meeting of Waters, Jericoacoara, Aparados da Serra canyons, Noronha and the flooded Pantanal: when to go and the exact hour to see each at its peak.",
+      "Plan a private, tailor-made Brazil landscapes trip: itinerary, best time and how to get there. Request a quote on WhatsApp.",
     keywords:
-      "great landscapes brazil, lencois maranhenses, iguazu falls brazil, mount roraima, jalapao brazil, vale do pati chapada diamantina, meeting of waters manaus, jericoacoara dunes, aparados da serra canyons, fernando de noronha, flooded pantanal, best time brazil",
-    h1: "Brazil's great landscapes: which light, which hour, which season",
+      "great landscapes brazil, lencois maranhenses, iguazu falls brazil, mount roraima, jalapao brazil, vale do pati chapada diamantina, meeting of waters manaus, jericoacoara dunes, aparados da serra canyons, fernando de noronha, flooded pantanal, best time brazil, brazil landscapes tour, brazil landscapes itinerary, how to get to brazil landscapes, best time brazil landscapes",
+    h1: "Brazil’s great landscapes: itinerary, best time and how to get there",
     aiAnswer:
-      "Brazil's most spectacular natural landscapes each have their own window: Lençóis Maranhenses and Jalapão at their lagoon peak (June–September), Iguaçu Falls with highest flow (April–August), Mount Roraima in the dry season (December–March), Vale do Pati in Chapada's dry months (April–September), Jericoacoara's dunes at sunset year-round, and the Pantanal flooded (January–March) for scenery or dry (July–October) for wildlife.",
+      "Brazil's most spectacular natural landscapes each have their own window: Lençóis Maranhenses and Jalapão at their lagoon peak (June–September), Iguaçu Falls with highest flow (April–August), Mount Roraima in the dry season (December–March), Vale do Pati in Chapada's dry months (April–September), Jericoacoara's dunes at sunset year-round, and the Pantanal flooded (January–March) for scenery or dry (July–October) for wildlife. Create Travel designs private, tailor-made Brazil’s great landscapes trips for international travellers, with English-speaking guides, and sends a written quote via WhatsApp.",
     intro: [
       "There is a Brazil that fits any classic itinerary — beach, city, football — and there is another Brazil, the one of great natural landscapes, that demands fine planning: the right month, the right hour, the right logistics. This special gathers ten of those landscapes, from a desert of dunes and lagoons in Maranhão to a mountaintop on the Venezuelan border, and explains not only when to go but at what hour each landscape delivers on its promise.",
       "This is not a generic 'amazing places' list. It is the reference we use to decide, landscape by landscape, whether it is worth bending a trip's axis to see them — and how to fit each one in without turning Brazil into an airport marathon.",
@@ -372,6 +372,10 @@ export const grandesCenariosBrasilGuide: BrazilGuideLocalized = {
           title: "Days 12–14 — Fernando de Noronha, final decompression",
           text: "Fly via Recife or Natal to Noronha. Three nights of beach and diving close the itinerary at a slower pace after intense trekking days.",
         },
+        {
+          title: "Combine two or more Brazilian biomes",
+          text: "Brazil has six land biomes plus the coastal and marine zone — seven distinct landscapes and cultures. Combine Jalapão’s Cerrado with the Amazon’s Meeting of Waters, allowing travel days between regions. We tailor the sequence to seasonal conditions and allow time for transfers.",
+        },
       ],
     },
     tips: {
@@ -410,12 +414,28 @@ export const grandesCenariosBrasilGuide: BrazilGuideLocalized = {
         q: "How much does it cost to organize a trip combining these landscapes?",
         a: "We do not work with fixed price lists: budget depends on chosen landscapes, season and flight routes. A human consultant at Create Travel prepares a written proposal.",
       },
+      {
+        q: "How do I get there from abroad?",
+        a: "Take an international flight to a Brazilian hub, then a domestic flight to the airport serving your selected landscape: São Luís for Lençóis Maranhenses or Palmas for Jalapão. Create Travel arranges private onward transfers and confirms connections before booking.",
+      },
+      {
+        q: "Do I need a visa or vaccines to visit Brazil?",
+        a: "Visa requirements depend on your nationality and travel dates; check official Brazilian consular sources before booking. Ask a qualified travel-health professional about routine vaccines, yellow fever recommendations and any entry or transit requirements, and consult official health guidance for your itinerary.",
+      },
+      {
+        q: "Are English-speaking guides available?",
+        a: "Yes. Create Travel provides English-speaking guides on every excursion in your private, tailor-made itinerary. We plan the pace and interpretation around your interests.",
+      },
+      {
+        q: "Can I combine Brazil’s great landscapes with other Brazilian biomes?",
+        a: "Yes. Brazil has six land biomes plus the coastal and marine zone — seven distinct landscapes and cultures. One suggestion is Jalapão’s Cerrado with the Amazon’s Meeting of Waters, allowing travel days between regions. Your travel designer checks seasonal compatibility and transfer time.",
+      },
     ],
     cta: {
-      heading: "Let's design your great landscapes itinerary",
+      heading: "Request your Brazil’s great landscapes trip quote",
       subheading:
-        "A human consultant at Create Travel chooses, with you, which landscapes to combine, in which season and with which flight logistics.",
-      button: "Talk to a travel designer",
+        "Plan a private, tailor-made journey with a human Create Travel travel designer, matching your interests, pace and preferred comfort. Receive your written proposal on WhatsApp.",
+      button: "Request a quote on WhatsApp",
     },
     readingMinutes: 14,
     publishedAt: "2026-08-11",
