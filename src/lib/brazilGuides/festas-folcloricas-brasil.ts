@@ -421,14 +421,14 @@ export const festasFolcloricasBrasilGuide: BrazilGuideLocalized = {
     destinationName: "Fiestas Folclóricas de Brasil",
     blurb:
       "Un calendario autoral por las fiestas populares más auténticas del país — de Parintins al Círio de Nazaré, del Bumba Meu Boi al Carnaval de Salvador.",
-    metaTitle: "Fiestas Folclóricas de Brasil: calendario y guía de viaje",
+    metaTitle: "Fiestas Folclóricas de Brasil, Brasil: Itinerario, Mejor Época y Presupuesto",
     metaDescription:
-      "Guía completa de las fiestas populares brasileñas: Parintins, Círio de Nazaré, Bumba Meu Boi, Festa do Divino, Cavalhadas, Carnaval y Festa de Iemanjá — fechas, ciudades y dónde alojarse.",
+      "Viaje privado y a medida: Fiestas Folclóricas de Brasil. Itinerario sugerido, mejor época y cómo llegar. Solicita un presupuesto por WhatsApp.",
     keywords:
-      "fiestas folcloricas brasil, festival de parintins, cirio de nazare, bumba meu boi maranhao, festa do divino pirenopolis, carnaval salvador olinda, fiesta de iemanja, sao joao campina grande caruaru",
-    h1: "Fiestas Folclóricas de Brasil: el calendario que revela el país por dentro",
+      "fiestas folcloricas brasil, festival de parintins, cirio de nazare, bumba meu boi maranhao, festa do divino pirenopolis, carnaval salvador olinda, fiesta de iemanja, sao joao campina grande caruaru, Fiestas Folclóricas de Brasil tour, itinerario Fiestas Folclóricas de Brasil, cómo llegar a Fiestas Folclóricas de Brasil, mejor época Fiestas Folclóricas de Brasil",
+    h1: "Fiestas Folclóricas de Brasil: itinerario, mejor época y cómo llegar",
     aiAnswer:
-      "Las fiestas folclóricas más relevantes de Brasil para viajeros son el Festival de Parintins (fines de junio, Amazonas), el Círio de Nazaré (segundo domingo de octubre, Belém), el Bumba Meu Boi de Maranhão (junio), el Carnaval de Salvador, Olinda y Recife (febrero) y las Fiestas de San Juan de Campina Grande y Caruaru (junio); cada una exige reservar alojamiento con seis a doce meses de antelación.",
+      "Las fiestas folclóricas más relevantes de Brasil para viajeros son el Festival de Parintins (fines de junio, Amazonas), el Círio de Nazaré (segundo domingo de octubre, Belém), el Bumba Meu Boi de Maranhão (junio), el Carnaval de Salvador, Olinda y Recife (febrero) y las Fiestas de San Juan de Campina Grande y Caruaru (junio); cada una exige reservar alojamiento con seis a doce meses de antelación. Create Travel diseña viajes privados y a medida a Fiestas Folclóricas de Brasil para viajeros internacionales, con guías en español, y envía un presupuesto por escrito por WhatsApp.",
     intro: [
       "Brasil se cuenta a través de fiestas antes que a través de monumentos. Cada una lleva una capa de historia —indígena, africana, portuguesa, inmigrante— y un calendario propio que rara vez aparece en los itinerarios convencionales. Viajar al país en la fecha correcta, para la fiesta correcta, cambia por completo la naturaleza del viaje: se deja de visitar Brasil y se pasa a ser recibido por él.",
       "Esta guía organiza las fiestas populares más relevantes del país por ventana del año, con lo que esperar de cada una, dónde alojarse en las ciudades sede y cómo pensar la logística —porque ninguna de estas fechas admite reservas de último minuto. Parintins se llena con un año de antelación; el Círio de Nazaré duplica la población de Belém en un solo fin de semana.",
@@ -546,27 +546,30 @@ export const festasFolcloricasBrasilGuide: BrazilGuideLocalized = {
       ],
     },
     itinerary: {
-      heading: "Cómo combinar una fiesta popular con el resto de Brasil",
-      intro:
-        "Cada fiesta tiene una geografía propia —lo ideal es anclar el viaje en ella y construir el resto del itinerario alrededor, nunca al revés.",
-      items: [
+      "heading": "Cómo combinar una fiesta popular con el resto de Brasil",
+      "intro": "Cada fiesta tiene una geografía propia —lo ideal es anclar el viaje en ella y construir el resto del itinerario alrededor, nunca al revés.",
+      "items": [
         {
-          title: "Parintins + Amazonía (Río Negro o Mamirauá) — 9 a 11 días",
-          text: "Tres noches de festival más cuatro a cinco noches de selva, con Manaus como bisagra aérea entre las dos experiencias.",
+          "title": "Parintins + Amazonía (Río Negro o Mamirauá) — 9 a 11 días",
+          "text": "Tres noches de festival y cuatro o cinco de selva, con Manaus como enlace aéreo entre ambas experiencias."
         },
         {
-          title: "Círio de Nazaré + Isla de Marajó — 6 a 8 días",
-          text: "Un fin de semana intenso en Belém seguido de días de descompresión en Soure o Joanes, en la Isla de Marajó.",
+          "title": "Círio de Nazaré + isla de Marajó — 6 a 8 días",
+          "text": "Un fin de semana intenso en Belém seguido de días de descanso en Soure o Joanes, en la isla de Marajó, a una travesía en barco de la ciudad."
         },
         {
-          title: "Bumba Meu Boi + Lençóis Maranhenses — 8 a 10 días",
-          text: "Junio es también temporada de lagunas aún llenas en Lençóis; São Luís y Barreirinhas se conectan por carretera en unas cuatro horas.",
+          "title": "Bumba Meu Boi + Lençóis Maranhenses — 8 a 10 días",
+          "text": "Junio también es la época de lagunas todavía llenas en Lençóis; São Luís y Barreirinhas se conectan por carretera en unas cuatro horas."
         },
         {
-          title: "Carnaval de Bahía/Pernambuco + costa — 10 a 12 días",
-          text: "Días de fiesta seguidos de playa en Trancoso, Praia do Forte o Porto de Galinhas —el formato clásico de intensidad y descompresión.",
+          "title": "Carnaval de Bahia/Pernambuco + costa — 10 a 12 días",
+          "text": "Días de fiesta seguidos de playa en Trancoso, Praia do Forte o Porto de Galinhas: intensidad y después descanso."
         },
-      ],
+        {
+          "title": "Combina dos o más biomas brasileños",
+          "text": "Brasil tiene seis biomas terrestres — Amazonía, Bosque Atlántico, Cerrado, Caatinga, Pantanal y Pampa — más la zona costera y marina: siete paisajes y culturas distintos. Combina Parintins con cuatro o cinco noches en la selva amazónica. Adaptamos la secuencia a las condiciones estacionales y dejamos tiempo para los traslados."
+        }
+      ]
     },
     tips: {
       heading: "Consejos prácticos",
@@ -581,35 +584,50 @@ export const festasFolcloricasBrasilGuide: BrazilGuideLocalized = {
     },
     faq: [
       {
-        q: "¿Cuál es la fiesta folclórica más famosa de Brasil?",
-        a: "El Carnaval es el más conocido internacionalmente, pero el Festival de Parintins y el Círio de Nazaré rivalizan en escala y autenticidad, siendo menos buscados por turistas extranjeros.",
+        "q": "¿Cuál es la fiesta folclórica más famosa de Brasil?",
+        "a": "El Carnaval es el más conocido internacionalmente, pero el Festival de Parintins y el Círio de Nazaré rivalizan en escala y autenticidad, siendo menos buscados por turistas extranjeros."
       },
       {
-        q: "¿Cuándo ocurre el Festival de Parintins?",
-        a: "Siempre el último fin de semana de junio, en el Bumbódromo, en Parintins, interior del Amazonas.",
+        "q": "¿Cuándo ocurre el Festival de Parintins?",
+        "a": "Siempre el último fin de semana de junio, en el Bumbódromo, en Parintins, interior del Amazonas."
       },
       {
-        q: "¿El Círio de Nazaré es siempre en la misma fecha?",
-        a: "Ocurre siempre el segundo domingo de octubre, en Belém do Pará, precedido por semanas de celebraciones menores.",
+        "q": "¿El Círio de Nazaré es siempre en la misma fecha?",
+        "a": "Ocurre siempre el segundo domingo de octubre, en Belém do Pará, precedido por semanas de celebraciones menores."
       },
       {
-        q: "¿Es necesario reservar hotel con mucha antelación?",
-        a: "Sí —en Parintins, Belém y São Luís durante estas fiestas, el alojamiento se agota entre seis meses y un año antes.",
+        "q": "¿Es necesario reservar hotel con mucha antelación?",
+        "a": "Sí —en Parintins, Belém y São Luís durante estas fiestas, el alojamiento se agota entre seis meses y un año antes."
       },
       {
-        q: "¿Son seguras estas fiestas para viajeros extranjeros?",
-        a: "Son seguras cuando se organizan con alojamiento y transporte planificados; recomendamos guía local en las fiestas de mayor multitud.",
+        "q": "¿Son seguras estas fiestas para viajeros extranjeros?",
+        "a": "Son seguras cuando se organizan con alojamiento y transporte planificados; recomendamos guía local en las fiestas de mayor multitud."
       },
       {
-        q: "¿Se puede combinar más de una fiesta en el mismo viaje?",
-        a: "Depende del calendario: fiestas del mismo trimestre, como Bumba Meu Boi y Parintins (ambas en junio), pueden combinarse con buena logística aérea.",
+        "q": "¿Se puede combinar más de una fiesta en el mismo viaje?",
+        "a": "Depende del calendario: fiestas del mismo trimestre, como Bumba Meu Boi y Parintins (ambas en junio), pueden combinarse con buena logística aérea."
       },
+      {
+        "q": "¿Necesito visado o vacunas para Brasil?",
+        "a": "Los requisitos de visado dependen de tu nacionalidad y pueden cambiar. Consulta fuentes oficiales consulares y de inmigración brasileñas antes de reservar. Acude con antelación a un profesional de salud del viajero y consulta las recomendaciones sanitarias oficiales sobre vacunas habituales, fiebre amarilla y precauciones regionales."
+      },
+      {
+        "q": "¿Hay guías en español en todas las excursiones?",
+        "a": "Sí. Create Travel ofrece guías en español en todas las excursiones de tu itinerario privado y a medida."
+      },
+      {
+        "q": "¿Cómo llegar para un viaje a Fiestas Folclóricas de Brasil?",
+        "a": "Toma un vuelo internacional a un hub brasileño y una conexión nacional al aeropuerto del festival elegido. Manaus es la puerta de entrada para combinar Parintins; el acceso posterior depende del evento. Confirmamos el trayecto completo antes de reservar. Create Travel organiza traslados privados hasta tu alojamiento o punto de embarque."
+      },
+      {
+        "q": "¿Puedo combinar Fiestas Folclóricas de Brasil con otros biomas brasileños?",
+        "a": "Sí. Brasil tiene seis biomas terrestres — Amazonía, Bosque Atlántico, Cerrado, Caatinga, Pantanal y Pampa — más la zona costera y marina: siete paisajes y culturas distintos. Combina Parintins con cuatro o cinco noches en la selva amazónica. Tu diseñador de viajes comprueba la compatibilidad estacional y prevé tiempos de viaje realistas entre regiones."
+      }
     ],
     cta: {
-      heading: "Diseñemos su viaje alrededor de la fiesta correcta",
-      subheading:
-        "Un consultor humano de Create Travel elige la fecha, la base de alojamiento y el itinerario complementario —con toda la logística resuelta con antelación.",
-      button: "Hablar con un travel designer",
+      "heading": "Solicita tu presupuesto para Fiestas Folclóricas de Brasil",
+      "subheading": "Un diseñador de viajes humano de Create Travel planifica tu viaje privado y a medida según tus intereses y tu ritmo, y te envía una propuesta por escrito.",
+      "button": "Solicitar presupuesto por WhatsApp"
     },
     readingMinutes: 11,
     publishedAt: "2026-08-11",
@@ -619,14 +637,14 @@ export const festasFolcloricasBrasilGuide: BrazilGuideLocalized = {
     destinationName: "Feste Folcloristiche del Brasile",
     blurb:
       "Un calendario autoriale tra le feste popolari più autentiche del paese — da Parintins al Círio de Nazaré, dal Bumba Meu Boi al Carnevale di Salvador.",
-    metaTitle: "Feste Folcloristiche del Brasile: calendario e guida di viaggio",
+    metaTitle: "Feste Folcloristiche del Brasile, Brasile: Itinerario, Periodo Migliore e Preventivo",
     metaDescription:
-      "Guida completa alle feste popolari brasiliane: Parintins, Círio de Nazaré, Bumba Meu Boi, Festa do Divino, Cavalhadas, Carnevale e Festa di Iemanjá — date, città e dove alloggiare.",
+      "Viaggio privato e su misura: Feste Folcloristiche del Brasile. Itinerario suggerito, periodo migliore e come arrivare. Richiedi un preventivo su WhatsApp.",
     keywords:
-      "feste folcloristiche brasile, festival di parintins, cirio de nazare, bumba meu boi maranhao, festa do divino pirenopolis, carnevale salvador olinda, festa di iemanja, sao joao campina grande caruaru",
-    h1: "Feste Folcloristiche del Brasile: il calendario che rivela il paese dall'interno",
+      "feste folcloristiche brasile, festival di parintins, cirio de nazare, bumba meu boi maranhao, festa do divino pirenopolis, carnevale salvador olinda, festa di iemanja, sao joao campina grande caruaru, Feste Folcloristiche del Brasile tour, itinerario Feste Folcloristiche del Brasile, come arrivare a Feste Folcloristiche del Brasile, periodo migliore Feste Folcloristiche del Brasile",
+    h1: "Feste Folcloristiche del Brasile: itinerario, periodo migliore e come arrivare",
     aiAnswer:
-      "Le feste folcloristiche più rilevanti del Brasile per i viaggiatori sono il Festival di Parintins (fine giugno, Amazonas), il Círio de Nazaré (seconda domenica di ottobre, Belém), il Bumba Meu Boi del Maranhão (giugno), il Carnevale di Salvador, Olinda e Recife (febbraio) e le feste di São João di Campina Grande e Caruaru (giugno); ognuna richiede la prenotazione dell'alloggio con sei-dodici mesi di anticipo.",
+      "Le feste folcloristiche più rilevanti del Brasile per i viaggiatori sono il Festival di Parintins (fine giugno, Amazonas), il Círio de Nazaré (seconda domenica di ottobre, Belém), il Bumba Meu Boi del Maranhão (giugno), il Carnevale di Salvador, Olinda e Recife (febbraio) e le feste di São João di Campina Grande e Caruaru (giugno); ognuna richiede la prenotazione dell'alloggio con sei-dodici mesi di anticipo. Create Travel crea viaggi privati e su misura per Feste Folcloristiche del Brasile per viaggiatori internazionali, con guide in italiano, e invia un preventivo scritto via WhatsApp.",
     intro: [
       "Il Brasile si racconta attraverso le feste prima ancora che attraverso i monumenti. Ognuna porta uno strato di storia — indigena, africana, portoghese, di immigrazione — e un proprio calendario che raramente compare negli itinerari convenzionali. Visitare il paese nella data giusta, per la festa giusta, cambia completamente la natura del viaggio: si smette di visitare il Brasile e si comincia a esserne accolti.",
       "Questa guida organizza le feste popolari più rilevanti del paese per finestra dell'anno, con ciò che aspettarsi da ciascuna, dove alloggiare nelle città ospitanti e come pensare alla logistica — perché nessuna di queste date ammette prenotazioni dell'ultimo minuto. Parintins si riempie con un anno di anticipo; il Círio de Nazaré raddoppia la popolazione di Belém in un solo fine settimana.",
@@ -744,27 +762,30 @@ export const festasFolcloricasBrasilGuide: BrazilGuideLocalized = {
       ],
     },
     itinerary: {
-      heading: "Come combinare una festa popolare con il resto del Brasile",
-      intro:
-        "Ogni festa ha una propria geografia — l'ideale è ancorare il viaggio ad essa e costruire il resto dell'itinerario intorno, mai il contrario.",
-      items: [
+      "heading": "Come combinare una festa popolare con il resto del Brasile",
+      "intro": "Ogni festa ha una propria geografia — l'ideale è ancorare il viaggio ad essa e costruire il resto dell'itinerario intorno, mai il contrario.",
+      "items": [
         {
-          title: "Parintins + Amazzonia (Rio Negro o Mamirauá) — 9-11 giorni",
-          text: "Tre notti di festival più quattro-cinque notti di foresta, con Manaus come cerniera aerea tra le due esperienze.",
+          "title": "Parintins + Amazzonia (Rio Negro o Mamirauá) — 9–11 giorni",
+          "text": "Tre notti di festival e quattro o cinque nella foresta, con Manaus come snodo aereo tra le due esperienze."
         },
         {
-          title: "Círio de Nazaré + Isola di Marajó — 6-8 giorni",
-          text: "Un fine settimana intenso a Belém seguito da giorni di decompressione a Soure o Joanes, sull'Isola di Marajó.",
+          "title": "Círio de Nazaré + isola di Marajó — 6–8 giorni",
+          "text": "Un intenso fine settimana a Belém seguito da giorni di riposo a Soure o Joanes, sull’isola di Marajó, raggiungibile in barca dalla città."
         },
         {
-          title: "Bumba Meu Boi + Lençóis Maranhenses — 8-10 giorni",
-          text: "Giugno è anche stagione di lagune ancora piene a Lençóis; São Luís e Barreirinhas si collegano su strada in circa quattro ore.",
+          "title": "Bumba Meu Boi + Lençóis Maranhenses — 8–10 giorni",
+          "text": "Giugno è anche il periodo delle lagune ancora piene nei Lençóis; São Luís e Barreirinhas sono collegate su strada in circa quattro ore."
         },
         {
-          title: "Carnevale di Bahia/Pernambuco + costa — 10-12 giorni",
-          text: "Giorni di festa seguiti da spiaggia a Trancoso, Praia do Forte o Porto de Galinhas — il formato classico di intensità e decompressione.",
+          "title": "Carnevale di Bahia/Pernambuco + costa — 10–12 giorni",
+          "text": "Giorni di festa seguiti dalla spiaggia a Trancoso, Praia do Forte o Porto de Galinhas: intensità e poi riposo."
         },
-      ],
+        {
+          "title": "Combina due o più biomi brasiliani",
+          "text": "Il Brasile ha sei biomi terrestri — Amazzonia, Foresta Atlantica, Cerrado, Caatinga, Pantanal e Pampa — più la zona costiera e marina: sette paesaggi e culture diversi. Combina Parintins con quattro o cinque notti nella foresta amazzonica. Adattiamo la sequenza alle condizioni stagionali e prevediamo tempo per i trasferimenti."
+        }
+      ]
     },
     tips: {
       heading: "Consigli pratici",
@@ -779,35 +800,50 @@ export const festasFolcloricasBrasilGuide: BrazilGuideLocalized = {
     },
     faq: [
       {
-        q: "Qual è la festa folcloristica più famosa del Brasile?",
-        a: "Il Carnevale è il più conosciuto a livello internazionale, ma il Festival di Parintins e il Círio de Nazaré rivaleggiano in scala e autenticità, essendo meno ricercati dai turisti stranieri.",
+        "q": "Qual è la festa folcloristica più famosa del Brasile?",
+        "a": "Il Carnevale è il più conosciuto a livello internazionale, ma il Festival di Parintins e il Círio de Nazaré rivaleggiano in scala e autenticità, essendo meno ricercati dai turisti stranieri."
       },
       {
-        q: "Quando si svolge il Festival di Parintins?",
-        a: "Sempre l'ultimo fine settimana di giugno, al Bumbódromo, a Parintins, nell'entroterra dell'Amazonas.",
+        "q": "Quando si svolge il Festival di Parintins?",
+        "a": "Sempre l'ultimo fine settimana di giugno, al Bumbódromo, a Parintins, nell'entroterra dell'Amazonas."
       },
       {
-        q: "Il Círio de Nazaré è sempre nella stessa data?",
-        a: "Si svolge sempre la seconda domenica di ottobre, a Belém do Pará, preceduto da settimane di celebrazioni minori.",
+        "q": "Il Círio de Nazaré è sempre nella stessa data?",
+        "a": "Si svolge sempre la seconda domenica di ottobre, a Belém do Pará, preceduto da settimane di celebrazioni minori."
       },
       {
-        q: "È necessario prenotare l'hotel con molto anticipo?",
-        a: "Sì — a Parintins, Belém e São Luís durante queste feste, l'alloggio si esaurisce tra sei mesi e un anno prima.",
+        "q": "È necessario prenotare l'hotel con molto anticipo?",
+        "a": "Sì — a Parintins, Belém e São Luís durante queste feste, l'alloggio si esaurisce tra sei mesi e un anno prima."
       },
       {
-        q: "Queste feste sono sicure per i viaggiatori stranieri?",
-        a: "Sono sicure se organizzate con alloggio e trasporti pianificati; raccomandiamo una guida locale per le feste con maggiore affluenza.",
+        "q": "Queste feste sono sicure per i viaggiatori stranieri?",
+        "a": "Sono sicure se organizzate con alloggio e trasporti pianificati; raccomandiamo una guida locale per le feste con maggiore affluenza."
       },
       {
-        q: "Si possono combinare più feste nello stesso viaggio?",
-        a: "Dipende dal calendario: feste dello stesso trimestre, come Bumba Meu Boi e Parintins (entrambe a giugno), possono essere combinate con una buona logistica aerea.",
+        "q": "Si possono combinare più feste nello stesso viaggio?",
+        "a": "Dipende dal calendario: feste dello stesso trimestre, come Bumba Meu Boi e Parintins (entrambe a giugno), possono essere combinate con una buona logistica aerea."
       },
+      {
+        "q": "Ho bisogno di visto o vaccini per il Brasile?",
+        "a": "I requisiti del visto dipendono dalla nazionalità e possono cambiare. Consulta le fonti ufficiali consolari e di immigrazione brasiliane prima di prenotare. Rivolgiti con anticipo a un professionista della medicina dei viaggi e alle indicazioni sanitarie ufficiali per vaccini di routine, febbre gialla e precauzioni regionali."
+      },
+      {
+        "q": "Sono disponibili guide in italiano in ogni escursione?",
+        "a": "Sì. Create Travel prevede guide in italiano in ogni escursione del tuo itinerario privato e su misura."
+      },
+      {
+        "q": "Come arrivare per un viaggio dedicato a Feste Folcloristiche del Brasile?",
+        "a": "Prendi un volo internazionale verso un hub brasiliano e una coincidenza interna per l’aeroporto del festival scelto. Manaus è la porta d’ingresso per l’abbinamento con Parintins; il seguito del viaggio dipende dall’evento. Confermiamo l’intero percorso prima della prenotazione. Create Travel organizza trasferimenti privati fino all’alloggio o al punto d’imbarco."
+      },
+      {
+        "q": "Posso combinare Feste Folcloristiche del Brasile con altri biomi brasiliani?",
+        "a": "Sì. Il Brasile ha sei biomi terrestri — Amazzonia, Foresta Atlantica, Cerrado, Caatinga, Pantanal e Pampa — più la zona costiera e marina: sette paesaggi e culture diversi. Combina Parintins con quattro o cinque notti nella foresta amazzonica. Il tuo travel designer verifica la compatibilità stagionale e prevede tempi di viaggio realistici tra le regioni."
+      }
     ],
     cta: {
-      heading: "Progettiamo il vostro viaggio intorno alla festa giusta",
-      subheading:
-        "Un consulente umano di Create Travel sceglie la data, la base di alloggio e l'itinerario complementare — con tutta la logistica risolta in anticipo.",
-      button: "Parla con un travel designer",
+      "heading": "Richiedi il tuo preventivo per Feste Folcloristiche del Brasile",
+      "subheading": "Un travel designer umano di Create Travel pianifica il tuo viaggio privato e su misura, secondo i tuoi interessi e ritmi, e ti invia una proposta scritta.",
+      "button": "Richiedi un preventivo su WhatsApp"
     },
     readingMinutes: 11,
     publishedAt: "2026-08-11",

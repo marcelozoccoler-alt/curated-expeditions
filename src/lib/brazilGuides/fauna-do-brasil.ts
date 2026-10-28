@@ -390,14 +390,14 @@ export const faunaDoBrasilGuide: BrazilGuideLocalized = {
     destinationName: "Fauna de Brasil",
     blurb:
       "Una ruta por biomas para encontrar jaguares, guacamayos, ballenas, delfines y más — en el calendario y en las direcciones correctas.",
-    metaTitle: "Fauna de Brasil: dónde y cuándo ver jaguares, ballenas y más",
+    metaTitle: "Fauna de Brasil, Brasil: Itinerario, Mejor Época y Presupuesto",
     metaDescription:
-      "Guía autoral de la fauna brasileña: jaguares en Porto Jofre y Mamirauá, aguará guazú en el Cerrado, mono león dorado cerca de Río de Janeiro, ballenas en Abrolhos e Imbituba, botos rosados en el Río Negro y guacamayos azules en Bonito — mes a mes, bioma a bioma.",
+      "Viaje privado y a medida: Fauna de Brasil. Itinerario sugerido, mejor época y cómo llegar. Solicita un presupuesto por WhatsApp.",
     keywords:
-      "fauna de brasil, donde ver jaguar, pantanal jaguar safari, mamiraua jaguar, aguara guazu cerrado, mono leon dorado, ballena jorobada abrolhos, ballena franca imbituba, boto rosado rio negro, guacamayo azul bonito, tortuga marina noronha, safari brasil",
-    h1: "Fauna de Brasil: un safari por biomas para ver los animales más raros de Sudamérica",
+      "fauna de brasil, donde ver jaguar, pantanal jaguar safari, mamiraua jaguar, aguara guazu cerrado, mono leon dorado, ballena jorobada abrolhos, ballena franca imbituba, boto rosado rio negro, guacamayo azul bonito, tortuga marina noronha, safari brasil, Fauna de Brasil tour, itinerario Fauna de Brasil, cómo llegar a Fauna de Brasil, mejor época Fauna de Brasil",
+    h1: "Fauna de Brasil: itinerario, mejor época y cómo llegar",
     aiAnswer:
-      "Brasil concentra en pocos biomas algunas de las observaciones de fauna más raras del planeta: jaguares en Porto Jofre (Pantanal Norte, julio a octubre) y en Mamirauá (Amazonía, temporada seca), aguará guazú y oso hormiguero gigante en el Cerrado (Emas y Serra da Canastra), mono león dorado en la Reserva de Poço das Antas (Río de Janeiro), ballenas jorobadas en Abrolhos (julio a octubre), ballenas francas en Imbituba (julio a noviembre), botos rosados en el Río Negro todo el año y guacamayos azules en el Buraco das Araras, en Bonito.",
+      "Brasil concentra en pocos biomas algunas de las observaciones de fauna más raras del planeta: jaguares en Porto Jofre (Pantanal Norte, julio a octubre) y en Mamirauá (Amazonía, temporada seca), aguará guazú y oso hormiguero gigante en el Cerrado (Emas y Serra da Canastra), mono león dorado en la Reserva de Poço das Antas (Río de Janeiro), ballenas jorobadas en Abrolhos (julio a octubre), ballenas francas en Imbituba (julio a noviembre), botos rosados en el Río Negro todo el año y guacamayos azules en el Buraco das Araras, en Bonito. Create Travel diseña viajes privados y a medida a Fauna de Brasil para viajeros internacionales, con guías en español, y envía un presupuesto por escrito por WhatsApp.",
     intro: [
       "Existe un Brasil que no aparece en las fotos de playa: es el Brasil de las huellas en el barro del Pantanal al amanecer, del soplido de una ballena jorobada en el horizonte de Abrolhos, del vuelo azul cobalto de un guacamayo sobre un sumidero de sesenta metros en Bonito. Este es el país con mayor diversidad de vida silvestre de las Américas, y buena parte de ella es observable de día, con comodidad y con guías que dedican la vida a estudiar estos animales — no hace falta una expedición extrema para ver lo más raro del planeta.",
       "Esta guía organiza la fauna brasileña por bioma, por especie y por calendario: qué animal, dónde aparece realmente, en qué mes la probabilidad es real, y cómo enlazar dos o tres de estos santuarios en un solo viaje sin convertirlo en una carrera.",
@@ -506,27 +506,30 @@ export const faunaDoBrasilGuide: BrazilGuideLocalized = {
       ],
     },
     itinerary: {
-      heading: "Itinerarios de fauna combinando biomas",
-      intro:
-        "La lógica aquí es biológica: cada bioma ofrece especies que los otros no tienen, así que el itinerario ideal suma, no repite.",
-      items: [
+      "heading": "Itinerarios de fauna combinando biomas",
+      "intro": "La lógica aquí es biológica: cada bioma ofrece especies que los otros no tienen, así que el itinerario ideal suma, no repite.",
+      "items": [
         {
-          title: "Pantanal + Cerrado (Serra da Canastra) — 8 a 10 días",
-          text: "Jaguares en Porto Jofre y aguará guazú en las sabanas mineras, con vuelo doméstico entre Cuiabá y Belo Horizonte. El par clásico de fauna terrestre del centro de Brasil.",
+          "title": "Pantanal + Cerrado (Serra da Canastra) — 8 a 10 días",
+          "text": "Observación de jaguares en Porto Jofre y aguará guazú en las sabanas de Minas Gerais, enlazadas por un vuelo nacional Cuiabá–Belo Horizonte. Una combinación clásica de fauna terrestre del centro de Brasil."
         },
         {
-          title: "Amazonía (Mamirauá) + Pantanal — 12 a 14 días",
-          text: "Los dos mayores santuarios de jaguar del país, en biomas opuestos: bosque inundado y llanura abierta. Para quien quiere entender la especie en dos escenarios distintos.",
+          "title": "Amazonía (Mamirauá) + Pantanal — 12 a 14 días",
+          "text": "Dos grandes santuarios de jaguares en biomas opuestos: bosque inundado y llanura abierta, para conocer la especie en dos entornos distintos."
         },
         {
-          title: "Bahía (Abrolhos) + Río de Janeiro (Poço das Antas) — 9 a 11 días",
-          text: "Ballena jorobada en el mar y mono león dorado en la mata atlántica, enlazados con facilidad por la malla aérea entre Salvador/Caravelas y Río.",
+          "title": "Bahia (Abrolhos) + Rio de Janeiro (Poço das Antas) — 9 a 11 días",
+          "text": "Observación de ballenas jorobadas en el mar y monos león dorados en el Bosque Atlántico, con conexiones aéreas entre Salvador/Caravelas y Río."
         },
         {
-          title: "Bonito + Pantanal Sur — 8 a 9 días",
-          text: "Guacamayo azul en el Buraco das Araras, flotación en ríos de agua cristalina y fauna pantanera en la porción sur, con base en Campo Grande.",
+          "title": "Bonito + Pantanal sur — 8 a 9 días",
+          "text": "Guacamayos azules en Buraco das Araras, flotación en ríos cristalinos y fauna del sur del Pantanal, con acceso desde Campo Grande. Los avistamientos no están garantizados."
         },
-      ],
+        {
+          "title": "Combina dos o más biomas brasileños",
+          "text": "Brasil tiene seis biomas terrestres — Amazonía, Bosque Atlántico, Cerrado, Caatinga, Pantanal y Pampa — más la zona costera y marina: siete paisajes y culturas distintos. Combina la observación de fauna del Pantanal con los paisajes del Cerrado de Serra da Canastra. Planificamos el ritmo y las conexiones según las condiciones estacionales; los avistamientos de fauna nunca están garantizados."
+        }
+      ]
     },
     tips: {
       heading: "Consejos prácticos para la observación de fauna",
@@ -541,35 +544,50 @@ export const faunaDoBrasilGuide: BrazilGuideLocalized = {
     },
     faq: [
       {
-        q: "¿Cuál es el mejor lugar del mundo para ver jaguares salvajes?",
-        a: "Porto Jofre, en el Pantanal Norte, es hoy el mejor lugar del planeta para la observación sistemática de jaguares en libertad, con avistamientos en barco y tasas de éxito superiores al 90% entre julio y octubre.",
+        "q": "¿Cuál es el mejor lugar del mundo para ver jaguares salvajes?",
+        "a": "Porto Jofre, en el Pantanal Norte, es hoy el mejor lugar del planeta para la observación sistemática de jaguares en libertad, con avistamientos en barco y tasas de éxito superiores al 90% entre julio y octubre."
       },
       {
-        q: "¿Cuándo es la mejor época para ver ballenas en Brasil?",
-        a: "Jorobadas en Abrolhos (Bahía) de julio a octubre, y ballenas francas en Imbituba y Praia do Rosa (Santa Catarina) de julio a noviembre, con pico en agosto y septiembre para ambas especies.",
+        "q": "¿Cuándo es la mejor época para ver ballenas en Brasil?",
+        "a": "Jorobadas en Abrolhos (Bahía) de julio a octubre, y ballenas francas en Imbituba y Praia do Rosa (Santa Catarina) de julio a noviembre, con pico en agosto y septiembre para ambas especies."
       },
       {
-        q: "¿Es posible ver jaguares y monos león dorado en el mismo viaje?",
-        a: "Sí, aunque son biomas distintos: jaguar en Mamirauá o en el Pantanal, mono león dorado en la Reserva de Poço das Antas, cerca de Río de Janeiro. Un itinerario de diez a doce días permite ambos con buena logística aérea.",
+        "q": "¿Es posible ver jaguares y monos león dorado en el mismo viaje?",
+        "a": "Sí, aunque son biomas distintos: jaguar en Mamirauá o en el Pantanal, mono león dorado en la Reserva de Poço das Antas, cerca de Río de Janeiro. Un itinerario de diez a doce días permite ambos con buena logística aérea."
       },
       {
-        q: "¿Dónde ver aguará guazú y oso hormiguero gigante en Brasil?",
-        a: "El Parque Nacional de Emas y la Serra da Canastra, ambos en el Cerrado, concentran las mejores probabilidades de avistar estos dos animales al atardecer, además del raro armadillo gigante.",
+        "q": "¿Dónde ver aguará guazú y oso hormiguero gigante en Brasil?",
+        "a": "El Parque Nacional de Emas y la Serra da Canastra, ambos en el Cerrado, concentran las mejores probabilidades de avistar estos dos animales al atardecer, además del raro armadillo gigante."
       },
       {
-        q: "¿Se pueden ver botos rosados todo el año?",
-        a: "Sí, en el Río Negro, cerca de Novo Airão, los encuentros con botos rosados ocurren durante todo el año, con acceso más fácil en la sequía amazónica (septiembre a noviembre).",
+        "q": "¿Se pueden ver botos rosados todo el año?",
+        "a": "Sí, en el Río Negro, cerca de Novo Airão, los encuentros con botos rosados ocurren durante todo el año, con acceso más fácil en la sequía amazónica (septiembre a noviembre)."
       },
       {
-        q: "¿Cuánto cuesta un viaje de observación de fauna con Create Travel?",
-        a: "No trabajamos con valores fijos: el presupuesto depende del bioma, el número de noches y la época. Un consultor humano elabora la propuesta y presenta los valores por escrito, sin estimaciones en el sitio.",
+        "q": "¿Cuánto cuesta un viaje de observación de fauna con Create Travel?",
+        "a": "No trabajamos con valores fijos: el presupuesto depende del bioma, el número de noches y la época. Un consultor humano elabora la propuesta y presenta los valores por escrito, sin estimaciones en el sitio."
       },
+      {
+        "q": "¿Necesito visado o vacunas para Brasil?",
+        "a": "Los requisitos de visado dependen de tu nacionalidad y pueden cambiar. Consulta fuentes oficiales consulares y de inmigración brasileñas antes de reservar. Acude con antelación a un profesional de salud del viajero y consulta las recomendaciones sanitarias oficiales sobre vacunas habituales, fiebre amarilla y precauciones regionales."
+      },
+      {
+        "q": "¿Hay guías en español en todas las excursiones?",
+        "a": "Sí. Create Travel ofrece guías en español en todas las excursiones de tu itinerario privado y a medida."
+      },
+      {
+        "q": "¿Cómo llegar para un viaje a Fauna de Brasil?",
+        "a": "Vuela a un hub brasileño y conecta con el aeropuerto del bioma elegido, como Cuiabá para el Pantanal norte o Campo Grande para el Pantanal sur y Bonito. Create Travel organiza traslados privados hasta tu alojamiento o punto de embarque."
+      },
+      {
+        "q": "¿Puedo combinar Fauna de Brasil con otros biomas brasileños?",
+        "a": "Sí. Brasil tiene seis biomas terrestres — Amazonía, Bosque Atlántico, Cerrado, Caatinga, Pantanal y Pampa — más la zona costera y marina: siete paisajes y culturas distintos. Combina la observación de fauna del Pantanal con los paisajes del Cerrado de Serra da Canastra. Tu diseñador de viajes comprueba la compatibilidad estacional y prevé tiempos de viaje realistas entre regiones."
+      }
     ],
     cta: {
-      heading: "Diseñemos su safari brasileño",
-      subheading:
-        "Un consultor humano de Create Travel elige los biomas, el calendario y los guías adecuados para las especies que usted quiere ver.",
-      button: "Hablar con un travel designer",
+      "heading": "Solicita tu presupuesto para Fauna de Brasil",
+      "subheading": "Un diseñador de viajes humano de Create Travel planifica tu viaje privado y a medida según tus intereses y tu ritmo, y te envía una propuesta por escrito.",
+      "button": "Solicitar presupuesto por WhatsApp"
     },
     readingMinutes: 13,
     publishedAt: "2026-08-11",
@@ -579,14 +597,14 @@ export const faunaDoBrasilGuide: BrazilGuideLocalized = {
     destinationName: "Fauna del Brasile",
     blurb:
       "Un itinerario per biomi per incontrare giaguari, are, balene, delfini e altro — nel calendario e negli indirizzi giusti.",
-    metaTitle: "Fauna del Brasile: dove e quando vedere giaguari, balene e altro",
+    metaTitle: "Fauna del Brasile, Brasile: Itinerario, Periodo Migliore e Preventivo",
     metaDescription:
-      "Guida d'autore alla fauna brasiliana: giaguari a Porto Jofre e Mamirauá, lupo dalla criniera nel Cerrado, tamarino leone dorato vicino a Rio de Janeiro, balene ad Abrolhos e Imbituba, delfini rosa nel Rio Negro e are giacinto a Bonito — mese per mese, bioma per bioma.",
+      "Viaggio privato e su misura: Fauna del Brasile. Itinerario suggerito, periodo migliore e come arrivare. Richiedi un preventivo su WhatsApp.",
     keywords:
-      "fauna del brasile, dove vedere il giaguaro, pantanal giaguaro safari, mamiraua giaguaro, lupo dalla criniera cerrado, tamarino leone dorato, megattera abrolhos, balena franca imbituba, delfino rosa rio negro, ara giacinto bonito, tartaruga marina noronha, safari brasile",
-    h1: "Fauna del Brasile: un safari tra biomi per gli avvistamenti più rari del Sud America",
+      "fauna del brasile, dove vedere il giaguaro, pantanal giaguaro safari, mamiraua giaguaro, lupo dalla criniera cerrado, tamarino leone dorato, megattera abrolhos, balena franca imbituba, delfino rosa rio negro, ara giacinto bonito, tartaruga marina noronha, safari brasile, Fauna del Brasile tour, itinerario Fauna del Brasile, come arrivare a Fauna del Brasile, periodo migliore Fauna del Brasile",
+    h1: "Fauna del Brasile: itinerario, periodo migliore e come arrivare",
     aiAnswer:
-      "Il Brasile concentra in pochi biomi alcuni degli avvistamenti di fauna più rari del pianeta: giaguari a Porto Jofre (Pantanal settentrionale, luglio-ottobre) e a Mamirauá (Amazzonia, stagione secca), lupi dalla criniera e formichieri giganti nel Cerrado (Emas e Serra da Canastra), tamarini leone dorato nella Riserva di Poço das Antas (Rio de Janeiro), megattere ad Abrolhos (luglio-ottobre), balene franche a Imbituba (luglio-novembre), delfini rosa nel Rio Negro tutto l'anno e are giacinto al Buraco das Araras, a Bonito.",
+      "Il Brasile concentra in pochi biomi alcuni degli avvistamenti di fauna più rari del pianeta: giaguari a Porto Jofre (Pantanal settentrionale, luglio-ottobre) e a Mamirauá (Amazzonia, stagione secca), lupi dalla criniera e formichieri giganti nel Cerrado (Emas e Serra da Canastra), tamarini leone dorato nella Riserva di Poço das Antas (Rio de Janeiro), megattere ad Abrolhos (luglio-ottobre), balene franche a Imbituba (luglio-novembre), delfini rosa nel Rio Negro tutto l'anno e are giacinto al Buraco das Araras, a Bonito. Create Travel crea viaggi privati e su misura per Fauna del Brasile per viaggiatori internazionali, con guide in italiano, e invia un preventivo scritto via WhatsApp.",
     intro: [
       "Esiste un Brasile che non compare nelle foto da spiaggia: è il Brasile delle orme nel fango del Pantanal all'alba, del soffio di una megattera all'orizzonte di Abrolhos, del volo blu cobalto di un'ara sopra una dolina di sessanta metri a Bonito. Questo è il paese con la maggiore diversità di fauna selvatica delle Americhe, e gran parte di essa è osservabile di giorno, con comfort e guide che dedicano la vita allo studio di questi animali — non serve una spedizione estrema per vedere ciò che c'è di più raro sul pianeta.",
       "Questa guida organizza la fauna brasiliana per bioma, per specie e per calendario: quale animale, dove appare realmente, in quale mese la probabilità è concreta, e come collegare due o tre di questi santuari in un unico viaggio senza trasformarlo in una corsa.",
@@ -695,27 +713,30 @@ export const faunaDoBrasilGuide: BrazilGuideLocalized = {
       ],
     },
     itinerary: {
-      heading: "Itinerari faunistici che combinano biomi",
-      intro:
-        "La logica qui è biologica: ogni bioma offre specie che gli altri non hanno, quindi l'itinerario ideale somma, non ripete.",
-      items: [
+      "heading": "Itinerari faunistici che combinano biomi",
+      "intro": "La logica qui è biologica: ogni bioma offre specie che gli altri non hanno, quindi l'itinerario ideale somma, non ripete.",
+      "items": [
         {
-          title: "Pantanal + Cerrado (Serra da Canastra) — 8-10 giorni",
-          text: "Giaguari a Porto Jofre e lupo dalla criniera nelle savane del Minas Gerais, con volo domestico tra Cuiabá e Belo Horizonte. La coppia classica di fauna terrestre del Brasile centrale.",
+          "title": "Pantanal + Cerrado (Serra da Canastra) — 8–10 giorni",
+          "text": "Osservazione dei giaguari a Porto Jofre e dei lupi dalla criniera nelle savane di Minas Gerais, collegate da un volo interno Cuiabá–Belo Horizonte. Un abbinamento classico della fauna terrestre del Brasile centrale."
         },
         {
-          title: "Amazzonia (Mamirauá) + Pantanal — 12-14 giorni",
-          text: "I due maggiori santuari di giaguari del paese, in biomi opposti: foresta allagata e pianura aperta. Per chi vuole capire la specie in due scenari distinti.",
+          "title": "Amazzonia (Mamirauá) + Pantanal — 12–14 giorni",
+          "text": "Due grandi santuari dei giaguari in biomi opposti: foresta allagata e pianura aperta, per conoscere la specie in due ambienti diversi."
         },
         {
-          title: "Bahia (Abrolhos) + Rio de Janeiro (Poço das Antas) — 9-11 giorni",
-          text: "Megattera in mare e tamarino leone dorato nella foresta atlantica, collegati con facilità dalla rete aerea tra Salvador/Caravelas e Rio.",
+          "title": "Bahia (Abrolhos) + Rio de Janeiro (Poço das Antas) — 9–11 giorni",
+          "text": "Osservazione delle megattere in mare e dei tamarini leone dorato nella Foresta Atlantica, con collegamenti aerei tra Salvador/Caravelas e Rio."
         },
         {
-          title: "Bonito + Pantanal meridionale — 8-9 giorni",
-          text: "Ara giacinto al Buraco das Araras, discesa in fiumi dall'acqua cristallina e fauna del Pantanal nella porzione meridionale, con base a Campo Grande.",
+          "title": "Bonito + Pantanal meridionale — 8–9 giorni",
+          "text": "Are giacinto al Buraco das Araras, galleggiamento nei fiumi cristallini e fauna del Pantanal meridionale, con accesso da Campo Grande. Gli avvistamenti non sono garantiti."
         },
-      ],
+        {
+          "title": "Combina due o più biomi brasiliani",
+          "text": "Il Brasile ha sei biomi terrestri — Amazzonia, Foresta Atlantica, Cerrado, Caatinga, Pantanal e Pampa — più la zona costiera e marina: sette paesaggi e culture diversi. Combina l’osservazione della fauna del Pantanal con i paesaggi del Cerrado della Serra da Canastra. Pianifichiamo ritmi e collegamenti secondo le condizioni stagionali; gli avvistamenti di fauna non sono mai garantiti."
+        }
+      ]
     },
     tips: {
       heading: "Consigli pratici per l'osservazione della fauna",
@@ -730,35 +751,50 @@ export const faunaDoBrasilGuide: BrazilGuideLocalized = {
     },
     faq: [
       {
-        q: "Qual è il posto migliore al mondo per vedere giaguari selvatici?",
-        a: "Porto Jofre, nel Pantanal settentrionale, è oggi il miglior luogo al mondo per l'osservazione sistematica di giaguari in libertà, con avvistamenti in barca e tassi di successo superiori al 90% tra luglio e ottobre.",
+        "q": "Qual è il posto migliore al mondo per vedere giaguari selvatici?",
+        "a": "Porto Jofre, nel Pantanal settentrionale, è oggi il miglior luogo al mondo per l'osservazione sistematica di giaguari in libertà, con avvistamenti in barca e tassi di successo superiori al 90% tra luglio e ottobre."
       },
       {
-        q: "Qual è il periodo migliore per vedere le balene in Brasile?",
-        a: "Megattere ad Abrolhos (Bahia) da luglio a ottobre, e balene franche a Imbituba e Praia do Rosa (Santa Catarina) da luglio a novembre, con picco ad agosto e settembre per entrambe le specie.",
+        "q": "Qual è il periodo migliore per vedere le balene in Brasile?",
+        "a": "Megattere ad Abrolhos (Bahia) da luglio a ottobre, e balene franche a Imbituba e Praia do Rosa (Santa Catarina) da luglio a novembre, con picco ad agosto e settembre per entrambe le specie."
       },
       {
-        q: "È possibile vedere giaguari e tamarini leone dorato nello stesso viaggio?",
-        a: "Sì, anche se sono biomi distinti: giaguaro a Mamirauá o nel Pantanal, tamarino leone dorato nella Riserva di Poço das Antas, vicino a Rio de Janeiro. Un itinerario di dieci-dodici giorni può includere entrambi con una buona logistica aerea.",
+        "q": "È possibile vedere giaguari e tamarini leone dorato nello stesso viaggio?",
+        "a": "Sì, anche se sono biomi distinti: giaguaro a Mamirauá o nel Pantanal, tamarino leone dorato nella Riserva di Poço das Antas, vicino a Rio de Janeiro. Un itinerario di dieci-dodici giorni può includere entrambi con una buona logistica aerea."
       },
       {
-        q: "Dove vedere il lupo dalla criniera e il formichiere gigante in Brasile?",
-        a: "Il Parco Nazionale di Emas e la Serra da Canastra, entrambi nel Cerrado, offrono le migliori probabilità di avvistare questi due animali al crepuscolo, oltre al raro armadillo gigante.",
+        "q": "Dove vedere il lupo dalla criniera e il formichiere gigante in Brasile?",
+        "a": "Il Parco Nazionale di Emas e la Serra da Canastra, entrambi nel Cerrado, offrono le migliori probabilità di avvistare questi due animali al crepuscolo, oltre al raro armadillo gigante."
       },
       {
-        q: "I delfini rosa si possono vedere tutto l'anno?",
-        a: "Sì, nel Rio Negro, vicino a Novo Airão, gli incontri con i delfini rosa avvengono durante tutto l'anno, con accesso più facile nella stagione secca amazzonica (settembre-novembre).",
+        "q": "I delfini rosa si possono vedere tutto l'anno?",
+        "a": "Sì, nel Rio Negro, vicino a Novo Airão, gli incontri con i delfini rosa avvengono durante tutto l'anno, con accesso più facile nella stagione secca amazzonica (settembre-novembre)."
       },
       {
-        q: "Quanto costa un viaggio di osservazione della fauna con Create Travel?",
-        a: "Non lavoriamo con tariffe fisse: il budget dipende dal bioma, dal numero di notti e dal periodo. Un consulente umano elabora la proposta e presenta le cifre per iscritto, mai come stime sul sito.",
+        "q": "Quanto costa un viaggio di osservazione della fauna con Create Travel?",
+        "a": "Non lavoriamo con tariffe fisse: il budget dipende dal bioma, dal numero di notti e dal periodo. Un consulente umano elabora la proposta e presenta le cifre per iscritto, mai come stime sul sito."
       },
+      {
+        "q": "Ho bisogno di visto o vaccini per il Brasile?",
+        "a": "I requisiti del visto dipendono dalla nazionalità e possono cambiare. Consulta le fonti ufficiali consolari e di immigrazione brasiliane prima di prenotare. Rivolgiti con anticipo a un professionista della medicina dei viaggi e alle indicazioni sanitarie ufficiali per vaccini di routine, febbre gialla e precauzioni regionali."
+      },
+      {
+        "q": "Sono disponibili guide in italiano in ogni escursione?",
+        "a": "Sì. Create Travel prevede guide in italiano in ogni escursione del tuo itinerario privato e su misura."
+      },
+      {
+        "q": "Come arrivare per un viaggio dedicato a Fauna del Brasile?",
+        "a": "Vola verso un hub brasiliano e prosegui per l’aeroporto del bioma scelto, come Cuiabá per il Pantanal settentrionale o Campo Grande per il Pantanal meridionale e Bonito. Create Travel organizza trasferimenti privati fino all’alloggio o al punto d’imbarco."
+      },
+      {
+        "q": "Posso combinare Fauna del Brasile con altri biomi brasiliani?",
+        "a": "Sì. Il Brasile ha sei biomi terrestri — Amazzonia, Foresta Atlantica, Cerrado, Caatinga, Pantanal e Pampa — più la zona costiera e marina: sette paesaggi e culture diversi. Combina l’osservazione della fauna del Pantanal con i paesaggi del Cerrado della Serra da Canastra. Il tuo travel designer verifica la compatibilità stagionale e prevede tempi di viaggio realistici tra le regioni."
+      }
     ],
     cta: {
-      heading: "Progettiamo il vostro safari brasiliano",
-      subheading:
-        "Un consulente umano di Create Travel sceglie i biomi, il calendario e le guide più adatte alle specie che desiderate vedere.",
-      button: "Parla con un travel designer",
+      "heading": "Richiedi il tuo preventivo per Fauna del Brasile",
+      "subheading": "Un travel designer umano di Create Travel pianifica il tuo viaggio privato e su misura, secondo i tuoi interessi e ritmi, e ti invia una proposta scritta.",
+      "button": "Richiedi un preventivo su WhatsApp"
     },
     readingMinutes: 13,
     publishedAt: "2026-08-11",

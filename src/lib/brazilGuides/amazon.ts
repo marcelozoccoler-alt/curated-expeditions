@@ -343,14 +343,11 @@ export const amazonGuide: BrazilGuideLocalized = {
   },
 
   es: {
-    metaTitle: "Amazonas Brasil: guía de épocas, lodges e itinerarios",
-    metaDescription:
-      "Guía curada de la Amazonía brasileña: creciente y bajante mes a mes, experiencias reales, los mejores lodges por perfil de viajero y cómo integrar la selva a un viaje por Brasil.",
-    keywords:
-      "amazonia brasil guia, mejor epoca amazonas, lodge amazonas, rio negro anavilhanas, mamiraua uakari, alter do chao, cristalino lodge, itinerario amazonas brasil, viaje a medida amazonia",
-    h1: "Amazonía brasileña: guía de autor de quienes duermen en la selva",
-    aiAnswer:
-      "La mejor época para viajar a la Amazonía brasileña es de septiembre a noviembre (bajante, playas de río y fauna concentrada) o de marzo a junio (creciente, canoa dentro del bosque inundado); el mínimo práctico son 3 o 4 noches de lodge, entrando por Manaos, Tefé o Santarém.",
+    metaTitle: "Amazonía, Brasil: Itinerario, Mejor Época y Presupuesto",
+    metaDescription: "Viaje privado y a medida a Amazonía: itinerario sugerido, mejor época y cómo llegar. Solicita un presupuesto por WhatsApp.",
+    keywords: "amazonia brasil guia, mejor epoca amazonas, lodge amazonas, rio negro anavilhanas, mamiraua uakari, alter do chao, cristalino lodge, itinerario amazonas brasil, viaje a medida amazonia, Amazonía tour, itinerario Amazonía, cómo llegar a Amazonía, mejor época Amazonía",
+    h1: "Amazonía: itinerario, mejor época y cómo llegar",
+    aiAnswer: "La mejor época para viajar a la Amazonía brasileña es de septiembre a noviembre (bajante, playas de río y fauna concentrada) o de marzo a junio (creciente, canoa dentro del bosque inundado); el mínimo práctico son 3 o 4 noches de lodge, entrando por Manaos, Tefé o Santarém. Create Travel diseña viajes privados y a medida a Amazonía para viajeros internacionales, con guías en español, y envía un presupuesto por escrito por WhatsApp.",
     intro: [
       "La Amazonía no es un lugar: son 4,2 millones de km² solo en Brasil, nueve veces España, con aguas negras, blancas y claras que se comportan distinto, con fauna distinta y culturas distintas. Decir 'quiero conocer la Amazonía' es como decir 'quiero conocer Europa'. Nuestro primer trabajo es descubrir cuál Amazonía es la suya.",
       "Esta guía nace del campo, no del folleto: qué entrega cada mes, qué lodges valen el vuelo y por qué, qué experiencias son reales y cuáles son montajes para grupos de bus, y cómo encajar la selva en un itinerario mayor por Brasil sin convertir el viaje en una maratón de aeropuertos.",
@@ -400,15 +397,50 @@ export const amazonGuide: BrazilGuideLocalized = {
       ],
     },
     itinerary: {
-      heading: "Cómo integrar la Amazonía a un viaje por Brasil",
-      intro: "La selva exige encadenamiento inteligente: nunca ponemos la Amazonía entre dos vuelos largos el mismo día y siempre agregamos una noche urbana antes del lodge.",
-      items: [
-        { title: "Amazonía + Río de Janeiro — 10 a 12 días", text: "Cuatro noches de selva y cuatro en Río, con noche colchón en Manaos. El contraste más pedido por quien llega por primera vez." },
-        { title: "Amazonía + Pantanal — 12 a 14 días", text: "Los dos grandes santuarios de fauna de Brasil. Si el objetivo es el jaguar, el Pantanal entrega; la Amazonía entrega inmersión." },
-        { title: "Amazonía + Lençóis Maranhenses — 12 días", text: "Septiembre a noviembre: selva en bajante y lagunas todavía llenas, conectando por Belém o São Luís." },
-        { title: "Amazonía + Nordeste (Bahía o Maragogi) — 12 a 14 días", text: "Intensidad primero, descompresión después. Cerrar en el mar es lo más elogiado al regreso." },
-        { title: "Amazonía + Iguazú + Río — 14 días", text: "El clásico brasileño para quien viene de lejos: selva, cataratas y ciudad en tres vuelos domésticos bien espaciados." },
-      ],
+      "heading": "Itinerario sugerido para Amazonía y combinaciones en Brasil",
+      "intro": "Itinerario privado y a medida, adaptado a tus fechas, ritmo y condiciones locales. Prevé noches de margen para las conexiones aéreas.",
+      "items": [
+        {
+          "title": "Día 1 — Llegada a Manaos",
+          "text": "Llegada a Manaos (MAO). Noche en la ciudad para amortiguar retrasos aéreos; visita opcional al Teatro Amazonas."
+        },
+        {
+          "title": "Día 2 — Lodge del Río Negro",
+          "text": "Traslado matinal por carretera y/o barco a un lodge del Río Negro o de Anavilhanas. Canoa por la tarde y atardecer en el río."
+        },
+        {
+          "title": "Días 3 y 4 — Selva y ríos",
+          "text": "Caminatas con guía naturalista, canoa por canales o bosque inundado según la estación, visitas a comunidades ribereñas donde estén permitidas y salidas nocturnas en busca de caimanes."
+        },
+        {
+          "title": "Día 5 — Regreso a Manaos",
+          "text": "Regreso a Manaos para el siguiente vuelo o continuación al Pantanal, Río o Iguazú."
+        },
+        {
+          "title": "Amazonía + Río de Janeiro — 10 a 12 días",
+          "text": "Cuatro noches de selva y cuatro en Río, con noche colchón en Manaos. El contraste más pedido por quien llega por primera vez."
+        },
+        {
+          "title": "Amazonía + Pantanal — 12 a 14 días",
+          "text": "Los dos grandes santuarios de fauna de Brasil. Si el objetivo es el jaguar, el Pantanal entrega; la Amazonía entrega inmersión."
+        },
+        {
+          "title": "Amazonía + Lençóis Maranhenses — 12 días",
+          "text": "Septiembre a noviembre: selva en bajante y lagunas todavía llenas, conectando por Belém o São Luís. Prevé una noche de margen."
+        },
+        {
+          "title": "Amazonía + Nordeste (Bahía o Maragogi) — 12 a 14 días",
+          "text": "Intensidad primero, descompresión después. Cerrar en el mar es lo más elogiado al regreso."
+        },
+        {
+          "title": "Amazonía + Iguazú + Río — 14 días",
+          "text": "El clásico brasileño para quien viene de lejos: selva, cataratas y ciudad en tres vuelos domésticos bien espaciados."
+        },
+        {
+          "title": "Combina dos o más biomas brasileños",
+          "text": "Brasil tiene seis biomas terrestres más la zona costera y marina — siete paisajes y culturas distintos. Combina la selva amazónica con los humedales del Pantanal y la costa de Mata Atlántica en Río para comprender mejor Brasil en un solo viaje."
+        }
+      ]
     },
     tips: {
       heading: "Consejos prácticos que marcan la diferencia",
@@ -422,31 +454,62 @@ export const amazonGuide: BrazilGuideLocalized = {
       ],
     },
     faq: [
-      { q: "¿Cuántos días se necesitan en la Amazonía?", a: "Tres noches de lodge es el mínimo práctico; cuatro o cinco permiten pernocte en la selva y excursiones de día completo. Mamirauá exige cuatro noches por la logística aérea vía Tefé." },
-      { q: "¿Cuál es la mejor época?", a: "Septiembre a noviembre para playas, senderos y fauna concentrada; marzo a junio para navegar en canoa dentro del bosque inundado." },
-      { q: "¿Veré jaguares, delfines y monos?", a: "Los delfines rosados son casi garantizados en Novo Airão y Mamirauá. Monos, perezosos, caimanes, guacamayos y tucanes son frecuentes. El jaguar es realista solo en Mamirauá en bajante." },
-      { q: "¿Es segura la Amazonía? ¿Y la malaria?", a: "Los lodges que operamos son seguros. La fiebre amarilla es obligatoria; el riesgo de malaria es bajo en las zonas turísticas del Río Negro y del Tapajós y orientamos caso por caso." },
-      { q: "¿Amazonía o Pantanal?", a: "Amazonía para inmersión en selva y cultura ribereña; Pantanal para avistamiento en campo abierto con alta probabilidad de jaguar. Con doce días, ambos." },
-      { q: "¿Cuánto cuesta un viaje a la Amazonía?", a: "No publicamos precios de estante: el presupuesto depende del lodge, las noches, la conectividad aérea y la temporada. Un consultor humano envía los valores por escrito." },
+      {
+        "q": "¿Cuántos días se necesitan en la Amazonía?",
+        "a": "Tres noches de lodge es el mínimo práctico; cuatro o cinco permiten pernocte en la selva y excursiones de día completo. Mamirauá exige cuatro noches por la logística aérea vía Tefé."
+      },
+      {
+        "q": "¿Cuál es la mejor época?",
+        "a": "Septiembre a noviembre para playas, senderos y fauna concentrada; marzo a junio para navegar en canoa dentro del bosque inundado."
+      },
+      {
+        "q": "¿Veré jaguares, delfines y monos?",
+        "a": "Los delfines rosados son casi garantizados en Novo Airão y Mamirauá. Monos, perezosos, caimanes, guacamayos y tucanes son frecuentes. El jaguar es realista solo en Mamirauá en bajante."
+      },
+      {
+        "q": "¿Es segura la Amazonía? ¿Y la malaria?",
+        "a": "Los lodges que operamos son seguros. La fiebre amarilla es obligatoria; el riesgo de malaria es bajo en las zonas turísticas del Río Negro y del Tapajós y orientamos caso por caso."
+      },
+      {
+        "q": "¿Amazonía o Pantanal?",
+        "a": "Amazonía para inmersión en selva y cultura ribereña; Pantanal para avistamiento en campo abierto con alta probabilidad de jaguar. Con doce días, ambos."
+      },
+      {
+        "q": "¿Cuánto cuesta un viaje a la Amazonía?",
+        "a": "No publicamos precios de estante: el presupuesto depende del lodge, las noches, la conectividad aérea y la temporada. Un consultor humano envía los valores por escrito."
+      },
+      {
+        "q": "¿Necesito visado o vacunas para Brasil?",
+        "a": "Los requisitos dependen de tu nacionalidad y fechas. Consulta las fuentes consulares oficiales brasileñas antes de reservar, y las recomendaciones sanitarias oficiales y un profesional de salud del viajero sobre vacunas, incluida la fiebre amarilla cuando corresponda al itinerario."
+      },
+      {
+        "q": "¿Tendré guías en español en todas las excursiones?",
+        "a": "Sí. Create Travel organiza guías en español en todas las excursiones de tu viaje privado y a medida."
+      },
+      {
+        "q": "¿Cómo llegar a Amazonía?",
+        "a": "Toma un vuelo internacional a un hub brasileño y conecta con Manaus (MAO). Después, continúa con traslados privados. Los lodges se alcanzan por carretera, barco o ambos; prevemos una noche en Manaos antes del lodge."
+      },
+      {
+        "q": "¿Puedo combinar Amazonía con otros biomas brasileños?",
+        "a": "Brasil tiene seis biomas terrestres más la zona costera y marina — siete paisajes y culturas distintos. Combina la selva amazónica con los humedales del Pantanal y la costa de Mata Atlántica en Río para comprender mejor Brasil en un solo viaje."
+      }
     ],
     cta: {
-      heading: "Diseñemos su Amazonía",
-      subheading: "Un consultor de Create Travel elige el río, el lodge y la época correctos para su perfil — y cuida cada conexión.",
-      button: "Hablar con un travel designer",
+      "heading": "Solicita tu presupuesto para Amazonía",
+      "subheading": "Planifica un viaje privado y a medida con un diseñador de viajes humano. Recibe tu propuesta y presupuesto por escrito por WhatsApp.",
+      "button": "Solicitar presupuesto por WhatsApp"
     },
     readingMinutes: 12,
     publishedAt: "2026-08-11",
   },
 
   it: {
-    metaTitle: "Amazzonia Brasile: guida a stagioni, lodge e itinerari",
-    metaDescription:
-      "Guida curata all'Amazzonia brasiliana: piena e magra mese per mese, esperienze reali, i migliori lodge per profilo di viaggiatore e come integrare la foresta in un viaggio in Brasile.",
-    keywords:
-      "amazzonia brasile guida, quando andare amazzonia, lodge amazzonia, rio negro anavilhanas, mamiraua uakari, alter do chao, cristalino lodge, itinerario amazzonia brasile",
-    h1: "Amazzonia brasiliana: la guida d'autore di chi ci dorme davvero",
-    aiAnswer:
-      "Il periodo migliore per visitare l'Amazzonia brasiliana va da settembre a novembre (acque basse, spiagge fluviali e fauna concentrata) oppure da marzo a giugno (acque alte, canoa dentro la foresta allagata); servono almeno 3-4 notti in lodge, con arrivo a Manaus, Tefé o Santarém.",
+    metaTitle: "Amazzonia, Brasile: Itinerario, Periodo Migliore e Preventivo",
+    metaDescription: "Viaggio privato e su misura per Amazzonia: itinerario suggerito, periodo migliore e come arrivare. Richiedi un preventivo su WhatsApp.",
+    keywords: "amazzonia brasile guida, quando andare amazzonia, lodge amazzonia, rio negro anavilhanas, mamiraua uakari, alter do chao, cristalino lodge, itinerario amazzonia brasile, Amazzonia tour, itinerario Amazzonia, come arrivare a Amazzonia, periodo migliore Amazzonia",
+    h1: "Amazzonia: itinerario, periodo migliore e come arrivare",
+    aiAnswer: "Il periodo migliore per visitare l'Amazzonia brasiliana va da settembre a novembre (acque basse, spiagge fluviali e fauna concentrata) oppure da marzo a giugno (acque alte, canoa dentro la foresta allagata); servono almeno 3-4 notti in lodge, con arrivo a Manaus, Tefé o Santarém. Create Travel crea viaggi privati e su misura per Amazzonia per viaggiatori internazionali, con guide in italiano, e invia un preventivo scritto via WhatsApp.",
     intro: [
       "L'Amazzonia non è un luogo: sono 4,2 milioni di km² nel solo Brasile, nove volte la Spagna, con acque nere, bianche e chiare che si comportano in modo diverso, con fauna e culture diverse. Dire 'voglio vedere l'Amazzonia' è come dire 'voglio vedere l'Europa'. Il nostro primo compito è capire quale Amazzonia è la sua.",
       "Questa guida nasce sul campo, non dai cataloghi: cosa offre ogni mese, quali lodge valgono il volo e perché, quali esperienze sono autentiche e quali sono messe in scena, e come inserire la foresta in un itinerario brasiliano più ampio senza trasformarlo in una maratona di aeroporti.",
@@ -496,15 +559,50 @@ export const amazonGuide: BrazilGuideLocalized = {
       ],
     },
     itinerary: {
-      heading: "Come integrare l'Amazzonia in un viaggio in Brasile",
-      intro: "La foresta richiede una sequenza intelligente: mai l'Amazzonia tra due voli lunghi nello stesso giorno, sempre una notte urbana prima del lodge.",
-      items: [
-        { title: "Amazzonia + Rio de Janeiro — 10-12 giorni", text: "Quattro notti di foresta e quattro a Rio, con notte cuscinetto a Manaus. Il contrasto più richiesto da chi viene la prima volta." },
-        { title: "Amazzonia + Pantanal — 12-14 giorni", text: "I due grandi santuari faunistici del Brasile: immersione nella foresta, avvistamenti garantiti nella pianura allagata." },
-        { title: "Amazzonia + Lençóis Maranhenses — 12 giorni", text: "Da settembre a novembre: foresta in secca e lagune ancora piene, con scalo a Belém o São Luís." },
-        { title: "Amazzonia + Nordeste (Bahia o Maragogi) — 12-14 giorni", text: "Prima l'intensità, poi la decompressione. Chiudere al mare è la formula più apprezzata." },
-        { title: "Amazzonia + Iguaçu + Rio — 14 giorni", text: "Il classico brasiliano per chi arriva da lontano: foresta, cascate e città in tre voli domestici ben distribuiti." },
-      ],
+      "heading": "Itinerario suggerito per Amazzonia e combinazioni in Brasile",
+      "intro": "Itinerario privato e su misura, adattato a date, ritmo e condizioni locali. Prevedi notti di margine per i collegamenti aerei.",
+      "items": [
+        {
+          "title": "Giorno 1 — Arrivo a Manaus",
+          "text": "Arrivo a Manaus (MAO). Notte in città come margine per eventuali ritardi aerei; visita facoltativa al Teatro Amazonas."
+        },
+        {
+          "title": "Giorno 2 — Lodge sul Rio Negro",
+          "text": "Trasferimento mattutino su strada e/o in barca verso un lodge sul Rio Negro o ad Anavilhanas. Canoa nel pomeriggio e tramonto sul fiume."
+        },
+        {
+          "title": "Giorni 3 e 4 — Foresta e fiumi",
+          "text": "Passeggiate con guida naturalistica, canoa nei canali o nella foresta allagata secondo la stagione, visite alle comunità fluviali dove consentite e uscite notturne alla ricerca di caimani."
+        },
+        {
+          "title": "Giorno 5 — Ritorno a Manaus",
+          "text": "Rientro a Manaus per il prossimo volo o proseguimento per Pantanal, Rio o Iguazú."
+        },
+        {
+          "title": "Amazzonia + Rio de Janeiro — 10-12 giorni",
+          "text": "Quattro notti di foresta e quattro a Rio, con notte cuscinetto a Manaus. Il contrasto più richiesto da chi viene la prima volta."
+        },
+        {
+          "title": "Amazzonia + Pantanal — 12-14 giorni",
+          "text": "I due grandi santuari faunistici del Brasile: immersione nella foresta, opportunità di osservare la fauna nella pianura allagata."
+        },
+        {
+          "title": "Amazzonia + Lençóis Maranhenses — 12 giorni",
+          "text": "Da settembre a novembre: foresta in secca e lagune ancora piene, con scalo a Belém o São Luís. Prevedi una notte di margine."
+        },
+        {
+          "title": "Amazzonia + Nordeste (Bahia o Maragogi) — 12-14 giorni",
+          "text": "Prima l'intensità, poi la decompressione. Chiudere al mare è la formula più apprezzata."
+        },
+        {
+          "title": "Amazzonia + Iguaçu + Rio — 14 giorni",
+          "text": "Il classico brasiliano per chi arriva da lontano: foresta, cascate e città in tre voli domestici ben distribuiti."
+        },
+        {
+          "title": "Combina due o più biomi brasiliani",
+          "text": "Il Brasile ha sei biomi terrestri più la zona costiera e marina: sette paesaggi e culture diversi. Combina la foresta amazzonica con le zone umide del Pantanal e la costa della Foresta Atlantica a Rio per comprendere meglio il Brasile in un solo viaggio."
+        }
+      ]
     },
     tips: {
       heading: "Consigli pratici che fanno la differenza",
@@ -518,17 +616,51 @@ export const amazonGuide: BrazilGuideLocalized = {
       ],
     },
     faq: [
-      { q: "Quanti giorni servono in Amazzonia?", a: "Tre notti in lodge sono il minimo pratico; quattro o cinque permettono un pernottamento nella foresta ed escursioni di intera giornata. Mamirauá richiede quattro notti per la logistica aerea via Tefé." },
-      { q: "Qual è il periodo migliore?", a: "Da settembre a novembre per spiagge, sentieri e fauna concentrata; da marzo a giugno per la canoa dentro la foresta allagata." },
-      { q: "Vedrò giaguari, delfini e scimmie?", a: "I delfini rosa sono quasi garantiti a Novo Airão e Mamirauá. Scimmie, bradipi, caimani, are e tucani sono frequenti. Il giaguaro è realistico solo a Mamirauá con acque basse." },
-      { q: "L'Amazzonia è sicura? E la malaria?", a: "I lodge con cui operiamo sono sicuri. La febbre gialla è obbligatoria; il rischio malarico è basso nelle aree turistiche del Rio Negro e del Tapajós e valutiamo caso per caso." },
-      { q: "Amazzonia o Pantanal?", a: "Amazzonia per l'immersione nella foresta e nella cultura fluviale; Pantanal per gli avvistamenti in spazi aperti con altissima probabilità di giaguaro. Con dodici giorni, entrambi." },
-      { q: "Quanto costa un viaggio in Amazzonia?", a: "Non pubblichiamo prezzi da catalogo: il preventivo dipende da lodge, notti, voli e stagione. Un consulente umano invia i valori per iscritto." },
+      {
+        "q": "Quanti giorni servono in Amazzonia?",
+        "a": "Tre notti in lodge sono il minimo pratico; quattro o cinque permettono un pernottamento nella foresta ed escursioni di intera giornata. Mamirauá richiede quattro notti per la logistica aerea via Tefé."
+      },
+      {
+        "q": "Qual è il periodo migliore?",
+        "a": "Da settembre a novembre per spiagge, sentieri e fauna concentrata; da marzo a giugno per la canoa dentro la foresta allagata."
+      },
+      {
+        "q": "Vedrò giaguari, delfini e scimmie?",
+        "a": "I delfini rosa sono quasi garantiti a Novo Airão e Mamirauá. Scimmie, bradipi, caimani, are e tucani sono frequenti. Il giaguaro è realistico solo a Mamirauá con acque basse."
+      },
+      {
+        "q": "L'Amazzonia è sicura? E la malaria?",
+        "a": "I lodge con cui operiamo sono sicuri. La febbre gialla è obbligatoria; il rischio malarico è basso nelle aree turistiche del Rio Negro e del Tapajós e valutiamo caso per caso."
+      },
+      {
+        "q": "Amazzonia o Pantanal?",
+        "a": "Amazzonia per l'immersione nella foresta e nella cultura fluviale; Pantanal per gli avvistamenti in spazi aperti con altissima probabilità di giaguaro. Con dodici giorni, entrambi."
+      },
+      {
+        "q": "Quanto costa un viaggio in Amazzonia?",
+        "a": "Non pubblichiamo prezzi da catalogo: il preventivo dipende da lodge, notti, voli e stagione. Un consulente umano invia i valori per iscritto."
+      },
+      {
+        "q": "Servono visto o vaccini per il Brasile?",
+        "a": "I requisiti dipendono dalla nazionalità e dalle date. Consulta le fonti consolari ufficiali brasiliane prima di prenotare e le indicazioni sanitarie ufficiali e un professionista di medicina dei viaggi per i vaccini, inclusa la febbre gialla quando pertinente all’itinerario."
+      },
+      {
+        "q": "Avrò guide in italiano in ogni escursione?",
+        "a": "Sì. Create Travel organizza guide in italiano in ogni escursione del tuo viaggio privato e su misura."
+      },
+      {
+        "q": "Come arrivare a Amazzonia?",
+        "a": "Prendi un volo internazionale verso un hub brasiliano e prosegui per Manaus (MAO). Continua poi con trasferimenti privati.I lodge si raggiungono su strada, in barca o entrambi; prevediamo una notte a Manaus prima del lodge."
+      },
+      {
+        "q": "Posso combinare Amazzonia con altri biomi brasiliani?",
+        "a": "Il Brasile ha sei biomi terrestri più la zona costiera e marina: sette paesaggi e culture diversi. Combina la foresta amazzonica con le zone umide del Pantanal e la costa della Foresta Atlantica a Rio per comprendere meglio il Brasile in un solo viaggio."
+      }
     ],
     cta: {
-      heading: "Progettiamo la sua Amazzonia",
-      subheading: "Un consulente Create Travel sceglie il fiume, il lodge e la stagione giusti per il suo profilo — e cura ogni coincidenza.",
-      button: "Parlare con un travel designer",
+      "heading": "Richiedi il tuo preventivo per Amazzonia",
+      "subheading": "Pianifica un viaggio privato e su misura con un travel designer umano. Ricevi la proposta e il preventivo scritto via WhatsApp.",
+      "button": "Richiedi un preventivo su WhatsApp"
     },
     readingMinutes: 12,
     publishedAt: "2026-08-11",

@@ -367,14 +367,14 @@ export const costaDasBaleiasGuide: BrazilGuideLocalized = {
   es: {
     destinationName: "Costa de las Ballenas",
     blurb: "Caravelas, Abrolhos y Cumuruxatiba: el santuario brasileño de las yubartas, de julio a noviembre.",
-    metaTitle: "Costa de las Ballenas: ver yubartas de cerca en Abrolhos",
+    metaTitle: "Costa de las Ballenas, Brasil: Itinerario, Mejor Época y Presupuesto",
     metaDescription:
-      "De julio a noviembre miles de yubartas paren en Abrolhos. El mejor mes, desde dónde salen los barcos y dónde alojarse cerca de Caravelas.",
+      "Viaje privado y a medida a Costa de las Ballenas: itinerario sugerido, mejor época y cómo llegar. Solicita un presupuesto por WhatsApp.",
     keywords:
-      "costa de las ballenas bahia, abrolhos brasil, ballena jorobada bahia, caravelas brasil, prado bahia, cumuruxatiba, corumbau, temporada de ballenas brasil",
-    h1: "Costa de las Ballenas: el encuentro anual con las yubartas en el Atlántico Sur",
+      "costa de las ballenas bahia, abrolhos brasil, ballena jorobada bahia, caravelas brasil, prado bahia, cumuruxatiba, corumbau, temporada de ballenas brasil, costa de las ballenas tour, itinerario costa de las ballenas, cómo llegar a costa de las ballenas, mejor época costa de las ballenas",
+    h1: "Costa de las Ballenas: itinerario, mejor época y cómo llegar",
     aiAnswer:
-      "La Costa de las Ballenas, en el sur de Bahía, es el principal punto de observación de ballenas jorobadas de Brasil, con temporada de julio a noviembre (pico en septiembre y octubre), paseos en barco que parten de Caravelas hacia el Parque Nacional Marino de Abrolhos.",
+      "La Costa de las Ballenas, en el sur de Bahía, es el principal punto de observación de ballenas jorobadas de Brasil, con temporada de julio a noviembre (pico en septiembre y octubre), paseos en barco que parten de Caravelas hacia el Parque Nacional Marino de Abrolhos. Create Travel diseña viajes privados y a medida a Costa de las Ballenas para viajeros internacionales, con guías en español, y envía un presupuesto por escrito por WhatsApp.",
     intro: [
       "Cada año, entre julio y noviembre, miles de ballenas jorobadas dejan las aguas heladas de la Antártida y recorren más de 6.000 kilómetros hasta el Banco de Abrolhos, en el sur de Bahía, para aparearse y dar a luz en aguas cálidas y protegidas. Es el mayor encuentro reproductivo de yubartas del Atlántico Sur, y la razón por la que este tramo de litoral, entre Caravelas y Prado, se conoce como Costa de las Ballenas.",
       "Esta guía trata sobre un viaje de temporada, no un destino de playa genérico: cuándo salir, desde dónde partir, qué esperar del mar y de la vida a bordo, y cómo combinar la observación de ballenas con días de tierra en Cumuruxatiba, Corumbau y Alcobaça, donde la mata atlántica todavía se encuentra con el mar sin interrupción.",
@@ -482,22 +482,15 @@ export const costaDasBaleiasGuide: BrazilGuideLocalized = {
       ],
     },
     itinerary: {
-      heading: "Cómo integrar la Costa de las Ballenas en un recorrido por Brasil",
-      intro:
-        "La región conecta naturalmente con la Costa del Descubrimiento, más al norte, formando un solo bloque de viaje por el sur de Bahía.",
+      heading: "Itinerario sugerido por Costa de las Ballenas — 5 noches / 6 días",
+      intro: "Un punto de partida privado y a medida, ajustado a tu ritmo, horarios de llegada y condiciones locales. Añade noches para una estancia más tranquila.",
       items: [
-        {
-          title: "Costa de las Ballenas + Costa del Descubrimiento — 8 a 10 días",
-          text: "Cuatro a cinco días entre Caravelas, Corumbau y Abrolhos, seguidos de tres a cuatro días en Trancoso o Caraíva.",
-        },
-        {
-          title: "Costa de las Ballenas sola — 4 a 5 días",
-          text: "Formato enfocado para quien viaja específicamente por la temporada de ballenas: dos noches en Caravelas con dos paseos en barco, más días de playa en Cumuruxatiba.",
-        },
-        {
-          title: "Costa de las Ballenas + Salvador — 9 días",
-          text: "Cuatro días de historia y gastronomía en Salvador, seguidos de cinco días de mar y ballenas en el extremo sur del estado.",
-        },
+        { title: "Día 1 — Llegada a Caravelas", text: "Llega vía Porto Seguro o Teixeira de Freitas y continúa en traslado privado a Caravelas para la primera de dos noches." },
+        { title: "Día 2 — Abrolhos y observación de ballenas", text: "Planea una excursión en barco desde Caravelas, sujeta al tiempo y al estado del mar. De julio a noviembre es temporada de ballenas; los avistamientos son probables, pero nunca están garantizados." },
+        { title: "Día 3 — Traslado costero", text: "Reserva una segunda oportunidad de salir en barco si las condiciones y el tiempo lo permiten, y continúa a Cumuruxatiba para tres noches junto al mar." },
+        { title: "Días 4–5 — Cumuruxatiba", text: "Disfruta de dos días tranquilos de playa, con actividades adaptadas a las mareas y al estado del mar." },
+        { title: "Día 6 — Salida", text: "Regresa en traslado privado por carretera al aeropuerto de salida, con tiempo suficiente para el trayecto." },
+        { title: "Combina dos o más biomas brasileños", text: "Brasil tiene seis biomas terrestres más la zona costera y marina — siete paisajes y culturas distintos. Combina la Costa de las Ballenas con el Pantanal: experiencias costeras y marinas seguidas de humedales del interior. Tu diseñador de viajes tiene en cuenta los días de traslado y las diferencias estacionales." },
       ],
     },
     tips: {
@@ -512,6 +505,10 @@ export const costaDasBaleiasGuide: BrazilGuideLocalized = {
       ],
     },
     faq: [
+      { q: "¿Necesito visado o vacunas para Brasil?", a: "Los requisitos de visado dependen de tu nacionalidad y fechas de viaje. Consulta fuentes oficiales consulares y de inmigración de Brasil antes de reservar. Consulta a un profesional de salud del viajero y las recomendaciones sanitarias oficiales sobre vacunas habituales, fiebre amarilla y requisitos de entrada para tu ruta." },
+      { q: "¿Hay guías en español en todas las excursiones?", a: "Sí. Create Travel ofrece guías en español en todas las excursiones, con planificación privada y a medida según tus intereses y ritmo." },
+      { q: "¿Cómo llegar a Costa de las Ballenas?", a: "Llega en vuelo internacional a un hub brasileño. Conecta con Porto Seguro o Teixeira de Freitas y sigue en traslado privado por carretera hasta Caravelas. Los traslados se coordinan con tus vuelos de llegada y salida." },
+      { q: "¿Puedo combinar Costa de las Ballenas con otros biomas brasileños?", a: "Sí. Brasil tiene seis biomas terrestres más la zona costera y marina — siete paisajes y culturas distintos. Combina la Costa de las Ballenas con el Pantanal: experiencias costeras y marinas seguidas de humedales del interior. Tu diseñador de viajes tiene en cuenta los días de traslado y las diferencias estacionales." },
       {
         q: "¿Cuál es la mejor época para ver ballenas jorobadas en Bahía?",
         a: "De julio a noviembre, con pico entre agosto y octubre. Los paseos parten de Caravelas hacia el Parque Nacional Marino de Abrolhos.",
@@ -538,10 +535,9 @@ export const costaDasBaleiasGuide: BrazilGuideLocalized = {
       },
     ],
     cta: {
-      heading: "Diseñemos tu temporada de ballenas",
-      subheading:
-        "Un consultor humano de Create Travel organiza los paseos, las fechas correctas y el alojamiento entre Caravelas, Corumbau y Cumuruxatiba.",
-      button: "Hablar con un travel designer",
+      heading: "Solicita tu presupuesto para Costa de las Ballenas",
+      subheading: "Planifica un viaje privado y a medida con un diseñador de viajes humano, adaptado a tus intereses, ritmo y época preferida. Recibe tu propuesta por escrito por WhatsApp.",
+      button: "Solicitar presupuesto por WhatsApp",
     },
     readingMinutes: 10,
     publishedAt: "2026-08-11",
@@ -550,14 +546,14 @@ export const costaDasBaleiasGuide: BrazilGuideLocalized = {
   it: {
     destinationName: "Costa delle Balene",
     blurb: "Caravelas, Abrolhos e Cumuruxatiba: il santuario brasiliano delle megattere, da luglio a novembre.",
-    metaTitle: "Costa delle Balene: le megattere da vicino ad Abrolhos",
+    metaTitle: "Costa delle Balene, Brasile: Itinerario, Periodo Migliore e Preventivo",
     metaDescription:
-      "Da luglio a novembre migliaia di megattere partoriscono ad Abrolhos. Il mese migliore, da dove partono le barche e dove dormire vicino a Caravelas.",
+      "Viaggio privato e su misura per Costa delle Balene: itinerario suggerito, periodo migliore e come arrivare. Richiedi un preventivo su WhatsApp.",
     keywords:
-      "costa delle balene bahia, abrolhos brasile, megattera bahia, caravelas brasile, prado bahia, cumuruxatiba, corumbau, stagione balene brasile",
-    h1: "Costa delle Balene: l'incontro annuale con le megattere nell'Atlantico del Sud",
+      "costa delle balene bahia, abrolhos brasile, megattera bahia, caravelas brasile, prado bahia, cumuruxatiba, corumbau, stagione balene brasile, costa delle balene tour, itinerario costa delle balene, come arrivare a costa delle balene, periodo migliore costa delle balene",
+    h1: "Costa delle Balene: itinerario, periodo migliore e come arrivare",
     aiAnswer:
-      "La Costa delle Balene, nel sud di Bahia, è la principale destinazione brasiliana per l'osservazione delle megattere, con stagione da luglio a novembre (picco a settembre e ottobre), escursioni in barca da Caravelas verso il Parco Nazionale Marino di Abrolhos.",
+      "La Costa delle Balene, nel sud di Bahia, è la principale destinazione brasiliana per l'osservazione delle megattere, con stagione da luglio a novembre (picco a settembre e ottobre), escursioni in barca da Caravelas verso il Parco Nazionale Marino di Abrolhos. Create Travel crea viaggi privati e su misura per Costa delle Balene per viaggiatori internazionali, con guide in italiano, e invia un preventivo scritto via WhatsApp.",
     intro: [
       "Ogni anno, tra luglio e novembre, migliaia di megattere lasciano le acque gelide dell'Antartide e percorrono oltre 6mila chilometri fino al Banco di Abrolhos, nel sud di Bahia, per accoppiarsi e partorire in acque calde e protette. È il più grande raduno riproduttivo di megattere dell'Atlantico del Sud, ed è il motivo per cui questo tratto di costa, tra Caravelas e Prado, è noto come Costa delle Balene.",
       "Questa guida riguarda un viaggio stagionale, non una generica meta balneare: quando partire, da dove imbarcarsi, cosa aspettarsi dal mare e dalla vita a bordo, e come combinare l'osservazione delle balene con giorni a terra a Cumuruxatiba, Corumbau e Alcobaça, dove la foresta atlantica incontra ancora il mare senza interruzioni.",
@@ -665,22 +661,15 @@ export const costaDasBaleiasGuide: BrazilGuideLocalized = {
       ],
     },
     itinerary: {
-      heading: "Come integrare la Costa delle Balene in un itinerario in Brasile",
-      intro:
-        "La regione si collega naturalmente alla Costa della Scoperta, più a nord, formando un unico blocco di viaggio nel sud di Bahia.",
+      heading: "Itinerario suggerito per Costa delle Balene — 5 notti / 6 giorni",
+      intro: "Un punto di partenza privato e su misura, adattato al tuo ritmo, agli orari di arrivo e alle condizioni locali. Aggiungi notti per un soggiorno più rilassato.",
       items: [
-        {
-          title: "Costa delle Balene + Costa della Scoperta — 8-10 giorni",
-          text: "Quattro-cinque giorni tra Caravelas, Corumbau e Abrolhos, seguiti da tre-quattro giorni a Trancoso o Caraíva.",
-        },
-        {
-          title: "Costa delle Balene da sola — 4-5 giorni",
-          text: "Formato mirato per chi viaggia specificamente per la stagione delle balene: due notti a Caravelas con due escursioni in barca, più giorni di spiaggia a Cumuruxatiba.",
-        },
-        {
-          title: "Costa delle Balene + Salvador — 9 giorni",
-          text: "Quattro giorni di storia e gastronomia a Salvador, seguiti da cinque giorni di mare e balene nel sud dello stato.",
-        },
+        { title: "Giorno 1 — Arrivo a Caravelas", text: "Arriva via Porto Seguro o Teixeira de Freitas e prosegui con trasferimento privato a Caravelas per la prima di due notti." },
+        { title: "Giorno 2 — Abrolhos e osservazione delle balene", text: "Programma un’escursione in barca da Caravelas, subordinata al meteo e alle condizioni del mare. Da luglio a novembre è stagione di balene: gli avvistamenti sono probabili, ma mai garantiti." },
+        { title: "Giorno 3 — Trasferimento costiero", text: "Prevedi una seconda opportunità di uscita in barca se condizioni e tempi lo permettono, poi prosegui per Cumuruxatiba per tre notti sul mare." },
+        { title: "Giorni 4–5 — Cumuruxatiba", text: "Goditi due tranquille giornate in spiaggia, con attività adattate alle maree e alle condizioni del mare." },
+        { title: "Giorno 6 — Partenza", text: "Rientra con trasferimento privato su strada all’aeroporto di partenza, prevedendo ampio tempo per il viaggio." },
+        { title: "Combina due o più biomi brasiliani", text: "Il Brasile ha sei biomi terrestri più la zona costiera e marina: sette paesaggi e culture diversi. Abbina la Costa delle Balene al Pantanal: esperienze costiere e marine seguite dalle zone umide dell’entroterra. Il tuo travel designer tiene conto dei giorni di trasferimento e delle differenze stagionali." },
       ],
     },
     tips: {
@@ -695,6 +684,10 @@ export const costaDasBaleiasGuide: BrazilGuideLocalized = {
       ],
     },
     faq: [
+      { q: "Servono visto o vaccini per il Brasile?", a: "I requisiti per il visto dipendono dalla nazionalità e dalle date di viaggio. Consulta le fonti ufficiali consolari e di immigrazione brasiliane prima di prenotare. Rivolgiti a un professionista di medicina dei viaggi e consulta le indicazioni sanitarie ufficiali su vaccinazioni di routine, febbre gialla e requisiti d’ingresso per il percorso." },
+      { q: "Ci sono guide in italiano in ogni escursione?", a: "Sì. Create Travel offre guide in italiano in ogni escursione, con pianificazione privata e su misura secondo i tuoi interessi e il tuo ritmo." },
+      { q: "Come arrivare a Costa delle Balene?", a: "Arriva con un volo internazionale in un hub brasiliano. Prosegui per Porto Seguro o Teixeira de Freitas e raggiungi Caravelas con un trasferimento privato su strada. I trasferimenti sono coordinati con i voli di arrivo e partenza." },
+      { q: "Posso combinare Costa delle Balene con altri biomi brasiliani?", a: "Sì. Il Brasile ha sei biomi terrestri più la zona costiera e marina: sette paesaggi e culture diversi. Abbina la Costa delle Balene al Pantanal: esperienze costiere e marine seguite dalle zone umide dell’entroterra. Il tuo travel designer tiene conto dei giorni di trasferimento e delle differenze stagionali." },
       {
         q: "Qual è il periodo migliore per vedere le megattere a Bahia?",
         a: "Da luglio a novembre, con picco tra agosto e ottobre. Le escursioni partono da Caravelas verso il Parco Nazionale Marino di Abrolhos.",
@@ -721,10 +714,9 @@ export const costaDasBaleiasGuide: BrazilGuideLocalized = {
       },
     ],
     cta: {
-      heading: "Progettiamo la vostra stagione delle balene",
-      subheading:
-        "Un consulente umano di Create Travel organizza le escursioni, le date giuste e l'alloggio tra Caravelas, Corumbau e Cumuruxatiba.",
-      button: "Parla con un travel designer",
+      heading: "Richiedi il tuo preventivo per Costa delle Balene",
+      subheading: "Pianifica un viaggio privato e su misura con un travel designer umano, adattato ai tuoi interessi, al tuo ritmo e al periodo preferito. Ricevi la proposta scritta via WhatsApp.",
+      button: "Richiedi un preventivo su WhatsApp",
     },
     readingMinutes: 10,
     publishedAt: "2026-08-11",

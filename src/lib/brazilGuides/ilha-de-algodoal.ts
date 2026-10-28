@@ -389,14 +389,14 @@ export const ilhaDeAlgodoalGuide: BrazilGuideLocalized = {
     destinationName: "Isla de Algodoal",
     blurb:
       "Una isla sin coches en la costa de Pará, entre dunas, lagunas de agua dulce y pueblos de pescadores accesibles solo en barco.",
-    metaTitle: "Isla de Algodoal: guía de la isla sin coches en Pará",
+    metaTitle: "La isla de Algodoal, Brasil: Itinerario, Mejor Época y Presupuesto",
     metaDescription:
-      "Guía completa de la Isla de Algodoal (Maiandeua), Pará: cuándo ir, Lago da Princesa, los pueblos de Fortalezinha y Camboinha, posadas de encanto y cómo llegar por Marudá. Sin precios.",
+      "Planifica un viaje privado y a medida a la isla de Algodoal: itinerario sugerido, mejor época y cómo llegar. Solicita un presupuesto por WhatsApp.",
     keywords:
-      "isla de algodoal, algodoal maiandeua, lago da princesa, como llegar a algodoal, fortalezinha para, posada algodoal, marajo y algodoal",
-    h1: "Isla de Algodoal: la isla sin coches que guarda la costa más salvaje de Pará",
+      "isla de algodoal, algodoal maiandeua, lago da princesa, como llegar a algodoal, fortalezinha para, posada algodoal, marajo y algodoal, la isla de Algodoal tour, itinerario la isla de Algodoal, cómo llegar a la isla de Algodoal, mejor época la isla de Algodoal",
+    h1: "La isla de Algodoal: itinerario, mejor época y cómo llegar",
     aiAnswer:
-      "La mejor época para visitar la Isla de Algodoal es de junio a noviembre, en la estación seca de la Amazonía, cuando los senderos de arena entre los pueblos están más firmes y el Lago da Princesa alcanza su volumen más atractivo; el acceso es por carretera hasta Marudá y luego quince a veinte minutos en barco hasta el pueblo de Algodoal.",
+      "La mejor época para visitar la Isla de Algodoal es de junio a noviembre, en la estación seca de la Amazonía, cuando los senderos de arena entre los pueblos están más firmes y el Lago da Princesa alcanza su volumen más atractivo; el acceso es por carretera hasta Marudá y luego quince a veinte minutos en barco hasta el pueblo de Algodoal. Create Travel diseña viajes privados y a medida a la isla de Algodoal para viajeros internacionales, con guías en español, y envía un presupuesto por escrito por WhatsApp.",
     intro: [
       "Algodoal —o Maiandeua, su nombre indígena— es un Área de Protección Ambiental en la costa atlántica de Pará donde simplemente no existen los coches. Los desplazamientos se hacen a pie, en bicicleta o en carretas tiradas por caballos, y esa ausencia de asfalto y motores es lo que preserva dunas móviles, manglares y playas que se extienden por kilómetros sin una sola construcción alta.",
       "La isla reúne cuatro núcleos con personalidades distintas —Algodoal, Fortalezinha, Camboinha y Mocooca—, conectados por senderos de arena y por la vida ribereña y pesquera que sigue su propio ritmo. Es un destino para quienes cambian el confort urbano por silencio, agua dulce de laguna y el sonido constante del viento sobre las dunas.",
@@ -496,23 +496,42 @@ export const ilhaDeAlgodoalGuide: BrazilGuideLocalized = {
       ],
     },
     itinerary: {
-      heading: "Cómo incluir Algodoal en un itinerario por Pará",
-      intro:
-        "Algodoal funciona mejor como complemento de una estancia en Belém, combinando litoral y selva en un mismo viaje al norte de Brasil.",
-      items: [
+      "heading": "Itinerario sugerido para la isla de Algodoal y combinaciones por Brasil",
+      "intro": "Algodoal funciona mejor como complemento de una estancia en Belém, combinando litoral y selva en un mismo viaje al norte de Brasil.",
+      "items": [
         {
-          title: "Belém + Algodoal — 4 días",
-          text: "Dos días en Belém (mercado Ver-o-Peso, Estação das Docas) seguidos de carretera hasta Marudá y travesía en barco, con dos noches en el pueblo de Algodoal.",
+          "title": "Día 1 — De Belém a Algodoal",
+          "text": "Viaje por carretera a Marudá, cruce en barco y llegada a la posada del pueblo de Algodoal."
         },
         {
-          title: "Belém + Marajó + Algodoal — 7 a 8 días",
-          text: "Combina los búfalos y campos inundados de Marajó con el litoral de dunas de Algodoal, mostrando dos caras opuestas de Pará en un mismo viaje.",
+          "title": "Día 2 — Dunas y Lago da Princesa",
+          "text": "Camina temprano, antes del calor; descansa al mediodía y visita la laguna de agua dulce al atardecer."
         },
         {
-          title: "Algodoal + Amazonía (Santarém/Alter do Chão) — 8 a 10 días",
-          text: "Une el litoral atlántico de Pará con las playas de agua dulce del Tapajós, conectado por vuelo doméstico vía Belém.",
+          "title": "Día 3 — Fortalezinha",
+          "text": "Sigue el sendero de playa con guía, adaptando los cruces de canales a las mareas y regresando sin prisa."
         },
-      ],
+        {
+          "title": "Día 4 — Manglares y salida",
+          "text": "Paseo matinal en barco si las mareas y el horario lo permiten, y regreso vía Marudá tras tres noches en la isla."
+        },
+        {
+          "title": "Belém + Algodoal — 4 días",
+          "text": "Dos días en Belém (mercado Ver-o-Peso, Estação das Docas) seguidos de carretera hasta Marudá y travesía en barco, con dos noches en el pueblo de Algodoal."
+        },
+        {
+          "title": "Belém + Marajó + Algodoal — 7 a 8 días",
+          "text": "Combina los búfalos y campos inundados de Marajó con el litoral de dunas de Algodoal, mostrando dos caras opuestas de Pará en un mismo viaje."
+        },
+        {
+          "title": "Algodoal + Amazonía (Santarém/Alter do Chão) — 8 a 10 días",
+          "text": "Une el litoral atlántico de Pará con las playas de agua dulce del Tapajós, conectado por vuelo doméstico vía Belém."
+        },
+        {
+          "title": "Combina dos o más biomas brasileños",
+          "text": "Brasil tiene seis biomas terrestres más la zona costera y marina — siete paisajes y culturas distintos. Combina la zona costera y marina de Algodoal con la Amazonía de Santarém y Alter do Chão, vía Belém. Adaptamos la secuencia a las condiciones estacionales y dejamos tiempo para los traslados."
+        }
+      ]
     },
     tips: {
       heading: "Consejos prácticos para viajar a Algodoal",
@@ -527,35 +546,46 @@ export const ilhaDeAlgodoalGuide: BrazilGuideLocalized = {
     },
     faq: [
       {
-        q: "¿Cómo llegar a la Isla de Algodoal?",
-        a: "Desde Belém, se sigue por carretera hasta el poblado de Marudá, desde donde parten barcos regulares hacia el pueblo de Algodoal en una travesía de quince a veinte minutos.",
+        "q": "¿Cómo llegar a la Isla de Algodoal?",
+        "a": "Toma un vuelo internacional a Brasil. Conecta por un hub brasileño hacia Belém, continúa por carretera a Marudá y cruza en barco hasta Algodoal en quince a veinte minutos. Create Travel organiza traslados privados hasta el embarque y coordina el acceso posterior en esta isla sin coches."
       },
       {
-        q: "¿Es cierto que no hay coches en Algodoal?",
-        a: "Sí. La isla es un Área de Protección Ambiental y los desplazamientos internos se hacen a pie, en bicicleta o en carretas tiradas por caballos.",
+        "q": "¿Es cierto que no hay coches en Algodoal?",
+        "a": "Sí. La isla es un Área de Protección Ambiental y los desplazamientos internos se hacen a pie, en bicicleta o en carretas tiradas por caballos."
       },
       {
-        q: "¿Qué es el Lago da Princesa?",
-        a: "Una laguna de agua dulce rodeada de dunas, a corta distancia a pie del pueblo de Algodoal, famosa por sus atardeceres y punto de encuentro al final de la tarde.",
+        "q": "¿Qué es el Lago da Princesa?",
+        "a": "Una laguna de agua dulce rodeada de dunas, a corta distancia a pie del pueblo de Algodoal, famosa por sus atardeceres y punto de encuentro al final de la tarde."
       },
       {
-        q: "¿Cuántos días se necesitan para conocer Algodoal?",
-        a: "De dos a tres días permiten explorar el pueblo principal, el Lago da Princesa y una caminata hasta Fortalezinha; cuatro días o más permiten incluir Camboinha y Mocooca.",
+        "q": "¿Cuántos días se necesitan para conocer Algodoal?",
+        "a": "De dos a tres días permiten explorar el pueblo principal, el Lago da Princesa y una caminata hasta Fortalezinha; cuatro días o más permiten incluir Camboinha y Mocooca."
       },
       {
-        q: "¿Algodoal combina con un viaje a Marajó o Belém?",
-        a: "Combina muy bien: los tres destinos muestran facetas distintas de Pará — urbana en Belém, rural y bubalina en Marajó, y costera e insular en Algodoal.",
+        "q": "¿Algodoal combina con un viaje a Marajó o Belém?",
+        "a": "Combina muy bien: los tres destinos muestran facetas distintas de Pará — urbana en Belém, rural y bubalina en Marajó, y costera e insular en Algodoal."
       },
       {
-        q: "¿Cuál es la mejor época para visitar Algodoal?",
-        a: "De junio a noviembre, en la estación seca, cuando los senderos de arena entre pueblos están más firmes y las lluvias son menos frecuentes.",
+        "q": "¿Cuál es la mejor época para visitar Algodoal?",
+        "a": "De junio a noviembre, en la estación seca, cuando los senderos de arena entre pueblos están más firmes y las lluvias son menos frecuentes."
       },
+      {
+        "q": "¿Necesito visado y vacunas para viajar a Brasil?",
+        "a": "Los requisitos de visado dependen de tu nacionalidad y fechas de viaje: consulta fuentes consulares oficiales brasileñas antes de reservar. Consulta las recomendaciones sanitarias oficiales y a un profesional de medicina del viajero sobre vacunas habituales, fiebre amarilla y requisitos de entrada o tránsito según tu itinerario."
+      },
+      {
+        "q": "¿Hay guías en español en todas las excursiones?",
+        "a": "Sí. Create Travel ofrece guías en español en todas las excursiones de tu viaje privado y a medida. Adaptamos el ritmo y las explicaciones a tus intereses."
+      },
+      {
+        "q": "¿Puedo combinar la isla de Algodoal con otros biomas brasileños?",
+        "a": "Brasil tiene seis biomas terrestres más la zona costera y marina — siete paisajes y culturas distintos. Combina la zona costera y marina de Algodoal con la Amazonía de Santarém y Alter do Chão, vía Belém. Adaptamos la secuencia a las condiciones estacionales y dejamos tiempo para los traslados."
+      }
     ],
     cta: {
-      heading: "Diseñemos su viaje a Algodoal",
-      subheading:
-        "Un consultor humano de Create Travel organiza travesías, posadas y el itinerario adecuado para explorar la isla sin coches de Pará.",
-      button: "Hablar con un travel designer",
+      "heading": "Solicita tu presupuesto para la isla de Algodoal",
+      "subheading": "Planifica un viaje privado y a medida con un diseñador de viajes humano de Create Travel, según tus fechas, intereses, ritmo y confort preferido. Recibe tu propuesta por escrito por WhatsApp.",
+      "button": "Solicitar presupuesto por WhatsApp"
     },
     readingMinutes: 8,
     publishedAt: "2026-08-11",
@@ -565,14 +595,14 @@ export const ilhaDeAlgodoalGuide: BrazilGuideLocalized = {
     destinationName: "Isola di Algodoal",
     blurb:
       "Un'isola senza automobili sulla costa del Pará, tra dune, lagune d'acqua dolce e villaggi di pescatori raggiungibili solo in barca.",
-    metaTitle: "Isola di Algodoal: guida all'isola senza auto nel Pará",
+    metaTitle: "L’isola di Algodoal, Brasile: Itinerario, Periodo Migliore e Preventivo",
     metaDescription:
-      "Guida completa all'Isola di Algodoal (Maiandeua), Pará: quando andare, il Lago da Princesa, i villaggi di Fortalezinha e Camboinha, pousadas di charme e come arrivare via Marudá. Nessun prezzo indicato.",
+      "Pianifica un viaggio privato e su misura per l’isola di Algodoal: itinerario suggerito, periodo migliore e come arrivare. Richiedi un preventivo su WhatsApp.",
     keywords:
-      "isola di algodoal, algodoal maiandeua, lago da princesa, come arrivare ad algodoal, fortalezinha para, pousada algodoal, marajo e algodoal",
-    h1: "Isola di Algodoal: l'isola senza auto che custodisce la costa più selvaggia del Pará",
+      "isola di algodoal, algodoal maiandeua, lago da princesa, come arrivare ad algodoal, fortalezinha para, pousada algodoal, marajo e algodoal, l’isola di Algodoal tour, itinerario l’isola di Algodoal, come arrivare a l’isola di Algodoal, periodo migliore l’isola di Algodoal",
+    h1: "L’isola di Algodoal: itinerario, periodo migliore e come arrivare",
     aiAnswer:
-      "Il periodo migliore per visitare l'Isola di Algodoal va da giugno a novembre, la stagione secca dell'Amazzonia, quando i sentieri di sabbia tra i villaggi sono più solidi e il Lago da Princesa raggiunge il suo volume più invitante; l'accesso avviene su strada fino a Marudá, seguito da quindici-venti minuti di barca fino al villaggio di Algodoal.",
+      "Il periodo migliore per visitare l'Isola di Algodoal va da giugno a novembre, la stagione secca dell'Amazzonia, quando i sentieri di sabbia tra i villaggi sono più solidi e il Lago da Princesa raggiunge il suo volume più invitante; l'accesso avviene su strada fino a Marudá, seguito da quindici-venti minuti di barca fino al villaggio di Algodoal. Create Travel crea viaggi privati e su misura per l’isola di Algodoal per viaggiatori internazionali, con guide in italiano, e invia un preventivo scritto via WhatsApp.",
     intro: [
       "Algodoal — o Maiandeua, il suo nome indigeno — è un'Area di Protezione Ambientale sulla costa atlantica del Pará dove le automobili semplicemente non esistono. Gli spostamenti avvengono a piedi, in bicicletta o su carretti trainati da cavalli, e questa assenza di asfalto e motori è ciò che preserva dune mobili, mangrovie e spiagge che si estendono per chilometri senza un solo edificio alto.",
       "L'isola riunisce quattro nuclei dalle personalità distinte — Algodoal, Fortalezinha, Camboinha e Mocooca — collegati da sentieri di sabbia e dalla vita fluviale e di pesca che segue un ritmo proprio. È una destinazione per chi scambia il comfort urbano con il silenzio, l'acqua dolce di laguna e il suono costante del vento sulle dune.",
@@ -672,23 +702,42 @@ export const ilhaDeAlgodoalGuide: BrazilGuideLocalized = {
       ],
     },
     itinerary: {
-      heading: "Come inserire Algodoal in un itinerario nel Pará",
-      intro:
-        "Algodoal funziona meglio come complemento di un soggiorno a Belém, combinando costa e foresta in un unico viaggio nel nord del Brasile.",
-      items: [
+      "heading": "Itinerario suggerito per l’isola di Algodoal e combinazioni in Brasile",
+      "intro": "Algodoal funziona meglio come complemento di un soggiorno a Belém, combinando costa e foresta in un unico viaggio nel nord del Brasile.",
+      "items": [
         {
-          title: "Belém + Algodoal — 4 giorni",
-          text: "Due giorni a Belém (mercato Ver-o-Peso, Estação das Docas) seguiti da un tragitto su strada fino a Marudá e traversata in barca, con due notti nel villaggio di Algodoal.",
+          "title": "Giorno 1 — Da Belém ad Algodoal",
+          "text": "Viaggio su strada fino a Marudá, traversata in barca e sistemazione nella pousada del villaggio di Algodoal."
         },
         {
-          title: "Belém + Marajó + Algodoal — 7-8 giorni",
-          text: "Combina i bufali e le pianure allagate di Marajó con la costa dunale di Algodoal, mostrando due volti opposti del Pará in un unico viaggio.",
+          "title": "Giorno 2 — Dune e Lago da Princesa",
+          "text": "Cammina presto prima del caldo, riposa a mezzogiorno e visita la laguna d’acqua dolce al tramonto."
         },
         {
-          title: "Algodoal + Amazzonia (Santarém/Alter do Chão) — 8-10 giorni",
-          text: "Unisce la costa atlantica del Pará alle spiagge d'acqua dolce del Tapajós, collegate da un volo domestico via Belém.",
+          "title": "Giorno 3 — Fortalezinha",
+          "text": "Segui il sentiero sulla spiaggia con una guida, adattando gli attraversamenti dei canali alle maree e tornando senza fretta."
         },
-      ],
+        {
+          "title": "Giorno 4 — Mangrovie e partenza",
+          "text": "Uscita mattutina in barca se maree e orari lo consentono, poi rientro via Marudá dopo tre notti sull’isola."
+        },
+        {
+          "title": "Belém + Algodoal — 4 giorni",
+          "text": "Due giorni a Belém (mercato Ver-o-Peso, Estação das Docas) seguiti da un tragitto su strada fino a Marudá e traversata in barca, con due notti nel villaggio di Algodoal."
+        },
+        {
+          "title": "Belém + Marajó + Algodoal — 7-8 giorni",
+          "text": "Combina i bufali e le pianure allagate di Marajó con la costa dunale di Algodoal, mostrando due volti opposti del Pará in un unico viaggio."
+        },
+        {
+          "title": "Algodoal + Amazzonia (Santarém/Alter do Chão) — 8-10 giorni",
+          "text": "Unisce la costa atlantica del Pará alle spiagge d'acqua dolce del Tapajós, collegate da un volo domestico via Belém."
+        },
+        {
+          "title": "Combina due o più biomi brasiliani",
+          "text": "Il Brasile ha sei biomi terrestri più la zona costiera e marina: sette paesaggi e culture diversi. Combina la zona costiera e marina di Algodoal con l’Amazzonia intorno a Santarém e Alter do Chão, via Belém.Adattiamo la sequenza alle condizioni stagionali e prevediamo tempo per i trasferimenti."
+        }
+      ]
     },
     tips: {
       heading: "Consigli pratici per viaggiare ad Algodoal",
@@ -703,35 +752,46 @@ export const ilhaDeAlgodoalGuide: BrazilGuideLocalized = {
     },
     faq: [
       {
-        q: "Come si arriva all'Isola di Algodoal?",
-        a: "Da Belém si procede su strada fino al villaggio di Marudá, da cui partono barche regolari verso il villaggio di Algodoal con una traversata di quindici-venti minuti.",
+        "q": "Come si arriva all'Isola di Algodoal?",
+        "a": "Prendi un volo internazionale per il Brasile. Prosegui attraverso un hub brasiliano verso Belém, poi su strada fino a Marudá e in barca fino ad Algodoal, con una traversata di quindici-venti minuti. Create Travel organizza trasferimenti privati fino all’imbarco e coordina l’accesso successivo su quest’isola senza auto."
       },
       {
-        q: "È vero che ad Algodoal non ci sono auto?",
-        a: "Sì. L'isola è un'Area di Protezione Ambientale e gli spostamenti interni avvengono a piedi, in bicicletta o su carretti trainati da cavalli.",
+        "q": "È vero che ad Algodoal non ci sono auto?",
+        "a": "Sì. L'isola è un'Area di Protezione Ambientale e gli spostamenti interni avvengono a piedi, in bicicletta o su carretti trainati da cavalli."
       },
       {
-        q: "Cos'è il Lago da Princesa?",
-        a: "Una laguna d'acqua dolce circondata da dune, a breve distanza a piedi dal villaggio di Algodoal, famosa per i suoi tramonti e punto d'incontro nel tardo pomeriggio.",
+        "q": "Cos'è il Lago da Princesa?",
+        "a": "Una laguna d'acqua dolce circondata da dune, a breve distanza a piedi dal villaggio di Algodoal, famosa per i suoi tramonti e punto d'incontro nel tardo pomeriggio."
       },
       {
-        q: "Quanti giorni servono per visitare Algodoal?",
-        a: "Da due a tre giorni permettono di esplorare il villaggio principale, il Lago da Princesa e una passeggiata fino a Fortalezinha; quattro giorni o più consentono di includere anche Camboinha e Mocooca.",
+        "q": "Quanti giorni servono per visitare Algodoal?",
+        "a": "Da due a tre giorni permettono di esplorare il villaggio principale, il Lago da Princesa e una passeggiata fino a Fortalezinha; quattro giorni o più consentono di includere anche Camboinha e Mocooca."
       },
       {
-        q: "Algodoal si abbina bene a un viaggio a Marajó o Belém?",
-        a: "Si abbina molto bene: le tre destinazioni mostrano volti distinti del Pará — urbano a Belém, rurale e bubalino a Marajó, costiero e insulare ad Algodoal.",
+        "q": "Algodoal si abbina bene a un viaggio a Marajó o Belém?",
+        "a": "Si abbina molto bene: le tre destinazioni mostrano volti distinti del Pará — urbano a Belém, rurale e bubalino a Marajó, costiero e insulare ad Algodoal."
       },
       {
-        q: "Qual è il periodo migliore per visitare Algodoal?",
-        a: "Da giugno a novembre, nella stagione secca, quando i sentieri di sabbia tra i villaggi sono più solidi e le piogge meno frequenti.",
+        "q": "Qual è il periodo migliore per visitare Algodoal?",
+        "a": "Da giugno a novembre, nella stagione secca, quando i sentieri di sabbia tra i villaggi sono più solidi e le piogge meno frequenti."
       },
+      {
+        "q": "Servono visto e vaccini per viaggiare in Brasile?",
+        "a": "I requisiti del visto dipendono dalla nazionalità e dalle date di viaggio: consulta le fonti consolari ufficiali brasiliane prima di prenotare. Consulta le indicazioni sanitarie ufficiali e un professionista di medicina dei viaggi sulle vaccinazioni di routine, sulla febbre gialla e sui requisiti di ingresso o transito secondo il tuo itinerario."
+      },
+      {
+        "q": "Sono disponibili guide in italiano in ogni escursione?",
+        "a": "Sì. Create Travel offre guide in italiano in ogni escursione del tuo viaggio privato e su misura. Adattiamo il ritmo e le spiegazioni ai tuoi interessi."
+      },
+      {
+        "q": "Posso combinare l’isola di Algodoal con altri biomi brasiliani?",
+        "a": "Il Brasile ha sei biomi terrestri più la zona costiera e marina: sette paesaggi e culture diversi. Combina la zona costiera e marina di Algodoal con l’Amazzonia intorno a Santarém e Alter do Chão, via Belém.Adattiamo la sequenza alle condizioni stagionali e prevediamo tempo per i trasferimenti."
+      }
     ],
     cta: {
-      heading: "Progettiamo insieme il vostro viaggio ad Algodoal",
-      subheading:
-        "Un consulente umano di Create Travel organizza traversate, pousadas e l'itinerario giusto per esplorare l'isola senza auto del Pará.",
-      button: "Parla con un travel designer",
+      "heading": "Richiedi il tuo preventivo per l’isola di Algodoal",
+      "subheading": "Pianifica un viaggio privato e su misura con un travel designer umano di Create Travel, secondo le tue date, i tuoi interessi, il tuo ritmo e il comfort desiderato. Ricevi la proposta scritta via WhatsApp.",
+      "button": "Richiedi un preventivo su WhatsApp"
     },
     readingMinutes: 8,
     publishedAt: "2026-08-11",

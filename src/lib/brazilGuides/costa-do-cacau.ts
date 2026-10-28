@@ -397,14 +397,14 @@ export const costaDoCacauGuide: BrazilGuideLocalized = {
   es: {
     destinationName: "Costa del Cacao",
     blurb: "Ilhéus, Itacaré y Serra Grande: la Bahía de Jorge Amado, del surf entre cocoteros y del chocolate bean-to-bar nacido a la sombra del cacao cabruca.",
-    metaTitle: "Costa del Cacao: guía de Ilhéus, Itacaré y Serra Grande",
+    metaTitle: "Costa del Cacao, Brasil: Itinerario, Mejor Época y Presupuesto",
     metaDescription:
-      "Guía de autor de la Costa del Cacao (BA): mejor época, Ilhéus, Itacaré, Serra Grande, Uruçuca, entrada a la Península de Maraú, fincas de cacao y chocolate, surf, cascadas y alojamientos como Txai Resort Itacaré.",
+      "Viaje privado y a medida a Costa del Cacao: itinerario sugerido, mejor época y cómo llegar. Solicita un presupuesto por WhatsApp.",
     keywords:
-      "costa del cacao, ilhéus bahia, itacaré, serra grande bahia, uruçuca, peninsula de marau, txai resort itacaré, jorge amado, cacao cabruca, chocolate bean to bar bahia",
-    h1: "Costa del Cacao: entre la literatura de Jorge Amado y la Mata Atlántica",
+      "costa del cacao, ilhéus bahia, itacaré, serra grande bahia, uruçuca, peninsula de marau, txai resort itacaré, jorge amado, cacao cabruca, chocolate bean to bar bahia, costa del cacao tour, itinerario costa del cacao, cómo llegar a costa del cacao, mejor época costa del cacao",
+    h1: "Costa del Cacao: itinerario, mejor época y cómo llegar",
     aiAnswer:
-      "La Costa del Cacao, en el litoral sur de Bahía, reúne Ilhéus, Itacaré, Serra Grande y Uruçuca, con la entrada a la Península de Maraú hacia el sur; la mejor época para viajar va de septiembre a marzo, con acceso por el Aeropuerto de Ilhéus (IOS), a unas dos horas de Salvador.",
+      "La Costa del Cacao, en el litoral sur de Bahía, reúne Ilhéus, Itacaré, Serra Grande y Uruçuca, con la entrada a la Península de Maraú hacia el sur; la mejor época para viajar va de septiembre a marzo, con acceso por el Aeropuerto de Ilhéus (IOS), a unas dos horas de Salvador. Create Travel diseña viajes privados y a medida a Costa del Cacao para viajeros internacionales, con guías en español, y envía un presupuesto por escrito por WhatsApp.",
     intro: [
       "Fue en este tramo de litoral entre Ilhéus e Itacaré donde Jorge Amado ambientó Gabriela, clavo y canela — no por casualidad: aquí, cacao y mar siempre compartieron el mismo horizonte. Las fincas de cacao cabruca, cultivado a la sombra de la Mata Atlántica original, todavía perfuman el aire entre Ilhéus y Uruçuca, mientras la costa sigue hacia el sur hasta Itacaré, donde surfistas descubrieron, en los años 80, olas perfectas escondidas tras cocoteros.",
       "Esta guía recorre el litoral del cacao sin prisa: la Ilhéus histórica de Jorge Amado y del Bar Vesúvio, el surf y las cascadas de Itacaré, la calma de Serra Grande, las fincas de chocolate bean-to-bar de Uruçuca y la entrada a la Península de Maraú, donde la Costa del Cacao empieza a disolverse en dunas y mar de piscina.",
@@ -517,26 +517,15 @@ export const costaDoCacauGuide: BrazilGuideLocalized = {
       ],
     },
     itinerary: {
-      heading: "Cómo integrar la Costa del Cacao a un itinerario por Brasil",
-      intro:
-        "La región se conecta bien con el resto del litoral sur de Bahía, siempre vía el Aeropuerto de Ilhéus (IOS), con vuelos directos desde São Paulo, Río de Janeiro y Salvador.",
+      heading: "Itinerario sugerido por Costa del Cacao — 4 noches / 5 días",
+      intro: "Un punto de partida privado y a medida, ajustado a tu ritmo, horarios de llegada y condiciones locales. Añade noches para una estancia más tranquila.",
       items: [
-        {
-          title: "Costa del Cacao + Península de Maraú — 8 a 9 días",
-          text: "Cuatro días entre Ilhéus e Itacaré, seguidos de cuatro a cinco días en la Península de Maraú, extendiendo la experiencia de playa y mar de piscina.",
-        },
-        {
-          title: "Costa del Cacao + Salvador — 8 días",
-          text: "Tres días de historia y cultura en Salvador y el Pelourinho, seguidos de cinco días entre fincas de cacao, surf y cascadas en el sur de Bahía.",
-        },
-        {
-          title: "Costa del Cacao + Costa del Descubrimiento — 10 a 12 días",
-          text: "Un itinerario completo por el litoral sur de Bahía: Ilhéus e Itacaré primero, seguidos de Trancoso y Caraíva más al sur, conectando cacao, surf y el litoral de Trancoso.",
-        },
-        {
-          title: "Costa del Cacao aislada — 6 a 7 días",
-          text: "Formato más vendido: dos días en Ilhéus, tres en Itacaré y una o dos noches en Serra Grande, sin prisa de traslados.",
-        },
+        { title: "Día 1 — Llegada a Ilhéus", text: "Llega al aeropuerto de Ilhéus y acomódate con un traslado privado; explora sin prisas el centro histórico y los lugares vinculados a Jorge Amado." },
+        { title: "Día 2 — Cacao y chocolate", text: "Visita una hacienda de cacao cabruca cerca de Ilhéus o Uruçuca, con reserva previa, para recorrer la plantación y degustar chocolate bean-to-bar; continúa hacia Itacaré." },
+        { title: "Día 3 — Playas de Itacaré", text: "Explora Concha o Tiririca, con tiempo de playa y una sesión opcional de surf adaptada a tu experiencia." },
+        { title: "Día 4 — Bosque y cascadas", text: "Realiza una caminata guiada por el bosque y visita la cascada de Tijuípe, ajustando la salida al tiempo y al estado de los senderos." },
+        { title: "Día 5 — Serra Grande y salida", text: "Disfruta de la costa más tranquila de Serra Grande antes del traslado privado a Ilhéus; añade una noche si los horarios de vuelo lo requieren." },
+        { title: "Combina dos o más biomas brasileños", text: "Brasil tiene seis biomas terrestres más la zona costera y marina — siete paisajes y culturas distintos. Combina las haciendas de cacao de la Mata Atlántica de la Costa del Cacao con sus playas costeras y marinas. Tu diseñador de viajes tiene en cuenta los días de traslado y las diferencias estacionales. Los avistamientos de fauna nunca están garantizados." },
       ],
     },
     tips: {
@@ -551,6 +540,10 @@ export const costaDoCacauGuide: BrazilGuideLocalized = {
       ],
     },
     faq: [
+      { q: "¿Necesito visado o vacunas para Brasil?", a: "Los requisitos de visado dependen de tu nacionalidad y fechas de viaje. Consulta fuentes oficiales consulares y de inmigración de Brasil antes de reservar. Consulta a un profesional de salud del viajero y las recomendaciones sanitarias oficiales sobre vacunas habituales, fiebre amarilla y requisitos de entrada para tu ruta." },
+      { q: "¿Hay guías en español en todas las excursiones?", a: "Sí. Create Travel ofrece guías en español en todas las excursiones, con planificación privada y a medida según tus intereses y ritmo." },
+      { q: "¿Cómo llegar a Costa del Cacao?", a: "Llega en vuelo internacional a un hub brasileño. Conecta desde São Paulo o Río de Janeiro con el aeropuerto de Ilhéus (IOS). Create Travel organiza traslados privados hasta el alojamiento o punto de embarque." },
+      { q: "¿Puedo combinar Costa del Cacao con otros biomas brasileños?", a: "Sí. Brasil tiene seis biomas terrestres más la zona costera y marina — siete paisajes y culturas distintos. Combina las haciendas de cacao de la Mata Atlántica de la Costa del Cacao con sus playas costeras y marinas. Tu diseñador de viajes tiene en cuenta los días de traslado y las diferencias estacionales. Los avistamientos de fauna nunca están garantizados." },
       {
         q: "¿Cuál es la diferencia entre Ilhéus, Itacaré y Serra Grande?",
         a: "Ilhéus es el centro histórico y literario, ligado a Jorge Amado y al ciclo del cacao. Itacaré es el polo de surf y vida al aire libre, con mejor infraestructura turística. Serra Grande es el más rústico y tranquilo, rodeado de fincas de cacao.",
@@ -558,10 +551,6 @@ export const costaDoCacauGuide: BrazilGuideLocalized = {
       {
         q: "¿Cuál es la mejor época para visitar la Costa del Cacao?",
         a: "De septiembre a noviembre ofrece el mejor equilibrio entre clima estable y baja afluencia; de diciembre a febrero concentra el movimiento turístico de verano; de junio a agosto trae las mejores olas para surfistas experimentados.",
-      },
-      {
-        q: "¿Cómo llegar a Itacaré y a la Costa del Cacao?",
-        a: "El acceso es por el Aeropuerto de Ilhéus (IOS), con vuelos directos desde São Paulo, Río de Janeiro y Salvador, seguidos de un trayecto de aproximadamente 1h30 en auto hasta Itacaré.",
       },
       {
         q: "¿Es posible visitar fincas de cacao y probar chocolate bean-to-bar en la región?",
@@ -577,10 +566,9 @@ export const costaDoCacauGuide: BrazilGuideLocalized = {
       },
     ],
     cta: {
-      heading: "Diseñemos tu Costa del Cacao",
-      subheading:
-        "Un consultor humano de Create Travel elige entre Ilhéus, Itacaré y Serra Grande la dirección adecuada para tu perfil.",
-      button: "Hablar con un travel designer",
+      heading: "Solicita tu presupuesto para Costa del Cacao",
+      subheading: "Planifica un viaje privado y a medida con un diseñador de viajes humano, adaptado a tus intereses, ritmo y época preferida. Recibe tu propuesta por escrito por WhatsApp.",
+      button: "Solicitar presupuesto por WhatsApp",
     },
     readingMinutes: 11,
     publishedAt: "2026-08-11",
@@ -589,14 +577,14 @@ export const costaDoCacauGuide: BrazilGuideLocalized = {
   it: {
     destinationName: "Costa del Cacao",
     blurb: "Ilhéus, Itacaré e Serra Grande: la Bahia di Jorge Amado, il surf tra le palme e il cioccolato bean-to-bar nato all'ombra del cacao cabruca.",
-    metaTitle: "Costa del Cacao: guida a Ilhéus, Itacaré e Serra Grande",
+    metaTitle: "Costa del Cacao, Brasile: Itinerario, Periodo Migliore e Preventivo",
     metaDescription:
-      "Guida d'autore alla Costa del Cacao (Bahia): periodo migliore, Ilhéus, Itacaré, Serra Grande, Uruçuca, ingresso alla Penisola di Maraú, fattorie di cacao e cioccolato, surf, cascate e alloggi come il Txai Resort Itacaré.",
+      "Viaggio privato e su misura per Costa del Cacao: itinerario suggerito, periodo migliore e come arrivare. Richiedi un preventivo su WhatsApp.",
     keywords:
-      "costa del cacao brasile, ilhéus bahia, itacaré, serra grande bahia, uruçuca, penisola di marau, txai resort itacaré, jorge amado, cacao cabruca, cioccolato bean to bar bahia",
-    h1: "Costa del Cacao: tra la letteratura di Jorge Amado e la Mata Atlântica",
+      "costa del cacao brasile, ilhéus bahia, itacaré, serra grande bahia, uruçuca, penisola di marau, txai resort itacaré, jorge amado, cacao cabruca, cioccolato bean to bar bahia, costa del cacao tour, itinerario costa del cacao, come arrivare a costa del cacao, periodo migliore costa del cacao",
+    h1: "Costa del Cacao: itinerario, periodo migliore e come arrivare",
     aiAnswer:
-      "La Costa del Cacao, sul litorale meridionale della Bahia, comprende Ilhéus, Itacaré, Serra Grande e Uruçuca, con l'ingresso alla Penisola di Maraú più a sud; il periodo migliore per viaggiare va da settembre a marzo, con accesso tramite l'Aeroporto di Ilhéus (IOS), a circa due ore da Salvador.",
+      "La Costa del Cacao, sul litorale meridionale della Bahia, comprende Ilhéus, Itacaré, Serra Grande e Uruçuca, con l'ingresso alla Penisola di Maraú più a sud; il periodo migliore per viaggiare va da settembre a marzo, con accesso tramite l'Aeroporto di Ilhéus (IOS), a circa due ore da Salvador. Create Travel crea viaggi privati e su misura per Costa del Cacao per viaggiatori internazionali, con guide in italiano, e invia un preventivo scritto via WhatsApp.",
     intro: [
       "È in questo tratto di costa tra Ilhéus e Itacaré che Jorge Amado ambientò Gabriela, garofano e cannella — non a caso: qui cacao e mare hanno sempre condiviso lo stesso orizzonte. Le fattorie di cacao cabruca, coltivato all'ombra della Mata Atlântica originaria, profumano ancora l'aria tra Ilhéus e Uruçuca, mentre la costa prosegue verso sud fino a Itacaré, dove i surfisti scoprirono, negli anni '80, onde perfette nascoste dietro le palme.",
       "Questa guida attraversa il litorale del cacao senza fretta: la Ilhéus storica di Jorge Amado e del Bar Vesúvio, il surf e le cascate di Itacaré, la quiete di Serra Grande, le fattorie di cioccolato bean-to-bar di Uruçuca e l'ingresso alla Penisola di Maraú, dove la Costa del Cacao comincia a dissolversi in dune e un mare piatto come una piscina.",
@@ -709,26 +697,15 @@ export const costaDoCacauGuide: BrazilGuideLocalized = {
       ],
     },
     itinerary: {
-      heading: "Come inserire la Costa del Cacao in un itinerario in Brasile",
-      intro:
-        "La regione si collega bene con il resto del litorale meridionale della Bahia, sempre via l'Aeroporto di Ilhéus (IOS), con voli diretti da São Paulo, Rio de Janeiro e Salvador.",
+      heading: "Itinerario suggerito per Costa del Cacao — 4 notti / 5 giorni",
+      intro: "Un punto di partenza privato e su misura, adattato al tuo ritmo, agli orari di arrivo e alle condizioni locali. Aggiungi notti per un soggiorno più rilassato.",
       items: [
-        {
-          title: "Costa del Cacao + Penisola di Maraú — 8-9 giorni",
-          text: "Quattro giorni tra Ilhéus e Itacaré, seguiti da quattro-cinque giorni sulla Penisola di Maraú, estendendo l'esperienza di spiaggia e mare piatto.",
-        },
-        {
-          title: "Costa del Cacao + Salvador — 8 giorni",
-          text: "Tre giorni di storia e cultura a Salvador e nel Pelourinho, seguiti da cinque giorni tra fattorie di cacao, surf e cascate nel sud della Bahia.",
-        },
-        {
-          title: "Costa del Cacao + Costa del Descobrimento — 10-12 giorni",
-          text: "Un itinerario completo lungo il litorale meridionale bahiano: prima Ilhéus e Itacaré, poi Trancoso e Caraíva più a sud, collegando cacao, surf e il litorale di Trancoso.",
-        },
-        {
-          title: "Costa del Cacao isolata — 6-7 giorni",
-          text: "Formato più venduto: due giorni a Ilhéus, tre a Itacaré e una o due notti a Serra Grande, senza fretta negli spostamenti.",
-        },
+        { title: "Giorno 1 — Arrivo a Ilhéus", text: "Arriva all’aeroporto di Ilhéus e sistemati con un trasferimento privato; esplora senza fretta il centro storico e i luoghi legati a Jorge Amado." },
+        { title: "Giorno 2 — Cacao e cioccolato", text: "Visita una piantagione di cacao cabruca vicino a Ilhéus o Uruçuca, prenotata in anticipo, per una passeggiata e una degustazione bean-to-bar; prosegui verso Itacaré." },
+        { title: "Giorno 3 — Spiagge di Itacaré", text: "Esplora Concha o Tiririca, con tempo per la spiaggia e una sessione facoltativa di surf adatta alla tua esperienza." },
+        { title: "Giorno 4 — Foresta e cascate", text: "Fai una passeggiata guidata nella foresta e visita la cascata di Tijuípe, adattando l’uscita al meteo e alle condizioni dei sentieri." },
+        { title: "Giorno 5 — Serra Grande e partenza", text: "Goditi la costa più tranquilla di Serra Grande prima del trasferimento privato a Ilhéus; aggiungi una notte se gli orari dei voli lo richiedono." },
+        { title: "Combina due o più biomi brasiliani", text: "Il Brasile ha sei biomi terrestri più la zona costiera e marina: sette paesaggi e culture diversi. Combina le piantagioni di cacao nella Foresta Atlantica della Costa del Cacao con le sue spiagge costiere e marine. Il tuo travel designer tiene conto dei giorni di trasferimento e delle differenze stagionali. Gli avvistamenti di fauna non sono mai garantiti." },
       ],
     },
     tips: {
@@ -743,6 +720,10 @@ export const costaDoCacauGuide: BrazilGuideLocalized = {
       ],
     },
     faq: [
+      { q: "Servono visto o vaccini per il Brasile?", a: "I requisiti per il visto dipendono dalla nazionalità e dalle date di viaggio. Consulta le fonti ufficiali consolari e di immigrazione brasiliane prima di prenotare. Rivolgiti a un professionista di medicina dei viaggi e consulta le indicazioni sanitarie ufficiali su vaccinazioni di routine, febbre gialla e requisiti d’ingresso per il percorso." },
+      { q: "Ci sono guide in italiano in ogni escursione?", a: "Sì. Create Travel offre guide in italiano in ogni escursione, con pianificazione privata e su misura secondo i tuoi interessi e il tuo ritmo." },
+      { q: "Come arrivare a Costa del Cacao?", a: "Arriva con un volo internazionale in un hub brasiliano. Prosegui da São Paulo o Rio de Janeiro per l’aeroporto di Ilhéus (IOS). Create Travel organizza trasferimenti privati fino all’alloggio o al punto d’imbarco." },
+      { q: "Posso combinare Costa del Cacao con altri biomi brasiliani?", a: "Sì. Il Brasile ha sei biomi terrestri più la zona costiera e marina: sette paesaggi e culture diversi. Combina le piantagioni di cacao nella Foresta Atlantica della Costa del Cacao con le sue spiagge costiere e marine. Il tuo travel designer tiene conto dei giorni di trasferimento e delle differenze stagionali. Gli avvistamenti di fauna non sono mai garantiti." },
       {
         q: "Qual è la differenza tra Ilhéus, Itacaré e Serra Grande?",
         a: "Ilhéus è il centro storico e letterario, legato a Jorge Amado e al ciclo del cacao. Itacaré è il polo del surf e della vita all'aria aperta, con la migliore infrastruttura turistica. Serra Grande è il più rustico e tranquillo, circondato da fattorie di cacao.",
@@ -750,10 +731,6 @@ export const costaDoCacauGuide: BrazilGuideLocalized = {
       {
         q: "Qual è il periodo migliore per visitare la Costa del Cacao?",
         a: "Da settembre a novembre offre il miglior equilibrio tra clima stabile e basso affollamento; da dicembre a febbraio concentra l'afflusso turistico estivo; da giugno ad agosto porta le migliori onde per surfisti esperti.",
-      },
-      {
-        q: "Come si arriva a Itacaré e alla Costa del Cacao?",
-        a: "L'accesso è tramite l'Aeroporto di Ilhéus (IOS), con voli diretti da São Paulo, Rio de Janeiro e Salvador, seguiti da circa 1h30 di auto fino a Itacaré.",
       },
       {
         q: "È possibile visitare fattorie di cacao e assaggiare cioccolato bean-to-bar nella regione?",
@@ -769,10 +746,9 @@ export const costaDoCacauGuide: BrazilGuideLocalized = {
       },
     ],
     cta: {
-      heading: "Progettiamo insieme la vostra Costa del Cacao",
-      subheading:
-        "Un consulente umano di Create Travel sceglie tra Ilhéus, Itacaré e Serra Grande l'indirizzo giusto per il vostro profilo.",
-      button: "Parla con un travel designer",
+      heading: "Richiedi il tuo preventivo per Costa del Cacao",
+      subheading: "Pianifica un viaggio privato e su misura con un travel designer umano, adattato ai tuoi interessi, al tuo ritmo e al periodo preferito. Ricevi la proposta scritta via WhatsApp.",
+      button: "Richiedi un preventivo su WhatsApp",
     },
     readingMinutes: 11,
     publishedAt: "2026-08-11",

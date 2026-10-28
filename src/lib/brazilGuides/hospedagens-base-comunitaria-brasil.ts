@@ -488,14 +488,14 @@ export const hospedagensBaseComunitariaBrasilGuide: BrazilGuideLocalized = {
     destinationName: "Hospedajes de Base Comunitaria en Brasil",
     blurb:
       "Posadas y lodges gestionados por comunidades ribereñas, quilombolas, indígenas y caiçaras — Brasil recibido por quienes siempre lo habitaron.",
-    metaTitle: "Turismo de Base Comunitaria en Brasil: guía autoral",
+    metaTitle: "Alojamientos comunitarios en Brasil, Brasil: Itinerario, Mejor Época y Presupuesto",
     metaDescription:
-      "Guía completa de turismo de base comunitaria en Brasil: qué es, cómo funciona el reparto de ingresos, el nivel real de confort, etiqueta, mejores épocas por región y cómo combinar noches comunitarias con hospedajes de charme.",
+      "Planifica un viaje privado y a medida a alojamientos comunitarios en Brasil: itinerario sugerido, mejor época y cómo llegar. Solicita un presupuesto por WhatsApp.",
     keywords:
-      "turismo de base comunitaria brasil, uakari lodge mamiraua, quilombo do campinho paraty, prainha do canto verde, vale do pati hospedaje, aldeas indigenas brasil, viaje con proposito brasil",
-    h1: "Hospedajes de base comunitaria: Brasil recibido por quienes siempre lo cuidaron",
+      "turismo de base comunitaria brasil, uakari lodge mamiraua, quilombo do campinho paraty, prainha do canto verde, vale do pati hospedaje, aldeas indigenas brasil, viaje con proposito brasil, alojamientos comunitarios en Brasil tour, itinerario alojamientos comunitarios en Brasil, cómo llegar a alojamientos comunitarios en Brasil, mejor época alojamientos comunitarios en Brasil",
+    h1: "Alojamientos comunitarios en Brasil: itinerario, mejor época y cómo llegar",
     aiAnswer:
-      "El turismo de base comunitaria (TBC) en Brasil consiste en hospedaje y experiencias gestionadas directamente por comunidades ribereñas, quilombolas, indígenas y caiçaras, con la mayor parte del ingreso quedando en la propia comunidad; el confort es rústico-elegante (ducha de balde o solar, comidas colectivas, electricidad limitada), y el formato ideal para un viajero 40+ es combinar 2 a 3 noches comunitarias con hospedajes de charme en el mismo itinerario.",
+      "El turismo de base comunitaria (TBC) en Brasil consiste en hospedaje y experiencias gestionadas directamente por comunidades ribereñas, quilombolas, indígenas y caiçaras, con la mayor parte del ingreso quedando en la propia comunidad; el confort es rústico-elegante (ducha de balde o solar, comidas colectivas, electricidad limitada), y el formato ideal para un viajero 40+ es combinar 2 a 3 noches comunitarias con hospedajes de charme en el mismo itinerario. Create Travel diseña viajes privados y a medida a alojamientos comunitarios en Brasil para viajeros internacionales, con guías en español, y envía un presupuesto por escrito por WhatsApp.",
     intro: [
       "Existe un tipo de lujo que no se mide en amenidades: se mide en quién le abre la puerta. En el turismo de base comunitaria, quien recibe no es una cadena hotelera: es una familia ribereña, un quilombo, una aldea indígena, un pueblo de pescadores caiçaras que decidió, colectivamente, convertir su propio territorio en experiencia sin dejar de ser su dueño.",
       "Eso lo cambia todo: la conversación en la mesa, lo que se aprende sobre Brasil, hacia dónde va el dinero del viaje. Esta guía existe porque cada vez más de nuestros viajeros —personas que ya hicieron safaris, durmieron en ryokan en Japón, se hospedaron en islas privadas— llegan pidiendo algo que ningún resort entrega: una noche real dentro de una comunidad que los recibe como invitados, no como clientes.",
@@ -642,31 +642,34 @@ export const hospedagensBaseComunitariaBrasilGuide: BrazilGuideLocalized = {
       ],
     },
     itinerary: {
-      heading: "Cómo armar un itinerario híbrido: comunidad + charme",
-      intro:
-        "El formato que más recomendamos combina dos a tres noches de inmersión comunitaria con hospedajes de charme antes y después: el contraste es parte del diseño, no un defecto de él.",
-      items: [
+      "heading": "Cómo armar un itinerario híbrido: comunidad + charme",
+      "intro": "El formato que más recomendamos combina dos a tres noches de inmersión comunitaria con hospedajes de charme antes y después: el contraste es parte del diseño, no un defecto de él.",
+      "items": [
         {
-          title: "Amazonía: Manaos (charme) + Mamirauá o Tapajós (comunidad) + Alter do Chão (charme) — 8 a 10 días",
-          text: "Una noche urbana de llegada, tres a cuatro noches en la Pousada Uacari o en la red del Arapiuns, y el cierre en Alter do Chão con hospedaje de diseño junto al río.",
+          "title": "Amazonía: Manaos (charme) + Mamirauá o Tapajós (comunidad) + Alter do Chão (charme) — 8 a 10 días",
+          "text": "Una noche urbana de llegada, tres a cuatro noches en la Pousada Uacari o en la red del Arapiuns, y el cierre en Alter do Chão con hospedaje de diseño junto al río."
         },
         {
-          title: "Chapada Diamantina: Lençóis (charme) + Vale do Pati (comunidad) + Lençóis (charme) — 8 días",
-          text: "La travesía de tres días entre las casas nativas del Pati, rodeada de dos estadías confortables en Lençóis para descanso, ducha caliente y buena mesa.",
+          "title": "Chapada Diamantina: Lençóis (charme) + Vale do Pati (comunidad) + Lençóis (charme) — 8 días",
+          "text": "La travesía de tres días entre las casas nativas del Pati, rodeada de dos estadías confortables en Lençóis para descanso, ducha caliente y buena mesa."
         },
         {
-          title: "Costa Verde: Paraty histórica (charme) + Quilombo do Campinho o Praia do Sono (comunidad) + Trindade (charme) — 7 días",
-          text: "Cultura colonial, luego cultura quilombola o caiçara, cerrando en una posada de playa sofisticada: tres Brasiles distintos en una semana.",
+          "title": "Costa Verde: Paraty histórica (charme) + Quilombo do Campinho o Praia do Sono (comunidad) + Trindade (charme) — 7 días",
+          "text": "Cultura colonial, luego cultura quilombola o caiçara, cerrando en una posada de playa sofisticada: tres Brasiles distintos en una semana."
         },
         {
-          title: "Cerrado: Chapada dos Veadeiros (charme) + comunidad Kalunga (2 noches) + Chapada dos Veadeiros (charme) — 7 a 8 días",
-          text: "Senderos y cascadas del parque intercalados con la inmersión quilombola, sin renunciar al confort de una posada de diseño en la región.",
+          "title": "Cerrado: Chapada dos Veadeiros (charme) + comunidad Kalunga (2 noches) + Chapada dos Veadeiros (charme) — 7 a 8 días",
+          "text": "Senderos y cascadas del parque intercalados con la inmersión quilombola, sin renunciar al confort de una posada de diseño en la región."
         },
         {
-          title: "Nordeste: Fortaleza o Jericoacoara (charme) + Prainha do Canto Verde (comunidad) — 6 a 7 días",
-          text: "Mar clásico de Ceará sumado a un pueblo de pescadores que se convirtió en símbolo nacional del turismo de base comunitaria: ideal para quien busca playa con significado.",
+          "title": "Nordeste: Fortaleza o Jericoacoara (charme) + Prainha do Canto Verde (comunidad) — 6 a 7 días",
+          "text": "Mar clásico de Ceará sumado a un pueblo de pescadores que se convirtió en símbolo nacional del turismo de base comunitaria: ideal para quien busca playa con significado."
         },
-      ],
+        {
+          "title": "Combina dos o más biomas brasileños",
+          "text": "Brasil tiene seis biomas terrestres más la zona costera y marina — siete paisajes y culturas distintos. Combina una estancia en la comunidad Kalunga del Cerrado con una estancia caiçara en la costa de la Mata Atlántica. Adaptamos la secuencia a las condiciones estacionales y dejamos tiempo para los traslados."
+        }
+      ]
     },
     tips: {
       heading: "Consejos prácticos",
@@ -681,35 +684,50 @@ export const hospedagensBaseComunitariaBrasilGuide: BrazilGuideLocalized = {
     },
     faq: [
       {
-        q: "¿Qué es el turismo de base comunitaria (TBC)?",
-        a: "Es el modelo en el que la propia comunidad tradicional —ribereña, quilombola, indígena o caiçara— planifica, opera y recibe a los visitantes, usando su casa, su barco y su conocimiento como experiencia turística, con la mayor parte del ingreso volviendo al territorio.",
+        "q": "¿Qué es el turismo de base comunitaria (TBC)?",
+        "a": "Es el modelo en el que la propia comunidad tradicional —ribereña, quilombola, indígena o caiçara— planifica, opera y recibe a los visitantes, usando su casa, su barco y su conocimiento como experiencia turística, con la mayor parte del ingreso volviendo al territorio."
       },
       {
-        q: "¿El confort es muy precario? ¿Tendré ducha caliente?",
-        a: "Depende de la región: algunas iniciativas tienen ducha solar caliente, otras ofrecen balde o agua fría. Describimos las condiciones exactas de cada dirección antes de la reserva, para que la expectativa esté alineada con la realidad.",
+        "q": "¿El confort es muy precario? ¿Tendré ducha caliente?",
+        "a": "Depende de la región: algunas iniciativas tienen ducha solar caliente, otras ofrecen balde o agua fría. Describimos las condiciones exactas de cada dirección antes de la reserva, para que la expectativa esté alineada con la realidad."
       },
       {
-        q: "¿Es seguro visitar comunidades indígenas y quilombolas?",
-        a: "Sí, siempre que la visita se organice a través de liderazgos reconocidos e iniciativas ya establecidas, nunca por cuenta propia. Trabajamos solo con comunidades que reciben visitantes desde hace años, con protocolos propios de acceso y etiqueta.",
+        "q": "¿Es seguro visitar comunidades indígenas y quilombolas?",
+        "a": "Sí, siempre que la visita se organice a través de liderazgos reconocidos e iniciativas ya establecidas, nunca por cuenta propia. Trabajamos solo con comunidades que reciben visitantes desde hace años, con protocolos propios de acceso y etiqueta."
       },
       {
-        q: "¿Cuántas noches se recomiendan en un hospedaje comunitario?",
-        a: "De dos a tres noches es lo ideal: tiempo suficiente para que la comunidad deje de ser escenario y se vuelva convivencia, sin prolongar más de lo que la estructura simple soporta cómodamente.",
+        "q": "¿Cuántas noches se recomiendan en un hospedaje comunitario?",
+        "a": "De dos a tres noches es lo ideal: tiempo suficiente para que la comunidad deje de ser escenario y se vuelva convivencia, sin prolongar más de lo que la estructura simple soporta cómodamente."
       },
       {
-        q: "¿Cómo funciona el reparto de ingresos con la comunidad?",
-        a: "En la mayoría de las iniciativas serias, el hospedaje opera en rotación entre familias asociadas y parte del ingreso alimenta un fondo comunitario para salud, educación, transporte o conservación: un diseño que garantiza que el beneficio no se concentre en una sola persona.",
+        "q": "¿Cómo funciona el reparto de ingresos con la comunidad?",
+        "a": "En la mayoría de las iniciativas serias, el hospedaje opera en rotación entre familias asociadas y parte del ingreso alimenta un fondo comunitario para salud, educación, transporte o conservación: un diseño que garantiza que el beneficio no se concentre en una sola persona."
       },
       {
-        q: "¿Se puede combinar una vivencia comunitaria con un viaje de lujo más amplio?",
-        a: "Es exactamente el formato que más recomendamos: dos a tres noches comunitarias sumadas a hospedajes de charme antes y después, dentro del mismo itinerario por Brasil.",
+        "q": "¿Se puede combinar una vivencia comunitaria con un viaje de lujo más amplio?",
+        "a": "Es exactamente el formato que más recomendamos: dos a tres noches comunitarias sumadas a hospedajes de charme antes y después, dentro del mismo itinerario por Brasil."
       },
+      {
+        "q": "¿Cómo llegar a alojamientos comunitarios en Brasil desde el extranjero?",
+        "a": "Toma un vuelo internacional a Brasil. Desde un hub brasileño, continúa al aeropuerto de la región comunitaria elegida; Manaus es un punto de llegada para la Amazonía. Create Travel organiza traslados privados por carretera o barco según sea necesario y confirma previamente los permisos de las comunidades."
+      },
+      {
+        "q": "¿Necesito visado y vacunas para viajar a Brasil?",
+        "a": "Los requisitos de visado dependen de tu nacionalidad y fechas de viaje: consulta fuentes consulares oficiales brasileñas antes de reservar. Consulta las recomendaciones sanitarias oficiales y a un profesional de medicina del viajero sobre vacunas habituales, fiebre amarilla y requisitos de entrada o tránsito según tu itinerario."
+      },
+      {
+        "q": "¿Hay guías en español en todas las excursiones?",
+        "a": "Sí. Create Travel ofrece guías en español en todas las excursiones de tu viaje privado y a medida. Adaptamos el ritmo y las explicaciones a tus intereses."
+      },
+      {
+        "q": "¿Puedo combinar alojamientos comunitarios en Brasil con otros biomas brasileños?",
+        "a": "Brasil tiene seis biomas terrestres más la zona costera y marina — siete paisajes y culturas distintos. Combina una estancia en la comunidad Kalunga del Cerrado con una estancia caiçara en la costa de la Mata Atlántica. Adaptamos la secuencia a las condiciones estacionales y dejamos tiempo para los traslados."
+      }
     ],
     cta: {
-      heading: "Diseñemos su vivencia comunitaria",
-      subheading:
-        "Un consultor humano de Create Travel confirma disponibilidad, acceso y condiciones actuales de cada comunidad, y arma el itinerario híbrido correcto para su perfil.",
-      button: "Hablar con un travel designer",
+      "heading": "Solicita tu presupuesto para alojamientos comunitarios en Brasil",
+      "subheading": "Planifica un viaje privado y a medida con un diseñador de viajes humano de Create Travel, según tus fechas, intereses, ritmo y confort preferido. Recibe tu propuesta por escrito por WhatsApp.",
+      "button": "Solicitar presupuesto por WhatsApp"
     },
     readingMinutes: 13,
     publishedAt: "2026-08-11",
@@ -719,14 +737,14 @@ export const hospedagensBaseComunitariaBrasilGuide: BrazilGuideLocalized = {
     destinationName: "Soggiorni a Base Comunitaria in Brasile",
     blurb:
       "Locande e lodge gestiti da comunità rivierasche, quilombola, indigene e caiçara — il Brasile ospitato da chi lo ha sempre vissuto.",
-    metaTitle: "Turismo di Base Comunitaria in Brasile: guida autoriale",
+    metaTitle: "Soggiorni comunitari in Brasile, Brasile: Itinerario, Periodo Migliore e Preventivo",
     metaDescription:
-      "Guida completa al turismo di base comunitaria in Brasile: cosa è, come funziona la ripartizione dei ricavi, il livello reale di comfort, l'etichetta, i periodi migliori per regione e come combinare notti comunitarie con soggiorni di charme.",
+      "Pianifica un viaggio privato e su misura per soggiorni comunitari in Brasile: itinerario suggerito, periodo migliore e come arrivare. Richiedi un preventivo su WhatsApp.",
     keywords:
-      "turismo di base comunitaria brasile, uakari lodge mamiraua, quilombo do campinho paraty, prainha do canto verde, vale do pati soggiorno, villaggi indigeni brasile, viaggio con proposito brasile",
-    h1: "Soggiorni a base comunitaria: il Brasile ospitato da chi lo ha sempre custodito",
+      "turismo di base comunitaria brasile, uakari lodge mamiraua, quilombo do campinho paraty, prainha do canto verde, vale do pati soggiorno, villaggi indigeni brasile, viaggio con proposito brasile, soggiorni comunitari in Brasile tour, itinerario soggiorni comunitari in Brasile, come arrivare a soggiorni comunitari in Brasile, periodo migliore soggiorni comunitari in Brasile",
+    h1: "Soggiorni comunitari in Brasile: itinerario, periodo migliore e come arrivare",
     aiAnswer:
-      "Il turismo di base comunitaria (TBC) in Brasile è l'ospitalità e le esperienze gestite direttamente da comunità rivierasche, quilombola, indigene e caiçara, con gran parte del ricavo che resta nella comunità stessa; il comfort è rustico-elegante (doccia a secchio o solare, pasti collettivi, elettricità limitata), e il formato ideale per un viaggiatore 40+ è combinare 2-3 notti comunitarie con soggiorni di charme nello stesso itinerario.",
+      "Il turismo di base comunitaria (TBC) in Brasile è l'ospitalità e le esperienze gestite direttamente da comunità rivierasche, quilombola, indigene e caiçara, con gran parte del ricavo che resta nella comunità stessa; il comfort è rustico-elegante (doccia a secchio o solare, pasti collettivi, elettricità limitata), e il formato ideale per un viaggiatore 40+ è combinare 2-3 notti comunitarie con soggiorni di charme nello stesso itinerario. Create Travel crea viaggi privati e su misura per soggiorni comunitari in Brasile per viaggiatori internazionali, con guide in italiano, e invia un preventivo scritto via WhatsApp.",
     intro: [
       "Esiste un tipo di lusso che non si misura in servizi: si misura in chi ti apre la porta. Nel turismo di base comunitaria, chi accoglie non è una catena alberghiera: è una famiglia rivierasca, un quilombo, un villaggio indigeno, un borgo di pescatori caiçara che ha deciso, collettivamente, di trasformare il proprio territorio in esperienza senza smettere di esserne proprietario.",
       "Questo cambia tutto: la conversazione a tavola, ciò che si impara sul Brasile, dove va il denaro del viaggio. Questa guida esiste perché sempre più nostri viaggiatori — persone che hanno già fatto safari, dormito in ryokan in Giappone, soggiornato in isole private — arrivano chiedendo qualcosa che nessun resort può offrire: una notte reale dentro una comunità che li accoglie come ospiti, non come clienti.",
@@ -873,31 +891,34 @@ export const hospedagensBaseComunitariaBrasilGuide: BrazilGuideLocalized = {
       ],
     },
     itinerary: {
-      heading: "Come costruire un itinerario ibrido: comunità + charme",
-      intro:
-        "Il formato che consigliamo di più combina due-tre notti di immersione comunitaria con soggiorni di charme prima e dopo — il contrasto fa parte del disegno, non è un suo difetto.",
-      items: [
+      "heading": "Come costruire un itinerario ibrido: comunità + charme",
+      "intro": "Il formato che consigliamo di più combina due-tre notti di immersione comunitaria con soggiorni di charme prima e dopo — il contrasto fa parte del disegno, non è un suo difetto.",
+      "items": [
         {
-          title: "Amazzonia: Manaus (charme) + Mamirauá o Tapajós (comunità) + Alter do Chão (charme) — 8-10 giorni",
-          text: "Una notte urbana di arrivo, tre-quattro notti alla Pousada Uacari o nella rete dell'Arapiuns, e chiusura ad Alter do Chão con un soggiorno di design sul fiume.",
+          "title": "Amazzonia: Manaus (charme) + Mamirauá o Tapajós (comunità) + Alter do Chão (charme) — 8-10 giorni",
+          "text": "Una notte urbana di arrivo, tre-quattro notti alla Pousada Uacari o nella rete dell'Arapiuns, e chiusura ad Alter do Chão con un soggiorno di design sul fiume."
         },
         {
-          title: "Chapada Diamantina: Lençóis (charme) + Vale do Pati (comunità) + Lençóis (charme) — 8 giorni",
-          text: "La traversata di tre giorni tra le case native del Pati, circondata da due soggiorni confortevoli a Lençóis per riposo, doccia calda e buona tavola.",
+          "title": "Chapada Diamantina: Lençóis (charme) + Vale do Pati (comunità) + Lençóis (charme) — 8 giorni",
+          "text": "La traversata di tre giorni tra le case native del Pati, circondata da due soggiorni confortevoli a Lençóis per riposo, doccia calda e buona tavola."
         },
         {
-          title: "Costa Verde: Paraty storica (charme) + Quilombo do Campinho o Praia do Sono (comunità) + Trindade (charme) — 7 giorni",
-          text: "Cultura coloniale, poi cultura quilombola o caiçara, chiudendo in una locanda di spiaggia sofisticata — tre Brasili diversi in una settimana.",
+          "title": "Costa Verde: Paraty storica (charme) + Quilombo do Campinho o Praia do Sono (comunità) + Trindade (charme) — 7 giorni",
+          "text": "Cultura coloniale, poi cultura quilombola o caiçara, chiudendo in una locanda di spiaggia sofisticata — tre Brasili diversi in una settimana."
         },
         {
-          title: "Cerrado: Chapada dos Veadeiros (charme) + comunità Kalunga (2 notti) + Chapada dos Veadeiros (charme) — 7-8 giorni",
-          text: "Sentieri e cascate del parco intervallati dall'immersione quilombola, senza rinunciare al comfort di una locanda di design nella regione.",
+          "title": "Cerrado: Chapada dos Veadeiros (charme) + comunità Kalunga (2 notti) + Chapada dos Veadeiros (charme) — 7-8 giorni",
+          "text": "Sentieri e cascate del parco intervallati dall'immersione quilombola, senza rinunciare al comfort di una locanda di design nella regione."
         },
         {
-          title: "Nordeste: Fortaleza o Jericoacoara (charme) + Prainha do Canto Verde (comunità) — 6-7 giorni",
-          text: "Mare classico del Ceará più un villaggio di pescatori diventato simbolo nazionale del turismo di base comunitaria — ottimo per chi cerca una spiaggia con significato.",
+          "title": "Nordeste: Fortaleza o Jericoacoara (charme) + Prainha do Canto Verde (comunità) — 6-7 giorni",
+          "text": "Mare classico del Ceará più un villaggio di pescatori diventato simbolo nazionale del turismo di base comunitaria — ottimo per chi cerca una spiaggia con significato."
         },
-      ],
+        {
+          "title": "Combina due o più biomi brasiliani",
+          "text": "Il Brasile ha sei biomi terrestri più la zona costiera e marina: sette paesaggi e culture diversi. Combina un soggiorno nella comunità Kalunga del Cerrado con un soggiorno caiçara sulla costa della Foresta Atlantica.Adattiamo la sequenza alle condizioni stagionali e prevediamo tempo per i trasferimenti."
+        }
+      ]
     },
     tips: {
       heading: "Consigli pratici",
@@ -912,35 +933,50 @@ export const hospedagensBaseComunitariaBrasilGuide: BrazilGuideLocalized = {
     },
     faq: [
       {
-        q: "Cos'è il turismo di base comunitaria (TBC)?",
-        a: "È il modello in cui la comunità tradizionale stessa — rivierasca, quilombola, indigena o caiçara — pianifica, gestisce e accoglie i visitatori, usando la propria casa, barca e conoscenza come esperienza turistica, con la maggior parte del ricavo che torna al territorio.",
+        "q": "Cos'è il turismo di base comunitaria (TBC)?",
+        "a": "È il modello in cui la comunità tradizionale stessa — rivierasca, quilombola, indigena o caiçara — pianifica, gestisce e accoglie i visitatori, usando la propria casa, barca e conoscenza come esperienza turistica, con la maggior parte del ricavo che torna al territorio."
       },
       {
-        q: "Il comfort è molto precario? Avrò la doccia calda?",
-        a: "Dipende dalla regione: alcune iniziative hanno doccia solare riscaldata, altre offrono secchio o acqua fredda. Descriviamo le condizioni esatte di ogni indirizzo prima della prenotazione, così l'aspettativa è allineata alla realtà.",
+        "q": "Il comfort è molto precario? Avrò la doccia calda?",
+        "a": "Dipende dalla regione: alcune iniziative hanno doccia solare riscaldata, altre offrono secchio o acqua fredda. Descriviamo le condizioni esatte di ogni indirizzo prima della prenotazione, così l'aspettativa è allineata alla realtà."
       },
       {
-        q: "È sicuro visitare comunità indigene e quilombola?",
-        a: "Sì, purché la visita sia organizzata tramite leadership riconosciute e iniziative già consolidate — mai per conto proprio. Lavoriamo solo con comunità che accolgono visitatori da anni, con propri protocolli di accesso ed etichetta.",
+        "q": "È sicuro visitare comunità indigene e quilombola?",
+        "a": "Sì, purché la visita sia organizzata tramite leadership riconosciute e iniziative già consolidate — mai per conto proprio. Lavoriamo solo con comunità che accolgono visitatori da anni, con propri protocolli di accesso ed etichetta."
       },
       {
-        q: "Quante notti si raccomandano in un soggiorno comunitario?",
-        a: "Due o tre notti sono l'ideale: tempo sufficiente perché la comunità smetta di essere scenografia e diventi convivenza, senza prolungare oltre ciò che la struttura semplice può sostenere comodamente.",
+        "q": "Quante notti si raccomandano in un soggiorno comunitario?",
+        "a": "Due o tre notti sono l'ideale: tempo sufficiente perché la comunità smetta di essere scenografia e diventi convivenza, senza prolungare oltre ciò che la struttura semplice può sostenere comodamente."
       },
       {
-        q: "Come funziona la ripartizione dei ricavi con la comunità?",
-        a: "Nella maggior parte delle iniziative serie, l'ospitalità ruota tra le famiglie associate e parte del ricavo alimenta un fondo comunitario per salute, istruzione, trasporto o conservazione — un disegno che garantisce che il beneficio non si concentri su una sola persona.",
+        "q": "Come funziona la ripartizione dei ricavi con la comunità?",
+        "a": "Nella maggior parte delle iniziative serie, l'ospitalità ruota tra le famiglie associate e parte del ricavo alimenta un fondo comunitario per salute, istruzione, trasporto o conservazione — un disegno che garantisce che il beneficio non si concentri su una sola persona."
       },
       {
-        q: "Si può combinare un'esperienza comunitaria con un viaggio di lusso più ampio?",
-        a: "È esattamente il formato che consigliamo di più: due-tre notti comunitarie sommate a soggiorni di charme prima e dopo, all'interno dello stesso itinerario in Brasile.",
+        "q": "Si può combinare un'esperienza comunitaria con un viaggio di lusso più ampio?",
+        "a": "È esattamente il formato che consigliamo di più: due-tre notti comunitarie sommate a soggiorni di charme prima e dopo, all'interno dello stesso itinerario in Brasile."
       },
+      {
+        "q": "Come arrivare a soggiorni comunitari in Brasile dall’estero?",
+        "a": "Prendi un volo internazionale per il Brasile. Da un hub brasiliano, prosegui verso l’aeroporto della regione comunitaria scelta; Manaus è un punto di arrivo per l’Amazzonia. Create Travel organizza trasferimenti privati su strada o in barca secondo necessità, confermando prima i permessi delle comunità."
+      },
+      {
+        "q": "Servono visto e vaccini per viaggiare in Brasile?",
+        "a": "I requisiti del visto dipendono dalla nazionalità e dalle date di viaggio: consulta le fonti consolari ufficiali brasiliane prima di prenotare. Consulta le indicazioni sanitarie ufficiali e un professionista di medicina dei viaggi sulle vaccinazioni di routine, sulla febbre gialla e sui requisiti di ingresso o transito secondo il tuo itinerario."
+      },
+      {
+        "q": "Sono disponibili guide in italiano in ogni escursione?",
+        "a": "Sì. Create Travel offre guide in italiano in ogni escursione del tuo viaggio privato e su misura. Adattiamo il ritmo e le spiegazioni ai tuoi interessi."
+      },
+      {
+        "q": "Posso combinare soggiorni comunitari in Brasile con altri biomi brasiliani?",
+        "a": "Il Brasile ha sei biomi terrestri più la zona costiera e marina: sette paesaggi e culture diversi. Combina un soggiorno nella comunità Kalunga del Cerrado con un soggiorno caiçara sulla costa della Foresta Atlantica.Adattiamo la sequenza alle condizioni stagionali e prevediamo tempo per i trasferimenti."
+      }
     ],
     cta: {
-      heading: "Progettiamo la vostra esperienza comunitaria",
-      subheading:
-        "Un consulente umano di Create Travel conferma disponibilità, accesso e condizioni attuali di ogni comunità — e costruisce l'itinerario ibrido giusto per il vostro profilo.",
-      button: "Parla con un travel designer",
+      "heading": "Richiedi il tuo preventivo per soggiorni comunitari in Brasile",
+      "subheading": "Pianifica un viaggio privato e su misura con un travel designer umano di Create Travel, secondo le tue date, i tuoi interessi, il tuo ritmo e il comfort desiderato. Ricevi la proposta scritta via WhatsApp.",
+      "button": "Richiedi un preventivo su WhatsApp"
     },
     readingMinutes: 13,
     publishedAt: "2026-08-11",

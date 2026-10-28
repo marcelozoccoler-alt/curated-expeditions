@@ -202,11 +202,11 @@ export const costaDoSolPoenteGuide: BrazilGuideLocalized = {
   es: {
     destinationName: "Costa del Sol Poniente",
     blurb: "Jericoacoara, Preá, Guajiru, Icaraí de Amontada, Mundaú, Flecheiras y Lagoinha: el litoral oeste de Ceará del viento, las dunas y el atardecer más celebrado de Brasil.",
-    metaTitle: "Costa del Sol Poniente: guía de Jericoacoara a Lagoinha",
-    metaDescription: "Guía completa de la Costa del Sol Poniente en Ceará: mejor época para kitesurf, Jericoacoara, Preá, Icaraí de Amontada, Mundaú, Flecheiras, hospedajes reales y ruta.",
-    keywords: "costa del sol poniente ceara, jericoacoara, prea brasil, icarai de amontada, mundau, flecheiras, lagoinha ceara, guajiru, almofala, kitesurf brasil, duna del atardecer",
-    h1: "Costa del Sol Poniente: el litoral cearense donde el viento se hace paisaje",
-    aiAnswer: "La Costa del Sol Poniente es el litoral oeste de Ceará entre Fortaleza y el límite con Piauí, que reúne Jericoacoara, Preá, Guajiru, Icaraí de Amontada, Mundaú, Flecheiras, Lagoinha y Almofala; la mejor época para el kitesurf va de agosto a diciembre, cuando los vientos alisios soplan con más constancia sobre dunas y lagunas.",
+    metaTitle: "Costa del Sol Poniente, Brasil: Itinerario, Mejor Época y Presupuesto",
+    metaDescription: "Viaje privado y a medida: Costa del Sol Poniente. Itinerario sugerido, mejor época y cómo llegar. Solicita un presupuesto por WhatsApp.",
+    keywords: "costa del sol poniente ceara, jericoacoara, prea brasil, icarai de amontada, mundau, flecheiras, lagoinha ceara, guajiru, almofala, kitesurf brasil, duna del atardecer, Costa del Sol Poniente tour, itinerario Costa del Sol Poniente, cómo llegar a Costa del Sol Poniente, mejor época Costa del Sol Poniente",
+    h1: "Costa del Sol Poniente: itinerario, mejor época y cómo llegar",
+    aiAnswer: "La Costa del Sol Poniente es el litoral oeste de Ceará entre Fortaleza y el límite con Piauí, que reúne Jericoacoara, Preá, Guajiru, Icaraí de Amontada, Mundaú, Flecheiras, Lagoinha y Almofala; la mejor época para el kitesurf va de agosto a diciembre, cuando los vientos alisios soplan con más constancia sobre dunas y lagunas. Create Travel diseña viajes privados y a medida a Costa del Sol Poniente para viajeros internacionales, con guías en español, y envía un presupuesto por escrito por WhatsApp.",
     intro: [
       "La Costa del Sol Poniente comienza donde el litoral cearense se convierte en un sertão de dunas y termina en Jericoacoara, un pueblo que se transformó en parque nacional y aun así conservó calles de arena y la prohibición de autos en el centro. Entre un punto y otro existe una sucesión de pueblos de pescadores —Preá, Guajiru, Icaraí de Amontada, Mundaú, Flecheiras, Lagoinha, Almofala— que la última década transformó en la frontera más deseada del kitesurf mundial sin perder el silencio fuera del agua.",
       "Esta guía reúne lo que aprendimos recorriendo esta costa: por qué Jericoacoara sigue siendo destino de peregrinación aun siendo el más conocido, por qué Preá y Guajiru concentran algunos de los mejores spots de viento del planeta, y por qué la Duna del Atardecer, en Jeri, sigue reuniendo cada tarde a una multitud silenciosa.",
@@ -253,13 +253,34 @@ export const costaDoSolPoenteGuide: BrazilGuideLocalized = {
       ],
     },
     itinerary: {
-      heading: "Cómo integrar la Costa del Sol Poniente a una ruta por Ceará",
-      intro: "La región está entre 3 y 6 horas en auto del Aeropuerto de Fortaleza, según el tramo y las condiciones del camino de arena.",
-      items: [
-        { title: "Jericoacoara aislada — 4 a 6 días", text: "Base única en Jeri, con excursiones de un día en buggy o 4x4 hasta las lagunas del entorno y la Pedra Furada." },
-        { title: "Jericoacoara + Preá o Guajiru — 6 a 8 días", text: "Combina la estructura y la vida nocturna discreta de Jeri con días enteros dedicados al kitesurf en Preá o Guajiru, a unos 20 minutos de distancia." },
-        { title: "Litoral oeste completo — 8 a 10 días", text: "Recorrido por Flecheiras, Lagoinha, Mundaú, Icaraí de Amontada y Jericoacoara, revelando la diversidad de pueblos entre Fortaleza y la frontera con Piauí." },
-      ],
+      "heading": "Itinerario sugerido para Costa del Sol Poniente — 4 noches / 5 días",
+      "intro": "Un punto de partida privado y a medida, adaptado a tu ritmo, los horarios de llegada y las condiciones locales. Añade noches para una estancia más tranquila.",
+      "items": [
+        {
+          "title": "Día 1 — Fortaleza → Jericoacoara",
+          "text": "Viaja en traslado privado por carretera hacia Jijoca y cambia a un vehículo adecuado para el tramo de arena."
+        },
+        {
+          "title": "Día 2 — Lagunas y dunas",
+          "text": "Explora las lagunas de los alrededores en 4x4 o buggy con guía, según las condiciones locales."
+        },
+        {
+          "title": "Día 3 — Pedra Furada",
+          "text": "Visita Pedra Furada con guía y disfruta de una tarde sin prisas en el pueblo."
+        },
+        {
+          "title": "Día 4 — Preá",
+          "text": "Visita Preá para disfrutar de la playa o de una sesión de kitesurf adaptada a tu experiencia y al viento."
+        },
+        {
+          "title": "Día 5 — Salida",
+          "text": "Regresa a Fortaleza dejando un margen amplio para el trayecto por carretera y la conexión aérea."
+        },
+        {
+          "title": "Combina dos o más biomas brasileños",
+          "text": "Brasil tiene seis biomas terrestres — Amazonía, Bosque Atlántico, Cerrado, Caatinga, Pantanal y Pampa — más la zona costera y marina: siete paisajes y culturas distintos. Combina la zona costera y marina de Ceará con la Caatinga del interior. Planificamos el ritmo y las conexiones según las condiciones estacionales; los avistamientos de fauna nunca están garantizados."
+        }
+      ]
     },
     tips: {
       heading: "Consejos prácticos que marcan la diferencia",
@@ -273,25 +294,59 @@ export const costaDoSolPoenteGuide: BrazilGuideLocalized = {
       ],
     },
     faq: [
-      { q: "¿Dónde está la Costa del Sol Poniente?", a: "En el litoral oeste de Ceará, entre Fortaleza y el límite con Piauí, reuniendo Jericoacoara, Preá, Guajiru, Icaraí de Amontada, Mundaú, Flecheiras, Lagoinha y Almofala." },
-      { q: "¿Cuál es la mejor época para kitesurf en Jericoacoara y Preá?", a: "De agosto a diciembre, cuando los vientos alisios soplan con más fuerza y constancia sobre la región." },
-      { q: "¿Cómo llegar a Jericoacoara?", a: "Por el Aeropuerto de Fortaleza, seguido de carretera asfaltada hasta Jijoca y un tramo final de arena recorrido en vehículo 4x4 o buggy." },
-      { q: "¿Circulan autos en el centro de Jericoacoara?", a: "No; el centro del pueblo tiene calles de arena y circulación restringida de vehículos, preservando el ambiente de pueblo de pescadores." },
-      { q: "¿Cuál es la diferencia entre Preá, Guajiru y Jericoacoara para kitesurf?", a: "Preá y Guajiru tienen spots más técnicos y orientados a la comunidad del kite, mientras Jericoacoara reúne una infraestructura turística más completa junto a la Duna del Sol Poniente." },
-      { q: "¿Cuánto cuesta un viaje a la Costa del Sol Poniente con Create Travel?", a: "No trabajamos con precios estándar: el presupuesto depende del destino, el alojamiento y la temporada. Un consultor humano presenta la propuesta por escrito." },
+      {
+        "q": "¿Dónde está la Costa del Sol Poniente?",
+        "a": "En el litoral oeste de Ceará, entre Fortaleza y el límite con Piauí, reuniendo Jericoacoara, Preá, Guajiru, Icaraí de Amontada, Mundaú, Flecheiras, Lagoinha y Almofala."
+      },
+      {
+        "q": "¿Cuál es la mejor época para kitesurf en Jericoacoara y Preá?",
+        "a": "De agosto a diciembre, cuando los vientos alisios soplan con más fuerza y constancia sobre la región."
+      },
+      {
+        "q": "¿Circulan autos en el centro de Jericoacoara?",
+        "a": "No; el centro del pueblo tiene calles de arena y circulación restringida de vehículos, preservando el ambiente de pueblo de pescadores."
+      },
+      {
+        "q": "¿Cuál es la diferencia entre Preá, Guajiru y Jericoacoara para kitesurf?",
+        "a": "Preá y Guajiru tienen spots más técnicos y orientados a la comunidad del kite, mientras Jericoacoara reúne una infraestructura turística más completa junto a la Duna del Sol Poniente."
+      },
+      {
+        "q": "¿Cuánto cuesta un viaje a la Costa del Sol Poniente con Create Travel?",
+        "a": "No trabajamos con precios estándar: el presupuesto depende del destino, el alojamiento y la temporada. Un consultor humano presenta la propuesta por escrito."
+      },
+      {
+        "q": "¿Necesito visado o vacunas para Brasil?",
+        "a": "Los requisitos de visado dependen de tu nacionalidad y pueden cambiar. Consulta fuentes oficiales consulares y de inmigración brasileñas antes de reservar. Acude con antelación a un profesional de salud del viajero y consulta las recomendaciones sanitarias oficiales sobre vacunas habituales, fiebre amarilla y precauciones regionales."
+      },
+      {
+        "q": "¿Hay guías en español en todas las excursiones?",
+        "a": "Sí. Create Travel ofrece guías en español en todas las excursiones de tu itinerario privado y a medida."
+      },
+      {
+        "q": "¿Cómo llegar para un viaje a Costa del Sol Poniente?",
+        "a": "Vuela a un hub brasileño y conecta con el aeropuerto de Fortaleza; continúa por carretera hacia Jijoca y en 4x4 por el último tramo de arena a Jericoacoara. Create Travel organiza traslados privados hasta tu alojamiento o punto de embarque."
+      },
+      {
+        "q": "¿Puedo combinar Costa del Sol Poniente con otros biomas brasileños?",
+        "a": "Sí. Brasil tiene seis biomas terrestres — Amazonía, Bosque Atlántico, Cerrado, Caatinga, Pantanal y Pampa — más la zona costera y marina: siete paisajes y culturas distintos. Combina la zona costera y marina de Ceará con la Caatinga del interior. Tu diseñador de viajes comprueba la compatibilidad estacional y prevé tiempos de viaje realistas entre regiones."
+      }
     ],
-    cta: { heading: "Diseñemos su Costa del Sol Poniente", subheading: "Un consultor humano de Create Travel elige entre Jericoacoara, Preá, Guajiru e Icaraí de Amontada la base correcta para su itinerario.", button: "Hablar con un travel designer" },
+    cta: {
+      "heading": "Solicita tu presupuesto para Costa del Sol Poniente",
+      "subheading": "Un diseñador de viajes humano de Create Travel planifica tu viaje privado y a medida según tus intereses y tu ritmo, y te envía una propuesta por escrito.",
+      "button": "Solicitar presupuesto por WhatsApp"
+    },
     readingMinutes: 9,
     publishedAt: "2026-08-11",
   },
   it: {
     destinationName: "Costa del Sole al Tramonto",
     blurb: "Jericoacoara, Preá, Guajiru, Icaraí de Amontada, Mundaú, Flecheiras e Lagoinha: la costa occidentale del Ceará fatta di vento, dune e il tramonto più celebrato del Brasile.",
-    metaTitle: "Costa del Sole al Tramonto: guida da Jericoacoara a Lagoinha",
-    metaDescription: "Guida completa alla Costa del Sole al Tramonto in Ceará: periodo migliore per il kitesurf, Jericoacoara, Preá, Icaraí de Amontada, Mundaú, Flecheiras, indirizzi reali e itinerario.",
-    keywords: "costa do sol poente, jericoacoara, prea brasile, icarai de amontada, mundau, flecheiras, lagoinha ceara, guajiru, almofala, kitesurf brasile, duna del tramonto",
-    h1: "Costa del Sole al Tramonto: il litorale del Ceará dove il vento disegna il paesaggio",
-    aiAnswer: "La Costa del Sole al Tramonto è il litorale occidentale del Ceará tra Fortaleza e il confine con il Piauí, che include Jericoacoara, Preá, Guajiru, Icaraí de Amontada, Mundaú, Flecheiras, Lagoinha e Almofala; il periodo migliore per il kitesurf va da agosto a dicembre, quando gli alisei soffiano con più costanza su dune e lagune.",
+    metaTitle: "Costa del Sole al Tramonto, Brasile: Itinerario, Periodo Migliore e Preventivo",
+    metaDescription: "Viaggio privato e su misura: Costa del Sole al Tramonto. Itinerario suggerito, periodo migliore e come arrivare. Richiedi un preventivo su WhatsApp.",
+    keywords: "costa do sol poente, jericoacoara, prea brasile, icarai de amontada, mundau, flecheiras, lagoinha ceara, guajiru, almofala, kitesurf brasile, duna del tramonto, Costa del Sole al Tramonto tour, itinerario Costa del Sole al Tramonto, come arrivare a Costa del Sole al Tramonto, periodo migliore Costa del Sole al Tramonto",
+    h1: "Costa del Sole al Tramonto: itinerario, periodo migliore e come arrivare",
+    aiAnswer: "La Costa del Sole al Tramonto è il litorale occidentale del Ceará tra Fortaleza e il confine con il Piauí, che include Jericoacoara, Preá, Guajiru, Icaraí de Amontada, Mundaú, Flecheiras, Lagoinha e Almofala; il periodo migliore per il kitesurf va da agosto a dicembre, quando gli alisei soffiano con più costanza su dune e lagune. Create Travel crea viaggi privati e su misura per Costa del Sole al Tramonto per viaggiatori internazionali, con guide in italiano, e invia un preventivo scritto via WhatsApp.",
     intro: [
       "La Costa del Sole al Tramonto inizia dove il litorale del Ceará si trasforma in un entroterra di dune e termina a Jericoacoara, villaggio diventato parco nazionale che ha comunque conservato strade di sabbia e il divieto di auto nel centro. Tra un punto e l'altro si susseguono villaggi di pescatori — Preá, Guajiru, Icaraí de Amontada, Mundaú, Flecheiras, Lagoinha, Almofala — che nell'ultimo decennio sono diventati la frontiera più ambita del kitesurf mondiale senza perdere il silenzio lontano dall'acqua.",
       "Questa guida raccoglie ciò che abbiamo imparato percorrendo questa costa: perché Jericoacoara resta meta di pellegrinaggio pur essendo la più conosciuta, perché Preá e Guajiru concentrano alcuni dei migliori spot di vento del pianeta, e perché la Duna del Tramonto, a Jeri, riunisce ogni sera una folla silenziosa.",
@@ -338,13 +393,34 @@ export const costaDoSolPoenteGuide: BrazilGuideLocalized = {
       ],
     },
     itinerary: {
-      heading: "Come integrare la Costa del Sole al Tramonto in un itinerario nel Ceará",
-      intro: "La regione dista da 3 a 6 ore di auto dall'Aeroporto di Fortaleza, a seconda del tratto e delle condizioni della strada di sabbia.",
-      items: [
-        { title: "Jericoacoara isolata — 4-6 giorni", text: "Base unica a Jeri, con escursioni in buggy o 4x4 alle lagune circostanti e alla Pedra Furada." },
-        { title: "Jericoacoara + Preá o Guajiru — 6-8 giorni", text: "Unisce la struttura e la vita notturna discreta di Jeri a giorni interi dedicati al kitesurf a Preá o Guajiru, a circa 20 minuti di distanza." },
-        { title: "Litorale occidentale completo — 8-10 giorni", text: "Percorso tra Flecheiras, Lagoinha, Mundaú, Icaraí de Amontada e Jericoacoara, che rivela la varietà dei villaggi tra Fortaleza e il confine con il Piauí." },
-      ],
+      "heading": "Itinerario suggerito per Costa del Sole al Tramonto — 4 notti / 5 giorni",
+      "intro": "Un punto di partenza privato e su misura, adattato ai tuoi ritmi, agli orari di arrivo e alle condizioni locali. Aggiungi notti per un soggiorno più rilassato.",
+      "items": [
+        {
+          "title": "Giorno 1 — Fortaleza → Jericoacoara",
+          "text": "Viaggia con un trasferimento privato su strada verso Jijoca, passando a un veicolo adatto per il tratto sulla sabbia."
+        },
+        {
+          "title": "Giorno 2 — Lagune e dune",
+          "text": "Esplora le lagune circostanti in 4x4 o buggy con una guida, secondo le condizioni locali."
+        },
+        {
+          "title": "Giorno 3 — Pedra Furada",
+          "text": "Visita Pedra Furada con una guida e goditi un pomeriggio senza fretta nel villaggio."
+        },
+        {
+          "title": "Giorno 4 — Preá",
+          "text": "Visita Preá per la spiaggia o una sessione di kitesurf adatta alla tua esperienza e alle condizioni del vento."
+        },
+        {
+          "title": "Giorno 5 — Partenza",
+          "text": "Rientra a Fortaleza con ampio margine per il viaggio su strada e la coincidenza aerea."
+        },
+        {
+          "title": "Combina due o più biomi brasiliani",
+          "text": "Il Brasile ha sei biomi terrestri — Amazzonia, Foresta Atlantica, Cerrado, Caatinga, Pantanal e Pampa — più la zona costiera e marina: sette paesaggi e culture diversi. Combina la zona costiera e marina del Ceará con la Caatinga dell’entroterra. Pianifichiamo ritmi e collegamenti secondo le condizioni stagionali; gli avvistamenti di fauna non sono mai garantiti."
+        }
+      ]
     },
     tips: {
       heading: "Consigli pratici che fanno la differenza",
@@ -358,14 +434,48 @@ export const costaDoSolPoenteGuide: BrazilGuideLocalized = {
       ],
     },
     faq: [
-      { q: "Dove si trova la Costa del Sole al Tramonto?", a: "Sul litorale occidentale del Ceará, tra Fortaleza e il confine con il Piauí, comprendendo Jericoacoara, Preá, Guajiru, Icaraí de Amontada, Mundaú, Flecheiras, Lagoinha e Almofala." },
-      { q: "Qual è il periodo migliore per il kitesurf a Jericoacoara e Preá?", a: "Da agosto a dicembre, quando gli alisei soffiano con maggiore forza e costanza sulla regione." },
-      { q: "Come si arriva a Jericoacoara?", a: "Attraverso l'Aeroporto di Fortaleza, seguito da strada asfaltata fino a Jijoca e un tratto finale di sabbia percorso in veicolo 4x4 o buggy." },
-      { q: "Circolano auto nel centro di Jericoacoara?", a: "No; il centro del villaggio ha strade di sabbia e circolazione veicolare limitata, preservando l'atmosfera di villaggio di pescatori." },
-      { q: "Qual è la differenza tra Preá, Guajiru e Jericoacoara per il kitesurf?", a: "Preá e Guajiru hanno spot più tecnici orientati alla comunità del kite, mentre Jericoacoara offre un'infrastruttura turistica più completa accanto alla Duna del Tramonto." },
-      { q: "Quanto costa un viaggio alla Costa del Sole al Tramonto con Create Travel?", a: "Non lavoriamo con tariffe standard: il budget dipende dalla destinazione, dall'alloggio e dalla stagione. Un consulente umano presenta la proposta per iscritto." },
+      {
+        "q": "Dove si trova la Costa del Sole al Tramonto?",
+        "a": "Sul litorale occidentale del Ceará, tra Fortaleza e il confine con il Piauí, comprendendo Jericoacoara, Preá, Guajiru, Icaraí de Amontada, Mundaú, Flecheiras, Lagoinha e Almofala."
+      },
+      {
+        "q": "Qual è il periodo migliore per il kitesurf a Jericoacoara e Preá?",
+        "a": "Da agosto a dicembre, quando gli alisei soffiano con maggiore forza e costanza sulla regione."
+      },
+      {
+        "q": "Circolano auto nel centro di Jericoacoara?",
+        "a": "No; il centro del villaggio ha strade di sabbia e circolazione veicolare limitata, preservando l'atmosfera di villaggio di pescatori."
+      },
+      {
+        "q": "Qual è la differenza tra Preá, Guajiru e Jericoacoara per il kitesurf?",
+        "a": "Preá e Guajiru hanno spot più tecnici orientati alla comunità del kite, mentre Jericoacoara offre un'infrastruttura turistica più completa accanto alla Duna del Tramonto."
+      },
+      {
+        "q": "Quanto costa un viaggio alla Costa del Sole al Tramonto con Create Travel?",
+        "a": "Non lavoriamo con tariffe standard: il budget dipende dalla destinazione, dall'alloggio e dalla stagione. Un consulente umano presenta la proposta per iscritto."
+      },
+      {
+        "q": "Ho bisogno di visto o vaccini per il Brasile?",
+        "a": "I requisiti del visto dipendono dalla nazionalità e possono cambiare. Consulta le fonti ufficiali consolari e di immigrazione brasiliane prima di prenotare. Rivolgiti con anticipo a un professionista della medicina dei viaggi e alle indicazioni sanitarie ufficiali per vaccini di routine, febbre gialla e precauzioni regionali."
+      },
+      {
+        "q": "Sono disponibili guide in italiano in ogni escursione?",
+        "a": "Sì. Create Travel prevede guide in italiano in ogni escursione del tuo itinerario privato e su misura."
+      },
+      {
+        "q": "Come arrivare per un viaggio dedicato a Costa del Sole al Tramonto?",
+        "a": "Vola verso un hub brasiliano e prosegui per l’aeroporto di Fortaleza, poi su strada verso Jijoca e in 4x4 sull’ultimo tratto di sabbia fino a Jericoacoara. Create Travel organizza trasferimenti privati fino all’alloggio o al punto d’imbarco."
+      },
+      {
+        "q": "Posso combinare Costa del Sole al Tramonto con altri biomi brasiliani?",
+        "a": "Sì. Il Brasile ha sei biomi terrestri — Amazzonia, Foresta Atlantica, Cerrado, Caatinga, Pantanal e Pampa — più la zona costiera e marina: sette paesaggi e culture diversi. Combina la zona costiera e marina del Ceará con la Caatinga dell’entroterra. Il tuo travel designer verifica la compatibilità stagionale e prevede tempi di viaggio realistici tra le regioni."
+      }
     ],
-    cta: { heading: "Progettiamo la vostra Costa del Sole al Tramonto", subheading: "Un consulente umano di Create Travel sceglie tra Jericoacoara, Preá, Guajiru e Icaraí de Amontada la base giusta per il vostro itinerario.", button: "Parla con un travel designer" },
+    cta: {
+      "heading": "Richiedi il tuo preventivo per Costa del Sole al Tramonto",
+      "subheading": "Un travel designer umano di Create Travel pianifica il tuo viaggio privato e su misura, secondo i tuoi interessi e ritmi, e ti invia una proposta scritta.",
+      "button": "Richiedi un preventivo su WhatsApp"
+    },
     readingMinutes: 9,
     publishedAt: "2026-08-11",
   },

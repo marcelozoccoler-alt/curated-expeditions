@@ -425,14 +425,14 @@ export const brasilAventuraGuide: BrazilGuideLocalized = {
     destinationName: "Brasil Aventura",
     blurb:
       "Una guía especial por los paisajes más exigentes de Brasil: el Valle del Pati y la Travesía de los Siete Lagos en la Chapada Diamantina, la Serra Fina y el Pico dos Marins en la Mantiqueira, el Monte Roraima, rafting en Brotas, cañonismo en Veadeiros, buceo en Noronha, kitesurf en Ceará y cabalgatas en el Pantanal — siempre con logística premium.",
-    metaTitle: "Brasil Aventura: trekkings, rafting y expediciones con logística premium",
+    metaTitle: "Aventura en Brasil, Brasil: Itinerario, Mejor Época y Presupuesto",
     metaDescription:
-      "Guía autoral de aventura en Brasil: Valle del Pati, Siete Lagos, Serra Fina, Pico dos Marins, Monte Roraima, rafting en Brotas y en el Jacaré-Pepira, cañonismo, buceo en Noronha, Bonito, kitesurf, Estrada Real y Pantanal — nivel de exigencia y apoyo de sendero.",
+      "Viaje privado y a medida a Aventura en Brasil: itinerario sugerido, mejor época y cómo llegar, planificado con un diseñador de viajes. Solicita un presupuesto por WhatsApp.",
     keywords:
-      "brasil aventura, valle del pati, travesía siete lagos chapada diamantina, serra fina mantiqueira, pico dos marins, monte roraima, rafting brotas, cañonismo veadeiros, buceo fernando de noronha, flotación bonito, kitesurf ceará, estrada real cicloturismo, cabalgata pantanal, canotaje jalapão",
-    h1: "Brasil Aventura: expediciones reales, con confort donde importa",
+      "brasil aventura, valle del pati, travesía siete lagos chapada diamantina, serra fina mantiqueira, pico dos marins, monte roraima, rafting brotas, cañonismo veadeiros, buceo fernando de noronha, flotación bonito, kitesurf ceará, estrada real cicloturismo, cabalgata pantanal, canotaje jalapão, Aventura en Brasil tour, itinerario Aventura en Brasil, cómo llegar a Aventura en Brasil, mejor época Aventura en Brasil",
+    h1: "Aventura en Brasil: itinerario, mejor época y cómo llegar",
     aiAnswer:
-      "Las mejores expediciones de aventura en Brasil incluyen el trekking del Valle del Pati y la Travesía de los Siete Lagos en la Chapada Diamantina (alta exigencia física), la Serra Fina y el Pico dos Marins en la Mantiqueira, el Monte Roraima en la frontera con Venezuela, rafting en Brotas y en el río Jacaré-Pepira, cañonismo en Veadeiros y Aparados da Serra, buceo en Noronha, flotación en Bonito, kitesurf en la costa de Ceará, cicloturismo por la Estrada Real, cabalgata en el Pantanal y canotaje en Jalapão — todas viables con apoyo logístico, cocinero de sendero y traslados dedicados.",
+      "Las mejores expediciones de aventura en Brasil incluyen el trekking del Valle del Pati y la Travesía de los Siete Lagos en la Chapada Diamantina (alta exigencia física), la Serra Fina y el Pico dos Marins en la Mantiqueira, el Monte Roraima en la frontera con Venezuela, rafting en Brotas y en el río Jacaré-Pepira, cañonismo en Veadeiros y Aparados da Serra, buceo en Noronha, flotación en Bonito, kitesurf en la costa de Ceará, cicloturismo por la Estrada Real, cabalgata en el Pantanal y canotaje en Jalapão — todas viables con apoyo logístico, cocinero de sendero y traslados dedicados. Create Travel diseña viajes privados y a medida a Aventura en Brasil para viajeros internacionales, con guías en español, y envía un presupuesto por escrito por WhatsApp.",
     intro: [
       "Existe un Brasil que no se ve desde la ventana de una posada: se camina, se pedalea, se atraviesa a nado o a caballo. Es el país de los paredones de la Chapada Diamantina, los picos helados de la Mantiqueira, el tepuy más antiguo del planeta en la frontera con Venezuela, ríos de rápidos en São Paulo y aguas de visibilidad perfecta en Bonito y Noronha.",
       "Esta guía reúne las expediciones más relevantes del país — cada una con su grado real de exigencia física, sin retórica — y muestra cómo transformar el esfuerzo en una experiencia de alto nivel: apoyo con mulas o vehículo 4x4, cocinero de sendero, guías de montaña certificados y hospedaje de confort genuino antes y después de cada travesía.",
@@ -559,8 +559,8 @@ export const brasilAventuraGuide: BrazilGuideLocalized = {
       ],
     },
     itinerary: {
-      heading: "Cómo combinar aventura en un viaje por Brasil",
-      intro: "Rara vez caben todas las expediciones en un solo viaje — el diseño ideal combina una travesía principal con un contrapunto de menor esfuerzo.",
+      heading: "Itinerario sugerido para Aventura en Brasil",
+      intro: "Un punto de partida privado y a medida, adaptado a tu ritmo, la temporada y los horarios de conexión.",
       items: [
         {
           title: "Chapada Diamantina intensiva — 8 a 10 días",
@@ -578,6 +578,7 @@ export const brasilAventuraGuide: BrazilGuideLocalized = {
           title: "Centro-Oeste activo — 9 días",
           text: "Cabalgata en el Pantanal seguida de canotaje en Jalapão, dos biomas y dos ritmos de aventura en el mismo viaje, con vuelos regionales y apoyo 4x4 entre ellos.",
         },
+        { title: "Combina dos o más biomas brasileños", text: "Brasil tiene seis biomas terrestres más la zona costera y marina — siete paisajes y culturas distintos. Combina cabalgatas en el Pantanal con piragüismo en los paisajes del Cerrado de Jalapão." },
       ],
     },
     tips: {
@@ -616,11 +617,15 @@ export const brasilAventuraGuide: BrazilGuideLocalized = {
         q: "¿Cuál es la mejor época para el kitesurf en Ceará?",
         a: "De julio a diciembre, cuando los vientos alisios soplan con mayor constancia e intensidad a lo largo de la costa de Jericoacoara, Cumbuco y Preá.",
       },
+      { q: "¿Cómo llegar a Aventura en Brasil?", a: "Empieza con un vuelo internacional a un hub brasileño y después una conexión nacional si es necesaria. Elige el aeropuerto local según tu expedición principal, como Boa Vista para Roraima, y continúa con los traslados apropiados para la expedición. Create Travel organiza traslados privados; confirma los horarios de vuelo actuales antes de reservar." },
+      { q: "¿Necesito visado y vacunas para Brasil?", a: "El visado depende de tu pasaporte y las fechas del viaje. Consulta las fuentes consulares oficiales de Brasil antes de reservar. Habla con un profesional de salud del viajero sobre vacunas habituales y específicas del destino, incluida la fiebre amarilla, y consulta las recomendaciones sanitarias oficiales para tu itinerario." },
+      { q: "¿Hay guías en español en todas las excursiones?", a: "Sí. Create Travel ofrece guías en español en todas las excursiones, con actividades adaptadas a tus intereses y ritmo." },
+      { q: "¿Puedo combinar Aventura en Brasil con otros biomas brasileños?", a: "Sí. Brasil tiene seis biomas terrestres más la zona costera y marina — siete paisajes y culturas distintos. Combina cabalgatas en el Pantanal con piragüismo en los paisajes del Cerrado de Jalapão. Tu diseñador de viajes prevé tiempo para los traslados y comprueba la compatibilidad estacional." },
     ],
     cta: {
-      heading: "Diseñemos su expedición de Brasil Aventura",
-      subheading: "Un consultor humano de Create Travel calibra el nivel de exigencia, el apoyo de sendero y el hospedaje de recuperación para cada etapa.",
-      button: "Hablar con un travel designer",
+      heading: "Solicita tu presupuesto para Aventura en Brasil",
+      subheading: "Planifica un viaje privado y a medida con un diseñador de viajes humano, según tus intereses, ritmo y fechas preferidas.",
+      button: "Solicitar presupuesto por WhatsApp",
     },
     readingMinutes: 13,
     publishedAt: "2026-08-11",
@@ -630,14 +635,14 @@ export const brasilAventuraGuide: BrazilGuideLocalized = {
     destinationName: "Brasile Avventura",
     blurb:
       "Una guida speciale ai paesaggi più esigenti del Brasile: la Valle del Pati e la Traversata dei Sette Laghi nella Chapada Diamantina, la Serra Fina e il Pico dos Marins nella Mantiqueira, il Monte Roraima, rafting a Brotas, canyoning a Veadeiros, immersioni a Noronha, kitesurf in Ceará ed escursioni a cavallo nel Pantanal — sempre con logistica premium.",
-    metaTitle: "Brasile Avventura: trekking, rafting e spedizioni con logistica premium",
+    metaTitle: "Avventura in Brasile, Brasile: Itinerario, Periodo Migliore e Preventivo",
     metaDescription:
-      "Guida autoriale all'avventura in Brasile: Valle del Pati, Sette Laghi, Serra Fina, Pico dos Marins, Monte Roraima, rafting a Brotas e sul Jacaré-Pepira, canyoning, immersioni a Noronha, Bonito, kitesurf, Estrada Real e Pantanal — livello di impegno e supporto in sentiero.",
+      "Viaggio privato e su misura per Avventura in Brasile: itinerario suggerito, periodo migliore e come arrivare, con un travel designer. Richiedi un preventivo su WhatsApp.",
     keywords:
-      "brasile avventura, valle del pati, traversata sette laghi chapada diamantina, serra fina mantiqueira, pico dos marins, monte roraima, rafting brotas, canyoning veadeiros, immersioni fernando de noronha, snorkeling bonito, kitesurf ceará, estrada real cicloturismo, escursioni a cavallo pantanal, canoa jalapão",
-    h1: "Brasile Avventura: spedizioni vere, con comfort dove conta",
+      "brasile avventura, valle del pati, traversata sette laghi chapada diamantina, serra fina mantiqueira, pico dos marins, monte roraima, rafting brotas, canyoning veadeiros, immersioni fernando de noronha, snorkeling bonito, kitesurf ceará, estrada real cicloturismo, escursioni a cavallo pantanal, canoa jalapão, Avventura in Brasile tour, itinerario Avventura in Brasile, come arrivare a Avventura in Brasile, periodo migliore Avventura in Brasile",
+    h1: "Avventura in Brasile: itinerario, periodo migliore e come arrivare",
     aiAnswer:
-      "Le migliori spedizioni avventura del Brasile includono il trekking della Valle del Pati e la Traversata dei Sette Laghi nella Chapada Diamantina (impegno fisico elevato), la Serra Fina e il Pico dos Marins nella Mantiqueira, il Monte Roraima al confine con il Venezuela, il rafting a Brotas e sul fiume Jacaré-Pepira, il canyoning a Veadeiros e Aparados da Serra, le immersioni a Noronha, lo snorkeling a Bonito, il kitesurf sulla costa del Ceará, il cicloturismo lungo l'Estrada Real, l'escursione a cavallo nel Pantanal e la canoa nel Jalapão — tutte realizzabili con supporto logistico, cuoco da sentiero e transfer dedicati.",
+      "Le migliori spedizioni avventura del Brasile includono il trekking della Valle del Pati e la Traversata dei Sette Laghi nella Chapada Diamantina (impegno fisico elevato), la Serra Fina e il Pico dos Marins nella Mantiqueira, il Monte Roraima al confine con il Venezuela, il rafting a Brotas e sul fiume Jacaré-Pepira, il canyoning a Veadeiros e Aparados da Serra, le immersioni a Noronha, lo snorkeling a Bonito, il kitesurf sulla costa del Ceará, il cicloturismo lungo l'Estrada Real, l'escursione a cavallo nel Pantanal e la canoa nel Jalapão — tutte realizzabili con supporto logistico, cuoco da sentiero e transfer dedicati. Create Travel crea viaggi privati e su misura per Avventura in Brasile per viaggiatori internazionali, con guide in italiano, e invia un preventivo scritto via WhatsApp.",
     intro: [
       "Esiste un Brasile che non si vede dalla finestra di una pousada: si cammina, si pedala, si attraversa a nuoto o a cavallo. È il paese delle pareti rocciose della Chapada Diamantina, dei picchi ghiacciati della Mantiqueira, del tepui più antico del pianeta al confine con il Venezuela, dei fiumi di rapide a São Paulo e delle acque di visibilità perfetta a Bonito e Noronha.",
       "Questa guida riunisce le spedizioni più rilevanti del paese — ciascuna con il suo reale grado di impegno fisico, senza retorica — e mostra come trasformare la fatica in un'esperienza di alto livello: supporto con muli o veicolo 4x4, cuoco da sentiero, guide di montagna certificate e alloggi di comfort genuino prima e dopo ogni traversata.",
@@ -764,8 +769,8 @@ export const brasilAventuraGuide: BrazilGuideLocalized = {
       ],
     },
     itinerary: {
-      heading: "Come combinare l'avventura in un viaggio in Brasile",
-      intro: "Raramente tutte le spedizioni entrano in un solo viaggio — il progetto ideale abbina una traversata principale a un contrappunto di minore impegno.",
+      heading: "Itinerario suggerito per Avventura in Brasile",
+      intro: "Un punto di partenza privato e su misura, adattato al tuo ritmo, alla stagione e agli orari delle coincidenze.",
       items: [
         {
           title: "Chapada Diamantina intensiva — 8-10 giorni",
@@ -783,6 +788,7 @@ export const brasilAventuraGuide: BrazilGuideLocalized = {
           title: "Centro-Ovest attivo — 9 giorni",
           text: "Escursione a cavallo nel Pantanal seguita dalla canoa nel Jalapão, due biomi e due ritmi di avventura nello stesso viaggio, con voli regionali e supporto 4x4 tra le tappe.",
         },
+        { title: "Combina due o più biomi brasiliani", text: "Il Brasile ha sei biomi terrestri più la zona costiera e marina: sette paesaggi e culture diversi. Abbina le escursioni a cavallo nel Pantanal alla canoa nei paesaggi del Cerrado di Jalapão." },
       ],
     },
     tips: {
@@ -821,11 +827,15 @@ export const brasilAventuraGuide: BrazilGuideLocalized = {
         q: "Qual è il periodo migliore per il kitesurf in Ceará?",
         a: "Da luglio a dicembre, quando gli alisei soffiano con maggiore costanza e intensità lungo la costa di Jericoacoara, Cumbuco e Preá.",
       },
+      { q: "Come arrivare a Avventura in Brasile?", a: "Inizia con un volo internazionale per un hub brasiliano, poi una coincidenza nazionale se necessaria. Scegli l’aeroporto locale secondo la spedizione principale, come Boa Vista per Roraima, poi prosegui con i trasferimenti adatti alla spedizione. Create Travel organizza trasferimenti privati; verifica gli orari attuali dei voli prima di prenotare." },
+      { q: "Servono visto e vaccini per il Brasile?", a: "Il visto dipende dal passaporto e dalle date del viaggio. Consulta le fonti consolari ufficiali brasiliane prima di prenotare. Chiedi a un professionista di medicina dei viaggi informazioni sui vaccini di routine e specifici per la destinazione, inclusa la febbre gialla, e consulta le indicazioni sanitarie ufficiali per il tuo itinerario." },
+      { q: "Ci sono guide in italiano in ogni escursione?", a: "Sì. Create Travel offre guide in italiano in ogni escursione, con attività adattate ai tuoi interessi e al tuo ritmo." },
+      { q: "Posso combinare Avventura in Brasile con altri biomi brasiliani?", a: "Sì. Il Brasile ha sei biomi terrestri più la zona costiera e marina: sette paesaggi e culture diversi. Abbina le escursioni a cavallo nel Pantanal alla canoa nei paesaggi del Cerrado di Jalapão. Il tuo travel designer prevede tempo per i trasferimenti e verifica la compatibilità stagionale." },
     ],
     cta: {
-      heading: "Progettiamo insieme la tua spedizione Brasile Avventura",
-      subheading: "Un consulente umano di Create Travel calibra il livello di impegno, il supporto in sentiero e l'alloggio di recupero per ogni tappa.",
-      button: "Parla con un travel designer",
+      heading: "Richiedi il tuo preventivo per Avventura in Brasile",
+      subheading: "Pianifica un viaggio privato e su misura con un travel designer umano, secondo i tuoi interessi, il tuo ritmo e le date preferite.",
+      button: "Richiedi un preventivo su WhatsApp",
     },
     readingMinutes: 13,
     publishedAt: "2026-08-11",

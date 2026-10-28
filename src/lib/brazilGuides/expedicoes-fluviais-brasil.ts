@@ -400,14 +400,14 @@ export const expedicoesFluviaisBrasilGuide: BrazilGuideLocalized = {
     destinationName: "Expediciones Fluviales en Brasil",
     blurb:
       "Barcos-hotel y expediciones fluviales por la Amazonía, el Tapajós y el Pantanal — Brasil visto desde el agua, desde un camarote frente a la selva.",
-    metaTitle: "Expediciones Fluviales en Brasil: barcos-hotel en la Amazonía y el Pantanal",
+    metaTitle: "Expediciones Fluviales en Brasil, Brasil: Itinerario, Mejor Época y Presupuesto",
     metaDescription:
-      "Guía de las expediciones fluviales en Brasil: barcos-hotel en el Río Negro, Anavilhanas, Jaú y Mamirauá, en el Tapajós y en el Pantanal (ríos Paraguay, Cuiabá y Três Irmãos). Crecida y seca, embarcaciones, camarotes y rutas de 4 a 8 noches.",
+      "Viaje privado y a medida: Expediciones Fluviales en Brasil. Itinerario sugerido, mejor época y cómo llegar. Solicita un presupuesto por WhatsApp.",
     keywords:
-      "expedicion fluvial brasil, barco hotel amazonia, crucero rio negro, tumbira barco, katerre amazonas, amazon dream barco, jacare-acu embarcacion, untamed angling pantanal, barco hotel pantanal, crucero rio paraguay, alter do chao tapajos, parque nacional del jau, mamiraua barco",
-    h1: "Expediciones fluviales en Brasil: la Amazonía y el Pantanal vistos desde el agua",
+      "expedicion fluvial brasil, barco hotel amazonia, crucero rio negro, tumbira barco, katerre amazonas, amazon dream barco, jacare-acu embarcacion, untamed angling pantanal, barco hotel pantanal, crucero rio paraguay, alter do chao tapajos, parque nacional del jau, mamiraua barco, Expediciones Fluviales en Brasil tour, itinerario Expediciones Fluviales en Brasil, cómo llegar a Expediciones Fluviales en Brasil, mejor época Expediciones Fluviales en Brasil",
+    h1: "Expediciones Fluviales en Brasil: itinerario, mejor época y cómo llegar",
     aiAnswer:
-      "Las mejores expediciones fluviales de Brasil recorren la Amazonía (Río Negro, Anavilhanas, Parque Nacional del Jaú y Mamirauá, a bordo de barcos-hotel como Tumbira, Katerre, Amazon Dream y Jacaré-Açu) y el Pantanal (ríos Paraguay, Cuiabá y Três Irmãos, con barcos-hotel y plataformas flotantes de observación de jaguares); los itinerarios van de 4 a 8 noches, y elegir entre crecida (diciembre-junio) y seca (julio-noviembre) cambia por completo lo que se ve y cómo se navega.",
+      "Las mejores expediciones fluviales de Brasil recorren la Amazonía (Río Negro, Anavilhanas, Parque Nacional del Jaú y Mamirauá, a bordo de barcos-hotel como Tumbira, Katerre, Amazon Dream y Jacaré-Açu) y el Pantanal (ríos Paraguay, Cuiabá y Três Irmãos, con barcos-hotel y plataformas flotantes de observación de jaguares); los itinerarios van de 4 a 8 noches, y elegir entre crecida (diciembre-junio) y seca (julio-noviembre) cambia por completo lo que se ve y cómo se navega. Create Travel diseña viajes privados y a medida a Expediciones Fluviales en Brasil para viajeros internacionales, con guías en español, y envía un presupuesto por escrito por WhatsApp.",
     intro: [
       "Existe una forma de conocer Brasil que ningún lodge fijo puede ofrecer: un viaje cuyo paisaje cambia cada día porque es el barco, y no usted, el que se mueve. En las expediciones fluviales, el camarote es la habitación, la cubierta es el balcón, y el río —Negro, Tapajós, Paraguay o Cuiabá— es el corredor que conduce a una nueva bahía, playa o brazo de selva inundada cada jornada.",
       "Esta guía reúne lo que sabemos tras embarcar en estas rutas: cómo funcionan realmente los barcos-hotel de la Amazonía y el Pantanal, qué embarcaciones valen la experiencia, la diferencia entre navegar en crecida y en seca, y el ritmo real de a bordo — para quien busca inmersión, no un crucero genérico con etiqueta de selva.",
@@ -521,27 +521,30 @@ export const expedicoesFluviaisBrasilGuide: BrazilGuideLocalized = {
       ],
     },
     itinerary: {
-      heading: "Itinerarios de 4 a 8 noches — cómo estructurar la expedición",
-      intro:
-        "La duración de la expedición fluvial debe responder al objetivo del viaje, no al calendario disponible. Nunca embarcamos a un cliente directo de un vuelo internacional — siempre hay una noche de colchón en tierra antes y después.",
-      items: [
+      "heading": "Itinerarios de 4 a 8 noches — cómo estructurar la expedición",
+      "intro": "La duración de la expedición fluvial debe responder al objetivo del viaje, no al calendario disponible. Nunca embarcamos a un cliente directo de un vuelo internacional — siempre hay una noche de colchón en tierra antes y después.",
+      "items": [
         {
-          title: "4 noches — Río Negro y Anavilhanas, desde Manaos",
-          text: "Formato de introducción: encuentro de las aguas, archipiélago de Anavilhanas, delfines en Novo Airão y una noche de selva inundada. Ideal como primera expedición fluvial de la Amazonía.",
+          "title": "4 noches — Río Negro y Anavilhanas, desde Manaus",
+          "text": "Una introducción con el encuentro de las aguas, el archipiélago de Anavilhanas, delfines en Novo Airão y una noche en el bosque inundado. Ideal para una primera expedición fluvial amazónica."
         },
         {
-          title: "6 noches — Río Negro, Anavilhanas y Parque Nacional del Jaú",
-          text: "Añade días de navegación más larga hasta el Jaú, con mayor aislamiento y menor tráfico de otras embarcaciones — para quien ya sintió el ritmo de a bordo y quiere profundizar.",
+          "title": "6 noches — Río Negro, Anavilhanas y Parque Nacional del Jaú",
+          "text": "Añade navegación más larga hacia Jaú, con mayor aislamiento y menos tráfico de embarcaciones, para quienes ya conocen el ritmo a bordo y quieren profundizar."
         },
         {
-          title: "5 a 7 noches — Pantanal, ríos Paraguay, Cuiabá y Três Irmãos",
-          text: "Combina navegación en barco-hotel con días completos en plataforma flotante especializada en jaguar en el Cuiabá y el Três Irmãos, alternando con safaris terrestres desde bases fijas a lo largo de la ruta.",
+          "title": "5 a 7 noches — Pantanal, ríos Paraguay, Cuiabá y Três Irmãos",
+          "text": "Combina navegación en barco-hotel con jornadas en una plataforma especializada en observación de jaguares en el Cuiabá y Três Irmãos, alternadas con safaris terrestres desde bases fijas. Los avistamientos no están garantizados."
         },
         {
-          title: "8 noches — Amazonía (Tapajós) + Pantanal, combinando ambos biomas",
-          text: "Un vuelo Santarém–Cuiabá conecta la expedición fluvial del Tapajós con la del Pantanal, siempre con una noche de seguridad en tierra entre embarques — selva inundada de un lado, llanura inundable del otro.",
+          "title": "8 noches — Amazonía (Tapajós) + Pantanal",
+          "text": "Un vuelo Santarém–Cuiabá enlaza la expedición por el Tapajós con el Pantanal, siempre con una noche de margen en tierra entre embarques: bosque inundado y llanura de inundación."
         },
-      ],
+        {
+          "title": "Combina dos o más biomas brasileños",
+          "text": "Brasil tiene seis biomas terrestres — Amazonía, Bosque Atlántico, Cerrado, Caatinga, Pantanal y Pampa — más la zona costera y marina: siete paisajes y culturas distintos. Combina una expedición fluvial amazónica con safaris fluviales en el Pantanal. Planificamos el ritmo y las conexiones según las condiciones estacionales; los avistamientos de fauna nunca están garantizados."
+        }
+      ]
     },
     tips: {
       heading: "Consejos prácticos de quien ya ha embarcado",
@@ -556,35 +559,50 @@ export const expedicoesFluviaisBrasilGuide: BrazilGuideLocalized = {
     },
     faq: [
       {
-        q: "¿Cuál es la diferencia entre un barco-hotel y un lodge fijo en la Amazonía?",
-        a: "El barco-hotel cambia de paisaje cada día y llega a tramos inaccesibles por tierra, como igarapés estrechos y el interior del Parque Nacional del Jaú; el lodge fijo ofrece más espacio y estructura, pero concentra los paseos en un radio fijo alrededor de un único punto del río.",
+        "q": "¿Cuál es la diferencia entre un barco-hotel y un lodge fijo en la Amazonía?",
+        "a": "El barco-hotel cambia de paisaje cada día y llega a tramos inaccesibles por tierra, como igarapés estrechos y el interior del Parque Nacional del Jaú; el lodge fijo ofrece más espacio y estructura, pero concentra los paseos en un radio fijo alrededor de un único punto del río."
       },
       {
-        q: "¿Es mejor navegar en crecida o en seca?",
-        a: "En la Amazonía, la crecida (marzo a junio) permite navegar en canoa dentro de la selva inundada; la seca (septiembre a noviembre) revela playas y concentra la fauna, incluidos jaguares en Mamirauá. En el Pantanal es al revés: la seca (julio a octubre) es la temporada clásica de observación de jaguar en los ríos Cuiabá y Três Irmãos, mientras que la crecida (diciembre a mayo) convierte la llanura en un mar interior de acceso casi exclusivo en barco.",
+        "q": "¿Es mejor navegar en crecida o en seca?",
+        "a": "En la Amazonía, la crecida (marzo a junio) permite navegar en canoa dentro de la selva inundada; la seca (septiembre a noviembre) revela playas y concentra la fauna, incluidos jaguares en Mamirauá. En el Pantanal es al revés: la seca (julio a octubre) es la temporada clásica de observación de jaguar en los ríos Cuiabá y Três Irmãos, mientras que la crecida (diciembre a mayo) convierte la llanura en un mar interior de acceso casi exclusivo en barco."
       },
       {
-        q: "¿Cuántas noches se recomiendan en una expedición fluvial?",
-        a: "Cuatro noches cubren bien el Río Negro y Anavilhanas; para incluir el Parque Nacional del Jaú o combinar Pantanal y Amazonía, recomendamos de 6 a 8 noches, siempre con una noche de seguridad en tierra antes de cada embarque o desembarque.",
+        "q": "¿Cuántas noches se recomiendan en una expedición fluvial?",
+        "a": "Cuatro noches cubren bien el Río Negro y Anavilhanas; para incluir el Parque Nacional del Jaú o combinar Pantanal y Amazonía, recomendamos de 6 a 8 noches, siempre con una noche de seguridad en tierra antes de cada embarque o desembarque."
       },
       {
-        q: "¿Las embarcaciones tienen aire acondicionado y confort para viajeros 40+?",
-        a: "Barcos como Tumbira, Katerre y Amazon Dream ofrecen camarotes climatizados, cubierta social y buena cocina; Untamed Angling y las bases especializadas en jaguar priorizan la experiencia de naturaleza sobre el estándar hotelero clásico — elegimos la embarcación según el equilibrio entre confort e inmersión que usted busque.",
+        "q": "¿Las embarcaciones tienen aire acondicionado y confort para viajeros 40+?",
+        "a": "Barcos como Tumbira, Katerre y Amazon Dream ofrecen camarotes climatizados, cubierta social y buena cocina; Untamed Angling y las bases especializadas en jaguar priorizan la experiencia de naturaleza sobre el estándar hotelero clásico — elegimos la embarcación según el equilibrio entre confort e inmersión que usted busque."
       },
       {
-        q: "¿Es posible ver jaguares desde un barco-hotel?",
-        a: "Sí. En el Pantanal, los tramos del Río Cuiabá y el Río Três Irmãos, recorridos por barcos y plataformas especializadas en seca (julio a octubre), tienen una de las tasas de avistamiento de jaguar más altas del mundo. En la Amazonía, Mamirauá también ofrece avistamientos, con menor probabilidad que en el Pantanal.",
+        "q": "¿Es posible ver jaguares desde un barco-hotel?",
+        "a": "Sí. En el Pantanal, los tramos del Río Cuiabá y el Río Três Irmãos, recorridos por barcos y plataformas especializadas en seca (julio a octubre), tienen una de las tasas de avistamiento de jaguar más altas del mundo. En la Amazonía, Mamirauá también ofrece avistamientos, con menor probabilidad que en el Pantanal."
       },
       {
-        q: "¿Cuánto cuesta una expedición fluvial con Create Travel?",
-        a: "No trabajamos con valores estándar: el presupuesto depende de la embarcación, el número de noches, la temporada y la malla aérea hasta el punto de embarque. Un consultor humano elabora la propuesta y presenta los valores por escrito, sin estimaciones en el sitio web.",
+        "q": "¿Cuánto cuesta una expedición fluvial con Create Travel?",
+        "a": "No trabajamos con valores estándar: el presupuesto depende de la embarcación, el número de noches, la temporada y la malla aérea hasta el punto de embarque. Un consultor humano elabora la propuesta y presenta los valores por escrito, sin estimaciones en el sitio web."
       },
+      {
+        "q": "¿Necesito visado o vacunas para Brasil?",
+        "a": "Los requisitos de visado dependen de tu nacionalidad y pueden cambiar. Consulta fuentes oficiales consulares y de inmigración brasileñas antes de reservar. Acude con antelación a un profesional de salud del viajero y consulta las recomendaciones sanitarias oficiales sobre vacunas habituales, fiebre amarilla y precauciones regionales."
+      },
+      {
+        "q": "¿Hay guías en español en todas las excursiones?",
+        "a": "Sí. Create Travel ofrece guías en español en todas las excursiones de tu itinerario privado y a medida."
+      },
+      {
+        "q": "¿Cómo llegar para un viaje a Expediciones Fluviales en Brasil?",
+        "a": "Vuela a un hub brasileño y conecta con el aeropuerto local de tu expedición: Manaus, Tefé o Santarém para la Amazonía, o Cuiabá para el Pantanal norte. Reserva una noche en tierra antes y después del embarque. Create Travel organiza traslados privados hasta tu alojamiento o punto de embarque."
+      },
+      {
+        "q": "¿Puedo combinar Expediciones Fluviales en Brasil con otros biomas brasileños?",
+        "a": "Sí. Brasil tiene seis biomas terrestres — Amazonía, Bosque Atlántico, Cerrado, Caatinga, Pantanal y Pampa — más la zona costera y marina: siete paisajes y culturas distintos. Combina una expedición fluvial amazónica con safaris fluviales en el Pantanal. Tu diseñador de viajes comprueba la compatibilidad estacional y prevé tiempos de viaje realistas entre regiones."
+      }
     ],
     cta: {
-      heading: "Diseñemos su expedición fluvial",
-      subheading:
-        "Un consultor humano de Create Travel elige el río, la embarcación y la temporada adecuados para su perfil — y gestiona cada conexión hasta el embarque.",
-      button: "Hablar con un travel designer",
+      "heading": "Solicita tu presupuesto para Expediciones Fluviales en Brasil",
+      "subheading": "Un diseñador de viajes humano de Create Travel planifica tu viaje privado y a medida según tus intereses y tu ritmo, y te envía una propuesta por escrito.",
+      "button": "Solicitar presupuesto por WhatsApp"
     },
     readingMinutes: 13,
     publishedAt: "2026-08-11",
@@ -594,14 +612,14 @@ export const expedicoesFluviaisBrasilGuide: BrazilGuideLocalized = {
     destinationName: "Spedizioni Fluviali in Brasile",
     blurb:
       "Barche-hotel e spedizioni fluviali in Amazzonia, sul Tapajós e nel Pantanal — il Brasile visto dall'acqua, da una cabina affacciata sulla foresta.",
-    metaTitle: "Spedizioni Fluviali in Brasile: barche-hotel in Amazzonia e Pantanal",
+    metaTitle: "Spedizioni Fluviali in Brasile, Brasile: Itinerario, Periodo Migliore e Preventivo",
     metaDescription:
-      "Guida alle spedizioni fluviali in Brasile: barche-hotel sul Rio Negro, Anavilhanas, Jaú e Mamirauá, sul Tapajós e nel Pantanal (fiumi Paraguay, Cuiabá e Três Irmãos). Piena e secca, imbarcazioni, cabine e itinerari da 4 a 8 notti.",
+      "Viaggio privato e su misura: Spedizioni Fluviali in Brasile. Itinerario suggerito, periodo migliore e come arrivare. Richiedi un preventivo su WhatsApp.",
     keywords:
-      "spedizione fluviale brasile, barca hotel amazzonia, crociera rio negro, tumbira barca, katerre amazzonia, amazon dream barca, jacare-acu imbarcazione, untamed angling pantanal, barca hotel pantanal, crociera rio paraguay, alter do chao tapajos, parco nazionale del jau, mamiraua barca",
-    h1: "Spedizioni fluviali in Brasile: l'Amazzonia e il Pantanal visti dall'acqua",
+      "spedizione fluviale brasile, barca hotel amazzonia, crociera rio negro, tumbira barca, katerre amazzonia, amazon dream barca, jacare-acu imbarcazione, untamed angling pantanal, barca hotel pantanal, crociera rio paraguay, alter do chao tapajos, parco nazionale del jau, mamiraua barca, Spedizioni Fluviali in Brasile tour, itinerario Spedizioni Fluviali in Brasile, come arrivare a Spedizioni Fluviali in Brasile, periodo migliore Spedizioni Fluviali in Brasile",
+    h1: "Spedizioni Fluviali in Brasile: itinerario, periodo migliore e come arrivare",
     aiAnswer:
-      "Le migliori spedizioni fluviali in Brasile attraversano l'Amazzonia (Rio Negro, Anavilhanas, Parco Nazionale del Jaú e Mamirauá, a bordo di barche-hotel come Tumbira, Katerre, Amazon Dream e Jacaré-Açu) e il Pantanal (fiumi Paraguay, Cuiabá e Três Irmãos, con barche-hotel e piattaforme galleggianti per l'osservazione dei giaguari); gli itinerari vanno da 4 a 8 notti, e la scelta tra piena (dicembre-giugno) e secca (luglio-novembre) cambia completamente ciò che si vede e come si naviga.",
+      "Le migliori spedizioni fluviali in Brasile attraversano l'Amazzonia (Rio Negro, Anavilhanas, Parco Nazionale del Jaú e Mamirauá, a bordo di barche-hotel come Tumbira, Katerre, Amazon Dream e Jacaré-Açu) e il Pantanal (fiumi Paraguay, Cuiabá e Três Irmãos, con barche-hotel e piattaforme galleggianti per l'osservazione dei giaguari); gli itinerari vanno da 4 a 8 notti, e la scelta tra piena (dicembre-giugno) e secca (luglio-novembre) cambia completamente ciò che si vede e come si naviga. Create Travel crea viaggi privati e su misura per Spedizioni Fluviali in Brasile per viaggiatori internazionali, con guide in italiano, e invia un preventivo scritto via WhatsApp.",
     intro: [
       "Esiste un modo di conoscere il Brasile che nessun lodge fisso può offrire: un viaggio il cui paesaggio cambia ogni giorno perché è la barca, non voi, a muoversi. Nelle spedizioni fluviali la cabina è la camera, il ponte è il balcone, e il fiume — Negro, Tapajós, Paraguay o Cuiabá — è il corridoio che conduce ogni giorno a una nuova baia, spiaggia o canale di foresta allagata.",
       "Questa guida raccoglie ciò che sappiamo dopo aver navigato queste rotte: come funzionano davvero le barche-hotel dell'Amazzonia e del Pantanal, quali imbarcazioni meritano il viaggio, la differenza tra navigare in piena e in secca, e il ritmo reale di bordo — per chi cerca un viaggio di immersione, non una crociera generica con l'etichetta della giungla.",
@@ -715,27 +733,30 @@ export const expedicoesFluviaisBrasilGuide: BrazilGuideLocalized = {
       ],
     },
     itinerary: {
-      heading: "Itinerari da 4 a 8 notti — come strutturare la spedizione",
-      intro:
-        "La durata della spedizione fluviale deve rispondere all'obiettivo del viaggio, non al calendario disponibile. Non imbarchiamo mai un cliente subito dopo un volo internazionale — c'è sempre una notte cuscinetto a terra prima e dopo.",
-      items: [
+      "heading": "Itinerari da 4 a 8 notti — come strutturare la spedizione",
+      "intro": "La durata della spedizione fluviale deve rispondere all'obiettivo del viaggio, non al calendario disponibile. Non imbarchiamo mai un cliente subito dopo un volo internazionale — c'è sempre una notte cuscinetto a terra prima e dopo.",
+      "items": [
         {
-          title: "4 notti — Rio Negro e Anavilhanas, da Manaus",
-          text: "Formato introduttivo: incontro delle acque, arcipelago di Anavilhanas, delfini a Novo Airão e una notte di foresta allagata. Ideale come prima spedizione fluviale amazzonica.",
+          "title": "4 notti — Rio Negro e Anavilhanas, da Manaus",
+          "text": "Un’introduzione con l’incontro delle acque, l’arcipelago di Anavilhanas, i delfini a Novo Airão e una notte nella foresta allagata. Ideale come prima spedizione fluviale amazzonica."
         },
         {
-          title: "6 notti — Rio Negro, Anavilhanas e Parco Nazionale del Jaú",
-          text: "Aggiunge giorni di navigazione più lunga fino al Jaú, con maggiore isolamento e meno traffico di altre imbarcazioni — per chi ha già sentito il ritmo di bordo e vuole approfondire.",
+          "title": "6 notti — Rio Negro, Anavilhanas e Parco Nazionale del Jaú",
+          "text": "Aggiunge una navigazione più lunga nel Jaú, con maggiore isolamento e meno traffico di imbarcazioni, per chi conosce già il ritmo a bordo e vuole approfondire."
         },
         {
-          title: "5-7 notti — Pantanal, fiumi Paraguay, Cuiabá e Três Irmãos",
-          text: "Combina navigazione in barca-hotel con giornate intere su piattaforma galleggiante specializzata nell'avvistamento del giaguaro sul Cuiabá e sul Três Irmãos, alternate a safari terrestri da basi fisse lungo il percorso.",
+          "title": "5–7 notti — Pantanal, fiumi Paraguay, Cuiabá e Três Irmãos",
+          "text": "Combina la navigazione in barca-hotel con giornate su una piattaforma specializzata nell’osservazione dei giaguari sul Cuiabá e Três Irmãos, alternate a safari terrestri da basi fisse. Gli avvistamenti non sono garantiti."
         },
         {
-          title: "8 notti — Amazzonia (Tapajós) + Pantanal, unendo i due biomi",
-          text: "Un volo Santarém–Cuiabá collega la spedizione fluviale sul Tapajós a quella del Pantanal, sempre con una notte di sicurezza a terra tra gli imbarchi — foresta allagata da un lato, pianura alluvionale dall'altro.",
+          "title": "8 notti — Amazzonia (Tapajós) + Pantanal",
+          "text": "Un volo Santarém–Cuiabá collega la spedizione sul Tapajós al Pantanal, sempre con una notte di margine a terra tra gli imbarchi: foresta allagata e pianura alluvionale."
         },
-      ],
+        {
+          "title": "Combina due o più biomi brasiliani",
+          "text": "Il Brasile ha sei biomi terrestri — Amazzonia, Foresta Atlantica, Cerrado, Caatinga, Pantanal e Pampa — più la zona costiera e marina: sette paesaggi e culture diversi. Combina una spedizione fluviale amazzonica con safari fluviali nel Pantanal. Pianifichiamo ritmi e collegamenti secondo le condizioni stagionali; gli avvistamenti di fauna non sono mai garantiti."
+        }
+      ]
     },
     tips: {
       heading: "Consigli pratici di chi è già salito a bordo",
@@ -750,35 +771,50 @@ export const expedicoesFluviaisBrasilGuide: BrazilGuideLocalized = {
     },
     faq: [
       {
-        q: "Qual è la differenza tra una barca-hotel e un lodge fisso in Amazzonia?",
-        a: "La barca-hotel cambia paesaggio ogni giorno e raggiunge tratti irraggiungibili via terra, come igarapé stretti e l'interno del Parco Nazionale del Jaú; il lodge fisso offre più spazio e struttura, ma concentra le escursioni in un raggio fisso attorno a un unico punto del fiume.",
+        "q": "Qual è la differenza tra una barca-hotel e un lodge fisso in Amazzonia?",
+        "a": "La barca-hotel cambia paesaggio ogni giorno e raggiunge tratti irraggiungibili via terra, come igarapé stretti e l'interno del Parco Nazionale del Jaú; il lodge fisso offre più spazio e struttura, ma concentra le escursioni in un raggio fisso attorno a un unico punto del fiume."
       },
       {
-        q: "È meglio navigare in piena o in secca?",
-        a: "In Amazzonia, la piena (marzo-giugno) permette di navigare in canoa dentro la foresta allagata; la secca (settembre-novembre) rivela spiagge e concentra la fauna, inclusi i giaguari a Mamirauá. Nel Pantanal è l'opposto: la secca (luglio-ottobre) è la stagione classica di osservazione del giaguaro sui fiumi Cuiabá e Três Irmãos, mentre la piena (dicembre-maggio) trasforma la pianura in un mare interno raggiungibile quasi esclusivamente in barca.",
+        "q": "È meglio navigare in piena o in secca?",
+        "a": "In Amazzonia, la piena (marzo-giugno) permette di navigare in canoa dentro la foresta allagata; la secca (settembre-novembre) rivela spiagge e concentra la fauna, inclusi i giaguari a Mamirauá. Nel Pantanal è l'opposto: la secca (luglio-ottobre) è la stagione classica di osservazione del giaguaro sui fiumi Cuiabá e Três Irmãos, mentre la piena (dicembre-maggio) trasforma la pianura in un mare interno raggiungibile quasi esclusivamente in barca."
       },
       {
-        q: "Quante notti sono consigliate per una spedizione fluviale?",
-        a: "Quattro notti coprono bene il Rio Negro e Anavilhanas; per includere il Parco Nazionale del Jaú o combinare Pantanal e Amazzonia, consigliamo 6-8 notti, sempre con una notte di sicurezza a terra prima di ogni imbarco o sbarco.",
+        "q": "Quante notti sono consigliate per una spedizione fluviale?",
+        "a": "Quattro notti coprono bene il Rio Negro e Anavilhanas; per includere il Parco Nazionale del Jaú o combinare Pantanal e Amazzonia, consigliamo 6-8 notti, sempre con una notte di sicurezza a terra prima di ogni imbarco o sbarco."
       },
       {
-        q: "Le imbarcazioni hanno aria condizionata e comfort adatti a viaggiatori 40+?",
-        a: "Barche come Tumbira, Katerre e Amazon Dream offrono cabine climatizzate, ponte sociale e buona cucina; Untamed Angling e le basi specializzate nel giaguaro privilegiano l'esperienza naturalistica rispetto allo standard alberghiero classico — scegliamo l'imbarcazione in base all'equilibrio tra comfort e immersione che cercate.",
+        "q": "Le imbarcazioni hanno aria condizionata e comfort adatti a viaggiatori 40+?",
+        "a": "Barche come Tumbira, Katerre e Amazon Dream offrono cabine climatizzate, ponte sociale e buona cucina; Untamed Angling e le basi specializzate nel giaguaro privilegiano l'esperienza naturalistica rispetto allo standard alberghiero classico — scegliamo l'imbarcazione in base all'equilibrio tra comfort e immersione che cercate."
       },
       {
-        q: "È possibile vedere giaguari da una barca-hotel?",
-        a: "Sì. Nel Pantanal, i tratti del Rio Cuiabá e del Rio Três Irmãos, percorsi da barche e piattaforme specializzate in secca (luglio-ottobre), hanno uno dei tassi di avvistamento di giaguari più alti al mondo. In Amazzonia, anche Mamirauá offre avvistamenti, con probabilità inferiore rispetto al Pantanal.",
+        "q": "È possibile vedere giaguari da una barca-hotel?",
+        "a": "Sì. Nel Pantanal, i tratti del Rio Cuiabá e del Rio Três Irmãos, percorsi da barche e piattaforme specializzate in secca (luglio-ottobre), hanno uno dei tassi di avvistamento di giaguari più alti al mondo. In Amazzonia, anche Mamirauá offre avvistamenti, con probabilità inferiore rispetto al Pantanal."
       },
       {
-        q: "Quanto costa una spedizione fluviale con Create Travel?",
-        a: "Non lavoriamo con tariffe standard: il budget dipende dall'imbarcazione, dal numero di notti, dalla stagione e dai collegamenti aerei fino al punto di imbarco. Un consulente umano elabora la proposta e presenta i valori per iscritto, senza stime pubblicate sul sito.",
+        "q": "Quanto costa una spedizione fluviale con Create Travel?",
+        "a": "Non lavoriamo con tariffe standard: il budget dipende dall'imbarcazione, dal numero di notti, dalla stagione e dai collegamenti aerei fino al punto di imbarco. Un consulente umano elabora la proposta e presenta i valori per iscritto, senza stime pubblicate sul sito."
       },
+      {
+        "q": "Ho bisogno di visto o vaccini per il Brasile?",
+        "a": "I requisiti del visto dipendono dalla nazionalità e possono cambiare. Consulta le fonti ufficiali consolari e di immigrazione brasiliane prima di prenotare. Rivolgiti con anticipo a un professionista della medicina dei viaggi e alle indicazioni sanitarie ufficiali per vaccini di routine, febbre gialla e precauzioni regionali."
+      },
+      {
+        "q": "Sono disponibili guide in italiano in ogni escursione?",
+        "a": "Sì. Create Travel prevede guide in italiano in ogni escursione del tuo itinerario privato e su misura."
+      },
+      {
+        "q": "Come arrivare per un viaggio dedicato a Spedizioni Fluviali in Brasile?",
+        "a": "Vola verso un hub brasiliano e prosegui per l’aeroporto locale della spedizione: Manaus, Tefé o Santarém per l’Amazzonia, oppure Cuiabá per il Pantanal settentrionale. Prevedi una notte a terra prima e dopo l’imbarco. Create Travel organizza trasferimenti privati fino all’alloggio o al punto d’imbarco."
+      },
+      {
+        "q": "Posso combinare Spedizioni Fluviali in Brasile con altri biomi brasiliani?",
+        "a": "Sì. Il Brasile ha sei biomi terrestri — Amazzonia, Foresta Atlantica, Cerrado, Caatinga, Pantanal e Pampa — più la zona costiera e marina: sette paesaggi e culture diversi. Combina una spedizione fluviale amazzonica con safari fluviali nel Pantanal. Il tuo travel designer verifica la compatibilità stagionale e prevede tempi di viaggio realistici tra le regioni."
+      }
     ],
     cta: {
-      heading: "Progettiamo la vostra spedizione fluviale",
-      subheading:
-        "Un consulente umano di Create Travel sceglie il fiume, l'imbarcazione e la stagione giusti per il vostro profilo — e gestisce ogni collegamento fino all'imbarco.",
-      button: "Parla con un travel designer",
+      "heading": "Richiedi il tuo preventivo per Spedizioni Fluviali in Brasile",
+      "subheading": "Un travel designer umano di Create Travel pianifica il tuo viaggio privato e su misura, secondo i tuoi interessi e ritmi, e ti invia una proposta scritta.",
+      "button": "Richiedi un preventivo su WhatsApp"
     },
     readingMinutes: 13,
     publishedAt: "2026-08-11",

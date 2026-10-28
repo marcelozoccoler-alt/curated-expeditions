@@ -311,14 +311,14 @@ export const lencoisMaranhensesGuide: BrazilGuideLocalized = {
   },
 
   es: {
-    metaTitle: "Lençóis Maranhenses: cuándo están llenas las lagunas",
+    metaTitle: "Lençóis Maranhenses, Brasil: Itinerario, Mejor Época y Presupuesto",
     metaDescription:
-      "Las lagunas azules entre las dunas solo existen algunos meses. Nivel del agua mes a mes, Barreirinhas o Atins, y cómo llegar hasta allí.",
+      "Planifica un viaje privado y a medida a Lençóis Maranhenses: itinerario sugerido, mejor época y cómo llegar. Solicita un presupuesto por WhatsApp.",
     keywords:
-      "lencois maranhenses viaje, mejor epoca lencois maranhenses, barreirinhas, atins, santo amaro maranhao, rota das emocoes, lagunas brasil, itinerario maranhao",
-    h1: "Lençóis Maranhenses: guía de autor de quienes vieron nacer las lagunas",
+      "lencois maranhenses viaje, mejor epoca lencois maranhenses, barreirinhas, atins, santo amaro maranhao, rota das emocoes, lagunas brasil, itinerario maranhao, Lençóis Maranhenses tour, itinerario Lençóis Maranhenses, cómo llegar a Lençóis Maranhenses, mejor época Lençóis Maranhenses",
+    h1: "Lençóis Maranhenses: itinerario, mejor época y cómo llegar",
     aiAnswer:
-      "La mejor época para ver las lagunas llenas en Lençóis Maranhenses es de junio a septiembre, con pico en julio y agosto, mínimo práctico de 4 noches entre Barreirinhas y Atins, entrando por São Luís (SLZ).",
+      "La mejor época para ver las lagunas llenas en Lençóis Maranhenses es de junio a septiembre, con pico en julio y agosto, mínimo práctico de 4 noches entre Barreirinhas y Atins, entrando por São Luís (SLZ). Create Travel diseña viajes privados y a medida a Lençóis Maranhenses para viajeros internacionales, con guías en español, y envía un presupuesto por escrito por WhatsApp.",
     intro: [
       "Los Lençóis Maranhenses son uno de los pocos lugares del planeta donde desierto y agua dulce coexisten en el mismo horizonte: 155.000 hectáreas de dunas blancas y finas, esculpidas por el viento, entre las cuales nacen cada temporada de lluvias miles de lagunas de agua cristalina. No es un espejismo: es hidrología. La lluvia que cae entre enero y junio se infiltra en la arena y aflora meses después, formando piscinas naturales que se evaporan lentamente hasta el próximo ciclo.",
       "Esta guía nace de travesías reales por la Rota das Emoções, no de fotos de dron sueltas en internet. Qué mes entrega qué volumen de agua, qué aldea sirve de base, cuándo tiene sentido caminar entre las dunas y cuándo conviene sobrevolarlas, y cómo Maranhão dialoga con el resto de un viaje por Brasil.",
@@ -368,15 +368,34 @@ export const lencoisMaranhensesGuide: BrazilGuideLocalized = {
       ],
     },
     itinerary: {
-      heading: "Cómo integrar Lençóis Maranhenses a un viaje por Brasil",
-      intro: "La región exige logística cuidadosa: los traslados internos son en 4x4 o bote, sin asfalto continuo, y siempre agregamos una noche de margen en São Luís.",
-      items: [
-        { title: "Lençóis Maranhenses + Jericoacoara — 8 a 10 días", text: "La Rota das Emoções completa, uniendo dos de los paisajes de dunas más fotografiados de Brasil por tierra y bote." },
-        { title: "Lençóis Maranhenses + Amazonía — 12 días", text: "Septiembre a noviembre: lagunas con buen volumen en Maranhão y selva en la seca, conectando vía Belém o São Luís." },
-        { title: "Lençóis Maranhenses + Fernando de Noronha — 9 a 11 días", text: "Dunas y lagunas primero, archipiélago y buceo después, vía Recife o Fortaleza." },
-        { title: "Lençóis Maranhenses + Bahía — 10 a 12 días", text: "Desierto de dunas en Maranhão seguido de Salvador, Trancoso o Chapada Diamantina." },
-        { title: "Lençóis Maranhenses + Río de Janeiro — 9 a 11 días", text: "Cuatro a cinco noches de dunas y lagunas, el resto en la ciudad, vía São Luís y Brasília o Fortaleza." },
-      ],
+      "heading": "Itinerario sugerido para Lençóis Maranhenses y combinaciones por Brasil",
+      "intro": "La región exige logística cuidadosa: los traslados internos son en 4x4 o bote, sin asfalto continuo, y siempre agregamos una noche de margen en São Luís.",
+      "items": [
+        {
+          "title": "Día 1 — De São Luís a Barreirinhas",
+          "text": "Traslado privado por carretera a Barreirinhas e instalación para la primera noche."
+        },
+        {
+          "title": "Día 2 — Dunas y lagunas",
+          "text": "Explora las lagunas accesibles con tu guía; el baño depende de las condiciones y normas del parque."
+        },
+        {
+          "title": "Día 3 — Río Preguiças hasta Atins",
+          "text": "Continúa en barco por el río e instálate en Atins."
+        },
+        {
+          "title": "Día 4 — Atins a tu ritmo",
+          "text": "Disfruta de una caminata guiada por las dunas y las lagunas estacionales, con tiempo para descansar."
+        },
+        {
+          "title": "Día 5 — Regreso a São Luís",
+          "text": "Regresa con una noche de margen antes de una conexión internacional."
+        },
+        {
+          "title": "Combina dos o más biomas brasileños",
+          "text": "Brasil tiene seis biomas terrestres más la zona costera y marina — siete paisajes y culturas distintos. Combina las dunas costeras de Lençóis Maranhenses con una estancia en la selva amazónica, eligiendo fechas según el nivel de las lagunas y las condiciones del bosque."
+        }
+      ]
     },
     tips: {
       heading: "Consejos prácticos que marcan la diferencia",
@@ -390,31 +409,61 @@ export const lencoisMaranhensesGuide: BrazilGuideLocalized = {
       ],
     },
     faq: [
-      { q: "¿Cuántos días se necesitan para conocer Lençóis Maranhenses?", a: "Cuatro noches es el mínimo práctico para explorar Barreirinhas y Atins con calma. Siete a diez días permiten incluir la Rota das Emoções completa hasta Jericoacoara." },
-      { q: "¿Cuál es la mejor época para ver las lagunas llenas?", a: "Junio a septiembre, con pico en julio y agosto. Entre octubre y diciembre las lagunas mayores aún retienen agua; de enero a mayo están bajas o secas." },
-      { q: "¿Se puede nadar en las lagunas?", a: "Sí, la mayoría de las lagunas abiertas al público tienen agua poco profunda, tibia y cristalina, apta para un baño tranquilo." },
-      { q: "¿Cómo llegar a Lençóis Maranhenses?", a: "La puerta de entrada es el Aeropuerto de São Luís (SLZ), a unas tres o cuatro horas por carretera de Barreirinhas. Atins se accede en bote por el río Preguiças o en 4x4 por la playa." },
-      { q: "¿Lençóis Maranhenses o Jericoacoara?", a: "Se complementan: los Lençóis ofrecen el paisaje de dunas y lagunas más dramático de Brasil, mientras Jericoacoara suma infraestructura turística más desarrollada." },
-      { q: "¿Cuánto cuesta un viaje a Lençóis Maranhenses?", a: "No publicamos precios de estante: el presupuesto depende de la base elegida, las noches, la temporada y la conectividad aérea. Un consultor humano envía los valores por escrito." },
+      {
+        "q": "¿Cuántos días se necesitan para conocer Lençóis Maranhenses?",
+        "a": "Cuatro noches es el mínimo práctico para explorar Barreirinhas y Atins con calma. Siete a diez días permiten incluir la Rota das Emoções completa hasta Jericoacoara."
+      },
+      {
+        "q": "¿Cuál es la mejor época para ver las lagunas llenas?",
+        "a": "Junio a septiembre, con pico en julio y agosto. Entre octubre y diciembre las lagunas mayores aún retienen agua; de enero a mayo están bajas o secas."
+      },
+      {
+        "q": "¿Se puede nadar en las lagunas?",
+        "a": "Sí, la mayoría de las lagunas abiertas al público tienen agua poco profunda, tibia y cristalina, apta para un baño tranquilo."
+      },
+      {
+        "q": "¿Cómo llegar a Lençóis Maranhenses?",
+        "a": "Toma un vuelo internacional a Brasil. Desde un hub brasileño, conecta con São Luís (SLZ). Create Travel organiza traslados privados por carretera a Barreirinhas y continuación en barco o 4x4 hasta Atins."
+      },
+      {
+        "q": "¿Lençóis Maranhenses o Jericoacoara?",
+        "a": "Se complementan: los Lençóis ofrecen el paisaje de dunas y lagunas más dramático de Brasil, mientras Jericoacoara suma infraestructura turística más desarrollada."
+      },
+      {
+        "q": "¿Cuánto cuesta un viaje a Lençóis Maranhenses?",
+        "a": "No publicamos precios de estante: el presupuesto depende de la base elegida, las noches, la temporada y la conectividad aérea. Un consultor humano envía los valores por escrito."
+      },
+      {
+        "q": "¿Necesito visado y vacunas para viajar a Brasil?",
+        "a": "Los requisitos de visado dependen de tu nacionalidad y fechas de viaje: consulta fuentes consulares oficiales brasileñas antes de reservar. Consulta las recomendaciones sanitarias oficiales y a un profesional de medicina del viajero sobre vacunas habituales, fiebre amarilla y requisitos de entrada o tránsito según tu itinerario."
+      },
+      {
+        "q": "¿Hay guías en español en todas las excursiones?",
+        "a": "Sí. Create Travel ofrece guías en español en todas las excursiones de tu viaje privado y a medida. Adaptamos el ritmo y las explicaciones a tus intereses."
+      },
+      {
+        "q": "¿Puedo combinar Lençóis Maranhenses con otros biomas brasileños?",
+        "a": "Brasil tiene seis biomas terrestres más la zona costera y marina — siete paisajes y culturas distintos. Combina las dunas costeras de Lençóis Maranhenses con una estancia en la selva amazónica, eligiendo fechas según el nivel de las lagunas y las condiciones del bosque."
+      }
     ],
     cta: {
-      heading: "Diseñemos su travesía por Lençóis Maranhenses",
-      subheading: "Un consultor de Create Travel elige la base, la época y el encadenamiento correctos para su perfil — y cuida cada conexión.",
-      button: "Hablar con un travel designer",
+      "heading": "Solicita tu presupuesto para Lençóis Maranhenses",
+      "subheading": "Planifica un viaje privado y a medida con un diseñador de viajes humano de Create Travel, según tus fechas, intereses, ritmo y confort preferido. Recibe tu propuesta por escrito por WhatsApp.",
+      "button": "Solicitar presupuesto por WhatsApp"
     },
     readingMinutes: 12,
     publishedAt: "2026-08-11",
   },
 
   it: {
-    metaTitle: "Lençóis Maranhenses: quando le lagune sono piene",
+    metaTitle: "Lençóis Maranhenses, Brasile: Itinerario, Periodo Migliore e Preventivo",
     metaDescription:
-      "Le lagune azzurre tra le dune esistono solo in alcuni mesi. Il livello dell'acqua mese per mese, Barreirinhas o Atins, e come arrivare.",
+      "Pianifica un viaggio privato e su misura per Lençóis Maranhenses: itinerario suggerito, periodo migliore e come arrivare. Richiedi un preventivo su WhatsApp.",
     keywords:
-      "lencois maranhenses viaggio, quando andare lencois maranhenses, barreirinhas, atins, santo amaro maranhao, rota das emocoes, lagune brasile, itinerario maranhao",
-    h1: "Lençóis Maranhenses: la guida d'autore di chi ha visto nascere le lagune",
+      "lencois maranhenses viaggio, quando andare lencois maranhenses, barreirinhas, atins, santo amaro maranhao, rota das emocoes, lagune brasile, itinerario maranhao, Lençóis Maranhenses tour, itinerario Lençóis Maranhenses, come arrivare a Lençóis Maranhenses, periodo migliore Lençóis Maranhenses",
+    h1: "Lençóis Maranhenses: itinerario, periodo migliore e come arrivare",
     aiAnswer:
-      "Il periodo migliore per vedere le lagune piene ai Lençóis Maranhenses è da giugno a settembre, con picco a luglio e agosto; minimo pratico di 4 notti tra Barreirinhas e Atins, arrivando a São Luís (SLZ).",
+      "Il periodo migliore per vedere le lagune piene ai Lençóis Maranhenses è da giugno a settembre, con picco a luglio e agosto; minimo pratico di 4 notti tra Barreirinhas e Atins, arrivando a São Luís (SLZ). Create Travel crea viaggi privati e su misura per Lençóis Maranhenses per viaggiatori internazionali, con guide in italiano, e invia un preventivo scritto via WhatsApp.",
     intro: [
       "I Lençóis Maranhenses sono uno dei pochi luoghi al mondo dove deserto e acqua dolce convivono sullo stesso orizzonte: 155.000 ettari di dune bianche e sottili, scolpite dal vento, tra cui nascono ogni stagione delle piogge migliaia di lagune di acqua cristallina. Non è un miraggio: è idrologia. La pioggia che cade tra gennaio e giugno si infiltra nella sabbia e riaffiora mesi dopo, formando piscine naturali che evaporano lentamente fino al ciclo successivo.",
       "Questa guida nasce da traversate reali lungo la Rota das Emoções, non da foto di droni trovate online: quale mese offre quale volume d'acqua, quale villaggio funge da base, quando ha senso camminare tra le dune e quando conviene di più sorvolarle, e come il Maranhão si inserisce in un itinerario brasiliano più ampio.",
@@ -464,15 +513,34 @@ export const lencoisMaranhensesGuide: BrazilGuideLocalized = {
       ],
     },
     itinerary: {
-      heading: "Come integrare i Lençóis Maranhenses in un viaggio in Brasile",
-      intro: "La regione richiede una logistica attenta: gli spostamenti interni avvengono in 4x4 o barca senza asfalto continuo, e aggiungiamo sempre una notte cuscinetto a São Luís.",
-      items: [
-        { title: "Lençóis Maranhenses + Jericoacoara — 8 a 10 giorni", text: "La Rota das Emoções completa, unendo due dei paesaggi di dune più fotografati del Brasile via terra e barca." },
-        { title: "Lençóis Maranhenses + Amazzonia — 12 giorni", text: "Settembre a novembre: lagune ancora con buon volume nel Maranhão e foresta in secca, con connessione via Belém o São Luís." },
-        { title: "Lençóis Maranhenses + Fernando de Noronha — 9 a 11 giorni", text: "Prima dune e lagune, poi arcipelago e immersioni, via Recife o Fortaleza." },
-        { title: "Lençóis Maranhenses + Bahia — 10 a 12 giorni", text: "Deserto di dune nel Maranhão seguito da Salvador, Trancoso o Chapada Diamantina." },
-        { title: "Lençóis Maranhenses + Rio de Janeiro — 9 a 11 giorni", text: "Quattro a cinque notti di dune e lagune, il resto in città, via São Luís e Brasília o Fortaleza." },
-      ],
+      "heading": "Itinerario suggerito per Lençóis Maranhenses e combinazioni in Brasile",
+      "intro": "La regione richiede una logistica attenta: gli spostamenti interni avvengono in 4x4 o barca senza asfalto continuo, e aggiungiamo sempre una notte cuscinetto a São Luís.",
+      "items": [
+        {
+          "title": "Giorno 1 — Da São Luís a Barreirinhas",
+          "text": "Trasferimento privato su strada a Barreirinhas e sistemazione per la prima notte."
+        },
+        {
+          "title": "Giorno 2 — Dune e lagune",
+          "text": "Esplora le lagune accessibili con la guida; il bagno dipende dalle condizioni e dalle regole del parco."
+        },
+        {
+          "title": "Giorno 3 — Fiume Preguiças fino ad Atins",
+          "text": "Prosegui in barca lungo il fiume e sistemati ad Atins."
+        },
+        {
+          "title": "Giorno 4 — Atins al tuo ritmo",
+          "text": "Goditi una passeggiata guidata tra dune e lagune stagionali, con tempo per riposare."
+        },
+        {
+          "title": "Giorno 5 — Rientro a São Luís",
+          "text": "Rientra prevedendo una notte di margine prima di una coincidenza internazionale."
+        },
+        {
+          "title": "Combina due o più biomi brasiliani",
+          "text": "Il Brasile ha sei biomi terrestri più la zona costiera e marina: sette paesaggi e culture diversi. Combina le dune costiere dei Lençóis Maranhenses con un soggiorno nella foresta amazzonica, scegliendo le date secondo i livelli delle lagune e le condizioni della foresta."
+        }
+      ]
     },
     tips: {
       heading: "Consigli pratici che fanno la differenza",
@@ -486,17 +554,47 @@ export const lencoisMaranhensesGuide: BrazilGuideLocalized = {
       ],
     },
     faq: [
-      { q: "Quanti giorni servono per i Lençóis Maranhenses?", a: "Quattro notti è il minimo pratico per esplorare Barreirinhas e Atins con calma. Sette a dieci giorni permettono di includere la Rota das Emoções completa fino a Jericoacoara." },
-      { q: "Qual è il periodo migliore per vedere le lagune piene?", a: "Giugno a settembre, con picco a luglio e agosto. Tra ottobre e dicembre le lagune maggiori mantengono ancora acqua; da gennaio a maggio sono basse o asciutte." },
-      { q: "Si può nuotare nelle lagune?", a: "Sì, la maggior parte delle lagune aperte al pubblico ha acqua bassa, tiepida e cristallina, adatta a un bagno tranquillo." },
-      { q: "Come arrivare ai Lençóis Maranhenses?", a: "La porta d'accesso è l'aeroporto di São Luís (SLZ), a circa tre o quattro ore di strada da Barreirinhas. Atins si raggiunge in barca lungo il fiume Preguiças o in 4x4 lungo la spiaggia." },
-      { q: "Lençóis Maranhenses o Jericoacoara?", a: "Si completano a vicenda: i Lençóis offrono il paesaggio di dune e lagune più drammatico del Brasile, mentre Jericoacoara aggiunge infrastrutture turistiche più sviluppate." },
-      { q: "Quanto costa un viaggio ai Lençóis Maranhenses?", a: "Non pubblichiamo prezzi standard: il budget dipende dalla base scelta, dalle notti, dalla stagione e dai collegamenti aerei. Un consulente umano invia le cifre per iscritto." },
+      {
+        "q": "Quanti giorni servono per i Lençóis Maranhenses?",
+        "a": "Quattro notti è il minimo pratico per esplorare Barreirinhas e Atins con calma. Sette a dieci giorni permettono di includere la Rota das Emoções completa fino a Jericoacoara."
+      },
+      {
+        "q": "Qual è il periodo migliore per vedere le lagune piene?",
+        "a": "Giugno a settembre, con picco a luglio e agosto. Tra ottobre e dicembre le lagune maggiori mantengono ancora acqua; da gennaio a maggio sono basse o asciutte."
+      },
+      {
+        "q": "Si può nuotare nelle lagune?",
+        "a": "Sì, la maggior parte delle lagune aperte al pubblico ha acqua bassa, tiepida e cristallina, adatta a un bagno tranquillo."
+      },
+      {
+        "q": "Come arrivare ai Lençóis Maranhenses?",
+        "a": "Prendi un volo internazionale per il Brasile. Da un hub brasiliano, prosegui per São Luís (SLZ). Create Travel organizza trasferimenti privati su strada a Barreirinhas e il proseguimento in barca o 4x4 fino ad Atins."
+      },
+      {
+        "q": "Lençóis Maranhenses o Jericoacoara?",
+        "a": "Si completano a vicenda: i Lençóis offrono il paesaggio di dune e lagune più drammatico del Brasile, mentre Jericoacoara aggiunge infrastrutture turistiche più sviluppate."
+      },
+      {
+        "q": "Quanto costa un viaggio ai Lençóis Maranhenses?",
+        "a": "Non pubblichiamo prezzi standard: il budget dipende dalla base scelta, dalle notti, dalla stagione e dai collegamenti aerei. Un consulente umano invia le cifre per iscritto."
+      },
+      {
+        "q": "Servono visto e vaccini per viaggiare in Brasile?",
+        "a": "I requisiti del visto dipendono dalla nazionalità e dalle date di viaggio: consulta le fonti consolari ufficiali brasiliane prima di prenotare. Consulta le indicazioni sanitarie ufficiali e un professionista di medicina dei viaggi sulle vaccinazioni di routine, sulla febbre gialla e sui requisiti di ingresso o transito secondo il tuo itinerario."
+      },
+      {
+        "q": "Sono disponibili guide in italiano in ogni escursione?",
+        "a": "Sì. Create Travel offre guide in italiano in ogni escursione del tuo viaggio privato e su misura. Adattiamo il ritmo e le spiegazioni ai tuoi interessi."
+      },
+      {
+        "q": "Posso combinare Lençóis Maranhenses con altri biomi brasiliani?",
+        "a": "Il Brasile ha sei biomi terrestri più la zona costiera e marina: sette paesaggi e culture diversi. Combina le dune costiere dei Lençóis Maranhenses con un soggiorno nella foresta amazzonica, scegliendo le date secondo i livelli delle lagune e le condizioni della foresta."
+      }
     ],
     cta: {
-      heading: "Progettiamo la vostra traversata dei Lençóis Maranhenses",
-      subheading: "Un consulente Create Travel sceglie la base, la stagione e la sequenza giusta per il vostro profilo — e cura ogni collegamento.",
-      button: "Parla con un travel designer",
+      "heading": "Richiedi il tuo preventivo per Lençóis Maranhenses",
+      "subheading": "Pianifica un viaggio privato e su misura con un travel designer umano di Create Travel, secondo le tue date, i tuoi interessi, il tuo ritmo e il comfort desiderato. Ricevi la proposta scritta via WhatsApp.",
+      "button": "Richiedi un preventivo su WhatsApp"
     },
     readingMinutes: 12,
     publishedAt: "2026-08-11",

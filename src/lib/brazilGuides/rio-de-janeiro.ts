@@ -418,14 +418,11 @@ export const rioDeJaneiroGuide: BrazilGuideLocalized = {
   },
 
   es: {
-    metaTitle: "Río de Janeiro: guía autoral sin filas, con curaduría local",
-    metaDescription:
-      "Guía completa de Río de Janeiro: Cristo Redentor y Pan de Azúcar sin filas, Santa Teresa, senderismo, playas, visita a una favela con anfitrión local y extensiones a Búzios, Paraty y Angra dos Reis.",
-    keywords:
-      "viaje rio de janeiro, cristo redentor sin fila, pan de azucar, santa teresa, sendero pedra da gavea, dois irmaos, copacabana ipanema, tour favela rio, itinerario rio de janeiro lujo, buzios paraty angra",
-    h1: "Río de Janeiro: guía autoral de quienes conocen la ciudad por dentro",
-    aiAnswer:
-      "La mejor época para visitar Río de Janeiro es de abril a junio y de agosto a octubre (menos lluvia, calor moderado, ciudad animada pero no abarrotada); lo ideal son de 4 a 5 noches, usando el aeropuerto Santos Dumont (SDU) para vuelos domésticos y el Galeão (GIG) para llegadas internacionales.",
+    metaTitle: "Río de Janeiro, Brasil: Itinerario, Mejor Época y Presupuesto",
+    metaDescription: "Viaje privado y a medida a Río de Janeiro: itinerario sugerido, mejor época y cómo llegar. Solicita un presupuesto por WhatsApp.",
+    keywords: "viaje rio de janeiro, cristo redentor sin fila, pan de azucar, santa teresa, sendero pedra da gavea, dois irmaos, copacabana ipanema, tour favela rio, itinerario rio de janeiro lujo, buzios paraty angra, Río de Janeiro tour, itinerario Río de Janeiro, cómo llegar a Río de Janeiro, mejor época Río de Janeiro",
+    h1: "Río de Janeiro: itinerario, mejor época y cómo llegar",
+    aiAnswer: "La mejor época para visitar Río de Janeiro es de abril a junio y de agosto a octubre (menos lluvia, calor moderado, ciudad animada pero no abarrotada); lo ideal son de 4 a 5 noches, usando el aeropuerto Santos Dumont (SDU) para vuelos domésticos y el Galeão (GIG) para llegadas internacionales. Create Travel diseña viajes privados y a medida a Río de Janeiro para viajeros internacionales, con guías en español, y envía un presupuesto por escrito por WhatsApp.",
     intro: [
       "Río de Janeiro es la ciudad más fotografiada de Brasil y, por eso mismo, la más malentendida: quien llega con un itinerario de postal se va con fotos, no con la ciudad. Río se revela en capas: la montaña, el bosque dentro del asfalto, el mar, los cerros habitados, la mesa, la música que sale por la ventana a las siete de la tarde.",
       "Esta guía nace de años organizando llegadas a Río para viajeros que ya recorrieron el mundo y no tienen paciencia para filas, guías genéricos ni el itinerario que toda agencia vende igual. Aquí está lo que realmente funciona: los horarios correctos para el Cristo y el Pan de Azúcar, senderos con la energía adecuada para cada edad, y cómo salir de la ciudad sin perder el encanto, rumbo a Búzios, Paraty o Angra dos Reis.",
@@ -547,31 +544,54 @@ export const rioDeJaneiroGuide: BrazilGuideLocalized = {
       ],
     },
     itinerary: {
-      heading: "Cómo integrar Río de Janeiro a un itinerario por Brasil",
-      intro:
-        "Río funciona muy bien como puerta de entrada o salida de Brasil, con el Galeão (GIG) recibiendo vuelos internacionales directos y el Santos Dumont (SDU) concentrando la red doméstica en pleno centro de la ciudad.",
-      items: [
+      "heading": "Itinerario sugerido para Río de Janeiro y combinaciones en Brasil",
+      "intro": "Itinerario privado y a medida, adaptado a tus fechas, ritmo y condiciones locales. Prevé noches de margen para las conexiones aéreas.",
+      "items": [
         {
-          title: "Río de Janeiro + Búzios — 6 a 7 días",
-          text: "Tres o cuatro noches en la ciudad y dos o tres en Búzios, a 2h30 en auto, cambiando montaña y urbanidad por dieciséis playas y un ambiente de pueblo pesquero sofisticado.",
+          "title": "Día 1 — Llegada a Río",
+          "text": "Llegada a Galeão (GIG), traslado privado al hotel en Ipanema, Leblon o Copacabana. Atardecer en la playa."
         },
         {
-          title: "Río de Janeiro + Paraty — 7 a 8 días",
-          text: "Ciudad colonial protegida, islas y cascadas a 4 horas en auto desde Río. Combinación clásica de patrimonio histórico con naturaleza, muy solicitada por parejas.",
+          "title": "Día 2 — Cristo Redentor y Santa Teresa",
+          "text": "Visita matinal al Cristo Redentor con entrada programada; después, Santa Teresa y el centro histórico con guía local."
         },
         {
-          title: "Río de Janeiro + Angra dos Reis e Ilha Grande — 7 días",
-          text: "Trescientas sesenta y cinco playas entre islas, accesibles en lancha privada desde Río. Ideal para desacelerar después del ritmo urbano.",
+          "title": "Día 3 — Pan de Azúcar y naturaleza",
+          "text": "Sendero en el bosque de Tijuca o caminata guiada, y teleférico del Pan de Azúcar al final de la tarde."
         },
         {
-          title: "Río de Janeiro + Amazonía — 10 a 12 días",
-          text: "El contraste más solicitado por extranjeros: ciudad y selva, con una noche de amortiguación en Manaos entre los dos tramos.",
+          "title": "Día 4 — Día libre o extensión",
+          "text": "Playa, visita cultural o extensión a Búzios, Paraty o Angra dos Reis."
         },
         {
-          title: "Río de Janeiro + Foz de Iguazú + Bahía — 14 días",
-          text: "El itinerario clásico de estreno en Brasil: ciudad, cataratas y litoral nordestino, en tres tramos aéreos bien encadenados.",
+          "title": "Día 5 — Siguiente vuelo",
+          "text": "Conexión al Pantanal, Amazonía, Iguazú o regreso a casa."
         },
-      ],
+        {
+          "title": "Río de Janeiro + Búzios — 6 a 7 días",
+          "text": "Tres o cuatro noches en la ciudad y dos o tres en Búzios, a 2h30 en auto, cambiando montaña y urbanidad por dieciséis playas y un ambiente de pueblo pesquero sofisticado."
+        },
+        {
+          "title": "Río de Janeiro + Paraty — 7 a 8 días",
+          "text": "Ciudad colonial protegida, islas y cascadas a 4 horas en auto desde Río. Combinación clásica de patrimonio histórico con naturaleza, muy solicitada por parejas."
+        },
+        {
+          "title": "Río de Janeiro + Angra dos Reis e Ilha Grande — 7 días",
+          "text": "Trescientas sesenta y cinco playas entre islas, accesibles en lancha privada desde Río. Ideal para desacelerar después del ritmo urbano."
+        },
+        {
+          "title": "Río de Janeiro + Amazonía — 10 a 12 días",
+          "text": "El contraste más solicitado por extranjeros: ciudad y selva, con una noche de amortiguación en Manaos entre los dos tramos."
+        },
+        {
+          "title": "Río de Janeiro + Foz de Iguazú + Bahía — 14 días",
+          "text": "El itinerario clásico de estreno en Brasil: ciudad, cataratas y litoral nordestino, en tres tramos aéreos bien encadenados."
+        },
+        {
+          "title": "Combina dos o más biomas brasileños",
+          "text": "Brasil tiene seis biomas terrestres más la zona costera y marina — siete paisajes y culturas distintos. Combina la Mata Atlántica y las playas de Río con el Pantanal y la Amazonía o Iguazú para comprender mejor Brasil en un solo viaje."
+        }
+      ]
     },
     tips: {
       heading: "Consejos prácticos que marcan la diferencia",
@@ -586,49 +606,61 @@ export const rioDeJaneiroGuide: BrazilGuideLocalized = {
     },
     faq: [
       {
-        q: "¿Cuántos días son necesarios para conocer Río de Janeiro?",
-        a: "Cuatro a cinco noches permiten vivir el Cristo, el Pan de Azúcar, Santa Teresa, un sendero y las playas sin prisa. Con menos de tres noches, el itinerario queda superficial.",
+        "q": "¿Cuántos días son necesarios para conocer Río de Janeiro?",
+        "a": "Cuatro a cinco noches permiten vivir el Cristo, el Pan de Azúcar, Santa Teresa, un sendero y las playas sin prisa. Con menos de tres noches, el itinerario queda superficial."
       },
       {
-        q: "¿Cuál es la mejor época para visitar Río de Janeiro?",
-        a: "Abril a junio y agosto a octubre ofrecen el mejor equilibrio entre clima y movimiento. Diciembre a marzo es más caluroso y concentra Año Nuevo y Carnaval, con precios y ocupación más altos.",
+        "q": "¿Cuál es la mejor época para visitar Río de Janeiro?",
+        "a": "Abril a junio y agosto a octubre ofrecen el mejor equilibrio entre clima y movimiento. Diciembre a marzo es más caluroso y concentra Año Nuevo y Carnaval, con precios y ocupación más altos."
       },
       {
-        q: "¿Cómo visitar el Cristo Redentor sin hacer fila?",
-        a: "Reservamos horario de entrada en el primer tren de la mañana o en van privada fuera del pico del mediodía, cuando llegan en masa los autobuses de excursión.",
+        "q": "¿Cómo visitar el Cristo Redentor sin hacer fila?",
+        "a": "Reservamos horario de entrada en el primer tren de la mañana o en van privada fuera del pico del mediodía, cuando llegan en masa los autobuses de excursión."
       },
       {
-        q: "¿Vale la pena visitar una favela en Río de Janeiro?",
-        a: "Sí, cuando está guiada por un anfitrión de la propia comunidad, enfocada en la economía local y en vistas privilegiadas de la ciudad — nunca como espectáculo de pobreza.",
+        "q": "¿Vale la pena visitar una favela en Río de Janeiro?",
+        "a": "Sí, cuando está guiada por un anfitrión de la propia comunidad, enfocada en la economía local y en vistas privilegiadas de la ciudad — nunca como espectáculo de pobreza."
       },
       {
-        q: "¿Qué aeropuerto usar para llegar a Río de Janeiro?",
-        a: "El Galeão (GIG) recibe la mayoría de los vuelos internacionales; el Santos Dumont (SDU), a 15 minutos del centro, concentra la red doméstica y es más práctico para quienes ya están en Brasil.",
+        "q": "¿Qué aeropuerto usar para llegar a Río de Janeiro?",
+        "a": "El Galeão (GIG) recibe la mayoría de los vuelos internacionales; el Santos Dumont (SDU), a 15 minutos del centro, concentra la red doméstica y es más práctico para quienes ya están en Brasil."
       },
       {
-        q: "¿Cuánto cuesta un viaje a Río de Janeiro con Create Travel?",
-        a: "No trabajamos con valores de catálogo: el presupuesto depende del hotel, la época y las experiencias privadas elegidas. Un consultor humano arma la propuesta y presenta los valores por escrito.",
+        "q": "¿Cuánto cuesta un viaje a Río de Janeiro con Create Travel?",
+        "a": "No trabajamos con valores de catálogo: el presupuesto depende del hotel, la época y las experiencias privadas elegidas. Un consultor humano arma la propuesta y presenta los valores por escrito."
       },
+      {
+        "q": "¿Necesito visado o vacunas para Brasil?",
+        "a": "Los requisitos dependen de tu nacionalidad y fechas. Consulta las fuentes consulares oficiales brasileñas antes de reservar, y las recomendaciones sanitarias oficiales y un profesional de salud del viajero sobre vacunas, incluida la fiebre amarilla cuando corresponda al itinerario."
+      },
+      {
+        "q": "¿Tendré guías en español en todas las excursiones?",
+        "a": "Sí. Create Travel organiza guías en español en todas las excursiones de tu viaje privado y a medida."
+      },
+      {
+        "q": "¿Cómo llegar a Río de Janeiro?",
+        "a": "Vuela directamente a Galeão (GIG) o conecta desde un hub brasileño como São Paulo (GRU); Santos Dumont (SDU) recibe vuelos nacionales. Continúa con un traslado privado."
+      },
+      {
+        "q": "¿Puedo combinar Río de Janeiro con otros biomas brasileños?",
+        "a": "Brasil tiene seis biomas terrestres más la zona costera y marina — siete paisajes y culturas distintos. Combina la Mata Atlántica y las playas de Río con el Pantanal y la Amazonía o Iguazú para comprender mejor Brasil en un solo viaje."
+      }
     ],
     cta: {
-      heading: "Diseñemos su Río de Janeiro",
-      subheading:
-        "Un consultor humano de Create Travel elige los horarios, los barrios y las experiencias adecuadas para su perfil — sin filas ni itinerarios genéricos.",
-      button: "Hablar con un travel designer",
+      "heading": "Solicita tu presupuesto para Río de Janeiro",
+      "subheading": "Planifica un viaje privado y a medida con un diseñador de viajes humano. Recibe tu propuesta y presupuesto por escrito por WhatsApp.",
+      "button": "Solicitar presupuesto por WhatsApp"
     },
     readingMinutes: 13,
     publishedAt: "2026-08-11",
   },
 
   it: {
-    metaTitle: "Rio de Janeiro: guida autoriale senza code, curata sul posto",
-    metaDescription:
-      "Guida completa a Rio de Janeiro: Cristo Redentore e Pan di Zucchero senza code, Santa Teresa, sentieri escursionistici, spiagge, visita a una favela con ospite locale ed estensioni verso Búzios, Paraty e Angra dos Reis.",
-    keywords:
-      "viaggio rio de janeiro, cristo redentore senza fila, pan di zucchero, santa teresa, sentiero pedra da gavea, dois irmaos, copacabana ipanema, tour favela rio, itinerario rio de janeiro lusso, buzios paraty angra",
-    h1: "Rio de Janeiro: guida autoriale di chi conosce la città da dentro",
-    aiAnswer:
-      "Il periodo migliore per visitare Rio de Janeiro va da aprile a giugno e da agosto a ottobre (meno pioggia, caldo moderato, città vivace ma non sovraffollata); l'ideale sono 4-5 notti, usando l'aeroporto Santos Dumont (SDU) per i voli domestici e il Galeão (GIG) per gli arrivi internazionali.",
+    metaTitle: "Rio de Janeiro, Brasile: Itinerario, Periodo Migliore e Preventivo",
+    metaDescription: "Viaggio privato e su misura per Rio de Janeiro: itinerario suggerito, periodo migliore e come arrivare. Richiedi un preventivo su WhatsApp.",
+    keywords: "viaggio rio de janeiro, cristo redentore senza fila, pan di zucchero, santa teresa, sentiero pedra da gavea, dois irmaos, copacabana ipanema, tour favela rio, itinerario rio de janeiro lusso, buzios paraty angra, Rio de Janeiro tour, itinerario Rio de Janeiro, come arrivare a Rio de Janeiro, periodo migliore Rio de Janeiro",
+    h1: "Rio de Janeiro: itinerario, periodo migliore e come arrivare",
+    aiAnswer: "Il periodo migliore per visitare Rio de Janeiro va da aprile a giugno e da agosto a ottobre (meno pioggia, caldo moderato, città vivace ma non sovraffollata); l'ideale sono 4-5 notti, usando l'aeroporto Santos Dumont (SDU) per i voli domestici e il Galeão (GIG) per gli arrivi internazionali. Create Travel crea viaggi privati e su misura per Rio de Janeiro per viaggiatori internazionali, con guide in italiano, e invia un preventivo scritto via WhatsApp.",
     intro: [
       "Rio de Janeiro è la città più fotografata del Brasile e, proprio per questo, la più fraintesa: chi arriva con un itinerario da cartolina torna a casa con foto, non con la città. Rio si rivela per strati: la montagna, la foresta dentro l'asfalto, il mare, le colline abitate, la tavola, la musica che esce dalla finestra alle sette di sera.",
       "Questa guida nasce da anni trascorsi a organizzare arrivi a Rio per viaggiatori che hanno già visto il mondo e non hanno pazienza per code, guide generiche o l'itinerario che ogni agenzia vende allo stesso modo. Ecco cosa funziona davvero: gli orari giusti per il Cristo e il Pan di Zucchero, sentieri con l'energia adatta a ogni età, e come lasciare la città senza perdere l'incanto, verso Búzios, Paraty o Angra dos Reis.",
@@ -750,31 +782,54 @@ export const rioDeJaneiroGuide: BrazilGuideLocalized = {
       ],
     },
     itinerary: {
-      heading: "Come integrare Rio de Janeiro in un itinerario in Brasile",
-      intro:
-        "Rio funziona molto bene come porta d'ingresso o di uscita dal Brasile, con il Galeão (GIG) che riceve voli internazionali diretti e il Santos Dumont (SDU) che concentra la rete domestica nel pieno centro città.",
-      items: [
+      "heading": "Itinerario suggerito per Rio de Janeiro e combinazioni in Brasile",
+      "intro": "Itinerario privato e su misura, adattato a date, ritmo e condizioni locali. Prevedi notti di margine per i collegamenti aerei.",
+      "items": [
         {
-          title: "Rio de Janeiro + Búzios — 6-7 giorni",
-          text: "Tre o quattro notti in città e due o tre a Búzios, a 2h30 d'auto, scambiando montagna e urbanità con sedici spiagge e un'atmosfera da villaggio di pescatori sofisticato.",
+          "title": "Giorno 1 — Arrivo a Rio",
+          "text": "Arrivo a Galeão (GIG), trasferimento privato in hotel a Ipanema, Leblon o Copacabana. Tramonto in spiaggia."
         },
         {
-          title: "Rio de Janeiro + Paraty — 7-8 giorni",
-          text: "Città coloniale tutelata, isole e cascate a 4 ore d'auto da Rio. Combinazione classica di patrimonio storico e natura, molto richiesta dalle coppie.",
+          "title": "Giorno 2 — Cristo Redentore e Santa Teresa",
+          "text": "Visita mattutina al Cristo Redentore con ingresso a orario, poi Santa Teresa e centro storico con guida locale."
         },
         {
-          title: "Rio de Janeiro + Angra dos Reis e Ilha Grande — 7 giorni",
-          text: "Trecentosessantacinque spiagge tra le isole, raggiungibili in barca privata da Rio. Ideale per rallentare dopo il ritmo urbano.",
+          "title": "Giorno 3 — Pan di Zucchero e natura",
+          "text": "Sentiero nella foresta di Tijuca o escursione guidata, e funivia del Pan di Zucchero nel tardo pomeriggio."
         },
         {
-          title: "Rio de Janeiro + Amazzonia — 10-12 giorni",
-          text: "Il contrasto più richiesto dagli stranieri: città e foresta, con una notte cuscinetto a Manaus tra le due tappe.",
+          "title": "Giorno 4 — Giornata libera o estensione",
+          "text": "Spiaggia, visita culturale o estensione a Búzios, Paraty o Angra dos Reis."
         },
         {
-          title: "Rio de Janeiro + Foz do Iguaçu + Bahia — 14 giorni",
-          text: "Il classico itinerario di debutto in Brasile: città, cascate e litorale nordestino, in tre tratte aeree ben concatenate.",
+          "title": "Giorno 5 — Volo successivo",
+          "text": "Proseguimento per Pantanal, Amazzonia, Iguazú o rientro a casa."
         },
-      ],
+        {
+          "title": "Rio de Janeiro + Búzios — 6-7 giorni",
+          "text": "Tre o quattro notti in città e due o tre a Búzios, a 2h30 d'auto, scambiando montagna e urbanità con sedici spiagge e un'atmosfera da villaggio di pescatori sofisticato."
+        },
+        {
+          "title": "Rio de Janeiro + Paraty — 7-8 giorni",
+          "text": "Città coloniale tutelata, isole e cascate a 4 ore d'auto da Rio. Combinazione classica di patrimonio storico e natura, molto richiesta dalle coppie."
+        },
+        {
+          "title": "Rio de Janeiro + Angra dos Reis e Ilha Grande — 7 giorni",
+          "text": "Trecentosessantacinque spiagge tra le isole, raggiungibili in barca privata da Rio. Ideale per rallentare dopo il ritmo urbano."
+        },
+        {
+          "title": "Rio de Janeiro + Amazzonia — 10-12 giorni",
+          "text": "Il contrasto più richiesto dagli stranieri: città e foresta, con una notte cuscinetto a Manaus tra le due tappe."
+        },
+        {
+          "title": "Rio de Janeiro + Foz do Iguaçu + Bahia — 14 giorni",
+          "text": "Il classico itinerario di debutto in Brasile: città, cascate e litorale nordestino, in tre tratte aeree ben concatenate."
+        },
+        {
+          "title": "Combina due o più biomi brasiliani",
+          "text": "Il Brasile ha sei biomi terrestri più la zona costiera e marina: sette paesaggi e culture diversi. Combina la Foresta Atlantica e le spiagge di Rio con il Pantanal e l’Amazzonia o Iguazú per comprendere meglio il Brasile in un solo viaggio."
+        }
+      ]
     },
     tips: {
       heading: "Consigli pratici che fanno la differenza",
@@ -789,35 +844,50 @@ export const rioDeJaneiroGuide: BrazilGuideLocalized = {
     },
     faq: [
       {
-        q: "Quanti giorni servono per visitare Rio de Janeiro?",
-        a: "Quattro-cinque notti permettono di vivere il Cristo, il Pan di Zucchero, Santa Teresa, un'escursione e le spiagge senza fretta. Con meno di tre notti l'itinerario risulta superficiale.",
+        "q": "Quanti giorni servono per visitare Rio de Janeiro?",
+        "a": "Quattro-cinque notti permettono di vivere il Cristo, il Pan di Zucchero, Santa Teresa, un'escursione e le spiagge senza fretta. Con meno di tre notti l'itinerario risulta superficiale."
       },
       {
-        q: "Qual è il periodo migliore per visitare Rio de Janeiro?",
-        a: "Aprile-giugno e agosto-ottobre offrono il miglior equilibrio tra clima e affluenza. Dicembre-marzo è più caldo e concentra Capodanno e Carnevale, con prezzi e occupazione più alti.",
+        "q": "Qual è il periodo migliore per visitare Rio de Janeiro?",
+        "a": "Aprile-giugno e agosto-ottobre offrono il miglior equilibrio tra clima e affluenza. Dicembre-marzo è più caldo e concentra Capodanno e Carnevale, con prezzi e occupazione più alti."
       },
       {
-        q: "Come visitare il Cristo Redentore senza fare la coda?",
-        a: "Prenotiamo l'ingresso sul primo treno del mattino o in van privato fuori dal picco di mezzogiorno, quando arrivano in massa i pullman turistici.",
+        "q": "Come visitare il Cristo Redentore senza fare la coda?",
+        "a": "Prenotiamo l'ingresso sul primo treno del mattino o in van privato fuori dal picco di mezzogiorno, quando arrivano in massa i pullman turistici."
       },
       {
-        q: "Vale la pena visitare una favela a Rio de Janeiro?",
-        a: "Sì, se condotta da un ospite della comunità stessa, con focus sull'economia locale e viste privilegiate della città — mai come spettacolo della povertà.",
+        "q": "Vale la pena visitare una favela a Rio de Janeiro?",
+        "a": "Sì, se condotta da un ospite della comunità stessa, con focus sull'economia locale e viste privilegiate della città — mai come spettacolo della povertà."
       },
       {
-        q: "Quale aeroporto usare per arrivare a Rio de Janeiro?",
-        a: "Il Galeão (GIG) riceve la maggior parte dei voli internazionali; il Santos Dumont (SDU), a 15 minuti dal centro, concentra la rete domestica ed è più pratico per chi è già in Brasile.",
+        "q": "Quale aeroporto usare per arrivare a Rio de Janeiro?",
+        "a": "Il Galeão (GIG) riceve la maggior parte dei voli internazionali; il Santos Dumont (SDU), a 15 minuti dal centro, concentra la rete domestica ed è più pratico per chi è già in Brasile."
       },
       {
-        q: "Quanto costa un viaggio a Rio de Janeiro con Create Travel?",
-        a: "Non lavoriamo con valori di listino: il budget dipende dall'hotel, dal periodo e dalle esperienze private scelte. Un consulente umano prepara la proposta e presenta i valori per iscritto.",
+        "q": "Quanto costa un viaggio a Rio de Janeiro con Create Travel?",
+        "a": "Non lavoriamo con valori di listino: il budget dipende dall'hotel, dal periodo e dalle esperienze private scelte. Un consulente umano prepara la proposta e presenta i valori per iscritto."
       },
+      {
+        "q": "Servono visto o vaccini per il Brasile?",
+        "a": "I requisiti dipendono dalla nazionalità e dalle date. Consulta le fonti consolari ufficiali brasiliane prima di prenotare e le indicazioni sanitarie ufficiali e un professionista di medicina dei viaggi per i vaccini, inclusa la febbre gialla quando pertinente all’itinerario."
+      },
+      {
+        "q": "Avrò guide in italiano in ogni escursione?",
+        "a": "Sì. Create Travel organizza guide in italiano in ogni escursione del tuo viaggio privato e su misura."
+      },
+      {
+        "q": "Come arrivare a Rio de Janeiro?",
+        "a": "Vola direttamente a Galeão (GIG) o tramite un hub brasiliano come São Paulo (GRU); Santos Dumont (SDU) riceve voli nazionali. Prosegui con un trasferimento privato."
+      },
+      {
+        "q": "Posso combinare Rio de Janeiro con altri biomi brasiliani?",
+        "a": "Il Brasile ha sei biomi terrestri più la zona costiera e marina: sette paesaggi e culture diversi. Combina la Foresta Atlantica e le spiagge di Rio con il Pantanal e l’Amazzonia o Iguazú per comprendere meglio il Brasile in un solo viaggio."
+      }
     ],
     cta: {
-      heading: "Disegniamo la vostra Rio de Janeiro",
-      subheading:
-        "Un consulente umano di Create Travel sceglie orari, quartieri ed esperienze giuste per il vostro profilo — senza code né itinerari generici.",
-      button: "Parla con un travel designer",
+      "heading": "Richiedi il tuo preventivo per Rio de Janeiro",
+      "subheading": "Pianifica un viaggio privato e su misura con un travel designer umano. Ricevi la proposta e il preventivo scritto via WhatsApp.",
+      "button": "Richiedi un preventivo su WhatsApp"
     },
     readingMinutes: 13,
     publishedAt: "2026-08-11",

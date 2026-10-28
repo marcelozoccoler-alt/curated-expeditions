@@ -515,14 +515,14 @@ export const hospedagensDeCharmeBrasilGuide: BrazilGuideLocalized = {
     destinationName: "Hospedajes con Encanto de Brasil",
     blurb:
       "Un recorrido por pousadas boutique y refugios de pocas suites — de la costa de Bahía a Noronha, la sierra y el Cerrado — donde la casa misma es el destino.",
-    metaTitle: "Hoteles con encanto en Brasil: las casas que valen el viaje",
+    metaTitle: "Alojamientos boutique en Brasil, Brasil: Itinerario, Mejor Época y Presupuesto",
     metaDescription:
-      "De Trancoso a Noronha, casas de pocas suites donde el anfitrión aún recibe en la mesa. Para quién es cada una, cuándo ir y cómo encadenarlas en una ruta.",
+      "Planifica un viaje privado y a medida a alojamientos boutique en Brasil: itinerario sugerido, mejor época y cómo llegar. Solicita un presupuesto por WhatsApp.",
     keywords:
-      "hospedajes con encanto brasil, pousadas boutique brasil, uxua casa hotel, vila naia corumbau, pousada maravilha noronha, vila dos orixas boipeba, casa turquesa paraty, itinerario hoteles boutique brasil",
-    h1: "Hospedajes con Encanto de Brasil: las casas que se convierten en el viaje",
+      "hospedajes con encanto brasil, pousadas boutique brasil, uxua casa hotel, vila naia corumbau, pousada maravilha noronha, vila dos orixas boipeba, casa turquesa paraty, itinerario hoteles boutique brasil, alojamientos boutique en Brasil tour, itinerario alojamientos boutique en Brasil, cómo llegar a alojamientos boutique en Brasil, mejor época alojamientos boutique en Brasil",
+    h1: "Alojamientos boutique en Brasil: itinerario, mejor época y cómo llegar",
     aiAnswer:
-      "Los mejores hospedajes con encanto de Brasil son casas de pocas suites — como Uxua y Estrela d'Água en Trancoso, Vila Naiá en Corumbau, Pousada Maravilha en Fernando de Noronha, Vila dos Orixás en Boipeba y Casa Turquesa en Paraty —, definidas por escala reducida, arquitectura de autor, servicio personalizado y gastronomía de raíz local; lo ideal es encadenar dos o tres casas de regiones cercanas en itinerarios de 8 a 12 días.",
+      "Los mejores hospedajes con encanto de Brasil son casas de pocas suites — como Uxua y Estrela d'Água en Trancoso, Vila Naiá en Corumbau, Pousada Maravilha en Fernando de Noronha, Vila dos Orixás en Boipeba y Casa Turquesa en Paraty —, definidas por escala reducida, arquitectura de autor, servicio personalizado y gastronomía de raíz local; lo ideal es encadenar dos o tres casas de regiones cercanas en itinerarios de 8 a 12 días. Create Travel diseña viajes privados y a medida a alojamientos boutique en Brasil para viajeros internacionales, con guías en español, y envía un presupuesto por escrito por WhatsApp.",
     intro: [
       "Existe una categoría de hospedaje que no compite por número de habitaciones, sino por su ausencia. Casas de seis, diez, quince suites, donde el gerente sabe tu nombre al segundo día, el chef pregunta si te gustó el pescado y la arquitectura dialoga con el lugar en vez de imponer un estándar importado. A esto lo llamamos hospedaje con encanto — y Brasil, de la costa de Bahía al Cerrado, tiene algunos de los mejores del mundo.",
       "Esta guía reúne las casas que probamos y que regresan en los relatos de quienes viajan con Create Travel: pousadas boutique en pueblos históricos, refugios de playa aislada, hoteles de hacienda en el corazón del Cerrado y direcciones de arquitectura premiada en la sierra. Las organizamos por región y experiencia, para ayudar a decidir no solo dónde alojarse, sino qué tipo de viaje entrega cada casa.",
@@ -684,31 +684,34 @@ export const hospedagensDeCharmeBrasilGuide: BrazilGuideLocalized = {
       ],
     },
     itinerary: {
-      heading: "Cómo encadenar dos o tres casas en un itinerario",
-      intro:
-        "La fuerza de este tipo de viaje está en coser regiones cercanas, sin exceso de vuelos domésticos entre una casa y otra.",
-      items: [
+      "heading": "Cómo encadenar dos o tres casas en un itinerario",
+      "intro": "La fuerza de este tipo de viaje está en coser regiones cercanas, sin exceso de vuelos domésticos entre una casa y otra.",
+      "items": [
         {
-          title: "Trancoso + Corumbau — 8 a 10 días",
-          text: "Tres a cuatro noches en Uxua o Estrela D'Água para vivir el Quadrado histórico, seguidas de tres a cuatro noches en Vila Naiá para el aislamiento total. Mismo aeropuerto de llegada, traslado terrestre o en lancha entre ambos.",
+          "title": "Trancoso + Corumbau — 8 a 10 días",
+          "text": "Tres a cuatro noches en Uxua o Estrela D'Água para vivir el Quadrado histórico, seguidas de tres a cuatro noches en Vila Naiá para el aislamiento total. Mismo aeropuerto de llegada, traslado terrestre o en lancha entre ambos."
         },
         {
-          title: "Trancoso + Boipeba — 9 a 11 días",
-          text: "Combina la vida social discreta de Trancoso con el silencio radical de Boipeba en Vila dos Orixás. Traslado por carretera y barco, sin vuelo interno.",
+          "title": "Trancoso + Boipeba — 9 a 11 días",
+          "text": "Combina la vida social discreta de Trancoso con el silencio radical de Boipeba en Vila dos Orixás. Traslado por carretera y barco, sin vuelo interno."
         },
         {
-          title: "Paraty + sierra fluminense — 7 a 9 días",
-          text: "Casa Turquesa o Pousada Literária en el centro histórico, seguidas de días en la sierra cercana para senderismo y clima templado. Ideal como apertura o cierre de un itinerario mayor por Río de Janeiro.",
+          "title": "Paraty + sierra fluminense — 7 a 9 días",
+          "text": "Casa Turquesa o Pousada Literária en el centro histórico, seguidas de días en la sierra cercana para senderismo y clima templado. Ideal como apertura o cierre de un itinerario mayor por Río de Janeiro."
         },
         {
-          title: "Fernando de Noronha exclusiva — 4 a 6 noches",
-          text: "La isla pide dedicación exclusiva: Pousada Maravilha o Teju-Açu como base única, sin desplazamiento a otro destino en el mismo bloque de viaje.",
+          "title": "Fernando de Noronha exclusiva — 4 a 6 noches",
+          "text": "La isla pide dedicación exclusiva: Pousada Maravilha o Teju-Açu como base única, sin desplazamiento a otro destino en el mismo bloque de viaje."
         },
         {
-          title: "Cerrado + costa de Bahía — 10 a 12 días",
-          text: "Pousada Trijunção para senderismo, nacientes y fauna, seguida de Trancoso o Corumbau para el contrapunto de playa. Conexión aérea vía Brasilia o Salvador.",
+          "title": "Cerrado + costa de Bahía — 10 a 12 días",
+          "text": "Pousada Trijunção para senderismo, nacientes y fauna, seguida de Trancoso o Corumbau para el contrapunto de playa. Conexión aérea vía Brasilia o Salvador."
         },
-      ],
+        {
+          "title": "Combina dos o más biomas brasileños",
+          "text": "Brasil tiene seis biomas terrestres más la zona costera y marina — siete paisajes y culturas distintos. Combina el Cerrado en Pousada Trijunção con la zona costera y marina de Trancoso o Corumbau. Adaptamos la secuencia a las condiciones estacionales y dejamos tiempo para los traslados."
+        }
+      ]
     },
     tips: {
       heading: "Consejos prácticos",
@@ -723,35 +726,50 @@ export const hospedagensDeCharmeBrasilGuide: BrazilGuideLocalized = {
     },
     faq: [
       {
-        q: "¿Qué diferencia a un hospedaje con encanto de un resort de lujo común?",
-        a: "La escala: pocas suites, arquitectura de autor en diálogo con el lugar, servicio personalizado con el mismo equipo del inicio al fin de la estadía, y gastronomía de raíz local en vez de buffet internacional estandarizado.",
+        "q": "¿Qué diferencia a un hospedaje con encanto de un resort de lujo común?",
+        "a": "La escala: pocas suites, arquitectura de autor en diálogo con el lugar, servicio personalizado con el mismo equipo del inicio al fin de la estadía, y gastronomía de raíz local en vez de buffet internacional estandarizado."
       },
       {
-        q: "¿Cuál es la mejor época para viajar a estos hospedajes?",
-        a: "En la costa de Bahía y en Boipeba, de abril a noviembre, fuera del pico de verano. En Fernando de Noronha, de agosto a diciembre para mar más calmo. En el Cerrado y la sierra, de mayo a septiembre, en la estación seca.",
+        "q": "¿Cuál es la mejor época para viajar a estos hospedajes?",
+        "a": "En la costa de Bahía y en Boipeba, de abril a noviembre, fuera del pico de verano. En Fernando de Noronha, de agosto a diciembre para mar más calmo. En el Cerrado y la sierra, de mayo a septiembre, en la estación seca."
       },
       {
-        q: "¿Es posible visitar más de una de estas casas en el mismo viaje?",
-        a: "Sí — el formato más solicitado combina dos regiones cercanas, como Trancoso y Corumbau o Trancoso y Boipeba, en itinerarios de 8 a 12 días, evitando vuelos domésticos innecesarios.",
+        "q": "¿Es posible visitar más de una de estas casas en el mismo viaje?",
+        "a": "Sí — el formato más solicitado combina dos regiones cercanas, como Trancoso y Corumbau o Trancoso y Boipeba, en itinerarios de 8 a 12 días, evitando vuelos domésticos innecesarios."
       },
       {
-        q: "¿Estos hospedajes son adecuados para familias con niños?",
-        a: "Algunos sí, con buena infraestructura para niños mayores y adolescentes; otros, refugios muy aislados, priorizan parejas y viajeros que buscan silencio. Evaluamos caso por caso antes de recomendar.",
+        "q": "¿Estos hospedajes son adecuados para familias con niños?",
+        "a": "Algunos sí, con buena infraestructura para niños mayores y adolescentes; otros, refugios muy aislados, priorizan parejas y viajeros que buscan silencio. Evaluamos caso por caso antes de recomendar."
       },
       {
-        q: "¿Cómo se accede a lugares como Corumbau o Boipeba?",
-        a: "Corumbau se accede por camino de tierra, lancha desde Porto Seguro o helicóptero. Boipeba es una isla sin autos, accesible en barco desde Valença o Salvador. Create Travel organiza ambos trayectos.",
+        "q": "¿Cómo se accede a lugares como Corumbau o Boipeba?",
+        "a": "Corumbau se accede por camino de tierra, lancha desde Porto Seguro o helicóptero. Boipeba es una isla sin autos, accesible en barco desde Valença o Salvador. Create Travel organiza ambos trayectos."
       },
       {
-        q: "¿Cuánto cuesta hospedarse en estas casas?",
-        a: "No trabajamos con valores de vitrina: las tarifas del momento y la disponibilidad de la fecha varían según temporada, categoría de suite y tipo de cambio. Un consultor humano de Create Travel presenta la propuesta por escrito, directo por WhatsApp.",
+        "q": "¿Cuánto cuesta hospedarse en estas casas?",
+        "a": "No trabajamos con valores de vitrina: las tarifas del momento y la disponibilidad de la fecha varían según temporada, categoría de suite y tipo de cambio. Un consultor humano de Create Travel presenta la propuesta por escrito, directo por WhatsApp."
       },
+      {
+        "q": "¿Cómo llegar a alojamientos boutique en Brasil desde el extranjero?",
+        "a": "Toma un vuelo internacional a Brasil. Desde un hub brasileño, conecta con el aeropuerto del alojamiento elegido. La combinación del Cerrado y la costa de Bahía puede organizarse vía Brasília o Salvador. Create Travel confirma el aeropuerto local adecuado y organiza traslados privados por carretera o barco."
+      },
+      {
+        "q": "¿Necesito visado y vacunas para viajar a Brasil?",
+        "a": "Los requisitos de visado dependen de tu nacionalidad y fechas de viaje: consulta fuentes consulares oficiales brasileñas antes de reservar. Consulta las recomendaciones sanitarias oficiales y a un profesional de medicina del viajero sobre vacunas habituales, fiebre amarilla y requisitos de entrada o tránsito según tu itinerario."
+      },
+      {
+        "q": "¿Hay guías en español en todas las excursiones?",
+        "a": "Sí. Create Travel ofrece guías en español en todas las excursiones de tu viaje privado y a medida. Adaptamos el ritmo y las explicaciones a tus intereses."
+      },
+      {
+        "q": "¿Puedo combinar alojamientos boutique en Brasil con otros biomas brasileños?",
+        "a": "Brasil tiene seis biomas terrestres más la zona costera y marina — siete paisajes y culturas distintos. Combina el Cerrado en Pousada Trijunção con la zona costera y marina de Trancoso o Corumbau. Adaptamos la secuencia a las condiciones estacionales y dejamos tiempo para los traslados."
+      }
     ],
     cta: {
-      heading: "Diseñemos su itinerario de hospedajes con encanto",
-      subheading:
-        "Un travel designer de Create Travel elige las casas correctas para su perfil y negocia tarifas y disponibilidad directamente con cada propiedad.",
-      button: "Hablar con un travel designer",
+      "heading": "Solicita tu presupuesto para alojamientos boutique en Brasil",
+      "subheading": "Planifica un viaje privado y a medida con un diseñador de viajes humano de Create Travel, según tus fechas, intereses, ritmo y confort preferido. Recibe tu propuesta por escrito por WhatsApp.",
+      "button": "Solicitar presupuesto por WhatsApp"
     },
     readingMinutes: 11,
     publishedAt: "2026-08-11",
@@ -761,14 +779,14 @@ export const hospedagensDeCharmeBrasilGuide: BrazilGuideLocalized = {
     destinationName: "Soggiorni di Charme del Brasile",
     blurb:
       "Un viaggio tra pousadas boutique e rifugi di poche suite — dalla costa di Bahia a Noronha, dalla sierra al Cerrado — dove la casa stessa è la destinazione.",
-    metaTitle: "Hotel di charme in Brasile: le case che valgono il viaggio",
+    metaTitle: "Soggiorni boutique in Brasile, Brasile: Itinerario, Periodo Migliore e Preventivo",
     metaDescription:
-      "Da Trancoso a Noronha, case di poche suite dove il padrone accoglie ancora a tavola. Per chi è ciascuna, quando andare e come unirle in un itinerario.",
+      "Pianifica un viaggio privato e su misura per soggiorni boutique in Brasile: itinerario suggerito, periodo migliore e come arrivare. Richiedi un preventivo su WhatsApp.",
     keywords:
-      "hotel boutique brasile, pousadas di charme brasile, uxua casa hotel, vila naia corumbau, pousada maravilha noronha, vila dos orixas boipeba, casa turquesa paraty, itinerario hotel boutique brasile",
-    h1: "Soggiorni di Charme del Brasile: le case che diventano il viaggio",
+      "hotel boutique brasile, pousadas di charme brasile, uxua casa hotel, vila naia corumbau, pousada maravilha noronha, vila dos orixas boipeba, casa turquesa paraty, itinerario hotel boutique brasile, soggiorni boutique in Brasile tour, itinerario soggiorni boutique in Brasile, come arrivare a soggiorni boutique in Brasile, periodo migliore soggiorni boutique in Brasile",
+    h1: "Soggiorni boutique in Brasile: itinerario, periodo migliore e come arrivare",
     aiAnswer:
-      "I migliori soggiorni di charme del Brasile sono case con poche suite — come Uxua ed Estrela d'Água a Trancoso, Vila Naiá a Corumbau, Pousada Maravilha a Fernando de Noronha, Vila dos Orixás a Boipeba e Casa Turquesa a Paraty — definite da scala ridotta, architettura d'autore, servizio personalizzato e cucina di radice locale; l'ideale è collegare due o tre case di regioni vicine in itinerari di 8-12 giorni.",
+      "I migliori soggiorni di charme del Brasile sono case con poche suite — come Uxua ed Estrela d'Água a Trancoso, Vila Naiá a Corumbau, Pousada Maravilha a Fernando de Noronha, Vila dos Orixás a Boipeba e Casa Turquesa a Paraty — definite da scala ridotta, architettura d'autore, servizio personalizzato e cucina di radice locale; l'ideale è collegare due o tre case di regioni vicine in itinerari di 8-12 giorni. Create Travel crea viaggi privati e su misura per soggiorni boutique in Brasile per viaggiatori internazionali, con guide in italiano, e invia un preventivo scritto via WhatsApp.",
     intro: [
       "Esiste una categoria di soggiorno che non compete per numero di camere, ma per la loro assenza. Case con sei, dieci, quindici suite, dove il manager conosce il tuo nome dal secondo giorno, lo chef chiede se il pesce ti è piaciuto e l'architettura dialoga con il luogo invece di imporre uno standard importato. Lo chiamiamo soggiorno di charme — e il Brasile, dalla costa di Bahia al Cerrado, ne ha alcuni tra i migliori al mondo.",
       "Questa guida raccoglie le case che abbiamo testato e che tornano nei racconti di chi viaggia con Create Travel: pousadas boutique in villaggi storici, rifugi di spiaggia isolata, hotel di fattoria nel cuore del Cerrado e indirizzi di architettura premiata sulla sierra. Le organizziamo per regione ed esperienza, per aiutare a decidere non solo dove alloggiare, ma che tipo di viaggio offre ciascuna casa.",
@@ -930,31 +948,34 @@ export const hospedagensDeCharmeBrasilGuide: BrazilGuideLocalized = {
       ],
     },
     itinerary: {
-      heading: "Come collegare due o tre case in un itinerario",
-      intro:
-        "La forza di questo tipo di viaggio sta nel cucire regioni vicine, senza eccessivi voli interni tra una casa e l'altra.",
-      items: [
+      "heading": "Come collegare due o tre case in un itinerario",
+      "intro": "La forza di questo tipo di viaggio sta nel cucire regioni vicine, senza eccessivi voli interni tra una casa e l'altra.",
+      "items": [
         {
-          title: "Trancoso + Corumbau — 8-10 giorni",
-          text: "Tre-quattro notti a Uxua o Estrela D'Água per vivere il Quadrado storico, seguite da tre-quattro notti a Vila Naiá per l'isolamento totale. Stesso aeroporto d'arrivo, trasferimento su strada o in barca tra le due.",
+          "title": "Trancoso + Corumbau — 8-10 giorni",
+          "text": "Tre-quattro notti a Uxua o Estrela D'Água per vivere il Quadrado storico, seguite da tre-quattro notti a Vila Naiá per l'isolamento totale. Stesso aeroporto d'arrivo, trasferimento su strada o in barca tra le due."
         },
         {
-          title: "Trancoso + Boipeba — 9-11 giorni",
-          text: "Combina la vita sociale discreta di Trancoso con il silenzio radicale di Boipeba a Vila dos Orixás. Trasferimento su strada e barca, senza volo interno.",
+          "title": "Trancoso + Boipeba — 9-11 giorni",
+          "text": "Combina la vita sociale discreta di Trancoso con il silenzio radicale di Boipeba a Vila dos Orixás. Trasferimento su strada e barca, senza volo interno."
         },
         {
-          title: "Paraty + sierra fluminense — 7-9 giorni",
-          text: "Casa Turquesa o Pousada Literária nel centro storico, seguite da giorni sulla sierra vicina per trekking e clima mite. Ideale come apertura o chiusura di un itinerario più ampio a Rio de Janeiro.",
+          "title": "Paraty + sierra fluminense — 7-9 giorni",
+          "text": "Casa Turquesa o Pousada Literária nel centro storico, seguite da giorni sulla sierra vicina per trekking e clima mite. Ideale come apertura o chiusura di un itinerario più ampio a Rio de Janeiro."
         },
         {
-          title: "Fernando de Noronha esclusiva — 4-6 notti",
-          text: "L'isola richiede dedizione esclusiva: Pousada Maravilha o Teju-Açu come base unica, senza spostamenti verso un'altra destinazione nello stesso blocco di viaggio.",
+          "title": "Fernando de Noronha esclusiva — 4-6 notti",
+          "text": "L'isola richiede dedizione esclusiva: Pousada Maravilha o Teju-Açu come base unica, senza spostamenti verso un'altra destinazione nello stesso blocco di viaggio."
         },
         {
-          title: "Cerrado + costa di Bahia — 10-12 giorni",
-          text: "Pousada Trijunção per trekking, sorgenti e fauna, seguita da Trancoso o Corumbau per il contrappunto di spiaggia. Collegamento aereo via Brasília o Salvador.",
+          "title": "Cerrado + costa di Bahia — 10-12 giorni",
+          "text": "Pousada Trijunção per trekking, sorgenti e fauna, seguita da Trancoso o Corumbau per il contrappunto di spiaggia. Collegamento aereo via Brasília o Salvador."
         },
-      ],
+        {
+          "title": "Combina due o più biomi brasiliani",
+          "text": "Il Brasile ha sei biomi terrestri più la zona costiera e marina: sette paesaggi e culture diversi. Combina il Cerrado presso Pousada Trijunção con la zona costiera e marina di Trancoso o Corumbau.Adattiamo la sequenza alle condizioni stagionali e prevediamo tempo per i trasferimenti."
+        }
+      ]
     },
     tips: {
       heading: "Consigli pratici",
@@ -969,35 +990,50 @@ export const hospedagensDeCharmeBrasilGuide: BrazilGuideLocalized = {
     },
     faq: [
       {
-        q: "Cosa distingue un soggiorno di charme da un normale resort di lusso?",
-        a: "La scala: poche suite, architettura d'autore in dialogo con il luogo, servizio personalizzato dallo stesso team dall'inizio alla fine del soggiorno, e cucina di radice locale invece di un buffet internazionale standardizzato.",
+        "q": "Cosa distingue un soggiorno di charme da un normale resort di lusso?",
+        "a": "La scala: poche suite, architettura d'autore in dialogo con il luogo, servizio personalizzato dallo stesso team dall'inizio alla fine del soggiorno, e cucina di radice locale invece di un buffet internazionale standardizzato."
       },
       {
-        q: "Qual è il periodo migliore per visitare questi soggiorni?",
-        a: "Sulla costa di Bahia e a Boipeba, da aprile a novembre, fuori dal picco estivo. A Fernando de Noronha, da agosto a dicembre per un mare più calmo. Nel Cerrado e sulla sierra, da maggio a settembre, la stagione secca.",
+        "q": "Qual è il periodo migliore per visitare questi soggiorni?",
+        "a": "Sulla costa di Bahia e a Boipeba, da aprile a novembre, fuori dal picco estivo. A Fernando de Noronha, da agosto a dicembre per un mare più calmo. Nel Cerrado e sulla sierra, da maggio a settembre, la stagione secca."
       },
       {
-        q: "È possibile visitare più di una di queste case nello stesso viaggio?",
-        a: "Sì — il formato più richiesto combina due regioni vicine, come Trancoso e Corumbau o Trancoso e Boipeba, in itinerari di 8-12 giorni, evitando voli interni non necessari.",
+        "q": "È possibile visitare più di una di queste case nello stesso viaggio?",
+        "a": "Sì — il formato più richiesto combina due regioni vicine, come Trancoso e Corumbau o Trancoso e Boipeba, in itinerari di 8-12 giorni, evitando voli interni non necessari."
       },
       {
-        q: "Questi soggiorni sono adatti a famiglie con bambini?",
-        a: "Alcuni sì, con buona infrastruttura per bambini più grandi e adolescenti; altri, rifugi molto isolati, privilegiano coppie e viaggiatori in cerca di silenzio. Valutiamo caso per caso prima di consigliare.",
+        "q": "Questi soggiorni sono adatti a famiglie con bambini?",
+        "a": "Alcuni sì, con buona infrastruttura per bambini più grandi e adolescenti; altri, rifugi molto isolati, privilegiano coppie e viaggiatori in cerca di silenzio. Valutiamo caso per caso prima di consigliare."
       },
       {
-        q: "Come si raggiungono luoghi come Corumbau o Boipeba?",
-        a: "Corumbau si raggiunge su strada sterrata, in barca da Porto Seguro o in elicottero. Boipeba è un'isola senza auto, raggiungibile in barca da Valença o Salvador. Create Travel organizza entrambi i trasferimenti.",
+        "q": "Come si raggiungono luoghi come Corumbau o Boipeba?",
+        "a": "Corumbau si raggiunge su strada sterrata, in barca da Porto Seguro o in elicottero. Boipeba è un'isola senza auto, raggiungibile in barca da Valença o Salvador. Create Travel organizza entrambi i trasferimenti."
       },
       {
-        q: "Quanto costa soggiornare in queste case?",
-        a: "Non lavoriamo con prezzi standard: le tariffe del momento e la disponibilità della data variano per stagione, categoria di suite e cambio valuta. Un consulente umano di Create Travel presenta la proposta per iscritto, direttamente su WhatsApp.",
+        "q": "Quanto costa soggiornare in queste case?",
+        "a": "Non lavoriamo con prezzi standard: le tariffe del momento e la disponibilità della data variano per stagione, categoria di suite e cambio valuta. Un consulente umano di Create Travel presenta la proposta per iscritto, direttamente su WhatsApp."
       },
+      {
+        "q": "Come arrivare a soggiorni boutique in Brasile dall’estero?",
+        "a": "Prendi un volo internazionale per il Brasile. Da un hub brasiliano, prosegui verso l’aeroporto della struttura scelta. La combinazione Cerrado e costa di Bahia può essere organizzata via Brasília o Salvador. Create Travel conferma l’aeroporto locale adatto e organizza trasferimenti privati su strada o in barca."
+      },
+      {
+        "q": "Servono visto e vaccini per viaggiare in Brasile?",
+        "a": "I requisiti del visto dipendono dalla nazionalità e dalle date di viaggio: consulta le fonti consolari ufficiali brasiliane prima di prenotare. Consulta le indicazioni sanitarie ufficiali e un professionista di medicina dei viaggi sulle vaccinazioni di routine, sulla febbre gialla e sui requisiti di ingresso o transito secondo il tuo itinerario."
+      },
+      {
+        "q": "Sono disponibili guide in italiano in ogni escursione?",
+        "a": "Sì. Create Travel offre guide in italiano in ogni escursione del tuo viaggio privato e su misura. Adattiamo il ritmo e le spiegazioni ai tuoi interessi."
+      },
+      {
+        "q": "Posso combinare soggiorni boutique in Brasile con altri biomi brasiliani?",
+        "a": "Il Brasile ha sei biomi terrestri più la zona costiera e marina: sette paesaggi e culture diversi. Combina il Cerrado presso Pousada Trijunção con la zona costiera e marina di Trancoso o Corumbau.Adattiamo la sequenza alle condizioni stagionali e prevediamo tempo per i trasferimenti."
+      }
     ],
     cta: {
-      heading: "Progettiamo il tuo itinerario di soggiorni di charme",
-      subheading:
-        "Un travel designer di Create Travel sceglie le case giuste per il tuo profilo e negozia tariffe e disponibilità direttamente con ogni struttura.",
-      button: "Parla con un travel designer",
+      "heading": "Richiedi il tuo preventivo per soggiorni boutique in Brasile",
+      "subheading": "Pianifica un viaggio privato e su misura con un travel designer umano di Create Travel, secondo le tue date, i tuoi interessi, il tuo ritmo e il comfort desiderato. Ricevi la proposta scritta via WhatsApp.",
+      "button": "Richiedi un preventivo su WhatsApp"
     },
     readingMinutes: 11,
     publishedAt: "2026-08-11",

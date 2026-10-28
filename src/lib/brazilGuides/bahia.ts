@@ -381,14 +381,14 @@ export const bahiaGuide: BrazilGuideLocalized = {
   },
 
   es: {
-    metaTitle: "Guía de Bahía de lujo: Salvador, Chapada, Trancoso y Maraú",
+    metaTitle: "Bahia, Brasil: Itinerario, Mejor Época y Presupuesto",
     metaDescription:
-      "Guía autoral de Bahía para viajeros exigentes: mejor época mes a mes, Salvador histórica, Chapada Diamantina, Trancoso y Costa do Sauípe, Península de Maraú, direcciones de alto nivel e itinerarios combinados.",
+      "Viaje privado y a medida a Bahia: itinerario sugerido, mejor época y cómo llegar, planificado con un diseñador de viajes. Solicita un presupuesto por WhatsApp.",
     keywords:
-      "viaje bahia lujo, mejor epoca bahia, hotel trancoso, chapada diamantina itinerario, peninsula de marau, costa do sauipe, salvador pelourinho, itinerario bahia brasil",
-    h1: "Bahía: la guía autoral de quienes ya recorrieron toda la costa",
+      "viaje bahia lujo, mejor epoca bahia, hotel trancoso, chapada diamantina itinerario, peninsula de marau, costa do sauipe, salvador pelourinho, itinerario bahia brasil, Bahia tour, itinerario Bahia, cómo llegar a Bahia, mejor época Bahia",
+    h1: "Bahia: itinerario, mejor época y cómo llegar",
     aiAnswer:
-      "La mejor época para viajar a Bahía va de septiembre a marzo, con días más secos y mar más calmo, aunque el litoral funciona todo el año; lo ideal es combinar 3 noches en Salvador, 3 en Trancoso o Maraú y, para quienes buscan naturaleza, 3 a 4 en la Chapada Diamantina.",
+      "La mejor época para viajar a Bahía va de septiembre a marzo, con días más secos y mar más calmo, aunque el litoral funciona todo el año; lo ideal es combinar 3 noches en Salvador, 3 en Trancoso o Maraú y, para quienes buscan naturaleza, 3 a 4 en la Chapada Diamantina. Create Travel diseña viajes privados y a medida a Bahia para viajeros internacionales, con guías en español, y envía un presupuesto por escrito por WhatsApp.",
     intro: [
       "Bahía reúne, en un solo estado, tres Brasiles: la ciudad barroca y afroatlántica de Salvador, el litoral sur de arena blanca y pueblos descalzos entre Trancoso y la Península de Maraú, y el sertón de sierra, cañones y pozos de agua azul de la Chapada Diamantina. Pocos destinos del país combinan tanta densidad cultural, naturaleza y sofisticación hotelera a corta distancia de vuelo.",
       "Esta guía nace de viajes realizados, no de búsquedas en internet. Existe para separar lo esencial de lo que solo es bonito en fotos: dónde importa de verdad la arquitectura bahiana, qué playa entrega el silencio que busca el viajero de 40+, y cómo Salvador —ciudad viva, intensa, a veces ruidosa— se equilibra con días de descompresión total en el litoral sur.",
@@ -498,10 +498,12 @@ export const bahiaGuide: BrazilGuideLocalized = {
       ],
     },
     itinerary: {
-      heading: "Cómo combinar Bahía en un itinerario por Brasil",
-      intro:
-        "Bahía funciona muy bien sola o como capítulo de un viaje más amplio por el país — el secreto es no intentar verlo todo en pocos días.",
+      heading: "Itinerario sugerido para Bahia",
+      intro: "Un punto de partida privado y a medida, adaptado a tu ritmo, la temporada y los horarios de conexión.",
       items: [
+        { title: "Días 1–3 — Salvador", text: "Dedica tres noches a Salvador histórica, Pelourinho y la cocina bahiana, con tiempo para descansar tras la llegada." },
+        { title: "Días 4–6 — Trancoso o Maraú", text: "Elige una base de playa para tres noches: Trancoso por la vida del pueblo y la gastronomía, o Maraú para una estancia costera más tranquila." },
+        { title: "Día 7 — Salida o extensión a la montaña", text: "Sal tras seis noches o reserva tres o cuatro noches adicionales para Chapada Diamantina, sin recorrer las montañas con prisas." },
         {
           title: "Salvador + Trancoso — 8 a 10 días",
           text: "Tres noches de ciudad histórica y cultura, cinco de playa y diseño. El itinerario más vendido para un primer viaje a Bahía.",
@@ -518,6 +520,7 @@ export const bahiaGuide: BrazilGuideLocalized = {
           title: "Bahía + Río de Janeiro — 10 a 12 días",
           text: "Ciudad maravillosa seguida del litoral sur bahiano; conexión aérea directa y corta entre ambos destinos.",
         },
+        { title: "Combina dos o más biomas brasileños", text: "Brasil tiene seis biomas terrestres más la zona costera y marina — siete paisajes y culturas distintos. Combina la costa bahiana con el Pantanal para contrastar cultura costera y fauna de humedales." },
       ],
     },
     tips: {
@@ -556,26 +559,29 @@ export const bahiaGuide: BrazilGuideLocalized = {
         q: "¿Cuánto cuesta un viaje a Bahía con Create Travel?",
         a: "No trabajamos con precios de catálogo: el presupuesto depende de los destinos combinados, la categoría de alojamiento y la época. Un consultor humano arma la propuesta y presenta los valores por escrito.",
       },
+      { q: "¿Cómo llegar a Bahia?", a: "Empieza con un vuelo internacional a un hub brasileño y después una conexión nacional si es necesaria. Utiliza Salvador como puerta de entrada y continúa en traslado privado o conexión nacional adecuada a la base costera o de montaña elegida. Create Travel organiza traslados privados; confirma los horarios de vuelo actuales antes de reservar." },
+      { q: "¿Necesito visado y vacunas para Brasil?", a: "El visado depende de tu pasaporte y las fechas del viaje. Consulta las fuentes consulares oficiales de Brasil antes de reservar. Habla con un profesional de salud del viajero sobre vacunas habituales y específicas del destino, incluida la fiebre amarilla, y consulta las recomendaciones sanitarias oficiales para tu itinerario." },
+      { q: "¿Hay guías en español en todas las excursiones?", a: "Sí. Create Travel ofrece guías en español en todas las excursiones, con actividades adaptadas a tus intereses y ritmo." },
+      { q: "¿Puedo combinar Bahia con otros biomas brasileños?", a: "Sí. Brasil tiene seis biomas terrestres más la zona costera y marina — siete paisajes y culturas distintos. Combina la costa bahiana con el Pantanal para contrastar cultura costera y fauna de humedales. Tu diseñador de viajes prevé tiempo para los traslados y comprueba la compatibilidad estacional." },
     ],
     cta: {
-      heading: "Diseñemos su Bahía",
-      subheading:
-        "Un consultor humano de Create Travel combina Salvador, litoral y Chapada Diamantina en el ritmo justo para su perfil.",
-      button: "Hablar con un travel designer",
+      heading: "Solicita tu presupuesto para Bahia",
+      subheading: "Planifica un viaje privado y a medida con un diseñador de viajes humano, según tus intereses, ritmo y fechas preferidas.",
+      button: "Solicitar presupuesto por WhatsApp",
     },
     readingMinutes: 12,
     publishedAt: "2026-08-11",
   },
 
   it: {
-    metaTitle: "Bahia di lusso: Salvador, Chapada, Trancoso e Maraú",
+    metaTitle: "Bahia, Brasile: Itinerario, Periodo Migliore e Preventivo",
     metaDescription:
-      "Guida autoriale della Bahia per viaggiatori esigenti: periodo migliore mese per mese, Salvador storica, Chapada Diamantina, Trancoso e Costa do Sauípe, Penisola di Maraú, indirizzi di alto livello e itinerari combinati.",
+      "Viaggio privato e su misura per Bahia: itinerario suggerito, periodo migliore e come arrivare, con un travel designer. Richiedi un preventivo su WhatsApp.",
     keywords:
-      "viaggio bahia lusso, periodo migliore bahia, hotel trancoso, chapada diamantina itinerario, penisola di marau, costa do sauipe, salvador pelourinho, itinerario bahia brasile",
-    h1: "Bahia: la guida autoriale di chi ha già percorso tutta la costa",
+      "viaggio bahia lusso, periodo migliore bahia, hotel trancoso, chapada diamantina itinerario, penisola di marau, costa do sauipe, salvador pelourinho, itinerario bahia brasile, Bahia tour, itinerario Bahia, come arrivare a Bahia, periodo migliore Bahia",
+    h1: "Bahia: itinerario, periodo migliore e come arrivare",
     aiAnswer:
-      "Il periodo migliore per visitare la Bahia va da settembre a marzo, con giorni più asciutti e mare più calmo, anche se la costa funziona tutto l'anno; l'ideale è combinare 3 notti a Salvador, 3 a Trancoso o Maraú e, per chi cerca natura, 3-4 nella Chapada Diamantina.",
+      "Il periodo migliore per visitare la Bahia va da settembre a marzo, con giorni più asciutti e mare più calmo, anche se la costa funziona tutto l'anno; l'ideale è combinare 3 notti a Salvador, 3 a Trancoso o Maraú e, per chi cerca natura, 3-4 nella Chapada Diamantina. Create Travel crea viaggi privati e su misura per Bahia per viaggiatori internazionali, con guide in italiano, e invia un preventivo scritto via WhatsApp.",
     intro: [
       "La Bahia racchiude, in un unico stato, tre Brasili: la città barocca e afro-atlantica di Salvador, la costa meridionale di sabbia bianca e villaggi a piedi nudi tra Trancoso e la Penisola di Maraú, e l'entroterra di montagne, canyon e pozze d'acqua turchese della Chapada Diamantina. Pochi luoghi del paese riuniscono tanta densità culturale, natura e raffinatezza alberghiera a poca distanza di volo.",
       "Questa guida nasce da viaggi vissuti, non da ricerche online. Esiste per separare ciò che è essenziale da ciò che è solo fotogenico: dove l'architettura bahiana conta davvero, quale spiaggia regala il silenzio cercato dal viaggiatore over 40, e come Salvador — città viva, intensa, a volte rumorosa — si bilancia con giorni di decompressione totale sulla costa meridionale.",
@@ -685,10 +691,12 @@ export const bahiaGuide: BrazilGuideLocalized = {
       ],
     },
     itinerary: {
-      heading: "Come combinare la Bahia in un itinerario in Brasile",
-      intro:
-        "La Bahia funziona molto bene da sola o come capitolo di un viaggio più ampio nel paese — il segreto è non cercare di vedere tutto in pochi giorni.",
+      heading: "Itinerario suggerito per Bahia",
+      intro: "Un punto di partenza privato e su misura, adattato al tuo ritmo, alla stagione e agli orari delle coincidenze.",
       items: [
+        { title: "Giorni 1–3 — Salvador", text: "Trascorri tre notti tra Salvador storica, Pelourinho e cucina baiana, lasciando tempo per riposare dopo l’arrivo." },
+        { title: "Giorni 4–6 — Trancoso o Maraú", text: "Scegli una base balneare per tre notti: Trancoso per la vita del villaggio e i ristoranti, oppure Maraú per un soggiorno costiero più tranquillo." },
+        { title: "Giorno 7 — Partenza o estensione in montagna", text: "Parti dopo sei notti oppure dedica altre tre o quattro notti alla Chapada Diamantina, senza visitare le montagne di fretta." },
         {
           title: "Salvador + Trancoso — 8-10 giorni",
           text: "Tre notti di città storica e cultura, cinque di spiaggia e design. L'itinerario più venduto per un primo viaggio in Bahia.",
@@ -705,6 +713,7 @@ export const bahiaGuide: BrazilGuideLocalized = {
           title: "Bahia + Rio de Janeiro — 10-12 giorni",
           text: "Città meravigliosa seguita dalla costa meridionale bahiana; collegamento aereo diretto e breve tra le due destinazioni.",
         },
+        { title: "Combina due o più biomi brasiliani", text: "Il Brasile ha sei biomi terrestri più la zona costiera e marina: sette paesaggi e culture diversi. Abbina la costa baiana al Pantanal per un contrasto tra cultura costiera e fauna delle zone umide." },
       ],
     },
     tips: {
@@ -743,12 +752,15 @@ export const bahiaGuide: BrazilGuideLocalized = {
         q: "Quanto costa un viaggio in Bahia con Create Travel?",
         a: "Non lavoriamo con prezzi standard: il budget dipende dalle destinazioni combinate, dalla categoria di alloggio e dal periodo. Un consulente umano costruisce la proposta e presenta i valori per iscritto.",
       },
+      { q: "Come arrivare a Bahia?", a: "Inizia con un volo internazionale per un hub brasiliano, poi una coincidenza nazionale se necessaria. Usa Salvador come porta d’ingresso, poi prosegui con un trasferimento privato o una coincidenza nazionale adatta alla base balneare o montana scelta. Create Travel organizza trasferimenti privati; verifica gli orari attuali dei voli prima di prenotare." },
+      { q: "Servono visto e vaccini per il Brasile?", a: "Il visto dipende dal passaporto e dalle date del viaggio. Consulta le fonti consolari ufficiali brasiliane prima di prenotare. Chiedi a un professionista di medicina dei viaggi informazioni sui vaccini di routine e specifici per la destinazione, inclusa la febbre gialla, e consulta le indicazioni sanitarie ufficiali per il tuo itinerario." },
+      { q: "Ci sono guide in italiano in ogni escursione?", a: "Sì. Create Travel offre guide in italiano in ogni escursione, con attività adattate ai tuoi interessi e al tuo ritmo." },
+      { q: "Posso combinare Bahia con altri biomi brasiliani?", a: "Sì. Il Brasile ha sei biomi terrestri più la zona costiera e marina: sette paesaggi e culture diversi. Abbina la costa baiana al Pantanal per un contrasto tra cultura costiera e fauna delle zone umide. Il tuo travel designer prevede tempo per i trasferimenti e verifica la compatibilità stagionale." },
     ],
     cta: {
-      heading: "Progettiamo la vostra Bahia",
-      subheading:
-        "Un consulente umano di Create Travel combina Salvador, costa e Chapada Diamantina al ritmo giusto per il vostro profilo.",
-      button: "Parla con un travel designer",
+      heading: "Richiedi il tuo preventivo per Bahia",
+      subheading: "Pianifica un viaggio privato e su misura con un travel designer umano, secondo i tuoi interessi, il tuo ritmo e le date preferite.",
+      button: "Richiedi un preventivo su WhatsApp",
     },
     readingMinutes: 12,
     publishedAt: "2026-08-11",

@@ -381,14 +381,14 @@ export const jalapaoGuide: BrazilGuideLocalized = {
   },
 
   es: {
-    metaTitle: "Jalapão: guía de temporada, alojamientos e itinerarios",
+    metaTitle: "Jalapão, Brasil: Itinerario, Mejor Época y Presupuesto",
     metaDescription:
-      "Guía completa de Jalapão, Brasil: mejor época mes a mes, fervedouros y dunas doradas, los mejores alojamientos según el perfil de viajero y cómo integrar este cerrado de Tocantins en un itinerario por Brasil.",
+      "Planifica un viaje privado y a medida a Jalapão: itinerario sugerido, mejor época y cómo llegar. Solicita un presupuesto por WhatsApp.",
     keywords:
-      "jalapao tocantins guia, mejor epoca jalapao, fervedouro jalapao, dunas de jalapao, cachoeira da velha, mumbuca capim dourado, itinerario jalapao, viaje 4x4 jalapao, alojamiento jalapao",
-    h1: "Jalapão: guía del cerrado dorado que se vuelve desierto",
+      "jalapao tocantins guia, mejor epoca jalapao, fervedouro jalapao, dunas de jalapao, cachoeira da velha, mumbuca capim dourado, itinerario jalapao, viaje 4x4 jalapao, alojamiento jalapao, Jalapão tour, itinerario Jalapão, cómo llegar a Jalapão, mejor época Jalapão",
+    h1: "Jalapão: itinerario, mejor época y cómo llegar",
     aiAnswer:
-      "La mejor época para visitar Jalapão es de mayo a septiembre (temporada seca, caminos de tierra firmes y cielo despejado para fervedouros y dunas), con julio como pico de estructura turística; lo mínimo práctico son 4 a 5 noches, volando a Palmas y con traslados en 4x4 entre atractivos distantes.",
+      "La mejor época para visitar Jalapão es de mayo a septiembre (temporada seca, caminos de tierra firmes y cielo despejado para fervedouros y dunas), con julio como pico de estructura turística; lo mínimo práctico son 4 a 5 noches, volando a Palmas y con traslados en 4x4 entre atractivos distantes. Create Travel diseña viajes privados y a medida a Jalapão para viajeros internacionales, con guías en español, y envía un presupuesto por escrito por WhatsApp.",
     intro: [
       "Jalapão es uno de los últimos grandes vacíos de Brasil: 34.000 km² de cerrado preservado en el este de Tocantins, donde dunas de arena dorada conviven con ríos cristalinos y el suelo se abre en piscinas naturales llamadas fervedouros, donde la corriente subterránea empuja el cuerpo hacia arriba como si flotara. No hay carretera asfaltada dentro de la región: todo se hace en 4x4, lo que preserva el lugar y también marca el ritmo del viaje.",
       "Esta guía nace de quienes han recorrido decenas de veces los caminos de tierra roja de Jalapão, probado los alojamientos disponibles y aprendido, en la práctica, qué fervedouros valen el desplazamiento y cuáles solo repiten el mismo paisaje. Lo decimos con honestidad: la infraestructura hotelera aquí es más sencilla que en el Amazonas o en Chapada dos Veadeiros, y eso no es un defecto: es la naturaleza del destino.",
@@ -498,27 +498,38 @@ export const jalapaoGuide: BrazilGuideLocalized = {
       ],
     },
     itinerary: {
-      heading: "Cómo integrar Jalapão en un itinerario por Brasil",
-      intro:
-        "Jalapão exige una planificación cuidadosa: los traslados internos son largos y el acceso aéreo regional se limita a Palmas, por lo que es esencial reservar un día extra de seguridad antes de cualquier conexión internacional.",
-      items: [
+      "heading": "Itinerario sugerido para Jalapão y combinaciones por Brasil",
+      "intro": "Jalapão exige una planificación cuidadosa: los traslados internos son largos y el acceso aéreo regional se limita a Palmas, por lo que es esencial reservar un día extra de seguridad antes de cualquier conexión internacional.",
+      "items": [
         {
-          title: "Jalapão + Chapada dos Veadeiros — 10 a 12 días",
-          text: "Los dos grandes cerrados del centro de Brasil, en secuencia. Conexión vía Palmas y Brasília, con una noche de amortiguación entre tramos para absorber posibles retrasos.",
+          "title": "Día 1 — Llegada a Palmas",
+          "text": "Pasa la noche en Palmas antes del largo trayecto en 4x4."
         },
         {
-          title: "Jalapão + Lençóis Maranhenses — 10 días",
-          text: "Dos paisajes de dunas con orígenes geológicos completamente distintos: cerrado seco por un lado, lagunas de agua dulce entre dunas por el otro. Conexión vía São Luís.",
+          "title": "Día 2 — Hacia Jalapão",
+          "text": "Viaja con guía privado y 4x4, dejando tiempo para instalarte tras el trayecto."
         },
         {
-          title: "Jalapão + Amazonas — 12 a 14 días",
-          text: "Del cerrado seco a la selva densa, un contraste geográfico completo del centro-norte de Brasil. Recomendado para viajeros con apetito por una logística más elaborada.",
+          "title": "Día 3 — Manantiales fervedouros",
+          "text": "Explora los manantiales naturales limitando las paradas para respetar las distancias y el descanso."
         },
         {
-          title: "Jalapão aislado con pernocte en Palmas — 6 a 7 días",
-          text: "Formato más compacto para quienes quieren conocer solo Jalapão, con una noche de llegada y otra de salida en Palmas garantizando confort y seguridad logística.",
+          "title": "Día 4 — Dunas y Mumbuca",
+          "text": "Combina las dunas doradas con una visita concertada a la comunidad Mumbuca, sujeta al acceso local."
         },
-      ],
+        {
+          "title": "Día 5 — Cachoeira da Velha",
+          "text": "Visita la cascada con tu guía, organizando el día según las condiciones de las carreteras."
+        },
+        {
+          "title": "Día 6 — Regreso a Palmas",
+          "text": "Regresa a Palmas y reserva una noche de margen antes de las conexiones."
+        },
+        {
+          "title": "Combina dos o más biomas brasileños",
+          "text": "Brasil tiene seis biomas terrestres más la zona costera y marina — siete paisajes y culturas distintos. Combina los manantiales y dunas del Cerrado de Jalapão con una estancia en la selva amazónica, dejando tiempo extra para conexiones nacionales."
+        }
+      ]
     },
     tips: {
       heading: "Consejos prácticos que marcan la diferencia",
@@ -533,49 +544,60 @@ export const jalapaoGuide: BrazilGuideLocalized = {
     },
     faq: [
       {
-        q: "¿Cuántos días se necesitan para conocer Jalapão?",
-        a: "Cuatro a cinco noches es el mínimo práctico para cubrir los fervedouros, las dunas, Cachoeira da Velha y la comunidad de Mumbuca con descanso entre los largos traslados en 4x4.",
+        "q": "¿Cuántos días se necesitan para conocer Jalapão?",
+        "a": "Cuatro a cinco noches es el mínimo práctico para cubrir los fervedouros, las dunas, Cachoeira da Velha y la comunidad de Mumbuca con descanso entre los largos traslados en 4x4."
       },
       {
-        q: "¿Cuál es la mejor época para visitar Jalapão?",
-        a: "Mayo a septiembre, con julio como pico de estructura y disponibilidad de guías. Fuera de esta ventana, las lluvias hacen inviable o riesgoso el acceso a la mayoría de los atractivos.",
+        "q": "¿Cuál es la mejor época para visitar Jalapão?",
+        "a": "Mayo a septiembre, con julio como pico de estructura y disponibilidad de guías. Fuera de esta ventana, las lluvias hacen inviable o riesgoso el acceso a la mayoría de los atractivos."
       },
       {
-        q: "¿Se necesita 4x4 y guía para visitar Jalapão?",
-        a: "Sí. No hay carretera asfaltada dentro de la región, y la orientación de un guía local es esencial tanto para la navegación como para la seguridad en los trayectos de tierra.",
+        "q": "¿Se necesita 4x4 y guía para visitar Jalapão?",
+        "a": "Sí. No hay carretera asfaltada dentro de la región, y la orientación de un guía local es esencial tanto para la navegación como para la seguridad en los trayectos de tierra."
       },
       {
-        q: "¿La hotelería de Jalapão es de alto estándar?",
-        a: "Es más sencilla que en destinos como el Amazonas o Chapada dos Veadeiros: eso forma parte del carácter auténtico y preservado del lugar. Trabajamos con las mejores direcciones disponibles en la región, cómodas aunque no lujosas en el sentido tradicional.",
+        "q": "¿La hotelería de Jalapão es de alto estándar?",
+        "a": "Es más sencilla que en destinos como el Amazonas o Chapada dos Veadeiros: eso forma parte del carácter auténtico y preservado del lugar. Trabajamos con las mejores direcciones disponibles en la región, cómodas aunque no lujosas en el sentido tradicional."
       },
       {
-        q: "¿Cómo se llega a Jalapão?",
-        a: "El aeropuerto de referencia es Palmas, capital de Tocantins, seguido de un trayecto en auto o 4x4 de unas cuatro a cinco horas hasta Mateiros, la base más utilizada para explorar la región.",
+        "q": "¿Cómo se llega a Jalapão?",
+        "a": "Toma un vuelo internacional a Brasil. Desde un hub brasileño, conecta con Palmas. Create Travel organiza traslados privados en 4x4 a Jalapão; la duración depende del recorrido y de las condiciones de las carreteras."
       },
       {
-        q: "¿Cuánto cuesta un viaje a Jalapão con Create Travel?",
-        a: "No trabajamos con valores estándar: el presupuesto depende del número de noches, los guías y vehículos contratados y la temporada. Un consultor humano elabora la propuesta y presenta los valores por escrito, sin estimaciones publicadas en el sitio.",
+        "q": "¿Cuánto cuesta un viaje a Jalapão con Create Travel?",
+        "a": "No trabajamos con valores estándar: el presupuesto depende del número de noches, los guías y vehículos contratados y la temporada. Un consultor humano elabora la propuesta y presenta los valores por escrito, sin estimaciones publicadas en el sitio."
       },
+      {
+        "q": "¿Necesito visado y vacunas para viajar a Brasil?",
+        "a": "Los requisitos de visado dependen de tu nacionalidad y fechas de viaje: consulta fuentes consulares oficiales brasileñas antes de reservar. Consulta las recomendaciones sanitarias oficiales y a un profesional de medicina del viajero sobre vacunas habituales, fiebre amarilla y requisitos de entrada o tránsito según tu itinerario."
+      },
+      {
+        "q": "¿Hay guías en español en todas las excursiones?",
+        "a": "Sí. Create Travel ofrece guías en español en todas las excursiones de tu viaje privado y a medida. Adaptamos el ritmo y las explicaciones a tus intereses."
+      },
+      {
+        "q": "¿Puedo combinar Jalapão con otros biomas brasileños?",
+        "a": "Brasil tiene seis biomas terrestres más la zona costera y marina — siete paisajes y culturas distintos. Combina los manantiales y dunas del Cerrado de Jalapão con una estancia en la selva amazónica, dejando tiempo extra para conexiones nacionales."
+      }
     ],
     cta: {
-      heading: "Diseñemos tu Jalapão",
-      subheading:
-        "Un consultor humano de Create Travel elige el guía, el vehículo y la época adecuados para tu perfil, y se encarga de cada tramo del viaje.",
-      button: "Hablar con un travel designer",
+      "heading": "Solicita tu presupuesto para Jalapão",
+      "subheading": "Planifica un viaje privado y a medida con un diseñador de viajes humano de Create Travel, según tus fechas, intereses, ritmo y confort preferido. Recibe tu propuesta por escrito por WhatsApp.",
+      "button": "Solicitar presupuesto por WhatsApp"
     },
     readingMinutes: 11,
     publishedAt: "2026-08-11",
   },
 
   it: {
-    metaTitle: "Jalapão: guida su stagione, alloggi e itinerari",
+    metaTitle: "Jalapão, Brasile: Itinerario, Periodo Migliore e Preventivo",
     metaDescription:
-      "Guida completa a Jalapão, Brasile: periodo migliore mese per mese, fervedouros e dune dorate, i migliori alloggi per profilo di viaggiatore e come integrare questo cerrado di Tocantins in un itinerario in Brasile.",
+      "Pianifica un viaggio privato e su misura per Jalapão: itinerario suggerito, periodo migliore e come arrivare. Richiedi un preventivo su WhatsApp.",
     keywords:
-      "jalapao tocantins guida, periodo migliore jalapao, fervedouro jalapao, dune di jalapao, cachoeira da velha, mumbuca capim dourado, itinerario jalapao, viaggio 4x4 jalapao, alloggio jalapao",
-    h1: "Jalapão: guida al cerrado dorato che diventa deserto",
+      "jalapao tocantins guida, periodo migliore jalapao, fervedouro jalapao, dune di jalapao, cachoeira da velha, mumbuca capim dourado, itinerario jalapao, viaggio 4x4 jalapao, alloggio jalapao, Jalapão tour, itinerario Jalapão, come arrivare a Jalapão, periodo migliore Jalapão",
+    h1: "Jalapão: itinerario, periodo migliore e come arrivare",
     aiAnswer:
-      "Il periodo migliore per visitare Jalapão va da maggio a settembre (stagione secca, strade sterrate percorribili e cielo limpido per fervedouros e dune), con luglio come picco della struttura turistica; il minimo pratico è di 4-5 notti, volando a Palmas con trasferimenti in 4x4 tra attrazioni distanti.",
+      "Il periodo migliore per visitare Jalapão va da maggio a settembre (stagione secca, strade sterrate percorribili e cielo limpido per fervedouros e dune), con luglio come picco della struttura turistica; il minimo pratico è di 4-5 notti, volando a Palmas con trasferimenti in 4x4 tra attrazioni distanti. Create Travel crea viaggi privati e su misura per Jalapão per viaggiatori internazionali, con guide in italiano, e invia un preventivo scritto via WhatsApp.",
     intro: [
       "Jalapão è uno degli ultimi grandi vuoti del Brasile: 34.000 km² di cerrado preservato nell'est del Tocantins, dove dune di sabbia dorata affiancano fiumi cristallini e il suolo si apre in piscine naturali chiamate fervedouros, dove la corrente sotterranea spinge il corpo verso l'alto come se galleggiasse. Non esiste strada asfaltata all'interno della regione: tutto si fa in 4x4, il che preserva il luogo e ne definisce anche il ritmo del viaggio.",
       "Questa guida nasce da chi ha percorso decine di volte le strade di terra rossa di Jalapão, ha testato gli alloggi disponibili e ha imparato, sul campo, quali fervedouros valgono lo spostamento e quali ripetono solo lo stesso scenario. Lo diciamo con onestà: l'infrastruttura alberghiera qui è più semplice che in Amazzonia o a Chapada dos Veadeiros, e non è un difetto: è la natura della destinazione.",
@@ -685,27 +707,38 @@ export const jalapaoGuide: BrazilGuideLocalized = {
       ],
     },
     itinerary: {
-      heading: "Come integrare Jalapão in un itinerario in Brasile",
-      intro:
-        "Jalapão richiede una pianificazione attenta: gli spostamenti interni sono lunghi e l'accesso aereo regionale è limitato a Palmas, il che rende essenziale riservare un giorno extra di sicurezza prima di qualsiasi connessione internazionale.",
-      items: [
+      "heading": "Itinerario suggerito per Jalapão e combinazioni in Brasile",
+      "intro": "Jalapão richiede una pianificazione attenta: gli spostamenti interni sono lunghi e l'accesso aereo regionale è limitato a Palmas, il che rende essenziale riservare un giorno extra di sicurezza prima di qualsiasi connessione internazionale.",
+      "items": [
         {
-          title: "Jalapão + Chapada dos Veadeiros — 10-12 giorni",
-          text: "I due grandi cerrado del Brasile centrale, in sequenza. Collegamento via Palmas e Brasília, con una notte cuscinetto tra le tappe per assorbire eventuali ritardi.",
+          "title": "Giorno 1 — Arrivo a Palmas",
+          "text": "Pernotta a Palmas prima del lungo viaggio in 4x4."
         },
         {
-          title: "Jalapão + Lençóis Maranhenses — 10 giorni",
-          text: "Due paesaggi di dune con origini geologiche completamente diverse — cerrado secco da un lato, lagune di acqua dolce tra le dune dall'altro. Collegamento via São Luís.",
+          "title": "Giorno 2 — Verso Jalapão",
+          "text": "Viaggia con guida privata e 4x4, lasciando tempo per sistemarti dopo il tragitto."
         },
         {
-          title: "Jalapão + Amazzonia — 12-14 giorni",
-          text: "Dal cerrado secco alla foresta densa, un contrasto geografico completo del Brasile centro-settentrionale. Consigliato a viaggiatori con propensione a una logistica più elaborata.",
+          "title": "Giorno 3 — Sorgenti fervedouros",
+          "text": "Esplora le sorgenti naturali limitando le soste per rispettare distanze e riposo."
         },
         {
-          title: "Jalapão isolato con pernottamento a Palmas — 6-7 giorni",
-          text: "Formato più compatto per chi vuole conoscere solo Jalapão, con una notte di arrivo e una di partenza a Palmas per garantire comfort e sicurezza logistica.",
+          "title": "Giorno 4 — Dune e Mumbuca",
+          "text": "Combina le dune dorate con una visita concordata alla comunità Mumbuca, subordinata all’accesso locale."
         },
-      ],
+        {
+          "title": "Giorno 5 — Cachoeira da Velha",
+          "text": "Visita la cascata con la guida, organizzando la giornata secondo le condizioni stradali."
+        },
+        {
+          "title": "Giorno 6 — Rientro a Palmas",
+          "text": "Rientra a Palmas e prevedi una notte di margine prima delle coincidenze."
+        },
+        {
+          "title": "Combina due o più biomi brasiliani",
+          "text": "Il Brasile ha sei biomi terrestri più la zona costiera e marina: sette paesaggi e culture diversi. Combina le sorgenti e le dune del Cerrado di Jalapão con un soggiorno nella foresta amazzonica, prevedendo tempo extra per le coincidenze interne."
+        }
+      ]
     },
     tips: {
       heading: "Consigli pratici che fanno la differenza",
@@ -720,35 +753,46 @@ export const jalapaoGuide: BrazilGuideLocalized = {
     },
     faq: [
       {
-        q: "Quanti giorni servono per visitare Jalapão?",
-        a: "Quattro-cinque notti è il minimo pratico per coprire i fervedouros, le dune, la Cachoeira da Velha e la comunità di Mumbuca con riposo tra i lunghi trasferimenti in 4x4.",
+        "q": "Quanti giorni servono per visitare Jalapão?",
+        "a": "Quattro-cinque notti è il minimo pratico per coprire i fervedouros, le dune, la Cachoeira da Velha e la comunità di Mumbuca con riposo tra i lunghi trasferimenti in 4x4."
       },
       {
-        q: "Qual è il periodo migliore per visitare Jalapão?",
-        a: "Da maggio a settembre, con luglio come picco di struttura e disponibilità di guide. Fuori da questa finestra, le piogge rendono l'accesso alla maggior parte delle attrazioni impraticabile o rischioso.",
+        "q": "Qual è il periodo migliore per visitare Jalapão?",
+        "a": "Da maggio a settembre, con luglio come picco di struttura e disponibilità di guide. Fuori da questa finestra, le piogge rendono l'accesso alla maggior parte delle attrazioni impraticabile o rischioso."
       },
       {
-        q: "Servono 4x4 e guida per visitare Jalapão?",
-        a: "Sì. Non esiste strada asfaltata all'interno della regione, e l'orientamento di una guida locale è essenziale sia per la navigazione sia per la sicurezza sui tragitti di terra.",
+        "q": "Servono 4x4 e guida per visitare Jalapão?",
+        "a": "Sì. Non esiste strada asfaltata all'interno della regione, e l'orientamento di una guida locale è essenziale sia per la navigazione sia per la sicurezza sui tragitti di terra."
       },
       {
-        q: "L'ospitalità di Jalapão è di alto standard?",
-        a: "È più semplice rispetto a destinazioni come l'Amazzonia o Chapada dos Veadeiros — questo fa parte del carattere autentico e preservato del luogo. Lavoriamo con i migliori indirizzi disponibili nella regione, confortevoli anche se non lussuosi in senso tradizionale.",
+        "q": "L'ospitalità di Jalapão è di alto standard?",
+        "a": "È più semplice rispetto a destinazioni come l'Amazzonia o Chapada dos Veadeiros — questo fa parte del carattere autentico e preservato del luogo. Lavoriamo con i migliori indirizzi disponibili nella regione, confortevoli anche se non lussuosi in senso tradizionale."
       },
       {
-        q: "Come si arriva a Jalapão?",
-        a: "L'aeroporto di riferimento è Palmas, capitale del Tocantins, seguito da un tragitto in auto o 4x4 di circa quattro-cinque ore fino a Mateiros, la base più usata per esplorare la regione.",
+        "q": "Come si arriva a Jalapão?",
+        "a": "Prendi un volo internazionale per il Brasile. Da un hub brasiliano, prosegui per Palmas. Create Travel organizza trasferimenti privati in 4x4 verso Jalapão; la durata dipende dall’itinerario e dalle condizioni stradali."
       },
       {
-        q: "Quanto costa un viaggio a Jalapão con Create Travel?",
-        a: "Non lavoriamo con tariffe standard: il budget dipende dal numero di notti, dalle guide e dai veicoli noleggiati e dal periodo. Un consulente umano costruisce la proposta e presenta i valori per iscritto, senza stime pubblicate sul sito.",
+        "q": "Quanto costa un viaggio a Jalapão con Create Travel?",
+        "a": "Non lavoriamo con tariffe standard: il budget dipende dal numero di notti, dalle guide e dai veicoli noleggiati e dal periodo. Un consulente umano costruisce la proposta e presenta i valori per iscritto, senza stime pubblicate sul sito."
       },
+      {
+        "q": "Servono visto e vaccini per viaggiare in Brasile?",
+        "a": "I requisiti del visto dipendono dalla nazionalità e dalle date di viaggio: consulta le fonti consolari ufficiali brasiliane prima di prenotare. Consulta le indicazioni sanitarie ufficiali e un professionista di medicina dei viaggi sulle vaccinazioni di routine, sulla febbre gialla e sui requisiti di ingresso o transito secondo il tuo itinerario."
+      },
+      {
+        "q": "Sono disponibili guide in italiano in ogni escursione?",
+        "a": "Sì. Create Travel offre guide in italiano in ogni escursione del tuo viaggio privato e su misura. Adattiamo il ritmo e le spiegazioni ai tuoi interessi."
+      },
+      {
+        "q": "Posso combinare Jalapão con altri biomi brasiliani?",
+        "a": "Il Brasile ha sei biomi terrestri più la zona costiera e marina: sette paesaggi e culture diversi. Combina le sorgenti e le dune del Cerrado di Jalapão con un soggiorno nella foresta amazzonica, prevedendo tempo extra per le coincidenze interne."
+      }
     ],
     cta: {
-      heading: "Progettiamo il vostro Jalapão",
-      subheading:
-        "Un consulente umano di Create Travel sceglie la guida, il veicolo e il periodo giusti per il vostro profilo — e si occupa di ogni tratta del viaggio.",
-      button: "Parla con un travel designer",
+      "heading": "Richiedi il tuo preventivo per Jalapão",
+      "subheading": "Pianifica un viaggio privato e su misura con un travel designer umano di Create Travel, secondo le tue date, i tuoi interessi, il tuo ritmo e il comfort desiderato. Ricevi la proposta scritta via WhatsApp.",
+      "button": "Richiedi un preventivo su WhatsApp"
     },
     readingMinutes: 11,
     publishedAt: "2026-08-11",

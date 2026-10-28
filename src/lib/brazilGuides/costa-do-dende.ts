@@ -378,14 +378,14 @@ export const costaDoDendeGuide: BrazilGuideLocalized = {
     destinationName: "Costa del Dendê",
     blurb:
       "Península de Maraú, Boipeba y Morro de São Paulo: la Bahía más verde y más lenta, bañada por la segunda bahía más grande de Brasil.",
-    metaTitle: "Costa del Dendê: guía de Maraú, Boipeba y Morro de São Paulo",
+    metaTitle: "Costa del Dendê, Brasil: Itinerario, Mejor Época y Presupuesto",
     metaDescription:
-      "Guía completa de la Costa del Dendê en Bahía: mejor época, playas de Barra Grande y Taipu de Fora, Boipeba, Morro de São Paulo, hospedajes reales y cómo armar el itinerario.",
+      "Viaje privado y a medida a Costa del Dendê: itinerario sugerido, mejor época y cómo llegar. Solicita un presupuesto por WhatsApp.",
     keywords:
-      "costa do dende bahia, peninsula de marau, barra grande bahia, taipu de fora, boipeba, morro de sao paulo, bahia de camamu, kiaroa resort, cocina bahiana dende",
-    h1: "Costa del Dendê: el litoral bahiano que todavía es pura naturaleza",
+      "costa do dende bahia, peninsula de marau, barra grande bahia, taipu de fora, boipeba, morro de sao paulo, bahia de camamu, kiaroa resort, cocina bahiana dende, costa del dendê tour, itinerario costa del dendê, cómo llegar a costa del dendê, mejor época costa del dendê",
+    h1: "Costa del Dendê: itinerario, mejor época y cómo llegar",
     aiAnswer:
-      "La Costa del Dendê está en el litoral sur de Bahía, entre la Bahía de Camamu —la segunda más grande de Brasil— y el Atlántico, y reúne la Península de Maraú (Barra Grande, Taipu de Fora), Boipeba y Morro de São Paulo en la Isla de Cairu; la mejor época va de septiembre a marzo, con acceso en lancha o avión desde Salvador o Ilhéus.",
+      "La Costa del Dendê está en el litoral sur de Bahía, entre la Bahía de Camamu —la segunda más grande de Brasil— y el Atlántico, y reúne la Península de Maraú (Barra Grande, Taipu de Fora), Boipeba y Morro de São Paulo en la Isla de Cairu; la mejor época va de septiembre a marzo, con acceso en lancha o avión desde Salvador o Ilhéus. Create Travel diseña viajes privados y a medida a Costa del Dendê para viajeros internacionales, con guías en español, y envía un presupuesto por escrito por WhatsApp.",
     intro: [
       "Hay un tramo del litoral bahiano donde la palma de dendê todavía domina el paisaje, donde los caminos de tierra roja terminan en cocotales y donde la marea, no el reloj, marca la hora del almuerzo. Se llama Costa del Dendê, bautizada por el aceite que perfuma la cocina de la región desde que los primeros africanos esclavizados trajeron la palmera a Bahía. Es un mosaico de península, islas y una bahía tan grande que parece mar: la de Camamu, la segunda más grande del país, solo detrás de la Bahía de Todos los Santos.",
       "En esta guía reunimos lo que aprendimos navegando estas aguas: la diferencia real entre Barra Grande y Taipu de Fora, por qué Boipeba sigue sin autos y sin prisa, qué tiene de auténtico Morro de São Paulo detrás de su fama, y cómo decidir entre lancha, avión o carretera para llegar sin perder un día de viaje.",
@@ -489,22 +489,15 @@ export const costaDoDendeGuide: BrazilGuideLocalized = {
       ],
     },
     itinerary: {
-      heading: "Cómo integrar la Costa del Dendê a un itinerario por Bahía",
-      intro:
-        "La región combina bien con Salvador y con el litoral sur de Bahía, siempre que las conexiones de lancha y vuelo estén bien planeadas.",
+      heading: "Itinerario sugerido por Costa del Dendê — 4 noches / 5 días",
+      intro: "Un punto de partida privado y a medida, ajustado a tu ritmo, horarios de llegada y condiciones locales. Añade noches para una estancia más tranquila.",
       items: [
-        {
-          title: "Salvador + Costa del Dendê — 7 a 9 días",
-          text: "Tres noches de ciudad histórica y cultura, seguidas de cuatro a cinco noches entre Barra Grande y Boipeba, con traslado en lancha desde Salvador o Valença.",
-        },
-        {
-          title: "Costa del Dendê + Trancoso/Arraial d'Ajuda — 10 a 12 días",
-          text: "Une el litoral sur más preservado (Dendê) con el litoral sur más sofisticado (Costa del Descubrimiento), con vuelo doméstico vía Ilhéus o Porto Seguro.",
-        },
-        {
-          title: "Circuito de islas — 8 días",
-          text: "Morro de São Paulo, Boipeba y Barra Grande en secuencia, conectados en lancha, ideal para sentir las diferencias de cada una sin repetir paisaje.",
-        },
+        { title: "Día 1 — Llegada a la península de Maraú", text: "Viaja vía Salvador o Ilhéus con conexiones planificadas por carretera y en barco, y acomódate en tu alojamiento costero." },
+        { title: "Día 2 — Barra Grande", text: "Explora el pueblo y disfruta de un día de playa sin prisas." },
+        { title: "Día 3 — Taipu de Fora", text: "Visita las piscinas naturales con una bajamar adecuada y deja el resto del día libre para la playa." },
+        { title: "Día 4 — Bahía de Camamu", text: "Realiza una salida privada en barco por la bahía, sujeta al tiempo y al estado del mar." },
+        { title: "Día 5 — Salida o extensión en una isla", text: "Regresa con traslados coordinados en barco y por carretera, o añade noches en Boipeba en lugar de apresurar un circuito de islas." },
+        { title: "Combina dos o más biomas brasileños", text: "Brasil tiene seis biomas terrestres más la zona costera y marina — siete paisajes y culturas distintos. Combina la Mata Atlántica y los paisajes costeros y marinos de la Costa del Dendê. Tu diseñador de viajes tiene en cuenta los días de traslado y las diferencias estacionales. Los avistamientos de fauna nunca están garantizados." },
       ],
     },
     tips: {
@@ -519,10 +512,10 @@ export const costaDoDendeGuide: BrazilGuideLocalized = {
       ],
     },
     faq: [
-      {
-        q: "¿Cómo llegar a la Costa del Dendê?",
-        a: "El acceso más común es por Salvador, con traslado en lancha hasta la Península de Maraú o hasta Morro de São Paulo, o por vuelo hasta Ilhéus, seguido de carretera y barco. También hay aeródromos regionales que reciben taxis aéreos privados.",
-      },
+      { q: "¿Necesito visado o vacunas para Brasil?", a: "Los requisitos de visado dependen de tu nacionalidad y fechas de viaje. Consulta fuentes oficiales consulares y de inmigración de Brasil antes de reservar. Consulta a un profesional de salud del viajero y las recomendaciones sanitarias oficiales sobre vacunas habituales, fiebre amarilla y requisitos de entrada para tu ruta." },
+      { q: "¿Hay guías en español en todas las excursiones?", a: "Sí. Create Travel ofrece guías en español en todas las excursiones, con planificación privada y a medida según tus intereses y ritmo." },
+      { q: "¿Cómo llegar a Costa del Dendê?", a: "Llega en vuelo internacional a un hub brasileño. Conecta con Salvador o Ilhéus y continúa por carretera y en barco según la isla o península elegida. Create Travel organiza traslados privados hasta el alojamiento o punto de embarque." },
+      { q: "¿Puedo combinar Costa del Dendê con otros biomas brasileños?", a: "Sí. Brasil tiene seis biomas terrestres más la zona costera y marina — siete paisajes y culturas distintos. Combina la Mata Atlántica y los paisajes costeros y marinos de la Costa del Dendê. Tu diseñador de viajes tiene en cuenta los días de traslado y las diferencias estacionales. Los avistamientos de fauna nunca están garantizados." },
       {
         q: "¿Cuál es la diferencia entre Barra Grande y Taipu de Fora?",
         a: "Barra Grande es el pueblo y la zona de hospedajes de la Península de Maraú; Taipu de Fora es la playa con las piscinas naturales de arrecife, a pocos minutos en auto o bicicleta de Barra Grande.",
@@ -545,10 +538,9 @@ export const costaDoDendeGuide: BrazilGuideLocalized = {
       },
     ],
     cta: {
-      heading: "Diseñemos tu Costa del Dendê",
-      subheading:
-        "Un consultor humano de Create Travel elige entre Maraú, Boipeba y Morro de São Paulo el encaje correcto para tu itinerario.",
-      button: "Hablar con un travel designer",
+      heading: "Solicita tu presupuesto para Costa del Dendê",
+      subheading: "Planifica un viaje privado y a medida con un diseñador de viajes humano, adaptado a tus intereses, ritmo y época preferida. Recibe tu propuesta por escrito por WhatsApp.",
+      button: "Solicitar presupuesto por WhatsApp",
     },
     readingMinutes: 10,
     publishedAt: "2026-08-11",
@@ -558,14 +550,14 @@ export const costaDoDendeGuide: BrazilGuideLocalized = {
     destinationName: "Costa do Dendê",
     blurb:
       "Penisola di Maraú, Boipeba e Morro de São Paulo: la Bahia più verde e più lenta, bagnata dalla seconda baia più grande del Brasile.",
-    metaTitle: "Costa do Dendê: guida a Maraú, Boipeba e Morro de São Paulo",
+    metaTitle: "Costa do Dendê, Brasile: Itinerario, Periodo Migliore e Preventivo",
     metaDescription:
-      "Guida completa alla Costa do Dendê in Bahia: periodo migliore, spiagge di Barra Grande e Taipu de Fora, Boipeba, Morro de São Paulo, alloggi reali e come organizzare l'itinerario.",
+      "Viaggio privato e su misura per Costa do Dendê: itinerario suggerito, periodo migliore e come arrivare. Richiedi un preventivo su WhatsApp.",
     keywords:
-      "costa do dende bahia, penisola di marau, barra grande bahia, taipu de fora, boipeba, morro de sao paulo, baia di camamu, kiaroa resort, cucina bahiana olio di palma",
-    h1: "Costa do Dendê: il litorale bahiano che è ancora pura natura",
+      "costa do dende bahia, penisola di marau, barra grande bahia, taipu de fora, boipeba, morro de sao paulo, baia di camamu, kiaroa resort, cucina bahiana olio di palma, costa do dendê tour, itinerario costa do dendê, come arrivare a costa do dendê, periodo migliore costa do dendê",
+    h1: "Costa do Dendê: itinerario, periodo migliore e come arrivare",
     aiAnswer:
-      "La Costa do Dendê si trova sul litorale meridionale della Bahia, tra la Baia di Camamu — la seconda più grande del Brasile — e l'Oceano Atlantico, e comprende la Penisola di Maraú (Barra Grande, Taipu de Fora), Boipeba e Morro de São Paulo sull'Isola di Cairu; il periodo migliore va da settembre a marzo, con accesso in barca o aereo da Salvador o Ilhéus.",
+      "La Costa do Dendê si trova sul litorale meridionale della Bahia, tra la Baia di Camamu — la seconda più grande del Brasile — e l'Oceano Atlantico, e comprende la Penisola di Maraú (Barra Grande, Taipu de Fora), Boipeba e Morro de São Paulo sull'Isola di Cairu; il periodo migliore va da settembre a marzo, con accesso in barca o aereo da Salvador o Ilhéus. Create Travel crea viaggi privati e su misura per Costa do Dendê per viaggiatori internazionali, con guide in italiano, e invia un preventivo scritto via WhatsApp.",
     intro: [
       "C'è un tratto del litorale bahiano dove la palma da dendê domina ancora il paesaggio, dove le strade di terra rossa finiscono in palmeti di cocco e dove la marea, non l'orologio, detta l'ora del pranzo. Si chiama Costa do Dendê, battezzata dall'olio che profuma la cucina della regione da quando i primi africani ridotti in schiavitù portarono la palma in Bahia. È un mosaico di penisola, isole e una baia così grande da sembrare mare aperto: quella di Camamu, la seconda più grande del paese, dopo solo la Baia di Todos os Santos.",
       "In questa guida raccogliamo ciò che abbiamo imparato navigando queste acque: la differenza reale tra Barra Grande e Taipu de Fora, perché Boipeba resta senza auto e senza fretta, cosa ha di autentico Morro de São Paulo dietro la sua fama, e come scegliere tra barca, aereo o strada senza perdere un giorno di viaggio.",
@@ -669,22 +661,15 @@ export const costaDoDendeGuide: BrazilGuideLocalized = {
       ],
     },
     itinerary: {
-      heading: "Come integrare la Costa do Dendê in un itinerario in Bahia",
-      intro:
-        "La regione si abbina bene a Salvador e al litorale meridionale della Bahia, a patto che le connessioni via barca e volo siano ben pianificate.",
+      heading: "Itinerario suggerito per Costa do Dendê — 4 notti / 5 giorni",
+      intro: "Un punto di partenza privato e su misura, adattato al tuo ritmo, agli orari di arrivo e alle condizioni locali. Aggiungi notti per un soggiorno più rilassato.",
       items: [
-        {
-          title: "Salvador + Costa do Dendê — 7-9 giorni",
-          text: "Tre notti di città storica e cultura, seguite da quattro-cinque notti tra Barra Grande e Boipeba, con trasferimento in barca da Salvador o Valença.",
-        },
-        {
-          title: "Costa do Dendê + Trancoso/Arraial d'Ajuda — 10-12 giorni",
-          text: "Unisce il litorale meridionale più incontaminato (Dendê) a quello più sofisticato (Costa do Descobrimento), con volo domestico via Ilhéus o Porto Seguro.",
-        },
-        {
-          title: "Circuito delle isole — 8 giorni",
-          text: "Morro de São Paulo, Boipeba e Barra Grande in sequenza, collegate in barca, ideale per percepire le differenze di ognuna senza ripetere il paesaggio.",
-        },
+        { title: "Giorno 1 — Arrivo sulla penisola di Maraú", text: "Viaggia via Salvador o Ilhéus con collegamenti pianificati su strada e in barca, poi sistemati nel tuo alloggio costiero." },
+        { title: "Giorno 2 — Barra Grande", text: "Esplora il villaggio e goditi una giornata di spiaggia senza fretta." },
+        { title: "Giorno 3 — Taipu de Fora", text: "Visita le piscine naturali con una bassa marea adatta, lasciando il resto della giornata libero per la spiaggia." },
+        { title: "Giorno 4 — Baia di Camamu", text: "Fai un’uscita privata in barca nella baia, subordinata alle condizioni del mare e del meteo." },
+        { title: "Giorno 5 — Partenza o estensione su un’isola", text: "Rientra con trasferimenti coordinati in barca e su strada, oppure aggiungi notti a Boipeba anziché affrettare un circuito tra isole." },
+        { title: "Combina due o più biomi brasiliani", text: "Il Brasile ha sei biomi terrestri più la zona costiera e marina: sette paesaggi e culture diversi. Combina la Foresta Atlantica e i paesaggi costieri e marini della Costa del Dendê. Il tuo travel designer tiene conto dei giorni di trasferimento e delle differenze stagionali. Gli avvistamenti di fauna non sono mai garantiti." },
       ],
     },
     tips: {
@@ -699,6 +684,10 @@ export const costaDoDendeGuide: BrazilGuideLocalized = {
       ],
     },
     faq: [
+      { q: "Servono visto o vaccini per il Brasile?", a: "I requisiti per il visto dipendono dalla nazionalità e dalle date di viaggio. Consulta le fonti ufficiali consolari e di immigrazione brasiliane prima di prenotare. Rivolgiti a un professionista di medicina dei viaggi e consulta le indicazioni sanitarie ufficiali su vaccinazioni di routine, febbre gialla e requisiti d’ingresso per il percorso." },
+      { q: "Ci sono guide in italiano in ogni escursione?", a: "Sì. Create Travel offre guide in italiano in ogni escursione, con pianificazione privata e su misura secondo i tuoi interessi e il tuo ritmo." },
+      { q: "Come arrivare a Costa do Dendê?", a: "Arriva con un volo internazionale in un hub brasiliano. Prosegui per Salvador o Ilhéus e continua su strada e in barca secondo l’isola o la penisola scelta. Create Travel organizza trasferimenti privati fino all’alloggio o al punto d’imbarco." },
+      { q: "Posso combinare Costa do Dendê con altri biomi brasiliani?", a: "Sì. Il Brasile ha sei biomi terrestri più la zona costiera e marina: sette paesaggi e culture diversi. Combina la Foresta Atlantica e i paesaggi costieri e marini della Costa del Dendê. Il tuo travel designer tiene conto dei giorni di trasferimento e delle differenze stagionali. Gli avvistamenti di fauna non sono mai garantiti." },
       {
         q: "Come si raggiunge la Costa do Dendê?",
         a: "L'accesso più comune è via Salvador, con trasferimento in barca fino alla Penisola di Maraú o a Morro de São Paulo, oppure con volo fino a Ilhéus seguito da strada e barca. Esistono anche aviosuperfici regionali per taxi aerei privati.",
@@ -725,10 +714,9 @@ export const costaDoDendeGuide: BrazilGuideLocalized = {
       },
     ],
     cta: {
-      heading: "Progettiamo la tua Costa do Dendê",
-      subheading:
-        "Un consulente umano di Create Travel sceglie tra Maraú, Boipeba e Morro de São Paulo l'abbinamento giusto per il tuo itinerario.",
-      button: "Parla con un travel designer",
+      heading: "Richiedi il tuo preventivo per Costa do Dendê",
+      subheading: "Pianifica un viaggio privato e su misura con un travel designer umano, adattato ai tuoi interessi, al tuo ritmo e al periodo preferito. Ricevi la proposta scritta via WhatsApp.",
+      button: "Richiedi un preventivo su WhatsApp",
     },
     readingMinutes: 10,
     publishedAt: "2026-08-11",

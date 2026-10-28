@@ -198,11 +198,11 @@ export const costaDosCoqueirosGuide: BrazilGuideLocalized = {
   es: {
     destinationName: "Costa de los Cocoteros",
     blurb: "Praia do Forte, Imbassaí y Mangue Seco: dunas, cocotales y el litoral norte de Bahía, referencia en turismo consciente.",
-    metaTitle: "Costa de los Cocoteros: playas calmas cerca de Salvador",
-    metaDescription: "Tortugas en el Proyecto TAMAR, el río que cruza la arena en Imbassaí y las dunas de Mangue Seco. Mejor época, dónde alojarse y una ruta en coche.",
-    keywords: "costa dos coqueiros bahia, praia do forte, proyecto tamar, imbassai, guarajuba, mangue seco, sauipe, tivoli ecoresort, vila dos orixas",
-    h1: "Costa de los Cocoteros: el litoral norte que Bahía mantuvo intacto",
-    aiAnswer: "La Costa de los Cocoteros es el litoral norte de Bahía entre Salvador y el límite con Sergipe, con Praia do Forte, Imbassaí, Santo André, Guarajuba, Massarandupió, Mangue Seco y el complejo de Sauípe; la mejor época va de septiembre a marzo, a 1-3 horas en auto del aeropuerto de Salvador.",
+    metaTitle: "Costa de los Cocoteros, Brasil: Itinerario, Mejor Época y Presupuesto",
+    metaDescription: "Viaje privado y a medida: Costa de los Cocoteros. Itinerario sugerido, mejor época y cómo llegar. Solicita un presupuesto por WhatsApp.",
+    keywords: "costa dos coqueiros bahia, praia do forte, proyecto tamar, imbassai, guarajuba, mangue seco, sauipe, tivoli ecoresort, vila dos orixas, Costa de los Cocoteros tour, itinerario Costa de los Cocoteros, cómo llegar a Costa de los Cocoteros, mejor época Costa de los Cocoteros",
+    h1: "Costa de los Cocoteros: itinerario, mejor época y cómo llegar",
+    aiAnswer: "La Costa de los Cocoteros es el litoral norte de Bahía entre Salvador y el límite con Sergipe, con Praia do Forte, Imbassaí, Santo André, Guarajuba, Massarandupió, Mangue Seco y el complejo de Sauípe; la mejor época va de septiembre a marzo, a 1-3 horas en auto del aeropuerto de Salvador. Create Travel diseña viajes privados y a medida a Costa de los Cocoteros para viajeros internacionales, con guías en español, y envía un presupuesto por escrito por WhatsApp.",
     intro: [
       "La Costa de los Cocoteros comienza donde termina la carretera pavimentada de Salvador y llega hasta Mangue Seco, en el límite con Sergipe — 190 kilómetros de dunas, cocotales, ríos de agua oscura y pueblos de pescadores que resistieron la especulación gracias a una decisión antigua: proteger el litoral en nombre de las tortugas marinas. Esa misma decisión, tomada en los años 80 con la creación del Proyecto TAMAR en Praia do Forte, define hoy el tono del destino: turismo de bajo impacto, arquitectura discreta y naturaleza preservada.",
       "En esta guía reunimos lo que aprendimos recorriendo esta costa: por qué Praia do Forte sigue siendo la puerta de entrada más completa, qué hace de Imbassaí un secreto bien guardado entre viajeros exigentes, y por qué Mangue Seco, inspiración de Jorge Amado, todavía parece el fin del mundo.",
@@ -247,13 +247,34 @@ export const costaDosCoqueirosGuide: BrazilGuideLocalized = {
       ],
     },
     itinerary: {
-      heading: "Cómo integrar la Costa de los Cocoteros a un itinerario por Bahía",
-      intro: "La cercanía al aeropuerto de Salvador convierte a la región en el complemento más fácil de cualquier viaje a Bahía.",
-      items: [
-        { title: "Salvador + Costa de los Cocoteros — 6 a 8 días", text: "Tres noches de ciudad histórica seguidas de tres a cinco noches entre Praia do Forte e Imbassaí, todo por carretera." },
-        { title: "Costa de los Cocoteros + Costa del Dendê — 10 a 12 días", text: "Une el litoral norte con el litoral sur de Bahía, con Salvador como punto de transición entre las dos regiones." },
-        { title: "Costa de los Cocoteros como llegada o salida", text: "Buena opción para descomprimir al inicio o al final de un viaje más largo por Bahía o el Nordeste." },
-      ],
+      "heading": "Itinerario sugerido para Costa de los Cocoteros — 4 noches / 5 días",
+      "intro": "Un punto de partida privado y a medida, adaptado a tu ritmo, los horarios de llegada y las condiciones locales. Añade noches para una estancia más tranquila.",
+      "items": [
+        {
+          "title": "Día 1 — Salvador → Praia do Forte",
+          "text": "Llega al aeropuerto de Salvador y continúa en traslado privado a Praia do Forte."
+        },
+        {
+          "title": "Día 2 — Praia do Forte y TAMAR",
+          "text": "Explora el pueblo y el centro de visitantes del Proyecto TAMAR; los encuentros con fauna dependen de las condiciones naturales."
+        },
+        {
+          "title": "Día 3 — Imbassaí",
+          "text": "Disfruta del paisaje de río y playa de Imbassaí, con tiempo para descansar."
+        },
+        {
+          "title": "Día 4 — Guarajuba",
+          "text": "Elige una excursión a Guarajuba o un día tranquilo en tu alojamiento costero."
+        },
+        {
+          "title": "Día 5 — Salida o extensión a Salvador",
+          "text": "Traslado al aeropuerto de Salvador o noches adicionales en la ciudad para descubrir su historia y cultura."
+        },
+        {
+          "title": "Combina dos o más biomas brasileños",
+          "text": "Brasil tiene seis biomas terrestres — Amazonía, Bosque Atlántico, Cerrado, Caatinga, Pantanal y Pampa — más la zona costera y marina: siete paisajes y culturas distintos. Combina el Bosque Atlántico y los paisajes costeros y marinos de la Costa de los Cocoteros. Planificamos el ritmo y las conexiones según las condiciones estacionales; los avistamientos de fauna nunca están garantizados."
+        }
+      ]
     },
     tips: {
       heading: "Consejos prácticos que marcan la diferencia",
@@ -267,25 +288,59 @@ export const costaDosCoqueirosGuide: BrazilGuideLocalized = {
       ],
     },
     faq: [
-      { q: "¿Dónde está la Costa de los Cocoteros?", a: "En el litoral norte de Bahía, entre Salvador y el límite con Sergipe, con Praia do Forte, Imbassaí, Guarajuba, Massarandupió y Mangue Seco." },
-      { q: "¿A qué distancia está Praia do Forte de Salvador?", a: "Unos 80 km, entre 1 y 1,5 horas en auto por la Estrada do Coco y Linha Verde, según el tráfico." },
-      { q: "¿Qué es el Proyecto TAMAR?", a: "Programa brasileño de conservación de tortugas marinas fundado en los años 80, con centro de visitantes en Praia do Forte abierto al público." },
-      { q: "¿Cuál es la mejor época para ver tortugas en Praia do Forte?", a: "El desove ocurre de septiembre a marzo, con nacimiento de crías entre noviembre y abril." },
-      { q: "¿Cómo llegar a Mangue Seco?", a: "Por carretera hasta la orilla del Río Real, seguida de travesía en canoa hasta el pueblo, ya en el límite con Sergipe." },
-      { q: "¿Cuánto cuesta un viaje a la Costa de los Cocoteros con Create Travel?", a: "No trabajamos con valores de estante: el presupuesto depende del destino, del hospedaje y de la época. Un consultor humano presenta la propuesta por escrito." },
+      {
+        "q": "¿Dónde está la Costa de los Cocoteros?",
+        "a": "En el litoral norte de Bahía, entre Salvador y el límite con Sergipe, con Praia do Forte, Imbassaí, Guarajuba, Massarandupió y Mangue Seco."
+      },
+      {
+        "q": "¿A qué distancia está Praia do Forte de Salvador?",
+        "a": "Unos 80 km, entre 1 y 1,5 horas en auto por la Estrada do Coco y Linha Verde, según el tráfico."
+      },
+      {
+        "q": "¿Qué es el Proyecto TAMAR?",
+        "a": "Programa brasileño de conservación de tortugas marinas fundado en los años 80, con centro de visitantes en Praia do Forte abierto al público."
+      },
+      {
+        "q": "¿Cuál es la mejor época para ver tortugas en Praia do Forte?",
+        "a": "El desove ocurre de septiembre a marzo, con nacimiento de crías entre noviembre y abril."
+      },
+      {
+        "q": "¿Cuánto cuesta un viaje a la Costa de los Cocoteros con Create Travel?",
+        "a": "No trabajamos con valores de estante: el presupuesto depende del destino, del hospedaje y de la época. Un consultor humano presenta la propuesta por escrito."
+      },
+      {
+        "q": "¿Necesito visado o vacunas para Brasil?",
+        "a": "Los requisitos de visado dependen de tu nacionalidad y pueden cambiar. Consulta fuentes oficiales consulares y de inmigración brasileñas antes de reservar. Acude con antelación a un profesional de salud del viajero y consulta las recomendaciones sanitarias oficiales sobre vacunas habituales, fiebre amarilla y precauciones regionales."
+      },
+      {
+        "q": "¿Hay guías en español en todas las excursiones?",
+        "a": "Sí. Create Travel ofrece guías en español en todas las excursiones de tu itinerario privado y a medida."
+      },
+      {
+        "q": "¿Cómo llegar para un viaje a Costa de los Cocoteros?",
+        "a": "Vuela a un hub brasileño y conecta con el aeropuerto de Salvador; continúa por carretera a tu base costera. Create Travel organiza traslados privados hasta tu alojamiento o punto de embarque."
+      },
+      {
+        "q": "¿Puedo combinar Costa de los Cocoteros con otros biomas brasileños?",
+        "a": "Sí. Brasil tiene seis biomas terrestres — Amazonía, Bosque Atlántico, Cerrado, Caatinga, Pantanal y Pampa — más la zona costera y marina: siete paisajes y culturas distintos. Combina el Bosque Atlántico y los paisajes costeros y marinos de la Costa de los Cocoteros. Tu diseñador de viajes comprueba la compatibilidad estacional y prevé tiempos de viaje realistas entre regiones."
+      }
     ],
-    cta: { heading: "Diseñemos tu Costa de los Cocoteros", subheading: "Un consultor humano de Create Travel elige entre Praia do Forte, Imbassaí y Mangue Seco la base correcta para tu itinerario.", button: "Hablar con un travel designer" },
+    cta: {
+      "heading": "Solicita tu presupuesto para Costa de los Cocoteros",
+      "subheading": "Un diseñador de viajes humano de Create Travel planifica tu viaje privado y a medida según tus intereses y tu ritmo, y te envía una propuesta por escrito.",
+      "button": "Solicitar presupuesto por WhatsApp"
+    },
     readingMinutes: 9,
     publishedAt: "2026-08-11",
   },
   it: {
     destinationName: "Costa dos Coqueiros",
     blurb: "Praia do Forte, Imbassaí e Mangue Seco: dune, palmeti di cocco e il litorale settentrionale bahiano, riferimento del turismo consapevole.",
-    metaTitle: "Costa dos Coqueiros: spiagge calme vicino a Salvador",
-    metaDescription: "Tartarughe al Progetto TAMAR, il fiume che incontra la sabbia a Imbassaí e le dune di Mangue Seco. Periodo migliore, dove dormire e un itinerario in auto.",
-    keywords: "costa dos coqueiros bahia, praia do forte, progetto tamar, imbassai, guarajuba, mangue seco, sauipe, tivoli ecoresort, vila dos orixas",
-    h1: "Costa dos Coqueiros: il litorale settentrionale che la Bahia ha protetto",
-    aiAnswer: "La Costa dos Coqueiros è il litorale settentrionale della Bahia tra Salvador e il confine con Sergipe, comprendente Praia do Forte, Imbassaí, Santo André, Guarajuba, Massarandupió, Mangue Seco e il complesso di Sauípe; il periodo migliore va da settembre a marzo, a 1-3 ore d'auto dall'aeroporto di Salvador.",
+    metaTitle: "Costa dos Coqueiros, Brasile: Itinerario, Periodo Migliore e Preventivo",
+    metaDescription: "Viaggio privato e su misura: Costa dos Coqueiros. Itinerario suggerito, periodo migliore e come arrivare. Richiedi un preventivo su WhatsApp.",
+    keywords: "costa dos coqueiros bahia, praia do forte, progetto tamar, imbassai, guarajuba, mangue seco, sauipe, tivoli ecoresort, vila dos orixas, Costa dos Coqueiros tour, itinerario Costa dos Coqueiros, come arrivare a Costa dos Coqueiros, periodo migliore Costa dos Coqueiros",
+    h1: "Costa dos Coqueiros: itinerario, periodo migliore e come arrivare",
+    aiAnswer: "La Costa dos Coqueiros è il litorale settentrionale della Bahia tra Salvador e il confine con Sergipe, comprendente Praia do Forte, Imbassaí, Santo André, Guarajuba, Massarandupió, Mangue Seco e il complesso di Sauípe; il periodo migliore va da settembre a marzo, a 1-3 ore d'auto dall'aeroporto di Salvador. Create Travel crea viaggi privati e su misura per Costa dos Coqueiros per viaggiatori internazionali, con guide in italiano, e invia un preventivo scritto via WhatsApp.",
     intro: [
       "La Costa dos Coqueiros inizia dove finisce la strada asfaltata di Salvador e arriva fino a Mangue Seco, al confine con Sergipe — 190 chilometri di dune, palmeti di cocco, fiumi dalle acque scure e villaggi di pescatori che hanno resistito alla speculazione grazie a una decisione presa decenni fa: proteggere il litorale in nome delle tartarughe marine. Quella stessa decisione, presa negli anni '80 con la fondazione del Progetto TAMAR a Praia do Forte, definisce ancora oggi il tono della destinazione: turismo a basso impatto, architettura discreta e natura preservata.",
       "In questa guida raccogliamo ciò che abbiamo imparato percorrendo questa costa: perché Praia do Forte resta la porta d'accesso più completa, cosa rende Imbassaí un segreto ben custodito tra i viaggiatori esigenti, e perché Mangue Seco, ispirazione di Jorge Amado, sembra ancora la fine del mondo.",
@@ -330,13 +385,34 @@ export const costaDosCoqueirosGuide: BrazilGuideLocalized = {
       ],
     },
     itinerary: {
-      heading: "Come integrare la Costa dos Coqueiros in un itinerario in Bahia",
-      intro: "La vicinanza all'aeroporto di Salvador rende questa regione l'aggiunta più semplice a qualsiasi viaggio in Bahia.",
-      items: [
-        { title: "Salvador + Costa dos Coqueiros — 6-8 giorni", text: "Tre notti di città storica seguite da tre-cinque notti tra Praia do Forte e Imbassaí, tutto su strada." },
-        { title: "Costa dos Coqueiros + Costa do Dendê — 10-12 giorni", text: "Unisce il litorale settentrionale a quello meridionale della Bahia, con Salvador come punto di svolta tra le due regioni." },
-        { title: "Costa dos Coqueiros come arrivo o partenza", text: "Buona opzione per decomprimere all'inizio o alla fine di un viaggio più lungo in Bahia o nel Nordest." },
-      ],
+      "heading": "Itinerario suggerito per Costa dos Coqueiros — 4 notti / 5 giorni",
+      "intro": "Un punto di partenza privato e su misura, adattato ai tuoi ritmi, agli orari di arrivo e alle condizioni locali. Aggiungi notti per un soggiorno più rilassato.",
+      "items": [
+        {
+          "title": "Giorno 1 — Salvador → Praia do Forte",
+          "text": "Arriva all’aeroporto di Salvador e prosegui con un trasferimento privato a Praia do Forte."
+        },
+        {
+          "title": "Giorno 2 — Praia do Forte e TAMAR",
+          "text": "Esplora il villaggio e il centro visitatori del Progetto TAMAR; gli incontri con la fauna dipendono dalle condizioni naturali."
+        },
+        {
+          "title": "Giorno 3 — Imbassaí",
+          "text": "Goditi il paesaggio fluviale e costiero di Imbassaí, con tempo per rilassarti."
+        },
+        {
+          "title": "Giorno 4 — Guarajuba",
+          "text": "Scegli un’escursione a Guarajuba o una giornata tranquilla nel tuo alloggio sulla costa."
+        },
+        {
+          "title": "Giorno 5 — Partenza o estensione a Salvador",
+          "text": "Trasferimento all’aeroporto di Salvador oppure notti aggiuntive in città per scoprirne storia e cultura."
+        },
+        {
+          "title": "Combina due o più biomi brasiliani",
+          "text": "Il Brasile ha sei biomi terrestri — Amazzonia, Foresta Atlantica, Cerrado, Caatinga, Pantanal e Pampa — più la zona costiera e marina: sette paesaggi e culture diversi. Combina la Foresta Atlantica e i paesaggi costieri e marini della Costa dos Coqueiros. Pianifichiamo ritmi e collegamenti secondo le condizioni stagionali; gli avvistamenti di fauna non sono mai garantiti."
+        }
+      ]
     },
     tips: {
       heading: "Consigli pratici che fanno la differenza",
@@ -350,14 +426,48 @@ export const costaDosCoqueirosGuide: BrazilGuideLocalized = {
       ],
     },
     faq: [
-      { q: "Dove si trova la Costa dos Coqueiros?", a: "Sul litorale settentrionale della Bahia, tra Salvador e il confine con Sergipe, comprendendo Praia do Forte, Imbassaí, Guarajuba, Massarandupió e Mangue Seco." },
-      { q: "Quanto dista Praia do Forte da Salvador?", a: "Circa 80 km, tra 1 e 1,5 ore d'auto via Estrada do Coco e Linha Verde, a seconda del traffico." },
-      { q: "Cos'è il Progetto TAMAR?", a: "Programma brasiliano di conservazione delle tartarughe marine fondato negli anni '80, con un centro visitatori a Praia do Forte aperto al pubblico." },
-      { q: "Qual è il periodo migliore per vedere le tartarughe a Praia do Forte?", a: "La deposizione avviene da settembre a marzo, con la nascita dei cuccioli tra novembre e aprile." },
-      { q: "Come si arriva a Mangue Seco?", a: "Su strada fino alla riva del Rio Real, seguita da una traversata in canoa fino al villaggio, che si trova già al confine con Sergipe." },
-      { q: "Quanto costa un viaggio sulla Costa dos Coqueiros con Create Travel?", a: "Non lavoriamo con tariffe standard: il budget dipende dalla destinazione, dall'alloggio e dal periodo. Un consulente umano presenta la proposta per iscritto." },
+      {
+        "q": "Dove si trova la Costa dos Coqueiros?",
+        "a": "Sul litorale settentrionale della Bahia, tra Salvador e il confine con Sergipe, comprendendo Praia do Forte, Imbassaí, Guarajuba, Massarandupió e Mangue Seco."
+      },
+      {
+        "q": "Quanto dista Praia do Forte da Salvador?",
+        "a": "Circa 80 km, tra 1 e 1,5 ore d'auto via Estrada do Coco e Linha Verde, a seconda del traffico."
+      },
+      {
+        "q": "Cos'è il Progetto TAMAR?",
+        "a": "Programma brasiliano di conservazione delle tartarughe marine fondato negli anni '80, con un centro visitatori a Praia do Forte aperto al pubblico."
+      },
+      {
+        "q": "Qual è il periodo migliore per vedere le tartarughe a Praia do Forte?",
+        "a": "La deposizione avviene da settembre a marzo, con la nascita dei cuccioli tra novembre e aprile."
+      },
+      {
+        "q": "Quanto costa un viaggio sulla Costa dos Coqueiros con Create Travel?",
+        "a": "Non lavoriamo con tariffe standard: il budget dipende dalla destinazione, dall'alloggio e dal periodo. Un consulente umano presenta la proposta per iscritto."
+      },
+      {
+        "q": "Ho bisogno di visto o vaccini per il Brasile?",
+        "a": "I requisiti del visto dipendono dalla nazionalità e possono cambiare. Consulta le fonti ufficiali consolari e di immigrazione brasiliane prima di prenotare. Rivolgiti con anticipo a un professionista della medicina dei viaggi e alle indicazioni sanitarie ufficiali per vaccini di routine, febbre gialla e precauzioni regionali."
+      },
+      {
+        "q": "Sono disponibili guide in italiano in ogni escursione?",
+        "a": "Sì. Create Travel prevede guide in italiano in ogni escursione del tuo itinerario privato e su misura."
+      },
+      {
+        "q": "Come arrivare per un viaggio dedicato a Costa dos Coqueiros?",
+        "a": "Vola verso un hub brasiliano e prosegui per l’aeroporto di Salvador, poi su strada verso la tua base costiera. Create Travel organizza trasferimenti privati fino all’alloggio o al punto d’imbarco."
+      },
+      {
+        "q": "Posso combinare Costa dos Coqueiros con altri biomi brasiliani?",
+        "a": "Sì. Il Brasile ha sei biomi terrestri — Amazzonia, Foresta Atlantica, Cerrado, Caatinga, Pantanal e Pampa — più la zona costiera e marina: sette paesaggi e culture diversi. Combina la Foresta Atlantica e i paesaggi costieri e marini della Costa dos Coqueiros. Il tuo travel designer verifica la compatibilità stagionale e prevede tempi di viaggio realistici tra le regioni."
+      }
     ],
-    cta: { heading: "Progettiamo la tua Costa dos Coqueiros", subheading: "Un consulente umano di Create Travel sceglie tra Praia do Forte, Imbassaí e Mangue Seco la base giusta per il tuo itinerario.", button: "Parla con un travel designer" },
+    cta: {
+      "heading": "Richiedi il tuo preventivo per Costa dos Coqueiros",
+      "subheading": "Un travel designer umano di Create Travel pianifica il tuo viaggio privato e su misura, secondo i tuoi interessi e ritmi, e ti invia una proposta scritta.",
+      "button": "Richiedi un preventivo su WhatsApp"
+    },
     readingMinutes: 9,
     publishedAt: "2026-08-11",
   },

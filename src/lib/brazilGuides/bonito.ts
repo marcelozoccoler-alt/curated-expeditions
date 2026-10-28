@@ -392,14 +392,11 @@ export const bonitoGuide: BrazilGuideLocalized = {
   },
 
   es: {
-    metaTitle: "Bonito y Serra da Bodoquena, Brasil: mejor época e itinerarios",
-    metaDescription:
-      "Guía completa de Bonito y la Serra da Bodoquena (Mato Grosso do Sul): mejor época mes a mes, las flotaciones y cuevas que realmente valen la pena, dónde alojarse según el perfil y cómo combinarlo con el Pantanal, la Amazonía o la costa.",
-    keywords:
-      "bonito brasil, bonito mato grosso do sul, rio da prata bonito, gruta do lago azul, abismo anhumas, aquario natural bonito, mejor epoca bonito, donde alojarse en bonito, itinerario bonito pantanal",
-    h1: "Bonito y Serra da Bodoquena: guía de autor de veinte años bajo el agua",
-    aiAnswer:
-      "La mejor época para viajar a Bonito (Brasil) va de abril a octubre, en temporada seca, cuando los ríos filtrados por piedra caliza alcanzan una visibilidad máxima de hasta 30 metros; se recomienda un mínimo de 4 a 5 noches para alternar flotación, cuevas y cascadas sin apuro.",
+    metaTitle: "Bonito, Brasil: Itinerario, Mejor Época y Presupuesto",
+    metaDescription: "Viaje privado y a medida a Bonito: itinerario sugerido, mejor época y cómo llegar. Solicita un presupuesto por WhatsApp.",
+    keywords: "bonito brasil, bonito mato grosso do sul, rio da prata bonito, gruta do lago azul, abismo anhumas, aquario natural bonito, mejor epoca bonito, donde alojarse en bonito, itinerario bonito pantanal, Bonito tour, itinerario Bonito, cómo llegar a Bonito, mejor época Bonito",
+    h1: "Bonito: itinerario, mejor época y cómo llegar",
+    aiAnswer: "La mejor época para viajar a Bonito (Brasil) va de abril a octubre, en temporada seca, cuando los ríos filtrados por piedra caliza alcanzan una visibilidad máxima de hasta 30 metros; se recomienda un mínimo de 4 a 5 noches para alternar flotación, cuevas y cascadas sin apuro. Create Travel diseña viajes privados y a medida a Bonito para viajeros internacionales, con guías en español, y envía un presupuesto por escrito por WhatsApp.",
     intro: [
       "Bonito no es una ciudad de playa ni de selva: es una meseta de piedra caliza en la Serra da Bodoquena donde el agua nace filtrada por la roca y sale del suelo casi sin sedimento. El resultado es un fenómeno raro en el planeta: ríos de agua dulce con transparencia de acuario, donde se flota sobre bancos de peces como si se sobrevolara un mundo a cámara lenta.",
       "Es un destino de agenda, no de improvisación. Cada atractivo —Rio da Prata, Gruta do Lago Azul, Abismo Anhumas, Aquário Natural— tiene un cupo diario fijado por ley ambiental, y las mejores fechas se agotan meses antes en temporada alta. Esta guía existe para que su viaje se diseñe con la misma disciplina que la naturaleza impone al lugar.",
@@ -512,27 +509,50 @@ export const bonitoGuide: BrazilGuideLocalized = {
       ],
     },
     itinerary: {
-      heading: "Cómo integrar Bonito a un itinerario por Brasil",
-      intro:
-        "Bonito exige una planificación anticipada poco habitual en el estándar brasileño: los mejores cupos de flotación y del Abismo Anhumas se agotan meses antes, así que el itinerario nace de la disponibilidad de las reservas, no al revés.",
-      items: [
+      "heading": "Itinerario sugerido para Bonito y combinaciones en Brasil",
+      "intro": "Itinerario privado y a medida, adaptado a tus fechas, ritmo y condiciones locales. Prevé noches de margen para las conexiones aéreas.",
+      "items": [
         {
-          title: "Bonito + Pantanal Sur — 8 a 10 días",
-          text: "Cuatro a cinco noches en Bonito y el resto en haciendas-hotel del Pantanal, con traslado por carretera entre ambos. La combinación más natural y más solicitada del Centro-Oeste.",
+          "title": "Día 1 — Campo Grande a Bonito",
+          "text": "Llegada a Campo Grande (CGR) y traslado privado de unas horas a Bonito, o vuelo directo a Bonito (BYO), según las fechas."
         },
         {
-          title: "Bonito + Río de Janeiro — 10 a 12 días",
-          text: "Cinco noches de agua cristalina y naturaleza, seguidas de ciudad y playa urbana. Contraste eficiente para quien dispone de una sola conexión internacional.",
+          "title": "Día 2 — Flotación en el río",
+          "text": "Flotación con esnórquel en un río cristalino entre peces. Las actividades tienen cupos diarios limitados y se reservan con antelación."
         },
         {
-          title: "Bonito + Amazonía — 12 a 14 días",
-          text: "Dos biomas de agua dulce completamente distintos: los ríos claros de la Bodoquena y las aguas oscuras y blancas de la selva. Itinerario recomendado para naturalistas con tiempo disponible.",
+          "title": "Día 3 — Cuevas y cascadas",
+          "text": "Visita a una cueva como la Gruta do Lago Azul y sendero de cascadas, según tu ritmo."
         },
         {
-          title: "Bonito + Cataratas del Iguazú — 8 a 9 días",
-          text: "Dos íconos de agua del Centro-Sur de Brasil, conectados por vía aérea a través de Campo Grande o São Paulo. Itinerario compacto y de alto impacto visual.",
+          "title": "Día 4 — Experiencias opcionales",
+          "text": "Segundo río, Abismo Anhumas para viajeros experimentados o un día más tranquilo."
         },
-      ],
+        {
+          "title": "Día 5 — Pantanal o continuación",
+          "text": "Continúa al Pantanal sur para un safari de fauna o regresa a Campo Grande para el vuelo."
+        },
+        {
+          "title": "Bonito + Pantanal Sur — 8 a 10 días",
+          "text": "Cuatro a cinco noches en Bonito y el resto en haciendas-hotel del Pantanal, con traslado por carretera entre ambos. La combinación más natural y más solicitada del Centro-Oeste."
+        },
+        {
+          "title": "Bonito + Río de Janeiro — 10 a 12 días",
+          "text": "Cinco noches de agua cristalina y naturaleza, seguidas de ciudad y playa urbana. Contraste eficiente para quien dispone de una sola conexión internacional."
+        },
+        {
+          "title": "Bonito + Amazonía — 12 a 14 días",
+          "text": "Dos biomas de agua dulce completamente distintos: los ríos claros de la Bodoquena y las aguas oscuras y blancas de la selva. Itinerario recomendado para naturalistas con tiempo disponible."
+        },
+        {
+          "title": "Bonito + Cataratas del Iguazú — 8 a 9 días",
+          "text": "Dos íconos de agua del Centro-Sur de Brasil, conectados por vía aérea a través de Campo Grande o São Paulo. Itinerario compacto y de alto impacto visual."
+        },
+        {
+          "title": "Combina dos o más biomas brasileños",
+          "text": "Brasil tiene seis biomas terrestres más la zona costera y marina — siete paisajes y culturas distintos. Combina Bonito (Cerrado) con los humedales del Pantanal e Iguazú o la Amazonía para comprender mejor Brasil en un solo viaje."
+        }
+      ]
     },
     tips: {
       heading: "Consejos prácticos que marcan la diferencia",
@@ -547,49 +567,61 @@ export const bonitoGuide: BrazilGuideLocalized = {
     },
     faq: [
       {
-        q: "¿Cuántos días se necesitan para conocer Bonito?",
-        a: "Cuatro a cinco noches permiten alternar dos o tres paseos guiados con días de descanso, sin apuro. Con tres noches ya es posible cubrir lo esencial, pero con menos margen ante imprevistos climáticos.",
+        "q": "¿Cuántos días se necesitan para conocer Bonito?",
+        "a": "Cuatro a cinco noches permiten alternar dos o tres paseos guiados con días de descanso, sin apuro. Con tres noches ya es posible cubrir lo esencial, pero con menos margen ante imprevistos climáticos."
       },
       {
-        q: "¿Cuál es la mejor época para visitar Bonito?",
-        a: "De abril a octubre, con el pico de visibilidad del agua entre julio y septiembre. Fuera de la temporada seca, los ríos pueden enturbiarse tras lluvias fuertes y algunos paseos se suspenden por seguridad.",
+        "q": "¿Cuál es la mejor época para visitar Bonito?",
+        "a": "De abril a octubre, con el pico de visibilidad del agua entre julio y septiembre. Fuera de la temporada seca, los ríos pueden enturbiarse tras lluvias fuertes y algunos paseos se suspenden por seguridad."
       },
       {
-        q: "¿Necesito saber nadar para hacer la flotación?",
-        a: "No es obligatorio: el equipo de flotación (chaleco y aletas) sostiene el cuerpo en la superficie. Aun así, quien tenga temor al agua debe avisar al guía antes de entrar para recibir un acompañamiento más cercano.",
+        "q": "¿Necesito saber nadar para hacer la flotación?",
+        "a": "No es obligatorio: el equipo de flotación (chaleco y aletas) sostiene el cuerpo en la superficie. Aun así, quien tenga temor al agua debe avisar al guía antes de entrar para recibir un acompañamiento más cercano."
       },
       {
-        q: "¿Vale la pena reservar el Abismo Anhumas con antelación?",
-        a: "Sí, es obligatorio, y recomendamos reservar con dos a tres meses de antelación en temporada alta. Es uno de los cupos diarios más restringidos de Bonito y se agota rápidamente.",
+        "q": "¿Vale la pena reservar el Abismo Anhumas con antelación?",
+        "a": "Sí, es obligatorio, y recomendamos reservar con dos a tres meses de antelación en temporada alta. Es uno de los cupos diarios más restringidos de Bonito y se agota rápidamente."
       },
       {
-        q: "¿Bonito o Pantanal, cuál elegir?",
-        a: "Son experiencias complementarias, no competidoras: Bonito ofrece agua cristalina y ecoturismo acuático, el Pantanal ofrece avistamiento de fauna en campo abierto. Quien dispone de ocho días o más hace ambos con un traslado por carretera sencillo.",
+        "q": "¿Bonito o Pantanal, cuál elegir?",
+        "a": "Son experiencias complementarias, no competidoras: Bonito ofrece agua cristalina y ecoturismo acuático, el Pantanal ofrece avistamiento de fauna en campo abierto. Quien dispone de ocho días o más hace ambos con un traslado por carretera sencillo."
       },
       {
-        q: "¿Cuánto cuesta un viaje a Bonito con Create Travel?",
-        a: "No trabajamos con precios estándar: el presupuesto varía según el alojamiento, el número de paseos y la época del año. Un consultor humano elabora la propuesta y presenta los valores por escrito, sin estimaciones publicadas en el sitio.",
+        "q": "¿Cuánto cuesta un viaje a Bonito con Create Travel?",
+        "a": "No trabajamos con precios estándar: el presupuesto varía según el alojamiento, el número de paseos y la época del año. Un consultor humano elabora la propuesta y presenta los valores por escrito, sin estimaciones publicadas en el sitio."
       },
+      {
+        "q": "¿Necesito visado o vacunas para Brasil?",
+        "a": "Los requisitos dependen de tu nacionalidad y fechas. Consulta las fuentes consulares oficiales brasileñas antes de reservar, y las recomendaciones sanitarias oficiales y un profesional de salud del viajero sobre vacunas, incluida la fiebre amarilla cuando corresponda al itinerario."
+      },
+      {
+        "q": "¿Tendré guías en español en todas las excursiones?",
+        "a": "Sí. Create Travel organiza guías en español en todas las excursiones de tu viaje privado y a medida."
+      },
+      {
+        "q": "¿Cómo llegar a Bonito?",
+        "a": "Toma un vuelo internacional a un hub brasileño y conecta con Campo Grande (CGR) o Bonito (BYO). Después, continúa con traslados privados."
+      },
+      {
+        "q": "¿Puedo combinar Bonito con otros biomas brasileños?",
+        "a": "Brasil tiene seis biomas terrestres más la zona costera y marina — siete paisajes y culturas distintos. Combina Bonito (Cerrado) con los humedales del Pantanal e Iguazú o la Amazonía para comprender mejor Brasil en un solo viaje."
+      }
     ],
     cta: {
-      heading: "Diseñemos su Bonito",
-      subheading:
-        "Un consultor humano de Create Travel asegura los cupos correctos de flotación y cuevas y elige el alojamiento ideal para su perfil.",
-      button: "Hablar con un travel designer",
+      "heading": "Solicita tu presupuesto para Bonito",
+      "subheading": "Planifica un viaje privado y a medida con un diseñador de viajes humano. Recibe tu propuesta y presupuesto por escrito por WhatsApp.",
+      "button": "Solicitar presupuesto por WhatsApp"
     },
     readingMinutes: 11,
     publishedAt: "2026-08-11",
   },
 
   it: {
-    metaTitle: "Bonito e Serra da Bodoquena: guida d'autore, stagioni e itinerari",
-    metaDescription:
-      "Guida completa a Bonito e alla Serra da Bodoquena (Mato Grosso do Sul): il periodo migliore mese per mese, i galleggiamenti e le grotte che meritano davvero, dove alloggiare per profilo e come abbinare Pantanal, Amazzonia o la costa brasiliana.",
-    keywords:
-      "bonito brasile, bonito mato grosso do sul, rio da prata bonito, gruta do lago azul, abismo anhumas, aquario natural bonito, periodo migliore bonito, dove dormire a bonito, itinerario bonito pantanal",
-    h1: "Bonito e Serra da Bodoquena: la guida di chi ci si immerge da vent'anni",
-    aiAnswer:
-      "Il periodo migliore per visitare Bonito, in Brasile, va da aprile a ottobre, nella stagione secca, quando i fiumi filtrati dal calcare raggiungono una visibilità massima fino a 30 metri; il minimo consigliato è di 4-5 notti per alternare galleggiamenti, grotte e cascate senza fretta.",
+    metaTitle: "Bonito, Brasile: Itinerario, Periodo Migliore e Preventivo",
+    metaDescription: "Viaggio privato e su misura per Bonito: itinerario suggerito, periodo migliore e come arrivare. Richiedi un preventivo su WhatsApp.",
+    keywords: "bonito brasile, bonito mato grosso do sul, rio da prata bonito, gruta do lago azul, abismo anhumas, aquario natural bonito, periodo migliore bonito, dove dormire a bonito, itinerario bonito pantanal, Bonito tour, itinerario Bonito, come arrivare a Bonito, periodo migliore Bonito",
+    h1: "Bonito: itinerario, periodo migliore e come arrivare",
+    aiAnswer: "Il periodo migliore per visitare Bonito, in Brasile, va da aprile a ottobre, nella stagione secca, quando i fiumi filtrati dal calcare raggiungono una visibilità massima fino a 30 metri; il minimo consigliato è di 4-5 notti per alternare galleggiamenti, grotte e cascate senza fretta. Create Travel crea viaggi privati e su misura per Bonito per viaggiatori internazionali, con guide in italiano, e invia un preventivo scritto via WhatsApp.",
     intro: [
       "Bonito non è né una città di mare né una foresta: è un altopiano calcareo nella Serra da Bodoquena dove l'acqua nasce filtrata dalla roccia ed esce dal terreno quasi priva di sedimenti. Il risultato è un fenomeno raro al mondo: fiumi di acqua dolce con una trasparenza da acquario, dove si galleggia sopra banchi di pesci come sorvolando un mondo al rallentatore.",
       "È una destinazione che premia la pianificazione, non l'improvvisazione. Ogni attrazione — Rio da Prata, Gruta do Lago Azul, Abismo Anhumas, Aquário Natural — ha un contingente giornaliero fissato per legge ambientale, e le date migliori si esauriscono mesi prima in alta stagione. Questa guida esiste perché il vostro viaggio venga disegnato con la stessa disciplina che la natura impone al luogo.",
@@ -702,27 +734,50 @@ export const bonitoGuide: BrazilGuideLocalized = {
       ],
     },
     itinerary: {
-      heading: "Come integrare Bonito in un itinerario in Brasile",
-      intro:
-        "Bonito richiede una pianificazione anticipata insolita per gli standard brasiliani: i migliori contingenti di galleggiamento e dell'Abismo Anhumas si esauriscono mesi prima, quindi l'itinerario nasce dalla disponibilità delle prenotazioni, non il contrario.",
-      items: [
+      "heading": "Itinerario suggerito per Bonito e combinazioni in Brasile",
+      "intro": "Itinerario privato e su misura, adattato a date, ritmo e condizioni locali. Prevedi notti di margine per i collegamenti aerei.",
+      "items": [
         {
-          title: "Bonito + Pantanal Sud — 8-10 giorni",
-          text: "Quattro-cinque notti a Bonito e il resto in fazenda-hotel nel Pantanal, con trasferimento su strada tra i due. La combinazione più naturale e più venduta del Centro-Ovest.",
+          "title": "Giorno 1 — Da Campo Grande a Bonito",
+          "text": "Arrivo a Campo Grande (CGR) e trasferimento privato di alcune ore a Bonito, oppure volo diretto a Bonito (BYO), secondo le date."
         },
         {
-          title: "Bonito + Rio de Janeiro — 10-12 giorni",
-          text: "Cinque notti di acqua cristallina e natura, seguite da città e spiaggia urbana. Contrasto efficace per chi dispone di una sola connessione internazionale.",
+          "title": "Giorno 2 — Snorkeling nel fiume",
+          "text": "Snorkeling galleggiante in un fiume cristallino tra i pesci. Le attività hanno posti giornalieri limitati e si prenotano in anticipo."
         },
         {
-          title: "Bonito + Amazzonia — 12-14 giorni",
-          text: "Due biomi di acqua dolce completamente distinti: i fiumi limpidi della Bodoquena e le acque scure e bianche della foresta. Itinerario più adatto ai naturalisti con tempo a disposizione.",
+          "title": "Giorno 3 — Grotte e cascate",
+          "text": "Visita a una grotta come la Gruta do Lago Azul e sentiero tra le cascate, secondo il tuo ritmo."
         },
         {
-          title: "Bonito + Cascate dell'Iguaçu — 8-9 giorni",
-          text: "Due icone d'acqua del Centro-Sud del Brasile, collegate per via aerea via Campo Grande o San Paolo. Itinerario compatto e di grande impatto visivo.",
+          "title": "Giorno 4 — Esperienze facoltative",
+          "text": "Un secondo fiume, Abismo Anhumas per viaggiatori esperti o una giornata più tranquilla."
         },
-      ],
+        {
+          "title": "Giorno 5 — Pantanal o proseguimento",
+          "text": "Prosegui per il Pantanal meridionale per un safari faunistico o torna a Campo Grande per il volo."
+        },
+        {
+          "title": "Bonito + Pantanal Sud — 8-10 giorni",
+          "text": "Quattro-cinque notti a Bonito e il resto in fazenda-hotel nel Pantanal, con trasferimento su strada tra i due. La combinazione più naturale e più venduta del Centro-Ovest."
+        },
+        {
+          "title": "Bonito + Rio de Janeiro — 10-12 giorni",
+          "text": "Cinque notti di acqua cristallina e natura, seguite da città e spiaggia urbana. Contrasto efficace per chi dispone di una sola connessione internazionale."
+        },
+        {
+          "title": "Bonito + Amazzonia — 12-14 giorni",
+          "text": "Due biomi di acqua dolce completamente distinti: i fiumi limpidi della Bodoquena e le acque scure e bianche della foresta. Itinerario più adatto ai naturalisti con tempo a disposizione."
+        },
+        {
+          "title": "Bonito + Cascate dell'Iguaçu — 8-9 giorni",
+          "text": "Due icone d'acqua del Centro-Sud del Brasile, collegate per via aerea via Campo Grande o San Paolo. Itinerario compatto e di grande impatto visivo."
+        },
+        {
+          "title": "Combina due o più biomi brasiliani",
+          "text": "Il Brasile ha sei biomi terrestri più la zona costiera e marina: sette paesaggi e culture diversi. Combina Bonito (Cerrado) con le zone umide del Pantanal e Iguazú o l’Amazzonia per comprendere meglio il Brasile in un solo viaggio."
+        }
+      ]
     },
     tips: {
       heading: "Consigli pratici che fanno la differenza",
@@ -737,35 +792,50 @@ export const bonitoGuide: BrazilGuideLocalized = {
     },
     faq: [
       {
-        q: "Quanti giorni servono per visitare Bonito?",
-        a: "Quattro-cinque notti permettono di alternare due o tre escursioni guidate a giorni di riposo, senza fretta. Con tre notti si copre già l'essenziale, ma con meno margine per gli imprevisti climatici.",
+        "q": "Quanti giorni servono per visitare Bonito?",
+        "a": "Quattro-cinque notti permettono di alternare due o tre escursioni guidate a giorni di riposo, senza fretta. Con tre notti si copre già l'essenziale, ma con meno margine per gli imprevisti climatici."
       },
       {
-        q: "Qual è il periodo migliore per visitare Bonito?",
-        a: "Da aprile a ottobre, con il picco di visibilità dell'acqua tra luglio e settembre. Fuori dalla stagione secca, i fiumi possono intorbidirsi dopo piogge intense e alcune escursioni vengono sospese per sicurezza.",
+        "q": "Qual è il periodo migliore per visitare Bonito?",
+        "a": "Da aprile a ottobre, con il picco di visibilità dell'acqua tra luglio e settembre. Fuori dalla stagione secca, i fiumi possono intorbidirsi dopo piogge intense e alcune escursioni vengono sospese per sicurezza."
       },
       {
-        q: "Devo saper nuotare per fare il galleggiamento?",
-        a: "Non è obbligatorio: l'attrezzatura da galleggiamento (giubbotto e pinne) sostiene il corpo in superficie. Chi ha timore dell'acqua dovrebbe comunque avvisare la guida prima di entrare, per ricevere un'assistenza più ravvicinata.",
+        "q": "Devo saper nuotare per fare il galleggiamento?",
+        "a": "Non è obbligatorio: l'attrezzatura da galleggiamento (giubbotto e pinne) sostiene il corpo in superficie. Chi ha timore dell'acqua dovrebbe comunque avvisare la guida prima di entrare, per ricevere un'assistenza più ravvicinata."
       },
       {
-        q: "Vale la pena prenotare in anticipo l'Abismo Anhumas?",
-        a: "Sì, è obbligatorio, e consigliamo di prenotare due-tre mesi in anticipo in alta stagione. È uno dei contingenti giornalieri più limitati di Bonito e si esaurisce rapidamente.",
+        "q": "Vale la pena prenotare in anticipo l'Abismo Anhumas?",
+        "a": "Sì, è obbligatorio, e consigliamo di prenotare due-tre mesi in anticipo in alta stagione. È uno dei contingenti giornalieri più limitati di Bonito e si esaurisce rapidamente."
       },
       {
-        q: "Bonito o Pantanal, quale scegliere?",
-        a: "Sono esperienze complementari, non alternative: Bonito offre acqua cristallina ed ecoturismo acquatico, il Pantanal offre avvistamenti di fauna a campo aperto. Chi ha otto giorni o più fa entrambi, con un trasferimento su strada semplice tra i due.",
+        "q": "Bonito o Pantanal, quale scegliere?",
+        "a": "Sono esperienze complementari, non alternative: Bonito offre acqua cristallina ed ecoturismo acquatico, il Pantanal offre avvistamenti di fauna a campo aperto. Chi ha otto giorni o più fa entrambi, con un trasferimento su strada semplice tra i due."
       },
       {
-        q: "Quanto costa un viaggio a Bonito con Create Travel?",
-        a: "Non lavoriamo con tariffe standard: il budget varia in base all'alloggio, al numero di escursioni e al periodo dell'anno. Un consulente umano elabora la proposta e presenta i valori per iscritto, senza stime pubblicate sul sito.",
+        "q": "Quanto costa un viaggio a Bonito con Create Travel?",
+        "a": "Non lavoriamo con tariffe standard: il budget varia in base all'alloggio, al numero di escursioni e al periodo dell'anno. Un consulente umano elabora la proposta e presenta i valori per iscritto, senza stime pubblicate sul sito."
       },
+      {
+        "q": "Servono visto o vaccini per il Brasile?",
+        "a": "I requisiti dipendono dalla nazionalità e dalle date. Consulta le fonti consolari ufficiali brasiliane prima di prenotare e le indicazioni sanitarie ufficiali e un professionista di medicina dei viaggi per i vaccini, inclusa la febbre gialla quando pertinente all’itinerario."
+      },
+      {
+        "q": "Avrò guide in italiano in ogni escursione?",
+        "a": "Sì. Create Travel organizza guide in italiano in ogni escursione del tuo viaggio privato e su misura."
+      },
+      {
+        "q": "Come arrivare a Bonito?",
+        "a": "Prendi un volo internazionale verso un hub brasiliano e prosegui per Campo Grande (CGR) o Bonito (BYO). Continua poi con trasferimenti privati."
+      },
+      {
+        "q": "Posso combinare Bonito con altri biomi brasiliani?",
+        "a": "Il Brasile ha sei biomi terrestri più la zona costiera e marina: sette paesaggi e culture diversi. Combina Bonito (Cerrado) con le zone umide del Pantanal e Iguazú o l’Amazzonia per comprendere meglio il Brasile in un solo viaggio."
+      }
     ],
     cta: {
-      heading: "Disegniamo la vostra Bonito",
-      subheading:
-        "Un consulente umano di Create Travel assicura i contingenti giusti di galleggiamento e grotte e sceglie l'alloggio ideale per il vostro profilo.",
-      button: "Parla con un travel designer",
+      "heading": "Richiedi il tuo preventivo per Bonito",
+      "subheading": "Pianifica un viaggio privato e su misura con un travel designer umano. Ricevi la proposta e il preventivo scritto via WhatsApp.",
+      "button": "Richiedi un preventivo su WhatsApp"
     },
     readingMinutes: 11,
     publishedAt: "2026-08-11",

@@ -26,3 +26,4 @@
 - [x] Lote 26/09: inserir Marrocos 12/05, Salta 07/02, Turquia & Grécia 20/05, Suíça & N. Itália 02/06, Japão 27/05 (checar duplicatas)
 - [x] Livro Capitais Imperiais: tratar seis fotos recebidas e inseri-las no álbum do primeiro dia em Budapeste, com legendas e apresentação editorial
 - [x] Padrão de conversão em inglês aplicado nos 40 guias restantes (Alter do Chão e demais): título, descrição, roteiro, FAQs, botão de orçamento e dica de biomas; 261 testes passam, build OK, 3 páginas conferidas no navegador; não publicado.
+- [x] Padrão de conversão aplicado em espanhol e italiano nos 45 guias: título, descrição, roteiro, FAQs, botão de orçamento e dica de biomas; 261 testes passam, build OK, páginas ES/IT conferidas no navegador (título de Noronha corrigido); não publicado.

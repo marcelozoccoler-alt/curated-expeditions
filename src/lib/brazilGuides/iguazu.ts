@@ -407,14 +407,11 @@ export const iguazuGuide: BrazilGuideLocalized = {
   },
 
   es: {
-    metaTitle: "Cataratas del Iguazú: guía autoral Brasil y Argentina",
-    metaDescription:
-      "Guía completa de Foz do Iguaçu: lado brasileño y argentino, Garganta del Diablo, Parque de las Aves, Itaipú, sobrevuelo en helicóptero y hotel dentro del parque nacional.",
-    keywords:
-      "viaje foz do iguacu, cataratas del iguazu, garganta del diablo, parque de las aves foz, itaipu binacional, helicoptero cataratas, hotel das cataratas, puerto iguazu, itinerario iguazu lujo",
-    h1: "Cataratas del Iguazú: guía autoral del sistema de cataratas más completo del planeta",
-    aiAnswer:
-      "La mejor época para visitar las Cataratas del Iguazú es de abril a septiembre (menos calor, menos lluvia, caudal aún robusto); lo ideal son 3 noches, cubriendo el lado brasileño (vista panorámica) y el argentino (inmersión en la Garganta del Diablo), con el aeropuerto de Foz do Iguaçu (IGU) o el de Puerto Iguazú (IGR) como puerta de entrada.",
+    metaTitle: "Cataratas del Iguazú, Brasil: Itinerario, Mejor Época y Presupuesto",
+    metaDescription: "Viaje privado y a medida a Cataratas del Iguazú: itinerario sugerido, mejor época y cómo llegar. Solicita un presupuesto por WhatsApp.",
+    keywords: "viaje foz do iguacu, cataratas del iguazu, garganta del diablo, parque de las aves foz, itaipu binacional, helicoptero cataratas, hotel das cataratas, puerto iguazu, itinerario iguazu lujo, Cataratas del Iguazú tour, itinerario Cataratas del Iguazú, cómo llegar a Cataratas del Iguazú, mejor época Cataratas del Iguazú",
+    h1: "Cataratas del Iguazú: itinerario, mejor época y cómo llegar",
+    aiAnswer: "La mejor época para visitar las Cataratas del Iguazú es de abril a septiembre (menos calor, menos lluvia, caudal aún robusto); lo ideal son 3 noches, cubriendo el lado brasileño (vista panorámica) y el argentino (inmersión en la Garganta del Diablo), con el aeropuerto de Foz do Iguaçu (IGU) o el de Puerto Iguazú (IGR) como puerta de entrada. Create Travel diseña viajes privados y a medida a Cataratas del Iguazú para viajeros internacionales, con guías en español, y envía un presupuesto por escrito por WhatsApp.",
     intro: [
       "No existe fotografía que abarque las Cataratas del Iguazú. Son 275 saltos repartidos en casi tres kilómetros de frontera entre Brasil y Argentina, con un sonido que se siente en el pecho antes de verse con los ojos. Es uno de los pocos lugares del mundo que supera cualquier expectativa creada por una imagen.",
       "Esta guía nace de años organizando este cruce entre dos países para viajeros que quieren ver las cataratas por completo — desde la vista panorámica del lado brasileño hasta la inmersión total en la Garganta del Diablo por el lado argentino — sin perder tiempo con burocracia fronteriza o logística mal planificada.",
@@ -531,31 +528,50 @@ export const iguazuGuide: BrazilGuideLocalized = {
       ],
     },
     itinerary: {
-      heading: "Cómo integrar Foz do Iguaçu a un itinerario por Brasil",
-      intro:
-        "Foz do Iguaçu funciona mejor como tramo intermedio de tres noches entre dos destinos mayores, evitando conexiones aéreas largas el mismo día del cruce fronterizo.",
-      items: [
+      "heading": "Itinerario sugerido para Cataratas del Iguazú y combinaciones en Brasil",
+      "intro": "Itinerario privado y a medida, adaptado a tus fechas, ritmo y condiciones locales. Prevé noches de margen para las conexiones aéreas.",
+      "items": [
         {
-          title: "Foz do Iguaçu + Río de Janeiro — 7 a 8 días",
-          text: "El par clásico de primer viaje a Brasil: naturaleza monumental y luego ciudad y playa, con vuelo directo entre Foz (IGU) y Río (GIG o SDU).",
+          "title": "Día 1 — Llegada a Foz do Iguaçu",
+          "text": "Llegada a Foz do Iguaçu (IGU). Tarde en el sendero panorámico del lado brasileño o en el Parque de las Aves, según la hora de llegada."
         },
         {
-          title: "Foz do Iguaçu + Bonito y Pantanal — 10 a 12 días",
-          text: "Dos itinerarios de naturaleza que rara vez decepcionan: aguas cristalinas de Bonito, fauna del Pantanal y la fuerza de las cataratas, conectados vía Campo Grande.",
+          "title": "Día 2 — Lado argentino",
+          "text": "Traslado privado al parque argentino: pasarelas de la Garganta del Diablo y circuitos superior e inferior. Es necesario el pasaporte."
         },
         {
-          title: "Foz do Iguaçu + Buenos Aires — 7 días",
-          text: "Todavía dentro de Sudamérica, un salto a la Argentina urbana justo después de visitar su parque nacional más famoso, aprovechando la cercanía con Puerto Iguazú.",
+          "title": "Día 3 — Experiencias opcionales",
+          "text": "Barco cerca de las cataratas, vuelo en helicóptero sujeto a operación, presa de Itaipú o regreso tranquilo al lado brasileño."
         },
         {
-          title: "Foz do Iguaçu + Amazonía — 12 a 14 días",
-          text: "Los dos grandes espectáculos naturales de Brasil, agua en estado bruto de dos formas radicalmente diferentes: cataratas y selva inundada.",
+          "title": "Día 4 — Siguiente vuelo",
+          "text": "Conexión a Río de Janeiro, Pantanal, Amazonía o Bonito."
         },
         {
-          title: "Foz do Iguaçu + São Paulo — 5 a 6 días",
-          text: "Itinerario más corto para quienes tienen poco tiempo: ciudad cosmopolita y gastronómica seguida de las cataratas, con vuelo de aproximadamente una hora y cuarenta minutos.",
+          "title": "Foz do Iguaçu + Río de Janeiro — 7 a 8 días",
+          "text": "El par clásico de primer viaje a Brasil: naturaleza monumental y luego ciudad y playa, con vuelo directo entre Foz (IGU) y Río (GIG o SDU)."
         },
-      ],
+        {
+          "title": "Foz do Iguaçu + Bonito y Pantanal — 10 a 12 días",
+          "text": "Dos itinerarios de naturaleza que rara vez decepcionan: aguas cristalinas de Bonito, fauna del Pantanal y la fuerza de las cataratas, conectados vía Campo Grande."
+        },
+        {
+          "title": "Foz do Iguaçu + Buenos Aires — 7 días",
+          "text": "Todavía dentro de Sudamérica, un salto a la Argentina urbana justo después de visitar su parque nacional más famoso, aprovechando la cercanía con Puerto Iguazú."
+        },
+        {
+          "title": "Foz do Iguaçu + Amazonía — 12 a 14 días",
+          "text": "Los dos grandes espectáculos naturales de Brasil, agua en estado bruto de dos formas radicalmente diferentes: cataratas y selva inundada."
+        },
+        {
+          "title": "Foz do Iguaçu + São Paulo — 5 a 6 días",
+          "text": "Itinerario más corto para quienes tienen poco tiempo: ciudad cosmopolita y gastronómica seguida de las cataratas, con vuelo de aproximadamente una hora y cuarenta minutos."
+        },
+        {
+          "title": "Combina dos o más biomas brasileños",
+          "text": "Brasil tiene seis biomas terrestres más la zona costera y marina — siete paisajes y culturas distintos. Combina Iguazú (Mata Atlántica) con los humedales del Pantanal y la selva amazónica para comprender mejor Brasil en un solo viaje."
+        }
+      ]
     },
     tips: {
       heading: "Consejos prácticos que marcan la diferencia",
@@ -570,49 +586,61 @@ export const iguazuGuide: BrazilGuideLocalized = {
     },
     faq: [
       {
-        q: "¿Cuántos días son necesarios para conocer las Cataratas del Iguazú?",
-        a: "Tres noches son el mínimo práctico para cubrir el lado brasileño, el argentino, el Parque de las Aves e Itaipú con calma. Dos noches funcionan solo si el foco es exclusivamente las cataratas.",
+        "q": "¿Cuántos días son necesarios para conocer las Cataratas del Iguazú?",
+        "a": "Tres noches son el mínimo práctico para cubrir el lado brasileño, el argentino, el Parque de las Aves e Itaipú con calma. Dos noches funcionan solo si el foco es exclusivamente las cataratas."
       },
       {
-        q: "¿Cuál es la mejor época para visitar las Cataratas del Iguazú?",
-        a: "Abril a septiembre ofrece un clima más templado y un caudal todavía robusto. Octubre a marzo trae más agua y un paisaje más exuberante, pero con calor intenso y mayor humedad.",
+        "q": "¿Cuál es la mejor época para visitar las Cataratas del Iguazú?",
+        "a": "Abril a septiembre ofrece un clima más templado y un caudal todavía robusto. Octubre a marzo trae más agua y un paisaje más exuberante, pero con calor intenso y mayor humedad."
       },
       {
-        q: "¿Necesito pasaporte para visitar el lado argentino de las cataratas?",
-        a: "Sí, el pasaporte vigente es obligatorio para cruzar la frontera, incluso en una visita de un día. Organizamos la documentación y el transporte del cruce con antelación.",
+        "q": "¿Necesito pasaporte para visitar el lado argentino de las cataratas?",
+        "a": "Sí, el pasaporte vigente es obligatorio para cruzar la frontera, incluso en una visita de un día. Organizamos la documentación y el transporte del cruce con antelación."
       },
       {
-        q: "¿Qué lado de las cataratas es mejor, el brasileño o el argentino?",
-        a: "Son complementarios: el lado brasileño ofrece la vista panorámica de conjunto, y el argentino permite caminar entre y sobre las cataratas, incluyendo el mirador superior de la Garganta del Diablo. Recomendamos visitar ambos.",
+        "q": "¿Qué lado de las cataratas es mejor, el brasileño o el argentino?",
+        "a": "Son complementarios: el lado brasileño ofrece la vista panorámica de conjunto, y el argentino permite caminar entre y sobre las cataratas, incluyendo el mirador superior de la Garganta del Diablo. Recomendamos visitar ambos."
       },
       {
-        q: "¿Qué aeropuerto usar para llegar a Foz do Iguaçu?",
-        a: "El aeropuerto de Foz do Iguaçu (IGU), del lado brasileño, recibe la mayor red de vuelos domésticos. El aeropuerto de Puerto Iguazú (IGR), en Argentina, es una alternativa para quienes llegan desde Buenos Aires.",
+        "q": "¿Qué aeropuerto usar para llegar a Foz do Iguaçu?",
+        "a": "El aeropuerto de Foz do Iguaçu (IGU), del lado brasileño, recibe la mayor red de vuelos domésticos. El aeropuerto de Puerto Iguazú (IGR), en Argentina, es una alternativa para quienes llegan desde Buenos Aires."
       },
       {
-        q: "¿Cuánto cuesta un viaje a Foz do Iguaçu con Create Travel?",
-        a: "No trabajamos con valores de catálogo: el presupuesto depende del hotel, el número de noches y las experiencias privadas elegidas en cada lado de la frontera. Un consultor humano arma la propuesta y presenta los valores por escrito.",
+        "q": "¿Cuánto cuesta un viaje a Foz do Iguaçu con Create Travel?",
+        "a": "No trabajamos con valores de catálogo: el presupuesto depende del hotel, el número de noches y las experiencias privadas elegidas en cada lado de la frontera. Un consultor humano arma la propuesta y presenta los valores por escrito."
       },
+      {
+        "q": "¿Necesito visado o vacunas para Brasil?",
+        "a": "Los requisitos dependen de tu nacionalidad y fechas. Consulta las fuentes consulares oficiales brasileñas antes de reservar, y las recomendaciones sanitarias oficiales y un profesional de salud del viajero sobre vacunas, incluida la fiebre amarilla cuando corresponda al itinerario."
+      },
+      {
+        "q": "¿Tendré guías en español en todas las excursiones?",
+        "a": "Sí. Create Travel organiza guías en español en todas las excursiones de tu viaje privado y a medida."
+      },
+      {
+        "q": "¿Cómo llegar a Cataratas del Iguazú?",
+        "a": "Toma un vuelo internacional a un hub brasileño y conecta con Foz do Iguaçu (IGU). Después, continúa con traslados privados."
+      },
+      {
+        "q": "¿Puedo combinar Cataratas del Iguazú con otros biomas brasileños?",
+        "a": "Brasil tiene seis biomas terrestres más la zona costera y marina — siete paisajes y culturas distintos. Combina Iguazú (Mata Atlántica) con los humedales del Pantanal y la selva amazónica para comprender mejor Brasil en un solo viaje."
+      }
     ],
     cta: {
-      heading: "Diseñemos su cruce por las Cataratas del Iguazú",
-      subheading:
-        "Un consultor humano de Create Travel organiza ambos lados de la frontera, los horarios adecuados y la documentación necesaria — sin imprevistos.",
-      button: "Hablar con un travel designer",
+      "heading": "Solicita tu presupuesto para Cataratas del Iguazú",
+      "subheading": "Planifica un viaje privado y a medida con un diseñador de viajes humano. Recibe tu propuesta y presupuesto por escrito por WhatsApp.",
+      "button": "Solicitar presupuesto por WhatsApp"
     },
     readingMinutes: 12,
     publishedAt: "2026-08-11",
   },
 
   it: {
-    metaTitle: "Cascate dell'Iguazú: guida autoriale Brasile e Argentina",
-    metaDescription:
-      "Guida completa a Foz do Iguaçu: lato brasiliano e argentino, Gola del Diavolo, Parco degli Uccelli, Itaipú, sorvolo in elicottero e hotel all'interno del parco nazionale.",
-    keywords:
-      "viaggio foz do iguacu, cascate dell'iguazu, gola del diavolo, parco degli uccelli foz, itaipu binazionale, elicottero cascate, hotel das cataratas, puerto iguazu, itinerario iguazu lusso",
-    h1: "Cascate dell'Iguazú: guida autoriale del sistema di cascate più completo del pianeta",
-    aiAnswer:
-      "Il periodo migliore per visitare le Cascate dell'Iguazú va da aprile a settembre (meno caldo, meno pioggia, portata ancora robusta); l'ideale sono 3 notti, coprendo il lato brasiliano (vista panoramica) e quello argentino (immersione nella Gola del Diavolo), con l'aeroporto di Foz do Iguaçu (IGU) o quello di Puerto Iguazú (IGR) come porta d'ingresso.",
+    metaTitle: "Cascate dell’Iguazú, Brasile: Itinerario, Periodo Migliore e Preventivo",
+    metaDescription: "Viaggio privato e su misura per Cascate dell’Iguazú: itinerario suggerito, periodo migliore e come arrivare. Richiedi un preventivo su WhatsApp.",
+    keywords: "viaggio foz do iguacu, cascate dell'iguazu, gola del diavolo, parco degli uccelli foz, itaipu binazionale, elicottero cascate, hotel das cataratas, puerto iguazu, itinerario iguazu lusso, Cascate dell’Iguazú tour, itinerario Cascate dell’Iguazú, come arrivare a Cascate dell’Iguazú, periodo migliore Cascate dell’Iguazú",
+    h1: "Cascate dell’Iguazú: itinerario, periodo migliore e come arrivare",
+    aiAnswer: "Il periodo migliore per visitare le Cascate dell'Iguazú va da aprile a settembre (meno caldo, meno pioggia, portata ancora robusta); l'ideale sono 3 notti, coprendo il lato brasiliano (vista panoramica) e quello argentino (immersione nella Gola del Diavolo), con l'aeroporto di Foz do Iguaçu (IGU) o quello di Puerto Iguazú (IGR) come porta d'ingresso. Create Travel crea viaggi privati e su misura per Cascate dell’Iguazú per viaggiatori internazionali, con guide in italiano, e invia un preventivo scritto via WhatsApp.",
     intro: [
       "Nessuna fotografia rende giustizia alle Cascate dell'Iguazú. Sono 275 salti sparsi su quasi tre chilometri di confine tra Brasile e Argentina, con un suono che si sente nel petto prima di essere visto con gli occhi. È uno dei rari luoghi al mondo che supera qualsiasi aspettativa creata dalle immagini.",
       "Questa guida nasce da anni di organizzazione di questo attraversamento tra due paesi per viaggiatori che vogliono vedere le cascate per intero — dalla vista panoramica del lato brasiliano all'immersione totale nella Gola del Diavolo dal lato argentino — senza perdere tempo con burocrazia di frontiera o logistica mal pianificata.",
@@ -729,31 +757,50 @@ export const iguazuGuide: BrazilGuideLocalized = {
       ],
     },
     itinerary: {
-      heading: "Come integrare Foz do Iguaçu in un itinerario in Brasile",
-      intro:
-        "Foz do Iguaçu funziona meglio come tratta intermedia di tre notti tra due destinazioni maggiori, evitando lunghe coincidenze aeree lo stesso giorno dell'attraversamento del confine.",
-      items: [
+      "heading": "Itinerario suggerito per Cascate dell’Iguazú e combinazioni in Brasile",
+      "intro": "Itinerario privato e su misura, adattato a date, ritmo e condizioni locali. Prevedi notti di margine per i collegamenti aerei.",
+      "items": [
         {
-          title: "Foz do Iguaçu + Rio de Janeiro — 7-8 giorni",
-          text: "La coppia classica del primo viaggio in Brasile: natura monumentale e poi città e spiaggia, con volo diretto tra Foz (IGU) e Rio (GIG o SDU).",
+          "title": "Giorno 1 — Arrivo a Foz do Iguaçu",
+          "text": "Arrivo a Foz do Iguaçu (IGU). Pomeriggio sul sentiero panoramico brasiliano o al Parco degli Uccelli, secondo l’orario di arrivo."
         },
         {
-          title: "Foz do Iguaçu + Bonito e Pantanal — 10-12 giorni",
-          text: "Due itinerari di natura che raramente deludono: acque cristalline di Bonito, fauna del Pantanal e la forza delle cascate, collegati via Campo Grande.",
+          "title": "Giorno 2 — Lato argentino",
+          "text": "Trasferimento privato al parco argentino: passerelle della Gola del Diavolo e circuiti superiore e inferiore. Passaporto necessario."
         },
         {
-          title: "Foz do Iguaçu + Buenos Aires — 7 giorni",
-          text: "Ancora in Sudamerica, un salto nell'Argentina urbana subito dopo aver visitato il suo parco nazionale più famoso, sfruttando la vicinanza con Puerto Iguazú.",
+          "title": "Giorno 3 — Esperienze facoltative",
+          "text": "Barca vicino alle cascate, volo in elicottero soggetto a operatività, diga di Itaipu o ritorno più tranquillo sul lato brasiliano."
         },
         {
-          title: "Foz do Iguaçu + Amazzonia — 12-14 giorni",
-          text: "I due grandi spettacoli naturali del Brasile, acqua allo stato grezzo in due forme radicalmente diverse: cascate e foresta allagata.",
+          "title": "Giorno 4 — Volo successivo",
+          "text": "Proseguimento per Rio de Janeiro, Pantanal, Amazzonia o Bonito."
         },
         {
-          title: "Foz do Iguaçu + San Paolo — 5-6 giorni",
-          text: "Itinerario più breve per chi ha poco tempo: città cosmopolita e gastronomica seguita dalle cascate, con volo di circa un'ora e quaranta minuti.",
+          "title": "Foz do Iguaçu + Rio de Janeiro — 7-8 giorni",
+          "text": "La coppia classica del primo viaggio in Brasile: natura monumentale e poi città e spiaggia, con volo diretto tra Foz (IGU) e Rio (GIG o SDU)."
         },
-      ],
+        {
+          "title": "Foz do Iguaçu + Bonito e Pantanal — 10-12 giorni",
+          "text": "Due itinerari di natura che raramente deludono: acque cristalline di Bonito, fauna del Pantanal e la forza delle cascate, collegati via Campo Grande."
+        },
+        {
+          "title": "Foz do Iguaçu + Buenos Aires — 7 giorni",
+          "text": "Ancora in Sudamerica, un salto nell'Argentina urbana subito dopo aver visitato il suo parco nazionale più famoso, sfruttando la vicinanza con Puerto Iguazú."
+        },
+        {
+          "title": "Foz do Iguaçu + Amazzonia — 12-14 giorni",
+          "text": "I due grandi spettacoli naturali del Brasile, acqua allo stato grezzo in due forme radicalmente diverse: cascate e foresta allagata."
+        },
+        {
+          "title": "Foz do Iguaçu + San Paolo — 5-6 giorni",
+          "text": "Itinerario più breve per chi ha poco tempo: città cosmopolita e gastronomica seguita dalle cascate, con volo di circa un'ora e quaranta minuti."
+        },
+        {
+          "title": "Combina due o più biomi brasiliani",
+          "text": "Il Brasile ha sei biomi terrestri più la zona costiera e marina: sette paesaggi e culture diversi. Combina Iguazú (Foresta Atlantica) con le zone umide del Pantanal e la foresta amazzonica per comprendere meglio il Brasile in un solo viaggio."
+        }
+      ]
     },
     tips: {
       heading: "Consigli pratici che fanno la differenza",
@@ -768,35 +815,50 @@ export const iguazuGuide: BrazilGuideLocalized = {
     },
     faq: [
       {
-        q: "Quanti giorni servono per visitare le Cascate dell'Iguazú?",
-        a: "Tre notti sono il minimo pratico per coprire il lato brasiliano, quello argentino, il Parco degli Uccelli e Itaipú con calma. Due notti funzionano solo se il focus è esclusivamente sulle cascate.",
+        "q": "Quanti giorni servono per visitare le Cascate dell'Iguazú?",
+        "a": "Tre notti sono il minimo pratico per coprire il lato brasiliano, quello argentino, il Parco degli Uccelli e Itaipú con calma. Due notti funzionano solo se il focus è esclusivamente sulle cascate."
       },
       {
-        q: "Qual è il periodo migliore per visitare le Cascate dell'Iguazú?",
-        a: "Aprile-settembre offre un clima più mite e una portata ancora robusta. Ottobre-marzo porta più acqua e un paesaggio più rigoglioso, ma con caldo intenso e maggiore umidità.",
+        "q": "Qual è il periodo migliore per visitare le Cascate dell'Iguazú?",
+        "a": "Aprile-settembre offre un clima più mite e una portata ancora robusta. Ottobre-marzo porta più acqua e un paesaggio più rigoglioso, ma con caldo intenso e maggiore umidità."
       },
       {
-        q: "Serve il passaporto per visitare il lato argentino delle cascate?",
-        a: "Sì, il passaporto valido è obbligatorio per attraversare il confine, anche per una visita di un giorno. Organizziamo la documentazione e il trasporto dell'attraversamento in anticipo.",
+        "q": "Serve il passaporto per visitare il lato argentino delle cascate?",
+        "a": "Sì, il passaporto valido è obbligatorio per attraversare il confine, anche per una visita di un giorno. Organizziamo la documentazione e il trasporto dell'attraversamento in anticipo."
       },
       {
-        q: "Quale lato delle cascate è migliore, il brasiliano o l'argentino?",
-        a: "Sono complementari: il lato brasiliano offre la vista panoramica d'insieme, e quello argentino permette di camminare tra e sopra le cascate, incluso il belvedere superiore della Gola del Diavolo. Consigliamo di visitare entrambi.",
+        "q": "Quale lato delle cascate è migliore, il brasiliano o l'argentino?",
+        "a": "Sono complementari: il lato brasiliano offre la vista panoramica d'insieme, e quello argentino permette di camminare tra e sopra le cascate, incluso il belvedere superiore della Gola del Diavolo. Consigliamo di visitare entrambi."
       },
       {
-        q: "Quale aeroporto usare per arrivare a Foz do Iguaçu?",
-        a: "L'aeroporto di Foz do Iguaçu (IGU), dal lato brasiliano, riceve la rete di voli domestici più ampia. L'aeroporto di Puerto Iguazú (IGR), in Argentina, è un'alternativa per chi arriva da Buenos Aires.",
+        "q": "Quale aeroporto usare per arrivare a Foz do Iguaçu?",
+        "a": "L'aeroporto di Foz do Iguaçu (IGU), dal lato brasiliano, riceve la rete di voli domestici più ampia. L'aeroporto di Puerto Iguazú (IGR), in Argentina, è un'alternativa per chi arriva da Buenos Aires."
       },
       {
-        q: "Quanto costa un viaggio a Foz do Iguaçu con Create Travel?",
-        a: "Non lavoriamo con valori di listino: il budget dipende dall'hotel, dal numero di notti e dalle esperienze private scelte su ciascun lato del confine. Un consulente umano prepara la proposta e presenta i valori per iscritto.",
+        "q": "Quanto costa un viaggio a Foz do Iguaçu con Create Travel?",
+        "a": "Non lavoriamo con valori di listino: il budget dipende dall'hotel, dal numero di notti e dalle esperienze private scelte su ciascun lato del confine. Un consulente umano prepara la proposta e presenta i valori per iscritto."
       },
+      {
+        "q": "Servono visto o vaccini per il Brasile?",
+        "a": "I requisiti dipendono dalla nazionalità e dalle date. Consulta le fonti consolari ufficiali brasiliane prima di prenotare e le indicazioni sanitarie ufficiali e un professionista di medicina dei viaggi per i vaccini, inclusa la febbre gialla quando pertinente all’itinerario."
+      },
+      {
+        "q": "Avrò guide in italiano in ogni escursione?",
+        "a": "Sì. Create Travel organizza guide in italiano in ogni escursione del tuo viaggio privato e su misura."
+      },
+      {
+        "q": "Come arrivare a Cascate dell’Iguazú?",
+        "a": "Prendi un volo internazionale verso un hub brasiliano e prosegui per Foz do Iguaçu (IGU). Continua poi con trasferimenti privati."
+      },
+      {
+        "q": "Posso combinare Cascate dell’Iguazú con altri biomi brasiliani?",
+        "a": "Il Brasile ha sei biomi terrestri più la zona costiera e marina: sette paesaggi e culture diversi. Combina Iguazú (Foresta Atlantica) con le zone umide del Pantanal e la foresta amazzonica per comprendere meglio il Brasile in un solo viaggio."
+      }
     ],
     cta: {
-      heading: "Disegniamo il vostro attraversamento delle Cascate dell'Iguazú",
-      subheading:
-        "Un consulente umano di Create Travel organizza entrambi i lati del confine, gli orari giusti e la documentazione necessaria — senza imprevisti.",
-      button: "Parla con un travel designer",
+      "heading": "Richiedi il tuo preventivo per Cascate dell’Iguazú",
+      "subheading": "Pianifica un viaggio privato e su misura con un travel designer umano. Ricevi la proposta e il preventivo scritto via WhatsApp.",
+      "button": "Richiedi un preventivo su WhatsApp"
     },
     readingMinutes: 12,
     publishedAt: "2026-08-11",
