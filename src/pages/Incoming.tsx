@@ -321,10 +321,7 @@ const Incoming = () => {
                   transition={{ duration: 0.5, delay: i * 0.05 }}
                   className="group rounded-lg overflow-hidden bg-card shadow-sm hover:shadow-xl transition-shadow"
                 >
-                  <CardWrapper
-                    {...wrapperProps}
-                    className={hasDetail ? "block h-full" : "block h-full"}
-                  >
+                  <CardWrapper {...wrapperProps} className="block h-full">
                     <div className="aspect-[4/5] overflow-hidden">
                       <img
                         src={d.image}
