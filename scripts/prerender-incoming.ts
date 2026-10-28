@@ -42,16 +42,23 @@ interface Page {
   alternates: Record<string, string>;
   body: string;
   jsonLd: object[];
+  /** When set, the page is a legacy URL: canonical points to the target
+   *  and a meta-refresh redirects visitors without JS. */
+  redirectTo?: string;
 }
 
 function renderHtml(template: string, pg: Page): string {
   const url = SITE + pg.path;
+  const canonicalUrl = pg.redirectTo ? SITE + pg.redirectTo : url;
   const alt = Object.entries(pg.alternates)
     .map(([l, path]) => `<link rel="alternate" hreflang="${l}" href="${SITE}${path}" />`)
     .join("\n    ");
+  const refresh = pg.redirectTo
+    ? `<meta http-equiv="refresh" content="0; url=${canonicalUrl}">\n    `
+    : "";
   const head = `<title>${esc(pg.title)}</title>
     <meta name="description" content="${esc(pg.description)}">
-    <link rel="canonical" href="${url}" />
+    ${refresh}<link rel="canonical" href="${canonicalUrl}" />
     ${alt}
     <link rel="alternate" hreflang="x-default" href="${SITE}${pg.alternates.en ?? pg.path}" />
     <script type="application/ld+json">${JSON.stringify(pg.jsonLd).replace(/</g, "\\u003c")}</script>`;
@@ -102,32 +109,22 @@ export async function buildPages(load: (id: string) => Promise<any>): Promise<Pa
   const cta = (lang: string, dest: string, label: string) =>
     `<p><a href="https://wa.me/${WA}?text=${encodeURIComponent(QUOTE_MSG[lang](dest))}">${esc(label)}</a></p>`;
 
-  for (const [slug, map] of Object.entries<any>(INCOMING_DESTINO_CONTENT)) {
-    const alternates: Record<string, string> = {};
-    for (const l of LANGS) if (map[l]) alternates[l] = `/${l}/incoming/${slug}`;
+  // Legacy /incoming/:slug detail pages now redirect to the Brazil guides
+  // (preferred layout, same four languages). Emit static redirect pages so
+  // already-indexed URLs keep working for crawlers and visitors without JS.
+  for (const slug of Object.keys(INCOMING_DESTINO_CONTENT)) {
     for (const lang of LANGS) {
-      const c = map[lang];
-      if (!c) continue;
+      const target = guidePath(lang, slug);
       const dest = nameOf(slug, lang);
-      const body = [
-        `<h1>${esc(c.hero?.title)}</h1>`,
-        p(c.hero?.subtitle),
-        ...(c.longIntro ?? []).map(p),
-        sec(c.whatToDo?.heading, items(c.whatToDo?.items)),
-        sec(c.bestTime?.heading, p(c.bestTime?.text)),
-        sec(c.howToGet?.heading, p(c.howToGet?.text)),
-        sec(c.whereToStay?.heading, p(c.whereToStay?.text)),
-        sec(c.faqs?.heading, (c.faqs?.items ?? []).map((f: any) => `<h3>${esc(f.q)}</h3>${p(f.a)}`).join("")),
-        sec(c.finalCta?.heading, p(c.finalCta?.subheading) + cta(lang, dest, c.finalCta?.button)),
-      ].join("");
       pages.push({
         path: `/${lang}/incoming/${slug}`,
         lang,
-        title: c.metaTitle,
-        description: c.metaDescription,
-        alternates,
-        body,
-        jsonLd: [agencyLd, faqLd(c.faqs?.items ?? [])],
+        title: dest,
+        description: dest,
+        alternates: {},
+        body: `<p><a href="${SITE}${target}">${esc(dest)}</a></p>`,
+        jsonLd: [],
+        redirectTo: target,
       });
     }
   }
