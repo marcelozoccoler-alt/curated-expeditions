@@ -205,14 +205,14 @@ export const maragogiGuide: BrazilGuideLocalized = {
   },
 
   en: {
-    metaTitle: "Maragogi & Alagoas Coast Guide: Natural Pools & Boutique Stays",
+    metaTitle: "Maragogi, Brazil: Itinerary, Best Time & Quote",
     metaDescription:
-      "A curated guide to Maragogi and Alagoas' northern coast: when the reef pools reveal their colour, São Miguel dos Milagres and the Ecological Route, Patacho Beach, Japaratinga, Barra de São Miguel and the best beachfront boutique inns.",
+      "Private, tailor-made Maragogi trip: itinerary, best time and how to get there. Request a quote on WhatsApp.",
     keywords:
-      "maragogi brazil, maragogi natural pools, sao miguel dos milagres, alagoas ecological route, patacho beach, japaratinga, barra de sao miguel, brazilian caribbean, boutique inn alagoas",
-    h1: "Maragogi and Brazil's 'Caribbean' coast: a curated guide to northern Alagoas",
+      "maragogi brazil, maragogi natural pools, sao miguel dos milagres, alagoas ecological route, patacho beach, japaratinga, barra de sao miguel, brazilian caribbean, boutique inn alagoas, maragogi tour, maragogi itinerary, how to get to maragogi, best time maragogi",
+    h1: "Maragogi: itinerary, best time and how to get there",
     aiAnswer:
-      "The best time for Maragogi and the Alagoas Ecological Route is September to March (drier weather, calmer sea), always timing the reef-pool boat trips around the morning low tide; plan 5 to 7 nights, flying into Maceió (MCZ) or Recife (REC), about a two-hour drive away.",
+      "The best time for Maragogi and the Alagoas Ecological Route is September to March (drier weather, calmer sea), always timing the reef-pool boat trips around the morning low tide; plan 5 to 7 nights, flying into Maceió (MCZ) or Recife (REC), about a two-hour drive away. Create Travel designs private, tailor-made Maragogi trips for international travellers, with English-speaking guides, and sends a written quote via WhatsApp.",
     intro: [
       "Maragogi has been called 'Brazil's Caribbean' for so long the nickname turned into a cliché — and yet the first time the boat cuts through emerald water over the reef pools and stops on a sandbank in the middle of the ocean, the cliché earns its keep. But Maragogi is only the gateway to a coastline stretching nearly 130 kilometres, from Barra de São Miguel to Japaratinga, with very different landscapes and rhythms along the way.",
       "This guide comes from real trips along the Ecological Route: which stretch suits silence, which suits a good table, at what tide the natural pools truly appear, and which inns deserve the word 'boutique' rather than simply borrowing it.",
@@ -333,32 +333,35 @@ export const maragogiGuide: BrazilGuideLocalized = {
       ],
     },
     itinerary: {
-      heading: "How to combine Maragogi with a wider Brazil itinerary",
-      intro:
-        "The Alagoas coast works very well as a trip's closing chapter — after cultural or nature immersion, the sea arrives as decompression.",
-      items: [
-        {
-          title: "Maragogi + Recife and Olinda — 8 to 9 days",
-          text: "Three days of historic city and colonial heritage, followed by five days of coast. About a two-hour road transfer between the two.",
-        },
-        {
-          title: "Maragogi + Porto de Galinhas — 9 to 10 days",
-          text: "Two neighbouring coasts with different personalities: Porto de Galinhas more built up, Maragogi and the Ecological Route more intimate.",
-        },
-        {
-          title: "Maragogi + Salvador and Chapada Diamantina — 12 days",
-          text: "Afro-Bahian culture and highlands in the middle of the trip, Alagoas sea to close it. Flight connection via Recife or Salvador.",
-        },
-        {
-          title: "Maragogi + the Amazon — 12 to 14 days",
-          text: "Rainforest immersion first, beach decompression after. One of the most praised combinations among long-haul travellers.",
-        },
-        {
-          title: "Maragogi + Fernando de Noronha — 9 to 10 days",
-          text: "Noronha for diving and singular scenery, Maragogi to unwind at a boutique inn with more room and fewer access restrictions.",
-        },
-      ],
-    },
+      "heading": "Suggested Maragogi itinerary and Brazil combinations",
+      "intro": "A private, tailor-made suggested itinerary, adjusted to your dates, pace and local conditions. Allow buffer nights around flight connections.",
+      "items": [
+            {
+                  "title": "Day 1 — Arrival on the Alagoas coast",
+                  "text": "Private transfer from Maceió or Recife; settle in for five nights."
+            },
+            {
+                  "title": "Day 2 — Maragogi reef pools",
+                  "text": "Plan a guided boat outing around the morning low tide, subject to sea conditions and access rules."
+            },
+            {
+                  "title": "Day 3 — Japaratinga",
+                  "text": "Explore the neighbouring coast with time to unwind by the sea."
+            },
+            {
+                  "title": "Day 4 — Ecological Route",
+                  "text": "Visit São Miguel dos Milagres and Patacho Beach at a relaxed pace."
+            },
+            {
+                  "title": "Day 5 — Unhurried beach day",
+                  "text": "Keep a day free for rest or a rescheduled pool outing if conditions require."
+            },
+            {
+                  "title": "Day 6 — Departure",
+                  "text": "Private road transfer to your chosen departure airport."
+            }
+      , {"title": "Combine two or more Brazilian biomes", "text": "Brazil has six land biomes plus the coastal and marine zone — seven distinct landscapes and cultures. Combine an Amazon rainforest stay with Maragogi’s coastal and marine landscapes as a restful finale."}]
+},
     tips: {
       heading: "Practical tips that make a difference",
       items: [
@@ -393,15 +396,13 @@ export const maragogiGuide: BrazilGuideLocalized = {
       },
       {
         q: "How much does a trip to Maragogi with Create Travel cost?",
-        a: "We don't work with off-the-shelf pricing: the budget depends on the chosen inn, number of nights and season. A human consultant builds the proposal and sends figures in writing.",
-      },
-    ],
+        a: "We don't work with off-the-shelf pricing: the proposal depends on the chosen inn, number of nights and season. A human consultant builds the proposal and sends figures in writing.",
+      }, {"q": "How do I get to Maragogi?", "a": "Take an international flight to a Brazilian hub, then connect to Maceió (MCZ) or Recife (REC). Create Travel arranges private road transfers to your chosen coastal base."}, {"q": "Do I need a visa or vaccines for Brazil?", "a": "Visa requirements depend on your nationality and travel dates. Check official Brazilian consular guidance before booking, and consult official health advice and a travel-health professional about vaccines, including yellow fever where relevant to your itinerary."}, {"q": "Are English-speaking guides available?", "a": "Create Travel provides English-speaking guides on every excursion as part of your private, tailor-made trip."}, {"q": "Can I combine Maragogi with other Brazilian biomes?", "a": "Brazil has six land biomes plus the coastal and marine zone — seven distinct landscapes and cultures. Combine an Amazon rainforest stay with Maragogi’s coastal and marine landscapes as a restful finale."}],
     cta: {
-      heading: "Let's design your Alagoas coast",
-      subheading:
-        "A human consultant at Create Travel chooses the beach, the inn and the tide that fit your itinerary — and manages every transfer.",
-      button: "Talk to a travel designer",
-    },
+      "heading": "Request your Maragogi trip quote",
+      "subheading": "Plan a private, tailor-made journey with a human travel designer, who shapes your itinerary around your dates, interests and pace and sends a written quote via WhatsApp.",
+      "button": "Request a quote on WhatsApp"
+},
     readingMinutes: 12,
     publishedAt: "2026-08-11",
   },

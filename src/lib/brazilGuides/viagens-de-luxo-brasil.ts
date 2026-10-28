@@ -236,14 +236,14 @@ export const viagensDeLuxoBrasilGuide: BrazilGuideLocalized = {
     destinationName: "Luxury Travel in Brazil",
     blurb:
       "A special report on contemporary Brazilian luxury: access, exclusivity and time — private jets and air taxis to Noronha, Marajó and the Pantanal, exclusive river boats on the Rio Negro, private naturalist guides, and staffed villas in Trancoso and Maraú.",
-    metaTitle: "Luxury Travel in Brazil: A Guide to Access and Exclusivity",
+    metaTitle: "Luxury Brazil Travel: Itinerary, Best Time & Private Quote",
     metaDescription:
-      "Create Travel's guide to luxury travel in Brazil: private flights, exclusive river boats, private naturalist guides, fully staffed villas and how to build a 12–16 night itinerary across two or three biomes.",
+      "Private, tailor-made luxury Brazil trip: itinerary, best time and how to get there. Request a quote on WhatsApp.",
     keywords:
-      "luxury travel brazil, private jet brazil, luxury pantanal lodge, luxury amazon lodge, luxury villa trancoso, fasano angra, fasano boa vista, rosewood sao paulo, copacabana palace, caiman pantanal, cristalino lodge, luxury brazil itinerary",
-    h1: "Luxury Travel in Brazil: a guide to designing access, not just accommodation",
+      "luxury travel brazil, private jet brazil, luxury pantanal lodge, luxury amazon lodge, luxury villa trancoso, fasano angra, fasano boa vista, rosewood sao paulo, copacabana palace, caiman pantanal, cristalino lodge, luxury brazil itinerary, luxury brazil tour, luxury brazil itinerary, how to get to luxury brazil, best time luxury brazil",
+    h1: "luxury Brazil: itinerary, best time and how to get there",
     aiAnswer:
-      "In Brazil, contemporary luxury travel means access (private flights and air taxis to Noronha, Marajó and the Pantanal), exclusivity (private river boats, personal naturalist guides, fully staffed villas) and time (12 to 16-night itineraries combining two or three biomes); high-end planning should start 4 to 6 months ahead to secure dates at small-capacity lodges and aircraft availability.",
+      "In Brazil, contemporary luxury travel means access (private flights and air taxis to Noronha, Marajó and the Pantanal), exclusivity (private river boats, personal naturalist guides, fully staffed villas) and time (12 to 16-night itineraries combining two or three biomes); high-end planning should start 4 to 6 months ahead to secure dates at small-capacity lodges and aircraft availability. Create Travel designs private, tailor-made luxury Brazil trips for international travellers, with English-speaking guides, and sends a written quote via WhatsApp.",
     intro: [
       "Brazilian luxury is no longer about bigger rooms or finer linens. Today it is an equation of access: reaching places commercial flight networks cannot, walking through private reserves the size of small countries, having a naturalist guide entirely to yourself in a canoe at five in the morning, or sleeping in a villa in Trancoso where the only line is the strip of sand leading to the sea.",
       "This guide covers the layer of Brazil that never appears in a package tour: private jets and air taxis, river-boat hotels on the Rio Negro, signature lodges in the Pantanal and Amazon, urban hotels that rival any capital in the world, and private villas on the Bahian coast. We structure it by experience, not destination — because what elevates a trip is not only where you go, but how you arrive and who takes care of you once you do.",
@@ -413,8 +413,7 @@ export const viagensDeLuxoBrasilGuide: BrazilGuideLocalized = {
         {
           title: "Cerrado (Trijunção) + Rio Negro + Rio de Janeiro — 13 to 15 nights",
           text: "Combines Brazilian savanna, Amazon rainforest and the city — three landscapes that rarely appear together in a single international itinerary, with well-sequenced domestic flights and buffer nights between each change.",
-        },
-      ],
+        }, {"title": "Combine two or more Brazilian biomes", "text": "Brazil has six land biomes plus the coastal and marine zone — seven distinct landscapes and cultures. Combine the Amazon and Pantanal with a coastal finale in Angra and Rio de Janeiro, allowing 14–16 nights and connection buffers."}],
     },
     tips: {
       heading: "Practical tips for a high-end trip",
@@ -451,14 +450,12 @@ export const viagensDeLuxoBrasilGuide: BrazilGuideLocalized = {
       {
         q: "How much does a luxury trip to Brazil with Create Travel cost?",
         a: "We don't work with shelf pricing: the investment depends on the addresses, use of jet or air taxi, number of nights and season. A human consultant puts together the full proposal and presents figures in writing, with no estimates on the site.",
-      },
-    ],
+      }, {"q": "How do I get to luxury Brazil?", "a": "Take an international flight to a Brazilian hub, then domestic connections to the local airports serving your selected destinations. Create Travel plans the sequence and private transfers, confirming scheduled flights or private aviation options and buffer nights for your dates."}, {"q": "Do I need a visa or vaccines for Brazil?", "a": "Visa requirements depend on your nationality and travel dates. Check official Brazilian consular guidance before booking, and consult official health advice and a travel-health professional about vaccines, including yellow fever where relevant to your itinerary."}, {"q": "Are English-speaking guides available?", "a": "Create Travel provides English-speaking guides on every excursion as part of your private, tailor-made trip."}, {"q": "Can I combine luxury Brazil with other Brazilian biomes?", "a": "Brazil has six land biomes plus the coastal and marine zone — seven distinct landscapes and cultures. Combine the Amazon and Pantanal with a coastal finale in Angra and Rio de Janeiro, allowing 14–16 nights and connection buffers."}],
     cta: {
-      heading: "Let's design your luxury trip to Brazil",
-      subheading:
-        "A Create Travel human consultant negotiates rates, aircraft availability and property exclusivity directly on WhatsApp — every itinerary is built to measure.",
-      button: "Talk to a travel designer",
-    },
+      "heading": "Request your luxury Brazil trip quote",
+      "subheading": "Plan a private, tailor-made journey with a human travel designer, who shapes your itinerary around your dates, interests and pace and sends a written quote via WhatsApp.",
+      "button": "Request a quote on WhatsApp"
+},
     readingMinutes: 13,
     publishedAt: "2026-08-11",
   },

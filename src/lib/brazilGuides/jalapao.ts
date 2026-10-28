@@ -189,14 +189,14 @@ export const jalapaoGuide: BrazilGuideLocalized = {
   },
 
   en: {
-    metaTitle: "Jalapão Guide: Best Time, Stays & Itineraries",
+    metaTitle: "Jalapão, Brazil: Itinerary, Best Time & Quote",
     metaDescription:
-      "A curated guide to Jalapão, Brazil: best time to visit month by month, natural springs and golden dunes, the best stays by traveler profile, and how to combine this Tocantins cerrado with the rest of Brazil.",
+      "Private, tailor-made Jalapão trip: itinerary, best time and how to get there. Request a quote on WhatsApp.",
     keywords:
-      "jalapao tocantins guide, best time jalapao, fervedouro jalapao, jalapao dunes, cachoeira da velha, mumbuca capim dourado, jalapao itinerary, jalapao 4x4 trip, jalapao lodging",
-    h1: "Jalapão: a curated guide to Brazil's golden cerrado turned desert",
+      "jalapao tocantins guide, best time jalapao, fervedouro jalapao, jalapao dunes, cachoeira da velha, mumbuca capim dourado, jalapao itinerary, jalapao 4x4 trip, jalapao lodging, jalapão tour, jalapão itinerary, how to get to jalapão, best time jalapão",
+    h1: "Jalapão: itinerary, best time and how to get there",
     aiAnswer:
-      "The best time to visit Jalapão is May to September (dry season, firm dirt roads and clear skies for the natural springs and dunes), with July as peak season for tourism infrastructure; plan a minimum of 4–5 nights, flying into Palmas with 4x4 transfers between distant highlights.",
+      "The best time to visit Jalapão is May to September (dry season, firm dirt roads and clear skies for the natural springs and dunes), with July as peak season for tourism infrastructure; plan a minimum of 4–5 nights, flying into Palmas with 4x4 transfers between distant highlights. Create Travel designs private, tailor-made Jalapão trips for international travellers, with English-speaking guides, and sends a written quote via WhatsApp.",
     intro: [
       "Jalapão is one of Brazil's last great open spaces — 34,000 km² of preserved cerrado in eastern Tocantins, where golden sand dunes sit beside crystal-clear rivers and the ground opens into natural pools called fervedouros, where an underground current pushes your body upward as if you were floating. There is no paved road inside the region: everything is done by 4x4, which preserves the place and also sets the trip's pace.",
       "This guide comes from people who have driven Jalapão's red dirt roads dozens of times, tested the available lodgings and learned, in practice, which springs are worth the drive and which merely repeat the same scenery. We say it honestly: the hotel infrastructure here is simpler than in the Amazon or Chapada dos Veadeiros, and that is not a flaw — it's the nature of the destination.",
@@ -306,28 +306,35 @@ export const jalapaoGuide: BrazilGuideLocalized = {
       ],
     },
     itinerary: {
-      heading: "How to combine Jalapão with a Brazil itinerary",
-      intro:
-        "Jalapão requires careful planning: internal transfers are long and regional air access is limited to Palmas, making it essential to reserve an extra buffer day before any international connection.",
-      items: [
-        {
-          title: "Jalapão + Chapada dos Veadeiros — 10 to 12 days",
-          text: "Central Brazil's two great cerrados, in sequence. Connection via Palmas and Brasília, with a buffer night between legs to absorb any delays.",
-        },
-        {
-          title: "Jalapão + Lençóis Maranhenses — 10 days",
-          text: "Two dune landscapes with completely different geological origins — dry cerrado on one side, freshwater lagoons between dunes on the other. Connection via São Luís.",
-        },
-        {
-          title: "Jalapão + Amazon — 12 to 14 days",
-          text: "From dry cerrado to dense rainforest, a full geographic contrast of central-northern Brazil. Recommended for travellers with an appetite for more elaborate logistics.",
-        },
-        {
-          title: "Standalone Jalapão with overnight in Palmas — 6 to 7 days",
-          text: "A more compact format for those who want to see only Jalapão, with an arrival and a departure night in Palmas ensuring comfort and logistical safety.",
-        },
-      ],
-    },
+      "heading": "Suggested Jalapão itinerary and Brazil combinations",
+      "intro": "A private, tailor-made suggested itinerary, adjusted to your dates, pace and local conditions. Allow buffer nights around flight connections.",
+      "items": [
+            {
+                  "title": "Day 1 — Palmas arrival",
+                  "text": "Stay overnight in Palmas before the long 4x4 journey."
+            },
+            {
+                  "title": "Day 2 — Into Jalapão",
+                  "text": "Travel with your private guide and 4x4, leaving time to settle in after the drive."
+            },
+            {
+                  "title": "Day 3 — Fervedouro springs",
+                  "text": "Explore the natural springs, limiting stops to allow for distances and rest."
+            },
+            {
+                  "title": "Day 4 — Dunes and Mumbuca",
+                  "text": "Combine golden dunes with a scheduled Mumbuca community visit, subject to local access."
+            },
+            {
+                  "title": "Day 5 — Cachoeira da Velha",
+                  "text": "Visit the waterfall with your guide; sequence the day around road conditions."
+            },
+            {
+                  "title": "Day 6 — Return to Palmas",
+                  "text": "Return to Palmas and allow a buffer night before onward connections."
+            }
+      , {"title": "Combine two or more Brazilian biomes", "text": "Brazil has six land biomes plus the coastal and marine zone — seven distinct landscapes and cultures. Combine Jalapão’s Cerrado springs and dunes with an Amazon rainforest stay, allowing extra time for domestic connections."}]
+},
     tips: {
       heading: "Practical tips that make a difference",
       items: [
@@ -358,19 +365,17 @@ export const jalapaoGuide: BrazilGuideLocalized = {
       },
       {
         q: "How do you get to Jalapão?",
-        a: "The reference airport is Palmas, the capital of Tocantins, followed by a car or 4x4 transfer of about four to five hours to Mateiros, the most-used base for exploring the region.",
+        a: "Take an international flight to a Brazilian hub, then a domestic connection to Palmas. Create Travel arranges private 4x4 transfers into Jalapão, with driving times depending on the route and road conditions.",
       },
       {
         q: "How much does a trip to Jalapão cost with Create Travel?",
-        a: "We do not work with off-the-shelf pricing: the budget depends on the number of nights, guides and vehicles hired and the season. A human consultant builds the proposal and presents figures in writing, with no estimates published on the site.",
-      },
-    ],
+        a: "We do not work with off-the-shelf pricing: the proposal depends on the number of nights, guides and vehicles hired and the season. A human consultant builds the proposal and presents figures in writing, with no estimates published on the site.",
+      }, {"q": "Do I need a visa or vaccines for Brazil?", "a": "Visa requirements depend on your nationality and travel dates. Check official Brazilian consular guidance before booking, and consult official health advice and a travel-health professional about vaccines, including yellow fever where relevant to your itinerary."}, {"q": "Are English-speaking guides available?", "a": "Create Travel provides English-speaking guides on every excursion as part of your private, tailor-made trip."}, {"q": "Can I combine Jalapão with other Brazilian biomes?", "a": "Brazil has six land biomes plus the coastal and marine zone — seven distinct landscapes and cultures. Combine Jalapão’s Cerrado springs and dunes with an Amazon rainforest stay, allowing extra time for domestic connections."}],
     cta: {
-      heading: "Let's design your Jalapão",
-      subheading:
-        "A human consultant at Create Travel selects the guide, vehicle and season right for your profile — and manages every leg of the trip.",
-      button: "Talk to a travel designer",
-    },
+      "heading": "Request your Jalapão trip quote",
+      "subheading": "Plan a private, tailor-made journey with a human travel designer, who shapes your itinerary around your dates, interests and pace and sends a written quote via WhatsApp.",
+      "button": "Request a quote on WhatsApp"
+},
     readingMinutes: 11,
     publishedAt: "2026-08-11",
   },
