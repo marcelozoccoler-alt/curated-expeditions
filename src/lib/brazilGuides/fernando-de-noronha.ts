@@ -438,14 +438,14 @@ export const fernandoDeNoronhaGuide: BrazilGuideLocalized = {
   },
 
   es: {
-    metaTitle: "Fernando de Noronha: guía autoral de época, tasas y posadas",
+    metaTitle: "fernando-de-noronha, Brasil: Itinerario, Mejor Época y Presupuesto",
     metaDescription:
-      "Guía completa de Fernando de Noronha, Brasil: tasa de preservación ambiental y entrada del parque marino, Bahía do Sancho, buceo, delfines rotadores, mejor época de mar calmo y las mejores posadas por perfil.",
+      "Viaje privado y a medida: fernando-de-noronha. Itinerario sugerido, mejor época y cómo llegar. Solicita un presupuesto por WhatsApp.",
     keywords:
-      "fernando de noronha brasil, bahia do sancho, tasa preservacion noronha, buceo fernando de noronha, delfin rotador, mejor epoca fernando de noronha, posadas fernando de noronha, entrada parque nacional marino noronha, viaje lujo fernando de noronha",
-    h1: "Fernando de Noronha: guía autoral de quienes vuelven cada año",
+      "fernando de noronha brasil, bahia do sancho, tasa preservacion noronha, buceo fernando de noronha, delfin rotador, mejor epoca fernando de noronha, posadas fernando de noronha, entrada parque nacional marino noronha, viaje lujo fernando de noronha, fernando-de-noronha tour, itinerario fernando-de-noronha, cómo llegar a fernando-de-noronha, mejor época fernando-de-noronha",
+    h1: "fernando-de-noronha: itinerario, mejor época y cómo llegar",
     aiAnswer:
-      "La mejor época para visitar Fernando de Noronha va de agosto a diciembre, con mar calmo y visibilidad de hasta 40 metros para el buceo; lo ideal es quedarse de 5 a 7 noches, llegando en vuelo con conexión en Recife (REC) o Natal (NAT), y hay que pagar la tasa de preservación ambiental por día y, además, la entrada del parque nacional marino.",
+      "La mejor época para visitar Fernando de Noronha va de agosto a diciembre, con mar calmo y visibilidad de hasta 40 metros para el buceo; lo ideal es quedarse de 5 a 7 noches, llegando en vuelo con conexión en Recife (REC) o Natal (NAT), y hay que pagar la tasa de preservación ambiental por día y, además, la entrada del parque nacional marino. Create Travel diseña viajes privados y a medida a fernando-de-noronha para viajeros internacionales, con guías en español, y envía un presupuesto por escrito por WhatsApp.",
     intro: [
       "Fernando de Noronha es un archipiélago volcánico a 545 km de la costa de Pernambuco, con poco más de 17 km² de tierra emergida y un sistema de visitación diseñado para proteger lo que lo hace único: arrecifes intactos, una de las mayores poblaciones de delfines rotadores del mundo y bahías elegidas repetidamente entre las más bellas del planeta. No es un destino de paso: impone su propio ritmo, con un límite diario de visitantes y reglas que forman parte de la experiencia, no un obstáculo para ella.",
       "Esta guía reúne lo que aprendimos pisando la isla en distintas épocas del año: cuándo el mar entrega visibilidad de acuario, cómo funcionan las tasas, qué playas exigen caminata y qué posadas realmente valen la tarifa más alta de Brasil. Antes de cualquier cotización, ayudamos a decidir cuántas noches merece esta isla — normalmente, más de lo que se imagina.",
@@ -562,31 +562,58 @@ export const fernandoDeNoronhaGuide: BrazilGuideLocalized = {
       ],
     },
     itinerary: {
-      heading: "Cómo integrar Noronha en una ruta por Brasil",
-      intro:
-        "La isla tiene una malla aérea limitada y sujeta al clima, así que nunca encajamos a Noronha en conexiones ajustadas. Siempre recomendamos una noche de seguridad en Recife o Natal antes y después del archipiélago.",
-      items: [
+      "heading": "Itinerario sugerido para fernando-de-noronha — 5 noches / 6 días",
+      "intro": "La isla tiene una malla aérea limitada y sujeta al clima, así que nunca encajamos a Noronha en conexiones ajustadas. Siempre recomendamos una noche de seguridad en Recife o Natal antes y después del archipiélago.",
+      "items": [
         {
-          title: "Noronha + Recife y Porto de Galinhas — 9 a 11 días",
-          text: "Cuatro a cinco noches de isla y el resto entre la capital pernambucana y las piscinas naturales de Porto de Galinhas. El contraste entre aislamiento y vida costera agrada a quienes viajan por primera vez al Nordeste.",
+          "title": "Día 1 — Llegada a la isla",
+          "text": "Instálate en tu pousada y explora Vila dos Remédios, con puesta de sol en Forte dos Remédios."
         },
         {
-          title: "Noronha + Natal y Pipa — 9 días",
-          text: "La conexión directa con Natal (NAT) reduce el tiempo de vuelo hasta la isla. Pipa complementa con acantilados, delfines de mar abierto y una escena gastronómica en crecimiento.",
+          "title": "Día 2 — Sancho y mirador de delfines",
+          "text": "Visita Baía do Sancho y el Mirante dos Golfinhos respetando las normas del parque. Los avistamientos no están garantizados."
         },
         {
-          title: "Noronha + Maragogi y Alagoas — 10 a 12 días",
-          text: "Une el buceo de Noronha a las piscinas naturales de agua cristalina de la Costa dos Corais, con trayecto aéreo vía Recife.",
+          "title": "Día 3 — Exploración en barco",
+          "text": "Salida en barco con paradas de snorkel elegidas según el estado del mar y los permisos vigentes del parque."
         },
         {
-          title: "Noronha + Amazonia — 12 a 14 días",
-          text: "Una ruta de dos biomas radicalmente diferentes: isla volcánica y selva tropical, siempre con noche de seguridad en las conexiones vía Recife o Manaos.",
+          "title": "Día 4 — Atalaia",
+          "text": "Visita guiada a Atalaia sujeta a permisos anticipados y horarios de marea, con tiempo para descansar después."
         },
         {
-          title: "Noronha + Río de Janeiro — 10 días",
-          text: "Isla al inicio del viaje para aprovechar el mar más calmo del cuerpo y de la mente, cerrando en la gran ciudad, cultura y gastronomía carioca.",
+          "title": "Día 5 — Buceo o playa",
+          "text": "Elige buceo adaptado a tu experiencia o un día tranquilo en Praia da Conceição."
         },
-      ],
+        {
+          "title": "Día 6 — Salida",
+          "text": "Salida tras cinco noches en la isla, con una noche de margen en el continente antes de la conexión internacional."
+        },
+        {
+          "title": "Noronha + Recife y Porto de Galinhas — 9 a 11 días",
+          "text": "Cuatro o cinco noches en la isla y el resto entre la capital de Pernambuco y las piscinas naturales de Porto de Galinhas: aislamiento y vida costera para una primera visita al Nordeste."
+        },
+        {
+          "title": "Noronha + Natal y Pipa — 9 días",
+          "text": "La conexión directa vía Natal (NAT) acorta el vuelo a la isla. Pipa añade acantilados, posibilidades de observar delfines en mar abierto y una gastronomía en expansión."
+        },
+        {
+          "title": "Noronha + Maragogi y Alagoas — 10 a 12 días",
+          "text": "Combina el buceo en Noronha con las piscinas naturales cristalinas de la Costa de los Corales, con conexión vía Recife."
+        },
+        {
+          "title": "Noronha + Amazonía — 12 a 14 días",
+          "text": "Isla volcánica y selva tropical en un mismo viaje, siempre con una noche de margen en las conexiones vía Recife o Manaus."
+        },
+        {
+          "title": "Noronha + Rio de Janeiro — 10 días",
+          "text": "Primero la isla para descansar junto al mar, y después la gran ciudad, la cultura y la gastronomía de Río."
+        },
+        {
+          "title": "Combina dos o más biomas brasileños",
+          "text": "Brasil tiene seis biomas terrestres — Amazonía, Bosque Atlántico, Cerrado, Caatinga, Pantanal y Pampa — más la zona costera y marina: siete paisajes y culturas distintos. Combina la selva amazónica vía Recife, dejando noches de margen para las conexiones. Adaptamos la secuencia a las condiciones estacionales y dejamos tiempo para los traslados."
+        }
+      ]
     },
     tips: {
       heading: "Consejos prácticos que marcan la diferencia",
@@ -601,49 +628,60 @@ export const fernandoDeNoronhaGuide: BrazilGuideLocalized = {
     },
     faq: [
       {
-        q: "¿Cuántos días son necesarios para conocer Fernando de Noronha?",
-        a: "Cinco noches es el mínimo para ver las principales playas, bucear al menos una vez y observar a los delfines sin prisa. Siete noches permiten explorar con ritmo humano, con días de descanso entre paseos.",
+        "q": "¿Cuántos días son necesarios para conocer Fernando de Noronha?",
+        "a": "Cinco noches es el mínimo para ver las principales playas, bucear al menos una vez y observar a los delfines sin prisa. Siete noches permiten explorar con ritmo humano, con días de descanso entre paseos."
       },
       {
-        q: "¿Cuál es la mejor época para visitar Fernando de Noronha?",
-        a: "De agosto a diciembre el mar está más calmo y la visibilidad para bucear es mejor. De enero a julio hay más lluvia, pero atrae a los surfistas por olas más grandes y suele haber menos gente en la isla.",
+        "q": "¿Cuál es la mejor época para visitar Fernando de Noronha?",
+        "a": "De agosto a diciembre el mar está más calmo y la visibilidad para bucear es mejor. De enero a julio hay más lluvia, pero atrae a los surfistas por olas más grandes y suele haber menos gente en la isla."
       },
       {
-        q: "¿Qué es la tasa de preservación ambiental de Noronha?",
-        a: "Es un cobro diario obligatorio para todo visitante que financia la conservación del archipiélago; el valor aumenta según los días de estadía y se paga aparte de la entrada del parque nacional marino.",
+        "q": "¿Qué es la tasa de preservación ambiental de Noronha?",
+        "a": "Es un cobro diario obligatorio para todo visitante que financia la conservación del archipiélago; el valor aumenta según los días de estadía y se paga aparte de la entrada del parque nacional marino."
       },
       {
-        q: "¿Es verdad que Fernando de Noronha limita el número de visitantes?",
-        a: "Sí. La isla tiene un tope diario de visitantes definido por ley, lo que preserva los arrecifes y la experiencia de cada playa, pero también exige reservar posada y paseos con bastante antelación, especialmente entre agosto y enero.",
+        "q": "¿Es verdad que Fernando de Noronha limita el número de visitantes?",
+        "a": "Sí. La isla tiene un tope diario de visitantes definido por ley, lo que preserva los arrecifes y la experiencia de cada playa, pero también exige reservar posada y paseos con bastante antelación, especialmente entre agosto y enero."
       },
       {
-        q: "¿Cómo llegar a Fernando de Noronha?",
-        a: "Los vuelos parten de Recife (REC) o Natal (NAT), con una duración aproximada de una hora y media y una hora respectivamente, en aeronaves más pequeñas y frecuencia limitada — recomendamos comprar los billetes en cuanto la fecha esté definida.",
+        "q": "¿Cuánto cuesta un viaje a Fernando de Noronha con Create Travel?",
+        "a": "No trabajamos con valores de estante: el presupuesto depende de la posada, el número de noches, la época y el itinerario de buceo o senderismo elegido. Un consultor humano arma la propuesta y envía los valores por escrito."
       },
       {
-        q: "¿Cuánto cuesta un viaje a Fernando de Noronha con Create Travel?",
-        a: "No trabajamos con valores de estante: el presupuesto depende de la posada, el número de noches, la época y el itinerario de buceo o senderismo elegido. Un consultor humano arma la propuesta y envía los valores por escrito.",
+        "q": "¿Necesito visado o vacunas para Brasil?",
+        "a": "Los requisitos de visado dependen de tu nacionalidad y pueden cambiar. Consulta fuentes oficiales consulares y de inmigración brasileñas antes de reservar. Acude con antelación a un profesional de salud del viajero y consulta las recomendaciones sanitarias oficiales sobre vacunas habituales, fiebre amarilla y precauciones regionales."
       },
+      {
+        "q": "¿Hay guías en español en todas las excursiones?",
+        "a": "Sí. Create Travel ofrece guías en español en todas las excursiones de tu itinerario privado y a medida."
+      },
+      {
+        "q": "¿Cómo llegar para un viaje a fernando-de-noronha?",
+        "a": "Toma un vuelo internacional a Brasil y conecta vía Recife (REC) o Natal (NAT) con Fernando de Noronha. Deja noches de margen por los vuelos sensibles al tiempo. Create Travel organiza traslados privados hasta tu alojamiento o punto de embarque."
+      },
+      {
+        "q": "¿Puedo combinar fernando-de-noronha con otros biomas brasileños?",
+        "a": "Sí. Brasil tiene seis biomas terrestres — Amazonía, Bosque Atlántico, Cerrado, Caatinga, Pantanal y Pampa — más la zona costera y marina: siete paisajes y culturas distintos. Combina la selva amazónica vía Recife, dejando noches de margen para las conexiones. Tu diseñador de viajes comprueba la compatibilidad estacional y prevé tiempos de viaje realistas entre regiones."
+      }
     ],
     cta: {
-      heading: "Diseñemos su Fernando de Noronha",
-      subheading:
-        "Un consultor humano de Create Travel elige la posada, la época y los paseos correctos para su perfil — y cuida cada conexión aérea.",
-      button: "Hablar con un travel designer",
+      "heading": "Solicita tu presupuesto para fernando-de-noronha",
+      "subheading": "Un diseñador de viajes humano de Create Travel planifica tu viaje privado y a medida según tus intereses y tu ritmo, y te envía una propuesta por escrito.",
+      "button": "Solicitar presupuesto por WhatsApp"
     },
     readingMinutes: 12,
     publishedAt: "2026-08-11",
   },
 
   it: {
-    metaTitle: "Fernando de Noronha: guida autoriale su stagione, tasse e alloggi",
+    metaTitle: "fernando-de-noronha, Brasile: Itinerario, Periodo Migliore e Preventivo",
     metaDescription:
-      "Guida completa a Fernando de Noronha, Brasile: tassa di preservazione ambientale e biglietto del parco marino, Baía do Sancho, immersioni, delfini rotatori, stagione di mare calmo e le migliori pousadas per profilo di viaggiatore.",
+      "Viaggio privato e su misura: fernando-de-noronha. Itinerario suggerito, periodo migliore e come arrivare. Richiedi un preventivo su WhatsApp.",
     keywords:
-      "fernando de noronha brasile, baia do sancho, tassa preservazione noronha, immersioni fernando de noronha, delfino rotatore, migliore periodo fernando de noronha, pousadas fernando de noronha, biglietto parco nazionale marino noronha, viaggio lusso fernando de noronha",
-    h1: "Fernando de Noronha: guida autoriale di chi ci torna ogni anno",
+      "fernando de noronha brasile, baia do sancho, tassa preservazione noronha, immersioni fernando de noronha, delfino rotatore, migliore periodo fernando de noronha, pousadas fernando de noronha, biglietto parco nazionale marino noronha, viaggio lusso fernando de noronha, fernando-de-noronha tour, itinerario fernando-de-noronha, come arrivare a fernando-de-noronha, periodo migliore fernando-de-noronha",
+    h1: "fernando-de-noronha: itinerario, periodo migliore e come arrivare",
     aiAnswer:
-      "Il periodo migliore per visitare Fernando de Noronha va da agosto a dicembre, con mare calmo e visibilità fino a 40 metri per le immersioni; l'ideale è restare da 5 a 7 notti, arrivando con volo in coincidenza da Recife (REC) o Natal (NAT), pagando la tassa di preservazione ambientale giornaliera e, separatamente, il biglietto del parco nazionale marino.",
+      "Il periodo migliore per visitare Fernando de Noronha va da agosto a dicembre, con mare calmo e visibilità fino a 40 metri per le immersioni; l'ideale è restare da 5 a 7 notti, arrivando con volo in coincidenza da Recife (REC) o Natal (NAT), pagando la tassa di preservazione ambientale giornaliera e, separatamente, il biglietto del parco nazionale marino. Create Travel crea viaggi privati e su misura per fernando-de-noronha per viaggiatori internazionali, con guide in italiano, e invia un preventivo scritto via WhatsApp.",
     intro: [
       "Fernando de Noronha è un arcipelago vulcanico a 545 km dalla costa del Pernambuco, poco più di 17 km² di terra emersa, con un sistema di accesso pensato per proteggere ciò che lo rende unico: barriere coralline intatte, una delle maggiori popolazioni residenti di delfini rotatori al mondo e baie ripetutamente votate tra le più belle del pianeta. Non è una tappa di passaggio: impone il proprio ritmo, con un tetto giornaliero di visitatori e regole che fanno parte dell'esperienza, non un ostacolo ad essa.",
       "Questa guida raccoglie ciò che abbiamo imparato camminando sull'isola in stagioni diverse: quando il mare regala una visibilità da acquario, come funzionano le tasse, quali spiagge richiedono una camminata e quali pousadas meritano davvero la tariffa più alta del Brasile. Prima di qualsiasi preventivo, aiutiamo a decidere quante notti merita quest'isola — di solito più di quanto si immagini.",
@@ -760,31 +798,58 @@ export const fernandoDeNoronhaGuide: BrazilGuideLocalized = {
       ],
     },
     itinerary: {
-      heading: "Come integrare Noronha in un itinerario in Brasile",
-      intro:
-        "L'isola ha una rete aerea limitata e soggetta al meteo, quindi non inseriamo mai Noronha in coincidenze troppo strette. Raccomandiamo sempre una notte di sicurezza a Recife o Natal prima e dopo l'arcipelago.",
-      items: [
+      "heading": "Itinerario suggerito per fernando-de-noronha — 5 notti / 6 giorni",
+      "intro": "L'isola ha una rete aerea limitata e soggetta al meteo, quindi non inseriamo mai Noronha in coincidenze troppo strette. Raccomandiamo sempre una notte di sicurezza a Recife o Natal prima e dopo l'arcipelago.",
+      "items": [
         {
-          title: "Noronha + Recife e Porto de Galinhas — 9-11 giorni",
-          text: "Quattro o cinque notti sull'isola e il resto tra la capitale del Pernambuco e le piscine naturali di Porto de Galinhas. Il contrasto tra isolamento e vita costiera piace a chi visita per la prima volta il Nordeste.",
+          "title": "Giorno 1 — Arrivo sull’isola",
+          "text": "Sistemati nella pousada ed esplora Vila dos Remédios, con tramonto al Forte dos Remédios."
         },
         {
-          title: "Noronha + Natal e Pipa — 9 giorni",
-          text: "Il collegamento diretto con Natal (NAT) riduce il tempo di volo verso l'isola. Pipa aggiunge scogliere, delfini in mare aperto e una scena gastronomica in crescita.",
+          "title": "Giorno 2 — Sancho e belvedere dei delfini",
+          "text": "Visita Baía do Sancho e il Mirante dos Golfinhos rispettando le regole del parco. Gli avvistamenti non sono garantiti."
         },
         {
-          title: "Noronha + Maragogi e Alagoas — 10-12 giorni",
-          text: "Unisce le immersioni di Noronha alle piscine naturali di acqua cristallina della Costa dos Corais, con volo via Recife.",
+          "title": "Giorno 3 — Esplorazione in barca",
+          "text": "Uscita in barca con soste per lo snorkelling scelte secondo le condizioni del mare e i permessi del parco."
         },
         {
-          title: "Noronha + Amazzonia — 12-14 giorni",
-          text: "Un itinerario tra due biomi radicalmente diversi: isola vulcanica e foresta pluviale, sempre con notte di sicurezza nelle coincidenze via Recife o Manaus.",
+          "title": "Giorno 4 — Atalaia",
+          "text": "Visita guidata ad Atalaia soggetta a permessi anticipati e fasce di marea, con tempo per riposare dopo."
         },
         {
-          title: "Noronha + Rio de Janeiro — 10 giorni",
-          text: "Isola all'inizio del viaggio per far riposare corpo e mente nel mare più calmo, chiudendo con la grande città, cultura e gastronomia carioca.",
+          "title": "Giorno 5 — Immersioni o spiaggia",
+          "text": "Scegli immersioni adatte alla tua esperienza o una giornata tranquilla a Praia da Conceição."
         },
-      ],
+        {
+          "title": "Giorno 6 — Partenza",
+          "text": "Partenza dopo cinque notti sull’isola, con una notte di margine sulla terraferma prima della coincidenza internazionale."
+        },
+        {
+          "title": "Noronha + Recife e Porto de Galinhas — 9–11 giorni",
+          "text": "Quattro o cinque notti sull’isola e il resto tra la capitale del Pernambuco e le piscine naturali di Porto de Galinhas: isolamento e vita costiera per una prima visita al Nordest."
+        },
+        {
+          "title": "Noronha + Natal e Pipa — 9 giorni",
+          "text": "Il collegamento diretto via Natal (NAT) accorcia il volo per l’isola. Pipa aggiunge falesie, possibilità di osservare delfini in mare aperto e una scena gastronomica in crescita."
+        },
+        {
+          "title": "Noronha + Maragogi e Alagoas — 10–12 giorni",
+          "text": "Abbina le immersioni a Noronha alle piscine naturali cristalline della Costa dei Coralli, con collegamento via Recife."
+        },
+        {
+          "title": "Noronha + Amazzonia — 12–14 giorni",
+          "text": "Isola vulcanica e foresta pluviale nello stesso viaggio, sempre con una notte di margine per le coincidenze via Recife o Manaus."
+        },
+        {
+          "title": "Noronha + Rio de Janeiro — 10 giorni",
+          "text": "Prima l’isola per rilassarsi sul mare, poi la grande città, la cultura e la gastronomia di Rio."
+        },
+        {
+          "title": "Combina due o più biomi brasiliani",
+          "text": "Il Brasile ha sei biomi terrestri — Amazzonia, Foresta Atlantica, Cerrado, Caatinga, Pantanal e Pampa — più la zona costiera e marina: sette paesaggi e culture diversi. Combina la foresta amazzonica via Recife, prevedendo notti di margine per le coincidenze. Adattiamo la sequenza alle condizioni stagionali e prevediamo tempo per i trasferimenti."
+        }
+      ]
     },
     tips: {
       heading: "Consigli pratici che fanno la differenza",
@@ -799,35 +864,46 @@ export const fernandoDeNoronhaGuide: BrazilGuideLocalized = {
     },
     faq: [
       {
-        q: "Quanti giorni servono per visitare Fernando de Noronha?",
-        a: "Cinque notti sono il minimo pratico per vedere le spiagge principali, immergersi almeno una volta e osservare i delfini senza fretta. Sette notti permettono di esplorare con ritmo umano, con giorni di riposo tra un'escursione e l'altra.",
+        "q": "Quanti giorni servono per visitare Fernando de Noronha?",
+        "a": "Cinque notti sono il minimo pratico per vedere le spiagge principali, immergersi almeno una volta e osservare i delfini senza fretta. Sette notti permettono di esplorare con ritmo umano, con giorni di riposo tra un'escursione e l'altra."
       },
       {
-        q: "Qual è il periodo migliore per visitare Fernando de Noronha?",
-        a: "Da agosto a dicembre il mare è più calmo e la visibilità per le immersioni è migliore. Da gennaio a luglio piove di più, ma attira i surfisti per le onde più grandi e di solito c'è meno gente sull'isola.",
+        "q": "Qual è il periodo migliore per visitare Fernando de Noronha?",
+        "a": "Da agosto a dicembre il mare è più calmo e la visibilità per le immersioni è migliore. Da gennaio a luglio piove di più, ma attira i surfisti per le onde più grandi e di solito c'è meno gente sull'isola."
       },
       {
-        q: "Cos'è la tassa di preservazione ambientale di Noronha?",
-        a: "È un addebito giornaliero obbligatorio per ogni visitatore che finanzia la conservazione dell'arcipelago; l'importo aumenta in base ai giorni di permanenza e va pagato separatamente dal biglietto del parco nazionale marino.",
+        "q": "Cos'è la tassa di preservazione ambientale di Noronha?",
+        "a": "È un addebito giornaliero obbligatorio per ogni visitatore che finanzia la conservazione dell'arcipelago; l'importo aumenta in base ai giorni di permanenza e va pagato separatamente dal biglietto del parco nazionale marino."
       },
       {
-        q: "È vero che Fernando de Noronha limita il numero di visitatori?",
-        a: "Sì. L'isola ha un tetto giornaliero di visitatori definito per legge, che preserva le barriere coralline e l'esperienza di ogni spiaggia, ma richiede anche di prenotare pousada ed escursioni con largo anticipo, soprattutto tra agosto e gennaio.",
+        "q": "È vero che Fernando de Noronha limita il numero di visitatori?",
+        "a": "Sì. L'isola ha un tetto giornaliero di visitatori definito per legge, che preserva le barriere coralline e l'esperienza di ogni spiaggia, ma richiede anche di prenotare pousada ed escursioni con largo anticipo, soprattutto tra agosto e gennaio."
       },
       {
-        q: "Come si arriva a Fernando de Noronha?",
-        a: "I voli partono da Recife (REC) o Natal (NAT), con una durata rispettivamente di circa un'ora e mezza e un'ora, su aerei più piccoli e con frequenza limitata — raccomandiamo di acquistare i biglietti non appena la data è confermata.",
+        "q": "Quanto costa un viaggio a Fernando de Noronha con Create Travel?",
+        "a": "Non lavoriamo con tariffe da listino: il budget dipende dalla pousada, dal numero di notti, dalla stagione e dall'itinerario di immersioni o trekking scelto. Un consulente umano prepara la proposta e invia i valori per iscritto."
       },
       {
-        q: "Quanto costa un viaggio a Fernando de Noronha con Create Travel?",
-        a: "Non lavoriamo con tariffe da listino: il budget dipende dalla pousada, dal numero di notti, dalla stagione e dall'itinerario di immersioni o trekking scelto. Un consulente umano prepara la proposta e invia i valori per iscritto.",
+        "q": "Ho bisogno di visto o vaccini per il Brasile?",
+        "a": "I requisiti del visto dipendono dalla nazionalità e possono cambiare. Consulta le fonti ufficiali consolari e di immigrazione brasiliane prima di prenotare. Rivolgiti con anticipo a un professionista della medicina dei viaggi e alle indicazioni sanitarie ufficiali per vaccini di routine, febbre gialla e precauzioni regionali."
       },
+      {
+        "q": "Sono disponibili guide in italiano in ogni escursione?",
+        "a": "Sì. Create Travel prevede guide in italiano in ogni escursione del tuo itinerario privato e su misura."
+      },
+      {
+        "q": "Come arrivare per un viaggio dedicato a fernando-de-noronha?",
+        "a": "Prendi un volo internazionale per il Brasile e prosegui via Recife (REC) o Natal (NAT) per Fernando de Noronha. Prevedi notti di margine per i voli sensibili al meteo. Create Travel organizza trasferimenti privati fino all’alloggio o al punto d’imbarco."
+      },
+      {
+        "q": "Posso combinare fernando-de-noronha con altri biomi brasiliani?",
+        "a": "Sì. Il Brasile ha sei biomi terrestri — Amazzonia, Foresta Atlantica, Cerrado, Caatinga, Pantanal e Pampa — più la zona costiera e marina: sette paesaggi e culture diversi. Combina la foresta amazzonica via Recife, prevedendo notti di margine per le coincidenze. Il tuo travel designer verifica la compatibilità stagionale e prevede tempi di viaggio realistici tra le regioni."
+      }
     ],
     cta: {
-      heading: "Progettiamo la vostra Fernando de Noronha",
-      subheading:
-        "Un consulente umano di Create Travel sceglie la pousada, la stagione e le escursioni giuste per il vostro profilo — e gestisce ogni coincidenza aerea.",
-      button: "Parla con un travel designer",
+      "heading": "Richiedi il tuo preventivo per fernando-de-noronha",
+      "subheading": "Un travel designer umano di Create Travel pianifica il tuo viaggio privato e su misura, secondo i tuoi interessi e ritmi, e ti invia una proposta scritta.",
+      "button": "Richiedi un preventivo su WhatsApp"
     },
     readingMinutes: 12,
     publishedAt: "2026-08-11",

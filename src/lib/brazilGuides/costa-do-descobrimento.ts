@@ -406,14 +406,14 @@ export const costaDoDescobrimentoGuide: BrazilGuideLocalized = {
   es: {
     destinationName: "Costa del Descubrimiento",
     blurb: "Trancoso, Caraíva y Arraial d'Ajuda: donde nació Brasil, hoy con las direcciones más deseadas del litoral.",
-    metaTitle: "Costa del Descubrimiento: guía de Trancoso y Caraíva",
+    metaTitle: "Costa del Descubrimiento, Brasil: Itinerario, Mejor Época y Presupuesto",
     metaDescription:
-      "Guía de la Costa del Descubrimiento (Bahía): mejor época, Trancoso, Caraíva, Arraial d'Ajuda, Espelho y Corumbau, hospedajes como UXUA y Vila Naiá, y cultura pataxó.",
+      "Viaje privado y a medida: Costa del Descubrimiento. Itinerario sugerido, mejor época y cómo llegar. Solicita un presupuesto por WhatsApp.",
     keywords:
-      "costa del descubrimiento brasil, trancoso bahia, caraiva brasil, arraial d'ajuda, playa espelho, corumbau, uxua casa hotel, porto seguro, monte pascoal, cultura pataxó",
-    h1: "Costa del Descubrimiento: donde comenzó Brasil",
+      "costa del descubrimiento brasil, trancoso bahia, caraiva brasil, arraial d'ajuda, playa espelho, corumbau, uxua casa hotel, porto seguro, monte pascoal, cultura pataxó, Costa del Descubrimiento tour, itinerario Costa del Descubrimiento, cómo llegar a Costa del Descubrimiento, mejor época Costa del Descubrimiento",
+    h1: "Costa del Descubrimiento: itinerario, mejor época y cómo llegar",
     aiAnswer:
-      "La Costa del Descubrimiento, en el sur de Bahía, reúne Porto Seguro, Trancoso, Arraial d'Ajuda y Caraíva; la mejor época para viajar es de septiembre a marzo, con diciembre y enero como temporada social alta de Trancoso, y el acceso es por el Aeropuerto de Porto Seguro (BPS).",
+      "La Costa del Descubrimiento, en el sur de Bahía, reúne Porto Seguro, Trancoso, Arraial d'Ajuda y Caraíva; la mejor época para viajar es de septiembre a marzo, con diciembre y enero como temporada social alta de Trancoso, y el acceso es por el Aeropuerto de Porto Seguro (BPS). Create Travel diseña viajes privados y a medida a Costa del Descubrimiento para viajeros internacionales, con guías en español, y envía un presupuesto por escrito por WhatsApp.",
     intro: [
       "Fue aquí, en abril de 1500, donde la flota de Pedro Álvares Cabral avistó tierra por primera vez, junto al Monte Pascoal. Cinco siglos después, la Costa del Descubrimiento se ha convertido en sinónimo de otro tipo de hallazgo: un litoral de arena blanca, mata atlántica preservada y pueblos que resistieron la especulación a cambio de un urbanismo casi secreto: calles de tierra, casas sin rejas, luz de velas alrededor del Quadrado de Trancoso.",
       "Esta guía separa lo esencial de lo simplemente fotogénico. Hablamos de Trancoso y su Quadrado, de Caraíva sin autos, de Arraial d'Ajuda con su vida nocturna elegante, de la Playa del Espelho y Corumbau como extensiones de silencio, y de cómo la cultura pataxó, guardiana de la reserva de Monte Pascoal, sigue presente en todo el territorio.",
@@ -531,27 +531,34 @@ export const costaDoDescobrimentoGuide: BrazilGuideLocalized = {
       ],
     },
     itinerary: {
-      heading: "Cómo integrar la Costa del Descubrimiento en un recorrido por Brasil",
-      intro:
-        "La región conecta bien con el resto de Bahía y el Sudeste, siempre vía el Aeropuerto de Porto Seguro (BPS), con vuelos directos desde São Paulo, Río de Janeiro y Belo Horizonte.",
-      items: [
+      "heading": "Itinerario sugerido para Costa del Descubrimiento — 4 noches / 5 días",
+      "intro": "Un punto de partida privado y a medida, adaptado a tu ritmo, los horarios de llegada y las condiciones locales. Añade noches para una estancia más tranquila.",
+      "items": [
         {
-          title: "Costa del Descubrimiento + Salvador — 8 a 10 días",
-          text: "Cuatro días de historia en Salvador y el Pelourinho, seguidos de cuatro a cinco días de playa y selva en el sur de Bahía.",
+          "title": "Día 1 — Porto Seguro → Trancoso",
+          "text": "Llega al aeropuerto de Porto Seguro y toma un traslado privado a Trancoso; reserva tiempo para instalarte."
         },
         {
-          title: "Costa del Descubrimiento + Abrolhos — 8 días",
-          text: "Cinco días entre Trancoso y Corumbau, con extensión de dos a tres días de buceo y avistamiento de ballenas en Abrolhos entre julio y noviembre.",
+          "title": "Día 2 — Trancoso",
+          "text": "Explora el Quadrado y las playas cercanas a tu ritmo."
         },
         {
-          title: "Costa del Descubrimiento + Río de Janeiro — 10 días",
-          text: "El clásico contraste brasileño: ciudad y montaña en Río, silencio y selva en el sur de Bahía.",
+          "title": "Día 3 — Arraial d’Ajuda",
+          "text": "Dedica el día a Arraial d’Ajuda antes de regresar a tu alojamiento costero."
         },
         {
-          title: "Costa del Descubrimiento sola — 6 a 7 días",
-          text: "El formato más vendido: tres noches en Trancoso, dos en Caraíva o Corumbau, sin prisa de desplazamiento.",
+          "title": "Día 4 — Caraíva",
+          "text": "Continúa a Caraíva para una noche más tranquila, con traslados adaptados a las condiciones locales de acceso."
         },
-      ],
+        {
+          "title": "Día 5 — Despedida junto al mar",
+          "text": "Disfruta de una última mañana junto al mar antes del traslado hacia Porto Seguro; añade una noche si tu vuelo sale temprano."
+        },
+        {
+          "title": "Combina dos o más biomas brasileños",
+          "text": "Brasil tiene seis biomas terrestres — Amazonía, Bosque Atlántico, Cerrado, Caatinga, Pantanal y Pampa — más la zona costera y marina: siete paisajes y culturas distintos. Combina el Bosque Atlántico y los paisajes costeros y marinos de la Costa del Descubrimiento. Planificamos el ritmo y las conexiones según las condiciones estacionales; los avistamientos de fauna nunca están garantizados."
+        }
+      ]
     },
     tips: {
       heading: "Consejos prácticos que marcan la diferencia",
@@ -566,35 +573,46 @@ export const costaDoDescobrimentoGuide: BrazilGuideLocalized = {
     },
     faq: [
       {
-        q: "¿Cuál es la diferencia entre Trancoso, Arraial d'Ajuda y Caraíva?",
-        a: "Trancoso es el más sofisticado y discreto, organizado alrededor del Quadrado histórico. Arraial d'Ajuda tiene más infraestructura y vida nocturna. Caraíva es el más rústico, sin autos, accesible en canoa.",
+        "q": "¿Cuál es la diferencia entre Trancoso, Arraial d'Ajuda y Caraíva?",
+        "a": "Trancoso es el más sofisticado y discreto, organizado alrededor del Quadrado histórico. Arraial d'Ajuda tiene más infraestructura y vida nocturna. Caraíva es el más rústico, sin autos, accesible en canoa."
       },
       {
-        q: "¿Cuál es la mejor época para visitar la Costa del Descubrimiento?",
-        a: "De marzo a agosto para menos movimiento con clima aún muy agradable; de diciembre a febrero para la intensidad social de Trancoso, con reserva anticipada.",
+        "q": "¿Cuál es la mejor época para visitar la Costa del Descubrimiento?",
+        "a": "De marzo a agosto para menos movimiento con clima aún muy agradable; de diciembre a febrero para la intensidad social de Trancoso, con reserva anticipada."
       },
       {
-        q: "¿Cómo llegar a Trancoso y a la Costa del Descubrimiento?",
-        a: "El acceso es por el Aeropuerto de Porto Seguro (BPS), con vuelos directos desde São Paulo, Río de Janeiro y Belo Horizonte, seguido de 1 a 1h30 en auto hasta Trancoso o Caraíva.",
+        "q": "¿Se pueden ver ballenas en la Costa del Descubrimiento?",
+        "a": "Sí, como extensión: partiendo de Corumbau o Caravelas hacia el Parque Nacional Marino de Abrolhos, entre julio y noviembre, en temporada de ballenas jorobadas."
       },
       {
-        q: "¿Se pueden ver ballenas en la Costa del Descubrimiento?",
-        a: "Sí, como extensión: partiendo de Corumbau o Caravelas hacia el Parque Nacional Marino de Abrolhos, entre julio y noviembre, en temporada de ballenas jorobadas.",
+        "q": "¿Cuántos días se recomiendan en la región?",
+        "a": "Seis a siete días permiten combinar Trancoso, Caraíva y una playa más aislada como Espelho o Corumbau, sin apuros."
       },
       {
-        q: "¿Cuántos días se recomiendan en la región?",
-        a: "Seis a siete días permiten combinar Trancoso, Caraíva y una playa más aislada como Espelho o Corumbau, sin apuros.",
+        "q": "¿Cuánto cuesta un viaje a la Costa del Descubrimiento con Create Travel?",
+        "a": "No trabajamos con precios estándar: el presupuesto depende de la posada, la época y el itinerario. Un consultor humano presenta la propuesta por escrito, sin estimaciones en el sitio web."
       },
       {
-        q: "¿Cuánto cuesta un viaje a la Costa del Descubrimiento con Create Travel?",
-        a: "No trabajamos con precios estándar: el presupuesto depende de la posada, la época y el itinerario. Un consultor humano presenta la propuesta por escrito, sin estimaciones en el sitio web.",
+        "q": "¿Necesito visado o vacunas para Brasil?",
+        "a": "Los requisitos de visado dependen de tu nacionalidad y pueden cambiar. Consulta fuentes oficiales consulares y de inmigración brasileñas antes de reservar. Acude con antelación a un profesional de salud del viajero y consulta las recomendaciones sanitarias oficiales sobre vacunas habituales, fiebre amarilla y precauciones regionales."
       },
+      {
+        "q": "¿Hay guías en español en todas las excursiones?",
+        "a": "Sí. Create Travel ofrece guías en español en todas las excursiones de tu itinerario privado y a medida."
+      },
+      {
+        "q": "¿Cómo llegar para un viaje a Costa del Descubrimiento?",
+        "a": "Vuela a un hub brasileño como São Paulo o Río de Janeiro y conecta con el aeropuerto de Porto Seguro (BPS). Create Travel organiza traslados privados hasta tu alojamiento o punto de embarque."
+      },
+      {
+        "q": "¿Puedo combinar Costa del Descubrimiento con otros biomas brasileños?",
+        "a": "Sí. Brasil tiene seis biomas terrestres — Amazonía, Bosque Atlántico, Cerrado, Caatinga, Pantanal y Pampa — más la zona costera y marina: siete paisajes y culturas distintos. Combina el Bosque Atlántico y los paisajes costeros y marinos de la Costa del Descubrimiento. Tu diseñador de viajes comprueba la compatibilidad estacional y prevé tiempos de viaje realistas entre regiones."
+      }
     ],
     cta: {
-      heading: "Diseñemos tu Costa del Descubrimiento",
-      subheading:
-        "Un consultor humano de Create Travel elige entre Trancoso, Caraíva y Corumbau la dirección correcta para tu perfil.",
-      button: "Hablar con un travel designer",
+      "heading": "Solicita tu presupuesto para Costa del Descubrimiento",
+      "subheading": "Un diseñador de viajes humano de Create Travel planifica tu viaje privado y a medida según tus intereses y tu ritmo, y te envía una propuesta por escrito.",
+      "button": "Solicitar presupuesto por WhatsApp"
     },
     readingMinutes: 11,
     publishedAt: "2026-08-11",
@@ -603,14 +621,14 @@ export const costaDoDescobrimentoGuide: BrazilGuideLocalized = {
   it: {
     destinationName: "Costa della Scoperta",
     blurb: "Trancoso, Caraíva e Arraial d'Ajuda: dove è nato il Brasile, oggi con gli indirizzi più desiderati della costa.",
-    metaTitle: "Costa della Scoperta: guida di Trancoso e Caraíva",
+    metaTitle: "Costa della Scoperta, Brasile: Itinerario, Periodo Migliore e Preventivo",
     metaDescription:
-      "Guida alla Costa della Scoperta (Bahia): periodo migliore, Trancoso, Caraíva, Arraial d'Ajuda, Espelho e Corumbau, indirizzi reali come UXUA e Vila Naiá, e cultura pataxó.",
+      "Viaggio privato e su misura: Costa della Scoperta. Itinerario suggerito, periodo migliore e come arrivare. Richiedi un preventivo su WhatsApp.",
     keywords:
-      "costa della scoperta brasile, trancoso bahia, caraiva brasile, arraial d'ajuda, spiaggia espelho, corumbau, uxua casa hotel, porto seguro, monte pascoal, cultura pataxó",
-    h1: "Costa della Scoperta: dove è iniziato il Brasile",
+      "costa della scoperta brasile, trancoso bahia, caraiva brasile, arraial d'ajuda, spiaggia espelho, corumbau, uxua casa hotel, porto seguro, monte pascoal, cultura pataxó, Costa della Scoperta tour, itinerario Costa della Scoperta, come arrivare a Costa della Scoperta, periodo migliore Costa della Scoperta",
+    h1: "Costa della Scoperta: itinerario, periodo migliore e come arrivare",
     aiAnswer:
-      "La Costa della Scoperta, nel sud di Bahia, comprende Porto Seguro, Trancoso, Arraial d'Ajuda e Caraíva; il periodo migliore per visitarla va da settembre a marzo, con dicembre e gennaio come alta stagione sociale di Trancoso, e l'accesso avviene tramite l'aeroporto di Porto Seguro (BPS).",
+      "La Costa della Scoperta, nel sud di Bahia, comprende Porto Seguro, Trancoso, Arraial d'Ajuda e Caraíva; il periodo migliore per visitarla va da settembre a marzo, con dicembre e gennaio come alta stagione sociale di Trancoso, e l'accesso avviene tramite l'aeroporto di Porto Seguro (BPS). Create Travel crea viaggi privati e su misura per Costa della Scoperta per viaggiatori internazionali, con guide in italiano, e invia un preventivo scritto via WhatsApp.",
     intro: [
       "Fu qui, nell'aprile del 1500, che la flotta di Pedro Álvares Cabral avvistò per la prima volta la terra, vicino al Monte Pascoal. Cinque secoli dopo, la Costa della Scoperta è diventata sinonimo di un'altra scoperta: una costa di sabbia bianca, foresta atlantica preservata e villaggi che hanno resistito alla speculazione in cambio di un urbanismo quasi segreto — strade sterrate, case senza recinzioni, luce di candela intorno al Quadrado di Trancoso.",
       "Questa guida separa ciò che è essenziale da ciò che è semplicemente fotogenico. Parliamo di Trancoso e del suo Quadrado, di Caraíva senza automobili, di Arraial d'Ajuda con la sua elegante vita notturna, della spiaggia di Espelho e di Corumbau come estensioni di silenzio, e di come la cultura pataxó, custode della riserva di Monte Pascoal, resti presente in tutto il territorio.",
@@ -728,27 +746,34 @@ export const costaDoDescobrimentoGuide: BrazilGuideLocalized = {
       ],
     },
     itinerary: {
-      heading: "Come integrare la Costa della Scoperta in un itinerario in Brasile",
-      intro:
-        "La regione si collega bene con il resto di Bahia e il Sud-est, sempre tramite l'aeroporto di Porto Seguro (BPS), con voli diretti da São Paulo, Rio de Janeiro e Belo Horizonte.",
-      items: [
+      "heading": "Itinerario suggerito per Costa della Scoperta — 4 notti / 5 giorni",
+      "intro": "Un punto di partenza privato e su misura, adattato ai tuoi ritmi, agli orari di arrivo e alle condizioni locali. Aggiungi notti per un soggiorno più rilassato.",
+      "items": [
         {
-          title: "Costa della Scoperta + Salvador — 8-10 giorni",
-          text: "Quattro giorni di storia a Salvador e nel Pelourinho, seguiti da quattro-cinque giorni di spiaggia e foresta nel sud di Bahia.",
+          "title": "Giorno 1 — Porto Seguro → Trancoso",
+          "text": "Arriva all’aeroporto di Porto Seguro e raggiungi Trancoso con un trasferimento privato; concediti tempo per sistemarti."
         },
         {
-          title: "Costa della Scoperta + Abrolhos — 8 giorni",
-          text: "Cinque giorni tra Trancoso e Corumbau, con un'estensione di due-tre giorni di immersioni e avvistamento balene ad Abrolhos tra luglio e novembre.",
+          "title": "Giorno 2 — Trancoso",
+          "text": "Esplora il Quadrado e le spiagge vicine al tuo ritmo."
         },
         {
-          title: "Costa della Scoperta + Rio de Janeiro — 10 giorni",
-          text: "Il classico contrasto brasiliano: città e montagna a Rio, silenzio e foresta nel sud di Bahia.",
+          "title": "Giorno 3 — Arraial d’Ajuda",
+          "text": "Dedica la giornata ad Arraial d’Ajuda prima di tornare alla tua base sulla costa."
         },
         {
-          title: "Costa della Scoperta da sola — 6-7 giorni",
-          text: "Il formato più venduto: tre notti a Trancoso, due a Caraíva o Corumbau, senza fretta di spostamento.",
+          "title": "Giorno 4 — Caraíva",
+          "text": "Prosegui per Caraíva per un pernottamento più tranquillo, con trasferimenti pianificati secondo le condizioni locali di accesso."
         },
-      ],
+        {
+          "title": "Giorno 5 — Saluti al mare",
+          "text": "Goditi un’ultima mattina al mare prima del trasferimento verso Porto Seguro; aggiungi una notte se il volo parte presto."
+        },
+        {
+          "title": "Combina due o più biomi brasiliani",
+          "text": "Il Brasile ha sei biomi terrestri — Amazzonia, Foresta Atlantica, Cerrado, Caatinga, Pantanal e Pampa — più la zona costiera e marina: sette paesaggi e culture diversi. Combina la Foresta Atlantica e i paesaggi costieri e marini della Costa della Scoperta. Pianifichiamo ritmi e collegamenti secondo le condizioni stagionali; gli avvistamenti di fauna non sono mai garantiti."
+        }
+      ]
     },
     tips: {
       heading: "Consigli pratici che fanno la differenza",
@@ -763,35 +788,46 @@ export const costaDoDescobrimentoGuide: BrazilGuideLocalized = {
     },
     faq: [
       {
-        q: "Qual è la differenza tra Trancoso, Arraial d'Ajuda e Caraíva?",
-        a: "Trancoso è il più sofisticato e discreto, organizzato intorno al Quadrado storico. Arraial d'Ajuda ha più infrastrutture e vita notturna. Caraíva è il più rustico, senza auto, raggiungibile in canoa.",
+        "q": "Qual è la differenza tra Trancoso, Arraial d'Ajuda e Caraíva?",
+        "a": "Trancoso è il più sofisticato e discreto, organizzato intorno al Quadrado storico. Arraial d'Ajuda ha più infrastrutture e vita notturna. Caraíva è il più rustico, senza auto, raggiungibile in canoa."
       },
       {
-        q: "Qual è il periodo migliore per visitare la Costa della Scoperta?",
-        a: "Da marzo ad agosto per meno affluenza con clima ancora molto piacevole; da dicembre a febbraio per l'intensità sociale di Trancoso, con prenotazione anticipata.",
+        "q": "Qual è il periodo migliore per visitare la Costa della Scoperta?",
+        "a": "Da marzo ad agosto per meno affluenza con clima ancora molto piacevole; da dicembre a febbraio per l'intensità sociale di Trancoso, con prenotazione anticipata."
       },
       {
-        q: "Come arrivare a Trancoso e alla Costa della Scoperta?",
-        a: "L'accesso avviene tramite l'aeroporto di Porto Seguro (BPS), con voli diretti da São Paulo, Rio de Janeiro e Belo Horizonte, seguiti da 1 a 1h30 in auto fino a Trancoso o Caraíva.",
+        "q": "È possibile vedere le balene sulla Costa della Scoperta?",
+        "a": "Sì, come estensione: partendo da Corumbau o Caravelas verso il Parco Nazionale Marino di Abrolhos, tra luglio e novembre, durante la stagione delle megattere."
       },
       {
-        q: "È possibile vedere le balene sulla Costa della Scoperta?",
-        a: "Sì, come estensione: partendo da Corumbau o Caravelas verso il Parco Nazionale Marino di Abrolhos, tra luglio e novembre, durante la stagione delle megattere.",
+        "q": "Quanti giorni sono consigliati nella regione?",
+        "a": "Sei-sette giorni permettono di combinare Trancoso, Caraíva e una spiaggia più isolata come Espelho o Corumbau, senza fretta."
       },
       {
-        q: "Quanti giorni sono consigliati nella regione?",
-        a: "Sei-sette giorni permettono di combinare Trancoso, Caraíva e una spiaggia più isolata come Espelho o Corumbau, senza fretta.",
+        "q": "Quanto costa un viaggio alla Costa della Scoperta con Create Travel?",
+        "a": "Non lavoriamo con prezzi standard: il budget dipende dalla pousada, dalla stagione e dall'itinerario. Un consulente umano presenta la proposta per iscritto, senza stime sul sito."
       },
       {
-        q: "Quanto costa un viaggio alla Costa della Scoperta con Create Travel?",
-        a: "Non lavoriamo con prezzi standard: il budget dipende dalla pousada, dalla stagione e dall'itinerario. Un consulente umano presenta la proposta per iscritto, senza stime sul sito.",
+        "q": "Ho bisogno di visto o vaccini per il Brasile?",
+        "a": "I requisiti del visto dipendono dalla nazionalità e possono cambiare. Consulta le fonti ufficiali consolari e di immigrazione brasiliane prima di prenotare. Rivolgiti con anticipo a un professionista della medicina dei viaggi e alle indicazioni sanitarie ufficiali per vaccini di routine, febbre gialla e precauzioni regionali."
       },
+      {
+        "q": "Sono disponibili guide in italiano in ogni escursione?",
+        "a": "Sì. Create Travel prevede guide in italiano in ogni escursione del tuo itinerario privato e su misura."
+      },
+      {
+        "q": "Come arrivare per un viaggio dedicato a Costa della Scoperta?",
+        "a": "Vola verso un hub brasiliano come São Paulo o Rio de Janeiro e prosegui per l’aeroporto di Porto Seguro (BPS). Create Travel organizza trasferimenti privati fino all’alloggio o al punto d’imbarco."
+      },
+      {
+        "q": "Posso combinare Costa della Scoperta con altri biomi brasiliani?",
+        "a": "Sì. Il Brasile ha sei biomi terrestri — Amazzonia, Foresta Atlantica, Cerrado, Caatinga, Pantanal e Pampa — più la zona costiera e marina: sette paesaggi e culture diversi. Combina la Foresta Atlantica e i paesaggi costieri e marini della Costa della Scoperta. Il tuo travel designer verifica la compatibilità stagionale e prevede tempi di viaggio realistici tra le regioni."
+      }
     ],
     cta: {
-      heading: "Progettiamo la vostra Costa della Scoperta",
-      subheading:
-        "Un consulente umano di Create Travel sceglie tra Trancoso, Caraíva e Corumbau l'indirizzo giusto per il vostro profilo.",
-      button: "Parla con un travel designer",
+      "heading": "Richiedi il tuo preventivo per Costa della Scoperta",
+      "subheading": "Un travel designer umano di Create Travel pianifica il tuo viaggio privato e su misura, secondo i tuoi interessi e ritmi, e ti invia una proposta scritta.",
+      "button": "Richiedi un preventivo su WhatsApp"
     },
     readingMinutes: 11,
     publishedAt: "2026-08-11",

@@ -397,14 +397,14 @@ export const floraDoBrasilGuide: BrazilGuideLocalized = {
     destinationName: "Flora de Brasil",
     blurb:
       "Un viaje sensorial por las floraciones de Brasil: siemprevivas del Cerrado, ipês en agosto, gigantes de la Mata Atlántica, victorias regias amazónicas y una Caatinga en flor.",
-    metaTitle: "Flora de Brasil: guía de floraciones y dónde verlas",
+    metaTitle: "Flora de Brasil, Brasil: Itinerario, Mejor Época y Presupuesto",
     metaDescription:
-      "Guía autoral de la flora brasileña: cuándo y dónde ver ipês, siemprevivas, victoria regia, araucarias y la Caatinga florida, bioma a bioma.",
+      "Viaje privado y a medida: Flora de Brasil. Itinerario sugerido, mejor época y cómo llegar. Solicita un presupuesto por WhatsApp.",
     keywords:
-      "flora de brasil, floración ipê, siemprevivas cerrado, victoria regia amazonia, araucarias brasil, caatinga florida, mata atlántica brasil, orquídeas brasil, viaje botánico brasil",
-    h1: "Flora de Brasil: un país que florece en oleadas, bioma a bioma",
+      "flora de brasil, floración ipê, siemprevivas cerrado, victoria regia amazonia, araucarias brasil, caatinga florida, mata atlántica brasil, orquídeas brasil, viaje botánico brasil, Flora de Brasil tour, itinerario Flora de Brasil, cómo llegar a Flora de Brasil, mejor época Flora de Brasil",
+    h1: "Flora de Brasil: itinerario, mejor época y cómo llegar",
     aiAnswer:
-      "Las mejores ventanas para ver la flora brasileña son de mayo a septiembre en el Cerrado (siemprevivas y velozias), agosto-septiembre para los ipês en todo el país, diciembre-marzo para las victorias regias amazónicas y enero-abril para la Caatinga florida tras las primeras lluvias.",
+      "Las mejores ventanas para ver la flora brasileña son de mayo a septiembre en el Cerrado (siemprevivas y velozias), agosto-septiembre para los ipês en todo el país, diciembre-marzo para las victorias regias amazónicas y enero-abril para la Caatinga florida tras las primeras lluvias. Create Travel diseña viajes privados y a medida a Flora de Brasil para viajeros internacionales, con guías en español, y envía un presupuesto por escrito por WhatsApp.",
     intro: [
       "Brasil alberga seis biomas continentales y una de las floras más ricas del planeta: más de 46.000 especies de plantas catalogadas, muchas endémicas. No es una sola flora, sino varias, cada una con su propio reloj, su propia estación de floración, su paisaje que solo existe en ese mes, en esa meseta, en ese arroyo.",
       "Esta guía nace de viajes hechos para ver florecer plantas, no fotografiadas de paso, sino buscadas a propósito, con guía botánico, en el día exacto. Reunimos aquí dónde y cuándo ocurre cada floración, y cómo convertirlo en itinerario sin depender de la suerte.",
@@ -510,26 +510,30 @@ export const floraDoBrasilGuide: BrazilGuideLocalized = {
       ],
     },
     itinerary: {
-      heading: "Cómo armar un itinerario de flora por Brasil",
-      intro: "Las floraciones rara vez coinciden en el calendario, por eso diseñamos por estación, no por mapa.",
-      items: [
+      "heading": "Cómo armar un itinerario de flora por Brasil",
+      "intro": "Las floraciones rara vez coinciden en el calendario, por eso diseñamos por estación, no por mapa.",
+      "items": [
         {
-          title: "Cerrado en flor — 6 a 8 días (mayo a septiembre)",
-          text: "Veadeiros, Serra do Cipó y Diamantina en secuencia, con senderos matutinos y alojamiento con encanto.",
+          "title": "Cerrado en flor — 6 a 8 días (mayo a septiembre)",
+          "text": "Veadeiros, Serra do Cipó y Diamantina en secuencia, con senderos matinales y alojamientos con encanto entre parques."
         },
         {
-          title: "Amazonia y victoria regia — 5 a 7 días (diciembre a marzo)",
-          text: "Lodge fluvial combinado con salidas diarias en canoa a los lagos de várzea.",
+          "title": "Amazonía y nenúfares — 5 a 7 días (diciembre a marzo)",
+          "text": "Un lodge fluvial combinado con salidas diarias en canoa a lagos de llanura inundable."
         },
         {
-          title: "Mata Atlántica y araucarias — 7 días (mayo a julio)",
-          text: "Serra da Bocaina, luego las sierras de Santa Catarina, uniendo bosque primario y bosque de altura.",
+          "title": "Bosque Atlántico y araucarias — 7 días (mayo a julio)",
+          "text": "Serra da Bocaina y después las tierras altas de Santa Catarina, uniendo bosque antiguo y bosques de altitud."
         },
         {
-          title: "Caatinga florida — 5 días (enero a abril)",
-          text: "Boa Nova y Valle de Catimbau, justo tras las primeras lluvias, con guías expertos en flora y aves endémicas.",
+          "title": "Caatinga en flor — 5 días (enero a abril)",
+          "text": "Boa Nova y Vale do Catimbau justo después de las primeras lluvias, con guías expertos en flora y aves endémicas."
         },
-      ],
+        {
+          "title": "Combina dos o más biomas brasileños",
+          "text": "Brasil tiene seis biomas terrestres — Amazonía, Bosque Atlántico, Cerrado, Caatinga, Pantanal y Pampa — más la zona costera y marina: siete paisajes y culturas distintos. Combina paseos botánicos en el Cerrado con una estancia amazónica dedicada a los nenúfares, según las floraciones regionales. Adaptamos la secuencia a las condiciones estacionales y dejamos tiempo para los traslados."
+        }
+      ]
     },
     tips: {
       heading: "Consejos prácticos para observar la flora de Brasil",
@@ -544,34 +548,50 @@ export const floraDoBrasilGuide: BrazilGuideLocalized = {
     },
     faq: [
       {
-        q: "¿Cuál es la mejor época para ver los ipês florecidos en Brasil?",
-        a: "Agosto y septiembre, justo después de las primeras lluvias aisladas de fin de invierno, con pico variable según la región.",
+        "q": "¿Cuál es la mejor época para ver los ipês florecidos en Brasil?",
+        "a": "Agosto y septiembre, justo después de las primeras lluvias aisladas de fin de invierno, con pico variable según la región."
       },
       {
-        q: "¿Dónde ver la victoria regia en la Amazonia?",
-        a: "En lagos de várzea cerca de Manaos y en la Reserva Mamirauá, mejor observada en canoa al atardecer entre diciembre y marzo.",
+        "q": "¿Dónde ver la victoria regia en la Amazonia?",
+        "a": "En lagos de várzea cerca de Manaos y en la Reserva Mamirauá, mejor observada en canoa al atardecer entre diciembre y marzo."
       },
       {
-        q: "¿Qué son las siemprevivas y dónde encontrarlas?",
-        a: "Plantas del Cerrado de flores secas y duraderas, típicas de los campos rupestres de Chapada dos Veadeiros, Serra do Cipó y Diamantina, floreciendo de mayo a septiembre.",
+        "q": "¿Qué son las siemprevivas y dónde encontrarlas?",
+        "a": "Plantas del Cerrado de flores secas y duraderas, típicas de los campos rupestres de Chapada dos Veadeiros, Serra do Cipó y Diamantina, floreciendo de mayo a septiembre."
       },
       {
-        q: "¿Se pueden ver araucarias floreciendo o con piñones?",
-        a: "Las araucarias tienen conos visibles todo el año, con piñones maduros en mayo y junio en las sierras de Santa Catarina y São Paulo.",
+        "q": "¿Se pueden ver araucarias floreciendo o con piñones?",
+        "a": "Las araucarias tienen conos visibles todo el año, con piñones maduros en mayo y junio en las sierras de Santa Catarina y São Paulo."
       },
       {
-        q: "¿La Caatinga tiene flora relevante para viajeros?",
-        a: "Sí: tras las primeras lluvias, cactos como el mandacaru florecen y el bioma reverdece rápidamente, con alto endemismo en orquídeas y bromelias terrestres.",
+        "q": "¿La Caatinga tiene flora relevante para viajeros?",
+        "a": "Sí: tras las primeras lluvias, cactos como el mandacaru florecen y el bioma reverdece rápidamente, con alto endemismo en orquídeas y bromelias terrestres."
       },
       {
-        q: "¿Es necesario un guía especializado para estos viajes?",
-        a: "Muy recomendable: los guías botánicos locales conocen el calendario exacto de cada floración, que cambia año a año según las lluvias.",
+        "q": "¿Es necesario un guía especializado para estos viajes?",
+        "a": "Muy recomendable: los guías botánicos locales conocen el calendario exacto de cada floración, que cambia año a año según las lluvias."
       },
+      {
+        "q": "¿Necesito visado o vacunas para Brasil?",
+        "a": "Los requisitos de visado dependen de tu nacionalidad y pueden cambiar. Consulta fuentes oficiales consulares y de inmigración brasileñas antes de reservar. Acude con antelación a un profesional de salud del viajero y consulta las recomendaciones sanitarias oficiales sobre vacunas habituales, fiebre amarilla y precauciones regionales."
+      },
+      {
+        "q": "¿Hay guías en español en todas las excursiones?",
+        "a": "Sí. Create Travel ofrece guías en español en todas las excursiones de tu itinerario privado y a medida."
+      },
+      {
+        "q": "¿Cómo llegar para un viaje a Flora de Brasil?",
+        "a": "Toma un vuelo internacional a un hub brasileño y un vuelo nacional al aeropuerto de la región botánica elegida. Manaus sirve las opciones amazónicas. Comprobamos el acceso estacional antes de reservar. Create Travel organiza traslados privados hasta tu alojamiento o punto de embarque."
+      },
+      {
+        "q": "¿Puedo combinar Flora de Brasil con otros biomas brasileños?",
+        "a": "Sí. Brasil tiene seis biomas terrestres — Amazonía, Bosque Atlántico, Cerrado, Caatinga, Pantanal y Pampa — más la zona costera y marina: siete paisajes y culturas distintos. Combina paseos botánicos en el Cerrado con una estancia amazónica dedicada a los nenúfares, según las floraciones regionales. Tu diseñador de viajes comprueba la compatibilidad estacional y prevé tiempos de viaje realistas entre regiones."
+      }
     ],
     cta: {
-      heading: "Diseñemos su viaje por la flora de Brasil",
-      subheading: "Un consultor humano de Create Travel calibra el itinerario según la estación de floración correcta, bioma a bioma.",
-      button: "Hablar con un travel designer",
+      "heading": "Solicita tu presupuesto para Flora de Brasil",
+      "subheading": "Un diseñador de viajes humano de Create Travel planifica tu viaje privado y a medida según tus intereses y tu ritmo, y te envía una propuesta por escrito.",
+      "button": "Solicitar presupuesto por WhatsApp"
     },
     readingMinutes: 11,
     publishedAt: "2026-08-11",
@@ -581,14 +601,14 @@ export const floraDoBrasilGuide: BrazilGuideLocalized = {
     destinationName: "Flora del Brasile",
     blurb:
       "Un viaggio sensoriale tra le fioriture del Brasile: sempreverdi del Cerrado, ipê ad agosto, giganti della Mata Atlântica, ninfee giganti amazzoniche e una Caatinga in fiore.",
-    metaTitle: "Flora del Brasile: guida alle fioriture e dove vederle",
+    metaTitle: "Flora del Brasile, Brasile: Itinerario, Periodo Migliore e Preventivo",
     metaDescription:
-      "Guida alla flora brasiliana: quando e dove vedere gli ipê in fiore, le sempreverdi del Cerrado, la vittoria regia, le araucarie e la Caatinga fiorita, bioma per bioma.",
+      "Viaggio privato e su misura: Flora del Brasile. Itinerario suggerito, periodo migliore e come arrivare. Richiedi un preventivo su WhatsApp.",
     keywords:
-      "flora del brasile, fioritura ipê, sempreverdi cerrado, vittoria regia amazzonia, araucarie brasile, caatinga fiorita, mata atlantica brasile, orchidee brasile, viaggio botanico brasile",
-    h1: "Flora del Brasile: un paese che fiorisce a ondate, bioma per bioma",
+      "flora del brasile, fioritura ipê, sempreverdi cerrado, vittoria regia amazzonia, araucarie brasile, caatinga fiorita, mata atlantica brasile, orchidee brasile, viaggio botanico brasile, Flora del Brasile tour, itinerario Flora del Brasile, come arrivare a Flora del Brasile, periodo migliore Flora del Brasile",
+    h1: "Flora del Brasile: itinerario, periodo migliore e come arrivare",
     aiAnswer:
-      "I periodi migliori per la flora brasiliana sono maggio-settembre nel Cerrado (sempreverdi e vellozie), agosto-settembre per gli ipê in tutto il paese, dicembre-marzo per le ninfee giganti amazzoniche e gennaio-aprile per la Caatinga in fiore dopo le prime piogge.",
+      "I periodi migliori per la flora brasiliana sono maggio-settembre nel Cerrado (sempreverdi e vellozie), agosto-settembre per gli ipê in tutto il paese, dicembre-marzo per le ninfee giganti amazzoniche e gennaio-aprile per la Caatinga in fiore dopo le prime piogge. Create Travel crea viaggi privati e su misura per Flora del Brasile per viaggiatori internazionali, con guide in italiano, e invia un preventivo scritto via WhatsApp.",
     intro: [
       "Il Brasile ospita sei biomi continentali e una delle flore più ricche del pianeta: oltre 46.000 specie vegetali catalogate, molte endemiche. Non è una sola flora, ma tante, ognuna con il proprio orologio, la propria stagione di fioritura, il proprio paesaggio che esiste solo in quel mese, su quell'altopiano, lungo quel ruscello.",
       "Questa guida nasce da viaggi fatti per vedere le piante fiorire — non fotografate di passaggio, ma cercate con intenzione, con una guida botanica, nel giorno giusto. Qui raccogliamo dove e quando avviene ogni fioritura, e come trasformarla in un itinerario senza affidarsi alla fortuna.",
@@ -694,26 +714,30 @@ export const floraDoBrasilGuide: BrazilGuideLocalized = {
       ],
     },
     itinerary: {
-      heading: "Come costruire un itinerario floristico in Brasile",
-      intro: "Le fioriture raramente coincidono sul calendario: per questo pianifichiamo per stagione, non per mappa.",
-      items: [
+      "heading": "Come costruire un itinerario floristico in Brasile",
+      "intro": "Le fioriture raramente coincidono sul calendario: per questo pianifichiamo per stagione, non per mappa.",
+      "items": [
         {
-          title: "Cerrado in fiore — 6-8 giorni (maggio-settembre)",
-          text: "Veadeiros, Serra do Cipó e Diamantina in sequenza, con sentieri mattutini e alloggi affascinanti.",
+          "title": "Cerrado in fiore — 6–8 giorni (maggio–settembre)",
+          "text": "Veadeiros, Serra do Cipó e Diamantina in sequenza, con sentieri al mattino e alloggi di charme tra i parchi."
         },
         {
-          title: "Amazzonia e vittoria regia — 5-7 giorni (dicembre-marzo)",
-          text: "Lodge fluviale combinato con uscite giornaliere in canoa ai laghi di várzea.",
+          "title": "Amazzonia e ninfee — 5–7 giorni (dicembre–marzo)",
+          "text": "Un lodge fluviale abbinato a uscite quotidiane in canoa ai laghi della pianura alluvionale."
         },
         {
-          title: "Mata Atlântica e araucarie — 7 giorni (maggio-luglio)",
-          text: "Serra da Bocaina, poi gli altopiani di Santa Catarina, unendo foresta primaria e bosco d'alta quota.",
+          "title": "Foresta Atlantica e araucarie — 7 giorni (maggio–luglio)",
+          "text": "Serra da Bocaina e poi gli altopiani di Santa Catarina, unendo foresta vetusta e boschi d’alta quota."
         },
         {
-          title: "Caatinga fiorita — 5 giorni (gennaio-aprile)",
-          text: "Boa Nova e Vale do Catimbau, subito dopo le prime piogge, con guide esperte in flora e uccelli endemici.",
+          "title": "Caatinga in fiore — 5 giorni (gennaio–aprile)",
+          "text": "Boa Nova e Vale do Catimbau subito dopo le prime piogge, con guide esperte di flora e uccelli endemici."
         },
-      ],
+        {
+          "title": "Combina due o più biomi brasiliani",
+          "text": "Il Brasile ha sei biomi terrestri — Amazzonia, Foresta Atlantica, Cerrado, Caatinga, Pantanal e Pampa — più la zona costiera e marina: sette paesaggi e culture diversi. Combina passeggiate botaniche nel Cerrado con un soggiorno amazzonico dedicato alle ninfee, secondo le fioriture regionali. Adattiamo la sequenza alle condizioni stagionali e prevediamo tempo per i trasferimenti."
+        }
+      ]
     },
     tips: {
       heading: "Consigli pratici per osservare la flora del Brasile",
@@ -728,34 +752,50 @@ export const floraDoBrasilGuide: BrazilGuideLocalized = {
     },
     faq: [
       {
-        q: "Qual è il periodo migliore per vedere gli ipê in fiore in Brasile?",
-        a: "Agosto e settembre, subito dopo le prime piogge isolate di fine inverno, con picco variabile a seconda della regione e dell'anno.",
+        "q": "Qual è il periodo migliore per vedere gli ipê in fiore in Brasile?",
+        "a": "Agosto e settembre, subito dopo le prime piogge isolate di fine inverno, con picco variabile a seconda della regione e dell'anno."
       },
       {
-        q: "Dove vedere la vittoria regia in Amazzonia?",
-        a: "Nei laghi di várzea vicino a Manaus e nella Riserva Mamirauá, meglio in canoa al tramonto tra dicembre e marzo.",
+        "q": "Dove vedere la vittoria regia in Amazzonia?",
+        "a": "Nei laghi di várzea vicino a Manaus e nella Riserva Mamirauá, meglio in canoa al tramonto tra dicembre e marzo."
       },
       {
-        q: "Cosa sono le sempreverdi e dove trovarle?",
-        a: "Piante del Cerrado dai fiori secchi e duraturi, tipiche dei campi rupestri di Chapada dos Veadeiros, Serra do Cipó e Diamantina, in fiore da maggio a settembre.",
+        "q": "Cosa sono le sempreverdi e dove trovarle?",
+        "a": "Piante del Cerrado dai fiori secchi e duraturi, tipiche dei campi rupestri di Chapada dos Veadeiros, Serra do Cipó e Diamantina, in fiore da maggio a settembre."
       },
       {
-        q: "Si possono vedere le araucarie in fiore o con i pinoli?",
-        a: "Le araucarie portano coni visibili tutto l'anno, con pinoli maturi a maggio e giugno negli altopiani di Santa Catarina e São Paulo.",
+        "q": "Si possono vedere le araucarie in fiore o con i pinoli?",
+        "a": "Le araucarie portano coni visibili tutto l'anno, con pinoli maturi a maggio e giugno negli altopiani di Santa Catarina e São Paulo."
       },
       {
-        q: "La Caatinga ha una flora rilevante per i viaggiatori?",
-        a: "Sì: dopo le prime piogge dell'anno, cactus come il mandacaru fioriscono e il bioma rinverdisce rapidamente, con alto endemismo di orchidee e bromelie terrestri.",
+        "q": "La Caatinga ha una flora rilevante per i viaggiatori?",
+        "a": "Sì: dopo le prime piogge dell'anno, cactus come il mandacaru fioriscono e il bioma rinverdisce rapidamente, con alto endemismo di orchidee e bromelie terrestri."
       },
       {
-        q: "Serve una guida specializzata per questi viaggi?",
-        a: "Fortemente consigliata: le guide botaniche locali conoscono il calendario esatto di ogni fioritura, che cambia ogni anno in base alle piogge.",
+        "q": "Serve una guida specializzata per questi viaggi?",
+        "a": "Fortemente consigliata: le guide botaniche locali conoscono il calendario esatto di ogni fioritura, che cambia ogni anno in base alle piogge."
       },
+      {
+        "q": "Ho bisogno di visto o vaccini per il Brasile?",
+        "a": "I requisiti del visto dipendono dalla nazionalità e possono cambiare. Consulta le fonti ufficiali consolari e di immigrazione brasiliane prima di prenotare. Rivolgiti con anticipo a un professionista della medicina dei viaggi e alle indicazioni sanitarie ufficiali per vaccini di routine, febbre gialla e precauzioni regionali."
+      },
+      {
+        "q": "Sono disponibili guide in italiano in ogni escursione?",
+        "a": "Sì. Create Travel prevede guide in italiano in ogni escursione del tuo itinerario privato e su misura."
+      },
+      {
+        "q": "Come arrivare per un viaggio dedicato a Flora del Brasile?",
+        "a": "Prendi un volo internazionale verso un hub brasiliano e un volo interno per l’aeroporto della regione botanica scelta. Manaus serve le opzioni amazzoniche. Verifichiamo l’accesso stagionale prima della prenotazione. Create Travel organizza trasferimenti privati fino all’alloggio o al punto d’imbarco."
+      },
+      {
+        "q": "Posso combinare Flora del Brasile con altri biomi brasiliani?",
+        "a": "Sì. Il Brasile ha sei biomi terrestri — Amazzonia, Foresta Atlantica, Cerrado, Caatinga, Pantanal e Pampa — più la zona costiera e marina: sette paesaggi e culture diversi. Combina passeggiate botaniche nel Cerrado con un soggiorno amazzonico dedicato alle ninfee, secondo le fioriture regionali. Il tuo travel designer verifica la compatibilità stagionale e prevede tempi di viaggio realistici tra le regioni."
+      }
     ],
     cta: {
-      heading: "Progettiamo il vostro viaggio nella flora del Brasile",
-      subheading: "Un consulente umano di Create Travel calibra l'itinerario sulla giusta stagione di fioritura, bioma per bioma.",
-      button: "Parla con un travel designer",
+      "heading": "Richiedi il tuo preventivo per Flora del Brasile",
+      "subheading": "Un travel designer umano di Create Travel pianifica il tuo viaggio privato e su misura, secondo i tuoi interessi e ritmi, e ti invia una proposta scritta.",
+      "button": "Richiedi un preventivo su WhatsApp"
     },
     readingMinutes: 11,
     publishedAt: "2026-08-11",

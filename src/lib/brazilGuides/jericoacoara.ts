@@ -395,14 +395,14 @@ export const jericoacoaraGuide: BrazilGuideLocalized = {
   },
 
   es: {
-    metaTitle: "Jericoacoara: guía autoral de dunas, kitesurf y lagunas",
+    metaTitle: "Jericoacoara, Brasil: Itinerario, Mejor Época y Presupuesto",
     metaDescription:
-      "Guía completa de Jericoacoara: mejor época mes a mes, Duna do Sol y Pedra Furada, lagunas Paraíso y Azul, kitesurf, paseos en buggy, hoteles boutique y cómo integrarlo a un recorrido por Brasil.",
+      "Planifica un viaje privado y a medida a Jericoacoara: itinerario sugerido, mejor época y cómo llegar. Solicita un presupuesto por WhatsApp.",
     keywords:
-      "jericoacoara guia, mejor epoca jericoacoara, duna do sol jeri, pedra furada, lagoa paraiso, lagoa azul jericoacoara, kitesurf jericoacoara, buggy jeri, hotel boutique jericoacoara, itinerario ceara brasil",
-    h1: "Jericoacoara: guía autoral de quienes ya vieron decenas de atardeceres en la Duna do Sol",
+      "jericoacoara guia, mejor epoca jericoacoara, duna do sol jeri, pedra furada, lagoa paraiso, lagoa azul jericoacoara, kitesurf jericoacoara, buggy jeri, hotel boutique jericoacoara, itinerario ceara brasil, Jericoacoara tour, itinerario Jericoacoara, cómo llegar a Jericoacoara, mejor época Jericoacoara",
+    h1: "Jericoacoara: itinerario, mejor época y cómo llegar",
     aiAnswer:
-      "La mejor época para visitar Jericoacoara va de julio a enero, con vientos fuertes para el kitesurf y lagunas con buen volumen de agua entre junio y septiembre; lo ideal son 4 a 5 noches, llegando por el aeropuerto de Jericoacoara (JJD) o por Fortaleza (FOR) con traslado 4x4 de unas cuatro horas.",
+      "La mejor época para visitar Jericoacoara va de julio a enero, con vientos fuertes para el kitesurf y lagunas con buen volumen de agua entre junio y septiembre; lo ideal son 4 a 5 noches, llegando por el aeropuerto de Jericoacoara (JJD) o por Fortaleza (FOR) con traslado 4x4 de unas cuatro horas. Create Travel diseña viajes privados y a medida a Jericoacoara para viajeros internacionales, con guías en español, y envía un presupuesto por escrito por WhatsApp.",
     intro: [
       "Jericoacoara fue un pueblo de pescadores hasta los años 80 y sus calles centrales siguen sin asfalto — una regla que el propio destino se impuso para no convertirse en otro litoral genérico. Eso significa arena en las calles, buggies en lugar de autos y un ritmo que obliga a desacelerar antes incluso de llegar a la playa.",
       "Esta guía nace de viajes recurrentes a Ceará, no de investigación de escritorio. Reunimos los meses que entregan viento, los que entregan lagunas llenas, las direcciones que valen la estadía y cómo enlazar Jeri con un recorrido más amplio por el Nordeste sin perder la magia del lugar por una logística mal pensada.",
@@ -519,31 +519,34 @@ export const jericoacoaraGuide: BrazilGuideLocalized = {
       ],
     },
     itinerary: {
-      heading: "Cómo integrar Jericoacoara a un recorrido por Brasil",
-      intro:
-        "Jeri queda al final de un tramo de carretera sin asfaltar, lo que exige planificación de conexiones — nunca enlazamos una llegada de vuelo internacional directo al traslado 4x4.",
-      items: [
+      "heading": "Itinerario sugerido para Jericoacoara y combinaciones por Brasil",
+      "intro": "Jeri queda al final de un tramo de carretera sin asfaltar, lo que exige planificación de conexiones — nunca enlazamos una llegada de vuelo internacional directo al traslado 4x4.",
+      "items": [
         {
-          title: "Jericoacoara + Fortaleza — 6 a 7 días",
-          text: "Dos noches de ciudad para aclimatarse y conocer el litoral urbano, cuatro en el pueblo. Conexión terrestre de unas cuatro horas o vuelo doméstico hasta el aeropuerto de Jeri.",
+          "title": "Día 1 — Llegada a Jericoacoara",
+          "text": "Traslado privado desde el aeropuerto de llegada e instalación para cuatro noches."
         },
         {
-          title: "Jericoacoara + Lençóis Maranhenses — 9 a 10 días",
-          text: "Dos grandes escenarios de dunas del Nordeste, con lógica aérea vía Fortaleza, São Luís o Barreirinhas. Ideal en la ventana de junio a septiembre, cuando ambos destinos tienen lagunas llenas.",
+          "title": "Día 2 — Lagunas",
+          "text": "Explora Lagoa do Paraíso y Lagoa Azul, adaptando las paradas al nivel estacional del agua."
         },
         {
-          title: "Jericoacoara + Fernando de Noronha — 10 a 12 días",
-          text: "Pueblo continental y archipiélago oceánico, con conexión vía Fortaleza o Recife. Contraste entre dunas y arrecifes de coral en el mismo recorrido.",
+          "title": "Día 3 — Dunas y pueblo",
+          "text": "Salida guiada en buggy y tarde libre para el pueblo y el atardecer."
         },
         {
-          title: "Jericoacoara + Chapada Diamantina — 10 días",
-          text: "Litoral de dunas y sertón de cascadas, dos Nordestes muy diferentes. Conexión aérea vía Fortaleza y Salvador o Lençóis (BA).",
+          "title": "Día 4 — Costa a tu ritmo",
+          "text": "Elige una visita guiada a Pedra Furada o una clase de kitesurf adaptada a tu nivel y a las condiciones."
         },
         {
-          title: "Jericoacoara + Amazonía — 12 a 14 días",
-          text: "Playas de dunas y selva en un único recorrido brasileño, enlazando Fortaleza, Belém y Santarém o Manaos. Exige planificación aérea cuidadosa, pero ofrece un contraste raro.",
+          "title": "Día 5 — Continuación del viaje",
+          "text": "Traslado privado al aeropuerto de salida con margen adecuado para las conexiones."
         },
-      ],
+        {
+          "title": "Combina dos o más biomas brasileños",
+          "text": "Brasil tiene seis biomas terrestres más la zona costera y marina — siete paisajes y culturas distintos. Combina las dunas costeras de Jericoacoara con una estancia en la selva amazónica, planificando vuelos y noches de margen según tus fechas."
+        }
+      ]
     },
     tips: {
       heading: "Consejos prácticos que marcan la diferencia",
@@ -558,49 +561,60 @@ export const jericoacoaraGuide: BrazilGuideLocalized = {
     },
     faq: [
       {
-        q: "¿Cuál es la mejor época para ir a Jericoacoara?",
-        a: "De julio a enero hay viento fuerte para kitesurf y lagunas todavía con buen volumen de agua, especialmente hasta septiembre. Para tranquilidad y precios de temporada baja, febrero a mayo es la alternativa, con viento más débil.",
+        "q": "¿Cuál es la mejor época para ir a Jericoacoara?",
+        "a": "De julio a enero hay viento fuerte para kitesurf y lagunas todavía con buen volumen de agua, especialmente hasta septiembre. Para tranquilidad y precios de temporada baja, febrero a mayo es la alternativa, con viento más débil."
       },
       {
-        q: "¿Cuántos días son necesarios para conocer Jericoacoara?",
-        a: "Cuatro a cinco noches permiten duna, lagunas, buggy y al menos un día de descanso sin prisa. Menos que eso deja el viaje apurado, dado el tiempo de traslado hasta el pueblo.",
+        "q": "¿Cuántos días son necesarios para conocer Jericoacoara?",
+        "a": "Cuatro a cinco noches permiten duna, lagunas, buggy y al menos un día de descanso sin prisa. Menos que eso deja el viaje apurado, dado el tiempo de traslado hasta el pueblo."
       },
       {
-        q: "¿Cómo llegar a Jericoacoara?",
-        a: "Por el aeropuerto de Jericoacoara (JJD), con traslado corto hasta el pueblo, o por el aeropuerto de Fortaleza (FOR), con traslado 4x4 de unas cuatro horas por la costa, incluyendo tramo de dunas.",
+        "q": "¿Cómo llegar a Jericoacoara?",
+        "a": "Toma un vuelo internacional a Brasil. Desde un hub brasileño, conecta con Jericoacoara (JJD) o Fortaleza (FOR). Create Travel organiza traslados privados, incluido el tramo final en 4x4; desde Fortaleza el trayecto dura unas cuatro horas."
       },
       {
-        q: "¿Es posible practicar kitesurf siendo principiante?",
-        a: "Sí. Jeri y la vecina Playa de Preá concentran escuelas certificadas con clases para todos los niveles; la temporada de viento fuerte va de julio a enero.",
+        "q": "¿Es posible practicar kitesurf siendo principiante?",
+        "a": "Sí. Jeri y la vecina Playa de Preá concentran escuelas certificadas con clases para todos los niveles; la temporada de viento fuerte va de julio a enero."
       },
       {
-        q: "¿Las lagunas de Jericoacoara se secan?",
-        a: "La Laguna del Paraíso y la Laguna Azul varían de volumen a lo largo del año, llenas entre junio y septiembre y más bajas entre fin de año y principios del siguiente, antes de llenarse nuevamente con las lluvias.",
+        "q": "¿Las lagunas de Jericoacoara se secan?",
+        "a": "La Laguna del Paraíso y la Laguna Azul varían de volumen a lo largo del año, llenas entre junio y septiembre y más bajas entre fin de año y principios del siguiente, antes de llenarse nuevamente con las lluvias."
       },
       {
-        q: "¿Cuánto cuesta un viaje a Jericoacoara con Create Travel?",
-        a: "No trabajamos con valor de catálogo: el presupuesto depende del hospedaje elegido, la época y el itinerario acordado. Un consultor humano arma la propuesta y envía los valores por escrito.",
+        "q": "¿Cuánto cuesta un viaje a Jericoacoara con Create Travel?",
+        "a": "No trabajamos con valor de catálogo: el presupuesto depende del hospedaje elegido, la época y el itinerario acordado. Un consultor humano arma la propuesta y envía los valores por escrito."
       },
+      {
+        "q": "¿Necesito visado y vacunas para viajar a Brasil?",
+        "a": "Los requisitos de visado dependen de tu nacionalidad y fechas de viaje: consulta fuentes consulares oficiales brasileñas antes de reservar. Consulta las recomendaciones sanitarias oficiales y a un profesional de medicina del viajero sobre vacunas habituales, fiebre amarilla y requisitos de entrada o tránsito según tu itinerario."
+      },
+      {
+        "q": "¿Hay guías en español en todas las excursiones?",
+        "a": "Sí. Create Travel ofrece guías en español en todas las excursiones de tu viaje privado y a medida. Adaptamos el ritmo y las explicaciones a tus intereses."
+      },
+      {
+        "q": "¿Puedo combinar Jericoacoara con otros biomas brasileños?",
+        "a": "Brasil tiene seis biomas terrestres más la zona costera y marina — siete paisajes y culturas distintos. Combina las dunas costeras de Jericoacoara con una estancia en la selva amazónica, planificando vuelos y noches de margen según tus fechas."
+      }
     ],
     cta: {
-      heading: "Diseñemos su Jericoacoara",
-      subheading:
-        "Un consultor humano de Create Travel elige el hospedaje, la ventana de viento y el itinerario correctos para su perfil — y cuida cada traslado.",
-      button: "Hablar con un travel designer",
+      "heading": "Solicita tu presupuesto para Jericoacoara",
+      "subheading": "Planifica un viaje privado y a medida con un diseñador de viajes humano de Create Travel, según tus fechas, intereses, ritmo y confort preferido. Recibe tu propuesta por escrito por WhatsApp.",
+      "button": "Solicitar presupuesto por WhatsApp"
     },
     readingMinutes: 12,
     publishedAt: "2026-08-11",
   },
 
   it: {
-    metaTitle: "Jericoacoara: guida autoriale a dune, kitesurf e lagune",
+    metaTitle: "Jericoacoara, Brasile: Itinerario, Periodo Migliore e Preventivo",
     metaDescription:
-      "Guida completa a Jericoacoara: periodo migliore mese per mese, Duna do Sol e Pedra Furada, lagune Paraíso e Azul, kitesurf, escursioni in buggy, hotel boutique e come inserirla in un itinerario in Brasile.",
+      "Pianifica un viaggio privato e su misura per Jericoacoara: itinerario suggerito, periodo migliore e come arrivare. Richiedi un preventivo su WhatsApp.",
     keywords:
-      "jericoacoara guida, periodo migliore jericoacoara, duna do sol jeri, pedra furada, lagoa paraiso, lagoa azul jericoacoara, kitesurf jericoacoara, buggy jeri, hotel boutique jericoacoara, itinerario ceara brasile",
-    h1: "Jericoacoara: guida autoriale di chi ha visto decine di tramonti dalla Duna do Sol",
+      "jericoacoara guida, periodo migliore jericoacoara, duna do sol jeri, pedra furada, lagoa paraiso, lagoa azul jericoacoara, kitesurf jericoacoara, buggy jeri, hotel boutique jericoacoara, itinerario ceara brasile, Jericoacoara tour, itinerario Jericoacoara, come arrivare a Jericoacoara, periodo migliore Jericoacoara",
+    h1: "Jericoacoara: itinerario, periodo migliore e come arrivare",
     aiAnswer:
-      "Il periodo migliore per visitare Jericoacoara va da luglio a gennaio, quando i venti alisei alimentano il kitesurf e le lagune mantengono ancora un buon livello d'acqua tra giugno e settembre; si consigliano 4-5 notti, arrivando dall'aeroporto di Jericoacoara (JJD) o da Fortaleza (FOR) con un transfer 4x4 di circa quattro ore.",
+      "Il periodo migliore per visitare Jericoacoara va da luglio a gennaio, quando i venti alisei alimentano il kitesurf e le lagune mantengono ancora un buon livello d'acqua tra giugno e settembre; si consigliano 4-5 notti, arrivando dall'aeroporto di Jericoacoara (JJD) o da Fortaleza (FOR) con un transfer 4x4 di circa quattro ore. Create Travel crea viaggi privati e su misura per Jericoacoara per viaggiatori internazionali, con guide in italiano, e invia un preventivo scritto via WhatsApp.",
     intro: [
       "Jericoacoara era un villaggio di pescatori fino agli anni '80 e le sue vie centrali sono ancora prive di asfalto — una regola che la destinazione si è imposta per non diventare l'ennesima costa generica. Questo significa sabbia nelle strade, buggy al posto delle auto e un ritmo che costringe a rallentare ancor prima di raggiungere la spiaggia.",
       "Questa guida nasce da viaggi ripetuti in Ceará, non da ricerche d'ufficio. Raccogliamo i mesi che regalano vento, quelli con lagune piene, gli indirizzi che meritano il soggiorno e come collegare Jeri a un itinerario più ampio nel Nordeste senza perdere la magia del luogo per una logistica mal pianificata.",
@@ -717,31 +731,34 @@ export const jericoacoaraGuide: BrazilGuideLocalized = {
       ],
     },
     itinerary: {
-      heading: "Come integrare Jericoacoara in un itinerario in Brasile",
-      intro:
-        "Jeri si trova alla fine di un tratto di strada non asfaltato, il che richiede connessioni pianificate con cura — non colleghiamo mai un arrivo con volo internazionale direttamente al transfer 4x4.",
-      items: [
+      "heading": "Itinerario suggerito per Jericoacoara e combinazioni in Brasile",
+      "intro": "Jeri si trova alla fine di un tratto di strada non asfaltato, il che richiede connessioni pianificate con cura — non colleghiamo mai un arrivo con volo internazionale direttamente al transfer 4x4.",
+      "items": [
         {
-          title: "Jericoacoara + Fortaleza — 6-7 giorni",
-          text: "Due notti in città per acclimatarsi e conoscere il lungomare urbano, quattro nel villaggio. Trasferimento via terra di circa quattro ore o volo domestico fino all'aeroporto di Jeri.",
+          "title": "Giorno 1 — Arrivo a Jericoacoara",
+          "text": "Trasferimento privato dall’aeroporto di arrivo e sistemazione per quattro notti."
         },
         {
-          title: "Jericoacoara + Lençóis Maranhenses — 9-10 giorni",
-          text: "Due grandi scenari di dune del Nordeste, con logistica aerea via Fortaleza, São Luís o Barreirinhas. Ideale nella finestra da giugno a settembre, quando entrambe le destinazioni hanno lagune piene.",
+          "title": "Giorno 2 — Lagune",
+          "text": "Esplora Lagoa do Paraíso e Lagoa Azul, adattando le soste ai livelli stagionali dell’acqua."
         },
         {
-          title: "Jericoacoara + Fernando de Noronha — 10-12 giorni",
-          text: "Villaggio continentale e arcipelago oceanico, con connessione via Fortaleza o Recife. Contrasto tra dune e barriere coralline nello stesso itinerario.",
+          "title": "Giorno 3 — Dune e villaggio",
+          "text": "Uscita guidata in buggy e pomeriggio dedicato al villaggio e al tramonto."
         },
         {
-          title: "Jericoacoara + Chapada Diamantina — 10 giorni",
-          text: "Costa di dune e altopiano di cascate, due Nordeste molto diversi. Connessione aerea via Fortaleza e Salvador o Lençóis (BA).",
+          "title": "Giorno 4 — Costa al tuo ritmo",
+          "text": "Scegli una visita guidata a Pedra Furada oppure una lezione di kitesurf adatta al tuo livello e alle condizioni."
         },
         {
-          title: "Jericoacoara + Amazzonia — 12-14 giorni",
-          text: "Spiagge di dune e foresta pluviale in un unico itinerario brasiliano, collegando Fortaleza, Belém e Santarém o Manaus. Richiede una pianificazione aerea attenta, ma offre un contrasto raro.",
+          "title": "Giorno 5 — Proseguimento del viaggio",
+          "text": "Trasferimento privato all’aeroporto di partenza con margini adeguati per le coincidenze."
         },
-      ],
+        {
+          "title": "Combina due o più biomi brasiliani",
+          "text": "Il Brasile ha sei biomi terrestri più la zona costiera e marina: sette paesaggi e culture diversi. Combina le dune costiere di Jericoacoara con un soggiorno nella foresta amazzonica, pianificando voli e notti di margine in base alle tue date."
+        }
+      ]
     },
     tips: {
       heading: "Consigli pratici che fanno la differenza",
@@ -756,35 +773,46 @@ export const jericoacoaraGuide: BrazilGuideLocalized = {
     },
     faq: [
       {
-        q: "Qual è il periodo migliore per andare a Jericoacoara?",
-        a: "Da luglio a gennaio c'è vento forte per il kitesurf e le lagune mantengono ancora un buon volume d'acqua, soprattutto fino a settembre. Per tranquillità e tariffe di bassa stagione, febbraio-maggio è l'alternativa, con vento più debole.",
+        "q": "Qual è il periodo migliore per andare a Jericoacoara?",
+        "a": "Da luglio a gennaio c'è vento forte per il kitesurf e le lagune mantengono ancora un buon volume d'acqua, soprattutto fino a settembre. Per tranquillità e tariffe di bassa stagione, febbraio-maggio è l'alternativa, con vento più debole."
       },
       {
-        q: "Quanti giorni servono per visitare Jericoacoara?",
-        a: "Quattro-cinque notti permettono duna, lagune, buggy e almeno un giorno di riposo senza fretta. Meno di così rende il viaggio affrettato, dato il tempo di trasferimento fino al villaggio.",
+        "q": "Quanti giorni servono per visitare Jericoacoara?",
+        "a": "Quattro-cinque notti permettono duna, lagune, buggy e almeno un giorno di riposo senza fretta. Meno di così rende il viaggio affrettato, dato il tempo di trasferimento fino al villaggio."
       },
       {
-        q: "Come si arriva a Jericoacoara?",
-        a: "Dall'aeroporto di Jericoacoara (JJD), con un breve transfer fino al villaggio, oppure dall'aeroporto di Fortaleza (FOR), con un transfer 4x4 di circa quattro ore lungo la costa, incluso un tratto di dune.",
+        "q": "Come si arriva a Jericoacoara?",
+        "a": "Prendi un volo internazionale per il Brasile. Da un hub brasiliano, prosegui per Jericoacoara (JJD) o Fortaleza (FOR). Create Travel organizza trasferimenti privati, incluso il tratto finale in 4x4; da Fortaleza il viaggio dura circa quattro ore."
       },
       {
-        q: "È possibile fare kitesurf da principianti?",
-        a: "Sì. Jeri e la vicina Praia do Preá concentrano scuole certificate con lezioni per tutti i livelli; la stagione dei venti forti va da luglio a gennaio.",
+        "q": "È possibile fare kitesurf da principianti?",
+        "a": "Sì. Jeri e la vicina Praia do Preá concentrano scuole certificate con lezioni per tutti i livelli; la stagione dei venti forti va da luglio a gennaio."
       },
       {
-        q: "Le lagune di Jericoacoara si prosciugano?",
-        a: "La Lagoa do Paraíso e la Lagoa Azul variano di volume durante l'anno, piene tra giugno e settembre e più basse tra la fine dell'anno e l'inizio del successivo, prima di riempirsi nuovamente con le piogge.",
+        "q": "Le lagune di Jericoacoara si prosciugano?",
+        "a": "La Lagoa do Paraíso e la Lagoa Azul variano di volume durante l'anno, piene tra giugno e settembre e più basse tra la fine dell'anno e l'inizio del successivo, prima di riempirsi nuovamente con le piogge."
       },
       {
-        q: "Quanto costa un viaggio a Jericoacoara con Create Travel?",
-        a: "Non lavoriamo con tariffe standard: il budget dipende dall'alloggio scelto, dal periodo e dall'itinerario concordato. Un consulente umano prepara la proposta e invia i valori per iscritto.",
+        "q": "Quanto costa un viaggio a Jericoacoara con Create Travel?",
+        "a": "Non lavoriamo con tariffe standard: il budget dipende dall'alloggio scelto, dal periodo e dall'itinerario concordato. Un consulente umano prepara la proposta e invia i valori per iscritto."
       },
+      {
+        "q": "Servono visto e vaccini per viaggiare in Brasile?",
+        "a": "I requisiti del visto dipendono dalla nazionalità e dalle date di viaggio: consulta le fonti consolari ufficiali brasiliane prima di prenotare. Consulta le indicazioni sanitarie ufficiali e un professionista di medicina dei viaggi sulle vaccinazioni di routine, sulla febbre gialla e sui requisiti di ingresso o transito secondo il tuo itinerario."
+      },
+      {
+        "q": "Sono disponibili guide in italiano in ogni escursione?",
+        "a": "Sì. Create Travel offre guide in italiano in ogni escursione del tuo viaggio privato e su misura. Adattiamo il ritmo e le spiegazioni ai tuoi interessi."
+      },
+      {
+        "q": "Posso combinare Jericoacoara con altri biomi brasiliani?",
+        "a": "Il Brasile ha sei biomi terrestri più la zona costiera e marina: sette paesaggi e culture diversi. Combina le dune costiere di Jericoacoara con un soggiorno nella foresta amazzonica, pianificando voli e notti di margine in base alle tue date."
+      }
     ],
     cta: {
-      heading: "Disegniamo la vostra Jericoacoara",
-      subheading:
-        "Un consulente umano di Create Travel sceglie l'alloggio, la finestra di vento e l'itinerario giusti per il vostro profilo — e cura ogni trasferimento.",
-      button: "Parla con un travel designer",
+      "heading": "Richiedi il tuo preventivo per Jericoacoara",
+      "subheading": "Pianifica un viaggio privato e su misura con un travel designer umano di Create Travel, secondo le tue date, i tuoi interessi, il tuo ritmo e il comfort desiderato. Ricevi la proposta scritta via WhatsApp.",
+      "button": "Richiedi un preventivo su WhatsApp"
     },
     readingMinutes: 12,
     publishedAt: "2026-08-11",

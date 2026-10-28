@@ -445,14 +445,14 @@ export const grandesCenariosBrasilGuide: BrazilGuideLocalized = {
     destinationName: "Grandes Escenarios de Brasil",
     blurb:
       "Un especial autoral sobre los diez escenarios más fotografiados del país — y la hora exacta del día en que cada uno se revela.",
-    metaTitle: "Grandes Escenarios de Brasil: guía de luz y mejor época",
+    metaTitle: "Los grandes paisajes de Brasil, Brasil: Itinerario, Mejor Época y Presupuesto",
     metaDescription:
-      "Lençóis Maranhenses, Iguazú, Roraima, Jalapão, Vale do Pati, Encuentro de las Aguas, Jericoacoara, cañones de Aparados da Serra, Noronha y el Pantanal inundado: cuándo ir y a qué hora ver cada escenario en su punto máximo.",
+      "Planifica un viaje privado y a medida a los grandes paisajes de Brasil: itinerario sugerido, mejor época y cómo llegar. Solicita un presupuesto por WhatsApp.",
     keywords:
-      "grandes escenarios brasil, lencois maranhenses, cataratas de iguazu brasil, monte roraima, jalapao, vale do pati chapada diamantina, encuentro de las aguas manaos, dunas de jericoacoara, cañones de aparados da serra, fernando de noronha, pantanal inundado, mejor epoca brasil",
-    h1: "Los grandes escenarios de Brasil: qué luz, qué hora, qué época",
+      "grandes escenarios brasil, lencois maranhenses, cataratas de iguazu brasil, monte roraima, jalapao, vale do pati chapada diamantina, encuentro de las aguas manaos, dunas de jericoacoara, cañones de aparados da serra, fernando de noronha, pantanal inundado, mejor epoca brasil, los grandes paisajes de Brasil tour, itinerario los grandes paisajes de Brasil, cómo llegar a los grandes paisajes de Brasil, mejor época los grandes paisajes de Brasil",
+    h1: "Los grandes paisajes de Brasil: itinerario, mejor época y cómo llegar",
     aiAnswer:
-      "Los escenarios naturales más espectaculares de Brasil tienen ventanas específicas: Lençóis Maranhenses y Jalapão en el auge de las lagunas (junio a septiembre), Iguazú con caudal alto (abril a agosto), Roraima en la temporada seca (diciembre a marzo), Vale do Pati en la seca de la Chapada (abril a septiembre), las dunas de Jericoacoara al atardecer todo el año, y el Pantanal inundado entre enero y marzo para paisaje, o seco entre julio y octubre para fauna.",
+      "Los escenarios naturales más espectaculares de Brasil tienen ventanas específicas: Lençóis Maranhenses y Jalapão en el auge de las lagunas (junio a septiembre), Iguazú con caudal alto (abril a agosto), Roraima en la temporada seca (diciembre a marzo), Vale do Pati en la seca de la Chapada (abril a septiembre), las dunas de Jericoacoara al atardecer todo el año, y el Pantanal inundado entre enero y marzo para paisaje, o seco entre julio y octubre para fauna. Create Travel diseña viajes privados y a medida a los grandes paisajes de Brasil para viajeros internacionales, con guías en español, y envía un presupuesto por escrito por WhatsApp.",
     intro: [
       "Existe un Brasil que cabe en cualquier itinerario clásico — playa, ciudad, fútbol — y existe otro Brasil, el de los grandes escenarios naturales, que exige planificación fina: mes correcto, hora correcta, logística correcta. Este especial reúne diez de esos escenarios, desde un desierto de dunas y lagunas en Maranhão hasta la cima de una montaña en la frontera con Venezuela, y explica no solo cuándo ir, sino a qué hora cada paisaje entrega lo que promete.",
       "No es una lista genérica de 'lugares increíbles'. Es la referencia que usamos para decidir, escenario por escenario, si vale la pena desviar el eje de un viaje para verlos — y cómo encajar cada uno sin convertir Brasil en una maratón de aeropuertos.",
@@ -582,27 +582,30 @@ export const grandesCenariosBrasilGuide: BrazilGuideLocalized = {
       ],
     },
     itinerary: {
-      heading: "Cómo encadenar los escenarios sin una maratón de aeropuertos",
-      intro:
-        "Ninguno de estos escenarios está cerca del otro — la lógica es elegir dos o tres por viaje, con al menos dos o tres noches en cada uno, y aceptar los tramos aéreos internos como parte de la experiencia.",
-      items: [
+      "heading": "Cómo encadenar los escenarios sin una maratón de aeropuertos",
+      "intro": "Ninguno de estos escenarios está cerca del otro — la lógica es elegir dos o tres por viaje, con al menos dos o tres noches en cada uno, y aceptar los tramos aéreos internos como parte de la experiencia.",
+      "items": [
         {
-          title: "Día 1 a 4 — Lençóis Maranhenses",
-          text: "Vuelo hasta São Luís, 4 horas de carretera o traslado hasta Barreirinhas o Atins. Tres noches completas para lagunas, dunas y paseo en jangada por el Río Preguiças.",
+          "title": "Día 1 a 4 — Lençóis Maranhenses",
+          "text": "Vuelo hasta São Luís, 4 horas de carretera o traslado hasta Barreirinhas o Atins. Tres noches completas para lagunas, dunas y paseo en jangada por el Río Preguiças."
         },
         {
-          title: "Día 5 a 7 — Jalapão",
-          text: "Vuelo São Luís–Palmas (con conexión en Brasilia o São Paulo, según la malla del período) y 4 a 6 horas de camino de tierra hasta la región de las dunas. Tres días de 4x4 entre manantiales y cascadas.",
+          "title": "Día 5 a 7 — Jalapão",
+          "text": "Vuelo São Luís–Palmas (con conexión en Brasilia o São Paulo, según la malla del período) y 4 a 6 horas de camino de tierra hasta la región de las dunas. Tres días de 4x4 entre manantiales y cascadas."
         },
         {
-          title: "Día 8 a 11 — Chapada Diamantina, Vale do Pati",
-          text: "Vuelo hasta Salvador o Lençóis (BA) y traslado hasta Vale do Capão. Travesía de tres días y dos noches en posadas comunitarias dentro del valle, con guía obligatorio.",
+          "title": "Día 8 a 11 — Chapada Diamantina, Vale do Pati",
+          "text": "Vuelo hasta Salvador o Lençóis (BA) y traslado hasta Vale do Capão. Travesía de tres días y dos noches en posadas comunitarias dentro del valle, con guía obligatorio."
         },
         {
-          title: "Día 12 a 14 — Fernando de Noronha, descompresión final",
-          text: "Vuelo vía Recife o Natal hasta Noronha. Tres noches de playa y buceo cierran el itinerario a un ritmo más lento tras días de trekking intenso.",
+          "title": "Día 12 a 14 — Fernando de Noronha, descompresión final",
+          "text": "Vuelo vía Recife o Natal hasta Noronha. Tres noches de playa y buceo cierran el itinerario a un ritmo más lento tras días de trekking intenso."
         },
-      ],
+        {
+          "title": "Combina dos o más biomas brasileños",
+          "text": "Brasil tiene seis biomas terrestres más la zona costera y marina — siete paisajes y culturas distintos. Combina el Cerrado de Jalapão con el Encuentro de las Aguas en la Amazonía, reservando días de viaje entre regiones. Adaptamos la secuencia a las condiciones estacionales y dejamos tiempo para los traslados."
+        }
+      ]
     },
     tips: {
       heading: "Consejos prácticos para fotografiar y vivir estos escenarios",
@@ -617,35 +620,50 @@ export const grandesCenariosBrasilGuide: BrazilGuideLocalized = {
     },
     faq: [
       {
-        q: "¿Cuál es el escenario más fácil de combinar con un viaje clásico a Brasil?",
-        a: "Las Cataratas del Iguazú, por estar bien conectadas con vuelos directos desde São Paulo, Río de Janeiro y las principales capitales, con solo 2 a 3 noches necesarias.",
+        "q": "¿Cuál es el escenario más fácil de combinar con un viaje clásico a Brasil?",
+        "a": "Las Cataratas del Iguazú, por estar bien conectadas con vuelos directos desde São Paulo, Río de Janeiro y las principales capitales, con solo 2 a 3 noches necesarias."
       },
       {
-        q: "¿Es posible ver los diez escenarios en un solo viaje?",
-        a: "Técnicamente sí, pero exigiría de tres a cuatro semanas y una malla aérea compleja. Recomendamos combinar dos o tres por viaje, con al menos dos a tres noches en cada uno.",
+        "q": "¿Es posible ver los diez escenarios en un solo viaje?",
+        "a": "Técnicamente sí, pero exigiría de tres a cuatro semanas y una malla aérea compleja. Recomendamos combinar dos o tres por viaje, con al menos dos a tres noches en cada uno."
       },
       {
-        q: "¿Cuál de estos escenarios exige más preparación física?",
-        a: "El Monte Roraima, con seis días de trekking técnico en altitud, y el Vale do Pati, con tres a cuatro días de travesía en terreno irregular. Ambos requieren condición física previa.",
+        "q": "¿Cuál de estos escenarios exige más preparación física?",
+        "a": "El Monte Roraima, con seis días de trekking técnico en altitud, y el Vale do Pati, con tres a cuatro días de travesía en terreno irregular. Ambos requieren condición física previa."
       },
       {
-        q: "¿Cuál es la mejor época para fotografiar Lençóis Maranhenses?",
-        a: "Junio a septiembre, cuando las lagunas entre las dunas están llenas y transparentes tras las lluvias de comienzos de año.",
+        "q": "¿Cuál es la mejor época para fotografiar Lençóis Maranhenses?",
+        "a": "Junio a septiembre, cuando las lagunas entre las dunas están llenas y transparentes tras las lluvias de comienzos de año."
       },
       {
-        q: "¿El Pantanal inundado y el Pantanal seco son el mismo viaje?",
-        a: "No. Inundado (enero a marzo) prioriza paisaje y reflejos; seco (julio a octubre) prioriza fauna concentrada, incluidos jaguares en la Transpantaneira. Son dos viajes con propósitos diferentes.",
+        "q": "¿El Pantanal inundado y el Pantanal seco son el mismo viaje?",
+        "a": "No. Inundado (enero a marzo) prioriza paisaje y reflejos; seco (julio a octubre) prioriza fauna concentrada, incluidos jaguares en la Transpantaneira. Son dos viajes con propósitos diferentes."
       },
       {
-        q: "¿Cuánto cuesta organizar un itinerario combinando estos escenarios?",
-        a: "No trabajamos con precios de estante: el presupuesto depende de los escenarios elegidos, la época y la malla aérea. Un consultor humano de Create Travel elabora la propuesta por escrito.",
+        "q": "¿Cuánto cuesta organizar un itinerario combinando estos escenarios?",
+        "a": "No trabajamos con precios de estante: el presupuesto depende de los escenarios elegidos, la época y la malla aérea. Un consultor humano de Create Travel elabora la propuesta por escrito."
       },
+      {
+        "q": "¿Cómo llegar a los grandes paisajes de Brasil desde el extranjero?",
+        "a": "Toma un vuelo internacional a Brasil. Desde un hub brasileño, toma un vuelo nacional al aeropuerto del paisaje elegido: São Luís para Lençóis Maranhenses o Palmas para Jalapão. Create Travel organiza traslados privados y confirma las conexiones antes de reservar."
+      },
+      {
+        "q": "¿Necesito visado y vacunas para viajar a Brasil?",
+        "a": "Los requisitos de visado dependen de tu nacionalidad y fechas de viaje: consulta fuentes consulares oficiales brasileñas antes de reservar. Consulta las recomendaciones sanitarias oficiales y a un profesional de medicina del viajero sobre vacunas habituales, fiebre amarilla y requisitos de entrada o tránsito según tu itinerario."
+      },
+      {
+        "q": "¿Hay guías en español en todas las excursiones?",
+        "a": "Sí. Create Travel ofrece guías en español en todas las excursiones de tu viaje privado y a medida. Adaptamos el ritmo y las explicaciones a tus intereses."
+      },
+      {
+        "q": "¿Puedo combinar los grandes paisajes de Brasil con otros biomas brasileños?",
+        "a": "Brasil tiene seis biomas terrestres más la zona costera y marina — siete paisajes y culturas distintos. Combina el Cerrado de Jalapão con el Encuentro de las Aguas en la Amazonía, reservando días de viaje entre regiones. Adaptamos la secuencia a las condiciones estacionales y dejamos tiempo para los traslados."
+      }
     ],
     cta: {
-      heading: "Diseñemos su itinerario de grandes escenarios",
-      subheading:
-        "Un consultor humano de Create Travel elige, junto a usted, qué escenarios combinar, en qué época y con qué logística aérea.",
-      button: "Hablar con un travel designer",
+      "heading": "Solicita tu presupuesto para los grandes paisajes de Brasil",
+      "subheading": "Planifica un viaje privado y a medida con un diseñador de viajes humano de Create Travel, según tus fechas, intereses, ritmo y confort preferido. Recibe tu propuesta por escrito por WhatsApp.",
+      "button": "Solicitar presupuesto por WhatsApp"
     },
     readingMinutes: 14,
     publishedAt: "2026-08-11",
@@ -655,14 +673,14 @@ export const grandesCenariosBrasilGuide: BrazilGuideLocalized = {
     destinationName: "Grandi Scenari del Brasile",
     blurb:
       "Uno speciale editoriale sui dieci scenari più fotografati del paese — e l'ora esatta del giorno in cui ciascuno si rivela.",
-    metaTitle: "Grandi Scenari del Brasile: guida a luce e stagione ideale",
+    metaTitle: "I grandi paesaggi del Brasile, Brasile: Itinerario, Periodo Migliore e Preventivo",
     metaDescription:
-      "Lençóis Maranhenses, Iguazú, Roraima, Jalapão, Vale do Pati, Incontro delle Acque, Jericoacoara, canyon di Aparados da Serra, Noronha e il Pantanal allagato: quando andare e a che ora vedere ogni scenario al suo apice.",
+      "Pianifica un viaggio privato e su misura per i grandi paesaggi del Brasile: itinerario suggerito, periodo migliore e come arrivare. Richiedi un preventivo su WhatsApp.",
     keywords:
-      "grandi scenari brasile, lencois maranhenses, cascate di iguazu brasile, monte roraima, jalapao, vale do pati chapada diamantina, incontro delle acque manaus, dune di jericoacoara, canyon aparados da serra, fernando de noronha, pantanal allagato, periodo migliore brasile",
-    h1: "I grandi scenari del Brasile: quale luce, quale ora, quale stagione",
+      "grandi scenari brasile, lencois maranhenses, cascate di iguazu brasile, monte roraima, jalapao, vale do pati chapada diamantina, incontro delle acque manaus, dune di jericoacoara, canyon aparados da serra, fernando de noronha, pantanal allagato, periodo migliore brasile, i grandi paesaggi del Brasile tour, itinerario i grandi paesaggi del Brasile, come arrivare a i grandi paesaggi del Brasile, periodo migliore i grandi paesaggi del Brasile",
+    h1: "I grandi paesaggi del Brasile: itinerario, periodo migliore e come arrivare",
     aiAnswer:
-      "Gli scenari naturali più spettacolari del Brasile hanno finestre specifiche: Lençóis Maranhenses e Jalapão al culmine delle lagune (giugno-settembre), le cascate di Iguazú con portata massima (aprile-agosto), il Roraima nella stagione secca (dicembre-marzo), il Vale do Pati nella secca della Chapada (aprile-settembre), le dune di Jericoacoara al tramonto tutto l'anno, e il Pantanal allagato tra gennaio e marzo per il paesaggio, o secco tra luglio e ottobre per la fauna.",
+      "Gli scenari naturali più spettacolari del Brasile hanno finestre specifiche: Lençóis Maranhenses e Jalapão al culmine delle lagune (giugno-settembre), le cascate di Iguazú con portata massima (aprile-agosto), il Roraima nella stagione secca (dicembre-marzo), il Vale do Pati nella secca della Chapada (aprile-settembre), le dune di Jericoacoara al tramonto tutto l'anno, e il Pantanal allagato tra gennaio e marzo per il paesaggio, o secco tra luglio e ottobre per la fauna. Create Travel crea viaggi privati e su misura per i grandi paesaggi del Brasile per viaggiatori internazionali, con guide in italiano, e invia un preventivo scritto via WhatsApp.",
     intro: [
       "Esiste un Brasile che rientra in qualsiasi itinerario classico — spiaggia, città, calcio — ed esiste un altro Brasile, quello dei grandi scenari naturali, che richiede una pianificazione fine: il mese giusto, l'ora giusta, la logistica giusta. Questo speciale raccoglie dieci di questi scenari, da un deserto di dune e lagune nel Maranhão alla cima di una montagna al confine con il Venezuela, e spiega non solo quando andare, ma a che ora ogni paesaggio mantiene la sua promessa.",
       "Non è una lista generica di 'luoghi incredibili'. È il riferimento che usiamo per decidere, scenario per scenario, se vale la pena deviare l'asse di un viaggio per vederli — e come inserire ognuno senza trasformare il Brasile in una maratona di aeroporti.",
@@ -792,27 +810,30 @@ export const grandesCenariosBrasilGuide: BrazilGuideLocalized = {
       ],
     },
     itinerary: {
-      heading: "Come collegare gli scenari senza una maratona di aeroporti",
-      intro:
-        "Nessuno di questi scenari è vicino all'altro — la logica è scegliere due o tre per viaggio, con almeno due o tre notti ciascuno, e accettare i tratti aerei interni come parte dell'esperienza.",
-      items: [
+      "heading": "Come collegare gli scenari senza una maratona di aeroporti",
+      "intro": "Nessuno di questi scenari è vicino all'altro — la logica è scegliere due o tre per viaggio, con almeno due o tre notti ciascuno, e accettare i tratti aerei interni come parte dell'esperienza.",
+      "items": [
         {
-          title: "Giorno 1-4 — Lençóis Maranhenses",
-          text: "Volo fino a São Luís, 4 ore di strada o trasferimento fino a Barreirinhas o Atins. Tre notti piene per lagune, dune e gita in jangada sul Rio Preguiças.",
+          "title": "Giorno 1-4 — Lençóis Maranhenses",
+          "text": "Volo fino a São Luís, 4 ore di strada o trasferimento fino a Barreirinhas o Atins. Tre notti piene per lagune, dune e gita in jangada sul Rio Preguiças."
         },
         {
-          title: "Giorno 5-7 — Jalapão",
-          text: "Volo São Luís–Palmas (con scalo a Brasília o São Paulo, a seconda della rete del periodo) e 4-6 ore su strada sterrata fino alla regione delle dune. Tre giorni di 4x4 tra sorgenti e cascate.",
+          "title": "Giorno 5-7 — Jalapão",
+          "text": "Volo São Luís–Palmas (con scalo a Brasília o São Paulo, a seconda della rete del periodo) e 4-6 ore su strada sterrata fino alla regione delle dune. Tre giorni di 4x4 tra sorgenti e cascate."
         },
         {
-          title: "Giorno 8-11 — Chapada Diamantina, Vale do Pati",
-          text: "Volo fino a Salvador o Lençóis (BA) e trasferimento fino al Vale do Capão. Traversata di tre giorni e due notti in pousadas comunitarie dentro la valle, con guida obbligatoria.",
+          "title": "Giorno 8-11 — Chapada Diamantina, Vale do Pati",
+          "text": "Volo fino a Salvador o Lençóis (BA) e trasferimento fino al Vale do Capão. Traversata di tre giorni e due notti in pousadas comunitarie dentro la valle, con guida obbligatoria."
         },
         {
-          title: "Giorno 12-14 — Fernando de Noronha, decompressione finale",
-          text: "Volo via Recife o Natal fino a Noronha. Tre notti di spiaggia e immersioni chiudono l'itinerario a un ritmo più lento dopo giorni di trekking intenso.",
+          "title": "Giorno 12-14 — Fernando de Noronha, decompressione finale",
+          "text": "Volo via Recife o Natal fino a Noronha. Tre notti di spiaggia e immersioni chiudono l'itinerario a un ritmo più lento dopo giorni di trekking intenso."
         },
-      ],
+        {
+          "title": "Combina due o più biomi brasiliani",
+          "text": "Il Brasile ha sei biomi terrestri più la zona costiera e marina: sette paesaggi e culture diversi. Combina il Cerrado di Jalapão con l’Incontro delle Acque in Amazzonia, prevedendo giornate di viaggio tra le regioni.Adattiamo la sequenza alle condizioni stagionali e prevediamo tempo per i trasferimenti."
+        }
+      ]
     },
     tips: {
       heading: "Consigli pratici per fotografare e vivere questi scenari",
@@ -827,35 +848,50 @@ export const grandesCenariosBrasilGuide: BrazilGuideLocalized = {
     },
     faq: [
       {
-        q: "Qual è lo scenario più facile da combinare con un viaggio classico in Brasile?",
-        a: "Le Cascate di Iguazú, ben collegate con voli diretti da São Paulo, Rio de Janeiro e le principali capitali, con solo 2-3 notti necessarie.",
+        "q": "Qual è lo scenario più facile da combinare con un viaggio classico in Brasile?",
+        "a": "Le Cascate di Iguazú, ben collegate con voli diretti da São Paulo, Rio de Janeiro e le principali capitali, con solo 2-3 notti necessarie."
       },
       {
-        q: "È possibile vedere tutti e dieci gli scenari in un solo viaggio?",
-        a: "Tecnicamente sì, ma richiederebbe tre o quattro settimane e una rete aerea complessa. Consigliamo di combinarne due o tre per viaggio, con almeno due o tre notti ciascuno.",
+        "q": "È possibile vedere tutti e dieci gli scenari in un solo viaggio?",
+        "a": "Tecnicamente sì, ma richiederebbe tre o quattro settimane e una rete aerea complessa. Consigliamo di combinarne due o tre per viaggio, con almeno due o tre notti ciascuno."
       },
       {
-        q: "Quale di questi scenari richiede più preparazione fisica?",
-        a: "Il Monte Roraima, con sei giorni di trekking tecnico in quota, e il Vale do Pati, con tre o quattro giorni di traversata su terreno irregolare. Entrambi richiedono una preparazione preventiva.",
+        "q": "Quale di questi scenari richiede più preparazione fisica?",
+        "a": "Il Monte Roraima, con sei giorni di trekking tecnico in quota, e il Vale do Pati, con tre o quattro giorni di traversata su terreno irregolare. Entrambi richiedono una preparazione preventiva."
       },
       {
-        q: "Qual è il periodo migliore per fotografare i Lençóis Maranhenses?",
-        a: "Da giugno a settembre, quando le lagune tra le dune sono piene e trasparenti dopo le piogge di inizio anno.",
+        "q": "Qual è il periodo migliore per fotografare i Lençóis Maranhenses?",
+        "a": "Da giugno a settembre, quando le lagune tra le dune sono piene e trasparenti dopo le piogge di inizio anno."
       },
       {
-        q: "Il Pantanal allagato e il Pantanal secco sono lo stesso viaggio?",
-        a: "No. Allagato (gennaio-marzo) privilegia paesaggio e riflessi; secco (luglio-ottobre) privilegia fauna concentrata, inclusi i giaguari lungo la Transpantaneira. Sono due viaggi con scopi diversi.",
+        "q": "Il Pantanal allagato e il Pantanal secco sono lo stesso viaggio?",
+        "a": "No. Allagato (gennaio-marzo) privilegia paesaggio e riflessi; secco (luglio-ottobre) privilegia fauna concentrata, inclusi i giaguari lungo la Transpantaneira. Sono due viaggi con scopi diversi."
       },
       {
-        q: "Quanto costa organizzare un itinerario combinando questi scenari?",
-        a: "Non lavoriamo con listini fissi: il budget dipende dagli scenari scelti, dalla stagione e dalla rete aerea. Un consulente umano di Create Travel prepara la proposta per iscritto.",
+        "q": "Quanto costa organizzare un itinerario combinando questi scenari?",
+        "a": "Non lavoriamo con listini fissi: il budget dipende dagli scenari scelti, dalla stagione e dalla rete aerea. Un consulente umano di Create Travel prepara la proposta per iscritto."
       },
+      {
+        "q": "Come arrivare a i grandi paesaggi del Brasile dall’estero?",
+        "a": "Prendi un volo internazionale per il Brasile. Da un hub brasiliano, prendi un volo interno per l’aeroporto del paesaggio scelto: São Luís per i Lençóis Maranhenses o Palmas per Jalapão. Create Travel organizza trasferimenti privati e conferma le coincidenze prima della prenotazione."
+      },
+      {
+        "q": "Servono visto e vaccini per viaggiare in Brasile?",
+        "a": "I requisiti del visto dipendono dalla nazionalità e dalle date di viaggio: consulta le fonti consolari ufficiali brasiliane prima di prenotare. Consulta le indicazioni sanitarie ufficiali e un professionista di medicina dei viaggi sulle vaccinazioni di routine, sulla febbre gialla e sui requisiti di ingresso o transito secondo il tuo itinerario."
+      },
+      {
+        "q": "Sono disponibili guide in italiano in ogni escursione?",
+        "a": "Sì. Create Travel offre guide in italiano in ogni escursione del tuo viaggio privato e su misura. Adattiamo il ritmo e le spiegazioni ai tuoi interessi."
+      },
+      {
+        "q": "Posso combinare i grandi paesaggi del Brasile con altri biomi brasiliani?",
+        "a": "Il Brasile ha sei biomi terrestri più la zona costiera e marina: sette paesaggi e culture diversi. Combina il Cerrado di Jalapão con l’Incontro delle Acque in Amazzonia, prevedendo giornate di viaggio tra le regioni.Adattiamo la sequenza alle condizioni stagionali e prevediamo tempo per i trasferimenti."
+      }
     ],
     cta: {
-      heading: "Progettiamo il vostro itinerario dei grandi scenari",
-      subheading:
-        "Un consulente umano di Create Travel sceglie, insieme a voi, quali scenari combinare, in quale stagione e con quale logistica aerea.",
-      button: "Parla con un travel designer",
+      "heading": "Richiedi il tuo preventivo per i grandi paesaggi del Brasile",
+      "subheading": "Pianifica un viaggio privato e su misura con un travel designer umano di Create Travel, secondo le tue date, i tuoi interessi, il tuo ritmo e il comfort desiderato. Ricevi la proposta scritta via WhatsApp.",
+      "button": "Richiedi un preventivo su WhatsApp"
     },
     readingMinutes: 14,
     publishedAt: "2026-08-11",

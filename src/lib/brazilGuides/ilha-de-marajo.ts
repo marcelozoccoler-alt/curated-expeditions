@@ -358,14 +358,14 @@ export const ilhaDeMarajoGuide: BrazilGuideLocalized = {
     destinationName: "Isla de Marajó",
     blurb:
       "La isla fluviomarina más grande del mundo, entre haciendas de búfalos y playas de río en la desembocadura del Amazonas.",
-    metaTitle: "Isla de Marajó: guía de búfalos, haciendas y playas en Pará",
+    metaTitle: "La isla de Marajó, Brasil: Itinerario, Mejor Época y Presupuesto",
     metaDescription:
-      "Guía completa de la Isla de Marajó: cuándo ir, haciendas de búfalo, Soure y Salvaterra, cerámica marajoara y cómo llegar desde Belém. Sin precios, solo experiencia real.",
+      "Planifica un viaje privado y a medida a la isla de Marajó: itinerario sugerido, mejor época y cómo llegar. Solicita un presupuesto por WhatsApp.",
     keywords:
-      "isla de marajo, que hacer en marajo, hacienda de bufalos marajo, soure salvaterra, ceramica marajoara, ferry belem marajo, mejor epoca marajo",
-    h1: "Isla de Marajó: búfalos, campos inundados y el Pará más auténtico",
+      "isla de marajo, que hacer en marajo, hacienda de bufalos marajo, soure salvaterra, ceramica marajoara, ferry belem marajo, mejor epoca marajo, la isla de Marajó tour, itinerario la isla de Marajó, cómo llegar a la isla de Marajó, mejor época la isla de Marajó",
+    h1: "La isla de Marajó: itinerario, mejor época y cómo llegar",
     aiAnswer:
-      "La mejor época para visitar la Isla de Marajó es entre julio y diciembre, temporada seca, cuando los campos inundados bajan y liberan caminos de tierra hacia haciendas y playas de río; la travesía sale de Belém por el puerto de Icoaraci hasta Camará, seguida de una hora de carretera hasta Soure.",
+      "La mejor época para visitar la Isla de Marajó es entre julio y diciembre, temporada seca, cuando los campos inundados bajan y liberan caminos de tierra hacia haciendas y playas de río; la travesía sale de Belém por el puerto de Icoaraci hasta Camará, seguida de una hora de carretera hasta Soure. Create Travel diseña viajes privados y a medida a la isla de Marajó para viajeros internacionales, con guías en español, y envía un presupuesto por escrito por WhatsApp.",
     intro: [
       "Marajó es la isla fluviomarina más grande del planeta —más grande que Suiza— formada donde el río Amazonas se encuentra con el Atlántico, mezclando agua dulce y salada en un mismo horizonte. Es también un mundo aparte dentro de Pará: campos que se inundan y secan al ritmo de las lluvias, haciendas de búfalo que reemplazaron al ganado hace más de un siglo y pueblos de playa de río que parecen detenidos en el tiempo.",
       "No es un destino de resort. Es un destino de caminos de tierra, agua de arroyo y almuerzo de pescado frito junto al río. Quien busca esa autenticidad —sin renunciar a un confort puntual en buenas posadas— encuentra en Marajó un Pará que pocos extranjeros conocen.",
@@ -465,23 +465,30 @@ export const ilhaDeMarajoGuide: BrazilGuideLocalized = {
       ],
     },
     itinerary: {
-      heading: "Cómo incluir Marajó en un itinerario por Pará",
-      intro:
-        "Marajó funciona mejor como extensión de una estadía en Belém, nunca como destino aislado sin contexto amazónico.",
-      items: [
+      "heading": "Itinerario sugerido para la isla de Marajó y combinaciones por Brasil",
+      "intro": "Marajó funciona mejor como extensión de una estadía en Belém, nunca como destino aislado sin contexto amazónico.",
+      "items": [
         {
-          title: "Belém + Marajó — 4 a 5 días",
-          text: "Dos días en Belém (mercado Ver-o-Peso, Estação das Docas) seguidos de la travesía a Marajó con dos a tres noches entre Soure y Salvaterra.",
+          "title": "Día 1 — De Belém a Soure",
+          "text": "Cruza de Icoaraci a Camará y continúa a Soure para la primera de tres noches en la isla."
         },
         {
-          title: "Marajó + Amazonía (Santarém/Alter do Chão) — 8 a 10 días",
-          text: "Combina los campos inundados de Marajó con las playas de agua dulce del Tapajós, conectadas por vuelo doméstico vía Belém.",
+          "title": "Día 2 — Hacienda de búfalos y sabores locales",
+          "text": "Visita una hacienda de búfalos con cita previa y descubre el queso de Marajó y el açaí local."
         },
         {
-          title: "Marajó + Lençóis Maranhenses — 8 días",
-          text: "Dos paisajes únicos de la costa norte brasileña, unidos por un vuelo hasta São Luís.",
+          "title": "Día 3 — Salvaterra y playas fluviales",
+          "text": "Explora Salvaterra y las playas fluviales sin prisa, con tiempo para la cerámica marajoara."
         },
-      ],
+        {
+          "title": "Día 4 — Regreso a Belém",
+          "text": "Regresa vía Camará e Icoaraci, dejando margen antes de los siguientes vuelos."
+        },
+        {
+          "title": "Combina dos o más biomas brasileños",
+          "text": "Brasil tiene seis biomas terrestres más la zona costera y marina — siete paisajes y culturas distintos. Combina Marajó, en el bioma amazónico, con la costa de dunas de Lençóis Maranhenses, dejando tiempo para la conexión por São Luís."
+        }
+      ]
     },
     tips: {
       heading: "Consejos prácticos para viajar a Marajó",
@@ -496,35 +503,46 @@ export const ilhaDeMarajoGuide: BrazilGuideLocalized = {
     },
     faq: [
       {
-        q: "¿Cómo llegar a la Isla de Marajó?",
-        a: "Desde Belém, por el puerto de Icoaraci, en ferry o lancha rápida hasta el puerto de Camará, seguido de una hora de carretera hasta Soure. También hay vuelos regionales directos a Soure en ciertas épocas.",
+        "q": "¿Cómo llegar a la Isla de Marajó?",
+        "a": "Toma un vuelo internacional a Brasil. Desde un hub brasileño, conecta con Belém. Continúa del puerto de Icoaraci a Camará en ferry o lancha rápida y después a Soure. Create Travel organiza los traslados privados por carretera antes y después de la travesía."
       },
       {
-        q: "¿Cuál es la mejor época para ver los búfalos de Marajó?",
-        a: "Se puede visitar las haciendas todo el año, pero la temporada seca, de julio a diciembre, facilita el acceso a las áreas de manejo y las cabalgatas.",
+        "q": "¿Cuál es la mejor época para ver los búfalos de Marajó?",
+        "a": "Se puede visitar las haciendas todo el año, pero la temporada seca, de julio a diciembre, facilita el acceso a las áreas de manejo y las cabalgatas."
       },
       {
-        q: "¿Marajó es seguro para turistas?",
-        a: "Sí, especialmente en Soure, Salvaterra y Joanes, los núcleos mejor preparados para recibir visitantes, con posadas y paseos organizados.",
+        "q": "¿Marajó es seguro para turistas?",
+        "a": "Sí, especialmente en Soure, Salvaterra y Joanes, los núcleos mejor preparados para recibir visitantes, con posadas y paseos organizados."
       },
       {
-        q: "¿Cuántos días se necesitan para conocer Marajó?",
-        a: "De dos a tres días bastan para visitar una hacienda de búfalo, conocer Soure y Salvaterra y disfrutar de las playas de río.",
+        "q": "¿Cuántos días se necesitan para conocer Marajó?",
+        "a": "De dos a tres días bastan para visitar una hacienda de búfalo, conocer Soure y Salvaterra y disfrutar de las playas de río."
       },
       {
-        q: "¿Es posible ver búfalos sueltos en la isla?",
-        a: "Sí —es común avistar rebaños a orillas de los caminos y campos inundados, además de las visitas guiadas dentro de las haciendas.",
+        "q": "¿Es posible ver búfalos sueltos en la isla?",
+        "a": "Sí —es común avistar rebaños a orillas de los caminos y campos inundados, además de las visitas guiadas dentro de las haciendas."
       },
       {
-        q: "¿Marajó combina con un viaje a la Amazonía?",
-        a: "Combina muy bien como extensión desde Belém, mostrando una cara rural y cultural de Pará que complementa la experiencia de selva.",
+        "q": "¿Marajó combina con un viaje a la Amazonía?",
+        "a": "Combina muy bien como extensión desde Belém, mostrando una cara rural y cultural de Pará que complementa la experiencia de selva."
       },
+      {
+        "q": "¿Necesito visado y vacunas para viajar a Brasil?",
+        "a": "Los requisitos de visado dependen de tu nacionalidad y fechas de viaje: consulta fuentes consulares oficiales brasileñas antes de reservar. Consulta las recomendaciones sanitarias oficiales y a un profesional de medicina del viajero sobre vacunas habituales, fiebre amarilla y requisitos de entrada o tránsito según tu itinerario."
+      },
+      {
+        "q": "¿Hay guías en español en todas las excursiones?",
+        "a": "Sí. Create Travel ofrece guías en español en todas las excursiones de tu viaje privado y a medida. Adaptamos el ritmo y las explicaciones a tus intereses."
+      },
+      {
+        "q": "¿Puedo combinar la isla de Marajó con otros biomas brasileños?",
+        "a": "Brasil tiene seis biomas terrestres más la zona costera y marina — siete paisajes y culturas distintos. Combina Marajó, en el bioma amazónico, con la costa de dunas de Lençóis Maranhenses, dejando tiempo para la conexión por São Luís."
+      }
     ],
     cta: {
-      heading: "Diseñemos su viaje a Marajó",
-      subheading:
-        "Un consultor humano de Create Travel organiza haciendas, travesías y posadas adecuadas para su itinerario en Pará.",
-      button: "Hablar con un travel designer",
+      "heading": "Solicita tu presupuesto para la isla de Marajó",
+      "subheading": "Planifica un viaje privado y a medida con un diseñador de viajes humano de Create Travel, según tus fechas, intereses, ritmo y confort preferido. Recibe tu propuesta por escrito por WhatsApp.",
+      "button": "Solicitar presupuesto por WhatsApp"
     },
     readingMinutes: 9,
     publishedAt: "2026-08-11",
@@ -534,14 +552,14 @@ export const ilhaDeMarajoGuide: BrazilGuideLocalized = {
     destinationName: "Isola di Marajó",
     blurb:
       "La più grande isola fluviomarina del mondo, tra fattorie di bufali e spiagge fluviali alla foce del Rio delle Amazzoni.",
-    metaTitle: "Isola di Marajó: guida a bufali, fattorie e spiagge nel Pará",
+    metaTitle: "L’isola di Marajó, Brasile: Itinerario, Periodo Migliore e Preventivo",
     metaDescription:
-      "Guida completa all'Isola di Marajó: quando andare, fattorie di bufali, Soure e Salvaterra, ceramica marajoara e come arrivare da Belém. Nessun prezzo, solo esperienza reale.",
+      "Pianifica un viaggio privato e su misura per l’isola di Marajó: itinerario suggerito, periodo migliore e come arrivare. Richiedi un preventivo su WhatsApp.",
     keywords:
-      "isola di marajo, cosa fare a marajo, fattoria bufali marajo, soure salvaterra, ceramica marajoara, traghetto belem marajo, periodo migliore marajo",
-    h1: "Isola di Marajó: bufali, pianure allagate e il Pará più autentico",
+      "isola di marajo, cosa fare a marajo, fattoria bufali marajo, soure salvaterra, ceramica marajoara, traghetto belem marajo, periodo migliore marajo, l’isola di Marajó tour, itinerario l’isola di Marajó, come arrivare a l’isola di Marajó, periodo migliore l’isola di Marajó",
+    h1: "L’isola di Marajó: itinerario, periodo migliore e come arrivare",
     aiAnswer:
-      "Il periodo migliore per visitare l'Isola di Marajó è tra luglio e dicembre, stagione secca, quando le pianure allagate si ritirano e liberano strade sterrate verso fattorie e spiagge fluviali; la traversata parte da Belém dal porto di Icoaraci fino a Camará, seguita da un'ora di strada fino a Soure.",
+      "Il periodo migliore per visitare l'Isola di Marajó è tra luglio e dicembre, stagione secca, quando le pianure allagate si ritirano e liberano strade sterrate verso fattorie e spiagge fluviali; la traversata parte da Belém dal porto di Icoaraci fino a Camará, seguita da un'ora di strada fino a Soure. Create Travel crea viaggi privati e su misura per l’isola di Marajó per viaggiatori internazionali, con guide in italiano, e invia un preventivo scritto via WhatsApp.",
     intro: [
       "Marajó è la più grande isola fluviomarina del pianeta — più grande della Svizzera — formata nel punto in cui il Rio delle Amazzoni incontra l'Atlantico, mescolando acqua dolce e salata in un unico orizzonte. È anche un mondo a parte dentro il Pará: pianure che si allagano e si prosciugano al ritmo delle piogge, fattorie di bufali che hanno sostituito il bestiame più di un secolo fa e villaggi di spiaggia fluviale che sembrano fermi nel tempo.",
       "Non è una destinazione da resort. È una destinazione di strade sterrate, acqua di ruscello e pranzi di pesce fritto sulla riva del fiume. Chi cerca quell'autenticità, senza rinunciare a un comfort puntuale in buone locande, trova a Marajó un Pará che pochi stranieri conoscono.",
@@ -641,23 +659,30 @@ export const ilhaDeMarajoGuide: BrazilGuideLocalized = {
       ],
     },
     itinerary: {
-      heading: "Come inserire Marajó in un itinerario nel Pará",
-      intro:
-        "Marajó funziona meglio come estensione di un soggiorno a Belém, mai come destinazione isolata senza contesto amazzonico.",
-      items: [
+      "heading": "Itinerario suggerito per l’isola di Marajó e combinazioni in Brasile",
+      "intro": "Marajó funziona meglio come estensione di un soggiorno a Belém, mai come destinazione isolata senza contesto amazzonico.",
+      "items": [
         {
-          title: "Belém + Marajó — 4-5 giorni",
-          text: "Due giorni a Belém (mercato Ver-o-Peso, Estação das Docas) seguiti dalla traversata verso Marajó con due o tre notti tra Soure e Salvaterra.",
+          "title": "Giorno 1 — Da Belém a Soure",
+          "text": "Attraversa da Icoaraci a Camará e prosegui per Soure per la prima di tre notti sull’isola."
         },
         {
-          title: "Marajó + Amazzonia (Santarém/Alter do Chão) — 8-10 giorni",
-          text: "Unisce le pianure allagate di Marajó alle spiagge di acqua dolce del Tapajós, collegate da un volo domestico via Belém.",
+          "title": "Giorno 2 — Fazenda di bufali e sapori locali",
+          "text": "Visita una fazenda di bufali previo accordo e scopri il formaggio di Marajó e l’açaí locale."
         },
         {
-          title: "Marajó + Lençóis Maranhenses — 8 giorni",
-          text: "Due paesaggi unici della costa settentrionale brasiliana, collegati da un volo fino a São Luís.",
+          "title": "Giorno 3 — Salvaterra e spiagge fluviali",
+          "text": "Esplora Salvaterra e le spiagge fluviali senza fretta, con tempo per la ceramica marajoara."
         },
-      ],
+        {
+          "title": "Giorno 4 — Rientro a Belém",
+          "text": "Rientra via Camará e Icoaraci, lasciando un margine prima dei voli successivi."
+        },
+        {
+          "title": "Combina due o più biomi brasiliani",
+          "text": "Il Brasile ha sei biomi terrestri più la zona costiera e marina: sette paesaggi e culture diversi. Combina Marajó, nel bioma amazzonico, con la costa di dune dei Lençóis Maranhenses, lasciando tempo per il collegamento via São Luís."
+        }
+      ]
     },
     tips: {
       heading: "Consigli pratici per viaggiare a Marajó",
@@ -672,35 +697,46 @@ export const ilhaDeMarajoGuide: BrazilGuideLocalized = {
     },
     faq: [
       {
-        q: "Come si arriva all'Isola di Marajó?",
-        a: "Da Belém, tramite il porto di Icoaraci, in traghetto o motoscafo veloce fino al porto di Camará, seguito da circa un'ora di strada fino a Soure. In alcuni periodi ci sono anche voli regionali diretti a Soure.",
+        "q": "Come si arriva all'Isola di Marajó?",
+        "a": "Prendi un volo internazionale per il Brasile. Da un hub brasiliano, prosegui per Belém. Continua dal porto di Icoaraci a Camará in traghetto o motoscafo e poi fino a Soure. Create Travel organizza trasferimenti privati su strada prima e dopo la traversata."
       },
       {
-        q: "Qual è il periodo migliore per vedere i bufali di Marajó?",
-        a: "Le fattorie si possono visitare tutto l'anno, ma la stagione secca, da luglio a dicembre, facilita l'accesso alle aree di gestione e alle cavalcate.",
+        "q": "Qual è il periodo migliore per vedere i bufali di Marajó?",
+        "a": "Le fattorie si possono visitare tutto l'anno, ma la stagione secca, da luglio a dicembre, facilita l'accesso alle aree di gestione e alle cavalcate."
       },
       {
-        q: "Marajó è sicura per i turisti?",
-        a: "Sì, specialmente a Soure, Salvaterra e Joanes, i nuclei meglio preparati ad accogliere visitatori, con locande e tour organizzati.",
+        "q": "Marajó è sicura per i turisti?",
+        "a": "Sì, specialmente a Soure, Salvaterra e Joanes, i nuclei meglio preparati ad accogliere visitatori, con locande e tour organizzati."
       },
       {
-        q: "Quanti giorni servono per visitare Marajó?",
-        a: "Da due a tre giorni sono sufficienti per visitare una fattoria di bufali, esplorare Soure e Salvaterra e godersi le spiagge fluviali.",
+        "q": "Quanti giorni servono per visitare Marajó?",
+        "a": "Da due a tre giorni sono sufficienti per visitare una fattoria di bufali, esplorare Soure e Salvaterra e godersi le spiagge fluviali."
       },
       {
-        q: "Si possono vedere bufali liberi sull'isola?",
-        a: "Sì — è comune avvistare mandrie lungo le strade e i campi allagati, oltre alle visite guidate all'interno delle fattorie.",
+        "q": "Si possono vedere bufali liberi sull'isola?",
+        "a": "Sì — è comune avvistare mandrie lungo le strade e i campi allagati, oltre alle visite guidate all'interno delle fattorie."
       },
       {
-        q: "Marajó si abbina bene a un viaggio in Amazzonia?",
-        a: "Molto bene, come estensione da Belém, mostrando un lato rurale e culturale del Pará che completa l'esperienza della foresta.",
+        "q": "Marajó si abbina bene a un viaggio in Amazzonia?",
+        "a": "Molto bene, come estensione da Belém, mostrando un lato rurale e culturale del Pará che completa l'esperienza della foresta."
       },
+      {
+        "q": "Servono visto e vaccini per viaggiare in Brasile?",
+        "a": "I requisiti del visto dipendono dalla nazionalità e dalle date di viaggio: consulta le fonti consolari ufficiali brasiliane prima di prenotare. Consulta le indicazioni sanitarie ufficiali e un professionista di medicina dei viaggi sulle vaccinazioni di routine, sulla febbre gialla e sui requisiti di ingresso o transito secondo il tuo itinerario."
+      },
+      {
+        "q": "Sono disponibili guide in italiano in ogni escursione?",
+        "a": "Sì. Create Travel offre guide in italiano in ogni escursione del tuo viaggio privato e su misura. Adattiamo il ritmo e le spiegazioni ai tuoi interessi."
+      },
+      {
+        "q": "Posso combinare l’isola di Marajó con altri biomi brasiliani?",
+        "a": "Il Brasile ha sei biomi terrestri più la zona costiera e marina: sette paesaggi e culture diversi. Combina Marajó, nel bioma amazzonico, con la costa di dune dei Lençóis Maranhenses, lasciando tempo per il collegamento via São Luís."
+      }
     ],
     cta: {
-      heading: "Progettiamo il vostro viaggio a Marajó",
-      subheading:
-        "Un consulente umano di Create Travel organizza fattorie, traversate e locande giuste per il vostro itinerario nel Pará.",
-      button: "Parla con un travel designer",
+      "heading": "Richiedi il tuo preventivo per l’isola di Marajó",
+      "subheading": "Pianifica un viaggio privato e su misura con un travel designer umano di Create Travel, secondo le tue date, i tuoi interessi, il tuo ritmo e il comfort desiderato. Ricevi la proposta scritta via WhatsApp.",
+      "button": "Richiedi un preventivo su WhatsApp"
     },
     readingMinutes: 9,
     publishedAt: "2026-08-11",

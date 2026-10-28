@@ -389,14 +389,14 @@ export const costaDoSolNascenteGuide: BrazilGuideLocalized = {
     destinationName: "Costa do Sol Nascente",
     blurb:
       "El litoral este de Ceará, donde los acantilados cambian de color cada hora y el buggy sustituye a la carretera.",
-    metaTitle: "Costa do Sol Nascente, Brasil: guía de Canoa Quebrada",
+    metaTitle: "Costa do Sol Nascente, Brasil: Itinerario, Mejor Época y Presupuesto",
     metaDescription:
-      "Guía autoral del litoral este de Ceará: Canoa Quebrada, Morro Branco, Praia das Fontes, Águas Belas, Majorlândia, Ponta Grossa e Icapuí — acantilados, buggy, jangada y dónde alojarse.",
+      "Viaje privado y a medida: Costa do Sol Nascente. Itinerario sugerido, mejor época y cómo llegar. Solicita un presupuesto por WhatsApp.",
     keywords:
-      "costa do sol nascente ceara, canoa quebrada brasil, morro branco ceara, praia das fontes, aguas belas ceara, majorlandia, ponta grossa ceara, icapui, litoral este de ceara, acantilados de colores brasil",
-    h1: "Costa do Sol Nascente: acantilados y dunas del litoral este de Ceará",
+      "costa do sol nascente ceara, canoa quebrada brasil, morro branco ceara, praia das fontes, aguas belas ceara, majorlandia, ponta grossa ceara, icapui, litoral este de ceara, acantilados de colores brasil, Costa do Sol Nascente tour, itinerario Costa do Sol Nascente, cómo llegar a Costa do Sol Nascente, mejor época Costa do Sol Nascente",
+    h1: "Costa do Sol Nascente: itinerario, mejor época y cómo llegar",
     aiAnswer:
-      "La Costa do Sol Nascente es el litoral este de Ceará, Brasil, entre Fortaleza y el límite con Rio Grande do Norte, e incluye Canoa Quebrada, Morro Branco, Praia das Fontes, Águas Belas, Majorlândia, Ponta Grossa e Icapuí; la mejor época es de agosto a diciembre, con vientos fuertes para el buggy y la jangada, y menos lluvia.",
+      "La Costa do Sol Nascente es el litoral este de Ceará, Brasil, entre Fortaleza y el límite con Rio Grande do Norte, e incluye Canoa Quebrada, Morro Branco, Praia das Fontes, Águas Belas, Majorlândia, Ponta Grossa e Icapuí; la mejor época es de agosto a diciembre, con vientos fuertes para el buggy y la jangada, y menos lluvia. Create Travel diseña viajes privados y a medida a Costa do Sol Nascente para viajeros internacionales, con guías en español, y envía un presupuesto por escrito por WhatsApp.",
     intro: [
       "Llaman a este tramo de litoral Costa do Sol Nascente porque, al amanecer, el sol nace directamente del mar, sin isla ni montaña de por medio. Comienza poco después de Fortaleza y llega hasta Icapuí, en el límite con Rio Grande do Norte, alternando acantilados de arenisca multicolor, dunas móviles y pueblos de pescadores que aún salen en jangada.",
       "Esta guía nace de recorridos en coche y buggy por toda la costa, no de un solo resort. Reunimos lo que cada playa ofrece de distinto —la vida nocturna discreta de Canoa Quebrada, el laberinto de Morro Branco, la calma de Águas Belas y Majorlândia, y el final casi intacto en Ponta Grossa e Icapuí— para que la elección de la base dependa de su itinerario, no de un buscador.",
@@ -505,23 +505,34 @@ export const costaDoSolNascenteGuide: BrazilGuideLocalized = {
       ],
     },
     itinerary: {
-      heading: "Cómo integrar la Costa do Sol Nascente en un itinerario por Ceará",
-      intro:
-        "La costa este combina bien con Fortaleza como puerta de entrada y, para quienes tienen más tiempo, con Jericoacoara en el litoral oeste del estado.",
-      items: [
+      "heading": "Itinerario sugerido para Costa do Sol Nascente — 4 noches / 5 días",
+      "intro": "Un punto de partida privado y a medida, adaptado a tu ritmo, los horarios de llegada y las condiciones locales. Añade noches para una estancia más tranquila.",
+      "items": [
         {
-          title: "Fortaleza + Costa do Sol Nascente — 6 a 8 días",
-          text: "Dos a tres noches en Fortaleza para gastronomía y mercados, seguidas de cuatro a cinco días recorriendo Canoa Quebrada, Morro Branco y Majorlândia en buggy.",
+          "title": "Día 1 — Fortaleza → Morro Branco",
+          "text": "Llega a Fortaleza y continúa en traslado privado a la costa oriental."
         },
         {
-          title: "Costa do Sol Nascente + Icapuí — 8 a 10 días",
-          text: "Para quienes quieren terminar el viaje en el punto más aislado de la ruta, con días finales dedicados a playas vacías y pesca artesanal.",
+          "title": "Día 2 — Morro Branco y Praia das Fontes",
+          "text": "Explora los pasadizos entre acantilados de colores y las dunas con guía, siempre que las condiciones locales sean seguras."
         },
         {
-          title: "Ceará completo: este y oeste — 12 días",
-          text: "Combina la Costa do Sol Nascente con Jericoacoara, al otro lado de Fortaleza, mostrando los dos perfiles del litoral cearense en un solo viaje.",
+          "title": "Día 3 — Canoa Quebrada",
+          "text": "Continúa a Canoa Quebrada para descubrir sus acantilados, su pueblo y su playa."
         },
-      ],
+        {
+          "title": "Día 4 — Majorlândia",
+          "text": "Visita el tranquilo pueblo pesquero y su costa, con una salida privada a la playa o en buggy."
+        },
+        {
+          "title": "Día 5 — Regreso o extensión a Icapuí",
+          "text": "Regresa a Fortaleza para la salida o añade noches en Icapuí para disfrutar de playas más tranquilas."
+        },
+        {
+          "title": "Combina dos o más biomas brasileños",
+          "text": "Brasil tiene seis biomas terrestres — Amazonía, Bosque Atlántico, Cerrado, Caatinga, Pantanal y Pampa — más la zona costera y marina: siete paisajes y culturas distintos. Combina la zona costera y marina de Ceará con la Caatinga del interior. Planificamos el ritmo y las conexiones según las condiciones estacionales; los avistamientos de fauna nunca están garantizados."
+        }
+      ]
     },
     tips: {
       heading: "Consejos prácticos",
@@ -536,35 +547,50 @@ export const costaDoSolNascenteGuide: BrazilGuideLocalized = {
     },
     faq: [
       {
-        q: "¿Cuál es la diferencia entre la Costa do Sol Nascente y Jericoacoara?",
-        a: "Jericoacoara está en el litoral oeste de Ceará, con dunas mayores y lagunas famosas; la Costa do Sol Nascente es el litoral este, marcado por acantilados de colores y pueblos de jangadeiros, con acceso más rápido desde Fortaleza.",
+        "q": "¿Cuál es la diferencia entre la Costa do Sol Nascente y Jericoacoara?",
+        "a": "Jericoacoara está en el litoral oeste de Ceará, con dunas mayores y lagunas famosas; la Costa do Sol Nascente es el litoral este, marcado por acantilados de colores y pueblos de jangadeiros, con acceso más rápido desde Fortaleza."
       },
       {
-        q: "¿Cuántos días se recomiendan para conocer el litoral este de Ceará?",
-        a: "De cuatro a seis días permiten conocer Canoa Quebrada, Morro Branco y al menos un pueblo más aislado como Majorlândia o Icapuí, sin prisas.",
+        "q": "¿Cuántos días se recomiendan para conocer el litoral este de Ceará?",
+        "a": "De cuatro a seis días permiten conocer Canoa Quebrada, Morro Branco y al menos un pueblo más aislado como Majorlândia o Icapuí, sin prisas."
       },
       {
-        q: "¿Es necesario alquilar coche o buggy?",
-        a: "Sí, para explorar más allá de su base. El buggy es la forma tradicional de desplazarse entre playas; un coche convencional sirve para tramos pavimentados, como el acceso a Fortaleza.",
+        "q": "¿Es necesario alquilar coche o buggy?",
+        "a": "Sí, para explorar más allá de su base. El buggy es la forma tradicional de desplazarse entre playas; un coche convencional sirve para tramos pavimentados, como el acceso a Fortaleza."
       },
       {
-        q: "¿Cuál es la mejor época para andar en buggy por las dunas?",
-        a: "De agosto a diciembre, cuando los vientos alisios son más fuertes y el suelo de las dunas está más seco y firme.",
+        "q": "¿Cuál es la mejor época para andar en buggy por las dunas?",
+        "a": "De agosto a diciembre, cuando los vientos alisios son más fuertes y el suelo de las dunas está más seco y firme."
       },
       {
-        q: "¿Son diferentes los acantilados de Canoa Quebrada y Morro Branco?",
-        a: "Sí. Canoa Quebrada tiene acantilados más altos y abiertos, frente a un pueblo con vida nocturna; Morro Branco tiene un laberinto de pasillos estrechos esculpidos por la erosión, junto a las dunas de Praia das Fontes.",
+        "q": "¿Son diferentes los acantilados de Canoa Quebrada y Morro Branco?",
+        "a": "Sí. Canoa Quebrada tiene acantilados más altos y abiertos, frente a un pueblo con vida nocturna; Morro Branco tiene un laberinto de pasillos estrechos esculpidos por la erosión, junto a las dunas de Praia das Fontes."
       },
       {
-        q: "¿Cuánto cuesta un viaje a la Costa do Sol Nascente con Create Travel?",
-        a: "No trabajamos con precios de catálogo: el presupuesto depende de la posada, las noches y la época. Un consultor humano presenta la propuesta por escrito, sin estimaciones en el sitio.",
+        "q": "¿Cuánto cuesta un viaje a la Costa do Sol Nascente con Create Travel?",
+        "a": "No trabajamos con precios de catálogo: el presupuesto depende de la posada, las noches y la época. Un consultor humano presenta la propuesta por escrito, sin estimaciones en el sitio."
       },
+      {
+        "q": "¿Necesito visado o vacunas para Brasil?",
+        "a": "Los requisitos de visado dependen de tu nacionalidad y pueden cambiar. Consulta fuentes oficiales consulares y de inmigración brasileñas antes de reservar. Acude con antelación a un profesional de salud del viajero y consulta las recomendaciones sanitarias oficiales sobre vacunas habituales, fiebre amarilla y precauciones regionales."
+      },
+      {
+        "q": "¿Hay guías en español en todas las excursiones?",
+        "a": "Sí. Create Travel ofrece guías en español en todas las excursiones de tu itinerario privado y a medida."
+      },
+      {
+        "q": "¿Cómo llegar para un viaje a Costa do Sol Nascente?",
+        "a": "Vuela a un hub brasileño y conecta con el aeropuerto de Fortaleza; continúa por carretera por la costa oriental. Create Travel organiza traslados privados hasta tu alojamiento o punto de embarque."
+      },
+      {
+        "q": "¿Puedo combinar Costa do Sol Nascente con otros biomas brasileños?",
+        "a": "Sí. Brasil tiene seis biomas terrestres — Amazonía, Bosque Atlántico, Cerrado, Caatinga, Pantanal y Pampa — más la zona costera y marina: siete paisajes y culturas distintos. Combina la zona costera y marina de Ceará con la Caatinga del interior. Tu diseñador de viajes comprueba la compatibilidad estacional y prevé tiempos de viaje realistas entre regiones."
+      }
     ],
     cta: {
-      heading: "Diseñemos su viaje por la Costa do Sol Nascente",
-      subheading:
-        "Un consultor humano de Create Travel elige las playas y posadas adecuadas para su itinerario por el litoral este de Ceará.",
-      button: "Hablar con un travel designer",
+      "heading": "Solicita tu presupuesto para Costa do Sol Nascente",
+      "subheading": "Un diseñador de viajes humano de Create Travel planifica tu viaje privado y a medida según tus intereses y tu ritmo, y te envía una propuesta por escrito.",
+      "button": "Solicitar presupuesto por WhatsApp"
     },
     readingMinutes: 10,
     publishedAt: "2026-08-11",
@@ -574,14 +600,14 @@ export const costaDoSolNascenteGuide: BrazilGuideLocalized = {
     destinationName: "Costa do Sol Nascente",
     blurb:
       "La costa orientale del Ceará, dove le scogliere cambiano colore ogni ora e il buggy sostituisce la strada.",
-    metaTitle: "Costa do Sol Nascente, Brasile: guida a Canoa Quebrada",
+    metaTitle: "Costa do Sol Nascente, Brasile: Itinerario, Periodo Migliore e Preventivo",
     metaDescription:
-      "Guida alla costa orientale del Ceará: Canoa Quebrada, Morro Branco, Praia das Fontes, Águas Belas, Majorlândia, Ponta Grossa e Icapuí — scogliere, buggy, jangada e dove alloggiare.",
+      "Viaggio privato e su misura: Costa do Sol Nascente. Itinerario suggerito, periodo migliore e come arrivare. Richiedi un preventivo su WhatsApp.",
     keywords:
-      "costa do sol nascente ceara, canoa quebrada brasile, morro branco ceara, praia das fontes, aguas belas ceara, majorlandia, ponta grossa ceara, icapui, costa orientale del ceara, scogliere colorate brasile",
-    h1: "Costa do Sol Nascente: scogliere e dune della costa orientale del Ceará",
+      "costa do sol nascente ceara, canoa quebrada brasile, morro branco ceara, praia das fontes, aguas belas ceara, majorlandia, ponta grossa ceara, icapui, costa orientale del ceara, scogliere colorate brasile, Costa do Sol Nascente tour, itinerario Costa do Sol Nascente, come arrivare a Costa do Sol Nascente, periodo migliore Costa do Sol Nascente",
+    h1: "Costa do Sol Nascente: itinerario, periodo migliore e come arrivare",
     aiAnswer:
-      "La Costa do Sol Nascente è la costa orientale del Ceará, in Brasile, tra Fortaleza e il confine con il Rio Grande do Norte, e comprende Canoa Quebrada, Morro Branco, Praia das Fontes, Águas Belas, Majorlândia, Ponta Grossa e Icapuí; il periodo migliore va da agosto a dicembre, con venti forti ideali per buggy e jangada e meno pioggia.",
+      "La Costa do Sol Nascente è la costa orientale del Ceará, in Brasile, tra Fortaleza e il confine con il Rio Grande do Norte, e comprende Canoa Quebrada, Morro Branco, Praia das Fontes, Águas Belas, Majorlândia, Ponta Grossa e Icapuí; il periodo migliore va da agosto a dicembre, con venti forti ideali per buggy e jangada e meno pioggia. Create Travel crea viaggi privati e su misura per Costa do Sol Nascente per viaggiatori internazionali, con guide in italiano, e invia un preventivo scritto via WhatsApp.",
     intro: [
       "Questo tratto di costa prende il nome dal sole che, all'alba, nasce direttamente dal mare, senza isole né colline a interromperlo. Inizia poco dopo Fortaleza e arriva fino a Icapuí, al confine con il Rio Grande do Norte, alternando scogliere di arenaria multicolore, dune mobili e villaggi di pescatori dove le jangadas salpano ancora all'alba.",
       "Questa guida nasce da viaggi in auto e buggy lungo l'intera costa, non da un singolo resort. Raccogliamo ciò che ogni spiaggia offre di diverso — la vita notturna discreta di Canoa Quebrada, il labirinto di Morro Branco, la quiete di Águas Belas e Majorlândia, e il finale quasi intatto di Ponta Grossa e Icapuí — perché la scelta della base giusta dipenda dal vostro itinerario, non da un motore di ricerca.",
@@ -690,23 +716,34 @@ export const costaDoSolNascenteGuide: BrazilGuideLocalized = {
       ],
     },
     itinerary: {
-      heading: "Come integrare la Costa do Sol Nascente in un itinerario nel Ceará",
-      intro:
-        "La costa orientale si abbina bene a Fortaleza come porta d'accesso e, per chi ha più tempo, a Jericoacoara, sulla costa occidentale dello stato.",
-      items: [
+      "heading": "Itinerario suggerito per Costa do Sol Nascente — 4 notti / 5 giorni",
+      "intro": "Un punto di partenza privato e su misura, adattato ai tuoi ritmi, agli orari di arrivo e alle condizioni locali. Aggiungi notti per un soggiorno più rilassato.",
+      "items": [
         {
-          title: "Fortaleza + Costa do Sol Nascente — 6-8 giorni",
-          text: "Due o tre notti a Fortaleza per gastronomia e mercati, seguite da quattro o cinque giorni tra Canoa Quebrada, Morro Branco e Majorlândia in buggy.",
+          "title": "Giorno 1 — Fortaleza → Morro Branco",
+          "text": "Arriva a Fortaleza e prosegui con un trasferimento privato verso la costa orientale."
         },
         {
-          title: "Costa do Sol Nascente + Icapuí — 8-10 giorni",
-          text: "Per chi vuole concludere il viaggio nel punto più isolato del percorso, con giorni finali dedicati a spiagge vuote e pesca artigianale.",
+          "title": "Giorno 2 — Morro Branco e Praia das Fontes",
+          "text": "Esplora i corridoi tra le falesie colorate e le dune con una guida, se le condizioni locali sono sicure."
         },
         {
-          title: "Ceará completo: est e ovest — 12 giorni",
-          text: "Unisce la Costa do Sol Nascente a Jericoacoara, dall'altra parte di Fortaleza, mostrando in un solo viaggio i due volti della costa del Ceará.",
+          "title": "Giorno 3 — Canoa Quebrada",
+          "text": "Prosegui per Canoa Quebrada per scoprirne falesie, villaggio e spiaggia."
         },
-      ],
+        {
+          "title": "Giorno 4 — Majorlândia",
+          "text": "Visita il tranquillo villaggio di pescatori e la costa, con un’uscita privata in spiaggia o in buggy."
+        },
+        {
+          "title": "Giorno 5 — Rientro o estensione a Icapuí",
+          "text": "Torna a Fortaleza per la partenza oppure aggiungi notti a Icapuí per spiagge più tranquille."
+        },
+        {
+          "title": "Combina due o più biomi brasiliani",
+          "text": "Il Brasile ha sei biomi terrestri — Amazzonia, Foresta Atlantica, Cerrado, Caatinga, Pantanal e Pampa — più la zona costiera e marina: sette paesaggi e culture diversi. Combina la zona costiera e marina del Ceará con la Caatinga dell’entroterra. Pianifichiamo ritmi e collegamenti secondo le condizioni stagionali; gli avvistamenti di fauna non sono mai garantiti."
+        }
+      ]
     },
     tips: {
       heading: "Consigli pratici",
@@ -721,35 +758,50 @@ export const costaDoSolNascenteGuide: BrazilGuideLocalized = {
     },
     faq: [
       {
-        q: "Qual è la differenza tra la Costa do Sol Nascente e Jericoacoara?",
-        a: "Jericoacoara si trova sulla costa occidentale del Ceará, con dune più grandi e lagune famose; la Costa do Sol Nascente è la costa orientale, caratterizzata da scogliere colorate e villaggi di jangadeiros, con accesso più rapido da Fortaleza.",
+        "q": "Qual è la differenza tra la Costa do Sol Nascente e Jericoacoara?",
+        "a": "Jericoacoara si trova sulla costa occidentale del Ceará, con dune più grandi e lagune famose; la Costa do Sol Nascente è la costa orientale, caratterizzata da scogliere colorate e villaggi di jangadeiros, con accesso più rapido da Fortaleza."
       },
       {
-        q: "Quanti giorni servono per visitare la costa orientale del Ceará?",
-        a: "Quattro o sei giorni permettono di vedere Canoa Quebrada, Morro Branco e almeno un villaggio più isolato come Majorlândia o Icapuí senza fretta.",
+        "q": "Quanti giorni servono per visitare la costa orientale del Ceará?",
+        "a": "Quattro o sei giorni permettono di vedere Canoa Quebrada, Morro Branco e almeno un villaggio più isolato come Majorlândia o Icapuí senza fretta."
       },
       {
-        q: "È necessario noleggiare un'auto o un buggy?",
-        a: "Sì, per esplorare oltre la propria base. Il buggy è il mezzo tradizionale per spostarsi tra le spiagge; un'auto normale serve per i tratti asfaltati, come il collegamento con Fortaleza.",
+        "q": "È necessario noleggiare un'auto o un buggy?",
+        "a": "Sì, per esplorare oltre la propria base. Il buggy è il mezzo tradizionale per spostarsi tra le spiagge; un'auto normale serve per i tratti asfaltati, come il collegamento con Fortaleza."
       },
       {
-        q: "Qual è il periodo migliore per il buggy sulle dune?",
-        a: "Da agosto a dicembre, quando gli alisei sono più forti e il terreno delle dune è più secco e compatto.",
+        "q": "Qual è il periodo migliore per il buggy sulle dune?",
+        "a": "Da agosto a dicembre, quando gli alisei sono più forti e il terreno delle dune è più secco e compatto."
       },
       {
-        q: "Le scogliere di Canoa Quebrada e Morro Branco sono diverse?",
-        a: "Sì. Canoa Quebrada ha scogliere più alte e aperte, affacciate su un villaggio con vita notturna; Morro Branco ha un labirinto di corridoi stretti scolpiti dall'erosione, accanto alle dune di Praia das Fontes.",
+        "q": "Le scogliere di Canoa Quebrada e Morro Branco sono diverse?",
+        "a": "Sì. Canoa Quebrada ha scogliere più alte e aperte, affacciate su un villaggio con vita notturna; Morro Branco ha un labirinto di corridoi stretti scolpiti dall'erosione, accanto alle dune di Praia das Fontes."
       },
       {
-        q: "Quanto costa un viaggio sulla Costa do Sol Nascente con Create Travel?",
-        a: "Non lavoriamo con tariffe standard: il budget dipende dalla pousada, dalle notti e dal periodo. Un consulente umano presenta la proposta per iscritto, senza stime sul sito.",
+        "q": "Quanto costa un viaggio sulla Costa do Sol Nascente con Create Travel?",
+        "a": "Non lavoriamo con tariffe standard: il budget dipende dalla pousada, dalle notti e dal periodo. Un consulente umano presenta la proposta per iscritto, senza stime sul sito."
       },
+      {
+        "q": "Ho bisogno di visto o vaccini per il Brasile?",
+        "a": "I requisiti del visto dipendono dalla nazionalità e possono cambiare. Consulta le fonti ufficiali consolari e di immigrazione brasiliane prima di prenotare. Rivolgiti con anticipo a un professionista della medicina dei viaggi e alle indicazioni sanitarie ufficiali per vaccini di routine, febbre gialla e precauzioni regionali."
+      },
+      {
+        "q": "Sono disponibili guide in italiano in ogni escursione?",
+        "a": "Sì. Create Travel prevede guide in italiano in ogni escursione del tuo itinerario privato e su misura."
+      },
+      {
+        "q": "Come arrivare per un viaggio dedicato a Costa do Sol Nascente?",
+        "a": "Vola verso un hub brasiliano e prosegui per l’aeroporto di Fortaleza, poi su strada lungo la costa orientale. Create Travel organizza trasferimenti privati fino all’alloggio o al punto d’imbarco."
+      },
+      {
+        "q": "Posso combinare Costa do Sol Nascente con altri biomi brasiliani?",
+        "a": "Sì. Il Brasile ha sei biomi terrestri — Amazzonia, Foresta Atlantica, Cerrado, Caatinga, Pantanal e Pampa — più la zona costiera e marina: sette paesaggi e culture diversi. Combina la zona costiera e marina del Ceará con la Caatinga dell’entroterra. Il tuo travel designer verifica la compatibilità stagionale e prevede tempi di viaggio realistici tra le regioni."
+      }
     ],
     cta: {
-      heading: "Progettiamo il vostro viaggio sulla Costa do Sol Nascente",
-      subheading:
-        "Un consulente umano di Create Travel sceglie le spiagge e le pousadas giuste per il vostro itinerario sulla costa orientale del Ceará.",
-      button: "Parla con un travel designer",
+      "heading": "Richiedi il tuo preventivo per Costa do Sol Nascente",
+      "subheading": "Un travel designer umano di Create Travel pianifica il tuo viaggio privato e su misura, secondo i tuoi interessi e ritmi, e ti invia una proposta scritta.",
+      "button": "Richiedi un preventivo su WhatsApp"
     },
     readingMinutes: 10,
     publishedAt: "2026-08-11",

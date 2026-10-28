@@ -449,14 +449,14 @@ export const florianopolisGuide: BrazilGuideLocalized = {
   },
 
   es: {
-    metaTitle: "Florianópolis: guía autoral de playas, laguna y gastronomía",
+    metaTitle: "Florianópolis, Brasil: Itinerario, Mejor Época y Presupuesto",
     metaDescription:
-      "Guía completa de Florianópolis y la costa de Santa Catarina: playas del norte y del sur de la isla, Lagoa da Conceição, Isla del Campeche, ostras de Santo Antônio de Lisboa, gastronomía contemporánea y extensiones a Praia do Rosa y Bombinhas.",
+      "Planifica un viaje privado y a medida a Florianópolis: itinerario sugerido, mejor época y cómo llegar. Solicita un presupuesto por WhatsApp.",
     keywords:
-      "florianopolis brasil, isla de santa catarina, lagoa da conceicao, isla campeche, praia do rosa ballenas, bombinhas, ostras santo antonio de lisboa, itinerario florianopolis, floripa lujo",
-    h1: "Florianópolis: guía autoral de la isla que equilibra playa, laguna y buena mesa",
+      "florianopolis brasil, isla de santa catarina, lagoa da conceicao, isla campeche, praia do rosa ballenas, bombinhas, ostras santo antonio de lisboa, itinerario florianopolis, floripa lujo, Florianópolis tour, itinerario Florianópolis, cómo llegar a Florianópolis, mejor época Florianópolis",
+    h1: "Florianópolis: itinerario, mejor época y cómo llegar",
     aiAnswer:
-      "La mejor época para Florianópolis va de diciembre a marzo (verano, playas del norte y del este en su mejor momento) y de julio a noviembre (mar más frío, pero ideal para avistar ballenas francas en Praia do Rosa); lo ideal son 5 a 7 noches en la isla, llegando por el Aeropuerto Hercílio Luz (FLN).",
+      "La mejor época para Florianópolis va de diciembre a marzo (verano, playas del norte y del este en su mejor momento) y de julio a noviembre (mar más frío, pero ideal para avistar ballenas francas en Praia do Rosa); lo ideal son 5 a 7 noches en la isla, llegando por el Aeropuerto Hercílio Luz (FLN). Create Travel diseña viajes privados y a medida a Florianópolis para viajeros internacionales, con guías en español, y envía un presupuesto por escrito por WhatsApp.",
     intro: [
       "Florianópolis es una isla de 54 playas que cambia de personalidad en cada curva de la carretera: al norte, mar cálido y vida social intensa; al sur, dunas salvajes y pueblos de pescadores casi intactos; en el centro, la Lagoa da Conceição, que funciona como la sala de estar de la ciudad. Llamar a Floripa 'destino de playa' reduce un lugar que también es gastronomía de ostras frescas, senderos de mata atlántica y una escena de diseño que pocas ciudades costeras brasileñas logran sostener.",
       "Esta guía nace de temporadas enteras en la isla, no de fines de semana: qué playa sirve para qué momento del día, dónde comer sin hacer fila, cuándo el viento sur cambia el plan del día y cómo extender el viaje a Bombinhas o Praia do Rosa sin perder tiempo en la carretera.",
@@ -576,30 +576,58 @@ export const florianopolisGuide: BrazilGuideLocalized = {
       ],
     },
     itinerary: {
-      heading: "Cómo integrar Florianópolis en un itinerario por Brasil",
-      intro: "La isla funciona muy bien como base de una semana catarinense, con extensiones cortas en auto al sur y al norte del estado.",
-      items: [
+      "heading": "Itinerario sugerido para Florianópolis y combinaciones por Brasil",
+      "intro": "La isla funciona muy bien como base de una semana catarinense, con extensiones cortas en auto al sur y al norte del estado.",
+      "items": [
         {
-          title: "Florianópolis + Praia do Rosa — 7 a 8 días",
-          text: "Cinco días en la isla y dos a tres en Praia do Rosa en temporada de ballenas, con traslado por carretera de unas dos horas.",
+          "title": "Día 1 — Llegada",
+          "text": "Traslado desde FLN al alojamiento para instalarte en la isla."
         },
         {
-          title: "Florianópolis + Bombinhas — 7 a 8 días",
-          text: "Base en la isla seguida de dos a tres días de buceo y playas protegidas en Bombinhas, a una hora y media.",
+          "title": "Día 2 — Playas del norte",
+          "text": "Explora las playas del norte sin prisa, con tiempo para bañarte si las condiciones lo permiten."
         },
         {
-          title: "Florianópolis + Gramado y Serra Gaúcha — 9 a 10 días",
-          text: "Combinación clásica del sur de Brasil: playa catarinense y sierra gaúcha, con conexión aérea vía Porto Alegre.",
+          "title": "Día 3 — Lagoa da Conceição",
+          "text": "Dedica el día a la laguna y las dunas, alternando paseos suaves y descanso."
         },
         {
-          title: "Florianópolis + Buenos Aires — 8 a 9 días",
-          text: "Isla catarinense y capital argentina en un itinerario binacional, conectados por vuelo directo de pocas horas — combinación frecuente entre viajeros sudamericanos.",
+          "title": "Día 4 — Isla del Campeche",
+          "text": "Visita sujeta a reserva anticipada, límites de acceso y condiciones del mar; mantén una alternativa de playa."
         },
         {
-          title: "Florianópolis + Río de Janeiro — 9 a 10 días",
-          text: "Ciudad y playa en Río, naturaleza y laguna en Floripa: dos litorales brasileños con personalidades muy distintas en el mismo itinerario.",
+          "title": "Día 5 — Sur de la isla y ostras",
+          "text": "Explora el sur y después disfruta de las ostras en Santo Antônio de Lisboa."
         },
-      ],
+        {
+          "title": "Día 6 — Salida o extensión",
+          "text": "Salida tras cinco noches o extensión a Praia do Rosa en temporada de ballenas; los avistamientos nunca están garantizados."
+        },
+        {
+          "title": "Florianópolis + Praia do Rosa — 7 a 8 días",
+          "text": "Cinco días en la isla y dos a tres en Praia do Rosa en temporada de ballenas, con traslado por carretera de unas dos horas."
+        },
+        {
+          "title": "Florianópolis + Bombinhas — 7 a 8 días",
+          "text": "Base en la isla seguida de dos a tres días de buceo y playas protegidas en Bombinhas, a una hora y media."
+        },
+        {
+          "title": "Florianópolis + Gramado y Serra Gaúcha — 9 a 10 días",
+          "text": "Combinación clásica del sur de Brasil: playa catarinense y sierra gaúcha, con conexión aérea vía Porto Alegre."
+        },
+        {
+          "title": "Florianópolis + Buenos Aires — 8 a 9 días",
+          "text": "Isla catarinense y capital argentina en un itinerario binacional, conectados por vuelo directo de pocas horas — combinación frecuente entre viajeros sudamericanos."
+        },
+        {
+          "title": "Florianópolis + Río de Janeiro — 9 a 10 días",
+          "text": "Ciudad y playa en Río, naturaleza y laguna en Floripa: dos litorales brasileños con personalidades muy distintas en el mismo itinerario."
+        },
+        {
+          "title": "Combina dos o más biomas brasileños",
+          "text": "Brasil tiene seis biomas terrestres más la zona costera y marina — siete paisajes y culturas distintos. Combina la Mata Atlántica y la zona costera de Santa Catarina, uniendo playas de la isla y caminatas por el bosque. Adaptamos la secuencia a las condiciones estacionales y dejamos tiempo para los traslados."
+        }
+      ]
     },
     tips: {
       heading: "Consejos prácticos que marcan la diferencia",
@@ -614,49 +642,64 @@ export const florianopolisGuide: BrazilGuideLocalized = {
     },
     faq: [
       {
-        q: "¿Cuál es la mejor época para ver ballenas en Florianópolis?",
-        a: "Las ballenas francas se ven en Praia do Rosa y alrededores de julio a noviembre, con mayor concentración entre agosto y septiembre, cuando las hembras amamantan a sus crías cerca de la costa.",
+        "q": "¿Cuál es la mejor época para ver ballenas en Florianópolis?",
+        "a": "Las ballenas francas se ven en Praia do Rosa y alrededores de julio a noviembre, con mayor concentración entre agosto y septiembre, cuando las hembras amamantan a sus crías cerca de la costa."
       },
       {
-        q: "¿Cuántos días se necesitan para conocer Florianópolis?",
-        a: "Cinco a siete noches permiten explorar el norte, la Lagoa da Conceição y el sur de la isla con calma, incluyendo un día en la Isla del Campeche y una extensión corta a Praia do Rosa.",
+        "q": "¿Cuántos días se necesitan para conocer Florianópolis?",
+        "a": "Cinco a siete noches permiten explorar el norte, la Lagoa da Conceição y el sur de la isla con calma, incluyendo un día en la Isla del Campeche y una extensión corta a Praia do Rosa."
       },
       {
-        q: "¿El mar de Florianópolis es cálido?",
-        a: "En verano (diciembre a marzo) el mar es agradable para nadar, especialmente en las playas del norte; en invierno la temperatura baja bastante, lo que no impide caminatas y avistamiento de ballenas.",
+        "q": "¿El mar de Florianópolis es cálido?",
+        "a": "En verano (diciembre a marzo) el mar es agradable para nadar, especialmente en las playas del norte; en invierno la temperatura baja bastante, lo que no impide caminatas y avistamiento de ballenas."
       },
       {
-        q: "¿Vale la pena visitar la Isla del Campeche?",
-        a: "Sí, pero la visita exige reserva anticipada por el número limitado de acceso diario; el agua cristalina y el sitio arqueológico justifican la travesía en barco.",
+        "q": "¿Vale la pena visitar la Isla del Campeche?",
+        "a": "Sí, pero la visita exige reserva anticipada por el número limitado de acceso diario; el agua cristalina y el sitio arqueológico justifican la travesía en barco."
       },
       {
-        q: "¿Florianópolis o Búzios, cuál elegir?",
-        a: "Florianópolis ofrece más diversidad de paisaje — laguna, dunas, senderos y mar más frío; Búzios entrega aguas más cálidas y un pueblo histórico compacto. La elección depende de la temperatura deseada y el ritmo del viaje.",
+        "q": "¿Florianópolis o Búzios, cuál elegir?",
+        "a": "Florianópolis ofrece más diversidad de paisaje — laguna, dunas, senderos y mar más frío; Búzios entrega aguas más cálidas y un pueblo histórico compacto. La elección depende de la temperatura deseada y el ritmo del viaje."
       },
       {
-        q: "¿Cuánto cuesta un viaje a Florianópolis con Create Travel?",
-        a: "No trabajamos con valores de estantería: el presupuesto depende del barrio, del alojamiento, del número de noches y de la época. Un consultor humano arma la propuesta y envía los valores por escrito.",
+        "q": "¿Cuánto cuesta un viaje a Florianópolis con Create Travel?",
+        "a": "No trabajamos con valores de estantería: el presupuesto depende del barrio, del alojamiento, del número de noches y de la época. Un consultor humano arma la propuesta y envía los valores por escrito."
       },
+      {
+        "q": "¿Cómo llegar a Florianópolis desde el extranjero?",
+        "a": "Toma un vuelo internacional a Brasil. Conecta, cuando sea necesario, por un hub brasileño hacia el Aeropuerto Hercílio Luz (FLN). Create Travel organiza traslados privados al alojamiento en la isla."
+      },
+      {
+        "q": "¿Necesito visado y vacunas para viajar a Brasil?",
+        "a": "Los requisitos de visado dependen de tu nacionalidad y fechas de viaje: consulta fuentes consulares oficiales brasileñas antes de reservar. Consulta las recomendaciones sanitarias oficiales y a un profesional de medicina del viajero sobre vacunas habituales, fiebre amarilla y requisitos de entrada o tránsito según tu itinerario."
+      },
+      {
+        "q": "¿Hay guías en español en todas las excursiones?",
+        "a": "Sí. Create Travel ofrece guías en español en todas las excursiones de tu viaje privado y a medida. Adaptamos el ritmo y las explicaciones a tus intereses."
+      },
+      {
+        "q": "¿Puedo combinar Florianópolis con otros biomas brasileños?",
+        "a": "Brasil tiene seis biomas terrestres más la zona costera y marina — siete paisajes y culturas distintos. Combina la Mata Atlántica y la zona costera de Santa Catarina, uniendo playas de la isla y caminatas por el bosque. Adaptamos la secuencia a las condiciones estacionales y dejamos tiempo para los traslados."
+      }
     ],
     cta: {
-      heading: "Diseñemos su Florianópolis",
-      subheading:
-        "Un consultor humano de Create Travel elige el barrio, la estancia y la época adecuados para su itinerario — y se ocupa de cada traslado.",
-      button: "Hablar con un travel designer",
+      "heading": "Solicita tu presupuesto para Florianópolis",
+      "subheading": "Planifica un viaje privado y a medida con un diseñador de viajes humano de Create Travel, según tus fechas, intereses, ritmo y confort preferido. Recibe tu propuesta por escrito por WhatsApp.",
+      "button": "Solicitar presupuesto por WhatsApp"
     },
     readingMinutes: 13,
     publishedAt: "2026-08-11",
   },
 
   it: {
-    metaTitle: "Florianópolis: guida a spiagge, laguna e gastronomia",
+    metaTitle: "Florianópolis, Brasile: Itinerario, Periodo Migliore e Preventivo",
     metaDescription:
-      "Guida completa a Florianópolis e alla costa di Santa Catarina: spiagge del nord e del sud dell'isola, Lagoa da Conceição, Isola do Campeche, ostriche di Santo Antônio de Lisboa, gastronomia contemporanea ed estensioni a Praia do Rosa e Bombinhas.",
+      "Pianifica un viaggio privato e su misura per Florianópolis: itinerario suggerito, periodo migliore e come arrivare. Richiedi un preventivo su WhatsApp.",
     keywords:
-      "florianopolis brasile, isola di santa catarina, lagoa da conceicao, isola do campeche, praia do rosa balene, bombinhas, ostriche santo antonio de lisboa, itinerario florianopolis, floripa lusso",
-    h1: "Florianópolis: guida autoriale all'isola che bilancia spiaggia, laguna e buona tavola",
+      "florianopolis brasile, isola di santa catarina, lagoa da conceicao, isola do campeche, praia do rosa balene, bombinhas, ostriche santo antonio de lisboa, itinerario florianopolis, floripa lusso, Florianópolis tour, itinerario Florianópolis, come arrivare a Florianópolis, periodo migliore Florianópolis",
+    h1: "Florianópolis: itinerario, periodo migliore e come arrivare",
     aiAnswer:
-      "Il periodo migliore per Florianópolis va da dicembre a marzo (estate, spiagge del nord e dell'est al loro apice) e da luglio a novembre (mare più freddo ma ideale per l'avvistamento delle balene franche a Praia do Rosa); l'ideale sono 5-7 notti sull'isola, con arrivo all'aeroporto Hercílio Luz (FLN).",
+      "Il periodo migliore per Florianópolis va da dicembre a marzo (estate, spiagge del nord e dell'est al loro apice) e da luglio a novembre (mare più freddo ma ideale per l'avvistamento delle balene franche a Praia do Rosa); l'ideale sono 5-7 notti sull'isola, con arrivo all'aeroporto Hercílio Luz (FLN). Create Travel crea viaggi privati e su misura per Florianópolis per viaggiatori internazionali, con guide in italiano, e invia un preventivo scritto via WhatsApp.",
     intro: [
       "Florianópolis è un'isola di 54 spiagge che cambia personalità a ogni curva di strada: a nord mare caldo e vita sociale intensa, a sud dune selvagge e villaggi di pescatori quasi intatti, al centro la Lagoa da Conceição, che funziona come il salotto della città. Definire Floripa 'destinazione balneare' riduce un luogo che è anche gastronomia di ostriche fresche, sentieri di foresta atlantica e una scena del design che poche città costiere brasiliane riescono a sostenere.",
       "Questa guida nasce da intere stagioni sull'isola, non da weekend: quale spiaggia si adatta a quale momento della giornata, dove mangiare senza fare la fila, quando il vento sud cambia il piano della giornata e come estendere il viaggio a Bombinhas o a Praia do Rosa senza perdere tempo in strada.",
@@ -776,30 +819,58 @@ export const florianopolisGuide: BrazilGuideLocalized = {
       ],
     },
     itinerary: {
-      heading: "Come integrare Florianópolis in un itinerario in Brasile",
-      intro: "L'isola funziona molto bene come base di una settimana catarinense, con brevi estensioni in auto verso sud e nord dello stato.",
-      items: [
+      "heading": "Itinerario suggerito per Florianópolis e combinazioni in Brasile",
+      "intro": "L'isola funziona molto bene come base di una settimana catarinense, con brevi estensioni in auto verso sud e nord dello stato.",
+      "items": [
         {
-          title: "Florianópolis + Praia do Rosa — 7-8 giorni",
-          text: "Cinque giorni sull'isola e due-tre a Praia do Rosa in stagione di balene, con trasferimento su strada di circa due ore.",
+          "title": "Giorno 1 — Arrivo",
+          "text": "Trasferimento da FLN alla struttura e tempo per ambientarti sull’isola."
         },
         {
-          title: "Florianópolis + Bombinhas — 7-8 giorni",
-          text: "Base sull'isola seguita da due-tre giorni di immersioni e spiagge riparate a Bombinhas, a circa un'ora e mezza.",
+          "title": "Giorno 2 — Spiagge del nord",
+          "text": "Esplora le spiagge del nord senza fretta, con tempo per nuotare quando le condizioni lo consentono."
         },
         {
-          title: "Florianópolis + Gramado e Serra Gaúcha — 9-10 giorni",
-          text: "Combinazione classica del sud del Brasile: costa catarinense e altopiano gaucho, con collegamento aereo via Porto Alegre.",
+          "title": "Giorno 3 — Lagoa da Conceição",
+          "text": "Dedica la giornata alla laguna e alle dune, alternando esplorazioni tranquille e riposo."
         },
         {
-          title: "Florianópolis + Buenos Aires — 8-9 giorni",
-          text: "Isola catarinense e capitale argentina in un itinerario binazionale, collegate da un volo diretto di poche ore — combinazione frequente tra viaggiatori sudamericani.",
+          "title": "Giorno 4 — Isola di Campeche",
+          "text": "Visita subordinata a prenotazione anticipata, limiti di accesso e condizioni del mare; prevedi una spiaggia alternativa."
         },
         {
-          title: "Florianópolis + Rio de Janeiro — 9-10 giorni",
-          text: "Città e spiaggia a Rio, natura e laguna a Floripa: due coste brasiliane con personalità molto diverse nello stesso itinerario.",
+          "title": "Giorno 5 — Sud dell’isola e ostriche",
+          "text": "Esplora il sud e poi programma una degustazione di ostriche a Santo Antônio de Lisboa."
         },
-      ],
+        {
+          "title": "Giorno 6 — Partenza o estensione",
+          "text": "Partenza dopo cinque notti oppure estensione a Praia do Rosa nella stagione delle balene; gli avvistamenti non sono mai garantiti."
+        },
+        {
+          "title": "Florianópolis + Praia do Rosa — 7-8 giorni",
+          "text": "Cinque giorni sull'isola e due-tre a Praia do Rosa in stagione di balene, con trasferimento su strada di circa due ore."
+        },
+        {
+          "title": "Florianópolis + Bombinhas — 7-8 giorni",
+          "text": "Base sull'isola seguita da due-tre giorni di immersioni e spiagge riparate a Bombinhas, a circa un'ora e mezza."
+        },
+        {
+          "title": "Florianópolis + Gramado e Serra Gaúcha — 9-10 giorni",
+          "text": "Combinazione classica del sud del Brasile: costa catarinense e altopiano gaucho, con collegamento aereo via Porto Alegre."
+        },
+        {
+          "title": "Florianópolis + Buenos Aires — 8-9 giorni",
+          "text": "Isola catarinense e capitale argentina in un itinerario binazionale, collegate da un volo diretto di poche ore — combinazione frequente tra viaggiatori sudamericani."
+        },
+        {
+          "title": "Florianópolis + Rio de Janeiro — 9-10 giorni",
+          "text": "Città e spiaggia a Rio, natura e laguna a Floripa: due coste brasiliane con personalità molto diverse nello stesso itinerario."
+        },
+        {
+          "title": "Combina due o più biomi brasiliani",
+          "text": "Il Brasile ha sei biomi terrestri più la zona costiera e marina: sette paesaggi e culture diversi. Combina la Foresta Atlantica e la zona costiera di Santa Catarina, unendo spiagge dell’isola e passeggiate nella foresta.Adattiamo la sequenza alle condizioni stagionali e prevediamo tempo per i trasferimenti."
+        }
+      ]
     },
     tips: {
       heading: "Consigli pratici che fanno la differenza",
@@ -814,35 +885,50 @@ export const florianopolisGuide: BrazilGuideLocalized = {
     },
     faq: [
       {
-        q: "Qual è il periodo migliore per vedere le balene a Florianópolis?",
-        a: "Le balene franche si vedono a Praia do Rosa e dintorni da luglio a novembre, con maggiore concentrazione tra agosto e settembre, quando le femmine allattano i cuccioli vicino alla costa.",
+        "q": "Qual è il periodo migliore per vedere le balene a Florianópolis?",
+        "a": "Le balene franche si vedono a Praia do Rosa e dintorni da luglio a novembre, con maggiore concentrazione tra agosto e settembre, quando le femmine allattano i cuccioli vicino alla costa."
       },
       {
-        q: "Quanti giorni servono per conoscere Florianópolis?",
-        a: "Cinque-sette notti permettono di esplorare con calma il nord, la Lagoa da Conceição e il sud dell'isola, includendo un giorno all'Isola do Campeche e una breve estensione a Praia do Rosa.",
+        "q": "Quanti giorni servono per conoscere Florianópolis?",
+        "a": "Cinque-sette notti permettono di esplorare con calma il nord, la Lagoa da Conceição e il sud dell'isola, includendo un giorno all'Isola do Campeche e una breve estensione a Praia do Rosa."
       },
       {
-        q: "Il mare di Florianópolis è caldo?",
-        a: "In estate (dicembre-marzo) il mare è piacevole per fare il bagno, specialmente nelle spiagge del nord; in inverno la temperatura scende parecchio, il che non impedisce escursioni e avvistamento delle balene.",
+        "q": "Il mare di Florianópolis è caldo?",
+        "a": "In estate (dicembre-marzo) il mare è piacevole per fare il bagno, specialmente nelle spiagge del nord; in inverno la temperatura scende parecchio, il che non impedisce escursioni e avvistamento delle balene."
       },
       {
-        q: "Vale la pena visitare l'Isola do Campeche?",
-        a: "Sì, ma la visita richiede prenotazione anticipata per il numero limitato di accessi giornalieri; l'acqua cristallina e il sito archeologico giustificano la traversata in barca.",
+        "q": "Vale la pena visitare l'Isola do Campeche?",
+        "a": "Sì, ma la visita richiede prenotazione anticipata per il numero limitato di accessi giornalieri; l'acqua cristallina e il sito archeologico giustificano la traversata in barca."
       },
       {
-        q: "Florianópolis o Búzios, quale scegliere?",
-        a: "Florianópolis offre più varietà di paesaggio — laguna, dune, sentieri e mare più freddo; Búzios offre acque più calde e un villaggio storico compatto. La scelta dipende dalla temperatura desiderata e dal ritmo del viaggio.",
+        "q": "Florianópolis o Búzios, quale scegliere?",
+        "a": "Florianópolis offre più varietà di paesaggio — laguna, dune, sentieri e mare più freddo; Búzios offre acque più calde e un villaggio storico compatto. La scelta dipende dalla temperatura desiderata e dal ritmo del viaggio."
       },
       {
-        q: "Quanto costa un viaggio a Florianópolis con Create Travel?",
-        a: "Non lavoriamo con prezzi standard: il budget dipende dal quartiere, dall'alloggio, dal numero di notti e dal periodo. Un consulente umano prepara la proposta e invia i valori per iscritto.",
+        "q": "Quanto costa un viaggio a Florianópolis con Create Travel?",
+        "a": "Non lavoriamo con prezzi standard: il budget dipende dal quartiere, dall'alloggio, dal numero di notti e dal periodo. Un consulente umano prepara la proposta e invia i valori per iscritto."
       },
+      {
+        "q": "Come arrivare a Florianópolis dall’estero?",
+        "a": "Prendi un volo internazionale per il Brasile. Prosegui, quando necessario, attraverso un hub brasiliano verso l’aeroporto Hercílio Luz (FLN). Create Travel organizza trasferimenti privati alla struttura sull’isola."
+      },
+      {
+        "q": "Servono visto e vaccini per viaggiare in Brasile?",
+        "a": "I requisiti del visto dipendono dalla nazionalità e dalle date di viaggio: consulta le fonti consolari ufficiali brasiliane prima di prenotare. Consulta le indicazioni sanitarie ufficiali e un professionista di medicina dei viaggi sulle vaccinazioni di routine, sulla febbre gialla e sui requisiti di ingresso o transito secondo il tuo itinerario."
+      },
+      {
+        "q": "Sono disponibili guide in italiano in ogni escursione?",
+        "a": "Sì. Create Travel offre guide in italiano in ogni escursione del tuo viaggio privato e su misura. Adattiamo il ritmo e le spiegazioni ai tuoi interessi."
+      },
+      {
+        "q": "Posso combinare Florianópolis con altri biomi brasiliani?",
+        "a": "Il Brasile ha sei biomi terrestri più la zona costiera e marina: sette paesaggi e culture diversi. Combina la Foresta Atlantica e la zona costiera di Santa Catarina, unendo spiagge dell’isola e passeggiate nella foresta.Adattiamo la sequenza alle condizioni stagionali e prevediamo tempo per i trasferimenti."
+      }
     ],
     cta: {
-      heading: "Progettiamo la vostra Florianópolis",
-      subheading:
-        "Un consulente umano di Create Travel sceglie il quartiere, il soggiorno e il periodo giusti per il vostro itinerario — e si occupa di ogni trasferimento.",
-      button: "Parla con un travel designer",
+      "heading": "Richiedi il tuo preventivo per Florianópolis",
+      "subheading": "Pianifica un viaggio privato e su misura con un travel designer umano di Create Travel, secondo le tue date, i tuoi interessi, il tuo ritmo e il comfort desiderato. Ricevi la proposta scritta via WhatsApp.",
+      "button": "Richiedi un preventivo su WhatsApp"
     },
     readingMinutes: 13,
     publishedAt: "2026-08-11",
