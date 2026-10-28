@@ -408,14 +408,11 @@ export const maragogiGuide: BrazilGuideLocalized = {
   },
 
   es: {
-    metaTitle: "Maragogi y costa de Alagoas: guía autoral de piscinas naturales",
-    metaDescription:
-      "Guía completa de Maragogi y la costa norte de Alagoas: cuándo se revelan las galés, São Miguel dos Milagres y la Ruta Ecológica, Praia do Patacho, Japaratinga, Barra de São Miguel y las mejores posadas boutique frente al mar.",
-    keywords:
-      "maragogi brasil, piscinas naturales maragogi, sao miguel dos milagres, ruta ecologica alagoas, praia do patacho, japaratinga, barra de sao miguel, caribe brasileno, posada boutique alagoas",
-    h1: "Maragogi y el 'Caribe brasileño': guía autoral de la costa norte de Alagoas",
-    aiAnswer:
-      "La mejor época para Maragogi y la Ruta Ecológica de Alagoas va de septiembre a marzo (menos lluvia, mar más calmo), programando siempre los paseos a las galés según la marea baja de la mañana; lo ideal son 5 a 7 noches, llegando por Maceió (MCZ) o Recife (REC), a unas dos horas por carretera.",
+    metaTitle: "Maragogi, Brasil: Itinerario, Mejor Época y Presupuesto",
+    metaDescription: "Viaje privado y a medida a Maragogi: itinerario sugerido, mejor época y cómo llegar. Solicita un presupuesto por WhatsApp.",
+    keywords: "maragogi brasil, piscinas naturales maragogi, sao miguel dos milagres, ruta ecologica alagoas, praia do patacho, japaratinga, barra de sao miguel, caribe brasileno, posada boutique alagoas, Maragogi tour, itinerario Maragogi, cómo llegar a Maragogi, mejor época Maragogi",
+    h1: "Maragogi: itinerario, mejor época y cómo llegar",
+    aiAnswer: "La mejor época para Maragogi y la Ruta Ecológica de Alagoas va de septiembre a marzo (menos lluvia, mar más calmo), programando siempre los paseos a las galés según la marea baja de la mañana; lo ideal son 5 a 7 noches, llegando por Maceió (MCZ) o Recife (REC), a unas dos horas por carretera. Create Travel diseña viajes privados y a medida a Maragogi para viajeros internacionales, con guías en español, y envía un presupuesto por escrito por WhatsApp.",
     intro: [
       "Llaman a Maragogi 'el Caribe brasileño' desde hace tanto tiempo que el apodo se volvió cliché — y aun así, la primera vez que el barco corta el agua verde esmeralda sobre las galés y se detiene en un banco de arena en medio del océano, el cliché se justifica. Pero Maragogi es solo la puerta de entrada a un litoral de casi 130 kilómetros, de Barra de São Miguel a Japaratinga, con paisajes y ritmos muy distintos entre sí.",
       "Esta guía nace de viajes reales por la Ruta Ecológica: qué tramo combina con silencio, cuál combina con buena mesa, en qué marea aparecen realmente las piscinas naturales y qué posadas merecen el término 'boutique', no solo lo usan.",
@@ -536,31 +533,38 @@ export const maragogiGuide: BrazilGuideLocalized = {
       ],
     },
     itinerary: {
-      heading: "Cómo integrar Maragogi en un itinerario por Brasil",
-      intro:
-        "La costa de Alagoas funciona muy bien como cierre de viaje — después de la inmersión cultural o de naturaleza, el mar llega como descompresión.",
-      items: [
+      "heading": "Itinerario sugerido para Maragogi y combinaciones en Brasil",
+      "intro": "Itinerario privado y a medida, adaptado a tus fechas, ritmo y condiciones locales. Prevé noches de margen para las conexiones aéreas.",
+      "items": [
         {
-          title: "Maragogi + Recife y Olinda — 8 a 9 días",
-          text: "Tres días de ciudad histórica y patrimonio colonial, seguidos de cinco días de litoral. Trayecto por carretera de unas dos horas entre ambos.",
+          "title": "Día 1 — Llegada a la costa de Alagoas",
+          "text": "Traslado privado desde Maceió o Recife; instalación para cinco noches."
         },
         {
-          title: "Maragogi + Porto de Galinhas — 9 a 10 días",
-          text: "Dos litorales vecinos con personalidades distintas: Porto de Galinhas más estructurado, Maragogi y la Ruta Ecológica más íntimos.",
+          "title": "Día 2 — Piscinas naturales de Maragogi",
+          "text": "Paseo guiado en barco durante la marea baja de la mañana, sujeto al estado del mar y las normas de acceso."
         },
         {
-          title: "Maragogi + Salvador y Chapada Diamantina — 12 días",
-          text: "Cultura afrobahiana y sierra en la mitad del viaje, mar de Alagoas para cerrar. Conexión aérea vía Recife o Salvador.",
+          "title": "Día 3 — Japaratinga",
+          "text": "Explora la costa vecina con tiempo para descansar junto al mar."
         },
         {
-          title: "Maragogi + Amazonía — 12 a 14 días",
-          text: "Inmersión en la selva primero, descompresión de playa después. Una de las combinaciones más elogiadas por viajeros que vienen de lejos.",
+          "title": "Día 4 — Ruta Ecológica",
+          "text": "Visita São Miguel dos Milagres y la playa de Patacho sin prisa."
         },
         {
-          title: "Maragogi + Fernando de Noronha — 9 a 10 días",
-          text: "Noronha para buceo y paisaje único, Maragogi para relajarse en una posada boutique con más espacio y menos restricciones de acceso.",
+          "title": "Día 5 — Playa sin prisa",
+          "text": "Día libre para descansar o reprogramar las piscinas si las condiciones lo requieren."
         },
-      ],
+        {
+          "title": "Día 6 — Salida",
+          "text": "Traslado privado por carretera al aeropuerto de salida elegido."
+        },
+        {
+          "title": "Combina dos o más biomas brasileños",
+          "text": "Brasil tiene seis biomas terrestres más la zona costera y marina — siete paisajes y culturas distintos. Combina una estancia en la selva amazónica con los paisajes costeros y marinos de Maragogi como cierre relajante."
+        }
+      ]
     },
     tips: {
       heading: "Consejos prácticos que marcan la diferencia",
@@ -575,49 +579,61 @@ export const maragogiGuide: BrazilGuideLocalized = {
     },
     faq: [
       {
-        q: "¿Cuál es la mejor época para ver las galés de Maragogi?",
-        a: "Las piscinas naturales aparecen en cualquier mes del año siempre que el paseo se haga en marea baja; de septiembre a diciembre se concentra el clima más seco y el mar más calmo para el trayecto en barco.",
+        "q": "¿Cuál es la mejor época para ver las galés de Maragogi?",
+        "a": "Las piscinas naturales aparecen en cualquier mes del año siempre que el paseo se haga en marea baja; de septiembre a diciembre se concentra el clima más seco y el mar más calmo para el trayecto en barco."
       },
       {
-        q: "¿Cuántos días se necesitan para conocer Maragogi y la Ruta Ecológica?",
-        a: "Cinco a siete noches permiten vivir las galés, dedicar días a São Miguel dos Milagres o Patacho e incluir Barra de São Miguel o Japaratinga sin prisa.",
+        "q": "¿Cuántos días se necesitan para conocer Maragogi y la Ruta Ecológica?",
+        "a": "Cinco a siete noches permiten vivir las galés, dedicar días a São Miguel dos Milagres o Patacho e incluir Barra de São Miguel o Japaratinga sin prisa."
       },
       {
-        q: "¿Es mejor llegar por Maceió o por Recife?",
-        a: "Ambas opciones funcionan: Maceió (MCZ) queda unas dos horas al sur de Maragogi, y Recife (REC) unas dos horas al norte. La elección depende de la disponibilidad de vuelos y de una posible extensión a Porto de Galinhas u Olinda.",
+        "q": "¿Es mejor llegar por Maceió o por Recife?",
+        "a": "Ambas opciones funcionan: Maceió (MCZ) queda unas dos horas al sur de Maragogi, y Recife (REC) unas dos horas al norte. La elección depende de la disponibilidad de vuelos y de una posible extensión a Porto de Galinhas u Olinda."
       },
       {
-        q: "¿Las piscinas naturales son seguras para niños?",
-        a: "En general sí, con agua poco profunda y calma en marea baja y guías locales presentes durante el paseo; aun así, se recomienda chaleco salvavidas para los niños pequeños.",
+        "q": "¿Las piscinas naturales son seguras para niños?",
+        "a": "En general sí, con agua poco profunda y calma en marea baja y guías locales presentes durante el paseo; aun así, se recomienda chaleco salvavidas para los niños pequeños."
       },
       {
-        q: "¿Maragogi o Porto de Galinhas, cuál elegir?",
-        a: "Porto de Galinhas tiene una infraestructura turística más consolidada; Maragogi y la Ruta Ecológica ofrecen más discreción y un paisaje menos concurrido. Los viajeros con más tiempo suelen combinar ambos.",
+        "q": "¿Maragogi o Porto de Galinhas, cuál elegir?",
+        "a": "Porto de Galinhas tiene una infraestructura turística más consolidada; Maragogi y la Ruta Ecológica ofrecen más discreción y un paisaje menos concurrido. Los viajeros con más tiempo suelen combinar ambos."
       },
       {
-        q: "¿Cuánto cuesta un viaje a Maragogi con Create Travel?",
-        a: "No trabajamos con valores de estantería: el presupuesto depende de la posada elegida, del número de noches y de la época. Un consultor humano arma la propuesta y envía los valores por escrito.",
+        "q": "¿Cuánto cuesta un viaje a Maragogi con Create Travel?",
+        "a": "No trabajamos con valores de estantería: el presupuesto depende de la posada elegida, del número de noches y de la época. Un consultor humano arma la propuesta y envía los valores por escrito."
       },
+      {
+        "q": "¿Necesito visado o vacunas para Brasil?",
+        "a": "Los requisitos dependen de tu nacionalidad y fechas. Consulta las fuentes consulares oficiales brasileñas antes de reservar, y las recomendaciones sanitarias oficiales y un profesional de salud del viajero sobre vacunas, incluida la fiebre amarilla cuando corresponda al itinerario."
+      },
+      {
+        "q": "¿Tendré guías en español en todas las excursiones?",
+        "a": "Sí. Create Travel organiza guías en español en todas las excursiones de tu viaje privado y a medida."
+      },
+      {
+        "q": "¿Cómo llegar a Maragogi?",
+        "a": "Toma un vuelo internacional a un hub brasileño y conecta con Maceió (MCZ) o Recife (REC). Después, continúa con traslados privados."
+      },
+      {
+        "q": "¿Puedo combinar Maragogi con otros biomas brasileños?",
+        "a": "Brasil tiene seis biomas terrestres más la zona costera y marina — siete paisajes y culturas distintos. Combina una estancia en la selva amazónica con los paisajes costeros y marinos de Maragogi como cierre relajante."
+      }
     ],
     cta: {
-      heading: "Diseñemos su litoral de Alagoas",
-      subheading:
-        "Un consultor humano de Create Travel elige la playa, la posada y la marea adecuadas para su itinerario — y se ocupa de cada traslado.",
-      button: "Hablar con un travel designer",
+      "heading": "Solicita tu presupuesto para Maragogi",
+      "subheading": "Planifica un viaje privado y a medida con un diseñador de viajes humano. Recibe tu propuesta y presupuesto por escrito por WhatsApp.",
+      "button": "Solicitar presupuesto por WhatsApp"
     },
     readingMinutes: 12,
     publishedAt: "2026-08-11",
   },
 
   it: {
-    metaTitle: "Maragogi e costa di Alagoas: guida alle piscine naturali",
-    metaDescription:
-      "Guida completa a Maragogi e alla costa settentrionale di Alagoas: quando le piscine di corallo rivelano i loro colori, São Miguel dos Milagres e la Rota Ecológica, Praia do Patacho, Japaratinga, Barra de São Miguel e le migliori pousada boutique sulla sabbia.",
-    keywords:
-      "maragogi brasile, piscine naturali maragogi, sao miguel dos milagres, rota ecologica alagoas, praia do patacho, japaratinga, barra de sao miguel, caraibi brasiliani, pousada boutique alagoas",
-    h1: "Maragogi e i 'Caraibi brasiliani': guida autoriale alla costa nord di Alagoas",
-    aiAnswer:
-      "Il periodo migliore per Maragogi e la Rota Ecológica di Alagoas va da settembre a marzo (meno pioggia, mare più calmo), programmando sempre le escursioni alle piscine di corallo intorno alla bassa marea del mattino; l'ideale sono 5-7 notti, con arrivo da Maceió (MCZ) o Recife (REC), a circa due ore di strada.",
+    metaTitle: "Maragogi, Brasile: Itinerario, Periodo Migliore e Preventivo",
+    metaDescription: "Viaggio privato e su misura per Maragogi: itinerario suggerito, periodo migliore e come arrivare. Richiedi un preventivo su WhatsApp.",
+    keywords: "maragogi brasile, piscine naturali maragogi, sao miguel dos milagres, rota ecologica alagoas, praia do patacho, japaratinga, barra de sao miguel, caraibi brasiliani, pousada boutique alagoas, Maragogi tour, itinerario Maragogi, come arrivare a Maragogi, periodo migliore Maragogi",
+    h1: "Maragogi: itinerario, periodo migliore e come arrivare",
+    aiAnswer: "Il periodo migliore per Maragogi e la Rota Ecológica di Alagoas va da settembre a marzo (meno pioggia, mare più calmo), programmando sempre le escursioni alle piscine di corallo intorno alla bassa marea del mattino; l'ideale sono 5-7 notti, con arrivo da Maceió (MCZ) o Recife (REC), a circa due ore di strada. Create Travel crea viaggi privati e su misura per Maragogi per viaggiatori internazionali, con guide in italiano, e invia un preventivo scritto via WhatsApp.",
     intro: [
       "Maragogi viene chiamata 'i Caraibi brasiliani' da così tanto tempo che il soprannome è diventato un cliché — eppure, la prima volta che la barca taglia l'acqua verde smeraldo sopra le galés e si ferma su un banco di sabbia in mezzo all'oceano, il cliché si giustifica. Ma Maragogi è solo la porta d'accesso a una costa lunga quasi 130 chilometri, da Barra de São Miguel a Japaratinga, con paesaggi e ritmi molto diversi tra loro.",
       "Questa guida nasce da viaggi reali lungo la Rota Ecológica: quale tratto si abbina al silenzio, quale a una buona tavola, con quale marea le piscine naturali appaiono davvero e quali pousada meritano davvero l'aggettivo 'boutique', non solo lo usano.",
@@ -738,31 +754,38 @@ export const maragogiGuide: BrazilGuideLocalized = {
       ],
     },
     itinerary: {
-      heading: "Come integrare Maragogi in un itinerario in Brasile",
-      intro:
-        "La costa di Alagoas funziona molto bene come chiusura di viaggio — dopo l'immersione culturale o naturalistica, il mare arriva come decompressione.",
-      items: [
+      "heading": "Itinerario suggerito per Maragogi e combinazioni in Brasile",
+      "intro": "Itinerario privato e su misura, adattato a date, ritmo e condizioni locali. Prevedi notti di margine per i collegamenti aerei.",
+      "items": [
         {
-          title: "Maragogi + Recife e Olinda — 8-9 giorni",
-          text: "Tre giorni di città storica e patrimonio coloniale, seguiti da cinque giorni di costa. Trasferimento su strada di circa due ore tra le due tappe.",
+          "title": "Giorno 1 — Arrivo sulla costa di Alagoas",
+          "text": "Trasferimento privato da Maceió o Recife; sistemazione per cinque notti."
         },
         {
-          title: "Maragogi + Porto de Galinhas — 9-10 giorni",
-          text: "Due coste vicine con personalità diverse: Porto de Galinhas più strutturata, Maragogi e la Rota Ecológica più intime.",
+          "title": "Giorno 2 — Piscine naturali di Maragogi",
+          "text": "Escursione guidata in barca con la bassa marea del mattino, secondo le condizioni del mare e le regole di accesso."
         },
         {
-          title: "Maragogi + Salvador e Chapada Diamantina — 12 giorni",
-          text: "Cultura afro-bahiana e altopiano al centro del viaggio, mare di Alagoas per chiudere. Collegamento aereo via Recife o Salvador.",
+          "title": "Giorno 3 — Japaratinga",
+          "text": "Esplora la costa vicina con tempo per rilassarti sul mare."
         },
         {
-          title: "Maragogi + Amazzonia — 12-14 giorni",
-          text: "Prima l'immersione nella foresta, poi la decompressione in spiaggia. Una delle combinazioni più apprezzate dai viaggiatori che vengono da lontano.",
+          "title": "Giorno 4 — Rota Ecológica",
+          "text": "Visita São Miguel dos Milagres e la spiaggia di Patacho senza fretta."
         },
         {
-          title: "Maragogi + Fernando de Noronha — 9-10 giorni",
-          text: "Noronha per immersioni e paesaggio unico, Maragogi per rilassarsi in una pousada boutique con più spazio e meno restrizioni di accesso.",
+          "title": "Giorno 5 — Spiaggia senza fretta",
+          "text": "Giornata libera per riposare o riprogrammare le piscine se le condizioni lo richiedono."
         },
-      ],
+        {
+          "title": "Giorno 6 — Partenza",
+          "text": "Trasferimento privato su strada verso l’aeroporto di partenza scelto."
+        },
+        {
+          "title": "Combina due o più biomi brasiliani",
+          "text": "Il Brasile ha sei biomi terrestri più la zona costiera e marina: sette paesaggi e culture diversi. Combina un soggiorno nella foresta amazzonica con i paesaggi costieri e marini di Maragogi per un finale rilassante."
+        }
+      ]
     },
     tips: {
       heading: "Consigli pratici che fanno la differenza",
@@ -777,35 +800,50 @@ export const maragogiGuide: BrazilGuideLocalized = {
     },
     faq: [
       {
-        q: "Qual è il periodo migliore per vedere le galés di Maragogi?",
-        a: "Le piscine naturali appaiono in qualsiasi mese dell'anno, purché l'escursione avvenga in bassa marea; da settembre a dicembre si concentrano il clima più secco e il mare più calmo per la traversata in barca.",
+        "q": "Qual è il periodo migliore per vedere le galés di Maragogi?",
+        "a": "Le piscine naturali appaiono in qualsiasi mese dell'anno, purché l'escursione avvenga in bassa marea; da settembre a dicembre si concentrano il clima più secco e il mare più calmo per la traversata in barca."
       },
       {
-        q: "Quanti giorni servono per Maragogi e la Rota Ecológica?",
-        a: "Cinque-sette notti permettono di vivere le galés, dedicare giorni a São Miguel dos Milagres o Patacho e includere Barra de São Miguel o Japaratinga senza fretta.",
+        "q": "Quanti giorni servono per Maragogi e la Rota Ecológica?",
+        "a": "Cinque-sette notti permettono di vivere le galés, dedicare giorni a São Miguel dos Milagres o Patacho e includere Barra de São Miguel o Japaratinga senza fretta."
       },
       {
-        q: "È meglio arrivare da Maceió o da Recife?",
-        a: "Entrambe le opzioni funzionano: Maceió (MCZ) è a circa due ore a sud di Maragogi, e Recife (REC) a circa due ore a nord. La scelta dipende dalla disponibilità dei voli e da un'eventuale estensione verso Porto de Galinhas o Olinda.",
+        "q": "È meglio arrivare da Maceió o da Recife?",
+        "a": "Entrambe le opzioni funzionano: Maceió (MCZ) è a circa due ore a sud di Maragogi, e Recife (REC) a circa due ore a nord. La scelta dipende dalla disponibilità dei voli e da un'eventuale estensione verso Porto de Galinhas o Olinda."
       },
       {
-        q: "Le piscine naturali sono sicure per i bambini?",
-        a: "In generale sì, con acqua bassa e calma in bassa marea e guide locali presenti durante l'escursione; è comunque consigliato un giubbotto salvagente per i bambini piccoli.",
+        "q": "Le piscine naturali sono sicure per i bambini?",
+        "a": "In generale sì, con acqua bassa e calma in bassa marea e guide locali presenti durante l'escursione; è comunque consigliato un giubbotto salvagente per i bambini piccoli."
       },
       {
-        q: "Maragogi o Porto de Galinhas, quale scegliere?",
-        a: "Porto de Galinhas ha un'infrastruttura turistica più consolidata; Maragogi e la Rota Ecológica offrono più discrezione e un paesaggio meno affollato. I viaggiatori con più tempo a disposizione spesso combinano entrambe.",
+        "q": "Maragogi o Porto de Galinhas, quale scegliere?",
+        "a": "Porto de Galinhas ha un'infrastruttura turistica più consolidata; Maragogi e la Rota Ecológica offrono più discrezione e un paesaggio meno affollato. I viaggiatori con più tempo a disposizione spesso combinano entrambe."
       },
       {
-        q: "Quanto costa un viaggio a Maragogi con Create Travel?",
-        a: "Non lavoriamo con prezzi standard: il budget dipende dalla pousada scelta, dal numero di notti e dal periodo. Un consulente umano prepara la proposta e invia i valori per iscritto.",
+        "q": "Quanto costa un viaggio a Maragogi con Create Travel?",
+        "a": "Non lavoriamo con prezzi standard: il budget dipende dalla pousada scelta, dal numero di notti e dal periodo. Un consulente umano prepara la proposta e invia i valori per iscritto."
       },
+      {
+        "q": "Servono visto o vaccini per il Brasile?",
+        "a": "I requisiti dipendono dalla nazionalità e dalle date. Consulta le fonti consolari ufficiali brasiliane prima di prenotare e le indicazioni sanitarie ufficiali e un professionista di medicina dei viaggi per i vaccini, inclusa la febbre gialla quando pertinente all’itinerario."
+      },
+      {
+        "q": "Avrò guide in italiano in ogni escursione?",
+        "a": "Sì. Create Travel organizza guide in italiano in ogni escursione del tuo viaggio privato e su misura."
+      },
+      {
+        "q": "Come arrivare a Maragogi?",
+        "a": "Prendi un volo internazionale verso un hub brasiliano e prosegui per Maceió (MCZ) o Recife (REC). Continua poi con trasferimenti privati."
+      },
+      {
+        "q": "Posso combinare Maragogi con altri biomi brasiliani?",
+        "a": "Il Brasile ha sei biomi terrestri più la zona costiera e marina: sette paesaggi e culture diversi. Combina un soggiorno nella foresta amazzonica con i paesaggi costieri e marini di Maragogi per un finale rilassante."
+      }
     ],
     cta: {
-      heading: "Progettiamo la vostra costa di Alagoas",
-      subheading:
-        "Un consulente umano di Create Travel sceglie la spiaggia, la pousada e la marea giuste per il vostro itinerario — e si occupa di ogni trasferimento.",
-      button: "Parla con un travel designer",
+      "heading": "Richiedi il tuo preventivo per Maragogi",
+      "subheading": "Pianifica un viaggio privato e su misura con un travel designer umano. Ricevi la proposta e il preventivo scritto via WhatsApp.",
+      "button": "Richiedi un preventivo su WhatsApp"
     },
     readingMinutes: 12,
     publishedAt: "2026-08-11",

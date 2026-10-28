@@ -343,14 +343,11 @@ export const pantanalGuide: BrazilGuideLocalized = {
   },
 
   es: {
-    metaTitle: "Pantanal Brasil: guía de jaguares, safari y mejor época",
-    metaDescription:
-      "Guía curada del Pantanal brasileño: temporada seca mes a mes, la Transpantaneira y Porto Jofre, los mejores lodges por perfil de viajero y cómo integrar el safari a un viaje por Brasil.",
-    keywords:
-      "pantanal brasil guia, mejor epoca pantanal, jaguar porto jofre, transpantaneira, safari fotografico pantanal, estrada parque, pantanal lujo, itinerario pantanal brasil",
-    h1: "Pantanal: guía de autor de quienes perdieron la cuenta de los jaguares",
-    aiAnswer:
-      "La mejor época para el safari en el Pantanal es la temporada seca, de junio a octubre (fauna concentrada en los cuerpos de agua, caminos secos y avistamientos de jaguar casi garantizados en Porto Jofre), con un mínimo práctico de 4 a 5 noches, entrando por Cuiabá (CGB) o Campo Grande (CGR).",
+    metaTitle: "Pantanal, Brasil: Itinerario, Mejor Época y Presupuesto",
+    metaDescription: "Viaje privado y a medida a Pantanal: itinerario sugerido, mejor época y cómo llegar. Solicita un presupuesto por WhatsApp.",
+    keywords: "pantanal brasil guia, mejor epoca pantanal, jaguar porto jofre, transpantaneira, safari fotografico pantanal, estrada parque, pantanal lujo, itinerario pantanal brasil, Pantanal tour, itinerario Pantanal, cómo llegar a Pantanal, mejor época Pantanal",
+    h1: "Pantanal: itinerario, mejor época y cómo llegar",
+    aiAnswer: "La mejor época para el safari en el Pantanal es la temporada seca, de junio a octubre (fauna concentrada en los cuerpos de agua, caminos secos y posibilidades de observar jaguares en Porto Jofre), con un mínimo práctico de 4 a 5 noches, entrando por Cuiabá (CGB) o Campo Grande (CGR). Create Travel diseña viajes privados y a medida a Pantanal para viajeros internacionales, con guías en español, y envía un presupuesto por escrito por WhatsApp.",
     intro: [
       "El Pantanal es la mayor llanura inundable del planeta — 150.000 km² entre Mato Grosso y Mato Grosso do Sul — y a diferencia de la fama de 'selva densa' de la Amazonía, aquí la fauna aparece a plena luz del día, en campo abierto, muchas veces a pocos metros del bote o del vehículo. Es el mejor lugar del mundo para ver un jaguar salvaje, y no es exageración de operador turístico: es estadística de avistamiento.",
       "Esta guía nace de temporadas enteras en la Transpantaneira y el río Cuiabá, no de investigación de escritorio. Qué entrega cada mes, qué lodge de safari vale el viaje, qué tramo pertenece a Mato Grosso y cuál a Mato Grosso do Sul, y cómo este bioma dialoga con el resto de un itinerario brasileño sin repetir la Amazonía.",
@@ -401,15 +398,50 @@ export const pantanalGuide: BrazilGuideLocalized = {
       ],
     },
     itinerary: {
-      heading: "Cómo integrar el Pantanal a un viaje por Brasil",
-      intro: "El safari exige concentración: recomendamos no más de dos cambios de lodge por viaje y siempre una noche de margen en Cuiabá o Campo Grande antes de cualquier conexión internacional.",
-      items: [
-        { title: "Pantanal + Bonito — 8 a 10 días", text: "El safari de fauna seguido por los ríos cristalinos y el flotación en Bonito, a pocas horas de Campo Grande. Combinación clásica de fauna y paisaje acuático." },
-        { title: "Pantanal + Amazonía — 12 a 14 días", text: "Los dos grandes santuarios de fauna de Brasil. Quien busca jaguar con alta probabilidad empieza por el Pantanal; la Amazonía entrega inmersión de selva densa después." },
-        { title: "Pantanal + Chapada dos Guimarães — 7 a 9 días", text: "A una hora de Cuiabá, cascadas y miradores de cerrado complementan el safari con paisaje de altitud y senderos más cortos." },
-        { title: "Pantanal + Río de Janeiro — 10 a 12 días", text: "Cinco noches de safari y el resto en la ciudad, con noche colchón en Cuiabá. Contraste entre naturaleza intensa y vida urbana brasileña." },
-        { title: "Pantanal + Foz de Iguazú — 9 a 11 días", text: "Fauna primero, cataratas después, conectando vía Campo Grande o São Paulo. Itinerario eficiente para quien tiene tiempo limitado." },
-      ],
+      "heading": "Itinerario sugerido para Pantanal y combinaciones en Brasil",
+      "intro": "Itinerario privado y a medida, adaptado a tus fechas, ritmo y condiciones locales. Prevé noches de margen para las conexiones aéreas.",
+      "items": [
+        {
+          "title": "Día 1 — Cuiabá y Transpantaneira",
+          "text": "Llegada a Cuiabá (CGB), traslado privado a Poconé y al inicio de la Transpantaneira. Safari por la tarde y noche en un lodge de fazenda."
+        },
+        {
+          "title": "Día 2 — Por la Transpantaneira",
+          "text": "Caminata o cabalgata al amanecer, después recorrido hacia el sur con paradas para observar aves, caimanes y capibaras. Salida nocturna en barco o con foco donde el lodge la ofrezca."
+        },
+        {
+          "title": "Días 3 a 5 — Porto Jofre: safaris en barco",
+          "text": "Tres días completos de salidas por la mañana y por la tarde en el río Cuiabá y sus canales, principal zona de observación del jaguar en la estación seca. También suelen verse nutrias gigantes, sin garantía de avistamientos."
+        },
+        {
+          "title": "Día 6 — Regreso a Cuiabá",
+          "text": "Regreso al norte por la Transpantaneira para el siguiente vuelo, o continuación a Chapada dos Guimarães, Bonito, Amazonía o Río."
+        },
+        {
+          "title": "Pantanal + Bonito — 8 a 10 días",
+          "text": "El safari de fauna seguido por los ríos cristalinos y la flotación en Bonito, a pocas horas de Campo Grande. Combinación clásica de fauna y paisaje acuático."
+        },
+        {
+          "title": "Pantanal + Amazonía — 12 a 14 días",
+          "text": "Los dos grandes santuarios de fauna de Brasil. Quien busca jaguar con alta probabilidad empieza por el Pantanal; la Amazonía entrega inmersión de selva densa después."
+        },
+        {
+          "title": "Pantanal + Chapada dos Guimarães — 7 a 9 días",
+          "text": "A una hora de Cuiabá, cascadas y miradores de cerrado complementan el safari con paisaje de altitud y senderos más cortos."
+        },
+        {
+          "title": "Pantanal + Río de Janeiro — 10 a 12 días",
+          "text": "Cinco noches de safari y el resto en la ciudad, con noche colchón en Cuiabá. Contraste entre naturaleza intensa y vida urbana brasileña."
+        },
+        {
+          "title": "Pantanal + Foz de Iguazú — 9 a 11 días",
+          "text": "Fauna primero, cataratas después, conectando vía Campo Grande o São Paulo. Itinerario eficiente para quien tiene tiempo limitado."
+        },
+        {
+          "title": "Combina dos o más biomas brasileños",
+          "text": "Brasil tiene seis biomas terrestres más la zona costera y marina — siete paisajes y culturas distintos. Combina el Pantanal con la Amazonía para contrastar humedales y selva, o con Bonito para añadir ríos cristalinos."
+        }
+      ]
     },
     tips: {
       heading: "Consejos prácticos que marcan la diferencia",
@@ -423,31 +455,58 @@ export const pantanalGuide: BrazilGuideLocalized = {
       ],
     },
     faq: [
-      { q: "¿Cuántos días se necesitan en el Pantanal?", a: "Cuatro a cinco noches es el mínimo práctico para un safari consistente, con al menos tres días completos de salidas en bote en Porto Jofre. Siete noches, combinando Pantanal Norte y Sur, profundizan la experiencia." },
-      { q: "¿Cuál es la mejor época para ver jaguares?", a: "Junio a octubre, durante la seca, cuando la fauna se concentra alrededor de los ríos y lagunas que quedan. Septiembre y octubre tienen la mayor tasa histórica de avistamiento, al costo de un calor más intenso." },
-      { q: "¿Está garantizado ver un jaguar?", a: "No hay garantía absoluta con fauna silvestre, pero en Porto Jofre, en temporada seca, la tasa de avistamiento en varios días es muy alta — la mayoría de nuestros viajeros ve al menos un jaguar en tres días de salidas." },
-      { q: "¿Pantanal o Amazonía?", a: "Pantanal para avistamiento en campo abierto con alta probabilidad de jaguar. Amazonía para inmersión en selva densa y cultura ribereña. Con doce días, ambos." },
-      { q: "¿Cómo llegar al Pantanal?", a: "Las puertas de entrada son Cuiabá (CGB) para el Pantanal Norte y la Transpantaneira, y Campo Grande (CGR) para el Pantanal Sur y la Estrada Parque. Desde ambos aeropuertos, el trayecto a los lodges varía de dos a cinco horas por carretera." },
-      { q: "¿Cuánto cuesta un viaje al Pantanal?", a: "No publicamos precios de estante: el presupuesto depende del lodge, las noches, la temporada y la conectividad aérea. Un consultor humano envía los valores por escrito." },
+      {
+        "q": "¿Cuántos días se necesitan en el Pantanal?",
+        "a": "Cuatro a cinco noches es el mínimo práctico para un safari consistente, con al menos tres días completos de salidas en bote en Porto Jofre. Siete noches, combinando Pantanal Norte y Sur, profundizan la experiencia."
+      },
+      {
+        "q": "¿Cuál es la mejor época para ver jaguares?",
+        "a": "Junio a octubre, durante la seca, cuando la fauna se concentra alrededor de los ríos y lagunas que quedan. Septiembre y octubre tienen la mayor tasa histórica de avistamiento, al costo de un calor más intenso."
+      },
+      {
+        "q": "¿Está garantizado ver un jaguar?",
+        "a": "No hay garantía absoluta con fauna silvestre, pero en Porto Jofre, en temporada seca, la tasa de avistamiento en varios días es muy alta — la mayoría de nuestros viajeros ve al menos un jaguar en tres días de salidas."
+      },
+      {
+        "q": "¿Pantanal o Amazonía?",
+        "a": "Pantanal para avistamiento en campo abierto con alta probabilidad de jaguar. Amazonía para inmersión en selva densa y cultura ribereña. Con doce días, ambos."
+      },
+      {
+        "q": "¿Cuánto cuesta un viaje al Pantanal?",
+        "a": "No publicamos precios de estante: el presupuesto depende del lodge, las noches, la temporada y la conectividad aérea. Un consultor humano envía los valores por escrito."
+      },
+      {
+        "q": "¿Necesito visado o vacunas para Brasil?",
+        "a": "Los requisitos dependen de tu nacionalidad y fechas. Consulta las fuentes consulares oficiales brasileñas antes de reservar, y las recomendaciones sanitarias oficiales y un profesional de salud del viajero sobre vacunas, incluida la fiebre amarilla cuando corresponda al itinerario."
+      },
+      {
+        "q": "¿Tendré guías en español en todas las excursiones?",
+        "a": "Sí. Create Travel organiza guías en español en todas las excursiones de tu viaje privado y a medida."
+      },
+      {
+        "q": "¿Cómo llegar a Pantanal?",
+        "a": "Toma un vuelo internacional a un hub brasileño y conecta con Cuiabá (CGB) o Campo Grande (CGR). Después, continúa con traslados privados."
+      },
+      {
+        "q": "¿Puedo combinar Pantanal con otros biomas brasileños?",
+        "a": "Brasil tiene seis biomas terrestres más la zona costera y marina — siete paisajes y culturas distintos. Combina el Pantanal con la Amazonía para contrastar humedales y selva, o con Bonito para añadir ríos cristalinos."
+      }
     ],
     cta: {
-      heading: "Diseñemos su safari en el Pantanal",
-      subheading: "Un consultor de Create Travel elige la base, la época y el encadenamiento correctos para su perfil — y cuida cada conexión.",
-      button: "Hablar con un travel designer",
+      "heading": "Solicita tu presupuesto para Pantanal",
+      "subheading": "Planifica un viaje privado y a medida con un diseñador de viajes humano. Recibe tu propuesta y presupuesto por escrito por WhatsApp.",
+      "button": "Solicitar presupuesto por WhatsApp"
     },
     readingMinutes: 13,
     publishedAt: "2026-08-11",
   },
 
   it: {
-    metaTitle: "Pantanal Brasile: giaguari, safari e periodo migliore",
-    metaDescription:
-      "Guida curata al Pantanal brasiliano: stagione secca mese per mese, la Transpantaneira e Porto Jofre, i migliori lodge per profilo di viaggiatore e come integrare il safari in un viaggio in Brasile.",
-    keywords:
-      "pantanal brasile guida, quando andare pantanal, giaguaro porto jofre, transpantaneira, safari fotografico pantanal, estrada parque, pantanal lusso, itinerario pantanal brasile",
-    h1: "Pantanal: la guida d'autore di chi ha perso il conto dei giaguari",
-    aiAnswer:
-      "Il periodo migliore per il safari nel Pantanal è la stagione secca, da giugno a ottobre (fauna concentrata attorno ai corsi d'acqua residui, strade asciutte e avvistamenti di giaguaro quasi garantiti a Porto Jofre), con un minimo pratico di 4-5 notti, arrivando a Cuiabá (CGB) o Campo Grande (CGR).",
+    metaTitle: "Pantanal, Brasile: Itinerario, Periodo Migliore e Preventivo",
+    metaDescription: "Viaggio privato e su misura per Pantanal: itinerario suggerito, periodo migliore e come arrivare. Richiedi un preventivo su WhatsApp.",
+    keywords: "pantanal brasile guida, quando andare pantanal, giaguaro porto jofre, transpantaneira, safari fotografico pantanal, estrada parque, pantanal lusso, itinerario pantanal brasile, Pantanal tour, itinerario Pantanal, come arrivare a Pantanal, periodo migliore Pantanal",
+    h1: "Pantanal: itinerario, periodo migliore e come arrivare",
+    aiAnswer: "Il periodo migliore per il safari nel Pantanal è la stagione secca, da giugno a ottobre (fauna concentrata attorno ai corsi d'acqua residui, strade asciutte e possibilità di osservare giaguari a Porto Jofre), con un minimo pratico di 4-5 notti, arrivando a Cuiabá (CGB) o Campo Grande (CGR). Create Travel crea viaggi privati e su misura per Pantanal per viaggiatori internazionali, con guide in italiano, e invia un preventivo scritto via WhatsApp.",
     intro: [
       "Il Pantanal è la più grande pianura alluvionale del pianeta — 150.000 km² tra Mato Grosso e Mato Grosso do Sul — e, contrariamente alla fama di 'foresta densa' dell'Amazzonia, qui la fauna appare alla luce del giorno, in campo aperto, spesso a pochi metri dalla barca o dal veicolo. È il posto migliore al mondo per vedere un giaguaro selvaggio, e non è l'esagerazione di un operatore turistico: è statistica di avvistamento.",
       "Questa guida nasce da stagioni intere sulla Transpantaneira e sul fiume Cuiabá, non da ricerche a tavolino: quale mese offre cosa, quale lodge da safari vale il viaggio, quale tratto appartiene al Mato Grosso e quale al Mato Grosso do Sul, e come questo bioma si inserisce in un itinerario brasiliano più ampio senza ripetere l'Amazzonia.",
@@ -498,15 +557,50 @@ export const pantanalGuide: BrazilGuideLocalized = {
       ],
     },
     itinerary: {
-      heading: "Come integrare il Pantanal in un viaggio in Brasile",
-      intro: "Il safari richiede concentrazione: consigliamo non più di due cambi di lodge per viaggio e sempre una notte cuscinetto a Cuiabá o Campo Grande prima di qualsiasi connessione internazionale.",
-      items: [
-        { title: "Pantanal + Bonito — 8 a 10 giorni", text: "Il safari faunistico seguito dai fiumi cristallini e dallo snorkeling a Bonito, a poche ore da Campo Grande. Un abbinamento classico di fauna e paesaggio acquatico." },
-        { title: "Pantanal + Amazzonia — 12 a 14 giorni", text: "I due grandi santuari faunistici del Brasile. Chi cerca il giaguaro con alta probabilità inizia dal Pantanal; l'Amazzonia offre poi l'immersione nella foresta densa." },
-        { title: "Pantanal + Chapada dos Guimarães — 7 a 9 giorni", text: "A un'ora da Cuiabá, cascate e belvedere sul cerrado completano il safari con paesaggi d'altitudine e sentieri più brevi." },
-        { title: "Pantanal + Rio de Janeiro — 10 a 12 giorni", text: "Cinque notti di safari e il resto in città, con una notte cuscinetto a Cuiabá. Contrasto tra natura intensa e vita urbana brasiliana." },
-        { title: "Pantanal + Foz do Iguaçu — 9 a 11 giorni", text: "Prima la fauna, poi le cascate, con collegamento via Campo Grande o San Paolo. Itinerario efficiente per chi ha tempo limitato." },
-      ],
+      "heading": "Itinerario suggerito per Pantanal e combinazioni in Brasile",
+      "intro": "Itinerario privato e su misura, adattato a date, ritmo e condizioni locali. Prevedi notti di margine per i collegamenti aerei.",
+      "items": [
+        {
+          "title": "Giorno 1 — Cuiabá e Transpantaneira",
+          "text": "Arrivo a Cuiabá (CGB), trasferimento privato a Poconé e all’inizio della Transpantaneira. Safari pomeridiano e notte in un lodge di fazenda."
+        },
+        {
+          "title": "Giorno 2 — Lungo la Transpantaneira",
+          "text": "Passeggiata o escursione a cavallo all’alba, poi percorso verso sud con soste per uccelli, caimani e capibara. Uscita notturna in barca o con faro dove proposta dal lodge."
+        },
+        {
+          "title": "Giorni 3–5 — Porto Jofre: safari in barca",
+          "text": "Tre giornate complete di uscite mattutine e pomeridiane sul fiume Cuiabá e nei canali, principale area di osservazione del giaguaro nella stagione secca. Si osservano spesso anche lontre giganti, senza garanzia di avvistamenti."
+        },
+        {
+          "title": "Giorno 6 — Ritorno a Cuiabá",
+          "text": "Rientro verso nord lungo la Transpantaneira per il prossimo volo, oppure proseguimento per Chapada dos Guimarães, Bonito, Amazzonia o Rio."
+        },
+        {
+          "title": "Pantanal + Bonito — 8 a 10 giorni",
+          "text": "Il safari faunistico seguito dai fiumi cristallini e dallo snorkeling a Bonito, a poche ore da Campo Grande. Un abbinamento classico di fauna e paesaggio acquatico."
+        },
+        {
+          "title": "Pantanal + Amazzonia — 12 a 14 giorni",
+          "text": "I due grandi santuari faunistici del Brasile. Chi cerca il giaguaro con alta probabilità inizia dal Pantanal; l'Amazzonia offre poi l'immersione nella foresta densa."
+        },
+        {
+          "title": "Pantanal + Chapada dos Guimarães — 7 a 9 giorni",
+          "text": "A un'ora da Cuiabá, cascate e belvedere sul cerrado completano il safari con paesaggi d'altitudine e sentieri più brevi."
+        },
+        {
+          "title": "Pantanal + Rio de Janeiro — 10 a 12 giorni",
+          "text": "Cinque notti di safari e il resto in città, con una notte cuscinetto a Cuiabá. Contrasto tra natura intensa e vita urbana brasiliana."
+        },
+        {
+          "title": "Pantanal + Foz do Iguaçu — 9 a 11 giorni",
+          "text": "Prima la fauna, poi le cascate, con collegamento via Campo Grande o San Paolo. Itinerario efficiente per chi ha tempo limitato."
+        },
+        {
+          "title": "Combina due o più biomi brasiliani",
+          "text": "Il Brasile ha sei biomi terrestri più la zona costiera e marina: sette paesaggi e culture diversi. Combina il Pantanal con l’Amazzonia per alternare zone umide e foresta, oppure con Bonito per aggiungere fiumi cristallini."
+        }
+      ]
     },
     tips: {
       heading: "Consigli pratici che fanno la differenza",
@@ -520,17 +614,47 @@ export const pantanalGuide: BrazilGuideLocalized = {
       ],
     },
     faq: [
-      { q: "Quanti giorni servono per il Pantanal?", a: "Quattro a cinque notti è il minimo pratico per un safari consistente, con almeno tre giorni interi di uscite in barca a Porto Jofre. Sette notti, combinando Pantanal settentrionale e meridionale, approfondiscono l'esperienza." },
-      { q: "Qual è il periodo migliore per vedere i giaguari?", a: "Da giugno a ottobre, durante la secca, quando la fauna si concentra attorno ai fiumi e alle lagune rimaste. Settembre e ottobre hanno il tasso storico di avvistamento più alto, al costo di un caldo più intenso." },
-      { q: "L'avvistamento del giaguaro è garantito?", a: "Non esiste garanzia assoluta con la fauna selvatica, ma a Porto Jofre, in stagione secca, il tasso di avvistamento su più giorni è molto alto — la maggior parte dei nostri viaggiatori vede almeno un giaguaro in tre giorni di uscite." },
-      { q: "Pantanal o Amazzonia?", a: "Pantanal per avvistamento in campo aperto con altissima probabilità di giaguaro. Amazzonia per immersione nella foresta densa e cultura fluviale. Con dodici giorni, entrambi." },
-      { q: "Come arrivare al Pantanal?", a: "Le porte d'accesso sono Cuiabá (CGB) per il Pantanal settentrionale e la Transpantaneira, e Campo Grande (CGR) per il Pantanal meridionale e l'Estrada Parque. Da entrambi gli aeroporti, il tragitto verso i lodge varia da due a cinque ore su strada." },
-      { q: "Quanto costa un viaggio al Pantanal?", a: "Non pubblichiamo prezzi standard: il budget dipende dal lodge, dalle notti, dalla stagione e dai collegamenti aerei. Un consulente umano invia le cifre per iscritto." },
+      {
+        "q": "Quanti giorni servono per il Pantanal?",
+        "a": "Quattro a cinque notti è il minimo pratico per un safari consistente, con almeno tre giorni interi di uscite in barca a Porto Jofre. Sette notti, combinando Pantanal settentrionale e meridionale, approfondiscono l'esperienza."
+      },
+      {
+        "q": "Qual è il periodo migliore per vedere i giaguari?",
+        "a": "Da giugno a ottobre, durante la secca, quando la fauna si concentra attorno ai fiumi e alle lagune rimaste. Settembre e ottobre hanno il tasso storico di avvistamento più alto, al costo di un caldo più intenso."
+      },
+      {
+        "q": "L'avvistamento del giaguaro è garantito?",
+        "a": "Non esiste garanzia assoluta con la fauna selvatica, ma a Porto Jofre, in stagione secca, il tasso di avvistamento su più giorni è molto alto — la maggior parte dei nostri viaggiatori vede almeno un giaguaro in tre giorni di uscite."
+      },
+      {
+        "q": "Pantanal o Amazzonia?",
+        "a": "Pantanal per avvistamento in campo aperto con altissima probabilità di giaguaro. Amazzonia per immersione nella foresta densa e cultura fluviale. Con dodici giorni, entrambi."
+      },
+      {
+        "q": "Quanto costa un viaggio al Pantanal?",
+        "a": "Non pubblichiamo prezzi standard: il budget dipende dal lodge, dalle notti, dalla stagione e dai collegamenti aerei. Un consulente umano invia le cifre per iscritto."
+      },
+      {
+        "q": "Servono visto o vaccini per il Brasile?",
+        "a": "I requisiti dipendono dalla nazionalità e dalle date. Consulta le fonti consolari ufficiali brasiliane prima di prenotare e le indicazioni sanitarie ufficiali e un professionista di medicina dei viaggi per i vaccini, inclusa la febbre gialla quando pertinente all’itinerario."
+      },
+      {
+        "q": "Avrò guide in italiano in ogni escursione?",
+        "a": "Sì. Create Travel organizza guide in italiano in ogni escursione del tuo viaggio privato e su misura."
+      },
+      {
+        "q": "Come arrivare a Pantanal?",
+        "a": "Prendi un volo internazionale verso un hub brasiliano e prosegui per Cuiabá (CGB) o Campo Grande (CGR). Continua poi con trasferimenti privati."
+      },
+      {
+        "q": "Posso combinare Pantanal con altri biomi brasiliani?",
+        "a": "Il Brasile ha sei biomi terrestri più la zona costiera e marina: sette paesaggi e culture diversi. Combina il Pantanal con l’Amazzonia per alternare zone umide e foresta, oppure con Bonito per aggiungere fiumi cristallini."
+      }
     ],
     cta: {
-      heading: "Progettiamo il vostro safari nel Pantanal",
-      subheading: "Un consulente Create Travel sceglie la base, la stagione e la sequenza giusta per il vostro profilo — e cura ogni collegamento.",
-      button: "Parla con un travel designer",
+      "heading": "Richiedi il tuo preventivo per Pantanal",
+      "subheading": "Pianifica un viaggio privato e su misura con un travel designer umano. Ricevi la proposta e il preventivo scritto via WhatsApp.",
+      "button": "Richiedi un preventivo su WhatsApp"
     },
     readingMinutes: 13,
     publishedAt: "2026-08-11",

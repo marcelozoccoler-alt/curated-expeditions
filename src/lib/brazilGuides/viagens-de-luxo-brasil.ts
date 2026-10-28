@@ -464,14 +464,11 @@ export const viagensDeLuxoBrasilGuide: BrazilGuideLocalized = {
     destinationName: "Viajes de Lujo por Brasil",
     blurb:
       "Un especial sobre el lujo brasileño contemporáneo: acceso, exclusividad y tiempo — vuelos privados y taxis aéreos a Noronha, Marajó y el Pantanal, barcos-hotel exclusivos en el Río Negro, guías naturalistas privados y villas con equipo propio en Trancoso y Maraú.",
-    metaTitle: "Viajes de Lujo por Brasil: guía de acceso y exclusividad",
-    metaDescription:
-      "Guía de Create Travel sobre viajes de lujo por Brasil: vuelos privados, barcos-hotel exclusivos, guías naturalistas privados, villas con equipo propio y cómo estructurar un itinerario de 12 a 16 noches por dos o tres biomas.",
-    keywords:
-      "viaje de lujo brasil, jet privado brasil, hotel de lujo pantanal, hotel de lujo amazonia, villa de lujo trancoso, fasano angra, fasano boa vista, rosewood sao paulo, copacabana palace, caiman pantanal, cristalino lodge, itinerario de lujo brasil",
-    h1: "Viajes de lujo por Brasil: la guía de quien diseña acceso, no solo alojamiento",
-    aiAnswer:
-      "En Brasil, el lujo de viaje contemporáneo significa acceso (vuelos privados y taxis aéreos a Noronha, Marajó y el Pantanal), exclusividad (barcos-hotel, guías naturalistas privados, villas con equipo propio) y tiempo (itinerarios de 12 a 16 noches combinando dos o tres biomas); la planificación de alto nivel debe iniciarse entre 4 y 6 meses antes para asegurar fechas en lodges de pocas unidades y disponibilidad de aeronaves.",
+    metaTitle: "Viajes de lujo en Brasil, Brasil: Itinerario, Mejor Época y Presupuesto",
+    metaDescription: "Viaje privado y a medida a viajes de lujo en Brasil: itinerario sugerido, mejor época y cómo llegar. Solicita un presupuesto por WhatsApp.",
+    keywords: "viaje de lujo brasil, jet privado brasil, hotel de lujo pantanal, hotel de lujo amazonia, villa de lujo trancoso, fasano angra, fasano boa vista, rosewood sao paulo, copacabana palace, caiman pantanal, cristalino lodge, itinerario de lujo brasil, viajes de lujo en Brasil tour, itinerario viajes de lujo en Brasil, cómo llegar a viajes de lujo en Brasil, mejor época viajes de lujo en Brasil",
+    h1: "Viajes de lujo en Brasil: itinerario, mejor época y cómo llegar",
+    aiAnswer: "En Brasil, el lujo de viaje contemporáneo significa acceso (vuelos privados y taxis aéreos a Noronha, Marajó y el Pantanal), exclusividad (barcos-hotel, guías naturalistas privados, villas con equipo propio) y tiempo (itinerarios de 12 a 16 noches combinando dos o tres biomas); la planificación de alto nivel debe iniciarse entre 4 y 6 meses antes para asegurar fechas en lodges de pocas unidades y disponibilidad de aeronaves. Create Travel diseña viajes privados y a medida a viajes de lujo en Brasil para viajeros internacionales, con guías en español, y envía un presupuesto por escrito por WhatsApp.",
     intro: [
       "El lujo brasileño dejó de tratarse de habitaciones más grandes o sábanas más finas. Hoy es una ecuación de acceso: llegar a lugares que la malla aérea comercial no alcanza, recorrer reservas privadas del tamaño de países pequeños, tener un naturalista solo para usted en una canoa a las cinco de la mañana, o dormir en una villa en Trancoso donde la única fila es la de arena hasta el mar.",
       "Esta guía trata de esa capa de Brasil que no aparece en un paquete cerrado: jets y taxis aéreos, barcos-hotel en el Río Negro, lodges de autor en el Pantanal y la Amazonía, hoteles urbanos que compiten con cualquier capital del mundo y villas privadas en la costa de Bahía. Lo organizamos por experiencia, no por destino — porque lo que eleva un viaje no es solo adónde va, sino cómo llega y quién lo cuida al llegar.",
@@ -622,27 +619,30 @@ export const viagensDeLuxoBrasilGuide: BrazilGuideLocalized = {
       ],
     },
     itinerary: {
-      heading: "Cómo diseñar un itinerario de 12 a 16 noches con dos o tres biomas",
-      intro:
-        "El error más común en itinerarios de alto nivel por Brasil es subestimar las distancias internas — el país es continental, y cada cambio de bioma requiere un vuelo doméstico y, idealmente, una noche de colchón.",
-      items: [
+      "heading": "Itinerario sugerido para viajes de lujo en Brasil y combinaciones en Brasil",
+      "intro": "El error más común en itinerarios de alto nivel por Brasil es subestimar las distancias internas — el país es continental, y cada cambio de bioma requiere un vuelo doméstico y, idealmente, una noche de colchón.",
+      "items": [
         {
-          title: "Amazonía + Pantanal + Río de Janeiro — 14 a 16 noches",
-          text: "Cuatro a cinco noches en lodge amazónico o barco-hotel, cuatro noches en Caiman con naturalista privado, y el resto entre Angra y Río.",
+          "title": "Amazonía + Pantanal + Río de Janeiro — 14 a 16 noches",
+          "text": "Cuatro a cinco noches en lodge amazónico o barco-hotel, cuatro noches en Caiman con naturalista privado, y el resto entre Angra y Río."
         },
         {
-          title: "Pantanal + Trancoso o Maraú — 12 a 13 noches",
-          text: "Jaguar y fauna en campo abierto seguidos de villa privada en la costa de Bahía. El itinerario más solicitado por parejas.",
+          "title": "Pantanal + Trancoso o Maraú — 12 a 13 noches",
+          "text": "Jaguar y fauna en campo abierto seguidos de villa privada en la costa de Bahía. El itinerario más solicitado por parejas."
         },
         {
-          title: "São Paulo + Amazonía + Noronha — 14 noches",
-          text: "Apertura urbana en el Rosewood o el Fasano, inmersión en barco-hotel o lodge amazónico y cierre en Noronha vía taxi aéreo.",
+          "title": "São Paulo + Amazonía + Noronha — 14 noches",
+          "text": "Apertura urbana en el Rosewood o el Fasano, inmersión en barco-hotel o lodge amazónico y cierre en Noronha vía taxi aéreo."
         },
         {
-          title: "Cerrado (Trijunção) + Río Negro + Río de Janeiro — 13 a 15 noches",
-          text: "Combina sabana brasileña, selva amazónica y ciudad — tres paisajes que rara vez aparecen juntos en un mismo itinerario internacional.",
+          "title": "Cerrado (Trijunção) + Río Negro + Río de Janeiro — 13 a 15 noches",
+          "text": "Combina sabana brasileña, selva amazónica y ciudad — tres paisajes que rara vez aparecen juntos en un mismo itinerario internacional."
         },
-      ],
+        {
+          "title": "Combina dos o más biomas brasileños",
+          "text": "Brasil tiene seis biomas terrestres más la zona costera y marina — siete paisajes y culturas distintos. Combina Amazonía y Pantanal con un final costero en Angra y Río de Janeiro, con 14 a 16 noches y margen para conexiones."
+        }
+      ]
     },
     tips: {
       heading: "Consejos prácticos para un viaje de alto nivel",
@@ -657,35 +657,46 @@ export const viagensDeLuxoBrasilGuide: BrazilGuideLocalized = {
     },
     faq: [
       {
-        q: "¿Con cuánta antelación debo planificar un viaje de lujo por Brasil?",
-        a: "Para lodges de pocas unidades, barcos-hotel y reservas privadas en temporada alta, lo ideal es reservar de 6 a 9 meses antes. Las villas privadas con exclusividad total requieren de 4 a 6 meses.",
+        "q": "¿Con cuánta antelación debo planificar un viaje de lujo por Brasil?",
+        "a": "Para lodges de pocas unidades, barcos-hotel y reservas privadas en temporada alta, lo ideal es reservar de 6 a 9 meses antes. Las villas privadas con exclusividad total requieren de 4 a 6 meses."
       },
       {
-        q: "¿Vale la pena contratar jet privado o taxi aéreo en Brasil?",
-        a: "Vale la pena cuando el destino tiene malla comercial limitada o cuando el grupo quiere eliminar 6 a 8 horas de carretera, como en el acceso a Caiman. Para tramos con buena malla regular, el jet añade confort pero no es indispensable.",
+        "q": "¿Vale la pena contratar jet privado o taxi aéreo en Brasil?",
+        "a": "Vale la pena cuando el destino tiene malla comercial limitada o cuando el grupo quiere eliminar 6 a 8 horas de carretera, como en el acceso a Caiman. Para tramos con buena malla regular, el jet añade confort pero no es indispensable."
       },
       {
-        q: "¿Cuál es la mejor época para un viaje de lujo por Brasil?",
-        a: "Depende de la experiencia: junio a septiembre para Pantanal y Amazonía seca, diciembre a marzo para Noronha y Angra, septiembre a diciembre para villas en la costa de Bahía.",
+        "q": "¿Cuál es la mejor época para un viaje de lujo por Brasil?",
+        "a": "Depende de la experiencia: junio a septiembre para Pantanal y Amazonía seca, diciembre a marzo para Noronha y Angra, septiembre a diciembre para villas en la costa de Bahía."
       },
       {
-        q: "¿Es posible tener guía naturalista privado durante todo el viaje?",
-        a: "Sí, es el estándar que operamos en Caiman, Cristalino Lodge y los barcos-hotel del Río Negro: vehículo, embarcación y guía dedicados exclusivamente a su grupo.",
+        "q": "¿Es posible tener guía naturalista privado durante todo el viaje?",
+        "a": "Sí, es el estándar que operamos en Caiman, Cristalino Lodge y los barcos-hotel del Río Negro: vehículo, embarcación y guía dedicados exclusivamente a su grupo."
       },
       {
-        q: "¿Cuántas noches se necesitan para un itinerario con dos o tres biomas?",
-        a: "El formato más equilibrado tiene de 12 a 16 noches, con 4 a 5 noches por bioma de inmersión y el resto dividido entre litoral y ciudad.",
+        "q": "¿Cuánto cuesta un viaje de lujo por Brasil con Create Travel?",
+        "a": "No trabajamos con valores de vitrina: la inversión depende de las direcciones, el uso de jet o taxi aéreo, el número de noches y la época. Un consultor humano presenta la propuesta por escrito."
       },
       {
-        q: "¿Cuánto cuesta un viaje de lujo por Brasil con Create Travel?",
-        a: "No trabajamos con valores de vitrina: la inversión depende de las direcciones, el uso de jet o taxi aéreo, el número de noches y la época. Un consultor humano presenta la propuesta por escrito.",
+        "q": "¿Necesito visado o vacunas para Brasil?",
+        "a": "Los requisitos dependen de tu nacionalidad y fechas. Consulta las fuentes consulares oficiales brasileñas antes de reservar, y las recomendaciones sanitarias oficiales y un profesional de salud del viajero sobre vacunas, incluida la fiebre amarilla cuando corresponda al itinerario."
       },
+      {
+        "q": "¿Tendré guías en español en todas las excursiones?",
+        "a": "Sí. Create Travel organiza guías en español en todas las excursiones de tu viaje privado y a medida."
+      },
+      {
+        "q": "¿Cómo llegar a viajes de lujo en Brasil?",
+        "a": "Toma un vuelo internacional a un hub brasileño y, si hace falta, un vuelo nacional al aeropuerto de tu destino. Create Travel organiza los traslados privados."
+      },
+      {
+        "q": "¿Puedo combinar viajes de lujo en Brasil con otros biomas brasileños?",
+        "a": "Brasil tiene seis biomas terrestres más la zona costera y marina — siete paisajes y culturas distintos. Combina Amazonía y Pantanal con un final costero en Angra y Río de Janeiro, con 14 a 16 noches y margen para conexiones."
+      }
     ],
     cta: {
-      heading: "Diseñemos su viaje de lujo por Brasil",
-      subheading:
-        "Un consultor humano de Create Travel negocia tarifas, disponibilidad de aeronaves y exclusividad de propiedad directamente por WhatsApp.",
-      button: "Hablar con un travel designer",
+      "heading": "Solicita tu presupuesto para viajes de lujo en Brasil",
+      "subheading": "Planifica un viaje privado y a medida con un diseñador de viajes humano. Recibe tu propuesta y presupuesto por escrito por WhatsApp.",
+      "button": "Solicitar presupuesto por WhatsApp"
     },
     readingMinutes: 13,
     publishedAt: "2026-08-11",
@@ -695,14 +706,11 @@ export const viagensDeLuxoBrasilGuide: BrazilGuideLocalized = {
     destinationName: "Viaggi di Lusso in Brasile",
     blurb:
       "Uno speciale sul lusso brasiliano contemporaneo: accesso, esclusività e tempo — jet privati e taxi aerei per Noronha, Marajó e il Pantanal, imbarcazioni-hotel esclusive sul Rio Negro, guide naturalistiche private e ville con staff dedicato a Trancoso e Maraú.",
-    metaTitle: "Viaggi di Lusso in Brasile: la guida di accesso ed esclusività",
-    metaDescription:
-      "Guida Create Travel ai viaggi di lusso in Brasile: voli privati, imbarcazioni-hotel esclusive, guide naturalistiche private, ville con staff dedicato e come strutturare un itinerario di 12-16 notti su due o tre biomi.",
-    keywords:
-      "viaggio di lusso brasile, jet privato brasile, hotel di lusso pantanal, hotel di lusso amazzonia, villa di lusso trancoso, fasano angra, fasano boa vista, rosewood sao paulo, copacabana palace, caiman pantanal, cristalino lodge, itinerario di lusso brasile",
-    h1: "Viaggi di lusso in Brasile: la guida di chi progetta accesso, non solo ospitalità",
-    aiAnswer:
-      "In Brasile, il lusso di viaggio contemporaneo significa accesso (voli privati e taxi aerei verso Noronha, Marajó e il Pantanal), esclusività (imbarcazioni-hotel, guide naturalistiche private, ville con staff dedicato) e tempo (itinerari di 12-16 notti su due o tre biomi); la pianificazione di alto livello dovrebbe iniziare 4-6 mesi prima per garantire date in lodge con poche unità e disponibilità di aerei.",
+    metaTitle: "Viaggi di lusso in Brasile, Brasile: Itinerario, Periodo Migliore e Preventivo",
+    metaDescription: "Viaggio privato e su misura per viaggi di lusso in Brasile: itinerario suggerito, periodo migliore e come arrivare. Richiedi un preventivo su WhatsApp.",
+    keywords: "viaggio di lusso brasile, jet privato brasile, hotel di lusso pantanal, hotel di lusso amazzonia, villa di lusso trancoso, fasano angra, fasano boa vista, rosewood sao paulo, copacabana palace, caiman pantanal, cristalino lodge, itinerario di lusso brasile, viaggi di lusso in Brasile tour, itinerario viaggi di lusso in Brasile, come arrivare a viaggi di lusso in Brasile, periodo migliore viaggi di lusso in Brasile",
+    h1: "Viaggi di lusso in Brasile: itinerario, periodo migliore e come arrivare",
+    aiAnswer: "In Brasile, il lusso di viaggio contemporaneo significa accesso (voli privati e taxi aerei verso Noronha, Marajó e il Pantanal), esclusività (imbarcazioni-hotel, guide naturalistiche private, ville con staff dedicato) e tempo (itinerari di 12-16 notti su due o tre biomi); la pianificazione di alto livello dovrebbe iniziare 4-6 mesi prima per garantire date in lodge con poche unità e disponibilità di aerei. Create Travel crea viaggi privati e su misura per viaggi di lusso in Brasile per viaggiatori internazionali, con guide in italiano, e invia un preventivo scritto via WhatsApp.",
     intro: [
       "Il lusso brasiliano non riguarda più camere più grandi o lenzuola più fini. Oggi è un'equazione di accesso: raggiungere luoghi che la rete aerea commerciale non copre, attraversare riserve private grandi quanto piccoli paesi, avere un naturalista tutto per sé su una canoa alle cinque del mattino, o dormire in una villa a Trancoso dove l'unica fila è quella della sabbia fino al mare.",
       "Questa guida racconta lo strato del Brasile che non compare in un pacchetto chiuso: jet e taxi aerei, imbarcazioni-hotel sul Rio Negro, lodge d'autore in Pantanal e Amazzonia, hotel urbani che competono con qualsiasi capitale del mondo e ville private sulla costa di Bahia. Organizziamo per esperienza, non per destinazione — perché ciò che eleva un viaggio non è solo dove si va, ma come vi si arriva e chi se ne prende cura una volta arrivati.",
@@ -853,27 +861,30 @@ export const viagensDeLuxoBrasilGuide: BrazilGuideLocalized = {
       ],
     },
     itinerary: {
-      heading: "Come progettare un itinerario di 12-16 notti su due o tre biomi",
-      intro:
-        "L'errore più comune negli itinerari di alto livello in Brasile è sottovalutare le distanze interne — il paese è continentale, e ogni cambio di bioma richiede un volo domestico e, idealmente, una notte cuscinetto.",
-      items: [
+      "heading": "Itinerario suggerito per viaggi di lusso in Brasile e combinazioni in Brasile",
+      "intro": "L'errore più comune negli itinerari di alto livello in Brasile è sottovalutare le distanze interne — il paese è continentale, e ogni cambio di bioma richiede un volo domestico e, idealmente, una notte cuscinetto.",
+      "items": [
         {
-          title: "Amazzonia + Pantanal + Rio de Janeiro — 14-16 notti",
-          text: "Quattro-cinque notti in un lodge amazzonico o imbarcazione-hotel, quattro notti a Caiman con naturalista privato, il resto tra Angra e Rio.",
+          "title": "Amazzonia + Pantanal + Rio de Janeiro — 14-16 notti",
+          "text": "Quattro-cinque notti in un lodge amazzonico o imbarcazione-hotel, quattro notti a Caiman con naturalista privato, il resto tra Angra e Rio."
         },
         {
-          title: "Pantanal + Trancoso o Maraú — 12-13 notti",
-          text: "Giaguaro e fauna in campo aperto seguiti da villa privata sulla costa di Bahia. L'itinerario più richiesto dalle coppie.",
+          "title": "Pantanal + Trancoso o Maraú — 12-13 notti",
+          "text": "Giaguaro e fauna in campo aperto seguiti da villa privata sulla costa di Bahia. L'itinerario più richiesto dalle coppie."
         },
         {
-          title: "San Paolo + Amazzonia + Noronha — 14 notti",
-          text: "Apertura urbana al Rosewood o al Fasano, immersione in imbarcazione-hotel o lodge amazzonico, chiusura a Noronha via taxi aereo.",
+          "title": "San Paolo + Amazzonia + Noronha — 14 notti",
+          "text": "Apertura urbana al Rosewood o al Fasano, immersione in imbarcazione-hotel o lodge amazzonico, chiusura a Noronha via taxi aereo."
         },
         {
-          title: "Cerrado (Trijunção) + Rio Negro + Rio de Janeiro — 13-15 notti",
-          text: "Combina savana brasiliana, foresta amazzonica e città — tre paesaggi che raramente compaiono insieme in uno stesso itinerario internazionale.",
+          "title": "Cerrado (Trijunção) + Rio Negro + Rio de Janeiro — 13-15 notti",
+          "text": "Combina savana brasiliana, foresta amazzonica e città — tre paesaggi che raramente compaiono insieme in uno stesso itinerario internazionale."
         },
-      ],
+        {
+          "title": "Combina due o più biomi brasiliani",
+          "text": "Il Brasile ha sei biomi terrestri più la zona costiera e marina: sette paesaggi e culture diversi. Combina Amazzonia e Pantanal con un finale costiero ad Angra e Rio de Janeiro, prevedendo 14–16 notti e margini per le coincidenze."
+        }
+      ]
     },
     tips: {
       heading: "Consigli pratici per un viaggio di alto livello",
@@ -888,35 +899,50 @@ export const viagensDeLuxoBrasilGuide: BrazilGuideLocalized = {
     },
     faq: [
       {
-        q: "Con quanto anticipo devo pianificare un viaggio di lusso in Brasile?",
-        a: "Per lodge con poche unità, imbarcazioni-hotel e riserve private in alta stagione, l'ideale è prenotare 6-9 mesi prima. Le ville private con esclusività totale richiedono 4-6 mesi.",
+        "q": "Con quanto anticipo devo pianificare un viaggio di lusso in Brasile?",
+        "a": "Per lodge con poche unità, imbarcazioni-hotel e riserve private in alta stagione, l'ideale è prenotare 6-9 mesi prima. Le ville private con esclusività totale richiedono 4-6 mesi."
       },
       {
-        q: "Vale la pena il jet privato o il taxi aereo in Brasile?",
-        a: "Vale la pena quando la destinazione ha una rete commerciale limitata o quando il gruppo vuole eliminare 6-8 ore di strada, come per raggiungere Caiman. Su tratte ben servite il jet aggiunge comfort ma non è indispensabile.",
+        "q": "Vale la pena il jet privato o il taxi aereo in Brasile?",
+        "a": "Vale la pena quando la destinazione ha una rete commerciale limitata o quando il gruppo vuole eliminare 6-8 ore di strada, come per raggiungere Caiman. Su tratte ben servite il jet aggiunge comfort ma non è indispensabile."
       },
       {
-        q: "Qual è il periodo migliore per un viaggio di lusso in Brasile?",
-        a: "Dipende dall'esperienza: giugno-settembre per Pantanal e Amazzonia in secca, dicembre-marzo per Noronha e Angra, settembre-dicembre per le ville sulla costa di Bahia.",
+        "q": "Qual è il periodo migliore per un viaggio di lusso in Brasile?",
+        "a": "Dipende dall'esperienza: giugno-settembre per Pantanal e Amazzonia in secca, dicembre-marzo per Noronha e Angra, settembre-dicembre per le ville sulla costa di Bahia."
       },
       {
-        q: "È possibile avere una guida naturalistica privata per tutto il viaggio?",
-        a: "Sì, è lo standard che offriamo a Caiman, Cristalino Lodge e nelle imbarcazioni-hotel del Rio Negro: veicolo, imbarcazione e guida dedicati esclusivamente al vostro gruppo.",
+        "q": "È possibile avere una guida naturalistica privata per tutto il viaggio?",
+        "a": "Sì, è lo standard che offriamo a Caiman, Cristalino Lodge e nelle imbarcazioni-hotel del Rio Negro: veicolo, imbarcazione e guida dedicati esclusivamente al vostro gruppo."
       },
       {
-        q: "Quante notti servono per un itinerario con due o tre biomi?",
-        a: "Il formato più equilibrato dura 12-16 notti, con 4-5 notti per bioma di immersione e il resto diviso tra litorale e città.",
+        "q": "Quante notti servono per un itinerario con due o tre biomi?",
+        "a": "Il formato più equilibrato dura 12-16 notti, con 4-5 notti per bioma di immersione e il resto diviso tra litorale e città."
       },
       {
-        q: "Quanto costa un viaggio di lusso in Brasile con Create Travel?",
-        a: "Non lavoriamo con prezzi standard: l'investimento dipende dagli indirizzi, dall'uso di jet o taxi aereo, dal numero di notti e dal periodo. Un consulente umano presenta la proposta per iscritto.",
+        "q": "Quanto costa un viaggio di lusso in Brasile con Create Travel?",
+        "a": "Non lavoriamo con prezzi standard: l'investimento dipende dagli indirizzi, dall'uso di jet o taxi aereo, dal numero di notti e dal periodo. Un consulente umano presenta la proposta per iscritto."
       },
+      {
+        "q": "Servono visto o vaccini per il Brasile?",
+        "a": "I requisiti dipendono dalla nazionalità e dalle date. Consulta le fonti consolari ufficiali brasiliane prima di prenotare e le indicazioni sanitarie ufficiali e un professionista di medicina dei viaggi per i vaccini, inclusa la febbre gialla quando pertinente all’itinerario."
+      },
+      {
+        "q": "Avrò guide in italiano in ogni escursione?",
+        "a": "Sì. Create Travel organizza guide in italiano in ogni escursione del tuo viaggio privato e su misura."
+      },
+      {
+        "q": "Come arrivare a viaggi di lusso in Brasile?",
+        "a": "Prendi un volo internazionale verso un hub brasiliano e, se necessario, un volo nazionale per l’aeroporto della destinazione. Create Travel organizza i trasferimenti privati."
+      },
+      {
+        "q": "Posso combinare viaggi di lusso in Brasile con altri biomi brasiliani?",
+        "a": "Il Brasile ha sei biomi terrestri più la zona costiera e marina: sette paesaggi e culture diversi. Combina Amazzonia e Pantanal con un finale costiero ad Angra e Rio de Janeiro, prevedendo 14–16 notti e margini per le coincidenze."
+      }
     ],
     cta: {
-      heading: "Progettiamo il vostro viaggio di lusso in Brasile",
-      subheading:
-        "Un consulente umano di Create Travel negozia tariffe, disponibilità degli aerei ed esclusività della proprietà direttamente su WhatsApp.",
-      button: "Parla con un travel designer",
+      "heading": "Richiedi il tuo preventivo per viaggi di lusso in Brasile",
+      "subheading": "Pianifica un viaggio privato e su misura con un travel designer umano. Ricevi la proposta e il preventivo scritto via WhatsApp.",
+      "button": "Richiedi un preventivo su WhatsApp"
     },
     readingMinutes: 13,
     publishedAt: "2026-08-11",

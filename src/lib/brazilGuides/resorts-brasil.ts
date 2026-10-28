@@ -562,14 +562,11 @@ export const resortsBrasilGuide: BrazilGuideLocalized = {
     destinationName: "Resorts de Brasil",
     blurb:
       "Los grandes resorts brasileños con curaduría de Create Travel: de Bahía a Santa Catarina, para parejas que buscan un refugio y para familias de tres generaciones.",
-    metaTitle: "Resorts de Brasil: guía autoral de las grandes direcciones",
-    metaDescription:
-      "Guía completa de los mejores resorts de Brasil: Txai Itacaré, Nannai, Kiaroa, Ponta dos Ganchos, Fasano, Cristalino Lodge y más — cuándo ir, para quién es cada uno y cómo integrarlo a un itinerario mayor por Brasil.",
-    keywords:
-      "resorts brasil, mejores resorts brasil, resort todo incluido brasil, txai itacare, nannai muro alto, ponta dos ganchos, fasano boa vista, tivoli praia do forte, resort familiar brasil, resort para parejas brasil",
-    h1: "Resorts de Brasil: la guía autoral de las grandes direcciones",
-    aiAnswer:
-      "Los grandes resorts de Brasil se dividen por perfil: refugio de pareja y diseño (Txai Itacaré, Ponta dos Ganchos, Fasano Boa Vista y Angra, Casa Turquesa), todo incluido familiar de playa (Nannai, Iberostar Bahia, Salinas Maragogi y Maceió, Vila Galé Marés, Tivoli Praia do Forte), resort de montaña (Botanique, Wish Serrano) y naturaleza pura (Cristalino Lodge, Rio Quente); la mejor época general es de abril a noviembre en el Nordeste (menos lluvia) y de diciembre a marzo en el Sur/Sudeste (verano).",
+    metaTitle: "Resorts de Brasil, Brasil: Itinerario, Mejor Época y Presupuesto",
+    metaDescription: "Viaje privado y a medida a resorts de Brasil: itinerario sugerido, mejor época y cómo llegar. Solicita un presupuesto por WhatsApp.",
+    keywords: "resorts brasil, mejores resorts brasil, resort todo incluido brasil, txai itacare, nannai muro alto, ponta dos ganchos, fasano boa vista, tivoli praia do forte, resort familiar brasil, resort para parejas brasil, resorts de Brasil tour, itinerario resorts de Brasil, cómo llegar a resorts de Brasil, mejor época resorts de Brasil",
+    h1: "Resorts de Brasil: itinerario, mejor época y cómo llegar",
+    aiAnswer: "Los grandes resorts de Brasil se dividen por perfil: refugio de pareja y diseño (Txai Itacaré, Ponta dos Ganchos, Fasano Boa Vista y Angra, Casa Turquesa), todo incluido familiar de playa (Nannai, Iberostar Bahia, Salinas Maragogi y Maceió, Vila Galé Marés, Tivoli Praia do Forte), resort de montaña (Botanique, Wish Serrano) y naturaleza pura (Cristalino Lodge, Rio Quente); la mejor época general es de abril a noviembre en el Nordeste (menos lluvia) y de diciembre a marzo en el Sur/Sudeste (verano). Create Travel diseña viajes privados y a medida a resorts de Brasil para viajeros internacionales, con guías en español, y envía un presupuesto por escrito por WhatsApp.",
     intro: [
       "'Resort' en Brasil puede significar cosas muy distintas: un refugio de veinte bungalós entre la Mata Atlántica y el mar en Itacaré, un complejo todo incluido de quinientos apartamentos en Maragogi, un hotel de encanto en la sierra paulista o un lodge de observación de fauna en el medio-oeste. Todos caben bajo la misma etiqueta — y por eso mismo la elección equivocada cuesta caro en expectativa, no solo en dinero.",
       "Esta guía organiza las grandes direcciones del país por región y por perfil: qué se vive en cada una, para quién funciona, si es todo incluido o a la carta, si sirve más a parejas o a familias, y cómo ese resort entra — o no — en un itinerario mayor por Brasil. Es la curaduría que hacemos antes de cualquier propuesta.",
@@ -761,35 +758,38 @@ export const resortsBrasilGuide: BrazilGuideLocalized = {
       ],
     },
     itinerary: {
-      heading: "Cómo integrar un resort a un itinerario mayor por Brasil",
-      intro:
-        "El resort rara vez es el viaje entero — es el capítulo de descanso dentro de un itinerario más amplio. Por eso pensamos siempre en el antes y el después.",
-      items: [
+      "heading": "Itinerario sugerido para resorts de Brasil y combinaciones en Brasil",
+      "intro": "El resort rara vez es el viaje entero — es el capítulo de descanso dentro de un itinerario más amplio. Por eso pensamos siempre en el antes y el después.",
+      "items": [
         {
-          title: "Salvador + Nordeste todo incluido — 9 a 11 días",
-          text: "Tres días de ciudad histórica en Salvador, seguidos de cinco a siete noches de resort en Praia do Forte, Sauípe o Maragogi. Formato clásico de recepción de extranjeros y de brasileños que vienen de lejos.",
+          "title": "Salvador + Nordeste todo incluido — 9 a 11 días",
+          "text": "Tres días de ciudad histórica en Salvador, seguidos de cinco a siete noches de resort en Praia do Forte, Sauípe o Maragogi. Formato clásico de recepción de extranjeros y de brasileños que vienen de lejos."
         },
         {
-          title: "Río de Janeiro + Costa Verde — 8 a 10 días",
-          text: "Ciudad, luego Paraty (Casa Turquesa) o Angra (Fasano), con tramo en barco entre islas. Itinerario compacto, sin vuelos internos.",
+          "title": "Río de Janeiro + Costa Verde — 8 a 10 días",
+          "text": "Ciudad, luego Paraty (Casa Turquesa) o Angra (Fasano), con tramo en barco entre islas. Itinerario compacto, sin vuelos internos."
         },
         {
-          title: "Amazonía + Cristalino Lodge — combinado con Pantanal o Río",
-          text: "Cristalino entra bien como capítulo de fauna dentro de un itinerario mayor que ya incluya Manaos, Pantanal o una etapa de playa — nunca aislado, por la logística aérea vía Cuiabá.",
+          "title": "Amazonía + Cristalino Lodge — combinado con Pantanal o Río",
+          "text": "Cristalino entra bien como capítulo de fauna dentro de un itinerario mayor que ya incluya Manaos, Pantanal o una etapa de playa — nunca aislado, por la logística aérea vía Cuiabá."
         },
         {
-          title: "Trancoso/Itacaré + São Paulo — 10 a 12 días",
-          text: "Ciudad y cultura en São Paulo, con escala en Fasano Boa Vista, seguidos de siete días en Txai Itacaré o Kiaroa en Bahía. Contraste entre lo urbano y el refugio de mar.",
+          "title": "Trancoso/Itacaré + São Paulo — 10 a 12 días",
+          "text": "Ciudad y cultura en São Paulo, con escala en Fasano Boa Vista, seguidos de siete días en Txai Itacaré o Kiaroa en Bahía. Contraste entre lo urbano y el refugio de mar."
         },
         {
-          title: "Sierra + playa — Campos do Jordão y litoral, 8 a 10 días",
-          text: "Cuatro noches en Botanique, con clima de montaña, seguidas de playa en el litoral norte paulista o sur de Bahía. Buen formato para quien huye del calor todo el año.",
+          "title": "Sierra + playa — Campos do Jordão y litoral, 8 a 10 días",
+          "text": "Cuatro noches en Botanique, con clima de montaña, seguidas de playa en el litoral norte paulista o sur de Bahía. Buen formato para quien huye del calor todo el año."
         },
         {
-          title: "Foz do Iguaçu + Rio Quente + Río de Janeiro — 12 días",
-          text: "Cataratas, aguas termales en familia y cierre en la ciudad maravillosa — el itinerario familiar clásico más pedido para quien tiene niños y busca variedad sin renunciar al confort.",
+          "title": "Foz do Iguaçu + Rio Quente + Río de Janeiro — 12 días",
+          "text": "Cataratas, aguas termales en familia y cierre en la ciudad maravillosa — el itinerario familiar clásico más pedido para quien tiene niños y busca variedad sin renunciar al confort."
         },
-      ],
+        {
+          "title": "Combina dos o más biomas brasileños",
+          "text": "Brasil tiene seis biomas terrestres más la zona costera y marina — siete paisajes y culturas distintos. Combina la Amazonía en Cristalino Lodge con el Pantanal, reservando tiempo para la logística aérea vía Cuiabá."
+        }
+      ]
     },
     tips: {
       heading: "Consejos prácticos que hacen la diferencia",
@@ -804,35 +804,50 @@ export const resortsBrasilGuide: BrazilGuideLocalized = {
     },
     faq: [
       {
-        q: "¿Cuál es el mejor resort todo incluido de Brasil?",
-        a: "Depende del perfil: para familias grandes, Salinas Maragogi/Maceió y Costão do Santinho entregan más estructura y actividades; para quien quiere todo incluido de estándar más refinado, Tivoli Praia do Forte, Iberostar Bahia y Vila Galé Marés equilibran mejor confort y servicio.",
+        "q": "¿Cuál es el mejor resort todo incluido de Brasil?",
+        "a": "Depende del perfil: para familias grandes, Salinas Maragogi/Maceió y Costão do Santinho entregan más estructura y actividades; para quien quiere todo incluido de estándar más refinado, Tivoli Praia do Forte, Iberostar Bahia y Vila Galé Marés equilibran mejor confort y servicio."
       },
       {
-        q: "¿Qué resort brasileño es más indicado para luna de miel?",
-        a: "Ponta dos Ganchos, Txai Itacaré y Casa Turquesa lideran nuestra lista para parejas: privacidad real, arquitectura de autor y ausencia de estructura infantil en el caso del primero.",
+        "q": "¿Qué resort brasileño es más indicado para luna de miel?",
+        "a": "Ponta dos Ganchos, Txai Itacaré y Casa Turquesa lideran nuestra lista para parejas: privacidad real, arquitectura de autor y ausencia de estructura infantil en el caso del primero."
       },
       {
-        q: "¿Existe un resort de lujo en Brasil que no sea todo incluido?",
-        a: "Sí — la mayoría de las grandes direcciones autorales brasileñas (Txai, Nannai, Kiaroa, Fasano, Casa Turquesa) trabaja por defecto en régimen a la carta o media pensión, con el todo incluido disponible como opción en algunas.",
+        "q": "¿Existe un resort de lujo en Brasil que no sea todo incluido?",
+        "a": "Sí — la mayoría de las grandes direcciones autorales brasileñas (Txai, Nannai, Kiaroa, Fasano, Casa Turquesa) trabaja por defecto en régimen a la carta o media pensión, con el todo incluido disponible como opción en algunas."
       },
       {
-        q: "¿Cuál es la mejor época para ir a un resort en el Nordeste?",
-        a: "De abril a noviembre hay menor volumen de lluvia y las piscinas naturales se forman mejor con marea baja; diciembre a febrero es temporada alta de clima excelente, aunque con mayor movimiento y reservas concurridas.",
+        "q": "¿Cuál es la mejor época para ir a un resort en el Nordeste?",
+        "a": "De abril a noviembre hay menor volumen de lluvia y las piscinas naturales se forman mejor con marea baja; diciembre a febrero es temporada alta de clima excelente, aunque con mayor movimiento y reservas concurridas."
       },
       {
-        q: "¿Se puede combinar un resort con otros destinos de Brasil en el mismo viaje?",
-        a: "Sí, y es lo que recomendamos en la mayoría de los casos: el resort funciona mejor como capítulo de descanso dentro de un itinerario que incluya una ciudad histórica, la Amazonía o el Pantanal — rara vez como el viaje entero, salvo para quien busca exclusivamente descanso.",
+        "q": "¿Se puede combinar un resort con otros destinos de Brasil en el mismo viaje?",
+        "a": "Sí, y es lo que recomendamos en la mayoría de los casos: el resort funciona mejor como capítulo de descanso dentro de un itinerario que incluya una ciudad histórica, la Amazonía o el Pantanal — rara vez como el viaje entero, salvo para quien busca exclusivamente descanso."
       },
       {
-        q: "¿Cuánto cuesta hospedarse en los grandes resorts de Brasil?",
-        a: "No publicamos tarifas: varían según categoría de alojamiento, fecha y régimen de pensión, y cambian a lo largo del año. Un consultor humano de Create Travel presenta la propuesta por escrito, con valores negociados en el momento de la consulta.",
+        "q": "¿Cuánto cuesta hospedarse en los grandes resorts de Brasil?",
+        "a": "No publicamos tarifas: varían según categoría de alojamiento, fecha y régimen de pensión, y cambian a lo largo del año. Un consultor humano de Create Travel presenta la propuesta por escrito, con valores negociados en el momento de la consulta."
       },
+      {
+        "q": "¿Necesito visado o vacunas para Brasil?",
+        "a": "Los requisitos dependen de tu nacionalidad y fechas. Consulta las fuentes consulares oficiales brasileñas antes de reservar, y las recomendaciones sanitarias oficiales y un profesional de salud del viajero sobre vacunas, incluida la fiebre amarilla cuando corresponda al itinerario."
+      },
+      {
+        "q": "¿Tendré guías en español en todas las excursiones?",
+        "a": "Sí. Create Travel organiza guías en español en todas las excursiones de tu viaje privado y a medida."
+      },
+      {
+        "q": "¿Cómo llegar a resorts de Brasil?",
+        "a": "Toma un vuelo internacional a un hub brasileño y, si hace falta, un vuelo nacional al aeropuerto de tu destino. Create Travel organiza los traslados privados."
+      },
+      {
+        "q": "¿Puedo combinar resorts de Brasil con otros biomas brasileños?",
+        "a": "Brasil tiene seis biomas terrestres más la zona costera y marina — siete paisajes y culturas distintos. Combina la Amazonía en Cristalino Lodge con el Pantanal, reservando tiempo para la logística aérea vía Cuiabá."
+      }
     ],
     cta: {
-      heading: "Elijamos su resort en Brasil",
-      subheading:
-        "Un consultor humano de Create Travel cruza perfil, época e itinerario para indicar la dirección correcta — y negocia tarifa y disponibilidad de su fecha por WhatsApp.",
-      button: "Hablar con un travel designer",
+      "heading": "Solicita tu presupuesto para resorts de Brasil",
+      "subheading": "Planifica un viaje privado y a medida con un diseñador de viajes humano. Recibe tu propuesta y presupuesto por escrito por WhatsApp.",
+      "button": "Solicitar presupuesto por WhatsApp"
     },
     readingMinutes: 13,
     publishedAt: "2026-08-11",
@@ -842,14 +857,11 @@ export const resortsBrasilGuide: BrazilGuideLocalized = {
     destinationName: "Resort del Brasile",
     blurb:
       "I grandi resort brasiliani con la curatela di Create Travel: da Bahia a Santa Catarina, per coppie in cerca di un rifugio e famiglie di tre generazioni.",
-    metaTitle: "Resort del Brasile: guida autoriale ai grandi indirizzi",
-    metaDescription:
-      "Guida completa ai migliori resort del Brasile: Txai Itacaré, Nannai, Kiaroa, Ponta dos Ganchos, Fasano, Cristalino Lodge e altri — quando andare, a chi si rivolge ognuno e come integrarlo in un itinerario più ampio in Brasile.",
-    keywords:
-      "resort brasile, migliori resort brasile, resort all inclusive brasile, txai itacare, nannai muro alto, ponta dos ganchos, fasano boa vista, tivoli praia do forte, resort per famiglie brasile, resort per coppie brasile",
-    h1: "Resort del Brasile: la guida autoriale ai grandi indirizzi",
-    aiAnswer:
-      "I grandi resort del Brasile si dividono per profilo: rifugio di coppia e design (Txai Itacaré, Ponta dos Ganchos, Fasano Boa Vista e Angra, Casa Turquesa), all-inclusive di spiaggia per famiglie (Nannai, Iberostar Bahia, Salinas Maragogi e Maceió, Vila Galé Marés, Tivoli Praia do Forte), resort di montagna (Botanique, Wish Serrano) e natura pura (Cristalino Lodge, Rio Quente); la stagione migliore in generale va da aprile a novembre nel Nordest (meno pioggia) e da dicembre a marzo nel Sud/Sudest (estate).",
+    metaTitle: "Resort in Brasile, Brasile: Itinerario, Periodo Migliore e Preventivo",
+    metaDescription: "Viaggio privato e su misura per resort in Brasile: itinerario suggerito, periodo migliore e come arrivare. Richiedi un preventivo su WhatsApp.",
+    keywords: "resort brasile, migliori resort brasile, resort all inclusive brasile, txai itacare, nannai muro alto, ponta dos ganchos, fasano boa vista, tivoli praia do forte, resort per famiglie brasile, resort per coppie brasile, resort in Brasile tour, itinerario resort in Brasile, come arrivare a resort in Brasile, periodo migliore resort in Brasile",
+    h1: "Resort in Brasile: itinerario, periodo migliore e come arrivare",
+    aiAnswer: "I grandi resort del Brasile si dividono per profilo: rifugio di coppia e design (Txai Itacaré, Ponta dos Ganchos, Fasano Boa Vista e Angra, Casa Turquesa), all-inclusive di spiaggia per famiglie (Nannai, Iberostar Bahia, Salinas Maragogi e Maceió, Vila Galé Marés, Tivoli Praia do Forte), resort di montagna (Botanique, Wish Serrano) e natura pura (Cristalino Lodge, Rio Quente); la stagione migliore in generale va da aprile a novembre nel Nordest (meno pioggia) e da dicembre a marzo nel Sud/Sudest (estate). Create Travel crea viaggi privati e su misura per resort in Brasile per viaggiatori internazionali, con guide in italiano, e invia un preventivo scritto via WhatsApp.",
     intro: [
       "'Resort' in Brasile può significare cose molto diverse: un rifugio di venti bungalow tra la Foresta Atlantica e il mare a Itacaré, un complesso all-inclusive di cinquecento appartamenti a Maragogi, un hotel di charme sulla sierra paulista o un lodge di osservazione faunistica nel Midwest. Rientrano tutti sotto la stessa etichetta — ed è proprio per questo che la scelta sbagliata costa cara in aspettative, non solo in denaro.",
       "Questa guida organizza i grandi indirizzi del paese per regione e per profilo: cosa si vive in ciascuno, a chi si rivolge, se è all-inclusive o à la carte, se serve più a coppie o famiglie, e come questo resort si inserisce — o no — in un itinerario più ampio in Brasile. È la curatela che facciamo prima di ogni proposta.",
@@ -1041,35 +1053,38 @@ export const resortsBrasilGuide: BrazilGuideLocalized = {
       ],
     },
     itinerary: {
-      heading: "Come integrare un resort in un itinerario più ampio in Brasile",
-      intro:
-        "Il resort raramente è l'intero viaggio — è il capitolo di riposo dentro un itinerario più ampio. Per questo pensiamo sempre al prima e al dopo.",
-      items: [
+      "heading": "Itinerario suggerito per resort in Brasile e combinazioni in Brasile",
+      "intro": "Il resort raramente è l'intero viaggio — è il capitolo di riposo dentro un itinerario più ampio. Per questo pensiamo sempre al prima e al dopo.",
+      "items": [
         {
-          title: "Salvador + Nordest all-inclusive — 9-11 giorni",
-          text: "Tre giorni di città storica a Salvador, seguiti da cinque-sette notti di resort a Praia do Forte, Sauípe o Maragogi. Il formato classico per visitatori stranieri e brasiliani che arrivano da lontano.",
+          "title": "Salvador + Nordest all-inclusive — 9-11 giorni",
+          "text": "Tre giorni di città storica a Salvador, seguiti da cinque-sette notti di resort a Praia do Forte, Sauípe o Maragogi. Il formato classico per visitatori stranieri e brasiliani che arrivano da lontano."
         },
         {
-          title: "Rio de Janeiro + Costa Verde — 8-10 giorni",
-          text: "Città, poi Paraty (Casa Turquesa) o Angra (Fasano), con un tratto in barca tra le isole. Itinerario compatto, senza voli interni.",
+          "title": "Rio de Janeiro + Costa Verde — 8-10 giorni",
+          "text": "Città, poi Paraty (Casa Turquesa) o Angra (Fasano), con un tratto in barca tra le isole. Itinerario compatto, senza voli interni."
         },
         {
-          title: "Amazzonia + Cristalino Lodge — combinato con Pantanal o Rio",
-          text: "Cristalino si inserisce bene come capitolo faunistico dentro un itinerario più ampio che già includa Manaus, il Pantanal o una tappa balneare — mai isolato, per la logistica aerea via Cuiabá.",
+          "title": "Amazzonia + Cristalino Lodge — combinato con Pantanal o Rio",
+          "text": "Cristalino si inserisce bene come capitolo faunistico dentro un itinerario più ampio che già includa Manaus, il Pantanal o una tappa balneare — mai isolato, per la logistica aerea via Cuiabá."
         },
         {
-          title: "Trancoso/Itacaré + San Paolo — 10-12 giorni",
-          text: "Città e cultura a San Paolo, con sosta al Fasano Boa Vista, seguiti da sette giorni a Txai Itacaré o Kiaroa a Bahia. Contrasto tra vita urbana e rifugio marino.",
+          "title": "Trancoso/Itacaré + San Paolo — 10-12 giorni",
+          "text": "Città e cultura a San Paolo, con sosta al Fasano Boa Vista, seguiti da sette giorni a Txai Itacaré o Kiaroa a Bahia. Contrasto tra vita urbana e rifugio marino."
         },
         {
-          title: "Montagna + spiaggia — Campos do Jordão e litorale, 8-10 giorni",
-          text: "Quattro notti al Botanique, con clima di montagna, seguite da spiaggia sul litorale nord paulista o sud di Bahia. Buon formato per chi fugge dal caldo tutto l'anno.",
+          "title": "Montagna + spiaggia — Campos do Jordão e litorale, 8-10 giorni",
+          "text": "Quattro notti al Botanique, con clima di montagna, seguite da spiaggia sul litorale nord paulista o sud di Bahia. Buon formato per chi fugge dal caldo tutto l'anno."
         },
         {
-          title: "Foz do Iguaçu + Rio Quente + Rio de Janeiro — 12 giorni",
-          text: "Cascate, acque termali in famiglia e chiusura nella città meravigliosa — l'itinerario familiare classico più richiesto per chi ha bambini e cerca varietà senza rinunciare al comfort.",
+          "title": "Foz do Iguaçu + Rio Quente + Rio de Janeiro — 12 giorni",
+          "text": "Cascate, acque termali in famiglia e chiusura nella città meravigliosa — l'itinerario familiare classico più richiesto per chi ha bambini e cerca varietà senza rinunciare al comfort."
         },
-      ],
+        {
+          "title": "Combina due o più biomi brasiliani",
+          "text": "Il Brasile ha sei biomi terrestri più la zona costiera e marina: sette paesaggi e culture diversi. Combina l’Amazzonia a Cristalino Lodge con il Pantanal, prevedendo tempo per i collegamenti aerei via Cuiabá."
+        }
+      ]
     },
     tips: {
       heading: "Consigli pratici che fanno la differenza",
@@ -1084,35 +1099,50 @@ export const resortsBrasilGuide: BrazilGuideLocalized = {
     },
     faq: [
       {
-        q: "Qual è il miglior resort all-inclusive del Brasile?",
-        a: "Dipende dal profilo: per famiglie numerose, Salinas Maragogi/Maceió e Costão do Santinho offrono più struttura e attività; per un all-inclusive di livello più raffinato, Tivoli Praia do Forte, Iberostar Bahia e Vila Galé Marés bilanciano meglio comfort e servizio.",
+        "q": "Qual è il miglior resort all-inclusive del Brasile?",
+        "a": "Dipende dal profilo: per famiglie numerose, Salinas Maragogi/Maceió e Costão do Santinho offrono più struttura e attività; per un all-inclusive di livello più raffinato, Tivoli Praia do Forte, Iberostar Bahia e Vila Galé Marés bilanciano meglio comfort e servizio."
       },
       {
-        q: "Quale resort brasiliano è più indicato per la luna di miele?",
-        a: "Ponta dos Ganchos, Txai Itacaré e Casa Turquesa guidano la nostra lista per le coppie: privacy reale, architettura d'autore e assenza di struttura per bambini nel caso del primo.",
+        "q": "Quale resort brasiliano è più indicato per la luna di miele?",
+        "a": "Ponta dos Ganchos, Txai Itacaré e Casa Turquesa guidano la nostra lista per le coppie: privacy reale, architettura d'autore e assenza di struttura per bambini nel caso del primo."
       },
       {
-        q: "Esiste un resort di lusso in Brasile che non sia all-inclusive?",
-        a: "Sì — la maggior parte dei grandi indirizzi autoriali brasiliani (Txai, Nannai, Kiaroa, Fasano, Casa Turquesa) opera di default in regime à la carte o mezza pensione, con l'all-inclusive disponibile come opzione in alcuni di essi.",
+        "q": "Esiste un resort di lusso in Brasile che non sia all-inclusive?",
+        "a": "Sì — la maggior parte dei grandi indirizzi autoriali brasiliani (Txai, Nannai, Kiaroa, Fasano, Casa Turquesa) opera di default in regime à la carte o mezza pensione, con l'all-inclusive disponibile come opzione in alcuni di essi."
       },
       {
-        q: "Qual è il periodo migliore per andare in un resort del Nordest?",
-        a: "Da aprile a novembre c'è meno pioggia e le piscine naturali si formano meglio con la bassa marea; dicembre-febbraio è alta stagione con clima ottimo, ma con maggiore affluenza e prenotazioni più difficili.",
+        "q": "Qual è il periodo migliore per andare in un resort del Nordest?",
+        "a": "Da aprile a novembre c'è meno pioggia e le piscine naturali si formano meglio con la bassa marea; dicembre-febbraio è alta stagione con clima ottimo, ma con maggiore affluenza e prenotazioni più difficili."
       },
       {
-        q: "Si può combinare un resort con altre destinazioni brasiliane nello stesso viaggio?",
-        a: "Sì, ed è ciò che consigliamo nella maggior parte dei casi: il resort funziona meglio come capitolo di riposo dentro un itinerario che includa anche una città storica, l'Amazzonia o il Pantanal — raramente come l'intero viaggio, a meno che non si cerchi puro riposo.",
+        "q": "Si può combinare un resort con altre destinazioni brasiliane nello stesso viaggio?",
+        "a": "Sì, ed è ciò che consigliamo nella maggior parte dei casi: il resort funziona meglio come capitolo di riposo dentro un itinerario che includa anche una città storica, l'Amazzonia o il Pantanal — raramente come l'intero viaggio, a meno che non si cerchi puro riposo."
       },
       {
-        q: "Quanto costa soggiornare nei grandi resort del Brasile?",
-        a: "Non pubblichiamo tariffe: variano per categoria di alloggio, data e trattamento, e cambiano nel corso dell'anno. Un consulente umano di Create Travel presenta la proposta per iscritto, con valori negoziati al momento della richiesta.",
+        "q": "Quanto costa soggiornare nei grandi resort del Brasile?",
+        "a": "Non pubblichiamo tariffe: variano per categoria di alloggio, data e trattamento, e cambiano nel corso dell'anno. Un consulente umano di Create Travel presenta la proposta per iscritto, con valori negoziati al momento della richiesta."
       },
+      {
+        "q": "Servono visto o vaccini per il Brasile?",
+        "a": "I requisiti dipendono dalla nazionalità e dalle date. Consulta le fonti consolari ufficiali brasiliane prima di prenotare e le indicazioni sanitarie ufficiali e un professionista di medicina dei viaggi per i vaccini, inclusa la febbre gialla quando pertinente all’itinerario."
+      },
+      {
+        "q": "Avrò guide in italiano in ogni escursione?",
+        "a": "Sì. Create Travel organizza guide in italiano in ogni escursione del tuo viaggio privato e su misura."
+      },
+      {
+        "q": "Come arrivare a resort in Brasile?",
+        "a": "Prendi un volo internazionale verso un hub brasiliano e, se necessario, un volo nazionale per l’aeroporto della destinazione. Create Travel organizza i trasferimenti privati."
+      },
+      {
+        "q": "Posso combinare resort in Brasile con altri biomi brasiliani?",
+        "a": "Il Brasile ha sei biomi terrestri più la zona costiera e marina: sette paesaggi e culture diversi. Combina l’Amazzonia a Cristalino Lodge con il Pantanal, prevedendo tempo per i collegamenti aerei via Cuiabá."
+      }
     ],
     cta: {
-      heading: "Scegliamo il vostro resort in Brasile",
-      subheading:
-        "Un consulente umano di Create Travel incrocia profilo, stagione e itinerario per indicare l'indirizzo giusto — e negozia tariffa e disponibilità delle vostre date su WhatsApp.",
-      button: "Parla con un travel designer",
+      "heading": "Richiedi il tuo preventivo per resort in Brasile",
+      "subheading": "Pianifica un viaggio privato e su misura con un travel designer umano. Ricevi la proposta e il preventivo scritto via WhatsApp.",
+      "button": "Richiedi un preventivo su WhatsApp"
     },
     readingMinutes: 13,
     publishedAt: "2026-08-11",
