@@ -269,7 +269,6 @@ for (const lang of INCOMING_EXTRA_LANGS) {
   push(`/${lang}/incoming`, 0.85, "weekly");
   push(`/${lang}`, 0.8, "weekly");
 }
-}
 
 // Landing pages de conversão — destinos do Brasil (PT + multilíngue)
 const BRASIL_LANDING_SLUGS = [
