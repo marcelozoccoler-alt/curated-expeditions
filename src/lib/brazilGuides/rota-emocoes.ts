@@ -757,14 +757,14 @@ export const rotaEmocoesGuide: BrazilGuideLocalized = {
   },
 
   de: {
-    metaTitle: "Rota das Emoções: Reiseführer zu Jeri, Delta und Lençóis",
+    metaTitle: "Rota das Emoções, Brasilien: Reiseroute, beste Reisezeit & Angebot",
     metaDescription:
-      "Kompletter Reiseführer zur Rota das Emoções zwischen Ceará, Piauí und Maranhão: beste Reisezeit Monat für Monat, charmante Lodges und echte Erlebnisse in Jericoacoara, dem Parnaíba-Delta und den Lençóis Maranhenses.",
+      "Private, maßgeschneiderte Rota das Emoções-Reise: vorgeschlagene Reiseroute, beste Reisezeit und Anreise. Fordern Sie ein Angebot per WhatsApp an.",
     keywords:
-      "rota das emocoes brasilien, jericoacoara, parnaiba delta, lencois maranhenses, nordosten brasilien reiseroute, jeri und lencois reise, luxus lodge jericoacoara, barreirinhas",
-    h1: "Rota das Emoções: Brasiliens filmreichste Küste",
+      "rota das emocoes brasilien, jericoacoara, parnaiba delta, lencois maranhenses, nordosten brasilien reiseroute, jeri und lencois reise, luxus lodge jericoacoara, barreirinhas, rota das emoções rundreise, rota das emoções reiseroute, anreise rota das emoções, beste reisezeit rota das emoções",
+    h1: "Rota das Emoções: Reiseroute, beste Reisezeit und Anreise",
     aiAnswer:
-      "Die beste Reisezeit für die Rota das Emoções — Jericoacoara, das Parnaíba-Delta und die Lençóis Maranhenses — ist Juni bis September, wenn die Dünenlagunen voll sind und der Wind Bootsausflüge im Delta begünstigt; die vollständige Route benötigt 8 bis 10 Tage.",
+      "Die beste Reisezeit für die Rota das Emoções — Jericoacoara, das Parnaíba-Delta und die Lençóis Maranhenses — ist Juni bis September, wenn die Dünenlagunen voll sind und der Wind Bootsausflüge im Delta begünstigt; die vollständige Route benötigt 8 bis 10 Tage. Create Travel plant private, maßgeschneiderte Rota das Emoções-Reisen für internationale Gäste, mit deutschsprachigen Reiseleitern, und sendet ein schriftliches Angebot per WhatsApp.",
     intro: [
       "Zwischen der Westküste von Ceará und dem östlichen Maranhão erstreckt sich eine Abfolge von Landschaften, die wie für Fotografien geschaffen scheint: wandernde Dünen, die Dörfer verschlucken, ein Flussdelta, das sich wie ein zweiter Amazonas zum Atlantik öffnet, und eine weiße Wüste, gesprenkelt mit türkisfarbenen Lagunen. Diese Abfolge tauften die Einwohner von Ceará Rota das Emoções — die Route der Emotionen — und der Name ist keine Marketing-Übertreibung, sondern eine präzise Beschreibung dessen, was man beim Durchqueren empfindet.",
       "Drei Protagonisten prägen die Route: Jericoacoara, das Dünendorf, das zur Weltlegende des Kitesurfens und der Sonnenuntergänge wurde; das Parnaíba-Delta, das einzige Delta im offenen Meer Amerikas mit unberührten Mangroven und Flussinseln; und die Lençóis Maranhenses, der Park aus weißen Dünen mit Süßwasserlagunen, die nur zu bestimmten Monaten existieren. Jedes verlangt ein eigenes Tempo, und genau dieser Kontrast macht die gesamte Route den Aufwand wert.",
@@ -874,7 +874,7 @@ export const rotaEmocoesGuide: BrazilGuideLocalized = {
       ],
     },
     itinerary: {
-      heading: "Wie man Jericoacoara, das Parnaíba-Delta und die Lençóis verbindet",
+      heading: "Vorgeschlagene Rota das Emoções-Reiseroute und Kombinationen in Brasilien",
       intro:
         "Die Logistik der Rota das Emoções erfordert sorgfältige Planung: Die Etappen zwischen den drei Zielen erfolgen über Straße und Fähre, und die Reisezeit ist Teil des Erlebnisses und sollte nicht unterschätzt werden.",
       items: [
@@ -890,6 +890,7 @@ export const rotaEmocoesGuide: BrazilGuideLocalized = {
           title: "Rota das Emoções + Fortaleza oder São Luís — 10 bis 12 Tage",
           text: "Schließt die Reiseroute mit einer puffernden Stadtnacht in den Zugangsstädten ab, essenziell, um Verspätungen aufzufangen und reibungslose Flugverbindungen zu sichern.",
         },
+        { title: "Kombinieren Sie zwei oder mehr brasilianische Biome", text: "Brasilien hat sechs Landbiome plus die Küsten- und Meereszone — sieben unterschiedliche Landschaften und Kulturen. Ergänzen Sie die Küstenroute Rota das Emoções um einen Aufenthalt im Amazonas-Regenwald und planen Sie Zeit für Inlandsverbindungen ein." },
       ],
     },
     tips: {
@@ -904,36 +905,20 @@ export const rotaEmocoesGuide: BrazilGuideLocalized = {
       ],
     },
     faq: [
-      {
-        q: "Wie viele Tage benötigt man für die vollständige Rota das Emoções?",
-        a: "Zwischen 9 und 10 Tage, gerechnet mit drei bis vier Nächten in Jericoacoara, zwei im Parnaíba-Delta und drei in Atins oder Barreirinhas für die Lençóis Maranhenses, einschließlich der Landtransfers zwischen den Etappen.",
-      },
-      {
-        q: "Wann ist die beste Zeit, um die Lagunen der Lençóis Maranhenses voll zu sehen?",
-        a: "Juni bis September, wenn der Grundwasserspiegel nach der Regenzeit seinen Höchststand erreicht. Zwischen Januar und Mai sind viele Lagunen niedrig oder trocken.",
-      },
-      {
-        q: "Ist die Route ohne privaten 4x4 möglich?",
-        a: "Ja, aber mit weniger Flexibilität. Wir empfehlen ein privates Fahrzeug mit Fahrer für die Etappen zwischen Jericoacoara, dem Parnaíba-Delta und Barreirinhas, was Wartezeiten reduziert und mehr Fotostopps ermöglicht.",
-      },
-      {
-        q: "Jericoacoara oder Lençóis Maranhenses — was bei wenig Zeit priorisieren?",
-        a: "Jericoacoara bietet ein etabliertes Dorf, Gastronomie und einen ikonischen Sonnenuntergang; die Lençóis bieten Brasiliens einzigartigste geologische Landschaft. Bei weniger als 6 Tagen empfehlen wir, eines der beiden zu wählen, statt alle drei Ziele der Route zu versuchen.",
-      },
-      {
-        q: "Wie kommt man nach Jericoacoara und zu den Lençóis Maranhenses?",
-        a: "Jericoacoara wird über die Flughäfen Fortaleza oder Jericoacoara erreicht, gefolgt von einer Straßenstrecke und 4x4-Fahrt. Die Lençóis werden über São Luís oder Barreirinhas erreicht, mit Basis in Barreirinhas oder Atins.",
-      },
-      {
-        q: "Was kostet eine Reise entlang der Rota das Emoções mit Create Travel?",
-        a: "Wir arbeiten nicht mit Listenpreisen: Das Budget hängt von Lodges, privaten Fahrzeugen und der Jahreszeit ab. Ein persönlicher Berater legt das Angebot schriftlich vor, ohne veröffentlichte Schätzungen auf der Website.",
-      },
+      { q: "Wie viele Tage benötigt man für die vollständige Rota das Emoções?", a: "Zwischen 9 und 10 Tage, gerechnet mit drei bis vier Nächten in Jericoacoara, zwei im Parnaíba-Delta und drei in Atins oder Barreirinhas für die Lençóis Maranhenses, einschließlich der Landtransfers zwischen den Etappen." },
+      { q: "Wann ist die beste Zeit, um die Lagunen der Lençóis Maranhenses voll zu sehen?", a: "Juni bis September, wenn der Grundwasserspiegel nach der Regenzeit seinen Höchststand erreicht. Zwischen Januar und Mai sind viele Lagunen niedrig oder trocken." },
+      { q: "Ist die Route ohne privaten 4x4 möglich?", a: "Ja, aber mit weniger Flexibilität. Wir empfehlen ein privates Fahrzeug mit Fahrer für die Etappen zwischen Jericoacoara, dem Parnaíba-Delta und Barreirinhas, was Wartezeiten reduziert und mehr Fotostopps ermöglicht." },
+      { q: "Jericoacoara oder Lençóis Maranhenses — was bei wenig Zeit priorisieren?", a: "Jericoacoara bietet ein etabliertes Dorf, Gastronomie und einen ikonischen Sonnenuntergang; die Lençóis bieten Brasiliens einzigartigste geologische Landschaft. Bei weniger als 6 Tagen empfehlen wir, eines der beiden zu wählen, statt alle drei Ziele der Route zu versuchen." },
+      { q: "Was kostet eine Reise entlang der Rota das Emoções mit Create Travel?", a: "Wir arbeiten nicht mit Listenpreisen: Das Budget hängt von Lodges, privaten Fahrzeugen und der Jahreszeit ab. Ein persönlicher Berater legt das Angebot schriftlich vor, ohne veröffentlichte Schätzungen auf der Website." },
+      { q: "Wie erfolgt die Anreise für meine Rota das Emoções-Reise?", a: "Nach einem internationalen Flug zu einem brasilianischen Drehkreuz fliegen Sie je nach Reiserichtung nach Fortaleza, Jericoacoara oder São Luís. Create Travel organisiert private Straßen- und Geländewagentransfers sowie die Abfolge der Fähr- und Bootsetappen." },
+      { q: "Benötige ich ein Visum oder Impfungen für Brasilien?", a: "Die Visumpflicht hängt von Ihrer Staatsangehörigkeit und Ihren Reisedaten ab. Prüfen Sie vor der Buchung die offiziellen brasilianischen Konsularinformationen. Informieren Sie sich anhand offizieller Gesundheitsempfehlungen und lassen Sie sich reisemedizinisch zu Impfungen beraten, einschließlich Gelbfieber, sofern für Ihre Route relevant." },
+      { q: "Sind deutschsprachige Reiseleiter bei jeder Exkursion verfügbar?", a: "Create Travel plant deutschsprachige Reiseleiter bei jeder Exkursion als Teil Ihrer privaten, maßgeschneiderten Reise." },
+      { q: "Kann ich Rota das Emoções mit anderen brasilianischen Biomen kombinieren?", a: "Brasilien hat sechs Landbiome plus die Küsten- und Meereszone — sieben unterschiedliche Landschaften und Kulturen. Ergänzen Sie die Küstenroute Rota das Emoções um einen Aufenthalt im Amazonas-Regenwald und planen Sie Zeit für Inlandsverbindungen ein." },
     ],
     cta: {
-      heading: "Lassen Sie uns Ihre Rota das Emoções gestalten",
-      subheading:
-        "Ein persönlicher Berater von Create Travel entwirft die richtige Verbindung zwischen Jericoacoara, dem Parnaíba-Delta und den Lençóis Maranhenses, mit Fahrzeugen, Lodges und Timing passend zu Ihrer Reise.",
-      button: "Mit einem Travel Designer sprechen",
+      heading: "Fordern Sie Ihr Rota das Emoções-Reiseangebot an",
+      subheading: "Planen Sie Ihre private, maßgeschneiderte Reise mit einem persönlichen Reisedesigner, der Ihre Reiseroute auf Ihre Termine, Interessen und Ihr Tempo abstimmt und Ihnen ein schriftliches Angebot per WhatsApp sendet.",
+      button: "Angebot per WhatsApp anfordern",
     },
     readingMinutes: 11,
     publishedAt: "2026-08-11",

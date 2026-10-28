@@ -894,14 +894,14 @@ export const rioDeJaneiroGuide: BrazilGuideLocalized = {
   },
 
   de: {
-    metaTitle: "Rio de Janeiro: Autorenguide ohne Warteschlangen, lokal kuratiert",
+    metaTitle: "Rio de Janeiro, Brasilien: Reiseroute, beste Reisezeit & Angebot",
     metaDescription:
-      "Vollständiger Guide zu Rio de Janeiro: Christusstatue und Zuckerhut ohne Warteschlange, Santa Teresa, Wanderwege, Strände, ein Favela-Besuch mit lokalem Gastgeber und Erweiterungen nach Búzios, Paraty und Angra dos Reis.",
+      "Private, maßgeschneiderte Rio de Janeiro-Reise: vorgeschlagene Reiseroute, beste Reisezeit und Anreise. Fordern Sie ein Angebot per WhatsApp an.",
     keywords:
-      "reise rio de janeiro, christusstatue ohne warteschlange, zuckerhut, santa teresa, wanderweg pedra da gavea, dois irmaos, copacabana ipanema, favela tour rio, luxusreise rio de janeiro, buzios paraty angra",
-    h1: "Rio de Janeiro: Autorenguide von Kennern der Stadt",
+      "reise rio de janeiro, christusstatue ohne warteschlange, zuckerhut, santa teresa, wanderweg pedra da gavea, dois irmaos, copacabana ipanema, favela tour rio, luxusreise rio de janeiro, buzios paraty angra, rio de janeiro rundreise, rio de janeiro reiseroute, anreise rio de janeiro, beste reisezeit rio de janeiro",
+    h1: "Rio de Janeiro: Reiseroute, beste Reisezeit und Anreise",
     aiAnswer:
-      "Die beste Reisezeit für Rio de Janeiro ist April bis Juni und August bis Oktober (weniger Regen, mildes Klima, lebendig aber nicht überfüllt); ideal sind 4 bis 5 Nächte, mit dem Flughafen Santos Dumont (SDU) für Inlandsflüge und Galeão (GIG) für internationale Ankünfte.",
+      "Die beste Reisezeit für Rio de Janeiro ist April bis Juni und August bis Oktober (weniger Regen, mildes Klima, lebendig aber nicht überfüllt); ideal sind 4 bis 5 Nächte, mit dem Flughafen Santos Dumont (SDU) für Inlandsflüge und Galeão (GIG) für internationale Ankünfte. Create Travel plant private, maßgeschneiderte Rio de Janeiro-Reisen für internationale Gäste, mit deutschsprachigen Reiseleitern, und sendet ein schriftliches Angebot per WhatsApp.",
     intro: [
       "Rio de Janeiro ist Brasiliens meistfotografierte Stadt – und gerade deshalb die am meisten missverstandene: Wer mit einer Postkarten-Checkliste anreist, kehrt mit Fotos zurück, nicht mit der Stadt. Rio offenbart sich in Schichten: der Berg, der Wald mitten im Asphalt, das Meer, die bewohnten Hügel, der Tisch, die Musik, die um sieben Uhr abends aus einem Fenster klingt.",
       "Dieser Guide entstand aus Jahren der Organisation von Ankünften in Rio für Reisende, die die Welt bereits gesehen haben und keine Geduld für Warteschlangen, generische Guides oder das Standardprogramm jeder Agentur haben. Hier steht, was wirklich funktioniert: die richtigen Uhrzeiten für Christusstatue und Zuckerhut, Wanderungen mit der passenden Intensität für jedes Alter, und wie man die Stadt verlässt, ohne den Zauber zu verlieren – Richtung Búzios, Paraty oder Angra dos Reis.",
@@ -1023,10 +1023,15 @@ export const rioDeJaneiroGuide: BrazilGuideLocalized = {
       ],
     },
     itinerary: {
-      heading: "Wie man Rio de Janeiro in eine Brasilienreise integriert",
+      heading: "Vorgeschlagene Rio de Janeiro-Reiseroute und Kombinationen in Brasilien",
       intro:
         "Rio funktioniert sehr gut als Ein- oder Ausreisepunkt für Brasilien: Der Galeão (GIG) empfängt direkte internationale Flüge, während der Santos Dumont (SDU) das Inlandsnetz mitten im Stadtzentrum bündelt.",
       items: [
+        { title: "Tag 1 — Ankunft in Rio", text: "Ankunft am Galeão (GIG), privater Transfer zum Hotel in Ipanema, Leblon oder Copacabana. Sonnenuntergang am Strand." },
+        { title: "Tag 2 — Christusstatue und Santa Teresa", text: "Vormittags Besuch der Christusstatue mit Zeitfenster, anschließend Santa Teresa und das historische Zentrum mit lokalem Reiseleiter." },
+        { title: "Tag 3 — Zuckerhut und Natur", text: "Ein Weg im Tijuca-Wald oder eine geführte Wanderung; am späten Nachmittag Seilbahnfahrt auf den Zuckerhut." },
+        { title: "Tag 4 — Freier Tag oder Verlängerung", text: "Strandzeit, Kulturbesuch oder Verlängerung nach Búzios, Paraty oder Angra dos Reis." },
+        { title: "Tag 5 — Weiterflug", text: "Weiterreise ins Pantanal, nach Amazonien, Iguazú oder nach Hause." },
         {
           title: "Rio de Janeiro + Búzios — 6 bis 7 Tage",
           text: "Drei bis vier Nächte in der Stadt und zwei bis drei in Búzios, 2,5 Autostunden entfernt, mit Wechsel von Berg und Urbanität zu sechzehn Stränden und einer raffinierten Fischerdorf-Atmosphäre.",
@@ -1047,6 +1052,7 @@ export const rioDeJaneiroGuide: BrazilGuideLocalized = {
           title: "Rio de Janeiro + Foz do Iguaçu + Bahia — 14 Tage",
           text: "Das klassische Erstlings-Brasilienprogramm: Stadt, Wasserfälle und Nordost-Küste, in drei gut verbundenen Flugetappen.",
         },
+        { title: "Kombinieren Sie zwei oder mehr brasilianische Biome", text: "Brasilien hat sechs Landbiome plus die Küsten- und Meereszone — sieben unterschiedliche Landschaften und Kulturen. Kombinieren Sie Rios Atlantischen Regenwald und Strände mit dem Pantanal sowie Amazonien oder den Iguazú-Wasserfällen." },
       ],
     },
     tips: {
@@ -1061,36 +1067,20 @@ export const rioDeJaneiroGuide: BrazilGuideLocalized = {
       ],
     },
     faq: [
-      {
-        q: "Wie viele Tage benötigt man für Rio de Janeiro?",
-        a: "Vier bis fünf Nächte erlauben es, Christusstatue, Zuckerhut, Santa Teresa, eine Wanderung und die Strände ohne Eile zu erleben. Mit weniger als drei Nächten wirkt das Programm oberflächlich.",
-      },
-      {
-        q: "Was ist die beste Reisezeit für Rio de Janeiro?",
-        a: "April bis Juni und August bis Oktober bieten die beste Balance zwischen Klima und Andrang. Dezember bis März ist heißer und konzentriert Silvester und Karneval, mit höheren Preisen und Auslastung.",
-      },
-      {
-        q: "Wie besucht man die Christusstatue ohne lange Warteschlange?",
-        a: "Wir buchen den Einlass im ersten Morgenzug oder in einem privaten Van außerhalb der Mittagsspitze, wenn Reisebusse in Massen ankommen.",
-      },
-      {
-        q: "Lohnt sich ein Favela-Besuch in Rio de Janeiro?",
-        a: "Ja, wenn er von einem Gastgeber der Gemeinde selbst geführt wird, mit Fokus auf lokale Wirtschaft und privilegierte Stadtblicke — niemals als Armuts-Schauspiel.",
-      },
-      {
-        q: "Welchen Flughafen sollte man für die Anreise nach Rio de Janeiro nutzen?",
-        a: "Der Galeão (GIG) empfängt die meisten internationalen Flüge; der Santos Dumont (SDU), 15 Minuten vom Zentrum entfernt, bündelt das Inlandsnetz und ist praktischer für alle, die bereits in Brasilien sind.",
-      },
-      {
-        q: "Was kostet eine Reise nach Rio de Janeiro mit Create Travel?",
-        a: "Wir arbeiten nicht mit Katalogpreisen: Das Budget hängt vom Hotel, der Saison und den gewählten privaten Erlebnissen ab. Ein menschlicher Berater erstellt das Angebot und legt die Werte schriftlich vor.",
-      },
+      { q: "Wie viele Tage benötigt man für Rio de Janeiro?", a: "Vier bis fünf Nächte erlauben es, Christusstatue, Zuckerhut, Santa Teresa, eine Wanderung und die Strände ohne Eile zu erleben. Mit weniger als drei Nächten wirkt das Programm oberflächlich." },
+      { q: "Was ist die beste Reisezeit für Rio de Janeiro?", a: "April bis Juni und August bis Oktober bieten die beste Balance zwischen Klima und Andrang. Dezember bis März ist heißer und konzentriert Silvester und Karneval, mit höheren Preisen und Auslastung." },
+      { q: "Wie besucht man die Christusstatue ohne lange Warteschlange?", a: "Wir buchen den Einlass im ersten Morgenzug oder in einem privaten Van außerhalb der Mittagsspitze, wenn Reisebusse in Massen ankommen." },
+      { q: "Lohnt sich ein Favela-Besuch in Rio de Janeiro?", a: "Ja, wenn er von einem Gastgeber der Gemeinde selbst geführt wird, mit Fokus auf lokale Wirtschaft und privilegierte Stadtblicke — niemals als Armuts-Schauspiel." },
+      { q: "Was kostet eine Reise nach Rio de Janeiro mit Create Travel?", a: "Wir arbeiten nicht mit Katalogpreisen: Das Budget hängt vom Hotel, der Saison und den gewählten privaten Erlebnissen ab. Ein menschlicher Berater erstellt das Angebot und legt die Werte schriftlich vor." },
+      { q: "Wie erfolgt die Anreise für meine Rio de Janeiro-Reise?", a: "Rio ist selbst ein internationales Drehkreuz: Galeão (GIG) empfängt internationale Flüge, Santos Dumont (SDU) dient Inlandsverbindungen im Stadtzentrum. Bei Anreise über ein anderes brasilianisches Drehkreuz folgt ein Inlandsflug nach Rio. Create Travel organisiert private Transfers." },
+      { q: "Benötige ich ein Visum oder Impfungen für Brasilien?", a: "Die Visumpflicht hängt von Ihrer Staatsangehörigkeit und Ihren Reisedaten ab. Prüfen Sie vor der Buchung die offiziellen brasilianischen Konsularinformationen. Informieren Sie sich anhand offizieller Gesundheitsempfehlungen und lassen Sie sich reisemedizinisch zu Impfungen beraten, einschließlich Gelbfieber, sofern für Ihre Route relevant." },
+      { q: "Sind deutschsprachige Reiseleiter bei jeder Exkursion verfügbar?", a: "Create Travel plant deutschsprachige Reiseleiter bei jeder Exkursion als Teil Ihrer privaten, maßgeschneiderten Reise." },
+      { q: "Kann ich Rio de Janeiro mit anderen brasilianischen Biomen kombinieren?", a: "Brasilien hat sechs Landbiome plus die Küsten- und Meereszone — sieben unterschiedliche Landschaften und Kulturen. Kombinieren Sie Rios Atlantischen Regenwald und Strände mit dem Pantanal sowie Amazonien oder den Iguazú-Wasserfällen." },
     ],
     cta: {
-      heading: "Lassen Sie uns Ihr Rio de Janeiro gestalten",
-      subheading:
-        "Ein menschlicher Berater von Create Travel wählt die richtigen Uhrzeiten, Viertel und Erlebnisse für Ihr Profil — ohne Warteschlangen und generische Programme.",
-      button: "Mit einem Travel Designer sprechen",
+      heading: "Fordern Sie Ihr Rio de Janeiro-Reiseangebot an",
+      subheading: "Planen Sie Ihre private, maßgeschneiderte Reise mit einem persönlichen Reisedesigner, der Ihre Reiseroute auf Ihre Termine, Interessen und Ihr Tempo abstimmt und Ihnen ein schriftliches Angebot per WhatsApp sendet.",
+      button: "Angebot per WhatsApp anfordern",
     },
     readingMinutes: 13,
     publishedAt: "2026-08-11",

@@ -865,14 +865,14 @@ export const iguazuGuide: BrazilGuideLocalized = {
   },
 
   de: {
-    metaTitle: "Iguazú-Wasserfälle: Autorenguide Brasilien und Argentinien",
+    metaTitle: "Iguazú, Brasilien: Reiseroute, beste Reisezeit & Angebot",
     metaDescription:
-      "Vollständiger Guide zu Foz do Iguaçu: brasilianische und argentinische Seite, Teufelsschlund, Vogelpark, Itaipu-Staudamm, Hubschrauberflug und Hotel im Nationalpark.",
+      "Private, maßgeschneiderte Iguazú-Reise: vorgeschlagene Reiseroute, beste Reisezeit und Anreise. Fordern Sie ein Angebot per WhatsApp an.",
     keywords:
-      "reise foz do iguacu, iguazu wasserfälle, teufelsschlund, vogelpark foz, itaipu binational, hubschrauber wasserfälle, hotel das cataratas, puerto iguazu, iguazu reise luxus",
-    h1: "Iguazú-Wasserfälle: Autorenguide zum vollständigsten Wasserfallsystem des Planeten",
+      "reise foz do iguacu, iguazu wasserfälle, teufelsschlund, vogelpark foz, itaipu binational, hubschrauber wasserfälle, hotel das cataratas, puerto iguazu, iguazu reise luxus, iguazú rundreise, iguazú reiseroute, anreise iguazú, beste reisezeit iguazú",
+    h1: "Iguazú: Reiseroute, beste Reisezeit und Anreise",
     aiAnswer:
-      "Die beste Reisezeit für die Iguazú-Wasserfälle ist April bis September (weniger Hitze, weniger Regen, noch kräftige Wassermenge); ideal sind 3 Nächte, um sowohl die brasilianische Seite (Panoramablick) als auch die argentinische Seite (Eintauchen am Teufelsschlund) zu erleben, mit dem Flughafen Foz do Iguaçu (IGU) oder Puerto Iguazú (IGR) als Einstiegspunkt.",
+      "Die beste Reisezeit für die Iguazú-Wasserfälle ist April bis September (weniger Hitze, weniger Regen, noch kräftige Wassermenge); ideal sind 3 Nächte, um sowohl die brasilianische Seite (Panoramablick) als auch die argentinische Seite (Eintauchen am Teufelsschlund) zu erleben, mit dem Flughafen Foz do Iguaçu (IGU) oder Puerto Iguazú (IGR) als Einstiegspunkt. Create Travel plant private, maßgeschneiderte Iguazú-Reisen für internationale Gäste, mit deutschsprachigen Reiseleitern, und sendet ein schriftliches Angebot per WhatsApp.",
     intro: [
       "Kein Foto wird den Iguazú-Wasserfällen gerecht. Es sind 275 einzelne Fälle, verteilt auf fast drei Kilometer Grenze zwischen Brasilien und Argentinien, mit einem Klang, den man in der Brust spürt, bevor man ihn mit den Augen sieht. Es ist einer der seltenen Orte der Welt, der jede durch Bilder geschaffene Erwartung übertrifft.",
       "Dieser Guide entstand aus Jahren der Organisation dieser Überquerung zwischen zwei Ländern für Reisende, die die Fälle in ihrer Gesamtheit erleben möchten – vom Panoramablick der brasilianischen Seite bis zum vollständigen Eintauchen am Teufelsschlund auf argentinischer Seite – ohne Zeit mit Grenzbürokratie oder schlecht geplanter Logistik zu verlieren.",
@@ -989,10 +989,14 @@ export const iguazuGuide: BrazilGuideLocalized = {
       ],
     },
     itinerary: {
-      heading: "Wie man Foz do Iguaçu in eine Brasilienreise integriert",
+      heading: "Vorgeschlagene Iguazú-Reiseroute und Kombinationen in Brasilien",
       intro:
         "Foz do Iguaçu funktioniert am besten als dreinächtige Zwischenstation zwischen zwei größeren Zielen, wobei lange Fluganschlüsse am selben Tag wie die Grenzüberquerung vermieden werden sollten.",
       items: [
+        { title: "Tag 1 — Ankunft in Foz do Iguaçu", text: "Ankunft in Foz do Iguaçu (IGU). Je nach Ankunftszeit nachmittags Panoramaweg auf der brasilianischen Seite oder Vogelpark." },
+        { title: "Tag 2 — Argentinische Seite", text: "Privater Transfer über die Grenze zum argentinischen Nationalpark: Stege am Teufelsschlund sowie obere und untere Rundwege. Reisepass erforderlich." },
+        { title: "Tag 3 — Optionale Erlebnisse", text: "Bootsfahrt nahe den Fällen, Hubschrauberflug vorbehaltlich Durchführung, Itaipu-Staudamm oder ein entspannter erneuter Besuch der brasilianischen Seite." },
+        { title: "Tag 4 — Weiterflug", text: "Weiterreise nach Rio de Janeiro, ins Pantanal, nach Amazonien oder Bonito." },
         {
           title: "Foz do Iguaçu + Rio de Janeiro — 7 bis 8 Tage",
           text: "Das klassische Paar für die erste Brasilienreise: monumentale Natur, gefolgt von Stadt und Strand, mit Direktflug zwischen Foz (IGU) und Rio (GIG oder SDU).",
@@ -1013,6 +1017,7 @@ export const iguazuGuide: BrazilGuideLocalized = {
           title: "Foz do Iguaçu + São Paulo — 5 bis 6 Tage",
           text: "Kürzeres Programm für zeitknappe Reisende: kosmopolitische, kulinarisch geprägte Stadt gefolgt von den Fällen, mit einem Flug von etwa einer Stunde vierzig Minuten.",
         },
+        { title: "Kombinieren Sie zwei oder mehr brasilianische Biome", text: "Brasilien hat sechs Landbiome plus die Küsten- und Meereszone — sieben unterschiedliche Landschaften und Kulturen. Kombinieren Sie die Iguazú-Wasserfälle im Atlantischen Regenwald mit den Feuchtgebieten des Pantanal und dem Amazonas-Regenwald." },
       ],
     },
     tips: {
@@ -1027,36 +1032,20 @@ export const iguazuGuide: BrazilGuideLocalized = {
       ],
     },
     faq: [
-      {
-        q: "Wie viele Tage benötigt man für die Iguazú-Wasserfälle?",
-        a: "Drei Nächte sind das praktische Minimum, um die brasilianische Seite, die argentinische Seite, den Vogelpark und Itaipu in Ruhe abzudecken. Zwei Nächte funktionieren nur, wenn der Fokus ausschließlich auf den Fällen liegt.",
-      },
-      {
-        q: "Was ist die beste Reisezeit für die Iguazú-Wasserfälle?",
-        a: "April bis September bietet milderes Klima und noch kräftige Wassermenge. Oktober bis März bringt mehr Wasser und eine üppigere Landschaft, aber mit intensiver Hitze und höherer Luftfeuchtigkeit.",
-      },
-      {
-        q: "Brauche ich einen Reisepass, um die argentinische Seite der Fälle zu besuchen?",
-        a: "Ja, ein gültiger Reisepass ist für die Grenzüberquerung erforderlich, auch bei einem Tagesausflug. Wir organisieren die Dokumentation und den Transport für die Überquerung im Voraus.",
-      },
-      {
-        q: "Welche Seite der Fälle ist besser, die brasilianische oder die argentinische?",
-        a: "Sie ergänzen sich: Die brasilianische Seite bietet den Panoramablick, während die argentinische Seite erlaubt, zwischen und über den Fällen zu laufen, einschließlich des oberen Aussichtspunkts am Teufelsschlund. Wir empfehlen den Besuch beider Seiten.",
-      },
-      {
-        q: "Welchen Flughafen sollte man für die Anreise nach Foz do Iguaçu nutzen?",
-        a: "Der Flughafen Foz do Iguaçu (IGU) auf brasilianischer Seite empfängt das größte Inlandsflugnetz. Der Flughafen Puerto Iguazú (IGR) in Argentinien ist eine Alternative für Ankünfte aus Buenos Aires.",
-      },
-      {
-        q: "Was kostet eine Reise nach Foz do Iguaçu mit Create Travel?",
-        a: "Wir arbeiten nicht mit Katalogpreisen: Das Budget hängt vom Hotel, der Anzahl der Nächte und den gewählten privaten Erlebnissen auf jeder Seite der Grenze ab. Ein menschlicher Berater erstellt das Angebot und legt die Werte schriftlich vor.",
-      },
+      { q: "Wie viele Tage benötigt man für die Iguazú-Wasserfälle?", a: "Drei Nächte sind das praktische Minimum, um die brasilianische Seite, die argentinische Seite, den Vogelpark und Itaipu in Ruhe abzudecken. Zwei Nächte funktionieren nur, wenn der Fokus ausschließlich auf den Fällen liegt." },
+      { q: "Was ist die beste Reisezeit für die Iguazú-Wasserfälle?", a: "April bis September bietet milderes Klima und noch kräftige Wassermenge. Oktober bis März bringt mehr Wasser und eine üppigere Landschaft, aber mit intensiver Hitze und höherer Luftfeuchtigkeit." },
+      { q: "Brauche ich einen Reisepass, um die argentinische Seite der Fälle zu besuchen?", a: "Ja, ein gültiger Reisepass ist für die Grenzüberquerung erforderlich, auch bei einem Tagesausflug. Wir organisieren die Dokumentation und den Transport für die Überquerung im Voraus." },
+      { q: "Welche Seite der Fälle ist besser, die brasilianische oder die argentinische?", a: "Sie ergänzen sich: Die brasilianische Seite bietet den Panoramablick, während die argentinische Seite erlaubt, zwischen und über den Fällen zu laufen, einschließlich des oberen Aussichtspunkts am Teufelsschlund. Wir empfehlen den Besuch beider Seiten." },
+      { q: "Was kostet eine Reise nach Foz do Iguaçu mit Create Travel?", a: "Wir arbeiten nicht mit Katalogpreisen: Das Budget hängt vom Hotel, der Anzahl der Nächte und den gewählten privaten Erlebnissen auf jeder Seite der Grenze ab. Ein menschlicher Berater erstellt das Angebot und legt die Werte schriftlich vor." },
+      { q: "Wie erfolgt die Anreise für meine Iguazú-Reise?", a: "Nach einem internationalen Flug zu einem brasilianischen Drehkreuz fliegen Sie weiter nach Foz do Iguaçu (IGU). Create Travel organisiert private Transfers und plant die Grenzübertritte für die Besuche beider Seiten." },
+      { q: "Benötige ich ein Visum oder Impfungen für Brasilien?", a: "Die Visumpflicht hängt von Ihrer Staatsangehörigkeit und Ihren Reisedaten ab. Prüfen Sie vor der Buchung die offiziellen brasilianischen Konsularinformationen. Informieren Sie sich anhand offizieller Gesundheitsempfehlungen und lassen Sie sich reisemedizinisch zu Impfungen beraten, einschließlich Gelbfieber, sofern für Ihre Route relevant." },
+      { q: "Sind deutschsprachige Reiseleiter bei jeder Exkursion verfügbar?", a: "Create Travel plant deutschsprachige Reiseleiter bei jeder Exkursion als Teil Ihrer privaten, maßgeschneiderten Reise." },
+      { q: "Kann ich Iguazú mit anderen brasilianischen Biomen kombinieren?", a: "Brasilien hat sechs Landbiome plus die Küsten- und Meereszone — sieben unterschiedliche Landschaften und Kulturen. Kombinieren Sie die Iguazú-Wasserfälle im Atlantischen Regenwald mit den Feuchtgebieten des Pantanal und dem Amazonas-Regenwald." },
     ],
     cta: {
-      heading: "Lassen Sie uns Ihre Überquerung an den Iguazú-Wasserfällen gestalten",
-      subheading:
-        "Ein menschlicher Berater von Create Travel organisiert beide Seiten der Grenze, die richtige Zeitplanung und die nötigen Dokumente — ohne Überraschungen.",
-      button: "Mit einem Travel Designer sprechen",
+      heading: "Fordern Sie Ihr Iguazú-Reiseangebot an",
+      subheading: "Planen Sie Ihre private, maßgeschneiderte Reise mit einem persönlichen Reisedesigner, der Ihre Reiseroute auf Ihre Termine, Interessen und Ihr Tempo abstimmt und Ihnen ein schriftliches Angebot per WhatsApp sendet.",
+      button: "Angebot per WhatsApp anfordern",
     },
     readingMinutes: 12,
     publishedAt: "2026-08-11",
