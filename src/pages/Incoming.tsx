@@ -15,7 +15,6 @@ import {
   isExtraLang,
 } from "@/lib/incomingExtra";
 import { INCOMING_DESTINATIONS } from "@/lib/incomingDestinations";
-import { INCOMING_DESTINO_CONTENT } from "@/lib/incomingDestinoContent";
 import {
   INCOMING_HTML_LANG,
   INCOMING_OG_LOCALE,
@@ -303,15 +302,10 @@ const Incoming = () => {
 
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
             {INCOMING_DESTINATIONS.map((d, i) => {
-              // Destinations with a dedicated incoming page link there;
-              // the rest link to their full Brazil guide (same languages).
-              const hasDetail = Boolean(INCOMING_DESTINO_CONTENT[d.slug]);
+              // Every card links to the full Brazil guide for that
+              // destination (available in all four languages).
               const CardWrapper: React.ElementType = Link;
-              const wrapperProps = {
-                to: hasDetail
-                  ? `/${lang}/incoming/${d.slug}`
-                  : `/${lang}/brazil-guides/${d.slug}`,
-              };
+              const wrapperProps = { to: `/${lang}/brazil-guides/${d.slug}` };
               return (
                 <motion.article
                   key={d.slug}

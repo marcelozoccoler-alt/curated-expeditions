@@ -2,7 +2,7 @@ import { Toaster } from "@/components/ui/toaster";
 import { Toaster as Sonner } from "@/components/ui/sonner";
 import { TooltipProvider } from "@/components/ui/tooltip";
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
-import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
+import { BrowserRouter, Routes, Route, Navigate, useParams } from "react-router-dom";
 import Index from "./pages/Index";
 import Destinos from "./pages/Destinos";
 import DestinoDetail from "./pages/DestinoDetail";
@@ -105,7 +105,12 @@ import GrupoEgitoAbril2027 from "./pages/GrupoEgitoAbril2027";
 import BrasilEstados from "./pages/BrasilEstados";
 import BrasilEstado from "./pages/BrasilEstado";
 import Incoming from "./pages/Incoming";
-import IncomingDestino from "./pages/IncomingDestino";
+// Legacy /:lang/incoming/:slug pages redirect to the Brazil guides, which
+// use the preferred layout and are translated in all four languages.
+const IncomingDestinoRedirect = () => {
+  const { lang, slug } = useParams<{ lang: string; slug: string }>();
+  return <Navigate to={`/${lang}/brazil-guides/${slug}`} replace />;
+};
 import BrasilVivo from "./pages/BrasilVivo";
 import BrasilAventura from "./pages/BrasilAventura";
 import CrieSeuGrupo from "./pages/CrieSeuGrupo";
@@ -289,7 +294,7 @@ const App = () => (
           {/* Multilingual incoming landing pages */}
           <Route path="/incoming" element={<Navigate to="/en/incoming" replace />} />
           <Route path="/:lang/incoming" element={<Incoming />} />
-          <Route path="/:lang/incoming/:slug" element={<IncomingDestino />} />
+          <Route path="/:lang/incoming/:slug" element={<IncomingDestinoRedirect />} />
           <Route path="/en" element={<Incoming />} />
           <Route path="/es" element={<Incoming />} />
           <Route path="/it" element={<Incoming />} />
