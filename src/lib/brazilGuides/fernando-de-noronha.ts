@@ -438,7 +438,7 @@ export const fernandoDeNoronhaGuide: BrazilGuideLocalized = {
   },
 
   es: {
-    metaTitle: "fernando-de-noronha, Brasil: Itinerario, Mejor Época y Presupuesto",
+    metaTitle: "Fernando de Noronha, Brasil: Itinerario, Mejor Época y Presupuesto",
     metaDescription:
       "Viaje privado y a medida: fernando-de-noronha. Itinerario sugerido, mejor época y cómo llegar. Solicita un presupuesto por WhatsApp.",
     keywords:
@@ -674,7 +674,7 @@ export const fernandoDeNoronhaGuide: BrazilGuideLocalized = {
   },
 
   it: {
-    metaTitle: "fernando-de-noronha, Brasile: Itinerario, Periodo Migliore e Preventivo",
+    metaTitle: "Fernando de Noronha, Brasile: Itinerario, Periodo Migliore e Preventivo",
     metaDescription:
       "Viaggio privato e su misura: fernando-de-noronha. Itinerario suggerito, periodo migliore e come arrivare. Richiedi un preventivo su WhatsApp.",
     keywords:
