@@ -819,14 +819,14 @@ export const jericoacoaraGuide: BrazilGuideLocalized = {
   },
 
   de: {
-    metaTitle: "Jericoacoara: Reiseführer zu Dünen, Kitesurfen & Lagunen",
+    metaTitle: "Jericoacoara, Brasilien: Reiseroute, beste Reisezeit & Angebot",
     metaDescription:
-      "Vollständiger Reiseführer zu Jericoacoara: beste Reisezeit im Monatsüberblick, Duna do Sol und Pedra Furada, die Lagunen Paraíso und Azul, Kitesurfen, Buggy-Touren, Boutique-Unterkünfte und Kombination mit einer Brasilien-Reise.",
+      "Planen Sie eine private, maßgeschneiderte Reise: Jericoacoara, vorgeschlagene Reiseroute, beste Reisezeit und Anreise. Fordern Sie ein Angebot per WhatsApp an.",
     keywords:
-      "jericoacoara reisefuehrer, beste reisezeit jericoacoara, duna do sol jeri, pedra furada, lagoa paraiso, lagoa azul jericoacoara, kitesurfen jericoacoara, buggy tour jeri, boutique hotel jericoacoara, ceara brasilien reiseroute",
-    h1: "Jericoacoara: ein Reiseführer von Menschen, die den Sonnenuntergang an der Duna do Sol dutzende Male erlebt haben",
+      "jericoacoara reisefuehrer, beste reisezeit jericoacoara, duna do sol jeri, pedra furada, lagoa paraiso, lagoa azul jericoacoara, kitesurfen jericoacoara, buggy tour jeri, boutique hotel jericoacoara, ceara brasilien reiseroute, jericoacoara rundreise, jericoacoara reiseroute, anreise jericoacoara, beste reisezeit jericoacoara",
+    h1: "Jericoacoara: Reiseroute, beste Reisezeit und Anreise",
     aiAnswer:
-      "Die beste Reisezeit für Jericoacoara ist Juli bis Januar, wenn starke Passatwinde das Kitesurfen ermöglichen und die Lagunen zwischen Juni und September noch gut gefüllt sind; ideal sind 4–5 Nächte, mit Anreise über den Flughafen Jericoacoara (JJD) oder Fortaleza (FOR) mit einem rund vierstündigen 4x4-Transfer.",
+      "Die beste Reisezeit für Jericoacoara ist Juli bis Januar, wenn starke Passatwinde das Kitesurfen ermöglichen und die Lagunen zwischen Juni und September noch gut gefüllt sind; ideal sind 4–5 Nächte, mit Anreise über den Flughafen Jericoacoara (JJD) oder Fortaleza (FOR) mit einem rund vierstündigen 4x4-Transfer. Create Travel plant private, maßgeschneiderte Jericoacoara-Reisen für internationale Gäste, mit deutschsprachigen Reiseleitern, und sendet ein schriftliches Angebot per WhatsApp.",
     intro: [
       "Jericoacoara war bis in die 1980er-Jahre ein Fischerdorf, und die zentralen Straßen sind bis heute unasphaltiert — eine Regel, die sich der Ort selbst auferlegt hat, um nicht zu einer weiteren gesichtslosen Küste zu werden. Das bedeutet Sand in den Straßen, Buggys statt Autos und ein Tempo, das zum Verlangsamen zwingt, noch bevor man den Strand erreicht.",
       "Dieser Guide entstand aus wiederholten Reisen nach Ceará, nicht aus Schreibtischrecherche. Wir zeigen, welche Monate Wind bringen, welche volle Lagunen, welche Adressen den Aufenthalt wert sind und wie sich Jeri in eine größere Reiseroute durch den Nordosten einfügen lässt, ohne den Zauber des Ortes an schlechte Logistik zu verlieren.",
@@ -943,30 +943,15 @@ export const jericoacoaraGuide: BrazilGuideLocalized = {
       ],
     },
     itinerary: {
-      heading: "Wie sich Jericoacoara in eine Brasilien-Reise einfügt",
-      intro:
-        "Jeri liegt am Ende eines unasphaltierten Straßenabschnitts, was sorgfältige Anschlussplanung erfordert — wir verbinden nie eine internationale Flugankunft direkt mit dem 4x4-Transfer.",
+      heading: "Vorgeschlagene Reiseroute: Jericoacoara und Brasilien-Kombinationen",
+      intro: "Eine private, maßgeschneiderte Reise, abgestimmt auf Ihre Reisedaten, Ihr Tempo und die örtlichen Bedingungen. Planen Sie Puffernächte bei Flugverbindungen ein.",
       items: [
-        {
-          title: "Jericoacoara + Fortaleza — 6 bis 7 Tage",
-          text: "Zwei Stadtnächte zur Akklimatisierung und für die urbane Uferpromenade, vier im Dorf. Landtransfer von rund vier Stunden oder Inlandsflug zum Flughafen von Jeri.",
-        },
-        {
-          title: "Jericoacoara + Lençóis Maranhenses — 9 bis 10 Tage",
-          text: "Zwei große Dünenlandschaften des Nordostens, verbunden per Flug über Fortaleza, São Luís oder Barreirinhas. Ideal im Zeitfenster Juni bis September, wenn beide Destinationen volle Lagunen haben.",
-        },
-        {
-          title: "Jericoacoara + Fernando de Noronha — 10 bis 12 Tage",
-          text: "Festlanddorf und ozeanischer Archipel, verbunden über Fortaleza oder Recife. Ein Kontrast zwischen Dünen und Korallenriffen in einer Reiseroute.",
-        },
-        {
-          title: "Jericoacoara + Chapada Diamantina — 10 Tage",
-          text: "Dünenküste und Wasserfall-Hochland, zwei sehr unterschiedliche Nordosten. Flugverbindung über Fortaleza und Salvador oder Lençóis (BA).",
-        },
-        {
-          title: "Jericoacoara + Amazonas — 12 bis 14 Tage",
-          text: "Dünenstrände und Regenwald in einer einzigen Brasilien-Route, verbunden über Fortaleza, Belém und Santarém oder Manaus. Erfordert sorgfältige Flugplanung, bietet aber einen seltenen Kontrast.",
-        },
+        { title: "Tag 1 — Ankunft in Jericoacoara", text: "Privater Transfer von Ihrem Ankunftsflughafen; Ankommen für vier Nächte." },
+        { title: "Tag 2 — Lagunen", text: "Erkunden Sie Lagoa do Paraíso und Lagoa Azul und stimmen Sie die Stopps auf saisonale Wasserstände ab." },
+        { title: "Tag 3 — Dünen und Dorf", text: "Unternehmen Sie einen geführten Buggy-Ausflug und lassen Sie den Nachmittag für das Dorf und den Sonnenuntergang frei." },
+        { title: "Tag 4 — Küste in Ihrem Tempo", text: "Wählen Sie einen geführten Besuch der Pedra Furada oder eine Kitesurfstunde passend zu Ihrem Können und den Bedingungen." },
+        { title: "Tag 5 — Weiterreise", text: "Privater Transfer zum Abflughafen mit angemessenen Zeitpuffern für Anschlussverbindungen." },
+        { title: "Kombinieren Sie zwei oder mehr brasilianische Biome", text: "Brasilien hat sechs Landbiome plus die Küsten- und Meereszone — sieben unterschiedliche Landschaften und Kulturen. Verbinden Sie die Küstendünen von Jericoacoara mit einem Aufenthalt im Amazonasregenwald; Flüge und Puffernächte werden auf Ihre Reisedaten abgestimmt." },
       ],
     },
     tips: {
@@ -989,10 +974,7 @@ export const jericoacoaraGuide: BrazilGuideLocalized = {
         q: "Wie viele Tage braucht man für Jericoacoara?",
         a: "Vier bis fünf Nächte ermöglichen Düne, Lagunen, eine Buggy-Tour und mindestens einen ruhigen Erholungstag. Weniger lässt die Reise angesichts der Anfahrtszeit zum Dorf gehetzt wirken.",
       },
-      {
-        q: "Wie kommt man nach Jericoacoara?",
-        a: "Über den Flughafen Jericoacoara (JJD) mit kurzem Transfer zum Dorf, oder über den Flughafen Fortaleza (FOR) mit einem rund vierstündigen 4x4-Küstentransfer inklusive Dünenabschnitt.",
-      },
+      
       {
         q: "Kann man als Anfänger Kitesurfen lernen?",
         a: "Ja. Jeri und das benachbarte Praia do Preá bündeln zertifizierte Schulen mit Kursen für alle Niveaus; die Starkwindsaison dauert von Juli bis Januar.",
@@ -1005,12 +987,15 @@ export const jericoacoaraGuide: BrazilGuideLocalized = {
         q: "Was kostet eine Reise nach Jericoacoara mit Create Travel?",
         a: "Wir arbeiten nicht mit Standardpreisen: Das Budget hängt von der gewählten Unterkunft, der Saison und der vereinbarten Route ab. Ein menschlicher Berater erstellt das Angebot und übermittelt die Werte schriftlich.",
       },
+      { q: "Wie erfolgt die Anreise aus dem Ausland?", a: "Fliegen Sie international zu einem brasilianischen Drehkreuz und anschließend nach Jericoacoara (JJD) oder Fortaleza (FOR). Create Travel organisiert private Transfers einschließlich der letzten Geländewagenetappe; die Fahrt ab Fortaleza dauert etwa vier Stunden." },
+      { q: "Benötige ich ein Visum oder Impfungen für Brasilien?", a: "Visabestimmungen hängen von Ihrer Staatsangehörigkeit und den Reisedaten ab. Prüfen Sie vor der Buchung offizielle brasilianische Konsularinformationen. Lassen Sie sich reisemedizinisch zu Standardimpfungen, Gelbfieberempfehlungen und Einreise- oder Transitvorgaben beraten und beachten Sie offizielle Gesundheitshinweise für Ihre Reiseroute." },
+      { q: "Sind bei jeder Exkursion deutschsprachige Reiseleiter verfügbar?", a: "Ja. Create Travel stellt bei jeder Exkursion Ihrer privaten, maßgeschneiderten Reise deutschsprachige Reiseleiter bereit. Tempo und Erläuterungen richten sich nach Ihren Interessen." },
+      { q: "Kann ich Jericoacoara mit anderen brasilianischen Biomen kombinieren?", a: "Brasilien hat sechs Landbiome plus die Küsten- und Meereszone — sieben unterschiedliche Landschaften und Kulturen. Verbinden Sie die Küstendünen von Jericoacoara mit einem Aufenthalt im Amazonasregenwald; Flüge und Puffernächte werden auf Ihre Reisedaten abgestimmt. Ihr Reiseplaner prüft saisonale Vereinbarkeit und Transferzeiten." },
     ],
     cta: {
-      heading: "Lassen Sie uns Ihr Jericoacoara gestalten",
-      subheading:
-        "Ein menschlicher Berater von Create Travel wählt die passende Unterkunft, das Windfenster und die Route für Ihr Profil — und kümmert sich um jeden Transfer.",
-      button: "Mit einem Travel Designer sprechen",
+      heading: "Fordern Sie Ihr Jericoacoara-Reiseangebot an",
+      subheading: "Planen Sie Ihre private, maßgeschneiderte Reise mit einem persönlichen Create Travel-Reisedesigner, der Ihre Interessen, Ihr Tempo und Ihren gewünschten Komfort berücksichtigt. Sie erhalten Ihr schriftliches Angebot per WhatsApp.",
+      button: "Angebot per WhatsApp anfordern",
     },
     readingMinutes: 12,
     publishedAt: "2026-08-11",

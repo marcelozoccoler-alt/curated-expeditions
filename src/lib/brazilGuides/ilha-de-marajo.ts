@@ -746,14 +746,14 @@ export const ilhaDeMarajoGuide: BrazilGuideLocalized = {
     destinationName: "Insel Marajó",
     blurb:
       "Die größte Fluss-Meer-Insel der Welt, mit Büffelfarmen und Flussstränden an der Mündung des Amazonas.",
-    metaTitle: "Insel Marajó: Büffel, Farmen und Strände im Pará-Guide",
+    metaTitle: "Marajó, Brasilien: Reiseroute, beste Reisezeit & Angebot",
     metaDescription:
-      "Der komplette Guide zur Insel Marajó: beste Reisezeit, Büffelfarmen, Soure und Salvaterra, marajoara-Keramik und Anreise ab Belém. Ohne Preise, mit echter Erfahrung.",
+      "Planen Sie eine private, maßgeschneiderte Reise: Marajó, vorgeschlagene Reiseroute, beste Reisezeit und Anreise. Fordern Sie ein Angebot per WhatsApp an.",
     keywords:
-      "insel marajo, marajo brasilien, buffelfarm marajo, soure salvaterra, marajoara keramik, faehre belem marajo, beste reisezeit marajo",
-    h1: "Insel Marajó: Büffel, überflutete Weiden und das authentischste Pará",
+      "insel marajo, marajo brasilien, buffelfarm marajo, soure salvaterra, marajoara keramik, faehre belem marajo, beste reisezeit marajo, marajó rundreise, marajó reiseroute, anreise marajó, beste reisezeit marajó",
+    h1: "Marajó: Reiseroute, beste Reisezeit und Anreise",
     aiAnswer:
-      "Die beste Reisezeit für die Insel Marajó ist zwischen Juli und Dezember, der Trockenzeit, wenn die überfluteten Weiden zurückgehen und Feldwege zu Farmen und Flussstränden freigeben; die Überfahrt startet in Belém am Hafen Icoaraci nach Camará, gefolgt von einer Stunde Fahrt nach Soure.",
+      "Die beste Reisezeit für die Insel Marajó ist zwischen Juli und Dezember, der Trockenzeit, wenn die überfluteten Weiden zurückgehen und Feldwege zu Farmen und Flussstränden freigeben; die Überfahrt startet in Belém am Hafen Icoaraci nach Camará, gefolgt von einer Stunde Fahrt nach Soure. Create Travel plant private, maßgeschneiderte Marajó-Reisen für internationale Gäste, mit deutschsprachigen Reiseleitern, und sendet ein schriftliches Angebot per WhatsApp.",
     intro: [
       "Marajó ist die größte Fluss-Meer-Insel der Welt — größer als die Schweiz — entstanden dort, wo der Amazonas auf den Atlantik trifft und Süß- und Salzwasser an einem einzigen Horizont vermischt. Sie ist auch eine Welt für sich innerhalb Parás: Weiden, die im Rhythmus der Regenfälle überfluten und trocknen, Büffelfarmen, die vor über einem Jahrhundert das Rind ersetzten, und Flussstrand-Dörfer, die stehengeblieben scheinen.",
       "Dies ist kein Resort-Ziel. Es ist ein Ziel aus Feldwegen, Bachwasser und gebratenem Fisch am Flussufer. Wer diese Authentizität sucht — ohne auf punktuellen Komfort in guten Pousadas zu verzichten — findet in Marajó ein Pará, das kaum ein Ausländer kennt.",
@@ -853,22 +853,14 @@ export const ilhaDeMarajoGuide: BrazilGuideLocalized = {
       ],
     },
     itinerary: {
-      heading: "Wie man Marajó in eine Pará-Route einbaut",
-      intro:
-        "Marajó funktioniert am besten als Erweiterung eines Aufenthalts in Belém, niemals als isoliertes Ziel ohne Amazonas-Kontext.",
+      heading: "Vorgeschlagene Reiseroute: Marajó und Brasilien-Kombinationen",
+      intro: "Eine private, maßgeschneiderte Reise, abgestimmt auf Ihre Reisedaten, Ihr Tempo und die örtlichen Bedingungen. Planen Sie Puffernächte bei Flugverbindungen ein.",
       items: [
-        {
-          title: "Belém + Marajó — 4 bis 5 Tage",
-          text: "Zwei Tage in Belém (Ver-o-Peso-Markt, Estação das Docas), gefolgt von der Überfahrt nach Marajó mit zwei bis drei Nächten zwischen Soure und Salvaterra.",
-        },
-        {
-          title: "Marajó + Amazonas (Santarém/Alter do Chão) — 8 bis 10 Tage",
-          text: "Verbindet Marajós überflutete Weiden mit den Süßwasserstränden des Tapajós, verbunden per Inlandsflug über Belém.",
-        },
-        {
-          title: "Marajó + Lençóis Maranhenses — 8 Tage",
-          text: "Zwei einzigartige Landschaften der brasilianischen Nordküste, verbunden durch einen Flug nach São Luís.",
-        },
+        { title: "Tag 1 — Belém nach Soure", text: "Überfahrt von Icoaraci nach Camará, anschließend Weiterfahrt nach Soure. Ankommen zur ersten von drei Inselnächten." },
+        { title: "Tag 2 — Büffelfarm und regionale Küche", text: "Besuchen Sie nach vorheriger Absprache eine Büffelfarm und entdecken Sie Marajó-Käse und lokalen Açaí." },
+        { title: "Tag 3 — Salvaterra und Flussstrände", text: "Erkunden Sie Salvaterra und die Flussstrände in aller Ruhe, mit Zeit für Marajoara-Keramik." },
+        { title: "Tag 4 — Rückkehr nach Belém", text: "Rückfahrt über Camará und Icoaraci, mit Zeitpuffer vor Weiterflügen." },
+        { title: "Kombinieren Sie zwei oder mehr brasilianische Biome", text: "Brasilien hat sechs Landbiome plus die Küsten- und Meereszone — sieben unterschiedliche Landschaften und Kulturen. Verbinden Sie Marajó im Amazonasbiom mit der Dünenküste der Lençóis Maranhenses und planen Sie Zeit für die Verbindung über São Luís ein." },
       ],
     },
     tips: {
@@ -883,10 +875,7 @@ export const ilhaDeMarajoGuide: BrazilGuideLocalized = {
       ],
     },
     faq: [
-      {
-        q: "Wie kommt man zur Insel Marajó?",
-        a: "Von Belém aus über den Hafen Icoaraci per Fähre oder Schnellboot zum Hafen Camará, gefolgt von etwa einer Stunde Fahrt nach Soure. Zu bestimmten Zeiten gibt es auch Regionalflüge direkt nach Soure.",
-      },
+      
       {
         q: "Wann ist die beste Zeit, um Marajós Büffel zu sehen?",
         a: "Farmen können ganzjährig besucht werden, aber die Trockenzeit von Juli bis Dezember erleichtert den Zugang zu den Weidegebieten und Ausritten.",
@@ -907,12 +896,15 @@ export const ilhaDeMarajoGuide: BrazilGuideLocalized = {
         q: "Passt Marajó gut zu einer Amazonas-Reise?",
         a: "Sehr gut, als Erweiterung ab Belém, die eine ländliche, kulturelle Seite Parás zeigt, die das Regenwald-Erlebnis ergänzt.",
       },
+      { q: "Wie erfolgt die Anreise aus dem Ausland?", a: "Fliegen Sie international zu einem brasilianischen Drehkreuz und anschließend nach Belém. Vom Hafen Icoaraci fahren Sie per Fähre oder Schnellboot nach Camará und weiter nach Soure. Create Travel organisiert private Straßentransfers rund um die Überfahrt." },
+      { q: "Benötige ich ein Visum oder Impfungen für Brasilien?", a: "Visabestimmungen hängen von Ihrer Staatsangehörigkeit und den Reisedaten ab. Prüfen Sie vor der Buchung offizielle brasilianische Konsularinformationen. Lassen Sie sich reisemedizinisch zu Standardimpfungen, Gelbfieberempfehlungen und Einreise- oder Transitvorgaben beraten und beachten Sie offizielle Gesundheitshinweise für Ihre Reiseroute." },
+      { q: "Sind bei jeder Exkursion deutschsprachige Reiseleiter verfügbar?", a: "Ja. Create Travel stellt bei jeder Exkursion Ihrer privaten, maßgeschneiderten Reise deutschsprachige Reiseleiter bereit. Tempo und Erläuterungen richten sich nach Ihren Interessen." },
+      { q: "Kann ich Marajó mit anderen brasilianischen Biomen kombinieren?", a: "Brasilien hat sechs Landbiome plus die Küsten- und Meereszone — sieben unterschiedliche Landschaften und Kulturen. Verbinden Sie Marajó im Amazonasbiom mit der Dünenküste der Lençóis Maranhenses und planen Sie Zeit für die Verbindung über São Luís ein. Ihr Reiseplaner prüft saisonale Vereinbarkeit und Transferzeiten." },
     ],
     cta: {
-      heading: "Lassen Sie uns Ihre Marajó-Reise gestalten",
-      subheading:
-        "Ein menschlicher Berater von Create Travel organisiert die richtigen Farmen, Überfahrten und Pousadas für Ihre Pará-Route.",
-      button: "Mit einem Travel Designer sprechen",
+      heading: "Fordern Sie Ihr Marajó-Reiseangebot an",
+      subheading: "Planen Sie Ihre private, maßgeschneiderte Reise mit einem persönlichen Create Travel-Reisedesigner, der Ihre Interessen, Ihr Tempo und Ihren gewünschten Komfort berücksichtigt. Sie erhalten Ihr schriftliches Angebot per WhatsApp.",
+      button: "Angebot per WhatsApp anfordern",
     },
     readingMinutes: 9,
     publishedAt: "2026-08-11",
