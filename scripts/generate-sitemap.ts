@@ -254,22 +254,13 @@ for (const p of pacotes) push(`/pacote/${p.slug}`, 0.9, "monthly");
 
 
 
-// Multilingual incoming landing pages (target foreigners searching Brazil)
+// Multilingual incoming landing pages (target foreigners searching Brazil).
+// Destination detail URLs /incoming/:slug redirect to /brazil-guides/:slug,
+// so only the hub pages are listed here.
 const INCOMING_LANGS = ["en", "es", "it", "de"] as const;
-const INCOMING_DESTINO_SLUGS = [
-  "amazon",
-  "pantanal",
-  "lencois-maranhenses",
-  "rio-de-janeiro",
-  "bonito",
-  "iguazu",
-  "bahia",
-] as const;
 for (const lang of INCOMING_LANGS) {
   push(`/${lang}/incoming`, 0.9, "weekly");
   push(`/${lang}`, 0.85, "weekly");
-  for (const s of INCOMING_DESTINO_SLUGS) {
-    push(`/${lang}/incoming/${s}`, 0.85, "monthly");
 }
 
 // Novos mercados de origem: Incoming traduzido (conteúdo de destino em EN)
@@ -277,10 +268,6 @@ const INCOMING_EXTRA_LANGS = ["ja", "ko", "zh", "ar", "he"] as const;
 for (const lang of INCOMING_EXTRA_LANGS) {
   push(`/${lang}/incoming`, 0.85, "weekly");
   push(`/${lang}`, 0.8, "weekly");
-  for (const s of INCOMING_DESTINO_SLUGS) {
-    push(`/${lang}/incoming/${s}`, 0.8, "monthly");
-  }
-}
 }
 
 // Landing pages de conversão — destinos do Brasil (PT + multilíngue)
