@@ -215,14 +215,14 @@ export const brasilAventuraGuide: BrazilGuideLocalized = {
     destinationName: "Brazil Adventure",
     blurb:
       "A special guide to Brazil's most demanding landscapes: the Pati Valley and Seven Lakes Crossing in Chapada Diamantina, Serra Fina and Pico dos Marins in the Mantiqueira range, Mount Roraima, rafting in Brotas, canyoning in Veadeiros, diving in Noronha, kitesurfing in Ceará and horseback riding in the Pantanal — always with premium logistics.",
-    metaTitle: "Brazil Adventure: treks, rafting and expeditions with premium logistics",
+    metaTitle: "Brazil Adventure: Itineraries, Best Time & Private Quote",
     metaDescription:
-      "A curated guide to adventure in Brazil: Pati Valley, Seven Lakes Crossing, Serra Fina, Pico dos Marins, Mount Roraima, rafting in Brotas and Jacaré-Pepira, canyoning, diving in Noronha, Bonito, kitesurfing, the Estrada Real and the Pantanal — physical demand and trail support explained.",
+      "Private tailor-made Brazil adventure trips: itinerary, best time and how to get there, planned with a travel designer. Request a quote on WhatsApp.",
     keywords:
-      "brazil adventure, pati valley trek, seven lakes crossing chapada diamantina, serra fina mantiqueira, pico dos marins, mount roraima, rafting brotas, canyoning veadeiros, diving fernando de noronha, bonito snorkelling, kitesurf ceara, estrada real cycling, pantanal horseback riding, jalapao canoeing",
-    h1: "Brazil Adventure: real expeditions, with comfort where it matters",
+      "brazil adventure, pati valley trek, seven lakes crossing chapada diamantina, serra fina mantiqueira, pico dos marins, mount roraima, rafting brotas, canyoning veadeiros, diving fernando de noronha, bonito snorkelling, kitesurf ceara, estrada real cycling, pantanal horseback riding, jalapao canoeing, brazil adventure tour, brazil adventure itinerary, how to get to brazil adventure, best time brazil adventure",
+    h1: "Brazil adventure: itinerary, best time and how to get there",
     aiAnswer:
-      "Brazil's top adventure expeditions include the Pati Valley trek and Seven Lakes Crossing in Chapada Diamantina (highly demanding), Serra Fina and Pico dos Marins in the Mantiqueira range, Mount Roraima on the Venezuelan border, rafting in Brotas and on the Jacaré-Pepira river, canyoning in Veadeiros and Aparados da Serra, diving in Noronha, snorkelling in Bonito, kitesurfing on Ceará's coast, cycling along the Estrada Real, horseback riding in the Pantanal and canoeing in Jalapão — all achievable with logistical support, a trail cook and dedicated transfers.",
+      "Brazil's top adventure expeditions include the Pati Valley trek and Seven Lakes Crossing in Chapada Diamantina (highly demanding), Serra Fina and Pico dos Marins in the Mantiqueira range, Mount Roraima on the Venezuelan border, rafting in Brotas and on the Jacaré-Pepira river, canyoning in Veadeiros and Aparados da Serra, diving in Noronha, snorkelling in Bonito, kitesurfing on Ceará's coast, cycling along the Estrada Real, horseback riding in the Pantanal and canoeing in Jalapão — all achievable with logistical support, a trail cook and dedicated transfers. Create Travel designs private, tailor-made Brazil adventure trips for international travellers, with English-speaking guides, and sends a written quote via WhatsApp.",
     intro: [
       "There is a Brazil that cannot be seen from a lodge window: it must be walked, pedalled, swum or ridden through. It is the country of Chapada Diamantina's cliffs, the Mantiqueira range's icy peaks, the planet's oldest tepui on the Venezuelan border, whitewater rivers in São Paulo, and waters of perfect visibility in Bonito and Noronha.",
       "This guide gathers the country's most relevant expeditions — each rated by real physical demand, without embellishment — and shows how to turn effort into a high-standard experience: mule or 4x4 support, a trail cook, certified mountain guides, and genuinely comfortable lodging before and after each crossing.",
@@ -368,6 +368,7 @@ export const brasilAventuraGuide: BrazilGuideLocalized = {
           title: "Active Central-West — 9 days",
           text: "Horseback riding in the Pantanal followed by canoeing in Jalapão, two biomes and two adventure paces in one trip, with regional flights and 4x4 support between them.",
         },
+        { title: "Combine two or more Brazilian biomes", text: "Brazil has six land biomes plus the coastal and marine zone — seven distinct landscapes and cultures. Pair Pantanal horseback riding with canoeing in the Cerrado landscapes of Jalapão." },
       ],
     },
     tips: {
@@ -406,11 +407,15 @@ export const brasilAventuraGuide: BrazilGuideLocalized = {
         q: "What is the best time for kitesurfing in Ceará?",
         a: "From July to December, when the trade winds blow with the greatest consistency and strength along the Jericoacoara, Cumbuco and Preá coastline.",
       },
+      { q: "How do I get to Brazil adventure?", a: "Start with an international flight to a Brazilian hub, then a domestic connection as needed. Choose the local airport for your main expedition, such as Boa Vista for the Roraima chapter, then continue with the appropriate expedition transfers. Create Travel arranges private transfers; confirm current flight schedules before booking." },
+      { q: "Do I need a visa or vaccines for Brazil?", a: "Visa requirements depend on your passport and travel dates. Check official Brazilian consular sources before booking. Ask a travel-health professional about routine and destination-specific vaccines, including yellow fever advice, and consult official health guidance for your itinerary." },
+      { q: "Are English-speaking guides available?", a: "Yes. Create Travel provides English-speaking guides on every excursion, with activities adapted to your interests and pace." },
+      { q: "Can I combine Brazil adventure with other Brazilian biomes?", a: "Yes. Brazil has six land biomes plus the coastal and marine zone — seven distinct landscapes and cultures. Pair Pantanal horseback riding with canoeing in the Cerrado landscapes of Jalapão. Your travel designer allows time for transfers and checks seasonal compatibility." },
     ],
     cta: {
-      heading: "Let's design your Brazil Adventure expedition",
-      subheading: "A human consultant at Create Travel calibrates demand level, trail support and recovery lodging for every stage.",
-      button: "Talk to a travel designer",
+      heading: "Request your Brazil adventure trip quote",
+      subheading: "Plan a private, tailor-made journey with a human travel designer, shaped around your interests, pace and preferred travel dates.",
+      button: "Request a quote on WhatsApp",
     },
     readingMinutes: 13,
     publishedAt: "2026-08-11",

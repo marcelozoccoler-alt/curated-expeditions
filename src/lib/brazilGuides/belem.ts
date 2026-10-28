@@ -189,14 +189,14 @@ export const belemGuide: BrazilGuideLocalized = {
     destinationName: "Belém",
     blurb:
       "Pará's capital where the Amazon rainforest meets the Atlantic — a centuries-old market, açaí and riverside gastronomy, and the world's largest Catholic procession.",
-    metaTitle: "Belém, Brazil Guide: Ver-o-Peso, Círio & Amazonian Cuisine",
+    metaTitle: "Belém, Brazil: Itinerary, Best Time & Quote",
     metaDescription:
-      "A complete guide to Belém, Pará: when to go, Ver-o-Peso market, Estação das Docas, Combu Island, the Círio de Nazaré procession, and where to eat and stay at the gateway to the Amazon. No prices, just field notes.",
+      "Private tailor-made Belém trips: itinerary, best time and how to get there, planned with a travel designer. Request a quote on WhatsApp.",
     keywords:
-      "belem brazil, things to do in belem, ver-o-peso market, circio de nazare, combu island, amazonian food belem, where to stay in belem, feliz lusitania",
-    h1: "Belém: the gateway to the Amazon on the banks of the Guamá River",
+      "belem brazil, things to do in belem, ver-o-peso market, circio de nazare, combu island, amazonian food belem, where to stay in belem, feliz lusitania, belém tour, belém itinerary, how to get to belém, best time belém",
+    h1: "Belém: itinerary, best time and how to get there",
     aiAnswer:
-      "The best time to visit Belém is between June and November, the drier season, with special note of the second Sunday of October, when the Círio de Nazaré takes place — the world's largest Catholic procession, gathering more than a million people through the city's streets.",
+      "The best time to visit Belém is between June and November, the drier season, with special note of the second Sunday of October, when the Círio de Nazaré takes place — the world's largest Catholic procession, gathering more than a million people through the city's streets. Create Travel designs private, tailor-made Belém trips for international travellers, with English-speaking guides, and sends a written quote via WhatsApp.",
     intro: [
       "Belém is not just the gateway to the Amazon — it is a city that carries, on every corner, the blend of river, forest and Portuguese baroque. Founded in 1616 on the shores of Guajará Bay, it preserves in the Cidade Velha district one of the best-conserved colonial ensembles in northern Brazil, while Ver-o-Peso, Latin America's largest open-air market, pulses before dawn with freshwater fish, Amazonian herbs and the unmistakable scent of fresh açaí.",
       "It is also a city with its own rhythm: the two o'clock rain arrives as punctual as a clock, riverside dwellers from Combu Island paddle to downtown in minutes, and faith takes over in October during the planet's largest Catholic procession. For travelers seeking an urban, sophisticated and genuine Amazon — before or after venturing into the forest — Belém delivers layers few Brazilian capitals can match.",
@@ -300,10 +300,13 @@ export const belemGuide: BrazilGuideLocalized = {
       ],
     },
     itinerary: {
-      heading: "How to fit Belém into an Amazon itinerary",
-      intro:
-        "Belém works both as a starting point and as the closing chapter of a broader Amazonian journey.",
+      heading: "Suggested Belém itinerary and Brazil combinations",
+      intro: "A private, tailor-made starting point, adapted to your pace, seasonal conditions and connection times.",
       items: [
+        { title: "Day 1 — Arrival and waterfront", text: "Settle into Belém and spend the afternoon at Estação das Docas." },
+        { title: "Day 2 — Historic Belém", text: "Visit Ver-o-Peso at dawn, then Feliz Lusitânia and Forte do Presépio, with time for Amazonian cuisine." },
+        { title: "Day 3 — Combu Island", text: "Cross from Porto do Souza for a day of riverside food and forest scenery." },
+        { title: "Day 4 — Nazaré and departure", text: "Visit the Basílica de Nazaré or Mangal das Garças as flight times allow, departing after three nights." },
         {
           title: "Essential Belém — 2 to 3 days",
           text: "Ver-o-Peso at dawn, Feliz Lusitânia and Forte do Presépio, an afternoon at Estação das Docas, a full day on Combu Island, and a visit to the Basílica de Nazaré and Mangal das Garças.",
@@ -320,6 +323,7 @@ export const belemGuide: BrazilGuideLocalized = {
           title: "Belém + Algodoal — 4 to 5 days",
           text: "A drive to Marudá followed by a boat crossing to the car-free village of Algodoal, ideal for ocean beaches and dunes after days in the city.",
         },
+        { title: "Combine two or more Brazilian biomes", text: "Brazil has six land biomes plus the coastal and marine zone — seven distinct landscapes and cultures. Combine Amazonian Belém with the coastal and marine landscapes of Algodoal." },
       ],
     },
     tips: {
@@ -358,12 +362,15 @@ export const belemGuide: BrazilGuideLocalized = {
         q: "Where can you find authentic Amazonian cuisine in Belém?",
         a: "Casa do Saulo, Remanso do Bosque, Lá em Casa and Point do Açaí are reference points for dishes such as duck in tucupi, maniçoba, tacacá and açaí served in its traditional, savory form alongside fish.",
       },
+      { q: "How do I get to Belém?", a: "Start with an international flight to a Brazilian hub, then a domestic connection as needed. Continue to Belém airport, then take a private transfer to your city hotel. Create Travel arranges private transfers; confirm current flight schedules before booking." },
+      { q: "Do I need a visa or vaccines for Brazil?", a: "Visa requirements depend on your passport and travel dates. Check official Brazilian consular sources before booking. Ask a travel-health professional about routine and destination-specific vaccines, including yellow fever advice, and consult official health guidance for your itinerary." },
+      { q: "Are English-speaking guides available?", a: "Yes. Create Travel provides English-speaking guides on every excursion, with activities adapted to your interests and pace." },
+      { q: "Can I combine Belém with other Brazilian biomes?", a: "Yes. Brazil has six land biomes plus the coastal and marine zone — seven distinct landscapes and cultures. Combine Amazonian Belém with the coastal and marine landscapes of Algodoal. Your travel designer allows time for transfers and checks seasonal compatibility." },
     ],
     cta: {
-      heading: "Let's design your trip to Belém",
-      subheading:
-        "A human Create Travel consultant arranges the right accommodation, gastronomy and Amazonian connections for your Pará itinerary.",
-      button: "Talk to a travel designer",
+      heading: "Request your Belém trip quote",
+      subheading: "Plan a private, tailor-made journey with a human travel designer, shaped around your interests, pace and preferred travel dates.",
+      button: "Request a quote on WhatsApp",
     },
     readingMinutes: 10,
     publishedAt: "2026-08-11",

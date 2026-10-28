@@ -200,14 +200,14 @@ export const chapadaDiamantinaGuide: BrazilGuideLocalized = {
   },
 
   en: {
-    metaTitle: "Chapada Diamantina, Brazil: Itinerary & Best Time to Visit",
+    metaTitle: "Chapada Diamantina, Brazil: Itinerary, Best Time & Quote",
     metaDescription:
-      "Plan 5–7 days in Chapada Diamantina, Brazil: hiking, Fumaça waterfall, cave pools, where to stay and how to get there. Tailor-made trips with Create Travel.",
+      "Private tailor-made Chapada Diamantina trips: itinerary, best time and how to get there, planned with a travel designer. Request a quote on WhatsApp.",
     keywords:
-      "chapada diamantina brazil, vale do pati, cachoeira da fumaça, poço encantado, poço azul, lençois bahia, vale do capao, chapada diamantina trekking, best time chapada diamantina, chapada diamantina luxury itinerary",
-    h1: "Chapada Diamantina, Brazil: a guide to hiking, waterfalls and cave pools",
+      "chapada diamantina brazil, vale do pati, cachoeira da fumaça, poço encantado, poço azul, lençois bahia, vale do capao, chapada diamantina trekking, best time chapada diamantina, chapada diamantina luxury itinerary, chapada diamantina tour, chapada diamantina itinerary, how to get to chapada diamantina, best time chapada diamantina",
+    h1: "Chapada Diamantina: itinerary, best time and how to get there",
     aiAnswer:
-      "Chapada Diamantina is a mountain region in Bahia, Brazil. Plan 5 to 7 days to combine viewpoints, waterfalls and cave pools, using Lençóis or Vale do Capão as a base. A multi-day Vale do Pati trek is an optional, more demanding itinerary. April to September is a useful planning window, but rainfall, waterfall flow and trail conditions vary. Consider Salvador (SSA) or Lençóis (LEC) for arrival, checking flights and onward transfers for your dates.",
+      "Chapada Diamantina is a mountain region in Bahia, Brazil. Plan 5 to 7 days to combine viewpoints, waterfalls and cave pools, using Lençóis or Vale do Capão as a base. A multi-day Vale do Pati trek is an optional, more demanding itinerary. April to September is a useful planning window, but rainfall, waterfall flow and trail conditions vary. Consider Salvador (SSA) or Lençóis (LEC) for arrival, checking flights and onward transfers for your dates. Create Travel designs private, tailor-made Chapada Diamantina trips for international travellers, with English-speaking guides, and sends a written quote via WhatsApp.",
     intro: [
       "Chapada Diamantina is a plateau rising over 1,500 metres in the heart of Bahia, where ancient quartzite mountains hold hidden valleys, crystal-clear rivers and caves with lakes that look sculpted by light. It was a 19th-century diamond mining region; today it is one of Brazil's most complete trekking territories, moving from dry cerrado to humid highland wetland within a few kilometres.",
       "Start with the kind of trip you want: day outings from a comfortable base, or a multi-day trek with simple overnight stays. This guide separates those choices and explains the seasonal trade-offs, transport and walking demands. Create Travel can tailor the route, guides and accommodation to your pace; you do not need to complete the Vale do Pati crossing to enjoy the region.",
@@ -324,10 +324,15 @@ export const chapadaDiamantinaGuide: BrazilGuideLocalized = {
       ],
     },
     itinerary: {
-      heading: "How to fit Chapada Diamantina into a wider Brazil itinerary",
-      intro:
-        "Salvador is a useful gateway for a trip combining Bahia's coast and mountains; Lençóis airport is another option when flights match your dates. Compare the road transfer with available flight schedules and allow time between connections. The suggested durations below are planning examples, not fixed packages.",
+      heading: "Suggested Chapada Diamantina itinerary and Brazil combinations",
+      intro: "A private, tailor-made starting point, adapted to your pace, seasonal conditions and connection times.",
       items: [
+        { title: "Day 1 — Arrive in Lençóis", text: "Transfer to your base and discuss trail conditions and hiking experience with your guide." },
+        { title: "Day 2 — Viewpoints and shorter walks", text: "Begin with an introductory walking day around Lençóis, adapting distance to your fitness." },
+        { title: "Day 3 — Fumaça waterfall", text: "Plan a guided Fumaça outing if fitness, weather and access permit; choose a gentler alternative if needed." },
+        { title: "Day 4 — Cave pools", text: "Visit Poço Encantado or Poço Azul, subject to access rules and seasonal light conditions, allowing for road transfers." },
+        { title: "Day 5 — Flexible nature day", text: "Use a final day for waterfalls or viewpoints selected with your guide. A Vale do Pati crossing needs a separate multi-day allocation." },
+        { title: "Day 6 — Departure", text: "Depart after five nights, allowing generous connection time via Salvador or Lençóis." },
         {
           title: "Chapada Diamantina + Salvador — 8 to 9 days",
           text: "Five days of trails and pools followed by three days in the historic centre, Bahian dining and urban beaches. The contrast between mountains and a colonial city works well for international travellers.",
@@ -348,6 +353,7 @@ export const chapadaDiamantinaGuide: BrazilGuideLocalized = {
           title: "Chapada Diamantina + Pantanal — 12 to 14 days",
           text: "Two radically different trekking and wildlife-watching biomes, connected by flight via São Paulo or Brasília.",
         },
+        { title: "Combine two or more Brazilian biomes", text: "Brazil has six land biomes plus the coastal and marine zone — seven distinct landscapes and cultures. Pair Chapada Diamantina’s inland landscapes with Bahia’s coastal and marine zone at Praia do Forte." },
       ],
     },
     tips: {
@@ -376,7 +382,7 @@ export const chapadaDiamantinaGuide: BrazilGuideLocalized = {
       },
       {
         q: "How do you get to Chapada Diamantina?",
-        a: "Consider flying into Salvador (SSA) and continuing by road, or using Lençóis airport (LEC) if its current flights suit your dates. Confirm the operating schedule, road-transfer time and connection margins before buying tickets.",
+        a: "Start with an international flight to a Brazilian hub, then a domestic connection as needed. Continue to Salvador (SSA), then travel by road, or use Lençóis (LEC) when current flights suit your dates; allow generous connection margins. Create Travel arranges private transfers; confirm current flight schedules before booking.",
       },
       {
         q: "Can you visit Poço Azul and Poço Encantado on the same day?",
@@ -386,12 +392,14 @@ export const chapadaDiamantinaGuide: BrazilGuideLocalized = {
         q: "How much does a trip to Chapada Diamantina with Create Travel cost?",
         a: "The price depends on dates, number of travellers, accommodation, transfers and guided activities. Send those details, your arrival city and preferred walking pace to Create Travel. Your written proposal should specify the services included and any optional activities before you book.",
       },
+      { q: "Do I need a visa or vaccines for Brazil?", a: "Visa requirements depend on your passport and travel dates. Check official Brazilian consular sources before booking. Ask a travel-health professional about routine and destination-specific vaccines, including yellow fever advice, and consult official health guidance for your itinerary." },
+      { q: "Are English-speaking guides available?", a: "Yes. Create Travel provides English-speaking guides on every excursion, with activities adapted to your interests and pace." },
+      { q: "Can I combine Chapada Diamantina with other Brazilian biomes?", a: "Yes. Brazil has six land biomes plus the coastal and marine zone — seven distinct landscapes and cultures. Pair Chapada Diamantina’s inland landscapes with Bahia’s coastal and marine zone at Praia do Forte. Your travel designer allows time for transfers and checks seasonal compatibility." },
     ],
     cta: {
-      heading: "Let's design your Chapada Diamantina",
-      subheading:
-        "A Create Travel consultant chooses the right trails, guides and season for your profile — and manages every leg of the journey.",
-      button: "Talk to a travel designer",
+      heading: "Request your Chapada Diamantina trip quote",
+      subheading: "Plan a private, tailor-made journey with a human travel designer, shaped around your interests, pace and preferred travel dates.",
+      button: "Request a quote on WhatsApp",
     },
     readingMinutes: 13,
     publishedAt: "2026-08-11",

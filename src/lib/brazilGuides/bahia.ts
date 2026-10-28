@@ -189,14 +189,14 @@ export const bahiaGuide: BrazilGuideLocalized = {
   },
 
   en: {
-    metaTitle: "Bahia Brazil Guide: Salvador, Chapada, Trancoso & Maraú",
+    metaTitle: "Bahia, Brazil: Itinerary, Best Time & Quote",
     metaDescription:
-      "A curated guide to Bahia for discerning travelers: best time month by month, historic Salvador, Chapada Diamantina, Trancoso, Costa do Sauípe and Península de Maraú, upscale addresses and combined itineraries.",
+      "Private tailor-made Bahia trips: itinerary, best time and how to get there, planned with a travel designer. Request a quote on WhatsApp.",
     keywords:
-      "bahia brazil luxury travel, best time to visit bahia, trancoso hotel, chapada diamantina itinerary, peninsula de marau, costa do sauipe, salvador pelourinho, bahia brazil itinerary",
-    h1: "Bahia: a curated guide from a team that has covered its whole coast",
+      "bahia brazil luxury travel, best time to visit bahia, trancoso hotel, chapada diamantina itinerary, peninsula de marau, costa do sauipe, salvador pelourinho, bahia brazil itinerary, bahia tour, bahia itinerary, how to get to bahia, best time bahia",
+    h1: "Bahia: itinerary, best time and how to get there",
     aiAnswer:
-      "The best time to visit Bahia is September to March, with drier days and calmer seas, though the coast works year-round; the ideal itinerary pairs 3 nights in Salvador with 3 in Trancoso or Maraú, plus 3–4 in Chapada Diamantina for nature-focused travelers.",
+      "The best time to visit Bahia is September to March, with drier days and calmer seas, though the coast works year-round; the ideal itinerary pairs 3 nights in Salvador with 3 in Trancoso or Maraú, plus 3–4 in Chapada Diamantina for nature-focused travelers. Create Travel designs private, tailor-made Bahia trips for international travellers, with English-speaking guides, and sends a written quote via WhatsApp.",
     intro: [
       "Bahia holds three different Brazils inside one state: baroque, Afro-Atlantic Salvador; the white-sand southern coast between Trancoso and the Península de Maraú; and the highland sertão of canyons and turquoise pools that is Chapada Diamantina. Few destinations in the country combine such cultural density, nature and hotel sophistication within short flights of each other.",
       "This guide comes from trips taken, not research done online. It exists to separate what truly matters from what is only photogenic: where Bahian architecture genuinely deserves a stop, which beach delivers the silence a 40+ traveler seeks, and how vibrant, sometimes loud Salvador balances against days of full decompression on the southern coast.",
@@ -305,10 +305,12 @@ export const bahiaGuide: BrazilGuideLocalized = {
       ],
     },
     itinerary: {
-      heading: "How to combine Bahia into a Brazil itinerary",
-      intro:
-        "Bahia works very well alone or as a chapter of a larger Brazil trip — the secret is not trying to see everything in too few days.",
+      heading: "Suggested Bahia itinerary and Brazil combinations",
+      intro: "A private, tailor-made starting point, adapted to your pace, seasonal conditions and connection times.",
       items: [
+        { title: "Days 1–3 — Salvador", text: "Spend three nights exploring historic Salvador, Pelourinho and Bahian food, with time to rest after arrival." },
+        { title: "Days 4–6 — Trancoso or Maraú", text: "Choose one beach base for three nights: Trancoso for village life and dining, or Maraú for a quieter coastal stay." },
+        { title: "Day 7 — Departure or mountain extension", text: "Depart after six nights, or allow three to four additional nights for Chapada Diamantina rather than rushing the mountains." },
         {
           title: "Salvador + Trancoso — 8 to 10 days",
           text: "Three nights of historic city and culture, five of beach and design. The best-selling itinerary for a first trip to Bahia.",
@@ -325,6 +327,7 @@ export const bahiaGuide: BrazilGuideLocalized = {
           title: "Bahia + Rio de Janeiro — 10 to 12 days",
           text: "The marvelous city followed by the Bahian southern coast; short, direct flight connection between the two destinations.",
         },
+        { title: "Combine two or more Brazilian biomes", text: "Brazil has six land biomes plus the coastal and marine zone — seven distinct landscapes and cultures. Pair the Bahian coast with the Pantanal for coastal culture and wetland wildlife." },
       ],
     },
     tips: {
@@ -363,12 +366,15 @@ export const bahiaGuide: BrazilGuideLocalized = {
         q: "How much does a trip to Bahia with Create Travel cost?",
         a: "We do not work with off-the-shelf pricing: the budget depends on combined destinations, accommodation category and season. A human consultant builds the proposal and presents figures in writing.",
       },
+      { q: "How do I get to Bahia?", a: "Start with an international flight to a Brazilian hub, then a domestic connection as needed. Use Salvador as an arrival gateway, then continue by private transfer or a suitable domestic connection for your chosen beach or mountain base. Create Travel arranges private transfers; confirm current flight schedules before booking." },
+      { q: "Do I need a visa or vaccines for Brazil?", a: "Visa requirements depend on your passport and travel dates. Check official Brazilian consular sources before booking. Ask a travel-health professional about routine and destination-specific vaccines, including yellow fever advice, and consult official health guidance for your itinerary." },
+      { q: "Are English-speaking guides available?", a: "Yes. Create Travel provides English-speaking guides on every excursion, with activities adapted to your interests and pace." },
+      { q: "Can I combine Bahia with other Brazilian biomes?", a: "Yes. Brazil has six land biomes plus the coastal and marine zone — seven distinct landscapes and cultures. Pair the Bahian coast with the Pantanal for coastal culture and wetland wildlife. Your travel designer allows time for transfers and checks seasonal compatibility." },
     ],
     cta: {
-      heading: "Let's design your Bahia",
-      subheading:
-        "A human consultant from Create Travel combines Salvador, coast and Chapada Diamantina at the right pace for your profile.",
-      button: "Talk to a travel designer",
+      heading: "Request your Bahia trip quote",
+      subheading: "Plan a private, tailor-made journey with a human travel designer, shaped around your interests, pace and preferred travel dates.",
+      button: "Request a quote on WhatsApp",
     },
     readingMinutes: 12,
     publishedAt: "2026-08-11",

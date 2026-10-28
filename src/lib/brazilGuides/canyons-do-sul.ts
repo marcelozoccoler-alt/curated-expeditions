@@ -185,14 +185,14 @@ export const canyonsDoSulGuide: BrazilGuideLocalized = {
     destinationName: "Canyons do Sul",
     blurb:
       "Sheer walls over 700 metres deep, araucaria forests and winter frost at Brazil's southern edge — Aparados da Serra and Serra Geral, between Rio Grande do Sul and Santa Catarina.",
-    metaTitle: "Canyons do Sul, Brazil: Itaimbezinho, Fortaleza & Cambará do Sul",
+    metaTitle: "Canyons do Sul, Brazil: Itinerary, Best Time & Quote",
     metaDescription:
-      "A curated guide to southern Brazil's canyons: Aparados da Serra National Park (Itaimbezinho), Serra Geral National Park (Fortaleza, Malacara), Cambará do Sul and Praia Grande — when to go, trails and where to stay.",
+      "Private tailor-made Canyons do Sul trips: itinerary, best time and how to get there, planned with a travel designer. Request a quote on WhatsApp.",
     keywords:
-      "canyons do sul brazil, aparados da serra, itaimbezinho canyon, serra geral national park, canyon fortaleza, canyon malacara, cambara do sul, praia grande sc, southern brazil canyons",
-    h1: "Canyons do Sul: Itaimbezinho, Fortaleza and the araucaria plateau",
+      "canyons do sul brazil, aparados da serra, itaimbezinho canyon, serra geral national park, canyon fortaleza, canyon malacara, cambara do sul, praia grande sc, southern brazil canyons, canyons do sul tour, canyons do sul itinerary, how to get to canyons do sul, best time canyons do sul",
+    h1: "Canyons do Sul: itinerary, best time and how to get there",
     aiAnswer:
-      "The Canyons do Sul bring together Aparados da Serra National Park (Itaimbezinho canyon) and Serra Geral National Park (Fortaleza and Malacara canyons), on the border between Rio Grande do Sul and Santa Catarina, based out of Cambará do Sul and Praia Grande; the best time to visit is April to October, with winter (June to August) bringing frost, dense fog and, occasionally, snow at the highest points.",
+      "The Canyons do Sul bring together Aparados da Serra National Park (Itaimbezinho canyon) and Serra Geral National Park (Fortaleza and Malacara canyons), on the border between Rio Grande do Sul and Santa Catarina, based out of Cambará do Sul and Praia Grande; the best time to visit is April to October, with winter (June to August) bringing frost, dense fog and, occasionally, snow at the highest points. Create Travel designs private, tailor-made Canyons do Sul trips for international travellers, with English-speaking guides, and sends a written quote via WhatsApp.",
     intro: [
       "Atop the southern Brazilian plateau, where araucaria pines cut into the sky and winter mornings turn frost-white, the land splits into gorges up to 720 metres deep. These are the Canyons do Sul: sheer volcanic-rock walls carved by rivers that still run far below, past waterfalls that plunge straight into the void. It is a landscape that feels almost European — which is exactly why it still surprises those who have never heard of it.",
       "This guide follows the axis formed by Aparados da Serra National Park, home to the Itaimbezinho canyon, and Serra Geral National Park, home to the Fortaleza and Malacara canyons — two neighbouring parks, separately managed, sharing the same plateau between Cambará do Sul (RS) and Praia Grande (SC). This is not a beach or vineyard itinerary: it is one of altitude, silence, and light that reshapes the canyon walls hour by hour.",
@@ -296,10 +296,14 @@ export const canyonsDoSulGuide: BrazilGuideLocalized = {
       ],
     },
     itinerary: {
-      heading: "How to combine the Canyons do Sul with a wider Brazil itinerary",
-      intro:
-        "The region pairs naturally with Gramado, Canela and the Serra Gaúcha, and can be crossed, within a longer trip, with the Xingó canyons in the Northeast as a scenic contrast.",
+      heading: "Suggested Canyons do Sul itinerary and Brazil combinations",
+      intro: "A private, tailor-made starting point, adapted to your pace, seasonal conditions and connection times.",
       items: [
+        { title: "Day 1 — Arrive in Cambará do Sul", text: "Arrive via Porto Alegre and transfer to Cambará do Sul; allow a quiet afternoon to settle in." },
+        { title: "Day 2 — Itaimbezinho", text: "Explore the lookouts and trails of Aparados da Serra at a pace suited to your mobility and current conditions." },
+        { title: "Day 3 — Fortaleza", text: "Dedicate the day to Serra Geral National Park, subject to visibility and trail access." },
+        { title: "Day 4 — Flexible canyon day", text: "Keep a day for weather changes or a Malacara outing with your guide; avoid canyon-floor routes after rain." },
+        { title: "Day 5 — Departure", text: "Return to Porto Alegre after four nights, or continue to the Santa Catarina coast." },
         {
           title: "Serra Gaúcha + Canyons do Sul — 6 to 8 days",
           text: "Three to four nights in Gramado and Canela, followed by two to three days in Cambará do Sul dedicated to Itaimbezinho and Fortaleza.",
@@ -312,6 +316,7 @@ export const canyonsDoSulGuide: BrazilGuideLocalized = {
           title: "Brazil in two climates: Canyons do Sul and Xingó — 12 days",
           text: "For travellers who want to compare the country's extreme geology and climate: cold walls covered in araucaria in the south, navigable limestone canyons under strong sun on the São Francisco River.",
         },
+        { title: "Combine two or more Brazilian biomes", text: "Brazil has six land biomes plus the coastal and marine zone — seven distinct landscapes and cultures. Pair the Atlantic Forest highlands with Santa Catarina’s coastal and marine zone." },
       ],
     },
     tips: {
@@ -350,12 +355,15 @@ export const canyonsDoSulGuide: BrazilGuideLocalized = {
         q: "How much does a trip to the Canyons do Sul with Create Travel cost?",
         a: "We do not work with off-the-shelf pricing: the budget depends on the lodging, number of nights and season. A human consultant presents a written proposal — no estimates on the website.",
       },
+      { q: "How do I get to Canyons do Sul?", a: "Start with an international flight to a Brazilian hub, then a domestic connection as needed. Continue to Porto Alegre airport, then travel by private road transfer to Cambará do Sul, about three hours away. Create Travel arranges private transfers; confirm current flight schedules before booking." },
+      { q: "Do I need a visa or vaccines for Brazil?", a: "Visa requirements depend on your passport and travel dates. Check official Brazilian consular sources before booking. Ask a travel-health professional about routine and destination-specific vaccines, including yellow fever advice, and consult official health guidance for your itinerary." },
+      { q: "Are English-speaking guides available?", a: "Yes. Create Travel provides English-speaking guides on every excursion, with activities adapted to your interests and pace." },
+      { q: "Can I combine Canyons do Sul with other Brazilian biomes?", a: "Yes. Brazil has six land biomes plus the coastal and marine zone — seven distinct landscapes and cultures. Pair the Atlantic Forest highlands with Santa Catarina’s coastal and marine zone. Your travel designer allows time for transfers and checks seasonal compatibility." },
     ],
     cta: {
-      heading: "Let's design your trip to the Canyons do Sul",
-      subheading:
-        "A human consultant at Create Travel chooses the right base between Cambará do Sul and Praia Grande for your canyon itinerary.",
-      button: "Talk to a travel designer",
+      heading: "Request your Canyons do Sul trip quote",
+      subheading: "Plan a private, tailor-made journey with a human travel designer, shaped around your interests, pace and preferred travel dates.",
+      button: "Request a quote on WhatsApp",
     },
     readingMinutes: 10,
     publishedAt: "2026-08-11",

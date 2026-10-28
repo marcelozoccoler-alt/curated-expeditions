@@ -96,11 +96,11 @@ export const conjugadoCostasNordesteGuide: BrazilGuideLocalized = {
   en: {
     destinationName: "Northeast Coasts",
     blurb: "A conjugated 13-night route across Ceará, Maranhão and Bahia: Jericoacoara, Lençóis Maranhenses and the Coqueiros and Dendê coasts.",
-    metaTitle: "Northeast Coasts: 13-Night Itinerary | Create Travel",
-    metaDescription: "An editorial guide to the conjugated route Jericoacoara, Lençóis Maranhenses, Rota das Emoções and Bahia (Praia do Forte and Maraú/Boipeba): best season, flights and crossings.",
-    keywords: "jericoacoara lençóis maranhenses itinerary, northeast brazil coast route, rota das emoções, praia do forte itinerary, maraú boipeba itinerary, bahia ceará maranhão trip",
-    h1: "Northeast Coasts: the conjugated route from Jericoacoara to Boipeba",
-    aiAnswer: "The conjugated Northeast Coasts route links Jericoacoara and Preá (Ceará), Lençóis Maranhenses and the Rota das Emoções (Maranhão-Piauí) and Bahia (Costa dos Coqueiros and Costa do Dendê) over roughly 13 nights, between July and November, connected by flights via Fortaleza, Jericoacoara (JJD), São Luís and Salvador, with 4x4 transfers and boat crossings linking the inland legs.",
+    metaTitle: "Northeast Coasts, Brazil: Itinerary, Best Time & Quote",
+    metaDescription: "Private tailor-made Northeast Coasts trip: suggested itinerary, best time and how to get there. Request a quote on WhatsApp.",
+    keywords: "jericoacoara lençóis maranhenses itinerary, northeast brazil coast route, rota das emoções, praia do forte itinerary, maraú boipeba itinerary, bahia ceará maranhão trip, northeast coasts tour, northeast coasts itinerary, how to get to northeast coasts, best time northeast coasts",
+    h1: "Northeast Coasts: itinerary, best time and how to get there",
+    aiAnswer: "The conjugated Northeast Coasts route links Jericoacoara and Preá (Ceará), Lençóis Maranhenses and the Rota das Emoções (Maranhão-Piauí) and Bahia (Costa dos Coqueiros and Costa do Dendê) over roughly 13 nights, between July and November, connected by flights via Fortaleza, Jericoacoara (JJD), São Luís and Salvador, with 4x4 transfers and boat crossings linking the inland legs. Create Travel designs private, tailor-made Northeast Coasts trips for international travellers, with English-speaking guides, and sends a written quote via WhatsApp.",
     intro: [
       "Few combinations reveal Brazil's coastal diversity as well as this one: from the shifting dunes and steady winds of Jericoacoara to the turquoise lagoons of Lençóis Maranhenses, through to the warm waters and Afro-Bahian heritage of the Costa dos Coqueiros and Costa do Dendê. These are three distinct Northeasts, joined by a thread of sand, wind and sea.",
       "This guide comes from experience linking these three legs in a single trip of roughly 13 nights, respecting the real logistics of regional flights, small airports like Jericoacoara's, and the 4x4 and boat crossings that are part of the route — never an obstacle, always part of the narrative.",
@@ -155,6 +155,7 @@ export const conjugadoCostasNordesteGuide: BrazilGuideLocalized = {
         { title: "Days 5–8 — Lençóis Maranhenses and Rota das Emoções", text: "4x4 transfer along the Rota das Emoções to Barreirinhas or Atins, crossing the Parnaíba Delta by boat, or a flight to São Luís with an overland connection. Four nights for lagoons, dunes and the meeting of river and sea." },
         { title: "Days 9–13 — Bahia: Costa dos Coqueiros and Costa do Dendê", text: "Flight from São Luís to Salvador with a connection, transfer to Praia do Forte (about 1h) for two nights, followed by an overland and boat crossing to the Maraú Peninsula or Boipeba for the final three nights." },
         { title: "Return", text: "Boat and/or overland transfer back to Salvador for the departure flight, closing the route through the same air axis used to enter." },
+        { title: "Combine two or more Brazilian biomes", text: "Brazil has six land biomes plus the coastal and marine zone — seven distinct landscapes and cultures. Pair this coastal journey with the Amazon for rainforest and river life after dunes and sea. Your travel designer can allow for travel days and seasonal differences." },
       ],
     },
     tips: {
@@ -169,6 +170,11 @@ export const conjugadoCostasNordesteGuide: BrazilGuideLocalized = {
       ],
     },
     faq: [
+      { q: "Do I need a visa or vaccinations for Brazil?", a: "Visa requirements depend on your nationality and travel dates. Check official Brazilian consular and immigration sources before booking. Consult a travel-health professional and official health guidance about routine vaccinations, yellow fever advice and any entry requirements for your route." },
+      { q: "Are English-speaking guides available?", a: "Create Travel provides English-speaking guides on every excursion, with private planning tailored to your interests and preferred pace." },
+      { q: "How do international travellers get to Northeast Coasts?", a: "Fly internationally to a Brazilian hub, then connect to Fortaleza or Jericoacoara for the first leg. São Luís and Salvador serve the later stages. Private road, 4x4 and boat transfers are arranged to suit the itinerary." },
+      { q: "Can I combine Northeast Coasts with other Brazilian biomes?", a: "Yes. Brazil has six land biomes plus the coastal and marine zone — seven distinct landscapes and cultures. Pair this coastal journey with the Amazon for rainforest and river life after dunes and sea. We tailor the sequence to seasonal conditions and realistic transfer times." },
+
       { q: "How many nights are ideal for the Northeast Coasts route?", a: "Thirteen nights is the ideal balance: 4 in Jericoacoara and Preá, 4 in Lençóis Maranhenses and the Rota das Emoções, and 5 in Bahia between Praia do Forte and Maraú/Boipeba." },
       { q: "What's the best season for this route?", a: "July to November, when winds favor Jericoacoara, Lençóis Maranhenses lagoons hold good volume, and Bahia's sea is calmer." },
       { q: "How do you get to Jericoacoara?", a: "Via Jericoacoara airport (JJD), with regional flights from Fortaleza, or by an overland transfer of about 4 to 5 hours from the state capital." },
@@ -177,9 +183,9 @@ export const conjugadoCostasNordesteGuide: BrazilGuideLocalized = {
       { q: "Is this route comfortable for travelers over 60?", a: "It's feasible with a good disposition for boat and road legs; we recommend better-structured lodging in each block and a more unhurried pace between crossings." },
     ],
     cta: {
-      heading: "Let's design your Northeast Coasts route",
-      subheading: "A human consultant at Create Travel arranges regional flights, 4x4 transfers and boat crossings for a smooth trip across Ceará, Maranhão and Bahia.",
-      button: "Talk to a travel designer",
+      heading: "Request your Northeast Coasts trip quote",
+      subheading: "Plan a private, tailor-made journey with a human travel designer, with the route, stays and pace shaped around you. Receive your written proposal via WhatsApp.",
+      button: "Request a quote on WhatsApp",
     },
     readingMinutes: 11,
     publishedAt: "2026-08-11",
