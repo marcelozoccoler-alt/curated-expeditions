@@ -805,14 +805,11 @@ export const floraDoBrasilGuide: BrazilGuideLocalized = {
     destinationName: "Brasiliens Flora",
     blurb:
       "Eine sinnliche Reise durch Brasiliens Blütezeiten: Immortellen und Vellozien des Cerrado, Ipê-Bäume im August, Riesen des Atlantischen Regenwaldes, Amazonas-Seerosen und eine blühende Caatinga.",
-    metaTitle: "Brasiliens Flora: Blütezeiten und wo man sie sieht",
-    metaDescription:
-      "Ein kuratierter Guide zur brasilianischen Flora: wann und wo man Ipê-Blüten, Cerrado-Immortellen, Riesenseerosen, Araukarienwälder und die blühende Caatinga sieht, Biom für Biom.",
-    keywords:
-      "brasilianische flora, ipê blüte, cerrado immortellen, victoria regia amazonas, araukarienwald brasilien, caatinga blüte, atlantischer regenwald brasilien, orchideen brasilien, botanische reise brasilien",
-    h1: "Brasiliens Flora: ein Land, das in Wellen blüht, Biom für Biom",
-    aiAnswer:
-      "Die besten Zeitfenster für Brasiliens Flora sind Mai bis September im Cerrado (Immortellen und Vellozien), August–September für Ipê-Blüten landesweit, Dezember–März für Amazonas-Riesenseerosen und Januar–April für die blühende Caatinga nach den ersten Regenfällen.",
+    metaTitle: "Brasiliens Flora, Brasilien: Reiseroute, beste Reisezeit & Angebot",
+    metaDescription: "Private, maßgeschneiderte Reise: Brasiliens Flora. Entdecken Sie eine vorgeschlagene Reiseroute, die beste Reisezeit und Hinweise zur Anreise. Fordern Sie ein Angebot per WhatsApp an.",
+    keywords: "brasilianische flora, ipê blüte, cerrado immortellen, victoria regia amazonas, araukarienwald brasilien, caatinga blüte, atlantischer regenwald brasilien, orchideen brasilien, botanische reise brasilien, brasiliens flora rundreise, brasiliens flora reiseroute, anreise brasiliens flora, beste reisezeit brasiliens flora",
+    h1: "Brasiliens Flora: Reiseroute, beste Reisezeit und Anreise",
+    aiAnswer: "Die besten Zeitfenster für Brasiliens Flora sind Mai bis September im Cerrado (Immortellen und Vellozien), August–September für Ipê-Blüten landesweit, Dezember–März für Amazonas-Riesenseerosen und Januar–April für die blühende Caatinga nach den ersten Regenfällen. Create Travel plant private, maßgeschneiderte Brasiliens Flora-Reisen für internationale Gäste, mit deutschsprachigen Reiseleitern, und sendet ein schriftliches Angebot per WhatsApp.",
     intro: [
       "Brasilien beherbergt sechs kontinentale Biome und eine der artenreichsten Floren der Welt — über 46.000 katalogisierte Pflanzenarten, viele davon endemisch. Es ist nicht eine Flora, sondern viele, jede mit ihrer eigenen Uhr, ihrer eigenen Blütezeit, ihrer Landschaft, die nur in diesem Monat, auf diesem Plateau, entlang dieses Bachs existiert.",
       "Dieser Guide entstand aus Reisen, die eigens unternommen wurden, um Pflanzen blühen zu sehen — nicht im Vorbeigehen fotografiert, sondern gezielt gesucht, mit botanischem Führer, am richtigen Tag. Hier steht, wo und wann jede Blüte stattfindet, und wie man daraus eine Reiseroute ohne Glückssache macht.",
@@ -937,6 +934,10 @@ export const floraDoBrasilGuide: BrazilGuideLocalized = {
           title: "Blühende Caatinga — 5 Tage (Januar bis April)",
           text: "Boa Nova und Vale do Catimbau, direkt nach den ersten Regenfällen, mit Führern, die auf Flora und endemische Vögel spezialisiert sind.",
         },
+        {
+          title: "Kombinieren Sie zwei oder mehr brasilianische Biome",
+          text: "Brasilien hat sechs Landbiome — Amazonas, Atlantischer Regenwald, Cerrado, Caatinga, Pantanal und Pampa — plus die Küsten- und Meereszone: sieben unterschiedliche Landschaften und Kulturen. Verbinden Sie botanische Wanderungen im Cerrado mit einem Aufenthalt bei den Amazonas-Seerosen und richten Sie die Termine nach den regionalen Blütezeiten aus. Wir stimmen die Reihenfolge auf die saisonalen Bedingungen ab und planen Zeit für Transfers ein.",
+        },
       ],
     },
     tips: {
@@ -975,11 +976,15 @@ export const floraDoBrasilGuide: BrazilGuideLocalized = {
         q: "Braucht man einen spezialisierten Führer für diese Reisen?",
         a: "Sehr empfehlenswert: lokale botanische Führer kennen den genauen Blütenkalender jeder Art, der sich je nach Regenverlauf jährlich verschiebt.",
       },
+      { q: "Benötige ich ein Visum oder Impfungen für Brasilien?", a: "Die Visumpflicht hängt von Ihrer Staatsangehörigkeit ab und kann sich ändern. Prüfen Sie vor der Buchung offizielle brasilianische Konsular- und Einreiseinformationen. Lassen Sie sich frühzeitig reisemedizinisch zu Routineimpfungen, Gelbfieber und regionalen Vorsichtsmaßnahmen beraten und beachten Sie offizielle Gesundheitshinweise." },
+      { q: "Sind deutschsprachige Reiseleiter bei jeder Exkursion verfügbar?", a: "Ja. Create Travel stellt im Rahmen Ihrer privaten, maßgeschneiderten Reiseroute deutschsprachige Reiseleiter bei jeder Exkursion bereit." },
+      { q: "Wie erfolgt die Anreise aus dem Ausland?", a: "Fliegen Sie international zu einem brasilianischen Drehkreuz und weiter zum regionalen Flughafen Ihrer botanischen Reiseregion. Manaus dient als Zugang zu den Amazonas-Optionen. Create Travel organisiert private Transfers zu Ihrer Unterkunft oder zum Einschiffungsort." },
+      { q: "Kann ich Brasiliens Flora mit anderen brasilianischen Biomen kombinieren?", a: "Ja. Brasilien hat sechs Landbiome plus die Küsten- und Meereszone — sieben unterschiedliche Landschaften und Kulturen. Verbinden Sie botanische Wanderungen im Cerrado mit einem Aufenthalt bei den Amazonas-Seerosen und richten Sie die Termine nach den regionalen Blütezeiten aus. Ihr Travel Designer prüft die saisonale Vereinbarkeit und plant realistische Reisetage zwischen den Regionen ein." },
     ],
     cta: {
-      heading: "Lassen Sie uns Ihre Reise durch Brasiliens Flora gestalten",
-      subheading: "Ein menschlicher Berater von Create Travel kalibriert die Route nach der richtigen Blütesaison, Biom für Biom.",
-      button: "Mit einem Travel Designer sprechen",
+      heading: "Fordern Sie Ihr Brasiliens Flora-Reiseangebot an",
+      subheading: "Planen Sie Ihre private, maßgeschneiderte Reise mit einem persönlichen Travel Designer, abgestimmt auf Ihre Interessen, Ihr Tempo und Ihre bevorzugte Reisezeit. Sie erhalten Ihr schriftliches Angebot per WhatsApp.",
+      button: "Angebot per WhatsApp anfordern",
     },
     readingMinutes: 11,
     publishedAt: "2026-08-11",

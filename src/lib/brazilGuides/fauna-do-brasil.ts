@@ -804,14 +804,11 @@ export const faunaDoBrasilGuide: BrazilGuideLocalized = {
     destinationName: "Tierwelt Brasiliens",
     blurb:
       "Eine Route durch Biome, um Jaguare, Aras, Wale, Delfine und mehr zu finden — zum richtigen Kalendermoment und an den richtigen Adressen.",
-    metaTitle: "Tierwelt Brasiliens: Wo und wann Jaguare, Wale und mehr sehen",
-    metaDescription:
-      "Ein redaktioneller Leitfaden zur brasilianischen Tierwelt: Jaguare in Porto Jofre und Mamirauá, Mähnenwölfe im Cerrado, Goldene Löwenäffchen bei Rio de Janeiro, Wale in Abrolhos und Imbituba, Rosa Flussdelfine am Rio Negro und Hyazinth-Aras in Bonito — Monat für Monat, Biom für Biom.",
-    keywords:
-      "tierwelt brasilien, wo jaguar sehen, pantanal jaguar safari, mamiraua jaguar, mähnenwolf cerrado, goldenes löwenäffchen, buckelwal abrolhos, glattwal imbituba, rosa flussdelfin rio negro, hyazinth-ara bonito, meeresschildkröte noronha, brasilien safari",
-    h1: "Tierwelt Brasiliens: eine Biom-Safari zu den seltensten Sichtungen Südamerikas",
-    aiAnswer:
-      "Brasilien vereint auf wenigen Biomen einige der seltensten Tierbeobachtungen des Planeten: Jaguare in Porto Jofre (nördliches Pantanal, Juli bis Oktober) und in Mamirauá (Amazonas, Trockenzeit), Mähnenwölfe und Große Ameisenbären im Cerrado (Emas und Serra da Canastra), Goldene Löwenäffchen im Poço-das-Antas-Reservat (Rio de Janeiro), Buckelwale in Abrolhos (Juli bis Oktober), Glattwale in Imbituba (Juli bis November), Rosa Flussdelfine ganzjährig am Rio Negro und Hyazinth-Aras am Buraco das Araras in Bonito.",
+    metaTitle: "Tierwelt Brasiliens, Brasilien: Reiseroute, beste Reisezeit & Angebot",
+    metaDescription: "Private, maßgeschneiderte Reise: Tierwelt Brasiliens. Entdecken Sie eine vorgeschlagene Reiseroute, die beste Reisezeit und Hinweise zur Anreise. Fordern Sie ein Angebot per WhatsApp an.",
+    keywords: "tierwelt brasilien, wo jaguar sehen, pantanal jaguar safari, mamiraua jaguar, mähnenwolf cerrado, goldenes löwenäffchen, buckelwal abrolhos, glattwal imbituba, rosa flussdelfin rio negro, hyazinth-ara bonito, meeresschildkröte noronha, brasilien safari, tierwelt brasiliens rundreise, tierwelt brasiliens reiseroute, anreise tierwelt brasiliens, beste reisezeit tierwelt brasiliens",
+    h1: "Tierwelt Brasiliens: Reiseroute, beste Reisezeit und Anreise",
+    aiAnswer: "Brasilien vereint auf wenigen Biomen einige der seltensten Tierbeobachtungen des Planeten: Jaguare in Porto Jofre (nördliches Pantanal, Juli bis Oktober) und in Mamirauá (Amazonas, Trockenzeit), Mähnenwölfe und Große Ameisenbären im Cerrado (Emas und Serra da Canastra), Goldene Löwenäffchen im Poço-das-Antas-Reservat (Rio de Janeiro), Buckelwale in Abrolhos (Juli bis Oktober), Glattwale in Imbituba (Juli bis November), Rosa Flussdelfine ganzjährig am Rio Negro und Hyazinth-Aras am Buraco das Araras in Bonito. Create Travel plant private, maßgeschneiderte Tierwelt Brasiliens-Reisen für internationale Gäste, mit deutschsprachigen Reiseleitern, und sendet ein schriftliches Angebot per WhatsApp.",
     intro: [
       "Es gibt ein Brasilien, das nie auf Strandfotos erscheint: das Brasilien der Spuren im Pantanal-Schlamm bei Sonnenaufgang, des Blaswals eines Buckelwals am Horizont von Abrolhos, des kobaltblauen Flugs eines Aras über einem sechzig Meter tiefen Doline in Bonito. Dies ist das Land mit der größten Wildtiervielfalt Amerikas, und ein Großteil davon ist tagsüber, komfortabel und mit Führern beobachtbar, die ihr Leben dem Studium dieser Tiere gewidmet haben — keine harte Expedition nötig, um das Seltenste des Planeten zu sehen.",
       "Dieser Leitfaden ordnet die brasilianische Tierwelt nach Biom, Art und Kalender: welches Tier, wo es tatsächlich erscheint, in welchem Monat die Chancen real sind, und wie man zwei oder drei dieser Schutzgebiete in einer einzigen Reise verbindet, ohne sie in einen Wettlauf zu verwandeln.",
@@ -940,6 +937,10 @@ export const faunaDoBrasilGuide: BrazilGuideLocalized = {
           title: "Bonito + südliches Pantanal — 8 bis 9 Tage",
           text: "Hyazinth-Aras am Buraco das Araras, Treiben in kristallklaren Flüssen und Pantanal-Tierwelt im südlichen Abschnitt, mit Basis in Campo Grande.",
         },
+        {
+          title: "Kombinieren Sie zwei oder mehr brasilianische Biome",
+          text: "Brasilien hat sechs Landbiome — Amazonas, Atlantischer Regenwald, Cerrado, Caatinga, Pantanal und Pampa — plus die Küsten- und Meereszone: sieben unterschiedliche Landschaften und Kulturen. Verbinden Sie Tierbeobachtungen im Pantanal mit den Cerrado-Landschaften der Serra da Canastra. Wir stimmen Reisetempo und Verbindungen auf die saisonalen Bedingungen ab; Tierbeobachtungen sind nie garantiert.",
+        },
       ],
     },
     tips: {
@@ -978,12 +979,15 @@ export const faunaDoBrasilGuide: BrazilGuideLocalized = {
         q: "Wie viel kostet eine Tierbeobachtungsreise mit Create Travel?",
         a: "Wir arbeiten nicht mit Listenpreisen: Das Budget hängt vom Biom, der Anzahl der Nächte und der Saison ab. Ein menschlicher Berater erstellt das Angebot und legt die Werte schriftlich vor, niemals als Schätzung auf der Website.",
       },
+      { q: "Benötige ich ein Visum oder Impfungen für Brasilien?", a: "Die Visumpflicht hängt von Ihrer Staatsangehörigkeit ab und kann sich ändern. Prüfen Sie vor der Buchung offizielle brasilianische Konsular- und Einreiseinformationen. Lassen Sie sich frühzeitig reisemedizinisch zu Routineimpfungen, Gelbfieber und regionalen Vorsichtsmaßnahmen beraten und beachten Sie offizielle Gesundheitshinweise." },
+      { q: "Sind deutschsprachige Reiseleiter bei jeder Exkursion verfügbar?", a: "Ja. Create Travel stellt im Rahmen Ihrer privaten, maßgeschneiderten Reiseroute deutschsprachige Reiseleiter bei jeder Exkursion bereit." },
+      { q: "Wie erfolgt die Anreise aus dem Ausland?", a: "Fliegen Sie international zu einem brasilianischen Drehkreuz und weiter zum regionalen Flughafen Ihrer gewählten Tierbeobachtungsregion. Create Travel organisiert private Transfers zu Ihrer Unterkunft oder zum Einschiffungsort." },
+      { q: "Kann ich Tierwelt Brasiliens mit anderen brasilianischen Biomen kombinieren?", a: "Ja. Brasilien hat sechs Landbiome plus die Küsten- und Meereszone — sieben unterschiedliche Landschaften und Kulturen. Verbinden Sie Tierbeobachtungen im Pantanal mit den Cerrado-Landschaften der Serra da Canastra. Ihr Travel Designer prüft die saisonale Vereinbarkeit und plant realistische Reisetage zwischen den Regionen ein." },
     ],
     cta: {
-      heading: "Lassen Sie uns Ihre brasilianische Safari gestalten",
-      subheading:
-        "Ein menschlicher Berater von Create Travel wählt die Biome, den Kalender und die Führer, die am besten zu den Arten passen, die Sie sehen möchten.",
-      button: "Mit einem Travel Designer sprechen",
+      heading: "Fordern Sie Ihr Tierwelt Brasiliens-Reiseangebot an",
+      subheading: "Planen Sie Ihre private, maßgeschneiderte Reise mit einem persönlichen Travel Designer, abgestimmt auf Ihre Interessen, Ihr Tempo und Ihre bevorzugte Reisezeit. Sie erhalten Ihr schriftliches Angebot per WhatsApp.",
+      button: "Angebot per WhatsApp anfordern",
     },
     readingMinutes: 13,
     publishedAt: "2026-08-11",

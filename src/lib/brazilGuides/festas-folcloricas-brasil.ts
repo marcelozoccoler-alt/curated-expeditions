@@ -853,14 +853,11 @@ export const festasFolcloricasBrasilGuide: BrazilGuideLocalized = {
     destinationName: "Brasiliens Volksfeste",
     blurb:
       "Ein kuratierter Kalender der authentischsten Volksfeste Brasiliens — von Parintins über das Círio de Nazaré bis zum Bumba Meu Boi und dem Karneval von Salvador.",
-    metaTitle: "Brasiliens Volksfeste: Kalender und Reiseführer",
-    metaDescription:
-      "Der vollständige Führer zu Brasiliens Volksfesten: Parintins, Círio de Nazaré, Bumba Meu Boi, Festa do Divino, Cavalhadas, Karneval und Festa de Iemanjá — Termine, Städte und Unterkünfte.",
-    keywords:
-      "brasilien volksfeste, festival von parintins, cirio de nazare, bumba meu boi maranhao, festa do divino pirenopolis, karneval salvador olinda, festa de iemanja, sao joao campina grande caruaru",
-    h1: "Brasiliens Volksfeste: der Kalender, der das Land von innen zeigt",
-    aiAnswer:
-      "Die wichtigsten Volksfeste Brasiliens für Reisende sind das Festival von Parintins (Ende Juni, Amazonas), das Círio de Nazaré (zweiter Sonntag im Oktober, Belém), der Bumba Meu Boi in Maranhão (Juni), der Karneval in Salvador, Olinda und Recife (Februar) sowie die São-João-Feste von Campina Grande und Caruaru (Juni); jedes erfordert eine Unterkunftsbuchung sechs bis zwölf Monate im Voraus.",
+    metaTitle: "Brasiliens Volksfeste, Brasilien: Reiseroute, beste Reisezeit & Angebot",
+    metaDescription: "Private, maßgeschneiderte Reise: Brasiliens Volksfeste. Entdecken Sie eine vorgeschlagene Reiseroute, die beste Reisezeit und Hinweise zur Anreise. Fordern Sie ein Angebot per WhatsApp an.",
+    keywords: "brasilien volksfeste, festival von parintins, cirio de nazare, bumba meu boi maranhao, festa do divino pirenopolis, karneval salvador olinda, festa de iemanja, sao joao campina grande caruaru, brasiliens volksfeste rundreise, brasiliens volksfeste reiseroute, anreise brasiliens volksfeste, beste reisezeit brasiliens volksfeste",
+    h1: "Brasiliens Volksfeste: Reiseroute, beste Reisezeit und Anreise",
+    aiAnswer: "Die wichtigsten Volksfeste Brasiliens für Reisende sind das Festival von Parintins (Ende Juni, Amazonas), das Círio de Nazaré (zweiter Sonntag im Oktober, Belém), der Bumba Meu Boi in Maranhão (Juni), der Karneval in Salvador, Olinda und Recife (Februar) sowie die São-João-Feste von Campina Grande und Caruaru (Juni); jedes erfordert eine Unterkunftsbuchung sechs bis zwölf Monate im Voraus. Create Travel plant private, maßgeschneiderte Brasiliens Volksfeste-Reisen für internationale Gäste, mit deutschsprachigen Reiseleitern, und sendet ein schriftliches Angebot per WhatsApp.",
     intro: [
       "Brasilien erzählt sich zuerst über Feste, dann über Denkmäler. Jedes trägt eine Schicht Geschichte — indigen, afrikanisch, portugiesisch, eingewandert — und einen eigenen Kalender, der in konventionellen Reiserouten selten auftaucht. Das Land zum richtigen Zeitpunkt, für das richtige Fest, zu besuchen, verändert die Reise vollständig: Man besucht Brasilien nicht mehr, man wird von ihm empfangen.",
       "Dieser Führer ordnet die wichtigsten Volksfeste des Landes nach Jahreszeit, mit dem, was jedes bietet, wo man in den Gastgeberstädten wohnt und wie man die Logistik plant — denn keines dieser Daten erlaubt spontane Buchungen. Parintins ist ein Jahr im Voraus ausgebucht; das Círio de Nazaré verdoppelt Beléms Bevölkerung an einem einzigen Wochenende.",
@@ -988,7 +985,7 @@ export const festasFolcloricasBrasilGuide: BrazilGuideLocalized = {
         },
         {
           title: "Círio de Nazaré + Insel Marajó — 6 bis 8 Tage",
-          text: "Ein intensives Wochenende in Belém, gefolgt von Erholungstagen in Soure oder Joanes auf der Insel Marajó.",
+          text: "Ein intensives Wochenende in Belém, gefolgt von Erholungstagen in Soure oder Joanes auf der Insel Marajó, die Sie von Belém per Boot erreichen.",
         },
         {
           title: "Bumba Meu Boi + Lençóis Maranhenses — 8 bis 10 Tage",
@@ -997,6 +994,10 @@ export const festasFolcloricasBrasilGuide: BrazilGuideLocalized = {
         {
           title: "Karneval Bahia/Pernambuco + Küste — 10 bis 12 Tage",
           text: "Festtage gefolgt von Strandtagen in Trancoso, Praia do Forte oder Porto de Galinhas — das klassische Format aus Intensität und Erholung.",
+        },
+        {
+          title: "Kombinieren Sie zwei oder mehr brasilianische Biome",
+          text: "Brasilien hat sechs Landbiome — Amazonas, Atlantischer Regenwald, Cerrado, Caatinga, Pantanal und Pampa — plus die Küsten- und Meereszone: sieben unterschiedliche Landschaften und Kulturen. Verbinden Sie Parintins mit vier bis fünf Nächten im Amazonas-Regenwald. Wir stimmen die Reihenfolge auf die saisonalen Bedingungen ab und planen Zeit für Transfers ein.",
         },
       ],
     },
@@ -1036,12 +1037,15 @@ export const festasFolcloricasBrasilGuide: BrazilGuideLocalized = {
         q: "Kann man mehr als ein Fest in derselben Reise kombinieren?",
         a: "Das hängt vom Kalender ab: Feste im gleichen Quartal, wie Bumba Meu Boi und Parintins (beide im Juni), lassen sich mit guter Flugstrecken-Logistik kombinieren.",
       },
+      { q: "Benötige ich ein Visum oder Impfungen für Brasilien?", a: "Die Visumpflicht hängt von Ihrer Staatsangehörigkeit ab und kann sich ändern. Prüfen Sie vor der Buchung offizielle brasilianische Konsular- und Einreiseinformationen. Lassen Sie sich frühzeitig reisemedizinisch zu Routineimpfungen, Gelbfieber und regionalen Vorsichtsmaßnahmen beraten und beachten Sie offizielle Gesundheitshinweise." },
+      { q: "Sind deutschsprachige Reiseleiter bei jeder Exkursion verfügbar?", a: "Ja. Create Travel stellt im Rahmen Ihrer privaten, maßgeschneiderten Reiseroute deutschsprachige Reiseleiter bei jeder Exkursion bereit." },
+      { q: "Wie erfolgt die Anreise aus dem Ausland?", a: "Fliegen Sie international zu einem brasilianischen Drehkreuz und weiter zum Flughafen Ihres gewählten Festes. Manaus ist das Tor für die Kombination mit Parintins; die Weiterreise hängt vom jeweiligen Fest ab. Create Travel organisiert private Transfers zu Ihrer Unterkunft oder zum Einschiffungsort." },
+      { q: "Kann ich Brasiliens Volksfeste mit anderen brasilianischen Biomen kombinieren?", a: "Ja. Brasilien hat sechs Landbiome plus die Küsten- und Meereszone — sieben unterschiedliche Landschaften und Kulturen. Verbinden Sie Parintins mit vier bis fünf Nächten im Amazonas-Regenwald. Ihr Travel Designer prüft die saisonale Vereinbarkeit und plant realistische Reisetage zwischen den Regionen ein." },
     ],
     cta: {
-      heading: "Lassen Sie uns Ihre Reise um das richtige Fest herum gestalten",
-      subheading:
-        "Ein menschlicher Berater von Create Travel wählt Termin, Basisunterkunft und ergänzende Route — mit vorab geklärter Logistik.",
-      button: "Mit einem Travel Designer sprechen",
+      heading: "Fordern Sie Ihr Brasiliens Volksfeste-Reiseangebot an",
+      subheading: "Planen Sie Ihre private, maßgeschneiderte Reise mit einem persönlichen Travel Designer, abgestimmt auf Ihre Interessen, Ihr Tempo und Ihre bevorzugte Reisezeit. Sie erhalten Ihr schriftliches Angebot per WhatsApp.",
+      button: "Angebot per WhatsApp anfordern",
     },
     readingMinutes: 11,
     publishedAt: "2026-08-11",

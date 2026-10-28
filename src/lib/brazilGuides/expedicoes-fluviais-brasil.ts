@@ -824,14 +824,11 @@ export const expedicoesFluviaisBrasilGuide: BrazilGuideLocalized = {
     destinationName: "Flussexpeditionen in Brasilien",
     blurb:
       "Flussschiff-Hotels und Expeditionen im Amazonas, am Tapajós und im Pantanal — Brasilien vom Wasser aus, aus einer Kabine mit Blick auf den Regenwald.",
-    metaTitle: "Flussexpeditionen in Brasilien: Flussschiff-Hotels im Amazonas & Pantanal",
-    metaDescription:
-      "Der Leitfaden zu Flussexpeditionen in Brasilien: Flussschiff-Hotels am Rio Negro, Anavilhanas, Jaú und Mamirauá, am Tapajós und im Pantanal (Flüsse Paraguay, Cuiabá und Três Irmãos). Hoch- und Niedrigwasser, Schiffe, Kabinen und 4- bis 8-nächtige Routen.",
-    keywords:
-      "flussexpedition brasilien, amazonas flussschiff hotel, rio negro kreuzfahrt, tumbira boot, katerre amazonas, amazon dream boot, jacare-acu schiff, untamed angling pantanal, pantanal flussschiff hotel, rio paraguay kreuzfahrt, alter do chao tapajos, jau nationalpark, mamiraua flussschiff",
-    h1: "Flussexpeditionen in Brasilien: Amazonas und Pantanal vom Wasser aus erlebt",
-    aiAnswer:
-      "Die besten Flussexpeditionen Brasiliens führen durch den Amazonas (Rio Negro, Anavilhanas, Jaú-Nationalpark und Mamirauá, an Bord von Flussschiff-Hotels wie Tumbira, Katerre, Amazon Dream und Jacaré-Açu) und das Pantanal (Flüsse Paraguay, Cuiabá und Três Irmãos, mit Flussschiff-Hotels und schwimmenden Jaguar-Beobachtungsplattformen); die Routen dauern 4 bis 8 Nächte, und die Wahl zwischen Hochwasser (Dezember bis Juni) und Niedrigwasser (Juli bis November) verändert grundlegend, was man sieht und wie navigiert wird.",
+    metaTitle: "Flussexpeditionen in Brasilien, Brasilien: Reiseroute, beste Reisezeit & Angebot",
+    metaDescription: "Private, maßgeschneiderte Reise: Flussexpeditionen in Brasilien. Entdecken Sie eine vorgeschlagene Reiseroute, die beste Reisezeit und Hinweise zur Anreise. Fordern Sie ein Angebot per WhatsApp an.",
+    keywords: "flussexpedition brasilien, amazonas flussschiff hotel, rio negro kreuzfahrt, tumbira boot, katerre amazonas, amazon dream boot, jacare-acu schiff, untamed angling pantanal, pantanal flussschiff hotel, rio paraguay kreuzfahrt, alter do chao tapajos, jau nationalpark, mamiraua flussschiff, flussexpeditionen in brasilien rundreise, flussexpeditionen in brasilien reiseroute, anreise flussexpeditionen in brasilien, beste reisezeit flussexpeditionen in brasilien",
+    h1: "Flussexpeditionen in Brasilien: Reiseroute, beste Reisezeit und Anreise",
+    aiAnswer: "Die besten Flussexpeditionen Brasiliens führen durch den Amazonas (Rio Negro, Anavilhanas, Jaú-Nationalpark und Mamirauá, an Bord von Flussschiff-Hotels wie Tumbira, Katerre, Amazon Dream und Jacaré-Açu) und das Pantanal (Flüsse Paraguay, Cuiabá und Três Irmãos, mit Flussschiff-Hotels und schwimmenden Jaguar-Beobachtungsplattformen); die Routen dauern 4 bis 8 Nächte, und die Wahl zwischen Hochwasser (Dezember bis Juni) und Niedrigwasser (Juli bis November) verändert grundlegend, was man sieht und wie navigiert wird. Create Travel plant private, maßgeschneiderte Flussexpeditionen in Brasilien-Reisen für internationale Gäste, mit deutschsprachigen Reiseleitern, und sendet ein schriftliches Angebot per WhatsApp.",
     intro: [
       "Es gibt eine Art, Brasilien zu erleben, die keine feste Lodge bieten kann: eine Reise, deren Landschaft sich täglich verändert, weil das Schiff sich bewegt — nicht Sie. Auf Flussexpeditionen ist die Kabine das Zimmer, das Deck die Veranda, und der Fluss — Negro, Tapajós, Paraguay oder Cuiabá — der Korridor, der jeden Tag zu einer neuen Bucht, einem neuen Strand oder einem überschwemmten Waldkanal führt.",
       "Dieser Leitfaden fasst zusammen, was wir aus eigener Erfahrung auf diesen Routen wissen: wie Flussschiff-Hotels im Amazonas und im Pantanal wirklich funktionieren, welche Schiffe die Reise wert sind, den Unterschied zwischen Navigation bei Hoch- und Niedrigwasser, und den tatsächlichen Rhythmus an Bord — für alle, die Immersion suchen, keine austauschbare Kreuzfahrt mit Dschungel-Etikett.",
@@ -947,7 +944,7 @@ export const expedicoesFluviaisBrasilGuide: BrazilGuideLocalized = {
     itinerary: {
       heading: "4- bis 8-nächtige Routen — die Expedition strukturieren",
       intro:
-        "Die Länge der Flussexpedition sollte dem Zweck der Reise entsprechen, nicht dem verfügbaren Kalender. Wir lassen Gäste nie direkt nach einem Interkontinentalflug an Bord gehen — vor und nach der Fahrt liegt immer eine Pufferacht an Land.",
+        "Die Länge der Flussexpedition sollte dem Zweck der Reise entsprechen, nicht dem verfügbaren Kalender. Wir lassen Gäste nie direkt nach einem Interkontinentalflug an Bord gehen — vor und nach der Fahrt liegt immer eine Puffernacht an Land.",
       items: [
         {
           title: "4 Nächte — Rio Negro & Anavilhanas, ab Manaus",
@@ -964,6 +961,10 @@ export const expedicoesFluviaisBrasilGuide: BrazilGuideLocalized = {
         {
           title: "8 Nächte — Amazonas (Tapajós) + Pantanal, beide Biome kombiniert",
           text: "Ein Flug Santarém–Cuiabá verbindet die Tapajós-Flussexpedition mit jener im Pantanal, stets mit einer Sicherheitsnacht an Land zwischen den Einschiffungen — überschwemmter Wald auf der einen, Überschwemmungsebene auf der anderen Seite.",
+        },
+        {
+          title: "Kombinieren Sie zwei oder mehr brasilianische Biome",
+          text: "Brasilien hat sechs Landbiome — Amazonas, Atlantischer Regenwald, Cerrado, Caatinga, Pantanal und Pampa — plus die Küsten- und Meereszone: sieben unterschiedliche Landschaften und Kulturen. Verbinden Sie eine Amazonas-Flussexpedition mit Flusssafaris im Pantanal. Wir stimmen Reisetempo und Verbindungen auf die saisonalen Bedingungen ab; Tierbeobachtungen sind nie garantiert.",
         },
       ],
     },
@@ -1003,12 +1004,15 @@ export const expedicoesFluviaisBrasilGuide: BrazilGuideLocalized = {
         q: "Was kostet eine Flussexpedition mit Create Travel?",
         a: "Wir arbeiten nicht mit Standardpreisen: Das Budget hängt vom Schiff, der Anzahl der Nächte, der Saison und den Flugverbindungen zum Einschiffungspunkt ab. Ein menschlicher Berater erstellt das Angebot und legt die Werte schriftlich vor, ohne Schätzungen auf der Website.",
       },
+      { q: "Benötige ich ein Visum oder Impfungen für Brasilien?", a: "Die Visumpflicht hängt von Ihrer Staatsangehörigkeit ab und kann sich ändern. Prüfen Sie vor der Buchung offizielle brasilianische Konsular- und Einreiseinformationen. Lassen Sie sich frühzeitig reisemedizinisch zu Routineimpfungen, Gelbfieber und regionalen Vorsichtsmaßnahmen beraten und beachten Sie offizielle Gesundheitshinweise." },
+      { q: "Sind deutschsprachige Reiseleiter bei jeder Exkursion verfügbar?", a: "Ja. Create Travel stellt im Rahmen Ihrer privaten, maßgeschneiderten Reiseroute deutschsprachige Reiseleiter bei jeder Exkursion bereit." },
+      { q: "Wie erfolgt die Anreise aus dem Ausland?", a: "Fliegen Sie international zu einem brasilianischen Drehkreuz und weiter zum regionalen Flughafen Ihrer Expedition: Manaus, Tefé oder Santarém für Amazonien, Cuiabá für das nördliche Pantanal. Planen Sie vor und nach der Einschiffung eine Nacht an Land ein. Create Travel organisiert private Transfers zu Ihrer Unterkunft oder zum Einschiffungsort." },
+      { q: "Kann ich Flussexpeditionen in Brasilien mit anderen brasilianischen Biomen kombinieren?", a: "Ja. Brasilien hat sechs Landbiome plus die Küsten- und Meereszone — sieben unterschiedliche Landschaften und Kulturen. Verbinden Sie eine Amazonas-Flussexpedition mit Flusssafaris im Pantanal. Ihr Travel Designer prüft die saisonale Vereinbarkeit und plant realistische Reisetage zwischen den Regionen ein." },
     ],
     cta: {
-      heading: "Lassen Sie uns Ihre Flussexpedition entwerfen",
-      subheading:
-        "Ein persönlicher Berater von Create Travel wählt den richtigen Fluss, das richtige Schiff und die richtige Saison für Ihr Profil — und kümmert sich um jede Verbindung bis zur Einschiffung.",
-      button: "Mit einem Travel Designer sprechen",
+      heading: "Fordern Sie Ihr Flussexpeditionen in Brasilien-Reiseangebot an",
+      subheading: "Planen Sie Ihre private, maßgeschneiderte Reise mit einem persönlichen Travel Designer, abgestimmt auf Ihre Interessen, Ihr Tempo und Ihre bevorzugte Reisezeit. Sie erhalten Ihr schriftliches Angebot per WhatsApp.",
+      button: "Angebot per WhatsApp anfordern",
     },
     readingMinutes: 13,
     publishedAt: "2026-08-11",

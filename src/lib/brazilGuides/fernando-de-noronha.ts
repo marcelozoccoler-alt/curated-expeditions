@@ -910,14 +910,11 @@ export const fernandoDeNoronhaGuide: BrazilGuideLocalized = {
   },
 
   de: {
-    metaTitle: "Fernando de Noronha: Reisezeit, Gebühren und Unterkünfte",
-    metaDescription:
-      "Vollständiger Reiseführer für Fernando de Noronha, Brasilien: Umweltschutzgebühr und Ticket des Meeresnationalparks, Baía do Sancho, Tauchen, Spinnerdelfine, ruhige Meerssaison und die besten Pousadas je Reiseprofil.",
-    keywords:
-      "fernando de noronha brasilien, baia do sancho, umweltgebuhr noronha, tauchen fernando de noronha, spinnerdelfin, beste reisezeit fernando de noronha, pousadas fernando de noronha, ticket nationalpark noronha, luxusreise fernando de noronha",
-    h1: "Fernando de Noronha: ein Reiseführer von Menschen, die jedes Jahr zurückkehren",
-    aiAnswer:
-      "Die beste Reisezeit für Fernando de Noronha ist von August bis Dezember, wenn das Meer am ruhigsten ist und die Sichtweite beim Tauchen bis zu 40 Meter beträgt; ideal sind 5 bis 7 Nächte, Anreise per Flug mit Umstieg in Recife (REC) oder Natal (NAT), zuzüglich der täglichen Umweltschutzgebühr und eines separaten Tickets für den Meeresnationalpark.",
+    metaTitle: "Fernando de Noronha, Brasilien: Reiseroute, beste Reisezeit & Angebot",
+    metaDescription: "Private, maßgeschneiderte Reise: Fernando de Noronha. Entdecken Sie eine vorgeschlagene Reiseroute, die beste Reisezeit und Hinweise zur Anreise. Fordern Sie ein Angebot per WhatsApp an.",
+    keywords: "fernando de noronha brasilien, baia do sancho, umweltgebuhr noronha, tauchen fernando de noronha, spinnerdelfin, beste reisezeit fernando de noronha, pousadas fernando de noronha, ticket nationalpark noronha, luxusreise fernando de noronha, fernando de noronha rundreise, fernando de noronha reiseroute, anreise fernando de noronha, beste reisezeit fernando de noronha",
+    h1: "Fernando de Noronha: Reiseroute, beste Reisezeit und Anreise",
+    aiAnswer: "Die beste Reisezeit für Fernando de Noronha ist von August bis Dezember, wenn das Meer am ruhigsten ist und die Sichtweite beim Tauchen bis zu 40 Meter beträgt; ideal sind 5 bis 7 Nächte, Anreise per Flug mit Umstieg in Recife (REC) oder Natal (NAT), zuzüglich der täglichen Umweltschutzgebühr und eines separaten Tickets für den Meeresnationalpark. Create Travel plant private, maßgeschneiderte Fernando de Noronha-Reisen für internationale Gäste, mit deutschsprachigen Reiseleitern, und sendet ein schriftliches Angebot per WhatsApp.",
     intro: [
       "Fernando de Noronha ist ein vulkanischer Archipel 545 km vor der Küste Pernambucos, mit nur gut 17 km² Landfläche und einem Besuchersystem, das genau das schützen soll, was die Insel einzigartig macht: intakte Riffe, eine der größten ansässigen Spinnerdelfin-Populationen der Welt und Buchten, die wiederholt zu den schönsten des Planeten gekürt wurden. Es ist kein Ort für einen kurzen Stopp — die Insel gibt ihr eigenes Tempo vor, mit einer täglichen Besucherobergrenze und Regeln, die Teil der Erfahrung sind, kein Hindernis dafür.",
       "Dieser Guide fasst zusammen, was wir bei Besuchen zu verschiedenen Jahreszeiten gelernt haben: wann das Meer Aquarium-Sicht bietet, wie die Gebühren funktionieren, welche Strände einen Fußmarsch erfordern und welche Pousadas die höchsten Preise Brasiliens tatsächlich rechtfertigen. Vor jedem Angebot helfen wir zu entscheiden, wie viele Nächte diese Insel verdient — meist mehr, als man zunächst denkt.",
@@ -1034,10 +1031,34 @@ export const fernandoDeNoronhaGuide: BrazilGuideLocalized = {
       ],
     },
     itinerary: {
-      heading: "Wie man Noronha in eine Brasilien-Reise einbindet",
+      heading: "Vorgeschlagene Reiseroute mit 5 Nächten und Brasilien-Kombinationen",
       intro:
         "Die Insel hat ein begrenztes, wetterabhängiges Flugnetz, daher planen wir Noronha nie mit knappen Anschlüssen. Wir empfehlen immer eine Pufferübernachtung in Recife oder Natal vor und nach dem Archipel.",
       items: [
+        {
+          title: "Tag 1 — Ankunft auf der Insel",
+          text: "Beziehen Sie Ihre Pousada und erkunden Sie Vila dos Remédios; genießen Sie den Sonnenuntergang am Forte dos Remédios.",
+        },
+        {
+          title: "Tag 2 — Sancho und Delfinaussichtspunkt",
+          text: "Besuchen Sie Baía do Sancho und den Mirante dos Golfinhos unter Beachtung der Parkregeln. Tierbeobachtungen sind nie garantiert.",
+        },
+        {
+          title: "Tag 3 — Entdeckung per Boot",
+          text: "Unternehmen Sie einen Bootsausflug mit Schnorchelstopps, die nach Meeresbedingungen und aktuellen Parkgenehmigungen ausgewählt werden.",
+        },
+        {
+          title: "Tag 4 — Atalaia",
+          text: "Planen Sie einen geführten Besuch von Atalaia, abhängig von vorab erteilten Genehmigungen und Gezeitenfenstern, mit anschließender Ruhezeit.",
+        },
+        {
+          title: "Tag 5 — Tauchen oder Strandzeit",
+          text: "Wählen Sie einen Ihrer Erfahrung entsprechenden Gerätetauchgang oder einen entspannten Strandtag an der Praia da Conceição.",
+        },
+        {
+          title: "Tag 6 — Abreise",
+          text: "Reisen Sie nach fünf Inselnächten ab und planen Sie vor dem internationalen Anschluss eine Puffernacht auf dem Festland ein.",
+        },
         {
           title: "Noronha + Recife und Porto de Galinhas — 9 bis 11 Tage",
           text: "Vier bis fünf Inselnächte, der Rest verteilt sich auf die Hauptstadt Pernambucos und die Naturpools von Porto de Galinhas. Der Kontrast zwischen Isolation und Küstenleben gefällt Erstbesuchern des Nordostens.",
@@ -1057,6 +1078,10 @@ export const fernandoDeNoronhaGuide: BrazilGuideLocalized = {
         {
           title: "Noronha + Rio de Janeiro — 10 Tage",
           text: "Insel am Anfang der Reise, um Körper und Geist im ruhigsten Meer zu erholen, Abschluss in der Großstadt mit Kultur und Cariocas Gastronomie.",
+        },
+        {
+          title: "Kombinieren Sie zwei oder mehr brasilianische Biome",
+          text: "Brasilien hat sechs Landbiome — Amazonas, Atlantischer Regenwald, Cerrado, Caatinga, Pantanal und Pampa — plus die Küsten- und Meereszone: sieben unterschiedliche Landschaften und Kulturen. Verbinden Sie Noronha mit dem Amazonas-Regenwald über Recife und planen Sie Puffernächte für die Anschlüsse ein. Wir stimmen die Reihenfolge auf die saisonalen Bedingungen ab und planen Zeit für Transfers ein.",
         },
       ],
     },
@@ -1096,12 +1121,15 @@ export const fernandoDeNoronhaGuide: BrazilGuideLocalized = {
         q: "Was kostet eine Reise nach Fernando de Noronha mit Create Travel?",
         a: "Wir arbeiten nicht mit Listenpreisen: Das Budget hängt von der Pousada, der Anzahl der Nächte, der Saison und dem gewählten Tauch- oder Wanderprogramm ab. Ein menschlicher Berater erstellt das Angebot und übermittelt die Werte schriftlich.",
       },
+      { q: "Benötige ich ein Visum oder Impfungen für Brasilien?", a: "Die Visumpflicht hängt von Ihrer Staatsangehörigkeit ab und kann sich ändern. Prüfen Sie vor der Buchung offizielle brasilianische Konsular- und Einreiseinformationen. Lassen Sie sich frühzeitig reisemedizinisch zu Routineimpfungen, Gelbfieber und regionalen Vorsichtsmaßnahmen beraten und beachten Sie offizielle Gesundheitshinweise." },
+      { q: "Sind deutschsprachige Reiseleiter bei jeder Exkursion verfügbar?", a: "Ja. Create Travel stellt im Rahmen Ihrer privaten, maßgeschneiderten Reiseroute deutschsprachige Reiseleiter bei jeder Exkursion bereit." },
+      { q: "Wie erfolgt die Anreise aus dem Ausland?", a: "Fliegen Sie international nach Brasilien und weiter über Recife (REC) oder Natal (NAT) zum Flughafen Fernando de Noronha (FEN). Planen Sie vor und nach dem Inselaufenthalt eine Puffernacht auf dem Festland ein. Create Travel organisiert private Transfers zu Ihrer Unterkunft oder zum Einschiffungsort." },
+      { q: "Kann ich Fernando de Noronha mit anderen brasilianischen Biomen kombinieren?", a: "Ja. Brasilien hat sechs Landbiome plus die Küsten- und Meereszone — sieben unterschiedliche Landschaften und Kulturen. Verbinden Sie Noronha mit dem Amazonas-Regenwald über Recife und planen Sie Puffernächte für die Anschlüsse ein. Ihr Travel Designer prüft die saisonale Vereinbarkeit und plant realistische Reisetage zwischen den Regionen ein." },
     ],
     cta: {
-      heading: "Lassen Sie uns Ihr Fernando de Noronha gestalten",
-      subheading:
-        "Ein menschlicher Berater von Create Travel wählt die passende Pousada, Saison und Ausflüge für Ihr Profil — und kümmert sich um jede Flugverbindung.",
-      button: "Mit einem Travel Designer sprechen",
+      heading: "Fordern Sie Ihr Fernando de Noronha-Reiseangebot an",
+      subheading: "Planen Sie Ihre private, maßgeschneiderte Reise mit einem persönlichen Travel Designer, abgestimmt auf Ihre Interessen, Ihr Tempo und Ihre bevorzugte Reisezeit. Sie erhalten Ihr schriftliches Angebot per WhatsApp.",
+      button: "Angebot per WhatsApp anfordern",
     },
     readingMinutes: 12,
     publishedAt: "2026-08-11",
