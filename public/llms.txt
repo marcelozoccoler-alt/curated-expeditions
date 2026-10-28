@@ -318,3 +318,16 @@ Padrão de URL: `/guias-brasil/<slug>` (PT) e `/{en|es|it|de}/brazil-guides/<slu
 ## Optional
 
 - [Grupo Marrocos 2026](/grupos/marrocos-2026): saída em grupo guiada do Brasil.
+
+## For international travellers (English)
+
+Create Travel is a Brazilian travel company (São Paulo, licensed by Cadastur, founded 2014) that designs private, tailor-made trips across Brazil for travellers from abroad, with English- and Spanish-speaking guides and a human travel designer on WhatsApp (+55 11 96369-3159). Typical trips combine two or more Brazilian biomes and regions, for example:
+- Pantanal jaguar safari (Cuiabá, Transpantaneira, Porto Jofre), often combined with Bonito or the Amazon.
+- Rio de Janeiro + Iguazu Falls + Bahia for couples.
+- Family trips: São Paulo, the São Paulo coast (Juquehy), Paraty, the Amazon (Rio Negro) and Rio de Janeiro.
+Guides: [Pantanal](https://createtravel.tur.br/en/brazil-guides/pantanal) · [Amazon](https://createtravel.tur.br/en/brazil-guides/amazon) · [Iguazu](https://createtravel.tur.br/en/brazil-guides/iguazu) · [Rio de Janeiro](https://createtravel.tur.br/en/brazil-guides/rio-de-janeiro) · [Bonito](https://createtravel.tur.br/en/brazil-guides/bonito) · [All Brazil guides](https://createtravel.tur.br/en/brazil-guides) · [Incoming Brazil](https://createtravel.tur.br/en/incoming)
+
+## Para viajeros internacionales (Español)
+
+Create Travel es una agencia brasileña (São Paulo, registro Cadastur, fundada en 2014) que diseña viajes privados a medida por Brasil para viajeros de México, España y América Latina, con guías en español y atención humana por WhatsApp (+55 11 96369-3159). Combinamos varios biomas y regiones: safari de jaguares en el Pantanal, Amazonía, Cataratas del Iguazú, Río de Janeiro, Bahía, Paraty y la costa de São Paulo.
+Guías: [Pantanal](https://createtravel.tur.br/es/brazil-guides/pantanal) · [Amazonía](https://createtravel.tur.br/es/brazil-guides/amazon) · [Iguazú](https://createtravel.tur.br/es/brazil-guides/iguazu) · [Río de Janeiro](https://createtravel.tur.br/es/brazil-guides/rio-de-janeiro) · [Incoming Brasil](https://createtravel.tur.br/es/incoming)
