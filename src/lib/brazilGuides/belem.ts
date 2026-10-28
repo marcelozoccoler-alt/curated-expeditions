@@ -754,14 +754,14 @@ export const belemGuide: BrazilGuideLocalized = {
     destinationName: "Belém",
     blurb:
       "Die Hauptstadt von Pará, wo der Amazonas-Regenwald auf den Atlantik trifft — ein jahrhundertealter Markt, Açaí- und Flussgastronomie und die größte katholische Prozession der Welt.",
-    metaTitle: "Belém do Pará: Reiseführer zu Ver-o-Peso, Círio & Amazonasküche",
+    metaTitle: "Belém, Brasilien: Reiseroute, beste Reisezeit & Angebot",
     metaDescription:
-      "Vollständiger Reiseführer für Belém: beste Reisezeit, Ver-o-Peso, Estação das Docas, Combu-Insel, der Círio de Nazaré und wo man am Tor zum Amazonas isst und übernachtet. Redaktioneller Guide ohne Preise.",
+      "Private, maßgeschneiderte Reise: Belém. Vorgeschlagene Reiseroute, beste Reisezeit und Anreise mit persönlicher Planung. Fordern Sie ein Angebot per WhatsApp an.",
     keywords:
-      "belem do para, was tun in belem, ver-o-peso, circio de nazare, combu insel, amazonasküche belem, wo übernachten in belem, feliz lusitania",
-    h1: "Belém: das Tor zum Amazonas am Ufer des Rio Guamá",
+      "belem do para, was tun in belem, ver-o-peso, circio de nazare, combu insel, amazonasküche belem, wo übernachten in belem, feliz lusitania, belém rundreise, belém reiseroute, anreise belém, beste reisezeit belém",
+    h1: "Belém: Reiseroute, beste Reisezeit und Anreise",
     aiAnswer:
-      "Die beste Reisezeit für Belém ist zwischen Juni und November, in der weniger regnerischen Jahreszeit, mit besonderem Augenmerk auf den zweiten Sonntag im Oktober, wenn der Círio de Nazaré stattfindet — die größte katholische Prozession der Welt, an der mehr als eine Million Menschen durch die Straßen der Stadt ziehen.",
+      "Die beste Reisezeit für Belém ist zwischen Juni und November, in der weniger regnerischen Jahreszeit, mit besonderem Augenmerk auf den zweiten Sonntag im Oktober, wenn der Círio de Nazaré stattfindet — die größte katholische Prozession der Welt, an der mehr als eine Million Menschen durch die Straßen der Stadt ziehen. Create Travel plant private, maßgeschneiderte Belém-Reisen für internationale Gäste, mit deutschsprachigen Reiseleitern, und sendet ein schriftliches Angebot per WhatsApp.",
     intro: [
       "Belém ist nicht nur das Tor zum Amazonas — es ist eine Stadt, die an jeder Ecke die Mischung aus Fluss, Wald und portugiesischem Barock in sich trägt. 1616 an den Ufern der Bucht von Guajará gegründet, bewahrt sie im Viertel Cidade Velha eines der am besten erhaltenen Kolonialensembles im Norden des Landes, während Ver-o-Peso, der größte Freiluftmarkt Lateinamerikas, schon vor Sonnenaufgang mit Süßwasserfischen, Amazonaskräutern und dem unverwechselbaren Duft frischen Açaís pulsiert.",
       "Es ist auch eine Stadt mit eigenem Rhythmus: der Regen um zwei Uhr nachmittags kommt so pünktlich wie eine Uhr, die Flussbewohner der Combu-Insel rudern in wenigen Minuten in die Stadt, und im Oktober zeigt sich der Glaube in der größten katholischen Prozession des Planeten. Für Reisende, die ein urbanes, raffiniertes und authentisches Amazonien suchen — vor oder nach dem Aufbruch in den Wald — bietet Belém Schichten, die nur wenige brasilianische Hauptstädte liefern.",
@@ -865,10 +865,13 @@ export const belemGuide: BrazilGuideLocalized = {
       ],
     },
     itinerary: {
-      heading: "Wie man Belém in eine Amazonas-Reiseroute einbindet",
-      intro:
-        "Belém funktioniert sowohl als Ausgangspunkt als auch als Abschluss einer umfassenderen Amazonasreise.",
+      heading: "Vorgeschlagene Reiseroute: Belém und Brasilien-Kombinationen",
+      intro: "Ein privater, maßgeschneiderter Reisevorschlag, angepasst an Ihr Tempo, die saisonalen Bedingungen und Ihre Anschlusszeiten.",
       items: [
+        { title: "Tag 1 — Ankunft und Uferpromenade", text: "Kommen Sie in Belém an und verbringen Sie den Nachmittag an der Estação das Docas." },
+        { title: "Tag 2 — Historisches Belém", text: "Besuchen Sie den Ver-o-Peso im Morgengrauen, anschließend Feliz Lusitânia und Forte do Presépio; lassen Sie Zeit für die amazonische Küche." },
+        { title: "Tag 3 — Insel Combu", text: "Setzen Sie vom Porto do Souza über und genießen Sie einen Tag mit regionaler Küche am Fluss und Waldlandschaften." },
+        { title: "Tag 4 — Nazaré und Abreise", text: "Besuchen Sie je nach Flugzeiten die Basílica de Nazaré oder Mangal das Garças und reisen Sie nach drei Nächten ab." },
         {
           title: "Belém essenziell — 2 bis 3 Tage",
           text: "Ver-o-Peso bei Sonnenaufgang, Feliz Lusitânia und Forte do Presépio, ein Nachmittag in der Estação das Docas, ein ganzer Tag auf der Combu-Insel sowie ein Besuch der Basílica de Nazaré und des Mangal das Garças.",
@@ -885,6 +888,7 @@ export const belemGuide: BrazilGuideLocalized = {
           title: "Belém + Algodoal — 4 bis 5 Tage",
           text: "Straße nach Marudá, gefolgt von einer Bootsüberfahrt zum autofreien Dorf Algodoal — ideal für Meeresstrände und Dünen nach Tagen in der Stadt.",
         },
+        { title: "Kombinieren Sie zwei oder mehr brasilianische Biome", text: "Brasilien hat sechs Landbiome plus die Küsten- und Meereszone — sieben unterschiedliche Landschaften und Kulturen. Kombinieren Sie das amazonische Belém mit den Küsten- und Meereslandschaften von Algodoal." },
       ],
     },
     tips: {
@@ -908,10 +912,6 @@ export const belemGuide: BrazilGuideLocalized = {
         a: "Es ist die größte katholische Prozession der Welt, die am zweiten Sonntag im Oktober in Belém stattfindet, bei der das Bildnis Unserer Lieben Frau von Nazaré rund drei Kilometer zwischen der Kathedrale und der Basílica de Nazaré zurücklegt und mehr als eine Million Gläubige versammelt.",
       },
       {
-        q: "Wie kommt man von Belém zur Combu-Insel?",
-        a: "Die Überfahrt startet am Porto do Souza im Stadtteil Guamá und dauert etwa fünfzehn Bootsminuten bis zur Insel, wo Flussfamilien Besucher in einfachen Restaurants am Flussufer empfangen.",
-      },
-      {
         q: "Ist Belém eine gute Basis, um den Amazonas zu erkunden?",
         a: "Ja. Die Stadt verbindet sich leicht mit der Insel Marajó, Algodoal sowie Alter do Chão/Santarém und dient als logistisches Tor zu verschiedenen Facetten der Amazonasregion.",
       },
@@ -923,12 +923,15 @@ export const belemGuide: BrazilGuideLocalized = {
         q: "Wo isst man in Belém authentische Amazonasküche?",
         a: "Casa do Saulo, Remanso do Bosque, Lá em Casa und Point do Açaí sind Referenzen für Gerichte wie Ente in Tucupi, Maniçoba, Tacacá und Açaí in seiner traditionellen, herzhaften Form mit Fisch.",
       },
+      { q: "Wie erfolgt die Anreise für Belém?", a: "Beginnen Sie mit einem internationalen Flug zu einem brasilianischen Drehkreuz und bei Bedarf einem Inlandsanschluss zum passenden regionalen Flughafen. Weiter geht es zum Flughafen Belém und mit einem privaten Transfer zu Ihrem Stadthotel. Create Travel organisiert private Transfers; bestätigen Sie aktuelle Flugpläne vor der Buchung." },
+      { q: "Benötige ich für Brasilien ein Visum oder Impfungen?", a: "Die Visumpflicht hängt von Ihrem Reisepass und Ihren Reisedaten ab. Prüfen Sie vor der Buchung die offiziellen brasilianischen Konsularinformationen. Lassen Sie sich reisemedizinisch zu Standard- und reisezielspezifischen Impfungen, einschließlich Gelbfieber, beraten und beachten Sie die offiziellen Gesundheitsempfehlungen für Ihre Reiseroute." },
+      { q: "Sind deutschsprachige Reiseleiter bei jeder Exkursion verfügbar?", a: "Ja. Create Travel stellt bei jeder Exkursion deutschsprachige Reiseleiter bereit; die Aktivitäten werden Ihren Interessen und Ihrem Tempo angepasst." },
+      { q: "Kann ich Belém mit anderen brasilianischen Biomen kombinieren?", a: "Ja. Brasilien hat sechs Landbiome plus die Küsten- und Meereszone — sieben unterschiedliche Landschaften und Kulturen. Kombinieren Sie das amazonische Belém mit den Küsten- und Meereslandschaften von Algodoal. Ihr Travel Designer plant Zeit für Transfers ein und prüft die saisonale Vereinbarkeit." },
     ],
     cta: {
-      heading: "Lassen Sie uns Ihre Reise nach Belém gestalten",
-      subheading:
-        "Ein persönlicher Berater von Create Travel organisiert die passende Unterkunft, Gastronomie und Amazonas-Verbindungen für Ihre Reiseroute in Pará.",
-      button: "Mit einem Travel Designer sprechen",
+      heading: "Fordern Sie Ihr Belém-Reiseangebot an",
+      subheading: "Planen Sie Ihre private, maßgeschneiderte Reise mit einem persönlichen Travel Designer — abgestimmt auf Ihre Interessen, Ihr Tempo und Ihre Wunschtermine.",
+      button: "Angebot per WhatsApp anfordern",
     },
     readingMinutes: 10,
     publishedAt: "2026-08-11",

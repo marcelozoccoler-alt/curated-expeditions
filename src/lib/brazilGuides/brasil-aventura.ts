@@ -845,14 +845,14 @@ export const brasilAventuraGuide: BrazilGuideLocalized = {
     destinationName: "Brasilien Abenteuer",
     blurb:
       "Ein Spezialguide zu Brasiliens anspruchsvollsten Landschaften: das Pati-Tal und die Sieben-Seen-Durchquerung in der Chapada Diamantina, die Serra Fina und der Pico dos Marins im Mantiqueira-Gebirge, der Monte Roraima, Rafting in Brotas, Canyoning in Veadeiros, Tauchen in Noronha, Kitesurfen in Ceará und Reiten im Pantanal — stets mit erstklassiger Logistik.",
-    metaTitle: "Brasilien Abenteuer: Treks, Rafting und Expeditionen mit Premium-Logistik",
+    metaTitle: "Abenteuerreisen in Brasilien: Reiseroute, beste Reisezeit & Angebot",
     metaDescription:
-      "Ein kuratierter Abenteuerführer für Brasilien: Pati-Tal, Sieben-Seen-Durchquerung, Serra Fina, Pico dos Marins, Monte Roraima, Rafting in Brotas und am Jacaré-Pepira, Canyoning, Tauchen in Noronha, Bonito, Kitesurfen, die Estrada Real und das Pantanal — mit Angaben zum Anforderungsgrad und zur Unterstützung vor Ort.",
+      "Private, maßgeschneiderte Reise: Abenteuerreisen in Brasilien. Vorgeschlagene Reiseroute, beste Reisezeit und Anreise mit persönlicher Planung. Fordern Sie ein Angebot per WhatsApp an.",
     keywords:
-      "brasilien abenteuer, pati-tal trekking, sieben-seen-durchquerung chapada diamantina, serra fina mantiqueira, pico dos marins, monte roraima, rafting brotas, canyoning veadeiros, tauchen fernando de noronha, schnorcheln bonito, kitesurfen ceará, estrada real radreise, reiten pantanal, kanufahren jalapão",
-    h1: "Brasilien Abenteuer: echte Expeditionen mit Komfort, wo es zählt",
+      "brasilien abenteuer, pati-tal trekking, sieben-seen-durchquerung chapada diamantina, serra fina mantiqueira, pico dos marins, monte roraima, rafting brotas, canyoning veadeiros, tauchen fernando de noronha, schnorcheln bonito, kitesurfen ceará, estrada real radreise, reiten pantanal, kanufahren jalapão, abenteuerreisen in brasilien rundreise, abenteuerreisen in brasilien reiseroute, anreise abenteuerreisen in brasilien, beste reisezeit abenteuerreisen in brasilien",
+    h1: "Abenteuerreisen in Brasilien: Reiseroute, beste Reisezeit und Anreise",
     aiAnswer:
-      "Zu Brasiliens besten Abenteuerexpeditionen zählen das Pati-Tal-Trekking und die Sieben-Seen-Durchquerung in der Chapada Diamantina (hoher körperlicher Anspruch), die Serra Fina und der Pico dos Marins im Mantiqueira-Gebirge, der Monte Roraima an der Grenze zu Venezuela, Rafting in Brotas und am Fluss Jacaré-Pepira, Canyoning in Veadeiros und Aparados da Serra, Tauchen in Noronha, Schnorcheln in Bonito, Kitesurfen an der Küste von Ceará, Radreisen entlang der Estrada Real, Reiten im Pantanal und Kanufahren im Jalapão — allesamt realisierbar mit logistischer Unterstützung, Trekkingkoch und eigens organisierten Transfers.",
+      "Zu Brasiliens besten Abenteuerexpeditionen zählen das Pati-Tal-Trekking und die Sieben-Seen-Durchquerung in der Chapada Diamantina (hoher körperlicher Anspruch), die Serra Fina und der Pico dos Marins im Mantiqueira-Gebirge, der Monte Roraima an der Grenze zu Venezuela, Rafting in Brotas und am Fluss Jacaré-Pepira, Canyoning in Veadeiros und Aparados da Serra, Tauchen in Noronha, Schnorcheln in Bonito, Kitesurfen an der Küste von Ceará, Radreisen entlang der Estrada Real, Reiten im Pantanal und Kanufahren im Jalapão — allesamt realisierbar mit logistischer Unterstützung, Trekkingkoch und eigens organisierten Transfers. Create Travel plant private, maßgeschneiderte Abenteuerreisen in Brasilien-Reisen für internationale Gäste, mit deutschsprachigen Reiseleitern, und sendet ein schriftliches Angebot per WhatsApp.",
     intro: [
       "Es gibt ein Brasilien, das man nicht vom Fenster einer Pousada aus sieht: Man muss es erwandern, erradeln, durchschwimmen oder beritten durchqueren. Es ist das Land der Felswände der Chapada Diamantina, der eisigen Gipfel des Mantiqueira-Gebirges, des ältesten Tepuis der Erde an der Grenze zu Venezuela, der Stromschnellen São Paulos und der Gewässer mit perfekter Sicht in Bonito und Noronha.",
       "Dieser Guide versammelt die relevantesten Expeditionen des Landes — jede mit ihrem tatsächlichen körperlichen Anspruch, ohne Beschönigung — und zeigt, wie sich Anstrengung in ein Erlebnis von hohem Niveau verwandeln lässt: Unterstützung durch Maultiere oder Geländewagen, einen Trekkingkoch, zertifizierte Bergführer und wirklich komfortable Unterkünfte vor und nach jeder Durchquerung.",
@@ -998,6 +998,7 @@ export const brasilAventuraGuide: BrazilGuideLocalized = {
           title: "Aktiver Mittlerer Westen — 9 Tage",
           text: "Reiten im Pantanal, gefolgt von Kanufahren im Jalapão, zwei Biome und zwei Abenteuerrhythmen in einer Reise, mit Regionalflügen und 4x4-Unterstützung dazwischen.",
         },
+        { title: "Kombinieren Sie zwei oder mehr brasilianische Biome", text: "Brasilien hat sechs Landbiome plus die Küsten- und Meereszone — sieben unterschiedliche Landschaften und Kulturen. Kombinieren Sie Reiten im Pantanal mit Kanufahren in den Cerrado-Landschaften des Jalapão." },
       ],
     },
     tips: {
@@ -1036,11 +1037,15 @@ export const brasilAventuraGuide: BrazilGuideLocalized = {
         q: "Wann ist die beste Zeit zum Kitesurfen in Ceará?",
         a: "Von Juli bis Dezember, wenn die Passatwinde entlang der Küste von Jericoacoara, Cumbuco und Preá am beständigsten und stärksten wehen.",
       },
+      { q: "Wie erfolgt die Anreise für Abenteuerreisen in Brasilien?", a: "Beginnen Sie mit einem internationalen Flug zu einem brasilianischen Drehkreuz und bei Bedarf einem Inlandsanschluss zum passenden regionalen Flughafen. Wählen Sie den regionalen Flughafen passend zur Hauptexpedition, etwa Boa Vista für Roraima, und anschließend die geeigneten Expeditionstransfers. Create Travel organisiert private Transfers; bestätigen Sie aktuelle Flugpläne vor der Buchung." },
+      { q: "Benötige ich für Brasilien ein Visum oder Impfungen?", a: "Die Visumpflicht hängt von Ihrem Reisepass und Ihren Reisedaten ab. Prüfen Sie vor der Buchung die offiziellen brasilianischen Konsularinformationen. Lassen Sie sich reisemedizinisch zu Standard- und reisezielspezifischen Impfungen, einschließlich Gelbfieber, beraten und beachten Sie die offiziellen Gesundheitsempfehlungen für Ihre Reiseroute." },
+      { q: "Sind deutschsprachige Reiseleiter bei jeder Exkursion verfügbar?", a: "Ja. Create Travel stellt bei jeder Exkursion deutschsprachige Reiseleiter bereit; die Aktivitäten werden Ihren Interessen und Ihrem Tempo angepasst." },
+      { q: "Kann ich Abenteuerreisen in Brasilien mit anderen brasilianischen Biomen kombinieren?", a: "Ja. Brasilien hat sechs Landbiome plus die Küsten- und Meereszone — sieben unterschiedliche Landschaften und Kulturen. Kombinieren Sie Reiten im Pantanal mit Kanufahren in den Cerrado-Landschaften des Jalapão. Ihr Travel Designer plant Zeit für Transfers ein und prüft die saisonale Vereinbarkeit." },
     ],
     cta: {
-      heading: "Lassen Sie uns Ihre Brasilien-Abenteuer-Expedition planen",
-      subheading: "Ein persönlicher Berater von Create Travel kalibriert Anforderungsgrad, Unterstützung auf dem Weg und Erholungsunterkünfte für jede Etappe.",
-      button: "Mit einem Travel Designer sprechen",
+      heading: "Fordern Sie Ihr Abenteuerreisen in Brasilien-Reiseangebot an",
+      subheading: "Planen Sie Ihre private, maßgeschneiderte Reise mit einem persönlichen Travel Designer — abgestimmt auf Ihre Interessen, Ihr Tempo und Ihre Wunschtermine.",
+      button: "Angebot per WhatsApp anfordern",
     },
     readingMinutes: 13,
     publishedAt: "2026-08-11",
