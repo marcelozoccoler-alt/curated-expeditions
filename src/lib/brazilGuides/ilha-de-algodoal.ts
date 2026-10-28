@@ -181,14 +181,14 @@ export const ilhaDeAlgodoalGuide: BrazilGuideLocalized = {
     destinationName: "Algodoal Island",
     blurb:
       "A car-free island on the Pará coastline, where dunes, freshwater lagoons and fishing villages are reachable only by boat.",
-    metaTitle: "Algodoal Island Guide: Brazil's Car-Free Coastal Escape",
+    metaTitle: "Algodoal Island, Brazil: Itinerary, Best Time & Trip Quote",
     metaDescription:
-      "A complete guide to Algodoal Island (Maiandeua), Pará: when to go, Lago da Princesa, the villages of Fortalezinha and Camboinha, boutique guesthouses and how to get there via Marudá. No prices, just field notes.",
+      "Plan a private, tailor-made Algodoal Island trip: itinerary, best time and how to get there. Request a quote on WhatsApp.",
     keywords:
-      "algodoal island brazil, algodoal maiandeua, lago da princesa, how to get to algodoal, fortalezinha para brazil, algodoal guesthouse, marajo and algodoal",
-    h1: "Algodoal Island: the car-free island guarding Pará's wildest coastline",
+      "algodoal island brazil, algodoal maiandeua, lago da princesa, how to get to algodoal, fortalezinha para brazil, algodoal guesthouse, marajo and algodoal, algodoal island tour, algodoal island itinerary, how to get to algodoal island, best time algodoal island",
+    h1: "Algodoal Island: itinerary, best time and how to get there",
     aiAnswer:
-      "The best time to visit Algodoal Island is between June and November, during the Amazon's dry season, when the sand trails linking the villages are firmer and Lago da Princesa is at its most inviting; access is by road to Marudá, followed by a fifteen to twenty minute boat crossing to Algodoal village.",
+      "The best time to visit Algodoal Island is between June and November, during the Amazon's dry season, when the sand trails linking the villages are firmer and Lago da Princesa is at its most inviting; access is by road to Marudá, followed by a fifteen to twenty minute boat crossing to Algodoal village. Create Travel designs private, tailor-made Algodoal Island trips for international travellers, with English-speaking guides, and sends a written quote via WhatsApp.",
     intro: [
       "Algodoal — or Maiandeua, its indigenous name — is an Environmental Protection Area on Pará's Atlantic coast where cars simply do not exist. Movement happens on foot, by bicycle or in horse-drawn carts, and that absence of asphalt and engines is precisely what preserves shifting dunes, mangroves and beaches stretching for miles without a single tall building.",
       "The island holds four settlements with distinct personalities — Algodoal, Fortalezinha, Camboinha and Mocooca — linked by sand trails and by the riverine, fishing-based life that follows its own rhythm. It is a destination for those who trade urban comfort for silence, freshwater lagoons and the constant sound of wind across the dunes.",
@@ -288,10 +288,26 @@ export const ilhaDeAlgodoalGuide: BrazilGuideLocalized = {
       ],
     },
     itinerary: {
-      heading: "How to fit Algodoal into a Pará itinerary",
+      heading: "Suggested 3-night itinerary and Brazil combinations",
       intro:
         "Algodoal works best as a complement to a Belém stay, combining coastline and rainforest in a single trip to northern Brazil.",
       items: [
+        {
+          title: "Day 1 — Belém to Algodoal",
+          text: "Travel by road to Marudá, cross by boat and settle into your guesthouse in Algodoal village.",
+        },
+        {
+          title: "Day 2 — Dunes and Lago da Princesa",
+          text: "Walk early before the heat, rest during midday and visit the freshwater lagoon at dusk.",
+        },
+        {
+          title: "Day 3 — Fortalezinha",
+          text: "Follow the beach trail with a guide, timing tidal creek crossings to conditions and returning at a comfortable pace.",
+        },
+        {
+          title: "Day 4 — Mangroves and departure",
+          text: "Take a morning boat outing if tides and departure timings permit, then return via Marudá after three island nights.",
+        },
         {
           title: "Belém + Algodoal — 4 days",
           text: "Two days in Belém (Ver-o-Peso market, Estação das Docas) followed by a road trip to Marudá and a boat crossing, with two nights in Algodoal village.",
@@ -303,6 +319,10 @@ export const ilhaDeAlgodoalGuide: BrazilGuideLocalized = {
         {
           title: "Algodoal + Amazon (Santarém/Alter do Chão) — 8 to 10 days",
           text: "Links Pará's Atlantic coast with the Tapajós freshwater beaches, connected by domestic flight via Belém.",
+        },
+        {
+          title: "Combine two or more Brazilian biomes",
+          text: "Brazil has six land biomes plus the coastal and marine zone — seven distinct landscapes and cultures. Combine Algodoal’s coastal and marine zone with the Amazon around Santarém and Alter do Chão, via Belém. We tailor the sequence to seasonal conditions and allow time for transfers.",
         },
       ],
     },
@@ -320,7 +340,7 @@ export const ilhaDeAlgodoalGuide: BrazilGuideLocalized = {
     faq: [
       {
         q: "How do you get to Algodoal Island?",
-        a: "From Belém, travel by road to the town of Marudá, from where regular boats depart to Algodoal village on a fifteen to twenty minute crossing.",
+        a: "Take an international flight to Brazil, connect through a Brazilian hub to Belém, then continue by road to Marudá and by boat to Algodoal village, a fifteen to twenty minute crossing. Create Travel arranges private transfers to the crossing and coordinates onward access on this car-free island.",
       },
       {
         q: "Is it true there are no cars on Algodoal?",
@@ -342,12 +362,24 @@ export const ilhaDeAlgodoalGuide: BrazilGuideLocalized = {
         q: "What is the best time to visit Algodoal?",
         a: "From June to November, the dry season, when the sand trails between villages are firmer and rainfall is less frequent.",
       },
+      {
+        q: "Do I need a visa or vaccines to visit Brazil?",
+        a: "Visa requirements depend on your nationality and travel dates; check official Brazilian consular sources before booking. Ask a qualified travel-health professional about routine vaccines, yellow fever recommendations and any entry or transit requirements, and consult official health guidance for your itinerary.",
+      },
+      {
+        q: "Are English-speaking guides available?",
+        a: "Yes. Create Travel provides English-speaking guides on every excursion in your private, tailor-made itinerary. We plan the pace and interpretation around your interests.",
+      },
+      {
+        q: "Can I combine Algodoal Island with other Brazilian biomes?",
+        a: "Yes. Brazil has six land biomes plus the coastal and marine zone — seven distinct landscapes and cultures. One suggestion is Algodoal’s coastal and marine zone with the Amazon around Santarém and Alter do Chão, via Belém. Your travel designer checks seasonal compatibility and transfer time.",
+      },
     ],
     cta: {
-      heading: "Let's design your trip to Algodoal",
+      heading: "Request your Algodoal Island trip quote",
       subheading:
-        "A human travel designer at Create Travel arranges crossings, guesthouses and the right itinerary to explore Pará's car-free island.",
-      button: "Talk to a travel designer",
+        "Plan a private, tailor-made journey with a human Create Travel travel designer, matching your interests, pace and preferred comfort. Receive your written proposal on WhatsApp.",
+      button: "Request a quote on WhatsApp",
     },
     readingMinutes: 8,
     publishedAt: "2026-08-11",

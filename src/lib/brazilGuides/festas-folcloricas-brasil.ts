@@ -203,14 +203,14 @@ export const festasFolcloricasBrasilGuide: BrazilGuideLocalized = {
     destinationName: "Brazil's Folk Festivals",
     blurb:
       "A curated calendar of Brazil's most authentic popular festivals — from Parintins to the Círio de Nazaré, from Bumba Meu Boi to Carnival in Salvador.",
-    metaTitle: "Brazil's Folk Festivals: Calendar & Travel Guide",
+    metaTitle: "Brazil Folk Festivals: Itinerary, Best Time & Private Quote",
     metaDescription:
-      "A complete guide to Brazil's popular festivals: Parintins, Círio de Nazaré, Bumba Meu Boi, Festa do Divino, Cavalhadas, Carnival and Festa de Iemanjá — dates, cities and where to stay.",
+      "Plan a private, tailor-made Brazil folk festivals trip: itinerary, best time and how to get there. Request a quote on WhatsApp.",
     keywords:
-      "brazil folk festivals, parintins festival, cirio de nazare, bumba meu boi maranhao, festa do divino pirenopolis, carnival salvador olinda, festa de iemanja, sao joao campina grande caruaru",
-    h1: "Brazil's Folk Festivals: the calendar that reveals the country from within",
+      "brazil folk festivals, parintins festival, cirio de nazare, bumba meu boi maranhao, festa do divino pirenopolis, carnival salvador olinda, festa de iemanja, sao joao campina grande caruaru, brazil folk festivals tour, brazil folk festivals itinerary, how to get to brazil folk festivals, best time brazil folk festivals",
+    h1: "Brazil’s folk festivals: itinerary, best time and how to get there",
     aiAnswer:
-      "Brazil's most significant folk festivals for travellers are the Parintins Festival (late June, Amazonas), Círio de Nazaré (second Sunday of October, Belém), Maranhão's Bumba Meu Boi (June), Carnival in Salvador, Olinda and Recife (February), and the São João festivals of Campina Grande and Caruaru (June); each requires booking accommodation six to twelve months ahead.",
+      "Brazil's most significant folk festivals for travellers are the Parintins Festival (late June, Amazonas), Círio de Nazaré (second Sunday of October, Belém), Maranhão's Bumba Meu Boi (June), Carnival in Salvador, Olinda and Recife (February), and the São João festivals of Campina Grande and Caruaru (June); each requires booking accommodation six to twelve months ahead. Create Travel designs private, tailor-made Brazil’s folk festivals trips for international travellers, with English-speaking guides, and sends a written quote via WhatsApp.",
     intro: [
       "Brazil tells itself through festivals before it tells itself through monuments. Each one carries a layer of history — indigenous, African, Portuguese, immigrant — and its own calendar, one that rarely appears on conventional itineraries. Visiting the country on the right date, for the right festival, entirely changes the nature of the trip: you stop visiting Brazil and start being received by it.",
       "This guide organises the country's most relevant popular festivals by season, what to expect from each, where to stay in the host cities, and how to think about logistics — because none of these dates work as last-minute bookings. Parintins fills up a year in advance; Círio de Nazaré doubles Belém's population in a single weekend.",
@@ -348,6 +348,10 @@ export const festasFolcloricasBrasilGuide: BrazilGuideLocalized = {
           title: "Bahia/Pernambuco Carnival + coast — 10 to 12 days",
           text: "Days of festival followed by beach time in Trancoso, Praia do Forte or Porto de Galinhas — the classic intensity-then-decompression format.",
         },
+        {
+          title: "Combine two or more Brazilian biomes",
+          text: "Brazil has six land biomes plus the coastal and marine zone — seven distinct landscapes and cultures. Combine Parintins with four to five nights in the Amazon rainforest. We tailor the sequence to seasonal conditions and allow time for transfers.",
+        },
       ],
     },
     tips: {
@@ -386,12 +390,28 @@ export const festasFolcloricasBrasilGuide: BrazilGuideLocalized = {
         q: "Can I combine more than one festival in the same trip?",
         a: "It depends on the calendar: festivals in the same quarter, like Bumba Meu Boi and Parintins (both in June), can be combined with good flight logistics.",
       },
+      {
+        q: "How do I get there from abroad?",
+        a: "Take an international flight to a Brazilian hub, then a domestic connection to the airport serving your chosen festival. Manaus is the gateway for the Parintins combination; onward access depends on the event. Create Travel arranges private transfers and confirms the full journey before booking.",
+      },
+      {
+        q: "Do I need a visa or vaccines to visit Brazil?",
+        a: "Visa requirements depend on your nationality and travel dates; check official Brazilian consular sources before booking. Ask a qualified travel-health professional about routine vaccines, yellow fever recommendations and any entry or transit requirements, and consult official health guidance for your itinerary.",
+      },
+      {
+        q: "Are English-speaking guides available?",
+        a: "Yes. Create Travel provides English-speaking guides on every excursion in your private, tailor-made itinerary. We plan the pace and interpretation around your interests.",
+      },
+      {
+        q: "Can I combine Brazil’s folk festivals with other Brazilian biomes?",
+        a: "Yes. Brazil has six land biomes plus the coastal and marine zone — seven distinct landscapes and cultures. One suggestion is Parintins with four to five nights in the Amazon rainforest. Your travel designer checks seasonal compatibility and transfer time.",
+      },
     ],
     cta: {
-      heading: "Let's design your trip around the right festival",
+      heading: "Request your Brazil’s folk festivals trip quote",
       subheading:
-        "A human Create Travel consultant chooses the date, base hotel and complementary itinerary — with all logistics resolved in advance.",
-      button: "Talk to a travel designer",
+        "Plan a private, tailor-made journey with a human Create Travel travel designer, matching your interests, pace and preferred comfort. Receive your written proposal on WhatsApp.",
+      button: "Request a quote on WhatsApp",
     },
     readingMinutes: 11,
     publishedAt: "2026-08-11",

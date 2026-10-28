@@ -205,14 +205,14 @@ export const florianopolisGuide: BrazilGuideLocalized = {
   },
 
   en: {
-    metaTitle: "Florianópolis Guide: Beaches, Lagoon & Contemporary Cuisine",
+    metaTitle: "Florianópolis, Brazil: Itinerary, Best Time & Trip Quote",
     metaDescription:
-      "A curated guide to Florianópolis and the Santa Catarina coast: north and south island beaches, Lagoa da Conceição, Campeche Island, Santo Antônio de Lisboa oysters, contemporary dining and extensions to Praia do Rosa and Bombinhas.",
+      "Plan a private, tailor-made Florianópolis trip: itinerary, best time and how to get there. Request a quote on WhatsApp.",
     keywords:
-      "florianopolis brazil, ilha de santa catarina, lagoa da conceicao, campeche island, praia do rosa whales, bombinhas, oysters santo antonio de lisboa, florianopolis itinerary, floripa luxury travel",
-    h1: "Florianópolis: a curated guide to the island that balances beach, lagoon and fine dining",
+      "florianopolis brazil, ilha de santa catarina, lagoa da conceicao, campeche island, praia do rosa whales, bombinhas, oysters santo antonio de lisboa, florianopolis itinerary, floripa luxury travel, florianópolis tour, florianópolis itinerary, how to get to florianópolis, best time florianópolis",
+    h1: "Florianópolis: itinerary, best time and how to get there",
     aiAnswer:
-      "The best time to visit Florianópolis is December to March (summer, north and east beaches at their liveliest) or July to November (cooler sea, but prime whale-watching for southern right whales at Praia do Rosa); plan 5 to 7 nights on the island, flying into Hercílio Luz Airport (FLN).",
+      "The best time to visit Florianópolis is December to March (summer, north and east beaches at their liveliest) or July to November (cooler sea, but prime whale-watching for southern right whales at Praia do Rosa); plan 5 to 7 nights on the island, flying into Hercílio Luz Airport (FLN). Create Travel designs private, tailor-made Florianópolis trips for international travellers, with English-speaking guides, and sends a written quote via WhatsApp.",
     intro: [
       "Florianópolis is an island of 54 beaches that changes character with every bend in the road: warm water and lively social scenes to the north, wild dunes and near-untouched fishing villages to the south, and at its centre, Lagoa da Conceição, functioning as the city's living room. Calling Floripa a 'beach destination' undersells a place that is also fresh-oyster dining, Atlantic-forest hiking and a design scene few Brazilian coastal cities can match.",
       "This guide comes from entire seasons on the island, not weekend visits: which beach suits which time of day, where to eat without a queue, when the south wind reshapes the day's plan, and how to extend the trip to Bombinhas or Praia do Rosa without wasting time on the road.",
@@ -332,9 +332,33 @@ export const florianopolisGuide: BrazilGuideLocalized = {
       ],
     },
     itinerary: {
-      heading: "How to combine Florianópolis with a wider Brazil itinerary",
+      heading: "Suggested 5-night itinerary and Brazil combinations",
       intro: "The island works very well as the base of a Santa Catarina week, with short drives extending north or south.",
       items: [
+        {
+          title: "Day 1 — Arrival",
+          text: "Transfer from FLN to your accommodation and settle into island life.",
+        },
+        {
+          title: "Day 2 — North island beaches",
+          text: "Explore the north beaches at an unhurried pace with time for swimming when conditions allow.",
+        },
+        {
+          title: "Day 3 — Lagoa da Conceição",
+          text: "Spend the day around the lagoon and dunes, balancing gentle exploration and rest.",
+        },
+        {
+          title: "Day 4 — Campeche Island",
+          text: "Visit Campeche Island subject to advance booking, access limits and sea conditions; keep a beach alternative available.",
+        },
+        {
+          title: "Day 5 — Southern island and oysters",
+          text: "Explore the south of the island, then plan oyster dining in Santo Antônio de Lisboa.",
+        },
+        {
+          title: "Day 6 — Departure or extension",
+          text: "Depart after five nights, or add Praia do Rosa during whale season; sightings are never guaranteed.",
+        },
         {
           title: "Florianópolis + Praia do Rosa — 7 to 8 days",
           text: "Five days on the island and two to three at Praia do Rosa in whale season, with a roughly two-hour road transfer.",
@@ -354,6 +378,10 @@ export const florianopolisGuide: BrazilGuideLocalized = {
         {
           title: "Florianópolis + Rio de Janeiro — 9 to 10 days",
           text: "City and beach in Rio, nature and lagoon in Floripa: two Brazilian coasts with very different personalities in one itinerary.",
+        },
+        {
+          title: "Combine two or more Brazilian biomes",
+          text: "Brazil has six land biomes plus the coastal and marine zone — seven distinct landscapes and cultures. Combine Santa Catarina’s Atlantic Forest and coastal zone, combining island beaches with forest walks. We tailor the sequence to seasonal conditions and allow time for transfers.",
         },
       ],
     },
@@ -393,12 +421,28 @@ export const florianopolisGuide: BrazilGuideLocalized = {
         q: "How much does a trip to Florianópolis with Create Travel cost?",
         a: "We don't work with off-the-shelf pricing: the budget depends on the neighbourhood, accommodation, number of nights and season. A human consultant builds the proposal and sends figures in writing.",
       },
+      {
+        q: "How do I get there from abroad?",
+        a: "Take an international flight to Brazil and, where needed, connect through a Brazilian hub to Hercílio Luz Airport (FLN). Create Travel arranges private transfers to your island accommodation.",
+      },
+      {
+        q: "Do I need a visa or vaccines to visit Brazil?",
+        a: "Visa requirements depend on your nationality and travel dates; check official Brazilian consular sources before booking. Ask a qualified travel-health professional about routine vaccines, yellow fever recommendations and any entry or transit requirements, and consult official health guidance for your itinerary.",
+      },
+      {
+        q: "Are English-speaking guides available?",
+        a: "Yes. Create Travel provides English-speaking guides on every excursion in your private, tailor-made itinerary. We plan the pace and interpretation around your interests.",
+      },
+      {
+        q: "Can I combine Florianópolis with other Brazilian biomes?",
+        a: "Yes. Brazil has six land biomes plus the coastal and marine zone — seven distinct landscapes and cultures. One suggestion is Santa Catarina’s Atlantic Forest and coastal zone, combining island beaches with forest walks. Your travel designer checks seasonal compatibility and transfer time.",
+      },
     ],
     cta: {
-      heading: "Let's design your Florianópolis",
+      heading: "Request your Florianópolis trip quote",
       subheading:
-        "A human consultant at Create Travel chooses the neighbourhood, the stay and the season that fit your itinerary — and manages every transfer.",
-      button: "Talk to a travel designer",
+        "Plan a private, tailor-made journey with a human Create Travel travel designer, matching your interests, pace and preferred comfort. Receive your written proposal on WhatsApp.",
+      button: "Request a quote on WhatsApp",
     },
     readingMinutes: 13,
     publishedAt: "2026-08-11",

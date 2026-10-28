@@ -200,14 +200,14 @@ export const fernandoDeNoronhaGuide: BrazilGuideLocalized = {
   },
 
   en: {
-    metaTitle: "Fernando de Noronha Guide: Best Time, Fees & Where to Stay",
+    metaTitle: "Fernando de Noronha, Brazil: Itinerary, Best Time & Quote",
     metaDescription:
-      "A curated guide to Fernando de Noronha, Brazil: environmental fees and marine park ticket, Baía do Sancho, diving, spinner dolphins, calm-sea season and the best pousadas by traveler profile.",
+      "Plan a private, tailor-made Noronha trip: itinerary, best time and how to get there. Request a quote on WhatsApp.",
     keywords:
-      "fernando de noronha brazil, baia do sancho, noronha environmental fee, diving fernando de noronha, spinner dolphins, best time fernando de noronha, pousadas fernando de noronha, marine national park ticket noronha, luxury fernando de noronha trip",
-    h1: "Fernando de Noronha: a curated guide from people who return every year",
+      "fernando de noronha brazil, baia do sancho, noronha environmental fee, diving fernando de noronha, spinner dolphins, best time fernando de noronha, pousadas fernando de noronha, marine national park ticket noronha, luxury fernando de noronha trip, noronha tour, noronha itinerary, how to get to noronha, best time noronha",
+    h1: "Fernando de Noronha: itinerary, best time and how to get there",
     aiAnswer:
-      "The best time to visit Fernando de Noronha, Brazil, is August to December, when the sea is calmest and diving visibility reaches 40 metres; plan 5 to 7 nights, fly in via Recife (REC) or Natal (NAT), and budget for the daily environmental preservation fee plus a separate marine national park ticket.",
+      "The best time to visit Fernando de Noronha, Brazil, is August to December, when the sea is calmest and diving visibility reaches 40 metres; plan 5 to 7 nights, fly in via Recife (REC) or Natal (NAT), and allow for the daily environmental preservation fee plus a separate marine national park ticket. Create Travel designs private, tailor-made Fernando de Noronha trips for international travellers, with English-speaking guides, and sends a written quote via WhatsApp.",
     intro: [
       "Fernando de Noronha is a volcanic archipelago 545 km off the coast of Pernambuco, just over 17 km² of dry land, protected by a visitation system designed to preserve what makes it singular: intact reefs, one of the world's largest resident populations of spinner dolphins, and bays repeatedly ranked among the most beautiful on the planet. It is not a stopover destination — it sets its own pace, with a daily cap on visitor numbers and rules that are part of the experience rather than an obstacle to it.",
       "This guide gathers what we have learned by walking the island in different seasons: when the sea turns aquarium-clear, how the fees actually work, which beaches require a hike, and which pousadas genuinely earn Brazil's highest nightly rates. Before any quote, we help you decide how many nights this island deserves — usually more than people first imagine.",
@@ -324,10 +324,34 @@ export const fernandoDeNoronhaGuide: BrazilGuideLocalized = {
       ],
     },
     itinerary: {
-      heading: "How to fit Noronha into a wider Brazil itinerary",
+      heading: "Suggested 5-night itinerary and Brazil combinations",
       intro:
         "The island has limited, weather-sensitive flight schedules, so we never build tight connections around Noronha. We always recommend a buffer night in Recife or Natal before and after the archipelago.",
       items: [
+        {
+          title: "Day 1 — Island arrival",
+          text: "Settle into your pousada and explore Vila dos Remédios, with sunset at Forte dos Remédios.",
+        },
+        {
+          title: "Day 2 — Sancho and the dolphin lookout",
+          text: "Visit Baía do Sancho and the Mirante dos Golfinhos, following park rules. Wildlife sightings are never guaranteed.",
+        },
+        {
+          title: "Day 3 — Explore by boat",
+          text: "Take a boat outing with snorkelling stops selected for sea conditions and current park permissions.",
+        },
+        {
+          title: "Day 4 — Atalaia",
+          text: "Plan a guided Atalaia visit subject to advance permits and tide slots, with time to rest afterwards.",
+        },
+        {
+          title: "Day 5 — Diving or beach time",
+          text: "Choose scuba diving suited to your experience or a relaxed beach day at Praia da Conceição.",
+        },
+        {
+          title: "Day 6 — Departure",
+          text: "Leave after five island nights, with a buffer night on the mainland before an international connection.",
+        },
         {
           title: "Noronha + Recife and Porto de Galinhas — 9 to 11 days",
           text: "Four to five island nights and the rest between the Pernambuco capital and Porto de Galinhas' natural pools. The contrast of isolation and coastal life suits first-time visitors to the Northeast.",
@@ -347,6 +371,10 @@ export const fernandoDeNoronhaGuide: BrazilGuideLocalized = {
         {
           title: "Noronha + Rio de Janeiro — 10 days",
           text: "Island first, to let mind and body settle into calmer seas, closing with the big city, culture and Rio's dining scene.",
+        },
+        {
+          title: "Combine two or more Brazilian biomes",
+          text: "Brazil has six land biomes plus the coastal and marine zone — seven distinct landscapes and cultures. Combine Amazon rainforest via Recife, allowing buffer nights for connections. We tailor the sequence to seasonal conditions and allow time for transfers.",
         },
       ],
     },
@@ -380,18 +408,30 @@ export const fernandoDeNoronhaGuide: BrazilGuideLocalized = {
       },
       {
         q: "How do you get to Fernando de Noronha?",
-        a: "Flights depart from Recife (REC) or Natal (NAT), taking roughly an hour and a half or one hour respectively, on smaller aircraft with limited frequency — we recommend booking flights as soon as dates are confirmed.",
+        a: "Take an international flight to Brazil, connect through Recife (REC) or Natal (NAT), then fly to Fernando de Noronha. Create Travel arranges private island transfers; allow buffer nights around weather-sensitive flights.",
       },
       {
         q: "How much does a trip to Fernando de Noronha with Create Travel cost?",
         a: "We do not work with shelf pricing: the budget depends on the pousada, number of nights, season and chosen diving or hiking itinerary. A human consultant builds the proposal and sends the figures in writing.",
       },
+      {
+        q: "Do I need a visa or vaccines to visit Brazil?",
+        a: "Visa requirements depend on your nationality and travel dates; check official Brazilian consular sources before booking. Ask a qualified travel-health professional about routine vaccines, yellow fever recommendations and any entry or transit requirements, and consult official health guidance for your itinerary.",
+      },
+      {
+        q: "Are English-speaking guides available?",
+        a: "Yes. Create Travel provides English-speaking guides on every excursion in your private, tailor-made itinerary. We plan the pace and interpretation around your interests.",
+      },
+      {
+        q: "Can I combine Fernando de Noronha with other Brazilian biomes?",
+        a: "Yes. Brazil has six land biomes plus the coastal and marine zone — seven distinct landscapes and cultures. One suggestion is Amazon rainforest via Recife, allowing buffer nights for connections. Your travel designer checks seasonal compatibility and transfer time.",
+      },
     ],
     cta: {
-      heading: "Let's design your Fernando de Noronha",
+      heading: "Request your Fernando de Noronha trip quote",
       subheading:
-        "A Create Travel consultant chooses the right pousada, season and excursions for your profile — and manages every flight connection.",
-      button: "Talk to a travel designer",
+        "Plan a private, tailor-made journey with a human Create Travel travel designer, matching your interests, pace and preferred comfort. Receive your written proposal on WhatsApp.",
+      button: "Request a quote on WhatsApp",
     },
     readingMinutes: 12,
     publishedAt: "2026-08-11",

@@ -192,14 +192,14 @@ export const floraDoBrasilGuide: BrazilGuideLocalized = {
     destinationName: "Brazilian Flora",
     blurb:
       "A sensory journey through Brazil's flowering seasons: Cerrado everlastings and vellozias, ipê trees in August, Atlantic Forest giants, Amazon water lilies and a Caatinga in bloom.",
-    metaTitle: "Brazilian Flora: A Guide to Blooms and Where to See Them",
+    metaTitle: "Brazilian Flora: Itinerary, Best Time & Private Trip Quote",
     metaDescription:
-      "A curated guide to Brazil's flora: when and where to see ipê blossoms, Cerrado everlastings, giant water lilies, araucaria forests and a flowering Caatinga, biome by biome.",
+      "Plan a private, tailor-made Brazilian flora trip: itinerary, best time and how to get there. Request a quote on WhatsApp.",
     keywords:
-      "brazilian flora, ipe blossom season, cerrado everlasting flowers, amazon water lily, araucaria forest brazil, caatinga bloom, atlantic forest brazil, orchids brazil, botanical travel brazil",
-    h1: "Brazilian Flora: a country that blooms in waves, biome by biome",
+      "brazilian flora, ipe blossom season, cerrado everlasting flowers, amazon water lily, araucaria forest brazil, caatinga bloom, atlantic forest brazil, orchids brazil, botanical travel brazil, brazilian flora tour, brazilian flora itinerary, how to get to brazilian flora, best time brazilian flora",
+    h1: "Brazilian flora: itinerary, best time and how to get there",
     aiAnswer:
-      "The best windows to see Brazil's flora are May to September in the Cerrado (everlasting flowers and vellozias), August–September for ipê blossoms nationwide, December–March for Amazon water lilies, and January–April for the Caatinga in bloom after the first rains.",
+      "The best windows to see Brazil's flora are May to September in the Cerrado (everlasting flowers and vellozias), August–September for ipê blossoms nationwide, December–March for Amazon water lilies, and January–April for the Caatinga in bloom after the first rains. Create Travel designs private, tailor-made Brazilian flora trips for international travellers, with English-speaking guides, and sends a written quote via WhatsApp.",
     intro: [
       "Brazil holds six continental biomes and one of the richest floras on the planet — over 46,000 catalogued plant species, many endemic. It is not one flora but several, each with its own clock, its own bloom window, its own landscape that exists only in that month, on that plateau, along that stream.",
       "This guide grew out of trips made specifically to watch plants bloom — not photographed in passing, but sought out deliberately, with a botanical guide, on the right day. Here is where and when each bloom happens, and how to turn that into an itinerary without relying on luck.",
@@ -324,6 +324,10 @@ export const floraDoBrasilGuide: BrazilGuideLocalized = {
           title: "Flowering Caatinga — 5 days (January to April)",
           text: "Boa Nova and Vale do Catimbau, right after the first rains, with guides expert in flora and endemic birds.",
         },
+        {
+          title: "Combine two or more Brazilian biomes",
+          text: "Brazil has six land biomes plus the coastal and marine zone — seven distinct landscapes and cultures. Combine Cerrado botanical walks with an Amazon water-lily stay, choosing dates around regional flowering windows. We tailor the sequence to seasonal conditions and allow time for transfers.",
+        },
       ],
     },
     tips: {
@@ -362,11 +366,28 @@ export const floraDoBrasilGuide: BrazilGuideLocalized = {
         q: "Do I need a specialist guide for these trips?",
         a: "Strongly recommended: local botanical guides know the exact bloom calendar for each species, which shifts year to year with rainfall.",
       },
+      {
+        q: "How do I get there from abroad?",
+        a: "Take an international flight to a Brazilian hub, then a domestic flight to the local airport for your chosen botanical region. Manaus serves the Amazon options. Create Travel arranges private onward transfers and checks seasonal access before booking.",
+      },
+      {
+        q: "Do I need a visa or vaccines to visit Brazil?",
+        a: "Visa requirements depend on your nationality and travel dates; check official Brazilian consular sources before booking. Ask a qualified travel-health professional about routine vaccines, yellow fever recommendations and any entry or transit requirements, and consult official health guidance for your itinerary.",
+      },
+      {
+        q: "Are English-speaking guides available?",
+        a: "Yes. Create Travel provides English-speaking guides on every excursion in your private, tailor-made itinerary. We plan the pace and interpretation around your interests.",
+      },
+      {
+        q: "Can I combine Brazilian flora with other Brazilian biomes?",
+        a: "Yes. Brazil has six land biomes plus the coastal and marine zone — seven distinct landscapes and cultures. One suggestion is Cerrado botanical walks with an Amazon water-lily stay, choosing dates around regional flowering windows. Your travel designer checks seasonal compatibility and transfer time.",
+      },
     ],
     cta: {
-      heading: "Let's design your Brazilian flora journey",
-      subheading: "A human consultant at Create Travel calibrates the itinerary to the right bloom season, biome by biome.",
-      button: "Talk to a travel designer",
+      heading: "Request your Brazilian flora trip quote",
+      subheading:
+        "Plan a private, tailor-made journey with a human Create Travel travel designer, matching your interests, pace and preferred comfort. Receive your written proposal on WhatsApp.",
+      button: "Request a quote on WhatsApp",
     },
     readingMinutes: 11,
     publishedAt: "2026-08-11",
