@@ -196,14 +196,14 @@ export const costaDoCacauGuide: BrazilGuideLocalized = {
   en: {
     destinationName: "Cocoa Coast",
     blurb: "Ilhéus, Itacaré and Serra Grande: Jorge Amado's Bahia, surf between palm groves and bean-to-bar chocolate born in the shade of cabruca cocoa.",
-    metaTitle: "Cocoa Coast Brazil: Ilhéus, Itacaré & Serra Grande Guide",
+    metaTitle: "Cocoa Coast, Brazil: Itinerary, Best Time & Quote",
     metaDescription:
-      "A curated guide to Bahia's Cocoa Coast: best time to visit, Ilhéus, Itacaré, Serra Grande, Uruçuca, the Maraú Peninsula gateway, cocoa farms and chocolate, surf, waterfalls and stays like Txai Resort Itacaré.",
+      "Private tailor-made Cocoa Coast trips: suggested itinerary, best time and how to get there. Request a quote on WhatsApp.",
     keywords:
-      "cocoa coast brazil, ilhéus bahia, itacaré brazil, serra grande bahia, uruçuca, marau peninsula, txai resort itacaré, jorge amado, cabruca cocoa, bean to bar chocolate bahia",
-    h1: "Cocoa Coast: between Jorge Amado's literature and the Atlantic Forest",
+      "cocoa coast brazil, ilhéus bahia, itacaré brazil, serra grande bahia, uruçuca, marau peninsula, txai resort itacaré, jorge amado, cabruca cocoa, bean to bar chocolate bahia, cocoa coast tour, cocoa coast itinerary, how to get to cocoa coast, best time cocoa coast",
+    h1: "Cocoa Coast: itinerary, best time and how to get there",
     aiAnswer:
-      "Brazil's Cocoa Coast, on the southern coast of Bahia, includes Ilhéus, Itacaré, Serra Grande and Uruçuca, with the Maraú Peninsula gateway to the south; the best time to visit is September to March, accessed via Ilhéus Airport (IOS), about two hours from Salvador.",
+      "Brazil's Cocoa Coast, on the southern coast of Bahia, includes Ilhéus, Itacaré, Serra Grande and Uruçuca, with the Maraú Peninsula gateway to the south; the best time to visit is September to March, accessed via Ilhéus Airport (IOS), about two hours from Salvador. Create Travel designs private, tailor-made Cocoa Coast trips for international travellers, with English-speaking guides, and sends a written quote via WhatsApp.",
     intro: [
       "It was along this stretch of coast between Ilhéus and Itacaré that Jorge Amado set Gabriela, Clove and Cinnamon — no coincidence, since cocoa and sea have always shared the same horizon here. Cabruca cocoa farms, grown in the shade of original Atlantic Forest, still perfume the air between Ilhéus and Uruçuca, while the coastline runs south to Itacaré, where surfers discovered, in the 1980s, perfect waves hidden behind coconut groves.",
       "This guide moves unhurriedly along the cocoa coastline: historic Ilhéus of Jorge Amado and the Bar Vesúvio, surf and waterfalls in Itacaré, the quiet of Serra Grande, bean-to-bar chocolate farms in Uruçuca, and the gateway to the Maraú Peninsula, where the Cocoa Coast begins to dissolve into dunes and pool-calm sea.",
@@ -316,25 +316,32 @@ export const costaDoCacauGuide: BrazilGuideLocalized = {
       ],
     },
     itinerary: {
-      heading: "How to combine the Cocoa Coast into a Brazil itinerary",
-      intro:
-        "The region connects well with the rest of southern Bahia's coast, always via Ilhéus Airport (IOS), with direct flights from São Paulo, Rio de Janeiro and Salvador.",
+      heading: "Suggested Cocoa Coast itinerary — 4 nights / 5 days",
+      intro: "A private, tailor-made starting point, adjusted to your pace, arrival times and local conditions. Add nights for a more leisurely stay.",
       items: [
         {
-          title: "Cocoa Coast + Maraú Peninsula — 8 to 9 days",
-          text: "Four days between Ilhéus and Itacaré, followed by four to five days on the Maraú Peninsula, extending the beach and pool-calm sea experience.",
+          title: "Day 1 — Arrive in Ilhéus",
+          text: "Arrive at Ilhéus Airport and settle in with a private transfer; explore the historic centre and Jorge Amado landmarks at an unhurried pace.",
         },
         {
-          title: "Cocoa Coast + Salvador — 8 days",
-          text: "Three days of history and culture in Salvador and Pelourinho, followed by five days among cocoa farms, surf and waterfalls in southern Bahia.",
+          title: "Day 2 — Cocoa and chocolate",
+          text: "Visit a pre-booked cabruca cocoa farm near Ilhéus or Uruçuca for a grove walk and bean-to-bar tasting, then continue to Itacaré.",
         },
         {
-          title: "Cocoa Coast + Discovery Coast — 10 to 12 days",
-          text: "A complete tour of southern Bahia's coastline: Ilhéus and Itacaré first, followed by Trancoso and Caraíva further south, linking cocoa, surf and Trancoso's shoreline.",
+          title: "Day 3 — Itacaré beaches",
+          text: "Explore Concha or Tiririca with time for the beach and an optional surf session suited to your experience.",
         },
         {
-          title: "Cocoa Coast standalone — 6 to 7 days",
-          text: "The most popular format: two days in Ilhéus, three in Itacaré and one or two nights in Serra Grande, with an unhurried pace.",
+          title: "Day 4 — Forest and waterfalls",
+          text: "Take a guided forest walk and visit Tijuípe waterfall, adjusting the outing to weather and trail conditions.",
+        },
+        {
+          title: "Day 5 — Serra Grande and departure",
+          text: "Enjoy Serra Grande’s quieter coast before your private transfer back to Ilhéus; add a night if flight timings require it.",
+        },
+        {
+          title: "Combine two or more Brazilian biomes",
+          text: "Brazil has six land biomes — Amazon, Atlantic Forest, Cerrado, Caatinga, Pantanal and Pampa — plus the coastal and marine zone: seven distinct landscapes and cultures. Combine the Cocoa Coast’s Atlantic Forest cocoa farms with its coastal and marine beaches. We plan the pace and connections around seasonal conditions; wildlife sightings are never guaranteed.",
         },
       ],
     },
@@ -360,7 +367,7 @@ export const costaDoCacauGuide: BrazilGuideLocalized = {
       },
       {
         q: "How do you get to Itacaré and the Cocoa Coast?",
-        a: "Access is via Ilhéus Airport (IOS), with direct flights from São Paulo, Rio de Janeiro and Salvador, followed by about a 1h30 drive to Itacaré.",
+        a: "Fly internationally to a Brazilian hub such as São Paulo or Rio de Janeiro, then take a domestic flight to Ilhéus Airport (IOS). Create Travel arranges private transfers to your stay or embarkation point.",
       },
       {
         q: "Can you visit cocoa farms and taste bean-to-bar chocolate in the region?",
@@ -374,12 +381,14 @@ export const costaDoCacauGuide: BrazilGuideLocalized = {
         q: "How much does a trip to the Cocoa Coast with Create Travel cost?",
         a: "We do not work with off-the-shelf pricing: the budget depends on the stay, season and itinerary. A human consultant presents a written proposal, with no estimates on the site.",
       },
+      { q: "Do I need a visa or vaccinations for Brazil?", a: "Visa requirements depend on your nationality and may change. Check official Brazilian consular and immigration sources before booking. Consult a travel-health professional and official health guidance about routine vaccinations, yellow fever and any regional precautions well before departure." },
+      { q: "Are English-speaking guides available?", a: "Yes. Create Travel provides English-speaking guides on every excursion, as part of your private, tailor-made itinerary." },
+      { q: "Can I combine Cocoa Coast with other Brazilian biomes?", a: "Yes. Brazil has six land biomes plus the coastal and marine zone — seven distinct landscapes and cultures. One suggested pairing is the Cocoa Coast’s Atlantic Forest cocoa farms with its coastal and marine beaches. Your travel designer checks seasonal compatibility and allows realistic travel days between regions." },
     ],
     cta: {
-      heading: "Let's design your Cocoa Coast",
-      subheading:
-        "A human consultant from Create Travel chooses between Ilhéus, Itacaré and Serra Grande the right address for your profile.",
-      button: "Talk to a travel designer",
+      heading: "Request your Cocoa Coast trip quote",
+      subheading: "Plan a private, tailor-made journey with a human travel designer, shaped around your interests, pace and preferred season. Receive your written proposal via WhatsApp.",
+      button: "Request a quote on WhatsApp",
     },
     readingMinutes: 11,
     publishedAt: "2026-08-11",

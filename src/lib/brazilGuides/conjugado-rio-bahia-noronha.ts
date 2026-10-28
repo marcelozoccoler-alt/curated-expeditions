@@ -97,11 +97,11 @@ export const conjugadoRioBahiaNoronhaGuide: BrazilGuideLocalized = {
   en: {
     destinationName: "Rio + Bahia + Fernando de Noronha",
     blurb: "A conjugated 14-night route between Brazil's most photographed city, historic Bahia and the clearest waters of the South Atlantic.",
-    metaTitle: "Rio + Bahia + Noronha: 14-Night Itinerary | Create Travel",
-    metaDescription: "An editorial guide to the conjugated route Rio de Janeiro, Salvador/Trancoso and Fernando de Noronha: best season, flights, nights per leg and real experiences.",
-    keywords: "rio bahia noronha itinerary, rio de janeiro trancoso fernando de noronha, 14 day brazil itinerary, bahia noronha trip, luxury brazil coast itinerary",
-    h1: "Rio, Bahia and Noronha: the conjugated route that sums up Brazil's coast",
-    aiAnswer: "The conjugated Rio de Janeiro + Bahia (Salvador and Trancoso) + Fernando de Noronha route works best from September to March, over roughly 14 nights: 4 in Rio, 6 in Bahia (2 in Salvador, 4 in Trancoso) and 4 in Noronha, linked by direct domestic flights or a connection through Recife.",
+    metaTitle: "Rio + Bahia + Noronha, Brazil: Itinerary, Best Time & Quote",
+    metaDescription: "Private tailor-made Rio + Bahia + Noronha trip: suggested itinerary, best time and how to get there. Request a quote on WhatsApp.",
+    keywords: "rio bahia noronha itinerary, rio de janeiro trancoso fernando de noronha, 14 day brazil itinerary, bahia noronha trip, luxury brazil coast itinerary, rio + bahia + noronha tour, rio + bahia + noronha itinerary, how to get to rio + bahia + noronha, best time rio + bahia + noronha",
+    h1: "Rio + Bahia + Noronha: itinerary, best time and how to get there",
+    aiAnswer: "The conjugated Rio de Janeiro + Bahia (Salvador and Trancoso) + Fernando de Noronha route works best from September to March, over roughly 14 nights: 4 in Rio, 6 in Bahia (2 in Salvador, 4 in Trancoso) and 4 in Noronha, linked by direct domestic flights or a connection through Recife. Create Travel designs private, tailor-made Rio + Bahia + Noronha trips for international travellers, with English-speaking guides, and sends a written quote via WhatsApp.",
     intro: [
       "There is a Brazilian axis that, done in the right order, builds like a crescendo: it opens with the urban energy of Rio de Janeiro, moves through the historic and emotional density of Bahia, and closes in the near-unreal suspension of Fernando de Noronha. This is not a checklist of beaches — it is a narrative arc, each leg setting up the next.",
       "This guide comes from dozens of itineraries built on this same backbone, adjusting nights, order and connections to each traveler's profile. Here is what we've learned about linking the three destinations without losing days at airports or momentum in poorly sequenced legs.",
@@ -157,6 +157,7 @@ export const conjugadoRioBahiaNoronhaGuide: BrazilGuideLocalized = {
         { title: "Days 5–6 — Salvador", text: "Two nights in the historic center, enough for Pelourinho, the Lacerda Elevator and a proper Bahian dinner. A 3h30 road transfer or a 40-minute domestic flight to Porto Seguro, followed by 1h by car to Trancoso." },
         { title: "Days 7–10 — Trancoso", text: "Four nights of deceleration, buggy rides along southern Bahia's beaches, plenty of time at the Quadrado. Return to Porto Seguro and fly with a Recife connection to Fernando de Noronha." },
         { title: "Days 11–14 — Fernando de Noronha", text: "Four nights of sea, diving and trails, respecting the marine national park's daily quota. Return flight via Recife, connecting to Rio, São Paulo or an international destination." },
+        { title: "Combine two or more Brazilian biomes", text: "Brazil has six land biomes plus the coastal and marine zone — seven distinct landscapes and cultures. Pair this Atlantic Forest and coastal journey with the Pantanal for a contrasting wetland safari. Your travel designer can allow for travel days and seasonal differences." },
       ],
     },
     tips: {
@@ -171,6 +172,11 @@ export const conjugadoRioBahiaNoronhaGuide: BrazilGuideLocalized = {
       ],
     },
     faq: [
+      { q: "Do I need a visa or vaccinations for Brazil?", a: "Visa requirements depend on your nationality and travel dates. Check official Brazilian consular and immigration sources before booking. Consult a travel-health professional and official health guidance about routine vaccinations, yellow fever advice and any entry requirements for your route." },
+      { q: "Are English-speaking guides available?", a: "Create Travel provides English-speaking guides on every excursion, with private planning tailored to your interests and preferred pace." },
+      { q: "How do international travellers get to Rio + Bahia + Noronha?", a: "Arrive internationally in Rio de Janeiro, or connect through another Brazilian hub. Domestic flights link Salvador and Porto Seguro, with a connection via Recife for Noronha. Private ground transfers are arranged between airports and your stays." },
+      { q: "Can I combine Rio + Bahia + Noronha with other Brazilian biomes?", a: "Yes. Brazil has six land biomes plus the coastal and marine zone — seven distinct landscapes and cultures. Pair this Atlantic Forest and coastal journey with the Pantanal for a contrasting wetland safari. We tailor the sequence to seasonal conditions and realistic transfer times." },
+
       { q: "How many nights are ideal for the Rio + Bahia + Noronha route?", a: "Fourteen nights is the ideal balance: 4 in Rio, 6 in Bahia (2 in Salvador, 4 in Trancoso) and 4 in Noronha. It can be trimmed to 10 by cutting Salvador." },
       { q: "What's the best season for this route?", a: "September to March, peaking in quality between September and November, when Noronha has calmer seas and all three cities have mild weather." },
       { q: "How do you fly between these three destinations?", a: "Rio–Salvador is a direct flight of about 2h. Salvador or Porto Seguro to Noronha requires a connection through Recife or Natal, the only airports with regular direct flights to the archipelago." },
@@ -179,9 +185,9 @@ export const conjugadoRioBahiaNoronhaGuide: BrazilGuideLocalized = {
       { q: "Does this route work for families?", a: "Yes, especially with children 8 and older. Noronha requires extra attention with younger kids due to trails and open-sea diving." },
     ],
     cta: {
-      heading: "Let's design your Rio + Bahia + Noronha",
-      subheading: "A human consultant at Create Travel fine-tunes nights, flights and addresses to your pace — without wasted time on poorly planned connections.",
-      button: "Talk to a travel designer",
+      heading: "Request your Rio + Bahia + Noronha trip quote",
+      subheading: "Plan a private, tailor-made journey with a human travel designer, with the route, stays and pace shaped around you. Receive your written proposal via WhatsApp.",
+      button: "Request a quote on WhatsApp",
     },
     readingMinutes: 11,
     publishedAt: "2026-08-11",

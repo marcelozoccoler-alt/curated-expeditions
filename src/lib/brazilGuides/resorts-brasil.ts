@@ -285,14 +285,14 @@ export const resortsBrasilGuide: BrazilGuideLocalized = {
     destinationName: "Resorts of Brazil",
     blurb:
       "The great Brazilian resorts, curated by Create Travel: from Bahia to Santa Catarina, for couples seeking a retreat and for three-generation families alike.",
-    metaTitle: "Resorts of Brazil: a curated guide to the great addresses",
+    metaTitle: "Brazil Resorts: Itinerary, Best Time & Private Trip Quote",
     metaDescription:
-      "A full guide to Brazil's best resorts: Txai Itacaré, Nannai, Kiaroa, Ponta dos Ganchos, Fasano, Cristalino Lodge and more — when to go, who each one serves, and how to fold it into a wider Brazil itinerary.",
+      "Private, tailor-made Brazil resort trip: itinerary, best time and how to get there. Request a quote on WhatsApp.",
     keywords:
-      "brazil resorts, best resorts brazil, all inclusive resort brazil, txai itacare, nannai muro alto, ponta dos ganchos, fasano boa vista, tivoli praia do forte, family resort brazil, couples resort brazil",
-    h1: "Resorts of Brazil: a curated guide to the great addresses",
+      "brazil resorts, best resorts brazil, all inclusive resort brazil, txai itacare, nannai muro alto, ponta dos ganchos, fasano boa vista, tivoli praia do forte, family resort brazil, couples resort brazil, brazil resort tour, brazil resort itinerary, how to get to brazil resort, best time brazil resort",
+    h1: "Brazil resort: itinerary, best time and how to get there",
     aiAnswer:
-      "Brazil's great resorts split by profile: design and couples' retreats (Txai Itacaré, Ponta dos Ganchos, Fasano Boa Vista and Angra, Casa Turquesa), family all-inclusive beach resorts (Nannai, Iberostar Bahia, Salinas Maragogi and Maceió, Vila Galé Marés, Tivoli Praia do Forte), mountain resorts (Botanique, Wish Serrano) and pure nature (Cristalino Lodge, Rio Quente); the best general season is April–November in the Northeast (less rain) and December–March in the South/Southeast (summer).",
+      "Brazil's great resorts split by profile: design and couples' retreats (Txai Itacaré, Ponta dos Ganchos, Fasano Boa Vista and Angra, Casa Turquesa), family all-inclusive beach resorts (Nannai, Iberostar Bahia, Salinas Maragogi and Maceió, Vila Galé Marés, Tivoli Praia do Forte), mountain resorts (Botanique, Wish Serrano) and pure nature (Cristalino Lodge, Rio Quente); the best general season is April–November in the Northeast (less rain) and December–March in the South/Southeast (summer). Create Travel designs private, tailor-made Brazil resort trips for international travellers, with English-speaking guides, and sends a written quote via WhatsApp.",
     intro: [
       "'Resort' in Brazil can mean very different things: a twenty-bungalow retreat between the Atlantic Forest and the sea in Itacaré, a five-hundred-apartment all-inclusive complex in Maragogi, a boutique mountain hotel in inland São Paulo, or a wildlife-watching lodge in the mid-west. They all sit under the same label — which is exactly why choosing the wrong one costs you in expectations, not only in money.",
       "This guide organizes Brazil's great addresses by region and profile: what each one delivers, who it serves, whether it is all-inclusive or à la carte, whether it suits couples or families, and how it fits — or doesn't — into a wider Brazil itinerary. This is the curation we do before any proposal.",
@@ -511,8 +511,7 @@ export const resortsBrasilGuide: BrazilGuideLocalized = {
         {
           title: "Foz do Iguaçu + Rio Quente + Rio de Janeiro — 12 days",
           text: "The Falls, family thermal waters and a finale in the marvelous city — the most requested classic family itinerary for those with children who want variety without sacrificing comfort.",
-        },
-      ],
+        }, {"title": "Combine two or more Brazilian biomes", "text": "Brazil has six land biomes plus the coastal and marine zone — seven distinct landscapes and cultures. Combine the Amazon at Cristalino Lodge with the Pantanal, allowing time for air logistics via Cuiabá."}],
     },
     tips: {
       heading: "Practical tips that make a difference",
@@ -549,14 +548,12 @@ export const resortsBrasilGuide: BrazilGuideLocalized = {
       {
         q: "How much does it cost to stay at Brazil's great resorts?",
         a: "We don't publish rates: they vary by room category, date and board plan, and change throughout the year. A human Create Travel consultant presents a written proposal with rates negotiated at the time of your inquiry.",
-      },
-    ],
+      }, {"q": "How do I get to Brazil resort?", "a": "Take an international flight to a Brazilian hub, then a domestic connection to the airport serving your chosen resort where needed. For example, Rio de Janeiro can be combined with Paraty or Angra by road without an internal flight. Create Travel arranges private transfers and confirms access for each property."}, {"q": "Do I need a visa or vaccines for Brazil?", "a": "Visa requirements depend on your nationality and travel dates. Check official Brazilian consular guidance before booking, and consult official health advice and a travel-health professional about vaccines, including yellow fever where relevant to your itinerary."}, {"q": "Are English-speaking guides available?", "a": "Create Travel provides English-speaking guides on every excursion as part of your private, tailor-made trip."}, {"q": "Can I combine Brazil resort with other Brazilian biomes?", "a": "Brazil has six land biomes plus the coastal and marine zone — seven distinct landscapes and cultures. Combine the Amazon at Cristalino Lodge with the Pantanal, allowing time for air logistics via Cuiabá."}],
     cta: {
-      heading: "Let's choose your resort in Brazil",
-      subheading:
-        "A human Create Travel consultant matches your profile, season and itinerary to the right address — and negotiates rate and availability for your dates on WhatsApp.",
-      button: "Talk to a travel designer",
-    },
+      "heading": "Request your Brazil resort trip quote",
+      "subheading": "Plan a private, tailor-made journey with a human travel designer, who shapes your itinerary around your dates, interests and pace and sends a written quote via WhatsApp.",
+      "button": "Request a quote on WhatsApp"
+},
     readingMinutes: 13,
     publishedAt: "2026-08-11",
   },

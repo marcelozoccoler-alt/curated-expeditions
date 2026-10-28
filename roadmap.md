@@ -25,3 +25,4 @@
 - [x] Inserir 9 novos grupos com guia desde o Brasil (Mendoza Carnaval 04/02; Sul da Itália 19/04; Lagos Chilenos 19/04; Escandinávia 26/04; Sicília & Malta 14/05; Turquia 15/05; Cáucaso 24/05; África do Sul 24/05; China & Coreia 02/06) — África do Sul 04/02 era duplicata; rotas, cards, catálogo, sitemap (973 URLs) e llms atualizados e verificados no preview
 - [x] Lote 26/09: inserir Marrocos 12/05, Salta 07/02, Turquia & Grécia 20/05, Suíça & N. Itália 02/06, Japão 27/05 (checar duplicatas)
 - [x] Livro Capitais Imperiais: tratar seis fotos recebidas e inseri-las no álbum do primeiro dia em Budapeste, com legendas e apresentação editorial
+- [ ] Aplicar o padrão de conversão em inglês (título, descrição, roteiro, melhor época, como chegar, FAQs, botão de orçamento, dica de combinar biomas) nos 40 guias restantes em src/lib/brazilGuides/ — Alter do Chão e demais; sem publicar.

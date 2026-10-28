@@ -190,14 +190,14 @@ export const costaDoSolNascenteGuide: BrazilGuideLocalized = {
     destinationName: "Costa do Sol Nascente",
     blurb:
       "Eastern Ceará's coast, where cliffs shift colour by the hour and dune buggies replace the road.",
-    metaTitle: "Costa do Sol Nascente, Brazil: Canoa Quebrada & beyond",
+    metaTitle: "Costa do Sol Nascente, Brazil: Itinerary, Best Time & Quote",
     metaDescription:
-      "A curated guide to eastern Ceará's coast: Canoa Quebrada, Morro Branco, Praia das Fontes, Águas Belas, Majorlândia, Ponta Grossa and Icapuí — cliffs, dune buggies, jangada sailing and where to stay.",
+      "Private tailor-made Costa do Sol Nascente trips: suggested itinerary, best time and how to get there. Request a quote on WhatsApp.",
     keywords:
-      "costa do sol nascente ceara, canoa quebrada brazil, morro branco ceara, praia das fontes, aguas belas ceara, majorlandia, ponta grossa ceara, icapui, eastern ceara coast, colorful cliffs brazil",
-    h1: "Costa do Sol Nascente: eastern Ceará's cliffs and dunes",
+      "costa do sol nascente ceara, canoa quebrada brazil, morro branco ceara, praia das fontes, aguas belas ceara, majorlandia, ponta grossa ceara, icapui, eastern ceara coast, colorful cliffs brazil, costa do sol nascente tour, costa do sol nascente itinerary, how to get to costa do sol nascente, best time costa do sol nascente",
+    h1: "Costa do Sol Nascente: itinerary, best time and how to get there",
     aiAnswer:
-      "The Costa do Sol Nascente is the eastern coast of Ceará, Brazil, between Fortaleza and the border with Rio Grande do Norte, covering Canoa Quebrada, Morro Branco, Praia das Fontes, Águas Belas, Majorlândia, Ponta Grossa and Icapuí; the best time to visit is August to December, with strong trade winds for dune buggy rides and jangada sailing and less rain.",
+      "The Costa do Sol Nascente is the eastern coast of Ceará, Brazil, between Fortaleza and the border with Rio Grande do Norte, covering Canoa Quebrada, Morro Branco, Praia das Fontes, Águas Belas, Majorlândia, Ponta Grossa and Icapuí; the best time to visit is August to December, with strong trade winds for dune buggy rides and jangada sailing and less rain. Create Travel designs private, tailor-made Costa do Sol Nascente trips for international travellers, with English-speaking guides, and sends a written quote via WhatsApp.",
     intro: [
       "This stretch of coast earns its name at dawn, when the sun rises straight out of the sea — no island, no hill, nothing between you and the horizon. It begins just past Fortaleza and runs to Icapuí, on the border with Rio Grande do Norte, alternating multicoloured sandstone cliffs, shifting dunes and fishing villages where jangadas still sail out at first light.",
       "This guide comes from driving and buggy trips across the whole coast, not a single resort stay. We map what each beach does differently — Canoa Quebrada's low-key nightlife, Morro Branco's maze of cliffs, quieter Águas Belas and Majorlândia, and Ponta Grossa and Icapuí at the far, nearly untouched end — so choosing a base depends on your itinerary, not a search algorithm.",
@@ -306,21 +306,32 @@ export const costaDoSolNascenteGuide: BrazilGuideLocalized = {
       ],
     },
     itinerary: {
-      heading: "Combining the Costa do Sol Nascente with a Ceará itinerary",
-      intro:
-        "The eastern coast pairs well with Fortaleza as a gateway and, for longer trips, with Jericoacoara on the state's western coast.",
+      heading: "Suggested Costa do Sol Nascente itinerary — 4 nights / 5 days",
+      intro: "A private, tailor-made starting point, adjusted to your pace, arrival times and local conditions. Add nights for a more leisurely stay.",
       items: [
         {
-          title: "Fortaleza + Costa do Sol Nascente — 6 to 8 days",
-          text: "Two to three nights in Fortaleza for food and markets, followed by four to five days touring Canoa Quebrada, Morro Branco and Majorlândia by buggy.",
+          title: "Day 1 — Fortaleza to Morro Branco",
+          text: "Arrive in Fortaleza and transfer privately to the eastern coast.",
         },
         {
-          title: "Costa do Sol Nascente + Icapuí — 8 to 10 days",
-          text: "For those wanting to end the trip at the most isolated point on the route, with final days devoted to empty beaches and artisanal fishing.",
+          title: "Day 2 — Morro Branco and Praia das Fontes",
+          text: "Explore the coloured-cliff corridors and dunes with a guide, subject to safe local conditions.",
         },
         {
-          title: "Full Ceará: east and west — 12 days",
-          text: "Combines the Costa do Sol Nascente with Jericoacoara on the other side of Fortaleza, covering both faces of the Ceará coast in one trip.",
+          title: "Day 3 — Canoa Quebrada",
+          text: "Continue to Canoa Quebrada for its cliffs, village and beach.",
+        },
+        {
+          title: "Day 4 — Majorlândia",
+          text: "Visit the quieter fishing village and coast, with a privately planned beach or buggy outing.",
+        },
+        {
+          title: "Day 5 — Return or Icapuí extension",
+          text: "Return to Fortaleza for departure or add nights in Icapuí for quieter beaches.",
+        },
+        {
+          title: "Combine two or more Brazilian biomes",
+          text: "Brazil has six land biomes — Amazon, Atlantic Forest, Cerrado, Caatinga, Pantanal and Pampa — plus the coastal and marine zone: seven distinct landscapes and cultures. Combine Ceará’s coastal and marine zone with the Caatinga inland. We plan the pace and connections around seasonal conditions; wildlife sightings are never guaranteed.",
         },
       ],
     },
@@ -360,12 +371,15 @@ export const costaDoSolNascenteGuide: BrazilGuideLocalized = {
         q: "How much does a Costa do Sol Nascente trip cost with Create Travel?",
         a: "We don't work with off-the-shelf pricing: the budget depends on the inn, the number of nights and the season. A human consultant presents a written proposal, with no estimates on the site.",
       },
+      { q: "How do I get there from abroad?", a: "Fly internationally to a Brazilian hub and connect to Fortaleza airport, then continue by road along the eastern coast. Create Travel arranges private transfers to your stay or embarkation point." },
+      { q: "Do I need a visa or vaccinations for Brazil?", a: "Visa requirements depend on your nationality and may change. Check official Brazilian consular and immigration sources before booking. Consult a travel-health professional and official health guidance about routine vaccinations, yellow fever and any regional precautions well before departure." },
+      { q: "Are English-speaking guides available?", a: "Yes. Create Travel provides English-speaking guides on every excursion, as part of your private, tailor-made itinerary." },
+      { q: "Can I combine Costa do Sol Nascente with other Brazilian biomes?", a: "Yes. Brazil has six land biomes plus the coastal and marine zone — seven distinct landscapes and cultures. One suggested pairing is Ceará’s coastal and marine zone with the Caatinga inland. Your travel designer checks seasonal compatibility and allows realistic travel days between regions." },
     ],
     cta: {
-      heading: "Let's design your Costa do Sol Nascente trip",
-      subheading:
-        "A human consultant at Create Travel selects the right beaches and inns for your eastern Ceará itinerary.",
-      button: "Talk to a travel designer",
+      heading: "Request your Costa do Sol Nascente trip quote",
+      subheading: "Plan a private, tailor-made journey with a human travel designer, shaped around your interests, pace and preferred season. Receive your written proposal via WhatsApp.",
+      button: "Request a quote on WhatsApp",
     },
     readingMinutes: 10,
     publishedAt: "2026-08-11",

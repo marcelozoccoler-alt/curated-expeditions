@@ -96,11 +96,11 @@ export const conjugadoSulSerraCanyonsGuide: BrazilGuideLocalized = {
   en: {
     destinationName: "Serra, Canyons & Santa Catarina Coast",
     blurb: "A conjugated 11-night route through southern Brazil: the Cambará do Sul canyons, Serra Gaúcha wine country and the Santa Catarina coast with right whales.",
-    metaTitle: "Serra, Canyons & Santa Catarina Coast: 11-Night Itinerary | Create Travel",
-    metaDescription: "An editorial guide to the conjugated route through Cambará do Sul, Serra Gaúcha and Praia do Rosa: best season, real distances and right whales from July to November.",
-    keywords: "southern brazil itinerary, aparados da serra canyons, vale dos vinhedos wine route, praia do rosa right whale, gramado bento gonçalves florianópolis itinerary",
-    h1: "Serra, Canyons & Santa Catarina Coast: the conjugated route through southern Brazil",
-    aiAnswer: "The conjugated route through the Cambará do Sul canyons, the wine-growing Serra Gaúcha and the Santa Catarina coast works best from June to September, over roughly 11 nights: 3 in the canyons, 4 between Bento Gonçalves and Gramado, and 4 in Praia do Rosa and Florianópolis, linked by road from Porto Alegre with departure via Florianópolis.",
+    metaTitle: "Southern Brazil, Brazil: Itinerary, Best Time & Quote",
+    metaDescription: "Private tailor-made Southern Brazil trip: suggested itinerary, best time and how to get there. Request a quote on WhatsApp.",
+    keywords: "southern brazil itinerary, aparados da serra canyons, vale dos vinhedos wine route, praia do rosa right whale, gramado bento gonçalves florianópolis itinerary, southern brazil tour, southern brazil itinerary, how to get to southern brazil, best time southern brazil",
+    h1: "Southern Brazil: itinerary, best time and how to get there",
+    aiAnswer: "The conjugated route through the Cambará do Sul canyons, the wine-growing Serra Gaúcha and the Santa Catarina coast works best from June to September, over roughly 11 nights: 3 in the canyons, 4 between Bento Gonçalves and Gramado, and 4 in Praia do Rosa and Florianópolis, linked by road from Porto Alegre with departure via Florianópolis. Create Travel designs private, tailor-made Southern Brazil trips for international travellers, with English-speaking guides, and sends a written quote via WhatsApp.",
     intro: [
       "Southern Brazil holds a landscape that contradicts the country's tropical image: basalt walls with nearly a thousand meters of vertical drop, vineyards terraced among araucaria-covered hills, and an Atlantic coastline cold enough to host right whales every winter. It's a route of distinct seasons, winding roads and a wine-and-cheese gastronomy that rivals European destinations.",
       "This guide comes from experience linking the Aparados da Serra and Serra Geral canyons, the wine route through Vale dos Vinhedos and Pinto Bandeira, and the Santa Catarina coast of Praia do Rosa and Florianópolis, respecting the real road distances between Porto Alegre, the Serra Gaúcha and the Santa Catarina coast.",
@@ -155,6 +155,7 @@ export const conjugadoSulSerraCanyonsGuide: BrazilGuideLocalized = {
         { title: "Days 4–7 — Serra Gaúcha: Vale dos Vinhedos and Gramado", text: "About 2h30 by road to Bento Gonçalves. Two nights among wineries in Vale dos Vinhedos and Pinto Bandeira, followed by two nights in Gramado, an hour away, for gastronomy and mountain outings." },
         { title: "Days 8–11 — Santa Catarina coast: Praia do Rosa and Florianópolis", text: "About a 4h30 drive to Praia do Rosa, with an optional stop at Serra do Rio do Rastro. Two nights for right whale watching (July to November) and two nights in Florianópolis, 1h30 away, for beaches and island dining." },
         { title: "Return", text: "Flight from Florianópolis to São Paulo or Rio de Janeiro with an international connection, closing the route through the Santa Catarina air gateway." },
+        { title: "Combine two or more Brazilian biomes", text: "Brazil has six land biomes plus the coastal and marine zone — seven distinct landscapes and cultures. Extend the southern Atlantic Forest and coastal route into the Pampa for a contrasting grassland landscape and culture. Your travel designer can allow for travel days and seasonal differences." },
       ],
     },
     tips: {
@@ -169,6 +170,11 @@ export const conjugadoSulSerraCanyonsGuide: BrazilGuideLocalized = {
       ],
     },
     faq: [
+      { q: "Do I need a visa or vaccinations for Brazil?", a: "Visa requirements depend on your nationality and travel dates. Check official Brazilian consular and immigration sources before booking. Consult a travel-health professional and official health guidance about routine vaccinations, yellow fever advice and any entry requirements for your route." },
+      { q: "Are English-speaking guides available?", a: "Create Travel provides English-speaking guides on every excursion, with private planning tailored to your interests and preferred pace." },
+      { q: "How do international travellers get to Southern Brazil?", a: "Fly internationally to a Brazilian hub and connect to Porto Alegre, then take a private road transfer to Cambará do Sul. Depart via Florianópolis with a hub connection as needed. Private transfers link the mountain and coastal stays." },
+      { q: "Can I combine Southern Brazil with other Brazilian biomes?", a: "Yes. Brazil has six land biomes plus the coastal and marine zone — seven distinct landscapes and cultures. Extend the southern Atlantic Forest and coastal route into the Pampa for a contrasting grassland landscape and culture. We tailor the sequence to seasonal conditions and realistic transfer times." },
+
       { q: "How many nights are ideal for the Serra, Canyons & Santa Catarina Coast route?", a: "Eleven nights is the ideal balance: 3 in the Cambará do Sul canyons, 4 between Vale dos Vinhedos and Gramado, and 4 in Praia do Rosa and Florianópolis." },
       { q: "What's the best time to see right whales at Praia do Rosa?", a: "From July to November, with peak sightings between August and October, when females nurse calves close to shore." },
       { q: "Do I need to rent a car for this route?", a: "Yes. Travel between the canyons, the Serra Gaúcha and the Santa Catarina coast depends on the road, and most wineries and viewpoints have no public transport." },
@@ -177,9 +183,9 @@ export const conjugadoSulSerraCanyonsGuide: BrazilGuideLocalized = {
       { q: "Is this route comfortable for travelers over 60?", a: "Yes, with reasonable fitness for light to moderate hikes on the canyon rim trails; the rest of the route combines driving and unhurried outings." },
     ],
     cta: {
-      heading: "Let's design your route through southern Brazil",
-      subheading: "A human consultant at Create Travel arranges drivers, winery reservations and charming inns for a well-linked crossing between mountains and coast.",
-      button: "Talk to a travel designer",
+      heading: "Request your Southern Brazil trip quote",
+      subheading: "Plan a private, tailor-made journey with a human travel designer, with the route, stays and pace shaped around you. Receive your written proposal via WhatsApp.",
+      button: "Request a quote on WhatsApp",
     },
     readingMinutes: 10,
     publishedAt: "2026-08-11",

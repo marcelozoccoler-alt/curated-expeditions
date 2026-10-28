@@ -201,14 +201,14 @@ export const costaDoDescobrimentoGuide: BrazilGuideLocalized = {
   en: {
     destinationName: "Discovery Coast",
     blurb: "Trancoso, Caraíva and Arraial d'Ajuda: where Brazil was born, now home to the most coveted addresses on its coastline.",
-    metaTitle: "Discovery Coast Brazil: Trancoso, Caraíva & Arraial Guide",
+    metaTitle: "Discovery Coast, Brazil: Itinerary, Best Time & Quote",
     metaDescription:
-      "A curated guide to Bahia's Discovery Coast: best time to visit, Trancoso, Caraíva, Arraial d'Ajuda, Espelho and Corumbau, real stays like UXUA and Vila Naiá, and Pataxó culture.",
+      "Private tailor-made Discovery Coast trips: suggested itinerary, best time and how to get there. Request a quote on WhatsApp.",
     keywords:
-      "discovery coast brazil, trancoso bahia, caraiva brazil, arraial d'ajuda, espelho beach, corumbau, uxua casa hotel, porto seguro brazil, monte pascoal, pataxó culture",
-    h1: "The Discovery Coast: where Brazil began",
+      "discovery coast brazil, trancoso bahia, caraiva brazil, arraial d'ajuda, espelho beach, corumbau, uxua casa hotel, porto seguro brazil, monte pascoal, pataxó culture, discovery coast tour, discovery coast itinerary, how to get to discovery coast, best time discovery coast",
+    h1: "Discovery Coast: itinerary, best time and how to get there",
     aiAnswer:
-      "Brazil's Discovery Coast, in southern Bahia, includes Porto Seguro, Trancoso, Arraial d'Ajuda and Caraíva; the best time to visit is September to March, with December and January as Trancoso's peak social season, accessed via Porto Seguro Airport (BPS).",
+      "Brazil's Discovery Coast, in southern Bahia, includes Porto Seguro, Trancoso, Arraial d'Ajuda and Caraíva; the best time to visit is September to March, with December and January as Trancoso's peak social season, accessed via Porto Seguro Airport (BPS). Create Travel designs private, tailor-made Discovery Coast trips for international travellers, with English-speaking guides, and sends a written quote via WhatsApp.",
     intro: [
       "It was here, in April 1500, that Pedro Álvares Cabral's fleet first sighted land, near Monte Pascoal. Five centuries later, the Discovery Coast has become synonymous with another kind of discovery: a shoreline of white sand, preserved Atlantic Forest and villages that resisted overdevelopment in exchange for an almost secret urbanism — dirt roads, unfenced houses, candlelight around Trancoso's Quadrado.",
       "This guide separates what matters from what is merely photogenic. We cover Trancoso and its Quadrado, car-free Caraíva, Arraial d'Ajuda's elegant nightlife, Espelho Beach and Corumbau as extensions of silence, and how Pataxó culture, guardian of the Monte Pascoal reserve, remains present throughout the territory.",
@@ -325,25 +325,32 @@ export const costaDoDescobrimentoGuide: BrazilGuideLocalized = {
       ],
     },
     itinerary: {
-      heading: "How to combine the Discovery Coast with a wider Brazil trip",
-      intro:
-        "The region connects well with the rest of Bahia and the Southeast, always via Porto Seguro Airport (BPS), with direct flights from São Paulo, Rio de Janeiro and Belo Horizonte.",
+      heading: "Suggested Discovery Coast itinerary — 4 nights / 5 days",
+      intro: "A private, tailor-made starting point, adjusted to your pace, arrival times and local conditions. Add nights for a more leisurely stay.",
       items: [
         {
-          title: "Discovery Coast + Salvador — 8 to 10 days",
-          text: "Four days of history in Salvador and the Pelourinho, followed by four to five days of beach and rainforest in southern Bahia.",
+          title: "Day 1 — Porto Seguro to Trancoso",
+          text: "Arrive at Porto Seguro Airport and take a private transfer to Trancoso; leave time to settle in.",
         },
         {
-          title: "Discovery Coast + Abrolhos — 8 days",
-          text: "Five days between Trancoso and Corumbau, with a two-to-three-day diving and whale-watching extension to Abrolhos between July and November.",
+          title: "Day 2 — Trancoso",
+          text: "Explore the Quadrado and nearby beaches at your own pace.",
         },
         {
-          title: "Discovery Coast + Rio de Janeiro — 10 days",
-          text: "The classic Brazilian contrast: city and mountains in Rio, silence and forest in southern Bahia.",
+          title: "Day 3 — Arraial d’Ajuda",
+          text: "Spend a day exploring Arraial d’Ajuda before returning to your coastal base.",
         },
         {
-          title: "Discovery Coast alone — 6 to 7 days",
-          text: "Our most-booked format: three nights in Trancoso, two in Caraíva or Corumbau, without rushing between them.",
+          title: "Day 4 — Caraíva extension",
+          text: "Continue to Caraíva for a quieter overnight stay, with transfers planned around local access conditions.",
+        },
+        {
+          title: "Day 5 — Coastal morning and departure",
+          text: "Enjoy a final morning by the sea before the transfer towards Porto Seguro; add a night for an early flight.",
+        },
+        {
+          title: "Combine two or more Brazilian biomes",
+          text: "Brazil has six land biomes — Amazon, Atlantic Forest, Cerrado, Caatinga, Pantanal and Pampa — plus the coastal and marine zone: seven distinct landscapes and cultures. Combine the Atlantic Forest and coastal and marine landscapes of Discovery Coast. We plan the pace and connections around seasonal conditions; wildlife sightings are never guaranteed.",
         },
       ],
     },
@@ -369,7 +376,7 @@ export const costaDoDescobrimentoGuide: BrazilGuideLocalized = {
       },
       {
         q: "How do you get to Trancoso and the Discovery Coast?",
-        a: "Via Porto Seguro Airport (BPS), with direct flights from São Paulo, Rio de Janeiro and Belo Horizonte, followed by about 1 to 1.5 hours by car to Trancoso or Caraíva.",
+        a: "Fly internationally to a Brazilian hub such as São Paulo or Rio de Janeiro, then connect to Porto Seguro Airport (BPS). Create Travel arranges private transfers to your stay or embarkation point.",
       },
       {
         q: "Can you see whales on the Discovery Coast?",
@@ -383,12 +390,14 @@ export const costaDoDescobrimentoGuide: BrazilGuideLocalized = {
         q: "How much does a Discovery Coast trip cost with Create Travel?",
         a: "We do not work with fixed prices: the budget depends on the pousada, season and itinerary. A human consultant presents a written proposal, with no estimates on the website.",
       },
+      { q: "Do I need a visa or vaccinations for Brazil?", a: "Visa requirements depend on your nationality and may change. Check official Brazilian consular and immigration sources before booking. Consult a travel-health professional and official health guidance about routine vaccinations, yellow fever and any regional precautions well before departure." },
+      { q: "Are English-speaking guides available?", a: "Yes. Create Travel provides English-speaking guides on every excursion, as part of your private, tailor-made itinerary." },
+      { q: "Can I combine Discovery Coast with other Brazilian biomes?", a: "Yes. Brazil has six land biomes plus the coastal and marine zone — seven distinct landscapes and cultures. One suggested pairing is the Atlantic Forest and coastal and marine landscapes of Discovery Coast. Your travel designer checks seasonal compatibility and allows realistic travel days between regions." },
     ],
     cta: {
-      heading: "Let's design your Discovery Coast trip",
-      subheading:
-        "A human consultant from Create Travel chooses between Trancoso, Caraíva and Corumbau the right address for your profile.",
-      button: "Talk to a travel designer",
+      heading: "Request your Discovery Coast trip quote",
+      subheading: "Plan a private, tailor-made journey with a human travel designer, shaped around your interests, pace and preferred season. Receive your written proposal via WhatsApp.",
+      button: "Request a quote on WhatsApp",
     },
     readingMinutes: 11,
     publishedAt: "2026-08-11",

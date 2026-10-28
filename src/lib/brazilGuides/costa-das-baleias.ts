@@ -187,14 +187,14 @@ export const costaDasBaleiasGuide: BrazilGuideLocalized = {
   en: {
     destinationName: "Whale Coast",
     blurb: "Caravelas, Abrolhos and Cumuruxatiba: Brazil's humpback whale sanctuary, July through November.",
-    metaTitle: "Costa das Baleias: Abrolhos Humpback Whale Guide",
+    metaTitle: "Costa das Baleias, Brazil: Itinerary, Best Time & Quote",
     metaDescription:
-      "Jul–Nov, thousands of humpbacks calve in Abrolhos. The best weeks to go, where boats depart and hand-picked stays near Caravelas — by a Brazil travel designer.",
+      "Private tailor-made Costa das Baleias trip: suggested itinerary, best time and how to get there. Request a quote on WhatsApp.",
     keywords:
-      "whale coast bahia, abrolhos brazil, humpback whale bahia, caravelas brazil, prado bahia, cumuruxatiba, corumbau, whale season brazil",
-    h1: "The Whale Coast: the South Atlantic's annual humpback gathering",
+      "whale coast bahia, abrolhos brazil, humpback whale bahia, caravelas brazil, prado bahia, cumuruxatiba, corumbau, whale season brazil, costa das baleias tour, costa das baleias itinerary, how to get to costa das baleias, best time costa das baleias",
+    h1: "Costa das Baleias: itinerary, best time and how to get there",
     aiAnswer:
-      "The Whale Coast, in southern Bahia, is Brazil's main humpback whale watching destination, with a season from July to November (peak in September and October), boat tours departing from Caravelas towards Abrolhos Marine National Park.",
+      "The Whale Coast, in southern Bahia, is Brazil's main humpback whale watching destination, with a season from July to November (peak in September and October), boat tours departing from Caravelas towards Abrolhos Marine National Park. Create Travel designs private, tailor-made Costa das Baleias trips for international travellers, with English-speaking guides, and sends a written quote via WhatsApp.",
     intro: [
       "Every year, between July and November, thousands of humpback whales leave the icy waters of Antarctica and travel more than 6,000 kilometres to the Abrolhos Bank, in southern Bahia, to mate and give birth in warm, protected waters. It is the largest humpback breeding gathering in the South Atlantic — and the reason this stretch of coastline, between Caravelas and Prado, is known as the Whale Coast.",
       "This guide covers a seasonal trip, not a generic beach destination: when to go, where to depart from, what to expect on and off the water, and how to combine whale watching with days on land in Cumuruxatiba, Corumbau and Alcobaça, where Atlantic Forest still meets the sea uninterrupted.",
@@ -302,22 +302,15 @@ export const costaDasBaleiasGuide: BrazilGuideLocalized = {
       ],
     },
     itinerary: {
-      heading: "How to combine the Whale Coast with a wider Brazil trip",
-      intro:
-        "The region connects naturally with the Discovery Coast to the north, forming a single travel block across southern Bahia.",
+      heading: "Suggested five-night Costa das Baleias itinerary",
+      intro: "A private reference plan, tailored to your pace, season and arrival times. Excursions depend on local conditions.",
       items: [
-        {
-          title: "Whale Coast + Discovery Coast — 8 to 10 days",
-          text: "Four to five days between Caravelas, Corumbau and Abrolhos, followed by three to four days in Trancoso or Caraíva.",
-        },
-        {
-          title: "Whale Coast alone — 4 to 5 days",
-          text: "A focused format for those travelling specifically for whale season: two nights in Caravelas with two boat tours, plus two or three beach days in Cumuruxatiba.",
-        },
-        {
-          title: "Whale Coast + Salvador — 9 days",
-          text: "Four days of history and food in Salvador, followed by five days of sea and whales in the state's far south.",
-        },
+        { title: "Day 1 — Arrival in Caravelas", text: "Arrive via Porto Seguro or Teixeira de Freitas and transfer privately to Caravelas for the first of two nights." },
+        { title: "Day 2 — Abrolhos and whale watching", text: "Plan a boat excursion from Caravelas, subject to weather and sea conditions. July to November is whale season; sightings are likely in season, though never guaranteed." },
+        { title: "Day 3 — Coastal transfer", text: "Allow a second boat opportunity if conditions and timing permit, then continue to Cumuruxatiba for three nights by the sea." },
+        { title: "Days 4–5 — Cumuruxatiba", text: "Enjoy two unhurried beach days, with activities adapted to tides and sea conditions." },
+        { title: "Day 6 — Departure", text: "Return by private road transfer to your departure airport, allowing ample time for the journey." },
+        { title: "Combine two or more Brazilian biomes", text: "Brazil has six land biomes plus the coastal and marine zone — seven distinct landscapes and cultures. Pair the Whale Coast with the Pantanal for coastal and marine experiences followed by inland wetlands. Your travel designer can allow for travel days and seasonal differences." },
       ],
     },
     tips: {
@@ -332,6 +325,11 @@ export const costaDasBaleiasGuide: BrazilGuideLocalized = {
       ],
     },
     faq: [
+      { q: "Do I need a visa or vaccinations for Brazil?", a: "Visa requirements depend on your nationality and travel dates. Check official Brazilian consular and immigration sources before booking. Consult a travel-health professional and official health guidance about routine vaccinations, yellow fever advice and any entry requirements for your route." },
+      { q: "Are English-speaking guides available?", a: "Create Travel provides English-speaking guides on every excursion, with private planning tailored to your interests and preferred pace." },
+      { q: "How do international travellers get to Costa das Baleias?", a: "Fly internationally to a Brazilian hub and connect to Porto Seguro or Teixeira de Freitas, then continue by private road transfer to Caravelas. Private transfers are arranged around your arrival and departure flights." },
+      { q: "Can I combine Costa das Baleias with other Brazilian biomes?", a: "Yes. Brazil has six land biomes plus the coastal and marine zone — seven distinct landscapes and cultures. Pair the Whale Coast with the Pantanal for coastal and marine experiences followed by inland wetlands. We tailor the sequence to seasonal conditions and realistic transfer times." },
+
       {
         q: "What is the best time to see humpback whales in Bahia?",
         a: "July to November, with peak concentration between August and October. Tours depart from Caravelas towards Abrolhos Marine National Park.",
@@ -354,14 +352,13 @@ export const costaDasBaleiasGuide: BrazilGuideLocalized = {
       },
       {
         q: "How much does a Whale Coast trip cost with Create Travel?",
-        a: "We do not work with fixed prices: the budget depends on the pousada, season and number of boat tours. A human consultant presents a written proposal.",
+        a: "We do not work with fixed prices: the proposal depends on the pousada, season and number of boat tours. A human consultant presents a written proposal.",
       },
     ],
     cta: {
-      heading: "Let's design your whale season trip",
-      subheading:
-        "A human consultant from Create Travel arranges the tours, the right dates and accommodation between Caravelas, Corumbau and Cumuruxatiba.",
-      button: "Talk to a travel designer",
+      heading: "Request your Costa das Baleias trip quote",
+      subheading: "Plan a private, tailor-made journey with a human travel designer, with the route, stays and pace shaped around you. Receive your written proposal via WhatsApp.",
+      button: "Request a quote on WhatsApp",
     },
     readingMinutes: 10,
     publishedAt: "2026-08-11",

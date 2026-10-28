@@ -185,14 +185,14 @@ export const costaDoDendeGuide: BrazilGuideLocalized = {
     destinationName: "Dendê Coast",
     blurb:
       "Maraú Peninsula, Boipeba and Morro de São Paulo: Bahia's greenest, slowest coastline, framed by Brazil's second-largest bay.",
-    metaTitle: "Dendê Coast Guide: Maraú, Boipeba & Morro de São Paulo",
+    metaTitle: "Dendê Coast, Brazil: Itinerary, Best Time & Quote",
     metaDescription:
-      "A complete guide to Bahia's Dendê Coast: best time to visit, Barra Grande and Taipu de Fora beaches, Boipeba, Morro de São Paulo, real hotels and how to plan your itinerary.",
+      "Private tailor-made Dendê Coast trips: suggested itinerary, best time and how to get there. Request a quote on WhatsApp.",
     keywords:
-      "dende coast bahia, marau peninsula, barra grande bahia, taipu de fora, boipeba island, morro de sao paulo, camamu bay, kiaroa resort, bahian cuisine palm oil",
-    h1: "The Dendê Coast: the stretch of Bahia that is still just nature",
+      "dende coast bahia, marau peninsula, barra grande bahia, taipu de fora, boipeba island, morro de sao paulo, camamu bay, kiaroa resort, bahian cuisine palm oil, dendê coast tour, dendê coast itinerary, how to get to dendê coast, best time dendê coast",
+    h1: "Dendê Coast: itinerary, best time and how to get there",
     aiAnswer:
-      "The Dendê Coast lies on Bahia's southern shoreline, between Camamu Bay — Brazil's second-largest — and the Atlantic, covering the Maraú Peninsula (Barra Grande, Taipu de Fora), Boipeba and Morro de São Paulo on Cairu Island; the best season runs September to March, reached by boat or small plane from Salvador or Ilhéus.",
+      "The Dendê Coast lies on Bahia's southern shoreline, between Camamu Bay — Brazil's second-largest — and the Atlantic, covering the Maraú Peninsula (Barra Grande, Taipu de Fora), Boipeba and Morro de São Paulo on Cairu Island; the best season runs September to March, reached by boat or small plane from Salvador or Ilhéus. Create Travel designs private, tailor-made Dendê Coast trips for international travellers, with English-speaking guides, and sends a written quote via WhatsApp.",
     intro: [
       "There is a stretch of the Bahian coast where palm oil trees still rule the landscape, red dirt roads dead-end into coconut groves, and the tide, not the clock, decides lunchtime. It is called the Dendê Coast, named after the oil that has perfumed the region's kitchens since enslaved Africans first brought the palm to Bahia. It is a mosaic of peninsula, islands and a bay so large it feels like open sea — Camamu, the country's second-largest, behind only the Bay of All Saints.",
       "This guide gathers what we learned navigating these waters: the real difference between Barra Grande and Taipu de Fora, why Boipeba still has no cars and no rush, what Morro de São Paulo keeps authentic behind its fame, and how to choose between speedboat, plane or road without losing a day of travel.",
@@ -296,21 +296,32 @@ export const costaDoDendeGuide: BrazilGuideLocalized = {
       ],
     },
     itinerary: {
-      heading: "How to combine the Dendê Coast with a Bahia itinerary",
-      intro:
-        "The region pairs well with Salvador and with Bahia's southern coast, as long as boat and flight connections are well planned.",
+      heading: "Suggested Dendê Coast itinerary — 4 nights / 5 days",
+      intro: "A private, tailor-made starting point, adjusted to your pace, arrival times and local conditions. Add nights for a more leisurely stay.",
       items: [
         {
-          title: "Salvador + Dendê Coast — 7 to 9 days",
-          text: "Three nights of historic city and culture, followed by four to five nights between Barra Grande and Boipeba, with boat transfer from Salvador or Valença.",
+          title: "Day 1 — Arrive on the Maraú Peninsula",
+          text: "Travel via Salvador or Ilhéus with planned road and boat connections, then settle into your coastal stay.",
         },
         {
-          title: "Dendê Coast + Trancoso/Arraial d'Ajuda — 10 to 12 days",
-          text: "Joins the more untouched southern coast (Dendê) with the more sophisticated one (Discovery Coast), with a domestic flight via Ilhéus or Porto Seguro.",
+          title: "Day 2 — Barra Grande",
+          text: "Explore the village and enjoy an unhurried beach day.",
         },
         {
-          title: "Island circuit — 8 days",
-          text: "Morro de São Paulo, Boipeba and Barra Grande in sequence, connected by boat — ideal for feeling the differences between each without repeating scenery.",
+          title: "Day 3 — Taipu de Fora",
+          text: "Visit the natural pools at a suitable low tide, leaving the rest of the day free for the beach.",
+        },
+        {
+          title: "Day 4 — Camamu Bay",
+          text: "Take a private boat outing through the bay, subject to sea and weather conditions.",
+        },
+        {
+          title: "Day 5 — Departure or island extension",
+          text: "Return with coordinated boat and road transfers, or add nights on Boipeba rather than rushing an island circuit.",
+        },
+        {
+          title: "Combine two or more Brazilian biomes",
+          text: "Brazil has six land biomes — Amazon, Atlantic Forest, Cerrado, Caatinga, Pantanal and Pampa — plus the coastal and marine zone: seven distinct landscapes and cultures. Combine the Atlantic Forest and coastal and marine landscapes of Dendê Coast. We plan the pace and connections around seasonal conditions; wildlife sightings are never guaranteed.",
         },
       ],
     },
@@ -328,7 +339,7 @@ export const costaDoDendeGuide: BrazilGuideLocalized = {
     faq: [
       {
         q: "How do you get to the Dendê Coast?",
-        a: "The most common route is via Salvador, with a boat transfer to the Maraú Peninsula or Morro de São Paulo, or a flight to Ilhéus followed by road and boat. Regional airstrips also receive private air taxis.",
+        a: "Fly internationally to a Brazilian hub, then connect to Salvador or Ilhéus; the onward journey uses road and boat transfers appropriate to your island or peninsula. Create Travel arranges private transfers to your stay or embarkation point.",
       },
       {
         q: "What is the difference between Barra Grande and Taipu de Fora?",
@@ -350,12 +361,14 @@ export const costaDoDendeGuide: BrazilGuideLocalized = {
         q: "How much does a trip to the Dendê Coast with Create Travel cost?",
         a: "We do not work with shelf pricing: the budget depends on the chosen destination, accommodation and season. A human consultant builds the proposal and presents figures in writing.",
       },
+      { q: "Do I need a visa or vaccinations for Brazil?", a: "Visa requirements depend on your nationality and may change. Check official Brazilian consular and immigration sources before booking. Consult a travel-health professional and official health guidance about routine vaccinations, yellow fever and any regional precautions well before departure." },
+      { q: "Are English-speaking guides available?", a: "Yes. Create Travel provides English-speaking guides on every excursion, as part of your private, tailor-made itinerary." },
+      { q: "Can I combine Dendê Coast with other Brazilian biomes?", a: "Yes. Brazil has six land biomes plus the coastal and marine zone — seven distinct landscapes and cultures. One suggested pairing is the Atlantic Forest and coastal and marine landscapes of Dendê Coast. Your travel designer checks seasonal compatibility and allows realistic travel days between regions." },
     ],
     cta: {
-      heading: "Let's design your Dendê Coast",
-      subheading:
-        "A human consultant at Create Travel picks the right fit between Maraú, Boipeba and Morro de São Paulo for your itinerary.",
-      button: "Talk to a travel designer",
+      heading: "Request your Dendê Coast trip quote",
+      subheading: "Plan a private, tailor-made journey with a human travel designer, shaped around your interests, pace and preferred season. Receive your written proposal via WhatsApp.",
+      button: "Request a quote on WhatsApp",
     },
     readingMinutes: 10,
     publishedAt: "2026-08-11",

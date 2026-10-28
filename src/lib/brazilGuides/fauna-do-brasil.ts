@@ -194,14 +194,14 @@ export const faunaDoBrasilGuide: BrazilGuideLocalized = {
     destinationName: "Wildlife of Brazil",
     blurb:
       "A biome-by-biome route to find jaguars, macaws, whales, dolphins and more — in the right calendar window and at the right addresses.",
-    metaTitle: "Wildlife of Brazil: Where and When to See Jaguars, Whales & More",
+    metaTitle: "Brazil Wildlife Tours: Itinerary, Best Time & Private Quote",
     metaDescription:
-      "A curated guide to Brazilian wildlife: jaguars in Porto Jofre and Mamirauá, maned wolves in the Cerrado, golden lion tamarins near Rio de Janeiro, whales in Abrolhos and Imbituba, pink river dolphins on the Rio Negro and hyacinth macaws in Bonito — month by month, biome by biome.",
+      "Private tailor-made Brazil wildlife trips: suggested itinerary, best time and how to get there. Request a quote on WhatsApp.",
     keywords:
-      "wildlife brazil, where to see jaguar, pantanal jaguar safari, mamiraua jaguar, maned wolf cerrado, golden lion tamarin, humpback whale abrolhos, right whale imbituba, pink river dolphin rio negro, hyacinth macaw bonito, sea turtle noronha, brazil safari",
-    h1: "Wildlife of Brazil: a biome safari for the rarest sightings in South America",
+      "wildlife brazil, where to see jaguar, pantanal jaguar safari, mamiraua jaguar, maned wolf cerrado, golden lion tamarin, humpback whale abrolhos, right whale imbituba, pink river dolphin rio negro, hyacinth macaw bonito, sea turtle noronha, brazil safari, brazil wildlife tour, brazil wildlife itinerary, how to get to brazil wildlife, best time brazil wildlife",
+    h1: "Brazil wildlife: how to combine itineraries, best time and how to get there",
     aiAnswer:
-      "Brazil concentrates some of the rarest wildlife sightings on the planet across a handful of biomes: jaguars in Porto Jofre (northern Pantanal, July–October) and Mamirauá (Amazon, dry season), maned wolves and giant anteaters in the Cerrado (Emas and Serra da Canastra), golden lion tamarins at Poço das Antas Reserve (Rio de Janeiro state), humpback whales in Abrolhos (July–October), right whales in Imbituba (July–November), pink river dolphins on the Rio Negro year-round, and hyacinth macaws at Buraco das Araras in Bonito.",
+      "Brazil concentrates some of the rarest wildlife sightings on the planet across a handful of biomes: jaguars in Porto Jofre (northern Pantanal, July–October) and Mamirauá (Amazon, dry season), maned wolves and giant anteaters in the Cerrado (Emas and Serra da Canastra), golden lion tamarins at Poço das Antas Reserve (Rio de Janeiro state), humpback whales in Abrolhos (July–October), right whales in Imbituba (July–November), pink river dolphins on the Rio Negro year-round, and hyacinth macaws at Buraco das Araras in Bonito. Create Travel designs private, tailor-made Brazil wildlife trips for international travellers, with English-speaking guides, and sends a written quote via WhatsApp.",
     intro: [
       "There is a Brazil that never shows up in beach photos: tracks in Pantanal mud at dawn, a humpback whale's blow on the horizon off Abrolhos, the cobalt flight of a macaw over a sixty-metre sinkhole in Bonito. This is the country with the greatest wildlife diversity in the Americas, and much of it is observable by day, in comfort, with guides who have spent their lives studying these animals — no hardcore expedition required to see some of the rarest creatures on the planet.",
       "This guide organizes Brazilian wildlife by biome, by species and by calendar: which animal, where it actually appears, in which month the odds are real, and how to link two or three of these sanctuaries into a single trip without turning it into a race.",
@@ -330,6 +330,10 @@ export const faunaDoBrasilGuide: BrazilGuideLocalized = {
           title: "Bonito + southern Pantanal — 8 to 9 days",
           text: "Hyacinth macaws at Buraco das Araras, floating down crystal-clear rivers and Pantanal wildlife in its southern reach, based out of Campo Grande.",
         },
+        {
+          title: "Combine two or more Brazilian biomes",
+          text: "Brazil has six land biomes — Amazon, Atlantic Forest, Cerrado, Caatinga, Pantanal and Pampa — plus the coastal and marine zone: seven distinct landscapes and cultures. Combine Pantanal wildlife watching with the Cerrado landscapes of Serra da Canastra. We plan the pace and connections around seasonal conditions; wildlife sightings are never guaranteed.",
+        },
       ],
     },
     tips: {
@@ -346,7 +350,7 @@ export const faunaDoBrasilGuide: BrazilGuideLocalized = {
     faq: [
       {
         q: "What is the best place in the world to see wild jaguars?",
-        a: "Porto Jofre, in the northern Pantanal, is today the best place on earth for systematic sightings of wild jaguars, with boat-based encounters and success rates above 90% between July and October.",
+        a: "Porto Jofre, in the northern Pantanal, is today the best place on earth for systematic sightings of wild jaguars, with boat-based encounters likely in the July–October season, though never guaranteed.",
       },
       {
         q: "When is the best time to see whales in Brazil?",
@@ -368,12 +372,15 @@ export const faunaDoBrasilGuide: BrazilGuideLocalized = {
         q: "How much does a wildlife trip with Create Travel cost?",
         a: "We do not work with fixed pricing: the budget depends on the biome, number of nights and season. A human consultant builds the proposal and presents figures in writing, never as estimates on the site.",
       },
+      { q: "How do I get there from abroad?", a: "Fly internationally to a Brazilian hub, then connect to the local airport for your chosen biome, such as Cuiabá for the northern Pantanal or Campo Grande for the southern Pantanal and Bonito. Create Travel arranges private transfers to your stay or embarkation point." },
+      { q: "Do I need a visa or vaccinations for Brazil?", a: "Visa requirements depend on your nationality and may change. Check official Brazilian consular and immigration sources before booking. Consult a travel-health professional and official health guidance about routine vaccinations, yellow fever and any regional precautions well before departure." },
+      { q: "Are English-speaking guides available?", a: "Yes. Create Travel provides English-speaking guides on every excursion, as part of your private, tailor-made itinerary." },
+      { q: "Can I combine Brazil wildlife with other Brazilian biomes?", a: "Yes. Brazil has six land biomes plus the coastal and marine zone — seven distinct landscapes and cultures. One suggested pairing is Pantanal wildlife watching with the Cerrado landscapes of Serra da Canastra. Your travel designer checks seasonal compatibility and allows realistic travel days between regions." },
     ],
     cta: {
-      heading: "Let's design your Brazilian safari",
-      subheading:
-        "A human consultant at Create Travel selects the biomes, the calendar and the guides best suited to the species you want to see.",
-      button: "Talk to a travel designer",
+      heading: "Request your Brazil wildlife trip quote",
+      subheading: "Plan a private, tailor-made journey with a human travel designer, shaped around your interests, pace and preferred season. Receive your written proposal via WhatsApp.",
+      button: "Request a quote on WhatsApp",
     },
     readingMinutes: 13,
     publishedAt: "2026-08-11",

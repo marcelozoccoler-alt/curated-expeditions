@@ -90,11 +90,11 @@ export const conjugadoAmazoniaPantanalGuide: BrazilGuideLocalized = {
   en: {
     destinationName: "Amazon + Pantanal",
     blurb: "Rainforest and flooded plain in a single trip: Brazil's two great wildlife sanctuaries, over 12 to 14 nights.",
-    metaTitle: "Amazon + Pantanal: A Combined 12–14 Night Itinerary",
-    metaDescription: "How to combine Manaus/Rio Negro with the Transpantaneira/Porto Jofre in one trip: best window (July–October), flights via Brasília or São Paulo, complementary wildlife and nights per leg.",
-    keywords: "amazon pantanal itinerary, combined amazon pantanal trip, transpantaneira porto jofre, rio negro anavilhanas, best time amazon pantanal, jaguar pantanal, brazil wildlife itinerary",
-    h1: "Amazon + Pantanal: the combined itinerary of Brazil's two great wildlife biomes",
-    aiAnswer: "The best itinerary combining the Amazon and the Pantanal lasts 12 to 14 nights: 4–5 nights of rainforest in Manaus/Rio Negro and 5–7 nights of flooded plain in Cuiabá/Transpantaneira/Porto Jofre, in the July–October window (dry season in both biomes), connecting via Brasília or São Paulo.",
+    metaTitle: "Amazon + Pantanal, Brazil: Itinerary, Best Time & Quote",
+    metaDescription: "Private tailor-made Amazon + Pantanal trip: suggested itinerary, best time and how to get there. Request a quote on WhatsApp.",
+    keywords: "amazon pantanal itinerary, combined amazon pantanal trip, transpantaneira porto jofre, rio negro anavilhanas, best time amazon pantanal, jaguar pantanal, brazil wildlife itinerary, amazon + pantanal tour, amazon + pantanal itinerary, how to get to amazon + pantanal, best time amazon + pantanal",
+    h1: "Amazon + Pantanal: itinerary, best time and how to get there",
+    aiAnswer: "The best itinerary combining the Amazon and the Pantanal lasts 12 to 14 nights: 4–5 nights of rainforest in Manaus/Rio Negro and 5–7 nights of flooded plain in Cuiabá/Transpantaneira/Porto Jofre, in the July–October window (dry season in both biomes), connecting via Brasília or São Paulo. Create Travel designs private, tailor-made Amazon + Pantanal trips for international travellers, with English-speaking guides, and sends a written quote via WhatsApp.",
     intro: [
       "The Amazon and the Pantanal are often confused by first-time visitors to Brazil, but they are opposite biomes: one dense, closed rainforest, the other open, flooded savanna. Combined, they form the country's most complete wildlife itinerary — what hides in the forest reveals itself on the plain, and vice versa.",
       "This guide is combined by design: it treats the two destinations not separately, but as a single 12-to-14-night trip, with the flight logistics, nights per leg and climate window that make both biomes work together without losing what each does best.",
@@ -147,13 +147,14 @@ export const conjugadoAmazoniaPantanalGuide: BrazilGuideLocalized = {
         { title: "Transit — Manaus to Cuiabá via Brasília or São Paulo", text: "There is no reliable daily direct flight between Manaus and Cuiabá; the most dependable connection runs via Brasília or São Paulo, totalling 5 to 7 hours including the layover." },
         { title: "Nights 6–12 — Cuiabá, Transpantaneira and Porto Jofre", text: "One arrival night in Cuiabá, followed by a 3–4 hour ground transfer along the Transpantaneira to intermediate ranch lodges, then boat or road to Porto Jofre for five to six nights of intensive jaguar watching." },
         { title: "Night 13 — Cuiabá, farewell", text: "Ground return to Cuiabá for a buffer night before departure, protecting against delays on the dirt road." },
+        { title: "Combine two or more Brazilian biomes", text: "Brazil has six land biomes plus the coastal and marine zone — seven distinct landscapes and cultures. This route already pairs the Amazon and Pantanal; add Chapada dos Veadeiros in the Cerrado if you have time for a third landscape. Your travel designer can allow for travel days and seasonal differences." },
       ],
     },
     tips: {
       heading: "Practical tips for the combined itinerary",
       items: [
         "Book the Manaus–Cuiabá connection with buffer time: since it routes through Brasília or São Paulo, a delay on one leg affects the other.",
-        "Yellow fever vaccination is required for the Amazon and recommended for the Pantanal — take it at least ten days before departure.",
+        "Consult a travel-health professional about yellow fever vaccination for the Amazon and Pantanal, and check current official health and entry guidance before departure.",
         "Wear neutral-colored clothing in the Pantanal (avoid white and bright colors, which spook wildlife) and lightweight long sleeves in the Amazon.",
         "Your own binoculars are essential in both biomes — in the Pantanal, especially for distant storks and macaws.",
         "The Transpantaneira dirt road can become difficult after heavy rain even in the dry season; always reserve a buffer day before connecting flights.",
@@ -161,6 +162,11 @@ export const conjugadoAmazoniaPantanalGuide: BrazilGuideLocalized = {
       ],
     },
     faq: [
+      { q: "Do I need a visa or vaccinations for Brazil?", a: "Visa requirements depend on your nationality and travel dates. Check official Brazilian consular and immigration sources before booking. Consult a travel-health professional and official health guidance about routine vaccinations, yellow fever advice and any entry requirements for your route." },
+      { q: "Are English-speaking guides available?", a: "Create Travel provides English-speaking guides on every excursion, with private planning tailored to your interests and preferred pace." },
+      { q: "How do international travellers get to Amazon + Pantanal?", a: "Fly internationally to a Brazilian hub, then connect to Manaus for the Amazon leg. Continue to Cuiabá via Brasília or São Paulo for the Pantanal. Private road and river transfers are arranged around your flights." },
+      { q: "Can I combine Amazon + Pantanal with other Brazilian biomes?", a: "Yes. Brazil has six land biomes plus the coastal and marine zone — seven distinct landscapes and cultures. This route already pairs the Amazon and Pantanal; add Chapada dos Veadeiros in the Cerrado if you have time for a third landscape. We tailor the sequence to seasonal conditions and realistic transfer times." },
+
       { q: "How many nights are needed for the Amazon + Pantanal itinerary?", a: "12 to 14 nights: 4–5 in the Amazon and 6–7 in the Pantanal, including transit nights in Manaus and Cuiabá." },
       { q: "What is the best time to do both trips together?", a: "July to October, when both biomes are in the dry season — the Amazon with river beaches, the Pantanal with concentrated wildlife along riverbanks." },
       { q: "Is there a direct flight between Manaus and Cuiabá?", a: "Not on a regular daily basis; the most reliable connection routes via Brasília or São Paulo, totalling 5 to 7 hours of travel." },
@@ -168,7 +174,11 @@ export const conjugadoAmazoniaPantanalGuide: BrazilGuideLocalized = {
       { q: "Is this a physically demanding trip?", a: "Moderate: short walks, boat rides and 4x4 outings dominate over heavy trekking, but the heat and humidity in both biomes call for climate preparation." },
       { q: "How much does this combined itinerary cost with Create Travel?", a: "We do not work with fixed prices: budget depends on lodges, number of nights and season. A human consultant prepares a written proposal." },
     ],
-    cta: { heading: "Let's design your Amazon + Pantanal itinerary", subheading: "A human consultant at Create Travel arranges the flight logistics, lodges and the right window for both biomes.", button: "Talk to a travel designer" },
+    cta: {
+      heading: "Request your Amazon + Pantanal trip quote",
+      subheading: "Plan a private, tailor-made journey with a human travel designer, with the route, stays and pace shaped around you. Receive your written proposal via WhatsApp.",
+      button: "Request a quote on WhatsApp",
+    },
     readingMinutes: 12,
     publishedAt: "2026-08-11",
   },

@@ -181,14 +181,14 @@ export const ilhaDeMarajoGuide: BrazilGuideLocalized = {
     destinationName: "Marajó Island",
     blurb:
       "The world's largest fluvial-marine island, home to water buffalo ranches and river beaches at the mouth of the Amazon.",
-    metaTitle: "Marajó Island Guide: Buffalo Ranches, Beaches & Culture",
+    metaTitle: "Marajó Island, Brazil: Itinerary, Best Time & Quote",
     metaDescription:
-      "A complete guide to Marajó Island, Pará: when to go, buffalo ranches, Soure and Salvaterra, marajoara pottery and how to get there from Belém. No prices, just the field notes.",
+      "Private, tailor-made Marajó Island trip: itinerary, best time and how to get there. Request a quote on WhatsApp.",
     keywords:
-      "marajo island brazil, water buffalo ranch marajo, soure salvaterra brazil, marajoara pottery, ferry belem marajo, best time marajo island",
-    h1: "Marajó Island: water buffalo, flooded plains and the wildest side of Pará",
+      "marajo island brazil, water buffalo ranch marajo, soure salvaterra brazil, marajoara pottery, ferry belem marajo, best time marajo island, marajó island tour, marajó island itinerary, how to get to marajó island, best time marajó island",
+    h1: "Marajó Island: itinerary, best time and how to get there",
     aiAnswer:
-      "The best time to visit Marajó Island is between July and December, the dry season, when the flooded plains recede and dirt roads open up to ranches and river beaches; the crossing departs from Belém's Icoaraci port to Camará, followed by an hour's drive to Soure.",
+      "The best time to visit Marajó Island is between July and December, the dry season, when the flooded plains recede and dirt roads open up to ranches and river beaches; the crossing departs from Belém's Icoaraci port to Camará, followed by an hour's drive to Soure. Create Travel designs private, tailor-made Marajó Island trips for international travellers, with English-speaking guides, and sends a written quote via WhatsApp.",
     intro: [
       "Marajó is the largest fluvial-marine island on the planet — larger than Switzerland — formed where the Amazon River meets the Atlantic, blending fresh and salt water on a single horizon. It is also a world apart inside Pará state: plains that flood and dry with the rains, buffalo ranches that replaced cattle over a century ago, and river-beach villages that seem to have stopped in time.",
       "This is not a resort destination. It is a destination of dirt roads, creek water and fried fish lunches by the riverbank. Travelers seeking that authenticity, without giving up comfort in a handful of good guesthouses, find in Marajó a side of Pará few foreigners ever see.",
@@ -288,24 +288,27 @@ export const ilhaDeMarajoGuide: BrazilGuideLocalized = {
       ],
     },
     itinerary: {
-      heading: "How to fit Marajó into a Pará itinerary",
-      intro:
-        "Marajó works best as an extension of a Belém stay, never as an isolated destination without Amazonian context.",
-      items: [
-        {
-          title: "Belém + Marajó — 4 to 5 days",
-          text: "Two days in Belém (Ver-o-Peso market, Estação das Docas) followed by a crossing to Marajó with two to three nights between Soure and Salvaterra.",
-        },
-        {
-          title: "Marajó + Amazon (Santarém/Alter do Chão) — 8 to 10 days",
-          text: "Combines Marajó's flooded plains with the Tapajós freshwater beaches, connected by domestic flight via Belém.",
-        },
-        {
-          title: "Marajó + Lençóis Maranhenses — 8 days",
-          text: "Two unique northern-coast landscapes, linked by a flight to São Luís.",
-        },
-      ],
-    },
+      "heading": "Suggested Marajó Island itinerary and Brazil combinations",
+      "intro": "A private, tailor-made suggested itinerary, adjusted to your dates, pace and local conditions. Allow buffer nights around flight connections.",
+      "items": [
+            {
+                  "title": "Day 1 — Belém to Soure",
+                  "text": "Cross from Icoaraci to Camará and continue to Soure. Settle in for the first of three island nights."
+            },
+            {
+                  "title": "Day 2 — Buffalo ranch and local flavours",
+                  "text": "Visit a buffalo ranch by prior arrangement and discover Marajó cheese and local açaí."
+            },
+            {
+                  "title": "Day 3 — Salvaterra and river beaches",
+                  "text": "Explore Salvaterra and river beaches at an unhurried pace, with time for marajoara pottery."
+            },
+            {
+                  "title": "Day 4 — Return to Belém",
+                  "text": "Return via Camará and Icoaraci, allowing a buffer before onward flights."
+            }
+      , {"title": "Combine two or more Brazilian biomes", "text": "Brazil has six land biomes plus the coastal and marine zone — seven distinct landscapes and cultures. Combine Marajó in the Amazon biome with the dune coastline of Lençóis Maranhenses, allowing time for the connection through São Luís."}]
+},
     tips: {
       heading: "Practical tips for traveling to Marajó",
       items: [
@@ -320,7 +323,7 @@ export const ilhaDeMarajoGuide: BrazilGuideLocalized = {
     faq: [
       {
         q: "How do you get to Marajó Island?",
-        a: "From Belém, via Icoaraci port, by ferry or speedboat to Camará port, followed by about an hour's drive to Soure. Regional flights direct to Soure also operate at certain times of year.",
+        a: "Take an international flight to a Brazilian hub, then a domestic connection to Belém. Continue from Icoaraci port to Camará by ferry or speedboat and onward to Soure. Create Travel arranges private road transfers around the crossing.",
       },
       {
         q: "What is the best time to see Marajó's buffalo?",
@@ -341,14 +344,12 @@ export const ilhaDeMarajoGuide: BrazilGuideLocalized = {
       {
         q: "Does Marajó pair well with an Amazon trip?",
         a: "Very well, as an extension from Belém, revealing a rural, cultural side of Pará that complements the rainforest experience.",
-      },
-    ],
+      }, {"q": "Do I need a visa or vaccines for Brazil?", "a": "Visa requirements depend on your nationality and travel dates. Check official Brazilian consular guidance before booking, and consult official health advice and a travel-health professional about vaccines, including yellow fever where relevant to your itinerary."}, {"q": "Are English-speaking guides available?", "a": "Create Travel provides English-speaking guides on every excursion as part of your private, tailor-made trip."}, {"q": "Can I combine Marajó Island with other Brazilian biomes?", "a": "Brazil has six land biomes plus the coastal and marine zone — seven distinct landscapes and cultures. Combine Marajó in the Amazon biome with the dune coastline of Lençóis Maranhenses, allowing time for the connection through São Luís."}],
     cta: {
-      heading: "Let's design your Marajó trip",
-      subheading:
-        "A Create Travel consultant arranges the right ranches, crossings and guesthouses for your Pará itinerary.",
-      button: "Talk to a travel designer",
-    },
+      "heading": "Request your Marajó Island trip quote",
+      "subheading": "Plan a private, tailor-made journey with a human travel designer, who shapes your itinerary around your dates, interests and pace and sends a written quote via WhatsApp.",
+      "button": "Request a quote on WhatsApp"
+},
     readingMinutes: 9,
     publishedAt: "2026-08-11",
   },

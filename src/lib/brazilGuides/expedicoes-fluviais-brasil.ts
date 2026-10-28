@@ -199,14 +199,14 @@ export const expedicoesFluviaisBrasilGuide: BrazilGuideLocalized = {
     destinationName: "River Expeditions in Brazil",
     blurb:
       "Riverboat hotels and expeditions across the Amazon, the Tapajós and the Pantanal — Brazil seen from the water, from a cabin facing the forest.",
-    metaTitle: "River Expeditions in Brazil: Riverboat Hotels in the Amazon & Pantanal",
+    metaTitle: "Brazil River Expeditions: Itineraries, Best Time & Quote",
     metaDescription:
-      "A curated guide to river expeditions in Brazil: riverboat hotels on the Rio Negro, Anavilhanas, Jaú and Mamirauá, on the Tapajós and in the Pantanal (Paraguay, Cuiabá and Três Irmãos rivers). High vs low water, vessels, cabins and 4- to 8-night itineraries.",
+      "Private tailor-made Brazil river expedition trips: suggested itinerary, best time and how to get there. Request a quote on WhatsApp.",
     keywords:
-      "river expedition brazil, amazon riverboat hotel, rio negro cruise, tumbira boat, katerre amazon, amazon dream boat, jacare-acu vessel, untamed angling pantanal, pantanal riverboat hotel, paraguay river cruise, alter do chao tapajos, jau national park, mamiraua river boat",
-    h1: "River Expeditions in Brazil: the Amazon and the Pantanal seen from the water",
+      "river expedition brazil, amazon riverboat hotel, rio negro cruise, tumbira boat, katerre amazon, amazon dream boat, jacare-acu vessel, untamed angling pantanal, pantanal riverboat hotel, paraguay river cruise, alter do chao tapajos, jau national park, mamiraua river boat, brazil river expedition tour, brazil river expedition itinerary, how to get to brazil river expedition, best time brazil river expedition",
+    h1: "Brazil river expedition: how to combine itineraries, best time and how to get there",
     aiAnswer:
-      "The finest river expeditions in Brazil run through the Amazon (Rio Negro, Anavilhanas, Jaú National Park and Mamirauá, aboard riverboat hotels such as Tumbira, Katerre, Amazon Dream and Jacaré-Açu) and the Pantanal (Paraguay, Cuiabá and Três Irmãos rivers, with riverboat hotels and floating jaguar-watching platforms); itineraries run 4 to 8 nights, and choosing between high water (December–June) and low water (July–November) entirely changes what you see and how you navigate.",
+      "The finest river expeditions in Brazil run through the Amazon (Rio Negro, Anavilhanas, Jaú National Park and Mamirauá, aboard riverboat hotels such as Tumbira, Katerre, Amazon Dream and Jacaré-Açu) and the Pantanal (Paraguay, Cuiabá and Três Irmãos rivers, with riverboat hotels and floating jaguar-watching platforms); itineraries run 4 to 8 nights, and choosing between high water (December–June) and low water (July–November) entirely changes what you see and how you navigate. Create Travel designs private, tailor-made Brazil river expedition trips for international travellers, with English-speaking guides, and sends a written quote via WhatsApp.",
     intro: [
       "There is a way to experience Brazil that no fixed lodge can offer: a trip whose scenery changes daily because the boat, not you, is the one moving. On a river expedition, the cabin is the bedroom, the deck is the veranda, and the river — Negro, Tapajós, Paraguay or Cuiabá — is the corridor that leads to a new bay, beach or flooded-forest channel each day.",
       "This guide gathers what we know from actually boarding these routes: how riverboat hotels in the Amazon and the Pantanal really work, which vessels are worth the journey, the difference between navigating high water and low water, and the real rhythm of life on board — for travellers seeking immersion, not a generic cruise wearing a jungle label.",
@@ -340,6 +340,10 @@ export const expedicoesFluviaisBrasilGuide: BrazilGuideLocalized = {
           title: "8 nights — Amazon (Tapajós) + Pantanal, combining both biomes",
           text: "A Santarém–Cuiabá flight links the Tapajós river expedition to the Pantanal, always with a safety night on land between embarkations — flooded forest on one side, floodplain on the other.",
         },
+        {
+          title: "Combine two or more Brazilian biomes",
+          text: "Brazil has six land biomes — Amazon, Atlantic Forest, Cerrado, Caatinga, Pantanal and Pampa — plus the coastal and marine zone: seven distinct landscapes and cultures. Combine an Amazon river expedition with Pantanal river safaris. We plan the pace and connections around seasonal conditions; wildlife sightings are never guaranteed.",
+        },
       ],
     },
     tips: {
@@ -378,12 +382,15 @@ export const expedicoesFluviaisBrasilGuide: BrazilGuideLocalized = {
         q: "How much does a river expedition with Create Travel cost?",
         a: "We don't work with off-the-shelf pricing: the budget depends on the vessel, number of nights, season and flight connections to the boarding point. A human consultant builds the proposal and presents figures in writing, with no estimates published on the website.",
       },
+      { q: "How do I get there from abroad?", a: "Fly internationally to a Brazilian hub, then connect to the local airport serving your expedition: Manaus, Tefé or Santarém for the Amazon, or Cuiabá for the northern Pantanal. Allow a land night before and after boarding. Create Travel arranges private transfers to your stay or embarkation point." },
+      { q: "Do I need a visa or vaccinations for Brazil?", a: "Visa requirements depend on your nationality and may change. Check official Brazilian consular and immigration sources before booking. Consult a travel-health professional and official health guidance about routine vaccinations, yellow fever and any regional precautions well before departure." },
+      { q: "Are English-speaking guides available?", a: "Yes. Create Travel provides English-speaking guides on every excursion, as part of your private, tailor-made itinerary." },
+      { q: "Can I combine Brazil river expedition with other Brazilian biomes?", a: "Yes. Brazil has six land biomes plus the coastal and marine zone — seven distinct landscapes and cultures. One suggested pairing is an Amazon river expedition with Pantanal river safaris. Your travel designer checks seasonal compatibility and allows realistic travel days between regions." },
     ],
     cta: {
-      heading: "Let's design your river expedition",
-      subheading:
-        "A human consultant at Create Travel selects the right river, vessel and season for your profile — and manages every connection to embarkation.",
-      button: "Speak with a travel designer",
+      heading: "Request your Brazil river expedition trip quote",
+      subheading: "Plan a private, tailor-made journey with a human travel designer, shaped around your interests, pace and preferred season. Receive your written proposal via WhatsApp.",
+      button: "Request a quote on WhatsApp",
     },
     readingMinutes: 13,
     publishedAt: "2026-08-11",
