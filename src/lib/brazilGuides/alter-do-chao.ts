@@ -375,14 +375,14 @@ export const alterDoChaoGuide: BrazilGuideLocalized = {
   },
 
   es: {
-    metaTitle: "Alter do Chão: guía del Caribe amazónico brasileño",
+    metaTitle: "Alter do Chão, Brasil: Itinerario, Mejor Época y Presupuesto",
     metaDescription:
-      "Guía completa de Alter do Chão y el río Tapajós: mejor época mes a mes, playas de agua dulce, posadas de encanto y cómo combinarlo con el resto de Brasil.",
+      "Viaje privado y a medida a Alter do Chão: itinerario sugerido, mejor época y cómo llegar, planificado con un diseñador de viajes. Solicita un presupuesto por WhatsApp.",
     keywords:
-      "alter do chao brasil, rio tapajos, caribe amazonico, playa de agua dulce, ilha do amor, santarem brasil, itinerario amazonia, posada alter do chao",
-    h1: "Alter do Chão: el Caribe amazónico, guiado por quienes conocen el Tapajós",
+      "alter do chao brasil, rio tapajos, caribe amazonico, playa de agua dulce, ilha do amor, santarem brasil, itinerario amazonia, posada alter do chao, Alter do Chão tour, itinerario Alter do Chão, cómo llegar a Alter do Chão, mejor época Alter do Chão",
+    h1: "Alter do Chão: itinerario, mejor época y cómo llegar",
     aiAnswer:
-      "La mejor época para visitar Alter do Chão va de agosto a diciembre, cuando el río Tapajós baja y deja al descubierto las playas de arena blanca de la Ilha do Amor; se recomiendan entre 3 y 4 noches, con Santarém como puerta de entrada.",
+      "La mejor época para visitar Alter do Chão va de agosto a diciembre, cuando el río Tapajós baja y deja al descubierto las playas de arena blanca de la Ilha do Amor; se recomiendan entre 3 y 4 noches, con Santarém como puerta de entrada. Create Travel diseña viajes privados y a medida a Alter do Chão para viajeros internacionales, con guías en español, y envía un presupuesto por escrito por WhatsApp.",
     intro: [
       "Hay un tramo del río Tapajós donde el agua pierde todo el tono barroso de la Amazonía y se vuelve de un azul turquesa que engaña cualquier fotografía: parece el Caribe, pero está rodeado de selva pura, con guacamayos cruzando el cielo al atardecer. Ese tramo tiene nombre: Alter do Chão, un pueblo de pescadores a 35 kilómetros de Santarém que se convirtió, con toda razón, en una de las direcciones más deseadas de la Amazonía brasileña.",
       "Lo que distingue a Alter do Chão del resto de la cuenca amazónica es la combinación: playas de agua dulce, cálidas, poco profundas y cristalinas, junto a selva densa, comunidades ribereñas y quilombolas a pocos minutos en barco, y una escena gastronómica que ya rivaliza con la de las capitales. Es la Amazonía para quienes aman el mar y no quieren renunciar a él.",
@@ -492,10 +492,14 @@ export const alterDoChaoGuide: BrazilGuideLocalized = {
       ],
     },
     itinerary: {
-      heading: "Cómo integrar Alter do Chão a un itinerario por Brasil",
-      intro:
-        "El Tapajós funciona mejor como capítulo de un viaje más amplio a la Amazonía, casi nunca de forma aislada, salvo para quien ya conoce la región y busca descanso.",
+      heading: "Itinerario sugerido para Alter do Chão",
+      intro: "Un punto de partida privado y a medida, adaptado a tu ritmo, la temporada y los horarios de conexión.",
       items: [
+        { title: "Día 1 — Llegada a Alter do Chão", text: "Llega vía Santarém, acomódate en tu lodge y pasea por la ribera al atardecer." },
+        { title: "Día 2 — Playas del Tapajós", text: "Navega en barco privado a Ilha do Amor y Ponta do Cururu cuando el nivel estacional del río deja la arena al descubierto." },
+        { title: "Día 3 — Floresta Nacional do Tapajós", text: "Camina con un guía local entre árboles antiguos y caucheras, adaptando la distancia a tus intereses." },
+        { title: "Día 4 — Comunidades ribereñas", text: "Explora Lago Verde y la gastronomía local con tu guía. Los avistamientos de fauna son posibles, nunca garantizados." },
+        { title: "Día 5 — Salida", text: "Regresa a Santarém para continuar el viaje tras cuatro noches." },
         {
           title: "Alter do Chão + Amazonía clásica (Manaus) — 8 a 10 días",
           text: "Cuatro noches de selva densa en el Rio Negro y tres a cuatro noches de playa de río en Alter do Chão, conectadas por vuelo doméstico vía Manaus.",
@@ -508,6 +512,7 @@ export const alterDoChaoGuide: BrazilGuideLocalized = {
           title: "Alter do Chão + Belém e Isla de Marajó — 9 a 11 días",
           text: "Cierra el viaje amazónico con la capital de Pará, su gastronomía premiada, y la vida rural de búfalos en Marajó.",
         },
+        { title: "Combina dos o más biomas brasileños", text: "Brasil tiene seis biomas terrestres más la zona costera y marina — siete paisajes y culturas distintos. Combina la selva amazónica y las playas fluviales de Alter do Chão con los paisajes costeros y marinos de Lençóis Maranhenses." },
       ],
     },
     tips: {
@@ -534,10 +539,7 @@ export const alterDoChaoGuide: BrazilGuideLocalized = {
         q: "¿Alter do Chão es seguro para familias con niños?",
         a: "Sí. Las aguas del Tapajós son poco profundas, tibias y sin corriente relevante en las zonas de playa, lo que hace del destino un lugar cómodo para familias, incluso con niños pequeños.",
       },
-      {
-        q: "¿Cómo se llega a Alter do Chão?",
-        a: "El acceso es por el Aeropuerto Internacional de Santarém, con vuelos diarios desde Manaus, Belém y otras capitales, seguido de unos 40 minutos en auto o barco hasta el pueblo.",
-      },
+      { q: "¿Cómo llegar a Alter do Chão?", a: "Empieza con un vuelo internacional a un hub brasileño y después una conexión nacional si es necesaria. Continúa al aeropuerto de Santarém y toma un traslado privado a Alter do Chão. Create Travel organiza traslados privados; confirma los horarios de vuelo actuales antes de reservar." },
       {
         q: "¿Alter do Chão o el Rio Negro en Manaus, cuál elegir?",
         a: "Alter do Chão entrega playas de agua dulce y ritmo de pueblo; el Rio Negro entrega selva más densa y lodges de mayor estructura. Quien tiene tiempo, combina ambos en un solo itinerario amazónico.",
@@ -546,26 +548,28 @@ export const alterDoChaoGuide: BrazilGuideLocalized = {
         q: "¿Cuánto cuesta un viaje a Alter do Chão con Create Travel?",
         a: "No trabajamos con tarifas de catálogo: el presupuesto varía según la posada, la época y la malla aérea. Un consultor humano presenta la propuesta por escrito, sin estimaciones publicadas en el sitio.",
       },
+      { q: "¿Necesito visado y vacunas para Brasil?", a: "El visado depende de tu pasaporte y las fechas del viaje. Consulta las fuentes consulares oficiales de Brasil antes de reservar. Habla con un profesional de salud del viajero sobre vacunas habituales y específicas del destino, incluida la fiebre amarilla, y consulta las recomendaciones sanitarias oficiales para tu itinerario." },
+      { q: "¿Hay guías en español en todas las excursiones?", a: "Sí. Create Travel ofrece guías en español en todas las excursiones, con actividades adaptadas a tus intereses y ritmo." },
+      { q: "¿Puedo combinar Alter do Chão con otros biomas brasileños?", a: "Sí. Brasil tiene seis biomas terrestres más la zona costera y marina — siete paisajes y culturas distintos. Combina la selva amazónica y las playas fluviales de Alter do Chão con los paisajes costeros y marinos de Lençóis Maranhenses. Tu diseñador de viajes prevé tiempo para los traslados y comprueba la compatibilidad estacional." },
     ],
     cta: {
-      heading: "Diseñemos su Tapajós",
-      subheading:
-        "Un consultor humano de Create Travel elige la posada, la época y el enlace correcto con el resto de su viaje por Brasil.",
-      button: "Hablar con un travel designer",
+      heading: "Solicita tu presupuesto para Alter do Chão",
+      subheading: "Planifica un viaje privado y a medida con un diseñador de viajes humano, según tus intereses, ritmo y fechas preferidas.",
+      button: "Solicitar presupuesto por WhatsApp",
     },
     readingMinutes: 10,
     publishedAt: "2026-08-11",
   },
 
   it: {
-    metaTitle: "Alter do Chão: guida ai Caraibi amazzonici del Brasile",
+    metaTitle: "Alter do Chão, Brasile: Itinerario, Periodo Migliore e Preventivo",
     metaDescription:
-      "Guida completa di Alter do Chão e del fiume Tapajós: periodo migliore mese per mese, spiagge di acqua dolce, lodge di charme e come combinarlo con il resto del Brasile.",
+      "Viaggio privato e su misura per Alter do Chão: itinerario suggerito, periodo migliore e come arrivare, con un travel designer. Richiedi un preventivo su WhatsApp.",
     keywords:
-      "alter do chao brasile, fiume tapajos, caraibi amazzonici, spiaggia acqua dolce, ilha do amor, santarem brasile, itinerario amazzonia, lodge alter do chao",
-    h1: "Alter do Chão: i Caraibi amazzonici, raccontati da chi conosce il Tapajós",
+      "alter do chao brasile, fiume tapajos, caraibi amazzonici, spiaggia acqua dolce, ilha do amor, santarem brasile, itinerario amazzonia, lodge alter do chao, Alter do Chão tour, itinerario Alter do Chão, come arrivare a Alter do Chão, periodo migliore Alter do Chão",
+    h1: "Alter do Chão: itinerario, periodo migliore e come arrivare",
     aiAnswer:
-      "Il periodo migliore per visitare Alter do Chão va da agosto a dicembre, quando il fiume Tapajós si ritira e rivela le spiagge di sabbia bianca dell'Ilha do Amor; si consigliano almeno 3-4 notti, con Santarém come porta d'accesso.",
+      "Il periodo migliore per visitare Alter do Chão va da agosto a dicembre, quando il fiume Tapajós si ritira e rivela le spiagge di sabbia bianca dell'Ilha do Amor; si consigliano almeno 3-4 notti, con Santarém come porta d'accesso. Create Travel crea viaggi privati e su misura per Alter do Chão per viaggiatori internazionali, con guide in italiano, e invia un preventivo scritto via WhatsApp.",
     intro: [
       "C'è un tratto del fiume Tapajós dove l'acqua perde ogni tonalità fangosa dell'Amazzonia e diventa di un azzurro turchese che inganna ogni fotografia: sembra il Mar dei Caraibi, ma è circondato da foresta pura, con are che attraversano il cielo al tramonto. Quel tratto ha un nome: Alter do Chão, un villaggio di pescatori a 35 chilometri da Santarém diventato, a ragione, uno degli indirizzi più desiderati dell'Amazzonia brasiliana.",
       "Ciò che distingue Alter do Chão dal resto del bacino amazzonico è la combinazione: spiagge di acqua dolce calda, poco profonda e cristallina, insieme a foresta densa, comunità rivierasche e quilombola a pochi minuti di barca, e una scena gastronomica che ormai rivaleggia con quella delle capitali. È l'Amazzonia per chi ama il mare e non vuole rinunciarvi.",
@@ -675,10 +679,14 @@ export const alterDoChaoGuide: BrazilGuideLocalized = {
       ],
     },
     itinerary: {
-      heading: "Come integrare Alter do Chão in un itinerario in Brasile",
-      intro:
-        "Il Tapajós funziona meglio come capitolo di un viaggio più ampio in Amazzonia, raramente da solo — a meno che non si conosca già la regione e si cerchi riposo.",
+      heading: "Itinerario suggerito per Alter do Chão",
+      intro: "Un punto di partenza privato e su misura, adattato al tuo ritmo, alla stagione e agli orari delle coincidenze.",
       items: [
+        { title: "Giorno 1 — Arrivo ad Alter do Chão", text: "Arriva via Santarém, sistemati nel lodge e passeggia sul lungofiume al tramonto." },
+        { title: "Giorno 2 — Spiagge del Tapajós", text: "Raggiungi Ilha do Amor e Ponta do Cururu in barca privata quando il livello stagionale del fiume lascia emergere la sabbia." },
+        { title: "Giorno 3 — Floresta Nacional do Tapajós", text: "Cammina con una guida locale tra alberi secolari e piantagioni di caucciù, adattando la distanza ai tuoi interessi." },
+        { title: "Giorno 4 — Comunità fluviali", text: "Esplora Lago Verde e la cucina locale con la guida. Gli avvistamenti di fauna sono possibili, mai garantiti." },
+        { title: "Giorno 5 — Partenza", text: "Rientra a Santarém per proseguire il viaggio dopo quattro notti." },
         {
           title: "Alter do Chão + Amazzonia classica (Manaus) — 8-10 giorni",
           text: "Quattro notti di foresta densa sul Rio Negro e tre-quattro notti di spiaggia fluviale ad Alter do Chão, collegate da un volo interno via Manaus.",
@@ -691,6 +699,7 @@ export const alterDoChaoGuide: BrazilGuideLocalized = {
           title: "Alter do Chão + Belém e Isola di Marajó — 9-11 giorni",
           text: "Chiude il viaggio amazzonico con la capitale del Pará, la sua gastronomia premiata e la vita rurale dei bufali a Marajó.",
         },
+        { title: "Combina due o più biomi brasiliani", text: "Il Brasile ha sei biomi terrestri più la zona costiera e marina: sette paesaggi e culture diversi. Abbina la foresta amazzonica e le spiagge fluviali di Alter do Chão ai paesaggi costieri e marini dei Lençóis Maranhenses." },
       ],
     },
     tips: {
@@ -729,12 +738,15 @@ export const alterDoChaoGuide: BrazilGuideLocalized = {
         q: "Quanto costa un viaggio ad Alter do Chão con Create Travel?",
         a: "Non lavoriamo con listini fissi: il budget varia in base al lodge, al periodo e alla rete aerea. Un consulente umano presenta la proposta per iscritto, senza stime pubblicate sul sito.",
       },
+      { q: "Come arrivare a Alter do Chão?", a: "Inizia con un volo internazionale per un hub brasiliano, poi una coincidenza nazionale se necessaria. Prosegui per l’aeroporto di Santarém e prendi un trasferimento privato per Alter do Chão. Create Travel organizza trasferimenti privati; verifica gli orari attuali dei voli prima di prenotare." },
+      { q: "Servono visto e vaccini per il Brasile?", a: "Il visto dipende dal passaporto e dalle date del viaggio. Consulta le fonti consolari ufficiali brasiliane prima di prenotare. Chiedi a un professionista di medicina dei viaggi informazioni sui vaccini di routine e specifici per la destinazione, inclusa la febbre gialla, e consulta le indicazioni sanitarie ufficiali per il tuo itinerario." },
+      { q: "Ci sono guide in italiano in ogni escursione?", a: "Sì. Create Travel offre guide in italiano in ogni escursione, con attività adattate ai tuoi interessi e al tuo ritmo." },
+      { q: "Posso combinare Alter do Chão con altri biomi brasiliani?", a: "Sì. Il Brasile ha sei biomi terrestri più la zona costiera e marina: sette paesaggi e culture diversi. Abbina la foresta amazzonica e le spiagge fluviali di Alter do Chão ai paesaggi costieri e marini dei Lençóis Maranhenses. Il tuo travel designer prevede tempo per i trasferimenti e verifica la compatibilità stagionale." },
     ],
     cta: {
-      heading: "Progettiamo il vostro Tapajós",
-      subheading:
-        "Un consulente umano di Create Travel sceglie il lodge, il periodo e il collegamento giusto con il resto del vostro viaggio in Brasile.",
-      button: "Parla con un travel designer",
+      heading: "Richiedi il tuo preventivo per Alter do Chão",
+      subheading: "Pianifica un viaggio privato e su misura con un travel designer umano, secondo i tuoi interessi, il tuo ritmo e le date preferite.",
+      button: "Richiedi un preventivo su WhatsApp",
     },
     readingMinutes: 10,
     publishedAt: "2026-08-11",
