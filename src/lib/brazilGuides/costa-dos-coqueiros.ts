@@ -87,11 +87,11 @@ export const costaDosCoqueirosGuide: BrazilGuideLocalized = {
   en: {
     destinationName: "Coconut Coast",
     blurb: "Praia do Forte, Imbassaí and Mangue Seco: dunes, coconut groves and Bahia's northern coast, a benchmark for conscious tourism.",
-    metaTitle: "Coconut Coast Bahia: Calm Beaches Near Salvador",
-    metaDescription: "Turtles at Project TAMAR, the river that meets the sand at Imbassaí and the dunes of Mangue Seco. Best season, where to stay and a drive up the north coast.",
-    keywords: "costa dos coqueiros bahia, praia do forte, tamar project, imbassai, guarajuba, mangue seco, sauipe, tivoli ecoresort, vila dos orixas",
-    h1: "The Coconut Coast: Bahia's northern shoreline kept pristine on purpose",
-    aiAnswer: "The Coconut Coast is Bahia's northern shoreline between Salvador and the Sergipe border, covering Praia do Forte, Imbassaí, Santo André, Guarajuba, Massarandupió, Mangue Seco and the Sauípe resort complex; the best season runs September to March, 1 to 3 hours by road from Salvador airport.",
+    metaTitle: "Coconut Coast, Brazil: Itinerary, Best Time & Quote",
+    metaDescription: "Private tailor-made Coconut Coast trips: suggested itinerary, best time and how to get there. Request a quote on WhatsApp.",
+    keywords: "costa dos coqueiros bahia, praia do forte, tamar project, imbassai, guarajuba, mangue seco, sauipe, tivoli ecoresort, vila dos orixas, coconut coast tour, coconut coast itinerary, how to get to coconut coast, best time coconut coast",
+    h1: "Coconut Coast: itinerary, best time and how to get there",
+    aiAnswer: "The Coconut Coast is Bahia's northern shoreline between Salvador and the Sergipe border, covering Praia do Forte, Imbassaí, Santo André, Guarajuba, Massarandupió, Mangue Seco and the Sauípe resort complex; the best season runs September to March, 1 to 3 hours by road from Salvador airport. Create Travel designs private, tailor-made Coconut Coast trips for international travellers, with English-speaking guides, and sends a written quote via WhatsApp.",
     intro: [
       "The Coconut Coast begins where Salvador's paved road ends and stretches to Mangue Seco, at the border with Sergipe — 190 kilometres of dunes, coconut groves, dark-water rivers and fishing villages that resisted overdevelopment thanks to a decision made decades ago: protect the coastline for sea turtles. That same decision, taken in the 1980s with the founding of Project TAMAR in Praia do Forte, still sets the destination's tone today: low-impact tourism, understated architecture and preserved nature.",
       "This guide gathers what we learned travelling this coast: why Praia do Forte remains the most complete gateway, what makes Imbassaí a well-kept secret among discerning travellers, and why Mangue Seco, the setting of a Jorge Amado novel, still feels like the end of the world.",
@@ -136,12 +136,33 @@ export const costaDosCoqueirosGuide: BrazilGuideLocalized = {
       ],
     },
     itinerary: {
-      heading: "How to combine the Coconut Coast with a Bahia itinerary",
-      intro: "Proximity to Salvador's airport makes this region the easiest add-on to any Bahia trip.",
+      heading: "Suggested Coconut Coast itinerary — 4 nights / 5 days",
+      intro: "A private, tailor-made starting point, adjusted to your pace, arrival times and local conditions. Add nights for a more leisurely stay.",
       items: [
-        { title: "Salvador + Coconut Coast — 6 to 8 days", text: "Three nights of historic city followed by three to five nights between Praia do Forte and Imbassaí, all by road." },
-        { title: "Coconut Coast + Dendê Coast — 10 to 12 days", text: "Joins the northern and southern coasts of Bahia, with Salvador as the turning point between the two regions." },
-        { title: "Coconut Coast as arrival or departure", text: "A good way to decompress at the start or end of a longer trip through Bahia or the Northeast." },
+        {
+          title: "Day 1 — Salvador to Praia do Forte",
+          text: "Arrive at Salvador airport and transfer privately to Praia do Forte.",
+        },
+        {
+          title: "Day 2 — Praia do Forte and TAMAR",
+          text: "Explore the village and Project TAMAR visitor centre; any wildlife encounters depend on natural conditions.",
+        },
+        {
+          title: "Day 3 — Imbassaí",
+          text: "Enjoy the river and beach scenery around Imbassaí, with time to relax.",
+        },
+        {
+          title: "Day 4 — Guarajuba or a quiet beach day",
+          text: "Choose an outing to Guarajuba or a leisurely day at your coastal stay.",
+        },
+        {
+          title: "Day 5 — Departure or Salvador extension",
+          text: "Transfer to Salvador airport or add city nights for history and culture.",
+        },
+        {
+          title: "Combine two or more Brazilian biomes",
+          text: "Brazil has six land biomes — Amazon, Atlantic Forest, Cerrado, Caatinga, Pantanal and Pampa — plus the coastal and marine zone: seven distinct landscapes and cultures. Combine the Atlantic Forest and coastal and marine landscapes of Coconut Coast. We plan the pace and connections around seasonal conditions; wildlife sightings are never guaranteed.",
+        },
       ],
     },
     tips: {
@@ -160,10 +181,17 @@ export const costaDosCoqueirosGuide: BrazilGuideLocalized = {
       { q: "How far is Praia do Forte from Salvador?", a: "About 80 km, 1 to 1.5 hours by car via Estrada do Coco and Linha Verde, depending on traffic." },
       { q: "What is Project TAMAR?", a: "A Brazilian sea turtle conservation programme founded in the 1980s, with a visitor centre in Praia do Forte open to the public." },
       { q: "When is the best time to see turtles at Praia do Forte?", a: "Nesting runs September to March, with hatchlings emerging between November and April." },
-      { q: "How do you get to Mangue Seco?", a: "By road to the bank of the Real River, followed by a canoe crossing to the village, which sits right at the Sergipe border." },
+      { q: "How do you get to Mangue Seco?", a: "Fly internationally to a Brazilian hub and connect to Salvador airport, then continue by road to your chosen coastal base. Create Travel arranges private transfers to your stay or embarkation point." },
       { q: "How much does a trip to the Coconut Coast with Create Travel cost?", a: "We do not work with shelf pricing: the budget depends on the destination, accommodation and season. A human consultant presents the proposal in writing." },
+      { q: "Do I need a visa or vaccinations for Brazil?", a: "Visa requirements depend on your nationality and may change. Check official Brazilian consular and immigration sources before booking. Consult a travel-health professional and official health guidance about routine vaccinations, yellow fever and any regional precautions well before departure." },
+      { q: "Are English-speaking guides available?", a: "Yes. Create Travel provides English-speaking guides on every excursion, as part of your private, tailor-made itinerary." },
+      { q: "Can I combine Coconut Coast with other Brazilian biomes?", a: "Yes. Brazil has six land biomes plus the coastal and marine zone — seven distinct landscapes and cultures. One suggested pairing is the Atlantic Forest and coastal and marine landscapes of Coconut Coast. Your travel designer checks seasonal compatibility and allows realistic travel days between regions." },
     ],
-    cta: { heading: "Let's design your Coconut Coast", subheading: "A human consultant at Create Travel chooses between Praia do Forte, Imbassaí and Mangue Seco the right base for your itinerary.", button: "Talk to a travel designer" },
+    cta: {
+      heading: "Request your Coconut Coast trip quote",
+      subheading: "Plan a private, tailor-made journey with a human travel designer, shaped around your interests, pace and preferred season. Receive your written proposal via WhatsApp.",
+      button: "Request a quote on WhatsApp",
+    },
     readingMinutes: 9,
     publishedAt: "2026-08-11",
   },

@@ -89,11 +89,11 @@ export const costaDoSolPoenteGuide: BrazilGuideLocalized = {
   en: {
     destinationName: "Sunset Coast",
     blurb: "Jericoacoara, Preá, Guajiru, Icaraí de Amontada, Mundaú, Flecheiras and Lagoinha: Ceará's western coast of wind, dunes and Brazil's most celebrated sunset.",
-    metaTitle: "Sunset Coast Guide: Jericoacoara to Lagoinha",
-    metaDescription: "A complete guide to Ceará's Sunset Coast: best time for kitesurfing, Jericoacoara, Preá, Icaraí de Amontada, Mundaú, Flecheiras, real hotels and itinerary tips.",
-    keywords: "sunset coast ceara, jericoacoara, prea brazil, icarai de amontada, mundau, flecheiras, lagoinha ceara, guajiru, almofala, kitesurf brazil, sunset dune jeri",
-    h1: "The Sunset Coast: Ceará's shoreline where wind shapes the landscape",
-    aiAnswer: "The Sunset Coast is Ceará's western shoreline between Fortaleza and the Piauí border, covering Jericoacoara, Preá, Guajiru, Icaraí de Amontada, Mundaú, Flecheiras, Lagoinha and Almofala; the best kitesurfing season runs August to December, when trade winds blow most consistently over the dunes and lagoons.",
+    metaTitle: "Sunset Coast, Brazil: Itinerary, Best Time & Quote",
+    metaDescription: "Private tailor-made Sunset Coast trips: suggested itinerary, best time and how to get there. Request a quote on WhatsApp.",
+    keywords: "sunset coast ceara, jericoacoara, prea brazil, icarai de amontada, mundau, flecheiras, lagoinha ceara, guajiru, almofala, kitesurf brazil, sunset dune jeri, sunset coast tour, sunset coast itinerary, how to get to sunset coast, best time sunset coast",
+    h1: "Sunset Coast: itinerary, best time and how to get there",
+    aiAnswer: "The Sunset Coast is Ceará's western shoreline between Fortaleza and the Piauí border, covering Jericoacoara, Preá, Guajiru, Icaraí de Amontada, Mundaú, Flecheiras, Lagoinha and Almofala; the best kitesurfing season runs August to December, when trade winds blow most consistently over the dunes and lagoons. Create Travel designs private, tailor-made Sunset Coast trips for international travellers, with English-speaking guides, and sends a written quote via WhatsApp.",
     intro: [
       "The Sunset Coast begins where Ceará's shoreline turns into a hinterland of dunes and ends in Jericoacoara, a village that became a national park yet kept its sand streets and its ban on cars in the centre. Between the two, a string of fishing villages — Preá, Guajiru, Icaraí de Amontada, Mundaú, Flecheiras, Lagoinha, Almofala — has become, over the last decade, the most coveted frontier of world kitesurfing without losing its silence away from the water.",
       "This guide gathers what we learned travelling this coast: why Jericoacoara remains a place of pilgrimage even as the best-known stop, why Preá and Guajiru concentrate some of the planet's finest wind spots, and why the Sunset Dune in Jeri still gathers a quiet crowd every single evening.",
@@ -140,12 +140,33 @@ export const costaDoSolPoenteGuide: BrazilGuideLocalized = {
       ],
     },
     itinerary: {
-      heading: "How to combine the Sunset Coast with a Ceará itinerary",
-      intro: "The region sits 3 to 6 hours by car from Fortaleza airport, depending on the stretch and the condition of the sand road.",
+      heading: "Suggested Sunset Coast itinerary — 4 nights / 5 days",
+      intro: "A private, tailor-made starting point, adjusted to your pace, arrival times and local conditions. Add nights for a more leisurely stay.",
       items: [
-        { title: "Jericoacoara on its own — 4 to 6 days", text: "A single base in Jeri, with buggy or 4x4 day trips to the surrounding lagoons and Pedra Furada." },
-        { title: "Jericoacoara + Preá or Guajiru — 6 to 8 days", text: "Combines Jeri's infrastructure and low-key nightlife with full days devoted to kitesurfing in Preá or Guajiru, about 20 minutes away." },
-        { title: "The full western coast — 8 to 10 days", text: "A route through Flecheiras, Lagoinha, Mundaú, Icaraí de Amontada and Jericoacoara, revealing the diversity of villages between Fortaleza and the Piauí border." },
+        {
+          title: "Day 1 — Fortaleza to Jericoacoara",
+          text: "Travel by private road transfer towards Jijoca, changing to an appropriate vehicle for the sand stretch.",
+        },
+        {
+          title: "Day 2 — Lagoons and dunes",
+          text: "Explore the surrounding lagoons by 4x4 or buggy with a guide, subject to local conditions.",
+        },
+        {
+          title: "Day 3 — Pedra Furada and village time",
+          text: "Plan a guided visit to Pedra Furada and an unhurried afternoon in the village.",
+        },
+        {
+          title: "Day 4 — Preá",
+          text: "Visit Preá for beach time or a kitesurfing session adapted to experience and wind conditions.",
+        },
+        {
+          title: "Day 5 — Departure",
+          text: "Return to Fortaleza with generous time for the road and flight connection.",
+        },
+        {
+          title: "Combine two or more Brazilian biomes",
+          text: "Brazil has six land biomes — Amazon, Atlantic Forest, Cerrado, Caatinga, Pantanal and Pampa — plus the coastal and marine zone: seven distinct landscapes and cultures. Combine Ceará’s coastal and marine zone with the Caatinga inland. We plan the pace and connections around seasonal conditions; wildlife sightings are never guaranteed.",
+        },
       ],
     },
     tips: {
@@ -162,12 +183,19 @@ export const costaDoSolPoenteGuide: BrazilGuideLocalized = {
     faq: [
       { q: "Where is the Sunset Coast?", a: "On Ceará's western shoreline, between Fortaleza and the Piauí border, covering Jericoacoara, Preá, Guajiru, Icaraí de Amontada, Mundaú, Flecheiras, Lagoinha and Almofala." },
       { q: "What is the best time for kitesurfing in Jericoacoara and Preá?", a: "From August to December, when trade winds blow with the most force and consistency over the region." },
-      { q: "How do you get to Jericoacoara?", a: "Via Fortaleza airport, followed by a paved road to Jijoca and a final sand stretch covered by 4x4 vehicle or buggy." },
+      { q: "How do you get to Jericoacoara?", a: "Fly internationally to a Brazilian hub and connect to Fortaleza airport, then continue by road towards Jijoca and by 4x4 over the final sand stretch to Jericoacoara. Create Travel arranges private transfers to your stay or embarkation point." },
       { q: "Do cars circulate in Jericoacoara's centre?", a: "No; the village centre has sand streets and restricted vehicle circulation, preserving its fishing-village atmosphere." },
       { q: "What's the difference between Preá, Guajiru and Jericoacoara for kitesurfing?", a: "Preá and Guajiru have more technical spots geared to the kite community, while Jericoacoara offers fuller tourist infrastructure alongside the Sunset Dune." },
       { q: "How much does a trip to the Sunset Coast with Create Travel cost?", a: "We do not work with shelf pricing: the budget depends on the destination, accommodation and season. A human consultant presents the proposal in writing." },
+      { q: "Do I need a visa or vaccinations for Brazil?", a: "Visa requirements depend on your nationality and may change. Check official Brazilian consular and immigration sources before booking. Consult a travel-health professional and official health guidance about routine vaccinations, yellow fever and any regional precautions well before departure." },
+      { q: "Are English-speaking guides available?", a: "Yes. Create Travel provides English-speaking guides on every excursion, as part of your private, tailor-made itinerary." },
+      { q: "Can I combine Sunset Coast with other Brazilian biomes?", a: "Yes. Brazil has six land biomes plus the coastal and marine zone — seven distinct landscapes and cultures. One suggested pairing is Ceará’s coastal and marine zone with the Caatinga inland. Your travel designer checks seasonal compatibility and allows realistic travel days between regions." },
     ],
-    cta: { heading: "Let's design your Sunset Coast", subheading: "A human consultant at Create Travel chooses between Jericoacoara, Preá, Guajiru and Icaraí de Amontada the right base for your itinerary.", button: "Talk to a travel designer" },
+    cta: {
+      heading: "Request your Sunset Coast trip quote",
+      subheading: "Plan a private, tailor-made journey with a human travel designer, shaped around your interests, pace and preferred season. Receive your written proposal via WhatsApp.",
+      button: "Request a quote on WhatsApp",
+    },
     readingMinutes: 9,
     publishedAt: "2026-08-11",
   },
