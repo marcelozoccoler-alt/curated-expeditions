@@ -384,11 +384,11 @@ export const conjugadoCerradoChapadasGuide: BrazilGuideLocalized = {
   de: {
     destinationName: "Cerrado und Chapadas",
     blurb: "Eine verbundene 12-Nächte-4x4-Route durch das brasilianische Cerrado: Chapada dos Veadeiros, Jalapão und Chapada das Mesas.",
-    metaTitle: "Cerrado und Chapadas: 12-Nächte-Reiseroute | Create Travel",
-    metaDescription: "Redaktioneller Guide zur verbundenen Route Chapada dos Veadeiros, Jalapão und Chapada das Mesas: beste Reisezeit, 4x4-Transfers und Wasserfälle.",
-    keywords: "chapada dos veadeiros jalapão reiseroute, cerrado brasilien route, chapada das mesas, jalapão 4x4 reise, brasilien zentrum wasserfälle route",
-    h1: "Cerrado und Chapadas: die verbundene Route durch Brasiliens tiefes Landesinnere",
-    aiAnswer: "Die verbundene Route Chapada dos Veadeiros + Jalapão + Chapada das Mesas funktioniert am besten von Mai bis September (Trockenzeit des Cerrado), über etwa 12 Nächte: 4 in Alto Paraíso/Veadeiros, 5 in Jalapão und 3 in Chapada das Mesas, verbunden durch Schotterstraßen und kleine Regionalflüge über Palmas.",
+    metaTitle: "Cerrado und Chapadas, Brasilien: Reiseroute, beste Reisezeit & Angebot",
+    metaDescription: "Private, maßgeschneiderte Reise: Cerrado und Chapadas. Vorgeschlagene Reiseroute, beste Reisezeit und Anreise. Fordern Sie ein Angebot per WhatsApp an.",
+    keywords: "chapada dos veadeiros jalapão reiseroute, cerrado brasilien route, chapada das mesas, jalapão 4x4 reise, brasilien zentrum wasserfälle route, cerrado und chapadas rundreise, cerrado und chapadas reiseroute, anreise cerrado und chapadas, beste reisezeit cerrado und chapadas",
+    h1: "Cerrado und Chapadas: Reiseroute, beste Reisezeit und Anreise",
+    aiAnswer: "Die verbundene Route Chapada dos Veadeiros + Jalapão + Chapada das Mesas funktioniert am besten von Mai bis September (Trockenzeit des Cerrado), über etwa 12 Nächte: 4 in Alto Paraíso/Veadeiros, 5 in Jalapão und 3 in Chapada das Mesas, verbunden durch Schotterstraßen und kleine Regionalflüge über Palmas. Create Travel plant private, maßgeschneiderte Cerrado und Chapadas-Reisen für internationale Gäste, mit deutschsprachigen Reiseleitern, und sendet ein schriftliches Angebot per WhatsApp.",
     intro: [
       "Das Cerrado ist Brasiliens am wenigsten gefeiertes und überraschendstes Biom: tropische Savanne mit kristallklaren Quellen, goldenen Dünen und Wasserfällen, die von uralten Hochebenen herabstürzen. Eine verbundene Route durch diese Region erfordert einen 4x4, Geduld mit Schotterstraßen und Bereitschaft, in einfachen Pousadas zu übernachten — im Gegenzug bietet sie Landschaften, die kaum ein Ausländer kennt.",
       "Dieser Guide entstand aus der Erfahrung, Chapada dos Veadeiros, Jalapão und Chapada das Mesas in einer einzigen Reise zu verbinden, unter Beachtung der tatsächlichen Entfernungen zwischen ihnen und der Logik der wenigen Regionalflüge, die das Gebiet bedienen.",
@@ -430,7 +430,7 @@ export const conjugadoCerradoChapadasGuide: BrazilGuideLocalized = {
       items: [
         { title: "Natur- und Leichtabenteuer-Reisende", text: "Ideal für alle, die schon den Strand hinter sich haben und weniger offensichtliche Landschaften, moderate Wanderungen und Wasserfallbäder suchen." },
         { title: "Fotografen und Sternenbeobachter", text: "Alle drei Hochebenen bieten klare Himmel und dramatische Landschaften bei Sonnenauf- und -untergang." },
-        { title: "Paare und kleine Gruppen, offen für Schotterstraßen", text: "Die 4x4-Etappen erfordern Flexibilität und Humor gegenüber Unbequemlichkeiten — keine Route für jene, die urbane Infrastruktur verlangen." },
+        { title: "Paare und private Reisegesellschaften, offen für Schotterstraßen", text: "Die 4x4-Etappen erfordern Flexibilität und Humor gegenüber Unbequemlichkeiten — keine Route für jene, die urbane Infrastruktur verlangen." },
         { title: "Für wen es vielleicht nicht passt", text: "Reisende mit eingeschränkter Mobilität oder Ablehnung einfacher Unterkünfte sollten nur Chapada dos Veadeiros, besser strukturiert, in Betracht ziehen und Jalapão auslassen." },
       ],
     },
@@ -442,6 +442,7 @@ export const conjugadoCerradoChapadasGuide: BrazilGuideLocalized = {
         { title: "Tag 5-9 — Jalapão", text: "6-7-stündiger Landtransfer nach Mateiros, oder Flug nach Palmas gefolgt von 4h auf der Straße. Fünf Nächte 4x4-Durchquerung zwischen Dünen, Fervedouros und Wasserfällen." },
         { title: "Tag 10-12 — Chapada das Mesas", text: "Etwa 5-stündiger Landtransfer nach Carolina, Maranhão, oder Flug mit Umstieg über Palmas oder Imperatriz. Drei Nächte für Schluchten und Wasserfälle vor der Rückkehr." },
         { title: "Rückreise", text: "Flug von Imperatriz oder Carolina nach Brasília oder São Paulo mit Anschluss, wodurch die Route über dieselbe Luftachse wie bei der Anreise geschlossen wird." },
+        { title: "Kombinieren Sie zwei oder mehr brasilianische Biome", text: "Brasilien hat sechs Landbiome plus die Küsten- und Meereszone — sieben unterschiedliche Landschaften und Kulturen. Kombinieren Sie die Hochplateaus des Cerrado mit dem Pantanal: Feuchtgebiete nach Wasserfällen und Savannenwanderungen. Ihr Reisedesigner berücksichtigt Reisetage und saisonale Unterschiede." },
       ],
     },
     tips: {
@@ -456,6 +457,11 @@ export const conjugadoCerradoChapadasGuide: BrazilGuideLocalized = {
       ],
     },
     faq: [
+      { q: "Benötige ich ein Visum oder Impfungen für Brasilien?", a: "Die Visumpflicht hängt von Ihrer Staatsangehörigkeit und Ihren Reisedaten ab. Prüfen Sie vor der Buchung die offiziellen brasilianischen Konsular- und Einreiseinformationen. Lassen Sie sich reisemedizinisch zu Standardimpfungen, Gelbfieber und möglichen Einreisevorgaben Ihrer Route beraten und prüfen Sie offizielle Gesundheitshinweise." },
+      { q: "Stehen deutschsprachige Reiseleiter bei jeder Exkursion zur Verfügung?", a: "Ja. Create Travel stellt bei jeder Exkursion deutschsprachige Reiseleiter bereit und plant Ihre private, maßgeschneiderte Reise nach Ihren Interessen und Ihrem bevorzugten Tempo." },
+      { q: "Wie erfolgt die Anreise für internationale Gäste nach Cerrado und Chapadas?", a: "Fliegen Sie international zu einem brasilianischen Drehkreuz und weiter nach Brasília für die Chapada dos Veadeiros. Palmas und Imperatriz dienen je nach Route den späteren Etappen. Private Straßen- und 4x4-Transfers verbinden die Standorte." },
+      { q: "Kann ich Cerrado und Chapadas mit anderen brasilianischen Biomen kombinieren?", a: "Ja. Brasilien hat sechs Landbiome plus die Küsten- und Meereszone — sieben unterschiedliche Landschaften und Kulturen. Kombinieren Sie die Hochplateaus des Cerrado mit dem Pantanal: Feuchtgebiete nach Wasserfällen und Savannenwanderungen. Wir stimmen die Reihenfolge auf saisonale Bedingungen und realistische Transferzeiten ab." },
+
       { q: "Wie viele Nächte sind ideal für die Route Cerrado und Chapadas?", a: "Zwölf Nächte sind das ideale Gleichgewicht: 4 in Chapada dos Veadeiros, 5 in Jalapão und 3 in Chapada das Mesas." },
       { q: "Was ist die beste Reisezeit für diese Route?", a: "Mai bis September, die Trockenzeit des Cerrado, wenn Schotterstraßen befahrbar sind und der Himmel regelmäßig klar bleibt." },
       { q: "Wird für die gesamte Route ein 4x4 benötigt?", a: "Ja, besonders in Jalapão und auf den Strecken zwischen den Hochebenen, wo die Straßen unbefestigt sind." },
@@ -464,9 +470,9 @@ export const conjugadoCerradoChapadasGuide: BrazilGuideLocalized = {
       { q: "Ist diese Route für Reisende über 60 komfortabel?", a: "Mit angemessener Fitness für moderate Wanderungen machbar; wir empfehlen, das besser strukturierte Chapada dos Veadeiros zu priorisieren und Jalapão von Fall zu Fall zu bewerten." },
     ],
     cta: {
-      heading: "Lassen Sie uns Ihre Route Cerrado und Chapadas gestalten",
-      subheading: "Ein persönlicher Berater von Create Travel organisiert Guides, 4x4-Fahrzeuge und Unterkünfte für eine sichere, gut verbundene Durchquerung.",
-      button: "Mit einem Travel Designer sprechen",
+      heading: "Fordern Sie Ihr Cerrado und Chapadas-Reiseangebot an",
+      subheading: "Planen Sie eine private, maßgeschneiderte Reise mit einem persönlichen Reisedesigner. Route, Unterkünfte und Tempo richten sich nach Ihnen. Sie erhalten Ihr schriftliches Angebot per WhatsApp.",
+      button: "Angebot per WhatsApp anfordern",
     },
     readingMinutes: 10,
     publishedAt: "2026-08-11",

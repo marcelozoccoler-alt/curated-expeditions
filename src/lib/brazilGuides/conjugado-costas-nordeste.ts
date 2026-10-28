@@ -384,11 +384,11 @@ export const conjugadoCostasNordesteGuide: BrazilGuideLocalized = {
   de: {
     destinationName: "Küsten des Nordostens",
     blurb: "Eine kombinierte 13-nächtige Route durch Ceará, Maranhão und Bahia: Jericoacoara, Lençóis Maranhenses und die Küsten Coqueiros und Dendê.",
-    metaTitle: "Küsten des Nordostens: 13-Nächte-Reiseroute | Create Travel",
-    metaDescription: "Ein redaktioneller Guide zur kombinierten Route Jericoacoara, Lençóis Maranhenses, Rota das Emoções und Bahia (Praia do Forte und Maraú/Boipeba): beste Reisezeit, Flüge und Überfahrten.",
-    keywords: "jericoacoara lençóis maranhenses reiseroute, nordost-brasilien küste route, rota das emoções, praia do forte reiseroute, maraú boipeba reiseroute, bahia ceará maranhão reise",
-    h1: "Küsten des Nordostens: die kombinierte Route von Jericoacoara bis Boipeba",
-    aiAnswer: "Die kombinierte Route Küsten des Nordostens verbindet Jericoacoara und Preá (Ceará), Lençóis Maranhenses und die Rota das Emoções (Maranhão-Piauí) sowie Bahia (Costa dos Coqueiros und Costa do Dendê) über rund 13 Nächte, zwischen Juli und November, verknüpft durch Flüge über Fortaleza, Jericoacoara (JJD), São Luís und Salvador, mit 4x4-Transfers und Bootsüberfahrten zwischen den Binnenetappen.",
+    metaTitle: "Küsten des Nordostens, Brasilien: Reiseroute, beste Reisezeit & Angebot",
+    metaDescription: "Private, maßgeschneiderte Reise: Küsten des Nordostens. Vorgeschlagene Reiseroute, beste Reisezeit und Anreise. Fordern Sie ein Angebot per WhatsApp an.",
+    keywords: "jericoacoara lençóis maranhenses reiseroute, nordost-brasilien küste route, rota das emoções, praia do forte reiseroute, maraú boipeba reiseroute, bahia ceará maranhão reise, küsten des nordostens rundreise, küsten des nordostens reiseroute, anreise küsten des nordostens, beste reisezeit küsten des nordostens",
+    h1: "Küsten des Nordostens: Reiseroute, beste Reisezeit und Anreise",
+    aiAnswer: "Die kombinierte Route Küsten des Nordostens verbindet Jericoacoara und Preá (Ceará), Lençóis Maranhenses und die Rota das Emoções (Maranhão-Piauí) sowie Bahia (Costa dos Coqueiros und Costa do Dendê) über rund 13 Nächte, zwischen Juli und November, verknüpft durch Flüge über Fortaleza, Jericoacoara (JJD), São Luís und Salvador, mit 4x4-Transfers und Bootsüberfahrten zwischen den Binnenetappen. Create Travel plant private, maßgeschneiderte Küsten des Nordostens-Reisen für internationale Gäste, mit deutschsprachigen Reiseleitern, und sendet ein schriftliches Angebot per WhatsApp.",
     intro: [
       "Nur wenige Kombinationen zeigen die Vielfalt der brasilianischen Küste so gut wie diese: von den wandernden Dünen und beständigen Winden Jericoacoaras über die türkisfarbenen Lagunen der Lençóis Maranhenses bis zu den warmen Gewässern und dem afro-bahianischen Erbe der Costa dos Coqueiros und der Costa do Dendê. Es sind drei unterschiedliche Nordosten, verbunden durch einen roten Faden aus Sand, Wind und Meer.",
       "Dieser Guide entstand aus der Erfahrung, diese drei Etappen in einer einzigen Reise von rund 13 Nächten zu verknüpfen, unter Berücksichtigung der realen Logistik von Regionalflügen, kleinen Flughäfen wie dem von Jericoacoara sowie der 4x4- und Bootsüberfahrten, die Teil der Route sind — nie ein Hindernis, immer Teil der Erzählung.",
@@ -443,6 +443,7 @@ export const conjugadoCostasNordesteGuide: BrazilGuideLocalized = {
         { title: "Tage 5 bis 8 — Lençóis Maranhenses und Rota das Emoções", text: "4x4-Transfer entlang der Rota das Emoções nach Barreirinhas oder Atins, mit Bootsüberquerung des Parnaíba-Deltas, oder Flug nach São Luís mit Landanschluss. Vier Nächte für Lagunen, Dünen und das Zusammentreffen von Fluss und Meer." },
         { title: "Tage 9 bis 13 — Bahia: Costa dos Coqueiros und Costa do Dendê", text: "Flug von São Luís nach Salvador mit Anschluss, Transfer nach Praia do Forte (etwa 1 Std.) für zwei Nächte, gefolgt von einer Land- und Bootsüberfahrt zur Halbinsel Maraú oder nach Boipeba für die letzten drei Nächte." },
         { title: "Rückreise", text: "Boots- und/oder Landtransfer zurück nach Salvador zum Abflug, womit sich die Route über dieselbe Flugachse schließt, über die sie begann." },
+        { title: "Kombinieren Sie zwei oder mehr brasilianische Biome", text: "Brasilien hat sechs Landbiome plus die Küsten- und Meereszone — sieben unterschiedliche Landschaften und Kulturen. Kombinieren Sie diese Küstenreise mit dem Amazonas für Regenwald und Flussleben nach Dünen und Meer. Ihr Reisedesigner berücksichtigt Reisetage und saisonale Unterschiede." },
       ],
     },
     tips: {
@@ -457,6 +458,11 @@ export const conjugadoCostasNordesteGuide: BrazilGuideLocalized = {
       ],
     },
     faq: [
+      { q: "Benötige ich ein Visum oder Impfungen für Brasilien?", a: "Die Visumpflicht hängt von Ihrer Staatsangehörigkeit und Ihren Reisedaten ab. Prüfen Sie vor der Buchung die offiziellen brasilianischen Konsular- und Einreiseinformationen. Lassen Sie sich reisemedizinisch zu Standardimpfungen, Gelbfieber und möglichen Einreisevorgaben Ihrer Route beraten und prüfen Sie offizielle Gesundheitshinweise." },
+      { q: "Stehen deutschsprachige Reiseleiter bei jeder Exkursion zur Verfügung?", a: "Ja. Create Travel stellt bei jeder Exkursion deutschsprachige Reiseleiter bereit und plant Ihre private, maßgeschneiderte Reise nach Ihren Interessen und Ihrem bevorzugten Tempo." },
+      { q: "Wie erfolgt die Anreise für internationale Gäste nach Küsten des Nordostens?", a: "Fliegen Sie international zu einem brasilianischen Drehkreuz und weiter nach Fortaleza oder Jericoacoara für die erste Etappe. São Luís und Salvador erschließen die späteren Abschnitte. Private Straßen-, 4x4- und Bootstransfers werden auf die Route abgestimmt." },
+      { q: "Kann ich Küsten des Nordostens mit anderen brasilianischen Biomen kombinieren?", a: "Ja. Brasilien hat sechs Landbiome plus die Küsten- und Meereszone — sieben unterschiedliche Landschaften und Kulturen. Kombinieren Sie diese Küstenreise mit dem Amazonas für Regenwald und Flussleben nach Dünen und Meer. Wir stimmen die Reihenfolge auf saisonale Bedingungen und realistische Transferzeiten ab." },
+
       { q: "Wie viele Nächte sind ideal für die Route Küsten des Nordostens?", a: "Dreizehn Nächte sind das ideale Gleichgewicht: 4 in Jericoacoara und Preá, 4 in den Lençóis Maranhenses und auf der Rota das Emoções sowie 5 in Bahia zwischen Praia do Forte und Maraú/Boipeba." },
       { q: "Was ist die beste Reisezeit für diese Route?", a: "Juli bis November, wenn die Winde Jericoacoara begünstigen, die Lagunen der Lençóis Maranhenses gut gefüllt sind und das Meer in Bahia ruhiger ist." },
       { q: "Wie erreicht man Jericoacoara?", a: "Über den Flughafen Jericoacoara (JJD) mit Regionalflügen ab Fortaleza, oder per Landtransfer von etwa 4 bis 5 Stunden ab der Landeshauptstadt." },
@@ -465,9 +471,9 @@ export const conjugadoCostasNordesteGuide: BrazilGuideLocalized = {
       { q: "Ist diese Route für Reisende über 60 angenehm?", a: "Sie ist mit guter Bereitschaft für Boots- und Landetappen machbar; wir empfehlen besser strukturierte Unterkünfte in jedem Block und ein ruhigeres Tempo zwischen den Überfahrten." },
     ],
     cta: {
-      heading: "Lassen Sie uns Ihre Route entlang der Küsten des Nordostens gestalten",
-      subheading: "Ein persönlicher Berater von Create Travel organisiert Regionalflüge, 4x4-Transfers und Bootsüberfahrten für eine reibungslose Reise zwischen Ceará, Maranhão und Bahia.",
-      button: "Mit einem Travel Designer sprechen",
+      heading: "Fordern Sie Ihr Küsten des Nordostens-Reiseangebot an",
+      subheading: "Planen Sie eine private, maßgeschneiderte Reise mit einem persönlichen Reisedesigner. Route, Unterkünfte und Tempo richten sich nach Ihnen. Sie erhalten Ihr schriftliches Angebot per WhatsApp.",
+      button: "Angebot per WhatsApp anfordern",
     },
     readingMinutes: 11,
     publishedAt: "2026-08-11",

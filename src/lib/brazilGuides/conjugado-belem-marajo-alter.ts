@@ -394,11 +394,11 @@ export const conjugadoBelemMarajoAlterGuide: BrazilGuideLocalized = {
   de: {
     destinationName: "Belém + Insel Marajó + Alter do Chão",
     blurb: "Das Amazonasgebiet von Pará in seiner ganzen Vielfalt: historische Stadt, Büffelinsel, Flussstrände und tiefer Regenwald, über 13 Nächte.",
-    metaTitle: "Belém + Marajó + Alter do Chão: kombinierte 13-Nächte-Reiseroute",
-    metaDescription: "Wie man Belém, die Insel Marajó, Alter do Chão und eine Regenwald-Lodge am Rio Negro oder in Mamirauá in einer Reise verbindet: reale Logistik von Überfahrten und Flügen, beste Reisezeit (September bis November) und Unterkünfte je Etappe.",
-    keywords: "belem marajo alter do chao reiseroute, reise nach marajo, alter do chao reiseroute, insel combu belem, ver-o-peso markt, tapajos flussstrände, rio negro lodge, mamiraua reservat",
-    h1: "Belém + Insel Marajó + Alter do Chão: die kombinierte Reiseroute durch das Amazonasgebiet von Pará",
-    aiAnswer: "Die Reiseroute, die Belém, die Insel Marajó und Alter do Chão verbindet, dauert etwa 13 Nächte: 3 in Belém, 3 auf Marajó (per Fähre/Schnellboot ab Icoaraci), 3 in Alter do Chão/Tapajós (Flug Belém–Santarém) und 4 in einer Regenwald-Lodge am Rio Negro (über Manaus) oder im Mamirauá-Reservat (über Tefé), in der Trockenzeit von September bis November, wenn die Flussstrände des Tapajós und von Marajó ihren Höhepunkt erreichen.",
+    metaTitle: "Belém + Insel Marajó + Alter do Chão, Brasilien: Reiseroute, beste Reisezeit & Angebot",
+    metaDescription: "Private, maßgeschneiderte Reise: Belém + Insel Marajó + Alter do Chão. Vorgeschlagene Reiseroute, beste Reisezeit und Anreise. Fordern Sie ein Angebot per WhatsApp an.",
+    keywords: "belem marajo alter do chao reiseroute, reise nach marajo, alter do chao reiseroute, insel combu belem, ver-o-peso markt, tapajos flussstrände, rio negro lodge, mamiraua reservat, belém + insel marajó + alter do chão rundreise, belém + insel marajó + alter do chão reiseroute, anreise belém + insel marajó + alter do chão, beste reisezeit belém + insel marajó + alter do chão",
+    h1: "Belém + Insel Marajó + Alter do Chão: Reiseroute, beste Reisezeit und Anreise",
+    aiAnswer: "Die Reiseroute, die Belém, die Insel Marajó und Alter do Chão verbindet, dauert etwa 13 Nächte: 3 in Belém, 3 auf Marajó (per Fähre/Schnellboot ab Icoaraci), 3 in Alter do Chão/Tapajós (Flug Belém–Santarém) und 4 in einer Regenwald-Lodge am Rio Negro (über Manaus) oder im Mamirauá-Reservat (über Tefé), in der Trockenzeit von September bis November, wenn die Flussstrände des Tapajós und von Marajó ihren Höhepunkt erreichen. Create Travel plant private, maßgeschneiderte Belém + Insel Marajó + Alter do Chão-Reisen für internationale Gäste, mit deutschsprachigen Reiseleitern, und sendet ein schriftliches Angebot per WhatsApp.",
     intro: [
       "Belém ist kein Zwischenstopp, sondern das Tor zu einem Amazonasgebiet, das nur wenige Reiserouten vollständig erschließen. Die historische Stadt des Grão-Pará weicht wenige Bootsstunden entfernt der überfluteten Büffelsavanne der Insel Marajó; und mit einem kurzen Flug den Süßwasserstränden von Alter do Chão am Rio Tapajós. Den Abschluss der Reise in einer tiefen Regenwald-Lodge — am Rio Negro oder in Mamirauá — vervollständigt das Bild: Stadt, Insel, Flussstrand und Urwald, vier amazonische Landschaften, die selten gemeinsam in derselben Reiseroute vorkommen.",
       "Dieser Guide ist als kombinierte Route konzipiert: Er behandelt die Überfahrt von Icoaraci nach Soure, den Flug Belém–Santarém und die abschließende Verbindung über Manaus oder Tefé als Teil einer einzigen Reiselogik von etwa 13 Nächten, mit dem Klimafenster und der Nächtezahl je Etappe, die die vier Ziele nacheinander funktionieren lassen.",
@@ -456,6 +456,7 @@ export const conjugadoBelemMarajoAlterGuide: BrazilGuideLocalized = {
         { title: "Nächte 7–9 — Alter do Chão und der Rio Tapajós", text: "Drei Nächte mit Tagen auf der Ilha do Amor, einer Wanderung im Nationalwald Tapajós und einer Bootsfahrt auf dem Rio Arapiuns durch Flussgemeinden." },
         { title: "Transit — Santarém nach Manaus oder Tefé", text: "Inlandsflug Santarém–Manaus (ca. 1 Stunde) für alle, die weiter zum Rio Negro reisen, oder Santarém–Tefé mit Zwischenstopp in Manaus für Mamirauá, gefolgt von einem Flusstransfer zur Lodge." },
         { title: "Nächte 10–13 — Regenwald-Lodge (Rio Negro oder Mamirauá)", text: "Vier abschließende Immersionsnächte mit Kanufahrten, nächtlichen Beobachtungen, Delfin- oder Uakari-Affen-Sichtungen vor dem Rückflug über Manaus." },
+        { title: "Kombinieren Sie zwei oder mehr brasilianische Biome", text: "Brasilien hat sechs Landbiome plus die Küsten- und Meereszone — sieben unterschiedliche Landschaften und Kulturen. Kombinieren Sie diese Amazonas-Reise mit dem Pantanal für offene Feuchtgebiete und ein kontrastierendes Tiererlebnis. Ihr Reisedesigner berücksichtigt Reisetage und saisonale Unterschiede." },
       ],
     },
     tips: {
@@ -470,6 +471,11 @@ export const conjugadoBelemMarajoAlterGuide: BrazilGuideLocalized = {
       ],
     },
     faq: [
+      { q: "Benötige ich ein Visum oder Impfungen für Brasilien?", a: "Die Visumpflicht hängt von Ihrer Staatsangehörigkeit und Ihren Reisedaten ab. Prüfen Sie vor der Buchung die offiziellen brasilianischen Konsular- und Einreiseinformationen. Lassen Sie sich reisemedizinisch zu Standardimpfungen, Gelbfieber und möglichen Einreisevorgaben Ihrer Route beraten und prüfen Sie offizielle Gesundheitshinweise." },
+      { q: "Stehen deutschsprachige Reiseleiter bei jeder Exkursion zur Verfügung?", a: "Ja. Create Travel stellt bei jeder Exkursion deutschsprachige Reiseleiter bereit und plant Ihre private, maßgeschneiderte Reise nach Ihren Interessen und Ihrem bevorzugten Tempo." },
+      { q: "Wie erfolgt die Anreise für internationale Gäste nach Belém + Insel Marajó + Alter do Chão?", a: "Fliegen Sie international zu einem brasilianischen Drehkreuz und weiter nach Belém. Nach Marajó geht es per Boot; zurück in Belém fliegen Sie nach Santarém und fahren nach Alter do Chão. Private Transfers werden für jede Etappe geplant." },
+      { q: "Kann ich Belém + Insel Marajó + Alter do Chão mit anderen brasilianischen Biomen kombinieren?", a: "Ja. Brasilien hat sechs Landbiome plus die Küsten- und Meereszone — sieben unterschiedliche Landschaften und Kulturen. Kombinieren Sie diese Amazonas-Reise mit dem Pantanal für offene Feuchtgebiete und ein kontrastierendes Tiererlebnis. Wir stimmen die Reihenfolge auf saisonale Bedingungen und realistische Transferzeiten ab." },
+
       { q: "Wie viele Nächte braucht man für die Route Belém + Marajó + Alter do Chão?", a: "Etwa 13 Nächte: 3 in Belém, 3 auf Marajó, 3 in Alter do Chão und 4 in einer abschließenden Regenwald-Lodge am Rio Negro oder in Mamirauá." },
       { q: "Wie kommt man von Belém zur Insel Marajó?", a: "Per Flussüberfahrt vom Hafen Icoaraci in Belém, per Fähre (ca. 3 Stunden) oder Schnellboot (ca. 1,5 Stunden) nach Soure." },
       { q: "Gibt es einen Direktflug zwischen Belém und Alter do Chão?", a: "Nein; man fliegt von Belém nach Santarém (ca. 1 Stunde) und fährt anschließend etwa 40 Minuten über Land nach Alter do Chão." },
@@ -477,7 +483,11 @@ export const conjugadoBelemMarajoAlterGuide: BrazilGuideLocalized = {
       { q: "Lohnt es sich mehr, die Reise am Rio Negro oder in Mamirauá zu beenden?", a: "Der Rio Negro über Manaus bietet direkteren Zugang und eine breitere Lodge-Infrastruktur; Mamirauá über Tefé erfordert mehr Logistik, bietet aber eines der bestgeführten Wildtierreservate des Amazonasgebiets mit nahezu garantierten Uakari-Affen-Sichtungen." },
       { q: "Was kostet diese kombinierte Reiseroute mit Create Travel?", a: "Wir arbeiten nicht mit Listenpreisen: Das Budget hängt von den Lodges, der Saison und der gewählten Abschlussetappe ab. Ein menschlicher Berater erstellt das Angebot schriftlich." },
     ],
-    cta: { heading: "Lassen Sie uns Ihre Route Belém + Marajó + Alter do Chão gestalten", subheading: "Ein menschlicher Berater von Create Travel organisiert die Überfahrten, die Flüge und die richtige Reisezeit für die vier Etappen.", button: "Mit einem Travel Designer sprechen" },
+    cta: {
+      heading: "Fordern Sie Ihr Belém + Insel Marajó + Alter do Chão-Reiseangebot an",
+      subheading: "Planen Sie eine private, maßgeschneiderte Reise mit einem persönlichen Reisedesigner. Route, Unterkünfte und Tempo richten sich nach Ihnen. Sie erhalten Ihr schriftliches Angebot per WhatsApp.",
+      button: "Angebot per WhatsApp anfordern",
+    },
     readingMinutes: 13,
     publishedAt: "2026-08-11",
   },
