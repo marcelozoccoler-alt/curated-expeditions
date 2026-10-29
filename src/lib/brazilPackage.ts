@@ -17,10 +17,25 @@ export const packageUSD = () => Math.round(PACKAGE_FACTS.priceEUR * PACKAGE_FACT
 export const packagePrice = (lang: PackageLang, currency: "EUR" | "USD") =>
   new Intl.NumberFormat(lang === "es" ? "es-ES" : "en-US", { style: "currency", currency, maximumFractionDigits: 0, minimumFractionDigits: 0, useGrouping: true }).format(currency === "EUR" ? PACKAGE_FACTS.priceEUR : packageUSD());
 
+export const PACKAGE_GUIDES = [
+  { slug: "pantanal", name: { es: "Pantanal", en: "Pantanal" } },
+  { slug: "lencois-maranhenses", name: { es: "Lençóis Maranhenses", en: "Lençóis Maranhenses" } },
+  { slug: "rio-de-janeiro", name: { es: "Río de Janeiro", en: "Rio de Janeiro" } },
+] as const;
+export const guidePackage = (lang: string, slug: string) => {
+  if (lang !== "es" || !PACKAGE_GUIDES.some(g => g.slug === slug)) return undefined;
+  const c = PACKAGE_COPY.es;
+  return {
+    path: packagePath("es"), title: c.h1, button: "Ver el viaje completo y solicitar propuesta",
+    text: `${c.dates} · ${c.duration} · ${c.from} ${packagePrice("es", "EUR")} ${c.perPerson}. ${c.basis}. Vuelos internos incluidos; vuelos internacionales no incluidos. Naturaleza y safari fotográfico en Aquidauana, no búsqueda especializada de jaguares en Porto Jofre. Servicios compartidos según el itinerario; personalización con presupuesto propio.`,
+  };
+};
+
 type Copy = {
   title: string; description: string; eyebrow: string; h1: string; subtitle: string;
   dates: string; duration: string; from: string; perPerson: string; basis: string;
   cta: string; viewRoute: string; introTitle: string; intro: string; landscapes: string;
+  wildlifeNote: string; guidesTitle: string; guideLink: string;
   scenes: { name: string; label: string; text: string }[];
   seasonTitle: string; seasonText: string; itineraryTitle: string;
   days: { title: string; text: string }[];
@@ -33,8 +48,8 @@ type Copy = {
 
 export const PACKAGE_COPY: Record<PackageLang, Copy> = {
   es: {
-    title: "Pantanal y Lençóis con Río | Agosto 2027 · Create Travel",
-    description: "Safari en el Pantanal, lagunas de Lençóis Maranhenses y Río. 12 días, 7–18 agosto 2027. Desde 3.985 € por persona. Solicita tu propuesta en español.",
+    title: "Viaje Río, Pantanal y Lençóis Maranhenses | Agosto 2027",
+    description: "Río, naturaleza en Aquidauana y Lençóis Maranhenses. 12 días, 7–18 agosto 2027, desde 3.985 € por persona, con vuelos internos. Propuesta en español.",
     eyebrow: "BRASIL EN TRES ESCENARIOS · AGOSTO 2027",
     h1: "Río, Pantanal y Lençóis Maranhenses",
     subtitle: "La vida silvestre del Pantanal. Las lagunas entre dunas. El mar de Río. Un viaje para sentir Brasil, sin prisas.",
@@ -42,6 +57,8 @@ export const PACKAGE_COPY: Record<PackageLang, Copy> = {
     introTitle: "Tres paisajes. Un Brasil que se queda contigo.",
     intro: "Del ritmo de una fazenda pantanera al silencio de las dunas, y de los ríos del Maranhão al mar de Ipanema. Una travesía cuidadosamente conectada, con vuelos internos, alojamientos y experiencias seleccionadas por Create Travel. La ruta comienza en Río rumbo al Pantanal y termina con tres noches para disfrutar de la ciudad a tu ritmo.",
     landscapes: "Combina el bioma del Pantanal con los paisajes costeros de Lençóis y Río: naturaleza, culturas y maneras distintas de vivir Brasil en un mismo viaje.",
+    wildlifeNote: "En el Pantanal, esta ruta ofrece naturaleza y safari fotográfico en Aquidauana, con base en Pousada Aguapé y actividades según su programación. No incluye la búsqueda especializada de jaguares en Porto Jofre. La foto muestra un jaguar del río Piquiri, otra zona del Pantanal; ningún avistamiento está garantizado.",
+    guidesTitle: "Conoce cada destino antes de viajar", guideLink: "Ver gu\u00eda de viaje",
     scenes: [
       { name: "Pantanal", label: "03 NOCHES · VIDA SILVESTRE", text: "Pousada Aguapé, a orillas del río Aquidauana. Pensión completa y actividades por los campos, senderos y aguas del Pantanal, según la programación de la pousada." },
       { name: "Lençóis Maranhenses", label: "03 NOCHES · DUNAS Y LAGUNAS", text: "Lagoa Bonita, Atins, Santo Amaro y el río Preguiças. Cuatro perspectivas de un paisaje que cambia con la luz, el viento y las aguas de cada temporada." },
@@ -82,7 +99,7 @@ export const PACKAGE_COPY: Record<PackageLang, Copy> = {
       { q: "¿Agosto es una buena época para Lençóis y el Pantanal?", a: "La estación seca del Pantanal suele favorecer la observación de fauna. En Lençóis, el agua de las lagunas depende de las lluvias del año y del circuito. Las actividades se ajustan a las condiciones locales." },
       { q: "¿Puedo combinar otros destinos o biomas?", a: "Sí. Podemos estudiar una extensión a la Amazonía, Bonito, Foz de Iguazú u otros paisajes brasileños. Toda extensión se cotiza por separado; no está incluida en este precio base." },
     ],
-    finalTitle: "Reserva tu safari en el Pantanal y las maravillas de Lençóis para agosto de 2027.",
+    finalTitle: "Reserva tu viaje al Pantanal, Lençóis y Río para agosto de 2027.",
     finalText: "Combina tu viaje con otros escenarios de Brasil: la Amazonía, las Cataratas del Iguazú, Bonito y mucho más. Elige alojamientos con más encanto o lujo y adapta el itinerario a tu manera de viajar. La flexibilidad es total: diseñamos cada detalle según tus preferencias y el nivel de inversión que deseas dedicar a tu viaje. Cuéntanos qué imaginas y te enviamos una propuesta personalizada en español; las extensiones y los cambios de alojamiento se cotizan según tus elecciones, sujetos a disponibilidad.",
     whatsapp: "¡Hola, Create Travel! Me interesa el viaje Río, Pantanal y Lençóis Maranhenses del 7 al 18 de agosto de 2027, con precio base de 3.985 € por persona para dos viajeros. Quisiera recibir una propuesta en español con disponibilidad y condiciones.",
     back: "Descubrir Brasil", contact: "Hablemos de tu viaje",
@@ -97,6 +114,8 @@ export const PACKAGE_COPY: Record<PackageLang, Copy> = {
     introTitle: "Three landscapes. One unforgettable Brazil.",
     intro: "From the rhythm of a Pantanal fazenda to the quiet of the dunes, and from Maranhão's rivers to the shores of Ipanema. A carefully connected journey with domestic flights, selected stays and experiences curated by Create Travel. Depart from Rio for the Pantanal, then finish with three nights to enjoy the city at your own pace.",
     landscapes: "Combine the Pantanal biome with the coastal landscapes of Lençóis and Rio: different ecosystems, cultures and ways of life within one Brazilian journey.",
+    wildlifeNote: "In the Pantanal, this itinerary offers nature activities and photographic safari in Aquidauana, based at Pousada Aguapé and following its programme. It does not include Porto Jofre’s specialist jaguar-search itinerary. The photograph shows a jaguar by the Piquiri River, another area of the Pantanal; no wildlife sightings are guaranteed.",
+    guidesTitle: "Get to know each destination", guideLink: "Explore the travel guide",
     scenes: [
       { name: "Pantanal", label: "03 NIGHTS · WILDLIFE", text: "Pousada Aguapé, beside the Aquidauana River. Full board and activities through the fields, trails and waterways of the Pantanal, following the lodge's programme." },
       { name: "Lençóis Maranhenses", label: "03 NIGHTS · DUNES & LAGOONS", text: "Lagoa Bonita, Atins, Santo Amaro and the Preguiças River. Four perspectives on a landscape shaped by light, wind and the waters of each season." },
@@ -137,7 +156,7 @@ export const PACKAGE_COPY: Record<PackageLang, Copy> = {
       { q: "Is August a good time for Lençóis and the Pantanal?", a: "The Pantanal's dry season often favours wildlife observation. Lagoon levels in Lençóis depend on that year's rains and the circuit visited. Activities follow local conditions." },
       { q: "Can I combine other Brazilian destinations or biomes?", a: "Yes. We can explore extensions to the Amazon, Bonito, Iguazu Falls or other Brazilian landscapes. Extensions are quoted separately and are not included in this base price." },
     ],
-    finalTitle: "Secure your Pantanal safari and the wonders of Lençóis for August 2027.",
+    finalTitle: "Secure your Pantanal, Lençóis and Rio journey for August 2027.",
     finalText: "Combine your journey with Brazil's other remarkable landscapes: the Amazon, Iguazu Falls, Bonito and beyond. Choose stays with more charm or luxury and shape the itinerary around your way of travelling. Flexibility is complete: we tailor every detail to your preferences and the level of investment you wish to make in your journey. Tell us what you have in mind and we will send a personalised proposal in English; extensions and accommodation changes are quoted according to your choices, subject to availability.",
     whatsapp: "Hello Create Travel! I'm interested in Rio, Pantanal and Lençóis Maranhenses from 7 to 18 August 2027, with a base price of €3,985 per person for two travellers. Please send me a proposal in English with availability and booking conditions.",
     back: "Discover Brazil", contact: "Let's talk about your journey",
