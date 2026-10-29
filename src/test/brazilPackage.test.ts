@@ -1,7 +1,15 @@
 import { describe, expect, it } from "vitest";
-import { PACKAGE_FACTS, PACKAGE_COPY, packageUSD, packageWhatsApp, packageJsonLd } from "../lib/brazilPackage";
+import { PACKAGE_FACTS, PACKAGE_COPY, packageUSD, packageWhatsApp, packageJsonLd, guidePackage, PACKAGE_GUIDES, packagePath } from "../lib/brazilPackage";
 
 describe("Rio, Pantanal and Lençóis package", () => {
+  it("offers the combined package for exactly the three Spanish destinations", () => {
+    expect(PACKAGE_GUIDES.map(g => g.slug)).toEqual(["pantanal", "lencois-maranhenses", "rio-de-janeiro"]);
+    for (const slug of ["pantanal", "lencois-maranhenses", "rio-de-janeiro"]) {
+      expect(guidePackage("es", slug)?.path).toBe(packagePath("es"));
+    }
+    expect(guidePackage("es", "amazon")).toBeUndefined();
+    expect(guidePackage("it", "pantanal")).toBeUndefined();
+  });
   it("keeps the requested base price at 3985 euros per person", () => {
     expect(PACKAGE_FACTS.priceEUR).toBe(3985);
     expect(packageJsonLd("es").offers.price).toBe(3985);

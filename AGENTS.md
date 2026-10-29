@@ -1,4 +1,4 @@
-Keep international campaign packages in browser-independent typed data shared by their page and prerender generator, so translated prices, inclusions and crawler-visible content stay consistent.
+Keep international campaign packages, their destination relationships and guide-to-package offers in browser-independent typed data shared by pages and prerender, so translated prices, inclusions and crawler-visible links stay consistent.
 Keep travel-book day photos in the city/day keyed FOTOS registry and render them through FotosDoDia; this keeps the online itinerary and printable album in sync.
 Keep new batch departures in typed GrupoLote data modules aggregated by GRUPOS_LOTE, so routes and departure cards reuse GrupoGuiaPage consistently.
 Use optional priceLabels for departures without triple occupancy, so listing prices and room categories match the source document rather than array-position assumptions.
