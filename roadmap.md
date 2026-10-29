@@ -1,5 +1,7 @@
 # Roadmap
 
+- [ ] Ajustar busca em espanhol para Pantanal, Lençóis e Rio; ligar os guias ao pacote e vice-versa; esclarecer safari fotográfico de Aquidauana em ES/EN; conferir páginas no Search Console; testar sem publicar nem criar anúncios.
+
 - [x] Encerramento ES/EN: combinações com Amazônia e Cataratas, hospedagens com charme/luxo conforme preferências e investimento; foto real de onça de Charles J. Sharp (Piquiri, CC BY-SA 4.0), crédito e licença na página; entrega da foto pelo site e enquadramento conferidos, testes e HTML para IAs aprovados; sem publicar.
 
 - [x] Criar página do pacote Rio, Pantanal e Lençóis Maranhenses em espanhol e inglês, agosto/2027, preço base €3.985 por pessoa; Wise consultada (1,116 USD/EUR, aprox. US$4.447), roteiro e condições do PDF, imagens, WhatsApp nos dois idiomas e acesso pelo incoming conferidos; 266 testes aprovados e HTML para Google/IAs validado; sem publicar.
