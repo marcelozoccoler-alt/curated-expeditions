@@ -1,7 +1,7 @@
 # Roadmap
 
-- [ ] Ajustar busca em espanhol para Pantanal, Lençóis e Rio; ligar os guias ao pacote e vice-versa; esclarecer safari fotográfico de Aquidauana em ES/EN; conferir páginas no Search Console; testar sem publicar nem criar anúncios.
-- [ ] Responder sobre investimento em Google versus plataformas de IA, sem criar campanhas ou gastos.
+- [x] Ajustar busca em espanhol para Pantanal, Lençóis e Rio; links de ida e volta com o pacote e esclarecimento de Aquidauana ES/EN conferidos no navegador e no HTML para crawlers; 267 testes passam. Search Console: três guias indexados, pacote não reconhecido; sitemap sem erros. Sem publicar nem solicitar indexação (API de inspeção só lê).
+- [x] Explicar investimento: Google Search como primeiro candidato de teste, não garantia de melhor resultado; conteúdo para IA em paralelo, anúncios nas IAs não verificados; nenhuma campanha ou gasto.
 
 - [x] Encerramento ES/EN: combinações com Amazônia e Cataratas, hospedagens com charme/luxo conforme preferências e investimento; foto real de onça de Charles J. Sharp (Piquiri, CC BY-SA 4.0), crédito e licença na página; entrega da foto pelo site e enquadramento conferidos, testes e HTML para IAs aprovados; sem publicar.
 
