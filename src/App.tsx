@@ -122,6 +122,7 @@ import GuiasBrasil from "./pages/GuiasBrasil";
 import GuiaBrasil from "./pages/GuiaBrasil";
 
 import Pacote from "./pages/Pacote";
+import BrazilPackage from "./pages/BrazilPackage";
 import Auth from "./pages/Auth";
 import AdminSeo from "./pages/AdminSeo";
 import AdminPrecos from "./pages/AdminPrecos";
@@ -279,6 +280,7 @@ const App = () => (
 
 
           <Route path="/pacote/:slug" element={<Pacote />} />
+          <Route path="/:lang/brazil-packages/:slug" element={<BrazilPackage />} />
           <Route path="/auth" element={<Auth />} />
           <Route path="/admin/seo" element={<AdminSeo />} />
           <Route path="/admin/whatsapp" element={<AdminWhatsApp />} />

@@ -67,6 +67,8 @@ function renderHtml(template: string, pg: Page): string {
     .replace(/<title>[\s\S]*?<\/title>\s*<meta name="description"[^>]*>/, head)
     .replace(/<meta property="og:title" content="[^"]*">/, `<meta property="og:title" content="${esc(pg.title)}">`)
     .replace(/<meta property="og:description" content="[^"]*">/, `<meta property="og:description" content="${esc(pg.description)}">`)
+    .replace(/<meta name="twitter:title" content="[^"]*">/, `<meta name="twitter:title" content="${esc(pg.title)}">`)
+    .replace(/<meta name="twitter:description" content="[^"]*">/, `<meta name="twitter:description" content="${esc(pg.description)}">`)
     .replace(/<meta property="og:url" content="[^"]*"\s*\/?>/, `<meta property="og:url" content="${url}" />`)
     .replace('<div id="root"></div>', `<div id="root"><main>${pg.body}</main></div>`);
 }
@@ -103,7 +105,28 @@ export async function buildPages(load: (id: string) => Promise<any>): Promise<Pa
   const { INCOMING_DESTINO_CONTENT } = await load("/src/lib/incomingDestinoContent.ts");
   const { INCOMING_DESTINATIONS } = await load("/src/lib/incomingDestinations.ts");
   const { BRAZIL_GUIDES, guidePath } = await load("/src/lib/brazilGuides/index.ts");
+  const { PACKAGE_COPY, PACKAGE_FACTS, packagePath, packagePrice, packageJsonLd, packageWhatsApp } = await load("/src/lib/brazilPackage.ts");
   const pages: Page[] = [];
+  for (const lang of ["es", "en"]) {
+    const c = PACKAGE_COPY[lang];
+    pages.push({
+      path: packagePath(lang), lang, title: c.title, description: c.description,
+      alternates: { es: packagePath("es"), en: packagePath("en") },
+      body: `<h1>${esc(c.h1)}</h1>` + p(c.subtitle) + p(c.dates + " · " + c.duration)
+        + p(`${c.from} ${packagePrice(lang, "EUR")} ${c.perPerson} · ≈ ${packagePrice(lang, "USD")}`)
+        + sec(c.introTitle, p(c.intro) + p(c.landscapes))
+        + c.scenes.map((s: any) => sec(s.name, p(s.text))).join("")
+        + sec(c.seasonTitle, p(c.seasonText))
+        + sec(c.itineraryTitle, c.days.map((d: any, i: number) => `<h3>${i + 1} · ${esc(d.title)}</h3>${p(d.text)}`).join(""))
+        + sec(c.includesTitle, `<ul>${c.includes.map((t: string) => `<li>${esc(t)}</li>`).join("")}</ul>`)
+        + sec(c.excludesTitle, c.excludes.map(p).join(""))
+        + sec(c.hotelsTitle, PACKAGE_FACTS.hotels.map((h: any, i: number) => p(`${h.name} · ${h.location} · ${h.nights} ${c.nights} · ${c.hotelNotes[i]}`)).join(""))
+        + p(c.conditions) + p(c.exchangeNote)
+        + sec(c.faqTitle, c.faq.map((f: any) => `<h3>${esc(f.q)}</h3>${p(f.a)}`).join(""))
+        + sec(c.finalTitle, p(c.finalText) + `<a href="${esc(packageWhatsApp(lang))}">${esc(c.cta)}</a>`),
+      jsonLd: [agencyLd, packageJsonLd(lang), faqLd(c.faq)],
+    });
+  }
   const nameOf = (slug: string, lang: string) =>
     INCOMING_DESTINATIONS.find((d: any) => d.slug === slug)?.name?.[lang] ?? slug;
   const cta = (lang: string, dest: string, label: string) =>

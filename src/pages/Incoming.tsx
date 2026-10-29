@@ -3,6 +3,8 @@ import { Helmet } from "react-helmet-async";
 import { motion } from "framer-motion";
 import { MessageCircle, ArrowLeft, MapPin } from "lucide-react";
 import { Header } from "@/components/Header";
+import { Button } from "@/components/ui/button";
+import { PACKAGE_COPY, packagePath, packagePrice } from "@/lib/brazilPackage";
 import { Footer } from "@/components/Footer";
 import { HreflangTags } from "@/components/HreflangTags";
 import { SUPPORTED_LANGS, toContentLang, type ContentLang } from "@/i18n/config";
@@ -194,6 +196,7 @@ const Incoming = () => {
       </section>
 
       {/* Intro */}
+      {(lang === "es" || lang === "en") && <section className="bg-background border-b border-border py-12"><div className="container-editorial grid md:grid-cols-[1fr_auto] gap-6 items-center"><div><p className="text-sm text-emerald mb-2">{PACKAGE_COPY[lang].dates} · {PACKAGE_COPY[lang].duration}</p><h2 className="font-serif text-3xl mb-3">{PACKAGE_COPY[lang].h1}</h2><p className="text-muted-foreground">{PACKAGE_COPY[lang].from} {packagePrice(lang, "EUR")} {PACKAGE_COPY[lang].perPerson}</p></div><Button asChild size="lg"><Link to={packagePath(lang)}>{PACKAGE_COPY[lang].viewRoute}</Link></Button></div></section>}
       <section className="py-20 lg:py-28">
         <div className="container-editorial max-w-3xl">
           <h2 className="font-serif text-3xl md:text-4xl mb-8 text-foreground">
