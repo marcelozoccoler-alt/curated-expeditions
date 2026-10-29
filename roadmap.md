@@ -1,5 +1,7 @@
 # Roadmap
 
+- [ ] Criar página do pacote Rio, Pantanal e Lençóis Maranhenses em espanhol e inglês, agosto/2027, preço base €3.985 por pessoa, roteiro e condições do PDF, imagens e orçamento via WhatsApp; conferir antes de entregar, sem publicar.
+
 - [x] Corrigir encerramento e legenda da Chapada Diamantina para o padrão das Cataratas: versão v2 com fundo azul, logo, “A Chapada como você nunca sentiu” em português/inglês/espanhol e domínio; encerramento conferido no vídeo e em tamanho de feed, cenas e áudio originais mantidos, legenda trilíngue salva.
 - [x] Reenviar aqui o post e o vídeo final da Chapada Diamantina no padrão dos demais: arquivos existentes e coleção conferidos, vídeo vertical de 15,125 s e legenda trilíngue.
 - [ ] Preparar anúncios Google Search do Pantanal para EUA e Europa: briefing salvo; aguarda conexão ao Google Ads (interrompida antes de executar), confirmação dos países, pesquisa, textos, medição e orçamento; nenhum anúncio criado.
