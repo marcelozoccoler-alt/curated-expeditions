@@ -418,8 +418,8 @@ export const rioDeJaneiroGuide: BrazilGuideLocalized = {
   },
 
   es: {
-    metaTitle: "Río de Janeiro, Brasil: Itinerario, Mejor Época y Presupuesto",
-    metaDescription: "Viaje privado y a medida a Río de Janeiro: itinerario sugerido, mejor época y cómo llegar. Solicita un presupuesto por WhatsApp.",
+    metaTitle: "Viaje a Río de Janeiro: estancia y combinaciones en Brasil",
+    metaDescription: "Descubre Río de Janeiro a tu ritmo, con atención en español. Planifica tu estancia y combina Pantanal y Lençóis Maranhenses en un solo viaje.",
     keywords: "viaje rio de janeiro, cristo redentor sin fila, pan de azucar, santa teresa, sendero pedra da gavea, dois irmaos, copacabana ipanema, tour favela rio, itinerario rio de janeiro lujo, buzios paraty angra, Río de Janeiro tour, itinerario Río de Janeiro, cómo llegar a Río de Janeiro, mejor época Río de Janeiro",
     h1: "Río de Janeiro: itinerario, mejor época y cómo llegar",
     aiAnswer: "La mejor época para visitar Río de Janeiro es de abril a junio y de agosto a octubre (menos lluvia, calor moderado, ciudad animada pero no abarrotada); lo ideal son de 4 a 5 noches, usando el aeropuerto Santos Dumont (SDU) para vuelos domésticos y el Galeão (GIG) para llegadas internacionales. Create Travel diseña viajes privados y a medida a Río de Janeiro para viajeros internacionales, con guías en español, y envía un presupuesto por escrito por WhatsApp.",
@@ -627,7 +627,7 @@ export const rioDeJaneiroGuide: BrazilGuideLocalized = {
       },
       {
         "q": "¿Cuánto cuesta un viaje a Río de Janeiro con Create Travel?",
-        "a": "No trabajamos con valores de catálogo: el presupuesto depende del hotel, la época y las experiencias privadas elegidas. Un consultor humano arma la propuesta y presenta los valores por escrito."
+        "a": "El viaje a medida depende del hotel, la época y las experiencias elegidas. También puedes consultar el paquete Río, Pantanal y Lençóis de agosto de 2027, con precio base publicado; sus días libres en Río no incluyen visitas opcionales."
       },
       {
         "q": "¿Necesito visado o vacunas para Brasil?",

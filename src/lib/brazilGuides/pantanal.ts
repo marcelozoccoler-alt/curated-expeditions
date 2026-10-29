@@ -343,8 +343,8 @@ export const pantanalGuide: BrazilGuideLocalized = {
   },
 
   es: {
-    metaTitle: "Pantanal, Brasil: Itinerario, Mejor Época y Presupuesto",
-    metaDescription: "Viaje privado y a medida a Pantanal: itinerario sugerido, mejor época y cómo llegar. Solicita un presupuesto por WhatsApp.",
+    metaTitle: "Viaje al Pantanal: fauna, mejor época y safari fotográfico",
+    metaDescription: "Planifica el Pantanal con atención en español. Compara Aquidauana y Porto Jofre, conoce la mejor época y combina Río y Lençóis. Solicita propuesta.",
     keywords: "pantanal brasil guia, mejor epoca pantanal, jaguar porto jofre, transpantaneira, safari fotografico pantanal, estrada parque, pantanal lujo, itinerario pantanal brasil, Pantanal tour, itinerario Pantanal, cómo llegar a Pantanal, mejor época Pantanal",
     h1: "Pantanal: itinerario, mejor época y cómo llegar",
     aiAnswer: "La mejor época para el safari en el Pantanal es la temporada seca, de junio a octubre (fauna concentrada en los cuerpos de agua, caminos secos y posibilidades de observar jaguares en Porto Jofre), con un mínimo práctico de 4 a 5 noches, entrando por Cuiabá (CGB) o Campo Grande (CGR). Create Travel diseña viajes privados y a medida a Pantanal para viajeros internacionales, con guías en español, y envía un presupuesto por escrito por WhatsApp.",
@@ -367,7 +367,7 @@ export const pantanalGuide: BrazilGuideLocalized = {
       heading: "Experiencias que justifican el viaje",
       intro: "Curamos el Pantanal por experiencia de campo, no por lista de animales para marcar.",
       items: [
-        { title: "Safari de jaguar en Porto Jofre", text: "El encuentro del río Cuiabá con el Piquiri concentra la mayor densidad de jaguares documentada del mundo. Salidas en bote al amanecer y al atardecer, con guías que reconocen a los individuos por nombre e historia." },
+        { title: "Safari de jaguar en Porto Jofre", text: "En Porto Jofre, las salidas en barco por el río Cuiabá y sus canales se enfocan en la búsqueda de jaguares. Esta experiencia es distinta de las actividades de naturaleza y safari fotográfico en Aquidauana; ningún avistamiento está garantizado." },
         { title: "La Transpantaneira de punta a punta", text: "Los 145 km de camino de tierra entre Poconé y Porto Jofre, con más de cien puentes de madera, son en sí mismos un safari terrestre: caimanes por cientos, capibaras, jabirús y guacamayos azules." },
         { title: "Estrada Parque y el Pantanal Sur (Mato Grosso do Sul)", text: "Menos concurrida que la Transpantaneira, cruza estancias históricas entre Campo Grande y Corumbá, con cabalgatas, canotaje y observación de aves en un paisaje aún más abierto y silencioso." },
         { title: "Observación de aves a escala continental", text: "Más de 650 especies registradas: el jabirú (símbolo del Pantanal), guacamayos azules, garzas y martines pescadores en cantidades que impresionan incluso a quien nunca sostuvo binoculares." },
@@ -455,6 +455,7 @@ export const pantanalGuide: BrazilGuideLocalized = {
       ],
     },
     faq: [
+      { q: "¿Aquidauana y Porto Jofre ofrecen el mismo safari?", a: "No. Aquidauana ofrece actividades de naturaleza y safari fotográfico según la programación de cada pousada. Porto Jofre se orienta a la búsqueda especializada de jaguares en barco. El paquete Río, Pantanal y Lençóis de agosto de 2027 tiene base en Pousada Aguapé, en Aquidauana, sin garantía de avistamientos." },
       {
         "q": "¿Cuántos días se necesitan en el Pantanal?",
         "a": "Cuatro a cinco noches es el mínimo práctico para un safari consistente, con al menos tres días completos de salidas en bote en Porto Jofre. Siete noches, combinando Pantanal Norte y Sur, profundizan la experiencia."
@@ -465,7 +466,7 @@ export const pantanalGuide: BrazilGuideLocalized = {
       },
       {
         "q": "¿Está garantizado ver un jaguar?",
-        "a": "No hay garantía absoluta con fauna silvestre, pero en Porto Jofre, en temporada seca, la tasa de avistamiento en varios días es muy alta — la mayoría de nuestros viajeros ve al menos un jaguar en tres días de salidas."
+        "a": "No. Los animales son silvestres y ningún avistamiento está garantizado. Porto Jofre es una base para salidas especializadas en busca de jaguares; el paquete combinado de agosto de 2027 visita Aquidauana y no incluye esa ruta especializada."
       },
       {
         "q": "¿Pantanal o Amazonía?",
@@ -473,7 +474,7 @@ export const pantanalGuide: BrazilGuideLocalized = {
       },
       {
         "q": "¿Cuánto cuesta un viaje al Pantanal?",
-        "a": "No publicamos precios de estante: el presupuesto depende del lodge, las noches, la temporada y la conectividad aérea. Un consultor humano envía los valores por escrito."
+        "a": "El viaje a medida depende del lodge, las noches, la temporada y los vuelos. También ofrecemos el paquete combinado Río, Pantanal y Lençóis de agosto de 2027, con precio base publicado y condiciones propias. Consulta su itinerario antes de solicitar la propuesta."
       },
       {
         "q": "¿Necesito visado o vacunas para Brasil?",
