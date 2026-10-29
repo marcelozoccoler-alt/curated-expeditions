@@ -1,6 +1,7 @@
 # Roadmap
 
 - [ ] Ajustar busca em espanhol para Pantanal, Lençóis e Rio; ligar os guias ao pacote e vice-versa; esclarecer safari fotográfico de Aquidauana em ES/EN; conferir páginas no Search Console; testar sem publicar nem criar anúncios.
+- [ ] Responder sobre investimento em Google versus plataformas de IA, sem criar campanhas ou gastos.
 
 - [x] Encerramento ES/EN: combinações com Amazônia e Cataratas, hospedagens com charme/luxo conforme preferências e investimento; foto real de onça de Charles J. Sharp (Piquiri, CC BY-SA 4.0), crédito e licença na página; entrega da foto pelo site e enquadramento conferidos, testes e HTML para IAs aprovados; sem publicar.
 
