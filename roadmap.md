@@ -1,5 +1,7 @@
 # Roadmap
 
+- [ ] Encerramento ES/EN: combinações com Amazônia e Cataratas, hospedagens com charme/luxo conforme preferências e investimento; trocar foto Pantanal por fotografia real com onça, verificar licença e página, sem publicar.
+
 - [x] Criar página do pacote Rio, Pantanal e Lençóis Maranhenses em espanhol e inglês, agosto/2027, preço base €3.985 por pessoa; Wise consultada (1,116 USD/EUR, aprox. US$4.447), roteiro e condições do PDF, imagens, WhatsApp nos dois idiomas e acesso pelo incoming conferidos; 266 testes aprovados e HTML para Google/IAs validado; sem publicar.
 
 - [x] Corrigir encerramento e legenda da Chapada Diamantina para o padrão das Cataratas: versão v2 com fundo azul, logo, “A Chapada como você nunca sentiu” em português/inglês/espanhol e domínio; encerramento conferido no vídeo e em tamanho de feed, cenas e áudio originais mantidos, legenda trilíngue salva.
