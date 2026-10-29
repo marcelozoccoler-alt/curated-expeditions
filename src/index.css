@@ -381,6 +381,20 @@
 }
 
 /* ==========================================================
+   Package campaign — semantic photo contrast and stable typography.
+   ========================================================== */
+.package-page { letter-spacing: 0; }
+.package-page h1, .package-page h2, .package-page h3 { letter-spacing: 0; }
+.package-hero { min-height: 620px; height: min(760px, calc(100svh - 145px)); }
+.package-photo-shade { background: hsl(var(--foreground) / 0.62); }
+@media (max-width: 640px) {
+  .package-hero { min-height: 630px; height: auto; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .package-page { scroll-behavior: auto; }
+}
+
+/* ==========================================================
    Print stylesheet — usado pelo botão "Baixar PDF" nas
    páginas de Grupos com Guia Brasileiro. Oculta cabeçalho,
    rodapé, botões flutuantes e widgets externos para que o
