@@ -16,6 +16,8 @@ import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
 import { SEO } from "@/components/SEO";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
+import { Button } from "@/components/ui/button";
+import { guidePackage } from "@/lib/brazilPackage";
 import { ShareButtons } from "@/components/ShareButtons";
 import { SUPPORTED_LANGS, toContentLang, type ContentLang } from "@/i18n/config";
 import { useLang } from "@/hooks/useLang";
@@ -97,6 +99,8 @@ const GuiaBrasil = () => {
 
   const related = BRAZIL_GUIDE_SLUGS.filter((s) => s !== slug).slice(0, 6);
 
+  const featuredPackage = guidePackage(cLang, slug);
+
   return (
     <div className="min-h-screen">
       <SEO
@@ -161,6 +165,15 @@ const GuiaBrasil = () => {
               </p>
             ))}
           </div>
+
+          {featuredPackage && (
+            <section className="mb-14 border-y border-border py-8">
+              <p className="text-caption text-emerald mb-3">BRASIL EN TRES ESCENARIOS · AGOSTO 2027</p>
+              <h2 className="heading-section text-foreground mb-4">{featuredPackage.title}</h2>
+              <p className="text-muted-foreground leading-relaxed mb-6">{featuredPackage.text}</p>
+              <Button asChild className="h-auto whitespace-normal py-3"><Link to={featuredPackage.path}><RouteIcon className="h-4 w-4 shrink-0" />{featuredPackage.button}</Link></Button>
+            </section>
+          )}
 
           {/* Épocas */}
           <section className="mb-14">

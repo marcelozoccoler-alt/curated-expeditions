@@ -311,14 +311,13 @@ export const lencoisMaranhensesGuide: BrazilGuideLocalized = {
   },
 
   es: {
-    metaTitle: "Lençóis Maranhenses, Brasil: Itinerario, Mejor Época y Presupuesto",
-    metaDescription:
-      "Planifica un viaje privado y a medida a Lençóis Maranhenses: itinerario sugerido, mejor época y cómo llegar. Solicita un presupuesto por WhatsApp.",
+    metaTitle: "Viaje a Lençóis Maranhenses: lagunas, época y excursiones",
+    metaDescription: "Lençóis Maranhenses a medida: lagunas, agosto, Barreirinhas, Atins y Santo Amaro. Combina Pantanal y Río y solicita tu propuesta en español.",
     keywords:
       "lencois maranhenses viaje, mejor epoca lencois maranhenses, barreirinhas, atins, santo amaro maranhao, rota das emocoes, lagunas brasil, itinerario maranhao, Lençóis Maranhenses tour, itinerario Lençóis Maranhenses, cómo llegar a Lençóis Maranhenses, mejor época Lençóis Maranhenses",
     h1: "Lençóis Maranhenses: itinerario, mejor época y cómo llegar",
     aiAnswer:
-      "La mejor época para ver las lagunas llenas en Lençóis Maranhenses es de junio a septiembre, con pico en julio y agosto, mínimo práctico de 4 noches entre Barreirinhas y Atins, entrando por São Luís (SLZ). Create Travel diseña viajes privados y a medida a Lençóis Maranhenses para viajeros internacionales, con guías en español, y envía un presupuesto por escrito por WhatsApp.",
+      "Entre junio y septiembre suele ser una buena época para visitar las lagunas de Lençóis Maranhenses, incluido agosto. Su nivel depende de las lluvias del año y del circuito: no se garantizan lagunas llenas. Para una estancia a medida, considera 4 noches entre Barreirinhas y Atins, entrando por São Luís (SLZ). Create Travel diseña viajes privados y a medida a Lençóis Maranhenses para viajeros internacionales, con guías en español, y envía un presupuesto por escrito por WhatsApp.",
     intro: [
       "Los Lençóis Maranhenses son uno de los pocos lugares del planeta donde desierto y agua dulce coexisten en el mismo horizonte: 155.000 hectáreas de dunas blancas y finas, esculpidas por el viento, entre las cuales nacen cada temporada de lluvias miles de lagunas de agua cristalina. No es un espejismo: es hidrología. La lluvia que cae entre enero y junio se infiltra en la arena y aflora meses después, formando piscinas naturales que se evaporan lentamente hasta el próximo ciclo.",
       "Esta guía nace de travesías reales por la Rota das Emoções, no de fotos de dron sueltas en internet. Qué mes entrega qué volumen de agua, qué aldea sirve de base, cuándo tiene sentido caminar entre las dunas y cuándo conviene sobrevolarlas, y cómo Maranhão dialoga con el resto de un viaje por Brasil.",
@@ -415,7 +414,7 @@ export const lencoisMaranhensesGuide: BrazilGuideLocalized = {
       },
       {
         "q": "¿Cuál es la mejor época para ver las lagunas llenas?",
-        "a": "Junio a septiembre, con pico en julio y agosto. Entre octubre y diciembre las lagunas mayores aún retienen agua; de enero a mayo están bajas o secas."
+        "a": "De junio a septiembre suele haber buenas condiciones, incluido agosto, pero el nivel depende de las lluvias y de cada circuito. No se garantizan lagunas llenas en agosto de 2027; las visitas se ajustan a las condiciones locales."
       },
       {
         "q": "¿Se puede nadar en las lagunas?",
@@ -431,7 +430,7 @@ export const lencoisMaranhensesGuide: BrazilGuideLocalized = {
       },
       {
         "q": "¿Cuánto cuesta un viaje a Lençóis Maranhenses?",
-        "a": "No publicamos precios de estante: el presupuesto depende de la base elegida, las noches, la temporada y la conectividad aérea. Un consultor humano envía los valores por escrito."
+        "a": "El presupuesto a medida depende de la base, las noches, la temporada y los vuelos. El paquete Río, Pantanal y Lençóis de agosto de 2027 tiene precio base publicado y condiciones propias; consulta su itinerario y servicios incluidos."
       },
       {
         "q": "¿Necesito visado y vacunas para viajar a Brasil?",
