@@ -3,3 +3,5 @@ Keep travel-book day photos in the city/day keyed FOTOS registry and render them
 Keep new batch departures in typed GrupoLote data modules aggregated by GRUPOS_LOTE, so routes and departure cards reuse GrupoGuiaPage consistently.
 Use optional priceLabels for departures without triple occupancy, so listing prices and room categories match the source document rather than array-position assumptions.
 Keep testimonials and their photo albums in the shared testimonials registry; optional received dates and absent travel dates or hometowns must remain distinct, so rendering and structured data do not invent client details.- Foreign-language incoming and brazil-guides pages are pre-rendered to static HTML at build (scripts/prerender-incoming.ts) because AI crawlers do not run JavaScript; keep that page data importable without browser APIs.
+
+- International campaign packages are BrazilPackageDef entries in BRAZIL_PACKAGES (src/lib/brazilPackage.ts, one module per package under src/lib/brazilPackages/); the page, prerender, sitemap, incoming banner and guide teasers all iterate the registry so a new package needs only data plus its photos in BrazilPackage VISUALS.

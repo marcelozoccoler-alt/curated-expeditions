@@ -27,7 +27,7 @@ import { BRAZIL_GUIDE_SLUGS } from "../src/lib/brazilGuides";
 import { faqTopics } from "../src/lib/faqHub";
 import { precoDestinos } from "../src/lib/precoDestinos";
 import { VIAGEM_PATH, CIDADES } from "../src/lib/viagens/capitaisImperiais";
-import { packagePath } from "../src/lib/brazilPackage";
+import { BRAZIL_PACKAGES, pkgPath } from "../src/lib/brazilPackage";
 
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
@@ -256,7 +256,7 @@ for (const p of pacotes) push(`/pacote/${p.slug}`, 0.9, "monthly");
 
 
 // Multilingual incoming landing pages (target foreigners searching Brazil).
-for (const lang of ["es", "en"] as const) push(packagePath(lang), 0.9, "monthly");
+for (const pk of BRAZIL_PACKAGES) for (const lang of ["es", "en"] as const) push(pkgPath(pk, lang), 0.9, "monthly");
 // Destination detail URLs /incoming/:slug redirect to /brazil-guides/:slug,
 // so only the hub pages are listed here.
 const INCOMING_LANGS = ["en", "es", "it", "de"] as const;

@@ -37,3 +37,30 @@ describe("Rio, Pantanal and Lençóis package", () => {
     }
   });
 });
+import { AMAZON_GRAND_TOUR } from "../lib/brazilPackages/amazonia-lencois-salvador-iguazu-rio";
+import { BRAZIL_PACKAGES, guidePackages, pkgAmount, pkgDayLabel } from "../lib/brazilPackage";
+describe("Amazon, Lençóis, Salvador, Iguazu and Rio package", () => {
+  const pk = AMAZON_GRAND_TOUR;
+  it("starts from 4128 euros per person, 20-day Pantanal option from 5539", () => {
+    expect(pk.facts.priceEUR).toBe(4128);
+    expect(pk.facts.extension?.priceEUR).toBe(5539);
+  });
+  it("runs 27 July – 12 August 2027 with 17 days and 16 nights", () => {
+    expect(pk.facts.start).toBe("2027-07-27");
+    expect(pk.facts.end).toBe("2027-08-12");
+    expect(pk.copy.es.days).toHaveLength(17);
+    expect(pk.copy.en.days).toHaveLength(17);
+    expect(pk.facts.hotels.reduce((s, h) => s + h.nights, 0)).toBe(16);
+    expect(pkgDayLabel(pk, 16)).toBe("12/08");
+  });
+  it("converts to dollars with the 30/10/2026 Wise reference", () => {
+    expect(pkgAmount(pk, "USD")).toBe(4611);
+  });
+  it("is listed and featured on the Amazon and Iguazu guides in Spanish and English", () => {
+    expect(BRAZIL_PACKAGES.map(p => p.slug)).toContain(pk.slug);
+    for (const lang of ["es", "en"]) for (const slug of ["amazon", "iguazu", "bahia"]) {
+      expect(guidePackages(lang, slug).map(g => g.path)).toContain(`/${lang}/brazil-packages/${pk.slug}`);
+    }
+    expect(guidePackages("it", "amazon")).toEqual([]);
+  });
+});
