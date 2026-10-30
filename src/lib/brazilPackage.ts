@@ -1,5 +1,7 @@
 // Shared, browser-independent source for the page and its crawler-readable HTML.
-export type PackageLang = "es" | "en";
+import type { PackageLang, PackageCopy, BrazilPackageDef } from "./brazilPackageTypes";
+import { AMAZON_GRAND_TOUR } from "./brazilPackages/amazonia-lencois-salvador-iguazu-rio";
+export type { PackageLang, BrazilPackageDef } from "./brazilPackageTypes";
 export const PACKAGE_SLUG = "rio-pantanal-lencois-august-2027";
 export const PACKAGE_FACTS = {
   priceEUR: 3985, travelers: 2, days: 12, nights: 11,
@@ -11,6 +13,7 @@ export const PACKAGE_FACTS = {
     { name: "Pousada Encantes do Nordeste", location: "Barreirinhas", nights: 3 },
     { name: "Sol Ipanema Hotel", location: "Rio de Janeiro", nights: 3 },
   ],
+  route: ["Rio de Janeiro", "Pantanal · Aquidauana", "São Luís · Lençóis", "Rio de Janeiro"],
 } as const;
 export const packagePath = (lang: PackageLang) => `/${lang}/brazil-packages/${PACKAGE_SLUG}`;
 export const packageUSD = () => Math.round(PACKAGE_FACTS.priceEUR * PACKAGE_FACTS.exchange.rate);
@@ -31,20 +34,7 @@ export const guidePackage = (lang: string, slug: string) => {
   };
 };
 
-type Copy = {
-  title: string; description: string; eyebrow: string; h1: string; subtitle: string;
-  dates: string; duration: string; from: string; perPerson: string; basis: string;
-  cta: string; viewRoute: string; introTitle: string; intro: string; landscapes: string;
-  wildlifeNote: string; guidesTitle: string; guideLink: string;
-  scenes: { name: string; label: string; text: string }[];
-  seasonTitle: string; seasonText: string; itineraryTitle: string;
-  days: { title: string; text: string }[];
-  includesTitle: string; includes: string[]; excludesTitle: string; excludes: string[];
-  hotelsTitle: string; nights: string; hotelNotes: string[];
-  priceTitle: string; exchangeNote: string; conditions: string; faqTitle: string;
-  faq: { q: string; a: string }[]; finalTitle: string; finalText: string;
-  whatsapp: string; back: string; contact: string;
-};
+type Copy = PackageCopy;
 
 export const PACKAGE_COPY: Record<PackageLang, Copy> = {
   es: {
@@ -59,6 +49,8 @@ export const PACKAGE_COPY: Record<PackageLang, Copy> = {
     landscapes: "Combina el bioma del Pantanal con los paisajes costeros de Lençóis y Río: naturaleza, culturas y maneras distintas de vivir Brasil en un mismo viaje.",
     wildlifeNote: "En el Pantanal, esta ruta ofrece naturaleza y safari fotográfico en Aquidauana, con base en Pousada Aguapé y actividades según su programación. No incluye la búsqueda especializada de jaguares en Porto Jofre. La foto muestra un jaguar del río Piquiri, otra zona del Pantanal; ningún avistamiento está garantizado.",
     guidesTitle: "Conoce cada destino antes de viajar", guideLink: "Ver gu\u00eda de viaje",
+    guideTeaser: "7–18 de agosto de 2027 · 12 días · desde 3.985 € por persona, base dos viajeros. Vuelos internos incluidos; vuelos internacionales no incluidos. Naturaleza y safari fotográfico en Aquidauana, no búsqueda especializada de jaguares en Porto Jofre.",
+    guideButton: "Ver el viaje completo y solicitar propuesta",
     scenes: [
       { name: "Pantanal", label: "03 NOCHES · VIDA SILVESTRE", text: "Pousada Aguapé, a orillas del río Aquidauana. Pensión completa y actividades por los campos, senderos y aguas del Pantanal, según la programación de la pousada." },
       { name: "Lençóis Maranhenses", label: "03 NOCHES · DUNAS Y LAGUNAS", text: "Lagoa Bonita, Atins, Santo Amaro y el río Preguiças. Cuatro perspectivas de un paisaje que cambia con la luz, el viento y las aguas de cada temporada." },
@@ -116,6 +108,8 @@ export const PACKAGE_COPY: Record<PackageLang, Copy> = {
     landscapes: "Combine the Pantanal biome with the coastal landscapes of Lençóis and Rio: different ecosystems, cultures and ways of life within one Brazilian journey.",
     wildlifeNote: "In the Pantanal, this itinerary offers nature activities and photographic safari in Aquidauana, based at Pousada Aguapé and following its programme. It does not include Porto Jofre’s specialist jaguar-search itinerary. The photograph shows a jaguar by the Piquiri River, another area of the Pantanal; no wildlife sightings are guaranteed.",
     guidesTitle: "Get to know each destination", guideLink: "Explore the travel guide",
+    guideTeaser: "7–18 August 2027 · 12 days · from €3,985 per person, based on two travellers. Domestic flights included; international flights not included. Nature and photographic safari in Aquidauana, not a specialist jaguar search in Porto Jofre.",
+    guideButton: "See the full journey and request a proposal",
     scenes: [
       { name: "Pantanal", label: "03 NIGHTS · WILDLIFE", text: "Pousada Aguapé, beside the Aquidauana River. Full board and activities through the fields, trails and waterways of the Pantanal, following the lodge's programme." },
       { name: "Lençóis Maranhenses", label: "03 NIGHTS · DUNES & LAGOONS", text: "Lagoa Bonita, Atins, Santo Amaro and the Preguiças River. Four perspectives on a landscape shaped by light, wind and the waters of each season." },
@@ -172,3 +166,38 @@ export const packageJsonLd = (lang: PackageLang) => ({
   itinerary: { "@type": "ItemList", itemListElement: PACKAGE_COPY[lang].days.map((day, index) => ({ "@type": "ListItem", position: index + 1, item: { "@type": "Thing", name: day.title, description: day.text } })) },
   offers: { "@type": "Offer", price: PACKAGE_FACTS.priceEUR, priceCurrency: "EUR", url: `https://createtravel.tur.br${packagePath(lang)}`, description: PACKAGE_COPY[lang].conditions },
 });
+
+// ---- Multi-package registry (generic helpers) ----
+export const RIO_PANTANAL_LENCOIS: BrazilPackageDef = { slug: PACKAGE_SLUG, facts: PACKAGE_FACTS, copy: PACKAGE_COPY, guides: PACKAGE_GUIDES };
+export const BRAZIL_PACKAGES: BrazilPackageDef[] = [RIO_PANTANAL_LENCOIS, AMAZON_GRAND_TOUR];
+export const findPackage = (slug?: string) => BRAZIL_PACKAGES.find(p => p.slug === slug);
+export const pkgPath = (pkg: BrazilPackageDef, lang: PackageLang) => `/${lang}/brazil-packages/${pkg.slug}`;
+export const pkgAmount = (pkg: BrazilPackageDef, currency: "EUR" | "USD", eur = pkg.facts.priceEUR) =>
+  currency === "EUR" ? eur : Math.round(eur * pkg.facts.exchange.rate);
+export const pkgPrice = (pkg: BrazilPackageDef, lang: PackageLang, currency: "EUR" | "USD", eur?: number) =>
+  new Intl.NumberFormat(lang === "es" ? "es-ES" : "en-US", { style: "currency", currency, maximumFractionDigits: 0, minimumFractionDigits: 0, useGrouping: true }).format(pkgAmount(pkg, currency, eur));
+export const pkgWhatsApp = (pkg: BrazilPackageDef, lang: PackageLang) => `https://wa.me/5511963693159?text=${encodeURIComponent(pkg.copy[lang].whatsapp)}`;
+/** dd/mm label for a day index counted from the package start date. */
+export const pkgDayLabel = (pkg: BrazilPackageDef, index: number) => {
+  const d = new Date(`${pkg.facts.start}T12:00:00Z`); d.setUTCDate(d.getUTCDate() + index);
+  return `${String(d.getUTCDate()).padStart(2, "0")}/${String(d.getUTCMonth() + 1).padStart(2, "0")}`;
+};
+export const pkgJsonLd = (pkg: BrazilPackageDef, lang: PackageLang) => {
+  const c = pkg.copy[lang]; const url = `https://createtravel.tur.br${pkgPath(pkg, lang)}`;
+  const offers: any[] = [{ "@type": "Offer", price: pkg.facts.priceEUR, priceCurrency: "EUR", url, availability: "https://schema.org/InStock", validFrom: pkg.facts.exchange.checkedOn, description: c.conditions }];
+  if (pkg.facts.extension && c.extension) offers.push({ "@type": "Offer", name: c.extension.title, price: pkg.facts.extension.priceEUR, priceCurrency: "EUR", url, description: c.extension.text });
+  return {
+    "@context": "https://schema.org", "@type": "TouristTrip", name: c.h1, description: c.description, url, inLanguage: lang,
+    touristType: lang === "es" ? "Viajeros que buscan naturaleza y cultura en Brasil" : "Travellers seeking nature and culture in Brazil",
+    provider: { "@type": "TravelAgency", name: "Create Travel", url: "https://createtravel.tur.br" },
+    itinerary: { "@type": "ItemList", itemListElement: c.days.map((day, index) => ({ "@type": "ListItem", position: index + 1, item: { "@type": "Thing", name: day.title, description: day.text } })) },
+    offers: offers.length === 1 ? offers[0] : offers,
+  };
+};
+/** Packages featured on a destination guide page (Spanish and English). */
+export const guidePackages = (lang: string, slug: string) => {
+  if (lang !== "es" && lang !== "en") return [];
+  return BRAZIL_PACKAGES.filter(p => p.guides.some(g => g.slug === slug)).map(p => ({
+    path: pkgPath(p, lang), eyebrow: p.copy[lang].eyebrow, title: p.copy[lang].h1, text: p.copy[lang].guideTeaser, button: p.copy[lang].guideButton,
+  }));
+};
