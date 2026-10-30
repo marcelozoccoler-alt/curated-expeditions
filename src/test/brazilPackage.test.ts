@@ -77,3 +77,23 @@ describe("20-day version with the Pantanal", () => {
     expect(pkgDayLabel(pk, 19)).toBe("15/08");
   });
 });
+
+import { PARATY_IGUAZU_PANTANAL_RIO } from "../lib/brazilPackages/paraty-iguazu-pantanal-rio";
+describe("Paraty, Iguazu, Pantanal and Rio package (April 2027)", () => {
+  const pk = PARATY_IGUAZU_PANTANAL_RIO;
+  it("converts R$ 36.000 per couple to 2966 euros per person and 3313 dollars", () => {
+    expect(pk.facts.priceEUR).toBe(Math.round(18000 * 0.16477));
+    expect(pkgAmount(pk, "USD")).toBe(3313);
+  });
+  it("runs 5–18 April 2027 with 14 days and 13 nights", () => {
+    expect(pk.facts.start).toBe("2027-04-05");
+    expect(pk.copy.es.days).toHaveLength(14);
+    expect(pk.copy.en.days).toHaveLength(14);
+    expect(pk.facts.hotels.reduce((s, h) => s + h.nights, 0)).toBe(13);
+    expect(pkgDayLabel(pk, 13)).toBe("18/04");
+  });
+  it("is featured on the Iguazu, Pantanal and Rio guides", () => {
+    for (const lang of ["es", "en"]) for (const slug of ["iguazu", "pantanal", "rio-de-janeiro"])
+      expect(guidePackages(lang, slug).map(g => g.path)).toContain(`/${lang}/brazil-packages/${pk.slug}`);
+  });
+});
