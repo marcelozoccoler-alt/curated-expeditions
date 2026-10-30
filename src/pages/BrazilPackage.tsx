@@ -11,6 +11,7 @@ import rio from "@/assets/states/rio-de-janeiro.jpg";
 import amazon from "@/assets/destinations/brasil-amazonia-anavilhanas.jpg";
 import salvador from "@/assets/destinations/brasil-salvador.jpg";
 import iguazu from "@/assets/destinations/brasil-cataratas-iguacu.jpg";
+import paratyPhoto from "@/assets/paraty-santa-rita-real.jpg.asset.json";
 import logo from "@/assets/logo.jpg";
 
 type Credit = { author: string; href: string; note: Record<PackageLang, string>; alt: Record<PackageLang, string> };
@@ -19,10 +20,17 @@ const JAGUAR_CREDIT: Credit = {
   note: { es: "Río Piquiri, Pantanal. Foto redimensionada y encuadrada; no garantiza avistamientos en esta ruta.", en: "Piquiri River, Pantanal. Resized and framed photograph; sightings on this itinerary are not guaranteed." },
   alt: { es: "Jaguar fotografiado en el río Piquiri, Pantanal", en: "Jaguar photographed by the Piquiri River, Pantanal" },
 };
+const PARATY_CREDIT: Credit = {
+  author: "Rejane Sarmento", href: "https://commons.wikimedia.org/wiki/File:Igreja_de_Santa_Rita,_no_centro_hist%C3%B3rico_de_Paraty.jpg",
+  note: { es: "Iglesia de Santa Rita, centro histórico de Paraty. Foto redimensionada.", en: "Santa Rita Church, Paraty historic centre. Resized photograph." },
+  alt: { es: "Iglesia de Santa Rita en el centro histórico de Paraty, con montañas de la Mata Atlántica", en: "Santa Rita Church in Paraty's historic centre, with Atlantic Forest mountains behind" },
+};
+
 const VISUALS: Record<string, { hero: string; final: string; scenes: string[]; credits?: (Credit | undefined)[]; extension?: string }> = {
   "rio-pantanal-lencois-august-2027": { hero: lencois, final: lencois, scenes: [pantanalPhoto.url, lencois, rio], credits: [JAGUAR_CREDIT] },
   "amazon-lencois-salvador-iguazu-rio-2027": { hero: iguazu, final: lencois, scenes: [amazon, lencois, salvador, iguazu, rio], extension: pantanalPhoto.url },
   "amazon-lencois-salvador-iguazu-pantanal-rio-2027": { hero: iguazu, final: lencois, scenes: [amazon, lencois, salvador, iguazu, pantanalPhoto.url, rio], credits: [undefined, undefined, undefined, undefined, JAGUAR_CREDIT] },
+  "paraty-iguazu-pantanal-rio-april-2027": { hero: iguazu, final: rio, scenes: [paratyPhoto.url, iguazu, pantanalPhoto.url, rio], credits: [PARATY_CREDIT, undefined, JAGUAR_CREDIT] },
 };
 
 export default function BrazilPackage() {
