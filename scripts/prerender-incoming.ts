@@ -105,27 +105,34 @@ export async function buildPages(load: (id: string) => Promise<any>): Promise<Pa
   const { INCOMING_DESTINO_CONTENT } = await load("/src/lib/incomingDestinoContent.ts");
   const { INCOMING_DESTINATIONS } = await load("/src/lib/incomingDestinations.ts");
   const { BRAZIL_GUIDES, guidePath } = await load("/src/lib/brazilGuides/index.ts");
-  const { PACKAGE_COPY, PACKAGE_FACTS, packagePath, packagePrice, packageJsonLd, packageWhatsApp, PACKAGE_GUIDES, guidePackage } = await load("/src/lib/brazilPackage.ts");
+  const { BRAZIL_PACKAGES, pkgPath, pkgPrice, pkgJsonLd, pkgWhatsApp, guidePackages } = await load("/src/lib/brazilPackage.ts");
   const pages: Page[] = [];
-  for (const lang of ["es", "en"]) {
-    const c = PACKAGE_COPY[lang];
+  for (const pk of BRAZIL_PACKAGES) for (const lang of ["es", "en"]) {
+    const c = pk.copy[lang];
+    const ext = pk.facts.extension && c.extension
+      ? sec(c.extension.title, p(c.extension.text) + p(`${c.from} ${pkgPrice(pk, lang, "EUR", pk.facts.extension.priceEUR)} ${c.perPerson} · ≈ ${pkgPrice(pk, lang, "USD", pk.facts.extension.priceEUR)}`) + c.extension.days.map((d: any) => `<h3>${esc(d.title)}</h3>${p(d.text)}`).join(""))
+      : "";
+    const others = BRAZIL_PACKAGES.filter((o: any) => o.slug !== pk.slug);
     pages.push({
-      path: packagePath(lang), lang, title: c.title, description: c.description,
-      alternates: { es: packagePath("es"), en: packagePath("en") },
+      path: pkgPath(pk, lang), lang, title: c.title, description: c.description,
+      alternates: { es: pkgPath(pk, "es"), en: pkgPath(pk, "en") },
       body: `<h1>${esc(c.h1)}</h1>` + p(c.subtitle) + p(c.dates + " · " + c.duration)
-        + p(`${c.from} ${packagePrice(lang, "EUR")} ${c.perPerson} · ≈ ${packagePrice(lang, "USD")}`)
+        + p(`${c.from} ${pkgPrice(pk, lang, "EUR")} ${c.perPerson} · ≈ ${pkgPrice(pk, lang, "USD")} · ${c.basis}`)
+        + p(pk.facts.route.join(" → "))
         + sec(c.introTitle, p(c.intro) + p(c.landscapes) + p(c.wildlifeNote))
-        + c.scenes.map((s: any) => sec(s.name, p(s.text))).join("")
+        + c.scenes.map((s: any) => sec(s.name, p(s.label) + p(s.text))).join("")
         + sec(c.seasonTitle, p(c.seasonText))
         + sec(c.itineraryTitle, c.days.map((d: any, i: number) => `<h3>${i + 1} · ${esc(d.title)}</h3>${p(d.text)}`).join(""))
+        + ext
         + sec(c.includesTitle, `<ul>${c.includes.map((t: string) => `<li>${esc(t)}</li>`).join("")}</ul>`)
         + sec(c.excludesTitle, c.excludes.map(p).join(""))
-        + sec(c.hotelsTitle, PACKAGE_FACTS.hotels.map((h: any, i: number) => p(`${h.name} · ${h.location} · ${h.nights} ${c.nights} · ${c.hotelNotes[i]}`)).join(""))
+        + sec(c.hotelsTitle, pk.facts.hotels.map((h: any, i: number) => p(`${h.name} · ${h.location} · ${h.nights} ${c.nights} · ${c.hotelNotes[i]}`)).join(""))
         + p(c.conditions) + p(c.exchangeNote)
         + sec(c.faqTitle, c.faq.map((f: any) => `<h3>${esc(f.q)}</h3>${p(f.a)}`).join(""))
-        + sec(c.guidesTitle, PACKAGE_GUIDES.map((g: any) => `<p><a href="${esc(guidePath(lang, g.slug))}">${esc(c.guideLink)}: ${esc(g.name[lang])}</a></p>`).join(""))
-        + sec(c.finalTitle, p(c.finalText) + `<a href="${esc(packageWhatsApp(lang))}">${esc(c.cta)}</a>`),
-      jsonLd: [agencyLd, packageJsonLd(lang), faqLd(c.faq)],
+        + sec(c.guidesTitle, pk.guides.map((g: any) => `<p><a href="${esc(guidePath(lang, g.slug))}">${esc(c.guideLink)}: ${esc(g.name[lang])}</a></p>`).join(""))
+        + others.map((o: any) => `<p><a href="${esc(pkgPath(o, lang))}">${esc(o.copy[lang].h1)} · ${esc(o.copy[lang].dates)}</a></p>`).join("")
+        + sec(c.finalTitle, p(c.finalText) + `<a href="${esc(pkgWhatsApp(pk, lang))}">${esc(c.cta)}</a>`),
+      jsonLd: [agencyLd, pkgJsonLd(pk, lang), faqLd(c.faq)],
     });
   }
   const nameOf = (slug: string, lang: string) =>
@@ -160,12 +167,12 @@ export async function buildPages(load: (id: string) => Promise<any>): Promise<Pa
       const g = map[lang];
       if (!g) continue;
       const dest = g.destinationName ?? nameOf(slug, lang);
-      const featured = guidePackage(lang, slug);
+      const featured = guidePackages(lang, slug);
       const body = [
         `<h1>${esc(g.h1)}</h1>`,
         p(g.aiAnswer),
         ...(g.intro ?? []).map(p),
-        featured ? sec(featured.title, p(featured.text) + `<a href="${esc(featured.path)}">${esc(featured.button)}</a>`) : "",
+        ...featured.map((f: any) => sec(f.title, p(f.text) + `<a href="${esc(f.path)}">${esc(f.button)}</a>`)),
         sec(g.seasons?.heading, p(g.seasons?.intro) + (g.seasons?.windows ?? []).map((w: any) => `<h3>${esc(w.window)}</h3>${p(w.text)}`).join("")),
         sec(g.experiences?.heading, p(g.experiences?.intro) + items(g.experiences?.items)),
         sec(g.profiles?.heading, items(g.profiles?.items)),
