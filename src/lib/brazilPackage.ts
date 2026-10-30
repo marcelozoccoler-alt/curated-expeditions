@@ -1,6 +1,7 @@
 // Shared, browser-independent source for the page and its crawler-readable HTML.
 import type { PackageLang, PackageCopy, BrazilPackageDef } from "./brazilPackageTypes";
 import { AMAZON_GRAND_TOUR } from "./brazilPackages/amazonia-lencois-salvador-iguazu-rio";
+import { AMAZON_GRAND_TOUR_PANTANAL } from "./brazilPackages/amazonia-lencois-salvador-iguazu-pantanal-rio";
 export type { PackageLang, BrazilPackageDef } from "./brazilPackageTypes";
 export const PACKAGE_SLUG = "rio-pantanal-lencois-august-2027";
 export const PACKAGE_FACTS = {
@@ -169,7 +170,7 @@ export const packageJsonLd = (lang: PackageLang) => ({
 
 // ---- Multi-package registry (generic helpers) ----
 export const RIO_PANTANAL_LENCOIS: BrazilPackageDef = { slug: PACKAGE_SLUG, facts: PACKAGE_FACTS, copy: PACKAGE_COPY, guides: PACKAGE_GUIDES };
-export const BRAZIL_PACKAGES: BrazilPackageDef[] = [RIO_PANTANAL_LENCOIS, AMAZON_GRAND_TOUR];
+export const BRAZIL_PACKAGES: BrazilPackageDef[] = [RIO_PANTANAL_LENCOIS, AMAZON_GRAND_TOUR, AMAZON_GRAND_TOUR_PANTANAL];
 export const findPackage = (slug?: string) => BRAZIL_PACKAGES.find(p => p.slug === slug);
 export const pkgPath = (pkg: BrazilPackageDef, lang: PackageLang) => `/${lang}/brazil-packages/${pkg.slug}`;
 export const pkgAmount = (pkg: BrazilPackageDef, currency: "EUR" | "USD", eur = pkg.facts.priceEUR) =>
