@@ -64,3 +64,16 @@ describe("Amazon, Lençóis, Salvador, Iguazu and Rio package", () => {
     expect(guidePackages("it", "amazon")).toEqual([]);
   });
 });
+
+import { AMAZON_GRAND_TOUR_PANTANAL } from "../lib/brazilPackages/amazonia-lencois-salvador-iguazu-pantanal-rio";
+describe("20-day version with the Pantanal", () => {
+  const pk = AMAZON_GRAND_TOUR_PANTANAL;
+  it("starts from 5539 euros, 27 July – 15 August 2027, 20 days and 19 nights", () => {
+    expect(pk.facts.priceEUR).toBe(5539);
+    expect(pk.facts.end).toBe("2027-08-15");
+    expect(pk.copy.es.days).toHaveLength(20);
+    expect(pk.copy.en.days).toHaveLength(20);
+    expect(pk.facts.hotels.reduce((s, h) => s + h.nights, 0)).toBe(19);
+    expect(pkgDayLabel(pk, 19)).toBe("15/08");
+  });
+});

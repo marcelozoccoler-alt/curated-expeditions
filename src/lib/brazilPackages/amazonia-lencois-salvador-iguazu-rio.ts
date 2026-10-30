@@ -17,7 +17,7 @@ export const AMAZON_GRAND_TOUR: BrazilPackageDef = {
     ],
     route: ["Manaus · Amazonía", "São Luís · Lençóis", "Salvador", "Foz do Iguaçu", "Rio de Janeiro"],
     extension: {
-      priceEUR: 5539, days: 20, nights: 19, start: "2027-07-27", end: "2027-08-15",
+      priceEUR: 5539, days: 20, nights: 19, start: "2027-07-27", end: "2027-08-15", slug: "amazon-lencois-salvador-iguazu-pantanal-rio-2027",
       hotel: { name: "Pousada Aguapé", location: "Pantanal · Aquidauana", nights: 3 },
     },
   },

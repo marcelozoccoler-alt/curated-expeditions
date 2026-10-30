@@ -25,7 +25,7 @@ export type PackageFacts = {
   exchange: { rate: number; checkedOn: string; source: string };
   hotels: readonly { name: string; location: string; nights: number }[];
   route: readonly string[];
-  extension?: { priceEUR: number; days: number; nights: number; start: string; end: string; hotel: { name: string; location: string; nights: number } };
+  extension?: { priceEUR: number; days: number; nights: number; start: string; end: string; hotel: { name: string; location: string; nights: number }; slug?: string };
 };
 
 export type BrazilPackageDef = {
