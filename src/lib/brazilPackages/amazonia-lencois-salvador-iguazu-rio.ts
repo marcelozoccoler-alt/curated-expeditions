@@ -30,7 +30,7 @@ export const AMAZON_GRAND_TOUR: BrazilPackageDef = {
   ],
   copy: {
     es: {
-      title: "Viaje a Brasil 17 días: Amazonía, Lençóis, Salvador, Iguazú y Río",
+      title: "Viaje Brasil: Amazonía, Lençóis, Salvador, Iguazú y Río",
       description: "Gran viaje por Brasil: Amazonía, Lençóis Maranhenses, Salvador, Cataratas del Iguazú y Río. 27 jul–12 ago 2027, desde 4.128 € por persona, vuelos internos incluidos.",
       eyebrow: "EL GRAN BRASIL · JULIO Y AGOSTO 2027",
       h1: "Amazonía, Lençóis, Salvador, Iguazú y Río",
@@ -115,7 +115,7 @@ export const AMAZON_GRAND_TOUR: BrazilPackageDef = {
       },
     },
     en: {
-      title: "17-Day Brazil Tour: Amazon, Lençóis, Salvador, Iguazu & Rio 2027",
+      title: "Brazil Tour 2027: Amazon, Lençóis, Salvador, Iguazu & Rio",
       description: "Grand Brazil itinerary: Amazon lodge, Lençóis Maranhenses, Salvador, Iguazu Falls and Rio. 27 Jul–12 Aug 2027, from €4,128 per person with domestic flights included.",
       eyebrow: "THE GRAND BRAZIL · JULY & AUGUST 2027",
       h1: "Amazon, Lençóis, Salvador, Iguazu & Rio",
