@@ -13,11 +13,11 @@ const STOPS: [RegExp, string, number, number, number, number, "start" | "middle"
 ];
 const xy = (lon: number, lat: number) => [(lon - W0) * SC, (N - lat) * SC] as const;
 
-export function resolveStops(route: string[]) {
+export function resolveStops(route: readonly string[]) {
   return route.map(r => STOPS.find(s => s[0].test(r))).filter(Boolean).map(s => { const [x, y] = xy(s![2], s![3]); return { label: s![1], x, y, dx: s![4], dy: s![5], anchor: s![6] }; });
 }
 
-export default function RouteMap({ route, title }: { route: string[]; title: string }) {
+export default function RouteMap({ route, title }: { route: readonly string[]; title: string }) {
   const pts = resolveStops(route);
   const seen = new Set<string>();
   const legs = pts.slice(1).map((p, i) => {
