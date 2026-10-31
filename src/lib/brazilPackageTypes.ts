@@ -22,7 +22,7 @@ export type PackageCopy = {
 export type PackageFacts = {
   priceEUR: number; travelers: number; days: number; nights: number;
   start: string; end: string;
-  exchange: { rate: number; checkedOn: string; source: string };
+  exchange: { rate: number; checkedOn: string };
   hotels: readonly { name: string; location: string; nights: number }[];
   route: readonly string[];
   extension?: { priceEUR: number; days: number; nights: number; start: string; end: string; hotel: { name: string; location: string; nights: number }; slug?: string };

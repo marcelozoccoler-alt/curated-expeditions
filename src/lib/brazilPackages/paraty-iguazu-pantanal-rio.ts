@@ -8,7 +8,7 @@ export const PARATY_IGUAZU_PANTANAL_RIO: BrazilPackageDef = {
   facts: {
     priceEUR: 2966, travelers: 2, days: 14, nights: 13,
     start: "2027-04-05", end: "2027-04-18",
-    exchange: { rate: 1.117, checkedOn: "2026-10-30", source: "https://wise.com/us/currency-converter/eur-to-usd-rate" },
+    exchange: { rate: 1.117, checkedOn: "2026-10-30" },
     hotels: [
       { name: "Pousada Porto Imperial", location: "Paraty", nights: 3 },
       { name: "Vivaz Cataratas Hotel Resort", location: "Foz do Iguaçu", nights: 3 },
@@ -78,7 +78,7 @@ export const PARATY_IGUAZU_PANTANAL_RIO: BrazilPackageDef = {
       hotelsTitle: "Alojamientos previstos", nights: "noches",
       hotelNotes: ["Desayuno", "Desayuno", "Pensión completa y actividades", "Desayuno"],
       priceTitle: "Cuatro Brasiles en un solo viaje.",
-      exchangeNote: "Precio original: R$ 18.000 por persona. Referencias del 30/10/2026: R$ 1 = 0,16477 € y, según Wise, 1 € = 1,117 US$. Los importes en euros y dólares son orientativos y se confirman con el cambio del día de la reserva.",
+      exchangeNote: "Precio original: R$ 18.000 por persona. Tipos de cambio de referencia consultados el 30/10/2026: R$ 1 = 0,16477 € y 1 € = 1,117 US$. Los importes en euros y dólares son orientativos y se confirman con el cambio del día de la reserva.",
       conditions: "Precio base por persona, calculado para dos viajeros en habitación doble. Las tarifas son variables según disponibilidad y momento de la reserva; vuelos, horarios y traslados se reconfirman antes de reservar. La propuesta escrita confirma habitaciones, servicios y condiciones.",
       faqTitle: "Antes de viajar",
       faq: [
@@ -149,7 +149,7 @@ export const PARATY_IGUAZU_PANTANAL_RIO: BrazilPackageDef = {
       hotelsTitle: "Planned accommodation", nights: "nights",
       hotelNotes: ["Breakfast", "Breakfast", "Full board & activities", "Breakfast"],
       priceTitle: "Four Brazils in one journey.",
-      exchangeNote: "Original price: R$18,000 per person. References checked on 30 October 2026: R$1 = €0.16477 and, per Wise, €1 = US$1.117. Euro and dollar amounts are indicative and confirmed at the exchange rate on the booking date.",
+      exchangeNote: "Original price: R$18,000 per person. Reference exchange rates checked on 30 October 2026: R$1 = €0.16477 and €1 = US$1.117. Euro and dollar amounts are indicative and confirmed at the exchange rate on the booking date.",
       conditions: "Base price per person, calculated for two travellers sharing a double room. Rates vary with availability and booking date; flights, schedules and transfers are reconfirmed before booking. Your written proposal confirms rooms, services and conditions.",
       faqTitle: "Before you travel",
       faq: [

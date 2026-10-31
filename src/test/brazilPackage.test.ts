@@ -24,10 +24,9 @@ describe("Rio, Pantanal and Lençóis package", () => {
     expect(PACKAGE_COPY.en.days).toHaveLength(12);
     expect(PACKAGE_FACTS.hotels.reduce((sum, h) => sum + h.nights, 0)).toBe(11);
   });
-  it("calculates the dollar reference from the checked Wise rate", () => {
+  it("calculates the dollar reference from the checked exchange rate", () => {
     expect(PACKAGE_FACTS.exchange.rate).toBe(1.116);
     expect(packageUSD()).toBe(4447);
-    expect(PACKAGE_FACTS.exchange.source).toBe("https://wise.com/us/currency-converter/eur-to-usd-rate");
   });
   it("quotes on the company WhatsApp with the package context", () => {
     for (const lang of ["es", "en"] as const) {
@@ -53,7 +52,7 @@ describe("Amazon, Lençóis, Salvador, Iguazu and Rio package", () => {
     expect(pk.facts.hotels.reduce((s, h) => s + h.nights, 0)).toBe(16);
     expect(pkgDayLabel(pk, 16)).toBe("12/08");
   });
-  it("converts to dollars with the 30/10/2026 Wise reference", () => {
+  it("converts to dollars with the 30/10/2026 reference rate", () => {
     expect(pkgAmount(pk, "USD")).toBe(4611);
   });
   it("is listed and featured on the Amazon and Iguazu guides in Spanish and English", () => {
