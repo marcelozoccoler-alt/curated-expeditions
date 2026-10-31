@@ -14,11 +14,11 @@ const TEMPLATES: Record<Lang, (name?: string) => string> = {
   en: (name) =>
     `Hi Create Travel! I'd like to plan a tailor-made trip to Brazil${
       name ? ` — interested in: ${name}` : ""
-    }. Could you send me a custom quote?`,
+    }. Could you send me a custom quote? Approximate dates: __. Number of travellers: __. Interests: __.`,
   es: (name) =>
     `¡Hola Create Travel! Me gustaría planear un viaje a medida por Brasil${
       name ? ` — interés: ${name}` : ""
-    }. ¿Pueden enviarme un presupuesto personalizado?`,
+    }. ¿Pueden enviarme un presupuesto personalizado? Fechas aproximadas: __. Número de viajeros: __. Intereses: __.`,
   it: (name) =>
     `Ciao Create Travel! Vorrei organizzare un viaggio su misura in Brasile${
       name ? ` — interesse: ${name}` : ""
