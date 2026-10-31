@@ -1,5 +1,7 @@
 # Roadmap
 
+- [x] Corrigir HTML do Incoming para buscadores: quatro apresentações adicionadas, 220 páginas geradas; apresentação ES/EN alinhada aos pacotes, inclusões/exclusões por fonte e contato contextual; 264 testes aprovados e navegação ES/EN conferida. Sem publicar nem criar anúncios; entrega no domínio público depende da próxima publicação.
+
 - [x] Analisar Google pago para o pacote combinado em espanhol: Search como candidato inicial, buscas de natureza e circuitos, mercados separados, exclusões e avaliação por contatos/propostas/reservas; custos sem previsão por ausência de dados da conta. Pesquisa existente reutilizada; nenhuma campanha ou gasto.
 
 - [x] Ajustar busca em espanhol para Pantanal, Lençóis e Rio; links de ida e volta com o pacote e esclarecimento de Aquidauana ES/EN conferidos no navegador e no HTML para crawlers; 267 testes passam. Search Console: três guias indexados, pacote não reconhecido; sitemap sem erros. Sem publicar nem solicitar indexação (API de inspeção só lê).

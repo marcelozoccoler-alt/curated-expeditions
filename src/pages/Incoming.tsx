@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 import { MessageCircle, ArrowLeft, MapPin } from "lucide-react";
 import { Header } from "@/components/Header";
 import { Button } from "@/components/ui/button";
-import { BRAZIL_PACKAGES, pkgPath, pkgPrice } from "@/lib/brazilPackage";
+import { incomingPackageOffers } from "@/lib/incomingPackages";
 import { Footer } from "@/components/Footer";
 import { HreflangTags } from "@/components/HreflangTags";
 import { SUPPORTED_LANGS, toContentLang, type ContentLang } from "@/i18n/config";
@@ -32,7 +32,7 @@ import { BRASIL_AVENTURA_UI } from "@/lib/brasilAventuraCopy";
 import { Leaf, Mountain } from "lucide-react";
 import biomesHero from "@/assets/incoming-biomes-hero.jpg";
 
-const SITE_URL = "https://www.createtravel.tur.br";
+const SITE_URL = "https://createtravel.tur.br";
 
 const Incoming = () => {
   // The route is mounted at /:lang/incoming; useLang reads the prefix.
@@ -104,7 +104,7 @@ const Incoming = () => {
       position: i + 1,
       name: destText(d).name,
       description: destText(d).blurb,
-      url: `${SITE_URL}/${lang}/incoming/${d.slug}`,
+      url: `${SITE_URL}/${lang}/brazil-guides/${d.slug}`,
     })),
   };
 
@@ -196,7 +196,30 @@ const Incoming = () => {
       </section>
 
       {/* Intro */}
-      {(lang === "es" || lang === "en") && <section className="bg-background border-b border-border py-12"><div className="container-editorial grid gap-8">{BRAZIL_PACKAGES.map(pk => { const c = pk.copy[lang]; return <div key={pk.slug} className="grid md:grid-cols-[1fr_auto] gap-6 items-center"><div><p className="text-sm text-emerald mb-2">{c.dates} · {c.duration}</p><h2 className="font-serif text-3xl mb-3">{c.h1}</h2><p className="text-muted-foreground">{c.from} {pkgPrice(pk, lang, "EUR")} {c.perPerson}</p></div><Button asChild size="lg"><Link to={pkgPath(pk, lang)}>{c.viewRoute}</Link></Button></div>; })}</div></section>}
+      {(lang === "es" || lang === "en") && (
+        <section className="bg-background border-b border-border py-12">
+          <div className="container-editorial divide-y divide-border">
+            {incomingPackageOffers(lang).map(offer => (
+              <article key={offer.slug} className="grid md:grid-cols-[1fr_auto] gap-6 items-center py-8 first:pt-0 last:pb-0">
+                <div className="max-w-3xl">
+                  <p className="text-sm text-emerald mb-2">{offer.dates} · {offer.duration}</p>
+                  <h2 className="font-serif text-3xl mb-3">{offer.title}</h2>
+                  <p className="text-lg font-medium text-foreground">{offer.price}</p>
+                  <p className="text-sm text-muted-foreground mt-1">{offer.basis}</p>
+                  <ul className="list-disc pl-5 space-y-2 text-sm text-muted-foreground mt-4">
+                    {offer.inclusions.map(inclusion => <li key={inclusion}>{inclusion}</li>)}
+                  </ul>
+                  <p className="text-sm text-muted-foreground mt-3">{offer.exclusion}</p>
+                </div>
+                <div className="flex flex-col items-start gap-3">
+                  <Button asChild size="lg" className="whitespace-normal h-auto py-3 text-center"><Link to={offer.path}>{offer.button}</Link></Button>
+                  <Button asChild variant="outline" className="whitespace-normal h-auto py-3"><a href={offer.whatsapp} target="_blank" rel="noopener noreferrer"><MessageCircle size={16} />{offer.quote}</a></Button>
+                </div>
+              </article>
+            ))}
+          </div>
+        </section>
+      )}
       <section className="py-20 lg:py-28">
         <div className="container-editorial max-w-3xl">
           <h2 className="font-serif text-3xl md:text-4xl mb-8 text-foreground">

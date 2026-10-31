@@ -73,7 +73,7 @@ export const INCOMING_COPY: Record<Exclude<ContentLang, "pt">, IncomingCopy> = {
     intro: {
       heading: "An incoming agency that travels Brazil first.",
       paragraphs: [
-        "Create Travel is a Brazilian boutique agency based in São Paulo, designing private trips for travelers who arrive curious and leave changed. We don't sell packages — we compose itineraries.",
+        "Create Travel is a Brazilian boutique agency based in São Paulo. We design carefully planned journeys across Brazil, with published itineraries, dates and base prices, as well as tailor-made trips. Private and shared services are identified in each proposal; itinerary changes receive a separate quote.",
         "We work with the small lodges nobody lists, the local guides who became friends, the cooks who open their kitchens, and the boatmen who know which bend in the river the pink dolphins love. Brazil through the people who actually live it.",
         "Every quote is hand-built around your dates, pace and obsessions. You get one travel designer, one WhatsApp number, one trip that belongs only to you.",
       ],
@@ -94,11 +94,11 @@ export const INCOMING_COPY: Record<Exclude<ContentLang, "pt">, IncomingCopy> = {
       steps: [
         {
           title: "1. Tell us your story",
-          text: "Dates, dreams, dealbreakers. A short call or message is enough.",
+          text: "Tell us your approximate dates, number of travellers and interests: wildlife, culture, beaches or a combination of Brazil's landscapes.",
         },
         {
           title: "2. Receive a designed itinerary",
-          text: "A custom proposal with hotels, guides, transfers and a clear price — yours to refine.",
+          text: "Receive a written proposal with accommodation, flights and services listed as included or optional, guide languages, private or shared arrangements, and booking conditions. Changes are quoted separately.",
         },
         {
           title: "3. Travel with full support",
@@ -124,7 +124,7 @@ export const INCOMING_COPY: Record<Exclude<ContentLang, "pt">, IncomingCopy> = {
     cta: {
       heading: "Ready to design your Brazil?",
       subheading:
-        "Tell us when you'd like to come and we'll come back with a proposal in 48 hours.",
+        "Share your approximate dates, number of travellers and interests. We will prepare a personalised proposal in English, with availability and booking conditions.",
       button: "Start on WhatsApp",
     },
     faqs: {
@@ -133,7 +133,7 @@ export const INCOMING_COPY: Record<Exclude<ContentLang, "pt">, IncomingCopy> = {
       items: [
         {
           q: "How much does a tailor-made Brazil trip cost with Create Travel?",
-          a: "We don't sell off-the-shelf packages, so there's no fixed list price. Cost depends on season, length of stay, hotel category, internal flights, private guides and experiences. Most of our custom Brazil trips start around USD 350–500 per person per day for boutique-level travel with private transfers and curated experiences — premium lodges and remote destinations (Amazon, Pantanal, Fernando de Noronha) sit higher. Tell us your dates and dream and we send a detailed, transparent quote within 48 hours.",
+          a: "Our published journeys show a base price per person, dates and inclusions on their individual pages. Each price has its own traveller and room basis; domestic flights and shared or private services follow the specific itinerary. International flights are not included in these published packages. Tailor-made trips, extensions and accommodation changes receive a separate quote based on your dates, number of travellers and preferences.",
         },
         {
           q: "Why book Brazil with Create Travel instead of a big online agency?",
@@ -145,7 +145,7 @@ export const INCOMING_COPY: Record<Exclude<ContentLang, "pt">, IncomingCopy> = {
         },
         {
           q: "Do you handle the whole trip — flights, hotels, guides, transfers?",
-          a: "Yes. We design the full journey end-to-end: international and domestic flights, boutique hotels and lodges, private bilingual guides, transfers, charter flights when needed, restaurant reservations and special experiences. One trip, one team, one WhatsApp.",
+          a: "We can plan a complete journey, but only services listed in your written proposal are included in its price. Our published packages include domestic flights as described and exclude international flights. Guide languages and private or shared arrangements vary by itinerary; please state your language preference when requesting a quote.",
         },
         {
           q: "Is it safe to travel in Brazil?",
@@ -173,7 +173,7 @@ export const INCOMING_COPY: Record<Exclude<ContentLang, "pt">, IncomingCopy> = {
     intro: {
       heading: "Una agencia incoming que viaja Brasil primero.",
       paragraphs: [
-        "Create Travel es una agencia brasileña boutique con sede en São Paulo, que diseña viajes privados para viajeros que llegan curiosos y se van transformados. No vendemos paquetes — componemos itinerarios.",
+        "Create Travel es una agencia brasileña boutique con sede en São Paulo. Diseñamos viajes cuidadosamente conectados por Brasil: itinerarios con fechas y precios base publicados, además de viajes a medida. Cada propuesta distingue los servicios privados y compartidos; las adaptaciones reciben un presupuesto propio.",
         "Trabajamos con los pequeños lodges que nadie lista, los guías locales que se volvieron amigos, las cocineras que abren sus casas y los barqueros que saben en qué recodo del río están los delfines rosados. Brasil a través de quienes lo viven de verdad.",
         "Cada presupuesto se construye a mano según tus fechas, tu ritmo y tus obsesiones. Tendrás un diseñador de viajes, un WhatsApp, un viaje que pertenece solo a ti.",
       ],
@@ -194,11 +194,11 @@ export const INCOMING_COPY: Record<Exclude<ContentLang, "pt">, IncomingCopy> = {
       steps: [
         {
           title: "1. Cuéntanos tu historia",
-          text: "Fechas, sueños, no negociables. Una llamada corta o un mensaje basta.",
+          text: "Cuéntanos tus fechas aproximadas, cuántas personas viajarán y qué te interesa: naturaleza, cultura, playas o combinar paisajes de Brasil.",
         },
         {
           title: "2. Recibe un itinerario diseñado",
-          text: "Una propuesta personalizada con hoteles, guías, traslados y un precio claro — tuyo para ajustar.",
+          text: "Recibe una propuesta escrita con alojamientos, vuelos y servicios incluidos u opcionales, idiomas de los guías, servicios privados o compartidos y condiciones de reserva. Los cambios se cotizan por separado.",
         },
         {
           title: "3. Viaja con apoyo total",
@@ -224,7 +224,7 @@ export const INCOMING_COPY: Record<Exclude<ContentLang, "pt">, IncomingCopy> = {
     cta: {
       heading: "¿Listo para diseñar tu Brasil?",
       subheading:
-        "Cuéntanos cuándo te gustaría venir y te enviaremos una propuesta en 48 horas.",
+        "Cuéntanos tus fechas aproximadas, cuántas personas viajarán y tus intereses. Prepararemos una propuesta personalizada en español, con disponibilidad y condiciones de reserva.",
       button: "Empezar por WhatsApp",
     },
     faqs: {
@@ -233,7 +233,7 @@ export const INCOMING_COPY: Record<Exclude<ContentLang, "pt">, IncomingCopy> = {
       items: [
         {
           q: "¿Cuánto cuesta un viaje a medida por Brasil con Create Travel?",
-          a: "No vendemos paquetes cerrados, así que no hay precio de tabla. El costo depende de la temporada, duración, categoría de hotel, vuelos internos, guías privados y experiencias. La mayoría de nuestros viajes a medida arrancan en torno a USD 350–500 por persona/día en nivel boutique con traslados privados y experiencias curadas — lodges premium y destinos remotos (Amazonía, Pantanal, Fernando de Noronha) están por encima. Cuéntanos fechas y sueños y enviamos un presupuesto detallado y transparente en 48 horas.",
+          a: "Nuestros itinerarios publicados indican precio base por persona, fechas e inclusiones en sus páginas. Cada precio tiene su propia base de viajeros y habitación; los vuelos internos y los servicios privados o compartidos corresponden al itinerario concreto. Los vuelos internacionales no están incluidos en estos paquetes publicados. Los viajes a medida, las extensiones y los cambios de alojamiento reciben un presupuesto propio según tus fechas, número de viajeros y preferencias.",
         },
         {
           q: "¿Por qué reservar Brasil con Create Travel y no con una gran OTA?",
@@ -245,7 +245,7 @@ export const INCOMING_COPY: Record<Exclude<ContentLang, "pt">, IncomingCopy> = {
         },
         {
           q: "¿Organizan todo el viaje — vuelos, hoteles, guías, traslados?",
-          a: "Sí. Diseñamos el viaje de principio a fin: vuelos internacionales e internos, hoteles boutique y lodges, guías privados bilingües, traslados, vuelos charter cuando hacen falta, reservas de restaurantes y experiencias especiales. Un viaje, un equipo, un WhatsApp.",
+          a: "Podemos planificar el viaje completo, pero el precio incluye únicamente los servicios indicados en tu propuesta escrita. Los paquetes publicados incluyen los vuelos internos descritos y no incluyen vuelos internacionales. El idioma de los guías y los servicios privados o compartidos varían según el itinerario; indica tu idioma preferido al solicitar presupuesto.",
         },
         {
           q: "¿Es seguro viajar por Brasil?",
