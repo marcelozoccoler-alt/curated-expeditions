@@ -172,7 +172,7 @@ export const AMAZON_GRAND_TOUR: BrazilPackageDef = {
       hotelsTitle: "Planned accommodation", nights: "nights",
       hotelNotes: ["Full board", "Breakfast", "Breakfast", "Breakfast", "Breakfast", "Breakfast"],
       priceTitle: "Five Brazils in one journey.",
-      exchangeNote: "Wise reference checked on 30 October 2026: €1 = US$1.117. The dollar amount is indicative and will be confirmed at the exchange rate on the booking date.",
+      exchangeNote: "Reference exchange rate checked on 30 October 2026: €1 = US$1.117. The dollar amount is indicative and will be confirmed at the exchange rate on the booking date.",
       conditions: "Base price per person, calculated for two travellers sharing a double room. Rates, flights, schedules and availability are reconfirmed before booking. Your written proposal confirms rooms, services and conditions.",
       faqTitle: "Before you travel",
       faq: [
