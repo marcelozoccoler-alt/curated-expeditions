@@ -47,7 +47,7 @@ interface Page {
   redirectTo?: string;
 }
 
-function renderHtml(template: string, pg: Page): string {
+export function renderHtml(template: string, pg: Page): string {
   const url = SITE + pg.path;
   const canonicalUrl = pg.redirectTo ? SITE + pg.redirectTo : url;
   const alt = Object.entries(pg.alternates)
@@ -69,7 +69,8 @@ function renderHtml(template: string, pg: Page): string {
     .replace(/<meta property="og:description" content="[^"]*">/, `<meta property="og:description" content="${esc(pg.description)}">`)
     .replace(/<meta name="twitter:title" content="[^"]*">/, `<meta name="twitter:title" content="${esc(pg.title)}">`)
     .replace(/<meta name="twitter:description" content="[^"]*">/, `<meta name="twitter:description" content="${esc(pg.description)}">`)
-    .replace(/<meta property="og:url" content="[^"]*"\s*\/?>/, `<meta property="og:url" content="${url}" />`)
+    .replace(/<meta property="og:url" content="[^"]*"\s*\/?>/, "")
+    .replace("</head>", `<meta property="og:url" content="${canonicalUrl}" /></head>`)
     .replace('<div id="root"></div>', `<div id="root"><main>${pg.body}</main></div>`);
 }
 
@@ -106,7 +107,43 @@ export async function buildPages(load: (id: string) => Promise<any>): Promise<Pa
   const { INCOMING_DESTINATIONS } = await load("/src/lib/incomingDestinations.ts");
   const { BRAZIL_GUIDES, guidePath } = await load("/src/lib/brazilGuides/index.ts");
   const { BRAZIL_PACKAGES, pkgPath, pkgPrice, pkgJsonLd, pkgWhatsApp, guidePackages } = await load("/src/lib/brazilPackage.ts");
+  const { INCOMING_COPY } = await load("/src/lib/incomingCopy.ts");
+  const { incomingPackageOffers } = await load("/src/lib/incomingPackages.ts");
+  const { generateIncomingWhatsAppLink } = await load("/src/lib/whatsappI18n.ts");
   const pages: Page[] = [];
+  // The landing pages are actual entry points, not just the detail routes.
+  for (const lang of LANGS) {
+    const c = INCOMING_COPY[lang];
+    const offers = lang === "es" || lang === "en" ? incomingPackageOffers(lang) : [];
+    const destinations = INCOMING_DESTINATIONS.map((d: any) => ({
+      name: d.name[lang], description: d.blurb[lang], path: guidePath(lang, d.slug),
+    }));
+    pages.push({
+      path: `/${lang}/incoming`, lang, title: c.meta.title, description: c.meta.description,
+      alternates: Object.fromEntries(LANGS.map(l => [l, `/${l}/incoming`])),
+      body: `<h1>${esc(c.hero.title)}</h1>` + p(c.hero.subtitle)
+        + `<p><a href="${esc(generateIncomingWhatsAppLink({ lang }))}">${esc(c.hero.cta)}</a></p>`
+        + offers.map((o: any) => sec(o.title, p(`${o.dates} · ${o.duration}`) + p(o.price) + p(o.basis)
+          + `<ul>${o.inclusions.map((t: string) => `<li>${esc(t)}</li>`).join("")}</ul>` + p(o.exclusion)
+          + `<p><a href="${esc(o.path)}">${esc(o.button)}</a></p><p><a href="${esc(o.whatsapp)}">${esc(o.quote)}</a></p>`)).join("")
+        + sec(c.intro.heading, c.intro.paragraphs.map(p).join(""))
+        + sec(c.destinations.heading, p(c.destinations.subheading) + destinations.map((d: any) =>
+          `<h3><a href="${esc(d.path)}">${esc(d.name)}</a></h3>${p(d.description)}`).join(""))
+        + sec(c.process.heading, p(c.process.subheading) + items(c.process.steps))
+        + sec(c.trust.heading, `<ul>${c.trust.items.map((t: string) => `<li>${esc(t)}</li>`).join("")}</ul>`)
+        + sec(c.expertise.heading, p(c.expertise.lead) + p(c.expertise.destinations) + p(c.expertise.biomes))
+        + sec(c.faqs.heading, c.faqs.items.map((f: any) => `<h3>${esc(f.q)}</h3>${p(f.a)}`).join(""))
+        + sec(c.cta.heading, p(c.cta.subheading) + `<a href="${esc(generateIncomingWhatsAppLink({ lang }))}">${esc(c.cta.button)}</a>`),
+      jsonLd: [agencyLd, {
+        "@context": "https://schema.org", "@type": "CollectionPage", url: `${SITE}/${lang}/incoming`,
+        name: c.meta.title, description: c.meta.description, inLanguage: lang,
+        mainEntity: { "@type": "ItemList", itemListElement: [
+          ...destinations.map((d: any) => ({ name: d.name, url: SITE + d.path })),
+          ...offers.map((o: any) => ({ name: o.title, url: SITE + o.path })),
+        ].map((item, i) => ({ "@type": "ListItem", position: i + 1, ...item })) },
+      }],
+    });
+  }
   for (const pk of BRAZIL_PACKAGES) for (const lang of ["es", "en"]) {
     const c = pk.copy[lang];
     const ext = pk.facts.extension && c.extension
@@ -225,7 +262,7 @@ export function prerenderIncoming(): Plugin {
         }
         console.log(`[prerender-incoming] wrote ${pages.length} static pages`);
       } catch (e) {
-        console.warn("[prerender-incoming] skipped:", (e as Error).message);
+        throw new Error(`[prerender-incoming] failed: ${(e as Error).message}`);
       } finally {
         await server.close();
       }
