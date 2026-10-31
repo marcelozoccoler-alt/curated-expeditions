@@ -6,7 +6,7 @@ export const AMAZON_GRAND_TOUR: BrazilPackageDef = {
   facts: {
     priceEUR: 4128, travelers: 2, days: 17, nights: 16,
     start: "2027-07-27", end: "2027-08-12",
-    exchange: { rate: 1.117, checkedOn: "2026-10-30", source: "https://wise.com/us/currency-converter/eur-to-usd-rate" },
+    exchange: { rate: 1.117, checkedOn: "2026-10-30" },
     hotels: [
       { name: "Caboclos House Ecolodge", location: "Amazonía · Lago Acajatuba", nights: 3 },
       { name: "Brisa Mar São Luís", location: "São Luís", nights: 2 },
@@ -87,7 +87,7 @@ export const AMAZON_GRAND_TOUR: BrazilPackageDef = {
       hotelsTitle: "Alojamientos previstos", nights: "noches",
       hotelNotes: ["Pensión completa", "Desayuno", "Desayuno", "Desayuno", "Desayuno", "Desayuno"],
       priceTitle: "Cinco Brasiles en un solo viaje.",
-      exchangeNote: "Referencia Wise consultada el 30/10/2026: 1 € = 1,117 US$. El importe en dólares es orientativo y se confirmará con el cambio del día de la reserva.",
+      exchangeNote: "Tipo de cambio de referencia consultado el 30/10/2026: 1 € = 1,117 US$. El importe en dólares es orientativo y se confirmará con el cambio del día de la reserva.",
       conditions: "Precio base por persona, calculado para dos viajeros en habitación doble. Tarifas, vuelos, horarios y disponibilidad se reconfirman antes de la reserva. La propuesta escrita confirma habitaciones, servicios y condiciones.",
       faqTitle: "Antes de viajar",
       faq: [

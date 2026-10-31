@@ -8,7 +8,7 @@ export const PACKAGE_SLUG = "rio-pantanal-lencois-august-2027";
 export const PACKAGE_FACTS = {
   priceEUR: 3985, travelers: 2, days: 12, nights: 11,
   start: "2027-08-07", end: "2027-08-18",
-  exchange: { rate: 1.116, checkedOn: "2026-10-29", source: "https://wise.com/us/currency-converter/eur-to-usd-rate" },
+  exchange: { rate: 1.116, checkedOn: "2026-10-29" },
   hotels: [
     { name: "Pousada Aguapé do Pantanal", location: "Pantanal", nights: 3 },
     { name: "Brisamar Hotel & SPA", location: "São Luís", nights: 2 },
@@ -82,7 +82,7 @@ export const PACKAGE_COPY: Record<PackageLang, Copy> = {
     hotelsTitle: "Alojamientos previstos", nights: "noches",
     hotelNotes: ["Pensión completa", "Desayuno incluido", "O similar · categoría turística · desayuno", "Habitación estándar · desayuno"],
     priceTitle: "Tu próximo agosto puede ser aquí.",
-    exchangeNote: "Referencia Wise consultada el 29/10/2026: 1 € = 1,116 US$. El importe en dólares es orientativo y se confirmará con el cambio del día de la reserva.",
+    exchangeNote: "Tipo de cambio de referencia consultado el 29/10/2026: 1 € = 1,116 US$. El importe en dólares es orientativo y se confirmará con el cambio del día de la reserva.",
     conditions: "Precio base por persona, calculado para dos viajeros. Hoteles y vuelos sujetos a disponibilidad y variaciones hasta la confirmación. La propuesta escrita confirma habitaciones, servicios y condiciones de reserva.",
     faqTitle: "Antes de viajar",
     faq: [
@@ -141,7 +141,7 @@ export const PACKAGE_COPY: Record<PackageLang, Copy> = {
     hotelsTitle: "Planned accommodation", nights: "nights",
     hotelNotes: ["Full board", "Breakfast included", "Or similar · tourist category · breakfast", "Standard room · breakfast"],
     priceTitle: "Your next August could look like this.",
-    exchangeNote: "Wise reference checked on 29 October 2026: €1 = US$1.116. The dollar amount is indicative and will be confirmed using the exchange rate on the booking date.",
+    exchangeNote: "Reference exchange rate checked on 29 October 2026: €1 = US$1.116. The dollar amount is indicative and will be confirmed using the exchange rate on the booking date.",
     conditions: "Base price per person, calculated for two travellers. Hotels and flights are subject to availability and price changes until confirmed. Your written proposal confirms rooms, services and booking conditions.",
     faqTitle: "Before you travel",
     faq: [
