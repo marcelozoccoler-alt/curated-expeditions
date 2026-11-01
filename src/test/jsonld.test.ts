@@ -267,7 +267,7 @@ describe("JSON-LD — Incoming (/:lang/incoming) in 4 languages", () => {
       "@context": "https://schema.org",
       "@type": "TravelAgency",
       name: "Create Travel",
-      url: `https://www.createtravel.tur.br/${lang}/incoming`,
+      url: `${DOMAIN}/${lang}/incoming`,
       description: copy.meta.description,
       areaServed: "Brazil",
     };

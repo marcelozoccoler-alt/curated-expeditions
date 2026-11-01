@@ -153,7 +153,7 @@ export interface GroupHotelEntry {
   hotel: string;
 }
 
-const SITE_URL = "https://www.createtravel.tur.br";
+const SITE_URL = "https://createtravel.tur.br";
 
 /**
  * Gera blocos JSON-LD (LodgingBusiness + ItemList) que ligam cada

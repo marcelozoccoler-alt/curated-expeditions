@@ -32,7 +32,7 @@ import {
 } from "@/lib/incomingExtra";
 
 
-const SITE_URL = "https://www.createtravel.tur.br";
+const SITE_URL = "https://createtravel.tur.br";
 
 const IncomingDestino = () => {
   const lang = useLang();
