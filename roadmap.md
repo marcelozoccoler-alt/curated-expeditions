@@ -1,5 +1,7 @@
 # Roadmap
 
+- [ ] Preparar relato editorial trilíngue autorizado de Patrícia Camarena e Alejandro Barrera (México), álbum no mural e post no padrão da Bia, usando itinerário e apresentação Barra Mansa/Arandu; conferir material sem publicar o site.
+
 - [x] Retomada: URLs sem www padronizadas e Wise ausente no site; 259 testes e navegação dos pacotes ES/EN aprovados, build OK e verificações básicas de segurança sem achados; publicação autorizada será solicitada nesta etapa.
 
 - [x] Corrigir HTML do Incoming para buscadores: quatro apresentações adicionadas, 220 páginas geradas; apresentação ES/EN alinhada aos pacotes, inclusões/exclusões por fonte e contato contextual; 264 testes aprovados e navegação ES/EN conferida. Sem publicar nem criar anúncios; entrega no domínio público depende da próxima publicação.

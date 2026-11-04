@@ -9,6 +9,7 @@ import { ShareButtons } from "@/components/ShareButtons";
 import { CONTACT } from "@/lib/types";
 import { testimonials } from "@/lib/testimonials";
 import { Quote, Camera, BadgeCheck, Images } from "lucide-react";
+import { Button } from "@/components/ui/button";
 
 const DOMAIN = CONTACT.domain.replace(/\/$/, "");
 const PHOTOS_PREVIEW = 6;
@@ -17,6 +18,7 @@ const PHOTOS_PREVIEW = 6;
 export const TESTIMONIAL_ORDER = [
   "yolanda-paschoal-emilio",
   "beatriz-moreira-rogers-pin-sete-anos",
+  "patricia-camarena-alejandro-barrera-pantanal",
   "labib-maria-miguel-bernardi-desde-2015",
   "tania-abreu-turquia-novembro-2025",
   "maite-leal-murilo-lamano-patagonia-leste-europeu",
@@ -26,6 +28,7 @@ export const TESTIMONIAL_ORDER = [
 const Depoimentos = () => {
   const [filter, setFilter] = useState<string>("Todos");
   const [expanded, setExpanded] = useState<Record<string, boolean>>({});
+  const [languages, setLanguages] = useState<Record<string, "pt" | "es" | "en">>({});
 
   const ordered = useMemo(
     () =>
@@ -69,14 +72,14 @@ const Depoimentos = () => {
       })),
     },
     // Review reais, sem nota inventada: só texto, autor e o que foi viajado.
-    ...verified.map((t) => ({
+    ...verified.filter((t) => t.contentKind !== "editorial").map((t) => ({
       "@context": "https://schema.org",
       "@type": "Review",
       "@id": `${DOMAIN}/depoimentos#review-${t.slug}`,
       url: `${DOMAIN}/depoimentos#${t.slug}`,
       name: t.title,
       reviewBody: t.quote,
-       datePublished: t.datePublished ?? "2026-08-15",
+       ...(t.datePublished ? { datePublished: t.datePublished } : {}),
       inLanguage: "pt-BR",
        author: { "@type": "Person", name: t.author, ...(t.city ? { address: t.city } : {}) },
       about: {
@@ -227,6 +230,8 @@ const Depoimentos = () => {
 
             <div className="space-y-16">
               {visible.map((t) => {
+                const language = languages[t.slug] ?? "pt";
+                const copy = language === "pt" ? t : t.translations?.[language] ?? t;
                 const isOpen = Boolean(expanded[t.slug]);
                 const shown = isOpen ? t.photos : t.photos.slice(0, PHOTOS_PREVIEW);
                 const hidden = t.photos.length - shown.length;
@@ -274,7 +279,7 @@ const Depoimentos = () => {
                       )}
 
                       <p className="mt-3 text-xs text-muted-foreground">
-                        Fotos originais da viagem, publicadas com autorização de {t.author}.
+                        {t.contentKind === "editorial" ? "Fotos da viagem autorizadas pelo casal; imagem do lodge identificada na legenda." : `Fotos originais da viagem, publicadas com autorização de ${t.author}.`}
                       </p>
 
                       {[...(t.video ? [t.video] : []), ...(t.videos ?? [])].map((v) => (
@@ -306,7 +311,7 @@ const Depoimentos = () => {
                         {t.tripType} · {t.destination}
                       </p>
                       <h3 className="font-serif text-2xl md:text-3xl font-semibold text-foreground mb-5 leading-snug">
-                        {t.title}
+                        {copy.title}
                       </h3>
 
                       {t.verified && (
@@ -326,28 +331,39 @@ const Depoimentos = () => {
                       )}
 
 
-                      <blockquote className="relative border-l-2 border-gold/60 pl-6">
-                        <Quote
+                      {t.translations && (
+                        <div className="mb-5 flex gap-2" role="group" aria-label="Idioma do relato">
+                          {(["pt", "es", "en"] as const).map((lang) => (
+                            <Button key={lang} size="sm" variant={language === lang ? "default" : "outline"} aria-pressed={language === lang} onClick={() => setLanguages((prev) => ({ ...prev, [t.slug]: lang }))}>
+                              {{ pt: "Português", es: "Español", en: "English" }[lang]}
+                            </Button>
+                          ))}
+                        </div>
+                      )}
+                      {t.contentKind === "editorial" && <p className="mb-3 text-sm text-muted-foreground">{{ pt: "Relato da Create Travel a partir do retorno de Patrícia", es: "Relato de Create Travel basado en los comentarios de Patrícia", en: "Create Travel’s account based on Patrícia’s feedback" }[language]}</p>}
+                      <div lang={{ pt: "pt-BR", es: "es", en: "en" }[language]} className="relative border-l-2 border-gold/60 pl-6">
+                        {t.contentKind !== "editorial" && <Quote
                           size={22}
                           className="absolute -left-[11px] -top-1 bg-background text-gold"
-                        />
+                        />}
                         <p className="text-lg leading-relaxed text-foreground/90 font-light whitespace-pre-line">
-                          {t.quote}
+                          {copy.quote}
                         </p>
                         <footer className="mt-4 text-sm text-muted-foreground">
                           <span className="font-medium text-foreground">{t.author}</span>
+                          {t.originCountry && <> · {t.originCountry}</>}
                           {t.city && <> · {t.city}</>}
                           {t.month && <> · viagem em {t.month}</>}
                         </footer>
-                      </blockquote>
+                      </div>
 
                       {/* Nota da Create Travel */}
                       <div className="mt-8 rounded-xl bg-muted/60 border border-border p-6">
                         <p className="text-xs uppercase tracking-[0.2em] text-muted-foreground mb-3">
                           Nota da Create Travel
                         </p>
-                        <p className="text-sm md:text-base leading-relaxed text-foreground/80">
-                          {t.note}
+                        <p className="text-sm md:text-base leading-relaxed text-foreground/80 whitespace-pre-line">
+                          {copy.note}
                         </p>
                       </div>
                     </div>
@@ -362,7 +378,7 @@ const Depoimentos = () => {
                           </span>
                         </div>
                         <p className="text-sm md:text-base leading-relaxed text-foreground/85 font-light italic">
-                          {t.photoStory}
+                          {copy.photoStory}
                         </p>
 
                         {t.photos.length > 0 && !t.verified && (
