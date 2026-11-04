@@ -155,6 +155,19 @@ import yolandaPelourinho from "@/assets/depoimentos/yolanda-emilio-pelourinho.jp
 import yolandaEscadaCristal from "@/assets/depoimentos/yolanda-cruzeiro-escada-cristal.jpg.asset.json";
 import yolandaPiscinaBordaInfinita from "@/assets/depoimentos/yolanda-piscina-borda-infinita.jpg.asset.json";
 import yolandaDedoDeDeus from "@/assets/depoimentos/yolanda-emilio-dedo-de-deus.jpg.asset.json";
+import patriciaCasal from "@/assets/depoimentos/patricia-alejandro-0030.jpg.asset.json";
+import patriciaBarco from "@/assets/depoimentos/patricia-alejandro-0017.jpg.asset.json";
+import patriciaSafari from "@/assets/depoimentos/patricia-alejandro-0039.jpg.asset.json";
+import patriciaOnca from "@/assets/depoimentos/patricia-alejandro-0035.jpg.asset.json";
+import patriciaCapivaras from "@/assets/depoimentos/patricia-alejandro-0043.jpg.asset.json";
+import patriciaAraras from "@/assets/depoimentos/patricia-alejandro-0048.jpg.asset.json";
+import patriciaVaranda from "@/assets/depoimentos/patricia-alejandro-0026.jpg.asset.json";
+import patriciaPoente from "@/assets/depoimentos/patricia-alejandro-0038.jpg.asset.json";
+import patriciaQuarto from "@/assets/depoimentos/patricia-alejandro-0044.jpg.asset.json";
+import patriciaSol from "@/assets/depoimentos/patricia-alejandro-0055.jpg.asset.json";
+import patriciaJacare from "@/assets/depoimentos/patricia-alejandro-0012.jpg.asset.json";
+import patriciaFlor from "@/assets/depoimentos/patricia-alejandro-0015.jpg.asset.json";
+import aranduVaranda from "@/assets/depoimentos/barra-mansa-arandu-varanda.jpg.asset.json";
 
 export const TESTIMONIALS_DRAFT = true;
 
@@ -202,9 +215,60 @@ export interface Testimonial {
   since?: string;
   /** Destinos já viajados com a Create Travel. */
   countries?: string[];
+  /** Editorial accounts are not verbatim quotes or structured customer reviews. */
+  contentKind?: "editorial";
+  originCountry?: string;
+  translations?: Partial<Record<"es" | "en", { title: string; quote: string; note: string; photoStory: string }>>;
 }
 
 export const testimonials: Testimonial[] = [
+  {
+    slug: "patricia-camarena-alejandro-barrera-pantanal",
+    title: "Do México ao Pantanal: dias que ficam na memória",
+    author: "Patrícia Camarena e Alejandro Barrera",
+    city: "",
+    originCountry: "México",
+    tripType: "Viagem a dois",
+    destination: "Pantanal Sul · Barra Mansa · Núcleo Arandu",
+    month: "agosto de 2026",
+    verified: true,
+    contentKind: "editorial",
+    countries: ["Brasil"],
+    quote: "Patrícia Camarena e Alejandro Barrera vieram do México para viver o Pantanal com a Create Travel. Depois da viagem, Patrícia ligou para Marcelo encantada com a escolha do Barra Mansa, a hospitalidade, o cuidado do guia e a comida. O casal viveu dias incríveis, entre paisagens pantaneiras e encontros com a natureza.\n\nVer uma onça-pintada em seu habitat foi um dos momentos mais emocionantes dessa experiência. Um encontro real desta viagem, que se soma às memórias dos passeios de barco, da vida selvagem e da luz sobre o rio. Mais do que visitar um destino, levaram consigo o acolhimento de quem conhece e ama o Pantanal.",
+    note: "Relato editorial da Create Travel baseado no retorno de Patrícia a Marcelo, com uso de nomes e fotos autorizado pelo casal. O roteiro confirmado foi de 22 a 25 de agosto de 2026: três noites no Núcleo Arandu, pensão completa, traslados privados em 4x4 desde Campo Grande e guiagem bilíngue em espanhol. Nos dois dias completos, estavam previstos dois passeios por dia em base compartilhada, definidos pela equipe conforme as condições locais. O avistamento de onça desta viagem não é garantia para outras saídas.\n\nO Barra Mansa reúne Núcleo Sede e Núcleo Arandu. Segundo a apresentação recebida, o Arandu tem quatro apartamentos duplos, fica a cerca de dez minutos de carro ou vinte minutos de barco da sede, serve as refeições no próprio núcleo com a mesma equipe de cozinha e recebe saídas de passeios diretamente dali. A piscina foi anunciada como futura; sua disponibilidade deve ser confirmada antes de reservar.",
+    photoStory: "O álbum reúne registros reais enviados da viagem: o casal, os passeios de barco e em veículo aberto, a onça-pintada, capivaras, araras, jacaré e a flor do aguapé. O quarto e a varanda mostram a hospedagem vivida; a última imagem, identificada separadamente, vem da apresentação do Barra Mansa e mostra a varanda do Núcleo Arandu.",
+    photos: [
+      { src: patriciaCasal.url, caption: "Patrícia e Alejandro: memórias do Pantanal", alt: "Patrícia Camarena e Alejandro Barrera juntos ao entardecer" },
+      { src: patriciaBarco.url, caption: "Passeio pelo rio e paisagens pantaneiras", alt: "Viajantes e guia em barco no Pantanal" },
+      { src: patriciaSafari.url, caption: "A paisagem vista de um veículo aberto", alt: "Patrícia contemplando a paisagem em passeio terrestre" },
+      { src: patriciaOnca.url, caption: "Um encontro vivido nesta viagem, nunca garantido", alt: "Onça-pintada registrada na margem do rio durante a viagem" },
+      { src: patriciaCapivaras.url, caption: "Capivaras junto à margem do rio", alt: "Capivaras e seus reflexos na água" },
+      { src: patriciaAraras.url, caption: "Araras entre os galhos", alt: "Três araras verdes fotografadas na natureza" },
+      { src: patriciaVaranda.url, caption: "O casal e a paisagem da hospedagem", alt: "Patrícia e Alejandro na varanda diante da natureza" },
+      { src: patriciaPoente.url, caption: "O rio na luz do entardecer", alt: "Casal de costas no barco ao pôr do sol" },
+      { src: patriciaQuarto.url, caption: "O acolhimento da hospedagem pantaneira", alt: "Quarto de madeira fotografado durante a estadia" },
+      { src: patriciaSol.url, caption: "A luz dourada sobre o rio", alt: "Pôr do sol refletido no rio" },
+      { src: patriciaJacare.url, caption: "Jacaré nas águas do Pantanal", alt: "Jacaré fotografado na água durante a viagem" },
+      { src: patriciaFlor.url, caption: "O aguapé em flor", alt: "Flor roxa de aguapé nas águas pantaneiras" },
+      { src: aranduVaranda.url, caption: "Núcleo Arandu · foto da apresentação do lodge", alt: "Varanda do Núcleo Arandu em foto fornecida pelo Barra Mansa" },
+    ],
+    suggestedCaptions: [],
+    photoDirection: "Casal, rio, safari, fauna, hospedagem e pôr do sol; apresentação do lodge identificada separadamente.",
+    translations: {
+      es: {
+        title: "De México al Pantanal: días que permanecen en la memoria",
+        quote: "Patrícia Camarena y Alejandro Barrera viajaron desde México al Pantanal con Create Travel. Después del viaje, Patrícia llamó a Marcelo encantada con la elección de Barra Mansa, la hospitalidad, la atención del guía y la comida. Fueron días increíbles, entre paisajes del Pantanal y encuentros con la naturaleza.\n\nVer un jaguar en su hábitat fue uno de los momentos más emocionantes de esta experiencia. Un encuentro real de este viaje, junto a los paseos en barco, la fauna y la luz sobre el río. Se llevaron mucho más que fotografías: el recuerdo de una acogida genuina.",
+        note: "Relato editorial de Create Travel basado en los comentarios de Patrícia a Marcelo; nombres y fotos autorizados. Itinerario confirmado del 22 al 25 de agosto de 2026: tres noches en Núcleo Arandu, pensión completa, traslados privados en 4x4 desde Campo Grande y guía bilingüe en español. En los dos días completos estaban previstas dos actividades diarias en servicio compartido, según las condiciones locales. El avistamiento de jaguar de este viaje no garantiza futuros encuentros.\n\nBarra Mansa dispone de Núcleo Sede y Núcleo Arandu. Según la presentación recibida, Arandu tiene cuatro habitaciones dobles y se encuentra a unos diez minutos en coche o veinte en barco de la sede. Las comidas se sirven allí, preparadas por el mismo equipo de cocina, y las excursiones salen del propio núcleo. La piscina se anunció como un proyecto futuro; hay que confirmar su disponibilidad antes de reservar.",
+        photoStory: "Fotografías reales del viaje: la pareja, paseos en barco y vehículo abierto, jaguar, capibaras, guacamayos, caimán y flores acuáticas. La habitación y la terraza muestran la estancia; la última foto, identificada por separado, procede de la presentación de Barra Mansa y muestra la terraza de Núcleo Arandu.",
+      },
+      en: {
+        title: "From Mexico to the Pantanal: days to remember",
+        quote: "Patrícia Camarena and Alejandro Barrera travelled from Mexico to the Pantanal with Create Travel. After the trip, Patrícia called Marcelo delighted with the choice of Barra Mansa, the hospitality, the guide’s care and the food. They enjoyed wonderful days surrounded by Pantanal landscapes and wildlife.\n\nSeeing a jaguar in its natural habitat was one of the most moving moments of their experience. A genuine encounter on this trip, alongside boat outings, wildlife and golden light on the river. They returned with more than photographs: memories of a warm welcome in a remarkable place.",
+        note: "An editorial account by Create Travel based on Patrícia’s feedback to Marcelo, with permission to use the couple’s names and photos. Their confirmed itinerary ran from 22 to 25 August 2026: three nights at Núcleo Arandu, full board, private 4x4 transfers from Campo Grande and a bilingual Spanish-speaking guide. Two shared activities per day were planned on the two full days, subject to local conditions. Their jaguar sighting does not guarantee sightings on future trips.\n\nBarra Mansa has two accommodation areas: Núcleo Sede and Núcleo Arandu. According to the presentation supplied, Arandu has four double rooms and is around ten minutes by car or twenty minutes by boat from the main lodge. Meals are served on site by the same kitchen team, and outings depart directly from Arandu. A swimming pool was announced as a future addition; availability must be confirmed before booking.",
+        photoStory: "Real photographs from the trip: the couple, boat and open-vehicle outings, a jaguar, capybaras, macaws, a caiman and aquatic flowers. The room and veranda show their stay; the final image is separately credited to the Barra Mansa presentation and shows the Núcleo Arandu veranda.",
+      },
+    },
+  },
   {
     slug: "beatriz-moreira-rogers-pin-sete-anos",
     title: "Sete anos de parceria e tantas memórias especiais",
