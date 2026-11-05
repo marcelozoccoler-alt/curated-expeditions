@@ -1,6 +1,6 @@
 # Roadmap
 
-- [x] Relato editorial trilíngue autorizado de Patrícia Camarena e Alejandro Barrera (México) no mural, com 13 fotos (12 da viagem + 1 do lodge identificada), itinerário Barra Mansa/Arandu e aviso de que avistamento de onça não é garantido; post carrossel 01–05 em PT/ES/EN com legendas trilíngues; 2 testes aprovados, fotos confirmadas no CDN (localhost não entrega /__l5e, limitação conhecida); não publicado.
+- [x] Relato editorial trilíngue autorizado de Patrícia Camarena e Alejandro Barrera (México) no mural, com 13 fotos (12 da viagem + 1 do lodge identificada), itinerário Barra Mansa/Arandu e aviso de que avistamento de onça não é garantido; post carrossel 01–05 em PT/ES/EN com legendas trilíngues; 2 testes aprovados, fotos confirmadas no CDN; publicação do site solicitada em 05/11/2026. Post social NÃO publicado automaticamente (sem conector Instagram/Facebook); artes e legendas entregues para postagem manual.
 
 - [x] Retomada: URLs sem www padronizadas e Wise ausente no site; 259 testes e navegação dos pacotes ES/EN aprovados, build OK e verificações básicas de segurança sem achados; publicação autorizada será solicitada nesta etapa.
 
