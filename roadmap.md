@@ -1,6 +1,6 @@
 # Roadmap
 
-- [ ] Preparar relato editorial trilíngue autorizado de Patrícia Camarena e Alejandro Barrera (México), álbum no mural e post no padrão da Bia, usando itinerário e apresentação Barra Mansa/Arandu; conferir material sem publicar o site.
+- [x] Relato editorial trilíngue autorizado de Patrícia Camarena e Alejandro Barrera (México) no mural, com 13 fotos (12 da viagem + 1 do lodge identificada), itinerário Barra Mansa/Arandu e aviso de que avistamento de onça não é garantido; post carrossel 01–05 em PT/ES/EN com legendas trilíngues; 2 testes aprovados, fotos confirmadas no CDN (localhost não entrega /__l5e, limitação conhecida); não publicado.
 
 - [x] Retomada: URLs sem www padronizadas e Wise ausente no site; 259 testes e navegação dos pacotes ES/EN aprovados, build OK e verificações básicas de segurança sem achados; publicação autorizada será solicitada nesta etapa.
 
