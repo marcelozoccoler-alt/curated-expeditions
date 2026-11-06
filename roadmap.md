@@ -16,4 +16,5 @@
 - [x] Castelo lote 8 (3 fotos): variações da torre já tratada, só originais preservados, coleção atualizada (273 itens)
 - [x] Metrô de Praga (2 fotos): estação Jiřího z Poděbrad (parede icônica e trem chegando), 2 tratadas + 2 originais, coleção atualizada (277 itens)
 - [x] Fotos diversas encaixadas nos blocos (10 fotos): 1 duplicata exata fora; 8 tratadas — trio na fonte Hofburg (nova pasta 22-viena-centro-hofburg), bonde vermelho de Istiklal (07), 2 mosaicos da Chora + viajante no portão otomano (04), panorama do Parlamento (03), viajante na sinagoga Dohány (09), Museu de Artes Decorativas de Praga (13); interior da sinagoga WA0010 só original (semelhante à WA0126 já tratada); coleção atualizada (294 itens)
+- [x] Ponte Carlos lote 2 (10 fotos): 7 tratadas (rio Moldava com barco, 5 viajantes na placa de São João Nepomuceno, carro antigo vermelho); WA0290/WA0296 poses repetidas só originais; crucifixo WA0283 ficou só original — tratamento deformava as letras hebraicas douradas; coleção atualizada (311 itens)
 - Regras: preservar originais, descartar duplicatas/semelhantes da seleção, retoque discreto, não publicar
