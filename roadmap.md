@@ -8,4 +8,5 @@
 - [x] Torre da Pólvora extra (2 fotos + vídeo repetido): tratadas mp_5039 e mp_5287, coleção atualizada
 - [x] Castelo de Praga e vistas (10 fotos): 4 semelhantes fora, tratadas WA0156, WA0145, WA0146, WA0147, WA0152 e WA0153, coleção atualizada (210 itens)
 - [x] Castelo lote 2 (9 fotos + 1 print de banco excluído): tratadas WA0078, WA0095 e WA0144, coleção atualizada (222 itens)
+- [x] Castelo lote 3 (10 fotos, 1 duplicata exata fora): tratadas WA0064, WA0069, WA0020_1, WA0021_1 e 1017-WA0072 (retratos no Salão Vladislau), coleção atualizada (236 itens)
 - Regras: preservar originais, descartar duplicatas/semelhantes da seleção, retoque discreto, não publicar
