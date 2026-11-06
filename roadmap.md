@@ -15,4 +15,5 @@
 - [x] Castelo lote 7 (10 fotos): 9 variações de cenas já tratadas fora, tratada mp_8274 (torre da catedral na chuva), coleção atualizada (270 itens)
 - [x] Castelo lote 8 (3 fotos): variações da torre já tratada, só originais preservados, coleção atualizada (273 itens)
 - [x] Metrô de Praga (2 fotos): estação Jiřího z Poděbrad (parede icônica e trem chegando), 2 tratadas + 2 originais, coleção atualizada (277 itens)
+- [x] Fotos diversas encaixadas nos blocos (10 fotos): 1 duplicata exata fora; 8 tratadas — trio na fonte Hofburg (nova pasta 22-viena-centro-hofburg), bonde vermelho de Istiklal (07), 2 mosaicos da Chora + viajante no portão otomano (04), panorama do Parlamento (03), viajante na sinagoga Dohány (09), Museu de Artes Decorativas de Praga (13); interior da sinagoga WA0010 só original (semelhante à WA0126 já tratada); coleção atualizada (294 itens)
 - Regras: preservar originais, descartar duplicatas/semelhantes da seleção, retoque discreto, não publicar
