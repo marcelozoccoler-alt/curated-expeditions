@@ -14,4 +14,5 @@
 - [x] Castelo lote 6 mirante (8 fotos + 2 vídeos idênticos, 1 fora): tratadas WA0350 (trio), WA0361 (viajante loira) e mp_7050 (Marcelo), coleção atualizada (259 itens)
 - [x] Castelo lote 7 (10 fotos): 9 variações de cenas já tratadas fora, tratada mp_8274 (torre da catedral na chuva), coleção atualizada (270 itens)
 - [x] Castelo lote 8 (3 fotos): variações da torre já tratada, só originais preservados, coleção atualizada (273 itens)
+- [x] Metrô de Praga (2 fotos): estação Jiřího z Poděbrad (parede icônica e trem chegando), 2 tratadas + 2 originais, coleção atualizada (277 itens)
 - Regras: preservar originais, descartar duplicatas/semelhantes da seleção, retoque discreto, não publicar
