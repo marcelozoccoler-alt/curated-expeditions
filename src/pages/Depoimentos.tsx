@@ -16,9 +16,9 @@ const PHOTOS_PREVIEW = 6;
 
 // Prioridade editorial compartilhada pela lista visível e seus dados estruturados.
 export const TESTIMONIAL_ORDER = [
+  "patricia-camarena-alejandro-barrera-pantanal",
   "yolanda-paschoal-emilio",
   "beatriz-moreira-rogers-pin-sete-anos",
-  "patricia-camarena-alejandro-barrera-pantanal",
   "labib-maria-miguel-bernardi-desde-2015",
   "tania-abreu-turquia-novembro-2025",
   "maite-leal-murilo-lamano-patagonia-leste-europeu",
