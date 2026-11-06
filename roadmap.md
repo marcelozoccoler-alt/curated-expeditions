@@ -13,4 +13,5 @@
 - [x] Castelo lote 5 (10 fotos): 9 reenvios exatos fora, tratada 1013-WA0073 (basílica na chuva), coleção atualizada (247 itens)
 - [x] Castelo lote 6 mirante (8 fotos + 2 vídeos idênticos, 1 fora): tratadas WA0350 (trio), WA0361 (viajante loira) e mp_7050 (Marcelo), coleção atualizada (259 itens)
 - [x] Castelo lote 7 (10 fotos): 9 variações de cenas já tratadas fora, tratada mp_8274 (torre da catedral na chuva), coleção atualizada (270 itens)
+- [x] Castelo lote 8 (3 fotos): variações da torre já tratada, só originais preservados, coleção atualizada (273 itens)
 - Regras: preservar originais, descartar duplicatas/semelhantes da seleção, retoque discreto, não publicar
