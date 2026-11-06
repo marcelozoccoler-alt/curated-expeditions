@@ -10,4 +10,5 @@
 - [x] Castelo lote 2 (9 fotos + 1 print de banco excluído): tratadas WA0078, WA0095 e WA0144, coleção atualizada (222 itens)
 - [x] Castelo lote 3 (10 fotos, 1 duplicata exata fora): tratadas WA0064, WA0069, WA0020_1, WA0021_1 e 1017-WA0072 (retratos no Salão Vladislau), coleção atualizada (236 itens)
 - [x] Castelo lote 4 (10 fotos): WA0020/WA0021 duplicatas exatas fora, 7 poses repetidas das mesmas viajantes fora, tratada 1017-WA0062, coleção atualizada (245 itens)
+- [x] Castelo lote 5 (10 fotos): 9 reenvios exatos fora, tratada 1013-WA0073 (basílica na chuva), coleção atualizada (247 itens)
 - Regras: preservar originais, descartar duplicatas/semelhantes da seleção, retoque discreto, não publicar
