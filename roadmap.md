@@ -52,5 +52,6 @@
 - [x] Prova v5: abertura de Guarulhos completada com as quatro fotografias guardadas (duas adicionadas), sem cortes; 40 páginas renderizadas e conferidas, página 3 ampliada sem sobreposição ou texto cortado. Correção de retratos v4 preservada; nada publicado.
 - Regras: preservar originais, descartar duplicatas/semelhantes da seleção, retoque discreto, não publicar
 - [ ] Prova v7: capa artística das quatro cidades; enriquecer narrativa pelo livro autoral do site; explicitar brinde surpresa na Gloriette e chá surpresa do Pera; incluir páginas especiais com contexto histórico verificado do Parlamento/Basílica, Ponte Carlos e Chora; preservar fotografias e revisar páginas. Sem publicar.
+- [ ] Correção de capa pedida em 07/11 às 12:56 UTC: pintura simbólica integrada das quatro cidades, com jardim de Schönbrunn entre o palácio e a Gloriette, sem disposição geográfica invertida.
 
 - [x] Prova v6: 60 páginas, 20 novas páginas e 70 aplicações de fotos; Danúbio, primeiras noites, Parlamento/Buda, bairro judeu, Biblioteca, Schönbrunn, Glorieta, Belvedere, Praga, Gálata, Chora/Balat, bazares e Bósforo ampliados com textos poéticos. Todas as páginas renderizadas e revistas; repetições corrigidas; mínimo 291 dpi nas novas fotos. Nada publicado.
