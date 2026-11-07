@@ -52,4 +52,4 @@
 - [x] Prova v5: abertura de Guarulhos completada com as quatro fotografias guardadas (duas adicionadas), sem cortes; 40 páginas renderizadas e conferidas, página 3 ampliada sem sobreposição ou texto cortado. Correção de retratos v4 preservada; nada publicado.
 - Regras: preservar originais, descartar duplicatas/semelhantes da seleção, retoque discreto, não publicar
 
-- [ ] Revisão v6 solicitada: seguir o diário do site, ampliar para 60 páginas com Danúbio e atividades ausentes, narrativa mais suave e presença equilibrada dos 11 participantes; sem publicar.
+- [x] Prova v6: 60 páginas, 20 novas páginas e 70 aplicações de fotos; Danúbio, primeiras noites, Parlamento/Buda, bairro judeu, Biblioteca, Schönbrunn, Glorieta, Belvedere, Praga, Gálata, Chora/Balat, bazares e Bósforo ampliados com textos poéticos. Todas as páginas renderizadas e revistas; repetições corrigidas; mínimo 291 dpi nas novas fotos. Nada publicado.
