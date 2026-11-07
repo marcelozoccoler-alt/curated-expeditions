@@ -51,3 +51,5 @@
 - [x] Correção de participantes v4: páginas 36–38 refeitas com 11 retratos individuais nomeados, um por pessoa; removidas as duas repetições de Labib, incluídas Silvana e Divanir no Bastião dos Pescadores, escolhidas após conferir 164 candidatas e referências. As 40 páginas renderizadas e vistas, retratos ampliados; sem sobreposição observada. Provas anteriores preservadas, nada publicado.
 - [x] Prova v5: abertura de Guarulhos completada com as quatro fotografias guardadas (duas adicionadas), sem cortes; 40 páginas renderizadas e conferidas, página 3 ampliada sem sobreposição ou texto cortado. Correção de retratos v4 preservada; nada publicado.
 - Regras: preservar originais, descartar duplicatas/semelhantes da seleção, retoque discreto, não publicar
+
+- [ ] Revisão v6 solicitada: seguir o diário do site, ampliar para 60 páginas com Danúbio e atividades ausentes, narrativa mais suave e presença equilibrada dos 11 participantes; sem publicar.
