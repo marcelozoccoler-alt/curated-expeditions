@@ -23,4 +23,5 @@
 - [x] Centro histórico lote 2 (10 fotos): 2 tratadas (Marcelo com viajante de casaco preto; Marcelo com três viajantes na praça, retoque discreto); 8 poses solo repetidas só originais; coleção atualizada (358 itens)
 - [x] Centro histórico lote 3 (10 fotos): 5 tratadas (viajante de jaqueta marrom na praça, viajante de lenço rosa, relógio astronômico em close, coluna mariana, interior de igreja com tapete vermelho); 5 repetidas só originais; coleção atualizada (373 itens)
 - [x] Centro histórico lote 4 (5 fotos): WA0031-2 duplicata exata fora; 3 tratadas (multidão no relógio, praça com coluna mariana — faixa de protesto com palavrão removida do andaime, nave gótica com órgão); WA0030 altar semelhante só original; coleção atualizada (380 itens)
+- [x] Vistas de Praga (10 fotos, bloco 20-praga-castelo-vistas): 5 tratadas (telhados com cúpula de São Nicolau, outono nos telhados, torre de TV de Žižkov, rio com ponte ao longe, Marcelo na muralha com retoque discreto); 5 semelhantes só originais; coleção atualizada (395 itens)
 - Regras: preservar originais, descartar duplicatas/semelhantes da seleção, retoque discreto, não publicar
