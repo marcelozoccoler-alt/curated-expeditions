@@ -198,6 +198,18 @@ const Incoming = () => {
       {/* Intro */}
       {(lang === "es" || lang === "en") && (
         <section className="bg-background border-b border-border py-12">
+          <div className="container-editorial">
+            {copy.offers && (
+              <div className="max-w-2xl mb-10">
+                <h2 className="font-serif text-3xl md:text-4xl mb-3 text-foreground">
+                  {copy.offers.heading}
+                </h2>
+                <p className="text-muted-foreground text-lg">
+                  {copy.offers.subheading}
+                </p>
+              </div>
+            )}
+          </div>
           <div className="container-editorial divide-y divide-border">
             {incomingPackageOffers(lang).map(offer => (
               <article key={offer.slug} className="grid md:grid-cols-[1fr_auto] gap-6 items-center py-8 first:pt-0 last:pb-0">
@@ -227,7 +239,10 @@ const Incoming = () => {
           </h2>
           <div className="space-y-6">
             {copy.intro.paragraphs.map((p, i) => (
-              <p key={i} className="text-lg leading-relaxed text-muted-foreground">
+              <p
+                key={i}
+                className={`text-lg leading-relaxed text-muted-foreground${i === 0 ? " ai-summary" : ""}`}
+              >
                 {p}
               </p>
             ))}
