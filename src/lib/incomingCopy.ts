@@ -16,6 +16,10 @@ export interface IncomingCopy {
     heading: string;
     paragraphs: string[];
   };
+  offers?: {
+    heading: string;
+    subheading: string;
+  };
   destinations: {
     heading: string;
     subheading: string;
@@ -57,11 +61,11 @@ export interface IncomingCopy {
 export const INCOMING_COPY: Record<Exclude<ContentLang, "pt">, IncomingCopy> = {
   en: {
     meta: {
-      title: "Tailor-Made Brazil Trips with a Private Guide | Create Travel",
+      title: "Tailor-Made Brazil Tours with Private Guides | Create Travel",
       description:
-        "We design your Brazil trip day by day — Amazon, Pantanal, Lençóis, Bahia, Rio, Noronha — with boutique hotels and private guides. Send us your dates for a plan.",
+        "Boutique Brazilian agency for tailor-made trips: Amazon, Pantanal, Lençóis, Bahia, Rio and Iguazu with private guides and 24/7 support. Journeys from €2,966 per person.",
       keywords:
-        "Brazil travel agency, custom Brazil trip, Amazon tours, Pantanal safari, Lençóis Maranhenses, Brazil luxury travel, tailor-made Brazil itinerary, Rio de Janeiro tours, Iguazu Falls trip, Bahia travel, Fernando de Noronha holiday",
+        "Brazil travel agency, Brazil tours, Brazil vacation packages, custom Brazil trip, Amazon tours, Pantanal safari, Lençóis Maranhenses, Brazil luxury travel, tailor-made Brazil itinerary, Rio de Janeiro tours, Iguazu Falls trip, Bahia travel, Fernando de Noronha holiday",
     },
     hero: {
       eyebrow: "Brazil, designed for you",
@@ -77,6 +81,11 @@ export const INCOMING_COPY: Record<Exclude<ContentLang, "pt">, IncomingCopy> = {
         "We work with the small lodges nobody lists, the local guides who became friends, the cooks who open their kitchens, and the boatmen who know which bend in the river the pink dolphins love. Brazil through the people who actually live it.",
         "Every quote is hand-built around your dates, pace and obsessions. You get one travel designer, one WhatsApp number, one trip that belongs only to you.",
       ],
+    },
+    offers: {
+      heading: "Featured journeys, with dates and prices published",
+      subheading:
+        "Three curated itineraries ready to request — each one can be tailored, extended or combined with other regions and biomes of Brazil.",
     },
     destinations: {
       heading: "The Brazil we love to design",
@@ -177,6 +186,11 @@ export const INCOMING_COPY: Record<Exclude<ContentLang, "pt">, IncomingCopy> = {
         "Trabajamos con los pequeños lodges que nadie lista, los guías locales que se volvieron amigos, las cocineras que abren sus casas y los barqueros que saben en qué recodo del río están los delfines rosados. Brasil a través de quienes lo viven de verdad.",
         "Cada presupuesto se construye a mano según tus fechas, tu ritmo y tus obsesiones. Tendrás un diseñador de viajes, un WhatsApp, un viaje que pertenece solo a ti.",
       ],
+    },
+    offers: {
+      heading: "Viajes destacados, con fechas y precios publicados",
+      subheading:
+        "Tres itinerarios curados listos para solicitar — cada uno puede adaptarse, extenderse o combinarse con otras regiones y biomas de Brasil.",
     },
     destinations: {
       heading: "El Brasil que amamos diseñar",

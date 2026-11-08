@@ -224,11 +224,11 @@ const GrupoCoreiaJapaoCerejeiras2027 = () => {
       <section className="section-padding">
         <div className="container-editorial grid md:grid-cols-2 gap-8">
           <div className="bg-card rounded-xl p-8 border border-border shadow-card">
-            <h3 className="font-serif text-2xl font-semibold mb-6 text-foreground">O que está incluído</h3>
+            <h2 className="font-serif text-2xl font-semibold mb-6 text-foreground">O que está incluído</h2>
             <ul className="space-y-3">{included.map((item, i) => (<li key={i} className="flex gap-3 text-sm"><Check className="text-emerald flex-shrink-0 mt-0.5" size={18} /><span className="text-foreground/85">{item}</span></li>))}</ul>
           </div>
           <div className="bg-card rounded-xl p-8 border border-border shadow-card">
-            <h3 className="font-serif text-2xl font-semibold mb-6 text-foreground">Não incluído</h3>
+            <h2 className="font-serif text-2xl font-semibold mb-6 text-foreground">Não incluído</h2>
             <ul className="space-y-3">{notIncluded.map((item, i) => (<li key={i} className="flex gap-3 text-sm"><X className="text-muted-foreground flex-shrink-0 mt-0.5" size={18} /><span className="text-muted-foreground">{item}</span></li>))}</ul>
           </div>
         </div>
