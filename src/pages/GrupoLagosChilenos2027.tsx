@@ -467,9 +467,9 @@ const GrupoLagosChilenos2027 = () => {
       <section className="section-padding">
         <div className="container-editorial grid md:grid-cols-2 gap-8">
           <div className="bg-card rounded-xl p-8 border border-border shadow-card">
-            <h3 className="font-serif text-2xl font-semibold mb-6 text-foreground">
+            <h2 className="font-serif text-2xl font-semibold mb-6 text-foreground">
               O que está incluído
-            </h3>
+            </h2>
             <ul className="space-y-3">
               {included.map((item, i) => (
                 <li key={i} className="flex gap-3 text-sm">
@@ -483,9 +483,9 @@ const GrupoLagosChilenos2027 = () => {
             </ul>
           </div>
           <div className="bg-card rounded-xl p-8 border border-border shadow-card">
-            <h3 className="font-serif text-2xl font-semibold mb-6 text-foreground">
+            <h2 className="font-serif text-2xl font-semibold mb-6 text-foreground">
               Não incluído
-            </h3>
+            </h2>
             <ul className="space-y-3">
               {notIncluded.map((item, i) => (
                 <li key={i} className="flex gap-3 text-sm">
