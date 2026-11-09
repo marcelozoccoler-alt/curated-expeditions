@@ -89,6 +89,16 @@ export const PARATY_IGUAZU_PANTANAL_RIO: BrazilPackageDef = {
         { q: "¿Abril es buena época?", a: "Abril marca el final de las lluvias de verano: las Cataratas suelen tener caudal abundante, el Pantanal aún conserva muchas áreas con agua y Paraty y Río tienen días cálidos con menos movimiento que en verano. El clima varía cada año y las actividades se adaptan a él." },
         { q: "¿Puedo cambiar hoteles o sumar destinos?", a: "Sí. Podemos elegir alojamientos con más encanto o lujo, añadir noches o combinar otros escenarios como la Amazonía, Bonito o los Lençóis Maranhenses. Cada cambio se cotiza según tus elecciones y la disponibilidad." },
       ],
+      practical: {
+        title: "Información práctica para preparar el viaje",
+        items: [
+          "En Paraty, el centro histórico tiene calles de piedra irregular: lleva calzado cómodo. Para el paseo en barco, ropa de baño y protección solar.",
+          "En las Cataratas, la ropa puede mojarse en las pasarelas: un impermeable ligero y protección para el móvil y la cámara son buena idea.",
+          "En el Pantanal: pantalones ligeros, sombrero, repelente, prismáticos y una sudadera para las salidas nocturnas.",
+          "Abril trae días cálidos y noches más frescas, sobre todo en el sur: una chaqueta ligera es bienvenida.",
+          "Dinero: las tarjetas se aceptan en casi todo el recorrido; para los pueblos pequeños, lleva algo de efectivo en reales, pues no siempre hay casas de cambio.",
+        ],
+      },
       finalTitle: "Reserva tu viaje por Paraty, Iguazú, Pantanal y Río en abril de 2027.",
       finalText: "Combina tu viaje con otros escenarios de Brasil: la Amazonía, Bonito, los Lençóis Maranhenses y mucho más. Elige alojamientos con más encanto o lujo y adapta el itinerario a tu manera de viajar. La flexibilidad es total: diseñamos cada detalle según tus preferencias y el nivel de inversión que deseas dedicar a tu viaje. Cuéntanos qué imaginas y te enviamos una propuesta personalizada en español.",
       whatsapp: "¡Hola, Create Travel! Me interesa el viaje Brasil en cuatro escenarios: Paraty, Iguazú, Pantanal y Río, del 5 al 18 de abril de 2027, desde 2.966 € por persona para dos viajeros. Quisiera recibir una propuesta en español.",
@@ -160,6 +170,16 @@ export const PARATY_IGUAZU_PANTANAL_RIO: BrazilPackageDef = {
         { q: "Is April a good time to travel?", a: "April marks the end of the summer rains: the Falls usually carry plenty of water, much of the Pantanal is still wet and green, and Paraty and Rio have warm days with fewer crowds than in high summer. Weather varies year to year and activities adapt to it." },
         { q: "Can I upgrade hotels or add destinations?", a: "Yes. We can choose stays with more charm or luxury, add nights or combine other landscapes such as the Amazon, Bonito or Lençóis Maranhenses. Every change is quoted according to your choices and availability." },
       ],
+      practical: {
+        title: "Practical information to prepare your trip",
+        items: [
+          "In Paraty, the historic centre has uneven stone streets: bring comfortable shoes. For the boat trip, swimwear and sun protection.",
+          "At the Falls, clothing can get wet on the walkways: a light raincoat and protection for your phone and camera are a good idea.",
+          "In the Pantanal: lightweight trousers, a hat, insect repellent, binoculars and a fleece for night outings.",
+          "April brings warm days and cooler nights, especially in the south: a light jacket is welcome.",
+          "Money: cards are accepted almost everywhere along the route; for small towns, carry some cash in reais, as exchange offices are not always available.",
+        ],
+      },
       finalTitle: "Secure your Paraty, Iguazu, Pantanal and Rio journey for April 2027.",
       finalText: "Combine your journey with Brazil's other remarkable landscapes: the Amazon, Bonito, Lençóis Maranhenses and beyond. Choose stays with more charm or luxury and shape the itinerary around your way of travelling. Flexibility is complete: we tailor every detail to your preferences and the level of investment you wish to make. Tell us what you have in mind and we will send a personalised proposal in English.",
       whatsapp: "Hello Create Travel! I'm interested in the Brazil in four landscapes journey — Paraty, Iguazu, the Pantanal and Rio — from 5 to 18 April 2027, from €2,966 per person for two travellers. Please send me a proposal in English.",
