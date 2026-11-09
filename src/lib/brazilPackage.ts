@@ -93,6 +93,16 @@ export const PACKAGE_COPY: Record<PackageLang, Copy> = {
       { q: "¿Agosto es una buena época para Lençóis y el Pantanal?", a: "La estación seca del Pantanal suele favorecer la observación de fauna. En Lençóis, el agua de las lagunas depende de las lluvias del año y del circuito. Las actividades se ajustan a las condiciones locales." },
       { q: "¿Puedo combinar otros destinos o biomas?", a: "Sí. Podemos estudiar una extensión a la Amazonía, Bonito, Foz de Iguazú u otros paisajes brasileños. Toda extensión se cotiza por separado; no está incluida en este precio base." },
     ],
+    practical: {
+      title: "Información práctica para preparar el viaje",
+      items: [
+        "Equipaje: los vuelos internos incluyen maleta facturada. Para las excursiones, una mochila pequeña de día es suficiente.",
+        "En el Pantanal: pantalones ligeros, calzado cómodo, sombrero, protector solar, repelente y prismáticos. Para las salidas nocturnas, una sudadera: la temperatura puede bajar después del atardecer.",
+        "En los Lençóis se camina descalzo sobre la arena: las chanclas de goma son el calzado ideal, con el traje de baño siempre a mano.",
+        "Dinero: en los pueblos pequeños del recorrido no hay casas de cambio. Recomendamos cambiar moneda en las ciudades principales; las tarjetas suelen aceptarse, incluso para importes pequeños.",
+        "Documentos: pasaporte vigente y, según tu nacionalidad, visa electrónica. Confirmamos los requisitos actuales al preparar tu propuesta.",
+      ],
+    },
     finalTitle: "Reserva tu viaje al Pantanal, Lençóis y Río para agosto de 2027.",
     finalText: "Combina tu viaje con otros escenarios de Brasil: la Amazonía, las Cataratas del Iguazú, Bonito y mucho más. Elige alojamientos con más encanto o lujo y adapta el itinerario a tu manera de viajar. La flexibilidad es total: diseñamos cada detalle según tus preferencias y el nivel de inversión que deseas dedicar a tu viaje. Cuéntanos qué imaginas y te enviamos una propuesta personalizada en español; las extensiones y los cambios de alojamiento se cotizan según tus elecciones, sujetos a disponibilidad.",
     whatsapp: "¡Hola, Create Travel! Me interesa el viaje Río, Pantanal y Lençóis Maranhenses del 7 al 18 de agosto de 2027, con precio base de 3.985 € por persona para dos viajeros. Quisiera recibir una propuesta en español con disponibilidad y condiciones.",
@@ -152,6 +162,16 @@ export const PACKAGE_COPY: Record<PackageLang, Copy> = {
       { q: "Is August a good time for Lençóis and the Pantanal?", a: "The Pantanal's dry season often favours wildlife observation. Lagoon levels in Lençóis depend on that year's rains and the circuit visited. Activities follow local conditions." },
       { q: "Can I combine other Brazilian destinations or biomes?", a: "Yes. We can explore extensions to the Amazon, Bonito, Iguazu Falls or other Brazilian landscapes. Extensions are quoted separately and are not included in this base price." },
     ],
+    practical: {
+      title: "Practical information to prepare your trip",
+      items: [
+        "Luggage: domestic flights include a checked bag. For excursions, a small daypack is all you need.",
+        "In the Pantanal: lightweight trousers, comfortable shoes, a hat, sunscreen, insect repellent and binoculars. For night outings, bring a fleece: temperatures can drop after sunset.",
+        "In Lençóis you walk barefoot on the sand: rubber flip-flops are the ideal footwear, with swimwear always at hand.",
+        "Money: the small towns along the route have no exchange offices. We recommend changing currency in the larger cities; cards are widely accepted, even for small amounts.",
+        "Documents: a valid passport and, depending on your nationality, an electronic visa. We confirm the current requirements when preparing your proposal.",
+      ],
+    },
     finalTitle: "Secure your Pantanal, Lençóis and Rio journey for August 2027.",
     finalText: "Combine your journey with Brazil's other remarkable landscapes: the Amazon, Iguazu Falls, Bonito and beyond. Choose stays with more charm or luxury and shape the itinerary around your way of travelling. Flexibility is complete: we tailor every detail to your preferences and the level of investment you wish to make in your journey. Tell us what you have in mind and we will send a personalised proposal in English; extensions and accommodation changes are quoted according to your choices, subject to availability.",
     whatsapp: "Hello Create Travel! I'm interested in Rio, Pantanal and Lençóis Maranhenses from 7 to 18 August 2027, with a base price of €3,985 per person for two travellers. Please send me a proposal in English with availability and booking conditions.",
