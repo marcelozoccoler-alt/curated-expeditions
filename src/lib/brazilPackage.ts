@@ -255,10 +255,8 @@ export type PackageStory = {
 };
 /** The verified Mexican couple's Pantanal story, in the page language.
  *  Editorial account with authorised names and photos — no star ratings and
- *  no Review markup (Google penalises unverified review markup). Shown only
- *  on packages that include the Pantanal, where the story is relevant. */
-export const packageStory = (pkg: BrazilPackageDef, lang: PackageLang): PackageStory | undefined => {
-  if (!pkg.guides.some(g => g.slug === "pantanal")) return undefined;
+ *  no Review markup (Google penalises unverified review markup). */
+export const incomingStory = (lang: PackageLang): PackageStory | undefined => {
   const t = testimonials.find(item => item.slug === "patricia-camarena-alejandro-barrera-pantanal" && item.verified);
   const tr = t?.translations?.[lang];
   if (!t || !tr) return undefined;
@@ -280,3 +278,6 @@ export const packageStory = (pkg: BrazilPackageDef, lang: PackageLang): PackageS
       : "Editorial account authorised by the travellers. Every journey is unique: wildlife sightings are never guaranteed.",
   };
 };
+/** The traveller story on package pages — only where the Pantanal makes it relevant. */
+export const packageStory = (pkg: BrazilPackageDef, lang: PackageLang): PackageStory | undefined =>
+  pkg.guides.some(g => g.slug === "pantanal") ? incomingStory(lang) : undefined;
