@@ -93,6 +93,16 @@ export const PACKAGE_COPY: Record<PackageLang, Copy> = {
       { q: "¿Agosto es una buena época para Lençóis y el Pantanal?", a: "La estación seca del Pantanal suele favorecer la observación de fauna. En Lençóis, el agua de las lagunas depende de las lluvias del año y del circuito. Las actividades se ajustan a las condiciones locales." },
       { q: "¿Puedo combinar otros destinos o biomas?", a: "Sí. Podemos estudiar una extensión a la Amazonía, Bonito, Foz de Iguazú u otros paisajes brasileños. Toda extensión se cotiza por separado; no está incluida en este precio base." },
     ],
+    practical: {
+      title: "Información práctica para preparar el viaje",
+      items: [
+        "Equipaje: los vuelos internos incluyen maleta facturada. Para las excursiones, una mochila pequeña de día es suficiente.",
+        "En el Pantanal: pantalones ligeros, calzado cómodo, sombrero, protector solar, repelente y prismáticos. Para las salidas nocturnas, una sudadera: la temperatura puede bajar después del atardecer.",
+        "En los Lençóis se camina descalzo sobre la arena: las chanclas de goma son el calzado ideal, con el traje de baño siempre a mano.",
+        "Dinero: en los pueblos pequeños del recorrido no hay casas de cambio. Recomendamos cambiar moneda en las ciudades principales; las tarjetas suelen aceptarse, incluso para importes pequeños.",
+        "Documentos: pasaporte vigente y, según tu nacionalidad, visa electrónica. Confirmamos los requisitos actuales al preparar tu propuesta.",
+      ],
+    },
     finalTitle: "Reserva tu viaje al Pantanal, Lençóis y Río para agosto de 2027.",
     finalText: "Combina tu viaje con otros escenarios de Brasil: la Amazonía, las Cataratas del Iguazú, Bonito y mucho más. Elige alojamientos con más encanto o lujo y adapta el itinerario a tu manera de viajar. La flexibilidad es total: diseñamos cada detalle según tus preferencias y el nivel de inversión que deseas dedicar a tu viaje. Cuéntanos qué imaginas y te enviamos una propuesta personalizada en español; las extensiones y los cambios de alojamiento se cotizan según tus elecciones, sujetos a disponibilidad.",
     whatsapp: "¡Hola, Create Travel! Me interesa el viaje Río, Pantanal y Lençóis Maranhenses del 7 al 18 de agosto de 2027, con precio base de 3.985 € por persona para dos viajeros. Quisiera recibir una propuesta en español con disponibilidad y condiciones.",
@@ -100,7 +110,7 @@ export const PACKAGE_COPY: Record<PackageLang, Copy> = {
   },
   en: {
     title: "Pantanal, Lençóis & Rio | August 2027 · Create Travel",
-    description: "Pantanal wildlife safari, Lençóis Maranhenses lagoons and Rio. 12 days, 7–18 August 2027. From €3,985 per person. Request your written travel proposal.",
+    description: "Pantanal wildlife in Aquidauana, Lençóis Maranhenses lagoons and Rio. 12 days, 7–18 August 2027. From €3,985 per person. Request your written travel proposal.",
     eyebrow: "BRAZIL IN THREE LANDSCAPES · AUGUST 2027",
     h1: "Rio, Pantanal & Lençóis Maranhenses",
     subtitle: "The wildlife of the Pantanal. Lagoons between dunes. Rio by the sea. A journey to feel Brazil, at an unhurried pace.",
@@ -152,6 +162,16 @@ export const PACKAGE_COPY: Record<PackageLang, Copy> = {
       { q: "Is August a good time for Lençóis and the Pantanal?", a: "The Pantanal's dry season often favours wildlife observation. Lagoon levels in Lençóis depend on that year's rains and the circuit visited. Activities follow local conditions." },
       { q: "Can I combine other Brazilian destinations or biomes?", a: "Yes. We can explore extensions to the Amazon, Bonito, Iguazu Falls or other Brazilian landscapes. Extensions are quoted separately and are not included in this base price." },
     ],
+    practical: {
+      title: "Practical information to prepare your trip",
+      items: [
+        "Luggage: domestic flights include a checked bag. For excursions, a small daypack is all you need.",
+        "In the Pantanal: lightweight trousers, comfortable shoes, a hat, sunscreen, insect repellent and binoculars. For night outings, bring a fleece: temperatures can drop after sunset.",
+        "In Lençóis you walk barefoot on the sand: rubber flip-flops are the ideal footwear, with swimwear always at hand.",
+        "Money: the small towns along the route have no exchange offices. We recommend changing currency in the larger cities; cards are widely accepted, even for small amounts.",
+        "Documents: a valid passport and, depending on your nationality, an electronic visa. We confirm the current requirements when preparing your proposal.",
+      ],
+    },
     finalTitle: "Secure your Pantanal, Lençóis and Rio journey for August 2027.",
     finalText: "Combine your journey with Brazil's other remarkable landscapes: the Amazon, Iguazu Falls, Bonito and beyond. Choose stays with more charm or luxury and shape the itinerary around your way of travelling. Flexibility is complete: we tailor every detail to your preferences and the level of investment you wish to make in your journey. Tell us what you have in mind and we will send a personalised proposal in English; extensions and accommodation changes are quoted according to your choices, subject to availability.",
     whatsapp: "Hello Create Travel! I'm interested in Rio, Pantanal and Lençóis Maranhenses from 7 to 18 August 2027, with a base price of €3,985 per person for two travellers. Please send me a proposal in English with availability and booking conditions.",
@@ -203,3 +223,61 @@ export const guidePackages = (lang: string, slug: string) => {
     path: pkgPath(p, lang), eyebrow: p.copy[lang].eyebrow, title: p.copy[lang].h1, text: p.copy[lang].guideTeaser, button: p.copy[lang].guideButton,
   }));
 };
+
+// ---- Shared pre-booking answers (competitor benchmark: Brasil Planet, Altair) ----
+/** Entry requirements, insurance, group size and tour format — the doubts
+ *  every international buyer has before requesting a quote. Appended to each
+ *  package's own FAQs by the page and the prerender, never edited per package. */
+export const COMMON_PACKAGE_FAQ: Record<PackageLang, { q: string; a: string }[]> = {
+  es: [
+    { q: "¿Necesito visa para viajar a Brasil?", a: "Depende de tu pasaporte. Ciudadanos de Estados Unidos, Canadá y Australia necesitan actualmente una visa electrónica (e-Visa) antes de embarcar; muchos pasaportes europeos y latinoamericanos están exentos para turismo. Confirmamos los requisitos vigentes para tu nacionalidad al preparar tu propuesta y te orientamos paso a paso." },
+    { q: "¿El seguro de viaje está incluido?", a: "No está incluido. Recomendamos contratar en tu país de residencia un seguro de viaje con cobertura médica y de cancelación, como protección de tu inversión. Podemos indicar opciones, pero la póliza la contrata directamente el viajero." },
+    { q: "Viajamos más de dos personas. ¿El precio cambia?", a: "El precio base publicado está calculado para dos viajeros. Familias y grupos de amigos son bienvenidos: cuéntanos cuántas personas viajan y qué habitaciones prefieren, y enviamos una propuesta actualizada para tu grupo." },
+    { q: "¿Es un tour en grupo con fechas fijas?", a: "Este viaje tiene fechas publicadas y servicios compartidos donde se indica, pero no es un grupo clásico de autocar. Si prefieres otras fechas o un formato totalmente privado, diseñamos la misma ruta a medida con presupuesto propio." },
+  ],
+  en: [
+    { q: "Do I need a visa to travel to Brazil?", a: "It depends on your passport. Citizens of the United States, Canada and Australia currently need an electronic visa (e-Visa) before boarding; many European and Latin American passports are visa-exempt for tourism. We confirm the current requirements for your nationality when preparing your proposal and guide you step by step." },
+    { q: "Is travel insurance included?", a: "It is not included. We recommend purchasing travel insurance with medical and cancellation coverage from a provider in your country of residence, to protect your investment. We can suggest options, but the policy is contracted directly by the traveller." },
+    { q: "We are more than two travellers. Does the price change?", a: "The published base price is calculated for two travellers. Families and groups of friends are welcome: tell us how many people are travelling and your room preferences, and we will send an updated proposal for your group." },
+    { q: "Is this a fixed-date group tour?", a: "This journey has published dates and shared services where indicated, but it is not a classic coach group. If you prefer other dates or a fully private arrangement, we design the same route tailor-made with its own quote." },
+  ],
+};
+/** Package FAQs = the package's own answers + the shared pre-booking answers. */
+export const packageFaq = (pkg: BrazilPackageDef, lang: PackageLang) => [...pkg.copy[lang].faq, ...COMMON_PACKAGE_FAQ[lang]];
+
+// ---- Real traveller story (shared testimonials registry; authorised couple) ----
+import { testimonials } from "./testimonials";
+
+export type PackageStory = {
+  title: string; quote: string; author: string; meta: string;
+  photo: string; photoAlt: string; linkPath: string;
+  heading: string; subheading: string; linkLabel: string; guaranteeNote: string;
+};
+/** The verified Mexican couple's Pantanal story, in the page language.
+ *  Editorial account with authorised names and photos — no star ratings and
+ *  no Review markup (Google penalises unverified review markup). */
+export const incomingStory = (lang: PackageLang): PackageStory | undefined => {
+  const t = testimonials.find(item => item.slug === "patricia-camarena-alejandro-barrera-pantanal" && item.verified);
+  const tr = t?.translations?.[lang];
+  if (!t || !tr) return undefined;
+  return {
+    title: tr.title,
+    quote: tr.quote,
+    author: t.author,
+    meta: lang === "es" ? "México → Pantanal Sul · agosto de 2026" : "Mexico → Pantanal Sul · August 2026",
+    photo: t.photos[0]?.src ?? "",
+    photoAlt: t.photos[0]?.alt ?? t.author,
+    linkPath: "/depoimentos",
+    heading: lang === "es" ? "Quienes ya viajaron con nosotros" : "Travellers who already came with us",
+    subheading: lang === "es"
+      ? "Historias reales, con nombre y rostro, de viajeros que confiaron en Create Travel."
+      : "Real stories, with names and faces, from travellers who trusted Create Travel.",
+    linkLabel: lang === "es" ? "Leer el relato completo (página en portugués)" : "Read the full story (page in Portuguese)",
+    guaranteeNote: lang === "es"
+      ? "Relato editorial autorizado por los viajeros. Cada viaje es único: los avistamientos de fauna nunca están garantizados."
+      : "Editorial account authorised by the travellers. Every journey is unique: wildlife sightings are never guaranteed.",
+  };
+};
+/** The traveller story on package pages — only where the Pantanal makes it relevant. */
+export const packageStory = (pkg: BrazilPackageDef, lang: PackageLang): PackageStory | undefined =>
+  pkg.guides.some(g => g.slug === "pantanal") ? incomingStory(lang) : undefined;

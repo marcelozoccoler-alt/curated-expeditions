@@ -98,6 +98,16 @@ export const AMAZON_GRAND_TOUR: BrazilPackageDef = {
         { q: "¿Es buena época?", a: "Fin de julio y agosto suelen ser más secos en Iguazú, Río y el Pantanal, y muchas lagunas de Lençóis aún tienen agua. Todo depende de las lluvias de cada año; adaptamos las visitas a las condiciones locales." },
         { q: "¿Puedo cambiar hoteles o el ritmo del viaje?", a: "Sí. Podemos elegir alojamientos con más encanto o lujo, servicios privados, más noches o nuevos destinos como Bonito o la Chapada Diamantina. Cada cambio se cotiza según tus elecciones y la disponibilidad." },
       ],
+      practical: {
+        title: "Información práctica para preparar el viaje",
+        items: [
+          "En la Amazonía: ropa ligera de manga larga, repelente, sombrero, impermeable y prismáticos; las salidas son en barco y caminatas cortas por la selva.",
+          "En los Lençóis se camina descalzo sobre la arena: chanclas de goma y traje de baño siempre a mano.",
+          "En Salvador y Río: ropa de verano y calzado cómodo para caminar por los cascos históricos y los miradores.",
+          "En las Cataratas, la ropa puede mojarse en las pasarelas: lleva un impermeable ligero y protección para la cámara.",
+          "Dinero: cambia moneda en las ciudades principales, pues los pueblos pequeños no tienen casas de cambio; las tarjetas suelen aceptarse en todo el recorrido.",
+        ],
+      },
       finalTitle: "Reserva tu gran viaje por Brasil para julio y agosto de 2027.",
       finalText: "Combina tu viaje con otros escenarios de Brasil: el Pantanal, Bonito, la Chapada Diamantina y mucho más. Elige alojamientos con más encanto o lujo y adapta el itinerario a tu manera de viajar. La flexibilidad es total: diseñamos cada detalle según tus preferencias y el nivel de inversión que deseas dedicar a tu viaje. Cuéntanos qué imaginas y te enviamos una propuesta personalizada en español.",
       whatsapp: "¡Hola, Create Travel! Me interesa el viaje Amazonía, Lençóis Maranhenses, Salvador, Iguazú y Río del 27 de julio al 12 de agosto de 2027, desde 4.128 € por persona para dos viajeros. Quisiera recibir una propuesta en español (y saber más de la opción con Pantanal).",
@@ -183,6 +193,16 @@ export const AMAZON_GRAND_TOUR: BrazilPackageDef = {
         { q: "Is this a good time to travel?", a: "Late July and August tend to be drier in Iguazu, Rio and the Pantanal, while many Lençóis lagoons still hold water. It depends on each year's rainfall, and we adapt visits to local conditions." },
         { q: "Can I upgrade hotels or change the pace?", a: "Yes. We can choose more charming or luxury stays, private services, extra nights or new destinations such as Bonito or Chapada Diamantina. Each change is quoted according to your choices and availability." },
       ],
+      practical: {
+        title: "Practical information to prepare your trip",
+        items: [
+          "In the Amazon: lightweight long-sleeved clothing, insect repellent, a hat, a raincoat and binoculars; outings are by boat and short forest walks.",
+          "In Lençóis you walk barefoot on the sand: rubber flip-flops and swimwear always at hand.",
+          "In Salvador and Rio: summer clothing and comfortable shoes for walking the historic centres and viewpoints.",
+          "At the Falls, clothing can get wet on the walkways: bring a light raincoat and protection for your camera.",
+          "Money: change currency in the larger cities, as small towns have no exchange offices; cards are widely accepted along the route.",
+        ],
+      },
       finalTitle: "Secure your grand Brazil journey for July & August 2027.",
       finalText: "Combine your journey with Brazil's other remarkable landscapes: the Pantanal, Bonito, Chapada Diamantina and beyond. Choose stays with more charm or luxury and shape the itinerary around your way of travelling. Flexibility is complete: we tailor every detail to your preferences and the level of investment you wish to make. Tell us what you have in mind and we will send a personalised proposal in English.",
       whatsapp: "Hello Create Travel! I'm interested in the Amazon, Lençóis Maranhenses, Salvador, Iguazu and Rio journey from 27 July to 12 August 2027, from €4,128 per person for two travellers. Please send me a proposal in English (and details of the Pantanal option).",

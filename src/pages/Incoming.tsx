@@ -1,10 +1,11 @@
 import { useParams, Navigate, Link } from "react-router-dom";
 import { Helmet } from "react-helmet-async";
 import { motion } from "framer-motion";
-import { MessageCircle, ArrowLeft, MapPin } from "lucide-react";
+import { MessageCircle, ArrowLeft, ArrowRight, MapPin } from "lucide-react";
 import { Header } from "@/components/Header";
 import { Button } from "@/components/ui/button";
 import { incomingPackageOffers } from "@/lib/incomingPackages";
+import { incomingStory } from "@/lib/brazilPackage";
 import { Footer } from "@/components/Footer";
 import { HreflangTags } from "@/components/HreflangTags";
 import { SUPPORTED_LANGS, toContentLang, type ContentLang } from "@/i18n/config";
@@ -431,6 +432,62 @@ const Incoming = () => {
           </ul>
         </div>
       </section>
+
+      {/* Real traveller story — authorised editorial account (ES/EN only) */}
+      {(() => {
+        if (lang !== "es" && lang !== "en") return null;
+        const story = incomingStory(lang);
+        if (!story) return null;
+        return (
+          <section className="py-20 lg:py-28 bg-muted/20">
+            <div className="container-editorial">
+              <div className="max-w-2xl mb-12">
+                <h2 className="font-serif text-3xl md:text-4xl mb-4 text-foreground">
+                  {story.heading}
+                </h2>
+                <p className="text-muted-foreground text-lg">
+                  {story.subheading}
+                </p>
+              </div>
+              <figure className="grid md:grid-cols-[1fr_1.4fr] gap-8 md:gap-12 items-start max-w-5xl">
+                {story.photo && (
+                  <img
+                    src={story.photo}
+                    alt={story.photoAlt}
+                    loading="lazy"
+                    className="w-full aspect-[4/3] object-cover rounded-lg"
+                  />
+                )}
+                <blockquote>
+                  <h3 className="font-serif text-2xl mb-4 text-foreground">
+                    {story.title}
+                  </h3>
+                  {story.quote.split("\n\n").map((par) => (
+                    <p
+                      key={par.slice(0, 24)}
+                      className="text-muted-foreground leading-relaxed mb-4"
+                    >
+                      {par}
+                    </p>
+                  ))}
+                  <figcaption className="text-sm text-foreground font-medium">
+                    {story.author} · {story.meta}
+                  </figcaption>
+                  <p className="text-xs text-muted-foreground mt-3 leading-relaxed">
+                    {story.guaranteeNote}
+                  </p>
+                  <Button asChild variant="link" className="px-0 mt-2">
+                    <Link to={story.linkPath}>
+                      {story.linkLabel}
+                      <ArrowRight size={16} />
+                    </Link>
+                  </Button>
+                </blockquote>
+              </figure>
+            </div>
+          </section>
+        );
+      })()}
 
       {/* Expertise — full Brazil coverage */}
       <section className="py-20 lg:py-28 bg-muted/30">

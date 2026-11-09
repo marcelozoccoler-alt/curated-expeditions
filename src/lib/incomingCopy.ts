@@ -160,6 +160,14 @@ export const INCOMING_COPY: Record<Exclude<ContentLang, "pt">, IncomingCopy> = {
           q: "Is it safe to travel in Brazil?",
           a: "With local knowledge, yes. We choose the safest neighborhoods, vetted drivers and trusted guides, and brief you on common-sense practices. Our 24/7 in-country support is always one message away.",
         },
+        {
+          q: "Do I need a visa to visit Brazil?",
+          a: "Entry requirements depend on your passport. Citizens of the United States, Canada and Australia currently need an electronic visa (e-Visa) before boarding; many European and Latin American passports are visa-exempt for tourism. We confirm the rules for your nationality and guide you through the process when we design your trip.",
+        },
+        {
+          q: "Do I need travel insurance for Brazil?",
+          a: "Insurance is not included in our proposals, and we strongly recommend it: choose a policy with medical and cancellation coverage from a provider in your country of residence. It protects your investment if plans change.",
+        },
       ],
     },
     back: "Back to homepage",
@@ -265,6 +273,14 @@ export const INCOMING_COPY: Record<Exclude<ContentLang, "pt">, IncomingCopy> = {
           q: "¿Es seguro viajar por Brasil?",
           a: "Con conocimiento local, sí. Elegimos los barrios más seguros, conductores y guías de confianza, y te orientamos con buenas prácticas. Nuestro soporte 24/7 en destino siempre está a un mensaje de distancia.",
         },
+        {
+          q: "¿Necesito visa para viajar a Brasil?",
+          a: "Los requisitos dependen de tu pasaporte. Ciudadanos de Estados Unidos, Canadá y Australia necesitan actualmente una visa electrónica (e-Visa) antes de embarcar; muchos pasaportes europeos y latinoamericanos están exentos para turismo. Confirmamos las reglas para tu nacionalidad y te acompañamos en el proceso al diseñar tu viaje.",
+        },
+        {
+          q: "¿Necesito un seguro de viaje para Brasil?",
+          a: "El seguro no está incluido en nuestras propuestas y lo recomendamos encarecidamente: elige una póliza con cobertura médica y de cancelación de un proveedor de tu país de residencia. Protege tu inversión si los planes cambian.",
+        },
       ],
     },
     back: "Volver al inicio",
@@ -365,6 +381,14 @@ export const INCOMING_COPY: Record<Exclude<ContentLang, "pt">, IncomingCopy> = {
           q: "È sicuro viaggiare in Brasile?",
           a: "Con conoscenza locale, sì. Scegliamo i quartieri più sicuri, autisti e guide di fiducia e ti diamo indicazioni di buon senso. Il nostro supporto 24/7 sul posto è sempre a un messaggio di distanza.",
         },
+        {
+          q: "Ho bisogno di un visto per il Brasile?",
+          a: "I requisiti dipendono dal tuo passaporto. I cittadini di Stati Uniti, Canada e Australia necessitano attualmente di un visto elettronico (e-Visa) prima della partenza; molti passaporti europei e latinoamericani sono esenti per turismo. Confermiamo le regole per la tua nazionalità e ti accompagniamo nel processo quando disegniamo il viaggio.",
+        },
+        {
+          q: "Serve un'assicurazione di viaggio per il Brasile?",
+          a: "L'assicurazione non è inclusa nelle nostre proposte e la consigliamo vivamente: scegli una polizza con copertura medica e annullamento presso un fornitore del tuo paese di residenza. Protegge il tuo investimento se i piani cambiano.",
+        },
       ],
     },
     back: "Torna alla home",
@@ -464,6 +488,14 @@ export const INCOMING_COPY: Record<Exclude<ContentLang, "pt">, IncomingCopy> = {
         {
           q: "Ist Brasilien sicher zu bereisen?",
           a: "Mit lokalem Wissen — ja. Wir wählen die sichersten Viertel, geprüfte Fahrer und vertrauenswürdige Guides und geben dir vernünftige Verhaltensregeln. Unser 24/7-Support vor Ort ist immer nur eine Nachricht entfernt.",
+        },
+        {
+          q: "Brauche ich ein Visum für Brasilien?",
+          a: "Die Einreisebestimmungen hängen von deinem Reisepass ab. Bürger der USA, Kanadas und Australiens benötigen derzeit vor der Abreise ein elektronisches Visum (e-Visum); viele europäische und lateinamerikanische Pässe sind für Tourismus befreit. Wir bestätigen die Regeln für deine Nationalität und begleiten dich durch den Prozess, wenn wir deine Reise gestalten.",
+        },
+        {
+          q: "Brauche ich eine Reiseversicherung für Brasilien?",
+          a: "Eine Versicherung ist in unseren Angeboten nicht enthalten, und wir empfehlen sie dringend: Wähle eine Police mit Kranken- und Stornoschutz bei einem Anbieter in deinem Wohnsitzland. Sie schützt deine Investition, wenn sich Pläne ändern.",
         },
       ],
     },

@@ -72,6 +72,22 @@ const build = (c: PackageCopy, lang: "es" | "en"): PackageCopy => {
         : { q: "Is this a jaguar safari?", a: "No. The Pantanal on this route is Aquidauana, at Pousada Aguapé, with nature, photographic safari and ranch life. It does not include Porto Jofre's specialist jaguar search, which we can quote separately. No sightings are guaranteed." },
       ...c.faq.slice(4),
     ],
+    practical: {
+      title: isEs ? "Información práctica para preparar el viaje" : "Practical information to prepare your trip",
+      items: isEs ? [
+        "En la Amazonía: ropa ligera de manga larga, repelente, sombrero, impermeable y prismáticos; las salidas son en barco y caminatas cortas por la selva.",
+        "En el Pantanal: pantalones ligeros, calzado cómodo, repelente y una sudadera para las salidas nocturnas; los prismáticos hacen la diferencia.",
+        "En los Lençóis se camina descalzo sobre la arena: chanclas de goma y traje de baño siempre a mano.",
+        "En las Cataratas, la ropa puede mojarse: impermeable ligero y protección para el móvil y la cámara.",
+        "Dinero: cambia moneda en las ciudades principales, pues los pueblos pequeños no tienen casas de cambio; las tarjetas suelen aceptarse en todo el recorrido.",
+      ] : [
+        "In the Amazon: lightweight long-sleeved clothing, insect repellent, a hat, a raincoat and binoculars; outings are by boat and short forest walks.",
+        "In the Pantanal: lightweight trousers, comfortable shoes, repellent and a fleece for night outings; binoculars make all the difference.",
+        "In Lençóis you walk barefoot on the sand: rubber flip-flops and swimwear always at hand.",
+        "At the Falls, clothing can get wet: a light raincoat and protection for your phone and camera.",
+        "Money: change currency in the larger cities, as small towns have no exchange offices; cards are widely accepted along the route.",
+      ],
+    },
     finalTitle: isEs ? "Reserva tu gran viaje por Brasil con Pantanal para 2027." : "Secure your grand Brazil journey with the Pantanal for 2027.",
     finalText: c.finalText.replace(isEs ? "el Pantanal, Bonito" : "the Pantanal, Bonito", isEs ? "Bonito, Jalapão" : "Bonito, Jalapão"),
     whatsapp: isEs
