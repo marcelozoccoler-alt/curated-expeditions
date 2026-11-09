@@ -106,7 +106,7 @@ export async function buildPages(load: (id: string) => Promise<any>): Promise<Pa
   const { INCOMING_DESTINO_CONTENT } = await load("/src/lib/incomingDestinoContent.ts");
   const { INCOMING_DESTINATIONS } = await load("/src/lib/incomingDestinations.ts");
   const { BRAZIL_GUIDES, guidePath } = await load("/src/lib/brazilGuides/index.ts");
-  const { BRAZIL_PACKAGES, pkgPath, pkgPrice, pkgJsonLd, pkgWhatsApp, guidePackages } = await load("/src/lib/brazilPackage.ts");
+  const { BRAZIL_PACKAGES, pkgPath, pkgPrice, pkgJsonLd, pkgWhatsApp, guidePackages, packageFaq, packageStory, incomingStory } = await load("/src/lib/brazilPackage.ts");
   const { INCOMING_COPY } = await load("/src/lib/incomingCopy.ts");
   const { incomingPackageOffers } = await load("/src/lib/incomingPackages.ts");
   const { generateIncomingWhatsAppLink } = await load("/src/lib/whatsappI18n.ts");
@@ -115,6 +115,7 @@ export async function buildPages(load: (id: string) => Promise<any>): Promise<Pa
   for (const lang of LANGS) {
     const c = INCOMING_COPY[lang];
     const offers = lang === "es" || lang === "en" ? incomingPackageOffers(lang) : [];
+    const story = lang === "es" || lang === "en" ? incomingStory(lang) : undefined;
     const destinations = INCOMING_DESTINATIONS.map((d: any) => ({
       name: d.name[lang], description: d.blurb[lang], path: guidePath(lang, d.slug),
     }));
@@ -132,6 +133,11 @@ export async function buildPages(load: (id: string) => Promise<any>): Promise<Pa
           `<h3><a href="${esc(d.path)}">${esc(d.name)}</a></h3>${p(d.description)}`).join(""))
         + sec(c.process.heading, p(c.process.subheading) + items(c.process.steps))
         + sec(c.trust.heading, `<ul>${c.trust.items.map((t: string) => `<li>${esc(t)}</li>`).join("")}</ul>`)
+        + (story ? sec(story.heading, p(story.subheading)
+          + (story.photo ? `<img src="${esc(story.photo)}" alt="${esc(story.photoAlt)}" />` : "")
+          + `<h3>${esc(story.title)}</h3>` + story.quote.split("\n\n").map(p).join("")
+          + p(`${story.author} · ${story.meta}`) + p(story.guaranteeNote)
+          + `<p><a href="${SITE}${story.linkPath}">${esc(story.linkLabel)}</a></p>`) : "")
         + sec(c.expertise.heading, p(c.expertise.lead) + p(c.expertise.destinations) + p(c.expertise.biomes))
         + sec(c.faqs.heading, c.faqs.items.map((f: any) => `<h3 class="faq-question">${esc(f.q)}</h3><p class="faq-answer">${esc(f.a)}</p>`).join(""))
         + sec(c.cta.heading, p(c.cta.subheading) + `<a href="${esc(generateIncomingWhatsAppLink({ lang }))}">${esc(c.cta.button)}</a>`),
@@ -151,6 +157,7 @@ export async function buildPages(load: (id: string) => Promise<any>): Promise<Pa
   }
   for (const pk of BRAZIL_PACKAGES) for (const lang of ["es", "en"]) {
     const c = pk.copy[lang];
+    const story = packageStory(pk, lang);
     const ext = pk.facts.extension && c.extension
       ? sec(c.extension.title, p(c.extension.text) + p(`${c.from} ${pkgPrice(pk, lang, "EUR", pk.facts.extension.priceEUR)} ${c.perPerson} · ≈ ${pkgPrice(pk, lang, "USD", pk.facts.extension.priceEUR)}`) + c.extension.days.map((d: any) => `<h3>${esc(d.title)}</h3>${p(d.text)}`).join(""))
       : "";
@@ -169,12 +176,18 @@ export async function buildPages(load: (id: string) => Promise<any>): Promise<Pa
         + sec(c.includesTitle, `<ul>${c.includes.map((t: string) => `<li>${esc(t)}</li>`).join("")}</ul>`)
         + sec(c.excludesTitle, c.excludes.map(p).join(""))
         + sec(c.hotelsTitle, pk.facts.hotels.map((h: any, i: number) => p(`${h.name} · ${h.location} · ${h.nights} ${c.nights} · ${c.hotelNotes[i]}`)).join(""))
+        + (c.practical ? sec(c.practical.title, `<ul>${c.practical.items.map((t: string) => `<li>${esc(t)}</li>`).join("")}</ul>`) : "")
         + p(c.conditions) + p(c.exchangeNote)
-        + sec(c.faqTitle, c.faq.map((f: any) => `<h3>${esc(f.q)}</h3>${p(f.a)}`).join(""))
+        + sec(c.faqTitle, packageFaq(pk, lang).map((f: any) => `<h3>${esc(f.q)}</h3>${p(f.a)}`).join(""))
+        + (story ? sec(story.heading, p(story.subheading)
+          + (story.photo ? `<img src="${esc(story.photo)}" alt="${esc(story.photoAlt)}" />` : "")
+          + `<h3>${esc(story.title)}</h3>` + story.quote.split("\n\n").map(p).join("")
+          + p(`${story.author} · ${story.meta}`) + p(story.guaranteeNote)
+          + `<p><a href="${SITE}${story.linkPath}">${esc(story.linkLabel)}</a></p>`) : "")
         + sec(c.guidesTitle, pk.guides.map((g: any) => `<p><a href="${esc(guidePath(lang, g.slug))}">${esc(c.guideLink)}: ${esc(g.name[lang])}</a></p>`).join(""))
         + others.map((o: any) => `<p><a href="${esc(pkgPath(o, lang))}">${esc(o.copy[lang].h1)} · ${esc(o.copy[lang].dates)}</a></p>`).join("")
         + sec(c.finalTitle, p(c.finalText) + `<a href="${esc(pkgWhatsApp(pk, lang))}">${esc(c.cta)}</a>`),
-      jsonLd: [agencyLd, pkgJsonLd(pk, lang), faqLd(c.faq)],
+      jsonLd: [agencyLd, pkgJsonLd(pk, lang), faqLd(packageFaq(pk, lang))],
     });
   }
   const nameOf = (slug: string, lang: string) =>
