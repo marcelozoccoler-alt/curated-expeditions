@@ -203,3 +203,60 @@ export const guidePackages = (lang: string, slug: string) => {
     path: pkgPath(p, lang), eyebrow: p.copy[lang].eyebrow, title: p.copy[lang].h1, text: p.copy[lang].guideTeaser, button: p.copy[lang].guideButton,
   }));
 };
+
+// ---- Shared pre-booking answers (competitor benchmark: Brasil Planet, Altair) ----
+/** Entry requirements, insurance, group size and tour format — the doubts
+ *  every international buyer has before requesting a quote. Appended to each
+ *  package's own FAQs by the page and the prerender, never edited per package. */
+export const COMMON_PACKAGE_FAQ: Record<PackageLang, { q: string; a: string }[]> = {
+  es: [
+    { q: "¿Necesito visa para viajar a Brasil?", a: "Depende de tu pasaporte. Ciudadanos de Estados Unidos, Canadá y Australia necesitan actualmente una visa electrónica (e-Visa) antes de embarcar; muchos pasaportes europeos y latinoamericanos están exentos para turismo. Confirmamos los requisitos vigentes para tu nacionalidad al preparar tu propuesta y te orientamos paso a paso." },
+    { q: "¿El seguro de viaje está incluido?", a: "No está incluido. Recomendamos contratar en tu país de residencia un seguro de viaje con cobertura médica y de cancelación, como protección de tu inversión. Podemos indicar opciones, pero la póliza la contrata directamente el viajero." },
+    { q: "Viajamos más de dos personas. ¿El precio cambia?", a: "El precio base publicado está calculado para dos viajeros. Familias y grupos de amigos son bienvenidos: cuéntanos cuántas personas viajan y qué habitaciones prefieren, y enviamos una propuesta actualizada para tu grupo." },
+    { q: "¿Es un tour en grupo con fechas fijas?", a: "Este viaje tiene fechas publicadas y servicios compartidos donde se indica, pero no es un grupo clásico de autocar. Si prefieres otras fechas o un formato totalmente privado, diseñamos la misma ruta a medida con presupuesto propio." },
+  ],
+  en: [
+    { q: "Do I need a visa to travel to Brazil?", a: "It depends on your passport. Citizens of the United States, Canada and Australia currently need an electronic visa (e-Visa) before boarding; many European and Latin American passports are visa-exempt for tourism. We confirm the current requirements for your nationality when preparing your proposal and guide you step by step." },
+    { q: "Is travel insurance included?", a: "It is not included. We recommend purchasing travel insurance with medical and cancellation coverage from a provider in your country of residence, to protect your investment. We can suggest options, but the policy is contracted directly by the traveller." },
+    { q: "We are more than two travellers. Does the price change?", a: "The published base price is calculated for two travellers. Families and groups of friends are welcome: tell us how many people are travelling and your room preferences, and we will send an updated proposal for your group." },
+    { q: "Is this a fixed-date group tour?", a: "This journey has published dates and shared services where indicated, but it is not a classic coach group. If you prefer other dates or a fully private arrangement, we design the same route tailor-made with its own quote." },
+  ],
+};
+/** Package FAQs = the package's own answers + the shared pre-booking answers. */
+export const packageFaq = (pkg: BrazilPackageDef, lang: PackageLang) => [...pkg.copy[lang].faq, ...COMMON_PACKAGE_FAQ[lang]];
+
+// ---- Real traveller story (shared testimonials registry; authorised couple) ----
+import { testimonials } from "./testimonials";
+
+export type PackageStory = {
+  title: string; quote: string; author: string; meta: string;
+  photo: string; photoAlt: string; linkPath: string;
+  heading: string; subheading: string; linkLabel: string; guaranteeNote: string;
+};
+/** The verified Mexican couple's Pantanal story, in the page language.
+ *  Editorial account with authorised names and photos — no star ratings and
+ *  no Review markup (Google penalises unverified review markup). Shown only
+ *  on packages that include the Pantanal, where the story is relevant. */
+export const packageStory = (pkg: BrazilPackageDef, lang: PackageLang): PackageStory | undefined => {
+  if (!pkg.guides.some(g => g.slug === "pantanal")) return undefined;
+  const t = testimonials.find(item => item.slug === "patricia-camarena-alejandro-barrera-pantanal" && item.verified);
+  const tr = t?.translations?.[lang];
+  if (!t || !tr) return undefined;
+  return {
+    title: tr.title,
+    quote: tr.quote,
+    author: t.author,
+    meta: lang === "es" ? "México → Pantanal Sul · agosto de 2026" : "Mexico → Pantanal Sul · August 2026",
+    photo: t.photos[0]?.src ?? "",
+    photoAlt: t.photos[0]?.alt ?? t.author,
+    linkPath: "/depoimentos",
+    heading: lang === "es" ? "Quienes ya viajaron con nosotros" : "Travellers who already came with us",
+    subheading: lang === "es"
+      ? "Historias reales, con nombre y rostro, de viajeros que confiaron en Create Travel."
+      : "Real stories, with names and faces, from travellers who trusted Create Travel.",
+    linkLabel: lang === "es" ? "Leer el relato completo (página en portugués)" : "Read the full story (page in Portuguese)",
+    guaranteeNote: lang === "es"
+      ? "Relato editorial autorizado por los viajeros. Cada viaje es único: los avistamientos de fauna nunca están garantizados."
+      : "Editorial account authorised by the travellers. Every journey is unique: wildlife sightings are never guaranteed.",
+  };
+};
