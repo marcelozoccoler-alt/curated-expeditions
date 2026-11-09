@@ -100,7 +100,7 @@ export const PACKAGE_COPY: Record<PackageLang, Copy> = {
   },
   en: {
     title: "Pantanal, Lençóis & Rio | August 2027 · Create Travel",
-    description: "Pantanal wildlife safari, Lençóis Maranhenses lagoons and Rio. 12 days, 7–18 August 2027. From €3,985 per person. Request your written travel proposal.",
+    description: "Pantanal wildlife in Aquidauana, Lençóis Maranhenses lagoons and Rio. 12 days, 7–18 August 2027. From €3,985 per person. Request your written travel proposal.",
     eyebrow: "BRAZIL IN THREE LANDSCAPES · AUGUST 2027",
     h1: "Rio, Pantanal & Lençóis Maranhenses",
     subtitle: "The wildlife of the Pantanal. Lagoons between dunes. Rio by the sea. A journey to feel Brazil, at an unhurried pace.",

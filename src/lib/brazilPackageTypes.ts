@@ -15,6 +15,9 @@ export type PackageCopy = {
   hotelsTitle: string; nights: string; hotelNotes: string[];
   priceTitle: string; exchangeNote: string; conditions: string; faqTitle: string;
   faq: { q: string; a: string }[]; finalTitle: string; finalText: string;
+  /** Practical preparation tips (packing, money, weather) — competitor pages
+   *  publish these; they answer real traveller doubts before quoting. */
+  practical?: { title: string; items: string[] };
   whatsapp: string; back: string; contact: string;
   extension?: { label: string; title: string; text: string; days: { title: string; text: string }[] };
 };
