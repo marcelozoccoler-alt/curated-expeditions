@@ -123,16 +123,17 @@ export async function buildPages(load: (id: string) => Promise<any>): Promise<Pa
       alternates: Object.fromEntries(LANGS.map(l => [l, `/${l}/incoming`])),
       body: `<h1>${esc(c.hero.title)}</h1>` + p(c.hero.subtitle)
         + `<p><a href="${esc(generateIncomingWhatsAppLink({ lang }))}">${esc(c.hero.cta)}</a></p>`
+        + (c.offers ? sec(c.offers.heading, p(c.offers.subheading)) : "")
         + offers.map((o: any) => sec(o.title, p(`${o.dates} · ${o.duration}`) + p(o.price) + p(o.basis)
           + `<ul>${o.inclusions.map((t: string) => `<li>${esc(t)}</li>`).join("")}</ul>` + p(o.exclusion)
           + `<p><a href="${esc(o.path)}">${esc(o.button)}</a></p><p><a href="${esc(o.whatsapp)}">${esc(o.quote)}</a></p>`)).join("")
-        + sec(c.intro.heading, c.intro.paragraphs.map(p).join(""))
+        + sec(c.intro.heading, c.intro.paragraphs.map((t: string, i: number) => (i === 0 ? `<p class="ai-summary">${esc(t)}</p>` : p(t))).join(""))
         + sec(c.destinations.heading, p(c.destinations.subheading) + destinations.map((d: any) =>
           `<h3><a href="${esc(d.path)}">${esc(d.name)}</a></h3>${p(d.description)}`).join(""))
         + sec(c.process.heading, p(c.process.subheading) + items(c.process.steps))
         + sec(c.trust.heading, `<ul>${c.trust.items.map((t: string) => `<li>${esc(t)}</li>`).join("")}</ul>`)
         + sec(c.expertise.heading, p(c.expertise.lead) + p(c.expertise.destinations) + p(c.expertise.biomes))
-        + sec(c.faqs.heading, c.faqs.items.map((f: any) => `<h3>${esc(f.q)}</h3>${p(f.a)}`).join(""))
+        + sec(c.faqs.heading, c.faqs.items.map((f: any) => `<h3 class="faq-question">${esc(f.q)}</h3><p class="faq-answer">${esc(f.a)}</p>`).join(""))
         + sec(c.cta.heading, p(c.cta.subheading) + `<a href="${esc(generateIncomingWhatsAppLink({ lang }))}">${esc(c.cta.button)}</a>`),
       jsonLd: [agencyLd, {
         "@context": "https://schema.org", "@type": "CollectionPage", url: `${SITE}/${lang}/incoming`,
@@ -141,6 +142,10 @@ export async function buildPages(load: (id: string) => Promise<any>): Promise<Pa
           ...destinations.map((d: any) => ({ name: d.name, url: SITE + d.path })),
           ...offers.map((o: any) => ({ name: o.title, url: SITE + o.path })),
         ].map((item, i) => ({ "@type": "ListItem", position: i + 1, ...item })) },
+      }, {
+        "@context": "https://schema.org", "@type": "WebPage", url: `${SITE}/${lang}/incoming`,
+        inLanguage: lang,
+        speakable: { "@type": "SpeakableSpecification", cssSelector: ["h1", "h2", ".ai-summary", ".faq-question", ".faq-answer"] },
       }],
     });
   }
