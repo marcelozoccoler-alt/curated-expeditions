@@ -1,6 +1,7 @@
 # Roadmap
 
-- [ ] Novas onze fotos (11/11, incluindo envio “Mais uma”): comparar com a prova v17, incluir apenas inéditas nas visitas correspondentes e entregar nova prova, preservando anteriores.
+- [x] Novas onze fotos (11/11): prova v18 com 174 páginas, seis inéditas incluídas em Dohány, Stephansplatz, Maria vom Siege, praça do relógio em Praga, igreja do Sagrado Coração em Jiřího z Poděbrad e Balat. Quatro retratos já presentes não reutilizados; mosaico de Chora não reinserido por correspondência com imagens existentes. Comparação por hash perceptual, detalhes locais e visual; todas as páginas renderizadas e vistas, novas ampliadas. Identificação da igreja de Viena corrigida de Votivkirche para Maria vom Siege. Originais preservados e coleção parte 3 atualizada. Versão compacta de 24 MB disponível; nada publicado.
+- [ ] Auditoria adicional: a conferência deste lote encontrou fotografias quase idênticas da cúpula de Chora nas antigas páginas 144 e 146 (agora 149 e 151); confirmar original e eliminar possível repetição na revisão final.
 - [x] Pergunta sobre pendências (11/11): histórico conferido; informados retoques, troca da página 127, fotos aéreas e especial do trem. Revisão final para impressão e memorial online também não concluídos.
 
 - [x] Revisão 10/11, prova v17 (168 páginas): “Uma viagem em uma página” reescrita por cidade e ordem do diário, com chá surpresa para o grupo e presentes para Amanda e Carlos Alberto, navegações, bairros judeus, sinagogas, mercados, mesquitas, Balat, Gálata, Istiklal e castelo. New York Café recebeu fachada inédita e quadro do vídeo do violinista. Todas as páginas vistas em folhas; páginas alteradas ampliadas. Nada publicado.
