@@ -1,5 +1,7 @@
 # Roadmap
 
+- [ ] Novas dez fotos (11/11): comparar com a prova v17, incluir apenas inéditas nas visitas correspondentes e entregar nova prova, preservando anteriores.
+
 - [x] Revisão 10/11, prova v17 (168 páginas): “Uma viagem em uma página” reescrita por cidade e ordem do diário, com chá surpresa para o grupo e presentes para Amanda e Carlos Alberto, navegações, bairros judeus, sinagogas, mercados, mesquitas, Balat, Gálata, Istiklal e castelo. New York Café recebeu fachada inédita e quadro do vídeo do violinista. Todas as páginas vistas em folhas; páginas alteradas ampliadas. Nada publicado.
 - [ ] Revisão fotográfica 10/11: abrir olhos fechados preservando identidade e originais, melhorar discretamente o rosto de Marcelo, retirar seu corpo do enquadramento da foto “Becherovka a bordo”, substituir foto da página 127 pela foto do grupo no mesmo local sem repetição. Exige inspeção e seleção das imagens antes de tratamento.
 
