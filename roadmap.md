@@ -1,5 +1,6 @@
 # Roadmap
 
+- [ ] Continuação v20: selecionar e creditar vistas amplas detalhadas, encaixar junto às cidades e visitas; revisar imagens quase repetidas de Chora e identificar piscadas reais para retoque; manter as provas anteriores e não publicar.
 - [x] Continuação, prova v19: 176 páginas com duas páginas especiais de trem após Viena, três fotos inéditas do acervo; rosto de Marcelo tratado no trem e em Santa Sofia; corpo retirado da foto Becherovka. Todas as páginas renderizadas e inspecionadas em seis folhas; quatro páginas alteradas ampliadas, sem cortes de texto ou sobreposição observados. Provas anteriores preservadas; nada publicado. Preparação temporária de 182 páginas com aéreas não persistiu após reinício; não integra a entrega v19.
 - [ ] Finalização restante: abrir olhos nas fotos pertinentes, substituir a antiga página 127 após identificar com segurança a foto do grupo no mesmo local, selecionar aéreas detalhadas licenciadas e exteriores completos; revisão gráfica e memorial continuam pendentes. Não confundir a antiga p127 (Santa Sofia, v18 p132) com a atual p127 (abertura de Istambul).
 
