@@ -4,6 +4,7 @@ import { Button } from "@/components/ui/button";
 import { Dialog, DialogContent, DialogTitle } from "@/components/ui/dialog";
 import { MEMORIAL_CHAPTERS, MEMORIAL_PDF } from "@/lib/viagens/memorialCapitais";
 import { EDITORIAL_PAGES, type EditorialPhoto } from "@/lib/viagens/memorialEditorial";
+import { BudapestSkyline, CharlesBridgeNumbers } from "./MemorialLandmarks";
 
 export function MemorialReader() {
   const [current, setCurrent] = useState(1);
@@ -35,6 +36,8 @@ export function MemorialReader() {
     <article key={page.number} className="container-editorial py-10 sm:py-14">
       {current !== 1 && <header className="max-w-3xl mx-auto mb-8 sm:mb-10"><p className="text-sm text-gold mb-3">{page.eyebrow}</p><h2 className="font-serif text-3xl sm:text-4xl text-foreground leading-tight tracking-normal">{page.title}</h2></header>}
       {!portraits && text.length > 0 && <div className="max-w-3xl mx-auto space-y-6 mb-10 sm:mb-14">{text.map((paragraph, index) => paragraph.kind === "heading" ? <h3 key={index} className="font-serif text-2xl text-foreground leading-snug tracking-normal">{paragraph.text}</h3> : <p key={index} className="text-lg sm:text-xl text-foreground/90 leading-[1.85]">{paragraph.text}</p>)}</div>}
+      {current === 10 && <BudapestSkyline />}
+      {current === 114 && <CharlesBridgeNumbers />}
       {current === 4 && <div className="max-w-3xl mx-auto grid grid-cols-2 sm:grid-cols-4 gap-8 py-8 border-y border-border mb-10">{[{name: "Budapeste", symbol: Landmark}, {name: "Viena", symbol: Church}, {name: "Praga", symbol: Castle}, {name: "Istambul", symbol: MoonStar}].map(({name, symbol: Symbol}) => <div key={name} className="text-center"><Symbol className="w-10 h-10 text-gold mx-auto mb-3" strokeWidth={1} /><p className="font-serif text-lg text-foreground">{name}</p></div>)}</div>}
       {current === 5 && <div className="max-w-3xl mx-auto grid grid-cols-1 sm:grid-cols-3 gap-10 sm:gap-8 py-10 border-y border-border" aria-label="Rios da viagem">
         {[{name: "Danúbio", city: "Budapeste", symbol: Landmark}, {name: "Moldava", city: "Praga", symbol: Castle}, {name: "Bósforo", city: "Istambul", symbol: Sailboat}].map(({name, city, symbol: Symbol}, index) => <div key={name} className="text-center">
