@@ -1,5 +1,6 @@
 # Roadmap
 
+- [ ] Filme v3 (17:49): incluir flashes aéreos de Budapeste, Viena, Praga e Istambul, mantendo locução, trilha, duração concisa e convite final; usar cenas reais licenciadas quando disponíveis ou informar claramente se forem ilustrações geradas.
 - [ ] Filme para YouTube (14/11): aproveitar memorial e acervo real, fotos e trechos breves de vídeo; locução masculina sensual sem exagero, música por cidade e sincronização emocional; entregar exportação horizontal sem publicar automaticamente.
 - [ ] Encerramento do filme (pedido 17:35): convite comercial narrado para conhecer os diversos tipos de grupos Create Travel, endereço www.createtravel.tur.br na tela e link clicável na descrição para YouTube; preservar primeira versão e revisar sincronização/imagens antes de entregar.
 - [x] Página 10: desenho de traços do Parlamento e da Basílica com linha tracejada na altura comum e 96 central; página 114: destacar data, hora e palíndromo da Ponte Carlos, preservando a identificação como tradição lendária. PDF intacto; não republicado.
