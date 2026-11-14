@@ -1,5 +1,5 @@
 import { useRef, useState } from "react";
-import { ArrowLeft, ArrowRight, Download, BookOpen, Expand, Landmark, Church, Castle, MoonStar, Waves } from "lucide-react";
+import { ArrowLeft, ArrowRight, Download, BookOpen, Expand, Landmark, Church, Castle, MoonStar, Waves, Sailboat } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Dialog, DialogContent, DialogTitle } from "@/components/ui/dialog";
 import { MEMORIAL_CHAPTERS, MEMORIAL_PDF } from "@/lib/viagens/memorialCapitais";
@@ -36,8 +36,19 @@ export function MemorialReader() {
       {current !== 1 && <header className="max-w-3xl mx-auto mb-8 sm:mb-10"><p className="text-sm text-gold mb-3">{page.eyebrow}</p><h2 className="font-serif text-3xl sm:text-4xl text-foreground leading-tight tracking-normal">{page.title}</h2></header>}
       {!portraits && text.length > 0 && <div className="max-w-3xl mx-auto space-y-6 mb-10 sm:mb-14">{text.map((paragraph, index) => paragraph.kind === "heading" ? <h3 key={index} className="font-serif text-2xl text-foreground leading-snug tracking-normal">{paragraph.text}</h3> : <p key={index} className="text-lg sm:text-xl text-foreground/90 leading-[1.85]">{paragraph.text}</p>)}</div>}
       {current === 4 && <div className="max-w-3xl mx-auto grid grid-cols-2 sm:grid-cols-4 gap-8 py-8 border-y border-border mb-10">{[{name: "Budapeste", symbol: Landmark}, {name: "Viena", symbol: Church}, {name: "Praga", symbol: Castle}, {name: "Istambul", symbol: MoonStar}].map(({name, symbol: Symbol}) => <div key={name} className="text-center"><Symbol className="w-10 h-10 text-gold mx-auto mb-3" strokeWidth={1} /><p className="font-serif text-lg text-foreground">{name}</p></div>)}</div>}
+      {current === 5 && <div className="max-w-3xl mx-auto grid grid-cols-1 sm:grid-cols-3 gap-10 sm:gap-8 py-10 border-y border-border" aria-label="Rios da viagem">
+        {[{name: "Danúbio", city: "Budapeste", symbol: Landmark}, {name: "Moldava", city: "Praga", symbol: Castle}, {name: "Bósforo", city: "Istambul", symbol: Sailboat}].map(({name, city, symbol: Symbol}, index) => <div key={name} className="text-center">
+          <Symbol className="w-10 h-10 text-gold mx-auto" strokeWidth={1} aria-hidden="true" />
+          <svg viewBox="0 0 200 70" className="w-full max-w-[220px] h-[70px] mx-auto text-emerald" fill="none" stroke="currentColor" strokeWidth="1" strokeLinecap="round" aria-hidden="true">
+            <path d={index === 1 ? "M8 28 C40 6 65 48 100 28 S160 6 192 28" : "M8 28 C40 48 65 6 100 28 S160 48 192 28"} />
+            <path d={index === 1 ? "M8 40 C40 18 65 60 100 40 S160 18 192 40" : "M8 40 C40 60 65 18 100 40 S160 60 192 40"} />
+            <path d="M28 54 Q48 44 68 54 T108 54 T148 54 T172 54" opacity="0.45" />
+          </svg>
+          <p className="font-serif text-xl text-foreground">{name}</p><p className="text-sm text-muted-foreground mt-2">{city}</p>
+        </div>)}
+      </div>}
       <div className={portraits ? "grid grid-cols-1 sm:grid-cols-2 gap-x-8 gap-y-12" : "space-y-10 sm:space-y-14"}>
-        {page.photos.map((photo, index) => <figure key={photo.src} className="max-w-3xl mx-auto w-full">
+        {(current === 5 ? [] : page.photos).map((photo, index) => <figure key={photo.src} className="max-w-3xl mx-auto w-full">
           <div className="relative group flex justify-center"><img src={photo.src} width={photo.width} height={photo.height} alt={portraits ? text[index]?.text : `${page.title} — fotografia ${index + 1}`} className="block max-w-full w-auto h-auto max-h-[620px] object-contain" loading={index === 0 ? "eager" : "lazy"} />
             <Button variant="secondary" size="icon" title="Ampliar fotografia" aria-label={`Ampliar fotografia ${index + 1}`} onClick={() => setEnlarged(photo)} className="absolute right-3 bottom-3 shadow-sm"><Expand className="h-4 w-4" /></Button>
           </div>
