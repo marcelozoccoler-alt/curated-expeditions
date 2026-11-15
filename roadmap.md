@@ -1,5 +1,6 @@
 # Roadmap
 
+- [ ] Filme v10 (15/11 12:49): localizar e incluir o vídeo real do grupo brincando com a mulher do café em Balat, com som original e no trecho de Balat; não confundir com pianista/violinista de outro café. Preservar mosaico v9, cemitério e final com destinos; conferir cena e som antes de entregar, sem publicar.
 - [x] Filme v9 (15/11 12:35): tabela de Santa Sofia substituída em 8:56–9:07 por fotografia real da Deesis de Myrabella/Commons, com painel completo e detalhes de Cristo e João Batista sincronizados à fala. Trecho e transições vistos, arquivo 11min29s conferido; áudio, cemitério e final preservados. Não publicado; divergência entre licença CC0/PD-Art e crédito sugerido CC BY-SA 3.0 precisa ser esclarecida antes de publicação, assim como licença comercial da música.
 - [x] Filme v8 (15/11 12:20): Antigo Cemitério Judaico de Praga inserido em 7:00–7:10 com vídeo e foto reais, sincronizados com a fala; trecho e transições vistos, arquivo 11min29s conferido. Áudio e final v7 com destinos reais preservados, anteriores intactos; não publicado. Revisão integral e licença comercial da música continuam não verificadas.
 - [ ] Órgão de Santo Estêvão no filme: nenhum clipe correspondente confirmado após revisão dos 54 vídeos catalogados e uploads; depende do reenvio do vídeo original da basílica, sem substituir por outra igreja ou som artificial.
