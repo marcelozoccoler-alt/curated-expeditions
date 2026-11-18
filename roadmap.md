@@ -1,5 +1,6 @@
 # Roadmap
 
+- [ ] Filme (18/11 01:22): incluir no capítulo de Viena a fala sobre o reencontro de Divanir com o filho que mora na Europa, junto às fotos reais com o filho e a nora na Michaelerplatz; breve momento afetuoso na revisão dinâmica em andamento, sem inventar detalhes nem publicar.
 - [ ] Filme (18/11): acelerar a locução considerada lenta e substituir o clima musical fúnebre por variação dinâmica conforme as cenas, com músicas mais agitadas e momentos emocionais curtos; manter sincronização, sons originais, Balat, relógio, mosaico, cemitério e encerramento com destinos reais. Exportar nova versão sem publicar; ajustes anteriores de rostos e violinista permanecem pendentes até verificação.
 - [ ] Filme (pedido 17/11 00:30): manter/incluir a apresentação real do violinista do New York Café e a do pianista do Pera, sem substituir a brincadeira com a mulher do café de Balat, já incluída na v12; conferir os três momentos e preservar as outras revisões. Não publicar.
 - [ ] Filme v13 (16/11 00:01): revisar todas as fotos com movimento e subir o enquadramento onde rostos ficam cortados ou ausentes, mantendo rostos inteiros visíveis; preservar duração, áudio e demais revisões da v12. Não publicar.
