@@ -1,5 +1,6 @@
 # Roadmap
 
+- [ ] Filme (18/11): acelerar a locução considerada lenta e substituir o clima musical fúnebre por variação dinâmica conforme as cenas, com músicas mais agitadas e momentos emocionais curtos; manter sincronização, sons originais, Balat, relógio, mosaico, cemitério e encerramento com destinos reais. Exportar nova versão sem publicar; ajustes anteriores de rostos e violinista permanecem pendentes até verificação.
 - [ ] Filme (pedido 17/11 00:30): manter/incluir a apresentação real do violinista do New York Café e a do pianista do Pera, sem substituir a brincadeira com a mulher do café de Balat, já incluída na v12; conferir os três momentos e preservar as outras revisões. Não publicar.
 - [ ] Filme v13 (16/11 00:01): revisar todas as fotos com movimento e subir o enquadramento onde rostos ficam cortados ou ausentes, mantendo rostos inteiros visíveis; preservar duração, áudio e demais revisões da v12. Não publicar.
 - [x] Filme v12 (pedido 15/11 13:21): vídeo real do Orloj na hora cheia inserido em 6:35–6:45, apóstolos visíveis, fonte Triplec85/Commons CC0. Inclui também Balat; arquivo 11min55s, 17880 quadros confirmado, cenas e transições vistas. Demais revisões preservadas; não publicado. Áudio avaliado por níveis/transcrição, sem escuta humana; revisão integral e licenças anteriores continuam pendentes.
