@@ -1,5 +1,6 @@
 # Roadmap
 
+- [ ] Filme (18/11 01:26): aproveitar oito fotos e vídeo do segundo lote (uploads-20261118-lote2), com Biblioteca de Viena, Parlamento noturno, sinagoga, Belvedere, Orloj e torre da Ponte Carlos; examinar vídeo WA0018 de interior de basílica e áudio para confirmar se resolve o pedido do órgão de Santo Estêvão. Preservar cronologia, rostos e originais, sem publicar.
 - [ ] Filme (18/11 01:25): acrescentar ao encerramento comercial a especialidade da Create Travel em logística inteligente pelo mundo, combinando dois ou mais destinos na mesma viagem; manter convite ao site, destinos reais e ritmo dinâmico, sem publicar.
 - [ ] Filme (18/11 01:23): inserir seis fotos e trechos dos quatro vídeos enviados (preservados no acervo privado uploads-20261118), conforme cenas correspondentes; fotos de Chora, Balat, Budapeste/Danúbio, New York Café e sinagoga; vídeos de maquete ferroviária, músicos, violinista e café Turgut. Conferir identificação, sons originais e enquadramentos antes de entregar, sem publicar.
 - [ ] Filme (18/11 01:22): incluir no capítulo de Viena a fala sobre o reencontro de Divanir com o filho que mora na Europa, junto às fotos reais com o filho e a nora na Michaelerplatz; breve momento afetuoso na revisão dinâmica em andamento, sem inventar detalhes nem publicar.
