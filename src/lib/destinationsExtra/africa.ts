@@ -72,7 +72,7 @@ export const africaExtraDestinations: Destination[] = [
       { q: "Brasileiro precisa de visto para Madagascar?", a: "Sim, o visto é emitido na chegada mediante taxa, com passaporte válido por ao menos seis meses. Orientamos a documentação completa antes do embarque." },
       { q: "Madagascar é seguro para viajar?", a: "Sim, com roteiro bem planejado e guias locais de confiança. A curadoria Create Travel seleciona motoristas, lodges e itinerários testados, evitando trajetos noturnos e áreas sem infraestrutura." },
       { q: "É possível combinar Madagascar com outros destinos africanos?", a: "Sim. Combinações naturais incluem Ilhas Maurício, Seychelles ou um safári na África do Sul, aproveitando as conexões aéreas via Joanesburgo ou Nairóbi." },
-      { q: "Como criar meu roteiro para Madagascar?", a: "Clique em Criar roteiro sob medida e conte período, ritmo e preferências — desenhamos a viagem do zero." },
+      { q: "Como criar meu roteiro para Madagascar?", a: "Clique em Criar roteiro sob medida e conte período, ritmo e preferências — desenhamos uma viagem personalizada." },
     ],
   },
   {
@@ -141,7 +141,7 @@ export const africaExtraDestinations: Destination[] = [
       { q: "Brasileiro precisa de visto para Maurício?", a: "Não. Brasileiros com passaporte válido recebem entrada facilitada para estadas turísticas de curta duração, sem necessidade de visto prévio." },
       { q: "Maurício é bom para lua de mel?", a: "Sim, é um dos destinos mais procurados para lua de mel por casais brasileiros de alto padrão — a curadoria seleciona vilas privativas com piscina e serviço de mordomo dedicado." },
       { q: "Vale combinar Maurício com outros destinos?", a: "Sim. Combinações frequentes incluem Seychelles, Madagascar ou um safári na África do Sul, aproveitando a proximidade geográfica e as conexões aéreas regionais." },
-      { q: "Como montar meu roteiro para Maurício?", a: "Clique em Criar roteiro sob medida e conte período, ritmo e preferências — desenhamos a viagem do zero." },
+      { q: "Como montar meu roteiro para Maurício?", a: "Clique em Criar roteiro sob medida e conte período, ritmo e preferências — desenhamos uma viagem personalizada." },
     ],
   },
   {
@@ -213,7 +213,7 @@ export const africaExtraDestinations: Destination[] = [
       { q: "Como se chega ao Arquipélago de Bazaruto?", a: "Via voo doméstico até Vilankulo, seguido de transfer de barco ou helicóptero até a ilha escolhida — a Create Travel coordena toda a logística de ponta a ponta." },
       { q: "Bazaruto é indicado para lua de mel?", a: "Sim, é um dos destinos mais exclusivos do Índico para casais, com lodges de poucas unidades, piscinas privativas e experiências desenhadas para dois." },
       { q: "Vale combinar Bazaruto com um safári?", a: "Sim, a combinação clássica é um safári no Kruger ou em reservas privadas sul-africanas seguido de dias de praia em Bazaruto — savana e oceano na mesma viagem." },
-      { q: "Como criar meu roteiro para Bazaruto?", a: "Clique em Criar roteiro sob medida e conte período, ritmo e preferências — desenhamos a viagem do zero." },
+      { q: "Como criar meu roteiro para Bazaruto?", a: "Clique em Criar roteiro sob medida e conte período, ritmo e preferências — desenhamos uma viagem personalizada." },
     ],
   },
   {
@@ -282,7 +282,7 @@ export const africaExtraDestinations: Destination[] = [
       { q: "Brasileiro precisa de visto para Seychelles?", a: "Não é exigido visto prévio; a autorização de entrada é concedida na chegada, mediante passaporte válido, reserva de hospedagem e passagem de retorno." },
       { q: "Seychelles é indicado para lua de mel?", a: "Sim, é um dos destinos mais desejados do mundo para lua de mel, com resorts de poucas unidades, praias privativas e roteiros de barco que reforçam a exclusividade." },
       { q: "Como se desloca entre as ilhas de Seychelles?", a: "Por voos domésticos curtos entre Mahé e Praslin, balsa para La Digue, ou barco privativo fretado para um roteiro personalizado entre múltiplas ilhas." },
-      { q: "Como criar meu roteiro para Seychelles?", a: "Clique em Criar roteiro sob medida e conte período, ritmo e preferências — desenhamos a viagem do zero." },
+      { q: "Como criar meu roteiro para Seychelles?", a: "Clique em Criar roteiro sob medida e conte período, ritmo e preferências — desenhamos uma viagem personalizada." },
     ],
   },
   {
@@ -351,7 +351,7 @@ export const africaExtraDestinations: Destination[] = [
       { q: "Brasileiro precisa de visto para São Tomé e Príncipe?", a: "Sim, é necessário visto, que pode ser solicitado antecipadamente ou, em alguns casos, obtido na chegada — orientamos toda a documentação antes do embarque." },
       { q: "São Tomé e Príncipe é um destino seguro?", a: "Sim, é considerado um dos países mais estáveis e seguros da África, com baixa criminalidade — o desafio real é a infraestrutura turística ainda incipiente, por isso a curadoria é essencial." },
       { q: "Como se chega a São Tomé e Príncipe?", a: "Voos internacionais partem principalmente de Lisboa ou Acra, com conexão adicional de pequena aviação até a ilha do Príncipe. A Create Travel organiza toda a logística de ponta a ponta." },
-      { q: "Como criar meu roteiro para São Tomé e Príncipe?", a: "Clique em Criar roteiro sob medida e conte período, ritmo e preferências — desenhamos a viagem do zero." },
+      { q: "Como criar meu roteiro para São Tomé e Príncipe?", a: "Clique em Criar roteiro sob medida e conte período, ritmo e preferências — desenhamos uma viagem personalizada." },
     ],
   },
   {
@@ -420,7 +420,7 @@ export const africaExtraDestinations: Destination[] = [
       { q: "Brasileiro precisa de visto para Uganda?", a: "Sim, é necessário visto eletrônico solicitado previamente pela internet, além de comprovante de vacina contra febre amarela — orientamos todo o processo antes da viagem." },
       { q: "Quantas pessoas podem ver a mesma família de gorilas por dia?", a: "As autoridades ugandesas limitam a oito visitantes por família de gorilas e uma hora de observação, garantindo o bem-estar dos animais — por isso as permissões esgotam com meses de antecedência." },
       { q: "Vale combinar o trekking de gorilas com um safári?", a: "Sim. A combinação clássica inclui o Queen Elizabeth National Park ou o Murchison Falls, somando savana, primatas e um dos maiores conjuntos de aves da África num único roteiro." },
-      { q: "Como criar meu roteiro para Uganda?", a: "Clique em Criar roteiro sob medida e conte período, ritmo e preferências — desenhamos a viagem do zero." },
+      { q: "Como criar meu roteiro para Uganda?", a: "Clique em Criar roteiro sob medida e conte período, ritmo e preferências — desenhamos uma viagem personalizada." },
     ],
   },
   {
@@ -489,7 +489,7 @@ export const africaExtraDestinations: Destination[] = [
       { q: "Qual a melhor época para ver as Cataratas Vitória?", a: "Fevereiro a maio apresenta o maior volume de água, com a névoa mais espetacular. Setembro a dezembro tem menor vazão, mas permite ver melhor a formação rochosa e nadar na Piscina do Diabo, quando disponível." },
       { q: "Brasileiro precisa de visto para o Zimbábue?", a: "Sim, o visto pode ser emitido na chegada mediante taxa, com passaporte válido. Há também a opção de visto combinado Kaza, que permite trânsito entre Zimbábue e Zâmbia." },
       { q: "Vale combinar Zimbábue com a Zâmbia?", a: "Sim. As Cataratas Vitória ficam na fronteira entre os dois países, e é comum hospedar-se de um lado e visitar o outro em bate-volta, ampliando os ângulos de observação da queda d'água." },
-      { q: "Como criar meu roteiro para Zimbábue?", a: "Clique em Criar roteiro sob medida e conte período, ritmo e preferências — desenhamos a viagem do zero." },
+      { q: "Como criar meu roteiro para Zimbábue?", a: "Clique em Criar roteiro sob medida e conte período, ritmo e preferências — desenhamos uma viagem personalizada." },
     ],
   },
   {
@@ -558,7 +558,7 @@ export const africaExtraDestinations: Destination[] = [
       { q: "Brasileiro precisa de visto para a Zâmbia?", a: "Sim, o visto pode ser obtido na chegada ou antecipadamente online, com passaporte válido — há também o visto combinado Kaza, que inclui trânsito para o Zimbábue." },
       { q: "O que diferencia o safári na Zâmbia de outros países africanos?", a: "A Zâmbia é considerada o berço do safári a pé e mantém baixa densidade de veículos por área — a experiência é mais silenciosa, íntima e voltada a viajantes que já conhecem a savana." },
       { q: "Vale combinar a Zâmbia com o Zimbábue?", a: "Sim. As Cataratas Vitória ficam na fronteira entre os dois países, e é possível hospedar-se do lado zambiano, com vista mais próxima da queda, e cruzar para o Zimbábue em bate-volta." },
-      { q: "Como criar meu roteiro para a Zâmbia?", a: "Clique em Criar roteiro sob medida e conte período, ritmo e preferências — desenhamos a viagem do zero." },
+      { q: "Como criar meu roteiro para a Zâmbia?", a: "Clique em Criar roteiro sob medida e conte período, ritmo e preferências — desenhamos uma viagem personalizada." },
     ],
   },
 ];

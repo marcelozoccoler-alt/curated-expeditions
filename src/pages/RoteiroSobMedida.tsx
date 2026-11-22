@@ -52,7 +52,7 @@ const RoteiroSobMedida = () => {
     provider: { "@id": "https://createtravel.tur.br/#organization" },
     areaServed: "Worldwide",
     description:
-      "Roteiros de viagem personalizados desenhados do zero por um travel designer. Planejamento dia a dia, curadoria de hotéis, experiências exclusivas e suporte antes, durante e depois da viagem.",
+      "Roteiros de viagem personalizados desenhados sob medida por um travel designer. Planejamento dia a dia, curadoria de hotéis, experiências exclusivas e suporte antes, durante e depois da viagem.",
     serviceType: "Roteiro personalizado de viagem",
   };
 
@@ -60,7 +60,7 @@ const RoteiroSobMedida = () => {
     <div className="min-h-screen">
       <SEO
         title="Roteiro de Viagem Sob Medida — Planejamento Exclusivo"
-        description="Roteiros de viagem personalizados desenhados do zero por um travel designer. Planejamento dia a dia, curadoria de hotéis, experiências exclusivas e suporte completo."
+        description="Roteiros de viagem personalizados desenhados sob medida por um travel designer. Planejamento dia a dia, curadoria de hotéis, experiências exclusivas e suporte completo."
         canonicalPath="/roteiro-sob-medida"
         keywords="roteiro sob medida, roteiro personalizado, viagem sob medida, travel designer, planejador de viagens, agência de viagens personalizada"
         jsonLd={jsonLd}
@@ -78,7 +78,7 @@ const RoteiroSobMedida = () => {
           <div className="gold-line mb-6" />
           <h1 className="heading-hero mb-6">Roteiro de Viagem Sob Medida</h1>
           <p className="text-xl md:text-2xl text-white/90 font-light mb-8">
-            Um planejamento exclusivo desenhado do zero para você. Prefere companhia? Também temos saídas em grupo com curadoria Create Travel — com guia brasileiro desde o Brasil ou guias locais no destino.
+            Um planejamento exclusivo personalizado para você. Prefere companhia? Também temos saídas em grupo com curadoria Create Travel — com guia brasileiro desde o Brasil ou guias locais no destino.
           </p>
           <WhatsAppButton variant="cta" label="Começar meu roteiro" className="text-lg px-8 py-4" />
         </div>

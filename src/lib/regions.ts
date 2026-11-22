@@ -1010,7 +1010,7 @@ export const regions: Region[] = [
       { q: "Dá para combinar cidade e natureza no mesmo roteiro?", a: "Sim, é a combinação mais pedida: uma semana em Nova York ou na Califórnia e outra nos parques do Oeste, com voo interno entre as pontas." },
       { q: "Vale mais dirigir ou ter motorista privativo?", a: "Nos parques e nas roadtrips cênicas, o self-drive com roteiro milimetrado é o mais comum e mais confortável em termos de liberdade. Nas cidades, usamos transfers e motorista privativo. Também montamos o roteiro inteiro com motorista-guia para quem prefere não dirigir." },
       { q: "Os Estados Unidos são um bom destino para lua de mel?", a: "Sim: Big Sur e Napa na Califórnia, hotéis pequenos em Kauai e Maui, e lodges de fiorde no Alasca são as escolhas mais frequentes, com jantares reservados e experiências privativas." },
-      { q: "Como criar meu roteiro nos Estados Unidos?", a: "Fale com nossa curadoria pelo WhatsApp ou clique em Criar roteiro sob medida: desenhamos a viagem do zero conforme período, ritmo, interesses e perfil do grupo." },
+      { q: "Como criar meu roteiro nos Estados Unidos?", a: "Fale com nossa curadoria pelo WhatsApp ou clique em Criar roteiro sob medida: desenhamos uma viagem personalizada conforme período, ritmo, interesses e perfil do grupo." },
     ],
   },
 ];

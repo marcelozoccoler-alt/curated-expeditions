@@ -72,7 +72,7 @@ export const asiaOceaniaExtraDestinations: Destination[] = [
       { q: "Brasileiro precisa de visto para as Filipinas?", a: "Não, para estadias turísticas de até 30 dias o brasileiro está isento de visto, apenas com passaporte válido. Orientamos a documentação completa antes da viagem." },
       { q: "É seguro nadar com tubarões-baleia em Oslob?", a: "Sim, com operadores licenciados e horário reservado antes da chegada das excursões em grupo. A curadoria Create Travel prioriza saídas privativas ao amanhecer, respeitando protocolos de conservação." },
       { q: "Vale combinar Filipinas com outro destino da Ásia?", a: "Sim. Uma extensão comum é Bali ou Cingapura, com voos regionais diretos, formando um roteiro de duas a três semanas pela Ásia insular." },
-      { q: "Como criar meu roteiro pelas Filipinas?", a: "Clique em Criar roteiro sob medida e conte período, ritmo e preferências — desenhamos a travessia do zero, incluindo os barcos privativos." },
+      { q: "Como criar meu roteiro pelas Filipinas?", a: "Clique em Criar roteiro sob medida e conte período, ritmo e preferências — desenhamos uma travessia personalizada, incluindo os barcos privativos." },
     ],
   },
   {
@@ -141,7 +141,7 @@ export const asiaOceaniaExtraDestinations: Destination[] = [
       { q: "Brasileiro precisa de visto para a Mongólia?", a: "Não, para estadias de até 30 dias o brasileiro está isento de visto, com passaporte válido. Orientamos toda a documentação necessária." },
       { q: "Como é a hospedagem durante a expedição?", a: "Em gers tradicionais — tendas de feltro aquecidas — tanto em acampamentos fixos de padrão superior quanto em famílias nômades selecionadas pela curadoria." },
       { q: "A Mongólia é indicada para viajantes sem experiência em expedição?", a: "Sim, desde que o roteiro seja bem dosado. Ajustamos o ritmo de deslocamento e o nível de conforto conforme a experiência prévia do viajante." },
-      { q: "Como criar meu roteiro pela Mongólia?", a: "Clique em Criar roteiro sob medida e conte período, ritmo e preferências — desenhamos a expedição do zero, da capital ao deserto." },
+      { q: "Como criar meu roteiro pela Mongólia?", a: "Clique em Criar roteiro sob medida e conte período, ritmo e preferências — desenhamos uma expedição personalizada, da capital ao deserto." },
     ],
   },
   {
@@ -210,7 +210,7 @@ export const asiaOceaniaExtraDestinations: Destination[] = [
       { q: "Brasileiro precisa de visto para o Nepal?", a: "Sim, o visto pode ser obtido na chegada ao aeroporto de Kathmandu mediante pagamento em dólares e passaporte válido. Orientamos todo o processo antes do embarque." },
       { q: "Quantos dias são necessários para Kathmandu e o Himalaia?", a: "Recomendamos de 10 a 14 dias, somando o vale de Kathmandu, o trekking selecionado e Pokhara como base de descanso." },
       { q: "É possível ver o Everest sem fazer trekking até o acampamento-base?", a: "Sim, o voo panorâmico de hélice sobre a cordilheira mostra o Everest e picos vizinhos em cerca de uma hora, sem exigência física." },
-      { q: "Como criar meu roteiro pelo Nepal?", a: "Clique em Criar roteiro sob medida e conte período, ritmo e preferências — desenhamos a travessia do zero, da capital à cordilheira." },
+      { q: "Como criar meu roteiro pelo Nepal?", a: "Clique em Criar roteiro sob medida e conte período, ritmo e preferências — desenhamos uma travessia personalizada, da capital à cordilheira." },
     ],
   },
   {
@@ -279,7 +279,7 @@ export const asiaOceaniaExtraDestinations: Destination[] = [
       { q: "Brasileiro precisa de visto para o Sri Lanka?", a: "Sim, é necessária a autorização eletrônica ETA, solicitada online antes da viagem. Orientamos todo o processo de emissão." },
       { q: "É seguro fazer safári em Yala?", a: "Sim, com jipes e guias licenciados. A curadoria Create Travel prioriza saídas privativas em horários de menor movimento, com maior chance de avistamento e mais conforto." },
       { q: "Vale combinar Sri Lanka com Índia ou Maldivas?", a: "Sim, ambas são conexões naturais com voos curtos — Maldivas para uma extensão de praia, Índia para aprofundar a imersão cultural na região." },
-      { q: "Como criar meu roteiro pelo Sri Lanka?", a: "Clique em Criar roteiro sob medida e conte período, ritmo e preferências — desenhamos a travessia do zero, das rochas antigas às colinas de chá." },
+      { q: "Como criar meu roteiro pelo Sri Lanka?", a: "Clique em Criar roteiro sob medida e conte período, ritmo e preferências — desenhamos uma travessia personalizada, das rochas antigas às colinas de chá." },
     ],
   },
   {
@@ -348,7 +348,7 @@ export const asiaOceaniaExtraDestinations: Destination[] = [
       { q: "Brasileiro precisa de visto para Fiji?", a: "Não, para estadias de até 4 meses o brasileiro está isento de visto, com passaporte válido e passagem de saída. Orientamos a documentação de apoio." },
       { q: "Quantos dias são necessários para Fiji?", a: "Recomendamos entre 6 e 9 noites, considerando o tempo de voo até o arquipélago e a possibilidade de combinar duas ilhas diferentes." },
       { q: "Vale combinar Fiji com outro destino da Oceania?", a: "Sim, é comum somar Fiji a uma passagem pela Austrália ou Nova Zelândia, aproveitando as conexões aéreas regionais." },
-      { q: "Como criar meu roteiro por Fiji?", a: "Clique em Criar roteiro sob medida e conte período, ritmo e preferências — desenhamos a viagem do zero, incluindo a ilha privativa ideal." },
+      { q: "Como criar meu roteiro por Fiji?", a: "Clique em Criar roteiro sob medida e conte período, ritmo e preferências — desenhamos uma viagem personalizada, incluindo a ilha privativa ideal." },
     ],
   },
 ];

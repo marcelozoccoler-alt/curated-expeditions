@@ -45,7 +45,7 @@ line(
 );
 line();
 line(
-  "Curadoria autoral: não vende pacote de prateleira. Roteiros privativos desenhados do zero, viagens em grupo com coordenador brasileiro, circuitos com guia local no destino, cruzeiros fluviais e receptivo Brasil multilíngue. Hotéis conhecidos pessoalmente pela equipe, guias locais selecionados, contrato e voucher formais, suporte 24/7 por WhatsApp. Quando um roteiro não tem valor fechado, é publicado como \"sob consulta\" — nunca estimado.",
+  "Curadoria autoral: não vende pacote de prateleira. Roteiros privativos desenhados sob medida, viagens em grupo com coordenador brasileiro, circuitos com guia local no destino, cruzeiros fluviais e receptivo Brasil multilíngue. Hotéis conhecidos pessoalmente pela equipe, guias locais selecionados, contrato e voucher formais, suporte 24/7 por WhatsApp. Quando um roteiro não tem valor fechado, é publicado como \"sob consulta\" — nunca estimado.",
 );
 line();
 line("Público atendido: viajantes exigentes, famílias, casais, grupos privados e empresas.");

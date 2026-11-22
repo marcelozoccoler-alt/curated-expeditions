@@ -71,7 +71,7 @@ export const orienteMedioExtraDestinations: Destination[] = [
       { q: "Brasileiro precisa de visto para Omã?", a: "Sim, é necessário visto eletrônico, solicitado online com antecedência. A curadoria Create Travel orienta toda a documentação e prazos." },
       { q: "Omã é seguro para viajar?", a: "Sim, é considerado um dos destinos mais seguros e hospitaleiros do Oriente Médio, com infraestrutura turística sólida e população acolhedora." },
       { q: "Vale combinar Omã com outros destinos do Golfo?", a: "Combinações naturais incluem Dubai, Abu Dhabi ou Qatar, com voos curtos entre as capitais — ideais para somar litoral urbano e deserto autêntico numa mesma viagem." },
-      { q: "Como criar meu roteiro para Omã?", a: "Clique em Criar roteiro sob medida e conte período, ritmo e preferências — desenhamos a viagem do zero." },
+      { q: "Como criar meu roteiro para Omã?", a: "Clique em Criar roteiro sob medida e conte período, ritmo e preferências — desenhamos uma viagem personalizada." },
     ],
   },
   {
@@ -140,7 +140,7 @@ export const orienteMedioExtraDestinations: Destination[] = [
       { q: "Brasileiro precisa de visto para o Catar?", a: "Não é necessário visto para estadas turísticas de até 30 dias, apenas passaporte válido. A curadoria Create Travel confirma as regras vigentes conforme a data da viagem." },
       { q: "Vale a pena combinar o Catar com outros destinos do Golfo?", a: "Sim. Doha conecta-se facilmente com Dubai, Abu Dhabi e Omã, com voos curtos que permitem somar cidade, deserto e litoral numa única viagem." },
       { q: "O Catar é indicado para viagem em família?", a: "Sim. Museus interativos, o aquário de Doha e passeios de 4x4 no deserto agradam diferentes idades, com logística confortável e curta." },
-      { q: "Como criar meu roteiro para o Catar?", a: "Clique em Criar roteiro sob medida e conte período, ritmo e preferências — desenhamos a viagem do zero." },
+      { q: "Como criar meu roteiro para o Catar?", a: "Clique em Criar roteiro sob medida e conte período, ritmo e preferências — desenhamos uma viagem personalizada." },
     ],
   },
   {
@@ -209,7 +209,7 @@ export const orienteMedioExtraDestinations: Destination[] = [
       { q: "Brasileiro precisa de visto para a Arábia Saudita?", a: "Sim, é necessário visto eletrônico de turismo, emitido online. A curadoria Create Travel orienta toda a documentação necessária." },
       { q: "É seguro viajar para a Arábia Saudita?", a: "Sim, o país investe fortemente em infraestrutura turística desde a abertura ao turismo internacional, com áreas como AlUla estruturadas especificamente para receber visitantes estrangeiros." },
       { q: "Existe algum código de vestimenta a respeitar?", a: "Recomenda-se vestimenta modesta em locais públicos, sem exigência de véu para visitantes estrangeiras. A curadoria orienta detalhes práticos antes da viagem." },
-      { q: "Como criar meu roteiro para AlUla?", a: "Clique em Criar roteiro sob medida e conte período, ritmo e preferências — desenhamos a viagem do zero." },
+      { q: "Como criar meu roteiro para AlUla?", a: "Clique em Criar roteiro sob medida e conte período, ritmo e preferências — desenhamos uma viagem personalizada." },
     ],
   },
   {
@@ -278,7 +278,7 @@ export const orienteMedioExtraDestinations: Destination[] = [
       { q: "Brasileiro precisa de visto para Bareine?", a: "Sim, é necessário visto eletrônico de turismo, com emissão simples e rápida online. A curadoria Create Travel orienta o processo." },
       { q: "Vale combinar Bareine com outros destinos do Golfo?", a: "Sim, Bareine conecta-se facilmente com o Catar e a Arábia Saudita, complementando um roteiro dedicado à história e à arquitetura contemporânea do Golfo." },
       { q: "Bareine é indicado para quem busca mergulho?", a: "Sim, os bancos de pérolas naturais e os recifes preservados no sul do arquipélago oferecem mergulho e snorkel em águas ainda pouco exploradas por turistas." },
-      { q: "Como criar meu roteiro para Bareine?", a: "Clique em Criar roteiro sob medida e conte período, ritmo e preferências — desenhamos a viagem do zero." },
+      { q: "Como criar meu roteiro para Bareine?", a: "Clique em Criar roteiro sob medida e conte período, ritmo e preferências — desenhamos uma viagem personalizada." },
     ],
   },
 ];

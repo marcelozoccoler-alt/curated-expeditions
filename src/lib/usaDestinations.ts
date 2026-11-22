@@ -73,7 +73,7 @@ export const usaDestinations: Destination[] = [
       { q: "Brasileiro precisa de visto para os Estados Unidos?", a: "Sim, é necessário o visto americano B1/B2 válido e o passaporte com validade compatível. Orientamos o processo e o cronograma de agendamento, que pode ser longo — recomendamos iniciar com bastante antecedência." },
       { q: "Nova York é boa para viajar em família?", a: "Sim. Desenhamos roteiros com ritmo adequado a cada idade: museus com atividades, parques, um musical na Broadway e deslocamentos curtos, evitando o cansaço típico de quem tenta ver tudo." },
       { q: "Vale combinar Nova York com outros destinos?", a: "Combinações naturais: Washington D.C. e Boston de trem, Hudson Valley em bate-volta, ou uma segunda semana na Costa Oeste." },
-      { q: "Como criar meu roteiro?", a: "Clique em Criar roteiro sob medida e conte período, ritmo e preferências — desenhamos a viagem do zero." },
+      { q: "Como criar meu roteiro?", a: "Clique em Criar roteiro sob medida e conte período, ritmo e preferências — desenhamos uma viagem personalizada." },
     ],
     itineraries: [
       {

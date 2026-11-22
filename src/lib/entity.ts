@@ -223,7 +223,7 @@ export const organizationLd = {
           "@type": "Trip",
           name: "Roteiros sob medida",
           description:
-            "Roteiros privativos desenhados do zero por travel designers, com curadoria autoral de hotéis, ritmo e experiências.",
+            "Roteiros privativos desenhados sob medida por travel designers, com curadoria autoral de hotéis, ritmo e experiências.",
         },
       },
       {

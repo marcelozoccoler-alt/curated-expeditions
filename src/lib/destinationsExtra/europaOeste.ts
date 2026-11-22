@@ -73,7 +73,7 @@ export const europaOesteExtraDestinations: Destination[] = [
       { q: "Vale a pena visitar o Louvre com guia privado?", a: "Sim. Um historiador da arte fora do horário público transforma uma visita cansativa em uma experiência de duas horas, focada nas obras que realmente importam para você." },
       { q: "Paris é boa para lua de mel?", a: "É um clássico por bons motivos: cenários íntimos, gastronomia refinada e a possibilidade de curar cada detalhe — do jantar em apartamento privado ao passeio de barco só a dois." },
       { q: "Vale combinar Paris com outros destinos da França?", a: "Sim. Loire fica a menos de duas horas de trem para castelos e vinhos; Provence pode ser combinada com voo curto ou TGV para completar duas semanas na região." },
-      { q: "Como criar meu roteiro?", a: "Clique em Criar roteiro sob medida e conte período, ritmo e preferências — desenhamos a viagem do zero." },
+      { q: "Como criar meu roteiro?", a: "Clique em Criar roteiro sob medida e conte período, ritmo e preferências — desenhamos uma viagem personalizada." },
     ],
   },
   {
@@ -142,7 +142,7 @@ export const europaOesteExtraDestinations: Destination[] = [
       { q: "Provence é boa para quem gosta de vinho?", a: "Sim. O Vale do Rhône e os arredores de Aix concentram adegas familiares que recebem com visita guiada e degustação, muitas vezes conduzidas pelo próprio enólogo." },
       { q: "É preciso alugar carro em Provence?", a: "Recomendamos fortemente. Os vilarejos mais autênticos e as melhores adegas ficam fora das rotas de ônibus turístico; motorista particular também é uma opção sem perder flexibilidade." },
       { q: "Vale combinar Provence com Paris ou a Riviera Francesa?", a: "Sim. Paris-Provence é natural via TGV em cerca de três horas; a Côte d'Azur e Mônaco ficam a menos de duas horas de carro, completando um roteiro de sul da França." },
-      { q: "Como criar meu roteiro?", a: "Clique em Criar roteiro sob medida e conte período, ritmo e preferências — desenhamos a viagem do zero." },
+      { q: "Como criar meu roteiro?", a: "Clique em Criar roteiro sob medida e conte período, ritmo e preferências — desenhamos uma viagem personalizada." },
     ],
   },
   {
@@ -211,7 +211,7 @@ export const europaOesteExtraDestinations: Destination[] = [
       { q: "Quantos dias reservar para o Vale do Loire?", a: "De 2 a 3 noites são suficientes para os castelos essenciais e uma tarde de degustação, ideal como extensão de uma viagem a Paris." },
       { q: "O Loire é bom para quem gosta de vinho?", a: "Sim. A região produz brancos e espumantes reconhecidos, com adegas familiares que recebem visitantes em cavernas escavadas na rocha calcária." },
       { q: "Vale combinar o Loire com Paris?", a: "É a combinação mais natural: menos de duas horas de trem ou carro separam Paris dos primeiros castelos, permitindo uma extensão de dois a três dias sem complicação logística." },
-      { q: "Como criar meu roteiro?", a: "Clique em Criar roteiro sob medida e conte período, ritmo e preferências — desenhamos a viagem do zero." },
+      { q: "Como criar meu roteiro?", a: "Clique em Criar roteiro sob medida e conte período, ritmo e preferências — desenhamos uma viagem personalizada." },
     ],
   },
   {
@@ -280,7 +280,7 @@ export const europaOesteExtraDestinations: Destination[] = [
       { q: "Vale a pena reservar entrada antecipada para a Alhambra?", a: "É essencial. Os ingressos para os Palácios Nazaridas esgotam com semanas de antecedência e o acesso fora do horário público garante a experiência sem multidão." },
       { q: "O flamenco em tablao vale a experiência?", a: "Sim, especialmente em salas pequenas e menos turísticas de Sevilha, Jerez ou Granada, onde a apresentação mantém a intensidade original da tradição." },
       { q: "Vale combinar a Andaluzia com Madri ou Portugal?", a: "Sim. Madri é natural via trem de alta velocidade em pouco mais de duas horas; o sul de Portugal também pode ser incluído em roteiros mais longos pela Península Ibérica." },
-      { q: "Como criar meu roteiro?", a: "Clique em Criar roteiro sob medida e conte período, ritmo e preferências — desenhamos a viagem do zero." },
+      { q: "Como criar meu roteiro?", a: "Clique em Criar roteiro sob medida e conte período, ritmo e preferências — desenhamos uma viagem personalizada." },
     ],
   },
   {
@@ -349,7 +349,7 @@ export const europaOesteExtraDestinations: Destination[] = [
       { q: "Qual a diferença entre San Sebastián e Bilbao?", a: "San Sebastián é praia, pintxos e ritmo de balneário elegante; Bilbao é cidade industrial reinventada pela arquitetura e arte contemporânea, com o Guggenheim como símbolo." },
       { q: "O País Basco é bom para quem não é fluente em espanhol?", a: "Sim, com guias locais bilíngues a experiência gastronômica e cultural se aprofunda sem qualquer barreira de comunicação." },
       { q: "Vale combinar o País Basco com o resto da Espanha ou com a França?", a: "Sim. Madri fica a pouco mais de duas horas de trem de alta velocidade; a costa basca francesa e Biarritz ficam a menos de uma hora de carro." },
-      { q: "Como criar meu roteiro?", a: "Clique em Criar roteiro sob medida e conte período, ritmo e preferências — desenhamos a viagem do zero." },
+      { q: "Como criar meu roteiro?", a: "Clique em Criar roteiro sob medida e conte período, ritmo e preferências — desenhamos uma viagem personalizada." },
     ],
   },
   {
@@ -418,7 +418,7 @@ export const europaOesteExtraDestinations: Destination[] = [
       { q: "Vale visitar o Prado com guia privado?", a: "Sim. O acervo é vasto e um historiador de arte ajuda a focar nas obras certas, evitando a fadiga de museu comum a quem tenta ver tudo sozinho." },
       { q: "Toledo é um bom bate-volta a partir de Madri?", a: "Sim, a menos de uma hora de carro ou trem, Toledo condensa história moura, judaica e cristã em um só passeio de dia inteiro." },
       { q: "Vale combinar Madri com Andaluzia?", a: "Sim, o trem de alta velocidade liga Madri a Sevilha e Córdoba em pouco mais de duas horas, tornando a combinação simples e confortável." },
-      { q: "Como criar meu roteiro?", a: "Clique em Criar roteiro sob medida e conte período, ritmo e preferências — desenhamos a viagem do zero." },
+      { q: "Como criar meu roteiro?", a: "Clique em Criar roteiro sob medida e conte período, ritmo e preferências — desenhamos uma viagem personalizada." },
     ],
   },
   {
@@ -487,7 +487,7 @@ export const europaOesteExtraDestinations: Destination[] = [
       { q: "É preciso reservar com antecedência para Neuschwanstein?", a: "Sim, os ingressos esgotam rapidamente em alta temporada. Coordenamos a reserva junto ao planejamento do roteiro para evitar filas." },
       { q: "A Baviera é boa para quem gosta de trilhas?", a: "Sim, os Alpes bávaros oferecem desde caminhadas leves até trilhas mais técnicas próximas ao Zugspitze, com paisagens alpinas clássicas." },
       { q: "Vale combinar a Baviera com a Suíça ou a Áustria?", a: "Sim, os Alpes bávaros conectam-se naturalmente ao Tirol austríaco e à região dos lagos suíços, formando um roteiro alpino mais amplo." },
-      { q: "Como criar meu roteiro?", a: "Clique em Criar roteiro sob medida e conte período, ritmo e preferências — desenhamos a viagem do zero." },
+      { q: "Como criar meu roteiro?", a: "Clique em Criar roteiro sob medida e conte período, ritmo e preferências — desenhamos uma viagem personalizada." },
     ],
   },
   {
@@ -556,7 +556,7 @@ export const europaOesteExtraDestinations: Destination[] = [
       { q: "Qual a melhor época para os trens panorâmicos suíços?", a: "Junho a setembro garante paisagens verdes e visibilidade máxima; dezembro a março oferece a paisagem nevada clássica, com trajetos igualmente espetaculares." },
       { q: "A Suíça é boa para quem não pratica esqui?", a: "Sim. Trens panorâmicos, spas termais, trilhas leves e gastronomia alpina oferecem uma imersão completa sem necessidade de esportes de inverno." },
       { q: "Vale combinar a Suíça com a Baviera ou a Itália do Norte?", a: "Sim. O Bernina Express já conecta naturalmente a Suíça ao norte da Itália; a Baviera fica a poucas horas de trem ou carro a partir de Zurique." },
-      { q: "Como criar meu roteiro?", a: "Clique em Criar roteiro sob medida e conte período, ritmo e preferências — desenhamos a viagem do zero." },
+      { q: "Como criar meu roteiro?", a: "Clique em Criar roteiro sob medida e conte período, ritmo e preferências — desenhamos uma viagem personalizada." },
     ],
   },
   {
@@ -625,7 +625,7 @@ export const europaOesteExtraDestinations: Destination[] = [
       { q: "Os Países Baixos são bons para viagem em família?", a: "Sim. Ciclovias seguras, museus interativos e vilarejos compactos tornam a logística simples mesmo com crianças pequenas." },
       { q: "É fácil se locomover de bicicleta em Amsterdã?", a: "Sim, a infraestrutura cicloviária é uma das melhores do mundo, mas recomendamos orientação local nos primeiros trajetos para se adaptar ao fluxo intenso de ciclistas." },
       { q: "Vale combinar os Países Baixos com Bélgica?", a: "Sim, Bruxelas e Bruges ficam a menos de duas horas de trem de Amsterdã, permitindo uma extensão natural pelo Benelux." },
-      { q: "Como criar meu roteiro?", a: "Clique em Criar roteiro sob medida e conte período, ritmo e preferências — desenhamos a viagem do zero." },
+      { q: "Como criar meu roteiro?", a: "Clique em Criar roteiro sob medida e conte período, ritmo e preferências — desenhamos uma viagem personalizada." },
     ],
   },
   {
@@ -694,7 +694,7 @@ export const europaOesteExtraDestinations: Destination[] = [
       { q: "A Flandres é boa para quem gosta de cerveja?", a: "Sim, é uma das regiões cervejeiras mais respeitadas do mundo, com tradição trapista reconhecida pela Unesco como patrimônio cultural imaterial." },
       { q: "Vale visitar a Flandres no inverno?", a: "Dezembro é especialmente encantador, com mercados natalinos nas praças históricas e iluminação que realça a arquitetura medieval." },
       { q: "Vale combinar a Flandres com os Países Baixos?", a: "Sim, Bruxelas e Amsterdã ficam a menos de duas horas de trem, formando um roteiro natural pelo Benelux." },
-      { q: "Como criar meu roteiro?", a: "Clique em Criar roteiro sob medida e conte período, ritmo e preferências — desenhamos a viagem do zero." },
+      { q: "Como criar meu roteiro?", a: "Clique em Criar roteiro sob medida e conte período, ritmo e preferências — desenhamos uma viagem personalizada." },
     ],
   },
   {
@@ -763,7 +763,7 @@ export const europaOesteExtraDestinations: Destination[] = [
       { q: "Qual a melhor época para trekking em Andorra?", a: "Junho a setembro, quando a neve derrete nos passos de montanha e os lagos glaciais ficam acessíveis por trilha." },
       { q: "Andorra é boa para quem busca destinos menos óbvios na Europa?", a: "Sim, é um dos principados menos visitados por turistas brasileiros, com paisagem pirenaica de nível internacional e infraestrutura de conforto elevada." },
       { q: "Vale combinar Andorra com Barcelona ou o sul da França?", a: "Sim. Barcelona fica a cerca de três horas de carro; Toulouse, na França, fica a pouco mais de duas horas, ambas conexões naturais para completar o roteiro." },
-      { q: "Como criar meu roteiro?", a: "Clique em Criar roteiro sob medida e conte período, ritmo e preferências — desenhamos a viagem do zero." },
+      { q: "Como criar meu roteiro?", a: "Clique em Criar roteiro sob medida e conte período, ritmo e preferências — desenhamos uma viagem personalizada." },
     ],
   },
   {
@@ -832,7 +832,7 @@ export const europaOesteExtraDestinations: Destination[] = [
       { q: "Mônaco é bom para lua de mel?", a: "Sim, especialmente combinado a um passeio de iate privativo e jantares com vista para o porto — o glamour do principado tem apelo romântico natural." },
       { q: "É preciso passaporte para entrar em Mônaco?", a: "Não há fronteira formal vindo da França; o principado integra a zona de livre circulação, mas recomendamos sempre portar documento de identificação." },
       { q: "Vale combinar Mônaco com a Riviera Francesa e a Itália?", a: "Sim. Nice, Cannes e Èze ficam a poucos minutos; Sanremo, na Itália, fica a menos de uma hora de carro, permitindo estender o roteiro por duas costas." },
-      { q: "Como criar meu roteiro?", a: "Clique em Criar roteiro sob medida e conte período, ritmo e preferências — desenhamos a viagem do zero." },
+      { q: "Como criar meu roteiro?", a: "Clique em Criar roteiro sob medida e conte período, ritmo e preferências — desenhamos uma viagem personalizada." },
     ],
   },
 ];

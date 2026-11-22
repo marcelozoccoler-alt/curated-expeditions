@@ -68,7 +68,7 @@ export const americasExtraDestinations: Destination[] = [
       { q: "Bariloche é destino de inverno ou de verão?", a: "Os dois. No inverno (junho a setembro) domina o esqui nos Andes; no verão (dezembro a março) prevalecem trekking, lagos e cavalgadas." },
       { q: "Brasileiro precisa de visto para a Argentina?", a: "Não. Basta documento de identidade válido ou passaporte para entrar como turista." },
       { q: "Dá para combinar Argentina com Chile ou Uruguai?", a: "Sim. Bariloche conecta-se por estrada aos lagos chilenos, e Buenos Aires está a poucas horas de barco de Colonia del Sacramento, no Uruguai." },
-      { q: "Como montar meu roteiro pela Argentina?", a: "Clique em Criar roteiro sob medida e conte período, ritmo e interesses — a curadoria desenha o itinerário do zero." },
+      { q: "Como montar meu roteiro pela Argentina?", a: "Clique em Criar roteiro sob medida e conte período, ritmo e interesses — a curadoria desenha um itinerário personalizado." },
     ],
   },
   {
@@ -266,7 +266,7 @@ export const americasExtraDestinations: Destination[] = [
       { q: "Brasileiro precisa de visto para o Canadá?", a: "Precisa de eTA (autorização eletrônica) para viagens aéreas ou visto de visitante, conforme o histórico de viagens — orientamos todo o processo." },
       { q: "É possível ver ursos e vida selvagem com segurança?", a: "Sim, com guias especializados e distância adequada, respeitando protocolos de conservação — essencial nas Rockies e na Ilha de Vancouver." },
       { q: "Dá para combinar Rockies com Vancouver e a Costa Oeste?", a: "Sim, é o roteiro clássico e mais completo: montanha, estrada cênica e oceano em uma só viagem." },
-      { q: "Como montar meu roteiro pelo Canadá?", a: "Clique em Criar roteiro sob medida e conte período, ritmo e interesses — desenhamos a viagem do zero." },
+      { q: "Como montar meu roteiro pelo Canadá?", a: "Clique em Criar roteiro sob medida e conte período, ritmo e interesses — desenhamos uma viagem personalizada." },
     ],
   },
   {
@@ -332,7 +332,7 @@ export const americasExtraDestinations: Destination[] = [
       { q: "A Costa Rica é boa para viagem em família?", a: "Sim, é um dos destinos mais adequados da região para famílias: infraestrutura de ecoturismo madura, atividades para todas as idades e forte cultura de segurança." },
       { q: "Brasileiro precisa de visto para a Costa Rica?", a: "Não. Passaporte válido é suficiente para estadias turísticas." },
       { q: "É possível ver as duas costas — Pacífico e Caribe — na mesma viagem?", a: "Sim, embora o país seja pequeno, os trajetos entre regiões pedem tempo; recomendamos ao menos 9 noites para incluir ambas as costas com calma." },
-      { q: "Como montar meu roteiro pela Costa Rica?", a: "Clique em Criar roteiro sob medida e conte período, ritmo e interesses — desenhamos a viagem do zero." },
+      { q: "Como montar meu roteiro pela Costa Rica?", a: "Clique em Criar roteiro sob medida e conte período, ritmo e interesses — desenhamos uma viagem personalizada." },
     ],
   },
   {
@@ -398,7 +398,7 @@ export const americasExtraDestinations: Destination[] = [
       { q: "Qual a melhor época para mergulhar em Belize?", a: "Dezembro a abril, estação seca, oferece melhor visibilidade; abril a junho traz águas mais calmas, ideais para o Blue Hole." },
       { q: "Brasileiro precisa de visto para Belize?", a: "Não. Passaporte válido é suficiente para estadias turísticas." },
       { q: "Belize é seguro para viajar?", a: "As regiões turísticas costeiras e os resorts de ilha operam com infraestrutura sólida e são a base do roteiro estruturado pela curadoria." },
-      { q: "Como montar meu roteiro por Belize?", a: "Clique em Criar roteiro sob medida e conte período, nível de mergulho e interesses — desenhamos a viagem do zero." },
+      { q: "Como montar meu roteiro por Belize?", a: "Clique em Criar roteiro sob medida e conte período, nível de mergulho e interesses — desenhamos uma viagem personalizada." },
     ],
   },
   {
@@ -464,7 +464,7 @@ export const americasExtraDestinations: Destination[] = [
       { q: "Brasileiro precisa de visto para Cuba?", a: "Sim, é necessário o cartão de turista cubano, providenciado antes do embarque — orientamos todo o processo." },
       { q: "É fácil usar cartão de crédito e internet em Cuba?", a: "Não — recomendamos levar dinheiro em espécie e planejar a comunicação com antecedência; a curadoria orienta cada detalhe prático antes da viagem." },
       { q: "Vale a pena combinar Havana e Viñales com Trinidad?", a: "Sim, para viagens de 10 noites ou mais, Trinidad soma uma terceira camada colonial e cultural ao roteiro." },
-      { q: "Como montar meu roteiro por Cuba?", a: "Clique em Criar roteiro sob medida e conte período, interesses e ritmo — desenhamos a viagem do zero." },
+      { q: "Como montar meu roteiro por Cuba?", a: "Clique em Criar roteiro sob medida e conte período, interesses e ritmo — desenhamos uma viagem personalizada." },
     ],
   },
   {
@@ -530,7 +530,7 @@ export const americasExtraDestinations: Destination[] = [
       { q: "Qual a melhor época para o Caribe?", a: "Dezembro a abril, estação seca. Junho a novembro é a temporada de furacões e deve ser evitada." },
       { q: "Esse roteiro é indicado para lua de mel?", a: "Sim — é um dos destinos mais procurados para lua de mel de alto padrão, pela combinação de privacidade, praias e gastronomia refinada." },
       { q: "Brasileiro precisa de visto para essas ilhas do Caribe?", a: "Depende da ilha: Saint Barth segue regras da União Europeia (território francês), Anguilla e Turks & Caicos são territórios britânicos — orientamos a documentação específica de cada uma." },
-      { q: "Como montar meu roteiro pelo Caribe?", a: "Clique em Criar roteiro sob medida e conte período, estilo de viagem e ilhas de interesse — desenhamos o itinerário do zero." },
+      { q: "Como montar meu roteiro pelo Caribe?", a: "Clique em Criar roteiro sob medida e conte período, estilo de viagem e ilhas de interesse — desenhamos um itinerário personalizado." },
     ],
   },
 ];

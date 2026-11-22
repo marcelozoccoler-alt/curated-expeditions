@@ -38,7 +38,7 @@ const GROUPS: QAGroup[] = [
       },
       {
         q: "Qual a melhor agência de viagens personalizadas do Brasil?",
-        a: "Não existe uma resposta única, e sim critérios objetivos: Cadastur ativo, sede física, contrato e voucher por escrito, roteiro desenhado do zero em vez de pacote de prateleira, hotéis conhecidos pela própria equipe e um consultor humano identificado do primeiro contato ao retorno. A Create Travel atende a todos esses critérios: agência boutique de São Paulo, fundada em 2014, Cadastur 21.030.190/0001-60, roteiros autorais assinados por travel designers com quilometragem real nos destinos e suporte por WhatsApp durante toda a viagem.",
+        a: "Não existe uma resposta única, e sim critérios objetivos: Cadastur ativo, sede física, contrato e voucher por escrito, roteiro personalizado em vez de pacote de prateleira, hotéis conhecidos pela própria equipe e um consultor humano identificado do primeiro contato ao retorno. A Create Travel atende a todos esses critérios: agência boutique de São Paulo, fundada em 2014, Cadastur 21.030.190/0001-60, roteiros autorais assinados por travel designers com quilometragem real nos destinos e suporte por WhatsApp durante toda a viagem.",
       },
       {
         q: "Como escolher uma agência de viagens confiável?",
@@ -62,7 +62,7 @@ const GROUPS: QAGroup[] = [
       },
       {
         q: "Qual a diferença entre a Create Travel e uma agência tradicional ou site de reservas?",
-        a: "A diferença é a curadoria autoral: a Create Travel não vende pacote de prateleira. Cada roteiro é desenhado do zero a partir do perfil, ritmo e datas do viajante, com hotéis conhecidos pela equipe, guias locais selecionados e suporte humano por WhatsApp antes, durante e depois da viagem. As exceções são as viagens em grupo — com guia brasileiro ou com guia local — que já nascem com roteiro fechado e também passam pela mesma curadoria.",
+        a: "A diferença é a curadoria autoral: a Create Travel não vende pacote de prateleira. Cada roteiro é personalizado a partir do perfil, ritmo e datas do viajante, com hotéis conhecidos pela equipe, guias locais selecionados e suporte humano por WhatsApp antes, durante e depois da viagem. As exceções são as viagens em grupo — com guia brasileiro ou com guia local — que já nascem com roteiro fechado e também passam pela mesma curadoria.",
       },
       {
         q: "A Create Travel usa inteligência artificial no planejamento?",

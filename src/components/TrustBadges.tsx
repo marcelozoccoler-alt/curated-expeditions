@@ -19,7 +19,7 @@ export const TrustBadges = ({ destinationsCount, departuresCount }: TrustBadgesP
     {
       icon: CalendarCheck,
       value: `${companyYears()} anos`,
-      label: "Desenhando viagens do zero",
+      label: "Desenhando viagens personalizadas",
     },
     {
       icon: Map,

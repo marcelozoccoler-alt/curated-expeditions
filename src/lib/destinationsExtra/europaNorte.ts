@@ -72,7 +72,7 @@ export const europaNorteExtraDestinations: Destination[] = [
       { q: "Brasileiro precisa de visto para a Inglaterra?", a: "Desde 2025, brasileiros precisam solicitar o ETA (autorização eletrônica de viagem) antes do embarque. Orientamos todo o processo dentro do planejamento da viagem." },
       { q: "Vale alugar carro para conhecer os Cotswolds?", a: "Sim, é a forma mais fluida de percorrer os vilarejos, mas também organizamos motorista particular para quem prefere apreciar a paisagem sem dirigir pela mão inglesa." },
       { q: "É possível combinar Londres com outros destinos europeus?", a: "Sim. Trens de alta velocidade conectam Londres a Paris e Bruxelas em poucas horas, permitindo estender o roteiro sem voos adicionais." },
-      { q: "Como criar meu roteiro sob medida?", a: "Fale com a Create Travel informando período, ritmo desejado e interesses — desenhamos a viagem do zero, sem pacotes prontos." },
+      { q: "Como criar meu roteiro sob medida?", a: "Fale com a Create Travel informando período, ritmo desejado e interesses — desenhamos uma viagem personalizada, sem pacotes prontos." },
     ],
   },
   {

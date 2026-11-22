@@ -87,7 +87,7 @@ const Index = () => {
               Roteiros sob medida com curadoria autoral. Experiências autênticas, exclusivas e com propósito — para quem busca profundidade.
             </p>
             <p className="text-sm md:text-base text-white/70 mb-10 max-w-2xl mx-auto font-light italic">
-              Há {companyYears()} anos desenhando viagens do zero para África, Oriente Médio, Ásia, Oceania, Europa, América do Norte, América Central, América do Sul, Caribe e Antártida.
+              Há {companyYears()} anos desenhando viagens personalizadas para África, Oriente Médio, Ásia, Oceania, Europa, América do Norte, América Central, América do Sul, Caribe e Antártida.
             </p>
             <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
               <WhatsAppButton
@@ -441,7 +441,7 @@ const Index = () => {
                 to: "/roteiro-sob-medida",
                 icon: Compass,
                 title: "Roteiros Personalizados",
-                desc: "Cada viagem é desenhada do zero, ouvindo suas preferências, seu ritmo e seu estilo. Para quem prefere companhia, há nossas saídas em grupo curadas.",
+                desc: "Cada viagem é personalizada, ouvindo suas preferências, seu ritmo e seu estilo. Para quem prefere companhia, há nossas saídas em grupo curadas.",
               },
               {
                 to: "/grupos-guia-brasileiro",
