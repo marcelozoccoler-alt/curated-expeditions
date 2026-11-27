@@ -1,5 +1,7 @@
 # Roadmap
 
+- [x] Filme v29: Marcelo na estátua de Budapeste (40,3–41,9s) trocado por outra viajante; foto distorcida da Divanir após o jantar medieval (497,8–500,4s) trocada por selfie natural; textos e créditos removidos do mosaico Deesis de Santa Sofia (577,3–586,8s; imagem CC0/PD-Art). Chora já sem textos. Áudio idêntico à v28. Sem publicar.
+
 - [x] Filme v28: usuário confirmou somente a primeira foto de grupo no Pera. Retoque mínimo no rosto original em 673,4–679s; segunda foto preservada como na v26. Resultados generativos descartados por mudar identidade. Ambas as cenas conferidas; áudio SHA256 idêntico e duração 768,24s preservada. Sem publicação.
 
 - [x] Filme v26: retiradas as etiquetas sobre as três fotografias próprias de Chora em 573,04–577,32s e 586,8–602,96s. Fotos originais sem alteração, quadros de todas as cenas vistos, áudio idêntico (SHA256), 768,24s/19206 quadros preservados; créditos externos de Santa Sofia mantidos. Sem publicação.
