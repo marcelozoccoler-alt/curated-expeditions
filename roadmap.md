@@ -1,6 +1,6 @@
 # Roadmap
 
-- [ ] Filme v27: retoque discreto e localizado do rosto de Marcelo nas fotos de grupo do Pera, preservando originais, outros rostos e áudio; conferir antes de entregar, sem publicar.
+- [x] Filme v28: usuário confirmou somente a primeira foto de grupo no Pera. Retoque mínimo no rosto original em 673,4–679s; segunda foto preservada como na v26. Resultados generativos descartados por mudar identidade. Ambas as cenas conferidas; áudio SHA256 idêntico e duração 768,24s preservada. Sem publicação.
 
 - [x] Filme v26: retiradas as etiquetas sobre as três fotografias próprias de Chora em 573,04–577,32s e 586,8–602,96s. Fotos originais sem alteração, quadros de todas as cenas vistos, áudio idêntico (SHA256), 768,24s/19206 quadros preservados; créditos externos de Santa Sofia mantidos. Sem publicação.
 
