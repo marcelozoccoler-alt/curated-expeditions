@@ -19,9 +19,16 @@ export const islandiaAuroraBorealMarco2027: LocalGuideGroup = {
   category: "Premium",
   days: 8,
   nights: 7,
-  priceEur: 0,
+  priceEur: 5210,
+  singleSupplementEur: 1480,
+  payment: { entry: "30%", balance: "3 parcelas no cartão de crédito" },
+  priceExtras: [
+    { label: "Voos Lisboa–Keflavík–Lisboa (FI955 / FI954)", valueEur: 520 },
+    { label: "Pacote de refeições (6 almoços + 6 jantares)", valueEur: 1620 },
+    { label: "Upgrade The Retreat at Blue Lagoon (última noite)", valueEur: 950 },
+  ],
   priceNote:
-    "Forma de pagamento: 30% de entrada e saldo em 3 parcelas no cartão de crédito. Saída de Lisboa em 14/03/2027 (voo FI955) e regresso em 21/03/2027 (FI954). O aéreo Brasil–Lisboa é cotado à parte pela Create Travel. Upgrade opcional na última noite para The Retreat at Blue Lagoon (Junior Suite) com suplemento de € 950.",
+    "Saída de Lisboa em 14/03/2027 e regresso em 21/03/2027. O valor acima é a parte terrestre: voos, pacote de refeições e upgrade são itens à parte, listados abaixo.",
   countries: ["Islândia"],
   area: "Europa",
   hotels: [

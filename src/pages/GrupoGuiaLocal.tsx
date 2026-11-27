@@ -35,8 +35,10 @@ import {
   formatDeparture,
   MONTHS_PT,
   LOCAL_GUIDE_INCLUDED,
-  LOCAL_GUIDE_NOT_INCLUDED,
   localGuidePriceLabel,
+  localGuidePaymentSummary,
+  localGuideFlightNote,
+  localGuideNotIncluded,
 } from "@/lib/localGuideGroups";
 
 const DOMAIN = CONTACT.domain.replace(/\/$/, "");
@@ -107,11 +109,13 @@ const GrupoGuiaLocal = () => {
     },
     {
       q: "Quanto custa e como pago?",
-      a: `A partir de ${priceLabel} por pessoa em apartamento duplo${group.singleSupplementEur ? ` (suplemento individual de ${currencySymbol} ${group.singleSupplementEur.toLocaleString("pt-BR")})` : ""}. O pagamento da parte terrestre segue a mesma condição dos nossos grupos: entrada de 25% no ato da reserva e o saldo em até 9x sem juros no cartão de crédito. A parte aérea é cotada à parte e o parcelamento depende da companhia aérea escolhida.`,
+      a: `A partir de ${priceLabel} por pessoa em apartamento duplo${group.singleSupplementEur ? ` (suplemento individual de ${currencySymbol} ${group.singleSupplementEur.toLocaleString("pt-BR")})` : ""}. O pagamento deste grupo: ${localGuidePaymentSummary(group)}. ${localGuideFlightNote(group)}`,
     },
     {
       q: "As passagens aéreas estão incluídas?",
-      a: "Não estão incluídas, e isso é uma vantagem: cotamos os voos junto com a sua reserva buscando a melhor combinação de tarifa, milhas e conexões a partir da sua cidade — São Paulo, Rio, Belo Horizonte, Curitiba, Porto Alegre, Brasília ou qualquer outra base.",
+      a: group.flightsIncludedInPrice
+        ? "Sim. Os voos do circuito estão incluídos no valor do grupo. O que cotamos à parte é o aéreo do Brasil até a cidade de encontro — buscamos a melhor combinação de tarifa, milhas e conexões a partir da sua cidade."
+        : "Não estão incluídas, e isso é uma vantagem: cotamos os voos junto com a sua reserva buscando a melhor combinação de tarifa, milhas e conexões a partir da sua cidade — São Paulo, Rio, Belo Horizonte, Curitiba, Porto Alegre, Brasília ou qualquer outra base.",
     },
     {
       q: "As saídas são realmente garantidas?",
@@ -184,8 +188,8 @@ const GrupoGuiaLocal = () => {
         seller: { "@id": ENTITY_IDS.organization },
         description:
           group.priceEur && group.priceEur > 0
-            ? "Por pessoa em apartamento duplo, parte terrestre. Entrada de 25% + saldo em até 9x sem juros no cartão; aéreo cotado à parte."
-            : "Valor sob consulta: roteiro cotado sob medida conforme data de saída e categoria hoteleira. Parte terrestre com entrada de 25% + saldo em até 9x sem juros; aéreo cotado à parte.",
+            ? `Por pessoa em apartamento duplo. Pagamento com ${localGuidePaymentSummary(group)}. ${localGuideFlightNote(group)}`
+            : "Valor sob consulta: roteiro cotado sob medida conforme data de saída e categoria hoteleira.",
       },
       subjectOf: group.countries.map((c) => ({ "@type": "Place", name: c })),
     },
@@ -346,8 +350,10 @@ const GrupoGuiaLocal = () => {
               },
               {
                 icon: Users,
-                title: "Voos flexíveis",
-                desc: "Sem aéreo amarrado: cotamos os voos da sua cidade e você pode estender a viagem antes ou depois do circuito.",
+                title: group.flightsIncludedInPrice ? "Voos incluídos" : "Voos flexíveis",
+                desc: group.flightsIncludedInPrice
+                  ? "Os voos do circuito já estão no valor do grupo. Cotas o aéreo do Brasil até a cidade de encontro, e você pode estender a viagem antes ou depois."
+                  : "Sem aéreo amarrado: cotamos os voos da sua cidade e você pode estender a viagem antes ou depois do circuito.",
               },
             ].map((b, i) => {
               const Icon = b.icon;
@@ -499,7 +505,7 @@ const GrupoGuiaLocal = () => {
               Não incluído
             </h2>
             <ul className="space-y-3">
-              {LOCAL_GUIDE_NOT_INCLUDED.map((item) => (
+              {localGuideNotIncluded(group).map((item) => (
                 <li key={item} className="flex gap-3 text-sm">
                   <X className="text-muted-foreground flex-shrink-0 mt-0.5" size={18} />
                   <span className="text-muted-foreground">{item}</span>
@@ -520,8 +526,8 @@ const GrupoGuiaLocal = () => {
           <p className="text-white/85 mb-8">
             Em apartamento duplo. Valores por pessoa em{" "}
             {group.currency === "USD" ? "dólares" : "euros"}, sujeitos a
-            disponibilidade e à conversão do dia da reserva. Aéreo cotado
-            separadamente a partir da sua cidade.
+            disponibilidade e à conversão do dia da reserva.{" "}
+            {localGuideFlightNote(group)}
             {group.priceNote ? ` ${group.priceNote}` : ""}
           </p>
 
@@ -548,24 +554,53 @@ const GrupoGuiaLocal = () => {
             </div>
           </div>
 
+          {group.priceExtras && group.priceExtras.length > 0 && (
+            <div className="max-w-2xl mx-auto mb-8 text-left bg-white/10 border border-white/20 rounded-xl p-6">
+              <p className="text-xs uppercase tracking-wider text-gold mb-3">
+                Itens à parte
+              </p>
+              <ul className="space-y-2">
+                {group.priceExtras.map((extra) => (
+                  <li
+                    key={extra.label}
+                    className="flex justify-between gap-4 text-sm text-white/85"
+                  >
+                    <span>{extra.label}</span>
+                    <span className="whitespace-nowrap font-medium">
+                      {currencySymbol} {extra.valueEur.toLocaleString("pt-BR")}
+                    </span>
+                  </li>
+                ))}
+              </ul>
+            </div>
+          )}
+
           <div className="bg-card/95 text-foreground rounded-xl p-8 mb-8 text-left">
             <p className="text-xs uppercase tracking-wider text-gold mb-3 font-semibold">
               Condição de pagamento
             </p>
             <p className="text-sm text-muted-foreground mb-5">
-              Condição válida para a parte terrestre do programa. A parte aérea é cotada à parte e o parcelamento segue as regras da companhia aérea escolhida, que variam de uma cia para outra.
+              {group.payment
+                ? `Condição válida para o programa. ${localGuideFlightNote(group)}`
+                : "Condição válida para a parte terrestre do programa. A parte aérea é cotada à parte e o parcelamento segue as regras da companhia aérea escolhida, que variam de uma cia para outra."}
             </p>
             <div className="grid sm:grid-cols-2 gap-6">
               <div>
                 <p className="text-sm text-muted-foreground mb-1">Entrada</p>
-                <p className="font-serif text-3xl font-semibold">25%</p>
+                <p className="font-serif text-3xl font-semibold">
+                  {group.payment ? group.payment.entry : "25%"}
+                </p>
                 <p className="text-sm text-muted-foreground mt-1">
                   no ato da reserva
                 </p>
               </div>
               <div>
-                <p className="text-sm text-muted-foreground mb-1">Saldo (75%)</p>
-                <p className="font-serif text-3xl font-semibold">9x sem juros</p>
+                <p className="text-sm text-muted-foreground mb-1">
+                  {group.payment ? "Saldo" : "Saldo (75%)"}
+                </p>
+                <p className="font-serif text-3xl font-semibold">
+                  {group.payment ? group.payment.balance : "9x sem juros"}
+                </p>
                 <p className="text-sm text-muted-foreground mt-1">
                   no cartão de crédito
                 </p>

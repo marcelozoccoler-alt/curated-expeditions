@@ -17,9 +17,18 @@ export const laponiaRovaniemiAuroraBoreal2027: LocalGuideGroup = {
   category: "Premium",
   days: 4,
   nights: 3,
-  priceEur: 0,
+  priceEur: 3380,
+  singleSupplementEur: 450,
+  flightsIncludedInPrice: true,
+  payment: { entry: "30%", balance: "3 parcelas no cartão de crédito" },
+  priceExtras: [
+    {
+      label: "Upgrade para hotel 5 estrelas (por quarto, single ou duplo)",
+      valueEur: 3460,
+    },
+  ],
   priceNote:
-    "Forma de pagamento: 30% de entrada e saldo em 3 parcelas no cartão de crédito. Saída de Lisboa em 23/01/2027, com voos via Amsterdã incluídos (item pessoal, bagagem de mão e proteção de viagem). O aéreo Brasil–Lisboa é cotado à parte pela Create Travel. Experiências com guias locais.",
+    "Saída de Lisboa em 23/01/2027. Voos Lisboa–Rovaniemi–Lisboa via Amsterdã incluídos, com 1 item pessoal, bagagem de mão e proteção de viagem. Experiências com guias locais.",
   countries: ["Finlândia"],
   area: "Europa",
   hotels: [{ city: "Rovaniemi", hotel: "Scandic Rovaniemi City (Standard Room)" }],

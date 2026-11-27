@@ -1,5 +1,7 @@
 # Roadmap
 
+- [x] 27/11 17:03: Lapônia e Islândia 2027 com preços das propostas (€ 3.380 / € 5.210, mostrados como estão), suplementos e itens à parte; pagamento 30% + 3x; comissão de 20% das propostas B2B nunca aparece no site. Testes 288 OK. Sem publicar.
+
 - [x] Filme v29: Marcelo na estátua de Budapeste (40,3–41,9s) trocado por outra viajante; foto distorcida da Divanir após o jantar medieval (497,8–500,4s) trocada por selfie natural; textos e créditos removidos do mosaico Deesis de Santa Sofia (577,3–586,8s; imagem CC0/PD-Art). Chora já sem textos. Áudio idêntico à v28. Sem publicar.
 
 - [x] Filme v28: usuário confirmou somente a primeira foto de grupo no Pera. Retoque mínimo no rosto original em 673,4–679s; segunda foto preservada como na v26. Resultados generativos descartados por mudar identidade. Ambas as cenas conferidas; áudio SHA256 idêntico e duração 768,24s preservada. Sem publicação.

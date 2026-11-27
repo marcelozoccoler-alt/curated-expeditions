@@ -1,6 +1,11 @@
 import type { GeoFact } from "@/components/GeoAnswerBlock";
 import type { LocalGuideGroup } from "@/lib/localGuideGroups";
-import { localGuidePriceLabel, MONTHS_PT } from "@/lib/localGuideGroups";
+import {
+  localGuidePriceLabel,
+  localGuidePaymentSummary,
+  localGuideFlightNote,
+  MONTHS_PT,
+} from "@/lib/localGuideGroups";
 import { companyYears } from "@/lib/company";
 
 const clean = (s: string) => s.replace(/\s+/g, " ").trim();
@@ -26,7 +31,7 @@ export const buildGroupAiSummary = (g: LocalGuideGroup): string => {
       }, com hospedagem categoria ${g.category}, café da manhã diário, transporte e visitas guiadas incluídas. ` +
       `Investimento ${
         price === "Sob consulta" ? "sob consulta" : `a partir de ${price}`
-      } por pessoa em apartamento duplo na parte terrestre; aéreo cotado à parte. ` +
+      } por pessoa em apartamento duplo. ${localGuideFlightNote(g)} ` +
       `A Create Travel, agência brasileira de viagens autorais com ${companyYears()} anos de atuação, faz a curadoria, a reserva e a assistência em português antes, durante e depois da viagem.`
   );
 };
@@ -38,8 +43,8 @@ export const buildGroupGeoBullets = (g: LocalGuideGroup): string[] => {
     `Formato: grupo com guia local — recepção no aeroporto de ${cities[0] ?? g.countries[0]} e acompanhamento profissional no destino durante todo o circuito.`,
     `Idioma: guia em espanhol nas saídas garantidas, material e assistência em português pela Create Travel; guia em português sob consulta para datas específicas.`,
     `Países visitados: ${g.countries.join(", ")}${g.area ? ` (${g.area})` : ""}.`,
-    `Pagamento da parte terrestre: entrada de 25% na reserva e saldo em até 9x sem juros no cartão de crédito.`,
-    `Aéreo: cotado à parte a partir de qualquer cidade do Brasil, buscando a melhor combinação de tarifa, milhas e conexões.`,
+    `Pagamento: ${localGuidePaymentSummary(g)}.`,
+    `Aéreo: ${localGuideFlightNote(g)}`,
   ];
   if (g.singleSupplementEur) {
     out.push(
@@ -71,7 +76,7 @@ export const buildGroupGeoFacts = (g: LocalGuideGroup): GeoFact[] => {
     },
     {
       label: "Investimento",
-      value: `${localGuidePriceLabel(g)} por pessoa (duplo, parte terrestre)`,
+      value: `${localGuidePriceLabel(g)} por pessoa (duplo)`,
     },
     { label: "Perfil do viajante", value: "Casais e viajantes 40+ que valorizam curadoria" },
     { label: "Código do roteiro", value: g.code },

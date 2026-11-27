@@ -15,6 +15,14 @@ export interface LocalGuideHotel {
   hotel: string;
 }
 
+/** Condição de pagamento de um grupo. */
+export interface LocalGuidePayment {
+  /** Rótulo da entrada, ex.: "30%". */
+  entry: string;
+  /** Rótulo do saldo, ex.: "3 parcelas no cartão de crédito". */
+  balance: string;
+}
+
 export type LocalGuideCategory = "Premium" | "Primeira" | "Tudo Incluído" | "Hot Deal";
 
 export interface LocalGuideGroup {
@@ -36,6 +44,12 @@ export interface LocalGuideGroup {
   /** Observação adicional sobre o preço (ex.: equivalente em reais). */
   priceNote?: string;
   singleSupplementEur?: number;
+  /** Voos do trecho internacional do circuito já incluídos no preço. */
+  flightsIncludedInPrice?: boolean;
+  /** Condição de pagamento do grupo; ausente, vale o padrão (25% + 9x). */
+  payment?: LocalGuidePayment;
+  /** Itens com valor próprio que complementam o preço (voos, refeições, upgrades). */
+  priceExtras?: { label: string; valueEur: number }[];
   countries: string[];
   /** Continente/área para agrupamento e contexto ("Europa" por padrão). */
   area?: string;
@@ -53,6 +67,28 @@ export const localGuidePriceLabel = (g: LocalGuideGroup) =>
   g.priceEur && g.priceEur > 0
     ? `${g.currency === "USD" ? "US$" : "€"} ${g.priceEur.toLocaleString("pt-BR")}`
     : "Sob consulta";
+
+/** Condição de pagamento exibida no grupo. Padrão: 25% + saldo em até 9x. */
+export const localGuidePaymentSummary = (g: LocalGuideGroup) =>
+  g.payment
+    ? `entrada de ${g.payment.entry} na reserva e saldo em ${g.payment.balance}`
+    : "entrada de 25% na reserva e saldo em até 9x sem juros no cartão de crédito";
+
+/** Frase sobre o aéreo: incluído no preço do circuito ou cotado à parte. */
+export const localGuideFlightNote = (g: LocalGuideGroup) =>
+  g.flightsIncludedInPrice
+    ? "Os voos do circuito estão incluídos no valor; o aéreo do Brasil até a cidade de encontro é cotado pela Create Travel."
+    : "O aéreo internacional é cotado à parte, a partir de qualquer cidade do Brasil.";
+
+/** Itens "não incluído" do grupo, ajustados quando o voo do circuito já está no preço. */
+export const localGuideNotIncluded = (g: LocalGuideGroup) =>
+  g.flightsIncludedInPrice
+    ? LOCAL_GUIDE_NOT_INCLUDED.map((item) =>
+        item.startsWith("Passagens aéreas internacionais")
+          ? "Aéreo do Brasil até a cidade de encontro do circuito (cotamos junto, com as melhores tarifas do momento)"
+          : item
+      )
+    : LOCAL_GUIDE_NOT_INCLUDED;
 
 const localGuideGroupsCore: LocalGuideGroup[] = [
   {
