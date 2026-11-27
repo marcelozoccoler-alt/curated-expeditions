@@ -46,6 +46,7 @@ export const diaryPostsArtico: DiaryPost[] = [
       { q: "Quantos dias ficar em Rovaniemi?", a: "De 3 a 4 noites permitem uma fazenda de renas, uma noite de sauna, a Vila do Papai Noel e ao menos duas oportunidades de caçar a aurora." },
       { q: "A aurora boreal é garantida?", a: "Não. É um fenômeno natural. Por isso o roteiro inclui uma caçada adicional caso a aurora não tenha sido avistada na primeira saída." },
       { q: "Qual o frio em Rovaniemi em janeiro?", a: "As temperaturas costumam ficar entre −10°C e −20°C. Roupas térmicas em camadas, gorro, luvas e botas impermeáveis são indispensáveis." },
+      { q: "Qual a forma de pagamento do grupo?", a: "30% de entrada e o saldo em 3 parcelas no cartão de crédito." },
     ],
     relatedDestinations: [
       { label: "Grupo Lapônia · Rovaniemi jan/2027", href: "/grupos-guia-local/laponia-rovaniemi-aurora-boreal-janeiro-2027" },
@@ -96,6 +97,7 @@ export const diaryPostsArtico: DiaryPost[] = [
       { q: "Quantos dias são necessários para conhecer a Islândia?", a: "Oito dias permitem Reykjavík, o Círculo Dourado, a Costa Sul até Jökulsárlón e a Blue Lagoon com ritmo confortável." },
       { q: "Dá para visitar cavernas de gelo em março?", a: "Sim. As cavernas do Vatnajökull são visitadas no inverno, geralmente de novembro a março, sempre com guias especializados e equipamento de segurança." },
       { q: "O grupo tem guia em português?", a: "Sim, o grupo da Islândia de março de 2027 tem guia em português durante toda a viagem." },
+      { q: "Qual a forma de pagamento do grupo?", a: "30% de entrada e o saldo em 3 parcelas no cartão de crédito." },
     ],
     relatedDestinations: [
       { label: "Grupo Islândia · mar/2027", href: "/grupos-guia-local/islandia-aurora-boreal-marco-2027" },

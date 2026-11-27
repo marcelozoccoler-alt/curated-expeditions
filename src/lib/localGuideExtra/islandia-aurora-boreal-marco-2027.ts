@@ -21,7 +21,7 @@ export const islandiaAuroraBorealMarco2027: LocalGuideGroup = {
   nights: 7,
   priceEur: 0,
   priceNote:
-    "Saída de Lisboa em 14/03/2027 (voo FI955) e regresso em 21/03/2027 (FI954). O aéreo Brasil–Lisboa é cotado à parte pela Create Travel. Upgrade opcional na última noite para The Retreat at Blue Lagoon (Junior Suite) com suplemento de € 950.",
+    "Forma de pagamento: 30% de entrada e saldo em 3 parcelas no cartão de crédito. Saída de Lisboa em 14/03/2027 (voo FI955) e regresso em 21/03/2027 (FI954). O aéreo Brasil–Lisboa é cotado à parte pela Create Travel. Upgrade opcional na última noite para The Retreat at Blue Lagoon (Junior Suite) com suplemento de € 950.",
   countries: ["Islândia"],
   area: "Europa",
   hotels: [
