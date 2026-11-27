@@ -1,5 +1,6 @@
 # Roadmap
 
+- [x] 27/11: filme v24 restaura a foto original IMG-20261011-WA0150 do jantar medieval em 8:14–8:18, sem recriar rostos. Original e referência da Divanir comparados; nove quadros da cena e transições conferidos. Duração 768,24s/19206 quadros preservada; hash do áudio idêntico à v23. Nenhuma publicação; conferência integral do filme continua pendente.
 - [x] 22/11: “do zero” retirado das páginas, respostas e textos para buscas; “desenhando viagens personalizadas” conferido na página inicial em computador e celular, página de roteiros conferida e build OK. Sem publicação nesta etapa.
 - [ ] 23/11: continuar na v18 a partir da v17, priorizando rostos inteiros, seleção dos novos registros nos capítulos corretos, música do Pera e final com destinos reais/www.createtravel.tur.br. Tentar voz mais animada somente com créditos disponíveis; saldo consultado 4,40, sem crédito mensal/top-up. Preservar originais, verificar alterações e não publicar.
 - [x] 22/11: v17 parcial concluiu correção de 21 quadros (0,84s) desde Balat, preservando áudio v16; correspondência visual por amostras ±0,04s. Nova voz recusada por falta de créditos; rostos, uploads e trilha do Pera não concluídos. QA integral e licenças permanecem pendentes; não publicada.
