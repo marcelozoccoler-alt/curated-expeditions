@@ -1,5 +1,7 @@
 # Roadmap
 
+- [ ] Filme v27: retoque discreto e localizado do rosto de Marcelo nas fotos de grupo do Pera, preservando originais, outros rostos e áudio; conferir antes de entregar, sem publicar.
+
 - [x] Filme v26: retiradas as etiquetas sobre as três fotografias próprias de Chora em 573,04–577,32s e 586,8–602,96s. Fotos originais sem alteração, quadros de todas as cenas vistos, áudio idêntico (SHA256), 768,24s/19206 quadros preservados; créditos externos de Santa Sofia mantidos. Sem publicação.
 
 - [x] 27/11 01:28: filme v25 — foto de Marcelo na estátua substituída por duas viajantes em 47,8–51s; caminhada cantada em Praga 434,4–442,4s restaurada do vídeo original WA0105_2 (0,4–8,4s), respeitando rotação e proporção vertical; foto original WA0089 após jantar em 498–500,4s; brinde substituído por original motion_photo_5177277852921416302 com olhos abertos nas duas ocorrências (500,4–504s e 520–523,6s). Quadros iniciais/intermediários/finais vistos; áudio idêntico e duração 768,24s. LivroAutoral.tsx e MemorialReader.tsx lidos: filme ainda não integrado, fotos normais e ampliadas usam object-contain/h-auto; livro/PDF aprovado e originais preservados. Sem publicação; revisão integral anterior permanece pendente.
