@@ -1,5 +1,8 @@
 # Roadmap
 
+- [x] 27/11 19:53: conferir os ajustes da auditoria antes da publicação autorizada — H1 de /auth presente, Incoming em inglês e páginas de grupos conferidas no celular, sem largura excedente; 288 testes aprovados. Verificação básica de segurança sem problemas; análise profunda não executada. Correção já salva nos commits anteriores, sem novas falhas acionáveis na auditoria armazenada.
+- [x] 27/11 19:53: publicação autorizada dos ajustes de SEO solicitada para https://createtravel.tur.br; agendamento confirmado, conclusão da implantação ainda não verificada.
+
 - [x] 27/11 17:03: Lapônia e Islândia 2027 com preços das propostas (€ 3.380 / € 5.210, mostrados como estão), suplementos e itens à parte; pagamento 30% + 3x; comissão de 20% das propostas B2B nunca aparece no site. Testes 288 OK. Sem publicar.
 
 - [x] Filme v29: Marcelo na estátua de Budapeste (40,3–41,9s) trocado por outra viajante; foto distorcida da Divanir após o jantar medieval (497,8–500,4s) trocada por selfie natural; textos e créditos removidos do mosaico Deesis de Santa Sofia (577,3–586,8s; imagem CC0/PD-Art). Chora já sem textos. Áudio idêntico à v28. Sem publicar.
