@@ -2,6 +2,8 @@
 import type { LocalGuideGroup } from "@/lib/localGuideGroups";
 import { alemanhaRomanticaEFlorestaNegra } from "./alemanha-romantica-e-floresta-negra";
 import { auroraBoreal } from "./aurora-boreal";
+import { laponiaRovaniemiAuroraBoreal2027 } from "./laponia-rovaniemi-aurora-boreal-2027";
+import { islandiaAuroraBorealMarco2027 } from "./islandia-aurora-boreal-marco-2027";
 import { capitaisImperiaisHotDeal } from "./capitais-imperiais-hot-deal";
 import { capitaisImperiaisSpaTermalInverno } from "./capitais-imperiais-spa-termal-inverno";
 import { capitaisImperiaisTudoIncluido } from "./capitais-imperiais-tudo-incluido";
@@ -30,6 +32,8 @@ import { pragaEPolonia } from "./praga-e-polonia";
 import { trianguloEuropaOrientalHotDeal } from "./triangulo-europa-oriental-hot-deal";
 
 export const localGuideGroupsExtra: LocalGuideGroup[] = [
+  laponiaRovaniemiAuroraBoreal2027,
+  islandiaAuroraBorealMarco2027,
   alemanhaRomanticaEFlorestaNegra,
   auroraBoreal,
   capitaisImperiaisHotDeal,

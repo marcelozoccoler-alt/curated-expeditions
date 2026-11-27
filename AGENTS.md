@@ -9,3 +9,5 @@ Keep testimonials and their photo albums in the shared testimonials registry; op
 - Published memorial books use a typed page manifest generated from the approved PDF, with CDN page assets and extracted reading text; this preserves identical pagination, photographs and credits without duplicating the city/day itinerary photo registry.
 - The memorial web reader renders native editorial text and individual PDF-clipped photographs from a browser-independent editorial manifest; clipping the final composite preserves approved retouches and avoids showing hidden superseded images. Keep the approved print PDF separate from the web presentation.
 - Keep bespoke memorial landmark line drawings in MemorialLandmarks, separate from the reader navigation, so editorial illustrations remain focused and use semantic theme colors.
+
+- Create Signature trips carry an optional `guide` ("Guia brasileiro" | "Guia local"); local-guide Signature groups live in localGuideExtra and are highlighted via signatureLocalGuideTrips so home, Signature page and group pages stay in sync.

@@ -21,6 +21,7 @@ import { RegionsWeWork } from "@/components/RegionsWeWork";
 import { TrustBadges } from "@/components/TrustBadges";
 import { AnniversaryBanner } from "@/components/AnniversaryBanner";
 import { SEO } from "@/components/SEO";
+import { SignatureLocalSpotlight } from "@/components/SignatureLocalSpotlight";
 import { TAGS } from "@/lib/types";
 import { companyYears } from "@/lib/company";
 import { destinations, getFeaturedDestinations } from "@/lib/destinations";
@@ -126,6 +127,8 @@ const Index = () => {
         destinationsCount={destinations.length}
         departuresCount={DEPARTURES.length}
       />
+
+      <SignatureLocalSpotlight />
 
       {/* Spotlight: Egito Eterno · Abril 2027 */}
       <section className="section-padding bg-background">

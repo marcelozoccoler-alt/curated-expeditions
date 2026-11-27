@@ -24,8 +24,8 @@ const pillars = [
   },
   {
     icon: Languages,
-    title: "Cuidado desde Guarulhos",
-    text: "Assistência no aeroporto, guia brasileiro durante a jornada e suporte da nossa equipe no Brasil.",
+    title: "Guia brasileiro ou guia local",
+    text: "Jornadas com guia brasileiro saindo de Guarulhos e grupos especiais com guia local no destino, sempre com suporte da nossa equipe no Brasil.",
   },
 ];
 
@@ -63,7 +63,7 @@ const CreateSignature = () => {
         canonicalPath="/create-signature"
         ogImage={featured.image}
         ogType="website"
-        keywords="viagens em grupo de luxo, grupos premium, viagem exclusiva com guia brasileiro, Create Signature, grandes jornadas"
+        keywords="viagem lapônia rovaniemi, islândia aurora boreal, grupo aurora boreal 2027, viagens em grupo de luxo, grupos premium, viagem exclusiva com guia brasileiro, Create Signature, grandes jornadas"
         jsonLd={jsonLd}
       />
       <Header />
@@ -126,10 +126,10 @@ const CreateSignature = () => {
             <div className="flex flex-col md:flex-row md:items-end md:justify-between gap-5 mb-10">
               <div>
                 <p className="text-caption text-gold mb-3">Próximas saídas</p>
-                <h2 className="heading-section">Duas estações, duas formas de viver o Ártico</h2>
+                <h2 className="heading-section">Lapônia, Islândia e o Ártico em grandes jornadas</h2>
               </div>
               <p className="text-muted-foreground max-w-lg md:text-right">
-                O Natal e o Réveillon sob a neve ou a luz do fim do inverno: escolha o tempo que mais conversa com você.
+                Grupos com guia brasileiro e grupos especiais com guia local: escolha o tempo e o formato que mais conversam com você.
               </p>
             </div>
 
@@ -147,7 +147,7 @@ const CreateSignature = () => {
                   />
                 </Link>
                 <div className="p-7 md:p-12 flex flex-col justify-center">
-                  <p className="text-caption text-gold mb-4">{trip.collection}</p>
+                  <p className="text-caption text-gold mb-4">{trip.collection}{trip.guide ? ` · ${trip.guide}` : ""}</p>
                   <h3 className="font-serif text-3xl md:text-4xl leading-tight mb-4">{trip.title}</h3>
                   <p className="text-muted-foreground leading-relaxed mb-7">{trip.subtitle}</p>
                   <div className="space-y-3 text-sm border-y border-border py-6 mb-8">

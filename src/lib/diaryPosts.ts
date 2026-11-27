@@ -8,6 +8,7 @@ import { diaryPostsDestinos2 } from "./diaryPostsDestinos2";
 import { diaryPostsUsa } from "./diaryPostsUsa";
 import { diaryPostsAsiaCentral } from "./diaryPostsAsiaCentral";
 import { diaryPostsCombos } from "./diaryPostsCombos";
+import { diaryPostsArtico } from "./diaryPostsArtico";
 
 export interface DiarySection {
   heading: string;
@@ -3673,6 +3674,7 @@ const corePosts: DiaryPost[] = [
 
 
 export const diaryPosts: DiaryPost[] = [
+  ...diaryPostsArtico,
   ...corePosts,
   ...diaryPostsDestinos,
   ...diaryPostsDestinos2,
