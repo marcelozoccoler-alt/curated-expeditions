@@ -51,7 +51,13 @@ export default function Auth() {
   return (
     <>
       <SEO title="Acesso restrito | Create Travel" description="Área administrativa." canonicalPath="/auth" noindex />
-      <div className="min-h-screen flex items-center justify-center bg-background p-4">
+      <div className="min-h-screen flex flex-col items-center justify-center gap-6 bg-background p-4">
+        <div className="text-center max-w-md">
+          <h1 className="font-serif text-3xl text-foreground">Acesso restrito</h1>
+          <p className="text-sm text-muted-foreground mt-2">
+            Área administrativa da Create Travel. Entre para continuar.
+          </p>
+        </div>
         <Card className="w-full max-w-md">
           <CardHeader>
             <CardTitle className="font-serif text-2xl">
